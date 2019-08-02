@@ -2,6 +2,9 @@
 title: "Katalon Studio 22: How to do Mobile (iOS) Testing via 10 Steps"
 sidebar: katalon_studio_videos_sidebar
 permalink: katalon-studio/videos/ios_mobile_testing.html
+redirect_from:
+    - "/display/KD/Mobile+on+macOS/"
+    
 description: "Learn how to get started to perform Mobile (iOS) Testing using Katalon Studio via 10 steps tutorial from Raghav Pal."
 ---
 <iframe width="840" height="473" src="https://www.youtube.com/embed/73hgLeIBrgA?feature=oembed" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="">&nbsp;</iframe>
