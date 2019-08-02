@@ -7,6 +7,7 @@ redirect_from:
     - "/display/KD/Spy%20Mobile%20Utility/"
     - "/x/3QBO/"
     - "/katalon-studio/docs/spy-mobile-utility/"
+    - "/display/KD/Spy+Object/"
 description: 
 ---
 Capture objects using Spy Mobile Utility
