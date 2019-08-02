@@ -5,6 +5,7 @@ permalink: katalon-studio/docs/getting-started.html
 redirect_from:
     - "/display/KD/Getting+Started/"
     - "/display/KD/Getting%20Started/"
+    - "/display/KD/Installation+and+Setup/"
     - "/x/l4Ei/"
     - "/katalon-studio/docs/getting-started/"
     - "/display/KD/Before+You+Start/"
