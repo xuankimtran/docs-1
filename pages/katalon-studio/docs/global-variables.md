@@ -6,6 +6,7 @@ redirect_from:
   - "/katalon-studio/docs/global-variables/"
 description:
 ---
+> Starting from Katalon Studio [version 6.3.0](https://docs.katalon.com/katalon-studio/new/version-630.html), user can use Move up, Move down feature for GlobalVariable which is the same as the test case variable part.
 
 ## Define a Global Variable
 
