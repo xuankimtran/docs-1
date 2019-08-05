@@ -101,3 +101,11 @@ Repeat the steps same as above. Then we will have the result as below:
 
 
 The test suite should pass because _bind into test case as string_ is disabled so test data values are read as-is and all keyword functions receive their expected data types.
+
+> **Quick tip**
+>
+> To push customizability further, Katalon now supports an annotation called `BeforeTestDataBindToTestCase` which allows the annotated functions to operate on Test Data variables before they are bound into test cases.
+>
+> Prior to Katalon 6.3, you would have to compile another set of Test Data for each requirement. Increasingly varied requirements would then further complicate Test Data management.
+>
+> Starting from version 6.3, you will need one raw Test Data file and then define the rules of transformation in different functions using the new annotation. With this feature, deciding how Test Data variables will be used occurs at run-time.
