@@ -5,7 +5,7 @@ permalink: katalon-studio/docs/bind-as-string.html
 description: Update new feature starting from v6.3.0
 ---
 
-> Before version 6.3.0, variable binding automatically reads test data values as string. Starting from version 6.3.0, variable binding can be configured to read test data values as the intended data types. This feature is only applicable for Test data of type Excel and Database.
+> Starting from version 6.3.0, variable binding can be configured to read test data values as the intended data types. This feature is only applicable for Test data of type Excel and Database.
 
 User can enable this feature to obtain old variable binding behaviors. Old test data will continue to be read as string to ensure that we don't break existing test cases.
 
@@ -76,7 +76,7 @@ Create a Test Data with option _bind into test case as string_ enabled and with 
 
 
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/bind-as-string/1-create-test-data-enabled.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/bind-as-string/option-enabled.png)
 
 
 Follow the steps in [this document](https://docs.katalon.com/katalon-studio/docs/run-test-case-external-data.html) and run the test case. Then we will have the result as below:
@@ -92,7 +92,7 @@ The test suite should fail because the first keyword function takeBooleanAndPrin
 
 Create a Sample Test Data with option _bind into test case as string_ disabled.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/bind-as-string/3-create-test-data-disabled.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/bind-as-string/option-disabled.png)
 
 
 Repeat the steps same as above. Then we will have the result as below:
