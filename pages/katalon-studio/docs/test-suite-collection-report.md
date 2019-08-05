@@ -9,6 +9,15 @@ redirect_from:
     - "/katalon-studio/docs/test-suite-collection-report/"
 description: 
 ---
+> Starting from version 6.3.0, reports can be viewed directly inside each Test Suite Collection page.
+
+For example:
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-suite-collection-report/view-report-inside-test-suite-collection.png)
+
+
+<details><summary>Deprecated Content</summary>
+
 Once a test suite collection finishes its execution, a historical report will be automatically generated and stored in Reports. 
 
 For example:
@@ -17,10 +26,12 @@ For example:
 
 The report will be named with following the naming convention: _YYYYMMDD_HHmmss_, which is the datetime when the test suite collection starts its execution.
 
+</details>
+
 Test Suite Collection Report
 ----------------------------
 
-In **Test Explorer** view, double-click on a historical execution of a test suite collection to view its details:
+In **Test Suite Collection** page, click on **Result** tab to view its details:
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-suite-collection-report/image2017-2-24-203A523A54.png)
 
