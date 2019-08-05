@@ -13,6 +13,9 @@ description:
 ---
 > Only **Chrome, Firefox and Remote** options are supported for console mode execution **using Linux version**.
 
+> API Keys are required to use **Katalon Studio Plugins** in console mode. [Learn more](/katalon-store/docs/user/plugin-console-installation.html).
+
+
 You can execute automation test without launching Katalon Studio by using command line mode execution. 
 
 Execute Katalon in CMD
