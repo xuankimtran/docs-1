@@ -52,7 +52,7 @@ The **Script** view of a test case allows you to programmatically define and ha
 
  ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/binary-statements/11.png)
 
-In the above example, **varA** and **varC** are left expressions; **varB** and **varD** right expression; "**+**" and "**==**" operators.
+In the above example, **varA** and **varC** are left expressions; **varB** and **varD** right expressions; "**+**" and "**==**" operators.
 
 
 
