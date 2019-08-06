@@ -33,26 +33,25 @@ Binary Statements are normally used to assign either values to test objects
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/binary-statements/Binary-Statement.png" width="675" height="196">
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/binary-statements/BS-1.png" width="337" height="46">
-
 or test objects to variables to take the next steps.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/binary-statements/BS-2.png" width="665" height="220">
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/binary-statements/BS-3.png" width="528" height="121">
 
 
 4.  Save the test case when you're done.
     
     > Once a test step is added as any of the **Binary Statement**, it will **not** be allowed to change it into another keyword.
 
-### Binary statements in Scripting view
+### Binary statements in Script view
 
 The **Script** view of a test case allows you to programmatically define and handle binary statements easily using either Groovy or Java languages.
 
- ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/binary-statements/11.png)
+For example:
 
-In the above example, **varA** and **varC** are left expressions; **varB** and **varD** right expressions; "**+**" and "**==**" operators.
+* To assign a value to a test object
 
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/binary-statements/BS-1.png" width="337" height="46">
 
+* To assign a test object to a variable
 
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/binary-statements/BS-3.png" width="528" height="121">
