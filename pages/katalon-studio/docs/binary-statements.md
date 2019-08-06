@@ -9,20 +9,37 @@ redirect_from:
     - "/katalon-studio/docs/binary-statements/"
 description: 
 ---
-Binary Statements represent expressions consist of two **operand**s (variables, strings, numbers, methods...) and an **operator** (e.g. +, -, *, <, <=, !...).
+
+## Definition
+
+Binary Statements represent a dual expression consisting of two single **expressions** (variables, strings, numbers, methods...) and an **operator** (e.g. +, -, *, <, <=, !, etc.). Refer to [Groovy Documents](http://groovy-lang.org/operators.html) for more details about using operators in Groovy.
+
+## Usage
+
+Binary Statements are normally used to assign either values to test objects
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/binary-statements/Binary-Statement.png" width="675" height="196">
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/binary-statements/BS-1.png" width="337" height="46">
+
+or test objects to variables to take the next steps.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/binary-statements/BS-2.png" width="665" height="220">
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/binary-statements/BS-3.png" width="528" height="121">
 
 Binary statement in Manual view
 -------------------------------
 
-1.  Open a test case in **Manual** view, then navigate to **Binary Statements** from command toolbar.  
+1.  Open a test case in **Manual** view, then navigate to **Binary Statements** from the command toolbar.  
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/binary-statements/image2017-6-30-203A433A7.png)  
       
     
-2.  A test step represents binary expression is added to the test case.  
+2.  A test step representing binary statements is added into the test case.  
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/binary-statements/image2017-2-10-133A463A52.png)  
       
     
-3.  Double click on the **Input** cell to edit the binary expression.  
+3.  Double click on the **Input** cell to edit those required components.  
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/binary-statements/image2017-2-10-143A03A33.png)  
       
     
@@ -34,8 +51,8 @@ Binary statement in Manual view
 Binary statement in Scripting view
 ----------------------------------
 
-The **Script** view of test cases allows you to programmatically define and handle binary expression easily using either Groovy or Java language. Refer to [http://groovy-lang.org/operators.html](http://groovy-lang.org/operators.html) for more details about using operators in Groovy.
-
-For example:
+The **Script** view of a test case allows you to programmatically define and handle binary statements easily using either Groovy or Java languages.
 
  ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/binary-statements/11.png)
+
+In the above example, **varA** and **varC** are left expressions; **varB** and **varD** right expression; "**+**" and "**==**" operators.
