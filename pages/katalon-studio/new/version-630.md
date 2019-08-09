@@ -44,7 +44,8 @@ description: Release note 6.3.0
 *   Allow implementing variable binding without converting test data to strings. See [Enhanced Variable Binding](https://docs.katalon.com/katalon-studio/docs/bind-as-string.html#variable-binding-for-test-data-with-option-embind-into-test-case-as-stringem-enabled).
 *   Support implementing an annotation called BeforeTestDataBindToTestCase in test listener. See [[Quick tip] Enhanced Variable Binding](https://docs.katalon.com/katalon-studio/docs/bind-as-string.html).
 *   Support Move up and Move down items in the default profile. See [Global Variables](https://docs.katalon.com/katalon-studio/docs/global-variables.html).
-*   Support spying, recording and running the Mobile script on custom cloud-based testing tools; and an option to choose between AndroidDriver or iOSDriver when Appium is set as `Remote server type`. See [Testing Mobile Apps Using Custom Cloud Devices](/katalon-studio/docs/mobile-testing-apps-cloud-devices.html).
+*   Support spying, recording and running the Mobile script on custom cloud-based testing tools; and an option to choose between AndroidDriver or iOSDriver when Appium is set as `Remote server type`. See [Testing Mobile Apps Using Custom Cloud Devices](/katalon-studio/docs/mobile-testing-apps-cloud-devices.html) and [Remote Desired Capabilities](katalon-studio/docs/remote-desired-capabilities.html).
 *   Support spying, recording and running existing applications on Android and iOS devices. See [[Mobile] Start Existing Application](/katalon-studio/docs/mobile-keyword-start-existing-apps.html) and [Spy and Record Utilities for testing an existing application](/katalon-studio/docs/mobile-spy-record-existing-apps.html).
 *   Support quickly setting up your devices by displaying sub-menus of Android, iOS and Kobiton devices in Mobile Spy and Recorder tool items. 
 *   Enhancement: Remove the **-- disable-extensions** argument from Chrome Desired Capabilities.
+*   Support Chrome version 76.
