@@ -46,11 +46,20 @@ Execute Katalon in CMD
 
 
 3.  Press **Enter** to start execution.
+4.  **Exit Code**
+
+      Below is the list of exit codes after console mode execution:
+
+   *   0: the execution passed with no failed or error test case.
+   *   1: the execution has failed test cases.
+   *   2: the execution has error test cases.
+   *   3: the execution has failed test cases and error test cases.
+   *   4: the execution cannot start because of invalid arguments.
 
 Katalon Studio Plugins in Console Mode
 --------------------------------------
 
-To use in console mode, Katalon Studio Plugins must be installed using Katalon Store's API keys. Please follow instructions [here](/katalon-store/docs/user/plugin-console-installation.html).
+> To use in console mode, Katalon Studio Plugins must be installed using Katalon Store's API keys. Please follow instructions [here](/katalon-store/docs/user/plugin-console-installation.html).
 
 General Options 
 ---------------
