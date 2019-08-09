@@ -14,10 +14,12 @@ Before getting started, refer to [API Keys Settings](https://docs.katalon.com/ka
 
 
 1.  Generate a new API key or using an existing key
-2.  Add the **apiKey** parameter to the execution command line. \
-<span style="text-decoration:underline;">For example:</span> \
-`katalon -noSplash  -runMode=console -consoleLog -noExit -projectPath="C:\Users\Katalon Studio\Project\YourProject.prj"` `-retry=` `0` `-testSuitePath="Test Suites/TS_RegressionTest"` <code>-browserType="Chrome (headless) <strong>-apiKey=e4c46ee7-0179-4309-a7bf-c0530bf61d07 \
-</strong></code>
+2.  Add the **apiKey** parameter to the execution command line.
+
+For example:
+
+`katalon -noSplash -runMode=console -consoleLog -noExit -projectPath="C:\Users\Katalon Studio\Project\YourProject.prj" -retry=0 -testSuitePath="Test Suites/TS_RegressionTest" -browserType="Chrome (headless)" -apiKey=e4c46ee7-0179-4309-a7bf-c0530bf61d07`
+
 3.  Plugins installed by the API key owners will be downloaded and installed to Katalon Studio before execution. Functions of the plugins will be triggered accordingly.
 
 ## Install a plugin directly from console
