@@ -13,6 +13,8 @@ redirect_from:
     - "/katalon-studio/docs/before-you-start/"
     - "/katalon-studio/docs/before-you-start.html"
     - "/katalon-studio/tutorials/install_setup_katalon_studio.html"
+    - "/display/KD/Installation+and+Setup/"
+    - "/display/KD/Installation%20and%20Setup/"
 description:
 ---
 Download Katalon Studio
