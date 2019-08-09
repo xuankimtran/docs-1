@@ -79,14 +79,6 @@ Exit Codes
 When you execute Katalon Studio command from CI , exit code will be generated as the output of your execution. You can use this exit code to know whether your execution is successful, passed or failed.
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-integration/image2016-9-8-103A433A50.png)
 
-Below is the list of exit codes after console mode execution:
-
-*   0: the execution passed with no failed or error test case.
-*   1: the execution has failed test cases.
-*   2: the execution has error test cases.
-*   3: the execution has failed test cases and error test cases.
-*   4: the execution cannot start because of invalid arguments.
-
 Publish JUnit reports
 ---------------------
 
