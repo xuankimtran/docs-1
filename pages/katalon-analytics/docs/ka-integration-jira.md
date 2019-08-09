@@ -7,7 +7,7 @@ description: How to integrate KA with Jira
 ## Configuration
 
 **Prerequisites:**
-* The [Katalon BDD Add-on for Jira](katalon-studio/docs/BDD-field-jira-cloud.html) installed 
+* The [Katalon BDD Add-on for Jira](https://docs.katalon.com/katalon-studio/docs/BDD-field-jira-cloud.html#install-and-use-katalon-bdd-custom-field-in-jira-cloud) installed 
 
 **In Jira**
 
