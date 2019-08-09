@@ -33,7 +33,7 @@ items:
             url: /katalon-studio/docs/overview.html
           - title: "What's new"
             tree:
-              - title: "Version 6.3.0 (Beta)"
+              - title: "Version 6.3.0"
                 url: /katalon-studio/new/version-630.html
               - title: "Version 6.2.2"
                 url: /katalon-studio/new/version-622.html
