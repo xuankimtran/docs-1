@@ -4,10 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/new/version-622.html
 redirect_from:
     - "/katalon-studio/new/version-622/"
-    - "/katalon-studio/new/"
-    - "/display/KD/Release+Notes/"
-    - "/display/KD/Release%20Notes/"
-    - "/katalon-studio/new/all-versions.html"
+   
 description: Release notes v6.2.2
 ---
 
