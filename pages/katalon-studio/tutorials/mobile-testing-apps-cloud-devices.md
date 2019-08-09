@@ -21,8 +21,6 @@ Starting with **Katalon Studio version 6.3.0**, *Mobile Object Spy* and *Mobile 
 
 In addition to Android, iOS and Kobiton devices, a new tool item **Remote Devices** is added to the UI of Mobile Object Spy and  Mobile Recorder.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-testing-cloud-devices/1-remote%20button.png)
-
 ### Configure a remote device
 
 You can configure a remote device in 2 ways:
@@ -35,8 +33,6 @@ You can configure a remote device in 2 ways:
 
 **Cloud Application ID** is the ID of the application file (.apk; .ipa) after being uploaded  to the cloud. The Kobiton’s application ID, for instance, is **kobiton-store:23616**.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-testing-cloud-devices/2-AppID.png)
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-testing-cloud-devices/2-AppID.png" width="393" height="210">
 
 After you enter the application ID, the **Start** button is enabled.
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-testing-cloud-devices/3-filled-AppId.png)
