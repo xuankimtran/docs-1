@@ -5,6 +5,8 @@ permalink: katalon-studio/docs/enable-kobiton-integration.html
 redirect_from:
     - "/display/KD/Enable+Kobiton+Integration/"
     - "/display/KD/Enable%20Kobiton%20Integration/"
+    - "/display/KD/Kobiton+Integration/"
+    - "/display/KD/Kobiton%20Integration/"
     - "/x/7IEw/"
     - "/katalon-studio/docs/enable-kobiton-integration/"
     - "/display/KD/Kobiton+Integration/"
