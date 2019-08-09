@@ -12,7 +12,7 @@ description: "Support spying and recording an existing app"
 
     **Application ID** is the ID of the application file (.apk; .ipa) after being uploaded  to the cloud. The Kobiton’s application ID, for instance, is **kobiton-store:23616**.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-testing-cloud-devices/2-AppID.png)
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-testing-cloud-devices/2-AppID.png" width="393" height="210">
 
 In **Mobile Recorder**
 
