@@ -1,0 +1,15 @@
+com.kms.katalon.core.annotation
+com.kms.katalon.core.checkpoint
+com.kms.katalon.core.configuration
+com.kms.katalon.core.driver
+com.kms.katalon.core.keyword
+com.kms.katalon.core.mobile.driver
+com.kms.katalon.core.mobile.keyword
+com.kms.katalon.core.model
+com.kms.katalon.core.testcase
+com.kms.katalon.core.testdata
+com.kms.katalon.core.testobject
+com.kms.katalon.core.util
+com.kms.katalon.core.webservice.keyword
+com.kms.katalon.core.webui.driver
+com.kms.katalon.core.webui.keyword
