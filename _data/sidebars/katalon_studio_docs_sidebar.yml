@@ -955,7 +955,7 @@ items:
             tree:
               - title: "Console Mode Execution"
                 url: /katalon-studio/docs/console-mode-execution.html
-              - title: "Docker"
+              - title: "Docker & Cloud CIs"
                 url: /katalon-studio/docs/docker.html
               - title: "Export Test Results in JUnit Format"
                 url: /katalon-studio/docs/export-test-results-in-junit-format.html
