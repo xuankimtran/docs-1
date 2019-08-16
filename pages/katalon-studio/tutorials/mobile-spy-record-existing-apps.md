@@ -8,11 +8,7 @@ description: "Support spying and recording an existing app"
 
 1. Open **Mobile Object Spy**/**Mobile Recorder** with Android or iOS devices.
 
-2. In configurations, you can start spying or recording on an existing application with an application ID. Select **Application ID**, enter the application ID in the corresponding text field, the **Start** button will be enabled.
-
-    **Application ID** is the ID of the application file (.apk; .ipa) after being uploaded  to the cloud. The Kobiton’s application ID, for instance, is **kobiton-store:23616**.
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-testing-cloud-devices/2-AppID.png" width="393" height="210">
+2. In configurations, you can start spying or recording on an existing application with an application ID. Select **Application ID**, enter the [application ID](https://docs.katalon.com/katalon-studio/docs/mobile-keyword-start-existing-apps.html) in the corresponding text field, the **Start** button will be enabled.
 
 In **Mobile Recorder**
 
