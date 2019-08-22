@@ -10,6 +10,6 @@ Starting in [version 6.1.3 - 6.1.4](https://docs.katalon.com/katalon-studio/new/
 
 * Allowed WebDriver binaries to be updated automatically in GUI mode. The behavior is disabled by default.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/preferences-webui.PNG)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/automatically-update-webdriver/auto-update-webdriver.png) 
 
 * Allowed WebDriver binaries to be updated automatically in console mode. The command argument is `--config -webui.autoUpdateDrivers=true`.
