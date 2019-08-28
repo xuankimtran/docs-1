@@ -27,11 +27,11 @@ This would be applicable for Chrome, Firefox and Edge.
 1.  Working with AutoIt file:
     
 
-*   *   *   Proceed to edit credential to your own account:
+*   Proceed to edit credential to your own account:
             
-            *   Open autoIt Script Editor (SciTE)
+    *   Open autoIt Script Editor (SciTE)
                 
-            *   Open (or create new) autoit file with contents:
+    *   Open (or create new) autoit file with contents:
                 
 
 > Change your own credential at "Username" and "Password" fields
