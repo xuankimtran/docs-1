@@ -128,7 +128,7 @@ items:
               - title: "Installation Overview"
                 url: /katalon-studio/docs/getting-started.html
               - title: "Activate Katalon Studio"
-                url: /katalon-studio/docs/katalon-studio-activation-since-57.html
+                url: /katalon-studio/docs/katalon-studio-activation-since-70.html
               - title: "Update Katalon Studio"
                 url: /katalon-studio/docs/auto-updater.html
               - title: "Supported Environments"

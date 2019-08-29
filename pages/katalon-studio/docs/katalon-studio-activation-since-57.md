@@ -1,57 +1,55 @@
 ---
 title: "Activate Katalon Studio"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/katalon-studio-activation-since-57.html
+permalink: katalon-studio/docs/katalon-studio-activation-since-70.html
 redirect_from:
     - "/x/ERLR/"
-    - "/katalon-studio/docs/katalon-studio-activation-since-57/"
+    - "/katalon-studio/docs/katalon-studio-activation-since-70/"
     - "/display/KD/Installation+and+Setup/"
 
 description:
 ---
-Thank you for choosing Katalon Studio. After installing Katalon Studio, you will be asked to activate the app using Katalon account. We recommend that you have an Internet connection on the computer that you are going to use Katalon Studio in. 
+After installing Katalon Studio, you will be asked to activate it. There are two ways of activating Katalon Studio: online and offline activations.
 
-In some cases where there is no Internet access, you will need a computer with Internet connection to request an Offline Activation Code to activate Katalon Studio. 
+## Online activating Katalon Studio
 
-Activating with Internet Connection
------------------------------------
+You need to create a Katalon Account and specify your Organization to log in to Katalon Studio.
 
-Simply provide your Katalon account to activate Katalon Studio. 
+> Notes: If you don't have an account, click [here](https://www.katalon.com/create-account/) to sign up or you can register for one right inside Katalon Studio by clicking **Register**. Once you have signed up successfully, Katalon Studio will automatically be activated.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-activation-since-57/image2018-8-30-143A143A24.png)
+Follow these steps to activate Katalon Studio:
 
-### In-app Registration
+1. Enter the email and password registered for your Katalon account then click **Activate**.
+2. You are navigated to your own organization or you can select one of the organizations you belong to in the drop-down list.
+3. You're recommended to install the plugins for a better experience with Katalon Studio.
+4. Open an existing project or create a new one in Katalon Studio.
+5. In Katalon Analytics Integration pop-up window:
 
-If you have not registered a Katalon account yet, Katalon Studio allows you to sign up for an account right inside the app without having to access the website.
+* Select a team in the configured organization that you have permission to access.
+* Select a project under that team you’d like to work on or create your own one if you have permission.
 
-Once you have signed up successfully, Katalon Studio will automatically be activated. 
+### Configuring Proxy for online activation
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-activation-since-57/image2018-8-30-143A133A37.png)
+If you're behind a Proxy Server, you'll need to configure the proxy settings before activating Katalon Studio. Click **Config Proxy** at the bottom of the Activation dialog box. In the Proxy Settings dialog box, you can select one of three options below.
 
-Configuring Proxy for Activation
---------------------------------
+* **Use system proxy configuration**: Katalon Studio tries to guess which proxy server is your system behind and sync with these settings.
+* **No proxy**: there's no proxy.
+* **Manual proxy configuration**: you can manually set up your proxy.
 
-If you are behind a **Proxy**, you will need to config the proxy setting before activating Katalon Studio. Click on **Config Proxy** on the Activation dialog, the Proxy Settings will be displayed as below.
+### Troubleshooting a common problem when activation
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-activation-since-57/image2018-8-30-143A153A49.png)
+"_Network error! Please try Offline Activation_"- This error message indicates Katalon Studio application cannot communicate with Katalon server to activate it.
 
-Activating without Internet Connection
---------------------------------------
+Please check your Internet connection and try again. If you are behind a **Proxy Server**, please **Config Proxy** first and try to activate Katalon Studio again.
 
-> A Katalon account is required for requesting the Offline Activation Code. If you don't have an account, please sign up for one either in-app or on the Katalon website (https://www.katalon.com).
+## Offline activating Katalon Studio
 
-If there is no Internet connection available, Katalon Studio allows you to activate using an **Offline Activation Code** that requested on a computer with Internet connection. Follow these steps:
+You need a license key to offline activate Katalon Studio which can be used in the Internet-closed environments. A Katalon account is required for generating a license key.
 
-1.  Copy the provided unique **Request Code.**
-2.  On the computer with Internet access, open Katalon website and **sign in** to your account.
-3.  Access [https://www.katalon.com/activation](https://www.katalon.com/activation) to request the Activation Code using the copied Request Code.
-4.  Copy and Paste the generated Activation Code to activate Katalon Studio.
+1. Generate a license key: To generate a license key in Katalon Analytics, access your organization , navigate to the **License Keys** tab, insert a **Machine ID** which can be taken from Katalon Studio, then click **Create**.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-activation-since-57/image2018-8-30-143A153A11.png)
+> Notes: Machine ID is granted for each computer installing Katalon Studio.
 
-Troubleshooting Common Problems with Activation
------------------------------------------------
+2. Use a license key: To use a license key, click the **Download** button, the license key will be downloaded as a `license.lic` file.
 
-*   "_Network error! Please try Offline Activation_" - This error message indicates Katalon Studio application cannot communicate with Katalon server to activate the product. 
-    *   Please check your Internet connection and try again.
-    *   If you are behind a **Proxy**, please **Config Proxy** first and try to activate Katalon Studio again.
+
