@@ -4,7 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/introduction-desktop-app-testing.html 
 ---
 
-> Starting with **Katalon Studio version 7.0**, you can execute a test on a Windows desktop application.
+> Starting in **Katalon Studio version 7.0**, you can execute a test on a Windows desktop application.
 
 ### **Windows Execution Type**
 

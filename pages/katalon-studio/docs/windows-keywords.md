@@ -3,7 +3,7 @@ title: "Windows Built-in Keywords"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/windows-keywords.html
 ---
-> Starting with **Katalon Studio version 7.0**, you can run a test on a Windows desktop application.
+> Starting in **Katalon Studio version 7.0**, you can run a test on a Windows desktop application.
 
 ## startApplication
 

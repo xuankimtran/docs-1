@@ -4,7 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/windows-desired-capabilities.html 
 ---
 
-> Starting with **Katalon Studio version 7.0**, Windows desktop application testing is available.
+> Starting in **Katalon Studio version 7.0**, Windows desktop application testing is available.
 
 Navigate to **Project** > **Settings** > **Desired Capabilities**> **Windows** to configure desired capabilities for desktop applications testing.
 

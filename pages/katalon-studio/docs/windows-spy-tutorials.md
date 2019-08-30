@@ -3,7 +3,7 @@ title: "Windows Spy Tutorials"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/windows-spy-tutorials.html
 ---
-> Starting with **Katalon Studio version 7.0**, you can spy objects on a Windows desktop application.
+> Starting in **Katalon Studio version 7.0**, you can spy objects on a Windows desktop application.
 
 1. To start capturing test objects on a Desktop application, Click the **Spy Windows Object** icon on the main toolbar of Katalon Studio.
 
