@@ -933,6 +933,8 @@ items:
             url: /katalon-studio/docs/running-cucumber-features-file.html
       - title: "Integration"
         tree:
+          - title: "Katalon API Keys"
+            url: /katalon-studio/docs/katalon-apikey-70.html 
           - title: "Katalon Analytics (Beta) Integration"
             url: /katalon-studio/docs/katalon-analytics-beta-integration.html
           - title: "Jira Integration"
