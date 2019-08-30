@@ -9,75 +9,72 @@ redirect_from:
     - "/katalon-studio/docs/katalon-analytics-beta-integration/"
 description: 
 ---
-[Katalon Analytics (Beta)](/display/KA) is a cloud-based application provides in-depth views of test execution reports through powerful visualization including charts, graphs, and metrics. Currently, Katalon Analytics supports integration with Katalon Studio for better test report management.
+[Katalon Analytics (Beta)](/display/KA) is a cloud-based application that provides an in-depth view of test execution reports through powerful visualization including charts, graphs, and metrics. Currently, Katalon Analytics supports integration with Katalon Studio for better test report management.
 
-> Test Reports are only available for **Test Suite/Test Suite Collection** level execution.
+> Test Reports are only available for **Test Suite/Test Suite Collection** level.
 
-Settings 
+Starting in **Katalon Studio version 7.0**, you need to specify the organization you're working on to log in to Katalon Studio. Then you can configure the integration with Katalon Analytics in two ways:
+
+1. Right after logging in, there is a Katalon Analytics Integration pop-up window.
+
+* Select a team in the configured organization that you have permission to access.
+
+* Select a project under that team you’d like to work on or create your own one if you have permission.
+
+2. In Katalon Studio, select **Project** > **Settings** > **Katalon Analytics**.
+
+Settings
 ---------
 
-**Katalon Analytics integration** must be **enabled** in order to submit test execution Reports to Katalon Analytics. In Katalon Studio, select **Project** > **Setting** > **Integration > Katalon Analytics**. Following the below steps to set up the integration properly.
+**Katalon Analytics integration** must be **enabled** in order to submit test execution reports to Katalon Analytics. In Katalon Studio, select **Project** > **Settings** > **Katalon Analytics**. Following the below steps to set up the integration properly.
 
-Check '**Enable Integration**' checkbox. All the fields will be visible for edit.
+Check **Enable Integration** checkbox. All the fields will be visible for editing.
 
 ### Authentication
 
-Enter Katalon Analytics credential which is Katalon Studio account. Click **Connect**.
+Katalon Analytics credentials that include the Server URL: `https://analytics.katalon.com` and the email used for logging in to Katalon Studio, will be auto-filled.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-analytics-beta-integration/image2018-7-31-113A93A52.png)
+> Notes: Starting in **Katalon Studio version 7.0**, [Katalon API Keys](/katalon-studio/docs/katalon-apikey-70) can be used for enabling Katalon Analytics in console mode.
+
+Click **Connect** to retrieve all teams and projects that you have permission to access in the organization you're working on.
 
 ### Select Team and Project
 
-Once Katalon Studio **successfully connected** to Katalon Analytics, all relevant Katalon Analytics **Teams** and **Projects** will be retrieved and **displayed** in Teams and Projects drop-down menu. You can also **create New Project** for Katalon Analytics, just click **New Project** button and provide the project's **Name**. 
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-analytics-beta-integration/image2018-7-31-113A103A3.png)
+Once Katalon Studio is **successfully connected** to Katalon Analytics, all relevant Katalon Analytics the **Teams** and **Projects** will be retrieved and displayed in the Teams and Projects drop-down menu. You can also **create a  new project** in Katalon Analytics if you're a team owner or admin, simply click the **New Project** button and enter a name for it.
 
 ### Test Result
 
-In Test Result, users can **select** preferred **options** for Katalon Studio execution Reports.
+In Test Result, you can decide whether or not Katalon Studio will automatically upload test run results to Katalon Analytics and whether the uploaded test results include screenshots and videos.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-analytics-beta-integration/image2018-7-31-113A103A16.png)
+Click **Apply** and then **OK** to finish your configurations.
 
-| Option | Description |
-| --- | --- |
-| Automatically submit test run result | Katalon Studio will automatically upload Test Suite execution Reports to Katalon Analytics |
-| Attach Screenshot | Include execution Screenshots |
-
-Click **OK** to complete. 
+> Notes: **Katalon Studio version 7.0** supports submitting test run results with captured videos to Katalon Analytics.
 
 Upload Reports
 --------------
 
-See details document [here](/x/wBxO).
+View the detailed documents of uploading test results from [Katalon Studio](https://docs.katalon.com/katalon-analytics/docs/project-management-import-KS.html) and the [command line](https://docs.katalon.com/katalon-analytics/docs/project-management-import-cli.html).
 
-Access Katalon Analytics to View Reports
-----------------------------------------
+Starting in **Katalon Studio Version 7.0**, the reports with pdf, HTML, CSV formats automatically generated by [Basic Report Plugin](https://store.katalon.com/product/59/Basic-Report) can be uploaded from Katalon Studio to Katalon Analytics. Remember to [configure your preferred report formats](https://docs.katalon.com/katalon-studio/docs/basic-report.html#features).
 
-You can access your reports easily from three windows in Katalon Studio: Test Reports, Test Case View, and Test Suite View. 
+Access Katalon Analytics
+------------------------
 
-### Test Reports View
+### View Reports
 
-In the **Test Reports View**, clicking on **Katalon Analytics **button and you will see two options. 
+In the **Result** Tab of a Test Suite, click the **Katalon Analytics** button, then select **Access Analytics** to access the **Execution** tab. You can also view more reports in the **Reports** tab in Katalon Analytics.
 
-*   **Access Analytics** gives you the options to view a specific report directly on the website. 
-*   **Upload **allows you to push a report manually to Katalon Analytics. 
+### View Execution History of a specific Test Case or Test Suite
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-analytics-beta-integration/image2018-7-31-143A573A2.png)
+You can also view a specific Test Case or Test Suite entire execution history in Katalon Analytics by clicking the **View Execution History** button on the Test Case or Test Suite Views.  
 
-> Forget to Integrate?
-> 
-> If you haven't integrated with Katalon Analytics prior to clicking **Access Analytics**, an integration panel will appear. Enter your authentication information in the provided box.
-> 
-> ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-analytics-beta-integration/image2018-7-31-103A553A23.png)
-> 
-> When you are using Katalon Analytics for the first time, Katalon Studio will automatically create a new project and team to push your test reports. However, if you've already had teams and projects on Analytics, Katalon Studio will ask you to select the location to upload your test results.
-> 
-> ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-analytics-beta-integration/image2018-7-31-103A563A2.png)
-> 
-> You can change this setting later by going to **Project** > **Setting** > **Integration > Katalon Analytics**. 
+### Create Test Plan in Katalon Analytics right from Katalon Studio
 
-### View specific Test Case/Test Suite Execution History
+Starting in **Katalon Studio version 7.0**, on the test suite collection view, click the **Create Test Plan** button to:
 
-You can also view a specific Test Case or Test Suite entire execution history on Katalon Analytics by clicking on **View Execution History **button on the Test Case or Test Suite View.  
+* Zip and upload the current Project code.
+* Create a corresponding Test Plan on Katalon Analytics with the above Test Project.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-analytics-beta-integration/image2018-7-31-113A393A28.png)
+### Store Katalon Studio's project code in Katalon Analytics
+
+Starting in **Katalon Studio version 7.0**, to store your Katalon Studio's Project Code in Katalon Analytics, from any screens of your project in Katalon Studio, click <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-analytics-beta-integration/upload-project-code.png" width="28" height="20.6"> icon, select the preferred Katalon Analytics team and project to store the Katalon Studio project code, then enter a Code Repo name and click **Upload**.
