@@ -71,7 +71,7 @@ Before that person accepts the invitation, their email address will be listed in
 
 _Invite a user to your team:_
 
-Only users in an organization can be invited to a team in that organization. From __Users Tab__ in a team, select that person's email in drop-down list and then click __Add__ to add a user to a team.
+Only users in an organization can be invited to a team in that organization. Select a team, from __Users Tab__ in a team, select that person's email in drop-down list and then click __Add__ to add a user to a team.
 
 **Remove existing users**
 

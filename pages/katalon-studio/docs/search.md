@@ -1,5 +1,5 @@
 ---
-title: "Search" 
+title: "Search Function"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/search.html
 redirect_from:

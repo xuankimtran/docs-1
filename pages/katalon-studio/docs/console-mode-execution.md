@@ -1,5 +1,5 @@
 ---
-title: "Console Mode Execution"
+title: "Console Mode Execution (Command-line Execution)"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/console-mode-execution.html
 redirect_from:

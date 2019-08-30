@@ -13,7 +13,7 @@ description:
 In order to run automation test on Internet Explorer, you need the following setup:
 
 *   For **IE 7** or **higher**:
-    *   **Enable Protected Mode** must be the same (**checked**/**unchecked**) for all available zones. 
+    *   **Enable Protected Mode** must be **unchecked** for all available zones. 
 *   To access this setting, choose **Internet Options** from **Control Panel** of Windows, then switch to the **Security** tab:  
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/internet-explorer-configurations/cypgm2bz42y8.png)
 *   Additionally, **Enable Enhanced Protected Mode*** must be disabled for IE 10 and higher. You can set this at the **Advanced** tab of the **Internet Options**.  
