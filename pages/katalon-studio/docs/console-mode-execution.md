@@ -314,6 +314,26 @@ Integration Options
    </tbody>
 </table>
 
+Automatically Updating Webdriver Option
+-------------------
+
+<table>
+   <thead>
+      <tr>
+         <th>Katalon Command Line Option</th>
+         <th>Description</th>
+         <th>Mandatory?</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td>--config -webui.autoUpdateDrivers=true</td>
+         <td>Allow WebDriver binaries to be updated automatically in console mode.</td>
+         <td>N</td>
+      </tr>
+   </tbody>
+</table>
+
 Command Builder
 ---------------
 
