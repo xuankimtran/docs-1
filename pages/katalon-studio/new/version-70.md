@@ -9,7 +9,7 @@ description: Release note 7.0 (beta)
 
 ## Version 7.0 (Beta)
 
-> Katalon Studio 7.0 (Beta) is currently available. Click [here]() to download.
+> **Katalon Studio 7.0 (Beta)** is currently available. Click [here](https://github.com/katalon-studio/katalon-studio/releases) to download.
 
 ### Fixes
 
