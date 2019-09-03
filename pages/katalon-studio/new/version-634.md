@@ -1,17 +1,16 @@
 ---
-title: "Version 6.3.4" 
+title: "Version 6.3.4 (Beta)" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/new/version-634.html
 redirect_from:
     - "/katalon-studio/new/version-634/"
-    - "/katalon-studio/new/"
-    - "/display/KD/Release+Notes/"
-    - "/display/KD/Release%20Notes/"
-    - "/katalon-studio/new/all-versions.html"
+   
 description: Release note 6.3.4
 ---
 
-## Version 6.3.4
+## Version 6.3.4 (Beta)
+
+**Katalon Studio version 6.3.4 (beta)** is available, click [here](https://github.com/katalon-studio/katalon-studio/releases/tag/v6.3.4.rc2) to download.
 
 ### New Features
 
