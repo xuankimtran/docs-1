@@ -14,7 +14,7 @@ description: Release note 6.3.4
 
 ### New Features
 
-* Support private plugins.
+* Support private plugins. [Learn more](https://docs.katalon.com/katalon-studio/docs/private-plugins.html).
 
 ### Improvements
 
