@@ -23,7 +23,7 @@ description: Release note 6.3.4
 * Support adding the Organisation ID parameter to the Command Generator.
 * Support selecting a Katalon Analytics's organization on the activation.
 * Enhancement: Add some JVM options to reduce Katalon Studio’s memory consumption.
-* Support a hotkey of Spy Utility in Web Recorder to capture objects.
+* Support a hotkey of Spy Utility in Web Recorder to capture objects. [Learn more](https://docs.katalon.com/katalon-studio/docs/record-web-utility.html).
 
 ### Fixes
 
