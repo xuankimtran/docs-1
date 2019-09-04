@@ -4,14 +4,10 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/new/version-630.html
 redirect_from:
     - "/katalon-studio/new/version-630/"
-    - "/katalon-studio/new/"
-    - "/display/KD/Release+Notes/"
-    - "/display/KD/Release%20Notes/"
-    - "/katalon-studio/new/all-versions.html"
 description: Release note 6.3.0
 ---
 
-## Version 6.3.0 - 6.3.3
+## Version 6.3.0
 
 ### Fixes
 
