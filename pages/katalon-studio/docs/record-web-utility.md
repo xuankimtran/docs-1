@@ -21,7 +21,8 @@ Record
     
 *   In this example, select either Chrome or Firefox from '**New Browser**' type to start recording.
     
-    > *   The browser will highlight and display its correspondent Xpath when you hover the mouse on that element.
+    > *   The browser will highlight and display its correspondent Xpath when you hover the mouse on that element.\
+    Notes: Starting from **Katalon Studio version 6.3.4**, a hotkey of Web Spy Utility is supported in Web Recorder to capture objects. Press the combination of `<Alt + back quote>` keys on the keyboard to capture object. The captured object will be highlighted with the green border.
     > *   Recorded steps will generate in Recorded Actions.
     > *   When you type in a Password field, Web Recorder will automatically use '[Set Encrypted Text](/display/KD/%5BWebUI%5D+Set+Encrypted+Text)' keyword and input's value will be encrypted to increase security.
     > 
