@@ -1066,6 +1066,8 @@ items:
             url: /katalon-studio/docs/retrieve-chromedriverlog-and-firefoxdriverlog-when-you-run-recordspy.html
           - title: "Retrieve mobile's session"
             url: /katalon-studio/docs/retrieve-mobiles-session.html
+          - title: "Using autoIT for authentication in Katalon Studio"
+            url: /katalon-studio/docs/using-autoit-for-authentication-in-katalon-studio.html
       - title: "Javadoc"
         url: /katalon-studio/docs/javadoc.html
       - title: "Deprecated Documentation"
