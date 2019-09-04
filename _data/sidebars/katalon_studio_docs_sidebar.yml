@@ -967,6 +967,8 @@ items:
                 url: /katalon-studio/docs/vststfsvso-integration.html
               - title: "Continuous integration with Gitlab"
                 url: /katalon-studio/docs/continuous_integration_gitlab.html
+              - title: "E2E testing integration with CircleCI"
+                url: /katalon-studio/docs/integration-circleci.html
           - title: "CI/CD Plugins"
             tree:
               - title: "Common Configuration"
