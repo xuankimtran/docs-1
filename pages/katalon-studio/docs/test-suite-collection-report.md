@@ -48,5 +48,5 @@ where:
 Export to other formats
 -----------------------
 
-For the purpose of sharing, users can generate reports of Test Suite Collection into **HTML** format using the context menu in Test Explorer as example below:   
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-suite-collection-report/image2017-6-23-163A123A5.png)
+For the purpose of sharing, users can export reports of a Test Suite Collection to **HTML** format. [View more details](https://docs.katalon.com/katalon-studio/docs/basic-report.html#manually-export-report).
+
