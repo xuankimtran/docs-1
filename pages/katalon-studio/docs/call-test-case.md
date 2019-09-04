@@ -9,7 +9,7 @@ redirect_from:
     - "/katalon-studio/docs/call-test-case/"
 description:
 ---
-> For more details on how to apply test case in Data-driven Testing, refer to [this article](katalon-studio/docs/test-case-variables.html).
+> For more details on how to apply test case in Data-driven Testing, refer to [this article](https://docs.katalon.com/katalon-studio/docs/test-case-variables.html).
 
 Call Test Case in Manual view
 -----------------------------

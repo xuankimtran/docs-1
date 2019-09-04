@@ -229,7 +229,7 @@ items:
                 url: /katalon-studio/docs/web-locators-settings-since-v571.html
       - title: "Test Case"
         tree:
-          - title: "Test Cases Management"
+          - title: "Search Function"
             url: /katalon-studio/docs/search.html
           - title: "Manual View"
             url: /katalon-studio/docs/manual-view.html
@@ -957,7 +957,7 @@ items:
                 url: /katalon-studio/docs/git_conflict_resolve.html
           - title: "CI/CD Integration"
             tree:
-              - title: "Console Mode Execution"
+              - title: "Console Mode Execution (Command-line Execution)"
                 url: /katalon-studio/docs/console-mode-execution.html
               - title: "Docker & Cloud CIs"
                 url: /katalon-studio/docs/docker.html
