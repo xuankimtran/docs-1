@@ -16,7 +16,7 @@ The `Spy Windows Objects` dialog box is basically similar to the one for [`Mobil
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-windows-object/Spy-windows-object-dialogue.png" width="532" height="358">
 
-### CONFIGURATIONS
+### Configurations
 
 In the **CONFIGURATIONS** section:
 
@@ -28,7 +28,7 @@ In the **CONFIGURATIONS** section:
 
 When the application starts, Katalon Studio starts capturing all available Windows objects on the current screen of the testing machine and shows them at the **ALL OBJECTS** section.
 
-### SCREEN OBJECTS
+### Screen Objects
 
 The **SCREEN OBJECTS** section shows a tree of all captured Windows elements. Each item represents a Windows element. Its label is a combination of the Windows Element (blue text) and its tag name (black text). When an item is selected, its position is highlighted on the nearby Device View. This helps you easily identify the right object.
 
@@ -36,13 +36,13 @@ The **SCREEN OBJECTS** section shows a tree of all captured Windows elements. Ea
 
 To add a Windows element to the Object Repository, first you need to check the checkbox on the left of the desired Windows element, then it is added to the **CAPTURED OBJECT** section.
 
-### CAPTURED OBJECT
+### Captured Object
 
 The **CAPTURED OBJECT** section shows all of the captured Windows elements that you want to add  to the Object Repository. When an item is selected, its information is displayed in the **OBJECT PROPERTIES** section. You can view and edit the object's name, locator and properties before adding it to the Object Repository.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-windows-object/Windows-Spy-Object-2.png" width="362" height="595">
 
-### OBJECT PROPERTIES
+### Object Properties
 
 * **Object Name**: the edited Windows object's name.
 * **Locator Strategy** and **Locator**: the locator to identify the Windows element.
@@ -50,7 +50,7 @@ The **CAPTURED OBJECT** section shows all of the captured Windows elements that 
 
 After the desired Windows objects are added, they will be shown under the Object Repository folder of the Tests Explorer.
 
-### WINDOWS OBJECT PART
+### Windows Object Part
 
 The Windows Object part is where to display the Locator and properties of a Window Object.
 
