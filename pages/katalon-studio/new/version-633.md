@@ -21,4 +21,4 @@ description: Release note 6.3.3
 ### Fixes
 
 * Bug: Cannot create or open a dynamic test suite.
-* Bug: `Run from here` doesn't work if the script contains [Postfix](http://docs.groovy-lang.org/latest/html/documentation/core-operators.html#_unary_operators)expressions.
+* Bug: `Run from here` doesn't work if the script contains [Postfix](http://docs.groovy-lang.org/latest/html/documentation/core-operators.html#_unary_operators) expressions.
