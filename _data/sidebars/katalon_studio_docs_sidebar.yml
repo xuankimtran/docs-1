@@ -35,7 +35,11 @@ items:
             tree:
               - title: "Version 7.0 (Beta)"
                 url: /katalon-studio/new/version-70.html
-              - title: "Version 6.3.0 - 6.3.3"
+              - title: "Version 6.3.4 (Beta)"
+                url: /katalon-studio/new/version-634.html
+              - title: "Version 6.3.3"
+                url: /katalon-studio/new/version-633.html
+              - title: "Version 6.3.0 - 6.3.2"
                 url: /katalon-studio/new/version-630.html
               - title: "Version 6.2.2"
                 url: /katalon-studio/new/version-622.html
@@ -227,7 +231,7 @@ items:
                 url: /katalon-studio/docs/web-locators-settings-since-v571.html
       - title: "Test Case"
         tree:
-          - title: "Test Cases Management"
+          - title: "Search Function"
             url: /katalon-studio/docs/search.html
           - title: "Manual View"
             url: /katalon-studio/docs/manual-view.html
@@ -935,6 +939,8 @@ items:
             url: /katalon-studio/docs/running-cucumber-features-file.html
       - title: "Integration"
         tree:
+          - title: "Katalon API Keys"
+            url: /katalon-studio/docs/katalon-apikey-70.html 
           - title: "Katalon Analytics (Beta) Integration"
             url: /katalon-studio/docs/katalon-analytics-beta-integration.html
           - title: "Jira Integration"
@@ -955,7 +961,7 @@ items:
                 url: /katalon-studio/docs/git_conflict_resolve.html
           - title: "CI/CD Integration"
             tree:
-              - title: "Console Mode Execution"
+              - title: "Console Mode Execution (Command-line Execution)"
                 url: /katalon-studio/docs/console-mode-execution.html
               - title: "Docker & Cloud CIs"
                 url: /katalon-studio/docs/docker.html
@@ -1064,6 +1070,8 @@ items:
             url: /katalon-studio/docs/retrieve-chromedriverlog-and-firefoxdriverlog-when-you-run-recordspy.html
           - title: "Retrieve mobile's session"
             url: /katalon-studio/docs/retrieve-mobiles-session.html
+          - title: "Using autoIT for authentication in Katalon Studio"
+            url: /katalon-studio/docs/using-autoit-for-authentication-in-katalon-studio.html
       - title: "Javadoc"
         url: /katalon-studio/docs/javadoc.html
       - title: "Deprecated Documentation"
@@ -1106,6 +1114,8 @@ items:
         url: /katalon-studio/docs/testlink-integration.html
       - title: "Sauce Labs Integration"
         url: /katalon-studio/docs/saucelabs-plugin.html
+      - title: "Private Plugins"
+        url: /katalon-studio/docs/private-plugins.html
   - title: "Extend Katalon Studio"
     tree:
       - title: "Create your first Katalon Studio plugin"

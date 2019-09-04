@@ -133,11 +133,10 @@ where:
 Export to other formats
 -----------------------
 
-Since Katalon Studio 6.1.5, please install [Basic Report](https://store.katalon.com/product/59/Basic-Report) plugin to use this feature.
+Starting with Katalon Studio 6.1.5, please install [Basic Report](https://store.katalon.com/product/59/Basic-Report) plugin to use this feature.
 
 <details><summary>Deprecated Content</summary>
 
-For the purpose of sharing, users can generate reports of test suites into other formats such as **HTML**, **CSV**, **PDF** and **JUnit** using the context menu in Test Explorer as example below: 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-suite-report/image2017-6-23-163A23A2.png)
+For the purpose of sharing, users can export reports of test suites into other formats such as **HTML**, **CSV**, **PDF** and **JUnit**. [View more details](https://docs.katalon.com/katalon-studio/docs/basic-report.html#manually-export-report).
 
 </details>

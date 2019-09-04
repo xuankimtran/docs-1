@@ -1,5 +1,5 @@
 ---
-title: "Console Mode Execution"
+title: "Console Mode Execution (Command-line Execution)"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/console-mode-execution.html
 redirect_from:
@@ -309,6 +309,26 @@ Integration Options
       <tr>
          <td>-qTestDestType=&lt;destination's type&gt;</td>
          <td>Type of the destination. There are 4 options for destination's type:"test-suite", "test-cycle", &nbsp;"release", and "root".</td>
+         <td>N</td>
+      </tr>
+   </tbody>
+</table>
+
+Automatically Updating Webdriver Option
+-------------------
+
+<table>
+   <thead>
+      <tr>
+         <th>Katalon Command Line Option</th>
+         <th>Description</th>
+         <th>Mandatory?</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td>--config -webui.autoUpdateDrivers=true</td>
+         <td>Allow WebDriver binaries to be updated automatically in console mode.</td>
          <td>N</td>
       </tr>
    </tbody>
