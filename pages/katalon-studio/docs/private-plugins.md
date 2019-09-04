@@ -10,13 +10,13 @@ View and copy your an organization ID at [https://analytics.katalon.com](https:/
 
 This new feature allows users to **add** a private plugin to the Plugins Folder, then **download** and **use** it like those plugins downloaded from Katalon Store.
 
-### **Private plugins**
+### Private plugins
 
 **Katalon Studio's private plugins** are [Katalon Studio plugins](https://docs.katalon.com/katalon-store/docs/publisher/create-plugin.html) that are only used by those authenticated organizational users and not published on Katalon Store for public use.
 
 You're allowed to use private plugins only when being authenticated by Katalon Store. Unlike normal users, those users granted to use private plugins can use an unlimited number of plugins.
 
-### **Plugins Folder**
+### Plugins Folder
 
 Private plugins are stored in a Katalon project, under the Plugins folder. They are treated as local plugins. 
 
@@ -49,7 +49,7 @@ Plugins
 
 > Notes: All [platform plugins](https://github.com/katalon-studio/katalon-studio-platform) should be placed at the Plugins/platform folder while all [Custom Keyword plugins](https://docs.katalon.com/katalon-store/docs/publisher/develop-custom-keywords.html) should be placed at the bottom of the Plugins folder.
 
-### **2. Plugin Repository**
+### Plugin Repository
 
 You're allowed to choose a Plugin Repository by following this path: **Preferences**> **Katalon**> **Plugins**.
 
