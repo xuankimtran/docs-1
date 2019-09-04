@@ -1104,6 +1104,8 @@ items:
         url: /katalon-studio/docs/testlink-integration.html
       - title: "Sauce Labs Integration"
         url: /katalon-studio/docs/saucelabs-plugin.html
+      - title: "Private Plugins"
+        url: /katalon-studio/docs/private-plugins.html
   - title: "Extend Katalon Studio"
     tree:
       - title: "Create your first Katalon Studio plugin"
