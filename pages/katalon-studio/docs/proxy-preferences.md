@@ -9,10 +9,16 @@ redirect_from:
     - "/katalon-studio/docs/proxy-preferences/"
 description: 
 ---
-Proxy setup can be configured at: **Window > Katalon Studio Preferences > Katalon > Proxy**. The setting affects both WebUI and WebService testings. 
+Proxy setup can be configured at: **Katalon Studio> Preferences > Katalon > Proxy**. This setting affects both WebUI and WebService testings.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/image2017-6-29-163A73A12.png)
+In the Proxy Settings, you can select one of three options below.
 
-> Users who have troubles activating Katalon Studio due to proxy issues can also access this setting as showed below:
-> 
->   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/image2017-7-2-213A403A23.png)
+* **No proxy**: there's no proxy.
+* **Use system proxy configuration**: Katalon Studio tries to guess which proxy server is your system behind and sync with this setting.
+* **Manual proxy configuration**: you can manually set up your proxy.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/proxy.png" width="671" height="532">
+
+> If you're behind a Proxy Server, you'll need to configure the proxy settings before activating Katalon Studio. Click Config Proxy at the bottom of the Activation dialog box.
+>
+> ![Config Proxy](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/image2017-7-2-213A403A23.png)
