@@ -6,23 +6,24 @@ redirect_from:
   - "/katalon-studio/docs/global-variables/"
 description:
 ---
-> Starting from Katalon Studio [version 6.3.0](https://docs.katalon.com/katalon-studio/new/version-630.html), user can use Move up, Move down feature for GlobalVariable which is the same as the test case variable part.
+> Starting from **Katalon Studio [version 6.3.0](https://docs.katalon.com/katalon-studio/new/version-630.html)**, Move up and Move down functions for Global Variables are available.
 
 ## Define a Global Variable
 
-A Global Variable can be accessed anywhere inside your project. Global Variables can be managed using the **Global Variables** view.
+A Global Variable can be accessed anywhere inside your project. Global Variables can be managed in the **Default Profile** view.
 
-Expand the **Global Variable** view. Then click **Add**. 
+> Starting from Katalon Studio version 5.4, the Global Variable view is no longer available.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/variable-types/image2017-6-30-203A273A48.png)
+Expand the **default profile** view, then click **Add**.
 
-The **New Variable** dialog is displayed. Specify details for the variable then click **OK**.
+The **New Variable** dialog box is displayed. Specify details for the variable then click **OK**.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/variable-types/image2017-1-24-153A413A17.png)
 
+The variable will be added to the **default profile** accordingly.
 
-The variable will be added to the **Global Variable** list accordingly.
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/variable-types/image2017-6-30-203A283A43.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/variable-types/default-profile.png)
+
 
 ## Use a Global Variable
 
