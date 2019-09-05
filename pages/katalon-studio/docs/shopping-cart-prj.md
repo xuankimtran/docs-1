@@ -4,6 +4,8 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/shopping-cart-prj.html 
 ---
 
+Shopping Cart sample project is available [here](https://github.com/katalon-studio-samples/shopping-cart-tests).
+
 ## Profiles
 
 - In the [default profile](https://docs.katalon.com/katalon-studio/docs/execution-profile-v54.html), you can create and save all [global variables](https://docs.katalon.com/katalon-studio/docs/global-variables.html). They can be used across Test Cases in your project.
