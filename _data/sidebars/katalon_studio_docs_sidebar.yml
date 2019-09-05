@@ -163,6 +163,10 @@ items:
         tree:
           - title: "Quick Start"
             url: /katalon-studio/docs/quick_start.html
+          - title: "Sample Projects"
+            tree:
+              - title: "Shopping Cart Project"
+                url: /katalon-studio/docs/shopping-cart-prj.html
           - title: "Web Testing"
             tree:
               - title: "Introduction to Web Testing"
