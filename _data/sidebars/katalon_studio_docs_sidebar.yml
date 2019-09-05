@@ -867,6 +867,22 @@ items:
                         url: /katalon-studio/docs/ws-verify-response-status-code.html
                       - title: "[WS] Verify Response Status Code In Range"
                         url: /katalon-studio/docs/ws-verify-response-status-code-in-range.html
+          - title: "Windows Desktop Apps Test Design"
+            tree:
+              - title: "Introduction to Desktop App Testing"
+                url: /katalon-studio/docs/introduction-desktop-app-testing.html
+              - title: "Windows Record and Spy Utilities"
+                tree:
+                  - title: "Introduction to Windows Spy Utility"
+                    url: /katalon-studio/docs/intro-spy-windows.html
+                  - title: "Introduction to Windows Record Utility"  
+                    url: /katalon-studio/docs/intro-record-windows.html
+                  - title: "Windows Spy Tutorials"
+                    url: /katalon-studio/docs/windows-spy-tutorials.html
+                  - title: "Windows Record Tutorials"  
+                    url: /katalon-studio/docs/windows-recorder-tutorials.html
+              - title: "Windows Built-in Keywords"
+                url: /katalon-studio/docs/windows-keywords.html
       - title: "Execution and Reporting"
         tree:
           - title: "Test Suite"
@@ -907,6 +923,8 @@ items:
                 url: /katalon-studio/docs/desired-capabilities-for-internet-explorer.html
               - title: "Remote Desired Capabilities"
                 url: /katalon-studio/docs/remote-desired-capabilities.html
+              - title: "Desired Capabilities for Windows"
+                url: /katalon-studio/docs/windows-desired-capabilities.html
           - title: "Executing Tests on Multiple Devices in Parallel"
             url: /katalon-studio/docs/execute_tests_parallelly_multiple_devices.html
       - title: "Data-driven Testing"
