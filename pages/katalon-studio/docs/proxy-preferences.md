@@ -14,7 +14,7 @@ Proxy setup can be configured at: **Katalon Studio> Preferences > Katalon > Pro
 In the Proxy Settings, you can select one of three options below.
 
 * **No proxy**: there's no proxy.
-* **Use system proxy configuration**: Katalon Studio tries to guess which proxy server is your system behind and sync with this setting.
+* **Use system proxy configuration**: Katalon Studio tries to guess which proxy server your system is behind and sync with this setting.
 * **Manual proxy configuration**: you can manually set up your proxy.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/proxy.png" width="671" height="532">

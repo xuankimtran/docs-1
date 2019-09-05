@@ -32,7 +32,7 @@ Follow these steps to activate Katalon Studio:
 
 If you're behind a Proxy Server, you'll need to configure the proxy settings before activating Katalon Studio. Click **Config Proxy** at the bottom of the Activation dialog box. In the Proxy Settings dialog box, you can select one of three options below.
 
-* **Use system proxy configuration**: Katalon Studio tries to guess which proxy server is your system behind and sync with these settings.
+* **Use system proxy configuration**: Katalon Studio tries to guess which proxy server your system is behind and sync with these settings.
 * **No proxy**: there's no proxy.
 * **Manual proxy configuration**: you can manually set up your proxy.
 
