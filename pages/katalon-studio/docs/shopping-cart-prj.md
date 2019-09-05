@@ -6,7 +6,7 @@ permalink: katalon-studio/docs/shopping-cart-prj.html
 
 ## Profiles
 
-- In the [default profile](https://docs.katalon.com/katalon-studio/docs/execution-profile-v54.html), you can create and save all [global variables](https://docs.katalon.com/katalon-studio/docs/global-variables.html). You can use them anywhere in your Test Case.
+- In the [default profile](https://docs.katalon.com/katalon-studio/docs/execution-profile-v54.html), you can create and save all [global variables](https://docs.katalon.com/katalon-studio/docs/global-variables.html). They can be used across Test Cases in your project.
 
 ## Test Cases
 
