@@ -22,8 +22,7 @@ The **New Variable** dialog box is displayed. Specify details for the variable t
 
 The variable will be added to the **default profile** accordingly.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/variable-types/default-profile.png)
-
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/variable-types/default-profile.png" width="784" height="395">
 
 ## Use a Global Variable
 
