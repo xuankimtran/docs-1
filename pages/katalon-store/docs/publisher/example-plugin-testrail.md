@@ -65,7 +65,7 @@ Settings are saved per project.
 
 ## **Link Katalon Studio’s Test Cases with TestRail’s Test Cases**
 
-![]](https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/publisher/2_mapping.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/publisher/2_mapping.png)
 
 
 ```
@@ -86,7 +86,7 @@ For implementation, see classes `com.katalon.plugin.testrail.TestRailTestCaseInt
 ## **Execute Test Cases selectively based on TestRail’s settings**
 
 
-![]](https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/publisher/4_querying.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/publisher/4_querying.png)
 
 ```
 <extension
@@ -105,7 +105,7 @@ For implementation, see class `com.katalon.plugin.testrail.TestRailQueryingTestS
 
 ## **Sending result to TestRail**
 
-![]](https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/publisher/3.1_sending.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/publisher/3.1_sending.png)
 
 
 
