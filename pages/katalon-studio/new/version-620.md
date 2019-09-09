@@ -6,6 +6,15 @@ redirect_from:
     - "/katalon-studio/new/version-620/"
 description: Release notes v6.2.0
 ---
+## Improvements
+
+* Show plugins which failed to reload
+* Support SSL client certificate
+* Support Appium v1.12.1, iOS 12.2, Xcode 10.2
+* Support overriding default WebDrivers per project
+* Update selenium-standalone-server from 3.7.1 to 3.141.59
+* Update appium-java-client from 5.0.0 to 7.0.0
+* Remove embedded carthage, libimobiledevice, and ios-deploy
 
 ## Fixes
 
@@ -25,13 +34,3 @@ description: Release notes v6.2.0
 * Bug: Custom headers are not sent along with SOAP requests
 * Bug: Postman collection's sub-folder structure was not preserved
 * Bug: Katalon Studio is hanged when editing an argument type in Desired Capabilities dialog
-
-## Improvements
-
-* Show plugins which failed to reload
-* Support SSL client certificate
-* Support Appium v1.12.1, iOS 12.2, Xcode 10.2
-* Support overriding default WebDrivers per project
-* Update selenium-standalone-server from 3.7.1 to 3.141.59
-* Update appium-java-client from 5.0.0 to 7.0.0
-* Remove embedded carthage, libimobiledevice, and ios-deploy
