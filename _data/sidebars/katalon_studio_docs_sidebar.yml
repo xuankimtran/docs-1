@@ -657,6 +657,14 @@ items:
                             url: /katalon-studio/docs/webui-modify-object-property.html
                           - title: "[WebUI] Remove Object Property"
                             url: /katalon-studio/docs/webui-remove-object-property.html
+              - title: "Mobile Record and Spy Utilities"
+                tree:
+                  - title: "Record Mobile Utility"
+                    url: /katalon-studio/docs/record-mobile-utility.html
+                  - title: "Spy Mobile Utility"
+                    url: /katalon-studio/docs/spy-mobile-utility.html
+                  - title: "Spy and Record Utilities for testing an existing application"
+                    url: /katalon-studio/docs/mobile-spy-record-existing-apps.html
                   - title: "Mobile Keywords"
                     tree:
                       - title: "[Mobile] Application"
@@ -791,14 +799,6 @@ items:
                             url: /katalon-studio/docs/mobile-send-keys.html
                           - title: "[Mobile] Set Text"
                             url: /katalon-studio/docs/mobile-set-text.html
-              - title: "Mobile Record and Spy Utilities"
-                tree:
-                  - title: "Record Mobile Utility"
-                    url: /katalon-studio/docs/record-mobile-utility.html
-                  - title: "Spy Mobile Utility"
-                    url: /katalon-studio/docs/spy-mobile-utility.html
-                  - title: "Spy and Record Utilities for testing an existing application"
-                    url: /katalon-studio/docs/mobile-spy-record-existing-apps.html
               - title: "Working with Selenium WebDriver"
                 tree:
                   - title: "Automatically Update WebDriver"
@@ -1260,9 +1260,12 @@ items:
         url: /katalium-server/docs/katalium-overview.html
       - title: "Get Started"
         url: /katalium-server/docs/katalium-user-guide.html
+      - title: "Katalium Server - Execute Katalon Studio's scripts on Remote Machines"
+        url: /katalium-server/docs/katalium-server-katalon-studio-remote-machine.html 
       - title: "WebDriver Auto-update"
         url: /katalium-server/docs/katalium-webdriver.html
       - title: "Sessions Monitoring"
         url: /katalium-server/docs/view-session-details.html
       - title: "Contributing Guidelines"
         url: /katalium-server/docs/katalium-contributing.html
+     
