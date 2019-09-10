@@ -17,3 +17,5 @@ You can execute your scripts in Katalon Studio on remote machines by using [Kata
     > The value of properties is case sensitive.
 
 3. In the drop-down list of the **Run** button, select **Remote**.
+
+4. If you're executing Katalium Server in the Grid mode, you can view all session details. Refer to [Sessions monitoring](https://docs.katalon.com/katalium-server/docs/view-session-details.html) for further instructions.
