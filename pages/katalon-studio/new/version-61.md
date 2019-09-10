@@ -7,14 +7,15 @@ redirect_from:
 description: Release notes v6.1.0
 ---
 ### Custom Keyword Plugin
+
 Introducing Custom Keyword Plugin for Katalon Studio v6.1.0 for collaboration.
 Custom Keywords now can be shared among the project team or to the world via Katalon Store.
 Simply Create. Upload. and Share!
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-61/Window.png)
 
-Fixed Bugs & Improvements
------------------------
+### Fixed Bugs & Improvements
+
 * Fixed an issue where project having many GlobalVariables cannot be opened - [More details ](https://github.com/katalon-studio/katalon-studio/issues/74)
 * Fixed merging Objects to Object Repository issue - [More details ](https://github.com/katalon-studio/katalon-studio/issues/103)
 * Removed dialogs when Katalon Studio is closed - [More details ](https://forum.katalon.com/t/rate-us-pop-up-message/18830)
