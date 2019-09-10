@@ -9,13 +9,12 @@ description: Release note 7.0 (beta)
 
 ## Version 7.0 (Beta)
 
-> **Katalon Studio 7.0 (Beta)** is currently available. Click [here](https://github.com/katalon-studio/katalon-studio/releases) to download.
-
 ### New Features
 
 * Support private plugins. [Learn more](https://docs.katalon.com/katalon-studio/docs/private-plugins.html).
 * Support Windows 10 desktop applications testing. See [Windows Desktop Apps Test Design](https://docs.katalon.com/katalon-studio/docs/introduction-desktop-app-testing.html).
 * Support a plugin that exports and imports test artifacts.
+* Support Smart Wait function in a script and a project. See [[WebUI] Smart Wait Function](https://docs.katalon.com/katalon-studio/docs/webui-smartwait.html).
 
 ### Improvements
 
