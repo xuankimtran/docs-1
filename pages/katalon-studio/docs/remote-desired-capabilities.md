@@ -9,15 +9,16 @@ redirect_from:
     - "/katalon-studio/docs/remote-desired-capabilities/"
 description: 
 ---
-There will be cases you need to connect and execute your tests on a remote environment such as Selenium Grid, or other cloud services such as Kobiton, SauceLabs or BrowserStacks. Katalon Studio does support this remote execution.
+There will be cases you need to connect and execute your tests on remote environments such as Selenium Grid and Katalium Server or cloud services such as Kobiton, SauceLabs or BrowserStacks. Katalon Studio does support this remote execution.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/remote-desired-capabilities/Remote-desired-capabilities.png)
 
 Please refer to some documents below as examples how to pass in desired capabilities from these providers:
 
-1.  [Kobiton](https://docs.katalon.com/katalon-studio/docs/desired-capabilities-for-kobiton-devices.html)
-2.  [SauceLabs](/display/KD/SauceLabs+Integration)
-3.  [BrowserStack](/display/KD/BrowserStack+Integration)
+1. [Kobiton](https://docs.katalon.com/katalon-studio/docs/desired-capabilities-for-kobiton-devices.html)
+2. [SauceLabs](/display/KD/SauceLabs+Integration)
+3. [BrowserStack](/display/KD/BrowserStack+Integration)
+4. [Katalium Server](https://docs.katalon.com/katalium-server/docs/katalium-server-katalon-studio-remote-machine.html)
 
 Note that this Remote option is applied for all executions which support this kind of remote execution, so you can apply them in this option as well.
 
