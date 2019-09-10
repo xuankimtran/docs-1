@@ -167,6 +167,8 @@ items:
             tree:
               - title: "Shopping Cart Project"
                 url: /katalon-studio/docs/shopping-cart-prj.html
+              - title: "Health Care Project"
+                url: /katalon-studio/docs/health-care-prj.html 
           - title: "Web Testing"
             tree:
               - title: "Introduction to Web Testing"
