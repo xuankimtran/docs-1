@@ -431,12 +431,6 @@ items:
                     url: /katalon-studio/docs/spy-web-utility.html
                   - title: "How to use synchronization commands while recording"
                     url: /katalon-studio/docs/synchronization_commands_recording.html
-              - title: "Mobile Record and Spy Utilities"
-                tree:
-                  - title: "Record Mobile Utility"
-                    url: /katalon-studio/docs/record-mobile-utility.html
-                  - title: "Spy Mobile Utility"
-                    url: /katalon-studio/docs/spy-mobile-utility.html
                   - title: "Web UI Keywords"
                     tree:
                       - title: "[WebUI] Alert"
@@ -617,6 +611,8 @@ items:
                             url: /katalon-studio/docs/webui-verify-element-visible.html
                           - title: "[WebUI] Verify Element Not Visible"
                             url: /katalon-studio/docs/webui-verify-element-not-visible.html
+                          - title: "[WebUI] Smart Wait Function"
+                            url: /katalon-studio/docs/webui-smartwait.html 
                       - title: "[WebUI] Form"
                         tree:
                           - title: "[WebUI] Submit"
@@ -795,6 +791,12 @@ items:
                             url: /katalon-studio/docs/mobile-send-keys.html
                           - title: "[Mobile] Set Text"
                             url: /katalon-studio/docs/mobile-set-text.html
+              - title: "Mobile Record and Spy Utilities"
+                tree:
+                  - title: "Record Mobile Utility"
+                    url: /katalon-studio/docs/record-mobile-utility.html
+                  - title: "Spy Mobile Utility"
+                    url: /katalon-studio/docs/spy-mobile-utility.html
                   - title: "Spy and Record Utilities for testing an existing application"
                     url: /katalon-studio/docs/mobile-spy-record-existing-apps.html
               - title: "Working with Selenium WebDriver"
