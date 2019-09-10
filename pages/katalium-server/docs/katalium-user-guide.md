@@ -25,6 +25,7 @@ standalone.bat
 ```
 cd katalium-server
 chmod u+x ./standalone.sh
+./standalone.sh
 ```
 
 Successfully activated Katalium Server will be displayed as belows:
@@ -39,7 +40,9 @@ When you activate the server for the first time, you have to enter the email and
 
 > If you want to re-activate Katalium Server, you have to remove `framework.properties` file in `.katalon` folder.
 
-### Grid Hub
+### Grid Mode
+
+#### Grid Hub
 
 To start Katalium Server as a Grid Hub, execute `hub.sh` file (in macOS and Linux) or `hub.bat` file (in Windows) with these commands:
 
@@ -51,11 +54,12 @@ hub.bat
 ```
 cd katalium-server
 chmod u+x ./hub.sh
+./hub.sh
 ```
 
 See **Standalone mode** for activation steps.
 
-### Grid Node
+#### Grid Node
 
 Before executing the scripts, please set the Hub URL in `nodeConfigForWindow.json` (for Windows) or `nodeConfig.json` (for macOS and Linux) so that Grid Nodes can register themselves with the above Grid Hub, e.g. `http://hub_ip:4444`.
 
@@ -69,6 +73,7 @@ node.bat
 ```
 cd katalium-server
 chmod u+x ./node.sh
+./node.sh
 ```
 
 See **Standalone mode** for activation steps.
