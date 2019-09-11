@@ -9,9 +9,9 @@ redirect_from:
     - "/katalon-studio/docs/test-case-preferences/"
 description:
 ---
-All the preferences under **Test Case** group are for controlling the default behaviors that Katalon Studio should perform when test cases are designed.
+All the preferences under the **Test Case** group are for controlling the default behaviors that Katalon Studio should perform when test cases are designed.
 
-You can configure these preferences by accessing from main menu: **Katalon Studio > Preferences > Katalon > Test Case**.
+You can configure the Test Case preferences via **Katalon Studio > Preferences > Katalon > Test Case**.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-case-preferences/Window.png)
 
@@ -21,9 +21,9 @@ This is to specify how Katalon Studio should behave when you are calling another
 
 * **Generate variable with default value**: Called test case uses default values for its variables.
 * **Generate variable with the same name as the exposed variable of the called test case**: Called test case uses default values which are the same with its variables name.
-  * **Expose variables automatically after choosing the called test case**: Called test case uses default values which are the same with its variables name.The variables are also added into current test case at 'Variables' tab.
+  * **Expose variables automatically after choosing the called test case**: Called test case uses default values which are the same with its variables name. The variables are also added to the current test case at the 'Variables' tab.
 
-You might need to refer back to [Variable Types](/display/KD/Variable+Types) section for which types of variables are supported in Katalon Studio.
+You might need to refer back to the [Variable Types](/display/KD/Variable+Types) section for which types of variables are supported in Katalon Studio.
 
 ## Initially open Test Case
 
@@ -38,13 +38,13 @@ This is to indicate in which view Katalon Studio should display a test case when
 
 ## Line-wrapping Settings
 
-This is to enable Katalon Studio to wrap up the code lines in a script with a customized maximum line width. You can also wrap the code lines when switching from manual mode to script mode by pressing a keyboard combination of **Command+Shift+F** (Mac Users) or **Ctrl+Shift+F** (Windows and Linux Users).
+This is to enable Katalon Studio to wrap up the code lines in a script with a customized maximum line width. You can also wrap the code lines when switching from the manual mode to the script mode by pressing a keyboard combination of **Command+Shift+F** (Mac Users) or **Ctrl+Shift+F** (Windows and Linux Users).
 
-Before line-wrapping enabled:
+Before the line-wrapping enabled:
 
 ![Before](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-case-preferences/wrap.png)
 
-After line-wrapping enabled:
+After the line-wrapping enabled:
 
 ![After](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-case-preferences/wrapped.png)
 
