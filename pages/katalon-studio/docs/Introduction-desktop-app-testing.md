@@ -42,14 +42,17 @@ To have a picture of Windows built-in keywords, navigate to **Keywords Browser**
 
 ## **Set-up**
 
-Refer to [Installing and Running Windows Application Driver](https://github.com/microsoft/WinAppDriver#installing-and-running-windows-application-driver) to install a WinAppDriver.
+First, you need to install WinAppDriver. Refer to [Installing and Running Windows Application Driver](https://github.com/microsoft/WinAppDriver#installing-and-running-windows-application-driver) to install a WinAppDriver.
 
 >Remember to enable **Developer Mode** on the testing machine.  
 
-### Set up Windows Application Driver on a local machine
+### Set up Windows Application Driver on a local Windows 10 machine
 
-* Open folder `C:\Program Files (x86)\Windows Application Driver`
-* Double-click **WinAppDriver.exe** file
+There are two ways of installing the WinAppDriver on a local Windows 10 machine.
+
+1. Open this folder `C:\Program Files (x86)\Windows Application Driver`, then double-click on **WinAppDriver.exe** file.
+
+2. From the Katalon Studio toolbar, select **Tools > Windows > Install WinAppDrivers**. The **Windows Application Driver Setup** window will pop up. Follow the instructions to install the Windows Application Driver.
 
 ### Set up Windows Application Driver on a remote machine
 

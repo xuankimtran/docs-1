@@ -803,12 +803,14 @@ items:
                             url: /katalon-studio/docs/mobile-set-text.html
               - title: "Working with Selenium WebDriver"
                 tree:
-                  - title: "Automatically Update WebDriver"
-                    url: /katalon-studio/docs/automatically-update-webdriver.html
+                  - title: "Handle WebDrivers"
+                    url: /katalon-studio/docs/handle-webdrivers.html
                   - title: "Update or Replace Web Browser Drivers and Selenium"
                     url: /katalon-studio/docs/update-or-replace-web-browser-drivers-and-selenium.html
                   - title: "Using the WebDriver Object"
                     url: /katalon-studio/docs/using-the-webdriver-object.html
+                  - title: "WebDriver Event Listeners"
+                    url: /katalon-studio/docs/webdriver-event-listeners.html
               - title: "Testing Web App on Mobile Browsers"
                 url: /katalon-studio/docs/running_application_mobile_browsers.html
               - title: "Testing Mobile Apps Using Custom Cloud Devices"
