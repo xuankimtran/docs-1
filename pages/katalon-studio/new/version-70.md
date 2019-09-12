@@ -15,7 +15,8 @@ description: Release note 7.0 (beta)
 * Support Windows 10 desktop applications testing. See [Windows Desktop Apps Test Design](https://docs.katalon.com/katalon-studio/docs/introduction-desktop-app-testing.html).
 * Support a plugin that exports and imports test artifacts.
 * Support Smart Wait function in a script and a project. See [[WebUI] Smart Wait Function](https://docs.katalon.com/katalon-studio/docs/webui-smartwait.html).
-* Support the WinAppDriver installation and  `Terminate running WebDrivers` option in Katalon Studio Tools.
+* Support [the WinAppDriver installation](https://docs.katalon.com/katalon-studio/docs/introduction-desktop-app-testing.html) and [`Terminate running WebDrivers`](https://docs.katalon.com/katalon-studio/docs/handle-webdrivers.html) options in Katalon Studio Tools.
+* Support WebDriver event listeners. [Learn more](https://docs.katalon.com/katalon-studio/docs/webdriver-event-listeners.html).
 
 ### Improvements
 
@@ -36,9 +37,9 @@ description: Release note 7.0 (beta)
 * Update the integration configurations with Katalon TestOps when a new project is created.
 * Adding the parameters of [Katalon API Key](https://docs.katalon.com/katalon-studio/docs/katalon-apikey-70.html) and Katalon TestOps configuration to Command line.
 * Support uploading reports of test suite collections to Katalon TestOps.
-* Remove unnecessary information in the console log.
-* Support passing more information to the console mode execution.
-* Upgrade the activation mechanism in Katalon Studio to seamlessly integrate with Katalon TestOps.
+* Remove unnecessary information in the console log when users execute in the console mode for the first time.
+* Support passing more information to the console mode execution with `--info -buildLabel="text" -buildURL="text"`. See [General Options ](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#general-options) in Console Mode Execution.
+* Upgrade the activation mechanism in Katalon Studio to seamlessly integrate with Katalon TestOps. See [Activate Katalon Studio](https://docs.katalon.com/katalon-studio/docs/katalon-studio-activation-since-70.html).
 
 ### Fixes
 

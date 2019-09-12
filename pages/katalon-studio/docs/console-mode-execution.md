@@ -15,8 +15,7 @@ description:
 
 > API Keys are required to use **Katalon Studio Plugins** in console mode. [Learn more](/katalon-store/docs/user/plugin-console-installation.html).
 
-
-You can execute automation test without launching Katalon Studio by using command line mode execution. 
+You can execute automation test without launching Katalon Studio by using command line mode execution.
 
 Execute Katalon in CMD
 ----------------------
@@ -185,7 +184,7 @@ Here's the list of options supported for the "_katalon_" command:
       <tr>
          <td>-executionProfile</td>
          <td>
-            <p><strong>Since 5.4</strong></p>
+            <p><strong>Starting from Katalon Studio version 5.4</strong></p>
             <p>Specify the&nbsp;<a href="/pages/viewpage.action?pageId=13697476">execution profile</a>&nbsp;to be executed with</p>
          </td>
          <td>N</td>
@@ -193,10 +192,20 @@ Here's the list of options supported for the "_katalon_" command:
       <tr>
          <td>-g_XXX</td>
          <td>
-            <p><strong>Since 5.9</strong></p>
+            <p><strong>Starting from Katalon Studio version 5.9</strong></p>
             <p>Override Execution Profile variables.</p>
             <p>Example:</p>
             <p><code class="java plain"> -g_userName="admin"</code></p>
+         </td>
+         <td>N</td>
+      </tr>
+      <tr>
+         <td>--info -buildLabel="text" -buildURL="text" </td>
+         <td>
+            <p><strong>Starting from Katalon Studio version 7.0</strong></p>
+            <p>Pass the build's label and url.</p>
+            <p>Example:</p>
+            <p><code class="java plain"> --info -buildLabel="Build 1" -buildURL="https://analytics.katalon.com/team/9552/project/13609/grid/plan/218/job/3" </code></p>
          </td>
          <td>N</td>
       </tr>
@@ -314,7 +323,7 @@ Integration Options
    </tbody>
 </table>
 
-Automatically Updating Webdriver Option
+Automatically Updating WebDriver Option
 -------------------
 
 <table>
