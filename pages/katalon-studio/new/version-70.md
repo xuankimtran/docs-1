@@ -17,6 +17,7 @@ description: Release note 7.0 (beta)
 * Support Smart Wait function in a script and a project. See [[WebUI] Smart Wait Function](https://docs.katalon.com/katalon-studio/docs/webui-smartwait.html).
 * Support [the WinAppDriver installation](https://docs.katalon.com/katalon-studio/docs/introduction-desktop-app-testing.html) and [`Terminate running WebDrivers`](https://docs.katalon.com/katalon-studio/docs/handle-webdrivers.html) options in Katalon Studio Tools.
 * Support WebDriver event listeners. [Learn more](https://docs.katalon.com/katalon-studio/docs/webdriver-event-listeners.html).
+* Support an option to disable `Log executed test steps` in Project Settings. See [Customize Console Log](https://docs.katalon.com/katalon-studio/docs/working-with-execution-log.html#log-executed-test-steps).
 
 ### Improvements
 
@@ -40,6 +41,10 @@ description: Release note 7.0 (beta)
 * Remove unnecessary information in the console log when users execute in the console mode for the first time.
 * Support passing more information to the console mode execution with `--info -buildLabel="text" -buildURL="text"`. See [General Options ](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#general-options) in Console Mode Execution.
 * Upgrade the activation mechanism in Katalon Studio to seamlessly integrate with Katalon TestOps. See [Activate Katalon Studio](https://docs.katalon.com/katalon-studio/docs/katalon-studio-activation-since-70.html).
+* Merge the Plugins menu into the Tools menu.
+* Support MySQL Database version **8.0.17**.
+* Support automatically reloading plugins when opening a project.
+* Support generating test results in JUnit format.
 
 ### Fixes
 
@@ -57,3 +62,5 @@ description: Release note 7.0 (beta)
 * Bug: An issue causes `callTestCase` to fail.
 * Bug: `findWebElements` fails when the `Default wait for element timeout` is set to 0 in the Execution Settings.
 * Bug: [Web Recorder] An issue related to the `Cannot save entity: file path length limit exceeded.` error when saving test objects.
+* Bug: Custom Keywords are not displayed in the Recent keywords after being used.
+* Bug: An issue related to renaming a folder with uppercase or lowercase characters. [More details](https://github.com/katalon-studio/katalon-studio/issues/189).
