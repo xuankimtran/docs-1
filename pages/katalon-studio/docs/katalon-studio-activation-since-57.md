@@ -54,6 +54,14 @@ You need a license key to activate Katalon Studio Enterprise that can work witho
 
 3. Click **Activate**.
 
+### Other Options
+
+After activating Katalon Studio Enterprise, there will be a pop-up window requiring you to log in to your Katalon account for connecting to [Katalon TestOps](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html) and [Store](https://docs.katalon.com/katalon-store/docs/overview.html).
+
+Currently, the Katalon Studio Enterprise users can use [private plugins](https://docs.katalon.com/katalon-studio/docs/private-plugins.html) as an alternative option of using plugins from Katalon Store.
+
+Regarding TestOps, there is no on-premises version; hence, the automatically generated [JUnit reports](https://docs.katalon.com/katalon-studio/docs/export-test-results-in-junit-format.html) and the [basic report plugin](https://docs.katalon.com/katalon-studio/docs/basic-report.html) can be a substitute for TestOps.
+
 ## Activating in Console Mode
 
 You need a license key that grants you permission to run Katalon Studio from the command line. Before executing Katalon Studio, call the license key by the command-line argument as follows: `licenseFile= [the path to the license key file]`.
