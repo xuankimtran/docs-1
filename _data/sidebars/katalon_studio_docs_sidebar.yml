@@ -981,12 +981,6 @@ items:
                 url: /katalon-studio/docs/BDD-field-jira-cloud.html
               - title: "Working with JIRA"
                 url: /katalon-studio/docs/working-with-jira.html
-          - title: "Git Integration"
-            tree:
-              - title: "Git Integration"
-                url: /katalon-studio/docs/git-integration.html
-              - title: "Resolve Git conflicts using Katalon Studio"
-                url: /katalon-studio/docs/git_conflict_resolve.html
           - title: "CI/CD Integration"
             tree:
               - title: "Console Mode Execution (Command-line Execution)"
@@ -1052,6 +1046,16 @@ items:
                 url: /katalon-studio/docs/lambdatest-integration.html
               - title: "Slack Integration"
                 url: /katalon-studio/docs/slack-integration.html
+      - title: "Collaboration"
+        tree:
+          - title: "Git Integration"
+            tree:
+              - title: "Git Integration"
+                url: /katalon-studio/docs/git-integration.html
+              - title: "Resolve Git conflicts using Katalon Studio"
+                url: /katalon-studio/docs/git_conflict_resolve.html
+          - title: "Test Artifacts Sharing"
+            url: /katalon-studio/docs/import-export-test-artifact.html
       - title: "Troubleshooting"
         tree:
           - title: "Troubleshooting web automated testing"
