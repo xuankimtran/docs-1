@@ -11,7 +11,7 @@ description:
 ---
 After installing Katalon Studio, you will be asked to activate it. There are two ways of activating Katalon Studio: online and offline activations.
 
-## Online activating Katalon Studio
+## Activating Katalon Studio
 
 You need to create a Katalon Account and specify your Organization to log in to Katalon Studio.
 
@@ -23,7 +23,7 @@ Follow these steps to activate Katalon Studio:
 2. You are navigated to your own organization or you can select one of the organizations you belong to in the drop-down list, click **OK**.
 3. You're recommended to install the plugins for a better experience with Katalon Studio.
 4. Open an existing project or create a new one in Katalon Studio.
-5. In Katalon Analytics Integration pop-up window:
+5. In Katalon TestOps Integration pop-up window:
 
 * Select a team in the configured organization that you have permission to access.
 * Select a project under that team you’d like to work on or create your own one if you have permission.
@@ -42,14 +42,21 @@ If you're behind a Proxy Server, you'll need to configure the proxy settings bef
 
 Please check your Internet connection and try again. If you are behind a **Proxy Server**, please **Config Proxy** first and try to activate Katalon Studio again.
 
-## Offline activating Katalon Studio
+## Activating Katalon Studio Enterprise
 
-You need a license key to offline activate Katalon Studio when there's no Internet. A Katalon account is required for generating a license key. In Katalon Studio Activation pop-up window, click **Offline Activation**:
+You need a license key to activate Katalon Studio Enterprise that can work without Internet connection. A machine ID is required for generating a license key. In Katalon Studio Activation pop-up window, click **Katalon Studio Enterprise Activation**:
 
-1. Generate a license key: To generate a license key in Katalon Analytics, access your organization, navigate to the **License Keys** tab, insert a **Machine ID**, then click **Create**.
+1. Generate a license key: To generate a license key in Katalon TestOps, access your organization, navigate to the **License Keys** tab, insert a **Machine ID**, then click **Create**.
 
 > Notes: **Machine ID** is granted for each computer installing Katalon Studio. In Katalon Studio Activation pop-up window, click **Offline Activation**, you can view and copy your machine ID.
 
 2. Locate the generated license key: To use a license key, click the **Download** button, the license key will be downloaded as a `license.lic` file. Then click **Choose file** in **Product Offline Activation** to locate the downloaded license key file.
 
 3. Click **Activate**.
+
+## Activating in Console Mode
+
+You need a license key that grants you permission to run Katalon Studio from the command line. Before executing Katalon Studio, call the license key by the command-line argument as follows: `licenseFile= [the path to the license key file]`.
+
+For example:
+`licenseFile=C:\Users\demokatalon\licensefile\license-window.lic`.
