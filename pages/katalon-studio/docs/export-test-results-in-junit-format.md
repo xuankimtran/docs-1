@@ -10,10 +10,6 @@ redirect_from:
 description:
 ---
 
-Since Katalon Studio 6.1.5, please install [Basic Report](https://store.katalon.com/product/59/Basic-Report) plugin to use this feature.
+Starting from **Katalon Studio version 7.0**, Katalon Studio automatically generates test results of a test suite in the `JUnit` format with the `JUnit_Report.xml` file name.
 
-<details><summary>Deprecated Content</summary>
-
-Along with other formats such as CSV and HTML, Katalon Studio also exports test results in JUnit format automatically with the file name is "JUnit_Report.xml".
-
-</details>
+> Notes: For the users of **Katalon Studio Enterprise**, test suite collections’ reports are available in the `JUnit` format.
