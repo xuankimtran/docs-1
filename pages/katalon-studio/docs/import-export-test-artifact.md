@@ -1,5 +1,5 @@
 ---
-title: "Test Artìacts Sharing" 
+title: "Test Artifacts Sharing" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/import-export-test-artifact.html 
 description: Instruction of how to export and import test artifact
