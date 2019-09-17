@@ -39,7 +39,7 @@ description: Release note 7.0 (beta)
 * Support uploading Project Code from Katalon Studio to Katalon TestOps. [Learn more](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html).
 * Update the integration mechanism with Katalon TestOps. [Learn more](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html).
 * Update the integration configurations with Katalon TestOps when a new project is created.
-* Support autofilling the parameter of [Katalon API Key](https://docs.katalon.com/katalon-studio/docs/katalon-apikey-70.html) to the Command line.
+* Support autofilling the input of [Katalon API Key](https://docs.katalon.com/katalon-studio/docs/katalon-apikey-70.html) in the command-line generator.
 * Support generating test results in JUnit format.
 * Support uploading reports of test suite collections to Katalon TestOps.
 * Remove unnecessary information in the console log when users execute in the console mode for the first time.
