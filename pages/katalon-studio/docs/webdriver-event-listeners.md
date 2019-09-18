@@ -69,3 +69,33 @@ Before navigating to http://www.google.com
 2019-09-06 13:45:56.965 DEBUG testcase.Event Firing Web Driver         - 7: closeBrowser()
 2019-09-06 13:45:57.091 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Ev
 ```
+
+4. Using RemoteWebDriver 
+
+Because [`EventFiringWebDriver`](https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/support/events/EventFiringWebDriver.html) does not implement the interface ['RemoteWebDriver'](https://github.com/SeleniumHQ/selenium/blob/master/java/client/src/org/openqa/selenium/remote/RemoteWebDriver.java). If your code is currently casting WebDriver obtained from DriverFactory.getWebDriver() like this:
+
+```groovy
+....
+RemoteWebDriver katalonWebDriver = (RemoteWebDriver) DriverFactory.getWebDriver()
+// Using RemoteWebDriver from now on
+```
+Then in Katalon 7.0.0 (onward), the following exception will be thrown:
+
+```groovy
+Cannot cast object 'com.kms.katalon.core.webui.driver.SmartWaitWebDriver@7cab1508' with class 'com.kms.katalon.core.webui.driver.SmartWaitWebDriver' to class 'org.openqa.selenium.remote.RemoteWebDriver'
+```
+
+To obtain the RemoteWebDriver instance safely:
+
+```groovy
+....
+// Cast Katalon's WebDriver into EventFiringWebDriver
+EventFiringWebDriver eventFiring = (EventFiringWebDriver) DriverFactory.getWebDriver()
+// Get the driver wrapped inside
+WebDriver wrappedWebDriver = eventFiring.getWrappedDriver()
+// Cast the wrapped driver into RemoteWebDriver
+RemoteWebDriver katalonWebDriver = (RemoteWebDriver) wrappedWebDriver
+// Using RemoteWebDriver from now on
+```
+
+We recommend encaspulating the above logic into a function to avoid code duplication.
