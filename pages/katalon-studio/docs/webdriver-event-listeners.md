@@ -72,7 +72,7 @@ Before navigating to http://www.google.com
 
 4. Using RemoteWebDriver 
 
-Because [`EventFiringWebDriver`](https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/support/events/EventFiringWebDriver.html) does not implement the interface ['RemoteWebDriver'](https://github.com/SeleniumHQ/selenium/blob/master/java/client/src/org/openqa/selenium/remote/RemoteWebDriver.java). If your code is currently casting WebDriver obtained from DriverFactory.getWebDriver() like this:
+Because [`EventFiringWebDriver`](https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/support/events/EventFiringWebDriver.html) does not implement the interface ['RemoteWebDriver'](https://github.com/SeleniumHQ/selenium/blob/master/java/client/src/org/openqa/selenium/remote/RemoteWebDriver.java). If your code is currently casting WebDriver obtained from DriverFactory like this:
 
 ```groovy
 ....
@@ -84,6 +84,7 @@ Then in Katalon 7.0.0 (onward), the following exception will be thrown:
 ```groovy
 Cannot cast object 'com.kms.katalon.core.webui.driver.SmartWaitWebDriver@7cab1508' with class 'com.kms.katalon.core.webui.driver.SmartWaitWebDriver' to class 'org.openqa.selenium.remote.RemoteWebDriver'
 ```
+(From [`Russ Thomas's bug report`](https://forum.katalon.com/t/bug-katalon-v7-cannot-cast-smartwaitwebdriver-to-remotewebdriver/33236))
 
 To obtain the RemoteWebDriver instance safely:
 
