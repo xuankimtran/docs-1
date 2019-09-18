@@ -64,9 +64,9 @@ Regarding TestOps, there is no on-premises version; hence, the automatically gen
 
 You need to generate a trial license for Katalon Studio Enterprise before activating it. Each trial license of Katalon Studio Enterprise  is bound to each machine.
 
-1. Navigate to your [Katalon TestOps profile](https://analytics.katalon.com/organization/18274/license_keys).
+1. Navigate to your organization's profile. On [Katalon TestOps](https://analytics.katalon.com) homepage, click on your profile's icon on the bottom left corner.
 
-> Notes: Only the organizational owner can access an organizational profile.
+> Notes: Only the organizational owner can access the organizational profile.
 
 2. Select the **License** tab, enter a machine ID to create a trial license for it. Download the newly created license.
 
