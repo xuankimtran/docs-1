@@ -9,35 +9,33 @@ redirect_from:
     - "/katalon-studio/docs/video-capturing/"
 description: 
 ---
-Compatibilty
+## Compatibility
 
-> *   [K-Lite Codec](https://www.codecguide.com/download_kl.htm) is recommended to play Katalon Studio test execution video
-> *   Support Test Suite level execution
-> *   Support all browsers **except** Remote | Headless | Kobiton | Custom
-> 
-> *   Recording **parallel execution is NOT** **supported** yet
->     
+> * [K-Lite Codec](https://www.codecguide.com/download_kl.htm) is recommended to play the Katalon Studio test execution video.
+> * Support execution at Test Suite level.
+> * Support all browsers **except for** Remote, Headless, Kobiton, Custom. For remote or headless browsers, it's recommended to use [Katalium Server](https://docs.katalon.com/katalium-server/docs/katalium-server-katalon-studio-remote-machine.html) to view captured sessions.
+>
+> * Recording **parallel execution** is **NOT** supported yet
+>
 
-Debugging can be time consuming and challenging tasks to many automation testers. Katalon Studio helps solve this problem by supporting users the ability to capture test execution via video format. Users can simply enable video capturing feature in Project Settings.
+Debugging can be time-consuming and challenging for many automation testers. Katalon Studio helps solve this problem by supporting users with the ability to capture test execution via video format. Users can enable video capturing feature in Project Settings.
 
-Follow the steps below to see how work with Katalon Studio video capturing feature
+Follow the steps below to see how to work with Katalon Studio video capturing feature
 
-1.  After creating a test suite in Katalon Studio, select **Project > Settings** to open _Project Settings dialog_ box. Navigate to **Report** section  
+1.  After creating a test suite in Katalon Studio, select **Project > Settings** to open the _Project Settings dialog_ box. Navigate to the **Report** section.
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/video-capturing/image2017-8-25-143A243A12.png)  
       
     
-2.  Check option "**Enable Video Recorder during execution**". By **default**, Katalon Studio will only capture **Failed** test cases. However, users can select options to capture: only **Passed** test cases, only **Failed** test cases or capture both.  
+2.  Check the "**Enable Video Recorder during execution**" option. By default, Katalon Studio only captures **Failed** test cases. However, users can select options to capture only the **Passed**/**Failed** test cases or both.  
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/video-capturing/image2017-8-25-153A43A45.png)  
-      
-    
-    Video setting can be specified depend on users preferences. Katalon Studio recommends AVI (.avi) format and Low quality to save disk space. The higher the video qualiy the bigger file size will be.
-    
-    <table><thead><tr><th>&nbsp;</th><th>Options</th></tr></thead><tbody><tr><td><strong>Video format</strong></td><td>AVI (.avi)<br>MOV (.mov)</td></tr><tr><td><strong>Video quality</strong></td><td>Low<br>Medium<br>High</td></tr></tbody></table>
-    
-      
-      
-    
-3.  After test suite is executed. In **Tests Explorer**, navigate to **Reports** and select the most recent report to view test suite execution results. The list of test cases will be displayed in test case table with its video attached accordingly. Click on the play icon in 'Video' column to play the video. Test steps descriptions are embeded as subtitle. For example, please take a look at below screenshot  
+
+    Video settings can be specified based on the preferences of users. Katalon Studio recommends AVI (`.avi`) format and low quality to save disk space. The higher the video quality is, the bigger the file size is.
+
+* **Video format**: AVI (`.avi`) or MOV (`.mov`)
+
+* **Video quality**: Low; Medium or High
+
+3. After executing the test suite, navigate to the **Result** tab, you can view the list of test cases in the test cases table with its video attached accordingly. Click on the play icon in the 'Video' column to play the video. Test steps descriptions are embedded as a subtitle. For example, please take a look at below screenshot  
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/video-capturing/image2017-8-25-153A353A13.png)
 
-By watching how automation test was executed, testing team able to identify exactly where the test had failed. Thus, time and resources are managed more efficiently and effectively.
+By watching how the automated test was executed, the testing team can identify exactly where the test failed. Thus, time and resources are managed more efficiently and effectively.
