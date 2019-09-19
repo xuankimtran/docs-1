@@ -1013,6 +1013,8 @@ items:
             tree:
               - title: "Introduction to Desktop App Testing"
                 url: /katalon-studio/docs/introduction-desktop-app-testing.html
+              - title: "Set up WinAppDriver"
+                url: /katalon-studio/docs/setup-winappdriver.html
               - title: "Windows Record and Spy Utilities"
                 tree:
                   - title: "Introduction to Windows Spy Utility"
