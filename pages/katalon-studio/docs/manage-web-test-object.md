@@ -11,32 +11,32 @@ description:
 ---
 ## Create a Test Object
 
-1. Select **File > New > Test Object** from the main menu. The **New Test Object** dialog will be displayed.  
+1. Select **File > New > Test Object** from the main menu. The **New Test Object** dialog is displayed.  
 
-2. Provide the name for the new test object, then click **OK** button. A new test object is created under the **Object Repository** of Katalon Studio.  
+2. Provide a name for the new test object, then click **OK** button. The new test object is created under the **Object Repository** of Katalon Studio.  
 
 ## Add an object property
 
-> There cannot be two properties with the same name in the same test object.
+> There cannot be two properties with similar names in the same test object.
 
 1. In the **Test Object Editor**, click **Add**.  
-2. The **Add property** dialog will be displayed.
+2. The **Add property** dialog is displayed.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/manage-web-test-object/add-property.png" width="473" height="162">
 
 where:
 
-* **Name**: The name of the object property. The drop-down list provides some common options for your selection (XPath, CSS, class, id, title) or you can enter manually.
-* **Match condition**: The condition is used for searching for the "_actual_" object in the AUT when executing automation tests.
-* **Value**: The value that completes a macth condition.
+* **Name**: The name of the object property. The drop-down list provides some standard options for your selection (XPath, CSS, class, id, title), or you can enter manually.
+* **Match condition**: to search for the "_actual_" object in the AUT when executing automation tests.
+* **Value**: to complete a match condition.
 
 3. The new property is added to the properties list as specified. You can also edit the properties' values here.
 
 ## Manage parent object
 
-Nowadays, there are many web applications rendering elements in an [iframe](https://www.w3schools.com/tags/tag_iframe.asp). Therefore, you have to tell your script how to traverse a website's **iframes** and select the correct **iframe** where the text and its object are present. In order to do so, you have to use '[Switch To Frame](/display/KD/%5BWebUI%5D+Switch+To+Frame)' keyword before interacting with the elements.
+Nowadays, there are many web applications rendering elements in an [iframe](https://www.w3schools.com/tags/tag_iframe.asp). Therefore, you have to tell your script how to traverse a website's **iframes** and select the correct **iframe** where the text and its object are present. To do so, you have to use the '[Switch To Frame](/display/KD/%5BWebUI%5D+Switch+To+Frame)' keyword before interacting with the elements.
 
-Katalon Studio supports the ability to define parent iframe object within test object view, so you only need to select the parent iframe and the execution will automatically switch to that iframe.
+Katalon Studio supports an ability to define parent iframe object within the test object view, so you only need to select the parent iframe, and the execution automatically switches to that iframe.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/manage-test-object/image2018-9-6-103A263A6.png)
 
@@ -55,31 +55,31 @@ Katalon Studio allows you to choose different ways to locate objects.
 
 #### XPath
 
-* Katalon Studio supports _Relative XPath_ for better object recognition. If an element cannot be consistently located using its direct attributes, Katalon Studio will identify the element by using its more robust neighbors.
+* Katalon Studio supports _Relative XPath_ for better object recognition. If an element cannot be consistently located using its direct attributes, Katalon Studio identifies the element by using its more robust neighbors.
 
 #### Attributes
 
-* Katalon Studio will _automatically_ generate its **XPath** combined with object **properties** to locate the object. This **XPath** will be displayed in **Selector Editor**.
-* A test object is typically built up by a number of properties. During test execution, Katalon Studio bases such information to detect an object. Using **Detect object by** field, you can determine the properties to be utilized for recognizing objects.  
+* Katalon Studio _automatically_ generates its **XPath** combined with object **properties** to locate the object. This **XPath** is displayed in **Selector Editor**.
+* A test object is typically built up by several properties. During test execution, Katalon Studio uses them to detect an object. Using the **Detect object by** field, you can determine which properties to be utilized for recognizing objects.  
   
-  In the following example, Katalon Studio will try to find any object on AUT with both **text** and **XPath** tp satisfy the defined criteria during execution.
+  In the following example, Katalon Studio tries to find any object on AUT with both **text** and **XPath** to satisfy the defined criteria during execution.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/manage-test-object/image2018-9-5-193A133A19.png)
 
 #### CSS
 
-* When selected, users are allowed to **manually** input **CSS** locator for objects in **Selector Editor**.
+* With CSS, you are allowed to input **CSS** locator for objects in **Selector Editor** manually.
 
 ## Validate Test Object on AUT
 
-You can add test objects to **Web Object Spy** dialog to verify detection in the application under test. Refer to [Spy Web Utility (version 4.8 and below)](https://docs.katalon.com/katalon-studio/docs/spy-web-utility-version-48-and-below.html) for details regarding how to validate captured objects against the application under test.
+You can add test objects to the **Web Object Spy** dialog to verify the detection in the application under test. Refer to [Spy Web Utility (version 4.8 and below)](https://docs.katalon.com/katalon-studio/docs/spy-web-utility-version-48-and-below.html) for details regarding how to validate captured objects against the application under test.
 
-To add an object to **Web Object Spy**, simply right-click on the item to open its context menu and select the option.  
+To add an object to **Web Object Spy**, right-click on the item to open its context menu and select the option.  
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/manage-test-object/image2018-9-6-103A303A22.png)
 
 ## Test Objects in Scripting View
 
-The test case **Script View** allows you to programmatically define and handle **Test Objects** as needed. The following is a simple sample demonstrating how to do that:
+The test case **Script View** allows you to define **Test Objects** as needed programmatically. The following is a simple sample demonstrating how to do that with the **Attributes** selection method:
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/manage-test-object/5.png)
 
@@ -104,15 +104,42 @@ The test case **Script View** allows you to programmatically define and handle�
     // property name,
     // condition type,
     // property value,
-    // a boolean value to indicate if the property will be used to identify the object during execution
+    // a boolean value to indicate if the property is used for identifying the object during execution
     myNewObject.addProperty("xpath", ConditionType.EQUALS, "//html/body", true)
     ```
+
+Another example is to show how to define test objects with different selection methods. 
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/manage-web-test-object/medicare.png" width="670" height="567">
+
+You want to define the *Medicare* option with the Attributes, Xpath and CSS selection methods as follows:
+
+```groovy
+//Attributes
+TestObject myNewObject = new TestObject('ObjectID')
+myNewObject.setSelectorMethod(SelectorMethod.BASIC)
+myNewObject.addProperty('xpath', "//*[@id=\"appointment\"]/div/div/form/div[3]/div/label[1]", true) //Medicare
+```
+
+```groovy
+//XPATH
+TestObject myNewObject = new TestObject('ObjectID')
+myNewObject.setSelectorValue(SelectorMethod.XPATH,"//*[@id=\"appointment\"]/div/div/form/div[3]/div/label[1]") //Medicare
+myNewObject.setSelectorMethod(SelectorMethod.XPATH)
+```
+
+```groovy
+//CSS
+TestObject myNewObject = new TestObject('ObjectID')
+myNewObject.setSelectorValue(SelectorMethod.CSS,"#appointment > div > div > form > div:nth-child(3) > div > label:nth-child(1)") //Medicare
+myNewObject.setSelectorMethod(SelectorMethod.CSS)
+```
 
 The following API docs may prove useful when working with test objects:
 
 | Class | Method | Description |
 | --- | --- | --- |
-| [Test Object](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html) | [addProperty(String name, ConditionType condition, String value)](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html#addProperty(java.lang.String,%20com.kms.katalon.core.testobject.ConditionType,%20java.lang.String)) | Add a new property to the test object |
-| setProperties(List <TestObjectProperty> properties) | Set the properties of the test object |
-| [getObjectId()](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html#getObjectId()) | Get object ID. |
-| [findPropertyValue(String name, boolean caseSensitive)](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html#findPropertyValue(java.lang.String,%20boolean)) | Find the value of a property using the property name |
+| [Test Object](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html) | [addProperty(String name, ConditionType condition, String value)](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html#addProperty(java.lang.String,%20com.kms.katalon.core.testobject.ConditionType,%20java.lang.String)) | Add a new property to the test object. |
+| setProperties(List <TestObjectProperty> properties) | Set the properties of the test object. |
+| [getObjectId()](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html#getObjectId()) | Get an object ID. |
+| [findPropertyValue(String name, boolean caseSensitive)](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html#findPropertyValue(java.lang.String,%20boolean)) | Find the value of a property using the property name.|
