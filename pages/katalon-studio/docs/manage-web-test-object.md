@@ -79,61 +79,49 @@ To add an object to **Web Object Spy**, right-click on the item to open its con
 
 ## Test Objects in Scripting View
 
-The test case **Script View** allows you to define **Test Objects** as needed programmatically. The following is a simple sample demonstrating how to do that with the **Attributes** selection method:
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/manage-test-object/5.png)
-
-1. Refer to existing objects using the _findTestObject()_ method:
-
-    ```groovy
-    // Find an object which was defined already in Object Repository
-    myPredefinedObject = findTestObject('Page_Katalon Studio/a_Free Download')
-    ```
-
-2. Create a new object programmatically using _TestObject_ class:
-
-    ```groovy
-    // Create a new object programmatically
-    myNewObject = new TestObject("TheObjectName")
-    ```
-
-3. Add the property to an object using _addProperty()_ method:
-
-    ```groovy
-    // Add property to Test Object, a property is defined by:
-    // property name,
-    // condition type,
-    // property value,
-    // a boolean value to indicate if the property is used for identifying the object during execution
-    myNewObject.addProperty("xpath", ConditionType.EQUALS, "//html/body", true)
-    ```
-
-Another example is to show how to define test objects with different selection methods. 
+The test case **Script View** allows you to define **Test Objects** as needed programmatically. The following is a simple sample demonstrating how to define the *Medicare* option with the Attributes, XPath and CSS selection methods.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/manage-web-test-object/medicare.png" width="670" height="567">
 
-You want to define the *Medicare* option with the Attributes, Xpath and CSS selection methods as follows:
+Step 1: Create a new object programmatically using _TestObject_ class:
 
-```groovy
-//Attributes
-TestObject myNewObject = new TestObject('ObjectID')
-myNewObject.setSelectorMethod(SelectorMethod.BASIC)
-myNewObject.addProperty('xpath', "//*[@id=\"appointment\"]/div/div/form/div[3]/div/label[1]", true) //Medicare
-```
+    ```groovy
+    // Create a new object programmatically
+    TestObject myNewObject = new TestObject('ObjectID')
+    ```
+    
+Step 2:
 
-```groovy
-//XPATH
-TestObject myNewObject = new TestObject('ObjectID')
-myNewObject.setSelectorValue(SelectorMethod.XPATH,"//*[@id=\"appointment\"]/div/div/form/div[3]/div/label[1]") //Medicare
-myNewObject.setSelectorMethod(SelectorMethod.XPATH)
-```
+* With the **Attributes** selection method, add the property to an object using _addProperty()_ method:
 
-```groovy
-//CSS
-TestObject myNewObject = new TestObject('ObjectID')
-myNewObject.setSelectorValue(SelectorMethod.CSS,"#appointment > div > div > form > div:nth-child(3) > div > label:nth-child(1)") //Medicare
-myNewObject.setSelectorMethod(SelectorMethod.CSS)
-```
+    ```groovy
+    //Attributes
+    //Add property to Test Object, a property is defined by:
+    // property name,
+    // condition type,
+    // property value,
+    // a boolean value to indicate if the property will be used to identify the object during execution
+    myNewObject.setSelectorMethod(SelectorMethod.BASIC)
+    myNewObject.addProperty('xpath', "//*[@id=\"appointment\"]/div/div/form/div[3]/div/label[1]", true) //Medicare
+    ```
+
+* With **XPath** and **CSS**: Specify a selection method and set a value to the locator:
+
+    ```groovy
+    //XPATH
+    myNewObject.setSelectorValue(SelectorMethod.XPATH,"//*[@id=\"appointment\"]/div/div/form/div[3]/div/label[1]") //Medicare
+    myNewObject.setSelectorMethod(SelectorMethod.XPATH)
+    ```
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/param-web-object/xpath.png" width="379" height="126">
+
+    ```groovy
+    //CSS
+    myNewObject.setSelectorValue(SelectorMethod.CSS,"#appointment > div > div > form > div:nth-child(3) > div > label:nth-child(1)") //Medicare
+    myNewObject.setSelectorMethod(SelectorMethod.CSS)
+    ```
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/param-web-object/css-locator.png" width="528" height="124">
 
 The following API docs may prove useful when working with test objects:
 
