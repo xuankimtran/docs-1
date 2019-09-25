@@ -1026,7 +1026,29 @@ items:
                   - title: "Windows Record Tutorials"  
                     url: /katalon-studio/docs/windows-recorder-tutorials.html
               - title: "Windows Built-in Keywords"
-                url: /katalon-studio/docs/windows-keywords.html
+                tree:
+                  - title: "[Windows] Start Application"
+                    url: /katalon-studio/docs/windows-kw-start-app.html
+                  - title: "[Windows] Close Application"
+                    url: /katalon-studio/docs/windows-kw-close-app.html
+                  - title: "[Windows] Switch To Desktop"
+                    url: /katalon-studio/docs/windows-kw-switch-desktop.html
+                  - title: "[Windows] Switch To Application"
+                    url: /katalon-studio/docs/windows-kw-switch-app.html
+                  - title: "[Windows] Click"
+                    url: /katalon-studio/docs/windows-kw-click.html
+                  - title: "[Windows] Double-click"
+                    url: /katalon-studio/docs/windows-kw-double-click.html
+                  - title: "[Windows] Right-click"
+                    url: /katalon-studio/docs/windows-kw-rightclick.html
+                  - title: "[Windows] Set Text"
+                    url: /katalon-studio/docs/windows-kw-set-text.html
+                  - title: "[Windows] Get Text"
+                    url: /katalon-studio/docs/windows-kw-get-text.html
+                  - title: "[Windows] Clear Text"
+                    url: /katalon-studio/docs/windows-kw-clear-text.html
+                  - title: "[Windows] Get Driver"
+                    url: /katalon-studio/docs/windows-kw-get-driver.html         
           - title: "Utilities Keywords"
             tree:
               - title: "[Common] Call Test Case"
