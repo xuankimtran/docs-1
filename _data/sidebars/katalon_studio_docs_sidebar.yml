@@ -247,32 +247,18 @@ items:
             tree:
               - title: "Custom Keywords"
                 tree:
-                - title: "Utilities Keywords"
-                  tree:
-                    - title: "[Common] Call Test Case"
-                      url: /katalon-studio/docs/common-call-test-case.html
-                    - title: "[Common] Comment"
-                      url: /katalon-studio/docs/common-comment.html
-                    - title: "[Common] Concatenate"
-                      url: /katalon-studio/docs/common-concatenate.html
-                    - title: "[Common] Delay"
-                      url: /katalon-studio/docs/common-delay.html
-                - title: "Custom Keywords"
-                  tree:
-                    - title: "Introduction to Custom Keywords"
-                      url: /katalon-studio/docs/introduction-to-custom-keywords.html
-                    - title: "Sample Custom Keywords"
-                      url: /katalon-studio/docs/sample-custom-keywords.html
-                    - title: "Import/Export Keywords"
-                      url: /katalon-studio/docs/importexport-keywords.html
-                    - title: "Custom Keywords Refactoring"
-                      url: /katalon-studio/docs/custom-keywords-refactor.html 
-                    - title: "Import Custom Keywords classes recursively"
-                      url: /katalon-studio/docs/import-custom-keywords-classes-recursively.html
-                    - title: "Mark test's status for a Custom Keyword"
-                      url: /katalon-studio/docs/mark-tests-status-for-a-custom-keyword.html
-                    - title: "Handling Databases"
-                      url: /katalon-studio/docs/handling-databases.html
+                  - title: "Introduction to Custom Keywords"
+                    url: /katalon-studio/docs/introduction-to-custom-keywords.html
+                  - title: "Sample Custom Keywords"
+                    url: /katalon-studio/docs/sample-custom-keywords.html
+                  - title: "Import/Export Keywords"
+                    url: /katalon-studio/docs/importexport-keywords.html
+                  - title: "Import Custom Keywords classes recursively"
+                    url: /katalon-studio/docs/import-custom-keywords-classes-recursively.html
+                  - title: "Mark test's status for a Custom Keyword"
+                    url: /katalon-studio/docs/mark-tests-status-for-a-custom-keyword.html
+                  - title: "Handling Databases"
+                    url: /katalon-studio/docs/handling-databases.html
               - title: "Binary Statements"
                 url: /katalon-studio/docs/binary-statements.html
               - title: "Control Statements"
@@ -409,11 +395,11 @@ items:
                     url: /katalon-studio/docs/horizontal_swipe_mobile_automation.html
                   - title: "Handling Scroll to Element in Mobile Automation"
                     url: /katalon-studio/docs/scroll_element_mobile_automation.html
-          - title: "Web and Mobile Test Design"
+          - title: "Web Test Design"
             tree:
-              - title: "Web and Mobile Test Object"
+              - title: "Web Test Object"
                 tree:
-                  - title: "Manage Test Object"
+                  - title: "Manage Web Test Object"
                     url: /katalon-studio/docs/manage-test-object.html
                   - title: "Working with Objects Selection Method for Spy/Record Web"
                     url: /katalon-studio/docs/working-with-objects-selection-method-for-spyrecord-web.html
@@ -425,8 +411,8 @@ items:
                     url: /katalon-studio/docs/clicking-multiple-objects-without-starting-over.html
                   - title: "Creation of Test Object in Object Repository in Runtime"
                     url: /katalon-studio/docs/creation-of-test-object-in-object-repository-in-runtime.html
-                  - title: "Parameterize Web/Mobile Test Object Properties"
-                    url: /katalon-studio/docs/parameterize-webmobile-test-object-properties.html
+                  - title: "Parameterize Web Test Object Properties"
+                    url: /katalon-studio/docs/parameterize-web-test-object-properties.html
               - title: "Web Record and Spy Utilities"
                 tree:
                   - title: "Record Web Utility"
@@ -661,15 +647,7 @@ items:
                             url: /katalon-studio/docs/webui-modify-object-property.html
                           - title: "[WebUI] Remove Object Property"
                             url: /katalon-studio/docs/webui-remove-object-property.html
-              - title: "Mobile Record and Spy Utilities"
-                tree:
-                  - title: "Record Mobile Utility"
-                    url: /katalon-studio/docs/record-mobile-utility.html
-                  - title: "Spy Mobile Utility"
-                    url: /katalon-studio/docs/spy-mobile-utility.html
-                  - title: "Spy and Record Utilities for testing an existing application"
-                    url: /katalon-studio/docs/mobile-spy-record-existing-apps.html
-                  - title: "Mobile Keywords"
+              
                     tree:
                       - title: "[Mobile] Application"
                         tree:
@@ -815,6 +793,158 @@ items:
                     url: /katalon-studio/docs/webdriver-event-listeners.html
               - title: "Testing Web App on Mobile Browsers"
                 url: /katalon-studio/docs/running_application_mobile_browsers.html
+          - title: "Mobile Test Design"
+            tree:
+              - title: "Mobile Test Object"
+                tree:
+                  - title: "Manage Mobile Test Object"
+                    url: /katalon-studio/docs/manage-mobile-test-object.html
+                  - title: "Create Mobile Test Object in Object Repository during Runtime"
+                    url: /katalon-studio/docs/create-mobile-test-object-object-repo-in-runtime.html
+                  - title: "Parameterize Mobile Test Object Properties"
+                    url: /katalon-studio/docs/parameterize-mobile-test-object-properties.html
+              - title: "Mobile Record and Spy Utilities"
+                tree:
+                  - title: "Record Mobile Utility"
+                    url: /katalon-studio/docs/record-mobile-utility.html
+                  - title: "Spy Mobile Utility"
+                    url: /katalon-studio/docs/spy-mobile-utility.html
+                  - title: "Spy and Record Utilities for testing an existing application"
+                    url: /katalon-studio/docs/mobile-spy-record-existing-apps.html
+                  - title: "Mobile Keywords"
+                    tree:
+                      - title: "[Mobile] Application"
+                        tree:
+                          - title: "[Mobile] Close Application"
+                            url: /katalon-studio/docs/mobile-close-application.html
+                          - title: "[Mobile] Run iOS App in Background and Wait"
+                            url: /katalon-studio/docs/mobile-run-ios-app-in-background-and-wait.html
+                          - title: "[Mobile] Start Application"
+                            url: /katalon-studio/docs/mobile-start-application.html
+                          - title: "[Mobile] Start Existing Application"
+                            url: /katalon-studio/docs/mobile-keyword-start-existing-apps.html
+                      - title: "[Mobile] Device"
+                        tree:
+                          - title: "[Mobile] Get Current Orientation"
+                            url: /katalon-studio/docs/mobile-get-current-orientation.html
+                          - title: "[Mobile] Get Device Height"
+                            url: /katalon-studio/docs/mobile-get-device-height.html
+                          - title: "[Mobile] Get Device Manufacturer"
+                            url: /katalon-studio/docs/mobile-get-device-manufacturer.html
+                          - title: "[Mobile] Get Device OS"
+                            url: /katalon-studio/docs/mobile-get-device-os.html
+                          - title: "[Mobile] Get Device OS Version"
+                            url: /katalon-studio/docs/mobile-get-device-os-version.html
+                          - title: "[Mobile] Get Device Width"
+                            url: /katalon-studio/docs/mobile-get-device-width.html
+                          - title: "[Mobile] Press Back"
+                            url: /katalon-studio/docs/mobile-press-back.html
+                          - title: "[Mobile] Press Home"
+                            url: /katalon-studio/docs/mobile-press-home.html
+                          - title: "[Mobile] Switch To Landscape"
+                            url: /katalon-studio/docs/mobile-switch-to-landscape.html
+                          - title: "[Mobile] Switch To Native"
+                            url: /katalon-studio/docs/mobile-switch-to-native.html
+                          - title: "[Mobile] Switch To Portrait"
+                            url: /katalon-studio/docs/mobile-switch-to-portrait.html
+                          - title: "[Mobile] Switch To Web View"
+                            url: /katalon-studio/docs/mobile-switch-to-web-view.html
+                          - title: "[Mobile] Toggle Airplane Mode"
+                            url: /katalon-studio/docs/mobile-toggle-airplane-mode.html
+                          - title: "[Mobile] Unlock Screen"
+                            url: /katalon-studio/docs/mobile-unlock-screen.html
+                          - title: "[Mobile] Verify Is Landscape"
+                            url: /katalon-studio/docs/mobile-verify-is-landscape.html
+                          - title: "[Mobile] Verify Is Portrait"
+                            url: /katalon-studio/docs/mobile-verify-is-portrait.html
+                      - title: "[Mobile] Element"
+                        tree:
+                          - title: "[Mobile] Check Element"
+                            url: /katalon-studio/docs/mobile-check-element.html
+                          - title: "[Mobile] Drag And Drop"
+                            url: /katalon-studio/docs/mobile-drag-and-drop.html
+                          - title: "[Mobile] Get Attribute"
+                            url: /katalon-studio/docs/mobile-get-attribute.html
+                          - title: "[Mobile] Get Element Height"
+                            url: /katalon-studio/docs/mobile-get-element-height.html
+                          - title: "[Mobile] Get Element Left Position"
+                            url: /katalon-studio/docs/mobile-get-element-left-position.html
+                          - title: "[Mobile] Get Element Top Position"
+                            url: /katalon-studio/docs/mobile-get-element-top-position.html
+                          - title: "[Mobile] Get Element Width"
+                            url: /katalon-studio/docs/mobile-get-element-width.html
+                          - title: "[Mobile] Select List Item By Index"
+                            url: /katalon-studio/docs/mobile-select-list-item-by-index.html
+                          - title: "[Mobile] Select List Item By Label"
+                            url: /katalon-studio/docs/mobile-select-list-item-by-label.html
+                          - title: "[Mobile] Set Slider Value"
+                            url: /katalon-studio/docs/mobile-set-slider-value.html
+                          - title: "[Mobile] Tap And Hold"
+                            url: /katalon-studio/docs/mobile-tap-and-hold.html
+                          - title: "[Mobile] Uncheck Element"
+                            url: /katalon-studio/docs/mobile-uncheck-element.html
+                          - title: "[Mobile] Verify Element Attribute Value"
+                            url: /katalon-studio/docs/mobile-verify-element-attribute-value.html
+                          - title: "[Mobile] Verify Element Checked"
+                            url: /katalon-studio/docs/mobile-verify-element-checked.html
+                          - title: "[Mobile] Verify Element Exist"
+                            url: /katalon-studio/docs/mobile-verify-element-exist.html
+                          - title: "[Mobile] Verify Element Has Attribute"
+                            url: /katalon-studio/docs/mobile-verify-element-has-attribute.html
+                          - title: "[Mobile] Verify Element Not Checked"
+                            url: /katalon-studio/docs/mobile-verify-element-not-checked.html
+                          - title: "[Mobile] Verify Element Not Exist"
+                            url: /katalon-studio/docs/mobile-verify-element-not-exist.html
+                          - title: "[Mobile] Verify Element Not Has Attribute"
+                            url: /katalon-studio/docs/mobile-verify-element-not-has-attribute.html
+                          - title: "[Mobile] Verify Element Not Visible"
+                            url: /katalon-studio/docs/mobile-verify-element-not-visible.html
+                          - title: "[Mobile] Verify Element Visible"
+                            url: /katalon-studio/docs/mobile-verify-element-visible.html
+                          - title: "[Mobile] Wait For Element Attribute Value"
+                            url: /katalon-studio/docs/mobile-wait-for-element-attribute-value.html
+                          - title: "[Mobile] Wait For Element Has Attribute"
+                            url: /katalon-studio/docs/mobile-wait-for-element-has-attribute.html
+                          - title: "[Mobile] Wait For Element Not Has Attribute"
+                            url: /katalon-studio/docs/mobile-wait-for-element-not-has-attribute.html
+                          - title: "[Mobile] Wait For Element Present"
+                            url: /katalon-studio/docs/mobile-wait-for-element-present.html
+                      - title: "[Mobile] Notification"
+                        tree:
+                          - title: "[Mobile] Close Notifications"
+                            url: /katalon-studio/docs/mobile-close-notifications.html
+                          - title: "[Mobile] Open Notifications"
+                            url: /katalon-studio/docs/mobile-open-notifications.html
+                      - title: "[Mobile] Screen"
+                        tree:
+                          - title: "[Mobile] Pinch To Zoom In At Position"
+                            url: /katalon-studio/docs/mobile-pinch-to-zoom-in-at-position.html
+                          - title: "[Mobile] Pinch To Zoom Out At Position"
+                            url: /katalon-studio/docs/mobile-pinch-to-zoom-out-at-position.html
+                          - title: "[Mobile] Swipe"
+                            url: /katalon-studio/docs/mobile-swipe.html
+                          - title: "[Mobile] Take Screenshot"
+                            url: /katalon-studio/docs/mobile-take-screenshot.html
+                          - title: "[Mobile] Tap"
+                            url: /katalon-studio/docs/mobile-tap.html
+                          - title: "[Mobile] Tap And Hold At Position"
+                            url: /katalon-studio/docs/mobile-tap-and-hold-at-position.html
+                          - title: "[Mobile] Tap At Position"
+                            url: /katalon-studio/docs/mobile-tap-at-position.html
+                      - title: "[Mobile] Text"
+                        tree:
+                          - title: "[Mobile] Clear Text"
+                            url: /katalon-studio/docs/mobile-clear-text.html
+                          - title: "[Mobile] Get Text"
+                            url: /katalon-studio/docs/mobile-get-text.html
+                          - title: "[Mobile] Hide Keyboard"
+                            url: /katalon-studio/docs/mobile-hide-keyboard.html
+                          - title: "[Mobile] Scroll To Text"
+                            url: /katalon-studio/docs/mobile-scroll-to-text.html
+                          - title: "[Mobile] Send Keys"
+                            url: /katalon-studio/docs/mobile-send-keys.html
+                          - title: "[Mobile] Set Text"
+                            url: /katalon-studio/docs/mobile-set-text.html
               - title: "Testing Mobile Apps Using Custom Cloud Devices"
                 url: /katalon-studio/docs/mobile-testing-apps-cloud-devices.html
           - title: "Web Services Test Design"
@@ -883,6 +1013,8 @@ items:
             tree:
               - title: "Introduction to Desktop App Testing"
                 url: /katalon-studio/docs/introduction-desktop-app-testing.html
+              - title: "Set up WinAppDriver"
+                url: /katalon-studio/docs/setup-winappdriver.html
               - title: "Windows Record and Spy Utilities"
                 tree:
                   - title: "Introduction to Windows Spy Utility"
@@ -916,7 +1048,17 @@ items:
                   - title: "[Windows] Clear Text"
                     url: /katalon-studio/docs/windows-kw-clear-text.html
                   - title: "[Windows] Get Driver"
-                    url: /katalon-studio/docs/windows-kw-get-driver.html
+                    url: /katalon-studio/docs/windows-kw-get-driver.html         
+          - title: "Utilities Keywords"
+            tree:
+              - title: "[Common] Call Test Case"
+                url: /katalon-studio/docs/common-call-test-case.html
+              - title: "[Common] Comment"
+                url: /katalon-studio/docs/common-comment.html
+              - title: "[Common] Concatenate"
+                url: /katalon-studio/docs/common-concatenate.html
+              - title: "[Common] Delay"
+                url: /katalon-studio/docs/common-delay.html
       - title: "Execution and Reporting"
         tree:
           - title: "Test Suite"
