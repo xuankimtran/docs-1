@@ -9,23 +9,26 @@ description: Release note 7.0 (beta)
 
 ## Version 7.0 (Beta)
 
+> **Katalon Studio 7.0 (Beta)** is currently available. Click [here](https://github.com/katalon-studio/katalon-studio/releases) to download.
+
 ### New Features
 
+* Support Custom Keywords refactoring. [Learn more](https://docs.katalon.com/katalon-studio/docs/custom-keywords-refactor.html).
 * Support private plugins. [Learn more](https://docs.katalon.com/katalon-studio/docs/private-plugins.html).
-* Support Windows 10 desktop applications testing. See [Windows Desktop Apps Test Design](https://docs.katalon.com/katalon-studio/docs/introduction-desktop-app-testing.html).
-* Support a plugin that exports and imports test artifacts.
+* Support Windows 10 desktop application testing. See [Windows Desktop Apps Test Design](https://docs.katalon.com/katalon-studio/docs/introduction-desktop-app-testing.html).
+* Support sharing test artifacts across projects. [Learn more](https://docs.katalon.com/katalon-studio/docs/import-export-test-artifact.html).
 * Support Smart Wait function in a script and a project. See [[WebUI] Smart Wait Function](https://docs.katalon.com/katalon-studio/docs/webui-smartwait.html).
 * Support [the WinAppDriver installation](https://docs.katalon.com/katalon-studio/docs/setup-winappdriver.html) and [`Terminate running WebDrivers`](https://docs.katalon.com/katalon-studio/docs/handle-webdrivers.html) options in Katalon Studio Tools.
 * Support WebDriver event listeners. [Learn more](https://docs.katalon.com/katalon-studio/docs/webdriver-event-listeners.html).
-* Support an option to disable `Log executed test steps` in Project Settings. See [Customize Console Log](https://docs.katalon.com/katalon-studio/docs/working-with-execution-log.html#log-executed-test-steps).
+* Support customizing the Console log. [Learn more](https://docs.katalon.com/katalon-studio/docs/working-with-execution-log.html).
 
 ### Improvements
 
 * Add plugins reloading options to the Project Settings.
-* Support parsing the Request Message’s template from the associated XSD file when importing test objects from WSDL.
+* Support parsing the Request Message's template from the associated `XSD` file when importing test objects from WSDL.
 * Support adding the Organisation ID parameter to the Command Generator.
 * Support selecting a Katalon TestOps's organization on the activation.
-* Enhancement: Add some JVM options to reduce Katalon Studio’s memory consumption.
+* Enhancement: Add some JVM options to reduce Katalon Studio's memory consumption.
 * Support a hotkey of Spy Utility in Web Recorder to capture objects. [Learn more](https://docs.katalon.com/katalon-studio/docs/record-web-utility.html).
 * Update **Quick Start** in Katalon Studio after activation.
 * Support adding `.gitignore` and `build.gradle` files when creating a project.
@@ -36,7 +39,8 @@ description: Release note 7.0 (beta)
 * Support uploading Project Code from Katalon Studio to Katalon TestOps. [Learn more](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html).
 * Update the integration mechanism with Katalon TestOps. [Learn more](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html).
 * Update the integration configurations with Katalon TestOps when a new project is created.
-* Adding the parameters of [Katalon API Key](https://docs.katalon.com/katalon-studio/docs/katalon-apikey-70.html) and Katalon TestOps configuration to Command line.
+* Support autofilling the input of [Katalon API Key](https://docs.katalon.com/katalon-studio/docs/katalon-apikey-70.html) in the command-line generator.
+* Support generating test results in JUnit format.
 * Support uploading reports of test suite collections to Katalon TestOps.
 * Remove unnecessary information in the console log when users execute in the console mode for the first time.
 * Support passing more information to the console mode execution with `--info -buildLabel="text" -buildURL="text"`. See [General Options ](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#general-options) in Console Mode Execution.
@@ -44,10 +48,12 @@ description: Release note 7.0 (beta)
 * Merge the Plugins menu into the Tools menu.
 * Support MySQL Database version **8.0.17**.
 * Support automatically reloading plugins when opening a project.
-* Support generating test results in JUnit format.
 
 ### Fixes
 
+* Bug: [Mobile Testing] Cannot retry executing failed test cases.
+* Bug: Web service response displays garbled text as non-latin characters.
+* Bug: [Basic Report Plugin] CSV Report status is always Incomplete.
 * Bug: The Log Viewer’s cursor incorrectly renders when selecting a log message.
 * Bug: Newly added variables disappear after a switch from the Variable tab to another tab.
 * Bug: An issue related to Variable binding when the data contains special characters.
