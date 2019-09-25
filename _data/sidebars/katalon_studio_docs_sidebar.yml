@@ -927,8 +927,8 @@ items:
                 url: /katalon-studio/docs/design-a-test-suite.html
               - title: "Test Suite Collection"
                 url: /katalon-studio/docs/test-suite-collection.html
-              - title: "Dynamic Querying Test Suite"
-                url: /katalon-studio/docs/dynamic-querying-test-suite.html
+              - title: "Dynamic Test Suite"
+                url: /katalon-studio/docs/dynamic-test-suite.html
           - title: "Headless Browsers Execution"
             url: /katalon-studio/docs/headless-browsers-execution.html
           - title: "Reports"
