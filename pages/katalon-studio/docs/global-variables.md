@@ -10,7 +10,11 @@ description:
 
 ## Define a Global Variable
 
-A Global Variable can be accessed anywhere inside your project. Global Variables can be managed in the **Default Profile** view.
+A Global Variable in Katalon Studio is a variable which is used globally in the project. For example, if you are going to 
+
+define a variable as a Global Variable, you can use it in any test case in the project.
+
+Global Variables can be managed in the **Default Profile** view.
 
 > Starting from Katalon Studio version 5.4, the Global Variable view is no longer available.
 
