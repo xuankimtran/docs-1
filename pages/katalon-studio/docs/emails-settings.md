@@ -56,7 +56,7 @@ Below is SMTP configuration for popular email servers:
 
 **Outlook:**
 
-*   *   Host: _[smtp-mail.outlook.com](http://smtp.mail.outlook.com/)_
+*   *   Host: _[smtp.mail.outlook.com](http://smtp.mail.outlook.com/)_
         
     *   Port: _587 or 25_
         
