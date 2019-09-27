@@ -13,6 +13,9 @@ description: Release note 7.0 (beta)
 
 ### New Features
 
+* Support attaching Katalon Studio's source code for debugging. [Learn more](https://docs.katalon.com/katalon-studio/docs/debugging_test_case.html).
+* Support customizing Test Explorer. [Learn more](https://docs.katalon.com/katalon-studio/docs/toolbars-and-views.html#tests-explorer-view).
+* Support Test Objects refactoring. [Learn more](https://docs.katalon.com/katalon-studio/docs/test-objects-refactoring.html).
 * Support Custom Keywords refactoring. [Learn more](https://docs.katalon.com/katalon-studio/docs/custom-keywords-refactor.html).
 * Support private plugins. [Learn more](https://docs.katalon.com/katalon-studio/docs/private-plugins.html).
 * Support Windows 10 desktop application testing. See [Windows Desktop Apps Test Design](https://docs.katalon.com/katalon-studio/docs/introduction-desktop-app-testing.html).
@@ -24,6 +27,8 @@ description: Release note 7.0 (beta)
 
 ### Improvements
 
+* Upgrade Apache POI to version 3.17.
+* Dynamic Querying Test Suite is renamed Dynamic Test Suite.
 * Add plugins reloading options to the Project Settings.
 * Support parsing the Request Message's template from the associated `XSD` file when importing test objects from WSDL.
 * Support adding the Organisation ID parameter to the Command Generator.
@@ -39,7 +44,7 @@ description: Release note 7.0 (beta)
 * Support uploading Project Code from Katalon Studio to Katalon TestOps. [Learn more](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html).
 * Update the integration mechanism with Katalon TestOps. [Learn more](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html).
 * Update the integration configurations with Katalon TestOps when a new project is created.
-* Support autofilling the input of [Katalon API Key](https://docs.katalon.com/katalon-studio/docs/katalon-apikey-70.html) in the command-line generator.
+* Support auto-filling the input of [Katalon API Key](https://docs.katalon.com/katalon-studio/docs/katalon-apikey-70.html) in the command-line generator.
 * Support generating test results in JUnit format.
 * Support uploading reports of test suite collections to Katalon TestOps.
 * Remove unnecessary information in the console log when users execute in the console mode for the first time.
@@ -51,8 +56,13 @@ description: Release note 7.0 (beta)
 
 ### Fixes
 
+* Bug: [Console Mode] To retry executing failed test cases in Test Suite Collection fails to return the correct exit code.
+* Bug: An issue related to saving changes in Test Case Variable View.
+* Bug: [Data Binding] An issue causes binding Variables to Test Data to fail.
+* Bug: [WebUI Keyword] The `WebUI.clickImage` keyword fails to perform.
+* Bug: [WebService] Verification Editor doesn't keep Unicode characters.
 * Bug: [Mobile Testing] Cannot retry executing failed test cases.
-* Bug: Web service response displays garbled text as non-latin characters.
+* Bug: Web service response displays garbled text as non-Latin characters.
 * Bug: [Basic Report Plugin] CSV Report status is always Incomplete.
 * Bug: The Log Viewer’s cursor incorrectly renders when selecting a log message.
 * Bug: Newly added variables disappear after a switch from the Variable tab to another tab.

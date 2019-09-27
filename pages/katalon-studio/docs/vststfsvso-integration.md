@@ -9,6 +9,8 @@ description:
 ---
 Below is a general guide on how to configure Katalon Studio on VSO ([https://visualstudio.microsoft.com/team-services/](https://visualstudio.microsoft.com/team-services/)) with the assumptions that you are already familiar with common VSO terms such as _agent, build, task_......
 
+> Team Foundation Server is now called Azure DevOps Server. Katalon Studio also supports Azure DevOps Extension. Refer to [this document](https://docs.katalon.com/katalon-studio/docs/azure-devops-extension.html) for further details.
+
 <details><summary>Deprecated Content</summary>
 
 1.     **Setting up agent:**
