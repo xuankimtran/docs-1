@@ -253,6 +253,8 @@ items:
                     url: /katalon-studio/docs/sample-custom-keywords.html
                   - title: "Import/Export Keywords"
                     url: /katalon-studio/docs/importexport-keywords.html
+                  - title: "Custom Keywords Refactoring"
+                    url: /katalon-studio/docs/custom-keywords-refactor.html
                   - title: "Import Custom Keywords classes recursively"
                     url: /katalon-studio/docs/import-custom-keywords-classes-recursively.html
                   - title: "Mark test's status for a Custom Keyword"
@@ -927,6 +929,10 @@ items:
                 url: /katalon-studio/docs/common-concatenate.html
               - title: "[Common] Delay"
                 url: /katalon-studio/docs/common-delay.html
+          - title: "Test Maintenance"
+            tree:
+              - title: "Test Objects Refactoring"
+                url: katalon-studio/docs/test-objects-refactoring.html
       - title: "Execution and Reporting"
         tree:
           - title: "Test Suite"
