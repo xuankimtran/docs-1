@@ -9,7 +9,7 @@ redirect_from:
 
 description:
 ---
-After installing Katalon Studio, you will be asked to activate it. There are two ways of activating Katalon Studio: online and offline activations.
+After installing Katalon Studio, you will be asked to activate it. If you currenly use a Katalon Studio Enterprise license, refer to [Activate Katalon Studio Enterprise](https://docs.katalon.com/katalon-studio/docs/activate-KSE.html).
 
 ## Activating Katalon Studio
 
@@ -41,38 +41,6 @@ If you're behind a Proxy Server, you'll need to configure the proxy settings bef
 "_Network error! Please try Offline Activation_"- This error message indicates Katalon Studio's application cannot communicate with Katalon server to activate it.
 
 Please check your Internet connection and try again. If you are behind a **Proxy Server**, please **Config Proxy** first and try to activate Katalon Studio again.
-
-## Activating Katalon Studio Enterprise
-
-You need a license to activate Katalon Studio Enterprise that can work without an Internet connection. A machine ID is required for generating a license. In Katalon Studio Activation pop-up window, click **Activate Katalon Studio Enterprise**:
-
-1. Generate a license: To generate a license in Katalon TestOps, access your organization, navigate to the **License** tab, insert a **Machine ID**, then click **Create**.
-
-2. Locate the generated license: To use a license, click the **Download** button, the license will be downloaded as a `license.lic` file. Then click **Choose file** in **Product Offline Activation** to locate the downloaded license file.
-
-3. Click **Activate**.
-
-### Other options
-
-After activating Katalon Studio Enterprise, there will be a pop-up window requiring you to log in to your Katalon account for connecting to [Katalon TestOps](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html) and [Store](https://docs.katalon.com/katalon-store/docs/overview.html).
-
-Currently, the Katalon Studio Enterprise users can use [private plugins](https://docs.katalon.com/katalon-studio/docs/private-plugins.html) as an alternative option of using plugins from Katalon Store.
-
-Regarding TestOps, there is no on-premises version; hence, the automatically generated [JUnit reports](https://docs.katalon.com/katalon-studio/docs/export-test-results-in-junit-format.html), and the [basic report plugin](https://docs.katalon.com/katalon-studio/docs/basic-report.html) can be a substitute for TestOps.
-
-## Activating Katalon Studio Enterprise trial license
-
-You need to generate a trial license for Katalon Studio Enterprise before activating it. Each trial license of Katalon Studio Enterprise  is bound to each machine.
-
-1. Navigate to your [Katalon TestOps profile](https://analytics.katalon.com/organization/18274/license_keys).
-
-> Notes: Only the organizational owner can access an organizational profile.
-
-2. Select the **License** tab, enter a machine ID to create a trial license for it. Download the newly created license.
-
-> Notes: **Machine ID** is granted for each computer installing Katalon Studio. In Katalon Studio Activation pop-up window, click **Activate Katalon Studio Enterprise**, you can view and copy your machine ID.
-
-3. In **Activate Katalon Studio Enterprise** pop-up dialog,  locate the license file you have just downloaded in step 2. Click **Activate**.
 
 ## Activating in Console mode
 
