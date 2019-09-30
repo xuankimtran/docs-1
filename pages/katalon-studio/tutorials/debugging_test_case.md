@@ -11,20 +11,10 @@ redirect_from:
     - "/katalon-studio/tutorials/debugging_test_case.html"
 description: "The debugging mode makes debugging easy to use, allowing users to quickly investigate the issues that cause failure for their automation tests."
 ---
+
+## Debug a test case
+
 Katalon Studio provides the capability for debugging test scripts. Its Debug mode is designed to make debugging easy to use, allowing quickly investigating the issues that cause failure for their automation tests.
-
-> Starting from **version 7.0.0**, Katalon Studio supports attaching source code for debugging.
-
-When writing a script or debugging, you can view and interact with the implementation of those components compressed in the `com.kms.katalon.core*` packages. They are all saved in `{production}\configuration\resources\source\`, including:
-
-* `com.kms.katalon.core`
-* `com.kms.katalon.core.cucumber`
-* `com.kms.katalon.core.mobile`
-* `com.kms.katalon.core.webservice`
-* `com.kms.katalon.core.webui`
-* `com.kms.katalon.core.windows`
-
-You can also go to the source code where you set a breakpoint for debugging.
 
 The following steps present how to debug a test case:
 
@@ -69,3 +59,16 @@ Where:
 
 6\. Stop execution when you complete debugging.
 Although the debugging mode in Katalon Studio is very similar to that of the popular Eclipse IDE, we manage to retain just enough function to keep the UI clean while providing all the required options to investigate issues when needed. If you have any suggestions or need any support, please send your request [here](https://www.katalon.com/#submit-ticket).
+
+## Attach Source Code for Debugging
+
+Starting from **Katalon Studio version 7.0.0**, when writing a script or debugging, you can view and interact with the implementation of those components compressed in the `com.kms.katalon.core*` packages, including:
+
+* `com.kms.katalon.core`
+* `com.kms.katalon.core.cucumber`
+* `com.kms.katalon.core.mobile`
+* `com.kms.katalon.core.webservice`
+* `com.kms.katalon.core.webui`
+* `com.kms.katalon.core.windows`
+
+You can also go to the source code where you set a breakpoint for debugging test scripts.
