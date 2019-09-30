@@ -60,7 +60,7 @@ Where:
 6\. Stop execution when you complete debugging.
 Although the debugging mode in Katalon Studio is very similar to that of the popular Eclipse IDE, we manage to retain just enough function to keep the UI clean while providing all the required options to investigate issues when needed. If you have any suggestions or need any support, please send your request [here](https://www.katalon.com/#submit-ticket).
 
-## Attach Source Code for Debugging
+## Attach Source Code for debugging
 
 Starting from **Katalon Studio version 7.0.0**, when writing a script or debugging, you can view and interact with the implementation of those components compressed in the `com.kms.katalon.core*` packages, including:
 
