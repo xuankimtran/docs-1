@@ -13,6 +13,8 @@ description: Release note 7.0 (beta)
 
 ### New Features
 
+* Support image-based object detecting. [Learn more](https://docs.katalon.com/katalon-studio/docs/image-based-object-detecting.html).
+* Support data-driven testing with additional database sources. [Learn more](https://docs.katalon.com/katalon-studio/docs/database-settings.html).
 * Support attaching Katalon Studio's source code for debugging. [Learn more](https://docs.katalon.com/katalon-studio/docs/debugging_test_case.html).
 * Support customizing Test Explorer. [Learn more](https://docs.katalon.com/katalon-studio/docs/toolbars-and-views.html#tests-explorer-view).
 * Support Test Objects refactoring. [Learn more](https://docs.katalon.com/katalon-studio/docs/test-objects-refactoring.html).
