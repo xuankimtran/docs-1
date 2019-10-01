@@ -13,7 +13,8 @@ description: Release note 7.0 (beta)
 
 ### New Features
 
-* Support image-based object detecting. [Learn more](https://docs.katalon.com/katalon-studio/docs/image-based-object-detecting.html).
+* Allow configuring usage tracking by Katalon Studio.
+* Support image-based object detection. [Learn more](https://docs.katalon.com/katalon-studio/docs/image-based-object-detection.html).
 * Support data-driven testing with additional database sources. [Learn more](https://docs.katalon.com/katalon-studio/docs/database-settings.html).
 * Support attaching Katalon Studio's source code for debugging. [Learn more](https://docs.katalon.com/katalon-studio/docs/debugging_test_case.html).
 * Support customizing Test Explorer. [Learn more](https://docs.katalon.com/katalon-studio/docs/toolbars-and-views.html#tests-explorer-view).
@@ -29,6 +30,8 @@ description: Release note 7.0 (beta)
 
 ### Improvements
 
+* Update documents of [Katalon Studio API Specification](https://docs.katalon.com/javadoc/index.html) to version 7.0.0.
+* [Console mode] The `katalon` launcher is replaced by `katalonc`.
 * Upgrade Apache POI to version 3.17.
 * Dynamic Querying Test Suite is renamed Dynamic Test Suite.
 * Add plugins reloading options to the Project Settings.
@@ -58,6 +61,9 @@ description: Release note 7.0 (beta)
 
 ### Fixes
 
+* Bug: Incorrectly return code when **Follow redirects** is disabled in Web Service Request. [More details](https://forum.katalon.com/t/followreridects-does-not-work/33800).
+* Bug: Cannot save modifications in the configuration tab of the Web Service Request.
+* Bug: Cannot detect mobile test objects having parameterized global variables in their properties.
 * Bug: [Console Mode] To retry executing failed test cases in Test Suite Collection fails to return the correct exit code.
 * Bug: An issue related to saving changes in Test Case Variable View.
 * Bug: [Data Binding] An issue causes binding Variables to Test Data to fail.
