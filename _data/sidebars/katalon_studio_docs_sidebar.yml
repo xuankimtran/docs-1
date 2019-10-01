@@ -1086,6 +1086,8 @@ items:
                 url: /katalon-studio/docs/lambdatest-integration.html
               - title: "Slack Integration"
                 url: /katalon-studio/docs/slack-integration.html
+              - title: "Selenium Grid - Execution on Remote Machines" 
+                url: /katalon-studio/docs/selenium-grid-integration.html
       - title: "Collaboration"
         tree:
           - title: "Git Integration"
