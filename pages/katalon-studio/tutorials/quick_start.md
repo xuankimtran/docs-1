@@ -39,15 +39,6 @@ Once started, the application should display a splash screen.
 
 After launching Katalon Studio, provide your registered username and password to activate your Katalon Studio Instance. The username and password are the ones used to login to [https://www.katalon.com](https://www.katalon.com).
 
-### Troubleshoot common issues with network
-
-For Enterprise users, you may encounter a situation where you cannot run Katalon Studio due to the network security error. Please contact your IT team to whitelist the following domains:
-
-- store.katalon.com
-- update.katalon.com
-- analytics.katalon.com
-- testops.katalon.com
-
 ### Feature Introduction
 
 When your build is activated, the **Quick Guide** screen is displayed to guide you through all major features. You can skip this and view the Quick Guide later from the **Help** menu.
