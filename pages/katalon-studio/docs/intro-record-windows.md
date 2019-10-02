@@ -42,13 +42,15 @@ The **Recorded Actions** part shows all of the recorded built-in actions for int
 
 The **Captured Objects** part stores all objects captured during the recording session. You can view and edit the object's name, locator and properties.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-windows-actions/record-captured-object.png" width="388" height="551">
+<img src="https://github.com/katalon-studio/docs-images/raw/e9378ee5895411e9fbdb2d78335d333368698f30/katalon-studio/docs/record-windows-actions/record-captured-object.png" width="392" height="574">
 
-In the Recorded Actions mentioned above, you can also view the captured objects in the Object column.
+To customize the locator of a captured object, you can modify its locator in **Object Properties** and click **Highlight** to verify if the new locator correctly identifies the intended object.
+
+In the Recorded Actions, you can also view the captured objects in the Object column.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-windows-actions/record-object-recorded-action.png" width="389" height="154">
 
-> When you press the **OK** button at the bottom of the dialog box to finish the recording session, you will be asked to store all captured objects in the Object Repository .
+> When you press the **OK** button at the bottom of the dialog box to finish the recording session, you will be asked to store all captured objects in the Object Repository.
 
 ### Screen View
 
