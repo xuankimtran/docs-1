@@ -84,7 +84,7 @@ pipeline {
             }
             steps {
                 sh 'bundle exec jekyll clean'
-                sh 'bundle exec jekyll algolia --config _config.yml,_config_prod.yml --verbose'
+                sh 'bundle exec jekyll algolia --config _config.yml,_config_prod.yml --verbose --trace'
             }
         }
     }
