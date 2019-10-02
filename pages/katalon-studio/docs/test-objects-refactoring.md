@@ -29,3 +29,13 @@ You can view and maintain its details by double-clicking the object to display i
 * Remove selected objects: If you want to remove just some of the objects in the list, right-click on that object, select **Delete** and confirm your action.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-object-refactor/remove-one.png" width="636" height="552">
+
+### Object References
+
+You can see in which places a test object has been used by viewing its references. Right-click on the object, in the drop-down menu, select **Show References**. Katalon Studio searches for that object and returns its references. Double-click on a highlighted reference to go to the corresponding place in that project.
+
+Example:
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-object-refactor/object-reference.png" width="" height="">
+
+> Unused objects have no references and appear in the **Unused Test Objects Report** mentioned above.
