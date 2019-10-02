@@ -800,19 +800,19 @@ items:
                       - title: "[Mobile] Tap At Position"
                         url: /katalon-studio/docs/mobile-tap-at-position.html
                   - title: "[Mobile] Text"
-                        tree:
-                          - title: "[Mobile] Clear Text"
-                            url: /katalon-studio/docs/mobile-clear-text.html
-                          - title: "[Mobile] Get Text"
-                            url: /katalon-studio/docs/mobile-get-text.html
-                          - title: "[Mobile] Hide Keyboard"
-                            url: /katalon-studio/docs/mobile-hide-keyboard.html
-                          - title: "[Mobile] Scroll To Text"
-                            url: /katalon-studio/docs/mobile-scroll-to-text.html
-                          - title: "[Mobile] Send Keys"
-                            url: /katalon-studio/docs/mobile-send-keys.html
-                          - title: "[Mobile] Set Text"
-                            url: /katalon-studio/docs/mobile-set-text.html
+                    tree:
+                      - title: "[Mobile] Clear Text"
+                        url: /katalon-studio/docs/mobile-clear-text.html
+                      - title: "[Mobile] Get Text"
+                        url: /katalon-studio/docs/mobile-get-text.html
+                      - title: "[Mobile] Hide Keyboard"
+                        url: /katalon-studio/docs/mobile-hide-keyboard.html
+                      - title: "[Mobile] Scroll To Text"
+                        url: /katalon-studio/docs/mobile-scroll-to-text.html
+                      - title: "[Mobile] Send Keys"
+                        url: /katalon-studio/docs/mobile-send-keys.html
+                      - title: "[Mobile] Set Text"
+                        url: /katalon-studio/docs/mobile-set-text.html
               - title: "Testing Mobile Apps Using Custom Cloud Devices"
                 url: /katalon-studio/docs/mobile-testing-apps-cloud-devices.html
           - title: "Web Services Test Design"
