@@ -13,7 +13,7 @@ description: Release note 7.0 (beta)
 
 ### New Features
 
-* Allow configuring usage tracking by Katalon Studio.
+* Allow configuring the usage tracked by Katalon Studio. [Learn more](https://docs.katalon.com/katalon-studio/docs/katalon-studio-preferences.html).
 * Support image-based object detection. [Learn more](https://docs.katalon.com/katalon-studio/docs/image-based-object-detection.html).
 * Support data-driven testing with additional database sources. [Learn more](https://docs.katalon.com/katalon-studio/docs/database-settings.html).
 * Support attaching Katalon Studio's source code for debugging. [Learn more](https://docs.katalon.com/katalon-studio/docs/debugging_test_case.html).
