@@ -503,230 +503,210 @@ items:
         tree:
           - title: "Web UI Keywords"
             tree:
-              - title: "[WebUI] Alert"
-                tree:
-                  - title: "[WebUI] Accept Alert"
-                    url: /katalon-studio/docs/webui-accept-alert.html
-                  - title: "[WebUI] Dismiss Alert"
-                    url: /katalon-studio/docs/webui-dismiss-alert.html
-                  - title: "[WebUI] Get Alert Text"
-                    url: /katalon-studio/docs/webui-get-alert-text.html
-                  - title: "[WebUI] Set Alert Text"
-                    url: /katalon-studio/docs/webui-set-alert-text.html
-                  - title: "[WebUI] Verify Alert Not Present"
-                    url: /katalon-studio/docs/webui-verify-alert-not-present.html
-                  - title: "[WebUI] Verify Alert Present"
-                    url: /katalon-studio/docs/webui-verify-alert-present.html
-                  - title: "[WebUI] Wait For Alert"
-                    url: /katalon-studio/docs/webui-wait-for-alert.html
-              - title: "[WebUI] Browser"
-                tree:
-                  - title: "[WebUI] Authenticate"
-                    url: /katalon-studio/docs/webui-authenticate.html
-                  - title: "[WebUI] Back"
-                    url: /katalon-studio/docs/webui-back.html
-                  - title: "[WebUI] Close Browser"
-                    url: /katalon-studio/docs/webui-close-browser.html
-                  - title: "[WebUI] Close Window Index"
-                    url: /katalon-studio/docs/webui-close-window-index.html
-                  - title: "[WebUI] Close Window Title"
-                    url: /katalon-studio/docs/webui-close-window-title.html
-                  - title: "[WebUI] Close Window Url"
-                    url: /katalon-studio/docs/webui-close-window-url.html
-                  - title: "[WebUI] Delete All Cookies"
-                    url: /katalon-studio/docs/webui-delete-all-cookies.html
-                  - title: "[WebUI] Execute JavaScript"
-                    url: /katalon-studio/docs/webui-execute-javascript.html
-                  - title: "[WebUI] Forward"
-                    url: /katalon-studio/docs/webui-forward.html
-                  - title: "[WebUI] Get Page Height"
-                    url: /katalon-studio/docs/webui-get-page-height.html
-                  - title: "[WebUI] Get Page Width"
-                    url: /katalon-studio/docs/webui-get-page-width.html
-                  - title: "[WebUI] Get Url"
-                    url: /katalon-studio/docs/webui-get-url.html
-                  - title: "[WebUI] Get Viewport Height"
-                    url: /katalon-studio/docs/webui-get-viewport-height.html
-                  - title: "[WebUI] Get Viewport Left Position"
-                    url: /katalon-studio/docs/webui-get-viewport-left-position.html
-                  - title: "[WebUI] Get Viewport Top Position"
-                    url: /katalon-studio/docs/webui-get-viewport-top-position.html
-                  - title: "[WebUI] Get Viewport Width"
-                    url: /katalon-studio/docs/webui-get-viewport-width.html
-                  - title: "[WebUI] Get Window Index"
-                    url: /katalon-studio/docs/webui-get-window-index.html
-                  - title: "[WebUI] Get Window Title"
-                    url: /katalon-studio/docs/webui-get-window-title.html
-                  - title: "[WebUI] Maximize Window"
-                    url: /katalon-studio/docs/webui-maximize-window.html
-                  - title: "[WebUI] Navigate to Url"
-                    url: /katalon-studio/docs/webui-navigate-to-url.html
-                  - title: "[WebUI] Open Browser"
-                    url: /katalon-studio/docs/webui-open-browser.html
-                  - title: "[WebUI] Refresh"
-                    url: /katalon-studio/docs/webui-refresh.html
-                  - title: "[WebUI] Scroll To Position"
-                    url: /katalon-studio/docs/webui-scroll-to-position.html
-                  - title: "[WebUI] Set View Port Size"
-                    url: /katalon-studio/docs/webui-set-view-port-size.html
-                  - title: "[WebUI] Switch To Window Index"
-                    url: /katalon-studio/docs/webui-switch-to-window-index.html
-              - title: "[WebUI] Checkbox"
-                tree:
-                  - title: "[Web UI] Verify Element Not Checked"
-                    url: /katalon-studio/docs/web-ui-verify-element-not-checked.html
-                  - title: "[WebUI] Check"
-                    url: /katalon-studio/docs/webui-check.html
-                  - title: "[WebUI] Un-check"
-                    url: /katalon-studio/docs/webui-un-check.html
-                  - title: "[WebUI] Verify Element Checked"
-                    url: /katalon-studio/docs/webui-verify-element-checked.html
-              - title: "[WebUI] Combo box"
-                tree:
-                  - title: "[WebUI] Deselect All Option"
-                    url: /katalon-studio/docs/webui-deselect-all-option.html
-                  - title: "[WebUI] Deselect Option By Index"
-                    url: /katalon-studio/docs/webui-deselect-option-by-index.html
-                  - title: "[WebUI] Deselect Option By Label"
-                    url: /katalon-studio/docs/webui-deselect-option-by-label.html
-                  - title: "[WebUI] Deselect Option By Value"
-                    url: /katalon-studio/docs/webui-deselect-option-by-value.html
-                  - title: "[WebUI] Get Number Of Selected Option"
-                    url: /katalon-studio/docs/webui-get-number-of-selected-option.html
-                  - title: "[WebUI] Get Number Of Total Option"
-                    url: /katalon-studio/docs/webui-get-number-of-total-option.html
-                  - title: "[WebUI] Select All Option"
-                    url: /katalon-studio/docs/webui-select-all-option.html
-                  - title: "[WebUI] Select Option By Index"
-                    url: /katalon-studio/docs/webui-select-option-by-index.html
-                  - title: "[WebUI] Select Option By Label"
-                    url: /katalon-studio/docs/webui-select-option-by-label.html
-                  - title: "[WebUI] Select Option By Value"
-                    url: /katalon-studio/docs/webui-select-option-by-value.html
-                  - title: "[WebUI] Verify Option Not Present By Label"
-                    url: /katalon-studio/docs/webui-verify-option-not-present-by-label.html
-                  - title: "[WebUI] Verify Option Not Present By Value"
-                    url: /katalon-studio/docs/webui-verify-option-not-present-by-value.html
-                  - title: "[WebUI] Verify Option Not Selected By Index"
-                    url: /katalon-studio/docs/webui-verify-option-not-selected-by-index.html
-                  - title: "[WebUI] Verify Option Not Selected By Label"
-                    url: /katalon-studio/docs/webui-verify-option-not-selected-by-label.html
-                  - title: "[WebUI] Verify Option Not Selected By Value"
-                    url: /katalon-studio/docs/webui-verify-option-not-selected-by-value.html
-                  - title: "[WebUI] Verify Option Present By Label"
-                    url: /katalon-studio/docs/webui-verify-option-present-by-label.html
-                  - title: "[WebUI] Verify Option Present By Value"
-                    url: /katalon-studio/docs/webui-verify-option-present-by-value.html
-                  - title: "[WebUI] Verify Option Selected By Index"
-                    url: /katalon-studio/docs/webui-verify-option-selected-by-index.html
-                  - title: "[WebUI] Verify Option Selected By Label"
-                    url: /katalon-studio/docs/webui-verify-option-selected-by-label.html
-                  - title: "[WebUI] Verify Option Selected By Value"
-                    url: /katalon-studio/docs/webui-verify-option-selected-by-value.html
-                  - title: "[WebUI] Verify Options Present"
-                    url: /katalon-studio/docs/webui-verify-options-present.html
-              - title: "[WebUI] Element"
-                tree:
-                  - title: "[WebUI] Click"
-                    url: /katalon-studio/docs/webui-click.html
-                  - title: "[WebUI] Click Offset"
-                    url: /katalon-studio/docs/webui-click-offset.html
-                  - title: "[WebUI] Double Click"
-                    url: /katalon-studio/docs/webui-double-click.html
-                  - title: "[WebUI] Drag And Drop By Offset"
-                    url: /katalon-studio/docs/webui-drag-and-drop-by-offset.html
-                  - title: "[WebUI] Drag And Drop To Object"
-                    url: /katalon-studio/docs/webui-drag-and-drop-to-object.html
-                  - title: "[WebUI] Focus"
-                    url: /katalon-studio/docs/webui-focus.html
-                  - title: "[WebUI] Get All Links On Current Page"
-                    url: /katalon-studio/docs/webui-get-all-links-on-current-page.html
-                  - title: "[WebUI] Get Attribute"
-                    url: /katalon-studio/docs/webui-get-attribute.html
-                  - title: "[WebUI] Get CSS Value"
-                    url: /katalon-studio/docs/webui-get-css-value.html
-                  - title: "[WebUI] Get Element Height"
-                    url: /katalon-studio/docs/webui-get-element-height.html
-                  - title: "[WebUI] Get Element Left Position"
-                    url: /katalon-studio/docs/webui-get-element-left-position.html
-                  - title: "[WebUI] Get Element Width"
-                    url: /katalon-studio/docs/webui-get-element-width.html
-                  - title: "[WebUI] Mouse Over"
-                    url: /katalon-studio/docs/webui-mouse-over.html
-                  - title: "[WebUI] Mouse Over Offset"
-                    url: /katalon-studio/docs/webui-mouse-over-offset.html
-                  - title: "[WebUI] Right Click"
-                    url: /katalon-studio/docs/webui-right-click.html
-                  - title: "[WebUI] Right Click Offset"
-                    url: /katalon-studio/docs/webui-right-click-offset.html
-                  - title: "[WebUI] Scroll To Element"
-                    url: /katalon-studio/docs/webui-scroll-to-element.html
-                  - title: "[WebUI] Verify All Links On Current Page Accessible"
-                    url: /katalon-studio/docs/webui-verify-all-links-on-current-page-accessible.html
-                  - title: "[WebUI] Verify Element Attribute Value"
-                    url: /katalon-studio/docs/webui-verify-element-attribute-value.html
-                  - title: "[WebUI] Verify Element Clickable"
-                    url: /katalon-studio/docs/webui-verify-element-clickable.html
-                  - title: "[WebUI] Verify Element Has Attribute"
-                    url: /katalon-studio/docs/webui-verify-element-has-attribute.html
-                  - title: "[WebUI] Verify Element Not Clickable"
-                    url: /katalon-studio/docs/webui-verify-element-not-clickable.html
-                  - title: "[WebUI] Verify Element Not Has Attribute"
-                    url: /katalon-studio/docs/webui-verify-element-not-has-attribute.html
-                  - title: "[WebUI] Verify Element Present"
-                    url: /katalon-studio/docs/webui-verify-element-present.html
-                  - title: "[WebUI] Verify Element Not Present"
-                    url: /katalon-studio/docs/webui-verify-element-not-present.html
-                  - title: "[WebUI] Verify Element Visible"
-                    url: /katalon-studio/docs/webui-verify-element-visible.html
-                  - title: "[WebUI] Verify Element Not Visible"
-                    url: /katalon-studio/docs/webui-verify-element-not-visible.html
-                  - title: "[WebUI] Smart Wait Function"
-                    url: /katalon-studio/docs/webui-smartwait.html 
-              - title: "[WebUI] Form"
-                tree:
-                  - title: "[WebUI] Submit"
-                    url: /katalon-studio/docs/webui-submit.html
-              - title: "[WebUI] Frame"
-                tree:
-                  - title: "[WebUI] Switch To Default Content"
-                    url: /katalon-studio/docs/webui-switch-to-default-content.html
-                  - title: "[WebUI] Switch To Frame"
-                    url: /katalon-studio/docs/webui-switch-to-frame.html
-              - title: "[WebUI] Image"
-                tree:
-                  - title: "[WebUI] Click Image"
-                    url: /katalon-studio/docs/webui-click-image.html
-                  - title: "[WebUI] Type On Image"
-                    url: /katalon-studio/docs/webui-type-on-image.html
-                  - title: "[WebUI] Verify Image Present"
-                    url: /katalon-studio/docs/webui-verify-image-present.html
-                  - title: "[WebUI] Wait For Image Present"
-                    url: /katalon-studio/docs/webui-wait-for-image-present.html
-              - title: "[WebUI] Text"
-                tree:
-                  - title: "[WebUI] Get Text"
-                    url: /katalon-studio/docs/webui-get-text.html
-                  - title: "[WebUI] Send Keys"
-                    url: /katalon-studio/docs/webui-send-keys.html
-                  - title: "[WebUI] Set Encrypted Text"
-                    url: /katalon-studio/docs/webui-set-encrypted-text.html
-                  - title: "[WebUI] Set Masked Text"
-                    url: /katalon-studio/docs/webui-set-masked-text.html
-                  - title: "[WebUI] Set Text"
-                    url: /katalon-studio/docs/webui-set-text.html
-                  - title: "[WebUI] Verify Text Not Present"
-                    url: /katalon-studio/docs/webui-verify-text-not-present.html
-                  - title: "[WebUI] Verify Text Present"
-                    url: /katalon-studio/docs/webui-verify-text-present.html
+              - title: "[WebUI] Accept Alert"
+                url: /katalon-studio/docs/webui-accept-alert.html
+              - title: "[WebUI] Dismiss Alert"
+                url: /katalon-studio/docs/webui-dismiss-alert.html
+              - title: "[WebUI] Get Alert Text"
+                url: /katalon-studio/docs/webui-get-alert-text.html
+              - title: "[WebUI] Set Alert Text"
+                url: /katalon-studio/docs/webui-set-alert-text.html
+              - title: "[WebUI] Verify Alert Not Present"
+                url: /katalon-studio/docs/webui-verify-alert-not-present.html
+              - title: "[WebUI] Verify Alert Present"
+                url: /katalon-studio/docs/webui-verify-alert-present.html
+              - title: "[WebUI] Wait For Alert"
+                url: /katalon-studio/docs/webui-wait-for-alert.html
+              - title: "[WebUI] Authenticate"
+                url: /katalon-studio/docs/webui-authenticate.html
+              - title: "[WebUI] Back"
+                url: /katalon-studio/docs/webui-back.html
+              - title: "[WebUI] Close Browser"
+                url: /katalon-studio/docs/webui-close-browser.html
+              - title: "[WebUI] Close Window Index"
+                url: /katalon-studio/docs/webui-close-window-index.html
+              - title: "[WebUI] Close Window Title"
+                url: /katalon-studio/docs/webui-close-window-title.html
+              - title: "[WebUI] Close Window Url"
+                url: /katalon-studio/docs/webui-close-window-url.html
+              - title: "[WebUI] Delete All Cookies"
+                url: /katalon-studio/docs/webui-delete-all-cookies.html
+              - title: "[WebUI] Execute JavaScript"
+                url: /katalon-studio/docs/webui-execute-javascript.html
+              - title: "[WebUI] Forward"
+                url: /katalon-studio/docs/webui-forward.html
+              - title: "[WebUI] Get Page Height"
+                url: /katalon-studio/docs/webui-get-page-height.html
+              - title: "[WebUI] Get Page Width"
+                url: /katalon-studio/docs/webui-get-page-width.html
+              - title: "[WebUI] Get Url"
+                url: /katalon-studio/docs/webui-get-url.html
+              - title: "[WebUI] Get Viewport Height"
+                url: /katalon-studio/docs/webui-get-viewport-height.html
+              - title: "[WebUI] Get Viewport Left Position"
+                url: /katalon-studio/docs/webui-get-viewport-left-position.html
+              - title: "[WebUI] Get Viewport Top Position"
+                url: /katalon-studio/docs/webui-get-viewport-top-position.html
+              - title: "[WebUI] Get Viewport Width"
+                url: /katalon-studio/docs/webui-get-viewport-width.html
+              - title: "[WebUI] Get Window Index"
+                url: /katalon-studio/docs/webui-get-window-index.html
+              - title: "[WebUI] Get Window Title"
+                url: /katalon-studio/docs/webui-get-window-title.html
+              - title: "[WebUI] Maximize Window"
+                url: /katalon-studio/docs/webui-maximize-window.html
+              - title: "[WebUI] Navigate to Url"
+                url: /katalon-studio/docs/webui-navigate-to-url.html
+              - title: "[WebUI] Open Browser"
+                url: /katalon-studio/docs/webui-open-browser.html
+              - title: "[WebUI] Refresh"
+                url: /katalon-studio/docs/webui-refresh.html
+              - title: "[WebUI] Scroll To Position"
+                url: /katalon-studio/docs/webui-scroll-to-position.html
+              - title: "[WebUI] Set View Port Size"
+                url: /katalon-studio/docs/webui-set-view-port-size.html
+              - title: "[WebUI] Switch To Window Index"
+                url: /katalon-studio/docs/webui-switch-to-window-index.html
+              - title: "[Web UI] Verify Element Not Checked"
+                url: /katalon-studio/docs/web-ui-verify-element-not-checked.html
+              - title: "[WebUI] Check"
+                url: /katalon-studio/docs/webui-check.html
+              - title: "[WebUI] Un-check"
+                url: /katalon-studio/docs/webui-un-check.html
+              - title: "[WebUI] Verify Element Checked"
+                url: /katalon-studio/docs/webui-verify-element-checked.html
+              - title: "[WebUI] Deselect All Option"
+                url: /katalon-studio/docs/webui-deselect-all-option.html
+              - title: "[WebUI] Deselect Option By Index"
+                url: /katalon-studio/docs/webui-deselect-option-by-index.html
+              - title: "[WebUI] Deselect Option By Label"
+                url: /katalon-studio/docs/webui-deselect-option-by-label.html
+              - title: "[WebUI] Deselect Option By Value"
+                url: /katalon-studio/docs/webui-deselect-option-by-value.html
+              - title: "[WebUI] Get Number Of Selected Option"
+                url: /katalon-studio/docs/webui-get-number-of-selected-option.html
+              - title: "[WebUI] Get Number Of Total Option"
+                url: /katalon-studio/docs/webui-get-number-of-total-option.html
+              - title: "[WebUI] Select All Option"
+                url: /katalon-studio/docs/webui-select-all-option.html
+              - title: "[WebUI] Select Option By Index"
+                url: /katalon-studio/docs/webui-select-option-by-index.html
+              - title: "[WebUI] Select Option By Label"
+                url: /katalon-studio/docs/webui-select-option-by-label.html
+              - title: "[WebUI] Select Option By Value"
+                url: /katalon-studio/docs/webui-select-option-by-value.html
+              - title: "[WebUI] Verify Option Not Present By Label"
+                url: /katalon-studio/docs/webui-verify-option-not-present-by-label.html
+              - title: "[WebUI] Verify Option Not Present By Value"
+                url: /katalon-studio/docs/webui-verify-option-not-present-by-value.html
+              - title: "[WebUI] Verify Option Not Selected By Index"
+                url: /katalon-studio/docs/webui-verify-option-not-selected-by-index.html
+              - title: "[WebUI] Verify Option Not Selected By Label"
+                url: /katalon-studio/docs/webui-verify-option-not-selected-by-label.html
+              - title: "[WebUI] Verify Option Not Selected By Value"
+                url: /katalon-studio/docs/webui-verify-option-not-selected-by-value.html
+              - title: "[WebUI] Verify Option Present By Label"
+                url: /katalon-studio/docs/webui-verify-option-present-by-label.html
+              - title: "[WebUI] Verify Option Present By Value"
+                url: /katalon-studio/docs/webui-verify-option-present-by-value.html
+              - title: "[WebUI] Verify Option Selected By Index"
+                url: /katalon-studio/docs/webui-verify-option-selected-by-index.html
+              - title: "[WebUI] Verify Option Selected By Label"
+                url: /katalon-studio/docs/webui-verify-option-selected-by-label.html
+              - title: "[WebUI] Verify Option Selected By Value"
+                url: /katalon-studio/docs/webui-verify-option-selected-by-value.html
+              - title: "[WebUI] Verify Options Present"
+                url: /katalon-studio/docs/webui-verify-options-present.html
+              - title: "[WebUI] Click"
+                url: /katalon-studio/docs/webui-click.html
+              - title: "[WebUI] Click Offset"
+                url: /katalon-studio/docs/webui-click-offset.html
+              - title: "[WebUI] Double Click"
+                url: /katalon-studio/docs/webui-double-click.html
+              - title: "[WebUI] Drag And Drop By Offset"
+                url: /katalon-studio/docs/webui-drag-and-drop-by-offset.html
+              - title: "[WebUI] Drag And Drop To Object"
+                url: /katalon-studio/docs/webui-drag-and-drop-to-object.html
+              - title: "[WebUI] Focus"
+                url: /katalon-studio/docs/webui-focus.html
+              - title: "[WebUI] Get All Links On Current Page"
+                url: /katalon-studio/docs/webui-get-all-links-on-current-page.html
+              - title: "[WebUI] Get Attribute"
+                url: /katalon-studio/docs/webui-get-attribute.html
+              - title: "[WebUI] Get CSS Value"
+                url: /katalon-studio/docs/webui-get-css-value.html
+              - title: "[WebUI] Get Element Height"
+                url: /katalon-studio/docs/webui-get-element-height.html
+              - title: "[WebUI] Get Element Left Position"
+                url: /katalon-studio/docs/webui-get-element-left-position.html
+              - title: "[WebUI] Get Element Width"
+                url: /katalon-studio/docs/webui-get-element-width.html
+              - title: "[WebUI] Mouse Over"
+                url: /katalon-studio/docs/webui-mouse-over.html
+              - title: "[WebUI] Mouse Over Offset"
+                url: /katalon-studio/docs/webui-mouse-over-offset.html
+              - title: "[WebUI] Right Click"
+                url: /katalon-studio/docs/webui-right-click.html
+              - title: "[WebUI] Right Click Offset"
+                url: /katalon-studio/docs/webui-right-click-offset.html
+              - title: "[WebUI] Scroll To Element"
+                url: /katalon-studio/docs/webui-scroll-to-element.html
+              - title: "[WebUI] Verify All Links On Current Page Accessible"
+                url: /katalon-studio/docs/webui-verify-all-links-on-current-page-accessible.html
+              - title: "[WebUI] Verify Element Attribute Value"
+                url: /katalon-studio/docs/webui-verify-element-attribute-value.html
+              - title: "[WebUI] Verify Element Clickable"
+                url: /katalon-studio/docs/webui-verify-element-clickable.html
+              - title: "[WebUI] Verify Element Has Attribute"
+                url: /katalon-studio/docs/webui-verify-element-has-attribute.html
+              - title: "[WebUI] Verify Element Not Clickable"
+                url: /katalon-studio/docs/webui-verify-element-not-clickable.html
+              - title: "[WebUI] Verify Element Not Has Attribute"
+                url: /katalon-studio/docs/webui-verify-element-not-has-attribute.html
+              - title: "[WebUI] Verify Element Present"
+                url: /katalon-studio/docs/webui-verify-element-present.html
+              - title: "[WebUI] Verify Element Not Present"
+                url: /katalon-studio/docs/webui-verify-element-not-present.html
+              - title: "[WebUI] Verify Element Visible"
+                url: /katalon-studio/docs/webui-verify-element-visible.html
+              - title: "[WebUI] Verify Element Not Visible"
+                url: /katalon-studio/docs/webui-verify-element-not-visible.html
+              - title: "[WebUI] Smart Wait Function"
+                url: /katalon-studio/docs/webui-smartwait.html 
+              - title: "[WebUI] Submit"
+                url: /katalon-studio/docs/webui-submit.html
+              - title: "[WebUI] Switch To Default Content"
+                url: /katalon-studio/docs/webui-switch-to-default-content.html
+              - title: "[WebUI] Switch To Frame"
+                url: /katalon-studio/docs/webui-switch-to-frame.html
+              - title: "[WebUI] Click Image"
+                url: /katalon-studio/docs/webui-click-image.html
+              - title: "[WebUI] Type On Image"
+                url: /katalon-studio/docs/webui-type-on-image.html
+              - title: "[WebUI] Verify Image Present"
+                url: /katalon-studio/docs/webui-verify-image-present.html
+              - title: "[WebUI] Wait For Image Present"
+                url: /katalon-studio/docs/webui-wait-for-image-present.html
+              - title: "[WebUI] Get Text"
+                url: /katalon-studio/docs/webui-get-text.html
+              - title: "[WebUI] Send Keys"
+                url: /katalon-studio/docs/webui-send-keys.html
+              - title: "[WebUI] Set Encrypted Text"
+                url: /katalon-studio/docs/webui-set-encrypted-text.html
+              - title: "[WebUI] Set Masked Text"
+                url: /katalon-studio/docs/webui-set-masked-text.html
+              - title: "[WebUI] Set Text"
+                url: /katalon-studio/docs/webui-set-text.html
+              - title: "[WebUI] Verify Text Not Present"
+                url: /katalon-studio/docs/webui-verify-text-not-present.html
+              - title: "[WebUI] Verify Text Present"
+                url: /katalon-studio/docs/webui-verify-text-present.html
               - title: "[WebUI] Upload File"
                 url: /katalon-studio/docs/webui-upload-file.html
-              - title: "[WebUI] Test Object API"
-                tree:
-                  - title: "[WebUI] Modify Object Property"
-                    url: /katalon-studio/docs/webui-modify-object-property.html
-                  - title: "[WebUI] Remove Object Property"
-                    url: /katalon-studio/docs/webui-remove-object-property.html
+              - title: "[WebUI] Modify Object Property"
+                url: /katalon-studio/docs/webui-modify-object-property.html
+              - title: "[WebUI] Remove Object Property"
+                url: /katalon-studio/docs/webui-remove-object-property.html
           - title: "Mobile Keywords"
             tree:
               - title: "[Mobile] Application"
