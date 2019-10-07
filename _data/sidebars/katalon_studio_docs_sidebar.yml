@@ -708,159 +708,143 @@ items:
               - title: "[WebUI] Remove Object Property"
                 url: /katalon-studio/docs/webui-remove-object-property.html
           - title: "Mobile Keywords"
-            tree:
-              - title: "[Mobile] Application"
-                tree:
-                  - title: "[Mobile] Close Application"
-                    url: /katalon-studio/docs/mobile-close-application.html
-                  - title: "[Mobile] Run iOS App in Background and Wait"
-                    url: /katalon-studio/docs/mobile-run-ios-app-in-background-and-wait.html
-                  - title: "[Mobile] Start Application"
-                    url: /katalon-studio/docs/mobile-start-application.html
-                  - title: "[Mobile] Start Existing Application"
-                    url: /katalon-studio/docs/mobile-keyword-start-existing-apps.html
-              - title: "[Mobile] Device"
-                tree:
-                  - title: "[Mobile] Get Current Orientation"
-                    url: /katalon-studio/docs/mobile-get-current-orientation.html
-                  - title: "[Mobile] Get Device Height"
-                    url: /katalon-studio/docs/mobile-get-device-height.html
-                  - title: "[Mobile] Get Device Manufacturer"
-                    url: /katalon-studio/docs/mobile-get-device-manufacturer.html
-                  - title: "[Mobile] Get Device OS"
-                    url: /katalon-studio/docs/mobile-get-device-os.html
-                  - title: "[Mobile] Get Device OS Version"
-                    url: /katalon-studio/docs/mobile-get-device-os-version.html
-                  - title: "[Mobile] Get Device Width"
-                    url: /katalon-studio/docs/mobile-get-device-width.html
-                  - title: "[Mobile] Press Back"
-                    url: /katalon-studio/docs/mobile-press-back.html
-                  - title: "[Mobile] Press Home"
-                    url: /katalon-studio/docs/mobile-press-home.html
-                  - title: "[Mobile] Switch To Landscape"
-                    url: /katalon-studio/docs/mobile-switch-to-landscape.html
-                  - title: "[Mobile] Switch To Native"
-                    url: /katalon-studio/docs/mobile-switch-to-native.html
-                  - title: "[Mobile] Switch To Portrait"
-                    url: /katalon-studio/docs/mobile-switch-to-portrait.html
-                  - title: "[Mobile] Switch To Web View"
-                    url: /katalon-studio/docs/mobile-switch-to-web-view.html
-                  - title: "[Mobile] Toggle Airplane Mode"
-                    url: /katalon-studio/docs/mobile-toggle-airplane-mode.html
-                  - title: "[Mobile] Unlock Screen"
-                    url: /katalon-studio/docs/mobile-unlock-screen.html
-                  - title: "[Mobile] Verify Is Landscape"
-                    url: /katalon-studio/docs/mobile-verify-is-landscape.html
-                  - title: "[Mobile] Verify Is Portrait"
-                    url: /katalon-studio/docs/mobile-verify-is-portrait.html
-              - title: "[Mobile] Element"
-                tree:
-                  - title: "[Mobile] Check Element"
-                    url: /katalon-studio/docs/mobile-check-element.html
-                  - title: "[Mobile] Drag And Drop"
-                    url: /katalon-studio/docs/mobile-drag-and-drop.html
-                  - title: "[Mobile] Get Attribute"
-                    url: /katalon-studio/docs/mobile-get-attribute.html
-                  - title: "[Mobile] Get Element Height"
-                    url: /katalon-studio/docs/mobile-get-element-height.html
-                  - title: "[Mobile] Get Element Left Position"
-                    url: /katalon-studio/docs/mobile-get-element-left-position.html
-                  - title: "[Mobile] Get Element Top Position"
-                    url: /katalon-studio/docs/mobile-get-element-top-position.html
-                  - title: "[Mobile] Get Element Width"
-                    url: /katalon-studio/docs/mobile-get-element-width.html
-                  - title: "[Mobile] Select List Item By Index"
-                    url: /katalon-studio/docs/mobile-select-list-item-by-index.html
-                  - title: "[Mobile] Select List Item By Label"
-                    url: /katalon-studio/docs/mobile-select-list-item-by-label.html
-                  - title: "[Mobile] Set Slider Value"
-                    url: /katalon-studio/docs/mobile-set-slider-value.html
-                  - title: "[Mobile] Tap And Hold"
-                    url: /katalon-studio/docs/mobile-tap-and-hold.html
-                  - title: "[Mobile] Uncheck Element"
-                    url: /katalon-studio/docs/mobile-uncheck-element.html
-                  - title: "[Mobile] Verify Element Attribute Value"
-                    url: /katalon-studio/docs/mobile-verify-element-attribute-value.html
-                  - title: "[Mobile] Verify Element Checked"
-                    url: /katalon-studio/docs/mobile-verify-element-checked.html
-                  - title: "[Mobile] Verify Element Exist"
-                    url: /katalon-studio/docs/mobile-verify-element-exist.html
-                  - title: "[Mobile] Verify Element Has Attribute"
-                    url: /katalon-studio/docs/mobile-verify-element-has-attribute.html
-                  - title: "[Mobile] Verify Element Not Checked"
-                    url: /katalon-studio/docs/mobile-verify-element-not-checked.html
-                  - title: "[Mobile] Verify Element Not Exist"
-                    url: /katalon-studio/docs/mobile-verify-element-not-exist.html
-                  - title: "[Mobile] Verify Element Not Has Attribute"
-                    url: /katalon-studio/docs/mobile-verify-element-not-has-attribute.html
-                  - title: "[Mobile] Verify Element Not Visible"
-                    url: /katalon-studio/docs/mobile-verify-element-not-visible.html
-                  - title: "[Mobile] Verify Element Visible"
-                    url: /katalon-studio/docs/mobile-verify-element-visible.html
-                  - title: "[Mobile] Wait For Element Attribute Value"
-                    url: /katalon-studio/docs/mobile-wait-for-element-attribute-value.html
-                  - title: "[Mobile] Wait For Element Has Attribute"
-                    url: /katalon-studio/docs/mobile-wait-for-element-has-attribute.html
-                  - title: "[Mobile] Wait For Element Not Has Attribute"
-                    url: /katalon-studio/docs/mobile-wait-for-element-not-has-attribute.html
-                  - title: "[Mobile] Wait For Element Present"
-                    url: /katalon-studio/docs/mobile-wait-for-element-present.html
-              - title: "[Mobile] Notification"
-                tree:
-                  - title: "[Mobile] Close Notifications"
-                    url: /katalon-studio/docs/mobile-close-notifications.html
-                  - title: "[Mobile] Open Notifications"
-                    url: /katalon-studio/docs/mobile-open-notifications.html
-              - title: "[Mobile] Screen"
-                tree:
-                  - title: "[Mobile] Pinch To Zoom In At Position"
-                    url: /katalon-studio/docs/mobile-pinch-to-zoom-in-at-position.html
-                  - title: "[Mobile] Pinch To Zoom Out At Position"
-                    url: /katalon-studio/docs/mobile-pinch-to-zoom-out-at-position.html
-                  - title: "[Mobile] Swipe"
-                    url: /katalon-studio/docs/mobile-swipe.html
-                  - title: "[Mobile] Take Screenshot"
-                    url: /katalon-studio/docs/mobile-take-screenshot.html
-                  - title: "[Mobile] Tap"
-                    url: /katalon-studio/docs/mobile-tap.html
-                  - title: "[Mobile] Tap And Hold At Position"
-                    url: /katalon-studio/docs/mobile-tap-and-hold-at-position.html
-                  - title: "[Mobile] Tap At Position"
-                    url: /katalon-studio/docs/mobile-tap-at-position.html
-              - title: "[Mobile] Text"
-                tree:
-                  - title: "[Mobile] Clear Text"
-                    url: /katalon-studio/docs/mobile-clear-text.html
-                  - title: "[Mobile] Get Text"
-                    url: /katalon-studio/docs/mobile-get-text.html
-                  - title: "[Mobile] Hide Keyboard"
-                    url: /katalon-studio/docs/mobile-hide-keyboard.html
-                  - title: "[Mobile] Scroll To Text"
-                    url: /katalon-studio/docs/mobile-scroll-to-text.html
-                  - title: "[Mobile] Send Keys"
-                    url: /katalon-studio/docs/mobile-send-keys.html
-                  - title: "[Mobile] Set Text"
-                    url: /katalon-studio/docs/mobile-set-text.html
+            tree:              
+              - title: "[Mobile] Close Application"
+                url: /katalon-studio/docs/mobile-close-application.html
+              - title: "[Mobile] Run iOS App in Background and Wait"
+                url: /katalon-studio/docs/mobile-run-ios-app-in-background-and-wait.html
+              - title: "[Mobile] Start Application"
+                url: /katalon-studio/docs/mobile-start-application.html
+              - title: "[Mobile] Start Existing Application"
+                url: /katalon-studio/docs/mobile-keyword-start-existing-apps.html           
+              - title: "[Mobile] Get Current Orientation"
+                url: /katalon-studio/docs/mobile-get-current-orientation.html
+              - title: "[Mobile] Get Device Height"
+                url: /katalon-studio/docs/mobile-get-device-height.html
+              - title: "[Mobile] Get Device Manufacturer"
+                url: /katalon-studio/docs/mobile-get-device-manufacturer.html
+              - title: "[Mobile] Get Device OS"
+                url: /katalon-studio/docs/mobile-get-device-os.html
+              - title: "[Mobile] Get Device OS Version"
+                url: /katalon-studio/docs/mobile-get-device-os-version.html
+              - title: "[Mobile] Get Device Width"
+                url: /katalon-studio/docs/mobile-get-device-width.html
+              - title: "[Mobile] Press Back"
+                url: /katalon-studio/docs/mobile-press-back.html
+              - title: "[Mobile] Press Home"
+                url: /katalon-studio/docs/mobile-press-home.html
+              - title: "[Mobile] Switch To Landscape"
+                url: /katalon-studio/docs/mobile-switch-to-landscape.html
+              - title: "[Mobile] Switch To Native"
+                url: /katalon-studio/docs/mobile-switch-to-native.html
+              - title: "[Mobile] Switch To Portrait"
+                url: /katalon-studio/docs/mobile-switch-to-portrait.html
+              - title: "[Mobile] Switch To Web View"
+                url: /katalon-studio/docs/mobile-switch-to-web-view.html
+              - title: "[Mobile] Toggle Airplane Mode"
+                url: /katalon-studio/docs/mobile-toggle-airplane-mode.html
+              - title: "[Mobile] Unlock Screen"
+                url: /katalon-studio/docs/mobile-unlock-screen.html
+              - title: "[Mobile] Verify Is Landscape"
+                url: /katalon-studio/docs/mobile-verify-is-landscape.html
+              - title: "[Mobile] Verify Is Portrait"
+                url: /katalon-studio/docs/mobile-verify-is-portrait.html
+              - title: "[Mobile] Check Element"
+                url: /katalon-studio/docs/mobile-check-element.html
+              - title: "[Mobile] Drag And Drop"
+                url: /katalon-studio/docs/mobile-drag-and-drop.html
+              - title: "[Mobile] Get Attribute"
+                url: /katalon-studio/docs/mobile-get-attribute.html
+              - title: "[Mobile] Get Element Height"
+                url: /katalon-studio/docs/mobile-get-element-height.html
+              - title: "[Mobile] Get Element Left Position"
+                url: /katalon-studio/docs/mobile-get-element-left-position.html
+              - title: "[Mobile] Get Element Top Position"
+                url: /katalon-studio/docs/mobile-get-element-top-position.html
+              - title: "[Mobile] Get Element Width"
+                url: /katalon-studio/docs/mobile-get-element-width.html
+              - title: "[Mobile] Select List Item By Index"
+                url: /katalon-studio/docs/mobile-select-list-item-by-index.html
+              - title: "[Mobile] Select List Item By Label"
+                url: /katalon-studio/docs/mobile-select-list-item-by-label.html
+              - title: "[Mobile] Set Slider Value"
+                url: /katalon-studio/docs/mobile-set-slider-value.html
+              - title: "[Mobile] Tap And Hold"
+                url: /katalon-studio/docs/mobile-tap-and-hold.html
+              - title: "[Mobile] Uncheck Element"
+                url: /katalon-studio/docs/mobile-uncheck-element.html
+              - title: "[Mobile] Verify Element Attribute Value"
+                url: /katalon-studio/docs/mobile-verify-element-attribute-value.html
+              - title: "[Mobile] Verify Element Checked"
+                url: /katalon-studio/docs/mobile-verify-element-checked.html
+              - title: "[Mobile] Verify Element Exist"
+                url: /katalon-studio/docs/mobile-verify-element-exist.html
+              - title: "[Mobile] Verify Element Has Attribute"
+                url: /katalon-studio/docs/mobile-verify-element-has-attribute.html
+              - title: "[Mobile] Verify Element Not Checked"
+                url: /katalon-studio/docs/mobile-verify-element-not-checked.html
+              - title: "[Mobile] Verify Element Not Exist"
+                url: /katalon-studio/docs/mobile-verify-element-not-exist.html
+              - title: "[Mobile] Verify Element Not Has Attribute"
+                url: /katalon-studio/docs/mobile-verify-element-not-has-attribute.html
+              - title: "[Mobile] Verify Element Not Visible"
+                url: /katalon-studio/docs/mobile-verify-element-not-visible.html
+              - title: "[Mobile] Verify Element Visible"
+                url: /katalon-studio/docs/mobile-verify-element-visible.html
+              - title: "[Mobile] Wait For Element Attribute Value"
+                url: /katalon-studio/docs/mobile-wait-for-element-attribute-value.html
+              - title: "[Mobile] Wait For Element Has Attribute"
+                url: /katalon-studio/docs/mobile-wait-for-element-has-attribute.html
+              - title: "[Mobile] Wait For Element Not Has Attribute"
+                url: /katalon-studio/docs/mobile-wait-for-element-not-has-attribute.html
+              - title: "[Mobile] Wait For Element Present"
+                url: /katalon-studio/docs/mobile-wait-for-element-present.html
+              - title: "[Mobile] Close Notifications"
+                url: /katalon-studio/docs/mobile-close-notifications.html
+              - title: "[Mobile] Open Notifications"
+                url: /katalon-studio/docs/mobile-open-notifications.html
+              - title: "[Mobile] Pinch To Zoom In At Position"
+                url: /katalon-studio/docs/mobile-pinch-to-zoom-in-at-position.html
+              - title: "[Mobile] Pinch To Zoom Out At Position"
+                url: /katalon-studio/docs/mobile-pinch-to-zoom-out-at-position.html
+              - title: "[Mobile] Swipe"
+                url: /katalon-studio/docs/mobile-swipe.html
+              - title: "[Mobile] Take Screenshot"
+                url: /katalon-studio/docs/mobile-take-screenshot.html
+              - title: "[Mobile] Tap"
+                url: /katalon-studio/docs/mobile-tap.html
+              - title: "[Mobile] Tap And Hold At Position"
+                url: /katalon-studio/docs/mobile-tap-and-hold-at-position.html
+              - title: "[Mobile] Tap At Position"
+                url: /katalon-studio/docs/mobile-tap-at-position.html
+              - title: "[Mobile] Clear Text"
+                url: /katalon-studio/docs/mobile-clear-text.html
+              - title: "[Mobile] Get Text"
+                url: /katalon-studio/docs/mobile-get-text.html
+              - title: "[Mobile] Hide Keyboard"
+                url: /katalon-studio/docs/mobile-hide-keyboard.html
+              - title: "[Mobile] Scroll To Text"
+                url: /katalon-studio/docs/mobile-scroll-to-text.html
+              - title: "[Mobile] Send Keys"
+                url: /katalon-studio/docs/mobile-send-keys.html
+              - title: "[Mobile] Set Text"
+                url: /katalon-studio/docs/mobile-set-text.html
           - title: "Web Service Keywords"
-            tree:
-              - title: "[WS] Request"
-                tree:
-                  - title: "[WS] Send Request"
-                    url: /katalon-studio/docs/ws-send-request.html
-              - title: "[WS] Response"
-                tree:
-                  - title: "[WS] Contains String"
-                    url: /katalon-studio/docs/ws-contains-string.html
-                  - title: "[WS] Verify Element Property Value"
-                    url: /katalon-studio/docs/ws-verify-element-property-value.html
-                  - title: "[WS] Verify Elements Count"
-                    url: /katalon-studio/docs/ws-verify-elements-count.html
-                  - title: "[WS] Verify Element Text"
-                    url: /katalon-studio/docs/ws-verify-element-text.html
-                  - title: "[WS] Verify Response Status Code"
-                    url: /katalon-studio/docs/ws-verify-response-status-code.html
-                  - title: "[WS] Verify Response Status Code In Range"
-                    url: /katalon-studio/docs/ws-verify-response-status-code-in-range.html
+            tree:              
+              - title: "[WS] Send Request"
+                url: /katalon-studio/docs/ws-send-request.html              
+              - title: "[WS] Contains String"
+                url: /katalon-studio/docs/ws-contains-string.html
+              - title: "[WS] Verify Element Property Value"
+                url: /katalon-studio/docs/ws-verify-element-property-value.html
+              - title: "[WS] Verify Elements Count"
+                url: /katalon-studio/docs/ws-verify-elements-count.html
+              - title: "[WS] Verify Element Text"
+                url: /katalon-studio/docs/ws-verify-element-text.html
+              - title: "[WS] Verify Response Status Code"
+                url: /katalon-studio/docs/ws-verify-response-status-code.html
+              - title: "[WS] Verify Response Status Code In Range"
+                url: /katalon-studio/docs/ws-verify-response-status-code-in-range.html
           - title: "Windows Keywords"
             tree:
               - title: "[Windows] Start Application"
