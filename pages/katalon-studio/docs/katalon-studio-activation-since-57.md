@@ -9,7 +9,7 @@ redirect_from:
 
 description:
 ---
-After installing Katalon Studio, you will be asked to activate it. There are two ways of activating Katalon Studio: online and offline activations.
+After installing Katalon Studio, you will be asked to activate it. If you currenly use a Katalon Studio Enterprise license, refer to [Activate Katalon Studio Enterprise](https://docs.katalon.com/katalon-studio/docs/activate-KSE.html).
 
 ## Activating Katalon Studio
 

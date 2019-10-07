@@ -135,6 +135,8 @@ items:
                 url: /katalon-studio/docs/getting-started.html
               - title: "Activate Katalon Studio"
                 url: /katalon-studio/docs/katalon-studio-activation-since-70.html
+              - title: "Activate Katalon Studio Enterprise"
+                url: /katalon-studio/docs/activate-KSE.html
               - title: "Update Katalon Studio"
                 url: /katalon-studio/docs/auto-updater.html
               - title: "Supported Environments"
