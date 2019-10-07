@@ -52,7 +52,7 @@ Please refer to specific guides below for the environment you want to set up
 > 
 > *   **Device Name**: the device to apply Desired Capabilities settings on.
 
-*   [Desired Capabilities for Firefox/Firefox (headless)](/pages/viewpage.action?pageId=13700172)
-*   [Desired Capabilities for Chrome/Chrome (headless)](/pages/viewpage.action?pageId=13700170)
+*   [Desired Capabilities for Firefox/Firefox (headless)](https://docs.katalon.com/katalon-studio/docs/desired-capabilities-for-firefoxfirefox-headless.html)
+*   [Desired Capabilities for Chrome/Chrome (headless)](https://docs.katalon.com/katalon-studio/docs/desired-capabilities-for-chromechrome-headless.html)
 *   [Desired Capabilities for Internet Explorer](/display/KD/Desired+Capabilities+for+Internet+Explorer)
 *   [Remote Desired Capabilities](/display/KD/Remote+Desired+Capabilities)

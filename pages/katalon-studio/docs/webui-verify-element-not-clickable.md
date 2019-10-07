@@ -9,7 +9,7 @@ redirect_from:
     - "/katalon-studio/docs/webui-verify-element-not-clickable/"
 description: 
 ---
-> This keyword only works with Element has **tag** _<input>_ with attribute **disable.**
+> This keyword only works with Element has **tag** `input` with attribute **disable.**
 > 
 > _![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/webui-verify-element-not-clickable/uua9rf0a0ve6.png)_
 
