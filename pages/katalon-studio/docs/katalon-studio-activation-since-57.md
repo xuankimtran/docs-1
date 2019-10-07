@@ -36,11 +36,18 @@ If you're behind a Proxy Server, you'll need to configure the proxy settings bef
 * **No proxy**: there's no proxy.
 * **Manual proxy configuration**: you can manually set up your proxy.
 
-### Troubleshooting a common problem when activation
+### Troubleshooting common issues with network
 
 "_Network error! Please try Offline Activation_"- This error message indicates Katalon Studio's application cannot communicate with Katalon server to activate it.
 
 Please check your Internet connection and try again. If you are behind a **Proxy Server**, please **Config Proxy** first and try to activate Katalon Studio again.
+
+For Enterprise users with a private network, you may encounter a situation where you fail to execute test scripts or integrate Katalon Studio due to the network security error. Please contact your IT team to whitelist the following domains:
+
+* store.katalon.com
+* update.katalon.com
+* analytics.katalon.com
+* testops.katalon.com
 
 ## Activating Katalon Studio Enterprise
 
