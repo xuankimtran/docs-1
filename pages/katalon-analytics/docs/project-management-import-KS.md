@@ -23,7 +23,7 @@ description:
 
 1. Navigate to **Home Page** and click on **Katalon TestOps** icon on the top right-hand corner.
 ![manually](https://user-images.githubusercontent.com/43736150/66178463-aab1c680-e68f-11e9-9347-200d6945f26f.png)
-2. When Satalon TestOps dialog pops up, select the team and project you want to upload, then select **Upload**.
+2. When Katalon TestOps dialog pops up, select the team and project you want to upload, then select **Upload**.
 ![manually](https://user-images.githubusercontent.com/43736150/66178577-03815f00-e690-11e9-8887-0b36ec35370a.png)
 
 Once having successfully uploaded the test results, you can double-check on Katalon Analytics.
