@@ -13,6 +13,7 @@ description: Release note 7.0 (beta)
 
 ### New Features
 
+* Support connecting to Git with SSH. [Learn more](https://docs.katalon.com/katalon-studio/docs/git-integration.html)
 * Allow configuring the usage tracked by Katalon Studio. [Learn more](https://docs.katalon.com/katalon-studio/docs/katalon-studio-preferences.html).
 * Support data-driven testing with additional database sources. [Learn more](https://docs.katalon.com/katalon-studio/docs/database-settings.html).
 * Support attaching Katalon Studio's source code for debugging. [Learn more](https://docs.katalon.com/katalon-studio/docs/debugging_test_case.html).
@@ -66,7 +67,6 @@ description: Release note 7.0 (beta)
 * Bug: [Console Mode] To retry executing failed test cases in Test Suite Collection fails to return the correct exit code.
 * Bug: An issue related to saving changes in Test Case Variable View.
 * Bug: [Data Binding] An issue causes binding Variables to Test Data to fail.
-* Bug: [WebUI Keyword] The `WebUI.clickImage` keyword fails to perform.
 * Bug: [WebService] Verification Editor doesn't keep Unicode characters.
 * Bug: [Mobile Testing] Cannot retry executing failed test cases.
 * Bug: Web service response displays garbled text as non-Latin characters.
