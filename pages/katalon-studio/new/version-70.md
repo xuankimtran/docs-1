@@ -30,6 +30,7 @@ description: Release note 7.0 (beta)
 
 ### Improvements
 
+* [Web Service] Support passing proxy details through the script. [Learn more](https://docs.katalon.com/katalon-studio/docs/proxy-preferences.html#pass-proxy-details-through-the-script).
 * Update documents of [Katalon Studio API Specification](https://docs.katalon.com/javadoc/index.html) to version 7.0.0.
 * [Console mode] The `katalon` launcher is replaced by `katalonc`.
 * Upgrade Apache POI to version 3.17.
