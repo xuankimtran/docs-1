@@ -795,12 +795,18 @@ items:
                 url: /katalon-studio/docs/mobile-pinch-to-zoom-out-at-position.html
               - title: "[Mobile] Run iOS App in Background and Wait"
                 url: /katalon-studio/docs/mobile-run-ios-app-in-background-and-wait.html
+              - title: "[Mobile] Scroll To Text"
+                url: /katalon-studio/docs/mobile-scroll-to-text.html
+              - title: "[Mobile] Send Keys"
+                url: /katalon-studio/docs/mobile-send-keys.html
               - title: "[Mobile] Select List Item By Index"
                 url: /katalon-studio/docs/mobile-select-list-item-by-index.html
               - title: "[Mobile] Select List Item By Label"
                 url: /katalon-studio/docs/mobile-select-list-item-by-label.html
               - title: "[Mobile] Set Slider Value"
                 url: /katalon-studio/docs/mobile-set-slider-value.html
+              - title: "[Mobile] Set Text"
+                url: /katalon-studio/docs/mobile-set-text.html
               - title: "[Mobile] Switch To Landscape"
                 url: /katalon-studio/docs/mobile-switch-to-landscape.html
               - title: "[Mobile] Switch To Native"
@@ -815,22 +821,16 @@ items:
                 url: /katalon-studio/docs/mobile-keyword-start-existing-apps.html 
               - title: "[Mobile] Swipe"
                 url: /katalon-studio/docs/mobile-swipe.html
-              - title: "[Mobile] Scroll To Text"
-                url: /katalon-studio/docs/mobile-scroll-to-text.html
-              - title: "[Mobile] Send Keys"
-                url: /katalon-studio/docs/mobile-send-keys.html
-              - title: "[Mobile] Set Text"
-                url: /katalon-studio/docs/mobile-set-text.html
               - title: "[Mobile] Take Screenshot"
                 url: /katalon-studio/docs/mobile-take-screenshot.html
               - title: "[Mobile] Tap"
                 url: /katalon-studio/docs/mobile-tap.html
-              - title: "[Mobile] Tap And Hold At Position"
-                url: /katalon-studio/docs/mobile-tap-and-hold-at-position.html
               - title: "[Mobile] Tap At Position"
                 url: /katalon-studio/docs/mobile-tap-at-position.html
               - title: "[Mobile] Tap And Hold"
                 url: /katalon-studio/docs/mobile-tap-and-hold.html
+              - title: "[Mobile] Tap And Hold At Position"
+                url: /katalon-studio/docs/mobile-tap-and-hold-at-position.html
               - title: "[Mobile] Toggle Airplane Mode"
                 url: /katalon-studio/docs/mobile-toggle-airplane-mode.html
               - title: "[Mobile] Unlock Screen"
