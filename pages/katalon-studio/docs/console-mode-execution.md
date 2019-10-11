@@ -294,6 +294,8 @@ katalonc -noSplash  -runMode=console -consoleLog -noExit -projectPath= "C:\Users
    </tbody>
 </table>
 
+Starting from **version 7.0.0**, Katalon Studio supports an option to pass proxy details via a request object in Web Service testing. Refer to [this document](https://docs.katalon.com/katalon-studio/docs/proxy-preferences.html#pass-proxy-details-through-the-script) for further details.
+
 Integration Options
 -------------------
 
