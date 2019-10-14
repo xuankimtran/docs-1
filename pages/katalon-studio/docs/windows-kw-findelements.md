@@ -7,7 +7,7 @@ permalink: katalon-studio/docs/windows-kw-findelements.html
 
 ## findElements
 
-* **Description**: Find elements by using locator value of the given Windows object.
+* **Description**: Find elements by using the locator value of the given Windows object.
 * **Keyword name**: findElements
 * **Keyword syntax**: Windows.findElements(windowsObject)
 * **Parameter**: windowsObject
