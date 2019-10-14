@@ -893,6 +893,10 @@ items:
                 url: /katalon-studio/docs/windows-kw-click.html
               - title: "[Windows] Double-click"
                 url: /katalon-studio/docs/windows-kw-double-click.html
+              - title: "[Windows] Find Element"
+                url: /katalon-studio/docs/windows-kw-findelement.html
+              - title: "[Windows] Find Elements"
+                url: /katalon-studio/docs/windows-kw-findelements.html
               - title: "[Windows] Get Text"
                 url: /katalon-studio/docs/windows-kw-get-text.html
               - title: "[Windows] Get Driver"
@@ -909,6 +913,18 @@ items:
                 url: /katalon-studio/docs/windows-kw-switch-desktop.html
               - title: "[Windows] Switch To Application"
                 url: /katalon-studio/docs/windows-kw-switch-app.html
+          - title: "Cucumber Keywords"
+            tree:
+            - title: "[Cucumber] Run Feature File with Tags"
+              url: /katalon-studio/docs/cucumber-kw-run-feature-file-tag.html
+            - title: "[Cucumber] Run Feature File"
+              url: /katalon-studio/docs/cucumber-kw-run-feature-file.html
+            - title: "[Cucumber] Run Feature Foler with Tags"
+              url: /katalon-studio/docs/cucumber-kw-run-feature-folder-tag.html
+            - title: "[Cucumber] Run Feature Foler"
+              url: /katalon-studio/docs/cucumber-kw-run-feature-folder.html
+            - title: "[Cucumber] Run with Cucumber Runner"
+              url: /katalon-studio/docs/cucumber-kw-run-cucumber-runner.html
           - title: "Custom Keywords"
             tree:
               - title: "Introduction to Custom Keywords"
