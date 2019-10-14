@@ -13,6 +13,7 @@ description: Release note 7.0 (beta)
 
 ### New Features
 
+* Support manually uploading Test Suite Collections' results to Katalon TestOps.
 * Support connecting to Git with SSH. [Learn more](https://docs.katalon.com/katalon-studio/docs/git-integration.html)
 * Allow configuring the usage tracked by Katalon Studio. [Learn more](https://docs.katalon.com/katalon-studio/docs/katalon-studio-preferences.html).
 * Support data-driven testing with additional database sources. [Learn more](https://docs.katalon.com/katalon-studio/docs/database-settings.html).
@@ -28,8 +29,13 @@ description: Release note 7.0 (beta)
 * Support WebDriver event listeners. [Learn more](https://docs.katalon.com/katalon-studio/docs/webdriver-event-listeners.html).
 * Support customizing the Console log. [Learn more](https://docs.katalon.com/katalon-studio/docs/working-with-execution-log.html).
 
-### Improvements
+### Changes and Improvements
 
+* Convert **qTest** and **Kobiton** built-in integrations into plugins.
+* Display errors of test scripts in the **Problems** view.
+* Support ChromeDriver version 77 and IEDriverServer version 3.141.59.
+* Show a full stack trace of an exception thrown by custom classes in Test Hooks.
+* Support manually uploading test suite collections' results to Katalon TestOps.
 * [Web Service] Support passing proxy details through the script. [Learn more](https://docs.katalon.com/katalon-studio/docs/proxy-preferences.html#pass-proxy-details-through-the-script).
 * Update documents of [Katalon Studio API Specification](https://docs.katalon.com/javadoc/index.html) to version 7.0.0.
 * [Console mode] The `katalon` launcher is replaced by `katalonc`.
@@ -62,6 +68,11 @@ description: Release note 7.0 (beta)
 
 ### Fixes
 
+* Bug: The **Results** tab of Test Suites/Test Suite Collection fails to automatically refresh after the first execution.
+* Bug: **Show references** of test objects fails to display the objects' references in global variables and test case variables.
+* Bug: Cannot send SOAP requests when **WSDL** files contain the relative `xsi:schemaLocation`.
+* Bug: [WebUI Keyword] The `WebUI.clickImage` keyword fails to perform.
+* Bug: [Web Service] `getCurrentRequest()` always gets default values instead of a variable's values passed from test case.
 * Bug: Incorrectly return code when **Follow redirects** is disabled in Web Service Request. [More details](https://forum.katalon.com/t/followreridects-does-not-work/33800).
 * Bug: Cannot save modifications in the configuration tab of the Web Service Request.
 * Bug: Cannot detect mobile test objects having parameterized global variables in their properties.
