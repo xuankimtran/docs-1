@@ -4,10 +4,10 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/cucumber-kw-run-feature-file-tag.html
 ---
 * **Description**: Execute a single Feature File.
-* **Keyword name**: runFeatureFile
+* **Keyword name**: runFeatureFileWithTags
 * **Keyword syntax**: runFeatureFileWithTags(relativeFilePath, tags, flowControl)
 * **Parameters**:
-  * Name: folderRelativePath
+  * Name: relativeFilePath
     * Description: the folder relative path that starts from the current project location.
     * Parameter Type: String
     * Mandatory: Required

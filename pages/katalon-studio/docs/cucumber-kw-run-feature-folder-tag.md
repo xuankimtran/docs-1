@@ -5,7 +5,7 @@ permalink: katalon-studio/docs/cucumber-kw-run-feature-folder-tag.html
 ---
 
 * **Description**: Execute multiple feature files stored in the same features folder.
-* **Keyword name**: runFeatureFolder
+* **Keyword name**: runFeatureFolderWithTags
 * **Keyword syntax**: runFeatureFolderWithTags(folderRelativePath, tags, flowControl)
 * **Parameters**:
   * Name: folderRelativePath
