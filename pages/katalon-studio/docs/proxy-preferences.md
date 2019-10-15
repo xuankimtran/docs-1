@@ -9,7 +9,8 @@ redirect_from:
     - "/katalon-studio/docs/proxy-preferences/"
 description: 
 ---
-Proxy setup can be configured at: **Katalon Studio> Preferences > Katalon > Proxy**. This setting affects both WebUI and WebService testings.
+
+Proxy can be configured at: **Katalon Studio> Preferences > Katalon > Proxy**. This setting affects both WebUI and WebService testings.
 
 In the Proxy Settings, you can select one of three options below.
 
@@ -22,3 +23,19 @@ In the Proxy Settings, you can select one of three options below.
 > If you're behind a Proxy Server, you'll need to configure the proxy settings before activating Katalon Studio. Click Config Proxy at the bottom of the Activation dialog box.
 >
 > ![Config Proxy](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/image2017-7-2-213A403A23.png)
+
+## Pass proxy details through the script
+
+Starting from **version 7.0.0**, Katalon Studio supports an option to pass proxy details via a request object in Web Service testing. Below is an example:
+
+```groovy
+RequestObject requestObject = findTestObject("google")
+ProxyInformation proxyInfo = new ProxyInformation();
+proxyInfo.setProxyServerAddress("localhost")
+proxyInfo.setProxyServerPort(8001)
+proxyInfo.setProxyOption(ProxyOption.MANUAL_CONFIG.toString())
+proxyInfo.setProxyServerType(ProxyServerType.HTTP.toString())
+requestObject.setProxy(proxyInfo)
+```
+
+>**Note**: The proxy information passed in the request object takes precedence over the proxy information set in **Preferences**.
