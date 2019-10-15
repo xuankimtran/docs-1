@@ -1,5 +1,5 @@
 ---
-title: "[Cucumber] Run Feature Foler with Tags"
+title: "[Cucumber] Run Feature Folder with Tags"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/cucumber-kw-run-feature-folder-tag.html
 ---
