@@ -204,9 +204,9 @@ Here's the list of options supported for the `katalon` commands in Katalon Studi
          <td>--info -buildLabel="text" -buildURL="text" </td>
          <td>
             <p><strong>Starting from Katalon Studio version 7.0</strong></p>
-            <p>Pass the build's label and url.</p>
+            <p>Pass the build's label and URL, which are displayed in Katalon TestOps.</p>
             <p>Example:</p>
-            <p><code class="java plain"> --info -buildLabel="Build 1" -buildURL="https://analytics.katalon.com/team/9552/project/13609/grid/plan/218/job/3" </code></p>
+            <p><code class="java plain"> --info -buildLabel="Build 1" -buildURL="http://192.168.35.52:8080/job/katalon-demo/job/master/179/"</code></p>
          </td>
          <td>N</td>
       </tr>

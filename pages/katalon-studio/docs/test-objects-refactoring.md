@@ -22,7 +22,7 @@ The **Unused Test Objects Report** displays a list of test objects that you have
 
 You can view and maintain its details by double-clicking the object to display its **test object view**.  Alternatively, you can remove the outdated and obsolete ones to keep only those objects you have used.
 
-* Remove all unused objects: Click **Delete all** and confirm your action. Be cautious since there is no chance to restore the removed objects in Katalon Studio. You can back up those unused objects by exporting to a `CSV` file in case you would like to have them back.
+* Remove all unused objects: Click **Delete all** and confirm your action. Be cautious since there is no chance to restore the removed objects in Katalon Studio. You can back up those unused objects by using [Katashare](https://docs.katalon.com/katalon-studio/docs/import-export-test-artifact.html) for exporting and importing those objects in case you would like to have them back.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-object-refactor/list-unused-objects.png" width="442" height="192">
 

@@ -235,8 +235,6 @@ items:
                 url: /katalon-studio/docs/database-settings.html
               - title: "Network Settings"
                 url: /katalon-studio/docs/network-settings.html
-              - title: "Web Locators Settings (since v5.7.1)"
-                url: /katalon-studio/docs/web-locators-settings-since-v571.html
       - title: "Test Case"
         tree:
           - title: "Search Function"
@@ -407,6 +405,8 @@ items:
                     url: /katalon-studio/docs/record-web-utility.html
                   - title: "Spy Web Utility"
                     url: /katalon-studio/docs/spy-web-utility.html
+                  - title: "Web Locators Settings (since v5.7.1)"
+                    url: /katalon-studio/docs/web-locators-settings-since-v571.html 
                   - title: "How to use synchronization commands while recording"
                     url: /katalon-studio/docs/synchronization_commands_recording.html
               - title: "Web UI Keywords"
@@ -1178,7 +1178,11 @@ items:
               - title: "[Common] Concatenate"
                 url: /katalon-studio/docs/common-concatenate.html
               - title: "[Common] Delay"
-                url: /katalon-studio/docs/common-delay.html  
+                url: /katalon-studio/docs/common-delay.html
+          - title: "Test Maintenance"
+            tree:
+              - title: "Test Objects Refactoring"
+                url: /katalon-studio/docs/test-objects-refactoring.html
       - title: "Execution and Reporting"
         tree:
           - title: "Test Suite"
