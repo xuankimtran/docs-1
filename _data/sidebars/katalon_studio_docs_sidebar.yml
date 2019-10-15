@@ -495,7 +495,7 @@ items:
                         url: /katalon-studio/docs/webui-switch-to-window-index.html
                   - title: "[WebUI] Checkbox"
                     tree:
-                      - title: "[Web UI] Verify Element Not Checked"
+                      - title: "[WebUI] Verify Element Not Checked"
                         url: /katalon-studio/docs/web-ui-verify-element-not-checked.html
                       - title: "[WebUI] Check"
                         url: /katalon-studio/docs/webui-check.html
