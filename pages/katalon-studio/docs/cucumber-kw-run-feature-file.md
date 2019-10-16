@@ -14,7 +14,7 @@ permalink: katalon-studio/docs/cucumber-kw-run-feature-file.html
   * Name: flowControl
     * Description: an instance com.kms.katalon.core.model.FailureHandling that controls the running flow
     * Parameter Type: FailureHandling
-    * Mandatory: Required
+    * Mandatory: Optional
 * **Returns**: an instance of CucumberRunnerResult that includes the status of keyword and report folder location.
 * **Example**:
 
