@@ -40,12 +40,13 @@ To add a Windows element to the Object Repository, first you need to check the c
 
 The **CAPTURED OBJECT** section shows all of the captured Windows elements that you want to add  to the Object Repository. When an item is selected, its information is displayed in the **OBJECT PROPERTIES** section. You can view and edit the object's name, locator and properties before adding it to the Object Repository.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-windows-object/Windows-Spy-Object-2.png" width="362" height="595">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-windows-object/highlight.png" width="370" height="657">
 
 ### Object Properties
 
 * **Object Name**: the edited Windows object's name.
 * **Locator Strategy** and **Locator**: the locator to identify the Windows element.
+* **Locator**: to customize the locator of a captured object, you can modify it here and click **Highlight** to verify if the new locator correctly identifies the intended object.
 * **Properties table**: all attributes of the captured elements.
 
 After the desired Windows objects are added, they will be shown under the Object Repository folder of the Tests Explorer.
@@ -58,3 +59,5 @@ The Windows Object part is where to display the Locator and properties of a Wind
 * **Object Properties**: the properties of the Windows Object captured in the Spy or Record sessions. You can also modify these properties.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-windows-object/Windows-Spy-Object-3.png" width="749" height="450">
+
+## Highlight

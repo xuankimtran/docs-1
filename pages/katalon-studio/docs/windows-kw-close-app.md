@@ -3,7 +3,8 @@ title: "[Windows] Close Application"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/windows-kw-close-app.html
 ---
-> Starting from **Katalon Studio version 7.0.0**, Katalon Studio Enterprise users can run a test on a Windows desktop application.
+> > Starting from **version 7.0.0**, Windows desktop application testing is available on Katalon Studio.
+
 
 ## closeApplication
 
