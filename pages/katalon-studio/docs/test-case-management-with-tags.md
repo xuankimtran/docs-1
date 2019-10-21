@@ -33,6 +33,16 @@ To search for test artifacts labeled with Multiple Tags, directly type on the se
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-case-management-with-tags/tags-search.png)
 
+**Execute only Test Cases that have certain tags in a Test Suite
 
+You can execute only Test Cases with tags ```tag1``` and ```tag2``` in a Test Suite by including the argument ```testCaseTags="tag1, tag2"``` to your command line.
 
+Example execution log when this feature is used, assuming the Test Suite being executed has three Test Cases.
+```
+----------------- TEST CASE TAGS PLUGIN START FILTERING -----------------
+Test Cases/Test Case with tag 1 and tag 2 is a test case to be run
+Test Case/Test Case with tag 1 only is filftered out
+Test Case/Test Case with tag 2 only is filtered our
+----------------- TEST CASE TAGS PLUGIN FINISH FILTERING -----------------
+```
 
