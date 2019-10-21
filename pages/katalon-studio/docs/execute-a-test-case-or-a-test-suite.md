@@ -66,7 +66,7 @@ Troubleshooting
 > 
 > Some factors can affect your execution:  
 > \- [Failure Handling](/display/KD/Failure+Handling)  
-> \- [Test Listeners](/pages/viewpage.action?pageId=5126383)  
-> \- [Setup/Teardown Test Case/Suite](/pages/viewpage.action?pageId=12419091)
+> \- [Test Listeners](https://docs.katalon.com/katalon-studio/docs/test-listeners-test-hooks.html)  
+> \- [Setup/Teardown Test Case/Suite](https://docs.katalon.com/katalon-studio/docs/setupteardown-for-test-suite-and-test-case.html)
 
 You can also refer to this [guide](/display/KD/Troubleshooting+common+issues+related+to+interacting+with+an+element) to troubleshoot problems relating to test execution.
