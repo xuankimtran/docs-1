@@ -14,7 +14,7 @@ description:
 ---
 After installing Katalon Studio, you will be asked to activate it. If you currenly use a Katalon Studio Enterprise license, refer to [Activate Katalon Studio Enterprise](https://docs.katalon.com/katalon-studio/docs/activate-KSE.html).
 
-## Activating Katalon Studio
+Every Katalon account is eligible for 30-day [trials](/katalon-studio/docs/license.html) of Katalon Studio Enterprise and Runtime Engine. When your trial period expires, you need to subscribe to the paid license of each product to continue using it, or the Katalon Studio free license is automatically activated. At any time, you can upgrade the free Katalon Studio to Katalon Studio Enterprise with a paid license without the need to re-download.
 
 You need to create a Katalon Account and specify your Organization to log in to Katalon Studio.
 
@@ -51,10 +51,3 @@ For Enterprise users with a private network, you may encounter a situation where
 * update.katalon.com
 * analytics.katalon.com
 * testops.katalon.com
-
-## Activating in Console mode
-
-You need a license key that grants you permission to run Katalon Studio from the command line. Before executing Katalon Studio, call the license key by the command-line argument as follows: `licenseFile= [the path to the license key file]`.
-
-For example:
-`licenseFile=C:\Users\demokatalon\licensefile\license-window.lic`.
