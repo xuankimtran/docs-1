@@ -48,7 +48,7 @@ KSE and RE **online** licenses are transferable among the organization's registe
 
 **Offline** licenses are for using KSE and RE without the internet. Once generated, the offline license will be irrevocable and cannot be terminated. Also, the expiration dates of offline licenses cannot be modified.
 
-> Notes: Offline license is only available for the annual subscription model.
+> Notes: Offline license is only available for annual subscription.
 
 ### Free License
 
