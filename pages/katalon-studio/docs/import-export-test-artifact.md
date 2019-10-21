@@ -12,9 +12,9 @@ Test artifacts sharing (**Katashare**) allows you to import and export test arti
 
 ## Export test artifacts
 
-1. From the toolbar, click on the **Katashare** icon > **Export Test Artifacts**.
+1. From the main menu, **Tools > Utility > Export Test Artifact**.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-export-test-artifact/test-artifacts-sharing-button.png" width="233" height="80">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-export-test-artifact/Export-test-artifact.png" width="528" height="150">
 
 2. In the **Export Test Artifacts** window:
 
@@ -29,12 +29,14 @@ Test artifacts sharing (**Katashare**) allows you to import and export test arti
 
 The test artifacts you'd like to import must be exported from a Katalon Studio project.
 
-1. From the toolbar, click on the **Katashare** icon > **Import Test Artifacts**.
+1. From the main menu, **Tools > Utility > Import Test Artifact**.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-export-test-artifact/test-artifacts-sharing-button.png" width="233" height="80">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-export-test-artifact/Import-test-artifacts.png" width="521" height="153">
 
 2. In the **Import Test Artifacts** window, choose your desired file to import, test case import location, and test object import location.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-export-test-artifact/import-test-artifact.png" width="496" height="171">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-export-test-artifact/import-test-artifact.png" width="496" height="171"> 
 
 3. Click **OK**. Refresh the test explorer by right-clicking > **Refresh** to view them in the specified locations.
+
+
