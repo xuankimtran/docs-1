@@ -1,15 +1,19 @@
 ---
-title: "Version 7.0 (Beta)" 
+title: "Version 7.0" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/new/version-70.html
 redirect_from:
     - "/katalon-studio/new/version-70/"
-description: Release note 7.0 (beta)
+    - "/katalon-studio/new/"
+    - "/display/KD/Release+Notes/"
+    - "/display/KD/Release%20Notes/"
+    - "/katalon-studio/new/all-versions.html"
+description: Release note 7.0
 ---
 
-## Version 7.0 (Beta)
+## Version 7.0.0-7.0.1
 
-> **Katalon Studio 7.0 (Beta)** is currently available. Click [here](https://github.com/katalon-studio/katalon-studio/releases) to download.
+> **Katalon Studio 7.0** is currently available. Click [here](https://www.katalon.com/download/) to download.
 
 ### New Features
 
@@ -31,6 +35,7 @@ description: Release note 7.0 (beta)
 
 ### Changes and Improvements
 
+* [Console mode] The `katalon` launcher is replaced by `katalonc` and there is a separate app named **Katalon Studio Runtime Engine** for executing Katalon Studio in console mode. Click [here](https://www.katalon.com/download/) to download.
 * Convert **qTest** and **Kobiton** built-in integrations into plugins.
 * Display errors of test scripts in the **Problems** view.
 * Support ChromeDriver version 77 and IEDriverServer version 3.141.59.
@@ -38,7 +43,6 @@ description: Release note 7.0 (beta)
 * Support manually uploading test suite collections' results to Katalon TestOps.
 * [Web Service] Support passing proxy details through the script. [Learn more](https://docs.katalon.com/katalon-studio/docs/proxy-preferences.html#pass-proxy-details-through-the-script).
 * Update documents of [Katalon Studio API Specification](https://docs.katalon.com/javadoc/index.html) to version 7.0.0.
-* [Console mode] The `katalon` launcher is replaced by `katalonc`.
 * Upgrade Apache POI to version 3.17.
 * Dynamic Querying Test Suite is renamed Dynamic Test Suite.
 * Add plugins reloading options to the Project Settings.
@@ -77,7 +81,6 @@ description: Release note 7.0 (beta)
 * Bug: Cannot save modifications in the configuration tab of the Web Service Request.
 * Bug: Cannot detect mobile test objects having parameterized global variables in their properties.
 * Bug: [Console Mode] To retry executing failed test cases in Test Suite Collection fails to return the correct exit code.
-* Bug: An issue related to saving changes in Test Case Variable View.
 * Bug: [Data Binding] An issue causes binding Variables to Test Data to fail.
 * Bug: [WebService] Verification Editor doesn't keep Unicode characters.
 * Bug: [Mobile Testing] Cannot retry executing failed test cases.
