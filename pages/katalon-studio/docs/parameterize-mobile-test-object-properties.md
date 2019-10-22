@@ -26,7 +26,7 @@ Its selected locator is generated as `//*[(text() = '${text}' or . = '${text}')]
 
 Step 2: Use the parameterized test object in a test case
 
-**In Manual View**
+### In Manual View
 
 In the `Verify Correct Alarm Message` test case, double-click the test object that contains the parameterized property, which is `android.widget.TextView - App`. The **Test Object Input** dialog is displayed.
 
@@ -41,10 +41,29 @@ In the Variable panel, add a new variable with the following properties:
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/param-mobile-object/test-object-input.png" width="" height="">
 
-**In Scripting View**
+### In Scripting View
 
 You can also switch to the **Scripting Mode** of the current Test Case to adjust the property's value at any time. The predefined variable is automatically mapped when you select a mobile object from manual mode, so you don't need to define them again manually. In this example, the `tap` keyword is performed on the object with the text value that we have just specified.
 
 ```groovy
 Mobile.tap(findTestObject('Application/android.widget.TextView - App', [('text') : 'demokatalon']), 10)
 ```
+
+### Escaping, special characters
+
+To use a special character like `$` or `\` as a regular one in any place that uses parameterized test objects, prepend it with a backslash: `\` (the so-called escape character).
+
+```groovy
+{
+ 	"productName": ${GlobalVariable.productName},
+  	"unit": "\\bottle\",
+  	"quantity": 50,
+  	"discount": ${ if (productName == "wine") { return 30 } else { return 0}}
+	"note": "Currency unit of ${GlobalVariable.productName} is \$."
+
+}
+```
+
+* Without `\`: *note: Currency unit of ${GlobalVariable.productName} is $*.
+
+* With `\`: *note: Currency unit of wine is $*.

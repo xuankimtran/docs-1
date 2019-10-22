@@ -75,3 +75,22 @@ in HTTP Body of an API Test Object:
 in Selected Locator of a WebUI Test Object:
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/variable-types/2-GlobalVariable.png)
+
+### Escaping, special characters
+
+To use a special character like `$` or `\` as a regular one in any place that calls parameterized global variables, prepend it with a backslash: `\` (the so-called escape character).
+
+```groovy
+{
+ 	"productName": ${GlobalVariable.productName},
+  	"unit": "\\bottle\",
+  	"quantity": 50,
+  	"discount": ${ if (productName == "wine") { return 30 } else { return 0}}
+	"note": "Currency unit of ${GlobalVariable.productName} is \$."
+
+}
+```
+
+* Without `\`: *note: Currency unit of ${GlobalVariable.productName} is $*.
+
+* With `\`: *note: Currency unit of wine is $*.
