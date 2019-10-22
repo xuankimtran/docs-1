@@ -4,6 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/run-test-case-external-data.html
 description: Guidelines about how to run test case with an external data in Katalon Studio
 ---
+Katalon Studio provides the ability to execute automation test with external data sources.
 
 ## Import an Excel file to Test Data
 
