@@ -5,7 +5,7 @@ permalink: katalon-studio/docs/activate-RE.html
 description:
 ---
 
-Starting from **version 7.0.0**, you need a Katalon license to activate and run Katalon Studio (KS) or Katalon Studio Enterprise (KSE) from the command line.
+Starting from **version 7.0.0**, you need a Runtime Engine (RE) [license](https://docs.katalon.com/katalon-studio/docs/license.html) to activate and run Katalon Studio (KS) or Katalon Studio Enterprise (KSE) from the command line.
 
 Currently, free license is not available for Runtime Engine.
 
