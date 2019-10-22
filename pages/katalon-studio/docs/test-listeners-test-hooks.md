@@ -4,7 +4,8 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/test-listeners-test-hooks.html
 redirect_from:
     - "/x/7zhO/"
-    - "/katalon-studio/docs/test-listeners-test-hooks/"
+	- "/katalon-studio/docs/test-listeners-test-hooks/"
+	-"/pages/viewpage.action?pageId=5126383/"
 description:
 ---
 > Available since Katalon Studio v[5.2](/display/KD/Version+5.2)

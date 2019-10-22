@@ -7,10 +7,9 @@ description: Update new feature starting from v6.3.0
 
 > Starting from version 6.3.0, variable binding can be configured to read test data values as the intended data types. This feature is only applicable for Test data of type Excel and Database.
 
-User can enable this feature to obtain old variable binding behaviors. Old test data will continue to be read as string to ensure that we don't break existing test cases.
+You can enable this feature to obtain old variable binding behaviors. Old test data continue to be read as string to ensure that we don't break existing test cases.
 
-In this example, we will create a test suite and a test case with variables. _booleanVar_ is a test case variable of type Boolean. _numberVar_ is a test case variable of type Number. _stringVar_ is a test case variable of type String.
-
+In this example, we create a test suite and a test case with variables. _booleanVar_ is a test case variable of type Boolean; _numberVar_ a test case variable of type Number; and, _stringVar_ a test case variable of type String.
 
 <table>
     <thead>
@@ -34,8 +33,7 @@ In this example, we will create a test suite and a test case with variables. _bo
         <tr>
 </table>
 
-Create the following custom keyword **TestDataKeyword**:
-
+* Create the following custom keyword **TestDataKeyword**:
 
 ```groovy
 public class testdata {
@@ -55,9 +53,7 @@ public class testdata {
 }
 ```
 
-
-Use them in the test case Sample Test Case as followed:
-
+* Use them in the test case Sample Test Case as followed:
 
 ```groovy
 TestDataKeyword.takeBooleanAndPrint(booleanVar);
@@ -65,47 +61,34 @@ TestDataKeyword.takeNumberAndPrint(numberVar);
 TestDataKeyword.takeStringAndPrint(stringVar);
 ```
 
-
 where _booleanVar_, _numberVar_, _stringVar_ are test case variables.
 
+## Variable binding for Test Data with option _bind to test case as string_ enabled
 
-## Variable binding for Test Data with option _bind into test case as string_ enabled
+* Create a Test Data with the data provided above and the _bind to test case as string_ option enabled.
 
-Create a Test Data with option _bind into test case as string_ enabled and with the data provided above.
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/bind-as-string/option-enabled.png)
 
+* Follow [this document](https://docs.katalon.com/katalon-studio/docs/run-test-case-external-data.html) to run the test case, and then we will have the result as below:
 
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/bind-as-string/2-failed.png)
 
+    The test suite should fail when the first keyword function *takeBooleanAndPrint* does not expect a String; however, due to the enabled _bind to test case as string_ option, the test data values are read as string.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/bind-as-string/option-enabled.png)
+## Variable binding for Test Data with option _bind to test case as string_ disabled
 
+* Create a Sample Test Data with option _bind to test case as string_ disabled.
 
-Follow the steps in [this document](https://docs.katalon.com/katalon-studio/docs/run-test-case-external-data.html) and run the test case. Then we will have the result as below:
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/bind-as-string/option-disabled.png)
 
+* Repeat the same steps as above, and then we have the result as below:
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/bind-as-string/2-failed.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/bind-as-string/4-passed.png)
+    
+    The test suite should pass because _bind to test case as string_ is disabled. Test data values are read as-is, and all keyword functions receive their expected data types.
 
-
-The test suite should fail because the first keyword function takeBooleanAndPrint does not expect a String, but because _bind into test case as string_ is enabled so test data values are read as string.
-
-
-## Variable binding for Test Data with option _bind into test case as string_ disabled
-
-Create a Sample Test Data with option _bind into test case as string_ disabled.
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/bind-as-string/option-disabled.png)
-
-
-Repeat the steps same as above. Then we will have the result as below:
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/bind-as-string/4-passed.png)
-
-
-The test suite should pass because _bind into test case as string_ is disabled so test data values are read as-is and all keyword functions receive their expected data types.
-
-> **Quick tip**
+> **Quick tips**
 >
-> To push customizability further, Katalon now supports an annotation called `BeforeTestDataBindToTestCase` which allows the annotated functions to operate on Test Data variables before they are bound into test cases.
->
-> Prior to Katalon 6.3, you would have to compile another set of Test Data for each requirement. Increasingly varied requirements would then further complicate Test Data management.
->
-> Starting from version 6.3, you will need one raw Test Data file and then define the rules of transformation in different functions using the new annotation. With this feature, deciding how Test Data variables will be used occurs at run-time.
+>* To push customizability further, Katalon now supports an annotation called `BeforeTestDataBindToTestCase` which allows the annotated functions to operate on Test Data variables before they are bound to test cases.
+>* Before Katalon 6.3, you would have to compile another set of Test Data for each requirement. Increasingly varied requirements would then further complicate Test Data management.
+>* Starting from version 6.3, you need one raw Test Data file and then define the rules of transformation in different functions using the new annotation. With this feature, deciding how Test Data variables are used occurs at run-time.

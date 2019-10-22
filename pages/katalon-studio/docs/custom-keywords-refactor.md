@@ -7,6 +7,8 @@ Starting from **Katalon Studio version 7.0**, the custom keyword refactoring fea
 
 Specifically, when you move a custom keyword from a package to another one, Katalon Studio updates the new package and keyword identifier in test scripts accordingly.
 
+> Notes: Currently, you can only refactor custom keywords in test cases, NOT in the Custom Keyword section or anywhere else. This feature's enhancement will be released in the upcoming versions.
+
 Here is an example:
 
 1. Open [the shopping cart sample project](https://docs.katalon.com/katalon-studio/docs/shopping-cart-prj.html) and any test case.
@@ -26,3 +28,4 @@ Here is an example:
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/custom-keyword-refactor/package-aft.png" width="" height="">
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/custom-keyword-refactor/identifier-aft.png" width="" height="">
+

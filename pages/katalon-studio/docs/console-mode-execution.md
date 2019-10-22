@@ -11,6 +11,9 @@ redirect_from:
 
 description:
 ---
+
+> Starting from **version 7.0.0**, you need a license that grants you permission to activate and run Katalon Studio or Katalon Studio Enterprise from the command line. [Learn more](/katalon-studio/docs/license.html).
+>
 > Katalon Studio only supports **Chrome, Firefox and Remote** options for console mode execution **using Linux version**.
 >
 > API Keys are required to use **Katalon Studio Plugins** in console mode. [Learn more](/katalon-store/docs/user/plugin-console-installation.html).
@@ -379,20 +382,18 @@ We support running console mode using **console.properties** file where you ca
 
 3. Run the **console.properties** file in console mode with the following syntax:
 
-    ```groovy
-    katalonc -propertiesFile="<absolute path to console.properties file>" -runMode=console
-    ```
+   ```groovy
+   katalonc -propertiesFile="<absolute path to console.properties file>" -runMode=console -apiKey="<Your_API_Key>"
+   ```
 
-    For example:
+   For example:
 
-    ```groovy
-    katalonc -propertiesFile="D:\Katalon\Demo_Project\console.properties" -runMode=console
-    ```
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/property-apikey.png"> 
 
-4. You can add additional `Katalonc` command options if needed. Any option already defined in the **console.properties** file is overwritten by the one declared in the command line.  
+4. You can add additional `katalonc` command options if needed. Any option already defined in the **console.properties** file is overwritten by the one declared in the command line.  
 
     ```groovy
-    katalonc -propertiesFile="<absolute path to console.properties file" -runMode=console -browserType=IE
+    katalonc -propertiesFile="<absolute path to console.properties file" -runMode=console -apiKey="<Your_API_Key>" -browserType=IE
     ```
 
     In the example above, since we also declare `browserType` option in the command line, the automation test is executed using IE instead of Chrome.
