@@ -41,6 +41,13 @@ For a detailed introduction to our licenses, refer to [this document](https://do
 
 All users of an organization can use RE online licenses as long as the total number of active online licenses does not exceed the license quota.
 
+For Enterprise users with a private network, you may encounter a situation where you fail to execute test scripts or integrate Katalon Studio due to the network security error. Please contact your IT team to whitelist the following domains:
+
+* store.katalon.com
+* update.katalon.com
+* analytics.katalon.com
+* testops.katalon.com
+
 ### Offline License
 
 Offline license is only available for annual subscription. The valid period for each offline license is 60 days.
