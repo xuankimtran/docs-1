@@ -12,7 +12,7 @@ redirect_from:
 description:
 ---
 
-> Starting from **version 7.0.0**, you need a license that grants you permission to activate and run Katalon Studio or Katalon Studio Enterprise from the command line. [Learn more](/katalon-studio/docs/license.html).
+> Starting from **version 7.0.0**, you need a Runtime Engine (RE) [license](https://docs.katalon.com/katalon-studio/docs/license.html) to activate and run Katalon Studio (KS) or Katalon Studio Enterprise (KSE) from the command line.
 >
 > Katalon Studio only supports **Chrome, Firefox and Remote** options for console mode execution **using Linux version**.
 >
@@ -23,7 +23,7 @@ You can execute automation test without launching Katalon Studio by using comman
 Execute Katalon in CMD
 ----------------------
 
-> Starting from **Katalon Studio version 7.0.0**, the Katalon launcher (`katalon.exe`) is replaced by `katalonc.exe`.
+> Starting from **Katalon Studio version 7.0.0**, you need to download the Runtime Engine package from [Katalon website](https://katalon.com/download). The Katalon launcher (`katalon.exe`) is replaced by `katalonc.exe`.
 
 1. Open the command prompt and navigate to the folder of your Katalon Studio build: `katalonc.exe` (Windows), Applications folder (Mac OS), or `katalonc` (Linux) file.
 
