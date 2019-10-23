@@ -5,7 +5,7 @@ permalink: katalon-studio/docs/search.html
 redirect_from:
     - "/katalon-studio/docs/advanced-search/"
     - "/katalon-studio/docs/advanced+search/"
-    -"/katalon-studio/docs/advanced%20search/"
+    - "/katalon-studio/docs/advanced%20search/"
 
 description: 
 ---
