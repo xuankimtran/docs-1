@@ -10,18 +10,18 @@ RE is only required for executing automation tests in CLI (command-line interfac
 
 * Scheduling your tests using Operating System services. [Learn more](https://docs.katalon.com/katalon-studio/docs/schedule-tests-to-execute.html).
 * Creating batch operations for control multiple executions.
-  * For example: set up to autorun test suite B after running test suite A.
+  * For example, setting up to autorun test suite B after running test suite A.
 * Integrating your tests to your CI/CD system.
-  * For example: set up your tests to be trigger by Jenkins once the application under test (UAT) is updated.
+  * For example, setting up your tests to be trigger by Jenkins once the application under test (AUT) is updated.
 * Execute your tests with distributed servers.
-  * For example: set up your tests to run with different Operating System, Browsers or Devices at the same time.
+  * For example, setting up your tests to run with different Operating System, Browsers or Devices at the same time.
 * Bundle your test execution into virtual containers.
-  * For example: build a Docker image to execute your test with a specific environment.
+  * For example, building a Docker image to execute your test with a specific environment.
 * RE is compatible with both Katalon Studio 7 and Enterprise versions.
 
 #### Working with RE
 
-First, you need to download the RE package from the Katalon website, unzip the package and move to the preferred directory to execute automation tests.
+First, you need to download the RE package from the [Katalon website](https://katalon.com/download), unzip the package and move to the preferred directory to execute automation tests.
 
 Next, you need a valid RE license to use this add-on. RE license is a node-locked license. The number of licenses to acquire should be based on the number of processes and the maximum parallel sessions that you plan to execute.
 
