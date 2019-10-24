@@ -35,10 +35,12 @@ Execute Katalon in CMD
     katalonc {option1} {option2} ... {optionN}
     ```
 
-    **Mac OS:**
+    **macOS:**
 
     ```groovy
-    ./Katalon\ Studio\Engine.app/Contents/MacOS/katalonc --args {option1} {option2} ... {optionN}
+    cd /Applications/Katalon\ Studio\ Engine.app/Contents/MacOS 
+
+    ./katalonc --args {option1} {option2} ... {optionN}
     ```
 
     **Linux**:
