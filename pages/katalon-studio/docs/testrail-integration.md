@@ -6,58 +6,132 @@ permalink: katalon-studio/docs/testrail-integration.html
 description:
 ---
 
-TestRail plugin establishes the connection between Katalon Studio project and TestRail to synchronize tests, map test cases, and update test execution results in real time.
+**TestRail Integration** plugin establishes the connection between Katalon Studio and TestRail to deliver the following advanced capabilities:
 
-*Note*: To get TestRail plugin, visit [Katalon Store](https://store.katalon.com).
+* Map test cases between Katalon Studio and TestRail.
+* In TestRail, you can send and view Test Results of both Test Suites and Test Cases executed in Katalon Studio.
+* In Katalon Studio, you can query Test Runs of TestRail in [Dynamic Test Suite](https://docs.katalon.com/katalon-studio/docs/dynamic-test-suite.html).
 
-Please make sure your TestRail is configured correctly. See [TestRail documentation](http://docs.gurock.com/testrail-userguide/start) for more information.
+Click [here](https://store.katalon.com/product/13/TestRail-Integration) to get the TestRail Integration plugin. After installing the plugin, open **Katalon Studio** > click **Reload Plugins**. Learn more about [how to reload plugins](https://docs.katalon.com/katalon-store/docs/user/access-store-in-KS.html#reload-plugins).
 
-After the plugin has been installed from Katalon Store, go to Katalon Studio and click **Reload Plugins**. Learn more on [how to reload plugins](https://docs.katalon.com/katalon-store/docs/user/access-store-in-KS.html#reload-plugins).
+## Configurations
 
-## Connect to TestRail
+To enable the integration of Katalon Studio with TestRail, you need to:
 
-Enter *URL* , *username* , *password* , and *ID* of an existing project in TestRail. Click *Apply* to save. To find the **project ID**, open your project in TestRail > view the TestRail Project URL.
+### In TestRail
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/testrail-integration/1_connect.png)
+Log in to your account **> Administration > Site Settings > API > Enable API > Save Settings**.
 
-## Map test cases in Katalon to test cases in TestRail
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/testrail-integration/TR-ENABLE-API.png" width="1035" height="397">
 
-Choose one Test case -&gt; integration tab -&gt; enter ID of test case in TestRail -&gt; Save
+### In Katalon Studio
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/testrail-integration/2_mapping.png)
+1. Enable **TestRail Integration** plugin in Project Settings:
 
-## Sending result to TestRail
+* After installing and reloading the plugin, open **Katalon Studio** > from Katalon Studio menu bar > **Project** > **Settings**.
+* In the **Project Settings** window > **Plugins** > **TestRail** >  Check **Using TestRail** to enable the integration.
 
-After running a **Test Suite** in Katalon, depends on the name of Test Suite, a corresponding Test Run in TestRail will be created or updated.
+2. Enter the credentials required for **Authentication**:
 
-Let's look at examples below:
+* **URL**: your TestRail instance `https://<example>.testrail.io`.
+* **Username**: your TestRail Username.
+* **Password**: your TestRail password.
+* **Project**: Specify the TestRail project's ID (an integer) you'd like to integrate with Katalon Studio.
 
-### Test Suite is existing in both Katalon Studio and TestRail
+    > To view the **project ID**, open your project in TestRail > view the TestRail Project URL.
 
-Test Suite's name starts with R_ID (ex R1, R123, ...). The result will be sent to Test Run has that ID.
+3. Click **Test Connection** and then **OK**.
 
-Example:
-* Katalon Studio's Test Suite: R1
-* Test Rail: Update Test Rail
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/testrail-integration/KS-CONFIG.png" width="794" height="597">
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/testrail-integration/3_1_sending.png)
+## Map test cases between Katalon Studio and TestRail
 
-### Test Suite is existing in Katalon Studio but NOT in TestRail
+### In TestRail 
 
-A new Test Run will be created with Test Suite's name starts with S_ID (ex S1, S123, ...).
-* Katalon Studio's Test Suite: S1
-* Test Rail: NEW Test Run in Test Suite S1 is created
+You need to enter the Test Case's ID of TestRail (only the integer) in Katalon Studio's test cases to establish a connection between them. To view the Test Case's ID, open your project in TestRail:
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/testrail-integration/3_2_sending.png)
+* For projects using one single repository for all test cases: Select **Test Case** tab > Test Case's ID.
+* For projects using multiple test suites for managing test cases: Select **Test Suites and Cases** tab > click the Test Suite containing your preferred Test Case > Test Case's ID.
 
-### Others
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/testrail-integration/TR-VIEW-TC.png" width="" height="">
 
-Skip.
+### In Katalon Studio
 
-## Query TestRail in Dynamic Test Suite Querying
+Double-click a Test Case to open the test case view > **Integrations** tab > specify the Test Case's ID of TestRail (only an integer) > **Save**.
 
-> Learn more about [Dynamic Querying Test Suite](https://docs.katalon.com/katalon-studio/docs/dynamic-querying-test-suite.html).
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/testrail-integration/KS-LINK.png" width="" height="">
 
-Enter Test Run ID. The result will be a list of Katalon Test Case in that Test Run.
+## Add test results to TestRail
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/testrail-integration/4_querying.png)
+Before executing a **Test Suite** containing the Katalon Studio test cases mapped with TestRail ones, you can prepend the test suite's name to newly create a new Test Run or update an existing Test Run in TestRail.
+
+### Create new test runs in TestRail
+
+#### In TestRail
+
+To generate a new Test Run of a Test Suite in TestRail, you need the test suite's ID. For example, Test Suite no.4 of Project no.4 we have specified in the configuration.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/testrail-integration/TR-VIEW-TC.png" width="" height="">
+
+#### In Katalon Studio
+
+1. Create a new Test Suite or a [Dynamic Test Suite](https://docs.katalon.com/katalon-studio/docs/testrail-integration.html#query-test-cases-linked-to-testrail-in-dynamic-test-suite).
+
+2. Prepend the Test Suite's name with `S<ID>` where `<ID>` is the ID of that test suite in TestRail.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/testrail-integration/KS-S4.png" width="498" height="256">
+
+3. Execute the Test Suite. A new Test Run (e.g. **R2**) will be created in the respective Test Suite.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/testrail-integration/TR-SEND-RESULTS.png" width="" height="">
+
+    Click the test run to view its details:
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/testrail-integration/TR-NEW.png" width="" height="">
+
+### Overwrite test runs in TestRail
+
+#### In Katalon Studio
+
+1. Create a new Test Suite or a [Dynamic Test Suite](https://docs.katalon.com/katalon-studio/docs/testrail-integration.html#query-test-cases-linked-to-testrail-in-dynamic-test-suite).
+
+2. Prepend its name with `R<ID>` where `<ID>` is the ID of that test run in TestRail. (e.g., **R2** was newly created after execution in Katalon Studio)
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/testrail-integration/KS-R2.png" width="498" height="255">
+
+    > To view the Test Run's ID, open **Dashboard** in TestRail > Select **Test Runs** under your preferred project > select a test suite > you can view the test run's ID on the top left corner.
+
+3. Execute the test suite. In the example, the **R2** Test Run is updated with new test results.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/testrail-integration/TR-OVERWRITE.png" width="" height="">
+
+## Query Test Cases linked to TestRail in Dynamic Test Suite
+
+> Learn more about [Dynamic Test Suite](https://docs.katalon.com/katalon-studio/docs/dynamic-test-suite.html).
+
+When TestRail Integration plugin is enabled, Query Provider in Dynamic Test Suite is also enabled with TestRail syntax standard, which means you can re-execute those test cases that have already mapped with TestRail before.
+
+### In Katalon Studio
+
+1. Create a new dynamic test suite: Right-click on Test Suite in Test Explorer > New > Dynamic Test Suite.
+
+2. Prepend the dynamic test suite's name with either `R<ID>` (for overwriting an existing test run) or `S<ID>` (for generating a new test run in this suite).
+
+3. Enter the TestRail Test Run's ID in the Query box > Click **Preview** > all test cases that have been in that test runs are displayed.
+
+    For example, to query the test cases that have been executed in Test Run R2.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/testrail-integration/QUERY-R2.png" width="" height="">
+
+4. Execute the dynamic test suite.
+
+    Prepend **S4** to the test suite's name, then execute the dynamic test suite, a new test run named **S4 DYNAMIC TS** is sent to TestRail, click it to view details.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/testrail-integration/NEW-S4.png" width="" height="">
+
+    A new test run **R3** is created in TestRail.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/testrail-integration/NEW-R3.png" width="" height="">
+
+    You can also overwrite the above test run by creating a new dynamic test suite > changing its name to **R3 DYNAMIC TS** > querying **R3** > executing the suite. 
+    
+    In TestRail, when the execution is done, new results replace the previous ones. Click **Activity** of that test run in TestRail to see its history:
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/testrail-integration/VIEW-ACTIVITY.png" width="" height="">
