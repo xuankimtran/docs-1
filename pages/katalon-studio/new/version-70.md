@@ -32,6 +32,7 @@ description: Release note 7.0
 * Support [the WinAppDriver installation](https://docs.katalon.com/katalon-studio/docs/setup-winappdriver.html) and [`Terminate running WebDrivers`](https://docs.katalon.com/katalon-studio/docs/handle-webdrivers.html) options in Katalon Studio Tools.
 * Support WebDriver event listeners. [Learn more](https://docs.katalon.com/katalon-studio/docs/webdriver-event-listeners.html).
 * Support customizing the Console log. [Learn more](https://docs.katalon.com/katalon-studio/docs/working-with-execution-log.html).
+* Support Cucumber keywords executing one or multiple feature files with tags. Learn more about [runFeatureFileWithTags](https://docs.katalon.com/katalon-studio/docs/cucumber-kw-run-feature-file-tag.html) and [runFeatureFolderWithTags](https://docs.katalon.com/katalon-studio/docs/cucumber-kw-run-feature-folder-tag.html).
 
 ### Changes and Improvements
 

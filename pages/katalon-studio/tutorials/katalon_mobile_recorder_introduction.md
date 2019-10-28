@@ -31,7 +31,7 @@ Follow the steps below to familiarize yourself with Mobile Recorder feature from
 
 The **Record** dialog will be displayed.
 
-*   Step 3: Select device under **Device Type** (if you wish to utilize Kobition integration or other emulators, select it [here](katalon-studio/docs/integrate_with_kobiton.html). Browse your **Application File** and proceed.
+*   Step 3: Select device under **Device Type** (if you wish to utilize Kobition integration or other emulators, select it [here](https://docs.katalon.com/katalon-studio/docs/integrate_with_kobiton.html). Browse your **Application File** and proceed.
 *   Step 4: Click on the **Start** button to begin recording your test case. Wait until your app is launched.
 
 ![Mobile recorder in Katalon Studio](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/katalon_mobile_recorder_introduction/Mobile-Recorder-in-Katalon-Studio-4.png)
