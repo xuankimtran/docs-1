@@ -35,8 +35,6 @@ items:
             tree:
               - title: "Version 7.0"
                 url: /katalon-studio/new/version-70.html
-              - title: "Version 6.3.4 (Beta)"
-                url: /katalon-studio/new/version-634.html
               - title: "Version 6.3.3"
                 url: /katalon-studio/new/version-633.html
               - title: "Version 6.3.0 - 6.3.2"
@@ -135,24 +133,16 @@ items:
                 url: /katalon-studio/docs/getting-started.html
               - title: "Katalon Studio Licensing"
                 url: /katalon-studio/docs/license.html
-              - title: "Introduction to Runtime Engine"
-                url: /katalon-studio/docs/intro-RE.html
               - title: "Activate Katalon Studio Enterprise"
                 url: /katalon-studio/docs/activate-KSE.html
-              - title: "Activate Runtime Engine"
-                url: /katalon-studio/docs/activate-RE.html
               - title: "Activate Katalon Studio"
                 url: /katalon-studio/docs/katalon-studio-activation-since-70.html
               - title: "Update Katalon Studio"
                 url: /katalon-studio/docs/auto-updater.html
               - title: "Supported Environments"
                 url: /katalon-studio/docs/supported-environments.html
-              - title: "Linux Support"
-                tree:
-                  - title: "Katalon Studio for Linux (Console Mode)"
-                    url: /katalon-studio/docs/katalon-studio-for-linux-console-mode.html
-                  - title: "Katalon Studio GUI (beta) for Linux"
-                    url: /katalon-studio/docs/katalon-studio-gui-beta-for-linux.html
+              - title: "Katalon Studio GUI (beta) for Linux"
+                url: /katalon-studio/docs/katalon-studio-gui-beta-for-linux.html
               - title: "Configuration for Web Testing"
                 tree:
                   - title: "Internet Explorer Configurations"
@@ -1029,40 +1019,6 @@ items:
                 url: /katalon-studio/docs/BDD-field-jira-cloud.html
               - title: "Working with JIRA"
                 url: /katalon-studio/docs/working-with-jira.html
-          - title: "CI/CD Integration"
-            tree:
-              - title: "Console Mode Execution (Command-line Execution)"
-                url: /katalon-studio/docs/console-mode-execution.html
-              - title: "Docker & Cloud CIs"
-                url: /katalon-studio/docs/docker.html
-              - title: "Export Test Results in JUnit Format"
-                url: /katalon-studio/docs/export-test-results-in-junit-format.html
-              - title: "Bamboo Integration"
-                url: /katalon-studio/docs/bamboo-integration.html
-              - title: "Jenkins Integration"
-                url: /katalon-studio/docs/jenkins-integration.html
-              - title: "VSTS/TFS/VSO Integration"
-                url: /katalon-studio/docs/vststfsvso-integration.html
-              - title: "Continuous integration with Gitlab"
-                url: /katalon-studio/docs/continuous_integration_gitlab.html
-              - title: "E2E testing integration with CircleCI"
-                url: /katalon-studio/docs/integration-circleci.html
-          - title: "CI/CD Plugins"
-            tree:
-              - title: "Common Configuration"
-                url: /katalon-studio/docs/common-configuration.html
-              - title: "Jenkins Plugin"
-                tree:
-                  - title: "On Windows"
-                    url: /katalon-studio/docs/jenkins-plugin-windows.html
-                  - title: "On Ubuntu"
-                    url: /katalon-studio/docs/jenkins-plugin-ubuntu.html
-              - title: "Bamboo Add-on"
-                url: /katalon-studio/docs/bamboo-plugin.html
-              - title: "Azure DevOps Extension"
-                url: /katalon-studio/docs/azure-devops-extension.html
-              - title: "TeamCity Plugin"
-                url: /katalon-studio/docs/teamcity-plugin.html
           - title: "Test Management Integrations"
             tree:
               - title: "qTest Integration"
@@ -1096,6 +1052,48 @@ items:
                 url: /katalon-studio/docs/slack-integration.html
               - title: "Selenium Grid - Execution on Remote Machines" 
                 url: /katalon-studio/docs/selenium-grid-integration.html
+      - title: "Working with Runtime Engine"
+        tree:
+          - title: "Introduction to Runtime Engine"
+            url: /katalon-studio/docs/intro-RE.html
+          - title: "Activate Runtime Engine"
+            url: /katalon-studio/docs/activate-RE.html
+          - title: "Console Mode Execution (Command-line Execution)"
+            url: /katalon-studio/docs/console-mode-execution.html
+          - title: "Docker & Cloud CIs"
+            url: /katalon-studio/docs/docker.html
+          - title: "Export Test Results in JUnit Format"
+            url: /katalon-studio/docs/export-test-results-in-junit-format.html
+          - title: "Katalon Wrapper"
+            url: /katalon-studio/docs/katalon-wrapper.html 
+          - title: "Katalon Studio for Linux (Console Mode)"
+            url: /katalon-studio/docs/katalon-studio-for-linux-console-mode.html
+          - title: "Bamboo Integration"
+            url: /katalon-studio/docs/bamboo-integration.html
+          - title: "Jenkins Integration"
+            url: /katalon-studio/docs/jenkins-integration.html
+          - title: "VSTS/TFS/VSO Integration"
+            url: /katalon-studio/docs/vststfsvso-integration.html
+          - title: "Continuous integration with Gitlab"
+            url: /katalon-studio/docs/continuous_integration_gitlab.html
+          - title: "E2E testing integration with CircleCI"
+            url: /katalon-studio/docs/integration-circleci.html
+          - title: "CI/CD Plugins"
+            tree:
+              - title: "Common Configuration"
+                url: /katalon-studio/docs/common-configuration.html
+              - title: "Jenkins Plugin"
+                tree:
+                  - title: "On Windows"
+                    url: /katalon-studio/docs/jenkins-plugin-windows.html
+                  - title: "On Ubuntu"
+                    url: /katalon-studio/docs/jenkins-plugin-ubuntu.html
+              - title: "Bamboo Add-on"
+                url: /katalon-studio/docs/bamboo-plugin.html
+              - title: "Azure DevOps Extension"
+                url: /katalon-studio/docs/azure-devops-extension.html
+              - title: "TeamCity Plugin"
+                url: /katalon-studio/docs/teamcity-plugin.html
       - title: "Collaboration"
         tree:
           - title: "Git Integration"
