@@ -26,11 +26,10 @@ items:
           - title: "Manage published plugins"
             url: /katalon-store/docs/publisher/manage-published-plugins.html
   - title: "Katalon Studio"
+    url: /katalon-studio/docs/overview.html
     tree:
       - title: "Get Started"
         tree:
-          - title: "Welcome to Katalon Studio"
-            url: /katalon-studio/docs/overview.html
           - title: "What's new"
             tree:
               - title: "Version 7.0"
@@ -157,8 +156,6 @@ items:
                     url: /katalon-studio/docs/mobile-on-macos.html
                   - title: "Installing WebDriverAgent for iOS devices"
                     url: /katalon-studio/docs/installing-webdriveragent-for-ios-devices.html
-      - title: "Tutorials"
-        tree:
           - title: "Quick Start"
             url: /katalon-studio/docs/quick_start.html
           - title: "Sample Projects"
