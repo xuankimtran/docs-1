@@ -21,7 +21,7 @@ description:
 * Open **Terminal** and enter following command to initialize **WebDriverAgent** project:
 
 ```groovy
-cd /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent
+cd /usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent
 mkdir -p Resources/WebDriverAgent.bundle
 sh ./Scripts/bootstrap.sh -d
 ```
