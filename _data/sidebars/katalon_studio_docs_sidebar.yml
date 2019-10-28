@@ -26,9 +26,9 @@ items:
           - title: "Manage published plugins"
             url: /katalon-store/docs/publisher/manage-published-plugins.html
   - title: "Katalon Studio"
-    url: /katalon-studio/docs/overview.html
     tree:
       - title: "Get Started"
+        url: /katalon-studio/docs/overview.html
         tree:
           - title: "What's new"
             tree:
