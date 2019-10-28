@@ -23,6 +23,8 @@ RE is only required for executing automation tests in CLI (command-line interfac
 
 First, you need to download the RE package from the [Katalon website](https://katalon.com/download), unzip the package and move to the preferred directory to execute automation tests.
 
+>Notes: If you currently use macOS Catalina, you have to enable Katalon Studio Engine application in System Preferences/ Security & Privacy/ General.
+
 Next, you need a valid RE license to use this add-on. RE license is a node-locked license. The number of licenses to acquire should be based on the number of processes and the maximum parallel sessions that you plan to execute.
 
 * A license is linked to a single machine ID and for one execution session.
