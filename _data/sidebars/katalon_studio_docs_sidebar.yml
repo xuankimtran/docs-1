@@ -199,6 +199,8 @@ items:
                 url: /katalon-studio/docs/database-settings.html
               - title: "Network Settings"
                 url: /katalon-studio/docs/network-settings.html
+          - title: "Test Artifacts Sharing"
+            url: /katalon-studio/docs/import-export-test-artifact.html
       - title: "Test Design"
         tree:
           - title: "Search Function"
@@ -1031,6 +1033,12 @@ items:
                 url: /katalon-studio/docs/BDD-field-jira-cloud.html
               - title: "Working with JIRA"
                 url: /katalon-studio/docs/working-with-jira.html
+          - title: "Git Integration"
+            tree:
+              - title: "Git Integration"
+                url: /katalon-studio/docs/git-integration.html
+              - title: "Resolve Git conflicts using Katalon Studio"
+                url: /katalon-studio/docs/git_conflict_resolve.html
           - title: "Test Management Integrations"
             tree:
               - title: "qTest Integration"
@@ -1109,17 +1117,7 @@ items:
               - title: "Azure DevOps Extension"
                 url: /katalon-studio/docs/azure-devops-extension.html
               - title: "TeamCity Plugin"
-                url: /katalon-studio/docs/teamcity-plugin.html
-      - title: "Collaboration"
-        tree:
-          - title: "Git Integration"
-            tree:
-              - title: "Git Integration"
-                url: /katalon-studio/docs/git-integration.html
-              - title: "Resolve Git conflicts using Katalon Studio"
-                url: /katalon-studio/docs/git_conflict_resolve.html
-          - title: "Test Artifacts Sharing"
-            url: /katalon-studio/docs/import-export-test-artifact.html
+                url: /katalon-studio/docs/teamcity-plugin.html   
       - title: "Troubleshooting"
         tree:
           - title: "Troubleshooting web automated testing"
