@@ -199,8 +199,6 @@ items:
                 url: /katalon-studio/docs/database-settings.html
               - title: "Network Settings"
                 url: /katalon-studio/docs/network-settings.html
-          - title: "Test Artifacts Sharing"
-            url: /katalon-studio/docs/import-export-test-artifact.html
       - title: "Test Design"
         tree:
           - title: "Search Function"
@@ -485,6 +483,8 @@ items:
                     url: /katalon-studio/docs/windows-spy-tutorials.html
                   - title: "Windows Record Tutorials"  
                     url: /katalon-studio/docs/windows-recorder-tutorials.html   
+          - title: "Test Artifacts Sharing"
+            url: /katalon-studio/docs/import-export-test-artifact.html
           - title: "Test Maintenance"
             tree:
               - title: "Test Objects Refactoring"
@@ -959,6 +959,8 @@ items:
                 url: /katalon-studio/docs/dynamic-test-suite.html
           - title: "Headless Browsers Execution"
             url: /katalon-studio/docs/headless-browsers-execution.html
+          - title: "Selenium Grid - Execution on Remote Machines" 
+            url: /katalon-studio/docs/selenium-grid-integration.html
           - title: "Reports"
             tree:
               - title: "Test Suite Report"
@@ -1039,6 +1041,8 @@ items:
                 url: /katalon-studio/docs/git-integration.html
               - title: "Resolve Git conflicts using Katalon Studio"
                 url: /katalon-studio/docs/git_conflict_resolve.html
+          - title: "Slack Integration"
+            url: /katalon-studio/docs/slack-integration.html
           - title: "Test Management Integrations"
             tree:
               - title: "qTest Integration"
@@ -1053,7 +1057,7 @@ items:
                   - title: "Upload test execution"
                     url: /katalon-studio/docs/upload-test-execution.html
               - title: "TestRail integration"
-                url: /katalon-studio/docs/katalon-testrail-integration.html
+                url: /katalon-studio/docs/katalon-testrail-integration.html 
           - title: "Other Integrations"
             tree:
               - title: "Kobiton Integration"
@@ -1072,10 +1076,6 @@ items:
                 url: /katalon-studio/docs/saucelabs-integration.html
               - title: "LambdaTest Integration"
                 url: /katalon-studio/docs/lambdatest-integration.html
-              - title: "Slack Integration"
-                url: /katalon-studio/docs/slack-integration.html
-              - title: "Selenium Grid - Execution on Remote Machines" 
-                url: /katalon-studio/docs/selenium-grid-integration.html
       - title: "Working with Runtime Engine"
         tree:
           - title: "Introduction to Runtime Engine"
