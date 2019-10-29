@@ -269,6 +269,12 @@ items:
               url: /katalon-studio/docs/debugging_test_case.html
             - title: "How to execute/debug certain steps of a test case"
               url: /katalon-studio/docs/execute_debug_certain_steps.html
+          - title: "Desired Capabilities"
+            tree:
+              - title: "Introduction to Desired Capabilities"
+                url: /katalon-studio/docs/introduction-to-desired-capabilities.html
+              - title: "Remote Desired Capabilities"
+                url: /katalon-studio/docs/remote-desired-capabilities.html     
           - title: "Samples"
             tree:
               - title: "Samples Projects"
@@ -393,6 +399,14 @@ items:
                     url: /katalon-studio/docs/webdriver-event-listeners.html
               - title: "Testing Web App on Mobile Browsers"
                 url: /katalon-studio/docs/running_application_mobile_browsers.html
+              - title: "Desired Capabilities"
+                tree:
+                  - title: "Desired Capabilities for Firefox/Firefox (headless)"
+                    url: /katalon-studio/docs/desired-capabilities-for-firefoxfirefox-headless.html
+                  - title: "Desired Capabilities for Chrome/Chrome (headless)"
+                    url: /katalon-studio/docs/desired-capabilities-for-chromechrome-headless.html
+                  - title: "Desired Capabilities for Internet Explorer"
+                    url: /katalon-studio/docs/desired-capabilities-for-internet-explorer.html
           - title: "Mobile Test Design"
             tree:
               - title: "An Introduction to Katalon Mobile Recorder"
@@ -483,6 +497,8 @@ items:
                     url: /katalon-studio/docs/windows-spy-tutorials.html
                   - title: "Windows Record Tutorials"  
                     url: /katalon-studio/docs/windows-recorder-tutorials.html   
+              - title: "Desired Capabilities for Windows"
+                url: /katalon-studio/docs/windows-desired-capabilities.html
           - title: "Test Artifacts Sharing"
             url: /katalon-studio/docs/import-export-test-artifact.html
           - title: "Test Maintenance"
@@ -961,6 +977,8 @@ items:
             url: /katalon-studio/docs/headless-browsers-execution.html
           - title: "Selenium Grid - Execution on Remote Machines" 
             url: /katalon-studio/docs/selenium-grid-integration.html
+          - title: "Executing Tests on Multiple Devices in Parallel"
+            url: /katalon-studio/docs/execute_tests_parallelly_multiple_devices.html
           - title: "Reports"
             tree:
               - title: "Test Suite Report"
@@ -974,23 +992,7 @@ items:
               - title: "Video Capturing"
                 url: /katalon-studio/docs/video-capturing.html
               - title: "Get generated Reports location at runtime"
-                url: /katalon-studio/docs/get-generated-reports-location-at-runtime.html
-          - title: "Desired Capabilities"
-            tree:
-              - title: "Introduction to Desired Capabilities"
-                url: /katalon-studio/docs/introduction-to-desired-capabilities.html
-              - title: "Desired Capabilities for Firefox/Firefox (headless)"
-                url: /katalon-studio/docs/desired-capabilities-for-firefoxfirefox-headless.html
-              - title: "Desired Capabilities for Chrome/Chrome (headless)"
-                url: /katalon-studio/docs/desired-capabilities-for-chromechrome-headless.html
-              - title: "Desired Capabilities for Internet Explorer"
-                url: /katalon-studio/docs/desired-capabilities-for-internet-explorer.html
-              - title: "Remote Desired Capabilities"
-                url: /katalon-studio/docs/remote-desired-capabilities.html
-              - title: "Desired Capabilities for Windows"
-                url: /katalon-studio/docs/windows-desired-capabilities.html
-          - title: "Executing Tests on Multiple Devices in Parallel"
-            url: /katalon-studio/docs/execute_tests_parallelly_multiple_devices.html
+                url: /katalon-studio/docs/get-generated-reports-location-at-runtime.html         
       - title: "Data-driven Testing"
         tree:
           - title: "Global Variables"
