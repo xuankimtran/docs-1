@@ -132,6 +132,10 @@ items:
                 url: /katalon-studio/docs/getting-started.html
               - title: "Katalon Studio Licensing"
                 url: /katalon-studio/docs/license.html
+              - title: "Katalon License Subscription"
+                url: /katalon-studio/docs/license-subscription.html
+              - title: "Katalon License Management"
+                url: /katalon-studio/docs/license-management.html
               - title: "Activate Katalon Studio Enterprise"
                 url: /katalon-studio/docs/activate-KSE.html
               - title: "Activate Katalon Studio"

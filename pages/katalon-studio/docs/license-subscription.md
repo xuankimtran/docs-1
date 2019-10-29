@@ -1,5 +1,5 @@
 ---
-title: "License Subscription"
+title: "Katalon License Subscription"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/license-subscription.html
 description:
