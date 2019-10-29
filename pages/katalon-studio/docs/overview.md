@@ -10,24 +10,19 @@ redirect_from:
     - "/katalon-studio/"
 description:
 ---
-Katalon Studio is a simple and powerful automation solution built for testers everywhere. Katalon Studio revolutionizes the use of open-source test automation frameworks such as Selenium and Appium by eliminating their technical complexities to allow developers and QAs to efficiently set up, create, run, report, and manage their automated tests. It also offers a viable alternative to commercial test automation solutions that are not affordable to many small and medium-sized teams.
+**Katalon Studio** is a smart, robust, and scalable automation solution built for both beginners and expert testers everywhere. Katalon Studio revolutionizes the use of open-source test automation frameworks such as Selenium and Appium by eliminating their technical complexities. This revolution allows developers and QAs to set up, create, run, report, and manage their automated tests for Web, Mobile, and API Testings efficiently. Starting from [Katalon Studio 7.0](https://docs.katalon.com/katalon-studio/new/version-70.html), Desktop App Testing built upon WinAppDrivers (written and maintained by Microsoft) is available for users to create automated tests for Windows Desktop Applications.
 
-**[
-Tutorials](/katalon-studio/tutorials/)**
+## Documentations
 
-The Katalon team has prepared some [sample projects](https://github.com/katalon-studio-samples) for you to try out before testing out your own products. [The Learning Center](/katalon-studio/) hosts tutorials for you to follow along and get to know Katalon Studio features.
+Our documentation center provides you with guides, tutorials, and reference materials. This resource helps you get to know and familiar with Katalon Studio features. Additionally, this knowledge base is critical to your configurations, features utilization, and successfully creating automation test scripts.
 
-**[Katalon Documentation](/display/KD/Overview)**
+* The Katalon team has prepared some [**sample projects**](https://github.com/katalon-studio-samples) for you to try out before testing your products.
+* **Test Design** contains detailed information on various components of a test case/test suite, and Katalon Studio features.
+* After designing a test, **Execution and Reporting** guides you on how to run your test scripts as well as provide a comprehensive view and insights on your test results. Before executing your tests, remember to check Katalon Studio's supported [execution environments](/display/KD/Execute+a+test+case).
+You're recommended to use our beta product, **[Katalon TestOps](https://docs.katalon.com/katalon-analytics/docs/overview.html)** for dashboards, and visual analysis of test results.
+* **[Working with Runtime Engine](https://docs.katalon.com/katalon-studio/docs/intro-RE.html)** is a must-read document section for those who execute test scripts in any CI/CD infrastructure.
+* **Integration** describes in more detail with which tools Katalon Studio can integrate. To extend Katalon Studio's capabilities, please check out our [Store](https://store.katalon.com/) for more plugins and add-ons.
 
-Our documentation will help you with configurations, features utilization and important information to create a successful automation test.
+## Community Support
 
-*   **Test Case** contains information on various components of a test case/test suite. Here, you can read more about Katalon Studio features that will assist you during test case construction. 
-*   After designing a test, **Execution** shows you how to run your test cases/test suites. Before executing your tests, keep in mind Katalon Studio's supported [execution environments](/display/KD/Execute+a+test+case).
-*   **Reports** provides a comprehensive view of your test results. You can also utilize our beta product, **Katalon Analytics**, for visual analysis of the test reports.
-
-**[
-Support](https://forum.katalon.com/)**
-
-[The Katalon Community](https://forum.katalon.com/) with fellow users and experts will help you with any issues while utilizing Katalon products. Some issues, however, are documented [here](/pages/viewpage.action?pageId=3179464), which the Katalon team has planned to fix and improve in future releases. 
-
-You can also suggest new features for [Katalon Studio](https://forum.katalon.com/categories/katalon-studio-feature-suggestions) and [Katalon Analytics](https://forum.katalon.com/categories/katalon-analytics-feature-suggestions) in the forum. The Katalon team are eager to see your suggestions to make our product better for our community.
+[The Katalon Community](https://forum.katalon.com/) with fellow users and experts can help you with any issues while using Katalon products. You can also suggest new features for both Katalon Studio and Katalon TestOps, as well as report bugs in this forum. The Katalon team welcomes and appreciates your suggestions and contributions to make our products better and better.
