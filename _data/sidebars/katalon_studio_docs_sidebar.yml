@@ -401,8 +401,6 @@ items:
                 url: /katalon-studio/docs/desired_capabilities_in_katalon.html
               - title: "Locators and Object Identification"
                 url: /katalon-studio/docs/locators_object_identification.html
-              - title: "How to integrate with Kobiton"
-                url: /katalon-studio/docs/integrate_with_kobiton.html
               - title: "Testing mobile apps using Katalon Studio and Kobiton’s cloud-based device farm"
                 url: /katalon-studio/docs/testing_mobile_apps_using_katalon_studio_kobiton.html
               - title: "Mobile Test Object"
@@ -1056,6 +1054,10 @@ items:
                     url: /katalon-studio/docs/enable-kobiton-integration.html
                   - title: "Desired Capabilities for Kobiton Devices"
                     url: /katalon-studio/docs/desired-capabilities-for-kobiton-devices.html
+                  - title: "How to integrate with Kobiton"
+                    url: /katalon-studio/docs/integrate_with_kobiton.html
+                  - title: "Use additional desired capabilities for Kobiton devices"
+                    url: /katalon-studio/docs/use-additional-desired-capabilities-for-kobiton-devices.html
               - title: "BrowserStack Integration"
                 url: /katalon-studio/docs/browserstack-integration.html      
               - title: "SauceLabs Integration"
