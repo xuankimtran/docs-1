@@ -295,8 +295,6 @@ items:
                 tree:
                   - title: "Generating reliable object selector using Spy Web utility"
                     url: /katalon-studio/docs/generate_css_xpath_selector_spy_web_utility.html
-                  - title: "Generating reliable object selector using Spy Web utility"
-                    url: /katalon-studio/docs/generate_css_xpath_selector_spy_web_utility.html
                   - title: "Solving Pop-up dialog issue with Katalon Studio"
                     url: /katalon-studio/docs/pop_up_dialog_issue.html
                   - title: "Handling iFrame issue with Katalon Studio"
