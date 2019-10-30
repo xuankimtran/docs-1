@@ -12,11 +12,12 @@ description:
 Katalon Studio provides API testing capabilities with REST and SOAP services which are easily accessible through an intuitive User Interface. However, you can also create and manipulate such web service objects directly within test cases in script view. 
 
 The following example demonstrates how to create, send and verify a simple request to Jira Web Service API. You can see the result for yourself following the steps below: 
+
 - Open Katalon Studio.
 - Open a test case.
 - Switch to Script mode.
 - Copy and paste the following code.
-- Execute the test case
+- Execute the test case.
 
 ```groovy
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
