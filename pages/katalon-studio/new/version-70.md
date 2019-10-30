@@ -11,7 +11,7 @@ redirect_from:
 description: Release note 7.0
 ---
 
-## Version 7.0.0-7.0.2
+## Version 7.0.0-7.0.4
 
 > **Katalon Studio 7.0** is currently available. Click [here](https://www.katalon.com/download/) to download.
 
