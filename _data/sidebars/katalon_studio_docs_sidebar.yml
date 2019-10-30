@@ -28,8 +28,9 @@ items:
   - title: "Katalon Studio"
     tree:
       - title: "Get Started"
-        url: /katalon-studio/docs/overview.html
         tree:
+          - title: "Welcome to Katalon Studio"
+            url: /katalon-studio/docs/overview.html
           - title: "What's new"
             tree:
               - title: "Version 7.0"
@@ -164,36 +165,6 @@ items:
                 url: /katalon-studio/docs/shopping-cart-prj.html
               - title: "Health Care Project"
                 url: /katalon-studio/docs/health-care-prj.html 
-          - title: "Web Testing"
-            tree:
-              - title: "Introduction to Web Testing"
-                url: /katalon-studio/docs/introduction-to-web-testing.html
-              - title: "Creating test case using Record & Playback"
-                url: /katalon-studio/docs/create_test_case_using_record_playback.html
-              - title: "Creating test case using manual mode"
-                url: /katalon-studio/docs/create_test_case_using_manual_mode.html
-              - title: "Creating test case using script mode"
-                url: /katalon-studio/docs/create_test_case_using_script_mode.html
-          - title: "API Testing"
-            tree:
-              - title: "Introduction to API Testing"
-                url: /katalon-studio/docs/introduction_api_testing.html
-              - title: "Create your first API test with Katalon Studio"
-                url: /katalon-studio/docs/create_first_api_test_katalon_studio.html
-              - title: "Create REST API requests manually"
-                url: /katalon-studio/docs/create_rest_api_requests_manually.html
-          - title: "Mobile Testing"
-            tree:
-              - title: "An Introduction to Katalon Mobile Recorder"
-                url: /katalon-studio/docs/katalon_mobile_recorder_introduction.html
-              - title: "Desired Capabilities in Katalon Studio"
-                url: /katalon-studio/docs/desired_capabilities_in_katalon.html
-              - title: "Locators and Object Identification"
-                url: /katalon-studio/docs/locators_object_identification.html
-              - title: "How to integrate with Kobiton"
-                url: /katalon-studio/docs/integrate_with_kobiton.html
-              - title: "Testing mobile apps using Katalon Studio and Kobiton’s cloud-based device farm"
-                url: /katalon-studio/docs/testing_mobile_apps_using_katalon_studio_kobiton.html
       - title: "GUI and Preferences"
         tree:
           - title: "Toolbars and Views"
@@ -228,7 +199,7 @@ items:
                 url: /katalon-studio/docs/database-settings.html
               - title: "Network Settings"
                 url: /katalon-studio/docs/network-settings.html
-      - title: "Test Case"
+      - title: "Test Design"
         tree:
           - title: "Search Function"
             url: /katalon-studio/docs/search.html
@@ -298,6 +269,12 @@ items:
               url: /katalon-studio/docs/debugging_test_case.html
             - title: "How to execute/debug certain steps of a test case"
               url: /katalon-studio/docs/execute_debug_certain_steps.html
+          - title: "Desired Capabilities"
+            tree:
+              - title: "Introduction to Desired Capabilities"
+                url: /katalon-studio/docs/introduction-to-desired-capabilities.html
+              - title: "Remote Desired Capabilities"
+                url: /katalon-studio/docs/remote-desired-capabilities.html     
           - title: "Samples"
             tree:
               - title: "Samples Projects"
@@ -376,6 +353,14 @@ items:
                     url: /katalon-studio/docs/scroll_element_mobile_automation.html
           - title: "Web Test Design"
             tree:
+              - title: "Introduction to Web Testing"
+                url: /katalon-studio/docs/introduction-to-web-testing.html
+              - title: "Creating test case using Record & Playback"
+                url: /katalon-studio/docs/create_test_case_using_record_playback.html
+              - title: "Creating test case using manual mode"
+                url: /katalon-studio/docs/create_test_case_using_manual_mode.html
+              - title: "Creating test case using script mode"
+                url: /katalon-studio/docs/create_test_case_using_script_mode.html
               - title: "Web Test Object"
                 tree:
                   - title: "Manage Web Test Object"
@@ -414,8 +399,24 @@ items:
                     url: /katalon-studio/docs/webdriver-event-listeners.html
               - title: "Testing Web App on Mobile Browsers"
                 url: /katalon-studio/docs/running_application_mobile_browsers.html
+              - title: "Desired Capabilities"
+                tree:
+                  - title: "Desired Capabilities for Firefox/Firefox (headless)"
+                    url: /katalon-studio/docs/desired-capabilities-for-firefoxfirefox-headless.html
+                  - title: "Desired Capabilities for Chrome/Chrome (headless)"
+                    url: /katalon-studio/docs/desired-capabilities-for-chromechrome-headless.html
+                  - title: "Desired Capabilities for Internet Explorer"
+                    url: /katalon-studio/docs/desired-capabilities-for-internet-explorer.html
           - title: "Mobile Test Design"
             tree:
+              - title: "An Introduction to Katalon Mobile Recorder"
+                url: /katalon-studio/docs/katalon_mobile_recorder_introduction.html
+              - title: "Desired Capabilities in Katalon Studio"
+                url: /katalon-studio/docs/desired_capabilities_in_katalon.html
+              - title: "Locators and Object Identification"
+                url: /katalon-studio/docs/locators_object_identification.html
+              - title: "Testing mobile apps using Katalon Studio and Kobiton’s cloud-based device farm"
+                url: /katalon-studio/docs/testing_mobile_apps_using_katalon_studio_kobiton.html
               - title: "Mobile Test Object"
                 tree:
                   - title: "Manage Mobile Test Object"
@@ -436,6 +437,12 @@ items:
                 url: /katalon-studio/docs/mobile-testing-apps-cloud-devices.html
           - title: "Web Services Test Design"
             tree:
+              - title: "Introduction to API Testing"
+                url: /katalon-studio/docs/introduction_api_testing.html
+              - title: "Create your first API test with Katalon Studio"
+                url: /katalon-studio/docs/create_first_api_test_katalon_studio.html
+              - title: "Create REST API requests manually"
+                url: /katalon-studio/docs/create_rest_api_requests_manually.html
               - title: "Introduction to Web Services Test Object"
                 url: /katalon-studio/docs/introduction-to-web-services-test-object.html
               - title: "Create Web Service Object in Script Mode"
@@ -490,6 +497,10 @@ items:
                     url: /katalon-studio/docs/windows-spy-tutorials.html
                   - title: "Windows Record Tutorials"  
                     url: /katalon-studio/docs/windows-recorder-tutorials.html   
+              - title: "Desired Capabilities for Windows"
+                url: /katalon-studio/docs/windows-desired-capabilities.html
+          - title: "Test Artifacts Sharing"
+            url: /katalon-studio/docs/import-export-test-artifact.html
           - title: "Test Maintenance"
             tree:
               - title: "Test Objects Refactoring"
@@ -964,6 +975,10 @@ items:
                 url: /katalon-studio/docs/dynamic-test-suite.html
           - title: "Headless Browsers Execution"
             url: /katalon-studio/docs/headless-browsers-execution.html
+          - title: "Selenium Grid - Execution on Remote Machines" 
+            url: /katalon-studio/docs/selenium-grid-integration.html
+          - title: "Executing Tests on Multiple Devices in Parallel"
+            url: /katalon-studio/docs/execute_tests_parallelly_multiple_devices.html
           - title: "Reports"
             tree:
               - title: "Test Suite Report"
@@ -977,23 +992,7 @@ items:
               - title: "Video Capturing"
                 url: /katalon-studio/docs/video-capturing.html
               - title: "Get generated Reports location at runtime"
-                url: /katalon-studio/docs/get-generated-reports-location-at-runtime.html
-          - title: "Desired Capabilities"
-            tree:
-              - title: "Introduction to Desired Capabilities"
-                url: /katalon-studio/docs/introduction-to-desired-capabilities.html
-              - title: "Desired Capabilities for Firefox/Firefox (headless)"
-                url: /katalon-studio/docs/desired-capabilities-for-firefoxfirefox-headless.html
-              - title: "Desired Capabilities for Chrome/Chrome (headless)"
-                url: /katalon-studio/docs/desired-capabilities-for-chromechrome-headless.html
-              - title: "Desired Capabilities for Internet Explorer"
-                url: /katalon-studio/docs/desired-capabilities-for-internet-explorer.html
-              - title: "Remote Desired Capabilities"
-                url: /katalon-studio/docs/remote-desired-capabilities.html
-              - title: "Desired Capabilities for Windows"
-                url: /katalon-studio/docs/windows-desired-capabilities.html
-          - title: "Executing Tests on Multiple Devices in Parallel"
-            url: /katalon-studio/docs/execute_tests_parallelly_multiple_devices.html
+                url: /katalon-studio/docs/get-generated-reports-location-at-runtime.html         
       - title: "Data-driven Testing"
         tree:
           - title: "Global Variables"
@@ -1038,6 +1037,14 @@ items:
                 url: /katalon-studio/docs/BDD-field-jira-cloud.html
               - title: "Working with JIRA"
                 url: /katalon-studio/docs/working-with-jira.html
+          - title: "Git Integration"
+            tree:
+              - title: "Git Integration"
+                url: /katalon-studio/docs/git-integration.html
+              - title: "Resolve Git conflicts using Katalon Studio"
+                url: /katalon-studio/docs/git_conflict_resolve.html
+          - title: "Slack Integration"
+            url: /katalon-studio/docs/slack-integration.html
           - title: "Test Management Integrations"
             tree:
               - title: "qTest Integration"
@@ -1052,7 +1059,7 @@ items:
                   - title: "Upload test execution"
                     url: /katalon-studio/docs/upload-test-execution.html
               - title: "TestRail integration"
-                url: /katalon-studio/docs/katalon-testrail-integration.html
+                url: /katalon-studio/docs/katalon-testrail-integration.html 
           - title: "Other Integrations"
             tree:
               - title: "Kobiton Integration"
@@ -1061,16 +1068,16 @@ items:
                     url: /katalon-studio/docs/enable-kobiton-integration.html
                   - title: "Desired Capabilities for Kobiton Devices"
                     url: /katalon-studio/docs/desired-capabilities-for-kobiton-devices.html
+                  - title: "How to integrate with Kobiton"
+                    url: /katalon-studio/docs/integrate_with_kobiton.html
+                  - title: "Use additional desired capabilities for Kobiton devices"
+                    url: /katalon-studio/docs/use-additional-desired-capabilities-for-kobiton-devices.html
               - title: "BrowserStack Integration"
                 url: /katalon-studio/docs/browserstack-integration.html      
               - title: "SauceLabs Integration"
                 url: /katalon-studio/docs/saucelabs-integration.html
               - title: "LambdaTest Integration"
                 url: /katalon-studio/docs/lambdatest-integration.html
-              - title: "Slack Integration"
-                url: /katalon-studio/docs/slack-integration.html
-              - title: "Selenium Grid - Execution on Remote Machines" 
-                url: /katalon-studio/docs/selenium-grid-integration.html
       - title: "Working with Runtime Engine"
         tree:
           - title: "Introduction to Runtime Engine"
@@ -1112,17 +1119,7 @@ items:
               - title: "Azure DevOps Extension"
                 url: /katalon-studio/docs/azure-devops-extension.html
               - title: "TeamCity Plugin"
-                url: /katalon-studio/docs/teamcity-plugin.html
-      - title: "Collaboration"
-        tree:
-          - title: "Git Integration"
-            tree:
-              - title: "Git Integration"
-                url: /katalon-studio/docs/git-integration.html
-              - title: "Resolve Git conflicts using Katalon Studio"
-                url: /katalon-studio/docs/git_conflict_resolve.html
-          - title: "Test Artifacts Sharing"
-            url: /katalon-studio/docs/import-export-test-artifact.html
+                url: /katalon-studio/docs/teamcity-plugin.html   
       - title: "Troubleshooting"
         tree:
           - title: "Troubleshooting web automated testing"
