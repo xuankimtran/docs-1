@@ -9,10 +9,10 @@ description:
 
 You can purchase a Katalon license via Katalon TestOps.
 
-* Log in to [Katalon TestOps](https://analytics.katalon.com/home).
-* Go to **Organization** > **Subscriptions**.
-* Choose your desired product and subscription model.
-* Make payment.
+1. Log in to [Katalon TestOps](https://analytics.katalon.com/home).
+2. Go to **Organization** > **Subscriptions**.
+3. Choose your desired product and subscription model.
+4. Make payment.
 
 ## Subscribe to KSE/RE Licenses via PO
 
