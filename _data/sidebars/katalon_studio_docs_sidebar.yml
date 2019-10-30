@@ -377,7 +377,7 @@ items:
                     url: /katalon-studio/docs/change-css-selector-of-an-object-at-runtime.html
                   - title: "Modify object properties at runtime"
                     url: /katalon-studio/docs/clicking-multiple-objects-without-starting-over.html
-                  - title: "Creation of Test Object in Object Repository in Runtime"
+                  - title: "Creation of Test Object in Memory at Runtime"
                     url: /katalon-studio/docs/creation-of-test-object-in-object-repository-in-runtime.html
                   - title: "Parameterize Web Test Object Properties"
                     url: /katalon-studio/docs/parameterize-web-test-object-properties.html
@@ -425,7 +425,7 @@ items:
                 tree:
                   - title: "Manage Mobile Test Object"
                     url: /katalon-studio/docs/manage-mobile-test-object.html
-                  - title: "Create Mobile Test Object in Object Repository during Runtime"
+                  - title: "Create Mobile Test Object in Memory at Runtime"
                     url: /katalon-studio/docs/create-mobile-test-object-object-repo-in-runtime.html
                   - title: "Parameterize Mobile Test Object Properties"
                     url: /katalon-studio/docs/parameterize-mobile-test-object-properties.html
