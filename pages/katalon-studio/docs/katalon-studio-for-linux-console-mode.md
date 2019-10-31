@@ -16,11 +16,6 @@ Sign in with the registered account on Katalon [website](https://www.katalon.co
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-for-linux-console-mode/image2018-2-2-113A433A19.png)
 
-Activation
-----------
-
-Since **only console mode** execution is supported, users **DON'T** need to activate Katalon Studio. 
-
 Execution
 ---------
 
