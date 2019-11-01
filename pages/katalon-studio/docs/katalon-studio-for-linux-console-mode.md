@@ -7,49 +7,34 @@ redirect_from:
     - "/katalon-studio/docs/katalon-studio-for-linux-console-mode/"
 description: 
 ---
-Currently, Katalon Studio for Linux has a **Lite** version (Ubuntu tested) which supports only [console mode execution](/display/KD/Console+Mode+Execution). Katalon Studio IDE is **not** supported yet. This guide will cover basic setups and installation steps for the **Linux** version.
 
-Download
---------
+Katalon Studio for Linux (Ubuntu tested) supports both IDE and console mode versions. This guide covers installation steps for running Katalon Studio on Linux from the command line. For more details about console mode execution, please see [this document](/display/KD/Console+Mode+Execution).
 
-Sign in with the registered account on Katalon [website](https://www.katalon.com/) and select **Linux version** to download.
+## Download
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-for-linux-console-mode/image2018-2-2-113A433A19.png)
+Starting from **version 7.0.0**, you need a [Runtime Engine](https://docs.katalon.com/katalon-studio/docs/intro-RE.html) license to activate and run Katalon Studio or Katalon Studio Enterprise from the command line.
 
-Execution
----------
+Log in to your Katalon account on the Katalon [website](https://katalon.com/download) and select the **Linux** version of **Runtime Engine** to download.
 
-> Be sure to install OpenJDK 8 on your Ubuntu (NOT Oracle JDK).
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-for-linux-console-mode/download.png)
 
-You can find installation steps from here: [http://openjdk.java.net/install/](http://openjdk.java.net/install/). Make sure that after installation, your OpenJDK information is displayed when you execute 'java -version' command:
+## Installation
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-for-linux-console-mode/Screen-Shot-2018-02-07-at-11.50.50.png)  
+Be sure to install **OpenJDK 8** on your Ubuntu (NOT Oracle JDK). You can find the installation steps [here](http://openjdk.java.net/install/). Once you finish the installation, your `OpenJDK` information is displayed when you execute `java -version` command.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-for-linux-console-mode/Screen-Shot-2018-02-07-at-11.50.50.png)
+
+## Get Started
+
 To execute tests, follow the following steps:  
-- **Prepare project**: If you have an existing project from **Windows** or **MacOS** or from your **source control**, be **SURE** to delete **.project** file first **after** it is delivered on Linux machine.  
-- **Generate**[console mode command](/display/KD/Console+Mode+Execution#ConsoleModeExecution-CommandBuilder). This command line builder is **NOT** available in Linux version due to lack of IDE UI. Users can generate CMD directly using either Katalon Studio on **Windows** or **Mac OS**.  
-\- After a console mode command is generated or built, ensure to adjust the first parameter to be ./katalon . The correct command should look like as below:
+
+* **Generate** a console mode command. You can generate command directly from the command generator.
+* Copy and paste the generated command in Terminal.
+
+For example:
 
 ```groovy
-./katalon -noSplash  -runMode=console -consoleLog -projectPath="/Users/nguyenvinh/Katalon Studio/WebTesting/WebTesting.prj" -retry=0 -testSuitePath="Test Suites/TS_RegressionTest" -browserType="Chrome (headless)"
+./katalonc -noSplash  -runMode=console -projectPath="/home/demokatalon/Katalon Studio/WebTesting/WebTesting.prj" -retry=0 -testSuitePath="Test Suites/TS_RegressionTest" -browserType="Chrome (headless)"
 ```
 
-  
-\- Now use that console mode command in CLI interface to run the command, e.g:
-
-```groovy
-cd /home/katalon/Katalon_5.3 ./katalon -noSplash -runMode=console -consoleLog -projectPath="/Users/nguyenvinh/Katalon Studio/WebTesting/WebTesting.prj" -retry=0 -testSuitePath="Test Suites/TS_RegressionTest" -browserType="Chrome (headless)"
-```
-
-Troubleshooting
----------------
-
-### Invalid Project Description
-
-This might happen because .project file contains invalid information or Katalon command was executed lines in the SAME folder of project folder ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-for-linux-console-mode/Screen-Shot-2018-02-02-at-11.07.44.png)
-
-You can delete .project file to let Katalon Studio generate back the valid information or execute commands outside of executed project folder.  
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-for-linux-console-mode/Screen-Shot-2018-02-02-at-11.08.52.png)
-
-### 'NoClassDefFoundError' error
-
-This happens because Oracle JDK is used. Please uninstall current Oracle JDK and Install Open JDK8 after that: [http://openjdk.java.net/install/](http://openjdk.java.net/install/).
+* Troubleshooting `NoClassDefFoundError` error: This happens because Oracle JDK is used. Please uninstall the current Oracle JDK, and then install the [Open JDK8](http://openjdk.java.net/install/).
