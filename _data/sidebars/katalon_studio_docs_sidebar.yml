@@ -1282,6 +1282,8 @@ items:
             url: /katalon-analytics/docs/integration-with-katalon-studio.html
           - title: "Integration with Jira"
             url: /katalon-analytics/docs/ka-integration-jira.html
+          - title: "Integration with Jenkins"
+            url: /katalon-analytics/docs/ka-integration-jenkins.html
   - title: "Katalon Recorder"
     tree:
       - title: "Overview"
