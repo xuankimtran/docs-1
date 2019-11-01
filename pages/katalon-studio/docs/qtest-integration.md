@@ -6,4 +6,4 @@ permalink: katalon-studio/docs/qtest-integration.html
 description:
 ---
 
-Starting from version 5.8.0, Katalon Studio has transferred qTest integration support to QASymphony, a leading test management solution. Please contact [QASymphony](mailto:sales@qasymphony.com) to get the exclusive qTest version of Katalon Studio. You can read more about this update [here](https://www.qasymphony.com/software-testing-tools/integrations/katalon-qtest-integration/).
+Starting from version 7.0.1, Katalon Studio supports qTest Integration plugin. Please visit our [store](https://store.katalon.com/product/136/qTest-Integration) to download this plugin and read more about its details.
