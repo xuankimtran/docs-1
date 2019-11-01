@@ -63,7 +63,7 @@ Switch to **Variable (Script Mode)** tab, Katalon Studio will display a Script E
 
 ## Call Test Case with variables
 
-1. Open a Test Case in **Manual** view, then click **Add **and select option **Call Test Case**.
+1. Open a Test Case in **Manual** view, then click **Add** and select option **Call Test Case**.
 
 2. The **Test Case Browser** dialog which shows all existing test cases within the project will be displayed. Select the test case to be called and click **OK**.
 
