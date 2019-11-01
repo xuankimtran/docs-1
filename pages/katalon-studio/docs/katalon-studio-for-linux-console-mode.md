@@ -37,4 +37,6 @@ For example:
 ./katalonc -noSplash  -runMode=console -projectPath="/home/demokatalon/Katalon Studio/WebTesting/WebTesting.prj" -retry=0 -testSuitePath="Test Suites/TS_RegressionTest" -browserType="Chrome (headless)"
 ```
 
-* Troubleshooting `NoClassDefFoundError` error: This happens because Oracle JDK is used. Please uninstall the current Oracle JDK, and then install the [Open JDK8](http://openjdk.java.net/install/).
+## Troubleshooting
+
+You may encounter the `NoClassDefFoundError` error since Oracle JDK is being used. Please uninstall Oracle JDK, and then install [Open JDK8](http://openjdk.java.net/install/).

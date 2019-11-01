@@ -1,5 +1,5 @@
 ---
-title: "Katalon Studio GUI (beta) for Linux" 
+title: "Katalon Studio for Linux (GUI)" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/katalon-studio-gui-beta-for-linux.html 
 redirect_from:
@@ -10,46 +10,45 @@ redirect_from:
     - "/display/KD/Linux+Support/"
 description: 
 ---
-**Setup guide:**
 
-1\. Install OpenJDK 8 on your Ubuntu (NOT Oracle JDK). You can find installation steps from here: [http://openjdk.java.net/install/](http://openjdk.java.net/install/). Make sure that after installation, your OpenJDK information is displayed when you execute 'java -version' command:  
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-gui-beta-for-linux/Screen-Shot-2018-02-07-at-11.50.50.png)
+Katalon Studio for Linux (Ubuntu tested) supports both IDE and console mode versions. This guide covers setting-up steps for running Katalon Studio GUI on Linux.
 
-2\. Additional setup for Mobile and Web Services:
+1\. Install OpenJDK 8 on your Ubuntu (NOT Oracle JDK). You can find the installation steps [here](http://openjdk.java.net/install/). Once you finish the installation, your `OpenJDK` information is displayed when you execute `java -version` command.
 
-*   Mobile:
-    
-    *   Install Node.js: [https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
-    *   Install Appium:
-    
-    ```groovy
-    npm install -g appium 
-    ```
-    
+![java](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-gui-beta-for-linux/Screen-Shot-2018-02-07-at-11.50.50.png)
 
-*   *   If you see an EACCES error with Appium installation command, follow the instructions here (source: [https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally))
-        
+2\. Activate Katalon Studio
 
-*   *   You may need to [set](https://askubuntu.com/questions/175514/how-to-set-java-home-for-java?utm_medim=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa) JAVA_HOME if you encounter error related to Java 'jar' file can't be found: 
-    *   Set Appium directory **manually** in Windows -> Katalon Studio Preferences. Default directory should be: **/usr/lib/node_modules/appium/**  
-        
-*   To see with Web Service's response section and email's template content: Install **libwebkitgtk-3.0-0**
-    
-    ```groovy
-    apt-get install libwebkitgtk-3.0-0
-    ```
-    
+If you don't have an account with Katalon Studio, provide your desired username and password to sign up after launching the app. If you have an account, please read more about licenses and how to activate each license in [Katalon Studio Licensing](https://docs.katalon.com/katalon-studio/docs/license.html).
 
-**Notes:**
+3\. Additional set-up for Mobile and Web Services:
 
-*   In Spy/Record dialog, there is no "On top" option. To make it work, please select the Spy/Record dialog -> Right click then choose "Always On Top" option.
-*   Generated command line ([https://docs.katalon.com/display/KD/Console+Mode+Execution](/display/KD/Console+Mode+Execution)) need to be adjusted manually to run on Linux environment.
-    
-    ```groovy
-    ./katalon {option1} {option2} ... {optionN}
-    ```
-    
+#### Mobile
 
-**Troubleshooting**
+* Install [Node.js for Linux](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
+* Install Appium:
 
-<table><thead><tr><th>Description</th><th>Causes (one of the following)</th><th>Solutions</th></tr></thead><tbody><tr><td>Invalid Project Description</td><td><p>.project file contains invalid information.<br><br>Katalon command was executed lines in the SAME folder of project folder <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-gui-beta-for-linux/Screen-Shot-2018-02-02-at-11.07.44.png"></p></td><td><p>-&nbsp;Delete .project file to let Katalon Studio generate back the valid information<br><br>-&nbsp;Execute commands outside of executed project folder<br><br><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-gui-beta-for-linux/Screen-Shot-2018-02-02-at-11.08.52.png"></p></td></tr><tr><td>'NoClassDefFoundError' error</td><td>Oracle JDK is used</td><td>-&nbsp;Uninstall current Oracle JDK - Install Open JDK8 after that: <a class="external-link" href="http://openjdk.java.net/install/" rel="nofollow">http://openjdk.java.net/install/</a>.</td></tr></tbody></table>
+  ```groovy
+  npm install -g appium
+  ```
+
+  * If you see an EACCES error with the Appium installation command, follow the instructions [here](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally).
+
+  * You may need to [set JAVA_HOME](https://askubuntu.com/questions/175514/how-to-set-java-home-for-java?utm_medim=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa) if you encounter an error related to that Java `jar` file can't be found.
+  * Set the Appium directory manually in **Windows > Katalon Studio Preferences**. The default directory should be **/usr/lib/node_modules/appium/**.
+
+#### Web Services
+
+To see the Web Service's response section and email template content, install `libwebkitgtk-3.0-0`.
+
+```groovy
+apt-get install libwebkitgtk-3.0-0
+```
+
+#### Notes
+
+There is no "On top" option in the Spy/Record dialog. To make it work, please select the Spy/Record dialog > Right-click > choose **Always On Top** option.
+
+#### Troubleshooting
+
+You may encounter the `NoClassDefFoundError` error since Oracle JDK is being used. Please uninstall Oracle JDK, and then install [Open JDK8](http://openjdk.java.net/install/).
