@@ -199,8 +199,6 @@ items:
                 url: /katalon-studio/docs/execution-settings.html
               - title: "Emails Settings"
                 url: /katalon-studio/docs/emails-settings.html
-              - title: "Database Settings"
-                url: /katalon-studio/docs/database-settings.html
               - title: "Network Settings"
                 url: /katalon-studio/docs/network-settings.html
       - title: "Test Design"
@@ -997,6 +995,8 @@ items:
                 url: /katalon-studio/docs/get-generated-reports-location-at-runtime.html         
       - title: "Data-driven Testing"
         tree:
+          - title: "Data-driven Testing with Katalon Studio"
+            url: /katalon-studio/docs/ddt.html
           - title: "Global Variables"
             tree:
               - title: "Global Variables"
@@ -1009,12 +1009,14 @@ items:
             url: /katalon-studio/docs/test-case-variables.html
           - title: "Run Test Case with an external data source"
             url: /katalon-studio/docs/run-test-case-external-data.html
-          - title: "Combine Multiple Data Sources"
-            url: /katalon-studio/docs/combine-multiple-data-sources.html
-          - title: "Manage Test Data"
-            url: /katalon-studio/docs/manage-test-data.html
           - title: "Enhanced Variable Binding"
             url: /katalon-studio/docs/bind-as-string.html
+          - title: "Manage Test Data"
+            url: /katalon-studio/docs/manage-test-data.html
+          - title: "Database Settings"
+            url: /katalon-studio/docs/database-settings.html
+          - title: "Combine Multiple Data Sources"
+            url: /katalon-studio/docs/combine-multiple-data-sources.html
       - title: "BDD Testing Framework"
         tree:
           - title: "Cucumber Features File"
