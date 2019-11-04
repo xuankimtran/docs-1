@@ -1080,6 +1080,8 @@ items:
                 url: /katalon-studio/docs/saucelabs-integration.html
               - title: "LambdaTest Integration"
                 url: /katalon-studio/docs/lambdatest-integration.html
+              - title: "JMeter Integration "
+                url: /katalon-studio/docs/jmeter-integration.html
       - title: "Working with Runtime Engine"
         tree:
           - title: "Introduction to Runtime Engine"
