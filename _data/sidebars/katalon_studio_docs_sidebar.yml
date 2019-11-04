@@ -145,7 +145,7 @@ items:
                 url: /katalon-studio/docs/auto-updater.html
               - title: "Supported Environments"
                 url: /katalon-studio/docs/supported-environments.html
-              - title: "Katalon Studio GUI (beta) for Linux"
+              - title: "Katalon Studio for Linux (GUI)"
                 url: /katalon-studio/docs/katalon-studio-gui-beta-for-linux.html
               - title: "Configuration for Web Testing"
                 tree:
