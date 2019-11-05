@@ -1088,6 +1088,8 @@ items:
         tree:
           - title: "Introduction to Runtime Engine"
             url: /katalon-studio/docs/intro-RE.html
+          - title: "Install Runtime Engine"
+            url: /katalon-studio/docs/install-RE.html
           - title: "Activate Runtime Engine"
             url: /katalon-studio/docs/activate-RE.html
           - title: "Console Mode Execution (Command-line Execution)"
@@ -1097,9 +1099,7 @@ items:
           - title: "Export Test Results in JUnit Format"
             url: /katalon-studio/docs/export-test-results-in-junit-format.html
           - title: "Katalon Wrapper"
-            url: /katalon-studio/docs/katalon-wrapper.html 
-          - title: "Katalon Studio for Linux (Console Mode)"
-            url: /katalon-studio/docs/katalon-studio-for-linux-console-mode.html
+            url: /katalon-studio/docs/katalon-wrapper.html
           - title: "Bamboo Integration"
             url: /katalon-studio/docs/bamboo-integration.html
           - title: "Jenkins Integration"

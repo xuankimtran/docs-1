@@ -19,20 +19,4 @@ RE is only required for executing automation tests in CLI (command-line interfac
   * For example, building a Docker image to execute your test with a specific environment.
 * RE is compatible with both Katalon Studio 7 and Enterprise versions.
 
-#### Working with RE
-
-First, you need to download the RE package from the [Katalon website](https://katalon.com/download), unzip the package and move to the preferred directory to execute automation tests.
-
->Notes: If you currently use macOS Catalina, you have to enable Katalon Studio Engine application in System Preferences/ Security & Privacy/ General.
-
-Next, you need a valid RE license to use this add-on. RE license is a node-locked license. The number of licenses to acquire should be based on the number of processes and the maximum parallel sessions that you plan to execute.
-
-* A license is linked to a single machine ID and for one execution session.
-* A machine can be mapped to multiple licenses (if needed).
-* The license can be transferred to a new machine for an online environment. For the offline environment, once converted, the license cannot be transferred to another machine until it is expired.
-
-> Learn more about [RE License](https://docs.katalon.com/katalon-studio/docs/license.html).
-
-To activate RE, there are different activation methods based on the execution environment which can be online or offline. [Learn more](https://docs.katalon.com/katalon-studio/docs/activate-RE.html).
-
-Once ready, navigate to the RE directory and execute the Katalon automation test in command-line mode (CLI) as normal. Learn more about [execution in console mode](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#execute-katalon-in-cmd).
+Please refer to [this document](https://docs.katalon.com/katalon-studio/docs/install-RE.html) for more details about downloading, activating and installing RE.
