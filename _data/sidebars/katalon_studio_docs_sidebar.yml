@@ -1100,8 +1100,6 @@ items:
             url: /katalon-studio/docs/export-test-results-in-junit-format.html
           - title: "Katalon Wrapper"
             url: /katalon-studio/docs/katalon-wrapper.html
-          - title: "Bamboo Integration"
-            url: /katalon-studio/docs/bamboo-integration.html
           - title: "Jenkins Integration"
             url: /katalon-studio/docs/jenkins-integration.html
           - title: "VSTS/TFS/VSO Integration"
@@ -1121,7 +1119,7 @@ items:
                   - title: "On Ubuntu"
                     url: /katalon-studio/docs/jenkins-plugin-ubuntu.html
               - title: "Bamboo Add-on"
-                url: /katalon-studio/docs/bamboo-plugin.html
+                url: /katalon-studio/docs/bamboo-addon.html
               - title: "Azure DevOps Extension"
                 url: /katalon-studio/docs/azure-devops-extension.html
               - title: "TeamCity Plugin"
