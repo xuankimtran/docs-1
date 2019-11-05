@@ -10,7 +10,7 @@ redirect_from:
 description: 
 ---
 
-Docker Image for Katalon Studio is available [here](https://hub.docker.com/r/katalonstudio/katalon/).
+Docker Image for Katalon Studio is open-source and available [here](https://hub.docker.com/r/katalonstudio/katalon/).
 
 * Learn more about its [usage](https://github.com/katalon-studio/docker-images).
 * [Samples](https://github.com/katalon-studio/docker-images-samples) for CI configurations using Docker Image.
