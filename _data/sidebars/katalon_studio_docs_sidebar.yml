@@ -364,7 +364,7 @@ items:
               - title: "Web Test Object"
                 tree:
                   - title: "Manage Web Test Object"
-                    url: /katalon-studio/docs/manage-test-object.html
+                    url: /katalon-studio/docs/manage-web-test-object.html
                   - title: "Working with Objects Selection Method for Spy/Record Web"
                     url: /katalon-studio/docs/working-with-objects-selection-method-for-spyrecord-web.html
                   - title: "Working with Shadow DOM Objects"
