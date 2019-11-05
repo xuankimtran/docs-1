@@ -11,12 +11,13 @@ redirect_from:
 description: Release note 7.0
 ---
 
-## Version 7.0.0-7.0.4
+## Version 7.0.0-7.0.6
 
 > **Katalon Studio 7.0** is currently available. Click [here](https://www.katalon.com/download/) to download.
 
 ### New Features
 
+* Support **Close and Clean up** item in Project menu for closing the project and removing the following items: `.classpath`, and  `.project` files; `bin`, `Libs`, and `.settings` folders.
 * Support manually uploading Test Suite Collections' results to Katalon TestOps.
 * Support connecting to Git with SSH. [Learn more](https://docs.katalon.com/katalon-studio/docs/git-integration.html)
 * Allow configuring the usage tracked by Katalon Studio. [Learn more](https://docs.katalon.com/katalon-studio/docs/katalon-studio-preferences.html).
@@ -36,6 +37,8 @@ description: Release note 7.0
 
 ### Changes and Improvements
 
+* [Web Service] Encode special characters in query parameters.
+* Revert **IEDriverServer** from 3.141.59 to 3.6.0.
 * [Console mode] The `katalon` launcher is replaced by `katalonc` and there is a separate app named **Katalon Studio Runtime Engine** for executing Katalon Studio in console mode. Click [here](https://www.katalon.com/download/) to download.
 * Convert **qTest** and **Kobiton** built-in integrations into plugins.
 * Display errors of test scripts in the **Problems** view.
@@ -73,6 +76,10 @@ description: Release note 7.0
 
 ### Fixes
 
+* Bug: [DDT] Cannot get values from data files with database type in a test case.
+* Bug: Cannot log in to Katalon Studio with passwords containing special characters.
+* Bug: [Web Service] SOAP response has an empty header.
+* Bug: Cannot reload plugins with credentials containing special characters.
 * Bug: The **Results** tab of Test Suites/Test Suite Collection fails to automatically refresh after the first execution.
 * Bug: **Show references** of test objects fails to display the objects' references in global variables and test case variables.
 * Bug: Cannot send SOAP requests when **WSDL** files contain the relative `xsi:schemaLocation`.
