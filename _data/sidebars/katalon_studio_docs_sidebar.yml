@@ -1100,10 +1100,6 @@ items:
             url: /katalon-studio/docs/export-test-results-in-junit-format.html
           - title: "Katalon Wrapper"
             url: /katalon-studio/docs/katalon-wrapper.html
-          - title: "Jenkins Integration"
-            url: /katalon-studio/docs/jenkins-integration.html
-          - title: "VSTS/TFS/VSO Integration"
-            url: /katalon-studio/docs/vststfsvso-integration.html
           - title: "Continuous integration with Gitlab"
             url: /katalon-studio/docs/continuous_integration_gitlab.html
           - title: "E2E testing integration with CircleCI"
@@ -1192,6 +1188,10 @@ items:
             url: /katalon-studio/docs/soap-pre-54.html
           - title: "Spy Web Utility (version 4.8 and below)"
             url: /katalon-studio/docs/spy-web-utility-version-48-and-below.html
+          - title: "VSTS/TFS/VSO Integration"
+            url: /katalon-studio/docs/vststfsvso-integration.html
+          - title: "Jenkins Integration"
+            url: /katalon-studio/docs/jenkins-integration.html
   - title: "Katalon Studio Plugins"
     tree:
       - title: "Jira Integration"
