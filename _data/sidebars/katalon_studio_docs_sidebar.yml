@@ -1092,14 +1092,14 @@ items:
             url: /katalon-studio/docs/install-RE.html
           - title: "Activate Runtime Engine"
             url: /katalon-studio/docs/activate-RE.html
-          - title: "Console Mode Execution (Command-line Execution)"
-            url: /katalon-studio/docs/console-mode-execution.html
-          - title: "Docker & Cloud CIs"
-            url: /katalon-studio/docs/docker.html
           - title: "Export Test Results in JUnit Format"
             url: /katalon-studio/docs/export-test-results-in-junit-format.html
-          - title: "Katalon Wrapper"
-            url: /katalon-studio/docs/katalon-wrapper.html
+          - title: "Command Syntax (Command-line/Console Mode Execution)"
+            url: /katalon-studio/docs/console-mode-execution.html
+          - title: "Docker Image"
+            url: /katalon-studio/docs/docker.html
+          - title: "Run with Cloud CIs"
+            url: /katalon-studio/docs/run-cloud-ci.html
           - title: "Continuous integration with Gitlab"
             url: /katalon-studio/docs/continuous_integration_gitlab.html
           - title: "E2E testing integration with CircleCI"
