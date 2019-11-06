@@ -364,7 +364,7 @@ items:
               - title: "Web Test Object"
                 tree:
                   - title: "Manage Web Test Object"
-                    url: /katalon-studio/docs/manage-test-object.html
+                    url: /katalon-studio/docs/manage-web-test-object.html
                   - title: "Working with Objects Selection Method for Spy/Record Web"
                     url: /katalon-studio/docs/working-with-objects-selection-method-for-spyrecord-web.html
                   - title: "Working with Shadow DOM Objects"
@@ -1088,24 +1088,18 @@ items:
         tree:
           - title: "Introduction to Runtime Engine"
             url: /katalon-studio/docs/intro-RE.html
+          - title: "Install Runtime Engine"
+            url: /katalon-studio/docs/install-RE.html
           - title: "Activate Runtime Engine"
             url: /katalon-studio/docs/activate-RE.html
-          - title: "Console Mode Execution (Command-line Execution)"
-            url: /katalon-studio/docs/console-mode-execution.html
-          - title: "Docker & Cloud CIs"
-            url: /katalon-studio/docs/docker.html
           - title: "Export Test Results in JUnit Format"
             url: /katalon-studio/docs/export-test-results-in-junit-format.html
-          - title: "Katalon Wrapper"
-            url: /katalon-studio/docs/katalon-wrapper.html 
-          - title: "Katalon Studio for Linux (Console Mode)"
-            url: /katalon-studio/docs/katalon-studio-for-linux-console-mode.html
-          - title: "Bamboo Integration"
-            url: /katalon-studio/docs/bamboo-integration.html
-          - title: "Jenkins Integration"
-            url: /katalon-studio/docs/jenkins-integration.html
-          - title: "VSTS/TFS/VSO Integration"
-            url: /katalon-studio/docs/vststfsvso-integration.html
+          - title: "Command Syntax (Command-line/Console Mode Execution)"
+            url: /katalon-studio/docs/console-mode-execution.html
+          - title: "Docker Image"
+            url: /katalon-studio/docs/docker.html
+          - title: "Run with Cloud CIs"
+            url: /katalon-studio/docs/run-cloud-ci.html
           - title: "Continuous integration with Gitlab"
             url: /katalon-studio/docs/continuous_integration_gitlab.html
           - title: "E2E testing integration with CircleCI"
@@ -1121,7 +1115,7 @@ items:
                   - title: "On Ubuntu"
                     url: /katalon-studio/docs/jenkins-plugin-ubuntu.html
               - title: "Bamboo Add-on"
-                url: /katalon-studio/docs/bamboo-plugin.html
+                url: /katalon-studio/docs/bamboo-addon.html
               - title: "Azure DevOps Extension"
                 url: /katalon-studio/docs/azure-devops-extension.html
               - title: "TeamCity Plugin"
@@ -1194,6 +1188,10 @@ items:
             url: /katalon-studio/docs/soap-pre-54.html
           - title: "Spy Web Utility (version 4.8 and below)"
             url: /katalon-studio/docs/spy-web-utility-version-48-and-below.html
+          - title: "VSTS/TFS/VSO Integration"
+            url: /katalon-studio/docs/vststfsvso-integration.html
+          - title: "Jenkins Integration"
+            url: /katalon-studio/docs/jenkins-integration.html
   - title: "Katalon Studio Plugins"
     tree:
       - title: "Jira Integration"

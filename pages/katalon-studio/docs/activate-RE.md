@@ -13,20 +13,17 @@ Currently, free license is not available for Runtime Engine.
 
 > Trial licenses only work in online environments.
 
-There are two ways to run KS/KSE with Runtime Engine.
+To run KS/KSE with RE, you need to:
 
-### Launch Katalon Studio and use command generator
-
-1. Open Katalon Studio and log in to your Katalon account.
+1. Log in to your Katalon account on Katalon Studio.
 2. In the command generator, generate a command with the auto-filled Katalon API Key and customized information.
 3. Copy and paste the generated command into **Terminal** (for macOS/Linux users) or **Command Prompt** (for Windows users).
 
-### Without launching Katalon Studio
-
-1. Generate Katalon API Key. Click [here](https://docs.katalon.com/katalon-analytics/docs/ka-api-key.html#create-an-api-key) for detailed instructions.
-2. Open **Terminal**/**Command Prompt**, enter the command with the API Key generated above. Please refer to [Console Mode Execution](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#katalon-studio-plugins-in-console-mode) for further instructions.
-
     For example: `katalonc -noSplash -runMode=console -consoleLog -noExit -projectPath="C:\Users\Katalon Studio\Project\YourProject.prj" -retry=0 -testSuitePath="Test Suites/TS_RegressionTest" -browserType="Chrome (headless)" -apiKey=abczxzxz`
+
+    > [Katalon API Key](https://docs.katalon.com/katalon-analytics/docs/ka-api-key.html#create-an-api-key) is required for activating RE.
+    >
+    > Please refer to [Command Syntax](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#katalon-studio-plugins-in-console-mode) for further instructions on working with RE.
 
 ## With Paid License
 
