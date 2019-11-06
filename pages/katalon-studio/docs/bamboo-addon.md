@@ -5,7 +5,7 @@ permalink: katalon-studio/docs/bamboo-addon.html
 redirect_from:
     - "/katalon-studio/docs/bamboo-plugin/"
     - "/katalon-studio/docs/bamboo+plugin/"
-    - "/katalon-studio/docs/bamboo%20plugin/
+    - "/katalon-studio/docs/bamboo%20plugin/"
     - "/katalon-studio/docs/bamboo-integration/"
     - "/katalon-studio/docs/bamboo+integration/"
     - "/katalon-studio/docs/bamboo%20integration/"
