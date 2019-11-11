@@ -20,11 +20,11 @@ You have to define a Grid Plan on TestOps before assigning the Plan to Jenkins t
 
 2. Click **New Item** > create a **Freestyle Project** > click **OK**.
 
-![](https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/jenkins-ka-integration/1-Create-New-Item-Project.JPG)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/jenkins-ka-integration/1-Create-New-Item-Project.JPG)
 
 3. Select **Execute Katalon TestOps Plan** under the **Build** section.
 
-![](https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/jenkins-ka-integration/2-Execute-TestOps_Plan.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/jenkins-ka-integration/2-Execute-TestOps_Plan.png)
 
 4. Enter **Server URL** of Katalon TestOps.
 
@@ -32,7 +32,7 @@ You have to define a Grid Plan on TestOps before assigning the Plan to Jenkins t
 
 > Note: Click **Test Connection** to see if you can connect to TestOps successfully.
 
-![](https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/jenkins-ka-integration/3-Define-Build-Step.JPG)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/jenkins-ka-integration/3-Define-Build-Step.JPG)
 
 6. Click **Save** to go back to the Jenkins project's details.
 
