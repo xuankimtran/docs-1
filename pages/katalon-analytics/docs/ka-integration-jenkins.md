@@ -31,7 +31,7 @@ You can follow this [document](https://docs.katalon.com/katalon-analytics/docs/g
 
 4. Enter Server URL for Katalon TestOps.
 
-5. Select your existing credential to retrive target Project and Test Plan. If you don't have credential, you can click **Add Jenkins Credentials** button and select **Secrete Text** option in **Kind**dropdown.
+5. Select your existing credential to retrive target Project and Test Plan. If you don't have credential, you can click **Add Jenkins Credentials** button and select **Secrete Text** option in **Kind** dropdown.
 
 > Note: You can click Test Connection to see if you can connect to TestOps successfully.
 
