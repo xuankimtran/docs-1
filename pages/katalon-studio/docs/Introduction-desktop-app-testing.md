@@ -6,6 +6,8 @@ permalink: katalon-studio/docs/introduction-desktop-app-testing.html
 
 > Starting from **Katalon Studio version 7.0.0**, you can execute a test on a Windows desktop application.
 
+Katalon Studio fully supports automation test for desktop apps written in the following platforms: Universal Windows Platform (UWP), Windows Forms (WinForms), Windows Presentation Foundation (WPF), and Classic Windows (Win32).
+
 ### Windows Execution Type
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/introduction-desktop-app-testing/Windows_Execution_1.png" width="267" height="319">
