@@ -19,6 +19,7 @@ In Katalon Analytics, each user is identified with the same account registered f
 * Users are the _Owners_ of their own organizations by default.
 * An _Admin_ is granted by the _Owner_.
 * A _User_ is automatically assigned when a person is first invited to collaborate in an organization.
+* A _Billing Manager_ is granted by the _Owner_ to manage the subscription exclusively.
 
 **In team level**
 
@@ -31,23 +32,31 @@ In Katalon Analytics, each user is identified with the same account registered f
 **Owner**
 
 * Invite new users to your organization and to collaborate on your projects.
-* Assign *Admin* or *User* roles to new and existing team members.
+* Assign *Admin* or *User* or *Billing Manager* roles to new and existing team members.
 * Remove existing *Admins* and *Users* from your organization and projects.
 * Create and delete projects.
 * Upload test results.
+* Subscribe KSE and RE license.
 
 **Admin**
 
 * Invite new users to collaborate on your projects.  
-* Assign *Admin* or *User* roles to new and existing team members.
+* Assign *Admin* or *User* or *Billing Manager* roles to new and existing team members.
 * Remove existing *Users* from your projects.
 * Create and delete projects.
 * Upload test results.
+
+**Billing Manager**
+
+* Create and delete projects.
+* Upload test results.
+* Subscribe KSE and RE license.
 
 **Users**
 
 * Monitor project progress.
 * Upload test results.
+
 
 ## User-related permissions
 
@@ -91,3 +100,7 @@ A user can have different roles in different teams.
 **[Monitor project progress](https://docs.katalon.com/katalon-analytics/docs/project-management-view-reports.html)**
 
 **[Delete projects](https://docs.katalon.com/katalon-analytics/docs/project-management-delete.html)**
+
+## Subscription-related permissions
+
+**[Katalon License Subscription](https://docs.katalon.com/katalon-studio/docs/license-subscription.html)**
