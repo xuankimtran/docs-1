@@ -6,7 +6,7 @@ description: How to integrate KT with Jenkins to execute TestOps Grid Plan
 ---
 **Prerequisites:**
 * Download and install [Jenkins](https://jenkins.io/download/)
-* Start Jenkins (command : java -jar jenkins.war)
+* Start Jenkins (command : `java -jar jenkins.war`)
 * Download and activate [Katalon Runtime Engine](https://www.katalon.com/download/) for your machine
 * Install Katalon Studio plugin for Jenkins: Go to **Manage Jenkins > Manage Plugins > Available** tab > find and select the Katalon plugin > **Install**.
 
