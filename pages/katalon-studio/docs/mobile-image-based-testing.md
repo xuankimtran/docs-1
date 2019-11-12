@@ -4,9 +4,9 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-image-based-testing.html 
 ---
 
-Starting from **version 7.2**, Katalon Studio supports finding and interacting with visual objects in Mobile testing.
+Starting from **version 7.2**, image-based testing is available for Katalon Studio Enterprise users.
 
-Image-based testing in Katalon Studio allows you to locate and perform an action on Mobile objects with their images. This is particularly helpful in the following use cases:
+This feature allows you to locate and interact with Mobile objects by their images. It is particularly helpful in the following use cases:
 
 * Dynamic test objects without unique selectors (their values are passed through the parameters during execution) or visual objects that are traditionally identified by their orders in a list.
 
