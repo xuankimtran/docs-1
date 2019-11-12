@@ -765,6 +765,10 @@ items:
                 url: /katalon-studio/docs/mobile-check-element.html
               - title: "[Mobile] Drag And Drop"
                 url: /katalon-studio/docs/mobile-drag-and-drop.html
+              - title: "[Mobile] Find Image Element"
+                url: /katalon-studio/docs/mobile-find-image-element.html
+              - title: "[Mobile] Find Image Elements"
+                url: /katalon-studio/docs/mobile-find-image-elements.html 
               - title: "[Mobile] Get Attribute"
                 url: /katalon-studio/docs/mobile-get-attribute.html
               - title: "[Mobile] Get Element Height"
@@ -839,12 +843,16 @@ items:
                 url: /katalon-studio/docs/mobile-tap-and-hold.html
               - title: "[Mobile] Tap And Hold At Position"
                 url: /katalon-studio/docs/mobile-tap-and-hold-at-position.html
+              - title: "[Mobile] Tap on Image"
+                url: /katalon-studio/docs/mobile-tap-image.html
               - title: "[Mobile] Toggle Airplane Mode"
                 url: /katalon-studio/docs/mobile-toggle-airplane-mode.html
               - title: "[Mobile] Unlock Screen"
                 url: /katalon-studio/docs/mobile-unlock-screen.html
               - title: "[Mobile] Uncheck Element"
                 url: /katalon-studio/docs/mobile-uncheck-element.html
+              - title: "[Mobile] Verify Image Present"
+                url: /katalon-studio/docs/mobile-verify-image-present.html
               - title: "[Mobile] Verify Is Landscape"
                 url: /katalon-studio/docs/mobile-verify-is-landscape.html
               - title: "[Mobile] Verify Is Portrait"
