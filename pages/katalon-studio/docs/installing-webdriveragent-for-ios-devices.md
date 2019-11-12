@@ -18,7 +18,7 @@ description:
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/installing-webdriveragent-for-ios-devices/image2016-12-21-153A513A4.png)
 
-* Open **Terminal** and enter following command to initialize **WebDriverAgent** project:
+* Open **Terminal** and enter following commands to initialize the **WebDriverAgent** project:
 
   - Appium 1.15.0+
     ```groovy
