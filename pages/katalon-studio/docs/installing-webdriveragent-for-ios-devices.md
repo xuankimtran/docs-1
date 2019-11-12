@@ -12,13 +12,13 @@ description:
 
 > This setup process is **NOT** required if you use **Android** devices. Please go straight to this [step](/pages/viewpage.action?pageId=13698548#MobileonmacOS(new)-Android) instead.
 
-[WebDriverAgent](https://github.com/facebook/WebDriverAgent) is a [WebDriver server](https://w3c.github.io/webdriver/webdriver-spec.html) implementation for iOS that can be used to remote control iOS devices. You need to install and setup WebDriverAgent to allow Katalon Studio to automate iOS devices.
+[WebDriverAgent](https://github.com/facebook/WebDriverAgent), a [WebDriver server](https://w3c.github.io/webdriver/webdriver-spec.html) implementation for iOS, is used for controlling iOS devices remotely. You need to install and set up WebDriverAgent for Katalon Studio to automate iOS devices.
 
-* Open **Xcode > Preferences > Accounts** and add developer's Apple ID.
+1\. Open **Xcode > Preferences > Accounts**, and add your developer's Apple ID.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/installing-webdriveragent-for-ios-devices/image2016-12-21-153A513A4.png)
 
-* Open **Terminal** and enter following commands to initialize the **WebDriverAgent** project:
+2\. Open **Terminal**, and enter the following commands to initialize the **WebDriverAgent** project:
 
   - Appium 1.15.0+
     ```groovy
@@ -34,29 +34,24 @@ description:
     sh ./Scripts/bootstrap.sh -d
     ```
 
-> **Common issues**
->
-> * Error code 13: re-run command with sudo: **sudo ./Scripts/bootstrap.sh -d**
->
-> * Error _Error StackTrace: Cannot find module 'eslint-config-appium': _missing paramter -d when running **./Scripts/bootstrap.sh**
+    > **Common issues**
+    >
+    > * Error code 13: re-run command with sudo: **sudo ./Scripts/bootstrap.sh -d**
+    >
+    > * Error _Error StackTrace: Cannot find module 'eslint-config-appium': _missing paramter -d when running **./Scripts/bootstrap.sh**
 
-* Login to Apple developer account and [register device](https://www.wikihow.com/Add-a-New-Device-to-Your-Apple-Developer-Portal) to developer account.
+3\. Log in to you Apple developer account and [register your device](https://www.wikihow.com/Add-a-New-Device-to-Your-Apple-Developer-Portal).
 
-* Open project **WebDriverAgent.xcodeproj** within folder **WebDriverAgent** in Xcode.
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/installing-webdriveragent-for-ios-devices/image2016-12-21-153A513A29.png)
+4\. Open the **WebDriverAgent.xcodeproj** project in the **appium-webdriveragent** folder with Xcode.
 
-* Select target **WebDriverAgentLib**, in the Signing section, check **Automatically manage signing** and select the team.
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/installing-webdriveragent-for-ios-devices/image2016-12-21-153A513A56.png)
+![project](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/installing-webdriveragent-for-ios-devices/project.png)
 
-* Then on the menu bar, select **Product > Build**
-    **![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/installing-webdriveragent-for-ios-devices/image2016-12-21-153A523A23.png)**
+5\. Select **WebDriverAgentLib** > in the Signing section, check **Automatically manage signing** > select a team.
 
-* Repeat the last two steps for **WebDriverAgentRunner**
+![lib](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/installing-webdriveragent-for-ios-devices/lib.png)
 
-* Xcode may fail to create a provisioning profile for the `WebDriverAgentRunner` target:
+Then on the menu bar, select **Product > Build**.
 
-    [![Xcode provisioning fail](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/installing-webdriveragent-for-ios-devices/xcode-facebook-fail.png)](https://github.com/appium/appium/blob/master/docs/en/drivers/ios-xcuitest-img/xcode-facebook-fail.png)
+![build](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/installing-webdriveragent-for-ios-devices/build.png)
 
-* This necessitates manually changing the bundle id for the target by going to the **Build Settings** tab, and changing the **Product Bundle Identifier** from `com.facebook.WebDriverAgentRunner` to something that Xcode accepts, for example, "io.appium.WebDriverAgentRunner".
-
-    [![Xcode bundle id](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/installing-webdriveragent-for-ios-devices/xcode-bundle-id.png)](https://github.com/appium/appium/blob/master/docs/en/drivers/ios-xcuitest-img/xcode-bundle-id.png)
+6\. Select **WebDriverAgentRunner** > check **Automatically manage signing** > select a team. On the menu bar, select **Product > Build**.
