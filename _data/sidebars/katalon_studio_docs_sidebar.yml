@@ -425,6 +425,8 @@ items:
                     url: /katalon-studio/docs/create-mobile-test-object-object-repo-in-runtime.html
                   - title: "Parameterize Mobile Test Object Properties"
                     url: /katalon-studio/docs/parameterize-mobile-test-object-properties.html
+                  - title: "[Mobile] Image-based Testing" 
+                    url: /katalon-studio/docs/mobile-image-based-testing.html 
               - title: "Mobile Record and Spy Utilities"
                 tree:
                   - title: "Record Mobile Utility"
