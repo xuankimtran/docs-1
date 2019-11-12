@@ -91,6 +91,10 @@ From __Users__ Tab, click the remove icon in the last column and confirm your ac
 The *Admin* and *Owner* can reassign the existing *Admin* and *User* to a new role. From __Users__ Tab, click the pencil icon in the last column and then select a new role in the drop-down list.
 A user can have different roles in different teams.
 
+**Transfer Ownership of Organization to new and existing team members**
+
+The *Owner* can transfer the organization ownership to the existing *Admin* or *User*. From __Users__ Tab, click the pencil icon in the last column and then select *Owner* role in the drop-down list.
+
 ## Project-related permissions
 
 **[Upload test results from Katalon Studio](https://docs.katalon.com/katalon-analytics/docs/katalon-analytics/docs/project-management-import-KS.html)**
