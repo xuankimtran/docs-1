@@ -20,11 +20,19 @@ description:
 
 * Open **Terminal** and enter following command to initialize **WebDriverAgent** project:
 
-```groovy
-cd /usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent
-mkdir -p Resources/WebDriverAgent.bundle
-sh ./Scripts/bootstrap.sh -d
-```
+  - Appium 1.15.0+
+    ```groovy
+    brew install carthage
+    cd /usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent
+    carthage bootstrap
+    ```
+
+  - Appium 1.14.2 or older versions
+    ```groovy
+    cd /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent
+    mkdir -p Resources/WebDriverAgent.bundle
+    sh ./Scripts/bootstrap.sh -d
+    ```
 
 > **Common issues**
 >
