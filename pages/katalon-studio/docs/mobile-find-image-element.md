@@ -4,6 +4,8 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-find-image-element.html 
 ---
 
+> This keyword, available in version 7.2+, is for Katalon Studio Enterprise users only.
+
 ## findImageElement
 
 * **Description**: Find the mobile element that is recognized by the given image.
