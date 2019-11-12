@@ -21,7 +21,7 @@ You need the native OpenCV library in nodejs. Install [opencv4nodejs](https://ww
 ### Windows
 
 1. Download and install [CMake](https://cmake.org/download/).
-2. Add CMake binary folder to PATH in Environment Variables
+2. Add CMake binary folder to PATH in Environment Variables.
 3. Run the following commands
 
 ```bash
@@ -54,7 +54,7 @@ npm ERR! opencv-build@0.1.9 install: `node ./install.js`
 npm ERR! Exit status 1
 ```
 
-That means the auto-build may fail to install opencv4nodejs, please try out with the following commands:
+That means the auto-build may fail to install opencv4nodejs, please try the following commands:
 
 ```bash
     brew unlink tesseract
@@ -64,8 +64,8 @@ That means the auto-build may fail to install opencv4nodejs, please try out with
 
 ### Linux
 
-1. Download and install [CMake](https://cmake.org/download/)
-2. Export CMake binary folder to PATH of Environment Variables
+1. Download and install [CMake](https://cmake.org/download/).
+2. Export CMake binary folder to PATH of Environment Variables.
 3. Run the following commands
 
 ```bash
