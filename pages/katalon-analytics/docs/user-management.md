@@ -19,7 +19,7 @@ In Katalon Analytics, each user is identified with the same account registered f
 * Users are the _Owners_ of their own organizations by default.
 * An _Admin_ is granted by the _Owner_.
 * A _User_ is automatically assigned when a person is first invited to collaborate in an organization.
-* A _Billing Manager_ is granted by the _Owner_ to manage the subscription exclusively.
+* A _Billing Manager_ is granted by the _Owner_ to manage the subscription.
 
 **In team level**
 
@@ -31,32 +31,49 @@ In Katalon Analytics, each user is identified with the same account registered f
 
 **Owner**
 
-* Invite new users to your organization and to collaborate on your projects.
-* Assign *Admin* or *User* or *Billing Manager* roles to new and existing team members.
-* Remove existing *Admins* and *Users* from your organization and projects.
+* Create new organization.
+* Create and manage teams.
 * Create and delete projects.
+* Invite new users to your organization and to collaborate on your projects.
+* Assign *Admin* or *User* or *Billing Manager* roles to new or existing team members.
+* Transfer organization or team ownership to existing team member.
+* Remove existing *Admins* or *Users* from your organization and projects.
+* Monitor project progress.
 * Upload test results.
-* Subscribe KSE and RE license.
+* Manage KSE, RE and TestOps On-Premise License.
+* Search and Download Plugins.
+* Subscribe KSE, RE and TestOps On-Premise license.
 
 **Admin**
 
-* Invite new users to collaborate on your projects.  
-* Assign *Admin* or *User* or *Billing Manager* roles to new and existing team members.
-* Remove existing *Users* from your projects.
+* Create new organization.
+* Create and manage teams.
 * Create and delete projects.
+* Invite new users to collaborate on your projects.
+* Assign *Admin* or *User* or *Billing Manager* roles to new or existing team members.
+* Transfer organization and team ownership to existing team member.
+* Remove existing *Admins* or *Users* from your organization or projects.
+* Monitor project progress.
 * Upload test results.
+* Manage KSE, RE and TestOps On-Premise License.
+* Search and Download Plugins.
 
 **Billing Manager**
 
-* Create and delete projects.
+* Create new organization.
+* Monitor project progress.
 * Upload test results.
-* Subscribe KSE and RE license.
+* View number of subscribed license for KSE, RE and TestOps On-Premise
+* Search and Download Plugins.
+* Subscribe KSE, RE and TestOps On-Premise license.
 
 **Users**
 
+* Create and delete projects.
+* Invite new users to collaborate on your projects.
 * Monitor project progress.
 * Upload test results.
-
+* Search and Download Plugins.
 
 ## User-related permissions
 
@@ -71,7 +88,7 @@ _Invite a person to your organization:_
 * Enter an email address and click __Invite__
 * Copy the activation link and send to that person
 
-![User Tab](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/user-management/user%20mgt-invitation.png)
+![User Tab](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/user-management/KT-user-mgt-invitation.png)
 
 The invited person accepts the invitation by clicking the activation link directing to Katalon Analytics and then clicking the name of the organization.
 
@@ -86,14 +103,14 @@ Only users in an organization can be invited to a team in that organization. Sel
 
 From __Users__ Tab, click the remove icon in the last column and confirm your action in the pop-up. The removed user can be re-added to the project if necessary (refer to *Invite a user to a team*)
 
-**Assign Admin or User roles to new and existing team members**
+**Assign Admin or User roles to new or existing team members**
 
-The *Admin* and *Owner* can reassign the existing *Admin* and *User* to a new role. From __Users__ Tab, click the pencil icon in the last column and then select a new role in the drop-down list.
+The *Admin* and *Owner* can reassign the existing *Admin* or *User* to a new role. From __Users__ Tab, click the pencil icon in the last column and then select a new role in the drop-down list.
 A user can have different roles in different teams.
 
-**Transfer Ownership of Organization to new and existing team members**
+**Transfer Ownership of Organization or Team to new or existing team members**
 
-The *Owner* can transfer the organization ownership to the existing *Admin* or *User*. From __Users__ Tab, click the pencil icon in the last column and then select *Owner* role in the drop-down list.
+The *Owner* and *Admin* can transfer the organization or team ownership to the existing *Admin* or *User*. From __Users__ Tab, click the pencil icon in the last column and then select *Owner* role in the drop-down list.
 
 ## Project-related permissions
 
