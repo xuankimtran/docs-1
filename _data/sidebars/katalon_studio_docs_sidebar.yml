@@ -127,16 +127,24 @@ items:
                 url: /katalon-studio/new/version-44.html
               - title: "Version 4.3"
                 url: /katalon-studio/new/version-43.html
-          - title: "Installation and Activation"
+          - title: "License and Subscription"
             tree:
-              - title: "Installation Overview"
-                url: /katalon-studio/docs/getting-started.html
               - title: "Katalon Studio Licensing"
                 url: /katalon-studio/docs/license.html
               - title: "Katalon License Subscription"
                 url: /katalon-studio/docs/license-subscription.html
+              - title: "Subscription via Katalon TestOps"
+                url: /katalon-studio/docs/license-KT.html
+              - title: "Subscription via PO"
+                url: /katalon-studio/docs/license-po.html
+              - title: "Subscription via Quote"
+                url: /katalon-studio/docs/license-quote.html  
               - title: "Katalon License Management"
                 url: /katalon-studio/docs/license-management.html
+          - title: "Installation and Activation"
+            tree:
+              - title: "Installation Overview"
+                url: /katalon-studio/docs/getting-started.html
               - title: "Activate Katalon Studio Enterprise"
                 url: /katalon-studio/docs/activate-KSE.html
               - title: "Activate Katalon Studio"
