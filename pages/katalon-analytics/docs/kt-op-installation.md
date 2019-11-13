@@ -37,3 +37,5 @@ TestOps On-Premise allows you to access to insightful features of Katalon TestOp
 7. Sign in using the recently created account.
 
 8. Now, you are at the TestOps On-Premise Dashboard, and you can start by creating a new organization and inviting your team members to collaborate.
+
+> Note: You need to configure mail server in order to send and receive email notification. [Learn more] ()
