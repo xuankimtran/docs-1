@@ -1077,33 +1077,33 @@ items:
               - title: "JMeter Integration "
                 url: /katalon-studio/docs/jmeter-integration.html
       - title: "Katalon Studio Plugins"
-          tree:
-            - title: "Jira Integration"
-              url: /katalon-studio/docs/jira-plugin-integration.html
-            - title: "Slack Integration"
-              url: /katalon-studio/docs/slack-plugin-integration.html
-            - title: "Auto-healing Smart XPath"
-              url: /katalon-studio/docs/auto-healing-smart-xpath.html
-            - title: "TestRail Integration"
-              url: /katalon-studio/docs/testrail-integration.html
-            - title: "Test Case Management With Tags"
-              url: /katalon-studio/docs/test-case-management-with-tags.html
-            - title: "Basic Search For Dynamic Test Suite"
-              url: /katalon-studio/docs/basic-search-for-dynamic-querying-test-suite.html
-            - title: "Applitools Integration"
-              url: /katalon-studio/docs/applitools-integration.html
-            - title: "Basic Report"
-              url: /katalon-studio/docs/basic-report.html
-            - title: "Test Suite Collection Scheduler"
-              url: /katalon-studio/docs/test-suite-collection-scheduler.html
-            - title: "TestLink Integration"
-              url: /katalon-studio/docs/testlink-integration.html
-            - title: "Sauce Labs Integration"
-              url: /katalon-studio/docs/saucelabs-plugin.html
-            - title: "Rally Integration"
-              url: /katalon-studio/docs/rally-integration.html
-            - title: "Private Plugins Introduction"
-              url: /katalon-studio/docs/private-plugins.html
+        tree:
+          - title: "Jira Integration"
+            url: /katalon-studio/docs/jira-plugin-integration.html
+          - title: "Slack Integration"
+            url: /katalon-studio/docs/slack-plugin-integration.html
+          - title: "Auto-healing Smart XPath"
+            url: /katalon-studio/docs/auto-healing-smart-xpath.html
+          - title: "TestRail Integration"
+            url: /katalon-studio/docs/testrail-integration.html
+          - title: "Test Case Management With Tags"
+            url: /katalon-studio/docs/test-case-management-with-tags.html
+          - title: "Basic Search For Dynamic Test Suite"
+            url: /katalon-studio/docs/basic-search-for-dynamic-querying-test-suite.html
+          - title: "Applitools Integration"
+            url: /katalon-studio/docs/applitools-integration.html
+          - title: "Basic Report"
+            url: /katalon-studio/docs/basic-report.html
+          - title: "Test Suite Collection Scheduler"
+            url: /katalon-studio/docs/test-suite-collection-scheduler.html
+          - title: "TestLink Integration"
+            url: /katalon-studio/docs/testlink-integration.html
+          - title: "Sauce Labs Integration"
+            url: /katalon-studio/docs/saucelabs-plugin.html
+          - title: "Rally Integration"
+            url: /katalon-studio/docs/rally-integration.html
+          - title: "Private Plugins Introduction"
+            url: /katalon-studio/docs/private-plugins.html
       - title: "Extend Katalon Studio"
         tree:
           - title: "Create your first Katalon Studio plugin"
@@ -1195,41 +1195,41 @@ items:
           - title: "Jenkins Integration"
             url: /katalon-studio/docs/jenkins-integration.html
   - title: "Katalon Runtime Engine"
+    tree:
+      - title: "Introduction to Runtime Engine"
+        url: /katalon-studio/docs/intro-RE.html
+      - title: "Install Runtime Engine"
+        url: /katalon-studio/docs/install-RE.html
+      - title: "Activate Runtime Engine"
+        url: /katalon-studio/docs/activate-RE.html
+      - title: "Export Test Results in JUnit Format"
+        url: /katalon-studio/docs/export-test-results-in-junit-format.html
+      - title: "Command Syntax (Command-line/Console Mode Execution)"
+        url: /katalon-studio/docs/console-mode-execution.html
+      - title: "Docker Image"
+        url: /katalon-studio/docs/docker.html
+      - title: "Run with Cloud CIs"
+        url: /katalon-studio/docs/run-cloud-ci.html
+      - title: "Continuous integration with Gitlab"
+        url: /katalon-studio/docs/continuous_integration_gitlab.html
+      - title: "E2E testing integration with CircleCI"
+        url: /katalon-studio/docs/integration-circleci.html
+      - title: "CI/CD Plugins"
         tree:
-          - title: "Introduction to Runtime Engine"
-            url: /katalon-studio/docs/intro-RE.html
-          - title: "Install Runtime Engine"
-            url: /katalon-studio/docs/install-RE.html
-          - title: "Activate Runtime Engine"
-            url: /katalon-studio/docs/activate-RE.html
-          - title: "Export Test Results in JUnit Format"
-            url: /katalon-studio/docs/export-test-results-in-junit-format.html
-          - title: "Command Syntax (Command-line/Console Mode Execution)"
-            url: /katalon-studio/docs/console-mode-execution.html
-          - title: "Docker Image"
-            url: /katalon-studio/docs/docker.html
-          - title: "Run with Cloud CIs"
-            url: /katalon-studio/docs/run-cloud-ci.html
-          - title: "Continuous integration with Gitlab"
-            url: /katalon-studio/docs/continuous_integration_gitlab.html
-          - title: "E2E testing integration with CircleCI"
-            url: /katalon-studio/docs/integration-circleci.html
-          - title: "CI/CD Plugins"
+          - title: "Common Configuration"
+            url: /katalon-studio/docs/common-configuration.html
+          - title: "Jenkins Plugin"
             tree:
-              - title: "Common Configuration"
-                url: /katalon-studio/docs/common-configuration.html
-              - title: "Jenkins Plugin"
-                tree:
-                  - title: "On Windows"
-                    url: /katalon-studio/docs/jenkins-plugin-windows.html
-                  - title: "On Ubuntu"
-                    url: /katalon-studio/docs/jenkins-plugin-ubuntu.html
-              - title: "Bamboo Add-on"
-                url: /katalon-studio/docs/bamboo-addon.html
-              - title: "Azure DevOps Extension"
-                url: /katalon-studio/docs/azure-devops-extension.html
-              - title: "TeamCity Plugin"
-                url: /katalon-studio/docs/teamcity-plugin.html
+              - title: "On Windows"
+                url: /katalon-studio/docs/jenkins-plugin-windows.html
+              - title: "On Ubuntu"
+                url: /katalon-studio/docs/jenkins-plugin-ubuntu.html
+          - title: "Bamboo Add-on"
+            url: /katalon-studio/docs/bamboo-addon.html
+          - title: "Azure DevOps Extension"
+            url: /katalon-studio/docs/azure-devops-extension.html
+          - title: "TeamCity Plugin"
+            url: /katalon-studio/docs/teamcity-plugin.html
   - title: "Katalon Store"
     tree:
       - title: "Overview"
