@@ -1,5 +1,5 @@
 ---
-title: "Install and Setup TestOps On-Premise" 
+title: "Install and Setup TestOps On-Premise"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/testops-op-installation.html 
 description: How to install and setup TestOps On-Premise
@@ -7,10 +7,22 @@ description: How to install and setup TestOps On-Premise
 TestOps On-Premise allows you to access to insightful features of Katalon TestOps for managing automation testing data imported from Katalon Studio in a restricted network environment.
 
 **Prerequisites:**
-* [Install and setup a Postgres Database.]() 
+* Download [Postgres Database](https://www.postgresql.org/download/) capatible with your operating system.
 * Download [TestOps On-Premise installer]() capatible with your operating system.
 
-## Run the installer
+## Install and create PostgreSQL database
+
+1. Run the PostgreSQL installer and follow the wizard setup.
+
+2. After installation, sign in using your username and password.
+
+3. PgAdmin will start up in your browser.
+
+4. Create a kit database.
+
+ ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-op-installation/postgresql-dashboard.png)
+
+## Run the TestOps on-premise installer
 
 1. Run the TestOps OP installer and follow the wizard setup.
 
@@ -18,7 +30,7 @@ TestOps On-Premise allows you to access to insightful features of Katalon TestOp
 
 * **TCP ports** – these are the HTTP connector port and control port TestOps OP will run on. Stick with the default unless you're running another application on the same port. 
 
-* Configure to connect to your PostgreSQL Database with yourusername and password.
+* Configure to connect to your PostgreSQL kit database with your username and password.
 
 2. TestOps OP will start up in your browser once the installation is complete with Activation Screen.
 
@@ -26,7 +38,7 @@ TestOps On-Premise allows you to access to insightful features of Katalon TestOp
 
 3. Copy the **Machine ID** on Activate TestOps screen to generate the license for your machine.
 
-4. Login to TestOps Cloud to generate the offline license for TestOps Om-Premise. Learn more in this [document]().
+4. Login to TestOps Cloud to generate the offline license for TestOps On-Premise. Learn more in this [document]().
 
 5. Import license to the TestOps On-Premise Activation Screen and click **Activate**.
 
@@ -38,4 +50,4 @@ TestOps On-Premise allows you to access to insightful features of Katalon TestOp
 
 8. Now, you are at the TestOps On-Premise Dashboard, and you can start by creating a new organization and inviting your team members to collaborate.
 
-> Note: You need to configure mail server in order to send and receive email notification. [Learn more] ()
+> Note: You need to configure the mail server to send and receive email notification. [Learn more] ()
