@@ -19,5 +19,4 @@ permalink: katalon-studio/docs/mobile-verify-image-present.html
 
     ```java
     boolean isPresent = Mobile.verifyImagePresent("/Users/myaccount/Desktop/image.png")
-    assert isPresent
     ```
