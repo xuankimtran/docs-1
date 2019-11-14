@@ -7,12 +7,16 @@ description: How to install and setup TestOps On-Premise
 TestOps On-Premise allows you to access to insightful features of Katalon TestOps for managing automation testing data imported from Katalon Studio in a restricted network environment.
 
 **Prerequisites:**
-* Download [Postgres Database](https://www.postgresql.org/download/) capatible with your operating system.
+
+* Download [Postgres Database](https://www.postgresql.org/download/) capatible with your operating system. TestOps only supports PostgreSQL from version 11 onwards. 
+
 * Download [TestOps On-Premise installer]() capatible with your operating system.
 
 ## Install and create PostgreSQL database
 
 1. Run the PostgreSQL installer and follow the wizard setup.
+
+* **Database URL** – the JDBC URL for your database.
 
 2. After installation, sign in using your username and password.
 
@@ -29,6 +33,10 @@ TestOps On-Premise allows you to access to insightful features of Katalon TestOp
 * **Destination directory** – this is where TestOps OP will be installed in your machine.
 
 * **TCP ports** – these are the HTTP connector port and control port TestOps OP will run on. Stick with the default unless you're running another application on the same port. 
+
+* **Server URL** - this is the address you will use to access your TestOps OP site.
+
+* **Install as service** - TestOps will install as service.
 
 * Configure to connect to your PostgreSQL kit database with your username and password.
 
