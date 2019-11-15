@@ -1266,8 +1266,6 @@ items:
         url: /katalon-analytics/docs/ka-api-key.html
       - title: "Agents"
         url: /katalon-analytics/docs/agents.html
-      - title: "Grid - TestOps Cloud"
-        url: /katalon-analytics/docs/grid-testops-cloud.html
       - title: "Grid - Local Agents"
         url: /katalon-analytics/docs/grid-local-agents.html
       - title: "Code Repo"
