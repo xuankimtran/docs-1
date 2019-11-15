@@ -488,7 +488,7 @@ items:
           - title: "Test Maintenance"
             tree:
               - title: "Test Objects Refactoring"
-                url: katalon-studio/docs/test-objects-refactoring.html
+                url: /katalon-studio/docs/test-objects-refactoring.html
       - title: "Keywords"
         tree:
           - title: "Web UI Keywords"
@@ -949,10 +949,6 @@ items:
                 url: /katalon-studio/docs/common-concatenate.html
               - title: "[Common] Delay"
                 url: /katalon-studio/docs/common-delay.html
-          - title: "Test Maintenance"
-            tree:
-              - title: "Test Objects Refactoring"
-                url: /katalon-studio/docs/test-objects-refactoring.html
       - title: "Execution and Reporting"
         tree:
           - title: "Test Suite"
