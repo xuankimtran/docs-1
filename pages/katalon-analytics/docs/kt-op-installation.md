@@ -44,7 +44,7 @@ TestOps On-Premise allows you to access to insightful features of Katalon TestOp
 
 3. Copy the **Machine ID** on Activate TestOps screen to generate the license for your machine.
 
-4. Login to TestOps Cloud to generate the offline license for TestOps On-Premise. [Learn more]().
+4. Login to [TestOps Cloud](https://analytics-staging.katalon.com/) to generate the offline license for TestOps On-Premise. [Learn more]().
 
 5. Import license to the TestOps On-Premise Activation Screen and click **Activate**.
 
