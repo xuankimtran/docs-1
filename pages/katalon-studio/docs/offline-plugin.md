@@ -29,7 +29,7 @@ You can learn more about [Private Plugins](https://docs.katalon.com/katalon-stud
 
 > **Note**: Katalon Studio treats all offline and private plugins stored in **<project_name>//plugins** as local plugins. In **Project > Settings > Plugins**, specify where Katalon Studio will download plugins.
 
-### Plugin Repository
+## Plugin Repository
 
 You're allowed to decide where Katalon Studio will download plugins for a project. Go to **Project > Settings > Plugins**, select one of the following options:
 
