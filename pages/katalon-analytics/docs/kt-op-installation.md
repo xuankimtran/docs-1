@@ -16,8 +16,6 @@ TestOps On-Premise allows you to access to insightful features of Katalon TestOp
 
 1. Run the PostgreSQL installer and follow the wizard setup.
 
-* **Database URL** – the JDBC URL for your database.
-
 2. After installation, sign in using your username and password.
 
 3. PgAdmin will start up in your browser.
@@ -34,11 +32,11 @@ TestOps On-Premise allows you to access to insightful features of Katalon TestOp
 
 * **TCP ports** – these are the HTTP connector port and control port TestOps OP will run on. Stick with the default unless you're running another application on the same port. 
 
+* **Database URL** – the JDBC URL for your database.
+
 * **Server URL** - this is the address you will use to access your TestOps OP site.
 
 * **Install as service** - TestOps will install as service.
-
-* Configure to connect to your PostgreSQL kit database with your username and password.
 
 2. TestOps OP will start up in your browser once the installation is complete with Activation Screen.
 
