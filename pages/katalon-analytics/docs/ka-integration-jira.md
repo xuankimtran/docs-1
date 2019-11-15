@@ -1,8 +1,7 @@
 ---
 title: "Integration with Jira" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-
-/docs/ka-integration-jira.html 
+permalink: katalon-analytics/docs/ka-integration-jira.html 
 description: How to integrate Katalon TestOps with Jira
 ---
 ## Overview
