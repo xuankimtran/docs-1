@@ -20,7 +20,7 @@ Katalon TestOps provides seamless integration with Jira that brings several bene
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/jira-ka-configure/1-jira-ka-config.png)
 
-2. Enter the email registered for the Katalon account.
+2. Enter the email registered for your Katalon account.
 
 3. Enter an **[API Key](https://docs.katalon.com/katalon-analytics/docs/api-key.html)**.
 
@@ -32,21 +32,21 @@ Katalon TestOps provides seamless integration with Jira that brings several bene
 
 1. Navigate to **Jira Settings** located in the toolbar of the project page.
 
-2. Enter Jira URL, Username and Password.
+2. Enter Jira URL, Username, and Password.
 
 * Jira Cloud
 
     a. Jira URL must be in the form of _Https://<site_name>.atlassian.net_.\
-    b. Enter your email registered for the Jira Cloud account in Username.\
-    c. Enter an Atlassian Cloud's API token in Password. See the instructions **[here](https://confluence.atlassian.com/cloud/api-tokens-938839638.html)**.
+    b. Enter the email registered for your Jira Cloud account in *Username*.\
+    c. Enter an Atlassian Cloud's API token in *Password*. See the instructions **[here](https://confluence.atlassian.com/cloud/api-tokens-938839638.html)**.
 
 * Jira Server
 
     a. Jira URL must be in the form of _Http(s)://domain_ without any trailing parts e.g., _/secure_.\
-    b. Use your username instead of an email in Username.\
+    b. Use your username instead of an email in *Username*.\
     c. Enter Password.
 
-3. Click Test Connection to see if the connection is successful.
+3. Click **Test Connection** to see if the connection is successful.
 
 4. Click **Save**.
 
@@ -54,7 +54,7 @@ Katalon TestOps provides seamless integration with Jira that brings several bene
 
 ## Work with Jira releases
 
-You can either create release directly in Katalon TestOps or populate existing releases from Jira using buttons **Create Release** or **Populate Jira Releases**, respectively.
+You can either create release directly in Katalon TestOps or populate existing releases from Jira using the **Create Release**, or **Populate Jira Releases** button respectively.
 
 ![](https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/jira-ka-configure/ka-create-release.JPG)
 
@@ -72,45 +72,43 @@ Example of viewing release status in **Jira Cloud**:
 ## Work with Jira issues
 
 You can link existing Jira issues with Test Cases, and Test Runs in Katalon TestOps by following these steps:
-1. Go to Katalon project, under Test Design select a Test Case
 
-2. Click Link button
+1. Go to your project > in **Test Design**, select a Test Case.
 
-3. Type in a Jira issue key under Properties section
+2. Click **Link**.
 
-4. Click check button to see the Jira issue is linked with the Test Case
+3. Enter a Jira issue key under Properties section.
+
+4. Click **Check** to see the Jira issue is linked with the Test Case.
 
 > Note: You can add more than one issue by typing [issue1,issue2,...].
 
 ![](https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/jira-ka-configure/ka-link-jira-issue-with-test-case.JPG)
 
-5. Click to the Jira Issue link to view the details in Jira with any linked Test Case or Test Run
+5. In Jira, view the issue details to see if it's linked with any Test Case or Test Run.
 
 ![](https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/jira-ka-configure/jira-issue-detail-with-linked-test-case.JPG)
 
-You also can directly submit a new Jira issue with Test Run result by using Katalon Plugin installed on your browser.
+You also can directly submit a new Jira issue with Test Run result by using Katalon Plugin installed in your browser.
 
-1. Install the Katalon Integration plugin to your browser. **[Download link](https://chrome.google.com/webstore/detail/katalon-integration/cechonbcopffiimhnkgghckbgipciedg)**
+1. Install the Katalon Integration plugin in your browser. **[Download here](https://chrome.google.com/webstore/detail/katalon-integration/cechonbcopffiimhnkgghckbgipciedg)**.
 
-2. After installation, enable Katalon Plugin
+2. After installation, enable the Katalon Plugin.
 
 ![](https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/jira-ka-configure/katalon-plugin-installed.JPG)
 
-3. Go to Katalon project, under Execution select a Test Runs tab
+3. In Katalon TestOps, go to your project > select **Execution** > select **Test Runs** tab.
 
-4. Select one Test Run by click to the ID
+4. Select a Test Run by clicking its ID.
 
-5. Under the Jira Issue section, click the Create button
-
+5. Under the Jira Issue section, click the **Create** button. You will be navigated to **Jira Project Dashboard** where you can create a new Jira issue.
 
 ![](https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/jira-ka-configure/ka-create-jira-issue.JPG)
 
-6. You will be navigated to Jira Project Dashboard where you can create new Jira issue
-
-7. After you create a Jira Issue, click to view the issue details, you can see a floating icon on the right corner of the screen
+6. In the detailed view of the newly created issue, you can see a floating icon on the bottom right corner.
 
 ![](https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/jira-ka-configure/jira-issue-detail-with-floating-katalon-icon.JPG)
 
-8. Click on the icon so you can go back to the associated Test Run on Katalon TestOps with a Jira issue link attached
+7. Click on the icon to go back to its associated Test Run on Katalon TestOps.
 
 ![](https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/jira-ka-configure/ka-linked-jira-issue-with-test-execution.JPG)
