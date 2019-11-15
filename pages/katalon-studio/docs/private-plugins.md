@@ -1,28 +1,29 @@
 ---
-title: "Private Plugins Introduction"
+title: "Private Plugins"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/private-plugins.html
 ---
 
-> Starting from **Katalon Studio version 7.0.0**, **Katalon Studio Enterprise** allows you to use self-developed plugins, without having to upload to Katalon Store.
+Private plugins are Katalon plugins that are developed for private use. With private plugins supported, you can build, distribute, install, and use your own plugins without publishing them on Store for public access.
 
-You can create private plugins for your organziations or customers and distribute them directly without uploading to Katalon Store. Therefore, you can freely improve your testing capabilities while maintaining the plugins safe in your own prem.
+> **Requirements**:
+>
+> * Your Katalon Studio version must be 7.0 or later.
+> * You need an [active license for Katalon Studio Enterprise](https://docs.katalon.com/katalon-studio/docs/license.html#paid-license).
 
+### Build Private Plugins
 
-### Private plugins
+If you don't know how to build a plugin that can be used in Katalon Studio, please refer to the documents on how to develop [platform plugins](https://docs.katalon.com/katalon-store/docs/publisher/create-plugin.html) and [custom keywords plugins](https://docs.katalon.com/katalon-store/docs/publisher/develop-custom-keywords.html).
 
-**Katalon Studio's private plugins** are only used by those authenticated organizational users and not published on Katalon Store for public use.
+If you have already written custom keywords, then code reuse across projects can be achieved easily by distributing the keywords as plugins. This utility is especially helpful when you need to test a set of products that frequently encounter recurring problems. Before, you would have to copy and paste every custom keyword class from projects to projects. Whenever the implementation of the custom keyword changes, you would need to update that change in all projects. Now, you can deploy and install custom keyword plugins through only a few commands and manual steps.
 
-If you have already written [custom keywords](https://docs.katalon.com/katalon-store/docs/publisher/develop-custom-keywords.html), then code reuse can be achieved easily through distributing the keywords as plugins to new test automation projects. This is especially meaningful when you need to test a set of products that frequently encounters recurring problems. Before, you would have to copy and paste every custom keyword class from projects to projects. Whenever the implementation of the plugin change, you would need to copy and paste the new implementations to all projects. Now, plugin deployment and plugin installation can be done through only a few commands and a few manual steps.
+### Store Private Plugins
 
+You need to store private plugins in **<project_name>//Plugins** for Katalon Studio to treat them as local plugins. There are two types of plugins: *Platform* and *Custom Keyword*. Noticeably, *Platform* plugins need storing in the **Plugins//platform** folder.
 
-### Plugins Folder
+The **Plugins** folder's structure:
 
-Private plugins are stored in a Katalon project, under the Plugins folder. They are treated as local plugins. 
-
-Plugins folder structure:
-
-```
+```groovy
 
 Plugins
 
@@ -47,14 +48,4 @@ Plugins
  |___ Custom keyword plugin n.jar
 ```
 
-> Notes: All [platform plugins](https://github.com/katalon-studio/katalon-studio-platform) should be placed at the Plugins/platform folder while all [Custom Keyword plugins](https://docs.katalon.com/katalon-store/docs/publisher/develop-custom-keywords.html) should be placed at the bottom of the Plugins folder.
-
-### Plugin Repository
-
-You're allowed to choose a Plugin Repository by following this path: **Preferences** > **Katalon** > **Plugins**.
-
-There are three options for you:
-
-* **Katalon Store and Local**: Katalon Studio will install plugins from Katalon Store and the Plugins folder of each project.
-* **Katalon Store**: Katalon Studio will install plugins from Katalon Store only.
-* **Local**: Katalon Studio will install plugins from the Plugins folder only.
+To use private plugins, please refer to [the guide](https://docs.katalon.com/katalon-studio/docs/offline-plugin.html) on how to use plugins offline.
