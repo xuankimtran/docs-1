@@ -7,87 +7,69 @@ redirect_from:
     - "/display/KA/User%20Management/"
     - "/x/lQjR/"
     - "/katalon-analytics/docs/user-management/"
-description: 
+description: How to manage Users at organization and team level
 ---
+Each role has permission at the organization or team level exclusively.
 
-In Katalon Analytics, each user is identified with the same account registered for Katalon Studio. User Management is only available for the *Owner* and *Admins* in an organization.  
+## Invite a user to the organization
 
-## Default Roles
+* Only the organization **Owner** or **Admin** can invite a user to the organization.
+* From Katalon TestOps dashboard, select an organization.
+* From **Users** tab, select **Invitations** tab.
+* Enter an email address and click **Invite**.
+* Copy the activation link and send it to that person.
 
-**In organizational level** 
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/user-management/KT-user-mgt-invitation.png)
 
-* Users are the _Owners_ of their own organizations by default.
-* An _Admin_ is granted by the _Owner_.
-* A _User_ is automatically assigned when a person is first invited to collaborate in an organization.
+The invited person accepts the invitation by clicking the activation link directing to Katalon TestOps and then clicking the name of the organization.
+Before that person accepts the invitation, their email address will be listed in **PENDING INVITATIONS**. Once the person joins the organization, their name and email address will be shown below the **Users** tab with the default User role. 
 
-**In team level**
+The new user can only access projects when added by the team Owner or Admin to a team.
 
-* Organizational admins are the _Owners_ of those teams created by them.
-* A Team _Admin_ is granted by the team _Owner_.
-* A _User_ is automatically assigned when a person is first invited to collaborate in a team.
+> Notes: The Owner/Admin can withdraw the invitation by removing it from **PENDING INVITATIONS**.
 
-## Roles and default permissions
+## Invite a user to the team
 
-**Owner**
+* Only the team **Owner** or **Admin** can invite a user to the team.
 
-* Invite new users to your organization and to collaborate on your projects.
-* Assign *Admin* or *User* roles to new and existing team members.
-* Remove existing *Admins* and *Users* from your organization and projects.
-* Create and delete projects.
-* Upload test results.
+> Note: Only the user in an organization can be invited to a team in that organization. 
 
-**Admin**
+* Select a team, from **Users** tab in a team, select that person's email in the drop-down list and then click **Add** to add a user to a team. 
+* The default role for the invited person is **User**.
 
-* Invite new users to collaborate on your projects.  
-* Assign *Admin* or *User* roles to new and existing team members.
-* Remove existing *Users* from your projects.
-* Create and delete projects.
-* Upload test results.
+## Remove existing user from organization or team
 
-**Users**
+Select your organization/team > from **Users** tab, click the remove icon in the last column and confirm your action in the pop-up. 
 
-* Monitor project progress.
-* Upload test results.
+* The User that is removed from the organization can be re-invited by the Organization Owner or Admin. Refer to *Invite a user to the organization*.
+* The User that is removed from the team can be re-added to work on projects. Refer to *Invite a user to the team*.
 
-## User-related permissions
+## Assign Admin or User role to the existing team member
 
-**Invite a new user**
+The Admin and Owner can reassign the existing Admin and User to a new role. Select your organization/team > from **Users** Tab, click the pencil icon in the last column and then select **Admin** or **User** role in the drop-down list. A user can have different roles in different teams.
 
-Before joining a project, a user is required to join the organization that hosts the project. The invited person is required to have a Katalon account. If the person invited to collaborate on Katalon Analytics projects doesn't have one, an email will be sent to help that person create one.
+## Assign Billing Manager role to the existing team member
 
-_Invite a person to your organization:_
+**Billing Manager** role is only available at the organization level and granted by the organization Owner or Admin. Select your organization > from **Users** Tab, click the pencil icon in the last column and then select **Billing Manager** role in the drop-down list.
 
-* From Katalon Analytics home page, select the organization
-* From __Users Tab__, click __Invitations__
-* Enter an email address and click __Invite__
-* Copy the activation link and send to that person
+## Transfer organization ownership to the existing team member
 
-![User Tab](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/user-management/user%20mgt-invitation.png)
+The Owner and Admin of an organization can transfer the ownership of an Owner to another existing team member. 
 
-The invited person accepts the invitation by clicking the activation link directing to Katalon Analytics and then clicking the name of the organization.
+* Select an organization > select **Users** tab > search for the target user to assign the **Owner** role.
 
-Before that person accepts the invitation, their email address will be listed in __PENDING INVITATIONS__. Once the person joins the organization, their name and email address will be listed below __Users__. The new user is only able to access the projects when added by the Owner or the Admin to a team.
-> Notes: The owner can withdraw the invitation by removing it from __PENDING INVITATIONS__.
+* Click the pencil icon in the last column and then select **Owner** in the drop-down list.
 
-_Invite a user to your team:_
+* Click **Save**.
 
-Only users in an organization can be invited to a team in that organization. Select a team, from __Users Tab__ in a team, select that person's email in drop-down list and then click __Add__ to add a user to a team.
+> Note: Transferring Organization ownership does NOT affect Team ownership. The previous Owner still has full permission as a Team Owner to those teams having been created by them before.
 
-**Remove existing users**
+## Transfer team ownership to the existing team member
 
-From __Users__ Tab, click the remove icon in the last column and confirm your action in the pop-up. The removed user can be re-added to the project if necessary (refer to *Invite a user to a team*)
+The Owner of a team can transfer the ownership to another existing team member. 
 
-**Assign Admin or User roles to new and existing team members**
+* Select a team > under **Users** tab, search for the target user to assign the **Owner** role.
 
-The *Admin* and *Owner* can reassign the existing *Admin* and *User* to a new role. From __Users__ Tab, click the pencil icon in the last column and then select a new role in the drop-down list.
-A user can have different roles in different teams.
+* Click the pencil icon in the last column and then select **Owner** in the drop-down list.
 
-## Project-related permissions
-
-**[Upload test results from Katalon Studio](https://docs.katalon.com/katalon-analytics/docs/katalon-analytics/docs/project-management-import-KS.html)**
-
-**[Upload test results using Command Line](https://docs.katalon.com/katalon-analytics/docs/katalon-analytics/docs/project-management-import-cli.html)**
-
-**[Monitor project progress](https://docs.katalon.com/katalon-analytics/docs/project-management-view-reports.html)**
-
-**[Delete projects](https://docs.katalon.com/katalon-analytics/docs/project-management-delete.html)**
+* Click **Save**.
