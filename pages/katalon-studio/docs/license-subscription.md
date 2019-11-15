@@ -27,3 +27,5 @@ In case you change your mind about the number of licenses, modify your subscript
 1. Log in to [your account on Katalon Store](https://store.katalon.com/account).
 2. Select **Orders**, you can see your subscription details.
 3. Click on the order status. Here you can view order history or cancel the subscription.
+
+> Note: When you cancel your subscription, there is NO refund for the remaining credit of your subscription. 
