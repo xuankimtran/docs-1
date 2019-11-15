@@ -22,5 +22,3 @@ In Katalon TestOps, each user is identified with the same account registered for
 ## **Related Topics**
 
 * [User Management.](https://docs.katalon.com/katalon-analytics/docs/katalon-analytics/docs/user-management.html)
-* [Project Management.](https://docs.katalon.com/katalon-analytics/docs/katalon-analytics/docs/kt-project-management.html)
-* [License and Subscription Management.](https://docs.katalon.com/katalon-analytics/docs/)
