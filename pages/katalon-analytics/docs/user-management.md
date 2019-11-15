@@ -54,7 +54,7 @@ The Admin and Owner can reassign the existing Admin and User to a new role. From
 
 ## Transfer organization ownership to the existing team member
 
-The Owner and Amin of an organization can transfer the ownership of an Owner to another existing team member. 
+The Owner and Admin of an organization can transfer the ownership of an Owner to another existing team member. 
 
 * Select an organization, under **Users** tab and search for the target user to assign the **Owner** role.
 
@@ -66,7 +66,7 @@ The Owner and Amin of an organization can transfer the ownership of an Owner to 
 
 ## Transfer team ownership to the existing team member
 
-The Owner and Amin of a team can transfer the ownership of an Owner to another existing team member. 
+The Owner and Admin of a team can transfer the ownership of an Owner to another existing team member. 
 
 * Select a team, under **Users** tab, and search for the target user to assign the **Owner** role.
 
