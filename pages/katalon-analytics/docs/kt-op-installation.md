@@ -40,7 +40,7 @@ TestOps On-Premise allows you to access to insightful features of Katalon TestOp
 
 2. TestOps OP will start up in your browser once the installation is complete with Activation Screen.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-op-installation/kt-op-license-activation.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-op-installation/kt-op-activation-by-file.png)
 
 3. Copy the **Machine ID** on Activate TestOps screen to generate the license for your machine.
 
