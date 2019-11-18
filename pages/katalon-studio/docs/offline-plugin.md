@@ -21,13 +21,13 @@ To use any plugins published on Store without accessing the Internet, follow the
 2. Select your organization > **Plugins**.
 3. Click **Download** to get your preferred plugin.
 4. Unzip your downloaded plugin package.
-5. Move the plugin package to **<project_name>//plugins**.
+5. Move the plugin package to **<project_name>/plugins**.
 
 ## Using private plugins
 
-You can learn more about [Private Plugins](https://docs.katalon.com/katalon-studio/docs/private-plugins.html) and how to build them. After having developed a plugin successfully, move the plugin to **<project_name>//plugins**.
+You can learn more about [Private Plugins](https://docs.katalon.com/katalon-studio/docs/private-plugins.html) and how to build them. After having developed a plugin successfully, move the plugin to your project folder **<project_name>/plugins**.
 
-> **Note**: Katalon Studio treats all offline and private plugins stored in **<project_name>//plugins** as local plugins. In **Project > Settings > Plugins**, specify where Katalon Studio will download plugins.
+> **Note**: Katalon Studio treats all offline and private plugins stored in your project folder **<project_name>/plugins** as local plugins. In **Project > Settings > Plugins**, specify where Katalon Studio will download plugins.
 
 ## Plugin Repository
 
