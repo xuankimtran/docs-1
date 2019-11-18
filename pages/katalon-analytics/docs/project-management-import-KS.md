@@ -10,6 +10,8 @@ redirect_from:
     - "/katalon-studio/tutorials/upload_test_execution_reports_katalon_analytics.html"
 description:
 ---
+> Note: Katalon Studio version 7.0 supports submitting test results with captured videos to Katalon TestOps.
+
 ## Automatically
 
 1. In Katalon Studio, select **Project > Settings > Katalon TestOps** or click into the **TestOps** icon on the Main Toolbar to open the project setting dialogue.
@@ -28,15 +30,17 @@ description:
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/from-katalon-studio/KS-view-test-result-button.png)
 
-7. You will see the test results under the test case or test suite.
+7. You will see the test results are automatically uploaded into Katalon TestOps.
 
 ## Manually
 
-> Note: Manual upload mode is only available for Katalon Studio version 6.3.3 backward. 
+Even though Katalon Studio supports to upload test results automatically when connects successfully with TestOps, but you can manually upload test results to your target team and project.
 
-1. Navigate to **Home Page** and click on **Katalon TestOps** icon on the top right-hand corner.
+1. In Katalon Studio, you open a test suite, and navigate to the **Result** tab.
 
-![manually](https://user-images.githubusercontent.com/43736150/66178463-aab1c680-e68f-11e9-9347-200d6945f26f.png)
+2. Select **Katalon TestOps**, and click **Upload**.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/from-katalon-studio/ks-upload-test-result.png)
 
 2. When Katalon TestOps dialog pops up, select the team and project you want to upload, then select **Upload**.
 
