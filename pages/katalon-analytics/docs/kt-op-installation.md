@@ -1,16 +1,16 @@
 ---
-title: "Install and Setup TestOps On-Premise"
+title: "Install and Setup TestOps OnPremise"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/testops-op-installation.html 
-description: How to install and setup TestOps On-Premise
+description: How to install and setup TestOps OnPremise
 ---
-TestOps On-Premise allows you to access to insightful features of Katalon TestOps for managing automation testing data imported from Katalon Studio in a restricted network environment.
+TestOps OnPremise allows you to access to insightful features of Katalon TestOps for managing automation testing data imported from Katalon Studio in a restricted network environment.
 
 **Prerequisites:**
 
-* Download [Postgres Database](https://www.postgresql.org/download/) capatible with your operating system. TestOps only supports PostgreSQL from version 11 onwards. 
+* Download [Postgres Database](https://www.postgresql.org/download/) capatible with your operating system. TestOps OnPremise only supports PostgreSQL from version 11 onwards. 
 
-* Download [TestOps On-Premise installer]() capatible with your operating system.
+* Download [TestOps OnPremise installer]() capatible with your operating system.
 
 ## Install and create PostgreSQL database
 
@@ -24,29 +24,29 @@ TestOps On-Premise allows you to access to insightful features of Katalon TestOp
 
  ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-op-installation/postgresql-dashboard.png)
 
-## Run the TestOps on-premise installer
+## Run the TestOps OnPremise installer
 
-1. Run the TestOps OP installer and follow the wizard setup.
+1. Run the KTOP installer and follow the wizard setup.
 
-* **Destination directory** – this is where TestOps OP will be installed in your machine.
+* **Destination directory** – this is where KTOP will be installed in your machine.
 
 * **TCP ports** – these are the HTTP connector port and control port TestOps OP will run on. Stick with the default unless you're running another application on the same port. 
 
 * **Database URL** – the JDBC URL for your database.
 
-* **Server URL** - this is the address you will use to access your TestOps OP site.
+* **Server URL** - this is the address you will use to access your KTOP site.
 
-* **Install as service** - TestOps will install as service.
+* **Install as service** - KTOP will install as service.
 
-2. TestOps OP will start up in your browser once the installation is complete with Activation Screen.
+2. KTOP will start up in your browser once the installation is complete with Activation Screen.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-op-installation/kt-op-activation-by-file.png)
 
-3. Copy the **Machine ID** on Activate TestOps screen to generate the license for your machine.
+3. Copy the **Machine ID** on Activate TestOps OnPremise screen to generate the license for your machine.
 
-4. Login to [TestOps Cloud](https://analytics-staging.katalon.com/) to generate the offline license for TestOps On-Premise. [Learn more]().
+4. Login to [TestOps Cloud](https://analytics-staging.katalon.com/) to generate the offline license for KTOP. [Learn more]().
 
-5. Import license to the TestOps On-Premise Activation Screen and click **Activate**.
+5. Import license to the KTOP Activation Screen and click **Activate**.
 
 6. After activation, you will be asked to create a default account.
 
@@ -54,6 +54,6 @@ TestOps On-Premise allows you to access to insightful features of Katalon TestOp
 
 7. Sign in using the recently created account.
 
-8. Now, you are at the TestOps On-Premise Dashboard, and you can start by creating a new organization and inviting your team members to collaborate.
+8. Now, you are at the TestOps OnPremise Dashboard, and you can start by creating a new organization and inviting your team members to collaborate.
 
 > Note: You need to configure the mail server to send and receive email notification. [Learn more]().
