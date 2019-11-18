@@ -2,9 +2,9 @@
 title: "Configure Mail Server"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/kt-op-mail-server.html 
-description: How to configure mail server on TestOps On-Premise.
+description: How to configure mail server on TestOps OnPremise.
 ---
-TestOps On-Premise is designed exclusively for a restricted network environment, so you have to configure a mail server to send and receive email notifications about:
+TestOps OnPremise is designed exclusively for a restricted network environment, so you have to configure a mail server to send and receive email notifications about:
 
 * Managing users at the organization or team level.
 
@@ -12,7 +12,7 @@ TestOps On-Premise is designed exclusively for a restricted network environment,
 
 ## Configuration steps
 
-1. Go to Katalon TestOps On-Premise. Refer to this [document](https://docs.katalon.com/katalon-analytics/docs/testops-op-installation.html) on how to install and set up TestOps OP.
+1. Go to Katalon TestOps OnPremise. Refer to this [document](https://docs.katalon.com/katalon-analytics/docs/testops-op-installation.html) on how to install and set up TestOps OP.
 
 2. Under an Organization, select **Settings** tab.
 
