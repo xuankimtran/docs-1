@@ -50,23 +50,23 @@ Katalon TestOps provides seamless integration with Jira that brings several bene
 
 4. Click **Save**.
 
-![](https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/jira-ka-configure/2-jira-ka-config.JPG)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/jira-ka-configure/2-jira-ka-config.JPG)
 
 ## Work with Jira releases
 
 You can either create release directly in Katalon TestOps or populate existing releases from Jira using the **Create Release**, or **Populate Jira Releases** button respectively.
 
-![](https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/jira-ka-configure/ka-create-release.JPG)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/jira-ka-configure/ka-create-release.JPG)
 
 In Katalon TestOps, click **Populate Jira Releases** to get all the existing releases from Jira, then link your test run with the populated release. The test run results that you already linked will be shown under the **Release** section in Jira.
 
 Alternatively, in Katalon TestOps, click **Create Release**, select a Jira Project and Jira Release to associate the Katalon’s release with existing Jira’s one, then link your test run with the newly created release so that you can also view the test run results in Jira **Release** section.
 
-![](https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/jira-ka-configure/ka-create-release-2.JPG)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/jira-ka-configure/ka-create-release-2.JPG)
 
 Example of viewing release status in **Jira Cloud**:
 
-![](https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/jira-ka-configure/jira-release-result-example.JPG)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/jira-ka-configure/jira-release-result-example.JPG)
 
 
 ## Work with Jira issues
@@ -83,11 +83,11 @@ You can link existing Jira issues with Test Cases, and Test Runs in Katalon Test
 
 > Note: You can add more than one issue by typing [issue1,issue2,...].
 
-![](https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/jira-ka-configure/ka-link-jira-issue-with-test-case.JPG)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/jira-ka-configure/ka-link-jira-issue-with-test-case.JPG)
 
 5. In Jira, view the issue details to see if it's linked with any Test Case or Test Run.
 
-![](https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/jira-ka-configure/jira-issue-detail-with-linked-test-case.JPG)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/jira-ka-configure/jira-issue-detail-with-linked-test-case.JPG)
 
 You also can directly submit a new Jira issue with Test Run result by using Katalon Plugin installed in your browser.
 
@@ -95,7 +95,7 @@ You also can directly submit a new Jira issue with Test Run result by using Kata
 
 2. After installation, enable the Katalon Plugin.
 
-![](https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/jira-ka-configure/katalon-plugin-installed.JPG)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/jira-ka-configure/katalon-plugin-installed.JPG)
 
 3. In Katalon TestOps, go to your project > select **Execution** > select **Test Runs** tab.
 
@@ -103,7 +103,7 @@ You also can directly submit a new Jira issue with Test Run result by using Kata
 
 5. Under the Jira Issue section, click the **Create** button. You will be navigated to **Jira Project Dashboard** where you can create a new Jira issue.
 
-![](https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/jira-ka-configure/ka-create-jira-issue.JPG)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/jira-ka-configure/ka-create-jira-issue.JPG)
 
 6. In the detailed view of the newly created issue, you can see a floating icon on the bottom right corner.
 
@@ -111,4 +111,4 @@ You also can directly submit a new Jira issue with Test Run result by using Kata
 
 7. Click on the icon to go back to its associated Test Run on Katalon TestOps.
 
-![](https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/jira-ka-configure/ka-linked-jira-issue-with-test-execution.JPG)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/jira-ka-configure/ka-linked-jira-issue-with-test-execution.JPG)
