@@ -58,3 +58,7 @@ WebUI.closeBrowser()
 ```
 
 > Note: The Smart Wait function is only available in Chrome and Firefox.
+
+## Sample Test
+
+[Sample tests](https://github.com/katalon-studio-samples/smart-wait-example-tests) are available for your download.
