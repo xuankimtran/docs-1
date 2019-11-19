@@ -1302,6 +1302,12 @@ items:
             url: /katalon-analytics/docs/ka-integration-jira.html
           - title: "Integration with Jenkins"
             url: /katalon-analytics/docs/ka-integration-jenkins.html
+  - title: "Katalon TestOps OnPremise"
+    tree:
+      - title: "Install and Setup"
+        url: /katalon-analytics/docs/testops-op-installation.html
+      - title: "Configure Mail Server"
+        url: /katalon-analytics/docs/kt-op-mail-server.html
   - title: "Katalon Recorder"
     tree:
       - title: "Overview"
