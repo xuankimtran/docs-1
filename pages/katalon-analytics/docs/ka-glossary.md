@@ -31,7 +31,7 @@ A release can be considered as a milestone of your product. This feature is to e
 
 ### Role
 
-Katalon TestOps (beta) provides a set of default roles that have certain permissions related to user and project management. There are three roles including Owner, Admin, and User with hierarchical capabilities. Especially at the organization level, we have a role called Billing Manager, who has permission to manage subscription. [Learn more] (https://docs.katalon.com/katalon-analytics/docs/kt-user-role-permission.html)
+Katalon TestOps (beta) provides a set of default roles that have certain permissions related to user and project management. There are three roles including Owner, Admin, and User with hierarchical capabilities. Especially at the organization level, we have a role called Billing Manager, who has permission to manage subscription. [Learn more](https://docs.katalon.com/katalon-analytics/docs/kt-user-role-permission.html)
 
 ### Status
 
