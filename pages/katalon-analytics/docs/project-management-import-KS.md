@@ -14,35 +14,33 @@ description:
 
 ## Automatically
 
-1. In Katalon Studio, select **Project > Settings > Katalon TestOps** or click into the **TestOps** icon on the Main Toolbar to open the project setting dialogue.
+1. In Katalon Studio, select **Project > Settings > Katalon TestOps** or click the **TestOps** icon on the Main Toolbar to open the Project Setting dialogue.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/from-katalon-studio/KS-main-toolbar.png)
 
 2. Enter your Katalon account, then click **Connect**.
 
-3.  Enable the integration, and you will be able to select your Team and Project to upload test results.
+3. Enable the integration, and you can select your Team and Project to upload test results.
 
 4. Click **OK** to save the project settings.
 
-5. Select a Test Case or Test Suite.
+5. Open a Test Suite or Test Suite Collection.
 
-6. You will see a button **View Execution History** to access to TestOps directly.
+6. Click **View Execution History** on the top right corner to access Katalon TestOps directly. You can observe the test results are automatically uploaded to Katalon TestOps.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/from-katalon-studio/KS-view-test-result-button.png)
 
-7. You will see the test results are automatically uploaded into Katalon TestOps.
-
 ## Manually
 
-Even though Katalon Studio supports to upload test results automatically when connects successfully with TestOps, but you can manually upload test results to your target team and project.
+You can also upload test results manually to your target team and project.
 
-1. In Katalon Studio, you open a test suite, and navigate to the **Result** tab.
+1. In Katalon Studio, open a Test Suite or Test Suite Collection > navigate to the **Result** tab.
 
 2. Select **Katalon TestOps**, and click **Upload**.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/from-katalon-studio/ks-upload-test-result.png)
 
-2. When Katalon TestOps dialog pops up, select the team and project you want to upload, then select **Upload**.
+2. In the Katalon TestOps dialog, select your target team and project > **Upload**.
 
 ![manually](https://user-images.githubusercontent.com/43736150/66178577-03815f00-e690-11e9-8887-0b36ec35370a.png)
 
