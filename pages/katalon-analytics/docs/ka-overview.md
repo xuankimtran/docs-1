@@ -10,11 +10,11 @@ redirect_from:
     - "/display/KA/"
 description: 
 ---
-## Welcome to Katalon Analytics
+## Welcome to Katalon TestOps
 
-**Katalon Analytics** is a web-based application that provides dynamic perspectives and an insightful look at your automation testing data. You can leverage your automation testing data by transforming and visualizing your data; analyzing test results; and seamlessly integrating with such tools as Katalon Studio and Jira.
+**Katalon TestOps** is a web-based application that provides dynamic perspectives and an insightful look at your automation testing data. You can leverage your automation testing data by transforming and visualizing your data; analyzing test results; and seamlessly integrating with such tools as Katalon Studio and Jira.
 
-Click [here](https://analytics.katalon.com/home) to navigate to **Katalon Analytics**.
+Click [here](https://analytics.katalon.com/home) to navigate to **Katalon TestOps**.
 
 ## Benefits
 
@@ -38,10 +38,10 @@ Click [here](https://analytics.katalon.com/home) to navigate to **Katalon Analyt
 
 ### Defect integration and task system
 
-* Any latest test results can be submitted to your issues and releases in Jira while Katalon Analytics's task system helps you create and track multiple tasks to fix those defects.
+* Any latest test results can be submitted to your issues and releases in Jira while Katalon TestOps' task system helps you create and track multiple tasks to fix those defects.
 
 ### Test design and maintenance
 
 * With test design and test plan features, you can run more test cases more often.
-* You can  maximize your testing capacity with Katalon Analytics' test schedule and flexible hosting infrastructures (Katalon Cloud or your in-house server).
+* You can  maximize your testing capacity with Katalon TestOps' test schedule and flexible hosting infrastructures (Katalon Cloud or your in-house server).
 * Insightful metrics like Age, Same Failures and Flakiness signify and reflect your test quality and reliability.
