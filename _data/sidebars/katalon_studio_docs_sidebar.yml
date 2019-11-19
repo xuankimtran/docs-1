@@ -1290,7 +1290,7 @@ items:
             url: /katalon-analytics/docs/project-management-delete.html
           - title: "Task Management"
             url: /katalon-analytics/docs/project-management-task.html
-       - title: "User Role and Permission"
+      - title: "User Role and Permission"
         url: /katalon-analytics/docs/kt-user-role-permission.html
       - title: "User Management"
         url: /katalon-analytics/docs/user-management.html
