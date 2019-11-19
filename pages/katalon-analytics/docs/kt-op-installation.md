@@ -10,7 +10,7 @@ Katalon TestOps OnPremise (KTOP) allows you to access to insightful features of 
 
 * Download [Postgres Database](https://www.postgresql.org/download/). KTOP only supports PostgreSQL from version 11 onwards. 
 
-* Download [Katalon TestOps OnPremise installer]().
+* Contact [Katalon Sales](mailto:business@katalon.com) team to get the Katalon TestOps OnPremise installer.
 
 You're recommended to get the versions that are compatible with your operating system.
 
