@@ -1,7 +1,7 @@
 ---
 title: "Web Service Testing Samples" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/shopping-cart-prj.html 
+permalink: katalon-studio/docs/web-service-samples.html 
 ---
 
 Web Service Testing sample project is available [here](https://github.com/katalon-studio-samples/web-service-tests).
