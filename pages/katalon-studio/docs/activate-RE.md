@@ -19,6 +19,16 @@ To run KS/KSE with RE, you need to:
 2. In the command generator, generate a command with the auto-filled Katalon API Key and customized information.
 3. Copy and paste the generated command into **Terminal** (for macOS/Linux users) or **Command Prompt** (for Windows users).
 
+1. Open the command prompt and navigate to the folder of Katalon Studio Engine: `katalonc.exe` (Windows), Applications folder (Mac OS), or `katalonc` (Linux) file.
+
+    **macOS:**
+
+    ```groovy
+    cd /Applications/Katalon\ Studio\ Engine.app/Contents/MacOS
+    ```
+
+2. Enter the following syntax to execute automation test:
+
     For example: `katalonc -noSplash -runMode=console -consoleLog -noExit -projectPath="C:\Users\Katalon Studio\Project\YourProject.prj" -retry=0 -testSuitePath="Test Suites/TS_RegressionTest" -browserType="Chrome (headless)" -apiKey=abczxzxz`
 
     > [Katalon API Key](https://docs.katalon.com/katalon-analytics/docs/ka-api-key.html#create-an-api-key) is required for activating RE.
@@ -27,7 +37,7 @@ To run KS/KSE with RE, you need to:
 
 ## With Paid License
 
-For a detailed introduction to our licenses, refer to [this document](https://docs.katalon.com/katalon-studio/docs/license.html).
+For instructions on how to execute Katalon Runtime Engine, refer to [this document](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#execute-katalon-in-cmd).
 
 ### Online License
 
