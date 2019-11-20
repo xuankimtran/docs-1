@@ -1,5 +1,5 @@
 ---
-title: "Shopping Cart Project" 
+title: "Shopping Cart Samples" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/shopping-cart-prj.html 
 ---
@@ -14,14 +14,7 @@ Shopping Cart sample project is available [here](https://github.com/katalon-stud
 
 The sample test cases can call [Custom Keywords](https://docs.katalon.com/katalon-studio/docs/introduction-to-custom-keywords.html) or implement the data-driven testing.
 
-In the test cases calling custom keywords:
-
-- Some functions are defined to be reused many times. Ex: Login, Shop, Checkout...
-- Syntax of a custom keyword:\
-        `@Keyword
-        def static {return type}{functionname}(parameters,parameters...){`\
-        `...`\
-        `}`
+Custom keywords are functions defined to be reused many times, e.g. Login, Shop, Checkout, etc.
 
 In the test cases implementing the data-driven testing: The `getAllData()` function is used for getting all rows and the first column of each row in the data file. Then they're added to the collection and parsed to the product list.
 

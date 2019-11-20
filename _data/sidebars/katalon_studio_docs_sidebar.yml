@@ -150,7 +150,9 @@ items:
               - title: "Shopping Cart Project"
                 url: /katalon-studio/docs/shopping-cart-prj.html
               - title: "Health Care Project"
-                url: /katalon-studio/docs/health-care-prj.html 
+                url: /katalon-studio/docs/health-care-prj.html
+              - title: "Web Service Samples"
+                url: /katalon-studio/docs/web-service-samples.html
       - title: "GUI and Preferences"
         tree:
           - title: "Toolbars and Views"
