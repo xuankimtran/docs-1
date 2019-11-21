@@ -14,6 +14,10 @@ As a solution, Smart Wait is introduced in Katalon Studio version 7.0. It tells 
 > * Your Katalon Studio version must be 7.0 or later.
 > * The Smart Wait function is only available on Chrome and Firefox.
 
+## Sample Tests
+
+[Sample tests](https://github.com/katalon-studio-samples/smart-wait-example-tests) are available for your download.
+
 ## Apply to all elements in a project
 
 Smart Wait is enabled by default in **Project/Settings/Execution**. This default configuration will download the Smart Wait extension automatically and apply Smart Wait to all elements in that project.

@@ -19,7 +19,7 @@ A valid email registration is eligible for a 30-day trial of both KSE and RE. Th
 
 Each trial license can be activated on only one machine at a time. When your trial period expires, you need to subscribe to the paid license of each product to continue using it. Otherwise, the Katalon Studio free license will be automatically activated.
 
-> Notes: KSE and RE trial licenses can only be registered with business emails. Trial licenses do not support KSE offline activation, KSE features, or offline RE.
+> Notes: KSE and RE trial licenses can only be registered with business emails. Trial licenses do not support KSE offline activation, or offline RE.
 
 ### Paid License
 

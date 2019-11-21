@@ -6,48 +6,41 @@ description: "Learn how to execute Web application testing directly on a mobile 
 redirect_from:
     - "/katalon-studio/tutorials/running_application_mobile_browsers.html"
 ---
-What You'll Learn
------------------
-
 Katalon Studio supports executing the same test cases on both desktop browsers and mobile browsers. A test case created via recording, either in manual mode or script mode, on a desktop browser with Katalon Studio can be executed on a mobile browser as well. This tutorial will guide you step by step how to do that.
 
-*   Understand your web application under test (AUT)
-*   Create a test case with Katalon Studio
-*   Execute the test case with mobile browser
+* Understand your web application under test (AUT)
+* Create a test case with Katalon Studio
+* Execute the test case with mobile browsers
 
-What You'll Need
-----------------
+## Requirements
 
-*   Katalon Studio: available for free, running on both Windows and MacOS with a beta Linux support. Visit [Katalon Studio website](https://www.katalon.com/download) to get the latest version.
+* Katalon Studio: running on both Windows and macOS with a beta Linux support. Visit the [Katalon Studio website](https://www.katalon.com/download) to get the latest version.
 
-Before You Dive In
-------------------
+* Verify if your computer meets the [System Requirements](http://docs.katalon.com/display/KD/System+Requirements) of Katalon Studio.
 
-First, you need to verify if your computer meets the [System Requirements](http://docs.katalon.com/display/KD/System+Requirements) of Katalon Studio.
+* A Katalon account to activate this automation tool. If you don't have one, provide your desired username and password to sign up after launching the app.
 
-After launching Katalon Studio, provide your registered username and password to activate this automation tool. The username and password are those used to login to [https://www.katalon.com/](https://www.katalon.com/). If you haven't already, check out [Quick Start](/katalon-studio/tutorials/web/get-started/quick-start/) to familiarize yourself with Katalon Studio.
+* Check out [Quick Start](/katalon-studio/tutorials/web/get-started/quick-start/) to familiarize yourself with Katalon Studio.
 
-Web application testing can be directly executed on a mobile device. To do so, the user needs to connect their devices/emulators into the machine and run the test scripts. We need to make sure that Chrome application (on Android device) and Safari application (on an iOS device) must be installed so that test steps can execute properly.
+Web application testing can be directly executed on a mobile device. To do so, you need to connect your testing devices/emulators to a machine and run test scripts. Make sure Chrome and Safari applications are installed so that test steps can execute properly.
 
-It is not an easy task and requires some knowledge on working with OS, Appium, and the device in use. Many people cannot implement this flow successfully because facing some issues in this task. Please refer to our Mobile Setup guide [for Windows](/x/jwbR) or [for macOS](/x/9AXR) and follow the instructions closely.
+It requires some knowledge of working with OS, Appium, and devices in use. Please refer to our Mobile Setup guide [for Windows](/x/jwbR), or [for macOS](/x/9AXR) for detailed instructions.
 
-Understand your web application under test (AUT)
-------------------------------------------------
+## Understand your web application under test (AUT)
 
 When a smartphone is a must-have for everyone, it is required for a web application to accommodate both desktop browsers and mobile browsers.
 
-Often, a desktop UI and a mobile web UI will vary for the same web application since the screen of a desktop is different from that of a phone (in resolution, size, ratio, for example). Thus, a web application with responsive implementation will be able to adapt to various devices. This might cause a problem during the quality assurance period. The same element in different implementation for desktop and mobile may have different locators, and this fact alone can prevent our test cases from executing correctly on mobile browser.
+Often, a desktop UI and a mobile web UI will vary for the same web application since the screen of a desktop is different from that of a phone (in resolution, size, ratio, for example). Thus, a web application with responsive implementation can adapt to various devices, which might cause a problem during the quality assurance period. The same element in different implementation for desktop and mobile may have different locators, and this fact alone can prevent our test cases from executing correctly on mobile browsers.
 
 Do not stress out when your test cases cannot execute properly on mobile browsers as they do on desktop browsers. Automation testing is all about understanding the AUT (Application Under Test) clearly to find a suitable approach. This practice should be a top priority before we want to continue testing our web application.
 
-Create a test case with Katalon Studio
---------------------------------------
+## Create a test case with Katalon Studio
 
 After understanding your AUT, and you have decided to perform automation testing, let's create a test case with Katalon Studio. Below is the test scenario and how to create the test case in manual mode.
 
 ### Scenario: Login
 
-Step 1: Launch Chrome browser in mobile.
+Step 1: Launch Chrome browser on mobile.
 
 Step 2: Enter valid username and password.
 
@@ -67,15 +60,15 @@ Step 3: Add _Wait for Element Visible_ keyword for button object "Make Appointme
 
 Step 4: Before performing the click action, Verify whether the element is clickable using _Verify Element Clickable_ keyword, pass the object button "Make Appointment."
 
-Step 5: Call _Click_ action to be performed on the "Make Appointment" button
+Step 5: Call _Click_ action to be performed on the "Make Appointment" button.
 
 Step 6: _Wait for Element Visible_ "Login."
 
 Step 7: Add _Verify Element Clickable_ and pass the object as the "Login" button.
 
-Step 8: _Set Text_ for username as "John Doe"
+Step 8: _Set Text_ for the username as "John Doe".
 
-Step 9:  _Set Text_ in the password as "ThisIsNotAPassword"
+Step 9:  _Set Text_ in the password as "ThisIsNotAPassword".
 
 Step 10: Add _Click_ action to be performed on the Login button.
 
@@ -137,23 +130,42 @@ actual_Header = WebUI.getText(findTestObject('Browser Application/text_Header Ma
 'Verify the actual and Expected text'
 WebUI.verifyMatch(actual_Header, 'Make Appointment', false)
  
-'Close the Broswer'
+'Close the Browser'
 WebUI.closeBrowser()
 
 ```
 
 Do not forget to execute the test case in Katalon Studio again to ensure that it works properly.
 
-Execute the test case with mobile browser
------------------------------------------
+## Execute the test case with a mobile browser
 
-Double check again to ensure that the real device is connected, or virtual device is loaded, or cloud device is connected successfully. From Katalon Studio, select the test case and choose to execute with Android/iOS as follows:
+Double-check to ensure that the real device is connected, the virtual device loaded, or cloud device connected successfully. From Katalon Studio, select the test case and choose to execute with Android/iOS as follows:
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/running_application_mobile_browsers/MobileBrowsers3.png)
 
 It may take a while before the browser can be loaded into the device.
 
-See Also
---------
+## Troubleshoot common errors
 
-_For further instructions and help, please refer to [Overview of Documentation](/x/oArR) or [Katalon Forum](https://forum.katalon.com/)_.
+1\. ChromeDriver related error
+
+```groovy
+error: No Chromedriver found that can automate Chrome '<chrome_version>'
+```
+
+To fix this, you have to download ChromeDriver for Appium manually. You’re recommended to get the version that’s compatible with Chrome on your device. Replace the existing ChromeDriver in Appium Directory with the newly downloaded one.
+
+* macOS: go to **/usr/local/lib/node_modules/appium**
+* Windows: go to **C:\Users\<Username>\AppData\Roaming\npm\node_modules\appium**
+
+2\. W3C mode related error
+
+```groovy
+Caused by: org.openqa.selenium.UnsupportedCommandException: unknown command: Cannot call non W3C standard command while in W3C mode
+```
+
+This error is fixed in Katalon Studio version 7.1.0+. Please upgrade for the improvement. Alternatively, you can see a workaround in Katalon forum, click [here](https://forum.katalon.com/t/unable-to-update-chromedriver-on-mac-in-katalon-studio/33958).
+
+## See Also
+
+For further instructions and help, please refer to the [Overview of Documentation](/x/oArR) or [Katalon Forum](https://forum.katalon.com/).

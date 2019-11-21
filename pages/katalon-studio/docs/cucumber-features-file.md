@@ -28,7 +28,7 @@ Let's look at an example of Katalon Demo Cura System ([http://demoaut.katalon.co
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/cucumber-features-file/Screen-Shot-2018-09-06-at-9.00.58-AM.png)
 
-**Sample Features File **
+**Sample Features File**
 
 ```groovy
 #Author: your.email@your.domain.com

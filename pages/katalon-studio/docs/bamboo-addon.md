@@ -2,7 +2,13 @@
 title: "Bamboo Add-on"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/bamboo-addon.html
-    
+redirect_from:
+    - "/katalon-studio/docs/bamboo-plugin/"
+    - "/katalon-studio/docs/bamboo+plugin/"
+    - "/katalon-studio/docs/bamboo%20plugin/"
+    - "/katalon-studio/docs/bamboo-integration/"
+    - "/katalon-studio/docs/bamboo+integration/"
+    - "/katalon-studio/docs/bamboo%20integration/"
 description:
 ---
 The Katalon Studio for Bamboo plugin enables you to download, deploy and execute Katalon Studio tests on Bamboo CI server automatically. Try it free on [Atlassian Marketplace](https://marketplace.atlassian.com/apps/1220235/katalon-studio-for-bamboo). 

@@ -32,11 +32,9 @@ description:
 
 ## Mobile
 
-| Installation | Version on Windows | Version on macOS | Appium | Native App support? | Hybrid App support?(*) | Mobile Browser support? |
-| --- | --- | --- | --- | --- | --- | --- |
-| Android | 6.x, 7.x, 8.x, 9.x | 6.x, 7.x, 8.x, 9.x | 1.12.1 | YES | NO | YES |
-| iOS | Not Available | 9, 10, 11, 12** | 1.12.1 | YES | NO | YES |
+| Installation | Version on Windows | Version on macOS | Appium | Native App support? | Hybrid App support?(*) | Mobile Browser support| Xcode
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Android | 6.x, 7.x, 8.x, 9.x | 6.x, 7.x, 8.x, 9.x | 1.12.1+ | YES | NO | YES |Not Available|
+| iOS | Not Available | 9, 10, 11, 12, 13| 1.12.1+ | YES | NO | YES | 9.4.1 - latest
 
-(*): You can use supported [functions](http://appium.io/docs/en/writing-running-appium/web/hybrid/#automating-hybrid-apps) from Appium to handle it by yourself
-
-(**): With Appium 1.8.2-beta only
+(*): You can use supported [functions](http://appium.io/docs/en/writing-running-appium/web/hybrid/#automating-hybrid-apps) from Appium to handle Hybrid App yourself.
