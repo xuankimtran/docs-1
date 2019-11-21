@@ -22,10 +22,12 @@ In case you change your mind about the number of licenses, modify your subscript
 3. Click **Upgrade** to modify your subscription in terms of the number of licenses. Please be noted that you can only increase the total number of licenses purchased and upgrade from monthly to a yearly subscription, NOT vice versa.
 4. Pay for your order.
 
+> Note: License upgrade does NOT require subscription cancellation. You'll receive a refund for the remaining credit on your subscription.
+
 ## View and Cancel your subscription
 
 1. Log in to [your account on Katalon Store](https://store.katalon.com/account).
-2. Select **Orders**, you can see your subscription details.
+2. Go to **My Account** and under **Orders** tab, you can see your subscription details.
 3. Click on the order status. Here you can view order history or cancel the subscription.
 
-> Note: When you cancel your subscription, there is NO refund for the remaining credit of your subscription. 
+> Note: Subscription cancellation does NOT issue a refund. You're still able to continue using the remaining subscription you have already purchased.
