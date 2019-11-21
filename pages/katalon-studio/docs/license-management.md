@@ -34,12 +34,29 @@ Offline licenses, once generated, cannot be revoked or terminated. The valid per
 
 You need a machine ID to generate an offline license for both KSE and RE.
 
-To view a machine ID:
+### View a machine ID
 
 1. Open **Katalon Studio**
 2. In the **Katalon Studio Activation** window, click **Offline Activation** to view and copy the machine ID.
 
-To generate a license:
+> **Important**: Due to the irrevocable offline license, you can create a testing license to verify if your entered machine ID is correct in version 7.1 and later.
+
+### Create a testing license
+
+1. Go to [Katalon TestOps](https://analytics.katalon.com/home).
+2. Select **Organization > License**.
+3. In the KSE or RE view, select **Create Offline License**.
+4. Enter a machine ID.
+5. Click **Create Testing License**. The newly created testing license is automatically downloaded.
+6. For Runtime Engine, the testing license must be stored in the **license** folder.
+
+* Windows: C:\Users<user_name>.katalon\license
+* Linux: /home/<user_name>/.katalon/license
+* macOS: /Users/<user_name>/.katalon/license
+
+> Note: **.katalon** is a hidden folder.
+
+### Create an offline license
 
 1. Go to [Katalon TestOps](https://analytics.katalon.com/home).
 2. Select **Organization > License**.
