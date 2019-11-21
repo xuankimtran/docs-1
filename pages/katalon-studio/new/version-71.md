@@ -30,7 +30,7 @@ description: Release note 7.1
 
 ### Fixes
 
-* Bug:[Mobile] Cannot run a browser test on Android device using Appium 1.15.0+.
+* Bug: [Mobile] Cannot run a browser test on Android device using Appium 1.15.0+.
 * Bug: Cannot create a new project when failing to read Sample Projects.
 * Bug: Cannot execute test scripts having import paths containing wildcard character (`*`).
 * Bug: Cannot start a browser when running with an iOS simulator.
