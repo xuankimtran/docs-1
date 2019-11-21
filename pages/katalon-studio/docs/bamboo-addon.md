@@ -11,7 +11,7 @@ redirect_from:
     - "/katalon-studio/docs/bamboo%20integration/"
 description:
 ---
-The Katalon Studio for Bamboo plugin enables you to download, deploy and execute Katalon Studio tests on Bamboo CI server automatically. Try it free on [Atlassian Marketplace](https://marketplace.atlassian.com/apps/1220235/katalon-studio-for-bamboo). 
+The Katalon DevOps for Bamboo plugin enables you to download, deploy and execute Katalon Studio tests on Bamboo CI server automatically. Try it free on [Atlassian Marketplace](https://marketplace.atlassian.com/apps/1220235/katalon-devops-for-bamboo). 
 
 Prerequisites
 -------------
