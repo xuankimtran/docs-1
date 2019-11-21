@@ -13,7 +13,7 @@ If you're quite clear about your demand, here's how to subscribe to Katalon lice
 2. [Katalon Store](https://www.katalon.com/pricing/)
 3. [Quote](https://docs.katalon.com/katalon-studio/docs/license-quote.html)
 
-## View and Modify your subscription
+## View and Upgrade your subscription
 
 In case you change your mind about the number of licenses, modify your subscription:
 
