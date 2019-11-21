@@ -1,5 +1,5 @@
 ---
-title: "How to use Katalon plugin for Jenkins on Ubuntu" 
+title: "How to use Katalon DevOps plugin for Jenkins on Ubuntu" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/jenkins-plugin-ubuntu.html 
 description: This article will show you how to use Jenkins plugin on Ubuntu.
@@ -43,9 +43,9 @@ sudo apt install -y xvfb
 
 
 
-## Install Katalon plugin for Jenkins
+## Install Katalon DevOps plugin for Jenkins
 
-Go to _Manage Jenkins > Manage Plugins > Available_ and find Katalon plugin on the list.
+Go to _Manage Jenkins > Manage Plugins > Available_ and find Katalon DevOps plugin on the list.
 
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-ubuntu/Picture1.png)
@@ -61,7 +61,7 @@ The sample Katalon Studio project can be cloned from [Github](https://github.com
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-ubuntu/Picture3.png)
 
-Next, add and configure the build step _Execute Katalon Studio tests_ provided by Katalon plugin for Jenkins.
+Next, add and configure the build step _Execute Katalon Studio tests_ provided by Katalon DevOps plugin for Jenkins.
 
 
 
