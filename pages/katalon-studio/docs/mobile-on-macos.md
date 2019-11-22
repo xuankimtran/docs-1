@@ -87,9 +87,8 @@ Please follow this link: https://brew.sh/.
 
 **Install appium**
 
-* Install NodeJS.
-
-* `npm install -g appium`
+`brew install node`\
+`npm install -g appium`
 
 **Install carthage**
 
