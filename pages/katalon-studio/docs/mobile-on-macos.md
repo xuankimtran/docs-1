@@ -85,7 +85,7 @@ Xcode can be installed via Mac App Store.
 
 Please follow this link: https://brew.sh/.
 
-**Install appium**
+**Install Appium**
 
 `brew install node`\
 `npm install -g appium`
@@ -100,8 +100,8 @@ Please follow this link: https://brew.sh/.
 
 **Install usbmuxd**
 
-`brew install --HEAD usbmuxd`
-`brew unlink usbmuxd`
+`brew install --HEAD usbmuxd`\
+`brew unlink usbmuxd`\
 `brew link usbmuxd`
 
 **Install ios-webkit-debug-proxy**
@@ -110,8 +110,8 @@ Please follow this link: https://brew.sh/.
 
 **Install libimobiledevice**
 
-`brew install --HEAD libimobiledevice`
-`brew unlink libimobiledevice`
+`brew install --HEAD libimobiledevice`\
+`brew unlink libimobiledevice`\
 `brew link libimobiledevice`
 
 **Install WebDriverAgent**
