@@ -155,6 +155,8 @@ items:
                 url: /katalon-studio/docs/health-care-prj.html
               - title: "Web Service Samples"
                 url: /katalon-studio/docs/web-service-samples.html
+              - title: "BDD Samples"
+                url: /katalon-studio/docs/bdd-samples.html
       - title: "GUI and Preferences"
         tree:
           - title: "Toolbars and Views"
