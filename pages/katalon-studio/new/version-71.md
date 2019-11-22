@@ -23,6 +23,7 @@ description: Release note 7.1
 
 ### Changes and Improvements
 
+* Display a progress dialog when adding a bulk number of Test Cases to a Test Suite.
 * Handle SVG elements and add a context menu during Spying to capture objects.
 * [KRE] Improve running multiple projects with multiple sessions concurrently.
 * Support turning off Smart Wait with both global and local settings. [Learn more](https://docs.katalon.com/katalon-studio/docs/webui-smartwait.html).
@@ -37,10 +38,9 @@ description: Release note 7.1
 * Bug: Cannot create a new project when failing to read Sample Projects.
 * Bug: Cannot execute test scripts having import paths containing wildcard character (`*`).
 * Bug: Cannot start a browser when running with an iOS simulator.
-* Bug: NPE when using Katalon Studio for the first time.
+* Bug: NullPointerException when using Katalon Studio for the first time.
 * Bug: Cannot read variables in a custom profile if executing a test suite collection remotely.
 * Bug: Cannot execute test scripts that have Global Variables' names containing the `$` symbol.
 * Bug: An issue related to saving changes in Test Case Variable View.
 * Bug: Katalon Studio does not read proxy configuration during Recording.
 * Bug: Web Recorder simultaneously generates `NavigateToUrl` keyword and action of an element.
-* Bug: Cannot handle adding more than 50 test cases in a test suite.
