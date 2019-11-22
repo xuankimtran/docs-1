@@ -23,6 +23,7 @@ description: Release note 7.1
 
 ### Changes and Improvements
 
+* Handle SVG elements and add a context menu during Spying to capture objects.
 * [KRE] Improve running multiple projects with multiple sessions concurrently.
 * Smart Wait extension is not installed when disabled in Project Settings. [Learn more](https://docs.katalon.com/katalon-studio/docs/webui-smartwait.html).
 * [Web Service] Support redirection in POST request and 308 status code.
@@ -30,7 +31,9 @@ description: Release note 7.1
 
 ### Fixes
 
-* Bug:[Mobile] Cannot run a browser test on Android device using Appium 1.15.0+.
+* Bug: Test Suite result is incorrect if a called test case gets failed when *log test steps* is disabled.
+* Bug: Web Recorder does not generate XPath locators for SVG elements.
+* Bug: [Mobile] Cannot run a browser test on Android device using Appium 1.15.0+.
 * Bug: Cannot create a new project when failing to read Sample Projects.
 * Bug: Cannot execute test scripts having import paths containing wildcard character (`*`).
 * Bug: Cannot start a browser when running with an iOS simulator.
