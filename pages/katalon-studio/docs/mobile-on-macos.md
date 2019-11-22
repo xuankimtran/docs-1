@@ -11,21 +11,21 @@ redirect_from:
 description: 
 ---
 
-## Katalon Studio Supported Environment on macOS
+## Supported Environments on macOS
 
 * Appium: 1.12.1 onwards
 * Android: 6.x onwards
 * iOS: 9.x onwards
 
-> Attention
-> 
-> Some emulators have already supported Appium through their installations. Thus, if you want to run an application on an emulator, check you emulator's settings before proceeding with Appium installation.
+> **Note**:
+>
+> Some emulators have already supported Appium through their installations. Thus, if you want to run an application on an emulator, check your emulators' settings before proceeding with the Appium installation.
 
 ## Android
 
 ### Required components
 
-If you want to test an Android application on your local device. You will need to install [Appium](http://appium.io). The basic steps are:
+If you want to test an Android application on your local device, you need to install [Appium](http://appium.io). The basic steps are:
 
 * Install NodeJS
 
@@ -59,7 +59,7 @@ For more information on how to run a test suite, check out the documentation [he
 
 * Appium v1.12.1 or newer
 * Xcode 10.2 or newer
-* Command line tool for Xcode
+* Command-line tool for Xcode
 * Carthage 0.33 or newer
 * ios-deploy 1.9.4 or newer
 * ios-webkit-debug-proxy 1.8.4 or newer
@@ -73,21 +73,23 @@ We recommend you to refer to the official documentation of each component for th
 
 **Install Xcode**
 
-Xcode can be install via Mac App Store.
+Xcode can be installed via Mac App Store.
 
-**Install Xcode command line tool**
+**Install Xcode command-line tool**
 
-Please follow this link: http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/.
+`xcode-select --install`\
+`sudo xcode-select -s`\
+`/Applications/Xcode.app/Contents/Developer`
+
+**Install homebrew**
+
+Please follow this link: https://brew.sh/.
 
 **Install appium**
 
 * Install NodeJS.
 
 * `npm install -g appium`
-
-**Install homebrew**
-
-Please follow this link: https://brew.sh/.
 
 **Install carthage**
 
@@ -121,7 +123,7 @@ Please follow these links:
 
 * [WebDriverAgent project page](https://github.com/facebook/WebDriverAgent)
 
-Additionally, if you want to test iOS applications, you will need to download the packages below (which have been linked to their respective setting up instructions):
+Additionally, if you want to test iOS applications, you will need to download the packages below (which have been linked to their corresponding setting up instructions):
 
 ### Setting up the devices
 
@@ -143,18 +145,17 @@ Open **Xcode** and navigate to **Window/Devices**
 
 Choose your device from the Devices list.
 
-Press the "+" button and choose you application file.
+Press the "+" button and choose your application file.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/image2016-8-8-143A313A5.png)
 
-If installed successfully, the application will appear in the Installed Apps section as shown below.  
+If installed successfully, the application will appear in the Installed Apps section, as shown below.  
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/image2016-8-8-143A313A14.png)
 
-
 ## Finishing Steps
 
-Once setting up successfully, follow the following guides to perform mobile testing in Katalon Studio
+Once setting up successfully, follow the following guides to perform mobile testing in Katalon Studio:
 
 *   [Record Mobile Utility](/display/KD/Record+Mobile+Utility)
 *   [Spy Mobile Utility](/display/KD/Spy+Mobile+Utility)
