@@ -23,6 +23,7 @@ description: Release note 7.1
 
 ### Changes and Improvements
 
+* Auto-healing Smart Xpath becomes a built-in feature of Katalon Studio Enterprise. For standard Katalon Studio users who have already subscribed to this plugin, please contact Katalon team via business@katalon.com.
 * Display a progress dialog when adding a bulk number of Test Cases to a Test Suite.
 * Handle SVG elements and add a context menu during Spying to capture objects.
 * [KRE] Improve running multiple projects with multiple sessions concurrently.
