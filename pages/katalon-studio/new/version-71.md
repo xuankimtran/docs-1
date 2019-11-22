@@ -25,7 +25,7 @@ description: Release note 7.1
 
 * Handle SVG elements and add a context menu during Spying to capture objects.
 * [KRE] Improve running multiple projects with multiple sessions concurrently.
-* Smart Wait extension is not installed when disabled in Project Settings. [Learn more](https://docs.katalon.com/katalon-studio/docs/webui-smartwait.html).
+* Support turning off Smart Wait with both global and local settings. [Learn more](https://docs.katalon.com/katalon-studio/docs/webui-smartwait.html).
 * [Web Service] Support redirection in POST request and 308 status code.
 * Tips: You're recommended to open large HAR files with other tools than Katalon Studio or keep those files not too large for Katalon Studio to read it.
 
