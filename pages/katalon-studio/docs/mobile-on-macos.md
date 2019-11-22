@@ -78,8 +78,7 @@ Xcode can be installed via Mac App Store.
 **Install Xcode command-line tool**
 
 `xcode-select --install`\
-`sudo xcode-select -s`\
-`/Applications/Xcode.app/Contents/Developer`
+`sudo xcode-select -s /Applications/Xcode.app/Contents/Developer`
 
 **Install homebrew**
 
