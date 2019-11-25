@@ -13,6 +13,12 @@ If you're quite clear about your demand, here's how to subscribe to Katalon lice
 2. [Katalon Store](https://www.katalon.com/pricing/)
 3. [Quote](https://docs.katalon.com/katalon-studio/docs/license-quote.html)
 
+After successfully subscribing to a Katalon license, please make sure to deactivate and activate your Katalon account to let the Katalon license take effect.
+
+## Subscription Renewal
+
+Your subscription will be automatically renewed on a specific day. This information is included in the Order Confirmation email. You're not being charged if you cancel your subscription before the day.
+
 ## View and Upgrade your subscription
 
 In case you change your mind about the number of licenses, modify your subscription:
@@ -27,7 +33,7 @@ In case you change your mind about the number of licenses, modify your subscript
 ## View and Cancel your subscription
 
 1. Log in to [your account on Katalon Store](https://store.katalon.com/account).
-2. Go to **My Account** and under **Orders** tab, you can see your subscription details.
+2. Go to **My Account**, and under the **Orders** tab, you can see your subscription details.
 3. Click on the order status. Here you can view order history or cancel the subscription.
 
 > Note: Subscription cancellation does NOT issue a refund. You're still able to continue using the remaining subscription you have already purchased.
