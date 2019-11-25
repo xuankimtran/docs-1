@@ -5,6 +5,8 @@ items:
         url: /katalon-studio/docs/license.html
       - title: "Katalon License Subscription"
         url: /katalon-studio/docs/license-subscription.html
+      - title: "Subscription via Katalon Website"
+        url: /katalon-studio/docs/subscription-kstore.html
       - title: "Subscription via Katalon TestOps"
         url: /katalon-studio/docs/license-KT.html
       - title: "Subscription via PO"

@@ -10,6 +10,7 @@ If you have no idea what a Katalon license is, read [here](https://docs.katalon.
 If you're quite clear about your demand, here's how to subscribe to Katalon licenses yourself with different methods:
 
 1. [Katalon TestOps](https://docs.katalon.com/katalon-studio/docs/license-KT.html)
+2. [Katalon Website](https://docs.katalon.com/katalon-studio/docs/subscription-kstore.html)
 2. [Katalon Store](https://www.katalon.com/pricing/)
 3. [Quote](https://docs.katalon.com/katalon-studio/docs/license-quote.html)
 
