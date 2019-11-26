@@ -15,6 +15,8 @@ items:
         url: /katalon-studio/docs/license-quote.html
       - title: "Katalon License Management"
         url: /katalon-studio/docs/license-management.html
+      - title: "Session Termination Causes"
+        url: /katalon-studio/docs/session-termination.html
   - title: "Katalon Studio Enterprise"
     tree:
       - title: "Get Started"
