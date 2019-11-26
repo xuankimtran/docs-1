@@ -1236,6 +1236,10 @@ items:
             url: /katalon-studio/docs/azure-devops-extension.html
           - title: "TeamCity Plugin"
             url: /katalon-studio/docs/teamcity-plugin.html
+      - title: "Troubleshoot"
+        tree:
+          - title: "joptsimple.IllegalOptionSpecificationException: $ is not a legal option character"
+            url: /katalon-studio/docs/troubleshoot-globalvariable-special-character.html
   - title: "Katalon Store"
     tree:
       - title: "Overview"
