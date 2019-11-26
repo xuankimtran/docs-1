@@ -5,6 +5,8 @@ items:
         url: /katalon-studio/docs/license.html
       - title: "Katalon License Subscription"
         url: /katalon-studio/docs/license-subscription.html
+      - title: "Subscription via Katalon Website"
+        url: /katalon-studio/docs/subscription-kstore.html
       - title: "Subscription via Katalon TestOps"
         url: /katalon-studio/docs/license-KT.html
       - title: "Subscription via PO"
@@ -21,6 +23,8 @@ items:
             url: /katalon-studio/docs/overview.html
           - title: "What's new"
             tree:
+              - title: "Version 7.1"
+                url: /katalon-studio/new/version-71.html
               - title: "Version 7.0"
                 url: /katalon-studio/new/version-70.html
               - title: "Version 6.3.3"
@@ -153,6 +157,8 @@ items:
                 url: /katalon-studio/docs/health-care-prj.html
               - title: "Web Service Samples"
                 url: /katalon-studio/docs/web-service-samples.html
+              - title: "BDD Samples"
+                url: /katalon-studio/docs/bdd-samples.html
       - title: "GUI and Preferences"
         tree:
           - title: "Toolbars and Views"
@@ -1306,6 +1312,8 @@ items:
             url: /katalon-analytics/docs/ka-integration-jenkins.html
   - title: "Katalon TestOps OnPremise"
     tree:
+      - title: "Overview"
+        url: /katalon-analytics/docs/ktop-overview.html
       - title: "Install and Setup"
         url: /katalon-analytics/docs/testops-op-installation.html
       - title: "Configure Mail Server"

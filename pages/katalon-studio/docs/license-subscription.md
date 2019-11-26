@@ -10,10 +10,17 @@ If you have no idea what a Katalon license is, read [here](https://docs.katalon.
 If you're quite clear about your demand, here's how to subscribe to Katalon licenses yourself with different methods:
 
 1. [Katalon TestOps](https://docs.katalon.com/katalon-studio/docs/license-KT.html)
+2. [Katalon Website](https://docs.katalon.com/katalon-studio/docs/subscription-kstore.html)
 2. [Katalon Store](https://www.katalon.com/pricing/)
 3. [Quote](https://docs.katalon.com/katalon-studio/docs/license-quote.html)
 
-## View and Modify your subscription
+After successfully subscribing to a Katalon license, please make sure to deactivate and activate your Katalon account to let the Katalon license take effect.
+
+## Subscription Renewal
+
+Your subscription will be automatically renewed on a specific day. This information is included in the Order Confirmation email. You're not being charged if you cancel your subscription before the day.
+
+## View and Upgrade your subscription
 
 In case you change your mind about the number of licenses, modify your subscription:
 
@@ -22,10 +29,12 @@ In case you change your mind about the number of licenses, modify your subscript
 3. Click **Upgrade** to modify your subscription in terms of the number of licenses. Please be noted that you can only increase the total number of licenses purchased and upgrade from monthly to a yearly subscription, NOT vice versa.
 4. Pay for your order.
 
+> Note: License upgrade does NOT require subscription cancellation. You'll receive a refund for the remaining credit on your subscription.
+
 ## View and Cancel your subscription
 
 1. Log in to [your account on Katalon Store](https://store.katalon.com/account).
-2. Select **Orders**, you can see your subscription details.
+2. Go to **My Account**, and under the **Orders** tab, you can see your subscription details.
 3. Click on the order status. Here you can view order history or cancel the subscription.
 
-> Note: When you cancel your subscription, there is NO refund for the remaining credit of your subscription. 
+> Note: Subscription cancellation does NOT issue a refund. You're still able to continue using the remaining subscription you have already purchased.

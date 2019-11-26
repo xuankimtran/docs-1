@@ -4,14 +4,11 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/new/version-70.html
 redirect_from:
     - "/katalon-studio/new/version-70/"
-    - "/katalon-studio/new/"
-    - "/display/KD/Release+Notes/"
-    - "/display/KD/Release%20Notes/"
-    - "/katalon-studio/new/all-versions.html"
+
 description: Release note 7.0
 ---
 
-## Version 7.0.0-7.0.6
+## Version 7.0.0- 7.0.10
 
 > **Katalon Studio 7.0** is currently available. Click [here](https://www.katalon.com/download/) to download.
 

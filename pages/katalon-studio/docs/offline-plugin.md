@@ -1,5 +1,5 @@
 ---
-title: "Use Plugins Offline"
+title: "Use Plugins Offline (Use Plugins with KSE License)"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/offline-plugin.html
 ---

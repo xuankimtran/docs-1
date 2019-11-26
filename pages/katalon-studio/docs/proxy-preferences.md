@@ -16,6 +16,7 @@ In the Proxy Settings, you can select one of three options below.
 
 * **No proxy**: there's no proxy.
 * **Use system proxy configuration**: Katalon Studio tries to guess which proxy server your system is behind and sync with this setting.
+    > Notes: Proxy auto-config (PAC) file is supported in version 7.1 and later. You need to select **Use system proxy configuration** to utilize a PAC file.
 * **Manual proxy configuration**: you can manually set up your proxy.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/proxy.png" width="671" height="532">
