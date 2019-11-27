@@ -36,7 +36,7 @@ For offline environments, any license of the KSE **annual** subscription can be 
 
 #### For Runtime Engine
 
-KRE license can be a node-locked/floating license. When running from the command-line interface (CLI), one working session accounts for one license equals to a conducted process.
+KRE license can be a node-locked/floating license. When running from the command-line interface (CLI), one working session accounting for one license equals to a conducted process.
 
 > Learn more about [KRE](/katalon-studio/docs/intro-RE)
 
