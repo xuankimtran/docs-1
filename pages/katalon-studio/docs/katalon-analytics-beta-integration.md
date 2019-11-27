@@ -6,16 +6,12 @@ redirect_from:
     - "/display/KD/Katalon+Analytics+%28Beta%29+Integration/"
     - "/display/KD/Katalon%20Analytics%20%28Beta%29%20Integration/"
     - "/x/KRhO/"
-    - "/katalon-studio/docs/katalon-analytics-beta-integration/"
     - "/display/KA/Integration+with+Katalon+Studio/"
     - "/display/KA/Integration%20with%20Katalon%20Studio/"
     - "/katalon-analytics/docs/integration-with-katalon-studio/"
-    - "/katalon-analytics/docs/integration%20with%20katalon%20studio/"
-    - "/katalon-analytics/docs/integration+with+katalon+studio/"
-    - "/katalon-analytics/docs/integration+with+katalon+studio.html"
-    - "/katalon-analytics/docs/ka+integration+katalon+studio/"
-    - "/katalon-analytics/docs/ka%20integration%20katalon%20studio/"
     - "/katalon-analytics/docs/ka-integration-katalon-studio/"
+    - "/katalon-analytics/docs/integration-with-katalon-studio.html"
+    - "/katalon-analytics/docs/ka-integration-katalon-studio.html"
     - "/x/mw3R/"
 description: 
 ---
