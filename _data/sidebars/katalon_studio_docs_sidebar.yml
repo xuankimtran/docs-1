@@ -1220,8 +1220,6 @@ items:
         url: /katalon-studio/docs/run-cloud-ci.html
       - title: "Continuous integration with Gitlab"
         url: /katalon-studio/docs/continuous_integration_gitlab.html
-      - title: "E2E testing integration with CircleCI"
-        url: /katalon-studio/docs/integration-circleci.html
       - title: "CI/CD Plugins"
         tree:
           - title: "Common Configuration"
@@ -1238,6 +1236,8 @@ items:
             url: /katalon-studio/docs/azure-devops-extension.html
           - title: "TeamCity Plugin"
             url: /katalon-studio/docs/teamcity-plugin.html
+          - title: "Integration with CircleCI (Katalon Orb)"
+            url: /katalon-studio/docs/integration-circleci.html
       - title: "Troubleshoot"
         tree:
           - title: "joptsimple.IllegalOptionSpecificationException: $ is not a legal option character"
