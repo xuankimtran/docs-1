@@ -9,20 +9,23 @@ redirect_from:
     - "/katalon-studio/docs/proxy-preferences/"
 description: 
 ---
-
 Proxy can be configured at: **Katalon Studio> Preferences > Katalon > Proxy**. This setting affects both WebUI and WebService testings.
 
 In the Proxy Settings, you can select one of three options below.
 
 * **No proxy**: there's no proxy.
-* **Use system proxy configuration**: Katalon Studio tries to guess which proxy server your system is behind and sync with this setting.
+
+* **Use system proxy configuration**: Katalon Studio guesses which proxy server your system is behind by checking Java, browser and operating system settings, and environment variables.
+
+  > Notes: Proxy auto-config (PAC) file is supported in version 7.1 and later. You need to select **Use system proxy configuration** to utilize a PAC file.
+
 * **Manual proxy configuration**: you can manually set up your proxy.
+  * Address: a HTTP Proxy host.
+  * Port: a HTTP Proxy port.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/proxy.png" width="671" height="532">
 
-> If you're behind a Proxy Server, you'll need to configure the proxy settings before activating Katalon Studio. Click Config Proxy at the bottom of the Activation dialog box.
->
-> ![Config Proxy](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/image2017-7-2-213A403A23.png)
+> If you're behind a Proxy Server, you'll need to configure the proxy settings before activating Katalon Studio. Click **Config Proxy** at the bottom of the Activation dialog box.
 
 ## Pass proxy details through the script
 
