@@ -20,6 +20,8 @@ Follow these steps to purchase licenses:
 
 After successfully paying for your order, you can manage your orders on Katalon Store and manage your licenses on Katalon TestOps. For managing, creating, and assigning your licenses, please refer to [this documentation](https://docs.katalon.com/katalon-studio/docs/license-management.html).
 
+> Notes:
+>
 > If you don't have a Katalon account, you need to sign up after clicking **Subcribe**. An organization is automatically created on Katalon TestOps (this is where you manage subscribed licenses) and you're the Owner by default.
 >
 > Only the Organization Owners/ Admins/ Billing Managers can subscribe to licenses. [Learn more about user and role management](https://docs.katalon.com/katalon-analytics/docs/user-management.html).
