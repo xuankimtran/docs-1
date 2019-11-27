@@ -65,6 +65,7 @@ pipeline {
             post {
                 success {
                     withAWS(region: 'us-east-1', credentials: 'aws-docs-staging') {
+                        s3Delete(bucket:'docs.katalon.com', path:'')
                         s3Upload(file:'_site', bucket:'docs.katalon.com', path:'', acl:'PublicRead')
                         cfInvalidate(distribution:'E39AGUOIPSZ2OA', paths:['/*'])
                     }

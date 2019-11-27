@@ -22,6 +22,7 @@ You need the native OpenCV library in nodejs. Install [opencv4nodejs](https://ww
 
 1. Download and install [CMake](https://cmake.org/download/).
 2. Add CMake binary folder to PATH in Environment Variables.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-image-based-testing.md/cmake-windows.png" width="" height="">
 3. Run the following commands
 
 ```bash

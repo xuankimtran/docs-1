@@ -11,6 +11,8 @@ Starting 5.3, Katalon Studio has allowed users to set default Web Locator in **
 
 This setting helps the user eliminate the repetitive tasks of selecting/deselecting locators for each captured objects while recording or spying the AUT. The locators in this setting will be applied to all captured objects in [Record](/display/KD/Record+Web+Utility) and [Spy](/display/KD/Spy+Web+Utility) Web. 
 
+> Requirement: You need to have an active Katalon Studio Enterprise License.
+
 Web Locators Settings
 ---------------------
 

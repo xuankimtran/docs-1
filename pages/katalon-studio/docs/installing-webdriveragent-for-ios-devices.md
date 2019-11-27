@@ -22,14 +22,14 @@ description:
 
   - Appium 1.15.0+
     ```groovy
-    brew install carthage
     cd /usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent
-    carthage bootstrap
+    mkdir -p Resources/WebDriverAgent.bundle
+    sh ./Scripts/bootstrap.sh -d
     ```
 
   - Appium 1.14.2 or older versions
     ```groovy
-    cd /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent
+    cd /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/webdriveragent
     mkdir -p Resources/WebDriverAgent.bundle
     sh ./Scripts/bootstrap.sh -d
     ```

@@ -61,14 +61,14 @@ Offline license is only available for annual subscription. The valid period for 
 
 1. In [Katalon TestOps](https://analytics.katalon.com/home), go to **Organization > License > Runtime Engine**.
 2. Create an offline license with a computer ID that can be viewed in the Katalon Studio Activation window. The computer registered with Katalon Server is added to the **Registered Machines** list.
-3. Download the offline license and put it in the `license` folder. For Runtime Engine, one machine can run multiple parallel sessions simultaneously by putting multiple licenses in the `license` folder.
+3. Download the offline license and put it in the **license** folder. For Runtime Engine, one machine can run multiple sessions in parallel by putting multiple licenses in the **license** folder.
 
-For Windows users: **C:\Users\<user_name>\.katalon\license**
+* Windows: **C:\Users\<user_name>\.katalon\license**
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/activate-RE/license.png" width="" height="">
 
-For Linux users: **/home/<user_name>/.katalon/license**
+* Linux: **/home/<user_name>/.katalon/license**
 
-For Mac users: **/Users/<user_name>/.katalon/license**
+* macOS: **/Users/<user_name>/.katalon/license**
 
-> Note: The `.katalon` folder is a hidden folder.
+> Note: **.katalon** is a hidden folder.

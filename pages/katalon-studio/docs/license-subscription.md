@@ -5,42 +5,35 @@ permalink: katalon-studio/docs/license-subscription.html
 description:
 ---
 
-## Subscribe to KSE/RE Licenses via Quote created by Katalon Sales team
+If you have no idea what a Katalon license is, read [here](https://docs.katalon.com/katalon-studio/docs/license.html). After reading that document, you still don't know which license and how many licenses to subscribe to, contact our sales team via business@katalon.com.
 
-You need to send an email to our Sales team. They will create a quote with the details agreed by both parties and send it to you for payment. The created quote should be in the format `https://store.katalon.com/quote/review?email=<youremail>%40<yourdomain.com>&numOfKSELicenses=<numberoflicenses>`.
+If you're quite clear about your demand, here's how to subscribe to Katalon licenses yourself with different methods:
 
->Note: The email that the Katalon Sales team has created a quote for will be granted the purchased subscriptions. All payment documents will be sent to this email.
+1. [Katalon TestOps](https://docs.katalon.com/katalon-studio/docs/license-KT.html)
+2. [Katalon Website](https://docs.katalon.com/katalon-studio/docs/subscription-kstore.html)
+3. [Quote](https://docs.katalon.com/katalon-studio/docs/license-quote.html)
 
-After successfully making the payment, follow these steps to start using your purchased licenses:
+After successfully subscribing to a Katalon license, please make sure to deactivate and activate your Katalon account to let the Katalon license take effect.
 
-1. Log in to [Katalon TestOps](https://analytics.katalon.com/home) with this email. If you don’t have an account, register [here](https://www.katalon.com/sign-up/).
+## Subscription Renewal
 
-    >Note: This email is granted the Billing Manager role by default. Learn more about [User and Role management](https://docs.katalon.com/katalon-analytics/docs/user-management.html#roles-and-default-permissions) in Katalon TestOps.
+Your subscription will be automatically renewed on a specific day. This information is included in the Order Confirmation email. You're not being charged if you cancel your subscription before the day.
 
-2. Go to your user page > **Unassigned Subscriptions** > Assign the licenses for organizations. If you have no organizations, create one (go to Katalon TestOps home page > click **Create Organization**.)
+## View and Upgrade your subscription
 
-For managing, creating, and assigning your licenses, please refer to [this documentation](https://docs.katalon.com/katalon-studio/docs/license-management.html).
-
-## Subscribe to KSE/RE Licenses via Katalon TestOps
-
-You can purchase a Katalon license via Katalon TestOps.
+In case you change your mind about the number of licenses, modify your subscription:
 
 1. Log in to [Katalon TestOps](https://analytics.katalon.com/home).
-2. Go to **Organization** > **Subscriptions**.
-3. Choose your desired product and subscription model.
-4. Make payment.
+2. Select your **Organization** > **Subscription**. Only the Owner and Billing Manager can access the Subscription view.
+3. Click **Upgrade** to modify your subscription in terms of the number of licenses. Please be noted that you can only increase the total number of licenses purchased and upgrade from monthly to a yearly subscription, NOT vice versa.
+4. Pay for your order.
 
-## Subscribe to KSE/RE Licenses via PO
+> Note: License upgrade does NOT require subscription cancellation. You'll receive a refund for the remaining credit on your subscription.
 
-If you have successfully subscribed to KSE and RE via Purchase Order (PO) method, the licenses are generated and added to your account by the Katalon team.
+## View and Cancel your subscription
 
-Every Katalon license is associated with an Organization in Katalon TestOps. Please follow these steps to complete the subscription process:
+1. Log in to [your account on Katalon Store](https://store.katalon.com/account).
+2. Go to **My Account**, and under the **Orders** tab, you can see your subscription details.
+3. Click on the order status. Here you can view order history or cancel the subscription.
 
-1. Log in to [Katalon TestOps](https://analytics.katalon.com/home) with your registered Katalon account.
-2. Create a new Organization (when creating an organization, you're automatically granted the Owner role).
-3. Navigate to the newly created Organization.
-4. Send the Organization's URL containing its ID to the Katalon team.
-
-Once having confirmed our receipt of your Organization’s URL, we will grant the purchased licenses to your organization within 24 business hours.
-
-For managing, creating and assigning your licenses, please refer to [this documentation](https://docs.katalon.com/katalon-studio/docs/license-management.html).
+> Note: Subscription cancellation does NOT issue a refund. You're still able to continue using the remaining subscription you have already purchased.
