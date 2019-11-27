@@ -11,7 +11,6 @@ If you're quite clear about your demand, here's how to subscribe to Katalon lice
 
 1. [Katalon TestOps](https://docs.katalon.com/katalon-studio/docs/license-KT.html)
 2. [Katalon Website](https://docs.katalon.com/katalon-studio/docs/subscription-kstore.html)
-2. [Katalon Store](https://www.katalon.com/pricing/)
 3. [Quote](https://docs.katalon.com/katalon-studio/docs/license-quote.html)
 
 After successfully subscribing to a Katalon license, please make sure to deactivate and activate your Katalon account to let the Katalon license take effect.
