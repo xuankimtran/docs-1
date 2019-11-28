@@ -19,7 +19,9 @@ description:
 
 > Test Reports are only available for **Test Suite/Test Suite Collection** level.
 
-Starting in **Katalon Studio version 7.0**, you need to specify the organization you're working on to log in to Katalon Studio. Then you can configure the integration with Katalon TestOps in two ways:
+Starting in **Katalon Studio version 7.0**, you need to specify the organization you're working on to log in to Katalon Studio. If you want to switch to another organization, you have to deactivate and reactivate Katalon Studio. 
+
+You can configure the integration with Katalon TestOps in two ways:
 
 1. Right after logging in, there is a Katalon TestOps Integration pop-up window.
 
