@@ -1288,12 +1288,16 @@ items:
             url: /katalon-analytics/docs/project-management-main-toolbar.html 
       - title: "Remote Execution"
         tree: 
+          - title: "Overview"
+            url: /katalon-analytics/docs/kt-remote-execution.html
           - title: "Agents"
             url: /katalon-analytics/docs/agents.html
-          - title: "Grid - Local Agents"
-            url: /katalon-analytics/docs/grid-local-agents.html
-          - title: "Code Repo"
+          - title: "Code Repo- Upload Test Projects"
             url: /katalon-analytics/docs/code-repo.html
+          - title: "Grid- Schedule remote execution"
+            url: /katalon-analytics/docs/kt-scheduler.html
+          - title: "Local Agents- Execute Scheduled Tests"
+            url: /katalon-analytics/docs/grid-local-agents.html
           - title: "Integration with Jenkins"
             url: /katalon-analytics/docs/ka-integration-jenkins.html
       - title: "Integration with Jira"
