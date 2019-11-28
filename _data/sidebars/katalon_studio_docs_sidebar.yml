@@ -1285,7 +1285,17 @@ items:
           - title: "User Management"
             url: /katalon-analytics/docs/user-management.html
           - title: "Introduction to Project Toolbar"
-            url: /katalon-analytics/docs/project-management-main-toolbar.html 
+            url: /katalon-analytics/docs/project-management-main-toolbar.html
+      - title: "Test Results and Monitoring"
+        tree:
+          - title: "Integration with Katalon Studio"
+            url: /katalon-analytics/docs/integration-with-katalon-studio.html
+          - title: "Upload Test Results from Katalon Studio"
+            url: /katalon-analytics/docs/project-management-import-KS.html
+          - title: "Upload Test Results using Command Line"
+            url: /katalon-analytics/docs/project-management-import-cli.html
+          - title: "Delete a project or a test execution"
+            url: /katalon-analytics/docs/project-management-delete.html
       - title: "Remote Execution"
         tree: 
           - title: "Overview"
@@ -1300,26 +1310,6 @@ items:
             url: /katalon-analytics/docs/grid-local-agents.html
           - title: "Integration with Jenkins"
             url: /katalon-analytics/docs/ka-integration-jenkins.html
-      - title: "Integration with Jira"
-        tree:
-          - title: "Overview"
-            url: /katalon-analytics/docs/ka-integration-jira.html
-          - title: "Configurations"
-            url: /katalon-analytics/docs/kt-jira-config.html
-          - title: "Working with Jira Issues"
-            url: /katalon-analytics/docs/kt-jira-issue.html
-          - title: "Working with Jira Releases"
-            url: /katalon-analytics/docs/kt-jira-release.html
-      - title: "Test Results and Monitoring"
-        tree:
-          - title: "Integration with Katalon Studio"
-            url: /katalon-analytics/docs/integration-with-katalon-studio.html
-          - title: "Upload Test Results from Katalon Studio"
-            url: /katalon-analytics/docs/project-management-import-KS.html
-          - title: "Upload Test Results using Command Line"
-            url: /katalon-analytics/docs/project-management-import-cli.html
-          - title: "Delete a project or a test execution"
-            url: /katalon-analytics/docs/project-management-delete.html
       - title: "Reports and Analytics"
         tree: 
           - title: "View Reports"
@@ -1330,6 +1320,16 @@ items:
             url: /katalon-analytics/docs/project-management-filter-and-sort.html
           - title: "Task Management"
             url: /katalon-analytics/docs/project-management-task.html
+      - title: "Integration with Jira"
+        tree:
+          - title: "Overview"
+            url: /katalon-analytics/docs/ka-integration-jira.html
+          - title: "Configurations"
+            url: /katalon-analytics/docs/kt-jira-config.html
+          - title: "Working with Jira Issues"
+            url: /katalon-analytics/docs/kt-jira-issue.html
+          - title: "Working with Jira Releases"
+            url: /katalon-analytics/docs/kt-jira-release.html
   - title: "Katalon TestOps OnPremise"
     tree:
       - title: "Overview"
