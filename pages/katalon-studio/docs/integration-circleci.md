@@ -28,7 +28,7 @@ workflows:
             Suites/TS_RegressionTest'
 ```
 
-In case, you prefer setting up the integration manually, you can refer to the below section.
+In case you prefer setting up the integration manually, you can refer to the below section.
 
 <details><summary>E2E testing integration with CircleCI</summary>
 <p>
