@@ -1270,52 +1270,68 @@ items:
             url: /katalon-store/docs/publisher/manage-published-plugins.html
   - title: "Katalon TestOps (Beta)"
     tree:
-      - title: "Overview"
-        url: /katalon-analytics/docs/overview.html
-      - title: "Getting Started"
-        url: /katalon-analytics/docs/getting-started.html
-      - title: "Glossary"
-        url: /katalon-analytics/docs/ka-glossary.html
-      - title: "API Keys"
-        url: /katalon-analytics/docs/ka-api-key.html
-      - title: "Agents"
-        url: /katalon-analytics/docs/agents.html
-      - title: "Grid - Local Agents"
-        url: /katalon-analytics/docs/grid-local-agents.html
-      - title: "Code Repo"
-        url: /katalon-analytics/docs/code-repo.html
-      - title: "Project Management"
-        tree:
+      - title: "Get Started"
+        tree: 
+          - title: "Overview"
+            url: /katalon-analytics/docs/overview.html
+          - title: "Getting Started"
+            url: /katalon-analytics/docs/getting-started.html
+          - title: "Glossary"
+            url: /katalon-analytics/docs/ka-glossary.html
+          - title: "API Keys"
+            url: /katalon-analytics/docs/ka-api-key.html
+          - title: "User Role and Permission"
+            url: /katalon-analytics/docs/kt-user-role-permission.html
+          - title: "User Management"
+            url: /katalon-analytics/docs/user-management.html
           - title: "Introduction to Project Toolbar"
-            url: /katalon-analytics/docs/project-management-main-toolbar.html 
-          - title: "Upload Test Results"
-            tree:
-              - title: "Upload Test Results from Katalon Studio"
-                url: /katalon-analytics/docs/project-management-import-KS.html
-              - title: "Upload Test Results using Command Line"
-                url: /katalon-analytics/docs/project-management-import-cli.html
+            url: /katalon-analytics/docs/project-management-main-toolbar.html
+      - title: "Test Results and Monitoring"
+        tree:
+          - title: "Integration with Katalon Studio"
+            url: /katalon-analytics/docs/integration-with-katalon-studio.html
+          - title: "Upload Test Results from Katalon Studio"
+            url: /katalon-analytics/docs/project-management-import-KS.html
+          - title: "Upload Test Results using Command Line"
+            url: /katalon-analytics/docs/project-management-import-cli.html
+          - title: "Delete a project or a test execution"
+            url: /katalon-analytics/docs/project-management-delete.html
+      - title: "Remote Execution"
+        tree: 
+          - title: "Overview"
+            url: /katalon-analytics/docs/kt-remote-execution.html
+          - title: "Install and Manage Agents"
+            url: /katalon-analytics/docs/agents.html
+          - title: "Upload Test Projects"
+            url: /katalon-analytics/docs/code-repo.html
+          - title: "Schedule Remote Execution"
+            url: /katalon-analytics/docs/kt-scheduler.html
+          - title: "Execute Scheduled Tests"
+            url: /katalon-analytics/docs/grid-local-agents.html
+          - title: "Configure Notification Emails" 
+            url: /katalon-analytics/docs/kt-noti-email.html
+          - title: "Integration with Jenkins"
+            url: /katalon-analytics/docs/ka-integration-jenkins.html
+      - title: "Reports and Analytics"
+        tree: 
           - title: "View Reports"
             url: /katalon-analytics/docs/project-management-view-reports.html
           - title: "View Test Execution, Test Suite and Test Case Details"
             url: /katalon-analytics/docs/project-management-view-details.html
           - title: "Filter and Sort"
             url: /katalon-analytics/docs/project-management-filter-and-sort.html
-          - title: "Delete a project or a test execution"
-            url: /katalon-analytics/docs/project-management-delete.html
           - title: "Task Management"
             url: /katalon-analytics/docs/project-management-task.html
-      - title: "User Role and Permission"
-        url: /katalon-analytics/docs/kt-user-role-permission.html
-      - title: "User Management"
-        url: /katalon-analytics/docs/user-management.html
-      - title: "Integration"
+      - title: "Integration with Jira"
         tree:
-          - title: "Integration with Katalon Studio"
-            url: /katalon-analytics/docs/integration-with-katalon-studio.html
-          - title: "Integration with Jira"
+          - title: "Overview"
             url: /katalon-analytics/docs/ka-integration-jira.html
-          - title: "Integration with Jenkins"
-            url: /katalon-analytics/docs/ka-integration-jenkins.html
+          - title: "Configurations"
+            url: /katalon-analytics/docs/kt-jira-config.html
+          - title: "Working with Jira Issues"
+            url: /katalon-analytics/docs/kt-jira-issue.html
+          - title: "Working with Jira Releases"
+            url: /katalon-analytics/docs/kt-jira-release.html
   - title: "Katalon TestOps OnPremise"
     tree:
       - title: "Overview"
