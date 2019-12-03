@@ -11,7 +11,7 @@ redirect_from:
 description: Release note 7.1
 ---
 
-## Version 7.1.0
+## Version 7.1.0-7.1.1
 
 ### New Features
 
@@ -23,6 +23,8 @@ description: Release note 7.1
 
 ### Changes and Improvements
 
+* [Web Service] Support all file types of the form-data option in HTTP Body when creating a POST request.
+* [Web Service] Support API responses in other languages.
 * Auto-healing Smart Xpath becomes a built-in feature of Katalon Studio Enterprise. For standard Katalon Studio users who have already subscribed to this plugin, please contact Katalon team via business@katalon.com.
 * Display a progress dialog when adding a bulk number of Test Cases to a Test Suite.
 * Handle SVG elements and add a context menu during Spying to capture objects.
