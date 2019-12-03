@@ -1,5 +1,5 @@
 ---
-title: "Code Repo- Upload Test Projects" 
+title: "Upload Test Projects" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/code-repo.html 
 description: 

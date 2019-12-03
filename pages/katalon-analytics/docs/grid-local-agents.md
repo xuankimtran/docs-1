@@ -1,5 +1,5 @@
 ---
-title: "Execute Scheduled Tests with Local Agents" 
+title: "Execute Scheduled Tests"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/grid-local-agents.html 
 description: 

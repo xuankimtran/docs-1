@@ -1300,13 +1300,13 @@ items:
         tree: 
           - title: "Overview"
             url: /katalon-analytics/docs/kt-remote-execution.html
-          - title: "Agents"
+          - title: "Install and Manage Agents"
             url: /katalon-analytics/docs/agents.html
-          - title: "Code Repo- Upload Test Projects"
+          - title: "Upload Test Projects"
             url: /katalon-analytics/docs/code-repo.html
-          - title: "Grid- Schedule remote execution"
+          - title: "Schedule Remote Execution"
             url: /katalon-analytics/docs/kt-scheduler.html
-          - title: "Local Agents- Execute Scheduled Tests"
+          - title: "Execute Scheduled Tests"
             url: /katalon-analytics/docs/grid-local-agents.html
           - title: "Configure Notification Emails" 
             url: /katalon-analytics/docs/kt-noti-email.html
