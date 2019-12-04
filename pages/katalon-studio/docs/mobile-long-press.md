@@ -14,7 +14,7 @@ permalink: katalon-studio/docs/mobile-long-press.html
   * Name: testObject
     * Description: Represent a mobile element.
     * Parameter Type: TestObject
-    * Mandatory: Requiredz
+    * Mandatory: Required
   * Name: timeout
     * Description: System will wait at most _timeout_ (seconds) to return a result.
     * Parameter Type: int
@@ -22,7 +22,7 @@ permalink: katalon-studio/docs/mobile-long-press.html
   * Name: flowControl
     * Description: Used to control the step if the step failed.
     * Parameter Type: FailureHandling
-    * Mandatory: optional
+    * Mandatory: Optional
 * **Returns**: void.
 * **Throw**: **StepFailedException** if Katalon Studio could not find the specified element.
 * **Example**:
