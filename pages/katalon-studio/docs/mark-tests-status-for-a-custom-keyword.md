@@ -32,12 +32,12 @@ List<WebElement> elements = WebUiBuiltInKeywords.findWebElements(to, timeout)
 if (elements.size() > 0)
 {
 //Mark Passed status after this step
-KeywordUtil.markPassed("Element is Present")
+KeywordUtil.markPassed("Element is present")
 }
 else
 {
 //Mark Failed status after this step
-KeywordUtil.markFailed("Element is not presebt")
+KeywordUtil.markFailed("Element is not present")
 }
 ```
 

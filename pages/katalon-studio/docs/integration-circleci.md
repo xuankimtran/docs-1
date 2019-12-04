@@ -1,9 +1,40 @@
 ---
-title: "Katalon Studio E2E testing integration with CircleCI" 
+title: "Integration with CircleCI (Katalon Orb)" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/integration-circleci.html 
-description: Guidelines on how to set up Katalon Studio E2E Tests to run on continuous integration server CircleCI.
 ---
+You can execute Katalon tests with [CircleCI](https://circleci.com/) by using Katalon Orb.
+
+>Katalon Orb is available [here](https://circleci.com/orbs/registry/orb/katalon/katalonstudio).
+
+_Definition of Orb from CircleCI: Orbs define reusable commands, executors, and jobs so that commonly used pieces of configuration can be condensed into a single line of code._
+
+### Usage Examples
+
+Below is an example demonstrating how to use Katalon Orb (Push your test case code, change your Katalon version, your parameter, and API Key to run the test).
+
+```groovy
+version: 2.1
+orbs:
+  katalonstudio: katalon/katalonstudio@18.0.0
+workflows:
+  build:
+    jobs:
+      - katalonstudio/katjob:
+          version: latest
+          katalon_api_key: b279faef-0a5a-4aa5-8cff-ebc81466ac8c
+          katalon_param: >-
+            -browserType='Chrome' -retry=0 -statusDelay=15 -testSuitePath='Test
+            Suites/TS_RegressionTest'
+```
+
+In case you prefer setting up the integration manually, you can refer to the below section.
+
+<details><summary>E2E testing integration with CircleCI</summary>
+<p>
+
+Credit to [Auksė Žirgulė](https://www.linkedin.com/in/auksezirgule/) - QA Lead at Hostinger International. The original article is available [here](https://www.linkedin.com/pulse/katalon-studio-e2e-testing-integration-circleci-auks%C4%97-%C5%BEirgul%C4%97/).
+
 ## Introduction to CircleCI
 
 CircleCI is a continuous integration server where every commit executes an automated build and test. In this case, automated tests are integrated into a shared repository, can be configured to run at specific times and managed by all team members. You can read more about CircleCI features on the [official website](https://circleci.com/).
@@ -30,27 +61,27 @@ When the config.yml file is ready and committed, you should go to the CircleCI p
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/integration-circleci/2-set-up-project.png)
 
-After “start building” is clicked and at least one change pushed, you will be able to see a job’s status - running, success, failed, on hold, queued. You can see more details by clicking on the status and expanding section details or moving and tracking your test result report on Katalon Analytics (read the chapter below on how to do that).
+After “start building” is clicked and at least one change pushed, you will be able to see a job’s status - running, success, failed, on hold, queued. You can see more details by clicking on the status and expanding section details or moving and tracking your test result report on Katalon TestOps (read the chapter below on how to do that).
 
-## Upload results to Katalon analytics
+## Upload results to Katalon TestOps
 
-Katalon Studio has several ways to analyze test results - one of them is to integrate Katalon Analytics. This way you are able to get generated and detailed reports after every completed build in CircleCI. In order to send your test results to Katalon Studio Analytics you need to:
+To analyze test results, you can integrate Katalon Studio with Katalon TestOps. This way you are able to get generated and detailed reports after every completed build in CircleCI. In order to send your test results to Katalon Studio TestOps you need to:
 
-- Navigate and Login/Sign Up to Katalon Analytics;
+- Navigate and Login/Sign Up to Katalon TestOps;
 - Open your Katalon Studio Project and Click ‘Project’ from the main menu;
-- Select Settings -> Katalon Analytics -> Integration -> Fill in Katalon Analytics information;
+- Select Settings -> Katalon TestOps -> Fill in Katalon TestOps information;
 - Click Apply -> Ok;
-- Return to Katalon Analytics;
+- Return to Katalon TestOps;
 - Create a new project;
-- Set Up Grid to automatically send results to Analytics;
+- Set Up Grid to automatically send results to TestOps;
 
-Congratulations - now your test results should be able to reach Katalon Analytics after every completed build. 
+Congratulations - now your test results should be able to reach Katalon TestOps after every completed build.
 
 ## Switch environments easily by using Profiles
 
 In this section, I will describe how to set up the same tests to run in several environments. Katalon Studio has a feature that creates a Profile. When you starting creating a Katalon Studio project a default profile is created. We can assume that the default profile is your dev environment. So, you wrote a lot of tests in the dev environment and you need to run the same tests on prod. Follow these steps to make it real:
 
-- Create a separate test ‘NavigateToUrl’, add a global variable: 
+- Create a separate test ‘NavigateToUrl’, add a global variable:
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/integration-circleci/3-navigatetourl.png)
 
@@ -71,11 +102,5 @@ Katalon Studio can be integrated with many useful tools you just need to set up 
 Automation processes should not be painful and hard to do. Don’t forget one of Agile’s principles - “Simplicity is the art of maximizing the work not done”.
 
 ----------------
-
-_Published by [Auksė Žirgulė](https://www.linkedin.com/in/auksezirgule/) - QA Lead at Hostinger International_
-
-_Original article: https://www.linkedin.com/pulse/katalon-studio-e2e-testing-integration-circleci-auks%C4%97-%C5%BEirgul%C4%97/_
-
-
-
-
+</p>
+</details>

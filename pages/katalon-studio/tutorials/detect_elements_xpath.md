@@ -66,6 +66,6 @@ Here are a few examples:
 | //*\[contains(text(),'Login')\] | Locate any element that contains the text "Login" |
 | //a\[starts-with(@id='LoginPanel')\] | Locate the **a** tag element that has the ID starting with "LoginPanel" |
 
-Next article "[Generating reliable object selector using Spy Web utility](/katalon-studio/tutorials/generate-css-xpath-selector-spy-web-utility/)" will show you how to input and edit XPath or CSS object to identify objects on Web UI via [Spy Web Utility](http://docs.katalon.com/pages/viewpage.action?pageId=5117668)
+Next article "[Generating reliable object selector using Spy Web utility](https://docs.katalon.com/katalon-studio/docs/generate_css_xpath_selector_spy_web_utility.html)" will show you how to input and edit XPath or CSS object to identify objects on Web UI via [Spy Web Utility](https://docs.katalon.com/katalon-studio/docs/spy-web-utility.html)
 
 For more information on XPath Axes, refer to **[XPath Axes](https://www.w3schools.com/xml/xpath_axes.asp)** from **[www.w3schools.com](https://www.w3schools.com)**.

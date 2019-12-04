@@ -1,5 +1,5 @@
 ---
-title: "Create Mobile Test Object in Object Repository during Runtime" 
+title: "Creation of Mobile Test Object in Memory at Runtime" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/create-mobile-test-object-object-repo-in-runtime.html 
 ---

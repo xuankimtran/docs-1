@@ -9,13 +9,17 @@ redirect_from:
 description: 
 ---
 
-**Dynamic Test Suite** is a built-in feature in Katalon Studio that provides query search function to some plugins and returns any matched test cases or test suites of the query statement.
-
-This function only works when you have already installed the plugin that defines the querying syntax in Dynamic Test Suite. Visit [Katalon Store](https://store.katalon.com/?query=dynamic) and install one of the two plugins.
-
-After the plugin has been installed, go to Katalon Studio and click **Reload Plugins**. [Learn more on how to reload plugins](https://docs.katalon.com/katalon-store/docs/user/access-store-in-KS.html#reload-plugins). In case there is no installed plugin, the Query Provider is set to “No query provider available.” by default.
+**Dynamic Test Suite** is a test suite in which a collection of multiple test cases are added to NOT in a manual way but via [search query](https://docs.katalon.com/katalon-studio/docs/search.html). This feature only works when you have already installed the plugin that defines the querying syntax. In case there is no installed plugin, the Query Provider is set to “No query provider available.” by default.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dynamic-querying-test-suite/dynamic-ts.png" width="1041" height="289">
+
+Currently, there are three plugins from Katalon Store, which enable this feature by providing query search function and returning any matched test cases or test suites of the query statement.
+
+* [Basic Search For Dynamic Test Suite](https://store.katalon.com/product/2/Basic-Search-For-Dynamic-Test-Suite).
+* [Test Case Management with Tags](https://store.katalon.com/product/6/Test-Case-Management-with-Tags). [Learn more](https://store.katalon.com/product/13/TestRail-Integration).
+* [TestRail Integration](https://store.katalon.com/product/13/TestRail-Integration). [Learn more](https://docs.katalon.com/katalon-studio/docs/testrail-integration.html).
+
+After installing one of those plugins, go to Katalon Studio and click **Reload Plugins**. [Learn more about how to reload plugins](https://docs.katalon.com/katalon-store/docs/user/access-store-in-KS.html#reload-plugins).
 
 **Query Provider**: the query syntax standard of a plugin that is currently applied. For example, when you successfully install the *Basic Search For Dynamic Test Suite* plugin, the query syntax standard becomes "Built-in".
 

@@ -1,31 +1,23 @@
 items:
-  - title: "Katalon Store"
+  - title: "License and Subscription"
     tree:
-      - title: "Overview"
-        url: /katalon-store/docs/overview.html
-      - title: "Install, use, and review a Plugin"
-        url: /katalon-store/docs/user/getting-started.html
-      - title: "Access to Katalon Store in Katalon Studio"
-        url: /katalon-store/docs/user/access-store-in-KS.html
-      - title: "Manage API Keys"
-        url: /katalon-store/docs/user/API-key.html
-      - title: "Use Plugins in Katalon Studio's Console Mode"
-        url: /katalon-store/docs/user/plugin-console-installation.html 
-      - title: "Essential Plugins Bundle"
-        url: /katalon-store/docs/user/essential-plugin-bundle.html
-      - title: "Submit and publish plugins"
-        tree:
-          - title: "Submit and publish a new plugin"
-            url: /katalon-store/docs/publisher/submit-plugin.html
-          - title: "Plugin document guidelines"
-            url: /katalon-store/docs/publisher/document-guidelines.html
-          - title: "Brand guidelines for Katalon Store publishers"
-            url: /katalon-store/docs/publisher/publisher-guidelines.html
-          - title: "Plugin approval guidelines"
-            url: /katalon-store/docs/publisher/approval-guidelines.html
-          - title: "Manage published plugins"
-            url: /katalon-store/docs/publisher/manage-published-plugins.html
-  - title: "Katalon Studio"
+      - title: "Katalon Studio Licensing"
+        url: /katalon-studio/docs/license.html
+      - title: "Katalon License Subscription"
+        url: /katalon-studio/docs/license-subscription.html
+      - title: "Subscription via Katalon Website"
+        url: /katalon-studio/docs/subscription-kstore.html
+      - title: "Subscription via Katalon TestOps"
+        url: /katalon-studio/docs/license-KT.html
+      - title: "Subscription via PO"
+        url: /katalon-studio/docs/license-po.html
+      - title: "Subscription via Quote"
+        url: /katalon-studio/docs/license-quote.html
+      - title: "Katalon License Management"
+        url: /katalon-studio/docs/license-management.html
+      - title: "Session Termination Causes"
+        url: /katalon-studio/docs/session-termination.html
+  - title: "Katalon Studio Enterprise"
     tree:
       - title: "Get Started"
         tree:
@@ -33,10 +25,10 @@ items:
             url: /katalon-studio/docs/overview.html
           - title: "What's new"
             tree:
-              - title: "Version 7.0 (Beta)"
+              - title: "Version 7.1"
+                url: /katalon-studio/new/version-71.html
+              - title: "Version 7.0"
                 url: /katalon-studio/new/version-70.html
-              - title: "Version 6.3.4 (Beta)"
-                url: /katalon-studio/new/version-634.html
               - title: "Version 6.3.3"
                 url: /katalon-studio/new/version-633.html
               - title: "Version 6.3.0 - 6.3.2"
@@ -133,18 +125,16 @@ items:
             tree:
               - title: "Installation Overview"
                 url: /katalon-studio/docs/getting-started.html
+              - title: "Activate Katalon Studio Enterprise"
+                url: /katalon-studio/docs/activate-KSE.html
               - title: "Activate Katalon Studio"
                 url: /katalon-studio/docs/katalon-studio-activation-since-70.html
               - title: "Update Katalon Studio"
                 url: /katalon-studio/docs/auto-updater.html
               - title: "Supported Environments"
                 url: /katalon-studio/docs/supported-environments.html
-              - title: "Linux Support"
-                tree:
-                  - title: "Katalon Studio for Linux (Console Mode)"
-                    url: /katalon-studio/docs/katalon-studio-for-linux-console-mode.html
-                  - title: "Katalon Studio GUI (beta) for Linux"
-                    url: /katalon-studio/docs/katalon-studio-gui-beta-for-linux.html
+              - title: "Katalon Studio for Linux (GUI)"
+                url: /katalon-studio/docs/katalon-studio-gui-beta-for-linux.html
               - title: "Configuration for Web Testing"
                 tree:
                   - title: "Internet Explorer Configurations"
@@ -159,8 +149,6 @@ items:
                     url: /katalon-studio/docs/mobile-on-macos.html
                   - title: "Installing WebDriverAgent for iOS devices"
                     url: /katalon-studio/docs/installing-webdriveragent-for-ios-devices.html
-      - title: "Tutorials"
-        tree:
           - title: "Quick Start"
             url: /katalon-studio/docs/quick_start.html
           - title: "Sample Projects"
@@ -168,37 +156,11 @@ items:
               - title: "Shopping Cart Project"
                 url: /katalon-studio/docs/shopping-cart-prj.html
               - title: "Health Care Project"
-                url: /katalon-studio/docs/health-care-prj.html 
-          - title: "Web Testing"
-            tree:
-              - title: "Introduction to Web Testing"
-                url: /katalon-studio/docs/introduction-to-web-testing.html
-              - title: "Creating test case using Record & Playback"
-                url: /katalon-studio/docs/create_test_case_using_record_playback.html
-              - title: "Creating test case using manual mode"
-                url: /katalon-studio/docs/create_test_case_using_manual_mode.html
-              - title: "Creating test case using script mode"
-                url: /katalon-studio/docs/create_test_case_using_script_mode.html
-          - title: "API Testing"
-            tree:
-              - title: "Introduction to API Testing"
-                url: /katalon-studio/docs/introduction_api_testing.html
-              - title: "Create your first API test with Katalon Studio"
-                url: /katalon-studio/docs/create_first_api_test_katalon_studio.html
-              - title: "Create REST API requests manually"
-                url: /katalon-studio/docs/create_rest_api_requests_manually.html
-          - title: "Mobile Testing"
-            tree:
-              - title: "An Introduction to Katalon Mobile Recorder"
-                url: /katalon-studio/docs/katalon_mobile_recorder_introduction.html
-              - title: "Desired Capabilities in Katalon Studio"
-                url: /katalon-studio/docs/desired_capabilities_in_katalon.html
-              - title: "Locators and Object Identification"
-                url: /katalon-studio/docs/locators_object_identification.html
-              - title: "How to integrate with Kobiton"
-                url: /katalon-studio/docs/integrate_with_kobiton.html
-              - title: "Testing mobile apps using Katalon Studio and Kobiton’s cloud-based device farm"
-                url: /katalon-studio/docs/testing_mobile_apps_using_katalon_studio_kobiton.html
+                url: /katalon-studio/docs/health-care-prj.html
+              - title: "Web Service Samples"
+                url: /katalon-studio/docs/web-service-samples.html
+              - title: "BDD Samples"
+                url: /katalon-studio/docs/bdd-samples.html
       - title: "GUI and Preferences"
         tree:
           - title: "Toolbars and Views"
@@ -229,13 +191,9 @@ items:
                 url: /katalon-studio/docs/execution-settings.html
               - title: "Emails Settings"
                 url: /katalon-studio/docs/emails-settings.html
-              - title: "Database Settings"
-                url: /katalon-studio/docs/database-settings.html
               - title: "Network Settings"
                 url: /katalon-studio/docs/network-settings.html
-              - title: "Web Locators Settings (since v5.7.1)"
-                url: /katalon-studio/docs/web-locators-settings-since-v571.html
-      - title: "Test Case"
+      - title: "Test Design"
         tree:
           - title: "Search Function"
             url: /katalon-studio/docs/search.html
@@ -245,20 +203,6 @@ items:
             url: /katalon-studio/docs/script-view.html
           - title: "Elements of Test Cases"
             tree:
-              - title: "Custom Keywords"
-                tree:
-                  - title: "Introduction to Custom Keywords"
-                    url: /katalon-studio/docs/introduction-to-custom-keywords.html
-                  - title: "Sample Custom Keywords"
-                    url: /katalon-studio/docs/sample-custom-keywords.html
-                  - title: "Import/Export Keywords"
-                    url: /katalon-studio/docs/importexport-keywords.html
-                  - title: "Import Custom Keywords classes recursively"
-                    url: /katalon-studio/docs/import-custom-keywords-classes-recursively.html
-                  - title: "Mark test's status for a Custom Keyword"
-                    url: /katalon-studio/docs/mark-tests-status-for-a-custom-keyword.html
-                  - title: "Handling Databases"
-                    url: /katalon-studio/docs/handling-databases.html
               - title: "Binary Statements"
                 url: /katalon-studio/docs/binary-statements.html
               - title: "Control Statements"
@@ -319,6 +263,12 @@ items:
               url: /katalon-studio/docs/debugging_test_case.html
             - title: "How to execute/debug certain steps of a test case"
               url: /katalon-studio/docs/execute_debug_certain_steps.html
+          - title: "Desired Capabilities"
+            tree:
+              - title: "Introduction to Desired Capabilities"
+                url: /katalon-studio/docs/introduction-to-desired-capabilities.html
+              - title: "Remote Desired Capabilities"
+                url: /katalon-studio/docs/remote-desired-capabilities.html     
           - title: "Samples"
             tree:
               - title: "Samples Projects"
@@ -333,8 +283,6 @@ items:
                     url: /katalon-studio/docs/how-to-use-custom-keyword-in-groovy-class.html
               - title: "Web Testing"
                 tree:
-                  - title: "Generating reliable object selector using Spy Web utility"
-                    url: /katalon-studio/docs/generate_css_xpath_selector_spy_web_utility.html
                   - title: "Generating reliable object selector using Spy Web utility"
                     url: /katalon-studio/docs/generate_css_xpath_selector_spy_web_utility.html
                   - title: "Solving Pop-up dialog issue with Katalon Studio"
@@ -397,10 +345,18 @@ items:
                     url: /katalon-studio/docs/scroll_element_mobile_automation.html
           - title: "Web Test Design"
             tree:
+              - title: "Introduction to Web Testing"
+                url: /katalon-studio/docs/introduction-to-web-testing.html
+              - title: "Creating test case using Record & Playback"
+                url: /katalon-studio/docs/create_test_case_using_record_playback.html
+              - title: "Creating test case using manual mode"
+                url: /katalon-studio/docs/create_test_case_using_manual_mode.html
+              - title: "Creating test case using script mode"
+                url: /katalon-studio/docs/create_test_case_using_script_mode.html
               - title: "Web Test Object"
                 tree:
                   - title: "Manage Web Test Object"
-                    url: /katalon-studio/docs/manage-test-object.html
+                    url: /katalon-studio/docs/manage-web-test-object.html
                   - title: "Working with Objects Selection Method for Spy/Record Web"
                     url: /katalon-studio/docs/working-with-objects-selection-method-for-spyrecord-web.html
                   - title: "Working with Shadow DOM Objects"
@@ -409,7 +365,7 @@ items:
                     url: /katalon-studio/docs/change-css-selector-of-an-object-at-runtime.html
                   - title: "Modify object properties at runtime"
                     url: /katalon-studio/docs/clicking-multiple-objects-without-starting-over.html
-                  - title: "Creation of Test Object in Object Repository in Runtime"
+                  - title: "Creation of Test Object in Memory at Runtime"
                     url: /katalon-studio/docs/creation-of-test-object-in-object-repository-in-runtime.html
                   - title: "Parameterize Web Test Object Properties"
                     url: /katalon-studio/docs/parameterize-web-test-object-properties.html
@@ -419,368 +375,10 @@ items:
                     url: /katalon-studio/docs/record-web-utility.html
                   - title: "Spy Web Utility"
                     url: /katalon-studio/docs/spy-web-utility.html
+                  - title: "Web Locators Settings (since v5.7.1)"
+                    url: /katalon-studio/docs/web-locators-settings-since-v571.html 
                   - title: "How to use synchronization commands while recording"
                     url: /katalon-studio/docs/synchronization_commands_recording.html
-                  - title: "Web UI Keywords"
-                    tree:
-                      - title: "[WebUI] Alert"
-                        tree:
-                          - title: "[WebUI] Accept Alert"
-                            url: /katalon-studio/docs/webui-accept-alert.html
-                          - title: "[WebUI] Dismiss Alert"
-                            url: /katalon-studio/docs/webui-dismiss-alert.html
-                          - title: "[WebUI] Get Alert Text"
-                            url: /katalon-studio/docs/webui-get-alert-text.html
-                          - title: "[WebUI] Set Alert Text"
-                            url: /katalon-studio/docs/webui-set-alert-text.html
-                          - title: "[WebUI] Verify Alert Not Present"
-                            url: /katalon-studio/docs/webui-verify-alert-not-present.html
-                          - title: "[WebUI] Verify Alert Present"
-                            url: /katalon-studio/docs/webui-verify-alert-present.html
-                          - title: "[WebUI] Wait For Alert"
-                            url: /katalon-studio/docs/webui-wait-for-alert.html
-                      - title: "[WebUI] Browser"
-                        tree:
-                          - title: "[WebUI] Authenticate"
-                            url: /katalon-studio/docs/webui-authenticate.html
-                          - title: "[WebUI] Back"
-                            url: /katalon-studio/docs/webui-back.html
-                          - title: "[WebUI] Close Browser"
-                            url: /katalon-studio/docs/webui-close-browser.html
-                          - title: "[WebUI] Close Window Index"
-                            url: /katalon-studio/docs/webui-close-window-index.html
-                          - title: "[WebUI] Close Window Title"
-                            url: /katalon-studio/docs/webui-close-window-title.html
-                          - title: "[WebUI] Close Window Url"
-                            url: /katalon-studio/docs/webui-close-window-url.html
-                          - title: "[WebUI] Delete All Cookies"
-                            url: /katalon-studio/docs/webui-delete-all-cookies.html
-                          - title: "[WebUI] Execute JavaScript"
-                            url: /katalon-studio/docs/webui-execute-javascript.html
-                          - title: "[WebUI] Forward"
-                            url: /katalon-studio/docs/webui-forward.html
-                          - title: "[WebUI] Get Page Height"
-                            url: /katalon-studio/docs/webui-get-page-height.html
-                          - title: "[WebUI] Get Page Width"
-                            url: /katalon-studio/docs/webui-get-page-width.html
-                          - title: "[WebUI] Get Url"
-                            url: /katalon-studio/docs/webui-get-url.html
-                          - title: "[WebUI] Get Viewport Height"
-                            url: /katalon-studio/docs/webui-get-viewport-height.html
-                          - title: "[WebUI] Get Viewport Left Position"
-                            url: /katalon-studio/docs/webui-get-viewport-left-position.html
-                          - title: "[WebUI] Get Viewport Top Position"
-                            url: /katalon-studio/docs/webui-get-viewport-top-position.html
-                          - title: "[WebUI] Get Viewport Width"
-                            url: /katalon-studio/docs/webui-get-viewport-width.html
-                          - title: "[WebUI] Get Window Index"
-                            url: /katalon-studio/docs/webui-get-window-index.html
-                          - title: "[WebUI] Get Window Title"
-                            url: /katalon-studio/docs/webui-get-window-title.html
-                          - title: "[WebUI] Maximize Window"
-                            url: /katalon-studio/docs/webui-maximize-window.html
-                          - title: "[WebUI] Navigate to Url"
-                            url: /katalon-studio/docs/webui-navigate-to-url.html
-                          - title: "[WebUI] Open Browser"
-                            url: /katalon-studio/docs/webui-open-browser.html
-                          - title: "[WebUI] Refresh"
-                            url: /katalon-studio/docs/webui-refresh.html
-                          - title: "[WebUI] Scroll To Position"
-                            url: /katalon-studio/docs/webui-scroll-to-position.html
-                          - title: "[WebUI] Set View Port Size"
-                            url: /katalon-studio/docs/webui-set-view-port-size.html
-                          - title: "[WebUI] Switch To Window Index"
-                            url: /katalon-studio/docs/webui-switch-to-window-index.html
-                      - title: "[WebUI] Checkbox"
-                        tree:
-                          - title: "[Web UI] Verify Element Not Checked"
-                            url: /katalon-studio/docs/web-ui-verify-element-not-checked.html
-                          - title: "[WebUI] Check"
-                            url: /katalon-studio/docs/webui-check.html
-                          - title: "[WebUI] Un-check"
-                            url: /katalon-studio/docs/webui-un-check.html
-                          - title: "[WebUI] Verify Element Checked"
-                            url: /katalon-studio/docs/webui-verify-element-checked.html
-                      - title: "[WebUI] Combo box"
-                        tree:
-                          - title: "[WebUI] Deselect All Option"
-                            url: /katalon-studio/docs/webui-deselect-all-option.html
-                          - title: "[WebUI] Deselect Option By Index"
-                            url: /katalon-studio/docs/webui-deselect-option-by-index.html
-                          - title: "[WebUI] Deselect Option By Label"
-                            url: /katalon-studio/docs/webui-deselect-option-by-label.html
-                          - title: "[WebUI] Deselect Option By Value"
-                            url: /katalon-studio/docs/webui-deselect-option-by-value.html
-                          - title: "[WebUI] Get Number Of Selected Option"
-                            url: /katalon-studio/docs/webui-get-number-of-selected-option.html
-                          - title: "[WebUI] Get Number Of Total Option"
-                            url: /katalon-studio/docs/webui-get-number-of-total-option.html
-                          - title: "[WebUI] Select All Option"
-                            url: /katalon-studio/docs/webui-select-all-option.html
-                          - title: "[WebUI] Select Option By Index"
-                            url: /katalon-studio/docs/webui-select-option-by-index.html
-                          - title: "[WebUI] Select Option By Label"
-                            url: /katalon-studio/docs/webui-select-option-by-label.html
-                          - title: "[WebUI] Select Option By Value"
-                            url: /katalon-studio/docs/webui-select-option-by-value.html
-                          - title: "[WebUI] Verify Option Not Present By Label"
-                            url: /katalon-studio/docs/webui-verify-option-not-present-by-label.html
-                          - title: "[WebUI] Verify Option Not Present By Value"
-                            url: /katalon-studio/docs/webui-verify-option-not-present-by-value.html
-                          - title: "[WebUI] Verify Option Not Selected By Index"
-                            url: /katalon-studio/docs/webui-verify-option-not-selected-by-index.html
-                          - title: "[WebUI] Verify Option Not Selected By Label"
-                            url: /katalon-studio/docs/webui-verify-option-not-selected-by-label.html
-                          - title: "[WebUI] Verify Option Not Selected By Value"
-                            url: /katalon-studio/docs/webui-verify-option-not-selected-by-value.html
-                          - title: "[WebUI] Verify Option Present By Label"
-                            url: /katalon-studio/docs/webui-verify-option-present-by-label.html
-                          - title: "[WebUI] Verify Option Present By Value"
-                            url: /katalon-studio/docs/webui-verify-option-present-by-value.html
-                          - title: "[WebUI] Verify Option Selected By Index"
-                            url: /katalon-studio/docs/webui-verify-option-selected-by-index.html
-                          - title: "[WebUI] Verify Option Selected By Label"
-                            url: /katalon-studio/docs/webui-verify-option-selected-by-label.html
-                          - title: "[WebUI] Verify Option Selected By Value"
-                            url: /katalon-studio/docs/webui-verify-option-selected-by-value.html
-                          - title: "[WebUI] Verify Options Present"
-                            url: /katalon-studio/docs/webui-verify-options-present.html
-                      - title: "[WebUI] Element"
-                        tree:
-                          - title: "[WebUI] Click"
-                            url: /katalon-studio/docs/webui-click.html
-                          - title: "[WebUI] Click Offset"
-                            url: /katalon-studio/docs/webui-click-offset.html
-                          - title: "[WebUI] Double Click"
-                            url: /katalon-studio/docs/webui-double-click.html
-                          - title: "[WebUI] Drag And Drop By Offset"
-                            url: /katalon-studio/docs/webui-drag-and-drop-by-offset.html
-                          - title: "[WebUI] Drag And Drop To Object"
-                            url: /katalon-studio/docs/webui-drag-and-drop-to-object.html
-                          - title: "[WebUI] Focus"
-                            url: /katalon-studio/docs/webui-focus.html
-                          - title: "[WebUI] Get All Links On Current Page"
-                            url: /katalon-studio/docs/webui-get-all-links-on-current-page.html
-                          - title: "[WebUI] Get Attribute"
-                            url: /katalon-studio/docs/webui-get-attribute.html
-                          - title: "[WebUI] Get CSS Value"
-                            url: /katalon-studio/docs/webui-get-css-value.html
-                          - title: "[WebUI] Get Element Height"
-                            url: /katalon-studio/docs/webui-get-element-height.html
-                          - title: "[WebUI] Get Element Left Position"
-                            url: /katalon-studio/docs/webui-get-element-left-position.html
-                          - title: "[WebUI] Get Element Width"
-                            url: /katalon-studio/docs/webui-get-element-width.html
-                          - title: "[WebUI] Mouse Over"
-                            url: /katalon-studio/docs/webui-mouse-over.html
-                          - title: "[WebUI] Mouse Over Offset"
-                            url: /katalon-studio/docs/webui-mouse-over-offset.html
-                          - title: "[WebUI] Right Click"
-                            url: /katalon-studio/docs/webui-right-click.html
-                          - title: "[WebUI] Right Click Offset"
-                            url: /katalon-studio/docs/webui-right-click-offset.html
-                          - title: "[WebUI] Scroll To Element"
-                            url: /katalon-studio/docs/webui-scroll-to-element.html
-                          - title: "[WebUI] Verify All Links On Current Page Accessible"
-                            url: /katalon-studio/docs/webui-verify-all-links-on-current-page-accessible.html
-                          - title: "[WebUI] Verify Element Attribute Value"
-                            url: /katalon-studio/docs/webui-verify-element-attribute-value.html
-                          - title: "[WebUI] Verify Element Clickable"
-                            url: /katalon-studio/docs/webui-verify-element-clickable.html
-                          - title: "[WebUI] Verify Element Has Attribute"
-                            url: /katalon-studio/docs/webui-verify-element-has-attribute.html
-                          - title: "[WebUI] Verify Element Not Clickable"
-                            url: /katalon-studio/docs/webui-verify-element-not-clickable.html
-                          - title: "[WebUI] Verify Element Not Has Attribute"
-                            url: /katalon-studio/docs/webui-verify-element-not-has-attribute.html
-                          - title: "[WebUI] Verify Element Present"
-                            url: /katalon-studio/docs/webui-verify-element-present.html
-                          - title: "[WebUI] Verify Element Not Present"
-                            url: /katalon-studio/docs/webui-verify-element-not-present.html
-                          - title: "[WebUI] Verify Element Visible"
-                            url: /katalon-studio/docs/webui-verify-element-visible.html
-                          - title: "[WebUI] Verify Element Not Visible"
-                            url: /katalon-studio/docs/webui-verify-element-not-visible.html
-                          - title: "[WebUI] Smart Wait Function"
-                            url: /katalon-studio/docs/webui-smartwait.html 
-                      - title: "[WebUI] Form"
-                        tree:
-                          - title: "[WebUI] Submit"
-                            url: /katalon-studio/docs/webui-submit.html
-                      - title: "[WebUI] Frame"
-                        tree:
-                          - title: "[WebUI] Switch To Default Content"
-                            url: /katalon-studio/docs/webui-switch-to-default-content.html
-                          - title: "[WebUI] Switch To Frame"
-                            url: /katalon-studio/docs/webui-switch-to-frame.html
-                      - title: "[WebUI] Image"
-                        tree:
-                          - title: "[WebUI] Click Image"
-                            url: /katalon-studio/docs/webui-click-image.html
-                          - title: "[WebUI] Type On Image"
-                            url: /katalon-studio/docs/webui-type-on-image.html
-                          - title: "[WebUI] Verify Image Present"
-                            url: /katalon-studio/docs/webui-verify-image-present.html
-                          - title: "[WebUI] Wait For Image Present"
-                            url: /katalon-studio/docs/webui-wait-for-image-present.html
-                      - title: "[WebUI] Text"
-                        tree:
-                          - title: "[WebUI] Get Text"
-                            url: /katalon-studio/docs/webui-get-text.html
-                          - title: "[WebUI] Send Keys"
-                            url: /katalon-studio/docs/webui-send-keys.html
-                          - title: "[WebUI] Set Encrypted Text"
-                            url: /katalon-studio/docs/webui-set-encrypted-text.html
-                          - title: "[WebUI] Set Masked Text"
-                            url: /katalon-studio/docs/webui-set-masked-text.html
-                          - title: "[WebUI] Set Text"
-                            url: /katalon-studio/docs/webui-set-text.html
-                          - title: "[WebUI] Verify Text Not Present"
-                            url: /katalon-studio/docs/webui-verify-text-not-present.html
-                          - title: "[WebUI] Verify Text Present"
-                            url: /katalon-studio/docs/webui-verify-text-present.html
-                      - title: "[WebUI] Upload File"
-                        url: /katalon-studio/docs/webui-upload-file.html
-                      - title: "[WebUI] Test Object API"
-                        tree:
-                          - title: "[WebUI] Modify Object Property"
-                            url: /katalon-studio/docs/webui-modify-object-property.html
-                          - title: "[WebUI] Remove Object Property"
-                            url: /katalon-studio/docs/webui-remove-object-property.html
-              
-                    tree:
-                      - title: "[Mobile] Application"
-                        tree:
-                          - title: "[Mobile] Close Application"
-                            url: /katalon-studio/docs/mobile-close-application.html
-                          - title: "[Mobile] Run iOS App in Background and Wait"
-                            url: /katalon-studio/docs/mobile-run-ios-app-in-background-and-wait.html
-                          - title: "[Mobile] Start Application"
-                            url: /katalon-studio/docs/mobile-start-application.html
-                          - title: "[Mobile] Start Existing Application"
-                            url: /katalon-studio/docs/mobile-keyword-start-existing-apps.html
-                      - title: "[Mobile] Device"
-                        tree:
-                          - title: "[Mobile] Get Current Orientation"
-                            url: /katalon-studio/docs/mobile-get-current-orientation.html
-                          - title: "[Mobile] Get Device Height"
-                            url: /katalon-studio/docs/mobile-get-device-height.html
-                          - title: "[Mobile] Get Device Manufacturer"
-                            url: /katalon-studio/docs/mobile-get-device-manufacturer.html
-                          - title: "[Mobile] Get Device OS"
-                            url: /katalon-studio/docs/mobile-get-device-os.html
-                          - title: "[Mobile] Get Device OS Version"
-                            url: /katalon-studio/docs/mobile-get-device-os-version.html
-                          - title: "[Mobile] Get Device Width"
-                            url: /katalon-studio/docs/mobile-get-device-width.html
-                          - title: "[Mobile] Press Back"
-                            url: /katalon-studio/docs/mobile-press-back.html
-                          - title: "[Mobile] Press Home"
-                            url: /katalon-studio/docs/mobile-press-home.html
-                          - title: "[Mobile] Switch To Landscape"
-                            url: /katalon-studio/docs/mobile-switch-to-landscape.html
-                          - title: "[Mobile] Switch To Native"
-                            url: /katalon-studio/docs/mobile-switch-to-native.html
-                          - title: "[Mobile] Switch To Portrait"
-                            url: /katalon-studio/docs/mobile-switch-to-portrait.html
-                          - title: "[Mobile] Switch To Web View"
-                            url: /katalon-studio/docs/mobile-switch-to-web-view.html
-                          - title: "[Mobile] Toggle Airplane Mode"
-                            url: /katalon-studio/docs/mobile-toggle-airplane-mode.html
-                          - title: "[Mobile] Unlock Screen"
-                            url: /katalon-studio/docs/mobile-unlock-screen.html
-                          - title: "[Mobile] Verify Is Landscape"
-                            url: /katalon-studio/docs/mobile-verify-is-landscape.html
-                          - title: "[Mobile] Verify Is Portrait"
-                            url: /katalon-studio/docs/mobile-verify-is-portrait.html
-                      - title: "[Mobile] Element"
-                        tree:
-                          - title: "[Mobile] Check Element"
-                            url: /katalon-studio/docs/mobile-check-element.html
-                          - title: "[Mobile] Drag And Drop"
-                            url: /katalon-studio/docs/mobile-drag-and-drop.html
-                          - title: "[Mobile] Get Attribute"
-                            url: /katalon-studio/docs/mobile-get-attribute.html
-                          - title: "[Mobile] Get Element Height"
-                            url: /katalon-studio/docs/mobile-get-element-height.html
-                          - title: "[Mobile] Get Element Left Position"
-                            url: /katalon-studio/docs/mobile-get-element-left-position.html
-                          - title: "[Mobile] Get Element Top Position"
-                            url: /katalon-studio/docs/mobile-get-element-top-position.html
-                          - title: "[Mobile] Get Element Width"
-                            url: /katalon-studio/docs/mobile-get-element-width.html
-                          - title: "[Mobile] Select List Item By Index"
-                            url: /katalon-studio/docs/mobile-select-list-item-by-index.html
-                          - title: "[Mobile] Select List Item By Label"
-                            url: /katalon-studio/docs/mobile-select-list-item-by-label.html
-                          - title: "[Mobile] Set Slider Value"
-                            url: /katalon-studio/docs/mobile-set-slider-value.html
-                          - title: "[Mobile] Tap And Hold"
-                            url: /katalon-studio/docs/mobile-tap-and-hold.html
-                          - title: "[Mobile] Uncheck Element"
-                            url: /katalon-studio/docs/mobile-uncheck-element.html
-                          - title: "[Mobile] Verify Element Attribute Value"
-                            url: /katalon-studio/docs/mobile-verify-element-attribute-value.html
-                          - title: "[Mobile] Verify Element Checked"
-                            url: /katalon-studio/docs/mobile-verify-element-checked.html
-                          - title: "[Mobile] Verify Element Exist"
-                            url: /katalon-studio/docs/mobile-verify-element-exist.html
-                          - title: "[Mobile] Verify Element Has Attribute"
-                            url: /katalon-studio/docs/mobile-verify-element-has-attribute.html
-                          - title: "[Mobile] Verify Element Not Checked"
-                            url: /katalon-studio/docs/mobile-verify-element-not-checked.html
-                          - title: "[Mobile] Verify Element Not Exist"
-                            url: /katalon-studio/docs/mobile-verify-element-not-exist.html
-                          - title: "[Mobile] Verify Element Not Has Attribute"
-                            url: /katalon-studio/docs/mobile-verify-element-not-has-attribute.html
-                          - title: "[Mobile] Verify Element Not Visible"
-                            url: /katalon-studio/docs/mobile-verify-element-not-visible.html
-                          - title: "[Mobile] Verify Element Visible"
-                            url: /katalon-studio/docs/mobile-verify-element-visible.html
-                          - title: "[Mobile] Wait For Element Attribute Value"
-                            url: /katalon-studio/docs/mobile-wait-for-element-attribute-value.html
-                          - title: "[Mobile] Wait For Element Has Attribute"
-                            url: /katalon-studio/docs/mobile-wait-for-element-has-attribute.html
-                          - title: "[Mobile] Wait For Element Not Has Attribute"
-                            url: /katalon-studio/docs/mobile-wait-for-element-not-has-attribute.html
-                          - title: "[Mobile] Wait For Element Present"
-                            url: /katalon-studio/docs/mobile-wait-for-element-present.html
-                      - title: "[Mobile] Notification"
-                        tree:
-                          - title: "[Mobile] Close Notifications"
-                            url: /katalon-studio/docs/mobile-close-notifications.html
-                          - title: "[Mobile] Open Notifications"
-                            url: /katalon-studio/docs/mobile-open-notifications.html
-                      - title: "[Mobile] Screen"
-                        tree:
-                          - title: "[Mobile] Pinch To Zoom In At Position"
-                            url: /katalon-studio/docs/mobile-pinch-to-zoom-in-at-position.html
-                          - title: "[Mobile] Pinch To Zoom Out At Position"
-                            url: /katalon-studio/docs/mobile-pinch-to-zoom-out-at-position.html
-                          - title: "[Mobile] Swipe"
-                            url: /katalon-studio/docs/mobile-swipe.html
-                          - title: "[Mobile] Take Screenshot"
-                            url: /katalon-studio/docs/mobile-take-screenshot.html
-                          - title: "[Mobile] Tap"
-                            url: /katalon-studio/docs/mobile-tap.html
-                          - title: "[Mobile] Tap And Hold At Position"
-                            url: /katalon-studio/docs/mobile-tap-and-hold-at-position.html
-                          - title: "[Mobile] Tap At Position"
-                            url: /katalon-studio/docs/mobile-tap-at-position.html
-                      - title: "[Mobile] Text"
-                        tree:
-                          - title: "[Mobile] Clear Text"
-                            url: /katalon-studio/docs/mobile-clear-text.html
-                          - title: "[Mobile] Get Text"
-                            url: /katalon-studio/docs/mobile-get-text.html
-                          - title: "[Mobile] Hide Keyboard"
-                            url: /katalon-studio/docs/mobile-hide-keyboard.html
-                          - title: "[Mobile] Scroll To Text"
-                            url: /katalon-studio/docs/mobile-scroll-to-text.html
-                          - title: "[Mobile] Send Keys"
-                            url: /katalon-studio/docs/mobile-send-keys.html
-                          - title: "[Mobile] Set Text"
-                            url: /katalon-studio/docs/mobile-set-text.html
               - title: "Working with Selenium WebDriver"
                 tree:
                   - title: "Handle WebDrivers"
@@ -793,16 +391,34 @@ items:
                     url: /katalon-studio/docs/webdriver-event-listeners.html
               - title: "Testing Web App on Mobile Browsers"
                 url: /katalon-studio/docs/running_application_mobile_browsers.html
+              - title: "Desired Capabilities"
+                tree:
+                  - title: "Desired Capabilities for Firefox/Firefox (headless)"
+                    url: /katalon-studio/docs/desired-capabilities-for-firefoxfirefox-headless.html
+                  - title: "Desired Capabilities for Chrome/Chrome (headless)"
+                    url: /katalon-studio/docs/desired-capabilities-for-chromechrome-headless.html
+                  - title: "Desired Capabilities for Internet Explorer"
+                    url: /katalon-studio/docs/desired-capabilities-for-internet-explorer.html
           - title: "Mobile Test Design"
             tree:
+              - title: "An Introduction to Katalon Mobile Recorder"
+                url: /katalon-studio/docs/katalon_mobile_recorder_introduction.html
+              - title: "Desired Capabilities in Katalon Studio"
+                url: /katalon-studio/docs/desired_capabilities_in_katalon.html
+              - title: "Locators and Object Identification"
+                url: /katalon-studio/docs/locators_object_identification.html
+              - title: "Testing mobile apps using Katalon Studio and Kobiton’s cloud-based device farm"
+                url: /katalon-studio/docs/testing_mobile_apps_using_katalon_studio_kobiton.html
               - title: "Mobile Test Object"
                 tree:
                   - title: "Manage Mobile Test Object"
                     url: /katalon-studio/docs/manage-mobile-test-object.html
-                  - title: "Create Mobile Test Object in Object Repository during Runtime"
+                  - title: "Create Mobile Test Object in Memory at Runtime"
                     url: /katalon-studio/docs/create-mobile-test-object-object-repo-in-runtime.html
                   - title: "Parameterize Mobile Test Object Properties"
                     url: /katalon-studio/docs/parameterize-mobile-test-object-properties.html
+                  - title: "[Mobile] Image-based Testing" 
+                    url: /katalon-studio/docs/mobile-image-based-testing.html 
               - title: "Mobile Record and Spy Utilities"
                 tree:
                   - title: "Record Mobile Utility"
@@ -811,204 +427,54 @@ items:
                     url: /katalon-studio/docs/spy-mobile-utility.html
                   - title: "Spy and Record Utilities for testing an existing application"
                     url: /katalon-studio/docs/mobile-spy-record-existing-apps.html
-                  - title: "Mobile Keywords"
-                    tree:
-                      - title: "[Mobile] Application"
-                        tree:
-                          - title: "[Mobile] Close Application"
-                            url: /katalon-studio/docs/mobile-close-application.html
-                          - title: "[Mobile] Run iOS App in Background and Wait"
-                            url: /katalon-studio/docs/mobile-run-ios-app-in-background-and-wait.html
-                          - title: "[Mobile] Start Application"
-                            url: /katalon-studio/docs/mobile-start-application.html
-                          - title: "[Mobile] Start Existing Application"
-                            url: /katalon-studio/docs/mobile-keyword-start-existing-apps.html
-                      - title: "[Mobile] Device"
-                        tree:
-                          - title: "[Mobile] Get Current Orientation"
-                            url: /katalon-studio/docs/mobile-get-current-orientation.html
-                          - title: "[Mobile] Get Device Height"
-                            url: /katalon-studio/docs/mobile-get-device-height.html
-                          - title: "[Mobile] Get Device Manufacturer"
-                            url: /katalon-studio/docs/mobile-get-device-manufacturer.html
-                          - title: "[Mobile] Get Device OS"
-                            url: /katalon-studio/docs/mobile-get-device-os.html
-                          - title: "[Mobile] Get Device OS Version"
-                            url: /katalon-studio/docs/mobile-get-device-os-version.html
-                          - title: "[Mobile] Get Device Width"
-                            url: /katalon-studio/docs/mobile-get-device-width.html
-                          - title: "[Mobile] Press Back"
-                            url: /katalon-studio/docs/mobile-press-back.html
-                          - title: "[Mobile] Press Home"
-                            url: /katalon-studio/docs/mobile-press-home.html
-                          - title: "[Mobile] Switch To Landscape"
-                            url: /katalon-studio/docs/mobile-switch-to-landscape.html
-                          - title: "[Mobile] Switch To Native"
-                            url: /katalon-studio/docs/mobile-switch-to-native.html
-                          - title: "[Mobile] Switch To Portrait"
-                            url: /katalon-studio/docs/mobile-switch-to-portrait.html
-                          - title: "[Mobile] Switch To Web View"
-                            url: /katalon-studio/docs/mobile-switch-to-web-view.html
-                          - title: "[Mobile] Toggle Airplane Mode"
-                            url: /katalon-studio/docs/mobile-toggle-airplane-mode.html
-                          - title: "[Mobile] Unlock Screen"
-                            url: /katalon-studio/docs/mobile-unlock-screen.html
-                          - title: "[Mobile] Verify Is Landscape"
-                            url: /katalon-studio/docs/mobile-verify-is-landscape.html
-                          - title: "[Mobile] Verify Is Portrait"
-                            url: /katalon-studio/docs/mobile-verify-is-portrait.html
-                      - title: "[Mobile] Element"
-                        tree:
-                          - title: "[Mobile] Check Element"
-                            url: /katalon-studio/docs/mobile-check-element.html
-                          - title: "[Mobile] Drag And Drop"
-                            url: /katalon-studio/docs/mobile-drag-and-drop.html
-                          - title: "[Mobile] Get Attribute"
-                            url: /katalon-studio/docs/mobile-get-attribute.html
-                          - title: "[Mobile] Get Element Height"
-                            url: /katalon-studio/docs/mobile-get-element-height.html
-                          - title: "[Mobile] Get Element Left Position"
-                            url: /katalon-studio/docs/mobile-get-element-left-position.html
-                          - title: "[Mobile] Get Element Top Position"
-                            url: /katalon-studio/docs/mobile-get-element-top-position.html
-                          - title: "[Mobile] Get Element Width"
-                            url: /katalon-studio/docs/mobile-get-element-width.html
-                          - title: "[Mobile] Select List Item By Index"
-                            url: /katalon-studio/docs/mobile-select-list-item-by-index.html
-                          - title: "[Mobile] Select List Item By Label"
-                            url: /katalon-studio/docs/mobile-select-list-item-by-label.html
-                          - title: "[Mobile] Set Slider Value"
-                            url: /katalon-studio/docs/mobile-set-slider-value.html
-                          - title: "[Mobile] Tap And Hold"
-                            url: /katalon-studio/docs/mobile-tap-and-hold.html
-                          - title: "[Mobile] Uncheck Element"
-                            url: /katalon-studio/docs/mobile-uncheck-element.html
-                          - title: "[Mobile] Verify Element Attribute Value"
-                            url: /katalon-studio/docs/mobile-verify-element-attribute-value.html
-                          - title: "[Mobile] Verify Element Checked"
-                            url: /katalon-studio/docs/mobile-verify-element-checked.html
-                          - title: "[Mobile] Verify Element Exist"
-                            url: /katalon-studio/docs/mobile-verify-element-exist.html
-                          - title: "[Mobile] Verify Element Has Attribute"
-                            url: /katalon-studio/docs/mobile-verify-element-has-attribute.html
-                          - title: "[Mobile] Verify Element Not Checked"
-                            url: /katalon-studio/docs/mobile-verify-element-not-checked.html
-                          - title: "[Mobile] Verify Element Not Exist"
-                            url: /katalon-studio/docs/mobile-verify-element-not-exist.html
-                          - title: "[Mobile] Verify Element Not Has Attribute"
-                            url: /katalon-studio/docs/mobile-verify-element-not-has-attribute.html
-                          - title: "[Mobile] Verify Element Not Visible"
-                            url: /katalon-studio/docs/mobile-verify-element-not-visible.html
-                          - title: "[Mobile] Verify Element Visible"
-                            url: /katalon-studio/docs/mobile-verify-element-visible.html
-                          - title: "[Mobile] Wait For Element Attribute Value"
-                            url: /katalon-studio/docs/mobile-wait-for-element-attribute-value.html
-                          - title: "[Mobile] Wait For Element Has Attribute"
-                            url: /katalon-studio/docs/mobile-wait-for-element-has-attribute.html
-                          - title: "[Mobile] Wait For Element Not Has Attribute"
-                            url: /katalon-studio/docs/mobile-wait-for-element-not-has-attribute.html
-                          - title: "[Mobile] Wait For Element Present"
-                            url: /katalon-studio/docs/mobile-wait-for-element-present.html
-                      - title: "[Mobile] Notification"
-                        tree:
-                          - title: "[Mobile] Close Notifications"
-                            url: /katalon-studio/docs/mobile-close-notifications.html
-                          - title: "[Mobile] Open Notifications"
-                            url: /katalon-studio/docs/mobile-open-notifications.html
-                      - title: "[Mobile] Screen"
-                        tree:
-                          - title: "[Mobile] Pinch To Zoom In At Position"
-                            url: /katalon-studio/docs/mobile-pinch-to-zoom-in-at-position.html
-                          - title: "[Mobile] Pinch To Zoom Out At Position"
-                            url: /katalon-studio/docs/mobile-pinch-to-zoom-out-at-position.html
-                          - title: "[Mobile] Swipe"
-                            url: /katalon-studio/docs/mobile-swipe.html
-                          - title: "[Mobile] Take Screenshot"
-                            url: /katalon-studio/docs/mobile-take-screenshot.html
-                          - title: "[Mobile] Tap"
-                            url: /katalon-studio/docs/mobile-tap.html
-                          - title: "[Mobile] Tap And Hold At Position"
-                            url: /katalon-studio/docs/mobile-tap-and-hold-at-position.html
-                          - title: "[Mobile] Tap At Position"
-                            url: /katalon-studio/docs/mobile-tap-at-position.html
-                      - title: "[Mobile] Text"
-                        tree:
-                          - title: "[Mobile] Clear Text"
-                            url: /katalon-studio/docs/mobile-clear-text.html
-                          - title: "[Mobile] Get Text"
-                            url: /katalon-studio/docs/mobile-get-text.html
-                          - title: "[Mobile] Hide Keyboard"
-                            url: /katalon-studio/docs/mobile-hide-keyboard.html
-                          - title: "[Mobile] Scroll To Text"
-                            url: /katalon-studio/docs/mobile-scroll-to-text.html
-                          - title: "[Mobile] Send Keys"
-                            url: /katalon-studio/docs/mobile-send-keys.html
-                          - title: "[Mobile] Set Text"
-                            url: /katalon-studio/docs/mobile-set-text.html
               - title: "Testing Mobile Apps Using Custom Cloud Devices"
                 url: /katalon-studio/docs/mobile-testing-apps-cloud-devices.html
           - title: "Web Services Test Design"
             tree:
-              - title: "Web Services Test Object"
+              - title: "Introduction to API Testing"
+                url: /katalon-studio/docs/introduction_api_testing.html
+              - title: "Create your first API test with Katalon Studio"
+                url: /katalon-studio/docs/create_first_api_test_katalon_studio.html
+              - title: "Create REST API requests manually"
+                url: /katalon-studio/docs/create_rest_api_requests_manually.html
+              - title: "Introduction to Web Services Test Object"
+                url: /katalon-studio/docs/introduction-to-web-services-test-object.html
+              - title: "Create Web Service Object in Script Mode"
+                url: /katalon-studio/docs/create_web_service_object_in_script_mode.html
+              - title: "RESTful"
+                url: /katalon-studio/docs/restful.html
+              - title: "SOAP"
+                url: /katalon-studio/docs/soap.html
+              - title: "Authorization"
+                url: /katalon-studio/docs/authorization.html
+              - title: "Authorization Basic"
+                url: /katalon-studio/docs/authorization-basic.html
+              - title: "Authorization OAuth 1.0"
+                url: /katalon-studio/docs/authorization-oauth1.html
+              - title: "Authorization OAuth 2.0"
+                url: /katalon-studio/docs/authorization-oauth2.html
+              - title: "Web Services Builder"
+                url: /katalon-studio/docs/web-services-builder.html
+              - title: "Using Web Services in a Test Case"
+                url: /katalon-studio/docs/using-web-services-in-a-test-case.html
+              - title: "Working with API/Web Services Project "
                 tree:
-                  - title: "Introduction to Web Services Test Object"
-                    url: /katalon-studio/docs/introduction-to-web-services-test-object.html
-                  - title: "Create Web Service Object in Script Mode"
-                    url: /katalon-studio/docs/create_web_service_object_in_script_mode.html
-                  - title: "RESTful"
-                    url: /katalon-studio/docs/restful.html
-                  - title: "SOAP"
-                    url: /katalon-studio/docs/soap.html
-                  - title: "Authorization"
-                    url: /katalon-studio/docs/authorization.html
-                  - title: "Authorization Basic"
-                    url: /katalon-studio/docs/authorization-basic.html
-                  - title: "Authorization OAuth 1.0"
-                    url: /katalon-studio/docs/authorization-oauth1.html
-                  - title: "Authorization OAuth 2.0"
-                    url: /katalon-studio/docs/authorization-oauth2.html
-                  - title: "Web Services Builder"
-                    url: /katalon-studio/docs/web-services-builder.html
-                  - title: "Using Web Services in a Test Case"
-                    url: /katalon-studio/docs/using-web-services-in-a-test-case.html
-                  - title: "Working with API/Web Services Project "
-                    tree:
-                      - title: "Request History"
-                        url: /katalon-studio/docs/request-history.html
-                      - title: "Draft Request"
-                        url: /katalon-studio/docs/draft-request.html
-                  - title: "Import Web Service Objects"
-                    tree:
-                      - title: "Import REST requests from Swagger 2.0"
-                        url: /katalon-studio/docs/import-rest-requests-from-swagger-20.html
-                      - title: "Import SOAP requests from WSDL"
-                        url: /katalon-studio/docs/import-soap-requests-from-wsdl.html
-                      - title: "Import from Postman"
-                        url: /katalon-studio/docs/import-postman.html
-                  - title: "Parameterize a Web Service Object"
-                    url: /katalon-studio/docs/parameterize-a-web-service-object.html
-                  - title: "Handle Response Messages"
-                    url: /katalon-studio/docs/handle-response-messages.html
-              - title: "Web Service Keywords"
+                  - title: "Request History"
+                    url: /katalon-studio/docs/request-history.html
+                  - title: "Draft Request"
+                    url: /katalon-studio/docs/draft-request.html
+              - title: "Import Web Service Objects"
                 tree:
-                  - title: "[WS] Request"
-                    tree:
-                      - title: "[WS] Send Request"
-                        url: /katalon-studio/docs/ws-send-request.html
-                  - title: "[WS] Response"
-                    tree:
-                      - title: "[WS] Contains String"
-                        url: /katalon-studio/docs/ws-contains-string.html
-                      - title: "[WS] Verify Element Property Value"
-                        url: /katalon-studio/docs/ws-verify-element-property-value.html
-                      - title: "[WS] Verify Elements Count"
-                        url: /katalon-studio/docs/ws-verify-elements-count.html
-                      - title: "[WS] Verify Element Text"
-                        url: /katalon-studio/docs/ws-verify-element-text.html
-                      - title: "[WS] Verify Response Status Code"
-                        url: /katalon-studio/docs/ws-verify-response-status-code.html
-                      - title: "[WS] Verify Response Status Code In Range"
-                        url: /katalon-studio/docs/ws-verify-response-status-code-in-range.html
+                  - title: "Import REST requests from Swagger 2.0"
+                    url: /katalon-studio/docs/import-rest-requests-from-swagger-20.html
+                  - title: "Import SOAP requests from WSDL"
+                    url: /katalon-studio/docs/import-soap-requests-from-wsdl.html
+                  - title: "Import from Postman"
+                    url: /katalon-studio/docs/import-postman.html
+              - title: "Parameterize a Web Service Object"
+                url: /katalon-studio/docs/parameterize-a-web-service-object.html
+              - title: "Handle Response Messages"
+                url: /katalon-studio/docs/handle-response-messages.html
           - title: "Windows Desktop Apps Test Design"
             tree:
               - title: "Introduction to Desktop App Testing"
@@ -1024,31 +490,465 @@ items:
                   - title: "Windows Spy Tutorials"
                     url: /katalon-studio/docs/windows-spy-tutorials.html
                   - title: "Windows Record Tutorials"  
-                    url: /katalon-studio/docs/windows-recorder-tutorials.html
-              - title: "Windows Built-in Keywords"
-                tree:
-                  - title: "[Windows] Start Application"
-                    url: /katalon-studio/docs/windows-kw-start-app.html
-                  - title: "[Windows] Close Application"
-                    url: /katalon-studio/docs/windows-kw-close-app.html
-                  - title: "[Windows] Switch To Desktop"
-                    url: /katalon-studio/docs/windows-kw-switch-desktop.html
-                  - title: "[Windows] Switch To Application"
-                    url: /katalon-studio/docs/windows-kw-switch-app.html
-                  - title: "[Windows] Click"
-                    url: /katalon-studio/docs/windows-kw-click.html
-                  - title: "[Windows] Double-click"
-                    url: /katalon-studio/docs/windows-kw-double-click.html
-                  - title: "[Windows] Right-click"
-                    url: /katalon-studio/docs/windows-kw-rightclick.html
-                  - title: "[Windows] Set Text"
-                    url: /katalon-studio/docs/windows-kw-set-text.html
-                  - title: "[Windows] Get Text"
-                    url: /katalon-studio/docs/windows-kw-get-text.html
-                  - title: "[Windows] Clear Text"
-                    url: /katalon-studio/docs/windows-kw-clear-text.html
-                  - title: "[Windows] Get Driver"
-                    url: /katalon-studio/docs/windows-kw-get-driver.html         
+                    url: /katalon-studio/docs/windows-recorder-tutorials.html   
+              - title: "Desired Capabilities for Windows"
+                url: /katalon-studio/docs/windows-desired-capabilities.html
+          - title: "Test Artifacts Sharing"
+            url: /katalon-studio/docs/import-export-test-artifact.html
+          - title: "Test Maintenance"
+            tree:
+              - title: "Test Objects Refactoring"
+                url: /katalon-studio/docs/test-objects-refactoring.html
+      - title: "Keywords"
+        tree:
+          - title: "Web UI Keywords"
+            tree:
+              - title: "[WebUI] Accept Alert"
+                url: /katalon-studio/docs/webui-accept-alert.html
+              - title: "[WebUI] Authenticate"
+                url: /katalon-studio/docs/webui-authenticate.html
+              - title: "[WebUI] Back"
+                url: /katalon-studio/docs/webui-back.html
+              - title: "[WebUI] Check"
+                url: /katalon-studio/docs/webui-check.html
+              - title: "[WebUI] Click"
+                url: /katalon-studio/docs/webui-click.html
+              - title: "[WebUI] Click Image"
+                url: /katalon-studio/docs/webui-click-image.html
+              - title: "[WebUI] Click Offset"
+                url: /katalon-studio/docs/webui-click-offset.html
+              - title: "[WebUI] Close Browser"
+                url: /katalon-studio/docs/webui-close-browser.html
+              - title: "[WebUI] Close Window Index"
+                url: /katalon-studio/docs/webui-close-window-index.html
+              - title: "[WebUI] Close Window Title"
+                url: /katalon-studio/docs/webui-close-window-title.html
+              - title: "[WebUI] Close Window Url"
+                url: /katalon-studio/docs/webui-close-window-url.html
+              - title: "[WebUI] Delete All Cookies"
+                url: /katalon-studio/docs/webui-delete-all-cookies.html
+              - title: "[WebUI] Deselect All Option"
+                url: /katalon-studio/docs/webui-deselect-all-option.html
+              - title: "[WebUI] Deselect Option By Index"
+                url: /katalon-studio/docs/webui-deselect-option-by-index.html
+              - title: "[WebUI] Deselect Option By Label"
+                url: /katalon-studio/docs/webui-deselect-option-by-label.html
+              - title: "[WebUI] Deselect Option By Value"
+                url: /katalon-studio/docs/webui-deselect-option-by-value.html
+              - title: "[WebUI] Dismiss Alert"
+                url: /katalon-studio/docs/webui-dismiss-alert.html
+              - title: "[WebUI] Double Click"
+                url: /katalon-studio/docs/webui-double-click.html
+              - title: "[WebUI] Drag And Drop By Offset"
+                url: /katalon-studio/docs/webui-drag-and-drop-by-offset.html
+              - title: "[WebUI] Drag And Drop To Object"
+                url: /katalon-studio/docs/webui-drag-and-drop-to-object.html            
+              - title: "[WebUI] Execute JavaScript"
+                url: /katalon-studio/docs/webui-execute-javascript.html
+              - title: "[WebUI] Focus"
+                url: /katalon-studio/docs/webui-focus.html
+              - title: "[WebUI] Forward"
+                url: /katalon-studio/docs/webui-forward.html
+              - title: "[WebUI] Get Alert Text"
+                url: /katalon-studio/docs/webui-get-alert-text.html             
+              - title: "[WebUI] Get All Links On Current Page"
+                url: /katalon-studio/docs/webui-get-all-links-on-current-page.html
+              - title: "[WebUI] Get Attribute"
+                url: /katalon-studio/docs/webui-get-attribute.html
+              - title: "[WebUI] Get CSS Value"
+                url: /katalon-studio/docs/webui-get-css-value.html
+              - title: "[WebUI] Get Element Height"
+                url: /katalon-studio/docs/webui-get-element-height.html
+              - title: "[WebUI] Get Element Left Position"
+                url: /katalon-studio/docs/webui-get-element-left-position.html
+              - title: "[WebUI] Get Element Width"
+                url: /katalon-studio/docs/webui-get-element-width.html
+              - title: "[WebUI] Get Number Of Selected Option"
+                url: /katalon-studio/docs/webui-get-number-of-selected-option.html
+              - title: "[WebUI] Get Number Of Total Option"
+                url: /katalon-studio/docs/webui-get-number-of-total-option.html
+              - title: "[WebUI] Get Page Height"
+                url: /katalon-studio/docs/webui-get-page-height.html
+              - title: "[WebUI] Get Page Width"
+                url: /katalon-studio/docs/webui-get-page-width.html
+              - title: "[WebUI] Get Text"
+                url: /katalon-studio/docs/webui-get-text.html
+              - title: "[WebUI] Get Url"
+                url: /katalon-studio/docs/webui-get-url.html
+              - title: "[WebUI] Get Viewport Height"
+                url: /katalon-studio/docs/webui-get-viewport-height.html
+              - title: "[WebUI] Get Viewport Left Position"
+                url: /katalon-studio/docs/webui-get-viewport-left-position.html
+              - title: "[WebUI] Get Viewport Top Position"
+                url: /katalon-studio/docs/webui-get-viewport-top-position.html
+              - title: "[WebUI] Get Viewport Width"
+                url: /katalon-studio/docs/webui-get-viewport-width.html
+              - title: "[WebUI] Get Window Index"
+                url: /katalon-studio/docs/webui-get-window-index.html
+              - title: "[WebUI] Get Window Title"
+                url: /katalon-studio/docs/webui-get-window-title.html
+              - title: "[WebUI] Maximize Window"
+                url: /katalon-studio/docs/webui-maximize-window.html
+              - title: "[WebUI] Modify Object Property"
+                url: /katalon-studio/docs/webui-modify-object-property.html
+              - title: "[WebUI] Mouse Over"
+                url: /katalon-studio/docs/webui-mouse-over.html
+              - title: "[WebUI] Mouse Over Offset"
+                url: /katalon-studio/docs/webui-mouse-over-offset.html
+              - title: "[WebUI] Navigate to Url"
+                url: /katalon-studio/docs/webui-navigate-to-url.html
+              - title: "[WebUI] Open Browser"
+                url: /katalon-studio/docs/webui-open-browser.html
+              - title: "[WebUI] Refresh"
+                url: /katalon-studio/docs/webui-refresh.html
+              - title: "[WebUI] Remove Object Property"
+                url: /katalon-studio/docs/webui-remove-object-property.html
+              - title: "[WebUI] Right Click"
+                url: /katalon-studio/docs/webui-right-click.html
+              - title: "[WebUI] Right Click Offset"
+                url: /katalon-studio/docs/webui-right-click-offset.html
+              - title: "[WebUI] Scroll To Element"
+                url: /katalon-studio/docs/webui-scroll-to-element.html             
+              - title: "[WebUI] Scroll To Position"
+                url: /katalon-studio/docs/webui-scroll-to-position.html
+              - title: "[WebUI] Select All Option"
+                url: /katalon-studio/docs/webui-select-all-option.html
+              - title: "[WebUI] Select Option By Index"
+                url: /katalon-studio/docs/webui-select-option-by-index.html
+              - title: "[WebUI] Select Option By Label"
+                url: /katalon-studio/docs/webui-select-option-by-label.html
+              - title: "[WebUI] Select Option By Value"
+                url: /katalon-studio/docs/webui-select-option-by-value.html
+              - title: "[WebUI] Send Keys"
+                url: /katalon-studio/docs/webui-send-keys.html
+              - title: "[WebUI] Set Alert Text"
+                url: /katalon-studio/docs/webui-set-alert-text.html
+              - title: "[WebUI] Set Encrypted Text"
+                url: /katalon-studio/docs/webui-set-encrypted-text.html
+              - title: "[WebUI] Set Masked Text"
+                url: /katalon-studio/docs/webui-set-masked-text.html
+              - title: "[WebUI] Set Text"
+                url: /katalon-studio/docs/webui-set-text.html
+              - title: "[WebUI] Set View Port Size"
+                url: /katalon-studio/docs/webui-set-view-port-size.html
+              - title: "[WebUI] Smart Wait Function"
+                url: /katalon-studio/docs/webui-smartwait.html 
+              - title: "[WebUI] Submit"
+                url: /katalon-studio/docs/webui-submit.html
+              - title: "[WebUI] Switch To Default Content"
+                url: /katalon-studio/docs/webui-switch-to-default-content.html
+              - title: "[WebUI] Switch To Frame"
+                url: /katalon-studio/docs/webui-switch-to-frame.html            
+              - title: "[WebUI] Switch To Window Index"
+                url: /katalon-studio/docs/webui-switch-to-window-index.html
+              - title: "[WebUI] Switch To Window Title"
+                url: /katalon-studio/docs/webui-switch-to-window-title.html
+              - title: "[WebUI] Switch To Window Url"
+                url: /katalon-studio/docs/webui-switch-to-window-url.html
+              - title: "[WebUI] Take Screenshot"
+                url: /katalon-studio/docs/webui-take-screenshot.html
+              - title: "[WebUI] Type On Image"
+                url: /katalon-studio/docs/webui-type-on-image.html
+              - title: "[WebUI] Un-check"
+                url: /katalon-studio/docs/webui-un-check.html
+              - title: "[WebUI] Upload File"
+                url: /katalon-studio/docs/webui-upload-file.html
+              - title: "[WebUI] Verify Alert Not Present"
+                url: /katalon-studio/docs/webui-verify-alert-not-present.html
+              - title: "[WebUI] Verify Alert Present"
+                url: /katalon-studio/docs/webui-verify-alert-present.html
+              - title: "[WebUI] Verify All Links On Current Page Accessible"
+                url: /katalon-studio/docs/webui-verify-all-links-on-current-page-accessible.html
+              - title: "[WebUI] Verify Element Attribute Value"
+                url: /katalon-studio/docs/webui-verify-element-attribute-value.html
+              - title: "[WebUI] Verify Element Checked"
+                url: /katalon-studio/docs/webui-verify-element-checked.html
+              - title: "[WebUI] Verify Element Clickable"
+                url: /katalon-studio/docs/webui-verify-element-clickable.html
+              - title: "[WebUI] Verify Element Has Attribute"
+                url: /katalon-studio/docs/webui-verify-element-has-attribute.html
+              - title: "[Web UI] Verify Element Not Checked"
+                url: /katalon-studio/docs/web-ui-verify-element-not-checked.html
+              - title: "[WebUI] Verify Element Not Clickable"
+                url: /katalon-studio/docs/webui-verify-element-not-clickable.html
+              - title: "[WebUI] Verify Element Not Has Attribute"
+                url: /katalon-studio/docs/webui-verify-element-not-has-attribute.html
+              - title: "[WebUI] Verify Element Not Present"
+                url: /katalon-studio/docs/webui-verify-element-not-present.html
+              - title: "[WebUI] Verify Element Not Visible In Viewport"
+                url: /katalon-studio/docs/webui-verify-element-not-visible-in-viewport.html
+              - title: "[WebUI] Verify Element Not Visible"
+                url: /katalon-studio/docs/webui-verify-element-not-visible.html
+              - title: "[WebUI] Verify Element Present"
+                url: /katalon-studio/docs/webui-verify-element-present.html
+              - title: "[WebUI] Verify Element Text" 
+                url: /katalon-studio/docs/webui-verify-element-text.html
+              - title: "[WebUI] Verify Element Visible"
+                url: /katalon-studio/docs/webui-verify-element-visible.html
+              - title: "[WebUI] Verify Element Visible In Viewport"
+                url: /katalon-studio/docs/webui-verify-element-visible-in-viewport.html
+              - title: "[WebUI] Verify Image Present" 
+                url: /katalon-studio/docs/webui-verify-image-present.html 
+              - title: "[WebUI] Verify Links Accessible" 
+                url: /katalon-studio/docs/webui-verify-links-accessible.html
+              - title: "[WebUI] Verify Option Not Present By Label"
+                url: /katalon-studio/docs/webui-verify-option-not-present-by-label.html
+              - title: "[WebUI] Verify Option Not Present By Value"
+                url: /katalon-studio/docs/webui-verify-option-not-present-by-value.html
+              - title: "[WebUI] Verify Option Not Selected By Index"
+                url: /katalon-studio/docs/webui-verify-option-not-selected-by-index.html
+              - title: "[WebUI] Verify Option Not Selected By Label"
+                url: /katalon-studio/docs/webui-verify-option-not-selected-by-label.html
+              - title: "[WebUI] Verify Option Not Selected By Value"
+                url: /katalon-studio/docs/webui-verify-option-not-selected-by-value.html
+              - title: "[WebUI] Verify Option Present By Label"
+                url: /katalon-studio/docs/webui-verify-option-present-by-label.html
+              - title: "[WebUI] Verify Option Present By Value"
+                url: /katalon-studio/docs/webui-verify-option-present-by-value.html
+              - title: "[WebUI] Verify Option Selected By Index"
+                url: /katalon-studio/docs/webui-verify-option-selected-by-index.html
+              - title: "[WebUI] Verify Option Selected By Label"
+                url: /katalon-studio/docs/webui-verify-option-selected-by-label.html
+              - title: "[WebUI] Verify Option Selected By Value"
+                url: /katalon-studio/docs/webui-verify-option-selected-by-value.html
+              - title: "[WebUI] Verify Options Present"
+                url: /katalon-studio/docs/webui-verify-options-present.html              
+              - title: "[WebUI] Verify Text Not Present"
+                url: /katalon-studio/docs/webui-verify-text-not-present.html
+              - title: "[WebUI] Verify Text Present"
+                url: /katalon-studio/docs/webui-verify-text-present.html
+              - title: "[WebUI] Wait For Alert"
+                url: /katalon-studio/docs/webui-wait-for-alert.html
+              - title: "[WebUI] Wait For Angular Load" 
+                url: /katalon-studio/docs/webui-wait-for-angular-load.html 
+              - title: "[WebUI] Wait For Element Attribute Value"
+                url: /katalon-studio/docs/webui-wait-for-element-attribute-value.html 
+              - title: "[WebUI] Wait For Element Clickable" 
+                url: /katalon-studio/docs/webui-wait-for-element-clickable.html 
+              - title: "[WebUI] Wait For Element Has Attribute"  
+                url: /katalon-studio/docs/webui-wait-for-element-has-attribute.html 
+              - title: "[WebUI] Wait For Element Not Clickable" 
+                url: /katalon-studio/docs/webui-wait-for-element-not-clickable.html
+              - title: "[WebUI] Wait For Element Not Has Attribute"
+                url: katalon-studio/docs/webui-wait-for-element-not-has-attribute.html 
+              - title: "[WebUI] Wait For Element Not Present" 
+                url: /katalon-studio/docs/webui-wait-for-element-not-present.html
+              - title: "[WebUI] Wait For Element Not Visible"
+                url: /katalon-studio/docs/webui-wait-for-element-not-visible.html 
+              - title: "[WebUI] Wait For Element Present"  
+                url: /katalon-studio/docs/webui-wait-for-element-present.html 
+              - title: "[WebUI] Wait For Element Visible"
+                url: /katalon-studio/docs/webui-wait-for-element-visible.html 
+              - title: "[WebUI] Wait For Image Present"
+                url: /katalon-studio/docs/webui-wait-for-image-present.html
+              - title: "[WebUI] Wait for jQuery Load"
+                url: /katalon-studio/docs/webui-wait-for-jquery-load.html
+              - title: "[WebUI] Wait For Page Load"
+                url: /katalon-studio/docs/webui-wait-for-page-load.html
+          - title: "Mobile Keywords"
+            tree:              
+              - title: "[Mobile] Close Application"
+                url: /katalon-studio/docs/mobile-close-application.html
+              - title: "[Mobile] Clear Text"
+                url: /katalon-studio/docs/mobile-clear-text.html
+              - title: "[Mobile] Close Notifications"
+                url: /katalon-studio/docs/mobile-close-notifications.html             
+              - title: "[Mobile] Check Element"
+                url: /katalon-studio/docs/mobile-check-element.html
+              - title: "[Mobile] Drag And Drop"
+                url: /katalon-studio/docs/mobile-drag-and-drop.html
+              - title: "[Mobile] Find Image Element"
+                url: /katalon-studio/docs/mobile-find-image-element.html
+              - title: "[Mobile] Find Image Elements"
+                url: /katalon-studio/docs/mobile-find-image-elements.html 
+              - title: "[Mobile] Get Attribute"
+                url: /katalon-studio/docs/mobile-get-attribute.html
+              - title: "[Mobile] Get Element Height"
+                url: /katalon-studio/docs/mobile-get-element-height.html
+              - title: "[Mobile] Get Element Left Position"
+                url: /katalon-studio/docs/mobile-get-element-left-position.html
+              - title: "[Mobile] Get Element Top Position"
+                url: /katalon-studio/docs/mobile-get-element-top-position.html
+              - title: "[Mobile] Get Element Width"
+                url: /katalon-studio/docs/mobile-get-element-width.html          
+              - title: "[Mobile] Get Current Orientation"
+                url: /katalon-studio/docs/mobile-get-current-orientation.html
+              - title: "[Mobile] Get Device Height"
+                url: /katalon-studio/docs/mobile-get-device-height.html
+              - title: "[Mobile] Get Device Manufacturer"
+                url: /katalon-studio/docs/mobile-get-device-manufacturer.html
+              - title: "[Mobile] Get Device OS"
+                url: /katalon-studio/docs/mobile-get-device-os.html
+              - title: "[Mobile] Get Device OS Version"
+                url: /katalon-studio/docs/mobile-get-device-os-version.html
+              - title: "[Mobile] Get Device Width"
+                url: /katalon-studio/docs/mobile-get-device-width.html
+              - title: "[Mobile] Get Text"
+                url: /katalon-studio/docs/mobile-get-text.html
+              - title: "[Mobile] Hide Keyboard"
+                url: /katalon-studio/docs/mobile-hide-keyboard.html
+              - title: "[Mobile] Open Notifications"
+                url: /katalon-studio/docs/mobile-open-notifications.html
+              - title: "[Mobile] Press Back"
+                url: /katalon-studio/docs/mobile-press-back.html
+              - title: "[Mobile] Press Home"
+                url: /katalon-studio/docs/mobile-press-home.html
+              - title: "[Mobile] Pinch To Zoom In At Position"
+                url: /katalon-studio/docs/mobile-pinch-to-zoom-in-at-position.html
+              - title: "[Mobile] Pinch To Zoom Out At Position"
+                url: /katalon-studio/docs/mobile-pinch-to-zoom-out-at-position.html
+              - title: "[Mobile] Run iOS App in Background and Wait"
+                url: /katalon-studio/docs/mobile-run-ios-app-in-background-and-wait.html
+              - title: "[Mobile] Scroll To Text"
+                url: /katalon-studio/docs/mobile-scroll-to-text.html
+              - title: "[Mobile] Send Keys"
+                url: /katalon-studio/docs/mobile-send-keys.html
+              - title: "[Mobile] Select List Item By Index"
+                url: /katalon-studio/docs/mobile-select-list-item-by-index.html
+              - title: "[Mobile] Select List Item By Label"
+                url: /katalon-studio/docs/mobile-select-list-item-by-label.html
+              - title: "[Mobile] Set Slider Value"
+                url: /katalon-studio/docs/mobile-set-slider-value.html
+              - title: "[Mobile] Set Text"
+                url: /katalon-studio/docs/mobile-set-text.html
+              - title: "[Mobile] Switch To Landscape"
+                url: /katalon-studio/docs/mobile-switch-to-landscape.html
+              - title: "[Mobile] Switch To Native"
+                url: /katalon-studio/docs/mobile-switch-to-native.html
+              - title: "[Mobile] Switch To Portrait"
+                url: /katalon-studio/docs/mobile-switch-to-portrait.html
+              - title: "[Mobile] Switch To Web View"
+                url: /katalon-studio/docs/mobile-switch-to-web-view.html
+              - title: "[Mobile] Start Application"
+                url: /katalon-studio/docs/mobile-start-application.html
+              - title: "[Mobile] Start Existing Application"
+                url: /katalon-studio/docs/mobile-keyword-start-existing-apps.html 
+              - title: "[Mobile] Swipe"
+                url: /katalon-studio/docs/mobile-swipe.html
+              - title: "[Mobile] Take Screenshot"
+                url: /katalon-studio/docs/mobile-take-screenshot.html
+              - title: "[Mobile] Tap"
+                url: /katalon-studio/docs/mobile-tap.html
+              - title: "[Mobile] Tap At Position"
+                url: /katalon-studio/docs/mobile-tap-at-position.html
+              - title: "[Mobile] Tap And Hold"
+                url: /katalon-studio/docs/mobile-tap-and-hold.html
+              - title: "[Mobile] Tap And Hold At Position"
+                url: /katalon-studio/docs/mobile-tap-and-hold-at-position.html
+              - title: "[Mobile] Tap on Image"
+                url: /katalon-studio/docs/mobile-tap-image.html
+              - title: "[Mobile] Toggle Airplane Mode"
+                url: /katalon-studio/docs/mobile-toggle-airplane-mode.html
+              - title: "[Mobile] Unlock Screen"
+                url: /katalon-studio/docs/mobile-unlock-screen.html
+              - title: "[Mobile] Uncheck Element"
+                url: /katalon-studio/docs/mobile-uncheck-element.html
+              - title: "[Mobile] Verify Image Present"
+                url: /katalon-studio/docs/mobile-verify-image-present.html
+              - title: "[Mobile] Verify Is Landscape"
+                url: /katalon-studio/docs/mobile-verify-is-landscape.html
+              - title: "[Mobile] Verify Is Portrait"
+                url: /katalon-studio/docs/mobile-verify-is-portrait.html
+              - title: "[Mobile] Verify Element Attribute Value"
+                url: /katalon-studio/docs/mobile-verify-element-attribute-value.html
+              - title: "[Mobile] Verify Element Checked"
+                url: /katalon-studio/docs/mobile-verify-element-checked.html
+              - title: "[Mobile] Verify Element Exist"
+                url: /katalon-studio/docs/mobile-verify-element-exist.html
+              - title: "[Mobile] Verify Element Has Attribute"
+                url: /katalon-studio/docs/mobile-verify-element-has-attribute.html
+              - title: "[Mobile] Verify Element Not Checked"
+                url: /katalon-studio/docs/mobile-verify-element-not-checked.html
+              - title: "[Mobile] Verify Element Not Exist"
+                url: /katalon-studio/docs/mobile-verify-element-not-exist.html
+              - title: "[Mobile] Verify Element Not Has Attribute"
+                url: /katalon-studio/docs/mobile-verify-element-not-has-attribute.html
+              - title: "[Mobile] Verify Element Not Visible"
+                url: /katalon-studio/docs/mobile-verify-element-not-visible.html
+              - title: "[Mobile] Verify Element Visible"
+                url: /katalon-studio/docs/mobile-verify-element-visible.html
+              - title: "[Mobile] Wait For Element Attribute Value"
+                url: /katalon-studio/docs/mobile-wait-for-element-attribute-value.html
+              - title: "[Mobile] Wait For Element Has Attribute"
+                url: /katalon-studio/docs/mobile-wait-for-element-has-attribute.html
+              - title: "[Mobile] Wait For Element Not Has Attribute"
+                url: /katalon-studio/docs/mobile-wait-for-element-not-has-attribute.html
+              - title: "[Mobile] Wait For Element Present"
+                url: /katalon-studio/docs/mobile-wait-for-element-present.html
+          - title: "Web Service Keywords"
+            tree:    
+              - title: "[WS] Contains String"
+                url: /katalon-studio/docs/ws-contains-string.html          
+              - title: "[WS] Send Request"
+                url: /katalon-studio/docs/ws-send-request.html              
+              - title: "[WS] Verify Element Property Value"
+                url: /katalon-studio/docs/ws-verify-element-property-value.html
+              - title: "[WS] Verify Elements Count"
+                url: /katalon-studio/docs/ws-verify-elements-count.html
+              - title: "[WS] Verify Element Text"
+                url: /katalon-studio/docs/ws-verify-element-text.html
+              - title: "[WS] Verify Response Status Code"
+                url: /katalon-studio/docs/ws-verify-response-status-code.html
+              - title: "[WS] Verify Response Status Code In Range"
+                url: /katalon-studio/docs/ws-verify-response-status-code-in-range.html
+          - title: "Windows Keywords"
+            tree:
+              - title: "[Windows] Clear Text"
+                url: /katalon-studio/docs/windows-kw-clear-text.html
+              - title: "[Windows] Close Application"
+                url: /katalon-studio/docs/windows-kw-close-app.html              
+              - title: "[Windows] Click"
+                url: /katalon-studio/docs/windows-kw-click.html
+              - title: "[Windows] Double-click"
+                url: /katalon-studio/docs/windows-kw-double-click.html
+              - title: "[Windows] Find Element"
+                url: /katalon-studio/docs/windows-kw-findelement.html
+              - title: "[Windows] Find Elements"
+                url: /katalon-studio/docs/windows-kw-findelements.html
+              - title: "[Windows] Get Text"
+                url: /katalon-studio/docs/windows-kw-get-text.html
+              - title: "[Windows] Get Driver"
+                url: /katalon-studio/docs/windows-kw-get-driver.html
+              - title: "[Windows] Right-click"
+                url: /katalon-studio/docs/windows-kw-rightclick.html
+              - title: "[Windows] Send Keys"
+                url: /katalon-studio/docs/windows-kw-senkey.html 
+              - title: "[Windows] Set Text"
+                url: /katalon-studio/docs/windows-kw-set-text.html    
+              - title: "[Windows] Start Application"
+                url: /katalon-studio/docs/windows-kw-start-app.html   
+              - title: "[Windows] Switch To Desktop"
+                url: /katalon-studio/docs/windows-kw-switch-desktop.html
+              - title: "[Windows] Switch To Application"
+                url: /katalon-studio/docs/windows-kw-switch-app.html
+          - title: "Cucumber Keywords"
+            tree:
+            - title: "[Cucumber] Run Feature File with Tags"
+              url: /katalon-studio/docs/cucumber-kw-run-feature-file-tag.html
+            - title: "[Cucumber] Run Feature File"
+              url: /katalon-studio/docs/cucumber-kw-run-feature-file.html
+            - title: "[Cucumber] Run Feature Folder with Tags"
+              url: /katalon-studio/docs/cucumber-kw-run-feature-folder-tag.html
+            - title: "[Cucumber] Run Feature Foler"
+              url: /katalon-studio/docs/cucumber-kw-run-feature-folder.html
+            - title: "[Cucumber] Run with Cucumber Runner"
+              url: /katalon-studio/docs/cucumber-kw-run-cucumber-runner.html
+          - title: "Custom Keywords"
+            tree:
+              - title: "Introduction to Custom Keywords"
+                url: /katalon-studio/docs/introduction-to-custom-keywords.html
+              - title: "Sample Custom Keywords"
+                url: /katalon-studio/docs/sample-custom-keywords.html
+              - title: "Import/Export Keywords"
+                url: /katalon-studio/docs/importexport-keywords.html
+              - title: "Custom Keywords Refactoring"
+                url: /katalon-studio/docs/custom-keywords-refactor.html
+              - title: "Import Custom Keywords classes recursively"
+                url: /katalon-studio/docs/import-custom-keywords-classes-recursively.html
+              - title: "Mark test's status for a Custom Keyword"
+                url: /katalon-studio/docs/mark-tests-status-for-a-custom-keyword.html
+              - title: "Handling Databases"
+                url: /katalon-studio/docs/handling-databases.html
           - title: "Utilities Keywords"
             tree:
               - title: "[Common] Call Test Case"
@@ -1073,6 +973,10 @@ items:
                 url: /katalon-studio/docs/dynamic-test-suite.html
           - title: "Headless Browsers Execution"
             url: /katalon-studio/docs/headless-browsers-execution.html
+          - title: "Selenium Grid - Execution on Remote Machines" 
+            url: /katalon-studio/docs/selenium-grid-integration.html
+          - title: "Executing Tests on Multiple Devices in Parallel"
+            url: /katalon-studio/docs/execute_tests_parallelly_multiple_devices.html
           - title: "Reports"
             tree:
               - title: "Test Suite Report"
@@ -1086,25 +990,11 @@ items:
               - title: "Video Capturing"
                 url: /katalon-studio/docs/video-capturing.html
               - title: "Get generated Reports location at runtime"
-                url: /katalon-studio/docs/get-generated-reports-location-at-runtime.html
-          - title: "Desired Capabilities"
-            tree:
-              - title: "Introduction to Desired Capabilities"
-                url: /katalon-studio/docs/introduction-to-desired-capabilities.html
-              - title: "Desired Capabilities for Firefox/Firefox (headless)"
-                url: /katalon-studio/docs/desired-capabilities-for-firefoxfirefox-headless.html
-              - title: "Desired Capabilities for Chrome/Chrome (headless)"
-                url: /katalon-studio/docs/desired-capabilities-for-chromechrome-headless.html
-              - title: "Desired Capabilities for Internet Explorer"
-                url: /katalon-studio/docs/desired-capabilities-for-internet-explorer.html
-              - title: "Remote Desired Capabilities"
-                url: /katalon-studio/docs/remote-desired-capabilities.html
-              - title: "Desired Capabilities for Windows"
-                url: /katalon-studio/docs/windows-desired-capabilities.html
-          - title: "Executing Tests on Multiple Devices in Parallel"
-            url: /katalon-studio/docs/execute_tests_parallelly_multiple_devices.html
+                url: /katalon-studio/docs/get-generated-reports-location-at-runtime.html         
       - title: "Data-driven Testing"
         tree:
+          - title: "Data-driven Testing with Katalon Studio"
+            url: /katalon-studio/docs/ddt.html
           - title: "Global Variables"
             tree:
               - title: "Global Variables"
@@ -1117,12 +1007,14 @@ items:
             url: /katalon-studio/docs/test-case-variables.html
           - title: "Run Test Case with an external data source"
             url: /katalon-studio/docs/run-test-case-external-data.html
-          - title: "Combine Multiple Data Sources"
-            url: /katalon-studio/docs/combine-multiple-data-sources.html
-          - title: "Manage Test Data"
-            url: /katalon-studio/docs/manage-test-data.html
           - title: "Enhanced Variable Binding"
             url: /katalon-studio/docs/bind-as-string.html
+          - title: "Manage Test Data"
+            url: /katalon-studio/docs/manage-test-data.html
+          - title: "Database Settings"
+            url: /katalon-studio/docs/database-settings.html
+          - title: "Combine Multiple Data Sources"
+            url: /katalon-studio/docs/combine-multiple-data-sources.html
       - title: "BDD Testing Framework"
         tree:
           - title: "Cucumber Features File"
@@ -1135,7 +1027,7 @@ items:
         tree:
           - title: "Katalon API Keys"
             url: /katalon-studio/docs/katalon-apikey-70.html 
-          - title: "Katalon Analytics (Beta) Integration"
+          - title: "Katalon TestOps Integration"
             url: /katalon-studio/docs/katalon-analytics-beta-integration.html
           - title: "Jira Integration"
             tree:
@@ -1147,40 +1039,14 @@ items:
                 url: /katalon-studio/docs/BDD-field-jira-cloud.html
               - title: "Working with JIRA"
                 url: /katalon-studio/docs/working-with-jira.html
-          - title: "CI/CD Integration"
+          - title: "Git Integration"
             tree:
-              - title: "Console Mode Execution (Command-line Execution)"
-                url: /katalon-studio/docs/console-mode-execution.html
-              - title: "Docker & Cloud CIs"
-                url: /katalon-studio/docs/docker.html
-              - title: "Export Test Results in JUnit Format"
-                url: /katalon-studio/docs/export-test-results-in-junit-format.html
-              - title: "Bamboo Integration"
-                url: /katalon-studio/docs/bamboo-integration.html
-              - title: "Jenkins Integration"
-                url: /katalon-studio/docs/jenkins-integration.html
-              - title: "VSTS/TFS/VSO Integration"
-                url: /katalon-studio/docs/vststfsvso-integration.html
-              - title: "Continuous integration with Gitlab"
-                url: /katalon-studio/docs/continuous_integration_gitlab.html
-              - title: "E2E testing integration with CircleCI"
-                url: /katalon-studio/docs/integration-circleci.html
-          - title: "CI/CD Plugins"
-            tree:
-              - title: "Common Configuration"
-                url: /katalon-studio/docs/common-configuration.html
-              - title: "Jenkins Plugin"
-                tree:
-                  - title: "On Windows"
-                    url: /katalon-studio/docs/jenkins-plugin-windows.html
-                  - title: "On Ubuntu"
-                    url: /katalon-studio/docs/jenkins-plugin-ubuntu.html
-              - title: "Bamboo Add-on"
-                url: /katalon-studio/docs/bamboo-plugin.html
-              - title: "Azure DevOps Extension"
-                url: /katalon-studio/docs/azure-devops-extension.html
-              - title: "TeamCity Plugin"
-                url: /katalon-studio/docs/teamcity-plugin.html
+              - title: "Git Integration"
+                url: /katalon-studio/docs/git-integration.html
+              - title: "Resolve Git conflicts using Katalon Studio"
+                url: /katalon-studio/docs/git_conflict_resolve.html
+          - title: "Slack Integration"
+            url: /katalon-studio/docs/slack-integration.html
           - title: "Test Management Integrations"
             tree:
               - title: "qTest Integration"
@@ -1195,7 +1061,7 @@ items:
                   - title: "Upload test execution"
                     url: /katalon-studio/docs/upload-test-execution.html
               - title: "TestRail integration"
-                url: /katalon-studio/docs/katalon-testrail-integration.html
+                url: /katalon-studio/docs/katalon-testrail-integration.html 
           - title: "Other Integrations"
             tree:
               - title: "Kobiton Integration"
@@ -1204,24 +1070,66 @@ items:
                     url: /katalon-studio/docs/enable-kobiton-integration.html
                   - title: "Desired Capabilities for Kobiton Devices"
                     url: /katalon-studio/docs/desired-capabilities-for-kobiton-devices.html
+                  - title: "How to integrate with Kobiton"
+                    url: /katalon-studio/docs/integrate_with_kobiton.html
+                  - title: "Use additional desired capabilities for Kobiton devices"
+                    url: /katalon-studio/docs/use-additional-desired-capabilities-for-kobiton-devices.html
               - title: "BrowserStack Integration"
                 url: /katalon-studio/docs/browserstack-integration.html      
               - title: "SauceLabs Integration"
                 url: /katalon-studio/docs/saucelabs-integration.html
               - title: "LambdaTest Integration"
                 url: /katalon-studio/docs/lambdatest-integration.html
-              - title: "Slack Integration"
-                url: /katalon-studio/docs/slack-integration.html
-      - title: "Collaboration"
+              - title: "JMeter Integration "
+                url: /katalon-studio/docs/jmeter-integration.html
+      - title: "Katalon Studio Plugins"
         tree:
-          - title: "Git Integration"
-            tree:
-              - title: "Git Integration"
-                url: /katalon-studio/docs/git-integration.html
-              - title: "Resolve Git conflicts using Katalon Studio"
-                url: /katalon-studio/docs/git_conflict_resolve.html
-          - title: "Test Artifacts Sharing"
-            url: /katalon-studio/docs/import-export-test-artifact.html
+          - title: "Jira Integration"
+            url: /katalon-studio/docs/jira-plugin-integration.html
+          - title: "Slack Integration"
+            url: /katalon-studio/docs/slack-plugin-integration.html
+          - title: "Auto-healing Smart XPath"
+            url: /katalon-studio/docs/auto-healing-smart-xpath.html
+          - title: "TestRail Integration"
+            url: /katalon-studio/docs/testrail-integration.html
+          - title: "Test Case Management With Tags"
+            url: /katalon-studio/docs/test-case-management-with-tags.html
+          - title: "Basic Search For Dynamic Test Suite"
+            url: /katalon-studio/docs/basic-search-for-dynamic-querying-test-suite.html
+          - title: "Applitools Integration"
+            url: /katalon-studio/docs/applitools-integration.html
+          - title: "Basic Report"
+            url: /katalon-studio/docs/basic-report.html
+          - title: "Test Suite Collection Scheduler"
+            url: /katalon-studio/docs/test-suite-collection-scheduler.html
+          - title: "TestLink Integration"
+            url: /katalon-studio/docs/testlink-integration.html
+          - title: "Sauce Labs Integration"
+            url: /katalon-studio/docs/saucelabs-plugin.html
+          - title: "Rally Integration"
+            url: /katalon-studio/docs/rally-integration.html
+          - title: "Private Plugins"
+            url: /katalon-studio/docs/private-plugins.html
+          - title: "Use Plugins Offline"
+            url: /katalon-studio/docs/offline-plugin.html
+      - title: "Extend Katalon Studio"
+        tree:
+          - title: "Create your first Katalon Studio plugin"
+            url: /katalon-store/docs/publisher/create-plugin.html
+          - title: "How to develop a Custom Keywords plugin"
+            url: /katalon-store/docs/publisher/develop-custom-keywords.html
+          - title: "Debug your platform plugin using Eclipse IDE"
+            url: /katalon-store/docs/publisher/debug-platform-plugin.html
+          - title: "Build custom keywords with Settings"
+            url: /katalon-store/docs/publisher/build-CK-settings.html
+          - title: "How to resolve external dependencies for a plugin"
+            url: /katalon-store/docs/publisher/resolve-external-dependencies.html
+          - title: "Develop a customized report plugin"
+            url: /katalon-store/docs/publisher/generate-customized-report.html
+          - title: "How to generate groovydoc for a plugin"
+            url: /katalon-store/docs/publisher/generate-groovydoc.html
+          - title: "Example plugin: Build Katalon Studio's TestRail Integration plugin"
+            url: /katalon-store/docs/publisher/example-plugin-testrail.html   
       - title: "Troubleshooting"
         tree:
           - title: "Troubleshooting web automated testing"
@@ -1290,98 +1198,148 @@ items:
             url: /katalon-studio/docs/soap-pre-54.html
           - title: "Spy Web Utility (version 4.8 and below)"
             url: /katalon-studio/docs/spy-web-utility-version-48-and-below.html
-  - title: "Katalon Studio Plugins"
+          - title: "VSTS/TFS/VSO Integration"
+            url: /katalon-studio/docs/vststfsvso-integration.html
+          - title: "Jenkins Integration"
+            url: /katalon-studio/docs/jenkins-integration.html
+  - title: "Katalon Runtime Engine"
     tree:
-      - title: "Jira Integration"
-        url: /katalon-studio/docs/jira-plugin-integration.html
-      - title: "Slack Integration"
-        url: /katalon-studio/docs/slack-plugin-integration.html
-      - title: "Auto-healing Smart XPath"
-        url: /katalon-studio/docs/auto-healing-smart-xpath.html
-      - title: "TestRail Integration"
-        url: /katalon-studio/docs/testrail-integration.html
-      - title: "Test Case Management With Tags"
-        url: /katalon-studio/docs/test-case-management-with-tags.html
-      - title: "Basic Search For Dynamic Test Suite"
-        url: /katalon-studio/docs/basic-search-for-dynamic-querying-test-suite.html
-      - title: "Applitools Integration"
-        url: /katalon-studio/docs/applitools-integration.html
-      - title: "Basic Report"
-        url: /katalon-studio/docs/basic-report.html
-      - title: "Test Suite Collection Scheduler"
-        url: /katalon-studio/docs/test-suite-collection-scheduler.html
-      - title: "TestLink Integration"
-        url: /katalon-studio/docs/testlink-integration.html
-      - title: "Sauce Labs Integration"
-        url: /katalon-studio/docs/saucelabs-plugin.html
-      - title: "Rally Integration"
-        url: /katalon-studio/docs/rally-integration.html
-      - title: "Private Plugins Introduction"
-        url: /katalon-studio/docs/private-plugins.html
-  - title: "Extend Katalon Studio"
-    tree:
-      - title: "Create your first Katalon Studio plugin"
-        url: /katalon-store/docs/publisher/create-plugin.html
-      - title: "How to develop a Custom Keywords plugin"
-        url: /katalon-store/docs/publisher/develop-custom-keywords.html
-      - title: "Debug your platform plugin using Eclipse IDE"
-        url: /katalon-store/docs/publisher/debug-platform-plugin.html
-      - title: "Build custom keywords with Settings"
-        url: /katalon-store/docs/publisher/build-CK-settings.html
-      - title: "How to resolve external dependencies for a plugin"
-        url: /katalon-store/docs/publisher/resolve-external-dependencies.html
-      - title: "Develop a customized report plugin"
-        url: /katalon-store/docs/publisher/generate-customized-report.html
-      - title: "How to generate groovydoc for a plugin"
-        url: /katalon-store/docs/publisher/generate-groovydoc.html
-      - title: "Example plugin: Build Katalon Studio's TestRail Integration plugin"
-        url: /katalon-store/docs/publisher/example-plugin-testrail.html
-  - title: "Katalon Analytics (Beta)"
+      - title: "Introduction to Runtime Engine"
+        url: /katalon-studio/docs/intro-RE.html
+      - title: "Install Runtime Engine"
+        url: /katalon-studio/docs/install-RE.html
+      - title: "Activate Runtime Engine"
+        url: /katalon-studio/docs/activate-RE.html
+      - title: "Export Test Results in JUnit Format"
+        url: /katalon-studio/docs/export-test-results-in-junit-format.html
+      - title: "Command Syntax (Command-line/Console Mode Execution)"
+        url: /katalon-studio/docs/console-mode-execution.html
+      - title: "Docker Image"
+        url: /katalon-studio/docs/docker.html
+      - title: "Run with Cloud CIs"
+        url: /katalon-studio/docs/run-cloud-ci.html
+      - title: "Continuous integration with Gitlab"
+        url: /katalon-studio/docs/continuous_integration_gitlab.html
+      - title: "CI/CD Plugins"
+        tree:
+          - title: "Common Configuration"
+            url: /katalon-studio/docs/common-configuration.html
+          - title: "Jenkins Plugin"
+            tree:
+              - title: "On Windows"
+                url: /katalon-studio/docs/jenkins-plugin-windows.html
+              - title: "On Ubuntu"
+                url: /katalon-studio/docs/jenkins-plugin-ubuntu.html
+          - title: "Bamboo Add-on"
+            url: /katalon-studio/docs/bamboo-addon.html
+          - title: "Azure DevOps Extension"
+            url: /katalon-studio/docs/azure-devops-extension.html
+          - title: "TeamCity Plugin"
+            url: /katalon-studio/docs/teamcity-plugin.html
+          - title: "Integration with CircleCI (Katalon Orb)"
+            url: /katalon-studio/docs/integration-circleci.html
+      - title: "Troubleshoot"
+        tree:
+          - title: "joptsimple.IllegalOptionSpecificationException: $ is not a legal option character"
+            url: /katalon-studio/docs/troubleshoot-globalvariable-special-character.html
+  - title: "Katalon Store"
     tree:
       - title: "Overview"
-        url: /katalon-analytics/docs/overview.html
-      - title: "Getting Started"
-        url: /katalon-analytics/docs/getting-started.html
-      - title: "Glossary"
-        url: /katalon-analytics/docs/ka-glossary.html
-      - title: "API Keys"
-        url: /katalon-analytics/docs/ka-api-key.html
-      - title: "Agents"
-        url: /katalon-analytics/docs/agents.html
-      - title: "Grid - TestOps Cloud"
-        url: /katalon-analytics/docs/grid-testops-cloud.html
-      - title: "Grid - Local Agents"
-        url: /katalon-analytics/docs/grid-local-agents.html
-      - title: "Code Repo"
-        url: /katalon-analytics/docs/code-repo.html
-      - title: "Project Management"
+        url: /katalon-store/docs/overview.html
+      - title: "Install, use, and review a Plugin"
+        url: /katalon-store/docs/user/getting-started.html
+      - title: "Access to Katalon Store in Katalon Studio"
+        url: /katalon-store/docs/user/access-store-in-KS.html
+      - title: "Manage API Keys"
+        url: /katalon-store/docs/user/API-key.html
+      - title: "Use Plugins in Katalon Studio's Console Mode"
+        url: /katalon-store/docs/user/plugin-console-installation.html 
+      - title: "Essential Plugins Bundle"
+        url: /katalon-store/docs/user/essential-plugin-bundle.html
+      - title: "Submit and publish plugins"
         tree:
+          - title: "Submit and publish a new plugin"
+            url: /katalon-store/docs/publisher/submit-plugin.html
+          - title: "Plugin document guidelines"
+            url: /katalon-store/docs/publisher/document-guidelines.html
+          - title: "Brand guidelines for Katalon Store publishers"
+            url: /katalon-store/docs/publisher/publisher-guidelines.html
+          - title: "Plugin approval guidelines"
+            url: /katalon-store/docs/publisher/approval-guidelines.html
+          - title: "Manage published plugins"
+            url: /katalon-store/docs/publisher/manage-published-plugins.html
+  - title: "Katalon TestOps (Beta)"
+    tree:
+      - title: "Get Started"
+        tree: 
+          - title: "Overview"
+            url: /katalon-analytics/docs/overview.html
+          - title: "Getting Started"
+            url: /katalon-analytics/docs/getting-started.html
+          - title: "Glossary"
+            url: /katalon-analytics/docs/ka-glossary.html
+          - title: "API Keys"
+            url: /katalon-analytics/docs/ka-api-key.html
+          - title: "User Role and Permission"
+            url: /katalon-analytics/docs/kt-user-role-permission.html
+          - title: "User Management"
+            url: /katalon-analytics/docs/user-management.html
           - title: "Introduction to Project Toolbar"
-            url: /katalon-analytics/docs/project-management-main-toolbar.html 
-          - title: "Upload Test Results"
-            tree:
-              - title: "Upload Test Results from Katalon Studio"
-                url: /katalon-analytics/docs/project-management-import-KS.html
-              - title: "Upload Test Results using Command Line"
-                url: /katalon-analytics/docs/project-management-import-cli.html
+            url: /katalon-analytics/docs/project-management-main-toolbar.html
+      - title: "Test Results and Monitoring"
+        tree:
+          - title: "Integration with Katalon Studio"
+            url: /katalon-analytics/docs/integration-with-katalon-studio.html
+          - title: "Upload Test Results from Katalon Studio"
+            url: /katalon-analytics/docs/project-management-import-KS.html
+          - title: "Upload Test Results using Command Line"
+            url: /katalon-analytics/docs/project-management-import-cli.html
+          - title: "Delete a project or a test execution"
+            url: /katalon-analytics/docs/project-management-delete.html
+      - title: "Remote Execution"
+        tree: 
+          - title: "Overview"
+            url: /katalon-analytics/docs/kt-remote-execution.html
+          - title: "Install and Manage Agents"
+            url: /katalon-analytics/docs/agents.html
+          - title: "Upload Test Projects"
+            url: /katalon-analytics/docs/code-repo.html
+          - title: "Schedule Remote Execution"
+            url: /katalon-analytics/docs/kt-scheduler.html
+          - title: "Execute Scheduled Tests"
+            url: /katalon-analytics/docs/grid-local-agents.html
+          - title: "Configure Notification Emails" 
+            url: /katalon-analytics/docs/kt-noti-email.html
+          - title: "Integration with Jenkins"
+            url: /katalon-analytics/docs/ka-integration-jenkins.html
+      - title: "Reports and Analytics"
+        tree: 
           - title: "View Reports"
             url: /katalon-analytics/docs/project-management-view-reports.html
           - title: "View Test Execution, Test Suite and Test Case Details"
             url: /katalon-analytics/docs/project-management-view-details.html
           - title: "Filter and Sort"
             url: /katalon-analytics/docs/project-management-filter-and-sort.html
-          - title: "Delete a project or a test execution"
-            url: /katalon-analytics/docs/project-management-delete.html
           - title: "Task Management"
             url: /katalon-analytics/docs/project-management-task.html
-      - title: "User Management"
-        url: /katalon-analytics/docs/user-management.html
-      - title: "Integration"
+      - title: "Integration with Jira"
         tree:
-          - title: "Integration with Katalon Studio"
-            url: /katalon-analytics/docs/integration-with-katalon-studio.html
-          - title: "Integration with Jira"
+          - title: "Overview"
             url: /katalon-analytics/docs/ka-integration-jira.html
+          - title: "Configurations"
+            url: /katalon-analytics/docs/kt-jira-config.html
+          - title: "Working with Jira Issues"
+            url: /katalon-analytics/docs/kt-jira-issue.html
+          - title: "Working with Jira Releases"
+            url: /katalon-analytics/docs/kt-jira-release.html
+  - title: "Katalon TestOps OnPremise"
+    tree:
+      - title: "Overview"
+        url: /katalon-analytics/docs/ktop-overview.html
+      - title: "Install and Setup"
+        url: /katalon-analytics/docs/testops-op-installation.html
+      - title: "Configure Mail Server"
+        url: /katalon-analytics/docs/kt-op-mail-server.html
   - title: "Katalon Recorder"
     tree:
       - title: "Overview"

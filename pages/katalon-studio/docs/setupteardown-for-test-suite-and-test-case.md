@@ -4,7 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/setupteardown-for-test-suite-and-test-case.html
 redirect_from:
     - "/x/E4C9/"
-    - "/katalon-studio/docs/setupteardown-for-test-suite-and-test-case/"
+    
 description:
 ---
 > Available since Katalon Studio v5.3

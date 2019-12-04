@@ -2,46 +2,32 @@
 title: "Basic Report"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/basic-report.html
-redirect_from:
-    - "/katalon-studio/docs/basic-report/"
-
 description: Guide on how to use Basic Report plugin
 ---
-Basic Report Plugin is a Custom Keyword that replaces the current Report feature of Katalon Studio. Since [version 6.1.5](https://docs.katalon.com/katalon-studio/new/version-615.html), the Report feature has been migrated to Basic Report plugin.  Users need to install this plugin to continue using the feature.
+Basic Report Plugin is a Custom Keyword that replaces the current Report feature of Katalon Studio. Starting from [version 6.1.5](https://docs.katalon.com/katalon-studio/new/version-615.html), the Report feature has been migrated to the Basic Report plugin.  You need to install this plugin to generate reports of Test Suite execution with HTML, CSV, and PDF formats.
 
-> [Install Basic Report now!](https://store.katalon.com/product/59/Basic-Report)
+> [Install Basic Report](https://store.katalon.com/product/59/Basic-Report)
 
-## Features
+Starting from version 7.0, Katalon Studio automatically generates junit report for both Test Suite and Test Suite Collection.
 
-- Generates reports automatically for Test Suite executions.
-- Generates reports manually via the context menu.
-- Supported formats: HTML, CSV, JUnit, and PDF.
+## Automatically generate reports
 
-## Usage
+1. In **Project > Settings > Plugins > Report**, select the formats of reports that will be automatically generated after each Test Suite execution.
 
-### Automatically generate reports
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/Basic%20Report/report-settings.png" width="546" height="318">
 
-1. Open `Project/Settings/Plugin/Report`, select the reports that will be generated automatically after each Test Suite execution.
+2. Execute a Test Suite and observe the *Log Viewer* after the test execution completes. The generated reports will be the same as the settings you've configured above.
 
-![Report Setting](https://i.ibb.co/GJK0tR4/report-setting.png)
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/Basic%20Report/log-viewer.png" width="391" height="87">
 
-2. Run a test suite and observe the *Log Viewer*, the *Report Folder* after the test execution completes. The generated reports will be the same as the settings you've configured above.
+   You can view the generated reports in **<project_folder>\\Reports\\<execution_folder>** after the test execution finishes.
 
-Log Viewer after a test execution:
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/Basic%20Report/report-folder.png" width="" height="">
 
-![Log Viewer](https://i.ibb.co/z5JpbDp/log-viewer.png)
+## Manually export reports
 
-Report Folder after a test execution:
-
-![Report Folder](https://i.ibb.co/tLGHXvK/report-folder.png)
-
-### Manually export reports
-
-Select **Export report** on the top right corner of a Test Suite or a Test Suite Collection, then choose a report format to export.
+Open the **Result** view of a Test Suite or a Test Suite Collection > on the top right corner, select **Export report** > choose a format to export.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/Basic%20Report/report%201.png" width="1030" height="181">
 
-Currenly, Katalon studio only supports exporting Test Suite Collection reports to HTML format.
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/Basic%20Report/report%202.png" width="1034" height="149">
-
+> For Test Suite Collection, you can export to HTML format only.

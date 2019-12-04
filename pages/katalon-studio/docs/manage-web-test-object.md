@@ -7,6 +7,8 @@ redirect_from:
     - "/display/KD/Manage%20Test%20Object/"
     - "/x/HoUw/"
     - "/katalon-studio/docs/manage-test-object/"
+    - "/katalon-studio/docs/manage+test+object/"
+    - "/katalon-studio/docs/manage%20test%20object/"
 description: 
 ---
 ## Create a Test Object

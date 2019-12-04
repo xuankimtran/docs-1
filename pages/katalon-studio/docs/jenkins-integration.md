@@ -12,7 +12,7 @@ redirect_from:
 description:
 ---
 
-This feature has been moved to [Jenkins plugin](https://plugins.jenkins.io/katalon).
+This feature has been moved to [Jenkins plugin](https://docs.katalon.com/katalon-studio/docs/jenkins-plugin-windows.html).
 
 <details><summary>Deprecated Content</summary>
 

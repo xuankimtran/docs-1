@@ -1,18 +1,27 @@
 ---
-title: "Version 7.0 (Beta)" 
+title: "Version 7.0" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/new/version-70.html
 redirect_from:
     - "/katalon-studio/new/version-70/"
-description: Release note 7.0 (beta)
+
+description: Release note 7.0
 ---
 
-## Version 7.0 (Beta)
+## Version 7.0.0- 7.0.10
 
-> **Katalon Studio 7.0 (Beta)** is currently available. Click [here](https://github.com/katalon-studio/katalon-studio/releases) to download.
+> **Katalon Studio 7.0** is currently available. Click [here](https://www.katalon.com/download/) to download.
 
 ### New Features
 
+* Support **Close and Clean up** item in Project menu for closing the project and removing the following items: `.classpath`, and  `.project` files; `bin`, `Libs`, and `.settings` folders.
+* Support manually uploading Test Suite Collections' results to Katalon TestOps.
+* Support connecting to Git with SSH. [Learn more](https://docs.katalon.com/katalon-studio/docs/git-integration.html)
+* Allow configuring the usage tracked by Katalon Studio. [Learn more](https://docs.katalon.com/katalon-studio/docs/katalon-studio-preferences.html).
+* Support data-driven testing with additional database sources. [Learn more](https://docs.katalon.com/katalon-studio/docs/database-settings.html).
+* Support attaching Katalon Studio's source code for debugging. [Learn more](https://docs.katalon.com/katalon-studio/docs/debugging_test_case.html).
+* Support customizing Test Explorer. [Learn more](https://docs.katalon.com/katalon-studio/docs/toolbars-and-views.html#tests-explorer-view).
+* Support Test Objects refactoring. [Learn more](https://docs.katalon.com/katalon-studio/docs/test-objects-refactoring.html).
 * Support Custom Keywords refactoring. [Learn more](https://docs.katalon.com/katalon-studio/docs/custom-keywords-refactor.html).
 * Support private plugins. [Learn more](https://docs.katalon.com/katalon-studio/docs/private-plugins.html).
 * Support Windows 10 desktop application testing. See [Windows Desktop Apps Test Design](https://docs.katalon.com/katalon-studio/docs/introduction-desktop-app-testing.html).
@@ -21,9 +30,22 @@ description: Release note 7.0 (beta)
 * Support [the WinAppDriver installation](https://docs.katalon.com/katalon-studio/docs/setup-winappdriver.html) and [`Terminate running WebDrivers`](https://docs.katalon.com/katalon-studio/docs/handle-webdrivers.html) options in Katalon Studio Tools.
 * Support WebDriver event listeners. [Learn more](https://docs.katalon.com/katalon-studio/docs/webdriver-event-listeners.html).
 * Support customizing the Console log. [Learn more](https://docs.katalon.com/katalon-studio/docs/working-with-execution-log.html).
+* Support Cucumber keywords executing one or multiple feature files with tags. Learn more about [runFeatureFileWithTags](https://docs.katalon.com/katalon-studio/docs/cucumber-kw-run-feature-file-tag.html) and [runFeatureFolderWithTags](https://docs.katalon.com/katalon-studio/docs/cucumber-kw-run-feature-folder-tag.html).
 
-### Improvements
+### Changes and Improvements
 
+* [Web Service] Encode special characters in query parameters.
+* Revert **IEDriverServer** from 3.141.59 to 3.6.0.
+* [Console mode] The `katalon` launcher is replaced by `katalonc` and there is a separate app named **Katalon Studio Runtime Engine** for executing Katalon Studio in console mode. Click [here](https://www.katalon.com/download/) to download.
+* Convert **qTest** and **Kobiton** built-in integrations into plugins.
+* Display errors of test scripts in the **Problems** view.
+* Support ChromeDriver version 77 and IEDriverServer version 3.141.59.
+* Show a full stack trace of an exception thrown by custom classes in Test Hooks.
+* Support manually uploading test suite collections' results to Katalon TestOps.
+* [Web Service] Support passing proxy details through the script. [Learn more](https://docs.katalon.com/katalon-studio/docs/proxy-preferences.html#pass-proxy-details-through-the-script).
+* Update documents of [Katalon Studio API Specification](https://docs.katalon.com/javadoc/index.html) to version 7.0.0.
+* Upgrade Apache POI to version 3.17.
+* Dynamic Querying Test Suite is renamed Dynamic Test Suite.
 * Add plugins reloading options to the Project Settings.
 * Support parsing the Request Message's template from the associated `XSD` file when importing test objects from WSDL.
 * Support adding the Organisation ID parameter to the Command Generator.
@@ -39,7 +61,7 @@ description: Release note 7.0 (beta)
 * Support uploading Project Code from Katalon Studio to Katalon TestOps. [Learn more](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html).
 * Update the integration mechanism with Katalon TestOps. [Learn more](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html).
 * Update the integration configurations with Katalon TestOps when a new project is created.
-* Support autofilling the input of [Katalon API Key](https://docs.katalon.com/katalon-studio/docs/katalon-apikey-70.html) in the command-line generator.
+* Support auto-filling the input of [Katalon API Key](https://docs.katalon.com/katalon-studio/docs/katalon-apikey-70.html) in the command-line generator.
 * Support generating test results in JUnit format.
 * Support uploading reports of test suite collections to Katalon TestOps.
 * Remove unnecessary information in the console log when users execute in the console mode for the first time.
@@ -51,8 +73,23 @@ description: Release note 7.0 (beta)
 
 ### Fixes
 
+* Bug: [DDT] Cannot get values from data files with database type in a test case.
+* Bug: Cannot log in to Katalon Studio with passwords containing special characters.
+* Bug: [Web Service] SOAP response has an empty header.
+* Bug: Cannot reload plugins with credentials containing special characters.
+* Bug: The **Results** tab of Test Suites/Test Suite Collection fails to automatically refresh after the first execution.
+* Bug: **Show references** of test objects fails to display the objects' references in global variables and test case variables.
+* Bug: Cannot send SOAP requests when **WSDL** files contain the relative `xsi:schemaLocation`.
+* Bug: [WebUI Keyword] The `WebUI.clickImage` keyword fails to perform.
+* Bug: [Web Service] `getCurrentRequest()` always gets default values instead of a variable's values passed from test case.
+* Bug: Incorrectly return code when **Follow redirects** is disabled in Web Service Request. [More details](https://forum.katalon.com/t/followreridects-does-not-work/33800).
+* Bug: Cannot save modifications in the configuration tab of the Web Service Request.
+* Bug: Cannot detect mobile test objects having parameterized global variables in their properties.
+* Bug: [Console Mode] To retry executing failed test cases in Test Suite Collection fails to return the correct exit code.
+* Bug: [Data Binding] An issue causes binding Variables to Test Data to fail.
+* Bug: [WebService] Verification Editor doesn't keep Unicode characters.
 * Bug: [Mobile Testing] Cannot retry executing failed test cases.
-* Bug: Web service response displays garbled text as non-latin characters.
+* Bug: Web service response displays garbled text as non-Latin characters.
 * Bug: [Basic Report Plugin] CSV Report status is always Incomplete.
 * Bug: The Log Viewer’s cursor incorrectly renders when selecting a log message.
 * Bug: Newly added variables disappear after a switch from the Variable tab to another tab.

@@ -116,11 +116,9 @@ You can continue to record the failed test case, run the error test step, then i
 
  ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/introduction-to-web-testing/6.png)
 
- ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/introduction-to-web-testing/7.png)
+ ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/introduction-to-web-testing/77.png)
 
  ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/introduction-to-web-testing/8.png)
-
-
 
 **Step 5: Plan the test case in a test suite**
 

@@ -25,7 +25,7 @@ General
 Test Suite
 ----------
 
-Implement [**Setup** / **Teardown**](/pages/viewpage.action?pageId=12419091) for Test Suite. This feature is another great extension besides [Test Listener](/pages/viewpage.action?pageId=5126383) to extend your current testing flow as much as possible.
+Implement [**Setup** / **Teardown**](/x/E4C9) for Test Suite. This feature is another great extension besides [Test Listener](/pages/viewpage.action?pageId=5126383) to extend your current testing flow as much as possible.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-530/image2018-1-8-163A253A42.png)
 

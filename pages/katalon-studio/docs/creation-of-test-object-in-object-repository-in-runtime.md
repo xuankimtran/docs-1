@@ -1,5 +1,5 @@
 ---
-title: "Creation of Test Object in Object Repository in Runtime" 
+title: "Creation of Test Object in Memory at Runtime" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/creation-of-test-object-in-object-repository-in-runtime.html 
 redirect_from:

@@ -39,13 +39,23 @@ Environment Requirements
 Start Katalon Studio
 --------------------
 
-To start Katalon Studio, double-click on the **katalon.exe** (Microsoft Windows)
+### For Windows
+
+To start Katalon Studio, double-click on the **katalon.exe**.
 
 ![Download and Start Katalon Studio](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/install_setup_katalon_studio/Starting-Katalon-Studio.png)
 
-or **Katalon Studio** (macOS) file in the directory where you unpack Katalon Studio. For example:
+### For macOS
+
+**Katalon Studio** (macOS) file in the directory where you unpack Katalon Studio.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/install_setup_katalon_studio/Katalon-MacOS.png "init-size")
+
+> Notes: If you currently use macOS Catalina, you have to enable Katalon Studio and Katalon Studio Engine applications in  **System Preferences/ Security & Privacy/ General**.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/getting-started/KSE-catalina.png" width="665" height="559">
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/getting-started/KS-Catalina.png" width="662" height="569"> 
 
 Once started, the application should display the splash screen similar to the following screenshot:
 
@@ -54,9 +64,7 @@ Once started, the application should display the splash screen similar to the fo
 Activate Katalon Studio
 -----------------------
 
-If you don't have an account with Katalon Studio, provide your desired username and password to sign up after launching Katalon Studio. If you already have an account, choose the **Sign In** option and provide your credentials. If you don't have Internet access while activating Katalon Studio, request [an offline activation code](https://www.katalon.com/activation/) beforehand. For more details, refer to this [guide](/x/ERLR).
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/getting-started/image2018-8-30-143A133A37.png)
+If you don't have an account with Katalon Studio, provide your desired username and password to sign up after launching the app. If you have an account, please read more about licenses and how to activate each license in [Katalon Studio Licensing](https://docs.katalon.com/katalon-studio/docs/license.html).
 
 Configurations for Web UI Testing
 ---------------------------------

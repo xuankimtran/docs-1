@@ -33,7 +33,7 @@ Step 2 : Start Jenkins (command : java -jar jenkins.war)
 
 [JENKINS introduction video](https://youtu.be/89yWXXIOisk?list=PLhW3qG5bs-L_ZCOA4zNPSoGbnVQ-rp_dG)
 
-[Katalon Studio Documentation](/x/qgTR)
+[Katalon Studio Documentation](https://docs.katalon.com/katalon-studio/docs/jenkins-plugin-windows.html)
 
 Like on [Facebook](https://www.facebook.com/automationstepbystep/) 
 

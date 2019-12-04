@@ -116,3 +116,22 @@ Below steps are how to apply parameterizing test objects in this case:
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/param-web-object/index.png" width="" height="">
 
 Above is a simple approach to leverage the '**Parameterized Test Object**', a powerful feature. There are other approaches you can apply in your test scripts to reduce the efforts of maintaining many Test Objects at the same time.
+
+## Escaping, special characters
+
+To use a special character like `$` or `\` as a regular one in any place that uses parameterized test objects, prepend it with a backslash: `\` (the so-called escape character).
+
+```groovy
+{
+ 	"productName": ${GlobalVariable.productName},
+  	"unit": "\\bottle\",
+  	"quantity": 50,
+  	"discount": ${ if (productName == "wine") { return 30 } else { return 0}}
+	"note": "Currency unit of ${GlobalVariable.productName} is \$."
+
+}
+```
+
+* Without `\`: *note: Currency unit of ${GlobalVariable.productName} is $*.
+
+* With `\`: *note: Currency unit of wine is $*.

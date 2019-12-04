@@ -1,5 +1,5 @@
 ---
-title: "Console Mode Execution (Command-line Execution)"
+title: "Command Syntax (Command-line/Console Mode Execution)"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/console-mode-execution.html
 redirect_from:
@@ -11,8 +11,11 @@ redirect_from:
 
 description:
 ---
-> Only **Chrome, Firefox and Remote** options are supported for console mode execution **using Linux version**.
 
+> Starting from **version 7.0.0**, you need a Runtime Engine (RE) [license](https://docs.katalon.com/katalon-studio/docs/license.html) to activate and run Katalon Studio (KS) or Katalon Studio Enterprise (KSE) from the command line.
+>
+> Katalon Studio only supports **Chrome, Firefox and Remote** options for console mode execution **using Linux version**.
+>
 > API Keys are required to use **Katalon Studio Plugins** in console mode. [Learn more](/katalon-store/docs/user/plugin-console-installation.html).
 
 You can execute automation test without launching Katalon Studio by using command line mode execution.
@@ -20,58 +23,61 @@ You can execute automation test without launching Katalon Studio by using comman
 Execute Katalon in CMD
 ----------------------
 
-1.  Open the command prompt and navigate to the folder of your Katalon Studio build: katalon.exe (Windows), Applications folder (Mac OS), or katalon (Linux) file.
+> Starting from **Katalon Studio version 7.0.0**, you need to download the Runtime Engine package from [Katalon website](https://katalon.com/download). The Katalon launcher (`katalon.exe`) is replaced by `katalonc.exe`.
 
-2.  Enter the following syntax to execute automation test:
+1. Open the command prompt and navigate to the folder of your Katalon Studio build: `katalonc.exe` (Windows), Applications folder (Mac OS), or `katalonc` (Linux) file.
+
+2. Enter the following syntax to execute automation test:
 
     **Windows:**
 
     ```groovy
-    katalon {option1} {option2} ... {optionN}
+    katalonc {option1} {option2} ... {optionN}
     ```
 
-    **Mac OS:**
+    **macOS:**
 
     ```groovy
-    ./Katalon\ Studio.app/Contents/MacOS/katalon --args {option1} {option2} ... {optionN}
+    cd /Applications/Katalon\ Studio\ Engine.app/Contents/MacOS 
+
+    ./katalonc --args {option1} {option2} ... {optionN}
     ```
 
     **Linux**:
 
     ```groovy
-    ./katalon {option1} {option2} ... {optionN}
+    ./katalonc {option1} {option2} ... {optionN}
     ```
 
     For example:
 
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/image2016-4-6-133A153A3.png)
+   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/katalonc.png)
 
-
-3.  Press **Enter** to start execution.
-4.  **Exit Code**
+3. Press **Enter** to start execution.
+4. **Exit Code**
 
       Below is the list of exit codes after console mode execution:
 
-   *   0: the execution passed with no failed or error test case.
-   *   1: the execution has failed test cases.
-   *   2: the execution has error test cases.
-   *   3: the execution has failed test cases and error test cases.
-   *   4: the execution cannot start because of invalid arguments.
+* 0: the execution passed with no failed or error test case.
+* 1: the execution has failed test cases.
+* 2: the execution has error test cases.
+* 3: the execution has failed test cases and error test cases.
+* 4: the execution cannot start because of invalid arguments.
 
 Katalon Studio Plugins in Console Mode
 --------------------------------------
 
-> To use in console mode, Katalon Studio Plugins must be installed using Katalon Store's API keys. Please follow instructions [here](/katalon-store/docs/user/plugin-console-installation.html).
+> To be used in console mode, Katalon Studio Plugins must be installed using Katalon Store's API keys. Please follow instructions [here](/katalon-store/docs/user/plugin-console-installation.html).
 
-General Options 
+General Options
 ---------------
 
-Here's the list of options supported for the "_katalon_" command:
+Here's the list of options supported for the `katalon` commands in Katalon Studio prior to version 7.0.0, and the `katalonc` commands for Katalon Studio version 7.0.0 and later.
 
 <table>
    <thead>
       <tr>
-         <th>Katalon Command Line Option</th>
+         <th>Katalonc Command Line Option</th>
          <th>Description</th>
          <th>Mandatory?</th>
       </tr>
@@ -89,7 +95,7 @@ Here's the list of options supported for the "_katalon_" command:
       </tr>
       <tr>
          <td>-statusDelay=&lt;seconds&gt;</td>
-         <td>System will update execution status of the test suite after the delay period (in seconds) specified.</td>
+         <td>System updates execution status of the test suite after the delay period (in seconds) specified.</td>
          <td>N</td>
       </tr>
       <tr>
@@ -158,7 +164,7 @@ Here's the list of options supported for the "_katalon_" command:
       </tr>
       <tr>
          <td>-sendMail=&lt;e-mail address&gt;</td>
-         <td>Specify the e-mail address for receiving report files. If the e-mail address was not specified, the report files will not be sent.</td>
+         <td>Specify the e-mail address for receiving report files. If the e-mail address was not specified, the report files is not to be sent.</td>
          <td>N</td>
       </tr>
       <tr>
@@ -203,9 +209,9 @@ Here's the list of options supported for the "_katalon_" command:
          <td>--info -buildLabel="text" -buildURL="text" </td>
          <td>
             <p><strong>Starting from Katalon Studio version 7.0</strong></p>
-            <p>Pass the build's label and url.</p>
+            <p>Pass the build's label and URL, which are displayed in Katalon TestOps.</p>
             <p>Example:</p>
-            <p><code class="java plain"> --info -buildLabel="Build 1" -buildURL="https://analytics.katalon.com/team/9552/project/13609/grid/plan/218/job/3" </code></p>
+            <p><code class="java plain"> --info -buildLabel="Build 1" -buildURL="http://192.168.35.52:8080/job/katalon-demo/job/master/179/"</code></p>
          </td>
          <td>N</td>
       </tr>
@@ -218,7 +224,7 @@ Windows-Only Options
 <table>
    <thead>
       <tr>
-         <th>Katalon Command Line Option</th>
+         <th>Katalonc Command Line Option</th>
          <th>Description</th>
          <th>Mandatory?</th>
       </tr>
@@ -240,10 +246,10 @@ Windows-Only Options
 Proxy Options
 -------------
 
-These proxy options below must be used with --config parameter e.g. --config -proxy.option=USE_SYSTEM. Example:
+These proxy options below must be used with `--config` parameter e.g. `--config -proxy.option=USE_SYSTEM`. Example:
 
-```
-katalon -noSplash  -runMode=console -consoleLog -noExit -projectPath= "C:\Users\Katalon Studio\Project\YourProject.prj" -retry= 0 -testSuitePath= "Test Suites/TS_RegressionTest" -browserType= "Chrome (headless)" --config -proxy.option=MANUAL_CONFIG -proxy.server.type=HTTP -proxy.server.address= "192.168.12.32" -proxy.server.port= "8888"
+```groovy
+katalonc -noSplash  -runMode=console -consoleLog -noExit -projectPath= "C:\Users\Katalon Studio\Project\YourProject.prj" -retry= 0 -testSuitePath= "Test Suites/TS_RegressionTest" -browserType= "Chrome (headless)" --config -proxy.option=MANUAL_CONFIG -proxy.server.type=HTTP -proxy.server.address= "192.168.12.32" -proxy.server.port= "8888"
 ```
 
 <table>
@@ -293,13 +299,15 @@ katalon -noSplash  -runMode=console -consoleLog -noExit -projectPath= "C:\Users\
    </tbody>
 </table>
 
+Starting from **version 7.0.0**, Katalon Studio supports an option to pass proxy details via a request object in Web Service testing. Refer to [this document](https://docs.katalon.com/katalon-studio/docs/proxy-preferences.html#pass-proxy-details-through-the-script) for further details.
+
 Integration Options
 -------------------
 
 <table>
    <thead>
       <tr>
-         <th>Katalon Command Line Option</th>
+         <th>Katalonc Command Line Option</th>
          <th>Description</th>
          <th>Mandatory?</th>
       </tr>
@@ -312,7 +320,7 @@ Integration Options
       </tr>
       <tr>
          <td>-qTestDestId=&lt;destination's id&gt;</td>
-         <td>Id of the destination where the result will be uploaded on it</td>
+         <td>Id of the destination where the result is uploaded on it</td>
          <td>N</td>
       </tr>
       <tr>
@@ -329,7 +337,7 @@ Automatically Updating WebDriver Option
 <table>
    <thead>
       <tr>
-         <th>Katalon Command Line Option</th>
+         <th>Katalonc Command Line Option</th>
          <th>Description</th>
          <th>Mandatory?</th>
       </tr>
@@ -348,54 +356,46 @@ Command Builder
 
 Use the following steps to quickly generate commands to use in console mode:  
 
-1.  Click on **Build CMD** from the main toolbar.
+1. Click on **Build CMD** from the main toolbar.
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/Screenshot-at-Jun-20-15-42-46.png)
 
-
-2.  The **Generate Command for Console Mode** is displayed. Configure your options as needed.
+2. The **Generate Command for Console Mode** is displayed. Configure your options as needed.
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/image2018-2-9-113A443A30.png)
     where:
 
     <table><thead><tr><th>Section</th><th>Description</th></tr></thead><tbody><tr><td>Test Suite</td><td>The Test Suite or Test Suite Collection to be executed</td></tr><tr><td>Executed Platform</td><td><p>The platform to execute the test on. Select an environment</p><p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/image2018-2-9-123A13A31.png"></p><p>&nbsp;</p></td></tr><tr><td>Other Options</td><td><p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/image2017-2-17-163A193A15.png"></p></td></tr></tbody></table>
 
-3.  Click **Generate Command** after completing the configuration.
+3. Click **Generate Command** after completing the configuration.
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/image2017-2-17-173A153A41.png)
 
-
-4.  You can **Copy to Clipboard** and paste to command prompt for execution.
-
-
+4. You can **Copy to Clipboard** and paste to command prompt for execution.
 
 Use console.properties file
 ---------------------------
 
-We support running console mode using **console.properties** file where you can manually modify the content if needed. 
+We support running console mode using **console.properties** file where you can manually modify the content if needed.
 
-1.  Generate **console.properties** file using our generator:
+1. Generate **console.properties** file using our generator:
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/image2018-2-9-123A33A30.png)
 
-
-2.  The **console.properties** file will be generated at your preferred location. You can open and update the parameters manually as needed. 
+2. The **console.properties** file is generated at your preferred location. You can open and update the parameters manually as needed.
     For example:
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/image2017-2-20-103A303A2.png)
 
+3. Run the **console.properties** file in console mode with the following syntax:
 
-3.  Run the **console.properties** file in console mode with the following syntax:
+   ```groovy
+   katalonc -propertiesFile="<absolute path to console.properties file>" -runMode=console -apiKey="<Your_API_Key>"
+   ```
 
-    ```groovy
-    katalon -propertiesFile="<absolute path to console.properties file>" -runMode=console
-    ```
+   For example:
 
-    For example:
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/property-apikey.png"> 
 
-    ```groovy
-    katalon -propertiesFile="D:\Katalon\Demo_Project\console.properties" -runMode=console
-    ```
-
-4.  You can add extra Katalon command options if needed. Any option already defined in the **console.properties** file will be overwritten by the one declared in command line.  
+4. You can add additional `katalonc` command options if needed. Any option already defined in the **console.properties** file is overwritten by the one declared in the command line.  
 
     ```groovy
-    katalon -propertiesFile="<absolute path to console.properties file" -runMode=console -browserType=IE 
+    katalonc -propertiesFile="<absolute path to console.properties file" -runMode=console -apiKey="<Your_API_Key>" -browserType=IE
     ```
 
-    In the example above, since we also declare _browserType_ option in command line, the automation test will be executed using IE instead of Chrome.
+    In the example above, since we also declare `browserType` option in the command line, the automation test is executed using IE instead of Chrome.
