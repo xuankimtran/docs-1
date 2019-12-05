@@ -1,9 +1,9 @@
 ---
-title: "[Windows] Switch to Window "
+title: "[Windows] Switch to Window"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/windows-kw-switch-window.html
 ---
-> Starting from **version 7.1**, this keyword is available for Windows desktop application testing on Katalon Studio.
+> Starting from **version 7.2**, this keyword is available for Windows desktop application testing on Katalon Studio.
 
 ## switchToWindow
 

@@ -7,7 +7,7 @@ permalink: katalon-studio/docs/windows-kw-get-element-position.html
 
 ## getElementPosition
 
-* **Description**: Get the bounding rectangle of the WebElement that is found by using locator value of the given windowsObject.
+* **Description**: Get the position of the WebElement that is found by using locator value of the given windowsObject.
 * **Keyword name**: getElementPosition
 * **Keyword syntax**: Windows.getElementPosition(windowsObject)
 * **Parameter**: windowsObject

@@ -1,19 +1,19 @@
 ---
-title: "[Windows] Switch to Window Title "
+title: "[Windows] Switch to Window Title"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/windows-kw-switch-window-title.html
 ---
-> Starting from **version 7.1**, this keyword is available for Windows desktop application testing on Katalon Studio.
+> Starting from **version 7.2**, this keyword is available for Windows desktop application testing on Katalon Studio.
 
 ## switchToWindowTitle
 
 * **Description**: Find and attach the opening application window that describes by the given windows object to the working WindowsDriver session on the current desktop by the given title.
     
-    This keyword should use when:
-
+    This keyword should be used when:
     * The main application window has been closed and replaced by another window.
     * The application has multiple working windows. We can switch among these windows.
     * We already have an opened application and need to switch to without reopening requires
+    
 * **Keyword name**: switchToWindowTitle
 * **Keyword syntax**: Windows.switchToWindowTitle(windowTitle, flowControl)
 * **Parameters**:

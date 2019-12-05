@@ -1,11 +1,11 @@
 ---
-title: "[Windows] Get Element Position"
+title: "[Windows] Get Element Rectangle"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/windows-kw-get-element-position.html
+permalink: katalon-studio/docs/windows-kw-get-element-rect.html
 ---
 > Starting from **version 7.2**, this keyword is available for Desktop testing on Katalon Studio.
 
-## getElementPosition
+## getElementRect
 
 * **Description**: Get the bounding rectangle of the WebElement that is found by using locator value of the given windowsObject.
 * **Keyword name**: getElementRect

@@ -3,7 +3,7 @@ title: "[Windows] Start Application with Title"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/windows-kw-start-app-title.html
 ---
-> Starting from **version 7.1**, this keyword is available for Windows desktop application testing on Katalon Studio.
+> Starting from **version 7.2**, this keyword is available for Windows desktop application testing on Katalon Studio.
 
 ## startApplicationWithTitle
 
