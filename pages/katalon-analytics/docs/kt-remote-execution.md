@@ -14,8 +14,8 @@ Remote Execution is available on both Katalon TestOps and Katalon TestOps OnPrem
 
 Follow these steps to execute your tests on Katalon TestOps:
 
-* Download and configure [Agents](/katalon-analytics/docs/agents/).
-* Upload Test Projects to [Code Repo](katalon-analytics/docs/code-repo).
-* [Schedule](/katalon-analytics/docs/kt-scheduler/) a test with Grid.
-* [Execute the scheduled test](/katalon-analytics/docs/grid-local-agents.)
-* View [Test Results](/katalon-analytics/docs/project-management-view-details/) and [Reports](katalon-analytics/docs/project-management-view-reports).
+* Download and configure [Agents](https://docs.katalon.com/katalon-analytics/docs/agents.html).
+* Upload Test Projects to [Code Repo](https://docs.katalon.com/katalon-analytics/docs/code-repo.html).
+* [Schedule](https://docs.katalon.com/katalon-analytics/docs/kt-scheduler.html) a test with Grid.
+* [Execute the scheduled test](https://docs.katalon.com/katalon-analytics/docs/grid-local-agents.html)
+* View [Test Results](https://docs.katalon.com/katalon-analytics/docs/project-management-view-reports.html) and [Reports](https://docs.katalon.com/katalon-analytics/docs/project-management-view-details.html).
