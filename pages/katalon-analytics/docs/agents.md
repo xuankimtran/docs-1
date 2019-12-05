@@ -27,4 +27,22 @@ To download and install an Agent, please follow this guide:
 
 7. When the starting Agent process finishes, reload the **Agent** view in your Project on Katalon TestOps. Here you can see the installed Agent and its details.
 
+### Authentication in Katalon TestOps
+
+Katalon TestOps will verify -serverURL in agentconfig to identify if users are using the cloud or on-premise version.
+
+#### Cloud Katalon TestOps
+
+For cloud version, Katalon TestOps will use `-apiKey` in **agentconfig** for checking online activation and send test results to Katalon TestOps
+
+#### Katalon TestOps OnPremise
+
+To upload test results to Katalon TestOps, `-serverURL` and `-apiKey` in **agentconfig** will be used for authentification. While `-serverURL` and `-apiKey` in **.katalon/licenseSever.properties** will be used for activation.
+
+  > **Notes**: You have to create a **licenseSever.properties** in **.katalon**, a hidden folder. The **licenseSever.properties** must contain the following properties:
+  > * `ServerURL=https://analytics.katalon.com`
+  > * `ApiKey=xxxxxxxx`.
+  >
+  > Go to your profile page > Select **API Key** > Copy an existing API Key for this purpose or create a new one.
+  
 Next, you can [upload your project code](/katalon-analytics/docs/code-repo) to Code Repo and [schedule a test](/katalon-analytics/docs/kt-scheduler).
