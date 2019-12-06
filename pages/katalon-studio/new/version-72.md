@@ -7,21 +7,22 @@ description: Release note 7.2 (Beta)
 
 ## Version 7.2 (Beta)
 
-A beta version of Katalon Studio 7.2 is available for download [here](https://github.com/katalon-studio/katalon-studio/releases).
+A beta version of Katalon Studio 7.2 will be available for trial soon. You can download it [here](https://github.com/katalon-studio/katalon-studio/releases).
+
+> Note: This beta version is not available on the [Katalon downloading web page](https://www.katalon.com/download/).
 
 ### New Features
 
 * Windows keywords: [`getElementPosition`](https://docs.katalon.com/katalon-studio/docs/windows-kw-get-element-position.html), [`getElementRect`](https://docs.katalon.com/katalon-studio/docs/windows-kw-get-element-rect.html), [`startApplicationWithTitle`](https://docs.katalon.com/katalon-studio/docs/windows-kw-start-app-title.html), [`switchToWindow`](https://docs.katalon.com/katalon-studio/docs/windows-kw-switch-window.html), and [`switchToWindowTitle`](https://docs.katalon.com/katalon-studio/docs/windows-kw-switch-window-title.html).
 * Mobile keywords: [`executeMobileCommand`](https://docs.katalon.com/katalon-studio/docs/mobile-execute-command.html), [`doubleTap`](https://docs.katalon.com/katalon-studio/docs/mobile-double-tap.html), [`longPress`](https://docs.katalon.com/katalon-studio/docs/mobile-long-press.html), and [`setEncryptedText`](https://docs.katalon.com/katalon-studio/docs/mobile-set-encrypted-text.html).
-* Mobile actions: Get Text, Swipe, Scroll To Text,
-* Support adding [Proxy Exceptions](https://docs.katalon.com/katalon-studio/docs/proxy-preferences.html) in GUI and `-proxy.excludes` option in console mode.
+* Support adding [Proxy Exceptions](https://docs.katalon.com/katalon-studio/docs/proxy-preferences.html) in Proxy Preferences and `-proxy.excludes` option in console mode.
+* [Mobile Recorder] Implement the following actions: Get Text, Swipe, and Scroll To Text.
 
 ### Changes and Improvements
 
 * Add **Profiles** to Test Suite Collection Report.
 * [Mobile- iOS] Support **Install Dependencies** and **Install WebDriverAgent** tools on the main menu.
 * [Command Syntax] Support both `-serverUrl` and `-serverURL` arguments.
-* Enhance Mobile Recorder Utility.
 * Make the `DriverFactory.changeWebDriver()` method a public method.
 * [Test Explorer] Support **Open containing folder**: Right-click on a test artifact in Test Explorer > **Open containing folder**.
 
