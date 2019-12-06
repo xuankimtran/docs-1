@@ -24,13 +24,12 @@ A beta version of Katalon Studio 7.2 will be available for trial soon. You can d
 * [Mobile- iOS] Support **Install Dependencies** and **Install WebDriverAgent** tools on the main menu. Please be noted that you have to install [homebrew](https://brew.sh/) manually.
 * [Command Syntax] Support both `-serverUrl` and `-serverURL` arguments.
 * Make the `DriverFactory.changeWebDriver()` method a public method.
-* [Test Explorer] Support **Open containing folder**: Right-click on a test artifact in Test Explorer > **Open containing folder**.
+* Support **Open containing folder** for Folders in Test Explorer.
 
 ### Fixes
 
 * Bug: [Windows] An issue related to creating a project.
 * Bug: An issue related to saving Web Service Message.
-* Bug: Missing paren in method call after editing test steps in Test Scripts.
 * Bug: Empty result tab after a Test Suite execution.
 * Bug: Test Script lost parens in method call after editing some steps.
 * Bug: [KRE] an issue related to the `retry` option.
