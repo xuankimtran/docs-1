@@ -21,7 +21,7 @@ A beta version of Katalon Studio 7.2 will be available for trial soon. You can d
 ### Changes and Improvements
 
 * Add **Profiles** to Test Suite Collection Report.
-* [Mobile- iOS] Support **Install Dependencies** and **Install WebDriverAgent** tools on the main menu.
+* [Mobile- iOS] Support **Install Dependencies** and **Install WebDriverAgent** tools on the main menu. Please be noted that you have to install [homebrew](https://brew.sh/) manually.
 * [Command Syntax] Support both `-serverUrl` and `-serverURL` arguments.
 * Make the `DriverFactory.changeWebDriver()` method a public method.
 * [Test Explorer] Support **Open containing folder**: Right-click on a test artifact in Test Explorer > **Open containing folder**.
