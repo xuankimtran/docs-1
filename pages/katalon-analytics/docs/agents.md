@@ -37,13 +37,13 @@ For cloud version, Katalon TestOps will use `-apiKey` in **agentconfig** for che
 
 #### Katalon TestOps OnPremise
 
-To upload test results to Katalon TestOps, `-serverURL` and `-apiKey` in **agentconfig** will be used for authentification. While `-serverURL` and `-apiKey` in **.katalon/licenseSever.properties** will be used for activation.
+To upload test results to Katalon TestOps, `-serverURL` and `-apiKey` in **agentconfig** will be used for authentification. While `serverURL` and `apiKey` in **.katalon/licenseSever.properties** will be used for activation.
 
   > **Notes**: 
   >
   > You have to create a **licenseSever.properties** in **.katalon**, a hidden folder. The **licenseSever.properties** must contain the following properties:
-  > * `ServerURL=https://analytics.katalon.com`
-  > * `ApiKey=xxxxxxxx`.
+  > * `serverURL=https://analytics.katalon.com`
+  > * `apiKey=xxxxxxxx`.
   >
   > Go to your profile page > Select **API Key** > Copy an existing API Key for this purpose or create a new one.
   
