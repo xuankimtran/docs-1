@@ -30,9 +30,9 @@ A beta version of Katalon Studio 7.2 will be available for trial soon. You can d
 
 * Bug: [Windows] An issue related to creating a project.
 * Bug: An issue related to saving Web Service Message.
-* Bug: Missing paren in method call after editting test steps in Test Scripts.
+* Bug: Missing paren in method call after editing test steps in Test Scripts.
 * Bug: Empty result tab after a Test Suite execution.
 * Bug: Test Script lost parens in method call after editing some steps.
-* Bug: [KRE] an issue related to `retry` option.
-* Bug: [Web] Cannot set timeout in **Wait for options**.
+* Bug: [KRE] an issue related to the `retry` option.
+* Bug: [Web] Cannot set a timeout in **Wait for options**.
 * Bug: [Web Service Request] an issue related to saving HTTP Header.
