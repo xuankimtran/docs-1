@@ -17,7 +17,7 @@ jobs:
         cd /tmp && bundle install
         mkdir -p _site/${GITHUB_REF##*/}
         bundle exec jekyll clean
-        bundle exec jekyll build --baseurl /${env.BRANCH_NAME} --destination _site/${env.BRANCH_NAME} --trace
+        bundle exec jekyll build --baseurl /${GITHUB_REF##*/} --destination _site/${GITHUB_REF##*/} --trace
     - uses: actions/upload-artifact@v1
       with:
         name: _site
