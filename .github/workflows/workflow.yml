@@ -13,8 +13,7 @@ jobs:
       with:
         ruby-version: '2.6.3'
     - run: |
-        cp Gemfile /tmp/
-        cd /tmp && bundle install
+        bundle install
         mkdir -p _site/${GITHUB_REF##*/}
         bundle exec jekyll clean
         bundle exec jekyll build --baseurl /${GITHUB_REF##*/} --destination _site/${GITHUB_REF##*/} --trace
