@@ -4,7 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/kt-remote-execution.html 
 description: 
 ---
-Remote Execution is available on both Katalon TestOps and Katalon TestOps OnPremise. You can maximize the capacity of local servers available and speed up the testing process by executing automation tests remotely. Also, the test execution results are automatically fed to Katalon TestOps for generating reports and analytics.
+Remote Execution is available on both Katalon TestOps and Katalon TestOps OnPremise. You can maximize the capacity of local servers and speed up the testing process by executing automation tests remotely. Test results will be fed into Katalon TestOps automatically for generating reports and analytics.
 
 **Prerequisites**:
 
