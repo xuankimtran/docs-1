@@ -22,8 +22,8 @@ In the Proxy Settings, you can select one of three options below.
 * **Manual proxy configuration**: you can manually set up your proxy.
   * Address: a HTTP Proxy host.
   * Port: a HTTP Proxy port.
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/proxy.png" width="671" height="532">
+  * Excludes: A list of addresses separated by comma to exclude. This proxy exception list is available in Katalon Studio version 7.2 and later.
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/proxy-manual.png" width="663.5" height="">
 
 > If you're behind a Proxy Server, you'll need to configure the proxy settings before activating Katalon Studio. Click **Config Proxy** at the bottom of the Activation dialog box.
 
