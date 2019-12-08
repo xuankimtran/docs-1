@@ -11,9 +11,9 @@ topnav:
     - title: Videos
       url: /katalon-studio/videos/index.html
       parenturl: /katalon-studio/videos
-    - title: FAQs
-      url: /faqs/licensing.html
-      parenturl: /faqs
+    # - title: FAQs
+    #   url: /faqs/licensing.html
+    #   parenturl: /faqs
     - title: Support
       external_url: https://www.katalon.com/support-service-options/?utm_source=docs-navigation-bar
     - title: Training

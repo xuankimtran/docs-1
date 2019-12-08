@@ -297,10 +297,10 @@ body.night {
 
 body.night {
     /* accordion */
-.panel {
-    color: #d3d4d4;
-    // margin-bottom: 20px;
-    background-color: #24394c;
+    .panel {
+        color: #d3d4d4;
+        // margin-bottom: 20px;
+        background-color: #24394c;
     }
     .panel-default {
         border-color: #374656;
