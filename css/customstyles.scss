@@ -264,3 +264,41 @@ div#autocompleteResults {
 }
 
 /* END style for bannersales */
+
+.nav-sidebar {
+  .fa-angle-down, .fa-angle-right {
+    float: right;
+    margin-top: 5px;
+  }
+
+  .fa-angle-down {
+    display: none;
+  }
+
+  .in > a {
+    &> .fa-angle-right {
+      display: none;
+    }
+    &> .fa-angle-down {
+      display: block;
+    }
+  } 
+}
+
+@media only screen
+  and (min-width : 376px)
+  and (max-width : 900px) {
+  .sidebar {
+    z-index: 9999;
+  }
+}
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 667px)
+  and (orientation: portrait) {
+
+  .nav-sidebar a {
+    text-align: left;
+  }
+}
