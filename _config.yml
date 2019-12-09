@@ -1,6 +1,6 @@
 site_title: Katalon Docs
-site_domain: docs.katalon.com
-site_url: https://docs.katalon.com
+site_domain: docs-staging.katalon.com
+site_url: https://docs-staging.katalon.com
 site_icon: https://github.com/katalon-studio/docs-images/raw/master/katalon/template/favicon.png
 site_twitter: https://twitter.com/katalon_studio
 site_twitter_mention: katalon_studio

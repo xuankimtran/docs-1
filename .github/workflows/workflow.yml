@@ -19,7 +19,7 @@ jobs:
         bundle install
         mkdir -p _site/${GITHUB_REF##*/}
         bundle exec jekyll clean
-        bundle exec jekyll build --baseurl /${GITHUB_REF##*/} --destination _site/${GITHUB_REF##*/} --trace
+        bundle exec jekyll build --config _config.yml,_config_prod.yml --trace
     - name: List sites 
       run: |
         pwd
