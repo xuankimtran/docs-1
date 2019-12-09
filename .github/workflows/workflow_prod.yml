@@ -56,7 +56,7 @@ jobs:
         aws s3 cp --recursive _site/ s3://${{ secrets.AWS_S3_BUCKET_PROD }}
     - name: Create Invalidate Cloudfront 
       run: |
-        aws cloudfront create-invalidation --distribution-id 	${{ secrets.AWS_DISTRIBUTE_ID_STAGING }} --paths "/*"
+        aws cloudfront create-invalidation --distribution-id 	${{ secrets.AWS_DISTRIBUTE_ID_PRODUCTION }} --paths "/*"
     - name: index production
       env:
           ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
