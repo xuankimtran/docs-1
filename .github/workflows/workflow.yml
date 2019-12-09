@@ -46,7 +46,10 @@ jobs:
         node-version: '10.x'
     - run: |
         npm install
+    - name: Deploy to s3
+      run: |
+        pwd
+        ls -la _sites/
         aws s3 cp --recursive _site/ s3://${{ secrets.AWS_S3_BUCKET }}
-    
    
   
