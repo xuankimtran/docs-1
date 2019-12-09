@@ -33,7 +33,7 @@ jobs:
     - name: Setup python
       uses: actions/setup-python@v1
       with:
-          python-version: 3.x
+          python-version: 2.x
           architecture: x64
     - name: install pip 
       run: |
