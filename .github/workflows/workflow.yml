@@ -2,7 +2,7 @@ name: KatalonDocsCI
 on:
   push:
     branches:
-      - test_github_action
+      - staging
 jobs:
   run:
     name: Run
