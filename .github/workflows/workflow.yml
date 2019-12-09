@@ -49,7 +49,7 @@ jobs:
     - name: Deploy to s3
       run: |
         pwd
-        ls -la _sites/
+        ls -la _site/
         aws s3 cp --recursive _site/ s3://${{ secrets.AWS_S3_BUCKET }}
    
   
