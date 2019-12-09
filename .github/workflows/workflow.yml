@@ -46,6 +46,7 @@ jobs:
         node-version: '10.x'
     - run: |
         npm install
-        aws s3 cp _site/${GITHUB_REF##*/}/ ${{ secrets.AWS_BUCKET_NAME }} -–delete
+        aws s3 ls s3://docs-staging.katalon.com
+    
    
   
