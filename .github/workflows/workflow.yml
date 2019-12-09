@@ -12,11 +12,20 @@ jobs:
       uses: actions/checkout@master
     - name: Branch name
       run: echo running on branch ${GITHUB_REF##*/}
+    
+    - uses: actions/cache@v1
+      with:
+        path: vendor/bundle
+        key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-gem-
+
     - uses: actions/setup-ruby@v1
       with:
         ruby-version: '2.6.3'
     - run: |
-        bundle install
+        bundle config path vendor/bundle
+        bundle install --jobs 4 --retry 3
         mkdir -p _site/${GITHUB_REF##*/}
         bundle exec jekyll clean
         bundle exec jekyll build --config _config_staging.yml,_config_prod.yml --trace
@@ -41,11 +50,6 @@ jobs:
     - name: verify aws cli
       run: |
         aws --version
-    - uses: actions/setup-node@v1
-      with:
-        node-version: '10.x'
-    - run: |
-        npm install
     - name: Deploy to s3
       run: |
         pwd
@@ -54,10 +58,5 @@ jobs:
     - name: Create Invalidate Cloudfront 
       run: |
         aws cloudfront create-invalidation --distribution-id 	${{ secrets.AWS_DISTRIBUTE_ID_STAGING }} --paths "/*"
-    - name: index production
-      env:
-          ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
-      run: |
-         bundle exec jekyll clean
-         bundle exec jekyll algolia --config _config_staging.yml,_config_prod.yml --verbose --trace
+
        
