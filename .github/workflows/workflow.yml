@@ -51,5 +51,7 @@ jobs:
         pwd
         ls -la _site/
         aws s3 cp --recursive _site/ s3://${{ secrets.AWS_S3_BUCKET }}
-   
+    - name: Create Invalidate Cloudfront 
+      run: |
+        aws cloudfront create-invalidation --distribution-id 	${{ secrets.AWS_DISTRIBUTE_ID_STAGING }} --paths "/*"
   
