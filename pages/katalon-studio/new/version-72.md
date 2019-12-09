@@ -7,9 +7,9 @@ description: Release note 7.2 (Beta)
 
 ## Version 7.2 (Beta)
 
-A beta version of Katalon Studio 7.2 will be available for trial soon. You can download it [here](https://github.com/katalon-studio/katalon-studio/releases).
+A beta version of Katalon Studio 7.2 can be downloaded [here](https://github.com/katalon-studio/katalon-studio/releases).
 
-> Note: This beta version is not available on the [Katalon downloading web page](https://www.katalon.com/download/).
+> Note: This version is not available on the [Katalon downloading web page](https://www.katalon.com/download/).
 
 ### New Features
 
