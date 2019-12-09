@@ -22,7 +22,7 @@ In the Proxy Settings, you can select one of three options below.
 * **Manual proxy configuration**: you can manually set up your proxy.
   * Address: a HTTP Proxy host.
   * Port: a HTTP Proxy port.
-  * Excludes: A list of addresses separated by comma to exclude. Remember to trim any space in the list. 
+  * Excludes: A list of addresses separated by comma to exclude. 
   > The ability to exclude proxy is available in version 7.2 and later. Katalon Studio only supports proxy exceptions in web recorder and spying with **Chrome** and **Firefox**.
   
   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/proxy-manual.png" width="663.5" height="">
