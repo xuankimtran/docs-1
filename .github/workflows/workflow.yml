@@ -22,17 +22,18 @@ jobs:
         mkdir -p _site/${GITHUB_REF##*/}
         bundle exec jekyll clean
         bundle exec jekyll build --config _config_staging.yml,_config_prod.yml --trace
-    - uses: actions/cache@v1
-      with:
-        path: vendor/bundle
-        key: ${{ runner.os }}-gem-${{ hashFiles('./Gemfile.lock') }}
-        restore-keys: |
-          ${{ runner.os }}-gem-
 
     - name: List sites 
       run: |
         pwd
         ls -la 
+    - uses: actions/cache@v1
+      with:
+        path: vendor/bundle
+        key: ${{ runner.os }}-gem-${{ hashFiles('Gemfile.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-gem-
+        
     - name: Configure AWS Credentials
       uses: aws-actions/configure-aws-credentials@v1
       with:
