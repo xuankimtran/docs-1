@@ -1,5 +1,8 @@
-name: Main workflow
-on: [push]
+name: KatalonDocsCI
+on:
+  push:
+    branches:
+      - test_github_action
 jobs:
   run:
     name: Run
