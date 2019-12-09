@@ -25,6 +25,8 @@ items:
             url: /katalon-studio/docs/overview.html
           - title: "What's new"
             tree:
+              - title: "Version 7.2 (Beta)"
+                url: /katalon-studio/new/version-72.html
               - title: "Version 7.1"
                 url: /katalon-studio/new/version-71.html
               - title: "Version 7.0"
@@ -757,6 +759,10 @@ items:
                 url: /katalon-studio/docs/mobile-check-element.html
               - title: "[Mobile] Drag And Drop"
                 url: /katalon-studio/docs/mobile-drag-and-drop.html
+              - title: "[Mobile] Double Tap"
+                url: /katalon-studio/docs/mobile-double-tap.html
+              - title: "[Mobile] Execute Mobile Command "
+                url: /katalon-studio/docs/mobile-execute-command.html
               - title: "[Mobile] Find Image Element"
                 url: /katalon-studio/docs/mobile-find-image-element.html
               - title: "[Mobile] Find Image Elements"
@@ -787,6 +793,8 @@ items:
                 url: /katalon-studio/docs/mobile-get-text.html
               - title: "[Mobile] Hide Keyboard"
                 url: /katalon-studio/docs/mobile-hide-keyboard.html
+              - title: "[Mobile] Long Press"
+                url: /katalon-studio/docs/mobile-long-press.html
               - title: "[Mobile] Open Notifications"
                 url: /katalon-studio/docs/mobile-open-notifications.html
               - title: "[Mobile] Press Back"
@@ -807,6 +815,8 @@ items:
                 url: /katalon-studio/docs/mobile-select-list-item-by-index.html
               - title: "[Mobile] Select List Item By Label"
                 url: /katalon-studio/docs/mobile-select-list-item-by-label.html
+              - title: "[Mobile] Set Encrypted Text"
+                url: /katalon-studio/docs/mobile-set-encrypted-text.html
               - title: "[Mobile] Set Slider Value"
                 url: /katalon-studio/docs/mobile-set-slider-value.html
               - title: "[Mobile] Set Text"
@@ -905,22 +915,36 @@ items:
                 url: /katalon-studio/docs/windows-kw-findelement.html
               - title: "[Windows] Find Elements"
                 url: /katalon-studio/docs/windows-kw-findelements.html
+              - title: "[Windows] Get Element Position"
+                url: /katalon-studio/docs/windows-kw-get-element-position.html
+              - title: "[Windows] Get Element Rectangle"
+                url: /katalon-studio/docs/windows-kw-get-element-rect.html
               - title: "[Windows] Get Text"
                 url: /katalon-studio/docs/windows-kw-get-text.html
               - title: "[Windows] Get Driver"
                 url: /katalon-studio/docs/windows-kw-get-driver.html
               - title: "[Windows] Right-click"
                 url: /katalon-studio/docs/windows-kw-rightclick.html
+              - title: "[Windows] Switch to Window"
+                url: /katalon-studio/docs/windows-kw-switch-window.html
+              - title: "[Windows] Switch to Window Title"
+                url: /katalon-studio/docs/windows-kw-switch-window-title.html
               - title: "[Windows] Send Keys"
-                url: /katalon-studio/docs/windows-kw-senkey.html 
+                url: /katalon-studio/docs/windows-kw-senkey.html
               - title: "[Windows] Set Text"
-                url: /katalon-studio/docs/windows-kw-set-text.html    
+                url: /katalon-studio/docs/windows-kw-set-text.html
+              - title: "[Windows] Start Application with Title"
+                url: /katalon-studio/docs/windows-kw-start-app-title.html
               - title: "[Windows] Start Application"
-                url: /katalon-studio/docs/windows-kw-start-app.html   
+                url: /katalon-studio/docs/windows-kw-start-app.html
               - title: "[Windows] Switch To Desktop"
                 url: /katalon-studio/docs/windows-kw-switch-desktop.html
               - title: "[Windows] Switch To Application"
                 url: /katalon-studio/docs/windows-kw-switch-app.html
+              - title: "[Windows] Switch to Window Title"
+                url: /katalon-studio/docs/windows-kw-switch-window-title.html
+              - title: "[Windows] Switch to Window"
+                url: /katalon-studio/docs/windows-kw-switch-window.html
           - title: "Cucumber Keywords"
             tree:
             - title: "[Cucumber] Run Feature File with Tags"
@@ -1286,6 +1310,14 @@ items:
             url: /katalon-analytics/docs/user-management.html
           - title: "Introduction to Project Toolbar"
             url: /katalon-analytics/docs/project-management-main-toolbar.html
+      - title: "Katalon TestOps OnPremise"
+        tree:
+          - title: "Overview"
+            url: /katalon-analytics/docs/ktop-overview.html
+          - title: "Install and Setup"
+            url: /katalon-analytics/docs/testops-op-installation.html
+          - title: "Configure Mail Server"
+            url: /katalon-analytics/docs/kt-op-mail-server.html
       - title: "Test Results and Monitoring"
         tree:
           - title: "Integration with Katalon Studio"
@@ -1332,14 +1364,6 @@ items:
             url: /katalon-analytics/docs/kt-jira-issue.html
           - title: "Working with Jira Releases"
             url: /katalon-analytics/docs/kt-jira-release.html
-  - title: "Katalon TestOps OnPremise"
-    tree:
-      - title: "Overview"
-        url: /katalon-analytics/docs/ktop-overview.html
-      - title: "Install and Setup"
-        url: /katalon-analytics/docs/testops-op-installation.html
-      - title: "Configure Mail Server"
-        url: /katalon-analytics/docs/kt-op-mail-server.html
   - title: "Katalon Recorder"
     tree:
       - title: "Overview"

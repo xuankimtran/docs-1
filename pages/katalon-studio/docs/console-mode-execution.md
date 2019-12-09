@@ -282,6 +282,11 @@ katalonc -noSplash  -runMode=console -consoleLog -noExit -projectPath= "C:\Users
          <td>Y</td>
       </tr>
       <tr>
+         <td>-proxy.excludes</td>
+         <td>Example: 127.0.0.1, localhost, myserver.com</td>
+         <td>N</td>
+      </tr>
+      <tr>
          <td>-proxy.server.port</td>
          <td>Example: 80, 8080, 9999</td>
          <td>Y</td>
@@ -300,6 +305,8 @@ katalonc -noSplash  -runMode=console -consoleLog -noExit -projectPath= "C:\Users
 </table>
 
 Starting from **version 7.0.0**, Katalon Studio supports an option to pass proxy details via a request object in Web Service testing. Refer to [this document](https://docs.katalon.com/katalon-studio/docs/proxy-preferences.html#pass-proxy-details-through-the-script) for further details.
+
+The ability to exclude proxy in manual configuration is only available on **version 7.2** and later.
 
 Integration Options
 -------------------
