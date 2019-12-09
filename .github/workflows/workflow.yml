@@ -46,7 +46,7 @@ jobs:
         node-version: '10.x'
     - run: |
         npm install
-        aws s3 ls s3://docs-staging.katalon.com
+        aws s3 cp --recursive _site/ s3://${{ secrets.AWS_S3_BUCKET }}
     
    
   
