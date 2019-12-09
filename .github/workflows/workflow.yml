@@ -12,6 +12,13 @@ jobs:
       uses: actions/checkout@master
     - name: Branch name
       run: echo running on branch ${GITHUB_REF##*/}
+      
+    - uses: actions/cache@v1
+      with:
+        path: vendor/bundle
+        key: ${{ runner.os }}-gem-${{ hashFiles('Gemfile.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-gem-
 
     - uses: actions/setup-ruby@v1
       with:
@@ -27,12 +34,6 @@ jobs:
       run: |
         pwd
         ls -la 
-    - uses: actions/cache@v1
-      with:
-        path: vendor/bundle
-        key: ${{ runner.os }}-gem-${{ hashFiles('Gemfile.lock') }}
-        restore-keys: |
-          ${{ runner.os }}-gem-
         
     - name: Configure AWS Credentials
       uses: aws-actions/configure-aws-credentials@v1
