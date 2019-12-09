@@ -19,7 +19,7 @@ jobs:
         bundle install
         mkdir -p _site/${GITHUB_REF##*/}
         bundle exec jekyll clean
-        bundle exec jekyll build --config _config.yml,_config_prod.yml --trace
+        bundle exec jekyll build --config _config_staging.yml,_config_prod.yml --trace
     - name: List sites 
       run: |
         pwd
@@ -58,7 +58,6 @@ jobs:
       env:
           ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
       run: |
-         echo $ALGOLIA_API_KEY
          bundle exec jekyll clean
          bundle exec jekyll algolia --config _config.yml,_config_prod.yml --verbose --trace
        
