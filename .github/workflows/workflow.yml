@@ -54,4 +54,9 @@ jobs:
     - name: Create Invalidate Cloudfront 
       run: |
         aws cloudfront create-invalidation --distribution-id 	${{ secrets.AWS_DISTRIBUTE_ID_STAGING }} --paths "/*"
-  
+    - name: index production
+      run: |
+         bundle exec jekyll clean
+         bundle exec jekyll algolia --config _config.yml,_config_prod.yml --verbose --trace
+         env:
+          ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
