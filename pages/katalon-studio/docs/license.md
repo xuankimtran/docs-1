@@ -50,7 +50,7 @@ KSE and KRE **online** licenses are transferable among the organization's regist
 
 ### Free License
 
-The free license granted for each Katalon account only includes the standard Katalon Studio with basic features. Currently, the free license for KRE is not available. If you wish to execute Katalon Studio in console mode, you need to subscribe to an KRE license. You can upgrade the free KS to KSE with a paid license without having to re-download.
+The free license granted for each Katalon account only includes the standard Katalon Studio with starter features. Currently, the free license for KRE is not available. If you wish to execute Katalon Studio in console mode, you need to subscribe to an KRE license. You can upgrade the free KS to KSE with a paid license without having to re-download.
 
 Learn more about license subscription and management:
 
