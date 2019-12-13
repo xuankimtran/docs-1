@@ -1092,12 +1092,10 @@ items:
                 tree:
                   - title: "Enable Kobiton Integration"
                     url: /katalon-studio/docs/enable-kobiton-integration.html
+                  - title: "Mobile Testing with Kobiton Devices"
+                    url: /katalon-studio/docs/integrate_with_kobiton.html
                   - title: "Desired Capabilities for Kobiton Devices"
                     url: /katalon-studio/docs/desired-capabilities-for-kobiton-devices.html
-                  - title: "How to integrate with Kobiton"
-                    url: /katalon-studio/docs/integrate_with_kobiton.html
-                  - title: "Use additional desired capabilities for Kobiton devices"
-                    url: /katalon-studio/docs/use-additional-desired-capabilities-for-kobiton-devices.html
               - title: "BrowserStack Integration"
                 url: /katalon-studio/docs/browserstack-integration.html      
               - title: "SauceLabs Integration"
