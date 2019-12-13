@@ -30,18 +30,14 @@ This license model is applied to local desktops or workstations with fixed hardw
 * Virtual machine with fixed machine ID
 * Physical machine
 
-The number of licenses to acquire should be based on the number of processes and the maximum parallel sessions that you plan to execute.
+The number of licenses to acquire should be based on the number of execution machines.
 
 * A license is linked to a single machine ID and for one execution session.
 * A machine can be mapped to multiple licenses (if needed).
 * The license can be transferred to a new machine for an online environment. For the offline environment, once converted, the license cannot be transferred to another machine until it is expired.
 
-### Floating License
+### DevOps License
 
-This license model is applied to cloud or virtual machines with dynamic hardware specifications (to execute tests in Docker, Azure, AWS). This kind of license provides Enterprise users license mobility when there is no machine quota.
-
-Floating licenses are managed by Cloud Server on a per-session basis. You must have an active network connection to install and access floating licenses.
-
-> Note: If you have no network connection to release a floating license, another user with a connection can release the floating license for you.
+This license model is applied to cloud or virtual machines with dynamic hardware specifications (to execute tests in Docker, Azure, AWS). This kind of license provides Enterprise users license mobility when there is no machine quota. The number of licenses to acquire should be based on the maximum number of parallel sessions that you plan to execute.
 
 Please refer to [this document](https://docs.katalon.com/katalon-studio/docs/install-RE.html) for more details about downloading, activating and installing RE.
