@@ -29,6 +29,8 @@ Currently, only the Chrome version of Katalon Recorder supports file uploading.
 
 Right click on the extension icon on the top right toolbar, select **Manage extensions**. In the **Manage extensions** page, enable "Allow access to file URLs".
 
+![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/katalon-recorder-allow-access-to-file-urls.png)
+
 The action was completed using "type" command. Example:
 
 ```

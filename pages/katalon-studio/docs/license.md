@@ -36,7 +36,7 @@ For offline environments, any license of the KSE **annual** subscription can be 
 
 #### For Runtime Engine
 
-KRE license can be a node-locked/floating license. When running from the command-line interface (CLI), one working session accounting for one license equals to a conducted process.
+KRE license can be a node-locked/DevOps/floating license. When running from the command-line interface (CLI), one working session accounting for one license equals to a conducted process.
 
 > Learn more about [KRE](/katalon-studio/docs/intro-RE)
 
@@ -44,13 +44,13 @@ KRE license can be a node-locked/floating license. When running from the command
 
 KSE and KRE **online** licenses are transferable among the organization's registered users as long as the active licenses do not exceed the license quota.
 
-**Offline** licenses are for using KSE and KRE without the internet. Once generated, the offline license will be irrevocable and cannot be terminated. Also, the expiration dates of offline licenses cannot be modified.
+**Offline** licenses are for using KSE and KRE without the internet. Once generated, the license cannot be revoked or transferred to a different machine. These licenses will expire in three (3) months or at the end of the subscription term, if that happens earlier.
 
-> Notes: Offline license is only available for annual subscription.
+> Notes: Only **annual** and **node-locked** licenses can be converted to offline licenses.
 
 ### Free License
 
-The free license granted for each Katalon account only includes the standard Katalon Studio with basic features. Currently, the free license for KRE is not available. If you wish to execute Katalon Studio in console mode, you need to subscribe to an KRE license. You can upgrade the free KS to KSE with a paid license without having to re-download.
+The free license granted for each Katalon account only includes the standard Katalon Studio with starter features. Currently, the free license for KRE is not available. If you wish to execute Katalon Studio in console mode, you need to subscribe to an KRE license. You can upgrade the free KS to KSE with a paid license without having to re-download.
 
 Learn more about license subscription and management:
 

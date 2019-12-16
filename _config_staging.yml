@@ -1,0 +1,41 @@
+site_title: Katalon Docs
+site_domain: docs-staging.katalon.com
+site_url: https://docs-staging.katalon.com
+site_icon: https://github.com/katalon-studio/docs-images/raw/master/katalon/template/favicon.png
+site_twitter: https://twitter.com/katalon_studio
+site_twitter_mention: katalon_studio
+github_editme_path: katalon-studio/docs
+
+staging: true
+
+markdown: CommonMarkGhPages
+commonmark:
+  extensions: ["strikethrough", "autolink", "table"]
+
+incremental: false
+
+plugins:
+  - jekyll-redirect-from
+
+# algia index
+algolia:
+  application_id: 5E7YZB1TD0
+  index_name: docs
+  search_only_api_key: fbbaaba34cbd44a2dca3bf899eff9cec
+  indexing_batch_size: 10
+  max_record_size: 10000
+  files_to_exclude:
+    - "_site/**/*"
+
+# filter used to process markdown. note that kramdown differs from github-flavored markdown in some subtle ways
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "docs"
+      comments: true
+      search: true
+      topnav: topnav

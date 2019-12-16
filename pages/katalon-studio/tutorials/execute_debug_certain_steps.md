@@ -17,9 +17,9 @@ Execute from a selected step
 
 From the Manual view of the test case, right-click on a step and select **Execute from here…**. Once this option is selected, all **_currently running and supported Chrome instances_** are displayed so that you can select to run the script from the selected step.
 
-![Debug Execute from a selected step](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/execute_debug_certain_steps/Execute-from-a-selected-step.png)
+If there is no running Chrome browser instances that are previously launched in Katalon Studio, **Execute from here...** is disabled.
 
-Please note that **_currently running and supported Chrome instances_** refer to the running Chrome browser instances that are previously launched from Katalon Studio.
+![Debug Execute from a selected step](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/execute_debug_certain_steps/Execute-from-a-selected-step.png)
 
 Enable/Disable steps
 --------------------

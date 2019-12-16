@@ -5,11 +5,48 @@ permalink: katalon-analytics/docs/kt-scheduler.html
 description: 
 ---
 
-After uploading your project code to Code Repo on Katalon TestOps, you can schedule a test with Grid.
+To schedule a test or view a list of scheduled test, log into Katalon TestOps > go to your project > select **Grid**.
 
-1. Log into Katalon TestOps > select your project to work on.
-2. On your project view, select **Grid** on the left menu. Here you can see all your created test plans.
-3. To create a new test plan, click **Create Plan**
-4. Enter the required information and click **Create**.
+## Plan a test
 
-The newly created test plan will be displayed on the Grid view. Your test project is now ready to be executed at any time.
+To create a new test plan, please follow the below instruction:
+
+> **Prerequisites**:
+>
+> * You have created a test project in Code Repo.
+> * Agents must have been configured for test execution.
+
+1. In your project, select **Grid**.
+2. Click **Create Plan** on the top right corner.
+3. In **Configure a Plan**, enter required details to define your test execution plan:
+
+  * **Plan Name**: It's recommended to give a name that has a meaning.
+  * **Test Project**: Select a test project in the drop-down list.
+  * **Type**:
+    * **Test Suite Collection**: Select a Test Suite or a Test Suite Collection that you want to execute.
+    * **Katalon Command**: Enter a command to execute Katalon Studio tests. This command can be generated from [Katalon Studio command generator](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#katalon-command-line-options).
+    * **Generic Command**: Enter a command to execute this test with another tool.
+
+  * **Katalon Studio Version** when you want the Agent to download Katalon Studio automatically.\
+  Or you can use **Pre-Installed Katalon Studio Location** to browse to Katalon Studion on your machine. This option is recommended in network restricted environments.
+
+4. Select an Agent in the drop-down list. If you have just configured an Agent, please wait for a while for it to be registered with Katalon server.
+5. Click **Create**. The newly created test plan will be displayed on the **Grid** view .
+
+## Schedule a test plan
+
+When you have a test plan, you can schedule when to execute it.
+
+1. On the **Grid** view, select a test plan by clicking its name.
+2. Select **Schedule** on the top right corner.
+3. In the **Schedule** view, enter the required details:
+
+   * **Name**: It's recommended to give a name that has a meaning.
+   * **From-To**: The period in which the scheduled jobs start.
+   * **Interval** and **Interval Unit**: Every <_Interval_> <_Interval Unit_>, a scheduled test is executed.
+     For example: With Interval=3, and Interval Unit=Day, a test is executed every 3 days.
+   * **Active**: You can change the status of the Schedule with this switch.
+
+4. Click **Create** to create a schedule.
+
+Your test plan is now ready to be executed at your preferred time. The scheduled test that is being executed will be displayed on the **Jobs** table.

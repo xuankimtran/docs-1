@@ -4,28 +4,48 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/agents.html 
 description: 
 ---
+Agent is an essential ingredient for remote execution on Katalon TestOps. This piece of software manages local servers for executing the scheduled tests. Katalon supports Agents that are compatible with different execution environments.
 
-**Agent** is an installable software that you can use to manage your own servers to run Katalon Studio tests. You can set up agents on Linux, macOS and Windows machines. After installed, Agent can be selected as the execution environment when creating an execution plan.
+To download and install an Agent, please follow this guide:
 
-To create a plan to run Katalon Studio tests on your local agents, please follow this [guide](grid-local-agents.html).
+1. On Katalon TestOps, select your Project > **Agents**.
+2. In **Agent Installation Package**, enter the required information:
+    * **Agent Name**: It's recommended to give a meaningful name for distinguishing Agents.
+    * **API Key**: Use an existing [API key](/katalon-analytics/docs/ka-api-key) or create a new one on your Profile page.
+    * **Agent OS**: Katalon supports the following operating systems: Windows x64, Linux x64, and MacOS x64.
+3. Click **Download Agent**.
+4. Unzip the downloaded package. You will see an **agentconfig** file containing Katalon TestOps integration details and an agent executable file (e.g., **cli-macos-x64** for MacOS).
+    > You may edit the agent configuration file later on your local machine.
+5. Open your **Command-line Interface** and locate the agent installation package folder.
+6. Start the Agent with the below command.
 
-### Use Cases
+   * macOS or Linux: `./start.sh`
+     > Please make sure you have given execute permission to both start script and executable file.
+   * Windows: `start.bat`
 
-You have local servers available and want to utilize their capacity to execute automation tests.
+7. It may take a while for the Agent to start. When the starting Agent process finishes, reload the **Agents** view in your Project on Katalon TestOps. Here you can see the installed Agent and its details.
 
-### Install Agents
+### Authentication in Katalon TestOps
 
-1. In your Team view, go to **Agents** > **Agent Installation Package**
-2. Fill out the form with this configuration information:
-    * **Agent Name**: Provide a friendly Agent name
-    * **API Key**: Use an existing API key or create a new one from your Profile page. [More details](katalon-analytics/docs/ka-api-key.html).
-    * **Katalon Studio Version**: Specify a Katalon Studio version that Agent need to download to run tests
-    * **Katalon Studio Location**: Provide a pre-install Katalon Studio location (if applicable)  
-    * **Agent OS**: Katalon supports these operating systems: Linux x64, Linux x86, MacOS x64, Windows x64, Windows x86
-3. Select **Download Agent**
-4. Unzip the downloaded package, you will see an agent config file (which has already contained TestOps integration detail) and an agent executable file (e.g. **cli-macos-x64 for MacOS**).
-    > Note: You may edit the agent configuration file later on your local machine.
-5. Open your **Command Line Interface** and locate the agent installation package.
-6. Enter this command to start the agent: **{agent execution file} start-agent**
-    > E.g. cli-macos-x64 start-agent
-7. Go back and reload Agents screen. You may now see the install Agent name, its availability, and other details.
+Based on `serverUrl` in **agentconfig**, the Agent will identify if users are using the cloud or on-premise Katalon TestOps version.
+
+#### Cloud Katalon TestOps
+
+For cloud version, Katalon TestOps will use `serverUrl` and `apikey` in **agentconfig** for sending test results to Katalon TestOps and checking online activation.
+
+#### Katalon TestOps OnPremise
+
+Katalon TestOps will use `serverUrl` and `apikey` in **agentconfig** for sending test results to Katalon TestOps.
+
+While `serverURL` and `apiKey` in **.katalon/licenseServer.properties** will be used for activation.
+
+  > **Notes**:
+  >
+  > You have to create a **{user.home}/.katalon/licenseServer.properties** (.katalon is a hidden folder). The **licenseServer.properties** must contain the following properties for Katalon Studio to authenticate:
+  >
+  > * `serverURL=https://analytics.katalon.com`
+  > * `apiKey=xxxxxxxx`.
+  >
+  > Go to your profile page > Select **API Key** > Copy an existing API Key for this purpose or create a new one.
+
+Next, you can [upload your project code](/katalon-analytics/docs/code-repo) to Code Repo and [schedule a test](/katalon-analytics/docs/kt-scheduler).
