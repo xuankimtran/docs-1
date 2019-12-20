@@ -1,15 +1,17 @@
 ---
-title: "Version 7.2 (Beta)" 
+title: "Version 7.2.0 - 7.2.1" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/new/version-72.html
-description: Release note 7.2 (Beta)
+description: Release note 7.2.0 - 7.2.1
+redirect_from:
+    - "/katalon-studio/new/version-72/"
+    - "/katalon-studio/new/"
+    - "/display/KD/Release+Notes/"
+    - "/display/KD/Release%20Notes/"
+    - "/katalon-studio/new/all-versions.html"
 ---
 
-## Version 7.2 (Beta)
-
-A beta version of Katalon Studio 7.2 can be downloaded [here](https://github.com/katalon-studio/katalon-studio/releases).
-
-> Note: This version is not available on the [Katalon downloading web page](https://www.katalon.com/download/).
+## Version 7.2.0 - 7.2.1
 
 ### New Features
 
