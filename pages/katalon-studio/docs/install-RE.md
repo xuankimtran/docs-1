@@ -27,6 +27,14 @@ Starting from **version 7.0.0**, you need a [Katalon Runtime Engine](https://doc
     
   * Troubleshoot: You may encounter the `NoClassDefFoundError` error since Oracle JDK is being used. Please uninstall Oracle JDK, and then install [Open JDK8](http://openjdk.java.net/install/).
 
+## Environment Requirements
+
+* Verify if your computer meets the [System Requirements](http://docs.katalon.com/display/KD/System+Requirements) to work with Katalon Studio.
+
+* Ensure you are using Katalon Studio with the default font size set to 100% in both Katalon Studio and your current OS to avoid the name field not being displayed on some pop-up windows:
+    * Windows: [https://www.pcworld.com/article/242942/how\_to\_change\_font\_size.html](https://www.pcworld.com/article/242942/how_to_change_font_size.html)
+    * Katalon Studio: Window → Preferences → General → Appearance → Colors and Fonts. Select **Dialog Font** and edit its font size.
+    
 ## KRE Licensing
 
 You need a valid RE license to use this add-on. RE license can be a node-locked or floating license. Learn more about [KRE License](https://docs.katalon.com/katalon-studio/docs/intro-RE.html#license).
