@@ -15,13 +15,23 @@ redirect_from:
 
 ### New Features
 
-* Windows keywords: [`getElementPosition`](https://docs.katalon.com/katalon-studio/docs/windows-kw-get-element-position.html), [`getElementRect`](https://docs.katalon.com/katalon-studio/docs/windows-kw-get-element-rect.html), [`startApplicationWithTitle`](https://docs.katalon.com/katalon-studio/docs/windows-kw-start-app-title.html), [`switchToWindow`](https://docs.katalon.com/katalon-studio/docs/windows-kw-switch-window.html), and [`switchToWindowTitle`](https://docs.katalon.com/katalon-studio/docs/windows-kw-switch-window-title.html).
-* Mobile keywords: [`executeMobileCommand`](https://docs.katalon.com/katalon-studio/docs/mobile-execute-command.html), [`doubleTap`](https://docs.katalon.com/katalon-studio/docs/mobile-double-tap.html), [`longPress`](https://docs.katalon.com/katalon-studio/docs/mobile-long-press.html), and [`setEncryptedText`](https://docs.katalon.com/katalon-studio/docs/mobile-set-encrypted-text.html).
+* New Windows keywords: 
+  * [`getElementPosition`](https://docs.katalon.com/katalon-studio/docs/windows-kw-get-element-position.html)
+  * [`getElementRect`](https://docs.katalon.com/katalon-studio/docs/windows-kw-get-element-rect.html)
+  * [`startApplicationWithTitle`](https://docs.katalon.com/katalon-studio/docs/windows-kw-start-app-title.html)
+  * [`switchToWindow`](https://docs.katalon.com/katalon-studio/docs/windows-kw-switch-window.html)
+  * [`switchToWindowTitle`](https://docs.katalon.com/katalon-studio/docs/windows-kw-switch-window-title.html)
+* New Mobile keywords: 
+  * [`executeMobileCommand`](https://docs.katalon.com/katalon-studio/docs/mobile-execute-command.html)
+  * [`doubleTap`](https://docs.katalon.com/katalon-studio/docs/mobile-double-tap.html)
+  * [`longPress`](https://docs.katalon.com/katalon-studio/docs/mobile-long-press.html)
+  * [`setEncryptedText`](https://docs.katalon.com/katalon-studio/docs/mobile-set-encrypted-text.html)
 * Support adding [Proxy Exceptions](https://docs.katalon.com/katalon-studio/docs/proxy-preferences.html) in Proxy Preferences and `-proxy.excludes` option in console mode.
 * [Mobile Recorder] Implement the following actions: Get Text, Swipe, and Scroll To Text.
 
 ### Changes and Improvements
 
+* Support ChromeDriver version 79.
 * Add **Profiles** to Test Suite Collection Report.
 * [Mobile- iOS] Support **Install Dependencies** and **Install WebDriverAgent** tools on the main menu. Please be noted that you have to install [homebrew](https://brew.sh/) manually.
 * [Command Syntax] Support both `-serverUrl` and `-serverURL` arguments.
