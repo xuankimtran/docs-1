@@ -1359,7 +1359,7 @@ items:
           - title: "Overview"
             url: /katalon-analytics/docs/ktop-overview.html
           - title: "Install and Setup"
-            url: /katalon-analytics/docs/testops-op-installation.html
+            url: /katalon-analytics/docs/kt-op-installation.html
           - title: "Configure Mail Server"
             url: /katalon-analytics/docs/kt-op-mail-server.html
   - title: "Katalon Recorder"
