@@ -7,6 +7,11 @@ You can execute Katalon tests with [CircleCI](https://circleci.com/) by using Ka
 
 >Katalon Orb is available [here](https://circleci.com/orbs/registry/orb/katalon/katalonstudio).
 
+**Prerequisites**:
+
+* Your Katalon Studio version should be 7.0+.
+* You have an active [Katalon Runtime Engine license](https://docs.katalon.com/katalon-studio/docs/intro-RE.html#license).
+
 _Definition of Orb from CircleCI: Orbs define reusable commands, executors, and jobs so that commonly used pieces of configuration can be condensed into a single line of code._
 
 ### Usage Examples
