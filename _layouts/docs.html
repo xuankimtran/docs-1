@@ -140,7 +140,7 @@
                                 <div><strong>This is a staging build of Katalon Docs. For the official Katalon Docs website, please go to <a href="https://docs.katalon.com">https://docs.katalon.com</a>.</strong></div>
                             {% endif %}
                             <h1>{{ page.title }}</h1>
-                            <p class="reading-time" title="Estimated reading time">
+                            <!-- <p class="reading-time" title="Estimated reading time">
                                 <span class="reading-time-label">{{site.data.strings.reading_time}}: </span>
                                 {% assign words = content | number_of_words %}
                                 {% if words < 360 %}
@@ -148,7 +148,7 @@
                                 {% else %}
                                   {{ words | divided_by:180 }} minutes
                                 {% endif %}
-                            </p>
+                            </p> -->
                             {{content}}
                             {% if page.root %}
                                 {% assign tree = site.data.sidebars[page.sidebar].items %}
