@@ -5,7 +5,7 @@ permalink: katalon-studio/docs/integration-circleci.html
 ---
 You can execute Katalon tests with [CircleCI](https://circleci.com/) by using Katalon Orb.
 
->Katalon Orb is available [here](https://circleci.com/orbs/registry/orb/katalon/katalonstudio).
+>Katalon Orb is available [here](https://circleci.com/orbs/registry/orb/katalon/katalonstudio). We recommend getting the latest version of Katalon Orb from the CircleCI Orb registry page.
 
 **Prerequisites**:
 
@@ -14,14 +14,47 @@ You can execute Katalon tests with [CircleCI](https://circleci.com/) by using Ka
 
 _Definition of Orb from CircleCI: Orbs define reusable commands, executors, and jobs so that commonly used pieces of configuration can be condensed into a single line of code._
 
-### Usage Examples
+## Setup and Configuration
 
-Below is an example demonstrating how to use Katalon Orb (Push your test case code, change your Katalon version, your parameter, and API Key to run the test).
+To execute your Katalon tests with CircleCI, first you need to establish a connection between your Katalon project in GitHub and CircleCI, and then run the test with the Katalon Orb.
+
+### In GitHub
+
+1. You should have a repository on GitHub or create a new one that contains your Katalon project code.
+2. Add a `.yml` file containing Katalon commands to run the test to the `.circleci` folder in the above GitHub repository (e.g. `katalon-studio-samples/ci-samples/.circleci/config.yml`) and commit. Please see the example of the `config.yml` file below. 
+   >**Notes**: In the Orb source code, you can only configure `katalonstudio/katjob` to run Katalon tests. Please refer to the [command syntax document](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#katalon-studio-plugins-in-console-mode) for supported options that you can use.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/circleci/circleci4.png" width="" height="">
+
+### In CircleCI
+
+1. Log into CircleCI and configure CircleCI environment variables in your GitHub projects.
+
+* Select **Settings** > choose a Git Organization
+  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/circleci/circleci1.png" width="" height="">
+
+* Select **Projects** > click on the **Settings** icon of your preferred project
+* Under BUILD SETTINGS, select **Environment Variables**.
+  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/circleci/circleci2.png" width="" height="">
+
+* **Import Variables** or **Add Variable** to your project. E.g. KATALON_API_KEY
+
+## Execute Katalon tests with the Orb
+
+The Katalon Orb automatically executes the Katalon tests after each commit to the configured GitHub repository.
+
+After running Katalon tests in CircleCI, you can download test execution reports in the **Artifact** tab.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/circleci/circleci3.png" width="" height="">
+
+## Usage Examples
+
+Below is an example demonstrating how to use Katalon Orb for pushing your test case code and changing the Katalon version to run the test in **katjob**.
 
 ```groovy
 version: 2.1
 orbs:
-  katalonstudio: katalon/katalonstudio@18.0.0
+  katalonstudio: katalon/katalonstudio@36.0.0
 workflows:
   build:
     jobs:
@@ -33,7 +66,7 @@ workflows:
             Suites/TS_RegressionTest'
 ```
 
-In case you prefer setting up the integration manually, you can refer to the below section.
+In case you prefer setting up the integration manually, you can refer to the section below.
 
 <details><summary>E2E testing integration with CircleCI</summary>
 <p>
@@ -46,11 +79,11 @@ CircleCI is a continuous integration server where every commit executes an autom
 
 ## The most important thing - config.yml file
 
-To run Katalon tests on CircleCI you need to:
+To run Katalon tests on CircleCI, you need to:
 
 - Have a repository on GitHub or [create a new one](https://help.github.com/en/articles/create-a-repo);
 
-- Add .yml file into .circleci folder (keep in mind that a folder with a period will be hidden by default) and commit to your GitHub repository. 
+- Add .yml file into .circleci folder (keep in mind that a folder with a period will be hidden by default) and commit to your GitHub repository.
 
 Here you can see an example of config.yml file that you need to add to the .circleci folder and commit to your GitHub repository together with your tests. Pay attention to folder structure - .circleci should be in the Katalon Studio Project Folder.
 
