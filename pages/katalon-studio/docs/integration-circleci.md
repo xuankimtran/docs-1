@@ -28,16 +28,16 @@ To execute your Katalon tests with CircleCI, first you need to establish a conne
 
 ### In CircleCI
 
-1. Log into CircleCI and configure CircleCI environment variables in your GitHub projects.
+Log into CircleCI and configure CircleCI environment variables in your GitHub projects.
 
-* Select **Settings** > choose a Git Organization
+1. Select **Settings** > choose a Git Organization
   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/circleci/circleci1.png" width="" height="">
 
-* Select **Projects** > click on the **Settings** icon of your preferred project
-* Under BUILD SETTINGS, select **Environment Variables**.
+2. Select **Projects** > click on the **Settings** icon of your preferred project
+3. Under **Build Settings**, select **Environment Variables**.
   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/circleci/circleci2.png" width="" height="">
 
-* **Import Variables** or **Add Variable** to your project. E.g. KATALON_API_KEY
+4. **Import Variables** or **Add Variable** to your project. E.g. KATALON_API_KEY
 
 ## Execute Katalon tests with the Orb
 
