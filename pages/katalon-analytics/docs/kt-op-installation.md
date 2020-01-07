@@ -1,7 +1,7 @@
 ---
 title: "Install and Setup"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-analytics/docs/testops-op-installation.html
+permalink: katalon-analytics/docs/kt-op-installation.html
 description: How to install and setup Katalon TestOps OnPremise
 ---
 Katalon TestOps OnPremise (KTOP) allows you to access insightful features of Katalon TestOps for managing automation testing data imported from Katalon Studio in a restricted network environment.
