@@ -176,7 +176,7 @@
     li {
         padding: 2px 8px 2px 0;
         width: 100%;
-        a {
+        a, & > div {
             display: inline-block;
             font-size: 12px;
             padding: 5px 10px 5px 10px;

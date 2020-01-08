@@ -284,5 +284,13 @@ $(function() {
             }
         });
 
+        $('#autoContainer').click(function(e) {
+            e.stopPropagation();
+        });
+
+        $(document.body).click(function() {
+            $('#autoContainer').empty();
+        });
+
     })();
 });
