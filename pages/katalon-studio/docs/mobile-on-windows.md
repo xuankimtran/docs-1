@@ -4,7 +4,6 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-on-windows.html
 redirect_from:
     - "/display/KD/Mobile+on+Windows/"
-    - "/display/KD/Installation+and+Setup/"
     - "/display/KD/Mobile%20on%20Windows/"
     - "/x/jwbR/"
     - "/katalon-studio/docs/mobile-on-windows/"

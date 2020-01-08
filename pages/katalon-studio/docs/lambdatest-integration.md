@@ -5,7 +5,6 @@ permalink: katalon-studio/docs/lambdatest-integration.html
 redirect_from:
     - "/display/KD/LambdaTest+Integration/"
     - "/display/KD/LambdaTest%20Integration/"
-    - "/x/mRdO/"
     - "/katalon-studio/docs/lambdatest-integration/"
 description: 
 ---

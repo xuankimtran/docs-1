@@ -4,7 +4,6 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/auto-updater.html 
 redirect_from:
     - "/display/KD/Auto-updater/"
-    - "/display/KD/Auto-updater/"
     - "/x/lQPR/"
     - "/katalon-studio/docs/auto-updater/"
 description: 

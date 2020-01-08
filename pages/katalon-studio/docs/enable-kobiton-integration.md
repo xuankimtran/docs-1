@@ -9,7 +9,6 @@ redirect_from:
     - "/display/KD/Kobiton%20Integration/"
     - "/x/7IEw/"
     - "/katalon-studio/docs/enable-kobiton-integration/"
-    - "/display/KD/Kobiton+Integration/"
 description:
 ---
 Kobiton is a powerful mobile device platform that offers real mobile devices for both testers and developers. Using Katalon Studio, you can easily execute automated tests on Kobiton's devices.
