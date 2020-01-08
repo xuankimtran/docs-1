@@ -12,6 +12,8 @@ redirect_from:
 description:
 ---
 
+> Notes:
+> 
 > Starting from **version 7.0.0**, you need a Runtime Engine (RE) [license](https://docs.katalon.com/katalon-studio/docs/license.html) to activate and run Katalon Studio (KS) or Katalon Studio Enterprise (KSE) from the command line.
 >
 > Katalon Studio only supports **Chrome, Firefox and Remote** options for console mode execution **using Linux version**.
@@ -56,13 +58,13 @@ Execute Katalon in CMD
 3. Press **Enter** to start execution.
 4. **Exit Code**
 
-      Below is the list of exit codes after console mode execution:
+   Below is the list of exit codes after console mode execution:
 
-* 0: the execution passed with no failed or error test case.
-* 1: the execution has failed test cases.
-* 2: the execution has error test cases.
-* 3: the execution has failed test cases and error test cases.
-* 4: the execution cannot start because of invalid arguments.
+   * 0: the execution passed with no failed or error test case.
+   * 1: the execution has failed test cases.
+   * 2: the execution has error test cases.
+   * 3: the execution has failed test cases and error test cases.
+   * 4: the execution cannot start because of invalid arguments.
 
 Katalon Studio Plugins in Console Mode
 --------------------------------------

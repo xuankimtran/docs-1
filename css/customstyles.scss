@@ -24,8 +24,11 @@ p {
 }
 
 .content {
-  ul li {
-    font-size: $body-text-size;
+  ul, ol {
+    padding-inline-start: 20px;
+    li {
+      font-size: $body-text-size;
+    }
   }
   b, strong {
     font-weight: 600;
@@ -356,5 +359,9 @@ blockquote {
 }
 
 .nav-social .fa {
+  font-size: 14px;
+}
+
+pre {
   font-size: 14px;
 }
