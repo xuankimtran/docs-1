@@ -4,7 +4,6 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/online-offline-licenses.html
 description:
 ---
-## Online License vs. Offline License
 
 **Online** licenses of KSE and KRE are transferable among the organization's registered users as long as the active licenses do not exceed the license quota.
 
