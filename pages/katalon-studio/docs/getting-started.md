@@ -18,14 +18,6 @@ redirect_from:
     - "/display/KD/Installation%20and%20Setup/"
 description:
 ---
-Download Katalon Studio
------------------------
-
-Go to [Katalon Download page](https://www.katalon.com/download/) to get the latest version of Katalon Studio. A suitable version for your system will be automatically detected and recommended for download. However, you can also select your preferred version on the page. Before diving further into automation testing, check out the [System Requirements](/display/KD/System+Requirements) needed to run Katalon Studio. 
-
-> Download older versions
->
-> You can download older versions of Katalon Studio from its [Github repository](https://github.com/katalon-studio/katalon-studio/releases).
 
 Environment Requirements
 ------------------------
@@ -35,6 +27,15 @@ Environment Requirements
 * Ensure you are using Katalon Studio with the default font size set to 100% in both Katalon Studio and your current OS to avoid the name field not being displayed on some pop-up windows:
     * Windows: [https://www.pcworld.com/article/242942/how\_to\_change\_font\_size.html](https://www.pcworld.com/article/242942/how_to_change_font_size.html)
     * Katalon Studio: Window → Preferences → General → Appearance → Colors and Fonts. Select **Dialog Font** and edit its font size.
+
+Download Katalon Studio
+-----------------------
+
+Go to [Katalon Download page](https://www.katalon.com/download/) to get the latest version of Katalon Studio. A suitable version for your system will be automatically detected and recommended for download. However, you can also select your preferred version on the page. Before diving further into automation testing, check out the [System Requirements](/display/KD/System+Requirements) needed to run Katalon Studio. 
+
+> Download older versions
+>
+> You can download older versions of Katalon Studio from its [Github repository](https://github.com/katalon-studio/katalon-studio/releases).
 
 Start Katalon Studio
 --------------------
@@ -66,8 +67,9 @@ Activate Katalon Studio
 
 If you don't have an account with Katalon Studio, provide your desired username and password to sign up after launching the app. If you have an account, please read more about licenses and how to activate each license in [Katalon Studio Licensing](https://docs.katalon.com/katalon-studio/docs/license.html).
 
-Configurations for Web UI Testing
----------------------------------
+## Configure Katalon Studio
+
+### Configurations for Web UI Testing
 
 * If you do **Web Testing**, make sure to install your preferred web browsers. Refer to the list of [supported browsers](/display/KD/Supported+Environments) for more details.
 
@@ -75,32 +77,24 @@ Configurations for Web UI Testing
 
 * **Internet Explorer** must be configured to run automation tests on IE. Refer to [IE configurations guide](/x/iwEo).
 
-Configurations for Mobile UI Testing
-------------------------------------
+### Configurations for Mobile UI Testing
 
 * [Mobile on Windows](/display/KD/Mobile+on+Windows)
 
 * [Mobile on macOS](/display/KD/Mobile+on+macOS)
-
-Linux Support
--------------
-
-In addition to Windows and macOS, Katalon Studio also provides a beta [Linux support](/display/KD/Linux+Support).
 
 Getting a Sample Project Up and Running
 ---------------------------------------
 
 When you use Katalon Studio for the first time, you have the option to create New Project or Sample Projects to become familiar with the tool.
 
-\- You can create a new sample project through **File > New Sample Project** and select your preferred project. Enter the name of your new project and the location to store the project data on your machine.
+- You can create a new sample project through **File > New Sample Project** and select your preferred project. Enter the name of your new project and the location to store the project data on your machine.
 
-\- When the sample project is loaded, you can view a test case or a test suite by selecting it in the Test Explorer on the left of the UI.
+- When the sample project is loaded, you can view a test case or a test suite by selecting it in the Test Explorer on the left of the UI.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/getting-started/Screen-Shot-2018-09-06-at-2.32.06-PM.png)
 
-\- To execute the script, go to the Run command on the Main toolbar.
-
-_NOTE_: You can specify the target browser to be launched by selecting from the _Run_ drop-down list.
+- To execute the script, go to the Run command on the Main toolbar. You can specify the target browser to be launched by selecting from the _Run_ drop-down list.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/getting-started/Screen-Shot-2018-09-06-at-2.33.04-PM.png)
 
