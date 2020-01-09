@@ -243,7 +243,7 @@ footer {
 }
 
 .footer-copyright {
-    float: left;
+    // float: left;
 }
 
 .footer-copyright p {
@@ -251,12 +251,11 @@ footer {
     font-size: 12px;
     line-height: 17px;
     color: #637986;
-    margin-bottom: 0;
     padding: 0 0 15px;
 }
 
 .footer_social_nav {
-    float: right;
+    // float: right;
     padding: 0 15px 0 0;
 }
 
@@ -264,31 +263,31 @@ footer {
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
 }
 
 .footer_social_nav ul li {
-    float: left;
-    position: relative;
+    margin-right: 1em;
 }
 
-.footer_social_nav ul li:before {
-    color: $white;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-}
+// .footer_social_nav ul li:before {
+//     color: $white;
+//     position: absolute;
+//     top: 10px;
+//     left: 10px;
+// }
 
-.footer_social_nav ul li+li {
-    margin-left: 10px;
-}
+// .footer_social_nav ul li+li {
+//     margin-left: 10px;
+// }
 
-.footer_social_nav ul li a {
-    width: 32px;
-    height: 32px;
-    background-color: #82949E;
-    border-radius: 50px;
-    color: $white;
-    display: block;
-    text-indent: 9999px;
-    overflow: hidden;
-}
+// .footer_social_nav ul li a {
+//     width: 32px;
+//     height: 32px;
+//     background-color: #82949E;
+//     border-radius: 50px;
+//     color: $white;
+//     display: block;
+//     text-indent: 9999px;
+//     overflow: hidden;
+// }

@@ -6,7 +6,7 @@ $headings: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,
 
 $font: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
 
-$body-text-size: 17px;
+$body-text-size: 16px;
 
 @import "docker/docker";
 
@@ -19,13 +19,9 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-p {
-  line-height: 1.7;
-}
-
 .content {
   ul, ol {
-    padding-inline-start: 20px;
+    padding-inline-start: 2em;
     li {
       font-size: $body-text-size;
     }
@@ -51,17 +47,38 @@ p {
   h6 {
     font-size: 0.85em;
   }
-  line-height: 1.7;
+  pre {
+    font-size: 0.875em;
+  }
+  &, p {
+    line-height: 1.7;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+    line-height: 1.25;
+  }
+  ul li:last-child {
+    margin-bottom: 0.625em;
+  }
+  table img {
+    display: inline;
+    padding-right: 1em;
+  }
+  blockquote {
+    background-color: rgba(255,229,100,0.3);
+    border-left-color: #ffe564;
+    margin-top: 10px;
+  }
+  code {
+    white-space: normal;
+    word-break: break-all;
+  }
 }
 
 #gta {
   padding: 0;
 }
 
-code {
-  white-space: normal;
-  word-break: break-all;
-}
 
 .button {
   font-family: inherit;
@@ -206,15 +223,6 @@ div#autocompleteResults {
   }
 }
 
-.content ul li:last-child {
-  margin-bottom: 10px;
-}
-
-.content table img {
-  display: inline;
-  padding-right: 1em;
-}
-
 
 /* style for author sidebar block */
 
@@ -332,12 +340,6 @@ body.night {
   }
 }
 
-blockquote {
-  background-color: rgba(255,229,100,0.3);
-  border-left-color: #ffe564;
-  margin-top: 10px;
-}
-
 .nav-sidebar ul li li a {
   border-left-width: 0;
 }
@@ -359,9 +361,5 @@ blockquote {
 }
 
 .nav-social .fa {
-  font-size: 14px;
-}
-
-pre {
   font-size: 14px;
 }

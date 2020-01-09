@@ -8,23 +8,27 @@ redirect_from:
 ---
 Welcome to Katalon Docs! Here, you can find Katalon products documentation, manuals, guidelines, as well as tips and tricks to help you start a successful test automation journey.
 
-To make the most out of Katalon Docs, we recommend you go over the documentation for each product to get an overview of the tools you will be working with. This comprehensive documentation is the fastest way to get answers to many of your questions.
+To make the most out of Katalon Docs, we recommend you go over the documentation for each product to get an overview of the tools you will be working with.
 
-Products
---------
+## Products
 
 As test automation becomes more crucial in today's technology landscape, it can be challenging to find an automation solution that is affordable, simple to set up, and comprehensive to meet a variety of automation needs.
 
 To address these concerns, we initially created Katalon Studio as a viable alternative to both open-source and commercial testing tools. Now, we have expanded our range to a variety of products to assist your automation testing needs.
 
-| Products |          |
-|----------|----------|
-| Katalon Studio | Katalon Studio is a free and robust automation solution for API, web, and mobile testing. It integrates all necessary components with built-in keywords and project templates into a complete automation framework. Katalon Studio is easy for beginners to use but offers advanced capabilities for experienced users. This solution is trusted by an active community from 150+ countries around the world. |
-| Katalon Analytics | A cloud-based application providing in-depth views of test execution reports through powerful visualization including charts, graphs, and metrics. |
-| Katalon Recorder | A Selenium IDE-compatible replacement on latest Chrome and Firefox versions. Katalon Recorder records, plays, debugs, manages automated tests, and exports to C#, Java, Ruby, Python, Groovy, or Robot Framework. |
+### Katalon Studio
 
-Contribution Guidelines
------------------------
+Katalon Studio is a free and robust automation solution for API, web, and mobile testing. It integrates all necessary components with built-in keywords and project templates into a complete automation framework. Katalon Studio is easy for beginners to use but offers advanced capabilities for experienced users. This solution is trusted by an active community from 150+ countries around the world.
+
+### Katalon Analytics
+
+A cloud-based application providing in-depth views of test execution reports through powerful visualization including charts, graphs, and metrics.
+
+### Katalon Recorder
+
+A Selenium IDE-compatible replacement on latest Chrome and Firefox versions. Katalon Recorder records, plays, debugs, manages automated tests, and exports to C#, Java, Ruby, Python, Groovy, or Robot Framework.
+
+## Contribution Guidelines
 
 We encourage you to help improve Katalon Docs by providing feedback, suggestions, or issues regarding our products. Below are several ways for you to contribute to Katalon documentation, including editing, requesting docs change, rating, or raising issues. Here are some suggestions:
 
@@ -39,7 +43,7 @@ We encourage you to help improve Katalon Docs by providing feedback, suggestions
 
 Please notice that although we very much appreciate all of your feedback, pull requests should be related to the documentation in this repository only.
 
-### How to contribute
+## How to contribute
 
 -   Katalon Knowledge Base is powered by [Github Pages](https://pages.github.com) and [Jekyll](https://jekyllrb.com/docs/) with source code hosted at https://github.com/katalon-studio/katalon-studio.github.io. You will need a [GitHub](https://github.com) account before making any contribution.
 
@@ -53,8 +57,7 @@ Please notice that although we very much appreciate all of your feedback, pull r
 
     - Write new content for Katalon Knowledge Base. Simply fork the repository, make any modification, and send us a **Pull Request** for review.
 
-Support
--------
+## Support
 
 ### Katalon Community
 

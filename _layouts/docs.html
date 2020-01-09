@@ -63,7 +63,7 @@
     <meta name="description" content="{{ page.description }}" />
     <link rel="canonical" href="{{ page.url | prepend:site.baseurl }}" />
 
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"{{ page.title }}","description":"{{ page.description }}","url":"{{site.site_url}}{{page.url | prepend:site.baseurl}}"}</script>
+    <script type="application/ld+json">{"@context":"https   ://schema.org","@type":"WebPage","headline":"{{ page.title }}","description":"{{ page.description }}","url":"{{site.site_url}}{{page.url | prepend:site.baseurl}}"}</script>
 </head>
 <body class="colums">
     <header>
@@ -273,18 +273,18 @@
     <footer class="footer">
         <div class="container">
             <div class="bottom_footer">
-                <div class="footer-copyright col-xs-12 col-md-8">
-                    <p class="copyright">{{site.data.strings.copyright}}</p>
-                </div>
                 <div class="footer_social_nav">
                     <ul class="nav-social">
-                        <li class="fa fa-twitter"><a target="_blank" href="{{site.site_twitter}}">Twitter</a></li>
-                        <li class="fa fa-youtube"><a target="_blank" href="https://www.youtube.com/channel/UC0g8oLvxnX0i3Ul98uSOrPA">Youtube</a target="_blank"></li>
-                        <li class="fa fa-github"><a target="_blank" href="https://github.com/katalon-studio">Github</a target="_blank"></li>
-                        <li class="fa fa-linkedin"><a target="_blank" href="https://www.linkedin.com/company/katalon-automation-testing-tool">LinkedIn</a target="_blank"></li>
-                        <li class="fa fa-facebook"><a target="_blank" href="https://www.facebook.com/katalonstudio.kms">Facebook</a target="_blank"></li>
-                        <li class="fa fa-slideshare"><a target="_blank" href="https://www.slideshare.net/Katalon_Studio">SlideShare</a target="_blank"></li>
+                        <li><a target="_blank" href="{{site.site_twitter}}" title="Twitter"><i  class="fa fa-twitter"></i></a></li>
+                        <li><a target="_blank" href="https://www.youtube.com/channel/UC0g8oLvxnX0i3Ul98uSOrPA" title="Youtube"><i  class="fa fa-youtube"></i></a></li>
+                        <li><a target="_blank" href="https://github.com/katalon-studio" title="Github"><i  class="fa fa-github"></i></a target="_blank"></li>
+                        <li><a target="_blank" href="https://www.linkedin.com/company/katalon-automation-testing-tool" title="LinkedIn"><i  class="fa fa-linkedin"></i></a></li>
+                        <li><a target="_blank" href="https://www.facebook.com/katalonstudio.kms" title="Facebook"><i  class="fa fa-facebook"></i></a></li>
+                        <li><a target="_blank" href="https://www.slideshare.net/Katalon_Studio" title="SlideShare"><i  class="fa fa-slideshare"></i></a></li>
                     </ul>
+                </div>
+                <div class="footer-copyright">
+                    <p class="copyright">{{site.data.strings.copyright}}</p>
                 </div>
             </div>
         </div>
