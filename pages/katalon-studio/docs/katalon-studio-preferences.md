@@ -7,6 +7,22 @@ redirect_from:
     - "/display/KD/Katalon%20Studio%20Preferences/"
     - "/x/NQRO/"
     - "/katalon-studio/docs/katalon-studio-preferences/"
+    - "/katalon-studio/docs/test-case-preferences.html"
+    - "/display/KD/Test+Case+Preferences/"
+    - "/display/KD/Test%20Case%20Preferences/"
+    - "/x/ZIUw/"
+    - "/katalon-studio/docs/test-case-preferences/"
+    - "/display/KD/Proxy+Preferences/"
+    - "/display/KD/Proxy%20Preferences/"
+    - "/x/hw1O/"
+    - "/katalon-studio/docs/proxy-preferences/"
+    - "/katalon-studio/docs/proxy-preferences.html"
+    - "/display/KD/Object+Spy+Preferences/"
+    - "/display/KD/Object%20Spy%20Preferences/"
+    - "/x/iw1O/"
+    - "/katalon-studio/docs/object-spy-preferences/"
+    - "/katalon-studio/docs/object-spy-preferences.html"
+    - "/katalon-studio/docs/dark-theme.html"
 description: 
 ---
 
