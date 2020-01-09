@@ -3,6 +3,8 @@ items:
     tree:
       - title: "Katalon Studio Licensing"
         url: /katalon-studio/docs/license.html
+      - title: "Katalon Trial and Free Plans"
+        url: /katalon-studio/docs/trial-free-plans.html
       - title: "Katalon License Subscription"
         url: /katalon-studio/docs/license-subscription.html
       - title: "Subscription via Katalon Website"
@@ -13,6 +15,8 @@ items:
         url: /katalon-studio/docs/license-po.html
       - title: "Subscription via Quote"
         url: /katalon-studio/docs/license-quote.html
+      - title: "Create a Katalon Studio Enterprise Offline License"
+        url: /katalon-studio/docs/how-to-create-kse-offline-license.html
       - title: "Katalon License Management"
         url: /katalon-studio/docs/license-management.html
       - title: "Session Termination Causes"

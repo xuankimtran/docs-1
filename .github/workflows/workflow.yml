@@ -29,6 +29,7 @@ jobs:
         mkdir -p _site/${GITHUB_REF##*/}
         bundle exec jekyll clean
         bundle exec jekyll build --config _config_staging.yml,_config_prod.yml --trace
+        rm _site/robots.txt && mv _site/robots-staging.txt _site/robots.txt
 
     - name: List sites 
       run: |
