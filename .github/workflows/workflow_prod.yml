@@ -28,7 +28,6 @@ jobs:
         bundle install --jobs 4 --retry 3
         bundle install
         mkdir -p _site/${GITHUB_REF##*/}
-        export JEKYLL_ENV="production"
         bundle exec jekyll clean
         bundle exec jekyll build --config _config.yml,_config_prod.yml --trace
     - name: List sites 
