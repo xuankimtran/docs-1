@@ -16,7 +16,6 @@ incremental: false
 
 plugins:
   - jekyll-redirect-from
-  - jekyll-minifier
 
 # algia index
 algolia:
