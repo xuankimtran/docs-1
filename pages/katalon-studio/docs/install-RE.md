@@ -7,6 +7,8 @@ redirect_from:
     - "/katalon-studio/docs/katalon-studio-for-linux-console-mode/"
     - "/katalon-studio/docs/katalon%20studio%20for%20linux%20console%20mode/"
     - "/katalon-studio/docs/katalon+studio+for+linux+console+mode/"
+    - "/katalon-studio/docs/activate-RE.html"
+    - "/katalon-studio/docs/activate-RE/"
 description:
 ---
 Starting from **version 7.0.0**, you need a [Katalon Runtime Engine](https://docs.katalon.com/katalon-studio/docs/intro-RE.html) (KRE) license to activate and run Katalon Studio or Katalon Studio Enterprise from the command line.
@@ -33,11 +35,15 @@ Starting from **version 7.0.0**, you need a [Katalon Runtime Engine](https://doc
     
 ## KRE Licensing
 
-You need a valid RE license to use this add-on. RE license can be a node-locked or floating license. Learn more about [KRE License](https://docs.katalon.com/katalon-studio/docs/intro-RE.html#license).
+You need a valid RE license to use this add-on. KRE license can be a node-locked or DevOps license. Learn more about [KRE License](https://docs.katalon.com/katalon-studio/docs/intro-RE.html#license).
 
 ## Activate KRE
 
-To activate KRE, there are different activation methods based on the execution environment which can be online or offline. [Learn more](https://docs.katalon.com/katalon-studio/docs/activate-RE.html).
+To activate KRE, there are different activation methods based on the execution environment which can be online or offline.
+
+* [Activate Katalon Runtime Engine with an offline license](https://docs.katalon.com/katalon-studio/docs/re-offline-licenses.html)
+* [Activate Katalon Runtime Engine with an online license](https://docs.katalon.com/katalon-studio/docs/use-online-license.html#katalon-runtime-engine)
+* [Activate Katalon Runtime Engine with a trial license](https://docs.katalon.com/katalon-studio/docs/trial-free-plans.html)
 
 Once ready, navigate to the KRE directory and execute the Katalon automation test in command-line mode (CLI) as normal. Learn more about [execution in console mode](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#execute-katalon-in-cmd).
 
