@@ -66,7 +66,22 @@
     <meta name="description" content="{{ page.description }}" />
     <link rel="canonical" href="{{ page.url | prepend:site.baseurl }}" />
 
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","headline":"{{ page.title }}","description":"{{ page.description }}","url":"{{site.site_url}}{{page.url | prepend:site.baseurl}}"}</script>
+    <script type="application/ld+json">
+        {
+            "@context":"https://schema.org",
+            "@type":"WebPage",
+            "headline":"{{ page.title }}",
+            "description":"{{ page.description }}",
+            "url":"{{site.site_url}}{{page.url | prepend:site.baseurl}}"
+            "sameAs" : [
+                "https://www.youtube.com/channel/UC0g8oLvxnX0i3Ul98uSOrPA",
+                "https://github.com/katalon-studio",
+                "https://www.linkedin.com/company/katalon-automation-testing-tool",
+                "https://www.facebook.com/katalonstudio.kms",
+                "https://www.slideshare.net/Katalon_Studio"
+            ]
+        }
+    </script>
 </head>
 <body class="colums">
     <header>
