@@ -990,15 +990,9 @@ items:
       - title: "Execution and Reporting"
         tree:
           - title: "Test Suite"
-            tree:
-              - title: "Create a Test Suite"
-                url: /katalon-studio/docs/test-suite.html
-              - title: "Design a Test Suite"
-                url: /katalon-studio/docs/design-a-test-suite.html
-              - title: "Test Suite Collection"
-                url: /katalon-studio/docs/test-suite-collection.html
-              - title: "Dynamic Test Suite"
-                url: /katalon-studio/docs/dynamic-test-suite.html
+            url: /katalon-studio/docs/test-suite.html
+          - title: "Test Suite Collection"
+            url: /katalon-studio/docs/test-suite-collection.html
           - title: "Headless Browsers Execution"
             url: /katalon-studio/docs/headless-browsers-execution.html
           - title: "Selenium Grid - Execution on Remote Machines" 
