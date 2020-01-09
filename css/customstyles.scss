@@ -72,6 +72,17 @@ body {
   code {
     word-break: break-all;
   }
+  .feedback-links {
+    ul {
+      display: flex;
+      list-style: none;
+      padding-inline-start: 0;
+
+      li {
+        margin-right: 2em;
+      }
+    }
+  }
 }
 
 #gta {

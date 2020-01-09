@@ -173,18 +173,8 @@ items:
             url: /katalon-studio/docs/toolbars-and-views.html
           - title: "Katalon Help"
             url: /katalon-studio/docs/katalon-help.html
-          - title: "Preferences"
-            tree:
-              - title: "Katalon Studio Preferences"
-                url: /katalon-studio/docs/katalon-studio-preferences.html
-              - title: "Test Case Preferences"
-                url: /katalon-studio/docs/test-case-preferences.html
-              - title: "Proxy Preferences"
-                url: /katalon-studio/docs/proxy-preferences.html
-              - title: "Object Spy Preferences"
-                url: /katalon-studio/docs/object-spy-preferences.html
-              - title: "Using Katalon Studio in Dark theme"
-                url: /katalon-studio/docs/dark-theme.html
+          - title: "Katalon Studio Preferences"
+            url: /katalon-studio/docs/katalon-studio-preferences.html
       - title: "Projects"
         tree:
           - title: "Manage Test Project"
@@ -987,7 +977,7 @@ items:
                 url: /katalon-studio/docs/common-concatenate.html
               - title: "[Common] Delay"
                 url: /katalon-studio/docs/common-delay.html
-      - title: "Execution and Reporting"
+      - title: "Execution"
         tree:
           - title: "Test Suite"
             url: /katalon-studio/docs/test-suite.html
@@ -999,20 +989,20 @@ items:
             url: /katalon-studio/docs/selenium-grid-integration.html
           - title: "Executing Tests on Multiple Devices in Parallel"
             url: /katalon-studio/docs/execute_tests_parallelly_multiple_devices.html
-          - title: "Reports"
-            tree:
-              - title: "Test Suite Report"
-                url: /katalon-studio/docs/test-suite-report.html
-              - title: "Test Suite Collection Report"
-                url: /katalon-studio/docs/test-suite-collection-report.html
-              - title: "View Execution Log"
-                url: /katalon-studio/docs/view-execution-log.html
-              - title: "Customize Console Log"
-                url: /katalon-studio/docs/working-with-execution-log.html
-              - title: "Video Capturing"
-                url: /katalon-studio/docs/video-capturing.html
-              - title: "Get generated Reports location at runtime"
-                url: /katalon-studio/docs/get-generated-reports-location-at-runtime.html         
+      - title: "Reports"
+        tree:
+          - title: "Test Suite Report"
+            url: /katalon-studio/docs/test-suite-report.html
+          - title: "Test Suite Collection Report"
+            url: /katalon-studio/docs/test-suite-collection-report.html
+          - title: "View Execution Log"
+            url: /katalon-studio/docs/view-execution-log.html
+          - title: "Customize Console Log"
+            url: /katalon-studio/docs/working-with-execution-log.html
+          - title: "Video Capturing"
+            url: /katalon-studio/docs/video-capturing.html
+          - title: "Get generated Reports location at runtime"
+            url: /katalon-studio/docs/get-generated-reports-location-at-runtime.html         
       - title: "Data-driven Testing"
         tree:
           - title: "Data-driven Testing with Katalon Studio"
