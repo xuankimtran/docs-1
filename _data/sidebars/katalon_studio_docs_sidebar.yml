@@ -192,13 +192,7 @@ items:
           - title: "API/Web Service Project"
             url: /katalon-studio/docs/apiweb-service-project-since-v58.html
           - title: "Project Settings"
-            tree:
-              - title: "Execution Settings"
-                url: /katalon-studio/docs/execution-settings.html
-              - title: "Emails Settings"
-                url: /katalon-studio/docs/emails-settings.html
-              - title: "Network Settings"
-                url: /katalon-studio/docs/network-settings.html
+            url: /katalon-studio/docs/execution-settings.html
       - title: "Test Design"
         tree:
           - title: "Search Function"
