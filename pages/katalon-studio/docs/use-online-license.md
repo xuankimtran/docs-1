@@ -37,3 +37,5 @@ For Enterprise users with a private network, you may encounter a situation where
 * update.katalon.com
 * analytics.katalon.com
 * testops.katalon.com
+
+Learn more about how to install and execute Katalon Runtime Engine [here](https://docs.katalon.com/katalon-studio/docs/install-RE.html).
