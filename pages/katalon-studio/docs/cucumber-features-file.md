@@ -30,7 +30,7 @@ Let's look at an example of Katalon Demo Cura System ([http://demoaut.katalon.co
 
 **Sample Features File**
 
-```groovy
+```gherkin
 #Author: your.email@your.domain.com
 #Keywords Summary :
 #Feature: List of scenarios.
