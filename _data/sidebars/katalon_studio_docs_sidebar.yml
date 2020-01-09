@@ -1,26 +1,36 @@
 items:
-  - title: "License and Subscription"
+  - title: "Products and Licenses"
     tree:
       - title: "Katalon Studio Licensing"
         url: /katalon-studio/docs/license.html
+      - title: "Online and Offline Licenses"
+        url: /katalon-studio/docs/online-offline-licenses.html
       - title: "Katalon Trial and Free Plans"
         url: /katalon-studio/docs/trial-free-plans.html
-      - title: "Katalon License Subscription"
-        url: /katalon-studio/docs/license-subscription.html
-      - title: "Subscription via Katalon Website"
-        url: /katalon-studio/docs/subscription-kstore.html
-      - title: "Subscription via Katalon TestOps"
-        url: /katalon-studio/docs/license-KT.html
-      - title: "Subscription via PO"
-        url: /katalon-studio/docs/license-po.html
-      - title: "Subscription via Quote"
-        url: /katalon-studio/docs/license-quote.html
-      - title: "Create a Katalon Studio Enterprise Offline License"
-        url: /katalon-studio/docs/how-to-create-kse-offline-license.html
-      - title: "Katalon License Management"
-        url: /katalon-studio/docs/license-management.html
-      - title: "Session Termination Causes"
-        url: /katalon-studio/docs/session-termination.html
+      - title: "Subscribe to Katalon licenses"
+        tree:
+          - title: "Katalon License Subscription"
+            url: /katalon-studio/docs/license-subscription.html
+          - title: "Subscription via Katalon Website"
+            url: /katalon-studio/docs/subscription-kstore.html
+          - title: "Subscription via Katalon TestOps"
+            url: /katalon-studio/docs/license-KT.html
+          - title: "Subscription via PO"
+            url: /katalon-studio/docs/license-po.html
+          - title: "Subscription via Quote"
+            url: /katalon-studio/docs/license-quote.html
+      - title: "Use and Maintain Katalon licenses"
+        tree:
+          - title: "Katalon License Management"
+            url: /katalon-studio/docs/license-management.html
+          - title: "Use Online Licenses"
+            url: /katalon-studio/docs/use-online-license.html
+          - title: "Create a Katalon Studio Enterprise Offline License"
+            url: /katalon-studio/docs/how-to-create-kse-offline-license.html
+      - title: "Troubleshoot"
+        tree:
+          - title: "Session Termination Causes"
+            url: /katalon-studio/docs/session-termination.html
   - title: "Katalon Studio Enterprise"
     tree:
       - title: "Get Started"
