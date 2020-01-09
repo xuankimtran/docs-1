@@ -22,11 +22,7 @@ description:
 Environment Requirements
 ------------------------
 
-* Verify if your computer meets the [System Requirements](http://docs.katalon.com/display/KD/System+Requirements) to work with Katalon Studio.
-
-* Ensure you are using Katalon Studio with the default font size set to 100% in both Katalon Studio and your current OS to avoid the name field not being displayed on some pop-up windows:
-    * Windows: [https://www.pcworld.com/article/242942/how\_to\_change\_font\_size.html](https://www.pcworld.com/article/242942/how_to_change_font_size.html)
-    * Katalon Studio: Window → Preferences → General → Appearance → Colors and Fonts. Select **Dialog Font** and edit its font size.
+Verify if your computer meets the [System Requirements](http://docs.katalon.com/display/KD/System+Requirements) to work with Katalon Studio.
 
 Download Katalon Studio
 -----------------------
@@ -46,13 +42,19 @@ To start Katalon Studio, double-click on the **katalon.exe**.
 
 ![Download and Start Katalon Studio](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/install_setup_katalon_studio/Starting-Katalon-Studio.png)
 
+Ensure you are using Katalon Studio with the default font size set to 100% in both Katalon Studio and your current OS to avoid the name field not being displayed on some > pop-up windows:
+* Windows: [https://www.pcworld.com/article/242942/how\_to\_change\_font\_size.html](https://www.pcworld.com/article/242942/how_to_change_font_size.html)
+* Katalon Studio: Window → Preferences → General → Appearance → Colors and Fonts. Select **Dialog Font** and edit its font size.
+
 ### For macOS
 
 **Katalon Studio** (macOS) file in the directory where you unpack Katalon Studio.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/install_setup_katalon_studio/Katalon-MacOS.png "init-size")
 
-> Notes: If you currently use macOS Catalina, you have to enable Katalon Studio and Katalon Studio Engine applications in  **System Preferences/ Security & Privacy/ General**.
+> For macOS Catalina users
+> 
+> If you currently use macOS Catalina, you have to enable Katalon Studio and Katalon Studio Engine applications in  **System Preferences/ Security & Privacy/ General**.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/getting-started/KSE-catalina.png" width="665" height="559">
 
