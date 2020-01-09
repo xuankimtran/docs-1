@@ -24,6 +24,8 @@ jobs:
       with:
         ruby-version: '2.6.3'
     - run: |
+        bundle config path vendor/bundle
+        bundle install --jobs 4 --retry 3
         bundle install
         mkdir -p _site/${GITHUB_REF##*/}
         bundle exec jekyll clean
