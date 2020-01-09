@@ -1,8 +1,8 @@
 ---
-title: "Create a Katalon Studio Enterprise Offline License"
+title: "Grant and Use a Katalon Studio Enterprise Offline License"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/how-to-create-kse-offline-license.html
-description: How to create a Katalon Studio Enterprise offline license 
+description: How to grant a Katalon Studio Enterprise offline license 
 ---
 
 > Only **node-locked** Katalon Studio Enterprise (KSE) licenses with a **yearly** billing cycle can be converted to offline licenses.
@@ -12,10 +12,9 @@ A KSE license once converted to an offline license binds to a machine until it e
 There are two roles in this tutorial:
 
 * Owner/Admins of the organization that have purchased KSE licenses.
-
 * Users need offline licenses.
 
-> Here we only refer to organization roles since a Katalon user may have both roles.
+   > Here we only refer to organization roles since a Katalon user may have both roles.
 
 ### Step 1: Users view and send a machine ID to Owner/Admins
 

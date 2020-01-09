@@ -23,10 +23,12 @@ items:
         tree:
           - title: "Katalon License Management"
             url: /katalon-studio/docs/license-management.html
-          - title: "Use Online Licenses"
+          - title: "Grant Online Licenses"
             url: /katalon-studio/docs/use-online-license.html
-          - title: "Create a Katalon Studio Enterprise Offline License"
+          - title: "Grant and Use a Katalon Studio Enterprise Offline License"
             url: /katalon-studio/docs/how-to-create-kse-offline-license.html
+          - title: "Grant and Use a Katalon Runtime Engine Offline License"
+            url: /katalon-studio/docs/re-offline-licenses.html
       - title: "Troubleshoot"
         tree:
           - title: "Session Termination Causes"
