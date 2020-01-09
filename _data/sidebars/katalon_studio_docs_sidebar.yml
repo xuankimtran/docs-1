@@ -1043,14 +1043,8 @@ items:
             url: /katalon-studio/docs/database-settings.html
           - title: "Combine Multiple Data Sources"
             url: /katalon-studio/docs/combine-multiple-data-sources.html
-      - title: "BDD Testing Framework"
-        tree:
-          - title: "Cucumber Features File"
-            url: /katalon-studio/docs/cucumber-features-file.html
-          - title: "Step Definitions"
-            url: /katalon-studio/docs/step-definitions.html
-          - title: "Running Cucumber Features File"
-            url: /katalon-studio/docs/running-cucumber-features-file.html
+      - title: "BDD Testing Framework (Cucumber integration)"
+        url: /katalon-studio/docs/cucumber-features-file.html
       - title: "Integration"
         tree:
           - title: "Katalon API Keys"
