@@ -41,6 +41,6 @@ To run Katalon Studio or Katalon Studio Enterprise with Katalon Runtime Engine, 
     >
     > Please refer to [Command Syntax](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#katalon-studio-plugins-in-console-mode) for further instructions on working with RE.
 
-### Free License
+## Free License
 
 The free license granted for each Katalon account only includes the standard Katalon Studio with starter features. Currently, the free license for Katalon Runtime Engine is not available. If you wish to execute Katalon Studio in console mode, you need to subscribe to a Katalon Runtime Engine license. You can upgrade the free Katalon Studio to Katalon Studio Enterprise with a paid license without having to re-download.
