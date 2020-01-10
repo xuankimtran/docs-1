@@ -15,6 +15,13 @@ Each trial license can be activated on only one machine at a time. When your tri
 
 To purchase licenses, please follow [this instruction](https://docs.katalon.com/katalon-studio/docs/license-subscription.html).
 
+### Activate Katalon Studio Enterprise with Trial License
+
+1. Download and Open Katalon Studio.
+2. Log into your Katalon account. The trial is automatically activated for Katalon users with a business email.
+
+You can start using Katalon Studio Enterprise for 30 days.
+
 ### Activate Katalon Runtime Engine with Trial License
 
 > Trial licenses only work in online environments.
