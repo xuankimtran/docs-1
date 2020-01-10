@@ -19,6 +19,10 @@ items:
             url: /katalon-studio/docs/license-po.html
           - title: "Subscription via Quote"
             url: /katalon-studio/docs/license-quote.html
+          - title: "Upgrade Subscriptions"
+            url: /katalon-studio/docs/upgrade-subs.html
+          - title: "Cancel Subscriptions"
+            url: /katalon-studio/docs/cancel-subs.html
       - title: "Use and Maintain Katalon licenses"
         tree:
           - title: "Katalon License Management"
