@@ -229,34 +229,8 @@ items:
                 url: /katalon-studio/docs/working-with-sensitive-text.html
               - title: "External Libraries"
                 url: /katalon-studio/docs/external-libraries.html
-              - title: "Assertions and Checkpoints"
-                tree:
-                  - title: "Assert Statements"
-                    url: /katalon-studio/docs/assert-statements.html
-                  - title: "Manage Checkpoints"
-                    url: /katalon-studio/docs/manage-checkpoints.html
-                  - title: "Verification Snippets"
-                    url: /katalon-studio/docs/verification-snippets.html
-                  - title: "Common Assertions"
-                    tree:
-                      - title: "[Common] Verify Checkpoint"
-                        url: /katalon-studio/docs/common-verify-checkpoint.html
-                      - title: "[Common] Verify Equal"
-                        url: /katalon-studio/docs/common-verify-equal.html
-                      - title: "[Common] Verify Greater Than"
-                        url: /katalon-studio/docs/common-verify-greater-than.html
-                      - title: "[Common] Verify Greater Than Or Equal"
-                        url: /katalon-studio/docs/common-verify-greater-than-or-equal.html
-                      - title: "[Common] Verify Less Than"
-                        url: /katalon-studio/docs/common-verify-less-than.html
-                      - title: "[Common] Verify Less Than Or Equal"
-                        url: /katalon-studio/docs/common-verify-less-than-or-equal.html
-                      - title: "[Common] Verify Match"
-                        url: /katalon-studio/docs/common-verify-match.html
-                      - title: "[Common] Verify Not Equal"
-                        url: /katalon-studio/docs/common-verify-not-equal.html
-                      - title: "[Common] Verify Not Match"
-                        url: /katalon-studio/docs/common-verify-not-match.html
+              - title: "Assert Statements"
+                url: /katalon-studio/docs/assert-statements.html
           - title: "Execute and Debug"
             tree:
             - title: "Execute a Test Case"
@@ -457,6 +431,8 @@ items:
                 url: /katalon-studio/docs/authorization-oauth2.html
               - title: "Web Services Builder"
                 url: /katalon-studio/docs/web-services-builder.html
+              - title: "Verification Snippets"
+                url: /katalon-studio/docs/verification-snippets.html
               - title: "Using Web Services in a Test Case"
                 url: /katalon-studio/docs/using-web-services-in-a-test-case.html
               - title: "Working with API/Web Services Project "
@@ -957,22 +933,26 @@ items:
               url: /katalon-studio/docs/cucumber-kw-run-feature-folder.html
             - title: "[Cucumber] Run with Cucumber Runner"
               url: /katalon-studio/docs/cucumber-kw-run-cucumber-runner.html
-          - title: "Custom Keywords"
+          - title: "Common Assertions"
             tree:
-              - title: "Introduction to Custom Keywords"
-                url: /katalon-studio/docs/introduction-to-custom-keywords.html
-              - title: "Sample Custom Keywords"
-                url: /katalon-studio/docs/sample-custom-keywords.html
-              - title: "Import/Export Keywords"
-                url: /katalon-studio/docs/importexport-keywords.html
-              - title: "Custom Keywords Refactoring"
-                url: /katalon-studio/docs/custom-keywords-refactor.html
-              - title: "Import Custom Keywords classes recursively"
-                url: /katalon-studio/docs/import-custom-keywords-classes-recursively.html
-              - title: "Mark test's status for a Custom Keyword"
-                url: /katalon-studio/docs/mark-tests-status-for-a-custom-keyword.html
-              - title: "Handling Databases"
-                url: /katalon-studio/docs/handling-databases.html
+              - title: "[Common] Verify Checkpoint"
+                url: /katalon-studio/docs/common-verify-checkpoint.html
+              - title: "[Common] Verify Equal"
+                url: /katalon-studio/docs/common-verify-equal.html
+              - title: "[Common] Verify Greater Than"
+                url: /katalon-studio/docs/common-verify-greater-than.html
+              - title: "[Common] Verify Greater Than Or Equal"
+                url: /katalon-studio/docs/common-verify-greater-than-or-equal.html
+              - title: "[Common] Verify Less Than"
+                url: /katalon-studio/docs/common-verify-less-than.html
+              - title: "[Common] Verify Less Than Or Equal"
+                url: /katalon-studio/docs/common-verify-less-than-or-equal.html
+              - title: "[Common] Verify Match"
+                url: /katalon-studio/docs/common-verify-match.html
+              - title: "[Common] Verify Not Equal"
+                url: /katalon-studio/docs/common-verify-not-equal.html
+              - title: "[Common] Verify Not Match"
+                url: /katalon-studio/docs/common-verify-not-match.html
           - title: "Utilities Keywords"
             tree:
               - title: "[Common] Call Test Case"
@@ -983,6 +963,24 @@ items:
                 url: /katalon-studio/docs/common-concatenate.html
               - title: "[Common] Delay"
                 url: /katalon-studio/docs/common-delay.html
+      - title: "Custom Keywords"
+        tree:
+          - title: "Introduction to Custom Keywords"
+            url: /katalon-studio/docs/introduction-to-custom-keywords.html
+          - title: "Sample Custom Keywords"
+            url: /katalon-studio/docs/sample-custom-keywords.html
+          - title: "Import/Export Keywords"
+            url: /katalon-studio/docs/importexport-keywords.html
+          - title: "Custom Keywords Refactoring"
+            url: /katalon-studio/docs/custom-keywords-refactor.html
+          - title: "Import Custom Keywords classes recursively"
+            url: /katalon-studio/docs/import-custom-keywords-classes-recursively.html
+          - title: "Mark test's status for a Custom Keyword"
+            url: /katalon-studio/docs/mark-tests-status-for-a-custom-keyword.html
+          - title: "Handling Databases"
+            url: /katalon-studio/docs/handling-databases.html
+      - title: "Checkpoints"
+        url: /katalon-studio/docs/manage-checkpoints.html
       - title: "Execution"
         tree:
           - title: "Test Suite"
