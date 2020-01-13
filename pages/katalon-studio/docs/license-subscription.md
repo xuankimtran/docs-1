@@ -15,7 +15,10 @@ There are four ways to subscribe to Katalon licenses:
 3. [Get a Quote](https://docs.katalon.com/katalon-studio/docs/license-quote.html)
 4. [Purchase Order (PO)](https://docs.katalon.com/katalon-studio/docs/license-po.html)
 
-> After successfully subscribing to a Katalon license, please make sure to re-activate your Katalon account to begin using the purchased license.
+After successfully subscribing to a Katalon license, we recommend you should:
+
+* [Verify licenses information](https://docs.katalon.com/katalon-studio/docs/license-management.html#verify-and-view-licenses-information)
+* Make sure to re-activate your Katalon account to begin using the purchased license.
 
 ## Subscription Renewal
 
