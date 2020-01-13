@@ -9,7 +9,7 @@ Before assigning a license, the organization Owner/Admin must [add the team memb
 
 ### Katalon Studio Enterprise
 
-1. In [Katalon TestOps](https://analytics.katalon.com/home), select your **Organization > License**.
+1. In [Katalon TestOps](https://analytics.katalon.com/home), select your **Organization > Licenses**.
 2. On **Katalon Studio Enterprise** view, register the on-demand users by adding them to the **Registered Users** list.
 
    When the registered users activate Katalon Studio Enterprise, the machine IDs are added to the **Online Licenses** list in Katalon TestOps.

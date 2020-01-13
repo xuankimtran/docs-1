@@ -15,6 +15,13 @@ Each trial license can be activated on only one machine at a time. When your tri
 
 To purchase licenses, please follow [this instruction](https://docs.katalon.com/katalon-studio/docs/license-subscription.html).
 
+### Activate Katalon Studio Enterprise with Trial License
+
+1. Download and Open Katalon Studio.
+2. Log into your Katalon account. The trial is automatically activated for Katalon users with a business email.
+
+You can start using Katalon Studio Enterprise for 30 days.
+
 ### Activate Katalon Runtime Engine with Trial License
 
 > Trial licenses only work in online environments.
@@ -41,6 +48,6 @@ To run Katalon Studio or Katalon Studio Enterprise with Katalon Runtime Engine, 
     >
     > Please refer to [Command Syntax](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#katalon-studio-plugins-in-console-mode) for further instructions on working with RE.
 
-### Free License
+## Free License
 
 The free license granted for each Katalon account only includes the standard Katalon Studio with starter features. Currently, the free license for Katalon Runtime Engine is not available. If you wish to execute Katalon Studio in console mode, you need to subscribe to a Katalon Runtime Engine license. You can upgrade the free Katalon Studio to Katalon Studio Enterprise with a paid license without having to re-download.

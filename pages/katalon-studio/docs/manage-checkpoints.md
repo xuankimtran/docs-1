@@ -1,5 +1,5 @@
 ---
-title: "Manage Checkpoints" 
+title: "Checkpoints" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/manage-checkpoints.html 
 redirect_from:

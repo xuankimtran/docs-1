@@ -70,8 +70,18 @@ body {
     margin-top: 10px;
   }
   code {
-    white-space: normal;
     word-break: break-all;
+  }
+  .feedback-links {
+    ul {
+      display: flex;
+      list-style: none;
+      padding-inline-start: 0;
+
+      li {
+        margin-right: 2em;
+      }
+    }
   }
 }
 
