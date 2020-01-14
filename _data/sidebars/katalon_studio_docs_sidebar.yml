@@ -1,7 +1,7 @@
 items:
   - title: "Products and Licenses"
     tree:
-      - title: "Katalon Studio Licensing"
+      - title: "Katalon Products and Licensing"
         url: /katalon-studio/docs/license.html
       - title: "Online and Offline Licenses"
         url: /katalon-studio/docs/online-offline-licenses.html
@@ -19,9 +19,9 @@ items:
             url: /katalon-studio/docs/license-po.html
           - title: "Subscription via Quote"
             url: /katalon-studio/docs/license-quote.html
-      - title: "Use and Maintain Katalon licenses"
+      - title: "Use and Manage Katalon Licenses"
         tree:
-          - title: "Katalon License Management"
+          - title: "Manage Katalon Licenses"
             url: /katalon-studio/docs/license-management.html
           - title: "Grant Online Licenses"
             url: /katalon-studio/docs/use-online-license.html
