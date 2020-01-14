@@ -5,14 +5,16 @@ permalink: katalon-studio/docs/license-subscription.html
 description:
 ---
 
-For more information of Katalon Studio Licensing details, click [here](https://docs.katalon.com/katalon-studio/docs/license.html). 
+[Katalon licenses](https://docs.katalon.com/katalon-studio/docs/license.html) are purchased and managed via **Organizations** in [Katalon TestOps](https://analytics.katalon.com/).
+
 If you need further assistance with Katalon Pricing and Subscription, please contact our sales team via business@katalon.com.
 
-There are three ways to start your Katalon license subscription:
+There are four ways to subscribe to Katalon licenses:
 
 1. [Katalon TestOps](https://docs.katalon.com/katalon-studio/docs/license-KT.html)
 2. [Katalon Website](https://docs.katalon.com/katalon-studio/docs/subscription-kstore.html)
-3. [Quote](https://docs.katalon.com/katalon-studio/docs/license-quote.html)
+3. [Get a Quote](https://docs.katalon.com/katalon-studio/docs/license-quote.html)
+4. [Purchase Order (PO)](https://docs.katalon.com/katalon-studio/docs/license-po.html)
 
 After successfully subscribing to a Katalon license, please make sure to re-activate your Katalon account to begin using the purchased license.
 
