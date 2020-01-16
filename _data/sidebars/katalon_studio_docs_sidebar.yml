@@ -1217,7 +1217,7 @@ items:
       - title: "Install Runtime Engine"
         url: /katalon-studio/docs/install-RE.html
       - title: "Activate Runtime Engine"
-        url: /katalon-studio/docs/activate-RE.html
+        url: /katalon-studio/docs/install-RE.html#activate-kre
       - title: "Export Test Results in JUnit Format"
         url: /katalon-studio/docs/export-test-results-in-junit-format.html
       - title: "Command Syntax (Command-line/Console Mode Execution)"
