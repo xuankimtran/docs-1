@@ -28,52 +28,12 @@ redirect_from:
 description:
 ---
 
-**Desired Capabilities** are key/value pairs that tell the browser properties such as browser name, browser version, the path of the browser driver in the system, etc. to determine the browsers' behaviors at runtime. Desired capabilities which can be used to configure such additional driver instances as FirefoxDriver, ChromeDriver, InternetExplorerDriver, Selenium WebDriver are useful in the following cases:
+**Desired Capabilities** are key/value pairs that tell the browser properties such as browser name, browser version, and the path of the browser driver in the system. to determine the browsers' behaviors at runtime. Desired capabilities which can be used to configure such additional driver instances as FirefoxDriver, ChromeDriver, InternetExplorerDriver, Selenium WebDriver are useful in the following cases:
 
 * Setting the browser and device properties in mobile testing
 * Adding extra settings to browsers in web testing
 
-Katalon Studio allows you to define these Desired Capabilities in Project Settings.
-
-## Understand the Settings
-
-You need to identify which environment you want to customize its behaviors before defining desired capabilities in a Katalon project. Below is the list of supported environments as well as their locations in project settings:
-
-### Remote
-
-* Define Desired Capabilities for execution on a remote web server.
-* **Project > Settings > Desired Capabilities > Remote**.
-
-### Windows
-
-* Define Desired Capabilities for execution on WinAppDriver.
-* **Project > Settings > Desired Capabilities > Windows**.
-
-### Custom
-
-* Define a custom option for execution.
-* **Project > Settings > Desired Capabilities > Custom**.
-
-> If you want to make a list of your own custom Desired Capabilities for some environments, then it's suggested to use '**Custom**' settings in this case.
-
-### WebUI
-
-* Define Desired Capabilities for local execution using Chrome, Firefox, IE, Safari, or Edge.
-* **Project > Settings > Desired Capabilities > WebUI > Chrome/Firefox/IE/Safari/Edge**.
-
-### WebUI- Headless Browsers
-
-* Define Desired Capabilities for execution with a headless instance using Chrome or Firefox.
-* **Project > Settings > Desired Capabilities > WebUI >Chrome (Headless)/Firefox (Headless)**.
-
-### Mobile
-
-* Define Desired Capabilities for execution with Android or iOS devices.
-* **Project > Settings > Desired Capabilities > Mobile > Android/iOS**.
-
-## Configure Desired Capabilities in Katalon Studio
-
-After selecting the environment, you can manage its desired capabilities with:
+Katalon Studio allows you to define these Desired Capabilities in Project Settings. You need to identify which environment you want to customize its behaviors before defining desired capabilities in a Katalon project. After selecting the environment, you can manage its desired capabilities with:
 
 * **Add**: to add a new row to the **Desired Capabilities** list.
   * Provide the name of the property that you'd like to configure and its type.
@@ -81,7 +41,12 @@ After selecting the environment, you can manage its desired capabilities with:
 * **Delete**: to delete selected records.
 * **Clear**: to clear all existing records.
 
-### Remote Desired Capabilities
+Below is the list of supported environments as well as how to configure them in project settings:
+
+## Remote
+
+* Define Desired Capabilities for execution on a remote web server.
+* **Project > Settings > Desired Capabilities > Remote**.
 
 There will be cases you need to connect and execute your tests on remote environments such as Selenium Grid and Katalium Server or cloud services such as Kobiton, SauceLabs or BrowserStacks. Katalon Studio does support this remote execution.
 
@@ -101,11 +66,12 @@ Note that this Remote option is applied for all executions which support this ki
 Starting with **Katalon Studio version 6.3.0**, when Appium is set as `Remote server type`,  the **Appium Driver** option is available for you to choose between *Android Driver* and *iOS Driver*.
 Then this selection is used for launching the correct Appium Driver to connect to Cloud Devices.
 
-### Desired Capabilities for Windows
+## Windows
+
+* Define Desired Capabilities for execution on WinAppDriver of desktop applications testing.
+* **Project > Settings > Desired Capabilities > Windows**.
 
 > Starting in **Katalon Studio version 7.0**, Windows desktop application testing is available.
-
-Navigate to **Project** > **Settings** > **Desired Capabilities**> **Windows** to configure desired capabilities for desktop applications testing.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/windows-desired-capabilities/desired-capa-win.png"  width="796" height="600">
 
@@ -115,7 +81,12 @@ These settings are applied for a test execution on a Windows desktop app. You ar
 
 * **Desired Capabilities**: Katalon Studio supports the same [capabilities](https://github.com/microsoft/WinAppDriver/blob/master/Docs/AuthoringTestScripts.md#user-content-supported-locators-to-find-ui-elements) as WinAppDriver does.
 
-### Desired Capabilities for Custom Execution
+## Custom Execution
+
+* Define a custom option for execution.
+* **Project > Settings > Desired Capabilities > Custom**.
+
+> If you want to make a list of your own custom Desired Capabilities for some environments, then it's suggested to use '**Custom**' settings in this case.
 
 Custom execution is slightly different from other execution settings. Follow these steps to create a custom execution with its desired capabilities:
 
@@ -146,7 +117,12 @@ Custom execution is slightly different from other execution settings. Follow the
 > | Android | com.kms.katalon.core.mobile.android.properties |
 > | iOS | com.kms.katalon.core.mobile.ios.properties |
 
-### Desired Capabilities for Internet Explorer
+## WebUI
+
+* Define Desired Capabilities for local execution using Chrome, Firefox, IE, Safari, or Edge.
+* **Project > Settings > Desired Capabilities > WebUI > Chrome/Firefox/IE/Safari/Edge**.
+
+### Internet Explorer
 
 Internet Explorer driver supports some important capabilities which can be used to smooth execution of test on Internet Explorer. Some of these capabilities help us to disable JavaScripts, ignore the security domain setting for IE, persistent hovering, require window focus etc. These capabilities ease the way the for automation testing using Selenium Web Driver on Internet Explorer. More details on the Internet Explorer can be found [here](https://code.google.com/p/selenium/wiki/DesiredCapabilities#IE_specific).
 
@@ -154,14 +130,19 @@ The most common use of Internet Explorer desired capabilities is to configure In
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-internet-explorer/IE.png)
 
-*   **ignoreProtectedModeSettings:**Whether to skip the protected mode check. If set, tests may become flaky or unresponsive, and browsers may hang. If not set, and protected mode settings are not the same for all zones, an exception will be thrown on driver construction. Only "best effort" support is provided when using this capability.
-*   **ignoreZoomSetting:** Indicates whether to skip checking that the browser's zoom level is set to 100%. Value is set to false by default.
-*   **enablePersistentHover: **Determines whether persistent hovering is enabled (true by default). Persistent hovering is achieved by continuously firing mouse over events at the last location the mouse cursor has been moved to.
-*   **requireWindowFocus:** Determines whether to require the IE window to focus before performing any user interaction operations (mouse or keyboard events). This capability is false by default but delivers much more accurate native events interactions.
+* **ignoreProtectedModeSettings** determines whether to  skip the protected mode check. If set, tests may become flaky or unresponsive, and browsers may hang. If not set, and protected mode settings are not the same for all zones, an exception will be thrown on driver construction. Only "best effort" support is provided when using this capability.
+* **ignoreZoomSetting** indicates whether to skip checking that the browser's zoom level is set to 100%. Value is set to false by default.
+* **enablePersistentHover** determines whether persistent hovering is enabled (true by default). Persistent hovering is achieved by continuously firing mouse over events at the last location the mouse cursor has been moved to.
+* **requireWindowFocus** determines whether to require the IE window to focus before performing any user interaction operations (mouse or keyboard events). This capability is false by default but delivers much more accurate native events interactions.
 
 > Code sample can be found in this project: [https://github.com/katalon-studio-samples/tips-and-tricks](https://github.com/katalon-studio-samples/tips-and-tricks)
 
-### Desired Capabilities for Firefox/Firefox (headless)
+## WebUI- Headless Browsers
+
+* Define Desired Capabilities for execution with a headless instance using Chrome or Firefox.
+* **Project > Settings > Desired Capabilities > WebUI >Chrome (Headless)/Firefox (Headless)**.
+
+### Firefox/Firefox (headless)
 
 You can locate Firefox settings file at this path: **_<Project_folder>\\settings\\internal\\com.kms.katalon.core.webui.firefox.properties._**
 
@@ -194,7 +175,7 @@ Some common Desired Capabilities:
 
 > Code sample can be found in this project: [https://github.com/katalon-studio-samples/tips-and-tricks](https://github.com/katalon-studio-samples/tips-and-tricks)
 
-### Desired Capabilities for Chrome/Chrome (headless)
+### Chrome/Chrome (headless)
 
 The Desired Capabilities available for Chrome is listed [here](http://chromedriver.chromium.org/capabilities). You can locate Chrome settings file at this path: **_<Project folder>\\settings\\internal\\com.kms.katalon.core.webui.chrome.properties._**
 
@@ -209,7 +190,7 @@ Please refer to some common examples below regard to how to manage Desired Capab
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/Screen-Shot-2018-07-17-at-16.38.57.png)
 
-2\. To disable notification bars : [--disable-infobars](https://peter.sh/experiments/chromium-command-line-switches/#disable-infobars)
+2. To disable notification bars : [--disable-infobars](https://peter.sh/experiments/chromium-command-line-switches/#disable-infobars)
 
 ```groovy
 {"CHROME_DRIVER":{"args":["--start-maximized","--disable-infobars"]}}
@@ -218,7 +199,7 @@ Please refer to some common examples below regard to how to manage Desired Capab
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/Screen-Shot-2018-07-17-at-17.03.42.png)
 
-3\. To start Chrome in incognito (private) mode : [--incognito](https://peter.sh/experiments/chromium-command-line-switches/#incognito)
+3. To start Chrome in incognito (private) mode : [--incognito](https://peter.sh/experiments/chromium-command-line-switches/#incognito)
 
 ```groovy
 {"CHROME_DRIVER":{"args":["--start-maximized","--disable-infobars","--incognito"]}}
@@ -229,7 +210,10 @@ Please refer to some common examples below regard to how to manage Desired Capab
 
 > Code sample can be found in this project: [https://github.com/katalon-studio-samples/tips-and-tricks](https://github.com/katalon-studio-samples/tips-and-tricks)
 
-### Desired Capabilities for Mobile testing
+## Mobile
+
+* Define Desired Capabilities for execution with Android or iOS devices.
+* **Project > Settings > Desired Capabilities > Mobile > Android/iOS**.
 
 You need to select the device when configuring Desired Capabilities.
 
@@ -238,5 +222,3 @@ You need to select the device when configuring Desired Capabilities.
 Where:
 
 * **Device Name**: the device to apply Desired Capabilities settings on.
-
-
