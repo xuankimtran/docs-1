@@ -23,6 +23,7 @@ redirect_from:
     - "/katalon-studio/docs/debug-automation-test.html"
     - "/katalon-studio/tutorials/debugging_test_case.html"
     - "/katalon-studio/docs/debugging_test_case.html/"
+    - "/katalon-studio/docs/execute_debug_certain_steps.html"
 description:
 ---
 ## Execute a Test Case
