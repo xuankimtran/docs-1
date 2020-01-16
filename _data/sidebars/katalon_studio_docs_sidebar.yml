@@ -231,20 +231,10 @@ items:
                 url: /katalon-studio/docs/external-libraries.html
               - title: "Assert Statements"
                 url: /katalon-studio/docs/assert-statements.html
-          - title: "Execute and Debug"
-            tree:
-            - title: "Execute a Test Case"
-              url: /katalon-studio/docs/execute-a-test-case-or-a-test-suite.html
-            - title: "Debug a Test Case"
-              url: /katalon-studio/docs/debugging_test_case.html
-            - title: "How to execute/debug certain steps of a test case"
-              url: /katalon-studio/docs/execute_debug_certain_steps.html
+          - title: "Execute and Debug a Test Case"
+            url: /katalon-studio/docs/execute-a-test-case-or-a-test-suite.html
           - title: "Desired Capabilities"
-            tree:
-              - title: "Introduction to Desired Capabilities"
-                url: /katalon-studio/docs/introduction-to-desired-capabilities.html
-              - title: "Remote Desired Capabilities"
-                url: /katalon-studio/docs/remote-desired-capabilities.html     
+            url: /katalon-studio/docs/introduction-to-desired-capabilities.html
           - title: "Samples"
             tree:
               - title: "Samples Projects"
@@ -367,14 +357,6 @@ items:
                     url: /katalon-studio/docs/webdriver-event-listeners.html
               - title: "Testing Web App on Mobile Browsers"
                 url: /katalon-studio/docs/running_application_mobile_browsers.html
-              - title: "Desired Capabilities"
-                tree:
-                  - title: "Desired Capabilities for Firefox/Firefox (headless)"
-                    url: /katalon-studio/docs/desired-capabilities-for-firefoxfirefox-headless.html
-                  - title: "Desired Capabilities for Chrome/Chrome (headless)"
-                    url: /katalon-studio/docs/desired-capabilities-for-chromechrome-headless.html
-                  - title: "Desired Capabilities for Internet Explorer"
-                    url: /katalon-studio/docs/desired-capabilities-for-internet-explorer.html
           - title: "Mobile Test Design"
             tree:
               - title: "An Introduction to Katalon Mobile Recorder"
@@ -468,9 +450,7 @@ items:
                   - title: "Windows Spy Tutorials"
                     url: /katalon-studio/docs/windows-spy-tutorials.html
                   - title: "Windows Record Tutorials"  
-                    url: /katalon-studio/docs/windows-recorder-tutorials.html   
-              - title: "Desired Capabilities for Windows"
-                url: /katalon-studio/docs/windows-desired-capabilities.html
+                    url: /katalon-studio/docs/windows-recorder-tutorials.html
           - title: "Test Artifacts Sharing"
             url: /katalon-studio/docs/import-export-test-artifact.html
           - title: "Test Maintenance"
