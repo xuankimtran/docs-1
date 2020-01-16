@@ -8,41 +8,60 @@ Katalon TestOps OnPremise (KTOP) allows you to access insightful features of Kat
 
 **Prerequisites:**
 
-* Download [Postgres Database](https://www.postgresql.org/download/). KTOP only supports PostgreSQL from version 11.
+* Download [PostgreSQL Database version 9.6.16](https://www.postgresql.org/download/)
 
 * Contact [Katalon Sales](mailto:business@katalon.com) team to get the Katalon TestOps OnPremise installer.
 
-You're recommended to get the versions that are compatible with your operating system. (Only Linux and Windows supported).
+We recommend installing the versions that are compatible with your operating system (only Linux and Windows are supported).
 
 ## Install and create PostgreSQL database
 
-1. Run the **PostgreSQL** installer and follow the wizard setup.
+1. Run the **PostgreSQL** installer and follow the PostgreSQL Setup Wizard.
 
-2. After installation, sign in using your Username and Password.
+* Provide a password for the database superuser (postgres)
 
-3. **PgAdmin** starts on your browser.
+  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/ktop-server/3.PNG" width="" height=""> 
+
+* Select the port number the server should listen on
+
+  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/ktop-server/4.PNG" width="" height=""> 
+
+2. After installation, open **PgAdmin** which starts on your browser.
+
+3. Sign in with the superuser's password.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/ktop-server/pgadmin.PNG" width="" height=""> 
 
 4. Create a database named **kit**.
 
- ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-op-installation/postgresql-dashboard.png)
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/ktop-server/kit.PNG" width="" height="">
 
-## Run the KTOP installer
+> You can use the default superuser **postgres** or create another Login role with the superuser's privileges.
 
-1. Run the KTOP installer and follow the wizard setup.
+## Install Katalon TestOps OnPremise
+
+1. Run the KTOP installer and follow the Setup Wizard.
 
 * **Destination directory** – this is where KTOP will be installed in your machine.
 
-* **TCP ports** – these are the HTTP connector and control ports that KTOP will run on. You're recommended to use the default ports unless you're running another application on the same port. 
+  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/ktop-server/5.PNG" width="" height=""> 
 
+* **TCP ports** – these are the HTTP connector and control ports that KTOP will run on. You're recommended to use the default ports unless you're running another application on the same port.
+
+  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/ktop-server/defaultport.PNG" width="" height="">
+
+
+  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/ktop-server/tomcat2.PNG" width="" height="">
+  
 * **Database URL** – the JDBC URL for your database.
+   
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/ktop-server/config_db.PNG" width="" height="">
 
-* **Server URL** - the address of your KTOP site. Syntax: http://<_IPAddress_>:<_configport_>. E.g., http://localhost:8080
+* **Server URL** - the address of your KTOP site. Syntax: http://<_IPAddress_>:<_TCPPort_>. E.g., http://localhost:8080
 
-* **Install as service** - KTOP will be installed as a service.
+2. KTOP will start on your browser once the installation completes with the **Activate TestOps** screen.
 
-2. KTOP will start on your browser once the installation completes with the Activate TestOps screen.
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-op-installation/kt-op-activation-by-file.png)
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/ktop-server/activate.PNG" width="" height="">
 
 3. On [Katalon TestOps](https://analytics.katalon.com/) Cloud, generate an offline license for KTOP using the Machine ID on the **Activate TestOps** screen. [Learn more](https://docs.katalon.com/katalon-studio/docs/license-management.html#create-and-assign-an-offline-rekse-license).
 
@@ -50,7 +69,7 @@ You're recommended to get the versions that are compatible with your operating s
 
 5. After activation, you will be asked to create a default account.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-op-installation/kt-op-create-root-account.png)
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/ktop-server/account.PNG" width="" height="">
 
 7. Sign in using the default account.
 

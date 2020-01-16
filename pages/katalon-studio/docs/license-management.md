@@ -1,5 +1,5 @@
 ---
-title: "Use and Maintain Katalon Licenses"
+title: "Manage Katalon Licenses"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/license-management.html
 description:
@@ -33,7 +33,7 @@ We provide different tutorials of how to grant and use different licenses:
   > *Available licenses = Subscribed licenses quota – (Offline licenses + Active online licenses)*
 
 * **Machine Quota** is equal to the license quota.
-* **Registered Users**- the users are allowed to use Katalon Studio Enterprise licenses.
+* **Registered Users**- the users are allowed to use Katalon Studio Enterprise licenses. (This list only displays in the **Katalon Studio Enterprise** view.)
 * **Online Licenses**- active machines that are using online licenses.
 * **Offline Licenses**- machines to which an offline license binds.
 * **Registered Machines**: machines that have used either online or offline license.
