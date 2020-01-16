@@ -237,8 +237,6 @@ items:
               url: /katalon-studio/docs/execute-a-test-case-or-a-test-suite.html
             - title: "Debug a Test Case"
               url: /katalon-studio/docs/debugging_test_case.html
-            - title: "How to execute/debug certain steps of a test case"
-              url: /katalon-studio/docs/execute_debug_certain_steps.html
           - title: "Desired Capabilities"
             tree:
               - title: "Introduction to Desired Capabilities"
