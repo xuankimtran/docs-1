@@ -5,11 +5,22 @@ permalink: katalon-studio/docs/jira-integration.html
 redirect_from:
     - "/katalon-studio/docs/BDD-field-jira-cloud/"
     - "/katalon-studio/docs/install-and-use-katalons-jira-add-on/"
+    - "/display/KD/Install+and+Use+Katalon%27s+JIRA+add-on/"
+    - "/display/KD/Install%20and%20Use%20Katalon%27s%20JIRA%20add-on/"
+    - "/x/TBBO/"
     - "/katalon-studio/docs/configure-jira-integration/"
     - "/katalon-studio/docs/working-with-jira/"
+    - "/display/KD/Configure+JIRA+Integration/"
+    - "/display/KD/Configure%20JIRA%20Integration/"
+    - "/x/7oEw/"
+    - "/katalon-studio/docs/configure-jira-integration/"
+    - "/display/KD/JIRA%20Integration/"
+    - "/display/KD/Working+with+JIRA/"
+    - "/display/KD/Working%20with%20JIRA/"
+    - "/x/MhBO/"
 
 description:
-----
+---
 ## Working with Jira
 
 Prerequisites:
