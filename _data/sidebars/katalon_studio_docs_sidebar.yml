@@ -203,10 +203,8 @@ items:
         tree:
           - title: "Search Function"
             url: /katalon-studio/docs/search.html
-          - title: "Manual View"
-            url: /katalon-studio/docs/manual-view.html
-          - title: "Script View"
-            url: /katalon-studio/docs/script-view.html
+          - title: "Create Test Case"
+            url: /katalon-studio/docs/create-test-case.html
           - title: "Elements of Test Cases"
             tree:
               - title: "Binary Statements"
@@ -319,10 +317,6 @@ items:
                 url: /katalon-studio/docs/introduction-to-web-testing.html
               - title: "Creating test case using Record & Playback"
                 url: /katalon-studio/docs/create_test_case_using_record_playback.html
-              - title: "Creating test case using manual mode"
-                url: /katalon-studio/docs/create_test_case_using_manual_mode.html
-              - title: "Creating test case using script mode"
-                url: /katalon-studio/docs/create_test_case_using_script_mode.html
               - title: "Web Test Object"
                 tree:
                   - title: "Manage Web Test Object"
