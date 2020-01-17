@@ -43,80 +43,6 @@ Katalon Studio allows you to define these Desired Capabilities in Project Setti
 
 Below is the list of supported environments as well as how to configure them in project settings:
 
-## Remote
-
-* Define Desired Capabilities for execution on a remote web server.
-* **Project > Settings > Desired Capabilities > Remote**.
-
-There will be cases you need to connect and execute your tests on remote environments such as Selenium Grid and Katalium Server or cloud services such as Kobiton, SauceLabs or BrowserStacks. Katalon Studio does support this remote execution.
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/remote-desired-capabilities/Remote-desired-capabilities.png)
-
-Please refer to some documents below as examples how to pass in desired capabilities from these providers:
-
-1. [Kobiton](https://docs.katalon.com/katalon-studio/docs/desired-capabilities-for-kobiton-devices.html)
-2. [SauceLabs](/display/KD/SauceLabs+Integration)
-3. [BrowserStack](/display/KD/BrowserStack+Integration)
-4. [Katalium Server](https://docs.katalon.com/katalium-server/docs/katalium-server-katalon-studio-remote-machine.html)
-
-Note that this Remote option is applied for all executions which support this kind of remote execution, so you can apply them in this option as well.
-
-> Code sample can be found in this project: [https://github.com/katalon-studio-samples/tips-and-tricks](https://github.com/katalon-studio-samples/tips-and-tricks)
-
-Starting with **Katalon Studio version 6.3.0**, when Appium is set as `Remote server type`,  the **Appium Driver** option is available for you to choose between *Android Driver* and *iOS Driver*.
-Then this selection is used for launching the correct Appium Driver to connect to Cloud Devices.
-
-## Windows
-
-* Define Desired Capabilities for execution on WinAppDriver of desktop applications testing.
-* **Project > Settings > Desired Capabilities > Windows**.
-
-> Starting in **Katalon Studio version 7.0**, Windows desktop application testing is available.
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/windows-desired-capabilities/desired-capa-win.png"  width="796" height="600">
-
-These settings are applied for a test execution on a Windows desktop app. You are allowed to configure the WinAppDriver URL and Desired Capabilities for Windows to start a Windows Application Driver.
-
-* **WinAppDriver URL**: a URL to the WinAppDriver server. By default, Katalon Studio is set to http://127.0.0.1:4723.
-
-* **Desired Capabilities**: Katalon Studio supports the same [capabilities](https://github.com/microsoft/WinAppDriver/blob/master/Docs/AuthoringTestScripts.md#user-content-supported-locators-to-find-ui-elements) as WinAppDriver does.
-
-## Custom Execution
-
-* Define a custom option for execution.
-* **Project > Settings > Desired Capabilities > Custom**.
-
-> If you want to make a list of your own custom Desired Capabilities for some environments, then it's suggested to use '**Custom**' settings in this case.
-
-Custom execution is slightly different from other execution settings. Follow these steps to create a custom execution with its desired capabilities:
-
-1. Click **Add** on the command toolbar to add a custom execution to the custom execution list.
-2. Change the name if needed, then click on the **More** icon under the **Value** column.
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/image2016-11-1-143A263A29.png)
-3. In the **Custom Execution Configuration Builder** dialog, specify the **Driver Name** for your custom execution.
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/image2016-11-1-143A293A6.png)
-
-    > You can have at most one web driver and one mobile driver here since there may be a potential conflict if you use multiple web or mobile drivers in the same test execution.
-4. Click on the **More** icon under the **Preferences** column.
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/image2016-11-1-143A303A6.png)
-5. The **Driver Builder** dialog is displayed for you to set desired capabilities for the selected Driver. The steps to add new Desired Capabilities here is similar to other settings above. Click **OK** when you finish.
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/image2016-11-1-143A353A10.png)
-
-> Location of Desired Capabilities files
-> 
-> Defined configuration settings are saved in separated files under the "**<your test project location>\\settings\\internal**" location (or "**<your test project location>\\settings\\external\\execution**" in case of custom execution), as below:
-> 
-> | Driver | Settings' file |
-> | --- | --- |
-> | Chrome | com.kms.katalon.core.webui.chrome.properties |
-> | Firefox | com.kms.katalon.core.webui.firefox.properties |
-> | IE | com.kms.katalon.core.webui.ie.properties |
-> | Safari | com.kms.katalon.core.webui.safari.properties |
-> | Edge | com.kms.katalon.core.webui.edge.properties |
-> | Remote Web | com.kms.katalon.core.webui.remote.properties |
-> | Android | com.kms.katalon.core.mobile.android.properties |
-> | iOS | com.kms.katalon.core.mobile.ios.properties |
-
 ## WebUI
 
 * Define Desired Capabilities for local execution using Chrome, Firefox, IE, Safari, or Edge.
@@ -222,3 +148,79 @@ You need to select the device when configuring Desired Capabilities.
 Where:
 
 * **Device Name**: the device to apply Desired Capabilities settings on.
+
+## Windows
+
+* Define Desired Capabilities for execution on WinAppDriver of desktop applications testing.
+* **Project > Settings > Desired Capabilities > Windows**.
+
+> Starting in **Katalon Studio version 7.0**, Windows desktop application testing is available.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/windows-desired-capabilities/desired-capa-win.png"  width="796" height="600">
+
+These settings are applied for a test execution on a Windows desktop app. You are allowed to configure the WinAppDriver URL and Desired Capabilities for Windows to start a Windows Application Driver.
+
+* **WinAppDriver URL**: a URL to the WinAppDriver server. By default, Katalon Studio is set to http://127.0.0.1:4723.
+
+* **Desired Capabilities**: Katalon Studio supports the same [capabilities](https://github.com/microsoft/WinAppDriver/blob/master/Docs/AuthoringTestScripts.md#user-content-supported-locators-to-find-ui-elements) as WinAppDriver does.
+
+## Remote
+
+* Define Desired Capabilities for execution on a remote web server.
+* **Project > Settings > Desired Capabilities > Remote**.
+
+There will be cases you need to connect and execute your tests on remote environments such as Selenium Grid and Katalium Server or cloud services such as Kobiton, SauceLabs or BrowserStacks. Katalon Studio does support this remote execution.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/remote-desired-capabilities/Remote-desired-capabilities.png)
+
+Please refer to some documents below as examples how to pass in desired capabilities from these providers:
+
+1. [Kobiton](https://docs.katalon.com/katalon-studio/docs/desired-capabilities-for-kobiton-devices.html)
+2. [SauceLabs](/display/KD/SauceLabs+Integration)
+3. [BrowserStack](/display/KD/BrowserStack+Integration)
+4. [Katalium Server](https://docs.katalon.com/katalium-server/docs/katalium-server-katalon-studio-remote-machine.html)
+
+Note that this Remote option is applied for all executions which support this kind of remote execution, so you can apply them in this option as well.
+
+> Code sample can be found in this project: [https://github.com/katalon-studio-samples/tips-and-tricks](https://github.com/katalon-studio-samples/tips-and-tricks)
+
+Starting with **Katalon Studio version 6.3.0**, when Appium is set as `Remote server type`,  the **Appium Driver** option is available for you to choose between *Android Driver* and *iOS Driver*.
+Then this selection is used for launching the correct Appium Driver to connect to Cloud Devices.
+
+## Custom Execution
+
+* Define a custom option for execution.
+* **Project > Settings > Desired Capabilities > Custom**.
+
+> If you want to make a list of your own custom Desired Capabilities for some environments, then it's suggested to use '**Custom**' settings in this case.
+
+Custom execution is slightly different from other execution settings. Follow these steps to create a custom execution with its desired capabilities:
+
+1. Click **Add** on the command toolbar to add a custom execution to the custom execution list.
+2. Change the name if needed, then click on the **More** icon under the **Value** column.
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/image2016-11-1-143A263A29.png)
+3. In the **Custom Execution Configuration Builder** dialog, specify the **Driver Name** for your custom execution.
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/image2016-11-1-143A293A6.png)
+
+    > You can have at most one web driver and one mobile driver here since there may be a potential conflict if you use multiple web or mobile drivers in the same test execution.
+4. Click on the **More** icon under the **Preferences** column.
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/image2016-11-1-143A303A6.png)
+5. The **Driver Builder** dialog is displayed for you to set desired capabilities for the selected Driver. The steps to add new Desired Capabilities here is similar to other settings above. Click **OK** when you finish.
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/image2016-11-1-143A353A10.png)
+
+> Location of Desired Capabilities files
+> 
+> Defined configuration settings are saved in separated files under the "**<your test project location>\\settings\\internal**" location (or "**<your test project location>\\settings\\external\\execution**" in case of custom execution), as below:
+> 
+> | Driver | Settings' file |
+> | --- | --- |
+> | Chrome | com.kms.katalon.core.webui.chrome.properties |
+> | Firefox | com.kms.katalon.core.webui.firefox.properties |
+> | IE | com.kms.katalon.core.webui.ie.properties |
+> | Safari | com.kms.katalon.core.webui.safari.properties |
+> | Edge | com.kms.katalon.core.webui.edge.properties |
+> | Remote Web | com.kms.katalon.core.webui.remote.properties |
+> | Android | com.kms.katalon.core.mobile.android.properties |
+> | iOS | com.kms.katalon.core.mobile.ios.properties |
+
+
