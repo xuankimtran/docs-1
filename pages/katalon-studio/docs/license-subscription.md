@@ -5,29 +5,41 @@ permalink: katalon-studio/docs/license-subscription.html
 description:
 ---
 
-If you have no idea what a Katalon license is, read [here](https://docs.katalon.com/katalon-studio/docs/license.html). After reading that document, you still don't know which license and how many licenses to subscribe to, contact our sales team via business@katalon.com.
+[Katalon licenses](https://docs.katalon.com/katalon-studio/docs/license.html) are purchased and managed via **Organizations** in [Katalon TestOps](https://analytics.katalon.com/).
 
-If you're quite clear about your demand, here's how to subscribe to Katalon licenses yourself with different methods:
+If you need further assistance with Katalon Pricing and Subscription, please contact our sales team via business@katalon.com.
+
+There are four ways to subscribe to Katalon licenses:
 
 1. [Katalon TestOps](https://docs.katalon.com/katalon-studio/docs/license-KT.html)
-2. [Katalon Store](https://www.katalon.com/pricing/)
-3. [Quote](https://docs.katalon.com/katalon-studio/docs/license-quote.html)
+2. [Katalon Website](https://docs.katalon.com/katalon-studio/docs/subscription-kstore.html)
+3. [Get a Quote](https://docs.katalon.com/katalon-studio/docs/license-quote.html)
+4. [Purchase Order (PO)](https://docs.katalon.com/katalon-studio/docs/license-po.html)
 
-## View and Upgrade your subscription
+After successfully subscribing to a Katalon license, please make sure to re-activate your Katalon account to begin using the purchased license.
 
-In case you change your mind about the number of licenses, modify your subscription:
+## Subscription Renewal
+
+Your subscription will be automatically renewed on the specified day included in your Order Confirmation email. You will not be charged if you cancel your subscription prior to that day.
+
+## Upgrade Your Subscription
+
+To upgrade your subscription:
 
 1. Log in to [Katalon TestOps](https://analytics.katalon.com/home).
-2. Select your **Organization** > **Subscription**. Only the Owner and Billing Manager can access the Subscription view.
-3. Click **Upgrade** to modify your subscription in terms of the number of licenses. Please be noted that you can only increase the total number of licenses purchased and upgrade from monthly to a yearly subscription, NOT vice versa.
-4. Pay for your order.
+2. Select your **Organization** > **Subscription**. Only the Owner and Billing Manager can access the **Subscription** view.
+3. Click **Upgrade** to modify the number of licenses or switch to annual billing. 
 
-> Note: License upgrade does NOT require subscription cancellation. You'll receive a refund for the remaining credit on your subscription.
+*Please be noted that you can only increase the total number of licenses purchased and upgrade from monthly to a yearly subscription, NOT vice versa.*
 
-## View and Cancel your subscription
+4. Make your payment.
+
+> Note: License upgrade does NOT require subscription cancellation. You'll receive a refund for the remaining credits of your subscription.
+
+## View and Cancel Your Subscription
 
 1. Log in to [your account on Katalon Store](https://store.katalon.com/account).
-2. Go to **My Account** and under **Orders** tab, you can see your subscription details.
-3. Click on the order status. Here you can view order history or cancel the subscription.
+2. **My Account** > **Orders** to view your subscription's details.
+3. In the **Status tab**, you can view your order history or cancel the subscription.
 
-> Note: Subscription cancellation does NOT issue a refund. You're still able to continue using the remaining subscription you have already purchased.
+> Note: Subscription cancellation does NOT issue a refund. You still continue using the remaining subscription you have already purchased.

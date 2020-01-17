@@ -4,7 +4,6 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/restful.html
 redirect_from:
     - "/display/KD/RESTful/"
-    - "/display/KD/RESTful/"
     - "/x/CQLR/"
     - "/katalon-studio/docs/restful/"
 

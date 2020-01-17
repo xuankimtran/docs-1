@@ -1,18 +1,38 @@
 items:
-  - title: "License and Subscription"
+  - title: "Products and Licenses"
     tree:
-      - title: "Katalon Studio Licensing"
+      - title: "Katalon Products and Licensing"
         url: /katalon-studio/docs/license.html
-      - title: "Katalon License Subscription"
-        url: /katalon-studio/docs/license-subscription.html
-      - title: "Subscription via Katalon TestOps"
-        url: /katalon-studio/docs/license-KT.html
-      - title: "Subscription via PO"
-        url: /katalon-studio/docs/license-po.html
-      - title: "Subscription via Quote"
-        url: /katalon-studio/docs/license-quote.html
-      - title: "Katalon License Management"
-        url: /katalon-studio/docs/license-management.html
+      - title: "Online and Offline Licenses"
+        url: /katalon-studio/docs/online-offline-licenses.html
+      - title: "Katalon Trial and Free Plans"
+        url: /katalon-studio/docs/trial-free-plans.html
+      - title: "Subscribe to Katalon licenses"
+        tree:
+          - title: "Katalon License Subscription"
+            url: /katalon-studio/docs/license-subscription.html
+          - title: "Subscription via Katalon Website"
+            url: /katalon-studio/docs/subscription-kstore.html
+          - title: "Subscription via Katalon TestOps"
+            url: /katalon-studio/docs/license-KT.html
+          - title: "Subscription via PO"
+            url: /katalon-studio/docs/license-po.html
+          - title: "Subscription via Quote"
+            url: /katalon-studio/docs/license-quote.html
+      - title: "Use and Manage Katalon Licenses"
+        tree:
+          - title: "Manage Katalon Licenses"
+            url: /katalon-studio/docs/license-management.html
+          - title: "Grant Online Licenses"
+            url: /katalon-studio/docs/use-online-license.html
+          - title: "Grant and Use a Katalon Studio Enterprise Offline License"
+            url: /katalon-studio/docs/how-to-create-kse-offline-license.html
+          - title: "Grant and Use a Katalon Runtime Engine Offline License"
+            url: /katalon-studio/docs/re-offline-licenses.html
+      - title: "Troubleshoot"
+        tree:
+          - title: "Session Termination Causes"
+            url: /katalon-studio/docs/session-termination.html
   - title: "Katalon Studio Enterprise"
     tree:
       - title: "Get Started"
@@ -21,9 +41,11 @@ items:
             url: /katalon-studio/docs/overview.html
           - title: "What's new"
             tree:
-              - title: "Version 7.1"
+              - title: "Version 7.2.0 - 7.2.1"
+                url: /katalon-studio/new/version-72.html
+              - title: "Version 7.1.0 - 7.1.2"
                 url: /katalon-studio/new/version-71.html
-              - title: "Version 7.0"
+              - title: "Version 7.0.0 - 7.0.10"
                 url: /katalon-studio/new/version-70.html
               - title: "Version 6.3.3"
                 url: /katalon-studio/new/version-633.html
@@ -155,24 +177,16 @@ items:
                 url: /katalon-studio/docs/health-care-prj.html
               - title: "Web Service Samples"
                 url: /katalon-studio/docs/web-service-samples.html
+              - title: "BDD Samples"
+                url: /katalon-studio/docs/bdd-samples.html
       - title: "GUI and Preferences"
         tree:
           - title: "Toolbars and Views"
             url: /katalon-studio/docs/toolbars-and-views.html
           - title: "Katalon Help"
             url: /katalon-studio/docs/katalon-help.html
-          - title: "Preferences"
-            tree:
-              - title: "Katalon Studio Preferences"
-                url: /katalon-studio/docs/katalon-studio-preferences.html
-              - title: "Test Case Preferences"
-                url: /katalon-studio/docs/test-case-preferences.html
-              - title: "Proxy Preferences"
-                url: /katalon-studio/docs/proxy-preferences.html
-              - title: "Object Spy Preferences"
-                url: /katalon-studio/docs/object-spy-preferences.html
-              - title: "Using Katalon Studio in Dark theme"
-                url: /katalon-studio/docs/dark-theme.html
+          - title: "Katalon Studio Preferences"
+            url: /katalon-studio/docs/katalon-studio-preferences.html
       - title: "Projects"
         tree:
           - title: "Manage Test Project"
@@ -180,13 +194,7 @@ items:
           - title: "API/Web Service Project"
             url: /katalon-studio/docs/apiweb-service-project-since-v58.html
           - title: "Project Settings"
-            tree:
-              - title: "Execution Settings"
-                url: /katalon-studio/docs/execution-settings.html
-              - title: "Emails Settings"
-                url: /katalon-studio/docs/emails-settings.html
-              - title: "Network Settings"
-                url: /katalon-studio/docs/network-settings.html
+            url: /katalon-studio/docs/execution-settings.html
       - title: "Test Design"
         tree:
           - title: "Search Function"
@@ -221,48 +229,12 @@ items:
                 url: /katalon-studio/docs/working-with-sensitive-text.html
               - title: "External Libraries"
                 url: /katalon-studio/docs/external-libraries.html
-              - title: "Assertions and Checkpoints"
-                tree:
-                  - title: "Assert Statements"
-                    url: /katalon-studio/docs/assert-statements.html
-                  - title: "Manage Checkpoints"
-                    url: /katalon-studio/docs/manage-checkpoints.html
-                  - title: "Verification Snippets"
-                    url: /katalon-studio/docs/verification-snippets.html
-                  - title: "Common Assertions"
-                    tree:
-                      - title: "[Common] Verify Checkpoint"
-                        url: /katalon-studio/docs/common-verify-checkpoint.html
-                      - title: "[Common] Verify Equal"
-                        url: /katalon-studio/docs/common-verify-equal.html
-                      - title: "[Common] Verify Greater Than"
-                        url: /katalon-studio/docs/common-verify-greater-than.html
-                      - title: "[Common] Verify Greater Than Or Equal"
-                        url: /katalon-studio/docs/common-verify-greater-than-or-equal.html
-                      - title: "[Common] Verify Less Than"
-                        url: /katalon-studio/docs/common-verify-less-than.html
-                      - title: "[Common] Verify Less Than Or Equal"
-                        url: /katalon-studio/docs/common-verify-less-than-or-equal.html
-                      - title: "[Common] Verify Match"
-                        url: /katalon-studio/docs/common-verify-match.html
-                      - title: "[Common] Verify Not Equal"
-                        url: /katalon-studio/docs/common-verify-not-equal.html
-                      - title: "[Common] Verify Not Match"
-                        url: /katalon-studio/docs/common-verify-not-match.html
-          - title: "Execute and Debug"
-            tree:
-            - title: "Execute a Test Case"
-              url: /katalon-studio/docs/execute-a-test-case-or-a-test-suite.html
-            - title: "Debug a Test Case"
-              url: /katalon-studio/docs/debugging_test_case.html
-            - title: "How to execute/debug certain steps of a test case"
-              url: /katalon-studio/docs/execute_debug_certain_steps.html
+              - title: "Assert Statements"
+                url: /katalon-studio/docs/assert-statements.html
+          - title: "Execute and Debug a Test Case"
+            url: /katalon-studio/docs/execute-a-test-case-or-a-test-suite.html
           - title: "Desired Capabilities"
-            tree:
-              - title: "Introduction to Desired Capabilities"
-                url: /katalon-studio/docs/introduction-to-desired-capabilities.html
-              - title: "Remote Desired Capabilities"
-                url: /katalon-studio/docs/remote-desired-capabilities.html     
+            url: /katalon-studio/docs/introduction-to-desired-capabilities.html
           - title: "Samples"
             tree:
               - title: "Samples Projects"
@@ -385,14 +357,6 @@ items:
                     url: /katalon-studio/docs/webdriver-event-listeners.html
               - title: "Testing Web App on Mobile Browsers"
                 url: /katalon-studio/docs/running_application_mobile_browsers.html
-              - title: "Desired Capabilities"
-                tree:
-                  - title: "Desired Capabilities for Firefox/Firefox (headless)"
-                    url: /katalon-studio/docs/desired-capabilities-for-firefoxfirefox-headless.html
-                  - title: "Desired Capabilities for Chrome/Chrome (headless)"
-                    url: /katalon-studio/docs/desired-capabilities-for-chromechrome-headless.html
-                  - title: "Desired Capabilities for Internet Explorer"
-                    url: /katalon-studio/docs/desired-capabilities-for-internet-explorer.html
           - title: "Mobile Test Design"
             tree:
               - title: "An Introduction to Katalon Mobile Recorder"
@@ -449,6 +413,8 @@ items:
                 url: /katalon-studio/docs/authorization-oauth2.html
               - title: "Web Services Builder"
                 url: /katalon-studio/docs/web-services-builder.html
+              - title: "Verification Snippets"
+                url: /katalon-studio/docs/verification-snippets.html
               - title: "Using Web Services in a Test Case"
                 url: /katalon-studio/docs/using-web-services-in-a-test-case.html
               - title: "Working with API/Web Services Project "
@@ -484,9 +450,7 @@ items:
                   - title: "Windows Spy Tutorials"
                     url: /katalon-studio/docs/windows-spy-tutorials.html
                   - title: "Windows Record Tutorials"  
-                    url: /katalon-studio/docs/windows-recorder-tutorials.html   
-              - title: "Desired Capabilities for Windows"
-                url: /katalon-studio/docs/windows-desired-capabilities.html
+                    url: /katalon-studio/docs/windows-recorder-tutorials.html
           - title: "Test Artifacts Sharing"
             url: /katalon-studio/docs/import-export-test-artifact.html
           - title: "Test Maintenance"
@@ -751,6 +715,10 @@ items:
                 url: /katalon-studio/docs/mobile-check-element.html
               - title: "[Mobile] Drag And Drop"
                 url: /katalon-studio/docs/mobile-drag-and-drop.html
+              - title: "[Mobile] Double Tap"
+                url: /katalon-studio/docs/mobile-double-tap.html
+              - title: "[Mobile] Execute Mobile Command "
+                url: /katalon-studio/docs/mobile-execute-command.html
               - title: "[Mobile] Find Image Element"
                 url: /katalon-studio/docs/mobile-find-image-element.html
               - title: "[Mobile] Find Image Elements"
@@ -781,6 +749,8 @@ items:
                 url: /katalon-studio/docs/mobile-get-text.html
               - title: "[Mobile] Hide Keyboard"
                 url: /katalon-studio/docs/mobile-hide-keyboard.html
+              - title: "[Mobile] Long Press"
+                url: /katalon-studio/docs/mobile-long-press.html
               - title: "[Mobile] Open Notifications"
                 url: /katalon-studio/docs/mobile-open-notifications.html
               - title: "[Mobile] Press Back"
@@ -801,6 +771,8 @@ items:
                 url: /katalon-studio/docs/mobile-select-list-item-by-index.html
               - title: "[Mobile] Select List Item By Label"
                 url: /katalon-studio/docs/mobile-select-list-item-by-label.html
+              - title: "[Mobile] Set Encrypted Text"
+                url: /katalon-studio/docs/mobile-set-encrypted-text.html
               - title: "[Mobile] Set Slider Value"
                 url: /katalon-studio/docs/mobile-set-slider-value.html
               - title: "[Mobile] Set Text"
@@ -899,22 +871,36 @@ items:
                 url: /katalon-studio/docs/windows-kw-findelement.html
               - title: "[Windows] Find Elements"
                 url: /katalon-studio/docs/windows-kw-findelements.html
+              - title: "[Windows] Get Element Position"
+                url: /katalon-studio/docs/windows-kw-get-element-position.html
+              - title: "[Windows] Get Element Rectangle"
+                url: /katalon-studio/docs/windows-kw-get-element-rect.html
               - title: "[Windows] Get Text"
                 url: /katalon-studio/docs/windows-kw-get-text.html
               - title: "[Windows] Get Driver"
                 url: /katalon-studio/docs/windows-kw-get-driver.html
               - title: "[Windows] Right-click"
                 url: /katalon-studio/docs/windows-kw-rightclick.html
+              - title: "[Windows] Switch to Window"
+                url: /katalon-studio/docs/windows-kw-switch-window.html
+              - title: "[Windows] Switch to Window Title"
+                url: /katalon-studio/docs/windows-kw-switch-window-title.html
               - title: "[Windows] Send Keys"
-                url: /katalon-studio/docs/windows-kw-senkey.html 
+                url: /katalon-studio/docs/windows-kw-senkey.html
               - title: "[Windows] Set Text"
-                url: /katalon-studio/docs/windows-kw-set-text.html    
+                url: /katalon-studio/docs/windows-kw-set-text.html
+              - title: "[Windows] Start Application with Title"
+                url: /katalon-studio/docs/windows-kw-start-app-title.html
               - title: "[Windows] Start Application"
-                url: /katalon-studio/docs/windows-kw-start-app.html   
+                url: /katalon-studio/docs/windows-kw-start-app.html
               - title: "[Windows] Switch To Desktop"
                 url: /katalon-studio/docs/windows-kw-switch-desktop.html
               - title: "[Windows] Switch To Application"
                 url: /katalon-studio/docs/windows-kw-switch-app.html
+              - title: "[Windows] Switch to Window Title"
+                url: /katalon-studio/docs/windows-kw-switch-window-title.html
+              - title: "[Windows] Switch to Window"
+                url: /katalon-studio/docs/windows-kw-switch-window.html
           - title: "Cucumber Keywords"
             tree:
             - title: "[Cucumber] Run Feature File with Tags"
@@ -927,22 +913,26 @@ items:
               url: /katalon-studio/docs/cucumber-kw-run-feature-folder.html
             - title: "[Cucumber] Run with Cucumber Runner"
               url: /katalon-studio/docs/cucumber-kw-run-cucumber-runner.html
-          - title: "Custom Keywords"
+          - title: "Common Assertions"
             tree:
-              - title: "Introduction to Custom Keywords"
-                url: /katalon-studio/docs/introduction-to-custom-keywords.html
-              - title: "Sample Custom Keywords"
-                url: /katalon-studio/docs/sample-custom-keywords.html
-              - title: "Import/Export Keywords"
-                url: /katalon-studio/docs/importexport-keywords.html
-              - title: "Custom Keywords Refactoring"
-                url: /katalon-studio/docs/custom-keywords-refactor.html
-              - title: "Import Custom Keywords classes recursively"
-                url: /katalon-studio/docs/import-custom-keywords-classes-recursively.html
-              - title: "Mark test's status for a Custom Keyword"
-                url: /katalon-studio/docs/mark-tests-status-for-a-custom-keyword.html
-              - title: "Handling Databases"
-                url: /katalon-studio/docs/handling-databases.html
+              - title: "[Common] Verify Checkpoint"
+                url: /katalon-studio/docs/common-verify-checkpoint.html
+              - title: "[Common] Verify Equal"
+                url: /katalon-studio/docs/common-verify-equal.html
+              - title: "[Common] Verify Greater Than"
+                url: /katalon-studio/docs/common-verify-greater-than.html
+              - title: "[Common] Verify Greater Than Or Equal"
+                url: /katalon-studio/docs/common-verify-greater-than-or-equal.html
+              - title: "[Common] Verify Less Than"
+                url: /katalon-studio/docs/common-verify-less-than.html
+              - title: "[Common] Verify Less Than Or Equal"
+                url: /katalon-studio/docs/common-verify-less-than-or-equal.html
+              - title: "[Common] Verify Match"
+                url: /katalon-studio/docs/common-verify-match.html
+              - title: "[Common] Verify Not Equal"
+                url: /katalon-studio/docs/common-verify-not-equal.html
+              - title: "[Common] Verify Not Match"
+                url: /katalon-studio/docs/common-verify-not-match.html
           - title: "Utilities Keywords"
             tree:
               - title: "[Common] Call Test Case"
@@ -953,38 +943,50 @@ items:
                 url: /katalon-studio/docs/common-concatenate.html
               - title: "[Common] Delay"
                 url: /katalon-studio/docs/common-delay.html
-      - title: "Execution and Reporting"
+      - title: "Custom Keywords"
+        tree:
+          - title: "Introduction to Custom Keywords"
+            url: /katalon-studio/docs/introduction-to-custom-keywords.html
+          - title: "Sample Custom Keywords"
+            url: /katalon-studio/docs/sample-custom-keywords.html
+          - title: "Import/Export Keywords"
+            url: /katalon-studio/docs/importexport-keywords.html
+          - title: "Custom Keywords Refactoring"
+            url: /katalon-studio/docs/custom-keywords-refactor.html
+          - title: "Import Custom Keywords classes recursively"
+            url: /katalon-studio/docs/import-custom-keywords-classes-recursively.html
+          - title: "Mark test's status for a Custom Keyword"
+            url: /katalon-studio/docs/mark-tests-status-for-a-custom-keyword.html
+          - title: "Handling Databases"
+            url: /katalon-studio/docs/handling-databases.html
+      - title: "Checkpoints"
+        url: /katalon-studio/docs/manage-checkpoints.html
+      - title: "Execution"
         tree:
           - title: "Test Suite"
-            tree:
-              - title: "Create a Test Suite"
-                url: /katalon-studio/docs/test-suite.html
-              - title: "Design a Test Suite"
-                url: /katalon-studio/docs/design-a-test-suite.html
-              - title: "Test Suite Collection"
-                url: /katalon-studio/docs/test-suite-collection.html
-              - title: "Dynamic Test Suite"
-                url: /katalon-studio/docs/dynamic-test-suite.html
+            url: /katalon-studio/docs/test-suite.html
+          - title: "Test Suite Collection"
+            url: /katalon-studio/docs/test-suite-collection.html
           - title: "Headless Browsers Execution"
             url: /katalon-studio/docs/headless-browsers-execution.html
           - title: "Selenium Grid - Execution on Remote Machines" 
             url: /katalon-studio/docs/selenium-grid-integration.html
           - title: "Executing Tests on Multiple Devices in Parallel"
             url: /katalon-studio/docs/execute_tests_parallelly_multiple_devices.html
-          - title: "Reports"
-            tree:
-              - title: "Test Suite Report"
-                url: /katalon-studio/docs/test-suite-report.html
-              - title: "Test Suite Collection Report"
-                url: /katalon-studio/docs/test-suite-collection-report.html
-              - title: "View Execution Log"
-                url: /katalon-studio/docs/view-execution-log.html
-              - title: "Customize Console Log"
-                url: /katalon-studio/docs/working-with-execution-log.html
-              - title: "Video Capturing"
-                url: /katalon-studio/docs/video-capturing.html
-              - title: "Get generated Reports location at runtime"
-                url: /katalon-studio/docs/get-generated-reports-location-at-runtime.html         
+      - title: "Reports"
+        tree:
+          - title: "Test Suite Report"
+            url: /katalon-studio/docs/test-suite-report.html
+          - title: "Test Suite Collection Report"
+            url: /katalon-studio/docs/test-suite-collection-report.html
+          - title: "View Execution Log"
+            url: /katalon-studio/docs/view-execution-log.html
+          - title: "Customize Console Log"
+            url: /katalon-studio/docs/working-with-execution-log.html
+          - title: "Video Capturing"
+            url: /katalon-studio/docs/video-capturing.html
+          - title: "Get generated Reports location at runtime"
+            url: /katalon-studio/docs/get-generated-reports-location-at-runtime.html         
       - title: "Data-driven Testing"
         tree:
           - title: "Data-driven Testing with Katalon Studio"
@@ -1009,19 +1011,13 @@ items:
             url: /katalon-studio/docs/database-settings.html
           - title: "Combine Multiple Data Sources"
             url: /katalon-studio/docs/combine-multiple-data-sources.html
-      - title: "BDD Testing Framework"
-        tree:
-          - title: "Cucumber Features File"
-            url: /katalon-studio/docs/cucumber-features-file.html
-          - title: "Step Definitions"
-            url: /katalon-studio/docs/step-definitions.html
-          - title: "Running Cucumber Features File"
-            url: /katalon-studio/docs/running-cucumber-features-file.html
+      - title: "BDD Testing Framework (Cucumber integration)"
+        url: /katalon-studio/docs/cucumber-features-file.html
       - title: "Integration"
         tree:
           - title: "Katalon API Keys"
             url: /katalon-studio/docs/katalon-apikey-70.html 
-          - title: "Katalon Analytics (Beta) Integration"
+          - title: "Katalon TestOps Integration"
             url: /katalon-studio/docs/katalon-analytics-beta-integration.html
           - title: "Jira Integration"
             url: /katalon-studio/docs/jira-integration.html
@@ -1054,12 +1050,10 @@ items:
                 tree:
                   - title: "Enable Kobiton Integration"
                     url: /katalon-studio/docs/enable-kobiton-integration.html
+                  - title: "Mobile Testing with Kobiton Devices"
+                    url: /katalon-studio/docs/integrate_with_kobiton.html
                   - title: "Desired Capabilities for Kobiton Devices"
                     url: /katalon-studio/docs/desired-capabilities-for-kobiton-devices.html
-                  - title: "How to integrate with Kobiton"
-                    url: /katalon-studio/docs/integrate_with_kobiton.html
-                  - title: "Use additional desired capabilities for Kobiton devices"
-                    url: /katalon-studio/docs/use-additional-desired-capabilities-for-kobiton-devices.html
               - title: "BrowserStack Integration"
                 url: /katalon-studio/docs/browserstack-integration.html      
               - title: "SauceLabs Integration"
@@ -1195,7 +1189,7 @@ items:
       - title: "Install Runtime Engine"
         url: /katalon-studio/docs/install-RE.html
       - title: "Activate Runtime Engine"
-        url: /katalon-studio/docs/activate-RE.html
+        url: /katalon-studio/docs/install-RE.html#activate-kre
       - title: "Export Test Results in JUnit Format"
         url: /katalon-studio/docs/export-test-results-in-junit-format.html
       - title: "Command Syntax (Command-line/Console Mode Execution)"
@@ -1206,8 +1200,6 @@ items:
         url: /katalon-studio/docs/run-cloud-ci.html
       - title: "Continuous integration with Gitlab"
         url: /katalon-studio/docs/continuous_integration_gitlab.html
-      - title: "E2E testing integration with CircleCI"
-        url: /katalon-studio/docs/integration-circleci.html
       - title: "CI/CD Plugins"
         tree:
           - title: "Common Configuration"
@@ -1224,6 +1216,12 @@ items:
             url: /katalon-studio/docs/azure-devops-extension.html
           - title: "TeamCity Plugin"
             url: /katalon-studio/docs/teamcity-plugin.html
+          - title: "Integration with CircleCI (Katalon Orb)"
+            url: /katalon-studio/docs/integration-circleci.html
+      - title: "Troubleshoot"
+        tree:
+          - title: "joptsimple.IllegalOptionSpecificationException: $ is not a legal option character"
+            url: /katalon-studio/docs/troubleshoot-globalvariable-special-character.html
   - title: "Katalon Store"
     tree:
       - title: "Overview"
@@ -1252,60 +1250,76 @@ items:
             url: /katalon-store/docs/publisher/manage-published-plugins.html
   - title: "Katalon TestOps (Beta)"
     tree:
-      - title: "Overview"
-        url: /katalon-analytics/docs/overview.html
-      - title: "Getting Started"
-        url: /katalon-analytics/docs/getting-started.html
-      - title: "Glossary"
-        url: /katalon-analytics/docs/ka-glossary.html
-      - title: "API Keys"
-        url: /katalon-analytics/docs/ka-api-key.html
-      - title: "Agents"
-        url: /katalon-analytics/docs/agents.html
-      - title: "Grid - Local Agents"
-        url: /katalon-analytics/docs/grid-local-agents.html
-      - title: "Code Repo"
-        url: /katalon-analytics/docs/code-repo.html
-      - title: "Project Management"
+      - title: "Get Started"
         tree:
+          - title: "Overview"
+            url: /katalon-analytics/docs/overview.html
+          - title: "Getting Started"
+            url: /katalon-analytics/docs/getting-started.html
+          - title: "Glossary"
+            url: /katalon-analytics/docs/ka-glossary.html
+          - title: "API Keys"
+            url: /katalon-analytics/docs/ka-api-key.html
+          - title: "User Role and Permission"
+            url: /katalon-analytics/docs/kt-user-role-permission.html
+          - title: "User Management"
+            url: /katalon-analytics/docs/user-management.html
           - title: "Introduction to Project Toolbar"
-            url: /katalon-analytics/docs/project-management-main-toolbar.html 
-          - title: "Upload Test Results"
-            tree:
-              - title: "Upload Test Results from Katalon Studio"
-                url: /katalon-analytics/docs/project-management-import-KS.html
-              - title: "Upload Test Results using Command Line"
-                url: /katalon-analytics/docs/project-management-import-cli.html
+            url: /katalon-analytics/docs/project-management-main-toolbar.html
+      - title: "Test Results and Monitoring"
+        tree:
+          - title: "Integration with Katalon Studio"
+            url: /katalon-analytics/docs/integration-with-katalon-studio.html
+          - title: "Upload Test Results from Katalon Studio"
+            url: /katalon-analytics/docs/project-management-import-KS.html
+          - title: "Upload Test Results using Command Line"
+            url: /katalon-analytics/docs/project-management-import-cli.html
+          - title: "Delete a project or a test execution"
+            url: /katalon-analytics/docs/project-management-delete.html
+      - title: "Remote Execution"
+        tree: 
+          - title: "Overview"
+            url: /katalon-analytics/docs/kt-remote-execution.html
+          - title: "Install and Manage Agents"
+            url: /katalon-analytics/docs/agents.html
+          - title: "Upload Test Projects"
+            url: /katalon-analytics/docs/code-repo.html
+          - title: "Schedule Remote Execution"
+            url: /katalon-analytics/docs/kt-scheduler.html
+          - title: "Execute Scheduled Tests"
+            url: /katalon-analytics/docs/grid-local-agents.html
+          - title: "Configure Notification Emails" 
+            url: /katalon-analytics/docs/kt-noti-email.html
+          - title: "Integration with Jenkins"
+            url: /katalon-analytics/docs/ka-integration-jenkins.html
+      - title: "Reports and Analytics"
+        tree: 
           - title: "View Reports"
             url: /katalon-analytics/docs/project-management-view-reports.html
           - title: "View Test Execution, Test Suite and Test Case Details"
             url: /katalon-analytics/docs/project-management-view-details.html
           - title: "Filter and Sort"
             url: /katalon-analytics/docs/project-management-filter-and-sort.html
-          - title: "Delete a project or a test execution"
-            url: /katalon-analytics/docs/project-management-delete.html
           - title: "Task Management"
             url: /katalon-analytics/docs/project-management-task.html
-      - title: "User Role and Permission"
-        url: /katalon-analytics/docs/kt-user-role-permission.html
-      - title: "User Management"
-        url: /katalon-analytics/docs/user-management.html
-      - title: "Integration"
+      - title: "Integration with Jira"
         tree:
-          - title: "Integration with Katalon Studio"
-            url: /katalon-analytics/docs/integration-with-katalon-studio.html
-          - title: "Integration with Jira"
+          - title: "Overview"
             url: /katalon-analytics/docs/ka-integration-jira.html
-          - title: "Integration with Jenkins"
-            url: /katalon-analytics/docs/ka-integration-jenkins.html
-  - title: "Katalon TestOps OnPremise"
-    tree:
-      - title: "Overview"
-        url: /katalon-analytics/docs/ktop-overview.html
-      - title: "Install and Setup"
-        url: /katalon-analytics/docs/testops-op-installation.html
-      - title: "Configure Mail Server"
-        url: /katalon-analytics/docs/kt-op-mail-server.html
+          - title: "Configurations"
+            url: /katalon-analytics/docs/kt-jira-config.html
+          - title: "Working with Jira Issues"
+            url: /katalon-analytics/docs/kt-jira-issue.html
+          - title: "Working with Jira Releases"
+            url: /katalon-analytics/docs/kt-jira-release.html
+      - title: "Katalon TestOps OnPremise"
+        tree:
+          - title: "Overview"
+            url: /katalon-analytics/docs/ktop-overview.html
+          - title: "Install and Setup"
+            url: /katalon-analytics/docs/kt-op-installation.html
+          - title: "Configure Mail Server"
+            url: /katalon-analytics/docs/kt-op-mail-server.html
   - title: "Katalon Recorder"
     tree:
       - title: "Overview"

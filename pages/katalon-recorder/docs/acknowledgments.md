@@ -4,7 +4,6 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-recorder/docs/acknowledgments.html 
 redirect_from:
     - "/display/KR/Acknowledgments/"
-    - "/display/KR/Acknowledgments/"
     - "/x/pwHR/"
     - "/katalon-recorder/docs/acknowledgments/"
 description: 

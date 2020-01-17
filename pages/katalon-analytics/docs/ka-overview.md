@@ -4,7 +4,6 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/overview.html 
 redirect_from:
     - "/display/KA/Overview/"
-    - "/display/KA/Overview/"
     - "/x/6RHR/"
     - "/katalon-analytics/docs/overview/"
     - "/display/KA/"

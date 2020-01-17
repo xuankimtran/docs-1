@@ -3,7 +3,8 @@
         <li>
             <a href="#">
                 {{item.title}}
-                <span class="caret arrow"></span>
+                <i class="fa fa-angle-right"></i>
+                <i class="fa fa-angle-down"></i>
             </a>
             <ul class="nav collapse">
                 {% include tree.html page=include.page tree=item.tree %}

@@ -8,7 +8,7 @@ description: "Setup or teardown test suite is another great extension besides Te
 
 Since [Katalon Studio](https://www.katalon.com/) 5.3, every test suites from your projects now have been equipped with the ability to run either **SetUp** or **Teardown** methods, which is a group of your own defined test steps before or after executing a Test Suite.
 
-In this tutorial, Mr. Karthik will introduce that feature and also show you why it is another great extension besides [Test Listener](/pages/viewpage.action?pageId=5126383) to extend your current testing flow as much as possible in Katalon Studio.
+In this tutorial, Mr. Karthik will introduce that feature and also show you why it is another great extension besides [Test Listener](/katalon-studio/docs/test-listeners-test-hooks.html) to extend your current testing flow as much as possible in Katalon Studio.
 
 \*\*\* The source code is available at [here](https://github.com/executeautomation/).
 

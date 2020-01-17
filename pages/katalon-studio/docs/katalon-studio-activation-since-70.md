@@ -5,11 +5,9 @@ permalink: katalon-studio/docs/katalon-studio-activation-since-70.html
 redirect_from:
     - "/x/ERLR/"
     - "/katalon-studio/docs/katalon-studio-activation-since-70/"
-    - "/display/KD/Installation+and+Setup/"
     - "/katalon-studio/docs/katalon-studio-activation-since-57/"
     - "/katalon-studio/docs/katalon%20studio%20activation%20since%2057/"
-    - "/katalon-studio/docs/katalon+studio+activation+since+57/"
-
+    - "/katalon-studio/docs/katalon-studio-activation-since-57.html"
 description:
 ---
 After installing Katalon Studio, you will be asked to activate it. If you currenly use a Katalon Studio Enterprise license, refer to [Activate Katalon Studio Enterprise](https://docs.katalon.com/katalon-studio/docs/activate-KSE.html).

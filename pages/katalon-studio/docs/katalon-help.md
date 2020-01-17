@@ -28,9 +28,9 @@ This will be the default tab when you first started Katalon Studio application. 
 
 **[Sample Projects](/display/KD/Sample+Projects)**
 
-If you are not connected to the Internet, Katalon Studio provides 3 built-in Sample Projects:** Web Testing**, **Mobile Testing**, and **Web Services Testing**. Click on any preferred projects icon to create a new project accordingly.
+If you are not connected to the Internet, Katalon Studio provides 3 built-in Sample Projects: **Web Testing**, **Mobile Testing**, and **Web Services Testing**. Click on any preferred projects icon to create a new project accordingly.
 
-If you are connected to the Internet, a list of available sample projects for you to try in the **Katalon Help **page. Just choose the one that you want to try out to import that project into Katalon Studio. Additionally, you can go to our GitHub repositories page by clicking on **Explore...**
+If you are connected to the Internet, a list of available sample projects for you to try in the **Katalon Help** page. Just choose the one that you want to try out to import that project into Katalon Studio. Additionally, you can go to our GitHub repositories page by clicking on **Explore...**
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-help/image2018-7-6-133A393A41.png)
 
