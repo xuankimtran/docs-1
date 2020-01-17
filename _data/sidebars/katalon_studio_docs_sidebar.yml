@@ -983,7 +983,7 @@ items:
         tree:
           - title: "Data-driven Testing with Katalon Studio"
             url: /katalon-studio/docs/ddt.html
-          - title: "Global Variables- Execution Profile"
+          - title: "Global Variables and Execution Profile"
             url: /katalon-studio/docs/execution-profile-v54.html
           - title: "Test Case Variables"
             url: /katalon-studio/docs/test-case-variables.html

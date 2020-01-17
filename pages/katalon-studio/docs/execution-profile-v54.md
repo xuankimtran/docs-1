@@ -1,5 +1,5 @@
 ---
-title: "Global Variables- Execution Profile"
+title: "Global Variables and Execution Profile"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/execution-profile-v54.html
 redirect_from:
