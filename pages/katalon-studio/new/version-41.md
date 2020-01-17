@@ -1,5 +1,5 @@
 ---
-title: "Version 4.1"
+title: "Version 4.1.x"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/new/version-41.html
 redirect_from:

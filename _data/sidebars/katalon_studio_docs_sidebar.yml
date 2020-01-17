@@ -107,38 +107,42 @@ items:
                 url: /katalon-studio/new/version-542.html
               - title: "Version 5.4.1"
                 url: /katalon-studio/new/version-541.html
-              - title: "Version 5.4.0"
-                url: /katalon-studio/new/version-540.html
-              - title: "Version 5.3.1"
+              - title: "Version 5.3.x"
                 url: /katalon-studio/new/version-531.html
-              - title: "Version 5.3.0"
-                url: /katalon-studio/new/version-530.html
-              - title: "Version 5.2"
+              - title: "Version 5.2.x"
                 url: /katalon-studio/new/version-52.html
-              - title: "Version 5.1.0.2"
+              - title: "Version 5.1.x"
                 url: /katalon-studio/new/version-5102.html
-              - title: "Version 5.1.0"
-                url: /katalon-studio/new/version-51.html
-              - title: "Version 5.0.1"
+              - title: "Version 5.0.x"
                 url: /katalon-studio/new/version-501.html
-              - title: "Version 5.0.0"
-                url: /katalon-studio/new/version-500.html
-              - title: "Version 4.8"
+              - title: "Version 4.8.x"
                 url: /katalon-studio/new/version-48.html
-              - title: "Version 4.7.2"
+              - title: "Version 4.7.x"
                 url: /katalon-studio/new/version-472.html
-              - title: "Version 4.7.1"
-                url: /katalon-studio/new/version-471.html
-              - title: "Version 4.7.0"
-                url: /katalon-studio/new/version-470.html
-              - title: "Version 4.6"
+              - title: "Version 4.6.x"
                 url: /katalon-studio/new/version-46.html
-              - title: "Version 4.5"
+              - title: "Version 4.5.x"
                 url: /katalon-studio/new/version-45.html
-              - title: "Version 4.4"
+              - title: "Version 4.4.x"
                 url: /katalon-studio/new/version-44.html
-              - title: "Version 4.3"
+              - title: "Version 4.3.x"
                 url: /katalon-studio/new/version-43.html
+              - title: "Version 4.2.x"
+                url: /katalon-studio/new/version-42.html
+              - title: "Version 4.1.x"
+                url: /katalon-studio/new/version-41.html
+              - title: "Version 4.0.x"
+                url: /katalon-studio/new/version-400.html
+              - title: "Version 3.6.x"
+                url: /katalon-studio/new/version-36.html
+              - title: "Version 3.5.x"
+                url: /katalon-studio/new/version-35.html
+              - title: "Version 3.3.x"
+                url: /katalon-studio/new/version-33.html
+              - title: "Version 3.2.x"
+                url: /katalon-studio/new/version-320.html
+              - title: "Version 3.1.x"
+                url: /katalon-studio/new/version-31.html
           - title: "Installation and Activation"
             tree:
               - title: "Installation Overview"
