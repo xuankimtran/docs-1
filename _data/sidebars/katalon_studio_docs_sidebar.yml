@@ -991,14 +991,8 @@ items:
         tree:
           - title: "Data-driven Testing with Katalon Studio"
             url: /katalon-studio/docs/ddt.html
-          - title: "Global Variables"
-            tree:
-              - title: "Global Variables"
-                url: /katalon-studio/docs/global-variables.html
-              - title: "Execution Profile"
-                url: /katalon-studio/docs/execution-profile-v54.html
-              - title: "Create Global Variables on the fly"
-                url: /katalon-studio/docs/create-global-variables-on-the-fly.html
+          - title: "Global Variables- Execution Profile"
+            url: /katalon-studio/docs/execution-profile-v54.html
           - title: "Test Case Variables"
             url: /katalon-studio/docs/test-case-variables.html
           - title: "Run Test Case with an external data source"
