@@ -973,20 +973,12 @@ items:
             url: /katalon-studio/docs/selenium-grid-integration.html
           - title: "Executing Tests on Multiple Devices in Parallel"
             url: /katalon-studio/docs/execute_tests_parallelly_multiple_devices.html
-      - title: "Reports"
+      - title: "Reports and Execution Log"
         tree:
-          - title: "Test Suite Report"
+          - title: "Test Suite and Test Suite Collection Reports"
             url: /katalon-studio/docs/test-suite-report.html
-          - title: "Test Suite Collection Report"
-            url: /katalon-studio/docs/test-suite-collection-report.html
-          - title: "View Execution Log"
-            url: /katalon-studio/docs/view-execution-log.html
-          - title: "Customize Console Log"
+          - title: "View and Customize Execution Log"
             url: /katalon-studio/docs/working-with-execution-log.html
-          - title: "Video Capturing"
-            url: /katalon-studio/docs/video-capturing.html
-          - title: "Get generated Reports location at runtime"
-            url: /katalon-studio/docs/get-generated-reports-location-at-runtime.html         
       - title: "Data-driven Testing"
         tree:
           - title: "Data-driven Testing with Katalon Studio"
@@ -1081,7 +1073,7 @@ items:
           - title: "Applitools Integration"
             url: /katalon-studio/docs/applitools-integration.html
           - title: "Basic Report"
-            url: /katalon-studio/docs/basic-report.html
+            url: /katalon-studio/docs/test-suite-report.html#export-reports-to-other-formats
           - title: "Test Suite Collection Scheduler"
             url: /katalon-studio/docs/test-suite-collection-scheduler.html
           - title: "TestLink Integration"
