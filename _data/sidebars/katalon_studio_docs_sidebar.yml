@@ -361,8 +361,6 @@ items:
             tree:
               - title: "An Introduction to Katalon Mobile Recorder"
                 url: /katalon-studio/docs/katalon_mobile_recorder_introduction.html
-              - title: "Desired Capabilities in Katalon Studio"
-                url: /katalon-studio/docs/desired_capabilities_in_katalon.html
               - title: "Locators and Object Identification"
                 url: /katalon-studio/docs/locators_object_identification.html
               - title: "Testing mobile apps using Katalon Studio and Kobiton’s cloud-based device farm"
