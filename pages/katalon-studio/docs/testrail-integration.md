@@ -2,7 +2,9 @@
 title: "TestRail Integration"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/testrail-integration.html
-
+redirect_from:
+    - "/katalon-studio/docs/katalon-testrail-integration.html"
+    - "/katalon-studio/tutorials/katalon-testrail-integration.html"
 description:
 ---
 
