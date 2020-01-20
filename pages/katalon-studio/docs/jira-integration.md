@@ -18,6 +18,8 @@ redirect_from:
     - "/display/KD/Working+with+JIRA/"
     - "/display/KD/Working%20with%20JIRA/"
     - "/x/MhBO/"
+    - "/katalon-studio/docs/jira-plugin-integration.html"
+    - "/katalon-studio/tutorials/katalon_studio_integration_with_jira_overview.html"
 
 description:
 ---

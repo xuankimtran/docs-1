@@ -918,7 +918,7 @@ items:
               - title: "Resolve Git conflicts using Katalon Studio"
                 url: /katalon-studio/docs/git_conflict_resolve.html
           - title: "Slack Integration"
-            url: /katalon-studio/docs/slack-integration.html
+            url: /katalon-studio/docs/slack-plugin-integration.html
           - title: "Test Management Integrations"
             tree:
               - title: "qTest Integration"
@@ -954,10 +954,6 @@ items:
                 url: /katalon-studio/docs/jmeter-integration.html
       - title: "Katalon Studio Plugins"
         tree:
-          - title: "Jira Integration"
-            url: /katalon-studio/docs/jira-plugin-integration.html
-          - title: "Slack Integration"
-            url: /katalon-studio/docs/slack-plugin-integration.html
           - title: "Auto-healing Smart XPath"
             url: /katalon-studio/docs/auto-healing-smart-xpath.html
           - title: "TestRail Integration"
