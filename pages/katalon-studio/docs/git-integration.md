@@ -7,14 +7,15 @@ redirect_from:
     - "/display/KD/Git%20Integration/"
     - "/x/foEw/"
     - "/katalon-studio/docs/git-integration/"
-    - "/katalon-studio/tutorials/git_integration_introduction.html"
+    - "/katalon-studio/tutorials/git_integration_introduction/"
+    - "/katalon-studio/docs/git_conflict_resolve/"
+    - "/katalon-studio/tutorials/git_conflict_resolve/"
 description:
 ---
 
 > The Git integration feature is based on **EGit**. You can refer to [http://wiki.eclipse.org/EGit/User_Guide](http://wiki.eclipse.org/EGit/User_Guide) for a detailed user guide regarding EGit.
 
-What is Git?
-------------
+## What is Git?
 
 Git is a powerful and popular system for version control. It is one of the essential tools for collaboration in software development teams. If your Katalon Studio automation project involves several or more members, you should use Git or another source control system for managing change and configuration on your project. Below are several specific benefits of using Git for your Katalon Studio projects.  
 
@@ -31,15 +32,13 @@ Git is a powerful and popular system for version control. It is one of the essen
 
 With Git, a repository can be shared to multiple members in a team to help to improve the team's collaboration and productivity.
 
-Katalon Studio integration with Git introduction
-------------------------------------------------
+## Katalon Studio integration with Git introduction
 
 Git Integration is a powerful feature of Katalon Studio for collaboration between team members in test automation projects using Git. This tutorial presents a typical workflow for Git integration with Katalon Studio:
 
 ![workflow working with Git in Katalon](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/git_integration_introduction/Katalon-and-Git.png)
 
-Configuration
--------------
+## Configuration
 
 1. **Enable Git Integration:** To access all Git features, you need to enable Git Integration first. The option is available in the following settings: **Katalon Studio >  Preferences > Katalon > Git**. Once enabled, you can start using Git at Katalon Studio's main toolbar.
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/git_integration_introduction/Enable-Git-integration-in-Katalon-Studio-2.png)
@@ -51,8 +50,7 @@ Configuration
 3. Advanced configurations are available at **Katalon Studio> Preferences > Team > Git** in case you want specific settings.
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-6-29-163A563A16.png)
 
-Clone a Katalon Studio project from a Git repository
-----------------------------------------------------
+## Clone a Katalon Studio project from a Git repository
 
 After enabling Git Integration, you can clone an existing **Git repository** into a newly-created directory on the local machine.
 
@@ -117,8 +115,7 @@ After enabling Git Integration, you can clone an existing **Git repository** int
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/verify.png" width="" height="">
 
-Publish a local non-Git project as a Git repository
--------------------------------------------------
+## Publish a local non-Git project as a Git repository
 
 **Share Project** is a step to enable Git configuration for your new Katalon Studio project.
 
@@ -137,8 +134,7 @@ Publish a local non-Git project as a Git repository
     > .classpath
     > /.svn
 
-Commit
-------
+## Commit
 
 The **Commit** option allows users to view all current changes and decide which changes to be stored in the local branch. Refer to [https://git-scm.com/docs/git-commit](https://git-scm.com/docs/git-commit) for detailed Git documentation regarding Commit command.
 
@@ -158,8 +154,7 @@ The **Commit** option allows users to view all current changes and decide which 
 
 4. Enter your comments into the **Commit Message** then click on **Commit** to store your staged changes into the local branch.
 
-Manage Branches
----------------
+## Manage Branches
 
 ### New Branch
 
@@ -194,8 +189,7 @@ The **Checkout Branch** option allows you to switch from one branch to another
 2. In this dialog, both local and remote branches are displayed. Select a branch to be deleted then click **OK**.
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-2-22-163A63A37.png)
 
-Fetch
------
+## Fetch
 
 Retrieve all information about changes that have occurred in remote branches. Refer to [https://git-scm.com/docs/git-fetch](https://git-scm.com/docs/git-fetch) for detailed Git documentation regarding Fetch command
 
@@ -211,8 +205,8 @@ Retrieve all information about changes that have occurred in remote branches. R
 4. Details regarding all the branches and tags you've just fetched are displayed.
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-2-22-173A63A5.png)
 
-Pull
-----
+## Pull
+
 
 Incorporate changes from a remote repository into the current branch. Refer to [https://git-scm.com/docs/git-pull](https://git-scm.com/docs/git-pull) for detailed Git documentation regarding Pull command.
 
@@ -225,8 +219,8 @@ Incorporate changes from a remote repository into the current branch. Refer to 
 3. The **Pull Result** dialog is displayed with all data about pulling requests on the selected branch.
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-2-22-153A563A21.png)
 
-Push
-----
+## Push
+
 
 Update the remote branch using the local branch. Refer to [https://git-scm.com/docs/git-push](https://git-scm.com/docs/git-push) for detailed Git documentation regarding Push command.
 
@@ -245,3 +239,55 @@ Before doing any push, you have to commit your changes first.
 3. The **Push Confirmation** Dialog is displayed with details regarding your commit.
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-2-22-153A273A45.png)
     Click on **Finish** to push your commits to the remote repository.
+
+## Resolve Git conflicts using Katalon Studio
+
+### Why do we have Git conflicts?
+
+In a source control system like Git, conflicts may occur when two or more people make changes to the same file concurrently. The conflicts may appear at a member's local repository or Git remote repository. In order to avoid conflicts, the team must collaborate following several Git practices. For example, before pushing new source code to the Git remote repository, one must remember to fetch the latest version from Git remote repository, resolve any conflicts and merge the code with local version.
+The chart below demonstrates how conflicts may occur when Tom and Emma are working in the same project. The conflicts occur when Tom and Emma try to push new code to the Git remote repository without updating the changes from each other.
+
+![Git conflicts Katalon Studio](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/git_conflict_resolve/Git-conflict.png)
+
+### Resolve Git conflicts using Katalon Studio
+
+
+Let's consider the following situation: Tom and Emma are working on the same test case in a test project. Emma added a new comment ("EMMA ADDED THIS COMMENT"), then committed and pushed the change to the Git remote repository.
+
+![Resolve Git Conflict Katalon Studio](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/git_conflict_resolve/Git-conflict-2.png)
+
+At almost the same time, Tom also added a  new comment ("TOM ADDED THIS COMMENT"), then committed and tried to push to the Git remote repository.
+
+![Resolve Git Conflict Katalon Studio](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/git_conflict_resolve/Resolve-Git-conflict-2.png)
+
+Unfortunately, since Emma had pushed the code before Tom, so the version of code in Git was different from the version of code in Tom's local repository and therefore, Git rejected Tom's  "push" action.
+
+_What should Tom do to have push its change to the Git remote control?_
+
+First, Tom has to "pull" the code from the Git remote repository to his local machine.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/git_conflict_resolve/Resolve-Git-conflict-3.png)
+
+Obviously, Tom will see a message about the conflict:
+
+![Resolve Git conflict](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/git_conflict_resolve/Resolve-Git-conflict-4.png)
+
+In the "Script" mode of the test case "**TC2_Verify Successful Appointment**" in Tom's Katalon Studio project, there are errors with indicators such as "<<<<<<<" (convention from Git). Let's look at the script more carefully:
+
+![Resolve Git conflict](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/git_conflict_resolve/Resolve-Git-conflict-5.png)
+
+Recall that the comments were added by Tom and Emma, and the "conflict" is now on Tom's Katalon Studio project. Everything within **"<<<<<<< HEAD"** and **"======="** is the change from Tom. And, everything within **"======="** and **">>>>>>\> branch 'master'…"** comes from Emma, which is currently in the Git remote repository.
+
+Now Tom has to decide which change is correct, or both are correct or wrong. Tom has to replace these lines of code by the correct one, e.g., "THIS IS THE CORRECT COMMENT":
+
+![Resolve Git conflict](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/git_conflict_resolve/Resolve-Git-conflict-6.png)
+
+After resolving the conflict, Tom is now able to commit and push the change to the Git remote repository.
+
+### Notes
+
+In order to minimize the conflict in a team having more than one members, you should define a process from the very beginning so that all team members are on the same page when using Git. Here are some suggestions for good practices:
+
+*   **Commit often**: do not wait until a huge amount of scripts created to commit and push to the Git remote repository. The smaller set of the scripts is pushed, the easier you resolve the conflict.
+*   **Pull** changes from the Git remote repository **before** working on new scripts and before **committing**.
+*   Each member works on **each feature at a time**.
