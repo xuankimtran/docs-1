@@ -1,7 +1,13 @@
 ---
 title: "Sauce Labs Integration" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/saucelabs-plugin.html 
+permalink: katalon-studio/docs/saucelabs-plugin.html
+redirect_from:
+    - "/katalon-studio/docs/saucelabs-integration.html"
+    - "/display/KD/SauceLabs+Integration/"
+    - "/display/KD/SauceLabs%20Integration/"
+    - "/x/UBVO/"
+    - "/katalon-studio/docs/saucelabs-integration/"
 description: Guide to use the plugin to integrate Katalon Studio with Sauce Labs.
 ---
 

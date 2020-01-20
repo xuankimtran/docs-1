@@ -913,43 +913,41 @@ items:
                 url: /katalon-studio/docs/git_conflict_resolve.html
           - title: "Slack Integration"
             url: /katalon-studio/docs/slack-plugin-integration.html
-          - title: "Other Integrations"
+          - title: "Kobiton Integration"
             tree:
-              - title: "Kobiton Integration"
-                tree:
-                  - title: "Enable Kobiton Integration"
-                    url: /katalon-studio/docs/enable-kobiton-integration.html
-                  - title: "Mobile Testing with Kobiton Devices"
-                    url: /katalon-studio/docs/integrate_with_kobiton.html
-                  - title: "Desired Capabilities for Kobiton Devices"
-                    url: /katalon-studio/docs/desired-capabilities-for-kobiton-devices.html
-              - title: "BrowserStack Integration"
-                url: /katalon-studio/docs/browserstack-integration.html      
-              - title: "SauceLabs Integration"
-                url: /katalon-studio/docs/saucelabs-integration.html
-              - title: "LambdaTest Integration"
-                url: /katalon-studio/docs/lambdatest-integration.html
-              - title: "JMeter Integration "
-                url: /katalon-studio/docs/jmeter-integration.html
-              - title: "Applitools Integration"
-                url: /katalon-studio/docs/applitools-integration.html
-              - title: "Rally Integration"
-                url: /katalon-studio/docs/rally-integration.html
-              - title: "qTest Integration"
-                id: "qtest-integration"
-                tree:
-                  - title: "Enable qTest Integration"
-                    url: /katalon-studio/docs/enable-qtest-integration.html
-                  - title: "Integrate test case"
-                    url: /katalon-studio/docs/integrate-test-case.html
-                  - title: "Integrate test suite"
-                    url: /katalon-studio/docs/integrate-test-suite.html
-                  - title: "Upload test execution"
-                    url: /katalon-studio/docs/upload-test-execution.html
-              - title: "TestRail Integration"
-                url: /katalon-studio/docs/testrail-integration.html
-              - title: "TestLink Integration"
-                url: /katalon-studio/docs/testlink-integration.html
+              - title: "Enable Kobiton Integration"
+                url: /katalon-studio/docs/enable-kobiton-integration.html
+              - title: "Mobile Testing with Kobiton Devices"
+                url: /katalon-studio/docs/integrate_with_kobiton.html
+              - title: "Desired Capabilities for Kobiton Devices"
+                url: /katalon-studio/docs/desired-capabilities-for-kobiton-devices.html
+          - title: "Sauce Labs Integration"
+            url: /katalon-studio/docs/saucelabs-plugin.html
+          - title: "BrowserStack Integration"
+            url: /katalon-studio/docs/browserstack-integration.html      
+          - title: "LambdaTest Integration"
+            url: /katalon-studio/docs/lambdatest-integration.html
+          - title: "JMeter Integration "
+            url: /katalon-studio/docs/jmeter-integration.html
+          - title: "Applitools Integration"
+            url: /katalon-studio/docs/applitools-integration.html
+          - title: "Rally Integration"
+            url: /katalon-studio/docs/rally-integration.html
+          - title: "qTest Integration"
+            id: "qtest-integration"
+            tree:
+              - title: "Enable qTest Integration"
+                url: /katalon-studio/docs/enable-qtest-integration.html
+              - title: "Integrate test case"
+                url: /katalon-studio/docs/integrate-test-case.html
+              - title: "Integrate test suite"
+                url: /katalon-studio/docs/integrate-test-suite.html
+              - title: "Upload test execution"
+                url: /katalon-studio/docs/upload-test-execution.html
+          - title: "TestRail Integration"
+            url: /katalon-studio/docs/testrail-integration.html
+          - title: "TestLink Integration"
+            url: /katalon-studio/docs/testlink-integration.html
       - title: "Katalon Studio Plugins"
         tree:
           - title: "Auto-healing Smart XPath"
@@ -962,8 +960,6 @@ items:
             url: /katalon-studio/docs/test-suite-report.html#export-reports-to-other-formats
           - title: "Test Suite Collection Scheduler"
             url: /katalon-studio/docs/test-suite-collection-scheduler.html
-          - title: "Sauce Labs Integration"
-            url: /katalon-studio/docs/saucelabs-plugin.html
           - title: "Private Plugins"
             url: /katalon-studio/docs/private-plugins.html
           - title: "Use Plugins Offline"
