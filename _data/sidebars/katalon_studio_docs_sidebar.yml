@@ -119,18 +119,14 @@ items:
                 url: /katalon-studio/docs/statements.html
               - title: "Call Test Case"
                 url: /katalon-studio/docs/call-test-case.html
-              - title: "Define Method"
-                url: /katalon-studio/docs/define-method.html
               - title: "Variable Types"
                 url: /katalon-studio/docs/variable-types.html
               - title: "Value Types"
                 url: /katalon-studio/docs/value-types.html
               - title: "Failure Handling"
                 url: /katalon-studio/docs/failure-handling.html
-              - title: "Setup and Teardown"
-                url: /katalon-studio/docs/setupteardown-for-test-suite-and-test-case.html
-              - title: "Test Listeners (Test Hooks)"
-                url: /katalon-studio/docs/test-listeners-test-hooks.html
+              - title: "Test Fixtures and Test Listeners (Test Hooks)"
+                url: /katalon-studio/docs/fixtures-listeners.html
               - title: "Sensitive Text"
                 url: /katalon-studio/docs/working-with-sensitive-text.html
               - title: "External Libraries"
