@@ -33,7 +33,7 @@ redirect_from:
 description: 
 ---
 
-## Decision-making statements
+## Decision-making Statements
 
 > Once a test step is added as any of the control statements, it will **not** be allowed to change it into another keyword.
 
@@ -117,7 +117,7 @@ For example:
     </tbody>
 </table>
 
-## Looping statements
+## Looping Statements
 
 > Once a test step is added as any of the control statements, it will **not** be allowed to change it into another keyword.
 
@@ -184,7 +184,7 @@ For example:
     </tbody>
 </table>
 
-## Branching statements
+## Branching Statements
 
 > Once a test step is added as any of the control statements, it will **not** be allowed to change it into another keyword.
 
