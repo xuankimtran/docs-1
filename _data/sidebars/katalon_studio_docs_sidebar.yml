@@ -41,11 +41,7 @@ items:
             url: /katalon-studio/docs/overview.html
           - title: "What's new"
             tree:
-              - title: "Version 7.2.0 - 7.2.1"
-                url: /katalon-studio/new/version-72.html
-              - title: "Version 7.1.0 - 7.1.2"
-                url: /katalon-studio/new/version-71.html
-              - title: "Version 7.0.0 - 7.0.10"
+              - title: "Version 7.x"
                 url: /katalon-studio/new/version-70.html
               - title: "Version 6.x"
                 url: /katalon-studio/new/version-60.html
