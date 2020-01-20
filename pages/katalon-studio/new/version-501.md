@@ -113,13 +113,13 @@ description:
 
 ## Katalon OEM Version 5.10.3
 
-### Bugs Fixed & Improvements
+### Fixes and Improvements
 
 * Fixed several minor issues in qTest integration
 
 ## Version 5.10.1
 
-### Bugs Fixed & Improvements
+### Fixes and Improvements
 
 * Enhanced Parallel Execution Mode to allow user to manually set the number of concurrent execution in Test Suite Collection
 * Enhance execution log to provide root causes StackTrace for failed steps using built-in keywords
@@ -131,7 +131,7 @@ description:
 
 ## Version 5.9.1
 
-### Bugs Fixed & Improvements
+### Fixes and Improvements
 
 * Fixed some minor issues of execution logs.
 * Revert Job Progress pane to show the most 5 recent test executions.
@@ -140,7 +140,7 @@ description:
 
 Introducing Script View for [Execution Profiles](../../katalon-studio/docs/execution-profile-v54.html) and [Variables](../../katalon-studio/docs/variable-types.html)
 
-The Script View is provided with an XML editor to allow you to reuse and sync any set of variables easily, whether in Execution Profiles or in the Test Case. Just a few simple actions and the tests can be run with different data for cross-environment testing. 
+The Script View is provided with an XML editor to allow you to reuse and sync any set of variables easily, whether in Execution Profiles or in the Test Case. Just a few simple actions and the tests can be run with different data for cross-environment testing.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-59/profile-script.png)
 
@@ -148,10 +148,10 @@ The Script View is provided with an XML editor to allow you to reuse and sync an
 
 Debugging becomes easier in Katalon Studio 5.9. We've optimized the execution logs to give you comprehensive views of what happens during your test automation. The following changes are applied to both Console and Log Viewer:
 
-- Make default font size smaller for code and logs (based on Eclipse settings)
-- Remove JSON logs
-- Simplify log messages
-- Simplify the tree viewer
+* Make default font size smaller for code and logs (based on Eclipse settings)
+* Remove JSON logs
+* Simplify log messages
+* Simplify the tree viewer
 
 ### New Status Bar in Log Viewer (FKA Progress Bar)
 
@@ -175,23 +175,23 @@ In version 5.9, Katalon Studio provides HAR file in the Console Log of APIs/Web 
 
 Katalon Studio GUI for Linux is available. There are now two options for running test in Linux environment: Console Mode or GUI. The GUI interface helps users with limited Linux experience to easily use Katalon Studio with instant respond; while those who have more Linux experience can still leverage the CMD execution.
 
-### Bugs Fixed & Improvements
+### Fixes and Improvements
 
-*   Enhanced Tests Explorer to automatically sort test artifacts alphabetically
-*   Added back the ability to add duplicated Testcase into Testsuite
-*   Added Action Menu which contains common actions for quick access
-*   Added hotkey for Execution & Debug function
-*   Added API/Web Service option to Run/Debug drop-down menu
-*   Added Custom capabilities option to Spy and Record Utility
-*   Fixed a minor issue where template snippets disappear at Groovy template after restarting Katalon Studio
-*   Fixed a minor bug where 'Request History' panel is not displayed when Reset Perspective
-*   Fixed an issue where custom execution doesn't save after selecting Android devices
-*   Fixed an issue of Test Suite execution Log could not be retrieved when executing in Test Suite Collection
-*   Fixed an issue where APIs request is sending extra parameter in the request to the server
-*   Error message shows when closing Katalon Studio
-*   Fixed 'Unable to resolve class internal.GlobalVariable' error is displayed in console mode execution
-*   Solved 'Run Configuration 'Web Service' not found' error is displayed when users generate console mode command for Web Services project
-*   Adjusted WebUiCommonHelper.findWebElements() to no longer returns an empty list when element(s) not in the DOM
+* Enhanced Tests Explorer to automatically sort test artifacts alphabetically
+* Added back the ability to add duplicated Testcase into Testsuite
+* Added Action Menu which contains common actions for quick access
+* Added hotkey for Execution & Debug function
+* Added API/Web Service option to Run/Debug drop-down menu
+* Added Custom capabilities option to Spy and Record Utility
+* Fixed a minor issue where template snippets disappear at Groovy template after restarting Katalon Studio
+* Fixed a minor bug where 'Request History' panel is not displayed when Reset Perspective
+* Fixed an issue where custom execution doesn't save after selecting Android devices
+* Fixed an issue of Test Suite execution Log could not be retrieved when executing in Test Suite Collection
+* Fixed an issue where APIs request is sending extra parameter in the request to the server
+* Error message shows when closing Katalon Studio
+* Fixed 'Unable to resolve class internal.GlobalVariable' error is displayed in console mode execution
+* Solved 'Run Configuration 'Web Service' not found' error is displayed when users generate console mode command for Web Services project
+* Adjusted WebUiCommonHelper.findWebElements() to no longer returns an empty list when element(s) not in the DOM
 
 ## Version 5.8.5 - 5.8.6
 
@@ -203,7 +203,7 @@ Katalon Studio GUI for Linux is available. There are now two options for running
 
 ## Version 5.8.4
 
-### Bug Fixes and Improvements
+### Fixes and Improvements
 
 * Allow duplicating test cases in the same test suite
 * Correct generated verification code for XML responses
@@ -216,15 +216,15 @@ Katalon Studio GUI for Linux is available. There are now two options for running
 
 ## Version 5.8.2 - 5.8.3
 
-### Bug Fixes and Improvements
+### Fixes and Improvements
 
 * Add verification code directly from JSON and XML elements in the response Body by selecting the element and then hotkey (Ctrl/Command + K)
-* Allow quick navigation to test objects from references in Script Mode 
-* Added Save function to Draft Request
-* Added "Variable" type to the variable type list of Object Parameter
-* Changed in-app Welcome screen
-* Fixed a minor bug where some users cannot import WSDL URL
-* Fixed HTTP Body form-urlencoded saving issue
+* Allow quick navigation to test objects from references in Script Mode
+* Add Save function to Draft Request
+* Add "Variable" type to the variable type list of Object Parameter
+* Change in-app Welcome screen
+* Bug: Cannot import WSDL URL
+* Bug: HTTP Body form-url encoded saving issue
 
 ## Version 5.8.0
 
@@ -259,7 +259,7 @@ The web service request object can be added directly to test case from the objec
 
 #### Support PATCH HTTP method
 
-Katalon Studio now support **PATCH** HTTP method to help you apply a partial modification to resources. 
+Katalon Studio now support **PATCH** HTTP method to help you apply a partial modification to resources.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-58/Screen-Shot-2018-10-08-at-11.35.42-AM.png)
 
@@ -279,9 +279,9 @@ Katalon Studio now support **PATCH** HTTP method to help you apply a partial mod
 
 ### Cucumber Behavior-Driven Development (BDD) Testing Support
 
-Katalon Studio 5.7 introduces all-new BDD testing capability allowing Business stakeholders to get involved in the testing process. Tests can be defined in the simple spoken language instead of technical language, called Gherkin. The product team members can start writing test cases as specifications in Katalon Studio and the development team can pick-up right after, a more efficient development life cycle. Thus, the project team will have a better understanding of the requirements and also promote collaboration between the business stakeholders and the rest of the team. 
+Katalon Studio 5.7 introduces all-new BDD testing capability allowing Business stakeholders to get involved in the testing process. Tests can be defined in the simple spoken language instead of technical language, called Gherkin. The product team members can start writing test cases as specifications in Katalon Studio and the development team can pick-up right after, a more efficient development life cycle. Thus, the project team will have a better understanding of the requirements and also promote collaboration between the business stakeholders and the rest of the team.
 
-**Key Features**
+#### Key Features
 
 * Feature files are stored and displayed in Katalon Studio project structure
 * Step definitions are implemented in Script Mode with hundreds of built-in keyword for reusability
@@ -293,11 +293,11 @@ Katalon Studio 5.7 introduces all-new BDD testing capability allowing Business 
 
 Most Web UI tests fail because the elements cannot be located in the application under test. Katalon Studio 5.7 offers a new object selector, **_Relative XPath_** to help increase the possibility of successfully identifying an object. The new improved Record Web Utility has also been equipped with better record engine. This makes Katalon Studio more responsive to users' actions, ensuring every key action is captured. Read more about [Katalon Smart XPath](/katalon-studio/blog/smart-xpath-generator/).
 
-**Key Features**
+#### Key Features
 
-*   Locates Web elements by clustering visualization.
-*   Preserves the relationship between an element and its indicator in an item. 
-*   Generates reliable locators to reduce test script maintenance cost.
+* Locate Web elements by clustering visualization.
+* Preserve the relationship between an element and its indicator in an item.
+* Generate reliable locators to reduce test script maintenance cost.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-570/NewXPath.png)
 
@@ -313,7 +313,7 @@ Users no longer have to register a Katalon account on the website to activate Ka
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-570/image2018-8-30-143A143A24.png)
 
-### Bug Fixes and Improvements
+### Fixes and Improvements
 
 * Move Profiles to the top of Tests Explorer
 * Remove Quick Guide slides
@@ -321,7 +321,7 @@ Users no longer have to register a Katalon account on the website to activate Ka
 
 ## Version 5.6.1 - 5.6.3
 
-### Bug Fixes and Improvements
+### Fixes and Improvements
 
 * Bug: [Web Recorder] An issue where 'Click' action can't be recorded in some cases.
 * Bug: [Web Recorder] Right-click issues where some users cannot capture the action.
@@ -347,11 +347,11 @@ Users no longer have to register a Katalon account on the website to activate Ka
 
 * **Web Record/Spy** Utility is improved to support **Firefox Active Mode**. Now you can record right on the opened Firefox browser without wasting system resource to open a new browser instance.
 * **Improve execution mechanism when 'element can't be found' error**: Katalon Studio will try to use other element's properties using heuristic method to locate the element and log the result for you. Test execution still returns FAILURE, since it is not guaranteed to be correct and the decision should be made by users.
-* **Better** objects recognition for **dropdown**using **Record Web** Utility.
+* **Better** objects recognition for **dropdown** using **Record Web** Utility.
 
-### Bugs Fixed & Improvements
+### Fixes and Improvements
 
-* **Add Sample Project option within 'Create New Project' dialogue: **'Create new project' pop-up now have the options to create a new sample project to help save time and cut down repetitive steps.
+* **Add Sample Project option within 'Create New Project' dialogue:** 'Create new project' pop-up now have the options to create a new sample project to help save time and cut down repetitive steps.
 * **Reduce Katalon Studio** package size by 10%.
 
 ## Version 5.5
@@ -361,7 +361,7 @@ Users no longer have to register a Katalon account on the website to activate Ka
 The new Web Recorder will have a similar interface to Test Case View. With the new Recorder, you can:
 
 * Continue recording existing test cases to minimize the hassle of re-recording long and complex tests.
-* Edit test cases during recording so that the recording process can be optimized. 
+* Edit test cases during recording so that the recording process can be optimized.
 * Run test steps in the Recorder interface, making sure the recorded steps are executable.
 * Merge and override test objects after recording, optimizing the object repositories.
 
@@ -386,7 +386,7 @@ Enhancement within the Web Service object's view to help you execute your verifi
 ### Issues Fixed
 
 * Failed status is not generated for 'verifyElementInViewport' keyword.
-* Prevent 'Unable to resolve class internal.GlobalVariable' error from happening frequently. 
+* Prevent 'Unable to resolve class internal.GlobalVariable' error from happening frequently.
 * Correct hotkeys display for Object Spy in case users change it.
 * Missing email reports when executing a Test Suite Collection in parallel mode.
 * Generated reports can't be deleted after users view them.
@@ -395,33 +395,33 @@ Enhancement within the Web Service object's view to help you execute your verifi
 
 ### Enhancements
 
-*   Product activation is NOT required after **auto-updated** using **[updater](/x/lQPR)**.
-*   Support an ability to debug external libraries during debug session.
+* Product activation is NOT required after **auto-updated** using **[updater](/x/lQPR)**.
+* Support an ability to debug external libraries during debug session.
 
 ### Fixes
 
-*   Fix Script editor glitch where the delete button stop working randomly.
-*   Fix Test Suite retry execution use only Default Profile issue.
-*   Fix issue with recorded videos are not displayed in custom report's location when executing a Test Suite in console mode.
-*   Fix a bug where variable binding to Global variables is not working.
-*   Fix issue with cannot open execution reports that contain invalid information log.
-*   Fix Error meta log message display when users close the app without activation.
-*   Fix Unicode bugs in HTML Test Suite Report.
-*   Fix SSL handshake error.
+* Fix Script editor glitch where the delete button stop working randomly.
+* Fix Test Suite retry execution use only Default Profile issue.
+* Fix issue with recorded videos are not displayed in custom report's location when executing a Test Suite in console mode.
+* Fix a bug where variable binding to Global variables is not working.
+* Fix issue with cannot open execution reports that contain invalid information log.
+* Fix Error meta log message display when users close the app without activation.
+* Fix Unicode bugs in HTML Test Suite Report.
+* Fix SSL handshake error.
 
 ## Version 5.4.1
 
 ### Fixes bugs
 
-*   Fix an issue where Tests Explorer is not displayed when restoring last working session.
-*   Fix some issues regarding Test Suite Collection HTML report.
-*   Fix an issue where email report can't be sent to recipients.
-*   Correct browser's information in Test Suite HTML report when Microsoft Edge is used for execution.
-*   Fix an issue where the executed browser is closed upon executing a test case.
-*   Fix migration issue of where HTTP Body with POST method is not transferred when opening project with version 5.4.
-*   Fix an issue of cannot send API Request due to NullPointerExeception using specific Request URL.
-*   Modify setHttPBody & getHttpBody deprecated methods to function properly in version 5.4.
-*   Fix issues where Execution Profile/Global Variables does not work properly in Test Case Variables.
+* Fix an issue where Tests Explorer is not displayed when restoring last working session.
+* Fix some issues regarding Test Suite Collection HTML report.
+* Fix an issue where email report can't be sent to recipients.
+* Correct browser's information in Test Suite HTML report when Microsoft Edge is used for execution.
+* Fix an issue where the executed browser is closed upon executing a test case.
+* Fix migration issue of where HTTP Body with POST method is not transferred when opening project with version 5.4.
+* Fix an issue of cannot send API Request due to NullPointerExeception using specific Request URL.
+* Modify setHttPBody & getHttpBody deprecated methods to function properly in version 5.4.
+* Fix issues where Execution Profile/Global Variables does not work properly in Test Case Variables.
 
 ## Version 5.4.0
 
@@ -445,7 +445,7 @@ Privacy and Security are crucial than ever to the software industry. **Text encr
 
 ### Execution Profile
 
-> **Global Variables** interface is moved to be a **default profile,** so please check **'default' profile** for any existing **Global Variables** 
+> **Global Variables** interface is moved to be a **default profile,** so please check **'default' profile** for any existing **Global Variables**.
 
 Test execution is more versatile in Katalon Studio v5.4. Automation tests can be executed dynamically by configurable **profiles**, defined by a combination of multiple attributes (environments, test data, platforms). **Execution profiles** enable Functional and API test execution integrated into the CI pipeline regardless of the test requirement complexity to meet the rapid demand of Agile software project.
 
@@ -459,11 +459,11 @@ Adding the options to generate sample template when users create new custom keyw
 
 ### Auto-update
 
-Katalon Studio will deliver the newest version directly while letting users continue to work uninterrupted. The update process is configurable with options of **Download** Now, **Remind Me Later**, or **Ignore** **This Update**. 
+Katalon Studio will deliver the newest version directly while letting users continue to work uninterrupted. The update process is configurable with options of **Download** Now, **Remind Me Later**, or **Ignore** **This Update**.
 
 ### Enhancements
 
-*   Captured images in execution reports can be viewed in "**Fit to view**" or "**Full-size**".
+Capture images in execution reports can be viewed in "**Fit to view**" or "**Full-size**".
 
 ## Version 5.3.1
 
@@ -473,15 +473,15 @@ Provide user an option in Project Settings to encrypt all integration and email 
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-531/image2018-3-1-113A523A11.png)
 
-### Masking Password Field in Record Web
+### Support Masking Password Field in Record Web
 
-Since version 5.3.1, Katalon Studio will auto-detect and masked the input text of Password field while Recording.
+Since version 5.3.1, Katalon Studio will auto-detect and mask the input text of Password field while Recording.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-531/image2018-3-1-123A273A59.png)
 
 ### Support Private Kobiton Devices
 
-Enhance Kobiton integration to support mobile testing with **Private** Kobiton devices. 
+Enhance Kobiton integration to support mobile testing with **Private** Kobiton devices.
 
 ### Support Proxy in Console Mode Execution
 
@@ -491,7 +491,7 @@ Allow users to pass Proxy settings in Console Mode command
 | --- | --- | --- | --- |
 | proxy.option | Fixed | NO\_PROXY, USE\_SYSTEM, MANUAL_CONFIG | YES |
 | proxy.server.type | Fixed |  HTTP, HTTPS, or SOCKS | YES |
-| proxy.server.address | String | Example: http://192.168.12.32, [http://katalon.com](http://katalon.com/) | YES |
+| proxy.server.address | String | Example: `http://192.168.12.32`, [http://katalon.com](http://katalon.com/) | YES |
 | proxy.server.port | Integer | Example: 80, 8080, 9999 | YES |
 | proxy.username | String | Example: MyProxyUsername | Optional (YES if your proxy server requires authentication) |
 | proxy.password | String | Example: MyProxyPassword | Optional (YES if your proxy server requires authentication) |
@@ -510,15 +510,15 @@ Support negative verification on API error response code (4xx, 5xx, etc)
 
 ### General
 
-*   In version 5.3, Katalon team enhanced generated **XPath** for Test Objects. With the new robust XPath, test objects can be better located in the AUT. Thus, test quality is improved significantly. 
-*   **Auto-saved** last **execution environment** is implemented in Version 5.3 to help save the last selected execution environment as default. Katalon Studio will replace the current default execution environment with the selected one (if it's different).
-*   For Katalon to be Docker-ready
-    *   Add extra argument for Chrome in **Console Mode** execution
-        *   **--no-sandbox**
-    *   Remove splash screen in CLI mode
+In version 5.3, Katalon team enhanced generated **XPath** for Test Objects. With the new robust XPath, test objects can be better located in the AUT. Thus, test quality is improved significantly.
 
-    *   Separate command for generate/update classpath
-    *   Fix bugs when using CLI mode with properties file
+**Auto-saved** last **execution environment** is implemented in Version 5.3 to help save the last selected execution environment as default. Katalon Studio will replace the current default execution environment with the selected one (if it's different).
+For Katalon to be Docker-ready
+
+* Add extra argument for Chrome in **Console Mode** execution: `--no-sandbox`
+* Remove splash screen in CLI mode
+* Separate command for generate/update classpath
+* Fix bugs when using CLI mode with properties file
 
 ### Test Suite
 
@@ -534,7 +534,7 @@ Introduce all new [**Headless** execution mode for **Firefox**](/katalon-studio
 
 ### Selenium IDE
 
-Introducing Katalon Studio new capability that allow users to **import** Selenium IDE Scripts (Beta) into Katalon Studio for advanced scripting and test execution including advanced conditions, dynamic validation or to be executed with external data sources. 
+Introducing Katalon Studio new capability that allow users to **import** Selenium IDE Scripts (Beta) into Katalon Studio for advanced scripting and test execution including advanced conditions, dynamic validation or to be executed with external data sources.
 
 (This feature is in beta stage. There will be some cases that imported Selenium IDE Scripts will not be converted successfully to Katalon Studio scripts. Katalon team welcomes all of your feedback and suggestions)
 
@@ -542,34 +542,32 @@ Introducing Katalon Studio new capability that allow users to **import** Seleniu
 
 ### Record/Spy
 
-*   Added ability to move captured objects in Object Repository pane for Spy and Record Web. Users can **freely move captured objects** to organize test artifacts before saving. 
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-530/image2018-1-8-163A443A6.png)
-*   **[Default locators](/x/MwDR)** for captured objects in Record/Spy now can be set in **Project Setting**. Selected locators will be added automatically while Recording or Spying the application under test.
+* Added ability to move captured objects in Object Repository pane for Spy and Record Web. Users can **freely move captured objects** to organize test artifacts before saving.
+   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-530/image2018-1-8-163A443A6.png)
 
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-530/image2018-1-25-163A563A26.png)
+* **[Default locators](/x/MwDR)** for captured objects in Record/Spy now can be set in **Project Setting**. Selected locators will be added automatically while Recording or Spying the application under test.
+  ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-530/image2018-1-25-163A563A26.png)
 
 ### Mobile Testing
 
-*   Support iOS 11 devices
-*   Enhance UI of selecting mobile devices window for test execution to improve users experience
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-530/image2018-1-26-123A63A59.png)
+* Support iOS 11 devices
+* Enhance UI of selecting mobile devices window for test execution to improve users experience
+   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-530/image2018-1-26-123A63A59.png)
 
 ## Version 5.2.x
 
 ### Mobile Testing
 
-In version 5.2, **Android SDK** files are **removed** to reduce the total download size of Katalon Studio application package. This will save tremendous download time and more testing time for Katalon Studio users. 
+In version 5.2, **Android SDK** files are **removed** to reduce the total download size of Katalon Studio application package. This will save tremendous download time and more testing time for Katalon Studio users.
 
-In case of users Execute or Record/Spy on Mobile, Katalon Studio will auto-detect and ask permission to download Android SDK files. 
+In case of users Execute or Record/Spy on Mobile, Katalon Studio will auto-detect and ask permission to download Android SDK files.
 
 ### Test Listeners (Test Hooks)
 
 Introducing Test Hooks feature in Katalon Studio version 5.2 to support users extend testing flows. Test Hooks are events binding that represent automation logic and will be executed once the condition is matched. Katalon Studio introduces 4 types of Hooks:
 
-*   Generate sample Before Test Case method
-*   Generate sample After Test Case method
-*   Generate sample Before Test Suite method
-*   Generate sample After Test Suite method
+* Generate sample Before/After Test Case method
+* Generate sample Before/After Test Suite method
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-52/image2017-12-5-103A353A38.png)
 
@@ -595,31 +593,23 @@ Enhanced Katalon Studio objects detection approach to auto-select only important
 
 ## Version 5.1.0
 
-### Drivers Update
+### New Features
 
-Katalon team has implemented the following changes in Katalon Studio Version 5.1.0
+* **Drivers Update**: Katalon team has implemented the following changes in Katalon Studio Version 5.1.0
 
-* Selenium Driver 3.71
-* Gecko Driver for Firefox 0.19.0
-* IE Driver 3.6.0
+  * Selenium Driver 3.71
+  * Gecko Driver for Firefox 0.19.0
+  * IE Driver 3.6.0
 
-With these upgrades, users will be able to smoothly execute automation scripts with Firefox version 57 or greater. 
+   With these upgrades, users will be able to smoothly execute automation scripts with Firefox version 57 or greater.
 
-**Project Settings**
-
-### Email Attachment
-
-Sharing Katalon Studio test execution report with team members just got easier. Email setting is enhanced in Version 5.1.0 to support **PDF** test execution **reports** as email **attachment**.
+* **Email Attachment**: Sharing Katalon Studio test execution report with team members just got easier. Email setting is enhanced in Version 5.1.0 to support **PDF** test execution **reports** as email **attachment**.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-510/image2017-11-14-153A423A45.png)
 
-### Execution
-
-Improved **Execution Settings** for users conveniences by combining settings in Katalon Studio Preferences and Project Settings
+* Improved **Execution Settings** for users conveniences by combining settings in Katalon Studio Preferences and Project Settings
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-510/image2017-11-14-153A373A52.png)![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-510/image2017-11-14-153A383A8.png)
-
-## Version 5.1.0
 
 * **Support real-time monitoring Katalon Studio Test Execution** via _Katalon Analytics Dashboard_ to get the latest status of the test run results for immediate action. With Katalon Analytics, the project team can make informed decisions about testing and quality based on metrics and visualization of centralized test execution data. [Learn more…](https://analytics.katalon.com/)
 
@@ -640,14 +630,11 @@ Below is example of override an URL variabe:`-g_URL=http://demoaut.katalon.com`
 
   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-510/custAPI.png)
 
-### Bugs Fixed & Improvements
+### Fixes and Improvements
 
 * Fixed an issue where test case cannot get variable from Input variable parameters
 * Fixed an issue where parameterized URL of web service object cannot be parsed
 * Adjusted minor logics to detect test object when XPath expression is NULL
-
-## Version 5.0.1
-
 * Fixed an issue where duplicate captured objects are created in 'Object Repository' folder when users save recorded test script.
 * Fixed an issue where error message dialog is displayed when users don't save recorded test script.
 * Fixed `Unable to resolve class internal.GlobalVariables` error
@@ -670,13 +657,13 @@ Introducing a new generation of Katalon Studio Execution Reports, **Katalon Anal
 
 * Test execution **Status** of each run as well as test run **History**
 * Analyzing test cases **Performance** and **Flakiness**
-* Various **Reports** provide useful information for both Development team and Business team. 
+* Various **Reports** provide useful information for both Development team and Business team
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-500/image2017-10-20-113A143A34.png)
 
 ### Record Web
 
-Enhanced [Record Web](/pages/viewpage.action?pageId=5118055) feature allows users to have more control of captured objects** Properties** and its **L****ocator **before adding to the object repository.
+Enhanced [Record Web](/pages/viewpage.action?pageId=5118055) feature allows users to have more control of captured objects **Properties** and its **Locator** before adding to the object repository.
 
 * Users can select preferred object properties and object selection method
 * Objects selector can be edited based on locating strategies
@@ -706,7 +693,7 @@ Adding new [Import Settings](/x/eYEw) feature that help users to
 
 ### Execution
 
-Enhanced current headless browser [execution mode](/x/sxVO) with **Chrome headless** browser. Headless mode is great solution for automated web testing and server environments where UI components are invisible. Thus, testing process is more efficient. 
+Enhanced current headless browser [execution mode](/x/sxVO) with **Chrome headless** browser. Headless mode is great solution for automated web testing and server environments where UI components are invisible. Thus, testing process is more efficient.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-500/image2017-10-18-153A443A34.png)
 
@@ -718,6 +705,6 @@ Katalon Studio supports **Kobiton's devices** as a part of [Test Suite Collecti
 
 ### Keywords
 
-* Improve "**[Start Application](/x/zo0Y)**" keyword for Mobile testing. Users are allowed to input both **relative **and **absolute** path for _appFile_ parameter.
+* Improve "**[Start Application](/x/zo0Y)**" keyword for Mobile testing. Users are allowed to input both **relative** and **absolute** path for _appFile_ parameter.
 
 * Add new keyword '**[Execute JavaScript'](/display/KD/%5BWebUI%5D+Execute+JavaScript)** to execute Javascript on the currently selected frame or window.
