@@ -43,7 +43,7 @@ Git Integration is a powerful feature of Katalon Studio for collaboration betwee
 1. **Enable Git Integration:** To access all Git features, you need to enable Git Integration first. The option is available in the following settings: **Katalon Studio >  Preferences > Katalon > Git**. Once enabled, you can start using Git at Katalon Studio's main toolbar.
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/git_integration_introduction/Enable-Git-integration-in-Katalon-Studio-2.png)
 
-2. Now the Git integration feature should be **enabled**. We are ready to use Git from Katalon Studio.
+2. Now the Git integration feature should be **enabled**. We are ready to use Git from Katalon Studio.
     
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/git-icon.png" width="545" height="202">
 
