@@ -45,49 +45,7 @@ items:
                 url: /katalon-studio/new/version-70.html
               - title: "Version 6.x"
                 url: /katalon-studio/new/version-60.html
-              - title: "Version 5.10.3"
-                url: /katalon-studio/new/version-5103.html
-              - title: "Version 5.10.1"
-                url: /katalon-studio/new/version-5101.html
-              - title: "Version 5.10"
-                url: /katalon-studio/new/version-510.html
-              - title: "Version 5.9.1"
-                url: /katalon-studio/new/version-591.html
-              - title: "Version 5.9.0"
-                url: /katalon-studio/new/version-590.html
-              - title: "Version 5.8.6"
-                url: /katalon-studio/new/version-586.html
-              - title: "Version 5.8.5"
-                url: /katalon-studio/new/version-585.html
-              - title: "Version 5.8.4"
-                url: /katalon-studio/new/version-584.html
-              - title: "Version 5.8.3"
-                url: /katalon-studio/new/version-583.html
-              - title: "Version 5.8"
-                url: /katalon-studio/new/version-58.html
-              - title: "Version 5.7.1"
-                url: /katalon-studio/new/version-571.html
-              - title: "Version 5.7.0"
-                url: /katalon-studio/new/version-570.html
-              - title: "Version 5.6.3"
-                url: /katalon-studio/new/version-563.html
-              - title: "Version 5.6.1"
-                url: /katalon-studio/new/version-561.html
-              - title: "Version 5.6.0"
-                url: /katalon-studio/new/version-560.html
-              - title: "Version 5.5"
-                url: /katalon-studio/new/version-55.html
-              - title: "Version 5.4.2"
-                url: /katalon-studio/new/version-542.html
-              - title: "Version 5.4.1"
-                url: /katalon-studio/new/version-541.html
-              - title: "Version 5.3.x"
-                url: /katalon-studio/new/version-531.html
-              - title: "Version 5.2.x"
-                url: /katalon-studio/new/version-52.html
-              - title: "Version 5.1.x"
-                url: /katalon-studio/new/version-5102.html
-              - title: "Version 5.0.x"
+              - title: "Version 5.x"
                 url: /katalon-studio/new/version-501.html
               - title: "Version 4.8.x"
                 url: /katalon-studio/new/version-48.html
