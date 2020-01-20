@@ -115,24 +115,8 @@ items:
                 url: /katalon-studio/new/version-5102.html
               - title: "Version 5.0.x"
                 url: /katalon-studio/new/version-501.html
-              - title: "Version 4.8.x"
+              - title: "Version 4.x"
                 url: /katalon-studio/new/version-48.html
-              - title: "Version 4.7.x"
-                url: /katalon-studio/new/version-472.html
-              - title: "Version 4.6.x"
-                url: /katalon-studio/new/version-46.html
-              - title: "Version 4.5.x"
-                url: /katalon-studio/new/version-45.html
-              - title: "Version 4.4.x"
-                url: /katalon-studio/new/version-44.html
-              - title: "Version 4.3.x"
-                url: /katalon-studio/new/version-43.html
-              - title: "Version 4.2.x"
-                url: /katalon-studio/new/version-42.html
-              - title: "Version 4.1.x"
-                url: /katalon-studio/new/version-41.html
-              - title: "Version 4.0.x"
-                url: /katalon-studio/new/version-400.html
               - title: "Version 3.x"
                 url: /katalon-studio/new/version-36.html
           - title: "Installation and Activation"
