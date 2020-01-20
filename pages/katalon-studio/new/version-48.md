@@ -933,4 +933,4 @@ Improve 'Mobile Object Spy':
 
 ### Other Changes
 
-Replace** <type>SCRIPT<type>** to **<type>SCRIPT_VARIABLE</type>** in test suite (.ts) file.
+Replace **<type>SCRIPT<type>** to **<type>SCRIPT_VARIABLE</type>** in test suite (.ts) file.
