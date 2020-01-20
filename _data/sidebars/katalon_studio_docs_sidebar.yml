@@ -115,12 +115,8 @@ items:
             url: /katalon-studio/docs/create-test-case.html
           - title: "Elements of Test Cases"
             tree:
-              - title: "Binary Statements"
-                url: /katalon-studio/docs/binary-statements.html
-              - title: "Control Statements"
-                url: /katalon-studio/docs/control-statements.html
-              - title: "Method Call Statements"
-                url: /katalon-studio/docs/method-call-statements.html
+              - title: "Statements"
+                url: /katalon-studio/docs/statements.html
               - title: "Call Test Case"
                 url: /katalon-studio/docs/call-test-case.html
               - title: "Define Method"
@@ -139,8 +135,6 @@ items:
                 url: /katalon-studio/docs/working-with-sensitive-text.html
               - title: "External Libraries"
                 url: /katalon-studio/docs/external-libraries.html
-              - title: "Assert Statements"
-                url: /katalon-studio/docs/assert-statements.html
           - title: "Execute and Debug a Test Case"
             url: /katalon-studio/docs/execute-a-test-case-or-a-test-suite.html
           - title: "Desired Capabilities"
