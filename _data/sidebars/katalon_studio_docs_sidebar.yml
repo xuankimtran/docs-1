@@ -133,16 +133,8 @@ items:
                 url: /katalon-studio/new/version-41.html
               - title: "Version 4.0.x"
                 url: /katalon-studio/new/version-400.html
-              - title: "Version 3.6.x"
+              - title: "Version 3.x"
                 url: /katalon-studio/new/version-36.html
-              - title: "Version 3.5.x"
-                url: /katalon-studio/new/version-35.html
-              - title: "Version 3.3.x"
-                url: /katalon-studio/new/version-33.html
-              - title: "Version 3.2.x"
-                url: /katalon-studio/new/version-320.html
-              - title: "Version 3.1.x"
-                url: /katalon-studio/new/version-31.html
           - title: "Installation and Activation"
             tree:
               - title: "Installation Overview"
