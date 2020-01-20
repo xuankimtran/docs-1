@@ -47,29 +47,7 @@ items:
                 url: /katalon-studio/new/version-71.html
               - title: "Version 7.0.0 - 7.0.10"
                 url: /katalon-studio/new/version-70.html
-              - title: "Version 6.3.3"
-                url: /katalon-studio/new/version-633.html
-              - title: "Version 6.3.0 - 6.3.2"
-                url: /katalon-studio/new/version-630.html
-              - title: "Version 6.2.2"
-                url: /katalon-studio/new/version-622.html
-              - title: "Version 6.2.0 - 6.2.1"
-                url: /katalon-studio/new/version-620.html
-              - title: "Version 6.1.5"
-                url: /katalon-studio/new/version-615.html
-              - title: "Version 6.1.3 - 6.1.4"
-                url: /katalon-studio/new/version-613.html
-              - title: "Version 6.1.2"
-                url: /katalon-studio/new/version-612.html
-              - title: "Version 6.1.1"
-                url: /katalon-studio/new/version-611.html
-              - title: "Version 6.1.0"
-                url: /katalon-studio/new/version-61.html
-              - title: "Version 6.0.6"
-                url: /katalon-studio/new/version-606.html
-              - title: "Version 6.0.5"
-                url: /katalon-studio/new/version-605.html
-              - title: "Version 6.0"
+              - title: "Version 6.x"
                 url: /katalon-studio/new/version-60.html
               - title: "Version 5.10.3"
                 url: /katalon-studio/new/version-5103.html
