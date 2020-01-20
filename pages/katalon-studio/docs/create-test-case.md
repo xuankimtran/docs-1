@@ -23,6 +23,8 @@ description:
 
 ## In Manual View
 
+### Tutorial
+
 Katalon Studio supports Keywords-Driven testing where test cases consist of keywords that represent actions of users on the AUT (Applications Under Test). This allows users with less experience in programming to easily generate automation test. The below tutorial will give you step-by-step instruction in order to create an automation test case in manual mode.
 
 Given a sample test case with the steps as below:
@@ -96,6 +98,8 @@ Recent list will have two sections: **Object Folder** and **Test Object**
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/manual-view/image2017-8-25-173A293A39.png)
 
 ## In Script View
+
+### Tutorial
 
 In addition to the [Manual view](/display/KD/Test+Case+Manual+View), Katalon Studio allows expert users to programmatically write automation test in the Script view of test cases. Users with Groovy/Java background can easily modify the test script as needed.
 
