@@ -1,30 +1,43 @@
 ---
-title: "Control Statements"
+title: "Statements"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/control-statements.html
+permalink: katalon-studio/docs/statements.html
 redirect_from:
+    - "/katalon-studio/docs/method-call-statements.html"
+    - "/display/KD/Method+Call+Statements/"
+    - "/display/KD/Method%20Call%20Statements/"
+    - "/x/sgAM/"
+    - "/katalon-studio/docs/method-call-statements/"
+    - "/katalon-studio/docs/control-statements.html"
     - "/display/KD/Control+Statements/"
     - "/display/KD/Control%20Statements/"
     - "/x/rAAM/"
     - "/katalon-studio/docs/control-statements/"
     - "/katalon-studio/tutorials/common_condition_control_statements.html"
-description:
+    - "/display/KD/Control+Statements#ControlStatements-Decision-makingstatements"
+    - "/display/KD/Control+Statements#ControlStatements-Loopingstatements"
+    - "/display/KD/Control+Statements#ControlStatements-Branchingstatements"
+    - "/display/KD/Control+Statements#ControlStatements-Exceptionhandlingblock"
+    - "/katalon-studio/docs/binary-statements.html"
+    - "/display/KD/Binary+Statements/"
+    - "/display/KD/Binary%20Statements/"
+    - "/x/rgAM/"
+    - "/katalon-studio/docs/binary-statements/"
+    - "katalon-studio/docs/assert-statements.html"
+    - "/display/KD/Assert+Statements/"
+    - "/display/KD/Assert%20Statements/"
+    - "/x/sAAM/"
+    - "/katalon-studio/docs/assert-statements/"
+    - "/tutorials/common-validation/"
+    - "/katalon-studio/tutorials/common_validation_statements_katalon_studio.html"
+description: 
 ---
-Katalon Studio provides the ability to dictate the logical flow of execution by supporting **control statements** such as _If/Else_, _for/while_ or _Try/Catch_… which are very common concepts in programming language.
 
-The following control statements are supported in Katalon Studio:
-
-*   [Decision-making statements](/display/KD/Control+Statements#ControlStatements-Decision-makingstatements) 
-*   [Looping statements](/display/KD/Control+Statements#ControlStatements-Loopingstatements)
-*   [Branching statements](/display/KD/Control+Statements#ControlStatements-Branchingstatements)
-*   [Exception handling block](/display/KD/Control+Statements#ControlStatements-Exceptionhandlingblock)
+## Decision-making statements
 
 > Once a test step is added as any of the control statements, it will **not** be allowed to change it into another keyword.
 
-Decision-making statements 
----------------------------
-
-### In Manual view 
+### In Manual view
 
 Open a test case in **Manual** view, then navigate to **Decision-making Statements** from command toolbar.
 
@@ -77,7 +90,7 @@ Refer to the following table for the usage of each statement:
     </tbody>
 </table>
 
-### In Scripting view
+### In Script view
 
 The **Script** view of test cases allows you to programmatically define and handle **If-ElseIf-Else** or **Switch-Case** structure easily using either Groovy or Java language. Refer to [http://groovy-lang.org/semantics.html#\_conditional\_structures](http://groovy-lang.org/semantics.html#_conditional_structures) for more details about conditional structure in Groovy.
 
@@ -104,8 +117,9 @@ For example:
     </tbody>
 </table>
 
-Looping statements 
--------------------
+## Looping statements
+
+> Once a test step is added as any of the control statements, it will **not** be allowed to change it into another keyword.
 
 ### In Manual view 
 
@@ -141,7 +155,7 @@ Refer to following table for the usage of each statement:
     </tbody>
 </table>
 
-### In Scripting view 
+### In Script view
 
 The **Script** View of test cases allows you to programmatically define and handle **For** or **While** structure easily using either Groovy or Java language. Refer to [http://groovy-lang.org/semantics.html#\_looping\_structures](http://groovy-lang.org/semantics.html#_looping_structures) for more details about looping structures in Groovy.
 
@@ -170,8 +184,9 @@ For example:
     </tbody>
 </table>
 
-Branching statements 
----------------------
+## Branching statements
+
+> Once a test step is added as any of the control statements, it will **not** be allowed to change it into another keyword.
 
 ### In Manual view 
 
@@ -183,7 +198,7 @@ Refer to following table for the usage of each statement:
 
 <table><thead><tr><th>Statement</th><th>Description</th><th>Screenshot</th></tr></thead><tbody><tr><td>Break</td><td>Katalon Studio will exit current code block and continue to next code block / test step.</td><td><p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/control-statements/image2017-2-9-163A363A37.png"></p></td></tr><tr><td>Continue</td><td>Katalon Studio will skip the remainder of the current loop and continue with the next iteration of the loop.</td><td><p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/control-statements/image2017-2-9-163A423A13.png"></p></td></tr><tr><td>Return</td><td>Katalon will exit from the current method/step, and the flow control is returned to where the method/step was invoked.</td><td><p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/control-statements/image2017-2-9-163A473A44.png"></p></td></tr></tbody></table>
 
-### In Scripting view
+### In Script view
 
 The **Script** view of test cases allows you to programmatically define and handle **Break**, **Continue** & **Return** easily using either Groovy or Java language. 
 
@@ -195,8 +210,9 @@ For example:
 | Continue | ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/control-statements/37.png) |
 | Return | ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/control-statements/38.png) |
 
-Exception handling block 
--------------------------
+## Exception handling block
+
+> Once a test step is added as any of the control statements, it will **not** be allowed to change it into another keyword.
 
 ### In Manual view 
 
@@ -208,10 +224,105 @@ Refer to following table for the usage of each statement:
 
 <table><thead><tr><th>Statement</th><th>Description</th><th>Screenshot</th></tr></thead><tbody><tr><td>Try</td><td>This statement indicates that all steps within will be monitored by<strong> exception handlers</strong>.</td><td><p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/control-statements/image2017-2-28-113A513A55.png"></p></td></tr><tr><td>Throw</td><td>Before you can <strong>Catch</strong> an exception, some code must throw one. Regardless of what throws the exception, it's always involved with the <strong>Throw</strong> statement</td></tr><tr><td>Catch</td><td>Katalon Studio will&nbsp;execute all steps within when there is any issue occurred during execution of the <strong>Try</strong> block.</td></tr><tr><td>Finally</td><td>This is the last part of the <strong>Try-Catch-Finally</strong> structure and all steps within this will be executed regardless of any exception.</td></tr></tbody></table>
 
-### In Scripting view
+### In Script view
 
 The **Script** view of test cases allows you to programmatically define and handle exception easily using either Groovy or Java language. Refer to [http://groovy-lang.org/semantics.html#\_try\_catch_finally](http://groovy-lang.org/semantics.html#_try_catch_finally) for more details about exception handling in Groovy.
 
 For example:
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/control-statements/image2017-2-28-133A203A32.png)
+
+## Binary Statements
+
+A Binary Statement represents a dual expression consisting of two single **expressions** (variables, strings, numbers, methods...) and an **operator** (e.g. +, -, *, <, <=, !, etc.). Refer to [Groovy Documents](http://groovy-lang.org/operators.html) for more details about using operators in Groovy.
+
+### In Manual view
+
+1. Open a test case in **Manual** view, then navigate to **Binary Statement** from the command toolbar.  
+
+   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/binary-statements/image2017-6-30-203A433A7.png)
+2. A test step representing a binary statement is added to the test case.  
+
+   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/binary-statements/image2017-2-10-133A463A52.png)
+
+3. Double-click on the **Input** cell to edit those required components.  
+
+   Binary Statements are normally used to assign either values to test objects
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/binary-statements/Binary-Statement.png" width="675" height="196">
+
+   or test objects to variables to take the next steps.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/binary-statements/BS-2.png" width="665" height="220">
+
+4. Save the test case when you're done.
+   
+   > Once a test step is added as any of the **Binary Statement**, it will **not** be allowed to change it into another keyword.
+
+### In Script view
+
+The **Script** view of a test case allows you to programmatically define and handle binary statements easily using either Groovy or Java languages.
+
+**For example**:
+
+* To assign a value to a test object
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/binary-statements/BS-1.png" width="337" height="46">
+
+* To assign a test object to a variable
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/binary-statements/BS-3.png" width="528" height="121">
+
+## Method Call Statements
+
+Method Call statement allows you to make calls to other methods provided by the built-in libraries of Katalon Studio.
+
+### In Manual view
+
+1. Open a test case in **Manual** view, then navigate to **Method Call Statement** from command toolbar.  
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/method-call-statements/image2017-6-30-203A443A47.png)  
+
+2. A test step representing a method call is added to the test case.  
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/method-call-statements/image2017-2-10-153A223A34.png)  
+
+3. Double-click on the Input cell to edit the called method.  
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/method-call-statements/image2017-2-10-153A273A26.png)  
+
+4. Save the test case when you're done.
+    
+    > Once a test step is added as **Method Call Statement**, it will **not** be allowed to change into another keyword.
+
+### In Script view
+
+The **Script** View of a test case allows you to programmatically define and handle method calls easily using either Groovy or Java language.
+
+For example:
+
+ ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/method-call-statements/11.png)
+
+## Assert Statements
+
+An assert statement contains a **boolean expression** where this condition must hold true for the test execution to continue. Thus, execution of the assertion causes evaluation of the **boolean expression** and an error is reported if the expression evaluates as **false**.
+
+### In Manual view
+
+1. Open a test case in **Manual** view, then navigate to **Assert Statements** from command toolbar.  
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/assert-statements/image2017-6-30-203A443A0.png)  
+      
+    
+2. A test step represents assert expression is added to the test case.  
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/assert-statements/image2017-2-10-143A353A6.png)  
+      
+    
+3. Double-click on the **Input** cell to edit the assertion.  
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/assert-statements/image2017-2-10-153A23A25.png)
+    
+    > Once a test step is added as **Assert Statement**, it will **not** be allowed to change into another keyword.
+
+### In Script view
+
+The **Script** view of test cases allows you to programmatically define and handle assertions easily using either Groovy or Java language. Refer to [http://docs.groovy-lang.org/docs/latest/html/documentation/core-testing-guide.html](http://docs.groovy-lang.org/docs/latest/html/documentation/core-testing-guide.html) for more details regarding assertions in Groovy.
+
+For example:
+
+ ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/assert-statements/11.png)
