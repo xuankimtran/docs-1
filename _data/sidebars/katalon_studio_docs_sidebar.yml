@@ -932,8 +932,8 @@ items:
                     url: /katalon-studio/docs/integrate-test-suite.html
                   - title: "Upload test execution"
                     url: /katalon-studio/docs/upload-test-execution.html
-              - title: "TestRail integration"
-                url: /katalon-studio/docs/katalon-testrail-integration.html 
+              - title: "TestRail Integration"
+                url: /katalon-studio/docs/testrail-integration.html
           - title: "Other Integrations"
             tree:
               - title: "Kobiton Integration"
@@ -956,8 +956,6 @@ items:
         tree:
           - title: "Auto-healing Smart XPath"
             url: /katalon-studio/docs/auto-healing-smart-xpath.html
-          - title: "TestRail Integration"
-            url: /katalon-studio/docs/testrail-integration.html
           - title: "Test Case Management With Tags"
             url: /katalon-studio/docs/test-case-management-with-tags.html
           - title: "Basic Search For Dynamic Test Suite"
