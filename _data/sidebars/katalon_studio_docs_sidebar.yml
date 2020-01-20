@@ -910,15 +910,7 @@ items:
           - title: "Katalon TestOps Integration"
             url: /katalon-studio/docs/katalon-analytics-beta-integration.html
           - title: "Jira Integration"
-            tree:
-              - title: "Configure JIRA Integration"
-                url: /katalon-studio/docs/configure-jira-integration.html
-              - title: "Install and Use Katalon's JIRA add-on"
-                url: /katalon-studio/docs/install-and-use-katalons-jira-add-on.html
-              - title: "Install and Use Katalon BDD custom field in Jira Cloud"
-                url: /katalon-studio/docs/BDD-field-jira-cloud.html
-              - title: "Working with JIRA"
-                url: /katalon-studio/docs/working-with-jira.html
+            url: /katalon-studio/docs/jira-integration.html
           - title: "Git Integration"
             tree:
               - title: "Git Integration"
