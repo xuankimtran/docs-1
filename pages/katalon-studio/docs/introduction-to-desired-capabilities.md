@@ -26,6 +26,11 @@ redirect_from:
     - "/katalon-studio/docs/desired-capabilities-for-internet-explorer.html"
     - "/katalon-studio/tutorials/desired_capabilities_in_katalon.html"
     - "/katalon-studio/docs/desired_capabilities_in_katalon.html"
+    - "/display/KD/Override+desired+capabilities+at+runtime/"
+    - "/display/KD/Override%20desired%20capabilities%20at%20runtime/"
+    - "/x/dwXR/"
+    - "/katalon-studio/docs/override-desired-capabilities-at-runtime/"
+    - "/katalon-studio/docs/override-desired-capabilities-at-runtime.html"
 description:
 ---
 
@@ -51,36 +56,35 @@ Below is the list of supported environments as well as how to configure them in 
 
 ### Chrome/Chrome (headless)
 
-The Desired Capabilities available for Chrome is listed [here](http://chromedriver.chromium.org/capabilities). You can locate Chrome settings file at this path: **_<Project folder>\\settings\\internal\\com.kms.katalon.core.webui.chrome.properties._**
+The Desired Capabilities available for Chrome is listed [here](http://chromedriver.chromium.org/capabilities). You can locate Chrome settings file at this path: **<Project_folder>\\settings\\internal\\com.kms.katalon.core.webui.chrome.properties.**
 
 Please refer to some common examples below regard to how to manage Desired Capabilities for Chrome in Katalon Studio:
 
-1. To start Chrome maximized by default: [--start-maximized](https://peter.sh/experiments/chromium-command-line-switches/#start-maximized)
+1. To start Chrome maximized by default: [`--start-maximized`](https://peter.sh/experiments/chromium-command-line-switches/#start-maximized)
 
-```groovy
-{"CHROME_DRIVER":{"args":["--start-maximized"]}}
+   ```groovy
+   {"CHROME_DRIVER":{"args":["--start-maximized"]}}
 
-```
+   ```
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/Screen-Shot-2018-07-17-at-16.38.57.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/Screen-Shot-2018-07-17-at-16.38.57.png)
 
-2. To disable notification bars : [--disable-infobars](https://peter.sh/experiments/chromium-command-line-switches/#disable-infobars)
+2. To disable notification bars : [`--disable-infobars`](https://peter.sh/experiments/chromium-command-line-switches/#disable-infobars)
 
-```groovy
-{"CHROME_DRIVER":{"args":["--start-maximized","--disable-infobars"]}}
+   ```groovy
+   {"CHROME_DRIVER":{"args":["--start-maximized","--disable-infobars"]}}
+   ```
 
-```
+   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/Screen-Shot-2018-07-17-at-17.03.42.png)
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/Screen-Shot-2018-07-17-at-17.03.42.png)
+3. To start Chrome in incognito (private) mode : [`--incognito`](https://peter.sh/experiments/chromium-command-line-switches/#incognito)
 
-3. To start Chrome in incognito (private) mode : [--incognito](https://peter.sh/experiments/chromium-command-line-switches/#incognito)
+   ```groovy
+   {"CHROME_DRIVER":{"args":["--start-maximized","--disable-infobars","--incognito"]}}
 
-```groovy
-{"CHROME_DRIVER":{"args":["--start-maximized","--disable-infobars","--incognito"]}}
+   ```
 
-```
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/Screen-Shot-2018-07-18-at-10.06.27.png)
+   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/Screen-Shot-2018-07-18-at-10.06.27.png)
 
 > Code sample can be found in this project: [https://github.com/katalon-studio-samples/tips-and-tricks](https://github.com/katalon-studio-samples/tips-and-tricks)
 
@@ -95,7 +99,7 @@ You can access the useful Desired Capabilities for Firefox through:
 3. Search for 'browser' keys
 4. Create a key called 'firefox_profile' in Katalon Studio settings and add your settings there.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-firefoxfirefox-headless/Untitled.png)
+   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-firefoxfirefox-headless/Untitled.png)
 
 Some common Desired Capabilities:
 
@@ -109,11 +113,11 @@ Some common Desired Capabilities:
 
 2. Never ask for file download for file MIME type mentioned. The list of MIME type can be found [here](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Complete_list_of_MIME_types).
 
-```groovy
-{"FIREFOX_DRIVER":{"firefox_profile":{"browser.download.folderList":"2","browser.helperApps.alwaysAsk.force":false,"browser.download.manager.showWhenStarting":false,"browser.download.dir":"C:\\Downloads","browser.download.downloadDir":"C:\\Downloads","browser.download.defaultFolder":"C:\\Downloads","browser.helperApps.neverAsk.saveToDisk":"text/html"}}}
-```
+   ```groovy
+   {"FIREFOX_DRIVER":{"firefox_profile":{"browser.download.folderList":"2","browser.helperApps.alwaysAsk.force":false,"browser.download.manager.showWhenStarting":false,"browser.download.dir":"C:\\Downloads","browser.download.downloadDir":"C:\\Downloads","browser.download.defaultFolder":"C:\\Downloads","browser.helperApps.neverAsk.saveToDisk":"text/html"}}}
+   ```
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-firefoxfirefox-headless/Untitled.png)
+   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-firefoxfirefox-headless/Untitled.png)
 
 > Code sample can be found in this project: [https://github.com/katalon-studio-samples/tips-and-tricks](https://github.com/katalon-studio-samples/tips-and-tricks)
 
@@ -240,9 +244,9 @@ Custom execution is slightly different from other execution settings. Follow the
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/image2016-11-1-143A353A10.png)
 
 ## Location of Desired Capabilities files
- 
+
 Defined configuration settings are saved in separated files under the "**<your test project location>\\settings\\internal**" location (or "**<your test project location>\\settings\\external\\execution**" in case of custom execution), as below:
- 
+
 | Driver | Settings' file |
 | --- | --- |
 | Chrome | com.kms.katalon.core.webui.chrome.properties |
@@ -253,3 +257,16 @@ Defined configuration settings are saved in separated files under the "**<your t
 | Remote Web | com.kms.katalon.core.webui.remote.properties |
 | Android | com.kms.katalon.core.mobile.android.properties |
 | iOS | com.kms.katalon.core.mobile.ios.properties |
+
+## Override desired capabilities at runtime
+
+If you want to override desired capabilities of a browser before it's started, refer to the sample code below.
+
+```groovy
+import com.kms.katalon.core.configuration.RunConfiguration
+RunConfiguration.setWebDriverPreferencesProperty("key", "value")
+```
+
+**References:**
+
+* [RunConfiguration](https://api-docs.katalon.com/com/kms/katalon/core/configuration/RunConfiguration.html)
