@@ -216,21 +216,7 @@ items:
               - title: "Creating test case using Record & Playback"
                 url: /katalon-studio/docs/create_test_case_using_record_playback.html
               - title: "Web Test Object"
-                tree:
-                  - title: "Manage Web Test Object"
-                    url: /katalon-studio/docs/manage-web-test-object.html
-                  - title: "Working with Objects Selection Method for Spy/Record Web"
-                    url: /katalon-studio/docs/working-with-objects-selection-method-for-spyrecord-web.html
-                  - title: "Working with Shadow DOM Objects"
-                    url: /katalon-studio/docs/working-with-shadow-dom-objects.html
-                  - title: "Change CSS selector of an object at runtime"
-                    url: /katalon-studio/docs/change-css-selector-of-an-object-at-runtime.html
-                  - title: "Modify object properties at runtime"
-                    url: /katalon-studio/docs/clicking-multiple-objects-without-starting-over.html
-                  - title: "Creation of Test Object in Memory at Runtime"
-                    url: /katalon-studio/docs/creation-of-test-object-in-object-repository-in-runtime.html
-                  - title: "Parameterize Web Test Object Properties"
-                    url: /katalon-studio/docs/parameterize-web-test-object-properties.html
+                url: /katalon-studio/docs/manage-web-test-object.html
               - title: "Web Record and Spy Utilities"
                 tree:
                   - title: "Record Web Utility"
