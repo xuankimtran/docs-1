@@ -1064,6 +1064,8 @@ items:
                 url: /katalon-studio/docs/jmeter-integration.html
       - title: "Katalon Studio Plugins"
         tree:
+          - title: "Integration Plugins"
+            url: /katalon-studio/docs/integration-plugins.html
           - title: "Jira Integration"
             url: /katalon-studio/docs/jira-plugin-integration.html
           - title: "Slack Integration"
