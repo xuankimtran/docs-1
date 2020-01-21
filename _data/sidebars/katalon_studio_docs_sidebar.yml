@@ -944,8 +944,6 @@ items:
             url: /katalon-studio/docs/test-case-management-with-tags.html
           - title: "Basic Search For Dynamic Test Suite"
             url: /katalon-studio/docs/basic-search-for-dynamic-querying-test-suite.html
-          - title: "Basic Report"
-            url: /katalon-studio/docs/test-suite-report.html#export-reports-to-other-formats
           - title: "Test Suite Collection Scheduler"
             url: /katalon-studio/docs/test-suite-collection-scheduler.html
           - title: "Private Plugins"
