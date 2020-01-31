@@ -28,15 +28,17 @@ This tutorial shows you how to set up an Organization properly in Katalon TestOp
 
 1. In the **Organization** view, select **Users**.
 2. In the **Users** view, select **Invitations**.
-3. Invite your members one by one by entering their email addresses. The newly created invitation link is added to the **Pending Activations** table. An email with an invitation link attached is sent to the invited email. Or you can send the invitation link to that person yourself. Please remember each invitation is valid for one click only.
+3. Invite your members one by one by entering their email addresses. The newly created invitation link is added to the **Pending Activations** table.
+4. Copy and send the invitation link to that person.
+
+   > An email with an invitation link attached is sent to the invited email if you have configured [Mail Server](https://docs.katalon.com/katalon-analytics/docs/kt-op-mail-server.html).
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/ktop-setup-org-team-project/invitation-link.png" width="" height="">
 
-   > Users are only added to the Organization once they sign in with the newly created account. You can track the invited persons' actions by observing their activation links. For example:
-   >
-   > The activation link of email *longbui@kms-technology.com* means there is no account registered with this email yet.
-   >
-   > The activation link of email *quile@kms-technology.com* means there is an account already registered with this email, but that account is not added to the Organization yet.
+Users are only added to the Organization once they sign in with the newly created account. You can track the invited persons' actions by observing their activation links. For example:
+
+* The activation link of email *longbui@kms-technology.com* requires this user to update password for the account registered with the email.
+* The activation link of email *quile@kms-technology.com* indicates the account associated with this email has not accepted the invitation yet.
 
 **Invited person**
 
@@ -46,14 +48,13 @@ This tutorial shows you how to set up an Organization properly in Katalon TestOp
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/ktop-setup-org-team-project/update-pw.png" width="" height="">
 
 3. Click **Update password**, and you are done with registering your account with Katalon TestOps OnPremise Server.
-
 4. Sign in with the newly created account to start working on Katalon TestOps.
 
 > Troubleshoot
 >
 > If you click on the invitation link and encounter this error: "*This link has been used to reset password.*", it means a password is already updated.
 >
-> If you click on the invitation link and encounter this error: "*Cannot accept the invitation.*", it means you are currently signed in another account. Since each link is valid for one-click only, in the **Users** view, the Organization Owner/Admin needs to remove the activation link in the **Pending Activations** table and invite that email again.
+> If you click on the invitation link and encounter this error: "*Cannot accept the invitation.*", please check and sign out the currently signed in account. Then use the invitation link to sign in with the corresponding account.
 
 You can grant the new members organization roles. [Learn more](https://docs.katalon.com/katalon-analytics/docs/kt-user-role-permission.html).
 
