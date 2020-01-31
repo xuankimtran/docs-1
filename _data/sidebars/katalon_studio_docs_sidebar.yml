@@ -1155,15 +1155,7 @@ items:
           - title: "Working with Jira Releases"
             url: /katalon-analytics/docs/kt-jira-release.html
       - title: "Katalon TestOps OnPremise"
-        tree:
-          - title: "Overview"
-            url: /katalon-analytics/docs/ktop-overview.html
-          - title: "Install and Setup"
-            url: /katalon-analytics/docs/kt-op-installation.html
-          - title: "Configure Mail Server"
-            url: /katalon-analytics/docs/kt-op-mail-server.html
-          - title: "Set up Organization, Team and Project"
-            url: /katalon-analytics/docs/ktop-setup-org-team-project.html
+        url: /katalon-analytics/docs/ktop.html
   - title: "Katalon Recorder"
     tree:
       - title: "Overview"
