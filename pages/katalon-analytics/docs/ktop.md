@@ -28,6 +28,12 @@ description:
 
 ## Install and Setup
 
+> Prerequisites: 
+>
+> * Download PostgreSQL Database version 9.6.16
+> * For integration, Katalon Studio version should be 7.2.2
+> * Contact Katalon Sales team to get the Katalon TestOps OnPremise installer.
+
 ### Install and create a PostgreSQL database
 
 PostgreSQL database is where you manage all data, including test executions, Organizations, Teams, Projects and user accounts used by KTOP. Please first download [PostgreSQL Database version 9.6.16](https://www.postgresql.org/download/).
@@ -164,13 +170,11 @@ Select **Projects** > give a name to your project and click **Create**.
 
 You have had your organization, team, and project. You can start working with Katalon TestOps now.
 
-## Reset Password
+## Reset and Forget Password
 
 If you would like to change your password, please go to your **Profile** and click **Change Password** on the upper right corner.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/ktop-setup-org-team-project/update-pw-1.png" width="364" height="">
-
-## Forget Password
 
 In case a user forgets the password, they can click on **Forgot your password** in the **Sign-in** window and follow the instructions to update a new one. However, this solution is only available for the Organizations that have configured [Mail Server](https://docs.katalon.com/katalon-analytics/docs/ktop.html#configure-mail-server). For those Organizations without Mail Server configured, we suggest a workaround below.
 
