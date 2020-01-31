@@ -920,6 +920,8 @@ items:
             url: /katalon-studio/docs/testlink-integration.html
       - title: "Katalon Studio Plugins"
         tree:
+          - title: "Integration Plugins"
+            url: /katalon-studio/docs/integration-plugins.html
           - title: "Auto-healing Smart XPath"
             url: /katalon-studio/docs/auto-healing-smart-xpath.html
           - title: "Test Case Management With Tags"
