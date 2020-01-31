@@ -28,7 +28,7 @@ You have to define a Grid Plan on TestOps before assigning the Plan to Jenkins t
 
 4. Enter **Server URL** of Katalon TestOps.
 
-5. Select your existing credentials to retrieve your target Project and Test Plan. If you don't have any credentials, you can click the **Add Jenkins Credentials** button and select **Secrete Text** in the **Kind** dropdown.
+5. Select your existing credentials to retrieve your target Project and Test Plan. If you don't have any credentials, you can click the **Add Jenkins Credentials** button and select **Secret Text** in the **Kind** dropdown.
 
 > Note: Click **Test Connection** to see if you can connect to TestOps successfully.
 
