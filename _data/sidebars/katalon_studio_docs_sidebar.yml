@@ -41,104 +41,16 @@ items:
             url: /katalon-studio/docs/overview.html
           - title: "What's new"
             tree:
-              - title: "Version 7.2.0 - 7.2.1"
-                url: /katalon-studio/new/version-72.html
-              - title: "Version 7.1.0 - 7.1.2"
-                url: /katalon-studio/new/version-71.html
-              - title: "Version 7.0.0 - 7.0.10"
+              - title: "Version 7.x"
                 url: /katalon-studio/new/version-70.html
-              - title: "Version 6.3.3"
-                url: /katalon-studio/new/version-633.html
-              - title: "Version 6.3.0 - 6.3.2"
-                url: /katalon-studio/new/version-630.html
-              - title: "Version 6.2.2"
-                url: /katalon-studio/new/version-622.html
-              - title: "Version 6.2.0 - 6.2.1"
-                url: /katalon-studio/new/version-620.html
-              - title: "Version 6.1.5"
-                url: /katalon-studio/new/version-615.html
-              - title: "Version 6.1.3 - 6.1.4"
-                url: /katalon-studio/new/version-613.html
-              - title: "Version 6.1.2"
-                url: /katalon-studio/new/version-612.html
-              - title: "Version 6.1.1"
-                url: /katalon-studio/new/version-611.html
-              - title: "Version 6.1.0"
-                url: /katalon-studio/new/version-61.html
-              - title: "Version 6.0.6"
-                url: /katalon-studio/new/version-606.html
-              - title: "Version 6.0.5"
-                url: /katalon-studio/new/version-605.html
-              - title: "Version 6.0"
+              - title: "Version 6.x"
                 url: /katalon-studio/new/version-60.html
-              - title: "Version 5.10.3"
-                url: /katalon-studio/new/version-5103.html
-              - title: "Version 5.10.1"
-                url: /katalon-studio/new/version-5101.html
-              - title: "Version 5.10"
-                url: /katalon-studio/new/version-510.html
-              - title: "Version 5.9.1"
-                url: /katalon-studio/new/version-591.html
-              - title: "Version 5.9.0"
-                url: /katalon-studio/new/version-590.html
-              - title: "Version 5.8.6"
-                url: /katalon-studio/new/version-586.html
-              - title: "Version 5.8.5"
-                url: /katalon-studio/new/version-585.html
-              - title: "Version 5.8.4"
-                url: /katalon-studio/new/version-584.html
-              - title: "Version 5.8.3"
-                url: /katalon-studio/new/version-583.html
-              - title: "Version 5.8"
-                url: /katalon-studio/new/version-58.html
-              - title: "Version 5.7.1"
-                url: /katalon-studio/new/version-571.html
-              - title: "Version 5.7.0"
-                url: /katalon-studio/new/version-570.html
-              - title: "Version 5.6.3"
-                url: /katalon-studio/new/version-563.html
-              - title: "Version 5.6.1"
-                url: /katalon-studio/new/version-561.html
-              - title: "Version 5.6.0"
-                url: /katalon-studio/new/version-560.html
-              - title: "Version 5.5"
-                url: /katalon-studio/new/version-55.html
-              - title: "Version 5.4.2"
-                url: /katalon-studio/new/version-542.html
-              - title: "Version 5.4.1"
-                url: /katalon-studio/new/version-541.html
-              - title: "Version 5.4.0"
-                url: /katalon-studio/new/version-540.html
-              - title: "Version 5.3.1"
-                url: /katalon-studio/new/version-531.html
-              - title: "Version 5.3.0"
-                url: /katalon-studio/new/version-530.html
-              - title: "Version 5.2"
-                url: /katalon-studio/new/version-52.html
-              - title: "Version 5.1.0.2"
-                url: /katalon-studio/new/version-5102.html
-              - title: "Version 5.1.0"
-                url: /katalon-studio/new/version-51.html
-              - title: "Version 5.0.1"
+              - title: "Version 5.x"
                 url: /katalon-studio/new/version-501.html
-              - title: "Version 5.0.0"
-                url: /katalon-studio/new/version-500.html
-              - title: "Version 4.8"
+              - title: "Version 4.x"
                 url: /katalon-studio/new/version-48.html
-              - title: "Version 4.7.2"
-                url: /katalon-studio/new/version-472.html
-              - title: "Version 4.7.1"
-                url: /katalon-studio/new/version-471.html
-              - title: "Version 4.7.0"
-                url: /katalon-studio/new/version-470.html
-              - title: "Version 4.6"
-                url: /katalon-studio/new/version-46.html
-              - title: "Version 4.5"
-                url: /katalon-studio/new/version-45.html
-              - title: "Version 4.4"
-                url: /katalon-studio/new/version-44.html
-              - title: "Version 4.3"
-                url: /katalon-studio/new/version-43.html
+              - title: "Version 3.x"
+                url: /katalon-studio/new/version-36.html
           - title: "Installation and Activation"
             tree:
               - title: "Installation Overview"
@@ -199,38 +111,26 @@ items:
         tree:
           - title: "Search Function"
             url: /katalon-studio/docs/search.html
-          - title: "Manual View"
-            url: /katalon-studio/docs/manual-view.html
-          - title: "Script View"
-            url: /katalon-studio/docs/script-view.html
+          - title: "Create Test Case"
+            url: /katalon-studio/docs/create-test-case.html
           - title: "Elements of Test Cases"
             tree:
-              - title: "Binary Statements"
-                url: /katalon-studio/docs/binary-statements.html
-              - title: "Control Statements"
-                url: /katalon-studio/docs/control-statements.html
-              - title: "Method Call Statements"
-                url: /katalon-studio/docs/method-call-statements.html
+              - title: "Statements"
+                url: /katalon-studio/docs/statements.html
               - title: "Call Test Case"
                 url: /katalon-studio/docs/call-test-case.html
-              - title: "Define Method"
-                url: /katalon-studio/docs/define-method.html
               - title: "Variable Types"
                 url: /katalon-studio/docs/variable-types.html
               - title: "Value Types"
                 url: /katalon-studio/docs/value-types.html
               - title: "Failure Handling"
                 url: /katalon-studio/docs/failure-handling.html
-              - title: "Setup and Teardown"
-                url: /katalon-studio/docs/setupteardown-for-test-suite-and-test-case.html
-              - title: "Test Listeners (Test Hooks)"
-                url: /katalon-studio/docs/test-listeners-test-hooks.html
+              - title: "Test Fixtures and Test Listeners (Test Hooks)"
+                url: /katalon-studio/docs/fixtures-listeners.html
               - title: "Sensitive Text"
                 url: /katalon-studio/docs/working-with-sensitive-text.html
               - title: "External Libraries"
                 url: /katalon-studio/docs/external-libraries.html
-              - title: "Assert Statements"
-                url: /katalon-studio/docs/assert-statements.html
           - title: "Execute and Debug a Test Case"
             url: /katalon-studio/docs/execute-a-test-case-or-a-test-suite.html
           - title: "Desired Capabilities"
@@ -315,26 +215,8 @@ items:
                 url: /katalon-studio/docs/introduction-to-web-testing.html
               - title: "Creating test case using Record & Playback"
                 url: /katalon-studio/docs/create_test_case_using_record_playback.html
-              - title: "Creating test case using manual mode"
-                url: /katalon-studio/docs/create_test_case_using_manual_mode.html
-              - title: "Creating test case using script mode"
-                url: /katalon-studio/docs/create_test_case_using_script_mode.html
               - title: "Web Test Object"
-                tree:
-                  - title: "Manage Web Test Object"
-                    url: /katalon-studio/docs/manage-web-test-object.html
-                  - title: "Working with Objects Selection Method for Spy/Record Web"
-                    url: /katalon-studio/docs/working-with-objects-selection-method-for-spyrecord-web.html
-                  - title: "Working with Shadow DOM Objects"
-                    url: /katalon-studio/docs/working-with-shadow-dom-objects.html
-                  - title: "Change CSS selector of an object at runtime"
-                    url: /katalon-studio/docs/change-css-selector-of-an-object-at-runtime.html
-                  - title: "Modify object properties at runtime"
-                    url: /katalon-studio/docs/clicking-multiple-objects-without-starting-over.html
-                  - title: "Creation of Test Object in Memory at Runtime"
-                    url: /katalon-studio/docs/creation-of-test-object-in-object-repository-in-runtime.html
-                  - title: "Parameterize Web Test Object Properties"
-                    url: /katalon-studio/docs/parameterize-web-test-object-properties.html
+                url: /katalon-studio/docs/manage-web-test-object.html
               - title: "Web Record and Spy Utilities"
                 tree:
                   - title: "Record Web Utility"
@@ -345,24 +227,14 @@ items:
                     url: /katalon-studio/docs/web-locators-settings-since-v571.html 
                   - title: "How to use synchronization commands while recording"
                     url: /katalon-studio/docs/synchronization_commands_recording.html
-              - title: "Working with Selenium WebDriver"
-                tree:
-                  - title: "Handle WebDrivers"
-                    url: /katalon-studio/docs/handle-webdrivers.html
-                  - title: "Update or Replace Web Browser Drivers and Selenium"
-                    url: /katalon-studio/docs/update-or-replace-web-browser-drivers-and-selenium.html
-                  - title: "Using the WebDriver Object"
-                    url: /katalon-studio/docs/using-the-webdriver-object.html
-                  - title: "WebDriver Event Listeners"
-                    url: /katalon-studio/docs/webdriver-event-listeners.html
+              - title: "Handle WebDrivers"
+                url: /katalon-studio/docs/handle-webdrivers.html
               - title: "Testing Web App on Mobile Browsers"
                 url: /katalon-studio/docs/running_application_mobile_browsers.html
           - title: "Mobile Test Design"
             tree:
               - title: "An Introduction to Katalon Mobile Recorder"
                 url: /katalon-studio/docs/katalon_mobile_recorder_introduction.html
-              - title: "Desired Capabilities in Katalon Studio"
-                url: /katalon-studio/docs/desired_capabilities_in_katalon.html
               - title: "Locators and Object Identification"
                 url: /katalon-studio/docs/locators_object_identification.html
               - title: "Testing mobile apps using Katalon Studio and Kobiton’s cloud-based device farm"
@@ -973,32 +845,18 @@ items:
             url: /katalon-studio/docs/selenium-grid-integration.html
           - title: "Executing Tests on Multiple Devices in Parallel"
             url: /katalon-studio/docs/execute_tests_parallelly_multiple_devices.html
-      - title: "Reports"
+      - title: "Reports and Execution Log"
         tree:
-          - title: "Test Suite Report"
+          - title: "Test Suite and Test Suite Collection Reports"
             url: /katalon-studio/docs/test-suite-report.html
-          - title: "Test Suite Collection Report"
-            url: /katalon-studio/docs/test-suite-collection-report.html
-          - title: "View Execution Log"
-            url: /katalon-studio/docs/view-execution-log.html
-          - title: "Customize Console Log"
+          - title: "View and Customize Execution Log"
             url: /katalon-studio/docs/working-with-execution-log.html
-          - title: "Video Capturing"
-            url: /katalon-studio/docs/video-capturing.html
-          - title: "Get generated Reports location at runtime"
-            url: /katalon-studio/docs/get-generated-reports-location-at-runtime.html         
       - title: "Data-driven Testing"
         tree:
           - title: "Data-driven Testing with Katalon Studio"
             url: /katalon-studio/docs/ddt.html
-          - title: "Global Variables"
-            tree:
-              - title: "Global Variables"
-                url: /katalon-studio/docs/global-variables.html
-              - title: "Execution Profile"
-                url: /katalon-studio/docs/execution-profile-v54.html
-              - title: "Create Global Variables on the fly"
-                url: /katalon-studio/docs/create-global-variables-on-the-fly.html
+          - title: "Global Variables and Execution Profile"
+            url: /katalon-studio/docs/execution-profile-v54.html
           - title: "Test Case Variables"
             url: /katalon-studio/docs/test-case-variables.html
           - title: "Run Test Case with an external data source"
@@ -1022,74 +880,56 @@ items:
           - title: "Jira Integration"
             url: /katalon-studio/docs/jira-integration.html
           - title: "Git Integration"
-            tree:
-              - title: "Git Integration"
-                url: /katalon-studio/docs/git-integration.html
-              - title: "Resolve Git conflicts using Katalon Studio"
-                url: /katalon-studio/docs/git_conflict_resolve.html
+            url: /katalon-studio/docs/git-integration.html
           - title: "Slack Integration"
-            url: /katalon-studio/docs/slack-integration.html
-          - title: "Test Management Integrations"
+            url: /katalon-studio/docs/slack-plugin-integration.html
+          - title: "Kobiton Integration"
             tree:
-              - title: "qTest Integration"
-                id: "qtest-integration"
-                tree:
-                  - title: "Enable qTest Integration"
-                    url: /katalon-studio/docs/enable-qtest-integration.html
-                  - title: "Integrate test case"
-                    url: /katalon-studio/docs/integrate-test-case.html
-                  - title: "Integrate test suite"
-                    url: /katalon-studio/docs/integrate-test-suite.html
-                  - title: "Upload test execution"
-                    url: /katalon-studio/docs/upload-test-execution.html
-              - title: "TestRail integration"
-                url: /katalon-studio/docs/katalon-testrail-integration.html 
-          - title: "Other Integrations"
+              - title: "Enable Kobiton Integration"
+                url: /katalon-studio/docs/enable-kobiton-integration.html
+              - title: "Mobile Testing with Kobiton Devices"
+                url: /katalon-studio/docs/integrate_with_kobiton.html
+              - title: "Desired Capabilities for Kobiton Devices"
+                url: /katalon-studio/docs/desired-capabilities-for-kobiton-devices.html
+          - title: "Sauce Labs Integration"
+            url: /katalon-studio/docs/saucelabs-plugin.html
+          - title: "BrowserStack Integration"
+            url: /katalon-studio/docs/browserstack-integration.html      
+          - title: "LambdaTest Integration"
+            url: /katalon-studio/docs/lambdatest-integration.html
+          - title: "JMeter Integration "
+            url: /katalon-studio/docs/jmeter-integration.html
+          - title: "Applitools Integration"
+            url: /katalon-studio/docs/applitools-integration.html
+          - title: "Rally Integration"
+            url: /katalon-studio/docs/rally-integration.html
+          - title: "qTest Integration"
+            id: "qtest-integration"
             tree:
-              - title: "Kobiton Integration"
-                tree:
-                  - title: "Enable Kobiton Integration"
-                    url: /katalon-studio/docs/enable-kobiton-integration.html
-                  - title: "Mobile Testing with Kobiton Devices"
-                    url: /katalon-studio/docs/integrate_with_kobiton.html
-                  - title: "Desired Capabilities for Kobiton Devices"
-                    url: /katalon-studio/docs/desired-capabilities-for-kobiton-devices.html
-              - title: "BrowserStack Integration"
-                url: /katalon-studio/docs/browserstack-integration.html      
-              - title: "SauceLabs Integration"
-                url: /katalon-studio/docs/saucelabs-integration.html
-              - title: "LambdaTest Integration"
-                url: /katalon-studio/docs/lambdatest-integration.html
-              - title: "JMeter Integration "
-                url: /katalon-studio/docs/jmeter-integration.html
+              - title: "Enable qTest Integration"
+                url: /katalon-studio/docs/enable-qtest-integration.html
+              - title: "Integrate test case"
+                url: /katalon-studio/docs/integrate-test-case.html
+              - title: "Integrate test suite"
+                url: /katalon-studio/docs/integrate-test-suite.html
+              - title: "Upload test execution"
+                url: /katalon-studio/docs/upload-test-execution.html
+          - title: "TestRail Integration"
+            url: /katalon-studio/docs/testrail-integration.html
+          - title: "TestLink Integration"
+            url: /katalon-studio/docs/testlink-integration.html
       - title: "Katalon Studio Plugins"
         tree:
           - title: "Integration Plugins"
             url: /katalon-studio/docs/integration-plugins.html
-          - title: "Jira Integration"
-            url: /katalon-studio/docs/jira-plugin-integration.html
-          - title: "Slack Integration"
-            url: /katalon-studio/docs/slack-plugin-integration.html
           - title: "Auto-healing Smart XPath"
             url: /katalon-studio/docs/auto-healing-smart-xpath.html
-          - title: "TestRail Integration"
-            url: /katalon-studio/docs/testrail-integration.html
           - title: "Test Case Management With Tags"
             url: /katalon-studio/docs/test-case-management-with-tags.html
           - title: "Basic Search For Dynamic Test Suite"
             url: /katalon-studio/docs/basic-search-for-dynamic-querying-test-suite.html
-          - title: "Applitools Integration"
-            url: /katalon-studio/docs/applitools-integration.html
-          - title: "Basic Report"
-            url: /katalon-studio/docs/basic-report.html
           - title: "Test Suite Collection Scheduler"
             url: /katalon-studio/docs/test-suite-collection-scheduler.html
-          - title: "TestLink Integration"
-            url: /katalon-studio/docs/testlink-integration.html
-          - title: "Sauce Labs Integration"
-            url: /katalon-studio/docs/saucelabs-plugin.html
-          - title: "Rally Integration"
-            url: /katalon-studio/docs/rally-integration.html
           - title: "Private Plugins"
             url: /katalon-studio/docs/private-plugins.html
           - title: "Use Plugins Offline"
@@ -1258,6 +1098,8 @@ items:
             url: /katalon-analytics/docs/overview.html
           - title: "Getting Started"
             url: /katalon-analytics/docs/getting-started.html
+          - title: "Set up Organization, Team and Project"
+            url: /katalon-analytics/docs/setup-org-team-project.html
           - title: "Glossary"
             url: /katalon-analytics/docs/ka-glossary.html
           - title: "API Keys"
@@ -1315,13 +1157,7 @@ items:
           - title: "Working with Jira Releases"
             url: /katalon-analytics/docs/kt-jira-release.html
       - title: "Katalon TestOps OnPremise"
-        tree:
-          - title: "Overview"
-            url: /katalon-analytics/docs/ktop-overview.html
-          - title: "Install and Setup"
-            url: /katalon-analytics/docs/kt-op-installation.html
-          - title: "Configure Mail Server"
-            url: /katalon-analytics/docs/kt-op-mail-server.html
+        url: /katalon-analytics/docs/ktop.html
   - title: "Katalon Recorder"
     tree:
       - title: "Overview"
