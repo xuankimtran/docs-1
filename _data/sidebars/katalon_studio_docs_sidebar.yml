@@ -904,16 +904,7 @@ items:
           - title: "Rally Integration"
             url: /katalon-studio/docs/rally-integration.html
           - title: "qTest Integration"
-            id: "qtest-integration"
-            tree:
-              - title: "Enable qTest Integration"
-                url: /katalon-studio/docs/enable-qtest-integration.html
-              - title: "Integrate test case"
-                url: /katalon-studio/docs/integrate-test-case.html
-              - title: "Integrate test suite"
-                url: /katalon-studio/docs/integrate-test-suite.html
-              - title: "Upload test execution"
-                url: /katalon-studio/docs/upload-test-execution.html
+            url: /katalon-studio/docs/qtest-integration.html
           - title: "TestRail Integration"
             url: /katalon-studio/docs/testrail-integration.html
           - title: "TestLink Integration"
