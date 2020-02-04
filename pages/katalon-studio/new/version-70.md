@@ -15,15 +15,17 @@ redirect_from:
 description: Release note 7.x
 ---
 
-## Version 7.2.2 - 7.2.3
-
-### New Features
-
-- Allow activating Katalon Studio with Katalon TestOps OnPremise Server's licenses
+## Version 7.2.3
 
 ### Fixes
 
 - Bug: Cannot send SOAP Request due to failure in parsing WSDL definition
+
+## Version 7.2.2
+
+### New Features
+
+- Allow activating Katalon Studio with Katalon TestOps OnPremise Server's licenses
 
 ## Version 7.2.0 - 7.2.1
 
