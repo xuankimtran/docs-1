@@ -25,7 +25,14 @@ You have to define a Grid Plan on TestOps before assigning the Plan to Jenkins t
    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/jenkins-ka-integration/2-Execute-TestOps_Plan.png)
 
 4. Enter **Server URL** of Katalon TestOps.
-5. Select one of the existing credentials to connect to Katalon TestOps Server. Or you can add new ones by selecting **Add**. In the **Add Credentials** dialog, enter required information and click **Add**. Please remember to select **Secret Text** in the **Kind** dropdown.
+5. Select one of the existing credentials to connect to Katalon TestOps Server. Or you can add new ones by selecting **Add**.    
+   In the **Add Credentials** dialog:
+   
+   * Enter required information 
+   * Select **Secret Text** in the **Kind** dropdown
+   * In the **Secret** field, copy and paste the API Key
+   * In the **ID** field, we recommend to give a meaningful ID
+   * Click **Add**
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/jenkins-ka-integration/secret-text.png" width="" height="">
 
