@@ -14,6 +14,7 @@ redirect_from:
     - "/katalon-studio/docs/update-or-replace-web-browser-drivers-and-selenium/"
     - "/katalon-studio/docs/update-or-replace-web-browser-drivers-and-selenium.html"
     - "/katalon-studio/docs/webdriver-event-listeners.html"
+    - "/katalon-studio/docs/automatically-update-webdriver.html"
 ---
 
 > Starting from **Katalon Studio version 7.0**, you can terminate WebDriver processes or update WebDrivers including Chrome, FireFox and Internet Explorer Drivers.
