@@ -17,7 +17,7 @@ redirect_from:
     - "/x/gQ1O/"
     - "/katalon-studio/docs/network-settings/"
     - "/katalon-studio/docs/network-settings.html"
-description: 
+description:
 ---
 
 ## Execution Settings
@@ -25,6 +25,64 @@ description:
 Execution settings help users to set preferred behaviors for Katalon Studio during test execution. You can configure general execution preferences by accessing from the main menu: **Project > Settings > Execution**.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/execution-settings.png" width="" height="">
+
+### Allow editing JVM parameters in Execution Settings
+
+> Starting in version 7.2.4, Katalon Studio Enterprise users can edit VM arguments in Execution Settings.
+
+VM Arguments entered in **Executions Settings** of a project change the behaviour of a Java process of each execution. Currently, Katalon Studio does not support VM arguments' values containing space.
+
+Below is a list of most used JVM Parameters:
+
+* Explicit Heap Memory – Xms and Xmx Options
+
+```groovy
+-Xms<heap size>[unit]
+-Xmx<heap size>[unit]
+-XX:MaxMetaspaceSize=<metaspace size>[unit]
+```
+
+* Garbage Collection
+
+```groovy
+-XX:+UseSerialGC
+-XX:+UseParallelGC
+-XX:+USeParNewGC
+-XX:+UseG1GC
+```
+
+* GC Logging
+
+```groovy
+-XX:+UseGCLogFileRotation
+-XX:NumberOfGCLogFiles=< number of log files >
+-XX:GCLogFileSize=< file size >[ unit ]
+-Xloggc:/path/to/gc.log
+```
+
+* Handling Out of Memory
+
+```groovy
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:HeapDumpPath=./java_pid<pid>.hprof
+-XX:OnOutOfMemoryError="< cmd args >;< cmd args >"
+-XX:+UseGCOverheadLimit
+```
+
+Go to **Project > Settings > Execution > Launch Arguments**. In the **VM Arguments** tab, enter your arguments.
+
+Below is an example:
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/settings.png" width="" height="">
+
+To make sure if the configuration works, please add this simple test case:
+
+```groovy
+import com.kms.katalon.core.util.KeywordUtil
+KeywordUtil.logInfo(System.getProperty("testme"))
+```
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/hello.png" width="" height="">
 
 ### Default Execution Settings
 
