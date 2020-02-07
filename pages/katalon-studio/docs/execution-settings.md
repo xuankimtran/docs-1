@@ -30,44 +30,34 @@ Execution settings help users to set preferred behaviors for Katalon Studio duri
 
 > Starting in version 7.2.4, Katalon Studio Enterprise users can edit VM arguments in Execution Settings.
 
-VM Arguments entered in **Executions Settings** of a project change the behaviour of a Java process of each execution. Currently, Katalon Studio does not support VM arguments' values containing space.
+VM Arguments entered in **Executions Settings** of a project change the behaviour of a Java process of each execution. Currently, Katalon Studio does not support VM arguments' values containing space. Below is a list of most used JVM Parameters:
 
-Below is a list of most used JVM Parameters:
+Specify minimal and maximal heap sizes
 
-* Explicit Heap Memory – Xms and Xmx Options
+* `-Xms<heap size>[unit]`
+* `-Xmx<heap size>[unit]`
+* `-XX:MaxMetaspaceSize=<metaspace size>[unit]`
 
-```groovy
--Xms<heap size>[unit]
--Xmx<heap size>[unit]
--XX:MaxMetaspaceSize=<metaspace size>[unit]
-```
+Garbage Collection implementation types
 
-* Garbage Collection
+* Serial Garbage Collector: `-XX:+UseSerialGC`
+* Parallel Garbage Collector: `-XX:+UseParallelGC`
+* CMS Garbage Collector: `-XX:+USeParNewGC`
+* G1 Garbage Collector: `-XX:+UseG1GC`
 
-```groovy
--XX:+UseSerialGC
--XX:+UseParallelGC
--XX:+USeParNewGC
--XX:+UseG1GC
-```
+Garbage Collection Logging
 
-* GC Logging
+* Specify the log file rolling policy: `-XX:+UseGCLogFileRotation`
+* Denote the max number of log files that can be written for a single application life cycle: `-XX:NumberOfGCLogFiles=< number of log files >`
+* Specify the max size of the file: `-XX:GCLogFileSize=< file size >[ unit ]`
+* Denote the file's location: `-Xloggc:/path/to/gc.log`
 
-```groovy
--XX:+UseGCLogFileRotation
--XX:NumberOfGCLogFiles=< number of log files >
--XX:GCLogFileSize=< file size >[ unit ]
--Xloggc:/path/to/gc.log
-```
+Handling Out of Memory
 
-* Handling Out of Memory
-
-```groovy
--XX:+HeapDumpOnOutOfMemoryError
--XX:HeapDumpPath=./java_pid<pid>.hprof
--XX:OnOutOfMemoryError="< cmd args >;< cmd args >"
--XX:+UseGCOverheadLimit
-```
+* Dump heap into physical file in case of OutOfMemoryError: `-XX:+HeapDumpOnOutOfMemoryError`
+* Denote the path where the file is to be written: `-XX:HeapDumpPath=./java_pid<pid>.hprof`
+* Issue emergency commands to be executed in case of out of memory error: `-XX:OnOutOfMemoryError="< cmd args >;< cmd args >"`
+* Limits the proportion of the VM's time that is spent in GC before an OutOfMemory error is thrown: `-XX:+UseGCOverheadLimit`
 
 Go to **Project > Settings > Execution > Launch Arguments**. In the **VM Arguments** tab, enter your arguments.
 
