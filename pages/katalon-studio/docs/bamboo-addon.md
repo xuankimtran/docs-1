@@ -52,7 +52,7 @@ Once you have installed the plugin, you will need to configure **Execute Katalon
 
     * **Command Arguments**: you can enter the arguments directly in the text area or copy and paste the generated command from Katalon Studio.
 
-      > Please remove any irrelevant argument such as `-runmode`.
+      > Please remove any irrelevant argument such as `-runmode`. See [Command Arguments in Common Configuration](https://docs.katalon.com/katalon-studio/docs/common-configuration.html#command-arguments) for more details.
 
       ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/bamboo-integration/command.png)
 
