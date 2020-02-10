@@ -46,9 +46,9 @@ Once you have installed the plugin, you will need to configure **Execute Katalon
 
 3. Configure the **Execute Katalon Studio Tests** task and click **Save** to create it.
     
-    * **Download Katalon version**: Specify the Katalon version that is downloaded automatically to execute the tests. Or
+    * **Download Katalon version**: Specify the Katalon Studio (prior to 7.0) or Katalon Runtime Engine (7.0+) that is downloaded automatically to execute the tests. Or
 
-    * **Use pre-installed Katalon Studio**: Provide a link to the Katalon Studio app that has been already installed.
+    * **Use pre-installed Katalon Studio**: Provide a link to Katalon Studio (prior to 7.0) or Katalon Runtime Engine (7.0+) app that has been already installed.
 
     * **Command Arguments**: you can enter the arguments directly in the text area or copy and paste the generated command from Katalon Studio.
 
