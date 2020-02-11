@@ -15,6 +15,20 @@ redirect_from:
 description: Release note 7.x
 ---
 
+## Version 7.2.5
+
+### New Features
+
+* Support configuring Content Type in HTTP Header separately from HTTP Body. [Learn more](https://docs.katalon.com/katalon-studio/docs/restful.html).
+
+### Improvements
+
+* Enhance Smart Wait's performance during test executions.
+
+### Fixes
+
+* Bug: An issue related to a failure of Swagger's importing multiple requests without operationId.
+
 ## Version 7.2.4
 
 You can download Katalon Studio version 7.2.4 [here](https://github.com/katalon-studio/katalon-studio/releases).
