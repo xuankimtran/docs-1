@@ -29,14 +29,14 @@ https://petstore.swagger.io/v2/pet/findByStatus?status=${status}
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/restful-web-services/Screen-Shot-2018-09-20-at-4.44.23-PM.png)
 
-* **Request method**: The request method indicates the expected action to be executed on the specified resource. Katalon Studio supports following methods for REST services: **GET, POST, PUT, DELETE, PATCH (Available from version 5.8)**. You can refer to more details and specifications of each method [here](https://restfulapi.net/http-methods/).
+* **Request method**: The request method indicates the expected action to be executed on the specified resource. Katalon Studio supports the following methods for REST services: **GET, POST, PUT, DELETE, PATCH (Available from version 5.8)**. You can refer to more details and specifications of each method [here](https://restfulapi.net/http-methods/).
 * **Request URL**: The URL registered for the RESTful web services
 * **Parameters**: Any parameter to be passed along with the RESTful request object. These values are generated automatically based on the Request URL or can be manually added. Starting from version 7.0, Katalon Studio encodes special characters in query parameters before sending requests.
 * **Authorization**: Credentials for HTTP authentication.\
    Type: **Basic**, **OAuth 1.0**, or **No Authorization**
 * **HTTP Headers**: The header information to be included to transmit in the RESTful request object. By default, the **Content-Type** value is generated automatically based on the HTTP Body. You can also select headers from the list of suggested options (by double-clicking on the **Name** cell) or enter another header of your interest. Refer to [Supported HTTP Headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers) for more details.
 
-   Starting from version 7.2.5, Katalon Studio supports disabling specifying content type of HTTP Header based on HTTP Body automatically. This allows users to configure content types for HTTP Header and Body separately.
+   Starting from version 7.2.5, Katalon Studio supports disabling specifying the content type of HTTP Header based on HTTP Body automatically. This allows users to configure content types for HTTP Header and Body separately.
    
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/restful/auto-update.png" width="" height="">
 
@@ -58,13 +58,13 @@ https://petstore.swagger.io/v2/pet/findByStatus?status=${status}
 
 ## RESTful Response
 
-Since version 5.4, Katalon Studio provides Web Services Response in a separate window pane, which contains more details information of the Request as shown below.
+Since version 5.4, Katalon Studio provides Web Services Response in a separate windowpane, which contains more details information of the request as shown below.
 
 ### Body
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/restful-web-services/image2018-9-5-143A253A46.png)
 
-There are 3 new information provided in the response's section:
+There are 3 fields provided in the response's section:
 
 * **Status**: The status code of the response
 * **Elapsed**: The total time that starts from the request is sent until Katalon Studio receives the last byte of the response
@@ -78,7 +78,7 @@ The **Response** can be displayed in **multiple ways**:
 * **raw**: Response is displayed in the raw text without any format
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/restful-web-services/image2018-9-5-143A253A6.png">
 
-* **preview**: Response is displayed as visualized (e.g. If a Response is from loading a specific webpage, it is displayed as the screenshot below)
+* **preview**: Response is displayed as visualized (e.g., If a Response is from loading a specific webpage, it is displayed as the screenshot below)
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/restful-web-services/image2018-4-1-19_10_26.png">
 
 At the bottom of the **Body** section, different types of Response format can be selected as desired:
