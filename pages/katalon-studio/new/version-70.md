@@ -15,17 +15,25 @@ redirect_from:
 description: Release note 7.x
 ---
 
+## Version 7.2.4
+
+You can download Katalon Studio version 7.2.4 [here](https://github.com/katalon-studio/katalon-studio/releases).
+
+### New Features
+
+* Support editing JVM parameters in Execution Settings. [Learn more](https://docs.katalon.com/katalon-studio/docs/execution-settings.html#execution-settings).
+
 ## Version 7.2.3
 
 ### Fixes
 
-- Bug: Cannot send SOAP Request due to failure in parsing WSDL definition
+* Bug: Cannot send SOAP Request due to failure in parsing WSDL definition
 
 ## Version 7.2.2
 
 ### New Features
 
-- [Web Testing] Support image-based object recognition. [Learn more](https://docs.katalon.com/katalon-studio/docs/manage-web-test-object.html#visual-object-recognition).
+- [Web Testing] Support image-based object recognition. [Learn more](https://docs.katalon.com/katalon-studio/docs/manage-web-test-object.html#visual-object-recognition)
 - Allow activating Katalon Studio with Katalon TestOps OnPremise Server's licenses
 
 ## Version 7.2.0 - 7.2.1
