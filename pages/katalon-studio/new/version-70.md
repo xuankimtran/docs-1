@@ -25,6 +25,7 @@ description: Release note 7.x
 
 ### New Features
 
+- [Web Testing] Support image-based object recognition. [Learn more](https://docs.katalon.com/katalon-studio/docs/manage-web-test-object.html#visual-object-recognition).
 - Allow activating Katalon Studio with Katalon TestOps OnPremise Server's licenses
 
 ## Version 7.2.0 - 7.2.1

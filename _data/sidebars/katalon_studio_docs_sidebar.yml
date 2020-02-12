@@ -231,6 +231,8 @@ items:
                 url: /katalon-studio/docs/handle-webdrivers.html
               - title: "Testing Web App on Mobile Browsers"
                 url: /katalon-studio/docs/running_application_mobile_browsers.html
+              - title: "Image-based Testing Tutorial"
+                url: /katalon-studio/docs/web-image-based-object-recognition.html
           - title: "Mobile Test Design"
             tree:
               - title: "An Introduction to Katalon Mobile Recorder"
