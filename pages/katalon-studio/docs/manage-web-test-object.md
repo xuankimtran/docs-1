@@ -473,7 +473,7 @@ In Test Explorer, under the **Screenshots** folder, you can see the **Matched El
 
 ### Factors Affecting Image Comparison
 
-**Screen Resolution**: It is of importance that the screen resolutions of tests executing machines and objects recording/spying machines may create a discrepancy in images' size and resolution. Please check the remote machines' specifications to make sure.
+**Screen Resolution**: The screen resolutions of tests executing machines and screenshots capturing machines may affect the effectiveness of image comparison. We recommende capture screenshots and execute tests on the same machine for a better result.
 
 **Capture Tool**: To capture screenshots associated with your preferred web elements, we recommend using the built-in screen-capturing feature in Web Recorder and Spy Tools. Particularly, on the expanded view after clicking **Show Captured Objects**, select the **Add Screenshot** button on the bottom right corner.
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/recorder.png" width="" height="">

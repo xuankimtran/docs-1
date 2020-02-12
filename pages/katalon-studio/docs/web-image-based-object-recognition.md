@@ -27,15 +27,12 @@ Below is how to capture an image of the desired Web object for image-based objec
 * The screenshot is added to the **Targets** folder. By default, the **Screenshots/Targets** folder is created in the current project to store the screenshots of the web elements.
 * A property called **screenshot** containing the absolute path to the taken screenshot is added to the corresponding Test Object.
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/property.png" width="" height="">
-   > Remember to enable **Detect object by?** in the **screenshot** property.
 
 ## Use other tools
 
 We recommend capturing screenshots by Web Recorder/Spy Tool since it takes care of resizing screenshots to the displaying sizes of the web elements. If you capture a screen by other tools, you have to resize the images manually. Image size does affect the image comparison.
 
-* Add the screenshots to the **Screenshots/Targets** folder
-* Declare a **screenshot** property of a Test Object manually in its **Object Details** view to point it to its image
-* Check the **Detect object by?** option in the **screenshot** property
+Remember to add a **screenshot** property of a Test Object manually in its **Object Details** view to point it to its image.
 
 **See also**:
 
