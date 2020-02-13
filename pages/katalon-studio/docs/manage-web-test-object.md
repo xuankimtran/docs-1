@@ -460,7 +460,7 @@ The ingredients required for this feature include:
 
 There are two ways to create the required ingredients:
 
-* [Using the built-in feature in Web Recorder and Spy](https://docs.katalon.com//katalon-studio/docs/web-image-based-object-recognition.html#use-built-in-tool)
+* [Using the built-in feature in Web Recorder and Spy](https://docs.katalon.com/katalon-studio/docs/web-image-based-object-recognition.html#use-built-in-tool)
 * [Using a manual way](https://docs.katalon.com/katalon-studio/docs/web-image-based-object-recognition.html#use-other-tools)
 
 In Test Explorer, under the **Screenshots** folder, you can see the **Matched Elements** and **Targets** folders.
