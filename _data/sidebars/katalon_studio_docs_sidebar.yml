@@ -987,6 +987,8 @@ items:
             url: /katalon-studio/docs/optimizing-object-identification-and-tools.html
           - title: "Override desired capabilities at runtime"
             url: /katalon-studio/docs/override-desired-capabilities-at-runtime.html
+          - title: "Reduce Execution Time in Mobile Testing"
+            url: /katalon-studio/docs/mobile-reduce-execution-time.html
           - title: "Retrieve OS, browser and screen resolution of the machine perfoming tests"
             url: /katalon-studio/docs/retrieve-os-browser-and-screen-resolution-of-the-machine-perfoming-tests.html
           - title: "Retrieve chromedriver.log and firefoxdriver.log when you run Record/Spy"
