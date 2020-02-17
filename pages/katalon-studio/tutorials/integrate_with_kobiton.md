@@ -5,7 +5,153 @@ permalink: katalon-studio/docs/integrate_with_kobiton.html
 description: "Using Katalon Studio, you can easily execute automated tests on Kobiton’s devices, thanks to the built-in integration feature supported by Katalon Studio."
 redirect_from:
     - "/katalon-studio/tutorials/integrate_with_kobiton.html"
+    - "/katalon-studio/docs/desired-capabilities-for-kobiton-devices.html"
+    - "/display/KD/Desired+Capabilities+for+Kobiton+Devices/"
+    - "/display/KD/Desired%20Capabilities%20for%20Kobiton%20Devices/"
+    - "/x/DQrR/"
+    - "/katalon-studio/docs/desired-capabilities-for-kobiton-devices/"
+    - "/display/KD/Desired+capabilities+for+Kobiton+devices/"
+    - "/katalon-studio/docs/use-additional-desired-capabilities-for-kobiton-devices.html/"
+    - "/katalon-studio/docs/enable-kobiton-integration.html"
+    - "/display/KD/Enable+Kobiton+Integration/"
+    - "/display/KD/Enable%20Kobiton%20Integration/"
+    - "/display/KD/Kobiton+Integration/"
+    - "/display/KD/Kobiton%20Integration/"
+    - "/x/7IEw/"
+    - "/katalon-studio/docs/enable-kobiton-integration/"
 ---
+
+## Enable Kobiton Integration
+
+Kobiton is a powerful mobile device platform that offers real mobile devices for both testers and developers. Using Katalon Studio, you can easily execute automated tests on Kobiton's devices.
+
+First you need to install the [Kobiton Integration](https://store.katalon.com/product/137/Kobiton-Integration) plugin. After installing the plugin, open Katalon Studio > your Account > [Reload Plugins](https://docs.katalon.com/katalon-store/docs/user/access-store-in-KS.html#reload-plugins).
+
+1. Open Kobiton integration settings from the main menu:
+
+* Windows: **Windows > Katalon Studio Preferences > Katalon > Kobiton**.
+* macOS: **Katalon Studio > Preferences > Katalon > Kobiton**.
+
+    Check on the **Enable Kobiton Integration** checkbox.
+
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-kobiton-integration/image2017-6-29-163A533A33.png)
+
+2. Enter your Kobiton account in the **Authentication** form and click **Connect**. Katalon Studio will retrieve information for Kobiton integration automatically.
+
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-kobiton-integration/image2017-6-29-163A543A3.png)
+
+    where:
+
+* **Kobiton Server**: The Kobiton server to be integrated with Katalon Studio.
+* **API Key**: The token to be used by Katalon Studio when exchanging API messages with Kobiton server. You can generate more keys in [Kobiton API Settings](https://portal.kobiton.com/settings/keys).
+
+3. Click **Apply** and then **OK** when you are done with the settings.
+
+## Desired Capabilities for Kobiton Devices
+
+> **Prerequisites**
+>
+> Kobiton integration is enabled, and you have adjusted your existing test scripts accordingly. Refer to this [guide](/display/KD/Mobile+Testing+with+Kobiton+Devices) for more details.
+
+There will be cases you want to use additional desired capabilities for Kobiton devices, such as using the `appWaitActivity` capability to troubleshoot an issue related to starting an application (check it out [here](/display/KD/Troubleshooting+automated+mobile+testing)). The tips below can help you to overcome this issue.
+
+1. [Grab desired capabilities](https://docs.kobiton.com/automation-testing/automation-testing-with-kobiton/) generated from the Kobiton portal of the device you want to use and paste it to your test script.  
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-kobiton-devices/Screen-Shot-2018-07-05-at-11.40.52.png)  
+
+2. Insert '**app**' capability and pass in Kobiton application id for your device, e.g.,
+
+    ```groovy
+    String kobitonServerUrl = "https://katalon-integration:xxxxxxxxxxxxxxxxxxx@api.kobiton.com/wd/hub";
+    DesiredCapabilities capabilities = new DesiredCapabilities();
+    capabilities.setCapability("sessionName", "Automation test session");
+    capabilities.setCapability("sessionDescription", ""); 
+    capabilities.setCapability("deviceOrientation", "portrait");  
+    capabilities.setCapability("captureScreenshots", true); 
+    capabilities.setCapability("browserName", "chrome"); 
+    capabilities.setCapability("deviceGroup", "KOBITON"); 
+    capabilities.setCapability("deviceName", "Galaxy J3(2016)");
+    capabilities.setCapability("platformVersion", "6.0.1");
+    capabilities.setCapability("platformName", "Android"); 
+    capabilities.setCapability('app', 'kobiton-store:10717');
+    ```
+
+    3\. **Replace** 'Start Application' keyword with these lines. These codes will establish a connection to selected Kobiton's device and also create a driver to be used for other built-in keywords. Thus, you don't have to rewrite the whole test script again.
+
+    ```groovy
+    import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+    import org.openqa.selenium.remote.DesiredCapabilities
+    import com.kms.katalon.core.appium.driver.AppiumDriverManager
+    import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+    import com.kms.katalon.core.mobile.driver.MobileDriverType
+    import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+    import com.kms.katalon.core.util.internal.PathUtil as PathUtil
+    import internal.GlobalVariable as GlobalVariable
+    import io.appium.java_client.android.AndroidDriver
+    
+    //Mobile.startApplication('kobiton-store:10717', false)
+    String kobitonServerUrl = "https://katalon-integration:xxxxxxxxxxxxxxx@api.kobiton.com/wd/hub";
+    DesiredCapabilities capabilities = new DesiredCapabilities();
+    capabilities.setCapability("sessionName", "Automation test session");
+    capabilities.setCapability("sessionDescription", ""); 
+    capabilities.setCapability("deviceOrientation", "portrait");  
+    capabilities.setCapability("captureScreenshots", true); 
+    capabilities.setCapability("browserName", "chrome"); 
+    capabilities.setCapability("deviceGroup", "KOBITON"); 
+    capabilities.setCapability("deviceName", "Galaxy J3(2016)");
+    capabilities.setCapability("platformVersion", "6.0.1");
+    capabilities.setCapability("platformName", "Android"); 
+    capabilities.setCapability('app', 'kobiton-store:10717')
+    
+    AppiumDriverManager.createMobileDriver(MobileDriverType.ANDROID_DRIVER, capabilities, new URL(kobitonServerUrl))
+    ```
+
+    _If you use an iOS device, then please change MobileDriverType.ANDROID\_DRIVER to MobileDriverType.IOS\_DRIVER._  
+      
+    Now you've finished adjusting the 'Start Application' keyword. Here is the complete code:
+    
+    ```groovy
+    import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+    import org.openqa.selenium.remote.DesiredCapabilities
+    import com.kms.katalon.core.appium.driver.AppiumDriverManager
+    import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+    import com.kms.katalon.core.mobile.driver.MobileDriverType
+    import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+    import com.kms.katalon.core.util.internal.PathUtil as PathUtil
+    import internal.GlobalVariable as GlobalVariable
+    import io.appium.java_client.android.AndroidDriver
+    
+    'Instead of using Start Application keyword, we use the below code to create a similar driver so that other Mobile built-in keywords can re-use this driver.'
+    String kobitonServerUrl = "https://katalon-integration:xxxxxxxxx@api.kobiton.com/wd/hub";
+    DesiredCapabilities capabilities = new DesiredCapabilities();
+    capabilities.setCapability("sessionName", "Automation test session");
+    capabilities.setCapability("sessionDescription", ""); 
+    capabilities.setCapability("deviceOrientation", "portrait");  
+    capabilities.setCapability("captureScreenshots", true); 
+    capabilities.setCapability("browserName", "chrome"); 
+    capabilities.setCapability("deviceGroup", "KOBITON"); 
+    capabilities.setCapability("deviceName", "Galaxy J3(2016)");
+    capabilities.setCapability("platformVersion", "6.0.1");
+    capabilities.setCapability("platformName", "Android"); 
+    capabilities.setCapability('app', 'kobiton-store:10717')
+    AppiumDriverManager.createMobileDriver(MobileDriverType.ANDROID_DRIVER, capabilities, new URL(kobitonServerUrl))
+    
+    Mobile.tap(findTestObject('Application/android.widget.TextView - App'), 10)
+    
+    Mobile.tap(findTestObject('Application/App/android.widget.TextView-Activity'), 10)
+    
+    Mobile.tap(findTestObject('Application/App/Activity/android.widget.TextView-Custom Dialog'), 10)
+    
+    'Get displayed message on the dialog'
+    def message = Mobile.getText(findTestObject('Application/App/Activity/Custom Dialog/android.widget.TextViewCustomDialog'), 
+        10)
+    
+    Mobile.comment('Then the correct dialog message should be displayed')
+    
+    Mobile.verifyEqual(message, 'Example of how you can use a custom Theme.Dialog theme to make an activity that looks like a customized dialog, here with an ugly frame.')
+    
+    Mobile.closeApplication()
+    ```
+## Mobile Testing with Kobiton Devices
 
 You need to install the Kobiton Integration plugin and enable the integration. If you haven't configured the integration yet, please refer to [this document](https://docs.katalon.com/katalon-studio/docs/enable-kobiton-integration.html) for instructions.
 
