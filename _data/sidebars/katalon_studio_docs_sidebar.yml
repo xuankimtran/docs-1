@@ -886,13 +886,7 @@ items:
           - title: "Slack Integration"
             url: /katalon-studio/docs/slack-plugin-integration.html
           - title: "Kobiton Integration"
-            tree:
-              - title: "Enable Kobiton Integration"
-                url: /katalon-studio/docs/enable-kobiton-integration.html
-              - title: "Mobile Testing with Kobiton Devices"
-                url: /katalon-studio/docs/integrate_with_kobiton.html
-              - title: "Desired Capabilities for Kobiton Devices"
-                url: /katalon-studio/docs/desired-capabilities-for-kobiton-devices.html
+            url: /katalon-studio/docs/integrate_with_kobiton.html
           - title: "Sauce Labs Integration"
             url: /katalon-studio/docs/saucelabs-plugin.html
           - title: "BrowserStack Integration"
