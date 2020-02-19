@@ -10,6 +10,10 @@ redirect_from:
 description: 
 ---
 
+4.1.0
+
+*   Added relative=top and relative=up to selectFrame (@svrnm).
+
 4.0.0
 
 *   Added dark-theme (by @pgroot91).
