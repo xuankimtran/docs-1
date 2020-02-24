@@ -231,6 +231,8 @@ items:
                 url: /katalon-studio/docs/handle-webdrivers.html
               - title: "Testing Web App on Mobile Browsers"
                 url: /katalon-studio/docs/running_application_mobile_browsers.html
+              - title: "Image-based Testing Tutorial"
+                url: /katalon-studio/docs/web-image-based-object-recognition.html
           - title: "Mobile Test Design"
             tree:
               - title: "An Introduction to Katalon Mobile Recorder"
@@ -884,13 +886,7 @@ items:
           - title: "Slack Integration"
             url: /katalon-studio/docs/slack-plugin-integration.html
           - title: "Kobiton Integration"
-            tree:
-              - title: "Enable Kobiton Integration"
-                url: /katalon-studio/docs/enable-kobiton-integration.html
-              - title: "Mobile Testing with Kobiton Devices"
-                url: /katalon-studio/docs/integrate_with_kobiton.html
-              - title: "Desired Capabilities for Kobiton Devices"
-                url: /katalon-studio/docs/desired-capabilities-for-kobiton-devices.html
+            url: /katalon-studio/docs/integrate_with_kobiton.html
           - title: "Sauce Labs Integration"
             url: /katalon-studio/docs/saucelabs-plugin.html
           - title: "BrowserStack Integration"
@@ -985,6 +981,8 @@ items:
             url: /katalon-studio/docs/optimizing-object-identification-and-tools.html
           - title: "Override desired capabilities at runtime"
             url: /katalon-studio/docs/override-desired-capabilities-at-runtime.html
+          - title: "Reduce Execution Time in Mobile Testing"
+            url: /katalon-studio/docs/mobile-reduce-execution-time.html
           - title: "Retrieve OS, browser and screen resolution of the machine perfoming tests"
             url: /katalon-studio/docs/retrieve-os-browser-and-screen-resolution-of-the-machine-perfoming-tests.html
           - title: "Retrieve chromedriver.log and firefoxdriver.log when you run Record/Spy"
