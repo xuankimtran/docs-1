@@ -6,7 +6,7 @@ description: To show instrcutions of how to install and setup Azure DevOps exten
 ---
 This tutorial shows you the step by step guide on how to install and run Katalon for Azure DevOps for Web UI testing.
 
-> You need to have Katalon Studio version 7.0.0 or later to use Azure DevOps extension.
+> You need to have **Katalon Studio version 7.0.0** or later to use Azure DevOps extension.
 
 > This extension is NOT available for Linux.
 
