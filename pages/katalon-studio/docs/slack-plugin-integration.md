@@ -2,7 +2,12 @@
 title: "Slack Integration Plugin" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/slack-plugin-integration.html
-
+redirect_from:
+    - "/katalon-studio/docs/slack-integration.html"
+    - "/display/KD/Slack+Integration/"
+    - "/display/KD/Slack%20Integration/"
+    - "/x/boUw/"
+    - "/katalon-studio/docs/slack-integration/"
 description: 
 ---
 ### Configure Slack plugin   

@@ -60,7 +60,7 @@ The **Response** can be displayed in **multiple ways**
 
 
 
-At the bottom of the** Body** section, different types of Response format can be selected as desired
+At the bottom of the **Body** section, different types of Response format can be selected as desired
 
 *   JSON
 *   XML
