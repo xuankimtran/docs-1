@@ -25,6 +25,7 @@ You can download Katalon Studio version 7.2.5 [here](https://github.com/katalon-
 
 ### Improvements
 
+* Allow customizing Kobiton Server URL in Preferences.
 * Enhance Smart Wait's performance during test executions.
 
 ### Fixes
