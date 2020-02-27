@@ -9,6 +9,36 @@ redirect_from:
     - "/katalon-recorder/docs/release-notes/"
 description: 
 ---
+
+4.1.0
+
+*   Added relative=top and relative=up to selectFrame (@svrnm).
+
+4.0.0
+
+*   Added dark-theme (by @pgroot91).
+
+3.9.x
+
+*   Enhanced the Robot Framework formatter (by @reyelts).
+*   Fixed an issue where test suite file is malformed (by @UpUpDwnDwnLftRt).
+*   Allowed to use variables in command names (by @zoldike-gh).
+*   Added "Close All Test Suites" feature (by @UpUpDwnDwnLftRt).
+*   Used the extension `.html` for saved files (by @olenitsj).
+
+3.8.x
+
+*   Added the Protractor formatter (TypeScript) (by @MilesLin).
+
+3.7.x
+
+*   Added the New Relic Synthetics formatter (JavaScript) (by @tanben).
+
+3.6.x
+
+*   Enhanced the underlying automation engine and the integration with Katalon Studio.
+
+
 3.5.7
 
 *   Supported "loadVars" for JSON-format data files.
@@ -52,82 +82,56 @@ description:
 3.4.0 - 3.4.6
 
 *   Supported plugins for export recorded Test Cases to other formats.
-    
 *   Fixed bugs.
-    
 
 3.3.2
 
 *   Supported file uploading.
-    
 
 3.3.0
 
 *   Improved performance.
-    
 *   Added XML formatter.
-    
 *   Supported loading variables from CSV file.
-    
 *   Added if...elseIf..else..endIf statements.
-    
 *   Added while..endWhile statements.
-    
 
 3.2.0 - 3.2.2
 
 *   Supported screenshot capturing.
-    
 *   Allowed sharing variables across test cases.
-    
 
 3.1.0 - 3.1.2
 
 *   Improved logging: Start Time, End Time, Browser, OS.
-    
 *   Supported uploading logs to Katalon Analytics (Beta).
-    
 
 3.0.3 - 3.0.4
 
 *   Supported exporting to C# and MSTest framework.
-    
 *   Fixed bugs
-    
 
 3.0.0 - 3.0.2
 
 *   Added new features: Play Suite, Play All, Speed Configuration, Pause, Resume.
-    
 *   Supported debugging: Pause, Resume, Breakpoints, Variables View.
-    
 *   Improved logging: Save, Clear.
-    
 *   Improved Test Cases authoring: Copy, Paste.
-    
 
 2.2.0
 
 *   Added support for offline mode in Chrome.
-    
 *   Added support for Glob & Regex patterns in Assert & Verify commands.
-    
 *   Added confirmation before deleting all test steps.
-    
 
 2.1.0
 
 *   Added support for CSS locators.
-    
 *   Added support for runScript & storeEval commands.
-    
 *   Fixed a bug in store… functions.
-    
 *   Fixed a bug in string interpolation.
-    
 
 2.0.0 - 2.0.9
 
 *   First releases with Selenium IDE-based features: Record, Play, Selenese, Export to other programming languages and frameworks.
-    
 *   Fixed bugs.
