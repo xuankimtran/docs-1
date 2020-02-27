@@ -26,12 +26,11 @@ We provide different tutorials of how to grant and use different licenses:
 2. Select your **Organization > Licenses**
 3. Select a Katalon product to open its view
 4. The product view display the following information:
-
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/license.png" width="" height="">
+   
 * **Subscribed Licenses**- license quota that you have purchase.
 * **Available Licenses**- the remaining licenses after the subscribed license quota subtracts the total number of offline licenses created and currently active online licenses.
-
   > *Available licenses = Subscribed licenses quota – (Offline licenses + Active online licenses)*
-
 * **Machine Quota** is equal to the license quota.
 * **Registered Users**- the users are allowed to use Katalon Studio Enterprise licenses. (This list only displays in the **Katalon Studio Enterprise** view.)
 * **Online Licenses**- active machines that are using online licenses.
