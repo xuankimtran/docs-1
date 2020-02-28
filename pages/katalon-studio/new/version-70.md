@@ -21,12 +21,12 @@ You can download Katalon Studio version 7.2.5 [here](https://github.com/katalon-
 
 ### New Features
 
-* Support configuring Content Type in HTTP Header separately from HTTP Body. [Learn more](https://docs.katalon.com/katalon-studio/docs/restful.html).
+* [Web Service] Support configuring Content Type in HTTP Header separately from HTTP Body. [Learn more](https://docs.katalon.com/katalon-studio/docs/restful.html).
 
 ### Improvements
 
 * [Kobiton Integration] Allow customizing Kobiton Server URL in Katalon Studio Preferences.
-* [Web Service] Enhance Smart Wait's performance during test executions.
+* Enhance Smart Wait's performance during test executions.
 
 ### Fixes
 
