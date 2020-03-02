@@ -31,6 +31,7 @@ You can download Katalon Studio version 7.2.5 [here](https://github.com/katalon-
 ### Fixes
 
 * Bug: An issue related to a failure of Swagger's importing multiple requests without operation ID.
+* Bug: An issue where Click step passes but no actual action is performed.
 
 ## Version 7.2.4
 
