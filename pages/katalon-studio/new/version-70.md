@@ -15,9 +15,24 @@ redirect_from:
 description: Release note 7.x
 ---
 
-## Version 7.2.5
+## Version 7.2.6
 
-You can download Katalon Studio version 7.2.5 [here](https://github.com/katalon-studio/katalon-studio/releases).
+### Fixes
+
+* Bug: Fail to activate Katalon Studio Enterprise with Katalon accounts registered with unconventional domains such as `.technology`.
+* Bug: [Desktop Apps Testing] An issue of losing Windows test objects when users drag and drop their folders.
+* Bug: [Desktop Apps Testing] An issue with automatically updating Windows test objects' references in Test Scripts after a drag and drop.
+* Bug: [Desktop Apps Testing] Cannot identify Windows test objects by relative path.
+* Bug: [Desktop Apps Testing] Cannot create a new item with a right-click on a Windows object.
+* Bug: [Desktop Apps Testing] Cannot edit a Windows object's property.
+* Bug: [Mobile Testing] A performance issue of the `setSliderValue` keyword when testing with a Sauce Labs device.
+* Bug: [Mobile Testing] Fail to recognize iPad device and create a new remote session with iPad simulator.
+
+### Discontinued Support
+
+* Business Support Service
+
+## Version 7.2.5
 
 ### New Features
 
