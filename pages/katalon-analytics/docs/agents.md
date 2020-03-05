@@ -52,13 +52,13 @@ Next, you can [upload your project code](/katalon-analytics/docs/code-repo) to C
 
 ### Proxy settings for Agent
 
-You can setup proxy for Agent by one of the following options:
+You can set up proxy for Agent by one of the following options:
 
-1. Update Proxy field in Katalon TestOps.
+1. Update the **Proxy** field in Katalon TestOps.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/agent/proxy-agent.png)
 
-2. Configure proxy settings in `agentconfig` file with the `proxy` option.
+2. Configure proxy settings in the `agentconfig` file with the `proxy` option.
 
 For example, `proxy=http://localhost:8080`.
 
