@@ -9,7 +9,7 @@ redirect_from:
     - "/katalon-studio/docs/webui-authenticate/"
 description: 
 ---
-> Note: These keywords are apllied only for Windows.
+> Note: These keywords are only available for Windows.
 
 Description
 -----------
