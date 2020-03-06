@@ -88,6 +88,20 @@ In the Katalon Store, do any of the following:
 
 Then click Reload Plugins in Katalon Studio to complete the process. 
 
+## Download plugin packages
+
+You can download plugin packages and use them as an exclusive feature in Katalon Studio Enterprise.
+
+To download a package, follow the below steps:
+1. In Katalon Store, choose a plugin;
+2. In the plugin's detail page, click on _Changelog_ in **Project details** section;
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/user/plugin-changelog.png)
+
+3. Now can download plugin packages with your preferred versions.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/user/change-log.png)
+
 
 ## Ratings & Reviews
 
