@@ -15,6 +15,15 @@ redirect_from:
 description: Release note 7.x
 ---
 
+## Version 7.2.7
+
+You can download Katalon Studio version 7.2.7 [here](https://github.com/kms-technology/katalon/releases).
+
+### Fixes
+
+* Bug: [BDD] `java.lang.NoClassDefFoundError` thrown when running a feature file
+* Bug: An issue of Smart Wait preventing request state in XMLHttpRequest from being read
+
 ## Version 7.2.6
 
 ### Fixes
