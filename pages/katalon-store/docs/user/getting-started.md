@@ -90,7 +90,7 @@ Then click Reload Plugins in Katalon Studio to complete the process.
 
 ## Download plugin packages
 
-You can download plugin packages and use them as an exclusive feature in Katalon Studio Enterprise.
+As an exclusive feature in Katalon Studio Enterprise, you can download and use plugin packages.
 
 To download a package, follow the below steps:
 1. In Katalon Store, choose a plugin;
