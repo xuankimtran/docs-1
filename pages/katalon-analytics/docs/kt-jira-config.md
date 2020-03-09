@@ -15,7 +15,7 @@ permalink: katalon-analytics/docs/kt-jira-config.html
 
 2. Enter the email registered for your Katalon account.
 
-3. Enter an **[API Key](https://docs.katalon.com/katalon-analytics/docs/api-key.html)**.
+3. Enter an **[API Key](https://docs.katalon.com/katalon-analytics/docs/ka-api-key.html)**.
 
 4. Enter **[Organization ID](https://docs.katalon.com/katalon-analytics/docs/getting-started.html)**.
 
