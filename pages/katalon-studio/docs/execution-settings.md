@@ -17,7 +17,7 @@ redirect_from:
     - "/x/gQ1O/"
     - "/katalon-studio/docs/network-settings/"
     - "/katalon-studio/docs/network-settings.html"
-description: 
+description:
 ---
 
 ## Execution Settings
@@ -25,6 +25,54 @@ description:
 Execution settings help users to set preferred behaviors for Katalon Studio during test execution. You can configure general execution preferences by accessing from the main menu: **Project > Settings > Execution**.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/execution-settings.png" width="" height="">
+
+### Allow editing JVM parameters in Execution Settings
+
+> Starting in version 7.2.4, Katalon Studio Enterprise users can edit VM arguments in Execution Settings.
+
+VM Arguments entered in **Executions Settings** of a project change the behaviour of a Java process of each execution. Currently, Katalon Studio does not support VM arguments' values containing space. Below is a list of most used JVM Parameters:
+
+Specify minimal and maximal heap sizes
+
+* `-Xms<heap size>[unit]`
+* `-Xmx<heap size>[unit]`
+* `-XX:MaxMetaspaceSize=<metaspace size>[unit]`
+
+Garbage Collection implementation types
+
+* Serial Garbage Collector: `-XX:+UseSerialGC`
+* Parallel Garbage Collector: `-XX:+UseParallelGC`
+* CMS Garbage Collector: `-XX:+USeParNewGC`
+* G1 Garbage Collector: `-XX:+UseG1GC`
+
+Garbage Collection Logging
+
+* Specify the log file rolling policy: `-XX:+UseGCLogFileRotation`
+* Denote the max number of log files that can be written for a single application life cycle: `-XX:NumberOfGCLogFiles=< number of log files >`
+* Specify the max size of the file: `-XX:GCLogFileSize=< file size >[ unit ]`
+* Denote the file's location: `-Xloggc:/path/to/gc.log`
+
+Handling Out of Memory
+
+* Dump heap into physical file in case of OutOfMemoryError: `-XX:+HeapDumpOnOutOfMemoryError`
+* Denote the path where the file is to be written: `-XX:HeapDumpPath=./java_pid<pid>.hprof`
+* Issue emergency commands to be executed in case of out of memory error: `-XX:OnOutOfMemoryError="< cmd args >;< cmd args >"`
+* Limits the proportion of the VM's time that is spent in GC before an OutOfMemory error is thrown: `-XX:+UseGCOverheadLimit`
+
+Go to **Project > Settings > Execution > Launch Arguments**. In the **VM Arguments** tab, enter your arguments.
+
+Below is an example:
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/settings.png" width="" height="">
+
+To make sure if the configuration works, please add this simple test case:
+
+```groovy
+import com.kms.katalon.core.util.KeywordUtil
+KeywordUtil.logInfo(System.getProperty("testme"))
+```
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/hello.png" width="" height="">
 
 ### Default Execution Settings
 

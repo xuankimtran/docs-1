@@ -1,5 +1,5 @@
 ---
-title: "Use and Maintain Katalon Licenses"
+title: "Manage Katalon Licenses"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/license-management.html
 description:
@@ -20,15 +20,13 @@ Please follow these steps to verify the information of your subscribed licenses 
 2. Select your **Organization > Licenses**
 3. Select a Katalon product to open its view
 4. The product view displays the following information:
-
 * **Subscribed Licenses**- license quota that you have purchased.
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/license.png" width="" height="">
 * **Available Licenses**- the remaining licenses after the subscribed license quota subtracts the total number of offline licenses created and currently active online licenses.
-
   > *Available licenses = Subscribed licenses quota – (Offline licenses + Active online licenses)*
-
 * **Machine Quota** is equal to the license quota.
-* **Registered Users**- the users are allowed to use Katalon Studio Enterprise licenses.
-* **Online Licenses** display a list of active machines that are using online licenses.
+* **Registered Users**- the users are allowed to use Katalon Studio Enterprise licenses. (This list only displays in the **Katalon Studio Enterprise** view.)
+* **Online Licenses**- active machines that are using online licenses.
 * **Offline Licenses**- machines to which an offline license binds.
 * **Registered Machines** display a list of  machines that have used either online or offline license.
 

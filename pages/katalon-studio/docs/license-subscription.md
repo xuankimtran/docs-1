@@ -5,7 +5,6 @@ permalink: katalon-studio/docs/license-subscription.html
 description:
 ---
 [Katalon licenses](https://docs.katalon.com/katalon-studio/docs/license.html) are purchased and managed via **Organizations** in [Katalon TestOps](https://analytics.katalon.com/).
-
 If you need further assistance with Katalon Pricing and Subscription, please contact our sales team via business@katalon.com.
 
 There are four ways to subscribe to Katalon licenses:

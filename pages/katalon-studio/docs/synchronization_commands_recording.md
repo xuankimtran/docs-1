@@ -65,7 +65,7 @@ Provide the URL of application under test.
 **Step 12:** It should display the **Wait For Page Load** command with the provided input as shown below. Now Katalon Studio will wait 45 secs for the page to gets fully loaded to execute next command. These synchronization commands avoid execution failures.  
 ![ Wait For Page Load command](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/synchronization_commands_recording/Test-design-record-web-Katalon-Studio-Step-12.png)
 
-**Step 13:** You can pause, resume the recording whenever you need it. Let us continue with recording few more actions. Switch to the browser in which you're recording, move to **Make Appointment** button and click on **Make Appointment** button**.**
+**Step 13:** You can pause, resume the recording whenever you need it. Let us continue with recording few more actions. Switch to the browser in which you're recording, move to **Make Appointment** button and click on **Make Appointment** button.
 
 ![Make Appointment button](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/synchronization_commands_recording/Test-design-record-web-Katalon-Studio-Step-13.png)
 

@@ -20,7 +20,7 @@ To address these concerns, we initially created Katalon Studio as a viable alter
 
 Katalon Studio is a free and robust automation solution for API, web, and mobile testing. It integrates all necessary components with built-in keywords and project templates into a complete automation framework. Katalon Studio is easy for beginners to use but offers advanced capabilities for experienced users. This solution is trusted by an active community from 150+ countries around the world.
 
-### Katalon Analytics
+### Katalon TestOps
 
 A cloud-based application providing in-depth views of test execution reports through powerful visualization including charts, graphs, and metrics.
 

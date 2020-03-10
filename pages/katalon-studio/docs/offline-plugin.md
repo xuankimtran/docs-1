@@ -3,7 +3,7 @@ title: "Use Plugins Offline (Use Plugins with KSE License)"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/offline-plugin.html
 ---
-Katalon Plugin is loved by our community to extend Katalon Studio and integrate the software with users' favorite tools. Yet it has been a pain for corporate users without Internet access since using plugins from Store requires connecting to Katalon Server. Together with offline features of Katalon Studio Enterprise, using plugins offline is an excellent complimentary feature for you to:
+Katalon Plugin is to extend Katalon Studio's capabilities and integrate the software with your favorite tools. Together with offline features of Katalon Studio Enterprise, using plugins without Internet access is an excellent complimentary feature for you to:
 
 * Install and use all the plugins that are available on Store without the Internet required (Offline Plugins).
 * Build your plugins and use them directly in Katalon Studio without publishing on Store ([Private Plugins](https://docs.katalon.com/katalon-studio/docs/private-plugins.html)).
@@ -17,11 +17,9 @@ Katalon Plugin is loved by our community to extend Katalon Studio and integrate 
 
 To use any plugins published on Store without accessing the Internet, follow these steps:
 
-1. Log in to [Katalon TestOps](https://analytics.katalon.com/home).
-2. Select your organization > **Plugins**.
-3. Click **Download** to get your preferred plugin.
-4. Unzip your downloaded plugin package.
-5. Move the plugin package to **<project_name>/plugins**.
+1. Get a plugin package from Katalon Store. [Learn more](https://docs.katalon.com/katalon-store/docs/user/getting-started.html#download-plugin-packages).
+2. Unzip your downloaded plugin package.
+3. Move the plugin package to **<project_name>/plugins**.
 
 ## Using private plugins
 
