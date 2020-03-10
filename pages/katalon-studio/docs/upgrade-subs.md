@@ -1,9 +1,10 @@
 ---
 title: "Upgrade Subscriptions"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/cancel-subs.html
+permalink: katalon-studio/docs/upgrade-subs.html
 description:
 ---
+
 When you want to increase the number of subscribed licenses or switch from monthly to yearly billing cycle, you can upgrade your subscriptions at any time. The upgrading action will take effect immediately. You need to pay for the prorated amount.
 
 Yearly billing cycle helps you save a one-month cost and allow you to use offline licenses. Please be noted that only node-locked and annual licenses can be converted to offline licenses.
