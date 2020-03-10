@@ -11,7 +11,7 @@ Valid email registration is eligible for a **30-day** trial of both **Katalon St
 
 Each trial license can be activated on only one machine at a time. When your trial period expires, you need to subscribe to the paid license of each product to continue using it. Otherwise, the Katalon Studio free license will be automatically activated.
 
-> Katalon Studio Enterprise and Katalon Runtime Engine **trial** licenses can only be registered with **business** emails. Trial licenses do NOT support offline activation and usage.
+> Katalon Studio Enterprise and Katalon Runtime Engine **trial** licenses can only be registered with **business** emails. 
 
 To purchase licenses, please follow [this instruction](https://docs.katalon.com/katalon-studio/docs/license-subscription.html).
 
@@ -24,7 +24,7 @@ You can start using Katalon Studio Enterprise for 30 days.
 
 ### Activate Katalon Runtime Engine with Trial License
 
-> Trial licenses only work in online environments.
+> Trial licenses work in online or offline environments for 30 days.
 
 To run Katalon Studio or Katalon Studio Enterprise with Katalon Runtime Engine, you need to:
 
