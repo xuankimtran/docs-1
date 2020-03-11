@@ -49,3 +49,7 @@ For Enterprise users with a private network, you may encounter a situation where
 * update.katalon.com
 * analytics.katalon.com
 * testops.katalon.com
+
+### CAPTCHA required
+
+CAPTCHA is required when a user enters an incorrect password for 5 consecutive times. At that time, you should log into [Katalon TestOps](https://analytics.katalon.com/) with that account and enter the captcha. After that, you should be able to activate Katalon Studio normally.
