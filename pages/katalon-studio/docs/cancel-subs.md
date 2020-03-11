@@ -6,11 +6,13 @@ description:
 ---
 You can cancel your subscription at any time. This action will turn-off auto-renewal of your subscription on the next billing date.
 
-The canceled subscription remains **active** until its next billing date. On that date, its status becomes **terminated**.
+After the cancelation, the subscription remains **active** until its next billing date. On that date, its status becomes **terminated**.
 
 > Subscription cancelation does NOT issue a refund. You can continue using the remaining subscription you have already purchased.
+>
+> Only the Organization Owner/Admins can cancel a subscription.
 
-Only the Organization Owner/Admins can cancel a subscription.
+To cancel your subscription, follow the following steps:
 
 1. Log in to [Katalon TestOps](https://analytics.katalon.com/).
 2. Select your **Organization > Subscriptions**.
