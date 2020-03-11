@@ -1121,6 +1121,8 @@ items:
             url: /katalon-analytics/docs/agents.html
           - title: "Upload Test Projects"
             url: /katalon-analytics/docs/code-repo.html
+          - title: "Git Test Project"
+            url: /katalon-analytics/docs/git-test-project.html
           - title: "Schedule Remote Execution"
             url: /katalon-analytics/docs/kt-scheduler.html
           - title: "Execute Scheduled Tests"
