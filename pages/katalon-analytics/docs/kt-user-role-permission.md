@@ -11,7 +11,7 @@ In Katalon TestOps, each user is identified with the same account registered for
 * **Owner** - is granted by default when creating a new organization or transferred by other users, who has full permission related to the organization, including teams, users, projects, licenses, plugins, and subscriptions.
 * **Admin** - is granted by the Owner, who has the privileges of the Owner but cannot manage the subscriptions.
 * **User** - is automatically assigned when a person is first invited to collaborate in an organization. Users can only monitor project progress.
-* **Billing Manager** - is granted by the Owner or Admin, who has the privileges of the User with additional permission to manage subscription.
+* **Billing Manager** - is granted by the Owner or Admin, who has the privileges of the User with additional permission to manage subscriptions.
 
 ## **Team level**
 
@@ -21,4 +21,4 @@ In Katalon TestOps, each user is identified with the same account registered for
 
 ## **Related Topics**
 
-* [User Management.](https://docs.katalon.com/katalon-analytics/docs/katalon-analytics/docs/user-management.html)
+* [User Management](https://docs.katalon.com/katalon-analytics/docs/user-management.html)
