@@ -38,7 +38,7 @@ If you're behind a Proxy Server, you need to configure the proxy settings before
 
 ### Troubleshooting common issues with network
 
-"_Network error! Please try Offline Activation_"- This error message indicates Katalon Studio's application cannot communicate with Katalon server to activate it.
+"_Cannot connect to Katalon TestOps server. Please check your Internet connection and try again._"- This error message indicates Katalon Studio's application cannot communicate with Katalon server to activate it.
 
 Please check your Internet connection and try again. If you are behind a **Proxy Server**, please **Config Proxy** first and try to activate Katalon Studio again.
 
