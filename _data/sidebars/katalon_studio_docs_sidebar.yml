@@ -24,7 +24,7 @@ items:
           - title: "Cancel Subscriptions"
             url: /katalon-studio/docs/cancel-subs.html
           - title: "Update Billing Information"
-            url: katalon-studio/docs/billing-info.html
+            url: /katalon-studio/docs/billing-info.html
       - title: "Use and Manage Katalon Licenses"
         tree:
           - title: "Manage Katalon Licenses"
