@@ -24,7 +24,7 @@ The newly added card is automatically added to other subscriptions for future pa
 
 ## Delete an existing credit card
 
-> Please note that this action cannot be undone. Once you have deleted the card, it will be permanently deleted in your organization.
+> Please note that this action cannot be undone. Once you have deleted the card, it will be permanently removed from your organization.
 
 To delete an existing credit card:
 
@@ -43,6 +43,6 @@ To display additional information on your receipts:
 
 ## Set your billing email
 
-Katalon sends invoices and other billing-related communication to the Organization Owners/Billing Managers by default. and cc another one via email address. This will enable your team to send those emails to a person not belonging to the Organization. This is particularly helpful for an enterprise where the person in charge of billing does not need to be involved in Katalon Organization.
+Katalon sends invoices and other billing-related communication to the Organization Owners/Billing Managers by default and cc another one via email address. This feature will enable your team to send those emails to a person not belonging to the Organization. It is particularly helpful for an enterprise where the person in charge of billing does not need to be involved in Katalon Organization.
 
 To add a cc email, click on **Update** button in **Payment Method** section, then fill in your email you want to cc the email with an invoice attached.
