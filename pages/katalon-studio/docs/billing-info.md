@@ -1,8 +1,9 @@
 ---
-title: “Manage your Katalon billing settings”
+title: "Manage your billing settings"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/billing-info.html
 ---
+
 You can update billing settings including payment method, billing information and billing email recipients at any time.
 
 > Only the Organization Owner/Billing Managers can update billing settings for an Organization.
