@@ -51,7 +51,7 @@ You will be asked to provide confirmation.
 
 Once you confirm, the **Machine ID** will be removed from the Registered Machines.
 
-> As soon as you remove the **Machine ID** from **Katalon TestOps**, **Katalon Studio** will be deactivated in that machine.
+> As soon as you remove the **Machine ID** from **Katalon TestOps**, the online license in that machine will be deactivated in **Katalon Studio**.
 
 
 ## Use the online Node-locked Runtime Engine license on another machine
