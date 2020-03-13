@@ -14,15 +14,16 @@ An online Node-locked Runtime Engine license, when activated, binds to a machine
 
 Open **Katalon Studio** on your machine, and deactivate (log out). 
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/transfer-license/1-deactivate.png)
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/transfer-license/1-deactivate.png" width=300>
 
 You should see the **Activation Dialog**. 
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/transfer-license/2-machine-id.png)
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/transfer-license/2-machine-id.png" width="400">
 
 Click on **Offline Activation**, you will be directed to a dialog where you click on copy to copy your **Machine ID** into clipboard.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/transfer-license/3-license-file.png)
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/transfer-license/3-license-file.png" width="400">
 
 Store this **Machine ID** somewhere (text editor). You can now safely log in back into **Katalon Studio**.
 
@@ -42,6 +43,7 @@ If you do not see your **Machine ID** listed there, then please continue.
 At the bottom of the same page, you should see under Registered Machines, the **Machine ID** (step 1) There is a button to remove it from the list.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/transfer-license/4-delete-machine-id.png)
+
 
 You will be asked to provide confirmation.
 
