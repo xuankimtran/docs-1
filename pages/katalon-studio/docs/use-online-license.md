@@ -10,8 +10,9 @@ Before assigning a license, the organization Owner/Admin must [add the team memb
 ### Katalon Studio Enterprise
 
 1. In [Katalon TestOps](https://analytics.katalon.com/home), select your **Organization > Licenses**.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/license.png" width="" height="">
 2. On **Katalon Studio Enterprise** view, register the on-demand users by adding them to the **Registered Users** list.
-
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/grant%20.png" width="" height="">
    When the registered users activate Katalon Studio Enterprise, the machine IDs are added to the **Online Licenses** list in Katalon TestOps.
 
    > The number of registered users cannot exceed the license quota.
@@ -20,7 +21,9 @@ Learn about [how to create a Katalon Studio Enterprise offline license](https://
 
 ### Katalon Runtime Engine
 
-Any members of an Organization can use the Katalon Runtime Engine online licenses that the Organization has purchased.
+Any members of an Organization can use the Katalon Runtime Engine online licenses that the Organization has purchased. [Learn about how to add a new user to your Organization.](https://docs.katalon.com/katalon-analytics/docs/user-management.html#invite-a-user-to-the-organization)
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/invite.png" width="" height="">
 
 To avoid sessions termination or optimize license usage, the Organization Owner/Admins should remember the following rules:
 

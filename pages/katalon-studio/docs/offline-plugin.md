@@ -17,11 +17,9 @@ Katalon Plugin is to extend Katalon Studio's capabilities and integrate the soft
 
 To use any plugins published on Store without accessing the Internet, follow these steps:
 
-1. Log in to [Katalon TestOps](https://analytics.katalon.com/home).
-2. Select your organization > **Plugins**.
-3. Click **Download** to get your preferred plugin.
-4. Unzip your downloaded plugin package.
-5. Move the plugin package to **<project_name>/plugins**.
+1. Get a plugin package from Katalon Store. [Learn more](https://docs.katalon.com/katalon-store/docs/user/getting-started.html#download-plugin-packages).
+2. Unzip your downloaded plugin package.
+3. Move the plugin package to **<project_name>/plugins**.
 
 ## Using private plugins
 

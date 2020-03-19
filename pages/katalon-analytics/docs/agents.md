@@ -49,3 +49,14 @@ While `serverURL` and `apiKey` in **.katalon/licenseServer.properties** will be 
   > Go to your profile page > Select **API Key** > Copy an existing API Key for this purpose or create a new one.
 
 Next, you can [upload your project code](/katalon-analytics/docs/code-repo) to Code Repo and [schedule a test](/katalon-analytics/docs/kt-scheduler).
+
+### Proxy settings for Agent
+
+You can set up proxy for Agent in the `agentconfig` file with the `proxy` option.
+
+For example, `proxy=http://localhost:8080`.
+
+
+
+
+

@@ -5,24 +5,22 @@ permalink: katalon-studio/docs/license-KT.html
 description:
 ---
 
-You need a Katalon account and Organization to purchase licenses via Katalon TestOps.
+**Requirements**:
 
-* If you don't have an account, register [here](https://www.katalon.com/sign-up/).
-* If you don't have any Organization, log in to [Katalon TestOps](https://analytics.katalon.com/home) > click **Create Organization** at the bottom of Katalon TestOps homepage > click **OK** to confirm your action. You're granted the Owner role by default. [Learn more about user and role management](https://docs.katalon.com/katalon-analytics/docs/user-management.html).
+* You need a Katalon account. If you don't have one, register [here](https://www.katalon.com/sign-up/).
+* Katalon licenses are purchased and managed via Katalon TestOps **Organizations**. If you don't have any Organization, log into [Katalon TestOps](https://analytics.katalon.com/home) > click **Create Organization** at the bottom of Katalon TestOps homepage > click **OK** to confirm your action. You're granted the Owner role by default.
+* Only the Organization Owner or Billing Managers can subscribe to Katalon licenses. [Learn more about user and role management](https://docs.katalon.com/katalon-analytics/docs/user-management.html).
 
 Follow these steps to purchase licenses:
 
-1. Log in to [Katalon TestOps](https://analytics.katalon.com/home).
-
-2. Select your desired Organization > **Subscriptions**. Only the Owner and Billing Manager of the selected Organization can access the **Subscription** view.
-3. Choose your desired product (Katalon Studio Enterprise or Katalon Runtime Engine), and monthly/yearly subscription.
-4. Click **Subscribe**. You'll be navigated to Katalon Store where you can
-
-* Specify the number of licenses.
-* Change the subscription model if you want.
-* Apply a discount code if you have one.
-
-5. Double-check your order > **Checkout**.
+1. Log into [Katalon TestOps](https://analytics.katalon.com/home).
+2. Select your desired Organization > select **Subscriptions**.
+3. Specify billing cycle and the number of licenses of each product you want to purchase.
+4. Apply discount codes (if any)
+5. Enter your card details or use a saved card to check out. You can enter some extra billing information that you want to display on the receipts.
 6. Pay for your order.
 
-For managing, creating, and assigning your licenses, please refer to [this documentation](https://docs.katalon.com/katalon-studio/docs/license-management.html).
+See also:
+
+* [Verify licenses information](https://docs.katalon.com/katalon-studio/docs/license-management.html#verify-and-view-licenses-information)
+* [Manage subscribed licenses](https://docs.katalon.com/katalon-studio/docs/license-management.html)

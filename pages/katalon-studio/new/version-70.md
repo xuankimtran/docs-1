@@ -15,9 +15,49 @@ redirect_from:
 description: Release note 7.x
 ---
 
-## Version 7.2.4
+## Version 7.2.7
 
-You can download Katalon Studio version 7.2.4 [here](https://github.com/katalon-studio/katalon-studio/releases).
+You can download Katalon Studio version 7.2.7 [here](https://github.com/kms-technology/katalon/releases).
+
+### Fixes
+
+* Bug: [BDD] `java.lang.NoClassDefFoundError` thrown when running a feature file
+* Bug: An issue of Smart Wait preventing request state in XMLHttpRequest from being read
+
+## Version 7.2.6
+
+### Fixes
+
+* Bug: Fail to activate Katalon Studio Enterprise with Katalon accounts registered with unconventional domains such as `.technology`.
+* Bug: [Desktop Apps Testing] An issue of losing Windows test objects when users drag and drop their folders.
+* Bug: [Desktop Apps Testing] An issue with automatically updating Windows test objects' references in Test Scripts after a drag and drop.
+* Bug: [Desktop Apps Testing] Cannot identify Windows test objects by relative path.
+* Bug: [Desktop Apps Testing] Cannot create a new item with a right-click on a Windows object.
+* Bug: [Desktop Apps Testing] Cannot edit a Windows object's property.
+* Bug: [Mobile Testing] A performance issue of the `setSliderValue` keyword when testing with a Sauce Labs device.
+* Bug: [Mobile Testing] Fail to recognize iPad device and create a new remote session with iPad simulator.
+
+### Discontinued Support
+
+* Business Support Service
+
+## Version 7.2.5
+
+### New Features
+
+* [Web Service] Support configuring Content Type in HTTP Header separately from HTTP Body. [Learn more](https://docs.katalon.com/katalon-studio/docs/restful.html).
+
+### Improvements
+
+* [Kobiton Integration] Allow customizing Kobiton Server URL in Katalon Studio Preferences.
+* Enhance Smart Wait's performance during test executions.
+
+### Fixes
+
+* Bug: An issue related to a failure of Swagger's importing multiple requests without operation ID.
+* Bug: An issue where Click step passes but no actual action is performed.
+
+## Version 7.2.4
 
 ### New Features
 

@@ -19,16 +19,24 @@ items:
             url: /katalon-studio/docs/license-po.html
           - title: "Subscription via Quote"
             url: /katalon-studio/docs/license-quote.html
+          - title: "Upgrade Subscriptions"
+            url: /katalon-studio/docs/upgrade-subs.html
+          - title: "Cancel Subscriptions"
+            url: /katalon-studio/docs/cancel-subs.html
+          - title: "Update Billing Information"
+            url: /katalon-studio/docs/billing-info.html
       - title: "Use and Manage Katalon Licenses"
         tree:
           - title: "Manage Katalon Licenses"
             url: /katalon-studio/docs/license-management.html
           - title: "Grant Online Licenses"
             url: /katalon-studio/docs/use-online-license.html
-          - title: "Grant and Use a Katalon Studio Enterprise Offline License"
+          - title: "Grant and Use an Offline Katalon Studio Enterprise License"
             url: /katalon-studio/docs/how-to-create-kse-offline-license.html
-          - title: "Grant and Use a Katalon Runtime Engine Offline License"
+          - title: "Grant and Use an Offline Katalon Runtime Engine License"
             url: /katalon-studio/docs/re-offline-licenses.html
+          - title: "Transfer an Online Katalon Runtime Engine License"
+            url: /katalon-studio/docs/transfer-license.html
       - title: "Troubleshoot"
         tree:
           - title: "Session Termination Causes"
@@ -1117,6 +1125,8 @@ items:
             url: /katalon-analytics/docs/agents.html
           - title: "Upload Test Projects"
             url: /katalon-analytics/docs/code-repo.html
+          - title: "Git Test Project"
+            url: /katalon-analytics/docs/git-test-project.html
           - title: "Schedule Remote Execution"
             url: /katalon-analytics/docs/kt-scheduler.html
           - title: "Execute Scheduled Tests"
