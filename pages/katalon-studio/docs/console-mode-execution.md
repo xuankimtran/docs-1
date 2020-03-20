@@ -280,7 +280,7 @@ katalonc -noSplash  -runMode=console -consoleLog -noExit -projectPath= "C:\Users
       </tr>
       <tr>
          <td>-proxy.server.address</td>
-         <td>Example: locahost,&nbsp;<a class="external-link" href="http://katalon.com/" rel="nofollow">http://katalon.com</a></td>
+         <td>Example: locahost,&nbsp;<a class="external-link" href="katalon.com" rel="nofollow">katalon.com</a></td>
          <td>Y</td>
       </tr>
       <tr>
