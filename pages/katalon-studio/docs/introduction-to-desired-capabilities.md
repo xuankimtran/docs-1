@@ -51,8 +51,8 @@ Below is the list of supported environments as well as how to configure them in 
 
 ## Web Testing
 
-* Define Desired Capabilities for local execution using Chrome, Firefox, IE, Safari, or Edge.
-* **Project > Settings > Desired Capabilities > WebUI > Chrome/Firefox/IE/Safari/Edge**.
+* Define Desired Capabilities for local execution using Chrome, Firefox, IE, Safari, Edge or Edge (Chromium).
+* **Project > Settings > Desired Capabilities > WebUI > Chrome/Firefox/IE/Safari/Edge/Edge(Chromium)**.
 
 ### Chrome/Chrome (headless)
 
@@ -251,9 +251,12 @@ Defined configuration settings are saved in separated files under the "**<your t
 | --- | --- |
 | Chrome | com.kms.katalon.core.webui.chrome.properties |
 | Firefox | com.kms.katalon.core.webui.firefox.properties |
+| Chrome (Headless)| com.kms.katalon.core.webui.chrome (headless).properties |
+| Firefox (Headless) | com.kms.katalon.core.webui.firefox (headless).properties |
 | IE | com.kms.katalon.core.webui.ie.properties |
 | Safari | com.kms.katalon.core.webui.safari.properties |
 | Edge | com.kms.katalon.core.webui.edge.properties |
+| Edge (Chromium)| com.kms.katalon.core.webui.edge chromium.properties |
 | Remote Web | com.kms.katalon.core.webui.remote.properties |
 | Android | com.kms.katalon.core.mobile.android.properties |
 | iOS | com.kms.katalon.core.mobile.ios.properties |

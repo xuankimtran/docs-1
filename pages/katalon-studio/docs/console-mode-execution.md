@@ -127,6 +127,8 @@ Here's the list of options supported for the `katalon` commands in Katalon Studi
                <li>Firefox</li>
                <li>Chrome</li>
                <li>IE</li>
+               <li>Edge</li>
+               <li>Edge (Chromium)</li>
                <li>Safari</li>
                <li>Remote</li>
                <li>Android</li>

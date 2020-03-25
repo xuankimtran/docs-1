@@ -65,6 +65,12 @@ Location:
 Location:
 - `<Katalon Studio folder>\configuration\resources\drivers\edgedriver`
 
+**Edge (Chromium)**
+
+Location:
+- `<Katalon Studio folder>\configuration\resources\drivers\edgechromium_win32`
+- `<Katalon Studio folder>\configuration\resources\drivers\edgechromium_win64`
+
 ### macOS
 
 **Chrome**
@@ -76,6 +82,11 @@ Location:
 
 Location:
 - `/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/drivers/firefox_mac`
+
+**Edge (Chromium)**
+
+Location:
+- `/Applications/Katalon Studio.app/Contents/Eclipse/configuration\resources\drivers\edgechromium_mac`
 
 ## Replace WebDriver binaries (project-level)
 
@@ -97,6 +108,9 @@ Location:
 - `Include/drivers/iedriver_win64/IEDriverServer.exe`
 - `Include/drivers/edgedriver_win32/MicrosoftWebDriver.exe`
 - `Include/drivers/edgedriver_win64/MicrosoftWebDriver.exe`
+- `Include/drivers/edgechromiumdriver_win64/msedgedriver.exe`
+- `Include/drivers/edgechromiumdriver_win32/msedgedriver.exe`
+- `Include/drivers/edgechromiumdriver_mac/msedgedriver`
 
 ## Use the WebDriver Object
 
