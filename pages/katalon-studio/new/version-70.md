@@ -15,6 +15,29 @@ redirect_from:
 description: Release note 7.x
 ---
 
+## Version 7.3.0
+
+### New Features
+
+* Support testing with the new Microsoft Edge based on Chromium on both Windows and macOS
+* [Windows] Support object parameterization to handle dynamic Windows objects
+* Add a Notification icon
+
+### Improvements
+
+* Support configuring `Delay Between Actions` in millisecond
+* Enhance UI
+* Include the `TestObject` class in [Katalon API Documents](https://docs.katalon.com/javadoc/index.html)
+
+### Fixes
+
+* Bug: [Runtime Engine] An issue of counting the number of execution processes
+* Bug: [Windows] An issue of debugging Windows test scripts
+* Bug: [Kobiton Integration] An issue of not displaying error message for invalid account
+* Bug: [BDD] `runFeatureFolder` throws exception when tests fail
+* Bug: An issue of configuring the port of Mail Server in Email settings
+* Bug: [API] Unable to send a request in macOS or Linux if its HTTP body uses `form-data` or `file` with relative path on Windows machine
+
 ## Version 7.2.7
 
 You can download Katalon Studio version 7.2.7 [here](https://github.com/kms-technology/katalon/releases).
