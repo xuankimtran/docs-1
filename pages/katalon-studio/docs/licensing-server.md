@@ -7,7 +7,7 @@ description:
 Katalon licensing server is a web-based application that provides dynamic perspectives and an insightful look at your automation testing data in a restricted network environment.
 
 ## Features
-- Install and set up on your machine privately (within your internal network). [Learn more](https://docs.katalon.com/katalon-analytics/docs/licensing-server.html#install-and-setup-a-server)
+- Install and set up on your machine privately (within your internal network). [Learn more](https://docs.katalon.com/katalon-studio/docs/licensing-server.html#install-and-setup-a-server)
 - Manage users & organizations. [Learn more](https://docs.katalon.com/katalon-analytics/docs/ktop.html#create-an-organization)
 - Manage licenses. 
 - Manage accounts (login, change & reset password). [Learn more](https://docs.katalon.com/katalon-analytics/docs/ktop.html#reset-and-forget-password)
