@@ -37,6 +37,8 @@ items:
             url: /katalon-studio/docs/re-offline-licenses.html
           - title: "Transfer an Online Katalon Runtime Engine License"
             url: /katalon-studio/docs/transfer-license.html
+          - title: "Katalon Licensing Server"
+            url: /katalon-studio/docs/licensing-server.html
       - title: "Troubleshoot"
         tree:
           - title: "Session Termination Causes"
@@ -1156,7 +1158,11 @@ items:
           - title: "Working with Jira Releases"
             url: /katalon-analytics/docs/kt-jira-release.html
       - title: "Katalon TestOps OnPremise"
-        url: /katalon-analytics/docs/ktop.html
+        tree:
+          - title: "Setup Katalon TestOps OnPremise"
+            url: /katalon-analytics/docs/ktop.html
+          - title: "Working with Katalon Testops OnPremise"
+            url: /katalon-analytics/docs/ktop-usage.html
   - title: "Katalon Recorder"
     tree:
       - title: "Overview"
