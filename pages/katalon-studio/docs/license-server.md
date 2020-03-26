@@ -206,9 +206,8 @@ After downloading Katalon Studio, you need to activate it in the **Katalon Studi
 2. Click **Activate** to connect with and retrieve Organizations from the License Server.
 3. Select an Organization you would like to work on in the drop-down list. Click **OK**.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/ktop-setup-org-team-project/activate.png" width="496" height="">
 
-Learn more about [the integration between Katalon TestOps and Katalon Studio](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html)
+Learn more about [the integration between Katalon TestOps and Katalon Studio](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html).
 
 ## Configure Mail Server
 
