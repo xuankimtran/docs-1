@@ -4,7 +4,6 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/license-server.html
 description: 
 ---
-
 Katalon OnPremise License Server is designed to be installed at a location that is accessible from a customer’s network, and be configured with licenses obtained from Katalon.
 
 Katalon OnPremise license server are provided from Katalon team as downloadable packages and license files, and installed into the license server through its management interface.
