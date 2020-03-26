@@ -126,11 +126,7 @@ One member of the team can complete these steps to invite all the others to an O
    > An email with an invitation link attached is sent to the invited email if you have configured [Mail Server](https://docs.katalon.com/katalon-analytics/docs/ktop.html#configure-mail-server).
 
 
-
-Users are only added to the Organization once they sign in with the newly created account. You can track the invited persons' actions by observing their activation links. For example:
-
-* The activation link of email *longbui@kms-technology.com* requires this user to update password for the account registered with the email.
-* The activation link of email *quile@kms-technology.com* indicates the account associated with this email has not accepted the invitation yet.
+Users are only added to the Organization once they sign in with the newly created account. You can track the invited persons' actions by observing their activation links.
 
 **Invited person**
 
