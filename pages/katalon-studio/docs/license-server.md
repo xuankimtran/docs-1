@@ -25,7 +25,7 @@ Katalon OnPremise license server are provided from Katalon team as downloadable 
 
 ## System requirements
 
-<table><thead><tr><th>&nbsp;</th><th>Requirement</th></tr></thead><tbody><tr><th>Operating System</th><td>Windows 7, Windows 8, Windows 10, Linux (Ubuntu based)</td></tr><tr><th>CPU</th><td> <em>Minimum</em>: 2 GHz or faster 32-bit (x86) or 64-bit (x64) processor</td></tr><tr><th>Memory</th><td><p</p><p><em>Minimum</em>: 2 GB RAM (32-bit) or 4 GB RAM (64-bit)</p><p><em>Recommnended</em>: 4 GB RAM (32-bit) or 8 GB RAM (64-bit).</p><p></p><p><em</p><p><em></p></td></tr><tr><th>Hard Drive</th><td>At least 40 GB available hard disk space.</td></tr></tbody></table>
+<table><thead><tr><th>&nbsp;</th><th>Requirement</th></tr></thead><tbody><tr><th>Operating System</th><td>Windows 7, Windows 8, Windows 10, Linux (Ubuntu based)</td></tr><tr><th>CPU</th><td> <em>Minimum</em>: 2 GHz or faster 32-bit (x86) or 64-bit (x64) processor</td></tr><tr><th>Memory</th><td><p</p><p><em>Minimum</em>: 8 GB RAM (64-bit)</p><p><em.</p><p></p><p><em</p><p><em></p></td></tr><tr><th>Hard Drive</th><td>At least 40 GB available hard disk space.</td></tr></tbody></table>
 
 ## Install and setup a server
 
