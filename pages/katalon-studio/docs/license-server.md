@@ -9,19 +9,19 @@ Katalon OnPremise License Server is designed to be installed at a location that 
 Katalon OnPremise license server are provided from Katalon team as downloadable packages and license files, and installed into the license server through its management interface.
 
 ## Features
-- Install and set up on your machine privately (within your internal network). [Learn more](https://docs.katalon.com/katalon-studio/docs/licensing-server.html#install-and-setup-a-server)
+- Install and set up on your machine privately (within your internal network). [Learn more](https://docs.katalon.com/katalon-studio/docs/license-server.html#install-and-setup-a-server)
 
-- Manage users & organizations. [Learn more](https://docs.katalon.com/katalon-studio/docs/licensing-server.html#create-an-organization)
+- Manage users & organizations. [Learn more](https://docs.katalon.com/katalon-studio/docs/license-server.html#create-an-organization)
 
 - Manage licenses. 
 
-- Manage accounts (login, change & reset password). [Learn more](https://docs.katalon.com/katalon-studio/docs/licensing-server.html#reset-and-forget-password)
+- Manage accounts (login, change & reset password). [Learn more](https://docs.katalon.com/katalon-studio/docs/license-server.html#reset-and-forget-password)
 
-- Configure mail server to send and receive notification about projects. [Learn more](https://docs.katalon.com/katalon-studio/docs/licensing-server.html#configure-mail-server)
+- Configure mail server to send and receive notification about projects. [Learn more](https://docs.katalon.com/katalon-studio/docs/license-server.html#configure-mail-server)
 
-- Activate Katalon Studio with OnPremise license server. [Learn more](https://docs.katalon.com/katalon-studio/docs/licensing-server.html#activate-katalon-studio-with-katalon-onpremise-license-server)
+- Activate Katalon Studio with OnPremise license server. [Learn more](https://docs.katalon.com/katalon-studio/docs/license-server.html#activate-katalon-studio-with-katalon-onpremise-license-server)
 
-- Use Katalon plugins with OnPremise license server. [Learn more](https://docs.katalon.com/katalon-studio/docs/licensing-server.html#use-katalon-plugins-with-katalon-onpremise-license-server)
+- Use Katalon plugins with OnPremise license server. [Learn more](https://docs.katalon.com/katalon-studio/docs/license-server.html#use-katalon-plugins-with-katalon-onpremise-license-server)
 
 ## System requirements
 
