@@ -20,7 +20,7 @@ description: Release note 7.x
 ### New Features
 
 * Support Microsoft Edge (Chromium) on both Windows and macOS
-* [Windows] Support parameterizing Windows test objects. [Learn more]().
+* [Windows] Support parameterizing Windows test objects. [Learn more](https://docs.katalon.com/katalon-studio/docs/windows-test-objects.html#parameterize-windows-test-objects).
 * Add a Notification icon
 
 ### Improvements
