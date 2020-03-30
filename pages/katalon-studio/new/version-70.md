@@ -19,13 +19,13 @@ description: Release note 7.x
 
 ### New Features
 
-* Support testing with the new Microsoft Edge based on Chromium on both Windows and macOS
-* [Windows] Support object parameterization to handle dynamic Windows objects
+* Support Microsoft Edge (Chromium) on both Windows and macOS
+* [Windows] Support parameterizing Windows test objects. [Learn more]().
 * Add a Notification icon
 
 ### Improvements
 
-* Support configuring `Delay Between Actions` in millisecond
+* Support configuring `Delay Between Actions` in milliseconds in Execution settings
 * Enhance UI
 * Include the `TestObject` class in [Katalon API Documents](https://docs.katalon.com/javadoc/index.html)
 

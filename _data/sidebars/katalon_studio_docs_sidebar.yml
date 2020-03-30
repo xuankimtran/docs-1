@@ -333,6 +333,8 @@ items:
                     url: /katalon-studio/docs/windows-spy-tutorials.html
                   - title: "Windows Record Tutorials"  
                     url: /katalon-studio/docs/windows-recorder-tutorials.html
+              - title: "Windows Test Objects"
+                url: /katalon-studio/docs/windows-test-objects.html
           - title: "Test Artifacts Sharing"
             url: /katalon-studio/docs/import-export-test-artifact.html
           - title: "Test Maintenance"
