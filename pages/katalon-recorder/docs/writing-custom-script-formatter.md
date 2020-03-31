@@ -18,6 +18,7 @@ List of Plugins
 ---------------
 
 PHPUnit formatter for Katalon Recorder ([Chrome](https://chrome.google.com/webstore/detail/phpunit-formatter-for-kat/gelokgfkbnkkcdbokielchgpfnphoalk?utm_source=chrome-ntp-icon)) by Jan Esser.
+Selenide formatter for Katalon Recorder ([Chrome](https://chrome.google.com/webstore/detail/selenide-exporter-for-kat/mkbfcgpbkcaieiajhllpdocjfnfcbmlm)) by John Pratt.
 
 Sample
 ------
