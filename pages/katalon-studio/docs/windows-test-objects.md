@@ -114,7 +114,7 @@ The benefit of parameterizing test objects in general is to handle object with d
 Here are the steps demonstrating how to use this feature:
 
 1. Select a Windows object you want to parameterize
-2. Capture its locator with Katalon Studio Windows Object Spy or Recorder and create a variable with this syntax `${variable_name}` as a place holder for its dynamic property. For example, we create the `${xpath}` variable for the XPATH locator strategy. You can parameterize test objects with other locator strategies as well.
+2. Capture its locator with Katalon Studio Windows Object Spy or Recorder and create a variable with this syntax `${variable_name}` as a place holder for its dynamic locator. For example, we create the `${xpath}` variable for the XPATH locator strategy. You can parameterize test objects with other locator strategies as well.
 3. Use the parameterized test object.
 
 ### In Manual View
@@ -123,7 +123,7 @@ Open your Test Case in the **Manual** View and double-click on the object that y
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/windows-test-objects/img_manual.png" width="" height="">
 
-In the displayed **Test Object Input** dialog, declare the expected dynamic property as a variable in the **Variables** panel.
+In the displayed **Test Object Input** dialog, declare the expected dynamic locator as a variable in the **Variables** panel.
 
 * **Param Type**: the variable type (The default type is String).
 * **Param**: the variable name.
@@ -138,9 +138,9 @@ For instance, Katalon Studio uses the `xpath` variable created in step 2, with i
 
 ### In Script View
 
-Once the property is declared, you can switch to the **Script** View and modify the perceived value of the property. Typically, users want to pass the property value as a variable or refer to data files.
+Once the locator is declared, you can switch to the **Script** View and modify the perceived value of the locator. Typically, users want to pass the locator value as a variable or refer to data files.
 
-The general syntax to find a Windows test object using a dynamic property is as follows:
+The general syntax to find a Windows test object using a dynamic locator is as follows:
 
 ```java
 findWindowsTestObject('{your test object}', [('{variable}') : '{value of variable}'])
