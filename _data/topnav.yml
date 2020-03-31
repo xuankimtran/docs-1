@@ -14,7 +14,5 @@ topnav:
     # - title: FAQs
     #   url: /faqs/licensing.html
     #   parenturl: /faqs
-    - title: Support
-      external_url: https://www.katalon.com/support-service-options/?utm_source=docs-navigation-bar
-    - title: Training
-      external_url: https://www.katalon.com/training/?utm_source=docs-navigation-bar
+    - title: Pricing
+      external_url: https://www.katalon.com/pricing/?utm_source=docs-navigation-bar-pricing
