@@ -24,11 +24,12 @@ description:
 | Desktop Browsers | Version on Windows | Version on macOS | Note |
 | --- | --- | --- | --- |
 | Internet Explorer | 9, 10, 11 | N/A | Required IE configurations: [Internet Explorer Configurations](/display/KD/Internet+Explorer+Configurations). |
-| Microsoft Edge | Current | N/A | Refer to this [page](https://docs.microsoft.com/en-us/microsoft-edge/webdriver) for the current status of Edge WebDriver. |
-| Firefox | 56+ | To use Firefox 57 with Katalon Studio, please use Katalon Studio v5.1+ |
-| Google Chrome | 58+ |   |
-| Opera | Not supported |   |
-| Safari | 5.1+ | 12 |   |
+| Microsoft Edge | 18 | N/A | |
+| Microsoft Edge (Chromium)| 80+ | 80+ | Supported in Katalon Studio version 7.3+|
+| Firefox | 56+ | 56+ | To use Firefox 57 with Katalon Studio, please use Katalon Studio v5.1+ |
+| Google Chrome | 58+ | 58+ |
+| Opera | N/A | N/A |
+| Safari | N/A | 12+ |  |
 
 ## Mobile
 

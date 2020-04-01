@@ -24,7 +24,7 @@ description:
 
 Execution settings help users to set preferred behaviors for Katalon Studio during test execution. You can configure general execution preferences by accessing from the main menu: **Project > Settings > Execution**.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/execution-settings.png" width="" height="">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/newui.png" width="" height="">
 
 ### Allow editing JVM parameters in Execution Settings
 
@@ -93,12 +93,16 @@ KeywordUtil.logInfo(System.getProperty("testme"))
 
 These settings decide the general behavior of Katalon Studio when executing WebUI testing.
 
-* **Delay between actions**: The time for Katalon Studio to wait between test steps when executing test cases.
 * **Default wait when IE hangs**: Specify the default period of waiting that Katalon Studio should use in case IE hangs.
 * **Default page load timeout**:
 
   * *Wait until the page is loaded*: Katalon Studio waits for the web page to load completely.
   * *Wait for (in seconds)*: The default timeout period (in seconds) that Katalon Studio waits for the web page to load.
+
+* **Delay between actions**: The time for Katalon Studio to wait between test steps when executing test cases.
+
+  * *in seconds*: This option is selected by default.
+  * *in milliseconds*: This option is supported in Katalon version 7.3+.
 
 ## Emails Settings
 
