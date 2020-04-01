@@ -6,9 +6,12 @@ permalink: katalon-studio/docs/windows-test-objects.html
 
 ## Manage Windows Test Objects
 
-### Create a test object
+### Create a Windows test object
 
 1. Select **File > New > Windows Object** from the main menu. The **New Windows Object** dialog is displayed.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/windows-test-objects/create-new-object.png" width="" height="">
+
 2. Provide a name for the new test object, then click **OK** button to create a new object under the **Object Repository** of Katalon Studio.
 
 ### Locator strategy for detecting an object
@@ -115,6 +118,9 @@ Here are the steps demonstrating how to use this feature:
 
 1. Select a Windows object you want to parameterize
 2. Capture its locator with Katalon Studio Windows Object Spy or Recorder and create a variable with this syntax `${variable_name}` as a place holder for its dynamic locator. For example, we create the `${xpath}` variable for the XPATH locator strategy. You can parameterize test objects with other locator strategies as well.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/windows-test-objects/step2.png" width="" height="">
+
 3. Use the parameterized test object.
 
 ### In Manual View
@@ -134,7 +140,7 @@ In the displayed **Test Object Input** dialog, declare the expected dynamic loca
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/windows-test-objects/img_variables.png" width="" height="">
 
-For instance, Katalon Studio uses the `xpath` variable created in step 2, with its specific value as `//Button[0]` to find the `txt_UserName` object.
+For instance, Katalon Studio uses the `xpath` variable created in step 2, with its specific value as `//Button[0]` to find the new Windows object.
 
 ### In Script View
 
@@ -143,7 +149,7 @@ Once the locator is declared, you can switch to the **Script** View and modify t
 The general syntax to find a Windows test object using a dynamic locator is as follows:
 
 ```java
-findWindowsTestObject('{your test object}', [('{variable}') : '{value of variable}'])
+findWindowsObject('{your test object}', [('{variable}') : '{value of variable}'])
 ```
 
 For example:
