@@ -39,7 +39,9 @@ Katalon OnPremise license server are provided from Katalon team as downloadable 
 - Download [PostgreSQL Database version 9.6.16](https://www.postgresql.org/download/)
 - For integration, Katalon Studio version should be 7.2.2
 - Contact Katalon team to get the **Katalon licensing server package** and a **license file** (.lic file) to activate the licensing server.
-Install and create a PostgreSQL database
+
+
+### Install and create a PostgreSQL database
 
 PostgreSQL database is where you manage all data, including Organizations, Teams, and user accounts used in the server. Please first download [PostgreSQL Database version 9.6.16](https://www.postgresql.org/download/).
 
