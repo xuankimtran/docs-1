@@ -140,7 +140,7 @@ In the displayed **Test Object Input** dialog, declare the expected dynamic loca
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/windows-test-objects/img_variables.png" width="" height="">
 
-For instance, Katalon Studio uses the `xpath` variable created in step 2, with its specific value as `//Button[0]` to find the new Windows object.
+For instance, Katalon Studio uses the `xpath` variable created in step 2, with its specific value as `//Button[0]` to find the **btn_Login** object.
 
 ### In Script View
 
@@ -155,7 +155,7 @@ findWindowsObject('{your test object}', [('{variable}') : '{value of variable}']
 For example:
 
 ```java
-findWindowsObject('New Windows Object', [('xpath') : '//Button[0]'])
+findWindowsObject('Object Repository/btn_Login', [('xpath') : '//Button[0]'])
 ```
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/windows-test-objects/img_script_view.png" width="" height="">
