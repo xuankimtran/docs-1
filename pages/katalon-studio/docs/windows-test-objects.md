@@ -8,7 +8,7 @@ permalink: katalon-studio/docs/windows-test-objects.html
 
 ### Create a test object
 
-1. Select **File > New > Test Object** from the main menu. The **New Test Object** dialog is displayed.
+1. Select **File > New > Windows Object** from the main menu. The **New Windows Object** dialog is displayed.
 2. Provide a name for the new test object, then click **OK** button to create a new object under the **Object Repository** of Katalon Studio.
 
 ### Locator strategy for detecting an object
