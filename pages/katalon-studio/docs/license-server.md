@@ -30,9 +30,11 @@ Katalon OnPremise license server are provided from Katalon team as downloadable 
 
 ## System requirements
 
-<table><thead><tr><th>&nbsp;</th><th>Requirement</th></tr></thead><tbody><tr><th>Operating System</th><td>Windows 7, Windows 8, Windows 10, Linux (Ubuntu based)</td></tr><tr><th>CPU</th><td> <em>Minimum</em>: 2 GHz or faster 32-bit (x86) or 64-bit (x64) processor</td></tr><tr><th>Memory</th><td><p</p><p><em>Minimum</em>: 8 GB RAM (64-bit)</p><p><em.</p><p></p><p><em</p><p><em></p></td></tr><tr><th>Hard Drive</th><td>At least 40 GB available hard disk space.</td></tr></tbody></table>
+<table><thead><tr><th>&nbsp;</th><th>Requirement</th></tr></thead><tbody><tr><th>Operating System</th><td>Windows, Linux (Ubuntu based)</td></tr><tr><th>CPU</th><td> <em>Minimum</em>: 2 GHz or faster 32-bit (x86) or 64-bit (x64) processor</td></tr><tr><th>Memory</th><td><p</p><p><em>Minimum</em>: 8 GB RAM (64-bit)</p><p><em.</p><p></p><p><em</p><p><em></p></td></tr><tr><th>Hard Drive</th><td>At least 40 GB available hard disk space.</td></tr></tbody></table>
 
-## Install and setup a server
+## Install and setup an Onpremise License Server
+
+> This tutorial takes Windows as an example. To learn how to setup an OnPremise License Server in Linux (Ubuntu), please refer to [this document](https://www.docs.katalon.com/katalon-studio/docs/license-server-ubuntu.html).
 
 ### Prerequisite
 
@@ -73,7 +75,7 @@ PostgreSQL database is where you manage all data, including Organizations, Teams
 
 1. Run the installer and follow the Setup Wizard.
 
-- **Destination directory** – this is where KTOP will be installed in your machine
+- **Destination directory** – this is where the license server will be installed in your machine
 
   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/ktop-server/5.PNG" width="" height=""> 
 
@@ -83,7 +85,7 @@ PostgreSQL database is where you manage all data, including Organizations, Teams
 - **Database URL** – the JDBC URL for your database.
 
 
-- **Server URL** - the address of your KTOP site. Syntax: http://<IPAddress>:<TCPPort>
+- **Server URL** - the address of your license server site. Syntax: http://<IPAddress>:<TCPPort>
 E.g., http://localhost:8080
 
 The server will start on your browser once the installation completes with the Activate screen.
@@ -134,10 +136,10 @@ Users are only added to the Organization once they sign in with the newly create
 > As an invited person who has been invited by an Owner/Admin, you can join an organization once you accepted an invitation.
 
 1. Click on the invitation link sent to you
-2. You are navigated to a Katalon TestOps view where you need to create and confirm a new password for the account registered with your email.
+2. You are navigated to an OnPremise License Server view where you need to create and confirm a new password for the account registered with your email.
 
 
-3. Click **Update password**, and you are done with registering your account with Katalon TestOps OnPremise Server.
+3. Click **Update password**, and you are done with registering your account with an OnPremise License Server.
 4. Sign in with the newly created account to start working on Katalon TestOps.
 
 > Troubleshoot
