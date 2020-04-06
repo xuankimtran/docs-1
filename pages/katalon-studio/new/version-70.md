@@ -15,6 +15,23 @@ redirect_from:
 description: Release note 7.x
 ---
 
+## Version 7.3.1
+
+You can download Katalon Studio version 7.3.1 [here](https://github.com/katalon-studio/katalon-studio/releases).
+
+### Improvement
+
+* [Katalon Runtime Engine] Improve execution log in CLI mode
+
+### Fixes
+
+* Bug: Unable to activate Katalon Studio
+* Bug: Unable to open a containing folder of a package in Test Explorer
+* Bug: [Web Service] An issue of saving HTTP Body content created with `x-www-form-urlencoded` or `form-data` option
+* Bug: [Web Service] An issue of handling API response in XML format
+* Bug: [Web Service] Unable to send a SOAP request behind proxy
+* Bug: [DDT] An issue of Database Connection settings being saved across projects
+
 ## Version 7.3.0
 
 ### New Features
