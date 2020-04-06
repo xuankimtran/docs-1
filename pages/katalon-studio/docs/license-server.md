@@ -34,7 +34,7 @@ Katalon OnPremise license server are provided from Katalon team as downloadable 
 
 ## Install and setup an Onpremise License Server
 
-> This tutorial takes Windows as an example. To learn how to setup an OnPremise License Server in Linux (Ubuntu), please refer to [this document](https://www.docs.katalon.com/katalon-studio/docs/license-server-ubuntu.html).
+> This tutorial takes Windows as an example. To learn how to setup an OnPremise License Server in Linux (Ubuntu), please refer to [this document](https://docs.katalon.com/katalon-studio/docs/license-server-ubuntu.html).
 
 ### Prerequisite
 
