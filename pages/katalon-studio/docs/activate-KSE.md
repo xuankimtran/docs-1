@@ -36,11 +36,21 @@ If you're behind a Proxy Server, you need to configure the proxy settings before
 * **No proxy**: there's no proxy.
 * **Manual proxy configuration**: you can manually set up your proxy.
 
-### Troubleshooting common issues with network
+### Troubleshooting activation issues
 
-"_Cannot connect to Katalon TestOps server. Please check your Internet connection and try again._"- This error message indicates Katalon Studio's application cannot communicate with Katalon server to activate it.
+If you have problems with activation, you can troubleshoot the common issues yourself.
+
+First, please make sure you have configured the date and time of the machine installing Katalon Studio based on the local time zone. Differences in date and time may affect the license validation of the Katalon Server.
+
+Below are the common issues you may encounter, please troubleshoot correspondingly.
+
+#### Unable to connect to Katalon TestOps Server
+
+"_Cannot connect to Katalon TestOps server. Please check your Internet connection and try again._"- This error message indicates that Katalon Studio's application cannot communicate with Katalon server to activate it.
 
 Please check your Internet connection and try again. If you are behind a **Proxy Server**, please **Config Proxy** first and try to activate Katalon Studio again.
+
+#### Network Security errors
 
 For Enterprise users with a private network, you may encounter a situation where you fail to execute test scripts or integrate Katalon Studio due to the network security error. Please contact your IT team to whitelist the following domains:
 
@@ -49,9 +59,9 @@ For Enterprise users with a private network, you may encounter a situation where
 * analytics.katalon.com
 * testops.katalon.com
 
-### CAPTCHA required
+#### CAPTCHA required
 
-CAPTCHA is required when a user enters an incorrect password for 5 consecutive times. At that time, you should log into [Katalon TestOps](https://analytics.katalon.com/) with that account and enter the captcha. After that, you should be able to activate Katalon Studio normally.
+CAPTCHA is required when users enter incorrect passwords for multiple consecutive times. At that time, you should log into [Katalon TestOps](https://analytics.katalon.com/) with that account and enter the captcha. After that, you should be able to activate Katalon Studio normally.
 
 ## Offline Activation
 
