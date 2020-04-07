@@ -18,7 +18,7 @@ To address these concerns, we initially created Katalon Studio as a viable alter
 
 ### Katalon Studio
 
-Katalon Studio is a free and robust automation solution for API, web, and mobile testing. It integrates all necessary components with built-in keywords and project templates into a complete automation framework. Katalon Studio is easy for beginners to use but offers advanced capabilities for experienced users. This solution is trusted by an active community from 150+ countries around the world.
+Katalon Studio is a robust automation solution for Web, API, mobile, and desktop testing. It integrates all necessary components with built-in keywords and project templates into a complete automation framework. Katalon Studio is easy for beginners to use but offers advanced capabilities for expert users. This solution is trusted by an active community from 55K+ companies and 160+ countries around the world.
 
 ### Katalon TestOps
 
@@ -57,13 +57,7 @@ Please notice that although we very much appreciate all of your feedback, pull r
 
     - Write new content for Katalon Knowledge Base. Simply fork the repository, make any modification, and send us a **Pull Request** for review.
 
-## Support
-
-### Katalon Community
+## Katalon Community
 
 For technical and product-specific questions, please post your questions to Katalon [forum](https://forum.katalon.com/discussions). We have a team of product specialists and community users to assist with your issues.
 
-### Business Support Service
-
-Already a Katalon Studio user and searching for a long-term automation testing investment? Katalon offers Support Services to provide quick resolution for software issues, bug fixes, and feature requests that are prioritized on our backlog.
-For more details, check out [here](https://www.katalon.com/support-service-options/).
