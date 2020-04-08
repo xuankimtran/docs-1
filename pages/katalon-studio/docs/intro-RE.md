@@ -41,3 +41,11 @@ The number of licenses to acquire should be based on the number of execution mac
 This license model is applied to cloud or virtual machines with dynamic hardware specifications (to execute tests in [Docker](https://docs.katalon.com/katalon-studio/docs/docker.html) or [Azure DevOps plugin](https://docs.katalon.com/katalon-studio/docs/azure-devops-extension.html)). This kind of license provides Enterprise users license mobility when there is no machine quota. The number of licenses to acquire should be based on the maximum number of parallel sessions that you plan to execute.
 
 Please refer to [this document](https://docs.katalon.com/katalon-studio/docs/install-RE.html) for more details about downloading, activating and installing RE.
+
+### Floating License
+
+This license type is applied to all types of execution environments.
+* One license is assigned to one execution session.
+* The license can be shared across multiple accounts/machines.
+
+> Only online activation is allowed.
