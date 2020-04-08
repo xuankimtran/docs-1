@@ -52,6 +52,6 @@ This license type is applied to all types of execution environments.
 * One license is assigned to one execution session.
 * The license can be shared across multiple accounts/machines.
 
-> Only online activation is allowed. If you want to activate offline, you need to have a [TestOps OnPremise](https://docs.katalon.com/katalon-analytics/docs/ktop.html) package.
+> Only online activation is allowed.
 
 
