@@ -24,4 +24,15 @@ description:
 
 In the executions table, click on the extension icon at the end of the execution row, select **Delete** and confirm your action in the pop-up.
 
->Note: Once you have successfully deleted the execution, it may take a little while for it to disappear from the test executions table.
+*Once you have successfully deleted the execution, it may take a little while for it to disappear from the test executions table.*
+
+> **Quick tips: Delete multiple executions**
+>
+> You can delete multiple executions at once by using the bulk selection feature in Executions screen.
+>
+> After choosing the executions that you want to delete, click on the Delete button and confirm your action.
+>
+> <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/project-management-delete/delete-multiple-execution.png" width="" height="">
+>
+> *Please note that the action cannot be undone. Once you delete the executions, they will be gone forever.*
+
