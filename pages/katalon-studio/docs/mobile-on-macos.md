@@ -103,15 +103,15 @@ Please follow this link: https://brew.sh/.
 `brew unlink usbmuxd`\
 `brew link usbmuxd`
 
-**Install ios-webkit-debug-proxy**
-
-`brew install ios-webkit-debug-proxy`
-
 **Install libimobiledevice**
 
 `brew install --HEAD libimobiledevice`\
 `brew unlink libimobiledevice`\
 `brew link libimobiledevice`
+
+**Install ios-webkit-debug-proxy**
+
+`brew install ios-webkit-debug-proxy`
 
 **Install WebDriverAgent**
 
