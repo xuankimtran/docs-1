@@ -1123,6 +1123,8 @@ items:
             url: /katalon-analytics/docs/project-management-import-KS.html
           - title: "Upload Test Results using Command Line"
             url: /katalon-analytics/docs/project-management-import-cli.html
+          - title: "Download Test Results"
+            url: /katalon-analytics/docs/download-test-results.html
           - title: "Delete a project or a test execution"
             url: /katalon-analytics/docs/project-management-delete.html
       - title: "Remote Execution"
