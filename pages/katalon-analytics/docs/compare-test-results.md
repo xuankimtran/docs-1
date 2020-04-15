@@ -6,9 +6,9 @@ description:
 ---
 TestOps allows you to compare the results of multiple test executions in a side-by-side table so that you can easily know whether or not a test is producing the same result each time it is run.
 
-1. Go to Executions section in your project;
+1. Go to **Executions** section in your project;
 2. Select test executions form the list by checking the checkboxes;
-3. Click on the Compare button;
+3. Click on the **Compare** button;
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/compare-test-results/1-compare.png" width="" height="">
 
