@@ -15,9 +15,15 @@ redirect_from:
 description: Release note 7.x
 ---
 
-## Version 7.3.1
+You can download Katalon Studio's latest version [here](https://github.com/katalon-studio/katalon-studio/releases).
 
-You can download Katalon Studio version 7.3.1 [here](https://github.com/katalon-studio/katalon-studio/releases).
+## Version 7.3.2 - 7.3.3
+
+### Fix
+
+* Bug: Unable to activate Katalon Runtime Engine on Oracle Linux Server 7.6
+
+## Version 7.3.1
 
 ### Improvement
 
