@@ -14,7 +14,7 @@ Once you see the below message, your **Katalon Recorder** data will be automatic
 
 ## View backup data in Katalon TestOps
 
-To view backup data in **Katalon TestOps**, go to **Profile** > **Katalon Recorder backup**.
+To view backup data in [**Katalon TestOps**](https://www.analytics.katalon.com/), go to **Profile** > **Katalon Recorder backup**.
 
 You can also download backup files here.
 
