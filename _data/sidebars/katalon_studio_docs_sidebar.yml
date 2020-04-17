@@ -921,6 +921,8 @@ items:
             url: /katalon-studio/docs/testrail-integration.html
           - title: "TestLink Integration"
             url: /katalon-studio/docs/testlink-integration.html
+          - title: "App Center Integration"
+            url: /katalon-studio/docs/app-center.html
       - title: "Katalon Studio Plugins"
         tree:
           - title: "Integration Plugins"
