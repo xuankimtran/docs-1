@@ -25,7 +25,7 @@ Katalon Studio's new features to facilitate the migration include:
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/Selenium-TestNG-Migration/new-java-class.png" width="362" height="">
 
-2. Built-in TestNG keywords to support JUnit runner, including:
+2. Built-in TestNG/JUnit keywords, including:
 
 * Run TestNG Test Classes
 * Run TestNG Test Suites
@@ -33,7 +33,7 @@ Katalon Studio's new features to facilitate the migration include:
 
 ## Keywords' details
 
-To enable the built-in keywords in GUI, please download the [TestNG keyword]() plugin and put its `jar` file in the destination Katalon project's **Plugins/platform** folder.
+To enable the built-in keywords in the manual view, please download the [TestNG/JUnit Keywords](https://store.katalon.com/product/180/TestNG-JUnit-Keywords) plugin and put its `jar` file in the destination Katalon project's **Plugins/platform** folder.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/Selenium-TestNG-Migration/testng-kw.png" width="260" height="">
 

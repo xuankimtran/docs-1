@@ -21,7 +21,8 @@ You can download Katalon Studio's latest version [here](https://github.com/katal
 
 ### New features
 
-* Support migrating Selenium/TestNG/JUnit test scripts to Katalon Studio. [Learn more](https://docs.katalon.com/katalon-studio/docs/selenium-testng-junit-migration.html).
+* Support migrating Selenium/TestNG/JUnit test scripts to Katalon Studio. [Learn more](https://docs.katalon.com/katalon-studio/docs/selenium-testng-junit-migration.html)
+* Publish [TestNG/JUnit Keywords](https://store.katalon.com/product/180/TestNG-JUnit-Keywords) plugin
 * Support Chrome 81
 
 ## Version 7.3.2 - 7.3.3
