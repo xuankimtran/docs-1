@@ -921,6 +921,8 @@ items:
             url: /katalon-studio/docs/testrail-integration.html
           - title: "TestLink Integration"
             url: /katalon-studio/docs/testlink-integration.html
+          - title: "App Center Integration"
+            url: /katalon-studio/docs/app-center.html
       - title: "Selenium/TestNG/JUnit Migration"
         url: /katalon-studio/docs/selenium-testng-junit-migration.html
       - title: "Katalon Studio Plugins"
