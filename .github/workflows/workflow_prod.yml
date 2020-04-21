@@ -33,7 +33,8 @@ jobs:
     - name: List sites 
       run: |
         pwd
-        ls -la 
+        ls -la
+        cat javadoc/overview-summary.html
         
     - name: Configure AWS Credentials
       uses: aws-actions/configure-aws-credentials@v1
