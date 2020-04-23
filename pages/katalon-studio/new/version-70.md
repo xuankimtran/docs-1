@@ -17,6 +17,25 @@ description: Release note 7.x
 
 You can download Katalon Studio's latest version [here](https://github.com/katalon-studio/katalon-studio/releases).
 
+## Version 7.4.2
+
+### New features
+
+* Allow setting a default execution profile at project level. [Learn more](https://docs.katalon.com/katalon-studio/docs/execution-profile-v54.html#set-default-profile-at-project-level)
+* [API Testing] Support defining body content of RESTful API requests with methods other than POST/PUT/PATCH/DELETE
+
+### Improvements
+
+* Enhance GUI of the following components: Image-based Testing in Test Explorer, Katalon TestOps Integration dialog, Activation dialog, and CAPTCHA error in the Activation dialog
+* [Katalon Runtime Engine] Improve execution log in CLI mode
+
+### Fixes
+
+* Bug: [Mobile Testing] Unable to scroll down to see all test object attributes
+* Bug: [Test Explorer] Unable to open a feature file if it is not under the **Include** folder. Address [#293](https://github.com/katalon-studio/katalon-studio/issues/293)
+* Bug: Window Objects' references in Test Case not being updated automatically when Windows Objects are renamed. Address [#289](https://github.com/katalon-studio/katalon-studio/issues/289)
+* Bug: Exposing proxy password
+
 ## Version 7.4.0
 
 ### New features
@@ -51,7 +70,7 @@ You can download Katalon Studio's latest version [here](https://github.com/katal
 ### New Features
 
 * Support Microsoft Edge (Chromium) on both Windows and macOS
-* [Windows] Support parameterizing Windows test objects. [Learn more](https://docs.katalon.com/katalon-studio/docs/windows-test-objects.html#parameterize-windows-test-objects).
+* [Windows] Support parameterizing Windows test objects. [Learn more](https://docs.katalon.com/katalon-studio/docs/windows-test-objects.html#parameterize-windows-test-objects)
 * Add a Notification icon
 
 ### Improvements
@@ -70,8 +89,6 @@ You can download Katalon Studio's latest version [here](https://github.com/katal
 * Bug: [API] Unable to send a request in macOS or Linux if its HTTP body uses `form-data` or `file` with relative path on Windows machine
 
 ## Version 7.2.7
-
-You can download Katalon Studio version 7.2.7 [here](https://github.com/kms-technology/katalon/releases).
 
 ### Fixes
 
@@ -127,8 +144,8 @@ You can download Katalon Studio version 7.2.7 [here](https://github.com/kms-tech
 
 ### New Features
 
-- [Web Testing] Support image-based object recognition. [Learn more](https://docs.katalon.com/katalon-studio/docs/manage-web-test-object.html#visual-object-recognition)
-- Allow activating Katalon Studio with Katalon TestOps OnPremise Server's licenses
+* [Web Testing] Support image-based object recognition. [Learn more](https://docs.katalon.com/katalon-studio/docs/manage-web-test-object.html#visual-object-recognition)
+* Allow activating Katalon Studio with Katalon TestOps OnPremise Server's licenses
 
 ## Version 7.2.0 - 7.2.1
 
