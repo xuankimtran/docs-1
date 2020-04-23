@@ -16,7 +16,9 @@ redirect_from:
 ---
 Katalon TestOps (Beta) is an application that provides an in-depth view of test execution reports through powerful visualization including charts, graphs, and metrics. Currently, Katalon TestOps supports integration with Katalon Studio for better test report management.
 
-Currently, there are two versions of Katalon TestOps. One is a [cloud-based application](https://docs.katalon.com/katalon-analytics/docs/overview.html) and the other is on-premise software that's called [Katalon TestOps OnPremise (KTOP)](https://docs.katalon.com/katalon-analytics/docs/ktop-overview.html) working in network-restricted environments
+> Katalon TestOps is currently in the beta stage and the official offerings will be released later.
+
+There are two versions of Katalon TestOps (beta). One is a [cloud-based application](https://docs.katalon.com/katalon-analytics/docs/overview.html) and the other is on-premise software that's called [Katalon TestOps OnPremise (KTOP)](https://docs.katalon.com/katalon-analytics/docs/ktop-overview.html) working in network-restricted environments. 
 
 Starting in **Katalon Studio version 7.0**, you need to specify the organization you're working on to log in to Katalon Studio. If you want to switch to another organization, you have to deactivate and reactivate Katalon Studio.
 
