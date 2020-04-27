@@ -17,6 +17,23 @@ description: Release note 7.x
 
 You can download Katalon Studio's latest version [here](https://github.com/katalon-studio/katalon-studio/releases).
 
+## Version 7.5.0
+
+### New features
+
+* [KSE - Enterprise] Implement Native Windows Recorder. [Learn more]()
+* [KSE - Enterprise] Support a keyword to upload files by drag-and-drop, which is [uploadFileWithDragAndDrop](https://docs.katalon.com/katalon-studio/docs/webui-upload-file-drag-and-drop.html)
+* [KSE - Enterprise] Send email of Test Suite Collection' report. [Learn more](https://docs.katalon.com/katalon-studio/docs/execution-settings.html#emails-settings)
+* [KSE - Enterprise] Allow retrying only Failed test data set in iteration. [Learn more](https://docs.katalon.com/katalon-studio/docs/test-suite.html#modify-execution-information)
+
+### Improvements
+
+* [Web Service] Enhance WSDL importing feature. [Learn more](https://docs.katalon.com/katalon-studio/docs/import-soap-requests-from-wsdl.html) and [Soap](https://docs.katalon.com/katalon-studio/docs/soap.html)
+* [Web Service] Support defining content type for multipart/form-data parameter. [Learn more]()
+* Improve Proxy Settings. [Learn more](https://docs.katalon.com/katalon-studio/docs/katalon-studio-preferences.html#proxy-preferences)
+
+### Fixes
+
 ## Version 7.4.2
 
 ### New features
