@@ -1121,6 +1121,8 @@ items:
             url: /katalon-analytics/docs/project-management-main-toolbar.html
       - title: "TestOps Center"
         tree:
+          - title: "Overview"
+            url: /katalon-analytics/docs/TO-center-overview.html
           - title: "Test Results and Monitoring"
             tree:
              - title: "Integration with Katalon Studio"
