@@ -8,7 +8,7 @@ Agent is an essential ingredient for remote execution on Katalon TestOps. This p
 
 ## Download and install Agents
 
-1. On Katalon TestOps, select your Project > **Agents**.
+1. On Katalon TestOps, select your **Project** > **Agents**.
 2. In **Agent Installation Package**, enter the required information:
     * **Agent Name**: It's recommended to give a meaningful name for distinguishing Agents.
     * **API Key**: Use an existing [API key](/katalon-analytics/docs/ka-api-key) or create a new one on your Profile page.

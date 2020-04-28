@@ -27,9 +27,9 @@ You can view and manage all API Objects.
 
 With Tasks, you can create, view and manage all tasks linked to multiple test cases. Task details consist of ID, Name, and Description. [More details](katalon-analytics/docs/project-management-task.html).
 
-**Grid**
+**Plan**
 
-With Grid, you can create and manage test plans in different execution environments. [More details]().
+With Plan, you can create and manage test plans in different execution environments.
 
 **Code Repo**
 
