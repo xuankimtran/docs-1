@@ -240,11 +240,132 @@ Windows-Only Options
 Proxy Options
 -------------
 
-These proxy options below must be used with `--config` parameter e.g. `--config -proxy.option=USE_SYSTEM`. Example:
+>In **version 7.5+**, there are two types of proxy configurations: Authentication and System proxies. Refer to [this document](https://docs.katalon.com/katalon-studio/docs/proxy-preferences.html) for further details.
+>
+> In **version 7.2+**, you can exclude proxy in **manual** configuration.
+>
+> In **version 7.0+**, you can pass proxy details via a request object in Web Service testing. Refer to [this document](https://docs.katalon.com/katalon-studio/docs/proxy-preferences.html#pass-proxy-details-through-the-script) for further details.
+
+These proxy options must be used with `--config` parameter e.g. `--config -proxy.auth.option=MANUAL_CONFIG`.
 
 ```groovy
-katalonc -noSplash  -runMode=console -consoleLog -noExit -projectPath= "C:\Users\Katalon Studio\Project\YourProject.prj" -retry= 0 -testSuitePath= "Test Suites/TS_RegressionTest" -browserType= "Chrome (headless)" --config -proxy.option=MANUAL_CONFIG -proxy.server.type=HTTP -proxy.server.address= "192.168.12.32" -proxy.server.port= "8888"
+katalonc -noSplash -runMode=console -projectPath="C:\Users\Katalon Studio\Project\YourProject.prj" -retry=0 -testSuitePath="Test Suites/download" -executionProfile="default" -browserType="Chrome" --config -proxy.auth.option=MANUAL_CONFIG -proxy.auth.server.type=HTTP -proxy.auth.server.address=192.168.1.16 -proxy.auth.server.port=16000 -proxy.system.option=MANUAL_CONFIG -proxy.system.server.type=HTTP -proxy.system.server.address=127.0.0.1 -proxy.system.server.port=12701 -proxy.system.username=katalon -proxy.system.password=T3stP@zZW0rol -proxy.system.applyToDesiredCapabilities=true
 ```
+
+### Authentication Proxy
+
+<table>
+   <thead>
+      <tr>
+         <th>Authentication Proxy Option</th>
+         <th>Description</th>
+         <th>Mandatory?</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td colspan="3">
+            <strong>
+         </td>
+      </tr>
+      <tr>
+         <td>-proxy.auth.option</td>
+         <td>NO_PROXY, USE_SYSTEM, MANUAL_CONFIG</td>
+         <td>Y</td>
+      </tr>
+      <tr>
+         <td>-proxy.auth.server.type</td>
+         <td>&nbsp;HTTP, HTTPS, or SOCKS</td>
+         <td>Y</td>
+      </tr>
+      <tr>
+         <td>-proxy.auth.server.address</td>
+         <td>Example: locahost,&nbsp;<a class="external-link" href="katalon.com" rel="nofollow">katalon.com</a></td>
+         <td>Y</td>
+      </tr>
+      <tr>
+         <td>-proxy.auth.server.port</td>
+         <td>Example: 80, 8080, 9999</td>
+         <td>Y</td>
+      </tr>
+      <tr>
+         <td>-proxy.auth.excludes</td>
+         <td>Example: 127.0.0.1, localhost, myserver.com</td>
+         <td>N</td>
+      </tr>
+      <tr>
+         <td>-proxy.auth.username</td>
+         <td>Example:&nbsp;MyProxyUsername</td>
+         <td>Optional (YES if your proxy server requires authentication)</td>
+      </tr>
+      <tr>
+         <td>-proxy.auth.password</td>
+         <td>Example: MyProxyPassword</td>
+         <td>Optional (YES if your proxy server requires authentication)</td>
+      </tr>
+   </tbody>
+</table>
+
+### System Proxy
+
+<table>
+   <thead>
+      <tr>
+         <th>System Proxy Option</th>
+         <th>Description</th>
+         <th>Mandatory?</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td colspan="3">
+            <strong>
+         </td>
+      </tr>
+      <tr>
+         <td>-proxy.system.option</td>
+         <td>NO_PROXY, USE_SYSTEM, MANUAL_CONFIG</td>
+         <td>Y</td>
+      </tr>
+      <tr>
+         <td>-proxy.system.server.type</td>
+         <td>&nbsp;HTTP, HTTPS, or SOCKS</td>
+         <td>Y</td>
+      </tr>
+      <tr>
+         <td>-proxy.system.server.address</td>
+         <td>Example: locahost,&nbsp;<a class="external-link" href="katalon.com" rel="nofollow">katalon.com</a></td>
+         <td>Y</td>
+      </tr>
+      <tr>
+         <td>-proxy.system.server.port</td>
+         <td>Example: 80, 8080, 9999</td>
+         <td>Y</td>
+      </tr>
+      <tr>
+         <td>-proxy.system.excludes</td>
+         <td>Example: 127.0.0.1, localhost, myserver.com</td>
+         <td>N</td>
+      </tr>
+      <tr>
+         <td>-proxy.system.username</td>
+         <td>Example:&nbsp;MyProxyUsername</td>
+         <td>Optional (YES if your proxy server requires authentication)</td>
+      </tr>
+      <tr>
+         <td>-proxy.system.password</td>
+         <td>Example: MyProxyPassword</td>
+         <td>Optional (YES if your proxy server requires authentication)</td>
+      </tr>
+      <tr>
+         <td>-proxy.system.applyToDesiredCapabilities</td>
+         <td>Example: true or false </td>
+         <td>N</td>
+      </tr>
+   </tbody>
+</table>
+
+### Proxy Configurations prior to 7.5.0
 
 <table>
    <thead>
@@ -276,14 +397,14 @@ katalonc -noSplash  -runMode=console -consoleLog -noExit -projectPath= "C:\Users
          <td>Y</td>
       </tr>
       <tr>
-         <td>-proxy.excludes</td>
-         <td>Example: 127.0.0.1, localhost, myserver.com</td>
-         <td>N</td>
-      </tr>
-      <tr>
          <td>-proxy.server.port</td>
          <td>Example: 80, 8080, 9999</td>
          <td>Y</td>
+      </tr>
+      <tr>
+         <td>-proxy.excludes</td>
+         <td>Example: 127.0.0.1, localhost, myserver.com</td>
+         <td>N</td>
       </tr>
       <tr>
          <td>-proxy.username</td>
@@ -297,10 +418,6 @@ katalonc -noSplash  -runMode=console -consoleLog -noExit -projectPath= "C:\Users
       </tr>
    </tbody>
 </table>
-
-Starting from **version 7.0.0**, Katalon Studio supports an option to pass proxy details via a request object in Web Service testing. Refer to [this document](https://docs.katalon.com/katalon-studio/docs/proxy-preferences.html#pass-proxy-details-through-the-script) for further details.
-
-The ability to exclude proxy in manual configuration is only available on **version 7.2** and later.
 
 Integration Options
 -------------------

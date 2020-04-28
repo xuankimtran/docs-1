@@ -17,7 +17,7 @@ description: Release note 7.x
 
 You can download Katalon Studio's latest version [here](https://github.com/katalon-studio/katalon-studio/releases).
 
-## Version 7.5.0
+## Version 7.4.3 - 7.5.0
 
 ### New features
 
@@ -28,11 +28,15 @@ You can download Katalon Studio's latest version [here](https://github.com/katal
 
 ### Improvements
 
+* [Katalon Runtime Engine] Improve execution log in CLI mode by printing out applied proxy configurations
 * [Web Service] Enhance WSDL importing feature. [Learn more](https://docs.katalon.com/katalon-studio/docs/import-soap-requests-from-wsdl.html) and [Soap](https://docs.katalon.com/katalon-studio/docs/soap.html)
 * [Web Service] Support defining content type for multipart/form-data parameter. [Learn more]()
-* Improve Proxy Settings. [Learn more](https://docs.katalon.com/katalon-studio/docs/katalon-studio-preferences.html#proxy-preferences)
+* Improve Proxy Settings with two separate types including **Authentication** and **System** proxies. [Learn more](https://docs.katalon.com/katalon-studio/docs/katalon-studio-preferences.html#proxy-preferences)
 
 ### Fixes
+
+* Fix an issue of OAUth1.0 Authorization
+* MemSQL
 
 ## Version 7.4.2
 

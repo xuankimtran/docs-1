@@ -79,25 +79,34 @@ After the line-wrapping enabled:
 
 ## Proxy Preferences
 
-Proxy can be configured at: **Katalon Studio> Preferences > Katalon > Proxy**. This setting affects both WebUI and WebService testings.
+Starting in Katalon Studio version **7.5.0**, proxy is divided into two categories: Authentication and System proxies. You can apply different proxy configurations for connecting to the Katalon server and your servers during testing.
 
-In the Proxy Settings, you can select one of three options below.
+Please go to **Katalon Studio> Preferences > Katalon > Proxy** and select **Authentication** or **System** section for corresponding proxy configuration of each type. These settings affect both WebUI and WebService testings.
+
+### Authentication Proxy
+
+The proxy configurations in this section are used for all network connections to authenticate with Katalon Servers including Katalon account authentication, Katalon Auto-updater, Katalon TestOps and Store integration, sample projects provider, AMI Authentication, and etc)
+
+### System Proxy
+
+System proxy configurations are applied to all network connections generated when using Katalon Studio, including but not limited to recording, spying, executing tests, integrating with other tools (qTest), downloading Web Drivers or Android SDK.
+
+### Proxy Settings
+
+In the Proxy Settings areas of Authentication and System, you can select one of three options below.
 
 * **No proxy**: there's no proxy.
-
 * **Use system proxy configuration**: Katalon Studio guesses which proxy server your system is behind by checking Java, browser and operating system settings, and environment variables.
-
   > Notes: Proxy auto-config (PAC) file is supported in version 7.1 and later. You need to select **Use system proxy configuration** to utilize a PAC file.
-  
-* **Manual proxy configuration**: you can manually set up your proxy.
-  * Address: a HTTP Proxy host.
-  * Port: a HTTP Proxy port.
-  * Excludes: A list of addresses separated by comma to exclude. 
-  > The ability to exclude proxy is available in version 7.2 and later. Katalon Studio only supports proxy exceptions in web recorder and spying with **Chrome** and **Firefox**.
-  
-  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/proxy-manual.png" width="663.5" height="">
+* **Manual proxy configuration**: you can manually set up your proxy
+  * Address: a HTTP Proxy host
+  * Port: a HTTP Proxy port
+  * Excludes: A list of addresses separated by comma to exclude
+  > The ability to exclude proxy is available in **version 7.2+**. Katalon Studio only supports proxy exceptions in web recorder and spying with **Chrome** and **Firefox**.
 
-> If you're behind a Proxy Server, you'll need to configure the proxy settings before activating Katalon Studio. Click **Config Proxy** at the bottom of the Activation dialog box.
+For **System** proxy, you can apply this configuration to test execution desired capabilities automatically by checking in the provided option.
+
+  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/proxy-system.png" width="">
 
 ### Override proxy details in the test script
 
@@ -113,7 +122,16 @@ proxyInfo.setProxyServerType(ProxyServerType.HTTP.toString())
 requestObject.setProxy(proxyInfo)
 ```
 
->**Note**: The proxy information passed in the request object takes precedence over the proxy information set in **Preferences**.
+> The proxy information passed in the request object takes precedence over the proxy information set in **Preferences**.
+
+### Troubleshoot proxy issues
+
+If you're behind a Proxy Server, you'll need to configure the proxy settings before activating Katalon Studio. Click **Config Proxy** at the bottom of the Activation dialog box.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/config-proxy-activation.png" width="">
+
+"New and old proxy mechanisms are not allowed in one command. Please use either the new or the old one."
+
 
 ## Object Spy Preferences
 
@@ -127,20 +145,10 @@ Users can check/uncheck this option to pin Object Spy Window on top while spying
 
 ### Hotkeys
 
-Katalon Studio supports customizable hotkeys for Object Spy function so that users can choose the preferred combination or avoid confliction with UAT hotkeys. 
+Katalon Studio supports customizable hotkeys for Object Spy function so that users can choose the preferred combination or avoid confliction with UAT hotkeys.
 
 > This ability to change hotkeys for Object Spy only affect Chrome browser. Other browsers will be considered for future releases.
 
-## Using Katalon Studio in Dark theme
+## Apply Dark theme
 
-By default, Katalon Studio has the Light theme applied. Starting in version 6.3.0, Dark Theme is available.
-
-To enable it, from __Window__, select __Themes__, then select __Dark__.
-
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dark-theme/1-darktheme.png)
-
-Katalon Studio is required restarting to enable another theme to be applied.
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dark-theme/2-darktheme.png)
-
+By default, Katalon Studio has the Light theme applied. Starting in version 6.3.0, Dark Theme is available. You can enable it at **Window > Themes >Dark**. Katalon Studio is required restarting to enable another theme to be applied.
