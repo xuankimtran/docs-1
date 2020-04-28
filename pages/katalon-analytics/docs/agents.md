@@ -6,14 +6,17 @@ description:
 ---
 Agent is an essential ingredient for remote execution on Katalon TestOps. This piece of software manages local servers for executing the scheduled tests. Katalon supports Agents that are compatible with different execution environments.
 
+> Agents are shared among members and projects within a team.
+
 ## Download and install Agents
 
-1. On Katalon TestOps, select your **Project** > **Agents**.
+> You can download Agents [here](https://github.com/katalon-studio/katalon-agent/releases).
+
+1. On Katalon TestOps, go to your project and select **TestOps CI** > **Agent Setup**.
 2. In **Agent Installation Package**, enter the required information:
     * **Agent Name**: It's recommended to give a meaningful name for distinguishing Agents.
     * **API Key**: Use an existing [API key](/katalon-analytics/docs/ka-api-key) or create a new one on your Profile page.
-    * **Agent OS**: Katalon supports the following operating systems: Windows x64, Linux x64, and MacOS x64.
-3. Click **Download Agent**.
+3. Click **Download Agent Configuration**.
 4. Unzip the downloaded package. You will see an **agentconfig** file containing Katalon TestOps integration details and an agent executable file (e.g., **cli-macos-x64** for MacOS).
     > You may edit the agent configuration file later on your local machine.
 5. Open your **Command-line Interface** and locate the agent installation package folder.
@@ -23,7 +26,11 @@ Agent is an essential ingredient for remote execution on Katalon TestOps. This p
      > Please make sure you have given execute permission to both start script and executable file.
    * Windows: `start.bat`
 
-7. It may take a while for the Agent to start. When the starting Agent process finishes, reload the **Agents** view in your Project on Katalon TestOps. Here you can see the installed Agent and its details.
+7. It may take a while for the Agent to start.
+
+To view Agent statuses, go to **Test Environments** in **TestOps CI**.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/agents/agent-status.png)
 
 ## Authentication with Katalon TestOps
 

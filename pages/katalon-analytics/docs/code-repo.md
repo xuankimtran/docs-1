@@ -6,7 +6,9 @@ description:
 ---
 After downloading and configuring Agents, the next step is to create a test project in **Code Repo**. It is where you store your test projects for remote execution.
 
-On Katalon TestOps, go to your **Project** and select **Code Repo**. Here you can view your existing projects or create a new test project.
+On Katalon TestOps, go to your **Project**, choose **TestOps CI** and select **Code Repo**. Here you can view your existing projects or create a new test project.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/code-repo/code-repo.png)
 
 To create a new test project:
 
@@ -16,3 +18,5 @@ To create a new test project:
 4. Click **Create** to upload the project code.
 
 When it is completely uploaded, you can click **Plan** to schedule an execution for it. Learn more about [scheduling tests on Katalon TestOps](https://docs.katalon.com/katalon-analytics/docs/kt-scheduler.html).
+
+To create a Git test project, please visit this [document](https://docs.katalon.com/katalon-analytics/docs/git-test-project.html).
