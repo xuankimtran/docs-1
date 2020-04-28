@@ -1,5 +1,5 @@
 ---
-title: "Git Test Project" 
+title: "Upload Git Test Project" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/git-test-project.html 
 description: 

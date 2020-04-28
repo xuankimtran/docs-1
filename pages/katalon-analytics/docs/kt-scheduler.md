@@ -5,7 +5,7 @@ permalink: katalon-analytics/docs/kt-scheduler.html
 description: 
 ---
 
-To schedule a test or view a list of scheduled test, log into Katalon TestOps > go to your project > select **Grid**.
+To schedule a test or view a list of scheduled test, log into Katalon TestOps > go to your project > select **TestOps CI** > select **Plan**.
 
 ## Plan a test
 
@@ -13,10 +13,10 @@ To create a new test plan, please follow the below instruction:
 
 > **Prerequisites**:
 >
-> * You have created a test project in Code Repo.
+> * You have created a test project in **Code Repo**.
 > * Agents must have been configured for test execution.
 
-1. In your project, select **Grid**.
+1. In your project, select **Plan**.
 2. Click **Create Plan** on the top right corner.
 3. In **Configure a Plan**, enter required details to define your test execution plan:
 
@@ -31,13 +31,13 @@ To create a new test plan, please follow the below instruction:
   Or you can use **Pre-Installed Katalon Studio Location** to browse to Katalon Studion on your machine. This option is recommended in network restricted environments.
 
 4. Select an Agent in the drop-down list. If you have just configured an Agent, please wait for a while for it to be registered with Katalon server.
-5. Click **Create**. The newly created test plan will be displayed on the **Grid** view .
+5. Click **Create**. The newly created test plan will be displayed on the **Plan** view .
 
 ## Schedule a test plan
 
 When you have a test plan, you can schedule when to execute it.
 
-1. On the **Grid** view, select a test plan by clicking its name.
+1. On the **Plan** view, select a test plan by clicking its name.
 2. Select **Schedule** on the top right corner.
 3. In the **Schedule** view, enter the required details:
 
