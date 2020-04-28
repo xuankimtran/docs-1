@@ -106,15 +106,17 @@ These settings decide the general behavior of Katalon Studio when executing WebU
 
 ## Emails Settings
 
-These settings allow you to define global email configurations to be used in other features of Katalon Studio. Katalon Studio allows users to receive summary reports via **Email** after **Test Suites** execution. You can access the settings at **Project > Settings > Email**.
+In version **7.5+**, Katalon Studio Enterprise users can send emails of Test Suite Collections' reports.
+
+To receive summary reports via **Email** after an execution of **Test Suites** or **Test Suite Collection**, you need to configure global settings of email in **Project/Settings/Email**
 
 > **Send test email** button only available once **Mail Server Settings** and **Recipients** are filled correctly.
 
-### Configure Mail Server
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/emails-settings/new-ui.png" width="" height="">
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/emails-settings/email1.png" width="" height="">
+### Mail Server
 
-**Mail Server Settings** define the mail server which Katalon Studio will use to send emails.
+**Mail Server Settings** define the mail server Katalon Studio uses for sending emails.
 
 * **Host**: the domain name of the mail server.
 * **Port**: the port to be used for that server.
@@ -122,9 +124,11 @@ These settings allow you to define global email configurations to be used in oth
 * **Protocol**: the protocol to communicate with the mail server (None, SSL, TLS).
 * **Encrypt authentication data** is recommended for sensitive data protection.
 
+>Tips
+>
 > In case your email servers are using two-step authentication, please turn it off.
 >
-> For those who use Gmail & Yahoo! Mail, make sure to allow low secure apps to access your account. Follow the guide [here ](https://support.google.com/accounts/answer/6010255)for Gmail users, or [here](https://help.yahoo.com/kb/account/SLN27791.html) for Yahoo! Mail users.
+> For those who use Gmail & Yahoo! Mail, make sure to allow low secure apps to access your account. Follow [this guide](https://support.google.com/accounts/answer/6010255) for Gmail users, or [the other one](https://help.yahoo.com/kb/account/SLN27791.html) for Yahoo! Mail users.
 
 Below is SMTP configuration for popular email servers:
 
@@ -150,13 +154,17 @@ Below is SMTP configuration for popular email servers:
 * Password: _Your Microsoft password_
 * Protocol: _TLS_
 
-### Edit Email Template
+### Email Template
 
-**Email Template** defines the list of emails to receive reports from Katalon Studio.
+You can defines sender, recipients (the list of emails to receive reports), email subject and body template in this section.
+To customize the email's body templates:
 
-You can customize the body of the email by selecting **Edit Template** or **Project > Settings > Email > Template**. All fields in the template is editable. Click **Apply** when finished.
+* For Test Suite's  email: click **Edit Template for Test Suite Execution** or go to **Project/Settings/Email/Template/Test Suite**
+* For Test Suite Collection's email: **Edit Template for Test Suite Collection Execution** or go to **Project/Settings/Email/Template/Test Suite Collection**
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/emails-settings/email2.png" width="" height="">
+All fields in the templates are editable. Click **Apply** when finished.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/emails-settings/TS-template.png" width="" height="">
 
 Where:
 
@@ -174,7 +182,25 @@ Where:
 | totalFailed | total failed test cases |
 | totalError | total error test cases |
 
-### Configure Report Format
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/emails-settings/TSC-template.png" width="" height="">
+
+Where:
+
+| Variable | Description |
+| --- | --- |
+| hostName | Host's name |
+| os | Operating system |
+| Browser | Browser name and version |
+| deviceId | Id of executed device |
+| deviceName | Name of executed device |
+| suiteId | Id of test suite |
+| suiteName | Name of test suite |
+| totalTestCases | total executed test cases |
+| totalPassed | total passed test cases |
+| totalFailed | total failed test cases |
+| totalError | total error test cases |
+
+### Report Format
 
 **Report Format** allows you to decide whether to include test execution report as email attachment or not. Specifically, you are given options to include **execution log** and configure which **report format** of test suite executions to be sent as attachments in the notification email.
 

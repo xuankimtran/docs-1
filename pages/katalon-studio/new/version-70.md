@@ -36,7 +36,6 @@ You can download Katalon Studio's latest version [here](https://github.com/katal
 ### Fixes
 
 * Fix an issue of OAUth1.0 Authorization
-* MemSQL
 
 ## Version 7.4.2
 
