@@ -91,11 +91,6 @@ Here's the list of options supported for the `katalon` commands in Katalon Studi
          <td>Y</td>
       </tr>
       <tr>
-         <td>-summaryReport</td>
-         <td>Send summary report for a batch run.</td>
-         <td>N</td>
-      </tr>
-      <tr>
          <td>-statusDelay=&lt;seconds&gt;</td>
          <td>System updates execution status of the test suite after the delay period (in seconds) specified.</td>
          <td>N</td>
@@ -185,11 +180,6 @@ Here's the list of options supported for the `katalon` commands in Katalon Studi
          <td>-deviceId=&lt;device Id for Android/device uuid for ios&gt;</td>
          <td>Specify the device's ID to execute test scripts using this device</td>
          <td>Y<em> (If -browserType=Android or -browserType=iOS is used)</em></td>
-      </tr>
-      <tr>
-         <td>-email</td>
-         <td>Registered e-mail on <a class="external-link" href="https://www.katalon.com/" rel="nofollow">Katalon Studio</a> page</td>
-         <td>N <em>(If Katalon Studio is already activated)</em></td>
       </tr>
       <tr>
          <td>-executionProfile</td>

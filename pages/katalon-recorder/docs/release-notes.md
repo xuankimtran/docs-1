@@ -10,6 +10,15 @@ redirect_from:
 description: 
 ---
 
+5.1.0
+
+*   Add some `waitFor` contextual menu actions (@anthonybriand).
+*   Support more commands for Protractor exporter (@anthonybriand).
+
+5.0.0
+
+*   Now all data such as Test Cases, Test Data, Extension Scripts, etc. can be automatically backed up.
+
 4.1.0
 
 *   Added relative=top and relative=up to selectFrame (@svrnm).
