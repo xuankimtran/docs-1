@@ -25,6 +25,21 @@ In the **Organization** view, select **Users** > in the **Users** view, select *
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/invite-users-org.png" width="" height="">
 
+### Delete an Organization
+
+> Only **Owner** can delete an organization.
+
+
+To delete an Organization, go to your Organization and click on **Organization Settings**.
+
+In the **Settings** page, you will see **Delete this orgainzation** option. Click on the button and complete confirmation steps.
+
+> This action cannot be undone. This will permanently delete your organization, projects, licenses, and remove all team associations.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/delete-org.png" width="" height="">
+
+
+
 ## Create a Team
 
 In the **Organization** view, select **Teams** > give a name to your team and click **Create**. You're the team Owner by default.
