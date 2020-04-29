@@ -15,9 +15,7 @@ redirect_from:
     - "/katalon-studio/docs/dynamic%20querying%20test%20suite/"
 description: 
 ---
-A test suite is a collection of multiple test cases. In other words, a test suite contains all the test materials required to conduct a test execution. 
-
-> Since v5.9, Katalon Studio support Test Case duplication within the same Test Suite.
+A test suite is a collection of multiple different or duplicate test cases.
 
 ## Create a new Test Suite
 
@@ -37,7 +35,7 @@ Here's another way to create a test suite: Navigate to the **Add to test suite**
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/Test-suite-2.png)
 
-There are two options to add test cases: 
+There are two options to add test cases:
 - Add to an existing test suite (for you to locate the test cases in an existing test suite)
 - Add to a new test suite (for you to locate the test cases in a new test suite)
 
@@ -72,10 +70,10 @@ You can manage additional configurations for test suite execution by expanding t
       <tr>
          <td>
             <p>Retry:</p>
-            <p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/design-a-test-suite/image2017-2-15-153A93A6.png"></p>
+            <p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/design-a-test-suite/retry.png"></p>
          </td>
          <td>
-            <p>The <strong>maximum</strong> number of retries for execution until it is successfully passed. You can opt to retry only <strong>failed</strong> test cases.</p>
+            <p>The <strong>maximum</strong> number of retries for execution until it is successfully passed. You can opt to retry only <strong>failed</strong> test cases and/or <strong>failed</strong> test data. Please note that Retrying Failed Test Data Only is supported in <strong>version 7.5+</strong>.</p>
             <p>&nbsp;</p>
          </td>
       </tr>

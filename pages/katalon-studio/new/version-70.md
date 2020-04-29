@@ -24,7 +24,7 @@ You can download Katalon Studio's latest version [here](https://github.com/katal
 * [KSE - Enterprise] Implement Native Windows Recorder. [Learn more]()
 * [KSE - Enterprise] Support a keyword to upload files by drag-and-drop, which is [uploadFileWithDragAndDrop](https://docs.katalon.com/katalon-studio/docs/webui-upload-file-drag-and-drop.html)
 * [KSE - Enterprise] Send email of Test Suite Collection' report. [Learn more](https://docs.katalon.com/katalon-studio/docs/execution-settings.html#emails-settings)
-* [KSE - Enterprise] Allow retrying only Failed test data set in iteration. [Learn more](https://docs.katalon.com/katalon-studio/docs/test-suite.html#modify-execution-information)
+* [KSE - Enterprise] Support retrying Failed test data only in Test Suite's execution. [Learn more](https://docs.katalon.com/katalon-studio/docs/test-suite.html#modify-execution-information)
 
 ### Improvements
 
