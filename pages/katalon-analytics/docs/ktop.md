@@ -1,5 +1,5 @@
 ---
-title: "Setup Katalon TestOps OnPremise" 
+title: "Katalon TestOps OnPremise" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/ktop.html
 redirect_from:

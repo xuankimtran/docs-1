@@ -9,8 +9,6 @@ Katalon OnPremise License Server is designed to be installed at a location that 
 Katalon OnPremise license server are provided from Katalon team as downloadable packages and license files, and installed into the license server through its management interface.
 
 > This is a server built based on Katalon OnPremise platform.
-> - If you are KSE subscribers, the platform will be deployed as an OnPremise License Server.
-> - If you Katalon TestOps subscribers, the platform will be deployed as [Katalon TestOps OnPremise](https://docs.katalon.com/katalon-analytics/docs/ktop.html).
 
 
 ## Features
