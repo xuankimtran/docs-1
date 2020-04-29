@@ -19,29 +19,26 @@ A test suite is a collection of multiple different or duplicate test cases.
 
 ## Create a new Test Suite
 
-### From menu
+To create a new Test Suite, do as follows:
 
-The most simple way is to go to File > New > Test Suite.
+1. From the menu bar, select **File > New > Test Suite**
+  ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/test-suite-1.png)
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/test-suite-1.png)
+2. Fill in the name of the test suite and the description (optional).
 
-Fill in the name of the test suite and the description (optional).
+   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/New-test-suite-window.png)
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/New-test-suite-window.png)
+3. Click **OK** when you're done.
 
-### From a Test Case
-
-Here's another way to create a test suite: Navigate to the **Add to test suite** button after you have finished scripting a test case.
+Here's another way to create a new Test Suite. In a Test Case, click  **Add to test suite** button after you have finished creating a test case.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/Test-suite-2.png)
 
-There are two options to add test cases:
-- Add to an existing test suite (for you to locate the test cases in an existing test suite)
-- Add to a new test suite (for you to locate the test cases in a new test suite)
+You can choose to add that test case to an **existing** or a **new** test suite.
 
 ## Modify Execution Information
 
-You can manage additional configurations for test suite execution by expanding the **Execution Information** section, as below:
+You can specify additional configurations for test suite execution by expanding the **Execution Information** section, as below:
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/design-a-test-suite/image2017-2-15-143A493A29.png)
 
@@ -73,7 +70,10 @@ You can manage additional configurations for test suite execution by expanding t
             <p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/design-a-test-suite/retry.png"></p>
          </td>
          <td>
-            <p>The <strong>maximum</strong> number of retries for execution until it is successfully passed. You can opt to retry only <strong>failed</strong> test cases and/or <strong>failed</strong> test data. Please note that Retrying Failed Test Data Only is supported in <strong>version 7.5+</strong>.</p>
+            <p>The <strong>maximum</strong> number of retries for execution until it is successfully passed. You can opt to retry only <strong>failed</strong> test cases and/or <strong>failed</strong> test data.</p>
+            <blockquote class="important">
+               <p>Please note that Retrying Failed Test Data Only is only available for <strong>Katalon Studio Enterprise</strong> users in version <strong>7.5+</strong>.</p>
+            </blockquote>
             <p>&nbsp;</p>
          </td>
       </tr>
