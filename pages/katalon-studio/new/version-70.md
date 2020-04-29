@@ -29,7 +29,7 @@ You can download Katalon Studio's latest version [here](https://github.com/katal
 ### Improvements
 
 * [Katalon Runtime Engine] Improve execution log in CLI mode by printing out applied proxy configurations
-* [Web Service] Enhance WSDL importing feature. [Learn more](https://docs.katalon.com/katalon-studio/docs/import-soap-requests-from-wsdl.html) and [Soap](https://docs.katalon.com/katalon-studio/docs/soap.html)
+* [Web Service] Enhance WSDL importing feature. [Learn more](https://docs.katalon.com/katalon-studio/docs/import-soap-requests-from-wsdl.html).
 * [Web Service] Support defining content type for multipart/form-data parameter. [Learn more]()
 * Improve Proxy Settings with two separate types including **Authentication** and **System** proxies. [Learn more](https://docs.katalon.com/katalon-studio/docs/katalon-studio-preferences.html#proxy-preferences)
 
