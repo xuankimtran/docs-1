@@ -37,12 +37,6 @@ items:
             url: /katalon-studio/docs/re-offline-licenses.html
           - title: "Transfer an Online Katalon Runtime Engine License"
             url: /katalon-studio/docs/transfer-license.html
-          - title: "Katalon OnPremise License Server"
-            tree:
-              - title: Setup and work with Katalon Onpremise License Server
-                url: /katalon-studio/docs/license-server.html
-              - title: Setup Katalon OnPremise License Server in Linux (Ubuntu)
-                url: /katalon-studio/docs/license-server-ubuntu.html
       - title: "Troubleshoot"
         tree:
           - title: "Session Termination Causes"
