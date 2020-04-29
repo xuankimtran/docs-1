@@ -6,14 +6,17 @@ description:
 ---
 Agent is an essential ingredient for remote execution on Katalon TestOps. This piece of software manages local servers for executing the scheduled tests. Katalon supports Agents that are compatible with different execution environments.
 
-To download and install an Agent, please follow this guide:
+> Agents in TestOps CI are shared among members and projects within a team.
 
-1. On Katalon TestOps, select your Project > **Agents**.
+## Download and install Agents
+
+> You can download Agents [here](https://github.com/katalon-studio/katalon-agent/releases).
+
+1. On Katalon TestOps, go to your project and select **TestOps CI** > **Agent Setup**.
 2. In **Agent Installation Package**, enter the required information:
     * **Agent Name**: It's recommended to give a meaningful name for distinguishing Agents.
     * **API Key**: Use an existing [API key](/katalon-analytics/docs/ka-api-key) or create a new one on your Profile page.
-    * **Agent OS**: Katalon supports the following operating systems: Windows x64, Linux x64, and MacOS x64.
-3. Click **Download Agent**.
+3. Click **Download Agent Configuration**.
 4. Unzip the downloaded package. You will see an **agentconfig** file containing Katalon TestOps integration details and an agent executable file (e.g., **cli-macos-x64** for MacOS).
     > You may edit the agent configuration file later on your local machine.
 5. Open your **Command-line Interface** and locate the agent installation package folder.
@@ -23,39 +26,27 @@ To download and install an Agent, please follow this guide:
      > Please make sure you have given execute permission to both start script and executable file.
    * Windows: `start.bat`
 
-7. It may take a while for the Agent to start. When the starting Agent process finishes, reload the **Agents** view in your Project on Katalon TestOps. Here you can see the installed Agent and its details.
+7. It may take a while for the Agent to start.
 
-### Authentication in Katalon TestOps
+To view Agent statuses, go to **Test Environments** in **TestOps CI**.
 
-Based on `serverUrl` in **agentconfig**, the Agent will identify if users are using the cloud or on-premise Katalon TestOps version.
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/agents/agent-status.png)
 
-#### Cloud Katalon TestOps
+## Authentication with Katalon TestOps
 
-For cloud version, Katalon TestOps will use `serverUrl` and `apikey` in **agentconfig** for sending test results to Katalon TestOps and checking online activation.
+Agents will use `serverUrl` and `apikey` in **agentconfig** for:
+* Activating Katalon Runtime Engine used for test execution.
+* Sending test results to Katalon TestOps.
 
-#### Katalon TestOps OnPremise
-
-Katalon TestOps will use `serverUrl` and `apikey` in **agentconfig** for sending test results to Katalon TestOps.
-
-While `serverURL` and `apiKey` in **.katalon/licenseServer.properties** will be used for activation.
-
-  > **Notes**:
-  >
-  > You have to create a **{user.home}/.katalon/licenseServer.properties** (.katalon is a hidden folder). The **licenseServer.properties** must contain the following properties for Katalon Studio to authenticate:
-  >
-  > * `serverURL=https://analytics.katalon.com`
-  > * `apiKey=xxxxxxxx`.
-  >
-  > Go to your profile page > Select **API Key** > Copy an existing API Key for this purpose or create a new one.
-
-Next, you can [upload your project code](/katalon-analytics/docs/code-repo) to Code Repo and [schedule a test](/katalon-analytics/docs/kt-scheduler).
-
-### Proxy settings for Agent
+## Proxy settings for Agent
 
 You can set up proxy for Agent in the `agentconfig` file with the `proxy` option.
 
 For example, `proxy=http://localhost:8080`.
 
+## Next Steps
+
+Next, you can [upload your project code](/katalon-analytics/docs/code-repo) to Code Repo and [schedule a test](/katalon-analytics/docs/kt-scheduler).
 
 
 
