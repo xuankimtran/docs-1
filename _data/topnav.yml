@@ -3,9 +3,12 @@
 topnav:
 - title: Topnav
   items:
-    - title: Manuals
-      url: /katalon-studio/docs/index.html
+    - title: Katalon Studio
+      url: /katalon-studio/docs/overview.html
       parenturl: /katalon-studio/docs
+    - title: Katalon TestOps
+      url: /katalon-analytics/docs/overview.html
+      parenturl: /katalon-analytics/docs
     - title: Plugins
       external_url: https://store.katalon.com
     - title: Videos

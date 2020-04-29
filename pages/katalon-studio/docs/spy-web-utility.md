@@ -12,7 +12,7 @@ description:
 > * Available since version 5.0
 > * [Working with Object Properties](/x/ZxlO)
 > * [Object Identification Best Practices](/display/KD/Optimizing+Object+Identification+and+Tools)
-> * Configure [Web Object Locators Settings](https://docs.katalon.com/katalon-studio/docs/web-locators-settings-since-v571.html
+> * Configure [Web Object Locators Settings](https://docs.katalon.com/katalon-studio/docs/web-locators-settings-since-v571.html)
 
 Enhanced Spy Web Utility is more compact and more intelligent for capturing objects. You can specify Object properties and locating method. The built-in **Verify and Highlight** feature provides the assurance that Katalon Studio can locate the objects. Spy Web Utility window can be **pinned** or **unpinned** for users' convenience while spying.
 

@@ -37,12 +37,6 @@ items:
             url: /katalon-studio/docs/re-offline-licenses.html
           - title: "Transfer an Online Katalon Runtime Engine License"
             url: /katalon-studio/docs/transfer-license.html
-          - title: "Katalon OnPremise License Server"
-            tree:
-              - title: Setup and work with Katalon Onpremise License Server
-                url: /katalon-studio/docs/license-server.html
-              - title: Setup Katalon OnPremise License Server in Linux (Ubuntu)
-                url: /katalon-studio/docs/license-server-ubuntu.html
       - title: "Troubleshoot"
         tree:
           - title: "Session Termination Causes"
@@ -921,6 +915,10 @@ items:
             url: /katalon-studio/docs/testrail-integration.html
           - title: "TestLink Integration"
             url: /katalon-studio/docs/testlink-integration.html
+          - title: "App Center Integration"
+            url: /katalon-studio/docs/app-center.html
+      - title: "Selenium/TestNG/JUnit Migration"
+        url: /katalon-studio/docs/selenium-testng-junit-migration.html
       - title: "Katalon Studio Plugins"
         tree:
           - title: "Integration Plugins"
@@ -1105,6 +1103,8 @@ items:
             url: /katalon-analytics/docs/getting-started.html
           - title: "Set up Organization, Team and Project"
             url: /katalon-analytics/docs/setup-org-team-project.html
+          - title: "Manage an Organization"
+            url: /katalon-analytics/docs/manage-org.html
           - title: "Glossary"
             url: /katalon-analytics/docs/ka-glossary.html
           - title: "API Keys"
@@ -1115,7 +1115,7 @@ items:
             url: /katalon-analytics/docs/user-management.html
           - title: "Introduction to Project Toolbar"
             url: /katalon-analytics/docs/project-management-main-toolbar.html
-      - title: "Test Results and Monitoring"
+      - title: "TestOps Center"
         tree:
           - title: "Integration with Katalon Studio"
             url: /katalon-analytics/docs/integration-with-katalon-studio.html
@@ -1128,6 +1128,39 @@ items:
           - title: "Delete a project or a test execution"
             url: /katalon-analytics/docs/project-management-delete.html
       - title: "Remote Execution"
+          - title: "Overview"
+            url: /katalon-analytics/docs/TO-center-overview.html
+          - title: "Test Results and Monitoring"
+            tree:
+             - title: "Integration with Katalon Studio"
+               url: /katalon-analytics/docs/integration-with-katalon-studio.html
+             - title: "Upload Test Results from Katalon Studio"
+               url: /katalon-analytics/docs/project-management-import-KS.html
+             - title: "Upload Test Results using Command Line"
+               url: /katalon-analytics/docs/project-management-import-cli.html
+             - title: "Delete a project or a test execution"
+               url: /katalon-analytics/docs/project-management-delete.html
+          - title: "Reports and Analytics"
+            tree: 
+             - title: "View Reports"
+               url: /katalon-analytics/docs/project-management-view-reports.html
+             - title: "View Test Execution, Test Suite and Test Case Details"
+               url: /katalon-analytics/docs/project-management-view-details.html
+             - title: "Filter and Sort"
+               url: /katalon-analytics/docs/project-management-filter-and-sort.html
+             - title: "Task Management"
+               url: /katalon-analytics/docs/project-management-task.html
+          - title: "Integration with Jira"
+            tree:
+             - title: "Overview"
+               url: /katalon-analytics/docs/ka-integration-jira.html
+             - title: "Configurations"
+               url: /katalon-analytics/docs/kt-jira-config.html
+             - title: "Working with Jira Issues"
+               url: /katalon-analytics/docs/kt-jira-issue.html
+             - title: "Working with Jira Releases"
+               url: /katalon-analytics/docs/kt-jira-release.html
+      - title: "TestOps CI"
         tree: 
           - title: "Overview"
             url: /katalon-analytics/docs/kt-remote-execution.html
@@ -1135,7 +1168,7 @@ items:
             url: /katalon-analytics/docs/agents.html
           - title: "Upload Test Projects"
             url: /katalon-analytics/docs/code-repo.html
-          - title: "Git Test Project"
+          - title: "Upload Git Test Project"
             url: /katalon-analytics/docs/git-test-project.html
           - title: "Schedule Remote Execution"
             url: /katalon-analytics/docs/kt-scheduler.html
@@ -1145,32 +1178,8 @@ items:
             url: /katalon-analytics/docs/kt-noti-email.html
           - title: "Integration with Jenkins"
             url: /katalon-analytics/docs/ka-integration-jenkins.html
-      - title: "Reports and Analytics"
-        tree: 
-          - title: "View Reports"
-            url: /katalon-analytics/docs/project-management-view-reports.html
-          - title: "View Test Execution, Test Suite and Test Case Details"
-            url: /katalon-analytics/docs/project-management-view-details.html
-          - title: "Filter and Sort"
-            url: /katalon-analytics/docs/project-management-filter-and-sort.html
-          - title: "Task Management"
-            url: /katalon-analytics/docs/project-management-task.html
-      - title: "Integration with Jira"
-        tree:
-          - title: "Overview"
-            url: /katalon-analytics/docs/ka-integration-jira.html
-          - title: "Configurations"
-            url: /katalon-analytics/docs/kt-jira-config.html
-          - title: "Working with Jira Issues"
-            url: /katalon-analytics/docs/kt-jira-issue.html
-          - title: "Working with Jira Releases"
-            url: /katalon-analytics/docs/kt-jira-release.html
       - title: "Katalon TestOps OnPremise"
-        tree:
-          - title: "Setup Katalon TestOps OnPremise"
-            url: /katalon-analytics/docs/ktop.html
-          - title: "Working with Katalon Testops OnPremise"
-            url: /katalon-analytics/docs/ktop-usage.html
+        url: /katalon-analytics/docs/ktop.html
   - title: "Katalon Recorder"
     tree:
       - title: "Overview"

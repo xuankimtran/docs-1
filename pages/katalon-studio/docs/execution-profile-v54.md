@@ -166,3 +166,19 @@ Then in the script code, you can use GlobalVariable.VarName
 CustomKeywords.'helper.addGlobalVariable'('localURL', 'katalon.com')
 println GlobalVariable.localURL
 ```
+
+## Set default profile at project level
+
+You may have multiple profiles for executing your tests, for instance, staging and production profiles with corresponding global variables. It would be convenient if you can set a profile as your default one in every execution of a project. Starting from **version 7.4.2**, you can configure a default profile at project level.
+
+Right-click on your desired execution profile and select **Set as default Execution Profile**.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/set-default-profile.png" width="" height="">
+
+This profile becomes a default execution option for Test Case, Test Suite, and Test Suite Collection.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/tsc.png" width="" height="">
+
+It's also applied for the Executive Platform of the Command Generator in case you use Katalon Runtime Engine.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/cli.png" width="" height="">

@@ -30,7 +30,7 @@ You have to define a Grid Plan on TestOps before assigning the Plan to Jenkins t
    
    * Enter required information 
    * Select **Secret Text** in the **Kind** dropdown
-   * In the **Secret** field, copy and paste the API Key
+   * In the **Secret** field, copy and paste the Katalon TestOps API Key
    * In the **ID** field, we recommend to give a meaningful ID
    * Click **Add**
 
