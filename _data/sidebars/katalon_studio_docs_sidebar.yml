@@ -1109,6 +1109,8 @@ items:
             url: /katalon-analytics/docs/getting-started.html
           - title: "Set up Organization, Team and Project"
             url: /katalon-analytics/docs/setup-org-team-project.html
+          - title: "Manage an Organization"
+            url: /katalon-analytics/docs/manage-org.html
           - title: "Glossary"
             url: /katalon-analytics/docs/ka-glossary.html
           - title: "API Keys"
