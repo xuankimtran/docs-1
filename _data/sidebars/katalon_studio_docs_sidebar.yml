@@ -1157,7 +1157,7 @@ items:
         tree: 
           - title: "Overview"
             url: /katalon-analytics/docs/kt-remote-execution.html
-          - title: "Install and Manage Agents"
+          - title: "Setup and Start an Agent"
             url: /katalon-analytics/docs/agents.html
           - title: "Upload Test Projects"
             url: /katalon-analytics/docs/code-repo.html
