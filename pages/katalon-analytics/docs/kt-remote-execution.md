@@ -1,10 +1,10 @@
 ---
-title: "Overview" 
+title: "TestOps CI Overview" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/kt-remote-execution.html 
 description: 
 ---
-**TestOps CI** is available on both Katalon TestOps cloud (beta). You can maximize the capacity of local servers and speed up the testing process by executing automation tests remotely. Test results will be fed into Katalon TestOps automatically for generating reports and analytics.
+**TestOps CI** is available on Katalon TestOps cloud (beta). You can maximize the capacity of local servers and speed up the testing process by executing automation tests remotely. Test results will be fed into Katalon TestOps automatically for generating reports and analytics.
 
 **Prerequisites**:
 
