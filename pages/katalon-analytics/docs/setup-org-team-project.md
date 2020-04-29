@@ -25,6 +25,8 @@ In the **Organization** view, select **Users** > in the **Users** view, select *
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/invite-users-org.png" width="" height="">
 
+
+
 ## Create a Team
 
 In the **Organization** view, select **Teams** > give a name to your team and click **Create**. You're the team Owner by default.
