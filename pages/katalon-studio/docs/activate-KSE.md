@@ -82,5 +82,4 @@ A machine ID is required for generating an offline license. In the Katalon Studi
 
 After activating KSE, there will be a window requiring you to log into your Katalon account for connecting to [Katalon TestOps](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html) and [Store](https://docs.katalon.com/katalon-store/docs/overview.html).
 
-* KSE users can use plugins both from Store and [offline](https://docs.katalon.com/katalon-studio/docs/offline-plugin.html).
-* Katalon TestOps OnPremise is an offline version of Katalon TestOps. [Learn more](https://docs.katalon.com/katalon-analytics/docs/ktop.html)
+KSE users can use plugins both from Store and [offline](https://docs.katalon.com/katalon-studio/docs/offline-plugin.html).
