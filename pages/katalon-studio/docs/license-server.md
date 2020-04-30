@@ -131,7 +131,7 @@ Users are only added to the Organization once they sign in with the newly create
 
 
 3. Click **Update password**, and you are done with registering your account with an OnPremise License Server.
-4. Sign in with the newly created account to start working on Katalon TestOps.
+4. Sign in with the newly created account to start working on Katalon OnPremise License Server.
 
 > Troubleshoot
 >
