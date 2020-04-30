@@ -6,9 +6,7 @@ description:
 ---
 Katalon OnPremise License Server is designed to be installed at a location that is accessible from a customer’s network, and be configured with licenses obtained from Katalon.
 
-Katalon OnPremise license server are provided from Katalon team as downloadable packages and license files, and installed into the license server through its management interface.
-
-> This is a server built based on Katalon OnPremise platform.
+> The OnPremise licensing server is provided with the volume subscription for Enterprise customers to active Katalon Studio offline and can be acquired by contacting Sales team as indicated on our pricing page (usually it will come with a minimum of 50 licenses).
 
 
 ## Features
@@ -20,11 +18,7 @@ Katalon OnPremise license server are provided from Katalon team as downloadable 
 
 - Manage accounts (login, change & reset password). [Learn more](https://docs.katalon.com/katalon-studio/docs/license-server.html#reset-and-forget-password)
 
-- Configure mail server to send and receive notification about projects. [Learn more](https://docs.katalon.com/katalon-studio/docs/license-server.html#configure-mail-server)
-
 - Activate Katalon Studio with OnPremise license server. [Learn more](https://docs.katalon.com/katalon-studio/docs/license-server.html#activate-katalon-studio-with-katalon-onpremise-license-server)
-
-- Use Katalon plugins with OnPremise license server. [Learn more](https://docs.katalon.com/katalon-studio/docs/license-server.html#use-katalon-plugins-with-katalon-onpremise-license-server)
 
 ## System requirements
 
@@ -38,7 +32,7 @@ Katalon OnPremise license server are provided from Katalon team as downloadable 
 
 - Download [PostgreSQL Database version 9.6.16](https://www.postgresql.org/download/)
 - For integration, Katalon Studio version should be 7.2.2
-- Contact Katalon team to get the **Katalon licensing server package** and a **license file** (.lic file) to activate the licensing server.
+- Contact Katalon team to get the **Katalon license server package** and a **license file** (.lic file) to activate the license server.
 
 
 ### Install and create a PostgreSQL database
@@ -67,7 +61,7 @@ PostgreSQL database is where you manage all data, including Organizations, Teams
 
 > Note: You can use the default superuser postgres or create another Login role with the superuser's privileges.
 
-### Install Katalon licensing server
+### Install Katalon license server
 
 > Contact [Katalon Sales team](mailto:business@katalon.com) to get the package and license file. We recommend installing the versions that are compatible with your operating system (only Linux and Windows are supported).
 
@@ -77,7 +71,7 @@ PostgreSQL database is where you manage all data, including Organizations, Teams
 
   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/ktop-server/5.PNG" width="" height=""> 
 
-- **TCP ports** – these are the HTTP connector and control ports that KTOP will run on. You're recommended to use the default ports unless you're running another application on the same port.
+- **TCP ports** – these are the HTTP connector and control ports that your license server will run on. You're recommended to use the default ports unless you're running another application on the same port.
 
 
 - **Database URL** – the JDBC URL for your database.
@@ -109,7 +103,6 @@ One member of the team can complete these steps to invite all the others to an O
 
 
 3. In the **Organization** View, give a name to your Organization. You can also view your Organization ID here.
-
 
 
 ### Invite Organization Members
@@ -204,61 +197,4 @@ After downloading Katalon Studio, you need to activate it in the **Katalon Studi
 3. Select an Organization you would like to work on in the drop-down list. Click **OK**.
 
 
-Learn more about [the integration between Katalon TestOps and Katalon Studio](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html).
-
-## Configure Mail Server
-
-Katalon OnPremise License Server is designed exclusively for a restricted network environment. You need to configure a mail server to send and receive email notifications of:
-
-* Managing users at the organization or team level.
-* Executing test schedulers.
-
-1. Go to the server. Refer to this [document](https://docs.katalon.com/katalon-studio/docs/licensing-server.html#install-and-setup-a-server) for how to install and set up on the OnPremise server.
-2. Under an Organization, select **Settings** tab.
-3. Provide the information for your mail server.
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-op-mail-server/kt-op-mail-server-config.png)
-
-* **Host:** the domain name of the mail server.
-* **Port:** the port to be used for that server.
-* **Username & Password:** the account to authenticate with the server.
-* **Protocol:** the protocol to communicate with the mail server.
-
-4. Click **Update** to save and apply your configurations.
-
-> Note: You can test the configuration by providing a test recipient and click **Send test email**.
-
-## Use Katalon Plugins with Katalon OnPremise License Server
-
-Katalon Plugins are to extend Katalon Studio's capabilities and integrate the software with your favorite tools. Together with Katalon OnPremise License Server and offline features of Katalon Studio Enterprise, using plugins without Internet access is an excellent complimentary feature for you to:
-
-* Install and use all the plugins that are available on Store without the Internet required (Offline Plugins).
-* Build your plugins and use them directly in Katalon Studio without publishing on Store ([Private Plugins](https://docs.katalon.com/katalon-studio/docs/private-plugins.html)).
-
-
-Follow the below instructions to install and use those plugins.
-
-### Offline plugins
-
-To use any plugins published on Store without accessing the Internet, follow these steps:
-
-1. Contact [Katalon Sales team](mailto:business@katalon.com) to get the whole package of Katalon plugins; or [download plugin packages](https://docs.katalon.com/katalon-store/docs/user/getting-started.html#download-plugin-packages) directly from Store.
-2. Unzip your downloaded plugin package.
-3. Move the plugin package to **<project_name>/plugins**.
-4. Open Katalon Studio and activate Katalon Studio with OnPremise License Sever.
-5. Go to **Project > Settings > Plugins** and select the below option:
-
-* **Local**: Katalon Studio will install plugins from the Plugins folder only.
-
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/ktop-setup-org-team-project/local.png" width="" height="">
-
-   > Troubleshoot
-   >
-   > If you encounter this message, click **Cancel** to continue and double-check if you have selected the **Local** plugin repository in **Project > Settings > Plugins**.
-   > <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/ktop-setup-org-team-project/reload-plugins.png" width="" height="">
-
-### Private plugins
-
-You can learn more about [Private Plugins](https://docs.katalon.com/katalon-studio/docs/private-plugins.html) and how to build them. After having developed a plugin successfully, move the plugin to your project folder **<project_name>/plugins**.
-
-> Katalon Studio treats all offline and private plugins stored in your project folder **<project_name>/plugins** as local plugins. In **Project > Settings > Plugins**, specify where Katalon Studio will download plugins.
+Learn more about [the integration between Katalon OP license server and Katalon Studio](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html).
