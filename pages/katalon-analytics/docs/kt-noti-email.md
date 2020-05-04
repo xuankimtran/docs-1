@@ -14,3 +14,5 @@ In **Katalon TestOps**, click on your **Profile** in the right top corner.
 Then select **Notifications**, specify your settings and click **Save**.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/configure-notification-emails/2-notification.png)
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/configure-notification-emails/3-config-email.png)
