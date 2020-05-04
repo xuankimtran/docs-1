@@ -1119,13 +1119,15 @@ items:
         tree:
           - title: "Integration with Katalon Studio"
             url: /katalon-analytics/docs/integration-with-katalon-studio.html
-          - title: "Upload Test Results from Katalon Studio"
-            url: /katalon-analytics/docs/project-management-import-KS.html
-          - title: "Upload Test Results using Command Line"
-            url: /katalon-analytics/docs/project-management-import-cli.html
-          - title: "Download Test Results"
-            url: /katalon-analytics/docs/download-test-results.html
-          - title: "Delete a project or a test execution"
+          - title: "Upload Test Results"
+            tree:
+              - title: "From Katalon Studio"
+                url: /katalon-analytics/docs/project-management-import-KS.html
+              - title: "Using Command Line"
+                url: /katalon-analytics/docs/project-management-import-cli.html
+          - title: "Compare Test Results"
+            url: /katalon-analytics/docs/compare-test-results.html
+          - title: "Delete a Project or a Test Execution"
             url: /katalon-analytics/docs/project-management-delete.html
       - title: "Remote Execution"
           - title: "Overview"
