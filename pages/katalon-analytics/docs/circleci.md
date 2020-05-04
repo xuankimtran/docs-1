@@ -1,10 +1,10 @@
 ---
 title: "Create CircleCI Test Environment"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-analytics/docs/circleci-agent.html 
+permalink: katalon-analytics/docs/circleci.html 
 description: 
 ---
-TestOps CI allows you to set-up your test environment with CircleCI to schedule and execute tests remotely.
+TestOps CI allows you to set up your test environment with CircleCI to schedule and execute tests remotely.
 
 To create a new CircleCI testenvironment, in TestOps CI, go to **Test Environment** > **CircleCI**.
 
