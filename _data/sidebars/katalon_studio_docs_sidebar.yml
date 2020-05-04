@@ -1157,22 +1157,30 @@ items:
         tree: 
           - title: "Overview"
             url: /katalon-analytics/docs/kt-remote-execution.html
-          - title: "Setup and Start an Agent"
-            url: /katalon-analytics/docs/agents.html
-          - title: "Upload Test Projects"
-            url: /katalon-analytics/docs/code-repo.html
-          - title: "Upload Git Test Project"
-            url: /katalon-analytics/docs/git-test-project.html
-          - title: "Schedule Remote Execution"
-            url: /katalon-analytics/docs/kt-scheduler.html
-          - title: "Execute Scheduled Tests"
-            url: /katalon-analytics/docs/grid-local-agents.html
-          - title: "Configure Notification Emails" 
-            url: /katalon-analytics/docs/kt-noti-email.html
+          - title: "Test Environments"
+            tree:
+              - title: "Local Agents"
+                url: /katalon-analytics/docs/agents.html
+              - title: "CircleCI"
+                url: /katalon-analytics/docs/circleci.html
+          - title: "Code Repo"
+            tree:
+              - title: "Upload Test Projects"
+                url: /katalon-analytics/docs/code-repo.html
+              - title: "Upload Git Test Project"
+                url: /katalon-analytics/docs/git-test-project.html
+          - title: "Remote Execution Plan"
+            tree:
+              - title: "Schedule Remote Executions"
+                url: /katalon-analytics/docs/kt-scheduler.html
+              - title: "Execute Scheduled Tests"
+                url: /katalon-analytics/docs/grid-local-agents.html
           - title: "Integration with Jenkins"
             url: /katalon-analytics/docs/ka-integration-jenkins.html
       - title: "Katalon TestOps OnPremise"
         url: /katalon-analytics/docs/ktop.html
+      - title: "Configure Notification Emails"
+        url: /katalon-analytics/docs/kt-noti-email.html
   - title: "Katalon Recorder"
     tree:
       - title: "Overview"
