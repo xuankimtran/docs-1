@@ -37,12 +37,6 @@ items:
             url: /katalon-studio/docs/re-offline-licenses.html
           - title: "Transfer an Online Katalon Runtime Engine License"
             url: /katalon-studio/docs/transfer-license.html
-          - title: "Katalon OnPremise License Server"
-            tree:
-              - title: Setup and work with Katalon Onpremise License Server
-                url: /katalon-studio/docs/license-server.html
-              - title: Setup Katalon OnPremise License Server in Linux (Ubuntu)
-                url: /katalon-studio/docs/license-server-ubuntu.html
       - title: "Troubleshoot"
         tree:
           - title: "Session Termination Causes"
@@ -1109,6 +1103,8 @@ items:
             url: /katalon-analytics/docs/getting-started.html
           - title: "Set up Organization, Team and Project"
             url: /katalon-analytics/docs/setup-org-team-project.html
+          - title: "Manage an Organization"
+            url: /katalon-analytics/docs/manage-org.html
           - title: "Glossary"
             url: /katalon-analytics/docs/ka-glossary.html
           - title: "API Keys"
@@ -1121,6 +1117,19 @@ items:
             url: /katalon-analytics/docs/project-management-main-toolbar.html
       - title: "TestOps Center"
         tree:
+          - title: "Integration with Katalon Studio"
+            url: /katalon-analytics/docs/integration-with-katalon-studio.html
+          - title: "Upload Test Results"
+            tree:
+              - title: "From Katalon Studio"
+                url: /katalon-analytics/docs/project-management-import-KS.html
+              - title: "Using Command Line"
+                url: /katalon-analytics/docs/project-management-import-cli.html
+          - title: "Compare Test Results"
+            url: /katalon-analytics/docs/compare-test-results.html
+          - title: "Delete a Project or a Test Execution"
+            url: /katalon-analytics/docs/project-management-delete.html
+      - title: "Remote Execution"
           - title: "Overview"
             url: /katalon-analytics/docs/TO-center-overview.html
           - title: "Test Results and Monitoring"
@@ -1197,6 +1206,8 @@ items:
         url: /katalon-recorder/docs/export-test-script.html
       - title: "Katalon Recorder vs Katalon Studio"
         url: /katalon-recorder/docs/katalon-recorder-vs-katalon-studio.html
+      - title: "Auto Backup in Katalon TestOps"
+        url: /katalon-recorder/docs/auto-backup.html
       - title: "Acknowledgments"
         url: /katalon-recorder/docs/acknowledgments.html
   - title: "Katalium Framework"
