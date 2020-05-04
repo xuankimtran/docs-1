@@ -1,5 +1,5 @@
 ---
-title: "Setup and Start an Agent" 
+title: "Start an Agent" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/agents.html 
 description: 
@@ -10,15 +10,16 @@ Agent is an essential ingredient for remote execution on Katalon TestOps. This p
 
 ## Prerequisites
 1. An agent executable file (e.g., **cli-macos-x64** for MacOS). 
-2. A start script (`start.sh` for MacOS/Linux, `start.bat` for Windows)
+
+2. A start script (`start.sh` for MacOS/Linux, `start.bat` for Windows).
 
 > Download Agents and start scripts [here](https://github.com/katalon-studio/katalon-agent/releases).
 
 3. An agent configuration file downloaded in TestOps.
 
-> To start an agent, you need to put 3 files (executable, config and start script) in the same directory.
+> To start an agent, you need to put 3 files (executable, an agent configuration and start script) in the same directory.
 
-## Setup and start an Agent
+## Download an agent configuration file
 
 1. In Katalon TestOps, go to your project and select **TestOps CI** > **Agent Setup**.
 
@@ -34,19 +35,31 @@ Agent is an essential ingredient for remote execution on Katalon TestOps. This p
 
 4. Then you will see an `agentconfig` file containing Katalon TestOps integration details.
     > You may edit the agent configuration file later on your local machine.
+    >
+    > In case there is a file with different name, please make sure you have updated the file name to `agentconfig`.
+
+## Start an Agent in MacOS/Linux
+
+1. Open your **Command-line Interface** and locate the folder where you put the 3 files as mentioned above. For example: `cd Desktop/`.
+
+2. Please make sure you have given execute permission to both start script and executable file (for MacOs and Linux) using the following command: `chmod +x *`.
+
+3. Start the Agent with the following command: `./start.sh`.
+
+4. It may take a while for the Agent to start.
+
+## Start an Agent in Windows
+
+1. Open your **Command-line Interface** and locate the folder where you put the 3 files as mentioned above. For example: `cd Desktop/`.
+
+2. Start the Agent with the following command: `start.bat`
+
+3. It may take a while for the Agent to start.
 
 
-5. Open your **Command-line Interface** and locate the agent installation package folder.
-6. Start the Agent with the below command.
+## View Agent statuses
 
-   * MacOS or Linux: `./start.sh`
-
-     > Please make sure you have given execute permission to both start script and executable file (for MacOs and Linux)
-   * Windows: `start.bat`
-
-7. It may take a while for the Agent to start.
-
-To view Agent statuses, go to **Test Environments** in **TestOps CI**.
+You can check statuses of your Agents by going to **Test Environments** in **TestOps CI**.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/agents/agent-status.png)
 
