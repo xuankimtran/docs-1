@@ -1166,7 +1166,7 @@ items:
         tree: 
           - title: "Overview"
             url: /katalon-analytics/docs/kt-remote-execution.html
-          - title: "Install and Manage Agents"
+          - title: "Setup and Start an Agent"
             url: /katalon-analytics/docs/agents.html
           - title: "Upload Test Projects"
             url: /katalon-analytics/docs/code-repo.html
@@ -1206,6 +1206,8 @@ items:
         url: /katalon-recorder/docs/export-test-script.html
       - title: "Katalon Recorder vs Katalon Studio"
         url: /katalon-recorder/docs/katalon-recorder-vs-katalon-studio.html
+      - title: "Auto Backup in Katalon TestOps"
+        url: /katalon-recorder/docs/auto-backup.html
       - title: "Acknowledgments"
         url: /katalon-recorder/docs/acknowledgments.html
   - title: "Katalium Framework"
