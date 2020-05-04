@@ -1179,6 +1179,8 @@ items:
             url: /katalon-analytics/docs/ka-integration-jenkins.html
       - title: "Katalon TestOps OnPremise"
         url: /katalon-analytics/docs/ktop.html
+      - title: "Configure Notification Emails"
+        url: /katalon-analytics/docs/kt-noti-email.html
   - title: "Katalon Recorder"
     tree:
       - title: "Overview"
