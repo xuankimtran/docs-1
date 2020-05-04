@@ -1204,6 +1204,8 @@ items:
         url: /katalon-recorder/docs/export-test-script.html
       - title: "Katalon Recorder vs Katalon Studio"
         url: /katalon-recorder/docs/katalon-recorder-vs-katalon-studio.html
+      - title: "Auto Backup in Katalon TestOps"
+        url: /katalon-recorder/docs/auto-backup.html
       - title: "Acknowledgments"
         url: /katalon-recorder/docs/acknowledgments.html
   - title: "Katalium Framework"
