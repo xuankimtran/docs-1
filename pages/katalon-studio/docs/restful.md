@@ -34,7 +34,7 @@ After you've created a request successfully, double-click on the request to open
 
 The request method indicates the expected action to be executed on the specified resource. For REST services, Katalon Studio supports the following methods: GET, POST, PUT, DELETE, PATCH, HEAD, CONNECT, OPTIONS, and TRACE. You can refer to [this document](https://restfulapi.net/http-methods/) for more details and specifications of each method.
 
-For Katalon Studio Enterprise users, you can use custom methods added in  **Project Settings > Test Design > API/Web Service Method**. 
+For Katalon Studio Enterprise users, you can use custom methods added in **Project Settings > Test Design > API/Web Service Method**.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-510/custAPI.png)
 
