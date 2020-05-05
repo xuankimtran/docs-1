@@ -112,8 +112,6 @@ These settings allow you to define global email configurations to be used in oth
 
 ### Configure Mail Server
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/emails-settings/email1.png" width="" height="">
-
 **Mail Server Settings** define the mail server which Katalon Studio will use to send emails.
 
 * **Host**: the domain name of the mail server.
@@ -155,8 +153,6 @@ Below is SMTP configuration for popular email servers:
 **Email Template** defines the list of emails to receive reports from Katalon Studio.
 
 You can customize the body of the email by selecting **Edit Template** or **Project > Settings > Email > Template**. All fields in the template is editable. Click **Apply** when finished.
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/emails-settings/email2.png" width="" height="">
 
 Where:
 
