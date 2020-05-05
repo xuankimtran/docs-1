@@ -21,8 +21,8 @@ You can download Katalon Studio's latest version [here](https://github.com/katal
 
 ### New features
 
-* [KSE - Enterprise] Implement Native Windows Recorder. [Learn more]()
-* [KSE - Enterprise] Support a keyword to upload files by drag-and-drop, which is [uploadFileWithDragAndDrop](https://docs.katalon.com/katalon-studio/docs/webui-upload-file-drag-and-drop.html)
+* [KSE - Enterprise] Implement Native Windows Recorder (for Windows only). [Learn more]()
+* [Web Testing] Support a new WebUI keyword to upload files by drag-and-drop. [Learn more](https://docs.katalon.com/katalon-studio/docs/webui-upload-file-drag-and-drop.html)
 * [KSE - Enterprise] Send email of Test Suite Collection' report. [Learn more](https://docs.katalon.com/katalon-studio/docs/execution-settings.html#emails-settings)
 * [KSE - Enterprise] Support retrying Failed test data only in Test Suite's execution. [Learn more](https://docs.katalon.com/katalon-studio/docs/test-suite.html#modify-execution-information)
 
@@ -30,7 +30,7 @@ You can download Katalon Studio's latest version [here](https://github.com/katal
 
 * [Katalon Runtime Engine] Improve execution log in CLI mode by printing out applied proxy configurations
 * [Web Service] Enhance WSDL importing feature. [Learn more](https://docs.katalon.com/katalon-studio/docs/import-soap-requests-from-wsdl.html).
-* [Web Service] Support defining content type for multipart/form-data parameter. [Learn more]()
+* [Web Service] Support defining content type for form-data HTTP Body of RESTful requests. [Learn more](https://docs.katalon.com/katalon-studio/docs/restful.html#request-body)
 * Improve Proxy Settings with two separate types including **Authentication** and **System** proxies. [Learn more](https://docs.katalon.com/katalon-studio/docs/katalon-studio-preferences.html#proxy-preferences)
 
 ### Fixes
