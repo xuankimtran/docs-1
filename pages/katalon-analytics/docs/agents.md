@@ -9,17 +9,28 @@ Agent is an essential ingredient for remote execution on Katalon TestOps. This p
 > Agents in TestOps CI are shared among members and projects within a team.
 
 ## Prerequisites
-1. An agent executable file (e.g., **cli-macos-x64** for MacOS). 
 
-2. A start script (`start.sh` for MacOS/Linux, `start.bat` for Windows).
+### For MacOS/Linux
 
-> Download Agents and start scripts [here](https://github.com/katalon-studio/katalon-agent/releases).
+1. An agent executable file (`cli-macos-x64` or `cli-macos-x86`);
+
+2. A start script (`start.sh`);
 
 3. An agent configuration file downloaded in TestOps.
 
-> To start an agent, you need to put 3 files (executable, an agent configuration and start script) in the same directory.
+### For Windows
 
-## Download an agent configuration file
+1. An agent executable file (`cli-win-x64.exe` or `cli-win-x86.exe`);
+
+2. A start script (`start.bat`);
+
+3. An agent configuration file downloaded in TestOps.
+
+> Download Agents and start scripts [here](https://github.com/katalon-studio/katalon-agent/releases).
+>
+> To start an agent, you need to put 3 files (an gent executable, configuration and start script) in the same directory.
+
+## Download an agent configuration file in TestOps
 
 1. In Katalon TestOps, go to your project and select **TestOps CI** > **Agent Setup**.
 
@@ -57,9 +68,9 @@ Agent is an essential ingredient for remote execution on Katalon TestOps. This p
 3. It may take a while for the Agent to start.
 
 
-## View Agent statuses
+## View Agent status
 
-You can check statuses of your Agents by going to **Test Environments** in **TestOps CI**.
+You can check the Agent status by going to **Test Environments** in **TestOps CI**.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/agents/agent-status.png)
 
