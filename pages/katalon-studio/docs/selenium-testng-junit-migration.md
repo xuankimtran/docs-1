@@ -33,11 +33,15 @@ Katalon Studio's new features to facilitate the migration include:
 
 ## Keywords' details
 
-To enable the built-in keywords in the manual view, please download the [TestNG/JUnit Keywords](https://store.katalon.com/product/180/TestNG-JUnit-Keywords) plugin and put its `jar` file in the destination Katalon project's **Plugins/platform** folder.
+You can enable the built-in keywords in the manual view by using the **TestNG/JUnit Keywords** plugin.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/Selenium-TestNG-Migration/testng-kw.png" width="260" height="">
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/Selenium-TestNG-Migration/testng-kw-2.png" width="334" height="">
+
+After installing the [TestNG/JUnit Keywords](https://store.katalon.com/product/180/TestNG-JUnit-Keywords) plugin from Katalon Store, you need to [reload the plugin](https://docs.katalon.com/katalon-store/docs/user/access-store-in-KS.html#reload-plugins) to start using it.
+
+To use this plugin offline, please refer to [this instruction](https://docs.katalon.com/katalon-studio/docs/offline-plugin.html#using-offline-plugins). Please note that the [TestNG/JUnit Keywords](https://store.katalon.com/product/180/TestNG-JUnit-Keywords) plugin is a *platform* plugin; hence, you need to put its `jar` file in the destination Katalon project's **<project_name>/Plugins/platform** folder.
 
 ### runTestNGTestClasses
 

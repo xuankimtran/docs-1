@@ -18,8 +18,11 @@ Katalon Plugin is to extend Katalon Studio's capabilities and integrate the soft
 To use any plugins published on Store without accessing the Internet, follow these steps:
 
 1. Get a plugin package from Katalon Store. [Learn more](https://docs.katalon.com/katalon-store/docs/user/getting-started.html#download-plugin-packages).
-2. Unzip your downloaded plugin package.
-3. Move the plugin package to **<project_name>/plugins**.
+2. Unzip your downloaded plugin package
+3. Move the plugin package to **<project_name>/plugins**
+   > Please be noted that *Platform* plugins need storing in the **<project_name>/plugins/platform** folder.
+4. Open your project in Katalon Studio and specify the local **Plugins** folder as the plugin repository in Project Settings
+5. Click **Reload Plugins**
 
 ## Using private plugins
 
