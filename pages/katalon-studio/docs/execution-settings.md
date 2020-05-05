@@ -106,13 +106,19 @@ These settings decide the general behavior of Katalon Studio when executing WebU
 
 ## Emails Settings
 
-In version **7.5+**, Katalon Studio Enterprise users can send emails of Test Suite Collections' reports.
+> In version **7.5.0+**, Katalon Studio Enterprise users can send report emails of Test Suite Collection execution.
 
-To receive summary reports via **Email** after an execution of **Test Suites** or **Test Suite Collection**, you need to configure global settings of email in **Project/Settings/Email**
-
-> **Send test email** button only available once **Mail Server Settings** and **Recipients** are filled correctly.
+To receive summary reports via email after an execution of **Test Suite** or **Test Suite Collection**, you need to configure global settings of email in **Project/Settings/Email**.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/emails-settings/new-ui.png" width="" height="">
+
+By default, Katalon Studio is configured to send all report emails for Test Suite executions including Test Suites in a Test Suite Collection.
+
+As an exclusive feature for Katalon Studio Enterprise, users are given an option to receive report emails for Test Suite Collections' executions and skipping single email for each Test Suite stored in that Collection. This feature is proved useful for those who execute Test Suite Collections containing a significant number of Test Suites. In that case, they can check **Skip sending email report for individual Test Suites in the Test Suite Collection** to keep their mail box tidy.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/emails-settings/options.png" width="" height="">
+
+> The **Send test email** button is only enabled once **Mail Server Settings** and **Recipients** are filled correctly.
 
 ### Mail Server
 
@@ -156,53 +162,49 @@ Below is SMTP configuration for popular email servers:
 
 ### Email Template
 
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/emails-settings/email-template.png" width="" height="">
+
 You can defines sender, recipients (the list of emails to receive reports), email subject and body template in this section.
-To customize the email's body templates:
-
-* For Test Suite's  email: click **Edit Template for Test Suite Execution** or go to **Project/Settings/Email/Template/Test Suite**
-* For Test Suite Collection's email: **Edit Template for Test Suite Collection Execution** or go to **Project/Settings/Email/Template/Test Suite Collection**
-
-All fields in the templates are editable. Click **Apply** when finished.
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/emails-settings/TS-template.png" width="" height="">
-
-Where:
-
-| Variable | Description |
-| --- | --- |
-| hostName | Host's name |
-| os | Operating system |
-| Browser | Browser name and version |
-| deviceId | Id of executed device |
-| deviceName | Name of executed device |
-| suiteId | Id of test suite |
-| suiteName | Name of test suite |
-| totalTestCases | total executed test cases |
-| totalPassed | total passed test cases |
-| totalFailed | total failed test cases |
-| totalError | total error test cases |
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/emails-settings/TSC-template.png" width="" height="">
-
-Where:
-
-| Variable | Description |
-| --- | --- |
-| hostName | Host's name |
-| os | Operating system |
-| Browser | Browser name and version |
-| deviceId | Id of executed device |
-| deviceName | Name of executed device |
-| suiteId | Id of test suite |
-| suiteName | Name of test suite |
-| totalTestCases | total executed test cases |
-| totalPassed | total passed test cases |
-| totalFailed | total failed test cases |
-| totalError | total error test cases |
 
 ### Report Format
 
-**Report Format** allows you to decide whether to include test execution report as email attachment or not. Specifically, you are given options to include **execution log** and configure which **report format** of test suite executions to be sent as attachments in the notification email.
+You can decide whether to include test execution report as email attachment or not. Specifically, you are given options to include **log files** and configure which **report format** (HTML, CSV, and PDF) of test executions to be sent as attachments in the report email.
+
+### Body Template
+
+To customize the email's body templates:
+
+For Test Suite's  email, click **Edit Template for Test Suite Execution** or go to **Project/Settings/Email/Template/Test Suite**.
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/emails-settings/ts-email.png" width="" height="">
+
+Where:
+
+* hostName: Host's name
+* os: Operating system
+* Browser: Browser's name and version
+* deviceId: Id of executed device
+* deviceName: Name of executed device
+* suiteId: Id of test suite
+* suiteName: Name of test suite
+* totalPassed: total passed test cases
+* totalFailed: total failed test cases
+* totalError: total error test cases
+
+For Test Suite Collection's email, **Edit Template for Test Suite Collection Execution** or go to **Project/Settings/Email/Template/Test Suite Collection**.
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/emails-settings/tsc-email.png" width="" height="">
+
+All fields in the templates are editable. Click **Apply** when finished.
+
+Where:
+
+* hostName: Host's name
+* os: Operating system
+* suiteCollectionName: Name of Test Suite Collection
+* startTime: when the Test Suite Collection started running
+* duration: the duration of test execution
+* totalPassed: total passed test cases
+* totalFailed: total failed test cases
+* totalError: total error test cases
 
 ## Network settings
 
