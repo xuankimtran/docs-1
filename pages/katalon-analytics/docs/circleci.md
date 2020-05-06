@@ -6,7 +6,7 @@ description:
 ---
 TestOps CI allows you to set up your test environment with CircleCI to schedule and execute tests remotely.
 
-To create a new CircleCI testenvironment, in TestOps CI, go to **Test Environment** > **CircleCI**.
+To create a new CircleCI test environment, in TestOps CI, go to **Test Environment** > **CircleCI**.
 
 Fill in the required fields to connect to CircleCI.
 
