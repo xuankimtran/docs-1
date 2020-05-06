@@ -81,7 +81,7 @@ After the line-wrapping enabled:
 
 Starting in Katalon Studio version **7.5.0**, proxy is divided into two categories: Authentication and System proxies. You can apply different proxy configurations for connecting to the Katalon server and your servers during testing.
 
-Please go to **Katalon Studio> Preferences > Katalon > Proxy** and select **Authentication** or **System** section for corresponding proxy configuration of each type. These settings affect both WebUI and WebService testings.
+Please go to **Katalon Studio> Preferences > Katalon > Proxy** and select **Authentication** or **System** section for corresponding proxy configuration of each type.
 
 ### Authentication Proxy
 
