@@ -4,6 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/create_first_api_test_katalon_studio.html
 description: "API testing has become more important. This tutorial will demonstrate how to use Katalon Studio to create your first API test from scratch."
 redirect_from:
+    - "/katalon-studio/tutorials/create_first_api_test_katalon_studio"
     - "/katalon-studio/tutorials/create_first_api_test_katalon_studio.html"
 ---
 
@@ -150,40 +151,14 @@ Now we finish creating our first test. In order to create tests for a real proje
 *   Include error handling
 *   View test reports after test suite execution
 
-Katalon new features
---------------------
+### Create Custom API/Web Service Methods
 
-Katalon Studio has recently had a new monthly release to [support BDD Cucumber](https://docs.katalon.com/katalon-studio/new/version-570.html) which is a testing approach in which test cases are written in natural languages to improve the communication between technical staff and business stakeholders. BDD Cucumber also helps create test scenarios for the acceptance test phase.
+> This feature is only available for Katalon Studio Enterprise users.
 
-```gherkin
-@Issue_Tests
-Feature: Verify issue information
+You can create **Custom API/Web Service Methods** to expand RESTful Web Service Testing capabilities by going to **Project Settings > Test Design > API/Web Service Method**. Katalon handles custom API methods on top of the default set of supported methods.
 
-Background:
-      Given The Jira System is available
-
-  @Get_By_Id
-  Scenario: Verify issue information by Id
-    When I get information of an issue with Id "KD-1"
-    Then I get response code "200"
-    And The issue information as below:
-        |project_key |issue_type |priority |summary                          |
-        |KD          |Bug        |Low      |REST - Create new issue using API|
-
-  @Get_By_Id
-  Scenario Outline: Verify issue information by Id
-    When I get information of an issue with Id "<issue_key>"
-    Then I get response code "200"
-    And The issue information as below:
-        |project_key   |issue_type   |priority   |summary   |
-        |<project_key> |<issue_type> |<priority> |<summary> |
-
-  Examples:
-  |issue_key|project_key |issue_type |priority |summary                          |
-  |KD-1     |KD          |Bug        |Low      |REST - Create new issue using API|
-  |KD-2     |KD          |Bug        |Low      |Update summary from API example  |
-```
-
+  ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-510/custAPI.png)
+  
 Conclusion
 ----------
 

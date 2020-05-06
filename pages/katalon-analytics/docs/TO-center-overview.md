@@ -23,7 +23,7 @@ description:
 - **View Test Execution, Test Suite and Test Case Details**: view execution summary and detailed information of each Test execution, Test Suite and Test Case by simply clicking their IDs or name. [Lean more](https://docs.katalon.com/katalon-analytics/docs/project-management-view-details.html)
 - **Manage tasks**: TestOps Center allows you to link task to your test case so that you can easily manage and keep track with your task list. [Learn more](https://docs.katalon.com/katalon-analytics/docs/project-management-task.html)
 
-### Intergration with Jira
+### Integration with Jira
 
 Katalon TestOps provides seamless integration with Jira that brings several benefits for team collaboration. [Learn more](https://docs.katalon.com/katalon-analytics/docs/ka-integration-jira.html)
 

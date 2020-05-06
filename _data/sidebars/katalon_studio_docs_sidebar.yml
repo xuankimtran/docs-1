@@ -37,12 +37,6 @@ items:
             url: /katalon-studio/docs/re-offline-licenses.html
           - title: "Transfer an Online Katalon Runtime Engine License"
             url: /katalon-studio/docs/transfer-license.html
-          - title: "Katalon OnPremise License Server"
-            tree:
-              - title: Setup and work with Katalon Onpremise License Server
-                url: /katalon-studio/docs/license-server.html
-              - title: Setup Katalon OnPremise License Server in Linux (Ubuntu)
-                url: /katalon-studio/docs/license-server-ubuntu.html
       - title: "Troubleshoot"
         tree:
           - title: "Session Termination Causes"
@@ -1109,6 +1103,8 @@ items:
             url: /katalon-analytics/docs/getting-started.html
           - title: "Set up Organization, Team and Project"
             url: /katalon-analytics/docs/setup-org-team-project.html
+          - title: "Manage an Organization"
+            url: /katalon-analytics/docs/manage-org.html
           - title: "Glossary"
             url: /katalon-analytics/docs/ka-glossary.html
           - title: "API Keys"
@@ -1132,6 +1128,10 @@ items:
              - title: "Upload Test Results using Command Line"
                url: /katalon-analytics/docs/project-management-import-cli.html
              - title: "Delete a project or a test execution"
+               url: /katalon-analytics/docs/project-management-delete.html
+             - title: "Compare Test Results"
+               url: /katalon-analytics/docs/compare-test-results.html
+             - title: "Delete a Project or a Test Execution"
                url: /katalon-analytics/docs/project-management-delete.html
           - title: "Reports and Analytics"
             tree: 
@@ -1157,20 +1157,30 @@ items:
         tree: 
           - title: "Overview"
             url: /katalon-analytics/docs/kt-remote-execution.html
-          - title: "Install and Manage Agents"
-            url: /katalon-analytics/docs/agents.html
-          - title: "Upload Test Projects"
-            url: /katalon-analytics/docs/code-repo.html
-          - title: "Upload Git Test Project"
-            url: /katalon-analytics/docs/git-test-project.html
-          - title: "Schedule Remote Execution"
-            url: /katalon-analytics/docs/kt-scheduler.html
-          - title: "Execute Scheduled Tests"
-            url: /katalon-analytics/docs/grid-local-agents.html
-          - title: "Configure Notification Emails" 
-            url: /katalon-analytics/docs/kt-noti-email.html
+          - title: "Test Environments"
+            tree:
+              - title: "Local Agents"
+                url: /katalon-analytics/docs/agents.html
+              - title: "CircleCI"
+                url: /katalon-analytics/docs/circleci.html
+              - title: "AWS EKS"
+                url: /katalon-analytics/docs/aws-eks.html
+          - title: "Code Repo"
+            tree:
+              - title: "Upload Test Projects"
+                url: /katalon-analytics/docs/code-repo.html
+              - title: "Upload Git Test Project"
+                url: /katalon-analytics/docs/git-test-project.html
+          - title: "Remote Execution Plan"
+            tree:
+              - title: "Schedule Remote Executions"
+                url: /katalon-analytics/docs/kt-scheduler.html
+              - title: "Execute Scheduled Tests"
+                url: /katalon-analytics/docs/grid-local-agents.html
           - title: "Integration with Jenkins"
             url: /katalon-analytics/docs/ka-integration-jenkins.html
+      - title: "Configure Notification Emails"
+        url: /katalon-analytics/docs/kt-noti-email.html
       - title: "Katalon TestOps OnPremise"
         url: /katalon-analytics/docs/ktop.html
   - title: "Katalon Recorder"
@@ -1197,6 +1207,8 @@ items:
         url: /katalon-recorder/docs/export-test-script.html
       - title: "Katalon Recorder vs Katalon Studio"
         url: /katalon-recorder/docs/katalon-recorder-vs-katalon-studio.html
+      - title: "Auto Backup in Katalon TestOps"
+        url: /katalon-recorder/docs/auto-backup.html
       - title: "Acknowledgments"
         url: /katalon-recorder/docs/acknowledgments.html
   - title: "Katalium Framework"
