@@ -23,6 +23,9 @@ redirect_from:
     - "/katalon-studio/docs/object-spy-preferences/"
     - "/katalon-studio/docs/object-spy-preferences.html"
     - "/katalon-studio/docs/dark-theme.html"
+    - "/x/YYUw/"
+    - "/katalon-studio/docs/execution-preferences-version-50-and-below/"
+    - "/katalon-studio/docs/execution-preferences-version-50-and-below.html"
 description: 
 ---
 

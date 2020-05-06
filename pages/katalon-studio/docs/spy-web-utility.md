@@ -7,9 +7,12 @@ redirect_from:
     - "/display/KD/Spy%20Web%20Utility/"
     - "/x/5BZO/"
     - "/katalon-studio/docs/spy-web-utility/"
+    - "/x/jwBO/"
+    - "/katalon-studio/docs/spy-web-utility-version-48-and-below/"
+    - "/katalon-studio/docs/spy-web-utility-version-48-and-below.html"
 description: 
 ---
-> * Available since version 5.0
+
 > * [Working with Object Properties](/x/ZxlO)
 > * [Object Identification Best Practices](/display/KD/Optimizing+Object+Identification+and+Tools)
 > * Configure [Web Object Locators Settings](https://docs.katalon.com/katalon-studio/docs/web-locators-settings-since-v571.html)
