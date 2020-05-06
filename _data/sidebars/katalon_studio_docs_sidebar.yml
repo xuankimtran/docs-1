@@ -1003,20 +1003,6 @@ items:
         url: /katalon-studio/docs/javadoc.html
       - title: "Deprecated Documentation"
         tree:
-          - title: "Recording WebUI Test"
-            url: /katalon-studio/docs/recording-webui-test.html
-          - title: "Execution Preferences (Version 5.0 and below)"
-            url: /katalon-studio/docs/execution-preferences-version-50-and-below.html
-          - title: "Record Web Utility (version 4.8 and below)"
-            url: /katalon-studio/docs/record-web-utility-version-48-and-below.html
-          - title: "Record Web Utility (version 5.0 to 5.4)"
-            url: /katalon-studio/docs/record-web-utility-version-50-to-54.html
-          - title: "RESTful (Pre-5.4)"
-            url: /katalon-studio/docs/restful-pre-54.html
-          - title: "SOAP (Pre-5.4)"
-            url: /katalon-studio/docs/soap-pre-54.html
-          - title: "Spy Web Utility (version 4.8 and below)"
-            url: /katalon-studio/docs/spy-web-utility-version-48-and-below.html
           - title: "VSTS/TFS/VSO Integration"
             url: /katalon-studio/docs/vststfsvso-integration.html
           - title: "Jenkins Integration"
