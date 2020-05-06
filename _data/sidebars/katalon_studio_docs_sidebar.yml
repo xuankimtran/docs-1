@@ -1163,6 +1163,8 @@ items:
                 url: /katalon-analytics/docs/agents.html
               - title: "CircleCI"
                 url: /katalon-analytics/docs/circleci.html
+              - title: "AWS EKS"
+                url: /katalon-analytics/docs/aws-eks.html
           - title: "Code Repo"
             tree:
               - title: "Upload Test Projects"
@@ -1177,10 +1179,10 @@ items:
                 url: /katalon-analytics/docs/grid-local-agents.html
           - title: "Integration with Jenkins"
             url: /katalon-analytics/docs/ka-integration-jenkins.html
-      - title: "Katalon TestOps OnPremise"
-        url: /katalon-analytics/docs/ktop.html
       - title: "Configure Notification Emails"
         url: /katalon-analytics/docs/kt-noti-email.html
+      - title: "Katalon TestOps OnPremise"
+        url: /katalon-analytics/docs/ktop.html
   - title: "Katalon Recorder"
     tree:
       - title: "Overview"
