@@ -6,6 +6,9 @@ redirect_from:
     - "/display/KD/SOAP/"
     - "/x/LwLR/"
     - "/katalon-studio/docs/soap/"
+    - "/x/0hNO/"
+    - "/katalon-studio/docs/soap-pre-54/"
+    - "/katalon-studio/docs/soap-pre-54.html"
 description:
 ---
 > *   Web Services Request can be parameterized. Refer to this [documentation](/x/egLR).
