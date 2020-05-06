@@ -67,12 +67,12 @@ You can specify additional configurations for test suite execution by expanding 
       <tr>
          <td>
             <p>Retry:</p>
-            <p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/design-a-test-suite/retry.png"></p>
+            <p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/design-a-test-suite/retry-750.png"></p>
          </td>
          <td>
             <p>The <strong>maximum</strong> number of retries for execution until it is successfully passed. You can opt to retry only <strong>failed</strong> test cases and/or <strong>failed</strong> test data.</p>
             <blockquote class="important">
-               <p>Please note that Retrying Failed Test Data Only is only available for <strong>Katalon Studio Enterprise</strong> users in version <strong>7.5+</strong>.</p>
+               <p>Please note that Retrying Failed Test Data Only is only available for <strong>Katalon Studio Enterprise</strong> users in version <strong>7.5.0+</strong>.</p>
             </blockquote>
             <p>&nbsp;</p>
          </td>
