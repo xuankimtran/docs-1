@@ -53,8 +53,6 @@ items:
                 url: /katalon-studio/new/version-70.html
               - title: "Version 6.x"
                 url: /katalon-studio/new/version-60.html
-              - title: "Version 5.x"
-                url: /katalon-studio/new/version-501.html
           - title: "Installation and Activation"
             tree:
               - title: "Installation Overview"

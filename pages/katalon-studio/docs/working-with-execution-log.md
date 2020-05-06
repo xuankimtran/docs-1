@@ -12,8 +12,6 @@ redirect_from:
     - "/katalon-studio/docs/view-execution-log.html"
 description:
 ---
-> Starting from Katalon Studio version 5.9.
-
 Viewing execution log is the very first approach when troubleshooting automation test execution. The key information in the log can quickly help project teams pinpoint root causes of any issues. Katalon Studio execution logs are optimized to provide such information so that you can have a comprehensive view of the tests run.
 
 ## View Execution Log
