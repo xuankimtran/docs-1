@@ -103,7 +103,6 @@ In the Proxy Settings areas of both Authentication and System proxies, you can s
 
 * **No proxy**: there's no proxy.
 * **Use system proxy configuration**: Katalon Studio guesses which proxy server your system is behind by checking Java, browser and operating system settings, and environment variables.
-  > Notes: Proxy auto-config (PAC) file is supported in version 7.1 and later. You need to select **Use system proxy configuration** to utilize a PAC file.
 * **Manual proxy configuration**: you can manually set up your proxy
   * Address: a HTTP Proxy host
   * Port: a HTTP Proxy port
