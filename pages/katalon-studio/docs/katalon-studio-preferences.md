@@ -87,13 +87,19 @@ Please go to **Katalon Studio> Preferences > Katalon > Proxy** and select **Aut
 
 The proxy configurations in this section are used for all network connections to authenticate with Katalon Servers including Katalon account authentication, Katalon Auto-updater, Katalon TestOps and Store integration, sample projects provider, AMI Authentication, and etc)
 
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/auth-proxy.png" width="">
+
 ### System Proxy
 
-System proxy configurations are applied to all network connections generated when using Katalon Studio, including but not limited to recording, spying, executing tests, integrating with other tools (qTest), downloading Web Drivers or Android SDK.
+System proxy configurations are applied to all network connections generated when using Katalon Studio, including but not limited to recording, spying, executing tests, integrating with other tools, and downloading Web Drivers or Android SDK.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/system-proxy.png" width="">
+
+Katalon Studio applies the System proxy to test execution's desired capabilities on the instance automatically. If you wish to configure different proxy's desired capabilities for a project, you need to uncheck this option and specify details in Desired Capabilities of Project Settings.
 
 ### Proxy Settings
 
-In the Proxy Settings areas of Authentication and System, you can select one of three options below.
+In the Proxy Settings areas of both Authentication and System proxies, you can select one of three options below.
 
 * **No proxy**: there's no proxy.
 * **Use system proxy configuration**: Katalon Studio guesses which proxy server your system is behind by checking Java, browser and operating system settings, and environment variables.
@@ -104,9 +110,7 @@ In the Proxy Settings areas of Authentication and System, you can select one of 
   * Excludes: A list of addresses separated by comma to exclude
   > The ability to exclude proxy is available in **version 7.2+**. Katalon Studio only supports proxy exceptions in web recorder and spying with **Chrome** and **Firefox**.
 
-For **System** proxy, you can apply this configuration to test execution desired capabilities automatically by checking in the provided option.
-
-  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/proxy-system.png" width="">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/proxy-options.png" width="546">
 
 ### Override proxy details in the test script
 
@@ -126,12 +130,13 @@ requestObject.setProxy(proxyInfo)
 
 ### Troubleshoot proxy issues
 
-If you're behind a Proxy Server, you'll need to configure the proxy settings before activating Katalon Studio. Click **Config Proxy** at the bottom of the Activation dialog box.
+1. If you're behind a Proxy Server, you need to configure the Authentication proxy settings before activating Katalon Studio. Click **Configure Authentication Proxy** at the bottom of the Activation dialog box.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/config-proxy-activation.png" width="">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/config-proxy-activation.png" width="">
 
-"New and old proxy mechanisms are not allowed in one command. Please use either the new or the old one."
+2. "*New and old proxy mechanisms are not allowed in one command. Please use either the new or the old one.*"
 
+   If you encounter the above error when executing your test with Runtime Engine, please check if you are mixing options of the new mechanism with options for proxy configuration prior to 7.5.0 and correct the commands in use. [Learn more about proxy options](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#proxy-options).
 
 ## Object Spy Preferences
 
