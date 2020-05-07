@@ -74,6 +74,10 @@ You can check the Agent status by going to **Test Environments** in **TestOps CI
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/agents/agent-status.png)
 
+> You can delete an agent anytime by clicking on the recycle bin icon.
+>
+> Please note that this action cannot be undone.
+
 ## Authentication with Katalon TestOps
 
 Agents will use `serverUrl` and `apikey` in **agentconfig** for:
@@ -85,6 +89,7 @@ Agents will use `serverUrl` and `apikey` in **agentconfig** for:
 You can set up proxy for Agent in the `agentconfig` file with the `proxy` option.
 
 For example, `proxy=http://localhost:8080`.
+
 
 ## Next Steps
 
