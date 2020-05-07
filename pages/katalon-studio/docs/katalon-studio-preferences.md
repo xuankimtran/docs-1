@@ -95,8 +95,6 @@ System proxy configurations are applied to all network connections generated whe
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/system-proxy.png" width="">
 
-Katalon Studio applies the System proxy to test execution's desired capabilities on the instance automatically. If you wish to configure different proxy's desired capabilities for a project, you need to uncheck this option and specify details in Desired Capabilities of Project Settings.
-
 ### Proxy Settings
 
 In the Proxy Settings areas of both Authentication and System proxies, you can select one of three options below.
@@ -110,6 +108,20 @@ In the Proxy Settings areas of both Authentication and System proxies, you can s
   > The ability to exclude proxy is available in **version 7.2+**. Katalon Studio only supports proxy exceptions in web recorder and spying with **Chrome** and **Firefox**.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/proxy-options.png" width="546">
+
+### System proxy for test execution's desired capabilities
+
+Katalon Studio applies the System proxy to test execution's desired capabilities on the instance automatically. If you wish to configure different proxy's desired capabilities for a project, you need to do as follows:
+
+1. Open your project and go to **Katalon Studio> Preferences > Katalon > Proxy > System**
+2. At the bottom of the displayed view, uncheck the **Auto-apply to test execution desired capabilities** option and click **OK** to save
+  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/uncheck.png">
+3. Go to **Project > Settings > Desired Capabilities** and select a testing environment
+4. Specify proxy details and click **OK** to save
+
+   For example:
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/desired-capabilities.png">
 
 ### Override proxy details in the test script
 
