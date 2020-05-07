@@ -35,7 +35,12 @@ To run a test case in the sample project:
 
 - Select the Test Case you want to execute.
 - Click the **Run** button or Windows users can press the key combination of **Ctrl + Shift + A**; Mac users press **Command+Shift+A**.
-- Observe the test result on Log Viewer.
+
+> After the execution is completed, you can view the test results in [Katalon TestOps](https://https.analytics.katalon.com).
+>
+> - [View Test Reports](https://docs.katalon.com/katalon-analytics/docs/project-management-view-reports.html)
+> - [View Test Case details](https://docs.katalon.com/katalon-analytics/docs/project-management-view-details.html#details-of-each-test-case)
+
 
 ## Test Suites
 
@@ -70,7 +75,12 @@ To run a test suite in the sample project:
 
 - Select the Test Suite you want to execute.
 - Click the **Run** button or Windows users can press the key combination of **Ctrl + Shift + A**; Mac users press **Command+Shift+A**.
-- Observe the test result on Log Viewer.
+
+> After executing tests, you can view your reports and details in [Katalon TestOps](https://analytics.katalon.com).
+>
+> - [View Test Reports](https://docs.katalon.com/katalon-analytics/docs/project-management-view-reports.html)
+> - [View Test Suite Details](https://docs.katalon.com/katalon-analytics/docs/project-management-view-details.html)
+
 
 ## Data Files
 
