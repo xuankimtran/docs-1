@@ -39,6 +39,7 @@ To execute a test suite or a test suite collection in the sample project:
 - Click the arrow icon right next to the **Run** button. In the drop-down list, select your preferred browser. To execute it with the default browser, Windows users can press the key combination of **Ctrl + Shift + A**; Mac users press **Command+Shift+A**.
 - Observe the test result on Log Viewer.
 
+> In the test suite or test suite collection level, you can view test results in the **Result** tab. The test results can be Passed, Failed, Error or Incomplete.
 
 > After executing tests, you can view your reports and details in [Katalon TestOps](https://analytics.katalon.com).
 >
