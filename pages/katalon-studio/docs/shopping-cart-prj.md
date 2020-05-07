@@ -76,6 +76,7 @@ To run a test suite in the sample project:
 
 - Select the Test Suite you want to execute.
 - Click the **Run** button or Windows users can press the key combination of **Ctrl + Shift + A**; Mac users press **Command+Shift+A**.
+- Observe the test result on Log Viewer.
 
 > After executing tests, you can view your reports and details in [Katalon TestOps](https://analytics.katalon.com).
 >
