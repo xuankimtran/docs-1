@@ -24,6 +24,11 @@ To execute a test case in the sample project:
 - Click the arrow icon right next to the **Run** button. In the drop-down list, select your preferred browser. To execute it with the default browser, Windows users can press the key combination of **Ctrl + Shift + A**; Mac users press **Command+Shift+A**.
 - Observe the test result on Log Viewer.
 
+> After the execution is completed, you can view the test results in [Katalon TestOps](https://https.analytics.katalon.com).
+>
+> - [View Test Reports](https://docs.katalon.com/katalon-analytics/docs/project-management-view-reports.html)
+> - [View Test Case details](https://docs.katalon.com/katalon-analytics/docs/project-management-view-details.html#details-of-each-test-case)
+
 ## Test Suite and Test Suite Collection
 
 The sample test suite is a combination of both test cases whilst the sample test suite collection is a combination of the same test suite with different testing environments. To be more specific, the test suite is executed in Firefox and Chrome.
@@ -35,6 +40,11 @@ To execute a test suite or a test suite collection in the sample project:
 - Observe the test result on Log Viewer.
 
 > In the test suite or test suite collection level, you can view test results in the **Result** tab. The test results can be Passed, Failed, Error or Incomplete.
+
+> After executing tests, you can view your reports and details in [Katalon TestOps](https://analytics.katalon.com).
+>
+> - [View Test Reports](https://docs.katalon.com/katalon-analytics/docs/project-management-view-reports.html)
+> - [View Test Execution, Test Suite and Test Suite Collection Details](https://docs.katalon.com/katalon-analytics/docs/project-management-view-details.html)
 
 ## Custom Keywords
 
