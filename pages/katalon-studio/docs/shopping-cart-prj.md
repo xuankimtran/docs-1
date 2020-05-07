@@ -35,6 +35,7 @@ To run a test case in the sample project:
 
 - Select the Test Case you want to execute.
 - Click the **Run** button or Windows users can press the key combination of **Ctrl + Shift + A**; Mac users press **Command+Shift+A**.
+- Observe the test result on Log Viewer.
 
 > After the execution is completed, you can view the test results in [Katalon TestOps](https://https.analytics.katalon.com).
 >
