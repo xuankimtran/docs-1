@@ -66,7 +66,7 @@ permalink: katalon-studio/docs/windows-recorder-tutorials.html
     >
     > 1. Remember not to lock your screen while spying, spying or executing a test on a desktop application.
     > 2. You're recommended not to run multiple applications simultaneously.
-    > 3. To start an UWP application, the application's execute file should be:
+    > 3. To start a UWP application, the application's execute file should be:
     > 
     > * *ApplicationID* if your app is published on Microsoft store
     > * *PackageFamilyName!Application ID* if your app is still in development.
