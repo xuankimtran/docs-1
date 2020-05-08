@@ -64,6 +64,10 @@ permalink: katalon-studio/docs/windows-recorder-tutorials.html
 
     >**Notes**:
     >
-    > 1. While any action is being performed on a test object, there should be no other actions taken on the application. One action at a time.
-    > 2. Remember not to lock your screen while spying, recording or executing a test on a desktop application.
-    > 3. You're recommended not to run multiple applications simultaneously.
+    > 1. Remember not to lock your screen while spying, spying or executing a test on a desktop application.
+    > 2. You're recommended not to run multiple applications simultaneously.
+    > 3. To start an UWP application, the application's execute file should be:
+    > 
+    > * *ApplicationID* if your app is published on Microsoft store
+    > * *PackageFamilyName!Application ID* if your app is still in development.
+    
