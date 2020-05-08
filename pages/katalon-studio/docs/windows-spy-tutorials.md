@@ -56,7 +56,7 @@ When you’re done with spying, click **Add to Object Repository** to save the c
 
     >**Notes**:
     >
-    > 1. Remember not to lock your screen while spying, spying or executing a test on a desktop application.
+    > 1. Remember not to lock your screen while spying, recording or executing a test on a desktop application.
     > 2. You're recommended not to run multiple applications simultaneously.
     > 3. To start a UWP application, the application's execute file should be:
     > 
