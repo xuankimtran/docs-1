@@ -49,9 +49,9 @@ You can configure the Test Case preferences via **Katalon Studio > Preferences 
 
 This is to specify how Katalon Studio should behave when you are calling another test case in your current one.
 
-* **Generate variable with default value**: Called test case uses default values for its variables.
-* **Generate variable with the same name as the exposed variable of the called test case**: Called test case uses default values which are the same with its variables name.
-  * **Expose variables automatically after choosing the called test case**: Called test case uses default values which are the same with its variables name. The variables are also added to the current test case at the 'Variables' tab.
+* **Generate variable with default value**: Called test case uses the default values for its variables.
+* **Generate variable with the same name as the exposed variable of the called test case**: Called test case uses the default values, which are the same as its variables name.
+  * **Expose variables automatically after choosing the called test case**: Called test case uses the default values, which are the same as its variables name. The variables are also added to the current test case at the 'Variables' tab.
 
 You might need to refer back to the [Variable Types](/display/KD/Variable+Types) section for which types of variables are supported in Katalon Studio.
 
@@ -82,13 +82,13 @@ After the line-wrapping enabled:
 
 ## Proxy Preferences
 
-Starting in Katalon Studio version **7.5.0**, proxy is divided into two categories: Authentication and System proxies. You can apply different proxy configurations for connecting to the Katalon server and your servers during testing.
+Starting in Katalon Studio version **7.5.0**, the proxy is divided into two categories: Authentication and System proxies. You can apply different proxy configurations for connecting to the Katalon server and your servers during testing.
 
 Please go to **Katalon Studio> Preferences > Katalon > Proxy** and select **Authentication** or **System** section for corresponding proxy configuration of each type.
 
 ### Authentication Proxy
 
-The proxy configurations in this section are used for all network connections to authenticate with Katalon Servers including Katalon account authentication, Katalon Auto-updater, Katalon TestOps and Store integration, sample projects provider, AMI Authentication, and etc)
+The proxy configurations in this section are used for all network connections to authenticate with Katalon Servers including Katalon account authentication, Katalon Auto-updater, Katalon TestOps, and  Katalon Store integration, sample projects provider, AMI Authentication, and etc.)
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/auth-proxy.png" width="">
 
@@ -105,8 +105,8 @@ In the Proxy Settings areas of both Authentication and System proxies, you can s
 * **No proxy**: there's no proxy.
 * **Use system proxy configuration**: Katalon Studio guesses which proxy server your system is behind by checking Java, browser and operating system settings, and environment variables.
 * **Manual proxy configuration**: you can manually set up your proxy
-  * Address: a HTTP Proxy host
-  * Port: a HTTP Proxy port
+  * Address: an HTTP Proxy host
+  * Port: an HTTP Proxy port
   * Excludes: A list of addresses separated by comma to exclude
   > The ability to exclude proxy is available in **version 7.2+**. Katalon Studio only supports proxy exceptions in web recorder and spying with **Chrome** and **Firefox**.
 
@@ -154,7 +154,7 @@ requestObject.setProxy(proxyInfo)
 
 ## Object Spy Preferences
 
-You can access this preferences at **Window > Katalon Studio Preferences > Katalon > Object Spy.**
+You can access these preferences at **Window > Katalon Studio Preferences > Katalon > Object Spy.**
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/object-spy-preferences/image2017-11-27-113A43A34.png)
 
@@ -166,7 +166,7 @@ Users can check/uncheck this option to pin Object Spy Window on top while spying
 
 Katalon Studio supports customizable hotkeys for Object Spy function so that users can choose the preferred combination or avoid confliction with UAT hotkeys.
 
-> This ability to change hotkeys for Object Spy only affect Chrome browser. Other browsers will be considered for future releases.
+> This ability to change hotkeys for Object Spy only affects the Chrome browser. Other browsers will be considered for future releases.
 
 ## Apply Dark theme
 

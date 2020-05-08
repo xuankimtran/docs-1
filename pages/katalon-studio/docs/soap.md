@@ -15,12 +15,12 @@ When sending a SOAP Request in Katalon Studio, you can receive a response from t
 
 ## Creating a SOAP-based Request
 
-1. From the main menu, select **File > New > Web Service Request**
-2. In the **New Web Service Request** dialog, select **SOAP** in the **Request Type** list and click **OK** to create a new SOAP object
+1. From the main menu, select **File > New > Web Service Request**.
+2. In the **New Web Service Request** dialog, select **SOAP** in the **Request Type** list and click **OK** to create a new SOAP object.
 
    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/soap-request/image2018-9-5-143A213A46.png)
 
-3. A **New** request object is created under the **Object Repository** of Katalon Studio
+3. A **New** request object is created under the **Object Repository** of Katalon Studio.
 
 ## Adding SOAP Request Details
 
@@ -30,13 +30,13 @@ After you've created a request successfully, double-click on the request to open
 
 ### Request Method
 
-The request method indicates the expected action to be executed on the specified resource. Katalon Studio supports following SOAP methods: SOAP, SOAP 1.2, POST, GET. By default, Katalon selects SOAP as a method for a new SOAP request.
+The request method indicates the expected action to be executed on the specified resource. Katalon Studio supports the following SOAP methods: SOAP, SOAP 1.2, POST, GET. By default, Katalon selects SOAP as a method for a new SOAP request.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/soap-request/method.png">
 
 ### WSDL URL
 
-The WSDL path from which Katalon Studio imports the content to this SOAP request.
+This field is for a WSDL path from which Katalon Studio imports the content to this SOAP request.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/soap-request/wsdl-url.png">
 
@@ -75,7 +75,7 @@ The information that you want to transmit in this SOAP request. You can get it a
 
 ## Response
 
-After sending the service request, Katalon Studio retrieves a message from the server and display it in the **Response** view of the request. A service reponse comprises Status, Eslapsed time, and Size fields; Body section, Header and Verification Log.
+After sending the service request, Katalon Studio retrieves a message from the server and displays it in the **Response** view of the request. A service response comprises Status, Elapsed time, and Size fields; Body section, Header, and Verification Log.
 
 * **Status**: The status code of the response
 * **Elapsed**: The total time that starts from the request is sent until Katalon Studio receives the last byte of the response
@@ -83,7 +83,7 @@ After sending the service request, Katalon Studio retrieves a message from the s
 
 ### Response Body
 
-There are 2 viewing formats: **pretty** and **raw**. For example, the SOAP's response of `http://www.dneonline.com/calculator.asmx?WSDL` is shown below.
+There are 2 viewing formats: **pretty** and **raw**. For example, the SOAP's response to `http://www.dneonline.com/calculator.asmx?WSDL` is shown below.
 
 * Pretty format
 

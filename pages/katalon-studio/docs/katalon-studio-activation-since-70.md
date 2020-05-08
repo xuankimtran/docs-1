@@ -10,7 +10,7 @@ redirect_from:
     - "/katalon-studio/docs/katalon-studio-activation-since-57.html"
 description:
 ---
-After installing Katalon Studio, you will be asked to activate it. If you currenly use a Katalon Studio Enterprise license, refer to [Activate Katalon Studio Enterprise](https://docs.katalon.com/katalon-studio/docs/activate-KSE.html).
+After installing Katalon Studio, you will be asked to activate it. If you currently use a Katalon Studio Enterprise license, refer to [Activate Katalon Studio Enterprise](https://docs.katalon.com/katalon-studio/docs/activate-KSE.html).
 
 Every Katalon account is eligible for 30-day [trials](/katalon-studio/docs/license.html) of Katalon Studio Enterprise and Runtime Engine. When your trial period expires, you need to subscribe to the paid license of each product to continue using it, or the Katalon Studio free license is automatically activated. At any time, you can upgrade the free Katalon Studio to Katalon Studio Enterprise with a paid license without the need to re-download.
 
@@ -43,7 +43,7 @@ In the Proxy Settings dialog box, you can select one of three options below.
 
 ### Troubleshooting common issues with network
 
-"_Cannot connect to Katalon TestOps server. Please check your Internet connection and try again._"- This error message indicates Katalon Studio's application cannot communicate with Katalon server to activate it.
+"_Cannot connect to Katalon TestOps server. Please check your Internet connection and try again._"- This error message indicates Katalon Studio's application cannot communicate with the Katalon server to activate it.
 
 Please check your Internet connection and try again. If you are behind a Proxy Server, please configure Authentication Proxy first and try to activate Katalon Studio again.
 

@@ -13,9 +13,9 @@ redirect_from:
 description:
 ---
 
-Katalon Studio supports sending RESTful requests with parameters, body data and authorization details needed. When sending a Request, you can receive a response from the API server for examination and troubleshooting. This section gives you detailed information of how to create and configure a RESTful request.
+Katalon Studio supports sending RESTful requests with parameters, body data, and authorization details needed. When sending a request, you can receive a response from the API server for examination, and troubleshooting. This section gives you detailed information on how to create, and configure a RESTful request.
 
-## Creating a RESTful request object
+## Creating a RESTful Request
 
 You can create a new RESTful request object in two ways. First, you can **add** a Web Service request to a _New_ or any _Existing_ test case directly in the object details view by a click on the **plus** icon.
 
@@ -35,19 +35,19 @@ After you've created a request successfully, double-click on the request to open
 
 ### Request Method
 
-The request method indicates the expected action to be executed on the specified resource. For REST services, Katalon Studio supports the following methods: GET, POST, PUT, DELETE, PATCH, HEAD, CONNECT, OPTIONS, and TRACE. You can refer to [this document](https://restfulapi.net/http-methods/) for more details and specifications of each method.
+The request method indicates the expected action to be executed on the specified resource. For REST services, Katalon Studio supports the following methods: GET, POST, PUT, DELETE, PATCH, HEAD, CONNECT, OPTIONS, and TRACE. You can refer to [this document](https://restfulapi.net/http-methods/) for more details, and specifications of each method.
 
 For Katalon Studio Enterprise users, you can use custom methods added in **Project Settings > Test Design > API/Web Service Method**.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-510/custAPI.png)
 
-In Tests Explorer, there is a small **icon** next to the object that indicates its used method. By default, GET method is selected for new requests.
+In Tests Explorer, there is a small **icon** next to the object that indicates its used method. By default, the GET method is selected for new requests.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/restful-web-services/image2018-4-1-183A353A21.png)
 
 ### Request URL
 
-You need to specify a URL indicating the service endpoint of each request. For example, the following URL `https://petstore.swagger.io/v2/pet/findByStatus?status=${status}` is registered for the RESTful request we've created. In URLs, you can use variables, `status=${status}` for instance, to update the Query Parameter dynamically. [More details](https://docs.katalon.com/katalon-studio/docs/parameterize-a-web-service-object.html).
+You need to specify a URL indicating the service endpoint of each request. For example, the following URL `https://petstore.swagger.io/v2/pet/findByStatus?status=${status}` is registered for the RESTful request we've created. In URLs, you can use variables, `status=${status}`, for instance, to update the Query Parameter dynamically. [More details](https://docs.katalon.com/katalon-studio/docs/parameterize-a-web-service-object.html).
 
 ### Parameters
 
@@ -59,15 +59,15 @@ Starting from **version 7.0**, Katalon Studio encodes special characters in quer
 
 You can add the body information needed to be sent along with a RESTful request object. Katalon Studio supports the following body data types: text, x-www-form-urlencoded, form-data, and file.
 
-* **text**: With this type, the supported formats include Text, JSON, XML, HTML, and Javascript.
+* **Text**: With this type, the supported formats include Text, JSON, XML, HTML, and Javascript.
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/restful-web-services/image2018-9-5-143A263A6.png">
 
-* **form-data**: This data type allows you to send data to APIs as multipart/form-data and attach files as well. From **version 7.5.0+**, you can specify the content type in form-data body.
+* **Form-data**: This data type allows you to send data to APIs as multipart/form-data, and attach files as well. From **version 7.5.0+**, you can specify the content type in the form-data body.
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/restful-web-services/form-data.png">
 
 ### Request Authentication
 
-This part is used for authenticating and authorizing the request, which means to verify if the client is permitted to send the request and to perform the endpoint operation.
+This part is used for authenticating, and authorizing the request, which means to verify if the client is permitted to send the request, and to perform the endpoint operation.
 
 For more details on using each type of auth, please see:
 
@@ -79,13 +79,13 @@ For more details on using each type of auth, please see:
 
 You can configure the header information needed for sending the RESTful request object. By default, the **Content-Type** value of **Header** is generated automatically based on the HTTP Body. You can also select headers from the list of suggested options (by double-clicking on the **Name** cell) or enter another header of your interest. Refer to [Supported HTTP Headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers) for more details.
 
-Starting from version **7.2.5**, Katalon Studio supports disabling specifying the content type of HTTP Header based on HTTP Body automatically. This allows users to configure content types for HTTP Header and Body separately.
+Starting from version **7.2.5**, Katalon Studio supports disabling specifying the content type of HTTP Header based on HTTP Body automatically. This allows users to configure content types for HTTP Header, and Body separately.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/restful/auto-update.png" width="" height="">
 
 ## Response
 
-After you send a request, Katalon Studio supports reading its reponse in a separate **Response** view. A service reponse comprises Status, Eslapsed time, and Size fields; Body section, Header and Verification Log.
+After you send a request, Katalon Studio supports reading its response in a separate **Response** view. A service response comprises Status, Elapsed time, and Size fields; Body section, Header, and Verification Log.
 
 * **Status**: The status code of the response
 * **Elapsed**: The total time that starts from the request is sent until Katalon Studio receives the last byte of the response

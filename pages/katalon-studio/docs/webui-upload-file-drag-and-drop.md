@@ -47,4 +47,4 @@ Some websites support uploading a file by drag-and-drop it anywhere on the page,
 
 ## Known Limitation
 
-Some website (e.g. https://www.imageupload.net/?lang=en) only shows the drop zone when users drag and drop a file, which means the drop zone is not visible before this keyword is used. In this case, the keyword will not work.
+Some website (e.g., https://www.imageupload.net/?lang=en) only shows the drop zone when users drag and drop a file, which means the drop zone is not visible before this keyword is used. In this case, the keyword will not work.
