@@ -35,7 +35,7 @@ If your machine hasn't installed them yet, you could use Katalon tools to instal
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/native-windows-recorder/app-file.png">
 
-   To start an UWP application, the application's execute file should be:
+   To start a UWP application, the application's execute file should be:
 
    * *ApplicationID* if your app is published on Microsoft store
    * *PackageFamilyName!Application ID* if your app is still in development.
@@ -45,31 +45,30 @@ If your machine hasn't installed them yet, you could use Katalon tools to instal
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/native-windows-recorder/action-bar.png">
 
 4. The specified Windows application is deployed and opened.
+5. The list of available actions is the same as Katalon Studio's built-in keywords. You can add any action, call another test case, and/or use Custom Keywords.
 
-## Modifying Recorded Actions
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/native-windows-recorder/recorded-actions.png">
+6. All of the specified actions above are recorded at the **Recorded Actions** section.
 
-The list of available actions is the same as Katalon Studio built-in keywords. You can add any action, call another test case, and/or use Custom Keywords.
+   In **Captured Objects**, you can view all elements captured during the recording session. Here you can customize the locator of a captured object by modifying it in the Locator tab of **Object Properties**.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/native-windows-recorder/recorded-actions.png">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/native-windows-recorder/captured-objects.png">
 
-## Modifying Recorded Objects
+7. When you’re done with recording, click **OK** to save the recorded actions in Katalon Studio.
+8. You will be prompted to save the captured objects in the Object Repository of Katalon Studio. Choose an existing folder or create a new one, then click **OK** to continue.
 
-In Captured Objects, you can view all elements captured during the recording session. Here you can customize the locator of a captured object by modifying it in the Locator tab of Object Properties and clicking **Highlight** to verify if the new locator correctly identifies the intended object.
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-windows-actions/Step9.png" width="267" height="258">
 
-After you finish your recording, Native Windows Recorder exports a list of test objects used in the test case.
+9. When you finish your recording session, export the recorded steps to a new test case.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/native-windows-recorder/captured-objects.png">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-windows-actions/Export-new-TC.png" width="494" height="197">
 
-Upon satisfactorily creating your test case, click **OK** to add the recorded steps to the test case. Choose the directory you want your test objects to reside to continue. Here, Katalon Studio automatically detects similar existing objects in the Objects Repository and will ask you for further action. This helps users optimize object repositories.
+10. Recorded objects and actions are saved in the test case.
 
-You will be prompted to save the captured objects in the Object Repository of Katalon Studio. Choose an existing folder or create a new one, then click **OK** to continue.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-windows-actions/test-case.png" width="609" height="191">
 
-When you finish your recording session, export the recorded steps to a new test case.
+11. Select the **Windows** icon in the **Run** button on the main Toolbar to execute the script.  
 
-## Executing
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-windows-actions/step13.png" width="228" height="330">
 
-Recorded objects and actions are saved in the test case.
-
-Select the Windows icon in the Run button on the main Toolbar to execute the script.
-
-The Windows test is executed with those recorded steps accordingly.
+12. The Windows test is executed with those recorded steps accordingly.

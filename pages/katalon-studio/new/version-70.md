@@ -21,7 +21,7 @@ You can download Katalon Studio's version 7.5.0 (Beta) [here](https://github.com
 
 ### New features
 
-* [Katalon Studio Enterprise] Implement Native Windows Recorder (for Windows only). [Learn more]()
+* [Katalon Studio Enterprise] Implement Native Windows Recorder (for Windows only). [Learn more](https://docs.katalon.com/katalon-studio/docs/windows-native-record.html)
 * [Katalon Studio Enterprise] Send email of Test Suite Collection' report. [Learn more](https://docs.katalon.com/katalon-studio/docs/execution-settings.html#emails-settings)
 * [Katalon Studio Enterprise] Support retrying Failed test data only in Test Suite's execution. [Learn more](https://docs.katalon.com/katalon-studio/docs/test-suite.html#modify-execution-information)
 * [Web Testing] Support a new WebUI keyword to upload files by drag-and-drop. [Learn more](https://docs.katalon.com/katalon-studio/docs/webui-upload-file-drag-and-drop.html)
