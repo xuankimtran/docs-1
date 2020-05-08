@@ -29,7 +29,7 @@ You can download Katalon Studio's version 7.5.0 (Beta) [here](https://github.com
 ### Improvements
 
 * [Katalon Runtime Engine] Improve execution log in CLI mode by printing out applied proxy configurations
-* Improve Proxy Settings with two separate types including **Authentication** and **System** proxies. [Learn more](https://docs.katalon.com/katalon-studio/docs/katalon-studio-preferences.html#proxy-preferences)
+* Improve Proxy Settings with two separate types, including **Authentication** and **System** proxies. [Learn more](https://docs.katalon.com/katalon-studio/docs/katalon-studio-preferences.html#proxy-preferences)
 * [Web Service] Enhance WSDL importing feature. [Learn more](https://docs.katalon.com/katalon-studio/docs/import-soap-requests-from-wsdl.html).
 * [Web Service] Support defining content type for form-data HTTP Body of RESTful requests. [Learn more](https://docs.katalon.com/katalon-studio/docs/restful.html#request-body)
 

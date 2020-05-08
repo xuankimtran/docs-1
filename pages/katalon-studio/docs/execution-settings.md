@@ -30,7 +30,7 @@ Execution settings help users to set preferred behaviors for Katalon Studio duri
 
 > Starting in version 7.2.4, Katalon Studio Enterprise users can edit VM arguments in Execution Settings.
 
-VM Arguments entered in **Executions Settings** of a project change the behaviour of a Java process of each execution. Currently, Katalon Studio does not support VM arguments' values containing space. Below is a list of most used JVM Parameters:
+VM Arguments entered in **Executions Settings** of a project change the behavior of a Java process of each execution. Currently, Katalon Studio does not support VM arguments' values containing space. Below is a list of most used JVM Parameters:
 
 Specify minimal and maximal heap sizes
 
@@ -108,13 +108,13 @@ These settings decide the general behavior of Katalon Studio when executing WebU
 
 > In version **7.5.0+**, Katalon Studio Enterprise users can send report emails of Test Suite Collection execution.
 
-To receive summary reports via email after an execution of **Test Suite** or **Test Suite Collection**, you need to configure global settings of email in **Project/Settings/Email**.
+To receive summary reports via email after the execution of **Test Suite** or **Test Suite Collection**, you need to configure global settings of email in **Project/Settings/Email**.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/emails-settings/new-ui.png" width="" height="">
 
-By default, Katalon Studio is configured to send all report emails for Test Suite executions including Test Suites in a Test Suite Collection.
+By default, Katalon Studio is configured to send all report emails for Test Suite executions, including Test Suites in a Test Suite Collection.
 
-As an exclusive feature for Katalon Studio Enterprise, users are given an option to receive report emails for Test Suite Collections' executions and skipping single email for each Test Suite stored in that Collection. This feature is proved useful for those who execute Test Suite Collections containing a significant number of Test Suites. In that case, they can check **Skip sending email report for individual Test Suites in the Test Suite Collection** to keep their mail box tidy.
+As an exclusive feature for Katalon Studio Enterprise, users are given an option to receive report emails for Test Suite Collections' executions and skipping a single email for each Test Suite stored in that Collection. This feature is proved useful for those who execute Test Suite Collections containing a significant number of Test Suites. In that case, they can check **Skip sending email report for individual Test Suites in the Test Suite Collection** to keep their mailbox tidy.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/emails-settings/options.png" width="" height="">
 
@@ -142,21 +142,21 @@ Below is SMTP configuration for popular email servers:
 
 * Host: _[smtp.gmail.com](http://smtp.gmail.com/)_
 * Port: _465_
-* Username: _Your full Gmail address (e.g. [yourusername@gmail.com](mailto:yourusername@gmail.com))_
+* Username: _Your full Gmail address (e.g., [yourusername@gmail.com](mailto:yourusername@gmail.com))_
 * Password: Your Gmail password
 
 **Yahoo! Mail:**
 
 * Host: _[smtp.mail.yahoo.com](http://smtp.mail.yahoo.com/)_
 * Port: _465_
-* Username: _Your full Yahoo! Mail address (e.g. [yourusername@yahoo.com](mailto:yourusername@yahoo.com))_
+* Username: _Your full Yahoo! Mail address (e.g., [yourusername@yahoo.com](mailto:yourusername@yahoo.com))_
 * Password: _Your Yahoo! Mail password_
 
 **Outlook:**
 
 * Host: _[smtp.mail.outlook.com](http://smtp.mail.outlook.com/)_
 * Port: _587 or 25_
-* Username: _Your full Microsoft email address (e.g. [yourusername@outlook.com](mailto:yourusername@outlook.com))_
+* Username: _Your full Microsoft email address (e.g., [yourusername@outlook.com](mailto:yourusername@outlook.com))_
 * Password: _Your Microsoft password_
 * Protocol: _TLS_
 
@@ -164,11 +164,11 @@ Below is SMTP configuration for popular email servers:
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/emails-settings/email-template.png" width="" height="">
 
-You can defines sender, recipients (the list of emails to receive reports), email subject and body template in this section.
+You can define the sender, recipients (the list of emails to receive reports), email subject, and body template in this section.
 
 ### Report Format
 
-You can decide whether to include test execution report as email attachment or not. Specifically, you are given options to include **log files** and configure which **report format** (HTML, CSV, and PDF) of test executions to be sent as attachments in the report email.
+You can decide whether to include a test execution report as an email attachment or not. Specifically, you are given options to include **log files** and configure which **report format** (HTML, CSV, and PDF) of test executions to be sent as attachments in the report email.
 
 ### Body Template
 
@@ -182,13 +182,13 @@ Where:
 * hostName: Host's name
 * os: Operating system
 * Browser: Browser's name and version
-* deviceId: Id of executed device
-* deviceName: Name of executed device
-* suiteId: Id of test suite
-* suiteName: Name of test suite
-* totalPassed: total passed test cases
-* totalFailed: total failed test cases
-* totalError: total error test cases
+* deviceId: Id of the executed device
+* deviceName: Name of the executed device
+* suiteId: Id of the test suite
+* suiteName: Name of the test suite
+* totalPassed: Total passed test cases
+* totalFailed: Total failed test cases
+* totalError: Total error test cases
 
 For Test Suite Collection's email, **Edit Template for Test Suite Collection Execution** or go to **Project/Settings/Email/Template/Test Suite Collection**.
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/emails-settings/tsc-email.png" width="" height="">
@@ -200,11 +200,11 @@ Where:
 * hostName: Host's name
 * os: Operating system
 * suiteCollectionName: Name of Test Suite Collection
-* startTime: when the Test Suite Collection started running
-* duration: the duration of test execution
-* totalPassed: total passed test cases
-* totalFailed: total failed test cases
-* totalError: total error test cases
+* startTime: When the Test Suite Collection started running
+* duration: The duration of test execution
+* totalPassed: Total passed test cases
+* totalFailed: Total failed test cases
+* totalError: Total error test cases
 
 ## Network settings
 
@@ -231,7 +231,7 @@ Katalon Studio can be configured to use the Client Certificate for all requests.
 
 #### Create a Certificate
 
-To generate public and private key pairs (KeyStore and KeyStore Password) for the above configuration, you can use the keytool utility that is included in the JDK installation.
+To generate public and private key pairs (KeyStore and KeyStore Password) for the above configuration, you can use the *keytool* utility that is included in the JDK installation.
 
 1. Open the command prompt and navigate to the bin folder in the JDK folder.
 
@@ -239,7 +239,7 @@ To generate public and private key pairs (KeyStore and KeyStore Password) for th
 
    `keytool -genkey -alias katalon -keyalg RSA -keystore katalon.keystore`
 
-3. Enter a password for the new KeyStore and provide the utility with the required information (your name, the name of your organization, and etc).
+3. Enter a password for the new KeyStore and provide the utility with the required information (your name, the name of your organization, and etc.).
 
-To export a certificate with your public key, run the this command:
+To export a certificate with your public key, run this command:
 `keytool -export -alias katalon -file katalon.cer -keystore katalon.keystore`.
