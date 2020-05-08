@@ -11,20 +11,20 @@ redirect_from:
     - "/katalon-studio/docs/soap-pre-54.html"
 description:
 ---
-This section includes a tutorial of how to create a SOAP request object and an introduction to each field of a request service in its opened editor.
+When sending a SOAP Request in Katalon Studio, you can receive a response from the API server for examination and troubleshooting. This section includes a tutorial of how to create a SOAP request object and an introduction to each field of a request service in its opened editor.
 
 ## Creating a SOAP-based Request
 
-1. From the main menu, select **File > New > Web Service Request**.
-2. In the **New Web Service Request** dialog, select **SOAP** in the **Request Type** list and click **OK** to create a new SOAP object.
+1. From the main menu, select **File > New > Web Service Request**
+2. In the **New Web Service Request** dialog, select **SOAP** in the **Request Type** list and click **OK** to create a new SOAP object
 
    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/soap-request/image2018-9-5-143A213A46.png)
 
-3. A **New** request object is created under the **Object Repository** of Katalon Studio.
+3. A **New** request object is created under the **Object Repository** of Katalon Studio
 
 ## Adding SOAP Request Details
 
-After you've created a request successfully, double-click on the request to open its editor for adding details. In the opened editor of the **New** request object, you can see all the required information of a request object.
+After you've created a request successfully, double-click on the request to open its editor for adding details. In the opened editor of the **New Request** object, you can see all the required information of a request object.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/soap-request/details.png">
 
@@ -36,17 +36,16 @@ The request method indicates the expected action to be executed on the specified
 
 ### WSDL URL
 
-The WSDL service definition registered for the SOAP web service.
+The WSDL path from which Katalon Studio imports the content to this SOAP request.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/soap-request/wsdl-url.png">
 
 ### Service Function
 
-The function/method of the SOAP web service that you want to use in this SOAP request. The list is retrieved after clicking **Load Service Function**.
+The function that you want to use in this SOAP request. When clicking **Load Service Function**, you can retrieve a list of service functions available from the WSDL file.
+Each Service Function carries its own content, including Service Endpoint, SOAPAction Header and Request message.
 
-**Service Function's content** includes Service Endpoint, SOAPAction Header and Request message.
-
-* **Service Endpoint**:
+* **Service Endpoint**: You can specify another URL indicating the desired service endpoint of this request.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/soap-request/service-endpoint.png">
 
@@ -70,11 +69,9 @@ The header information needs sending along with this SOAP request. You can selec
 
 ### Request Message
 
-The information that you want to transmit in this SOAP request. You can enter directly or import content from external text files.
+The information that you want to transmit in this SOAP request. You can get it after clicking **Load New Content** of the selected service function.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/soap-request/request-message.png">
-
-When you have finished updating the request object, you need to save your changes. The defined request object can be used in test cases. Refer to [Use Web Service in Test Case](/display/KD/Using+Web+Services+in+a+Test+Case) for more details.
 
 ## Response
 
@@ -86,7 +83,7 @@ After sending the service request, Katalon Studio retrieves a message from the s
 
 ### Response Body
 
-There are 2 viewing formats: **pretty** and **raw**.For example, the SOAP's response of `http://www.dneonline.com/calculator.asmx?WSDL` is shown below.
+There are 2 viewing formats: **pretty** and **raw**. For example, the SOAP's response of `http://www.dneonline.com/calculator.asmx?WSDL` is shown below.
 
 * Pretty format
 

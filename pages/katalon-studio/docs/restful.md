@@ -13,7 +13,7 @@ redirect_from:
 description:
 ---
 
-Katalon Studio supports sending RESTful requests with parameters, body data and authorization details needed. When sending a Request, you can receive a response from the API server for examination adn troubleshooting. This section gives you detailed information of how to create and configure a RESTful request.
+Katalon Studio supports sending RESTful requests with parameters, body data and authorization details needed. When sending a Request, you can receive a response from the API server for examination and troubleshooting. This section gives you detailed information of how to create and configure a RESTful request.
 
 ## Creating a RESTful request object
 
