@@ -6,6 +6,9 @@ redirect_from:
     - "/display/KD/SOAP/"
     - "/x/LwLR/"
     - "/katalon-studio/docs/soap/"
+    - "/x/0hNO/"
+    - "/katalon-studio/docs/soap-pre-54/"
+    - "/katalon-studio/docs/soap-pre-54.html"
 description:
 ---
 This section includes a tutorial of how to create a SOAP request object and an introduction to each field of a request service in its opened editor.

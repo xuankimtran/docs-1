@@ -17,11 +17,9 @@ description:
 
 ## Execution Profile
 
-> Execution Profile is available starting in Katalon Studio version 5.4 and enhanced with a Scripting Editor in version 5.9.
+**Execution Profile** helps cover multiple and different environments to execute your automation test scripts with ease.
 
-Katalon Studio v5.4 introduces another flexible way to extend your current automation test scripts to cover multiple and different environments with ease. We call it **Execution Profile**. You can find below the changes related to this improvement:
-
-* The current [Global Variables](/display/KD/Variable+Types#VariableTypes-Globalvariables) list now becomes the **Default Profile**. There is **NO** 'Global Variables' interface. You need to create _Global Variables_ in the new **Execution Profile**.
+* The **Default Profile** stores Global Variables and you can create new ones here. There is **NO** 'Global Variables' interface.
 * By default, Katalon Studio uses a **default profile**, as indicated on the top right of Katalon Studio's interface. There is also a drop-down menu that allows you to select any available execution profile.
 
 Execution Profile interfaces are provided with Manual and Script Views where an XML editor is available for adding variables via script. You can create as many profiles as you want to, depending on the needs of the project. In Script View, Profiles can be easily synced with each other when there is a similar list of Global Variables required for testing different environment types. Just copy and paste the variables list from one Profile to another.
@@ -58,21 +56,16 @@ katalon -noSplash  -runMode=console -consoleLog -projectPath="C:\Users\Admin\Ka
 
 ### Define a Global Variable
 
-A Global Variable in Katalon Studio is a variable which is used globally in the project. For example, if you are going to define a variable as a Global Variable, you can use it in any test case in the project.
+A Global Variable in Katalon Studio is a variable which is used globally in the project. For example, if you are going to define a variable as a Global Variable, you can use it in any test case in the project. Global Variables can be managed in the **Default Profile** view.
 
-Global Variables can be managed in the **Default Profile** view.
+1. Expand the **default profile** view, then click **Add**.
+2. In the **New Variable** dialog box, specify details for the variable then click **OK**.
 
-> Starting from Katalon Studio version 5.4, the Global Variable view is no longer available.
+   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/variable-types/image2017-1-24-153A413A17.png)
 
-Expand the **default profile** view, then click **Add**.
+3. The variable are added to the **default profile** accordingly.
 
-The **New Variable** dialog box is displayed. Specify details for the variable then click **OK**.
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/variable-types/image2017-1-24-153A413A17.png)
-
-The variable are added to the **default profile** accordingly.
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/variable-types/default-profile.png" width="784" height="395">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/variable-types/default-profile.png" width="784" height="395">
 
 ### Use a Global Variable
 

@@ -7,6 +7,17 @@ redirect_from:
     - "/display/KD/Record%20Web%20Utility/"
     - "/x/RwnR/"
     - "/katalon-studio/docs/record-web-utility/"
+    - "/display/KD/Recording+WebUI+Test/"
+    - "/display/KD/Recording%20WebUI%20Test/"
+    - "/x/IA3R/"
+    - "/katalon-studio/docs/recording-webui-test/"
+    - "/katalon-studio/docs/recording-webui-test.html"
+    - "/x/BoIw/"
+    - "/katalon-studio/docs/record-web-utility-version-48-and-below/"
+    - "/katalon-studio/docs/record-web-utility-version-48-and-below.html"
+    - "/x/ZxhO/"
+    - "/katalon-studio/docs/record-web-utility-version-50-to-54/"
+    - "/katalon-studio/docs/record-web-utility-version-50-to-54.html"
 description: 
 ---
 Record

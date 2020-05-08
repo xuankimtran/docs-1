@@ -6,6 +6,9 @@ redirect_from:
     - "/display/KD/RESTful/"
     - "/x/CQLR/"
     - "/katalon-studio/docs/restful/"
+    - "/x/0BNO/"
+    - "/katalon-studio/docs/restful-pre-54/"
+    - "/katalon-studio/docs/restful-pre-54.html"
 
 description:
 ---

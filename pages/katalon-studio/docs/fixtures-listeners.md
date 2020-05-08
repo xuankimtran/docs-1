@@ -13,10 +13,6 @@ description:
 
 ## SetUp() and TearDown() for Test Suite and Test Case
 
-> Available in Katalon Studio v5.3
->
-> For full lifecycle of Tests in Katalon Studio, refer to this [documentation](/x/7zhO).
-
 Automation testers usually want to specify prerequisite and clean-up configuration for their test cases. With the prerequisite configuration, certain actions must be taken before starting test execution. For clean-up configuration, some actions must be carried out after the test execution finishes.
 
 Every test suite from your projects now has been equipped with the ability to run either **SetUp** or **Teardown** methods, which are groups of your own defined test steps before or after executing a Test Suite. This feature is another great extension besides [Test Listener](/katalon-studio/docs/test-listeners-test-hooks.html) to extend your current testing flow as much as possible.
@@ -62,9 +58,7 @@ For example:
 
 ## Test Listeners (Test Hooks)
 
-> Available in Katalon Studio v[5.2](/display/KD/Version+5.2)
-
-_Test Listeners_ is a new feature of Katalon Studio introduced since version 5.2. It is a great and flexible way to help you extend your current testing flows. In simple term, _Test Listeners_ are test steps that created based on your own criterias and will be executed when the condition is matched. The following guide contains all useful information to get you started with _Test Listeners_.
+_Test Listeners_ is a great and flexible way to help you extend your current testing flows. In simple term, _Test Listeners_ are test steps that created based on your own criterias and will be executed when the condition is matched. The following guide contains all useful information to get you started with _Test Listeners_.
 
 ### Manage Test Listeners
 
