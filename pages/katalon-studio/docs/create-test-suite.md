@@ -129,9 +129,9 @@ Currently, there are three plugins from Katalon Store, which enable this feature
 
 After installing one of those plugins, go to Katalon Studio and click **Reload Plugins**. [Learn more about how to reload plugins](https://docs.katalon.com/katalon-store/docs/user/access-store-in-KS.html#reload-plugins).
 
-**Query Provider**: the query syntax standard of a plugin that is currently applied. For example, when you successfully install the *Basic Search For Dynamic Test Suite* plugin, the query syntax standard becomes "Built-in".
+**Query Provider**: The query syntax standard of a plugin that is currently applied. For example, when you successfully install the *Basic Search For Dynamic Test Suite* plugin, the query syntax standard becomes "Built-in".
 
-**Query**: this search box allows you to input the query syntax manually. For example,
+**Query**: This search box allows you to input the query syntax manually. For example,
 `id=(Test Cases/Simple Examples/Katalon Shop/Custom-keyword samples/Order and check out a single product)`.
 
 **Query Builder** provides a convenient way to create and run a query in Katalon Studio.
@@ -144,20 +144,36 @@ After installing one of those plugins, go to Katalon Studio and click **Reload P
 
 *Note*: Search criteria are applied to all test artifacts, including test case, test suite, folder, and etc.
 
-**Preview**: to view the results after having the searching query.
+**Preview**: View the results after having the searching query.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dynamic-querying-test-suite/result.png" width="1039" height="346">
 
 ## Execute a Test Suite
 
-Open a test case/test suite, then select the environment to run the test case from **Run** command of the main toolbar. You can also [execute the test case using console mode](/display/KD/Console+Mode+Execution). 
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/image2018-8-2-153A203A44.png)
+Open a test case/test suite, then select an environment to run the test case from **Run** command of the main toolbar.
 
 > If you click on the **Run** button, the test case is executed using the default browser defined in [Execution Settings](/display/KD/Execution+Settings).
 
-<table><thead><tr><th>Execution Environment</th><th>Execution Guide</th></tr></thead><tbody><tr><td><strong>Browsers</strong></td><td>Select to execute your test on one of the supported browsers (Chrome, Firefox, IE, Safari, Edge)</td></tr><tr><td><strong>Mobile Browsers</strong></td><td>Select to execute your test on one of the supported devices (Android, iOS)</td></tr><tr><td><strong>Mobile</strong></td><td><p>Before executing your test, check if you have set up the environment for mobile testing for <a href="/display/KD/Mobile+on+Windows">Windows</a> or for <a href="/display/KD/Mobile+on+macOS">macOS</a>. Select your device among those listed in Katalon Studio.</p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/image2018-1-26-183A543A41.png"><p>&nbsp;</p><blockquote class="important"><p class="title">Troubleshooting</p><p>If there is no device listed, please make sure the Developer Mode on the phone is turned on, try to unplug, and reconnect several times until you are prompted to accept/trust this device.</p><p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/image2018-8-2-153A313A52.png"></p></blockquote></td></tr><tr><td><strong>Remote</strong></td><td>Make sure you have set up the default configuration for the remote environment in project settings. Refer to&nbsp;<a href="/display/KD/Introduction+to+Desired+Capabilities">Introduction to Desired Capabilities</a>&nbsp;for more details.</td></tr><tr><td><strong>Custom</strong></td><td>Make sure you have set up the default configuration for the remote environment in project settings. Refer to&nbsp;<a class="external-link" href="/x/cgFO#ExecutionSettings-CustomExecution" rel="nofollow">Custom Execution</a>&nbsp;for more details. When you have set up your custom environment, select it from the drop-down list.</td></tr></tbody></table>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/environment.png" width=310>
+
+* **Browsers**: Select one of the supported browsers, including Chrome, Firefox, IE (for Windows only), Safari, or Edge Chromium, Chrome (headless), and Firefox (headless).
+* **Mobile Devices**: Select one of the listed devices (Android or iOS).
+
+  Before executing your test, check if you have set up the environment for mobile testing for <a href="/display/KD/Mobile+on+Windows">Windows</a> or for <a href="/display/KD/Mobile+on+macOS">macOS</a>.
+
+  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/image2018-1-26-183A543A41.png">
+
+  > Troubleshooting
+  >
+  > If there is no device listed, please make sure the Developer Mode on the phone is turned on, try to unplug, and reconnect several times until you are prompted to accept/trust this device.
+  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/image2018-8-2-153A313A52.png">
+
+* **Windows**: Select this option if you are executing tests on a desktop application.
+* **Remote**: Make sure you have set up the default configuration for the remote environment in project settings. Refer to&nbsp;<a href="/display/KD/Introduction+to+Desired+Capabilities">Introduction to Desired Capabilities</a>&nbsp;for more details.
+* **Custom**: Make sure you have set up the default configuration for the remote environment in project settings. Refer to&nbsp;<a class="external-link" href="/x/cgFO#ExecutionSettings-CustomExecution" rel="nofollow">Custom Execution</a>&nbsp;for more details. When you have set up your custom environment, select it from the drop-down list.
 
 The Job Progress is triggered automatically to show the progress while your test case/test suite is being executed.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/image2017-6-30-203A543A25.png)
+
+> You can also [execute the test case using console mode](/display/KD/Console+Mode+Execution).
