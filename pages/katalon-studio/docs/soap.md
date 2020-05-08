@@ -10,58 +10,96 @@ description:
 ---
 This section includes a tutorial of how to create a SOAP request object and an introduction to each field of a request service in its opened editor.
 
-## Create a SOAP-based Request Object
+## Creating a SOAP-based Request
 
 1. From the main menu, select **File > New > Web Service Request**.
 2. In the **New Web Service Request** dialog, select **SOAP** in the **Request Type** list and click **OK** to create a new SOAP object.
 
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/soap-request/image2018-9-5-143A213A46.png)
+   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/soap-request/image2018-9-5-143A213A46.png)
 
 3. A **New** request object is created under the **Object Repository** of Katalon Studio.
 
-## Design the SOAP Request Object
+## Adding SOAP Request Details
 
-In the opened editor of the **New** request object, you can see all the required information of a request object.
+After you've created a request successfully, double-click on the request to open its editor for adding details. In the opened editor of the **New** request object, you can see all the required information of a request object.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/soap-request/opened-editor.png">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/soap-request/details.png">
 
-* **Request Method**: The request method indicates the expected action to be executed on the specified resource. Katalon Studio supports following SOAP methods: SOAP, SOAP 1.2, POST, GET.
-* **WSDL URL**: The WSDL service definition registered for the SOAP web service.
-* **Service Function**: The function/method of the SOAP web service that you want to use in this SOAP request. The list is retrieved after clicking **Load Service Function**.
-* **Service Function's content** includes Service Endpoint, SOAPAction Header and Request message.
-* **Service Endpoint**: 
-* **Authorization**: Credentials for HTTP authentication
+### Request Method
+
+The request method indicates the expected action to be executed on the specified resource. Katalon Studio supports following SOAP methods: SOAP, SOAP 1.2, POST, GET. By default, Katalon selects SOAP as a method for a new SOAP request.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/soap-request/method.png">
+
+### WSDL URL
+
+The WSDL service definition registered for the SOAP web service.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/soap-request/wsdl-url.png">
+
+### Service Function
+
+The function/method of the SOAP web service that you want to use in this SOAP request. The list is retrieved after clicking **Load Service Function**.
+
+**Service Function's content** includes Service Endpoint, SOAPAction Header and Request message.
+
+* **Service Endpoint**:
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/soap-request/service-endpoint.png">
+
+### Request Authentication
+
+This part is used for authenticating and authorizing the request, which means to verify if the client is permitted to send the request and to perform the endpoint operation.
+
+For more details on using each type of auth, please see:
+
+* [Basic](https://docs.katalon.com/katalon-studio/docs/authorization-basic.html)
+* [OAuth 1.0](https://docs.katalon.com/katalon-studio/docs/authorization-oauth1.html)
+* [OAuth 2.0](https://docs.katalon.com/katalon-studio/docs/authorization-oauth2.html)
+
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/soap-request/image2018-9-5-143A213A10.png">
 
-* **HTTP Headers**: The header information that you want to transmit in this SOAP request object.
-You can select headers from the list of suggested options (by double-clicking on the **Name** cell) or enter another header of your interest. Refer to [Supported HTTP Headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers) for more details.
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/soap-request/http-headers.png">
+### Request Headers
 
-* **Request Message**: The information that you want to transmit in this SOAP request object.You can enter directly or import content from external text files.
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/soap-request/message.png">
+The header information needs sending along with this SOAP request. You can select headers from the list of suggested options (by double-clicking on the **Name** cell) or enter another header of your interest. Refer to [Supported HTTP Headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers) for more details.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/soap-request/header.png">
+
+### Request Message
+
+The information that you want to transmit in this SOAP request. You can enter directly or import content from external text files.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/soap-request/request-message.png">
 
 When you have finished updating the request object, you need to save your changes. The defined request object can be used in test cases. Refer to [Use Web Service in Test Case](/display/KD/Using+Web+Services+in+a+Test+Case) for more details.
 
-## Explore the Response View of an Object
+## Response
 
-When you click on the **Test Request** button, Katalon Studio retrieves a message from a web service server and display it in the Response view of an object. The response include the following details: **Status**, **Elapsed** Time, and **Size**.
+After sending the service request, Katalon Studio retrieves a message from the server and display it in the **Response** view of the request. A service reponse comprises Status, Eslapsed time, and Size fields; Body section, Header and Verification Log.
 
-* **Body**: There are 2 viewing formats: **pretty** and **raw**.
+* **Status**: The status code of the response
+* **Elapsed**: The total time that starts from the request is sent until Katalon Studio receives the last byte of the response
+* **Size**: Size of the response package
 
-  Pretty format
+### Response Body
+
+There are 2 viewing formats: **pretty** and **raw**.For example, the SOAP's response of `http://www.dneonline.com/calculator.asmx?WSDL` is shown below.
+
+* Pretty format
 
   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/soap-request/pretty.png">
 
-  Raw Format
+* Raw Format
 
-  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/soap-request/raw.png">
+  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/soap-request/response.png">
 
-* **Header**:
-* **Verification Log**:
+### Response Header
 
-For example, the SOAP request and response of `http://www.dneonline.com/calculator.asmx?WSDL` are shown below.
+The response's header is displayed in the **Header** tab.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/soap-request/Screen-Shot-2018-09-21-at-1.13.00-PM.png)
+### Verification Log
+
+This tab displays the verification results after the request is tested and verified. Refer to this document for [how to verify API responses in Katalon Studio](https://docs.katalon.com/katalon-studio/docs/verify-api-responses.html#verifying-rest-response-in-json-format).
 
 **See also:**
 
