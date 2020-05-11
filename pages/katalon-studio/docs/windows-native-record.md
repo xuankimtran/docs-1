@@ -23,7 +23,7 @@ If your machine hasn't installed them yet, you could use Katalon tools to instal
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/native-windows-recorder/kat-tool.png">
 
-## Recording and Playing back
+## Recording
 
 1. Right-click on the Windows Recorder icon and select **Native Windows Recorder** to open the Native Windows Recorder windows.
 
@@ -71,8 +71,12 @@ If your machine hasn't installed them yet, you could use Katalon tools to instal
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-windows-actions/test-case.png" width="609" height="191">
 
-11. Select the **Windows** icon in the **Run** button on the main Toolbar to execute the script.  
+## Executing a test case
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-windows-actions/step13.png" width="228" height="330">
+Remember to turn on the WinAppDriver before executing a test case.
 
-12. The Windows test is executed with those recorded steps accordingly.
+Select the **Windows** icon in the **Run** button on the main Toolbar to execute the script.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-windows-actions/step13.png" width="228" height="330">
+
+The Windows test is executed with those recorded steps accordingly.
