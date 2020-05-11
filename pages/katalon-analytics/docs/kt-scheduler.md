@@ -26,6 +26,7 @@ To create a new test plan, please follow the below instruction:
     * **Test Suite Collection**: Select a Test Suite or a Test Suite Collection that you want to execute.
     * **Katalon Command**: Enter a command to execute Katalon Studio tests. This command can be generated from [Katalon Studio command generator](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#katalon-command-line-options).
     * **Generic Command**: Enter a command to execute this test with another tool.
+    * **Cloud type**: Select the test environment which you have already configure: Local Agent or other Test Environments such as CircleCI or EKS.
 
   * **Katalon Studio Version** when you want the Agent to download Katalon Studio automatically.\
   Or you can use **Pre-Installed Katalon Studio Location** to browse to Katalon Studion on your machine. This option is recommended in network restricted environments.
