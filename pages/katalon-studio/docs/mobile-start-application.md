@@ -51,7 +51,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 'Start application on current selected android device'
-Mobile.startApplication('C:\\Users\\admin\\androidfile.apk, true)
+Mobile.startApplication('C:\\Users\\admin\\androidfile.apk', true)
 
 'Close application on current selected android device'
 Mobile.closeApplication()
@@ -84,7 +84,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 'Start application on current selected android device'
-Mobile.startApplication('\\androidfile.apk, true)
+Mobile.startApplication('\\androidfile.apk', true)
 
 'Close application on current selected android device'
 Mobile.closeApplication()
