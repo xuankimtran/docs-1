@@ -40,14 +40,18 @@ If your machine hasn't installed them yet, you could use Katalon tools to instal
    * *ApplicationID* if your app is published on Microsoft store
    * *PackageFamilyName!Application ID* if your app is still in development.
 
-3. The **Start** button is enabled after the Application File text box is filled. Click **Start** when you're done with the settings.
-
+3. Click **Start** deploy and open the specified Windows application.
+   
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/native-windows-recorder/action-bar.png">
 
-4. The specified Windows application is deployed and opened.
-5. The list of available actions is the same as Katalon Studio's built-in keywords. You can add any action, call another test case, and/or use Custom Keywords.
+4. When you hover over an element of the AUT, Katalon Studio highlights the identified object with a red rectangle.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/native-windows-recorder/hover-highlight.png">
+
+5. When you perform an action on the AUT, the action is recorded in the **Recorded Actions** section. The list of available actions is the same as Katalon Studio's built-in keywords. You can add any action, call another test case, and/or use Custom Keywords.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/native-windows-recorder/recorded-actions.png">
+
 6. All of the specified actions above are recorded at the **Recorded Actions** section.
 
    In **Captured Objects**, you can view all elements captured during the recording session. Here you can customize the locator of a captured object by modifying it in the Locator tab of **Object Properties**.
