@@ -315,7 +315,7 @@ The below table is the list of all supported Selenese Commands.
         <tr>
             <td>43</td>
             <td>assertElementNotPresent</td>
-            <td>assertElementNotPresent(locator)<br>Generated from isElementPresent(locator<p><strong>Arguments</strong>:</p>*locator - an element locator.<br>Returns: true if the element is present, false otherwise&nbsp;</td>
+            <td>assertElementNotPresent(locator)<br>Generated from isElementPresent(locator<p><strong>Arguments</strong>:</p>*locator - an element locator.<br>Returns: true if the element is not present, false otherwise&nbsp;</td>
         </tr>
         <tr>
             <td>44</td>
@@ -1889,7 +1889,7 @@ The below table is the list of all supported Selenese Commands.
         <tr>
             <td>354</td>
             <td>verifyElementNotPresent</td>
-            <td>verifyElementNotPresent(locator)<br>Generated from isElementPresent(locator)<p><strong>Arguments</strong>:</p>*locator - an element locator<br>Returns: true if the element is present, false otherwise&nbsp;</td>
+            <td>verifyElementNotPresent(locator)<br>Generated from isElementPresent(locator)<p><strong>Arguments</strong>:</p>*locator - an element locator<br>Returns: true if the element is not present, false otherwise&nbsp;</td>
         </tr>
         <tr>
             <td>355</td>
@@ -2444,7 +2444,7 @@ The below table is the list of all supported Selenese Commands.
         <tr>
             <td>465</td>
             <td>waitForElementNotPresent</td>
-            <td>waitForElementNotPresent(locator) Generated from isElementPresent(locator) Arguments: *locator - an element locator . Returns: true if the element is present, false otherwise&nbsp;</td>
+            <td>waitForElementNotPresent(locator) Generated from isElementPresent(locator) Arguments: *locator - an element locator . Returns: true if the element is not present, false otherwise&nbsp;</td>
         </tr>
         <tr>
             <td>466</td>
