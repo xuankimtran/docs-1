@@ -4,9 +4,6 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/ka-api-key.html
 description: Instructions of how to generate and use API Key in KA
 ---
-## API Keys usage in Katalon TestOps
-
-API Keys play an important role as the user credentials to integrate **Katalon TestOps** with other platforms before proceeding execution.
 
 ## Create an API Key
 
