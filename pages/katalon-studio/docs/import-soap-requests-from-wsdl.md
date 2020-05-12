@@ -22,25 +22,23 @@ To import a WSDL file to your project, please do as follows:
 2. Select **Import > From WSDL**
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-soap-requests-from-wsdl/import-wsdl-rightclick.png" width=512 >
 
-3. In the **URL** field of the **Import WSDL** dialog, specify either a remote WSDL URL or a relative path of a local WSDL file (e.g., https://mysite/swagger.json, or [http://www.dneonline.com/calculator.asmx?WSDL](http://www.dneonline.com/calculator.asmx?WSDL)).
+3. In the **URL** field of the **Import WSDL** dialog, specify either a remote WSDL URL or a path of a local WSDL file (e.g., [http://www.dneonline.com/calculator.asmx?WSDL](http://www.dneonline.com/calculator.asmx?WSDL)).
 4. Click **OK**. Katalon Studio loads the file and generates SOAP request objects.
 
-If you've created an **API/Web Service** project, click on the **Import WSDL** icon on the main toolbar to display the **Import WSDL** dialog in step 3.
+If you have created an **API/Web Service** project, click on the **Import WSDL** icon on the main toolbar to display the **Import WSDL** dialog in step 3.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-soap-requests-from-wsdl/import-wsdl-icon.png" width=412 >
 
 ## Working with the imported WSDLs
 
-A WSDL may contain multiple services. For each service, Katalon Studio creates a SOAP request with a specific Service Function and parses its content from the specified WSDL into their corresponding fields in the request object such as Service Endpoint, SOAPAction and Request message.
+A WSDL may contain multiple services. For each service, Katalon Studio creates a SOAP request with a specific Service Function and parses its content from the specified WSDL into their corresponding fields in the request object such as Service Endpoint, SOAPAction and Request message. For example, Katalon Studio creates multiple request objects with [http://www.dneonline.com/calculator.asmx?WSDL]([http://www.dneonline.com/calculator.asmx?WSDL]).
 
-However, you can always manually change the content of those fields. When you override any fields of the imported request object with new values, you need to **save** your modifications for it to take effect.
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-soap-requests-from-wsdl/parsed-objects.png">
+
+From version 7.5.0, you can always manually change the content of those fields. When you override any fields of the imported request object with new values, you need to **save** your modifications for it to take effect.
 
 * **Service Endpoint**: this tab stores the service endpoint parsed from the WSDL file. You can also specify another endpoint for the interface as your wish. This request object receives any value given in this field.
 * **SOAPAction**: the SOAPAction is parsed in the HTTP Header of the request if the request method is SOAP.
-
-For example, Katalon Studio creates multiple request objects with [http://www.dneonline.com/calculator.asmx?WSDL]([http://www.dneonline.com/calculator.asmx?WSDL]).
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-soap-requests-from-wsdl/objects.png">
 
 ## Troubleshooting
 
