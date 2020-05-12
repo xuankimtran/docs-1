@@ -1115,6 +1115,8 @@ items:
                url: /katalon-analytics/docs/compare-test-results.html
              - title: "Delete a Project or a Test Execution"
                url: /katalon-analytics/docs/project-management-delete.html
+             - title: "Working with Releases"
+               url: /katalon-analytics/docs/release.html
           - title: "Reports and Analytics"
             tree: 
              - title: "View Reports"
