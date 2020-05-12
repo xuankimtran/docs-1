@@ -9,6 +9,8 @@ This tutorial shows you how to set up an Organization properly in Katalon TestOp
 
 ## Create an Organization
 
+Organizations are shared Katalon TestOps accounts where groups of users can collaborate across several projects at once. A user defaults to owning a personal organization and can belong to many organizations.
+
 1. Log into Katalon TestOps
 2. On the home page, click **Create Organization** at the bottom and confirm your action
 
@@ -26,14 +28,17 @@ In the **Organization** view, select **Users** > in the **Users** view, select *
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/invite-users-org.png" width="" height="">
 
 
-
 ## Create a Team
+
+Teams are groups of users that reflect the company's structures. A team is created by either Owner or Admin in an organization. Only members of a team can view and access the projects within that team.
 
 In the **Organization** view, select **Teams** > give a name to your team and click **Create**. You're the team Owner by default.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/create-team.png" width="" height="">
 
 ## Create Projects
+
+A Katalon TestOps project is a handful of reports generated based on a dataset of automation test results which are imported by users. It would typically represent the development of automation testing work. A project is created only by Admins of a team with a particular name and automatically generated ID. There are many projects in a team.
 
 Select the newly created team which is displayed in the **Team** table. In the **Team** view, you can add members to your team and create projects for them to work on.
 
@@ -45,6 +50,8 @@ Select the **Users** tab > add your members to the team one by one by selecting 
 
 ### Create Projects
 
+A Katalon TestOps project is a handful of reports generated based on a dataset of automation test results which are imported by users. It would typically represent the development of automation testing work. A project is created only by Admins of a team with a particular name and automatically generated ID. There are many projects in a team.
+
 Select **Projects** > give a name to your project and click **Create**.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/create-project.png" width="" height="">
@@ -55,5 +62,4 @@ See also:
 
 * [User Role and Permission](https://docs.katalon.com/katalon-analytics/docs/kt-user-role-permission.html)
 * [User Management](https://docs.katalon.com/katalon-analytics/docs/user-management.html)
-* [Introduction to Project Toolbar](https://docs.katalon.com/katalon-analytics/docs/project-management-main-toolbar.html#access-the-project-toolbar)
 * [Integration of Katalon Studio with Katalon TestOps](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html)

@@ -1085,16 +1085,12 @@ items:
             url: /katalon-analytics/docs/setup-org-team-project.html
           - title: "Manage an Organization"
             url: /katalon-analytics/docs/manage-org.html
-          - title: "Glossary"
-            url: /katalon-analytics/docs/ka-glossary.html
           - title: "API Keys"
             url: /katalon-analytics/docs/ka-api-key.html
           - title: "User Role and Permission"
             url: /katalon-analytics/docs/kt-user-role-permission.html
           - title: "User Management"
             url: /katalon-analytics/docs/user-management.html
-          - title: "Introduction to Project Toolbar"
-            url: /katalon-analytics/docs/project-management-main-toolbar.html
       - title: "TestOps Center"
         tree:
           - title: "Overview"
