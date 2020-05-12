@@ -7,7 +7,7 @@ description:
 
 To schedule a test or view a list of scheduled test, log into Katalon TestOps > go to your project > select **TestOps CI** > select **Plan**.
 
-You can plan your tests and execute using Local Agents or other test environments such as EKS or CircleCI. In this tutorial, we use CircleCI test enviroment as an example.
+You can plan and execute your tests using Local Agents or other test environments such as EKS or CircleCI. In this tutorial, we use CircleCI test enviroment as an example.
 
 ## Plan a test
 
@@ -43,8 +43,6 @@ To create a new test plan, please follow the below instruction:
 
 4. Select an Agent in the drop-down list. If you have just configured an Agent, please wait for a while for it to be registered with Katalon server.
 5. Click **Create**. The newly created test plan will be displayed on the **Plan** view .
-
-
 
 ## Schedule a test plan
 
