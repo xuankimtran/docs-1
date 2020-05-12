@@ -24,7 +24,7 @@ Fill in the required fields to connect to CircleCI.
 - **Token**: your API in [CircleCI](https://circleci.com/account/api)
 - **API Key**: your API key in [Katalon TestOps](https://analytics.katalon.com/user/apikey)
 
-After connecting to CircleCI, select your project and branch which you have forked at the beginning.
+After connecting to CircleCI, select your project and branch which you have forked in the beginning.
 
 Click the **Create** button to create a new CircleCI test enviroment.
 
