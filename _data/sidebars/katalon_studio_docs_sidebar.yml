@@ -491,6 +491,8 @@ items:
                 url: /katalon-studio/docs/webui-un-check.html
               - title: "[WebUI] Upload File"
                 url: /katalon-studio/docs/webui-upload-file.html
+              - title: "[WebUI] Upload File by Drag-and-Drop"
+                url: /katalon-studio/docs/webui-upload-file-drag-and-drop.html
               - title: "[WebUI] Verify Alert Not Present"
                 url: /katalon-studio/docs/webui-verify-alert-not-present.html
               - title: "[WebUI] Verify Alert Present"

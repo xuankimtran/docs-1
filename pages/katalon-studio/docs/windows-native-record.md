@@ -11,12 +11,12 @@ From version 7.0.0, Katalon supports the recording utility for Desktop apps test
 * You need an active **Katalon Studio Enterprise** license
 * This feature is supported on **Windows only**
 
-**Precondition**
+**Preconditions**
 
 * [Setting up WinAppDriver](https://docs.katalon.com/katalon-studio/docs/setup-winappdriver.html)
 * Installing [Microsoft .NET Framework 4.5.2 or later](https://dotnet.microsoft.com/download/dotnet-framework/net452)
 
-If your machine hasn't installed them yet, you could use Katalon tools to install them.
+If your machine hasn't installed them yet, you could use Katalon tools.
 
 * **Tools > Windows > Install WinAppDrivers**
 * **Tools > Windows > Install .NET Framework 4.5.2**
