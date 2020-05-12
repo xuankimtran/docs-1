@@ -1,14 +1,14 @@
 ---
 title: "Working with Releases in Katalon TestOps" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-analytics/docs/aws-eks.html 
+permalink: katalon-analytics/docs/release.html 
 description: 
 ---
 With the Releases feature in Katalon TestOps, you can [populate releases from Jira](https://docs.katalon.com/katalon-analytics/docs/kt-jira-release.html) or create a new one and map your executions to it.
 
 ## Create a new release
 
-To create a new release, go to **Releases** > **Create Release**.
+To create a new release, in your project, go to **Releases** > **Create Release**.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/release/release-list.png" width="" height="">
 
