@@ -42,6 +42,20 @@ For example, Katalon Studio creates multiple request objects with [http://www.dn
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-soap-requests-from-wsdl/objects.png">
 
+## Troubleshooting
+
+After sending the SOAP request, you may encounter the "System.Web.Services.Protocols.SoapException: Server did not recognize the value of HTTP Header SOAPAction.." exception (1) in the response.
+
+One of the possible causes is because you have enabled **Use the endpoint and SOAPAction header parsed from WSDL** (2) and specified the SOAPAction in the request header (3) simultaneously.
+
+*(1),(2),(3): please see the image below for more information.*
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-soap-requests-from-wsdl/exception.png">
+
+**Proposed solution**
+
+Remove the SOAPAction header from the HTTP Header if you decide to use the endpoint and SOAPAction header parsed from WSDL.
+
 See also:
 
 * [SOAP Request](https://docs.katalon.com/katalon-studio/docs/soap.html)
