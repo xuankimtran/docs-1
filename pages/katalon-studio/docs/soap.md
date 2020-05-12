@@ -32,7 +32,7 @@ After you've created a request successfully, double-click on the request to open
 
 The request method indicates the expected action to be executed on the specified resource. Katalon Studio supports the following SOAP methods: SOAP, SOAP 1.2, POST, GET. By default, Katalon selects SOAP as a method for a new SOAP request.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/soap-request/method.png">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/soap-request/method-list.png">
 
 ### WSDL URL
 
@@ -43,9 +43,12 @@ This field is for a WSDL path from which Katalon Studio imports the content to t
 ### Service Function
 
 The function that you want to use in this SOAP request. When clicking **Load Service Function**, you can retrieve a list of service functions available from the WSDL file.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/soap-request/method.png">
+
 Each Service Function carries its own content, including Service Endpoint, SOAPAction Header and Request message.
 
-* **Service Endpoint**: You can specify another URL indicating the desired service endpoint of this request.
+In **Service Endpoint**, You can specify another URL indicating the desired service endpoint of this request.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/soap-request/service-endpoint.png">
 
