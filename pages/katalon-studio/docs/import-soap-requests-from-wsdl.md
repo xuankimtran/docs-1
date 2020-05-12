@@ -20,7 +20,7 @@ To import a WSDL file to your project, please do as follows:
 
 1. In **Tests Explorer**, right-click on any folder of **Object Repository**
 2. Select **Import > From WSDL**
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-soap-requests-from-wsdl/import-wsdl-rightclick.png" width=512 >
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-soap-requests-from-wsdl/import-wsdl-rightclick.png" width=512 >
 
 3. In the **URL** field of the **Import WSDL** dialog, specify either a remote WSDL URL or a relative path of a local WSDL file (e.g., https://mysite/swagger.json, or [http://www.dneonline.com/calculator.asmx?WSDL](http://www.dneonline.com/calculator.asmx?WSDL)).
 4. Click **OK**. Katalon Studio loads the file and generates SOAP request objects.

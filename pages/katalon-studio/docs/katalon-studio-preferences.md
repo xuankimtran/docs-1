@@ -116,10 +116,12 @@ In the Proxy Settings areas of both Authentication and System proxies, you can s
 
 Katalon Studio applies the System proxy to test execution's desired capabilities on the instance automatically. If you wish to configure different proxy's desired capabilities for a project, you need to do as follows:
 
-1. Open your project and go to **Katalon Studio> Preferences > Katalon > Proxy > System**
+1. Open your project and go to **Katalon Studio/Preferences/Katalon/Proxy/System**
 2. At the bottom of the displayed view, uncheck the **Auto-apply to test execution desired capabilities** option and click **OK** to save
   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/uncheck.png">
-3. Go to **Project > Settings > Desired Capabilities** and select a testing environment
+
+3. Go to **Project/Settings/Desired Capabilities** and select a testing environment
+
 4. Specify proxy details and click **OK** to save
 
    For example:
