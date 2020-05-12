@@ -1,5 +1,5 @@
 ---
-title: "How to use API Keys in Katalon Analytics" 
+title: "API Keys" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/ka-api-key.html
 description: Instructions of how to generate and use API Key in KA
