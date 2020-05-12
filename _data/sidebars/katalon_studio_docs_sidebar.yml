@@ -325,8 +325,10 @@ items:
                     url: /katalon-studio/docs/intro-record-windows.html
                   - title: "Windows Spy Tutorials"
                     url: /katalon-studio/docs/windows-spy-tutorials.html
-                  - title: "Windows Record Tutorials"  
+                  - title: "Windows Record Tutorials"
                     url: /katalon-studio/docs/windows-recorder-tutorials.html
+                  - title: "Native Windows Recorder"
+                    url: /katalon-studio/docs/windows-native-record.html
               - title: "Windows Test Objects"
                 url: /katalon-studio/docs/windows-test-objects.html
           - title: "Test Artifacts Sharing"

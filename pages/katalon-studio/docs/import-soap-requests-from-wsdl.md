@@ -1,5 +1,5 @@
 ---
-title: "Import SOAP requests from WSDL" 
+title: "Import SOAP requests from WSDLs" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/import-soap-requests-from-wsdl.html 
 redirect_from:
@@ -9,36 +9,53 @@ redirect_from:
     - "/katalon-studio/docs/import-soap-requests-from-wsdl/"
 description: 
 ---
-To import Web Service objects from a WSDL File or URL depending on the type of your Katalon Studio project, follow the following:
 
-Generic Project
----------------
+[WSDL](https://www.w3.org/TR/wsdl/) is used for specifying a SOAP web service's functionality. It's critical to SOAP Web Service testing when you can create web service requests based on a WSDL file. This section shows you how to import a WSDL file into a Katalon project and help you explore a WSDL.
 
-*   In Tests Explorer, right-click on any folder within **Object Repository** to display the context menu and select **Import > From WSDL**.
+From **version 7.5.0+**, Katalon Studio improves the WSDL importing feature with more intuitive UI and newly supported utility. Particularly, you are able to add the desired endpoint to your SOAP request, which takes precedence over the imported endpoint.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-soap-requests-from-wsdl/Screen-Shot-2018-10-08-at-3.42.49-PM.png)
+## Importing WSDLs into Katalon Studio
 
-API/Web Service Project
------------------------
+To import a WSDL file to your project, please do as follows:
 
-There are two ways to import existing WSDL request:
+1. In **Tests Explorer**, right-click on any folder of **Object Repository**
+2. Select **Import > From WSDL**
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-soap-requests-from-wsdl/import-wsdl-rightclick.png" width=512 >
 
-*   In Tests Explorer, right-click on any folder within **Object Repository** to display the context menu and select **Import > From WSDL.**
+3. In the **URL** field of the **Import WSDL** dialog, specify either a remote WSDL URL or a relative path of a local WSDL file (e.g., https://mysite/swagger.json, or [http://www.dneonline.com/calculator.asmx?WSDL](http://www.dneonline.com/calculator.asmx?WSDL)).
+4. Click **OK**. Katalon Studio loads the file and generates SOAP request objects.
 
-*   Click on '**Import WSDL**' icon on the main toolbar or Quickstart wizard.   
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-soap-requests-from-wsdl/Screen-Shot-2018-10-09-at-4.41.24-PM.png)  
-      
-    
+If you've created an **API/Web Service** project, click on the **Import WSDL** icon on the main toolbar to display the **Import WSDL** dialog in step 3.
 
-Katalon Studio displays the input dialog accepts either a local File or a remote URL (e.g: [h](https://mysite/swagger.json,)[http://www.dneonline.com/calculator.asmx?WSDL](http://www.dneonline.com/calculator.asmx?WSDL)). Since both inputs are using the same definition, Katalon Studio will load the specification and generate SOAP request objects.
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-soap-requests-from-wsdl/import-wsdl-icon.png" width=412 >
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-soap-requests-from-wsdl/Screen-Shot-2018-10-02-at-13.29.39.png)
+## Working with the imported WSDLs
 
-**Katalon Studio automatically imports and generates:**
+A WSDL may contain multiple services. For each service, Katalon Studio creates a SOAP request with a specific Service Function and parses its content from the specified WSDL into their corresponding fields in the request object such as Service Endpoint, SOAPAction and Request message.
 
-> You will need to manually provide in the inputs for the Request Message.
+However, you can always manually change the content of those fields. When you override any fields of the imported request object with new values, you need to **save** your modifications for it to take effect.
 
-*   Web Service objects (SOAP) are added under the right-clicked directory.
-*   _Request Message_.
-*   _Service Function_.
-*   _HTTP Body_, _form-data_, and _encoded URL parameters_ are parsed.
+* **Service Endpoint**: this tab stores the service endpoint parsed from the WSDL file. You can also specify another endpoint for the interface as your wish. This request object receives any value given in this field.
+* **SOAPAction**: the SOAPAction is parsed in the HTTP Header of the request if the request method is SOAP.
+
+For example, Katalon Studio creates multiple request objects with [http://www.dneonline.com/calculator.asmx?WSDL]([http://www.dneonline.com/calculator.asmx?WSDL]).
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-soap-requests-from-wsdl/objects.png">
+
+## Troubleshooting
+
+After sending the SOAP request, you may encounter the "System.Web.Services.Protocols.SoapException: Server did not recognize the value of HTTP Header SOAPAction.." exception (1) in the response.
+
+One of the possible causes is because you have enabled **Use the endpoint and SOAPAction header parsed from WSDL** (2) and specified the SOAPAction in the request header (3) simultaneously.
+
+*(1),(2),(3): please see the image below for more information.*
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-soap-requests-from-wsdl/exception.png">
+
+**Proposed solution**
+
+Remove the SOAPAction header from the HTTP Header if you decide to use the endpoint and SOAPAction header parsed from WSDL.
+
+See also:
+
+* [SOAP Request](https://docs.katalon.com/katalon-studio/docs/soap.html)

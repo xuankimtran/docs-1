@@ -5,6 +5,12 @@ permalink: katalon-studio/docs/windows-recorder-tutorials.html
 ---
 > Starting in **Katalon Studio version 7.0**, you can record a test on a Windows desktop application.
 
+**Precondition**
+
+* [Setting up WinAppDriver](https://docs.katalon.com/katalon-studio/docs/setup-winappdriver.html)
+
+## Recording
+
 1. To start recording a Windows action, Click the **Record Windows Action** icon on the main toolbar of Katalon Studio.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/introduction-desktop-app-testing/Windows_Record_Action.png" width="600.5" height="65">
@@ -56,18 +62,21 @@ permalink: katalon-studio/docs/windows-recorder-tutorials.html
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-windows-actions/test-case.png" width="609" height="191">
 
-11. Select the **Windows** icon in the **Run** button on the main Toolbar to execute the script.  
+## Executing a test case
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-windows-actions/step13.png" width="228" height="330">
+Remember to turn on the WinAppDriver before executing a test case.
 
-12. The Windows test is executed with those recorded steps accordingly.
+Select the **Windows** icon in the **Run** button on the main Toolbar to execute the script.
 
-    >**Notes**:
-    >
-    > 1. Remember not to lock your screen while spying, recording or executing a test on a desktop application.
-    > 2. You're recommended not to run multiple applications simultaneously.
-    > 3. To start a UWP application, the application's execute file should be:
-    > 
-    > * *ApplicationID* if your app is published on Microsoft store
-    > * *PackageFamilyName!Application ID* if your app is still in development.
-    
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-windows-actions/step13.png" width="228" height="330">
+
+The Windows test is executed with those recorded steps accordingly.
+
+>**Notes**:
+>
+> 1. Remember not to lock your screen while spying, recording or executing a test on a desktop application.
+> 2. You're recommended not to run multiple applications simultaneously.
+> 3. To start a UWP application, the application's execute file should be:
+> 
+> * *ApplicationID* if your app is published on Microsoft store
+> * *PackageFamilyName!Application ID* if your app is still in development

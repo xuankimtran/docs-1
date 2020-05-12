@@ -10,7 +10,7 @@ redirect_from:
     - "/katalon-studio/docs/katalon-studio-activation-since-57.html"
 description:
 ---
-After installing Katalon Studio, you will be asked to activate it. If you currenly use a Katalon Studio Enterprise license, refer to [Activate Katalon Studio Enterprise](https://docs.katalon.com/katalon-studio/docs/activate-KSE.html).
+After installing Katalon Studio, you will be asked to activate it. If you currently use a Katalon Studio Enterprise license, refer to [Activate Katalon Studio Enterprise](https://docs.katalon.com/katalon-studio/docs/activate-KSE.html).
 
 Every Katalon account is eligible for 30-day [trials](/katalon-studio/docs/license.html) of Katalon Studio Enterprise and Runtime Engine. When your trial period expires, you need to subscribe to the paid license of each product to continue using it, or the Katalon Studio free license is automatically activated. At any time, you can upgrade the free Katalon Studio to Katalon Studio Enterprise with a paid license without the need to re-download.
 
@@ -31,7 +31,11 @@ Follow these steps to activate Katalon Studio:
 
 ### Configuring proxy for online activation
 
-If you're behind a Proxy Server, you'll need to configure the proxy settings before activating Katalon Studio. Click **Config Proxy** at the bottom of the Activation dialog box. In the Proxy Settings dialog box, you can select one of three options below.
+If you're behind a Proxy Server, you need to configure the Authentication proxy settings before activating Katalon Studio. Click **Configure Authentication Proxy** at the bottom of the Activation dialog box.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/config-proxy-activation.png" width="">
+
+In the Proxy Settings dialog box, you can select one of three options below.
 
 * **Use system proxy configuration**: Katalon Studio tries to guess which proxy server your system is behind and sync with these settings.
 * **No proxy**: there's no proxy.
@@ -39,9 +43,9 @@ If you're behind a Proxy Server, you'll need to configure the proxy settings bef
 
 ### Troubleshooting common issues with network
 
-"_Cannot connect to Katalon TestOps server. Please check your Internet connection and try again._"- This error message indicates Katalon Studio's application cannot communicate with Katalon server to activate it.
+"_Cannot connect to Katalon TestOps server. Please check your Internet connection and try again._"- This error message indicates Katalon Studio's application cannot communicate with the Katalon server to activate it.
 
-Please check your Internet connection and try again. If you are behind a **Proxy Server**, please **Config Proxy** first and try to activate Katalon Studio again.
+Please check your Internet connection and try again. If you are behind a Proxy Server, please configure Authentication Proxy first and try to activate Katalon Studio again.
 
 For Enterprise users with a private network, you may encounter a situation where you fail to execute test scripts or integrate Katalon Studio due to the network security error. Please contact your IT team to whitelist the following domains:
 
