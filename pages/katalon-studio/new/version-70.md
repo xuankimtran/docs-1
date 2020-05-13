@@ -37,7 +37,7 @@ You can download Katalon Studio's version 7.5.0 (Beta) [here](https://github.com
 
 * Fix an issue of OAUth1.0 Authorization
 
-## Version 7.4.2
+## Pre-release - Version 7.4.2
 
 ### New features
 
@@ -56,7 +56,7 @@ You can download Katalon Studio's version 7.5.0 (Beta) [here](https://github.com
 * Bug: Window Objects' references in Test Case not being updated automatically when Windows Objects are renamed. Address [#289](https://github.com/katalon-studio/katalon-studio/issues/289)
 * Bug: Exposing proxy password
 
-## Version 7.4.0
+## Official Release - Version 7.4.0
 
 ### New features
 
