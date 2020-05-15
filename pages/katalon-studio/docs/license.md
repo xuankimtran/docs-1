@@ -48,10 +48,9 @@ This license type is applied to cloud or virtual machines with dynamic hardware 
 
 ### Floating License
 
-This license type is applied to all types of execution environments. 
+This license type is applied to all types of execution environments.
 * One license is assigned to one execution session.
-* The license can be shared across multiple accounts/machines.
+* Each floating license can be shared across
+multiple accounts — maximum of 3 accounts at a time.
 
 > Only online activation is allowed.
-
-

@@ -7,7 +7,9 @@ description:
 
 ## Trial License
 
-Valid email registration is eligible for a **30-day** trial of both **Katalon Studio Enterprise** and **Katalon Runtime Engine**'s floating licenses. The trial licenses are automatically generated and activated when you first log into the Katalon Studio application.
+Valid email registration is eligible for a **30-day** trial of both **Katalon Studio Enterprise** and **Katalon Runtime Engine** floating licenses. 
+
+> The trial licenses are automatically generated and activated when you first log into the Katalon Studio application.
 
 Each trial license can be activated on only one machine at a time. When your trial period expires, you need to subscribe to the paid license of each product to continue using it. Otherwise, the Katalon Studio free license will be automatically activated.
 
