@@ -919,6 +919,8 @@ items:
         url: /katalon-studio/docs/selenium-testng-junit-migration.html
       - title: "Katalon Studio Plugins"
         tree:
+          - title: "Using Plugins"
+            url: /katalon-studio/docs/kse-use-plugins.html
           - title: "Integration Plugins"
             url: /katalon-studio/docs/integration-plugins.html
           - title: "Auto-healing Smart XPath"
@@ -929,10 +931,6 @@ items:
             url: /katalon-studio/docs/basic-search-for-dynamic-querying-test-suite.html
           - title: "Test Suite Collection Scheduler"
             url: /katalon-studio/docs/test-suite-collection-scheduler.html
-          - title: "Private Plugins"
-            url: /katalon-studio/docs/private-plugins.html
-          - title: "Use Plugins Offline"
-            url: /katalon-studio/docs/offline-plugin.html
       - title: "Extend Katalon Studio"
         tree:
           - title: "Create your first Katalon Studio plugin"
@@ -1061,8 +1059,6 @@ items:
         url: /katalon-store/docs/user/access-store-in-KS.html
       - title: "Manage API Keys"
         url: /katalon-store/docs/user/API-key.html
-      - title: "Use Plugins in Katalon Studio's Console Mode"
-        url: /katalon-store/docs/user/plugin-console-installation.html 
       - title: "Essential Plugins Bundle"
         url: /katalon-store/docs/user/essential-plugin-bundle.html
       - title: "Submit and publish plugins"
