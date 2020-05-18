@@ -6,7 +6,7 @@ description:
 ---
 Katalon OnPremise License Server is designed to be installed at a location that is accessible from a customer’s network, and be configured with licenses obtained from Katalon.
 
-> The OnPremise license server is provided with the volume subscriptions for Enterprise customers to active Katalon Studio offline and can be acquired by contacting [Katalon Sales team](mailto:business@katalon.com).
+> The OnPremise license server is provided with the volume subscriptions for Enterprise customers to activate Katalon Studio offline and can be acquired by contacting [Katalon Sales team](mailto:business@katalon.com).
 
 
 ## Features
