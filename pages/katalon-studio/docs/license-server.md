@@ -195,4 +195,3 @@ After downloading Katalon Studio, you need to activate it in the **Katalon Studi
 
 2. Click **Activate** to connect with and retrieve Organizations from the License Server.
 3. Select an Organization you would like to work on in the drop-down list. Click **OK**.
-
