@@ -6,7 +6,7 @@ description:
 ---
 Katalon OnPremise License Server is designed to be installed at a location that is accessible from a customer’s network, and be configured with licenses obtained from Katalon.
 
-> The OnPremise licensing server is provided with the volume subscription for Enterprise customers to active Katalon Studio offline and can be acquired by contacting Sales team as indicated on our pricing page (usually it will come with a minimum of 50 licenses).
+> The OnPremise license server is provided with the volume subscriptions for Enterprise customers to activate Katalon Studio offline and can be acquired by contacting [Katalon Sales team](mailto:business@katalon.com).
 
 
 ## Features
@@ -14,7 +14,7 @@ Katalon OnPremise License Server is designed to be installed at a location that 
 
 - Manage users & organizations. [Learn more](https://docs.katalon.com/katalon-studio/docs/license-server.html#create-an-organization)
 
-- Manage licenses. 
+- Manage licenses. [Learn more](https://docs.katalon.com/katalon-studio/docs/license-management.html)
 
 - Manage accounts (login, change & reset password). [Learn more](https://docs.katalon.com/katalon-studio/docs/license-server.html#reset-and-forget-password)
 
@@ -22,7 +22,7 @@ Katalon OnPremise License Server is designed to be installed at a location that 
 
 ## System requirements
 
-<table><thead><tr><th>&nbsp;</th><th>Requirement</th></tr></thead><tbody><tr><th>Operating System</th><td>Windows, Linux (Ubuntu based)</td></tr><tr><th>CPU</th><td> <em>Minimum</em>: 2 GHz or faster 32-bit (x86) or 64-bit (x64) processor</td></tr><tr><th>Memory</th><td><p</p><p><em>Minimum</em>: 8 GB RAM (64-bit)</p><p><em.</p><p></p><p><em</p><p><em></p></td></tr><tr><th>Hard Drive</th><td>At least 40 GB available hard disk space.</td></tr></tbody></table>
+<table><thead><tr><th>&nbsp;</th><th>Requirements</th></tr></thead><tbody><tr><th>Operating System</th><td>Windows, Linux (Ubuntu based)</td></tr><tr><th>CPU</th><td> <em>Minimum</em>: 2 GHz or faster 32-bit (x86) or 64-bit (x64) processor</td></tr><tr><th>Memory</th><td><p</p><p><em>Minimum</em>: 8 GB RAM (64-bit)</p><p><em.</p><p></p><p><em</p><p><em></p></td></tr><tr><th>Hard Drive</th><td>At least 40 GB available hard disk space.</td></tr></tbody></table>
 
 ## Install and setup an Onpremise License Server
 
@@ -32,7 +32,7 @@ Katalon OnPremise License Server is designed to be installed at a location that 
 
 - Download [PostgreSQL Database version 9.6.16](https://www.postgresql.org/download/)
 - For integration, Katalon Studio version should be 7.2.2
-- Contact Katalon team to get the **Katalon license server package** and a **license file** (.lic file) to activate the license server.
+- Contact [Katalon Sales team](mailto:business@katalon.com) to get the **Katalon license server installer** and a **license file** (.lic file) to activate the license server.
 
 
 ### Install and create a PostgreSQL database
@@ -107,7 +107,7 @@ One member of the team can complete these steps to invite all the others to an O
 
 ### Invite Organization Members
 
-**Orgnanization Owner/Admin**
+**As an Orgnanization Owner/Admin**
 
 > As an Owner/Admin, you can invite others to join your organization.
 
@@ -122,11 +122,11 @@ One member of the team can complete these steps to invite all the others to an O
 
 Users are only added to the Organization once they sign in with the newly created account. You can track the invited persons' actions by observing their activation links.
 
-**Invited person**
+**As an invited member**
 
-> As an invited person who has been invited by an Owner/Admin, you can join an organization once you accepted an invitation.
+> As an invited member who has been invited by an Owner/Admin, you can join an organization once you accepted an invitation.
 
-1. Click on the invitation link sent to you
+1. Click on the invitation link that the Owner/Admin sent to you
 2. You are navigated to an OnPremise License Server view where you need to create and confirm a new password for the account registered with your email.
 
 
