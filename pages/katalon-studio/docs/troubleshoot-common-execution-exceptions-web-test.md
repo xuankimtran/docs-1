@@ -65,7 +65,7 @@ WebUI.waitForElementVisible(findtestObject('btn_Login'), 30)
 WebUI.click(findTestObject('btn_Login'))
 ```
 
-### "Element is not currently interactable and may not be manipulated."
+### "org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated"
 
 **Possible causes**:
 
@@ -87,7 +87,7 @@ You can try one of the following solutions to resolve the issue:
    WebUI.executeJavaScript("arguments[0].value='Your Value'", Arrays.asList(element))
     ```
 
-### "Element is not clickable at point (x,x)" and "Another element would receive the click..."
+### "org.openqa.selenium.WebDriverException: Element is not clickable at point (x, y). Other element would receive the click: ..."
 
 **Possible causes**:
 
@@ -104,3 +104,7 @@ import com.kms.katalon.core.webui.common.WebUiCommonHelper
 WebElement element = WebUiCommonHelper.findWebElement(findTestObject('your/object'),30)
 WebUI.executeJavaScript("arguments[0].click", Arrays.asList(element))
 ```
+
+> The exception you are looking for isn’t on this page?
+>
+> Leave a comment below.
