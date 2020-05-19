@@ -95,14 +95,15 @@ Now, you are at the server Dashboard. You can begin with creating a new organiza
 
 One member of the team can complete these steps to invite all the others to an Organization for working on projects.
 
+
 1. Open Katalon OnPremise license server URL, for example, http://192.168.37.109:8080 and log into your account.
 
 2. On the home page, click **Create Organization** at the bottom and confirm your action.
 
 > You will be an Owner of the organization that you have created by default.
 
-
 3. In the **Organization** View, give a name to your Organization. You can also view your Organization ID here.
+
 
 
 ### Invite Organization Members
@@ -195,3 +196,22 @@ After downloading Katalon Studio, you need to activate it in the **Katalon Studi
 
 2. Click **Activate** to connect with and retrieve Organizations from the License Server.
 3. Select an Organization you would like to work on in the drop-down list. Click **OK**.
+
+## Configure Mail Server
+ 
+Katalon License Server is designed exclusively for a restricted network environment. You need to configure a mail server to send and receive email notifications of managing users in your organization.
+
+1. Start your license server.
+2. Under an Organization, select **Settings** tab.
+3. Provide the information for your mail server.
+ 
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-op-mail-server/kt-op-mail-server-config.png)
+ 
+* **Host:** the domain name of the mail server.
+* **Port:** the port to be used for that server.
+* **Username & Password:** the account to authenticate with the server.
+* **Protocol:** the protocol to communicate with the mail server.
+ 
+4. Click **Update** to save and apply your configurations.
+ 
+> Note: You can test the configuration by providing a test recipient and click **Send test email**.
