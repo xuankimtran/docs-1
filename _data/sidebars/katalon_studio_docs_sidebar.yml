@@ -951,12 +951,12 @@ items:
             url: /katalon-store/docs/publisher/example-plugin-testrail.html   
       - title: "Troubleshooting"
         tree:
-          - title: "Troubleshooting web automated testing"
+          - title: "Troubleshoot web automated testing"
             url: /katalon-studio/docs/troubleshooting-web-automated-testing.html
-          - title: "Troubleshooting automated mobile testing"
+          - title: "Troubleshoot automated mobile testing"
             url: /katalon-studio/docs/troubleshooting-automated-mobile-testing.html
-          - title: "Troubleshooting common issues related to interacting with an element"
-            url: /katalon-studio/docs/troubleshooting-common-issues-related-to-interacting-with-an-element.html
+          - title: "Troubleshoot common exceptions when executing web tests"
+            url: /katalon-studio/docs/troubleshoot-common-execution-exceptions-web-test.html
           - title: "Known issues"
             url: /katalon-studio/docs/known-issues-limitations.html
       - title: "Tips and Tricks"
