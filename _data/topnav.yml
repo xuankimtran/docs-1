@@ -3,18 +3,19 @@
 topnav:
 - title: Topnav
   items:
-    - title: Manuals
-      url: /katalon-studio/docs/index.html
+    - title: Katalon Studio
+      url: /katalon-studio/docs/overview.html
       parenturl: /katalon-studio/docs
+    - title: Katalon TestOps
+      url: /katalon-analytics/docs/overview.html
+      parenturl: /katalon-analytics/docs
     - title: Plugins
       external_url: https://store.katalon.com
     - title: Videos
       url: /katalon-studio/videos/index.html
       parenturl: /katalon-studio/videos
-    - title: FAQs
-      url: /faqs/licensing.html
-      parenturl: /faqs
-    - title: Support
-      external_url: https://www.katalon.com/support-service-options/?utm_source=docs-navigation-bar
-    - title: Training
-      external_url: https://www.katalon.com/training/?utm_source=docs-navigation-bar
+    # - title: FAQs
+    #   url: /faqs/licensing.html
+    #   parenturl: /faqs
+    - title: Pricing
+      external_url: https://www.katalon.com/pricing/?utm_source=docs-navigation-bar-pricing

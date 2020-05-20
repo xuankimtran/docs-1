@@ -1,24 +1,249 @@
 ---
-title: "Version 7.0" 
+title: "Version 7.x" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/new/version-70.html
 redirect_from:
-    - "/katalon-studio/new/version-70/"
     - "/katalon-studio/new/"
     - "/display/KD/Release+Notes/"
     - "/display/KD/Release%20Notes/"
     - "/katalon-studio/new/all-versions.html"
-description: Release note 7.0
+    - "/katalon-studio/new/version-72.html"
+    - "/katalon-studio/new/version-72/"
+    - "/katalon-studio/new/version-71/"
+    - "/katalon-studio/new/version-71.html"
+    - "/katalon-studio/new/version-70/"
+description: Release note 7.x
 ---
 
-## Version 7.0.0-7.0.6
+## Version 7.5.0 (Beta)
 
-> **Katalon Studio 7.0** is currently available. Click [here](https://www.katalon.com/download/) to download.
+You can download Katalon Studio's version 7.5.0 (Beta) [here](https://github.com/katalon-studio/katalon-studio/releases/tag/v7.5.0.rc1).
+
+### New features
+
+* [Katalon Studio Enterprise] Implement Native Windows Recorder (for Windows only). [Learn more](https://docs.katalon.com/katalon-studio/docs/windows-native-record.html)
+* [Katalon Studio Enterprise] Send Test Suite Collection's report emails. [Learn more](https://docs.katalon.com/katalon-studio/docs/execution-settings.html#emails-settings)
+* [Katalon Studio Enterprise] Support retrying Failed test data only in Test Suite's execution. [Learn more](https://docs.katalon.com/katalon-studio/docs/test-suite.html#modify-execution-information)
+* [Web Testing] Support a new WebUI keyword to upload files by drag-and-drop. [Learn more](https://docs.katalon.com/katalon-studio/docs/webui-upload-file-drag-and-drop.html)
+
+### Improvements
+
+* [Katalon Runtime Engine] Improve execution log in CLI mode by printing out applied proxy configurations
+* Improve Proxy Settings with two separate types, including **Authentication** and **System** proxies. [Learn more](https://docs.katalon.com/katalon-studio/docs/katalon-studio-preferences.html#proxy-preferences)
+* [Web Service] Enhance WSDL importing feature. [Learn more](https://docs.katalon.com/katalon-studio/docs/import-soap-requests-from-wsdl.html).
+* [Web Service] Support defining content type for form-data HTTP Body of RESTful requests. [Learn more](https://docs.katalon.com/katalon-studio/docs/restful.html#request-body)
+
+### Fixes
+
+* Fix an issue of OAUth1.0 Authorization
+
+## Pre-release - Version 7.4.2
+
+### New features
+
+* Allow setting a default execution profile at project level. [Learn more](https://docs.katalon.com/katalon-studio/docs/execution-profile-v54.html#set-default-profile-at-project-level)
+* [API Testing] Support defining body content of RESTful API requests with methods other than POST/PUT/PATCH/DELETE
+
+### Improvements
+
+* Enhance GUI of the following components: Image-based Testing in Test Explorer, Katalon TestOps (Beta) Integration dialog, Activation dialog, and CAPTCHA error in the Activation dialog
+* [Katalon Runtime Engine] Improve execution log in CLI mode
+
+### Fixes
+
+* Bug: [Mobile Testing] Unable to scroll down to see all test object attributes
+* Bug: [Test Explorer] Unable to open a feature file if it is not under the **Include** folder. Address [#293](https://github.com/katalon-studio/katalon-studio/issues/293)
+* Bug: Window Objects' references in Test Case not being updated automatically when Windows Objects are renamed. Address [#289](https://github.com/katalon-studio/katalon-studio/issues/289)
+* Bug: Exposing proxy password
+
+## Official Release - Version 7.4.0
+
+### New features
+
+* Support migrating Selenium/TestNG/JUnit test scripts to Katalon Studio. [Learn more](https://docs.katalon.com/katalon-studio/docs/selenium-testng-junit-migration.html)
+* Publish [TestNG/JUnit Keywords](https://store.katalon.com/product/180/TestNG-JUnit-Keywords) plugin
+* Support Chrome 81
+
+## Version 7.3.2 - 7.3.3
+
+### Fix
+
+* Bug: Unable to activate Katalon Runtime Engine on Oracle Linux Server 7.6
+
+## Version 7.3.1
+
+### Improvement
+
+* [Katalon Runtime Engine] Improve execution log in CLI mode
+
+### Fixes
+
+* Bug: Unable to activate Katalon Studio
+* Bug: Unable to open a containing folder of a package in Test Explorer
+* Bug: [Web Service] An issue of saving HTTP Body content created with `x-www-form-urlencoded` or `form-data` option
+* Bug: [Web Service] An issue of handling API response in XML format
+* Bug: [Web Service] Unable to send a SOAP request behind proxy
+* Bug: [DDT] An issue of Database Connection settings being saved across projects
+
+## Version 7.3.0
+
+### New Features
+
+* Support Microsoft Edge (Chromium) on both Windows and macOS
+* [Windows] Support parameterizing Windows test objects. [Learn more](https://docs.katalon.com/katalon-studio/docs/windows-test-objects.html#parameterize-windows-test-objects)
+* Add a Notification icon
+
+### Improvements
+
+* Support configuring `Delay Between Actions` in milliseconds in Execution settings
+* Enhance UI
+* Include the `TestObject` class in [Katalon API Documents](https://docs.katalon.com/javadoc/index.html)
+
+### Fixes
+
+* Bug: [Runtime Engine] An issue of counting the number of execution processes
+* Bug: [Windows] An issue of debugging Windows test scripts
+* Bug: [Kobiton Integration] An issue of not displaying error message for invalid account
+* Bug: [BDD] `runFeatureFolder` throws exception when tests fail
+* Bug: An issue of configuring the port of Mail Server in Email settings
+* Bug: [API] Unable to send a request in macOS or Linux if its HTTP body uses `form-data` or `file` with relative path on Windows machine
+
+## Version 7.2.7
+
+### Fixes
+
+* Bug: [BDD] `java.lang.NoClassDefFoundError` thrown when running a feature file
+* Bug: An issue of Smart Wait preventing request state in XMLHttpRequest from being read
+
+## Version 7.2.6
+
+### Fixes
+
+* Bug: Fail to activate Katalon Studio Enterprise with Katalon accounts registered with unconventional domains such as `.technology`.
+* Bug: [Desktop Apps Testing] An issue of losing Windows test objects when users drag and drop their folders.
+* Bug: [Desktop Apps Testing] An issue with automatically updating Windows test objects' references in Test Scripts after a drag and drop.
+* Bug: [Desktop Apps Testing] Cannot identify Windows test objects by relative path.
+* Bug: [Desktop Apps Testing] Cannot create a new item with a right-click on a Windows object.
+* Bug: [Desktop Apps Testing] Cannot edit a Windows object's property.
+* Bug: [Mobile Testing] A performance issue of the `setSliderValue` keyword when testing with a Sauce Labs device.
+* Bug: [Mobile Testing] Fail to recognize iPad device and create a new remote session with iPad simulator.
+
+### Discontinued Support
+
+* Business Support Service
+
+## Version 7.2.5
+
+### New Features
+
+* [Web Service] Support configuring Content Type in HTTP Header separately from HTTP Body. [Learn more](https://docs.katalon.com/katalon-studio/docs/restful.html).
+
+### Improvements
+
+* [Kobiton Integration] Allow customizing Kobiton Server URL in Katalon Studio Preferences.
+* Enhance Smart Wait's performance during test executions.
+
+### Fixes
+
+* Bug: An issue related to a failure of Swagger's importing multiple requests without operation ID.
+* Bug: An issue where Click step passes but no actual action is performed.
+
+## Version 7.2.4
+
+### New Features
+
+* Support editing JVM parameters in Execution Settings. [Learn more](https://docs.katalon.com/katalon-studio/docs/execution-settings.html#execution-settings).
+
+## Version 7.2.3
+
+### Fixes
+
+* Bug: Cannot send SOAP Request due to failure in parsing WSDL definition
+
+## Version 7.2.2
+
+### New Features
+
+* [Web Testing] Support image-based object recognition. [Learn more](https://docs.katalon.com/katalon-studio/docs/manage-web-test-object.html#visual-object-recognition)
+
+## Version 7.2.0 - 7.2.1
+
+### New Features
+
+* New Windows keywords:
+  * [`getElementPosition`](https://docs.katalon.com/katalon-studio/docs/windows-kw-get-element-position.html)
+  * [`getElementRect`](https://docs.katalon.com/katalon-studio/docs/windows-kw-get-element-rect.html)
+  * [`startApplicationWithTitle`](https://docs.katalon.com/katalon-studio/docs/windows-kw-start-app-title.html)
+  * [`switchToWindow`](https://docs.katalon.com/katalon-studio/docs/windows-kw-switch-window.html)
+  * [`switchToWindowTitle`](https://docs.katalon.com/katalon-studio/docs/windows-kw-switch-window-title.html)
+* New Mobile keywords:
+  * [`executeMobileCommand`](https://docs.katalon.com/katalon-studio/docs/mobile-execute-command.html)
+  * [`doubleTap`](https://docs.katalon.com/katalon-studio/docs/mobile-double-tap.html)
+  * [`longPress`](https://docs.katalon.com/katalon-studio/docs/mobile-long-press.html)
+  * [`setEncryptedText`](https://docs.katalon.com/katalon-studio/docs/mobile-set-encrypted-text.html)
+* Support adding [Proxy Exceptions](https://docs.katalon.com/katalon-studio/docs/proxy-preferences.html) in Proxy Preferences and `-proxy.excludes` option in console mode.
+* [Mobile Recorder] Implement the following actions: Get Text, Swipe, and Scroll To Text.
+
+### Changes and Improvements
+
+* Support ChromeDriver version 79.
+* Add **Profiles** to Test Suite Collection Report.
+* [Mobile- iOS] Support **Install Dependencies** and **Install WebDriverAgent** tools on the main menu. Please be noted that you have to install [homebrew](https://brew.sh/) manually.
+* [Command Syntax] Support both `-serverUrl` and `-serverURL` arguments.
+* Make the `DriverFactory.changeWebDriver()` method a public method.
+* Support **Open containing folder** for Folders in Test Explorer.
+
+### Fixes
+
+* Bug: [Windows] An issue related to creating a project.
+* Bug: An issue related to saving Web Service Message.
+* Bug: Empty result tab after a Test Suite execution.
+* Bug: Test Script lost parens in method call after editing some steps.
+* Bug: [KRE] an issue related to the `retry` option.
+* Bug: [Web] Cannot set a timeout in **Wait for options**.
+* Bug: [Web Service Request] an issue related to saving HTTP Header.
+
+## Version 7.1.0-7.1.1
+
+### New Features
+
+* [Katalon TestOps (Beta)] Support Billing Manager role for being in charge of subscription. [Learn more](https://docs.katalon.com/katalon-analytics/docs/kt-user-role-permission.html).
+* Support naming test artifacts, including Test Case, Test Object, Test Data File, Test Suite, Test Suite Collection, and Checkpoint with UTF-8 characters.
+* Automatically update keywords' references in other custom keyword classes when renaming or drag-and-dropping a custom keyword.
+
+### Changes and Improvements
+
+* [Web Service] Support all file types of the form-data option in HTTP Body when creating a POST request.
+* [Web Service] Support API responses in other languages.
+* Auto-healing Smart Xpath becomes a built-in feature of Katalon Studio Enterprise. For standard Katalon Studio users who have already subscribed to this plugin, please contact Katalon team via business@katalon.com.
+* Display a progress dialog when adding a bulk number of Test Cases to a Test Suite.
+* Handle SVG elements and add a context menu during Spying to capture objects.
+* [KRE] Improve running multiple projects with multiple sessions concurrently.
+* Support turning off Smart Wait with both global and local settings. [Learn more](https://docs.katalon.com/katalon-studio/docs/webui-smartwait.html).
+* [Web Service] Support redirection in POST request and 308 status code.
+* Tips: You're recommended to open large HAR files with other tools than Katalon Studio or keep those files not too large for Katalon Studio to read it.
+
+### Fixes
+
+* Bug: Test Suite result is incorrect if a called test case gets failed when *log test steps* is disabled.
+* Bug: Web Recorder does not generate XPath locators for SVG elements.
+* Bug: [Mobile] Cannot run a browser test on Android device using Appium 1.15.0+.
+* Bug: Cannot create a new project when failing to read Sample Projects.
+* Bug: Cannot execute test scripts having import paths containing wildcard character (`*`).
+* Bug: Cannot start a browser when running with an iOS simulator.
+* Bug: NullPointerException when using Katalon Studio for the first time.
+* Bug: Cannot read variables in a custom profile if executing a test suite collection remotely.
+* Bug: Cannot execute test scripts that have Global Variables' names containing the `$` symbol.
+* Bug: An issue related to saving changes in Test Case Variable View.
+* Bug: Katalon Studio does not read proxy configuration during Recording.
+* Bug: Web Recorder simultaneously generates `NavigateToUrl` keyword and action of an element.
+
+## Version 7.0.0- 7.0.10
 
 ### New Features
 
 * Support **Close and Clean up** item in Project menu for closing the project and removing the following items: `.classpath`, and  `.project` files; `bin`, `Libs`, and `.settings` folders.
-* Support manually uploading Test Suite Collections' results to Katalon TestOps.
+* Support manually uploading Test Suite Collections' results to Katalon TestOps (Beta).
 * Support connecting to Git with SSH. [Learn more](https://docs.katalon.com/katalon-studio/docs/git-integration.html)
 * Allow configuring the usage tracked by Katalon Studio. [Learn more](https://docs.katalon.com/katalon-studio/docs/katalon-studio-preferences.html).
 * Support data-driven testing with additional database sources. [Learn more](https://docs.katalon.com/katalon-studio/docs/database-settings.html).
@@ -44,7 +269,7 @@ description: Release note 7.0
 * Display errors of test scripts in the **Problems** view.
 * Support ChromeDriver version 77 and IEDriverServer version 3.141.59.
 * Show a full stack trace of an exception thrown by custom classes in Test Hooks.
-* Support manually uploading test suite collections' results to Katalon TestOps.
+* Support manually uploading test suite collections' results to Katalon TestOps (Beta).
 * [Web Service] Support passing proxy details through the script. [Learn more](https://docs.katalon.com/katalon-studio/docs/proxy-preferences.html#pass-proxy-details-through-the-script).
 * Update documents of [Katalon Studio API Specification](https://docs.katalon.com/javadoc/index.html) to version 7.0.0.
 * Upgrade Apache POI to version 3.17.
@@ -52,24 +277,24 @@ description: Release note 7.0
 * Add plugins reloading options to the Project Settings.
 * Support parsing the Request Message's template from the associated `XSD` file when importing test objects from WSDL.
 * Support adding the Organisation ID parameter to the Command Generator.
-* Support selecting a Katalon TestOps's organization on the activation.
+* Support selecting a Katalon TestOps (Beta)'s organization on the activation.
 * Enhancement: Add some JVM options to reduce Katalon Studio's memory consumption.
 * Support a hotkey of Spy Utility in Web Recorder to capture objects. [Learn more](https://docs.katalon.com/katalon-studio/docs/record-web-utility.html).
 * Update **Quick Start** in Katalon Studio after activation.
 * Support adding `.gitignore` and `build.gradle` files when creating a project.
-* Support uploading reports with pdf, HTML, CSV formats (generated by Basic Report plugin) to Katalon TestOps. [Learn more](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html).
-* Support submitting test run results with captured videos to Katalon TestOps. [Learn more](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html).
-* Support uploading the `*.rp` file to Katalon TestOps to parse more information on test results.
-* Support creating a test plan right from the test suite collection screen in Katalon Studio to enhance the integration of Katalon Studio with Katalon TestOps. [Learn more](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html).
-* Support uploading Project Code from Katalon Studio to Katalon TestOps. [Learn more](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html).
-* Update the integration mechanism with Katalon TestOps. [Learn more](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html).
-* Update the integration configurations with Katalon TestOps when a new project is created.
+* Support uploading reports with pdf, HTML, CSV formats (generated by Basic Report plugin) to Katalon TestOps (Beta). [Learn more](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html).
+* Support submitting test run results with captured videos to Katalon TestOps (Beta). [Learn more](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html).
+* Support uploading the `*.rp` file to Katalon TestOps (Beta) to parse more information on test results.
+* Support creating a test plan right from the test suite collection screen in Katalon Studio to enhance the integration of Katalon Studio with Katalon TestOps (Beta). [Learn more](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html).
+* Support uploading Project Code from Katalon Studio to Katalon TestOps (Beta). [Learn more](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html).
+* Update the integration mechanism with Katalon TestOps (Beta). [Learn more](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html).
+* Update the integration configurations with Katalon TestOps (Beta) when a new project is created.
 * Support auto-filling the input of [Katalon API Key](https://docs.katalon.com/katalon-studio/docs/katalon-apikey-70.html) in the command-line generator.
 * Support generating test results in JUnit format.
-* Support uploading reports of test suite collections to Katalon TestOps.
+* Support uploading reports of test suite collections to Katalon TestOps (Beta).
 * Remove unnecessary information in the console log when users execute in the console mode for the first time.
 * Support passing more information to the console mode execution with `--info -buildLabel="text" -buildURL="text"`. See [General Options ](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#general-options) in Console Mode Execution.
-* Upgrade the activation mechanism in Katalon Studio to seamlessly integrate with Katalon TestOps. See [Activate Katalon Studio](https://docs.katalon.com/katalon-studio/docs/katalon-studio-activation-since-70.html).
+* Upgrade the activation mechanism in Katalon Studio to seamlessly integrate with Katalon TestOps (Beta). See [Activate Katalon Studio](https://docs.katalon.com/katalon-studio/docs/katalon-studio-activation-since-70.html).
 * Merge the Plugins menu into the Tools menu.
 * Support MySQL Database version **8.0.17**.
 * Support automatically reloading plugins when opening a project.
@@ -100,8 +325,8 @@ description: Release note 7.0
 * Bug: The Delay keyword doesn't work when the passing data is BigDecimal.
 * Bug: Har files disappear after having been opened for the first time with the current Web Service object.
 * Bug: [Custom Keyword] an issue related to the default package name when users create a keyword without entering a package name.
-* Bug: [Katalon TestOps] Cannot navigate to the URL configured by users in View Execution History.
-* Bug: [Katalon TestOps] an issue related to the error message when users create a new project for the invited team without permission.
+* Bug: [Katalon TestOps (Beta)] Cannot navigate to the URL configured by users in View Execution History.
+* Bug: [Katalon TestOps (Beta)] an issue related to the error message when users create a new project for the invited team without permission.
 * Bug: [GlobalVariable] Cannot execute a script with a profile that has a Global Variable with invalid syntax.
 * Bug: [WebUI Keywords]  The `verifyElementPresent()` and `verifyElementNotPresent()` keywords should return `false` instead of throwing an exception when the verified elements do not exist.
 * Bug: The `Delay between actions` fails to perform as configured.

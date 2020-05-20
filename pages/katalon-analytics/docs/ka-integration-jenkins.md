@@ -5,6 +5,7 @@ permalink: katalon-analytics/docs/ka-integration-jenkins.html
 description: How to integrate KT with Jenkins to execute TestOps Grid Plan
 ---
 **Prerequisites:**
+
 * Download and install [Jenkins](https://jenkins.io/download/)
 * Start Jenkins (command : `java -jar jenkins.war`)
 * Download and activate [Katalon Runtime Engine](https://www.katalon.com/download/) for your machine
@@ -17,23 +18,27 @@ You have to define a Grid Plan on TestOps before assigning the Plan to Jenkins t
 ## Configuration in Jenkins
 
 1. Go to Jenkins Dashboard.
-
 2. Click **New Item** > create a **Freestyle Project** > click **OK**.
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/jenkins-ka-integration/1-Create-New-Item-Project.JPG)
+   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/jenkins-ka-integration/1-Create-New-Item-Project.JPG)
 
 3. Select **Execute Katalon TestOps Plan** under the **Build** section.
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/jenkins-ka-integration/2-Execute-TestOps_Plan.png)
+   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/jenkins-ka-integration/2-Execute-TestOps_Plan.png)
 
 4. Enter **Server URL** of Katalon TestOps.
+5. Select one of the existing credentials to connect to Katalon TestOps Server. Or you can add new ones by selecting **Add**.    
+   In the **Add Credentials** dialog:
+   
+   * Enter required information 
+   * Select **Secret Text** in the **Kind** dropdown
+   * In the **Secret** field, copy and paste the Katalon TestOps API Key
+   * In the **ID** field, we recommend to give a meaningful ID
+   * Click **Add**
 
-5. Select your existing credentials to retrieve your target Project and Test Plan. If you don't have any credentials, you can click the **Add Jenkins Credentials** button and select **Secrete Text** in the **Kind** dropdown.
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/jenkins-ka-integration/secret-text.png" width="" height="">
 
-> Note: Click **Test Connection** to see if you can connect to TestOps successfully.
+6. Click **Test Connection** to retrieve Projects and Test Plans.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/jenkins-ka-integration/3-Define-Build-Step.JPG)
+   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/jenkins-ka-integration/3-Define-Build-Step.JPG)
 
-6. Click **Save** to go back to the Jenkins project's details.
-
-7. From here, you can click **Build Now** and let Jenkins run the job.
+7. Click **Save** to go back to the Jenkins project's details.
+8. Click **Build Now** to run the job.

@@ -5,7 +5,9 @@ permalink: katalon-studio/docs/setup-winappdriver.html
 ---
 First, you need to install WinAppDriver. Refer to [Installing and Running Windows Application Driver](https://github.com/microsoft/WinAppDriver#installing-and-running-windows-application-driver) to install a WinAppDriver.
 
->Remember to enable **Developer Mode** on the testing machine.  
+>Remember to enable **Developer Mode** on the testing machine. Refer to the [official guide](https://docs.microsoft.com/en-us/windows/uwp/get-started/enable-your-device-for-development) from Microsoft for instructions.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/introduction-desktop-app-testing/dev-mode.png" width="305.5" height="">
 
 ## Set up Windows Application Driver on a local Windows 10 machine
 

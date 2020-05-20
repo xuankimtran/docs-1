@@ -7,7 +7,7 @@ Starting from **Katalon Studio version 7.0**, the custom keyword refactoring fea
 
 Specifically, when you move a custom keyword from a package to another one, Katalon Studio updates the new package and keyword identifier in test scripts accordingly.
 
-> Notes: Currently, you can only refactor custom keywords in test cases, NOT in the Custom Keyword section or anywhere else. This feature's enhancement will be released in the upcoming versions.
+> Notes: In Katalon Studio version 7.1+, you can refactor custom keywords in both test cases and the Custom Keyword section. 
 
 Here is an example:
 

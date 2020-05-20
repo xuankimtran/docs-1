@@ -12,18 +12,20 @@ redirect_from:
 description:
 ---
 
-> Starting from **version 7.0.0**, you need a Runtime Engine (RE) [license](https://docs.katalon.com/katalon-studio/docs/license.html) to activate and run Katalon Studio (KS) or Katalon Studio Enterprise (KSE) from the command line.
+> Notes:
 >
-> Katalon Studio only supports **Chrome, Firefox and Remote** options for console mode execution **using Linux version**.
+> From version **7.0.0**, you need a Runtime Engine (RE) [license](https://docs.katalon.com/katalon-studio/docs/license.html) to activate and run Katalon Studio (KS) or Katalon Studio Enterprise (KSE) from the command line.
+>
+> Katalon Studio only supports **Chrome, Firefox, and Remote** options for console mode execution using the **Linux** version.
 >
 > API Keys are required to use **Katalon Studio Plugins** in console mode. [Learn more](/katalon-store/docs/user/plugin-console-installation.html).
 
-You can execute automation test without launching Katalon Studio by using command line mode execution.
+You can execute an automation test without launching Katalon Studio by using command line mode execution.
 
 Execute Katalon in CMD
 ----------------------
 
-> Starting from **Katalon Studio version 7.0.0**, you need to download the Runtime Engine package from [Katalon website](https://katalon.com/download). The Katalon launcher (`katalon.exe`) is replaced by `katalonc.exe`.
+> From Katalon Studio version **7.0.0**, you need to download the Runtime Engine package from [Katalon website](https://katalon.com/download). The Katalon launcher (`katalon.exe`) is replaced by `katalonc.exe`.
 
 1. Open the command prompt and navigate to the folder of your Katalon Studio build: `katalonc.exe` (Windows), Applications folder (Mac OS), or `katalonc` (Linux) file.
 
@@ -56,28 +58,28 @@ Execute Katalon in CMD
 3. Press **Enter** to start execution.
 4. **Exit Code**
 
-      Below is the list of exit codes after console mode execution:
+   Below is the list of exit codes after console mode execution:
 
-* 0: the execution passed with no failed or error test case.
-* 1: the execution has failed test cases.
-* 2: the execution has error test cases.
-* 3: the execution has failed test cases and error test cases.
-* 4: the execution cannot start because of invalid arguments.
+   * 0: the execution passed with no failed or error test case.
+   * 1: the execution has failed test cases.
+   * 2: the execution has error test cases.
+   * 3: the execution has failed test cases and error test cases.
+   * 4: the execution cannot start because of invalid arguments.
 
 Katalon Studio Plugins in Console Mode
 --------------------------------------
 
-> To be used in console mode, Katalon Studio Plugins must be installed using Katalon Store's API keys. Please follow instructions [here](/katalon-store/docs/user/plugin-console-installation.html).
+To be used in console mode, Katalon Studio Plugins must be installed using Katalon Store's API keys. Please follow the instructions [here](/katalon-store/docs/user/plugin-console-installation.html).
 
 General Options
 ---------------
 
-Here's the list of options supported for the `katalon` commands in Katalon Studio prior to version 7.0.0, and the `katalonc` commands for Katalon Studio version 7.0.0 and later.
+Here's the list of options supported for the `katalon` commands in Katalon Studio before version 7.0.0, and the `katalonc` commands for Katalon Studio version 7.0.0 and later.
 
 <table>
    <thead>
       <tr>
-         <th>Katalonc Command Line Option</th>
+         <th>Katalonc Command-line Option</th>
          <th>Description</th>
          <th>Mandatory?</th>
       </tr>
@@ -87,11 +89,6 @@ Here's the list of options supported for the `katalon` commands in Katalon Studi
          <td>-runMode=console</td>
          <td>Enable console mode.</td>
          <td>Y</td>
-      </tr>
-      <tr>
-         <td>-summaryReport</td>
-         <td>Send summary report for a batch run.</td>
-         <td>N</td>
       </tr>
       <tr>
          <td>-statusDelay=&lt;seconds&gt;</td>
@@ -125,6 +122,8 @@ Here's the list of options supported for the `katalon` commands in Katalon Studi
                <li>Firefox</li>
                <li>Chrome</li>
                <li>IE</li>
+               <li>Edge</li>
+               <li>Edge (Chromium)</li>
                <li>Safari</li>
                <li>Remote</li>
                <li>Android</li>
@@ -135,7 +134,7 @@ Here's the list of options supported for the `katalon` commands in Katalon Studi
          <td>
             <p>Y</p>
             <p>
-               <strong>Only Chrome, Firefox and Remote is available for use in Linux version.</strong>
+               <strong>Only Chrome, Firefox, and Remote are available for use in the Linux version.</strong>
             </p>
             <p>
                <strong><code>Web Service</code> is used for Web Service test execution.
@@ -154,17 +153,17 @@ Here's the list of options supported for the `katalon` commands in Katalon Studi
       </tr>
       <tr>
          <td>-reportFolder=&lt;path&gt;</td>
-         <td>Specify the destination folder for saving report files. Can use absolute path or relative path (root being project folder).</td>
+         <td>Specify the destination folder for saving report files. You can use an absolute path or relative path (root being project folder).</td>
          <td>N</td>
       </tr>
       <tr>
          <td>-reportFileName=&lt;name&gt;</td>
-         <td>Specify the name for report files (.html, .csv, .log). If not provide, system uses the name "report" (report.html, report.csv, report.log). This option is only taken into account when being used with "-reportFolder" option.</td>
+         <td>Specify the name for report files (.html, .csv, .log). If not provided, the system uses the name "report" (report.html, report.csv, report.log). This option is only taken into account when being used with the "-reportFolder" option.</td>
          <td>N</td>
       </tr>
       <tr>
          <td>-sendMail=&lt;e-mail address&gt;</td>
-         <td>Specify the e-mail address for receiving report files. If the e-mail address was not specified, the report files is not to be sent.</td>
+         <td>Specify the e-mail address for receiving report files. If the e-mail address was not specified, the report files are not to be sent.</td>
          <td>N</td>
       </tr>
       <tr>
@@ -178,14 +177,9 @@ Here's the list of options supported for the `katalon` commands in Katalon Studi
          <td>Y <em>(If -remoteWebDriverUrl is used)</em></td>
       </tr>
       <tr>
-         <td>-deviceId=&lt;device Id for Android/device uuid for ios&gt;</td>
+         <td>-deviceId=&lt;device Id for Android/device UUID for ios&gt;</td>
          <td>Specify the device's ID to execute test scripts using this device</td>
          <td>Y<em> (If -browserType=Android or -browserType=iOS is used)</em></td>
-      </tr>
-      <tr>
-         <td>-email</td>
-         <td>Registered e-mail on <a class="external-link" href="https://www.katalon.com/" rel="nofollow">Katalon Studio</a> page</td>
-         <td>N <em>(If Katalon Studio is already activated)</em></td>
       </tr>
       <tr>
          <td>-executionProfile</td>
@@ -224,7 +218,7 @@ Windows-Only Options
 <table>
    <thead>
       <tr>
-         <th>Katalonc Command Line Option</th>
+         <th>Katalonc Command-line Option</th>
          <th>Description</th>
          <th>Mandatory?</th>
       </tr>
@@ -232,12 +226,12 @@ Windows-Only Options
    <tbody>
       <tr>
          <td>-consoleLog</td>
-         <td>Display log in the console. Only use this option when running Katalon Studio in Windows Command Prompt. Do not use this option in other OSes or CI tools e.g. Jenkins.</td>
+         <td>Display log in the console. Only use this option when running Katalon Studio in Windows Command Prompt. Do not use this option in other OSes or CI tools e.g., Jenkins.</td>
          <td>N</td>
       </tr>
       <tr>
          <td>-noExit</td>
-         <td>Keep the console open after the execution is completed. Only use this option when running Katalon Studio in Windows Command Prompt. Do not use this option in other OSes or CI tools e.g. Jenkins.</td>
+         <td>Keep the console open after the execution is completed. Only use this option when running Katalon Studio in Windows Command Prompt. Do not use this option in other OSes or CI tools e.g., Jenkins.</td>
          <td>N</td>
       </tr>
    </tbody>
@@ -246,11 +240,132 @@ Windows-Only Options
 Proxy Options
 -------------
 
-These proxy options below must be used with `--config` parameter e.g. `--config -proxy.option=USE_SYSTEM`. Example:
+>In **version 7.5+**, there are two types of proxy configurations: Authentication and System proxies. Refer to [this document](https://docs.katalon.com/katalon-studio/docs/proxy-preferences.html) for further details.
+>
+> In **version 7.2+**, you can exclude proxy in **manual** configuration.
+>
+> In **version 7.0+**, you can pass proxy details via a request object in Web Service testing. Refer to [this document](https://docs.katalon.com/katalon-studio/docs/proxy-preferences.html#pass-proxy-details-through-the-script) for further details.
+
+These proxy options must be used with `--config` parameter e.g. `--config -proxy.auth.option=MANUAL_CONFIG`.
 
 ```groovy
-katalonc -noSplash  -runMode=console -consoleLog -noExit -projectPath= "C:\Users\Katalon Studio\Project\YourProject.prj" -retry= 0 -testSuitePath= "Test Suites/TS_RegressionTest" -browserType= "Chrome (headless)" --config -proxy.option=MANUAL_CONFIG -proxy.server.type=HTTP -proxy.server.address= "192.168.12.32" -proxy.server.port= "8888"
+katalonc -noSplash -runMode=console -projectPath="C:\Users\Katalon Studio\Project\YourProject.prj" -retry=0 -testSuitePath="Test Suites/download" -executionProfile="default" -browserType="Chrome" --config -proxy.auth.option=MANUAL_CONFIG -proxy.auth.server.type=HTTP -proxy.auth.server.address=192.168.1.16 -proxy.auth.server.port=16000 -proxy.system.option=MANUAL_CONFIG -proxy.system.server.type=HTTP -proxy.system.server.address=127.0.0.1 -proxy.system.server.port=12701 -proxy.system.username=katalon -proxy.system.password=T3stP@zZW0rol -proxy.system.applyToDesiredCapabilities=true
 ```
+
+### Authentication Proxy
+
+<table>
+   <thead>
+      <tr>
+         <th>Authentication Proxy Option</th>
+         <th>Description</th>
+         <th>Mandatory?</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td colspan="3">
+            <strong>
+         </td>
+      </tr>
+      <tr>
+         <td>-proxy.auth.option</td>
+         <td>NO_PROXY, USE_SYSTEM, MANUAL_CONFIG</td>
+         <td>Y</td>
+      </tr>
+      <tr>
+         <td>-proxy.auth.server.type</td>
+         <td>&nbsp;HTTP, HTTPS, or SOCKS</td>
+         <td>Y</td>
+      </tr>
+      <tr>
+         <td>-proxy.auth.server.address</td>
+         <td>Example: locahost,&nbsp;<a class="external-link" href="katalon.com" rel="nofollow">katalon.com</a></td>
+         <td>Y</td>
+      </tr>
+      <tr>
+         <td>-proxy.auth.server.port</td>
+         <td>Example: 80, 8080, 9999</td>
+         <td>Y</td>
+      </tr>
+      <tr>
+         <td>-proxy.auth.excludes</td>
+         <td>Example: 127.0.0.1, localhost, myserver.com</td>
+         <td>N</td>
+      </tr>
+      <tr>
+         <td>-proxy.auth.username</td>
+         <td>Example:&nbsp;MyProxyUsername</td>
+         <td>Optional (YES if your proxy server requires authentication)</td>
+      </tr>
+      <tr>
+         <td>-proxy.auth.password</td>
+         <td>Example: MyProxyPassword</td>
+         <td>Optional (YES if your proxy server requires authentication)</td>
+      </tr>
+   </tbody>
+</table>
+
+### System Proxy
+
+<table>
+   <thead>
+      <tr>
+         <th>System Proxy Option</th>
+         <th>Description</th>
+         <th>Mandatory?</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td colspan="3">
+            <strong>
+         </td>
+      </tr>
+      <tr>
+         <td>-proxy.system.option</td>
+         <td>NO_PROXY, USE_SYSTEM, MANUAL_CONFIG</td>
+         <td>Y</td>
+      </tr>
+      <tr>
+         <td>-proxy.system.server.type</td>
+         <td>&nbsp;HTTP, HTTPS, or SOCKS</td>
+         <td>Y</td>
+      </tr>
+      <tr>
+         <td>-proxy.system.server.address</td>
+         <td>Example: locahost,&nbsp;<a class="external-link" href="katalon.com" rel="nofollow">katalon.com</a></td>
+         <td>Y</td>
+      </tr>
+      <tr>
+         <td>-proxy.system.server.port</td>
+         <td>Example: 80, 8080, 9999</td>
+         <td>Y</td>
+      </tr>
+      <tr>
+         <td>-proxy.system.excludes</td>
+         <td>Example: 127.0.0.1, localhost, myserver.com</td>
+         <td>N</td>
+      </tr>
+      <tr>
+         <td>-proxy.system.username</td>
+         <td>Example:&nbsp;MyProxyUsername</td>
+         <td>Optional (YES if your proxy server requires authentication)</td>
+      </tr>
+      <tr>
+         <td>-proxy.system.password</td>
+         <td>Example: MyProxyPassword</td>
+         <td>Optional (YES if your proxy server requires authentication)</td>
+      </tr>
+      <tr>
+         <td>-proxy.system.applyToDesiredCapabilities</td>
+         <td>Example: true or false </td>
+         <td>N</td>
+      </tr>
+   </tbody>
+</table>
+
+### Proxy Configurations prior to 7.5.0
 
 <table>
    <thead>
@@ -278,13 +393,18 @@ katalonc -noSplash  -runMode=console -consoleLog -noExit -projectPath= "C:\Users
       </tr>
       <tr>
          <td>-proxy.server.address</td>
-         <td>Example: locahost,&nbsp;<a class="external-link" href="http://katalon.com/" rel="nofollow">http://katalon.com</a></td>
+         <td>Example: locahost,&nbsp;<a class="external-link" href="katalon.com" rel="nofollow">katalon.com</a></td>
          <td>Y</td>
       </tr>
       <tr>
          <td>-proxy.server.port</td>
          <td>Example: 80, 8080, 9999</td>
          <td>Y</td>
+      </tr>
+      <tr>
+         <td>-proxy.excludes</td>
+         <td>Example: 127.0.0.1, localhost, myserver.com</td>
+         <td>N</td>
       </tr>
       <tr>
          <td>-proxy.username</td>
@@ -298,8 +418,6 @@ katalonc -noSplash  -runMode=console -consoleLog -noExit -projectPath= "C:\Users
       </tr>
    </tbody>
 </table>
-
-Starting from **version 7.0.0**, Katalon Studio supports an option to pass proxy details via a request object in Web Service testing. Refer to [this document](https://docs.katalon.com/katalon-studio/docs/proxy-preferences.html#pass-proxy-details-through-the-script) for further details.
 
 Integration Options
 -------------------
@@ -363,7 +481,7 @@ Use the following steps to quickly generate commands to use in console mode:  
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/image2018-2-9-113A443A30.png)
     where:
 
-    <table><thead><tr><th>Section</th><th>Description</th></tr></thead><tbody><tr><td>Test Suite</td><td>The Test Suite or Test Suite Collection to be executed</td></tr><tr><td>Executed Platform</td><td><p>The platform to execute the test on. Select an environment</p><p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/image2018-2-9-123A13A31.png"></p><p>&nbsp;</p></td></tr><tr><td>Other Options</td><td><p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/image2017-2-17-163A193A15.png"></p></td></tr></tbody></table>
+    <table><thead><tr><th>Section</th><th>Description</th></tr></thead><tbody><tr><td>Test Suite</td><td>The Test Suite or Test Suite Collection to be executed</td></tr><tr><td>Executed Platform</td><td><p>The platform on which you execute the test. Select an environment</p><p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/image2018-2-9-123A13A31.png"></p><p>&nbsp;</p></td></tr><tr><td>Other Options</td><td><p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/image2017-2-17-163A193A15.png"></p></td></tr></tbody></table>
 
 3. Click **Generate Command** after completing the configuration.
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/image2017-2-17-173A153A41.png)
@@ -373,9 +491,9 @@ Use the following steps to quickly generate commands to use in console mode:  
 Use console.properties file
 ---------------------------
 
-We support running console mode using **console.properties** file where you can manually modify the content if needed.
+We support running console mode using the **console.properties** file where you can manually modify the content if needed.
 
-1. Generate **console.properties** file using our generator:
+1. Generate a **console.properties** file using our generator:
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/image2018-2-9-123A33A30.png)
 
 2. The **console.properties** file is generated at your preferred location. You can open and update the parameters manually as needed.

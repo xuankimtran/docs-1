@@ -29,8 +29,8 @@ To help accelerate the creation of Web Service request, Katalon Quickstart allow
 
 Quick start options include:
 
-*   **New Draft REST/SOAP Request: **Let you create a draft request to try out with various data before saving to the Objects Repository. All sent requests will be saved in the Request History panel. 
-*   **Import [Swagger 2.0](https://docs.katalon.com/katalon-studio/docs/import-rest-requests-from-swagger-20.html)/[WSDL](https://docs.katalon.com/katalon-studio/docs/import-soap-requests-from-wsdl.html) from File/URL: **You can import web service definition from a local File or URL. Katalon Studio will load the specified information into its project. 
+*   **New Draft REST/SOAP Request:** Let you create a draft request to try out with various data before saving to the Objects Repository. All sent requests will be saved in the Request History panel. 
+*   **Import [Swagger 2.0](https://docs.katalon.com/katalon-studio/docs/import-rest-requests-from-swagger-20.html)/[WSDL](https://docs.katalon.com/katalon-studio/docs/import-soap-requests-from-wsdl.html) from File/URL:** You can import web service definition from a local File or URL. Katalon Studio will load the specified information into its project. 
 
 This API/Web Service quickstart starts automatically the first time you created a New API/Web Service project. You can launch it anytime through _Help_ \> _Quick Start_. 
 

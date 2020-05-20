@@ -1,0 +1,65 @@
+name: KatalonDocsCI
+on:
+  push:
+    branches:
+      - staging
+jobs:
+  run:
+    name: Run
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@master
+    - name: Branch name
+      run: echo running on branch ${GITHUB_REF##*/}
+      
+    - uses: actions/cache@v1
+      with:
+        path: vendor/bundle
+        key: ${{ runner.os }}-gem-${{ hashFiles('**/Gemfile') }}
+        restore-keys: |
+          ${{ runner.os }}-gem-
+
+    - uses: actions/setup-ruby@v1
+      with:
+        ruby-version: '2.6'
+    - run: |
+        bundle config path vendor/bundle
+        bundle install --jobs 4 --retry 3
+        mkdir -p _site/${GITHUB_REF##*/}
+        bundle exec jekyll clean
+        bundle exec jekyll build --config _config_staging.yml,_config_prod.yml --trace
+        rm _site/robots.txt && mv _site/robots-staging.txt _site/robots.txt
+
+    - name: List sites 
+      run: |
+        pwd
+        ls -la 
+        
+    - name: Configure AWS Credentials
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-region: us-east-1
+    - name: Setup python
+      uses: actions/setup-python@v1
+      with:
+          python-version: 3.x
+          architecture: x64
+    - name: install aws 
+      run: |
+        pip3 install awscli --upgrade --user
+    - name: verify aws cli
+      run: |
+        aws --version
+    - name: Deploy to s3
+      run: |
+        pwd
+        ls -la _site/
+        aws s3 cp --recursive _site/ s3://${{ secrets.AWS_S3_BUCKET }}
+    - name: Create Invalidate Cloudfront 
+      run: |
+        aws cloudfront create-invalidation --distribution-id 	${{ secrets.AWS_DISTRIBUTE_ID_STAGING }} --paths "/*"
+
+       

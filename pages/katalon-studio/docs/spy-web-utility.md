@@ -7,16 +7,19 @@ redirect_from:
     - "/display/KD/Spy%20Web%20Utility/"
     - "/x/5BZO/"
     - "/katalon-studio/docs/spy-web-utility/"
+    - "/x/jwBO/"
+    - "/katalon-studio/docs/spy-web-utility-version-48-and-below/"
+    - "/katalon-studio/docs/spy-web-utility-version-48-and-below.html"
 description: 
 ---
-> *   Available since version 5.0
-> *   [Working with Object Properties](/x/ZxlO)
-> *   [Object Identification Best Practices](/display/KD/Optimizing+Object+Identification+and+Tools)
-> *   Configure [Web Object Locators Settings](https://docs.katalon.com/katalon-studio/docs/web-locators-settings-since-v571.html
 
-Enhanced Spy Web Utility is more compact and more intelligent for capturing objects. Object **properties** and **locating method** can be specified by users. Built-in **Verify and Highlight** feature provide users the assurance that Katalon Studio can locate the objects. Spy Web Utility window can be **pinned** or **unpinned** for users convenience while spying.
+> * [Working with Object Properties](/x/ZxlO)
+> * [Object Identification Best Practices](/display/KD/Optimizing+Object+Identification+and+Tools)
+> * Configure [Web Object Locators Settings](https://docs.katalon.com/katalon-studio/docs/web-locators-settings-since-v571.html)
 
-The guide bellow will show step by step using Spy Web Utility.
+Enhanced Spy Web Utility is more compact and more intelligent for capturing objects. You can specify Object properties and locating method. The built-in **Verify and Highlight** feature provides the assurance that Katalon Studio can locate the objects. Spy Web Utility window can be **pinned** or **unpinned** for users' convenience while spying.
+
+This guide will show step-by-step how to use Spy Web Utility.
 
 Capture objects using Web Object Spy
 ------------------------------------
@@ -117,9 +120,8 @@ Capture objects using Web Object Spy
     
 For more information on WebUI test objects, click [here](/x/tQTR). 
     
-8.  Click on **Save **to **Add **to** Object Repository**.  
-      
-    
+8.  Click on **Save** to add those objects to **Object Repository**.  
+
 9.  Check on those captured objects in the **left pane** that you would like to save into Katalon Studio.   
     The structure of your **Object Repository** is displayed on the **right pane**. Select the folder to add the captured objects into. Click **OK** when done.  
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-web-utility/image2016-12-29-173A153A54.png)  
@@ -148,8 +150,8 @@ Define additional objects manually
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-web-utility/image2018-9-5-183A133A52.png)  
       
     
-5.  Click **Verify and Highlight **to make sure the object can be located by Katalon Studio.   
-    If there is a web object with matched **Selector Editor **value, it will be highlighted **red** in opened browser and message **"Found X element using XPath Selector" **will be displayed.    
+5.  Click **Verify and Highlight** to make sure the object can be located by Katalon Studio.
+    If there is a web object with matched **Selector Editor** value, it will be highlighted **red** in opened browser and message **"Found X element using XPath Selector"** will be displayed.
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-web-utility/image2018-9-5-183A133A16.png)  
       
     

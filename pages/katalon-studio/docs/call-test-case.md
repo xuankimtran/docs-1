@@ -42,10 +42,10 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 //call test case using WebUI Class
-WebUI.callTestCase(findTestCase("Test Case ID"}), ["key1":"value1", "key2":"value2", … , "keyN":"valueN"], FailureHandling.OPTIONAL)
+WebUI.callTestCase(findTestCase("Test Case ID"), ["key1":"value1", "key2":"value2", … , "keyN":"valueN"], FailureHandling.OPTIONAL)
 
 //call test case using Mobile Class
-Mobile.callTestCase(findTestCase("Test Case ID"}), ["key1":"value1", "key2":"value2", … , "keyN":"valueN"], FailureHandling.OPTIONAL)
+Mobile.callTestCase(findTestCase("Test Case ID"), ["key1":"value1", "key2":"value2", … , "keyN":"valueN"], FailureHandling.OPTIONAL)
 ```
 
 where:
@@ -59,7 +59,7 @@ where:
     </thead>
     <tbody>
         <tr>
-            <td>{Test Case ID}</td>
+            <td>Test/Case/ID</td>
             <td>
                 <p>The&nbsp;<strong>ID</strong>&nbsp;of the test case to be called. You can find this info in test case properties.</p>
                 <p>For example:</p>

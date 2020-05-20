@@ -85,7 +85,7 @@ body.night {
     .toc-nav li a.active {
         color: $active-sidebar-night;
         background: #0a151a;
-        border-left-color: #077CBC;//add to variables
+        // border-left-color: #077CBC;//add to variables
     }
     .tabs li.active a {
         border-bottom-color: #077CBC;//add to variables
@@ -297,10 +297,10 @@ body.night {
 
 body.night {
     /* accordion */
-.panel {
-    color: #d3d4d4;
-    // margin-bottom: 20px;
-    background-color: #24394c;
+    .panel {
+        color: #d3d4d4;
+        // margin-bottom: 20px;
+        background-color: #24394c;
     }
     .panel-default {
         border-color: #374656;

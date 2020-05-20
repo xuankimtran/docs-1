@@ -10,9 +10,21 @@ $body-text-size: 16px;
 
 @import "docker/docker";
 
+.col-nav, .sidebar {
+  background-color: rgb(247, 247, 247);
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
 .content {
-  ul li {
-    font-size: $body-text-size;
+  ul, ol {
+    padding-inline-start: 2em;
+    li {
+      font-size: $body-text-size;
+    }
   }
   b, strong {
     font-weight: 600;
@@ -35,17 +47,52 @@ $body-text-size: 16px;
   h6 {
     font-size: 0.85em;
   }
-  line-height: 1.6;
+  pre {
+    font-size: 0.875em;
+  }
+  &, p {
+    line-height: 1.7;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+    line-height: 1.25;
+  }
+  ul li:last-child {
+    margin-bottom: 0.625em;
+  }
+  table img {
+    display: inline;
+    padding-right: 1em;
+  }
+  blockquote {
+    background-color: rgba(255,229,100,0.3);
+    border-left-color: #ffe564;
+    margin-top: 10px;
+  }
+  code {
+    word-break: break-all;
+    white-space: break-spaces;
+  }
+  table code {
+    white-space: normal;
+  }
+  .feedback-links {
+    ul {
+      display: flex;
+      list-style: none;
+      padding-inline-start: 0;
+
+      li {
+        margin-right: 2em;
+      }
+    }
+  }
 }
 
 #gta {
   padding: 0;
 }
 
-code {
-  white-space: normal;
-  word-break: break-all;
-}
 
 .button {
   font-family: inherit;
@@ -57,6 +104,7 @@ div#autocompleteResults {
   padding-bottom: 0;
   border: none;
   width: 500px !important;
+  background: white;
 }
 
 #autoContainer {
@@ -189,29 +237,6 @@ div#autocompleteResults {
   }
 }
 
-.toc-nav ul {
-  li {
-      & > div {
-          display: inline-block;
-          font-size: 12px;
-          padding: 5px 10px 5px 10px;
-          text-decoration: none;
-      }
-  }
-}
-
-.content ul li:last-child {
-  margin-bottom: 10px;
-}
-
-.content table {
-  table-layout: fixed;
-  img {
-    display: inline;
-    padding-right: 1em;
-  }
-}
-
 
 /* style for author sidebar block */
 
@@ -247,7 +272,7 @@ div#autocompleteResults {
 
 /* style for bannersales */
 
-.banner_sales{
+.banner_sales {
   width: 280px;
   margin: 0px 0px 0px 0px;
   position: fixed;
@@ -259,8 +284,96 @@ div#autocompleteResults {
   }
 }
 
-.toc-nav{
+.toc-nav {
   padding: 0 0 82px 0;
 }
 
 /* END style for bannersales */
+
+.nav-sidebar {
+  .fa-angle-down, .fa-angle-right {
+    float: right;
+    margin-top: 0.33em;
+  }
+
+  .fa-angle-down {
+    display: none;
+  }
+
+  .in > a {
+    &> .fa-angle-right {
+      display: none;
+    }
+    &> .fa-angle-down {
+      display: block;
+    }
+  } 
+}
+
+@media only screen
+  and (min-width : 376px)
+  and (max-width : 900px) {
+  .sidebar {
+    z-index: 9999;
+  }
+}
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 667px)
+  and (orientation: portrait) {
+
+  .nav-sidebar a {
+    text-align: left;
+  }
+
+  .nav-sidebar > ul > li > a,
+  .nav-sidebar ul li a.active,
+  .nav-sidebar.nav > li > a:focus {
+    color: #3c4257;
+  }
+}
+
+.nav-sidebar > ul > li {
+  &> a {
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 10px;
+  }
+  
+  a {
+    color: #3c4257;
+  }
+}
+
+body.night {
+  .nav-sidebar > ul > li a,
+  .nav-sidebar ul li a.active,
+  .nav-sidebar.nav > li > a:focus {
+    color: #d3d4d4;
+  }
+}
+
+.nav-sidebar ul li li a {
+  border-left-width: 0;
+}
+
+.nav-sidebar ul li {
+  &, li a {
+    font-size: 14px;
+    margin-left: 0;
+  }
+}
+
+.nav-sidebar ul li a.active,
+.nav-sidebar.nav > li > a:focus {
+  color: #3c4257;
+}
+
+.col-toc .sidebar {
+  background: transparent;
+}
+
+.nav-social .fa {
+  font-size: 14px;
+}

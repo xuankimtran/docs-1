@@ -12,7 +12,7 @@ Every Katalon license is associated with an Organization in Katalon TestOps. Ple
 1. Log in to [Katalon TestOps](https://analytics.katalon.com/home) with your registered Katalon account.
 2. Create a new Organization (when creating an organization, you're automatically granted the Owner role).
 3. Navigate to the newly created Organization.
-4. Send the Organization's URL containing its ID to the Katalon team.
+4. Send the Organization's URL containing its ID and the Organization Owner's email to the Katalon team.
 
 Once having confirmed our receipt of your Organization’s URL, we will grant the purchased licenses to your organization within 24 business hours.
 

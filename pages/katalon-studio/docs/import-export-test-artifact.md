@@ -1,12 +1,12 @@
 ---
-title: "Test Artifacts Sharing (Katashare)" 
+title: "Test Artifacts Sharing" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/import-export-test-artifact.html 
 description: Instruction of how to export and import test artifacts
 ---
 > This feature is available starting from [version 7.0.0](https://docs.katalon.com/katalon-studio/new/version-70.html).
 
-Test artifacts sharing (**Katashare**) allows you to import and export test artifacts across Katalon Studio projects. These test artifacts include test cases, test objects, profiles, and custom keywords.
+Test artifacts sharing allows you to import and export test artifacts across Katalon Studio projects. These test artifacts include test cases, test objects, profiles, and custom keywords.
 
 > **Note**: You can only import test artifacts exported from Katalon Studio. The format of the exported file name is `shared-[timestamp].zip`.
 

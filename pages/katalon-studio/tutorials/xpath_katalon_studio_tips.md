@@ -143,5 +143,5 @@ And one more advice from me – don't be afraid to tell your teammate, who is re
 
 Read more:
 
-*   [Generating reliable object selector using Spy Web utility](/katalon-studio/tutorials/generate-css-xpath-selector-spy-web-utility/)
-*   [Detecting elements with XPath in Katalon Studio](/katalon-studio/tutorials/detect-elements-xpath/)
+*   [Generating reliable object selector using Spy Web utility](https://docs.katalon.com/katalon-studio/docs/generate_css_xpath_selector_spy_web_utility.html)
+*   [Detecting elements with XPath in Katalon Studio](https://docs.katalon.com/katalon-studio/tutorials/detect_elements_xpath.html)

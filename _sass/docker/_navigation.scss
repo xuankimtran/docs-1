@@ -176,7 +176,7 @@
     li {
         padding: 2px 8px 2px 0;
         width: 100%;
-        a {
+        a, & > div {
             display: inline-block;
             font-size: 12px;
             padding: 5px 10px 5px 10px;
@@ -187,7 +187,7 @@
 
 .toc-nav li a.active {
     color: #2089C4;
-    border-left: 4px solid #2089C4;
+    // border-left: 4px solid #2089C4;
     font-weight: bold;
 }
 
@@ -336,7 +336,7 @@ input:checked+.slider:before {
 *
 */
 
-#sidebar-right.affix .feedback-links {
+#sidebar-right.affix .settings {
     margin: 50px 0 10px 0;
 }
 

@@ -18,15 +18,10 @@ blockquote {
 blockquote > p:first-child {
   margin-top: 0;
   font-weight: 700;
-  color: $note-color;
 }
 
 /*** This used to prepend "Note" to title of any multi-paragraph blockquote, now it adds the note icon instead
 ***/
-blockquote > p:first-child::before {
-  content: '\f058 \00a0';
-  font-family: FontAwesome;
-}
 
 /*** Blockquotes with important tag get $important-color sidebar
 ***/

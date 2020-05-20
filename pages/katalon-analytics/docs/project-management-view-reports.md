@@ -12,9 +12,9 @@ description:
 ---
 ## Access reports
 
-Reports in Katalon Analytics are automatically generated based on one or more datasets of automation test results imported in such different formats as Katalon Studio, Katalon Recorder, and JUnit.
+Reports in Katalon TestOps are automatically generated based on one or more datasets of automation test results imported in such different formats as Katalon Studio, Katalon Recorder, and JUnit.
 
-Reports can be viewed in the **Test Result** page. Currently, Katalon Analytics shares with you several reports with different insights and findings including Status and Performance reports; Test Executions table; [Test Execution, Test Suite, and Test Case details](katalon-analytics/docs/view-details.html).
+Reports can be viewed in the **Test Result** page. Currently, Katalon TestOps shares with you several reports with different insights and findings including Status and Performance reports; Test Executions table; [Test Execution, Test Suite, and Test Case details](https://docs.katalon.com/katalon-analytics/docs/project-management-view-details.html).
 
 ## View reports
 

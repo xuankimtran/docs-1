@@ -3,7 +3,6 @@ title: "[Authorization] OAuth 2.0"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/authorization-oauth2.html 
 redirect_from:
-    - "/display/KD/authorization-oauth2/"
     - "/display/KD/Authorization-oauth2/"
     - "/katalon-studio/docs/authorization-oauth2/"
     

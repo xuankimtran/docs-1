@@ -12,7 +12,7 @@ This article will show you what to do next after installing plugins from the Kat
 From the Katalon Studio display, you will see the menu of Katalon Store as below:
 
 
-![]](https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/user/access-store-KS.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/user/access-store-KS.png)
 
 ## Search plugins in Store
 
@@ -29,7 +29,7 @@ To view and manage Katalon Store plugins that were installed to Katalon Studio, 
 After the plugin has been installed from Katalon Store, go to Katalon Studio and click Reload Plugins.
 
 
-![]](https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/user/reload-plugin.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/user/reload-plugin.png)
 
 
 **_Reload-plugins allows the user to update a list of installed plugins in Katalon Studio._**
@@ -37,7 +37,7 @@ After the plugin has been installed from Katalon Store, go to Katalon Studio and
 Once started, the application should display the splash screen similar to the following screenshot:
 
 
-![]](https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/user/reload-plugin-processing.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/user/reload-plugin-processing.png)
 
 
 
@@ -45,7 +45,7 @@ Once started, the application should display the splash screen similar to the fo
 
 After the process has been completed, you will see the list of installed plugins as below. The new plugin installed from Katalon Store will also be displayed.
 
-![]](https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/user/reload-plugin-completed.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/user/reload-plugin-completed.png)
 
 _Note_: The new plugin will be automatically activated after users do **Reload Plugins**.
 
