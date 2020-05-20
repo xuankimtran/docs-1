@@ -8,29 +8,9 @@ Agent is an essential ingredient for remote execution on Katalon TestOps. This p
 
 > Agents in TestOps CI are shared among members and projects within a team.
 
-## Prerequisites
+## Configure an Agent
 
-### For MacOS/Linux
-
-1. An agent executable file (`cli-macos-x64` or `cli-macos-x86`);
-
-2. A start script (`start.sh`);
-
-3. An agent configuration file downloaded in TestOps.
-
-### For Windows
-
-1. An agent executable file (`cli-win-x64.exe` or `cli-win-x86.exe`);
-
-2. A start script (`start.bat`);
-
-3. An agent configuration file downloaded in TestOps.
-
-> Download Agents and start scripts [here](https://github.com/katalon-studio/katalon-agent/releases).
->
-> To start an agent, you need to put 3 files (an gent executable, configuration and start script) in the same directory.
-
-## Download an agent configuration file in TestOps
+### Step 1: Download an agent configuration file in TestOps
 
 1. In Katalon TestOps, go to your project and select **TestOps CI** > **Agent Setup**.
 
@@ -49,7 +29,30 @@ Agent is an essential ingredient for remote execution on Katalon TestOps. This p
     >
     > In case there is a file with different name, please make sure you have updated the file name to `agentconfig`.
 
-## Start an Agent in MacOS/Linux
+### Step 2: Download an agent executable file
+
+Download an agent executable file [here](https://github.com/katalon-studio/katalon-agent/releases).
+
+- For MacOS/Linux, the agent executable file should be `cli-macos-x64` or `cli-macos-x86`.
+
+- For Windows, the agent executable file should be `cli-win-x64.exe` or `cli-win-x86.exe`.
+
+### Step 3: Download a start script
+
+Download a start script [here](https://github.com/katalon-studio/katalon-agent/releases).
+
+- For MacOS/Linux, the start script should be `start.sh`.
+
+- For Windows, the start script should be `start.bat`.
+
+### Step 4: Put all files to the same directory
+
+To start an agent, you need to put **an agent executable**, **configuration file** and **start script** in the same directory.
+
+
+## Start an Agent
+
+### In MacOS/Linux
 
 1. Open your **Command-line Interface** and locate the folder where you put the 3 files as mentioned above. For example: `cd Desktop/`.
 
@@ -59,7 +62,7 @@ Agent is an essential ingredient for remote execution on Katalon TestOps. This p
 
 4. It may take a while for the Agent to start.
 
-## Start an Agent in Windows
+### In Windows
 
 1. Open your **Command-line Interface** and locate the folder where you put the 3 files as mentioned above. For example: `cd Desktop/`.
 
