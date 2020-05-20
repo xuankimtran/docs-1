@@ -24,7 +24,7 @@ Once you have installed the extension, you will need to configure Execute Katalo
 
 > We only support VM Image in Windows and MacOS.
 
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-extension/1-search.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-extension/1-search.png)
 
 2. Regarding the **Command Arguments**, you can enter the arguments directly in the text area or generate them from your in use Katalon Studio. 
 
@@ -32,9 +32,11 @@ Once you have installed the extension, you will need to configure Execute Katalo
 
    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-extension/2-command.png)
 
-3. **X11 DISPLAY**: Leave this field blank. **Xvfb-run** configuration: Learn more [here](http://manpages.ubuntu.com/manpages/xenial/man1/xvfb-run.1.html). If you are not sure, only change the resolution 1024x768x24 and leave other options as-is.
+3. **X11 DISPLAY**: Leave this field blank. 
 
-4. After everything is setup, click **Queue** button to build.
+4. **Xvfb-run** configuration: Learn more [here](http://manpages.ubuntu.com/manpages/xenial/man1/xvfb-run.1.html). If you are not sure, only change the resolution 1024x768x24 and leave other options as-is.
+
+5. After everything is set up, click **Queue** button to build.
 
    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-extension/3-result.png)
 
