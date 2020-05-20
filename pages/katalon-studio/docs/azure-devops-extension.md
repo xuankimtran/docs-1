@@ -26,7 +26,7 @@ Once you have installed the extension, you will need to configure Execute Katalo
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-extension/1-search.png)
 
-2. Regarding the **Command Arguments**, you can enter the arguments directly in the text area or generate them from your in use Katalon Studio. 
+2. Regarding the **Command Arguments**, you can enter the arguments directly in the text area or generate them from Katalon Studio. 
 
    > Please leave out any irrelevant argument such as `-runmode`. See [Command Arguments in Common Configuration](https://docs.katalon.com/katalon-studio/docs/common-configuration.html#command-arguments) for more details.
 
