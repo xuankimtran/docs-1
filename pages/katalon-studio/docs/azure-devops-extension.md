@@ -22,9 +22,9 @@ Once you have installed the extension, you will need to configure Execute Katalo
 
 1. In Azure DevOps, add task **Execute Katalon Studio Tests** to your list. You can quickly lookup Execute Katalon Studio Tests from the search box or find it under the Task category.
 
-> We only support VM Image in Windows and MacOS.
+   > We only support VM Image in Windows and MacOS.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-extension/1-search.png)
+   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-extension/1-search.png)
 
 2. Regarding the **Command Arguments**, you can enter the arguments directly in the text area or generate them from Katalon Studio. 
 
