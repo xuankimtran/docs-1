@@ -26,9 +26,7 @@ TestOps CI allows you to set up your test environment to schedule and execute te
 
 First, you need to create an agent or configure a test environment from CircleCI or EKS to get started.
 
-- [Create and start an agent](https://docs.katalon.com/katalon-analytics/docs/agents.html)
-
-- [Create a CircleCI test environment](https://docs.katalon.com/katalon-analytics/docs/circleci.html)
+See how to [Create and start an agent](https://docs.katalon.com/katalon-analytics/docs/agents.html)  or [Create a CircleCI test environment](https://docs.katalon.com/katalon-analytics/docs/circleci.html).
 
 You can view agent status or a list of other test environments you have created in **Test Environments** section.
 
@@ -36,21 +34,24 @@ You can view agent status or a list of other test environments you have created 
 
 After having the test environment, go to **Code Repo** and upload your test projects which need to be executed remotely.
 
-- [Upload Test Projects](https://docs.katalon.com/katalon-analytics/docs/code-repo.html)
+See how to [Upload Test Projects](https://docs.katalon.com/katalon-analytics/docs/code-repo.html) or [Create Git Test Projects](https://docs.katalon.com/katalon-analytics/docs/git-test-project.html).
 
-- [Create Git Test Projects](https://docs.katalon.com/katalon-analytics/docs/git-test-project.html)
+### Step 3: Create a test plan
 
-### Step 3: Schedule a remote execution plan
+Now you can [create a test plan](https://docs.katalon.com/katalon-analytics/docs/create-plan.html) to execute remotely anytime you want.
+
+After having the test plan, you can [Run a test plan manually](https://docs.katalon.com/katalon-analytics/docs/create-plan.html#run-a-test-plan) or schedule a test plan by following step 4.
+
+### Step 4: Schedule a remote execution plan
 
 After having an agent or test environment and a test projects created in **Code Repo**, you can schedule a test in **Plan** section.
 
-- [Create a new test plan](https://docs.katalon.com/katalon-analytics/docs/kt-scheduler.html#plan-a-test)
+See how to [Create a new test plan](https://docs.katalon.com/katalon-analytics/docs/kt-scheduler.html#plan-a-test) or [Schedule a plan](https://docs.katalon.com/katalon-analytics/docs/kt-scheduler.html#schedule-a-test-plan).
 
-- [Schedule a plan](https://docs.katalon.com/katalon-analytics/docs/kt-scheduler.html#schedule-a-test-plan)
-
-### Step 4: Execute scheduled test
+### Step 5: Execute scheduled test
 
 Now you can [execute your test plans](https://docs.katalon.com/katalon-analytics/docs/grid-local-agents.html) anytime you want in parallel or on schedule.
+
 
 
 
