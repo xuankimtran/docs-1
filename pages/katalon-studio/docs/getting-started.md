@@ -56,8 +56,6 @@ Ensure you are using Katalon Studio with the default font size set to 100% in bo
 > 
 > If you currently use macOS Catalina, you have to enable Katalon Studio and Katalon Studio Engine applications in  **System Preferences/ Security & Privacy/ General**.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/getting-started/KSE-catalina.png" width="665" height="559">
-
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/getting-started/KS-Catalina.png" width="662" height="569"> 
 
 Once started, the application should display the splash screen similar to the following screenshot:
