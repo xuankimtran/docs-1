@@ -10,27 +10,22 @@ description: Guide how to use and manage API Key in KStore
 
 ## API Keys usage
 
+In the command-line execution, API Keys play a role as a user's credentials to download and install plugins in Katalon Studio before proceeding to execution.
 
-In Katalon Studio Commandline Execution, API keys play the role as the user credentials to download and install plugins of the API key owners to Katalon Studio before proceeding execution.
-
-Without API keys applied, Katalon Studio will execute as no plugins are installed. Therefore, API keys are must-have for using plugin functions during Commandline Execution in Katalon Studio.
-
+Without API keys applied, Katalon Studio executes a test as you haven't installed any plugins yet. Therefore, the API Key is a must-have for using a plugin during the execution in the console mode.
 
 ## Create a new key
 
+To create an API Key, do as follows:
 
+1. Navigate to Katalon Store **[My Account](https://store.katalon.com/account)** > select the **Security** tab.
+1. Click on the **Generate Key** button > Input a **Title** for your API Key > Click on the **Add key** button.
 
-1.  Navigate to Katalon Store **[My Account](https://store.katalon.com/account)** > **Security** tab.
-1.  Click on **Generate Key** button > Input key **Title** > Click **Add key** button > Key list will be shown with the new key added.
-
+You have created a new API Key successfully.
 
 ## Remove an existing key
 
+1. Log into [Katalon Store](https://store.katalon.com/) > **[My Account](https://store.katalon.com/account)** > select the **Security** tab
+2. Click on the **Remove** button of the key you want to remove > Click **OK** to confirm your removal.
 
-
-1.  Navigate to Katalon Store **[My Account](https://store.katalon.com/account)** > **Security** tab.
-2.  Click on the **Remove** button of the key you want to remove > Click **OK** to remove
-
-Note that this action cannot be undone. Once a key is removed, it cannot be used anymore.
-
-
+> Note: You cannot undo this action. Once a key is removed, it cannot be used anymore.
