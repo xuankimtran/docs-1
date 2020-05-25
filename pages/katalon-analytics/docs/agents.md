@@ -1,5 +1,5 @@
 ---
-title: "Local test environments" 
+title: "Local Test Environments" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/agents.html 
 description: 
