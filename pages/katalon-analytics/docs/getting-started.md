@@ -1,5 +1,5 @@
 ---
-title: "Getting Started"
+title: "Access Katalon TestOps"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/getting-started.html
 redirect_from:
