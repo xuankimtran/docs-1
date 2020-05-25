@@ -1,5 +1,5 @@
 ---
-title: "Create an AWS EKS Test Environment" 
+title: "AWS EKS Test Environment" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/aws-eks.html 
 description: 

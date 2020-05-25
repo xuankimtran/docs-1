@@ -1133,11 +1133,11 @@ items:
             url: /katalon-analytics/docs/kt-remote-execution.html
           - title: "Test Environments"
             tree:
-              - title: "Local Agents"
+              - title: "Local Test Environments"
                 url: /katalon-analytics/docs/agents.html
-              - title: "CircleCI"
+              - title: "CircleCI Test Environments"
                 url: /katalon-analytics/docs/circleci.html
-              - title: "AWS EKS"
+              - title: "AWS EKS Test Environments"
                 url: /katalon-analytics/docs/aws-eks.html
           - title: "Code Repo"
             tree:
