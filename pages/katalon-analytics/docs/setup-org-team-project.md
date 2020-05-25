@@ -1,7 +1,17 @@
 ---
-title: "How to set up Katalon TestOps Organization, Team and Project"
+title: "How to set up Katalon TestOps Organization"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/setup-org-team-project.html
+redirect_from:
+    - "/katalon-analytics/docs/manage-org.html"
+    - "/katalon-analytics/docs/kt-user-role-permission.html"
+    - "/display/KA/User+Management/"
+    - "/display/KA/User%20Management/"
+    - "/x/lQjR/"
+    - "/katalon-analytics/docs/user-management/"
+    - "/katalon-analytics/docs/setup-org-team-project/"
+    - "/katalon-analytics/docs/manage-org.html"
+
 ---
 This tutorial shows you how to set up an Organization properly in Katalon TestOps, and to create teams and projects. One member of the team can complete these steps to invite all the others to an Organization for working on projects.
 
@@ -21,45 +31,70 @@ Organizations are shared Katalon TestOps accounts where groups of users can coll
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/org-name.png" width="" height=""> 
 
-### Invite Organization Members
+## **Organization-level roles and permissions** 
 
-In the **Organization** view, select **Users** > in the **Users** view, select **Invitations** > Invite your members one by one by entering their email addresses. Further details, please see [this document](https://docs.katalon.com/katalon-analytics/docs/user-management.html#invite-a-user-to-the-organization). You can grant the new members organization roles.
+* **Owner** - is granted by default when creating a new organization or transferred by other users, who has full permission related to the organization, including teams, users, projects, licenses, plugins, and subscriptions.
+* **Admin** - is granted by the Owner, who has the privileges of the Owner but cannot manage the subscriptions.
+* **User** - is automatically assigned when a person is first invited to collaborate in an organization. Users can only monitor project progress.
+* **Billing Manager** - is granted by the Owner or Admin, who has the privileges of the User with additional permission to manage subscriptions.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/invite-users-org.png" width="" height="">
+## Invite a user to the organization
 
+* Only the organization **Owner** or **Admin** can invite a user to the organization.
+* From Katalon TestOps dashboard, select an organization.
+* From **Users** tab, select **Invitations** tab.
+* Enter an email address and click **Invite**.
+* Copy the activation link and send it to that person.
 
-## Create a Team
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/user-management/KT-user-mgt-invitation.png)
 
-Teams are groups of users that reflect the company's structures. A team is created by either Owner or Admin in an organization. Only members of a team can view and access the projects within that team.
+The invited person accepts the invitation by clicking the activation link directing to Katalon TestOps and then clicking the name of the organization.
+Before that person accepts the invitation, their email address will be listed in **PENDING INVITATIONS**. Once the person joins the organization, their name and email address will be shown below the **Users** tab with the default User role. 
 
-In the **Organization** view, select **Teams** > give a name to your team and click **Create**. You're the team Owner by default.
+The new user can only access projects when added by the team Owner or Admin to a team.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/create-team.png" width="" height="">
+> Notes: The Owner/Admin can withdraw the invitation by removing it from **PENDING INVITATIONS**.
 
-## Create Projects
+## Remove an existing user
 
-A Katalon TestOps project is a handful of reports generated based on a dataset of automation test results which are imported by users. It would typically represent the development of automation testing work. A project is created only by Admins of a team with a particular name and automatically generated ID. There are many projects in a team.
+Select your organization > from **Users** tab, click the remove icon in the last column and confirm your action in the pop-up.
 
-Select the newly created team which is displayed in the **Team** table. In the **Team** view, you can add members to your team and create projects for them to work on.
+## Assign Admin or User role
 
-### Add users to Team
+The Admin and Owner can reassign the existing Admin and User to a new role. Select your organization/team > from **Users** Tab, click the pencil icon in the last column and then select **Admin** or **User** role in the drop-down list. A user can have different roles in different teams.
 
-Select the **Users** tab > add your members to the team one by one by selecting the person in the drop-down list. Please be noted only the users you have invited to the Organization above can be added to this team.
+## Assign Billing Manager role
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/add-users-team.png" width="" height=""> 
+**Billing Manager** role is only available at the organization level and granted by the organization Owner or Admin. Select your organization > from **Users** Tab, click the pencil icon in the last column and then select **Billing Manager** role in the drop-down list.
 
-### Create Projects
+## Transfer organization ownership
 
-A Katalon TestOps project is a handful of reports generated based on a dataset of automation test results which are imported by users. It would typically represent the development of automation testing work. A project is created only by Admins of a team with a particular name and automatically generated ID. There are many projects in a team.
+The Owner and Admin of an organization can transfer the ownership of an Owner to another existing team member. 
 
-Select **Projects** > give a name to your project and click **Create**.
+* Select an organization > select **Users** tab > search for the target user to assign the **Owner** role.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/create-project.png" width="" height="">
+* Click the pencil icon in the last column and then select **Owner** in the drop-down list.
 
-You have had your organization, team, and project. You can start working with Katalon TestOps now.
+* Click **Save**.
 
-See also:
+> Note: Transferring Organization ownership does NOT affect Team ownership. The previous Owner still has full permission as a Team Owner to those teams having been created by them before.
 
-* [User Role and Permission](https://docs.katalon.com/katalon-analytics/docs/kt-user-role-permission.html)
-* [User Management](https://docs.katalon.com/katalon-analytics/docs/user-management.html)
-* [Integration of Katalon Studio with Katalon TestOps](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html)
+## Rename an Organization
+
+> Only **Owner** can access this feature.
+
+To rename an Organization, go to your Organization and click on **Organization Settings**. You can edit the name in the **Organization profile** section.
+
+Remember to click on **Update** to save your changes.
+
+## Delete an Organization
+
+> Only **Owner** can access this feature.
+
+To delete an Organization, click on **Organization Settings**.
+
+In the **Settings** page, you will see **Delete this orgainzation** option. Click on the button and complete confirmation steps.
+
+> This action cannot be undone. This will permanently delete your organization, projects, licenses, and remove all team associations.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/delete-org.png" width="" height="">
