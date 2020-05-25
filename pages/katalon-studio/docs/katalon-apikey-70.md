@@ -4,20 +4,19 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/katalon-apikey-70.html 
 ---
 
-Starting in **Katalon Studio 7.0**, API keys generated in Katalon Store and Katalon Analytics both have the same functions including installing plugins and integrating Katalon Studio with Katalon Analytics in console mode; integrating Katalon Analytics with other platforms.
+Starting in **Katalon Studio 7.0**, API keys generated in Katalon Store and Katalon TestOps both have the same functions including installing plugins and integrating Katalon Studio with Katalon TestOps in console mode; integrating Katalon TestOps with other platforms.
 
-## Katalon API keys usage
+## Katalon API key's usage
 
-* Install plugins from Katalon Store in CLI mode. [Learn more](https://docs.katalon.com/katalon-store/docs/user/plugin-console-installation.html).
+* Installing plugins from Katalon Store in console mode. [Learn more](https://docs.katalon.com/katalon-store/docs/user/plugin-console-installation.html).
 
-* Integrate Katalon Studio with Katalon Analytics in console mode. [Learn more](https://docs.katalon.com/katalon-analytics/docs/integration-with-katalon-studio.html#enable-integration).
+* Integrating Katalon Studio with Katalon TestOps in console mode. [Learn more](https://docs.katalon.com/katalon-analytics/docs/integration-with-katalon-studio.html#enable-integration).
+  
+  > Note: In the command-line generator in Katalon Studio, the command-line options of API Key, including `-apiKey=<Your_API_Key>` and `-apikey=<Your_API_Key>` are both accepted.
 
-> Note: In the command-line generator in Katalon Studio, the command-line options of API Key including `-apiKey=<Your_API_Key>` and `-apikey=<Your_API_Key>` are both accepted.
-
-* API keys can be used as the user's credentials to integrate Katalon Analytics with other platforms like Jira. [Learn more](https://docs.katalon.com/katalon-analytics/docs/ka-integration-jira.html)
+* API Keys can be used for representing a user's credentials to integrate Katalon TestOps with other platforms like [Jira](https://docs.katalon.com/katalon-analytics/docs/kt-jira-config.html) and [Jenkins](https://docs.katalon.com/katalon-analytics/docs/ka-integration-jenkins.html), or to create a test environment with [CircleCI](https://docs.katalon.com/katalon-analytics/docs/circleci.html), [AWS EKS](https://docs.katalon.com/katalon-analytics/docs/aws-eks.html), or [local Agent](https://docs.katalon.com/katalon-analytics/docs/agents.html).
 
 ## Generate Katalon API keys
 
-* Refer to [this document](https://docs.katalon.com/katalon-analytics/docs/ka-api-key.html) to create a new Katalon API key in Katalon Analytics.
-
-* Refer to [this document](https://docs.katalon.com/katalon-store/docs/user/API-key.html) to create a new Katalon API key in Katalon Store.
+* Refer to [this document](https://docs.katalon.com/katalon-analytics/docs/ka-api-key.html) for creating a new Katalon API Key in Katalon TestOps.
+* Refer to [this document](https://docs.katalon.com/katalon-store/docs/user/API-key.html) for creating a new Katalon API Key in Katalon Store.
