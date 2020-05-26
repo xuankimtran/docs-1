@@ -54,7 +54,7 @@ If your machine hasn't installed them yet, you could use Katalon tools.
 
 6. All of the specified actions above are recorded at the **Recorded Actions** section.
 
-   In **Captured Objects**, you can view all elements captured during the recording session. Here you can customize the locator of a captured object by modifying it in the Locator tab of **Object Properties**.
+   In **Captured Objects**, you can view all elements captured during the recording session. Here you can customize the locator of a captured object by modifying it in the **Locator** tab of **Object Properties**. The captured objects’ locators are their absolute XPaths.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/native-windows-recorder/captured-objects.png">
 
