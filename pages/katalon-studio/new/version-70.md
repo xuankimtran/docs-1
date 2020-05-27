@@ -15,7 +15,7 @@ redirect_from:
 description: Release note 7.x
 ---
 
-## Version 7.5.0
+## Version 7.5.0 - 7.5.1
 
 ### New features
 
@@ -26,6 +26,8 @@ description: Release note 7.x
 
 ### Improvements
 
+* Support Microsoft Edge (Chromium) 83
+* Support Chrome 83
 * [Katalon Runtime Engine] Improve execution log in CLI mode by printing out applied proxy configurations
 * Improve Proxy Settings with two separate types, including **Authentication** and **System** proxies. [Learn more](https://docs.katalon.com/katalon-studio/docs/katalon-studio-preferences.html#proxy-preferences)
 * [Web Service] Enhance WSDL importing feature. [Learn more](https://docs.katalon.com/katalon-studio/docs/import-soap-requests-from-wsdl.html).
