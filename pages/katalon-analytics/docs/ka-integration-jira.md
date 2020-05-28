@@ -18,8 +18,6 @@ Please refer to [this document](https://docs.katalon.com/katalon-analytics/docs/
 
 ## Key features
 
-With the seamless integration between Jira and TestOps, you can 
-
 
 | Item         | Description                                                                                                                                                                                                                           | Representation                           |
 |--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
