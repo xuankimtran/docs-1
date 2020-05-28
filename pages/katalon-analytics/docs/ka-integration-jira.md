@@ -57,7 +57,7 @@ You can view defects you have added to the execution in the **Defects** tab.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/ka-integration-jira/defect-tab.png" width="" height="">
 
-To view all defects, go to **Defects** section in the navigation bar.
+To view all defects, go to the **Defects** section in the navigation bar.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/ka-integration-jira/defect-menu.png" width="" height="">
 
