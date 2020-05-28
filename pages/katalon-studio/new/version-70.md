@@ -15,7 +15,7 @@ redirect_from:
 description: Release note 7.x
 ---
 
-## Version 7.5.0 - 7.5.1
+## Version 7.5.0 - 7.5.2
 
 ### New features
 
