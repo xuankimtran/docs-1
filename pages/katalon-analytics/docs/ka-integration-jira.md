@@ -19,7 +19,7 @@ Please refer to [this document](https://docs.katalon.com/katalon-analytics/docs/
 ## Key features
 
 
-| Item         | Description                                                                                                                                                                                                                           | Representation                           |
+| Item        | Description                                                                                                                                                                                                                           | Representation                           |
 |--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
 | Releases     | You can populate Jira releases or create your own releases in TestOps. This helps you better manage the progress of your projects.                                                          | Releases in Jira <br> Releases in TestOps     |
 | Requirements | You can link to Jira stories to see whether the requirements are already covered or yet uncovered by related Test Cases. This helps you better keep track of all requirements that have been made. | Stories in Jira <br> Test Cases in TestOps    |
