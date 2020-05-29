@@ -8,7 +8,7 @@ redirect_from:
    - "/x/WQAM/"
    - "/katalon-studio/docs/console-mode-execution/"
    - "/katalon-studio/tutorials/generate_command_line.html"
-
+   - "/katalon-studio/tutorials/executing_console_mode.html"
 description:
 ---
 
