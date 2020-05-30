@@ -15,6 +15,24 @@ redirect_from:
 description: Release note 7.x
 ---
 
+## Version 7.5.5
+
+### New features
+
+* [Katalon Studio Enterprise] Support "Debug from here". [Learn more]()
+* Support parameterizing SOAP endpoint. [Learn more]()
+
+### Enhancements
+
+* Improve Katalon Studio's performance of checking/unchecking test folders containing more than 50 Test Cases
+* Errors shown in Log Viewer have a new design: their root cause shown on the top of the stack trace and Test Object ID added to Selenium’s common exceptions for better debugging. [Learn more]()
+* [Desktop Testing] Increase the default timeout and allow changing this default value when using `Switch To Window Title` during recording and executing tests. [Learn more](https://docs.katalon.com/katalon-studio/docs/windows-kw-switch-window-title.html#setting-timeout)
+
+### Fixes
+
+* Bug: [Mobile] NullPointerException exception thrown by the `startExistingApplication` keyword when running on a Sauce Labs device
+* Bug: [Mobile] Unable to capture objects using Spy Mobile
+
 ## Version 7.5.0 - 7.5.2
 
 ### New features

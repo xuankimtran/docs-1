@@ -81,15 +81,15 @@ Creating automation test cases is a repetitive task that requires a lot of editi
 
 From the [Manual view](/display/KD/Manual+View) of the test case:
 
-1\. Start a browser in Katalon script using 'Open Browser' step. Else, you must have a current session running.
+1. Start a browser in Katalon script using 'Open Browser' step. Else, you must have a current session running.
 
-2. Ensure this browser's session is NOT terminated (Go to **Project > Settings > Executions > Post-Execution > Terminate...** options are unchecked based on your testing needs).
+2. Ensure this browser's session is NOT terminated (Go to **Project > Settings > Executions > Post-Execution > Terminate...** options are unchecked based on your testing needs).
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/post-execution.png" width="" height="">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/post-execution.png" width="" height="">
 
-3\. Right-click on one of the step you want to execute from, and execute the sesssion.
+3. Right-click on one of the step you want to execute from, and execute the sesssion.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/image2017-8-18-113A343A23.png)
+   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/image2017-8-18-113A343A23.png)
 
 From the Manual view of the test case, right-click on a step and select **Execute from here…**. Once this option is selected, all **_currently running and supported Chrome instances_** are displayed so that you can select to run the script from the selected step.
 
@@ -109,47 +109,60 @@ Katalon Studio provides the capability for debugging test scripts. Its Debug mod
 
 The following steps present how to debug a test case:
 
-1\. Open a test case and switch to the **Script** view.
-![Script view Katalon Studio](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/Script-view.png)
+1. Open a test case and switch to the **Script** view.
 
-2\. Double-click on the leftmost side of the script editor to mark a breakpoint for the step from which you want to start debugging.
-![mark a breakpoint for the step](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/mark-a-breakpoint.png)
+   ![Script view Katalon Studio](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/Script-view.png)
 
-3\. Choose the browser for **Debug** from the main toolbar.
-![Choose the browser for Debugging test case](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/the-browser.png)
+2. Double-click on the leftmost side of the script editor to mark a breakpoint for the step from which you want to start debugging.
 
-4\. Confirm (select **Yes**) when asked to show the **Debug** perspective.
-![the Debug perspective.](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/Debug-perspective.png)
+   ![mark a breakpoint for the step](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/mark-a-breakpoint.png)
 
-5\. The **Debug** perspective provides convenient options for debugging purposes. You can:
+3. Choose the browser for **Debug** from the main toolbar.
 
-**Navigate execution using commands from the debug toolbar.**
-![debug toolbar](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/Navigate-execution.png)
+   ![Choose the browser for Debugging test case](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/the-browser.png)
 
-Where:
+4. Confirm (select **Yes**) when asked to show the **Debug** perspective.
 
-| Command | Description |
-| --- | --- |
-|  ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/Resume-debugging.png) | Resume debugging |
-|  ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/Suspend-debugging.png) | Suspend debugging |
-|  ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/Terminate-debugging.png) | Terminate debugging |
-|  ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/Disconnect.png) | Disconnect |
-|  ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/Step-into-current-code-block.png) | Step into current code block |
-|  ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/Step-over-current-code-block.png) | Step over current code block |
-|  ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/Return-from-current-code-block.png) | Return from current code block |
-|  ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/Run-to-specific-line.png) | Run to specific line |
+   ![the Debug perspective.](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/Debug-perspective.png)
 
-**Track values of variables using Watch utilities.**
-![Watch utilities](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/Watch-utilities.png)Where:
+5. The **Debug** perspective provides convenient options for debugging purposes. You can:
 
-| View | Description |
-| --- | --- |
-| Variables | You can view all variables associated with the current debugged action using Variables View which is similar to Variables View in Eclipse. Refer to this [guide](http://help.eclipse.org/luna/index.jsp?topic=%2Forg.eclipse.jdt.doc.user%2Freference%2Fviews%2Fexpressions%2Fref-expressions_view.htm) for more details. |
-| Breakpoints | You can view all breakpoints using Breakpoints View which is similar to Breakpoints View in Eclipse. Refer to this [guide](http://help.eclipse.org/luna/index.jsp?topic=%2Forg.eclipse.jdt.doc.user%2Freference%2Fviews%2Fexpressions%2Fref-expressions_view.htm) for more details. |
-| Expressions | You can inspect data using Expressions View which is similar to Expressions View in Eclipse. Refer to this [guide](http://help.eclipse.org/luna/index.jsp?topic=%2Forg.eclipse.jdt.doc.user%2Freference%2Fviews%2Fexpressions%2Fref-expressions_view.htm) for more details. |
+    **Navigate execution using commands from the debug toolbar.**
+    ![debug toolbar](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/Navigate-execution.png)
 
-6\. Stop execution when you complete debugging.
+    Where:
+
+    | Command | Description |
+    | --- | --- |
+    |  ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/Resume-debugging.png) | Resume debugging |
+    |  ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/Suspend-debugging.png) | Suspend debugging |
+    |  ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/Terminate-debugging.png) | Terminate debugging |
+    |  ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/Disconnect.png) | Disconnect |
+    |  ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/Step-into-current-code-block.png) | Step into current code block |
+    |  ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/Step-over-current-code-block.png) | Step over current code block |
+    |  ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/Return-from-current-code-block.png) | Return from current code block |
+    |  ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/Run-to-specific-line.png) | Run to specific line |
+
+    **Track values of variables using Watch utilities.**
+    ![Watch utilities](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/Watch-utilities.png)Where:
+
+    | View | Description |
+    | --- | --- |
+    | Variables | You can view all variables associated with the current debugged action using Variables View which is similar to Variables View in Eclipse. Refer to this [guide](http://help.eclipse.org/luna/index.jsp?topic=%2Forg.eclipse.jdt.doc.user%2Freference%2Fviews%2Fexpressions%2Fref-expressions_view.htm) for more details. |
+    | Breakpoints | You can view all breakpoints using Breakpoints View which is similar to Breakpoints View in Eclipse. Refer to this [guide](http://help.eclipse.org/luna/index.jsp?topic=%2Forg.eclipse.jdt.doc.user%2Freference%2Fviews%2Fexpressions%2Fref-expressions_view.htm) for more details. |
+    | Expressions | You can inspect data using Expressions View which is similar to Expressions View in Eclipse. Refer to this [guide](http://help.eclipse.org/luna/index.jsp?topic=%2Forg.eclipse.jdt.doc.user%2Freference%2Fviews%2Fexpressions%2Fref-expressions_view.htm) for more details. |
+
+6. Stop execution when you complete debugging.
+
 Although the debugging mode in Katalon Studio is very similar to that of the popular Eclipse IDE, we manage to retain just enough function to keep the UI clean while providing all the required options to investigate issues when needed. If you have any suggestions or need any support, please send your request [here](https://www.katalon.com/#submit-ticket).
+
+### Debug from here
+
+1. open a browser instance
+2. open a test case in script view => set a break point 
+3. manual view => debug from here
+
+selected step den het o debug mode
 
 ### Attach Source Code for debugging
 
