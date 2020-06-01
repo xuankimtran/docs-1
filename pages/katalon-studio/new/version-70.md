@@ -23,6 +23,7 @@ description: Release note 7.x
 * [Katalon Studio Enterprise] Send Test Suite Collection's report emails. [Learn more](https://docs.katalon.com/katalon-studio/docs/execution-settings.html#emails-settings)
 * [Katalon Studio Enterprise] Support retrying Failed test data only in Test Suite's execution. [Learn more](https://docs.katalon.com/katalon-studio/docs/test-suite.html#modify-execution-information)
 * [Web Testing] Support a new WebUI keyword to upload files by drag-and-drop. [Learn more](https://docs.katalon.com/katalon-studio/docs/webui-upload-file-drag-and-drop.html)
+* Allow setting a default execution profile at project level. [Learn more](https://docs.katalon.com/katalon-studio/docs/execution-profile-v54.html#set-default-profile-at-project-level)
 
 ### Improvements
 
@@ -34,25 +35,11 @@ description: Release note 7.x
 * [Web Service] Support defining content type for form-data HTTP Body of RESTful requests. [Learn more](https://docs.katalon.com/katalon-studio/docs/restful.html#request-body)
 * Downgrade the MySQL Connector/J, the official JDBC driver for MySQL, from 8.0.17 to 8.0.15
 * Upgrade the Mitrosoft JDBC Driver 6.2 for SQL Server
-
-### Fixes
-
-* Fix an issue of OAUth1.0 Authorization
-
-## Version 7.4.2
-
-### New features
-
-* Allow setting a default execution profile at project level. [Learn more](https://docs.katalon.com/katalon-studio/docs/execution-profile-v54.html#set-default-profile-at-project-level)
-* [API Testing] Support defining body content of RESTful API requests with methods other than POST/PUT/PATCH/DELETE
-
-### Improvements
-
 * Enhance GUI of the following components: Image-based Testing in Test Explorer, Katalon TestOps (Beta) Integration dialog, Activation dialog, and CAPTCHA error in the Activation dialog
-* [Katalon Runtime Engine] Improve execution log in CLI mode
 
 ### Fixes
 
+* Bug: An issue of OAUth1.0 Authorization
 * Bug: [Mobile Testing] Unable to scroll down to see all test object attributes
 * Bug: [Test Explorer] Unable to open a feature file if it is not under the **Include** folder. Address [#293](https://github.com/katalon-studio/katalon-studio/issues/293)
 * Bug: Window Objects' references in Test Case not being updated automatically when Windows Objects are renamed. Address [#289](https://github.com/katalon-studio/katalon-studio/issues/289)
