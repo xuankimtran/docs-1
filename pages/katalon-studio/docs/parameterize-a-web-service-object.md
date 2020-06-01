@@ -11,38 +11,50 @@ redirect_from:
     - "/display/KD/Parameterize%20a%20Web%20Service%20object/"
 description: 
 ---
-> Starting from version 5.7, Katalon Studio provides **Variables** for RESTful and SOAP Web Service Test Objects.
->
-> Starting from Katalon Studio version 5.9, Variables are enhanced with a Scripting Editor.
 
-Query Parameters
-----------------
+## Query Parameters
 
-Query parameters can be added to a REST URL to tailor and filter the response output. When you input a URL, Katalon Studio detects the query parameters (after the question mark ?) and list them in the table for better management.
+> Only available for **RESTful** Web Service requests
+
+Query parameters can be added to a REST request's URL to tailor and filter the response output. When you input a URL, Katalon Studio detects the query parameters (after the question mark `?`) and list them in the table for better management.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/updated-parameterize-a-web-service-object/Screen-Shot-2018-09-18-at-5.04.18-PM.png)
 
-Variables (from Katalon Studio version 5.7)
----------------------
+## Variables and Parameterizing Request Objects
 
-Having the ability to use variables in an object allows you to have more control of the test objects and fulfill all the testing requirements. The approach is the same with [Web UI object](/x/A4C9). Katalon Studio supports variables of the following information in a Web Service object.
+> Available for both **RESTful** and **SOAP** Web Service requests
 
-* **URL**
-* **Query Parameters**
-* **HTTP **Header****
-* **HTTP Body**
-* **Verification**
+Katalon Studio provides the **Variables** section with both manual and scripting editors. By using variables in a request object, you can hanlde dynamic values of an object's properties and have more control over them.
 
-You can add a new variable and declare its properties within the **Variables** tab. The Variables tab is **available** in both **RESTful** and **SOAP** objects.
+You can add a new variable and declare its properties in the **Variables** tab. In order to call a variable in a Web Service object, use the **${variable_name}** syntax as a place holder in any of the supported locations. The values of the pre-defined variables are passed to their place holders respectively during runtime.
+This whole utility is called parameterization and the approach is the same as [parameterizing a WebUI object](https://docs.katalon.com/katalon-studio/docs/manage-web-test-object.html#parameterize-web-test-objects).
 
-In order to call a variable in a Web Service object, use the syntax **${variable_name}** in any supported locations.
+In the manual view of a test case, when you add a request object, the pre-defined variables are added **automatically**; hence, you don't need to define them again.
 
-For example, using '**gender**' variable in URL of a RESTful Web Service object.
+### For RESTful request
+
+Katalon Studio supports calling the declared variables in the following places of a RESTful Web Service object.
+
+* URL
+* Query Parameters
+* HTTP Header
+* HTTP Body
+* Verification
+
+The screenshot below illustrates an example of using the '**status**' variable in a URL.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/updated-parameterize-a-web-service-object/Screen-Shot-2018-09-18-at-5.10.01-PM.png)
 
-These pre-defined variables are mapped **automatically** when you select a Web Service object in the manual view, so you don't need to define them again manually.
+### For SOAP-based request
 
-You can also apply this feature in a SOAP object.
+The following locations are where you can use the pre-defined variables:
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/updated-parameterize-a-web-service-object/Screen-Shot-2018-09-18-at-5.25.42-PM.png)
+* WSDL URL
+* Service Endpoint (available from version 7.5.5)
+* HTTP Header
+* Request Message
+* Verification
+
+Below is an example of parameterizing the domain URL in a SOAP request's service endpoint.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/parameterize-a-web-service-object/soap-endpoint.png">

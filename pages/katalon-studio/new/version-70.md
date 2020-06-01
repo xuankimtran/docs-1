@@ -19,8 +19,9 @@ description: Release note 7.x
 
 ### New features
 
-* [Katalon Studio Enterprise] Support "Debug from here". [Learn more]()
-* Support parameterizing SOAP endpoint. [Learn more]()
+* [Katalon Studio Enterprise] Support "Debug from here". [Learn more](https://docs.katalon.com/katalon-studio/docs/execute-a-test-case-or-a-test-suite.html#debug-from-here)
+* [Web Service Testing] Support parameterizing a SOAP request's service endpoint. [Learn more](https://docs.katalon.com/katalon-studio/docs/parameterize-a-web-service-object.html#for-soap-based-request)
+* [Web Service Testing] Support defining body content of RESTful API requests with methods other than POST/PUT/PATCH/DELETE
 
 ### Enhancements
 
