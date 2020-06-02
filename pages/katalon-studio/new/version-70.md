@@ -25,9 +25,10 @@ description: Release note 7.x
 
 ### Enhancements
 
+* [Custom Keywords] Organize Custom Keywords in an alphabetical order in Keyword Browser and support categorizing them with `keywordObject`. [Learn more](https://docs.katalon.com/katalon-studio/docs/introduction-to-custom-keywords.html#create-a-custom-keyword)
 * Improve Katalon Studio's performance of checking/unchecking test folders containing more than 50 Test Cases
-* Errors shown in Log Viewer have a new design: their root cause shown on the top of the stack trace and Test Object ID added to Selenium’s common exceptions for better debugging. [Learn more]()
-* [Desktop Testing] Increase the default timeout and allow changing this default value when using `Switch To Window Title` during recording and executing tests. [Learn more](https://docs.katalon.com/katalon-studio/docs/windows-kw-switch-window-title.html#setting-timeout)
+* Log Viewer has a new design: Root cause shown on the top of the stack trace and Test Object ID added to Selenium’s common exceptions for better debugging. [Learn more]()
+* [Desktop Testing] Increase the default timeout and allow changing this default value when using `switchToWindowTitle` during recording and executing tests. [Learn more](https://docs.katalon.com/katalon-studio/docs/windows-kw-switch-window-title.html#setting-timeout)
 
 ### Fixes
 
