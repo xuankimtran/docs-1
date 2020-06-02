@@ -108,9 +108,6 @@ Starting from **Katalon Studio version 7.0**, an option to disable *Log executed
 ### Summary
 
 - Katalon Studio execution logs are enhanced for a better debugging process and observation of execution progress.
-
 - Logs level can be configured directly from the `log.properties` file.
-
 - A `.har` file is generated and stored in Web Service request logs. It can be used to analyze and troubleshoot performance or connection issues (if any).
-
 - Logs can be set to include or exclude the executed test steps.
