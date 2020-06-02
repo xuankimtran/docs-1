@@ -35,7 +35,7 @@ description: Release note 7.x
 * Bug: [Mobile] NullPointerException exception thrown by the `startExistingApplication` keyword when running on a Sauce Labs device
 * Bug: [Mobile] Unable to capture objects using Spy Mobile
 
-## Version 7.5.0 - 7.5.2
+## Official release - Version 7.5.0 - 7.5.2
 
 ### New features
 
