@@ -105,13 +105,16 @@ idevice_id -l</code></pre>
         <tr>
             <td>Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Appium directory is not set</td>
             <td>
-                <p> When running tests with <strong>Katalon Runtime Engine</strong>, by default Katalon checks the Appium directory at:
+                <p> When running tests with <strong>Katalon Runtime Engine</strong>, by default Katalon checks the Appium directory at:</p>
                 <ul>
-                  <li>APPIUM_HOME environment variable</li>
+                  <li>APPIUM_HOME environment variable (*) </li>
                   <li>Windows: C:\Users<Username>\AppData\Roaming\npm\node_modules\appium</li>
                   <li>macOS and Linux: /usr/local/lib/node_modules/appium</li>
                 </ul>
-                <p>To set Appium location by using APPIUM_HOME environment variable: <pre><code class="language-groovy">export APPIUM_HOME=/usr/local/lib/node_modules/appium./katalonc ...</code></pre>
+                <p> (*) To set Appium location by using APPIUM_HOME environment variable:
+                <li>Windows: <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/roubleshooting-automated-mobile-testing/windows-appium-home.png"></li>
+                <li>macOS and Linux: <pre><code class="language-groovy">export APPIUM_HOME=/usr/local/lib/node_modules/appium</code></pre></li>
+                </p>
             </td>
         </tr>
     </tbody>
