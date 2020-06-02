@@ -15,6 +15,26 @@ redirect_from:
 description: Release note 7.x
 ---
 
+## Version 7.5.5
+
+### New features
+
+* [Katalon Studio Enterprise] Support "Debug from here". [Learn more](https://docs.katalon.com/katalon-studio/docs/execute-a-test-case-or-a-test-suite.html#debug-from-here)
+* [Web Service Testing] Support parameterizing a SOAP request's service endpoint. [Learn more](https://docs.katalon.com/katalon-studio/docs/parameterize-a-web-service-object.html#for-soap-based-request)
+* [Web Service Testing] Support defining body content of RESTful API requests with methods other than POST/PUT/PATCH/DELETE
+
+### Enhancements
+
+* [Custom Keywords] Organize Custom Keywords in an alphabetical order in Keyword Browser and support categorizing them with `keywordObject`. [Learn more](https://docs.katalon.com/katalon-studio/docs/introduction-to-custom-keywords.html#create-a-custom-keyword)
+* Improve Katalon Studio's performance of checking/unchecking test folders containing more than 50 Test Cases
+* Log Viewer has a new design: Root cause shown on the top of the stack trace and Test Object ID added to Selenium’s common exceptions for better debugging.
+* [Desktop Testing] Increase the default timeout and allow changing this default value when using `switchToWindowTitle` during recording and executing tests. [Learn more](https://docs.katalon.com/katalon-studio/docs/windows-kw-switch-window-title.html#setting-timeout)
+
+### Fixes
+
+* Bug: [Mobile] NullPointerException exception thrown by the `startExistingApplication` keyword when running on a Sauce Labs device
+* Bug: [Mobile] Unable to capture objects using Spy Mobile
+
 ## Version 7.5.0 - 7.5.2
 
 ### New features
@@ -32,9 +52,9 @@ description: Release note 7.x
 * [Katalon Runtime Engine] Improve execution log in CLI mode by printing out applied proxy configurations
 * Improve Proxy Settings with two separate types, including **Authentication** and **System** proxies. [Learn more](https://docs.katalon.com/katalon-studio/docs/katalon-studio-preferences.html#proxy-preferences)
 * [Web Service] Enhance WSDL importing feature. [Learn more](https://docs.katalon.com/katalon-studio/docs/import-soap-requests-from-wsdl.html).
-* [Web Service] Support defining content type for form-data HTTP Body of RESTful requests. [Learn more](https://docs.katalon.com/katalon-studio/docs/restful.html#request-body)
+* [Web Service] Support defining a content type for form-data HTTP Body of RESTful requests. [Learn more](https://docs.katalon.com/katalon-studio/docs/restful.html#request-body)
 * Downgrade the MySQL Connector/J, the official JDBC driver for MySQL, from 8.0.17 to 8.0.15
-* Upgrade the Mitrosoft JDBC Driver 6.2 for SQL Server
+* Upgrade the Microsoft JDBC Driver 6.2 for SQL Server
 * Enhance GUI of the following components: Image-based Testing in Test Explorer, Katalon TestOps (Beta) Integration dialog, Activation dialog, and CAPTCHA error in the Activation dialog
 
 ### Fixes
