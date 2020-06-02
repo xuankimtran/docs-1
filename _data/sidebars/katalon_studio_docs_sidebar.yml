@@ -885,8 +885,6 @@ items:
         tree:
           - title: "Katalon API Keys"
             url: /katalon-studio/docs/katalon-apikey-70.html 
-          - title: "Katalon TestOps Integration"
-            url: /katalon-studio/docs/katalon-analytics-beta-integration.html
           - title: "Jira Integration"
             url: /katalon-studio/docs/jira-integration.html
           - title: "Git Integration"
