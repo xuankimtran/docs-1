@@ -1,5 +1,5 @@
 ---
-title: "Configurations" 
+title: "Jira Settings" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/kt-jira-config.html 
 ---

@@ -4,32 +4,6 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/ka-integration-jira.html 
 description: 
 ---
-## Overview
-
-Katalon TestOps provides seamless integration with Jira that brings several benefits for team collaboration, including:
-- Quickly map Test Cases to Jira Requirements or Test Runs to Jira Defects.
-- Easily view details of Jira issues on one click from Katalon TestOps.
-- Map executions to Releases for better management.
-- Easily see the Test Results for each release in Jira.
-
-## Configure in Jira and TestOps
-
-Please refer to [this document](https://docs.katalon.com/katalon-analytics/docs/kt-jira-config.html) for more details.
-
-## Key features
-
-
-| Item        | Description                                                                                                                                                                                                                           | Representation                           |
-|--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
-| Releases     | You can populate Jira releases or create your own releases in TestOps. This helps you better manage the progress of your projects.                                                          | Releases in Jira <br> Releases in TestOps     |
-| Requirements | You can link to Jira stories to see whether the requirements are already covered or yet uncovered by related Test Cases. This helps you better keep track of all requirements that have been made. | Stories in Jira <br> Test Cases in TestOps    |
-| Defects      | You can map with failed test runs in TestOps with Jira bugs to track the performance of your executions.                                                                                       | Bugs in Jira <br> Failed Test Runs in TestOps |
-
-### Working with Releases
-
-You can [populate Jira issues](https://docs.katalon.com/katalon-analytics/docs/kt-jira-release.html) or [create a new release](https://docs.katalon.com/katalon-analytics/docs/release.html) and map executions to the release.
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/release/release-list.png" width="" height="">
 
 ### Mapping Test Cases to Jira Requirements
 

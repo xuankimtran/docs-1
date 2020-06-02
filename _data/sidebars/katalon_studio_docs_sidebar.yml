@@ -1075,23 +1075,23 @@ items:
             url: /katalon-store/docs/publisher/manage-published-plugins.html
   - title: "Katalon TestOps (Beta)"
     tree:
-      - title: "Get Started"
-        tree:
-          - title: "Overview"
-            url: /katalon-analytics/docs/overview.html
-          - title: "Access Katalon TestOps"
-            url: /katalon-analytics/docs/getting-started.html
-          - title: "Set up Organizations"
-            url: /katalon-analytics/docs/setup-org-team-project.html
-          - title: "Set up Teams and Projects"
-            url: /katalon-analytics/docs/setup-team.html
-          - title: "API Keys"
-            url: /katalon-analytics/docs/ka-api-key.html
+      - title: "Overview"
+        url: /katalon-analytics/docs/overview.html
+      - title: "Access Katalon TestOps"
+        url: /katalon-analytics/docs/getting-started.html
+      - title: "Set up Organizations"
+        url: /katalon-analytics/docs/setup-org-team-project.html
+      - title: "Set up Teams and Projects"
+        url: /katalon-analytics/docs/setup-team.html
+      - title: "API Keys"
+        url: /katalon-analytics/docs/ka-api-key.html
       - title: "TestOps Center"
         tree:
           - title: "Overview"
             url: /katalon-analytics/docs/TO-center-overview.html
-          - title: "Test Results and Monitoring"
+          - title: "Jira Settings"
+            url: /katalon-analytics/docs/kt-jira-config.html
+          - title: "Executions"
             tree:
              - title: "Integration with Katalon Studio"
                url: /katalon-analytics/docs/integration-with-katalon-studio.html
@@ -1099,34 +1099,14 @@ items:
                url: /katalon-analytics/docs/project-management-import-KS.html
              - title: "Upload Test Results using Command Line"
                url: /katalon-analytics/docs/project-management-import-cli.html
-             - title: "Delete a project or a test execution"
-               url: /katalon-analytics/docs/project-management-delete.html
              - title: "Compare Test Results"
                url: /katalon-analytics/docs/compare-test-results.html
-             - title: "Delete a Project or a Test Execution"
-               url: /katalon-analytics/docs/project-management-delete.html
-             - title: "Working with Releases"
-               url: /katalon-analytics/docs/release.html
-          - title: "Reports and Analytics"
-            tree: 
-             - title: "View Reports"
-               url: /katalon-analytics/docs/project-management-view-reports.html
-             - title: "View Test Execution, Test Suite and Test Case Details"
-               url: /katalon-analytics/docs/project-management-view-details.html
-             - title: "Filter and Sort"
-               url: /katalon-analytics/docs/project-management-filter-and-sort.html
-             - title: "Task Management"
-               url: /katalon-analytics/docs/project-management-task.html
-          - title: "Integration with Jira"
-            tree:
-             - title: "Overview"
-               url: /katalon-analytics/docs/ka-integration-jira.html
-             - title: "Configurations"
-               url: /katalon-analytics/docs/kt-jira-config.html
-             - title: "Working with Jira Issues"
-               url: /katalon-analytics/docs/kt-jira-issue.html
-             - title: "Working with Jira Releases"
-               url: /katalon-analytics/docs/kt-jira-release.html
+          - title: "Releases"
+            url: /katalon-analytics/docs/kt-jira-release.html
+          - title: "Requirements and Defects"
+            url: /katalon-analytics/docs/ka-integration-jira.html
+          - title: "Task Management"
+            url: /katalon-analytics/docs/project-management-task.html
       - title: "TestOps CI"
         tree: 
           - title: "Overview"
@@ -1157,6 +1137,8 @@ items:
             url: /katalon-analytics/docs/ka-integration-jenkins.html
       - title: "Configure Notification Emails"
         url: /katalon-analytics/docs/kt-noti-email.html
+      - title: "Delete data"
+        url: /katalon-analytics/docs/project-management-delete.html
       - title: "Katalon TestOps OnPremise"
         url: /katalon-analytics/docs/ktop.html
   - title: "Katalon Recorder"
