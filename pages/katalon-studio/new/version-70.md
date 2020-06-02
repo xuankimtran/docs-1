@@ -51,9 +51,9 @@ description: Release note 7.x
 * [Katalon Runtime Engine] Improve execution log in CLI mode by printing out applied proxy configurations
 * Improve Proxy Settings with two separate types, including **Authentication** and **System** proxies. [Learn more](https://docs.katalon.com/katalon-studio/docs/katalon-studio-preferences.html#proxy-preferences)
 * [Web Service] Enhance WSDL importing feature. [Learn more](https://docs.katalon.com/katalon-studio/docs/import-soap-requests-from-wsdl.html).
-* [Web Service] Support defining content type for form-data HTTP Body of RESTful requests. [Learn more](https://docs.katalon.com/katalon-studio/docs/restful.html#request-body)
+* [Web Service] Support defining a content type for form-data HTTP Body of RESTful requests. [Learn more](https://docs.katalon.com/katalon-studio/docs/restful.html#request-body)
 * Downgrade the MySQL Connector/J, the official JDBC driver for MySQL, from 8.0.17 to 8.0.15
-* Upgrade the Mitrosoft JDBC Driver 6.2 for SQL Server
+* Upgrade the Microsoft JDBC Driver 6.2 for SQL Server
 * Enhance GUI of the following components: Image-based Testing in Test Explorer, Katalon TestOps (Beta) Integration dialog, Activation dialog, and CAPTCHA error in the Activation dialog
 
 ### Fixes

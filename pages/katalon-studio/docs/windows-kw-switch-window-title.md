@@ -24,7 +24,7 @@ permalink: katalon-studio/docs/windows-kw-switch-window-title.html
   * Name: flowControl
     * Description: Used to control the step if the step failed.\
         STOP_ON_FAILURE: throws a StepFailedException if the step failed (default).\
-        CONTINUE_ON_FAILURE: continue the test if the test failed but the test result is still failed.\
+        CONTINUE_ON_FAILURE: continue the test if the test failed, but the test result is still failed.\
         OPTIONAL: continue the test and ignore the test result.
     * Parameter Type: FailureHandling
     * Mandatory: optional

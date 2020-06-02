@@ -28,30 +28,30 @@ description:
 ---
 ## Execute a Test Case
 
-Katalon Studio allows you to run the entire test suite, or an individual test case. Before executing a test case or a test suite, keep in mind the [supported execution environments](/display/KD/Supported+Environments) by Katalon Studio.
+Katalon Studio allows you to run the entire test suite or an individual test case. Before executing a test case or a test suite, keep in mind the [supported execution environments](/display/KD/Supported+Environments) by Katalon Studio.
 
-Open a test case/test suite, then select the environment to run the test case from **Run** command of the main toolbar. You can also [execute the test case using console mode](/display/KD/Console+Mode+Execution).
+Open a test case/test suite, and select the environment to run the test case from **Run** command of the main toolbar. You can also [execute the test case using console mode](/display/KD/Console+Mode+Execution).
 
-> If you simply click on the **Run** button, the test case will be executed using the default browser defined in [Execution Settings](/display/KD/Execution+Settings).
+> If you click on the **Run** button, the test case will be executed using the default browser defined in [Execution Settings](/display/KD/Execution+Settings).
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/run.png" width=320>
 
 ### Test Environments
 
-* **Browsers**: Simply select to execute your test on one of the supported browsers (Chrome, Firefox, IE, Safari, Edge)
-* **Mobile Browsers**: Simply select to execute your test on one of the supported devices (Android, iOS)
+* **Browsers**: Select to execute your test on one of the supported browsers (Chrome, Firefox, IE, Safari, Edge)
+* **Mobile Browsers**: Select to execute your test on one of the supported devices (Android, iOS)
 * **Mobile**: Before executing your test, check if you have set up the environment for mobile testing for <a href="/display/KD/Mobile+on+Windows">Windows</a> or for <a href="/display/KD/Mobile+on+macOS">macOS</a>. Select your device among those listed in Katalon Studio.
    
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/image2018-1-26-183A543A41.png">
 
    > Troubleshooting
    >
-   > If there is no device listed, please make sure the Developer Mode on the phone is turned on, try to unplug and reconnect several times until you are prompted for accepting/trusting this device.
+   > If there is no device listed, please make sure the Developer Mode on the phone is turned on, try to unplug, and reconnect several times until you are prompted to accept/trust this device.
    >
    > <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/image2018-8-2-153A313A52.png">
 
-* **Remote**: Make sure you have set up default configuration for the remote environment in project settings. Refer to&nbsp;<a href="/display/KD/Introduction+to+Desired+Capabilities">Introduction to Desired Capabilities</a>&nbsp;for more details.
-* **Custom**: Make sure you have set up default configuration for the remote environment in project settings. Refer to&nbsp;<a class="external-link" href="/x/cgFO#ExecutionSettings-CustomExecution" rel="nofollow">Custom Execution</a>&nbsp;for more details. When you have set up your custom environment, simply select it from the drop-down list.
+* **Remote**: Make sure you have set up a default configuration for the remote environment in project settings. Refer to&nbsp;<a href="/display/KD/Introduction+to+Desired+Capabilities">Introduction to Desired Capabilities</a>&nbsp;for more details.
+* **Custom**: Make sure you have set up a default configuration for the remote environment in project settings. Refer to&nbsp;<a class="external-link" href="/x/cgFO#ExecutionSettings-CustomExecution" rel="nofollow">Custom Execution</a>&nbsp;for more details. When you have set up your custom environment, select it from the drop-down list.
 
 ### Job Progress
 
@@ -90,19 +90,20 @@ To save your precious time from tedious repetitive re-running all unnecessary st
 
 With this feature, you can resume the existing execution quickly. Katalon Studio currently supports **Run from here** with **Chrome, Firefox, and Edge Chromium** (Edge Chromium is supported from version 7.3.0+) only. To use it, from the [Manual view](/display/KD/Manual+View) of a test case:
 
-1. Start a browser with the `Open Browser` step or you must have a currently running browser
+1. Start a browser with the `Open Browser` step, or you must have a currently running browser
 2. Make sure this browser's session is NOT terminated when the execution finishes (Go to **Project/Settings/Execution** and uncheck the **Terminate...** options in **Post-Execution Options** based on your testing needs)
+   
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/post-execution.png" width="" height="">
 
 3. In the Manual view of the test case, right-click on a step, select **Run from here** and select one of the **currently running** browser instances to execute your test.
 
-   > If there is no running browser instances that are previously launched in Katalon Studio, **Run from here...** is disabled.
+   > If there are no running browser instances that are previously launched in Katalon Studio, **Run from here** is disabled.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/debug-from-here.png" width="684" height="">
 
 ### Debug: Enable/Disable steps
 
-Katalon Studio also allows you to enable/disable one or more test steps before executing the test case to skip unwanted steps during execution. You can use the provided keyboard shortcuts to perform the actions.
+Katalon Studio allows you to enable/disable one or more test steps before executing the test case to skip unwanted steps during execution. You can use the provided keyboard shortcuts to perform the actions.
 
 * For Windows:  **Ctrl+D** (disable) and **Ctrl+E** (enable) on selected steps.
 * For macOS: **command+/** (disable) and **option+command+/**
@@ -129,7 +130,7 @@ The Debug mode is designed to make debugging easy to use, allowing investigating
    
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/confirm-perspective.png" width=514 >
 
-5. The **Debug** perspective provides convenient options for debugging purpose. You can:
+5. The **Debug** perspective provides convenient options for debugging purposes. You can:
 
    * Navigate execution using commands from the debug toolbar
    
@@ -143,10 +144,10 @@ The Debug mode is designed to make debugging easy to use, allowing investigating
    |  ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/Suspend-debugging.png) | Suspend debugging |
    |  ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/Terminate-debugging.png) | Terminate debugging |
    |  ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/Disconnect.png) | Disconnect |
-   |  ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/Step-into-current-code-block.png) | Step into current code block |
-   |  ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/Step-over-current-code-block.png) | Step over current code block |
-   |  ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/Return-from-current-code-block.png) | Return from current code block |
-   |  ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/Run-to-specific-line.png) | Run to specific line |
+   |  ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/Step-into-current-code-block.png) | Step into the current code block |
+   |  ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/Step-over-current-code-block.png) | Step over the current code block |
+   |  ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/Return-from-current-code-block.png) | Return from the current code block |
+   |  ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/Run-to-specific-line.png) | Run to a specific line |
 
    * Track values of variables using Watch utilities.**
    
@@ -156,15 +157,15 @@ The Debug mode is designed to make debugging easy to use, allowing investigating
 
    | View | Description |
    | --- | --- |
-   | Variables | You can view all variables associated with the current debugged action using Variables View which is similar to Variables View in Eclipse. Refer to this [guide](http://help.eclipse.org/luna/index.jsp?topic=%2Forg.eclipse.jdt.doc.user%2Freference%2Fviews%2Fexpressions%2Fref-expressions_view.htm) for more details. |
-   | Breakpoints | You can view all breakpoints using Breakpoints View which is similar to Breakpoints View in Eclipse. Refer to this [guide](http://help.eclipse.org/luna/index.jsp?topic=%2Forg.eclipse.jdt.doc.user%2Freference%2Fviews%2Fexpressions%2Fref-expressions_view.htm) for more details. |
-   | Expressions | You can inspect data using Expressions View which is similar to Expressions View in Eclipse. Refer to this [guide](http://help.eclipse.org/luna/index.jsp?topic=%2Forg.eclipse.jdt.doc.user%2Freference%2Fviews%2Fexpressions%2Fref-expressions_view.htm) for more details. |
+   | Variables | You can view all variables associated with the current debugged action using Variables View, which is similar to Variables View in Eclipse. Refer to this [guide](http://help.eclipse.org/luna/index.jsp?topic=%2Forg.eclipse.jdt.doc.user%2Freference%2Fviews%2Fexpressions%2Fref-expressions_view.htm) for more details. |
+   | Breakpoints | You can view all breakpoints using Breakpoints View, which is similar to Breakpoints View in Eclipse. Refer to this [guide](http://help.eclipse.org/luna/index.jsp?topic=%2Forg.eclipse.jdt.doc.user%2Freference%2Fviews%2Fexpressions%2Fref-expressions_view.htm) for more details. |
+   | Expressions | You can inspect data using Expressions View, which is similar to Expressions View in Eclipse. Refer to this [guide](http://help.eclipse.org/luna/index.jsp?topic=%2Forg.eclipse.jdt.doc.user%2Freference%2Fviews%2Fexpressions%2Fref-expressions_view.htm) for more details. |
 
 ### Debug from here
 
 From version **7.5.5**, Katalon Studio provides **Debug from here** with **Chrome, Firefox, and Edge Chromium**. To use it, do as follows:
 
-1. Start a browser with the `Open Browser` step or you must have a currently running browser
+1. Start a browser with the `Open Browser` step, or you must have a currently running browser
 2. Make sure this browser's session is NOT terminated when the execution finishes (Go to **Project/Settings/Execution** and uncheck the **Terminate...** options in **Post-Execution Options** based on your testing needs)
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/post-execution.png" width="" height="">
@@ -175,7 +176,7 @@ From version **7.5.5**, Katalon Studio provides **Debug from here** with **Chrom
 
 4. Switch to the test case's **Manual** view, right-click on a step, select **Debug from here** and select one of the **currently running** browser instances to execute your test.
 
-   > If there is no running browser instances that are previously launched in Katalon Studio, **Run from here...** is disabled.
+   > If there are no running browser instances that are previously launched in Katalon Studio, **Run from here...** is disabled.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/debug-from-here.png" width="666" height="">
 
