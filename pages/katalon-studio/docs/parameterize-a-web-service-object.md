@@ -24,10 +24,7 @@ Query parameters can be added to a REST request's URL to tailor and filter the
 
 > Available for both **RESTful** and **SOAP** Web Service requests
 
-Katalon Studio provides the **Variables** section with both manual and scripting editors. By using variables in a request object, you can hanlde dynamic values of an object's properties and have more control over them.
-
-You can add a new variable and declare its properties in the **Variables** tab. In order to call a variable in a Web Service object, use the **${variable_name}** syntax as a place holder in any of the supported locations. The values of the pre-defined variables are passed to their place holders respectively during runtime.
-This whole utility is called parameterization and the approach is the same as [parameterizing a WebUI object](https://docs.katalon.com/katalon-studio/docs/manage-web-test-object.html#parameterize-web-test-objects).
+Katalon Studio provides the **Variables** section with both manual and scripting editors. By using variables in a request object, you can hanlde dynamic values of an object's properties and have more control over them. You can add a new variable and declare its properties in the **Variables** tab. In order to call a variable in a Web Service object, use the **${variable_name}** syntax as a place holder in any of the supported locations. The values of the pre-defined variables are passed to their place holders respectively during runtime. This whole utility is called parameterization and the approach is the same as [parameterizing a WebUI object](https://docs.katalon.com/katalon-studio/docs/manage-web-test-object.html#parameterize-web-test-objects).
 
 In the manual view of a test case, when you add a request object, the pre-defined variables are added **automatically**; hence, you don't need to define them again.
 
