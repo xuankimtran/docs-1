@@ -176,7 +176,7 @@ From version **7.5.5**, Katalon Studio provides **Debug from here** with **Chrom
 
 4. Switch to the test case's **Manual** view, right-click on a step, select **Debug from here** and select one of the **currently running** browser instances to execute your test.
 
-   > If there are no running browser instances that are previously launched in Katalon Studio, **Run from here...** is disabled.
+   > If there are no running browser instances that are previously launched in Katalon Studio, **Debug from here...** is disabled.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/debug-from-here.png" width="666" height="">
 
