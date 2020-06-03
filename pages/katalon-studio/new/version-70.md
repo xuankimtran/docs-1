@@ -15,7 +15,7 @@ redirect_from:
 description: Release note 7.x
 ---
 
-## Pre-release - Version 7.5.5
+## Version 7.5.5
 
 ### New features
 
@@ -23,7 +23,7 @@ description: Release note 7.x
 * [Web Service Testing] Support parameterizing a SOAP request's service endpoint. [Learn more](https://docs.katalon.com/katalon-studio/docs/parameterize-a-web-service-object.html#for-soap-based-request)
 * [Web Service Testing] Support defining body content of RESTful API requests with methods other than POST/PUT/PATCH/DELETE
 
-### Enhancements
+### Improvements
 
 * [Custom Keywords] Organize Custom Keywords in an alphabetical order in Keyword Browser and support categorizing them with `keywordObject`. [Learn more](https://docs.katalon.com/katalon-studio/docs/introduction-to-custom-keywords.html#create-a-custom-keyword)
 * Improve Katalon Studio's performance of checking/unchecking test folders containing more than 50 Test Cases
@@ -35,7 +35,7 @@ description: Release note 7.x
 * Bug: [Mobile] NullPointerException exception thrown by the `startExistingApplication` keyword when running on a Sauce Labs device
 * Bug: [Mobile] Unable to capture objects using Spy Mobile
 
-## Official release - Version 7.5.0 - 7.5.2
+## Version 7.5.0 - 7.5.2
 
 ### New features
 
