@@ -1,5 +1,5 @@
 ---
-title: "Map Test Runs to Jira Bugs" 
+title: "Defects" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/ka-defects.html 
 description: 
@@ -10,7 +10,7 @@ description:
 
 - You have configure Jira integration. [Learn more](https://docs.katalon.com/katalon-analytics/docs/kt-jira-config.html)
 
-## Map Test Runs to Jira Bugs
+## Map Test Runs to Defects
 
 To  map a test run to a Jira bug, go to **Executions** > Select a test run by clicking on its ID.
 
@@ -18,10 +18,11 @@ Enter the Jira issue you need to map with a test run in TestOps. The defect has 
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/ka-integration-jira/test-run-testops.png" width="" height="">
 
+You can view Test Runs linked to a Defect on Jira.
+
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/ka-integration-jira/linked-test-run.png" width="" height="">
 
 > **Quick tips**: You can Jira add-on to quickly map Test Runs to Jira Bugs directly in Jira. [Learn more](https://docs.katalon.com/katalon-analytics/docs/kt-jira-issue.html)
-
 
 ## View Defects in Katalon TestOps
 

@@ -1,5 +1,5 @@
 ---
-title: "Working with Jira Releases" 
+title: "Releases" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/kt-jira-release.html
 redirect_from:
@@ -40,7 +40,7 @@ To view details, click on the **Passed/Failed** labels.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/release/release-details.png" width="" height="">
 
-## Link to a Jira release
+## Link a TestOps release to a Jira release
 
 You can either create release directly in Katalon TestOps or populate existing releases from Jira using the **Create Release**, or **Populate Jira Releases** button respectively.
 

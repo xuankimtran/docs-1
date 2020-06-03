@@ -1,5 +1,5 @@
 ---
-title: "Map Test Cases to Jira Issues" 
+title: "Requirements" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/ka-integration-jira.html 
 description: 
@@ -10,12 +10,13 @@ description:
 
 - You have configure Jira integration. [Learn more](https://docs.katalon.com/katalon-analytics/docs/kt-jira-config.html)
 
-## Map Test Cases to Jira Issues
+## Map Test Cases to Requirements
 
 In the **Test Cases** section, select a test case and enter the Jira issue you need to map with a Jira issues.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/ka-integration-jira/requirements-testops.png" width="" height="">
 
+You can view Test Cases linked to a Requirement on Jira.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/ka-integration-jira/linked-test-case.png" width="" height="">
 
