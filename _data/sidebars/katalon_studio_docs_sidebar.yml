@@ -1091,6 +1091,8 @@ items:
             url: /katalon-analytics/docs/kt-jira-config.html
           - title: "Executions"
             tree:
+             - title: "BDD Settings"
+               url: /katalon-analytics/docs/bdd-settings.html
              - title: "Integration with Katalon Studio"
                url: /katalon-analytics/docs/integration-with-katalon-studio.html
              - title: "Upload Test Results from Katalon Studio"
@@ -1101,8 +1103,10 @@ items:
                url: /katalon-analytics/docs/compare-test-results.html
           - title: "Releases"
             url: /katalon-analytics/docs/kt-jira-release.html
-          - title: "Requirements and Defects"
+          - title: "Requirements"
             url: /katalon-analytics/docs/ka-integration-jira.html
+          - title: "Defects"
+            url: /katalon-analytics/docs/ka-defects.html
           - title: "Task Management"
             url: /katalon-analytics/docs/project-management-task.html
       - title: "TestOps CI"
