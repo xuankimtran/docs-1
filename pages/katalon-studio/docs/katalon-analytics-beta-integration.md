@@ -1,7 +1,7 @@
 ---
 title: "Katalon TestOps Integration" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/katalon-analytics-beta-integration.html 
+permalink: katalon-analytics/docs/integration-with-katalon-studio.html
 redirect_from:
     - "/display/KD/Katalon+Analytics+%28Beta%29+Integration/"
     - "/display/KD/Katalon%20Analytics%20%28Beta%29%20Integration/"
@@ -13,6 +13,7 @@ redirect_from:
     - "/katalon-analytics/docs/integration-with-katalon-studio.html"
     - "/katalon-analytics/docs/ka-integration-katalon-studio.html"
     - "/x/mw3R/"
+    - "/katalon-studio/docs/katalon-analytics-beta-integration.html"
 ---
 Katalon TestOps (Beta) is an application that provides an in-depth view of test execution reports through powerful visualization including charts, graphs, and metrics. Currently, Katalon TestOps supports integration with Katalon Studio for better test report management.
 
