@@ -1083,6 +1083,8 @@ items:
         url: /katalon-analytics/docs/setup-team.html
       - title: "API Keys"
         url: /katalon-analytics/docs/ka-api-key.html
+      - title: "Integration with Katalon Studio"
+        url: /katalon-analytics/docs/integration-with-katalon-studio.html
       - title: "TestOps Center"
         tree:
           - title: "Overview"
@@ -1091,8 +1093,6 @@ items:
             url: /katalon-analytics/docs/kt-jira-config.html
           - title: "Executions"
             tree:
-             - title: "Integration with Katalon Studio"
-               url: /katalon-analytics/docs/integration-with-katalon-studio.html
              - title: "Upload Test Results from Katalon Studio"
                url: /katalon-analytics/docs/project-management-import-KS.html
              - title: "Upload Test Results using Command Line"
