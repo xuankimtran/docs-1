@@ -1,5 +1,5 @@
 ---
-title: "Create a Test Plan"
+title: "Create and Run a Test Plan"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/create-plan.html 
 description: 

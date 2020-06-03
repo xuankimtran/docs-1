@@ -1127,12 +1127,10 @@ items:
                 url: /katalon-analytics/docs/git-test-project.html
           - title: "Remote Execution Plan"
             tree:
-              - title: "Create a Test Plan"
+              - title: "Create and Run a Test Plan"
                 url: /katalon-analytics/docs/create-plan.html
-              - title: "Schedule Remote Executions"
+              - title: "Schedule a Test Plan"
                 url: /katalon-analytics/docs/kt-scheduler.html
-              - title: "Execute Scheduled Tests"
-                url: /katalon-analytics/docs/grid-local-agents.html
           - title: "Integration with Jenkins"
             url: /katalon-analytics/docs/ka-integration-jenkins.html
       - title: "Configure Notification Emails"
