@@ -1103,8 +1103,6 @@ items:
             url: /katalon-analytics/docs/kt-jira-release.html
           - title: "Requirements and Defects"
             url: /katalon-analytics/docs/ka-integration-jira.html
-          - title: "Task Management"
-            url: /katalon-analytics/docs/project-management-task.html
       - title: "TestOps CI"
         tree: 
           - title: "Overview"
