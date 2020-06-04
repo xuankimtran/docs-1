@@ -1135,14 +1135,14 @@ items:
             url: /katalon-analytics/docs/ka-integration-jenkins.html
       - title: "Configure Notification Emails"
         url: /katalon-analytics/docs/kt-noti-email.html
-      - title: "Advanced Settings"
+      - title: "Advanced Topics"
         tree:
           - title: "IP Address Restrictions"
             url: /katalon-analytics/docs/ip-settings.html
-      - title: "Delete data"
-        url: /katalon-analytics/docs/project-management-delete.html
-      - title: "Katalon TestOps OnPremise"
-        url: /katalon-analytics/docs/ktop.html
+          - title: "Delete data"
+            url: /katalon-analytics/docs/project-management-delete.html
+          - title: "Katalon TestOps OnPremise"
+            url: /katalon-analytics/docs/ktop.html
   - title: "Katalon Recorder"
     tree:
       - title: "Overview"
