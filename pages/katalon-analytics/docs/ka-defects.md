@@ -4,6 +4,8 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/ka-defects.html 
 description: 
 ---
+Defects are linked with Jira issues such as Bugs and can be viewed in Katalon TestOps.
+
 ## Prerequisites
 
 - You have installed [BBD Add-on for Jira](https://marketplace.atlassian.com/apps/1217501/katalon-bdd-test-automation-for-jira?hosting=cloud&tab=overview).
@@ -18,11 +20,13 @@ Enter the Jira issue you need to map with a test run in TestOps. The defect has 
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/ka-integration-jira/test-run-testops.png" width="" height="">
 
-You can view Test Runs linked to a Defect on Jira.
+> **Quick tips**: You can use the Katalon TestOps browser extension to quickly map Test Runs to Jira Bugs directly in Jira. [Learn more](https://docs.katalon.com/katalon-analytics/docs/kt-jira-issue.html)
+
+## View Linked Test Runs in Jira
+
+To view test runs you have mapped in Jira, go to your Jira issue details and click on **Linked Test Runs** section.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/ka-integration-jira/linked-test-run.png" width="" height="">
-
-> **Quick tips**: You can Jira add-on to quickly map Test Runs to Jira Bugs directly in Jira. [Learn more](https://docs.katalon.com/katalon-analytics/docs/kt-jira-issue.html)
 
 ## View Defects in Katalon TestOps
 
