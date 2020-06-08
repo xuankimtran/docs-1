@@ -217,8 +217,12 @@ items:
                 url: /katalon-studio/docs/introduction-to-web-testing.html
               - title: "Creating test case using Record & Playback"
                 url: /katalon-studio/docs/create_test_case_using_record_playback.html
-              - title: "Web Test Object"
-                url: /katalon-studio/docs/manage-web-test-object.html
+              - title: "Web Test Objects"
+                tree:
+                  - title: "Manage Web Test Objects"
+                    url: /katalon-studio/docs/manage-web-test-object.html
+                  - title: "Parameterize Web Test Objects"
+                    url: /katalon-studio/docs/parameterize-web-objects.html
               - title: "Web Record and Spy Utilities"
                 tree:
                   - title: "Record Web Utility"
@@ -243,9 +247,9 @@ items:
                 url: /katalon-studio/docs/locators_object_identification.html
               - title: "Testing mobile apps using Katalon Studio and Kobiton’s cloud-based device farm"
                 url: /katalon-studio/docs/testing_mobile_apps_using_katalon_studio_kobiton.html
-              - title: "Mobile Test Object"
+              - title: "Mobile Test Objects"
                 tree:
-                  - title: "Manage Mobile Test Object"
+                  - title: "Manage Mobile Test Objects"
                     url: /katalon-studio/docs/manage-mobile-test-object.html
                   - title: "Create Mobile Test Object in Memory at Runtime"
                     url: /katalon-studio/docs/create-mobile-test-object-object-repo-in-runtime.html
