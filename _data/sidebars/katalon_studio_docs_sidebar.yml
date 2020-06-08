@@ -384,7 +384,9 @@ items:
               - title: "[WebUI] Drag And Drop By Offset"
                 url: /katalon-studio/docs/webui-drag-and-drop-by-offset.html
               - title: "[WebUI] Drag And Drop To Object"
-                url: /katalon-studio/docs/webui-drag-and-drop-to-object.html            
+                url: /katalon-studio/docs/webui-drag-and-drop-to-object.html
+              - title: "[WebUI] Enhanced Click"
+                url: /katalon-studio/docs/webui-enhanced-click.html
               - title: "[WebUI] Execute JavaScript"
                 url: /katalon-studio/docs/webui-execute-javascript.html
               - title: "[WebUI] Focus"
