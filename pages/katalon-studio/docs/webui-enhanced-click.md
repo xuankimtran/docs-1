@@ -6,6 +6,8 @@ permalink: katalon-studio/docs/webui-enhanced-click.html
 
 > Your Katalon Studio version must be **7.2.5+**.
 
+> Warning: This keyword uses Javascript click as the last fallback which may not have the same effect as an actual click on an element.
+
 ## enhancedClick
 
 * **Description**: Click on the given element using various trial-and-error methods
@@ -13,14 +15,14 @@ permalink: katalon-studio/docs/webui-enhanced-click.html
 * **Keyword syntax**: `enhancedClick(TestObject to, FailureHandling flowControl)`
 * **Parameters**:
   * Name: to
-    * Description: An object representing the drop zone. If unspecified, the drop zone is the website’s body element by default.
+    * Description: An object representing a web element
     * Parameter Type: TestObject
     * Mandatory: Required
   * Name: flowControl
     * Description: Specify failure handling schema to determine whether the execution should be allowed to continue or stop.
     * Parameter Type: FailureHandling
     * Mandatory: Optional
-* **Throws**: StepFailedException
+* **Throw**: StepFailedException
 * **Example**:
 
 ```groovy
