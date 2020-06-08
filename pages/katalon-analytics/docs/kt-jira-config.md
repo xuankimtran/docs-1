@@ -29,13 +29,13 @@ permalink: katalon-analytics/docs/kt-jira-config.html
 
 * Jira Cloud
 
-    a. Jira URL must be in the form of _Https://<site_name>.atlassian.net_.\
+    a. Jira URL must be in the form of _https://<site_name>.atlassian.net_.\
     b. Enter the email registered for your Jira Cloud account in *Username*.\
     c. Enter an Atlassian Cloud's API token in *Password*. See the instructions **[here](https://confluence.atlassian.com/cloud/api-tokens-938839638.html)**.
 
 * Jira Server
 
-    a. Jira URL must be in the form of _Http(s)://domain_ without any trailing parts e.g., _/secure_.\
+    a. Jira URL must be in the form of _http(s)://domain_ without any trailing parts e.g., _/secure_.\
     b. Use your username instead of an email in *Username*.\
     c. Enter Password.
 
