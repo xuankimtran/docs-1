@@ -1,20 +1,22 @@
 ---
-title: "How to Handle File Uploads"
+title: "Handle File Uploads in Web Testing"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/handle_file_uploads.html
 redirect_from:
     - "katalon-studio/tutorials/handle_file_uploads.html"
 description: "This tutorial will show you how to handle the file upload feature and verifying downloaded files using Katalon Studio."
 ---
-In general, we need to automate scenarios like uploading a file into the application for attaching profile pictures or documents. This tutorial demonstrates handling the file upload feature and verifying downloaded files using Katalon Studio.
 
-What is File Upload in testing?
--------------------------------
+Uploading a file is a common action for interacting with a web app. You can handle the file upload action and verify the downloaded files using Katalon Studio.
 
-The file upload widget is the input tag having attribute **type** equal to **file**. It allows us to upload all file formats (.jpg, .png, .txt…)
+## What is File Upload in testing?
 
--------------------------------
-Since Katalon Studio 6.1.5, please install [Upload File Keywords](https://store.katalon.com/product/69/UploadFile-Keywords) plugin to use this feature.
+The file upload widget is the input tag having the **type** attribute that is equal to **file**. It allows us to upload all file formats (.jpg, .png, .txt…)
+
+## To upload a file you can use
+
+* [[WebUI] Upload File](https://docs.katalon.com/katalon-studio/docs/webui-upload-file.html)
+* [[WebUI] Upload File by Drag-and-Drop](https://docs.katalon.com/katalon-studio/docs/webui-upload-file-drag-and-drop.html)
 
 <details><summary>Deprecated Content</summary>
 
