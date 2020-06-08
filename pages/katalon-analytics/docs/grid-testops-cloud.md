@@ -10,7 +10,7 @@ This article will show you how to execute your tests handily via Plan - TestOps 
 
 > **Prerequisites**:
 >
-> * You have uploaded your test project onto [Code Repo](code-repo.html).
+> * You have uploaded your test project onto [Test Projects](code-repo.html).
 
 ### To execute your test projects on TestOps Cloud
 

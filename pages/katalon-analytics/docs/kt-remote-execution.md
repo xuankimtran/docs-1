@@ -14,7 +14,7 @@ TestOps CI contains four main sections:
 
 - **Test Environments**: contains the list of current agents (Local Hosts) and other test enviroments (CircleCI and AWS EKS).
 
-- **Code Repo**: stores test projects that need to be executed remotely.
+- **Test Projects**: stores test projects that need to be executed remotely.
 
 - **Plan**: where you can [create a new plan](https://docs.katalon.com/katalon-analytics/docs/kt-scheduler.html) and [execute scheduled plan](https://docs.katalon.com/katalon-analytics/docs/grid-local-agents.html).
 
@@ -30,9 +30,9 @@ See how to [Create and start an agent](https://docs.katalon.com/katalon-analytic
 
 You can view agent status or a list of other test environments you have created in **Test Environments** section.
 
-### Step 2: Upload Test Projects to Code Repo
+### Step 2: Upload Test Projects to Test Projects
 
-After having the test environment, go to **Code Repo** and upload your test projects which need to be executed remotely.
+After having the test environment, go to **Test Projects** and upload your test projects which need to be executed remotely.
 
 See how to [Upload Test Projects](https://docs.katalon.com/katalon-analytics/docs/code-repo.html) or [Create Git Test Projects](https://docs.katalon.com/katalon-analytics/docs/git-test-project.html).
 
@@ -44,7 +44,7 @@ After having the test plan, you can [Run a test plan manually](https://docs.kata
 
 ### Step 4: Schedule a remote execution plan
 
-After having an agent or test environment and a test projects created in **Code Repo**, you can schedule a test in **Plan** section.
+After having an agent or test environment and a test projects created in **Test Projects**, you can schedule a test in **Plan** section.
 
 See how to [Create a new test plan](https://docs.katalon.com/katalon-analytics/docs/kt-scheduler.html#plan-a-test) or [Schedule a plan](https://docs.katalon.com/katalon-analytics/docs/kt-scheduler.html#schedule-a-test-plan).
 

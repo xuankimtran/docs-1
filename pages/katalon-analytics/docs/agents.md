@@ -97,7 +97,7 @@ For example, `proxy=http://localhost:8080`.
 
 ## Next Steps
 
-Next, you can [upload your project code](/katalon-analytics/docs/code-repo) to Code Repo and [schedule a test](/katalon-analytics/docs/kt-scheduler).
+Next, you can [upload your project code](/katalon-analytics/docs/code-repo) to Test Projects and [schedule a test](/katalon-analytics/docs/kt-scheduler).
 
 
 

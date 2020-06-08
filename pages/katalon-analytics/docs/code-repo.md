@@ -4,9 +4,9 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/code-repo.html 
 description: 
 ---
-After downloading and configuring Agents, the next step is to create a test project in **Code Repo**. It is where you store your test projects for remote execution.
+After downloading and configuring Agents, the next step is to create a test project in **Test Projects**. It is where you store your test projects for remote execution.
 
-On Katalon TestOps, go to your **Project**, choose **TestOps CI** and select **Code Repo**. Here you can view your existing projects or create a new test project.
+On Katalon TestOps, go to your **Project**, choose **TestOps CI** and select **Test Projects**. Here you can view your existing projects or create a new test project.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/code-repo/code-repo.png)
 

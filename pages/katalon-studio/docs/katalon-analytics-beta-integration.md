@@ -86,4 +86,4 @@ Starting in **version 7.0**, on the test suite collection view, click the **Crea
 
 ### Store Katalon Studio's project code in Katalon TestOps
 
-Starting in **version 7.0**, to store your Katalon Studio's Project Code in Katalon TestOps, from any screens of your project in Katalon Studio, click <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-analytics-beta-integration/upload-project-code.png" width="28" height="20.6"> icon, select the preferred Katalon TestOps team and project to store the Katalon Studio project code, then enter a Code Repo name and click **Upload**.
+Starting in **version 7.0**, to store your Katalon Studio's Project Code in Katalon TestOps, from any screens of your project in Katalon Studio, click <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-analytics-beta-integration/upload-project-code.png" width="28" height="20.6"> icon, select the preferred Katalon TestOps team and project to store the Katalon Studio project code, then enter a Test Projects name and click **Upload**.

@@ -1121,7 +1121,7 @@ items:
                 url: /katalon-analytics/docs/circleci.html
               - title: "AWS EKS Test Environments"
                 url: /katalon-analytics/docs/aws-eks.html
-          - title: "Code Repo"
+          - title: "Test Projects"
             tree:
               - title: "Upload Test Projects"
                 url: /katalon-analytics/docs/code-repo.html

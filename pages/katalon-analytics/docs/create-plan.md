@@ -13,7 +13,7 @@ description:
 >   - [Create a CircleCI test environment](https://docs.katalon.com/katalon-analytics/docs/circleci.html); or
 >   - [Create an EKS test environemnt](https://docs.katalon.com/katalon-analytics/docs/aws-eks.html).
 >
-> * You have created a test project in **Code Repo**.
+> * You have created a test project in **Test Projects**.
 
 
 To create a new test plan, please follow the below instruction:
