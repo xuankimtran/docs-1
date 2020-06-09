@@ -5,7 +5,7 @@ permalink: katalon-analytics/docs/kt-jira-config.html
 ---
 **Prerequisites:**
 
-* The [Katalon BDD Add-on for Jira](https://docs.katalon.com/katalon-studio/docs/BDD-field-jira-cloud.html#install-and-use-katalon-bdd-custom-field-in-jira-cloud) installed 
+* The [Jira App](https://marketplace.atlassian.com/apps/1217501/katalon-bdd-test-automation-for-jira) has been installed.
 
 ## Configuration in Jira
 

@@ -8,7 +8,7 @@ Requirements are linked with Jira issues and can be viewed in Katalon TestOps.
 
 ## Prerequisites
 
-- You have installed [BBD Add-on for Jira](https://marketplace.atlassian.com/apps/1217501/katalon-bdd-test-automation-for-jira?hosting=cloud&tab=overview).
+- The [Jira App](https://marketplace.atlassian.com/apps/1217501/katalon-bdd-test-automation-for-jira) has been installed.
 
 - You have configure Jira integration. [Learn more](https://docs.katalon.com/katalon-analytics/docs/kt-jira-config.html)
 

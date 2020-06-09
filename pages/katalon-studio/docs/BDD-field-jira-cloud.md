@@ -6,11 +6,12 @@ redirect_from:
     - "/katalon-studio/docs/BDD-field-jira-cloud/"
 description: 
 ---
-## Install and Use Katalon BDD custom field in Jira Cloud
 
-A new version of the Katalon BDD Add-on for Jira Cloud which supports BDD editor is available [here](https://marketplace.atlassian.com/apps/1217501/katalon-bdd-test-automation-for-jira?hosting=cloud&tab=overview). 
+## Prerequisites
 
-### Install the Katalon BDD add-on
+- The [Jira App](https://marketplace.atlassian.com/apps/1217501/katalon-bdd-test-automation-for-jira) has been installed.
+
+## Install the Katalon BDD add-on
 
 To add the **Katalon BDD** custom field to Jira Cloud, from **Jira settings** -> Select **Apps**-> Select **Find new apps** -> Enter **“BDD Katalon”** in Filter apps-> **Get app**.
 
@@ -18,7 +19,7 @@ To add the **Katalon BDD** custom field to Jira Cloud, from **Jira settings** ->
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/BDD-field-Jira-Cloud/2-install.png)
 
-### Create the Katalon BDD custom field
+## Create the Katalon BDD custom field
 
 + From **Jira settings** -> Select **Issues** ->in FIELDS tab, select **Custom fields -> Add custom field**.
 + Select a Field Type: **_Text Field (multi-line)._** Remember to associate it with issue types you want.
@@ -30,13 +31,13 @@ To add the **Katalon BDD** custom field to Jira Cloud, from **Jira settings** ->
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/BDD-field-Jira-Cloud/4-screens.png)
 
-### Enable the Katalon add-on and custom field
+## Enable the Katalon add-on and custom field
 
 In **Project settings** -> Scroll down to the bottom then select **Katalon BDD** -> Select the field you’ve created, then Click **Add** -> Select issue types to show this field with BDD editor -> Click **Save**.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/BDD-field-Jira-Cloud/5-enable.png)
 
-### Try the BDD editor
+## Try the BDD editor
 
 In the selected issue, you need to enable the **Katalon BDD Fields**.
 
@@ -46,7 +47,7 @@ To edit content in Katalon BDD  Field, click the pencil icon and write a Gherkin
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/BDD-field-Jira-Cloud/7-gherkin.png)
 
-### View Katalon Studio Test Execution Result right on Jira
+## View Katalon Studio Test Execution Result right on Jira
 
 Once Jira is integrated with Katalon Studio and the add-on is enabled in Jira Cloud, a panel called TEST RESULT inside the issue page enables users to directly view the test result. In the new view of the issue page, just click **Test Result**. The result includes the execution status (PASSED, FAILED, INCOMPLETE, ERROR) and test artifact attachments (e.g. logs, screenshots, etc.).
 
@@ -54,7 +55,7 @@ Once Jira is integrated with Katalon Studio and the add-on is enabled in Jira Cl
 
 
 
-### Use JQL Syntax to query all issues with a particular execution status
+## Use JQL Syntax to query all issues with a particular execution status
 
 Katalon Studio's test execution status can be queried via [JQL](https://confluence.atlassian.com/jirasoftwarecloud/advanced-searching-764478330.html). The syntax is as follows:
 
