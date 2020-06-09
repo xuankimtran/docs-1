@@ -8,9 +8,9 @@ redirect_from:
 
 Katalon Studio provides a free Jira add-on to help create a seamless integration. This add-on gives you several benefits:
 
-* Adding a Gherkin custom field to help you design your test case in a consistent and concise way. The content will be populated right into your Katalon Studio automation scripts automatically.
-* Presenting the latest execution result and artifacts right inside the issue page.
-* Looking up Katalon Studio execution result status using Jira's JQL syntax.
+* Sync test cases written in Gherkin and test execution results; and query issues based on testing status.
+* Dynamic perspectives and an insightful look at your automation testing data.
+* Progress tracking for better test management.
 
 ## Jira Server
 
@@ -22,18 +22,16 @@ To install the add-on, please follow [Atlassian's instruction](https://marketpla
 
 ### Gherkin custom field
 
-
 > Only availabe for Jira Server Version
 
 This add-on adds a custom field type to Jira called Katalon Gherkin. This custom field lets you write descriptions for your test cases and stories in Gherkin syntax. Gherkin keywords such as _Given_, _When_, _Then_ will be highlighted automatically. Once imported to Katalon Studio, the content of Katalon Gherkin field will be populated into test cases description.  
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/install-and-use-katalons-jira-add-on/katalon-jira-plugin-1-field-marked.png)  
-
-  
+ 
 
 To create Katalon Gherkin custom field, please follow [Atlassian's instruction](https://confluence.atlassian.com/adminjiraserver071/project-screens-schemes-and-fields-802592517.html).
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/install-and-use-katalons-jira-add-on/field-config-marked.png)  
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/install-and-use-katalons-jira-add-on/field-config-marked.png)
 
 ## Jira Cloud
 
