@@ -3,7 +3,8 @@ title: "Jira Settings"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/kt-jira-config.html 
 ---
-**Prerequisites:**
+
+## Prerequisites
 
 * The [Jira App](https://marketplace.atlassian.com/apps/1217501/katalon-bdd-test-automation-for-jira) has been installed.
 

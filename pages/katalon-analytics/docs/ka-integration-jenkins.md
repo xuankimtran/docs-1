@@ -4,7 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/ka-integration-jenkins.html 
 description: How to integrate KT with Jenkins to execute TestOps Grid Plan
 ---
-**Prerequisites:**
+## Prerequisites
 
 * Download and install [Jenkins](https://jenkins.io/download/)
 * Start Jenkins (command : `java -jar jenkins.war`)
