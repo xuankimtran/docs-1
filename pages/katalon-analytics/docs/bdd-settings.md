@@ -1,8 +1,9 @@
 ---
 title: "Jira BDD Settings"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/bdd-settings.html
+permalink: katalon-analytics/docs/bdd-settings.html
 redirect_from:
+    - "/katalon-studio/docs/bdd-settings.html"
 ---
 
 Katalon Studio provides a free Jira add-on to help create a seamless integration. This add-on gives you several benefits:
