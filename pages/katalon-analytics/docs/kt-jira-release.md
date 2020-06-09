@@ -31,15 +31,6 @@ In your project, go to **Executions** > Click on Release icon and select the rel
 
 Your execution is now linked to the release.
 
-You can view what test cases passed or failed in their most recent executions by going to Release details page.
-
-> A test case is shown as passed if and only if all of its test runs pass in its most recent execution. A test case can run multiple times in an execution (for example, with multiple data rows).
-
-To view details, click on the **Passed/Failed** labels.
-
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/release/release-details.png" width="" height="">
-
 ## Link a TestOps release to a Jira release
 
 You can either create release directly in Katalon TestOps or populate existing releases from Jira using the **Create Release**, or **Populate Jira Releases** button respectively.
@@ -52,6 +43,18 @@ Alternatively, in Katalon TestOps, click **Create Release**, select a Jira Proje
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/jira-ka-configure/ka-create-release-2.JPG)
 
-Example of viewing release status in **Jira Cloud**:
+## Review the statuses of Test Cases in a Release
+
+You can view what test cases passed or failed in their most recent executions by going to Release details page.
+
+> A test case is shown as passed if and only if all of its test runs pass in its most recent execution. A test case can run multiple times in an execution (for example, with multiple data rows).
+
+To view details, click on the **Passed/Failed** labels.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/release/release-details.png" width="" height="">
+
+## Review the statuses of Test Cases in a Jira Release
+
+If you have linked a TestOps Release to a Jira Release, you can view the statuses of Test Cases directly in Jira.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/jira-ka-configure/jira-release-result-example.JPG)
