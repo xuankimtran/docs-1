@@ -20,16 +20,16 @@ Enter the required information and click **Create** to finish.
 
 Now your release has been created.
 
-## Map executions to a release
+## Link executions to a release
 
-You can map executions to the release you have created.
+You can link executions to the release you have created.
 
 In your project, go to **Executions** > Click on Release icon and select the release from the drop-down list.
 
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/release/map-release.png" width="" height="">
 
-Your execution is now mapped to the release.
+Your execution is now linked to the release.
 
 You can view what test cases passed or failed in their most recent executions by going to Release details page.
 
