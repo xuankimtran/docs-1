@@ -95,6 +95,6 @@ To delete an Organization, click on **Organization Settings**.
 
 In the **Settings** page, you will see **Delete this orgainzation** option. Click on the button and complete confirmation steps.
 
-> This action cannot be undone. This will permanently delete your organization, projects, licenses, and remove all team associations.
+> This action cannot be undone. This will permanently delete your organization, projects, licenses, and remove all associated teams.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/delete-org.png" width="" height="">
