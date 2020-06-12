@@ -25,13 +25,13 @@ Record
 
 ### Record a New Test Case
 
-*   Without opening any test case, click on Web Record ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-web-utility/Screen-Shot-2018-06-27-at-09.41.37.png) icon to open Web Recorder
-*   Katalon Studio default browser is Chrome and the icon is displayed in the top right corner. You can change this default browser in **Project/Settings/Execution/Default execution**. You can also click on the drop-down button to select the browser you want to use:
+* Without opening any test case, click on Web Record ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-web-utility/Screen-Shot-2018-06-27-at-09.41.37.png) icon to open Web Recorder
+* Katalon Studio default browser is Chrome and the icon is displayed in the top right corner. You can change this default browser in **Project/Settings/Execution/Default execution**. You can also click on the drop-down button to select the browser you want to use:
 
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-web-utility/browsers-record.png)
+  ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-web-utility/edge-chromium.png)
 
-    <table><thead><tr><th>Type</th><th>Description</th><th>Note</th></tr></thead><tbody><tr><td>New Browsers</td><td>Start a new browser</td><td><strong>Supported browsers:</strong><br>- Firefox<br>- Chrome<br>- Internet Explorer (only on Windows)</td></tr><tr><td>Active Browsers</td><td>Use the current browser (only Chrome)</td><td>Katalon Studio will install <a class="external-link" href="https://chrome.google.com/webstore/detail/katalon-recorder-selenium/ljdobmomdgdljniojadhoplhkpialdid" rel="nofollow">Katalon Recorder</a> as an add-on to help with recording for this type of browser<br><br><strong>Supported browsers:</strong><br>- Chrome<br>- Firefox (coming soon)</td></tr></tbody></table>
-    
+  <table><thead><tr><th>Type</th><th>Description</th><th>Note</th></tr></thead><tbody><tr><td>New Browsers</td><td>Start a new browser</td><td><strong>Supported browsers:</strong><br>- Firefox<br>- Chrome<br>- Internet Explorer (only on Windows)<br>- Microsoft Edge (Chromium) (from version 7.5.10 onwards)</td></tr><tr><td>Active Browsers</td><td>Use the current browser (only Chrome)</td><td>Katalon Studio will install <a class="external-link" href="https://chrome.google.com/webstore/detail/katalon-recorder-selenium/ljdobmomdgdljniojadhoplhkpialdid" rel="nofollow">Katalon Recorder</a> as an add-on to help with recording for this type of browser<br><br><strong>Supported browsers:</strong><br>- Chrome<br>- Firefox</td></tr></tbody></table>
+
 *   In this example, select either Chrome or Firefox from '**New Browser**' type to start recording.
     
     > *   The browser will highlight and display its correspondent Xpath when you hover the mouse on that element.\

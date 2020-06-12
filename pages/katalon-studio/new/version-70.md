@@ -15,7 +15,23 @@ redirect_from:
 description: Release note 7.x
 ---
 
-## Version 7.5.5
+## Pre-release - Version 7.5.10
+
+You can download the pre-release version of 7.5.10 [here](https://github.com/katalon-studio/katalon-studio/releases/tag/v7.5.10).
+
+### New feature
+
+* [Katalon Studio Enterprise] Support importing test scripts of Selenium IDE version 3.x. [Learn more](https://docs.katalon.com/katalon-studio/docs/import-selenium-ide.html)
+
+### Improvement
+
+* [WebUI Testing] Support Recorder and Spy with Microsoft Edge (Chromium)
+
+### Fix
+
+* Bug: [Mobile] An issue of missing mobile devices when using Custom Capabilities. Address [#275](https://github.com/katalon-studio/katalon-studio/issues/275)
+
+## Official Release - Version 7.5.5
 
 ### New features
 
