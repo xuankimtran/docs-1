@@ -2,7 +2,6 @@ com.kms.katalon.core.annotation
 com.kms.katalon.core.annotation.internal
 com.kms.katalon.core.ast
 com.kms.katalon.core.checkpoint
-com.kms.katalon.core.configuration
 com.kms.katalon.core.constants
 com.kms.katalon.core.context
 com.kms.katalon.core.context.internal
@@ -39,6 +38,8 @@ com.kms.katalon.core.setting
 com.kms.katalon.core.testcase
 com.kms.katalon.core.testdata
 com.kms.katalon.core.testdata.reader
+com.kms.katalon.core.testng.keyword
+com.kms.katalon.core.testng.keyword.internal
 com.kms.katalon.core.testobject
 com.kms.katalon.core.testobject.impl
 com.kms.katalon.core.trymonad
@@ -54,8 +55,8 @@ com.kms.katalon.core.webservice.keyword.builtin
 com.kms.katalon.core.webservice.keyword.internal
 com.kms.katalon.core.webservice.setting
 com.kms.katalon.core.webservice.support
-com.kms.katalon.core.webservice.util
 com.kms.katalon.core.webservice.verification
+com.kms.katalon.core.webservice.wsdl.support.wsdl
 com.kms.katalon.core.webui.common
 com.kms.katalon.core.webui.common.internal
 com.kms.katalon.core.webui.constants
