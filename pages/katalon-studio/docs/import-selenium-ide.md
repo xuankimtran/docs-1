@@ -22,7 +22,7 @@ This manuals shows you how to import a Selenium IDE project to a project in Kata
 1. Create or open a project
 2. From the menu bar, select **File/Import Selenium IDE Project** and browse your Selenium IDE file (a single file with a `.side` extension) to open. Please wait for the import progress to complete.
 
-   <img src="">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-selenium-ide/import.png" width=416>
 
 ## Map Selenium IDE with Katalon Studio test artifacts
 
@@ -32,20 +32,24 @@ A Selenium IDE project contains Tests, Suites, and Executing. Katalon Studio onl
 
 Under **Test Suites** in Test Explorers, Katalon Studio creates an **Imported from Selenium IDE Scripts** folder to store the imported suites. Once the import process is done, Katalon Studio open the test suites automatically.
 
-<img src="">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-selenium-ide/test-suites.png">
 
-Notes
+Notes:
 
 * If your Katalon project already has an **Imported from Selenium IDE Scripts** folder under Test Suites, the new folder should be **Imported from Selenium IDE Scripts (1)**.
 * Katalon Studio does not create an **Imported from Selenium IDE Scripts** folder under Test Suites if there is no suite in the imported Selenium IDE project.
 
 ### Selenium IDE Tests - Katalon Studio Test Cases
 
-Under **Test Cases** in Test Explorers, Katalon Studio creates an **Imported from Selenium IDE Scripts/&lt;suite name&gt;** folder to store the imported tests. An imported test case contains a set of Selenium commands recorded by Selenium IDE.
+Under **Test Cases** in Test Explorers, Katalon Studio creates an **Imported from Selenium IDE Scripts/&lt;suite name&gt;** folder to store the imported tests.
 
-<img src="">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-selenium-ide/test-cases.png">
 
-Notes
+An imported test case contains a set of Selenium commands recorded by Selenium IDE.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-selenium-ide/test.png">
+
+Notes:
 
 * Supported element locators include identifier, id, name, dom, xpath, link, css, and ui. [More details](https://www.selenium.dev/selenium/docs/api/java/com/thoughtworks/selenium/Selenium.html)
 
