@@ -15,9 +15,29 @@ redirect_from:
 description: Release note 7.x
 ---
 
-## Pre-release - Version 7.5.10
+## Version 7.6 Beta
 
-You can download the pre-release version of 7.5.10 [here](https://github.com/katalon-studio/katalon-studio/releases/tag/v7.5.10).
+You can download the Beta version of 7.6 [here](https://github.com/katalon-studio/katalon-studio/releases).
+
+### New features
+
+* [Katalon Studio Enterprise] Support setting timeout in API requests. [Learn more]()
+* [Katalon Studio Enterprise] Support configuring maximum response size in API requests. [Learn more]()
+* [Katalon Studio Enterprise] Support Self-Healing for Web testing. [Learn more]()
+* [Katalon Studio Enterprise] Support the **Retry immediately** option when a test execution fails. [Learn more]()
+* [Desktop Testing] Support new Desktop keywords, including 
+* [Mobile Testing] Fully support Mobile element selector strategies. [Learn more]()
+* [Mobile Testing] Support integrating Katalon Studio with Microsoft AppCenter Test. [Learn more]()
+* [API Testing] Support migrating RESTful request objects from SoapUI to Katalon Studio. [Learn more]()
+* Allow overriding `BrowserType` and `ExecutionProfile` of all Test Suites in a Test Suite Collection by command line. [Learn more]()
+* Support displaying description of Custom Keywords in test cases (same as built-in keywords)
+
+### Improvements
+
+* Enhance Applitools integration with upgraded libraries
+* Support updating Microsoft Edge (Chromium) driver in Katalon Studio Tools
+
+## Pre-release - Version 7.5.10
 
 ### New feature
 
