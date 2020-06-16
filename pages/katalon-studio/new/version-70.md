@@ -21,15 +21,14 @@ You can download the Beta version of 7.6 [here](https://github.com/katalon-studi
 
 ### New features
 
-* [Katalon Studio Enterprise] Support setting timeout in API requests. [Learn more]()
-* [Katalon Studio Enterprise] Support configuring maximum response size in API requests. [Learn more]()
-* [Katalon Studio Enterprise] Support Self-Healing for Web testing. [Learn more]()
-* [Katalon Studio Enterprise] Support the **Retry immediately** option when a test execution fails. [Learn more]()
-* [Desktop Testing] Support new Desktop keywords, including 
+* [Katalon Studio Enterprise] Support setting timeout and maximum response size in API test requests. [Learn more](https://docs.katalon.com/katalon-studio/docs/execution-settings.html#web-service-settings)
+* [Katalon Studio Enterprise] Support Self-Healing for Web testing. [Learn more](https://docs.katalon.com/katalon-studio/docs/self-healing.html)
+* [Katalon Studio Enterprise] Support retrying failed test execution immediately in Test Suite's execution. [Learn more](https://docs.katalon.com/katalon-studio/docs/test-suite.html#modify-execution-information)
 * [Mobile Testing] Fully support Mobile element selector strategies. [Learn more]()
-* [Mobile Testing] Support integrating Katalon Studio with Microsoft AppCenter Test. [Learn more]()
+* [Mobile Testing] Support App Center Test integration. [Learn more](https://docs.katalon.com/katalon-studio/docs/app-center.html)
 * [API Testing] Support migrating RESTful request objects from SoapUI to Katalon Studio. [Learn more]()
-* Allow overriding `BrowserType` and `ExecutionProfile` of all Test Suites in a Test Suite Collection by command line. [Learn more]()
+* [Desktop Testing] Support new Desktop keywords, including [setEncryptedText](), [getAttribute](), [verifyElementAttributeValue](), [waitForElementAttributeValue](), [verifyElementPresent](), [verifyElementNotPresent](), [waitForElementPresent](), [waitForElementNotPresent]()
+* Allow overriding `BrowserType` and `ExecutionProfile` of all Test Suites in a Test Suite Collection via command line. [Learn more](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#command-builder)
 * Support displaying description of Custom Keywords in test cases (same as built-in keywords)
 
 ### Improvements

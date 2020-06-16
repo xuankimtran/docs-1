@@ -22,9 +22,25 @@ description:
 
 ## Execution Settings
 
-Execution settings help users to set preferred behaviors for Katalon Studio during test execution. You can configure general execution preferences by accessing from the main menu: **Project > Settings > Execution**.
+Execution settings help define the desired behaviors of Katalon Studio during test execution. To access default Execution Settings of a project,from the main menu, select **Project > Settings > Execution**
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/newui.png" width="" height="">
+
+You can also configure see the following subviews:
+
+* Default Execution Settings
+* Launch Arguments
+* WebUI
+* Web Service
+
+### Default Execution Settings
+
+* **Default execution**: The default environment that Katalon Studio uses for executing test scripts.
+* **Log executed test steps**: Decide whether the logs include executed test steps or not. [Learn more](https://docs.katalon.com/katalon-studio/docs/working-with-execution-log.html#log-executed-test-steps).
+* **Default wait for element timeout (in seconds)**: The default timeout period that Katalon Studio waits for the application under test to be loaded when executing automation test.
+* **Post-Execution Options**: These options decide the actions that Katalon Studio performs after finishing test execution.
+  * Open report: Specify whether the report generated after your test suite's execution finishes is to be opened immediately.
+  * Terminate drivers: Specify when any driver remains after execution is terminated.
 
 ### Allow editing JVM parameters in Execution Settings
 
@@ -74,35 +90,36 @@ KeywordUtil.logInfo(System.getProperty("testme"))
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/hello.png" width="" height="">
 
-### Default Execution Settings
-
-* **Default execution**: The default environment that Katalon Studio uses for executing test scripts.
-
-* **Default Smart Wait**: to tell the web driver to wait for the web page to become static before any operations perform. [Learn more](https://docs.katalon.com/katalon-studio/docs/webui-smartwait.html).
-
-* **Default wait for element timeout**: The default timeout period (in seconds) that Katalon Studio waits for the application under test to be loaded when executing automation test.
-
-* **Log executed test steps**: to decide whether the logs include executed test steps or not. [Learn more](https://docs.katalon.com/katalon-studio/docs/working-with-execution-log.html#log-executed-test-steps).
-
-* **Post-Execution Options**: These options decide the actions that Katalon Studio performs after finishing test execution.
-
-  * Open report: Specify whether the report generated after your test suite's execution finishes is to be opened immediately.
-  * Terminate drivers: Specify when any driver remains after execution is terminated.
-
 ### WebUI Settings
 
-These settings decide the general behavior of Katalon Studio when executing WebUI testing.
+These settings decide Katalon Studio's behaviors when executing WebUI test in a project.
 
-* **Default wait when IE hangs**: Specify the default period of waiting that Katalon Studio should use in case IE hangs.
+* **Default Smart Wait**: Tell the web driver to wait for the web page to become static before any operations performed. [Learn more](https://docs.katalon.com/katalon-studio/docs/webui-smartwait.html).
+* **Default wait when IE hangs**: Specify Katalon Studio's default waiting time when IE hangs.
 * **Default page load timeout**:
-
-  * *Wait until the page is loaded*: Katalon Studio waits for the web page to load completely.
-  * *Wait for (in seconds)*: The default timeout period (in seconds) that Katalon Studio waits for the web page to load.
-
+  * Wait until the page is loaded: Katalon Studio waits for the web page to load completely.
+  * Wait for (in seconds): The default timeout period (in seconds) that Katalon Studio waits for the web page to load.
 * **Delay between actions**: The time for Katalon Studio to wait between test steps when executing test cases.
+  * in seconds: This option is selected by default.
+  * in milliseconds: This option is supported in Katalon version 7.3+.
 
-  * *in seconds*: This option is selected by default.
-  * *in milliseconds*: This option is supported in Katalon version 7.3+.
+### Web Service Settings
+
+The following global configurations are applied to both RESTful and SOAP requests in a project.
+
+**Requirements**
+
+* An active Katalon Studio Enterprise license
+* Katalon Studio version 7.6 onwards
+
+* **Connection Timeout in milliseconds (0=unlimited)**: The time to establish the connection with the remote server. When it is set to 0 or left empty, Katalon waits for a response forever.
+* **Socket Timeout in milliseconds (0=unlimited)**: The time waiting for data – after establishing the connection
+
+> You can set the global timeout or override the global timeout settings in a certain test request via script. [Learn more]()
+
+* **Max Response size in bytes**: The maximum number of bytes Katalon Studio renders from a response. When it is set to 0 or left empty, Katalon Studio downloads a response regardless of its size. Please note that downloading a large response may affect the application's performance.
+
+> Katalon Studio also supports setting global maximum response size or overriding the global setting in a test request via script. [Learn more]()
 
 ## Emails Settings
 
@@ -110,7 +127,7 @@ These settings decide the general behavior of Katalon Studio when executing WebU
 
 To receive summary reports via email after the execution of **Test Suite** or **Test Suite Collection**, you need to configure global settings of email in **Project/Settings/Email**.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/emails-settings/new-ui.png" width="" height="">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/emails-settings/new-ui.png">
 
 By default, Katalon Studio is configured to send all report emails for Test Suite executions, including Test Suites in a Test Suite Collection.
 
