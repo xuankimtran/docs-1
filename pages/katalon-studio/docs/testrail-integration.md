@@ -119,7 +119,7 @@ When TestRail Integration plugin is enabled, Query Provider in Dynamic Test Suit
 
 2. Prepend the dynamic test suite's name with either `R<ID>` (for overwriting an existing test run) or `S<ID>` (for generating a new test run in this suite).
 
-3. Enter the TestRail Test Run's ID in the Query box > Click **Preview** > all test cases that have been in that test runs are displayed.
+3. Enter the TestRail Test Run's ID in the Query box > Click **Preview** > Display all Katalon Studio test cases that have been mapped with the TestRail test cases of that test run.
 
     For example, to query the test cases that have been executed in Test Run R2.
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/testrail-integration/QUERY-R2.png" width="" height="">
