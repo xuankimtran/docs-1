@@ -23,8 +23,8 @@ You can download the Beta version of 7.6 [here](https://github.com/katalon-studi
 
 * [Katalon Studio Enterprise] Support setting timeout and maximum response size in API test requests. [Learn more](https://docs.katalon.com/katalon-studio/docs/execution-settings.html#web-service-settings)
 * [Katalon Studio Enterprise] Support Self-Healing for Web testing. [Learn more](https://docs.katalon.com/katalon-studio/docs/self-healing.html)
-* [Katalon Studio Enterprise] Support retrying failed test execution immediately in Test Suite's execution. [Learn more](https://docs.katalon.com/katalon-studio/docs/test-suite.html#modify-execution-information)
-* [Mobile Testing] Fully support Mobile element selector strategies. [Learn more]()
+* [Katalon Studio Enterprise] Support retrying failed test execution immediately in Test Suite's execution. [Learn more](https://docs.katalon.com/katalon-studio/docs/test-suite.html#retry)
+* [Mobile Testing] Fully support Selector Strategies. [Learn more](https://docs.katalon.com/katalon-studio/docs/locators_object_identification.html)
 * [Mobile Testing] Support App Center Test integration. [Learn more](https://docs.katalon.com/katalon-studio/docs/app-center.html)
 * [API Testing] Support migrating RESTful request objects from SoapUI to Katalon Studio. [Learn more]()
 * [Desktop Testing] Support new Desktop keywords, including [setEncryptedText](), [getAttribute](), [verifyElementAttributeValue](), [waitForElementAttributeValue](), [verifyElementPresent](), [verifyElementNotPresent](), [waitForElementPresent](), [waitForElementNotPresent]()
@@ -33,7 +33,7 @@ You can download the Beta version of 7.6 [here](https://github.com/katalon-studi
 
 ### Improvements
 
-* Enhance Applitools integration with upgraded libraries
+* [Katalon Studio Enteprise] Applitools Integration plugin becomes a built-in feature with its libraries updated to the latest versions
 * Support updating Microsoft Edge (Chromium) driver in Katalon Studio Tools
 
 ## Pre-release - Version 7.5.10
