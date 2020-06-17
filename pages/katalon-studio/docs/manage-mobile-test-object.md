@@ -3,7 +3,18 @@ title: "Manage Mobile Test Object"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/manage-mobile-test-object.html 
 ---
+
+In version 7.6, Katalon Studio fully support [selector strategies supported by Appium except Android Data Matcher](https://docs.katalon.com/katalon-studio/docs/locators_object_identification.html).
+
 ## Create a Test Object
+
+**From 7.6 onwards**
+
+Right-click on **Object Repository** and select **New > Mobile Object**
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-selector-strategies/create-new-mobile-object.png">
+
+**Before 7.6**
 
 1. Select **File > New > Test Object** from the main menu. The **New Test Object** dialog will be displayed.  
 
@@ -16,9 +27,9 @@ permalink: katalon-studio/docs/manage-mobile-test-object.html
 1. In the **Object's Properties** panel, click **Add**.  
 2. The **Add property** dialog will be displayed.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/manage-mobile-test-object./object-properties.png" width="757" height="275">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/manage-mobile-test-object./object-properties.png" width="757" height="275">
 
-where:
+   where:
 
 * **Name**: The name of the object property. The drop-down list provides some common options for your selection (XPath, CSS, class, id, title) or you can enter manually.
 * **Match condition**: The condition is used for searching for the "_actual_" object in the AUT when executing automation tests.
