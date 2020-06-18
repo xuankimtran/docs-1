@@ -10,15 +10,15 @@ redirect_from:
 
 Before version 7.6, Katalon Studio only supports the Attributes Selection Method that allows selecting an object’s properties to generate its selector. The generated selector can be XPATH selector or in some cases, Android UiSelector. From 7.6, Katalon Studio fully support [selector strategies supported by Appium except Android Data Matcher](http://appium.io/docs/en/commands/element/find-elements/index.html#selector-strategies), including:
 
-1. **Accessibility ID**
+1. **Accessibility ID**: it is the `accessibility-id` attribute of an object for XCUITest, and the `content-desc` attribute of an object for Android .
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-selector-strategies/accessibility_id.png" width="369">
 
-2. **Class name**
+2. **Class name**: for IOS it is the full name of the XCUI element and starts with XCUIElementType; for Android it is the full name of the UIAutomator2 class (e.g.: android.widget.TextView)
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-selector-strategies/class_name.png" width=358>
 
-3. **ID**
+3. **ID**: native element identifier: `resource-id` for android; `name` for iOS.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-selector-strategies/id.png" width=371>
 
@@ -32,7 +32,7 @@ Before version 7.6, Katalon Studio only supports the Attributes Selection Method
 
 6. **Image**: Locate an object by matching its image with a Base64 file
 
-   Prerequisite:
+   Prerequisites:
 
    * Set up [Image-based Testing for Mobile](https://docs.katalon.com/katalon-studio/docs/mobile-image-based-testing.html)
    * An active Katalon Studio Enterprise license
@@ -53,13 +53,13 @@ Before version 7.6, Katalon Studio only supports the Attributes Selection Method
 
 9. **iOS Predicate String**
 
-   > [Learn more](http://appium.io/docs/en/writing-running-appium/ios/ios-predicate/)
+   > [Locate an object by iOS Predicate String](http://appium.io/docs/en/writing-running-appium/ios/ios-predicate/)
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-selector-strategies/ios_predicate_string.png" width=368>
 
 10. **iOS Class Chain**
 
-   > [Learn more](https://github.com/facebookarchive/WebDriverAgent/wiki/Class-Chain-Queries-Construction-Rules)
+   > [Locate an object by iOS Class Chain](https://github.com/facebookarchive/WebDriverAgent/wiki/Class-Chain-Queries-Construction-Rules)
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-selector-strategies/ios_class_chain.png" width=365>
 
@@ -241,3 +241,8 @@ Captured Objects:
 ## Known Limitation
 
 Katalon Studio currently doesn’t support [Android Data Matcher](http://appium.io/docs/en/commands/element/find-elements/index.html#selector-strategies) since Appium Java Client 7.1.0 doesn’t support Android Data Matcher.
+
+See also:
+
+* [Create and Manage Mobile Test Objects](https://docs.katalon.com/katalon-studio/docs/manage-mobile-test-object.html#create-a-test-object)
+* [Parameterize Mobile Test Object](https://docs.katalon.com/katalon-studio/docs/parameterize-mobile-test-object-properties.html#usage-example)
