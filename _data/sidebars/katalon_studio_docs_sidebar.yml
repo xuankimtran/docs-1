@@ -1123,10 +1123,14 @@ items:
         tree: 
           - title: "Overview"
             url: /katalon-analytics/docs/kt-remote-execution.html
-          - title: "Test Environments"
+          - title: "Local Test Environments"
             tree:
-              - title: "Local Test Environments"
+              - title: "Set up Local Test Environments"
                 url: /katalon-analytics/docs/agents.html
+              - title: "Load Balancing for Local Test Environments"
+                url: /katalon-analytics/docs/load-balancing-agents.html
+          - title: "Cloud Test Environments"
+            tree:
               - title: "CircleCI Test Environments"
                 url: /katalon-analytics/docs/circleci.html
               - title: "AWS EKS Test Environments"
