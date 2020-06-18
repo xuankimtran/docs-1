@@ -1130,6 +1130,7 @@ items:
               - title: "Load Balancing for Local Test Environments"
                 url: /katalon-analytics/docs/load-balancing-agents.html
           - title: "Cloud Test Environments"
+            tree:
               - title: "CircleCI Test Environments"
                 url: /katalon-analytics/docs/circleci.html
               - title: "AWS EKS Test Environments"
