@@ -217,7 +217,7 @@ In previous versions, you can capture and rename captured objects but cannot cha
 
 The **Object Properties** section now allows:
 
-* Editing locator and locator strategies of an object.
+* Editing locator and locator strategy of an object.
 * Verifying and highlighting the object with the newly updated locator.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-selector-strategies/object-properties-1.png" width=451>
