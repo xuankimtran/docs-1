@@ -919,8 +919,12 @@ items:
             url: /katalon-studio/docs/testlink-integration.html
           - title: "App Center Integration"
             url: /katalon-studio/docs/app-center.html
-      - title: "Selenium/TestNG/JUnit Migration"
-        url: /katalon-studio/docs/selenium-testng-junit-migration.html
+      - title: "Migration from other tools"
+        tree:
+          - title: "Selenium/TestNG/JUnit Migration"
+            url: /katalon-studio/docs/selenium-testng-junit-migration.html
+          - title: "Import Selenium IDE v3 projects"
+            url: /katalon-studio/docs/import-selenium-ide.html
       - title: "Katalon Studio Plugins"
         tree:
           - title: "Using Plugins"

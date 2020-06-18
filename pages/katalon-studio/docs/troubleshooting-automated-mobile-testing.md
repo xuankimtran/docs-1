@@ -9,8 +9,7 @@ redirect_from:
     - "/katalon-studio/docs/troubleshooting-automated-mobile-testing/"
 description: 
 ---
-> *   Please read **[Installation and Setup](/display/KD/Before+You+Start)** guide first to set up your mobile. The information below is provided for those who can't get their mobile testing work properly after going through setup guide.
-> *   The information below is **NOT** exhaustive. For further troubleshooting requests, check out [Katalon Community](https://forum.katalon.com/discussions) or consider subscribing to our [Business Support](https://www.katalon.com/support-service-options/).
+> * Please read **[Installation and Set-up](/display/KD/Before+You+Start)** guide first to set up your mobile. The information below is provided for those who can't get their mobile testing work properly after going through the set-up guide.
 
 <table>
     <thead>
