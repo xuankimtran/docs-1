@@ -68,7 +68,6 @@ Katalon Studio supports an ability to define parent iframe object within the tes
 
 ## Properties used for detecting an object
 
-> * Available since version 5.0+
 > * [How to get Web objects XPath or CSS Locator](/x/5BZO#SpyWebUtility(latest)-HowtogetwebobjectsXPathorCSSLocator)
 > * [Object Identification Best Practices](/display/KD/Optimizing+Object+Identification+and+Tools)
 > * Configure [Web Object Locators Settings](https://docs.katalon.com/katalon-studio/docs/web-locators-settings-since-v571.html)
@@ -93,6 +92,8 @@ Katalon Studio allows you to choose different ways to locate objects.
 #### CSS
 
 * With CSS, you are allowed to input **CSS** locator for objects in **Selector Editor** manually.
+
+### Image
 
 ## Validate Test Object on AUT
 
@@ -198,7 +199,7 @@ Once finished, click **Save** to add objects to **Object Repository** as nor
 
 ### Verify and Highlight
 
-Katalon Studio **Object Properties** has a built-in **Verify and Highlight** feature to help users double-check if the web objects can be located. Katalon Studio will display the message on how many elements are **found** or **NOT** **found** with generated XPath locator. If the object is **found**, it will be highlighted with the **red **border.
+Katalon Studio **Object Properties** has a built-in **Verify and Highlight** feature to help users double-check if the web objects can be located. Katalon Studio will display the message on how many elements are **found** or **NOT** **found** with generated XPath locator. If the object is **found**, it will be highlighted with the **red** border.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/working-with-objects-selection-method-for-spyrecord-web/image2018-9-5-183A303A43.png)
 

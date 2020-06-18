@@ -217,6 +217,8 @@ items:
                 url: /katalon-studio/docs/introduction-to-web-testing.html
               - title: "Creating test case using Record & Playback"
                 url: /katalon-studio/docs/create_test_case_using_record_playback.html
+              - title: "Self-healing Tests"
+                url: /katalon-studio/docs/self-healing.html
               - title: "Web Test Objects"
                 tree:
                   - title: "Manage Web Test Objects"

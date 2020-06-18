@@ -5,9 +5,9 @@ permalink: katalon-studio/docs/auto-healing-smart-xpath.html
 description:
 ---
 
-From version 7.6, Katalon Studio launches [Self-healing](https://docs.katalon.com/katalon-studio/docs/self-healing.html) for Web test execution. Auto-healing Smart XPath becomes deprecated.
+From version 7.6, Katalon Studio launches [Self-healing](https://docs.katalon.com/katalon-studio/docs/self-healing.html) to replace Auto-healing Smart XPath for Web test execution.
 
-<details><summary>Deprecated Content</summary>
+<details><summary>In versions <strong>before 7.6</strong>: Auto-healing Smart XPath</summary>
 
 ### Installing the plugin
 
