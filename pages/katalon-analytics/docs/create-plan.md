@@ -44,7 +44,7 @@ To create a new test plan, please follow the below instruction:
 
 After a test plan has been created, you can run it manually or schedule your tests.
 
-To run your test plan, in your proẹct, go to **Plan** > click on the icon as below.
+To run your test plan, in your project, go to **Plan** > click on the icon as below.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/create-plan/run-plan.png" width="" height="">
 
