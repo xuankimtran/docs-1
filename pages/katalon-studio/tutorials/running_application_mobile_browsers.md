@@ -155,8 +155,8 @@ error: No Chromedriver found that can automate Chrome '<chrome_version>'
 
 To fix this, you have to download ChromeDriver for Appium manually. You’re recommended to get the version that’s compatible with Chrome on your device. Replace the existing ChromeDriver in Appium Directory with the newly downloaded one.
 
-* macOS: go to **/usr/local/lib/node_modules/appium**
-* Windows: go to **C:\Users\<Username>\AppData\Roaming\npm\node_modules\appium**
+* macOS: go to **/usr/local/lib/node_modules/appium/node_modules/appium-chromedriver/chromedriver/mac**
+* Windows: go to **C:\Users\\<user_name>\AppData\Roaming\npm\node_modules\appium\node_modules\appium-chromedriver\chromedriver\win**
 
 2\. W3C mode related error
 
