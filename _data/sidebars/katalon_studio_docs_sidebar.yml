@@ -218,7 +218,13 @@ items:
               - title: "Creating test case using Record & Playback"
                 url: /katalon-studio/docs/create_test_case_using_record_playback.html
               - title: "Self-healing Tests"
-                url: /katalon-studio/docs/self-healing.html
+                tree:
+                  - title: "Self-healing Tests"
+                    url: /katalon-studio/docs/self-healing.html
+                  - title: "Selection Methods for Web Tests"
+                    url: /katalon-studio/docs/web-selection-methods.html
+                  - title: "Image-based Testing"
+                    url: /katalon-studio/docs/web-image-based-object-recognition.html
               - title: "Web Test Objects"
                 tree:
                   - title: "Manage Web Test Objects"
@@ -239,8 +245,6 @@ items:
                 url: /katalon-studio/docs/handle-webdrivers.html
               - title: "Testing Web App on Mobile Browsers"
                 url: /katalon-studio/docs/running_application_mobile_browsers.html
-              - title: "Image-based Testing Tutorial"
-                url: /katalon-studio/docs/web-image-based-object-recognition.html
           - title: "Mobile Test Design"
             tree:
               - title: "An Introduction to Katalon Mobile Recorder"

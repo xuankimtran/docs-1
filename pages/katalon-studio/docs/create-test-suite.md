@@ -62,7 +62,10 @@ You can configure when and how many times Katalon retries an execution of a Test
 
 Select one of the following options to decide when and which execution Katalon Studio will retry:
 
-* **failed executions immediately** (only available for Katalon Studio Enterprise users): Retry a failed execution of a test case or test data immediately.
+* **Retry failed executions immediately** (only available for Katalon Studio Enterprise users): Retry a failed execution of a test case or test data immediately.
+
+   In Retry after executing all:
+
 * **all executions**: Retry all executions when the Test Suite fails.
 * **failed executions only**: Retry only failed executions when the Test Suite fails.
 
