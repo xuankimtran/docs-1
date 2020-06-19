@@ -16,7 +16,6 @@ If Katalon Studio finds an object by any of the alternative selectors, the test 
 
 * Katalon Studio version 7.6 onwards
 * An active Katalon Studio Enterprise license
-* Only available for WebUI testing
 
 In a Katalon Studio project, you can find a screen in project settings that is dedicated to Self-healing. You can change the default settings to make the utility better suit your need.
 
@@ -59,13 +58,15 @@ In an Object view, you can decide the default Selection Method to be used for ex
 
 ### Exclude objects used with keywords
 
-In addition, we understand that in some scenarios, you don't want the test engine to take time trying out different locators to actually find a non-existing object; hence, you're allowed to turn off Self-healing when detecting objects used with certain keywords. To decide which keyword to exclude from the Self-healing mode, in **Project/Settings/Self-Healing/Execution**, add keywords to the exception list.
+In some scenarios, you don't need the test engine to take time trying out different locators to find a non-existing object; hence, you're allowed to turn off the Self-healing mode when detecting objects used with certain keywords. 
 
-When an object is used with the specified keywords in this field, Katalon Studio does not try locating that object with self-healing mode.
+To decide which keyword to exclude from the Self-healing mode, in **Project/Settings/Self-Healing/Execution**, add keywords to the exception list. When an object is used with the specified keywords in this field, Katalon Studio does not try locating that object with self-healing mode.
 
-Ex: As the settings above, we have the following script:
+For example:
 
-We need to heal the input_Username_username object. But when we run to the 5th line, it would fail because self-healing would not apply to `verifyElementPresent`.
+**Given** we have added the `verifyElementPresent` keyword to the exception list; and the default locator of the **input_Username_username** object is broken.
+
+**When** we run the following block of codes:
 
 ```java
 WebUI.openBrowser('https://katalon-demo-cura.herokuapp.com/')
@@ -75,6 +76,8 @@ WebUI.setText(username, 'John Doe')
 WebUI.verifyElementPresent(username, 5)
 ```
 
+**Then** the **input_Username_username** object cannot be self-healed, and the test fails as expected.
+
 ## Enable and disable Self-healing mode
 
 Self-healing mode is turned on by default in a project. If you wish to disable this mode in the project, please go to **Project/Settings/Self-Healing/Execution** and uncheck **Enable self-healing execution**.
@@ -83,39 +86,40 @@ From the tool bar of Katalon Studio, click on the **Self-healing** icon, toggle 
 
 ## Understand Self-healing Insights
 
-When Katalon Studio finds an object during execution thanks to Self-healing mechanism (trying out different predefined locators of an object until it is located), all the replacements are recorded in **Self-healing Insights** when the test run is over. The replacement of locator is **temporary** during the test run. To make the change permanent, you need to approve the change.
-For elements found by their screenshots, Katalon Studio generates smart locators for that element and suggests the replacement of the default XPath with the newly generated XPath. Right next to the Log Viewer tab, there is a new tab called **Self-healing Insights** which displays the following information:
+When Katalon Studio finds an object thanks to Self-healing mechanism (trying out different predefined locators of an object until it is located), all the replacements are recorded in **Self-healing Insights** when the test run is over. The replacement of locator is **temporary** during the test run. To make the change permanent, you need to approve the change.
+
+Right next to the Log Viewer tab, there is a new tab called **Self-healing Insights** which displays the following information:
 
 * **Test Object ID**: The ID of broken test objects.
 * **Broken Locator**:  The default locator that couldn't detect the object during execution.
-* **Proposed Locator**: The alternative locator that located the object during execution. If the object is found by using its image property, the proposed locator is the XPath locator of that element image.
+* **Proposed Locator**: The alternative locator that located the object during execution. If the object is found by using its screenshot, the proposed locator is the newly generated smart XPath of that element image.
 * **Recovered By**: The Selection Method that Katalon Studio used for detecting the object.
 * **Screenshot**: When finding an object with its alternative locator, Katalon would capture a screenshot of the test object for you to verify whether the found object is the wanted one. Click **Preview** to verify the healed object.
 * **Select**: Decide which locator for you to take action.
 
 After selecting one or multiple proposed locators, you can **discard** or **approve** the permanent replacements.
 
-## Tutorial and Usage Sample
+## Tutorial and Usage Example
 
 > A sample project is available [here](https://github.com/katalon-studio/self-healing-demo#self-healing-sample-project)
 
-### Create a test case with Recording/Spying
+### Capture objects with Recording/Spying
 
-1. Since it's active by default, go to Project/Settings/Self-healing/Test Design, decide which selection method is used for spying/recording
-2. Create a new test case/ Update an existing one with with Web Spy/Recorder; Capture objects and change the locators as your wish
+1. Since Self-healing is active by default, go to **Project/Settings/Self-healing/Test Design** to choose the default selection method to be used during spying/recording
+2. Capture objects and change the locators as your wish
 
 ### Execute the test case
 
-1. Go to Project/Settings/Self-healing/Execution, decide which selection methods are used for self-healing execution and their order of trying.
-2. Run your test case and discover if there is any broken locator that has been recovered by Self-healing
+1. Go to **Project/Settings/Self-healing/Execution** to choose selection methods to be used for self-healing execution and their order.
+2. Run your test case
 
-### When the execution finishes
+### Approve the replacement
 
-1. Have a look at the Self-healing Insights to see if there is any replacement taking place during the run.
+1. Have a look at **Self-healing Insights** and discover if there is any broken locator that has been recovered by Self-healing at runtime.
 2. Verify if the found object is really the one you expect
-3. Approve the change to make it permanent.
+3. Approve the replacement to make it permanent
 
 ## Known limitations
 
-* WebUI only
-* **Image-based testing**: During recording and spying, you have to decide which elements whose pictures are taken for creating an image property. It's sometimes hard to know which elemnt can be broken during execution, which means you have to manually taking pictures yourself of them all; or predict which elements should be backed up with an image.
+* Only available for WebUI testing
+* Image-based testing: During recording and spying, you have to decide which elements whose pictures are taken for creating an image property. It's sometimes hard to know which elemnt can be broken during execution, which means you have to taking pictures of them all manually; or predict certain elements should be backed up with an image.
