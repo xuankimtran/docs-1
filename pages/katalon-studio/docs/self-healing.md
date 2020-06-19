@@ -4,13 +4,11 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/self-healing.html
 ---
 
-Is is common that object locators are easily broken or unable to identify the target element when the application under test (AUT) changes. Hence creating and using correct and resilient locators are crucial to the success of Web UI test automation. Before the self-healing execution mode is introduced in version 7.6, Katalon Studio supports Auto-healing Smart XPath, which is a plugin that recovers the broken default locator by trying other available XPath alternatives.
-
-Inheriting the idea of auto-healing smart XPath, Katalon Studio launches Self-healing mechanism which is more advanced and comprehensive to tackle the broken locator issue during execution. We hope this powerful utility to reduce your test maintenance effort substantially.
+Is is common that object locators are easily broken or unable to identify the target element when the application under test (AUT) changes. Hence creating and using correct and resilient locators are crucial to the success of Web UI test automation. Before the self-healing execution mode is introduced in version 7.6, Katalon Studio supports Auto-healing Smart XPath, which is a plugin that recovers the broken default locator by trying other available XPath alternatives. Inheriting the idea of Auto-healing smart XPath, Katalon Studio launches Self-healing mechanism which is more advanced and comprehensive to tackle the broken locator issue during execution. We hope this powerful utility to reduce your test maintenance effort substantially.
 
 ## Self-healing mechanism
 
-When the self-healing mode is activated (by default) and Katalon Studio fails to find an object with the default locator, Katalon tries other pre-configured locators that are associated with that object. You can decide what alternative locators are and their priorities.
+When the self-healing mode is activated (by default) and Katalon Studio fails to find an object with the default locator, Katalon tries other pre-configured locators that are associated with that object. You can decide what alternative locators are in terms of selection methods and their priorities.
 
 If Katalon Studio finds an object by any of the alternative selectors, the test continues running using that object. When the test execution is over, Katalon Studio will propose replacing the broken locator with the locator that actually detects the found object. If still Katalon Studio cannot find the target object, it depends on the [failure handling option](https://docs.katalon.com/katalon-studio/docs/failure-handling.html) that you have designed, the test execution may stop or keep going.
 
@@ -20,48 +18,54 @@ If Katalon Studio finds an object by any of the alternative selectors, the test 
 * An active Katalon Studio Enterprise license
 * Only available for WebUI testing
 
-In a Katalon Studio project, you can find a screen in project setting that is dedicated to Self-healing. You can change the default settings to make the utility better suit your need.
+In a Katalon Studio project, you can find a screen in project settings that is dedicated to Self-healing. You can change the default settings to make the utility better suit your need.
 
-**Project/Settings/Self-healing**
+Go to **Project/Settings/Self-healing** or from the tool bar of Katalon Studio, click on the **Self-healing** icon, select **Go to Self-healing Settings**.
 
 <img src="">
 
-### Configure Test Design
+## Configure Test Design
 
 Go to **Project/Settings/Self-healing/Test Design**, select one of the provided options to decide the default selection method used during spying and recording an AUT to capture an object's locator. Katalon Studio supports:
 
-* [Xpath](): Once test objects in test cases are created by Recording or Spying feature in Katalon Studio, a set of XPath values will be generated respectively to the XPath generator provider list. The first values in the lists are the default XPath values of the test objects. During execution, if a test object is failed to detect by its default XPath value, the other XPath options in the list will be automatically applied; and the first successful value will be used. The execution will continue as if no failed detection has happened. This will help significantly save time updating test cases, especially when the test cases are executed in batch overnight.
-* [Attributes]()
-* [CSS]()
-* [Image]()
+* [Xpath](http://docs.katalon.com/katalon-studio/docs/web-selection-methods.html#xpath): Once test objects in test cases are created by Recording or Spying feature in Katalon Studio, a set of XPath values will be generated respectively to the XPath generator provider list. The first values in the lists are the default XPath values of the test objects.
+* [Attributes](http://docs.katalon.com/katalon-studio/docs/web-selection-methods.html#Attributes)
+* [CSS](http://docs.katalon.com/katalon-studio/docs/web-selection-methods.html#css)
+* [Image](http://docs.katalon.com/katalon-studio/docs/web-selection-methods.html#image)
 
 If you choose XPath or Attributes, you need to configure some additional settings:
 
 * **XPath**: configure the priority of XPath locators. Click **Reset Default** to return to the default order
 * **Attributes**: select the attributes used for detecting an object.
 
-### Configure Self-healing Execution
+## Configure Self-healing Execution
 
-As aforementioned, Katalon Studio enables Self-healing mode for your project by default in **Project/Settings/Self-Healing/Execution**. During execution, the selected selection methods in this global setting are used for self-healing in the predefined order.
+As aforementioned, Katalon Studio enables Self-healing mode for your project by default in **Project/Settings/Self-Healing/Execution**. During execution, when Katalon fails to find an object, the selected selection methods in this global setting are used for self-healing in the predefined order.
 
 In the **Self-healing Execution Settings** view:
 
 1. Select the selection methods used for self-healing tests:
 
-* [Xpath](): During execution, if a test object is failed to detect by its default XPath value, the other XPath options in the list will be automatically applied; and the first successful value will be used. The execution will continue as if no failed detection has happened. This will help significantly save time updating test cases, especially when the test cases are executed in batch overnight.
-* [Attributes]()
-* [CSS]()
-* [Image]()
+* Xpath: During execution, if a test object is failed to detect by its default XPath value, the other XPath options in the list will be automatically applied; and the first successful value will be used. The execution continues as if no failed detection has happened. This will help significantly save time updating test cases, especially when the test cases are executed in batch overnight.
+* Attributes
+* CSS
+* Image: During execution, image-based object recognition in web testing allows using an image representing an object to find that object.
 
-2. Move the selected selection methods in your prefered order.
+2. Prioritize selection methods for self-healing execution by moving the selected selection methods in your prefered order.
 
-To override
+### Override in Object view
 
-In an Object’s detailed view, decide the default selection method to be used during test execution, this config overrides the config in Project/Settings/Self-Healing/ Execution
+In an Object view, you can decide the default Selection Method to be used for execution, this configuration overrides the above global setting.
 
-Exclude objects used with keywords: List out specific keywords that would not apply Self-Healing when it is enabled.
+### Exclude objects used with keywords
+
+In addition, we understand that in some scenarios, you don't want the test engine to take time trying out different locators to actually find a non-existing object; hence, you're allowed to turn off Self-healing when detecting objects used with certain keywords. To decide which keyword to exclude from the Self-healing mode, in **Project/Settings/Self-Healing/Execution**, add keywords to the exception list.
+
+When an object is used with the specified keywords in this field, Katalon Studio does not try locating that object with self-healing mode.
+
 Ex: As the settings above, we have the following script:
-We need to heal the input_Username_username object. But when we run to the 5th line, it would fail because self-healing would not apply to verifyElementPresent.
+
+We need to heal the input_Username_username object. But when we run to the 5th line, it would fail because self-healing would not apply to `verifyElementPresent`.
 
 ```java
 WebUI.openBrowser('https://katalon-demo-cura.herokuapp.com/')
@@ -71,51 +75,47 @@ WebUI.setText(username, 'John Doe')
 WebUI.verifyElementPresent(username, 5)
 ```
 
-## Execution with Self-healing mode
+## Enable and disable Self-healing mode
 
-, when Katalon fails to find an object, different strategies to locate the target object in the predefined order.
+Self-healing mode is turned on by default in a project. If you wish to disable this mode in the project, please go to **Project/Settings/Self-Healing/Execution** and uncheck **Enable self-healing execution**.
 
+From the tool bar of Katalon Studio, click on the **Self-healing** icon, toggle between Enable and Disable Self-healing.
 
+## Understand Self-healing Insights
 
-It is active by default for a project
+When Katalon Studio finds an object during execution thanks to Self-healing mechanism (trying out different predefined locators of an object until it is located), all the replacements are recorded in **Self-healing Insights** when the test run is over. The replacement of locator is **temporary** during the test run. To make the change permanent, you need to approve the change.
+For elements found by their screenshots, Katalon Studio generates smart locators for that element and suggests the replacement of the default XPath with the newly generated XPath. Right next to the Log Viewer tab, there is a new tab called **Self-healing Insights** which displays the following information:
 
-Decide which locators are used and their priority
+* **Test Object ID**: The ID of broken test objects.
+* **Broken Locator**:  The default locator that couldn't detect the object during execution.
+* **Proposed Locator**: The alternative locator that located the object during execution. If the object is found by using its image property, the proposed locator is the XPath locator of that element image.
+* **Recovered By**: The Selection Method that Katalon Studio used for detecting the object.
+* **Screenshot**: When finding an object with its alternative locator, Katalon would capture a screenshot of the test object for you to verify whether the found object is the wanted one. Click **Preview** to verify the healed object.
+* **Select**: Decide which locator for you to take action.
 
-Decide which keyword to exclude from the Self-healing mode
+After selecting one or multiple proposed locators, you can **discard** or **approve** the permanent replacements.
 
-When an object is used with the specified keywords in this field, Katalon Studio does not try locating that object with self-healing mode.
+## Tutorial and Usage Sample
 
-### Enable and disable Self-healing mode
+> A sample project is available [here](https://github.com/katalon-studio/self-healing-demo#self-healing-sample-project)
 
-Enable self-healing execution: Tick the radio button for enabling self-healing execution. Or we can click the Self-Healing icon on the main screen, choose Enable Self-Healing.
+### Create a test case with Recording/Spying
 
-Prioritize selection methods for self-healing execution: Change the order of Selection Methods by dragging/dropping or using buttons and choose which Selection Methods to be used. So, when applying Self-Healing mode, Katalon Studio will auto Self-Healing with chosen and ordered Selection Methods.
+1. Since it's active by default, go to Project/Settings/Self-healing/Test Design, decide which selection method is used for spying/recording
+2. Create a new test case/ Update an existing one with with Web Spy/Recorder; Capture objects and change the locators as your wish
 
+### Execute the test case
 
-Turn off the Self-healing mode
+1. Go to Project/Settings/Self-healing/Execution, decide which selection methods are used for self-healing execution and their order of trying.
+2. Run your test case and discover if there is any broken locator that has been recovered by Self-healing
 
- Go to Project/Settings/Self-Healing/Execution
+### When the execution finishes
 
-Uncheck the option Enable Self-Healing execution
-
-### Understand Self-healing Insights
-
-The replacement is temporary during the test run. After the test run is over, to make the change permanent, users should approve the change.
-For elements found by their screenshots, Katalon Studio generates smart locators for that element and suggests the replacement of the default XPath with the newly generated XPath.
-
-* Test Object ID: The ID of broken test objects.
-* Broken Locator:  The current locator of the test object that caused broken.
-* Proposed Locator:  The suggestion of another locator that helps find the test object.
-* Recovered By: The Selection Method that Self Healing used to recover the test object.
-* Screenshot: After healing, Katalon would capture that test object, so that the user can verify it.
-* Approve: Users can choose which test object(s) can be healed.
-
-Click Preview in the Screenshot column to verify the healed object.
-
-Discard All: Click Discard All if you don’t want to update the broken test object as proposed.
-
-Approve: Tick the radio button in the Approve column to choose which one to be approved. Click Approve. So that chosen objects will be updated as suggested.
-
-### Sample Usage
+1. Have a look at the Self-healing Insights to see if there is any replacement taking place during the run.
+2. Verify if the found object is really the one you expect
+3. Approve the change to make it permanent.
 
 ## Known limitations
+
+* WebUI only
+* **Image-based testing**: During recording and spying, you have to decide which elements whose pictures are taken for creating an image property. It's sometimes hard to know which elemnt can be broken during execution, which means you have to manually taking pictures yourself of them all; or predict which elements should be backed up with an image.
