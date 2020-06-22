@@ -4,36 +4,35 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/web-selection-methods.html
 ---
 
-In Web UI automated testing, a primary concern for testers is high maintenance costs of test scripts, which are usually caused by unstable and broken locators. A locator is a mechanism used by Selenium to identify an element during test execution. 
-
-
-
-### Selection Method
-
 Katalon Studio allows you to choose different ways to locate objects.
 
-#### XPath
+## XPath
 
-* Katalon Studio supports _Relative XPath_ for better object recognition. If an element cannot be consistently located using its direct attributes, Katalon Studio identifies the element by using its more robust neighbors.
+Katalon Studio supports Smart XPath (a.k.a Relative XPath) for better object recognition. If an element cannot be consistently located using its direct attributes, Katalon Studio identifies the element by using its more robust neighbors. This method is visually intuitive as it reflects the way users often identify a visible element on the user interface.
 
-> Learn more about [Smart XPath (_a.k.a._ Relative XPath).](https://www.katalon.com/resources-center/blog/smart-xpath-generator/)
+> [Learn more about how Katalon generates Smart XPaths](https://www.katalon.com/resources-center/blog/smart-xpath-generator/)
 
-Katalon Studio supports _Relative XPath_ for better object recognition. If an element cannot be consistently located using its direct attributes, Katalon Studio will identify the element by using its more robust neighbors. This method is visually intuitive as it reflects the way users often identify a visible element on the user interface.
+If **Xpath** option is set as the default selection method in spying and recording (you can check in Project/Settings/Self-healing/Web UI/Test Design), Katalon Studio generates a list of **smart XPaths** automatically.
 
-If **Xpath** option is selected, Katalon Studio will automatically generate a list of **Relative Xpath** based on your _Web Locators Setting_ to identify the element.
+> [Learn more about how Katalon detects objects with XPath](https://docs.katalon.com/katalon-studio/tutorials/detect_elements_xpath.html)
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/working-with-objects-selection-method-for-spyrecord-web/image2018-9-5-183A573A11.png)
 
-#### Attributes
+## Attributes
 
-* Katalon Studio _automatically_ generates its **XPath** combined with object **properties** to locate the object. This **XPath** is displayed in **Selector Editor**.
-* A test object is typically built up by several properties. During test execution, Katalon Studio uses them to detect an object. Using the **Detect object by** field, you can determine which properties to be utilized for recognizing objects.  
-  
-  In the following example, Katalon Studio tries to find any object on AUT with both **text** and **XPath** to satisfy the defined criteria during execution.
+A test object is typically built up by several properties. During test execution, Katalon Studio uses them to detect an object. 
+
+Global Settings: Go to **Project/Settings/**
+
+Override in an Object's view
+
+Using the **Detect object by** field, you can determine which properties to be utilized for recognizing objects. In the following example, Katalon Studio tries to find any object on AUT with both **text** and **XPath** to satisfy the defined criteria during execution.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/manage-test-object/image2018-9-5-193A133A19.png)
 
-If _Attributes_ option is **selected**, Katalon Studio will automatically generate **XPath** locator that **combined** all **selected** object **properties** to locate that object. You can _checked/unchecked_ preferred properties in the object **properties table.**
+Katalon Studio generates an object's **XPath** combined with predefined object properties to locate the object automatically. This **XPath** is displayed in **Selector Editor**.
+
+If **Attributes** is set as the default selection method in Spy and Recorder, Katalon Studio generates **XPath** locator automatically that combines all the selected object properties to locate that object. You can check/uncheck the preferred properties in the **properties table** of an object.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/working-with-objects-selection-method-for-spyrecord-web/image2018-9-5-183A293A36.png)
 
@@ -43,13 +42,13 @@ If _Attributes_ option is **selected**, Katalon Studio will automatically gen
 
 Test engineers who wish to manually input their own **CSS** locator for test objects can select CSS option. Once selected, object **properties table** will be **collapsed** and **Selector Editor** field becomes **editable**. Simply provide **CSS** locator in the _Selector Editor_ text box. 
 
-Same as Attributesoption, click on **Verify and Highlight** button to make sure Katalon Studio can locate the web objects. Katalon Studio will display the message on how many elements are **found** or **NOT** **found** with input XPath or CSS locator. If the object is **found**, it will be highlighted with the **red **border. 
+Same as Attributes option, click on **Verify and Highlight** button to make sure Katalon Studio can locate the web objects. Katalon Studio will display the message on how many elements are **found** or **NOT** **found** with input XPath or CSS locator. If the object is **found**, it will be highlighted with the **red **border. 
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/working-with-objects-selection-method-for-spyrecord-web/image2018-9-5-183A503A16.png)
 
 Once finished, click **Save** to add objects to **Object Repository** as normal.
 
-### Change CSS selector of an object at runtime
+## Change CSS selector of an object at runtime
 
 To change a Test Object's CSS value at runtime:
 
@@ -74,9 +73,10 @@ See also:
 
 ## Image
 
-From 7.2.2 onwards, Katalon supports visual object recognition, so-called image-based testing. 
-Please see image-based testing 
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/self-healing/image-object-view.png">
 
+From 7.2.2 onwards, Katalon supports visual object recognition, so-called image-based testing.
+Please see image-based testing
 
 > * Katalon Studio **Object Properties** has the capability to **auto-save** the content of **Selector Editor** when switching between modes of **Selection Method**.
 

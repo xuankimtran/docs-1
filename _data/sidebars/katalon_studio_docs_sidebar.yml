@@ -223,6 +223,8 @@ items:
                     url: /katalon-studio/docs/self-healing.html
                   - title: "Selection Methods for Web Tests"
                     url: /katalon-studio/docs/web-selection-methods.html
+                  - title: "Detecting Objects with XPath"
+                    url: /katalon-studio/docs/detect_elements_xpath.html
                   - title: "Image-based Testing"
                     url: /katalon-studio/docs/web-image-based-object-recognition.html
               - title: "Web Test Objects"
