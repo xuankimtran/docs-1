@@ -933,6 +933,8 @@ items:
             url: /katalon-studio/docs/selenium-testng-junit-migration.html
           - title: "Import Selenium IDE v3 projects"
             url: /katalon-studio/docs/import-selenium-ide.html
+          - title: "Import RESTful requests from SoapUI"
+            url: /katalon-studio/docs/import-soapui.html
       - title: "Katalon Studio Plugins"
         tree:
           - title: "Using Plugins"
