@@ -22,7 +22,7 @@ This manuals shows you how to import a Selenium IDE project to a project in Kata
 1. Create or open a project
 2. From the menu bar, select **File/Import Selenium IDE Project** and browse your Selenium IDE file (a single file with a `.side` extension) to open. Please wait for the import progress to complete.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-selenium-ide/import.png" width=416>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-selenium-ide/selenium-ide.png" width=763>
 
 ## Map Selenium IDE with Katalon Studio test artifacts
 
