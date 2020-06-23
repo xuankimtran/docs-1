@@ -91,7 +91,7 @@ import com.kms.katalon.core.testobject.MobileTestObject
 import com.kms.katalon.core.testobject.MobileTestObject.MobileLocatorStrategy
 
 MobileTestObject mobileObject = findTestObject("Object Repository/New Mobile Object")
-mobileObject.setMobileLocatorStrategy(MobileLocatorStrategy.NAME)
+mobileObject.setMobileLocatorStrategy(MobileLocatorStrategy.CLASS_NAME)
 mobileObject.setMobileLocator("General")
 ```
 
