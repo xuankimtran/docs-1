@@ -26,8 +26,8 @@ You can download the Beta version of 7.6 [here](https://github.com/katalon-studi
 * [Katalon Studio Enterprise] Support retrying failed test execution immediately in Test Suite's execution. [Learn more](https://docs.katalon.com/katalon-studio/docs/test-suite.html#retry)
 * [Mobile Testing] Fully support Selector Strategies. [Learn more](https://docs.katalon.com/katalon-studio/docs/locators_object_identification.html)
 * [Mobile Testing] Support App Center Test integration. [Learn more](https://docs.katalon.com/katalon-studio/docs/app-center.html)
-* [API Testing] Support migrating RESTful request objects from SoapUI to Katalon Studio. [Learn more]()
-* [Desktop Testing] Support new Desktop keywords, including [setEncryptedText](), [getAttribute](), [verifyElementAttributeValue](), [waitForElementAttributeValue](), [verifyElementPresent](), [verifyElementNotPresent](), [waitForElementPresent](), [waitForElementNotPresent]()
+* [API Testing] Support importing RESTful requests from SoapUI to Katalon Studio. [Learn more](https://docs.katalon.com/katalon-studio/docs/import-soapui.html)
+* [Desktop Testing] Support new Desktop keywords, including `setEncryptedText`, `getAttribute`, `verifyElementAttributeValue`, `waitForElementAttributeValue`, `verifyElementPresent`, `verifyElementNotPresent`, `waitForElementPresent`, and `waitForElementNotPresent`
 * Allow overriding `BrowserType` and `ExecutionProfile` of all Test Suites in a Test Suite Collection via command line. [Learn more](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#command-builder)
 * Support displaying description of Custom Keywords in test cases (same as built-in keywords)
 
