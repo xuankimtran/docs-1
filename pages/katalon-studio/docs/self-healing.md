@@ -59,9 +59,9 @@ In the **Self-healing Execution Settings** view:
 
 2. Prioritize the selected ones by moving them up and down.
 
-### Override in Object view
+### Override in Object's view
 
-In an Object view, you can decide the default Selection Method for detecting that object during execution. This configuration overrides the global setting in a project.
+In an Object's view, you can decide the default Selection Method for detecting that object during execution. This configuration overrides the global setting in a project.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/self-healing/override.png">
 

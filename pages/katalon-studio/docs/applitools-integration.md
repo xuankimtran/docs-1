@@ -41,7 +41,7 @@ This plugin provides two custom keywords in `BasicKeywords` class which are help
 
 ## Use Applitools functions in Script mode
 
-In addition to the two basic custom keywords above, this plugin also provides a set of keywords in EyesKeywords and AdvancedKeywords classes which can be use in Script mode:
+In addition to the two basic custom keywords above, this plugin also provides a set of keywords in `EyesKeywords` and `AdvancedKeywords` classes which can be use in Script mode:
 
 ```java
 	/**
