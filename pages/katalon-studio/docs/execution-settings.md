@@ -58,7 +58,7 @@ In the **VM Arguments** tab, enter your arguments. VM Arguments entered in **Exe
 
 To make sure if the configuration works, please add this simple test case:
 
-```groovy
+```java
 import com.kms.katalon.core.util.KeywordUtil
 KeywordUtil.logInfo(System.getProperty("testme"))
 ```
@@ -128,16 +128,77 @@ You can set default settings for Web Service test execution by going to **Projec
 
 * **Connection Timeout in milliseconds (0=unlimited)**: The time to establish the connection with the remote server. When it is set to 0 or left empty, Katalon waits for a response forever.
 * **Socket Timeout in milliseconds (0=unlimited)**: The time waiting for data – after establishing the connection
-
-   > You can set the global timeout or override the global timeout settings in a certain test request via script. [Learn more](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#general-options)
-
 * **Max Response size in bytes**: The maximum number of bytes Katalon Studio renders from a response. When it is set to 0 or left empty, Katalon Studio downloads a response regardless of its size. Please note that downloading a large response may affect the application's performance.
-
-   > Katalon Studio also supports setting global maximum response size or overriding the global setting in a test request via script. [Learn more](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#general-options)
 
 For your convenience, we provide a shortcut to this global settings in a test request's view.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/timeout-maxsize.png">
+
+### Web Service Settings in Script view
+
+**Requirements**
+
+* Katalon Studio version 7.6 onwards
+* An active Katalon Studio Enterprise license
+
+You can set request timeout and maximum response size via script by using built-in functions of Katalon Studio.
+
+**Request Timeout**
+
+* Override timeout settings of a project
+
+```java
+Map<String, Object> generalSettings = RunConfiguration.getExecutionGeneralProperties()
+generalSettings.put(RunConfiguration.REQUEST_CONNECTION_TIMEOUT, 3500)
+generalSettings.put(RunConfiguration.REQUEST_SOCKET_TIMEOUT, 3500)
+```
+
+* Change timeout settings of a specific test request
+
+```java
+RequestObject request = findTestObject("Object Repository/Localhost")
+request.setConnectionTimeout(3500)
+request.setSocketTimeout(3500)
+
+// Or to unset the timeout
+request.setConnectionTimeout(RequestObject.TIMEOUT_UNSET)
+request.setSocketTimeout(RequestObject.TIMEOUT_UNSET)
+
+// Or to set the timeout to unlimited
+request.setConnectionTimeout(RequestObject.TIMEOUT_UNLIMITED)
+request.setSocketTimeout(RequestObject.TIMEOUT_UNLIMITED)
+
+// Or if you just want to set to its default value (The default value is set to unlimited)
+request.setConnectionTimeout(RequestObject.DEFAULT_TIMEOUT)
+request.setSocketTimeout(RequestObject.DEFAULT_TIMEOUT)
+```
+
+**Maximum Response Size**
+
+> Katalon Studio also supports setting maximum response size of an execution by using `-maxResponseSize` in command line. [Learn more](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#general-options)
+
+* Override response size limit of a project
+
+```java
+Map<String, Object> generalSettings = RunConfiguration.getExecutionGeneralProperties()
+generalSettings.put(RunConfiguration.REQUEST_MAX_RESPONSE_SIZE, 400)
+```
+
+* Change maximum response size setting of a specific test request
+
+```java
+RequestObject request = findTestObject("Object Repository/Basic Auth")
+request.setMaxResponseSize(400)
+
+// Or to unset response size limit. And so, the project's max response size setting will be used.
+request.setMaxResponseSize(RequestObject.MAX_RESPONSE_SIZE_UNSET)
+
+// Or to set response size limit to unlimited
+request.setMaxResponseSize(RequestObject.MAX_RESPONSE_SIZE_UNLIMITED)
+
+// Or if you just want to set to its default value (The default value is set to unlimited)
+request.setMaxResponseSize(RequestObject.DEFAULT_MAX_RESPONSE_SIZE)
+```
 
 ## Emails Settings
 
