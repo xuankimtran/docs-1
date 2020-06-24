@@ -60,7 +60,7 @@ You can configure when and how many times Katalon retries an execution of a Test
 
 **From version 7.6 onwards**
 
-> To significantly shorten the execution time, Katalon Studio supports retrying failed test execution **immediately**.
+> To significantly shorten the execution time, Katalon Studio supports retrying failed test executions **immediately**.
 
 Select one of the following options to decide when and which execution Katalon Studio will retry:
 
