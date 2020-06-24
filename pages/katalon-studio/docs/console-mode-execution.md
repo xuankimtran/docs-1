@@ -12,23 +12,17 @@ redirect_from:
 description:
 ---
 
-> Notes:
->
-> From version **7.0.0**, you need a Runtime Engine (RE) [license](https://docs.katalon.com/katalon-studio/docs/license.html) to activate and run Katalon Studio (KS) or Katalon Studio Enterprise (KSE) from the command line.
+> From version **7.0.0**, you need a Runtime Engine (RE) [license](https://docs.katalon.com/katalon-studio/docs/license.html) to activate and run Katalon Studio (KS) or Katalon Studio Enterprise (KSE) in console mode.
 >
 > Katalon Studio only supports **Chrome, Firefox, and Remote** options for console mode execution using the **Linux** version.
->
-> API Keys are required to use **Katalon Studio Plugins** in console mode. [Learn more](/katalon-store/docs/user/plugin-console-installation.html).
 
-You can execute an automation test without launching Katalon Studio by using command line mode execution.
+You can execute an automation test without launching Katalon Studio by using command-line mode execution.
 
-Execute Katalon in CMD
-----------------------
+## Execute Katalon Studio in console mode
 
-> From Katalon Studio version **7.0.0**, you need to download the Runtime Engine package from [Katalon website](https://katalon.com/download). The Katalon launcher (`katalon.exe`) is replaced by `katalonc.exe`.
+> From Katalon Studio version **7.0.0**, you need to download the [Katalon Runtime Engine package](https://katalon.com/download). The Katalon launcher (`katalon.exe`) is replaced by `katalonc.exe`.
 
 1. Open the command prompt and navigate to the folder of your Katalon Studio build: `katalonc.exe` (Windows), Applications folder (Mac OS), or `katalonc` (Linux) file.
-
 2. Enter the following syntax to execute automation test:
 
     **Windows:**
@@ -66,15 +60,13 @@ Execute Katalon in CMD
    * 3: the execution has failed test cases and error test cases.
    * 4: the execution cannot start because of invalid arguments.
 
-Katalon Studio Plugins in Console Mode
---------------------------------------
+## Use Plugins in Console Mode
 
-To be used in console mode, Katalon Studio Plugins must be installed using Katalon Store's API keys. Please follow the instructions [here](/katalon-store/docs/user/plugin-console-installation.html).
+API Keys are required to use **Katalon Studio Plugins** in console mode. [Learn more](/katalon-store/docs/user/plugin-console-installation.html).
 
-General Options
----------------
+## General Options
 
-Here's the list of options supported for the `katalon` commands in Katalon Studio before version 7.0.0, and the `katalonc` commands for Katalon Studio version 7.0.0 and later.
+Here's the list of options supported for the `katalonc` commands for Katalon Studio version 7.0.0 onwards.
 
 <table>
    <thead>
@@ -109,7 +101,6 @@ Here's the list of options supported for the `katalon` commands in Katalon Studi
          <td>-testSuiteCollectionPath=&lt;path&gt;</td>
          <td>
             <p>Specify the test suite file (without extension .tsc). The relative path (root being project folder) must be used in this case.</p>
-            <p>Note: Available only in 4.4+</p>
          </td>
          <td>Y (<em>If -testSuitePath is not used. Otherwise it's optional</em>)</td>
       </tr>
@@ -117,6 +108,7 @@ Here's the list of options supported for the `katalon` commands in Katalon Studi
          <td>-browserType=&lt;browser&gt;</td>
          <td>
             <p>Specify the browser type used for test suite execution.</p>
+            <p>From <strong>version 7.6+</strong>, you can use this option in Test Suite Collection execution. The specified browser is used for all test suites in that collection. </p>
             <p>The following browsers are supported in Katalon:</p>
             <ul>
                <li>Firefox</li>
@@ -134,7 +126,7 @@ Here's the list of options supported for the `katalon` commands in Katalon Studi
          <td>
             <p>Y</p>
             <p>
-               <strong>Only Chrome, Firefox, and Remote are available for use in the Linux version.</strong>
+               <strong>Only Chrome, Firefox, and Remote</strong> are available for use in the Linux version.
             </p>
             <p>
                <strong><code>Web Service</code> is used for Web Service test execution.
@@ -147,8 +139,25 @@ Here's the list of options supported for the `katalon` commands in Katalon Studi
          <td>N</td>
       </tr>
       <tr>
-         <td>-retryFailedTestCases=&lt;true, false&gt;</td>
-         <td>Retry failed test cases fail in test suite ( override setting in test suite file ). There are 2 options for retry: true if you want run fail test case and otherwise false</td>
+         <td>-retryFailedTestCases=&lt;true,false&gt;</td>
+         <td>Retry executing failed test cases in test suite (this parameter overrides setting in test suite file ). There are 2 options: true if you want to run failed test case; otherwise, false.</td>
+         <td>N</td>
+      </tr>
+      <tr>
+         <td>-retryFailedTestCasesTestData=&lt;true,false&gt;</td>
+         <td>Retry failed test data execution in test suite (this parameter overrides setting in test suite file). There are 2 options: true if you want to run failed test data execution; otherwise, false (available from version <strong>7.5</strong> and only for Katalon Studio Enterprise users).</td>
+         <td>N</td>
+      </tr>
+      <tr>
+         <td>-retryStrategy=&lt;allExecutions,failedExecutions,immediately&gt;</td>
+         <td>
+         <p>This option is supported in version <strong>7.6 onwards</strong>. Specify which execution to be retried (this parameter overrides setting in test suite file):</p>
+          <ul>
+               <li><strong>allExecutions</strong>: Retry all executions when the Test Suite fails</li>
+               <li><strong>failedExecutions</strong>: Retry only failed executions when the Test Suite fails</li>
+               <li><strong>immediately</strong>: Retry a failed execution of a test case or test data immediately. (Only for Katalon Studio Enterprise users)</li>
+          </ul>
+          </td>
          <td>N</td>
       </tr>
       <tr>
@@ -184,15 +193,14 @@ Here's the list of options supported for the `katalon` commands in Katalon Studi
       <tr>
          <td>-executionProfile</td>
          <td>
-            <p><strong>Starting from Katalon Studio version 5.4</strong></p>
-            <p>Specify the&nbsp;<a href="/pages/viewpage.action?pageId=13697476">execution profile</a>&nbsp;to be executed with</p>
+            <p>Specify the execution profile that a test suite executes with</p>
+            <p>From <strong>version 7.6+</strong>, you can use this option in Test Suite Collection execution. The specified execution profile is applied to all test suites in that collection.</p>
          </td>
          <td>N</td>
       </tr>
       <tr>
          <td>-g_XXX</td>
          <td>
-            <p><strong>Starting from Katalon Studio version 5.9</strong></p>
             <p>Override Execution Profile variables.</p>
             <p>Example:</p>
             <p><code class="java plain"> -g_userName="admin"</code></p>
@@ -202,18 +210,25 @@ Here's the list of options supported for the `katalon` commands in Katalon Studi
       <tr>
          <td>--info -buildLabel="text" -buildURL="text" </td>
          <td>
-            <p><strong>Starting from Katalon Studio version 7.0</strong></p>
-            <p>Pass the build's label and URL, which are displayed in Katalon TestOps.</p>
-            <p>Example:</p>
-            <p><code class="java plain"> --info -buildLabel="Build 1" -buildURL="http://192.168.35.52:8080/job/katalon-demo/job/master/179/"</code></p>
+         <p>Pass the build's label and URL, which are displayed in Katalon TestOps.</p>
+         <p>Example:</p>
+         <p><code class="java plain"> --info -buildLabel="Build 1" -buildURL="http://192.168.35.52:8080/job/katalon-demo/job/master/179/"</code></p>
+         </td>
+         <td>N</td>
+      </tr>
+       <tr>
+         <td>-maxResponseSize</td>
+         <td>
+         <p>Override the maximum response size in project setting (available from version <strong>7.6</strong>). <a href="https://docs.katalon.com/katalon-studio/docs/execution-settings.html#web-service-settings">Learn more about Web Service Settings.</a></p>
+         <p>Example:</p>
+         <p><code class="java plain"> -maxResponseSize=400</code></p>
          </td>
          <td>N</td>
       </tr>
    </tbody>
 </table>
 
-Windows-Only Options
---------------------
+### Windows-Only Options
 
 <table>
    <thead>
@@ -237,8 +252,7 @@ Windows-Only Options
    </tbody>
 </table>
 
-Proxy Options
--------------
+## Proxy Options
 
 >In **version 7.5+**, there are two types of proxy configurations: Authentication and System proxies. Refer to [this document](https://docs.katalon.com/katalon-studio/docs/proxy-preferences.html) for further details.
 >
@@ -419,13 +433,12 @@ katalonc -noSplash -runMode=console -projectPath="C:\Users\Katalon Studio\Projec
    </tbody>
 </table>
 
-Integration Options
--------------------
+## Integration Options
 
 <table>
    <thead>
       <tr>
-         <th>Katalonc Command Line Option</th>
+         <th>Katalonc Command-line Option</th>
          <th>Description</th>
          <th>Mandatory?</th>
       </tr>
@@ -449,13 +462,12 @@ Integration Options
    </tbody>
 </table>
 
-Automatically Updating WebDriver Option
--------------------
+## Automatically Updating WebDriver Option
 
 <table>
    <thead>
       <tr>
-         <th>Katalonc Command Line Option</th>
+         <th>Katalonc Command-line Option</th>
          <th>Description</th>
          <th>Mandatory?</th>
       </tr>
@@ -469,32 +481,39 @@ Automatically Updating WebDriver Option
    </tbody>
 </table>
 
-Command Builder
----------------
+## Command Builder
 
-Use the following steps to quickly generate commands to use in console mode:  
+We recommend using the Command Builder to generate commands quickly and precisely. Please do as follows:
 
 1. Click on **Build CMD** from the main toolbar.
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/Screenshot-at-Jun-20-15-42-46.png)
 
-2. The **Generate Command for Console Mode** is displayed. Configure your options as needed.
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/image2018-2-9-113A443A30.png)
-    where:
+2. The **Generate Command for Console Mode** is displayed. Configure your execution with the provided options:
 
-    <table><thead><tr><th>Section</th><th>Description</th></tr></thead><tbody><tr><td>Test Suite</td><td>The Test Suite or Test Suite Collection to be executed</td></tr><tr><td>Executed Platform</td><td><p>The platform on which you execute the test. Select an environment</p><p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/image2018-2-9-123A13A31.png"></p><p>&nbsp;</p></td></tr><tr><td>Other Options</td><td><p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/image2017-2-17-163A193A15.png"></p></td></tr></tbody></table>
+   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/command-builder.png)
+
+   where:
+
+  * **Test Suite**: The Test Suite or Test Suite Collection to be executed
+  * **Executive Platform**: Testing environment and execution profile of the execution
+  * **Override the execution profile and environment of all test suites**: Check if you want the specified `-BrowserType` and `-ExecutionProfile` in the command to override the browser type and execution profile of all test suites in the collection (available from version **7.6 onwards**)
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/environment.png">
+
+  * Other Options:
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/other-options.png">
 
 3. Click **Generate Command** after completing the configuration.
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/image2017-2-17-173A153A41.png)
 
-4. You can **Copy to Clipboard** and paste to command prompt for execution.
+4. You can **Copy to Clipboard** and paste to the Command Prompt/Terminal for execution.
 
-Use console.properties file
----------------------------
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/command1.png">
+
+## Use `console.properties` file
 
 We support running console mode using the **console.properties** file where you can manually modify the content if needed.
 
 1. Generate a **console.properties** file using our generator:
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/image2018-2-9-123A33A30.png)
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/properties.png">
 
 2. The **console.properties** file is generated at your preferred location. You can open and update the parameters manually as needed.
     For example:

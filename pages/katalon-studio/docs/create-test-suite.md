@@ -42,71 +42,56 @@ You can specify additional configurations for test suite execution by expanding 
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/design-a-test-suite/image2017-2-15-143A493A29.png)
 
-<table>
-   <thead>
-      <tr>
-         <th>Field</th>
-         <th>Description</th>
-      </tr>
-   </thead>
-   <tbody>
-      <tr>
-         <td>
-            <p>Page load timeout:</p>
-            <p>&nbsp;<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/design-a-test-suite/image2017-2-15-143A563A48.png"></p>
-         </td>
-         <td>
-            <p>The timeout period to wait for a page to be loaded. You can choose from the following options:</p>
-            <ul>
-               <li><strong>Use default</strong>: the default value defined is used. Refer to <a href="/pages/viewpage.action?pageId=3179873">Execution Preferences (Version 5.0 and below)</a> for more details.</li>
-               <li><strong>User-defined value</strong>: the entered timeout value (in seconds) is used.</li>
-            </ul>
-            <p>&nbsp;</p>
-         </td>
-      </tr>
-      <tr>
-         <td>
-            <p>Retry:</p>
-            <p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/design-a-test-suite/retry-750.png"></p>
-         </td>
-         <td>
-            <p>The <strong>maximum</strong> number of retries for execution until it is successfully passed. You can opt to retry only <strong>failed</strong> test cases and/or <strong>failed</strong> test data.</p>
-            <blockquote class="important">
-               <p>Please note that Retrying Failed Test Data Only is only available for <strong>Katalon Studio Enterprise</strong> users in version <strong>7.5.0+</strong>.</p>
-            </blockquote>
-            <p>&nbsp;</p>
-         </td>
-      </tr>
-      <tr>
-         <td>
-            <p>Mail Recipients</p>
-            <p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/design-a-test-suite/image2017-2-15-153A123A46.png"></p>
-         </td>
-         <td>
-            <p>The list of recipients who would receive the execution report once the test suite finishes its execution.</p>
-            <blockquote class="important">
-               <p>There's also another list of recipients who will receive all the reports from Katalon by default. Refer to <a href="/display/KD/Emails+Settings">Emails Settings</a> for more details.</p>
-            </blockquote>
-         </td>
-      </tr>
-      <tr>
-         <td>
-            <p>Last run:</p>
-            <p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/design-a-test-suite/image2017-2-15-153A143A55.png"></p>
-         </td>
-         <td>
-            <p>The time when the test suite was last executed. You can quickly open the report of this execution by clicking on the <strong>Last run</strong> hyperlink.</p>
-            <p>&nbsp;</p>
-         </td>
-      </tr>
-   </tbody>
-</table>
+### Implicit timeout
+
+In **Implicit timeout**, you can decide the timeout period that Katalon waits for a page to be loaded by choosing one of the following options:
+<ul>
+   <li><strong>Use default</strong>: Use the predefined default value</li>
+   <li><strong>User define</strong>: Use the specified value (in seconds)</li>
+</ul>
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/design-a-test-suite/image2017-2-15-143A563A48.png">
+
+### Retry
+
+You can configure when and how many times Katalon retries an execution of a Test Suite until the Test Suite passes successfully.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/retry.png" width=396>
+
+**From version 7.6 onwards**
+
+> To significantly shorten the execution time, Katalon Studio supports retrying failed test executions **immediately**.
+
+Select one of the following options to decide when and which execution Katalon Studio will retry:
+
+* **Retry failed executions immediately** (only available for Katalon Studio Enterprise users): Retry a failed execution of a test case or test data immediately.
+
+   In **Retry after executing all**:
+
+* **Retry all executions**: Retry all executions when the Test Suite fails.
+* **Retry failed executions only**: Retry only failed executions when the Test Suite fails.
+
+**From version 7.6 backwards**
+
+You can opt to retry only <strong>failed</strong> test cases and/or <strong>failed</strong> test data.
+
+> Retrying **Failed Test Data Only** is available for **Katalon Studio Enterprise** users from version **7.5+**
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/design-a-test-suite/retry-750.png">
+
+### Mail Recipients
+
+You can add a list of recipients who will receive execution reports via email once the test suite finishes its execution.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/design-a-test-suite/image2017-2-15-153A123A46.png">
+
+There's also another list of recipients who will receive all the reports from Katalon by default. Refer to [Emails Settings](https://docs.katalon.com/katalon-studio/docs/execution-settings.html#emails-settings) for more details.
 
 ## Manage Test Case List
 
 There are several ways to add Test Cases into Test Suites. You can drag and drop the Test Case into Test Suites or using the Test Suite editor to manually add the test case.
 
->_Note: Test Cases can be duplicated in the same Test Suite._
+> Test Cases can be duplicated in the same Test Suite.
 
 Open a test suite, then select the option to add **Add Test Case** from the command toolbar.  
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/design-a-test-suite/image2017-2-15-143A333A40.png)

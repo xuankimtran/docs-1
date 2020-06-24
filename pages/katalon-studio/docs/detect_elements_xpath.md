@@ -1,8 +1,9 @@
 ---
-title: "Detecting elements with Xpath in Katalon Studio"
-sidebar: katalon_studio_tutorials_sidebar
-permalink: katalon-studio/tutorials/detect_elements_xpath.html
-description: "This article shows you how Katalon Studio provides supports to deal with the issue of detecting elements with Xpath."
+title: "Detecting objects with XPath"
+sidebar: katalon_studio_docs_sidebar
+permalink: katalon-studio/docs/detect_elements_xpath.html
+redirect_from:
+    - "/katalon-studio/tutorials/detect_elements_xpath.html"
 ---
 Detecting UI elements of the application under test (AUT) is crucial for automation testing since they are the main objects in test cases and test scripts. However, identifying them manually requires much time and experience in HTML. This task becomes even more challenging for objects that could not be identified by their common attributes or are located deep within another element (nested objects). This article shows you how Katalon Studio provides supports to deal with such cases.
 
@@ -37,9 +38,9 @@ How to identify nested elements?
 
 Identifying XPath is an effective way to find nested elements which can't be identified by common properties such as **ID**, **Name**, or **Class.** There are two ways to find XPath:
 
-*   **Detect XPath by other tools:** Web browsers usually have Adds-on support users to identify XPath. However, It can be a challenge since it depends on alot of the tools.
+* **Detect XPath by other tools:** Web browsers usually have Adds-on support users to identify XPath. However, It can be a challenge since it depends on alot of the tools.
 
-*   **Detect XPath by Katalon Studio:** Katalon Studio can generate and optimize XPath for HTML elements, regardless of how deeply nested they are. You can use these XPaths to identify elements without having to search through the DOM tree.
+* **Detect XPath by Katalon Studio:** Katalon Studio can generate and optimize XPath for HTML elements, regardless of how deeply nested they are. You can use these XPaths to identify elements without having to search through the DOM tree.
 
 The example below illustrates how Katalon Studio generates and optimizes XPath automatically when you spy on the **Sign up now** object (a nested object).
 
@@ -52,11 +53,11 @@ One of the challenging and time-consuming tasks in test automation is to modify 
 
 To deal with these challenges, automation testers should not set fixed XPaths for elements in test cases, but instead scripting XPaths dynamically based on certain patterns. Katalon Studio supports all **[Xpath Axes](https://www.w3schools.com/xml/xpath_axes.asp)**, such as
 
-*   following-sibling
-*   preceding-sibling
-*   contains
-*   descendant
-*   starts-with
+* following-sibling
+* preceding-sibling
+* contains
+* descendant
+* starts-with
 
 Here are a few examples:
 

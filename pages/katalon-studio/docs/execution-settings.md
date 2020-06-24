@@ -22,15 +22,50 @@ description:
 
 ## Execution Settings
 
-Execution settings help users to set preferred behaviors for Katalon Studio during test execution. You can configure general execution preferences by accessing from the main menu: **Project > Settings > Execution**.
+Execution settings help define the desired behaviors of Katalon Studio during test execution. To access default Execution Settings of a project,from the main menu, select **Project > Settings > Execution**
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/newui.png" width="" height="">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/default-execution.png" width="" height="">
+
+You can also see the following subviews:
+
+* Launch Arguments
+* WebUI
+* Web Service
+
+### Default Execution Settings
+
+* **Default execution**: The default environment that Katalon Studio uses for executing test scripts.
+* **Log executed test steps**: Decide whether the logs include executed test steps or not. [Learn more](https://docs.katalon.com/katalon-studio/docs/working-with-execution-log.html#log-executed-test-steps).
+* **Default wait for element timeout (in seconds)**: The default timeout period that Katalon Studio waits for the application under test to be loaded when executing automation test.
+* **Post-Execution Options**: These options decide the actions that Katalon Studio performs after finishing test execution.
+  * Open report: Specify whether the report generated after your test suite's execution finishes is to be opened immediately.
+  * Terminate drivers: Specify when any driver remains after execution is terminated.
 
 ### Allow editing JVM parameters in Execution Settings
 
-> Starting in version 7.2.4, Katalon Studio Enterprise users can edit VM arguments in Execution Settings.
+**Requirements**:
 
-VM Arguments entered in **Executions Settings** of a project change the behavior of a Java process of each execution. Currently, Katalon Studio does not support VM arguments' values containing space. Below is a list of most used JVM Parameters:
+* Katalon Studio version 7.2.4+
+* An active **Katalon Studio Enterprise** license
+
+You can edit VM arguments in Execution Settings by going to **Project > Settings > Execution > Launch Arguments**.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/vm-arguments.png">
+
+In the **VM Arguments** tab, enter your arguments. VM Arguments entered in **Executions Settings** of a project change the behavior of a Java process of each execution. For example:
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/settings.png">
+
+To make sure if the configuration works, please add this simple test case:
+
+```java
+import com.kms.katalon.core.util.KeywordUtil
+KeywordUtil.logInfo(System.getProperty("testme"))
+```
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/hello.png" width="" height="">
+
+Currently, Katalon Studio does not support VM arguments' values containing space. Below is a list of most used JVM Parameters:
 
 Specify minimal and maximal heap sizes
 
@@ -59,50 +94,111 @@ Handling Out of Memory
 * Issue emergency commands to be executed in case of out of memory error: `-XX:OnOutOfMemoryError="< cmd args >;< cmd args >"`
 * Limits the proportion of the VM's time that is spent in GC before an OutOfMemory error is thrown: `-XX:+UseGCOverheadLimit`
 
-Go to **Project > Settings > Execution > Launch Arguments**. In the **VM Arguments** tab, enter your arguments.
-
-Below is an example:
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/settings.png" width="" height="">
-
-To make sure if the configuration works, please add this simple test case:
-
-```groovy
-import com.kms.katalon.core.util.KeywordUtil
-KeywordUtil.logInfo(System.getProperty("testme"))
-```
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/hello.png" width="" height="">
-
-### Default Execution Settings
-
-* **Default execution**: The default environment that Katalon Studio uses for executing test scripts.
-
-* **Default Smart Wait**: to tell the web driver to wait for the web page to become static before any operations perform. [Learn more](https://docs.katalon.com/katalon-studio/docs/webui-smartwait.html).
-
-* **Default wait for element timeout**: The default timeout period (in seconds) that Katalon Studio waits for the application under test to be loaded when executing automation test.
-
-* **Log executed test steps**: to decide whether the logs include executed test steps or not. [Learn more](https://docs.katalon.com/katalon-studio/docs/working-with-execution-log.html#log-executed-test-steps).
-
-* **Post-Execution Options**: These options decide the actions that Katalon Studio performs after finishing test execution.
-
-  * Open report: Specify whether the report generated after your test suite's execution finishes is to be opened immediately.
-  * Terminate drivers: Specify when any driver remains after execution is terminated.
-
 ### WebUI Settings
 
-These settings decide the general behavior of Katalon Studio when executing WebUI testing.
+You can set default settings for Web UI test execution by going to **Project > Settings > Execution > WebUI**.
 
-* **Default wait when IE hangs**: Specify the default period of waiting that Katalon Studio should use in case IE hangs.
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/webui.png">
+
+These settings decide Katalon Studio's behaviors when executing WebUI test in a project.
+
+* **Default Smart Wait**: Tell the web driver to wait for the web page to become static before any operations performed. [Learn more](https://docs.katalon.com/katalon-studio/docs/webui-smartwait.html).
+* **Default wait when IE hangs**: Specify Katalon Studio's default waiting time when IE hangs.
 * **Default page load timeout**:
-
-  * *Wait until the page is loaded*: Katalon Studio waits for the web page to load completely.
-  * *Wait for (in seconds)*: The default timeout period (in seconds) that Katalon Studio waits for the web page to load.
-
+  * Wait until the page is loaded: Katalon Studio waits for the web page to load completely.
+  * Wait for (in seconds): The default timeout period (in seconds) that Katalon Studio waits for the web page to load.
 * **Delay between actions**: The time for Katalon Studio to wait between test steps when executing test cases.
+  * in seconds: This option is selected by default.
+  * in milliseconds: This option is supported in Katalon version 7.3+.
 
-  * *in seconds*: This option is selected by default.
-  * *in milliseconds*: This option is supported in Katalon version 7.3+.
+See also:
+
+* [Self-healing Tests for Web UI](https://docs.katalon.com/katalon-studio/docs/self-healing.html)
+
+### Web Service Settings
+
+**Requirements**
+
+* Katalon Studio version 7.6 onwards
+* An active Katalon Studio Enterprise license
+
+You can set default settings for Web Service test execution by going to **Project > Settings > Execution > Web Service**. The following global configurations are applied to both RESTful and SOAP requests in a project.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/web-service.png">
+
+* **Connection Timeout in milliseconds (0=unlimited)**: The time to establish the connection with the remote server. When it is set to 0 or left empty, Katalon waits for a response forever.
+* **Socket Timeout in milliseconds (0=unlimited)**: The time waiting for data – after establishing the connection.
+* **Max Response size in bytes**: The maximum number of bytes Katalon Studio renders from a response. When it is set to 0 or left empty, Katalon Studio downloads a response regardless of its size. Please note that downloading a large response may affect the application's performance.
+
+For your convenience, we provide a shortcut to this global settings in a test request's view.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/timeout-maxsize.png">
+
+### Web Service Settings in Script view
+
+**Requirements**
+
+* Katalon Studio version 7.6 onwards
+* An active Katalon Studio Enterprise license
+
+You can set request timeout and maximum response size via script by using built-in functions of Katalon Studio.
+
+**Request Timeout**
+
+* Override timeout settings of a project
+
+```java
+Map<String, Object> generalSettings = RunConfiguration.getExecutionGeneralProperties()
+generalSettings.put(RunConfiguration.REQUEST_CONNECTION_TIMEOUT, 3500)
+generalSettings.put(RunConfiguration.REQUEST_SOCKET_TIMEOUT, 3500)
+```
+
+* Change timeout settings of a specific test request
+
+```java
+RequestObject request = findTestObject("Object Repository/Localhost")
+request.setConnectionTimeout(3500)
+request.setSocketTimeout(3500)
+
+// Or to unset the timeout
+request.setConnectionTimeout(RequestObject.TIMEOUT_UNSET)
+request.setSocketTimeout(RequestObject.TIMEOUT_UNSET)
+
+// Or to set the timeout to unlimited
+request.setConnectionTimeout(RequestObject.TIMEOUT_UNLIMITED)
+request.setSocketTimeout(RequestObject.TIMEOUT_UNLIMITED)
+
+// Or if you just want to set to its default value (The default value is set to unlimited)
+request.setConnectionTimeout(RequestObject.DEFAULT_TIMEOUT)
+request.setSocketTimeout(RequestObject.DEFAULT_TIMEOUT)
+```
+
+**Maximum Response Size**
+
+> Katalon Studio also supports setting maximum response size of an execution by using `-maxResponseSize` in command line. [Learn more](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#general-options)
+
+* Override response size limit of a project
+
+```java
+Map<String, Object> generalSettings = RunConfiguration.getExecutionGeneralProperties()
+generalSettings.put(RunConfiguration.REQUEST_MAX_RESPONSE_SIZE, 400)
+```
+
+* Change maximum response size setting of a specific test request
+
+```java
+RequestObject request = findTestObject("Object Repository/Basic Auth")
+request.setMaxResponseSize(400)
+
+// Or to unset response size limit. And so, the project's max response size setting will be used.
+request.setMaxResponseSize(RequestObject.MAX_RESPONSE_SIZE_UNSET)
+
+// Or to set response size limit to unlimited
+request.setMaxResponseSize(RequestObject.MAX_RESPONSE_SIZE_UNLIMITED)
+
+// Or if you just want to set to its default value (The default value is set to unlimited)
+request.setMaxResponseSize(RequestObject.DEFAULT_MAX_RESPONSE_SIZE)
+```
 
 ## Emails Settings
 
@@ -110,7 +206,7 @@ These settings decide the general behavior of Katalon Studio when executing WebU
 
 To receive summary reports via email after the execution of **Test Suite** or **Test Suite Collection**, you need to configure global settings of email in **Project/Settings/Email**.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/emails-settings/new-ui.png" width="" height="">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/emails-settings/new-ui.png">
 
 By default, Katalon Studio is configured to send all report emails for Test Suite executions, including Test Suites in a Test Suite Collection.
 

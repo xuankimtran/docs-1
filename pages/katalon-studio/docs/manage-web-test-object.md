@@ -47,10 +47,9 @@ description:
 
 1. In the **Test Object Editor**, click **Add**.  
 2. The **Add property** dialog is displayed.
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/manage-web-test-object/add-property.png" width="473" height="162">
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/manage-web-test-object/add-property.png" width="473" height="162">
-
-where:
+   where:
 
 * **Name**: The name of the object property. The drop-down list provides some standard options for your selection (XPath, CSS, class, id, title), or you can enter manually.
 * **Match condition**: to search for the "_actual_" object in the AUT when executing automation tests.
@@ -66,39 +65,12 @@ Katalon Studio supports an ability to define parent iframe object within the tes
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/manage-test-object/image2018-9-6-103A263A6.png)
 
-## Properties used for detecting an object
-
-> * Available since version 5.0+
-> * [How to get Web objects XPath or CSS Locator](/x/5BZO#SpyWebUtility(latest)-HowtogetwebobjectsXPathorCSSLocator)
-> * [Object Identification Best Practices](/display/KD/Optimizing+Object+Identification+and+Tools)
-> * Configure [Web Object Locators Settings](https://docs.katalon.com/katalon-studio/docs/web-locators-settings-since-v571.html)
-
-### Selection Method
-
-Katalon Studio allows you to choose different ways to locate objects.
-
-#### XPath
-
-* Katalon Studio supports _Relative XPath_ for better object recognition. If an element cannot be consistently located using its direct attributes, Katalon Studio identifies the element by using its more robust neighbors.
-
-#### Attributes
-
-* Katalon Studio _automatically_ generates its **XPath** combined with object **properties** to locate the object. This **XPath** is displayed in **Selector Editor**.
-* A test object is typically built up by several properties. During test execution, Katalon Studio uses them to detect an object. Using the **Detect object by** field, you can determine which properties to be utilized for recognizing objects.  
-  
-  In the following example, Katalon Studio tries to find any object on AUT with both **text** and **XPath** to satisfy the defined criteria during execution.
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/manage-test-object/image2018-9-5-193A133A19.png)
-
-#### CSS
-
-* With CSS, you are allowed to input **CSS** locator for objects in **Selector Editor** manually.
-
 ## Validate Test Object on AUT
 
-You can add test objects to the **Web Object Spy** dialog to verify the detection in the application under test. Refer to [Spy Web Utility (version 4.8 and below)](https://docs.katalon.com/katalon-studio/docs/spy-web-utility-version-48-and-below.html) for details regarding how to validate captured objects against the application under test.
+You can add test objects to the **Web Object Spy** dialog to verify the detection in the application under test.
 
-To add an object to **Web Object Spy**, right-click on the item to open its context menu and select the option.  
+To add an object to **Web Object Spy**, right-click on the item to open its context menu and select the option.
+
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/manage-test-object/image2018-9-6-103A303A22.png)
 
 ## Test Objects in Script View
@@ -156,147 +128,19 @@ The following API docs may prove useful when working with test objects:
 | [getObjectId()](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html#getObjectId()) | Get an object ID. |
 | [findPropertyValue(String name, boolean caseSensitive)](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html#findPropertyValue(java.lang.String,%20boolean)) | Find the value of a property using the property name.|
 
-## Working with Objects Selection Method for Spy/Record Web
-
-> * Available since Katalon Studio version 5.0
-> * Katalon Studio **Object Properties** has the capability to **auto-saved** the content of **Selector Editor** when switching between modes of **Selection Method**.
-> * [Object Identification Best Practices](/display/KD/Optimizing+Object+Identification+and+Tools)
-> Configure [Web Object Locators Settings](https://docs.katalon.com/katalon-studio/docs/web-locators-settings-since-v571.html
-).
-
-Katalon Studio **Object Properties** makes Spying and Recording Web feature easier and more powerful. Enhanced Object Properties allows users:
-
-* Choose objects locating strategies including XPath (Smart XPath), Attributes or CSS.
-* Check only preferred object's properties on the grid.
-* Manually input the desired XPath or CSS locator in Selector Editor.
-
-### Xpath
-
-> Learn more about [Smart XPath (_a.k.a._ Relative XPath).](https://www.katalon.com/resources-center/blog/smart-xpath-generator/)
-
-Katalon Studio supports _Relative XPath_ for better object recognition. If an element cannot be consistently located using its direct attributes, Katalon Studio will identify the element by using its more robust neighbors. This method is visually intuitive as it reflects the way users often identify a visible element on the user interface.
-
-If **Xpath** option is selected, Katalon Studio will automatically generate a list of **Relative Xpath** based on your _Web Locators Setting_ to identify the element.
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/working-with-objects-selection-method-for-spyrecord-web/image2018-9-5-183A573A11.png)
-
-### Attributes
-
-If _Attributes_ option is **selected**, Katalon Studio will automatically generate **XPath** locator that **combined** all **selected** object **properties** to locate that object. You can _checked/unchecked_ preferred properties in the object **properties table.**
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/working-with-objects-selection-method-for-spyrecord-web/image2018-9-5-183A293A36.png)
-
-### CSS
-
-Test engineers who wish to manually input their own **CSS** locator for test objects can select CSS option. Once selected, object **properties table** will be **collapsed** and **Selector Editor** field becomes **editable**. Simply provide **CSS** locator in the _Selector Editor_ text box. 
-
-Same as Attributesoption, click on **Verify and Highlight** button to make sure Katalon Studio can locate the web objects. Katalon Studio will display the message on how many elements are **found** or **NOT** **found** with input XPath or CSS locator. If the object is **found**, it will be highlighted with the **red **border. 
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/working-with-objects-selection-method-for-spyrecord-web/image2018-9-5-183A503A16.png)
-
-Once finished, click **Save** to add objects to **Object Repository** as normal.
-
 ### Verify and Highlight
 
-Katalon Studio **Object Properties** has a built-in **Verify and Highlight** feature to help users double-check if the web objects can be located. Katalon Studio will display the message on how many elements are **found** or **NOT** **found** with generated XPath locator. If the object is **found**, it will be highlighted with the **red **border.
+Katalon Studio **Object Properties** has a built-in **Verify and Highlight** feature to help users double-check if the web objects can be located. Katalon Studio will display the message on how many elements are **found** or **NOT found** with generated XPath locator. If the object is **found**, it will be highlighted with the **red** border.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/working-with-objects-selection-method-for-spyrecord-web/image2018-9-5-183A303A43.png)
 
 Once finished, click **Save** to add the object to **Object Repository** as normal.
-
-## Working with Shadow DOM Objects
-
-[Shadow DOM](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Shadow_DOM) provides a powerful and useful solution for Web Developers. However, it becomes a challenge for automation testing because Shadow DOM elements inside a shadow root technically do not exist in the main document. Therefore, test automation frameworks that relying on XPath or querySelector to discover elements will not work with Shadow DOM.
-
-Katalon Studio allows users to work with Shadow DOM elements. First, users need to use Spy Web feature to capture parent objects that contains Shadow DOM elements.
-
-Next step is to identify the properties of Shadow DOM element and create a new object in Katalon Studio with properties defined accordingly.
-
-In the new object setting, select **Shadow Root Parent** option and define with parent object from the firs step. This allows Katalon Studio traverse through parent object via generated CSS selector to detect Shadow DOM object by its properties (Refer to [Object Properties](/display/KD/Manage+Test+Object#ManageTestObject-Propertiesusedfordetectingobject)).
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/working-with-shadow-dom-objects/image2017-8-24-153A273A58.png)
-
-For example, the following test execution log shows Katalon Studio tried to find parent object first. Once parent object was found, Katalon Studio will try to find Shadow DOM element by CSS selector:
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/working-with-shadow-dom-objects/image2017-8-24-163A43A40.png)
 
 ### Limitations
 
 * Only for **[Chrome](http://caniuse.com/#feat=shadowdom)** browser (53 to latest Version). Other browsers will be considered for future releases.
 * Only allow 1 level of nested Shadow DOM parent
 * Record and Spy feature will not work with Shadow DOM (due to elements do not exist in the DOM).
-
-## Change CSS selector of an object at runtime
-
-To change a Test Object's CSS value at runtime:
-
-```groovy
-import com.kms.katalon.core.testobject.SelectorMethod
-
-TestObject to = findTestObject('your_test_object_id')
-
-//Change value of CSS selector
-to.setSelectorValue(SelectorMethod.CSS, 'your_desired_value')
-
-//Change selection method from another selector to CSS selector
-to.setSelectorMethod(SelectorMethod.CSS)
-```
-
-See also:
-
-* [getSelectorCollection](https://api-docs.katalon.com/com/kms/katalon/core/testobject/SelectorCollector.html#getSelectorCollection())
-* [getSelectorMethod](https://api-docs.katalon.com/com/kms/katalon/core/testobject/SelectorCollector.html#getSelectorMethod())
-* [setSelectorMethod](https://api-docs.katalon.com/com/kms/katalon/core/testobject/SelectorCollector.html#setSelectorMethod(com.kms.katalon.core.testobject.SelectorMethod))
-* [setSelectorValue](https://api-docs.katalon.com/com/kms/katalon/core/testobject/SelectorCollector.html#setSelectorValue(com.kms.katalon.core.testobject.SelectorMethod,%20java.lang.String))
-
-## Modify object properties at runtime
-
-If you have multiple and similar objects you want to quickly interact with during test execution, and you really don't want to spend time writing duplicate steps to interact with them, the approach below will help you reduce the time and make your code nicer:
-
-Use CSS or XPath to locate your elements, and then you start changing the IDs (let's say). For example:
-
-```groovy
-TestObject yourObject = WebUI.modifyObjectProperty(findTestObject('Object Repository/Some object'), 'css', 'equals', '#${i}', true)
-```
-
-where 'i' is the loop counter. You can put it all inside of a loop that will read your excel sheet:
-
-```groovy
-for (def i=0; i <= fineTestData('Path to your excel').getRowNumbers(); i++) {}
-
-```
-
-```groovy
-https://www.katalon.com/resources-center/tutorials/data-driven-testing/ for linking data with test.
-```
-
-**References:**
-
-* **[\[](/display/KD/%5BWebUI%5D+Modify+Object+Property)**[WebUI\] Modify Object Property](/display/KD/%5BWebUI%5D+Modify+Object+Property)
-* [Data-Driven Testing](/katalon-studio/tutorials/data-driven-testing/)
-
-_Credit to [Mate Mrse](https://forum.katalon.com/discussion/7010/how-to-test-clicking-multiple-objects-without-starting-over#lComment_16209)_
-
-## Creation of Test Object in Memory at Runtime
-
-You can create a new Test Object in Object Repository during runtime using this custom keyword:
-
-```groovy
-/**
-* Construct a Katalon-compatible TestObject in memory.
-* @param css (String) The CSS selector used to find the target element.
-* @return (TestObject) The constructed TestObject. 
-*/
-@Keyword
-static TestObject makeTO(String css) {
-	TestObject to = new TestObject()
-	to.addProperty("css", ConditionType.EQUALS, css)
-	return to
-}
-
-```
-
-_Credit to [Russ Thomas](https://forum.katalon.com/discussion/6171/creation-of-test-object-in-object-repository-in-runtime#Comment_13991)_
 
 ## Visual Object Recognition
 
@@ -345,3 +189,67 @@ In Test Explorer, under the **Screenshots** folder, you can see the **Matched El
 
 **Capture Tool**: To capture screenshots associated with your preferred web elements, we recommend using the built-in screen-capturing feature in Web Recorder and Spy Tools. Particularly, on the expanded view after clicking **Show Captured Objects**, select the **Add Screenshot** button on the bottom right corner.
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/recorder.png" width="" height="">
+
+## Work with Shadow DOM Objects
+
+[Shadow DOM](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Shadow_DOM) provides a powerful and useful solution for Web Developers. However, it becomes a challenge for automation testing because Shadow DOM elements inside a shadow root technically do not exist in the main document. Therefore, test automation frameworks that relying on XPath or querySelector to discover elements will not work with Shadow DOM.
+
+Katalon Studio allows users to work with Shadow DOM elements. First, users need to use Spy Web feature to capture parent objects that contains Shadow DOM elements.
+
+Next step is to identify the properties of Shadow DOM element and create a new object in Katalon Studio with properties defined accordingly.
+
+In the new object setting, select **Shadow Root Parent** option and define with parent object from the firs step. This allows Katalon Studio traverse through parent object via generated CSS selector to detect Shadow DOM object by its properties (Refer to [Object Properties](/display/KD/Manage+Test+Object#ManageTestObject-Propertiesusedfordetectingobject)).
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/working-with-shadow-dom-objects/image2017-8-24-153A273A58.png)
+
+For example, the following test execution log shows Katalon Studio tried to find parent object first. Once parent object was found, Katalon Studio will try to find Shadow DOM element by CSS selector:
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/working-with-shadow-dom-objects/image2017-8-24-163A43A40.png)
+
+## Modify object properties at runtime
+
+If you have multiple and similar objects you want to quickly interact with during test execution, and you really don't want to spend time writing duplicate steps to interact with them, the approach below will help you reduce the time and make your code nicer:
+
+Use CSS or XPath to locate your elements, and then you start changing the IDs (let's say). For example:
+
+```groovy
+TestObject yourObject = WebUI.modifyObjectProperty(findTestObject('Object Repository/Some object'), 'css', 'equals', '#${i}', true)
+```
+
+where 'i' is the loop counter. You can put it all inside of a loop that will read your excel sheet:
+
+```groovy
+for (def i=0; i <= fineTestData('Path to your excel').getRowNumbers(); i++) {}
+
+```
+
+```groovy
+https://www.katalon.com/resources-center/tutorials/data-driven-testing/ for linking data with test.
+```
+
+**References:**
+
+* **[\[](/display/KD/%5BWebUI%5D+Modify+Object+Property)**[WebUI\] Modify Object Property](/display/KD/%5BWebUI%5D+Modify+Object+Property)
+* [Data-Driven Testing](/katalon-studio/tutorials/data-driven-testing/)
+
+_Credit to [Mate Mrse](https://forum.katalon.com/discussion/7010/how-to-test-clicking-multiple-objects-without-starting-over#lComment_16209)_
+
+## Creation of Test Object in Memory at Runtime
+
+You can create a new Test Object in Object Repository during runtime using this custom keyword:
+
+```groovy
+/**
+* Construct a Katalon-compatible TestObject in memory.
+* @param css (String) The CSS selector used to find the target element.
+* @return (TestObject) The constructed TestObject. 
+*/
+@Keyword
+static TestObject makeTO(String css) {
+	TestObject to = new TestObject()
+	to.addProperty("css", ConditionType.EQUALS, css)
+	return to
+}
+
+```
+_Credit to [Russ Thomas](https://forum.katalon.com/discussion/6171/creation-of-test-object-in-object-repository-in-runtime#Comment_13991)_
