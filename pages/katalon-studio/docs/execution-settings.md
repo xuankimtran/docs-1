@@ -24,11 +24,10 @@ description:
 
 Execution settings help define the desired behaviors of Katalon Studio during test execution. To access default Execution Settings of a project,from the main menu, select **Project > Settings > Execution**
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/newui.png" width="" height="">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/default-execution.png" width="" height="">
 
-You can also configure see the following subviews:
+You can also see the following subviews:
 
-* Default Execution Settings
 * Launch Arguments
 * WebUI
 * Web Service
@@ -44,9 +43,29 @@ You can also configure see the following subviews:
 
 ### Allow editing JVM parameters in Execution Settings
 
-> Starting in version 7.2.4, Katalon Studio Enterprise users can edit VM arguments in Execution Settings.
+**Requirements**:
 
-VM Arguments entered in **Executions Settings** of a project change the behavior of a Java process of each execution. Currently, Katalon Studio does not support VM arguments' values containing space. Below is a list of most used JVM Parameters:
+* Katalon Studio version 7.2.4+
+* An active **Katalon Studio Enterprise** license
+
+You can edit VM arguments in Execution Settings by going to **Project > Settings > Execution > Launch Arguments**.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/vm-arguments.png">
+
+In the **VM Arguments** tab, enter your arguments. VM Arguments entered in **Executions Settings** of a project change the behavior of a Java process of each execution. For example:
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/settings.png">
+
+To make sure if the configuration works, please add this simple test case:
+
+```groovy
+import com.kms.katalon.core.util.KeywordUtil
+KeywordUtil.logInfo(System.getProperty("testme"))
+```
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/hello.png" width="" height="">
+
+Currently, Katalon Studio does not support VM arguments' values containing space. Below is a list of most used JVM Parameters:
 
 Specify minimal and maximal heap sizes
 
@@ -75,22 +94,11 @@ Handling Out of Memory
 * Issue emergency commands to be executed in case of out of memory error: `-XX:OnOutOfMemoryError="< cmd args >;< cmd args >"`
 * Limits the proportion of the VM's time that is spent in GC before an OutOfMemory error is thrown: `-XX:+UseGCOverheadLimit`
 
-Go to **Project > Settings > Execution > Launch Arguments**. In the **VM Arguments** tab, enter your arguments.
-
-Below is an example:
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/settings.png" width="" height="">
-
-To make sure if the configuration works, please add this simple test case:
-
-```groovy
-import com.kms.katalon.core.util.KeywordUtil
-KeywordUtil.logInfo(System.getProperty("testme"))
-```
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/hello.png" width="" height="">
-
 ### WebUI Settings
+
+You can set default settings for Web UI test execution by going to **Project > Settings > Execution > WebUI**.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/webui.png">
 
 These settings decide Katalon Studio's behaviors when executing WebUI test in a project.
 
@@ -103,23 +111,33 @@ These settings decide Katalon Studio's behaviors when executing WebUI test in a 
   * in seconds: This option is selected by default.
   * in milliseconds: This option is supported in Katalon version 7.3+.
 
-### Web Service Settings
+See also:
 
-The following global configurations are applied to both RESTful and SOAP requests in a project.
+* [Self-healing Tests for Web UI](https://docs.katalon.com/katalon-studio/docs/self-healing.html)
+
+### Web Service Settings
 
 **Requirements**
 
-* An active Katalon Studio Enterprise license
 * Katalon Studio version 7.6 onwards
+* An active Katalon Studio Enterprise license
+
+You can set default settings for Web Service test execution by going to **Project > Settings > Execution > Web Service**. The following global configurations are applied to both RESTful and SOAP requests in a project.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/web-service.png">
 
 * **Connection Timeout in milliseconds (0=unlimited)**: The time to establish the connection with the remote server. When it is set to 0 or left empty, Katalon waits for a response forever.
 * **Socket Timeout in milliseconds (0=unlimited)**: The time waiting for data – after establishing the connection
 
-> You can set the global timeout or override the global timeout settings in a certain test request via script. [Learn more]()
+   > You can set the global timeout or override the global timeout settings in a certain test request via script. [Learn more](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#general-options)
 
 * **Max Response size in bytes**: The maximum number of bytes Katalon Studio renders from a response. When it is set to 0 or left empty, Katalon Studio downloads a response regardless of its size. Please note that downloading a large response may affect the application's performance.
 
-> Katalon Studio also supports setting global maximum response size or overriding the global setting in a test request via script. [Learn more]()
+   > Katalon Studio also supports setting global maximum response size or overriding the global setting in a test request via script. [Learn more](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#general-options)
+
+For your convenience, we provide a shortcut to this global settings in a test request's view.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/timeout-maxsize.png">
 
 ## Emails Settings
 
