@@ -59,15 +59,15 @@ Before version 7.6, Katalon Studio only supports the Attributes Selection Method
 
 10. **iOS Class Chain**
 
-   > [Locate an object by iOS Class Chain](https://github.com/facebookarchive/WebDriverAgent/wiki/Class-Chain-Queries-Construction-Rules)
+    > [Locate an object by iOS Class Chain](https://github.com/facebookarchive/WebDriverAgent/wiki/Class-Chain-Queries-Construction-Rules)
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-selector-strategies/ios_class_chain.png" width=365>
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-selector-strategies/ios_class_chain.png" width=365>
 
 11. **Custom**
 
-   >[Learn more](http://appium.io/docs/en/advanced-concepts/element-finding-plugins/)
+    >[Learn more](http://appium.io/docs/en/advanced-concepts/element-finding-plugins/)
    
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-selector-strategies/custom.png" width=370>
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-selector-strategies/custom.png" width=370>
 
 ### In Script View
 
