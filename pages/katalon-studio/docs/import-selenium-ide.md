@@ -8,7 +8,7 @@ In addition to [importing Selenium/TestNG/JUnit projects](https://docs.katalon.c
 
 [Selenium IDE](https://www.selenium.dev/selenium-ide/) is an integrated development environment for Selenium tests. It is implemented as a Chrome add-on and Firefox extension, which allows users to record, edit, and debug tests. Katalon Studio supports the latest versions of Selenium IDE projects (v3.x).
 
-This manuals shows you how to import a Selenium IDE project to a project in Katalon Studio and how Katalon Studio maps the imported test artifacts. Also, a sample Selenium IDE project is provided for you to try out our newly supported feature.
+This manual shows you how to import a Selenium IDE project to a project in Katalon Studio and how Katalon Studio maps the imported test artifacts. Also, a sample Selenium IDE project is provided for you to try out our newly supported feature.
 
 **Requirements**
 

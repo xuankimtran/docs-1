@@ -127,7 +127,7 @@ You can set default settings for Web Service test execution by going to **Projec
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/web-service.png">
 
 * **Connection Timeout in milliseconds (0=unlimited)**: The time to establish the connection with the remote server. When it is set to 0 or left empty, Katalon waits for a response forever.
-* **Socket Timeout in milliseconds (0=unlimited)**: The time waiting for data – after establishing the connection
+* **Socket Timeout in milliseconds (0=unlimited)**: The time waiting for data – after establishing the connection.
 * **Max Response size in bytes**: The maximum number of bytes Katalon Studio renders from a response. When it is set to 0 or left empty, Katalon Studio downloads a response regardless of its size. Please note that downloading a large response may affect the application's performance.
 
 For your convenience, we provide a shortcut to this global settings in a test request's view.

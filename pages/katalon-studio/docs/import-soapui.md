@@ -11,7 +11,7 @@ To import RESTful requests from a SoapUI project Katalon Studio, please do as fo
 
 1. Open or create a project then
 
-* Click on the **Import Rest Services from SoapUI** icon (only available for API/Web Service project type) or
+* Click on the **Import Rest Services from SoapUI** icon (only available for API/Web Service project type); or
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-soapui/icon.png">
 

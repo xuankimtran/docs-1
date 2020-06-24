@@ -21,7 +21,7 @@ Unless Katalon Studio can find the target object, depending on the [failure hand
 
 In a Katalon Studio project, you can find a screen in project settings dedicated to Self-healing. You can change the default settings to make the utility better suit your need.
 
-* Go to **Project/Settings/Self-Healing/Web UI** or
+* Go to **Project/Settings/Self-Healing/Web UI**; or
 * From the toolbar of Katalon Studio, click on the **Self-Healing** icon and select **Open Self-Healing Settings**.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/self-healing/selfhealing-icon.png" width=251>
