@@ -149,7 +149,7 @@ Once finished, click **Save** to add the object to **Object Repository** as 
 * Your Katalon Studio version must be 7.2.2 or later.
 * You need an active Katalon Studio Enterprise license.
 
-Image-based object recognition in web testing is a fallback strategy that allows using an image representing an object to find that object during test execution. This feature proves helpful in case the web elements retain their appearances even though the underlying HTML structures have changed.
+Image-based object recognition in web testing allows using an image representing an object to find that object during test execution. This feature proves helpful in case the web elements retain their appearances even though the underlying HTML structures have changed.
 
 **Given** that a web element has the screenshot property.\
 **When** Katalon fails to find a web element by its selected locator.\
@@ -159,13 +159,23 @@ Using the image-based locating algorithm, Katalon Studio identifies the recognit
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/fallback-strategy.gif" width="" height="">
 
-### Configuration
+### Enable Image-based object recognition
+
+**From 7.6 onwards**
+
+Image-based object recognition is enabled by default for web test execution in **Project > Settings > Self-Healing > Web UI > Test Execution** ([See Self-healing Tests](https://docs.katalon.com/katalon-studio/docs/self-healing.html)).
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/image-enabled.png" width="" height="">
+
+**Before 7.6**
 
 By default, image-based object recognition is disabled in Project Settings. Please go to **Project > Settings > Execution** and check **Enable Image Recognition** to turn on this fallback strategy.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/enable.png" width="" height="">
 
-The ingredients required for this feature include:
+### Capture screenshot and create screenshot property of an object
+
+The ingredients required for the image-based object location to work include:
 
 * Target screenshots of a web element
 * The screenshot property of that element
