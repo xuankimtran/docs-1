@@ -17,13 +17,13 @@ description: Release note 7.x
 
 ## Version 7.6 Beta
 
-You can download the Beta version of 7.6 [here](https://github.com/katalon-studio/katalon-studio/releases).
+You can download the Beta version of 7.6 [here](https://github.com/katalon-studio/katalon-studio/releases/tag/v7.6.0).
 
 ### New features
 
+* [Katalon Studio Enterprise] Support Self-Healing Web tests. [Learn more](https://docs.katalon.com/katalon-studio/docs/self-healing.html)
 * [Katalon Studio Enterprise] Support setting timeout and maximum response size in API test requests. [Learn more](https://docs.katalon.com/katalon-studio/docs/execution-settings.html#web-service-settings)
-* [Katalon Studio Enterprise] Support Self-Healing for Web testing. [Learn more](https://docs.katalon.com/katalon-studio/docs/self-healing.html)
-* [Katalon Studio Enterprise] Support retrying failed test execution immediately in Test Suite's execution. [Learn more](https://docs.katalon.com/katalon-studio/docs/test-suite.html#retry)
+* [Katalon Studio Enterprise] Support retrying failed test executions immediately in Test Suite's execution. [Learn more](https://docs.katalon.com/katalon-studio/docs/test-suite.html#retry)
 * [Mobile Testing] Fully support Selector Strategies. [Learn more](https://docs.katalon.com/katalon-studio/docs/locators_object_identification.html)
 * [Mobile Testing] Support App Center Test integration. [Learn more](https://docs.katalon.com/katalon-studio/docs/app-center.html)
 * [API Testing] Support importing RESTful requests from SoapUI to Katalon Studio. [Learn more](https://docs.katalon.com/katalon-studio/docs/import-soapui.html)
@@ -33,8 +33,9 @@ You can download the Beta version of 7.6 [here](https://github.com/katalon-studi
 
 ### Improvements
 
-* [Katalon Studio Enteprise] Applitools Integration plugin becomes a built-in feature with its libraries updated to the latest versions
+* [Katalon Studio Enteprise] Applitools Integration becomes a built-in feature with its libraries updated to the latest versions
 * Support updating Microsoft Edge (Chromium) driver in Katalon Studio Tools
+* Set Chrome as the default browser
 
 ## Pre-release - Version 7.5.10
 
