@@ -21,10 +21,10 @@ Unless Katalon Studio can find the target object, depending on the [failure hand
 
 In a Katalon Studio project, you can find a screen in project settings dedicated to Self-healing. You can change the default settings to make the utility better suit your need.
 
-* Go to **Project/Settings/Self-healing/Web UI** or
-* From the toolbar of Katalon Studio, click on the **Self-healing** icon and select **Open Self-healing Settings**.
+* Go to **Project/Settings/Self-Healing/Web UI** or
+* From the toolbar of Katalon Studio, click on the **Self-Healing** icon and select **Open Self-Healing Settings**.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/self-healing/Self-healing-insights.png">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/self-healing/selfhealing-icon.png" width=251>
 
 ## Configure Test Design
 
@@ -35,20 +35,24 @@ Go to **Project/Settings/Self-healing/Web UI/Test Design**, select one of the pr
 * [CSS](http://docs.katalon.com/katalon-studio/docs/web-selection-methods.html#css)
 * [Image](http://docs.katalon.com/katalon-studio/docs/web-selection-methods.html#image)
 
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/self-healing/test-design.png">
+
 If you choose XPath or Attributes, you need to configure some additional settings:
 
-* **XPath**: set the priority of XPath locators. Click **Reset Default** to return to the default order
-* **Attributes**: select the attributes used for detecting an object.
+* **XPath**: set the priority of XPath locators. Click **Reset Default** to return to the default order.
+* **Attributes**: select the attributes used for detecting an object. Click **Reset Default** to return to the default setting.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/self-healing/test-design-attributes.png">
 
 ## Configure Self-healing Execution
 
 As aforementioned, Katalon Studio enables the Self-healing mode for your project by default.
 
-You can decide which alternative locators to be used in terms of selection methods and their priorities in **Project/Settings/Self-Healing/Web UI/Execution**. During execution, when Katalon fails to find an object, the selected selection methods in this global setting are used in the predefined order.
+You can decide which alternative locators to be used in terms of selection methods and their priorities in **Project/Settings/Self-Healing/Web UI/ Test Execution**. During execution, when Katalon fails to find an object, the selected selection methods in this global setting are used in the predefined order.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/self-healing/execution-view.png">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/self-healing/selfhealing-execution.png">
 
-In the **Self-healing Execution Settings** view:
+In the **Test Execution** view:
 
 1. Select one or multiple selection methods used for self-healing tests:
 
@@ -59,17 +63,11 @@ In the **Self-healing Execution Settings** view:
 
 2. Prioritize the selected ones by moving them up and down.
 
-### Override in Object's view
-
-In an Object's view, you can decide the default Selection Method for detecting that object during execution. This configuration overrides the global setting in a project.
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/self-healing/override.png">
-
 ### Exclude objects used with keywords
 
 In some scenarios, you don't need the test engine to try out different locators to find a non-existing object. Hence, you can turn off the Self-healing mode when detecting objects used with specific keywords.
 
-To decide which keyword to exclude from the Self-healing mode, in **Project/Settings/Self-Healing/Web UI/Execution**, add keywords to the exception list. When an object is used with the specified keywords in this field, Katalon Studio does not try locating that object with self-healing mode.
+To decide which keyword to exclude from the Self-healing mode, in **Project/Settings/Self-Healing/Web UI/Test Execution**, add keywords to the exception list. When an object is used with the specified keywords in this field, Katalon Studio does not try locating that object with self-healing mode.
 
 For example:
 
@@ -87,21 +85,29 @@ WebUI.verifyElementPresent(username, 5)
 
 **Then** the **input_Username_username** object cannot be self-healed, and the test fails as expected.
 
+### Override in Object's view
+
+In an Object's view, you can decide the default Selection Method for detecting that object during execution. This configuration overrides the global setting of *Self-Healing/Web UI/Test Execution* in that project.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/self-healing/override.png">
+
 ## Enable and disable Self-healing mode
 
-Self-healing mode is turned on by default in a project. If you wish to disable this mode in the project, please go to **Project/Settings/Self-Healing/Web UI/Execution** and uncheck **Enable self-healing execution**.
+Self-healing mode is turned on by default in a project. If you wish to disable this mode in the project, please go to **Project/Settings/Self-Healing/Web UI/Test Execution** and uncheck **Enable self-healing execution**.
 
-From the toolbar of Katalon Studio, click on the **Self-healing** icon, toggle between Enable and Disable Self-healing.
+From the toolbar of Katalon Studio, click on the **Self-Healing** icon, toggle between **Enable** and **Disable Self-Healing**.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/self-healing/selfhealing-icon.png" width=251>
 
 ## Understand Self-healing Insights
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/self-healing/self-healing-report.png">
 
-When Katalon Studio finds an object thanks to the Self-healing mechanism, all the replacements are recorded in **Self-healing Insights** when the test run is over. The locator replacement is **temporary** during the test run. To make the change permanent, you need to approve the change.
+When Katalon Studio finds an object thanks to the Self-healing mechanism, all the replacements are recorded in **Self-Healing Insights** when the test run is over. The locator replacement is **temporary** during the test run. To make the change permanent, you need to approve the change.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/self-healing/Self-healing-insights.png">
 
-Right next to the Log Viewer tab, there is a new tab called **Self-healing Insights** which displays the following information:
+Right next to the Log Viewer tab, there is a new tab called **Self-Healing Insights** which displays the following information:
 
 * **Test Object ID**: The ID of broken test objects.
 * **Broken Locator**:  The default locator that couldn't detect the object during execution.
@@ -118,17 +124,17 @@ After selecting one or multiple proposed locators, you can **discard** or **appr
 
 ### Capture objects with Recording/Spying
 
-1. Since Self-healing is active by default, go to **Project/Settings/Self-healing/Web UI/Test Design** to choose the default selection method during spying/recording.
+1. Since Self-healing is active by default, go to **Project/Settings/Self-Healing/Web UI/Test Design** to choose the default selection method during spying/recording.
 2. Capture objects and change the locators as your wish
 
 ### Execute the test case
 
-1. Go to **Project/Settings/Self-healing/Web UI/Execution** to choose selection methods for self-healing execution and their order.
+1. Go to **Project/Settings/Self-Healing/Web UI/Test Execution** to choose selection methods for self-healing execution and their order.
 2. Run your test case
 
 ### Approve the replacement
 
-1. Have a look at **Self-healing Insights** and discover if there is any broken locator that has been recovered by Self-healing at runtime.
+1. Have a look at **Self-Healing Insights** and discover if there is any broken locator that has been recovered by Self-healing at runtime.
 2. Verify if the found object is the one you expect
 3. Approve the replacement to make it permanent
 
