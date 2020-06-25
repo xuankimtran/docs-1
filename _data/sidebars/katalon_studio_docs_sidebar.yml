@@ -767,6 +767,8 @@ items:
                 url: /katalon-studio/docs/windows-kw-findelement.html
               - title: "[Windows] Find Elements"
                 url: /katalon-studio/docs/windows-kw-findelements.html
+              - title: "[Windows] Get Attribute"
+                url: /katalon-studio/docs/windows-kw-get-attribute.html
               - title: "[Windows] Get Element Position"
                 url: /katalon-studio/docs/windows-kw-get-element-position.html
               - title: "[Windows] Get Element Rectangle"
@@ -777,6 +779,8 @@ items:
                 url: /katalon-studio/docs/windows-kw-get-driver.html
               - title: "[Windows] Right-click"
                 url: /katalon-studio/docs/windows-kw-rightclick.html
+              - title: "[Windows] Set Encrypted Text"
+                url: /katalon-studio/docs/windows-kw-set-encrypted-text.html
               - title: "[Windows] Switch to Window"
                 url: /katalon-studio/docs/windows-kw-switch-window.html
               - title: "[Windows] Switch to Window Title"
@@ -797,6 +801,18 @@ items:
                 url: /katalon-studio/docs/windows-kw-switch-window-title.html
               - title: "[Windows] Switch to Window"
                 url: /katalon-studio/docs/windows-kw-switch-window.html
+              - title: "[Windows] Verify Element Attribute Value"
+                url: /katalon-studio/docs/windows-kw-verify-element-attribute-value.html
+              - title: "[Windows] Verify Element Not Present"
+                url: /katalon-studio/docs/windows-kw-verify-element-not-present.html
+              - title: "[Windows] Verify Element Present"
+                url: /katalon-studio/docs/windows-kw-verify-element-present.html
+              - title: "[Windows] Wait for Element Attribute Value"
+                url: /katalon-studio/docs/windows-kw-wait-element-attribute-value.html
+              - title: "[Windows] Wait for Element Not Present"
+                url: /katalon-studio/docs/windows-kw-wait-element-not-present.html
+              - title: "[Windows] Wait for Element Present"
+                url: /katalon-studio/docs/windows-kw-wait-element-present.html
           - title: "Cucumber Keywords"
             tree:
             - title: "[Cucumber] Run Feature File with Tags"
