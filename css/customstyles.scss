@@ -20,6 +20,11 @@ body {
 }
 
 .content {
+  table {
+    th, td {
+      word-break: break-word;
+    }
+  }
   ul, ol {
     padding-inline-start: 2em;
     li {
