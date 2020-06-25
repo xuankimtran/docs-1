@@ -6,13 +6,15 @@ permalink: katalon-studio/docs/self-healing.html
 
 Commonly, object locators are easily broken or unable to identify the target element when the application under test (AUT) changes. Hence creating and using correct and resilient locators are crucial to the success of Web UI test automation.
 
-Before introducing the self-healing execution mode in version 7.6, Katalon Studio supported Auto-healing Smart XPath. This plugin recovers the broken default locator by trying other available XPath alternatives. Inheriting the idea of Auto-healing smart XPath, Katalon Studio launches a Self-healing mechanism that is more advanced and comprehensive to tackle the issue of broken locator during execution. We hope this powerful utility to reduce your test maintenance effort substantially, exceptionally when the test cases run in batch overnight.
+Before introducing the self-healing execution mode in version 7.6, Katalon Studio supported Auto-healing Smart XPath. This plugin recovers the broken default locator by trying other available XPath alternatives. Leveraging the idea of Auto-healing smart XPath, Katalon Studio launches a Self-healing mechanism that is more advanced and comprehensive to tackle the issue of broken locator during execution. We hope this powerful utility to reduce your test maintenance effort substantially, exceptionally when the test cases run in batch overnight.
 
 ## Self-healing mechanism
 
-When the self-healing mode is activated (by default), and Katalon Studio fails to find an object with its default locator, Katalon tries other pre-configured locators associated with that object. If Katalon Studio finds an object by any of the alternative selectors, the test continues running using that object. When the test execution is over, Katalon Studio will propose replacing the broken locator with the locator having found the object.
+When the self-healing mode is activated (by default), and Katalon Studio fails to find an object with its default locator, Katalon tries other pre-configured locators associated with that object.
 
-Unless Katalon Studio can find the target object, depending on the [failure handling option](https://docs.katalon.com/katalon-studio/docs/failure-handling.html) that you have designed, the test execution may stop or keep going.
+If Katalon Studio finds an object by any of the alternative selectors, the test continues running. Once the broken object is self-healed, the alternative locator finding the object is used for that particular broken Test Object for the remaining execution. This helps shorten execution time by preventing self-healing from taking place again and again with the same broken object.
+
+When the test execution is over, Katalon Studio will propose replacing the broken locator with the locator having found the object. Unless Katalon Studio can find the target object, depending on the [failure handling option](https://docs.katalon.com/katalon-studio/docs/failure-handling.html) that you have designed, the test execution may stop or keep going.
 
 **Requirements**
 

@@ -66,10 +66,10 @@ Select one of the following options to decide when and which execution Katalon S
 
 * **Retry failed executions immediately** (only available for Katalon Studio Enterprise users): Retry a failed execution of a test case or test data immediately.
 
-   In **Retry after executing all**:
+* In **Retry after executing all**:
 
-* **Retry all executions**: Retry all executions when the Test Suite fails.
-* **Retry failed executions only**: Retry only failed executions when the Test Suite fails.
+   * **Retry all executions**: Retry all executions when the Test Suite fails.
+   * **Retry failed executions only**: Retry only failed executions when the Test Suite fails.
 
 **From version 7.6 backwards**
 
