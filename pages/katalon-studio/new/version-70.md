@@ -12,6 +12,8 @@ redirect_from:
     - "/katalon-studio/new/version-71/"
     - "/katalon-studio/new/version-71.html"
     - "/katalon-studio/new/version-70/"
+    - "/katalon-studio/new/version-48.html"
+    - "/katalon-studio/new/version-501.html"
 description: Release note 7.x
 ---
 
