@@ -29,12 +29,12 @@ Katalon Studio will compare the values in Response Body with the predefined valu
 
 Once the verification snippets are generated, you can use it in either in your current Web Service's object or in your Test Case
 
-*   **_In Web Service's object_**: Click on drop-down button next to '**Play**' button in Web Service object's details and select 'Test Request and Verify'.   
+*   **_In Web Service's object_**: Click on drop-down button next to '**Play**' button in Web Service object's details and select 'Test Request and Verify'.
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/copy-of-verification-snippets/Untitled3.png)  
       
     It will send the current request and also execute verification snippets. Verification logs executed using verification snippets will be displayed on '**Verification Log**' tab. If you don't want to send a test request using current verification snippets, then just click on '**Play'** button.  
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/copy-of-verification-snippets/Screenshot_14.png)
-*   **_In test case_**:  Use '[Send Request and Verify](/display/KD/%5BWS%5D+Send+Request+And+Verify)' keyword. This will also send the current request and execute verification snippets. 
+*   **_In test case_**:  Use Send Request and Verify keyword. This will also send the current request and execute verification snippets. 
     
     ```groovy
     WS.sendRequestAndVerify(findTestObject('REST_CommentDetails'))
@@ -50,12 +50,12 @@ List of Available Verification Snippets
 
 On the right panel of 'Verification' tab is the list of common pre-built snippets which can assist you in most of the verification cases. 
 
-| Snippet | Description | Available Since |
-| --- | --- | --- |
-| Get current response | Return response object after sending a request successfully. | 5.5 |
+| Snippet | Description
+| --- | --- |
+| Get current response | Return response object after sending a request successfully. |
 | Get a global variable | Return a Global Variable's value. |
-| Get a variable | Return the value of a [variable](/pages/viewpage.action?pageId=13701134#ParameterizeaWebServiceObject(latest)-Variables(since5.7)) that you've created in the Web Service Test Object. | 5.7 |
-| Response body: Contains string | Verify if response's body contains a specific string. | 5.5 |
+| Get a variable | Return the value of a variable) that you've created in the Web Service Test Object. |
+| Response body: Contains string | Verify if response's body contains a specific string. |
 | Response body: Convert to JSON Object | Convert response's body to JSON. |
 | Response headers: Content-Type header | Verify Content-Type header's value. |
 | Status code: Code is 200 | Verify if response's status code is 200 or no. |

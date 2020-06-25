@@ -3,7 +3,7 @@ title: "Basic Search For Dynamic Test Suite"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/basic-search-for-dynamic-querying-test-suite.html
 
-description: 
+description:
 ---
 
 [Dynamic Test Suite](https://docs.katalon.com/katalon-studio/docs/dynamic-querying-test-suite.html) allows you to define the query search and manage query plugins from Katalon Store. [Basic Search For Dynamic Test Suite](https://store.katalon.com/product/2/Basic-Search-For-Dynamic-Test-Suite) is one of them. This plugin enables the basic search capability to look for test cases faster in Katalon Studio and help filter which test cases to be executed.
