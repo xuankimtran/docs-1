@@ -3,6 +3,7 @@ title: "Web Test Object"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/manage-web-test-object.html 
 redirect_from:
+    - "/katalon-studio/docs/manage-test-object.html"
     - "/display/KD/Manage+Test+Object/"
     - "/display/KD/Manage%20Test%20Object/"
     - "/x/HoUw/"

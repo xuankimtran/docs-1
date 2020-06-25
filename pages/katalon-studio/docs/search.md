@@ -9,7 +9,7 @@ redirect_from:
     - "/katalon-studio/docs/advanced-search.html"
     - "/katalon-studio/docs/advanced+search.html"
     - "/katalon-studio/docs/advanced%20search.html"
-
+    - "/katalon-studio/docs/dynamic-querying-test-suite.html"
 description: 
 ---
 > Query Builder applies ONLY to **built-in** advanced search function.

@@ -1,7 +1,7 @@
 ---
 title: "Katalon API Keys" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/katalon-apikey-70.html 
+permalink: katalon-studio/docs/katalon-apikey-70.html
 ---
 
 Starting in **Katalon Studio 7.0**, API keys generated in Katalon Store and Katalon TestOps both have the same functions including installing plugins and integrating Katalon Studio with Katalon TestOps in console mode; integrating Katalon TestOps with other platforms.
