@@ -11,7 +11,7 @@ This article aims to provide an overview of API testing with candid answers to t
 
 You will also find potential challenges with API test implementation – best practices and how to choose right toolset to help you achieve API testing with a higher success chance.
 
-## What is API testing ?
+## What is API testing?
 
 API testing is a type of software testing that involves testing application programming interfaces (APIs) directly and as part of integration testing to determine if they meet expectations for functionality, reliability, performance, and security. Since APIs lack a [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface), API testing is performed at the message layer and can validate application logic very quickly and effectively.
 
@@ -19,7 +19,7 @@ API testing is critical for automation testing and CI/CD process because it can 
 
 A side note, for Web and mobile applications, API often means Web services, and API testing refers to the automation test performed to the Web services.
 
-## Where is API testing performed ?
+## Where is API testing performed?
 
 Commonly, applications have three separate layers or tiers including Presentation Layer or user interface, Business Layer or application user interface for business logic processing, and Database Layer for modeling and manipulating data.
 
@@ -27,7 +27,7 @@ API Testing is performed at the most critical layer, the Business Layer, where b
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/introduction_api_testing/Asset-9402x.png)
 
-## Why do we need to perform API testing ?
+## Why do we need to perform API testing?
 
 The figure below shows three different layers of testing called [the test pyramid](https://martinfowler.com/articles/practical-test-pyramid.html) initially coined by Mike Cohn in his book Succeeding with Agile. It has layers representing different types of testing. Despite its being overly simplistic, it offers us a general rule of thumb: it suggests how much testing we should focus on at each layer. As such, API and services tests in the second layer is an important testing activity that we should focus on.
 
