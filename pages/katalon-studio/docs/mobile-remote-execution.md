@@ -3,7 +3,7 @@ title: "Remote Execution for Mobile Testing"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-remote-execution.html
 ---
-This tutorial guides you to configure Desired Capabilities for executing mobile tests remotely with local Appium server (Appium Grid).
+This tutorial guides you through configuring Desired Capabilities for executing mobile tests remotely with the local Appium server (Appium Grid).
 
 Currently, Katalon Studio only supports testing an iOS application using macOS. With remote execution, you can use a Windows machine and remote to a macOS for iOS application testing.
 
@@ -32,20 +32,20 @@ Open your project in Katalon Studio and go to **Project/Settings/Desired Capabil
    
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-remote-execution/remote3.png">
 
-   > Tip: In remote machine, type ```adb devices``` in Command Prompt to retrieve `deviceName` (Id of an Android device/simulator)
+   > Tip: In a remote machine, type ```adb devices``` in Command Prompt to retrieve `deviceName` (Id of an Android device/simulator)
 
-* For **iOS** app: you need to add `platformName`, `platformVersion`, `deviceName` and `udid` capabilities
+* For **iOS** app: you need to add `platformName`, `platformVersion`, `deviceName`, and `udid` capabilities
    
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-remote-execution/remote4.png">
 
-   > Tip: In remote machine, type ```idevice_id -l``` in Terminal to retrieve `udid` (id of an iOS device/simulator)
+   > Tip: In a remote machine, type ```idevice_id -l``` in Terminal to retrieve `udid` (id of an iOS device/simulator)
 
-* For **Chrome** browser on **Android** devices: you need to add `platformName`, `platformVersion`, `deviceName` and `browerName` (its value should be **chrome**) capabilities
+* For **Chrome** browser on **Android** devices: you need to add `platformName`, `platformVersion`, `deviceName`, and `browserName` (its value should be **chrome**) capabilities
    
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-remote-execution/remote5.png">
 
 
-* For **Safari** browser on **iOS** devices: you need to add `platformName`, `platformVersion`, `deviceName`, `udid` and `browerName` (its value should be **safari**) capabilities
+* For **Safari** browser on **iOS** devices: you need to add `platformName`, `platformVersion`, `deviceName`, `udid`, and `browserName` (its value should be **safari**) capabilities
    
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-remote-execution/remote6.png">
 
