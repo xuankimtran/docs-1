@@ -40,14 +40,13 @@ Open your project in Katalon Studio and go to **Project/Settings/Desired Capabil
 
    > Tip: In remote machine, type ```idevice_id -l``` in Terminal to retrieve `udid` (id of an iOS device/simulator)
 
-* For **Chrome** browser on **Android** devices: you need to add `platformName`, `platformVersion`, `deviceName` and `browerName` capabilities
+* For **Chrome** browser on **Android** devices: you need to add `platformName`, `platformVersion`, `deviceName` and `browerName` (its value should be **chrome**) capabilities
    
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-remote-execution/remote5.png">
-   The browserName capability should be **chrome** for Android devices.
 
-* For **Safari** browser on **iOS** devices: you need to add `platformName`, `platformVersion`, `deviceName`, `udid` and `browerName` capabilities
+
+* For **Safari** browser on **iOS** devices: you need to add `platformName`, `platformVersion`, `deviceName`, `udid` and `browerName` (its value should be **safari**) capabilities
    
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-remote-execution/remote6.png">
-   The browserName capability should be **safari** for iOS devices.
 
 The above examples only show the minimum capabilities to run a Mobile test. Katalon Studio also supports other desired capabilities listed in [Appium document](http://appium.io/docs/en/writing-running-appium/caps/#general-capabilities).
