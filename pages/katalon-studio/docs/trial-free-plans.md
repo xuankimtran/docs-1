@@ -13,6 +13,8 @@ Valid email registration is eligible for a **30-day** trial of both **Katalon St
 
 Each trial license can be activated on only one machine at a time. When your trial period expires, you need to subscribe to the paid license of each product to continue using it. Otherwise, the Katalon Studio free license will be automatically activated.
 
+> Notes:
+>
 > Katalon Studio Enterprise and Katalon Runtime Engine **trial** licenses can only be registered with **business** emails. 
 >
 > Trial licenses work in online or offline environments for 30 days.
@@ -48,7 +50,9 @@ To run Katalon Studio or Katalon Studio Enterprise with Katalon Runtime Engine, 
 5. Enter the following syntax to execute automation test:
 
     For example: `katalonc -noSplash -runMode=console -consoleLog -noExit -projectPath="C:\Users\Katalon Studio\Project\YourProject.prj" -retry=0 -testSuitePath="Test Suites/TS_RegressionTest" -browserType="Chrome (headless)" -apiKey=abczxzxz`
-
+    
+    > Notes
+    >
     > [Katalon API Key](https://docs.katalon.com/katalon-analytics/docs/ka-api-key.html#create-an-api-key) is required for activating RE.
     >
     > Please refer to [Command Syntax](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#katalon-studio-plugins-in-console-mode) for further instructions on working with RE.
