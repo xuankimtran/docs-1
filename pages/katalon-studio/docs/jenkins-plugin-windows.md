@@ -54,4 +54,4 @@ cd D:\Tools\Jenkins //path to Jenkins folder
 java -jar --webroot=jenkins.war
 ```
 
-_Credit to Sébastien Taniere and his [original topic](ttps://forum.katalon.com/t/video-is-empty-when-scenario-is-launched-by-katalon-runtime-trough-jenkins-windows-instance/43974)._
+_Credit to Sébastien Taniere and his [original topic](https://forum.katalon.com/t/video-is-empty-when-scenario-is-launched-by-katalon-runtime-trough-jenkins-windows-instance/43974)._
