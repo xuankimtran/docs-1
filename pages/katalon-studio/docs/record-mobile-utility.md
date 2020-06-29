@@ -1,5 +1,5 @@
 ---
-title: "Record Mobile Utility" 
+title: "Record Mobile Utility before 7.6" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/record-mobile-utility.html 
 redirect_from:

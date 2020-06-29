@@ -267,7 +267,9 @@ items:
                     url: /katalon-studio/docs/mobile-image-based-testing.html 
               - title: "Mobile Record and Spy Utilities"
                 tree:
-                  - title: "Record Mobile Utility"
+                  - title: "Mobile Recorder Tutorials - 7.6 onwards"
+                    url: /katalon-studio/docs/mobile-recorder-tutorials.html
+                  - title: "Mobile Recorder Tutorials - before 7.6"
                     url: /katalon-studio/docs/record-mobile-utility.html
                   - title: "Spy Mobile Utility"
                     url: /katalon-studio/docs/spy-mobile-utility.html
