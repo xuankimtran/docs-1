@@ -79,6 +79,16 @@ The most important property of an object is its locator strategy and value. The 
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-mobile-utility/selector-highlight.png">
 
+## Export Options
+
+When you finish a recording session, there are 3 options to export the recorded actions to a test case:
+
+* Export to new test case (chosen by default)
+* Append to test case
+* Overwrite test case
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/export-options.png" width=498>
+
 See also:
 
 * [Selector Strategies for finding Mobile Objects](https://docs.katalon.com/katalon-studio/docs/locators_object_identification.html)
