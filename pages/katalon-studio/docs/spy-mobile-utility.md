@@ -1,5 +1,5 @@
 ---
-title: "Tutorials for Spy Mobile Utility"
+title: "Tutorial for Mobile Object Spy"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/spy-mobile-utility.html
 redirect_from:
