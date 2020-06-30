@@ -13,6 +13,8 @@ From version 7.6 onwards, Katalon Studio fully supports selector strategies supp
 4. Enter a phone number and a message
 5. Tap on **Send**
 
+> APIDemos.apk and sample project code is available [here](https://github.com/katalon-studio-samples/sample-Android-demo-project)
+
 ## Record
 
 1. From the main Toolbar, click on the **Record Mobile** icon and select your device type, for instance, **Android Devices**
@@ -41,7 +43,12 @@ From version 7.6 onwards, Katalon Studio fully supports selector strategies supp
 * In **Recorded Actions**, **Tap** is added to the list of recorded test steps.
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/tap1.png" width=361>
 * In  **Captured Objects**, **OS** is captured with its properties.
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/OS-captured.png" width=361>
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/selector.png" width=362>
+
+   > Important
+   >
+   > The most important property of an object is its locator strategy and value. The default locator is a unique value in detecting that object. Katalon Studio 7.6+ fully supports selector strategies supported by Appium except for Android Data Matcher ([Learn more](https://docs.katalon.com/katalon-studio/docs/locators_object_identification.html)). If you prefer another locator strategy among the provided option, you can choose it and generate a new locator. Then click **Highlight** to see if your newly updated locator can detect the target object on its screen correctly.
 
 7. Similarly, in **Device View**, select **SMS Messaging**; in **Available Actions**, select **Tap**. Observe the **Recorded Actions** table; you can see another Tap item is added to the list.
 8. To continue, in **Device View**, select the text input area right next to the **Recipient** object; in **Available Actions**, click on the **Set Text** action. In the displayed **Text Input** dialog, enter a phone number and click **OK**. Observe **Device View**; you can see a phone number is filled in the text field.
@@ -62,7 +69,6 @@ From version 7.6 onwards, Katalon Studio fully supports selector strategies supp
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/send.png" width=1097>
 
 11. After finishing recording the desired interactions with the AUT, click **OK** to save the captured objects. In the **Folder Browser** dialog, create a new folder or select an existing folder in **Object Repository**, then click **OK**.
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/save-objects.png" width=312>
 
 12. You can add the recorded test steps to a new test case or append to/overwrite an existing one.
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/new-tc.png" width=500>
@@ -86,26 +92,33 @@ You can also view the test case in Script mode:
 
 ```groovy
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+
+import com.kms.katalon.core.configuration.RunConfiguration
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
 
 'Start the Application'
-Mobile.startApplication('/Users/linhdppham/Downloads/APIDemos.apk', true)
+Mobile.startApplication(RunConfiguration.getProjectDir() + '/APIDemos.apk', true)
+
+'Tap on OK if this is the first time this application is launched on an Android 9+ device'
+Mobile.tap(findTestObject('Object Repository/APIDemo/android.widget.Button - OK'), 0, FailureHandling.OPTIONAL)
 
 'Tap on text "OS"'
-Mobile.tap(findTestObject('Object Repository/Application/App/Activity/APIdemo/send-message/android.widget.Button - OK'), 0)
+Mobile.tap(findTestObject('Object Repository/APIDemo/android.widget.TextView - OS'), 0)
 
 'Tap on text "SMS Messaging"'
-Mobile.tap(findTestObject('Object Repository/Application/App/Activity/APIdemo/send-message/android.widget.TextView - OS'), 0)
+Mobile.tap(findTestObject('Object Repository/APIDemo/android.widget.TextView - SMS Messaging'), 0)
 
 'Enter a phone number in Recipient text box'
-Mobile.setText(findTestObject('Object Repository/Application/App/Activity/APIdemo/send-message/android.widget.EditText'),'+84set345678910', 0)
+Mobile.setText(findTestObject('Object Repository/APIDemo/android.widget.EditText'), '+84345678910', 0)
 
 'Enter a message in Body Message text box'
-Mobile.setText(findTestObject('Object Repository/Application/App/Activity/APIdemo/send-message/android.widget.EditText (1)'),'Hello world! This is Katalon Mobile Recorder', 0)
+Mobile.setText(findTestObject('Object Repository/APIDemo/android.widget.EditText (1)'), 'Hello world! This is Katalon Mobile Recorder', 0)
 
 'Send the message'
-Mobile.tap(findTestObject('Object Repository/Application/App/Activity/APIdemo/send-message/android.widget.Button - Send'), 0)
+Mobile.tap(findTestObject('Object Repository/APIDemo/android.widget.Button - Send'), 0)
 
 'Close the Application'
 Mobile.closeApplication()
+
 ```
