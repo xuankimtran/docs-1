@@ -10,17 +10,17 @@ redirect_from:
 
 ## Mobile Recorder
 
-To start recording a Mobile test, on the main toolbar click on the **Mobile Recorder** icon and select your device type. Katalon Studio supports local Android or iOS/Remote/Kobiton mobile devices. The Mobile Recorder dialog with multiple components is displayed for your recording sessions.
+To start recording a Mobile test, click on the **Mobile Recorder** icon on the main toolbar, and select your device type. Katalon Studio supports local Android or iOS/Remote/Kobiton mobile devices. The Mobile Recorder dialog with multiple components is displayed for your recording sessions.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-mobile-utility/recorder-icon.png" width=174>
 
 ## Action Bar
 
-**Action Bar** located on the top left corner contains the **Capture Object**, **Start** and **Stop** buttons.
+**Action Bar** located on the top left corner contains the **Capture Object**, **Start**, and **Stop** buttons.
 
-* **Capture Object**: when you click this button, Katalon Studio captures all mobile elements displayed on the current screen of the device
-* **Start**: click this button to start recording; Katalon will deploy and open the application on the configured device. This button is enabled only after you specify the AUT.
-* **Stop**: click this button to pause recording
+* **Capture Object**: When you click this button, Katalon Studio captures all mobile elements displayed on the current screen of the device.
+* **Start**: Click on this button to start recording; Katalon will deploy and open the application on the configured device. This button is enabled after you specify the AUT.
+* **Stop**: Click on this button to pause recording.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-mobile-utility/action-bar.png" width=260>
 
@@ -50,8 +50,8 @@ To make sure the **Device View** displays the current screen of the AUT on the d
 
 **Available Actions** contains multiple buttons representing Mobile actions that can be performed on the AUT. There are two types of Mobile actions, including object action and application action.
 
-* Object action: an action requiring you to select an object on **Device View** or **All Objects** to perform the action. Select an object and you can see which actions are enbled for that object.
-* Application action: an action for interacting with the application. When you don't select any object, application actions are enabled for your usage.
+* Object action: Object actions require you to select an object on **Device View** or **All Objects** to perform the action. Select an object, and you can see which actions are enabled for that object.
+* Application action: application actions do not require a selected object to perform.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-mobile-utility/possible-actions.png" width=367>
 
@@ -63,9 +63,9 @@ The Recorded Actions table shows all of the recorded actions and related input/o
 
 ## Captured Objects
 
-**Captured Objects** display all objects that you have interacted during the recording session. For each object captured by Katalon, you can find its detailed properties displayed in in the **Object Properties** table by double-clicking on it.
+**Captured Objects** display all objects that you have interacted during the recording session. For each object captured by Katalon, you can find its detailed properties shown in the **Object Properties** table by double-clicking on it.
 
-The most important property of an object is its locator strategy and value. The default locator is a unique value in detecting that object. Katalon Studio 7.6+ fully supports selector strategies supported by Appium except Android Data Matcher. [Learn more](https://docs.katalon.com/katalon-studio/docs/locators_object_identification.html). If you prefer another locator strategy among the provided option, you can choose it and generate a new locator. Then click **Highlight** to see if your newly updated locator can detect the target object correctly.
+The most important property of an object is its locator strategy and value. The default locator is a unique value in detecting that object. Katalon Studio 7.6+ fully supports selector strategies supported by Appium except for Android Data Matcher. [Learn more](https://docs.katalon.com/katalon-studio/docs/locators_object_identification.html). If you prefer another locator strategy among the provided option, you can choose it and generate a new locator. Then click **Highlight** to see if your newly updated locator can detect the target object correctly.
 
 * Default locator is unique in detecting that object:
 
@@ -75,7 +75,7 @@ The most important property of an object is its locator strategy and value. The 
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-mobile-utility/select-selection-method.png" width=361>
    
-* Remember to verify if your newly created locator can detect the target object:
+* Remember to verify if your newly created locator can identify the target object:
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-mobile-utility/selector-highlight.png">
 
