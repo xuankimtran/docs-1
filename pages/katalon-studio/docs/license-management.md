@@ -5,7 +5,7 @@ permalink: katalon-studio/docs/license-management.html
 description:
 ---
 
-After successfully subscribing to Katalon licenses, the **Organization Owner and Admins** can start granting licenses to your users immediately. For more details about roles and default permission, please view [this document](hhttps://docs.katalon.com/katalon-analytics/docs/kt-user-role-permission.html).
+After successfully subscribing to Katalon licenses, the **Organization Owner and Admins** can start granting licenses to your users immediately. For more details about roles and default permission, please view [this document](https://docs.katalon.com/katalon-analytics/docs/kt-user-role-permission.html).
 
 > **Important**:
 >
