@@ -249,12 +249,8 @@ items:
                 url: /katalon-studio/docs/running_application_mobile_browsers.html
           - title: "Mobile Test Design"
             tree:
-              - title: "An Introduction to Katalon Mobile Recorder"
-                url: /katalon-studio/docs/katalon_mobile_recorder_introduction.html
               - title: "Locators and Object Identification"
                 url: /katalon-studio/docs/locators_object_identification.html
-              - title: "Testing mobile apps using Katalon Studio and Kobiton’s cloud-based device farm"
-                url: /katalon-studio/docs/testing_mobile_apps_using_katalon_studio_kobiton.html
               - title: "Mobile Test Objects"
                 tree:
                   - title: "Manage Mobile Test Objects"
@@ -267,15 +263,19 @@ items:
                     url: /katalon-studio/docs/mobile-image-based-testing.html 
               - title: "Mobile Record and Spy Utilities"
                 tree:
-                  - title: "Mobile Recorder Tutorials - 7.6 onwards"
+                  - title: "An Introduction to Katalon Mobile Recorder"
+                    url: /katalon-studio/docs/katalon_mobile_recorder_introduction.html
+                  - title: "Mobile Recorder Tutorial - 7.6 onwards"
                     url: /katalon-studio/docs/mobile-recorder-tutorials.html
-                  - title: "Mobile Recorder Tutorials - before 7.6"
+                  - title: "Mobile Recorder Tutorial - before 7.6"
                     url: /katalon-studio/docs/record-mobile-utility.html
-                  - title: "Spy Mobile Utility"
+                  - title: "Mobile Spy Tutorial"
                     url: /katalon-studio/docs/spy-mobile-utility.html
                   - title: "Spy and Record Utilities for testing an existing application"
                     url: /katalon-studio/docs/mobile-spy-record-existing-apps.html
-              - title: "Testing Mobile Apps Using Custom Cloud Devices"
+              - title: "Testing Mobile Apps using Katalon Studio and Kobiton’s cloud-based device farm"
+                url: /katalon-studio/docs/testing_mobile_apps_using_katalon_studio_kobiton.html
+              - title: "Testing Mobile Apps using Custom Cloud Devices"
                 url: /katalon-studio/docs/mobile-testing-apps-cloud-devices.html
               - title: "Remote Execution for Mobile Testing"
                 url: /katalon-studio/docs/mobile-remote-execution.html

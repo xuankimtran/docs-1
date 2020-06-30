@@ -1,7 +1,7 @@
 ---
-title: "Spy Mobile Utility" 
+title: "Tutorial for Mobile Object Spy"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/spy-mobile-utility.html 
+permalink: katalon-studio/docs/spy-mobile-utility.html
 redirect_from:
     - "/display/KD/Spy+Mobile+Utility/"
     - "/display/KD/Spy%20Mobile%20Utility/"
@@ -11,54 +11,57 @@ redirect_from:
     - "/display/KD/Spy%20Object/"
 description: 
 ---
-Capture objects using Spy Mobile Utility
-----------------------------------------
+From version 7.6 onwards, Katalon Studio fully supports selector strategies supported by Appium except for Android Data Matcher. [Learn more](https://docs.katalon.com/katalon-studio/docs/locators_object_identification.html). This tutorial helps you get familiar with capturing Mobile objects on an application by using  **Spy Moble Utility**.
 
-Before capturing test objects on the mobile application, make sure that you have successfully configured the environment for mobile testing. Refer to [Before You Start](/display/KD/Before+You+Start) for more details.
+Before capturing Mobile objects on an application, make sure that you have [configured the environment for mobile testing](https://docs.katalon.com/katalon-studio/docs/mobile-on-windows.html) successfully.
 
-1.  Connect the mobile device to your PC.  
-      
+1. From the main Toolbar, click on the **Spy Mobile** icon and select your device type, for instance, **Android Devices**.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-mobile-utility/spy-icon.png" width=175>
+
+2. In the displayed **Mobile Object Spy** dialog, specify the information at the **Configurations** section:
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-mobile-utility/configurations.png" width=365>
+
+   Where:
+
+   * **Device Name**: A mobile device where Katalon launches the application (All of your connected devices should be displayed in this list.)
+   * **Start with**: In the drop-down list, you can select either Application File or Application ID
+      * **Application File**: Browse your tested application (`.apk` file for Android; `.ipa` file for iOS)
+      * **Application ID**: Specify the application ID of your tested application
+
+4. Click **Start** to begin spying the application unter test (AUT). Wait until the AUT is launched, and the **Device View** and **All Objects** are ready for you to capture objects of the AUT.
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-mobile-utility/windows.png" width=1101>
+
+5. You can click on any object either in the tree of **All Objects** or in **Device View**; Katalon highlights their counterpart accordingly for verification.
+
+* **Device View** is a simulator of the device's screen.
+* **All Objects** captures and organizes all the displayed mobile objects of **Device View** in a tree.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-mobile-utility/highlight.png" width=731>
+
+   To make sure the **Device View** displays the current screen of the AUT on the device, you can click on the **Capture Object** button to reload **Device View** and refresh **All Objects**.
+
+6. Check any objects in **All Objects**. Katalon Studio captures the selected objects and displays objects' properties in the **Object Properties** table.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-mobile-utility/add-object.png" width=1100>
+
+    The most important property of an object is its locator strategy and value. The default locator is a unique value in detecting that object. Katalon Studio 7.6+ fully supports selector strategies supported by Appium except for Android Data Matcher ([Learn more](https://docs.katalon.com/katalon-studio/docs/locators_object_identification.html)). If you prefer another locator strategy among the provided option, you can choose it and generate a new locator. Then click **Highlight** to see if your newly updated locator can detect the target object on its screen correctly.
+
+7. Click **Add to Object Repository** to save them to Katalon Studio.
+
+   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-mobile-utility/image2017-1-23-173A173A48.png)
+
+8. In the displayed **Folder Browser** dialog, you can decide where to save the captured objects. Select your preferred location then click **OK**. The captured objects will be added to **Object Repository** accordingly.
     
-2.  Click on the **Spy Moble Utility** button from the main toolbar.  
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-mobile-utility/image2017-2-23-143A153A42.png)  
-      
-    
-3.  The **Spy Mobile Utility** dialog is displayed. Specify the settings of your mobile testing in **Configurations** section.   
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-mobile-utility/image2017-8-24-153A93A28.png)
-    
-    Where:
-    
-    | Field | Description |
-    | --- | --- |
-    | Device Name | The smartphone to capture objects from. All of your connected devices should be displayed in this list. |
-    | Application Type | Currently, Katalon Studio only support native mobile applications. |
-    | Application File | The absolute path to your mobile application file (**.apk** file for Android or **.ipa** file for iOS). |
-    
-    Click **Start** when you're done with the settings.
-    
-4.  The specified mobile application will be deployed and opened on the real device.   
-      
-    
-5.  The **Device View** dialog is displayed to show the current screenshot of your real device.   
-    All the mobile objects from that screenshot are analyzed and organized in a **hierarchical view** which could be found at **All Objects** section of the **Spy Mobile Utility** dialog.  
-    Click on any object from the **hierarchical view** and it is highlighted in **Device View** accordingly.  
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-mobile-utility/image2017-8-24-153A223A48.png)  
-      
-    
-6.   Select any objects from the **hierarchical view** and click **Add to Object Repository** to save them to Katalon Studio.  
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-mobile-utility/image2017-1-23-173A173A48.png)  
-      
-    
-7.  The **Folder Browser** dialog is prompted to decide where to save the captured objects. Select your preferred location then click **OK**.  
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-mobile-utility/image2017-1-23-173A203A41.png)  
-      
-    
-8.  The captured objects will be added to **Object Repository** accordingly.  
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-mobile-utility/image2017-1-24-103A573A32.png)  
-      
-    
-9.  You can continue with the current mobile screen or navigate to other interfaces as needed. To reload the **Device View** as well as the details in **Spy Mobile Utility**, simply click on the **Capture Object** button.  
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-mobile-utility/image2017-1-23-173A03A31.png)  
-      
-    
-10.  Close the **Spy Mobile Utility** dialog when you're done with capturing objects.
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-mobile-utility/save.png" width=310>
+
+You can continue with the current mobile screen or navigate to other interfaces as needed. To reload the **Device View** as well as **All Objects**, click on the **Capture Object** button.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-mobile-utility/image2017-1-23-173A03A31.png)
+
+See also:
+
+* [Locator Strategies for finding Mobile objects](https://docs.katalon.com/katalon-studio/docs/locators_object_identification.html)
+* [Introduction to Mobile Recorder](https://docs.katalon.com/katalon-studio/docs/katalon_mobile_recorder_introduction.html)
+* [Tutorials for recording a Mobile test](https://docs.katalon.com/katalon-studio/docs/mobile-recorder-tutorials.html)
