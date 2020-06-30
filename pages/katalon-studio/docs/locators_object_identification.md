@@ -8,7 +8,7 @@ redirect_from:
 
 ## Locator Strategies for detecting a mobile object
 
-Before version 7.6, Katalon Studio only supports the Attributes Selection Method that allows selecting an object’s properties to generate its selector. The generated selector can be XPATH selector or in some cases, Android UiSelector. From 7.6, Katalon Studio fully supports [selector strategies supported by Appium except Android Data Matcher](http://appium.io/docs/en/commands/element/find-elements/index.html#selector-strategies), including:
+Before version 7.6, Katalon Studio only supports the Attributes Selection Method that allows selecting an object’s properties to generate its selector. The generated selector can be XPATH selector or in some cases, Android UiSelector. From 7.6, Katalon Studio fully support [selector strategies supported by Appium except for Android Data Matcher](http://appium.io/docs/en/commands/element/find-elements/index.html#selector-strategies), including:
 
 1. **Accessibility ID**: it is the `accessibility-id` attribute of an object for XCUITest, and the `content-desc` attribute of an object for Android .
 
