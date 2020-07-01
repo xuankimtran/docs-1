@@ -36,27 +36,44 @@ redirect_from:
 description: 
 ---
 
-## Create a Test Object
+## In Manual View
 
-1. Select **File > New > Test Object** from the main menu. The **New Test Object** dialog is displayed.  
+### Create a test object
 
-2. Provide a name for the new test object, then click **OK** button. The new test object is created under the **Object Repository** of Katalon Studio.  
+You can create a test object in two ways:
 
-## Add an object property
+* From the main menu, select **File > New > Test Object**; Or
+* Right-click on **Object Repository** > select **New > Test Object**
 
-> There cannot be two properties with similar names in the same test object.
+In the displayed **New Test Object** dialog, provide a name for the new test object, then click **OK** button. The new test object is created under the **Object Repository** of Katalon Studio.
 
-1. In the **Test Object Editor**, click **Add**.  
-2. The **Add property** dialog is displayed.
+Moreover, you can capture objects using Web [Spy](https://docs.katalon.com/katalon-studio/docs/spy-web-utility.html) or [Recorder](https://docs.katalon.com/katalon-studio/docs/record-web-utility.html).
+
+### Create an object's locator
+
+You can add multiple locators to an object but you must select one of them as a default locator. The default locator is used for detecting the object during test execution. From 7.6, you can use [Self-healing mechanism](https://docs.katalon.com/katalon-studio/docs/self-healing.html) to utilize multiple locators of an object.
+
+Katalon Studio supports the [following selection methods](https://docs.katalon.com/katalon-studio/docs/web-selection-methods.html): XPath, Attributes, CSS and Image. You can freely switch from one selection method to another. The detailed content of each selection method is saved automatically.
+
+* **XPath/CSS**: Enter a desired XPath locator in **Selected Locator**.
+* **Image**: Browse an image to compose an image locator for the object. [Learn more](https://docs.katalon.com/katalon-studio/docs/web-image-based-object-recognition.html)
+* **Attributes**: Check on one or multiple **Detect object by** in the **Object's Properties** table to compose a **Selected Locator** of this method for the object.
+
+   You can add multiple object properties to the **Object's Properties** table. Please note that object properties cannot share the same name in an object.
+
+1. In a **Test Object**'s view, select **Attributes** as the default Selection Method.
+2. In the **Object's Properties** table, click **Add**.
+2. In the displayed **Add property** dialog, specify the required information:
+
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/manage-web-test-object/add-property.png" width="473" height="162">
 
    where:
 
-* **Name**: The name of the object property. The drop-down list provides some standard options for your selection (XPath, CSS, class, id, title), or you can enter manually.
-* **Match condition**: to search for the "_actual_" object in the AUT when executing automation tests.
-* **Value**: to complete a match condition.
+* **Name**: The object property's name. You can select one of the provided options (class, css, id, name, title, xpath) or enter a name manually.
+* **Match condition**: The condition is used for detecting the target object during execution.
+* **Value**: The value to complete a match condition.
 
-3. The new property is added to the properties list as specified. You can also edit the properties' values here.
+   The new property is added to the properties list as configured above. You can also change the properties' values here.
 
 ## Manage parent object
 
@@ -66,30 +83,21 @@ Katalon Studio supports an ability to define parent iframe object within the tes
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/manage-test-object/image2018-9-6-103A263A6.png)
 
-## Validate Test Object on AUT
+## In Script view
 
-You can add test objects to the **Web Object Spy** dialog to verify the detection in the application under test.
-
-To add an object to **Web Object Spy**, right-click on the item to open its context menu and select the option.
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/manage-test-object/image2018-9-6-103A303A22.png)
-
-## Test Objects in Script View
-
-The test case **Script View** allows you to define **Test Objects** as needed programmatically. The following is a simple sample demonstrating how to define the *Medicare* option with the Attributes, XPath and CSS selection methods.
+**Script View** allows defining **Test Objects** programmatically. The following example demonstrates how to define the **Medicare** option with the Attributes, XPath and CSS selection methods.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/manage-web-test-object/medicare.png" width="670" height="567">
 
-Step 1: Create a new object programmatically using _TestObject_ class:
+1. Create a new object programmatically using the `TestObject` class:
 
     ```groovy
     // Create a new object programmatically
     TestObject myNewObject = new TestObject('ObjectID')
     ```
-    
-Step 2:
+2. Add an object locator
 
-* With the **Attributes** selection method, add the property to an object using _addProperty()_ method:
+* With the **Attributes** selection method, add a property to an object using the `addProperty()` method:
 
     ```groovy
     //Attributes
@@ -102,7 +110,7 @@ Step 2:
     myNewObject.addProperty('xpath', "//*[@id=\"appointment\"]/div/div/form/div[3]/div/label[1]", true) //Medicare
     ```
 
-* With **XPath** and **CSS**: Specify a selection method and set a value to the locator:
+* With **XPath** or **CSS** selection method: Specify a selection method and set a value to the locator:
 
     ```groovy
     //XPATH
@@ -120,14 +128,20 @@ Step 2:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/param-web-object/css-locator.png" width="528" height="124">
 
-The following API docs may prove useful when working with test objects:
+The following Java docs may prove useful when working with test objects:
 
 | Class | Method | Description |
 | --- | --- | --- |
-| [Test Object](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html) | [addProperty(String name, ConditionType condition, String value)](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html#addProperty(java.lang.String,%20com.kms.katalon.core.testobject.ConditionType,%20java.lang.String)) | Add a new property to the test object. |
-| setProperties(List <TestObjectProperty> properties) | Set the properties of the test object. |
-| [getObjectId()](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html#getObjectId()) | Get an object ID. |
-| [findPropertyValue(String name, boolean caseSensitive)](http://api-docs.katalon.com/studio/v4.6.0.2/api/com/kms/katalon/core/testobject/TestObject.html#findPropertyValue(java.lang.String,%20boolean)) | Find the value of a property using the property name.|
+| [Test Object](https://docs.katalon.com/javadoc/com/kms/katalon/core/testobject/TestObject.html) | [addProperty(String name, ConditionType condition, String value)](https://docs.katalon.com/javadoc/com/kms/katalon/core/testobject/TestObject.html#addProperty(java.lang.String,%20com.kms.katalon.core.testobject.ConditionType,%20java.lang.String)) | Add a new property to the test object. |
+|| [setProperties(List &lt;TestObjectProperty&gt; properties)](https://docs.katalon.com/javadoc/com/kms/katalon/core/testobject/TestObject.html#setProperties(List%3CTestObjectProperty%3E)) | Set the properties of the test object. |
+|| [getObjectId()](https://docs.katalon.com/javadoc/com/kms/katalon/core/testobject/TestObject.html#getObjectId()) | Get an object ID. |
+||[findPropertyValue(String name, boolean caseSensitive)](https://docs.katalon.com/javadoc/com/kms/katalon/core/testobject/TestObject.html#findPropertyValue(java.lang.String,%20boolean)) | Find the value of a property using the property name.|
+
+## Validate a test object
+
+You can add test objects to the **Web Object Spy** dialog to verify the detection in the application under test. To add an object to **Web Object Spy**, right-click on the item to open its context menu and select the option.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/manage-test-object/image2018-9-6-103A303A22.png)
 
 ### Verify and Highlight
 
@@ -136,12 +150,6 @@ Katalon Studio **Object Properties** has a built-in **Verify and Highlight** 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/working-with-objects-selection-method-for-spyrecord-web/image2018-9-5-183A303A43.png)
 
 Once finished, click **Save** to add the object to **Object Repository** as normal.
-
-### Limitations
-
-* Only for **[Chrome](http://caniuse.com/#feat=shadowdom)** browser (53 to latest Version). Other browsers will be considered for future releases.
-* Only allow 1 level of nested Shadow DOM parent
-* Record and Spy feature will not work with Shadow DOM (due to elements do not exist in the DOM).
 
 ## Visual Object Recognition
 
@@ -217,6 +225,12 @@ For example, the following test execution log shows Katalon Studio tried to find
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/working-with-shadow-dom-objects/image2017-8-24-163A43A40.png)
 
+### Limitations
+
+* Only for **[Chrome](http://caniuse.com/#feat=shadowdom)** browser (53 to latest Version). Other browsers will be considered for future releases.
+* Only allow 1 level of nested Shadow DOM parent
+* Record and Spy feature will not work with Shadow DOM (due to elements do not exist in the DOM).
+
 ## Modify object properties at runtime
 
 If you have multiple and similar objects you want to quickly interact with during test execution, and you really don't want to spend time writing duplicate steps to interact with them, the approach below will help you reduce the time and make your code nicer:
@@ -238,11 +252,6 @@ for (def i=0; i <= fineTestData('Path to your excel').getRowNumbers(); i++) {}
 https://www.katalon.com/resources-center/tutorials/data-driven-testing/ for linking data with test.
 ```
 
-**References:**
-
-* **[\[](/display/KD/%5BWebUI%5D+Modify+Object+Property)**[WebUI\] Modify Object Property](/display/KD/%5BWebUI%5D+Modify+Object+Property)
-* [Data-Driven Testing](/katalon-studio/tutorials/data-driven-testing/)
-
 _Credit to [Mate Mrse](https://forum.katalon.com/discussion/7010/how-to-test-clicking-multiple-objects-without-starting-over#lComment_16209)_
 
 ## Creation of Test Object in Memory at Runtime
@@ -261,6 +270,6 @@ static TestObject makeTO(String css) {
 	to.addProperty("css", ConditionType.EQUALS, css)
 	return to
 }
-
 ```
+
 _Credit to [Russ Thomas](https://forum.katalon.com/discussion/6171/creation-of-test-object-in-object-repository-in-runtime#Comment_13991)_
