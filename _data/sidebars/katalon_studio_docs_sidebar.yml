@@ -85,6 +85,8 @@ items:
             url: /katalon-studio/docs/quick_start.html
           - title: "Sample Projects"
             tree:
+              - title: "Sample Projects"
+                url: /katalon-studio/docs/sample-projects.html
               - title: "Shopping Cart Project"
                 url: /katalon-studio/docs/shopping-cart-prj.html
               - title: "Health Care Project"
@@ -137,12 +139,8 @@ items:
             url: /katalon-studio/docs/execute-a-test-case-or-a-test-suite.html
           - title: "Desired Capabilities"
             url: /katalon-studio/docs/introduction-to-desired-capabilities.html
-          - title: "Samples"
+          - title: "Usage Examples"
             tree:
-              - title: "Samples Projects"
-                url: /katalon-studio/docs/sample-projects.html
-              - title: "Sample Repository on Github"
-                url: /katalon-studio/docs/sample-github-repository.html
               - title: "Custom Keywords"
                 tree:
                   - title: "How to perform Database Testing using Katalon Studio"

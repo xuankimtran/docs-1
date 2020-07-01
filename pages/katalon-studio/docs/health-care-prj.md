@@ -1,5 +1,5 @@
 ---
-title: "Health Care Project"
+title: "Health Care Sample Project"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/health-care-prj.html
 ---
