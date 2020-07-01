@@ -1,5 +1,5 @@
 ---
-title: "Shopping Cart Samples" 
+title: "Shopping Cart Sample Project" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/shopping-cart-prj.html 
 ---
