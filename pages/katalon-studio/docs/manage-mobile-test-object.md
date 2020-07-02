@@ -20,6 +20,8 @@ The most important property of an object is its locator strategy and value. The 
 
 Katalon Studio 7.6+ fully supports [selector strategies supported by Appium except for Android Data Matcher](https://docs.katalon.com/katalon-studio/docs/locators_object_identification.html).
 
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/manage-mobile-test-object./object.png">
+
 ### Validate Test Object on AUT
 
 You can add test objects to **Mobile Object Spy** to verify if the object can be detected successfully in the application under test. Refer to [Spy Mobile Utility](https://docs.katalon.com/katalon-studio/docs/spy-mobile-utility.html) for more details regarding how to validate captured objects against the application under test.
@@ -44,6 +46,20 @@ The new property is added to the properties list as configured above. You can al
 ## In Script View
 
 **Script View** allows defining and handling **Test Objects** programmatically. The following is a usage example demonstrating how to do that:
+
+```java
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.testobject.MobileTestObject
+import com.kms.katalon.core.testobject.MobileTestObject.MobileLocatorStrategy
+
+// Find an object which was defined already in Object Repository
+myPredefinedObject = findTestObject('android.widget.TextView - App')
+
+// Create a new mobile object programmatically
+MobileTestObject mobileTestObject = new MobileTestObject("TestObjectID")
+mobileTestObject.setMobileLocatorStrategy(MobileLocatorStrategy.XPATH)
+mobileTestObject.setMobileLocator("//android.widget.TextView[(text() = 'App' or . = 'App')]")
+```
 
 <details><summary>In versions <strong>before 7.6</strong></summary>
 
