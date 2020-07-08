@@ -4,6 +4,8 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/jenkins-plugin-windows.html 
 description: Guidelines of how to use Jenkins plugin on Windows
 ---
+> Katalon TestOps CI is an easier way to execute Katalon Studio tests remotely or schedule remote Katalon Studio execution. [Learn more](https://docs.katalon.com/katalon-analytics/docs/kt-remote-execution.html)
+
 This tutorial shows you how to install and run **Katalon DevOps – Jenkins** plugin for Web UI testing on Windows platform.
 
 ## Prerequisites

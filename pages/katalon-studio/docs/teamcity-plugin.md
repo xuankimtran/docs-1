@@ -6,6 +6,8 @@ description: To show instrcutions of how to install and setup TeamCity plugin.
 ---
 This tutorial shows you the step by step guide on how to install and run Katalon for TeamCity for Web UI Testing.
 
+> Katalon TestOps CI is an easier way to execute Katalon Studio tests remotely or schedule remote Katalon Studio execution. [Learn more](https://docs.katalon.com/katalon-analytics/docs/kt-remote-execution.html)
+
 ## Installation
 
 See how to install and configure the TeamCity server [here](https://www.jetbrains.com/help/teamcity/installing-and-configuring-the-teamcity-server.html).
