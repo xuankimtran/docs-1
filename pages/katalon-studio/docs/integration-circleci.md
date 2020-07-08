@@ -1,5 +1,5 @@
 ---
-title: "Integration with CircleCI (Katalon Orb)" 
+title: "CircleCI Integration - Katalon Orb" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/integration-circleci.html 
 ---
