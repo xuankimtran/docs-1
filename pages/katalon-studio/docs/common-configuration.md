@@ -4,7 +4,9 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/common-configuration.html 
 description: This article will show you how to configure a CI/CD plugin.
 ---
-A CI/CD plugin will help download, deploy, and execute Katalon Studio on servers automatically.
+A CI/CD plugin helps download, deploy, and execute Katalon Studio on servers automatically.
+
+> Katalon TestOps CI is an easier way to execute Katalon Studio tests remotely or schedule remote Katalon Studio execution. [Learn more](https://docs.katalon.com/katalon-analytics/docs/kt-remote-execution.html)
 
 Other advantages are:
 

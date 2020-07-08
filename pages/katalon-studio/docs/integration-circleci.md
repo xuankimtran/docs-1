@@ -1,8 +1,10 @@
 ---
-title: "Integration with CircleCI (Katalon Orb)" 
+title: "CircleCI Integration - Katalon Orb" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/integration-circleci.html 
 ---
+> Katalon TestOps CI is an easier way to execute Katalon Studio tests remotely or schedule remote Katalon Studio execution. [Learn more](https://docs.katalon.com/katalon-analytics/docs/kt-remote-execution.html)
+
 Orbs are shareable packages of configuration elements, including jobs, commands, and executors [(definition from CircleCI)](https://circleci.com/docs/2.0/orb-intro/).
 
 Katalon Orb allows executing Katalon tests with your CircleCI CI/CD pipeline easily. We recommend getting the latest version from the CircleCI Orb registry page. Download **katalon/katalon-studio@23.0.8** [here](https://circleci.com/orbs/registry/orb/katalon/katalon-studio). Please note that [katalon/katalonstudio@36.0.0](https://circleci.com/orbs/registry/orb/kms-technology/katalonstudio) is deprecated.

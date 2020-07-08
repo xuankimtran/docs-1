@@ -12,7 +12,6 @@ TestOps CI allows you to set up your test environment with CircleCI to schedule 
 - You have forked [this project](https://github.com/katalon-studio-samples/testops-circleci-sample) to your repository associated with the account;
 - You have followed the above project in CircleCI.
 
-
 ## Configure CircleCI Test Environment
 
 To create a new CircleCI test environment, in TestOps CI, go to **Test Environment** > **CircleCI**.
