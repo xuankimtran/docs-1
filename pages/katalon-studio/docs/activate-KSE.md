@@ -62,6 +62,7 @@ For Enterprise users with a private network, you may encounter a situation where
 * update.katalon.com
 * analytics.katalon.com
 * testops.katalon.com
+* admin.katalon.com
 
 #### CAPTCHA required
 
@@ -71,7 +72,7 @@ CAPTCHA is required when users enter incorrect passwords for multiple consecutiv
 
 A machine ID is required for generating an offline license. In the Katalon Studio Activation window, click **Offline Activation**:
 
-1. **Generate an offline license**: Log in to [Katalon TestOps](https://analytics.katalon.com/home) > go to your organization > **License** > **Katalon Studio Enterprise** > **Create Offline License** > insert a **Machine ID** > click **Create**.
+1. **Generate an offline license**: Log into [Katalon Admin](https://admin.katalon.com/) > go to your organization > **License** > **Katalon Studio Enterprise** > **Create Offline License** > insert a **Machine ID** > click **Create**.
 
     > Notes:
     >

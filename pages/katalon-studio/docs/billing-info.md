@@ -10,16 +10,16 @@ You can update billing settings including payment method, billing information an
 
 ## Edit a credit card information
 
-You can change a payment method for your organization at any time. Currently, if you subscribe to Katalon licenses via Katalon Website and TestOps, only credit cards are supported.
+You can change a payment method for your organization at any time. Currently, if you subscribe to Katalon licenses via Katalon Website and Admin, only credit cards are supported.
 
-> In Katalon TestOps, you can save one card in each organization.
+> In Katalon Admin, you can save one card in each organization.
 
 To edit a payment method:
 
-1. Log into [Katalon TestOps](https://analytics.katalon.com);
-2. Select your **Organization** > **Payment Method**;
-3. Click **Update** and enter another card’s details;
-4. Click **Save** when you’re done.
+1. Log into [Katalon Admin](https://admin.katalon.com/)
+2. Select your **Organization** > **Payment Method**
+3. Click **Update** and enter another card’s details
+4. Click **Save** when you’re done
 
 The newly added card is automatically added to other subscriptions for future payments.
 
@@ -37,10 +37,10 @@ To delete an existing credit card:
 
 To display additional information on your receipts:
 
-1. Log into [Katalon TestOps](https://analytics.katalon.com);
-2. Select your **Organization** > **Payment Method**;
-3. In the **Billing Information** view, click **Update** and enter the billing information;
-4. Click **Save**.
+1. Log into [Katalon Admin](https://admin.katalon.com/)
+2. Select your **Organization** > **Payment Method**
+3. In the **Billing Information** view, click **Update** and enter the billing information
+4. Click **Save**
 
 ## Set your billing email
 

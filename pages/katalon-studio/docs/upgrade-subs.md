@@ -9,15 +9,13 @@ If you want to increase the number of subscribed licenses or switch from monthly
 
 ## Add more licenses to a subscription
 
-
 > Only the Organization Owner/Admins can upgrade a subscription.
 >
 > Subscription upgrade does NOT require subscription cancelation.
 
-
 To add more number of licenses to your subscription, follow these steps:
 
-1. Log into [Katalon TestOps](https://analytics.katalon.com/home);
+1. Log into [Katalon Admin](https://admin.katalon.com/);
 2. Select your **Organization** > **Subscriptions**;
 3. Locate which product you want to upgrade, click **Upgrade** and adjust the total number of licenses;
 
@@ -27,7 +25,6 @@ To add more number of licenses to your subscription, follow these steps:
 
 Successful payment will immediately change your subscription.
 
-
 ## Upgrade to annual billing cycle
 
 Yearly billing cycle helps you save a one-month cost and allow you to use offline licenses. 
@@ -36,7 +33,7 @@ Yearly billing cycle helps you save a one-month cost and allow you to use offlin
 
 To upgrade to annual billing cycle, follow these steps:
 
-1. Log into [Katalon TestOps](https://analytics.katalon.com/home);
+1. Log into [Katalon Admin](https://admin.katalon.com/);
 2. Select your **Organization** > **Subscriptions**;
 3. Locate which product you want to upgrade, click **Upgrade** to select annual in a switch mode;
 
@@ -45,5 +42,3 @@ To upgrade to annual billing cycle, follow these steps:
 Successful payment will immediately change your subscription.
 
 > Only node-locked and annual subscriptions can be converted to offline licenses.
-
-

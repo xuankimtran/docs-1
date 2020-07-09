@@ -9,14 +9,14 @@ After successfully subscribing to Katalon licenses, the **Organization Owner and
 
 > **Important**:
 >
-> * The **Licenses** view of your Organization on Katalon TestOps is the workspace to manage Katalon licenses.
+> * The **Licenses** view of your Organization on Katalon Admin is the workspace to manage Katalon licenses.
 > * Only **Organization Owner and Admins** can view, create, assign, revoke, and transfer licenses.
 
 ## Verify and View Licenses Information
 
 Please follow these steps to verify the information of your subscribed licenses and contact us via license@katalon.com if you need help. You can also view the number of available licenses and machines.
 
-1. Log into [Katalon TestOps](https://analytics.katalon.com/home)
+1. Log into [Katalon Admin](https://admin.katalon.com/)
 2. Select your **Organization > Licenses**
 3. Select a Katalon product to open its view
 4. The product view displays the following information:

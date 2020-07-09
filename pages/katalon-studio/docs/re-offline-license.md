@@ -30,7 +30,7 @@ To copy and send the machine ID on which Katalon Studio is executed, Users need 
 
 * Create an Offline license for the computer that will execute Katalon Studio from the command line:
 
-1. Go to [Katalon TestOps](https://analytics.katalon.com/home)
+1. Go to [Katalon Admin](https://admin.katalon.com/)
 2. Select **Organization**
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-offline-kse-licenses/orgkat.png" width="356" height="">
@@ -49,7 +49,6 @@ To copy and send the machine ID on which Katalon Studio is executed, Users need 
 Users can use the KRE offline licenses to execute Katalon Studio/Katalon Studio Enterprise from the command-line and in the offline environment.
 
 * **Execute a single session**: Put the offline license file named `KRE_<machineID>.lic` in the **license** folder.
-
 * **Execute multiple sessions in parallel**: Put multiple license files in the **license** folder.
 
 The **license** folder can be found:

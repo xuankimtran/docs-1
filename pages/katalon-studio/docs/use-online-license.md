@@ -5,11 +5,11 @@ permalink: katalon-studio/docs/use-online-license.html
 description:
 ---
 
-Before assigning a license, the organization Owner/Admin must [add the team member(s) to the organization in the Katalon TestOps](https://docs.katalon.com/katalon-analytics/docs/user-management.html#user-related-permissions). Once added, the Admin can assign a Katalon license to any team member, or withdraw a license if no longer needed.
+Before assigning a license, the organization Owner/Admin must [add the team member(s) to the organization in the Katalon Admin](https://docs.katalon.com/katalon-analytics/docs/user-management.html#user-related-permissions). Once added, the Admin can assign a Katalon license to any team member, or withdraw a license if no longer needed.
 
 ### Katalon Studio Enterprise
 
-1. In [Katalon TestOps](https://analytics.katalon.com/home), select your **Organization > Licenses**.
+1. In [[Katalon Admin](https://admin.katalon.com/), select your **Organization > Licenses**.
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/license.png" width="" height="">
 2. On **Katalon Studio Enterprise** view, register the on-demand users by adding them to the **Registered Users** list.
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/grant%20.png" width="" height="">
@@ -61,5 +61,6 @@ For Enterprise users with a private network, you may encounter a situation where
 * update.katalon.com
 * analytics.katalon.com
 * testops.katalon.com
+* admin.katalon.com
 
 Learn more about how to install and execute Katalon Runtime Engine [here](https://docs.katalon.com/katalon-studio/docs/install-RE.html).

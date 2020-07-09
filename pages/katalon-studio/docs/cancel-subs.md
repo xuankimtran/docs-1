@@ -14,9 +14,9 @@ After the cancelation, the subscription remains **active** until its next billin
 
 To cancel your subscription, follow the following steps:
 
-1. Log in to [Katalon TestOps](https://analytics.katalon.com/).
-2. Select your **Organization > Subscriptions**.
-3. On the top right corner of the **Subscription** view, select **Edit Subscription**.
-4. Click **Cancel** any active subscriptions and confirm your action.
+1. Log into [Katalon Admin](https://admin.katalon.com/)
+2. Select your **Organization > Subscriptions**
+3. On the top right corner of the **Subscription** view, select **Edit Subscription**
+4. Click **Cancel** any active subscriptions and confirm your action
 
 If you cancel your subscription by mistake and would love to reactivate the canceled subscription, please contact us via license@katalon.com.
