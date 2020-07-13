@@ -19,7 +19,7 @@ description: Release note 7.x
 
 ## Version 7.6 Beta
 
-You can download the Beta version of 7.6 [here](https://github.com/katalon-studio/katalon-studio/releases/tag/v7.6.0).
+You can download the Beta version of 7.6 [here](https://github.com/katalon-studio/katalon-studio/releases/tag/v7.6.0.rc).
 
 ### New features
 
