@@ -11,7 +11,7 @@ This tutorial shows you the step by step guide on how to install and run Katalon
 ## Installation
 
 See how to install and configure the TeamCity server [here](https://www.jetbrains.com/help/teamcity/installing-and-configuring-the-teamcity-server.html).
-Install [Katalon DevOps Runner for TeamCity](https://plugins.jetbrains.com/plugin/12653-katalon). See how to install TeamCity plugins [here](https://www.jetbrains.com/help/teamcity/installing-additional-plugins.html).
+Install [Katalon TestOps for TeamCity](https://plugins.jetbrains.com/plugin/12653-katalon). See how to install TeamCity plugins [here](https://www.jetbrains.com/help/teamcity/installing-additional-plugins.html).
 
 ## Enable the plugin
 
