@@ -1,5 +1,5 @@
 ---
-title: "How to use Katalon DevOps plugin for Jenkins on Windows" 
+title: "How to use Katalon TestOps plugin for Jenkins on Windows" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/jenkins-plugin-windows.html 
 description: Guidelines of how to use Jenkins plugin on Windows
