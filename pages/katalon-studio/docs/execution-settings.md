@@ -145,7 +145,7 @@ You can set request timeout and maximum response size via script by using built-
 
 **Request Timeout**
 
-* Override timeout settings of a project
+* Override timeout settings of a project in a test case
 
 ```java
 Map<String, Object> generalSettings = RunConfiguration.getExecutionGeneralProperties()
@@ -177,7 +177,7 @@ request.setSocketTimeout(RequestObject.DEFAULT_TIMEOUT)
 
 > Katalon Studio also supports setting maximum response size of an execution by using `-maxResponseSize` in command line. [Learn more](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#general-options)
 
-* Override response size limit of a project
+* Override response size limit of a project in a test case
 
 ```java
 Map<String, Object> generalSettings = RunConfiguration.getExecutionGeneralProperties()
