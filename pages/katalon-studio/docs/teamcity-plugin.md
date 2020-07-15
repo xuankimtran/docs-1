@@ -1,5 +1,5 @@
 ---
-title: "How to use Katalon DevOps Runner for TeamCity"
+title: "How to use Katalon TestOps for TeamCity"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/teamcity-plugin.html 
 description: To show instrcutions of how to install and setup TeamCity plugin.
