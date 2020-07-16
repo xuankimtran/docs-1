@@ -17,29 +17,33 @@ redirect_from:
 description: Release note 7.x
 ---
 
-## Version 7.6 Beta
-
-You can download the Beta version of 7.6 [here](https://github.com/katalon-studio/katalon-studio/releases/tag/v7.6.0.rc).
+## Official Release - Version 7.6
 
 ### New features
 
 * [Katalon Studio Enterprise] Support Self-Healing Web tests. [Learn more](https://docs.katalon.com/katalon-studio/docs/self-healing.html)
-* [Katalon Studio Enterprise] Support setting timeout and maximum response size in API test requests. [Learn more](https://docs.katalon.com/katalon-studio/docs/execution-settings.html#web-service-settings)
+* [Katalon Studio Enterprise] Support setting timeout and maximum response size for API requests. [Learn more](https://docs.katalon.com/katalon-studio/docs/execution-settings.html#web-service-settings)
 * [Katalon Studio Enterprise] Support retrying failed test executions immediately in Test Suite's execution. [Learn more](https://docs.katalon.com/katalon-studio/docs/test-suite.html#retry)
 * [Mobile Testing] Fully support Selector Strategies. [Learn more](https://docs.katalon.com/katalon-studio/docs/locators_object_identification.html)
 * [Mobile Testing] Support App Center Test integration. [Learn more](https://docs.katalon.com/katalon-studio/docs/app-center.html)
 * [API Testing] Support importing RESTful requests from SoapUI to Katalon Studio. [Learn more](https://docs.katalon.com/katalon-studio/docs/import-soapui.html)
-* [Desktop Testing] Support new Desktop keywords, including [setEncryptedText](https://docs.katalon.com/katalon-studio/docs/windows-kw-set-encrypted-text.html), [getAttribute](https://docs.katalon.com/katalon-studio/docs/windows-kw-get-attribute.html), [verifyElementAttributeValue](https://docs.katalon.com/katalon-studio/docs/windows-kw-verify-element-attribute-value.html), [waitForElementAttributeValue](https://docs.katalon.com/katalon-studio/docs/windows-kw-wait-element-attribute-value.html), [verifyElementPresent](https://docs.katalon.com/katalon-studio/docs/windows-kw-verify-element-present.html), [verifyElementNotPresent](https://docs.katalon.com/katalon-studio/docs/windows-kw-verify-element-not-present.html), [waitForElementPresent](https://docs.katalon.com/katalon-studio/docs/windows-kw-wait-element-present.html), and [waitForElementNotPresent](https://docs.katalon.com/katalon-studio/docs/windows-kw-wait-element-not-present.html)
+* [Desktop Testing] Support new Windows keywords, including [setEncryptedText](https://docs.katalon.com/katalon-studio/docs/windows-kw-set-encrypted-text.html), [getAttribute](https://docs.katalon.com/katalon-studio/docs/windows-kw-get-attribute.html), [verifyElementAttributeValue](https://docs.katalon.com/katalon-studio/docs/windows-kw-verify-element-attribute-value.html), [waitForElementAttributeValue](https://docs.katalon.com/katalon-studio/docs/windows-kw-wait-element-attribute-value.html), [verifyElementPresent](https://docs.katalon.com/katalon-studio/docs/windows-kw-verify-element-present.html), [verifyElementNotPresent](https://docs.katalon.com/katalon-studio/docs/windows-kw-verify-element-not-present.html), [waitForElementPresent](https://docs.katalon.com/katalon-studio/docs/windows-kw-wait-element-present.html), and [waitForElementNotPresent](https://docs.katalon.com/katalon-studio/docs/windows-kw-wait-element-not-present.html)
 * Allow overriding `Browser Type` and `Execution Profile` of all Test Suites in a Test Suite Collection via command line. [Learn more](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#command-builder)
 * Support displaying description of Custom Keywords in test cases (same as built-in keywords)
 
 ### Improvements
 
 * [Katalon Studio Enteprise] Applitools Integration becomes a built-in feature with its libraries updated to the latest versions
+* Revamp the Project Settings dialog
 * Support updating Microsoft Edge (Chromium) driver in Katalon Studio Tools
 * Set Chrome as the default browser
 
-## Pre-release - Version 7.5.10
+### Fix
+
+* Bug: [Desktop Testing] `setText()` keyword does not clear the current text before setting the given text
+* Bug: [qTest Integration] Unable to upload reports to qTest in qTest v10.1.0.0 or later
+
+## Version 7.5.10
 
 ### New feature
 
@@ -53,7 +57,7 @@ You can download the Beta version of 7.6 [here](https://github.com/katalon-studi
 
 * Bug: [Mobile] An issue of missing mobile devices when using Custom Capabilities. Address [#275](https://github.com/katalon-studio/katalon-studio/issues/275)
 
-## Official Release - Version 7.5.5
+## Version 7.5.5
 
 ### New features
 
