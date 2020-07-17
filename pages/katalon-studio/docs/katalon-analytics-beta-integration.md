@@ -39,24 +39,3 @@ You must enable **Katalon TestOps Integration** to submit test execution report
 3. Click **Apply** and then **OK** to finish your configurations.
 
 To verify if you have overridden the authentication successfully, on the top right corner, select your account > **View Dashboard**. You should be navigated to the project having been configured above.
-
-## Access Katalon TestOps
-
-### View Reports
-
-In the **Result** Tab of a Test Suite, click the **Katalon TestOps** button, then select **Access TestOps** to access the **Execution** tab. You can also view more reports in the **Reports** tab in Katalon TestOps.
-
-### View Execution History of a specific Test Case or Test Suite
-
-You can also view a specific Test Case or Test Suite entire execution history in Katalon TestOps by clicking the **View Execution History** button on the Test Case or Test Suite Views.  
-
-### Store Katalon Studio's project code in Katalon TestOps
-
-Starting in **version 7.0**, to store your Katalon Studio's Project Code in Katalon TestOps, from any screens of your project in Katalon Studio, click <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-analytics-beta-integration/upload-project-code.png" width="28" height="20.6"> icon, select the preferred Katalon TestOps team and project to store the Katalon Studio project code, then enter a Test Projects name and click **Upload**.
-
-### Create Test Plan in Katalon TestOps right from Katalon Studio
-
-Starting in **version 7.0**, on the test suite collection view, click the **Create Test Plan** button to:
-
-* Zip and upload the current Project code.
-* Create a corresponding Test Plan on Katalon TestOps with the above Test Project.
