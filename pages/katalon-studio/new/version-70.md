@@ -17,7 +17,7 @@ redirect_from:
 description: Release note 7.x
 ---
 
-## Official Release - Version 7.6
+## Official Release - Version 7.6.0 - 7.6.1
 
 ### New features
 
@@ -40,6 +40,7 @@ description: Release note 7.x
 
 ### Fix
 
+* Bug: Log Viewer displays incorrect test results if a test case has Call Test Case steps
 * Bug: [Desktop Testing] `setText()` keyword does not clear the current text before setting the given text
 * Bug: [qTest Integration] Unable to upload reports to qTest in qTest v10.1.0.0 or later
 
