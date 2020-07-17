@@ -1,5 +1,5 @@
 ---
-title: "Integrate Katalon Studio with Katalon TestOps" 
+title: "Automatically upload Test Results from Katalon Studio" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/integration-with-katalon-studio.html
 redirect_from:
@@ -26,6 +26,8 @@ To configure the Katalon TestOps Integration, right after activating:
 
 In Katalon Studio, go to **Project > Settings > Katalon TestOps**.
 
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/integration-ks/config-integration.png)
+
 You must enable **Katalon TestOps Integration** to submit test execution reports to Katalon TestOps. Follow the below steps to set up the integration properly:
 
 1. Check the **Enable Katalon TestOps Integration** checkbox to retrieve all teams and projects that you have permission to access in the organization you're working on.
@@ -39,3 +41,13 @@ You must enable **Katalon TestOps Integration** to submit test execution report
 3. Click **Apply** and then **OK** to finish your configurations.
 
 To verify if you have overridden the authentication successfully, on the top right corner, select your account > **View Dashboard**. You should be navigated to the project having been configured above.
+
+## Automatically upload test results
+
+After configuring TestOps settings in Katalon Studio, starting running a test suite.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/integration-ks/run-test-ks.png)
+
+Your test results will be automatically uploaded to TestOps Center.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/integration-ks/upload-to.png)
