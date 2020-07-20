@@ -14,7 +14,7 @@ To make the most out of Katalon Docs, we recommend you go over the documentation
 
 As test automation becomes more crucial in today's technology landscape, it can be challenging to find an automation solution that is affordable, simple to set up, and comprehensive to meet a variety of automation needs.
 
-To address these concerns, we initially created Katalon Studio as a viable alternative to both open-source and commercial testing tools. Now, we have expanded our range to a variety of products to assist your automation testing needs.
+To address these concerns, we initially created [Katalon TestOps](https://analytics.katalon.com/) and Katalon Studio as a set of innovative and cohesive Continuous Testing tools and services to help software development teams achieve Continous Delivery with confidence. Now, we have expanded our range to a variety of products to assist your automation testing needs. 
 
 ### Katalon Studio
 
@@ -22,7 +22,11 @@ Katalon Studio is a robust automation solution for Web, API, mobile, and desktop
 
 ### Katalon TestOps
 
-A cloud-based application providing in-depth views of test execution reports through powerful visualization including charts, graphs, and metrics.
+Katalon TestOps is a set of cloud-based services to help you streamline software quality by continuous test executions and intelligent analytics. As this moment, Katalon TestOps consists of the following services:
+* Katalon TestOps Center: the test hub to gather and connect quality data from multiple sources, including Katalon Studio, JUnit, TestNG, Jira.
+* Katalon TestOps CI: the CI for managing test environments and scheduling remote executions on local machines, Kubernetes, CircleCI. It is designed and built with ease of deployment and configuration in mind to let QAs focus on testing activities.
+* Katalon TestOps Reports: provides dynamic perspectives and an insightful look at your automated testing activities.
+* Katalon TestOps Vision: the visual-based testing service which is powered by AI to quickly identify new defects on application GUIs.
 
 ### Katalon Recorder
 

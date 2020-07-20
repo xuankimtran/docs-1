@@ -18,7 +18,7 @@ Our documentation center provides you with guides, tutorials, and reference mate
 * The Katalon team has prepared some [**sample projects**](https://github.com/katalon-studio-samples) for you to try out before testing your products.
 * **Test Design** contains detailed information on various components of a test case/test suite, and Katalon Studio features.
 * After designing a test, **Execution and Reporting** guides you on how to run your test scripts as well as provide a comprehensive view and insights on your test results. Before executing your tests, remember to check Katalon Studio's supported [execution environments](/display/KD/Execute+a+test+case).
-You're recommended to use our beta product, **[Katalon TestOps](https://docs.katalon.com/katalon-analytics/docs/overview.html)** for dashboards, and visual analysis of test results.
+You're recommended to use our beta product, **[Katalon TestOps](https://analytics.katalon.com)**, a set of cloud-based services to help you streamline software quality by continuous test execution and intelligent analytics.
 * **[Working with Runtime Engine](https://docs.katalon.com/katalon-studio/docs/intro-RE.html)** is a must-read document section for those who execute test scripts in any CI/CD infrastructure.
 * **Integration** describes in more detail with which tools Katalon Studio can integrate. To extend Katalon Studio's capabilities, please check out our [Store](https://store.katalon.com/) for more plugins and add-ons.
 
