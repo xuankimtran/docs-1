@@ -315,12 +315,14 @@ items:
                     url: /katalon-studio/docs/draft-request.html
               - title: "Import Web Service Objects"
                 tree:
-                  - title: "Import REST requests from Swagger 2.0"
+                  - title: "Import RESTful requests from Swagger 2.0"
                     url: /katalon-studio/docs/import-rest-requests-from-swagger-20.html
+                  - title: "Import RESTful from Postman"
+                    url: /katalon-studio/docs/import-postman.html
+                  - title: "Import RESTful requests from SoapUI"
+                    url: /katalon-studio/docs/import-soapui.html
                   - title: "Import SOAP requests from WSDL"
                     url: /katalon-studio/docs/import-soap-requests-from-wsdl.html
-                  - title: "Import from Postman"
-                    url: /katalon-studio/docs/import-postman.html
               - title: "Parameterize a Web Service Object"
                 url: /katalon-studio/docs/parameterize-a-web-service-object.html
               - title: "Handle Response Messages"
@@ -951,8 +953,6 @@ items:
             url: /katalon-studio/docs/selenium-testng-junit-migration.html
           - title: "Import Selenium IDE v3 projects"
             url: /katalon-studio/docs/import-selenium-ide.html
-          - title: "Import RESTful requests from SoapUI"
-            url: /katalon-studio/docs/import-soapui.html
       - title: "Katalon Studio Plugins"
         tree:
           - title: "Using Plugins"
