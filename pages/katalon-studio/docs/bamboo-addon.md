@@ -15,7 +15,7 @@ The Katalon DevOps for Bamboo plugin enables you to download, deploy and execute
 
 ## Prerequisites
 
-* You need an active Katalon Runtime Engine node-locked license.
+* You need an active Katalon Runtime Engine license.
 * You need Bamboo administrative permission to configure the integration.
 
 ## Install the Add-on
