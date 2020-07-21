@@ -7,6 +7,7 @@ redirect_from:
     - "/display/KD/Manage%20Checkpoints/"
     - "/x/XYIw/"
     - "/katalon-studio/docs/manage-checkpoints/"
+    - "/display/KD/Manage+Checkpoint/index.html"
 description: 
 ---
 What is Checkpoint
