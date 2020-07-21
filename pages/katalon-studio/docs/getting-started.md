@@ -105,4 +105,11 @@ That's it! You can now open a project and execute a test using Katalon Studio. Y
 Where to Go Next?
 -----------------
 
-Check out our [Overview](/display/KD/Overview) to see the list of all the resources available in this Documentation page and beyond.
+## Katalon TestOps
+
+[Katalon TestOps](https://analytics.katalon.com) is a set of cloud-based services to help you streamline software quality by continuous test executions and intelligent analytics. As this moment, Katalon TestOps consists of the following services:
+
+* Katalon TestOps Center: the test hub to gather and connect quality data from multiple sources, including Katalon Studio, JUnit, TestNG, and Jira.
+* Katalon TestOps CI: the CI for managing test environments and scheduling remote executions on local machines, Kubernetes, and CircleCI. It is designed and built with ease of deployment and configuration in mind to let QAs focus on testing activities.
+* Katalon TestOps Reports: provide dynamic perspectives and an insightful look at your automated testing activities.
+* Katalon TestOps Vision: the visual-based testing service which is powered by AI to identify new defects on application GUIs quickly.
