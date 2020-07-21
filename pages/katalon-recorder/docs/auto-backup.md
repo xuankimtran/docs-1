@@ -1,5 +1,5 @@
 ---
-title: "Auto Backup in Katalon TestOps" 
+title: "Back up data automatically to Katalon TestOps" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-recorder/docs/auto-backup.html 
 description:
