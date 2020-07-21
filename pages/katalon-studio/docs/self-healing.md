@@ -30,14 +30,12 @@ In a Katalon Studio project, you can find a screen in project settings dedicated
 
 ## Configure Test Design
 
-Go to **Project/Settings/Self-healing/Web UI/Test Design**, select one of the provided options to decide the default selection method used during spying and recording. Katalon Studio supports:
+Go to **Project/Settings/Test Design/Web UI**, select one of the provided options to decide the default selection method used during spying and recording. Katalon Studio supports:
 
 * [XPath](http://docs.katalon.com/katalon-studio/docs/web-selection-methods.html#xpath): Once a test object is captured by using Spy/Recorder, a set of XPath locators are generated. The first value is the object's default XPath locator.
 * [Attributes](http://docs.katalon.com/katalon-studio/docs/web-selection-methods.html#attributes)
 * [CSS](http://docs.katalon.com/katalon-studio/docs/web-selection-methods.html#css)
 * [Image](http://docs.katalon.com/katalon-studio/docs/web-selection-methods.html#image)
-
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/self-healing/test-design.png">
 
 If you choose XPath or Attributes, you need to configure some additional settings:
 
@@ -50,9 +48,9 @@ If you choose XPath or Attributes, you need to configure some additional setting
 
 As aforementioned, Katalon Studio enables the Self-healing mode for your project by default.
 
-You can decide which alternative locators to be used in terms of selection methods and their priorities in **Project/Settings/Self-Healing/Web UI/ Test Execution**. During execution, when Katalon fails to find an object, the selected selection methods in this global setting are used in the predefined order.
+You can decide which alternative locators to be used in terms of selection methods and their priorities in **Project/Settings/Self-Healing/Web UI**. During execution, when Katalon fails to find an object, the selected selection methods in this global setting are used in the predefined order.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/self-healing/selfhealing-execution.png">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/self-healing/selfhealing.png">
 
 In the **Test Execution** view:
 
@@ -95,7 +93,7 @@ In an Object's view, you can decide the default Selection Method for detecting t
 
 ## Enable and disable Self-healing mode
 
-Self-healing mode is turned on by default in a project. If you wish to disable this mode in the project, please go to **Project/Settings/Self-Healing/Web UI/Test Execution** and uncheck **Enable self-healing execution**.
+Self-healing mode is turned on by default in a project. If you wish to disable this mode in the project, please go to **Project/Settings/Self-Healing/Web UI** and uncheck **Enable self-healing execution**.
 
 From the toolbar of Katalon Studio, click on the **Self-Healing** icon, toggle between **Enable** and **Disable Self-Healing**.
 
@@ -126,12 +124,12 @@ After selecting one or multiple proposed locators, you can **discard** or **appr
 
 ### Capture objects with Recording/Spying
 
-1. Since Self-healing is active by default, go to **Project/Settings/Self-Healing/Web UI/Test Design** to choose the default selection method during spying/recording.
+1. Since Self-healing is active by default, go to **Project/Settings/Test Design/Web UI** to choose the default selection method during spying/recording.
 2. Capture objects and change the locators as your wish
 
 ### Execute the test case
 
-1. Go to **Project/Settings/Self-Healing/Web UI/Test Execution** to choose selection methods for self-healing execution and their order.
+1. Go to **Project/Settings/Self-Healing/Web UI** to choose selection methods for self-healing execution and their order.
 2. Run your test case
 
 ### Approve the replacement
