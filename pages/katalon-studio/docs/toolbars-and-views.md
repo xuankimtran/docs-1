@@ -35,7 +35,7 @@ where:
 | Object Repository | List all [test objects](/display/KD/Manage+Test+Object) of the current project |
 | Test Suites | List all [test suites](/display/KD/Execute+a+test+suite) and [test suite collections](/display/KD/Execute+a+test+suite+collection) of the current project |
 | Data Files | List all [test data](/display/KD/Manage+Test+Data) of the current project |
-| Checkpoints | List all [checkpoints](/display/KD/Manage+Checkpoint) of the current project |
+| Checkpoints | List all [checkpoints](https://docs.katalon.com/katalon-studio/docs/manage-checkpoints.html) of the current project |
 | Keywords | List all [custom keywords](/display/KD/Introduction+to+Custom+Keywords) of the current project |
 | Reports | List all generated [reports](/display/KD/Test+Report) of the current project |
 | Profiles | List all execution [profiles](/x/xAHR) of the current project |
