@@ -57,3 +57,14 @@ For Enterprise users with a private network, you may encounter a situation where
 ### CAPTCHA required
 
 CAPTCHA is required when a user enters an incorrect password for 5 consecutive times. At that time, you should log into [Katalon TestOps](https://analytics.katalon.com/) with that account and enter the captcha. After that, you should be able to activate Katalon Studio normally.
+
+## Companion products
+
+### Katalon TestOps
+
+[Katalon TestOps](https://analytics.katalon.com) is a set of cloud-based services to help you streamline software quality by continuous test executions and intelligent analytics. As this moment, Katalon TestOps consists of the following services:
+
+* Katalon TestOps Center: the test hub to gather and connect quality data from multiple sources, including Katalon Studio, JUnit, TestNG, and Jira.
+* Katalon TestOps CI: the CI for managing test environments and scheduling remote executions on local machines, Kubernetes, and CircleCI. It is designed and built with ease of deployment and configuration in mind to let QAs focus on testing activities.
+* Katalon TestOps Reports: provide dynamic perspectives and an insightful look at your automated testing activities.
+* Katalon TestOps Vision: the visual-based testing service which is powered by AI to identify new defects on application GUIs quickly.
