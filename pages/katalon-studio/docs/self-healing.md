@@ -67,7 +67,7 @@ In the **Test Execution** view:
 
 In some scenarios, you don't need the test engine to try out different locators to find a non-existing object. Hence, you can turn off the Self-healing mode when detecting objects used with specific keywords.
 
-To decide which keyword to exclude from the Self-healing mode, in **Project/Settings/Self-Healing/Web UI/Test Execution**, add keywords to the exception list. When an object is used with the specified keywords in this field, Katalon Studio does not try locating that object with self-healing mode.
+To decide which keyword to exclude from the Self-healing mode, in **Project/Settings/Self-Healing/Web UI**, add keywords to the exception list. When an object is used with the specified keywords in this field, Katalon Studio does not try locating that object with self-healing mode.
 
 For example:
 
