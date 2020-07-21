@@ -6,7 +6,6 @@ redirect_from:
     - "/display/KD/Configure+JIRA+Integration/"
     - "/display/KD/Configure%20JIRA%20Integration/"
     - "/x/7oEw/"
-    - "/katalon-studio/docs/configure-jira-integration/"
     - "/display/KD/JIRA%20Integration/"
 
 description:

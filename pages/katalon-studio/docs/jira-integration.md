@@ -3,17 +3,16 @@ title: "Jira Integration"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/jira-integration.html
 redirect_from:
+    - "/katalon-studio/docs/configure-jira-integration/"
     - "/katalon-studio/docs/BDD-field-jira-cloud/"
     - "/katalon-studio/docs/install-and-use-katalons-jira-add-on/"
     - "/display/KD/Install+and+Use+Katalon%27s+JIRA+add-on/"
     - "/display/KD/Install%20and%20Use%20Katalon%27s%20JIRA%20add-on/"
     - "/x/TBBO/"
-    - "/katalon-studio/docs/configure-jira-integration/"
     - "/katalon-studio/docs/working-with-jira/"
     - "/display/KD/Configure+JIRA+Integration/"
     - "/display/KD/Configure%20JIRA%20Integration/"
     - "/x/7oEw/"
-    - "/katalon-studio/docs/configure-jira-integration/"
     - "/display/KD/JIRA%20Integration/"
     - "/display/KD/Working+with+JIRA/"
     - "/display/KD/Working%20with%20JIRA/"
@@ -28,6 +27,8 @@ description:
 * Install [Katalon BDD app](https://marketplace.atlassian.com/apps/1217501/katalon-bdd-test-automation-for-jira) for Jira from Atlassian Marketplace.
 
 ## Configure Jira integration 
+
+### With Katalon Studio
 
 You need to enable JIRA Integration in order to submit issues to JIRA. This setting is available at **Project > Settings > Integration > JIRA**.
 
@@ -61,6 +62,12 @@ The fields for setting include:
 
 
 4.  Click **OK** button to complete the JIRA Integration setup.
+
+### With Katalon TestOps
+
+You need to enable Jira integration with [Katalon TestOps](https://analytics.katalon.com) to have an insightful look at your testing data and better test management.
+
+Refer to [this document](https://docs.katalon.com/katalon-analytics/docs/kt-jira-config.html) to learn how to configure the integration.
 
 ## Integrate Test Case
 
