@@ -19,13 +19,11 @@ redirect_from:
 description:
 ---
 
-Environment Requirements
-------------------------
+## Environment Requirements
 
 Verify if your computer meets the [System Requirements](http://docs.katalon.com/display/KD/System+Requirements) to work with Katalon Studio.
 
-Download Katalon Studio
------------------------
+## Download Katalon Studio
 
 Go to [Katalon Download page](https://www.katalon.com/download/) to get the latest version of Katalon Studio. A suitable version for your system will be automatically detected and recommended for download. However, you can also select your preferred version on the page. Before diving further into automation testing, check out the [System Requirements](/display/KD/System+Requirements) needed to run Katalon Studio. 
 
@@ -33,8 +31,7 @@ Go to [Katalon Download page](https://www.katalon.com/download/) to get the la
 >
 > You can download older versions of Katalon Studio from its [Github repository](https://github.com/katalon-studio/katalon-studio/releases).
 
-Start Katalon Studio
---------------------
+## Start Katalon Studio
 
 ### For Windows
 
@@ -62,8 +59,7 @@ Once started, the application should display the splash screen similar to the fo
 
 ![Katalon Studio Loading](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/install_setup_katalon_studio/image2016-10-20-143A113A21.png)
 
-Activate Katalon Studio
------------------------
+## Activate Katalon Studio
 
 If you don't have an account with Katalon Studio, provide your desired username and password to sign up after launching the app. If you have an account, please read more about licenses and how to activate each license in [Katalon Studio Licensing](https://docs.katalon.com/katalon-studio/docs/license.html).
 
@@ -102,10 +98,9 @@ Katalon Studio provides a **Job Progress** tab to show the status of your exec
 
 That's it! You can now open a project and execute a test using Katalon Studio. You can also modify parts of these provided sample projects to become familiar with the tool.
 
-Where to Go Next?
------------------
+## Where to Go Next?
 
-## Katalon TestOps
+### Katalon TestOps
 
 [Katalon TestOps](https://analytics.katalon.com) is a set of cloud-based services to help you streamline software quality by continuous test executions and intelligent analytics. As this moment, Katalon TestOps consists of the following services:
 
