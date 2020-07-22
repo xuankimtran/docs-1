@@ -34,7 +34,6 @@ description: Release note 7.x
 ### Improvements
 
 * [Katalon Studio Enteprise] Applitools Integration becomes a built-in feature with its libraries updated to the latest versions
-* Revamp the Project Settings dialog
 * Support updating Microsoft Edge (Chromium) driver in Katalon Studio Tools
 * Set Chrome as the default browser
 
