@@ -1125,20 +1125,20 @@ items:
         url: /katalon-analytics/docs/ka-api-key.html
       - title: "Jira Settings"
         url: /katalon-analytics/docs/kt-jira-config.html
+      - title: "Upload Test Results to Katalon TestOps"
+        tree:
+          - title: "Upload Katalon Studio Test Results to Katalon TestOps automatically"
+            url: /katalon-analytics/docs/integration-with-katalon-studio.html
+          - title: "Upload Katalon Studio Test Results to Katalon TestOps manually"
+            url: /katalon-analytics/docs/project-management-import-KS.html
+          - title: "Upload Test Results using Command Line"
+            url: /katalon-analytics/docs/project-management-import-cli.html
       - title: "TestOps Center"
         tree:
           - title: "Overview"
             url: /katalon-analytics/docs/TO-center-overview.html
-          - title: "Executions"
-            tree:
-             - title: "Upload Katalon Studio Test Results to Katalon TestOps automatically"
-               url: /katalon-analytics/docs/integration-with-katalon-studio.html
-             - title: "Upload Katalon Studio Test Results to Katalon TestOps manually"
-               url: /katalon-analytics/docs/project-management-import-KS.html
-             - title: "Upload Test Results using Command Line"
-               url: /katalon-analytics/docs/project-management-import-cli.html
-             - title: "Compare Test Results"
-               url: /katalon-analytics/docs/compare-test-results.html
+          - title: "Compare Test Results"
+            url: /katalon-analytics/docs/compare-test-results.html
           - title: "Releases"
             url: /katalon-analytics/docs/kt-jira-release.html
           - title: "Requirements"
