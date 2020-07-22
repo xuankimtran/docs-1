@@ -1,7 +1,7 @@
 ---
-title: "Automatically upload Test Results from Katalon Studio" 
+title: "Upload Katalon Studio Test Results to Katalon TestOps automatically" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-analytics/docs/integration-with-katalon-studio.html
+permalink: katalon-studio/docs/katalon-analytics-beta-integration.html
 redirect_from:
     - "/display/KD/Katalon+Analytics+%28Beta%29+Integration/"
     - "/display/KD/Katalon%20Analytics%20%28Beta%29%20Integration/"
@@ -14,6 +14,8 @@ redirect_from:
     - "/x/mw3R/"
     - "/katalon-studio/docs/katalon-analytics-beta-integration.html"
     - "/katalon-analytics/docs/view-reports.html"
+    - "/katalon-analytics/docs/integration-with-katalon-studio/"
+    - "/katalon-analytics/docs/integration-with-katalon-studio.html"
 ---
 
 To configure the Katalon TestOps Integration, right after activating:
