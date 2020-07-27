@@ -8,13 +8,10 @@ redirect_from:
     - "/x/KRhO/"
     - "/display/KA/Integration+with+Katalon+Studio/"
     - "/display/KA/Integration%20with%20Katalon%20Studio/"
-    - "/katalon-analytics/docs/integration-with-katalon-studio/"
     - "/katalon-analytics/docs/ka-integration-katalon-studio/"
     - "/katalon-analytics/docs/ka-integration-katalon-studio.html"
     - "/x/mw3R/"
-    - "/katalon-studio/docs/katalon-analytics-beta-integration.html"
     - "/katalon-analytics/docs/view-reports.html"
-    - "/katalon-analytics/docs/integration-with-katalon-studio/"
     - "/katalon-analytics/docs/integration-with-katalon-studio.html"
 ---
 
