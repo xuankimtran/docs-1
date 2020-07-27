@@ -16,8 +16,18 @@ redirect_from:
     - "/katalon-studio/new/version-501.html"
 description: Release note 7.x
 ---
+## Official Release - Version 7.6.2
 
-## Official Release - Version 7.6.0 - 7.6.1
+### New Features
+
+* Katalon TestOps (Beta) Integration: Support associating a test execution in Katalon Studio with Release on Katalon TestOps (Beta) via command-line parameter
+* Katalon TestOps (Beta) Integration: Display the Executions table in Test Explorer
+
+### Fixes
+
+* Bug: [Self-healing mechanism] Null Pointer Exception thrown when XPath/CSS locator is empty
+
+## Version 7.6.0 - 7.6.1
 
 ### New features
 
