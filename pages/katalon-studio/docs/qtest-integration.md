@@ -87,15 +87,23 @@ In the displayed Setup Wizard, complete all items to finish the setup.
 
    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/image2016-11-15-143A493A1.png)
 
-2. **Generate Token**: Click on the **Generate** button to create the token to be used during the integration session.
+2. To **generate token** for Authentication, you can choose either way (2.1 or 2.2)
+
+   2.1 Log in with username and password: 
    
-   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/image2016-11-15-143A503A18.png)
+   Click on the **Generate** button to create the token to be used during the integration session.
+    
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/image2016-11-15-143A503A18.png)
    
    Fill in valid information on the **Generate new token** dialog. For example:
    
    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/image2016-11-15-143A483A8.png)
 
    Once Katalon Studio successfully connects to your qTest using the provided information, the token will be generated.
+
+   2.2 Log in with SSO token:
+   
+   If you are using SSO (Single Sign-On) to log into qTest, you need to access qTest Manager and sign in with your SSO account. Then navigate to the **Download qTest Resources** page, under the **API & SDK** section, copy **Bearer Token** and paste it in the **Token** text input in Katalon Studio. Ignore the **Generate** button.
 
 3. Select other submitting options as following:
 
@@ -111,7 +119,7 @@ In the displayed Setup Wizard, complete all items to finish the setup.
 
 4. **Test Case Mapping**:
    
-   Select the **Test Case Repositories** setting. You can create mappings between **qTest modules** and **Katalon Test Case folders** here.
+   Select **Test Case Repositories** setting (in Plugins/qTest). You can create mappings between **qTest modules** and **Katalon Test Case folders** here.
    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/image2017-6-29-163A473A10.png)
    
    Click on the **Add** command. The **Create Test Case Repository** dialog will be displayed. Click **OK** when you are done with the settings.
@@ -119,7 +127,7 @@ In the displayed Setup Wizard, complete all items to finish the setup.
 
 5. **Test Suite Mapping**:
    
-   Select the **Test Suite Repositories** setting. You can create mappings between **qTest projects** and **Katalon Test Suite folders** here.
+   Select the **Test Suite Repositories** setting (in Plugins/qTest). You can create mappings between **qTest projects** and **Katalon Test Suite folders** here.
    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/image2017-6-29-163A483A33.png)
 
    Click on the **Add** command. The **Create Test Suite Repository** dialog will be displayed. Click **OK** when you are done with the settings.
