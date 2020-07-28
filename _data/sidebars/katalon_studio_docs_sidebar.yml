@@ -889,6 +889,8 @@ items:
             url: /katalon-studio/docs/selenium-grid-integration.html
           - title: "Executing Tests on Multiple Devices in Parallel"
             url: /katalon-studio/docs/execute_tests_parallelly_multiple_devices.html
+          - title: Link Execution with TestOps Release using CommandLine"
+            url: /katalon-studio/docs/execution-release-cli.html
       - title: "Reports and Execution Log"
         tree:
           - title: "Test Suite and Test Suite Collection Reports"
@@ -1130,7 +1132,7 @@ items:
       - title: "Upload Test Results to Katalon TestOps"
         tree:
           - title: "Upload Katalon Studio Test Results to Katalon TestOps automatically"
-            url: /katalon-analytics/docs/integration-with-katalon-studio.html
+            url: /katalon-analytics/docs/katalon-analytics-beta-integration.html
           - title: "Upload Katalon Studio Test Results to Katalon TestOps manually"
             url: /katalon-analytics/docs/project-management-import-KS.html
           - title: "Upload Test Results using Command Line"
