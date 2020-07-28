@@ -20,8 +20,8 @@ description: Release note 7.x
 
 ### New Features
 
-* Katalon TestOps (Beta) Integration: Support associating a test execution in Katalon Studio with Release on Katalon TestOps (Beta) via command-line parameter
-* Katalon TestOps (Beta) Integration: Display the Executions table in Test Explorer
+* Katalon TestOps (Beta) Integration: Support associating a test execution in Katalon Studio with Release on Katalon TestOps (Beta) via command-line parameter. [Learn more](https://docs.katalon.com/katalon-studio/docs/execution-release-cli.html)
+* Katalon TestOps (Beta) Integration: Display the Executions table in Test Explorer. [Learn more](https://docs.katalon.com/katalon-studio/docs/view-execution-list.html)
 
 ### Fixes
 

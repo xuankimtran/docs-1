@@ -18,7 +18,7 @@ Starting from Katalon Studio version 7.6.2, you can view your execution summary 
 
 ## View Execution list
 
-In the navigation bar, go to **TestOps** > **Executions**. Here you can view the summary of your executions. 
+In Test Explorer, go to **TestOps** > **Executions**. Here you can view the summary of your executions. 
 
 Click on the **execution ID** to view execution details.
 
