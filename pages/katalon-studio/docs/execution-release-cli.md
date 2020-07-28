@@ -20,7 +20,7 @@ In Katalon TestOps, [create a new Release](https://docs.katalon.com/katalon-anal
 
 In **Katalon Studio**, open the **Command Generator** and select a Test Suite that you want to execute in CLI.
 
-In the **Katalon TestOps** section, select the **TestOps Release** that you want to link your execution with after running the test suite.
+In the **Katalon TestOps** section, select a **TestOps Release** that you want to link your execution with after running the test suite.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-release-cli/generate-command.png)
 
