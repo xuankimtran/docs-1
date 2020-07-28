@@ -22,7 +22,7 @@ In the navigation bar, go to **TestOps** > **Executions**. Here you can view the
 
 Click on the **execution ID** to view execution details.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/view-execution-list/execution-list.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/view-execution-list/execution-list.png)
 
 > Click on **Reload** icon to view the latest updates.
 
