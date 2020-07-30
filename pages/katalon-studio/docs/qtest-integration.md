@@ -103,7 +103,13 @@ In the displayed Setup Wizard, complete all items to finish the setup.
 
    2.2 Log in with SSO token:
    
-   If you are using SSO (Single Sign-On) to log into qTest, you need to access qTest Manager and sign in with your SSO account. Then navigate to the **Download qTest Resources** page, under the **API & SDK** section, copy **Bearer Token** and paste it in the **Token** text input in Katalon Studio. Ignore the **Generate** button.
+   If you are using SSO (Single Sign-On) to log into qTest, ignore the **Generate** button, copy and paste the following token format in the **Token** text field:
+   
+   `{"access_token":"<bearer_token_value>","token_type":"bearer","scope":"read write create delete administration execute import export share baseline"}`
+   
+   Fill <bearer_token_value> with **Bearer Token**. To find it, you need to access qTest Manager and sign in with your SSO account. Then navigate to the **Download qTest Resources** page, under the **API & SDK** section, you can see **Bearer Token**. 
+   
+   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/bearer-token-sso.png)
 
 3. Select other submitting options as following:
 
