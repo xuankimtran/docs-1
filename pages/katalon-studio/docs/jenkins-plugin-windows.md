@@ -6,16 +6,16 @@ description: Guidelines of how to use Jenkins plugin on Windows
 ---
 > Katalon TestOps CI is an easier way to execute Katalon Studio tests remotely or schedule remote Katalon Studio execution. [Learn more](https://docs.katalon.com/katalon-analytics/docs/kt-remote-execution.html)
 
-This tutorial shows you how to install and run **Katalon DevOps – Jenkins** plugin for Web UI testing on Windows platform.
+This tutorial shows you how to install and run **Katalon TestOps – Jenkins** plugin for Web UI testing on Windows platform.
 
 ## Prerequisites
 
 * [Installing Jenkins on Windows](https://www.jenkins.io/doc/book/installing/)
 * An active Katalon Runtime Engine license
 
-## Install Katalon DevOps plugin
+## Install Katalon TestOps plugin
 
-1. Go to **Manage Jenkins > Manage Plugins > Available tab** and search for the **Katalon DevOps** plugin.
+1. Go to **Manage Jenkins > Manage Plugins > Available tab** and search for the **Katalon TestOps** plugin.
 
 2. Select the plugin and click **Install**.
 

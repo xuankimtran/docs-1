@@ -11,7 +11,7 @@ description:
 ---
 > Katalon TestOps CI is an easier way to execute Katalon Studio tests remotely or schedule remote Katalon Studio execution. [Learn more](https://docs.katalon.com/katalon-analytics/docs/kt-remote-execution.html)
 
-The Katalon DevOps for Bamboo plugin enables you to download, deploy and execute Katalon Studio tests on Bamboo CI server automatically. Try it for free on [Atlassian Marketplace](https://marketplace.atlassian.com/apps/1220235/katalon-devops-for-bamboo).
+The Katalon TestOps for Bamboo plugin enables you to download, deploy and execute Katalon Studio tests on Bamboo CI server automatically. Try it for free on [Atlassian Marketplace](https://marketplace.atlassian.com/apps/1220235/katalon-devops-for-bamboo).
 
 ## Prerequisites
 
