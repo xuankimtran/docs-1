@@ -53,6 +53,7 @@ For Enterprise users with a private network, you may encounter a situation where
 * update.katalon.com
 * analytics.katalon.com
 * testops.katalon.com
+* katalon-test.s3-accelerate.amazonaws.com (used for uploading reports to [Katalon TestOps](https://analytics.katalon.com))
 
 ### CAPTCHA required
 
