@@ -21,22 +21,22 @@ description: Release note 7.x
 
 ### Improvements
 
-* [qTest Integration] Mapping 
+* [qTest Integration] Include qTest Test Case ID in the name of Katalon Test Cases downloaded from qTest
 
 ### Fixes
 
-* Bug: [BDD] An issue of importing incorrect content of Feature file from Jira
 * Bug: [Web Recorder] Unable to use **Run from here** when recording web with Internet Explorer WebDriver v3.6.0.0
-* Bug: [Web Recorder] Unable to capture navigate actions when recording with Internet Explorer
-* Bug: [Test Listeners] Text field is not visible when renaming a test listener
-* Bug: [Mobile Recorder] Unable to perform action on an Android Tab element
+* Bug: [Web Recorder] Unable to capture navigate actions when recording with Internet Explorer WebDriver
+* Bug: [Mobile Recorder] Unable to perform any actions on an Android Tab element
 * Bug: [Mobile Recorder] Unable to detect elements when spying/recording an iOS app
-* Bug: Unable to upload test results to Katalon TestOps (Beta)
+* Bug: [qTest Integration] Unable to send test reports to qTest
+* Bug: [Jira Integration] An issue of importing incorrect content of Feature file from Jira
 * Bug: [TestRail Integration] TestRail plugin does not support Manual Proxy Configuration
-* Bug: [Test Suite Report Email] Unable to receive any emails or receive unexpected passed test suite
 * Bug: [Kobiton Integration] Unable to apply System Proxy configuration when retrieving Kobiton devices and applications
-* Bug: [Katalon Runtime Engine] Unexpected stack-trace is displayed at the end of execution
-* Bug: [qTest Integration] Unable to send test report to qTest
+* Bug: [Katalon TestOps (Beta) Integration] Unable to upload test results to Katalon TestOps (Beta)
+* Bug: [Report Email] Unable to receive any emails or receive unexpected test suite report emails
+* Bug: [Test Listeners] Text field is not visible when renaming a test listener
+* Bug: [Katalon Runtime Engine] Unexpected stack trace is displayed at the end of execution
 
 ## Official Release - Version 7.6.2
 
