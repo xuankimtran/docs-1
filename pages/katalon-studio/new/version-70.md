@@ -30,7 +30,7 @@ description: Release note 7.x
 * Bug: [Mobile Recorder] Unable to perform any actions on an Android Tab element
 * Bug: [Mobile Recorder] Unable to detect elements when spying/recording an iOS app
 * Bug: [qTest Integration] Unable to send test reports to qTest
-* Bug: [Jira Integration] An issue of importing incorrect content of Feature file from Jira
+* Bug: [Jira Integration - Katalon BDD] An issue of importing incorrect content of Feature files from Jira
 * Bug: [TestRail Integration] TestRail plugin does not support Manual Proxy Configuration
 * Bug: [Kobiton Integration] Unable to apply System Proxy configuration when retrieving Kobiton devices and applications
 * Bug: [Katalon TestOps (Beta) Integration] Unable to upload test results to Katalon TestOps (Beta)
