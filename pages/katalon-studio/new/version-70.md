@@ -16,6 +16,30 @@ redirect_from:
     - "/katalon-studio/new/version-501.html"
 description: Release note 7.x
 ---
+
+## Pre-Release - Version 7.6.5
+
+You can download Katalon Studio version 7.6.5 [here](https://github.com/katalon-studio/katalon-studio/releases/tag/v7.6.5).
+
+### Improvements
+
+* [qTest Integration] Include qTest Test Case ID in the name of Katalon Test Cases downloaded from qTest
+
+### Fixes
+
+* Bug: [Web Recorder] Unable to use **Run from here** when recording web with Internet Explorer WebDriver v3.6.0.0
+* Bug: [Web Recorder] Unable to capture navigate actions when recording with Internet Explorer WebDriver
+* Bug: [Mobile Recorder] Unable to perform any actions on an Android Tab element
+* Bug: [Mobile Recorder] Unable to detect elements when spying/recording an iOS app
+* Bug: [qTest Integration] Unable to send test reports to qTest automatically
+* Bug: [Jira Integration - Katalon BDD] An issue of importing incorrect content of Feature files from Jira
+* Bug: [TestRail Integration] TestRail plugin does not support Manual Proxy Configuration
+* Bug: [Kobiton Integration] Unable to apply System Proxy configuration when retrieving Kobiton devices and applications
+* Bug: [Katalon TestOps (Beta) Integration] Unable to upload test results to Katalon TestOps (Beta)
+* Bug: [Report Email] Unable to receive any emails or receive unexpected test suite report emails
+* Bug: [Test Listeners] Text field is not visible when renaming a test listener
+* Bug: [Katalon Runtime Engine] Unexpected stack trace is displayed at the end of execution
+
 ## Official Release - Version 7.6.2
 
 ### New Features
