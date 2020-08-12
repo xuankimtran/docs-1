@@ -19,6 +19,8 @@ description: Release note 7.x
 
 ## Pre-Release - Version 7.6.5
 
+You can download Katalon Studio version 7.6.5 [here](https://github.com/katalon-studio/katalon-studio/releases/tag/v7.6.5).
+
 ### Improvements
 
 * [qTest Integration] Include qTest Test Case ID in the name of Katalon Test Cases downloaded from qTest
