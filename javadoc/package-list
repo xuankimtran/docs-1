@@ -55,6 +55,7 @@ com.kms.katalon.core.webservice.keyword.builtin
 com.kms.katalon.core.webservice.keyword.internal
 com.kms.katalon.core.webservice.setting
 com.kms.katalon.core.webservice.support
+com.kms.katalon.core.webservice.util
 com.kms.katalon.core.webservice.verification
 com.kms.katalon.core.webservice.wsdl.support.wsdl
 com.kms.katalon.core.webui.common
