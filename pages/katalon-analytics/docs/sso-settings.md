@@ -13,11 +13,11 @@ redirect_from:
 
 ## Configure Single Sign-On
 
-In the [Katalon Admin](https://admin.katalon.com) page, go to **Settings** > **Single Sign-On (SSO) Settings** > **Enable SSO** and enter your metadata.
+1. In the **Katalon Admin** page, go to **Settings** > **Single Sign-On (SSO) Settings** > **Enable SSO** and enter your metadata.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/sso-settings/enable-sso.png)
 
-Click on **Update** to finish.
+2. Click on **Update** to finish.
 
 ## Invite and enable SSO for Organization members
 
@@ -25,13 +25,13 @@ After you have configured SSO for your Organization, you can invite and enable S
 
 ### Invite and enable SSO for a new user
 
-Learn how to invite users to an organization [here](https://docs.katalon.com/katalon-analytics/docs/setup-org-team-project.html#invite-a-user-to-the-organization).
+1. Learn how to invite users to an organization [here](https://docs.katalon.com/katalon-analytics/docs/setup-org-team-project.html#invite-a-user-to-the-organization).
 
-In the **Login Options** section in the **Invite users** page, enable the SSO option and click on **Invite** to finish.
+2. In the **Login Options** section in the **Invite users** page, enable the SSO option and click on **Invite** to finish.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/sso-settings/invite-sso.png)
 
-A request to enable SSO will be sent to invited users. 
+3. A request to enable SSO will be sent to invited users. 
 
 This action will be *pending* until your member [accepts the request](https://docs.katalon.com/katalon-analytics/docs/setup-org-team-project.html#invite-a-user-to-the-organization).
 
@@ -39,13 +39,15 @@ This action will be *pending* until your member [accepts the request](https://do
 
 ### Enable SSO for an existing member
 
-To enable SSO for an existing member in an organization, in [Katalon Admin](https://admin.katalon.com) page, go to **Users** and select an account you want to enable SSO. Click on the pencil icon to go to the details page.
+1. To enable SSO for an existing member in an organization, in **Katalon Admin** page, go to **Users** and select an account you want to enable SSO. 
 
-In the **Login Options** section in the user's details page, enable the SSO option. 
+2. Click on the pencil icon to go to the details page.
+
+3. In the **Login Options** section in the user's details page, enable the SSO option. 
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/sso-settings/update-sso.png)
 
-A request to enable SSO will be sent to invited users. 
+4. A request to enable SSO will be sent to invited users. 
 
 This action will be pending until your member [accepts the request](https://docs.katalon.com/katalon-analytics/docs/setup-org-team-project.html#invite-a-user-to-the-organization).
 
@@ -57,15 +59,15 @@ After enabling SSO for your member, the pending request will be displayed in the
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/sso-settings/manage-sso.png)
 
-> Before the member have accepted the request, you can withdraw it by removing the URL from the pending list. Once you have confirmed your action, the member will no longer be able to access your request URL.
->
-> ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/sso-settings/delete-sso-request.png)
+Before the member have accepted the request, you can withdraw it by removing the URL from the pending list. Once you have confirmed your action, the member will no longer be able to access your request URL.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/sso-settings/delete-sso-request.png)
 
 ### Update Authentication Methods
 
 Once users have accepted the request to enable SSO, their accounts will be displayed in the user list with details of login options. 
 
-To update authentication methods, in the [Katalon Admin](https://admin.katalon.com) page, go to **Users** and click on the pencil icon to view user's details.
+To update authentication methods, in the **Katalon Admin** page, go to **Users** and click on the pencil icon to view user's details.
 
 You can update the login options (SSO and/or Username & Password) for members in the **Login Settings** section.
 
