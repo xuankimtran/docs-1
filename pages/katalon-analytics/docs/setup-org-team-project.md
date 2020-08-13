@@ -38,32 +38,63 @@ Organizations are shared Katalon TestOps accounts where groups of users can coll
 * **User** - is automatically assigned when a person is first invited to collaborate in an organization. Users can only monitor project progress.
 * **Billing Manager** - is granted by the Owner or Admin, who has the privileges of the User with additional permission to manage subscriptions.
 
-## Invite a user to the organization
+## Invite a user to join organization
 
-* Only the organization **Owner** or **Admin** can invite a user to the organization.
-* From Katalon TestOps dashboard, select an organization.
-* From **Users** tab, select **Invitations** tab.
-* Enter an email address and click **Invite**.
-* Copy the activation link and send it to that person.
+### As an Owner/Admin
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/user-management/KT-user-mgt-invitation.png)
+> This feature is accesible to the organization **Owner** and **Admin** only.
 
-The invited person accepts the invitation by clicking the activation link directing to Katalon TestOps and then clicking the name of the organization.
-Before that person accepts the invitation, their email address will be listed in **PENDING INVITATIONS**. Once the person joins the organization, their name and email address will be shown below the **Users** tab with the default User role. 
+* In [Katalon Admin](https://admin.katalon.com) page, select an organization.
+* Go to **Users** > Click on the **Invite user** button.
+* Enter valid email addresses and click **Invite**. *Note: You can enter multiple accounts at the same time.*
 
-The new user can only access projects when added by the team Owner or Admin to a team.
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/invite-user.png)
 
-> Notes: The Owner/Admin can withdraw the invitation by removing it from **PENDING INVITATIONS**.
+* An invitation email will be sent to the invited members, or you can copy the activation link and send it to them to confirm and join your organization.
 
-## Remove an existing user
+> After joining the organization, the new user can only access projects after being added to a team.
+
+### As a User
+
+After being invited to join organization, you will recieve an email with the subject *"Invitation to join Katalon Organization"*.
+
+Accept the invitation by clicking the activation link in the email or the one sent by your admin.
+
+You will be navigated to the below page. Click on the blue button to join your organzation.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/accept-invitation.png)
+
+## Manage users
+
+> This feature is accesible to the organization **Owner** and **Admin** only.
+
+### View pending invitations
+
+After inviting users to your organization, you can view the list of pending invitations in **Users** page.
+
+Before users accept the invitation, their email address will be displayed in the list with activation links. 
+
+> You can withdraw the invitation by removing it from **PENDING INVITATIONS**.
+
+### View a list of members in your organization
+
+You can view the list of existing members in **Users** page once they have accepted the invitation to join your organization.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/manage-users.png" width="" height="">
+
+> After joining the organization, their name and email address will be displayed in the **Users** section with the default **User** role. You can update their permission by editing information in the user's details page.
+
+### Remove an existing user
 
 Select your organization > from **Users** tab, click the remove icon in the last column and confirm your action in the pop-up.
 
-## Assign Admin or User role
+### Update user permission
+
+**Assign Admin or User role**
 
 The Admin and Owner can reassign the existing Admin and User to a new role. Select your organization/team > from **Users** Tab, click the pencil icon in the last column and then select **Admin** or **User** role in the drop-down list. A user can have different roles in different teams.
 
-## Assign Billing Manager role
+**Assign Billing Manager role**
 
 **Billing Manager** role is only available at the organization level and granted by the organization Owner or Admin. Select your organization > from **Users** Tab, click the pencil icon in the last column and then select **Billing Manager** role in the drop-down list.
 
@@ -71,9 +102,9 @@ The Admin and Owner can reassign the existing Admin and User to a new role. Sele
 
 The Owner and Admin of an organization can transfer the ownership of an Owner to another existing team member. 
 
-* Select an organization > select **Users** tab > search for the target user to assign the **Owner** role.
+* Select an organization > go to **Users** page > go to the user's details page by clicking on the pencil icon.
 
-* Click the pencil icon in the last column and then select **Owner** in the drop-down list.
+* Select **Owner** in the drop-down list.
 
 * Click **Save**.
 
@@ -81,7 +112,7 @@ The Owner and Admin of an organization can transfer the ownership of an Owner to
 
 ## Rename an Organization
 
-> Only **Owner** can access this feature.
+> This feature is accesible to the organization **Owner** and **Admin** only.
 
 To rename an Organization, go to your Organization and click on **Organization Settings**. You can edit the name in the **Organization profile** section.
 
@@ -89,7 +120,7 @@ Remember to click on **Update** to save your changes.
 
 ## Delete an Organization
 
-> Only **Owner** can access this feature.
+> This feature is accesible to the organization **Owner** only.
 
 To delete an Organization, click on **Organization Settings**.
 

@@ -1193,6 +1193,16 @@ items:
             url: /katalon-analytics/docs/project-management-delete.html
           - title: "Katalon TestOps OnPremise"
             url: /katalon-analytics/docs/ktop.html
+          - title: "Configure a Subdomain"
+            url: /katalon-analytics/docs/subdomain.html
+          - title: "Single Sign-On (SSO) Configurations"
+            tree:
+              - title: "[Admin] Enable SSO for an Organization"
+                url: /katalon-analytics/docs/sso-settings.html
+              - title: "[User] Accept a SSO Request"
+                url: /katalon-analytics/docs/accept-sso.html
+          - title: "Enable/Disable Strict Domain"
+            url: /katalon-analytics/docs/strict-domain.html
   - title: "Katalon Recorder"
     tree:
       - title: "Overview"
