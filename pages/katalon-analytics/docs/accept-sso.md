@@ -15,7 +15,7 @@ After you have accepted the invitation to join an Organization and your admin ha
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/accept-sso/join-organization-sso.png)
 
-Check the email with the subject *“Verify Single Sign-On authentication"*. Click on the link in the email to navigate to the **Configure Signgle Sign-On** page.
+Check the email with the subject *“Verify Single Sign-On authentication"*. Click on the link in the email to navigate to the **Configure Single Sign-On** page.
 
 > Note: You will receive the email only after you have accepted an invitation to join your organization.
 
