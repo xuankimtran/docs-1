@@ -44,7 +44,7 @@ Organizations are shared Katalon TestOps accounts where groups of users can coll
 
 > This feature is accesible to the organization **Owner** and **Admin** only.
 
-* In [Katalon Admin](https://admin.katalon.com) page, select an organization.
+* In **Katalon Admin** page, select an organization.
 * Go to **Users** > Click on the **Invite user** button.
 * Enter valid email addresses and click **Invite**. *Note: You can enter multiple accounts at the same time.*
 

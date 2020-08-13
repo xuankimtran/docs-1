@@ -13,7 +13,7 @@ redirect_from:
 
 ## Configure Single Sign-On
 
-In the [Katalon Admin](https://admin.katalon.com) page, go to **Settings** > **Single Sign-On (SSO) Settings** > **Enable SSO** and enter your metadata.
+In the **Katalon Admin** page, go to **Settings** > **Single Sign-On (SSO) Settings** > **Enable SSO** and enter your metadata.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/sso-settings/enable-sso.png)
 
@@ -39,7 +39,7 @@ This action will be *pending* until your member [accepts the request](https://do
 
 ### Enable SSO for an existing member
 
-To enable SSO for an existing member in an organization, in [Katalon Admin](https://admin.katalon.com) page, go to **Users** and select an account you want to enable SSO. Click on the pencil icon to go to the details page.
+To enable SSO for an existing member in an organization, in **Katalon Admin** page, go to **Users** and select an account you want to enable SSO. Click on the pencil icon to go to the details page.
 
 In the **Login Options** section in the user's details page, enable the SSO option. 
 
@@ -65,7 +65,7 @@ After enabling SSO for your member, the pending request will be displayed in the
 
 Once users have accepted the request to enable SSO, their accounts will be displayed in the user list with details of login options. 
 
-To update authentication methods, in the [Katalon Admin](https://admin.katalon.com) page, go to **Users** and click on the pencil icon to view user's details.
+To update authentication methods, in the **Katalon Admin** page, go to **Users** and click on the pencil icon to view user's details.
 
 You can update the login options (SSO and/or Username & Password) for members in the **Login Settings** section.
 
