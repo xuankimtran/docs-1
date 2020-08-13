@@ -18,6 +18,6 @@ You need to confirm your action by clicking on *“I understand the consequences
 
 > **IMPORTANT**
 >
-> To avoid access restriction during the setup process, please make sure you have completed all configurations including [Enabling SSO](katalon-analytics/docs/sso-settings.html#configure-single-sign-on) and [Invite users to sign in via SSO](katalon-analytics/docs/sso-settings.html#invite-and-enable-sso-for-organization-members) (if needed) before enabling strict domain.
+> To avoid access restriction during the setup process, please make sure you have completed all configurations including [Enabling SSO](https://docs.katalon.com/katalon-analytics/docs/sso-settings.html#configure-single-sign-on) and [Invite users to sign in via SSO](https://docs.katalon.com/katalon-analytics/docs/sso-settings.html#invite-and-enable-sso-for-organization-members) (if needed) before enabling strict domain.
 
 
