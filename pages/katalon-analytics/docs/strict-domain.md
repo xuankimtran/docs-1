@@ -10,7 +10,7 @@ description:
 
 - When disabled, the domain (https://analytics.katalon.com) is accessible for all members.
 
-In [Katalon Admin](https://admin.katalon.com) page, go to the **Strict Domain** section in **Organization Settings** and click on **Enable/Disable strict domain**.
+In **Katalon Admin** page, go to the **Strict Domain** section in **Organization Settings** and click on **Enable/Disable strict domain**.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/strict-domain/enable-strict-domain.png)
 

@@ -8,7 +8,7 @@ redirect_from:
 
 ## Create a Subdomain
 
-In [Katalon Admin](https://admin.katalon.com) page, go to the **Custom Domain** section in **Organization Settings**.
+In **Katalon Admin** page, go to the **Custom Domain** section in **Organization Settings**.
 
 Enter your **Domain Name** to the field as below.
 
