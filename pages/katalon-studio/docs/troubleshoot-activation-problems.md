@@ -8,7 +8,7 @@ If you have problems with activation, you can troubleshoot the common issues you
 
 > Tips
 >
->* Please use **Ctrl+F** to look for the exceptions and errors you have encountered quickly.
+>* Please use **Ctrl+F** to look for the exceptions and errors you have encountered.
 >* If the exception you are looking for is not documented, please leave a comment below to request a proposed solution from the Katalon team.
 
 First, please make sure you have configured the date and time of the machine installing Katalon Studio based on the local time zone. Differences in date and time may affect the license validation of the Katalon Server.
@@ -65,3 +65,6 @@ This exception means the number of machines you're using Katalon Studio exceeds 
 
 </details>
 
+See also:
+
+* [Session Termination Causes](https://docs.katalon.com/katalon-studio/docs/session-termination.html)

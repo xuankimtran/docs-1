@@ -41,6 +41,8 @@ items:
         tree:
           - title: "Session Termination Causes"
             url: /katalon-studio/docs/session-termination.html
+          - title: "Troubleshoot Activation Problems"
+            url: /katalon-studio/docs/troubleshoot-activation-problems.html
   - title: "Katalon Studio Enterprise"
     tree:
       - title: "Get Started"
@@ -61,6 +63,8 @@ items:
                 url: /katalon-studio/docs/activate-KSE.html
               - title: "Activate Katalon Studio"
                 url: /katalon-studio/docs/katalon-studio-activation-since-70.html
+              - title: "Troubleshoot Activation Problems"
+                url: /katalon-studio/docs/troubleshoot-activation-problems.html
               - title: "Update Katalon Studio"
                 url: /katalon-studio/docs/auto-updater.html
               - title: "Supported Environments"
