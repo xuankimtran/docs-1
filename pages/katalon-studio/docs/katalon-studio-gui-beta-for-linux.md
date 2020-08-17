@@ -16,6 +16,8 @@ description:
 
 Katalon Studio for Linux (Ubuntu tested) supports both IDE and console mode versions. This guide covers setting-up steps for running Katalon Studio GUI on Linux.
 
+> Download Katalon Studio for Linux [here](https://www.katalon.com/download/)
+
 1\. Install OpenJDK 8 on your Ubuntu (NOT Oracle JDK). You can find the installation steps [here](http://openjdk.java.net/install/). Once you finish the installation, your `OpenJDK` information is displayed when you execute `java -version` command.
 
 ![java](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-gui-beta-for-linux/Screen-Shot-2018-02-07-at-11.50.50.png)
