@@ -4,12 +4,12 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/troubleshoot-activation-problems.html
 ---
 
-If you have problems with activation, you can troubleshoot the common issues yourself.
+If you have problems with activation, you can troubleshoot the common issues by following the suggested instructions.
 
 > Tips
 >
 >* Please use **Ctrl+F** to look for the exceptions and errors you have encountered.
->* If the exception you are looking for is not documented, please leave a comment below to request a proposed solution from the Katalon team.
+>* If the exception you are looking for is not documented, please leave a comment below.
 
 First, please make sure you have configured the date and time of the machine installing Katalon Studio based on the local time zone. Differences in date and time may affect the license validation of the Katalon Server.
 
@@ -64,6 +64,8 @@ This exception means the number of licenses in use (both online and offline) exc
 <details><summary>Your trial has expired. Please subscribe to continue using Katalon Runtime Engine.</summary>
 
 Valid business email registration is eligible for a 30-day trial of both Katalon Studio Enterprise and Katalon Runtime Engine floating licenses. When your trial period expires, you need to subscribe to the paid license of each product to continue using it. Currently, the free license for Katalon Runtime Engine is not available.
+
+If you have subscribed to a Katalon license but cannot use it, please check if you are granted the permission to use. Please see the instruction [here](https://docs.katalon.com/katalon-studio/docs/use-online-license.html).
 
 </details>
 
