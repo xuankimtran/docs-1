@@ -44,24 +44,32 @@ CAPTCHA is required when users enter incorrect passwords for multiple consecutiv
 
 <details><summary>Machine Quota exceeded</summary>
 
-This exception means the number of machines you're using Katalon Studio exceeds the number of licenses that you have. The below section will guide you on how to remove a registered machine ID.
+This exception means the number of machines on which you're using Katalon Studio exceeds the number of licenses that you have. The below section will guide you on how to remove a registered machine ID.
 
 1. Log into [Katalon TestOps](https://analytics.katalon.com/) with your Katalon account.
-2. Select your Organization that associates with your Katalon account.
-3. In the **License Management** panel, select Katalon Studio Enterprise.
+2. Select the Organization that grants you permission to use the license.
+3. In the **License Management** panel, depending on which license in use, select Katalon Studio Enterprise or Katalon Runtime Engine.
 4. In the **Licenses** screen view, scroll down to the **Registered Machines** area and remove at least one machine ID.
+
+Please try activating again.
 
 </details>
 
 <details><summary>License Quota exceeded</summary>
 
+This exception means the number of licenses in use (both online and offline) exceeds the total number of licenses that your Organization has subscribed to. This may cause the [sessions terminated](https://docs.katalon.com/katalon-studio/docs/session-termination.html). To ensure the business continuity, we recommend you to subscribe more licenses.
+
 </details>
 
 <details><summary>Your trial has expired. Please subscribe to continue using Katalon Runtime Engine.</summary>
 
+Valid business email registration is eligible for a 30-day trial of both Katalon Studio Enterprise and Katalon Runtime Engine floating licenses. When your trial period expires, you need to subscribe to the paid license of each product to continue using it. Currently, the free license for Katalon Runtime Engine is not available.
+
 </details>
 
 <details><summary>Trial license is only available for Katalon accounts registered with a business email.</summary>
+
+If you encounter this exception, properly you have registered a Katalon account with a personal email (e.g. with public domain like `@gmail.com`). Katalon Studio Enterprise and Katalon Runtime Engine trial licenses can only be registered with **business** emails.
 
 </details>
 
