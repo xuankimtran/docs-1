@@ -74,7 +74,7 @@ where:
             <td>
                 <p>The&nbsp;<strong>list of input parameters</strong>&nbsp;for that test case if any, which consists of following details:</p>
                 <ul>
-                    <li><em>Key(s)</em>: The <a class="external-link" href="/display/KD/Variable+Types#VariableTypes-Publicvariables" rel="nofollow">public variables</a> defined within the called test case.</li>
+                    <li><em>Key(s)</em>: The <a class="external-link" href="https://docs.katalon.com/katalon-studio/docs/variable-types.html#test-case-variables" rel="nofollow">Test Case variables</a> defined within the called test case.</li>
                     <li><em>Value</em>: the value to be used for the corresponding public variables.</li>
                 </ul>
             </td>
