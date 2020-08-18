@@ -71,3 +71,12 @@ To update authentication methods, in the **Katalon Admin** page, go to **Users**
 
 You can update the login options (SSO and/or Username & Password) for members in the **Login Settings** section.
 
+## Activate Katalon Studio
+
+After you have finished the SSO configurations, open the activation log of Katalon Studio and fill in the below information to get started. 
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/sso-settings/activate-ks.png)
+
+- Server URL: your subdomain that you have already configured. (E.g.: https://daodao.katalon.com)
+- Email: your registered Katalon account
+- Password: an API key generated from Katalon TestOps. [Learn more](https://docs.katalon.com/katalon-analytics/docs/ka-api-key.html)
