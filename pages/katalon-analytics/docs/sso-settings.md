@@ -9,7 +9,7 @@ redirect_from:
 ## Prerequisites
 
 - You have configured a subdomain for your Organization. [Learn more](https://docs.katalon.com/katalon-analytics/docs/subdomain.html)
-- You have configured Identity Provider and have your metadata (this will be automatically encrypted).
+- You have configured Identity Provider and have your metadata (this will be automatically encrypted in Katalon's database).
 
 ## Configure Single Sign-On
 
