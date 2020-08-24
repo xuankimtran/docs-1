@@ -17,7 +17,28 @@ redirect_from:
 description: Release note 7.x
 ---
 
-## Pre-Release - Version 7.6.5
+## Official Release - Version 7.6.6
+
+### Improvements
+
+* Revamp the Reload Plugins table
+* [Katalon TestOps Integration] Display Plans in KS navigation tree
+* [qTest Integration] Support mapping TS in TSC with qTest
+* Update self-healing insights
+* Track the number of total executed test cases , number of passed test cases when executing test suites & test suite collections
+* [KSE] Allow to filter added test cases to test suites
+* [KRE] Print out license type of KRE when activating
+* Activation Dialog: Troubleshoot activation errors
+
+### Fixes
+
+* Bug: Periods in Object names in Recorder are ignored - apply for all test object types (web, mobile & desktop)
+* Bug: [Build CMD] Can not delete the number of waiting time for updating execution status of Test Suite
+* Bug: Fix Report Issue link on the menu
+* Bug: Default timeout of switchToWindowTitle(...) causes the test to fail
+* Bug: WebServiceObject - JSON body saved is not retained.
+
+## Version 7.6.5
 
 You can download Katalon Studio version 7.6.5 [here](https://github.com/katalon-studio/katalon-studio/releases/tag/v7.6.5).
 
@@ -40,7 +61,7 @@ You can download Katalon Studio version 7.6.5 [here](https://github.com/katalon-
 * Bug: [Test Listeners] Text field is not visible when renaming a test listener
 * Bug: [Katalon Runtime Engine] Unexpected stack trace is displayed at the end of execution
 
-## Official Release - Version 7.6.2
+## Version 7.6.2
 
 ### New Features
 
