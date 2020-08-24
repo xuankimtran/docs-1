@@ -21,22 +21,18 @@ description: Release note 7.x
 
 ### Improvements
 
-* Revamp the Reload Plugins table
-* [Katalon TestOps Integration] Display Plans in KS navigation tree
-* [qTest Integration] Support mapping TS in TSC with qTest
-* Update self-healing insights
-* Track the number of total executed test cases , number of passed test cases when executing test suites & test suite collections
-* [KSE] Allow to filter added test cases to test suites
-* [KRE] Print out license type of KRE when activating
-* Activation Dialog: Troubleshoot activation errors
+* [qTest Integration] Upload test results of the integrated Test Suites in Test Suite Collection to qTest
+* [Katalon TestOps (Beta) Integration] Display TestOps Plans in Test Explorer. [Learn more](https://docs.katalon.com/katalon-analytics/docs/view-ci-plans.html)
+* [Katalon Studio Enterprise] Enhance Self-healing Insights. [Learn more](https://docs.katalon.com/katalon-studio/docs/self-healing.html#understand-self-healing-insights)
+* [Katalon Studio Enterprise] Enhance UX of adding test cases to test suites
+* Support [troubleshooting activation problems](https://docs.katalon.com/katalon-studio/docs/troubleshoot-activation-problems.html)
 
 ### Fixes
 
-* Bug: Periods in Object names in Recorder are ignored - apply for all test object types (web, mobile & desktop)
-* Bug: [Build CMD] Can not delete the number of waiting time for updating execution status of Test Suite
-* Bug: Fix Report Issue link on the menu
-* Bug: Default timeout of switchToWindowTitle(...) causes the test to fail
-* Bug: WebServiceObject - JSON body saved is not retained.
+* Bug: An issue related to Test Objects' names in Katalon Record Utility
+* Bug: [Command Builder] An issue of setting the waiting time to update execution status of the Test Suite
+* Bug: [Windows Testing] Test execution failure caused by the default timeout of `switchToWindowTitle`
+* Bug: [Web Service Testing] An issue of saving test request's body
 
 ## Version 7.6.5
 
