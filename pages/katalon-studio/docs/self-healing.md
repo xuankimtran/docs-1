@@ -105,7 +105,7 @@ From the toolbar of Katalon Studio, click on the **Self-Healing** icon, toggle b
 
 When Katalon Studio finds an object thanks to the Self-healing mechanism, all the replacements are recorded in **Self-Healing Insights** when the test run is over. The locator replacement is **temporary** during the test run. To make the change permanent, you need to approve the change.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/self-healing/Self-healing-insights.png">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/self-healing/self-healing-insights-766.png">
 
 Right next to the Log Viewer tab, there is a new tab called **Self-Healing Insights** which displays the following information:
 
