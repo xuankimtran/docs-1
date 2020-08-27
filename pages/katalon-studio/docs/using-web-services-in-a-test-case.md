@@ -9,17 +9,15 @@ redirect_from:
     - "/katalon-studio/docs/using-web-services-in-a-test-case/"
 description: 
 ---
-Katalon Studio supports various ways to use a Web Service object in a test case. You can call the web service methods from Manual View (keywords test), Script View (test scripts), and verify the responses. Calling or adding web service object is easy in Katalon Studio.  
+Katalon Studio supports various ways to use a Web Service object in a test case. You can call the web service methods from Manual View (keywords test), Script View (test scripts), and verify the responses.  
 
-Instantly in Web Services Object View
--------------------------------------
+### In Test Request Object View
 
 You can **add** Web Services request to test case directly from the _object details view_. Simply click on the _plus_ icon to add to _New_ or any _Existing_ test case.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/using-web-services-in-a-test-case-58/Screen-Shot-2018-09-20-at-5.06.42-PM.png)
 
-Manual View
------------
+### In Test Case editor's Manual View
 
 Follow the steps below to use web service object in **Manual** view:
 
@@ -45,9 +43,7 @@ Follow the steps below to use web service object in **Manual** view:
 4.  The output of **[Send Request](/display/KD/%5BWS%5D+Send+Request)** keyword could be validated if needed using different **[Verify...](/display/KD/Web+Service)** keywords depending on your situation.  
       
     
-
-Scripting View
---------------
+### In Test Case editor's Script View
 
 You can use the **[Send Request](/display/KD/%5BWS%5D+Send+Request)** keyword for Web Service object and the **[Verify...](/display/KD/Web+Service)** keywords to verify the web service response. You may want to refer to [Handle Response messages](#UsingWebServicesinaTestCase5.8-HandleResponsemessages) for more details regarding **Element Locator**:
 
