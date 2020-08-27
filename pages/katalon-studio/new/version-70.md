@@ -80,7 +80,7 @@ You can download Katalon Studio version 7.6.5 [here](https://github.com/katalon-
 * [API Testing] Support importing RESTful requests from SoapUI to Katalon Studio. [Learn more](https://docs.katalon.com/katalon-studio/docs/import-soapui.html)
 * [Desktop Testing] Support new Windows keywords, including [setEncryptedText](https://docs.katalon.com/katalon-studio/docs/windows-kw-set-encrypted-text.html), [getAttribute](https://docs.katalon.com/katalon-studio/docs/windows-kw-get-attribute.html), [verifyElementAttributeValue](https://docs.katalon.com/katalon-studio/docs/windows-kw-verify-element-attribute-value.html), [waitForElementAttributeValue](https://docs.katalon.com/katalon-studio/docs/windows-kw-wait-element-attribute-value.html), [verifyElementPresent](https://docs.katalon.com/katalon-studio/docs/windows-kw-verify-element-present.html), [verifyElementNotPresent](https://docs.katalon.com/katalon-studio/docs/windows-kw-verify-element-not-present.html), [waitForElementPresent](https://docs.katalon.com/katalon-studio/docs/windows-kw-wait-element-present.html), and [waitForElementNotPresent](https://docs.katalon.com/katalon-studio/docs/windows-kw-wait-element-not-present.html)
 * Allow overriding `Browser Type` and `Execution Profile` of all Test Suites in a Test Suite Collection via command line. [Learn more](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#command-builder)
-* Support displaying description of Custom Keywords in test cases (same as built-in keywords)
+* Support Content Assist function for Custom Keywords in test cases (same as built-in keywords)
 
 ### Improvements
 
