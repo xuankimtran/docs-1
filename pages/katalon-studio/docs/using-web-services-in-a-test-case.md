@@ -49,8 +49,7 @@ You can use the **[Send Request](/display/KD/%5BWS%5D+Send+Request)** keyword 
 
 ```groovy
 //Send a SOAP request and returns its response
-def response = WS.sendRequest(findTestObject([the ID of Web Service object]))
-
+def response = WS.sendRequest(findTestObject([]))
 //Verify if a value at a specific location in response is as expected
 WS.verifyElementPropertyValue(response, <Element Locator>, <expected value>)
 ```
@@ -58,6 +57,17 @@ WS.verifyElementPropertyValue(response, <Element Locator>, <expected value>)
 For example:
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/using-web-services-in-a-test-case-58/image2017-2-28-153A203A11.png)
+
+If you have used [variables and parameters in test requests](https://docs.katalon.com/katalon-studio/docs/parameterize-a-web-service-object.html#variables-and-parameterizing-request-objects), you can pass values to the variables as follows: 
+
+```groovy
+//Send a test request and pass values to variables used in that request
+def response = WS.sendRequest(findTestObject([the ID of Web Service object], ["variable1": value1, "variable2": value2]))
+```
+
+For example:
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/using-web-services-in-a-test-case/parameterize-ws.png">
 
 The following API docs may prove useful when working with web service objects:
 
