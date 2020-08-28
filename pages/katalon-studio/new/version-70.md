@@ -17,7 +17,24 @@ redirect_from:
 description: Release note 7.x
 ---
 
-## Pre-Release - Version 7.6.5
+## Official Release - Version 7.6.6
+
+### Improvements
+
+* [qTest Integration] Upload test results of the integrated Test Suites in Test Suite Collection to qTest
+* [Katalon TestOps (Beta) Integration] Display TestOps Plans in Test Explorer. [Learn more](https://docs.katalon.com/katalon-analytics/docs/view-ci-plans.html)
+* [Katalon Studio Enterprise] Enhance Self-healing Insights. [Learn more](https://docs.katalon.com/katalon-studio/docs/self-healing.html#understand-self-healing-insights)
+* [Katalon Studio Enterprise] Enhance UX of adding test cases to test suites
+* Support [troubleshooting activation problems](https://docs.katalon.com/katalon-studio/docs/troubleshoot-activation-problems.html)
+
+### Fixes
+
+* Bug: An issue related to Test Objects' names in Katalon Record Utility
+* Bug: [Command Builder] An issue of setting the waiting time to update execution status of the Test Suite
+* Bug: [Windows Testing] Test execution failure caused by the default timeout of `switchToWindowTitle`
+* Bug: [Web Service Testing] An issue of saving test request's body
+
+## Version 7.6.5
 
 You can download Katalon Studio version 7.6.5 [here](https://github.com/katalon-studio/katalon-studio/releases/tag/v7.6.5).
 
@@ -40,7 +57,7 @@ You can download Katalon Studio version 7.6.5 [here](https://github.com/katalon-
 * Bug: [Test Listeners] Text field is not visible when renaming a test listener
 * Bug: [Katalon Runtime Engine] Unexpected stack trace is displayed at the end of execution
 
-## Official Release - Version 7.6.2
+## Version 7.6.2
 
 ### New Features
 
@@ -63,7 +80,7 @@ You can download Katalon Studio version 7.6.5 [here](https://github.com/katalon-
 * [API Testing] Support importing RESTful requests from SoapUI to Katalon Studio. [Learn more](https://docs.katalon.com/katalon-studio/docs/import-soapui.html)
 * [Desktop Testing] Support new Windows keywords, including [setEncryptedText](https://docs.katalon.com/katalon-studio/docs/windows-kw-set-encrypted-text.html), [getAttribute](https://docs.katalon.com/katalon-studio/docs/windows-kw-get-attribute.html), [verifyElementAttributeValue](https://docs.katalon.com/katalon-studio/docs/windows-kw-verify-element-attribute-value.html), [waitForElementAttributeValue](https://docs.katalon.com/katalon-studio/docs/windows-kw-wait-element-attribute-value.html), [verifyElementPresent](https://docs.katalon.com/katalon-studio/docs/windows-kw-verify-element-present.html), [verifyElementNotPresent](https://docs.katalon.com/katalon-studio/docs/windows-kw-verify-element-not-present.html), [waitForElementPresent](https://docs.katalon.com/katalon-studio/docs/windows-kw-wait-element-present.html), and [waitForElementNotPresent](https://docs.katalon.com/katalon-studio/docs/windows-kw-wait-element-not-present.html)
 * Allow overriding `Browser Type` and `Execution Profile` of all Test Suites in a Test Suite Collection via command line. [Learn more](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#command-builder)
-* Support displaying description of Custom Keywords in test cases (same as built-in keywords)
+* Support Content Assist function for Custom Keywords in test cases (same as built-in keywords)
 
 ### Improvements
 

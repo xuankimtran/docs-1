@@ -55,3 +55,8 @@ The following locations are where you can use the pre-defined variables:
 Below is an example of parameterizing the domain URL in a SOAP request's service endpoint.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/parameterize-a-web-service-object/soap-endpoint.png">
+
+## Add test requests to a test case
+
+There are multiple ways to add a test request object to a test case Katalon Studio. You can call the web service requests in the Manual View (keywords test) or Script View (test scripts) of a test case, and verify the responses. [Learn more](https://docs.katalon.com/katalon-studio/docs/using-web-services-in-a-test-case.html)
+
