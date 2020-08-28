@@ -16,6 +16,27 @@ redirect_from:
     - "/katalon-studio/new/version-501.html"
 description: Release note 7.x
 ---
+## Pre-Release - Version 7.7
+
+### New features
+
+* [Katalon Record Utitlity] Adding verification steps via direct interaction in Chrome, Edge (Chromium based), and Firefox. [Learn more](https://docs.katalon.com/)
+* [Katalon Studio Enterprise - Web Service Testing] Import Open API 3.0. [Learn more](https://docs.katalon.com/)
+* [Web Service Testing] Import WADL. [Learn more](https://docs.katalon.com/)
+* [Windows Testing] Native Windows Recorder: Pass arguments to executable in Windows Recorder. [Learn more](https://docs.katalon.com/)
+* [Katalon Runtime Engine] Allow overriding Email settings in command line via Global Variable. [Learn more](https://docs.katalon.com/)
+* [Katalon Runtime Engine] Allow selecting an Organization for checking KRE license in Command Generator. [Learn more](https://docs.katalon.com/)
+
+### Improvements
+
+* Install Basic Reports plugin automatically for all users
+* API docs version 7.7
+
+### Fixes
+
+* Bug: [Web Recorder] Objects cannot be found when running a script after recording it with option 'Merge objects', 'Duplicate objects', or 'Replace existing objects'
+* Bug: TestOps Integration: Cannot display more than 20 projects fetched from TestOps
+* Bug: [TestNG] Incorrect return step status of Run JUnit classes keyword
 
 ## Official Release - Version 7.6.6
 
@@ -98,7 +119,7 @@ You can download Katalon Studio version 7.6.5 [here](https://github.com/katalon-
 
 ### New feature
 
-* [Katalon Studio Enterprise] Support importing test scripts of Selenium IDE version 3.x. [Learn more](https://docs.katalon.com/katalon-studio/docs/import-selenium-ide.html)
+* Support importing test scripts of Selenium IDE version 3.x. [Learn more](https://docs.katalon.com/katalon-studio/docs/import-selenium-ide.html)
 
 ### Improvement
 
