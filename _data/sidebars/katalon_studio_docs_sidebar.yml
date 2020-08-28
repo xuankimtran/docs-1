@@ -1185,6 +1185,8 @@ items:
                 url: /katalon-analytics/docs/create-plan.html
               - title: "Schedule a Test Plan"
                 url: /katalon-analytics/docs/kt-scheduler.html
+              - title: "View Test Plan Summary in Katalon Studio"
+                url: /katalon-analytics/docs/view-ci-plans.html
           - title: "Integration with Jenkins"
             url: /katalon-analytics/docs/ka-integration-jenkins.html
       - title: "Configure Notification Emails"
