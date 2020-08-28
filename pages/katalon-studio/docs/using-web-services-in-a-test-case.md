@@ -62,7 +62,7 @@ If you have used [variables and parameters in test requests](https://docs.katalo
 
 ```groovy
 //Send a test request and pass values to variables used in that request
-def response = WS.sendRequest(findTestObject([the ID of Web Service object], ["variable1": value1, "variable2": value2]))
+def response = WS.sendRequest(findTestObject([the ID of Web Service object], ["variable1": value1, "variable2": value2, ... , "variableN": valueN]))
 ```
 
 For example:
