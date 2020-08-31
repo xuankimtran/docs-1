@@ -4,7 +4,7 @@ title: "[WebUI] Take Area Screenshot As Checkpoint"
 
 sidebar: katalon_studio_docs_sidebar
 
-permalink: katalon-studio/docs/webui-take-area-screeenshot-as-checkpoint.html
+permalink: katalon-studio/docs/webui-take-area-screenshot-as-checkpoint.html
 
 ---
 
@@ -32,7 +32,7 @@ permalink: katalon-studio/docs/webui-take-area-screeenshot-as-checkpoint.html
      * Mandatory: Required
      
     * Name: rect
-	    * Description: An Rectangle which defines location and size of the area you want to take screenshot. The area must be within the viewport.
+	    * Description: A Rectangle which defines location and size of the area you want to take screenshot. The area must be within the viewport.
 
        * Parameter Type: Rectangle
 
@@ -48,9 +48,9 @@ permalink: katalon-studio/docs/webui-take-area-screeenshot-as-checkpoint.html
 
 * **Examples**:
 
-1. You want to take TestOps Vision screenshot of an area at x: 50, y: 25, width: 100, height: 150 :
+You want to take TestOps Vision screenshot of an area at x: 50, y: 25, width: 100, height: 150 :
 ``` groovy
 import org.openqa.selenium.Rectangle as Rectangle
 
-WebUI.takeAreaScreenshotAsCheckpoint('advertisements', new Rectangle(50, 25, 100, 150))
+WebUI.takeAreaScreenshotAsCheckpoint('advertisements', new Rectangle(50, 25, 150, 100))
 ```

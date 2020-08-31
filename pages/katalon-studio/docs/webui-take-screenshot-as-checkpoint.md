@@ -4,7 +4,7 @@ title: "[WebUI] Take Screenshot As Checkpoint"
 
 sidebar: katalon_studio_docs_sidebar
 
-permalink: katalon-studio/docs/webui-take-screeenshot-as-checkpoint.html
+permalink: katalon-studio/docs/webui-take-screenshot-as-checkpoint.html
 
 ---
 

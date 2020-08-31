@@ -4,7 +4,7 @@ title: "[WebUI] Take Area Screenshot"
 
 sidebar: katalon_studio_docs_sidebar
 
-permalink: katalon-studio/docs/webui-take-area-screeenshot.html
+permalink: katalon-studio/docs/webui-take-area-screenshot.html
 
 ---
 
@@ -18,7 +18,7 @@ permalink: katalon-studio/docs/webui-take-area-screeenshot.html
 
 *  **Description**: Take screenshot of a specific area in the viewport. The captured image will be saved in '.png' format.
 
-*  **Keyword name**: takeAreaScreenshotAs
+*  **Keyword name**: takeAreaScreenshot
 
 *  **Keyword syntax**: WebUI.takeAreaScreenshot(fileName, rect, flowControl)
 
@@ -29,10 +29,10 @@ permalink: katalon-studio/docs/webui-take-area-screeenshot.html
 
      * Parameter Type: String
 
-     * Mandatory: Optinal
+     * Mandatory: Optional
      
-    * Name: rect
-	    * Description: An Rectangle which defines location and size of the area you want to take screenshot. The area must be within the viewport.
+   * Name: rect
+	    * Description: A Rectangle which defines location and size of the area you want to take screenshot. The area must be within the viewport.
 
        * Parameter Type: Rectangle
 
@@ -59,12 +59,12 @@ WebUI.takeAreaScreenshot(RunConfiguration.getReportFolder() + '/advertisements.p
 ``` groovy
 import org.openqa.selenium.Rectangle as Rectangle
 
-WebUI.takeAreaScreenshot(new Rectangle(50, 25, 100, 150))
+WebUI.takeAreaScreenshot(new Rectangle(50, 25, 150, 100))
 ```
 
 2. You want to take screenshot of an area at x: 50, y: 25, width: 100, height: 150 and save to somewhere else:
 ``` groovy
 import org.openqa.selenium.Rectangle as Rectangle
 
-WebUI.takeAreaScreenshot('E:\\area.png', new Rectangle(50, 25, 100, 150))
+WebUI.takeAreaScreenshot('E:\\area.png', new Rectangle(50, 25, 150, 100))
 ```

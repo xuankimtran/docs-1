@@ -4,7 +4,7 @@ title: "[WebUI] Take Element Screenshot"
 
 sidebar: katalon_studio_docs_sidebar
 
-permalink: katalon-studio/docs/webui-take-element-screeenshot.html
+permalink: katalon-studio/docs/webui-take-element-screenshot.html
 
 ---
 

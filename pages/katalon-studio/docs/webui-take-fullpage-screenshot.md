@@ -4,7 +4,7 @@ title: "[WebUI] Take Full Page Screenshot"
 
 sidebar: katalon_studio_docs_sidebar
 
-permalink: katalon-studio/docs/webui-take-fullpage-screeenshot.html
+permalink: katalon-studio/docs/webui-take-fullpage-screenshot.html
 
 ---
 
