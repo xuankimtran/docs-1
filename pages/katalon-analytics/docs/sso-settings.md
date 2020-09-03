@@ -13,11 +13,13 @@ redirect_from:
 
 ## Configure Single Sign-On
 
-1. In the **Katalon Admin** page, go to **Settings** > **Single Sign-On (SSO) Settings** > **Enable SSO** and enter your metadata.
+1. Access https://testops.katalon.io.
+
+2. In the **Katalon Admin** page, go to **Settings** > **Single Sign-On (SSO) Settings** > **Enable SSO** and enter your metadata.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/sso-settings/enable-sso.png)
 
-2. Click on **Update** to finish.
+3. Click on **Update** to finish.
 
 ## Invite and enable SSO for Organization members
 

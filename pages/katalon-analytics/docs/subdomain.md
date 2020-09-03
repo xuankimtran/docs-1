@@ -8,12 +8,14 @@ redirect_from:
 
 ## Create a Subdomain
 
-In **Katalon Admin** page, go to the **Custom Domain** section in **Organization Settings**.
+1. Access https://testops.katalon.io.
 
-Enter your **Domain Name** to the field as below.
+2. In **Katalon Admin** page, go to the **Custom Domain** section in **Organization Settings**.
+
+3. Enter your **Domain Name** to the field as below.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/subdomain/subdomain.png)
 
 > Note: A domain name can only contain the **letters (a-z)**, the **digits (0-9)**.
 
-Click on **Update** to set up your new subdomain.
+4. Click on **Update** to set up your new subdomain.
