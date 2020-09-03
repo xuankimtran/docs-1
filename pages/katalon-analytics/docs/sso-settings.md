@@ -51,6 +51,8 @@ This action will be *pending* until your member [accepts the request](https://do
 
 This action will be pending until your member [accepts the request](https://docs.katalon.com/katalon-analytics/docs/setup-org-team-project.html#invite-a-user-to-the-organization).
 
+> You need to enable SSO for your own account in order to login via SSO.
+
 ## View and Manage User Authentication
 
 ### View Pending SSO Requests
@@ -77,6 +79,6 @@ After you have finished the SSO configurations, open the activation log of Katal
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/sso-settings/activate-ks.png)
 
-- Server URL: your subdomain that you have already configured. (E.g.: https://daodao.katalon.com)
+- Server URL: your subdomain that you have already configured. (E.g.: https://beo.katalon.io)
 - Email: your registered Katalon account
 - Password: an API key generated from Katalon TestOps. [Learn more](https://docs.katalon.com/katalon-analytics/docs/ka-api-key.html)
