@@ -53,6 +53,8 @@ This action will be *pending* until your member [accepts the request](https://do
 
 This action will be pending until your member [accepts the request](https://docs.katalon.com/katalon-analytics/docs/setup-org-team-project.html#invite-a-user-to-the-organization).
 
+> You need to enable SSO for your own account in order to login via SSO.
+
 ## View and Manage User Authentication
 
 ### View Pending SSO Requests
