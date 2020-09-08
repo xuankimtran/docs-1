@@ -1136,7 +1136,7 @@ items:
       - title: "Upload Test Results to Katalon TestOps"
         tree:
           - title: "Overview"
-            url: /katalon-studio/docs/upload-reports-overview.html
+            url: /katalon-analytics/docs/upload-reports-overview.html
           - title: "Upload Katalon Studio Test Results to Katalon TestOps automatically"
             url: /katalon-studio/docs/katalon-analytics-beta-integration.html
           - title: "Upload Katalon Studio Test Results to Katalon TestOps manually"
