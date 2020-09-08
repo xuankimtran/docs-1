@@ -20,23 +20,24 @@ description: Release note 7.x
 
 ### New features
 
-* [Katalon Record Utitlity] Adding verification steps via direct interaction in Chrome, Edge (Chromium based), and Firefox. [Learn more](https://docs.katalon.com/)
-* [Katalon Studio Enterprise - Web Service Testing] Import Open API 3.0. [Learn more](https://docs.katalon.com/)
-* [Web Service Testing] Import WADL. [Learn more](https://docs.katalon.com/)
-* [Windows Testing] Native Windows Recorder: Pass arguments to executable in Windows Recorder. [Learn more](https://docs.katalon.com/)
-* [Katalon Runtime Engine] Allow overriding Email settings in command line via Global Variable. [Learn more](https://docs.katalon.com/)
-* [Katalon Runtime Engine] Allow selecting an Organization for checking KRE license in Command Generator. [Learn more](https://docs.katalon.com/)
+* [Katalon Record Utility] Support adding verification test steps during recording with Chrome, Edge (Chromium-based), and Firefox. [Learn more](https://docs.katalon.com/katalon-studio/docs/record-web-utility.html)
+* [Katalon Studio Enterprise - Web Service Testing] Import Open API 3.0. [Learn more](https://docs.katalon.com/import-openapi30.html)
+* [Web Service Testing] Import WADL. [Learn more](https://docs.katalon.com/import-wadl.html)
+* [Windows Testing] Support passing Capabilities including `appArguments` and `appWorkingDir` for Native Windows Recorder. [Learn more](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html#windows-desktop-app-testing)
+* [Katalon Runtime Engine] Allow overriding Email settings with Global Variables in command-line execution. [Learn more](https://docs.katalon.com/)
+* [Katalon Runtime Engine] Allow selecting an Organization for license validation when activating Katalon Runtime Engine. [Learn more](https://docs.katalon.com/katalon-studio/docs/use-online-license.html#katalon-runtime-engine)
+* [Katalon TestOps (Beta) Integration] Support integration with Katalon TestOps Vision for visual testing. [Learn more](https://forum.katalon.com/t/early-release-of-katalon-testops-vision-visual-testing-image-comparison)
 
 ### Improvements
 
-* Install Basic Reports plugin automatically for all users
-* API docs version 7.7
+* Install the Basic Reports plugin automatically for all users
+* Publish [API docs version 7.7](https://docs.katalon.com/javadoc/index.html)
 
 ### Fixes
 
-* Bug: [Web Recorder] Objects cannot be found when running a script after recording it with option 'Merge objects', 'Duplicate objects', or 'Replace existing objects'
-* Bug: TestOps Integration: Cannot display more than 20 projects fetched from TestOps
-* Bug: [TestNG] Incorrect return step status of Run JUnit classes keyword
+* Bug: [Katalon Record Utility] Unable to locate Objects during execution if the objects are captured with such options as **Merge objects**, **Duplicate objects**, or **Replace existing objects**
+* Bug: [Katalon TestOps (Beta) Integration]: Cannot display more than 20 projects fetched from Katalon TestOps
+* Bug: [TestNG] Return incorrect test results when using the `runTestNGTestClasses` keyword
 
 ## Official Release - Version 7.6.6
 

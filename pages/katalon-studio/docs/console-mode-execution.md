@@ -490,16 +490,23 @@ We recommend using the Command Builder to generate commands quickly and precisel
 
 2. The **Generate Command for Console Mode** is displayed. Configure your execution with the provided options:
 
-   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/command-builder.png)
+   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/command-builder-77.png)
 
    where:
 
   * **Test Suite**: The Test Suite or Test Suite Collection to be executed
-  * **Executive Platform**: Testing environment and execution profile of the execution
-  * **Override the execution profile and environment of all test suites**: Check if you want the specified `-BrowserType` and `-ExecutionProfile` in the command to override the browser type and execution profile of all test suites in the collection (available from version **7.6 onwards**)
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/environment.png">
+  * **Executive Platform**: 
 
-  * Other Options:
+     * **Run with** and **Profile**: Testing environment and execution profile of the execution. <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/environment.png" width=402>
+
+     * **Override the execution profile and environment of all test suites**: Check if you want the specified `-BrowserType` and `-ExecutionProfile` in the command to override the browser type and execution profile of all test suites in the collection (available from version **7.6 onwards**)
+
+   * **Authentication**: 
+   
+     * **API Keys**: API Keys are used for representing a user's credentials. The command-line options of API Key, including -apiKey=<Your_API_Key> and -apikey=<Your_API_Key> are both accepted.[Learn more](https://docs.katalon.com/katalon-studio/docs/katalon-apikey-70.html).
+     * From **version 7.7 onwards**, if you belong to more than one Organization subscribing to RE licenses, you can choose which one to validate your license usage. Katalon retrieves and displays the organizations binding to your Katalon account and having RE licenses. Once selected, the Organization ID is passed to the generated command (`-orgID=<Katalon_OrgID>`).
+
+   * **Execution Configurations** (Or **Other Options** in versions before 7.7):
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/other-options.png">
 
 3. Click **Generate Command** after completing the configuration.
