@@ -1,7 +1,7 @@
 ---
 title: "Introduction to TestOps Reports"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-analytics/docs/view-reports.html
+permalink: katalon-analytics/docs/view-reports-overview.html
 ---
 Please select the report you want to view from TestOps Reports. Katalon TestOps offers the following reports grouped by the object types:
 
