@@ -302,6 +302,20 @@ Where:
 * totalFailed: Total failed test cases
 * totalError: Total error test cases
 
+### Overriding Email Settings with Global Variables via Command line
+
+From **version 7.7 onwards**, you can override Email Settings with Global Variables via Command line. The below section guides you how to do that with a usage example.
+
+1. [Define a Global Variable](https://docs.katalon.com/katalon-studio/docs/execution-profile-v54.html#define-a-global-variable) in your Execution Profile.
+
+   <img src="">
+
+2. Parameterize that Global Variable in Email Settings by using the syntax `${GlobalVariable.name}` as a place holder in any supported locations including Sender, Recipients, Cc, Bcc, and Subject.
+   <img src="">
+
+3. Pass values to that Global Variable with the `-g_<variableName>=<variableValue>` syntax to override the Email Settings.
+   <img src="">
+
 ## Network settings
 
 ### Certificate settings

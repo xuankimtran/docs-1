@@ -24,7 +24,7 @@ description: Release note 7.x
 * [Katalon Studio Enterprise - Web Service Testing] Import Open API 3.0. [Learn more](https://docs.katalon.com/import-openapi30.html)
 * [Web Service Testing] Import WADL. [Learn more](https://docs.katalon.com/import-wadl.html)
 * [Windows Testing] Support passing Capabilities including `appArguments` and `appWorkingDir` for Native Windows Recorder. [Learn more](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html#windows-desktop-app-testing)
-* [Katalon Runtime Engine] Allow overriding Email settings with Global Variables in command-line execution. [Learn more](https://docs.katalon.com/)
+* [Katalon Runtime Engine] Allow overriding Email settings with Global Variables via command line. [Learn more](https://docs.katalon.com/katalon-studio/docs/execution-settings.html#Overriding-email-settings-with-global-variables-via-command-line)
 * [Katalon Runtime Engine] Allow selecting an Organization for license validation when activating Katalon Runtime Engine. [Learn more](https://docs.katalon.com/katalon-studio/docs/use-online-license.html#katalon-runtime-engine)
 * [Katalon TestOps (Beta) Integration] Support integration with Katalon TestOps Vision for visual testing. [Learn more](https://forum.katalon.com/t/early-release-of-katalon-testops-vision-visual-testing-image-comparison)
 
