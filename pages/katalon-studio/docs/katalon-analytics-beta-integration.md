@@ -11,7 +11,6 @@ redirect_from:
     - "/katalon-analytics/docs/ka-integration-katalon-studio/"
     - "/katalon-analytics/docs/ka-integration-katalon-studio.html"
     - "/x/mw3R/"
-    - "/katalon-analytics/docs/view-reports.html"
     - "/katalon-analytics/docs/integration-with-katalon-studio.html"
 ---
 
