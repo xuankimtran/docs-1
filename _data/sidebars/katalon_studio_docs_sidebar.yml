@@ -1189,6 +1189,8 @@ items:
                 url: /katalon-analytics/docs/view-ci-plans.html
           - title: "Integration with Jenkins"
             url: /katalon-analytics/docs/ka-integration-jenkins.html
+      - title: "View Reports"
+        url: /katalon-analytics/docs/view-reports.html
       - title: "Configure Notification Emails"
         url: /katalon-analytics/docs/kt-noti-email.html
       - title: "Advanced Topics"
