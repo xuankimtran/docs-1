@@ -1135,12 +1135,16 @@ items:
         url: /katalon-analytics/docs/kt-jira-config.html
       - title: "Upload Test Results to Katalon TestOps"
         tree:
+          - title: "Overview"
+            url: /katalon-studio/docs/upload-reports-overview.html
           - title: "Upload Katalon Studio Test Results to Katalon TestOps automatically"
             url: /katalon-studio/docs/katalon-analytics-beta-integration.html
           - title: "Upload Katalon Studio Test Results to Katalon TestOps manually"
             url: /katalon-analytics/docs/project-management-import-KS.html
           - title: "Upload Test Results using Command Line"
             url: /katalon-analytics/docs/project-management-import-cli.html
+          - title: "Import Katalon reports via TestOps uploader"
+            url: /katalon-analytics/docs/testops-uploader.html
       - title: "TestOps Center"
         tree:
           - title: "Overview"
