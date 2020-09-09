@@ -10,17 +10,23 @@ redirect_from:
     - "/display/KD/Web+Service/"
 description:
 ---
-Katalon Studio v5.4 introduces all-new Web Services Testing for both RESTful and SOAP. Functionalities and UI have been enhanced to provide the following benefits:
+Katalon Studio supports API Testing with both RESTful and SOAP Services. You can import their definitions from different sources, create and test a single test request, or create functional test scripts. Below are some useful documentations for working with Web Service Requests:
 
-*   Details information regard to Web Services Request and its Response.
-*   Separate Request and Response section for more advanced Web Services Testing.
-*   Automatically add query parameters to REST object details based on its Request URL.
-*   Support various types related to Request information.
-*   Ability to format the content of Request and Response accordingly.
-*   [Ability to parameterize a Web Service object (Body, Header, URL)](/display/KD/Parameterize+a+Web+Service+object).
-*   [Builder to create and manage Web Service object easily in Script mode](/display/KD/Web+Services+Builder).
+### REST
 
-The below documentation have covered these great changes as well as updated guides for managing a Web Service object.
+[Create and design a RESTful Test Request](https://docs.katalon.com/katalon-studio/docs/restful.html). Or you can import Service definitions from:
 
-1.  [RESTful ](/katalon-studio/docs/restful)
-2.  [SOAP](/pages/viewpage.action?pageId=13697583)
+* [OpenAPI Specification 3.0](https://docs.katalon.com/katalon-studio/docs/import-openapi30.html) (Requirements: Version 7.7 onwards and Katalon Studio Enterprise license)
+* [WADLs](https://docs.katalon.com/katalon-studio/docs/import-wadl.html) (Required version: 7.7 onwards)
+* [SoapUI](https://docs.katalon.com/katalon-studio/docs/import-soapui.html) (Required version: 7.6 onwards)
+* [OpenAPI Specification 2.0 (Swagger)](https://docs.katalon.com/katalon-studio/docs/import-rest-requests-from-swagger-20.html)
+* [Postman](https://docs.katalon.com/katalon-studio/docs/import-postman.html)
+
+### SOAP
+
+[Create and design a SOAP Test Request](https://docs.katalon.com/katalon-studio/docs/soap.html). Or you can import Service definitions from [WSDLs](https://docs.katalon.com/katalon-studio/docs/import-soap-requests-from-wsdl.html).
+
+### Functionalities
+
+* [Builder to create and manage Web Service object easily in Script mode](/display/KD/Web+Services+Builder).
+* [Parameterize a Web Service object](https://docs.katalon.com/katalon-studio/docs/parameterize-a-web-service-object.html).

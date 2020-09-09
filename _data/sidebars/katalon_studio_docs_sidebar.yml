@@ -319,12 +319,16 @@ items:
                     url: /katalon-studio/docs/draft-request.html
               - title: "Import Web Service Objects"
                 tree:
+                  - title: "Import RESTful requests from OpenAPI Specification 3.0"
+                    url: /katalon-studio/docs/import-openapi30.html
                   - title: "Import RESTful requests from Swagger 2.0"
                     url: /katalon-studio/docs/import-rest-requests-from-swagger-20.html
                   - title: "Import RESTful from Postman"
                     url: /katalon-studio/docs/import-postman.html
                   - title: "Import RESTful requests from SoapUI"
                     url: /katalon-studio/docs/import-soapui.html
+                  - title: "Import RESTful requests from WADL"
+                    url: /katalon-studio/docs/import-wadl.html 
                   - title: "Import SOAP requests from WSDL"
                     url: /katalon-studio/docs/import-soap-requests-from-wsdl.html
               - title: "Parameterize a Web Service Object"
