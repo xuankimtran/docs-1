@@ -10,13 +10,13 @@ permalink: katalon-studio/docs/webui-take-screenshot-as-checkpoint.html
 
 ## takeScreenshotAsCheckpoint
 
-*  **Description**: Take screenshot of current view-port to send to TestOps Vision. The captured image will be saved in '.png' format and stored in 'keyes' folder in report folder.
+*  **Description**: Take a screenshot of the current viewport to send to TestOps Vision. The captured image will be saved in '.png' format and stored in the 'keyes' folder inn the report folder.
 *  **Keyword name**: takeScreenshotAsCheckpoint
 *  **Keyword syntax**: `WebUI.takeScreenshotAsCheckpoint(checkpointName, flowControl)`
 *  **Parameters**:
 
    * Name: checkpointName 
-     * Description: A String that represents the name of the image on TestOps Vision. On local machine this name will be appended with TestOps Vision prefix('keyes-').
+     * Description: A String that represents the name of the image on TestOps Vision. On local machine, this name will be appended with TestOps Vision prefix('keyes-').
      * Parameter Type: String
      * Mandatory: Required
 
@@ -27,13 +27,13 @@ permalink: katalon-studio/docs/webui-take-screenshot-as-checkpoint.html
 
 * **Examples**:
 
-1. You want to take screenshot as checkpoint named 'current_viewport' for TestOps Vision and use default [failure handling](/x/qAAM):
+1. You want to take a screenshot as checkpoint named 'current_viewport' for TestOps Vision and use default [failure handling](/x/qAAM):
 
 ``` groovy
 WebUI.takeScreenshotAsCheckpoint('current_viewport')
 ```
 
-2. You want to take screenshot as checkpoint named 'full_view' for TestOps Vision, and need the test to keep running regardless of this step having failed or passed:
+2. You want to take a screenshot as checkpoint named 'full_view' for TestOps Vision, and need the test to keep running regardless of this step having failed or passed:
 
 ``` groovy
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
