@@ -509,6 +509,20 @@ items:
                 url: /katalon-studio/docs/webui-switch-to-window-title.html
               - title: "[WebUI] Switch To Window Url"
                 url: /katalon-studio/docs/webui-switch-to-window-url.html
+              - title: "[WebUI] Take Area Screenshot As Checkpoint"
+                url: /katalon-studio/docs/webui-take-area-screenshot-as-checkpoint.html
+              - title: "[WebUI] Take Area Screenshot"
+                url: /katalon-studio/docs/webui-take-area-screenshot.html
+              - title: "[WebUI] Take Element Screenshot As Checkpoint"
+                url: /katalon-studio/docs/webui-take-element-screenshot-as-checkpoint.html
+              - title: "[WebUI] Take Element Screenshot"
+                url: /katalon-studio/docs/webui-take-element-screenshot.html 
+              - title: "[WebUI] Take Full Page Screenshot As Checkpoint"
+                url: /katalon-studio/docs/webui-take-fullpage-screenshot-as-checkpoint.html
+              - title: "[WebUI] Take Full Page Screenshot"
+                url: /katalon-studio/docs/webui-take-fullpage-screenshot.html
+              - title: "[WebUI] Take Screenshot As Checkpoint"
+                url: /katalon-studio/docs/webui-take-screenshot-as-checkpoint.html
               - title: "[WebUI] Take Screenshot"
                 url: /katalon-studio/docs/webui-take-screenshot.html
               - title: "[WebUI] Type On Image"
