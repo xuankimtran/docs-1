@@ -30,13 +30,15 @@ description: Release note 7.x
 
 ### Improvements
 
+* Support Microsoft Edge (Chromium) 85
+* Support Chrome 85
 * Install the Basic Reports plugin automatically for all users
 * Publish [API docs version 7.7](https://docs.katalon.com/javadoc/index.html)
 
 ### Fixes
 
 * Bug: [Katalon Record Utility] Unable to locate Objects during execution if the objects are captured with such options as **Merge objects**, **Duplicate objects**, or **Replace existing objects**
-* Bug: [Katalon TestOps (Beta) Integration]: Cannot display more than 20 projects fetched from Katalon TestOps (Beta)
+* Bug: [Katalon TestOps (Beta) Integration]: Cannot display more than 20 projects fetched from Katalon TestOps (Beta)
 * Bug: [TestNG] Return incorrect test results when using the `runTestNGTestClasses` keyword
 
 ## Version 7.6.6
