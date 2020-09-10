@@ -302,19 +302,25 @@ Where:
 * totalFailed: Total failed test cases
 * totalError: Total error test cases
 
-### Overriding Email Settings with Global Variables via Command line
+### Support Global Variables in Email Settings
 
-From **version 7.7 onwards**, you can override Email Settings with Global Variables via Command line. The below section guides you how to do that with a usage example.
+From **version 7.7 onwards**, you can customize Email Settings with Global Variables and override their default values via Command line. 
 
-1. [Define a Global Variable](https://docs.katalon.com/katalon-studio/docs/execution-profile-v54.html#define-a-global-variable) in your Execution Profile.
+The below section guides you how to do that with a usage example.
 
-   <img src="">
+1. [Define a Global Variable](https://docs.katalon.com/katalon-studio/docs/execution-profile-v54.html#define-a-global-variable) in your Execution Profile. 
 
-2. Parameterize that Global Variable in Email Settings by using the syntax `${GlobalVariable.name}` as a place holder in any supported locations including Sender, Recipients, Cc, Bcc, and Subject.
-   <img src="">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/emails-settings/global-variable.png" width=668>
 
-3. Pass values to that Global Variable with the `-g_<variableName>=<variableValue>` syntax to override the Email Settings.
-   <img src="">
+2. Call the [parameterized Global Variable](https://docs.katalon.com/katalon-studio/docs/execution-profile-v54.html#parameterize-a-global-variable) in supported locations including Sender, Recipients, Cc, Bcc, and Subject by using the syntax `${GlobalVariable.name}`. For example, the declared value, "Regression Test - Latest Release", is appended to the email subject:
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/emails-settings/subject.png" width=578>
+   
+   Send a test email so you can see the effect.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/emails-settings/email.png" width=915>
+
+When running your Test Suite/Test Suite Collection in console mode, you can also pass another value to override the default value of that Global Variable with the `-g_<variableName>=<variableValue>` syntax. For instance, `-g_<subject>=<Release 7.7>`.
 
 ## Network settings
 
