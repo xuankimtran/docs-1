@@ -8,11 +8,11 @@ permalink: katalon-studio/docs/webui-take-fullpage-screenshot.html
 
 > From version **7.7.0**, this keyword is available.
 
-**Warning**: If this method is used with the ignored elements, JavaScript is required to be enabled on test browser. The method used to take full-paged screenshot is simulating a scroll action to the end of the page. If the web page uses infinity-scrolling, it's not recommended to use this keyword. 
+**Warning**: If this method is used with the ignored elements, JavaScript is required to be enabled on test browser. The method used to take a full-paged screenshot is simulating a scroll action to the end of the page. If the web page uses infinity-scrolling, it's not recommended to use this keyword. 
 
 ## takeFullPageScreenshot
 
-*  **Description**: Take entire-page screenshot, overflow parts included. The captured image will be saved in '.png' format. This method simulates scroll action to take numbers of shot and merges them to make a full-page screenshot.
+*  **Description**: Take entire-page screenshot, including overflow parts. The captured image will be saved in '.png' format. This method simulates a scroll action to take a number of shots and merge them together to make a full-page screenshot.
 *  **Keyword name**: takeFullPageScreenshot
 *  **Keyword syntax**: `WebUI.takeFullPageScreenshot(fileName, ignoredElements, flowControl)`
 *  **Parameters**:
@@ -22,7 +22,7 @@ permalink: katalon-studio/docs/webui-take-fullpage-screenshot.html
      * Mandatory: Optional
      
    * Name: ignoredElements
-     * Description: List of TestObject you want to hide when taking screenshot.
+     * Description: List of Test Objects you want to hide when taking a screenshot.
      * Parameter Type: List<TestObject\>
      * Mandatory: Optional
 
@@ -33,13 +33,13 @@ permalink: katalon-studio/docs/webui-take-fullpage-screenshot.html
 
 * **Examples**:
 
-1. Given that no elements are going to be hidden, you want to take full-page screenshot with a default name and use a default [failure handling](/x/qAAM):
+1. Given that no elements are going to be hidden, you want to take a full-page screenshot with a default name and use default [failure handling](/x/qAAM):
 
 ``` groovy
 WebUI.takeFullPageScreenshot()
 ```
 
-2. You want to take full-page screenshot saved to a file named 'full_view_no_logo.png' in the report folder and hide some web elements:
+2. You want to take a full-page screenshot that will be saved in a file named 'full_view_no_logo.png' in the report folder and hide some web elements:
 
 ``` groovy
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -48,7 +48,7 @@ import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 WebUI.takeFullPageScreenshot(RunConfiguration.getReportFolder() + '/full_view_no_elements.png', [findTestObject('UI/logo')])
 ```
 
-3. You want to take full-page screenshot saved to a file 'E:\\full_view_no_elements.png' and hide some web elements defined in a variable named 'ignoredElements':
+3. You want to take a full-page screenshot that will be saved to a file 'E:\\full_view_no_elements.png' and hide some web elements defined in a variable named 'ignoredElements':
 
 ``` groovy
 // where ignoredElements is a user-defined List-typed variable.
