@@ -8,13 +8,13 @@ permalink: katalon-studio/docs/webui-take-area-screenshot-as-checkpoint.html
 
 ## takeAreaScreenshotAsCheckpoint
 
-*  **Description**: Take screenshot of a specific area in the viewport to send to TestOps Vision. The captured image will be saved in '.png' format and stored in 'keyes' folder in report folder.
+*  **Description**: Take a screenshot of a specific area in the viewport to send to TestOps Vision. The captured image will be saved in '.png' format and stored in the 'keyes' folder in the report folder.
 *  **Keyword name**: takeAreaScreenshotAsCheckpoint
 *  **Keyword syntax**: `WebUI.takeAreaScreenshotAsCheckpoint(checkpointName, rect, flowControl)`
 *  **Parameters**:
 
    * Name: checkpointName 
-     * Description: A String that represents the name of the image on TestOps Vision. On local machine this name will be appended with TestOps Vision prefix('keyes-').
+     * Description: A String that represents the name of the image on TestOps Vision. On a local machine, this name will be appended with TestOps Vision prefix('keyes-').
      * Parameter Type: String
      * Mandatory: Required
      
