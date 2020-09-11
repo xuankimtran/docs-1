@@ -56,7 +56,7 @@ To record a new test case, please do as follows:
 
 7. Validate UI elements. 
 
-   > From **version 7.7+**, Katalon supports adding Mouse Over and Verification Steps by a right-click on an element displayed in the AUT.
+   > From **version 7.7+**, Katalon supports adding Mouse Over and Verification Steps by a right-click on an element displayed in the AUT when recording with Chrome, Edge (Chromium-based), and Firefox.
 
    Given that you enter incorrect username or password, you can validate if the website displays an error message indicating a failed login attempt.
 
