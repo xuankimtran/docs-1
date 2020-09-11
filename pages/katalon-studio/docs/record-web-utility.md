@@ -22,7 +22,7 @@ description:
 ---
 Test recording is the easiest way for a tester to create an automation test script. This mean you just need to manually interact with your Web site and perform all the desired actions as a real user while the Katalon Recorder Utility record them.
 
-> In version 7.7+, Katalon supports validating UI elements during recording.
+> From **version 7.7+**, Katalon Studio supports adding Mouse Over and Verification steps by a right-click on an element in the AUT when recording with Chrome, Edge (Chromium-based), and Firefox.
 
 You can create a new test script or edit an existing test script by using the Katalon Recorder Utility. This manual includes a tutorial of how to record test scripts and a brief introduction to each panel of the Katalon Web Recorder.
 
@@ -54,21 +54,9 @@ To record a new test case, please do as follows:
    
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-web-utility/Screen-Shot-2018-06-27-at-10.05.19.png">
 
-7. Validate UI elements. 
+7. Stop recording and save your script. 
 
-   > From **version 7.7+**, Katalon supports adding Mouse Over and Verification Steps by a right-click on an element displayed in the AUT when recording with Chrome, Edge (Chromium-based), and Firefox.
-
-   Given that you enter incorrect username or password, you can validate if the website displays an error message indicating a failed login attempt.
-
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-web-utility/validate-UI-elements.png">
-
-   Or you can verify if the next screen after a successful login is "right" by verifying if a specific UI element is present.
-
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-web-utility/Validate-2.png">
-    
-8. Stop recording and save your script. 
-
-   During your recording, Katalon captures the objects that you have interacted with. When saving test script, **Katalon Web Recorder** exports a list of objects used in the test case. Choose a directory you want your test objects to reside to continue.
+   During your recording, Katalon captures the objects that you have interacted with. When saving test script, **Katalon Web Recorder** exports a list of objects used in the test case. Choose a directory you want your test objects to reside to continue. 
 
 ## Record Using Existing Test Case
 
@@ -86,6 +74,31 @@ With the new Web Recorder, users can be more productive while modifying existing
 When saving your script, Katalon Studio automatically detects similar existing objects in **Objects Repository** and asks you for further action to optimize Object Repository.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-web-utility/image2018-6-26-143A183A9.png)
+
+## Validate UI elements
+
+> From **version 7.7+**, Katalon supports adding Mouse Over and Verification Steps by a right-click on an element displayed in the AUT when recording with Chrome, Edge (Chromium-based), and Firefox.
+
+Given that you enter incorrect username or password, you can validate if the website displays an error message indicating a failed login attempt.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-web-utility/validate-UI-elements.png">
+
+Or you can verify if the next screen after a successful login is "right" by verifying if a specific UI element is present.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-web-utility/Validate-2.png">
+
+In the drop-down list of the **Run** button, you can find some Run options. The two of them labeled with "Debug" are advanced options for validating recorded script, and saving you from running all test steps over and over again if you have a Katalon Studio Enterprise license:
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/introduction-to-web-testing/77.png)
+ 
+* **Run all steps**: Execute ALL steps that are enabled on Web Recorder
+* **Debug: Run selected steps**: Execute only one or many selected steps. 
+
+   You can select multiple steps using either Ctrl or Shift key. The selected steps will be highlighted (e.g. steps #2, #6, #9 and #11 are selected for running).
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-web-utility/Screen-Shot-2018-06-27-at-11.45.48.png">
+
+* **Debug: Run from selected step**: Execute the currently selected step and all the steps after the selected one (e.g. run the test from step #4.
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-web-utility/Screen-Shot-2018-06-27-at-11.51.07.png"> 
 
 ## Katalon Web Recorder Utility's Components
 
@@ -107,20 +120,7 @@ In Katalon Web Recorder, you can manage the [variables](/x/RoIw) directly relate
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-web-utility/var.png">
 
-### Test Execution and Logs
-
-In the drop-down list of the **Run** button, you can find some Run options. The two of them labeled with "Debug" are advanced options saving you from running all test steps over and over again if you have a Katalon Studio Enterprise license:
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/introduction-to-web-testing/77.png)
- 
-* **Run all steps**: Execute ALL steps that are enabled on Web Recorder
-* **Debug: Run selected steps**: Execute only one or many selected steps. 
-
-   You can select multiple steps using either Ctrl or Shift key. The selected steps will be highlighted (e.g. steps #2, #6, #9 and #11 are selected for running).
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-web-utility/Screen-Shot-2018-06-27-at-11.45.48.png">
-
-* **Debug: Run from selected step**: Execute the currently selected step and all the steps after the selected one (e.g. run the test from step #4.
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-web-utility/Screen-Shot-2018-06-27-at-11.51.07.png">
+### Logs
 
 When running the recorded actions, you can investigate the execution by looking at its real-time detailed logs. Execution logs are displayed on the **Logs** tab.
 
