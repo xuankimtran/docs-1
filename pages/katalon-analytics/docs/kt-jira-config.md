@@ -4,6 +4,22 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/kt-jira-config.html 
 ---
 
+## Introduction
+
+Katalon TestOps provides seamless integration with Jira that brings several benefits for team collaboration. [Learn more](https://docs.katalon.com/katalon-analytics/docs/ka-integration-jira.html)
+
+**Releases**
+
+You can populate Jira releases or create your own releases in TestOps. This helps you better manage the progress of your projects.
+
+**Requirements**
+
+You can link to Jira stories to see whether the requirements are already covered or yet uncovered by related Test Cases. This helps you better keep track of all requirements that have been made.
+
+**Defects**
+
+You can map with failed test runs in TestOps with Jira bugs to track the performance of your executions.
+
 ## Prerequisites
 
 * The [Jira App](https://marketplace.atlassian.com/apps/1217501/katalon-bdd-test-automation-for-jira) has been installed.
