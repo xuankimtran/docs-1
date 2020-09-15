@@ -8,11 +8,17 @@ permalink: katalon-analytics/docs/kt-jira-config.html
 
 Katalon TestOps provides seamless integration with Jira that brings several benefits for team collaboration. [Learn more](https://docs.katalon.com/katalon-analytics/docs/ka-integration-jira.html)
 
-| Item        | Description                                                                                                                                                                                                                           | Representation                           |
-|--------------|--------------|--------------|
-| Releases     | You can populate Jira releases or create your own releases in TestOps. This helps you better manage the progress of your projects.                                                          | Releases in Jira <br> Releases in TestOps     |
-| Requirements | You can link to Jira stories to see whether the requirements are already covered or yet uncovered by related Test Cases. This helps you better keep track of all requirements that have been made. | Stories in Jira <br> Test Cases in TestOps    |
-| Defects      | You can map with failed test runs in TestOps with Jira bugs to track the performance of your executions.                                                                                       | Bugs in Jira <br> Failed Test Runs in TestOps |
+**Releases**
+
+You can populate Jira releases or create your own releases in TestOps. This helps you better manage the progress of your projects.
+
+**Requirements**
+
+You can link to Jira stories to see whether the requirements are already covered or yet uncovered by related Test Cases. This helps you better keep track of all requirements that have been made.
+
+**Defects**
+
+You can map with failed test runs in TestOps with Jira bugs to track the performance of your executions.
 
 ## Prerequisites
 
