@@ -1131,9 +1131,7 @@ items:
         url: /katalon-analytics/docs/setup-team.html
       - title: "API Keys"
         url: /katalon-analytics/docs/ka-api-key.html
-      - title: "Jira Settings"
-        url: /katalon-analytics/docs/kt-jira-config.html
-      - title: "Upload Test Results to Katalon TestOps"
+      - title: "Manage Test Execution Results"
         tree:
           - title: "Overview"
             url: /katalon-analytics/docs/upload-reports-overview.html
@@ -1143,25 +1141,25 @@ items:
             url: /katalon-analytics/docs/project-management-import-KS.html
           - title: "Upload Test Results using Command Line"
             url: /katalon-analytics/docs/project-management-import-cli.html
-          - title: "Import Katalon reports via TestOps uploader"
+          - title: "Import Katalon reports via TestOps GUI"
             url: /katalon-analytics/docs/testops-uploader.html
-      - title: "TestOps Center"
-        tree:
-          - title: "Overview"
-            url: /katalon-analytics/docs/TO-center-overview.html
           - title: "Compare Test Results"
             url: /katalon-analytics/docs/compare-test-results.html
-          - title: "Releases"
-            url: /katalon-analytics/docs/kt-jira-release.html
-          - title: "Requirements"
-            url: /katalon-analytics/docs/ka-integration-jira.html
-          - title: "Defects"
-            url: /katalon-analytics/docs/ka-defects.html
+      - title: "Jira Integration"
+        tree:
+          - title: "Jira Settings"
+            url: /katalon-analytics/docs/kt-jira-config.html
           - title: "Jira Dashboard Gadgets"
             url: /katalon-analytics/docs/jira-gadgets.html
           - title: "Writing BDD in Jira"
             url: /katalon-analytics/docs/bdd-settings.html
-      - title: "TestOps CI"
+          - title: "Link Executions to Jira Defects"
+            url: /katalon-analytics/docs/ka-defects.html
+          - title: "Link Test Cases to Requirements"
+            url: /katalon-analytics/docs/ka-integration-jira.html
+          - title: "Manage Executions with Jira Releases"
+            url: /katalon-analytics/docs/kt-jira-release.html
+      - title: "Continuous Testing"
         tree: 
           - title: "Overview"
             url: /katalon-analytics/docs/kt-remote-execution.html
@@ -1171,12 +1169,8 @@ items:
                 url: /katalon-analytics/docs/agents.html
               - title: "Load Balancing for Local Test Environments"
                 url: /katalon-analytics/docs/load-balancing-agents.html
-          - title: "Cloud Test Environments"
-            tree:
-              - title: "CircleCI Test Environments"
-                url: /katalon-analytics/docs/circleci.html
-              - title: "AWS EKS Test Environments"
-                url: /katalon-analytics/docs/aws-eks.html
+          - title: "AWS EKS Test Environments"
+            url: /katalon-analytics/docs/aws-eks.html
           - title: "Test Projects"
             tree:
               - title: "Upload Test Projects"
