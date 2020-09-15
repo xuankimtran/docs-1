@@ -21,8 +21,8 @@ description: Release note 7.x
 ### New features
 
 * [Katalon Record Utility] Support adding verification test steps during recording with Chrome, Edge (Chromium-based), and Firefox. [Learn more](https://docs.katalon.com/katalon-studio/docs/record-web-utility.html#validate-ui-elements).
-* [Katalon Studio Enterprise - Web Service Testing] Import Open API 3.0. [Learn more](https://docs.katalon.com/import-openapi30.html)
-* [Web Service Testing] Import WADL. [Learn more](https://docs.katalon.com/import-wadl.html)
+* [Katalon Studio Enterprise - Web Service Testing] Import RESTful API with OpenAPI Specification 3.0. [Learn more](https://docs.katalon.com/katalon-studio/docs/import-openapi30.html)
+* [Web Service Testing] Import RESTful requests from WADLs. [Learn more](https://docs.katalon.com/katalon-studio/docs/import-wadl.html)
 * [Windows Testing] Support passing Capabilities including `appArguments` and `appWorkingDir` for Native Windows Recorder. [Learn more](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html#windows-desktop-app-testing)
 * Support using Global Variables in Email Settings. [Learn more](https://docs.katalon.com/katalon-studio/docs/execution-settings.html#support-global-variables-in-email-settings)
 * [Katalon Runtime Engine] Allow selecting an Organization for license validation when activating Katalon Runtime Engine. [Learn more](https://docs.katalon.com/katalon-studio/docs/use-online-license.html#katalon-runtime-engine)
