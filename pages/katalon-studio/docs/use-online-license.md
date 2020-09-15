@@ -37,7 +37,10 @@ All users of an organization can use RE online licenses as long as the total num
 To run Katalon Studio or Katalon Studio Enterprise with Katalon Runtime Engine, you need to:
 
 1. Log in to your Katalon account on Katalon Studio.
-2. In the command generator, generate a command with the auto-filled Katalon API Key and customized information.
+2. In the command generator, generate a command with the auto-filled Katalon API Key and customized information. 
+
+   From **version 7.7 onwards**, if you belong to more than one Organization subscribing to RE licenses, you can choose which one to validate your license usage. Katalon retrieves and displays the organizations binding to your Katalon account and having RE licenses. Once selected, the Organization ID is passed to the generated command (`-orgID=<Katalon_OrgID>`).
+
 3. Copy and paste the generated command into **Terminal** (for macOS/Linux) or **Command Prompt** (for Windows).
 4. Open the command prompt and navigate to the folder of Katalon Studio Engine: `katalonc.exe` (Windows), Applications folder (Mac OS), or `katalonc` (Linux) file.
 
@@ -49,7 +52,7 @@ To run Katalon Studio or Katalon Studio Enterprise with Katalon Runtime Engine, 
 
 5. Enter the following syntax to execute automation test:
 
-    For example: `katalonc -noSplash -runMode=console -consoleLog -noExit -projectPath="C:\Users\Katalon Studio\Project\YourProject.prj" -retry=0 -testSuitePath="Test Suites/TS_RegressionTest" -browserType="Chrome (headless)" -apiKey=abczxzxz`
+    For example: `katalonc -noSplash -runMode=console -consoleLog -noExit -projectPath="C:\Users\Katalon Studio\Project\YourProject.prj" -retry=0 -testSuitePath="Test Suites/TS_RegressionTest" -browserType="Chrome (headless)" -apiKey=abczxzxz -orgID=123xx`
 
     > [Katalon API Key](https://docs.katalon.com/katalon-analytics/docs/ka-api-key.html#create-an-api-key) is required for activating RE.
     >
