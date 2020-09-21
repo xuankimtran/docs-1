@@ -16,6 +16,17 @@ redirect_from:
     - "/katalon-studio/new/version-501.html"
 description: Release note 7.x
 ---
+
+## Pre-Release - Version 7.7.5 (Beta)
+
+### New features
+
+* Time Machine. [Learn more](https://docs.katalon.com/katalon-studio/docs/time-machine.html)
+* [Windows Testing] Support coordinates-based recording with [Click Element Offset](https://docs.katalon.com/katalon-studio/docs/windows-kw-click-element-offset.html) and [Right-click Element Offset](https://docs.katalon.com/katalon-studio/docs/windows-kw-rightclick-element-offset.html) keywords on both [Windows Recorder](https://docs.katalon.com/katalon-studio/docs/windows-recorder-tutorials.html) and [Native Windows Recorder](https://docs.katalon.com/katalon-studio/docs/windows-recorder-tutorials.html).
+* [Katalon Studio Enterprise] Support video recording at browser level. [Learn more](https://docs.katalon.com/katalon-studio/docs/screenshot-video.html)
+* [Katalon TestOps (Beta) Integration] Export BDD reports generated in Katalon Studio to display in TestOps.
+* [Katalon TestOps (Beta) Integration] Allow overriding TestOps Project ID via command line.
+
 ## Official Release - Version 7.7
 
 ### New features
