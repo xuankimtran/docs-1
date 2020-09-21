@@ -4,14 +4,22 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/windows-recorder-tutorials.html
 ---
 > * From **version 7.0**, you can record a test on a Windows desktop application.
->
-> * From **version 7.7.5**, Katalon supports recording and locating a Windows element by its relative coordinates. The `clickElementOffset` and `rightClickElementOffset` keywords are available and their buttons are supported in **Possible Actions**.
->    * [[Windows] Click Element Offset](https://docs.katalon.com/katalon-studio/docs/windows-kw-click-element-offset.html)
->    * [[Windows] Right-click Element Offset](https://docs.katalon.com/katalon-studio/docs/windows-kw-rightclick-element-offset.html)
+> * From **version 7.7.5**, Katalon supports recording and locating a Windows element by its relative coordinates.
 
 **Precondition**
 
 * [Setting up WinAppDriver](https://docs.katalon.com/katalon-studio/docs/setup-winappdriver.html)
+
+## Coordinate-based Recording
+
+In the Recorder, the two buttons, including **Click Element Offset** and **Right-click Element Offset** are added to **Possible Actions**, and the following keywords are supported: 
+
+* [[Windows] Click Element Offset](https://docs.katalon.com/katalon-studio/docs/windows-kw-click-element-offset.html)
+* [[Windows] Right-click Element Offset](https://docs.katalon.com/katalon-studio/docs/windows-kw-rightclick-element-offset.html)
+
+With coordinates-based recording, Katalon Studio records an element's relative coordinates in addition to its selector. For instance, you want to click on the red X part to close a tab in Notepad. Katalon Recorder records the button's offsets (its relative coordinates to its top-left corner) as a set of parameters representing an X and Y offset, and save them in clickElementOffset. It uses them to identify the exact location to perform a click action during runtime.
+
+Without that element's offsets, the test engine can only click on the button's center, resulting in a failed test.
 
 ## Recording
 
