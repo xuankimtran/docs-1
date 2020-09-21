@@ -23,6 +23,17 @@ If your machine hasn't installed them yet, you could use Katalon tools.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/native-windows-recorder/kat-tool.png">
 
+## Coordinate-based Recording
+
+> From **version 7.7.5**, you can record and locate a Windows element by its relative coordinates.
+
+In **Native Windows Recorder**, enable **coordinate-based recording** in the window. `click` and `rightClick` actions are recorded as `clickElementOffset` and `rightClickElementOffset` actions respectively.
+
+See also:
+
+* [[Windows] Click Element Offset](https://docs.katalon.com/katalon-studio/docs/windows-kw-click-element-offset.html)
+* [[Windows] Right-click Element Offset](https://docs.katalon.com/katalon-studio/docs/windows-kw-rightclick-element-offset.html)
+
 ## Recording
 
 1. Right-click on the Windows Recorder icon and select **Native Windows Recorder** to open the Native Windows Recorder windows.

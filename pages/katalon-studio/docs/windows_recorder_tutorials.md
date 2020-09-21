@@ -3,7 +3,11 @@ title: "Windows Record Tutorials"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/windows-recorder-tutorials.html
 ---
-> Starting in **Katalon Studio version 7.0**, you can record a test on a Windows desktop application.
+> * From **version 7.0**, you can record a test on a Windows desktop application.
+>
+> * From **version 7.7.5**, Katalon supports recording and locating a Windows element by its relative coordinates. The `clickElementOffset` and `rightClickElementOffset` keywords are available and their buttons are supported in **Possible Actions**.
+>    * [[Windows] Click Element Offset](https://docs.katalon.com/katalon-studio/docs/windows-kw-click-element-offset.html)
+>    * [[Windows] Right-click Element Offset](https://docs.katalon.com/katalon-studio/docs/windows-kw-rightclick-element-offset.html)
 
 **Precondition**
 
