@@ -38,7 +38,6 @@ description: Release note 7.x
 ### Fixes
 
 * Bug: [Katalon Record Utility] Unable to locate Objects during execution if the objects are captured with such options as **Merge objects**, **Duplicate objects**, or **Replace existing objects**
-* Bug: [Katalon TestOps (Beta) Integration]: Cannot display more than 20 projects fetched from Katalon TestOps (Beta)
 * Bug: [TestNG] Return incorrect test results when using the `runTestNGTestClasses` keyword
 
 ## Version 7.6.6
