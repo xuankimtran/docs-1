@@ -16,7 +16,6 @@ Katalon Studio has already equipped you with capturing and recording what happen
 Also, automated test with headless browsers is rising in demand. Without video recorded for headless browser testing, it isn't easy to troubleshoot a failed test.
 
 To address the issues mentioned above, in version 7.7.5, the Studio team ships video recording **at the browser level** for both full Browsers and Headless Browsers testings, which is believed to be incredibly helpful for debugging test scripts when you know what happened during runtime.
-With this new-gen of video recording, you can:
 
 With this new-gen of video recording, you can:
 
