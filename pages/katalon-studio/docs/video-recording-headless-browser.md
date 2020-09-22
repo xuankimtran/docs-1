@@ -3,7 +3,7 @@ title: "Browser-based Video Recording for Headless Browser"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/video-recording-headless-browser.html
 ---
-With execution logs and screenshots, videos are of great assistance for deciding what went wrong during the runtime of automated tests. 
+Together with execution logs and screenshots, videos are of great assistance for deciding what went wrong during the runtime of automated tests. 
 
 In version **7.7.5**, the Studio team ships video recording **at the browser level** for both full Browsers and Headless Browsers testings.
 
