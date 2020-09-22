@@ -1,7 +1,7 @@
 ---
-title: "Time Machine" 
+title: "Time Capsule" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/time-machine.html 
+permalink: katalon-studio/docs/time-capsule.html 
 ---
 
 Currently, users have to manually reproduce the state of AUT in order to fix a broken Test Object, which is time-consuming. In data-driven test cases with multiple test data, reproducing manually on the exact combination of test data is complicated. To reduce reproduction efforts, we capture the state of the AUT when tests fail due to locators not finding elements (aka broken Test Object). To encourage users adopt this feature, we add links to Log Viewer and Test Suite Report that automatically opens Spy Tool at the captured page. As a solution, Time machine is introduced in Katalon Studio 7.7.5 (Currently a Beta release). 
