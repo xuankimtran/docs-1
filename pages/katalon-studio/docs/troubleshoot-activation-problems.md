@@ -15,6 +15,18 @@ First, please make sure you have configured the date and time of the machine ins
 
 Below are the common issues you may encounter, please troubleshoot correspondingly.
 
+<details><summary>This account has been blocked.</summary>
+
+This error message indicates that your Katalon account has been registered but not verified. To unblock your Katalon account:
+
+1. Sign into [the Katalon website](https://www.katalon.com/). 
+2. Go to [My Account](https://www.katalon.com/account/) 
+3. Click **Verify Now** and follow the instructions
+
+After verifying your account, open Katalon Studio and try activating again.
+
+</details>
+
 <details><summary>Cannot connect to Katalon TestOps server. Please check your Internet connection and try again.</summary>
 
 This error message indicates that Katalon Studio's application cannot communicate with the Katalon server to activate it.
