@@ -16,7 +16,7 @@ redirect_from:
     - "/katalon-studio/new/version-501.html"
 description: Release note 7.x
 ---
-## Official Release - Version 7.7
+## Official Release - Version 7.7.0 - 7.7.1
 
 ### New features
 
