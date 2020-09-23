@@ -62,3 +62,8 @@ The **license** folder can be found:
 * macOS: **/Users/<user_name>/.katalon/license**
 
   > Note: **.katalon** is a hidden folder.
+
+### Offline license expire
+
+When an offline license expires, one more license is available for usage. To continue using offline licenses, please generate a new one.
+
