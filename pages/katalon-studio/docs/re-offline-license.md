@@ -1,7 +1,7 @@
 ---
 title: "Grant and Use a Katalon Runtime Engine Offline License"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/re-offline-licenses.html
+permalink: katalon-studio/docs/re-offline-license.html
 description:
 ---
 > Only **node-locked** Katalon Runtime Engine (KRE) licenses with a **yearly** billing cycle can be converted to offline licenses.
@@ -63,7 +63,7 @@ The **license** folder can be found:
 
   > Note: **.katalon** is a hidden folder.
 
-### Offline license expire
+### Offline license expires
 
 When an offline license expires, one more license is available for usage. To continue using offline licenses, please generate a new one.
 
