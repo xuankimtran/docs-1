@@ -20,8 +20,13 @@ Below are the common issues you may encounter, please troubleshoot corresponding
 This error message indicates that your Katalon account has been registered but not verified. To unblock your Katalon account:
 
 1. Sign into [the Katalon website](https://www.katalon.com/). 
-2. Go to [My Account](https://www.katalon.com/account/) 
-3. Click **Verify Now** and follow the instructions
+2. Go to [My Account](https://www.katalon.com/account/).
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/troubleshoot-activation-problems/my-account.png" width=1204>
+   
+3. Click **Verify Now** and follow the instructions.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/troubleshoot-activation-problems/guide.png" width=602>
 
 After verifying your account, open Katalon Studio and try activating again.
 
