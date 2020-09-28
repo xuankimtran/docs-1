@@ -1,8 +1,11 @@
 ---
-title: "Browser-based Video Recording for Headless Browser"
+title: "Screenshots and Videos"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/video-recording-headless-browser.html
+permalink: katalon-studio/docs/screenshots-videos.html
 ---
+
+https://docs.cypress.io/guides/guides/screenshots-and-videos.html#Screenshots
+
 Together with execution logs and screenshots, videos are of great assistance for deciding what went wrong during the runtime of automated tests. 
 
 In version **7.7.5**, the Studio team ships video recording **at the browser level** for both full Browsers and Headless Browsers testings.
@@ -23,6 +26,8 @@ With this new-gen of video recording, you can:
 * Record browser window behind another window
 * Record headless browser
 * Record multiple browsers at the same time (e.g., when running a test suite collection having multiple test suites in parallel)
+
+### Browser-based Video Recording for Headless Browser
 
 ### Preconditions
 
