@@ -28,7 +28,7 @@ This error message indicates that your Katalon account has been registered but n
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/troubleshoot-activation-problems/guide.png" width=602>
 
-After verifying your account, open Katalon Studio and try activating again.
+After verifying your account, open Katalon Studio and try activating again. If activation failure still occurs, please wait for 5 minutes and try again.
 
 </details>
 
