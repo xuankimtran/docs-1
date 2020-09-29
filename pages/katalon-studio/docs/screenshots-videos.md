@@ -99,7 +99,7 @@ To use this feature, you need to enable it in Project Settings of Katalon Studio
 ### In Katalon Studio
 
 1. Open your project and go to **Project/Settings/Report**
-2. Enable Video Recording at the browser level
+2. Enable Browser-based Video Recording
 
 ### Install FFmpeg library:
 
