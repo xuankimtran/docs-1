@@ -42,6 +42,8 @@ Together with execution logs and screenshots, videos are of great assistance for
 
 ## Screen Video Recorder
 
+Screen Video Recorder captures and records what happens on a screen during runtime for non-headless Browsers testing.
+
 Screen Video Recorder is currently available for:
 
 * Test Suite execution. For recording **parallel execution**, please see [Browser-based Video Recorder]()
@@ -71,42 +73,26 @@ Follow the steps below to see how to record screen:
 4. After running the test suite, navigate to the **Result** tab, you can view the list of test cases in the test cases table with its video attached accordingly. Click on the play icon in the 'Video' column to play the video. Test steps descriptions are embedded as subtitles. For example, please take a look at below screenshot:  
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/video-capturing/image2017-8-25-153A353A13.png)
 
-## Screen vs. Browser-based Video Recorder
-
-Katalon Studio has already equipped you with capturing and recording what happened on a screen during runtime for non-headless Browsers testing. However, there are multiple goals that using Screen Recorder cannot achieve. 
-
-Firstly, since it is screen-based, it only captures what's visible on the screen. The recorded video may not capture what you expect in some cases. For instance, you switch to another window while the test runs; instead of recording the browser instance running test, screen recorder records your switching to and interacting with another window. Another case is the testing browser instance is hidden behind another one, which makes the recorded video becomes useless for knowing what happens during runtime.
-
-Secondly, automated test with headless browsers is rising in demand. Without video recorder for headless browser testing, it isn't easy to troubleshoot a failed test. 
-
-**What is Headless Browser?**
-
-Headless Browser is a way to run browsers in a headless environment, which is popularly used for test automation and browser testing in CI/CD pipeline when you don't need a visible GUI. You can learn more about Headless Browser Execution in this [manual](https://docs.katalon.com/katalon-studio/docs/headless-browsers-execution.html).
-
 ## Browser-based Video Recorder
 
-To address the above use cases, in version **7.7.5**, the Studio team ships browser-based recording for both full Browsers and Headless Browsers testings, which is believed to be incredibly helpful for debugging test scripts when you know what happened during runtime.
+In version **7.7.5**, the Studio team ships browser-based video recording for both full Browsers and Headless Browsers, which is believed to be incredibly helpful for troubleshooting a failed test. With Screen Recorder, you can capture what's visible on the screen while with the Browser-based Video Recorder, you can:
+
+* **Record video of browser window only** (Even it's hidden behind another window): Browser-based video recorder is preferred in case you are running tests when a window pops up, or the testing browser instance is hidden behind another window. 
+* **Record video of Headless browser**: Headless Browser is a way to run browsers in a headless environment, which is popularly used for test automation and browser testing in CI/CD pipeline when you don't need a visible GUI. You can learn more about Headless Browser Execution in this [manual](https://docs.katalon.com/katalon-studio/docs/headless-browsers-execution.html).
+* **Record videos of multiple browsers simultaneously** e.g., parallel execution of Test Suite Collection
 
 **Preconditions**
 
 * An active Katalon Studio Enterprise license
 * Katalon Studio version 7.7.5
 
-With the Browser-based Video Recorder, you can:
-
-* Record browser window only (Even it's hidden behind another window)
-* Record Headless browser
-* Record multiple browsers simultaneously (e.g., parallel execution of Test Suite Collection)
-
-The below section guides you on how to configure Browser-based video recorder in project settings and view videos.
-
 > Note
 > * Available for Chrome, Microsoft Edge (Chromium-based), and [Headless Chrome](https://developers.google.com/web/updates/2017/04/headless-chrome). 
 > * Support Test Suite and Test Suite Collection execution
 
+The below section guides you on how to configure Browser-based video recorder in project settings and view videos.
+
 ## Configurations for Browser-based Video Recorder
-
-
 
 To use this feature, you need to enable it in Project Settings of Katalon Studio and install a third-party library used for encoding videos.
 
