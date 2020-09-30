@@ -17,13 +17,13 @@ redirect_from:
 description: Release note 7.x
 ---
 
-## Pre-Release - Version 7.7.5 (Beta)
+## Version 7.8 (Beta)
 
 ### New features
 
-* Enhance maintaining test objects with Time Capsule. [Learn more](https://docs.katalon.com/katalon-studio/docs/time-capsule.html)
+* Enhance fixing broken Web Test Objects with "time capsule". [Learn more](https://docs.katalon.com/katalon-studio/docs/time-capsule.html)
 * [Windows Testing] Support coordinates-based recording with [Click Element Offset](https://docs.katalon.com/katalon-studio/docs/windows-kw-click-element-offset.html) and [Right-click Element Offset](https://docs.katalon.com/katalon-studio/docs/windows-kw-rightclick-element-offset.html) keywords on both [Windows Recorder](https://docs.katalon.com/katalon-studio/docs/windows-recorder-tutorials.html) and [Native Windows Recorder](https://docs.katalon.com/katalon-studio/docs/windows-recorder-tutorials.html).
-* [Katalon Studio Enterprise] Support browser-based video recording. [Learn more](https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-recorder)
+* [Katalon Studio Enterprise] Support browser-based video recording. [Learn more](https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-video-recorder)
 * [Katalon TestOps (Beta) Integration] Export BDD reports generated in Katalon Studio to display in TestOps. [Learn more](https://docs.katalon.com/katalon-analytics/docs/bdd-test-results.html)
 * [Katalon TestOps (Beta) Integration] Allow overriding TestOps Project ID via command line.
 

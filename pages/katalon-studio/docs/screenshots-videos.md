@@ -50,7 +50,7 @@ Screen Video Recorder captures and records what happens on a screen during runti
 
 Screen Video Recorder is currently available for:
 
-* Test Suite execution. For recording **parallel execution**, please see [Browser-based Video Recorder]()
+* Test Suite execution. For recording **parallel execution**, please see [Browser-based Video Recorder](https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-video-recorder)
 * Chrome, Firefox, Safari, Microsoft Edge, and IE
 
 > [K-Lite Codec](https://www.codecguide.com/download_kl.htm) is recommended to play the recorded screen-based video.
