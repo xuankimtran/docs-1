@@ -4,7 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/screenshots-videos.html
 ---
 
-Test scripts debugging can be time-consuming and challenging for many automation testers. Katalon Studio solves this problem by equipping you with the capabilities to capture screenshots and record videos of test execution. In this manual, you can learn how Katalon Studio takes screenshots and records videos of test runs; where those artifacts are stored and options of using them to debug.
+Test scripts debugging can be time-consuming and challenging for many automation testers. Katalon Studio solves this problem by equipping you with the capabilities to capture screenshots and record videos of test execution. In this manual, you can learn how Katalon Studio takes screenshots and records videos of test runs, where those artifacts are stored, and the options of using them for debugging.
 
 ## Screenshots
 
@@ -25,7 +25,7 @@ If you wish to take screenshots of the application under test during runtime man
 * [[WebUI] Take Full Page Screenshot](https://docs.katalon.com/katalon-studio/docs/webui-take-fullpage-screenshot.html) (Available in 7.7)
 * [[Mobile] Take Screenshot](https://docs.katalon.com/katalon-studio/docs/mobile-take-screenshot.html)
 
-The screenshots are stored in the **Report** folder of a project. You can view the taken screenshots in **Log Image** after execution.
+Katalon Studio stores screenshots in the **Report** folder of a project. You can view the taken screenshots in **Log Image** after execution.
 
 1. When a test suite fails, open its result tab.
 2. Select a failed test case.
@@ -38,10 +38,10 @@ You can use the taken screenshots for visual testing with TestOps Vision. [Learn
 
 ## Videos
 
-Together with execution logs and screenshots, videos are of great assistance for deciding what went wrong during the runtime of automated tests. By watching how the automated test was executed, the testing team can identify exactly where the test failed. Thus, time and resources are managed more efficiently and effectively.
+Together with execution logs and screenshots, videos are of great assistance for deciding what went wrong during the runtime of automated tests. By watching how the automated test was executed, the testing team can identify exactly where the test failed, hence, saving time and resources substantially.
 
 > Notes
-> * Video recorder is applicable to Web UI testing only.
+> * Video recorder applies to Web UI testing only.
 > * For remote browsers, you're recommended to use [Katalium Server](https://docs.katalon.com/katalium-server/docs/katalium-server-katalon-studio-remote-machine.html) to view captured sessions.
 
 ## Screen Video Recorder
@@ -92,9 +92,9 @@ Follow the steps below to see how to record screen:
 
 In version **7.8**, the Studio team ships browser-based video recording for both full Browsers and Headless Browsers, which is believed to be incredibly helpful for troubleshooting a failed test. With Screen Recorder, you can capture what's visible on the screen while with the Browser-based Video Recorder, you can:
 
-* **Record video of browser window only** (Even it's hidden behind another window): Browser-based video recorder is preferred in case you are running tests when a window pops up, or the testing browser instance is hidden behind another window. 
-* **Record video of Headless browser**: Headless Browser is a way to run browsers in a headless environment, which is popularly used for test automation and browser testing in CI/CD pipeline when you don't need a visible GUI. You can learn more about Headless Browser Execution in this [manual](https://docs.katalon.com/katalon-studio/docs/headless-browsers-execution.html).
-* **Record videos of multiple browsers simultaneously** e.g., parallel execution of Test Suite Collection
+* **Record video of browser window only** (Even it's hidden behind another window)
+* **Record video of Headless browser**: Headless Browser is a way to run browsers in a headless environment, popularly used for test automation and browser testing in CI/CD pipeline when you don't need a visible GUI. You can learn more about Headless Browser Execution in this [manual](https://docs.katalon.com/katalon-studio/docs/headless-browsers-execution.html).
+* **Record videos of multiple browsers simultaneously**, for instance, parallel execution of Test Suite Collection.
 
 **Preconditions**
 
@@ -105,7 +105,7 @@ In version **7.8**, the Studio team ships browser-based video recording for both
 > * Available for Chrome, Microsoft Edge (Chromium-based), and [Headless Chrome](https://developers.google.com/web/updates/2017/04/headless-chrome). 
 > * Support Test Suite and Test Suite Collection execution
 
-The below section guides you on how to configure Browser-based video recorder in project settings and view videos.
+The below section guides you on configuring the Browser-based video recorder in project settings and viewing videos.
 
 ### Configurations for Browser-based Video Recorder
 
@@ -128,12 +128,8 @@ To install the FFmpeg library, do as follows:
 
 ## View recorded videos
 
-After running the test suite, navigate to the **Result** tab, you can view the list of test cases in the test cases table with its video attached accordingly. Click on the play icon in the **Video** column to play the video. Test steps descriptions are embedded as subtitles. For example:  
+After running the test suite, navigate to the **Result** tab. You can view the list of test cases in the test cases table with its video attached accordingly. Click on the play icon in the **Video** column to play the video. The videos have test steps descriptions embedded as subtitles. For example:
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/video-capturing/image2017-8-25-153A353A13.png)
 
-The recorded videos are stored in the Report folder of a project.
-
-
-
-
+Katalon stores recorded videos in the **Report** folder of a project.
