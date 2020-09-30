@@ -12,13 +12,13 @@ To tackle this issue, Katalon Studio **7.8** supports restoring the AUT to the s
 Notably, two enhancements assist you in optimizing the workflow of fixing your tests:
 
 1. The test engine captures the snapshot (in HTML) of your AUT upon failures automatically. The snapshot stored in the **Report** folder of a project allows you to time-travel to AUT's state when it failed.
-2. For a specific exception of `com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id ... not found`, you can trigger the 'time capsule' in either the **Log Viewer** of a Test Case or a Test Suite Report. Specifically, you can see links right next to broken objects. Click on the links to automatically open the captured snapshot (in HTML) of the AUT with the Spy Tool. On the opened web page, you can re-capture the broken object with the Spy Tool as usual.
+2. For a specific exception of `com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id ... not found`, you can trigger the 'time capsule' in either the **Log Viewer** of a Test Case or a Test Suite Report. 
 
 The following usage examples illustrate how to trigger the "time capsule" when a test case or a test suite fails.
 
 ### Failed Test Case Execution scenario
 
-Once a test case execution fails due to `com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id ... not found.` In Log Viewer of that test case, you can click on “**Click here to fix broken Test Object**” to open the captured state of the AUT with the Spy Tool automatically.
+Once a test case execution fails due to `com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id ... not found.` In **Log Viewer** of that test case, you can click on “**Click here to fix broken Test Object**” to open the captured state of the AUT with the Spy Tool automatically.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/time-capsule/test-case-fail.gif">
 
