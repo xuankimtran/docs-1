@@ -16,7 +16,7 @@ redirect_from:
     - "/katalon-studio/new/version-501.html"
 description: Release note 7.x
 ---
-## Official Release - Version 7.7.0 - 7.7.1
+## Official Release - Version 7.7.0 - 7.7.1 - 7.7.2
 
 ### New features
 
@@ -37,6 +37,8 @@ description: Release note 7.x
 
 ### Fixes
 
+* Bug: [Katalon Runtime Engine] An issue of generating reports after execution 
+* Bug: [Katalon Runtime Engine] An exception thrown when updating WebDriver automatically in Command Line. Address [here]( https://forum.katalon.com/t/test-collection-are-not-running-from-azure-getting-classnotfoundexception-com-kms-katalon-core-logging-logback-systemoutfilter-cannot-be-found-by-ch-qos-logback-classic-1-2-3-and-lots-of-unable-to-resolve-class-errors/47743)
 * Bug: [Katalon Record Utility] Unable to locate Objects during execution if the objects are captured with such options as **Merge objects**, **Duplicate objects**, or **Replace existing objects**
 * Bug: [TestNG] Return incorrect test results when using the `runTestNGTestClasses` keyword
 
