@@ -25,7 +25,7 @@ If your machine hasn't installed them yet, you could use Katalon tools.
 
 ## Coordinate-based Recording
 
-> From **version 7.7.5**, you can record and locate a Windows element by its relative coordinates.
+> From **version 7.8**, you can record and locate a Windows element by its relative coordinates.
 
 In **Native Windows Recorder**, with the enabled **coordinate-based recording**, `click` and `rightClick` actions are recorded as `clickElementOffset` and `rightClickElementOffset` actions respectively. The following keywords are supported: 
 

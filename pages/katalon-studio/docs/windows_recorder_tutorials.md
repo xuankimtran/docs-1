@@ -4,7 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/windows-recorder-tutorials.html
 ---
 > * From **version 7.0**, you can record a test on a Windows desktop application.
-> * From **version 7.7.5**, Katalon supports recording and locating a Windows element by its relative coordinates.
+> * From **version 7.8**, Katalon supports recording and locating a Windows element by its relative coordinates.
 
 **Precondition**
 
