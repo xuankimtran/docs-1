@@ -56,3 +56,7 @@ Users can use the KSE offline license to activate and use KSE in the offline env
 2. Browse the license file with the corresponding machine ID.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-offline-kse-licenses/activate.png" width="498" height="">
+
+### Expired Offline License
+
+When an offline license expires, one more license is available for usage. To continue using offline licenses, please generate a new one.

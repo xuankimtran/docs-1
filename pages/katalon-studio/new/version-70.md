@@ -19,6 +19,8 @@ description: Release note 7.x
 
 ## Version 7.8 (Beta)
 
+> Download 7.8 (Beta) [here](https://github.com/katalon-studio/katalon-studio/releases/)
+
 ### New features
 
 * Enhance fixing broken Web Test Objects with "time capsule". [Learn more](https://docs.katalon.com/katalon-studio/docs/time-capsule.html)
@@ -27,7 +29,7 @@ description: Release note 7.x
 * [Katalon TestOps (Beta) Integration] Export BDD reports generated in Katalon Studio to display in TestOps. [Learn more](https://docs.katalon.com/katalon-analytics/docs/bdd-test-results.html)
 * [Katalon TestOps (Beta) Integration] Allow overriding TestOps Project ID via command line.
 
-## Official Release - Version 7.7
+## Official Release - Version 7.7.0 - 7.7.1 - 7.7.2
 
 ### New features
 
@@ -48,8 +50,9 @@ description: Release note 7.x
 
 ### Fixes
 
+* Bug: [Katalon Runtime Engine] An issue of generating reports after execution 
+* Bug: [Katalon Runtime Engine] An exception thrown when updating WebDriver automatically in Command Line. Address [here]( https://forum.katalon.com/t/test-collection-are-not-running-from-azure-getting-classnotfoundexception-com-kms-katalon-core-logging-logback-systemoutfilter-cannot-be-found-by-ch-qos-logback-classic-1-2-3-and-lots-of-unable-to-resolve-class-errors/47743)
 * Bug: [Katalon Record Utility] Unable to locate Objects during execution if the objects are captured with such options as **Merge objects**, **Duplicate objects**, or **Replace existing objects**
-* Bug: [Katalon TestOps (Beta) Integration]: Cannot display more than 20 projects fetched from Katalon TestOps (Beta)
 * Bug: [TestNG] Return incorrect test results when using the `runTestNGTestClasses` keyword
 
 ## Version 7.6.6
