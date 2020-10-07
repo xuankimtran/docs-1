@@ -4,7 +4,8 @@ sidebar: katalon_studio_videos_sidebar
 permalink: katalon-studio/videos/create_test_case_script_mode.html
 description: "A quick guide to create test case using Script mode of Katalon Studio, a complete test automation tool."
 ---
-<iframe width="560" height="349" src="https://www.youtube.com/embed/Bh222T1oaXk?autoplay=1" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dAdqS_e5cZM?autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **A quick guide to create test case using Script mode of Katalon Studio, a complete test automation tool, built on the top of Selenium and Appium. Katalon Studio helps you start automation testing on web on mobile with the least efforts and no costs. Free download at [www.katalon.com](https://www.katalon.com)**
 
