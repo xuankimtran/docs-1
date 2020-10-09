@@ -117,6 +117,14 @@ To use this feature, you need to enable it in Project Settings of Katalon Studio
 2. In the **During Execution Options** panel, enable Video Recorder by checking **Record Video during execution**.
    
    By default, **Browser-based Recorder** for **failed Test Cases only** is selected.
+3. Set a window size of 1500x1000 for the browser you record in Project Settings. 
+
+* Go to **Project/Settings/Desired Capabilities/Web UI**, select Chrome/Chrome Headless/Edge Chromium.
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/screenshots-videos/browser-size.png">
+
+   > Learn more about how to set [Desired Capabilities for Web UI](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html#chromechrome-headless)
+
+4. Click **OK**.
 
 **Install FFmpeg library**
 
@@ -125,6 +133,7 @@ To install the FFmpeg library, do as follows:
 1. Go to the [FFmpeg download web page](https://ffmpeg.org/download.html).
 2. Download the package which is appropriate for your operating system.
 3. Add the path to the FFmpeg executable file to your PATH environment variable.
+4. Reactivate Katalon Studio for this installation to take effect
 
 ## View recorded videos
 
