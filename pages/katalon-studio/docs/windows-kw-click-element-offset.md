@@ -4,7 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/windows-kw-click-element-offset.html
 ---
 
-> From version 7.7.5, this keyword is available.
+> From version 7.8, this keyword is available.
 
 **Prerequisites**: 
 

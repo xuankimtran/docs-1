@@ -789,6 +789,8 @@ items:
                 url: /katalon-studio/docs/windows-kw-close-app.html              
               - title: "[Windows] Click"
                 url: /katalon-studio/docs/windows-kw-click.html
+              - title: "[Windows] Click Element Offset"
+                url: /katalon-studio/docs/windows-kw-click-element-offset.html
               - title: "[Windows] Double-click"
                 url: /katalon-studio/docs/windows-kw-double-click.html
               - title: "[Windows] Find Element"
@@ -807,6 +809,8 @@ items:
                 url: /katalon-studio/docs/windows-kw-get-driver.html
               - title: "[Windows] Right-click"
                 url: /katalon-studio/docs/windows-kw-rightclick.html
+              - title: "[Windows] Right-click Element Offset"
+                url: /katalon-studio/docs/windows-kw-rightclick-element-offset.html
               - title: "[Windows] Set Encrypted Text"
                 url: /katalon-studio/docs/windows-kw-set-encrypted-text.html
               - title: "[Windows] Switch to Window"
