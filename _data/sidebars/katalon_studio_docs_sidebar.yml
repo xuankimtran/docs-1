@@ -141,6 +141,8 @@ items:
                 url: /katalon-studio/docs/external-libraries.html
           - title: "Execute and Debug a Test Case"
             url: /katalon-studio/docs/execute-a-test-case-or-a-test-suite.html
+          - title: "Fixing broken Web Test Objects with Time Capsule"
+            url: /katalon-studio/docs/time-capsule.html
           - title: "Desired Capabilities"
             url: /katalon-studio/docs/introduction-to-desired-capabilities.html
           - title: "Usage Examples"
@@ -919,6 +921,8 @@ items:
             url: /katalon-studio/docs/test-suite-report.html
           - title: "View and Customize Execution Log"
             url: /katalon-studio/docs/working-with-execution-log.html
+          - title: "Screenshots and Videos"
+            url: /katalon-studio/docs/screenshots-videos.html
           - title: "View Execution Summary and Advanced Reports"
             url: /katalon-studio/docs/view-execution-list.html
       - title: "Data-driven Testing"
