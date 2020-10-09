@@ -23,6 +23,19 @@ If your machine hasn't installed them yet, you could use Katalon tools.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/native-windows-recorder/kat-tool.png">
 
+## Coordinate-based Recording
+
+> From **version 7.8**, you can record and locate a Windows element by its relative coordinates.
+
+In **Native Windows Recorder**, with the enabled **coordinate-based recording**, `click` and `rightClick` actions are recorded as `clickElementOffset` and `rightClickElementOffset` actions respectively. The following keywords are supported: 
+
+* [[Windows] Click Element Offset](https://docs.katalon.com/katalon-studio/docs/windows-kw-click-element-offset.html)
+* [[Windows] Right-click Element Offset](https://docs.katalon.com/katalon-studio/docs/windows-kw-rightclick-element-offset.html)
+
+With coordinates-based recording, Katalon Studio records an element's relative coordinates in addition to its selector. For instance, you want to click on the red X part to close a tab in Notepad. Katalon Recorder records the button's offsets (its relative coordinates to its top-left corner) as a set of parameters representing an X and Y offset, and save them in clickElementOffset. It uses them to identify the exact location to perform a click action during runtime.
+
+Without that element's offsets, the test engine can only click on the button's center, resulting in a failed test.
+ß
 ## Recording
 
 1. Right-click on the Windows Recorder icon and select **Native Windows Recorder** to open the Native Windows Recorder windows.
