@@ -19,7 +19,7 @@ description: Release note 7.x
 
 ## Version 7.8 (Beta)
 
-> Download 7.8 (Beta) [here](https://github.com/katalon-studio/katalon-studio/releases/)
+> Download 7.8 (Beta) [here](https://github.com/katalon-studio/katalon-studio/releases/tag/v7.8.0.rc)
 
 ### New features
 
