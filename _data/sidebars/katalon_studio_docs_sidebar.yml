@@ -1211,6 +1211,8 @@ items:
         url: /katalon-analytics/docs/kt-noti-email.html
       - title: "REST API"
         url: /katalon-analytics/docs/rest-api.html
+      - title: "Tutorials"
+        url: /katalon-analytics/docs/testops-tutorials.html
       - title: "Advanced Topics"
         tree:
           - title: "IP Address Restrictions"
@@ -1229,8 +1231,6 @@ items:
                 url: /katalon-analytics/docs/accept-sso.html
           - title: "Enable/Disable Strict Domain"
             url: /katalon-analytics/docs/strict-domain.html
-      - title: "Tutorials"
-        url: /katalon-analytics/docs/testops-tutorials.html
   - title: "Katalon Recorder"
     tree:
       - title: "Overview"
