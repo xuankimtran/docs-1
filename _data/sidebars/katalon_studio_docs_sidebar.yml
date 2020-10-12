@@ -1209,6 +1209,8 @@ items:
         url: /katalon-analytics/docs/view-reports-overview.html
       - title: "Configure Notification Emails"
         url: /katalon-analytics/docs/kt-noti-email.html
+      - title: "REST API"
+        url: /katalon-analytics/docs/rest-api.html
       - title: "Advanced Topics"
         tree:
           - title: "IP Address Restrictions"
