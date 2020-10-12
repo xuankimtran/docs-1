@@ -1157,20 +1157,20 @@ items:
         url: /katalon-analytics/docs/setup-team.html
       - title: "API Keys"
         url: /katalon-analytics/docs/ka-api-key.html
-      - title: "Manage Test Execution Results"
+      - title: "Upload Test Results to Katalon TestOps"
         tree:
-          - title: "Overview"
-            url: /katalon-analytics/docs/upload-reports-overview.html
-          - title: "Upload Katalon Studio Test Results to Katalon TestOps automatically"
+          - title: "Upload Test Results automatically from Katalon Studio"
             url: /katalon-studio/docs/katalon-analytics-beta-integration.html
-          - title: "Upload Katalon Studio Test Results to Katalon TestOps manually"
+          - title: "Upload Test Results manually from Katalon Studio"
             url: /katalon-analytics/docs/project-management-import-KS.html
-          - title: "Upload Test Results using Command Line"
+          - title: "Upload JUnit and Katalon Studio Test Results using Katalon Report Uploader"
             url: /katalon-analytics/docs/project-management-import-cli.html
-          - title: "Import Katalon reports via TestOps GUI"
+          - title: "Upload JUnit and Katalon Studio Test Results from web browsers"
             url: /katalon-analytics/docs/testops-uploader.html
-          - title: "Compare Test Results"
-            url: /katalon-analytics/docs/compare-test-results.html
+          - title: "Upload JUnit and TestNG Test Results via Maven"
+            url: /katalon-analytics/docs/upload-junit-and-testng.html
+      - title: "Compare Test Results"
+        url: /katalon-analytics/docs/compare-test-results.html
       - title: "Jira Integration"
         tree:
           - title: "Jira Settings"
@@ -1217,6 +1217,10 @@ items:
         url: /katalon-analytics/docs/view-reports-overview.html
       - title: "Configure Notification Emails"
         url: /katalon-analytics/docs/kt-noti-email.html
+      - title: "REST API"
+        url: /katalon-analytics/docs/rest-api.html
+      - title: "Tutorials"
+        url: /katalon-analytics/docs/testops-tutorials.html
       - title: "Advanced Topics"
         tree:
           - title: "IP Address Restrictions"
@@ -1235,8 +1239,6 @@ items:
                 url: /katalon-analytics/docs/accept-sso.html
           - title: "Enable/Disable Strict Domain"
             url: /katalon-analytics/docs/strict-domain.html
-      - title: "Tutorials"
-        url: /katalon-analytics/docs/testops-tutorials.html
   - title: "Katalon Recorder"
     tree:
       - title: "Overview"
