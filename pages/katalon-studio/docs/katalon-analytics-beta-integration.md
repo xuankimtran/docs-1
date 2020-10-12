@@ -13,6 +13,7 @@ redirect_from:
     - "/katalon-analytics/docs/view-reports/"
     - "/x/mw3R/"
     - "/katalon-analytics/docs/integration-with-katalon-studio.html"
+    - "/katalon-analytics/docs/upload-reports-overview.html"
 ---
 
 To configure the Katalon TestOps Integration, right after activating:
