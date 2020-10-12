@@ -16,6 +16,19 @@ redirect_from:
     - "/katalon-studio/new/version-501.html"
 description: Release note 7.x
 ---
+
+## Version 7.8 (Beta)
+
+> Download 7.8 (Beta) [here](https://github.com/katalon-studio/katalon-studio/releases/tag/v7.8.0.rc)
+
+### New features
+
+* Enhance fixing broken Web Test Objects with "time capsule". [Learn more](https://docs.katalon.com/katalon-studio/docs/time-capsule.html)
+* [Windows Testing] Support coordinates-based recording with [Click Element Offset](https://docs.katalon.com/katalon-studio/docs/windows-kw-click-element-offset.html) and [Right-click Element Offset](https://docs.katalon.com/katalon-studio/docs/windows-kw-rightclick-element-offset.html) keywords on both [Windows Recorder](https://docs.katalon.com/katalon-studio/docs/windows-recorder-tutorials.html) and [Native Windows Recorder](https://docs.katalon.com/katalon-studio/docs/windows-recorder-tutorials.html).
+* [Katalon Studio Enterprise] Support browser-based video recording. [Learn more](https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-video-recorder)
+* [Katalon TestOps (Beta) Integration] Export BDD reports generated in Katalon Studio to display in TestOps. [Learn more](https://docs.katalon.com/katalon-analytics/docs/bdd-test-results.html)
+* [Katalon TestOps (Beta) Integration] Allow overriding TestOps Project ID via command line.
+
 ## Official Release - Version 7.7.0 - 7.7.1 - 7.7.2
 
 ### New features
