@@ -1,5 +1,5 @@
 ---
-title: "Upload JUnit and TestNG Test Results" 
+title: "Upload JUnit and TestNG Test Results to Katalon TestOps via Maven" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/upload-junit-and-testng.html
 description: 

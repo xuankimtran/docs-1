@@ -1,5 +1,5 @@
 ---
-title: "Upload Katalon Studio Test Results to Katalon TestOps automatically" 
+title: "Upload Test Results to Katalon TestOps automatically from Katalon Studio" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/katalon-analytics-beta-integration.html
 redirect_from:

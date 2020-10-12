@@ -1,5 +1,5 @@
 ---
-title: "Import Katalon reports via TestOps uploader"
+title: "Upload JUnit and Katalon Studio Test Results to Katalon TestOps from web browsers"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/testops-uploader.html
 ---
@@ -20,7 +20,3 @@ After executing tests in Katalon Studio, you can upload test reports to Katalon 
 5. Click **Import** to finish.
 
 After finishing these steps, you can view the reports you have uploaded in **Executions** page.
-
-
-
-

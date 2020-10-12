@@ -1,5 +1,5 @@
 ---
-title: "Upload Test Results using Command Line" 
+title: "Upload JUnit and Katalon Studio Test Results to Katalon TestOps using Katalon Report Uploader" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/project-management-import-cli.html 
 redirect_from:
