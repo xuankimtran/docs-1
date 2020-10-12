@@ -220,6 +220,12 @@ To include Cucumber _Feature_ file in Katalon Studio test case:
 
 ## Cucumber Reports
 
+### In Katalon TestOps
+
+Katalon TestOps has dedicated support for viewing BDD test results as well as advanced analytics and reports such as Traceability Matrix Report. Please follow [this tutorial](https://forum.katalon.com/t/better-bdd-support-in-katalon-studio-7-8-beta/47977/2) to configure.
+
+### In Katalon Studio
+
 There is **NO** custom report for executing Feature File. Katalon Studio uses only generated Cucumber **reports** for **Test Suite/Test Suite Collection** execution **level**, in which the test cases contain the Cucumber Features file.
 
 The generated Cucumber report of Test Suite/Test Suite Collection will be located in the same folder of Katalon Studio report's folder. In Katalon Studio Tests Explorer, right-click at the desired **Report > Open Containing Folder**. Katalon Studio will redirect you to the local folder where Cucumber Reports are stored. 
