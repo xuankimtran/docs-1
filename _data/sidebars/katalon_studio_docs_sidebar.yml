@@ -1169,6 +1169,7 @@ items:
             url: /katalon-analytics/docs/project-management-import-cli.html
           - title: "Upload JUnit and Katalon Studio Test Results from web browsers"
             url: /katalon-analytics/docs/testops-uploader.html
+      - title: "Test Management"
           - title: "Upload JUnit and TestNG Test Results via Maven"
             url: /katalon-analytics/docs/upload-junit-and-testng.html
       - title: "Compare Test Results"
@@ -1181,6 +1182,8 @@ items:
             url: /katalon-analytics/docs/jira-gadgets.html
           - title: "Writing BDD in Jira"
             url: /katalon-analytics/docs/bdd-settings.html
+          - title: "View BDD Test Results"
+            url: /katalon-analytics/docs/bdd-test-results.html
           - title: "Link Executions to Jira Defects"
             url: /katalon-analytics/docs/ka-defects.html
           - title: "Link Test Cases to Requirements"
@@ -1215,7 +1218,7 @@ items:
                 url: /katalon-analytics/docs/view-ci-plans.html
           - title: "Integration with Jenkins"
             url: /katalon-analytics/docs/ka-integration-jenkins.html
-      - title: "View Reports"
+      - title: "Reports"
         url: /katalon-analytics/docs/view-reports-overview.html
       - title: "Configure Notification Emails"
         url: /katalon-analytics/docs/kt-noti-email.html
