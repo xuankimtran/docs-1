@@ -1170,8 +1170,8 @@ items:
           - title: "Upload JUnit and Katalon Studio Test Results from web browsers"
             url: /katalon-analytics/docs/testops-uploader.html
       - title: "Test Management"
-         tree:
-          - title: "Upload JUnit and TestNG Test Results via Maven"
+        tree:
+          - title: "Upload JUnit and TestNG Test Results via Maven" 
             url: /katalon-analytics/docs/upload-junit-and-testng.html
       - title: "Compare Test Results"
         url: /katalon-analytics/docs/compare-test-results.html
