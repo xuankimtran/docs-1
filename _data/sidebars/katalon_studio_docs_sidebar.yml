@@ -1145,7 +1145,7 @@ items:
             url: /katalon-analytics/docs/project-management-import-cli.html
           - title: "Import Katalon reports via TestOps uploader"
             url: /katalon-analytics/docs/testops-uploader.html
-      - title: "TestOps Center"
+      - title: "Test Management"
         tree:
           - title: "Overview"
             url: /katalon-analytics/docs/TO-center-overview.html
@@ -1161,7 +1161,9 @@ items:
             url: /katalon-analytics/docs/jira-gadgets.html
           - title: "Writing BDD in Jira"
             url: /katalon-analytics/docs/bdd-settings.html
-      - title: "TestOps CI"
+          - title: "View BDD Test Results"
+            url: /katalon-analytics/docs/bdd-test-results.html
+      - title: "Continuous Testing"
         tree: 
           - title: "Overview"
             url: /katalon-analytics/docs/kt-remote-execution.html
@@ -1193,7 +1195,7 @@ items:
                 url: /katalon-analytics/docs/view-ci-plans.html
           - title: "Integration with Jenkins"
             url: /katalon-analytics/docs/ka-integration-jenkins.html
-      - title: "View Reports"
+      - title: "Reports"
         url: /katalon-analytics/docs/view-reports-overview.html
       - title: "Configure Notification Emails"
         url: /katalon-analytics/docs/kt-noti-email.html
