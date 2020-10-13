@@ -7,7 +7,7 @@ description:
 
 **Online** licenses of Katalon Studio Enterprise (KSE) and Katalon Runtime Engine (KRE) are transferable among the organization's registered users as long as the active licenses do not exceed the license quota.
 
-**Offline** licenses are for using KSE and KRE without the internet. Once generated, the license cannot be revoked or transferred to a different machine. These licenses will expire in two (2) months or at the end of the subscription term, if that happens earlier.
+**Offline** licenses are for using KSE and KRE without the internet. Once generated, the license cannot be revoked or transferred to a different machine. These licenses will expire in two (2) months or at the end of the subscription term, if that happens earlier. When an offline license expires, one more license is available for usage. To continue using offline licenses, please generate a new one.
 
 > Any **annual** and **node-locked** licenses of KRE and KSE can be converted to offline licenses. A machine ID is required to create an offline license.
 

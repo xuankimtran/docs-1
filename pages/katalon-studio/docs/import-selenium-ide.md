@@ -13,7 +13,6 @@ This manual shows you how to import a Selenium IDE project to a project in Katal
 **Requirements**
 
 * Katalon Studio version 7.5.10 onwards
-* An active Katalon Studio Enterprise license
 
 ## Import a Selenium IDE project
 

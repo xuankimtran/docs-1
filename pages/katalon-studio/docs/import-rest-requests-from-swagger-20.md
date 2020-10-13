@@ -1,5 +1,5 @@
 ---
-title: "Import REST requests from Swagger 2.0" 
+title: "Import RESTful requests with OpenAPI Specification 2.0 (Swagger)" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/import-rest-requests-from-swagger-20.html 
 redirect_from:

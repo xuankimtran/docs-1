@@ -17,7 +17,45 @@ redirect_from:
 description: Release note 7.x
 ---
 
-## Official Release - Version 7.6.6
+## Version 7.8 (Beta)
+
+> Download 7.8 (Beta) [here](https://github.com/katalon-studio/katalon-studio/releases/tag/v7.8.0.rc)
+
+### New features
+
+* Enhance fixing broken Web Test Objects with "time capsule". [Learn more](https://docs.katalon.com/katalon-studio/docs/time-capsule.html)
+* [Windows Testing] Support coordinates-based recording with [Click Element Offset](https://docs.katalon.com/katalon-studio/docs/windows-kw-click-element-offset.html) and [Right-click Element Offset](https://docs.katalon.com/katalon-studio/docs/windows-kw-rightclick-element-offset.html) keywords on both [Windows Recorder](https://docs.katalon.com/katalon-studio/docs/windows-recorder-tutorials.html) and [Native Windows Recorder](https://docs.katalon.com/katalon-studio/docs/windows-recorder-tutorials.html).
+* [Katalon Studio Enterprise] Support browser-based video recording. [Learn more](https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-video-recorder)
+* [Katalon TestOps (Beta) Integration] Export BDD reports generated in Katalon Studio to display in TestOps. [Learn more](https://docs.katalon.com/katalon-analytics/docs/bdd-test-results.html)
+* [Katalon TestOps (Beta) Integration] Allow overriding TestOps Project ID via command line.
+
+## Official Release - Version 7.7.0 - 7.7.1 - 7.7.2
+
+### New features
+
+* [Katalon Record Utility] Support adding verification test steps during recording with Chrome, Edge (Chromium-based), and Firefox. [Learn more](https://docs.katalon.com/katalon-studio/docs/record-web-utility.html#validate-ui-elements).
+* [Katalon Studio Enterprise - Web Service Testing] Import RESTful API with OpenAPI Specification 3.0. [Learn more](https://docs.katalon.com/katalon-studio/docs/import-openapi30.html)
+* [Web Service Testing] Import RESTful requests from WADLs. [Learn more](https://docs.katalon.com/katalon-studio/docs/import-wadl.html)
+* [Windows Testing] Support passing Capabilities including `appArguments` and `appWorkingDir` for Native Windows Recorder. [Learn more](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html#windows-desktop-app-testing)
+* Support using Global Variables in Email Settings. [Learn more](https://docs.katalon.com/katalon-studio/docs/execution-settings.html#support-global-variables-in-email-settings)
+* [Katalon Runtime Engine] Allow selecting an Organization for license validation when activating Katalon Runtime Engine. [Learn more](https://docs.katalon.com/katalon-studio/docs/use-online-license.html#katalon-runtime-engine)
+* [Katalon TestOps (Beta) Integration] Support integration with Katalon TestOps Vision for visual testing. [Learn more](https://forum.katalon.com/t/early-release-of-katalon-testops-vision-visual-testing-image-comparison)
+
+### Improvements
+
+* Support Microsoft Edge (Chromium) 85
+* Support Chrome 85
+* Install the Basic Reports plugin automatically for all users
+* Publish [API docs version 7.7](https://docs.katalon.com/javadoc/index.html)
+
+### Fixes
+
+* Bug: [Katalon Runtime Engine] An issue of generating reports after execution 
+* Bug: [Katalon Runtime Engine] An exception thrown when updating WebDriver automatically in Command Line. Address [here]( https://forum.katalon.com/t/test-collection-are-not-running-from-azure-getting-classnotfoundexception-com-kms-katalon-core-logging-logback-systemoutfilter-cannot-be-found-by-ch-qos-logback-classic-1-2-3-and-lots-of-unable-to-resolve-class-errors/47743)
+* Bug: [Katalon Record Utility] Unable to locate Objects during execution if the objects are captured with such options as **Merge objects**, **Duplicate objects**, or **Replace existing objects**
+* Bug: [TestNG] Return incorrect test results when using the `runTestNGTestClasses` keyword
+
+## Version 7.6.6
 
 ### Improvements
 
@@ -98,7 +136,7 @@ You can download Katalon Studio version 7.6.5 [here](https://github.com/katalon-
 
 ### New feature
 
-* [Katalon Studio Enterprise] Support importing test scripts of Selenium IDE version 3.x. [Learn more](https://docs.katalon.com/katalon-studio/docs/import-selenium-ide.html)
+* Support importing test scripts of Selenium IDE version 3.x. [Learn more](https://docs.katalon.com/katalon-studio/docs/import-selenium-ide.html)
 
 ### Improvement
 

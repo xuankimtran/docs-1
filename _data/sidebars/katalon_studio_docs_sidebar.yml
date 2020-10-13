@@ -141,6 +141,8 @@ items:
                 url: /katalon-studio/docs/external-libraries.html
           - title: "Execute and Debug a Test Case"
             url: /katalon-studio/docs/execute-a-test-case-or-a-test-suite.html
+          - title: "Fixing broken Web Test Objects with Time Capsule"
+            url: /katalon-studio/docs/time-capsule.html
           - title: "Desired Capabilities"
             url: /katalon-studio/docs/introduction-to-desired-capabilities.html
           - title: "Usage Examples"
@@ -319,12 +321,16 @@ items:
                     url: /katalon-studio/docs/draft-request.html
               - title: "Import Web Service Objects"
                 tree:
+                  - title: "Import RESTful requests from OpenAPI Specification 3.0"
+                    url: /katalon-studio/docs/import-openapi30.html
                   - title: "Import RESTful requests from Swagger 2.0"
                     url: /katalon-studio/docs/import-rest-requests-from-swagger-20.html
                   - title: "Import RESTful from Postman"
                     url: /katalon-studio/docs/import-postman.html
                   - title: "Import RESTful requests from SoapUI"
                     url: /katalon-studio/docs/import-soapui.html
+                  - title: "Import RESTful requests from WADL"
+                    url: /katalon-studio/docs/import-wadl.html 
                   - title: "Import SOAP requests from WSDL"
                     url: /katalon-studio/docs/import-soap-requests-from-wsdl.html
               - title: "Parameterize a Web Service Object"
@@ -505,6 +511,12 @@ items:
                 url: /katalon-studio/docs/webui-switch-to-window-title.html
               - title: "[WebUI] Switch To Window Url"
                 url: /katalon-studio/docs/webui-switch-to-window-url.html
+              - title: "[WebUI] Take Area Screenshot"
+                url: /katalon-studio/docs/webui-take-area-screenshot.html
+              - title: "[WebUI] Take Element Screenshot"
+                url: /katalon-studio/docs/webui-take-element-screenshot.html 
+              - title: "[WebUI] Take Full Page Screenshot"
+                url: /katalon-studio/docs/webui-take-fullpage-screenshot.html
               - title: "[WebUI] Take Screenshot"
                 url: /katalon-studio/docs/webui-take-screenshot.html
               - title: "[WebUI] Type On Image"
@@ -607,6 +619,16 @@ items:
                 url: /katalon-studio/docs/webui-wait-for-jquery-load.html
               - title: "[WebUI] Wait For Page Load"
                 url: /katalon-studio/docs/webui-wait-for-page-load.html
+          - title: "Visual-based Web Testing Keywords"
+            tree:
+              - title: "[WebUI] Take Area Screenshot As Checkpoint"
+                url: /katalon-studio/docs/webui-take-area-screenshot-as-checkpoint.html
+              - title: "[WebUI] Take Element Screenshot As Checkpoint"
+                url: /katalon-studio/docs/webui-take-element-screenshot-as-checkpoint.html
+              - title: "[WebUI] Take Full Page Screenshot As Checkpoint"
+                url: /katalon-studio/docs/webui-take-fullpage-screenshot-as-checkpoint.html
+              - title: "[WebUI] Take Screenshot As Checkpoint"
+                url: /katalon-studio/docs/webui-take-screenshot-as-checkpoint.html
           - title: "Mobile Keywords"
             tree:              
               - title: "[Mobile] Close Application"
@@ -769,6 +791,8 @@ items:
                 url: /katalon-studio/docs/windows-kw-close-app.html              
               - title: "[Windows] Click"
                 url: /katalon-studio/docs/windows-kw-click.html
+              - title: "[Windows] Click Element Offset"
+                url: /katalon-studio/docs/windows-kw-click-element-offset.html
               - title: "[Windows] Double-click"
                 url: /katalon-studio/docs/windows-kw-double-click.html
               - title: "[Windows] Find Element"
@@ -787,6 +811,8 @@ items:
                 url: /katalon-studio/docs/windows-kw-get-driver.html
               - title: "[Windows] Right-click"
                 url: /katalon-studio/docs/windows-kw-rightclick.html
+              - title: "[Windows] Right-click Element Offset"
+                url: /katalon-studio/docs/windows-kw-rightclick-element-offset.html
               - title: "[Windows] Set Encrypted Text"
                 url: /katalon-studio/docs/windows-kw-set-encrypted-text.html
               - title: "[Windows] Switch to Window"
@@ -901,6 +927,8 @@ items:
             url: /katalon-studio/docs/test-suite-report.html
           - title: "View and Customize Execution Log"
             url: /katalon-studio/docs/working-with-execution-log.html
+          - title: "Screenshots and Videos"
+            url: /katalon-studio/docs/screenshots-videos.html
           - title: "View Execution Summary and Advanced Reports"
             url: /katalon-studio/docs/view-execution-list.html
       - title: "Data-driven Testing"
@@ -1131,38 +1159,37 @@ items:
         url: /katalon-analytics/docs/setup-team.html
       - title: "API Keys"
         url: /katalon-analytics/docs/ka-api-key.html
-      - title: "Jira Settings"
-        url: /katalon-analytics/docs/kt-jira-config.html
       - title: "Upload Test Results to Katalon TestOps"
         tree:
-          - title: "Overview"
-            url: /katalon-analytics/docs/upload-reports-overview.html
-          - title: "Upload Katalon Studio Test Results to Katalon TestOps automatically"
+          - title: "Upload Test Results automatically from Katalon Studio"
             url: /katalon-studio/docs/katalon-analytics-beta-integration.html
-          - title: "Upload Katalon Studio Test Results to Katalon TestOps manually"
+          - title: "Upload Test Results manually from Katalon Studio"
             url: /katalon-analytics/docs/project-management-import-KS.html
-          - title: "Upload Test Results using Command Line"
+          - title: "Upload JUnit and Katalon Studio Test Results using Katalon Report Uploader"
             url: /katalon-analytics/docs/project-management-import-cli.html
-          - title: "Import Katalon reports via TestOps uploader"
+          - title: "Upload JUnit and Katalon Studio Test Results from web browsers"
             url: /katalon-analytics/docs/testops-uploader.html
       - title: "Test Management"
+          - title: "Upload JUnit and TestNG Test Results via Maven"
+            url: /katalon-analytics/docs/upload-junit-and-testng.html
+      - title: "Compare Test Results"
+        url: /katalon-analytics/docs/compare-test-results.html
+      - title: "Jira Integration"
         tree:
-          - title: "Overview"
-            url: /katalon-analytics/docs/TO-center-overview.html
-          - title: "Compare Test Results"
-            url: /katalon-analytics/docs/compare-test-results.html
-          - title: "Releases"
-            url: /katalon-analytics/docs/kt-jira-release.html
-          - title: "Requirements"
-            url: /katalon-analytics/docs/ka-integration-jira.html
-          - title: "Defects"
-            url: /katalon-analytics/docs/ka-defects.html
+          - title: "Jira Settings"
+            url: /katalon-analytics/docs/kt-jira-config.html
           - title: "Jira Dashboard Gadgets"
             url: /katalon-analytics/docs/jira-gadgets.html
           - title: "Writing BDD in Jira"
             url: /katalon-analytics/docs/bdd-settings.html
           - title: "View BDD Test Results"
             url: /katalon-analytics/docs/bdd-test-results.html
+          - title: "Link Executions to Jira Defects"
+            url: /katalon-analytics/docs/ka-defects.html
+          - title: "Link Test Cases to Requirements"
+            url: /katalon-analytics/docs/ka-integration-jira.html
+          - title: "Manage Executions with Jira Releases"
+            url: /katalon-analytics/docs/kt-jira-release.html
       - title: "Continuous Testing"
         tree: 
           - title: "Overview"
@@ -1173,12 +1200,8 @@ items:
                 url: /katalon-analytics/docs/agents.html
               - title: "Load Balancing for Local Test Environments"
                 url: /katalon-analytics/docs/load-balancing-agents.html
-          - title: "Cloud Test Environments"
-            tree:
-              - title: "CircleCI Test Environments"
-                url: /katalon-analytics/docs/circleci.html
-              - title: "AWS EKS Test Environments"
-                url: /katalon-analytics/docs/aws-eks.html
+          - title: "AWS EKS Test Environments"
+            url: /katalon-analytics/docs/aws-eks.html
           - title: "Test Projects"
             tree:
               - title: "Upload Test Projects"
@@ -1199,6 +1222,10 @@ items:
         url: /katalon-analytics/docs/view-reports-overview.html
       - title: "Configure Notification Emails"
         url: /katalon-analytics/docs/kt-noti-email.html
+      - title: "REST API"
+        url: /katalon-analytics/docs/rest-api.html
+      - title: "Tutorials"
+        url: /katalon-analytics/docs/testops-tutorials.html
       - title: "Advanced Topics"
         tree:
           - title: "IP Address Restrictions"

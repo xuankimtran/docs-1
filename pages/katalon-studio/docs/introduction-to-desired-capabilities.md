@@ -189,15 +189,32 @@ The source code is available [here](https://github.com/katalon-studio/katalon-m
 * Define Desired Capabilities for execution on WinAppDriver of desktop applications testing.
 * **Project > Settings > Desired Capabilities > Windows**.
 
-> Starting in **Katalon Studio version 7.0**, Windows desktop application testing is available.
+> Change updates
+>
+> From **version 7.0 onwards**, Windows desktop application testing is available.
+>
+> From **version 7.5 onwards**, Native Windows Recorder is available for Katalon Studio Enterprise users.
+> 
+> From **version 7.7 onwards**, Desired Capabilities for Native Windows Recorder are available.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/windows-desired-capabilities/desired-capa-win.png"  width="796" height="600">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/windows-desired-capabilities/desired-capa-win.png"  width="796" height="600">
 
-These settings are applied for a test execution on a Windows desktop app. You are allowed to configure the WinAppDriver URL and Desired Capabilities for Windows to start a Windows Application Driver.
+These settings are applied to a test execution on a Windows desktop app. You are allowed to configure the WinAppDriver URL and Desired Capabilities for Windows to start a Windows Application Driver.
 
 * **WinAppDriver URL**: a URL to the WinAppDriver server. By default, Katalon Studio is set to http://127.0.0.1:4723.
+* **Desired Capabilities**: Katalon Studio supports the same [capabilities](https://github.com/microsoft/WinAppDriver/blob/master/Docs/AuthoringTestScripts.md#user-content-supported-locators-to-find-ui-elements) as WinAppDriver does. For Native Windows Recorder, only **appArguments** and **appWorkingDir** are supported (available in version 7.7).
+   * **appArguments**: Support passing arguments to the Application Under Test
+   * **appWorkingDir**: Support overriding the Application Under Test's working directory  
 
-* **Desired Capabilities**: Katalon Studio supports the same [capabilities](https://github.com/microsoft/WinAppDriver/blob/master/Docs/AuthoringTestScripts.md#user-content-supported-locators-to-find-ui-elements) as WinAppDriver does.
+The example below shows you:
+
+* The desired capabilities set for a Windows Application Under Test;
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/introduction-to-desired-capabilities/desired-capabilities.png">
+
+* How to use them in the Native Windows Recorder.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/introduction-to-desired-capabilities/use-windows-capabilities.png">
 
 ## Remote Server
 
