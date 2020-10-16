@@ -8,7 +8,7 @@ redirect_from:
     - "/x/JYgw/"
 description:
 ---
-**Katalon Automation Recorder** extension is required to capture objects in **Active Browser** (refer to [Web Object Spy](/pages/viewpage.action?pageId=5111951#SpyWebUtility(version4.8andbelow)-CaptureobjectsusingWebObjectSpy) and [Record & Playback](/pages/viewpage.action?pageId=3179014) for more details). Click [here](https://chrome.google.com/webstore/detail/katalon-utility/ljdobmomdgdljniojadhoplhkpialdid) to  install the Katalon Automation Recorder extension for Chrome.
+**Katalon Automation Recorder** extension is required to capture objects in **Active Browser** (refer to [Web Object Spy](https://docs.katalon.com/katalon-studio/docs/spy-web-utility.html) and [Record & Playback](https://docs.katalon.com/katalon-studio/docs/record-web-utility.html) for more details). Click [here](https://chrome.google.com/webstore/detail/katalon-utility/ljdobmomdgdljniojadhoplhkpialdid) to install the Katalon Automation Recorder extension for Chrome.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-addon-for-chrome/image2017-11-8-143A563A19.png)
 
