@@ -3,7 +3,7 @@ title: "How to configure Slack integration with Katalon TestOps"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/slack-integration.html
 ---
-Katalon TestOps allows you to integrate with Slack to receive notification messages of your executions.
+Katalon TestOps allows you to integrate with Slack to receive notification messages of your test execution results.
 
 > This feature is only accessible to Team Owner and Admin.
 
