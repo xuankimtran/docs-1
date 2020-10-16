@@ -1173,25 +1173,27 @@ items:
         tree:
           - title: "Upload JUnit and TestNG Test Results via Maven" 
             url: /katalon-analytics/docs/upload-junit-and-testng.html
-      - title: "Compare Test Results"
-        url: /katalon-analytics/docs/compare-test-results.html
-      - title: "Jira Integration"
-        tree:
-          - title: "Jira Settings"
-            url: /katalon-analytics/docs/kt-jira-config.html
-          - title: "Jira Dashboard Gadgets"
-            url: /katalon-analytics/docs/jira-gadgets.html
-          - title: "Writing BDD in Jira"
-            url: /katalon-analytics/docs/bdd-settings.html
-          - title: "View BDD Test Results"
-            url: /katalon-analytics/docs/bdd-test-results.html
-          - title: "Link Executions to Jira Defects"
-            url: /katalon-analytics/docs/ka-defects.html
-          - title: "Link Test Cases to Requirements"
-            url: /katalon-analytics/docs/ka-integration-jira.html
-          - title: "Manage Executions with Jira Releases"
-            url: /katalon-analytics/docs/kt-jira-release.html
-      - title: "Continuous Testing"
+          - title: "Compare Test Results"
+            url: /katalon-analytics/docs/compare-test-results.html
+          - title: "Jira Integration"
+            tree:
+             - title: "Jira Settings"
+               url: /katalon-analytics/docs/kt-jira-config.html
+             - title: "Jira Dashboard Gadgets"
+               url: /katalon-analytics/docs/jira-gadgets.html
+             - title: "Writing BDD in Jira"
+               url: /katalon-analytics/docs/bdd-settings.html
+             - title: "View BDD Test Results"
+               url: /katalon-analytics/docs/bdd-test-results.html
+             - title: "Link Executions to Jira Defects"
+               url: /katalon-analytics/docs/ka-defects.html
+             - title: "Link Test Cases to Requirements"
+               url: /katalon-analytics/docs/ka-integration-jira.html
+             - title: "Manage Executions with Jira Releases"
+               url: /katalon-analytics/docs/kt-jira-release.html
+          - title: "Slack Integration"
+            url: /katalon-analytics/docs/slack-integration.html
+      - title: "Test Planning"
         tree: 
           - title: "Overview"
             url: /katalon-analytics/docs/kt-remote-execution.html
@@ -1219,7 +1221,7 @@ items:
                 url: /katalon-analytics/docs/view-ci-plans.html
           - title: "Integration with Jenkins"
             url: /katalon-analytics/docs/ka-integration-jenkins.html
-      - title: "Reports"
+      - title: "Test Analytics"
         url: /katalon-analytics/docs/view-reports-overview.html
       - title: "Configure Notification Emails"
         url: /katalon-analytics/docs/kt-noti-email.html
