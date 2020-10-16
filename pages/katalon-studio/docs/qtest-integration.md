@@ -419,4 +419,4 @@ When you want to check which integrated Katalon Studio Test Cases need updating 
 
 In a Test Case editor, open the **Integration** screen, click **Check for updates** to retrieve the latest qTest test case's version and test steps' content.
 
-If you wish to save the latest content of test steps and test case version, click **Sync up** in the pop-up **qTest Integration Update** dialog
+If you wish to save the latest content of test steps and test case version, click **Sync up** in the pop-up **qTest Integration Update** dialog.
