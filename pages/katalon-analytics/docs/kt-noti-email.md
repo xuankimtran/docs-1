@@ -6,12 +6,12 @@ description:
 ---
 Executing scheduled jobs and uploading test results may take a while. For watching scheduled jobs and uploaded test results better, you can customize the events on which you want to receive notification emails from Katalon.
 
-## Update Notification Email Settings
-
 Once you have enabled TestOps integration in Katalon Studio, these settings are turned on by default. You will receive notification emails of:
 
 * Failed test results uploaded in Katalon TestOps
 * Weekly reports of your testing activities
+
+## Turn on/off Notification Emails
 
 You can turn on/off these settings in Katalon TestOps by going to **Profile** menu in the right top corner.
 
