@@ -17,3 +17,5 @@ Learn how to [create an Incoming Webhook](https://api.slack.com/messaging/webhoo
 Click **Save** to finish.
 
 You will receive notification messages in Slack once you have configured the integration.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/slack-integration/slack-messages.png" width="" height="">
