@@ -26,4 +26,10 @@ To plan your Git projects, go to **Test Projects** > choose your project > click
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/git-test-project/sample-project.png)
 
+> You can only use Katalon Command to 
+
+Learn how to create Katalon Command here
+
+https://docs.katalon.com/katalon-analytics/docs/create-plan.html#create-a-new-test-plan
+
 

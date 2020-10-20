@@ -1247,6 +1247,8 @@ items:
                 url: /katalon-analytics/docs/accept-sso.html
           - title: "Enable/Disable Strict Domain"
             url: /katalon-analytics/docs/strict-domain.html
+          - title: "Configure Network Security"
+            url: /katalon-analytics/docs/network-config.html
   - title: "Katalon Recorder"
     tree:
       - title: "Overview"
