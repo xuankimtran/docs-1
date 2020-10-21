@@ -30,7 +30,7 @@ description:
 
 ### With Katalon Studio
 
-You need to enable JIRA Integration in order to submit issues to JIRA. This setting is available at **Project > Settings > Integration > JIRA**.
+You need to enable JIRA Integration in order to submit issues to JIRA. This setting is available at **Project > Settings > Plugins > JIRA**.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jira-plugin-integration/config.png)
 1.  Select **Enable integration** option. The settings will be available for configuration.
