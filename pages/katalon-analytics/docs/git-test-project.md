@@ -18,7 +18,8 @@ To create a new Git project, go to **Test Projects** > Click on **Create Git Tes
 
 Click **Create** to create the Git test project.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/git-test-project/create-project.png)
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/git-test-project/create-project.png" width="" height="">
+
 
 ## Plan your Git project
 
@@ -26,5 +27,6 @@ Click **Create** to create the Git test project.
 
 To plan your Git projects, go to **Test Projects** > choose your project > click on **Plan** button. [Learn more](https://docs.katalon.com/katalon-analytics/docs/create-plan.html)
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/git-test-project/sample-project.png)
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/git-test-project/sample-project.png" width="" height="">
+
 
