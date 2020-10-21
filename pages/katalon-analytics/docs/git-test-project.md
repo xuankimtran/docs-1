@@ -22,8 +22,9 @@ Click **Create** to create the Git test project.
 
 ## Plan your Git project
 
-To plan your Git projects, go to **Test Projects** > choose your project > click on **Plan** button.
+> You can only use Katalon Command to run jobs from Git.
+
+To plan your Git projects, go to **Test Projects** > choose your project > click on **Plan** button. [Learn more](https://docs.katalon.com/katalon-analytics/docs/create-plan.html)
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/git-test-project/sample-project.png)
-
 
