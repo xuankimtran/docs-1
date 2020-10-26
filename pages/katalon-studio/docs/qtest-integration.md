@@ -61,6 +61,8 @@ When you turn on this setting, Katalon Studio will generate a report for Test Su
 
 To view the generated parity report, open the Report folder.
 
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/parity-report-html.png" width=420>
+
 ## Wizard Setup
 
 Click **Yes** in the above pop-up window after checking "Enable Integration" or click on the **Quick Setup...** link to open the Wizard.
@@ -413,10 +415,23 @@ In order for a test execution to be uploaded to qTest, the following conditions 
 
 ### Version checking in bulk
 
-When you want to check which integrated Katalon Studio Test Cases need updating based on the integrated qTest Test Cases, select multiple test cases that have been integrated with qTest, right-click on one of the selections and select **qTest**/**Check for updates**.
+When you want to check which integrated Katalon Studio Test Cases need updating based on the integrated qTest Test Cases, you can do as follows:
+
+1. Click on the qTest icon on the menu bar
+2. Select **Check for updates**
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/qtest-check-for-update.png" width=366>
+
+3. In the **Check for updates** dialog, select multiple test cases that have been integrated with qTest, click **OK**.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/tc-browser.png" width=391>
+
+Wait for the test engine to retrieve information from qTest server.
 
 ### Check for version update in a Test Case
 
-In a Test Case editor, open the **Integration** screen, click **Check for updates** to retrieve the latest qTest test case's version and test steps' content.
+In a Test Case editor, open the **Integration** screen, click **Check for updates** to fetch the latest qTest test case's version and test steps' content. Wait for the test engine to retrieve information from qTest server.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/test-case-version.png" width=420>
 
 If you wish to save the latest content of test steps and test case version, click **Sync up** in the pop-up **qTest Integration Update** dialog.
