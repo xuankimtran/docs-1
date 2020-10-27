@@ -49,6 +49,20 @@ After reloading plugins successfully to activate the qTest plugin, you can start
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/enable-wizard.png">
 
+### qTest - Katalon Studio Parity Report
+
+> From version 7.8 onwards, Katalon supports generating a qTest-Katalon Studio Parity Report after a test execution.
+
+Go to **Project Settings/Plugins/qTest**, enable Parity Report by checking the option **Generate the parity report after test execution**.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/parity-report.png">
+
+When you turn on this setting, Katalon Studio will generate a report for Test Suite and Test Suite Collection execution. This parity report is to provide a quick check of version and test step contents of your integrated test cases between two systems. In a test execution, only test cases with unique ID are included in this report (two or more duplicate Test Cases are counted as one).
+
+To view the generated parity report, open the Report folder.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/parity-report-html.png" width=420>
+
 ## Wizard Setup
 
 Click **Yes** in the above pop-up window after checking "Enable Integration" or click on the **Quick Setup...** link to open the Wizard.
@@ -390,3 +404,34 @@ In order for a test execution to be uploaded to qTest, the following conditions 
    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/upload-test-execution/image2017-8-7-163A113A37.png)  
 
 2. Once the uploading process finished, you can go to qTest to verify that all **test execution** are uploaded to **qTest test runs** accordingly.
+
+## qTest Test Cases' Version Control and Synchronization
+
+**Preconditions**
+
+* Katalon Studio version 7.8 onwards
+* qTest Integration is enabled.
+* There is an integration between a Katalon test case and a qTest test case.
+
+### Version checking in bulk
+
+When you want to check which integrated Katalon Studio Test Cases need updating based on the integrated qTest Test Cases, you can do as follows:
+
+1. Click on the qTest icon on the menu bar
+2. Select **Check for updates**
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/qtest-check-for-update.png" width=366>
+
+3. In the **Check for updates** dialog, select multiple test cases that have been integrated with qTest, click **OK**.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/tc-browser.png" width=391>
+
+Wait for the test engine to retrieve information from qTest server.
+
+### Check for version update in a Test Case
+
+In a Test Case editor, open the **Integration** screen, click **Check for updates** to fetch the latest qTest test case's version and test steps' content. Wait for the test engine to retrieve information from qTest server.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/test-case-version.png" width=420>
+
+If you wish to save the latest content of test steps and test case version, click **Sync up** in the pop-up **qTest Integration Update** dialog.

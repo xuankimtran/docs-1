@@ -10,7 +10,7 @@ redirect_from:
 description: How to import test results using CLI
 ---
 
-Katalon Report Uploader is a utility to upload reports to Katalon TestOps. At this moment it supports JUnit, Katalon Studio, and Katalon Recorder report format. It can be used with CLI, Docker, and Github Action.
+Katalon Report Uploader is a utility to upload reports to Katalon TestOps. At this moment it supports JUnit, Katalon Studio, and Katalon Recorder report format. It can be used with CLI, Docker, Github Action, and other cloud CIs.
 
 ## CLI usage
 
@@ -52,39 +52,19 @@ One of the values including "katalon", "junit", or "katalon_recorder".
 `REPORT_PATH`
 The path of the report folder. The physical report folder should be mounted as a Docker volume first.
 
-### Examples
+### Example
 
 ```
 docker run -t --rm -v c:\users\alex\data\report-uploader\junit-report-sample:/katalon/report -e PASSWORD=<KATALON_API_KEY> -e PROJECT_ID=72642 -e TYPE=junit -e REPORT_PATH=/katalon/report katalonstudio/report-uploader:0.0.7.11
 ```
 
-## Github Action usage
+## Cloud CIs usage
+
+### Github Action
 
 Marketplace Listing: https://github.com/marketplace/actions/katalon-report-uploader.
 
-### Environment variables
-
-Inputs can also be provided as environment variables.
-
-`SERVER`
-The URL of Katalon TestOps. Default `https://analytics.katalon.com`.
-
-`EMAIL`
-The email registered for your Katalon account. Not required if API Key is used instead of password.
-
-`PASSWORD`
-The password used for signing in Katalon TestOps or an API Key.
-
-`PROJECT_ID`
-Your project ID in Katalon TestOps.
-
-`TYPE`
-One of the values including "katalon", "junit", or "katalon_recorder".
-
-`REPORT_PATH`
-The path of the report folder.
-
-### Examples
+Example:
 
 ```yaml
   - name: Katalon Report Uploader
@@ -95,3 +75,19 @@ The path of the report folder.
       TYPE: junit
       REPORT_PATH: ${{ github.workspace }}/junit-report-sample
 ```
+
+## CircleCI
+
+Example: https://github.com/katalon-studio-samples/report-uploader-sample/blob/master/.circleci/config.yml.
+
+## Gitlab CI
+
+Example: https://github.com/katalon-studio-samples/report-uploader-sample/blob/master/.gitlab-ci.yml.
+
+## AWS Codebuild
+
+Example: https://github.com/katalon-studio-samples/report-uploader-sample/blob/master/buildspec.yml.
+
+## Azure DevOps Pipelines
+
+Example: https://github.com/katalon-studio-samples/report-uploader-sample/blob/master/azure-pipelines.yml.

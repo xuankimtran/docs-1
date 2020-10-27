@@ -128,12 +128,32 @@ To use this feature, you need to enable it in Project Settings of Katalon Studio
 
 **Install FFmpeg library**
 
-To install the FFmpeg library, do as follows:
+To install the FFmpeg library, :
+
+**For macOS**: 
+
+* Install FFmpeg via Homebrew with `$ brew install ffmpeg`, or
+* Install it manually:
+
+1. Go to the [FFmpeg download web page](https://ffmpeg.org/download.html).
+2. Download the package which is appropriate for your operating system.
+3. Add the path to the `.../ffmpeg/bin` folder to the `/etc/paths` file 
+
+**For Linux**:
+
+* Use the following command: `sudo apt-get install ffmpeg`, or
+* Install it manually:
+
+1. Go to the [FFmpeg download web page](https://ffmpeg.org/download.html).
+2. Download the package which is appropriate for your operating system.
+3. Add the path to the `.../ffmpeg/bin` folder to the `/etc/environment` file 
+
+**For Windows**: 
 
 1. Go to the [FFmpeg download web page](https://ffmpeg.org/download.html).
 2. Download the package which is appropriate for your operating system.
 3. Add the path to the FFmpeg executable file to your PATH environment variable.
-4. Reactivate Katalon Studio for this installation to take effect
+4. Reactivate Katalon Studio for this installation to take effect.
 
 ## View recorded videos
 

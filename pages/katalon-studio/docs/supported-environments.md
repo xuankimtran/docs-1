@@ -39,3 +39,7 @@ description:
 | iOS | Not Available | 9, 10, 11, 12, 13| 1.12.1+ | YES | NO | YES | 9.4.1 - latest
 
 (*): You can use supported [functions](http://appium.io/docs/en/writing-running-appium/web/hybrid/#automating-hybrid-apps) from Appium to handle Hybrid App yourself.
+
+## Windows
+
+Katalon Studio fully supports automation test for desktop apps written in the following platforms: Universal Windows Platform (UWP), Windows Forms (WinForms), Windows Presentation Foundation (WPF), and Classic Windows (Win32).
