@@ -22,7 +22,7 @@ This tutorial will illustrate how to debug a platform plugin using Eclipse IDE v
 
 #### **Step 1: Start Katalon Studio with remote debugger mode**
 
-Start katalon via commandline using this command:
+Start katalon via CLI using this command:
 
 
 ```

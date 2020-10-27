@@ -1,5 +1,5 @@
 ---
-title: "Link an execution with TestOps Release using CommandLine" 
+title: "Link an execution with TestOps Release using CLI" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/execution-release-cli.html 
 redirect_from:

@@ -162,3 +162,7 @@ The Job Progress is triggered automatically to show the progress while your test
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/image2017-6-30-203A543A25.png)
 
 > You can also [execute the test case using console mode](/display/KD/Console+Mode+Execution).
+
+## Submit and view test results on Katalon TestOps
+
+You can centralize test results including logs and attachments on [Katalon TestOps](/katalon-studio/docs/katalon-analytics-beta-integration.html). Besides test results management, Katalon TestOps will also provide analytics to improve the quality of your test cases.
