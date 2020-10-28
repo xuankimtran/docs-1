@@ -12,8 +12,7 @@ description:
 ---
 A Test Suite Collection contains a list of test suites to allow users more options for planning their test execution. 
 
-Manage Execution Information
-----------------------------
+## Manage Execution Information
 
 You can manage additional configurations for test suite collection execution by expanding the **Execution Information** section, as below:
 
@@ -23,8 +22,7 @@ where:
 
 <table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td><p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-suite-collection/image2017-2-17-113A473A25.png"></p></td><td><p>The order to execute test suites within the collection.</p><ul><li><strong>Sequential</strong>: the test suites will be executed one after another.</li><li><strong>Parallel</strong>: the test suites will be executed at the same time.</li></ul></td></tr></tbody></table>
 
-Manage Test Suite List
-----------------------
+## Manage Test Suite List
 
 You can add a test suite into a collection by following the steps below:
 
@@ -47,8 +45,7 @@ You can add a test suite into a collection by following the steps below:
     > You can add one test suite to the collection multiple times. This is particularly helpful when the users want to execute the same suite on different environments.
     
 
-Execute a Test Suite Collection
--------------------------------
+## Execute a Test Suite Collection
 
 1.  To run a Test Suite Collection, click **Execute** at toolbar as illustrated below:  
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-suite-collection/image2018-5-7-163A33A11.png)  
@@ -56,3 +53,11 @@ Execute a Test Suite Collection
     
 2.  All test suites will be executed accordingly.
 3.  Data of historical execution can be found in Reports. Refer to [Test Suite Collection Report](/display/KD/Test+Suite+Collection+Report) for more details.
+
+## Submit and view test results on Katalon TestOps
+
+You can centralize test results including logs and attachments on [Katalon TestOps](/katalon-studio/docs/katalon-analytics-beta-integration.html). Besides test results management, Katalon TestOps will also provide analytics to improve the quality of your test cases.
+
+## Schedule execution of Test Suite Collections remotely
+
+You can leverage [Katalon TestOps](/katalon-analytics/docs/kt-remote-execution.html) to execute Test Suite Collections on multiple servers. The executions can be scheduled to run periodically e.g. hourly or daily.
