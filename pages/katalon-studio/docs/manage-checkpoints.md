@@ -78,3 +78,8 @@ Create a Database Checkpoint
 3.  The state of the selected data source will be captured and displayed in **preview section** below. The checkboxes for the data cells indicate whether they will be used when verifying against other states of this data source later.  
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/manage-checkpoints/image2017-2-6-143A473A42.png)
 4.  Save the **Checkpoint** when you're done. The data snapshot taken here can be used to compare with the state of the data source later. Refer to [\[Common\] Verify Checkpoint](/display/KD/%5BCommon%5D+Verify+Checkpoint) keyword for more details.
+
+Visual Testing Checkpoint
+----------------------------
+
+See this [tutorial](https://forum.katalon.com/t/update-with-katalon-studio-7-7-early-release-of-katalon-testops-visual-testing-image-comparison/45557).
