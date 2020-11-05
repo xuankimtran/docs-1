@@ -7,7 +7,7 @@ Previously, to fix a broken test object, you have to manually reproduce the stat
 
 To tackle this issue, Katalon Studio **7.8** supports restoring the AUT to the state when the test fails due to locators not finding Web UI objects. This powerful capability allows you to open a "time capsule" for fixing broken objects, reducing reproduction effort, and cutting off time spent on troubleshooting and maintaining your test scripts.
 
-> Only applicable to Web UI testing.
+> Only applicable to Web UI testing on **Chrome** browser
 
 Notably, two enhancements assist you in optimizing the workflow of fixing your tests:
 
