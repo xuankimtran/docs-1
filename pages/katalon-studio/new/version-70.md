@@ -29,7 +29,7 @@ description: Release note 7.x
 
 ### Improvements
 
-* [BDD Testing Framework] Allow setting default package for step defenitions. [Learn more](https://docs.katalon.com/katalon-studio/docs/cucumber-features-file.html#define-steps).
+* [BDD Testing Framework] Allow setting default package for step defenitions. [Learn more](https://docs.katalon.com/katalon-studio/docs/cucumber-features-file.html#set-default-package-for-step-definitions).
 * [Mobile Testing] Support "Attributes" Selector Strategy and add "Verify and Highlight" feature to Mobile Spy/Recorder.
 * [Katalon TestOps (Beta) Integration]: Support automatically retrying uploading Test Projects and Test Reports from Katalon Studio to Katalon TestOps upon failure.
 * Replace Katalon Help with Start Page for a new fresh look and more customized information for each user.
