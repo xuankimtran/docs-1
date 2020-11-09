@@ -20,6 +20,7 @@ redirect_from:
 description: 
 ---
 
+
 ## Add Feature Files
 
 > For the best performance, please clean up the Katalon workspace frequently. Navigate to **File** \> **Clean up**.
@@ -119,10 +120,11 @@ Recalculate steps in the Feature file when there are changes in Step Definitions
 
 ## Define Steps
 
+### How to define steps
+
 Each Gherkin step in the _Features_ file needs to be defined as a set of programming code so that the machine can execute the actions of these steps. These _Step Definitions_ can be implemented in _Keyword_ folder by leveraging the **Script Mode**. Katalon Studio built-in keywords can also be re-used in step definition files as well. When Katalon Studio executes any _Features_ files in the test case, it will also look for the matching step definitions in the source folder.
 
 > Step Definitions can be written in any Cucumber-supported programming languages including Groovy and Java.
-
   
 For example, let's take the Gherkin scenarios from _Features_ File above and define the steps:
 
@@ -190,7 +192,29 @@ class MyStepDefinition {
 
 ```
 
-## From a Feature File
+### Set default package for step definitions
+
+> Available in version 7.8 and later
+
+You can define a step definitions' location for Cucumber by using `CucumberKW.GLUE = ['package1', 'package2']`. The default value of `CucumberKW.GLUE = ['']` is all packages, which means the test engine takes time to scan all the packages. Defining specific locations narrows down the packages to find the steps definitions before executing feature files; hence, reducing the execution time.
+
+We recommend putting the script of directing to a package in a test listener.
+
+```java
+import com.kms.katalon.core.annotation.AfterTestCase
+import com.kms.katalon.core.annotation.BeforeTestCase
+import com.kms.katalon.core.context.TestCaseContext
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+
+class NewTestListener {
+	@BeforeTestCase
+	def sampleBeforeTestCase(TestCaseContext testCaseContext) {
+		CucumberKW.GLUE = ['package1', 'package2']
+	}
+}
+```
+
+## Run a Feature File
 
 ### From Toolbar
 
@@ -204,17 +228,17 @@ Katalon Studio supports Cucumber keywords along with the original built-in keywo
 
 To include Cucumber _Feature_ file in Katalon Studio test case:
 
-#### Execute a single Feature File (with or without tags)
+**Execute a single Feature File (with or without tags)**
 
 * [runFeatureFile](https://docs.katalon.com/katalon-studio/docs/cucumber-kw-run-feature-file.html)
 * [runFeatureFileWithTags](https://docs.katalon.com/katalon-studio/docs/cucumber-kw-run-feature-file-tag.html)
 
-#### Execute multiple Feature Files (with or without tags)
+**Execute multiple Feature Files (with or without tags)**
 
 * [runFeatureFolder](https://docs.katalon.com/katalon-studio/docs/cucumber-kw-run-feature-folder.html)
 * [runFeatureFolderWithTags](https://docs.katalon.com/katalon-studio/docs/cucumber-kw-run-feature-folder-tag.html)
 
-#### Execute using [Cucumber Runner](http://toolsqa.com/cucumber/junit-test-runner-class/)
+**Execute using [Cucumber Runner](http://toolsqa.com/cucumber/junit-test-runner-class/)**
 
 * [runWithCucumberRunner](https://docs.katalon.com/katalon-studio/docs/cucumber-kw-run-cucumber-runner.html)
 

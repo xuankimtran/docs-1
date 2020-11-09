@@ -6,9 +6,12 @@ redirect_from:
     - "/katalon-studio/new/"
     - "/display/KD/Release+Notes/"
     - "/display/KD/Release%20Notes/"
-<<<<<<< Updated upstream
 description: What's new in Katalon Studio 7.8
 ---
+
+Katalon Studio 7.8 has been released with new capabilities aimed at efficient debugging and maintaining test scripts and integrations with qTest, Kobiton, Jira or Katalon TestOps. The following section describes the highlighted new features and enhancements available in Katalon Studio 7.8
+
+For a detailed list of enhancements and bug fixes packed in this release, please see its [changelog](https://docs.katalon.com/katalon-studio/new/version-70.html).
 
 ### Time Capsule for saving effort in maintaining test objects  
 
@@ -44,6 +47,12 @@ Support Studio-qTest Parity Report in HTML  for TS/TSC execution
 
 Update skipped status for qTest test cases
 
+This version enhances the integration between qTest and Katalon Studio with the following new features:
+
+qTest - Katalon Studio parity report is generated for each test execution, helping users quickly check if the integration between test cases of two systems is up-to-date. (Turn on this setting in Project/Settings/Plugins/qTest)
+In the integrated Katalon Studio Test Case, you can view the qTest Test Case version information and check if there is a newer version on the qTest server. Open a test case editor, select the Integration tab.
+Retrieve the latest version and test steps content of the integrated qTest Test Case from qTest Server for multiple selected test cases at once. Learn more
+
 * [Jira Integration] Support BDD custom field for Jira cloud
 
 ### Import your web services from SoapUI and WSDL
@@ -73,19 +82,4 @@ Allow overriding TestOps project ID in CLI
 Display Releases in Test Explorer
 
 
-* [KSE] Allow users to exclude built-in Katalon Studio library
-* Discontinued offer of new purchase of Katalon Runtime Engine DevOps license. Read more about [Katalon Runtime Engine DevOps Sunsetting](https://docs.katalon.com/katalon-studio/docs/kre-devops-sunset.html).
-* Reduce Docker image size
-* Using skipThisTestCase shows PASSED instead of SKIPPED test results in JUnit report
-* Bug: Katalon studio cuts off object properties in window
-* Bug: API: Requests get a file path instead of a file name of a file upload
-* Bug: TestOps Integration: Cannot display more than 20 projects fetched from TestOps
-* [Mobile Object] Return "Attributes" Selector Strategy in Mobile Object Editor/Spy/Recorder
-* [Mobile] Add "Verify and Highlight" feature during Record and Spy mobile (same as web testing)
-*  In-app Tutorials, Launch Start Page and revamp Test Explorer
-* Project Type: Desktop
-=======
-description: Release post 7.8
----
 
->>>>>>> Stashed changes
