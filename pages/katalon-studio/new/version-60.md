@@ -1,5 +1,5 @@
 ---
-title: "Version 6.x"
+title: "Version History - 6.x"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/new/version-60.html
 redirect_from:

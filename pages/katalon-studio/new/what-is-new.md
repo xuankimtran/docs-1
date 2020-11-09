@@ -6,6 +6,7 @@ redirect_from:
     - "/katalon-studio/new/"
     - "/display/KD/Release+Notes/"
     - "/display/KD/Release%20Notes/"
+<<<<<<< Updated upstream
 description: What's new in Katalon Studio 7.8
 ---
 
@@ -83,3 +84,8 @@ Display Releases in Test Explorer
 * [Mobile] Add "Verify and Highlight" feature during Record and Spy mobile (same as web testing)
 *  In-app Tutorials, Launch Start Page and revamp Test Explorer
 * Project Type: Desktop
+=======
+description: Release post 7.8
+---
+
+>>>>>>> Stashed changes
