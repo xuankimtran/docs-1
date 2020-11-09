@@ -1,11 +1,8 @@
 ---
-title: "Version 7.x" 
+title: "Version History - 7.x" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/new/version-70.html
 redirect_from:
-    - "/katalon-studio/new/"
-    - "/display/KD/Release+Notes/"
-    - "/display/KD/Release%20Notes/"
     - "/katalon-studio/new/all-versions.html"
     - "/katalon-studio/new/version-72.html"
     - "/katalon-studio/new/version-72/"
@@ -17,9 +14,7 @@ redirect_from:
 description: Release note 7.x
 ---
 
-## Version 7.8 (Beta)
-
-> Download 7.8 (Beta) [here](https://github.com/katalon-studio/katalon-studio/releases/tag/v7.8.0.rc)
+## Version 7.8
 
 ### New features
 
