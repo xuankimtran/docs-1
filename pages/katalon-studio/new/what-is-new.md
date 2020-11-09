@@ -15,69 +15,61 @@ For a detailed list of enhancements and bug fixes packed in this release, please
 
 ### Time Capsule for saving effort in maintaining test objects  
 
-Optimize the workflow of fixing broken test objects after execution by capturing the HTML page source upon failure
-
-Significantly cut off test maintenance time 
-
-Save team effort on test result investigation
+To reduce the manual effort of re-capturing a broken test object when test fails, Katalon Studio 7.8 supports restoring the AUT to the state on failure due to locators not finding Web UI objects. This robust capability equip you with a "time capsule" for fixing broken objects, reducing reproduction effort, and cutting off time spent on troubleshooting and maintaining your test scripts. [Learn more](https://docs.katalon.com/katalon-studio/docs/time-capsule.html).
 
 ### Support browser-based video recorder
 
-Address the unserved needs of the following use cases
+With Screen-based Recorder, you can capture what's visible on the screen while with [the Browser-based Video Recorder](https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-video-recorder), you can:
 
-Record Headless browsers
+* Record video of a browser window only (even it's hidden behind another window)
+* Record video of Headless browser
+* Record videos of multiple browsers simultaneously, for instance, parallel execution of Test Suite Collection.
 
-Record the browser instance instead of the screen
+### Windows testing: Coordinates-based recording
 
-Record multiple testing browser instances simultaneously
+With coordinates-based recording, Katalon Studio records an element's relative coordinates in addition to its selector to identify the exact location to perform a click/right-click action during runtime.
 
-### Windows testing: Coordinates-based recording 
+See also:
 
-record an element's relative coordinates in addition to its selector to identify the exact location to perform a click/right-click action during runtime.
+* [Click Element Offset](https://docs.katalon.com/katalon-studio/docs/windows-kw-click-element-offset.html) 
+* [Right-click Element Offset](https://docs.katalon.com/katalon-studio/docs/windows-kw-rightclick-element-offset.html)
+* [Windows Recorder](https://docs.katalon.com/katalon-studio/docs/windows-recorder-tutorials.html) 
+* [Native Windows Recorder](https://docs.katalon.com/katalon-studio/docs/windows-native-record.html)
 
-### Improve ALM & Cloud device provider integration
+### Improve ALM & Cloud device provider integrations
 
-* Kobiton: Support SSO for authentication
+**Kobiton**: Support SSO for authentication
 
-* Studio-qTest integration with the following features 
+**Jira Cloud**: Support BDD custom field for Jira cloud
 
-Synchronise qTest Test Case version and test steps content
+**qTest**: This version enhances the integration between qTest and Katalon Studio with the following new features:
 
-Support Studio-qTest Parity Report in HTML  for TS/TSC execution
-
-Update skipped status for qTest test cases
-
-This version enhances the integration between qTest and Katalon Studio with the following new features:
-
-qTest - Katalon Studio parity report is generated for each test execution, helping users quickly check if the integration between test cases of two systems is up-to-date. (Turn on this setting in Project/Settings/Plugins/qTest)
-In the integrated Katalon Studio Test Case, you can view the qTest Test Case version information and check if there is a newer version on the qTest server. Open a test case editor, select the Integration tab.
-Retrieve the latest version and test steps content of the integrated qTest Test Case from qTest Server for multiple selected test cases at once. Learn more
-
-* [Jira Integration] Support BDD custom field for Jira cloud
+* qTest - Katalon Studio parity report in HTML is generated for each test execution, helping users quickly check if the integration between test cases of two systems is up-to-date. (Turn on this setting in Project/Settings/Plugins/qTest)
+* In the integrated Katalon Studio Test Case, you can view the qTest Test Case version information and check if there is a newer version on the qTest server. Open a test case editor, select the Integration tab.
+* Retrieve the latest version and test steps content of the integrated qTest Test Case from qTest Server for multiple selected test cases at once. Learn more
+* Update skipped status for qTest test cases
 
 ### Import your web services from SoapUI and WSDL
 
-Migrate SOAP request objects from SoapUI to Katalon Studio
-
-Allow importing SOAP WSDL without service endpoint (already supported by SoapUI)
+In addition to [importing RESTful requests from SoapUI](https://docs.katalon.com/katalon-studio/docs/import-soapui.html) (shipped in 7.6), now you can import **SOAP** test requests from SoapUI as well. Also, to make it even more convenient, Katalon Studio supports adding SOAP requests from a WSDL file having no service endpoint.
 
 ### Start Page and Test Explorer
 
-We've updated Start Page with a fresh look and more information about the license and subscription of each user. [Let us know what you think](mailto:jass@katalon.com).
+We've updated Start Page with a fresh look and more information about the license and subscription tailored to each user. [Let us know what you think](mailto:jass@katalon.com).
 
 ### Security and Intellectual Property Compliance
 
 * Checksum
 * Provide a report of Open Source License scanning
 
+### Enhance Katalon Studio - Katalon TestOps (Beta) Integration
 
-### Enhance Katalon Studio - Katalon TestOps Integration
-
-Generate command for TestOps CI 
-
-Export BDD reports in Katalon Studio to be displayed in TestOps 
-
+**TestOps CI**
+Generate command for TestOps CI right in the Command Builder of Katalon Studio.
 Allow overriding TestOps project ID in CLI
+
+**Test Management**
+Export BDD reports in Katalon Studio to be displayed in TestOps 
 
 Display Releases in Test Explorer
 
