@@ -36,16 +36,13 @@ The number of licenses to acquire should be based on the number of execution mac
 * A machine can be mapped to multiple licenses (if needed).
 * The license can be transferred to a new machine for an online environment. For the offline environment, once converted, the license cannot be transferred to another machine until it is expired.
 
-### DevOps License
-
-This license model is applied to cloud or virtual machines with dynamic hardware specifications (to execute tests in [Docker](https://docs.katalon.com/katalon-studio/docs/docker.html) or [Azure DevOps plugin](https://docs.katalon.com/katalon-studio/docs/azure-devops-extension.html)). This kind of license provides Enterprise users license mobility when there is no machine quota. The number of licenses to acquire should be based on the maximum number of parallel sessions that you plan to execute.
-
-Please refer to [this document](https://docs.katalon.com/katalon-studio/docs/install-RE.html) for more details about downloading, activating and installing RE.
-
 ### Floating License
 
-This license type is applied to all types of execution environments.
+This license type is applied to all types of execution environments, including cloud or virtual machines with dynamic hardware specifications (to execute tests in [Docker](https://docs.katalon.com/katalon-studio/docs/docker.html) or [Azure DevOps plugin](https://docs.katalon.com/katalon-studio/docs/azure-devops-extension.html))
+
 * One license is assigned to one execution session.
 * Each floating license can be shared across multiple accounts — maximum of 3 accounts at a time.
 
 > Only online activation is allowed.
+
+Please refer to [this document](https://docs.katalon.com/katalon-studio/docs/install-RE.html) for more details about downloading, activating and installing RE.

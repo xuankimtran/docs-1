@@ -2,7 +2,11 @@ items:
   - title: "Products and Licenses"
     tree:
       - title: "Katalon Products and Licensing"
-        url: /katalon-studio/docs/license.html
+        tree:
+          - title: "Katalon Products and Licensing"
+            url: /katalon-studio/docs/license.html
+          - title: "Katalon Runtime Engine DevOps Sunsetting"
+            url: /katalon-studio/docs/kre-devops-sunset.html
       - title: "Online and Offline Licenses"
         url: /katalon-studio/docs/online-offline-licenses.html
       - title: "Katalon Trial and Free Plans"

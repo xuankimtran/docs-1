@@ -20,7 +20,7 @@ KSE license is named license, meaning:
 
 ## Katalon Runtime Engine
 
-KRE license can be a node-locked or DevOps license. When running from the command-line interface (CLI), one working session accounting for one license equals to a conducted process. Learn more about the use cases of [KRE](/katalon-studio/docs/intro-RE).
+KRE license can be a node-locked or Floating license. When running from the command-line interface (CLI), one working session accounting for one license equals to a conducted process. Learn more about the use cases of [KRE](/katalon-studio/docs/intro-RE).
 
 ## License types
 
@@ -39,16 +39,10 @@ The number of licenses to acquire should be based on the number of execution mac
 
 > This license allows both online and offline activation for **annual subscriptions**. With monthly subscriptions, only online activation is allowed.
 
-### DevOps License
-
-This license type is applied to cloud or virtual machines with dynamic hardware specifications (to execute tests in Docker, Azure, AWS). This kind of license provides Enterprise users license mobility when there is no machine quota. The number of licenses to acquire should be based on the maximum number of parallel sessions that you plan to execute.
-
-> Only online activation is allowed.
-
-
 ### Floating License
 
-This license type is applied to all types of execution environments.
+This license type is applied to all types of execution environments, including cloud or virtual machines with dynamic hardware specifications (to execute tests in Docker, Azure, AWS).
+
 * One license is assigned to one execution session.
 * Each floating license can be shared across multiple accounts — maximum of 3 accounts at a time.
 

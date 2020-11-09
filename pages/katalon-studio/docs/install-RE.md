@@ -35,7 +35,7 @@ Starting from **version 7.0.0**, you need a [Katalon Runtime Engine](https://doc
     
 ## KRE Licensing
 
-You need a valid RE license to use this add-on. KRE license can be a node-locked or DevOps license. Learn more about [KRE License](https://docs.katalon.com/katalon-studio/docs/intro-RE.html#license).
+You need a valid RE license to use this add-on. KRE license can be a node-locked or floating license. Learn more about [KRE License](https://docs.katalon.com/katalon-studio/docs/intro-RE.html#license).
 
 ## Activate KRE
 
