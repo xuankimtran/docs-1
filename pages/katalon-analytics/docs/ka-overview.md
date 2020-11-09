@@ -8,6 +8,7 @@ redirect_from:
     - "/katalon-analytics/docs/overview/"
     - "/display/KA/"
     - "/katalon-analytics/docs/TO-center-overview.html"
+    - "/katalon-analytics/index.html"
 description: 
 ---
 ## Welcome to Katalon TestOps
