@@ -55,3 +55,23 @@ available licenses.</td>
 </table>
 
 (*): The pricing listed in the example is applicable in **2020** only. Refer to the [Katalon Pricing page](https://www.katalon.com/pricing/) for updated information. 
+
+
+### Frequently asked questions (FAQs)
+
+1. Do I have to do anything?
+
+* For **Annual** subscribers: Your current DevOps licenses will be automatically upgraded to Floating licenses at no additional charge. 
+* For **Monthly** subscribers: You can choose between Monthly Node-locked license or Annual Floating license. For pricing details, please see the example in the table above.  
+
+2. What if I don’t want to upgrade from Monthly KRE DevOps to Annual KRE Floating license after six months?
+* You will have the option to switch to a monthly KRE Node-locked license.
+
+3. Can I use the DevOps license for another three months and come back for another three months?
+* No, it will need to be consecutive, with a maximum of 6 months. Once you cancel your DevOps subscription, it will be no longer available for repurchase.
+
+4. My team purchased our licenses via a reseller. Will this change affect me? 
+* Your team will still be able to use your licenses as per the explanation in the table above. Upon renewal, kindly contact your reseller for more information. Alternatively, contact us at success@katalon.com for renewal.
+
+5. Other inquiries
+* Please submit a ticket at our support portal: https://support.katalon.com/hc/en-us.
