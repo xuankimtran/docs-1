@@ -23,8 +23,8 @@ This section provides information about the sunsetting plan of Katalon Runtime E
       </tr>
       <tr>
          <td><strong>License Management</strong></td>
-         <td>Your current DevOps licenses will be automatically upgraded to Floating licenses at no additional charge. Log onto <a href="https://admin.katalon.com">https://admin.katalon.com<a> to manage your available licenses.</td>
-         <td>Choose between Monthly Node-locked license or Annual Floating license. For pricing details, please view the example below.  Log onto <a href="https://admin.katalon.com">https://admin.katalon.com</a> to manage your
+         <td>Upon renewal, your current DevOps licenses will be automatically upgraded to Floating licenses at no additional charge. Log onto <a href="https://admin.katalon.com">https://admin.katalon.com<a> to manage your available licenses.</td>
+         <td>Upon renewal, you can choose between Monthly Node-locked license or Annual Floating license. For pricing details, please view the example below.  Log onto <a href="https://admin.katalon.com">https://admin.katalon.com</a> to manage your
 available licenses.</td>
        </tr>
       </tr>
@@ -61,8 +61,8 @@ available licenses.</td>
 
 1. Do I have to do anything?
 
-* For **Annual** subscribers: Your current DevOps licenses will be automatically upgraded to Floating licenses at no additional charge. 
-* For **Monthly** subscribers: You can choose between Monthly Node-locked license or Annual Floating license. For pricing details, please see the example in the table above.  
+* For **Annual** subscribers: Upon renewal, your current DevOps licenses will be automatically upgraded to Floating licenses at no additional charge. 
+* For **Monthly** subscribers: Upon renewal, you can choose between Monthly Node-locked license or Annual Floating license. For pricing details, please see the example in the table above.  
 
 2. What if I don’t want to upgrade from Monthly KRE DevOps to Annual KRE Floating license after six months?
 * You will have the option to switch to a monthly KRE Node-locked license.
