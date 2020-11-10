@@ -28,7 +28,7 @@ and Open source libraries's license scanning report in HTML named `KatalonStudio
 * [Katalon TestOps (Beta) Integration] Export BDD reports generated in Katalon Studio to display in TestOps. [Learn more](https://docs.katalon.com/katalon-analytics/docs/bdd-test-results.html)
 * [Katalon TestOps (Beta) Integration] Support generating commands for TestOps CI in Katalon Studio's Command Builder.
 * [Katalon TestOps (Beta) Integration] Allow overriding TestOps Project ID via command line.
-* [Katalon TestOps (Beta) Integration] View Releases in Katalon Studio's Test Explorer
+* [Katalon TestOps (Beta) Integration] View Releases in Katalon Studio's Test Explorer. 
 * Provide in-app tutorials for new Katalon users to start testing Web UI, Mobile, Web Service and Windows applications (Go to Help > Tutorials > Getting Started > Select Web UI/Mobile/Web Service/Windows).
 * You can create a new project with Desktop type.
 

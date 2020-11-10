@@ -17,6 +17,8 @@ For a detailed list of enhancements and bug fixes packed in this release, please
 
 To reduce the manual effort of re-capturing a broken test object when test fails, Katalon Studio 7.8 supports restoring the AUT to the state on failure due to locators not finding Web UI objects. This robust capability equip you with a "time capsule" for fixing broken objects, reducing reproduction effort, and cutting off time spent on troubleshooting and maintaining your test scripts. [Learn more](https://docs.katalon.com/katalon-studio/docs/time-capsule.html).
 
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/time-capsule/test-suite-fail.gif">
+
 ### Support browser-based video recorder
 
 With Screen-based Recorder, you can capture what's visible on the screen while with [the Browser-based Video Recorder](https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-video-recorder), you can:
@@ -47,11 +49,11 @@ See also:
 * qTest - Katalon Studio parity report in HTML is generated for each test execution, helping users quickly check if the integration between test cases of two systems is up-to-date. (Turn on this setting in Project/Settings/Plugins/qTest)
 * In the integrated Katalon Studio Test Case, you can view the qTest Test Case version information and check if there is a newer version on the qTest server. Open a test case editor, select the Integration tab.
 * Retrieve the latest version and test steps content of the integrated qTest Test Case from qTest Server for multiple selected test cases at once. Learn more
-* Update skipped status for qTest test cases
+* Send Skipped test results to qTest Server
 
 ### Import your web services from SoapUI and WSDL
 
-In addition to [importing RESTful requests from SoapUI](https://docs.katalon.com/katalon-studio/docs/import-soapui.html) (shipped in 7.6), now you can import **SOAP** test requests from SoapUI as well. Also, to make it even more convenient, Katalon Studio supports adding SOAP requests from a WSDL file having no service endpoint.
+In addition to [importing RESTful requests from SoapUI](https://docs.katalon.com/katalon-studio/docs/import-soapui.html) (shipped in 7.6), now you can import SOAP test requests from SoapUI as well. Also, to make it even more convenient, Katalon Studio supports adding SOAP requests from a WSDL file having no service endpoint (Right-click on Object Repository > select Import> select one of the supported sources of test requests).
 
 ### Start Page and Test Explorer
 
@@ -59,19 +61,17 @@ We've updated Start Page with a fresh look and more information about the licens
 
 ### Security and Intellectual Property Compliance
 
-* Checksum
-* Provide a report of Open Source License scanning
+For security and Intellectual Property compliance, from this version, we start to provide Checksum for each Katalon Studio package named `all-packages.sha256`
+and Open source libraries's license scanning report in HTML named `KatalonStudio-openSourceReport.html`. Go to [our GitHub Repository](https://github.com/katalon-studio/katalon-studio/releases), for each release from 7.8 onwards, download those files in each build's Assets.
 
 ### Enhance Katalon Studio - Katalon TestOps (Beta) Integration
 
-**TestOps CI**
-Generate command for TestOps CI right in the Command Builder of Katalon Studio.
-Allow overriding TestOps project ID in CLI
+In this release, we have improved the integration with Katalon TestOps (Beta) in multiple areas. 
 
-**Test Management**
-Export BDD reports in Katalon Studio to be displayed in TestOps 
+* You now can generate command for TestOps CI right in the Command Builder of Katalon Studio. 
+* You can also decide which TestOps Project to feed your execution result when executing with Katalon Runtime Engine by overriding the Test Project ID via command line. 
+* In Katalon Studio, you can see the Releases retrieved from Katalon TestOps while on Katalon TestOps, you can view BDD reports generated from Katalon Studio, which requires you to do some configurations beforehand. [Learn more](https://docs.katalon.com/katalon-analytics/docs/bdd-test-results.html).
 
-Display Releases in Test Explorer
 
 
 
