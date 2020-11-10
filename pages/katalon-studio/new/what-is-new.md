@@ -76,7 +76,8 @@ In this release, we have improved the integration with Katalon TestOps (Beta) in
 
 * You can now generate a command for TestOps CI right in the Command Builder of Katalon Studio. 
 * You can also decide which TestOps Project to feed your execution result when executing with Katalon Runtime Engine by overriding the Test Project ID via command line. 
-* In Katalon Studio, you can see Releases retrieved from your TestOps project, while on Katalon TestOps, you can view BDD reports generated from Katalon Studio. The latter requires you to do some configurations beforehand, which you can learn about [here](https://docs.katalon.com/katalon-analytics/docs/bdd-test-results.html).
+* Katalon will automatically retry uploading Test Projects and Test Reports to Katalon TestOps upon failure.
+* In Katalon Studio, you can view Releases retrieved from your TestOps project and download execution reports, while on Katalon TestOps, you can view BDD reports generated from Katalon Studio. The latter requires you to do some configurations beforehand, which you can learn about [here](https://docs.katalon.com/katalon-analytics/docs/bdd-test-results.html).
 
 
 
