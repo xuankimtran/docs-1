@@ -18,17 +18,25 @@ description: Release note 7.x
 
 ### New features
 
-* Enhance fixing broken Web Test Objects with "time capsule". [Learn more](https://docs.katalon.com/katalon-studio/docs/time-capsule.html)
-* [Windows Testing] Support coordinates-based recording with [Click Element Offset](https://docs.katalon.com/katalon-studio/docs/windows-kw-click-element-offset.html) and [Right-click Element Offset](https://docs.katalon.com/katalon-studio/docs/windows-kw-rightclick-element-offset.html) keywords on both [Windows Recorder](https://docs.katalon.com/katalon-studio/docs/windows-recorder-tutorials.html) and [Native Windows Recorder](https://docs.katalon.com/katalon-studio/docs/windows-native-record.html).
+* Support Time Capsule for optimizing fixing broken Web Test Objects. [Learn more](https://docs.katalon.com/katalon-studio/docs/time-capsule.html)
 * [Katalon Studio Enterprise] Support browser-based video recording. [Learn more](https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-video-recorder)
-* [Katalon Studio Enterprise] Allow replacing a built-in library with an external one for flexibility in Libraries Management of Project Settings.
+* [Windows Testing] Support coordinates-based recording with [Click Element Offset](https://docs.katalon.com/katalon-studio/docs/windows-kw-click-element-offset.html) and [Right-click Element Offset](https://docs.katalon.com/katalon-studio/docs/windows-kw-rightclick-element-offset.html) keywords on both [Windows Recorder](https://docs.katalon.com/katalon-studio/docs/windows-recorder-tutorials.html) and [Native Windows Recorder](https://docs.katalon.com/katalon-studio/docs/windows-native-record.html).
+* Provide Checksum for each Katalon Studio package named `all-packages.sha256`
+and Open source libraries's license scanning report in HTML named `KatalonStudio-openSourceReport.html` (Go to [our GitHub Repository](https://github.com/katalon-studio/katalon-studio/releases), download those files in each build's Assets).
+* [Katalon Studio Enterprise] Allow replacing a built-in library with an external one for flexible libraries usage in a test project.
+* [Web Service Testing] Import SOAP requests from SoapUI and WSDLs having no service endpoints.
 * [Katalon TestOps (Beta) Integration] Export BDD reports generated in Katalon Studio to display in TestOps. [Learn more](https://docs.katalon.com/katalon-analytics/docs/bdd-test-results.html)
+* [Katalon TestOps (Beta) Integration] Support generating commands for TestOps CI in Katalon Studio's Command Builder.
 * [Katalon TestOps (Beta) Integration] Allow overriding TestOps Project ID via command line.
+* [Katalon TestOps (Beta) Integration] View Releases in Katalon Studio's Test Explorer
 * Provide in-app tutorials for new Katalon users to start testing Web UI, Mobile, Web Service and Windows applications (Go to Help > Tutorials > Getting Started > Select Web UI/Mobile/Web Service/Windows).
 * You can create a new project with Desktop type.
 
 ### Improvements
 
+* [qTest Integration]: Generate qTest - Katalon Studio parity report in HTML, sync up qTest test case version and test steps's content, and send Skipped test results to qTest.
+* [Kobiton Integration] Support SSO for authentication.
+* [Jira Cloud Integration]: Support importing BDD custom fields.
 * [BDD Testing Framework] Allow setting default package for step defenitions. [Learn more](https://docs.katalon.com/katalon-studio/docs/cucumber-features-file.html#set-default-package-for-step-definitions).
 * [Mobile Testing] Support "Attributes" Selector Strategy and add "Verify and Highlight" feature to Mobile Spy/Recorder.
 * [Katalon TestOps (Beta) Integration]: Support automatically retrying uploading Test Projects and Test Reports from Katalon Studio to Katalon TestOps upon failure.
@@ -40,7 +48,8 @@ description: Release note 7.x
 ### Fixes
 
 * Bug: An issue of Katalon Runtime Engine activation failure on Katalon Docker Image.
-* Bug: Display incorrect test results in JUnit report when using `skipThisTestCase`.
+* Bug: GUI issues on Windows machines with 1920x1080 resolution 
+* Bug: Display incorrect test results in test execution reports when using `skipThisTestCase`.
 * Bug: [Test Object's Editor] Cannot display all object properties in a window screen.
 * Bug: API Requests with fileupload body uses a file path instead of a file name.
 * Bug: [Katalon TestOps (Beta) Integration]: Cannot display more than 20 projects fetched from Katalon TestOps (Beta).
