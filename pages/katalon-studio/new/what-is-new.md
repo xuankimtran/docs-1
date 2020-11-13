@@ -9,7 +9,7 @@ redirect_from:
 description: What's new in Katalon Studio 7.8
 ---
 
-Katalon Studio 7.8 has been released with new capabilities aimed at efficient debugging and maintaining test scripts and integrations with qTest, Kobiton, Jira, or Katalon TestOps. The following section describes the highlighted new features and enhancements available in Katalon Studio 7.8
+Katalon Studio 7.8 has been released with new capabilities aimed at efficient debugging and maintaining test scripts and enhanced integrations with qTest, Kobiton, Jira, or Katalon TestOps. The following section describes the highlighted new features and enhancements available in Katalon Studio 7.8
 
 For a detailed list of enhancements and bug fixes packed in this release, please see its [changelog](https://docs.katalon.com/katalon-studio/new/version-70.html).
 
