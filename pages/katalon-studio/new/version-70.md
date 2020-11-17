@@ -24,7 +24,7 @@ description: Release note 7.x
 * Provide Checksum for each Katalon Studio package named `all-packages.sha256`
 and Open source libraries's license scanning report in HTML named `KatalonStudio-openSourceReport.html` (Go to [our GitHub Repository](https://github.com/katalon-studio/katalon-studio/releases), download those files in each build's Assets).
 * [Katalon Studio Enterprise] Allow replacing a built-in library with an external one for flexible libraries usage in a test project. [Learn more](https://docs.katalon.com/katalon-studio/docs/external-libraries.html#exclude-built-in-libraries)
-* [Web Service Testing] Import SOAP requests from SoapUI and WSDLs having no service endpoints.
+* [Web Service Testing] Import SOAP requests from SoapUI and WSDLs having no service endpoints. [Learn more](https://docs.katalon.com/katalon-studio/docs/import-soapui.html)
 * [Katalon TestOps (Beta) Integration] Export BDD reports generated in Katalon Studio to display in TestOps. [Learn more](https://docs.katalon.com/katalon-analytics/docs/bdd-test-results.html)
 * [Katalon TestOps (Beta) Integration] Support generating commands for TestOps CI in Katalon Studio's Command Builder.
 * [Katalon TestOps (Beta) Integration] Allow overriding TestOps Project ID via command line.
@@ -34,6 +34,8 @@ and Open source libraries's license scanning report in HTML named `KatalonStudio
 
 ### Improvements
 
+* Support Microsoft Edge (Chromium) 86
+* Support Chrome 86
 * [qTest Integration]: Generate qTest - Katalon Studio parity report in HTML, sync up qTest test case version and test steps's content, and send Skipped test results to qTest. [Learn more]()
 * [Kobiton Integration] Support SSO for authentication and corresponding command options. [Learn more](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#integration-options)
 * [Jira Cloud Integration]: Support importing BDD Feature Files. [Learn more](https://docs.katalon.com/katalon-studio/docs/jira-integration.html#jira-cloud-integration)
