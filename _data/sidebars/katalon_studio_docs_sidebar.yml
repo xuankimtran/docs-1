@@ -725,6 +725,10 @@ items:
                 url: /katalon-studio/docs/mobile-swipe.html
               - title: "[Mobile] Take Screenshot"
                 url: /katalon-studio/docs/mobile-take-screenshot.html
+              - title: "[Mobile] Take Area Screenshot"
+                url: /katalon-studio/docs/mobile-take-area-screenshot.html
+              - title: "[Mobile] Take Element Screenshot"
+                url: /katalon-studio/docs/mobile-take-element-screenshot.html 
               - title: "[Mobile] Tap"
                 url: /katalon-studio/docs/mobile-tap.html
               - title: "[Mobile] Tap At Position"
@@ -773,6 +777,14 @@ items:
                 url: /katalon-studio/docs/mobile-wait-for-element-not-has-attribute.html
               - title: "[Mobile] Wait For Element Present"
                 url: /katalon-studio/docs/mobile-wait-for-element-present.html
+          - title: "Visual-based Mobile Testing Keywords"
+            tree:
+              - title: "[Mobile] Take Area Screenshot As Checkpoint"
+                url: /katalon-studio/docs/mobile-take-area-screenshot-as-checkpoint.html
+              - title: "[Mobile] Take Element Screenshot As Checkpoint"
+                url: /katalon-studio/docs/mobile-take-element-screenshot-as-checkpoint.html
+              - title: "[Mobile] Take Screenshot As Checkpoint"
+                url: /katalon-studio/docs/mobile-take-screenshot-as-checkpoint.html
           - title: "Web Service Keywords"
             tree:    
               - title: "[WS] Contains String"
