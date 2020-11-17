@@ -23,7 +23,7 @@ description: Release note 7.x
 * [Windows Testing] Support coordinates-based recording with [Click Element Offset](https://docs.katalon.com/katalon-studio/docs/windows-kw-click-element-offset.html) and [Right-click Element Offset](https://docs.katalon.com/katalon-studio/docs/windows-kw-rightclick-element-offset.html) keywords on both [Windows Recorder](https://docs.katalon.com/katalon-studio/docs/windows-recorder-tutorials.html) and [Native Windows Recorder](https://docs.katalon.com/katalon-studio/docs/windows-native-record.html).
 * Provide Checksum for each Katalon Studio package named `all-packages.sha256`
 and Open source libraries's license scanning report in HTML named `KatalonStudio-openSourceReport.html` (Go to [our GitHub Repository](https://github.com/katalon-studio/katalon-studio/releases), download those files in each build's Assets).
-* [Katalon Studio Enterprise] Allow replacing a built-in library with an external one for flexible libraries usage in a test project. [Learn more]()
+* [Katalon Studio Enterprise] Allow replacing a built-in library with an external one for flexible libraries usage in a test project. [Learn more](https://docs.katalon.com/katalon-studio/docs/external-libraries.html#exclude-built-in-libraries)
 * [Web Service Testing] Import SOAP requests from SoapUI and WSDLs having no service endpoints.
 * [Katalon TestOps (Beta) Integration] Export BDD reports generated in Katalon Studio to display in TestOps. [Learn more](https://docs.katalon.com/katalon-analytics/docs/bdd-test-results.html)
 * [Katalon TestOps (Beta) Integration] Support generating commands for TestOps CI in Katalon Studio's Command Builder.
