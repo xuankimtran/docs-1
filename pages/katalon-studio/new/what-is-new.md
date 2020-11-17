@@ -50,7 +50,7 @@ See also:
 
 In this major release, we ship some important enhancements to better the integrations of Katalon Studio with Kobiton, Jira Cloud, and especially qTest. 
 
-**Kobiton Integration**: When configuring Kobiton integration in your project, you can use your Kobiton's API Key to authenticate with the Kobiton Server. New command syntax for Kobiton integration is supported. [Learn more]()
+**Kobiton Integration**: When configuring Kobiton integration in your project, you can use your Kobiton's API Key to authenticate with the Kobiton Server. New command options for this enhancement is supported accordingly. [Learn more](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#integration-options)
 
 **Jira Cloud Integration**: In this version and later, you can now fetch the BDD custom field from Jira Cloud Server after establishing a connection with that field in Project Settings. [Learn more]()
 

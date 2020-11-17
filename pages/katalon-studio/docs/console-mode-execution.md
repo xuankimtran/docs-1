@@ -445,8 +445,18 @@ katalonc -noSplash -runMode=console -projectPath="C:\Users\Katalon Studio\Projec
    </thead>
    <tbody>
       <tr>
-         <td>--config -kobiton.authentication.username=[yourKobitonusername]-kobiton.authentication.password=xxxxx</td>
+         <td>--config -kobiton.authentication.username=[yourKobitonusername] -kobiton.authentication.password=xxxxx</td>
          <td>Passing Kobiton username and password</td>
+         <td>N</td>
+      </tr>
+      <tr>
+         <td>--config -kobiton.authentication.serverUrl=[defaultKobitonServer] -kobiton.authentication.username=[yourKobitonUsername] -kobiton.authentication.apiKey=[yourKobitonAPIKey</td>
+         <td>Passing Kobiton Server URL, username, and APIKey (Available in 7.8 and later)</td>
+         <td>N</td>
+      </tr>
+      <tr>
+         <td>-kobitonDeviceId=[yourKobitonDeviceId]</td>
+         <td>Passing Kobiton Device ID (Available in 7.8 and later)</td>
          <td>N</td>
       </tr>
       <tr>

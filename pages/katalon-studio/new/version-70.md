@@ -29,21 +29,20 @@ and Open source libraries's license scanning report in HTML named `KatalonStudio
 * [Katalon TestOps (Beta) Integration] Support generating commands for TestOps CI in Katalon Studio's Command Builder.
 * [Katalon TestOps (Beta) Integration] Allow overriding TestOps Project ID via command line.
 * [Katalon TestOps (Beta) Integration] View Releases in Katalon Studio's Test Explorer. 
-* Provide in-app tutorials for new Katalon users to start testing Web UI, Mobile, Web Service and Windows applications (Go to Help > Tutorials > Getting Started > Select Web UI/Mobile/Web Service/Windows).
+* Provide in-app tutorials for new Katalon users to start testing Web UI, Mobile, Web Service and Windows applications (Go to Help > Tutorials > Select Web UI/Mobile/Web Service/Windows).
 * You can create a new project with Desktop type.
 
 ### Improvements
 
-* [qTest Integration]: Generate qTest - Katalon Studio parity report in HTML, sync up qTest test case version and test steps's content, and send Skipped test results to qTest.
-* [Kobiton Integration] Support SSO for authentication.
-* [Jira Cloud Integration]: Support importing BDD custom fields.
+* [qTest Integration]: Generate qTest - Katalon Studio parity report in HTML, sync up qTest test case version and test steps's content, and send Skipped test results to qTest. [Learn more]()
+* [Kobiton Integration] Support SSO for authentication and corresponding command options. [Learn more](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#integration-options)
+* [Jira Cloud Integration]: Support importing BDD custom fields. [Learn more]()
 * [BDD Testing Framework] Allow setting default package for step defenitions. [Learn more](https://docs.katalon.com/katalon-studio/docs/cucumber-features-file.html#set-default-package-for-step-definitions).
 * [Mobile Testing] Support "Attributes" Selector Strategy and add "Verify and Highlight" feature to Mobile Spy/Recorder.
 * [Katalon TestOps (Beta) Integration]: Support automatically retrying uploading Test Projects and Test Reports from Katalon Studio to Katalon TestOps upon failure.
 * Replace Katalon Help with Start Page for a new fresh look and more customized information for each user.
 * Reduce the size of Katalon Docker Image.
 * Discontinued new purchase of Katalon Runtime Engine DevOps license. Read more about [Katalon Runtime Engine DevOps Sunsetting](https://docs.katalon.com/katalon-studio/docs/kre-devops-sunset.html).
-
 
 ### Fixes
 
