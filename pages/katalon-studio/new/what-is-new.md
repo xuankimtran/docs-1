@@ -31,6 +31,14 @@ With Screen-based Recorder, you can capture what's visible on the screen, while 
 
 With coordinates-based recording for Windows testing, Katalon Studio captures an element's relative coordinates in addition to its selector during recording to identify the exact location to perform a click/right-click action during runtime.
 
+Fail to select a Windows object:
+
+<img alt="Native Windows Recorder without coordinates" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/native-windows-recorder/native-windows-recorder-without-coordinates.gif" width=100%>
+
+Select a Windows object successfully thanks to coodinates:
+
+<img alt="Native Windows Recorder with coordinates" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/native-windows-recorder/native-windows-recorder-with-coordinates.gif" width=100%>
+
 See also:
 
 * [Click Element Offset](https://docs.katalon.com/katalon-studio/docs/windows-kw-click-element-offset.html) 
@@ -42,7 +50,7 @@ See also:
 
 In this major release, we ship some important enhancements to better the integrations of Katalon Studio with Kobiton, Jira Cloud, and especially qTest. 
 
-**Kobiton Integration**: When configuring Kobiton integration in your project, you can use your Kobiton's API Key to authenticate with the Kobiton Server. 
+**Kobiton Integration**: When configuring Kobiton integration in your project, you can use your Kobiton's API Key to authenticate with the Kobiton Server. New command syntax for Kobiton integration is supported. [Learn more]()
 
 **Jira Cloud Integration**: In this version and later, you can now fetch the BDD custom field from Jira Cloud Server after establishing a connection with that field in Project Settings. [Learn more]()
 
@@ -77,7 +85,7 @@ In this release, we have improved the integration with Katalon TestOps (Beta) in
 * You can now generate a command for TestOps CI right in the Command Builder of Katalon Studio. 
 * You can also decide which TestOps Project to feed your execution result when executing with Katalon Runtime Engine by overriding the Test Project ID via command line. 
 * Katalon will automatically retry uploading Test Projects and Test Reports to Katalon TestOps upon failure.
-* In Katalon Studio, you can view Releases retrieved from your TestOps project and download execution reports, while on Katalon TestOps, you can view BDD reports generated from Katalon Studio. The latter requires you to do some configurations beforehand, which you can learn about [here](https://docs.katalon.com/katalon-analytics/docs/bdd-test-results.html).
+* In Katalon Studio, you can view Releases and download execution reports retrieved from your TestOps project, which enhances your team's collaboration substantially when you can view execution reports pushed to TestOps by your teammates. While on Katalon TestOps, you can view BDD reports generated from Katalon Studio, which requires you to do some configurations beforehand. [Learn more here](https://docs.katalon.com/katalon-analytics/docs/bdd-test-results.html).
 
 
 
