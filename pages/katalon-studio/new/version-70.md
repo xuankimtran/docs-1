@@ -45,12 +45,12 @@ and Open source libraries's license scanning report in HTML named `KatalonStudio
 * Replace Katalon Help with Start Page for a new fresh look and more customized information for each user.
 * Reduce the size of Katalon Docker Image.
 * Discontinued new purchase of Katalon Runtime Engine DevOps license. Read more about [Katalon Runtime Engine DevOps Sunsetting](https://docs.katalon.com/katalon-studio/docs/kre-devops-sunset.html).
+* Display SKIP test status in execution reports.
 
 ### Fixes
 
 * Bug: An issue of Katalon Runtime Engine activation failure on Katalon Docker Image.
-* Bug: GUI issues on Windows machines with 1920x1080 resolution 
-* Bug: Display incorrect test results in test execution reports when using `skipThisTestCase`.
+* Bug: GUI issues on Windows machines when scaling to more than 100% size of text.
 * Bug: [Test Object's Editor] Cannot display all object properties in a window screen.
 * Bug: API Requests with fileupload body uses a file path instead of a file name.
 * Bug: [Katalon TestOps (Beta) Integration]: Cannot display more than 20 projects fetched from Katalon TestOps (Beta).
