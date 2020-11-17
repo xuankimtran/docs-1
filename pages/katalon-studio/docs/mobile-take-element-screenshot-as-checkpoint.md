@@ -8,7 +8,7 @@ permalink: katalon-studio/docs/mobile-take-element-screenshot-as-checkpoint.html
 
 ## takeElementScreenshotAsCheckpoint
 
-*  **Description**: Take a screenshot of a specific web element to send to TestOps Vision. The captured image will be saved in '.png' format and stored in the 'keyes' folder in the report folder.
+*  **Description**: Take a screenshot of a specific mobile element to send to TestOps Vision. The captured image will be saved in '.png' format and stored in the 'keyes' folder in the report folder.
 *  **Keyword name**: takeElementScreenshotAsCheckpoint
 *  **Keyword syntax**: `Mobile.takeElementScreenshotAsCheckpoint(String checkpointName, TestObject to, List<TestObject> ignoredElements, Color hidingColor, FailureHandling flowControl)`
 *  **Parameters**:

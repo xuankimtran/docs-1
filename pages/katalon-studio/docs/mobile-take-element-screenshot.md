@@ -8,7 +8,7 @@ permalink: katalon-studio/docs/mobile-take-element-screenshot.html
 
 ## takeElementScreenshot 
 
-*  **Description**: Take a screenshot of a specific web element. The captured image will be saved in '.png' format.
+*  **Description**: Take a screenshot of a specific mobile element. The captured image will be saved in '.png' format.
 *  **Keyword name**: takeElementScreenshot
 *  **Keyword syntax**: `Mobile.takeElementScreenshot(String fileName, TestObject to, List<TestObject> ignoredElements, Color hidingColor, FailureHandling flowControl)`
 *  **Parameters**:
