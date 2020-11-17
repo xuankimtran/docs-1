@@ -36,7 +36,7 @@ and Open source libraries's license scanning report in HTML named `KatalonStudio
 
 * [qTest Integration]: Generate qTest - Katalon Studio parity report in HTML, sync up qTest test case version and test steps's content, and send Skipped test results to qTest. [Learn more]()
 * [Kobiton Integration] Support SSO for authentication and corresponding command options. [Learn more](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#integration-options)
-* [Jira Cloud Integration]: Support importing BDD custom fields. [Learn more]()
+* [Jira Cloud Integration]: Support importing BDD Feature Files. [Learn more](https://docs.katalon.com/katalon-studio/docs/jira-integration.html#jira-cloud-integration)
 * [BDD Testing Framework] Allow setting default package for step defenitions. [Learn more](https://docs.katalon.com/katalon-studio/docs/cucumber-features-file.html#set-default-package-for-step-definitions).
 * [Mobile Testing] Support "Attributes" Selector Strategy and add "Verify and Highlight" feature to Mobile Spy/Recorder.
 * [Katalon TestOps (Beta) Integration]: Support automatically retrying uploading Test Projects and Test Reports from Katalon Studio to Katalon TestOps upon failure.
