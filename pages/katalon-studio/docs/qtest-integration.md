@@ -428,6 +428,8 @@ When you want to check which integrated Katalon Studio Test Cases need updating 
 
 Wait for the test engine to retrieve information from qTest server.
 
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/qtest-version-checking-in-bulk.gif" width=100%>
+
 ### Check for version update in a Test Case
 
 In a Test Case editor, open the **Integration** screen, click **Check for updates** to fetch the latest qTest test case's version and test steps' content. Wait for the test engine to retrieve information from qTest server.

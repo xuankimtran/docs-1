@@ -61,6 +61,10 @@ In this major release, we ship some important enhancements to better the integra
 * Retrieve the latest version and test steps content of the integrated qTest Test Case from qTest Server for multiple selected test cases at once. [Learn more](https://docs.katalon.com/katalon-studio/docs/qtest-integration.html#qtest-test-cases-version-control-and-synchronization)
 * Send Skipped test results to qTest Server.
 
+The following gif shows how to check which integrated Test Cases in Katalon Studio need updating based on the integrated qTest Test Cases:
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/qtest-version-checking-in-bulk.gif" width=100%>
+
 ### Import your web services from SoapUI and WSDL
 
 In addition to [importing RESTful requests from SoapUI](https://docs.katalon.com/katalon-studio/docs/import-soapui.html) (shipped in 7.6), now you can import SOAP test requests from SoapUI as well. Also, you can import SOAP requests from a WSDL file having no service endpoint.
