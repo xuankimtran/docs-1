@@ -4,7 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/mobile-take-element-screenshot-as-checkpoint.html
 ---
 
-> From version **7.8**, this keyword is available.
+> From version **8.0**, this keyword is available.
 
 ## takeElementScreenshotAsCheckpoint
 
