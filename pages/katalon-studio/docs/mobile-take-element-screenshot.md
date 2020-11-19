@@ -8,42 +8,47 @@ permalink: katalon-studio/docs/mobile-take-element-screenshot.html
 
 ## takeElementScreenshot 
 
-*  **Description**: Take a screenshot of a specific mobile element. The captured image will be saved in '.png' format.
+*  **Description**: Take a screenshot of a UI element to send to TestOps Vision. The test engine will scroll to this element first then taking a screenshot.
 *  **Keyword name**: takeElementScreenshot
 *  **Keyword syntax**: `Mobile.takeElementScreenshot(String fileName, TestObject to, List<TestObject> ignoredElements, Color hidingColor, FailureHandling flowControl)`
 *  **Parameters**:
 
    * Name: fileName 
-     * Description: A String that represents a path to the saved image. The path can be absolute path or relative path.
+     * Description: Absolute path to the stored image file. fileName should contain '.png' as images are stored to the '.png' format. If the file name is not defined, Katalon Studio will generate a random file name.
      * Parameter Type: String
      * Mandatory: Optional
      
    * Name: to
-     * Description: A Test Object which represents the element you want to take screenshot of.
+     * Description: UI element to be taken screenshot of.
      * Parameter Type: TestObject
+     * Mandatory: Optional
+
+   * Name: ignoredElements 
+     * Description: List of the ignored elements. These elements will be hidden by drawing an overlap color layer. If the test engine failed to hide the element by any problems, this keyword would continue without impacting the result.
+     * Parameter Type: List<TestObject>
+     * Mandatory: Optional
+     
+   * Name: hidingColor 
+     * Description: The color used to draw the overlap layer. If not defined, Color.GRAY is used.
+     * Parameter Type: Color
      * Mandatory: Optional
 
    * Name: flowControl
      * Description: Specify [failure handling](/x/qAAM) schema to determine whether the execution should be allowed to continue or stop.
+        * STOP_ON_FAILURE: throws a StepFailedException if the step failed (default).
+        * CONTINUE_ON_FAILURE: continues the test if the test failed, but the test result is still Failed.
+        * OPTIONAL: continues the test and ignores the test result.
      * Parameter Type: FailureHandling
      * Mandatory: Optional
 
-* **Examples**:
+* **Return**: a String representing the path to the captured image.
+* **Throw**: StepFailedException if the UI element cannot be found or Katalon Studio cannot store the image in the disk.
 
-1. You want to take a screenshot of an element that you have captured by using Katalon Spy Utility and stored in Test Object > UI > logo. The file name is 'logo.png' and stored in the report folder. Default [failure handling](/x/qAAM) is used:
+* **Example**:
 
 ``` groovy
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+// add import libs first
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
-
-Mobile.takeElementScreenshot(RunConfiguration.getReportFolder() + '/logo.png', findTestObject('UI/logo'))
-```
-
-2. You want to take a screenshot of a Test Object stored in a variable named 'header' for TestOps Vision. Use the default fileName:
-
-``` groovy
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-
-// where ignoredElements is a user-defined List-typed variable.
-Mobile.takeElementScreenshot(header)
+// take element screenshot and store to report folder
+Mobile.takeElementScreenshot(RunConfiguration.getReportFolder() + '/element_screenshot.png', findTestObject('App/screenshot_element'), [findTestObject('hide_element_1'), findTestObject('hide_element_2')], Color.GREEN)
 ```

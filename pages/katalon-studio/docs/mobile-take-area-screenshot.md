@@ -8,49 +8,48 @@ permalink: katalon-studio/docs/mobile-take-area-screenshot.html
   
 ## takeAreaScreenshot  
 
-*  **Description**: Take screenshot of a specific area in the viewport. The captured image will be saved in '.png' format.
+*  **Description**: Take a screenshot of a specific area. The area should be inside the application viewport; otherwise, this keyword will fail.
 *  **Keyword name**: takeAreaScreenshot
 *  **Keyword syntax**: `Mobile.takeAreaScreenshot(String fileName, Rectangle rect, List<TestObject> ignoredElements, Color hidingColor, FailureHandling flowControl)`
 *  **Parameters**:
 
    * Name: fileName 
-     * Description: A String that represents the path to the saved image. The path can be absolute path or relative path.
+     * Description: Absolute path to the stored image file. fileName should contain '.png' as images are stored to the '.png' format. If the file name is not defined, the test engine will generate a random file name.
      * Parameter Type: String
      * Mandatory: Optional
      
    * Name: rect
-     * Description: A Rectangle which defines location and size of the area you want to take screenshot. The area must be within the viewport.
+     * Description: A rectangle definding the position and size of the area to be captured.
      * Parameter Type: Rectangle
      * Mandatory: Required
 
+   * Name: ignoredElements 
+     * Description: List of the ignored elements. These elements will be hidden by drawing an overlap color layer. If the test engine failed to hide the element by any problems, this keyword would continue without impacting the result.
+     * Parameter Type: List<TestObject>
+     * Mandatory: Optional
+     
+   * Name: hidingColor 
+     * Description: The color used to draw the overlap layer. If not defined, Color.GRAY is used.
+     * Parameter Type: Color
+     * Mandatory: Optional
+
    * Name: flowControl
      * Description: Specify [failure handling](/x/qAAM) schema to determine whether the execution should be allowed to continue or stop.
+        * STOP_ON_FAILURE: throws a StepFailedException if the step failed (default).
+        * CONTINUE_ON_FAILURE: continues the test if the test failed, but the test result is still Failed.
+        * OPTIONAL: continues the test and ignores the test result.
      * Parameter Type: FailureHandling
      * Mandatory: Optional
 
-* **Examples**:
+* **Return**: a String representing the path to the captured image.
+* **Throw**: StepFailedException if the defined rectangle is outside the application viewport or Katalon Studio can't store the image in the disk.
 
-1. You want to take a screenshot of an area at x: 50, y: 25, width: 100, height: 150 and save the 'advertisements.png' file in the current project's report folder:
+* **Example**:
 
 ``` groovy
+// add import libs first
 import org.openqa.selenium.Rectangle as Rectangle
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
-
-Mobile.takeAreaScreenshot(RunConfiguration.getReportFolder() + '/advertisements.png', new Rectangle(50, 25, 100, 150))
-```
-
-2. You want to take a screenshot of an area at x: 50, y: 25, width: 100, height: 150 and use the default file name:
-
-``` groovy
-import org.openqa.selenium.Rectangle as Rectangle
-
-Mobile.takeAreaScreenshot(new Rectangle(50, 25, 150, 100))
-```
-
-2. You want to take a screenshot of an area at x: 50, y: 25, width: 100, height: 150 and save it somewhere else:
-
-``` groovy
-import org.openqa.selenium.Rectangle as Rectangle
-
-Mobile.takeAreaScreenshot('E:\\area.png', new Rectangle(50, 25, 150, 100))
+// take sreenshot of an area start at (x: 0 , y: 0) with size (height: 1500, width: 1000) and store to report folder
+Mobile.takeAreaScreenshot(RunConfiguration.getReportFolder() + '/area_screenshot.png', new Rectangle(0, 0, 1500, 1000), [findTestObject('hide_element_1'), findTestObject('hide_element_2')], Color.BLUE)
 ```

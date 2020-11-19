@@ -8,33 +8,38 @@ permalink: katalon-studio/docs/mobile-take-screenshot-as-checkpoint.html
 
 ## takeScreenshotAsCheckpoint
 
-*  **Description**: Take a screenshot of the current viewport to send to TestOps Vision. The captured image will be saved in '.png' format and stored in the 'keyes' folder inn the report folder.
+*  **Description**: Take a screenshot of the current application to send to TestOps Vision. The captured image will be saved to the **keyes** folder in the report. The screenshot will not include OS's status and navigation bars.
 *  **Keyword name**: takeScreenshotAsCheckpoint
 *  **Keyword syntax**: `Mobile.takeScreenshotAsCheckpoint(String checkpointName, List<TestObject> ignoredElements, Color hidingColor, FailureHandling flowControl)`
 *  **Parameters**:
 
    * Name: checkpointName 
-     * Description: A String that represents the name of the image on TestOps Vision. On local machine, this name will be appended with TestOps Vision prefix('keyes-').
+     * Description: A String representing the name of the image on TestOps Vision. This name will be used to detect which baseline this checkpoint is compared with. This name will be appended with the TestOps Vision prefix ('keyes-') on a local machine.
      * Parameter Type: String
      * Mandatory: Required
+   
+   * Name: ignoredElements 
+     * Description: List of the ignored elements. These elements will be hidden by drawing an overlap color layer. If the test engine failed to hide the element by any problems, this keyword would continue without impacting the result.
+     * Parameter Type: List<TestObject>
+     * Mandatory: Optional
+     
+   * Name: hidingColor 
+     * Description: The color used to draw the overlap layer. If not defined, Color.GRAY is used.
+     * Parameter Type: Color
+     * Mandatory: Optional
 
    * Name: flowControl
      * Description: Specify [failure handling](/x/qAAM) schema to determine whether the execution should be allowed to continue or stop.
+        * STOP_ON_FAILURE: throws a StepFailedException if the step fails (default).
+        * CONTINUE_ON_FAILURE: continues the test if the test fails, but the test result is still FAILED.
+        * OPTIONAL: continues the test and ignores the test result.
      * Parameter Type: FailureHandling
      * Mandatory: Optional
 
-* **Examples**:
-
-1. You want to take a screenshot as checkpoint named 'current_viewport' for TestOps Vision and use default [failure handling](/x/qAAM):
-
-``` groovy
-Mobile.takeScreenshotAsCheckpoint('current_viewport')
-```
-
-2. You want to take a screenshot as checkpoint named 'full_view' for TestOps Vision, and need the test to keep running regardless of this step having failed or passed:
+* **Return**: a String representing the path to the captured image.
+* **Throw**: StepFailedException If the test engine can't store the image in the disk.
+* **Example**:
 
 ``` groovy
-import com.kms.katalon.core.model.FailureHandling as FailureHandling
-
-Mobile.takeScreenshotAsCheckpoint('full_view', FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.takeScreenshotAsCheckpoint('screenshot_keyes', [findTestObject('hide_element_1'), findTestObject('hide_element_2')], Color.RED, FailureHandling.STOP_ON_FAILURE)
 ```
