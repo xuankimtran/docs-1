@@ -10,21 +10,19 @@ permalink: katalon-studio/docs/dependencies-management-gradle-support.html
 
 Previously, Katalon Studio provides a [Gradle Plugin](https://plugins.gradle.org/plugin/com.katalon.gradle-plugin) to simplify and automate some tasks in Katalon Studio; however, some users find it cumbersome, and dependencies management is pretty bare-bones.
 
-Empowered by the [Eclipse Buildship](https://www.eclipse.org/community/eclipse_newsletter/2018/february/buildship.php), the Gradle wrapper and native Gradle support in Katalon Studio makes dependencies management with Maven or Gradle more streamlined and robust. You are no longer required to use any Command-line or third-party tools and free to decide which Gradle version to use in your test project instead of being limited to use only the fixed version that you have installed on your local machine earlier. 
+Empowered by [Buildship](https://www.eclipse.org/community/eclipse_newsletter/2018/february/buildship.php), an Eclipse plugin, the Gradle wrapper and native Gradle integration in Katalon Studio makes dependencies management with Maven or Gradle more streamlined and robust. You are no longer required to use any Command-line or third-party tools and free to decide which Gradle version to use in your test project instead of being limited to use only the fixed version that you have installed on your local machine earlier. 
 
-This feature is particularly beneficial to Katalon users who use external libraries for multiple test projects and prefer to use Gradle for managing their build process. You can now run Gradle tasks with better Gradle editor support without installing Gradle in Katalon Studio or using an external terminal/command prompt. It substantially reduces your manual effort when you can manage and download external libraries in fewer steps than before. 
+This feature is particularly beneficial to Katalon users who use external libraries in multiple test projects and prefer to use Gradle for managing their build process. You can now run Gradle tasks in a better editor without installing Gradle in Katalon Studio or using an external terminal/command prompt. It substantially reduces your manual effort when you can manage and download external libraries in fewer steps than before. 
 
 This manual introduces what built-in Gradle support looks like and how to use it in Katalon Studio.
 
-> Download Katalon Studio v8.0.0.rc [here](https://github.com/katalon-studio/katalon-studio/releases/tag/untagged-4d3c4cf7c0b00ec1ac5c)
+> Download Katalon Studio v8.0.0.rc [here](https://github.com/katalon-studio/katalon-studio/releases/tag/v8.0.0.rc)
 
 ## Gradle Settings
 
 Katalon Studio turns on the built-in Gradle integration by default for all projects.
 
 > When you create/open a project for the first time, it takes 2 to 5 minutes to download Gradle.
-
-
 
 You can access Gradle settings by going to **Katalon Studio** > **Preferences** > **Gradle**.
 
