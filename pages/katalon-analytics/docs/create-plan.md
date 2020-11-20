@@ -26,7 +26,10 @@ To create a new test plan, please follow the below instruction:
   * **Test Project**: Select a test project in the drop-down list.
   * **Type**:
     * **Test Suite Collection**: Select a Test Suite or a Test Suite Collection that you want to execute.
-    * **Katalon Command**: Enter a command to execute Katalon Studio tests. This command can be generated from [Katalon Studio command generator](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#katalon-command-line-options).
+    * **Katalon Command**: Enter a command to execute Katalon Studio tests. This command can be generated from [Katalon Studio command builder](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#command-builder).
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-scheduler/ci-command.png" width="" height="">
+
     * **Generic Command**: Enter a command to execute this test with another tool.
   * **Cloud type**: Select the test environment which you have already configured: Local Agent or other Test Environments such as CircleCI or EKS. The following screenshots are examples of CircleCI configuration.
 
@@ -34,7 +37,7 @@ To create a new test plan, please follow the below instruction:
 
   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-scheduler/config-plan-2.png" width="" height="">
 
-  * **Katalon Studio Version** when you want the Agent to download Katalon Studio automatically.\
+  * **Katalon Studio Version** when you want the Agent to download Katalon Studio automatically.
   Or you can use **Pre-Installed Katalon Studio Location** to browse to Katalon Studion on your machine. This option is recommended in network restricted environments.
 
 4. Select an Agent in the drop-down list. If you have just configured an Agent, please wait for a while for it to be registered with Katalon server.
