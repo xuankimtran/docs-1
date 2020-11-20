@@ -37,6 +37,6 @@ The test artifacts you'd like to import must be exported from a Katalon Studio p
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-export-test-artifact/import-test-artifact.png" width="496" height="171"> 
 
-3. Click **OK**. Refresh the test explorer by right-clicking > **Refresh** to view them in the specified locations.
+3. Click **OK**. Refresh the Tests Explorer by right-clicking > **Refresh** to view them in the specified locations.
 
 

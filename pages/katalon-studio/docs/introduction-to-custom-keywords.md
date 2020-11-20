@@ -21,7 +21,7 @@ A _package_ is a namespace that organizes a set of related classes and interf
 
    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/introduction-to-custom-keywords/image2017-2-6-153A353A6.png)
 
-2. A new package is created under the **Keywords** folder in Test Explorer accordingly.
+2. A new package is created under the **Keywords** folder in Tests Explorer accordingly.
 
    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/introduction-to-custom-keywords/image2017-2-6-153A363A13.png)
 

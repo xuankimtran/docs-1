@@ -50,7 +50,7 @@ For example, you want to test on macOS Mojave using the Google Chrome browser ve
 
 _Important Note: LambdaTest recommends using Listeners to avoid timeout issues while executing Groovy scripts in LambdaTest Selenium Grid from Katalon Studio. Below is an example of a Listener._
 
-**Step 1**: Select **Test explorer** from the left navigation menu in Katalon Studio >  Right click the **Test Listener folder** > Click 
+**Step 1**: Select **Tests Explorer** from the left navigation menu in Katalon Studio >  Right click the **Test Listener folder** > Click 
 **New listener**.
 
 **Step 2**: Provide a relevant name to the new listener before pasting the code below:

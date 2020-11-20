@@ -19,7 +19,7 @@ Searching manually for test artifacts can be time-consuming. The Query Builder i
 The search function is used for various test artifacts such as test case, test suite, and folder.
 There are two ways to use the Search function in Katalon Studio: input search criteria directly on the **Search bar**, or use the **Query Builder** button.
 
-The **Query Builder** button is located on the top right of the **Test Explorer** area, next to the search bar. You may also find this Query Builder function while working with test suites. It can be used to find the desired test case based on certain criteria.
+The **Query Builder** button is located on the top right of the **Tests Explorer** area, next to the search bar. You may also find this Query Builder function while working with test suites. It can be used to find the desired test case based on certain criteria.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/search/Advance-Search-Button-Location.png)
 
@@ -37,13 +37,13 @@ The fields on the Query Builder menu include:
 ***Note***: Every field in this Query Builder mode can be applied to search for all types of objects such as test case, test suite, folder, etc.
 
 To get the ID of the object, follow the steps below:
-Navigate to **Test Explorer** > Find the object whose ID you want to get > Right click > **Copy ID** > Paste it into the ID text box.
+Navigate to **Tests Explorer** > Find the object whose ID you want to get > Right click > **Copy ID** > Paste it into the ID text box.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/search/Copy-ID.png)
 
 In case you want to get the tag name of the object (this method CANNOT be applied when searching for folders):
 
-Navigate to **Test Explorer** > Find the object whose ID you want to get > Right click > **Properties** > The Test Case Properties window will appear > Copy the text in the **Tag** box > Paste it into the **Query Builder** box.
+Navigate to **Tests Explorer** > Find the object whose ID you want to get > Right click > **Properties** > The Test Case Properties window will appear > Copy the text in the **Tag** box > Paste it into the **Query Builder** box.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/search/Test-Case-Properties.png)
   

@@ -53,7 +53,7 @@ There are instances of similar keywords exist in the project. Katalon Studio wil
 Export Keywords
 ---------------
 
-To increase code usability, Katalon Studio also let the users to export keyword for sharing across team memebers. Simply right-click on **Keywords **in the Test Explorers, select **Export** from the context-menu. 
+To increase code usability, Katalon Studio also let the users to export keyword for sharing across team memebers. Simply right-click on **Keywords **in the Tests Explorer, select **Export** from the context-menu. 
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/importexport-keywords/image2018-6-21-113A463A43.png)
 

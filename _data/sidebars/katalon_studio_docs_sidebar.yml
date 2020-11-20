@@ -1079,7 +1079,7 @@ items:
             url: /katalon-studio/docs/retrieve-mobiles-session.html
           - title: "Using autoIT for authentication in Katalon Studio"
             url: /katalon-studio/docs/using-autoit-for-authentication-in-katalon-studio.html
-      - title: "Proof of Concepts"
+      - title: "Proof of Concept"
         tree:
           - title: "Dependencies Management with Native Gradle Support"
             url: /katalon-studio/docs/dependencies-management-gradle-support.html

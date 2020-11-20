@@ -60,7 +60,7 @@ description: Release note 7.x
 ### Improvements
 
 * [qTest Integration] Upload test results of the integrated Test Suites in Test Suite Collection to qTest
-* [Katalon TestOps (Beta) Integration] Display TestOps Plans in Test Explorer. [Learn more](https://docs.katalon.com/katalon-analytics/docs/view-ci-plans.html)
+* [Katalon TestOps (Beta) Integration] Display TestOps Plans in Tests Explorer. [Learn more](https://docs.katalon.com/katalon-analytics/docs/view-ci-plans.html)
 * [Katalon Studio Enterprise] Enhance Self-healing Insights. [Learn more](https://docs.katalon.com/katalon-studio/docs/self-healing.html#understand-self-healing-insights)
 * [Katalon Studio Enterprise] Enhance UX of adding test cases to test suites
 * Support [troubleshooting activation problems](https://docs.katalon.com/katalon-studio/docs/troubleshoot-activation-problems.html)
@@ -100,7 +100,7 @@ You can download Katalon Studio version 7.6.5 [here](https://github.com/katalon-
 ### New Features
 
 * Katalon TestOps (Beta) Integration: Support associating a test execution in Katalon Studio with Release on Katalon TestOps (Beta) via command-line parameter. [Learn more](https://docs.katalon.com/katalon-studio/docs/execution-release-cli.html)
-* Katalon TestOps (Beta) Integration: Display the Executions table in Test Explorer. [Learn more](https://docs.katalon.com/katalon-studio/docs/view-execution-list.html)
+* Katalon TestOps (Beta) Integration: Display the Executions table in Tests Explorer. [Learn more](https://docs.katalon.com/katalon-studio/docs/view-execution-list.html)
 
 ### Fixes
 
@@ -186,13 +186,13 @@ You can download Katalon Studio version 7.6.5 [here](https://github.com/katalon-
 * [Web Service] Support defining a content type for form-data HTTP Body of RESTful requests. [Learn more](https://docs.katalon.com/katalon-studio/docs/restful.html#request-body)
 * Downgrade the MySQL Connector/J, the official JDBC driver for MySQL, from 8.0.17 to 8.0.15
 * Upgrade the Microsoft JDBC Driver 6.2 for SQL Server
-* Enhance GUI of the following components: Image-based Testing in Test Explorer, Katalon TestOps (Beta) Integration dialog, Activation dialog, and CAPTCHA error in the Activation dialog
+* Enhance GUI of the following components: Image-based Testing in Tests Explorer, Katalon TestOps (Beta) Integration dialog, Activation dialog, and CAPTCHA error in the Activation dialog
 
 ### Fixes
 
 * Bug: An issue of OAUth1.0 Authorization
 * Bug: [Mobile Testing] Unable to scroll down to see all test object attributes
-* Bug: [Test Explorer] Unable to open a feature file if it is not under the **Include** folder. Address [#293](https://github.com/katalon-studio/katalon-studio/issues/293)
+* Bug: [Tests Explorer] Unable to open a feature file if it is not under the **Include** folder. Address [#293](https://github.com/katalon-studio/katalon-studio/issues/293)
 * Bug: Window Objects' references in Test Case not being updated automatically when Windows Objects are renamed. Address [#289](https://github.com/katalon-studio/katalon-studio/issues/289)
 * Bug: Exposing proxy password
 
@@ -219,7 +219,7 @@ You can download Katalon Studio version 7.6.5 [here](https://github.com/katalon-
 ### Fixes
 
 * Bug: Unable to activate Katalon Studio
-* Bug: Unable to open a containing folder of a package in Test Explorer
+* Bug: Unable to open a containing folder of a package in Tests Explorer
 * Bug: [Web Service] An issue of saving HTTP Body content created with `x-www-form-urlencoded` or `form-data` option
 * Bug: [Web Service] An issue of handling API response in XML format
 * Bug: [Web Service] Unable to send a SOAP request behind proxy
@@ -331,7 +331,7 @@ You can download Katalon Studio version 7.6.5 [here](https://github.com/katalon-
 * [Mobile- iOS] Support **Install Dependencies** and **Install WebDriverAgent** tools on the main menu. Please be noted that you have to install [homebrew](https://brew.sh/) manually.
 * [Command Syntax] Support both `-serverUrl` and `-serverURL` arguments.
 * Make the `DriverFactory.changeWebDriver()` method a public method.
-* Support **Open containing folder** for Folders in Test Explorer.
+* Support **Open containing folder** for Folders in Tests Explorer.
 
 ### Fixes
 
@@ -388,7 +388,7 @@ You can download Katalon Studio version 7.6.5 [here](https://github.com/katalon-
 * Allow configuring the usage tracked by Katalon Studio. [Learn more](https://docs.katalon.com/katalon-studio/docs/katalon-studio-preferences.html).
 * Support data-driven testing with additional database sources. [Learn more](https://docs.katalon.com/katalon-studio/docs/database-settings.html).
 * Support attaching Katalon Studio's source code for debugging. [Learn more](https://docs.katalon.com/katalon-studio/docs/debugging_test_case.html).
-* Support customizing Test Explorer. [Learn more](https://docs.katalon.com/katalon-studio/docs/toolbars-and-views.html#tests-explorer-view).
+* Support customizing Tests Explorer. [Learn more](https://docs.katalon.com/katalon-studio/docs/toolbars-and-views.html#tests-explorer-view).
 * Support Test Objects refactoring. [Learn more](https://docs.katalon.com/katalon-studio/docs/test-objects-refactoring.html).
 * Support Custom Keywords refactoring. [Learn more](https://docs.katalon.com/katalon-studio/docs/custom-keywords-refactor.html).
 * Support private plugins. [Learn more](https://docs.katalon.com/katalon-studio/docs/private-plugins.html).

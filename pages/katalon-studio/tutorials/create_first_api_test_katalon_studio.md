@@ -29,7 +29,7 @@ Creating a new project and setting up API automation test
 
 ![Create new project using Katalon Studio](https://d1h3p5fzmizjvp.cloudfront.net/wp-content/uploads/2018/10/09134249/API-Testing_Tutorial-1.png)
 
-*   Once the project is confirmed to be created, we will see a folder structure in the **Test Explorer** This folder system is responsible to keep all the test resources and is also the place where we start our first API test.
+*   Once the project is confirmed to be created, we will see a folder structure in the **Tests Explorer** This folder system is responsible to keep all the test resources and is also the place where we start our first API test.
 
 ### Step 2: Create the first API test
 
