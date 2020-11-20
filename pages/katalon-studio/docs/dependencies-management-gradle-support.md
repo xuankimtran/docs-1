@@ -44,7 +44,7 @@ To use Gradle tasks, open the **Gradle Tasks** tab at the bottom dock:
 
 * To sync Gradle tasks when you change the `build.gradle` file, on the top right corner, click the **Refresh Tasks for All Projects** button.
 
-* To view and use Katalon Gradle tasks, click on the three-dot buttons and select **Show All Tasks** on the top right corner.
+* To view and use Katalon Gradle tasks, on the top right corner, click on the three-dot button and select **Show All Tasks**.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/gradle/context-menu.png" width=50%>
 
@@ -54,9 +54,9 @@ To use Gradle tasks, open the **Gradle Tasks** tab at the bottom dock:
 
 * Click on any item on the Gradle task tree to run the dedicated Gradle tasks. For the **katalonCopyDependencies** task, you need to select **Project** > **Refresh** to refresh the project classpath after successfully running the task.
 
-## Usage Examples
+## Usage Examples of katalonCopyDependencies task
 
-The `build.gradle` file:
+On Test Explorer, open the `build.gradle` file, in its editor:
 
 1. You can use `compile` to add dependencies to a project:
 
