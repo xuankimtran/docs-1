@@ -12,7 +12,7 @@ description:
 Description
 -----------
 
-Simulate pressing the home button on a mobile device (Android only)
+Simulate pressing the home button on a mobile device.
 
 Parameters
 ----------
