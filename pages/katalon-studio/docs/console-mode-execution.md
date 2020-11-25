@@ -519,6 +519,9 @@ We recommend using the Command Builder to generate commands quickly and precisel
    * **Execution Configurations** (Or **Other Options** in versions before 7.7):
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/other-options.png">
 
+   * **Katalon TestOps**: Override the Project ID in Katalon TestOps (available from **version 7.8** onwards).
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/override-prj-id.png">
+
 3. Click **Generate Command** after completing the configuration.
 
 4. You can **Copy to Clipboard** and paste to the Command Prompt/Terminal for execution.

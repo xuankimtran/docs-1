@@ -58,3 +58,9 @@ To view details, click on the **Passed/Failed** labels.
 If you have linked a TestOps Release to a Jira Release, you can view the statuses of Test Cases directly in Jira.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/jira-ka-configure/jira-release-result-example.JPG)
+
+
+> **Quick tips**: You can also view your releases in Katalon Studio’s Test Explorer.
+>
+> To view releases, in Test Explorer, go to **TestOps** > **Releases**.
+> <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/release/view-release-ks.png" width="" height="">
