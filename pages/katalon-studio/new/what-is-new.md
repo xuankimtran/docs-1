@@ -19,13 +19,9 @@ To reduce the manual effort of re-capturing a broken test object when a test fai
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/time-capsule/test-suite-fail.gif">
 
-### Brand-new browser-based video recorder
+### Brand-new browser-based video recorder for Headless Execution
 
-With Screen-based Recorder, you can capture what's visible on the screen, while with [the Browser-based Video Recorder](https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-video-recorder), you can:
-
-* Record video of a browser window only (even it's hidden behind another window)
-* Record video of Headless browser
-* Record videos of multiple browsers simultaneously, for instance, parallel execution of Test Suite Collection.
+With Screen-based Recorder, you can capture what's visible on the screen, while with [the Browser-based Video Recorder](https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-video-recorder), you can record videos of **Headless** browser. You can also record video of a browser window only (even it's hidden behind another window) or videos of multiple browsers simultaneously in parallel execution.
 
 ### Increased accuracy in locating Windows objects with coordinates-based recording
 
