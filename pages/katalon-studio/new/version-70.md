@@ -1,11 +1,8 @@
 ---
-title: "Version 7.x" 
+title: "Version History - 7.x" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/new/version-70.html
 redirect_from:
-    - "/katalon-studio/new/"
-    - "/display/KD/Release+Notes/"
-    - "/display/KD/Release%20Notes/"
     - "/katalon-studio/new/all-versions.html"
     - "/katalon-studio/new/version-72.html"
     - "/katalon-studio/new/version-72/"
@@ -17,19 +14,48 @@ redirect_from:
 description: Release note 7.x
 ---
 
-## Version 7.8 (Beta)
-
-> Download 7.8 (Beta) [here](https://github.com/katalon-studio/katalon-studio/releases/tag/v7.8.0.rc)
+## Official Release - Version 7.8
 
 ### New features
 
-* Enhance fixing broken Web Test Objects with "time capsule". [Learn more](https://docs.katalon.com/katalon-studio/docs/time-capsule.html)
-* [Windows Testing] Support coordinates-based recording with [Click Element Offset](https://docs.katalon.com/katalon-studio/docs/windows-kw-click-element-offset.html) and [Right-click Element Offset](https://docs.katalon.com/katalon-studio/docs/windows-kw-rightclick-element-offset.html) keywords on both [Windows Recorder](https://docs.katalon.com/katalon-studio/docs/windows-recorder-tutorials.html) and [Native Windows Recorder](https://docs.katalon.com/katalon-studio/docs/windows-native-record.html).
+* Support Time Capsule for optimizing fixing broken Web Test Objects. [Learn more](https://docs.katalon.com/katalon-studio/docs/time-capsule.html)
 * [Katalon Studio Enterprise] Support browser-based video recording. [Learn more](https://docs.katalon.com/katalon-studio/docs/screenshots-videos.html#browser-based-video-recorder)
+* [Windows Testing] Support coordinates-based recording with [Click Element Offset](https://docs.katalon.com/katalon-studio/docs/windows-kw-click-element-offset.html) and [Right-click Element Offset](https://docs.katalon.com/katalon-studio/docs/windows-kw-rightclick-element-offset.html) keywords on both [Windows Recorder](https://docs.katalon.com/katalon-studio/docs/windows-recorder-tutorials.html) and [Native Windows Recorder](https://docs.katalon.com/katalon-studio/docs/windows-native-record.html).
+* Provide Checksum for each Katalon Studio package named `all-packages.sha256`
+and Open source libraries's license scanning report in HTML named `KatalonStudio-openSourceReport.html` (Go to [our GitHub Repository](https://github.com/katalon-studio/katalon-studio/releases), download those files in each build's Assets).
+* [Katalon Studio Enterprise] Allow replacing a built-in library with an external one for flexible libraries usage in a test project. [Learn more](https://docs.katalon.com/katalon-studio/docs/external-libraries.html#exclude-built-in-libraries)
+* [Web Service Testing] Import SOAP requests from SoapUI and WSDLs having no service endpoints. [Learn more](https://docs.katalon.com/katalon-studio/docs/import-soapui.html)
 * [Katalon TestOps (Beta) Integration] Export BDD reports generated in Katalon Studio to display in TestOps. [Learn more](https://docs.katalon.com/katalon-analytics/docs/bdd-test-results.html)
+* [Katalon TestOps (Beta) Integration] Support generating commands for TestOps CI in Katalon Studio's Command Builder.
 * [Katalon TestOps (Beta) Integration] Allow overriding TestOps Project ID via command line.
+* [Katalon TestOps (Beta) Integration] View Releases in Katalon Studio's Test Explorer. 
+* Provide in-app tutorials for new Katalon users to start testing Web UI, Mobile, Web Service and Windows applications (Go to Help > Tutorials > Select Web UI/Mobile/Web Service/Windows).
+* You can create a new project with Desktop type.
 
-## Official Release - Version 7.7.0 - 7.7.1 - 7.7.2
+### Improvements
+
+* Support Microsoft Edge (Chromium) 86
+* Support Chrome 86
+* [qTest Integration]: Generate qTest - Katalon Studio parity report in HTML, sync up qTest test case version and test steps's content, and send Skipped test results to qTest. [Learn more]()
+* [Kobiton Integration] Support SSO for authentication and corresponding command options. [Learn more](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#integration-options)
+* [Jira Cloud Integration]: Support importing BDD Feature Files. [Learn more](https://docs.katalon.com/katalon-studio/docs/jira-integration.html#jira-cloud-integration)
+* [BDD Testing Framework] Allow setting default package for step defenitions. [Learn more](https://docs.katalon.com/katalon-studio/docs/cucumber-features-file.html#set-default-package-for-step-definitions).
+* [Mobile Testing] Support "Attributes" Selector Strategy and add "Verify and Highlight" feature to Mobile Spy/Recorder.
+* [Katalon TestOps (Beta) Integration]: Support automatically retrying uploading Test Projects and Test Reports from Katalon Studio to Katalon TestOps upon failure.
+* Replace Katalon Help with Start Page for a new fresh look and more customized information for each user.
+* Reduce the size of Katalon Docker Image.
+* Discontinued new purchase of Katalon Runtime Engine DevOps license. Read more about [Katalon Runtime Engine DevOps Sunsetting](https://docs.katalon.com/katalon-studio/docs/kre-devops-sunset.html).
+* Display SKIP test status in execution reports.
+
+### Fixes
+
+* Bug: An issue of Katalon Runtime Engine activation failure on Katalon Docker Image.
+* Bug: GUI issues on Windows machines when scaling to more than 100% size of text.
+* Bug: [Test Object's Editor] Cannot display all object properties in a window screen.
+* Bug: API Requests with fileupload body uses a file path instead of a file name.
+* Bug: [Katalon TestOps (Beta) Integration]: Cannot display more than 20 projects fetched from Katalon TestOps (Beta).
+
+## Version 7.7.0 - 7.7.1 - 7.7.2
 
 ### New features
 

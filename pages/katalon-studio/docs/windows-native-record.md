@@ -13,15 +13,8 @@ From version 7.0.0, Katalon supports the recording utility for Desktop apps test
 
 **Preconditions**
 
-* [Setting up WinAppDriver](https://docs.katalon.com/katalon-studio/docs/setup-winappdriver.html)
+* [Setting up WinAppDriver](https://docs.katalon.com/katalon-studio/docs/setup-winappdriver.html). If your machine hasn't installed it yet, open Katalon Studio and go to **Tools > Windows > Install WinAppDrivers** and follow the set-up wizard.
 * Installing [Microsoft .NET Framework 4.5.2 or later](https://dotnet.microsoft.com/download/dotnet-framework/net452)
-
-If your machine hasn't installed them yet, you could use Katalon tools.
-
-* **Tools > Windows > Install WinAppDrivers**
-* **Tools > Windows > Install .NET Framework 4.5.2**
-
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/native-windows-recorder/kat-tool.png">
 
 ## Coordinate-based Recording
 

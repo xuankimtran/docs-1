@@ -1,5 +1,5 @@
 ---
-title: "External Libraries" 
+title: "Libraries Management" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/external-libraries.html 
 redirect_from:
@@ -11,26 +11,53 @@ redirect_from:
 description: 
 ---
 
-Katalon Studio allows users to use external Java .jar libraries either through Katalon project settings or copying .jar files to a designated folder. Users can leverage this to extend the capabilities of Katalon Studio and handle specific situations when needed. This article will show you how to add external libraries to Katalon Studio.
+Katalon Studio allows using external Java `.jar` libraries either through project settings or adding them to a designated folder. You can leverage this to extend the capabilities of Katalon Studio and handle specific situations when needed. This article will show you how to add external libraries to Katalon Studio or replace the buil-in libraries with the external ones in a test project.
 
-## Using Gradle
+## Add External Libraries
 
-Katalon Studio supports automatically download libraries from Maven repositories using Gradle. [Learn more](https://github.com/katalon-studio/gradle-plugin)
+You can add external libraries to a Katalon Studio's project in three different ways:
 
-## Using Katalon project settings
+* Use Gradle
+* Go to Libraries Management of the Project Settings of a project
+* Copy and past a library's `.jar` file to Driver folder of a project
 
-On Katalon Studio, from the toolbar select **Project** \> **Settings** \> **External Libraries**. Click on **Add** to browse and select your .jar file(s) (and its dependencies if any).  Click on **Apply** and **OK** to save the settings.
+### Use Gradle
 
-![External Library](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/import_java_library/1.-Katalon-External-Library.png)
+Katalon Studio supports automatically downloading libraries from Maven repositories using Gradle. [Learn more](https://github.com/katalon-studio/gradle-plugin)
 
-After saving the setting, Katalon will add the library file(s) into its **Drivers** folder on the local drive and loads the libraries. Now user can use the libraries in their test scripts.
+### Use Katalon Studio's project settings
 
-To remove imported external libraries, specify the library which you want to delete, click on **Remove** and click **OK**.
+1. In Katalon Studio, go to **Project** > **Settings** > **External Libraries** (In version 7.8 and later, go to **Project** > **Settings** > **Library Management** ). 
+2. In **External Libraries**, click **Add** to browse your `.jar` file(s) (and its dependencies if any).  
+3. Click on **Apply** and **OK** to save the settings.
 
-![ remove import external library](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/import_java_library/2.-Katalon-External-Library.png)
+   ![External Library](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/import_java_library/1.-Katalon-External-Library.png)
 
-## Manually copy .jar files to the Drivers folder
+After saving the setting, Katalon will add the library file(s) to the project's **Drivers** folder and load the libraries.
 
-You can also manually copy your .jar file (and its dependencies if any) into **Drivers** folder. You have to restart Katalon (shutdown and open it again) to reload its class paths.
+![Driver folder](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/import_java_library/2.-Katalon-External-Library.png)
 
-When your .jar library is recognized by Katalon, you should be able to use it in your code. Refer to the topic **[How to create a Custom Keyword](/katalon-studio/tutorials/create-custom-keyword/)** for information on how to use the email validation functionality from Apache open source library **commons-validator-1.5.1.jar.**
+To remove an added external libraries, select a library, click **Remove** and click **OK**.
+
+### Manually copy and paste .jar files to the Drivers folder
+
+You can also manually copy and paste your `.jar` file (and its dependencies if any) into the **Drivers** folder of a project. You have to restart Katalon Studio (close and open the project again) to reload its class paths.
+
+![Driver folder](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/import_java_library/2.-Katalon-External-Library.png)
+
+When your `.jar` library is recognized by the test engine, you should be able to use it. Refer to **[How to create a Custom Keyword](/katalon-studio/tutorials/create-custom-keyword/)** for information on how to use the email validation functionality from Apache open-source library **commons-validator-1.5.1.jar.**
+
+## Exclude built-in libraries
+
+With the ability to remove built-in libraries stored in the `.classpath` file of a project folder, you can replace a built-in library with an external one for flexible libraries usage in a test project.
+
+**Requirements**
+
+* An active Katalon Studio Enterprise license
+* Katalon Studio version 7.8
+
+1. Open **Project** > **Settings** > **Library Management** 
+2. In the **Exclude the following built-in libraries** section, click **Add** to add a built-in library’s name that will be removed.
+3. In the **External Libraries** section, click **Add** to browse an external library to replace the excluded one.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/external-libraries/built-in-lib.png" width=100%>
