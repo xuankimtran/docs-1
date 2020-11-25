@@ -145,7 +145,7 @@ description: Release notes v6.x
 *   Added some small UI improvements when selecting devices and app files.
 *   \[BETA\] Added the capability to import Test Objects from Postman collection JSON file. Importable fields include Postman fields in Params, Headers, Body.
 *   Added a scrollbar in dropdown when selecting execution profiles.
-*   Added the capability to display all user folders/files in Test Explorer.
+*   Added the capability to display all user folders/files in Tests Explorer.
 *   Added the capability to allow configuration of plugin installlation location in Preferences -> Katalon -> Plugins.
 *   Added the capability to use variables in XPaths when finding test objects.
 

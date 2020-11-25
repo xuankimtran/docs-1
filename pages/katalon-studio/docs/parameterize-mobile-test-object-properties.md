@@ -11,7 +11,7 @@ The benefits of parameterizing mobile test objects are similar to those of param
 
 Below is an example of how to parameterize test objects in Mobile testing. Open a sample project of Mobile testing on Android devices by accessing **File> New Sample Project> Sample Android Mobile Tests Project**.
 
-Navigate to **Object Repository/Application/android.widget.TextView - App** in Test Explorer, open the test object view of `android.widget.TextView - App` whose property will be parameterized.
+Navigate to **Object Repository/Application/android.widget.TextView - App** in Tests Explorer, open the test object view of `android.widget.TextView - App` whose property will be parameterized.
 
 In this example, we want to find a test object that has `//*[(text() = 'demokatalon' or . = 'demokatalon')]` as its selector. Here are the steps to apply this feature:
 

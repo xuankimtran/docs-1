@@ -62,7 +62,7 @@ _Test Listeners_ is a great and flexible way to help you extend your current tes
 
 ### Manage Test Listeners
 
-Test Listeners can be treated the same as other test artifacts, which means you can perform all basic operations such as **create, copy/cut, rename or delete**. We will not talk much about these actions except **Create** one. Test Listeners locate in Test Explorer pane. To create **New** Test Listener:
+Test Listeners can be treated the same as other test artifacts, which means you can perform all basic operations such as **create, copy/cut, rename or delete**. We will not talk much about these actions except **Create** one. Test Listeners locate in Tests Explorer pane. To create **New** Test Listener:
 
 **Right-click** on Test Listeners in **Tests Explorer**. Select **New** \> **New Test Listener**.
 

@@ -41,7 +41,7 @@ where:
 | Profiles | List all execution [profiles](/x/xAHR) of the current project |
 | Include | Contains [Cucumber](/x/wRDR) Features File and Step Definitions |
 
->Starting from **Katalon Studio version 7.0.0**, you can customize Test Explorer by selecting **Project > Settings > Explorer**. By default, Test Explorer displays all test artifacts; hence, uncheck the test artifacts you want to hide and click **OK**.
+>Starting from **Katalon Studio version 7.0.0**, you can customize Tests Explorer by selecting **Project > Settings > Explorer**. By default, Tests Explorer displays all test artifacts; hence, uncheck the test artifacts you want to hide and click **OK**.
 
 Keywords Browser View
 ---------------------

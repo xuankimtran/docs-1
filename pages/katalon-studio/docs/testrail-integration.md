@@ -115,7 +115,7 @@ When TestRail Integration plugin is enabled, Query Provider in Dynamic Test Suit
 
 ### In Katalon Studio
 
-1. Create a new dynamic test suite: Right-click on Test Suite in Test Explorer > New > Dynamic Test Suite.
+1. Create a new dynamic test suite: Right-click on Test Suite in Tests Explorer > New > Dynamic Test Suite.
 
 2. Prepend the dynamic test suite's name with either `R<ID>` (for overwriting an existing test run) or `S<ID>` (for generating a new test run in this suite).
 

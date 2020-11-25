@@ -86,7 +86,7 @@ When you use Katalon Studio for the first time, you have the option to create Ne
 
 - You can create a new sample project through **File > New Sample Project** and select your preferred project. Enter the name of your new project and the location to store the project data on your machine.
 
-- When the sample project is loaded, you can view a test case or a test suite by selecting it in the Test Explorer on the left of the UI.
+- When the sample project is loaded, you can view a test case or a test suite by selecting it in the Tests Explorer on the left of the UI.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/getting-started/Screen-Shot-2018-09-06-at-2.32.06-PM.png)
 

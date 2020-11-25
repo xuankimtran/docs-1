@@ -17,7 +17,7 @@ The **Unused Test Objects Report** displays a list of test objects that you have
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-object-refactor/a.png" width="745" height="254">
 
-> Make sure you enable **Link with selected part** to view the selected unused test objects on Test Explorer.\
+> Make sure you enable **Link with selected part** to view the selected unused test objects on Tests Explorer.\
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-object-refactor/link-selected.png" width="471" height="87">
 
 You can view and maintain its details by double-clicking the object to display its **test object view**.  Alternatively, you can remove the outdated and obsolete ones to keep only those objects you have used.

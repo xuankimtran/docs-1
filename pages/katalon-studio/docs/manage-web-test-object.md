@@ -194,7 +194,7 @@ There are two ways to create the required ingredients:
 * [Using the built-in feature in Web Recorder and Spy](https://docs.katalon.com/katalon-studio/docs/web-image-based-object-recognition.html#use-built-in-tool)
 * [Using a manual way](https://docs.katalon.com/katalon-studio/docs/web-image-based-object-recognition.html#use-other-tools)
 
-In Test Explorer, under the **Screenshots** folder, you can see the **Matched Elements** and **Targets** folders.
+In Tests Explorer, under the **Screenshots** folder, you can see the **Matched Elements** and **Targets** folders.
 
 * The **Matched Elements** folder contains objects that are located by Katalon Studio based on the target images.
 * The **Targets** folder is for containing the images that Katalon Studio uses for locating objects.

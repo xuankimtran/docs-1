@@ -2,7 +2,7 @@
 title: "Start and Explore GUI of Katalon Studio"
 sidebar: katalon_studio_videos_sidebar
 permalink: katalon-studio/videos/explore_katalon_studio_gui.html
-description: "Today we will learn : Understand Katalon Studio UI Main Toolbar - quick access toolbar Test Explorer - manage and organise test,... Learn more!"
+description: "Today we will learn : Understand Katalon Studio UI Main Toolbar - quick access toolbar Tests Explorer - manage and organise test,... Learn more!"
 ---
 <iframe src="https://www.youtube.com/embed/NVJZmNcOMCw?autoplay=1" width="560" height="349" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
 
@@ -10,7 +10,7 @@ description: "Today we will learn : Understand Katalon Studio UI Main Toolbar - 
 
 *   Understand Katalon Studio UI
 *   Main Toolbar – quick access toolbar
-*   Test Explorer – manage and organise test
+*   Tests Explorer – manage and organise test
 *   Keyword Browser – quick access keywords
 *   Editors – for creating + managing tests
 *   Views Toolbar – quick access views

@@ -29,7 +29,7 @@ A Selenium IDE project contains Tests, Suites, and Executing. Katalon Studio onl
 
 ### Selenium IDE Suites - Katalon Studio Test Suites
 
-Under **Test Suites** in Test Explorers, Katalon Studio creates an **Imported from Selenium IDE Scripts** folder to store the imported suites. Once the import process is done, Katalon Studio open the test suites automatically.
+Under **Test Suites** in Tests Explorer, Katalon Studio creates an **Imported from Selenium IDE Scripts** folder to store the imported suites. Once the import process is done, Katalon Studio open the test suites automatically.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-selenium-ide/test-suites.png">
 
@@ -40,7 +40,7 @@ Notes:
 
 ### Selenium IDE Tests - Katalon Studio Test Cases
 
-Under **Test Cases** in Test Explorers, Katalon Studio creates an **Imported from Selenium IDE Scripts/&lt;suite name&gt;** folder to store the imported tests.
+Under **Test Cases** in Tests Explorer, Katalon Studio creates an **Imported from Selenium IDE Scripts/&lt;suite name&gt;** folder to store the imported tests.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-selenium-ide/test-cases.png">
 

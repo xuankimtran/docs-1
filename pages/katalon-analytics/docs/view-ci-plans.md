@@ -16,7 +16,7 @@ Starting from Katalon Studio version 7.6.6, you can view your remote execution p
 
 ## View CI Plans
 
-In the Test Explorer of Katalon Studio, go to **TestOps** > **Plans**. Here you can view the summary of your test plans that have been configured in TestOps CI. 
+In the Tests Explorer of Katalon Studio, go to **TestOps** > **Plans**. Here you can view the summary of your test plans that have been configured in TestOps CI. 
 
 Click on the **Plan Name** to view plan details.
 

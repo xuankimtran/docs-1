@@ -86,7 +86,7 @@ Therefore, as Katalon Studio utilizes Selenium for the automation execution, imp
 
 1.  Capture the draggable and droppable objects into the project's repository like above. If done correctly we have 2 test objects as below:
 
-![Test Explorer Katalon Studio](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/drag_drop_web_applications_katalon_studio/DragDrop6.png)
+![Tests Explorer Katalon Studio](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/drag_drop_web_applications_katalon_studio/DragDrop6.png)
 
 **_img_drag1_** is the identifier of the draggle image object, while **_div_div2_** identifies the destination rectangle element.
 
