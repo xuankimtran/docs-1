@@ -50,3 +50,34 @@ Users can view the license's details that they are using. From the main menu of 
 
 * macOS: **Katalon Studio > About Katalon Studio**
 * Windows/Linux: **Help > About**
+
+## Configure Idle Timeout
+
+> Introduced in version 7.8 and 
+
+available for Katalon Studio Enterprise
+online
+
+What is considered idle in Katalon Studio
+
+Use case: manage license usage efficiently by  
+problem to solve
+
+To enable timeout setting for license usage, please do as follows on Katalon Admin:
+
+1. Log into [Katalon Admin](https://admin.katalon.com/) 
+2. Select your **Organization** > select **Timeout**
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/turn-off.png">
+
+3. In the displayed **Idle Timeout Settings** screen, idle timeout is turned off by default.
+
+4. To turn it on, switch on the provided option and specify the timeout (in minutes). (120 minutes by default))
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/turn-on.png">
+
+5. Click **Update** to save your setting.
+
+After turning on this setting, in Katalon Studio, All KSE users in this organization will be affected by this setting.
+
+ If the session timeout configuration is enabled and Studio has been idle for 120 minutes (by default), Studio will automatically log out and show activation popup.
