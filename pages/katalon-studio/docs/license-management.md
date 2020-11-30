@@ -68,13 +68,13 @@ To enable timeout setting for license usage, please do as follows on Katalon Adm
 1. Log into [Katalon Admin](https://admin.katalon.com/) 
 2. Select your **Organization** > select **Timeout**
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/turn-off.png">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/turn-off.png" width=80%>
 
 3. In the displayed **Idle Timeout Settings** screen, idle timeout is turned off by default.
 
 4. To turn it on, switch on the provided option and specify the timeout (in minutes). (120 minutes by default))
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/turn-on.png">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/turn-on.png" width=80%>
 
 5. Click **Update** to save your setting.
 
