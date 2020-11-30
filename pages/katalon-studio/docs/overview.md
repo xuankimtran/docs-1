@@ -13,7 +13,7 @@ description:
 
 ## Documentations
 
-Our documentation center provides you with guides, tutorials, and reference materials. This resource helps you get to know and familiar with Katalon Studio features. Additionally, this knowledge base is critical to your configurations, features utilization, and successfully creating automation test scripts.
+Our documentation center provides you with guides, tutorials, and reference materials. This resource helps you get to know and familiarize with Katalon Studio features. Additionally, this knowledge base is critical to your configurations, features utilization, and successfully creating automation test scripts.
 
 * The Katalon team has prepared some [**sample projects**](https://github.com/katalon-studio-samples) for you to try out before testing your products.
 * **Test Design** contains detailed information on various components of a test case/test suite, and Katalon Studio features.
