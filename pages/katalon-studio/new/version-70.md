@@ -31,6 +31,7 @@ and Open source libraries's license scanning report in HTML named `KatalonStudio
 * [Katalon TestOps (Beta) Integration] View Releases in Katalon Studio's Test Explorer. 
 * Provide in-app tutorials for new Katalon users to start testing Web UI, Mobile, Web Service and Windows applications (Go to Help > Tutorials > Select Web UI/Mobile/Web Service/Windows).
 * You can create a new project with Desktop type.
+* [Katalon Studio Enterprise] Configure idle timeout for license usage management. [Learn more](https://docs.katalon.com/katalon-studio/docs/license-management.html#configure-idle-timeout)
 
 ### Improvements
 
