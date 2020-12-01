@@ -55,7 +55,7 @@ Users can view the license's details that they are using. From the main menu of 
 
 > Introduced in version 7.8 and applicable to the **online** Katalon Studio Enterprise (KSE) license only.
 
-With this function, you can optimize the usage of KSE licenses by setting a time restriction for users to have no interactions with Katalon Studio. This setting impacts all KSE users in this organization, which means each KSE user will sign out automatically when they take no actions in the app. 
+With this function, you can optimize the usage of KSE licenses by setting a time restriction for users to have no interactions with Katalon Studio. This setting impacts all KSE users in this organization, which means a KSE user will sign out automatically when they take no actions in the app. 
 
 **On Katalon Admin**: 
 
