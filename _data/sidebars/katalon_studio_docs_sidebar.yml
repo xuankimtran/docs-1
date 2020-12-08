@@ -610,7 +610,7 @@ items:
               - title: "[WebUI] Wait For Element Not Clickable" 
                 url: /katalon-studio/docs/webui-wait-for-element-not-clickable.html
               - title: "[WebUI] Wait For Element Not Has Attribute"
-                url: katalon-studio/docs/webui-wait-for-element-not-has-attribute.html 
+                url: /katalon-studio/docs/webui-wait-for-element-not-has-attribute.html 
               - title: "[WebUI] Wait For Element Not Present" 
                 url: /katalon-studio/docs/webui-wait-for-element-not-present.html
               - title: "[WebUI] Wait For Element Not Visible"
