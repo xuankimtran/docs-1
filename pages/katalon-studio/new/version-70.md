@@ -53,7 +53,7 @@ and Open source libraries's license scanning report in HTML named `KatalonStudio
 * Bug: Failed to display items in table and tree views on macOS Big Sur.
 * Bug: [Katalon Studio Enterprise - Export Test Artifacts] Cannot export test cases.
 * Bug: [Katalon Studio Enterprise] Cannot import API from OpenAPI Specification 3.0.
-* Bug: [Katalon Runtime Engine] Cannot upload test results to TestRail after executing Dynamic Test Suites.
+* Bug: [Katalon Runtime Engine] Cannot execute Dynamic Test Suites.
 * Bug: An issue of Katalon Runtime Engine activation failure on Katalon Docker Image.
 * Bug: GUI issues on Windows machines when scaling to more than 100% size of text.
 * Bug: [Test Object's Editor] Cannot display all object properties in a window screen.
