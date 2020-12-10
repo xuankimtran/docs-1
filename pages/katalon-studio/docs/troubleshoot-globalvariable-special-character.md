@@ -4,8 +4,12 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/troubleshoot-globalvariable-special-character.html
 ---
 
-When running your tests in console mode, you may get the `joptsimple.IllegalOptionSpecificationException: is not a legal option character` error when your global  variables contain special characters like `$`, or a space in its name and/or value. Learn to escape special characters in parameterized objects, [read here](https://docs.katalon.com/katalon-studio/docs/parameterize-web-objects.html#escaping-special-characters).
+When running your tests in console mode, you may get the `joptsimple.IllegalOptionSpecificationException: is not a legal option character` error when your global  variables' names contain special characters like `$`, or a space. For instance:
 
+* `-g_myVar="test"` (supported)
+* `-g_$myVar="test"` (not supported)
+
+> We recommend to give global variables a name without '$', and space.
 
 ```groovy
 joptsimple.IllegalOptionSpecificationException: $ is not a legal option character
