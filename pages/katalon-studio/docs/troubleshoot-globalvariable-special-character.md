@@ -1,8 +1,10 @@
 ---
-title: "joptsimple.IllegalOptionSpecificationException: $ is not a legal option character"
+title: "joptsimple.IllegalOptionSpecificationException: is not a legal option character"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/troubleshoot-globalvariable-special-character.html
 ---
+
+When running your tests in console mode, you may get the `joptsimple.IllegalOptionSpecificationException: is not a legal option character` error when your global  variables contain special characters like `$`, or a space in its name and/or value. 
 
 ```groovy
 joptsimple.IllegalOptionSpecificationException: $ is not a legal option character
@@ -30,3 +32,7 @@ joptsimple.IllegalOptionSpecificationException: $ is not a legal option characte
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
 ```
+
+See also:
+
+* [Escaping special characters in variables](https://docs.katalon.com/katalon-studio/docs/parameterize-web-objects.html#escaping-special-characters)
