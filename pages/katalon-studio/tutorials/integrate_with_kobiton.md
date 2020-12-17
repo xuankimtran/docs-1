@@ -21,6 +21,8 @@ redirect_from:
     - "/katalon-studio/docs/enable-kobiton-integration/"
 ---
 
+> From version 7.8 onwards, Katalon Studio supports SSO for authentication with Kobiton Server.
+
 ## Enable Kobiton Integration
 
 Kobiton is a powerful mobile device platform that offers real mobile devices for both testers and developers. Using Katalon Studio, you can easily execute automated tests on Kobiton's devices.
@@ -32,19 +34,20 @@ First you need to install the [Kobiton Integration](https://store.katalon.com/pr
 * Windows: **Windows > Katalon Studio Preferences > Katalon > Kobiton**.
 * macOS: **Katalon Studio > Preferences > Katalon > Kobiton**.
 
-    Check on the **Enable Kobiton Integration** checkbox.
+2. Select **Enable Kobiton Integration** and authenticate your access to the Kobiton Server.
 
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-kobiton-integration/image2017-6-29-163A533A33.png)
+* In **7.8 onwards**, enter you username and API Key, and click **Test Connection**.
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-kobiton-integration/sso-kobiton.png">
 
-2. Enter your Kobiton account in the **Authentication** form and click **Connect**. Katalon Studio will retrieve information for Kobiton integration automatically.
+   where:
 
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-kobiton-integration/image2017-6-29-163A543A3.png)
+   * **Kobiton Server**: The Kobiton server to be integrated with Katalon Studio.
+   * **API Key**: The token to be used by Katalon Studio when exchanging API messages with Kobiton server. You can generate more keys in [Kobiton API Settings](https://portal.kobiton.com/settings/keys).
 
-    where:
+* **Before 7.8**, enter your Kobiton account in the **Authentication** form and click **Connect**. Katalon Studio retrieves the information for Kobiton integration automatically.
 
-* **Kobiton Server**: The Kobiton server to be integrated with Katalon Studio.
-* **API Key**: The token to be used by Katalon Studio when exchanging API messages with Kobiton server. You can generate more keys in [Kobiton API Settings](https://portal.kobiton.com/settings/keys).
-
+   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-kobiton-integration/image2017-6-29-163A543A3.png)
+  
 3. Click **Apply** and then **OK** when you are done with the settings.
 
 ## Desired Capabilities for Kobiton Devices
