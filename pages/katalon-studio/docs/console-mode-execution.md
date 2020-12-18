@@ -469,6 +469,15 @@ katalonc -noSplash -runMode=console -projectPath="C:\Users\Katalon Studio\Projec
          <td>Type of the destination. There are 4 options for destination's type:"test-suite", "test-cycle", &nbsp;"release", and "root".</td>
          <td>N</td>
       </tr>
+      <tr>
+         <td>--info -qTestBuildNumber="text" --qTestBuildURL="text"</td>
+         <td>
+         <p>Introduced in version <strong>7.8.5</strong>. Pass the build's number and URL to Test Run properties on qTest.</p>
+         <p>Example:</p>
+         <p><code class="java plain"> Example: --info -qTestBuildNumber="Build 1" -qTestBuildURL="http://192.168.35.52:8080/job/katalon-demo/job/master/179/"</code></p>
+         </td>
+         <td>N</td>
+      </tr>
    </tbody>
 </table>
 
