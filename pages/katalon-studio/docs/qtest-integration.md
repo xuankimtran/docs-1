@@ -452,53 +452,38 @@ In a Test Case editor, open the **Integration** screen, click **Check for update
 
 If you wish to save the latest content of test steps and test case version, click **Sync up** in the pop-up **qTest Integration Update** dialog.
 
-### Map existing Katalon test cases to its corresponding qTest test case
+### Map a Katalon test case to a qTest test case by database ID
 
 > Introduced in version 7.8.5
 
-Katalon Studio provides an easy way to map a Katalon test case to its corresponding existing qTest test case.
+Katalon Studio provides an easy way to map a Katalon test case to an existing qTest test case.
 
 **Requirements**
 
 * You have enabled the qTest integration. 
 * Only applicable to test cases stored in the test case folders that have integrated with a qTest module.
+* Katalon Studio version 7.8.5
 
 1. Append the qTest test case's database ID to your Katalon test case's name.
 
-* In qTest, you can get a qTest test case's database ID in the test case URL. <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/db-id.png">
+* In qTest, you can get a qTest test case's database ID in the test case URL. 
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/id.png">
+
 * In Katalon Studio, select a test case you want to link to the above qTest test case, append the copied value to its name.
 
-2. Open the Katalon test case. In its editor, select the **Integration** tab, click **Link to qTest Test Case**.  
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/renamed.png">
+
+2. Open its editor, select the **Integration** tab. 
+3. Click **Link qTest Test Case**.  
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/link.png">
+
+4. Save your change when the test case is linked to qTest successfully. 
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/linked.png">
 
 
-
-
-
-**Preconditions**:
-
-* You have configured the mapping between Test modules and test case folders 
-* This can be applied to the test cases in that folder only
-
-If the test case with searched Id (database Id, not project Id) can not be found.
-
-1. Select a Katalon test case having no qTest integration and open its integration editor.
-
-2. Click **Link qTest test case**
-
-
-
-All KS test case’s integration information will be updated including the Comment field. Leave the KS test case script unchanged.
-
-The button will be hidden.
-
-Technical notes: get the Id using the Split function with [space] character as the delimiter; take the 1st return value, do not need to validate if the format is correct or not.
-
-
-If the test case with searched Id (database Id, not project Id) can not be found
-
-Show a popup with this error message: “The test case with Id [xxx] can not be found.”
-
-[OK] to close the popup
 
 
 
