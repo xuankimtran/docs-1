@@ -21,7 +21,7 @@ redirect_from:
     - "/katalon-studio/docs/enable-kobiton-integration/"
 ---
 
-> From version 7.8 onwards, Katalon Studio supports SSO for authentication with Kobiton Server.
+> From version 7.8 onwards, Kobiton accounts using SAML SSO login method can integrate with Katalon Studio.
 
 ## Enable Kobiton Integration
 
