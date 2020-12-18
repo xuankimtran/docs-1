@@ -161,13 +161,13 @@ In the displayed Setup Wizard, complete all items to finish the setup.
 
 **Precondition**: To submit automated execution results from Katalon Studio back to qTest Manager, you have activated Automation Integration and mapped Automation Status to Test Run Status in qTest. [Learn more](https://documentation.tricentis.com/qtest/od/en/content/qtest_manager/project_settings/activate_automation_integrations.htm).
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/qtest_map_status.png">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/qtest_map_status.png" width=70%>
 
 **In Katalon Studio**: Map Katalon Studio test status to the Automation Status you have configured earlier in qTest.
 
 Go to **Project**/**Settings**/**Plugins**/**qTest**/**Execution Status Mapping** and specify the submitted value of each test status.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/status-map-ks.png">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/status-map-ks.png" width=60%>
 
 ## Upload test cases to qTest
 
@@ -468,20 +468,20 @@ Katalon Studio provides an easy way to map a Katalon test case to an existing qT
 
 * In qTest, you can get a qTest test case's database ID in the test case URL. 
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/id.png">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/id.png" width=70%>
 
 * In Katalon Studio, select a test case you want to link to the above qTest test case, append the copied value to its name.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/renamed.png">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/renamed.png" width=80%>
 
 2. Open its editor, select the **Integration** tab. 
 3. Click **Link qTest Test Case**.  
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/link.png">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/link.png" width=50%>
 
 4. Save your change when the test case is linked to qTest successfully. 
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/linked.png">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/linked.png" width=70%>
 
 
 
