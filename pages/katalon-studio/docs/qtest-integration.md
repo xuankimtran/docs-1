@@ -461,8 +461,8 @@ Katalon Studio provides an easy way to map a Katalon test case to an existing qT
 **Requirements**
 
 * You have enabled the qTest integration. 
-* Only applicable to test cases stored in the test case folders that have integrated with a qTest module.
-* Katalon Studio version 7.8.5
+* Only applicable to test cases stored in the test case folders that have integrated with a qTest module. (refer to step 4 in [manual setup](https://docs.katalon.com/katalon-studio/docs/qtest-integration.html#manual-setup))
+* Katalon Studio version [7.8.5](https://github.com/katalon-studio/katalon-studio/releases/tag/v7.8.5)
 
 1. Append the qTest test case's database ID to your Katalon test case's name.
 
