@@ -155,6 +155,20 @@ In the displayed Setup Wizard, complete all items to finish the setup.
 
    > You should select test suites that contain those test cases defined in **Test Case Repositories** settings.
 
+## Execution Status Mapping
+
+> Introduced in version 7.8.5
+
+**Precondition**: To submit automated execution results from Katalon Studio back to qTest Manager, you have activated Automation Integration and mapped Automation Status to Test Run Status in qTest. [Learn more](https://documentation.tricentis.com/qtest/od/en/content/qtest_manager/project_settings/activate_automation_integrations.htm).
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/qtest_map_status.png" width=70%>
+
+**In Katalon Studio**: Map Katalon Studio test status to the Automation Status you have configured earlier in qTest.
+
+Go to **Project**/**Settings**/**Plugins**/**qTest**/**Execution Status Mapping** and specify the submitted value of each test status.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/status-map-ks.png" width=60%>
+
 ## Upload test cases to qTest
 
 > **Test cases folder** must be registered in [**Test Case Repositories**](/display/KD/qTest+Integration) before you can upload test cases to qTest.
@@ -437,3 +451,41 @@ In a Test Case editor, open the **Integration** screen, click **Check for update
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/test-case-version.png" width=420>
 
 If you wish to save the latest content of test steps and test case version, click **Sync up** in the pop-up **qTest Integration Update** dialog.
+
+### Map a Katalon test case to a qTest test case by database ID
+
+> Introduced in version 7.8.5
+
+Katalon Studio provides an easy way to map a Katalon test case to an existing qTest test case.
+
+**Requirements**
+
+* You have enabled the qTest integration. 
+* Only applicable to test cases stored in the test case folders that have integrated with a qTest module. (refer to step 4 in [manual setup](https://docs.katalon.com/katalon-studio/docs/qtest-integration.html#manual-setup))
+* Katalon Studio version [7.8.5](https://github.com/katalon-studio/katalon-studio/releases/tag/v7.8.5)
+
+1. Append the qTest test case's database ID to your Katalon test case's name.
+
+* In qTest, you can get a qTest test case's database ID in the test case URL. 
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/id.png" width=70%>
+
+* In Katalon Studio, select a test case you want to link to the above qTest test case, append the copied value to its name.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/renamed.png" width=80%>
+
+2. Open its editor, select the **Integration** tab. 
+3. Click **Link qTest Test Case**.  
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/link.png" width=50%>
+
+4. Save your change when the test case is linked to qTest successfully. 
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/linked.png" width=70%>
+
+
+
+
+
+
+
