@@ -17,19 +17,17 @@ description: Release note 7.x
 ## Official Release - Version 7.8.2
 
 ### Improvements
-
-* [Windows Testing] Enhance UX/UI of Collapsed mode for Windows Recorder 
-* [Katalon TestOps (Beta) Integration] Support for detecting assertion from the execution log
-* [Time Capsule] Allow users to enable/ disable Time Capsule in Project Settings. [Learn more](link)
-* [Time Capsule] Log timestamp before and after Time Capsule is generated
+ 
+* [Katalon TestOps (Beta) Integration] Support detecting Assertions in execution log.
+* [Time Capsule] Allow turning on/turning off Time Capsule in Project Settings (Go to Project > Settings > Execution > WebUI). 
+* [Time Capsule] Log timestamps before and after generating Time Capsule.
 
 ### Fixes
    
-* Bug: Incorrect generation of Time Capsule when test execution does not fail
-* Bug: Incorrectly showing "No application is started yet" in execution log. Address [here](https://github.com/katalon-studio/katalon-studio/issues/409)
-* Bug: [Katalon Runtime Engine] An exception thrown in the test suite when executing scripts
-* Bug: [Katalon Runtime Engine] Cannot recognize the SetUp method in the test case
-* Bug: [Web Testing] An issue when generating report as HTML
+* Bug: An issue of generating Time Capsule for an error that doesn't cause test execution to fail.
+* Bug: An issue of showing "No application is started yet" when test execution already started. Address [here](https://github.com/katalon-studio/katalon-studio/issues/409).
+* Bug: [Katalon Runtime Engine] Test engine sometimes throws `UnsupportedOperationException` and cannot recognize `SetUp` method.
+* Bug: Cannot generate execution reports when `WebUI.comment` contains invalid XML characters.
 
 ## Version 7.8.0 - 7.8.1
 
