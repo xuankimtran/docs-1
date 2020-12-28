@@ -20,13 +20,11 @@ description: Release note 7.x
  
 * [Katalon TestOps (Beta) Integration] Support detecting Assertions in execution log.
 * [Time Capsule] Allow turning on/turning off Time Capsule in Project Settings (Go to Project > Settings > Execution > WebUI). 
-* [Time Capsule] Log timestamps before and after generating Time Capsule.
 
 ### Fixes
    
 * Bug: An issue of generating Time Capsule for an error that doesn't cause test execution to fail.
 * Bug: An issue of showing "No application is started yet" when test execution already started. Address [here](https://github.com/katalon-studio/katalon-studio/issues/409).
-* Bug: [Katalon Runtime Engine] Test engine sometimes throws `UnsupportedOperationException` and cannot recognize `SetUp` method.
 * Bug: Cannot generate execution reports when `WebUI.comment` contains invalid XML characters.
 
 ## Version 7.8.0 - 7.8.1
