@@ -23,8 +23,8 @@ description: Release note 7.x
 
 ### Fixes
    
-* Bug: An issue of generating Time Capsule for an error that doesn't cause test execution to fail.
-* Bug: An issue of showing "No application is started yet" when test execution already started. Address [here](https://github.com/katalon-studio/katalon-studio/issues/409).
+* Bug: An issue of generating a Time Capsule for an error that doesn't cause test execution to fail.
+* Bug: An issue of showing "No application is started yet" when test execution is already started. Address [here](https://github.com/katalon-studio/katalon-studio/issues/409)
 * Bug: Cannot generate execution reports when `WebUI.comment` contains invalid XML characters.
 
 ## Version 7.8.0 - 7.8.1
