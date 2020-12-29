@@ -7,38 +7,36 @@ Previously, to fix a broken test object, you have to manually reproduce the stat
 
 To tackle this issue, Katalon Studio **7.8** supports restoring the AUT to the state when the test fails due to locators not finding Web UI objects. This powerful capability allows you to open a "Time Capsule" for fixing broken objects, reducing reproduction effort, and cutting off time spent on troubleshooting and maintaining your test scripts.
 
-> Only applicable to Web UI testing on **Chrome** browser.
-
-### Enable/ Disable Time Capsule extension
-
-   This extension works similar to **Default Smart Wait**. When disabled, Time Capsule will not be installed and generated.
-
-   **Prior to 7.8.2**
-
-   Time Capsule is enabled by default.
-
-   **From 7.8.2**
-
-   Time Capsule is disabled by default. 
-   
-<img alt="Time Capsule is disabled by default" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/time-capsule/TS-disable.png" width=95%>
-   
-   To turn on/ off the Time Capsule, please do as follows: 
-
-   1. Click on Project on the main toolbar > Settings > Execution > WebUI
-
-<img alt="Project settings" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/time-capsule/TS-project.png" width=95%>
-
-   2. In dropdown list of Default Time Capsule, choose Enable/ Disable > OK
-
-<img alt="Enable Time Capsule" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/time-capsule/TS-enable.png" width=95%>
-
 Notably, two enhancements assist you in optimizing the workflow of fixing your tests:
 
 1. The test engine captures the snapshot (in HTML) of your AUT upon failures automatically. The snapshot stored in the **Report** folder of a project allows you to time-travel to AUT's state when it failed.
 2. For a specific exception of `com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id ... not found`, you can trigger the 'Time Capsule' in either the **Log Viewer** of a Test Case or a Test Suite Report. 
 
-The following usage examples illustrate how to trigger the "Time Capsule" when a test case or a test suite fails.
+> Only applicable to Web UI testing on **Chrome** browser.
+
+This document shows you how to turn on/ off the Time Capsule, and how to trigger the "Time Capsule" when a test case or a test suite fails in the following usage examples.
+
+### Turn on/ off Time Capsule
+
+   This extension works similar to [**Default Smart Wait**](https://docs.katalon.com/katalon-studio/docs/webui-smartwait.html#temporarily-turn-off-smart-wait). When disabled, Time Capsule will not be installed and generated.
+
+   **Prior to 7.8.2**
+
+   Time Capsule is enabled by default.
+
+   **From 7.8.2 onwards**
+
+   Time Capsule is disabled by default. 
+
+   <img alt="Time Capsule is disabled by default" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/time-capsule/TS-disable.png" width=95%> 
+   
+   To turn on/ off the Time Capsule, please do as follows: 
+
+   1. Go to **Project > Settings > Execution > WebUI**
+
+   2. In dropdown list of **Default Time Capsule**, choose **Enable/ Disable > OK**
+
+      <img alt="Enable Time Capsule" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/time-capsule/TS-enable.png" width=95%>
 
 ### Failed Test Case Execution scenario
 
