@@ -18,17 +18,11 @@ This document shows you how to turn on/ off the Time Capsule, and how to trigger
 
 ### Turn on/ off Time Capsule
 
-   This extension works similar to [**Default Smart Wait**](https://docs.katalon.com/katalon-studio/docs/webui-smartwait.html#temporarily-turn-off-smart-wait). When disabled, Time Capsule will not be installed and generated.
-
    **Prior to 7.8.2**
 
    Time Capsule is enabled by default.
 
    **From 7.8.2 onwards**
-
-   Time Capsule is disabled by default. 
-
-   <img alt="Time Capsule is disabled by default" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/time-capsule/TS-disable.png" width=95%> 
    
    To turn on/ off the Time Capsule, please do as follows: 
 
