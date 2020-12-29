@@ -1,11 +1,33 @@
 ---
-title: "Fixing broken Web Test Objects with time capsule" 
+title: "Fixing broken Web Test Objects with Time capsule" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/time-capsule.html 
 ---
 Previously, to fix a broken test object, you have to manually reproduce the state of the application under test (AUT) on failure. This approach is time-consuming. With automated tests using a Data-driven testing framework, it is even more tedious, complicating, and exhausting to reproduce the exact state of AUT manually when there is a large amount of test data.
 
-To tackle this issue, Katalon Studio **7.8** supports restoring the AUT to the state when the test fails due to locators not finding Web UI objects. This powerful capability allows you to open a "time capsule" for fixing broken objects, reducing reproduction effort, and cutting off time spent on troubleshooting and maintaining your test scripts.
+To tackle this issue, Katalon Studio **7.8** supports restoring the AUT to the state when the test fails due to locators not finding Web UI objects. This powerful capability allows you to open a "Time capsule" for fixing broken objects, reducing reproduction effort, and cutting off time spent on troubleshooting and maintaining your test scripts.
+
+**Prior to 7.8.2**
+
+   Time capsule is enabled by default.
+
+**From 7.8.2**
+
+   Time capsule is disabled by default. 
+   
+   <img alt="Time capsule is disabled by default" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/time-capsule/TS-disable.png" width=95%>
+   
+   To turn on/ off the Time capsule, please do as follows: 
+
+   1. Click on Project on the main toolbar > Settings > Execution > WebUI
+
+   <img alt="Project settings" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/time-capsule/TS-project.png" width=95%>
+
+   2. In dropdown list of Default Time Capsule, choose Enable/ Disable > OK
+
+   <img alt="Enable Time capsule" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/time-capsule/TS-enable.png" width=95%>
+   
+TIme capsule extension works similar to **Default Smart Wait**. When disabled, this extension will not be installed, and Time capsule will not be generated.
 
 > Only applicable to Web UI testing on **Chrome** browser
 
@@ -27,5 +49,3 @@ Once a test case execution fails due to `com.kms.katalon.core.webui.exception.We
 Similarly, when a Test Suite contains at least one failed Test Case due to broken locators, in Test Suite's Result/Report, you can click on the link “**Click here to fix broken Test Object**” to open the captured state of the AUT with the Spy Tool automatically.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/time-capsule/test-suite-fail.gif">
-
-
