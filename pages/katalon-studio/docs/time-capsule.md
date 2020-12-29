@@ -14,7 +14,7 @@ Notably, two enhancements assist you in optimizing the workflow of fixing your t
 
 > Only applicable to Web UI testing on **Chrome** browser.
 
-This document shows you how to turn on/ off the Time Capsule, and how to trigger the "Time Capsule" when a test case or a test suite fails in the following usage examples.
+This document shows you how to turn on/ off the Time Capsule and how to trigger the "Time Capsule" when a test case or a test suite fails in the following usage examples.
 
 ### Turn on/ off Time Capsule
 
