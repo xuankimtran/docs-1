@@ -19,7 +19,7 @@ description: Release note 7.x
 ### Improvements
  
 * [Katalon TestOps (Beta) Integration] Support detecting Assertions in execution log. [Learn more](https://forum.katalon.com/t/katalon-studio-7-8-2-make-use-of-assertions-for-better-test-case-quality-and-failure-investigation)
-* [Time Capsule] Allow turning on/turning off Time Capsule in Project Settings (Go to Project > Settings > Execution > WebUI). [Learn more](https://docs.katalon.com/katalon-studio/docs/time-capsule.html)
+* [Time Capsule] Allow turning on/turning off Time Capsule in Project Settings (Go to Project > Settings > Execution > WebUI). [Learn more](https://docs.katalon.com/katalon-studio/docs/time-capsule.html#turn-on-off-time-capsule)
 
 ### Fixes
    
