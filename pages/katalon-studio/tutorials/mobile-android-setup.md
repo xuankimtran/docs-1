@@ -21,7 +21,7 @@ description:
 
 ### Introduction
 
-   The Android-mobile-tests perform UI functional automation test on an android application using Katalon Studio.
+   The Android-mobile-tests perform UI functional automation test on an Android application using Katalon Studio.
 
 ### Set up Android tests on Windows and macOS
    
