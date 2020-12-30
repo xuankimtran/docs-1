@@ -65,4 +65,4 @@ description:
    * [Set up Android-mobile-tests](https://docs.katalon.com/katalon-studio/docs/mobile-on-macos.html)
    * [Troubleshoot automated mobile testing](https://docs.katalon.com/katalon-studio/docs/troubleshooting-automated-mobile-testing.html)
    </details>
-   
+  
