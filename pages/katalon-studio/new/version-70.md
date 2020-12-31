@@ -14,7 +14,40 @@ redirect_from:
 description: Release note 7.x
 ---
 
+<<<<<<< Updated upstream
 ## Official Release - Version 7.8.2
+=======
+## Official Release - Version 7.9
+
+### New features
+
+* [Katalon TestOps (Beta) Integration] [Mobile] Support to take new screenshot keyword. [Learn more](link)
+* [Katalon TestOps (Beta) Integration] [WebUI] Support to take screenshot keywords. [Learn more](link)
+* [Katalon TestOps Vision] Support to create a sample project
+
+### Improvements
+
+* [Katalon Studio Enterprise] Support to change default JRE 8 to higher versions (from 8 to 14). [Learn more](link)
+* [Katalon Studio] Notarize to install on macOS Catalina
+* [Katalon Studio Enterprise] Support the decompile class file. [Learn more](link)
+* [Eclipse Framework] Support to debug the decompile class file
+* [qTest Integration] Support to push screenshots. [Learn more](link)
+* [Jira Integration] Include Test Case Summary (Test Case names) when imported from Jira
+* Support Chrome 87
+* Support Microsoft Edge (Chromium) 87
+* Support Groovy 3.0.6
+* [Katalon TestOps (Beta) Integration] Support to merge settings and upload code into a drop-down box. [Learn more](link)
+* [Katalon Studio Enterprise] Enhance Execution, Plan and Release view
+
+### Fixes
+
+* Bug: [7.8.2] Some exceptions thrown while executing if the folder bin in the project is missing
+* Bug: [7.6.7] [Katalon Studio Enterprise] An issue of the license usage that users can use one license on different virtual machines with the same machine ID
+* Bug: [7.6.6] [Katalon Studio Enterprise] An issue of error scripts validation when executing by Test Suite Collection
+* Bug: [7.6.2] [WebUI] An issue of showing incorrect results when running some keywords with an invalid locator object
+
+## Version 7.8.2
+>>>>>>> Stashed changes
 
 ### Improvements
  
