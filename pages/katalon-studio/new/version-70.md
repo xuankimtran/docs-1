@@ -18,23 +18,23 @@ description: Release note 7.x
 
 ### New features
 
-* [Katalon TestOps (Beta) Integration] [Mobile] Support to take new screenshot keyword. [Learn more](link)
-* [Katalon TestOps (Beta) Integration] [WebUI] Support to take screenshot keywords. [Learn more](link)
-* [Katalon TestOps Vision] Support to create a sample project
-* [Katalon Studio Enterprise] Support to decompile the class file. [Learn more](link)
+* [Katalon TestOps (Beta) Integration] [Mobile] Support taking new screenshot keyword. [Learn more](link)
+* [Katalon TestOps (Beta) Integration] [WebUI] Support taking screenshot keywords. [Learn more](link)
+* [Katalon TestOps Vision] Support creating a sample project
+* [Katalon Studio Enterprise] Support decompiling the class file. [Learn more](link)
+* [Eclipse Framework] Support decompiling source code for debugging
 
 ### Improvements
 
-* [Katalon Runtime Engine] Support to change default JRE 8 to higher versions (from 8 to 14). [Learn more](link)
-* [Katalon Studio] Support to change default JRE 8 to higher versions (from 8 to 14). [Learn more](link)
+* [Katalon Runtime Engine] Support changing default JRE 8 to higher versions (from 8 to 14). [Learn more](link)
+* [Katalon Studio] Support changing default JRE 8 to higher versions (from 8 to 14). [Learn more](link)
 * [Katalon Studio] Notarize to install on macOS Catalina
-* [Eclipse Framework] Support to decompile source code for debugging
-* [qTest Integration] Support to push screenshots. [Learn more](link)
+* [qTest Integration] Support pushing screenshots. [Learn more](link)
 * [Jira Integration] Include Test Case Summary (Test Case names) when imported from Jira
 * Support Chrome 87
 * Support Microsoft Edge (Chromium) 87
 * Support Groovy 3.0.6
-* [Katalon TestOps (Beta) Integration] Support to merge settings and upload code into a drop-down box. [Learn more](link)
+* [Katalon TestOps (Beta) Integration] Support merging settings and uploading code into a drop-down box. [Learn more](link)
 * [Katalon Studio Enterprise] Enhance Execution, Plan and Release view
 
 ### Fixes
