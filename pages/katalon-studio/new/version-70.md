@@ -14,9 +14,6 @@ redirect_from:
 description: Release note 7.x
 ---
 
-<<<<<<< Updated upstream
-## Official Release - Version 7.8.2
-=======
 ## Official Release - Version 7.9
 
 ### New features
@@ -47,7 +44,6 @@ description: Release note 7.x
 * Bug: [7.6.2] [WebUI] An issue of showing incorrect results when running some keywords with an invalid locator object
 
 ## Version 7.8.2
->>>>>>> Stashed changes
 
 ### Improvements
  
