@@ -25,8 +25,8 @@ description: Release note 7.x
 
 ### Improvements
 
-* [Katalon Runtime Engine] Support changing default JRE 8 to higher versions (from 8 to 14). [Learn more](link)
-* [Katalon Studio] Support changing default JRE 8 to higher versions (from 8 to 14). [Learn more](link)
+* [Katalon Runtime Engine] Support changing default JRE 8 to higher versions (from version 8 to version 14). [Learn more](link)
+* [Katalon Studio] Support changing default JRE 8 to higher versions (from version 8 to version 14). [Learn more](link)
 * [Katalon Studio] Notarize to install on macOS Catalina
 * [qTest Integration] Support pushing screenshots. [Learn more](link)
 * [Jira Integration] Include Test Case Summary (Test Case names) when imported from Jira
