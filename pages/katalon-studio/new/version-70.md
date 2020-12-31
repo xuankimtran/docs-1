@@ -24,7 +24,7 @@ description: Release note 7.x
 
 ### Improvements
 
-* [Katalon Studio Enterprise] Support to change default JRE 8 to higher versions (from 8 to 14). [Learn more](link)
+* [Katalon Runtime Engine] Support to change default JRE 8 to higher versions (from 8 to 14). [Learn more](link)
 * [Katalon Studio] Notarize to install on macOS Catalina
 * [Katalon Studio Enterprise] Support the decompile class file. [Learn more](link)
 * [Eclipse Framework] Support to debug the decompile class file
