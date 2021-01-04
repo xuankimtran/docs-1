@@ -25,8 +25,7 @@ description: Release note 7.x
 
 ### Improvements
 
-* [Katalon Runtime Engine] Support changing default JRE 8 to higher versions (from version 8 to version 14). [Learn more](link)
-* [Katalon Studio] Support changing default JRE 8 to higher versions (from version 8 to version 14). [Learn more](link)
+* [Katalon Studio & Katalon Runtime Engine] Support changing default JRE 8 to higher versions (from version 8 to version 14). [Learn more](link)
 * [Katalon Studio] Notarize to install on macOS Catalina
 * [qTest Integration] Support pushing screenshots. [Learn more](link)
 * [Jira Integration] Include Test Case Summary (Test Case names) when imported from Jira
@@ -34,8 +33,7 @@ description: Release note 7.x
 * Support Chrome 87
 * Support Microsoft Edge (Chromium) 87
 * Support Groovy 3.0.6
-* [Katalon TestOps (Beta) Integration] Support merging settings and uploading code into a drop-down box. [Learn more](link)
-* [Katalon Studio Enterprise] Enhance Execution, Plan and Release view
+* [Katalon TestOps (Beta) Integration] Enhance Execution, Plan and Release view
 
 ### Fixes
 
@@ -114,7 +112,7 @@ and Open source libraries's license scanning report in HTML named `KatalonStudio
 * [Windows Testing] Support passing Capabilities including `appArguments` and `appWorkingDir` for Native Windows Recorder. [Learn more](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html#windows-desktop-app-testing)
 * Support using Global Variables in Email Settings. [Learn more](https://docs.katalon.com/katalon-studio/docs/execution-settings.html#support-global-variables-in-email-settings)
 * [Katalon Runtime Engine] Allow selecting an Organization for license validation when activating Katalon Runtime Engine. [Learn more](https://docs.katalon.com/katalon-studio/docs/use-online-license.html#katalon-runtime-engine)
-* [Katalon TestOps (Beta) Integration] Support integration with Katalon TestOps Vision for visual testing. [Learn more](https://forum.katalon.com/t/early-release-of-katalon-testops-vision-visual-testing-image-comparison)
+* [Katalon TestOps (Beta) Integration] Support integration with Katalon TestOps Vision for visual testing. [Learn more](https://forum.katalon.com/t/visual-testing-image-comparison-with-katalon-studio-7-8-0-and-katalon-testops/45557)
 
 ### Improvements
 
