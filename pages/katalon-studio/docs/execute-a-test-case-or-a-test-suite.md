@@ -196,7 +196,7 @@ You can also go to the source code where you set a breakpoint for debugging test
 
 ### Decompile Source Code for debugging
 
-From version 7.9.0 onwards, Katalon Studio supports viewing the source code in the library and decompiling it for debugging. The **Decompiler** function will search and attach the library source code if any, or else, it will decompile automatically.
+abcFrom version 7.9.0 onwards, Katalon Studio supports viewing the source code in the library and decompiling it for debugging. The **Decompiler** function will search and attach the library source code if any, or else, it will decompile automatically.
 
 You can customize the plug-ins in **Katalon Studio**/**Preference**/**Decompiler**
 
