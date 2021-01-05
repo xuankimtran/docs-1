@@ -32,7 +32,7 @@ Katalon Studio stores screenshots in the **Report** folder of a project. You can
 3. On the top right corner, click on **Show Test Case Details**
 3. In the Test Case's Log, select the **Image** tab and view the taken screenshot.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/screenshots-videos/log-image.png">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/screenshots-videos/log-image.png" height=330>
 
 You can use the taken screenshots for visual testing with TestOps Vision. [Learn more](https://forum.katalon.com/t/update-with-katalon-studio-7-7-early-release-of-katalon-testops-visual-testing-image-comparison/45557).
 
