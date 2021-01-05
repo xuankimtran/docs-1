@@ -112,7 +112,7 @@ Available actions in Katalon Web Recorder Utility is the same as Katalon Studio'
 
 During your recording, Katalon captures the objects that you have interacted with. When saving test script, **Katalon Web Recorder** exports a list of objects used in the test case. [Learn more about Web UI test objects](/x/tQTR).
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-web-utility/captured-objects.png">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-web-utility/captured-objects.png" width=50%>
 
 ### Variables
 
