@@ -33,7 +33,7 @@ To change to higher versions, do as follows:
 In case you want to check your Java version, here's the script:
 
 ```groovy
-`println System.getProperty('java.version')`
+println System.getProperty('java.version')
 ```
 
 ### In Katalon Runtime Engine
@@ -42,6 +42,7 @@ To add another JRE, you need to add the environment variable: **KATALON_JAVA_HOM
 
 Below is a sample command on macOS and Linux for your reference:
 
-`export KATALON_JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home`
-
-`./katalonc ...`
+```
+export KATALON_JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home
+./katalonc ...
+```
