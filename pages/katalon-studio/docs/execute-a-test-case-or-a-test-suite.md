@@ -80,7 +80,7 @@ To save your precious time from tedious repetitive re-running all unnecessary st
 * Debug mode
 * Debug from here
 * Attach source code for debugging
-* Decompile source code for debugging
+* Decompile class file for debugging
 
 **Requirements**
 
@@ -181,6 +181,10 @@ From version **7.5.5**, Katalon Studio provides **Debug from here** with **Chrom
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/debug-from-here.png" width="666" height="">
 
+## Read third-party libraries source code
+
+Katalon Studio supports reading source code from third-party librarjes for debugging. To conduct, follow one of the below utilities:
+
 ### Attach Source Code for debugging
 
 From Katalon Studio version 7.0.0, when writing a script or debugging, you can view and interact with the implementation of those components compressed in the `com.kms.katalon.core*` packages, including:
@@ -194,13 +198,15 @@ From Katalon Studio version 7.0.0, when writing a script or debugging, you can v
 
 You can also go to the source code where you set a breakpoint for debugging test scripts.
 
-### Decompile Source Code for debugging
+> This is the default feature provided by Eclipse.
 
-From version 7.9.0 onwards, Katalon Studio supports viewing the source code in the library and decompiling it for debugging. The **Decompiler** function will search and attach the library source code if any, or else, it will decompile automatically.
+### Decompile Class File for debugging
+
+From version 7.9.0, Katalon Studio supports viewing the source code in the library and decompiling the class file for debugging. The **Decompiler** function will search and attach the library source code if any, or else, it will decompile automatically.
 
 You can customize the plugins in **Katalon Studio**/**Preference**/**Decompiler**
 
-   <img alt="Use-default-attach-source" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/Decompiler-pluggin.png" width=90%>
+   <img alt="Use-default-attach-source" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/Decompiler-pluggin.png" width=95%>
 
 Same as the **Attach Source** function, you can go to the source code where you set a breakpoint for debugging test scripts.
 
