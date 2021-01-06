@@ -12,9 +12,11 @@ redirect_from:
 description:
 ---
 
-> From version **7.0.0**, you need a Runtime Engine (RE) [license](https://docs.katalon.com/katalon-studio/docs/license.html) to activate and run Katalon Studio (KS) or Katalon Studio Enterprise (KSE) in console mode.
+> From version **7.0.0** onwards, you need a Runtime Engine (RE) [license](https://docs.katalon.com/katalon-studio/docs/license.html) to activate and run Katalon Studio (KS) or Katalon Studio Enterprise (KSE) in console mode.
 >
 > Katalon Studio only supports **Chrome, Firefox, and Remote** options for console mode execution using the **Linux** version.
+>
+> From version **7.9** onwards, you can change default JRE 8 to higher versions in console mode. [Learn more](https://docs.katalon.com/katalon-studio/docs/change-default-JRE-8-to-higher-versions.html)
 
 You can execute an automation test without launching Katalon Studio by using command-line mode execution.
 
