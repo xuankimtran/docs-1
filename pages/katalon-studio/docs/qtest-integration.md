@@ -98,7 +98,7 @@ In the displayed Setup Wizard, complete all items to finish the setup.
 
 ## Manual Setup
 
-> From version 7.9 onwards, Katalon Studio supports pushing screenshots (PNG files) along with other existed submitting options to qTest to generate the report.
+> From version 7.9 onwards, Katalon Studio supports pushing screenshots (PNG files) along with other existing submitting options to qTest to generate the report.
 
 1. **qTest Version**: On Authentication form, select the version of your qTest. (_The **7 or higher** option is recommended because APIs of earlier versions might be deprecated soon_).
 
