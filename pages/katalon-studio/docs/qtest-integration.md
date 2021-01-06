@@ -90,12 +90,15 @@ In the displayed Setup Wizard, complete all items to finish the setup.
    3.3. **Katalon Test Suite folder**: select one test suite folder to be integrated with the selected **qTest module** above.
    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/image2017-8-4-103A23A19.png)
 
-4. Optional settings when uploading to qTest. Please refer to [Manual Setup](#EnableqTestIntegration-ManualSetup) for more details of each option.
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/image2017-8-1-183A283A21.png)
+4. Optional settings when uploading to qTest. Please refer to [Manual Setup](https://docs.katalon.com/katalon-studio/docs/qtest-integration.html#manual-setup) for more details of each option.
+
+   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/image2017-8-1-183A283A21.png)
 
 5. Complete all previous steps to finish the qTest setup wizard.
 
 ## Manual Setup
+
+> From version 7.9 onwards, Katalon Studio supports pushing screenshots (PNG files) along with other existed submitting options to qTest to generate the report.
 
 1. **qTest Version**: On Authentication form, select the version of your qTest. (_The **7 or higher** option is recommended because APIs of earlier versions might be deprecated soon_).
 
@@ -123,11 +126,11 @@ In the displayed Setup Wizard, complete all items to finish the setup.
    
    Fill <bearer_token_value> with **Bearer Token**. To find it, you need to access qTest Manager and sign in with your SSO account. Then navigate to the **Download qTest Resources** page, under the **API & SDK** section, you can see **Bearer Token**. 
    
-   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/bearer-token-sso.png)
+   <img alt="Bearer token" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/bearer-token.png" width=100%>
 
 3. Select other submitting options as following:
 
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/image2017-8-1-173A33A41.png)
+    <img alt="Submitting options" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/submitting-options.png" width=100%>
 
     Where:
 
