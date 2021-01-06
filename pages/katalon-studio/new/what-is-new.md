@@ -44,7 +44,7 @@ See also:
 
 ### Improve ALM & Cloud device provider integrations
 
-In this major release, we ship some important enhancements to better the integrations of Katalon Studio with Kobiton, Jira Cloud, and especially qTest. 
+In this major release, we shipped some important enhancements to improve the integration of Katalon Studio with Kobiton, Jira Cloud, and especially qTest. 
 
 **Kobiton Integration**: When configuring Kobiton integration in your project, you can use your Kobiton's API Key to authenticate with the Kobiton Server. New command options for this enhancement is supported accordingly. [Learn more](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#integration-options)
 
@@ -67,7 +67,7 @@ In addition to [importing RESTful requests from SoapUI](https://docs.katalon.com
 
 ### Provide In-app Tutorials for new users 
 
-If you're in the transition from manual test to automated test, it may be overwhelming in the beginning. One of the core values we propose to our users is to make Katalon Studio easy to use. Keeping this in mind, we provide automated test beginners with in-app tutorials of all technologies we currently support, including Web UI, Mobile, Web Service, and Desktop. In the future releases, we expect to provide tutorials of advanced features as well.
+If you're in the transition from manual testing to automated testing, it may be overwhelming in the beginning. One of the core values we propose to our users is to make Katalon Studio easy to use. Keeping this in mind, we provide automated test beginners with in-app tutorials of all technologies we currently support, including Web UI, Mobile, Web Service, and Desktop. In future releases, we expect to provide tutorials of advanced features as well.
 
 ### Start Page and Test Explorer Makeovers
 
