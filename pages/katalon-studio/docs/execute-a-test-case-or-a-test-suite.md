@@ -71,6 +71,8 @@ You can also refer to this [document](https://docs.katalon.com/katalon-studio/do
 
 ## Debug a test case
 
+> From version 7.9.0 onwards, Katalon Studio supports decompiling the class file for debugging. [Learn more](https://docs.katalon.com/katalon-studio/docs/execute-a-test-case-or-a-test-suite.html#decompile-class-file-for-debugging)
+
 Creating automation test cases is a repetitive task that requires a lot of editing and re-running test cases. In many automation tools, when a test case fails and you make certain changes to the script, you usually have to execute the whole script all over again to make sure the test is executed as expected.
 
 To save your precious time from tedious repetitive re-running all unnecessary steps for debugging and to make debugging easier, Katalon Studio provides the following utilities:
@@ -202,7 +204,7 @@ You can also go to the source code where you set a breakpoint for debugging test
 
 ### Decompile Class File for debugging
 
-From version 7.9.0, Katalon Studio supports viewing the source code in the library and decompiling the class file for debugging. The **Decompiler** function will search and attach the library source code if any, or else, it will decompile automatically.
+From version 7.9.0 onwards, Katalon Studio supports viewing the source code in the library and decompiling the class file for debugging. The **Decompiler** function will search and attach the library source code if any, or else, it will decompile automatically.
 
 You can customize the plugins in **Katalon Studio**/**Preference**/**Decompiler**
 
