@@ -189,6 +189,8 @@ Katalon Studio supports reading source code from third-party librarjes for debug
 
 ### Attach Source Code for debugging
 
+> This is the default feature provided by Eclipse.
+
 From Katalon Studio version 7.0.0, when writing a script or debugging, you can view and interact with the implementation of those components compressed in the `com.kms.katalon.core*` packages, including:
 
 * `com.kms.katalon.core`
@@ -199,8 +201,6 @@ From Katalon Studio version 7.0.0, when writing a script or debugging, you can v
 * `com.kms.katalon.core.windows`
 
 You can also go to the source code where you set a breakpoint for debugging test scripts.
-
-> This is the default feature provided by Eclipse.
 
 ### Decompile Class File for debugging
 
