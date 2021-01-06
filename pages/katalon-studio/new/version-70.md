@@ -21,15 +21,14 @@ description: Release note 7.x
 * [Katalon TestOps (Beta) Integration] [Mobile] Support taking new screenshot keyword. [Learn more](link)
 * [Katalon TestOps (Beta) Integration] [WebUI] Support taking screenshot keywords. [Learn more](link)
 * [Katalon TestOps Vision] Support creating a sample project
-* [Katalon Studio Enterprise] Support decompiling the class file. [Learn more](link)
+* [Katalon Runtime Engine] Support changing default JRE 8 to higher versions (from version 8 to version 14). [Learn more](https://docs.katalon.com/katalon-studio/docs/change-default-JRE-8-to-higher-versions.html)
+* Support decompiling the class file. [Learn more](https://docs.katalon.com/katalon-studio/docs/execute-a-test-case-or-a-test-suite.html#decompile-class-file-for-debugging)
 
 ### Improvements
 
-* [Katalon Studio & Katalon Runtime Engine] Support changing default JRE 8 to higher versions (from version 8 to version 14). [Learn more](link)
-* [Katalon Studio] Notarize to install on macOS Catalina
-* [qTest Integration] Support pushing screenshots. [Learn more](link)
+* Notarize to install on macOS Catalina
+* [qTest Integration] Support pushing screenshots. [Learn more](https://docs.katalon.com/katalon-studio/docs/qtest-integration.html#manual-setup)
 * [Jira Integration] Include Test Case Summary (Test Case names) when imported from Jira
-* [Eclipse Framework] Support decompiling source code for debugging
 * Support Chrome 87
 * Support Microsoft Edge (Chromium) 87
 * Support Groovy 3.0.6
