@@ -18,21 +18,34 @@ description: Release note 7.x
 
 ### New features
 
-* [Katalon TestOps (Beta) Integration] [Mobile] Support taking new screenshot keyword. [Learn more](link)
+* [Katalon TestOps Integration] [Mobile] Support taking new screenshot keyword.
+   - Take Screenshot As Checkpoint. [Learn more](https://docs.katalon.com/katalon-studio/docs/mobile-take-screenshot-as-checkpoint.html)
+   - Take Element Screenshot. [Learn more](https://docs.katalon.com/katalon-studio/docs/mobile-take-element-screenshot.html)
+   - Take Element Screenshot As Checkpoint. [Lear more](https://docs.katalon.com/katalon-studio/docs/mobile-take-element-screenshot-as-checkpoint.html)
+   - Take Area Screenshot. [Learn more](https://docs.katalon.com/katalon-studio/docs/mobile-take-area-screenshot.html)
+   - Take Area Screenshot As Checkpoint. [Learn more](https://docs.katalon.com/katalon-studio/docs/mobile-take-area-screenshot-as-checkpoint.html)
 * [Katalon TestOps Vision] Support creating a sample project
 * [Katalon Runtime Engine] Support changing default JRE 8 to higher versions (from version 8 to version 14). [Learn more](https://docs.katalon.com/katalon-studio/docs/change-default-JRE-8-to-higher-versions.html)
 * Support decompiling the class file. [Learn more](https://docs.katalon.com/katalon-studio/docs/execute-a-test-case-or-a-test-suite.html#decompile-class-file-for-debugging)
 
 ### Improvements
 
-* [Katalon TestOps (Beta) Integration] [WebUI] Enhance taking screenshot keywords. [Learn more](link)
+* [Katalon TestOps Integration] [WebUI] Enhance taking screenshot keywords. 
+   - Take Screenshot As Checkpoint. [Learn more](https://docs.katalon.com/katalon-studio/docs/webui-take-screenshot-as-checkpoint.html)
+   - Take Element Screenshot. [Learn more](https://docs.katalon.com/katalon-studio/docs/webui-take-element-screenshot.html)
+   - Take Element Screenshot As Checkpoint. [Lear more](https://docs.katalon.com/katalon-studio/docs/webui-take-element-screenshot-as-checkpoint.html)
+   - Take Area Screenshot. [Learn more](https://docs.katalon.com/katalon-studio/docs/webui-take-area-screenshot.html)
+   - Take Area Screenshot As Checkpoint. [Learn more](https://docs.katalon.com/katalon-studio/docs/webui-take-area-screenshot-as-checkpoint.html)
 * Notarize to install on macOS Catalina
 * [qTest Integration] Support pushing screenshots. [Learn more](https://docs.katalon.com/katalon-studio/docs/qtest-integration.html#manual-setup)
+* [qTest Integration] [CLI] Submit automation test status with build information to qTest Manager by `-qTestBuildLabel` and `-qTestBuildURL`. [Learn more](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#integration-options)
+* [qTest Integration] Execution Status Mapping.[Learn more](https://docs.katalon.com/katalon-studio/docs/qtest-integration.html#execution-status-mapping)
+* [qTest Integration] Map a Katalon test case to a qTest test case by database ID. [Learn more](https://docs.katalon.com/katalon-studio/docs/qtest-integration.html#map-a-katalon-test-case-to-a-qtest-test-case-by-database-id)
 * [Jira Integration] Include Test Case Summary (Test Case names) when imported from Jira
 * Support Chrome 87
 * Support Microsoft Edge (Chromium) 87
 * Support Groovy 3.0.6
-* [Katalon TestOps (Beta) Integration] Enhance Execution, Plan and Release view
+* [Katalon TestOps Integration] Enhance Execution, Plan and Release view
 
 ### Fixes
 
@@ -40,6 +53,7 @@ description: Release note 7.x
 * Bug: [7.6.7] [Katalon Studio Enterprise] An issue of the license usage that users can use one license on different virtual machines with the same machine ID
 * Bug: [7.6.6] [Katalon Studio Enterprise] An issue of error scripts validation when executing by Test Suite Collection
 * Bug: [7.6.2] [WebUI] An issue of showing incorrect results when running some keywords with an invalid locator object
+* Applitools sample project. [Learn more](https://github.com/katalon-studio-samples/katalon-studio-applitools-plugin-sample)
 
 ## Version 7.8.2
 
