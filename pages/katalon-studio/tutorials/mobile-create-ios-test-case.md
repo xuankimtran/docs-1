@@ -31,4 +31,3 @@
 5. Stop recording and save your script.
 
 > Click [here](https://docs.katalon.com/katalon-studio/docs/mobile-recorder-tutorials.html) for a detailed tutorial.
-
