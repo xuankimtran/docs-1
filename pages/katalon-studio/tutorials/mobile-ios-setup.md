@@ -1,7 +1,13 @@
 ---
+<<<<<<< Updated upstream
 title: "Mobile Tutorials"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/getting-started.html
+=======
+title: "[Mobile] iOS Setup"
+sidebar: katalon_studio_docs_sidebar
+permalink: katalon-studio/docs/ios-setup.html
+>>>>>>> Stashed changes
 redirect_from:
     - "/display/KD/Getting+Started/"
     - "/display/KD/Getting%20Started/"
@@ -27,7 +33,11 @@ description:
    
    #### On Windows machine
    
+<<<<<<< Updated upstream
    * You can only test an **iOS** application using **macOS**. 
+=======
+   You can only test an **iOS** application using **macOS**. 
+>>>>>>> Stashed changes
 
    #### On macOS machine
    
@@ -52,6 +62,7 @@ description:
    * usbmuxd 1.0.10 or newer
    * WebDriverAgent ([Installation guide](https://docs.katalon.com/katalon-studio/docs/mobile-on-macos.html#reference-installation-guide))
    
+<<<<<<< Updated upstream
    3. Set up the devices
    
    * Connect your iOS Devices to your computer via a USB cable. Confirm to accept/trust the phone.
@@ -60,6 +71,18 @@ description:
    * Connect the iOS device to Xcode.
    * On the iOS device, go to **Settings** > **Developer** > turn on **UIAutomation**
    
+=======
+   3. Set up the device
+   
+   * Connect your iOS Devices to your computer via a USB cable. Confirm to accept/trust the phone
+   * If you want to execute your tests using Safari on iOS (mobile browser), make sure Web Inspector is turned on for Safari (Settings > Safari > Advanced > Web Inspector)
+   * Enable the service UI automation on the device
+   * Connect the iOS device to Xcode
+   * On the iOS device, go to **Settings** > **Developer** > turn on **UIAutomation**
+   
+   [Next: Create your first iOS test case](link)
+
+>>>>>>> Stashed changes
    See also: 
    
    * [Set up Android-mobile-tests](https://docs.katalon.com/katalon-studio/docs/mobile-on-macos.html)
