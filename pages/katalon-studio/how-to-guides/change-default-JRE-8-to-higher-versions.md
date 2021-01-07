@@ -1,7 +1,7 @@
 ---
-title: "Change Default JRE 8 To Higher Versions"
+title: "How To Change Default JRE 8 To Higher Versions"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/change-default-JRE-8-to-higher-versions.html
+permalink: katalon-studio/docs/how-to-change-default-JRE-8-to-higher-versions.html
 description:
 ---
 Katalon Studio and Katalon Runtime Engine support changing Katalon’s embedded JRE as Java Compiler 8 to another vendor and higher versions (from version 8 to version 14).
