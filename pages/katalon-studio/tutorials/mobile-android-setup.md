@@ -1,8 +1,4 @@
 ---
-title: "Mobile Tutorials"
-sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/getting-started.html
-=======
 title: "[Mobile] Android Setup"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/android-setup.html
@@ -27,6 +23,8 @@ description:
 
    The Android-mobile-tests perform UI functional automation test on an Android application using Katalon Studio.
 
+   This topic describes the preliminary actions you need to perform to prepare the environment for testing Android applications with Katalon Studio.
+
 ### Set up Android tests on Windows and macOS
    
    #### On Windows machine
@@ -40,7 +38,7 @@ description:
    
    * Make sure you install Node.js into a location where you have full **Read** and **Write** permissions.
    
-   3. Set up your devices
+   3. Set up the devices
    
    * Turn on the phone's developer mode. Go to **Settings** > **Developer options**, enable:
    
@@ -75,14 +73,8 @@ description:
    
    * Install NodeJS
    * `npm install -g appium`
-
+   
    3. Set up the devices
-   
-   * Turn on the phone's developer mode (go to **Settings** > **Developer options**)
-   * Connect your Android Phone to your computer via a USB cable. Just confirm if prompted to accept/trust the device
-   * Install Android SDK: Katalon Studio will detect and ask you to install Android SDK automatically if your current machine does not have it
-   
-   3. Set up the device
    
    * Turn on the phone's developer mode (go to **Settings** > **Developer options**)
    * Connect your Android Phone to your computer via a USB cable. Just confirm if prompted to accept/trust the device
