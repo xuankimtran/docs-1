@@ -18,7 +18,6 @@ description: Release note 7.x
 
 ### New features
 
-* [Katalon TestOps Integration] Support visual testing
 * Support screenshot taking keywords for Mobile and Web testing, including:
    - Mobile:
       - [Take Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/mobile-take-screenshot-as-checkpoint.html)
