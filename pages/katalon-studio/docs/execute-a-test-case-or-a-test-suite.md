@@ -71,7 +71,9 @@ You can also refer to this [document](https://docs.katalon.com/katalon-studio/do
 
 ## Debug a test case
 
-> From version 7.9.0 onwards, Katalon Studio supports decompiling the class file for debugging. [Learn more](https://docs.katalon.com/katalon-studio/docs/execute-a-test-case-or-a-test-suite.html#decompile-class-file-for-debugging)
+> From version 7.9.0 onwards,
+> - Katalon Studio supports decompiling the class file for debugging. [Learn more](https://docs.katalon.com/katalon-studio/docs/execute-a-test-case-or-a-test-suite.html#decompile-class-file-for-debugging)
+> - **Attach source code** and **Decompile class file** function now open for all Katalon users.
 
 Creating automation test cases is a repetitive task that requires a lot of editing and re-running test cases. In many automation tools, when a test case fails and you make certain changes to the script, you usually have to execute the whole script all over again to make sure the test is executed as expected.
 
