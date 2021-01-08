@@ -18,7 +18,7 @@ description: Release note 7.x
 
 ### New features
 
-* Support screenshot taking keywords for Mobile and Web testing, including:
+* Support screenshot taking keywords for Mobile and Web testings, including:
    - Mobile:
       - [Take Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/mobile-take-screenshot-as-checkpoint.html)
       - [Take Element Screenshot](https://docs.katalon.com/katalon-studio/docs/mobile-take-element-screenshot.html)
@@ -32,29 +32,29 @@ description: Release note 7.x
       - [Take Area Screenshot](https://docs.katalon.com/katalon-studio/docs/webui-take-area-screenshot.html)
       - [Take Area Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/webui-take-area-screenshot-as-checkpoint.html)
 * Support Decompile Class File for debugging. [Learn more](https://docs.katalon.com/katalon-studio/docs/execute-a-test-case-or-a-test-suite.html#decompile-class-file-for-debugging)
-* [Katalon Runtime Engine] Support changing default JRE 8 to higher versions (from version 8 to version 14). [Learn more](https://docs.katalon.com/katalon-studio/docs/change-default-JRE-8-to-higher-versions.html)
-* [Katalon TestOps Vision] Support [a sample project for Visual Testing with TestOps Vision](https://github.com/katalon-studio-samples/web-visual-testing-samples)
+* [Katalon Runtime Engine] Support changing default JRE 8 to higher versions (from v8 to v14). [Learn more](https://docs.katalon.com/katalon-studio/docs/change-default-JRE-8-to-higher-versions.html)
+* [Katalon TestOps Vision] Support [a sample project for Visual Testing with TestOps Vision](https://github.com/katalon-studio-samples/web-visual-testing-samples).
 
 ### Improvements
 
-* Upgrade Groovy library from version 2.4.7 to 3.0
-* Upgrade Eclipse IDE from version 4.6 to 4.16
-* Notarize to install on macOS Catalina
+* Upgrade Groovy library from version 2.4.7 to 3.0.
+* Upgrade Eclipse IDE from version 4.6 to 4.16.
+* Notarize Katalon Studio and Katalon Runtime Engine applications for macOS Catalina. [Learn more](https://developer.apple.com/documentation/xcode/notarizing_macos_software_before_distribution)
 * Enhance qTest Integration, including:
-   - Support pushing screenshots. [Learn more](https://docs.katalon.com/katalon-studio/docs/qtest-integration.html#manual-setup)
+   - Support uploading screenshots in test results to qTest. [Learn more](https://docs.katalon.com/katalon-studio/docs/qtest-integration.html#manual-setup)
    - [CLI] Submit automation test status with build information to qTest Manager by `-qTestBuildLabel` and `-qTestBuildURL`. [Learn more](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#integration-options)
    - Execution Status Mapping.[Learn more](https://docs.katalon.com/katalon-studio/docs/qtest-integration.html#execution-status-mapping)
    - Map a Katalon test case to a qTest test case by database ID. [Learn more](https://docs.katalon.com/katalon-studio/docs/qtest-integration.html#map-a-katalon-test-case-to-a-qtest-test-case-by-database-id)
-* [Jira Integration] Name issue imported from Jira with more details (&lt;issue-id&gt; &lt;issue-summary&gt;)
-* Support Chrome 87
-* Support Microsoft Edge (Chromium) 87
+* [Jira Integration] Import JIRA issue summary along with issue ID to form Test Case Name in Katalon Studio.
+* Support Chrome 87.
+* Support Microsoft Edge (Chromium) 87.
 
 ### Fixes
 
-* Bug: Some exceptions thrown while executing if the folder bin in the project is missing
-* Bug: [Katalon Studio Enterprise] An issue of the license usage that users can use one license on a different virtual machine with the same machine ID
-* Bug: [Katalon Studio Enterprise] An issue of error scripts validation when executing by Test Suite Collection
-* Bug: [WebUI] An issue of showing incorrect results when running some keywords with an invalid locator object
+* Bug: Some exceptions thrown while executing if the folder bin in the project is missing.
+* Bug: [Katalon Studio Enterprise] An issue of the license usage that users can use one license on a different virtual machine with the same machine ID.
+* Bug: [Katalon Studio Enterprise] An issue of error scripts validation when executing by Test Suite Collection.
+* Bug: [WebUI] An issue of showing incorrect results when running some keywords with an invalid locator object.
 * Applitools sample project. [Learn more](https://github.com/katalon-studio-samples/katalon-studio-applitools-plugin-sample)
 
 ## Version 7.8.2
