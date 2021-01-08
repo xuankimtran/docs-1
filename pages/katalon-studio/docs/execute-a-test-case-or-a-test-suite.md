@@ -214,9 +214,9 @@ The **Decompiler** function will search and attach the library source code if an
 
    <img alt="Use-default-attach-source" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/Decompiler-pluggin.png" width=85%>
 
-Same as the **Attach Source** function, you can go to the source code where you set a breakpoint for debugging test scripts.
+Same as the **Attach Source** function, go to the source code where you set a breakpoint for debugging test scripts.
 
-To switch back to the default **Attach Source** function, please follow one of the below methods:
+To switch back to the default **Attach Source** function, follow one of the below methods:
 
 1. Click on the **Use Default** button on the message bar
 
