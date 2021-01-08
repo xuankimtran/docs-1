@@ -61,7 +61,7 @@ When you turn on this setting, Katalon Studio will generate a report for Test Su
 
 To view the generated parity report, open the Report folder.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/parity-report-html.png" width=75%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/parity-report-html.png" width=70%>
 
 ## Wizard Setup
 
@@ -82,7 +82,7 @@ In the displayed Setup Wizard, complete all items to finish the setup.
 3. In the Test Structure Mapping section, you need to map the tests between the two systems.
 
    3.1. **qTest module**: select one of the qTest modules fetched from your account to store the uploaded Katalon test cases.
-   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/image2017-8-4-103A13A24.png)
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/image2017-8-4-103A13A24.png" width=85%>
 
    3.2. **Katalon Test Case folder**: select one test case folder to be integrated with the chosen **qTest module** above.
    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/image2017-8-4-103A23A46.png)
