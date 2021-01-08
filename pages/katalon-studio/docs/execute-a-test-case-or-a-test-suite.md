@@ -71,10 +71,6 @@ You can also refer to this [document](https://docs.katalon.com/katalon-studio/do
 
 ## Debug a test case
 
-> From version 7.9.0 onwards,
-> - Katalon Studio supports decompiling the class file for debugging. [Learn more](https://docs.katalon.com/katalon-studio/docs/execute-a-test-case-or-a-test-suite.html#decompile-class-file-for-debugging)
-> - **Attach source code** and **Decompile class file** function now open for all Katalon users.
-
 Creating automation test cases is a repetitive task that requires a lot of editing and re-running test cases. In many automation tools, when a test case fails and you make certain changes to the script, you usually have to execute the whole script all over again to make sure the test is executed as expected.
 
 To save your precious time from tedious repetitive re-running all unnecessary steps for debugging and to make debugging easier, Katalon Studio provides the following utilities:
@@ -83,8 +79,6 @@ To save your precious time from tedious repetitive re-running all unnecessary st
 * Debug: Enable/Disable steps
 * Debug mode
 * Debug from here
-* Attach source code for debugging
-* Decompile class file for debugging
 
 **Requirements**
 
@@ -187,7 +181,17 @@ From version **7.5.5**, Katalon Studio provides **Debug from here** with **Chrom
 
 ## Read third-party libraries source code
 
-Katalon Studio supports reading source code from third-party librarjes for debugging. To conduct, follow one of the below utilities:
+> From version 7.9.0 onwards, **Decompile class file for debugging** is available for usage. [Learn more](https://docs.katalon.com/katalon-studio/docs/execute-a-test-case-or-a-test-suite.html#decompile-class-file-for-debugging)
+
+Katalon Studio supports reading source code from third-party libraries for debugging. To conduct, follow one of the below utilities:
+
+- Attach source code for debugging
+- Decompile class file for debugging
+
+**Requirements**
+
+* Attach source code: Katalon Studio version 7.0+
+* Decompile class file: Katalon Studio version 7.9+
 
 ### Attach Source Code for debugging
 
@@ -206,11 +210,9 @@ You can also go to the source code where you set a breakpoint for debugging test
 
 ### Decompile Class File for debugging
 
-From version 7.9.0 onwards, Katalon Studio supports viewing the source code in the library and decompiling the class file for debugging. The **Decompiler** function will search and attach the library source code if any, or else, it will decompile automatically.
+The **Decompiler** function will search and attach the library source code if any, or else, it will decompile automatically. You can customize the plugins in **Katalon Studio**/**Preference**/**Decompiler**
 
-You can customize the plugins in **Katalon Studio**/**Preference**/**Decompiler**
-
-   <img alt="Use-default-attach-source" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/Decompiler-pluggin.png" width=95%>
+   <img alt="Use-default-attach-source" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/Decompiler-pluggin.png" width=80%>
 
 Same as the **Attach Source** function, you can go to the source code where you set a breakpoint for debugging test scripts.
 
@@ -218,12 +220,12 @@ To switch back to the default **Attach Source** function, please follow one of t
 
 1. Click on the **Use Default** button on the message bar
 
-      <img alt="Use-default-attach-source" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/use-default.png" width=100%>
+      <img alt="Use-default-attach-source" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/use-default.png" width=85%>
 
 2. Go to **Katalon Studio**/**Preferences**/**Decompiler** and uncheck the **Search and attach...** option
 
-      <img alt="Disable-Decompiler" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/decompiler.png" width=100%>
+      <img alt="Disable-Decompiler" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/decompiler.png" width=85%>
 
 3. Go to **Katalon Studio**/**Preferences**/**File Associtaions** > choose **Class File Viewer** > **Default** > **Apply and Close**
 
-      <img alt="File-associations" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/file-associations.gif" width=100%>
+      <img alt="File-associations" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/file-associations.gif" width=85%>
