@@ -22,6 +22,8 @@ description:
 ### Introduction
 
    The iOS-mobile-tests perform UI functional automation test on an iOS application using Katalon Studio.
+   
+   This topic describes the preliminary actions you need to perform to prepare the environment for testing iOS applications with Katalon Studio.
 
 ### Set up iOS tests on Windows and macOS
    
@@ -54,14 +56,6 @@ description:
    
 <<<<<<< Updated upstream
    3. Set up the devices
-   
-   * Connect your iOS Devices to your computer via a USB cable. Confirm to accept/trust the phone
-   * If you want to execute your tests using Safari on iOS (mobile browser), make sure Web Inspector is turned on for Safari (Settings > Safari > Advanced > Web Inspector)
-   * Enable the service UI automation on the device
-   * Connect the iOS device to Xcode
-   * On the iOS device, go to **Settings** > **Developer** > turn on **UIAutomation**
-
-   3. Set up the device
    
    * Connect your iOS Devices to your computer via a USB cable. Confirm to accept/trust the phone
    * If you want to execute your tests using Safari on iOS (mobile browser), make sure Web Inspector is turned on for Safari (Settings > Safari > Advanced > Web Inspector)
