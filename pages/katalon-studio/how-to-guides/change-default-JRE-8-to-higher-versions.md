@@ -1,32 +1,32 @@
 ---
 title: "How to change default JRE 8 to higher versions"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/how-to-change-default-JRE-8-to-higher-versions.html
+permalink: katalon-studio/how-to-guides/change-default-JRE-8-to-higher-versions.html
 description:
 ---
-This guide will take you through the steps to change Katalon’s embedded JRE as Java Compiler 8 to another vendor and higher versions (from version 8 to version 14) in **Katalon Studio** and **Katalon Runtime Engine**.
+This guide will take you through the steps to change Katalon’s embedded [JRE](https://docs.oracle.com/cd/E19455-01/806-3461/6jck06gqd/index.html) as Java Compiler 8 to another vendor and higher versions (from version 8 to version 14) in **Katalon Studio** and **Katalon Runtime Engine**.
 
 ### In Katalon Studio
 
 To change to higher versions, do as follows:
 
-- Open **Windows/Preferences**, select **Installed JRE** section
+1. Open **Windows/Preferences**, select **Installed JRE** section
 
    <img alt="Installed JRE" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/change-default-JRE-8-to-higher-versions/jre11_1.jpg" width=90%>
 
-- Click on the **Add External...** button and locate the JRE/JDK 11 location
+2. Click on the **Add External...** button and locate the JRE/JDK 11 location
 
    <img alt="Add button" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/change-default-JRE-8-to-higher-versions/photo_2020-04-07%2012.07.55.jpeg" width=90%>
 
-- Change the default JDK/JRE from JRE8 to JDK/JRE 11
+3. Change the default JDK/JRE from JRE8 to JDK/JRE 11
    
    <img alt="Change default" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/change-default-JRE-8-to-higher-versions/photo_2020-04-07%2012.07.58.jpeg" width=90%> 
 
-- Download **javax-api.jar** file and copy to Drivers folder:
+4. Download **javax-api.jar** file and copy to Drivers folder:
 
    <img alt="Change default" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/change-default-JRE-8-to-higher-versions/photo_2020-04-07%2012.18.44.jpeg" width=90%>
 
-- Run a test case and see the result
+5. Run a test case and see the result
 
    <img alt="Console log" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/change-default-JRE-8-to-higher-versions/photo_2020-04-07%2012.08.01.jpeg" width=90%>
 
