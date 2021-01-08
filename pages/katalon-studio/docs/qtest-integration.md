@@ -47,7 +47,7 @@ After reloading plugins successfully to activate the qTest plugin, you can start
 
 2. Check the **Enable integration** checkbox. Next, you can either use the wizard setup or set up the qTest integration manually.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/enable-wizard.png">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/enable-wizard.png" width=85%>
 
 ### qTest - Katalon Studio Parity Report
 
@@ -61,7 +61,7 @@ When you turn on this setting, Katalon Studio will generate a report for Test Su
 
 To view the generated parity report, open the Report folder.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/parity-report-html.png" width=420>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/parity-report-html.png" width=85%>
 
 ## Wizard Setup
 
