@@ -212,7 +212,7 @@ You can also go to the source code where you set a breakpoint for debugging test
 
 The **Decompiler** function will search and attach the library source code if any, or else, it will decompile automatically. You can customize the plugins in **Katalon Studio**/**Preference**/**Decompiler**
 
-   <img alt="Use-default-attach-source" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/Decompiler-pluggin.png" width=80%>
+   <img alt="Use-default-attach-source" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/Decompiler-pluggin.png" width=85%>
 
 Same as the **Attach Source** function, you can go to the source code where you set a breakpoint for debugging test scripts.
 
