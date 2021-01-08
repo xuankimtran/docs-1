@@ -61,7 +61,7 @@ When you turn on this setting, Katalon Studio will generate a report for Test Su
 
 To view the generated parity report, open the Report folder.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/parity-report-html.png" width=85%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/parity-report-html.png" width=75%>
 
 ## Wizard Setup
 
