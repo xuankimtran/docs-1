@@ -45,7 +45,7 @@ description: Release note 7.x
    - [CLI] Submit automation test status with build information to qTest Manager by `-qTestBuildLabel` and `-qTestBuildURL`. [Learn more](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#integration-options)
    - Execution Status Mapping.[Learn more](https://docs.katalon.com/katalon-studio/docs/qtest-integration.html#execution-status-mapping)
    - Map a Katalon test case to a qTest test case by database ID. [Learn more](https://docs.katalon.com/katalon-studio/docs/qtest-integration.html#map-a-katalon-test-case-to-a-qtest-test-case-by-database-id)
-* [Jira Integration] Include Test Case Summary (Test Case names) when imported from Jira
+* [Jira Integration] Name issue imported from Jira with more details (&lt;issue-id&gt; &lt;issue-summary&gt;)
 * Support Chrome 87
 * Support Microsoft Edge (Chromium) 87
 
