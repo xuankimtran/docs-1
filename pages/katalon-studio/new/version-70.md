@@ -40,7 +40,7 @@ description: Release note 7.x
 * Upgrade Groovy library from version 2.4.7 to 3.0
 * Upgrade Eclipse IDE from version 4.6 to 4.16
 * Notarize to install on macOS Catalina
-* Ehance qTest Integration, including:
+* Enhance qTest Integration, including:
    - Support pushing screenshots. [Learn more](https://docs.katalon.com/katalon-studio/docs/qtest-integration.html#manual-setup)
    - [CLI] Submit automation test status with build information to qTest Manager by `-qTestBuildLabel` and `-qTestBuildURL`. [Learn more](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#integration-options)
    - Execution Status Mapping.[Learn more](https://docs.katalon.com/katalon-studio/docs/qtest-integration.html#execution-status-mapping)
@@ -52,7 +52,7 @@ description: Release note 7.x
 ### Fixes
 
 * Bug: Some exceptions thrown while executing if the folder bin in the project is missing
-* Bug: [Katalon Studio Enterprise] An issue of the license usage that users can use one license on different virtual machine with the same machine ID
+* Bug: [Katalon Studio Enterprise] An issue of the license usage that users can use one license on a different virtual machine with the same machine ID
 * Bug: [Katalon Studio Enterprise] An issue of error scripts validation when executing by Test Suite Collection
 * Bug: [WebUI] An issue of showing incorrect results when running some keywords with an invalid locator object
 * Applitools sample project. [Learn more](https://github.com/katalon-studio-samples/katalon-studio-applitools-plugin-sample)
