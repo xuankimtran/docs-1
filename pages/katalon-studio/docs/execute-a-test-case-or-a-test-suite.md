@@ -92,13 +92,13 @@ With this feature, you can resume the existing execution quickly. Katalon Studio
 1. Start a browser with the `Open Browser` step, or you must have a currently running browser
 2. Make sure this browser's session is NOT terminated when the execution finishes (Go to **Project/Settings/Execution** and uncheck the **Terminate...** options in **Post-Execution Options** based on your testing needs)
    
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/post-execution.png" width="" height="">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/post-execution.png" width=85%>
 
 3. In the Manual view of the test case, right-click on a step, select **Run from here** and select one of the **currently running** browser instances to execute your test.
 
    > If there are no running browser instances that are previously launched in Katalon Studio, **Run from here** is disabled.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/debug-from-here.png" width="684" height="">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/debug-from-here.png" width=85%>
 
 ### Debug: Enable/Disable steps
 
@@ -107,7 +107,7 @@ Katalon Studio allows you to enable/disable one or more test steps before execut
 * For Windows:  **Ctrl+D** (disable) and **Ctrl+E** (enable) on selected steps.
 * For macOS: **command+/** (disable) and **option+command+/**
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/enable-disable.png" width=682>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/enable-disable.png" width=85%>
 
 ### Debug mode
 
