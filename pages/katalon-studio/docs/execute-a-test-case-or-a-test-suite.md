@@ -167,17 +167,17 @@ From version **7.5.5**, Katalon Studio provides **Debug from here** with **Chrom
 1. Start a browser with the `Open Browser` step, or you must have a currently running browser
 2. Make sure this browser's session is NOT terminated when the execution finishes (Go to **Project/Settings/Execution** and uncheck the **Terminate...** options in **Post-Execution Options** based on your testing needs)
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/post-execution.png" width="" height="">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/post-execution.png" width=85%>
 
 3. Open a test case in its **Script** view and double-click on the leftmost side of the script editor to mark a breakpoint. A breakpoint is where Katalon Studio pauses the test execution for you to debug.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/breakpoint.png">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/breakpoint.png" width=85%>
 
 4. Switch to the test case's **Manual** view, right-click on a step, select **Debug from here** and select one of the **currently running** browser instances to execute your test.
 
    > If there are no running browser instances that are previously launched in Katalon Studio, **Debug from here...** is disabled.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/debug-from-here.png" width="666" height="">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/debug-from-here.png" width=85%>
 
 ## Read third-party libraries source code
 
