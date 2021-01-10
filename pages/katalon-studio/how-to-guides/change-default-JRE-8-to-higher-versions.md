@@ -37,13 +37,13 @@ Install the exact JRE version you want to upgrade (within version 8 to version 1
 
 ### Katalon Studio
 
-   To change to higher versions, do as follows:
+   To conduct, do as follows:
 
    1. Open **Windows/Preferences**, select **Installed JRE** section.
 
       <img alt="Installed JRE" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/change-default-JRE-8-to-higher-versions/jre11_1.jpg" width=90%>
 
-   2. Click on the **Add External...** button and locate the JRE or JDK 11 location.
+   2. Click on the **Add External...** button and locate the location of JRE or JDK 11.
 
       <img alt="Add button" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/change-default-JRE-8-to-higher-versions/photo_2020-04-07%2012.07.55.jpeg" width=90%>
 
