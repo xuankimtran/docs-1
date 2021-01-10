@@ -210,22 +210,20 @@ You can also go to the source code where you set a breakpoint for debugging test
 
 ### Decompile Class File for debugging
 
-The **Decompiler** function will search and attach the library source code if any, or else, it will decompile automatically. You can customize the plugins in **Katalon Studio**/**Preference**/**Decompiler**
+From Katalon Studio version 7.9.0, Katalon supports debugging **class file without source code** directly. On debugging a class file, Katalon will find, download, and attach the source code automatically for you. You don't have to perform these steps manually like in the previous versions of Katalon.
 
-   <img alt="Use-default-attach-source" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/Decompiler-pluggin.png" width=85%>
+   <img alt="decompiler-introduction" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/decompiler-introduction.png" width=85%>
 
-Same as the **Attach Source** function, go to the source code where you set a breakpoint for debugging test scripts.
+In case Katalon fails to find and attach the source code (e.g. It cannot find the source jar anywhere on the Internet,...), it will decompile the class file and show the decompiled source. Katalon support various algorithms for decompiling, including **Jad, JD, FernFlower, CFR, Procyon**.
 
-To switch back to the default **Attach Source** function, follow one of the below methods:
+#### How to enable/disable the decompiler feature?
+Katalon will enable this feature by default. You can double-check by:
+1. Go to Windows > Preferences (or Katalon Studio > Preferences on MacOS)
+2. Select General > Editors > File Associations
+3. For "\*.class" and "\*.class without source": "Katalon Class Decompiler Viewer" is selected by default. In case you want to switch back to the default class file viewer in previous versions, please choose "Class File Viewer" instead.
 
-1. Click on the **Use Default** button on the message bar
-
-      <img alt="Use-default-attach-source" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/use-default.png" width=85%>
-
-2. Go to **Katalon Studio**/**Preferences**/**Decompiler** and uncheck the **Search and attach...** option
-
-      <img alt="Disable-Decompiler" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/decompiler.png" width=85%>
-
-3. Go to **Katalon Studio**/**Preferences**/**File Associtaions** > choose **Class File Viewer** > **Default** > **Apply and Close**
-
-      <img alt="File-associations" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/file-associations.gif" width=85%>
+#### How to configure the decompiler feature?
+1. Go to Windows > Preferences (or Katalon Studio > Preferences on MacOS).
+2. Select Java > Decompiler
+   
+   <img alt="decompiler-introduction" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/decompiler-config.png" width=85%>
