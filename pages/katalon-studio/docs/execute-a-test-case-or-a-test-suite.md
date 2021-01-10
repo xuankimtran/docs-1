@@ -223,7 +223,7 @@ Katalon will enable this feature by default. You can double-check by:
 3. For "\*.class" and "\*.class without source": "Katalon Class Decompiler Viewer" is selected by default. In case you want to switch back to the default class file viewer in previous versions, please choose "Class File Viewer" instead.
 
 #### How to configure the decompiler feature?
-1. Go to Windows > Preferences (or Katalon Studio > Preferences on MacOS).
+1. Go to Windows > Preferences (or Katalon Studio > Preferences on MacOS)
 2. Select Java > Decompiler
    
    <img alt="decompiler-introduction" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/decompiler-config.png" width=85%>
