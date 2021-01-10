@@ -79,7 +79,6 @@ To save your precious time from tedious repetitive re-running all unnecessary st
 * Debug: Enable/Disable steps
 * Debug mode
 * Debug from here
-* Attach source code for debugging
 
 **Requirements**
 
@@ -93,13 +92,13 @@ With this feature, you can resume the existing execution quickly. Katalon Studio
 1. Start a browser with the `Open Browser` step, or you must have a currently running browser
 2. Make sure this browser's session is NOT terminated when the execution finishes (Go to **Project/Settings/Execution** and uncheck the **Terminate...** options in **Post-Execution Options** based on your testing needs)
    
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/post-execution.png" width="" height="">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/post-execution.png" width=85%>
 
 3. In the Manual view of the test case, right-click on a step, select **Run from here** and select one of the **currently running** browser instances to execute your test.
 
    > If there are no running browser instances that are previously launched in Katalon Studio, **Run from here** is disabled.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/debug-from-here.png" width="684" height="">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/debug-from-here.png" width=85%>
 
 ### Debug: Enable/Disable steps
 
@@ -108,7 +107,7 @@ Katalon Studio allows you to enable/disable one or more test steps before execut
 * For Windows:  **Ctrl+D** (disable) and **Ctrl+E** (enable) on selected steps.
 * For macOS: **command+/** (disable) and **option+command+/**
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/enable-disable.png" width=682>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/enable-disable.png" width=85%>
 
 ### Debug mode
 
@@ -168,19 +167,35 @@ From version **7.5.5**, Katalon Studio provides **Debug from here** with **Chrom
 1. Start a browser with the `Open Browser` step, or you must have a currently running browser
 2. Make sure this browser's session is NOT terminated when the execution finishes (Go to **Project/Settings/Execution** and uncheck the **Terminate...** options in **Post-Execution Options** based on your testing needs)
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/post-execution.png" width="" height="">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/post-execution.png" width=85%>
 
 3. Open a test case in its **Script** view and double-click on the leftmost side of the script editor to mark a breakpoint. A breakpoint is where Katalon Studio pauses the test execution for you to debug.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/breakpoint.png">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/breakpoint.png" width=85%>
 
 4. Switch to the test case's **Manual** view, right-click on a step, select **Debug from here** and select one of the **currently running** browser instances to execute your test.
 
    > If there are no running browser instances that are previously launched in Katalon Studio, **Debug from here...** is disabled.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/debug-from-here.png" width="666" height="">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/debug-from-here.png" width=85%>
+
+## Read third-party libraries source code
+
+> From version 7.9.0 onwards, **Decompile class file for debugging** is available for usage. [Learn more](https://docs.katalon.com/katalon-studio/docs/execute-a-test-case-or-a-test-suite.html#decompile-class-file-for-debugging)
+
+Katalon Studio supports reading source code from third-party libraries for debugging. To conduct, follow one of the below utilities:
+
+- Attach source code for debugging
+- Decompile class file for debugging
+
+**Requirements**
+
+* Attach source code: Katalon Studio version 7.0+
+* Decompile class file: Katalon Studio version 7.9+
 
 ### Attach Source Code for debugging
+
+> This is the default feature provided by Eclipse.
 
 From Katalon Studio version 7.0.0, when writing a script or debugging, you can view and interact with the implementation of those components compressed in the `com.kms.katalon.core*` packages, including:
 
@@ -192,3 +207,25 @@ From Katalon Studio version 7.0.0, when writing a script or debugging, you can v
 * `com.kms.katalon.core.windows`
 
 You can also go to the source code where you set a breakpoint for debugging test scripts.
+
+### Decompile Class File for debugging
+
+The **Decompiler** function will search and attach the library source code if any, or else, it will decompile automatically. You can customize the plugins in **Katalon Studio**/**Preference**/**Decompiler**
+
+   <img alt="Use-default-attach-source" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/Decompiler-pluggin.png" width=85%>
+
+Same as the **Attach Source** function, go to the source code where you set a breakpoint for debugging test scripts.
+
+To switch back to the default **Attach Source** function, follow one of the below methods:
+
+1. Click on the **Use Default** button on the message bar
+
+      <img alt="Use-default-attach-source" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/use-default.png" width=85%>
+
+2. Go to **Katalon Studio**/**Preferences**/**Decompiler** and uncheck the **Search and attach...** option
+
+      <img alt="Disable-Decompiler" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/decompiler.png" width=85%>
+
+3. Go to **Katalon Studio**/**Preferences**/**File Associtaions** > choose **Class File Viewer** > **Default** > **Apply and Close**
+
+      <img alt="File-associations" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/file-associations.gif" width=85%>
