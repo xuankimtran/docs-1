@@ -47,7 +47,8 @@ By when the Test Run should be executed. (A Trigger can be an Event (e.g. from G
 
 **Katalon TestOps** provides you an ability to determine when the Test Run is executed so that you can actively plan your testing procedure.
 
-> To create a Trigger, go to **Test Planning** > *Test Run Types* > Select the one you want to create a Trigger for > Click *"Create Trigger"* button.                                                                                                      
+> To create a Trigger, go to **Test Planning** > *Test Run Types* > Select the one you want to create a Trigger for > Click *"Create Trigger"* button.                  
+
 **Example**
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-terminology/trigger.png)
@@ -92,7 +93,9 @@ A collection of Test Runs having the same configurations.
 
 Give you an ability to view the list of Test Run with similar configurations (Test Environment, Trigger, Script Repository) so that you can better manage your Test Runs.
 
-> You can find Test Run Types in **Test Planning** section.                                                                                                               **Example**
+> You can find Test Run Types in **Test Planning** section.   
+
+**Example**
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-terminology/test-run-type.png)   
 
@@ -107,7 +110,9 @@ Give you information after executing a subset of the overall Test Run. In **Kata
 - One or more Test Cases
 - Test Environment and test scripts in Script Repository used for the execution of each Test Case 
 
-> To view Test Session, in **Reports & Analytics** section, go to *Test Runs* > select a Test Run you want to view > *Test Session* tab.                                                                                                                  **Example**                                                                          
+> To view Test Session, in **Reports & Analytics** section, go to *Test Runs* > select a Test Run you want to view > *Test Session* tab.
+
+**Example**                                                                          
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-terminology/test-session.png) 
 
@@ -163,7 +168,8 @@ Represents a Jira Issue linked to a Test Case in **Katalon TestOps**.
 
 Give you an oveview of performance of Test Cases by Jira issue so that you can oversee the Test Case quality for better test performance. 
 
-> Requirements can be managed in **Test Management** section.                                                                                                             
+> Requirements can be managed in **Test Management** section.
+
 **Example**
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-terminology/requirement.png) 
@@ -177,7 +183,8 @@ Has multiple Test Results, usually when the Test Case is a data-driven one. A Te
 
 Ensure if different features within an application are working as expected. **Katalon TestOps** provides you detailed information of Test Cases that helps your team validate if the software is free of defects and if it is working as per your expectations. You can also link Test Cases to Jira Requirements to ensure good test coverage.
 
-> You can find Test Cases in **Test Management** section.                                                                                                
+> You can find Test Cases in **Test Management** section.
+
 **Example** 
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-terminology/test-case.png)                                    
@@ -191,7 +198,9 @@ A collection of Test Cases.
 
 Organize Test Cases for better management and maintenance.
 
-> You can find Test Suites in **Test Management** section.                                                                                                                
+> You can find Test Suites in **Test Management** section.
+
+
 **Example**
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-terminology/test-suite.png)                                  
