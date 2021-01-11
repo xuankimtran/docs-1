@@ -105,18 +105,18 @@ description:
    
    10. **Install WebDriverAgent**
    
-      Follow these following links:
-      * [Installing WebDriverAgent for iOS devices](/display/KD/Installing+WebDriverAgent+for+iOS+devices).
-      * [WebDriverAgent project page](https://github.com/facebook/WebDriverAgent).
+   Follow these links:
+   * [Installing WebDriverAgent for iOS devices](/display/KD/Installing+WebDriverAgent+for+iOS+devices).
+   * [WebDriverAgent project page](https://github.com/facebook/WebDriverAgent).
    
    Additionally, if you want to test iOS applications, you need to download the packages below (which have been linked to their corresponding setting up instructions).
 
    3. Set up the devices
    
    * Connect your iOS Devices to your computer via a USB cable. Confirm to accept or trust the phone.
-   * If you want to execute your tests using Safari on iOS (mobile browser), make sure Web Inspector is turned on for Safari (**Settings > Safari > Advanced > Web Inspector**).
-   * Enable the service UI automation on the device.
-   * Connect the iOS device to Xcode.
+   * If you want to execute your tests using Safari on iOS (mobile browser), make sure **Web Inspector** is turned on for **Safari** (**Settings > Safari > Advanced > Web Inspector**).
+   * Enable the service **UI automation** on the device.
+   * Connect the iOS device to **Xcode**.
    * Go to **Settings** on the iOS device > **Developer** > turn on **UIAutomation**.
 
 ## Verify the mobile application file
@@ -133,7 +133,7 @@ description:
 
    If installed successfully, the application will appear in the **Installed Apps** section, as shown below.  
 
-      ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/image2016-8-8-143A313A14.png)
+   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/image2016-8-8-143A313A14.png)
 
    Next: [Create your first iOS test case](link)
 
