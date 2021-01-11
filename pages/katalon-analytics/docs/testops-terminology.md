@@ -137,7 +137,7 @@ Represents a Jira Issue linked to a (failed) Test Run in **Katalon TestOps**.
 
 Give you an oveview of performance of Test Runs by Jira issue so that you can have full control and awareness of any problem for better test maintenance.
 
->You can find Defects in **Test Management** section.
+> You can find Defects in **Test Management** section.
 >
 > Learn how to link Test Runs to Jira Defects [here](https://docs.katalon.com/katalon-analytics/docs/ka-defects.html).
 
