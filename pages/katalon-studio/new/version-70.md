@@ -25,7 +25,7 @@ description: Release note 7.x
       - [Take Element Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/mobile-take-element-screenshot-as-checkpoint.html)
       - [Take Area Screenshot](https://docs.katalon.com/katalon-studio/docs/mobile-take-area-screenshot.html)
       - [Take Area Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/mobile-take-area-screenshot-as-checkpoint.html)
-   - WebUI:
+   - Web UI:
       - [Take Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/webui-take-screenshot-as-checkpoint.html)
       - [Take Element Screenshot](https://docs.katalon.com/katalon-studio/docs/webui-take-element-screenshot.html)
       - [Take Element Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/webui-take-element-screenshot-as-checkpoint.html)
@@ -43,7 +43,7 @@ description: Release note 7.x
 * Enhance qTest Integration, including:
    - Support uploading screenshots in test results to qTest. [Learn more](https://docs.katalon.com/katalon-studio/docs/qtest-integration.html#manual-setup)
    - [CLI] Submit automation test status with build information to qTest Manager by `-qTestBuildLabel` and `-qTestBuildURL`. [Learn more](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#integration-options)
-   - Execution Status Mapping.[Learn more](https://docs.katalon.com/katalon-studio/docs/qtest-integration.html#execution-status-mapping)
+   - Execution Status Mapping. [Learn more](https://docs.katalon.com/katalon-studio/docs/qtest-integration.html#execution-status-mapping)
    - Map a Katalon test case to a qTest test case by database ID. [Learn more](https://docs.katalon.com/katalon-studio/docs/qtest-integration.html#map-a-katalon-test-case-to-a-qtest-test-case-by-database-id)
 * [Jira Integration] Import JIRA issue summary along with issue ID to form Test Case Name in Katalon Studio.
 * Support Chrome 87.
