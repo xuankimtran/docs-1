@@ -181,49 +181,67 @@ From version **7.5.5**, Katalon Studio provides **Debug from here** with **Chrom
 
 ## Read third-party libraries source code
 
-> From version 7.9.0 onwards, **Decompile class file for debugging** is available for usage. [Learn more](https://docs.katalon.com/katalon-studio/docs/execute-a-test-case-or-a-test-suite.html#decompile-class-file-for-debugging)
+   > From version 7.9.0 onwards, **Decompile class file for debugging** is available for usage. [Learn more](https://docs.katalon.com/katalon-studio/docs/execute-a-test-case-or-a-test-suite.html#decompile-class-file-for-debugging)
+   
+   Katalon Studio supports reading source code from third-party libraries for debugging. To conduct, follow one of the below utilities:
+   
+   - Attach source code for debugging
+   - Decompile class file for debugging
 
-Katalon Studio supports reading source code from third-party libraries for debugging. To conduct, follow one of the below utilities:
-
-- Attach source code for debugging
-- Decompile class file for debugging
-
-**Requirements**
-
-* Attach source code: Katalon Studio version 7.0+
-* Decompile class file: Katalon Studio version 7.9+
+   **Requirements**
+   
+   * Attach source code: Katalon Studio version 7.0+
+   * Decompile class file: Katalon Studio version 7.9+
 
 ### Attach Source Code for debugging
 
-> This is the default feature provided by Eclipse.
-
-From Katalon Studio version 7.0.0, when writing a script or debugging, you can view and interact with the implementation of those components compressed in the `com.kms.katalon.core*` packages, including:
-
-* `com.kms.katalon.core`
-* `com.kms.katalon.core.cucumber`
-* `com.kms.katalon.core.mobile`
-* `com.kms.katalon.core.webservice`
-* `com.kms.katalon.core.webui`
-* `com.kms.katalon.core.windows`
-
-You can also go to the source code where you set a breakpoint for debugging test scripts.
+   > This is the default feature provided by Eclipse.
+   
+   From Katalon Studio version 7.0.0, when writing a script or debugging, you can view and interact with the implementation of those components compressed in the `com.kms.katalon.core*` packages, including:
+   
+   * `com.kms.katalon.core`
+   * `com.kms.katalon.core.cucumber`
+   * `com.kms.katalon.core.mobile`
+   * `com.kms.katalon.core.webservice`
+   * `com.kms.katalon.core.webui`
+   * `com.kms.katalon.core.windows`
+   
+   You can also go to the source code where you set a breakpoint for debugging test scripts.
 
 ### Decompile Class File for debugging
 
-From Katalon Studio version 7.9.0, Katalon supports debugging **class file without source code** directly. On debugging a class file, Katalon will find, download, and attach the source code automatically for you. You don't have to perform these steps manually like in the previous versions of Katalon.
-
-   <img alt="decompiler-introduction" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/decompiler-introduction.png" width=85%>
-
-In case Katalon fails to find and attach the source code (e.g. It cannot find the source jar anywhere on the Internet,...), it will decompile the class file and show the decompiled source. Katalon support various algorithms for decompiling, including **Jad, JD, FernFlower, CFR, Procyon**.
-
-#### How to enable/disable the decompiler feature?
-Katalon will enable this feature by default. You can double-check by:
-1. Go to Windows > Preferences (or Katalon Studio > Preferences on MacOS)
-2. Select General > Editors > File Associations
-3. For "\*.class" and "\*.class without source": "Katalon Class Decompiler Viewer" is selected by default. In case you want to switch back to the default class file viewer in previous versions, please choose "Class File Viewer" instead.
-
-#### How to configure the decompiler feature?
-1. Go to Windows > Preferences (or Katalon Studio > Preferences on MacOS)
-2. Select Java > Decompiler
+   From version 7.9.0 onwards, Katalon Studio supports debugging **class file without source code** directly. On debugging a class file, Katalon Studio will automatically find, download, and attach the source code. You do not have to perform these steps manually, like in the previous versions.
    
-   <img alt="decompiler-introduction" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/decompiler-config.png" width=85%>
+   <img alt="decompiler-introduction" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/decompiler-introduction.png" width=85%>
+   
+   In case Katalon Studio fails to find and attach the source code (for example, it cannot find the source jar on the Internet), it will decompile the class file and show the decompiled source. 
+   
+   Katalon Studio supports various algorithms for decompiling, including:
+   - Jad.
+   - JD.
+   - FernFlower.
+   - CFR.
+   -  Procyon.
+
+### Turn on, turn off Decompiler feature
+
+   This feature is enabled by default, you can double-check as follows:
+   
+   1. **Windows**: Go to **Windows** > **Preferences**
+   
+      **MacOS**: Go to **Katalon Studio** > **Preferences** 
+   2. Select **General** > **Editors** > **File Associations**
+   3. For "\***.class**" and "\***.class without source**": "**Katalon Class Decompiler Viewer**" is selected by default. 
+   
+   In case you want to switch back to the default class file viewer in previous versions, please choose "**Class File Viewer**" instead.
+
+### Configure Decompiler feature
+
+   This section provides you with step-by-step instructions on configuring the **Decompiler** feature.
+   
+   1. **Windows**: Go to **Windows** > **Preferences**
+
+      **MacOS**: Go to **Katalon Studio** > **Preferences**    
+   2. Select **Java** > **Decompiler**
+
+      <img alt="decompiler-introduction" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/decompiler-config.png" width=85%>
