@@ -1175,6 +1175,8 @@ items:
     tree:
       - title: "Overview"
         url: /katalon-analytics/docs/overview.html
+      - title: "Terminology" 
+        url: /katalon-analytics/docs/testops-terminology.html
       - title: "Access Katalon TestOps"
         url: /katalon-analytics/docs/getting-started.html
       - title: "Set up Organizations"
