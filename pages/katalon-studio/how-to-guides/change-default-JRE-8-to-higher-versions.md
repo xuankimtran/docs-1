@@ -81,4 +81,4 @@ Install the exact JRE version you want to upgrade (within version 8 to version 1
    
    2. **Q: Is it possible to change to lower JRE versions?**
       
-      *A: Changing from a higher version to the lower one is risky because of not backward compatible, so our suggestion is "NO".*
+      *A: Changing from a higher version to a lower one is risky because of not backward compatible, so our suggestion is "NO".*
