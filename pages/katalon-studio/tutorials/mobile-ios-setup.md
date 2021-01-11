@@ -19,20 +19,19 @@ redirect_from:
 description:
 ---
 
-### Introduction
+## Introduction
 
    The iOS-mobile-tests perform UI functional automation test on an iOS application using Katalon Studio.
    
    This topic describes the preliminary actions you need to perform to prepare the environment for testing iOS applications with Katalon Studio.
 
-### Set up iOS tests on Windows and macOS
+## Set up iOS tests on Windows and macOS
    
-   #### On Windows machine
+### On Windows machine
 
    You can only test an **iOS** application using **macOS**. If you wish to set up your macOS environment for Katalon Studio, please refer to [this guide](https://docs.katalon.com/katalon-studio/docs/mobile-on-macos.html#supported-environments-on-macos).
 
-
-   #### On macOS machine
+### On macOS machine
    
    1. Supported environments
 
@@ -45,100 +44,96 @@ description:
    
    2. Install the following required components
    
-   * Appium v1.12.1 or newer, follow [these steps](http://appium.io/docs/en/about-appium/getting-started/#installing-appium).
-
-   > **Note**
-   >
-   > Make sure you install Node.js into a location where you have full **Read** and **Write** permissions.
-
-   * Xcode 10.2 or newer
-   * Command-line tool for Xcode
-   * Carthage 0.33 or newer
-   * ios-deploy 1.9.4 or newer
-   * ios-webkit-debug-proxy 1.8.4 or newer
-   * libimobiledevice 1.2.0 or newer
-   * usbmuxd 1.0.10 or newer
-   * WebDriverAgent ([Installation guide](https://docs.katalon.com/katalon-studio/docs/mobile-on-macos.html#reference-installation-guide))
+   * Appium v1.12.1 or newer. 
+   * Xcode 10.2 or newer.
+   * Command-line tool for Xcode.
+   * Carthage 0.33 or newer.
+   * ios-deploy 1.9.4 or newer.
+   * ios-webkit-debug-proxy 1.8.4 or newer.
+   * libimobiledevice 1.2.0 or newer.
+   * usbmuxd 1.0.10 or newer.
+   * WebDriverAgent.
    
    **Reference installation guide**
 
    We recommend you to refer to the official documentation of each component for the detailed instructions.
    
-   **Install Xcode**
+   1. **Install Xcode**
    
-   Xcode can be installed via Mac App Store.
+      Xcode can be installed via Mac App Store.
    
-   **Install Xcode command-line tool**
+   2. **Install Xcode command-line tool**
    
-   `xcode-select --install`\
-   `sudo xcode-select -s /Applications/Xcode.app/Contents/Developer`
+      `xcode-select --install`\
+      `sudo xcode-select -s /Applications/Xcode.app/   Contents/Developer`
    
-   **Install homebrew**
+   3. **Install homebrew**
    
-   Please follow this link: https://brew.sh/.
+      Follow [this link](https://brew.sh/).
    
-   **Install Appium**
+   4. **Install Appium**
    
-   `brew install node`\
-   `npm install -g appium`
+      `brew install node`\
+      `npm install -g appium`
+   > **Note**
+   >
+   > Make sure you install Node.js into a location where you have full **Read** and **Write** permissions.
    
-   **Install carthage**
+   5. **Install carthage**
    
-   `brew install carthage`
+      `brew install carthage`
    
-   **Install ios-deploy**
+   6. **Install ios-deploy**
    
-   `brew install ios-deploy`
+      `brew install ios-deploy`
    
-   **Install usbmuxd**
+   7. **Install usbmuxd**
    
-   `brew install --HEAD usbmuxd`\
-   `brew unlink usbmuxd`\
-   `brew link usbmuxd`
+      `brew install --HEAD usbmuxd`\
+      `brew unlink usbmuxd`\
+      `brew link usbmuxd`
    
-   **Install libimobiledevice**
+   8. **Install libimobiledevice**
    
-   `brew install --HEAD libimobiledevice`\
-   `brew unlink libimobiledevice`\
-   `brew link libimobiledevice`
+      `brew install --HEAD libimobiledevice`\
+      `brew unlink libimobiledevice`\
+      `brew link libimobiledevice`
    
-   **Install ios-webkit-debug-proxy**
+   9. **Install ios-webkit-debug-proxy**
    
-   `brew install ios-webkit-debug-proxy`
+      `brew install ios-webkit-debug-proxy`
    
-   **Install WebDriverAgent**
+   10. **Install WebDriverAgent**
    
-   Please follow these links:
+      Follow these following links:
+      * [Installing WebDriverAgent for iOS devices](/display/KD/Installing+WebDriverAgent+for+iOS+devices).
+      * [WebDriverAgent project page](https://github.com/facebook/WebDriverAgent).
    
-   * [Installing WebDriverAgent for iOS devices](/display/KD/Installing+WebDriverAgent+for+iOS+devices)
-   
-   * [WebDriverAgent project page](https://github.com/facebook/WebDriverAgent)
-   
-   Additionally, if you want to test iOS applications, you will need to download the packages below (which have been linked to their corresponding setting up instructions).
+   Additionally, if you want to test iOS applications, you need to download the packages below (which have been linked to their corresponding setting up instructions).
 
    3. Set up the devices
    
-   * Connect your iOS Devices to your computer via a USB cable. Confirm to accept/trust the phone.
-   * If you want to execute your tests using Safari on iOS (mobile browser), make sure Web Inspector is turned on for Safari (Settings > Safari > Advanced > Web Inspector).
+   * Connect your iOS Devices to your computer via a USB cable. Confirm to accept or trust the phone.
+   * If you want to execute your tests using Safari on iOS (mobile browser), make sure Web Inspector is turned on for Safari (**Settings > Safari > Advanced > Web Inspector**).
    * Enable the service UI automation on the device.
    * Connect the iOS device to Xcode.
    * Go to **Settings** on the iOS device > **Developer** > turn on **UIAutomation**.
 
-### Verify the mobile app file
+## Verify the mobile application file
 
    Before testing an iOS native application file (**.   ipa** file), follow these steps to check if the    application file is already built and signed correctly.
    
    1. Open **Xcode** and navigate to **Window/Devices**
    
-   2. Choose your device from the Devices list.
+   2. Choose your device from the **Devices** list.
    
-   3. Press the "+" button and choose your application file.
+   3. Press the "**+**" button and choose your application file.
 
-   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/image2016-8-8-143A313A5.png)
+      ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/image2016-8-8-143A313A5.png)
 
    If installed successfully, the application will appear in the **Installed Apps** section, as shown below.  
 
-   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/image2016-8-8-143A313A14.png)
+      ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/image2016-8-8-143A313A14.png)
 
    Next: [Create your first iOS test case](link)
 
