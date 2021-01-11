@@ -23,7 +23,7 @@ description:
 
    The iOS-mobile-tests perform UI functional automation test on an iOS application using Katalon Studio.
    
-   This topic describes the required components you need to set up to prepare the environment for testing iOS applications with Katalon Studio.
+   This topic describes the preliminary actions you need to perform to prepare the environment for testing iOS applications with Katalon Studio.
 
 ### Set up iOS tests on Windows and macOS
    
