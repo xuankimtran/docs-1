@@ -51,11 +51,11 @@ description: Release note 7.x
 
 ### Fixes
 
-* Bug: Some exceptions thrown while executing if the folder bin in the project is missing.
-* Bug: [Katalon Studio Enterprise] An issue of the license usage that users can use one license on a different virtual machine with the same machine ID.
-* Bug: [Katalon Studio Enterprise] An issue of error scripts validation when executing by Test Suite Collection.
-* Bug: [WebUI] An issue of showing incorrect results when running some keywords with an invalid locator object.
-* Applitools sample project. [Learn more](https://github.com/katalon-studio-samples/katalon-studio-applitools-plugin-sample)
+* Bug: [Incorrect Test Results] Katalon returned PASSED when test scripts contained invalid syntax.
+* Bug: [Web UI Testing] Instead of logging warning messages and marking PASSED, `WebUI.verifyElementAttributeValue` marks failed if the element is not present. 
+* Bug: Exceptions thrown during execution when the project's folder bin is missing.
+* Bug: An issue of saving changes in Groovy files, including keywords, test listeners, step definitions while renaming test objects.
+* Bug: Performance issues of Applitools sample project. [Learn more](https://github.com/katalon-studio-samples/katalon-studio-applitools-plugin-sample)
 
 ## Version 7.8.2
 
