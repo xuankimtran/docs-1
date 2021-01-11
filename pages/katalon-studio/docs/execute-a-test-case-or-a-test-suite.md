@@ -231,7 +231,7 @@ From version **7.5.5**, Katalon Studio provides **Debug from here** with **Chrom
    
       **MacOS**: Go to **Katalon Studio** > **Preferences** 
    2. Select **General** > **Editors** > **File Associations**
-   3. For "\***.class**" and "\***.class without source**": "**Katalon Class Decompiler Viewer**" is selected by default. 
+   3. For "\***.class**" and "\***.class without source**", "**Katalon Class Decompiler Viewer**" is selected by default. 
    
    In case you want to switch back to the default class file viewer in previous versions, please choose "**Class File Viewer**" instead.
 
