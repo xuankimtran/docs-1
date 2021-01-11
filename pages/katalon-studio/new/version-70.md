@@ -53,8 +53,7 @@ description: Release note 7.x
 
 * Bug: [Incorrect Test Results] Katalon returned PASSED when test scripts contained invalid syntax.
 * Bug: [Web UI Testing] Instead of logging warning messages and marking PASSED, `WebUI.verifyElementAttributeValue` marks failed if the element is not present. 
-* Bug: Exceptions thrown during execution when the project's folder bin is missing.
-* Bug: An issue of saving changes in Groovy files, including keywords, test listeners, step definitions while renaming test objects.
+* Bug: Katalon Studio IDE sometimes failed to save Groovy files' changes, including keywords, test listeners, step definitions while renaming test objects.
 * Bug: Performance issues of Applitools sample project. [Learn more](https://github.com/katalon-studio-samples/katalon-studio-applitools-plugin-sample)
 
 ## Version 7.8.2
