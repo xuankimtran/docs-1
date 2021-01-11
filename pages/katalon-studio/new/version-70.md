@@ -18,7 +18,7 @@ description: Release note 7.x
 
 ### New features
 
-* Support screenshot taking keywords for Mobile and Web testings, including:
+* Support screenshot taking keywords for Mobile and Web testing, including:
    - Mobile:
       - [Take Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/mobile-take-screenshot-as-checkpoint.html)
       - [Take Element Screenshot](https://docs.katalon.com/katalon-studio/docs/mobile-take-element-screenshot.html)
