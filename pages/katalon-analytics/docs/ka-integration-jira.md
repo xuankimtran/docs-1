@@ -34,7 +34,4 @@ After linking Test Cases to Jira issues, you can view them in **Katalon TestOps*
 
 ## Related topics
 
-- [Manage Test Runs by Release](https://docs.katalon.com/katalon-analytics/docs/kt-jira-release.html)
-- [View Release Readiness by Test Case status](https://docs.katalon.com/katalon-analytics/docs/kt-jira-release.html#view-release-readiness-by-test-case-status)
-- [View Release Readiness by Test Runs history](https://docs.katalon.com/katalon-analytics/docs/kt-jira-release.html#view-release-readiness-by-test-runs-history)
 - [Link Test Runs to Jira defects](https://docs.katalon.com/katalon-analytics/docs/ka-defects.html)
