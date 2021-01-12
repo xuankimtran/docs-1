@@ -11,7 +11,7 @@ Represents a version or a milestone of a software product, which consists of one
 
 **Usage**
 
-Manage your test cases and testing progress by milestone. With Katalon TestOps Release, you can view the overall performance and readiness of the software product to be deployed with confidence.
+Manages your test cases and testing progress by milestone. With Katalon TestOps Release, you can view the overall performance and readiness of the software product to be deployed with confidence.
 
 > Releases can be managed in **Test Planning** section.      
 
@@ -26,7 +26,7 @@ Consists of one or more test case, depending on whether it is conducted parallel
 
 **Usage**
 
-Give you the related information of running Test Cases.  A Test Run will keep track of the test result, when the test was ran, Test Run status, duration, assignee, etc. 
+Gives you the related information of running Test Cases.  A Test Run will keep track of the test result, when the test was ran, Test Run status, duration, assignee, etc. 
 
 > Test Runs can be planned in **Test Planning** section.
 >
@@ -76,7 +76,7 @@ Stores the actual test automation scripts to be executed.
 
 **Usage**
 
-Give you a space to manage all test scripts and decide which one to be executed along with the given Test Environment. In **Katalon TestOps**, Script Repository can be a Git repository or a ZIP file. 
+Gives you a space to manage all test scripts and decide which one to be executed along with the given Test Environment. In **Katalon TestOps**, Script Repository can be a Git repository or a ZIP file. 
 
 > Script Repository can be managed in **Configurations** section.                    
 
@@ -91,7 +91,7 @@ A collection of Test Runs having the same configurations.
 
 **Usage**
 
-Give you an ability to view the list of Test Run with similar configurations (Test Environment, Trigger, Script Repository) so that you can better manage your Test Runs.
+Gives you an ability to view the list of Test Run with similar configurations (Test Environment, Trigger, Script Repository) so that you can better manage your Test Runs.
 
 > You can find Test Run Types in **Test Planning** section.   
 
@@ -106,7 +106,7 @@ Being created once a Test Run is executed. Each Test Run can be executed as one 
 
 **Usage**
 
-Give you information after executing a subset of the overall Test Run. In **Katalon TestOps**, each Test Session contains:
+Gives you information after executing a subset of the overall Test Run. In **Katalon TestOps**, each Test Session contains:
 - One or more Test Cases
 - Test Environment and test scripts in Script Repository used for the execution of each Test Case 
 
@@ -122,7 +122,7 @@ Give you information after executing a subset of the overall Test Run. In **Kata
 A result of a Test Case after being executed.                                                                                                                             
 **Usage**
 
-Give you detailed results after a Test Case is executed from **Katalon Studio** (or other apps). Usually, Test Results are organized into one or more Test Suites and can link to one or more Defects to track bugs and failures.
+Gives you detailed results after a Test Case is executed from **Katalon Studio** (or other apps). Usually, Test Results are organized into one or more Test Suites and can link to one or more Defects to track bugs and failures.
 
 > To view Test Result, in **Reports & Analytics**, go to Test Runs > select one Test Run to view details. Here you can view all details of the Test Case after being executed.  
 
@@ -135,7 +135,7 @@ Give you detailed results after a Test Case is executed from **Katalon Studio** 
 Represents a Jira Issue linked to a (failed) Test Run in **Katalon TestOps**.                                                                                             
 **Usage**
 
-Give you an oveview of performance of Test Runs by Jira issue so that you can have full control and awareness of any problem for better test maintenance.
+Gives you an oveview of performance of Test Runs by Jira issue so that you can have full control and awareness of any problem for better test maintenance.
 
 > You can find Defects in **Test Management** section.
 >
@@ -166,7 +166,7 @@ Represents a Jira Issue linked to a Test Case in **Katalon TestOps**.
 
 **Usage**
 
-Give you an oveview of performance of Test Cases by Jira issue so that you can oversee the Test Case quality for better test performance. 
+Gives you an oveview of performance of Test Cases by Jira issue so that you can oversee the Test Case quality for better test performance. 
 
 > Requirements can be managed in **Test Management** section.
 
@@ -181,7 +181,7 @@ Has multiple Test Results, usually when the Test Case is a data-driven one. A Te
 
 **Usage**
 
-Ensure if different features within an application are working as expected. **Katalon TestOps** provides you detailed information of Test Cases that helps your team validate if the software is free of defects and if it is working as per your expectations. You can also link Test Cases to Jira Requirements to ensure good test coverage.
+Ensures if different features within an application are working as expected. **Katalon TestOps** provides you detailed information of Test Cases that helps your team validate if the software is free of defects and if it is working as per your expectations. You can also link Test Cases to Jira Requirements to ensure good test coverage.
 
 > You can find Test Cases in **Test Management** section.
 
@@ -196,7 +196,7 @@ A collection of Test Cases.
 
 **Usage**
 
-Organize Test Cases for better management and maintenance.
+Organizes Test Cases for better management and maintenance.
 
 > You can find Test Suites in **Test Management** section.
 
