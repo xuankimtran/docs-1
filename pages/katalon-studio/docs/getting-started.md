@@ -19,91 +19,79 @@ redirect_from:
 description:
 ---
 
-## Environment Requirements
+This section provides information on how to install and activate Katalon Studio.
 
-Verify whether your device meets the [System Requirements](http://docs.katalon.com/display/KD/System+Requirements) to run Katalon Studio.
+### Installation
 
-## Download Katalon Studio
+**Environment Requirements**
 
-* [Download](https://www.katalon.com/download/) the latest Katalon Studio version. Our system will automatically detect a suitable version for your device, but you can also select a preferred one. 
+Verify whether your computer meets the [System Requirements](http://docs.katalon.com/display/KD/System+Requirements) to work with Katalon Studio.
+
+**Download Katalon Studio**
+
+* Download the [latest Katalon Studio version](https://www.katalon.com/download/). 
+
+   Katalon Studio will automatically detect a suitable version for your system, but you can also select a preferred one on the page. 
+
 * Do a quick check on [System Requirements](/display/KD/System+Requirements) before using Katalon Studio.
 
-> [Download](https://github.com/katalon-studio/katalon-studio/releases) **older versions** of Katalon Studio.
+> **Download older versions**
+>
+> You can download older versions from Katalon Studio's [Github repository](https://github.com/katalon-studio/katalon-studio/releases).
 
-## Start Katalon Studio
+### Start Katalon Studio
 
-### For Windows
+**Windows**
 
-To open **Katalon Studio**, double-click on the *katalon.exe*.
+- Double-click on the **katalon.exe** file.
 
-![Download and Start Katalon Studio](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/install_setup_katalon_studio/Starting-Katalon-Studio.png)
+   ![Download and Start Katalon Studio](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/install_setup_katalon_studio/Starting-Katalon-Studio.png)
 
-Ensure you are using Katalon Studio with the default font size set to 100% in both Katalon Studio and your current OS to avoid the name field not being displayed on some > *pop-up windows*:
-* Windows: [https://www.pcworld.com/article/242942/how\_to\_change\_font\_size.html](https://www.pcworld.com/article/242942/how_to_change_font_size.html)
-* Katalon Studio: *Window* → *Preferences* → *General* → *Appearance* → *Colors and Fonts*. Select **Dialog Font** and edit the font size.
+- Ensure you are using the default font size (set to 100%) in both Katalon Studio and your current OS to avoid the name field not being displayed on some > pop-up windows.
 
-### For macOS
+    > **To adjust the font size:**
+    > * Windows: [Edit the font size](https://www.pcworld.com/article/242942/how_to_change_font_size.html).
+    > * Katalon Studio: **Window** > **Preferences** > **General** > **Appearance** > **Colors and Fonts**. Select **Dialog Font** and edit the font size.
 
-**Katalon Studio** (macOS) file is stored where you unpack it.
+**macOS**
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/install_setup_katalon_studio/Katalon-MacOS.png "init-size")
+- Double-click on the **Katalon Studio** (macOS) file in the directory where it is unpacked.
 
-> **For macOS Catalina users:**
-> 
-> If you currently use macOS Catalina, you have to enable Katalon Studio and Katalon Studio Engine applications in  *System Preferences/ Security & Privacy/ General*.
+   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/install_setup_katalon_studio/Katalon-MacOS.png "init-size")
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/getting-started/KS-Catalina.png" width="662" height="569"> 
+   > **For macOS Catalina users:**
+   > 
+   > - From version 7.9 onwards, macOS Catalina users no longer have to enable Katalon Studio and Katalon Studio Engine applications in **System Preferences**. 
+   > 
+   > - Users can start the applications directly like in macOS.
 
-Once started, the application should display the splash screen similar to the following screenshot:
+- Once started, the application should display the splash screen similar to the following screenshot:
 
-![Katalon Studio Loading](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/install_setup_katalon_studio/image2016-10-20-143A113A21.png)
+   ![Katalon Studio Loading](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/install_setup_katalon_studio/image2016-10-20-143A113A21.png)
 
-## Activate Katalon Studio
+### Activate Katalon Studio
 
-If you do not have a Katalon Studio account, sign up after the app is launched. If you already have one, please read more about [Katalon Studio Licensing](https://docs.katalon.com/katalon-studio/docs/license.html) and how to activate each license. 
+- If you do not have a Katalon Studio account, provide a username and password to sign up after launching the app. 
 
-## Configure Katalon Studio
+- If you have an account, please read more about Katalon Studio licenses and how to activate each license as follows:
 
-### Configurations for Web UI Testing
+    - Products:
+        - [Katalon Studio Enterprise](https://docs.katalon.com/katalon-studio/docs/license.html#katalon-studio-enterprise)
+        - [Katalon Runtime Engine](https://docs.katalon.com/katalon-studio/docs/license.html#katalon-runtime-engine)
+    - License types:
+        - [Node-Locked License](https://docs.katalon.com/katalon-studio/docs/license.html#node-locked-license)
+        - [Floating License](https://docs.katalon.com/katalon-studio/docs/license.html#floating-license)
 
-* If you want to conduct a **Web Testing**, make sure to install your preferred web browser. For more details, please refer to the [supported browsers list](/display/KD/Supported+Environments).
+### Related Topics
 
-* **Katalon Automation Recorder** extension is required to capture objects in **Active Browser** referring to [Spy Web Utility](/x/5BZO#SpyWebUtility(sinceversion5.0.0)-CaptureobjectsusingWebObjectSpy) and [Record & Playback](/display/KD/Record+Web+Utility). Please follow this [guide](/x/JYgw) for more information.
+- [Configure Katalon Studio](https://docs.katalon.com/katalon-studio/docs/getting-started.html#configure-katalon-studio)
 
-* **Internet Explorer** must be configured to run automation tests on IE. Kindly check on the [IE configurations guide](/x/iwEo) for your reference.
+    Describes how to configure Web UI and Mobile UI Testing.
 
-### Configurations for Mobile UI Testing
+- [Getting a Sample Project Up and Running](https://docs.katalon.com/katalon-studio/docs/getting-started.html#getting-a-sample-project-up-and-running)
 
-* [Mobile on Windows](/display/KD/Mobile+on+Windows)
+   Describes how to create a New Project or Sample Projects to become familiar with Katalon Studio.
 
-* [Mobile on macOS](/display/KD/Mobile+on+macOS)
-
-Get a Sample Project Up and Running
----------------------------------------
-
-When you use Katalon Studio for the first time, you will have an option to create New Project or Sample Projects to get familiar with the tool.
-
-- Create a new sample project in *File → New Sample Project* and select your preferred one. Name and choose where to store the project data on your device.
-
-- When the sample project is loaded, you can view a test case or a test suite by selecting in the *Tests Explorer* on the left of the UI.
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/getting-started/Screen-Shot-2018-09-06-at-2.32.06-PM.png)
-
-- To execute the script, go to the *Run* command on the Main toolbar. You can specify the target browser to be launched by selecting from the _Run_ drop-down list.
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/getting-started/Screen-Shot-2018-09-06-at-2.33.04-PM.png)
-
-**Katalon Studio** provides a **Job Progress** tab to show the status of your execution as well as the **Log Viewer** to let you identify any potential problems that may occur.
-
-That's it! Open a project and execute a test using Katalon Studio now. Try to modify parts of those provided sample projects to get familiar with the tool.
-
-## Where to Go Next?
-
-### Katalon TestOps
-
-[Katalon TestOps](https://analytics.katalon.com) is a set of cloud-based services to help you streamline software quality by continuous test executions and intelligent analytics. As this moment, Katalon TestOps consists of the following services:
-
-* **Katalon TestOps Center**: the test hub to gather and connect quality data from multiple sources, including Katalon Studio, JUnit, TestNG, and Jira.
-* **Katalon TestOps CI**: the CI for managing test environments and scheduling remote executions on local machines, Kubernetes, and CircleCI. It is designed and built with ease of deployment and configuration in mind to let QAs focus on testing activities.
-* **Katalon TestOps Reports**: provide dynamic perspectives and an insightful look at your automated testing activities.
-* **Katalon TestOps Vision**: the visual-based testing service which is powered by AI to identify new defects on application GUIs quickly.
+- [Katalon TestOps](https://docs.katalon.com/katalon-studio/docs/getting-started.html#katalon-testops)
+   
+   Introduce the services of Katalon TestOps.
