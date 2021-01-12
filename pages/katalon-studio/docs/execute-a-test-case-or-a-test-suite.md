@@ -185,13 +185,13 @@ From version **7.5.5**, Katalon Studio provides **Debug from here** with **Chrom
    
    Katalon Studio supports reading source code from third-party libraries for debugging. To conduct, follow one of the below utilities:
    
-   - Attach source code for debugging
-   - Decompile class file for debugging
+   - Attach source code for debugging.
+   - Decompile class file for debugging.
 
    **Requirements**
    
-   * Attach source code: Katalon Studio version 7.0+
-   * Decompile class file: Katalon Studio version 7.9+
+   * Attach source code: Katalon Studio version 7.0+.
+   * Decompile class file: Katalon Studio version 7.9+.
 
 **Attach Source Code for debugging**
 
@@ -223,16 +223,16 @@ From version **7.5.5**, Katalon Studio provides **Debug from here** with **Chrom
    - JD.
    - FernFlower.
    - CFR.
-   -  Procyon.
+   - Procyon.
 
 **Turn on, turn off Decompiler feature**
 
    This feature is enabled by default, you can double-check as follows:
    
-   1. **Windows**: Go to **Windows** > **Preferences**
+   1. **Windows**: Go to **Windows** > **Preferences**.
    
-      **MacOS**: Go to **Katalon Studio** > **Preferences** 
-   2. Select **General** > **Editors** > **File Associations**
+      **MacOS**: Go to **Katalon Studio** > **Preferences**.
+   2. Select **General** > **Editors** > **File Associations**.
    3. For "\***.class**" and "\***.class without source**", "**Katalon Class Decompiler Viewer**" is selected by default. 
    
    In case you want to switch back to the default class file viewer in previous versions, please choose "**Class File Viewer**" instead.
@@ -241,9 +241,9 @@ From version **7.5.5**, Katalon Studio provides **Debug from here** with **Chrom
 
    This section provides you with step-by-step instructions on configuring the **Decompiler** feature.
    
-   1. **Windows**: Go to **Windows** > **Preferences**
+   1. **Windows**: Go to **Windows** > **Preferences**.
 
-      **MacOS**: Go to **Katalon Studio** > **Preferences**    
-   2. Select **Java** > **Decompiler**
+      **MacOS**: Go to **Katalon Studio** > **Preferences**.
+   2. Select **Java** > **Decompiler**.
 
       <img alt="decompiler-introduction" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/decompiler-config.png" width=85%>
