@@ -13,9 +13,9 @@ From version 7.6 onwards, Katalon Studio fully supports selector strategies supp
 4. Enter a phone number and a message
 5. Tap on **Send**
 
-> APIDemos.apk and sample project code is available [here](https://github.com/katalon-studio-samples/sample-Android-demo-project)
+> APIDemos.apk and sample project code is available [here](https://github.com/katalon-studio-samples/sample-Android-demo-project).
 
-## **Create your first iOS test case**
+## Create your first Android test case
 
 ### Record
 
