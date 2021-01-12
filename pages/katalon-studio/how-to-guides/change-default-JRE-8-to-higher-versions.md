@@ -15,7 +15,7 @@ In general, upgrading JRE 8 to higher versions helps:
 
 This guide takes you through the steps to change Katalon’s embedded JRE as Java Compiler 8 to another vendor and higher versions (from version 8 to version 14) in **Katalon Studio** and **Katalon Runtime Engine**.
 
-## Prerequisites
+### Prerequisites
 
 You need:
 - An active [Katalon Runtime Engine](https://docs.katalon.com/katalon-studio/docs/license.html#katalon-runtime-engine) license.
@@ -33,9 +33,9 @@ Install the exact JRE version you want to upgrade (within version 8 to version 1
 - Download [JRE 13](https://www.oracle.com/java/technologies/javase-jdk13-downloads.html).
 - Download [JRE 14](https://www.oracle.com/java/technologies/javase/jdk14-archive-downloads.html).
 
-## Change default JRE 8 to higher versions
+### Change default JRE 8 to higher versions
 
-### Katalon Studio
+**Katalon Studio**
 
    To conduct, do as follows:
 
@@ -65,7 +65,7 @@ Install the exact JRE version you want to upgrade (within version 8 to version 1
    println System.getProperty('java.version')
    ```
 
-### Katalon Runtime Engine
+**Katalon Runtime Engine**
 
    To add another JRE, you need to add the environment variable: **KATALON_JAVA_HOME= &lt;location new JRE&gt;**
 
@@ -81,4 +81,4 @@ Install the exact JRE version you want to upgrade (within version 8 to version 1
    
    2. **Q: Is it possible to change to lower JRE versions?**
       
-      *A: Changing from a higher version to a lower one is risky because of not backward compatible, so our suggestion is "NO".*
+      *A: Changing from a higher version to a lower one is risky because of not backward compatible, so our suggestion is "No".*
