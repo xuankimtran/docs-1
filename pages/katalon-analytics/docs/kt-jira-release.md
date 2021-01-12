@@ -6,7 +6,7 @@ redirect_from:
     - "/katalon-analytics/docs/release.html"
 ---
 
-With the Releases feature in **Katalon TestOps**, you can [populate releases from Jira](https://docs.katalon.com/katalon-analytics/docs/kt-jira-release.html) or create a new one and link your Test Runs to it.
+With the Releases feature in **Katalon TestOps**, you can populate releases from Jira or create a new one and link your Test Runs to it.
 
 ## Create a new Release
 
@@ -65,3 +65,9 @@ You can view a list of Test Run within each Release by access the Release detail
 >
 > To view releases, in Test Explorer, go to **TestOps** > **Releases**.
 > <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/release/view-release-ks.png" width="" height="">
+
+## Related topics
+
+- [Link Test Cases to Jira Requirements](https://docs.katalon.com/katalon-analytics/docs/ka-integration-jira.html)
+
+- [Link Test Runs to Jira Defects](https://docs.katalon.com/katalon-analytics/docs/ka-defects.html)
