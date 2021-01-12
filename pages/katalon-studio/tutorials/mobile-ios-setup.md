@@ -19,27 +19,25 @@ redirect_from:
 description:
 ---
 
-## Introduction
-
-   The iOS-mobile-tests perform UI functional automation test on an iOS application using Katalon Studio.
+The iOS-mobile-tests perform UI functional automation test on an iOS application using Katalon Studio.
    
-   This topic describes the preliminary actions you need to perform to prepare the environment for testing iOS applications with Katalon Studio.
+This topic describes the preliminary actions you need to perform to prepare the environment for testing iOS applications with Katalon Studio.
 
-## Set up iOS tests on Windows and macOS
+### Set up iOS tests on Windows and macOS
    
-### On Windows machine
+**On Windows machine**
 
    You can only test an **iOS** application using **macOS**. 
 
-### On macOS machine
+**On macOS machine**
    
    1. Supported environments
    * Appium: 1.12.1 onwards
    * iOS: 9.x onwards
    
-   > **Note**
-   >
-   > Some emulators have already supported Appium through their installations. Thus, if you want to run an application on an emulator, check your emulators' settings before proceeding with the Appium installation.
+     > **Note**
+     >
+     > Some emulators have already supported Appium through their installations. Thus, if you want to run an application on an emulator, check your emulators' settings before proceeding with the Appium installation.
    
    2. Install the following required components
    * Appium v1.12.1 or newer. 
@@ -52,12 +50,14 @@ description:
    * usbmuxd 1.0.10 or newer.
    * WebDriverAgent.
    
-   **Reference installation guide**
+**Reference installation guide**
 
    We recommend you to refer to the official documentation of each component for the detailed instructions.
+
    1. **Install Xcode**
    
       Xcode can be installed via Mac App Store.
+
    2. **Install Xcode command-line tool**
    
       `xcode-select --install`\
@@ -65,48 +65,57 @@ description:
    3. **Install homebrew**
    
       Follow [this link](https://brew.sh/).
+
    4. **Install Appium**
    
       `brew install node`\
       `npm install -g appium`
-   > **Note**
-   >
-   > Make sure you install Node.js into a location where you have full **Read** and **Write** permissions.
+      > **Note**
+      >
+      > Make sure you install Node.js into a location where you have full **Read** and **Write** permissions.
+
    5. **Install carthage**
    
       `brew install carthage`
+
    6. **Install ios-deploy**
    
       `brew install ios-deploy`
+
    7. **Install usbmuxd**
    
       `brew install --HEAD usbmuxd`\
       `brew unlink usbmuxd`\
       `brew link usbmuxd`
+
    8. **Install libimobiledevice**
    
       `brew install --HEAD libimobiledevice`\
       `brew unlink libimobiledevice`\
       `brew link libimobiledevice`
+
    9. **Install ios-webkit-debug-proxy**
    
       `brew install ios-webkit-debug-proxy`
+
    10. **Install WebDriverAgent**
-   
-   Follow these links:
-   * [Installing WebDriverAgent for iOS devices](/display/KD/Installing+WebDriverAgent+for+iOS+devices).
-   * [WebDriverAgent project page](https://github.com/facebook/WebDriverAgent).
+
+       Follow these links:
+
+        * [Installing WebDriverAgent for iOS devices](/display/KD/Installing+WebDriverAgent+for+iOS+devices).
+        * [WebDriverAgent project page](https://github.com/facebook/WebDriverAgent).
    
    Additionally, if you want to test iOS applications, you need to download the packages below (which have been linked to their corresponding setting up instructions).
 
    3. Set up the devices
+
    * Connect your iOS Devices to your computer via a USB cable. Confirm to accept or trust the phone.
    * If you want to execute your tests using Safari on iOS (mobile browser), make sure **Web Inspector** is turned on for **Safari** (**Settings > Safari > Advanced > Web Inspector**).
    * Enable the service **UI automation** on the device.
    * Connect the iOS device to **Xcode**.
    * Go to **Settings** on the iOS device > **Developer** > turn on **UIAutomation**.
 
-## Verify the mobile application file
+### Verify the mobile application file
 
    Before testing an iOS native application file (**.   ipa** file), follow these steps to check if the    application file is already built and signed correctly.
    1. Open **Xcode** and navigate to **Window/Devices**
