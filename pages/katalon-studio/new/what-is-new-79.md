@@ -36,15 +36,11 @@ Moreover, the IDE look and feel is substantially improved with:
 * The more freshened interface on macOS 10.14 - 10.15, Windows 10, and Ubuntu 19.04 - 20.04.
 * Extending Dark theme support in additional Windows areas, including the text of radio buttons, check-box, and group control.
 
-### Flexibility to configure different JRE versions (from v8 to v14) for working with your test projects
+### Flexibility to use different JRE (from v8 to v14) for your test projects
 
-The default embedded Java Runtime Environment (JRE) is used to run a Katalon Studio instance, compile, and run your test projects. To make it easy and flexible for you to work with different Java projects and different JRE vendors, you can now specify your desired JRE package in Katalon Preferences to compile and run tests.
+The default embedded Java Runtime Environment (JRE) v8 is used to run a Katalon Studio instance, and compile, run your test projects. To make it easy and flexible for you to use your desired JRE version and vendor, you can now set another JRE as the default one for compiling and running test projects. Those of you running tests in console mode can flexibly use another JRE for test execution by using environment variable.
 
-Those of you running tests in console mode can also change the default JRE or override the configuration in Katalon Preferences by using the environment variable.
-
-See the [how-to guide]() for more detailed instructions.
-
-This change only impacts the JRE used for working with your test project, not the JRE used for running the application.
+See the [how-to guide](https://docs.katalon.com/katalon-studio/how-to-guides/set-new-default-JRE.html) for more detailed instructions.
 
 ### **Empowered Groovy scripting capabilities**
 
