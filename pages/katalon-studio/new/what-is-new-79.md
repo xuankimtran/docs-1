@@ -50,11 +50,11 @@ This change only impacts the JRE used for working with your test project, not th
 
 Another primary enhancement is shipped in this release is the Groovy framework upgrade from v2.4.7 to v3.0. Along with the Eclipse upgrade, it was also tested by our pioneer users for months before its official launch.
 
-This upgrade addresses the limitations of Groovy 2.4.7 and equips those of you using Groovy script with the [latest Groovy technologies](). 
+This upgrade addresses the limitations of Groovy 2.4.7 and equips those of you using Groovy script with the [latest Groovy technologies](https://groovy-lang.org/releasenotes/groovy-3.0.html). 
 
 ### **More reliable and secure macOS packages** 
 
-All Katalon Studio and Katalon Runtime Engine packages now are to be notarized for macOS Catalina (10.15.x) as a required step in our distribution process. [Learn more about why we need to notarize our software.]?
+All Katalon Studio and Katalon Runtime Engine packages now are to be notarized for macOS Catalina (10.15.x) as a required step in our distribution process. Understand [why we notarize our software](https://developer.apple.com/documentation/xcode/notarizing_macos_software_before_distribution#overview).
 
 ### **Extended utilities for debugging**
 
@@ -66,12 +66,11 @@ In previous versions, only users with Enterprise license can view and interact w
 
 We made several changes to improve the integration with qTest. Particularly, those of you using qTest can pass Build information and submit screenshots to qTest Manager along with other test logs and reports for analyzing test results better.
 
-Notably, to continue using the integration in this version, you need to map the execution status to activate Automation Integration in qTest. [Learn more]()
+Notably, to continue using the integration in this version, you need to map the execution status to activate Automation Integration in qTest. [Learn more](https://docs.katalon.com/katalon-studio/docs/qtest-integration.html#execution-status-mapping)
 
-Useful links:
+Useful link:
 
-* Support uploading screenshots in test results to qTest. [Learn more]()
-* [CLI] Submit automation test status with build information by -qTestBuildLabel and -qTestBuildURL. [Learn more]()
+* [CLI] Submit automation test status with build information by -qTestBuildLabel and -qTestBuildURL. [Learn more](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#integration-options)
 
 ### **Newly supported browser versions**
 
