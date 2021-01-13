@@ -16,6 +16,8 @@ description: Release note 7.x
 
 ## Pre-Release - Version 7.9
 
+> Download [here](https://github.com/katalon-studio/katalon-studio/releases/tag/v7.9.0.rc)
+
 ### New features
 
 * Support screenshot taking keywords for Mobile and Web testing, including:
