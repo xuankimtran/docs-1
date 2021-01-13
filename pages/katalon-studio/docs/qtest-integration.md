@@ -157,7 +157,7 @@ In the displayed Setup Wizard, complete all items to finish the setup.
 
 ## Execution Status Mapping
 
-> Introduced in version 7.8.5
+> Introduced in version 7.9
 
 **Precondition**: To submit automated execution results from Katalon Studio back to qTest Manager, you have activated Automation Integration and mapped Automation Status to Test Run Status in qTest. [Learn more](https://documentation.tricentis.com/qtest/od/en/content/qtest_manager/project_settings/activate_automation_integrations.htm).
 
@@ -454,7 +454,7 @@ If you wish to save the latest content of test steps and test case version, clic
 
 ### Map a Katalon test case to a qTest test case by database ID
 
-> Introduced in version 7.8.5
+> Introduced in version 7.9
 
 Katalon Studio provides an easy way to map a Katalon test case to an existing qTest test case.
 
@@ -462,7 +462,7 @@ Katalon Studio provides an easy way to map a Katalon test case to an existing qT
 
 * You have enabled the qTest integration. 
 * Only applicable to test cases stored in the test case folders that have integrated with a qTest module. (refer to step 4 in [manual setup](https://docs.katalon.com/katalon-studio/docs/qtest-integration.html#manual-setup))
-* Katalon Studio version [7.8.5](https://github.com/katalon-studio/katalon-studio/releases/tag/v7.8.5)
+* Katalon Studio version 7.9
 
 1. Append the qTest test case's database ID to your Katalon test case's name.
 

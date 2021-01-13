@@ -14,7 +14,51 @@ redirect_from:
 description: Release note 7.x
 ---
 
-## Official Release - Version 7.8.2
+## Pre-Release - Version 7.9
+
+> Download [here](https://github.com/katalon-studio/katalon-studio/releases/tag/v7.9.0.rc)
+
+### New features
+
+* Support screenshot taking keywords for Mobile and Web testing, including:
+   - Mobile:
+      - [Take Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/mobile-take-screenshot-as-checkpoint.html)
+      - [Take Element Screenshot](https://docs.katalon.com/katalon-studio/docs/mobile-take-element-screenshot.html)
+      - [Take Element Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/mobile-take-element-screenshot-as-checkpoint.html)
+      - [Take Area Screenshot](https://docs.katalon.com/katalon-studio/docs/mobile-take-area-screenshot.html)
+      - [Take Area Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/mobile-take-area-screenshot-as-checkpoint.html)
+   - Web UI:
+      - [Take Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/webui-take-screenshot-as-checkpoint.html)
+      - [Take Element Screenshot](https://docs.katalon.com/katalon-studio/docs/webui-take-element-screenshot.html)
+      - [Take Element Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/webui-take-element-screenshot-as-checkpoint.html)
+      - [Take Area Screenshot](https://docs.katalon.com/katalon-studio/docs/webui-take-area-screenshot.html)
+      - [Take Area Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/webui-take-area-screenshot-as-checkpoint.html)
+* Support Decompile Class File for debugging.
+* Support changing the default embedded JRE 8 to higher versions (from v8 to v14).
+* [Katalon TestOps Vision] Support [a sample project for Visual Testing with TestOps Vision](https://github.com/katalon-studio-samples/web-visual-testing-samples).
+
+### Improvements
+
+* Upgrade Groovy library from version 2.4.7 to 3.0.
+* Upgrade Eclipse IDE from version 4.6 to 4.16.
+* Notarize Katalon Studio and Katalon Runtime Engine applications for macOS Catalina. [Learn more](https://developer.apple.com/documentation/xcode/notarizing_macos_software_before_distribution)
+* Enhance qTest Integration, including:
+   - Support uploading screenshots in test results to qTest. [Learn more](https://docs.katalon.com/katalon-studio/docs/qtest-integration.html#manual-setup)
+   - [CLI] Submit automation test status with build information to qTest Manager by `-qTestBuildLabel` and `-qTestBuildURL`. [Learn more](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#integration-options)
+   - Execution Status Mapping. [Learn more](https://docs.katalon.com/katalon-studio/docs/qtest-integration.html#execution-status-mapping)
+   - Map a Katalon test case to a qTest test case by database ID. [Learn more](https://docs.katalon.com/katalon-studio/docs/qtest-integration.html#map-a-katalon-test-case-to-a-qtest-test-case-by-database-id)
+* [Jira Integration] Import JIRA issue summary along with issue ID to form Test Case Name in Katalon Studio.
+* Support Chrome 87.
+* Support Microsoft Edge (Chromium) 87.
+
+### Fixes
+
+* Bug: [Incorrect Test Results] Katalon returned PASSED when test scripts contained invalid syntax.
+* Bug: [Web UI Testing] Instead of logging warning messages and marking PASSED, `WebUI.verifyElementAttributeValue` marks failed if the element is not present. 
+* Bug: Katalon Studio IDE sometimes failed to save Groovy files' changes, including keywords, test listeners, step definitions while renaming test objects.
+* Bug: Performance issues of Applitools sample project. [Learn more](https://github.com/katalon-studio-samples/katalon-studio-applitools-plugin-sample)
+
+## Version 7.8.2
 
 ### Improvements
  
@@ -84,7 +128,7 @@ and Open source libraries's license scanning report in HTML named `KatalonStudio
 * [Windows Testing] Support passing Capabilities including `appArguments` and `appWorkingDir` for Native Windows Recorder. [Learn more](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html#windows-desktop-app-testing)
 * Support using Global Variables in Email Settings. [Learn more](https://docs.katalon.com/katalon-studio/docs/execution-settings.html#support-global-variables-in-email-settings)
 * [Katalon Runtime Engine] Allow selecting an Organization for license validation when activating Katalon Runtime Engine. [Learn more](https://docs.katalon.com/katalon-studio/docs/use-online-license.html#katalon-runtime-engine)
-* [Katalon TestOps (Beta) Integration] Support integration with Katalon TestOps Vision for visual testing. [Learn more](https://forum.katalon.com/t/early-release-of-katalon-testops-vision-visual-testing-image-comparison)
+* [Katalon TestOps (Beta) Integration] Support integration with Katalon TestOps Vision for visual testing. [Learn more](https://forum.katalon.com/t/visual-testing-image-comparison-with-katalon-studio-7-8-0-and-katalon-testops/45557)
 
 ### Improvements
 
