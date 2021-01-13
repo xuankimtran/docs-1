@@ -1,17 +1,13 @@
 ---
-title: "What's new in Katalon Studio 7.8" 
+title: "What's new in Katalon Studio 7.8?" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/new/what-is-new.html
-redirect_from:
-    - "/katalon-studio/new/"
-    - "/display/KD/Release+Notes/"
-    - "/display/KD/Release%20Notes/"
+permalink: katalon-studio/new/what-is-new-78.html
 description: What's new in Katalon Studio 7.8
 ---
 
-Katalon Studio 7.8 has been released with new capabilities aimed at efficient debugging and maintaining test scripts and enhanced integrations with qTest, Kobiton, Jira, or Katalon TestOps. The following section describes the highlighted new features and enhancements available in Katalon Studio 7.8
+Katalon Studio 7.8 has been released with new capabilities aimed at efficient debugging and maintaining test scripts and enhanced integrations with qTest, Kobiton, Jira, or Katalon TestOps. The following section describes the highlighted new features and enhancements available in Katalon Studio 7.8.
 
-For a detailed list of enhancements and bug fixes packed in this release, please see its [changelog](https://docs.katalon.com/katalon-studio/new/version-70.html).
+For a detailed list of enhancements and bug fixes packed in this release, please see its [release notes](https://docs.katalon.com/katalon-studio/new/version-70.html).
 
 ### Time Capsule for saving effort in maintaining test objects  
 
