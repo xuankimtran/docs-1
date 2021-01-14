@@ -1,7 +1,7 @@
 ---
 title: "[Mobile] Android Setup"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/android-setup.html
+permalink: katalon-studio/tutorials/mobile-android-setup.html
 redirect_from:
     - "/display/KD/Getting+Started/"
     - "/display/KD/Getting%20Started/"
@@ -84,9 +84,9 @@ This topic describes the preliminary actions you need to perform to prepare the 
 
    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/image2018-6-15-173A473A28.png)
    
-   Next: [Create your first Android test case](link)
+   Next: [Create your first Android test case](https://docs.katalon.com/katalon-studio/tutorials/mobile-android-setup.html)
 
    See also:
-   * [Set up iOS-mobile-tests](https://docs.katalon.com/katalon-studio/docs/mobile-on-macos.html)
+   * [Set up iOS-mobile-tests](https://docs.katalon.com/katalon-studio/tutorials/mobile-ios-setup.html)
    * [Troubleshoot automated mobile testing](https://docs.katalon.com/katalon-studio/docs/troubleshooting-automated-mobile-testing.html)
    </details>
