@@ -31,7 +31,7 @@ Verify whether your computer meets the [System Requirements](http://docs.katalon
 
 * Download the [latest Katalon Studio version](https://www.katalon.com/download/). 
 
-   Katalon Studio automatically detect a suitable version for your system, but you can also select a preferred one on the page. 
+   Katalon Studio automatically detects a suitable version for your system, but you can also select a preferred one on the page. 
 
 * Do a quick check on [System Requirements](/display/KD/System+Requirements) before using Katalon Studio.
 
