@@ -31,11 +31,13 @@ Katalon Studio supports the following Decompilers, including CFR, FernFlower (se
 
 **Disable Class Decompiler**
 
-To turn off **Katalon Class Decompiler**, you need to set **Class File Viewer** to the default viewer in **Preferences** > **General** > **Editors** > **File Associations**
+To turn off **Katalon Class Decompiler**, you need to set **Class File Viewer** to the default viewer in **Preferences** > **General** > **Editors** > **File Associations**.
 
 1. For "\**.class*" and "\**.class without source*" in **File Types**, select "*Class File Viewer*" in **Associated Editors**.
 2. Click **Default** to set it as the default viewer.
 3. Click **Apply and Close**.
+
+   <img alt="decompiler-introduction" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/class-decompiler/switch.png" width=85%>
 
 ## Use Class Decompiler for debugging test scripts
 
