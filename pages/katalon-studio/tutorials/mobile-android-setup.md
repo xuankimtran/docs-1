@@ -70,7 +70,7 @@ This topic describes the preliminary actions you need to perform to prepare the 
    * Connect your Android Phone to your computer via a USB cable. Just confirm if prompted to accept or trust the device.
    * Install **Android SDK**: Katalon Studio will detect and ask you to install Android SDK automatically if your current machine does not have it.
 
-### Verify the mobile application file
+### Verify the Android application file
 
    After completing setting your environment, open a    Mobile Testing Sample Project (which is packaged in  your Katalon Studio installation) and execute a test suite using an Android device: 
    
