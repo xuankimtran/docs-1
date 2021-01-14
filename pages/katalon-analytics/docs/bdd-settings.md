@@ -1,11 +1,10 @@
 ---
-title: "Jira BDD Settings"
+title: "Configure Jira BDD Settings"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/bdd-settings.html
 redirect_from:
     - "/katalon-studio/docs/bdd-settings.html"
 ---
-
 Katalon Studio provides a free Jira add-on to help create a seamless integration. This add-on gives you several benefits:
 
 * Sync test cases written in Gherkin and test execution results; and query issues based on testing status.
@@ -82,3 +81,8 @@ Once Jira is integrated with Katalon Studio and the add-on is enabled in Jira Cl
 > Note: In Katalon Studio, the test case imported from Jira should be executed in Test Suite to view the test result.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/install-and-use-katalons-jira-add-on/katalon-jira-plugin-1-status-marked.png) 
+
+
+## Related topics
+
+- [View BDD Test Results in Katalon TestOps](/katalon-analytics/docs/bdd-test-results.html)

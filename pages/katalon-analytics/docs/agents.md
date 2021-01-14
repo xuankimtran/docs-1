@@ -1,5 +1,5 @@
 ---
-title: "Create a Local Test Environment with an Agent" 
+title: "Create a Local Test Environment with Agent" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/agents.html 
 description: 
@@ -26,7 +26,9 @@ You can check the Agent status by going to *"Test Environments"* in **Configurat
 
 > You can delete an agent anytime by clicking on the recycle bin icon.
 >
-> Please note that this action cannot be undone.
+> ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/agents/test-environment.png)
+>
+> You can delete an agent anytime by clicking on the recycle bin icon. **Please note that this action cannot be undone.**
 
 ## Authentication with Katalon TestOps
 
@@ -34,7 +36,7 @@ Agents will use `serverUrl` and `apikey` in **agentconfig** for:
 * Activating Katalon Runtime Engine used for test execution.
 * Sending test results to Katalon TestOps.
 
-## Proxy settings for Agent
+## Configure Proxy for agent
 
 You can set up proxy for agent in the `agentconfig` file with the `proxy` option.
 
@@ -53,5 +55,8 @@ For example, `proxy=http://localhost:8080`.
 - [Katalon TestOps Terminology](/katalon-analytics/docs/testops-terminology.html)
 
 
+## Related topics
 
-
+- Create a Docker environment
+- [Create a Kubernetes Environment](https://docs.katalon.com/katalon-analytics/docs/aws-eks.html)
+- [Create a CircleCI Environment](https://docs.katalon.com/katalon-analytics/docs/circleci.html)
