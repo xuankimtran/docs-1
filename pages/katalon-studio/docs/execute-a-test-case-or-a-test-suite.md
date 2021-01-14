@@ -26,36 +26,46 @@ redirect_from:
     - "/katalon-studio/docs/execute_debug_certain_steps.html"
 description:
 ---
-### Execute a Test Case
+You can run a single test case or a test suite in Katalon Studio. 
 
-Katalon Studio allows you to run the entire test suite or an individual test case. Before executing a test case or a test suite, keep in mind the [supported execution environments](/display/KD/Supported+Environments) by Katalon Studio.
+* Before executing tests, see the [supported execution environments](/display/KD/Supported+Environments).
+* [Run tests in console mode](/display/KD/Console+Mode+Execution).
 
-Open a test case/test suite, and select the environment to run the test case from **Run** command of the main toolbar. You can also [execute the test case using console mode](/display/KD/Console+Mode+Execution).
+## Execute a Test Case or a Test Suite
 
-> If you click on the **Run** button, the test case will be executed using the default browser defined in [Execution Settings](/display/KD/Execution+Settings).
+To run test:
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/run.png" width=320>
+1. In **Tests Explorer**, open a test case or test suite.
+2. In Katalon Toolbar, in the drop-down list of button **Run**, select an environment to run the test case. If you click on the **Run** button, the test case is executed using the default browser defined in [Execution Settings](/display/KD/Execution+Settings).
 
-**Test Environments**
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/run.png" width=320>
 
-* **Browsers**: Select to execute your test on one of the supported browsers (Chrome, Firefox, IE, Safari, Edge)
-* **Mobile Browsers**: Select to execute your test on one of the supported devices (Android, iOS)
-* **Mobile**: Before executing your test, check if you have set up the environment for mobile testing for <a href="/display/KD/Mobile+on+Windows">Windows</a> or for <a href="/display/KD/Mobile+on+macOS">macOS</a>. Select your device among those listed in Katalon Studio.
+### Test Environments
+
+In the drop-down list of button **Run**, select one of the following supported environments to run your test case or test suite:
+
+* **Browsers**: Select one of the supported browsers (Chrome, Firefox, IE, Safari, Edge Chromium, Headless Chrome, Headless Firefox)
+* **Mobile**: Select either Android or iOS to launch the connected devices. Then select a device among those listed ones.
+
+   Before executing your Mobile test, you're required to set up the environment for mobile testing on <a href="/display/KD/Mobile+on+Windows">Windows</a> or <a href="/display/KD/Mobile+on+macOS">macOS</a> machine. 
    
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/image2018-1-26-183A543A41.png">
 
-   > Troubleshooting
-   >
-   > If there is no device listed, please make sure the Developer Mode on the phone is turned on, try to unplug, and reconnect several times until you are prompted to accept/trust this device.
-   >
-   > <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/image2018-8-2-153A313A52.png">
+   **Troubleshooting**: If your device is not found, make sure the device's **Developer Mode** is turned on, try to unplug, and reconnect several times until you are prompted to accept/trust this device.
 
-* **Remote**: Make sure you have set up a default configuration for the remote environment in project settings. Refer to&nbsp;<a href="/display/KD/Introduction+to+Desired+Capabilities">Introduction to Desired Capabilities</a>&nbsp;for more details.
-* **Custom**: Make sure you have set up a default configuration for the remote environment in project settings. Refer to&nbsp;<a class="external-link" href="/x/cgFO#ExecutionSettings-CustomExecution" rel="nofollow">Custom Execution</a>&nbsp;for more details. When you have set up your custom environment, select it from the drop-down list.
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/image2018-8-2-153A313A52.png">
 
-**Job Progress**
+* **Remote**: Select a remote environment to run tests.
 
-The **Job Progress** is triggered automatically to show the progress while your test case/test suite is being executed.
+   You need to set up a default configuration for the remote environment in Project Settings. Refer to&nbsp;<a href="/display/KD/Introduction+to+Desired+Capabilities">Introduction to Desired Capabilities</a>&nbsp;for more details.
+
+* **Custom**: Select it from the drop-down list when you have already set up a custom environment.
+
+   Refer to&nbsp;<a class="external-link" href="/x/cgFO#ExecutionSettings-CustomExecution" rel="nofollow">Custom Execution</a>&nbsp;for preparing a remote environment in Project Settings. 
+
+### Job Progress
+
+The **Job Progress** is triggered automatically to show the progress while your test case or test suite is being executed.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/progress.png">
 
@@ -69,7 +79,7 @@ Some factors can affect your execution:
 
 You can also refer to this [document](https://docs.katalon.com/katalon-studio/docs/troubleshoot-common-execution-exceptions-web-test.html) for troubleshooting issues relating to web test execution.
 
-### Debug a test case
+## Debug a test case
 
 Creating automation test cases is a repetitive task that requires a lot of editing and re-running test cases. In many automation tools, when a test case fails and you make certain changes to the script, you usually have to execute the whole script all over again to make sure the test is executed as expected.
 
@@ -83,13 +93,12 @@ To save your precious time from tedious repetitive re-running all unnecessary st
 **Requirements**
 
 * An active Katalon Studio Enterprise license
-* Katalon Studio version 7.0+
 
 ### Debug: Run from here
 
-With this feature, you can resume the existing execution quickly. Katalon Studio currently supports **Run from here** with **Chrome, Firefox, and Edge Chromium** (Edge Chromium is supported from version 7.3.0+) only. To use it, from the [Manual view](/display/KD/Manual+View) of a test case:
+With this feature, you can resume the existing execution quickly. Katalon Studio currently supports **Run from here** with **Chrome, Firefox, and Edge Chromium** (Edge Chromium is supported in v7.3 and later) only. To use it, from the [Manual view](/display/KD/Manual+View) of a test case:
 
-1. Start a browser with the `Open Browser` step, or you must have a currently running browser
+1. Start a browser with the `Open Browser` step, or you must have a currently running browser.
 2. Make sure this browser's session is NOT terminated when the execution finishes (Go to **Project/Settings/Execution** and uncheck the **Terminate...** options in **Post-Execution Options** based on your testing needs)
    
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/post-execution.png" width=85%>
@@ -100,7 +109,7 @@ With this feature, you can resume the existing execution quickly. Katalon Studio
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/debug-from-here.png" width=85%>
 
-**Debug: Enable or Disable steps**
+### Debug: Enable or Disable steps
 
 Katalon Studio allows you to enable or disable one or more test steps before executing the test case to skip unwanted steps during execution. You can use the provided keyboard shortcuts to perform the actions.
 
@@ -109,7 +118,7 @@ Katalon Studio allows you to enable or disable one or more test steps before exe
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/enable-disable.png" width=85%>
 
-**Debug mode**
+### Debug mode
 
 The Debug mode is designed to make debugging easy to use, allowing investigating the root causes more quickly. The following steps present how to debug a test case:
 
@@ -160,9 +169,11 @@ The Debug mode is designed to make debugging easy to use, allowing investigating
    | Breakpoints | You can view all breakpoints using Breakpoints View, which is similar to Breakpoints View in Eclipse. Refer to this [guide](http://help.eclipse.org/luna/index.jsp?topic=%2Forg.eclipse.jdt.doc.user%2Freference%2Fviews%2Fexpressions%2Fref-expressions_view.htm) for more details. |
    | Expressions | You can inspect data using Expressions View, which is similar to Expressions View in Eclipse. Refer to this [guide](http://help.eclipse.org/luna/index.jsp?topic=%2Forg.eclipse.jdt.doc.user%2Freference%2Fviews%2Fexpressions%2Fref-expressions_view.htm) for more details. |
 
-**Debug from here**
+### Debug from here
 
-From version **7.5.5**, Katalon Studio provides **Debug from here** with **Chrome, Firefox, and Edge Chromium**. To use it, do as follows:
+> Introduced in version **7.5.5**.
+
+To use **Debug from here** with **Chrome, Firefox, or Edge Chromium**, do as follows:
 
 1. Start a browser with the `Open Browser` step, or you must have a currently running browser
 2. Make sure this browser's session is NOT terminated when the execution finishes (Go to **Project/Settings/Execution** and uncheck the **Terminate...** options in **Post-Execution Options** based on your testing needs)
@@ -179,71 +190,4 @@ From version **7.5.5**, Katalon Studio provides **Debug from here** with **Chrom
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/debug-from-here.png" width=85%>
 
-### Read third-party libraries source code
 
-   > From version 7.9.0 onwards, **Decompile class file for debugging** is available for usage. [Learn more](https://docs.katalon.com/katalon-studio/docs/execute-a-test-case-or-a-test-suite.html#decompile-class-file-for-debugging)
-   
-   Katalon Studio supports reading source code from third-party libraries for debugging. To conduct, follow one of the below utilities:
-   
-   - Attach source code for debugging.
-   - Decompile class file for debugging.
-
-   **Requirements**
-   
-   * Attach source code: Katalon Studio version 7.0+.
-   * Decompile class file: Katalon Studio version 7.9+.
-
-**Attach Source Code for debugging**
-
-   > This is the default feature provided by Eclipse.
-   
-   From Katalon Studio version 7.0.0, when writing a script or debugging, you can view and interact with the implementation of those components compressed in the `com.kms.katalon.core*` packages, including:
-   
-   * `com.kms.katalon.core`
-   * `com.kms.katalon.core.cucumber`
-   * `com.kms.katalon.core.mobile`
-   * `com.kms.katalon.core.webservice`
-   * `com.kms.katalon.core.webui`
-   * `com.kms.katalon.core.windows`
-   
-   You can also go to the source code where you set a breakpoint for debugging test scripts.
-
-**Decompile Class File for debugging**
-
-   From version 7.9 onwards, Katalon Studio supports debugging **class file without source code** directly. 
-   
-   On debugging a class file, Katalon Studio will automatically find, download, and attach the source code. You do not have to perform these steps manually, like in the previous versions.
-   
-   <img alt="decompiler-introduction" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/decompiler-introduction.png" width=85%>
-   
-   In case Katalon Studio fails to find and attach the source code (for example, it cannot find the source jar on the Internet), it will decompile the class file and show the decompiled source. 
-   
-   Katalon Studio supports various algorithms for decompiling, including:
-   - Jad.
-   - JD.
-   - FernFlower.
-   - CFR.
-   - Procyon.
-
-**Turn on, turn off Decompiler feature**
-
-   This feature is enabled by default, you can double-check as follows:
-   
-   1. **Windows**: Go to **Windows** > **Preferences**.
-   
-      **MacOS**: Go to **Katalon Studio** > **Preferences**.
-   2. Select **General** > **Editors** > **File Associations**.
-   3. For "\***.class**" and "\***.class without source**", "**Katalon Class Decompiler Viewer**" is selected by default. 
-   
-   In case you want to switch back to the default class file viewer in previous versions, please choose "**Class File Viewer**" instead.
-
-**Configure Decompiler feature**
-
-   This section provides you with step-by-step instructions on configuring the **Decompiler** feature.
-   
-   1. **Windows**: Go to **Windows** > **Preferences**.
-
-      **MacOS**: Go to **Katalon Studio** > **Preferences**.
-   2. Select **Java** > **Decompiler**.
-
-      <img alt="decompiler-introduction" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/decompiler-config.png" width=85%>
