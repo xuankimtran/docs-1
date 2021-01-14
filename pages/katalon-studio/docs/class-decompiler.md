@@ -45,7 +45,7 @@ To turn off **Katalon Class Decompiler**, you need to set **Class File Viewer** 
 * Katalon Studio v7.9 onwards
 * Enabled Decompiler in Katalon **Preferences**
 
-With **Katalon Class Decompiler**, you can always access a class file's source code to set a breakpoint for debugging test scripts. Learn about [Debug Mode](https://docs.katalon.com/katalon-studio/docs/execute-a-test-case-or-a-test-suite.html#debug-mode) in Katalon Studio.
+With **Katalon Class File Decompiler**, you can always access a class file's source code to set a breakpoint for debugging test scripts. Learn about [Debug Mode](https://docs.katalon.com/katalon-studio/docs/execute-a-test-case-or-a-test-suite.html#debug-mode) in Katalon Studio.
 
 <img alt="decompiler-introduction" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/decompiler-introduction.png" width=85%>
 
