@@ -1,35 +1,62 @@
 ---
-title: "Schedule a Test Plan"
+title: "Schedule a Test Run"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/kt-scheduler.html 
 description: 
 ---
+## Prerequisites
 
-To schedule a test or view a list of scheduled test, log into Katalon TestOps > go to your project > select **TestOps CI** > select **Plan**.
+- Have a Test Environment configured. [Learn more](https://docs.katalon.com/katalon-analytics/docs/agents.html)
+- Have a Script Repository set up in Katalon TestOps. [Learn more](https://docs.katalon.com/katalon-analytics/docs/code-repo.html)
 
-You can plan and execute your tests using Local Agents or other test environments such as EKS or CircleCI. In this tutorial, we use CircleCI test enviroment as an example.
+## Schedule a Test Run
 
-After you have [created a test plan](https://docs.katalon.com/katalon-analytics/docs/create-plan.html), you can schedule and execute anytime you want.
+You can schedule other Test Runs by clicking on *"Schedule Test Run"* button.
 
-1. On the **Plan** view, select a test plan by clicking its name.
-2. Select **Schedule** on the top right corner.
+Follow the instruction in the setup wizard and click *"Create"* to finish creating a new schedule for your Test Run.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-scheduler/schedule.png" width="" height="">
+After creating schedules, scheduled Test Runs can be found in **Test Planning**.
 
-3. In the **Schedule** view, enter the required details:
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-scheduler/test-run-calendar.png" width="" height="">
 
-   * **Name**: It's recommended to give a name that has a meaning.
-   * **From-To**: The period in which the scheduled jobs start.
-   * **Interval** and **Interval Unit**: Every <_Interval_> <_Interval Unit_>, a scheduled test is executed.
+Click on each Test Run in the calendar to view summary.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-scheduler/test-run-details.png" width="" height="">
+
+## View a Test Run Type
+
+After scheduling a Test Run, you can view details from *"Test Run Types"* section in **Test Planning**. Test Run Type is a collection of Test Runs having the same configurations. This sectiion allows you an ability to view the list of Test Run with similar configurations (Test Environment, Trigger, Script Repository).
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-scheduler/test-run-type.png" width="" height="">
+
+## Create a Trigger
+
+Trigger is used to determine when a Test Run is executed. This helps you leverage remote execute to take fully control of your testing plan.
+
+To create a Trigger, select a Test Run Type to access its details page > Click on *"Create Trigger"*.
+
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-scheduler/create-trigger-details.png" width="" height="">
+
+In the *"Create Trigger"* view, enter the required details:
+
+   * *Name*: It's recommended to give a name that has a meaning.
+   * *From-To*: The period in which the scheduled jobs start.
+   * *Interval* and *Interval Unit*: Every <_Interval_> <_Interval Unit_>, a scheduled test is executed.
      For example: With Interval=3, and Interval Unit=Day, a test is executed every 3 days.
-   * **Active**: You can change the status of the Schedule with this switch.
-   
-
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-scheduler/schedule-plan.png" width="" height="">
-
-4. Click **Create** to create a schedule.
+   * *Active*: You can change the status of the Trigger with this switch.
 
 
-Your test plan is now ready to be executed at your preferred time. The scheduled test that is being executed will be displayed on the **Jobs** table.
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-scheduler/create-trigger.png" width="" height="">
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-scheduler/jobs.png" width="" height="">
+
+Your Test Run is now ready to be executed at your preferred time. You can view a list of your Triggers in *"Configuration"* tab in *"Test Run Types"* section.
+
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-scheduler/view-triggers.png" width="" height="">
+
+## Related topics
+
+- [Set up a Local Environment](https://docs.katalon.com/katalon-analytics/docs/agents.html)
+- [Set up a Script Repository](https://docs.katalon.com/katalon-analytics/docs/code-repo.html)
+- [Katalon TestOps Terminology](https://docs.katalon.com/katalon-analytics/docs/testops-terminology.html#trigger)
