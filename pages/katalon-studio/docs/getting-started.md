@@ -21,17 +21,17 @@ description:
 
 This section provides information on how to install and activate Katalon Studio.
 
-### Installation
+## Installation
 
-**Environment Requirements**
+### Environment Requirements
 
 Verify whether your computer meets the [System Requirements](http://docs.katalon.com/display/KD/System+Requirements) to work with Katalon Studio.
 
-**Download Katalon Studio**
+### Download Katalon Studio
 
 * Download the [latest Katalon Studio version](https://www.katalon.com/download/). 
 
-   Katalon Studio will automatically detect a suitable version for your system, but you can also select a preferred one on the page. 
+   Katalon Studio automatically detect a suitable version for your system, but you can also select a preferred one on the page. 
 
 * Do a quick check on [System Requirements](/display/KD/System+Requirements) before using Katalon Studio.
 
@@ -69,7 +69,7 @@ Verify whether your computer meets the [System Requirements](http://docs.katalon
 
    ![Katalon Studio Loading](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/install_setup_katalon_studio/image2016-10-20-143A113A21.png)
 
-### Activate Katalon Studio
+## Activate Katalon Studio
 
 - If you do not have a Katalon Studio account, provide a username and password to sign up after launching the app. 
 
@@ -82,7 +82,7 @@ Verify whether your computer meets the [System Requirements](http://docs.katalon
         - [Node-Locked License](https://docs.katalon.com/katalon-studio/docs/license.html#node-locked-license)
         - [Floating License](https://docs.katalon.com/katalon-studio/docs/license.html#floating-license)
 
-### Related Topics
+## Related Topics
 
 - [Configure Katalon Studio](https://docs.katalon.com/katalon-studio/docs/getting-started.html#configure-katalon-studio)
 
