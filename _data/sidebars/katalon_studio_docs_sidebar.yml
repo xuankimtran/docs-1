@@ -1213,9 +1213,9 @@ items:
                url: /katalon-analytics/docs/bdd-test-results.html
              - title: "Link Executions to Jira Defects"
                url: /katalon-analytics/docs/ka-defects.html
-             - title: "Link Test Cases to Requirements"
+             - title: "Link Test Cases to Jira Requirements"
                url: /katalon-analytics/docs/ka-integration-jira.html
-             - title: "Manage Executions with Jira Releases"
+             - title: "Manage Test Runs by Releases"
                url: /katalon-analytics/docs/kt-jira-release.html
           - title: "Slack Integration"
             url: /katalon-analytics/docs/slack-integration.html
@@ -1225,24 +1225,28 @@ items:
             url: /katalon-analytics/docs/kt-remote-execution.html
           - title: "Local Test Environments"
             tree:
-              - title: "Set up Local Test Environments"
+              - title: "Create a Local Test Environment"
                 url: /katalon-analytics/docs/agents.html
               - title: "Load Balancing for Local Test Environments"
                 url: /katalon-analytics/docs/load-balancing-agents.html
-          - title: "AWS EKS Test Environments"
+          - title: "Create a Kubernetes Test Environments"
             url: /katalon-analytics/docs/aws-eks.html
           - title: "Test Projects"
             tree:
-              - title: "Upload Test Projects"
+              - title: "Set up a Script Repository"
                 url: /katalon-analytics/docs/code-repo.html
               - title: "Upload Git Test Project"
                 url: /katalon-analytics/docs/git-test-project.html
           - title: "Remote Execution Plan"
             tree:
-              - title: "Create and Run a Test Plan"
+              - title: "Set up Configurations for Remote Execution"
+                url: /katalon-analytics/docs/test-run-config.html
+              - title: "Schedule Test Runs"
                 url: /katalon-analytics/docs/create-plan.html
-              - title: "Schedule a Test Plan"
+              - title: "Execute Test Runs by a Trigger"
                 url: /katalon-analytics/docs/kt-scheduler.html
+              - title: "Execute Test Runs manually"
+                url: /katalon-analytics/docs/execute-test-run.html
               - title: "View Test Plan Summary in Katalon Studio"
                 url: /katalon-analytics/docs/view-ci-plans.html
           - title: "Integration with Jenkins"
