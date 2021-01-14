@@ -52,7 +52,7 @@ description:
 
    On the menu bar, select **Product > Build**.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/installing-webdriveragent-for-ios-devices/build.png" width=85%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/installing-webdriveragent-for-ios-devices/build-lib.png" width=85%>
 
 6\. Select **WebDriverAgentRunner** > in the **Signing & Capabilities** section, check **Automatically manage signing** > select a team. 
 
@@ -60,4 +60,4 @@ description:
 
    On the menu bar, select **Product > Build**.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/installing-webdriveragent-for-ios-devices/build.png" width=85%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/installing-webdriveragent-for-ios-devices/build-runner.png" width=85%>
