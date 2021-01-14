@@ -1,7 +1,7 @@
 ---
 title: "[Mobile] iOS Setup"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/ios-setup.html
+permalink: katalon-studio/tutorials/mobile-ios-setup.html
 redirect_from:
     - "/display/KD/Getting+Started/"
     - "/display/KD/Getting%20Started/"
@@ -128,10 +128,10 @@ This topic describes the preliminary actions you need to perform to prepare the 
 
    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/image2016-8-8-143A313A14.png)
 
-   Next: [Create your first iOS test case](link)
+   Next: [Create your first iOS test case](https://docs.katalon.com/katalon-studio/docs/mobile-recorder-tutorials.html#record)
 
    See also: 
-   * [Set up Android-mobile-tests](https://docs.katalon.com/katalon-studio/docs/mobile-on-macos.html)
+   * [Set up Android-mobile-tests](https://docs.katalon.com/katalon-studio/tutorials/mobile-android-setup.html)
    * [Troubleshoot automated mobile testing](https://docs.katalon.com/katalon-studio/docs/troubleshooting-automated-mobile-testing.html)
    </details>
   
