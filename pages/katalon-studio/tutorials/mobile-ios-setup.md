@@ -23,13 +23,13 @@ The iOS-mobile-tests perform UI functional automation test on an iOS application
    
 This topic describes the preliminary actions you need to perform to prepare the environment for testing iOS applications with Katalon Studio.
 
-### Set up iOS tests on Windows and macOS
+## Set up iOS tests on Windows and macOS
    
-**On Windows machine**
+### On Windows machine
 
    You can only test an **iOS** application using **macOS**. 
 
-**On macOS machine**
+### On macOS machine
    
    1. Supported environments
    * Appium: 1.12.1 onwards
@@ -50,7 +50,7 @@ This topic describes the preliminary actions you need to perform to prepare the 
    * usbmuxd 1.0.10 or newer.
    * WebDriverAgent.
    
-**Reference installation guide**
+### Reference installation guide
 
    We recommend you to refer to the official documentation of each component for the detailed instructions.
 
@@ -115,7 +115,7 @@ This topic describes the preliminary actions you need to perform to prepare the 
    * Connect the iOS device to **Xcode**.
    * Go to **Settings** on the iOS device > **Developer** > turn on **UIAutomation**.
 
-### Verify the mobile application file
+## Verify the iOS application file
 
    Before testing an iOS native application file (**.   ipa** file), follow these steps to check if the    application file is already built and signed correctly.
    1. Open **Xcode** and navigate to **Window/Devices**
