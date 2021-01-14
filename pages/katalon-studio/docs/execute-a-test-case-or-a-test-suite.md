@@ -190,4 +190,6 @@ To use **Debug from here** with **Chrome, Firefox, or Edge Chromium**, do as fol
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/debug-from-here.png" width=85%>
 
+See also:
 
+* [Decompile Class File for Debugging](https://docs.katalon.com/katalon-studio/docs/class-decompiler.html)
