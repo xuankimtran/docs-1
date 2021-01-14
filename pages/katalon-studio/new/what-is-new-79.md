@@ -36,15 +36,27 @@ Moreover, the IDE look and feel is substantially improved with:
 * The more freshened interface on macOS 10.14 - 10.15, Windows 10, and Ubuntu 19.04 - 20.04.
 * Extending Dark theme support in additional Windows areas, including the text of radio buttons, check-box, and group control.
 
+   Before: 
+   
+   <img alt="before" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/what-is-new/1_before.PNG" width=80%> 
+
+   After: 
+   
+   <img alt="after" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/what-is-new/1_after.PNG" width=80%>
+
 ### Flexibility to use different JRE (from v8 to v14) for your test projects
 
 The default embedded Java Runtime Environment (JRE) v8 is used to run a Katalon Studio instance, and compile, run your test projects. To make it easy and flexible for you to use your desired JRE version and vendor, you can now set another JRE as the default one for compiling and running test projects. Those of you running tests in console mode can flexibly use another JRE for test execution by using environment variable.
 
 See the [how-to guide](https://docs.katalon.com/katalon-studio/how-to-guides/set-new-default-JRE.html) for more detailed instructions.
 
+<img alt="Change default" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/change-jre/default.png" width=90%> 
+
 ### Katalon Class File Decompiler for debugging
 
 In previous versions, you have to manually find, and attach source code of the 3rd-party libraries to prepare for debugging test scripts. In v7.9 and later, with **Katalon Class File Decompiler** enabled by default for all Katalon Studio instances, you can always access a class file's source code for debug. [Learn more](https://docs.katalon.com/katalon-studio/docs/class-decompiler.html)
+
+<img alt="decompiler-introduction" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/class-decompiler/decompiler.png" width=85%>
 
 ## Empowered Groovy scripting capabilities
 
@@ -61,6 +73,8 @@ All Katalon Studio and Katalon Runtime Engine packages now are to be notarized f
 We made several changes to improve the integration with qTest. Particularly, those of you using qTest can pass Build information and submit screenshots to qTest Manager along with other test logs and reports for analyzing test results better.
 
 Notably, to continue using the integration in this version, you need to map the execution status to activate Automation Integration in qTest. [Learn more](https://docs.katalon.com/katalon-studio/docs/qtest-integration.html#execution-status-mapping)
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/status-map-ks.png" width=80%>
 
 Useful link:
 
