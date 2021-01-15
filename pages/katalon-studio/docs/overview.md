@@ -149,7 +149,7 @@ description:
         <tr>
             <th><strong>Data-driven Testing</strong></th>
             <th><strong>BDD Tests</strong></th>
-            <th><strong>Runtime Engine</strong></th>
+            <th><strong>Console Mode Execution</strong></th>
         </tr>
     </thead>
     <tbody>
@@ -182,7 +182,7 @@ description:
             </td>
             <td>
                 <ul>
-                    <li><a href="https://docs.katalon.com/katalon-studio/docs/intro-RE.html">Introduction</a>
+                    <li><a href="https://docs.katalon.com/katalon-studio/docs/intro-RE.html">Introduction to Runtime Engine</a>
                     <li><a href="https://www.katalon.com/download/">Download</a>
                     <li><a href="https://docs.katalon.com/katalon-studio/docs/test-case-variables.html">Command Syntax</a>
                     </li>
