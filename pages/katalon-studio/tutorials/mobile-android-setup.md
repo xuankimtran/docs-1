@@ -2,20 +2,6 @@
 title: "[Mobile] Android Setup"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/tutorials/mobile-android-setup.html
-redirect_from:
-    - "/display/KD/Getting+Started/"
-    - "/display/KD/Getting%20Started/"
-    - "/display/KD/Installation+and+Setup/"
-    - "/x/l4Ei/"
-    - "/katalon-studio/docs/getting-started/"
-    - "/display/KD/Before+You+Start/"
-    - "/display/KD/Before%20You%20Start/"
-    - "/x/HwAM/"
-    - "/katalon-studio/docs/before-you-start/"
-    - "/katalon-studio/docs/before-you-start.html"
-    - "/katalon-studio/tutorials/install_setup_katalon_studio.html"
-    - "/display/KD/Installation+and+Setup/"
-    - "/display/KD/Installation%20and%20Setup/"
 description:
 ---
 
@@ -25,11 +11,7 @@ This topic describes the preliminary actions you need to perform to prepare the 
 
 ## Set up Android tests on Windows and macOS
    
-<<<<<<< Updated upstream
-### On Windows machine**
-=======
 ### On Windows machine
->>>>>>> Stashed changes
 
    1. Supported Environments on Windows machine: 
    
@@ -55,11 +37,7 @@ This topic describes the preliminary actions you need to perform to prepare the 
 
    4. Install **Android SDK**: Katalon Studio will detect and ask you to install Android SDK automatically if your current machine does not have it.
 
-<<<<<<< Updated upstream
-### On macOS machine** 
-=======
 ### On macOS machine
->>>>>>> Stashed changes
 
    1. Supported environments on macOS machine:
    * Appium: 1.12.1 onwards.
