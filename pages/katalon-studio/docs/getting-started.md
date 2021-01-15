@@ -77,17 +77,4 @@ Verify whether your computer meets the [System Requirements](http://docs.katalon
     - License types:
         - [Node-Locked License](https://docs.katalon.com/katalon-studio/docs/license.html#node-locked-license)
         - [Floating License](https://docs.katalon.com/katalon-studio/docs/license.html#floating-license)
-
-## Related Topics
-
-- [Configure Katalon Studio](https://docs.katalon.com/katalon-studio/docs/getting-started.html#configure-katalon-studio)
-
-    Describes how to configure Web UI and Mobile UI Testing.
-
-- [Getting a Sample Project Up and Running](https://docs.katalon.com/katalon-studio/docs/getting-started.html#getting-a-sample-project-up-and-running)
-
-   Describes how to create a New Project or Sample Projects to become familiar with Katalon Studio.
-
-- [Katalon TestOps](https://docs.katalon.com/katalon-studio/docs/getting-started.html#katalon-testops)
    
-   Introduce the services of Katalon TestOps.
