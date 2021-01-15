@@ -35,9 +35,9 @@ This topic describes the preliminary actions you need to perform to prepare the 
    * Connect your Android phones to your computer via a USB cable.
    * Confirm to accept or trust the device.
 
-   4. Install **Android SDK** 
+   4. Install Android SDK
    
-      Katalon Studio will detect and ask you to install Android SDK automatically if your current machine does not have it.
+      Katalon Studio will detect and ask you to install **Android SDK** automatically if your current machine does not have it.
 
 ### On macOS machine
 
@@ -59,7 +59,7 @@ This topic describes the preliminary actions you need to perform to prepare the 
       >
       > Make sure you install Node.js into a location where you have full **Read** and **Write** permissions.
    
-   3. Set up the devices.
+   3. Set up the devices
 
    * Turn on the phone's developer mode (go to **Settings** > **Developer options**).
    * Connect your Android Phone to your computer via a USB cable. Just confirm if prompted to accept or trust the device.
@@ -67,11 +67,11 @@ This topic describes the preliminary actions you need to perform to prepare the 
 
 ## Verify the Android application file
 
-   After completing setting your environment, open a    Mobile Testing Sample Project (which is packaged in  your Katalon Studio installation) and execute a test suite using an Android device: 
+   After completing setting your environment, open a    Mobile Testing Sample Project (which is packaged in  your Katalon Studio installation) and execute a test suite using an Android device. 
    
    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/image2017-6-29-143A483A34.png)  
 
-   Select your device from the **Android Devices** list. Click **OK**. 
+   Select your device from the **Android Devices** list > click **OK**. 
 
    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/image2018-1-26-183A393A1.png)
 
@@ -84,4 +84,4 @@ This topic describes the preliminary actions you need to perform to prepare the 
    See also:
    * [Set up iOS-mobile-tests](https://docs.katalon.com/katalon-studio/tutorials/mobile-ios-setup.html).
    * [Troubleshoot automated mobile testing](https://docs.katalon.com/katalon-studio/docs/troubleshooting-automated-mobile-testing.html).
-   </details>
+
