@@ -67,7 +67,7 @@ This topic describes the preliminary actions you need to perform to prepare the 
 
 ## Verify the Android application file
 
-   After completing setting your environment, open a    Mobile Testing Sample Project (which is packaged in  your Katalon Studio installation) and execute a test suite using an Android device. 
+   After completing setting your environment, open a Mobile Testing Sample Project (which is packaged in  your Katalon Studio installation) and execute a test suite using an Android device. 
    
    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/image2017-6-29-143A483A34.png)  
 
