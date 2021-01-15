@@ -15,9 +15,9 @@ From version 7.6 onwards, Katalon Studio fully supports selector strategies supp
 
 > APIDemos.apk and sample project code is available [here](https://github.com/katalon-studio-samples/sample-Android-demo-project).
 
-## Create your first Android test case
+### Create your first Android test case
 
-### Record
+**Record**
 
 1. From the main Toolbar, click on the **Record Mobile** icon and select your device type, for instance, **Android Devices**
 
@@ -50,7 +50,7 @@ From version 7.6 onwards, Katalon Studio fully supports selector strategies supp
 
    > Important
    >
-   > The most important property of an object is its locator strategy and value. The default locator is a unique value in detecting that object. Katalon Studio 7.6+ fully supports selector strategies supported by Appium except for Android Data Matcher ([Learn more](https://docs.katalon.com/katalon-studio/docs/locators_object_identification.html)). If you prefer another locator strategy among the provided option, you can choose it and generate a new locator. Then click **Highlight** to see if your newly updated locator can detect the target object on its screen correctly.
+   > The most important property of an object is its locator strategy and value. The default locator is a unique value in detecting that object. Katalon Studio 7.6+ fully supports selector strategies supported by Appium except for Android Data Matcher ([Learn more](https://docs.katalon.com/katalon-studio/docs/locators_object_identification.html)). If you prefer another locator strategy among the provided options, you can choose it and generate a new locator. Then click **Highlight** to see if your newly updated locator can detect the target object on its screen correctly.
 
 7. Similarly, in **Device View**, select **SMS Messaging**; in **Available Actions**, select **Tap**. Observe the **Recorded Actions** table; you can see another Tap item is added to the list.
 8. To continue, in **Device View**, select the text input area right next to the **Recipient** object; in **Available Actions**, click on the **Set Text** action. In the displayed **Text Input** dialog, enter a phone number and click **OK**. Observe **Device View**; you can see a phone number is filled in the text field.
@@ -75,7 +75,7 @@ From version 7.6 onwards, Katalon Studio fully supports selector strategies supp
 12. You can add the recorded test steps to a new test case or append to/overwrite an existing one.
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/new-tc.png" width=500>
 
-## Playback
+**Playback**
 
 To playback the recorded scenario:
 
