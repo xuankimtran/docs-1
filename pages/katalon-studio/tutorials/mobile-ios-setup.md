@@ -58,6 +58,7 @@ This topic describes the preliminary actions you need to perform to prepare the 
    
       `brew install node`\
       `npm install -g appium`
+      
       > **Note**
       >
       > Make sure you install Node.js into a location where you have full **Read** and **Write** permissions.
