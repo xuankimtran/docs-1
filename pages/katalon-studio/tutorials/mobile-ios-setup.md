@@ -107,7 +107,7 @@ This topic describes the preliminary actions you need to perform to prepare the 
 
 ## Verify the iOS application file
 
-   Before testing an iOS native application file (**.   ipa** file), follow these steps to check if the application file is already built and signed correctly.
+   Before testing an iOS native application file (**.ipa** file), follow these steps to check if the application file is already built and signed correctly.
 
    1. Open **Xcode** and navigate to **Window/Devices**.
    2. Choose your device from the **Devices** list.
