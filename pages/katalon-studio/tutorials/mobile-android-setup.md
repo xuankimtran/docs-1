@@ -18,7 +18,7 @@ This topic describes the preliminary actions you need to perform to prepare the 
    * Appium: 1.12.1 onwards.
    * Android: 6.x onwards (official releases).
 
-   2. Install **Appium**, follow [these steps](http://appium.io/docs/en/about-appium/getting-started/#installing-appium)
+   2. Install [Appium](http://appium.io/docs/en/about-appium/getting-started/#installing-appium)
    
       > **Note**
       >
@@ -50,7 +50,7 @@ This topic describes the preliminary actions you need to perform to prepare the 
      >
      > Some emulators have already supported Appium through their installations. Thus, if you want to run an application on an emulator, check your emulators' settings before proceeding with the Appium installation.
 
-   2. Install [**Appium**](http://appium.io/docs/en/about-appium/getting-started/#installing-appium)
+   2. Install [Appium](http://appium.io/docs/en/about-appium/getting-started/#installing-appium)
 
       `brew install node`\
       `npm install -g appium`
