@@ -99,9 +99,9 @@ This topic describes the preliminary actions you need to perform to prepare the 
 
    * Connect your iOS devices to your computer via a USB cable. Confirm to accept or trust the phone.
    * If you want to execute your tests using Safari on iOS (mobile browser), make sure **Web Inspector** is turned on for **Safari** (**Settings > Safari > Advanced > Web Inspector**).
-   * Enable the service **UI automation** on the device.
-   * Connect the iOS device to **Xcode**.
-   * Go to **Settings** on the iOS device > **Developer** > turn on **UIAutomation**.
+   * Enable the service **UI automation** on the devices.
+   * Connect the iOS devices to **Xcode**.
+   * Go to **Settings** on the iOS devices > **Developer** > turn on **UIAutomation**.
 
 ## Verify the iOS application file
 
