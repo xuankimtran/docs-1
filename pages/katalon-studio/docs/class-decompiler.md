@@ -15,6 +15,18 @@ In case Katalon Studio fails to find the source attachment owing to the Internet
 
 Katalon Class Decompiler is **enabled by default** for all Katalon Studio instances. This document gives you many details on additional configurations for it.  
 
+## Use Class Decompiler for debugging test scripts
+
+**Requirements**:
+
+* An active Katalon Studio Enterprise license
+* Katalon Studio v7.9 onwards
+* Enabled Decompiler in Katalon **Preferences**
+
+With **Katalon Class File Decompiler**, you can always access a class file's source code to set a breakpoint for debugging test scripts. Learn about [Debug Mode](https://docs.katalon.com/katalon-studio/docs/execute-a-test-case-or-a-test-suite.html#debug-mode) in Katalon Studio.
+
+<img alt="decompiler-introduction" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/decompiler-introduction.png" width=85%>
+
 ## Configure Class Decompiler
 
 For further configurations, open the Decompiler in Katalon Preferences:
@@ -28,7 +40,6 @@ Katalon Studio supports the following Decompilers, including CFR, FernFlower (se
 
 <img alt="decompiler-introduction" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/class-decompiler/decompilers.png" width=85%>
 
-
 **Disable Class Decompiler**
 
 To turn off **Katalon Class Decompiler**, you need to set **Class File Viewer** to the default viewer in **Preferences** > **General** > **Editors** > **File Associations**.
@@ -39,17 +50,7 @@ To turn off **Katalon Class Decompiler**, you need to set **Class File Viewer** 
 
    <img alt="decompiler-introduction" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/class-decompiler/switch.png" width=85%>
 
-## Use Class Decompiler for debugging test scripts
 
-**Requirements**:
-
-* An active Katalon Studio Enterprise license
-* Katalon Studio v7.9 onwards
-* Enabled Decompiler in Katalon **Preferences**
-
-With **Katalon Class File Decompiler**, you can always access a class file's source code to set a breakpoint for debugging test scripts. Learn about [Debug Mode](https://docs.katalon.com/katalon-studio/docs/execute-a-test-case-or-a-test-suite.html#debug-mode) in Katalon Studio.
-
-<img alt="decompiler-introduction" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/decompiler-introduction.png" width=85%>
 
 
 
