@@ -49,7 +49,7 @@ This topic describes the preliminary actions you need to perform to prepare the 
       2. **Install Xcode command-line tool**
    
          `xcode-select --install`\
-         `sudo xcode-select -s /Applications/Xcode.app/   Contents/Developer`
+         `sudo xcode-select -s /Applications/Xcode.app/Contents/Developer`
 
       3. **Install homebrew** 
       
