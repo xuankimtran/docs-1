@@ -39,7 +39,7 @@ description: Release note 7.x
 
 ### Improvements
 
-* Upgrade Groovy library from version 2.4.7 to 3.0.
+* Upgrade Groovy library from version 2.4.7 to 3.0 (Warning: Some classes are deprecated due to package changes. [Learn more](https://groovy-lang.org/releasenotes/groovy-3.0.html#Groovy3.0releasenotes-Splitpackages)).
 * Upgrade Eclipse IDE from version 4.6 to 4.16.
 * Notarize Katalon Studio and Katalon Runtime Engine applications for macOS Catalina. [Learn more](https://developer.apple.com/documentation/xcode/notarizing_macos_software_before_distribution)
 * Enhance qTest Integration, including:
