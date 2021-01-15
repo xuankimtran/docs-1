@@ -44,55 +44,54 @@ This topic describes the preliminary actions you need to perform to prepare the 
 
       1. **Install Xcode**
    
-      Xcode can be installed via the App Store.
+         Xcode can be installed via the App Store.
 
       2. **Install Xcode command-line tool**
    
-      `xcode-select --install`\
-      `sudo xcode-select -s /Applications/Xcode.app/   Contents/Developer`
-      3. **Install homebrew**
-   
-      Follow [this link](https://brew.sh/).
+         `xcode-select --install`\
+         `sudo xcode-select -s /Applications/Xcode.app/   Contents/Developer`
 
-      4. **Install Appium**
+      3. **Install homebrew** [(here)](https://brew.sh/)
+
+      4. **Install [Appium](http://appium.io/docs/en/about-appium/getting-started/#installing-appium)**
    
-      `brew install node`\
-      `npm install -g appium`
+         `brew install node`\
+         `npm install -g appium`
       
-      > **Note**
-      >
-      > Make sure you install Node.js into a location where you have full **Read** and **Write** permissions.
+         > **Note**
+         >
+         > Make sure you install Node.js into a location where you have full **Read** and **Write** permissions.
 
       5. **Install carthage**
    
-      `brew install carthage`
+         `brew install carthage`
 
       6. **Install ios-deploy**
    
-      `brew install ios-deploy`
+         `brew install ios-deploy`
 
       7. **Install usbmuxd**
    
-      `brew install --HEAD usbmuxd`\
-      `brew unlink usbmuxd`\
-      `brew link usbmuxd`
+         `brew install --HEAD usbmuxd`\
+         `brew unlink usbmuxd`\
+         `brew link usbmuxd`
 
       8. **Install libimobiledevice**
    
-      `brew install --HEAD libimobiledevice`\
-      `brew unlink libimobiledevice`\
-      `brew link libimobiledevice`
+         `brew install --HEAD libimobiledevice`\
+         `brew unlink libimobiledevice`\
+         `brew link libimobiledevice`
 
       9. **Install ios-webkit-debug-proxy**
    
-      `brew install ios-webkit-debug-proxy`
+         `brew install ios-webkit-debug-proxy`
 
       10. **Install WebDriverAgent**
 
-       Follow these links:
+          Follow these links:
 
-        * [Installing WebDriverAgent for iOS devices](/display/KD/Installing+WebDriverAgent+for+iOS+devices).
-        * [WebDriverAgent project page](https://github.com/facebook/WebDriverAgent).
+          * [Installing WebDriverAgent for iOS devices](/display/KD/Installing+WebDriverAgent+for+iOS+devices).
+          * [WebDriverAgent project page](https://github.com/facebook/WebDriverAgent).
 
    </details>
 
