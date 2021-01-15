@@ -51,7 +51,9 @@ This topic describes the preliminary actions you need to perform to prepare the 
          `xcode-select --install`\
          `sudo xcode-select -s /Applications/Xcode.app/   Contents/Developer`
 
-      3. **Install homebrew** [(here)](https://brew.sh/)
+      3. **Install homebrew** 
+      
+         Follow this [link](https://brew.sh/).
 
       4. **Install [Appium](http://appium.io/docs/en/about-appium/getting-started/#installing-appium)**
    
