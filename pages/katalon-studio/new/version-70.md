@@ -33,8 +33,8 @@ description: Release note 7.x
       - [Take Element Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/webui-take-element-screenshot-as-checkpoint.html)
       - [Take Area Screenshot](https://docs.katalon.com/katalon-studio/docs/webui-take-area-screenshot.html)
       - [Take Area Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/webui-take-area-screenshot-as-checkpoint.html)
-* Support Decompile Class File for debugging.
-* Support changing the default embedded JRE 8 to higher versions (from v8 to v14).
+* Support Class File Decompiler for debugging. [Learn more](https://docs.katalon.com/katalon-studio/docs/execute-a-test-case-or-a-test-suite.html#decompile-class-file-for-debugging)
+* Support set a new default JRE in test projects. [Learn more](https://docs.katalon.com/katalon-studio/how-to-guides/set-new-default-JRE.html)
 * [Katalon TestOps Vision] Support [a sample project for Visual Testing with TestOps Vision](https://github.com/katalon-studio-samples/web-visual-testing-samples).
 
 ### Improvements
