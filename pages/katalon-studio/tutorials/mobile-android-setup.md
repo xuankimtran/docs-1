@@ -23,9 +23,9 @@ The Android-mobile-tests perform UI functional automation test on an Android app
 
 This topic describes the preliminary actions you need to perform to prepare the environment for testing Android applications with Katalon Studio.
 
-### Set up Android tests on Windows and macOS
+## Set up Android tests on Windows and macOS
    
-**On Windows machine**
+### On Windows machine**
 
    1. Supported Environments on Windows machine: 
    
@@ -51,7 +51,7 @@ This topic describes the preliminary actions you need to perform to prepare the 
 
    4. Install **Android SDK**: Katalon Studio will detect and ask you to install Android SDK automatically if your current machine does not have it.
 
-**On macOS machine** 
+### On macOS machine** 
 
    1. Supported environments on macOS machine:
    * Appium: 1.12.1 onwards.
@@ -70,7 +70,7 @@ This topic describes the preliminary actions you need to perform to prepare the 
    * Connect your Android Phone to your computer via a USB cable. Just confirm if prompted to accept or trust the device.
    * Install **Android SDK**: Katalon Studio will detect and ask you to install Android SDK automatically if your current machine does not have it.
 
-### Verify the Android application file
+## Verify the Android application file
 
    After completing setting your environment, open a    Mobile Testing Sample Project (which is packaged in  your Katalon Studio installation) and execute a test suite using an Android device: 
    
