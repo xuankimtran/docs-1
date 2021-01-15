@@ -2,20 +2,6 @@
 title: "[Mobile] iOS Setup"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/tutorials/mobile-ios-setup.html
-redirect_from:
-    - "/display/KD/Getting+Started/"
-    - "/display/KD/Getting%20Started/"
-    - "/display/KD/Installation+and+Setup/"
-    - "/x/l4Ei/"
-    - "/katalon-studio/docs/getting-started/"
-    - "/display/KD/Before+You+Start/"
-    - "/display/KD/Before%20You%20Start/"
-    - "/x/HwAM/"
-    - "/katalon-studio/docs/before-you-start/"
-    - "/katalon-studio/docs/before-you-start.html"
-    - "/katalon-studio/tutorials/install_setup_katalon_studio.html"
-    - "/display/KD/Installation+and+Setup/"
-    - "/display/KD/Installation%20and%20Setup/"
 description:
 ---
 
@@ -120,7 +106,7 @@ This topic describes the preliminary actions you need to perform to prepare the 
    Before testing an iOS native application file (**.   ipa** file), follow these steps to check if the    application file is already built and signed correctly.
    1. Open **Xcode** and navigate to **Window/Devices**
    2. Choose your device from the **Devices** list.
-   3. Press the "**+**" button and choose your application file.
+   3. Click the "**+**" button and choose your application file.
 
       ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/image2016-8-8-143A313A5.png)
 
@@ -128,10 +114,10 @@ This topic describes the preliminary actions you need to perform to prepare the 
 
    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/image2016-8-8-143A313A14.png)
 
-   Next: [Create your first iOS test case](https://docs.katalon.com/katalon-studio/docs/mobile-recorder-tutorials.html#record).
+   Next: [Create your first iOS test case](https://docs.katalon.com/katalon-studio/docs/mobile-recorder-tutorials.html#record)
 
    See also: 
-   * [Set up Android-mobile-tests](https://docs.katalon.com/katalon-studio/tutorials/mobile-android-setup.html).
-   * [Troubleshoot automated mobile testing](https://docs.katalon.com/katalon-studio/docs/troubleshooting-automated-mobile-testing.html).
+   * [Set up Android-mobile-tests](https://docs.katalon.com/katalon-studio/tutorials/mobile-android-setup.html)
+   * [Troubleshoot automated mobile testing](https://docs.katalon.com/katalon-studio/docs/troubleshooting-automated-mobile-testing.html)
    </details>
   
