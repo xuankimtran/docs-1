@@ -25,7 +25,11 @@ This topic describes the preliminary actions you need to perform to prepare the 
 
 ## Set up Android tests on Windows and macOS
    
+<<<<<<< Updated upstream
 ### On Windows machine**
+=======
+### On Windows machine
+>>>>>>> Stashed changes
 
    1. Supported Environments on Windows machine: 
    
@@ -51,7 +55,11 @@ This topic describes the preliminary actions you need to perform to prepare the 
 
    4. Install **Android SDK**: Katalon Studio will detect and ask you to install Android SDK automatically if your current machine does not have it.
 
+<<<<<<< Updated upstream
 ### On macOS machine** 
+=======
+### On macOS machine
+>>>>>>> Stashed changes
 
    1. Supported environments on macOS machine:
    * Appium: 1.12.1 onwards.
@@ -84,9 +92,9 @@ This topic describes the preliminary actions you need to perform to prepare the 
 
    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/image2018-6-15-173A473A28.png)
    
-   Next: [Create your first Android test case](https://docs.katalon.com/katalon-studio/tutorials/mobile-android-setup.html)
+   Next: [Create your first Android test case](https://docs.katalon.com/katalon-studio/tutorials/mobile-android-setup.html).
 
    See also:
-   * [Set up iOS-mobile-tests](https://docs.katalon.com/katalon-studio/tutorials/mobile-ios-setup.html)
-   * [Troubleshoot automated mobile testing](https://docs.katalon.com/katalon-studio/docs/troubleshooting-automated-mobile-testing.html)
+   * [Set up iOS-mobile-tests](https://docs.katalon.com/katalon-studio/tutorials/mobile-ios-setup.html).
+   * [Troubleshoot automated mobile testing](https://docs.katalon.com/katalon-studio/docs/troubleshooting-automated-mobile-testing.html).
    </details>
