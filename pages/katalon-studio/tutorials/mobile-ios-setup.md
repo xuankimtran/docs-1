@@ -93,7 +93,7 @@ This topic describes the preliminary actions you need to perform to prepare the 
           * [Installing WebDriverAgent for iOS devices](/display/KD/Installing+WebDriverAgent+for+iOS+devices).
           * [WebDriverAgent project page](https://github.com/facebook/WebDriverAgent).
 
-   </details>
+      </details>
 
    3. Set up the devices
 
