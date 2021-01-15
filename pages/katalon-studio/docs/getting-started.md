@@ -35,10 +35,6 @@ Verify whether your computer meets the [System Requirements](http://docs.katalon
 
 * Do a quick check on [System Requirements](/display/KD/System+Requirements) before using Katalon Studio.
 
-> **Download older versions**
->
-> You can download older versions from Katalon Studio's [Github repository](https://github.com/katalon-studio/katalon-studio/releases).
-
 ### Start Katalon Studio
 
 **Windows**
@@ -49,9 +45,9 @@ Verify whether your computer meets the [System Requirements](http://docs.katalon
 
 - Ensure you are using the default font size (set to 100%) in both Katalon Studio and your current OS to avoid the name field not being displayed on some > pop-up windows.
 
-    > **To adjust the font size:**
-    > * Windows: [Edit the font size](https://www.pcworld.com/article/242942/how_to_change_font_size.html).
-    > * Katalon Studio: **Window** > **Preferences** > **General** > **Appearance** > **Colors and Fonts**. Select **Dialog Font** and edit the font size.
+    To adjust the font size:
+    * Windows: [Edit the font size](https://www.pcworld.com/article/242942/how_to_change_font_size.html).
+    * Katalon Studio: **Window** > **Preferences** > **General** > **Appearance** > **Colors and Fonts**. Select **Dialog Font** and edit the font size.
 
 **macOS**
 
