@@ -54,5 +54,3 @@ From version 7.6 onwards, Katalon Studio fully supports selector strategies supp
 4. To stop recording, click *Stop* or go straight to *Save Script*. The browser will be closed automatically.
 5. Choose where to store your script in the *Add element to Object Repository* dialog and click *OK*.
 6. Input Name, Descripton and Tag (if any) in the *Test Case* dialog and click *OK*. Your test case is successfully created.
-
-abc
