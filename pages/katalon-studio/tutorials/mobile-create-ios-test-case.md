@@ -17,7 +17,7 @@ From version 7.6 onwards, Katalon Studio fully supports selector strategies supp
 
 ### Create your first iOS test case
 
-### Record
+**Record**
 
 1. From the main Toolbar, click on the **Record Mobile** icon and select your device type. For example, **iOS Devices**.
 
@@ -30,7 +30,7 @@ From version 7.6 onwards, Katalon Studio fully supports selector strategies supp
    Where:
 
    * **Device Name**: select one of your connected iOS  devices.
-   * **Start with**: In the drop-down list, select Application File
+   * **Start with**: In the drop-down list, select **Application File**
    * **Application File**: Browse your application file. (For example, APIDemos.apk)
 
 3. Click **Start** to begin recording your test case. Wait until the AUT is launched, and the **Device View** and **All Objects** are ready for you to interact with the application.
@@ -54,3 +54,5 @@ From version 7.6 onwards, Katalon Studio fully supports selector strategies supp
 4. To stop recording, click *Stop* or go straight to *Save Script*. The browser will be closed automatically.
 5. Choose where to store your script in the *Add element to Object Repository* dialog and click *OK*.
 6. Input Name, Descripton and Tag (if any) in the *Test Case* dialog and click *OK*. Your test case is successfully created.
+
+abc
