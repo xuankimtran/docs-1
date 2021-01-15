@@ -147,6 +147,8 @@ items:
                 url: /katalon-studio/docs/external-libraries.html
           - title: "Execute and Debug a Test Case"
             url: /katalon-studio/docs/execute-a-test-case-or-a-test-suite.html
+          - title: "Decompile Class File for Debugging"
+            url: /katalon-studio/docs/class-decompiler.html
           - title: "Fixing broken Web Test Objects with Time Capsule"
             url: /katalon-studio/docs/time-capsule.html
           - title: "Desired Capabilities"
