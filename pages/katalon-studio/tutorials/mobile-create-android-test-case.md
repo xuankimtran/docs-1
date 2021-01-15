@@ -124,4 +124,3 @@ Mobile.tap(findTestObject('Object Repository/APIDemo/android.widget.Button - Sen
 Mobile.closeApplication()
 
 ```
-abc
