@@ -124,5 +124,3 @@ This topic describes the preliminary actions you need to perform to prepare the 
    See also: 
    * [Set up Android-mobile-tests](https://docs.katalon.com/katalon-studio/tutorials/mobile-android-setup.html)
    * [Troubleshoot automated mobile testing](https://docs.katalon.com/katalon-studio/docs/troubleshooting-automated-mobile-testing.html)
-
-  
