@@ -15,7 +15,7 @@ description: What's new in Katalon Studio 7.9?
 
 Today we have released Katalon Studio 7.9 with major improvements for both Katalon Studio and Katalon Studio Enterprise Editions.
 
-This version upgraded Groovy and Eclipse IDE frameworks to the latest versions, supported Class File Decompiler for debugging, enhanced the integration with application lifecycle management (ALM) tools, and resolved several bugs. This document describes the enhancement highlights available in 7.9.
+This version upgraded Groovy and Eclipse IDE frameworks to the latest versions, supported Class File Decompiler for debug, enhanced the integration with application lifecycle management (ALM) tools, and resolved several bugs. This document describes the enhancement highlights available in 7.9.
 
 > For a detailed list of enhancements and bug fixes, see [release notes](https://docs.katalon.com/katalon-studio/new/version-70.html).
 
@@ -38,11 +38,11 @@ Moreover, the IDE look and feel is substantially improved with:
 
    Before: 
    
-   <img alt="before" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/what-is-new/1_before.PNG" width=80%> 
+   <img alt="before" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/what-is-new/1_before.PNG" width=40%> 
 
    After: 
    
-   <img alt="after" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/what-is-new/1_after.PNG" width=80%>
+   <img alt="after" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/what-is-new/1_after.PNG" width=40%>
 
 ### Flexibility to use different JRE (from v8 to v14) for your test projects
 
@@ -50,17 +50,17 @@ The default embedded Java Runtime Environment (JRE) v8 is used to run a Katalon 
 
 See the [how-to guide](https://docs.katalon.com/katalon-studio/how-to-guides/set-new-default-JRE.html) for more detailed instructions.
 
-<img alt="Change default" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/change-jre/default.png" width=90%> 
+<img alt="Change default" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/change-jre/default.png" width=70%> 
 
-### Katalon Class File Decompiler for debugging
+### Katalon Class File Decompiler for debug
 
 In previous versions, you have to manually find, and attach source code of the 3rd-party libraries to prepare for debugging test scripts. In v7.9 and later, with **Katalon Class File Decompiler** enabled by default for all Katalon Studio instances, you can always access a class file's source code for debug. [Learn more](https://docs.katalon.com/katalon-studio/docs/class-decompiler.html)
 
-<img alt="decompiler-introduction" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/class-decompiler/decompiler.png" width=85%>
+<img alt="decompiler-introduction" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/class-decompiler/decompiler.png" width=70%>
 
 ## Empowered Groovy scripting capabilities
 
-Another primary enhancement is shipped in this release is the Groovy framework upgrade from v2.4.7 to v3.0. Along with the Eclipse upgrade, it was also tested by our pioneer users for months before its official launch.
+Another primary enhancement was shipped in this release is the Groovy framework upgrade from v2.4.7 to v3.0. Along with the Eclipse upgrade, it was also tested by our pioneer users for months before its official launch.
 
 This upgrade addresses the limitations of Groovy 2.4.7 and equips those of you using Groovy script with the [latest Groovy technologies](https://groovy-lang.org/releasenotes/groovy-3.0.html). 
 
@@ -70,11 +70,11 @@ All Katalon Studio and Katalon Runtime Engine packages now are to be notarized f
 
 ## qTest Integration Enhancements
 
-We made several changes to improve the integration with qTest. Particularly, those of you using qTest can pass Build information and submit screenshots to qTest Manager along with other test logs and reports for analyzing test results better.
+We made several changes to improve the integration with qTest. Particularly, you can pass Build information and submit screenshots to qTest Manager along with other test logs and reports for analyzing test results better.
 
 Notably, to continue using the integration in this version, you need to map the execution status to activate Automation Integration in qTest. [Learn more](https://docs.katalon.com/katalon-studio/docs/qtest-integration.html#execution-status-mapping)
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/status-map-ks.png" width=80%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/status-map-ks.png" width=70%>
 
 Useful link:
 
