@@ -1,5 +1,5 @@
 ---
-title: "Decompile Class File for Debugging"
+title: "Decompile Class File for Debug"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/class-decompiler.html
 description:
@@ -15,7 +15,7 @@ In case Katalon Studio fails to find the source attachment owing to the Internet
 
 Katalon Class Decompiler is **enabled by default** for all Katalon Studio instances. This document gives you many details on additional configurations for it.  
 
-## Use Class Decompiler for debugging test scripts
+## Use Class Decompiler for debug
 
 **Requirements**:
 
