@@ -21,20 +21,18 @@ description: Release note 7.x
 ### New features
 
 * Support screenshot taking keywords for Mobile and Web testing, including:
-   - Mobile:
-      - [Take Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/mobile-take-screenshot-as-checkpoint.html)
-      - [Take Element Screenshot](https://docs.katalon.com/katalon-studio/docs/mobile-take-element-screenshot.html)
-      - [Take Element Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/mobile-take-element-screenshot-as-checkpoint.html)
-      - [Take Area Screenshot](https://docs.katalon.com/katalon-studio/docs/mobile-take-area-screenshot.html)
-      - [Take Area Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/mobile-take-area-screenshot-as-checkpoint.html)
-   - Web UI:
-      - [Take Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/webui-take-screenshot-as-checkpoint.html)
-      - [Take Element Screenshot](https://docs.katalon.com/katalon-studio/docs/webui-take-element-screenshot.html)
-      - [Take Element Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/webui-take-element-screenshot-as-checkpoint.html)
-      - [Take Area Screenshot](https://docs.katalon.com/katalon-studio/docs/webui-take-area-screenshot.html)
-      - [Take Area Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/webui-take-area-screenshot-as-checkpoint.html)
+  - [Mobile][Take Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/mobile-take-screenshot-as-checkpoint.html)
+  - [Mobile][Take Element Screenshot](https://docs.katalon.com/katalon-studio/docs/mobile-take-element-screenshot.html)
+  - [Mobile][Take Element Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/mobile-take-element-screenshot-as-checkpoint.html)
+  - [Mobile][Take Area Screenshot](https://docs.katalon.com/katalon-studio/docs/mobile-take-area-screenshot.html)
+  - [Mobile][Take Area Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/mobile-take-area-screenshot-as-checkpoint.html)
+  - [Web UI][Take Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/webui-take-screenshot-as-checkpoint.html)
+  - [Web UI][Take Element Screenshot](https://docs.katalon.com/katalon-studio/docs/webui-take-element-screenshot.html)
+  - [Web UI][Take Element Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/webui-take-element-screenshot-as-checkpoint.html)
+  - [Web UI][Take Area Screenshot](https://docs.katalon.com/katalon-studio/docs/webui-take-area-screenshot.html)
+  - [Web UI][Take Area Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/webui-take-area-screenshot-as-checkpoint.html)
 * Support Class File Decompiler for debugging. [Learn more](https://docs.katalon.com/katalon-studio/docs/execute-a-test-case-or-a-test-suite.html#decompile-class-file-for-debugging)
-* Support set a new default JRE in test projects. [Learn more](https://docs.katalon.com/katalon-studio/how-to-guides/set-new-default-JRE.html)
+* Support setting a new default JRE in test projects. [Learn more](https://docs.katalon.com/katalon-studio/how-to-guides/set-new-default-JRE.html)
 * [Katalon TestOps Vision] Support [a sample project for Visual Testing with TestOps Vision](https://github.com/katalon-studio-samples/web-visual-testing-samples).
 
 ### Improvements
