@@ -21,9 +21,7 @@ To get familiar with these features, go through the following "Recording a scena
 
 ### Create New Project
 
-1. In the **Test Explorer** on the sidebar > click **New Project** to create a new project.
-
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/new-project.png" width=30%>
+1. In the **Test Explorer** on the sidebar > click **New Project**.
 
 2. In the displayed **New Project** dialog:
 
