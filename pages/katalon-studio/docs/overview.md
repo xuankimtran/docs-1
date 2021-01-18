@@ -14,8 +14,8 @@ description:
 <table>
     <thead>
         <tr>
-            <th><strong>Getting Started</strong></th>
-            <th><strong>Latest Version</strong></th>
+            <th style="width:33%"><strong>Getting Started</strong></th>
+            <th style="width:33%"><strong>Latest Version</strong></th>
             <th><strong>Support</strong></th>
         </tr>
     </thead>
