@@ -38,7 +38,7 @@ To get familiar with these features, go through the following "Recording a scena
 
 1. On the main toolbar, click **Record Mobile** > select **Android Devices**.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android-devices.png" width=180>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android-devices.png" width=30%%>
 
 2. In the displayed **Mobile Recorder** dialog, specify the information at the **Configurations** section:
 
