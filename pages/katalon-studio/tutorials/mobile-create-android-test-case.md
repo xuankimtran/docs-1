@@ -5,88 +5,121 @@ permalink: katalon-studio/tutorials/mobile-create-android-test-case.html
 description: Create Android Test Case 
 ---
 
-From version 7.6 onwards, Katalon Studio fully supports selector strategies supported by Appium except for [Android Data Matcher](https://docs.katalon.com/katalon-studio/docs/locators_object_identification.html). This tutorial helps you get familiar with the **Record** and **Playback** features for Mobile Tests by recording a scenario of sending a message via the **APIDemos.apk** application:
+This tutorial demonstrates how to create Android tests with Katalon Studio using **Record** and **Playback**.
 
-1. Launch **APIDemos.apk** on the device
-2. Tap on **OS**
-3. Tap on **SMS Messaging**
-4. Enter a phone number and a message
-5. Tap on **Send**
+To get familiar with these features, go through the following "Recording a scenario of sending a message via the APIDemos.apk application" example. The basic steps are:
 
-> APIDemos.apk and sample project code is available [here](https://github.com/katalon-studio-samples/sample-Android-demo-project).
+1. Launch **APIDemos.apk** on the device.
+2. Tap on **OS**.
+3. Tap on **SMS Messaging**.
+4. Enter a phone number and a message.
+5. Tap on **Send**.
 
-### Create your first Android test case
+> APIDemos.apk and sample project code is available [here](https://github.com/katalon-studio-samples/android-mobile-tests).
 
-**Record**
+## Create your first Android test case
 
-1. From the main Toolbar, click on the **Record Mobile** icon and select your device type, for instance, **Android Devices**
+### Create New Project
+
+1. In the **Test Explorer** on the sidebar > click **New Project** to create a new project.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/new-project.png" width=35%>
+
+2. In the displayed **New Project** dialog:
+
+   - Input project **Name**.
+   - In project **Type** > select **Mobile**.
+   - In **Project** > select **Sample Android...**, the **Repository URL** is filled automatically.
+   - Browse a **Location** to store your project > click **OK**.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/create-new-project-with-sample-project.png" width=85%>
+
+### Record
+
+1. On the main toolbar, click **Record Mobile** > select **Android Devices**.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android-devices.png" width=180>
 
 2. In the displayed **Mobile Recorder** dialog, specify the information at the **Configurations** section:
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-mobile-utility/configurations.png" width=369>
-   
-   Where:
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/configure.png" width=85%>
 
    * **Device Name**: select one of your connected Android devices.
-   * **Start with**: In the drop-down list, select **Application File**
-   * **Application File**: Browse **APIDemos.apk**
+   * **Start with**: Select **Application File** in the drop-down list.
+   * **Application File**: Browse **APIDemos.apk**.
 
-3. Click **Start** to begin recording your test case. Wait until the AUT is launched, and the **Device View** and **All Objects** are ready for you to interact with the application.
-4. On **Device View**, click on **OS**; Katalon Studio selects **OS** in **All Objects** correspondingly.
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/OS.png" width=727>
+3. Click **Start** to begin recording your test case: 
 
-5. Once **OS** is selected, **Tap** is enabled in **Available Actions**, click **Tab**.
+   * Wait until the AUT is launched. 
+   * The **Device View** and **All Objects** are ready for you to interact with the application.
 
-   Once **Tap** action is performed:
+4. On the **Device View** > click **OS**, Katalon Studio selects **OS** in **All Objects** correspondingly.
 
-* The **Device View** is rendered with newly displayed elements.
-* In **Recorded Actions**, **Tap** is added to the list of recorded test steps.
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/tap1.png" width=361>
-* In  **Captured Objects**, **OS** is captured with its properties.
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/os.png" width=85%>
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/selector.png" width=362>
+5. Once **OS** is selected, **Tap** is enabled in **Available Actions** > click **Tab**, the tap action is performed as follows:
 
-   > Important
+   * The **Device View** is rendered with newly displayed elements.
+   * In **Recorded Actions**, **Tap** is added to the list of recorded steps.
+
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/tap.png" width=85%>
+
+   * In **Captured Objects**, **OS** is captured with its properties.
+
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/captured.png" width=85%>
+
+   > **Note**
    >
-   > The most important property of an object is its locator strategy and value. The default locator is a unique value in detecting that object. Katalon Studio 7.6+ fully supports selector strategies supported by Appium except for Android Data Matcher ([Learn more](https://docs.katalon.com/katalon-studio/docs/locators_object_identification.html)). If you prefer another locator strategy among the provided options, you can choose it and generate a new locator. Then click **Highlight** to see if your newly updated locator can detect the target object on its screen correctly.
+   > - The essential property property of an object is its locator strategy and value. The default locator is a unique value in detecting that object. Katalon Studio 7.6+ fully supports selector strategies supported by Appium except for Android Data Matcher ([Learn more](https://docs.katalon.com/katalon-studio/docs/locators_object_identification.html)).
+   >
+   >   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/locator-strategy.png" width=70%>
+   > - If you prefer another locator strategy, select your prefered one and generate a new locator > click **Highlight** to see if your newly updated locator can detect the target object on its screen correctly.
 
-7. Similarly, in **Device View**, select **SMS Messaging**; in **Available Actions**, select **Tap**. Observe the **Recorded Actions** table; you can see another Tap item is added to the list.
-8. To continue, in **Device View**, select the text input area right next to the **Recipient** object; in **Available Actions**, click on the **Set Text** action. In the displayed **Text Input** dialog, enter a phone number and click **OK**. Observe **Device View**; you can see a phone number is filled in the text field.
+6. Similarly in **Device View**, click **SMS Messaging** > click **Tap** in **Available Actions**.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/set-text1.png" width=1097>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/sms-messaging.png" width=85%>
 
-9. In **Device View**, select the text input area right next to the **Message Body** object; in **Available Actions**, click on the **Set Text** action. In the displayed **Text Input** dialog, enter any message, for instance, "Hello world! This is Katalon Mobile Recorder", and click **OK**.
+   You can see another tap action is added to the list of **Recorded Actions** and **Captured Objects**.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/set-text2.png" width=1100>
+7. In **Device View**, select the text input area right next to **Recipient** > click **Set Text** in **Available Actions**.
 
-* In **Device View**, you can see the message is set in the text field.
-* In **Recorded Actions**, **Set Text** is added to the table.
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/text-input.png" width=85%>
 
-10. In **Device View**, select **Send**; in **Available Actions**, select **Tap**.
+   In the displayed **Text Input** dialog, enter a phone number > click **OK**. 
+You can see a phone number is filled in the text field in **Device View**.
 
-   > If you launch **APIDemos.apk** application on a real device with a carrier, the message can be sent successfully.
+8. In **Device View**, select the text input area next to the **Message Body** > click **Set Text** in **Available Actions**.
+   
+   In the displayed **Text Input** dialog, enter any message > click **OK**. You can see the message is set in the text field in **Device View**.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/send.png" width=1097>
+   In **Recorded Actions**, **Set Text** is added to the table.
 
-11. After finishing recording the desired interactions with the AUT, click **OK** to save the captured objects. In the **Folder Browser** dialog, create a new folder or select an existing folder in **Object Repository**, then click **OK**.
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/set-text2.png" width=85%>
 
-12. You can add the recorded test steps to a new test case or append to/overwrite an existing one.
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/new-tc.png" width=500>
+9. In **Device View**, select **Send**; in **Available Actions**, select **Tap**.
 
-**Playback**
+   > If you launch the **APIDemos.apk** application on a real device with a carrier, the message can be sent successfully.
+
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/send.png" width=85%>
+
+10. After finishing recording the desired interactions with the AUT, click **OK** to save the captured objects. In the **Folder Browser** dialog, create a new folder or select an existing folder in **Object Repository**, then click **OK**.
+
+11. You can add the recorded test steps to a new test case or append to/overwrite an existing one.
+
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/new-tc.png" width=85%>
+
+### Playback
 
 To playback the recorded scenario:
 
-1. Select the test case where you have saved the recorded actions
-2. From the main Toolbar, open the drop-down list next to the **Run** button and to select a mobile device type
+1. Select the test case where you have saved the recorded actions.
+2. On the main toolbar, select **Android** device on the drop-down list next to **Run**.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/run.png" width=703>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/android.png" width=35%>
 
-3. In the displayed dialog, select a device and click **OK**.
+3. In the displayed **Android Devices** dialog, select a device > click **OK**.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-mobile-utility/device.png" width=452>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/device.png" width=85%>
 
    Katalon Studio executes the mobile test with the recorded steps accordingly.
 
