@@ -1257,6 +1257,8 @@ items:
             url: /katalon-analytics/docs/view-abnormal-web-services.html
           - title: "View Requirement Coverage heat map"
             url: /katalon-analytics/docs/requirement-coverage.html
+          - title: "View Test Case reports"
+            url: /katalon-analytics/docs/view-test-cases.html
       - title: "Configure Notification Emails"
         url: /katalon-analytics/docs/kt-noti-email.html
       - title: "REST API"
