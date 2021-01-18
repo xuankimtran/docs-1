@@ -1251,8 +1251,10 @@ items:
                 url: /katalon-analytics/docs/view-ci-plans.html
           - title: "Integration with Jenkins"
             url: /katalon-analytics/docs/ka-integration-jenkins.html
-      - title: "Test Analytics"
+      - title: "Reports & Analytics"
         url: /katalon-analytics/docs/view-reports-overview.html
+          - title: "Detect abnormal Web Services"
+            url: /katalon-analytics/docs/view-abnormal-web-services.html
       - title: "Configure Notification Emails"
         url: /katalon-analytics/docs/kt-noti-email.html
       - title: "REST API"
