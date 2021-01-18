@@ -5,15 +5,17 @@ permalink: katalon-studio/tutorials/mobile-create-ios-test-case.html
 description: Create iOS Test Case 
 ---
 
-From version 7.6 onwards, Katalon Studio fully supports selector strategies supported by Appium except for [Android Data Matcher](https://docs.katalon.com/katalon-studio/docs/locators_object_identification.html). This tutorial helps you get familiar with the **Record** and **Playback** features for Mobile Tests by recording a scenario of sending a message via the **APIDemos.apk** application:
+From version 7.6 onwards, Katalon Studio fully supports selector strategies supported by Appium. 
 
-1. Launch **APIDemos.apk** on the device
-2. Tap on **OS**
-3. Tap on **SMS Messaging**
-4. Enter a phone number and a message
-5. Tap on **Send**
+This tutorial helps you get familiar with the **Record** and **Playback** features for Mobile Tests by recording a scenario of sending a message via the **APIDemos.ipa** application:
 
-> APIDemos.apk and sample project code is available [here](https://github.com/katalon-studio-samples/sample-Android-demo-project).
+1. Launch **APIDemos.ipa** on the device.
+2. Tap on **OS**.
+3. Tap on **SMS Messaging**.
+4. Enter a phone number and a message.
+5. Tap on **Send**.
+
+> APIDemos.ipa and sample project code is available [here](https://github.com/katalon-studio-samples/ios-mobile-tests).
 
 ### Create your first iOS test case
 
@@ -21,13 +23,12 @@ From version 7.6 onwards, Katalon Studio fully supports selector strategies supp
 
 1. From the main Toolbar, click on the **Record Mobile** icon and select your device type. For example, **iOS Devices**.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS-devices.png" width=180>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/record-iOS.png" width=35%>
+
 
 2. In the displayed **Mobile Recorder** dialog, specify the information at the **Configurations** section:
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-mobile-utility/configurations.png" width=369>
-   
-   Where:
 
    * **Device Name**: select one of your connected iOS  devices.
    * **Start with**: In the drop-down list, select **Application File**
