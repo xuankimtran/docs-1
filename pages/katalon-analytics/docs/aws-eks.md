@@ -36,5 +36,5 @@ After creating the environment, you now have the Kubernetes Test Environment rea
 ## Related topics
 
 - [Create a Local Test Environment](https://docs.katalon.com/katalon-analytics/docs/agents.html)
-- Create a Docker environment
+- [Create a Docker environment](https://docs.katalon.com/katalon-analytics/docs/docker.html)
 - [Create a CircleCI Environment](https://docs.katalon.com/katalon-analytics/docs/circleci.html)
