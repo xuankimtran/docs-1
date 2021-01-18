@@ -77,9 +77,9 @@ To get familiar with these features, go through the following "Recording a scena
 
 6. Similarly in **Device View**, click **SMS Messaging** > click **Tap** in **Available Actions**.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/sms-messaging.png" width=85%>
-
    You can see another tap action is added to the list of **Recorded Actions** and **Captured Objects**.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/sms-messaging.png" width=85%>
 
 7. In **Device View**, select the text input area right next to **Recipient** > click **Set Text** in **Available Actions**.
 
