@@ -16,7 +16,12 @@ description:
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/login/login_page.png)
 
 2. Enter your Katalon account to sign in. Sign up if you are new to Katalon.
-3. Once you have signed in successfully, the Katalon TestOps’ home page will display. The home page shows quick paths to your organizations, teams, and projects to view details of each page.
+
+3. Once you have signed in successfully, the Katalon TestOps’ home page will display.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/login/home_page.png)
+
+ The home page shows quick paths to your organizations, teams, and projects to view details of each page.
 
 * **Organization**: You can view all the organizations you belong to. Select an organization to see its name and ID. Also, you can update your organization name, manage teams and users if you’re its **Owner**.
 
