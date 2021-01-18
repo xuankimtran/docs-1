@@ -23,7 +23,7 @@ To get familiar with these features, go through the following "Recording a scena
 
 1. In the **Test Explorer** on the sidebar > click **New Project** to create a new project.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/new-project.png" width=35%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/new-project.png" width=30%>
 
 2. In the displayed **New Project** dialog:
 
@@ -42,7 +42,7 @@ To get familiar with these features, go through the following "Recording a scena
 
 2. In the displayed **Mobile Recorder** dialog, specify the information at the **Configurations** section:
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/configure.png" width=85%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/configure.png" width=70%>
 
    * **Device Name**: select one of your connected Android devices.
    * **Start with**: Select **Application File** in the drop-down list.
@@ -62,11 +62,11 @@ To get familiar with these features, go through the following "Recording a scena
    * The **Device View** is rendered with newly displayed elements.
    * In **Recorded Actions**, **Tap** is added to the list of recorded steps.
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/tap.png" width=85%>
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/tap.png" width=80%>
 
    * In **Captured Objects**, **OS** is captured with its properties.
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/captured.png" width=85%>
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/captured.png" width=80%>
 
    > **Note**
    >
@@ -90,21 +90,24 @@ You can see a phone number is filled in the text field in **Device View**.
 
 8. In **Device View**, select the text input area next to the **Message Body** > click **Set Text** in **Available Actions**.
    
-   In the displayed **Text Input** dialog, enter any message > click **OK**. You can see the message is set in the text field in **Device View**.
-
-   In **Recorded Actions**, **Set Text** is added to the table.
+   In the displayed **Text Input** dialog, enter any message > click **OK**. 
+   
+   You can see the message is set in the text field in **Device View** and the **Set Text** is added to the 
+   **Recorded Actions**.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/set-text2.png" width=85%>
 
-9. In **Device View**, select **Send**; in **Available Actions**, select **Tap**.
+9. In **Device View**, click **Send** > click **Tap** in **Available Actions**.
 
    > If you launch the **APIDemos.apk** application on a real device with a carrier, the message can be sent successfully.
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/send.png" width=85%>
 
-10. After finishing recording the desired interactions with the AUT, click **OK** to save the captured objects. In the **Folder Browser** dialog, create a new folder or select an existing folder in **Object Repository**, then click **OK**.
+10. After finishing recording the desired interactions with the AUT, click **OK** to save the captured objects. 
 
-11. You can add the recorded test steps to a new test case or append to/overwrite an existing one.
+      In the **Folder Browser** dialog, create a new folder or select an existing folder in **Object Repository** > click **OK**.
+
+11. You can add the recorded test steps to a new test case or append to or overwrite an existing one.
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/new-tc.png" width=85%>
 
@@ -112,7 +115,7 @@ You can see a phone number is filled in the text field in **Device View**.
 
 To playback the recorded scenario:
 
-1. Select the test case where you have saved the recorded actions.
+1. Select the test case where you saved the recorded actions.
 2. On the main toolbar, select **Android** device on the drop-down list next to **Run**.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/android.png" width=35%>
