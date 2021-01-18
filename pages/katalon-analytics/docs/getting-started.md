@@ -12,6 +12,9 @@ description:
 ## Logging in
 
 1. Navigate to: [https://analytics.katalon.com](https://analytics.katalon.com/).
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/login/login_page.png)
+
 2. Enter your Katalon account to sign in. Sign up if you are new to Katalon.
 3. Once you have signed in successfully, the Katalon TestOps’ home page will display. The home page shows quick paths to your organizations, teams, and projects to view details of each page.
 
