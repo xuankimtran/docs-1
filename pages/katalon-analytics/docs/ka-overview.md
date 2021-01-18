@@ -13,9 +13,22 @@ description:
 ---
 ## Welcome to Katalon TestOps
 
-[Katalon TestOps](https://analytics.katalon.com/home) is a set of cloud-based services to help you streamline software quality by continuous test execution and intelligent analytics.
+[Katalon TestOps](https://testops.katalon.io/home) is an enterprise-ready platform for **QA Orchestration**, **test analytics**, and **reporting**.
+- It coordinates various activities, cycles, and frameworks in software testing to ensure software quality in every stage, without sacrificing speed or requiring DevOps expertise.
+- It provides dashboards and reports on the quality status of the product application.
 
-## Key Applications
+
+## Key Modules
+
+### Test Planning
+
+
+
+### Test Management
+
+### Reports & Analytics
+
+### Configurations
 
 - **TestOps Center**: the test hub to gather and connect quality data from multiple sources, including Katalon Studio, JUnit, TestNG, and Jira.
 
