@@ -107,7 +107,7 @@ You can see a phone number is filled in the text field in **Device View**.
 
       In the **Folder Browser** dialog, create a new folder or select an existing folder in **Object Repository** > click **OK**.
 
-11. You can add the recorded test steps to a new test case or append to or overwrite an existing one.
+11. You can add the recorded test steps to a new test case, append to or overwrite an existing one.
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/new-tc.png" width=85%>
 
