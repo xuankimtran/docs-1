@@ -8,6 +8,8 @@ redirect_from:
     - "/x/awXR/"
     - "/katalon-studio/docs/troubleshooting-common-issues-related-to-interacting-with-an-element/"
     - "/katalon-studio/docs/troubleshooting-common-issues-related-to-interacting-with-an-element.html"
+    - "/display/KD/troubleshooting+web+automated+testing/"
+    - "/display/KD/troubleshooting%20web%20automated%20testing/"
     - "/katalon-studio/docs/troubleshooting-web-automated-testing/"
     - "/katalon-studio/docs/troubleshooting-web-automated-testing.html"
 ---
