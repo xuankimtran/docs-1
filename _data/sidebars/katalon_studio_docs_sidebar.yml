@@ -55,7 +55,7 @@ items:
             url: /katalon-studio/docs/overview.html
           - title: "What's new"
             tree:
-              - title: "What's new?"
+              - title: "What's new in v7.9?"
                 url: /katalon-studio/new/what-is-new-79.html
               - title: "What's new in v7.8?"
                 url: /katalon-studio/new/what-is-new-78.html

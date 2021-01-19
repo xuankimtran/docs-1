@@ -31,11 +31,33 @@ description:
 
 Katalon Studio Preferences define default behaviors of Katalon Studio across projects. You can access the Preferences by selecting **Katalon Studio > Preferences** from the menu.
 
-Starting from Katalon Studio version 7.0.0, you can configure the usage tracked by Katalon Studio. Go to **Katalon Studio > Preferences> Katalon** from the menu. By default, Katalon Studio is allowed to collect error and execution logs, and other information about your use of the application. Refer to the [Privacy Policy](https://www.katalon.com/terms/katalon/privacy-policy/) for further details of our tracking.
+You can configure the usage tracked by Katalon Studio. Go to **Katalon Studio > Preferences> Katalon** from the menu. By default, Katalon Studio is allowed to collect error and execution logs, and other information about your use of the application. Refer to the [Privacy Policy](https://www.katalon.com/terms/katalon/privacy-policy/) for further details of our tracking.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-preferences/preferences.png" width="610" height="304">
 
-For more details, please refer to the following articles:
+## Import Preferences
+
+Katalon supports an in-app upgrade function for smooth transition to the latest version (In **Help** menu > select **Check for updates...** > in the displayed dialog, download the latest version). The latest version upgraded via this channel will reuse the current version' Preferences configurations.
+
+In case you have to download the latest version from Katalon website and want to reuse the Preferences configurations of another Katalon Studio instance already installed in your machine, or you want to reuse the Preferences configurations of your project team, do as follows:
+
+1. Rename the current Katalon Studio instance with version number. For example, Katalon Studio 7.8.
+2. Download the latest version from [Katalon website](https://www.katalon.com/download/).
+3. Open Katalon Studio, select **File** > **Import Settings**.
+   
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-preferences/import-settings.png" width=50%>
+   
+4. Browse to the **config** folder of your preferred version. For instance:
+
+* macOS:
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-preferences/macos.png">
+
+* Windows:
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-preferences/import_3.PNG">
+
+5. Click **Open**.
 
 ## Test Case Preferences
 

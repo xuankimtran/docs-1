@@ -16,6 +16,8 @@ description: Release note 7.x
 
 ## Official Release - Version 7.9.0
 
+> For macOS users with previous versions, you will not be able to use **Check for updates...** to upgrade to v7.9+ (but you can upgrade from v7.9 to later versions via **Check for updates...**). Please download the latest version from [our website](https://www.katalon.com/download/). To reuse Preferences from previous versions, refer to [this guide](https://docs.katalon.com/katalon-studio/docs/katalon-studio-preferences.html#import-preferences).
+
 ### New features
 
 * Support screenshot taking keywords for Mobile and Web testing, including:
