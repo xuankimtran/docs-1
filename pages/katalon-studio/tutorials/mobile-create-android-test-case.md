@@ -124,7 +124,7 @@ To playback the recorded scenario:
 
    Katalon Studio executes the mobile test with the recorded steps accordingly.
 
-You can also view the test case in Script mode:
+**<details><summary>View the test case in Script mode.</summary>**
 
 ```groovy
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -158,3 +158,4 @@ Mobile.tap(findTestObject('Object Repository/APIDemo/android.widget.Button - Sen
 Mobile.closeApplication()
 
 ```
+<details>
