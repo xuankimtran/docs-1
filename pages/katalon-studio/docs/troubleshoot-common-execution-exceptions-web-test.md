@@ -186,6 +186,6 @@ WebUI.click(findTestObject('Page_CuraHomepage/btn_MakeAppointment'))</code></pre
     </tbody>
 </table>
 
-> The exception you are looking for isn’t on this page?
+> The exception you are looking for is not on this page?
 >
 > Leave a comment below.
