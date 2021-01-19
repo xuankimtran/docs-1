@@ -62,7 +62,7 @@ In previous versions, you have to manually find, and attach source code of the 3
 
 All Katalon Studio and Katalon Runtime Engine packages now are to be notarized for macOS Catalina (10.15.x) as a required step in our distribution process. Understand [why we notarize our macOS software](https://developer.apple.com/documentation/xcode/notarizing_macos_software_before_distribution#overview).
 
-> For macOS users with previous versions, you will not be able to use **Check for updates...** to upgrade to v7.9+ (but you can upgrade from v7.9 to later versions via **Check for updates...**). Please download the latest version from [our website](https://www.katalon.com/download/). To reuse Preferences from previous versions, refer to [this guide](https://docs.katalon.com/katalon-studio/docs/katalon-studio-preferences.html#import-preferences).
+> For macOS users with previous versions, you will not be able to use **Check for updates...** to upgrade to v7.9+ due to the core engine upgrade (but you can use ***Check for updates...*** in v7.9 and later). Please download the latest version from [our website](https://www.katalon.com/download/). To reuse Preferences from previous versions, refer to [this guide](https://docs.katalon.com/katalon-studio/docs/katalon-studio-preferences.html#import-preferences).
 
 ## qTest Integration Enhancements
 
