@@ -31,4 +31,8 @@ description:
 
 ## Logging out
 
-On the Profile page, click **Log Out** on the bottom left corner to finish using Katalon TestOps.
+4. On the right corner of Profile page, click ![](https://github.com/katalon-studio/docs-images/raw/5b7eb6ef44f02bd18a7f71d336a1d1a5d2d36a9b/katalon-analytics/docs/login/right_corner.png).
+
+5. Click **Log Out** on the bottom left corner to finish using Katalon TestOps.
+
+![](https://github.com/katalon-studio/docs-images/raw/fb6c07b068281c2299846be930ccc3e6afd23841/profile.png)
