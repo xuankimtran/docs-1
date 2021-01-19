@@ -8,6 +8,8 @@ redirect_from:
     - "/x/awXR/"
     - "/katalon-studio/docs/troubleshooting-common-issues-related-to-interacting-with-an-element/"
     - "/katalon-studio/docs/troubleshooting-common-issues-related-to-interacting-with-an-element.html"
+    - "/katalon-studio/docs/troubleshooting-web-automated-testing/"
+    - "/katalon-studio/docs/troubleshooting-web-automated-testing.html"
 ---
 
 > Tips
@@ -133,14 +135,57 @@ WebUI.executeJavaScript("arguments[0].click", Arrays.asList(element))</code></pr
         </tr>
         <tr>
             <td>Use different browser versions.</td>
-                    In case you want Katalon Studio to use different versions besides the current installed version, there are two ways to do it:
-                </p>
+            <td>In case you want Katalon Studio to use different versions besides the current installed version, there are two ways to do it:
+                <ol>
+                    <li>Use custom keywords.
+                    <li>
+                        <ul>
+                            <li>These Firefox instances should be installed on your machine first.
+                            <li>Create a <a href="/display/KD/Define+custom+keywords">custom keyword</a> to open the browser. Press Ctrl + Shift + O to automatically import necessary packages:
+                            <pre><code>package com.example
+
+import org.openqa.selenium.WebDriver
+import org.openqa.selenium.chrome.ChromeDriver
+import org.openqa.selenium.chrome.ChromeOptions
+import org.openqa.selenium.firefox.FirefoxDriver
+import com.kms.katalon.core.annotation.Keyword
+import com.kms.katalon.core.webui.driver.DriverFactory
+
+public class WebUICustomKeywords {
+ @Keyword
+ def openFirefoxBrowser(String firefoxPath, String firefoxDriver) {
+  //Set path to Firefox version
+  System.setProperty("webdriver.firefox.bin", firefoxPath)
+  //Set path to Firefox driver: <Katalon Studio folder>\configuration\resources\drivers\firefox_win64\geckodriver.exe
+  System.setProperty("webdriver.gecko.driver", firefoxDriver)
+  WebDriver driver = new FirefoxDriver()
+  DriverFactory.changeWebDriver(driver)
+ }
+
+ @Keyword
+
+ def openChromeBrowser(String chromeDriverPath, String chromePath)
+ {
+//Set path to chromedriver driver: <Katalon Studio folder>\configuration\resources\drivers\chrome_win32\chromedriver.exe
+  System.setProperty("webdriver.chrome.driver", chromeDriverPath)
+  ChromeOptions options = new ChromeOptions()
+  //Set path to Chrome binary
+  options.setBinary(chromePath)
+  WebDriver driver = new ChromeDriver(options)
+  DriverFactory.changeWebDriver(driver)
+ }
+}</code></pre>
+                            <li>In a test case, <strong>use this custom keyword instead of 'Open Browser' keyword</strong>. For example:
+                            <pre><code>CustomKeywords.'com.example.WebUICustomKeywords.openFirefoxBrowser'('C:\\Program Files\\Mozilla Firefox 52\\firefox.exe', 
+ 'C:\\5.4\\Katalon Studio Windows 64\\configuration\\resources\\drivers\\firefox_win64\\geckodriver.exe')
+
+WebUI.navigateToUrl(GlobalVariable.G_SiteURL)
+
+WebUI.click(findTestObject('Page_CuraHomepage/btn_MakeAppointment'))</code></pre>
+                            <li>Downgrade browser's version:  
+    Another approach is downgrade your current browser's version to a version you want. If you want to use a very old version of your current browser, you may need to downgrade or upgrade browser's drivers as well as Selenium WebDriver, please refer to this <a href="https://docs.katalon.com/display/KD/Update+or+Replace+Web+Browser+Drivers+and+Selenium">guide</a>.
     </tbody>
 </table>
-
-
-
-
 
 > The exception you are looking for isn’t on this page?
 >
