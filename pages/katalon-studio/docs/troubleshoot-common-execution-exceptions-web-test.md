@@ -15,69 +15,6 @@ redirect_from:
 >* Please use **Ctrl+F** to look for the exceptions and errors you have encountered quickly.
 >* If the exception you are looking for is not documented, please leave a comment below to request a proposed solution from the Katalon team.
 
-### "org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated"
-
-**Possible causes**:
-
-* This issue usually occurs with the '[Set Text](/display/KD/%5BWebUI%5D+Set+Text)' keyword having a read-only input field.
-* The element is not visible.
-* The element requires some conditions to display.
-
-**Suggested solutions**:
-
-You can try one of the following solutions to resolve the issue:
-
-* Wait until the element is visible
-* Set a value directly using Javascript
-
-   ```groovy
-   import com.kms.katalon.core.webui.common.WebUiCommonHelper
-
-   WebElement element = WebUiCommonHelper.findWebElement(findTestObject('your/object'),30)
-   WebUI.executeJavaScript("arguments[0].value='Your Value'", Arrays.asList(element))
-    ```
-
-### "org.openqa.selenium.WebDriverException: Element is not clickable at point (x, y). Other element would receive the click: ..."
-
-**Possible causes**:
-
-* These are ChromeDriver's clicking issues. [More details](http://chromedriver.chromium.org/help/clicking-issues).
-* The element is clickable, but there is a spinner/overlay on top of it.
-
-**Suggested solution**:
-
-Click on the element using [Javascript](/display/KD/%5BWebUI%5D+Execute+JavaScript) instead.
-
-```groovy
-import com.kms.katalon.core.webui.common.WebUiCommonHelper
-
-WebElement element = WebUiCommonHelper.findWebElement(findTestObject('your/object'),30)
-WebUI.executeJavaScript("arguments[0].click", Arrays.asList(element))
-```
-
-> The exception you are looking for isn’t on this page?
->
-> Leave a comment below.
-
-You can try one of the following solutions to resolve the issue:
-
-### "selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted."
-
-**Possible causes**:
-
-* The element is hidden and is not ready.
-* The element is not visible yet after the current page is loaded.
-
-**Suggested solution**:
-
-Add the [Wait For Element Visible](/display/KD/%5BWebUI%5D+Wait+For+Element+Visible) step before the step having this issue. For example:
-
-```groovy
-WebUI.openBrowser('http://demoaut.katalon.com')
-WebUI.waitForElementVisible(findtestObject('btn_Login'), 30)
-WebUI.click(findTestObject('btn_Login'))
-```
-
 <table>
     <thead>
         <tr>
@@ -87,12 +24,10 @@ WebUI.click(findTestObject('btn_Login'))
     </thead>
     <tbody>
         <tr>
-            <td> 
-                <ul>
+            <td>
                     com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id ... not found.</td>
             <td>
-                <ul>
-                    <li>Update WebDriver via the Katalon tool:</li>
+                    <p>Update WebDriver via the Katalon tool:</p>
                     On main toolbar, select 
                     <b>Tool &gt;&nbsp;Update WebDrivers&nbsp;&gt; select the corresponding browser in the drop-down list.</b>
 </code></pre>
@@ -120,33 +55,93 @@ WebUI.click(findTestObject('btn_Login'))
             </td>
         </tr>
         <tr>
-            <td>Carthage&nbsp;is not found</td>
-            <td>Known issue of Appium 1.7 with Xcode 9:&nbsp;<a class="external-link" href="https://github.com/appium/appium/issues/9344" rel="nofollow">https://github.com/appium/appium/issues/9344</a>, so please use Katalon Studio 5.1.0.2+ to avoid this message.</td>
-        </tr>
-        <tr>
-            <td>Unable to Start Application on this device: Appium directory is invalid.</td>
             <td>
-                <p>Katalon Studio cannot locate the provided Appium directory. Please double check your Appium directory to make sure it should be as shown below:</p>
-                <p>Windows: (Window&nbsp;→ Katalon Studio Preferences&nbsp;→ Mobile&nbsp;→ Appium Directory)</p>
-                <pre><code class="language-groovy">C:\Users\&lt;Username&gt;\AppData\Roaming\npm\node_modules\appium</code></pre>
-                <p>MacOS/Linux: (Katalon Studio&nbsp;→ Preferences&nbsp;→ Mobile&nbsp;→ Appium Directory)</p>
-                <pre><code class="language-groovy">/usr/local/lib/node_modules/appium</code></pre>
+                selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted.
+            </td>
+            <td>
+            Add the <a href="display/KD/%5BWebUI%5D+Wait+For+Element+Visible">Wait For Element Visible</a> step before the one having this issue. For example:
+            <pre><code class="language-groovy">WebUI.openBrowser('http://demoaut.katalon.com')
+WebUI.waitForElementVisible(findtestObject('btn_Login'),30)
+WebUI.click(findTestObject('btn_Login'))</code></pre>
             </td>
         </tr>
         <tr>
-            <td>Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Appium directory is not set</td>
+            <td>org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated.</td>
             <td>
-                <p> When running tests with <strong>Katalon Runtime Engine</strong>, by default Katalon checks the Appium directory at:</p>
-                <ul>
-                  <li>APPIUM_HOME environment variable (*) </li>
-                  <li>Windows: C:\Users<Username>\AppData\Roaming\npm\node_modules\appium</li>
-                  <li>macOS and Linux: /usr/local/lib/node_modules/appium</li>
-                </ul>
-                <p> (*) To set Appium location by using APPIUM_HOME environment variable:
-                <li>Windows: <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/roubleshooting-automated-mobile-testing/windows-appium-home.png"></li>
-                <li>macOS and Linux: <pre><code class="language-groovy">export APPIUM_HOME=/usr/local/lib/node_modules/appium</code></pre></li>
+                <p>
+                    Try one of the following solutions to resolve the issue:
+                    <ol>
+                        <li>Wait until the element is visible.
+                        <li>Set a value directly using Javascript.
+                    </ol>
+                        <pre><code class="language-groovy">import com.kms.katalon.core.webui common.WebUiCommonHelper
+WebElement element = WebUiCommonHelper.findWebElement(findTestObject('your/object'),30)
+WebUI.executeJavaScript("arguments[0].value='Your Value'", Arrays.asList(element))</code></pre>
                 </p>
             </td>
         </tr>
+        <tr>
+            <td>org.openqa.selenium.WebDriverException: Element is not clickable at point (x, y). Other element would receive the click: ...</td>
+            <td>
+                <p> 
+                    Click on the element using <a href="/display/KD/%5BWebUI%5D+Execute+JavaScript">Javascript</a> instead.
+                    <pre><code>import com.kms.katalon.core.webui.common.WebUiCommonHelper
+WebElement element = WebUiCommonHelper.findWebElement(findTestObject('your/object'),30)
+WebUI.executeJavaScript("arguments[0].click", Arrays.asList(element))</code></pre>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>Timed out waiting for driver server to start.</td>
+            <td>
+                    <ul>
+                        <li>Download correct Edge driver from this page: <a href="https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/">https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/</a> based on your OS build (Go to <b>Start</b> > <b>Settings</b> > <b>System</b> > <b>About</b> and locate the number next to OS Build on the screen).
+                        <li>Copy downloaded Edge driver and replace it in existing edgedriver folder of Katalon Studio. For example: <strong>C:\\Katalon\_Studio\_Windows_64-4.8\\configuration\\resources\\drivers\\edgedriver</strong>
+                    </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Unable to record on Internet Explorer.</td>
+            <td>
+                <ul>
+                    <li>Open 'Manage Add-ons' in Internet Explorer: <a href="https://support.microsoft.com/en-us/help/17447/windows-internet-explorer-11-manage-add-ons">https://support.microsoft.com/en-us/help/17447/windows-internet-explorer-11-manage-add-ons</a>.
+                    <li>Enable the RecorderExtension.RecorderBHO.
+                    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/troubleshooting-web-automated-testing/image2017-10-27-163A293A17.png" width=85%>
+                <ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Unable to connect to Katalon server.</td>
+            <td>
+                <p>
+                    Allow the following .exe files to communicate through Windows Firewall. Here is the full <a href="https://www.howtogeek.com/howto/uncategorized/how-to-create-exceptions-in-windows-vista-firewall/">guide</a> to access this interface:
+                </p>
+                    <ul>
+                        <li> geckodriver.exe
+                        <li> chromedriver.exe
+                        <li> iedriverserver.exe
+                    </ul>
+                <p> 
+                    These executable files can be located in: <strong>&lt;Katalon Studio folder&gt;\\configuration\\resources\\drivers</strong>.
+                </p>
+                <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/troubleshooting-web-automated-testing/Screen-Shot-2018-04-24-at-13.51.51.png" width=85%>
+                <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/troubleshooting-web-automated-testing/Screen-Shot-2018-04-24-at-13.51.41.png" width=85%>
+                <p>
+                    You may also need to add Google Chrome (chrome.exe) and Firefox (firefox.exe) in the worst case if your current Windows Firewall block them as well.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>Use different browser versions.</td>
+                    In case you want Katalon Studio to use different versions besides the current installed version, there are two ways to do it:
+                </p>
     </tbody>
 </table>
+
+
+
+
+
+> The exception you are looking for isn’t on this page?
+>
+> Leave a comment below.
