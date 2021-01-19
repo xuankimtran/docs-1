@@ -1179,84 +1179,114 @@ items:
             url: /katalon-store/docs/publisher/manage-published-plugins.html
   - title: "Katalon TestOps (Beta)"
     tree:
-      - title: "Overview"
-        url: /katalon-analytics/docs/overview.html
-      - title: "Terminology" 
-        url: /katalon-analytics/docs/testops-terminology.html
-      - title: "Access Katalon TestOps"
-        url: /katalon-analytics/docs/getting-started.html
-      - title: "Set up Organizations"
-        url: /katalon-analytics/docs/setup-org-team-project.html
-      - title: "Set up Teams and Projects"
-        url: /katalon-analytics/docs/setup-team.html
-      - title: "API Keys"
-        url: /katalon-analytics/docs/ka-api-key.html
-      - title: "Upload Test Results to Katalon TestOps"
+      - title: "Get Started"
         tree:
-          - title: "Upload Test Results automatically from Katalon Studio"
-            url: /katalon-studio/docs/katalon-analytics-beta-integration.html
-          - title: "Upload Test Results manually from Katalon Studio"
-            url: /katalon-analytics/docs/project-management-import-KS.html
-          - title: "Upload JUnit and Katalon Studio Test Results using Katalon Report Uploader"
-            url: /katalon-analytics/docs/project-management-import-cli.html
-          - title: "Upload JUnit and Katalon Studio Test Results from web browsers"
-            url: /katalon-analytics/docs/testops-uploader.html
-          - title: "Upload JUnit and TestNG Test Results via Maven" 
-            url: /katalon-analytics/docs/upload-junit-and-testng.html
+          - title: "Welcome to Katalon TestOps"
+            url: /katalon-analytics/docs/overview.html
+          - title: "Terminology" 
+            url: /katalon-analytics/docs/testops-terminology.html
+          - title: "Access Katalon TestOps"
+            url: /katalon-analytics/docs/getting-started.html
+          - title: "Set up Organizations"
+            url: /katalon-analytics/docs/setup-org-team-project.html
+          - title: "Set up Teams and Projects"
+            url: /katalon-analytics/docs/setup-team.html
+      - title: "Release Notes"
+        tree:
+          - title: "Katalon TestOps Core"
+            tree:
+              - title: Version 1.x
+                url: /katalon-analytics/docs/core-1.0.html
+          - title: "Katalon TestOps Advanced (beta)"
+            tree:
+              - title: Version 0.1.x
+                url: /katalon-analytics/docs/advanced-0.1.x.html
+      - title: "Configurations"
+        tree:
+          - title: "Katalon Studio Integration"
+            tree:
+              - title: "Upload Test Results automatically from Katalon Studio"
+                url: /katalon-studio/docs/katalon-analytics-beta-integration.html
+              - title: "Upload Test Results manually from Katalon Studio"
+                url: /katalon-analytics/docs/project-management-import-KS.html
+          - title: "Framework Integration"
+            tree:
+              - title: "Upload JUnit and Katalon Studio Test Results using Katalon Report Uploader"
+                url: /katalon-analytics/docs/project-management-import-cli.html
+              - title: "Upload JUnit and Katalon Studio Test Results from web browsers"
+                url: /katalon-analytics/docs/testops-uploader.html
+              - title: "Upload JUnit and TestNG Test Results via Maven" 
+                url: /katalon-analytics/docs/upload-junit-and-testng.html
+          - title: "Remote Execution"
+            tree:
+              - title: "Overview"
+                url: /katalon-analytics/docs/test-run-config.html
+              - title: "Upload test scripts as a .zip file"
+                url: /katalon-analytics/docs/code-repo.html
+              - title: "Upload test scripts from Git repositories"
+                url: /katalon-analytics/docs/git-test-project.html
+              - title: "Local Test Environments"
+                tree:
+                  - title: "Create a Local Test Environment"
+                    url: /katalon-analytics/docs/agents.html
+                  - title: "Load Balancing for Local Test Environments"
+                    url: /katalon-analytics/docs/load-balancing-agents.html
+              - title: "Docker Test Environments"
+                url: /katalon-analytics/docs/docker.html
+              - title: "Create a Kubernetes Test Environments"
+                url: /katalon-analytics/docs/aws-eks.html
+          - title: "Jira Integration"
+            tree:
+              - title: "Jira Settings"
+               url: /katalon-analytics/docs/kt-jira-config.html
+              - title: "Jira Dashboard Gadgets"
+               url: /katalon-analytics/docs/jira-gadgets.html
+          - title: "Slack Integration"
+            url: /katalon-analytics/docs/slack-integration.html
+          - title: "Jenkins Integration"
+            url: /katalon-analytics/docs/ka-integration-jenkins.html
+          - title: "Notification Emails"
+            url: /katalon-analytics/docs/kt-noti-email.html
+          - title: "API Keys"
+            url: /katalon-analytics/docs/ka-api-key.html
+      - title: "Test Planning"
+        tree:
+          - title: "Overview"
+            url: /katalon-analytics/docs/kt-remote-execution.html
+          - title: "Schedules"
+            tree:
+              - title: "Schedule Test Runs"
+                url: /katalon-analytics/docs/create-plan.html
+              - title: "Execute Test Runs by a Trigger"
+                url: /katalon-analytics/docs/kt-scheduler.html
+              - title: "Execute Test Runs manually"
+                url: /katalon-analytics/docs/execute-test-run.html
+              - title: "View Test Plan Summary in Katalon Studio"
+                url: /katalon-analytics/docs/view-ci-plans.html
+          - title: "Releases"
+            url: /katalon-analytics/docs/kt-jira-release.html
       - title: "Test Management"
         tree:
           - title: "Compare Test Results"
             url: /katalon-analytics/docs/compare-test-results.html
           - title: "Jira Integration"
             tree:
-             - title: "Jira Settings"
-               url: /katalon-analytics/docs/kt-jira-config.html
-             - title: "Jira Dashboard Gadgets"
-               url: /katalon-analytics/docs/jira-gadgets.html
              - title: "Writing BDD in Jira"
                url: /katalon-analytics/docs/bdd-settings.html
              - title: "View BDD Test Results"
                url: /katalon-analytics/docs/bdd-test-results.html
              - title: "Link Executions to Jira Defects"
                url: /katalon-analytics/docs/ka-defects.html
-             - title: "Link Test Cases to Requirements"
-               url: /katalon-analytics/docs/ka-integration-jira.html
-             - title: "Manage Executions with Jira Releases"
-               url: /katalon-analytics/docs/kt-jira-release.html
-          - title: "Slack Integration"
-            url: /katalon-analytics/docs/slack-integration.html
-      - title: "Test Planning"
-        tree: 
-          - title: "Overview"
-            url: /katalon-analytics/docs/kt-remote-execution.html
-          - title: "Local Test Environments"
-            tree:
-              - title: "Set up Local Test Environments"
-                url: /katalon-analytics/docs/agents.html
-              - title: "Load Balancing for Local Test Environments"
-                url: /katalon-analytics/docs/load-balancing-agents.html
-          - title: "AWS EKS Test Environments"
-            url: /katalon-analytics/docs/aws-eks.html
-          - title: "Test Projects"
-            tree:
-              - title: "Upload Test Projects"
-                url: /katalon-analytics/docs/code-repo.html
-              - title: "Upload Git Test Project"
-                url: /katalon-analytics/docs/git-test-project.html
-          - title: "Remote Execution Plan"
-            tree:
-              - title: "Create and Run a Test Plan"
-                url: /katalon-analytics/docs/create-plan.html
-              - title: "Schedule a Test Plan"
-                url: /katalon-analytics/docs/kt-scheduler.html
-              - title: "View Test Plan Summary in Katalon Studio"
-                url: /katalon-analytics/docs/view-ci-plans.html
-          - title: "Integration with Jenkins"
-            url: /katalon-analytics/docs/ka-integration-jenkins.html
-      - title: "Test Analytics"
+             - title: "Link Test Cases to Jira Requirements"
+               url: /katalon-analytics/docs/ka-integration-jira.html     
+      - title: "Reports & Analytics"
         url: /katalon-analytics/docs/view-reports-overview.html
-      - title: "Configure Notification Emails"
-        url: /katalon-analytics/docs/kt-noti-email.html
+          - title: "Detect abnormal Web Services"
+            url: /katalon-analytics/docs/view-abnormal-web-services.html
+          - title: "View Requirement Coverage heat map"
+            url: /katalon-analytics/docs/requirement-coverage.html
+          - title: "View Test Case reports"
+            url: /katalon-analytics/docs/view-test-cases.html
       - title: "REST API"
         url: /katalon-analytics/docs/rest-api.html
       - title: "Tutorials"
