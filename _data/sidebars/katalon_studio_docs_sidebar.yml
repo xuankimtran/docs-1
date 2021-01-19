@@ -1238,9 +1238,9 @@ items:
           - title: "Jira Integration"
             tree:
               - title: "Jira Settings"
-               url: /katalon-analytics/docs/kt-jira-config.html
+                url: /katalon-analytics/docs/kt-jira-config.html
               - title: "Jira Dashboard Gadgets"
-               url: /katalon-analytics/docs/jira-gadgets.html
+                url: /katalon-analytics/docs/jira-gadgets.html
           - title: "Slack Integration"
             url: /katalon-analytics/docs/slack-integration.html
           - title: "Jenkins Integration"
