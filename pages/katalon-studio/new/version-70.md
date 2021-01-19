@@ -14,9 +14,7 @@ redirect_from:
 description: Release note 7.x
 ---
 
-## Pre-Release - Version 7.9
-
-> Download [here](https://github.com/katalon-studio/katalon-studio/releases/tag/v7.9.0.rc)
+## Official Release - Version 7.9.0
 
 ### New features
 
@@ -31,7 +29,7 @@ description: Release note 7.x
   - [Web UI][Take Element Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/webui-take-element-screenshot-as-checkpoint.html)
   - [Web UI][Take Area Screenshot](https://docs.katalon.com/katalon-studio/docs/webui-take-area-screenshot.html)
   - [Web UI][Take Area Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/webui-take-area-screenshot-as-checkpoint.html)
-* Support Class File Decompiler for debugging. [Learn more](https://docs.katalon.com/katalon-studio/docs/execute-a-test-case-or-a-test-suite.html#decompile-class-file-for-debugging)
+* Support Class File Decompiler for debug. [Learn more](https://docs.katalon.com/katalon-studio/docs/execute-a-test-case-or-a-test-suite.html#decompile-class-file-for-debugging)
 * Support setting a new default JRE in test projects. [Learn more](https://docs.katalon.com/katalon-studio/how-to-guides/set-new-default-JRE.html)
 * [Katalon TestOps Vision] Support [a sample project for Visual Testing with TestOps Vision](https://github.com/katalon-studio-samples/web-visual-testing-samples).
 
@@ -46,6 +44,7 @@ description: Release note 7.x
    - Execution Status Mapping. [Learn more](https://docs.katalon.com/katalon-studio/docs/qtest-integration.html#execution-status-mapping)
    - Map a Katalon test case to a qTest test case by database ID. [Learn more](https://docs.katalon.com/katalon-studio/docs/qtest-integration.html#map-a-katalon-test-case-to-a-qtest-test-case-by-database-id)
 * [Jira Integration] Import JIRA issue summary along with issue ID to form Test Case Name in Katalon Studio.
+* Update [Javadoc 7.9.0](https://docs.katalon.com/javadoc/index.html)
 * Support Chrome 87.
 * Support Microsoft Edge (Chromium) 87.
 
