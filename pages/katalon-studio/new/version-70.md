@@ -43,7 +43,7 @@ description: Release note 7.x
    - Execution Status Mapping. [Learn more](https://docs.katalon.com/katalon-studio/docs/qtest-integration.html#execution-status-mapping)
    - Map a Katalon test case to a qTest test case by database ID. [Learn more](https://docs.katalon.com/katalon-studio/docs/qtest-integration.html#map-a-katalon-test-case-to-a-qtest-test-case-by-database-id)
 * [Jira Integration] Import JIRA issue summary along with issue ID to form Test Case Name in Katalon Studio.
-* Update [Javadoc 7.9.0](https://docs.katalon.com/javadoc/index.html)
+* Update [Javadoc 7.9.0](https://docs.katalon.com/javadoc/index.html).
 * Support Chrome 87.
 * Support Microsoft Edge (Chromium) 87.
 
