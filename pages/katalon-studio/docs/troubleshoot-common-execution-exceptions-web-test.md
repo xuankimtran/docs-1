@@ -34,9 +34,6 @@ redirect_from:
                     <p>Update WebDriver via the Katalon tool:</p>
                     On main toolbar, select 
                     <b>Tool &gt;&nbsp;Update WebDrivers&nbsp;&gt; select the corresponding browser in the drop-down list.</b>
-</code></pre>
-                </ul>
-                    </li>
             </td>
         </tr>
         <tr>
