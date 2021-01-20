@@ -175,7 +175,8 @@ public class WebUICustomKeywords {
   WebDriver driver = new ChromeDriver(options)
   DriverFactory.changeWebDriver(driver)
  }
-}</code></pre>
+}
+</code></pre>
 </details>
                             <li>In a test case, <strong>use this custom keyword instead of 'Open Browser' keyword</strong>. 
                             <details>
@@ -185,7 +186,8 @@ public class WebUICustomKeywords {
 
 WebUI.navigateToUrl(GlobalVariable.G_SiteURL)
 
-WebUI.click(findTestObject('Page_CuraHomepage/btn_MakeAppointment'))</code></pre>
+WebUI.click(findTestObject('Page_CuraHomepage/btn_MakeAppointment'))
+</code></pre>
 </details>
                             <li>Downgrade browser's version:  
     Another approach is downgrade your current browser's version to a version you want. If you want to use a very old version of your current browser, you may need to downgrade or upgrade browser's drivers as well as Selenium WebDriver, please refer to this <a href="https://docs.katalon.com/display/KD/Update+or+Replace+Web+Browser+Drivers+and+Selenium">guide</a>.
