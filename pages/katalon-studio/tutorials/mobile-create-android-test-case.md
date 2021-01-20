@@ -36,7 +36,7 @@ To get familiar with these features, go through the following "Recording a scena
 
 1. On the main toolbar, click **Record Mobile** > select **Android Devices**.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android-devices.png" width=30%%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android-devices.png" width=20%>
 
 2. In the displayed **Mobile Recorder** dialog, specify the information at the **Configurations** section:
 
@@ -116,7 +116,7 @@ To playback the recorded scenario:
 1. Select the test case where you saved the recorded actions.
 2. On the main toolbar, select **Android** device on the drop-down list next to **Run**.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/android.png" width=35%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/android.png" width=20%>
 
 3. In the displayed **Android Devices** dialog, select a device > click **OK**.
 
@@ -158,4 +158,10 @@ Mobile.tap(findTestObject('Object Repository/APIDemo/android.widget.Button - Sen
 Mobile.closeApplication()
 
 ```
-<details>
+</details>
+
+Next: [Run Android test case](https://docs.katalon.com/katalon-studio/tutorials/mobile-run-android-test-case.html).
+
+   See also:
+   * [Create your first iOS test case](http://docs.katalon.com/katalon-studio/tutorials/mobile-create-android-test-case.html).
+   * [Troubleshoot automated mobile testing](https://docs.katalon.com/katalon-studio/docs/troubleshooting-automated-mobile-testing.html).
