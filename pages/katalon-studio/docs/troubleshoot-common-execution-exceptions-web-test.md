@@ -140,8 +140,10 @@ WebUI.executeJavaScript("arguments[0].click", Arrays.asList(element))</code></pr
                     <li>
                         <ul>
                             <li>These Firefox instances should be installed on your machine first.
-                            <li>Create a <a href="/display/KD/Define+custom+keywords">custom keyword</a> to open the browser. Press Ctrl + Shift + O to automatically import necessary packages:
-                            <pre><code>package com.example
+                            <li>Create a <a href="/display/KD/Define+custom+keywords">custom keyword</a> to open the browser. Press Ctrl + Shift + O to automatically import necessary packages.
+                            <details>
+                                <summary>Learn more.</summary>
+                                <pre><code>package com.example
 
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.chrome.ChromeDriver
@@ -174,13 +176,17 @@ public class WebUICustomKeywords {
   DriverFactory.changeWebDriver(driver)
  }
 }</code></pre>
-                            <li>In a test case, <strong>use this custom keyword instead of 'Open Browser' keyword</strong>. For example:
-                            <pre><code>CustomKeywords.'com.example.WebUICustomKeywords.openFirefoxBrowser'('C:\\Program Files\\Mozilla Firefox 52\\firefox.exe', 
+</details>
+                            <li>In a test case, <strong>use this custom keyword instead of 'Open Browser' keyword</strong>. 
+                            <details>
+                                <summary>For example.</summary>
+                                    <pre><code>CustomKeywords.'com.example.WebUICustomKeywords.openFirefoxBrowser'('C:\\Program Files\\Mozilla Firefox 52\\firefox.exe', 
  'C:\\5.4\\Katalon Studio Windows 64\\configuration\\resources\\drivers\\firefox_win64\\geckodriver.exe')
 
 WebUI.navigateToUrl(GlobalVariable.G_SiteURL)
 
 WebUI.click(findTestObject('Page_CuraHomepage/btn_MakeAppointment'))</code></pre>
+</details>
                             <li>Downgrade browser's version:  
     Another approach is downgrade your current browser's version to a version you want. If you want to use a very old version of your current browser, you may need to downgrade or upgrade browser's drivers as well as Selenium WebDriver, please refer to this <a href="https://docs.katalon.com/display/KD/Update+or+Replace+Web+Browser+Drivers+and+Selenium">guide</a>.
     </tbody>
