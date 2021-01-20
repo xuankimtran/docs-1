@@ -69,7 +69,7 @@ This topic describes the preliminary actions you need to perform to prepare the 
 
    After completing setting your environment, open a Mobile Testing Sample Project (which is packaged in  your Katalon Studio installation) and execute a test suite using an Android device. 
    
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/android.png" width=35%>  
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/android.png" width=20%>  
 
 
    Select your device from the **Android Devices** list > click **OK**. 
