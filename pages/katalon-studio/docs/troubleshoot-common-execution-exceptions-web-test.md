@@ -140,36 +140,8 @@ WebUI.executeJavaScript("arguments[0].click", Arrays.asList(element))</code></pr
                     <li>
                         <ul>
                             <li>These Firefox instances should be installed on your machine first.
-                            <li>Create a <a href="/display/KD/Define+custom+keywords">custom keyword</a> to open the browser. Press Ctrl + Shift + O to automatically import necessary packages.
-                            <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-.collapsible {
-  background-color: #777;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-}
-
-.active, .collapsible:hover {
-  background-color: #555;
-}
-
-.content {
-  padding: 0 18px;
-  display: none;
-  overflow: hidden;
-  background-color: #f1f1f1;
-}
-</style>
-
-<button type="button" class="collapsible">Learn more.</button>
-<div class="content">
-  <pre><code>package com.example
+                            <li>Create a <a href="/display/KD/Define+custom+keywords">custom keyword</a> to open the browser. Press Ctrl + Shift + O to automatically import necessary packages:
+                            <pre><code>package com.example
 
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.chrome.ChromeDriver
@@ -202,7 +174,6 @@ public class WebUICustomKeywords {
   DriverFactory.changeWebDriver(driver)
  }
 }</code></pre>
-</div>
                             <li>In a test case, <strong>use this custom keyword instead of 'Open Browser' keyword</strong>. For example:
                             <pre><code>CustomKeywords.'com.example.WebUICustomKeywords.openFirefoxBrowser'('C:\\Program Files\\Mozilla Firefox 52\\firefox.exe', 
  'C:\\5.4\\Katalon Studio Windows 64\\configuration\\resources\\drivers\\firefox_win64\\geckodriver.exe')
