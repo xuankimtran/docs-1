@@ -40,7 +40,7 @@ You have just created an Organization in which you are the Owner.
 * **Owner** - is granted by default when creating a new organization or transferred by other users, who has full permission related to the organization, including teams, users, projects, licenses, plugins, and subscriptions.
 * **Admin** - is granted by the Owner, who has the privileges of the Owner but cannot manage the subscriptions.
 * **User** - is automatically assigned when a person is first invited to collaborate in an organization. Users can only monitor project progress.
-* **Billing Manager** - is granted by the Owner or Admin, who has the privileges of the User with additional permission to manage subscriptions.
+**Billing Manager** - is granted by the Owner or Admin, who has the privileges of the User with additional permission to manage subscriptions.
 
 ## Invite a user to join organization
 
@@ -48,9 +48,13 @@ You have just created an Organization in which you are the Owner.
 
 > This feature is accesible to the organization **Owner** and **Admin** only.
 
-* In **Katalon Admin** page, select an organization.
+* In **Katalon Administrantion** page, on the top right corner, click the symbol ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_set_symbol_corner.png) (setting). Chose "User Management".
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_manager_users.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_user_manag.png)
+
+* The **Manager User** is on with “Users” and “Pending Invitations”.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_manager_user.png)
 
 * Go to **Users** > Click on the **Invite user** button.
 * Enter valid email addresses and click **Invite**. *Note: You can enter multiple accounts at the same time.*
@@ -73,10 +77,9 @@ Sign in the Katalons TestOps
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/login_kat_testops.png)
 
-
 You will be navigated to the below page. Click on the blue button to join your organzation.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/accept-invitation.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_invitation_org.png)
 
 ## Manage users
 
@@ -94,19 +97,25 @@ Before users accept the invitation, their email address will be displayed in the
 
 You can view the list of existing members in **Users** page once they have accepted the invitation to join your organization.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/manage-users.png" width="" height="">
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_manager_user.png)
 
 > After joining the organization, their name and email address will be displayed in the **Users** section with the default **User** role. You can update their permission by editing information in the user's details page.
 
 ### Remove an existing user
 
-Select your organization > from **Users** tab, click the remove icon in the last column and confirm your action in the pop-up.
+On the top left corner, click “Users”. On the **Manager Users** click the remove icon in the last column and confirm your action in the pop-up.
 
 ### Update user permission
 
 **Assign Admin or User role**
 
-The Admin and Owner can reassign the existing Admin and User to a new role. Select your organization/team > from **Users** Tab, click the pencil icon in the last column and then select **Admin** or **User** role in the drop-down list. A user can have different roles in different teams.
+The Admin and Owner can reassign the existing Admin and User to a new role. Select your organization/team > from **Users** Tab, click the pencil icon in the last column.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_manager_user_change_user.png)
+
+On page **detail**, show “Full name”, “Email” and “Role” select **Admin** or **User** role in the drop-down list. A user can have different roles in different teams.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_change_role_user.png)
 
 **Assign Billing Manager role**
 
