@@ -17,9 +17,16 @@ Today we have released Katalon Studio 7.9 with major improvements for both Katal
 
 This version upgraded Eclipse IDE framework to the latest version, supported Class File Decompiler for debug, enhanced the integration with application lifecycle management (ALM) tools, and resolved several bugs. This document describes the enhancement highlights available in 7.9.
 
-> For a detailed list of enhancements and bug fixes, see [release notes](https://docs.katalon.com/katalon-studio/new/version-70.html).
+> Important
+>
+> Please be noted that you will not be able to use **Check for updates...** to upgrade to v7.9+ due to the core engine upgrade (but you can upgrade from v7.9 to later versions via **Check for updates...**). 
+>
+> * Download the latest version from [our website](https://www.katalon.com/download/). 
+>
+> * To reuse Preferences from previous versions, refer to [this guide](https://docs.katalon.com/katalon-studio/docs/katalon-studio-preferences.html#import-preferences).
 
-> [What’s new in v7.8?](https://docs.katalon.com/katalon-studio/new/what-is-new-78.html)
+* For a detailed list of enhancements and bug fixes, see [release notes](https://docs.katalon.com/katalon-studio/new/version-70.html).
+* See [what’s new in v7.8](https://docs.katalon.com/katalon-studio/new/what-is-new-78.html).
 
 ## Multiple enhancements enabled by Eclipse Platform upgrade
 
@@ -61,8 +68,6 @@ In previous versions, you have to manually find, and attach source code of the 3
 ## More reliable and secure macOS packages
 
 All Katalon Studio and Katalon Runtime Engine packages now are to be notarized for macOS Catalina (10.15.x) as a required step in our distribution process. Understand [why we notarize our macOS software](https://developer.apple.com/documentation/xcode/notarizing_macos_software_before_distribution#overview).
-
-> For macOS users with previous versions, you will not be able to use **Check for updates...** to upgrade to v7.9+ (but you can upgrade from v7.9 to later versions via **Check for updates...**). Please download the latest version from [our website](https://www.katalon.com/download/). To reuse Preferences from previous versions, refer to [this guide](https://docs.katalon.com/katalon-studio/docs/katalon-studio-preferences.html#import-preferences).
 
 ## qTest Integration Enhancements
 
