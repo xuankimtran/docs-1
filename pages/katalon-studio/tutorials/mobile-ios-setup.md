@@ -107,13 +107,24 @@ This topic describes the preliminary actions you need to perform to prepare the 
 
 ## Verify the iOS application file
 
-   Before testing an iOS native application file (**.ipa** file), follow these steps to check if the application file is already built and signed correctly.
+Before testing, make sure the iOS native application file (**.ipa** file) is verified.
 
-   1. Open **Xcode** and navigate to **Window/Devices**.
-   2. Choose your device from the **Devices** list.
-   3. Click the "**+**" button and choose your application file.
+   -  If the application file is already built and signed correctly, follow these steps:
 
-      ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/image2016-8-8-143A313A5.png)
+      1. Open **Xcode** and navigate to **Window/Devices**.
+      2. Choose your device from the **Devices** list.
+      3. Click the "**+**" button and choose your application file.
+
+         ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/image2016-8-8-143A313A5.png)
+      
+   - If the application is not built, do as follows:
+
+      1. Open **App/Your-First-iOS-App/Coffee Timer/Coffee Timer.xcodeproj** file by Xcode tool.
+      2. Select a device to launch the apps.
+      3. Set deployment iOS version and device type.
+      4. Build the apps by clicking **Product -> Build**. Wait for some time until the build progress is finished.
+      5. Export the apps by clicking **Product -> Archive** then follow the instruction to get "**Coffee Time.ipa**" file.
+      6. Put "Coffee Time.ipa" file into **App** folder. Katalon Studio will use this file to start Coffee Time application. 
 
    If installed successfully, the application will appear in the **Installed Apps** section, as shown below.  
 
