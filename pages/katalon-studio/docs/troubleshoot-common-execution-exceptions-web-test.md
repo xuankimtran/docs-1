@@ -96,7 +96,10 @@ You can try one of the following solutions to resolve the issue:
 
 **Suggested solution**:
 
-Click on the element using [Javascript](/display/KD/%5BWebUI%5D+Execute+JavaScript) instead.
+Click on the element using [Javascript](/display/KD/%5BWebUI%5D+Execute+JavaScript) instead. 
+
+*A warning for this method (contributed by Russ Thomas)*
+Click-prevention techniques (overlays, spinners) are used to control the application state while the application is in a state of transition. Using any mechanism to subvert the app developer's intentions places the application into an unknown state,  a state the developer has deliberately guarded against – and renders the test case meaningless. (See Tip: [DO NOT CHANGE THE AUT THROUGH TEST CODE 2](https://forum.katalon.com/t/tip-do-not-change-the-aut-through-test-code/11938)). One should pay attention to this and consider the trade-off in using Javascript clicks.
 
 ```groovy
 import com.kms.katalon.core.webui.common.WebUiCommonHelper
