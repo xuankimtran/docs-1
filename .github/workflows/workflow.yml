@@ -2,7 +2,7 @@ name: KatalonDocsCI
 on:
   push:
     branches:
-      - staging
+      - '!master'
 jobs:
   run:
     name: Run
