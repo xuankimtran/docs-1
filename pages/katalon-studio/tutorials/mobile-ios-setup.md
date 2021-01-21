@@ -126,7 +126,7 @@ Before testing, make sure the iOS native application file (**.ipa** file) is ve
       5. Export the apps by clicking **Product -> Archive** then follow the instruction to get "**Coffee Time.ipa**" file.
       6. Put "Coffee Time.ipa" file into **App** folder. Katalon Studio will use this file to start Coffee Time application. 
 
-   If installed successfully, the application will appear in the **Installed Apps** section, as shown below.  
+   Once installed successfully, the application will appear in the **Installed Apps** section, as shown below.  
 
    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/image2016-8-8-143A313A14.png)
 
