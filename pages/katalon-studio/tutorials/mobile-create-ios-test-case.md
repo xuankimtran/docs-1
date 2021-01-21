@@ -17,13 +17,26 @@ This tutorial helps you get familiar with the **Record** and **Playback** featur
 
 > APIDemos.ipa and sample project code is available [here](https://github.com/katalon-studio-samples/ios-mobile-tests).
 
-### Create your first iOS test case
 
+## Create your first iOS test case
+
+### Create New Project
+
+1. In the **Test Explorer** on the sidebar > click **New Project**.
+
+2. In the displayed **New Project** dialog:
+
+   - Input project **Name**.
+   - In project **Type** > select **Mobile**.
+   - In **Project** > select **Sample iOS...**, the **Repository URL** is filled automatically.
+   - Browse a **Location** to store your project > click **OK**.
+
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/create-new-project-with-sample-project.png" width=75%>
 **Record**
 
-1. From the main Toolbar, click on the **Record Mobile** icon and select your device type. For example, **iOS Devices**.
+1. From the main toolbar, click on the **Record Mobile** icon and select your device type. For example, **iOS Devices**.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/record-iOS.png" width=35%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/record-iOS.png" width=20%>
 
 
 2. In the displayed **Mobile Recorder** dialog, specify the information at the **Configurations** section:
