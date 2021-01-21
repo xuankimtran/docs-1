@@ -1179,7 +1179,7 @@ items:
             url: /katalon-store/docs/publisher/approval-guidelines.html
           - title: "Manage published plugins"
             url: /katalon-store/docs/publisher/manage-published-plugins.html
-  - title: "Katalon TestOps (Beta)"
+  - title: "Katalon TestOps"
     tree:
       - title: "Get Started"
         tree:
