@@ -10,13 +10,21 @@ redirect_from:
 
 Teams are groups of users that reflect the company's structures. A team is created by either Owner or Admin in an organization. Only members of a team can view and access the projects within that team.
 
-In the **Organization** view, select **Teams** > give a name to your team and click **Create**. You're the team Owner by default.
+In the top right corner, click **Setting**, and then click **Team Management**.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/ka_set_team_manage.png)
+
+In the **Manage Teams** view, select **Teams** on the left side-bar > give a name to your team and click **Create**. You're the team Owner by default.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/create-team.png" width="" height="">
 
 ## Add users to Team
 
-Select the **Users** tab > add your members to the team one by one by selecting the person in the drop-down list. Please be noted only the users you have invited to the Organization above can be added to this team.
+In the top right corner, click **Setting**, and then click **Team Management**.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/ka_set_user_mange.png)
+
+Select the **Users** on the left side-bar > add your members to the team one by one by selecting the person in the drop-down list. Please be noted only the users you have invited to the Organization above can be added to this team.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/add-users-team.png" width="" height=""> 
 
