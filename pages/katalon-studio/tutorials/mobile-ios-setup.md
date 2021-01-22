@@ -119,7 +119,7 @@ Before diving further into testing, make sure the iOS native application file (*
       
    - If the application is not built, do as follows:
 
-      - Open the project file with **Xcode** tool. For example, to open Coffe Time.xcodeproj:
+      - Open the project file with **Xcode** tool. For example, to open **Coffe Time.xcodeproj**:
 
          From where you store the project > **App** > **Your-First-iOS-App** > **Coffee Timer** > **Coffee Timer.xodeproj**.
 
@@ -141,9 +141,9 @@ Before diving further into testing, make sure the iOS native application file (*
             ><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/team.png" width=50%> 
 
          - Export the apps by clicking **Product -> Archive** then follow the instruction to get "**Coffee Time.ipa**" file.
-         - Put **Coffee Time.ipa** file into **App** folder. Katalon Studio will use the exported file to start Coffee Time application. 
+         - Put **Coffee Time.ipa** file into **App** folder. Katalon Studio will use the exported file to start Coffee Timer application. 
 
-   Once installed successfully, the application will appear in the **Installed Apps** section, as shown below.  
+   Once installed successfully, the application appears in the **Installed Apps** section, as shown below.  
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/image2016-8-8-143A313A14.png" width=60%>
 
