@@ -132,13 +132,13 @@ Before diving further into testing, make sure the iOS native application file (*
 
          - Set deployment iOS version and select device type in **General**/**Deployment Info**.
 
-            <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/deployment.png" width=35%>
+            <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/deployment.png" width=45%>
 
          - Build the apps by clicking **Product -> Build**. Wait until the build progress is finished.
 
             > Make sure to select your **Team** in **Signing & Capabilities**.
             >
-            ><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/team.png" width=40%> 
+            ><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/team.png" width=45%> 
 
          - Export the apps by clicking **Product -> Archive** then follow the instruction to get "**Coffee Time.ipa**" file.
          - Store **Coffee Time.ipa** file into **App** folder. Katalon Studio will use the exported file to start Coffee Timer application.
