@@ -109,45 +109,43 @@ This topic describes the preliminary actions you need to perform to prepare the 
 
 Before diving further into testing, make sure the iOS native application file (**.ipa** file) is verified.
 
-   -  If the application file is already built and signed correctly, follow these steps:
+   - If the application file is already built and signed correctly, follow these steps:
 
-      1. Open **Xcode** and navigate to **Window/Devices**.
-      2. Choose your device from the **Devices** list.
-      3. Click the "**+**" button and choose your application file.
+      - Open **Xcode** and navigate to **Window/Devices**.
+      - Choose your device from the **Devices** list.
+      - Click the "**+**" button and choose your application file.
 
-         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/image2016-8-8-143A313A5.png" width=70%>
+         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/image2016-8-8-143A313A5.png" width=60%>
       
    - If the application is not built, do as follows:
 
-      - Open the project file with **Xcode** tool. For example, to open Coffe Time.xcodeproj:
+      1. Open the project file with **Xcode** tool. For example, to open Coffe Time.xcodeproj:
 
          From where you store the project > **App** > **Your-First-iOS-App** > **Coffee Timer** > **Coffee Timer.xodeproj**.
 
          <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/open-xcode-file.png" width=50%>
 
-      - In Xcode:
-         1. Select a device to launch the apps.
+      2. In Xcode:
+         - Select a device to launch the apps.
 
-            <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/select-device.png" width=25%>
+            <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/select-device.png" width=35%>
 
-         2. Set deployment iOS version and select device type in **General**/**Deployment Info**.
+         - Set deployment iOS version and select device type in **General**/**Deployment Info**.
 
-            <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/deployment.png" width=35%>
+            <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/deployment.png" width=50%>
 
-         3. Build the apps by clicking **Product -> Build**. Wait until the build progress is finished.
+         - Build the apps by clicking **Product -> Build**. Wait until the build progress is finished.
 
             > Make sure to select your **Team** in **Signing & Capabilities**.
             >
-            ><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/team.png" width=35%> 
+            ><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/team.png" width=50%> 
 
-         4. Export the apps by clicking **Product -> Archive** then follow the instruction to get "**Coffee Time.ipa**" file.
-         5. Put **Coffee Time.ipa** file into **App** folder. 
-         
-            Katalon Studio will use the exported file to start Coffee Time application. 
+         - Export the apps by clicking **Product -> Archive** then follow the instruction to get "**Coffee Time.ipa**" file.
+         - Put **Coffee Time.ipa** file into **App** folder. Katalon Studio will use the exported file to start Coffee Time application. 
 
    Once installed successfully, the application will appear in the **Installed Apps** section, as shown below.  
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/image2016-8-8-143A313A14.png" width=70%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/image2016-8-8-143A313A14.png" width=60%>
 
    Next: [Create your first iOS test case](https://docs.katalon.com/katalon-studio/docs/mobile-recorder-tutorials.html#record)
 
