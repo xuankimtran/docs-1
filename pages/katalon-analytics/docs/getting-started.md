@@ -19,7 +19,7 @@ description:
 
 3. Once you have signed in successfully, the Katalon TestOps’ home page will display.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/login/home_page.png)
+![](https://github.com/katalon-studio/docs-images/raw/a80d604412aada2928bf61ee67797a13928b0ef9/katalon-analytics/docs/login/home_page.png)
 
  The home page shows quick paths to your organizations, teams, and projects to view details of each page.
 

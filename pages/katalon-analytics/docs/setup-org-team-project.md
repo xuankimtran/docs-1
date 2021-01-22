@@ -21,17 +21,35 @@ This tutorial shows you how to set up an Organization properly in Katalon TestOp
 
 Organizations are shared Katalon TestOps accounts where groups of users can collaborate across several projects at once. A user defaults to owning a personal organization and can belong to many organizations.
 
-1. Log into Katalon TestOps.
+1. Log in to Katalon TestOps.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/1e86fafbb5ac1d4dc845598cc86ee24c9d99e86b/katalon-analytics/docs/setup-org-team-project/login_kat_testops.png" width="" height="">
 
-2. On the home page, click **Create Organization** on the left corner, type the name of organization and click "Create"
+2. On the home page, click **Create Organization** on the left sidebar, type the name of organization and click **Create**.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_create_org.png" width="" height="">
 
 You have just created an Organization in which you are the Owner.
 
-3. In the **Organization** View, give a name to your Organization. Here is you can also view your Organization ID.
+3. Type in **Project name** and click **Create**.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_set_first_project.png)
+
+You have just created a new project.
+
+4. Look for **Share projects to your members**, in the bottom cell, type the emails of members that you want to share.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_share_proj_member.png)
+
+Click the button **Invite** and **Next**.
+
+5. The board **Upload the first test result** is on. 
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_upload_first_test_result.png)
+
+Click the button **Upload sample project** to finish.
+
+6. Click the button **Setting** ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_set_symbol_corner.png) on the right side corner, chose **Organization Management**. In the **Organizaton profile** view, give a name to your Organization. Here is you can also view your Organization ID.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/1fcada24da81018e85826582cba92930f1042fdc/katalon-analytics/docs/setup-org-team-project/kt_org_profile.png" width="" height=""> 
 
@@ -52,7 +70,7 @@ You have just created an Organization in which you are the Owner.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_user_manag.png)
 
-* The **Manager User** is on with “Users” and “Pending Invitations”.
+* The **Manager User** is on with **Users** and **Pending Invitations**.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_manager_user.png)
 
@@ -73,7 +91,7 @@ After being invited to join organization, you will recieve an email with the sub
 
 Accept the invitation by clicking the activation link in the email.
 
-Sign in the Katalons TestOps
+Sign in to the Katalons TestOps.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/login_kat_testops.png)
 
@@ -113,7 +131,7 @@ The Admin and Owner can reassign the existing Admin and User to a new role. Sele
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_manager_user_change_user.png)
 
-On page **detail**, show “Full name”, “Email” and “Role” select **Admin** or **User** role in the drop-down list. A user can have different roles in different teams.
+On page **detail**, show **Role** select **Admin**, **User**, **Billing Manager** or **Owner** role in the drop-down list. A user can have different roles in different teams.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_change_role_user.png)
 
