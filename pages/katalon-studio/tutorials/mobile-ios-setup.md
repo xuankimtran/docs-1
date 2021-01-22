@@ -119,13 +119,13 @@ Before diving further into testing, make sure the iOS native application file (*
       
    - If the application is not built, do as follows:
 
-      1. Open the project file with **Xcode** tool. For example, to open Coffe Time.xcodeproj:
+      - Open the project file with **Xcode** tool. For example, to open Coffe Time.xcodeproj:
 
          From where you store the project > **App** > **Your-First-iOS-App** > **Coffee Timer** > **Coffee Timer.xodeproj**.
 
          <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/open-xcode-file.png" width=50%>
 
-      2. In Xcode:
+      - In Xcode:
          - Select a device to launch the apps.
 
             <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/select-device.png" width=35%>
