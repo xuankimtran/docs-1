@@ -20,11 +20,15 @@ In the **Manage Teams** view, select **Teams** on the left side-bar > give a nam
 
 ## Add users to Team
 
-In the top right corner, click **Setting**, and then click **Team Management**.
+In the top right corner, click **Setting**, and then click **Team Management**. 
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/ka_set_user_mange.png)
 
-Select the **Users** on the left side-bar > add your members to the team one by one by selecting the person in the drop-down list. Please be noted only the users you have invited to the Organization above can be added to this team.
+Select the **Users** on the left side-bar. The lists of **Users** and **Pending Invitations** are on. Only the user, who you have just invited to the Organization, can be added to this team. Add your members to the team one by one by selecting **Invite user** on the top right corner.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/ka_manager_user_invite.png)
+
+**Manage User** is on with the list of **Users** and **Pending Invitations**. 
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/add-users-team.png" width="" height=""> 
 
@@ -41,6 +45,9 @@ Select the **Users** on the left side-bar > add your members to the team one by 
 > Note: Only the user in an organization can be invited to a team in that organization. 
 
 * Select a team, from **Users** tab in a team, select that person's email in the drop-down list and then click **Add** to add a user to a team. 
+
+
+
 * The default role for the invited person is **User**.
 
 ## Remove an existing user
