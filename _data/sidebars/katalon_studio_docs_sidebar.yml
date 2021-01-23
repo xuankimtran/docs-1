@@ -63,6 +63,10 @@ items:
                 url: /katalon-studio/new/version-70.html
               - title: "Version 6.x"
                 url: /katalon-studio/new/version-60.html
+          - title: "Supported Technologies"
+            url: /katalon-studio/docs/product-availability-matrix.html
+          - title: "Supported Environments"
+            url: /katalon-studio/docs/supported-environments.html
           - title: "Installation and Activation"
             tree:
               - title: "Installation Overview"
@@ -75,8 +79,6 @@ items:
                 url: /katalon-studio/docs/troubleshoot-activation-problems.html
               - title: "Update Katalon Studio"
                 url: /katalon-studio/docs/auto-updater.html
-              - title: "Supported Environments"
-                url: /katalon-studio/docs/supported-environments.html
               - title: "Katalon Studio for Linux (GUI)"
                 url: /katalon-studio/docs/katalon-studio-gui-beta-for-linux.html
               - title: "Configuration for Web Testing"

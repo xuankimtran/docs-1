@@ -29,8 +29,6 @@ This document gives you information on the supported technologies and integratio
             </ul>
         </td>
     </tr>
-</table>
-<table>
     <tr>
         <td style="width:50%"><strong>API</strong>
             <ul>
