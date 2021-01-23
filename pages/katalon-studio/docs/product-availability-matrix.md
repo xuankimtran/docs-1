@@ -4,9 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: /katalon-studio/docs/product-availability-matrix.html
 ---
 
-This document gives you information on the supported technologies, and integrations. For the supported environments (including browsers and operating systems), see [this document](https://docs.katalon.com/katalon-studio/docs/supported-environments.html).
-
-> Leave a comment below to propose a report need
+This document gives you information on the supported technologies and integrations. For the supported environments (including browsers and operating systems), see [this document](https://docs.katalon.com/katalon-studio/docs/supported-environments.html).
 
 <table>
     <tr>
@@ -216,3 +214,5 @@ This document gives you information on the supported technologies, and integrati
 
 
 \* *Limitation: Elements inside embedded web views cannot be captured automatically by Record&Spy utilities.*
+
+> Leave a comment below to propose any technologies you need Katalon Studio to support.
