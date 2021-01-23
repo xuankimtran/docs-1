@@ -33,8 +33,9 @@ description:
             <td>
                 <ul>
                     <li><a href="https://docs.katalon.com/katalon-studio/new/what-is-new.html">What's new in
-                            v7.8?</a>
+                            v7.9?</a>
                     <li><a href="https://www.katalon.com/download/">Download</a></li>
+                    <li><a href="https://docs.katalon.com/katalon-studio/docs/product-availability-matrix.html">Supported Technologies (Newly Updated)</a></li>
                 </ul>
             </td>
             <td>
