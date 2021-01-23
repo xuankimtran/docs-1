@@ -24,7 +24,8 @@ This document gives you information on the supported technologies and integratio
                 <li>Android & iOS
                 <li>Native application
                 <li>Web mobile
-                <li>Hybrid*
+                <li>Hybrid (*)
+                <font size="1"><p>(*) <i>Limitation: Elements inside embedded web views cannot be captured automatically by Record&Spy utilities.</i></p></font>
                 </li>
             </ul>
         </td>
@@ -209,8 +210,5 @@ This document gives you information on the supported technologies and integratio
         </td>
     </tr>
 </table>
-
-
-\* *Limitation: Elements inside embedded web views cannot be captured automatically by Record&Spy utilities.*
 
 > Leave a comment below to propose any technologies you need Katalon Studio to support.
