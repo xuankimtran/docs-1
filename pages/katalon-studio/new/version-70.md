@@ -14,9 +14,15 @@ redirect_from:
 description: Release note 7.x
 ---
 
-## Pre-Release - Version 7.9
+## Official Release - Version 7.9.0
 
-> Download [here](https://github.com/katalon-studio/katalon-studio/releases/tag/v7.9.0.rc)
+> Important
+>
+> Please be noted that you will not be able to use **Check for updates...** to upgrade to v7.9+ due to the core engine upgrade (but you can upgrade from v7.9 to later versions via **Check for updates...**). 
+>
+> * Download the latest version from [our website](https://www.katalon.com/download/). 
+>
+> * To reuse Preferences from previous versions, refer to [this guide](https://docs.katalon.com/katalon-studio/docs/katalon-studio-preferences.html#import-preferences).
 
 ### New features
 
@@ -31,13 +37,12 @@ description: Release note 7.x
   - [Web UI][Take Element Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/webui-take-element-screenshot-as-checkpoint.html)
   - [Web UI][Take Area Screenshot](https://docs.katalon.com/katalon-studio/docs/webui-take-area-screenshot.html)
   - [Web UI][Take Area Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/webui-take-area-screenshot-as-checkpoint.html)
-* Support Class File Decompiler for debugging. [Learn more](https://docs.katalon.com/katalon-studio/docs/execute-a-test-case-or-a-test-suite.html#decompile-class-file-for-debugging)
+* Support Class File Decompiler for debug. [Learn more](https://docs.katalon.com/katalon-studio/docs/execute-a-test-case-or-a-test-suite.html#decompile-class-file-for-debugging)
 * Support setting a new default JRE in test projects. [Learn more](https://docs.katalon.com/katalon-studio/how-to-guides/set-new-default-JRE.html)
 * [Katalon TestOps Vision] Support [a sample project for Visual Testing with TestOps Vision](https://github.com/katalon-studio-samples/web-visual-testing-samples).
 
 ### Improvements
 
-* Upgrade Groovy library from version 2.4.7 to 3.0 (Warning: Some classes are deprecated due to package changes. [Learn more](https://groovy-lang.org/releasenotes/groovy-3.0.html#Groovy3.0releasenotes-Splitpackages)).
 * Upgrade Eclipse IDE from version 4.6 to 4.16.
 * Notarize Katalon Studio and Katalon Runtime Engine applications for macOS Catalina. [Learn more](https://developer.apple.com/documentation/xcode/notarizing_macos_software_before_distribution)
 * Enhance qTest Integration, including:
@@ -46,6 +51,7 @@ description: Release note 7.x
    - Execution Status Mapping. [Learn more](https://docs.katalon.com/katalon-studio/docs/qtest-integration.html#execution-status-mapping)
    - Map a Katalon test case to a qTest test case by database ID. [Learn more](https://docs.katalon.com/katalon-studio/docs/qtest-integration.html#map-a-katalon-test-case-to-a-qtest-test-case-by-database-id)
 * [Jira Integration] Import JIRA issue summary along with issue ID to form Test Case Name in Katalon Studio.
+* Update [Javadoc 7.9.0](https://docs.katalon.com/javadoc/index.html).
 * Support Chrome 87.
 * Support Microsoft Edge (Chromium) 87.
 
