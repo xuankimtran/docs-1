@@ -10,7 +10,7 @@ redirect_from:
 
 Teams are groups of users that reflect the company's structures. A team is created by either Owner or Admin in an organization. Only members of a team can view and access the projects within that team.
 
-In the top right corner, click icon **Settings**, and then click **Team Management**.
+In the top right corner, click **Settings** icon, and then click **Team Management**.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/ka_set_team_manage.png)
 
@@ -20,7 +20,7 @@ In the **Manage Teams** view, select **Teams** on the left side-bar > give a nam
 
 ## Add users to Team
 
-In the top right corner, click icon **Settings**, and then click **Team Management**. 
+In the top right corner, click **Settings** icon, and then click **Team Management**. 
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/ka_set_user_mange.png)
 
@@ -70,7 +70,7 @@ The Admin and Owner can reassign the existing Admin and User to a new role. In t
 
 A Katalon TestOps project is a handful of reports generated based on a dataset of automation test results which are imported by users. It would typically represent the development of automation testing work. A project is created only by Admins of a team with a particular name and automatically generated ID. There are many projects in a team.
 
-* On the top right corner, click icon **Settings**.
+* On the top right corner, click **Settings** icon.
 * Click **Project Management**.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_setting_project_manage.png)
