@@ -20,12 +20,12 @@ Select a product to go to its documentation:
         </td>
     </tr>
     <tr>
-        <td> <a href="https://docs.katalon.com/katalon-studio/docs/overview.html"><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-products/Katalon-Studio-Enterprise-icon-color-small.png" width=60%></a>
+        <td> <a href="https://docs.katalon.com/katalon-studio/docs/overview.html"><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-products/Katalon-Studio-Enterprise-icon-color-small.png"></a>
         <td>An advanced, powerful, and scalable solution for business of any size.
         </td>
     </tr>
     <tr>
-        <td> <a href="https://docs.katalon.com/katalon-studio/docs/intro-RE.html"><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-products/Katalon-Runtime-Engine-icon-color-small.png" width=60%></a>
+        <td> <a href="https://docs.katalon.com/katalon-studio/docs/intro-RE.html"><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-products/Katalon-Runtime-Engine-icon-color-small.png"></a>
         <td>An extension for executing and scheduling tests in CI/CD pipeline or via the command-line interface.
         </td>
     </tr>
