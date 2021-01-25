@@ -60,23 +60,19 @@ Select the **Users** on the left side-bar. The lists of **Users** and **Pending 
 
 Select your team in **Manage Teams**, chose **Users** on the left sidebar, click the icon **Remove user** ( ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_remove_icon.png) ) in the last column and confirm your action in the pop-up.
 
-## Assign Admin or User role
-
-The Admin and Owner can reassign the existing Admin and User to a new role. Select your organization/team > from **Users** Tab, click the pencil icon in the last column and then select **Admin** or **User** role in the drop-down list. A user can have different roles in different teams.
-
 ## Transfer team ownership
 
-The Owner of a team can transfer the ownership to another existing team member. 
+The Admin and Owner can reassign the existing Admin and User to a new role. In the **Users** of **Manage Users**, click the pencil icon in the last column and then select **Admin**, **User** or **Owner** role in the drop-down list and click **Save**. A user can have different roles in different teams.
 
-* Select a team > under **Users** tab, search for the target user to assign the **Owner** role.
-
-* Click the pencil icon in the last column and then select **Owner** in the drop-down list.
-
-* Click **Save**.
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_edit_role_user.png)
 
 ## Create Projects
 
 A Katalon TestOps project is a handful of reports generated based on a dataset of automation test results which are imported by users. It would typically represent the development of automation testing work. A project is created only by Admins of a team with a particular name and automatically generated ID. There are many projects in a team.
+
+On the top right corner, click **Settings**, click **Project Management**, click the button **Create Project**, select the team in **Choose Team**, and click the button **Next**. 
+
+!()[https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_creat_new_team.png]
 
 Select **Projects** > give a name to your project and click **Create**.
 
