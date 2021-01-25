@@ -74,11 +74,11 @@ This topic describes the preliminary actions you need to perform to prepare the 
 
    Select your device from the **Android Devices** list > click **OK**. 
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/device.png" width=85%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/device.png" width=40%>
 
    If your test suite runs successfully, you will see the results in the test reports as follow:
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/result.png" width=85%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/result.png" width=70%>
    
    
    Next: [Create your first Android test case](https://docs.katalon.com/katalon-studio/docs/mobile-recorder-tutorials.html).
