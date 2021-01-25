@@ -77,8 +77,8 @@ Here's the list of options supported for the `katalonc` commands for Katalon Stu
 <table>
    <thead>
       <tr>
-         <th>Katalonc Command-line Option</th>
-         <th>Description</th>
+         <th style="width:40%">Katalonc Command-line Option</th>
+         <th style="width:30%">Description</th>
          <th>Mandatory?</th>
       </tr>
    </thead>
@@ -239,8 +239,8 @@ Here's the list of options supported for the `katalonc` commands for Katalon Stu
 <table>
    <thead>
       <tr>
-         <th>Katalonc Command-line Option</th>
-         <th>Description</th>
+         <th style="width:40%">Katalonc Command-line Option</th>
+         <th style="width:30%">Description</th>
          <th>Mandatory?</th>
       </tr>
    </thead>
@@ -444,8 +444,8 @@ katalonc -noSplash -runMode=console -projectPath="C:\Users\Katalon Studio\Projec
 <table>
    <thead>
       <tr>
-         <th>Katalonc Command-line Option</th>
-         <th>Description</th>
+         <th style="width:40%">Katalonc Command-line Option</th>
+         <th style="width:30%">Description</th>
          <th>Mandatory?</th>
       </tr>
    </thead>

@@ -9,9 +9,9 @@ redirect_from:
     - "/katalon-analytics/docs/getting-started/"
 description:
 ---
-## Logging in
+## Log in
 
-1. Navigate to: [https://analytics.katalon.com](https://analytics.katalon.com/).
+1. Navigate to: [https://testops.katalon.io](https://testops.katalon.io/).
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/login/login_page.png)
 
@@ -19,7 +19,7 @@ description:
 
 3. Once you have signed in successfully, the Katalon TestOps’ home page will display.
 
-![](https://github.com/katalon-studio/docs-images/raw/a80d604412aada2928bf61ee67797a13928b0ef9/katalon-analytics/docs/login/home_page.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/login/home_page.png)
 
  The home page shows quick paths to your organizations, teams, and projects to view details of each page.
 
@@ -29,7 +29,7 @@ description:
 
 * **Project**: You can view all projects under the teams you belong to. Select a project to view its details and to start working on it.
 
-## Logging out
+## Log out
 
 4. On the right corner of Profile page, click ![](https://github.com/katalon-studio/docs-images/raw/5b7eb6ef44f02bd18a7f71d336a1d1a5d2d36a9b/katalon-analytics/docs/login/right_corner.png).
 

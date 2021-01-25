@@ -65,7 +65,7 @@ println System.getProperty('java.version')
 * Your machine already installed your desired JRE version (from v8 to v14).
 * An active [Katalon Runtime Engine](https://docs.katalon.com/katalon-studio/docs/license.html#katalon-runtime-engine) license.
 
-To execute a test suite or test suite collection with another JRE in console mode, you need to add the environment variable: `KATALON_JAVA_HOME= &lt;JRE_location&gt;` and use it before Katalon commands. Below is a sample command on macOS and Linux for your reference:
+To execute a test suite or test suite collection with another JRE in console mode, you need to add the environment variable: `KATALON_JAVA_HOME= <JRE_location>` and use it before Katalon commands. Below is a sample command on macOS and Linux for your reference:
 
 `export KATALON_JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home`
 
