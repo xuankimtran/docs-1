@@ -44,15 +44,21 @@ Select the **Users** on the left side-bar. The lists of **Users** and **Pending 
 
 > Note: Only the user in an organization can be invited to a team in that organization. 
 
-* Select a team, from **Users** tab in a team, select that person's email in the drop-down list and then click **Add** to add a user to a team. 
+* In the **Manage Teams** view, chose a team at the list **Teams**. 
 
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_manage_team.png)
 
+* The **Dashboard** is on. Click to the **Users** on the left sidebar. At the **Add User to Team** chose the users in the drop-down list. Then click **Add** to add users to the team..
 
-* The default role for the invited person is **User**.
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_manage_user_add_user.png)
+
+* In the **Users** of **Manage Users**, the users and the owner are on. The default role for the invited person is **User**. 
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_manage_user_new_user.png)
 
 ## Remove an existing user
 
-Select your team > from **Users** tab, click the remove icon in the last column and confirm your action in the pop-up.
+Select your team in **Manage Teams**, chose **Users** on the left sidebar, click the icon **Remove user** ( ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_remove_icon.png) ) in the last column and confirm your action in the pop-up.
 
 ## Assign Admin or User role
 
