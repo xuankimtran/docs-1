@@ -15,8 +15,8 @@ description:
     <thead>
         <tr>
             <th style="width:33%"><strong>Getting Started</strong></th>
-            <th style="width:33%"><strong>Latest Version</strong></th>
-            <th><strong>Support</strong></th>
+            <th style="width:33%"><strong>Product Evaluation Center </strong></th>
+            <th><strong>Latest Version</strong></th>
         </tr>
     </thead>
     <tbody>
@@ -31,19 +31,19 @@ description:
                 </ul>
             </td>
             <td>
-                <ul>
-                    <li><a href="https://docs.katalon.com/katalon-studio/new/what-is-new.html">What's new in
-                            v7.9?</a>
-                    <li><a href="https://www.katalon.com/download/">Download</a></li>
-                    <li><a href="https://docs.katalon.com/katalon-studio/docs/product-availability-matrix.html">Supported Technologies (Newly Updated)</a></li>
+                <ul>   
+                <li><a href="https://docs.katalon.com/katalon-studio/docs/product-availability-matrix.html">Supported Technologies</a>
+                    <li><a href="https://docs.katalon.com/katalon-studio/docs/unique-capabilities.html">Unique Capabilities </a>
+                    <li><a href="https://d1h3p5fzmizjvp.cloudfront.net/other-resources/Katalon-License-Guide-112020.pdf">Choose right license</a>
+                    </li>    
                 </ul>
             </td>
             <td>
                 <ul>
-                    <li><a href="https://www.katalon.com/help-center/">Help Center</a>
-                    <li><a href="https://forum.katalon.com/">Forum</a> &<a
-                            href="https://gitter.im/katalon-studio/Lobby"> Chat</a>
-                    <li><a href="https://www.katalon.com/webinars/">Webinars</a></li>
+                    <li><a href="https://docs.katalon.com/katalon-studio/new/what-is-new.html">What's new in
+                            v7.9?</a>
+                    <li><a href="https://www.katalon.com/download/">Download</a>
+                    </li>
                 </ul>
             </td>
     </tbody>
@@ -51,7 +51,7 @@ description:
         <tr>
             <th><strong>Web UI Testing</strong></th>
             <th><strong>Mobile Testing</strong></th>
-            <th><strong>Continuous Testing</strong></th>
+            <th><strong>Support</strong></th>
         </tr>
     </thead>
     <tbody>
@@ -81,14 +81,10 @@ description:
             </td>
             <td>
                 <ul>
-                    <li><a href="https://docs.katalon.com/katalon-studio/docs/jira-integration.html">Jira
-                            Integration</a>
-                    <li><a href="https://docs.katalon.com/katalon-studio/docs/jenkins-plugin-windows.html">Jenkins
-                            Integration</a>
-                    <li><a href="https://docs.katalon.com/katalon-studio/docs/azure-devops-extension.html">Azure DevOps
-                            Integration</a>
-                    <li><a href="https://docs.katalon.com/katalon-analytics/docs/overview.html">Katalon TestOps
-                            Integration</a></li>
+                <li><a href="https://www.katalon.com/help-center/">Help Center</a>
+                    <li><a href="https://forum.katalon.com/">Forum</a> &<a
+                            href="https://gitter.im/katalon-studio/Lobby"> Chat</a>
+                    <li><a href="https://www.katalon.com/webinars/">Webinars</a></li>     
                 </ul>
             </td>
         </tr>
@@ -150,7 +146,7 @@ description:
         <tr>
             <th><strong>Data-driven Testing</strong></th>
             <th><strong>BDD Tests</strong></th>
-            <th><strong>Console Mode Execution</strong></th>
+            <th><strong>Continuous Testing</strong></th>
         </tr>
     </thead>
     <tbody>
@@ -183,10 +179,13 @@ description:
             </td>
             <td>
                 <ul>
-                    <li><a href="https://docs.katalon.com/katalon-studio/docs/intro-RE.html">Introduction to Runtime Engine</a>
-                    <li><a href="https://www.katalon.com/download/">Download</a>
-                    <li><a href="https://docs.katalon.com/katalon-studio/docs/test-case-variables.html">Command Syntax</a>
-                    </li>
+                    <li><a href="https://docs.katalon.com/katalon-studio/docs/jira-integration.html">Jira
+                            Integration</a>
+                    <li><a href="https://docs.katalon.com/katalon-studio/docs/jenkins-plugin-windows.html">Jenkins
+                            Integration</a>
+                    <li><a href="https://docs.katalon.com/katalon-studio/docs/azure-devops-extension.html">Azure DevOps Integration</a>
+                    <li><a href="https://docs.katalon.com/katalon-analytics/docs/overview.html">Katalon TestOps
+                            Integration</a></li>
                 </ul>
             </td>
         </tr>
