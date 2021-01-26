@@ -67,6 +67,8 @@ items:
             url: /katalon-studio/docs/product-availability-matrix.html
           - title: "Supported Environments"
             url: /katalon-studio/docs/supported-environments.html
+          - title: "Unique Capabilities"
+            url: /katalon-studio/docs/unique-capabilities.html
           - title: "Installation and Activation"
             tree:
               - title: "Installation Overview"
