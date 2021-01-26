@@ -65,7 +65,23 @@ _Credit to Sébastien Taniere and his [original topic](https://forum.katalon.com
 **Prerequisites**
 
 * [Installing Jenkins on Windows](https://www.jenkins.io/doc/book/installing/)
+* Installing Docker as an application in your testing machine
 * An active Katalon Runtime Engine **floating** license
 
-Check out this [sample project](https://github.com/katalon-studio-samples/ci-samples/blob/master/Jenkinsfile) for executing Katalon Studio scripts in Jenkins Pipeline.
+To run Katalon Studio sample scripts in Jenkins Pipeline, do as follows:
 
+1. Click on **New Item** and select the Pipeline project type.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/create-pipeline.png" width=50%>
+
+2. Select **Pipeline Script from SCM**.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/git.png">
+
+3. In the SCM field, select **Git**. 
+
+4. In **Repository URL, enter [https://github.com/katalon-studio-samples/ci-samples/blob/master/Jenkinsfile](https://github.com/katalon-studio-samples/ci-samples/blob/master/Jenkinsfile), a sample project provided by Katalon Studio. 
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/git-selected.png">
+
+4. Enter your Git credentials, save and start running the Jenkinsfile.
