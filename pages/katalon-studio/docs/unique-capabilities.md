@@ -17,7 +17,6 @@ You can find out what distinguish Katalon Studio from other testing tools in the
          <ul>
             <li><a href="https://github.com/katalon-studio-samples/api-web-combination-sample">Sample project for API &
                   Web UI combination</a>
-            <li>Sample project for Web UI & Mobile combination
             <li><a href="https://www.youtube.com/watch?v=bkA1DN-3bv8&feature=youtu.be">Webinar about utilizing API
                   Testing for boosting Web UI testing performance</a>
             </li>
@@ -44,7 +43,8 @@ You can find out what distinguish Katalon Studio from other testing tools in the
    <tr>
       <td style="width:50%">Object locators are commonly broken or unable to identify the target element when the application under test (AUT) changes. Hence creating and using correct and resilient locators are crucial to the success of
          Web UI test automation. Since 7.0, Katalon Studio has launched an advanced and comprehensive Self-healing
-         mechanism to tackle the broken locator issue during execution. We hope this powerful utility reduces your test maintenance effort substantially, exceptionally when the test cases run in batch overnight.	
+         mechanism to tackle the broken locator issue during execution. We hope this powerful utility reduces your test maintenance effort substantially, exceptionally when the test cases run in batch overnight. <a
+            href="https://docs.katalon.com/katalon-studio/docs/self-healing.html">Learn more</a>	
       </td>
       <td><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/unique-capabilities/self-healing.png">
       </td>
