@@ -31,7 +31,7 @@ This tutorial helps you get familiar with the **Record** and **Playback** featur
    - In **Project** > select **Sample iOS...**, the **Repository URL** is filled automatically.
    - Browse a **Location** to store your project > click **OK**.
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/create-new-project-with-sample-project.png" width=75%>
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/create-new-project-with-sample-project.png" width=70%>
 **Record**
 
 1. From the main toolbar, click on the **Record Mobile** icon and select your device type. For example, **iOS Devices**.
@@ -41,13 +41,16 @@ This tutorial helps you get familiar with the **Record** and **Playback** featur
 
 2. In the displayed **Mobile Recorder** dialog, specify the information at the **Configurations** section:
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-mobile-utility/configurations.png" width=369>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/configuration.png" width=50%>
 
    * **Device Name**: select one of your connected iOS  devices.
-   * **Start with**: In the drop-down list, select **Application File**
-   * **Application File**: Browse your application file. (For example, APIDemos.apk)
+   * **Start with**: In the drop-down list, select **Application File**.
+   * **Application File**: Browse **Coffee Timer.ips**.
 
-3. Click **Start** to begin recording your test case. Wait until the AUT is launched, and the **Device View** and **All Objects** are ready for you to interact with the application.
+3. Click **Start** to begin recording your test case: 
+
+   * Wait until the AUT is launched. 
+   * The **Device View** and **All Objects** are ready for you to interact with the application.
 
 4. The recorded steps and captured objects will be generated respectively in **Recorded Actions** and **Captured Objects**.
 
