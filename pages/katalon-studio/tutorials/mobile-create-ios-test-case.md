@@ -38,7 +38,6 @@ This tutorial helps you get familiar with the **Record** and **Playback** featur
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/record-iOS.png" width=20%>
 
-
 2. In the displayed **Mobile Recorder** dialog, specify the information at the **Configurations** section:
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/configuration.png" width=50%>
