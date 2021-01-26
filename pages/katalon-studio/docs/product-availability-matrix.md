@@ -25,7 +25,6 @@ This document gives you information on the supported technologies and integratio
                 <li>Native application
                 <li>Web mobile
                 <li>Hybrid (*)
-                <font size="1"><p>(*) <i>Limitation: Elements inside embedded web views cannot be captured automatically by Record&Spy utilities.</i></p></font>
                 </li>
             </ul>
         </td>
@@ -55,12 +54,6 @@ This document gives you information on the supported technologies and integratio
         </td>
     </tr>
     <tr>
-        <td colspan="2">Combination of different AUT types in one testing flow
-            <p>
-                Web UI + Mobile + API</p>
-        </td>
-    </tr>
-    <tr>
         <td colspan="2"><strong>Programming Skill & Language</strong>
         </td>
     </tr>
@@ -73,10 +66,6 @@ This document gives you information on the supported technologies and integratio
                 <li>Java v8.0 - v14
                 </li>
             </ul>
-        </td>
-    </tr>
-    <tr>
-        <td colspan="2">Allow collaboration of manual testers and automation engineers
         </td>
     </tr>
     <tr>
@@ -210,5 +199,7 @@ This document gives you information on the supported technologies and integratio
         </td>
     </tr>
 </table>
+
+<font size="1"><p>(*) <i>Limitation: Elements inside embedded web views cannot be captured automatically by Record&Spy utilities.</i></p></font>
 
 > Leave a comment below to propose any technologies you need Katalon Studio to support.
