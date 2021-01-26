@@ -60,15 +60,12 @@ java -jar --webroot=jenkins.war
 
 _Credit to Sébastien Taniere and his [original topic](https://forum.katalon.com/t/video-is-empty-when-scenario-is-launched-by-katalon-runtime-trough-jenkins-windows-instance/43974)._
 
-## Run Jenkins Pipeline script (Jenkinsfile)
+## Run Jenkins Pipeline (Jenkinsfile)
 
 **Prerequisites**
 
 * [Installing Jenkins on Windows](https://www.jenkins.io/doc/book/installing/)
 * An active Katalon Runtime Engine **floating** license
 
-To run a Jenkins Pipeline script (Jenkinsfile), please do as follows:
-
-1. Create and configure a new Jenkins Pipeline project.
-2. Download the sample script for running a Jenkinsfile [here](https://github.com/katalon-studio-samples/ci-samples/blob/master/Jenkinsfile).
+Check out this [sample project](https://github.com/katalon-studio-samples/ci-samples/blob/master/Jenkinsfile) for executing Katalon Studio scripts in Jenkins Pipeline.
 
