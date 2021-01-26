@@ -5,7 +5,7 @@ permalink: katalon-studio/docs/troubleshooting.html
 description: 
 ---
 
-This document helps you troubleshoot common exceptions when executing test with Katalon Studio.
+This document helps you troubleshoot common exceptions when executing tests with Katalon Studio.
 
 * [Web automated testing](/katalon-studio/docs/troubleshoot-common-execution-exceptions-web-test.htmll).
 * [Mobile automated testing](/katalon-studio/docs/troubleshooting-automated-mobile-testing.html).
