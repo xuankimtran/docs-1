@@ -49,7 +49,11 @@ Click the button **Invite** and **Next**.
 
 Click the button **Upload sample project** to finish.
 
-6. Click the button **Setting** ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_set_symbol_corner.png) on the right side corner, chose **Organization Management**. In the **Organizaton profile** view, give a name to your Organization. Here is you can also view your Organization ID.
+6. Click the button **Settings** on the right side corner, chose **Organization Management**. 
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_set_org_management.png)
+
+In the **Organizaton profile** view, give a name to your Organization. Here is you can also view your Organization ID.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/1fcada24da81018e85826582cba92930f1042fdc/katalon-analytics/docs/setup-org-team-project/kt_org_profile.png" width="" height=""> 
 
@@ -66,15 +70,18 @@ Click the button **Upload sample project** to finish.
 
 > This feature is accesible to the organization **Owner** and **Admin** only.
 
-* In **Katalon Administrantion** page, on the top right corner, click the symbol ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_set_symbol_corner.png) (setting). Chose "User Management".
+* In **Katalon Administrantion** page, on the top right corner, click the symbol **Setting**. Click **User Management**.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_user_manag.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_set_org_user_manage.png)
 
-* The **Manager User** is on with **Users** and **Pending Invitations**.
+* The **Manager User** displays with **Users** and **Pending Invitations**.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_manager_user.png)
 
-* Go to **Users** > Click on the **Invite user** button.
+* Go to **Users** > Click on the **Invite user** button on the top right corner.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_user_manage_invite.png)
+
 * Enter valid email addresses and click **Invite**. *Note: You can enter multiple accounts at the same time.*
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_invite_user.png)
