@@ -34,7 +34,7 @@ This tutorial helps you get familiar with the **Record** and **Playback** featur
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/create-new-project-with-sample-project.png" width=70%>
 **Record**
 
-1. From the main toolbar, click on the **Record Mobile** icon and select your device type. For example, **iOS Devices**.
+1. On the main toolbar, click on the **Record Mobile** icon and select your device type. For example, **iOS Devices**.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/record-iOS.png" width=20%>
 
@@ -43,7 +43,7 @@ This tutorial helps you get familiar with the **Record** and **Playback** featur
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/configuration.png" width=50%>
 
    * **Device Name**: select one of your connected iOS  devices.
-   * **Start with**: In the drop-down list, select **Application File**.
+   * **Start with**: select **Application File** in the drop-down list.
    * **Application File**: Browse **Coffee Timer.ips**.
 
 3. Click **Start** to begin recording your test case: 
