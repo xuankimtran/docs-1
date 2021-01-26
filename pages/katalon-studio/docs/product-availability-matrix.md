@@ -6,7 +6,7 @@ permalink: /katalon-studio/docs/product-availability-matrix.html
 
 This document gives you information on the supported technologies and integrations. For the supported environments (including browsers and operating systems), see [this document](https://docs.katalon.com/katalon-studio/docs/supported-environments.html).
 
-<table>
+<table id="top">
     <tr>
         <td colspan="2"><strong>Supported Application Under Test (AUT)</strong>
         </td>
@@ -24,7 +24,7 @@ This document gives you information on the supported technologies and integratio
                 <li>Android & iOS
                 <li>Native application
                 <li>Web mobile
-                <li>Hybrid (*)
+                <li>Hybrid <a href="#mobile-limit">(*)</a>
                 </li>
             </ul>
         </td>
@@ -200,6 +200,6 @@ This document gives you information on the supported technologies and integratio
     </tr>
 </table>
 
-<font size="1"><p>(*) <i>Limitation: Elements inside embedded web views cannot be captured automatically by Record&Spy utilities.</i></p></font>
+<p id="mobile-limit">(*) <i>Limitation: Elements inside embedded web views cannot be captured automatically by Record&Spy utilities. </i><a href="#top">Back to top</a></p>
 
 > Leave a comment below to propose any technologies you need Katalon Studio to support.
