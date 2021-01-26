@@ -4,7 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/unique-capabilities.html
 ---
 
-You can find out what distinguish Katalon Studio from other testing tools with the following documentation.
+You can find out what distinguish Katalon Studio from other testing tools in the following documentation.
 
 <table>
    <tr>
