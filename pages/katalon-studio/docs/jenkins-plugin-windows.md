@@ -41,7 +41,7 @@ Now go back to the top page, you can start using the plugin right away.
 
    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/Picture4.png)
 
-3. Add and configure the build step: **Execute Katalon Studio tests**.
+4. Add and configure the build step: **Execute Katalon Studio tests**.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/Picture5.png" width=60%>
 
