@@ -15,7 +15,7 @@ description:
     <thead>
         <tr>
             <th style="width:33%"><strong>Getting Started</strong></th>
-            <th style="width:33%"><strong>Product Evaluation Center </strong></th>
+            <th style="width:33%"><strong>Product Evaluation Center</strong></th>
             <th><strong>Latest Version</strong></th>
         </tr>
     </thead>
