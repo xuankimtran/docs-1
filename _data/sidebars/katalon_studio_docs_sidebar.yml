@@ -97,6 +97,8 @@ items:
                     url: /katalon-studio/docs/mobile-on-macos.html
                   - title: "Installing WebDriverAgent for iOS devices"
                     url: /katalon-studio/docs/installing-webdriveragent-for-ios-devices.html
+      - title: "Tutorials and Samples"
+        tree:
           - title: "Quick Start"
             url: /katalon-studio/docs/quick_start.html
           - title: "Sample Projects"
@@ -111,6 +113,18 @@ items:
                 url: /katalon-studio/docs/web-service-samples.html
               - title: "BDD Samples"
                 url: /katalon-studio/docs/bdd-samples.html
+          - title: "iOS"
+            tree:
+              - title: "[Mobile] iOS Setup"
+                url: /katalon-studio/tutorials/mobile-ios-setup.html
+              - title: "[Mobile] Create and Run iOS Test Case"
+                url: /katalon-studio/tutorials/mobile-create-ios-test-case.html
+          - title: "Android"
+            tree:
+              - title: "[Mobile] Android Setup"
+                url: /katalon-studio/tutorials/mobile-android-setup.html
+              - title: "[Mobile] Create and Run Android Test Case"
+                url: /katalon-studio/tutorials/mobile-create-android-test-case.html
       - title: "GUI and Preferences"
         tree:
           - title: "Toolbars and Views"
