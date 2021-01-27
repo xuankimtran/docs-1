@@ -34,18 +34,19 @@ To find the right plugin, browse the Katalon Store or use the Search function. O
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/user/store-browse.png)
 
-
 ### Free plugins
 
-Search for a plugin by entering one or more words in the search field at the top of the Katalon Store window, then pressing Enter. Click on a thumbnail image of a plugin on the homepage to view details.
+Search for a plugin by entering one or more words in the search field at the top of the Katalon Store window, then pressing Enter.
 
-To install the plugin, click the button _Install_ on the product detail page. 
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/user/kst_search_plugin.png)
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/user/store-install-plugin.png)
+Click on a thumbnail image of a plugin on the homepage to view details. To install the plugin, click the button **Install** on the product detail page. 
 
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/user/kst_install_plugin.png)
 
 _Note: After the installation has completed, click Reload Plugins in Katalon Studio to activate the plugin._
 
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/user/kst_reload_plugin.png)
 
 ### Free trial plugins
 
@@ -67,10 +68,19 @@ The plugin will switch to _Expired_ status after the trial ends.
 
 _Note: After the installation has completed, click Reload Plugins in Katalon Studio to activate the plugin._
 
-
 ## View and manage installed plugins 
 
-You can view the plugins you've installed using your Katalon Account in the **Manage installed plugins** page. You can uninstall plugins that you no longer need.
+You can view the plugins you've installed by clicking avatar on the top right corner. Then click **My Plugins**.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/user/kst_click_my_plugin.png)
+
+**My Plugins** displays with Installed Plugins and Published Plugins. 
+
+![](https://github.com/katalon-studio/docs-images/raw/124a5c1f708c96539dfb0c3b052ae516aa42e43c/katalon-store/docs/user/kst_my_plugin_list.png)
+
+You can uninstall a plugin by clicking on the active at Status column. Then choose **Uninstall**.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/user/kst_uninstall_plugins.png)
 
 ### View trial/purchased plugins
 
