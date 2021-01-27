@@ -1056,11 +1056,9 @@ items:
           - title: "Troubleshoot common exceptions" 
             url: /katalon-studio/docs/troubleshooting.html 
           - title: "Troubleshoot web automated testing"
-            url: /katalon-studio/docs/troubleshooting-web-automated-testing.html
+            url: /katalon-studio/docs/troubleshoot-common-execution-exceptions-web-test.html
           - title: "Troubleshoot mobile automated testing"
             url: /katalon-studio/docs/troubleshooting-automated-mobile-testing.html
-          - title: "Troubleshoot common exceptions when executing web tests"
-            url: /katalon-studio/docs/troubleshoot-common-execution-exceptions-web-test.html
           - title: "Known issues"
             url: /katalon-studio/docs/known-issues-limitations.html
       - title: "Tips and Tricks"
