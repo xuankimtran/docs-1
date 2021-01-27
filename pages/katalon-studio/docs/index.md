@@ -15,7 +15,7 @@ Select a product to go to its documentation:
 
 <table>
     <tr>
-        <td style="width:300px;display:block"><a href="https://docs.katalon.com/katalon-studio/docs/overview.html"><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-products/Katalon-Studio-32x24px%402x.png"></a>
+        <td style="width:300px"><a href="https://docs.katalon.com/katalon-studio/docs/overview.html"><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-products/Katalon-Studio-32x24px%402x.png"></a>
             <a href="https://docs.katalon.com/katalon-studio/docs/overview.html">Katalon Studio</a>
         <td>A productive IDE for test case generation, with cross-platform execution.
         </td>
