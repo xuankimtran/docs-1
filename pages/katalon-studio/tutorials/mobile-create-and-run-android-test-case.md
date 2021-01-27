@@ -1,8 +1,8 @@
 ---
 title: "[Mobile] Create and Run Android Test Case"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/tutorials/mobile-create-and-run-android-test-case.html
-description: Create And Run Android Test Case 
+permalink: katalon-studio/tutorials/mobile-create-android-test-case.html
+description: Create and Run Android Test Case 
 ---
 
 This tutorial demonstrates how to create Android tests with Katalon Studio using **Record** and **Playback**.
@@ -160,8 +160,9 @@ Mobile.closeApplication()
 ```
 </details>
 
+Next: [Execute and Debug a Test Case](https://docs.katalon.com/katalon-studio/docs/execute-a-test-case-or-a-test-suite.html).
 Previous: [Set up Android-mobile-tests](https://docs.katalon.com/katalon-studio/tutorials/mobile-android-setup.html).
 
    See also:
-   * [Create and Run your first iOS test case](https://docs.katalon.com/katalon-studio/tutorials/mobile-create-and-run-ios-test-case.html).
+   * [Create and Run your first iOS test case](https://docs.katalon.com/katalon-studio/tutorials/mobile-create-ios-test-case.html).
    * [Troubleshoot automated mobile testing](https://docs.katalon.com/katalon-studio/docs/troubleshooting-automated-mobile-testing.html).
