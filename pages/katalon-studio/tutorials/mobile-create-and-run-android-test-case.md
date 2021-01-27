@@ -161,6 +161,7 @@ Mobile.closeApplication()
 </details>
 
 Next: [Execute and Debug a Test Case](https://docs.katalon.com/katalon-studio/docs/execute-a-test-case-or-a-test-suite.html).
+
 Previous: [Set up Android-mobile-tests](https://docs.katalon.com/katalon-studio/tutorials/mobile-android-setup.html).
 
    See also:
