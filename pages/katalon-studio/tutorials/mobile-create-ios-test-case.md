@@ -1,22 +1,18 @@
 ---
-title: "[Mobile] Create iOS Test Case"
+title: "[Mobile] Create and Run iOS Test Case"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/tutorials/mobile-create-ios-test-case.html
-description: Create iOS Test Case 
+description: Create and Run iOS Test Case 
 ---
 
-From version 7.6 onwards, Katalon Studio fully supports selector strategies supported by Appium. 
+This tutorial demonstrates how to create iOS tests with Katalon Studio using **Record** and **Playback**.
 
-This tutorial helps you get familiar with the **Record** and **Playback** features for Mobile Tests by recording a scenario of sending a message via the **APIDemos.ipa** application:
+To get familiar with these features, go through the "Recording a scenario of counting down the via the Coffee Timer.ipa application" scenario. The basic steps are:
+1. Launch **Coffee Timer.ipa** on the device.
+2. Tap on **Green Tea**.
+3. Tap on **Start**.
 
-1. Launch **APIDemos.ipa** on the device.
-2. Tap on **OS**.
-3. Tap on **SMS Messaging**.
-4. Enter a phone number and a message.
-5. Tap on **Send**.
-
-> APIDemos.ipa and sample project code is available [here](https://github.com/katalon-studio-samples/ios-mobile-tests).
-
+> Coffee Timer.ipa and sample project code is available [here](https://github.com/katalon-studio-samples/ios-mobile-tests).
 
 ## Create your first iOS test case
 
@@ -32,6 +28,7 @@ This tutorial helps you get familiar with the **Record** and **Playback** featur
    - Browse a **Location** to store your project > click **OK**.
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/create-new-project-with-sample-project.png" width=70%>
+
 **Record**
 
 1. On the main toolbar, click on the **Record Mobile** icon and select your device type. For example, **iOS Devices**.
@@ -56,17 +53,3 @@ This tutorial helps you get familiar with the **Record** and **Playback** featur
 5. Stop recording and save your script.
 
 > Click [here](https://docs.katalon.com/katalon-studio/docs/mobile-recorder-tutorials.html) for a detailed tutorial.
-
-
-
-
-
-
-## Create first iOS Test Case
-
-1. Click <img alt="Native Windows Recorder without coordinates" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-web-utility/Screen-Shot-2018-06-27-at-09.41.37.png" width=5%> icon to open Katalon Web Utility. The *Web recorder* dialog will be displayed.
-2. Enter a URL of your web application (e.g., https://amazon.com/) and select a browser to start recording. The browser instance will be launched automatically.
-3. Once the web page is loaded, interact with its elements. Your interaction will be generated automatically in Recorded Actions.
-4. To stop recording, click *Stop* or go straight to *Save Script*. The browser will be closed automatically.
-5. Choose where to store your script in the *Add element to Object Repository* dialog and click *OK*.
-6. Input Name, Descripton and Tag (if any) in the *Test Case* dialog and click *OK*. Your test case is successfully created.
