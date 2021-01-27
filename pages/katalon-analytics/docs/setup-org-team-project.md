@@ -21,7 +21,7 @@ This tutorial shows you how to set up an Organization properly in Katalon TestOp
 
 Organizations are shared Katalon TestOps accounts where groups of users can collaborate across several projects at once. A user defaults to owning a personal organization and can belong to many organizations.
 
-1. Log in to Katalon TestOps.
+1. Sign in to Katalon TestOps.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/1e86fafbb5ac1d4dc845598cc86ee24c9d99e86b/katalon-analytics/docs/setup-org-team-project/login_kat_testops.png" width="" height="">
 

@@ -10,18 +10,23 @@ description: Help user navigate around KStore
 
 ## Sign in to Katalon Store
 
-Use Katalon Store to find and install plugins to Katalon Studio.
+Use **Katalon Store** to find and install plugins to **Katalon Studio**.
 
-Before you can install (or purchase) a plugin from the Katalon Store, you must sign in using your Katalon ID.
+Before you can install (or purchase) a plugin from the **Katalon Store**, you must sign in using your Katalon ID.
 
-In Katalon Store, click _Sign in_ at the top-right corner. 
+In **Katalon Store**, click **Sign in** on the top right corner. 
 
-If you do not have a Katalon ID, create one by clicking '_Sign up.'_ Then follow the onscreen instructions.
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/user/kst_click_sign_in.png)
+
+If you do not have a Katalon ID, create one by clicking [here](https://www.katalon.com/create-account/). Then follow the onscreen instructions.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/user/ka_create_account.png)
 
 The account information includes your Katalon ID and the username that you use when you review plugins. 
 
-To sign out of Katalon Store at any time, click _Sign In_ > _Sign Out_.
+To sign out of Katalon Store at any time, click Avatar on the top right corner, then click **Sign Out**.
 
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/user/kst_sign_out.png)
 
 ## Find and install plugins
 
