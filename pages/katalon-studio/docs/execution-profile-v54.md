@@ -109,7 +109,7 @@ WebUI.closeBrowser()
 
 ### Inheritance Profile
 
-Understanding the obstacle users might have faced when finding particular entries when executing, Katalon Studio provides the **Inheritance Profile** feature to nest profiles. All test cases could access the parent profile (**default** in Katalon Studio) and the custom ones nested in the **default**.
+Katalon Studio provides the **Inheritance Profile** feature to nest profiles which helps users easily find particular entries when executing. All test cases can access the parent profile (**default** in Katalon Studio) and also the custom ones nested in the **default** to execute.
 
 To get familiar with this feature, we provide you with simple examples as follows: 
 
