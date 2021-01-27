@@ -69,17 +69,19 @@ This topic describes the preliminary actions you need to perform to prepare the 
 
    After completing setting your environment, open a Mobile Testing Sample Project (which is packaged in  your Katalon Studio installation) and execute a test suite using an Android device. 
    
-   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/image2017-6-29-143A483A34.png)  
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/android.png" width=20%>  
+
 
    Select your device from the **Android Devices** list > click **OK**. 
 
-   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/image2018-1-26-183A393A1.png)
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/device.png" width=40%>
 
    If your test suite runs successfully, you will see the results in the test reports as follow:
 
-   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/image2018-6-15-173A473A28.png)
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/result.png" width=70%>
    
-   Next: [Create your first Android test case](https://docs.katalon.com/katalon-studio/tutorials/mobile-android-setup.html).
+   
+   Next: [Create your first Android test case](https://docs.katalon.com/katalon-studio/docs/mobile-recorder-tutorials.html).
 
    See also:
    * [Set up iOS-mobile-tests](https://docs.katalon.com/katalon-studio/tutorials/mobile-ios-setup.html).

@@ -55,12 +55,20 @@ items:
             url: /katalon-studio/docs/overview.html
           - title: "What's new"
             tree:
-              - title: "What's new in Katalon Studio 7.8"
-                url: /katalon-studio/new/what-is-new.html
+              - title: "What's new in v7.9?"
+                url: /katalon-studio/new/what-is-new-79.html
+              - title: "What's new in v7.8?"
+                url: /katalon-studio/new/what-is-new-78.html
               - title: "Version 7.x"
                 url: /katalon-studio/new/version-70.html
               - title: "Version 6.x"
                 url: /katalon-studio/new/version-60.html
+          - title: "Supported Technologies"
+            url: /katalon-studio/docs/product-availability-matrix.html
+          - title: "Supported Environments"
+            url: /katalon-studio/docs/supported-environments.html
+          - title: "Unique Capabilities"
+            url: /katalon-studio/docs/unique-capabilities.html
           - title: "Installation and Activation"
             tree:
               - title: "Installation Overview"
@@ -73,8 +81,6 @@ items:
                 url: /katalon-studio/docs/troubleshoot-activation-problems.html
               - title: "Update Katalon Studio"
                 url: /katalon-studio/docs/auto-updater.html
-              - title: "Supported Environments"
-                url: /katalon-studio/docs/supported-environments.html
               - title: "Katalon Studio for Linux (GUI)"
                 url: /katalon-studio/docs/katalon-studio-gui-beta-for-linux.html
               - title: "Configuration for Web Testing"
@@ -1177,7 +1183,7 @@ items:
             url: /katalon-store/docs/publisher/approval-guidelines.html
           - title: "Manage published plugins"
             url: /katalon-store/docs/publisher/manage-published-plugins.html
-  - title: "Katalon TestOps (Beta)"
+  - title: "Katalon TestOps"
     tree:
       - title: "Get Started"
         tree:
