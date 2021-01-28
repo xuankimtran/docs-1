@@ -5,11 +5,23 @@ permalink: katalon-studio/docs/troubleshooting.html
 description: 
 ---
 
-This document helps you troubleshoot common exceptions when executing test with Katalon Studio.
+This document helps you troubleshoot common exceptions when executing tests with Katalon Studio.
 
-* [Troubleshooting web automated testing](/katalon-studio/docs/troubleshooting-web-automated-testing.html)
-* [Troubleshooting common exceptions when executing web tests](/katalon-studio/docs/troubleshoot-common-execution-exceptions-web-test.html)
-* [Troubleshooting common issues related to interacting with an element](/katalon-studio/docs/troubleshooting-common-issues-related-to-interacting-with-an-element.html)
-* [Troubleshooting mobile automated testing](/katalon-studio/docs/troubleshooting-automated-mobile-testing.html)
+* [Web automated testing](/katalon-studio/docs/troubleshoot-common-execution-exceptions-web-test.html)
+* [Mobile automated testing](/katalon-studio/docs/troubleshooting-automated-mobile-testing.html)
 * [Known issues](/katalon-studio/docs/known-issues-limitations.html)
-
+* Others:
+<table>
+    <thead>
+        <tr>
+            <th>Error</th>
+            <th>Solution</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException</td>
+            <td>Follow <a href="https://docs.katalon.com/katalon-studio/how-to-guides/set-new-default-JRE.html#use-the-newly-added-jre-in-a-test-project">this guide</a> to use the newly added JRE for running a test project.</td>
+        </tr>
+    </tbody>
+</table>

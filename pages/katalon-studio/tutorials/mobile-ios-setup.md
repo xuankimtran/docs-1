@@ -107,17 +107,47 @@ This topic describes the preliminary actions you need to perform to prepare the 
 
 ## Verify the iOS application file
 
-   Before testing an iOS native application file (**.ipa** file), follow these steps to check if the application file is already built and signed correctly.
+Before diving further into testing, make sure the iOS native application file (**.ipa** file) is verified.
 
-   1. Open **Xcode** and navigate to **Window/Devices**.
-   2. Choose your device from the **Devices** list.
-   3. Click the "**+**" button and choose your application file.
+   - If the application file is already built and signed correctly, follow these steps:
 
-      ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/image2016-8-8-143A313A5.png)
+      - Open **Xcode** and navigate to **Window/Devices**.
+      - Choose your device from the **Devices** list.
+      - Click the "**+**" button and choose your application file.
 
-   If installed successfully, the application will appear in the **Installed Apps** section, as shown below.  
+         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/image2016-8-8-143A313A5.png" width=60%>
+      
+   - If the application is not built, do as follows:
 
-   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/image2016-8-8-143A313A14.png)
+      - Open the project file with **Xcode** tool. For example, to open **Coffe Time.xcodeproj**:
+
+         From where you store the project > **App** > **Your-First-iOS-App** > **Coffee Timer** > **Coffee Timer.xodeproj**.
+
+         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/open-xcode-file.png" width=50%>
+
+      - In Xcode:
+         - Select a device to launch the apps.
+
+            <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/select-device.png" width=35%>
+
+         - Set deployment iOS version and select device type in **General**/**Deployment Info**.
+
+            <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/deployment.png" width=45%>
+
+         - Build the apps by clicking **Product -> Build**. Wait until the build progress is finished.
+
+            > Make sure to select your **Team** in **Signing & Capabilities**.
+            >
+            ><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/team.png" width=45%> 
+
+         - Export the apps by clicking **Product -> Archive** then follow the instruction to get "**Coffee Time.ipa**" file.
+         - Store **Coffee Time.ipa** file into **App** folder. Katalon Studio will use the exported file to start Coffee Timer application.
+
+            <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/export.gif" width=70%>
+            
+   Once installed successfully, the application appears in the **Installed Apps** section, as shown below.  
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/image2016-8-8-143A313A14.png" width=60%>
 
    Next: [Create your first iOS test case](https://docs.katalon.com/katalon-studio/docs/mobile-recorder-tutorials.html#record)
 
