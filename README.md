@@ -64,6 +64,7 @@ bundle install
 Write:
 
 ```
+cd /mnt/d/tmp/docs
 bundle exec jekyll clean
 bundle exec jekyll serve --watch --force_polling --incremental
 ```
