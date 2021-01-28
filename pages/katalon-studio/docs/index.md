@@ -30,7 +30,7 @@ Select a product to go to its documentation where you can find its reference, tu
     <tr>
         <td style="width:300px;display:block"><a href="https://docs.katalon.com/katalon-analytics/docs/overview.html"><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-products/Katalon-TestOps-32x24px%402x.png"></a>
             <a href="https://docs.katalon.com/katalon-analytics/docs/overview.html">Katalon TestOps</a>
-        <td>Katalon TestOps is a set of cloud-based services to help you streamline software quality by continuous test executions and intelligent analytics.
+        <td>An enterprise-ready platform for QA Orchestration, test analytics, and reporting.
         </td>
     </tr>
     <tr>
