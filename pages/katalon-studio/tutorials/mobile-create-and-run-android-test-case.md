@@ -101,9 +101,11 @@ You can see a phone number is filled in the text field in **Device View**.
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/send.png" width=65%>
 
-10. After finishing recording the desired interactions with the AUT, click **OK** to save the captured objects. 
+10. Click on the **Stop** button above the **CONFIGURATIONS** section to close the application and finish recording.
 
-      In the **Folder Browser** dialog, create a new folder or select an existing folder in **Object Repository** > click **OK**.
+      After finishing recording the desired interactions with the AUT, click **Save script** to save the captured objects. 
+
+      In the displayed **Folder Browser** dialog, create a new folder or select an existing folder in **Object Repository** > click **OK**.
 
 11. You can add the recorded test steps to a new test case, append to or overwrite an existing one.
 
