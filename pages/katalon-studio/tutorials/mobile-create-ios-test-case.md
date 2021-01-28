@@ -54,9 +54,7 @@ Go through the "Recording a scenario of counting down Green Tea making time via 
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/Green%20Tea.png" width=55%>
 
-5. The recorded steps and captured objects will be generated respectively in **Recorded Actions** and **Captured Objects**.
-
-6. Once **Green Tea** is selected, **Tap** is enabled in **Available Actions** > click **Tab**, the tap action is performed as follows:
+5. Once **Green Tea** is selected, **Tap** is enabled in **Available Actions** > click **Tab**, the tap action is performed as follows:
 
    * The **Device View** is rendered with newly displayed elements.
    * In **Recorded Actions**, **Tap** is added to the list of recorded steps.
@@ -74,23 +72,23 @@ Go through the "Recording a scenario of counting down Green Tea making time via 
    >   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/locator.png" width=50%>
    > - If you prefer another locator strategy, select your prefered one and generate a new locator > click **Highlight** to see if your newly updated locator can detect the target object on its screen correctly.
 
-7. Similarly in **Device View**, click **Start** > click **Tap** in **Available Actions**.
+6. Similarly in **Device View**, click **Start** > click **Tap** in **Available Actions**.
 
    You can see another tap action is added to the list of **Recorded Actions** and **Captured Objects**.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/start-action.png" width=60%>
 
-8. In **Device View**, click **Stop** > click **Tap** in **Available Actions**.
+7. In **Device View**, click **Stop** > click **Tap** in **Available Actions**.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/stop-action.png" width=60%>
 
-9. Click on the **Stop** button above the **CONFIGURATIONS** section to close the application and finish recording.
+8. Click on the **Stop** button above the **CONFIGURATIONS** section to close the application and finish recording.
 
    After finishing recording the desired interactions with the AUT, click **Save script** to save the captured objects. 
 
       In the displayed **Folder Browser** dialog, create a new folder or select an existing folder in **Object Repository** > click **OK**.
 
-10. You can add the recorded test steps to a new test case, append to or overwrite an existing one.
+9. You can add the recorded test steps to a new test case, append to or overwrite an existing one.
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/save-script.png" width=55%>
 
