@@ -119,8 +119,8 @@ idevice_id -l</code></pre>
         <tr>
             <td>java.util.concurrent.ExecutionException: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: timeout of 240000ms exceeded.</td>
             <td>
-                <p>Solutions:</p>
-                    <ul>
+                <p>Solution:</p>
+                    <ol>
                         <li> Install <a href="https://docs.katalon.com/katalon-studio/docs/installing-webdriveragent-for-ios-devices.html">Webdriveragent</a>.</li>
                         <li> Kill the running appium proccesses with the following command:  <pre><code>killall -9 node</code></pre></li>
                         <li> Start the AUT again.</li>
