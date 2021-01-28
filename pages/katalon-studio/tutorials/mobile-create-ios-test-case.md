@@ -16,7 +16,7 @@ Go through the "Recording a scenario of counting down Green Tea making time via 
 
 > **Coffee Timer.ipa** and sample project code is available [here](https://github.com/katalon-studio-samples/ios-mobile-tests).
 
-## Create your first iOS test case
+## Create and Run your first iOS test case
 
 ### Create New Project
 
@@ -109,3 +109,11 @@ To playback the recorded scenario:
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/ios-devices-list.png" width=55%>
 
 Katalon Studio executes the iOS test with the recorded steps accordingly.
+
+Next: [Execute and Debug a Test Case](https://docs.katalon.com/katalon-studio/docs/execute-a-test-case-or-a-test-suite.html#execute-a-test-case).
+
+Previous: [[Mobile] iOS Setup](https://docs.katalon.com/katalon-studio/tutorials/mobile-ios-setup.html).
+
+   See also:
+   * [Create and Run your first Android test case](http://docs.katalon.com/katalon-studio/tutorials/mobile-create-android-test-case.html).
+   * [Troubleshoot automated mobile testing](https://docs.katalon.com/katalon-studio/docs/troubleshooting-automated-mobile-testing.html).
