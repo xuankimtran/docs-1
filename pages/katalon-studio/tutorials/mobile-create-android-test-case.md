@@ -1,13 +1,13 @@
 ---
-title: "[Mobile] Create Android Test Case"
+title: "[Mobile] Create and Run Android Test Case"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/tutorials/mobile-create-android-test-case.html
-description: Create Android Test Case 
+description: Create and Run Android Test Case 
 ---
 
 This tutorial demonstrates how to create Android tests with Katalon Studio using **Record** and **Playback**.
 
-To get familiar with these features, go through the following "Recording a scenario of sending a message via the APIDemos.apk application" case. The basic steps are:
+Go through the following "Recording a scenario of sending a message via the APIDemos.apk application" to get familiar with these features. The basic steps are:
 
 1. Launch **APIDemos.apk** on the device.
 2. Tap on **OS**.
@@ -17,7 +17,7 @@ To get familiar with these features, go through the following "Recording a scena
 
 > APIDemos.apk and sample project code is available [here](https://github.com/katalon-studio-samples/android-mobile-tests).
 
-## Create your first Android test case
+## Create and Run your first Android test case
 
 ### Create New Project
 
@@ -30,7 +30,7 @@ To get familiar with these features, go through the following "Recording a scena
    - In **Project** > select **Sample Android...**, the **Repository URL** is filled automatically.
    - Browse a **Location** to store your project > click **OK**.
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/create-new-project-with-sample-project.png" width=65%>
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/create-new-project-with-sample-project.png" width=60%>
 
 ### Record
 
@@ -40,7 +40,7 @@ To get familiar with these features, go through the following "Recording a scena
 
 2. In the displayed **Mobile Recorder** dialog, specify the information at the **Configurations** section:
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/configure.png" width=55%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/configure.png" width=45%>
 
    * **Device Name**: select one of your connected Android devices.
    * **Start with**: Select **Application File** in the drop-down list.
@@ -53,7 +53,7 @@ To get familiar with these features, go through the following "Recording a scena
 
 4. On the **Device View** > click **OS**, Katalon Studio selects **OS** in **All Objects** correspondingly.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/os.png" width=65%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/os.png" width=55%>
 
 5. Once **OS** is selected, **Tap** is enabled in **Available Actions** > click **Tab**, the tap action is performed as follows:
 
@@ -70,18 +70,18 @@ To get familiar with these features, go through the following "Recording a scena
    >
    > - The essential property of an object is its locator strategy and value. The default locator is a unique value in detecting that object. Katalon Studio 7.6+ fully supports selector strategies supported by Appium except for Android Data Matcher ([Learn more](https://docs.katalon.com/katalon-studio/docs/locators_object_identification.html)).
    >
-   >   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/locator-strategy.png" width=55%>
+   >   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/locator-strategy.png" width=50%>
    > - If you prefer another locator strategy, select your prefered one and generate a new locator > click **Highlight** to see if your newly updated locator can detect the target object on its screen correctly.
 
 6. Similarly in **Device View**, click **SMS Messaging** > click **Tap** in **Available Actions**.
 
    You can see another tap action is added to the list of **Recorded Actions** and **Captured Objects**.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/sms-messaging.png" width=65%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/sms-messaging.png" width=60%>
 
 7. In **Device View**, select the text input area right next to **Recipient** > click **Set Text** in **Available Actions**.
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/text-input.png" width=65%>
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/text-input.png" width=60%>
 
    In the displayed **Text Input** dialog, enter a phone number > click **OK**. 
 You can see a phone number is filled in the text field in **Device View**.
@@ -93,17 +93,19 @@ You can see a phone number is filled in the text field in **Device View**.
    You can see the message is set in the text field in **Device View** and the **Set Text** is added to the 
    **Recorded Actions**.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/set-text2.png" width=65%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/set-text2.png" width=60%>
 
 9. In **Device View**, click **Send** > click **Tap** in **Available Actions**.
 
    > If you launch the **APIDemos.apk** application on a real device with a carrier, the message can be sent successfully.
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/send.png" width=65%>
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/send.png" width=60%>
 
-10. After finishing recording the desired interactions with the AUT, click **OK** to save the captured objects. 
+10. Click on the **Stop** button above the **CONFIGURATIONS** section to close the application and finish recording.
 
-      In the **Folder Browser** dialog, create a new folder or select an existing folder in **Object Repository** > click **OK**.
+      After finishing recording the desired interactions with the AUT, click **Save script** to save the captured objects. 
+
+      In the displayed **Folder Browser** dialog, create a new folder or select an existing folder in **Object Repository** > click **OK**.
 
 11. You can add the recorded test steps to a new test case, append to or overwrite an existing one.
 
@@ -120,7 +122,7 @@ To playback the recorded scenario:
 
 3. In the displayed **Android Devices** dialog, select a device > click **OK**.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/device.png" width=75%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/device.png" width=55%>
 
    Katalon Studio executes the mobile test with the recorded steps accordingly.
 
@@ -160,8 +162,10 @@ Mobile.closeApplication()
 ```
 </details>
 
-Next: [Run Android test case](https://docs.katalon.com/katalon-studio/tutorials/mobile-run-android-test-case.html).
+Next: [Execute and Debug a Test Case](https://docs.katalon.com/katalon-studio/docs/execute-a-test-case-or-a-test-suite.html).
+
+Previous: [Set up Android-mobile-tests](https://docs.katalon.com/katalon-studio/tutorials/mobile-android-setup.html).
 
    See also:
-   * [Create your first iOS test case](http://docs.katalon.com/katalon-studio/tutorials/mobile-create-android-test-case.html).
+   * [Create and Run your first iOS test case](https://docs.katalon.com/katalon-studio/tutorials/mobile-create-ios-test-case.html).
    * [Troubleshoot automated mobile testing](https://docs.katalon.com/katalon-studio/docs/troubleshooting-automated-mobile-testing.html).
