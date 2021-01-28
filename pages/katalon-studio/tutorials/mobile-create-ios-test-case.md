@@ -63,7 +63,6 @@ Go through the "Recording a scenario of counting down Green Tea making time via 
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/recorded-action.png" width=55%>
 
-
    * In **Captured Objects**, **Green Tea** is captured with its properties.
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/captured-object.png" width=55%>
@@ -143,7 +142,7 @@ Mobile.closeApplication()
 ```
 </details>
 
-Next: [Execute and Debug a Test Case](https://docs.katalon.com/katalon-studio/docs/execute-a-test-case-or-a-test-suite.html#execute-a-test-case).
+Next: [Execute and Debug a Test Case](https://docs.katalon.com/katalon-studio/docs/execute-a-test-case-or-a-test-suite.html).
 
 Previous: [[Mobile] iOS Setup](https://docs.katalon.com/katalon-studio/tutorials/mobile-ios-setup.html).
 
