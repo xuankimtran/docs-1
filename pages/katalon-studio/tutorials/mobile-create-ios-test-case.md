@@ -110,6 +110,39 @@ To playback the recorded scenario:
 
 Katalon Studio executes the iOS test with the recorded steps accordingly.
 
+**<details><summary>View the test case in Script mode.</summary>**
+
+```groovy
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+Mobile.startApplication('/Users/thuyngo/Desktop/Project/iOS/App/Coffee Timer 2021-01-27 16-49-52/Apps/Coffee Timer.ipa', true)
+
+Mobile.tap(findTestObject('Object Repository/XCUIElementTypeStaticText - Green Tea (1)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/XCUIElementTypeButton - Start (2)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/XCUIElementTypeButton - Stop (1)'), 0)
+
+Mobile.closeApplication()
+```
+</details>
+
 Next: [Execute and Debug a Test Case](https://docs.katalon.com/katalon-studio/docs/execute-a-test-case-or-a-test-suite.html#execute-a-test-case).
 
 Previous: [[Mobile] iOS Setup](https://docs.katalon.com/katalon-studio/tutorials/mobile-ios-setup.html).
