@@ -36,7 +36,7 @@ Select a product to go to its documentation where you can find its reference, tu
     <tr>
         <td style="width:300px;display:block"><a href="https://docs.katalon.com/katalon-recorder/docs/overview.html"><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-products/Katalon-Recorder-32x24px%402x.png"></a>
             <a href="https://docs.katalon.com/katalon-recorder/docs/overview.html">Katalon Recorder</a>
-        <td> A Selenium IDE-compatible replacement on the latest Chrome and Firefox versions. Katalon Recorder records, plays, debugs, manages and exports automated tests to C#, Java, Ruby, Python, Groovy, or Robot Framework.
+        <td> A Selenium IDE-compatible replacement on the latest Chrome and Firefox versions.
         </td>
     </tr>
     <tr>
