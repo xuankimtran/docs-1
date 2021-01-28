@@ -11,7 +11,7 @@ description:
 ---
 **Katalon Studio** is an all-in-one test automation solution for Web, API, mobile, and desktop built for both beginners and expert testers. 
 
-<table>
+<table class="top-vertical-align-table">
     <thead>
         <tr>
             <th style="width:33%"><strong>Getting Started</strong></th>
