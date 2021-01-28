@@ -84,24 +84,29 @@ You can uninstall a plugin by clicking on the active at Status column. Then choo
 
 ### View trial/purchased plugins
 
-In the Katalon Store, click your name in the bottom-left corner, or click _Sign in_ if you're not signed in already.
+In the Katalon Store, in the top right corner, click **Sign in** and sign in if you have not signed in already.
 
-Click **Manage installed plugins** in the drop-down list menu to view a list of installed plugins. From here, you can view lists of trial/purchased and free plugins.
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/user/kst_click_sign_in.png)
 
+**My Plugins** displays with Installed Plugins and Published Plugins. 
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/user/store-manage-plugin.png)
-
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/user/kst_my_plugins_list.png)
 
 ### Uninstall plugins
 
 _Note: If you uninstall a plugin you've already paid for, you can reinstall it for free_.
 
-In the Katalon Store, do any of the following:
+In the Katalon Store, go to **My Plugins** and **My Plugins** displays with Installed Plugins and Published Plugins. 
 
-*   Click on the _Uninstall_ button on a plugin's detail page
-*   Uninstall the plugin in **Manage installed plugins page**
+![](https://github.com/katalon-studio/docs-images/raw/124a5c1f708c96539dfb0c3b052ae516aa42e43c/katalon-store/docs/user/kst_my_plugin_list.png)
 
-Then click Reload Plugins in Katalon Studio to complete the process. 
+You can uninstall a plugin by clicking on the active at Status column. Then choose **Uninstall**.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/user/kst_uninstall_plugins.png)
+
+Then click Reload Plugins in Katalon Studio to complete the process.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/user/kst_reload_plugin.png)
 
 ## Download plugin packages
 
@@ -116,7 +121,6 @@ To download a package, follow the below steps:
 3. Now can download plugin packages with your preferred versions.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/user/change-log.png)
-
 
 ## Ratings & Reviews
 
