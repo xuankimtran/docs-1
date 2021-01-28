@@ -1,17 +1,12 @@
 ---
-title: "Home"
+title: "Welcome to Katalon Docs"
 sidebar: katalon_studio_docs_sidebar
 permalink: /katalon-studio/docs/index.html
 redirect_from:
     - "/index.html"
     - "/display/KD/"
 ---
-
-Welcome to Katalon Docs! Here, you can find Katalon products documentation, manuals, guidelines, as well as tips and tricks to help you start a successful test automation journey.
-
-> Tips: Search documentation by using the search bar located on the top left corner of this screen.
-
-Select a product to go to its documentation:
+Select a product to go to its documentation where you can find its reference, tutorials, tips and tricks:
 
 <table>
     <tr>
@@ -23,7 +18,7 @@ Select a product to go to its documentation:
     <tr>
         <td style="width:300px;display:block"><a href="https://docs.katalon.com/katalon-studio/docs/overview.html"><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-products/KSE.png"></a>
             <a href="https://docs.katalon.com/katalon-studio/docs/overview.html">Katalon Studio Enterprise</a>
-        <td>An advanced, powerful, and scalable solution for businesses of any size.
+        <td>An advanced, robust, and scalable solution for businesses of any size.
         </td>
     </tr>
     <tr>
@@ -52,6 +47,7 @@ Select a product to go to its documentation:
     </tr>
 </table>
 
+> Tips: Search documentation by using the search bar located on the top left corner of this screen.
 
 **Other Documentation**: [Katalon Studio Javadoc](https://docs.katalon.com/javadoc/index.html)
 
