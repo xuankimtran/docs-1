@@ -20,7 +20,7 @@ description:
     </thead>
     <tbody>
         <tr>
-            <td>Connected device is not displayed in 'Device Name' list</td>
+            <td>Connected device is not displayed in 'Device Name' list.</td>
             <td>
                 <strong>iOS</strong>
                 <ul>
@@ -48,7 +48,7 @@ idevice_id -l</code></pre>
             </td>
         </tr>
         <tr>
-            <td>xcodebuild exited with code&nbsp;'65'&nbsp;and signal&nbsp;'null'</td>
+            <td>xcodebuild exited with code&nbsp;'65'&nbsp;and signal&nbsp;'null'.</td>
             <td>
                 <p>Your .ipa application and/or WebDriverAgent is not signed correctly.</p>
                 Solutions:
@@ -59,20 +59,20 @@ idevice_id -l</code></pre>
             </td>
         </tr>
         <tr>
-            <td>Xcode fails to create a provisioning profile for the <code>WebDriverAgentRunner</code>&nbsp;target:</td>
+            <td>Xcode fails to create a provisioning profile for the <code>WebDriverAgentRunner</code>&nbsp;target.</td>
             <td>
                 <p>This necessitates manually changing the bundle id for the target by going into the "Build Settings" tab, and changing the "Product Bundle Identifier" from&nbsp;<code>com.facebook.WebDriverAgentRunner</code>&nbsp;to something that Xcode will accept.</p>
             </td>
         </tr>
         <tr>
-            <td>Fail to start Appium server in 30 seconds</td>
+            <td>Fail to start Appium server in 30 seconds.</td>
             <td>Katalon Studio can't start Appium server within 30 seconds (default timeout). You can increase this timeout value from this settings: Project&nbsp;→ Settings&nbsp;→ Execution&nbsp;→ Default&nbsp;→ Default wait for elements timeout (in seconds).</td>
         </tr>
         <tr>
             <td>
                 <ul>
-                    <li>Fail to start the Appium server in 60 seconds</li>
-                    <li>Original error: 'x.x.SplashActivity' never started</li>
+                    <li>Fail to start the Appium server in 60 seconds.</li>
+                    <li>Original error: 'x.x.SplashActivity' never started.</li>
                 </ul>
             </td>
             <td>
@@ -88,7 +88,7 @@ idevice_id -l</code></pre>
             </td>
         </tr>
         <tr>
-            <td>Carthage&nbsp;is not found</td>
+            <td>Carthage&nbsp;is not found.</td>
             <td>Known issue of Appium 1.7 with Xcode 9:&nbsp;<a class="external-link" href="https://github.com/appium/appium/issues/9344" rel="nofollow">https://github.com/appium/appium/issues/9344</a>, so please use Katalon Studio 5.1.0.2+ to avoid this message.</td>
         </tr>
         <tr>
@@ -102,7 +102,7 @@ idevice_id -l</code></pre>
             </td>
         </tr>
         <tr>
-            <td>com.kms.katalon.core.appium.exception.AppiumStartException: Appium directory is not set</td>
+            <td>com.kms.katalon.core.appium.exception.AppiumStartException: Appium directory is not set.</td>
             <td>
                 <p> When running tests with <strong>Katalon Runtime Engine</strong>, by default Katalon checks the Appium directory at:</p>
                 <ul>
@@ -117,7 +117,7 @@ idevice_id -l</code></pre>
             </td>
         </tr>
         <tr>
-            <td>java.util.concurrent.ExecutionException: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: timeout of 240000ms exceeded</td>
+            <td>java.util.concurrent.ExecutionException: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: timeout of 240000ms exceeded.</td>
             <td>
                 <p>Solutions:</p>
                     <ul>
