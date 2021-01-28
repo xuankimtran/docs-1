@@ -109,5 +109,3 @@ To playback the recorded scenario:
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/ios-devices-list.png" width=55%>
 
 Katalon Studio executes the iOS test with the recorded steps accordingly.
-
-
