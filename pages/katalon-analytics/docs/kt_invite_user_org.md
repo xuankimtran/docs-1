@@ -2,8 +2,17 @@
 title: "How to invite the user into an Organization"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/kt_invite_user_org.html
-
+redirect_from:
+    - "/katalon-analytics/docs/manage-org.html"
+    - "/katalon-analytics/docs/kt-user-role-permission.html"
+    - "/display/KA/User+Management/"
+    - "/display/KA/User%20Management/"
+    - "/x/lQjR/"
+    - "/katalon-analytics/docs/user-management/"
+    - "/katalon-analytics/docs/setup-org-team-project/"
+    - "/katalon-analytics/docs/manage-org.html"
 ---
+
 This tutorial shows you how to create teams and projects.
 
 > You need a Katalon account. Register [here](https://www.katalon.com/sign-up/) if you don't have one.
