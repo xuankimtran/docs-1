@@ -2,6 +2,15 @@
 title: "How to create Katalon TestOps Organization"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/kt-create-org.html
+redirect_from:
+    - "/katalon-analytics/docs/manage-org.html"
+    - "/katalon-analytics/docs/kt-user-role-permission.html"
+    - "/display/KA/User+Management/"
+    - "/display/KA/User%20Management/"
+    - "/x/lQjR/"
+    - "/katalon-analytics/docs/user-management/"
+    - "/katalon-analytics/docs/setup-org-team-project/"
+    - "/katalon-analytics/docs/manage-org.html"
 
 ---
 This tutorial shows you how to set up an Organization properly in Katalon TestOps. One team member can complete these steps to invite all the others to an Organization for working on projects.
