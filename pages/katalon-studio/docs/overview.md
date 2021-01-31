@@ -9,19 +9,185 @@ redirect_from:
     - "/katalon-studio/"
 description:
 ---
-**Katalon Studio** is a smart, robust, and scalable automation solution built for both beginners and expert testers everywhere. Katalon Studio revolutionizes the use of open-source test automation frameworks such as Selenium and Appium by eliminating their technical complexities. This revolution allows developers and QAs to set up, create, run, report, and manage their automated tests for Web, Mobile, and API Testings efficiently. Starting from [Katalon Studio 7.0](https://docs.katalon.com/katalon-studio/new/version-70.html), Desktop App Testing built upon WinAppDrivers (written and maintained by Microsoft) is available for users to create automated tests for Windows Desktop Applications.
+**Katalon Studio** is an all-in-one test automation solution for Web, API, mobile, and desktop built for both beginners and expert testers. 
 
-## Documentations
-
-Our documentation center provides you with guides, tutorials, and reference materials. This resource helps you get to know and familiarize with Katalon Studio features. Additionally, this knowledge base is critical to your configurations, features utilization, and successfully creating automation test scripts.
-
-* The Katalon team has prepared some [**sample projects**](https://github.com/katalon-studio-samples) for you to try out before testing your products.
-* **Test Design** contains detailed information on various components of a test case/test suite, and Katalon Studio features.
-* After designing a test, **Execution and Reporting** guides you on how to run your test scripts as well as provide a comprehensive view and insights on your test results. Before executing your tests, remember to check Katalon Studio's supported [execution environments](/display/KD/Execute+a+test+case).
-You're recommended to use our beta product, **[Katalon TestOps](https://analytics.katalon.com)**, a set of cloud-based services to help you streamline software quality by continuous test execution and intelligent analytics.
-* **[Working with Runtime Engine](https://docs.katalon.com/katalon-studio/docs/intro-RE.html)** is a must-read document section for those who execute test scripts in any CI/CD infrastructure.
-* **Integration** describes in more detail with which tools Katalon Studio can integrate. To extend Katalon Studio's capabilities, please check out our [Store](https://store.katalon.com/) for more plugins and add-ons.
-
-## Community Support
-
-[The Katalon Community](https://forum.katalon.com/) with fellow users and experts can help you with any issues while using Katalon products. You can also suggest new features for both Katalon Studio and Katalon TestOps, as well as report bugs in this forum. The Katalon team welcomes and appreciates your suggestions and contributions to make our products better and better.
+<table class="top-vertical-align-table">
+    <thead>
+        <tr>
+            <th style="width:33%"><strong>Getting Started</strong></th>
+            <th style="width:33%"><strong>Product Evaluation Center</strong></th>
+            <th><strong>Latest Version</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <ul>
+                    <li><a href="https://docs.katalon.com/katalon-studio/docs/getting-started.html">Installation</a> &<a
+                            href="https://docs.katalon.com/katalon-studio/docs/license.html"> Licensing</a>
+                    <li><a href="https://docs.katalon.com/katalon-studio/docs/quick_start.html">Tutorial</a>
+                    <li><a href="https://docs.katalon.com/katalon-studio/docs/sample-projects.html">Sample Projects</a>
+                    </li>
+                </ul>
+            </td>
+            <td>
+                <ul>   
+                <li><a href="https://docs.katalon.com/katalon-studio/docs/product-availability-matrix.html">Supported Technologies</a>
+                    <li><a href="https://docs.katalon.com/katalon-studio/docs/unique-capabilities.html">Unique Capabilities </a>
+                    <li><a href="https://d1h3p5fzmizjvp.cloudfront.net/other-resources/Katalon-License-Guide-112020.pdf">Choose right license</a>
+                    </li>    
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li><a href="https://docs.katalon.com/katalon-studio/new/what-is-new.html">What's new in
+                            v7.9?</a>
+                    <li><a href="https://www.katalon.com/download/">Download</a>
+                    </li>
+                </ul>
+            </td>
+    </tbody>
+    <thead>
+        <tr>
+            <th><strong>Web UI Testing</strong></th>
+            <th><strong>Mobile Testing</strong></th>
+            <th><strong>Support</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <ul>
+                    <li><a
+                            href="https://docs.katalon.com/katalon-studio/docs/introduction-to-web-testing.html">Overview</a>
+                    <li><a href="https://docs.katalon.com/katalon-studio/docs/record-web-utility.html">Tutorial</a>
+                    <li>Test Migration from<a
+                            href="https://docs.katalon.com/katalon-studio/docs/selenium-testng-junit-migration.html">
+                            Selenium</a> &<a
+                            href="https://docs.katalon.com/katalon-studio/docs/import-selenium-ide.html"> Selenium
+                            IDE</a></li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li><a href="https://docs.katalon.com/katalon-studio/tutorials/mobile-android-setup.html">Tutorial
+                            for Android</a>
+                    <li><a href="https://docs.katalon.com/katalon-studio/tutorials/mobile-ios-setup.html">Tutorials
+                            for iOS</a>
+                    <li><a
+                            href="https://docs.katalon.com/katalon-studio/docs/troubleshooting-automated-mobile-testing.html">Troubleshooting</a>
+                    </li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                <li><a href="https://www.katalon.com/help-center/">Help Center</a>
+                    <li><a href="https://forum.katalon.com/">Forum</a> &<a
+                            href="https://gitter.im/katalon-studio/Lobby"> Chat</a>
+                    <li><a href="https://www.katalon.com/webinars/">Webinars</a></li>     
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+    <thead>
+        <tr>
+            <th><strong>API/ Web service</strong></th>
+            <th><strong>Windows Testing</strong></th>
+            <th><strong>More on Testing</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <ul>
+                    <li><a
+                            href="https://docs.katalon.com/katalon-studio/docs/introduction_api_testing.html">Overview</a>
+                    <li>Tutorial for<a href="https://docs.katalon.com/katalon-studio/docs/soap.html"> SOAP API
+                            Testing</a>
+                    <li>Tutorial for<a href="https://docs.katalon.com/katalon-studio/docs/restful.html"> REST API
+                            Testing</a>
+                    <li><a
+                            href="https://docs.katalon.com/katalon-studio/docs/introduction-to-web-services-test-object.html">Test
+                            Requests Migration</a> from<a
+                            href="https://docs.katalon.com/katalon-studio/docs/import-openapi30.html"> OpenAPI</a>,<a
+                            href="https://docs.katalon.com/katalon-studio/docs/import-soapui.html"> SoapUI</a>,<a
+                            href="https://docs.katalon.com/katalon-studio/docs/import-postman.html"> Postman</a>,…
+                    </li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li><a
+                            href="https://docs.katalon.com/katalon-studio/docs/introduction-desktop-app-testing.html">Overview</a>
+                    <li><a href="https://docs.katalon.com/katalon-studio/docs/setup-winappdriver.html">Set up
+                            WinAppDriver</a>
+                    <li><a href="https://docs.katalon.com/katalon-studio/docs/windows-recorder-tutorials.html">Tutorial
+                            using Window Recorder</a>
+                    <li><a href="https://docs.katalon.com/katalon-studio/docs/windows-native-record.html">Tutorial using
+                            Native Windows Recorder</a> (Windows only)
+                    </li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li><a href="https://docs.katalon.com/katalon-studio/docs/parameterize-web-objects.html">Parameterizing
+                            Test Objects</a>
+                    <li><a href="https://docs.katalon.com/katalon-studio/docs/self-healing.html">Self-healing
+                            mechanism</a>
+                    <li><a href="https://docs.katalon.com/katalon-studio/docs/time-capsule.html">Time Capsule</a>
+                    <li><a href="https://docs.katalon.com/katalon-studio/docs/web-image-based-object-recognition.html">Image-based
+                            testing</a>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+    <thead>
+        <tr>
+            <th><strong>Data-driven Testing</strong></th>
+            <th><strong>BDD Tests</strong></th>
+            <th><strong>Continuous Testing</strong></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <ul>
+                    <li><a href="https://docs.katalon.com/katalon-studio/docs/ddt.html">Overview</a>
+                    <li><a href="https://docs.katalon.com/katalon-studio/docs/test-case-variables.html">Define
+                            Variables</a>
+                    <li><a href="https://docs.katalon.com/katalon-studio/docs/manage-test-data.html">Manage and Assign
+                            Test Data</a>
+                    <li><a href="https://docs.katalon.com/katalon-studio/docs/run-test-case-external-data.html">Data
+                            Binding</a>
+                    </li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li><a href="https://docs.katalon.com/katalon-studio/docs/cucumber-features-file.html">Overview</a>
+                    <li><a
+                            href="https://docs.katalon.com/katalon-studio/docs/cucumber-features-file.html#add-feature-files">Create
+                            BDD Scenarios</a>
+                    <li><a href="https://docs.katalon.com/katalon-studio/docs/cucumber-features-file.html#define-steps">Define
+                            Test Steps</a>
+                    <li><a
+                            href="https://docs.katalon.com/katalon-studio/docs/cucumber-features-file.html#run-a-feature-file">Run
+                            BDD Tests</a>
+                    </li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li><a href="https://docs.katalon.com/katalon-studio/docs/jira-integration.html">Jira
+                            Integration</a>
+                    <li><a href="https://docs.katalon.com/katalon-studio/docs/jenkins-plugin-windows.html">Jenkins
+                            Integration</a>
+                    <li><a href="https://docs.katalon.com/katalon-studio/docs/azure-devops-extension.html">Azure DevOps Integration</a>
+                    <li><a href="https://docs.katalon.com/katalon-analytics/docs/overview.html">Katalon TestOps
+                            Integration</a></li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+</table>

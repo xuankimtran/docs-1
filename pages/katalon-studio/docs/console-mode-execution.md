@@ -11,16 +11,22 @@ redirect_from:
    - "/katalon-studio/tutorials/executing_console_mode.html"
 description:
 ---
+You can execute an automation test without launching Katalon Studio by using command-line mode execution.
 
-> From version **7.0.0**, you need a Runtime Engine (RE) [license](https://docs.katalon.com/katalon-studio/docs/license.html) to activate and run Katalon Studio (KS) or Katalon Studio Enterprise (KSE) in console mode.
+**Prerequisites:**
+
+* You need a Runtime Engine (RE) [license](https://docs.katalon.com/katalon-studio/docs/license.html) to activate and run Katalon Studio (KS) or Katalon Studio Enterprise (KSE) in console mode.
+* You need to download the [Katalon Runtime Engine package](https://katalon.com/download).
+
 >
 > Katalon Studio only supports **Chrome, Firefox, and Remote** options for console mode execution using the **Linux** version.
+>
+> From version **7.9** onwards, you can change default JRE 8 to higher versions in console mode. [Learn more](https://docs.katalon.com/katalon-studio/docs/change-default-JRE-8-to-higher-versions.html)
 
-You can execute an automation test without launching Katalon Studio by using command-line mode execution.
 
 ## Execute Katalon Studio in console mode
 
-> From Katalon Studio version **7.0.0**, you need to download the [Katalon Runtime Engine package](https://katalon.com/download). The Katalon launcher (`katalon.exe`) is replaced by `katalonc.exe`.
+> The Katalon launcher (`katalon.exe`) is replaced by `katalonc.exe`.
 
 1. Open the command prompt and navigate to the folder of your Katalon Studio build: `katalonc.exe` (Windows), Applications folder (Mac OS), or `katalonc` (Linux) file.
 2. Enter the following syntax to execute automation test:
@@ -71,8 +77,8 @@ Here's the list of options supported for the `katalonc` commands for Katalon Stu
 <table>
    <thead>
       <tr>
-         <th>Katalonc Command-line Option</th>
-         <th>Description</th>
+         <th style="width:40%">Katalonc Command-line Option</th>
+         <th style="width:30%">Description</th>
          <th>Mandatory?</th>
       </tr>
    </thead>
@@ -233,8 +239,8 @@ Here's the list of options supported for the `katalonc` commands for Katalon Stu
 <table>
    <thead>
       <tr>
-         <th>Katalonc Command-line Option</th>
-         <th>Description</th>
+         <th style="width:40%">Katalonc Command-line Option</th>
+         <th style="width:30%">Description</th>
          <th>Mandatory?</th>
       </tr>
    </thead>
@@ -438,8 +444,8 @@ katalonc -noSplash -runMode=console -projectPath="C:\Users\Katalon Studio\Projec
 <table>
    <thead>
       <tr>
-         <th>Katalonc Command-line Option</th>
-         <th>Description</th>
+         <th style="width:40%">Katalonc Command-line Option</th>
+         <th style="width:30%">Description</th>
          <th>Mandatory?</th>
       </tr>
    </thead>

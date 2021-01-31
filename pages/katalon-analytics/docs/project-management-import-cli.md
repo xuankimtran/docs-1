@@ -12,7 +12,7 @@ description: How to import test results using CLI
 
 Katalon Report Uploader is a utility to upload reports to Katalon TestOps. At this moment it supports JUnit, Katalon Studio, and Katalon Recorder report format. It can be used with CLI, Docker, Github Action, and other cloud CIs.
 
-## CLI usage
+## Usage for CLI
 
 1. Download [Reports Uploader](https://github.com/katalon-studio/report-uploader/releases) and install [Java JRE](https://www.java.com/en/download/manual.jsp) and [Java JDK](https://www.oracle.com/technetwork/java/javase/downloads/index.html).
 
@@ -30,7 +30,7 @@ java -jar katalon-report-uploader-0.0.5.jar --projectId=3 --path="d:\katalon-rep
 * `type`: One of the values "katalon", "junit", or "katalon_recorder".
 * `server`: (**Optional**) The Katalon TestOps server endpoint, by default it is `https://analytics.katalon.com`.
 
-## Docker usage
+## Usage for Docker
 
 ### Environment variables
 
@@ -58,7 +58,11 @@ The path of the report folder. The physical report folder should be mounted as a
 docker run -t --rm -v c:\users\alex\data\report-uploader\junit-report-sample:/katalon/report -e PASSWORD=<KATALON_API_KEY> -e PROJECT_ID=72642 -e TYPE=junit -e REPORT_PATH=/katalon/report katalonstudio/report-uploader:0.0.7.11
 ```
 
-## Cloud CIs usage
+## Usage for Continuous Integration (CI) systems
+
+### Jenkins Pipeline
+
+Example: https://github.com/katalon-studio-samples/report-uploader-sample/blob/master/Jenkinsfile
 
 ### Github Action
 
@@ -76,18 +80,18 @@ Example:
       REPORT_PATH: ${{ github.workspace }}/junit-report-sample
 ```
 
-## CircleCI
+### CircleCI
 
 Example: https://github.com/katalon-studio-samples/report-uploader-sample/blob/master/.circleci/config.yml.
 
-## Gitlab CI
+### Gitlab CI
 
 Example: https://github.com/katalon-studio-samples/report-uploader-sample/blob/master/.gitlab-ci.yml.
 
-## AWS Codebuild
+### AWS Codebuild
 
 Example: https://github.com/katalon-studio-samples/report-uploader-sample/blob/master/buildspec.yml.
 
-## Azure DevOps Pipelines
+### Azure DevOps Pipelines
 
 Example: https://github.com/katalon-studio-samples/report-uploader-sample/blob/master/azure-pipelines.yml.
