@@ -17,7 +17,7 @@ description:
 
 ## Execution Profile
 
-**Execution Profile** helps cover multiple and different environments to execute your automation test scripts with ease. You can configure testing environment in terms of data and behaviors through **global variables**. A **global variable** is a variable defined in execution profile and can be used in any test cases in the project.
+**Execution Profile** helps cover multiple and different environments to execute your automation test scripts with ease. You can configure the testing environment in terms of data and behaviors through **global variables**. A **global variable** is a variable defined in the execution profile and can be used in any test cases in the project.
 
 ### Create a profile
 
@@ -36,7 +36,7 @@ In a profile, you need to define its content via adding variables. Do as follows
 
 ### Set default profile at project level
 
-You may have multiple profiles for executing your tests, for instance, staging and production profiles with corresponding global variables. It would be convenient if you can set a profile as your default one in every execution of a project. Starting from **version 7.4.2**, you can configure a default profile at project level.
+You may have multiple profiles for executing your tests, for instance, staging and production profiles with corresponding global variables. It would be convenient if you can set a profile as your default one in every execution of a project. Starting from **version 7.4.2**, you can configure a default profile at the project level.
 
 Right-click on your desired execution profile and select **Set as default Execution Profile**.
 
@@ -89,7 +89,7 @@ In the **Script view**, profiles are in sync once a similar list of **Global Var
 
 By default, Katalon Studio uses the **default** profile for executing tests, as indicated on the top right corner of the screen. You can select any available execution profiles in the drop-down menu.
 
-There are various ways to use your profile, the following section shows you an example. Based on testing environments, there are three profiles: **local**, **staging** and **production**.
+The following section shows you a usage example. Based on testing environments, there are three profiles: **local**, **staging**, and **production**.
 
 - **For test cases or test suites**: Select your desired profile on the top right > **all Global Variables** within your current project automatically uses these values.
 
@@ -113,7 +113,7 @@ There are various ways to use your profile, the following section shows you an e
 
 ### Use a Global Variable
 
-Any test case across a project can use global variables. For example, input data for keywords in [Manual View](/display/KD/Manual+View) or params when [binding Data for Test Execution](/display/KD/Design+a+Test+Suite#DesignaTestSuite-VariableBinding).
+Any test cases across a project can use global variables - for example, input data for keywords in [Manual View](/display/KD/Manual+View) or params when [binding Data for Test Execution](/display/KD/Design+a+Test+Suite#DesignaTestSuite-VariableBinding).
 
 ```groovy
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -192,7 +192,7 @@ You can define environment variable (with path to external configuration or prop
 }
 ```
 
-It’s possible to add getter and/or setter as new methods to GlobalVariable class or add new field. Then in the script, you can use GlobalVariable.VarName where the VarName is your new variable.
+It’s possible to add getter and/or setter as new methods to the `GlobalVariable` class or add a new field. Then in the script, you can use GlobalVariable.VarName where the VarName is your new variable.
 
 ```groovy
 CustomKeywords.'helper.addGlobalVariable'('localURL', 'katalon.com')
