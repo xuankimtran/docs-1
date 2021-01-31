@@ -34,7 +34,7 @@ Below are several specific benefits of using Git for your Katalon Studio project
   * As daily work can be committed to the remote Git server, every team member working on a project has a full-fledged copy on his/her machine, including the project's complete change history.
 * If any backup breaks down: restore it using any team member's local repository or Git repository.
 
-By using Git, a repository can be shared with multiple members in a team to help to improve the team's collaboration and productivity.
+Using Git, a repository can be shared with multiple team members to help improve the team's collaboration and productivity.
 
 ## Katalon Studio integration with Git
 
@@ -44,7 +44,7 @@ This tutorial presents a typical workflow of Git integration with Katalon Studio
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/git_integration_introduction/Katalon-and-Git.png" width=70%>
 
-Following are supported source-code-management softwares that you can intergrate with Katalon Studio:
+Following are supported source-code-management software that you can integrate with Katalon Studio:
 
 - Github.
 - Gitlab.
@@ -122,7 +122,7 @@ After enabling Git Integration, you can clone an existing **Git repository** int
 
     Where:
 
-    * **Directory**: the local storage location you want to store your Git's repository.
+    * **Directory**: the local storage location you want to store your Git repository.
     * **Initial branch**: all selected branches from the previous step are displayed here. Select the branch to be used initially from this list.
 
 5. Click **Finish** when you are done. Katalon Studio automatically opens your cloned project.
@@ -280,7 +280,7 @@ Before doing any push, you have to commit your changes first.
 
 - In a source control system like Git, conflicts occur when two or more people make changes to the same file concurrently. The conflicts may appear at a member's local repository or Git remote repository. 
 
-- In order to avoid conflicts, the team must collaborate following several Git practices. For example, before **pushing** new source code to the Git remote repository, one must remember to **fetch** the latest version from Git remote repository, **resolve** any conflicts and **merge** the code with the local version.
+- To avoid conflicts, the team must collaborate following several Git practices. For example, before **pushing** new source code to the Git remote repository, one must remember to **fetch** the latest version from Git remote repository, **resolve** any conflicts, and **merge** the code with the local version.
 
 - The chart below demonstrates how conflicts may occur when Tom and Emma are working on the same project. The conflicts occur when Tom and Emma try to push new code to the Git remote repository without updating the changes from each other.
 
