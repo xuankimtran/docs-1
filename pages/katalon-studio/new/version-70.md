@@ -23,14 +23,14 @@ description: Release note 7.x
 
 ### Fixes
 
-* Bug: [Regression][7.9.0] Cannot run test step of test case with current opened of web driver when having assertion step.
-* Bug: [Regression][7.9.0] Cannot export reports with menu on the top-right of window in report viewer.
-* Bug: [KSE] Prevent loading basic-report-plugin in Plugins folder.
+* Bug: Cannot run a step in a test case with current opened of web driver when having assertion step.
+* Bug: Cannot export reports with the Export Menu on windows.
+* Bug: Cannot start iOS apps.
+* Bug: [Katalon Studio Enterprise] Prevent loading basic-report-plugin in Plugins folder.
 * Bug: Error message displayed when users change Search tab into another area by drag/drop.
 * Bug: Dynamic Notification does not display new messages.
-* Bug: [Regression] Unable to start iOS apps.
-* Bug: [7.9.0] Ctrl + Shift + O makes error script while scripting.
-* Bug: [Regression 7.8.2][KSE] Generate command contains argument called apiKeyOnPremise make KRE cannot run.
+* Bug: An issue of using Ctrl + Shift + O that makes error script while scripting.
+* Bug: [Katalon Studio Enterprise] An issue of generating CLI command that contains argument called apiKeyOnPremise that make Katalon Runtime Engine cannot run.
 
 ## Pre-Release - Version 7.9
 
