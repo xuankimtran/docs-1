@@ -298,7 +298,7 @@ Before doing any push, you have to commit your changes first.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/git_conflict_resolve/Resolve-Git-conflict-2.png" width=70%>
 
-- Unfortunately, since Emma had pushed the code before Tom, so the version of code in Git was different from the version of code in Tom's local repository, and therefore, Git rejected Tom's  "push" action.
+- Unfortunately, since Emma had pushed the code before Tom, so the version of code in Git was different from the version of code in Tom's local repository, and therefore, Git rejected Tom's  push action.
 
 **Question: What should Tom do to push its change to the Git remote control?**
 
@@ -314,7 +314,7 @@ Before doing any push, you have to commit your changes first.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/git_conflict_resolve/Resolve-Git-conflict-5.png" width=70%>
 
-- Recall that the comments were added by Tom and Emma, and the "conflict" is now on Tom's Katalon Studio project. Everything within **"<<<<<<< HEAD"** and **"======="** is the change from Tom. And, everything within **"======="** and **">>>>>>\> branch 'master'…"** comes from Emma, which is currently in the Git remote repository.
+- Recall that the comments were added by Tom and Emma, and the conflict is now on Tom's Katalon Studio project. Everything within **"<<<<<<< HEAD"** and **"======="** is the change from Tom. And, everything within **"======="** and **">>>>>>\> branch 'master'…"** comes from Emma, which is currently in the Git remote repository.
 
 - Now Tom has to decide which change is correct, or both are correct or wrong. Tom has to replace these lines of code with the correct ones. For example, "THIS IS THE CORRECT COMMENT":
 
