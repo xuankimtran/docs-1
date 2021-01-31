@@ -26,9 +26,9 @@ description: Release note 7.x
 * Bug: Cannot run a test case having an assertion step with the current web driver.
 * Bug: [Windows Testing] Cannot export reports with the Export Menu.
 * Bug: Cannot start iOS apps on real devices.
-* Bug: [Katalon Studio Enterprise] Prevent loading basic-report-plugin in Plugins folder.
+* Bug: [Katalon Studio Enterprise] Prevent loading the basic-report-plugin in Plugins folder.
 * Bug: [Katalon Studio Enterprise] An issue of generating CLI command that prevents Katalon Runtime Engine from running.
-* Bug: An issue of displaying an error message when users drag or drop the Search tab.
+* Bug: An issue of displaying an error message when dragging or dropping the Search tab.
 * Bug: An issue of not showing new messages in Dynamic Notification.
 * Bug: An issue of using Ctrl + Shift + O that makes error script while scripting.
 
