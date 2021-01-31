@@ -14,6 +14,24 @@ redirect_from:
 description: Release note 7.x
 ---
 
+## Version 7.9.1
+
+### Improvements
+
+* Support Chrome 88. 
+* Support Microsoft Edge (Chromium) 88.
+
+### Fixes
+
+* Bug: [Regression][7.9.0] Cannot run test step of test case with current opened of web driver when having assertion step.
+* Bug: [Regression][7.9.0] Cannot export reports with menu on the top-right of window in report viewer.
+* Bug: [KSE] Prevent loading basic-report-plugin in Plugins folder.
+* Bug: Error message displayed when users change Search tab into another area by drag/drop.
+* Bug: Dynamic Notification does not display new messages.
+* Bug: [Regression] Unable to start iOS apps.
+* Bug: [7.9.0] Ctrl + Shift + O makes error script while scripting.
+* Bug: [Regression 7.8.2][KSE] Generate command contains argument called apiKeyOnPremise make KRE cannot run.
+
 ## Pre-Release - Version 7.9
 
 > Download [here](https://github.com/katalon-studio/katalon-studio/releases/tag/v7.9.0.rc)
