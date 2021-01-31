@@ -288,7 +288,7 @@ Before doing any push, you have to commit your changes first.
 
 ### Resolve Git conflicts using Katalon Studio
 
-**The situation:**
+**Given situation:**
 
 - Tom and Emma are working on the same test case in a test project. Emma added a new comment ("EMMA ADDED THIS COMMENT"), then committed and pushed the change to the Git remote repository.
 
@@ -302,7 +302,7 @@ Before doing any push, you have to commit your changes first.
 
 **Question: What should Tom do to push its change to the Git remote control?**
 
-- First, Tom has to "pull" the code from the Git remote repository to his local machine.
+- First, Tom has to pull the code from the Git remote repository to his local machine.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/git_conflict_resolve/Resolve-Git-conflict-3.png" width=70%>
 
@@ -310,7 +310,7 @@ Before doing any push, you have to commit your changes first.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/git_conflict_resolve/Resolve-Git-conflict-4.png" width=70%>
 
-- In the **Script** mode of the test case "**TC2_Verify Successful Appointment**" in Tom's Katalon Studio project, there are errors with indicators such as "<<<<<<<" (convention from Git). Let's look at the script more carefully:
+- In the **Script** mode of the test case **TC2_Verify Successful Appointment** in Tom's Katalon Studio project, there are errors with indicators such as "<<<<<<<" (convention from Git). Let's look at the script more carefully:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/git_conflict_resolve/Resolve-Git-conflict-5.png" width=70%>
 
