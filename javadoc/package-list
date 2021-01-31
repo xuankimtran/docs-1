@@ -2,6 +2,7 @@ com.kms.katalon.core.annotation
 com.kms.katalon.core.annotation.internal
 com.kms.katalon.core.ast
 com.kms.katalon.core.checkpoint
+com.kms.katalon.core.common
 com.kms.katalon.core.configuration
 com.kms.katalon.core.constants
 com.kms.katalon.core.context
@@ -13,6 +14,7 @@ com.kms.katalon.core.driver
 com.kms.katalon.core.driver.internal
 com.kms.katalon.core.event
 com.kms.katalon.core.exception
+com.kms.katalon.core.execution
 com.kms.katalon.core.export
 com.kms.katalon.core.helper
 com.kms.katalon.core.helper.screenrecorder
@@ -23,10 +25,13 @@ com.kms.katalon.core.keyword.internal
 com.kms.katalon.core.logging
 com.kms.katalon.core.logging.logback
 com.kms.katalon.core.logging.model
+com.kms.katalon.core.logging.testops
 com.kms.katalon.core.main
+com.kms.katalon.core.mobile.common
 com.kms.katalon.core.mobile.constants
 com.kms.katalon.core.mobile.contribution
 com.kms.katalon.core.mobile.driver
+com.kms.katalon.core.mobile.exception
 com.kms.katalon.core.mobile.helper
 com.kms.katalon.core.mobile.keyword
 com.kms.katalon.core.mobile.keyword.builtin
@@ -81,3 +86,5 @@ com.kms.katalon.core.windows.keyword.builtin
 com.kms.katalon.core.windows.keyword.contribution
 com.kms.katalon.core.windows.keyword.exception
 com.kms.katalon.core.windows.keyword.helper
+cucumber.runtime.formatter
+cucumber.runtime.io

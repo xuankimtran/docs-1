@@ -1,60 +1,40 @@
 ---
-title: "Create and Run a Test Plan"
+title: "Schedule Test Runs"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/create-plan.html 
 description: 
 ---
-## Create a new Test Plan
 
-> **Prerequisites**:
->
-> * Agents or Test Environments must have been configured for test execution. To start a local agent or create other test environments, please visit the below documents:
->   - [Start an Agent](https://docs.katalon.com/katalon-analytics/docs/agents.html); or
->   - [Create a CircleCI test environment](https://docs.katalon.com/katalon-analytics/docs/circleci.html); or
->   - [Create an EKS test environemnt](https://docs.katalon.com/katalon-analytics/docs/aws-eks.html).
->
-> * You have created a test project in **Test Projects**.
+## Prerequisites
 
+- Have all Configurations set up for Remote Execution. [Learn more](katalon-analytics/docs/test-run-config.html)
 
-To create a new test plan, please follow the below instruction:
+## View Test Runs
 
-1. In your project, select **Plan**.
-2. Click **Create Plan** on the top right corner.
-3. In **Configure a Plan**, enter required details to define your test execution plan:
+A list of Test Runs can be found in **Test Planning** section where you can see each Test Run in a calendar view.
 
-  * **Plan Name**: It's recommended to give a name that has a meaning.
-  * **Test Project**: Select a test project in the drop-down list.
-  * **Type**:
-    * **Test Suite Collection**: Select a Test Suite or a Test Suite Collection that you want to execute.
-    * **Katalon Command**: Enter a command to execute Katalon Studio tests. This command can be generated from [Katalon Studio command builder](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#command-builder).
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-scheduler/test-run-calendar.png" width="" height="">
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-scheduler/ci-command.png" width="" height="">
+Click on each Test Run in the calendar to view summary.
 
-    * **Generic Command**: Enter a command to execute this test with another tool.
-  * **Cloud type**: Select the test environment which you have already configured: Local Agent or other Test Environments such as CircleCI or EKS. The following screenshots are examples of CircleCI configuration.
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-scheduler/test-run-details.png" width="" height="">
 
-  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-scheduler/config-plan-1.png" width="" height="">
+## Schedule Test Runs
 
-  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-scheduler/config-plan-2.png" width="" height="">
+You can schedule Test Runs by clicking on *"Schedule Test Run"* button.
 
-  * **Katalon Studio Version** when you want the Agent to download Katalon Studio automatically.
-  Or you can use **Pre-Installed Katalon Studio Location** to browse to Katalon Studion on your machine. This option is recommended in network restricted environments.
+Follow the instruction in the setup wizard and click *"Create"* to finish creating a new schedule for your Test Runs.
 
-4. Select an Agent in the drop-down list. If you have just configured an Agent, please wait for a while for it to be registered with Katalon server.
-5. Click **Create**. The newly created test plan will be displayed on the **Plan** view.
+After creating schedules, scheduled Test Runs can be found "*Test Run Types"* section in **Test Planning**. Test Run Type is a collection of Test Runs having the same configurations. This sectiion allows you an ability to view the list of Test Run with similar configurations (Test Environment, Trigger, Script Repository).
 
-## Run a Test Plan
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-scheduler/test-run-type.png" width="" height="">
 
-After a test plan has been created, you can run it manually or schedule your tests.
+## Next steps
 
-To run your test plan, in your project, go to **Plan** > click on the icon as below.
+- [Execute Test Runs by a Trigger](/katalon-analytics/docs/kt-scheduler.html)
+- [Execute Test Run manually](/katalon-analytics/docs/execute-test-run.htm)
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/create-plan/run-plan.png" width="" height="">
+## Related topics
 
-You can also run your test plan by go to the test plan details page and click on **Run** button.
-
-After you have finished running the test plan, you can view the status in the details page. 
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/create-plan/run-details.png" width="" height="">
-
-Refer to [this document](https://docs.katalon.com/katalon-analytics/docs/kt-scheduler.html) to learn how to schedule a test plan.
+- [Set up Configurations for Remote Execution](/katalon-analytics/docs/test-run-config.html)
+- [Katalon TestOps Terminology](https://docs.katalon.com/katalon-analytics/docs/testops-terminology.html)
