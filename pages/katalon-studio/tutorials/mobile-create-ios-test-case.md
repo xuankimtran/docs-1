@@ -14,7 +14,7 @@ Go through the "Recording a scenario of counting down Green Tea making time via 
 3. Tap on **Start**.
 4. Tap on **Stop**.
 
-> **Coffee Timer.ipa** and sample project code is available [here](https://github.com/katalon-studio-samples/ios-mobile-tests).
+> **Coffee Timer.ipa** and sample project code are available [here](https://github.com/katalon-studio-samples/ios-mobile-tests).
 
 ## Create and Run your first iOS test case
 
