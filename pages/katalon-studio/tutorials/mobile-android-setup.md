@@ -81,7 +81,7 @@ This topic describes the preliminary actions you need to perform to prepare the 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/result.png" width=70%>
    
    
-   Next: [Create your first Android test case](https://docs.katalon.com/katalon-studio/docs/mobile-recorder-tutorials.html).
+   Next: [Create your first Android test case](https://docs.katalon.com/katalon-studio/tutorials/mobile-create-android-test-case.html).
 
    See also:
    * [Set up iOS-mobile-tests](https://docs.katalon.com/katalon-studio/tutorials/mobile-ios-setup.html).
