@@ -17,61 +17,99 @@ description:
 
 ## Execution Profile
 
-**Execution Profile** helps cover multiple and different environments to execute your automation test scripts with ease.
+**Execution Profile** helps cover multiple and different environments to execute your automation test scripts with ease. You can configure testing environment in terms of data and behaviors through **global variables**. A **global variable** is a variable defined in execution profile and can be used in any test cases in the project.
 
-* The **default** profile stores **Global Variables**, and you can create new ones there. There is **NO** 'Global Variables' interface.
-* By default, Katalon Studio uses the **default** profile, as indicated on the top right of Katalon Studio's interface. You can also select any available execution profiles in the drop-down menu.
+### Create a profile
 
-Execution profile interfaces are provided with **Manual view** and **Script view** where an XML editor is available for adding variables via script. Depending on the project needs, you can create as many profiles as you want to.
+Just like other test artifacts, you can CRUD the **Execution Profile** in the **Tests Explorer**.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/Untitled3.png" width=55%>
+   
+In a profile, you need to define its content via adding variables. Do as follows:
+
+1. Select a profile > click **Add**.
+2. In the **New Variable** dialog, specify details for the variable > click **OK**.
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/variable-types/image2017-1-24-153A413A17.png" sidth=45%>
+
+3. The variable is added to the profile accordingly.
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/variable-types/default-profile.png" width=65%>
+
+### Set default profile at project level
+
+You may have multiple profiles for executing your tests, for instance, staging and production profiles with corresponding global variables. It would be convenient if you can set a profile as your default one in every execution of a project. Starting from **version 7.4.2**, you can configure a default profile at project level.
+
+Right-click on your desired execution profile and select **Set as default Execution Profile**.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/set-default-profile.png" width=45%>
+
+This profile becomes a default execution option for Test Case, Test Suite, and Test Suite Collection.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/tsc.png" width=65%>
+
+It's also applied for the Executive Platform of the Command Generator in case you use Katalon Runtime Engine.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/cli.png" width=65%>
+
+### Profile Inheritance
+
+**Profile Inheritance** allows you to define a default profile that configures testing environments through global variables and to define derived (custom) profiles that either inherit or override those configurations. Here are two common use cases:
+
+1. If a particular variable is not found in the selected running profile (any other but **default**), the test case will pick the value from the **default** to execute. 
+2. If certain variables are shared across all profiles, but the values are not changing, you can define them in the **default** and remove them from the **custom profiles**.
+
+The following example is to illustrate 
+
+1. Define a default profile and a derived profile
+
+* Default profile with `profile`= default <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/default-profile.png" width=50%>
+
+* Derived profile with `profile`= HelloMe <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/hello-me.png" width=50%>
+
+1. In a test case, execute the test case with 
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/TC1.png" width=65%>
+
+   - HelloMe: <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/run-with-hello-me.png" width=65%> 
+
+2. When executing the test case with each profile (one at a time), the **Console** log shows:
+
+- default: <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/run-with-default.png" width=65%>
+
+- MyProfile: <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/run-with-custom.png" width=65%>
+
+### View a profile 
+
+Execution profile is provided with **Manual view** and **Script view** where an XML editor is available for adding variables via script. Depending on the project needs, you can create as many profiles as you want to.
 
 In the **Script view**, profiles are in sync once a similar list of **Global Variables** is required for testing different environment types. To conduct, copy and paste the variables list from one profile to another.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/profile-script-view.png" width=50%>
 
-Just like other test artifacts, you can CRUD the **Execution Profile** in the **Tests Explorer**.
+### Use a profile and Usage Examples
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/Untitled3.png" width=55%>
+By default, Katalon Studio uses the **default** profile for executing tests, as indicated on the top right corner of the screen. You can select any available execution profiles in the drop-down menu.
 
-There are various ways to use your profile, this section shows you one via the following examples:
+There are various ways to use your profile, the following section shows you an example. Based on testing environments, there are three profiles: **local**, **staging** and **production**.
 
-Based on testing environments, there are three profiles: **local**, **staging** and **production**.
+- **For test cases or test suites**: Select your desired profile on the top right > **all Global Variables** within your current project automatically uses these values.
 
-   - **For test cases or test suites**: Select your desired profile on the top right > **all Global Variables** within your current project automatically uses these values.
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/Untitled2.png" width=65%>
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/Untitled2.png" width=65%>
+- **For Test Suite Collection**: Select your desired profile to be executed with your Test Suite on the **Profile** column.
 
-   - **For Test Suite Collection**: Select your desired profile to be executed with your Test Suite on the **Profile** column.
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/4.png" width=65%>
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/4.png" width=65%>
+- **For [Console Mode](/display/KD/Console+Mode+Execution) execution**: Select your desired profile on the **Profile** field.
 
-   - **For [Console Mode](/display/KD/Console+Mode+Execution) execution**: Select your desired profile on the **Profile** field.
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/5.png" width=50%>
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/5.png" width=50%>
+   The **Generated Command** has **executionProfile** parameter so that you can change it manually. For example:
 
-      The **Generated Command** has **executionProfile** parameter so that you can change it manually. For example:
-
-      ```groovy
-      katalon -noSplash  -runMode=console -consoleLog -projectPath="C:\Users\Admin\Katalon Studio\yourProject.prj" -retry=0 -testSuitePath="Test Suites/TS_RegressionTest" -executionProfile="local" -browserType="Chrome (headless)
-      ```
+   ```groovy
+   katalonc -noSplash  -runMode=console -consoleLog -projectPath="C:\Users\Admin\Katalon Studio\yourProject.prj" -retry=0 -testSuitePath="Test Suites/TS_RegressionTest" -executionProfile="local" -browserType="Chrome (headless)
+   ```
 
 ## Global Variables
-
-> Starting in Katalon Studio version 6.3.0, Move up and Move down functions for Global Variables are available.
-
-### Define a Global Variable
-
-In Katalon Studio, a **Global Variable** is a variable which is used globally in the project. For example, if you are going to define a variable as a global variable, you can use it in any test case in the project. 
-
-Global Variables can be managed in the **default** profile view.
-
-1. Expand the **default** profile view > click **Add**.
-2. In the **New Variable** dialog, specify details for the variable > click **OK**.
-
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/variable-types/image2017-1-24-153A413A17.png" sidth=45%>
-
-3. The variable is added to the **default** profile accordingly.
-
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/variable-types/default-profile.png" width=65%>
 
 ### Use a Global Variable
 
@@ -107,55 +145,7 @@ landingPage = WebUI.verifyElementPresent(findTestObject('Page_CuraAppointment/di
 WebUI.closeBrowser()
 ```
 
-### Inheritance Profile
-
-Katalon Studio provides the **Inheritance Profile** feature to nest profiles which helps users easily find particular entries when executing. All test cases can access the parent profile (**default** in Katalon Studio) and also the custom ones nested in the **default** to execute.
-
-To get familiar with this feature, we provide you with simple examples as follows: 
-
-   1. Elements:
-
-      - Test case:
-
-         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/TC1.png" width=65%>
-
-      - Default profile:
-
-         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/default-profile.png" width=50%>
-
-      - Custom profiles:
-
-         - MyProfile:
-            
-            <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/my-profile.png" width=50%>
-
-         - HelloMe:
-
-            <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/hello-me.png" width=50%>
-
-
-   2. When executing the test case with each profiles (one at a time), the **Console** log shows:
-
-      - default:
-
-         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/run-with-default.png" width=65%>
-
-      - MyProfile:
-
-         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/run-with-custom.png" width=65%>
-
-      - HelloMe:
-  
-         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/run-with-hello-me.png" width=65%>
-      
-In short:
-
-- If a particular variable is not found in the selected running profile (any other but **default**), the test case will pick the value from the **default** to execute. 
-- If certain variables are shared across all profiles, but the values are not changing, you can define them in the **default** and remove them from the **custom profiles**.
-
 ### Parameterize a Global Variable
-
-> Starting in **Katalon Studio version 6.3.0**, you can directly parameterize Global Variables in both WebUI and API Test Objects.
 
 Enter the syntax `${GlobalVariable.name}` in any supported locations. For example:
 
@@ -167,7 +157,7 @@ in Selected Locator of a WebUI Test Object:
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/variable-types/2-GlobalVariable.png" width=55%>
 
-### Escaping, special characters
+### Use escaping, special characters
 
 To use a special character like `$` or `\` as a regular one in any place that calls parameterized global variables, prepend it with a backslash: `\` (the so-called escape character).
 
@@ -183,14 +173,13 @@ To use a special character like `$` or `\` as a regular one in any place that ca
 ```
 
 * Without `\`: *note: Currency unit of ${GlobalVariable.productName} is $*.
-
 * With `\`: *note: Currency unit of wine is $*.
 
 ### Create Global Variables during runtime
 
-To create Global Variables during runtime using Katalon scripts, there are many approaches as discussed [here](https://forum.katalon.com/discussion/6822/how-to-define-global-variables-within-scripts-ie-on-the-fly). One of the approaches below comes from [Sergii Tyshchenko](https://forum.katalon.com/profile/4921/Sergii%20Tyshchenko):
+To create global variables during runtime, here is an approach provided by [Sergii Tyshchenko](https://forum.katalon.com/t/how-to-pass-user-defined-parameters-from-command-line/8771/22?u=jass).
 
-You can also define environment variable (with path to external configuration or properties file) in the session that is used to execute Katalon studio and then in the TestListener read the value of variable (path to the file), load that file and override settings for project, Global variables etc. To create new GlobalVariable I used metaprogramming:
+You can define environment variable (with path to external configuration or properties file) in the session that is used to execute Katalon Studio. Then in the `TestListener`, read the variable's value (path to the file), load that file and override the project settings, or Global variables. Use the following metaprogramming:
 
 ```groovy
  @Keyword
@@ -203,27 +192,11 @@ You can also define environment variable (with path to external configuration or
 }
 ```
 
-It's possible to add getter/setter as new methods toGlobalVariableclass or add a new field (commented in this example)
-
-Then in the script code, you can use GlobalVariable.VarName
+It’s possible to add getter and/or setter as new methods to GlobalVariable class or add new field. Then in the script, you can use GlobalVariable.VarName where the VarName is your new variable.
 
 ```groovy
 CustomKeywords.'helper.addGlobalVariable'('localURL', 'katalon.com')
 println GlobalVariable.localURL
 ```
 
-## Set default profile at project level
-
-You may have multiple profiles for executing your tests, for instance, staging and production profiles with corresponding global variables. It would be convenient if you can set a profile as your default one in every execution of a project. Starting from **version 7.4.2**, you can configure a default profile at project level.
-
-Right-click on your desired execution profile and select **Set as default Execution Profile**.
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/set-default-profile.png" width=45%>
-
-This profile becomes a default execution option for Test Case, Test Suite, and Test Suite Collection.
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/tsc.png" width=65%>
-
-It's also applied for the Executive Platform of the Command Generator in case you use Katalon Runtime Engine.
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/cli.png" width=65%>
+> Go to the [original discussion](https://forum.katalon.com/t/how-to-define-global-variables-within-scripts-i-e-on-the-fly/). 
