@@ -22,7 +22,6 @@ This tutorial shows you how to create teams and projects.
 * **Owner** - is granted by default when creating a new organization or transferred by the other users, who have full permission related to the organization, including teams, users, projects, licenses, plugins, and subscriptions.
 * **Admin** - is granted by the Owner, who has the Owner's privileges but cannot manage the subscriptions.
 * **User** - is automatically assigned when a person joins an organization. Users can only monitor project progress.
-
 * **Billing Manager** - is granted by the Owner or Admin, who has the User's privileges with additional permission to manage subscriptions.
 
 ## Invite a user to join organization
