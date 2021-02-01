@@ -20,15 +20,23 @@ To configure the Katalon TestOps Integration, right after activating:
 
 * Select a team in the configured organization that you have permission to access.
 
-* Select a project under that team you’d like to work on or create your own one if you have permission.
+* Select a project under that team you would like to work on or create your own one if you have permission.
 
 ## Settings
 
-In Katalon Studio, go to **Project > Settings > Katalon TestOps**.
+In Katalon Studio, go to **Project > Settings**.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/integration-ks/config-integration.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/integration-ks/ks_project_setting.png)
 
-You must enable **Katalon TestOps Integration** to submit test execution reports to Katalon TestOps. Follow the below steps to set up the integration properly:
+The window **Project Settings** displays, in the **Project Information**, type the name and description, then click OK.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/integration-ks/ks_pro_set_window.png)
+
+You must enable **Katalon TestOps Integration** (in the **Project Settings**) to submit test execution reports to Katalon TestOps. 
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/integration-ks/ks_enable_katalon_testops.png)
+
+Follow the below steps to set up the integration properly:
 
 1. Check the **Enable Katalon TestOps Integration** checkbox to retrieve all teams and projects that you have permission to access in the organization you're working on.
 
