@@ -1,5 +1,5 @@
 ---
-title: "How to invite the user into an Organization"
+title: "How to invite a user into an Organization"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/kt_invite_user_org.html
 redirect_from:
