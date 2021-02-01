@@ -44,7 +44,7 @@ This tutorial presents a typical workflow of Git integration with Katalon Studio
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/git_integration_introduction/Katalon-and-Git.png" width=70%>
 
-Following are supported source-code-management software that you can integrate with Katalon Studio:
+Following are Git cloud-hosted services that you can integrate with Katalon Studio:
 
 - Github.
 - Gitlab.
