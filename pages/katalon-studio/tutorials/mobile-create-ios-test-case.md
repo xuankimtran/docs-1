@@ -14,7 +14,7 @@ Go through the "Recording a scenario of counting down Green Tea making time via 
 3. Tap on **Start**.
 4. Tap on **Stop**.
 
-> **Coffee Timer.ipa** and sample project code is available [here](https://github.com/katalon-studio-samples/ios-mobile-tests).
+> **Coffee Timer.ipa** and sample project code are available [here](https://github.com/katalon-studio-samples/ios-mobile-tests).
 
 ## Create and Run your first iOS test case
 
@@ -29,17 +29,17 @@ Go through the "Recording a scenario of counting down Green Tea making time via 
    - In **Project** > select **Sample iOS...**, the **Repository URL** is filled automatically.
    - Browse a **Location** to store your project > click **OK**.
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/create-new-project-with-sample-project.png" width=60%>
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/create-new-project-with-sample-project.png" width=70%>
 
 **Record**
 
 1. On the main toolbar, click on the **Record Mobile** icon and select your device type. For example, **iOS Devices**.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/record-iOS.png" width=20%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/record-iOS.png" width=30%>
 
 2. In the displayed **Mobile Recorder** dialog, specify the information at the **Configurations** section:
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/configuration.png" width=40%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/configuration.png" width=65%>
 
    * **Device Name**: select one of your connected iOS  devices.
    * **Start with**: select **Application File** in the drop-down list.
@@ -52,35 +52,35 @@ Go through the "Recording a scenario of counting down Green Tea making time via 
 
 4. On the **Device View** > click **Green Tea**, Katalon Studio selects **Green Tea** in **All Objects** correspondingly.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/Green%20Tea.png" width=55%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/Green%20Tea.png" width=65%>
 
 5. Once **Green Tea** is selected, **Tap** is enabled in **Available Actions** > click **Tab**, the tap action is performed as follows:
 
    * The **Device View** is rendered with newly displayed elements.
    * In **Recorded Actions**, **Tap** is added to the list of recorded steps.
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/recorded-action.png" width=55%>
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/recorded-action.png" width=65%>
 
    * In **Captured Objects**, **Green Tea** is captured with its properties.
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/captured-object.png" width=55%>
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/captured-object.png" width=65%>
 
    > **Note**
    >
    > - The essential property of an object is its locator strategy and value. The default locator is a unique value in detecting that object. Katalon Studio 7.6+ fully supports selector strategies supported by Appium.
    >
-   >   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/locator.png" width=50%>
+   >   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/locator.png" width=70%>
    > - If you prefer another locator strategy, select your prefered one and generate a new locator > click **Highlight** to see if your newly updated locator can detect the target object on its screen correctly.
 
 6. Similarly in **Device View**, click **Start** > click **Tap** in **Available Actions**.
 
    You can see another tap action is added to the list of **Recorded Actions** and **Captured Objects**.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/start-action.png" width=60%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/start-action.png" width=70%>
 
 7. In **Device View**, click **Stop** > click **Tap** in **Available Actions**.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/stop-action.png" width=60%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/stop-action.png" width=70%>
 
 8. Click on the **Stop** button above the **CONFIGURATIONS** section to close the application and finish recording.
 
@@ -90,7 +90,7 @@ Go through the "Recording a scenario of counting down Green Tea making time via 
 
 9. You can add the recorded test steps to a new test case, append to or overwrite an existing one.
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/save-script.png" width=55%>
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/save-script.png" width=65%>
 
 ### Playback
 
@@ -99,11 +99,11 @@ To playback the recorded scenario:
 1. Select the test case where you saved the recorded actions.
 2. On the main toolbar, select **iOS** device on the drop-down list next to **Run**.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/select-ios.png" width=20%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/select-ios.png" width=30%>
 
 3. In the displayed **iOS Devices** dialog, select a device > click **OK**.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/ios-devices-list.png" width=55%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/ios-devices-list.png" width=70%>
 
 Katalon Studio executes the iOS test with the recorded steps accordingly.
 
