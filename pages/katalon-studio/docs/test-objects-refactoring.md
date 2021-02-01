@@ -9,6 +9,8 @@ Test object refactoring is an ability to view and manage the unused test objects
 
 An unused Test Object is any Web, Web Service, Mobile, Windows test object that you haven't referred to in any Test Case, Test Listener, or Keyword.
 
+> A reference of Test Object is defined as invocations of `findTestObject("test object ID")`. If you create a new Test Object programmatically and don't use them with `findTestObject`, these Test Objects will be counted as "unused".
+
 Go to **Tools > Test Object > Show unused Test Objects** to retrieve all unused test objects in that project.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-object-refactor/option.png" width="486" height="141">
