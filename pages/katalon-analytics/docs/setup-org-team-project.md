@@ -9,7 +9,6 @@ redirect_from:
     - "/display/KA/User%20Management/"
     - "/x/lQjR/"
     - "/katalon-analytics/docs/user-management/"
-    - "/katalon-analytics/docs/setup-org-team-project/"
     - "/katalon-analytics/docs/manage-org.html"
 ---
 ## **Organization-level roles and permissions** 
