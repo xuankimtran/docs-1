@@ -38,13 +38,27 @@ You must enable **Katalon TestOps Integration** (in the **Project Settings**) to
 
 Follow the below steps to set up the integration properly:
 
-1. Check the **Enable Katalon TestOps Integration** checkbox to retrieve all teams and projects that you have permission to access in the organization you're working on.
+1. Check the **Enable Katalon TestOps Integration** checkbox to retrieve all teams and projects that you have permission to access in the organization you are working.
 
-   > In case you want to switch to another organization, on the top right corner of the app, select you account > select **Deactivate** > activate again.
+Once Katalon Studio is **successfully connected** to Katalon TestOps, all relevant Katalon TestOps the **Teams** and **Projects** will be retrieved and displayed in the Teams and Projects drop-down menu. You can also **create a new project** in Katalon TestOps if you're a team owner or admin, simply click the **New Project** button and enter a name for it.
 
-   Once Katalon Studio is **successfully connected** to Katalon TestOps, all relevant Katalon TestOps the **Teams** and **Projects** will be retrieved and displayed in the Teams and Projects drop-down menu. You can also **create a  new project** in Katalon TestOps if you're a team owner or admin, simply click the **New Project** button and enter a name for it.
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/integration-ks/ks_create_new_project.png)
 
-2. Select a team and project to which you will upload your test results. Here you can reload this part by clicking **Fetch Projects**.
+ > If you want to switch to another organization, click on the top right corner of the app.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/integration-ks/ks_main.png)
+
+> Select **Deactivate**.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/integration-ks/ks_main_deactive.png)
+
+> **Katalon Studio Activation** displays, type the email, password, and click **Active**.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/integration-ks/ks_activation.png)
+
+2. In **Project Settings**, select a team and project, in which you will upload your test results. Here you can reload this part by clicking **Fetch Projects**.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/integration-ks/ks_fetch_projects.png)
 
 3. Click **Apply** and then **OK** to finish your configurations.
 
