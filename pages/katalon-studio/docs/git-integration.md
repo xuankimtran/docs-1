@@ -36,22 +36,20 @@ Below are several specific benefits of using Git for your Katalon Studio project
 
 Using Git, a repository can be shared with multiple team members to help improve the team's collaboration and productivity.
 
-## Katalon Studio integration with Git
+## Introduce Katalon Studio's integration with Git
 
-With its benefits, Katalon Studio provides **Git Integration** feature for a much more convenient collaboration between team members in automated test projects.
-
-This tutorial presents a typical workflow of Git integration with Katalon Studio:
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/git_integration_introduction/Katalon-and-Git.png" width=70%>
-
-Following are Git cloud-hosted services that you can integrate with Katalon Studio:
+With its benefits, Katalon Studio provides **Git Integration** feature for a much more convenient collaboration between team members in automated test projects. Following are Git cloud-hosted services that you can integrate with Katalon Studio:
 
 - Github.
 - Gitlab.
 - Bitbucket.
 - Microsoft Azure DevOps.
 
-## Configuration
+This tutorial presents a typical workflow of Git integration with Katalon Studio:
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/git_integration_introduction/Katalon-and-Git.png" width=70%>
+
+## Configure Git Integration
 
 1. **Enable Git Integration:** To access all Git features, you need to enable Git Integration first. The option is available in the following settings: **Katalon Studio >  Preferences > Katalon > Git**. Once enabled, you can start using Git at Katalon Studio's main toolbar.
 
