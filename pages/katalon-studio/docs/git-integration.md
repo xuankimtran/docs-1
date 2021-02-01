@@ -23,16 +23,16 @@ Suppose your Katalon Studio automation project involves several or more members.
 
 Below are several specific benefits of using Git for your Katalon Studio projects:  
 
-* Git allows undoing mistakes.
-  * The undo ability gives project teams the courage to try out ideas and concepts without worrying about the risk of breaking stuff and, thus, fosters a culture of innovation.
-* Git makes the team progress clearer.
-  * A commit in Git refers to a change in automation scripts that a team member makes, indicating the progress of tasks.
-  * Git supports comparing versions of code to show differences between commits. It is useful to review a commit before it officially becomes final.
-* Git supports working offline.
-  * Being to work offline makes your team more fail-safe. Each member can perform everything on his/her computer, independent from possible infrastructure downtime.
-* Never losing data ever again.
-  * As daily work can be committed to the remote Git server, every team member working on a project has a full-fledged copy on his/her machine, including the project's complete change history.
-* If any backup breaks down: restore it using any team member's local repository or Git repository.
+- Git allows undoing mistakes.
+  - The undo ability gives project teams the courage to try out ideas and concepts without worrying about the risk of breaking stuff and, thus, fosters a culture of innovation.
+- Git makes the team progress clearer.
+  - A commit in Git refers to a change in automation scripts that a team member makes, indicating the progress of tasks.
+  - Git supports comparing versions of code to show differences between commits. It is useful to review a commit before it officially becomes final.
+- Git supports working offline.
+  - Being to work offline makes your team more fail-safe. Each member can perform everything on his/her computer, independent from possible infrastructure downtime.
+- Never losing data ever again.
+  - As daily work can be committed to the remote Git server, every team member working on a project has a full-fledged copy on his/her machine, including the project's complete change history.
+- If any backup breaks down: restore it using any team member's local repository or Git repository.
 
 Using Git, a repository can be shared with multiple team members to help improve the team's collaboration and productivity.
 
@@ -83,9 +83,9 @@ After enabling Git Integration, you can clone an existing **Git repository** int
 
     Where:
 
-    * Repository URL: the [remote URL](https://help.github.com/en/articles/which-remote-url-should-i-use) to your Git repository in HTTPS protocol.
-    * Username: the username to access the Git repository.
-    * Password: the password to access the Git repository.
+    - Repository URL: the [remote URL](https://help.github.com/en/articles/which-remote-url-should-i-use) to your Git repository in HTTPS protocol.
+    - Username: the username to access the Git repository.
+    - Password: the password to access the Git repository.
 
     If you cannot access the repository after clicking **Next**, the connection may have issues with SSL verification. You can use the below command to bypass SSL verification (**NOT** recommended):
 
@@ -122,8 +122,8 @@ After enabling Git Integration, you can clone an existing **Git repository** int
 
     Where:
 
-    * **Directory**: the local storage location you want to store your Git repository.
-    * **Initial branch**: all selected branches from the previous step are displayed here. Select the branch to be used initially from this list.
+    - **Directory**: the local storage location you want to store your Git repository.
+    - **Initial branch**: all selected branches from the previous step are displayed here. Select the branch to be used initially from this list.
 
 5. Click **Finish** when you are done. Katalon Studio automatically opens your cloned project.
 
@@ -322,12 +322,12 @@ Before doing any push, you have to commit your changes first.
 
 - After resolving the conflict, Tom is now able to commit and push the change to the Git remote repository.
 
-### Notes
+### Best practices
 
 In order to minimize the conflict in a team having more than one member, you should define a process from the very beginning so that all team members are on the same page when using Git. 
 
 Below are some suggestions for good practices:
 
-*   **Commit often**: do not wait until a huge amount of scripts created to commit and push to the Git remote repository. The smaller the set of scripts is pushed, the easier you resolve the conflict.
-*   **Pull** changes from the Git remote repository **before** working on new scripts and before **committing**.
-*   Each member works on **each feature at a time**.
+-   **Commit often**: do not wait until a huge amount of scripts created to commit and push to the Git remote repository. The smaller the set of scripts is pushed, the easier you resolve the conflict.
+-   **Pull** changes from the Git remote repository **before** working on new scripts and before **committing**.
+   Each member works on **each feature at a time**.
