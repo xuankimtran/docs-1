@@ -15,7 +15,7 @@ Go through the following "Recording a scenario of sending a message via the APID
 4. Enter a phone number and a message.
 5. Tap on **Send**.
 
-> APIDemos.apk and sample project code is available [here](https://github.com/katalon-studio-samples/android-mobile-tests).
+> APIDemos.apk and sample project code are available [here](https://github.com/katalon-studio-samples/android-mobile-tests).
 
 ## Create and Run your first Android test case
 
@@ -30,17 +30,17 @@ Go through the following "Recording a scenario of sending a message via the APID
    - In **Project** > select **Sample Android...**, the **Repository URL** is filled automatically.
    - Browse a **Location** to store your project > click **OK**.
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/create-new-project-with-sample-project.png" width=60%>
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/create-new-project-with-sample-project.png" width=70%>
 
 ### Record
 
 1. On the main toolbar, click **Record Mobile** > select **Android Devices**.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android-devices.png" width=20%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android-devices.png" width=30%>
 
 2. In the displayed **Mobile Recorder** dialog, specify the information at the **Configurations** section:
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/configure.png" width=45%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/configure.png" width=65%>
 
    * **Device Name**: select one of your connected Android devices.
    * **Start with**: Select **Application File** in the drop-down list.
@@ -53,35 +53,35 @@ Go through the following "Recording a scenario of sending a message via the APID
 
 4. On the **Device View** > click **OS**, Katalon Studio selects **OS** in **All Objects** correspondingly.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/os.png" width=55%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/os.png" width=70%>
 
 5. Once **OS** is selected, **Tap** is enabled in **Available Actions** > click **Tab**, the tap action is performed as follows:
 
    * The **Device View** is rendered with newly displayed elements.
    * In **Recorded Actions**, **Tap** is added to the list of recorded steps.
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/tap.png" width=55%>
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/tap.png" width=65%>
 
    * In **Captured Objects**, **OS** is captured with its properties.
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/captured.png" width=55%>
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/captured.png" width=65%>
 
    > **Note**
    >
    > - The essential property of an object is its locator strategy and value. The default locator is a unique value in detecting that object. Katalon Studio 7.6+ fully supports selector strategies supported by Appium except for Android Data Matcher ([Learn more](https://docs.katalon.com/katalon-studio/docs/locators_object_identification.html)).
    >
-   >   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/locator-strategy.png" width=50%>
+   >   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/locator-strategy.png" width=70%>
    > - If you prefer another locator strategy, select your prefered one and generate a new locator > click **Highlight** to see if your newly updated locator can detect the target object on its screen correctly.
 
 6. Similarly in **Device View**, click **SMS Messaging** > click **Tap** in **Available Actions**.
 
    You can see another tap action is added to the list of **Recorded Actions** and **Captured Objects**.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/sms-messaging.png" width=60%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/sms-messaging.png" width=70%>
 
 7. In **Device View**, select the text input area right next to **Recipient** > click **Set Text** in **Available Actions**.
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/text-input.png" width=60%>
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/text-input.png" width=70%>
 
    In the displayed **Text Input** dialog, enter a phone number > click **OK**. 
 You can see a phone number is filled in the text field in **Device View**.
@@ -93,7 +93,7 @@ You can see a phone number is filled in the text field in **Device View**.
    You can see the message is set in the text field in **Device View** and the **Set Text** is added to the 
    **Recorded Actions**.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/set-text2.png" width=60%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/set-text2.png" width=70%>
 
 9. In **Device View**, click **Send** > click **Tap** in **Available Actions**.
 
@@ -109,7 +109,7 @@ You can see a phone number is filled in the text field in **Device View**.
 
 11. You can add the recorded test steps to a new test case, append to or overwrite an existing one.
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/new-tc.png" width=55%>
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/new-tc.png" width=65%>
 
 ### Playback
 
@@ -118,13 +118,13 @@ To playback the recorded scenario:
 1. Select the test case where you saved the recorded actions.
 2. On the main toolbar, select **Android** device on the drop-down list next to **Run**.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/android.png" width=20%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/android.png" width=30%>
 
 3. In the displayed **Android Devices** dialog, select a device > click **OK**.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/device.png" width=55%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/device.png" width=70%>
 
-   Katalon Studio executes the mobile test with the recorded steps accordingly.
+Katalon Studio executes the mobile test with the recorded steps accordingly.
 
 **<details><summary>View the test case in Script mode.</summary>**
 
