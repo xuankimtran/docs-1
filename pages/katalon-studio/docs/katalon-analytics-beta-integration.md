@@ -62,7 +62,13 @@ Once Katalon Studio is **successfully connected** to Katalon TestOps, all rele
 
 3. Click **Apply** and then **OK** to finish your configurations.
 
-To verify if you have overridden the authentication successfully, on the top right corner, select your account > **View Dashboard**. You should be navigated to the project having been configured above.
+To verify if you have overridden the authentication successfully. On the top right corner, select your account, click **View Dashboard**.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/integration-ks/ks_view_dashboard.png)
+
+The project, which you have created, will be navigated to you.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/integration-ks/ks_dashboard_project_create.png)
 
 ## Automatically upload test results
 
