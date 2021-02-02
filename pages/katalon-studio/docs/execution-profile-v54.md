@@ -29,9 +29,11 @@ In a profile, you need to define its content via adding variables. Do as follows
 
 1. Select a profile > click **Add**.
 2. In the **New Variable** dialog, specify details for the variable > click **OK**.
+
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/variable-types/image2017-1-24-153A413A17.png" sidth=45%>
 
 3. The variable is added to the profile accordingly.
+
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/variable-types/default-profile.png" width=65%>
 
 ### Set default profile at project level
@@ -57,25 +59,53 @@ It's also applied for the Executive Platform of the Command Generator in case yo
 1. If a particular variable is not found in the selected running profile (any other but **default**), the test case will pick the value from the **default** to execute. 
 2. If certain variables are shared across all profiles, but the values are not changing, you can define them in the **default** and remove them from the **custom profiles**.
 
-The following example illustrates how the **Profile Inheritance** feature works:
+**Running the examples:**
 
-1. Define a default profile and a derived profile
+The following examples illustrate step-by-step how the **Profile Inheritance** feature works:
 
-* Default profile with `profile`= default <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/default-profile.png" width=50%>
+Given test case:
 
-* Derived profile with `profile`= HelloMe <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/hello-me.png" width=50%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/TC1.png" width=70%>
 
-1. In a test case, execute the test case with 
+1. Execute the test case with a default profile and an inherited profile (one at a time):
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/TC1.png" width=65%>
+   - Default profile with `profile`= default.
 
-   - HelloMe: <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/run-with-hello-me.png" width=65%> 
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/default-profile.png" width=70%>
 
-2. When executing the test case with each profile (one at a time), the **Console** log shows:
+   - Inherited profile with `profile`= HelloMe.
+   
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/hello-me.png" width=70%>
 
-- default: <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/run-with-default.png" width=65%>
+   The results showed in the **Console** log as below:
 
-- MyProfile: <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/run-with-custom.png" width=65%>
+   - default: 
+   
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/run-with-default.png" width=70%>
+
+   - HelloMe: 
+   
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/run-with-hello-me.png" width=70%>
+
+2. Execute the test case with a default profile and an overriden profile (one at a time):
+
+   - Default profile with `profile`= default.
+
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/default-profile.png" width=70%>
+
+   - Overidden profile with `profile`= MyProfile.
+
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/my-profile.png" width=70%>
+
+   The results showed in the **Console** log as below:
+
+   - default: 
+   
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/run-with-default.png" width=70%>
+
+   - MyProfile: 
+   
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/run-with-custom.png" width=70%>
 
 ### View a profile 
 
@@ -111,7 +141,9 @@ The following section shows you a usage example. Based on testing environments, 
 
 ## Global Variables
 
+### Scope of Global Variables
 
+**Global Variables** are defined within the scope of a **Test Case** or a **Test Suite**, **NOT** a Test Suite Collection. In other words, you can choose to execute a test case or a test suite with a profile that contains global variables but cannot execute a test suite collection.
 
 ### Use a Global Variable
 
@@ -174,8 +206,8 @@ To use a special character like `$` or `\` as a regular one in any place that ca
 }
 ```
 
-* Without `\`: *note: Currency unit of ${GlobalVariable.productName} is $*.
-* With `\`: *note: Currency unit of wine is $*.
+- Without `\`: *note: Currency unit of ${GlobalVariable.productName} is $*.
+- With `\`: *note: Currency unit of wine is $*.
 
 ### Create Global Variables during runtime
 
