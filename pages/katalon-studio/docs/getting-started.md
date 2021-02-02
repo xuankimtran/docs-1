@@ -77,4 +77,3 @@ Verify whether your computer meets the [System Requirements](http://docs.katalon
     - License types:
         - [Node-Locked License](https://docs.katalon.com/katalon-studio/docs/license.html#node-locked-license)
         - [Floating License](https://docs.katalon.com/katalon-studio/docs/license.html#floating-license)
-   

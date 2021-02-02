@@ -50,6 +50,25 @@ Please notice that although we very much appreciate all of your feedback, pull r
     - Give feedback to the docs page by voting thumb up or thumb down.
     - Write new content for Katalon Knowledge Base. Simply fork the repository, make any modification, and send us a **Pull Request** for review.
 
+## Development environment
+
+### Linux
+
+Install:
+
+```
+sudo apt install build-essential ruby ruby-dev ruby-bundler
+bundle install
+```
+
+Write:
+
+```
+cd /mnt/d/tmp/docs
+bundle exec jekyll clean
+bundle exec jekyll serve --watch --force_polling --incremental
+```
+
 ## Katalon Community
 
 For technical and product-specific questions, please post your questions to Katalon [forum](https://forum.katalon.com/discussions). We have a team of product specialists and community users to assist with your issues.

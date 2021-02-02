@@ -1205,8 +1205,10 @@ items:
             url: /katalon-analytics/docs/testops-terminology.html
           - title: "Access Katalon TestOps"
             url: /katalon-analytics/docs/getting-started.html
-          - title: "Set up Organizations"
-            url: /katalon-analytics/docs/setup-org-team-project.html
+          - title: "Create Organization"
+            url: /katalon-analytics/docs/kt-create-org.html
+          - title: "Invite the user into an Organization"
+            url: /katalon-analytics/docs/kt_invite_user_org.html
           - title: "Set up Teams and Projects"
             url: /katalon-analytics/docs/setup-team.html
       - title: "Release Notes"

@@ -14,10 +14,26 @@ description:
 
 You can also upload test results manually to your target team and project.
 
-1. In Katalon Studio, open a Test Suite or Test Suite Collection > navigate to the **Result** tab.
+1. In Katalon Studio, open a Test Suite,
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/integration-ks/ks_choose_test_suite.png)
+
+or a Test Suite Collection, and navigate to the **Result** tab.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/integration-ks/ks_choose_test_suite_col.png)
 
 2. Select **Katalon TestOps**, and click **Upload**.
 
+Upload a Test Suite:
+
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/from-katalon-studio/ks-upload-test-result.png)
+
+Upload a Test Suite Collection:
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/integration-ks/ks_upload_test_suite_col.png)
+
+Then choose the Team and Project which you want to upload.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/integration-ks/ks_choose_project.png)
 
 Once having uploaded the test results successfully, you can double-check on Katalon TestOps.

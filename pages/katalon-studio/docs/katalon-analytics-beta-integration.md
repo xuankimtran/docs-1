@@ -20,27 +20,55 @@ To configure the Katalon TestOps Integration, right after activating:
 
 * Select a team in the configured organization that you have permission to access.
 
-* Select a project under that team you’d like to work on or create your own one if you have permission.
+* Select a project under that team you would like to work on or create your own one if you have permission.
 
 ## Settings
 
-In Katalon Studio, go to **Project > Settings > Katalon TestOps**.
+In Katalon Studio, go to **Project > Settings**.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/integration-ks/config-integration.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/integration-ks/ks_project_setting.png)
 
-You must enable **Katalon TestOps Integration** to submit test execution reports to Katalon TestOps. Follow the below steps to set up the integration properly:
+The window **Project Settings** displays, in the **Project Information**, type the name and description, then click OK.
 
-1. Check the **Enable Katalon TestOps Integration** checkbox to retrieve all teams and projects that you have permission to access in the organization you're working on.
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/integration-ks/ks_pro_set_window.png)
 
-   > In case you want to switch to another organization, on the top right corner of the app, select you account > select **Deactivate** > activate again.
+You must enable **Katalon TestOps Integration** (in the **Project Settings**) to submit test execution reports to Katalon TestOps. 
 
-   Once Katalon Studio is **successfully connected** to Katalon TestOps, all relevant Katalon TestOps the **Teams** and **Projects** will be retrieved and displayed in the Teams and Projects drop-down menu. You can also **create a  new project** in Katalon TestOps if you're a team owner or admin, simply click the **New Project** button and enter a name for it.
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/integration-ks/ks_enable_katalon_testops.png)
 
-2. Select a team and project to which you will upload your test results. Here you can reload this part by clicking **Fetch Projects**.
+Follow the below steps to set up the integration properly:
+
+1. Check the **Enable Katalon TestOps Integration** checkbox to retrieve all teams and projects that you have permission to access in the organization you are working.
+
+Once Katalon Studio is **successfully connected** to Katalon TestOps, all relevant Katalon TestOps the **Teams** and **Projects** will be retrieved and displayed in the Teams and Projects drop-down menu. You can also **create a new project** in Katalon TestOps if you're a team owner or admin, simply click the **New Project** button and enter a name for it.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/integration-ks/ks_create_new_project.png)
+
+ > If you want to switch to another organization, click on the top right corner of the app.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/integration-ks/ks_main.png)
+
+> Select **Deactivate**.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/integration-ks/ks_main_deactive.png)
+
+> **Katalon Studio Activation** displays, type the email, password, and click **Active**.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/integration-ks/ks_activation.png)
+
+2. In **Project Settings**, select a team and project, in which you will upload your test results. Here you can reload this part by clicking **Fetch Projects**.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/integration-ks/ks_fetch_projects.png)
 
 3. Click **Apply** and then **OK** to finish your configurations.
 
-To verify if you have overridden the authentication successfully, on the top right corner, select your account > **View Dashboard**. You should be navigated to the project having been configured above.
+To verify if you have overridden the authentication successfully. On the top right corner, select your account, click **View Dashboard**.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/integration-ks/ks_view_dashboard.png)
+
+The project, which you have created, will be navigated to you.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/integration-ks/ks_dashboard_project_create.png)
 
 ## Automatically upload test results
 
