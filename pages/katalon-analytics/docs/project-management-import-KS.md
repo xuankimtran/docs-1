@@ -24,11 +24,11 @@ or a Test Suite Collection, and navigate to the **Result** tab.
 
 2. Select **Katalon TestOps**, and click **Upload**.
 
-Upload a Test Suite
+Upload a Test Suite:
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/from-katalon-studio/ks-upload-test-result.png)
 
-Upload a Test Suite Collection
+Upload a Test Suite Collection:
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/integration-ks/ks_upload_test_suite_col.png)
 
