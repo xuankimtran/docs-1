@@ -71,11 +71,11 @@ Given test case:
 
    - Default profile with `profile`= default.
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/default-profile.png" width=70%>
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/default-profile.png" width=65%>
 
    - Inherited profile with `profile`= HelloMe.
    
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/hello-me.png" width=70%>
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/hello-me.png" width=65%>
 
    The results showed in the **Console** log as below:
 
@@ -91,11 +91,11 @@ Given test case:
 
    - Default profile with `profile`= default.
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/default-profile.png" width=70%>
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/default-profile.png" width=65%>
 
    - Overidden profile with `profile`= MyProfile.
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/my-profile.png" width=70%>
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/my-profile.png" width=65%>
 
    The results showed in the **Console** log as below:
 
