@@ -143,7 +143,7 @@ The following section shows you a usage example. Based on testing environments, 
 
 ### Scope of Global Variables
 
-**Global Variables** are defined within the scope of a **Test Case** or a **Test Suite**, **NOT** a Test Suite Collection. In other words, you can choose to execute a test case or a test suite with a profile that contains global variables but cannot execute a test suite collection.
+**Global Variables** are declared within the scope of a **Test Case** or a **Test Suite**, **NOT** a Test Suite Collection. In other words, you can choose to execute a test case or a test suite with a profile that contains global variables but cannot execute a test suite collection.
 
 ### Use a Global Variable
 
