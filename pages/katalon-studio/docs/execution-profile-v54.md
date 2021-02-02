@@ -57,7 +57,7 @@ It's also applied for the Executive Platform of the Command Generator in case yo
 1. If a particular variable is not found in the selected running profile (any other but **default**), the test case will pick the value from the **default** to execute. 
 2. If certain variables are shared across all profiles, but the values are not changing, you can define them in the **default** and remove them from the **custom profiles**.
 
-The following example is to illustrate 
+The following example illustrates how the **Profile Inheritance** feature works:
 
 1. Define a default profile and a derived profile
 
@@ -110,6 +110,8 @@ The following section shows you a usage example. Based on testing environments, 
    ```
 
 ## Global Variables
+
+
 
 ### Use a Global Variable
 
