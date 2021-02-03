@@ -31,3 +31,23 @@ In the Katalon Studio, click **Katalon TestOps**, click **Upload** for uploading
 The window **Katalon TestOps** displays, choose the Team and Project, then click button **Upload**.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ks_upload_project_kt/ks_upload_katalon_testops.png)
+
+Go to the page [Katalon TestOps](https://analytics.katalon.com/organization/152590/home), sign in with your account. Then go to the **Project Management**, choose the project **CURA Healthcare 1**.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ks_upload_project_kt/ks_kt_project_management.png)
+
+The **Dashboard** displays.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ks_upload_project_kt/ks_kt_project_dashboard.png)
+
+Click to the sidebar **Reports & Analytics** > **Test Runs**.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ks_upload_project_kt/ks_kt_test_run.png)
+
+The **Test Runs** displays the results of running the Test Suite. Then click the number at the ID column.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ks_upload_project_kt/ks_kt_test_run_test_suite.png)
+
+The Test Run displays the Summary, Test Results, Files, and Defects.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ks_upload_project_kt/ks_kt_test_run_summary.png)
