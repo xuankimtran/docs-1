@@ -11,6 +11,8 @@ redirect_from:
 description: What's new in Katalon Studio 7.9?
 ---
 
+> Our latest release - v7.9.1 is available for upgrade. For a detailed list of changes, see [release notes](https://docs.katalon.com/katalon-studio/new/version-70.html).
+
 **Jan 19, 2021**
 
 Today we have released Katalon Studio 7.9 with major improvements for both Katalon Studio and Katalon Studio Enterprise Editions.
@@ -25,7 +27,6 @@ This version upgraded Eclipse IDE framework to the latest version, supported Cla
 >
 > * To reuse Preferences from previous versions, refer to [this guide](https://docs.katalon.com/katalon-studio/docs/katalon-studio-preferences.html#import-preferences).
 
-* For a detailed list of enhancements and bug fixes, see [release notes](https://docs.katalon.com/katalon-studio/new/version-70.html).
 * See [what’s new in v7.8](https://docs.katalon.com/katalon-studio/new/what-is-new-78.html).
 
 ## Multiple enhancements enabled by Eclipse Platform upgrade
