@@ -14,7 +14,13 @@ redirect_from:
 description: Release note 7.x
 ---
 
-## Version 7.9.1
+## Official Release - Version 7.9.1
+
+> Important
+>
+> If you upgrade from v7.9.0, you can use **Help** > **Check for updates...** for an in-app upgrade. [Learn more](https://docs.katalon.com/katalon-studio/docs/auto-updater.html)
+> 
+> If you currently use a version prior to v7.9.0, download the latest version from [our website](https://www.katalon.com/download/). To reuse Preferences from previous versions, refer to [this guide](https://docs.katalon.com/katalon-studio/docs/katalon-studio-preferences.html#import-preferences).
 
 ### Improvements
 
