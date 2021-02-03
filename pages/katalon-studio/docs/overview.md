@@ -42,6 +42,7 @@ description:
                 <ul>
                     <li><a href="https://docs.katalon.com/katalon-studio/new/what-is-new.html">What's new in
                             v7.9?</a>
+                    <li><a href="https://docs.katalon.com/katalon-studio/new/all-versions.html"">Release notes</a>
                     <li><a href="https://www.katalon.com/download/">Download</a>
                     </li>
                 </ul>
