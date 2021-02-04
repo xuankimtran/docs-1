@@ -16,9 +16,9 @@ Katalon TestOps provides seamless integration with Jira that brings several bene
 
 1. Navigate to **Katalon Settings** under Apps in Project Settings.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/jira-ka-configure/1-jira-ka-config.png)
+![](https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/jira-ka-configure/1-jira-ka-config.png)
 
-2. Enter the email registered for your Katalon account. (trial)
+2. Enter the email registered for your Katalon account. 
 
 3. Enter an **[API Key](https://docs.katalon.com/katalon-analytics/docs/ka-api-key.html)**.
 
@@ -30,7 +30,9 @@ Katalon TestOps provides seamless integration with Jira that brings several bene
 
 ## Configuration in Katalon TestOps
 
-1. Navigate to **Jira Settings** located in the toolbar of the project page.
+1. Navigate to **Jira Settings** located under Configurations.
+
+![](https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/jira-ka-configure/2-jira-ka-config.png)
 
 2. Enter Jira URL, Username, and Password.
 
