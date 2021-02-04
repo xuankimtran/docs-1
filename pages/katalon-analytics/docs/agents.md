@@ -44,13 +44,13 @@ Agents will use `serverurl` and `apikey` in **agentconfig** for:
 * Activating Katalon Runtime Engine used for test execution.
 * Sending test results to Katalon TestOps.
 
-We can see the **serverurl** and **apikey** in Generate configuration of Agent Setup. 
+We can see the `serverurl` and `apikey` in Generate configuration of Agent Setup. 
 
  ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/agents/kt_agentconfig_server_url.png)
 
  ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/agents/kt_agentconfig_apikey.png)
 
-Using the **serverurl** and **apikey** was shown [here](katalon-analytics/docs/install_kt_agent.html ).
+Using the `serverurl` and `apikey` was shown [here](katalon-analytics/docs/install_kt_agent.html ).
 
 ## Configure Proxy for Agent
 
