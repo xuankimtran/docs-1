@@ -4,13 +4,15 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/agents.html 
 description: 
 ---
-Agents manage local servers for executing the scheduled Test Runs in local Test Environment. Katalon supports Agents that are compatible with different execution environments.
+Agents manage local servers for executing the scheduled Test Runs the in local Test Environment. Katalon supports Agents that are compatible with different execution environments.
 
-> Agents are shared among members and projects within a team.
+> We share the Agents among members and projects within a team.
 
 ## Set up an Agent
 
 In **Configurations**, go to *"Agent setup"* > Select *"Local Environment"* > Follow instructions in the setup wizard.
+
+Setup Agents step by step, see [here](https://docs.katalon.com/katalon-analytics/docs/install_kt_agent.html).
 
 ## Start an Agent
 
@@ -18,17 +20,23 @@ Copy the command that was automatically generated in *Agent Setup* page and past
 
 It may take a while for the agent to start.
 
+Start Agents step by step, see [here](https://docs.katalon.com/katalon-analytics/docs/install_kt_agent.html).
+
 ## View Agent status
 
-You can check the Agent status by going to *"Test Environments"* in **Configurations**.
+You can check the Agent status by going to *Test Environments* in **Configurations**.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-terminology/test-environment.png)
 
 > You can delete an Agent anytime by clicking on the recycle bin icon.
->
-> ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/agents/test-environment.png)
->
-> You can delete an Agent anytime by clicking on the recycle bin icon. **Please note that this action cannot be undone.**
+
+> ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/agents/kt_delete_agent.png)
+
+> The window Delete Agent displays and click the button Delete.
+
+> ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/agents/kt_delete_agent_window.png)
+
+> **Please note that this action cannot be undone.**
 
 ## Authentication with Katalon TestOps
 
