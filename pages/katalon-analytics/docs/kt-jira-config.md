@@ -52,7 +52,7 @@ Katalon TestOps provides seamless integration with Jira that brings several bene
 
 4. Click **Save**.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/jira-ka-configure/2-jira-ka-config.JPG)
+![](https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/jira-ka-configure/2-jira-ka-config.png)
 
 ## Next Steps
 
