@@ -18,13 +18,13 @@ Katalon TestOps provides seamless integration with Jira that brings several bene
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/jira-ka-configure/1-jira-ka-config.png)
 
-2. Enter the email registered for your Katalon account.
+2. Enter the email registered for your Katalon account. (trial)
 
 3. Enter an **[API Key](https://docs.katalon.com/katalon-analytics/docs/ka-api-key.html)**.
 
 4. Click **Fetch Organization**.
 
-5. Enter **[Organization ID](https://docs.katalon.com/katalon-analytics/docs/getting-started.html)**.
+5. Enter **[Organization ID](https://docs.katalon.com/katalon-analytics/docs/getting-started.html)**.ss
 
 6. Click **Save**.
 
