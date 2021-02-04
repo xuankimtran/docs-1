@@ -7,26 +7,14 @@ permalink: katalon-analytics/docs/kt-jira-config.html
 ## Introduction
 
 Katalon TestOps provides seamless integration with Jira that brings several benefits for team collaboration. [Learn more](https://docs.katalon.com/katalon-analytics/docs/ka-integration-jira.html)
-
-**Releases**
-
-You can populate Jira releases or create your own releases in TestOps. This helps you better manage the progress of your projects.
-
-**Requirements**
-
-You can link to Jira stories to see whether the requirements are already covered or yet uncovered by related Test Cases. This helps you better keep track of all requirements that have been made.
-
-**Defects**
-
-You can map with failed test runs in TestOps with Jira bugs to track the performance of your executions.
-
 ## Prerequisites
 
 * The [Jira App](https://marketplace.atlassian.com/apps/1217501/katalon-bdd-test-automation-for-jira) has been installed.
+* You are the owner/admin of Organization. [Learn more](https://docs.katalon.com/katalon-analytics/docs/kt_invite_user_org.html#strongorganization-level-roles-and-permissionsstrong)
 
 ## Configuration in Jira
 
-1. Navigate to **Katalon Settings** at the bottom of Project Settings.
+1. Navigate to **Katalon Settings** under Apps in Project Settings.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/jira-ka-configure/1-jira-ka-config.png)
 
@@ -34,9 +22,11 @@ You can map with failed test runs in TestOps with Jira bugs to track the perform
 
 3. Enter an **[API Key](https://docs.katalon.com/katalon-analytics/docs/ka-api-key.html)**.
 
-4. Enter **[Organization ID](https://docs.katalon.com/katalon-analytics/docs/getting-started.html)**.
+4. Click **Fetch Organization**.
 
-5. Click **Save**.
+5. Enter **[Organization ID](https://docs.katalon.com/katalon-analytics/docs/getting-started.html)**.
+
+6. Click **Save**.
 
 ## Configuration in Katalon TestOps
 
