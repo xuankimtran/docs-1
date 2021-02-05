@@ -14,27 +14,27 @@ Katalon TestOps provides seamless integration with Jira that brings several bene
 
 ## Configuration in Jira
 
-1. Navigate to **Katalon Settings** under Apps in Project Settings.
+### 1. Navigate to **Katalon Settings** under Apps in Project Settings.
 
-![](https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/jira-ka-configure/1-jira-ka-config.png)
+![](https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/jira-ka-configure/1-jira-ka-config.jpg)
 
-2. Enter the email registered for your Katalon account. 
+### 2. Enter the email registered for your Katalon account. 
 
-3. Enter an **[API Key](https://docs.katalon.com/katalon-analytics/docs/ka-api-key.html)**.
+### 3. Enter an **[API Key](https://docs.katalon.com/katalon-analytics/docs/ka-api-key.html)**.
 
-4. Click **Fetch Organization**.
+### 4. Click **Fetch Organization**.
 
-5. Enter **[Organization ID](https://docs.katalon.com/katalon-analytics/docs/getting-started.html)**.ss
+### 5. Enter **[Organization ID](https://docs.katalon.com/katalon-analytics/docs/getting-started.html)**.ss
 
-6. Click **Save**.
+### 6. Click **Save**.
 
 ## Configuration in Katalon TestOps
 
-1. Navigate to **Jira Settings** located under Configurations.
+### 1. Navigate to **Jira Settings** located under Configurations.
 
-![](https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/jira-ka-configure/2-jira-ka-config.png)
+![](https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/jira-ka-configure/2-jira-ka-config.jpg)
 
-2. Enter Jira URL, Username, and Password.
+### 2. Enter Jira URL, Username, and Password.
 
 * Jira Cloud
 
@@ -48,11 +48,11 @@ Katalon TestOps provides seamless integration with Jira that brings several bene
     b. Use your username instead of an email in *Username*.\
     c. Enter Password.
 
-3. Click **Test Connection** to see if the connection is successful.
+### 3. Click **Test Connection** to see if the connection is successful.
 
-4. Click **Save**.
+### 4. Click **Save**.
 
-![](https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/jira-ka-configure/2-jira-ka-config.png)
+![](https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/jira-ka-configure/2-jira-ka-config.jpg)
 
 ## Next Steps
 
