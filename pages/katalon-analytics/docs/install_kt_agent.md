@@ -6,21 +6,21 @@ redirect_from:
     - "/katalon-analytics/docs/install_kt_agent/"
 description: 
 ---
-This tutorial shows you how to install the Agent Setup.
+This tutorial shows you how to install the Agent.
 
 > You need a Katalon account and sign in to this account.
 
 ## Download the Agent Setup from the Katalon TestOps
 
-On the page Katalon TestOps, in the Dashboard of a Project, click sidebar Configuration.
+On the page **Katalon TestOps**, in the **Dashboard** of a Project, click sidebar **Configuration**.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/kt_install_agent/kt_dashboard_configurations.png)
 
-Then choose Agent Setup.
+Then choose **Agent Setup**.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/kt_install_agent/kt_config_agent_setup.png)
 
-Agent Setup displays. We click to button Download Agent for downloading Agent Setup.
+**Agent Setup** displays. We click to button Download Agent for downloading Agent.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/kt_install_agent/kt_download_agent.png)
 
@@ -28,7 +28,7 @@ Unzip file Agent Setup, which we have just downloaded.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/kt_install_agent/kt_unzip_agent_setup.png)
 
-Open file cmd.exe.
+Open a new CMD window.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/kt_install_agent/kt_agent_cmd.png)
 
