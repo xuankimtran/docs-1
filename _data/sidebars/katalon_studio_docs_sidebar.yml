@@ -1215,6 +1215,8 @@ items:
                 url: /katalon-studio/docs/katalon-analytics-beta-integration.html
               - title: "Upload Test Results manually from Katalon Studio"
                 url: /katalon-analytics/docs/project-management-import-KS.html
+              - title: "Upload a Test Suite to the Katalon TestOps"
+                url: katalon-analytics/docs/ks_upload_project_kt.html
           - title: "Framework Integration"
             tree:
               - title: "Upload JUnit and Katalon Studio Test Results using Katalon Report Uploader"
@@ -1227,13 +1229,15 @@ items:
             tree:
               - title: "Overview"
                 url: /katalon-analytics/docs/test-run-config.html
-              - title: "Upload test scripts as a .zip file"
+              - title: "Upload Test Scripts to a Script Repository"
                 url: /katalon-analytics/docs/code-repo.html
               - title: "Upload test scripts from Git repositories"
                 url: /katalon-analytics/docs/git-test-project.html
               - title: "Local Test Environments"
                 tree:
-                  - title: "Create a Local Test Environment"
+                  - title: "Install Katalon TestOps Agent on a test machine" 
+                    url: /katalon-analytics/docs/install_kt_agent.html
+                  - title: "Create a Local Test Environment with Agent"
                     url: /katalon-analytics/docs/agents.html
                   - title: "Load Balancing for Local Test Environments"
                     url: /katalon-analytics/docs/load-balancing-agents.html
