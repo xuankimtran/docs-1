@@ -69,6 +69,10 @@ bundle exec jekyll clean
 bundle exec jekyll serve --watch --force_polling --incremental
 ```
 
+### Mac OS
+
+The guide to build Katalon documentation locally is [available here](https://katalon.atlassian.net/wiki/spaces/TEAM/pages/1163231233/Internal+How+to+build+Katalon+docs+locally)
+
 ## Katalon Community
 
 For technical and product-specific questions, please post your questions to Katalon [forum](https://forum.katalon.com/discussions). We have a team of product specialists and community users to assist with your issues.
