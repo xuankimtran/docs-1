@@ -41,7 +41,7 @@ The **Schedule Test Run** displays and follow the instruction in the setup wizar
 
 We can find scheduled Test Runs in **Test Run Types** of **Test Planning** after creating schedules. **Test Run Type** is a collection of Test Runs having the same Configurations. This section allows viewing the list of Test Run with similar Configurations (Test Environment, Trigger, Script Repository).
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-scheduler/test-run-type.png" width="" height="">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/create-plan/test-run-type.png" width="" height="">
 
 ## Next steps
 
