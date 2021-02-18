@@ -1161,8 +1161,6 @@ items:
     tree:
       - title: "Overview"
         url: /katalon-store/docs/overview.html
-      - title: "vnexpress"
-        url: /vnexpress.net/
       - title: "Install, use, and review a Plugin"
         url: /katalon-store/docs/user/getting-started.html
       - title: "Access to Katalon Store in Katalon Studio"
