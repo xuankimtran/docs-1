@@ -14,10 +14,11 @@ description:
 
 Katalon Recorder is a free, Selenium IDE alternative, lightweight web extension for automating actions and automated testing on the browser. Currently, we are available on Chrome and Firefox, and are working on publishing the extension to Edge.
 
-## The 30-Second Elevator Pitch
+## The 60-Second Elevator Pitch
 
 - **Katalon Recorder provides a faster time-to-value than Selenium IDE**. You can start automating instantly, without to worry about manually creating a project, test case, specifying a URL. A large percentage of our users use the product almost every day, so for them such time-saving compound to be a critical advantage.
 - **Katalon Recorder runs directly on your current tab**. This capability allows you to automate bits and pieces of your workflow, where a lot of actions are repetitive but some actions must be carried out by a human. This this different from Selenium IDE which always executes on a new tab.
+- **Katalon Recorder enables you to keep track of execution results**. You can report/share your execution results to your manager/colleagues/friends through our (free) integration with our companion product - [Katalon TestOps](https://docs.katalon.com/katalon-analytics/docs/overview.html).
 - **Katalon Recorder has consistent development efforts, dedicated community and support**. We are professionally motivated to help you resolve your problems, and listen to your suggestions about product improvement.
 
 ## What do people use Katalon Recorder for ?
