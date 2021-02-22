@@ -10,13 +10,13 @@ Agents manage local servers for executing the scheduled Test Runs the in local T
 
 ## Set up an Agent
 
-In **Configurations**, go to *"Agent setup"* > Select *"Local Environment"* > Follow instructions in the setup wizard.
+In **Configurations**, go to **Agent setup** > Select **Local Environment** > Follow instructions in the setup wizard.
 
 Setup Agents step by step, see [here](https://docs.katalon.com/katalon-analytics/docs/install_kt_agent.html).
 
 ## Start an Agent
 
-Copy the command that was automatically generated in *Agent Setup* page and paste to your CLI.
+Copy the command that was automatically generated in **Agent Setup** page and paste to your CLI.
 
 It may take a while for the agent to start.
 
@@ -24,7 +24,7 @@ Start Agents step by step, see [here](https://docs.katalon.com/katalon-analytics
 
 ## View Agent status
 
-You can check the Agent status by going to *Test Environments* in **Configurations**.
+You can check the Agent status by going to **Test Environments** in **Configurations**.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-terminology/test-environment.png)
 
