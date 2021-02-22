@@ -10,24 +10,23 @@ Agents manage local servers for executing the scheduled Test Runs in local Test 
 
 ## Set up an Agent
 
-In **Configurations**, go to *"Agent setup"* > Select *"Local Environment"* > Follow instructions in the setup wizard.
+1. Under **Configurations**, go to *"Agent setup"* 
+2. Select *"Local Environment"* 
+3. Follow 5-step instructions in the setup wizard.
 
 ## Start an Agent
 
-Copy the command that was automatically generated in *Agent Setup* page and paste to your CLI.
-
-It may take a while for the agent to start.
+* Copy the command that was automatically generated in *Agent Setup* page and paste to your CLI
+* It may take a while for the agent to start.
 
 ## View Agent status
 
 You can check the Agent status by going to *"Test Environments"* in **Configurations**.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-terminology/test-environment.png)
+![](https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/agents/agent-local.png)
 
 > You can delete an Agent anytime by clicking on the recycle bin icon.
->
-> ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/agents/test-environment.png)
->
+
 > You can delete an Agent anytime by clicking on the recycle bin icon. **Please note that this action cannot be undone.**
 
 ## Authentication with Katalon TestOps
