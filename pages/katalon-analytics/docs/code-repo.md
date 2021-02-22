@@ -10,18 +10,18 @@ Your test scripts can be uploaded as a .zip file or from Git repositories.
 
 ## Upload a .zip file to a Script Repository
 
-In **Configurations**, select *"Script Repositories"* > Click on *"Create Script Repository"*. 
+Under **Configurations**, select *"Script Repositories"* > Click on *"Create Script Repository"*. 
 
 1. Give a name to your project and describe what it does.
 2. Click *Choose Files* to browse to your compressed project code from your local machine. *Note: only a .zip file is allowed.*
 3. Click *Create* to upload the project code.
 
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/code-repo/upload-test-scripts.png)
+![](https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/code-repo/1-script-repo.png)
 
 Once your test scripts have been uploaded, you can view them from the list of Script Repositories.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/code-repo/view-script-repo.png)
+![](https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/code-repo/2-script-repo.png)
 
 ## Next steps
 
