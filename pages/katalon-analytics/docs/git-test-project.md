@@ -4,7 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/git-test-project.html 
 description: 
 ---
-This feature allows you to upload your projects stored in Git and execute them in Katalon TestOps without manually uploading to Test Projects.
+This feature allows you to upload your projects stored in Git and execute them in Katalon TestOps without manually uploading them to Test Projects.
 
 ## Create a new Git test project
 
@@ -12,14 +12,13 @@ To create a new Git project, go to **Test Projects** > Click on **Create Git Tes
 
 - **Repository URL**: your Git repository. (Example: https://github.com/katalon-studio-samples/ci-samples)
 - **Username**: your Git username
-- **Password**: your Git password OR *personal access token* (required for Github). To create a personal access token in Github, refer to [this document](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line).
+- **Password**: your Git password OR *personal access token* (required for Github). To create an individual access token in Github, refer to [this document](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line).
 
-- **Name**: your project’s name
+- **Name**: your project’s name.
 
 Click **Create** to create the Git test project.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/git-test-project/create-project.png" width="" height="">
-
 
 ## Plan your Git project
 
