@@ -30,11 +30,11 @@ In a profile, you need to define its content via adding variables. Do as follows
 1. Select a profile > click **Add**.
 2. In the **New Variable** dialog, specify details for the variable > click **OK**.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/variable-types/image2017-1-24-153A413A17.png" sidth=45%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/variable-types/image2017-1-24-153A413A17.png" sidth=60%>
 
 3. The variable is added to the profile accordingly.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/variable-types/default-profile.png" width=65%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/variable-types/default-profile.png" width=75%>
 
 ### Set default profile at project level
 
@@ -46,11 +46,11 @@ Right-click on your desired execution profile and select **Set as default Execut
 
 This profile becomes a default execution option for Test Case, Test Suite, and Test Suite Collection.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/tsc.png" width=65%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/tsc.png" width=75%>
 
 It's also applied for the Executive Platform of the Command Generator in case you use Katalon Runtime Engine.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/cli.png" width=65%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/cli.png" width=75%>
 
 ### Profile Inheritance
 
@@ -64,47 +64,47 @@ The following examples illustrate step-by-step how the **Profile Inheritance** f
 
 Given test case:
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/TC1.png" width=70%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/TC1.png" width=75%>
 
 1. Execute the test case with a default profile and an inherited profile (one at a time):
 
    - Default profile with `profile`= default.
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/default-profile.png" width=65%>
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/default-profile.png" width=75%>
 
    - Inherited global variables with `profile`= HelloMe.
    
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/hello-me.png" width=65%>
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/hello-me.png" width=75%>
 
    The results showed in the **Console** log as below:
 
    - default: 
    
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/run-with-default.png" width=70%>
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/run-with-default.png" width=75%>
 
    - HelloMe: 
    
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/run-with-hello-me.png" width=70%>
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/run-with-hello-me.png" width=75%>
 
 2. Execute the test case with a default profile and an overriden profile (one at a time):
 
    - Default profile with `profile`= default.
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/default-profile.png" width=65%>
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/default-profile.png" width=75%>
 
    - Overidden global variables with `profile`= MyProfile.
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/my-profile.png" width=65%>
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/my-profile.png" width=75%>
 
    The results showed in the **Console** log as below:
 
    - default: 
    
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/run-with-default.png" width=70%>
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/run-with-default.png" width=75%>
 
    - MyProfile: 
    
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/run-with-custom.png" width=70%>
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/run-with-custom.png" width=75%>
 
 ### View a profile 
 
@@ -112,7 +112,7 @@ Execution profile is provided with **Manual view** and **Script view** where an 
 
 In the **Script view**, profiles are in sync once a similar list of **Global Variables** is required for testing different environment types. To conduct, copy and paste the variables list from one profile to another.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/profile-script-view.png" width=50%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/profile-script-view.png" width=65%>
 
 ### Use a profile and Usage Examples
 
@@ -122,15 +122,15 @@ The following section shows you a usage example. Based on testing environments, 
 
 - **For test cases or test suites**: Select your desired profile on the top right > **all Global Variables** within your current project automatically uses these values.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/Untitled2.png" width=65%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/Untitled2.png" width=75%>
 
 - **For Test Suite Collection**: Select your desired profile to be executed with your Test Suite on the **Profile** column.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/4.png" width=65%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/4.png" width=75%>
 
 - **For [Console Mode](/display/KD/Console+Mode+Execution) execution**: Select your desired profile on the **Profile** field.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/5.png" width=50%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/5.png" width=75%>
 
    The **Generated Command** has **executionProfile** parameter so that you can change it manually. For example:
 
