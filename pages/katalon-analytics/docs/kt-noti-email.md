@@ -13,10 +13,11 @@ Once you have enabled TestOps integration in Katalon Studio, these settings are 
 
 ## Turn on/off Notification Emails
 
-You can turn on/off these settings in Katalon TestOps by going to **Profile** menu in the right top corner.
+1. You can turn on/off these settings in Katalon TestOps by going to **Profile** menu at the right top corner.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/configure-notification-emails/your-profile.png)
+![](https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/configure-notification-emails/your-profile.png)
 
-Then select **Notifications**, specify your settings and click **Save**.
+2. Select **Notifications Settings**, specify your settings  
+3. Click **Save**.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/configure-notification-emails/default-settings.png)
+![](https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/configure-notification-emails/config-email.png)
