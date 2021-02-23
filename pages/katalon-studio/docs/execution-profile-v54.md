@@ -54,10 +54,9 @@ It's also applied for the Executive Platform of the Command Generator in case yo
 
 ### Profile Inheritance
 
-**Profile Inheritance** allows you to define a default profile that configures testing environments through global variables and to define derived (custom) profiles that either inherit or override those configurations. Here are two common use cases:
+**Profile Inheritance** allows you to define a default profile that configures testing environments through global variables and to define derived (custom) profiles that either inherit or override those configurations. 
 
-1. If a particular variable is not found in the selected running profile (any other but **default**), the test case will pick the value from the **default** to execute. 
-2. If certain variables are shared across all profiles, but the values are not changing, you can define them in the **default** and remove them from the **custom profiles**.
+During the execution, if Katalon Studio does not find a variable that is used in the test within the designated profile, it will look into the Default Profile.
 
 **Running the examples:**
 
@@ -73,7 +72,7 @@ Given test case:
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/default-profile.png" width=65%>
 
-   - Inherited profile with `profile`= HelloMe.
+   - Inherited global variables with `profile`= HelloMe.
    
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/hello-me.png" width=65%>
 
@@ -93,7 +92,7 @@ Given test case:
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/default-profile.png" width=65%>
 
-   - Overidden profile with `profile`= MyProfile.
+   - Overidden global variables with `profile`= MyProfile.
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/my-profile.png" width=65%>
 
