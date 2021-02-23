@@ -29,8 +29,8 @@ Below are the comparison between Katalon Recorder and Selenium IDE:
    <tbody>
       <tr class="odd">
          <td><strong>Time To First Value</strong></td>
-         <td><img src="../../images/katalon-recorder/docs/katalon-recorder-vs-selenium-ide/image1.png"/></td>
-         <td><img src="../../images/katalon-recorder/docs/katalon-recorder-vs-selenium-ide/image2.png" /></td>
+         <td><img src="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image1.png"/></td>
+         <td><img src="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image2.png" /></td>
          <td>
             <ul>
                <li>
@@ -44,8 +44,8 @@ Below are the comparison between Katalon Recorder and Selenium IDE:
       </tr>
       <tr class="even">
          <td><strong>Test structures</strong></td>
-         <td><img src="../../images/katalon-recorder/docs/katalon-recorder-vs-selenium-ide/image1.png" /></td>
-         <td><img src="../../images/katalon-recorder/docs/katalon-recorder-vs-selenium-ide/image2.png" /></td>
+         <td><img src="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image1.png" /></td>
+         <td><img src="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image2.png" /></td>
          <td>
             <ul>
                <li>
@@ -59,8 +59,8 @@ Below are the comparison between Katalon Recorder and Selenium IDE:
       </tr>
       <tr class="odd">
          <td><strong>Drag and Drop</strong></td>
-         <td><img src="../../images/katalon-recorder/docs/katalon-recorder-vs-selenium-ide/image1.png" /></td>
-         <td><img src="../../images/katalon-recorder/docs/katalon-recorder-vs-selenium-ide/image2.png" /></td>
+         <td><img src="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image1.png" /></td>
+         <td><img src="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image2.png" /></td>
          <td>
             <ul>
                <li>
@@ -74,86 +74,86 @@ Below are the comparison between Katalon Recorder and Selenium IDE:
       </tr>
       <tr class="even">
          <td><strong>Record actions</strong></td>
-         <td><img src="../../images/katalon-recorder/docs/katalon-recorder-vs-selenium-ide/image1.png" /></td>
-         <td><img src="../../images/katalon-recorder/docs/katalon-recorder-vs-selenium-ide/image1.png" /></td>
+         <td><img src="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image1.png" /></td>
+         <td><img src="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image1.png" /></td>
          <td></td>
       </tr>
       <tr class="odd">
          <td><strong>Dashboard</strong></td>
-         <td><img src="../../images/katalon-recorder/docs/katalon-recorder-vs-selenium-ide/image1.png" /></td>
-         <td><img src="../../images/katalon-recorder/docs/katalon-recorder-vs-selenium-ide/image3.png" /></td>
+         <td><img src="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image1.png" /></td>
+         <td><img src="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image3.png" /></td>
          <td><strong>KR</strong> enables dashboard view with TestOps</td>
       </tr>
       <tr class="even">
          <td><strong>Data-Driven Testing</strong></td>
-         <td><img src="../../images/katalon-recorder/docs/katalon-recorder-vs-selenium-ide/image1.png" /></td>
-         <td><img src="../../images/katalon-recorder/docs/katalon-recorder-vs-selenium-ide/image3.png" /></td>
+         <td><img src="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image1.png" /></td>
+         <td><img src="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image3.png" /></td>
          <td><strong>KR</strong> supports CSV, JSON as data sources</td>
       </tr>
       <tr class="odd">
          <td><strong>Extension Scripts</strong></td>
-         <td><img src="../../images/katalon-recorder/docs/katalon-recorder-vs-selenium-ide/image1.png" /></td>
-         <td><img src="../../images/katalon-recorder/docs/katalon-recorder-vs-selenium-ide/image3.png" /></td>
+         <td><img src="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image1.png" /></td>
+         <td><img src="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image3.png" /></td>
          <td><strong>KR</strong> allows developers to add custom locators and actions</td>
       </tr>
       <tr class="even">
          <td><strong>User Guides</strong></td>
-         <td><img src="../../images/katalon-recorder/docs/katalon-recorder-vs-selenium-ide/image1.png" /></td>
-         <td><img src="../../images/katalon-recorder/docs/katalon-recorder-vs-selenium-ide/image1.png" /></td>
+         <td><img src="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image1.png" /></td>
+         <td><img src="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image1.png" /></td>
          <td></td>
       </tr>
       <tr class="odd">
          <td><strong>Manual add a test step</strong></td>
-         <td><img src="../../images/katalon-recorder/docs/katalon-recorder-vs-selenium-ide/image1.png" /></td>
-         <td><img src="../../images/katalon-recorder/docs/katalon-recorder-vs-selenium-ide/image1.png" /></td>
+         <td><img src="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image1.png" /></td>
+         <td><img src="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image1.png" /></td>
          <td></td>
       </tr>
       <tr class="even">
          <td><strong>Playback</strong></td>
-         <td><img src="../../images/katalon-recorder/docs/katalon-recorder-vs-selenium-ide/image1.png" /></td>
-         <td><img src="../../images/katalon-recorder/docs/katalon-recorder-vs-selenium-ide/image1.png" /></td>
+         <td><img src="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image1.png" /></td>
+         <td><img src="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image1.png" /></td>
          <td>Both support pause and resume</td>
       </tr>
       <tr class="odd">
          <td><strong>Pause/Resume</strong></td>
-         <td><img src="../../images/katalon-recorder/docs/katalon-recorder-vs-selenium-ide/image1.png" /></td>
-         <td><img src="../../images/katalon-recorder/docs/katalon-recorder-vs-selenium-ide/image1.png" /></td>
+         <td><img src="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image1.png" /></td>
+         <td><img src="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image1.png" /></td>
          <td></td>
       </tr>
       <tr class="even">
          <td><strong>Skip a step</strong></td>
-         <td><img src="../../images/katalon-recorder/docs/katalon-recorder-vs-selenium-ide/image3.png" /></td>
-         <td><img src="../../images/katalon-recorder/docs/katalon-recorder-vs-selenium-ide/image1.png" /></td>
+         <td><img src="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image3.png" /></td>
+         <td><img src="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image1.png" /></td>
          <td></td>
       </tr>
       <tr class="odd">
          <td><strong>Run in parallel</strong></td>
-         <td><img src="../../images/katalon-recorder/docs/katalon-recorder-vs-selenium-ide/image3.png" /></td>
-         <td><img src="../../images/katalon-recorder/docs/katalon-recorder-vs-selenium-ide/image1.png" /></td>
+         <td><img src="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image3.png" /></td>
+         <td><img src="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image1.png" /></td>
          <td></td>
       </tr>
       <tr class="even">
          <td><strong>Run in CI</strong></td>
-         <td><img src="../../images/katalon-recorder/docs/katalon-recorder-vs-selenium-ide/image3.png" /></td>
-         <td><img src="../../images/katalon-recorder/docs/katalon-recorder-vs-selenium-ide/image1.png" /></td>
+         <td><img src="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image3.png" /></td>
+         <td><img src="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image1.png" /></td>
          <td><strong>S.IDE</strong> supports Command-line runner</td>
       </tr>
       <tr class="odd">
          <td><strong>Control flow</strong></td>
-         <td><img src="../../images/katalon-recorder/docs/katalon-recorder-vs-selenium-ide/image1.png" /></td>
-         <td><img src="../../images/katalon-recorder/docs/katalon-recorder-vs-selenium-ide/image1.png" /></td>
+         <td><img src="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image1.png" /></td>
+         <td><img src="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image1.png" /></td>
          <td></td>
       </tr>
       <tr class="even">
          <td><strong>Support multiple browsers</strong></td>
-         <td><img src="../../images/katalon-recorder/docs/katalon-recorder-vs-selenium-ide/image1.png" /></td>
-         <td><img src="../../images/katalon-recorder/docs/katalon-recorder-vs-selenium-ide/image1.png" /></td>
+         <td><img src="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image1.png" /></td>
+         <td><img src="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image1.png" /></td>
          <td></td>
       </tr>
       <tr class="odd">
          <td><strong>Export test scripts</strong></td>
-         <td><img src="../../images/katalon-recorder/docs/katalon-recorder-vs-selenium-ide/image1.png" /></td>
-         <td><img src="../../images/katalon-recorder/docs/katalon-recorder-vs-selenium-ide/image1.png" /></td>
+         <td><img src="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image1.png" /></td>
+         <td><img src="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image1.png" /></td>
          <td></td>
       </tr>
    </tbody>

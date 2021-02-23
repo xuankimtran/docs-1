@@ -9,13 +9,13 @@ description:
 
 After you execute a scenario, a group of scenarios or all scenarios, the execution status is available under the explorer. You can see the number of passed and failed executions.
 
-![](../../images/katalon-recorder/docs/monitor-scenarios/image1.png)
+![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/monitor-scenarios/image1.png)
 
 ## Save execution log
 
 You can save the execution log of any test case execution by clicking on the button with the _Disk icon._ The log will be saved as a HTML file.
 
-![](../../images/katalon-recorder/docs/monitor-scenarios/image2.png)
+![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/monitor-scenarios/image2.png)
 
 ## View execution history with TestOps
 
@@ -27,11 +27,11 @@ To upload your execution, you have to execute scenarios first. You can start upl
 
 ### 2/ Click on Report button
 
-![](../../images/katalon-recorder/docs/monitor-scenarios/image3.png)
+![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/monitor-scenarios/image3.png)
 
 If you have not logged into TestOps account, you'll be prompted to do so.
 
-![](../../images/katalon-recorder/docs/monitor-scenarios/image4.png)
+![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/monitor-scenarios/image4.png)
 
 Visit <https://katalon.com/> and create an account if you have not done so.
 
@@ -43,15 +43,15 @@ Visit <https://analytics.katalon.com/login> and log in using your Katalon accoun
 
 If this is the first time you've logged in TestOps, create a new organization.
 
-![](../../images/katalon-recorder/docs/monitor-scenarios/image5.png)
+![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/monitor-scenarios/image5.png)
 
 ### 5/ Create a new project
 
-![](../../images/katalon-recorder/docs/monitor-scenarios/image6.png)
+![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/monitor-scenarios/image6.png)
 
 You can skip step 3 and 4 in the on-boarding process if you only want to integrate with Katalon Recorder.
 
-![](../../images/katalon-recorder/docs/monitor-scenarios/image7.png)
+![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/monitor-scenarios/image7.png)
 
 ### 6/ Go back to KR and click on Report button again
 
@@ -61,7 +61,7 @@ This time, you'll be prompted with a dialog to choose the project where your exe
 
 Once the results are uploaded, a new tab will be opened where you can see the results.
 
-![](../../images/katalon-recorder/docs/monitor-scenarios/image8.png)
+![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/monitor-scenarios/image8.png)
 
 ### 8/ Execute and upload results a few times to see the history
 
