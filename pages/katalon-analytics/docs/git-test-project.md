@@ -8,7 +8,7 @@ This feature allows you to upload your projects stored in Git and execute them i
 
 ## Create a new Git test project
 
-To create a new Git project, go to **Test Projects** > Click on **Create Git Test Project** button. Then fill in the below information:
+For creating a new Git project on Katalon TestOps, on sidebar **Configurations** > **Script Repositories**. Then fill in the below information:
 
 - **Repository URL**: your Git repository. (Example: https://github.com/katalon-studio-samples/ci-samples)
 - **Username**: your Git username
