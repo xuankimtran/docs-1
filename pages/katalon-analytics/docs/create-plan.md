@@ -7,25 +7,25 @@ description:
 
 ## Prerequisites
 
-- Have all Configurations set up for Remote Execution. [Learn more](katalon-analytics/docs/test-run-config.html)
+Have all Configurations set up for Remote Execution. [Learn more](katalon-analytics/docs/test-run-config.html)
 
 ## View Test Runs
 
 A list of Test Runs can be found in **Test Planning** section where you can see each Test Run in a calendar view.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-scheduler/test-run-calendar.png" width="" height="">
+<img src="https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/kt-scheduler/test-run-calendar.png" width="" height="">
 
 Click on each Test Run in the calendar to view summary.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-scheduler/test-run-details.png" width="" height="">
+<img src="https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/kt-scheduler/test-run-detail.png" width="" height="">
 
 ## Schedule Test Runs
 
-You can schedule Test Runs by clicking on *"Schedule Test Run"* button.
+1. Click **Schedule Test Run** button
+2. Follow the instruction in the setup wizard 
+3. Click **Create** to finish 
 
-Follow the instruction in the setup wizard and click *"Create"* to finish creating a new schedule for your Test Runs.
-
-After creating schedules, scheduled Test Runs can be found "*Test Run Types"* section in **Test Planning**. Test Run Type is a collection of Test Runs having the same configurations. This sectiion allows you an ability to view the list of Test Run with similar configurations (Test Environment, Trigger, Script Repository).
+> After creating schedules, scheduled Test Runs can be found **Test Run Types** section in **Test Planning**. **Test Run Type** is a collected list of **Test Runs** with the same configurations(including Test Environment, Trigger, Script Repository).
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-scheduler/test-run-type.png" width="" height="">
 
