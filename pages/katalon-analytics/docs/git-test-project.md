@@ -49,3 +49,7 @@ Click button **Create** to create the Git test project.
 In the list of **Script Repositories**, we created a new Git. 
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/git-test-project/kt_git_sample_create.png)
+
+## Plan your Git project
+
+To plan your Git projects, go to sidebar **Test Planning**. [Learn more](https://docs.katalon.com/katalon-analytics/docs/create-plan.html)
