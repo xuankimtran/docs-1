@@ -6,15 +6,15 @@ description:
 ---
 TestOps allows you to compare the results of multiple test executions in a side-by-side table so that you can know whether or not a test is producing the same effect each time you run it.
 
-1. On the sidebar **Reports & Analytics** of Katalon TestOps, choose **Test Runs**.
+On the sidebar **Reports & Analytics** of Katalon TestOps, choose **Test Runs**.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/compare-test-results/kt_report_test_runs.png)
 
-2. Select **Test Runs** from the list by checking the checkboxes.
+Select **Test Runs** from the list by checking the checkboxes.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/compare-test-results/kt_select_test_run.png)
 
-3. Click on the **Compare** button;
+Click on the **Compare** button;
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/compare-test-results/kt_test_run_button_compare.png)
 
