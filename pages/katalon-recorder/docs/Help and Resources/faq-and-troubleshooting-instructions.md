@@ -7,20 +7,6 @@ redirect_from:
     - "/katalon-recorder/docs/faq-and-troubleshooting-instructions/"
 description:
 ---
-Product information
--------------------
-
-**Does Katalon Recorder add-on collect the data and send to external services?**
-
-Katalon team do NOT collect any end-users data. Katalon Recorder's autosave feature will only save test artifacts on the local machine.
-
-**Will Katalon Recorder be maintained regularly?**
-
-Katalon team commit to maintaining both Katalon Recorder and Katalon Studio up to date and keeping the tools free of charge. 2018 Products Roadmap will be soon available to all users.
-
-**Is Katalon Recorder available for commercial use?**
-
-Katalon Recorder is free to use on any projects (commercial or not) of yours. But it's prohibited for you to sell/redistribute/decode Katalon Recorder.
 
 Upload files
 ------------
