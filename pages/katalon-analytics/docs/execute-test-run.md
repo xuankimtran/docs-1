@@ -6,17 +6,15 @@ description:
 ---
 ## Prerequisites
 
-- You have scheduled your Test Runs. [Learn more](katalon-analytics/docs/create-plan.html)
+- You have scheduled your Test Runs. [Learn more](https://docs.katalon.com/katalon-analytics/docs/create-plan.html)
 
 ## Execute Test Runs
 
-After Test Runs have been scheduled in Katalon TestOps, you can execute them without Katalon Studio.
+After we scheduled Test Runs in Katalon TestOps, we can execute them without Katalon Studio. In **Test Planning**, choose **Test Run Types**, click on the Run button.
 
-To execute your Test Runs, in **Test Planning**, go to "Test Run Types" > Click on the *"Run"* button.
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/execute-test-runs/kt_test_plan_test_run_type.png)
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/execute-test-runs/execute-test-runs.png" width="" height="">
-
-After you have finished executing the Test Runs, you can view the status in the calendar view. [Learn more](katalon-analytics/docs/create-plan.html#view-test-runs)
+After you have finished executing the Test Runs, you can view the status in the calendar view. [Learn more](https://docs.katalon.com/katalon-analytics/docs/create-plan.html#view-test-runs)
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/execute-test-runs/view-test-runs.png" width="" height="">
 
