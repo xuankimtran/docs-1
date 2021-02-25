@@ -7,9 +7,9 @@ description:
 
 ## Prerequisites
 
-- Should know [Script Responsitories](), [Agent Setup](katalon-analytics/docs/agents.html), and [Test Environment](katalon-analytics/docs/test-run-config.html).
+- Should know [Script Repositories](https://docs.katalon.com/katalon-analytics/docs/code-repo.html), [Agent Setup](https://docs.katalon.com/katalon-analytics/docs/agents.html), and [Test Environment](https://docs.katalon.com/katalon-analytics/docs/test-run-config.html).
 
-- Download and set up [Agent Setup](katalon-analytics/docs/agents.html).
+- Download and set up [Agent Setup](https://docs.katalon.com/katalon-analytics/docs/agents.html).
 
 ## View Test Runs
 
