@@ -10,7 +10,7 @@ description:
 
 ## Execute Test Runs
 
-After we scheduled Test Runs in Katalon TestOps, we can execute them without Katalon Studio. In **Test Planning**, choose **Test Run Types**, click on the Run button.
+After we scheduled Test Runs in Katalon TestOps, we can execute them without Katalon Studio. Before running a Test Run, we have to run the Agent of that Test Run. For running the Agent, we can [see here](https://docs.katalon.com/katalon-analytics/docs/install_kt_agent.html). In **Test Planning**, choose **Test Run Types**, click on the Run button.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/execute-test-runs/kt_test_plan_test_run_type.png)
 
