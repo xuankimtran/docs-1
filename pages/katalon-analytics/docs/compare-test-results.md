@@ -8,7 +8,7 @@ TestOps allows you to compare the results of multiple test executions in a side-
 
 1. Go to **Reports & Analytics** section in your project;
 2. Select test runs from the Test Runs list by checking the checkboxes;
-3. Click on the **Compare** button;
+3. Click on the **Compare** button.
 
 <img src="https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/compare-test-results/1-test-compare.png" width="" height="">
 
