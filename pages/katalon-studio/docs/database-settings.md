@@ -48,11 +48,13 @@ Where:
 
     - [MySQL](https://dev.mysql.com/doc/connectors/en/connector-j-reference-configuration-properties.html) (applied for Katalon Studio license).
 
-    Additionally, the Kakalon Studio Enterprise license allows you to connect to the external database if it has JDBC (please refer to this [example](https://docs.katalon.com/katalon-studio/docs/database-settings.html#example)).
+    Additionally, the **Kakalon Studio Enterprise license** allows you to connect to the external database if it has JDBC (please refer to the [section](https://docs.katalon.com/katalon-studio/docs/database-settings.html#how-jdbc-connection-works) below).
 
-## Example
+## How JDBC connection works
 
-This example is to show how to create a test file from MariaDB.
+> Kakalon Studio Enterprise license is required to enable JDBC connection.
+
+This section provides guidance to connect to the external database that has JDBC via a specific example - Create a test file from MariaDB. 
 
 1. Download the executable jar file of the library [here](https://downloads.mariadb.org/connector-java/2.4.4/) for connecting to MariaDB.
 
