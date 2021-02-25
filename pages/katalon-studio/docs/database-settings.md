@@ -9,9 +9,11 @@ redirect_from:
     - "/katalon-studio/docs/database-settings/"
 description: 
 ---
-These settings allow you to define a global database connection to be used in other features of Katalon Studio. You can access the settings at **Project > Settings > Database**.
+This document shows which kind of databases and how to use each one that Katalon Studio supports in Data-driven testing (DDT).
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/new-ui.png" width="795" height="427">
+To define a global database connection to be used in other features of Katalon Studio, access the settings at **Project > Settings > Database**.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/new-ui.png" width=70%>
 
 Where:
 
@@ -25,6 +27,28 @@ Where:
   * Postgre
 
 > Starting from **version 7.0.0 and later**, Katalon Studio users can configure additional database sources with the supported JDBC Driver field.
+
+## Supported Databases
+
+ Katalon Studio supports the four following databases. For more details, please refer to the original documents as below:
+
+- Built-in database sources:
+
+    - [SQLServer](https://docs.microsoft.com/en-us/sql/connect/jdbc/connecting-to-sql-server-with-the-jdbc-driver?view=sql-server-ver15) (applied for Katalon Studio Enterprise license).
+
+    - [Oracle](https://docs.oracle.com/database/121/JJDBC/urls.htm#JJDBC28268) (applied for Katalon Studio Enterprise license).
+
+    - [Postgre](https://jdbc.postgresql.org/documentation/head/connect.html) (applied for Katalon Studio license). 
+
+- External database source:
+
+    > From **7.9 onwards**:
+    >
+    > MySQL is removed from Katalon Studio built-in function.
+
+    - [MySQL](https://dev.mysql.com/doc/connectors/en/connector-j-reference-configuration-properties.html) (applied for Katalon Studio license).
+
+    Additionally, the Kakalon Studio Enterprise license allows you to connect to the external database if it has JDBC (please refer to this [example](https://docs.katalon.com/katalon-studio/docs/database-settings.html#example)).
 
 ## Example
 
