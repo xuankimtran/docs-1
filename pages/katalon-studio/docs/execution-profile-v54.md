@@ -34,7 +34,7 @@ In a profile, you need to define its content via adding variables. Do as follows
 
 3. The variable is added to the profile accordingly.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/variable-types/default-profile.png" width=75%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/variable-types/default-profile.png" width=70%>
 
 ### Set default profile at project level
 
@@ -46,65 +46,57 @@ Right-click on your desired execution profile and select **Set as default Execut
 
 This profile becomes a default execution option for Test Case, Test Suite, and Test Suite Collection.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/tsc.png" width=75%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/tsc.png" width=70%>
 
 It's also applied for the Executive Platform of the Command Generator in case you use Katalon Runtime Engine.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/cli.png" width=75%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/cli.png" width=70%>
 
 ### Profile Inheritance
 
 **Profile Inheritance** allows you to define a default profile that configures testing environments through global variables and to define derived (custom) profiles that either inherit or override those configurations. 
 
-During the execution, if Katalon Studio does not find a variable that is used in the test within the designated profile, it will look into the Default Profile.
+During the execution, if global variables are not defined in the profile being executed with, then Katalon Studio will look into the default profile and use them if existed.
+
+> **Note**
+>
+> Commonly used global variables should be stored in **default** profile, and other sets of global variables should be stored in **derived** (custom) profiles to avoid the code from duplicated and for an easy code management.
 
 **Running the examples:**
 
 The following examples illustrate step-by-step how the **Profile Inheritance** feature works:
 
-Given test case:
+- Given test case:
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/TC1.png" width=75%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/inherit-sample.png" width=70%>
 
-1. Execute the test case with a default profile and an inherited profile (one at a time):
+- Execute default profile:
 
-   - Default profile with `profile`= default.
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/inherit-default-profile.png" width=70%>
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/default-profile.png" width=75%>
+   Result shown as below:
 
-   - Inherited global variables with `profile`= HelloMe.
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/inherit-console-default.png" width=70%>
+
+- Execute stagging and production profile:
    
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/hello-me.png" width=75%>
+   When executing the **stagging** and **production** profiles, the **name**, **serveURL** and **credential** variables are overriden while the **usage** and **reference** variables are inherited from the global variables in **default** profile. 
 
-   The results showed in the **Console** log as below:
+   - Stagging profile:
 
-   - default: 
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/inherit-stagging-profile.png" width=70%>
+
+      Result shown as below:
    
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/run-with-default.png" width=75%>
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/inherit-console-stagging.png" width=70%>
 
-   - HelloMe: 
+   - Production profile:
+
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/inherit-production-profile.png" width=70%>
+
+      Result shown as below:
    
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/run-with-hello-me.png" width=75%>
-
-2. Execute the test case with a default profile and an overriden profile (one at a time):
-
-   - Default profile with `profile`= default.
-
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/default-profile.png" width=75%>
-
-   - Overidden global variables with `profile`= MyProfile.
-
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/my-profile.png" width=75%>
-
-   The results showed in the **Console** log as below:
-
-   - default: 
-   
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/run-with-default.png" width=75%>
-
-   - MyProfile: 
-   
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/run-with-custom.png" width=75%>
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/inherit-console-production.png" width=70%>
 
 ### View a profile 
 
@@ -122,15 +114,15 @@ The following section shows you a usage example. Based on testing environments, 
 
 - **For test cases or test suites**: Select your desired profile on the top right > **all Global Variables** within your current project automatically uses these values.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/Untitled2.png" width=75%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/Untitled2.png" width=70%>
 
 - **For Test Suite Collection**: Select your desired profile to be executed with your Test Suite on the **Profile** column.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/4.png" width=75%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/4.png" width=70%>
 
 - **For [Console Mode](/display/KD/Console+Mode+Execution) execution**: Select your desired profile on the **Profile** field.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/5.png" width=75%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/5.png" width=70%>
 
    The **Generated Command** has **executionProfile** parameter so that you can change it manually. For example:
 
@@ -143,6 +135,11 @@ The following section shows you a usage example. Based on testing environments, 
 ### Scope of Global Variables
 
 **Global Variables** are visible only in the scope of a **Test Case** or a **Test Suite**, **NOT** in a Test Suite Collection. In other words, a profile that contains global variables can be executed by a test case or a test suite, not a test suite collection.
+
+more descriptive hơn xíu và minh hoạ hình ảnh nữa
+11:29
+A Test Suite Collection comprises with one or more runs of Test Suites. In the definition of a Test Suite Collection, you can assign which Profile to apply to each Test Suites. This implies that a Profile (= a set of GlobalVariables) is scoped for each run of a Test Suite.
+In a Test Suite Collection, you can list single Test Suite more than once with different Profiles applied. In the above screenshot, you can find “Test Suites/CURA/Twins_capture” is listed twice. The first one has a Profile “CURA_ProductionEnv”. The second one has a Profile “CURA_DevelopmentEnv”. This association proves that a Profile is Test Suite scoped. Otherwise, the association can not be logically valid. — an inductive reasoning
 
 ### Use a Global Variable
 
@@ -184,11 +181,11 @@ Enter the syntax `${GlobalVariable.name}` in any supported locations. For exampl
 
 in HTTP Body of an API Test Object:
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/variable-types/1-GlobalVariable.png" width=55%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/variable-types/1-GlobalVariable.png" width=70%>
 
 in Selected Locator of a WebUI Test Object:
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/variable-types/2-GlobalVariable.png" width=55%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/variable-types/2-GlobalVariable.png" width=70%>
 
 ### Use escaping, special characters
 
