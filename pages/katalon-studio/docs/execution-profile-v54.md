@@ -64,7 +64,7 @@ During the execution, if global variables are not defined in the profile being e
 
 **Running the examples**
 
-The following examples illustrate how the **Profile Inheritance** feature works:
+The following examples illustrate how the **Profile Inheritance** feature works.
 
 - Given test case:
 
