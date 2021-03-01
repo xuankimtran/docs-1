@@ -19,15 +19,15 @@ API keys generated in Katalon TestOps are required in the following circumstance
 
 Create an API key from your **Katalon TestOps** account:
 
-1. Log into [Katalon TestOps](https://analytics.katalon.com/)
-2. Click on your profile icon
-3. On the menu tab, select **Katalon API Key**
-4. In the **API Key** view, click on the **Create API Key** button
+1. Log into [Katalon TestOps](https://analytics.katalon.com/).
+2. Click on your profile icon.
+3. On the menu tab, select **Katalon API Key**.
+4. In the **API Key** view, click on the **Create API Key** button.
 5. In the pop-up, enter a key name and click **Create**. You have just added a new API key successfully.
 6. To copy your API key, click on the icon of **Copy to clipboard**, then paste it in required places.
 
 ## How to remove an existing API Key
 
-1. From the **API Key** view, click on the **Remove** button of the key you want to remove
-2. Click **Delete** to confirm your removal
+1. From the **API Key** view, click on the **Remove** button of the key you want to remove.
+2. Click **Delete** to confirm your removal.
    > Note: This action cannot be undone. Once a key is removed, it cannot be used anymore.
