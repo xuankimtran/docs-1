@@ -23,7 +23,7 @@ Agents manage local servers for executing the scheduled Test Runs in local Test 
 
 You can check the Agent status by going to *"Test Environments"* in **Configurations**.
 
-![](https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/agents/agent-local.png)
+![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-analytics/docs/agents/agent-local.png)
 
 > You can delete an Agent anytime by clicking on the recycle bin icon.
 
