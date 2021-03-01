@@ -70,7 +70,7 @@ The following examples illustrate how the **Profile Inheritance** feature works.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/inherit-sample.png" width=70%>
 
-- Execute default profile:
+- Execute default profile with given test case:
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/inherit-default-profile.png" width=70%>
 
@@ -78,9 +78,9 @@ The following examples illustrate how the **Profile Inheritance** feature works.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/inherit-console-default.png" width=70%>
 
-- Execute stagging and production profile:
+- Execute stagging and production profile with given test case:
    
-   When executing the **stagging** and **production** profiles, the **name**, **serveURL** and **credential** variables are overriden while the **usage** and **reference** variables are inherited from the global variables in **default** profile. 
+   When executing the stagging and production profiles, the **name**, **serveURL** and **credential** variables are overriden while the **usage** and **reference** variables are inherited from the global variables in default profile. 
 
    - Stagging profile:
 
