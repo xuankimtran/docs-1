@@ -22,7 +22,7 @@ Katalon TestOps provides seamless integration with Jira that brings several bene
 
 4. Click **Fetch Organization**.
 
-5. Enter **[Organization ID](https://docs.katalon.com/katalon-analytics/docs/getting-started.html)**.ss
+5. Enter **[Organization ID](https://docs.katalon.com/katalon-analytics/docs/getting-started.html)**.
 
 6. Click **Save**.
 
