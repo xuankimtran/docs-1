@@ -10,13 +10,13 @@ Agents manage local servers for executing the scheduled Test Runs in local Test 
 
 ## Set up an Agent
 
-1. Under **Configurations**, go to *"Agent setup"* 
-2. Select *"Local Environment"* 
+1. Under **Configurations**, go to *"Agent setup"*. 
+2. Select *"Local Environment"*. 
 3. Follow 5-step instructions in the setup wizard.
 
 ## Start an Agent
 
-* Copy the command that was automatically generated in *Agent Setup* page and paste to your CLI
+* Copy the command that was automatically generated in *Agent Setup* page and paste to your CLI.
 * It may take a while for the agent to start.
 
 ## View Agent status
