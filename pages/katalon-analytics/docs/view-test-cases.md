@@ -14,12 +14,16 @@ This section displays all Test Cases which have the most recently executed Test 
 
 Under **Reports & Analytics**, navigate to **Test Cases** section. 
 
+![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-analytics/docs/view-test-cases/active-test-case.png)
+
 
 ## Stale Test Cases
 
 This section lists all Test Cases which are out-dated or no longer maintained. This helps you to review and decide whether those Test Cases need to be updated.
 
 On **Test Cases** page, select **Stale** tab.
+
+![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-analytics/docs/view-test-cases/stale-test-case.png)
 
 
 ## Slowest Test Cases
@@ -28,6 +32,8 @@ This section shows the list of Test Cases with the longest average durations.
 
 On **Test Cases** page, select **Slowest** tab.
 
+![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-analytics/docs/view-test-cases/slowest-test-case.png)
+
 
 ## Flaky Test Cases
 
@@ -35,9 +41,14 @@ A flaky test is a test that both passes and fails periodically without any code 
 
 On **Test Cases** page, select **Flaky** tab.
 
+![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-analytics/docs/view-test-cases/flaky-test-case.png)
+
+
 ## Platform Coverage 
 This section allows you to review details of test case quality based on OS & browser. You can check updates on a monthly or weekly basis. 
 
 On **Test Cases** page, select **Platform Coverage** tab.
+
+![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-analytics/docs/view-test-cases/platform-coverage.png)
 
 
