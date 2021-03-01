@@ -60,7 +60,7 @@ During the execution, if global variables are not defined in the profile being e
 
 > **Note**
 >
-> Commonly used global variables should be stored in the **default** profile and should store other sets of global variables in the **derived** (custom) profiles to avoid the code from duplicating and for an easy code management.
+> Commonly used global variables should be stored in the **default** profile and other sets of global variables should be stored in the **derived** (custom) profiles to avoid the code from duplicating and for an easy code management.
 
 **Running the examples:**
 
@@ -134,12 +134,15 @@ The following section shows you a usage example. Based on testing environments, 
 
 ### Scope of Global Variables
 
-**Global Variables** are visible only in the scope of a **Test Case** or a **Test Suite**, **NOT** in a Test Suite Collection. In other words, a profile that contains global variables can be executed by a test case or a test suite, not a test suite collection.
+**Global Variables** are visible in the scope of a **Test Case** or a **Test Suite**, **NOT** in a Test Suite Collection. In other words, a profile that contains a set of global variables can be executed by a Test Case or a Test Suite only. In other words:
 
-more descriptive hơn xíu và minh hoạ hình ảnh nữa
-11:29
-A Test Suite Collection comprises with one or more runs of Test Suites. In the definition of a Test Suite Collection, you can assign which Profile to apply to each Test Suites. This implies that a Profile (= a set of GlobalVariables) is scoped for each run of a Test Suite.
-In a Test Suite Collection, you can list single Test Suite more than once with different Profiles applied. In the above screenshot, you can find “Test Suites/CURA/Twins_capture” is listed twice. The first one has a Profile “CURA_ProductionEnv”. The second one has a Profile “CURA_DevelopmentEnv”. This association proves that a Profile is Test Suite scoped. Otherwise, the association can not be logically valid. — an inductive reasoning
+- **A Profile is Test Case scoped** implies that you can choose to execute a Test Case with any available Profiles (as in the following screenshot).
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/test-case-scoped.png" width=70%>
+
+- In a Test Suite Collection, you can list a single Test Suite more than once with different Profiles applied. In the following screenshot, you can find “Test Suites/New Test Suite (1)” is listed twice. The first one has “default" Profile, and the second one has “stagging”. This association proves that **a Profile is Test Suite scoped**. Otherwise, the association can not be logically valid.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/test-suite-scoped.png" width=70%>
 
 ### Use a Global Variable
 
