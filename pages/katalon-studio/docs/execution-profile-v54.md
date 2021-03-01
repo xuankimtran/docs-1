@@ -62,7 +62,7 @@ During the execution, if global variables are not defined in the profile being e
 >
 > Commonly used global variables should be stored in the **default** profile and other sets of global variables should be stored in the **derived** (custom) profiles to avoid the code from duplicating and for an easy code management.
 
-**Running the examples:**
+**Running the examples**
 
 The following examples illustrate how the **Profile Inheritance** feature works:
 
