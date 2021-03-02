@@ -1300,7 +1300,7 @@ items:
           - title: "View Test Case reports"
             url: /katalon-analytics/docs/view-test-cases.html
           - title: "Visual Testing" 
-            url: /katalon-studio/docs/ks_visual_testing.html
+            url: /katalon-analytics/docs/ks_visual_testing.html
       - title: "REST API"
         url: /katalon-analytics/docs/rest-api.html
       - title: "Tutorials"
