@@ -1299,6 +1299,8 @@ items:
             url: /katalon-analytics/docs/requirement-coverage.html
           - title: "View Test Case reports"
             url: /katalon-analytics/docs/view-test-cases.html
+          - title: "Visual Testing" 
+            url: /katalon-studio/docs/ks_visual_testing.html
       - title: "REST API"
         url: /katalon-analytics/docs/rest-api.html
       - title: "Tutorials"
