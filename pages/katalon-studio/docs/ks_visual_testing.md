@@ -1,7 +1,7 @@
 ---
 title: "Visual Testing" 
 sidebar: katalon_studio_docs_sidebar
-permalink: /katalon-analytics/docs/ks_visual_testing.html 
+permalink: /katalon-analytics/docs/ks-visual-testing.html 
 redirect_from:
 
 Description: 
