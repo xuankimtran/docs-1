@@ -20,7 +20,7 @@ KSE license is named license, meaning:
 
 ## Katalon Runtime Engine
 
-KRE license can be a node-locked or Floating license. When running from the command-line interface (CLI), one working session accounting for one license equals to a conducted process. Learn more about the use cases of [KRE](/katalon-studio/docs/intro-RE).
+KRE license can be a node-locked or Floating license. When running from the command-line interface (CLI), one working session accounting for one license equals to a conducted process. Learn more about the use cases of [KRE](https://docs.katalon.com/katalon-studio/docs/intro-RE.html).
 
 ## License types
 
