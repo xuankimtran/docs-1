@@ -41,7 +41,6 @@ The following example illustrates how to connect to a built-in database by **Cre
 
 - Katalon Studio v7.9 onwards.
 - Setting up MySQL database.
-- Setting up MySQL JDBC Driver.
 - MySQL database is running.
 
 To start the connection, go to **Project > Settings > Database**.
@@ -76,26 +75,44 @@ In addition, you can connect to the external database libraries if they have JDB
 
 > **Kakalon Studio Enterprise license** is required to connect external database libraries to Katalon Studio.
 
-This section provides guidance to connect to an external database that has JDBC driver by **Creating a test file from MariaDB**. 
+This section provides guidance to connect to an external database that has JDBC driver by **Creating a test file from MariaDB**.
 
-1. Download the executable jar file of the library [here](https://downloads.mariadb.org/connector-java/2.4.4/) for connecting to MariaDB.
+**Pre-requisites**:
 
-2. Create a new project and configure this project as below:
+- Katalon Studio v7.9 onwards.
+- Setting up MariaDB.
+- MariaDB is running.
 
-* In **External Libraries**: Add the downloaded library.
+To start the connection:
 
-    ![image](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/add.png)
+1. Download the executable jar file of MariaDB library [here](https://downloads.mariadb.org/connector-java/2.4.4/).
 
-* In **Database**: Enter the username and password used for authentication; and the ClassDriverName of the database that has the supported library connection (`JDBC`). Click **Test Connection**.
+2. Go to **Project > Settings > Library Management** to add the downloaded jar file > click **Apply**.
 
-    ![image](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/link.png)
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/mariadb-jar-file.png" width=70%>
 
-3. Create a new **Test Data** with the "Database Data" type.
+3. In **Database**: 
+
+    - Select "Secure User and Password" to enable "User" and "Password".
+    - Input "User" name and "Password" used for authentication, "JDBC Driver" and "Connection URL".
+    - Click **Test Connection** to check whether your database is connected to Katalon Studio.
+
+        Once the database is connected succesfully, the result is shown as below.
+
+        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/database-mariadb.png" width=70%>
+
+    - Click **Apply and Close** to complete the connection process.
+
+4. Create a new **Test Data** with the "Database Data" type.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/new-test-data.png" width=70%>
 
-4. Click **Edit Query**. In the **Database Connection and Query Settings** dialog, you can connect to the MariaDB to query data.
+5. - Click **Edit Query**. In the **Database Connection and Query Settings** dialog, you can connect to the MariaDB to query data.
 
-    ![image](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/edit-query.png)
+    - Input **SQL Query** > click **OK**.
 
-    ![image](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/query-data.png)
+        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/secure-mariadb.png" width=70%>
+
+        The result is shown as below:
+
+        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/result-mariadb.png" width=70%>
