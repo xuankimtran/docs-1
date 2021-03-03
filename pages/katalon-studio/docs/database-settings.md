@@ -48,7 +48,7 @@ To start the connection, go to **Project > Settings > Database**.
 1. In **Database**:
     - Select "Secure User and Password" to enable "User" and "Password".
     - Input "User" name and "Password" used for authentication, "JDBC Driver" and "Connection URL".
-    - Click **Test Connection** to check whether your database is connected to Katalon Studio. 
+    - Click **Test Connection** to verify whether your database is connected on Katalon Studio. 
 
     Once the database is connected succesfully, the result is shown as below.
     
@@ -95,7 +95,7 @@ To start the connection:
 
     - Select "Secure User and Password" to enable "User" and "Password".
     - Input "User" name and "Password" used for authentication, "JDBC Driver" and "Connection URL".
-    - Click **Test Connection** to check whether your database is connected to Katalon Studio.
+    - Click **Test Connection** to verify whether your database is connected on Katalon Studio.
 
         Once the database is connected succesfully, the result is shown as below.
 
