@@ -41,7 +41,7 @@ The following example illustrates how to connect to a built-in database by **Cre
 
 - Katalon Studio v7.9 onwards.
 - Setting up MySQL database.
-- Setting up My SQL JDBC Driver.
+- Setting up MySQL JDBC Driver.
 - MySQL database is running.
 
 To start the connection, go to **Project > Settings > Database**.
