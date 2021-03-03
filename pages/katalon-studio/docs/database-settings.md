@@ -69,7 +69,7 @@ To start the connection, go to **Project > Settings > Database**.
 
         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/data.png" width=70%>
 
-In addition, you can connect to the external database libraries if they have JDBC driver using **Kakalon Studio Enterprise license**. For more details, please refer to the [External database sources with JDBC driver](https://docs.katalon.com/katalon-studio/docs/database-settings.html#how-jdbc-connection-works) section.
+In addition, you can connect to the external database libraries if they have JDBC driver using **Kakalon Studio Enterprise license**. For more details, please refer to the [Connect to External database libraries with JDBC driver](https://docs.katalon.com/katalon-studio/docs/database-settings.html#how-jdbc-connection-works) section.
 
 ## Connect to External database libraries with JDBC driver
 
