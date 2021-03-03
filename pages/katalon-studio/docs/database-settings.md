@@ -45,15 +45,15 @@ This section shows how to connnect MySQL database to Katalon Studio to conduct D
 
 To start the connection, go to **Project > Settings > Database**.
 
-- Select "Secure User and Password" to enable "User" and "Password".
-- Input "User" name, "Password", "JDBC Driver" and "Connection URL".
-- Click **Test Connection** to check whether your database is connected to Katalon Studio. 
+1. Select "Secure User and Password" to enable "User" and "Password".
+2. Input "User" name, "Password", "JDBC Driver" and "Connection URL".
+3. Click **Test Connection** to check whether your database is connected to Katalon Studio. 
 
     Once the database is connected succesfully, the result is shown as below.
     
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/database-settings.png" width=70%>
 
-- Click **Apply and Close** to complete the connection process.
+4. Click **Apply and Close** to complete the connection process.
 
 In addition, you can connect the external database libraries to Katalon Studio if they have JDBC driver using **Kakalon Studio Enterprise license**. For more details, please refer to the [External database sources with JDBC driver](https://docs.katalon.com/katalon-studio/docs/database-settings.html#how-jdbc-connection-works) section.
 
