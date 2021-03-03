@@ -105,7 +105,7 @@ To start the connection:
 
 4. Create a new **Test Data** with the "Database Data" type.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/new-test-data.png" width=70%>
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/test-data-mariadb.png" width=70%>
 
 5. - Click **Edit Query**. In the **Database Connection and Query Settings** dialog, you can connect to the MariaDB to query data.
 
