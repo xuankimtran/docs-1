@@ -3,11 +3,7 @@ title: "Visual Testing"
 sidebar: katalon_studio_docs_sidebar
 permalink: /katalon-analytics/docs/ks-visual-testing.html 
 redirect_from:
-
-Description: 
-
-Katalon TestOps Visual Testing is a feature to help us compare screenshots between executions.
-
+description: Katalon TestOps Visual Testing is a feature to help us compare screenshots between executions.
 ---
 
 Katalon TestOps Visual Testing is a feature to help us compare screenshots of executions.
