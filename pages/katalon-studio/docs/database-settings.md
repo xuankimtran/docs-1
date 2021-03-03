@@ -26,7 +26,7 @@ Where:
 
 > Starting from **version 7.0.0 and later**, Katalon Studio users can configure additional database sources with the supported JDBC Driver field.
 
-## Connect built-in database sources
+## Built-in database libraries
 
 Katalon Studio provides you with the following built-in libraries list that allows the built-in database connection support.
 
@@ -55,11 +55,11 @@ To start the connection, go to **Project > Settings > Database**.
 
 - Click **Apply and Close** to complete the connection process.
 
-Additionally, **Kakalon Studio Enterprise license** allows you to connect to the external database sources if they has JDBC driver. For more details, please refer to the [ Connect external database sources using JDBC driver](https://docs.katalon.com/katalon-studio/docs/database-settings.html#how-jdbc-connection-works) section.
+In addition, you can connect the external database libraries to Katalon Studio if they have JDBC driver using **Kakalon Studio Enterprise license**. For more details, please refer to the [External database sources with JDBC driver](https://docs.katalon.com/katalon-studio/docs/database-settings.html#how-jdbc-connection-works) section.
 
-## Connect external database sources using JDBC driver
+## External database libraries with JDBC driver
 
-> Kakalon Studio Enterprise license is required to connect external database libraries to Katalon Studio.
+> **Kakalon Studio Enterprise license** is required to connect external database libraries to Katalon Studio.
 
 This section provides guidance to connect to the external database that has JDBC driver via a specific example - Create a test file from MariaDB. 
 
