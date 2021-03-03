@@ -9,7 +9,7 @@ redirect_from:
     - "/katalon-studio/docs/database-settings/"
 description: 
 ---
-This document shows which kind of databases and how to use each one that Katalon Studio supports in Data-driven testing (DDT).
+This document shows which kind of databases and how to use database sources that Katalon Studio supports in Data-driven testing.
 
 To define a global database connection to be used in other features of Katalon Studio, access the settings at **Project > Settings > Database**.
 
@@ -17,44 +17,51 @@ To define a global database connection to be used in other features of Katalon S
 
 Where:
 
-* Username: The username for authentication in the connected database server.
+* User: The username for authentication in the connected database server.
 * Password: The password for authentication in the connected database server.
 * JDBC Driver: The ClassDriverName of the database that has a supported library connection (JDBC).
-* Connection URL: The connection string of database server. Katalon Studio supports the following databases:
-  * MySQL
-  * SQLServer
-  * Oracle
-  * Postgre
+* Connection URL: The connection string of database server. Katalon Studio supports the following databases.
+  * For Katalon Studio license: MySQL and PostgreSQL.
+  * For Katalon Studio Enterprise license: Oracle and SQL Server.
 
 > Starting from **version 7.0.0 and later**, Katalon Studio users can configure additional database sources with the supported JDBC Driver field.
 
-## Supported Databases
+## Connect built-in database sources
 
- Katalon Studio supports the four following databases. For more details, please refer to the original documents as below:
+Katalon Studio provides you with the following built-in libraries list that allows the built-in database connection support.
 
-- Built-in database sources:
+- MySQL.
+- SQL Server.
+- Oracle SQL.
+- PostgreSQL.
 
-    - [SQLServer](https://docs.microsoft.com/en-us/sql/connect/jdbc/connecting-to-sql-server-with-the-jdbc-driver?view=sql-server-ver15) (applied for Katalon Studio Enterprise license).
+This section shows how to connnect MySQL database to Katalon Studio to conduct Data-driven testing.
 
-    - [Oracle](https://docs.oracle.com/database/121/JJDBC/urls.htm#JJDBC28268) (applied for Katalon Studio Enterprise license).
+**Requirements**:
 
-    - [Postgre](https://jdbc.postgresql.org/documentation/head/connect.html) (applied for Katalon Studio license). 
+- Katalon Studio v7.9 onwards.
+- Setting up MySQL database.
+- MySQL database is running.
 
-- External database source:
+To start the connection, go to **Project > Settings > Database**.
 
-    > From **7.9 onwards**:
-    >
-    > MySQL is removed from Katalon Studio built-in function.
+- Select "Secure User and Password" to enable "User" and "Password".
+- Input "User" name, "Password", "JDBC Driver" and "Connection URL".
+- Click **Test Connection** to check whether your database is connected to Katalon Studio. 
 
-    - [MySQL](https://dev.mysql.com/doc/connectors/en/connector-j-reference-configuration-properties.html) (applied for Katalon Studio license).
+    Once the database is connected succesfully, the result is shown as below.
+    
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/database-settings.png" width=70%>
 
-    Additionally, the **Kakalon Studio Enterprise license** allows you to connect to the external database if it has JDBC (please refer to the [section](https://docs.katalon.com/katalon-studio/docs/database-settings.html#how-jdbc-connection-works) below).
+- Click **Apply and Close** to complete the connetion process.
 
-## How JDBC connection works
+Additionally, **Kakalon Studio Enterprise license** allows you to connect to the external database sources if they has JDBC driver. For more details, please refer to the [ Connect external database sources using JDBC driver](https://docs.katalon.com/katalon-studio/docs/database-settings.html#how-jdbc-connection-works) section.
 
-> Kakalon Studio Enterprise license is required to enable JDBC connection.
+## Connect external database sources using JDBC driver
 
-This section provides guidance to connect to the external database that has JDBC via a specific example - Create a test file from MariaDB. 
+> Kakalon Studio Enterprise license is required to connect external database libraries to Katalon Studio.
+
+This section provides guidance to connect to the external database that has JDBC driver via a specific example - Create a test file from MariaDB. 
 
 1. Download the executable jar file of the library [here](https://downloads.mariadb.org/connector-java/2.4.4/) for connecting to MariaDB.
 
