@@ -1274,7 +1274,7 @@ items:
               - title: "View Test Plan Summary in Katalon Studio"
                 url: /katalon-analytics/docs/view-ci-plans.html
           - title: "Releases"
-            url: /katalon-analytics/docs/kt-jira-release.html
+            url: /katalon-analytics/docs/kt-release.html
       - title: "Test Management"
         tree:
           - title: "Compare Test Results"
