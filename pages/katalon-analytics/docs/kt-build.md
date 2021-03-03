@@ -24,6 +24,7 @@ With the **Build** feature in **Katalon TestOps**, you can populate releases fro
 
 4. Click **Save** to finish.
 
+
 ## View a Build  
 
 1. On the detailed page of a **Release**, scroll down to view a list of Builds 
@@ -47,7 +48,6 @@ With the **Build** feature in **Katalon TestOps**, you can populate releases fro
 5. Click **Save** to finish.
 
 
-
 ## Delete a Build 
 1. On the detailed page of a **Release**, scroll down to view a list of Builds.  
 2. On the row of a build name, click on triple dots icon. 
@@ -55,6 +55,4 @@ With the **Build** feature in **Katalon TestOps**, you can populate releases fro
 4. Click **Delete** button to finish. 
 
 ![](https://raw.githubusercontent.com/katalon-studio/docs-images/testops-new/katalon-analytics/docs/build/build-delete.png)
-
-
 
