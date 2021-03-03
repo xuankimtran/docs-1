@@ -58,11 +58,3 @@ With the **Build** feature in **Katalon TestOps**, you can populate releases fro
 
 
 
-##  Link Build to a Release 
-
-On a release detailed page, select **Test Runs** tab.
-
-<img src="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-analytics/docs/release/release-test-run-history.png" width="" height="">
-
-
-
