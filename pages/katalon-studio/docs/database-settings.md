@@ -52,18 +52,18 @@ To start the connection, go to **Project > Settings > Database**.
 
     Once the database is connected succesfully, the result is shown as below.
     
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/database-settings.png" width=70%>
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/database-settings.png" width=65%>
 
     - Click **Apply and Close** to complete the connection process.
 
 2. Create a new **Test Data** with the "Database Data" type.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/new-test-data.png" width=70%>
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/new-test-data.png" width=65%>
 
 3. - Click **Edit Query** > select "Use global database connection settings" in the **Database Connection and Query Settings** dialog to use the database setting up in step 1 to query data.
     - Input **SQL Query** > click **OK**.
 
-        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/SQL-query.png" width=70%>
+        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/SQL-query.png" width=65%>
     
         The result is shown as below:
 
@@ -89,7 +89,7 @@ To start the connection:
 
 2. Go to **Project > Settings > Library Management** to add the downloaded jar file > click **Apply**.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/mariadb-jar-file.png" width=70%>
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/mariadb-jar-file.png" width=65%>
 
 3. In **Database**: 
 
@@ -99,19 +99,19 @@ To start the connection:
 
         Once the database is connected succesfully, the result is shown as below.
 
-        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/database-mariadb.png" width=70%>
+        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/database-mariadb.png" width=65%>
 
     - Click **Apply and Close** to complete the connection process.
 
 4. Create a new **Test Data** with the "Database Data" type.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/test-data-mariadb.png" width=70%>
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/test-data-mariadb.png" width=65%>
 
 5. - Click **Edit Query**. In the **Database Connection and Query Settings** dialog, you can connect to the MariaDB to query data.
 
     - Input **SQL Query** > click **OK**.
 
-        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/secure-mariadb.png" width=70%>
+        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/secure-mariadb.png" width=65%>
 
         The result is shown as below:
 
