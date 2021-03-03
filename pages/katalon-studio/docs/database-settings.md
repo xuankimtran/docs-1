@@ -35,7 +35,7 @@ Katalon Studio provides you with the following built-in libraries list that allo
 - Oracle SQL.
 - PostgreSQL.
 
-The following example illustrate how to **Create a test file from MyQSL** to conduct Data-driven testing.
+The following example illustrates how to connect to a built-in database by **Creating a test file from MyQSL**.
 
 **Pre-requisites**:
 
@@ -76,7 +76,7 @@ In addition, you can connect to the external database libraries if they have JDB
 
 > **Kakalon Studio Enterprise license** is required to connect external database libraries to Katalon Studio.
 
-This section provides guidance to connect to the external database that has JDBC driver via an example how to **Create a test file from MariaDB**. 
+This section provides guidance to connect to an external database that has JDBC driver by **Creating a test file from MariaDB**. 
 
 1. Download the executable jar file of the library [here](https://downloads.mariadb.org/connector-java/2.4.4/) for connecting to MariaDB.
 
