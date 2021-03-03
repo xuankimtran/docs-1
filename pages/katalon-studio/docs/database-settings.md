@@ -45,7 +45,7 @@ The following example illustrates how to connect to a built-in database by **Cre
 
 To start the connection, go to **Project > Settings > Database**.
 
-1. In **Database**,
+1. In **Database**:
     - Select "Secure User and Password" to enable "User" and "Password".
     - Input "User" name and "Password" used for authentication, "JDBC Driver" and "Connection URL".
     - Click **Test Connection** to check whether your database is connected to Katalon Studio. 
