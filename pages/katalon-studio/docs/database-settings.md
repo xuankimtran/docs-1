@@ -37,7 +37,7 @@ Katalon Studio provides you with the following built-in libraries list that allo
 
 The following example illustrates how to connect to a built-in database by **Creating a test file from MyQSL**.
 
-**Pre-requisites**:
+**Requirements**:
 
 - Katalon Studio v7.9 onwards.
 - Setting up MySQL database.
@@ -77,7 +77,7 @@ In addition, you can connect to the external database libraries if they have JDB
 
 This section provides guidance to connect to an external database that has JDBC driver by **Creating a test file from MariaDB**.
 
-**Pre-requisites**:
+**Requirements**:
 
 - Katalon Studio v7.9 onwards.
 - Setting up MariaDB.
