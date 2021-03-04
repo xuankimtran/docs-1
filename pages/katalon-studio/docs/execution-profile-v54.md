@@ -108,7 +108,7 @@ The following examples illustrate how the **Profile Inheritance** feature works.
    
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/inherit-console-production.png" width=70%>
 
-### Use a profile and Usage Examples
+### Use a profile
 
 By default, Katalon Studio uses the **default** profile for executing tests, as indicated on the top right corner of the screen. You can select any available execution profiles in the drop-down menu.
 
