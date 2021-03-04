@@ -17,7 +17,7 @@ description:
 
 ## Execution Profile
 
-**Execution Profile** helps cover multiple and different environments to execute your automation test scripts with ease. You can configure the testing environment in terms of data and behaviors through **global variables**. A **global variable** is a variable defined in the execution profile and can be used in any test cases in the project.
+**Execution Profile** helps cover multiple and different environments to execute your automation test scripts with ease. You can configure the testing environment in terms of data and behaviors through **Global variables**. 
 
 ### Create a profile
 
@@ -25,7 +25,7 @@ Just like other test artifacts, you can CRUD the **Execution Profile** in the **
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/Untitled3.png" width=55%>
    
-In a profile, you need to define its content via adding variables. Do as follows:
+In a profile, you need to define its content via adding [Global variables](https://docs.katalon.com/katalon-studio/docs/execution-profile-v54.html#global-variables). Do as follows:
 
 1. Select a profile > click **Add**.
 2. In the **New Variable** dialog, specify details for the variable > click **OK**.
@@ -54,13 +54,15 @@ It's also applied for the Executive Platform of the Command Generator in case yo
 
 ### Profile Inheritance
 
-**Profile Inheritance** allows you to define a default profile that configures testing environments through global variables and to define derived (custom) profiles that either inherit or override those configurations. 
+Profile Inheritance allows you to define a default profile that configures testing environments through global variables and to define derived (custom) profiles that either inherit or override those configurations.
 
-During the execution, if global variables are not defined in the profile being executed with, then Katalon Studio will look into the default profile and use them if existed.
+During the execution, if global variables are not defined in the profile being executed with, then Katalon 
 
-> **Note**
->
-> Commonly used global variables should be stored in the **default** profile and other sets of global variables should be stored in the **derived** (custom) profiles to avoid the code from duplicating and for an easy code management.
+During the execution, if Katalon does not find a variable that is used in the test within the designated profile, it’ll look into Default Profile.
+
+**How to utilize Profile Inheritance**
+
+Commonly used global variables should be stored in the **default** profile and other sets of global variables should be stored in the **derived** (custom) profiles to avoid the code from duplicating and for an easy code management.
 
 **Running the examples**
 
@@ -74,27 +76,27 @@ The following examples illustrate how the **Profile Inheritance** feature works.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/inherit-default-profile.png" width=70%>
 
-   Result shown as below:
+   The result is shown as below:
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/inherit-console-default.png" width=70%>
 
 - Execute stagging and production profile with given test case:
    
-   When executing the stagging and production profiles, the **name**, **serveURL** and **credential** variables are overriden while the **usage** and **reference** variables are inherited from the global variables in default profile. 
+   When executing the stagging and production profiles, the **name**, **serveURL** and **credential** variables are overriden (highlighted in blue) while the **usage** and **reference** variables are inherited (highlighted in red) from the global variables in default profile. 
 
    - Stagging profile:
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/inherit-stagging-profile.png" width=70%>
 
-      Result shown as below:
-   
+      The result is shown as below:
+
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/inherit-console-stagging.png" width=70%>
 
    - Production profile:
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/inherit-production-profile.png" width=70%>
 
-      Result shown as below:
+      The result is shown as below:
    
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/inherit-console-production.png" width=70%>
 
@@ -131,6 +133,8 @@ The following section shows you a usage example. Based on testing environments, 
    ```
 
 ## Global Variables
+
+A **global variable** is a variable defined in the execution profile and can be used in test cases, test object, web service object and email configuration in the project.
 
 ### Scope of Global Variables
 
