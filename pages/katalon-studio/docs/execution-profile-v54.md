@@ -94,7 +94,7 @@ The following examples illustrate how the **Profile Inheritance** feature works.
 
 - Execute stagging and production profile with given test case:
    
-   When executing the stagging and production profiles, the **name**, **serveURL** and **credential** variables are overriden (highlighted in blue) while the **usage** and **reference** variables are inherited (highlighted in red) from the global variables in default profile. 
+   When executing the stagging and production profiles, the **name**, **serveURL** and **credential** variables are overriden (highlighted in red) while the **usage** and **reference** variables are inherited (highlighted in blue) from the global variables in default profile. 
 
    - Stagging profile:
 
