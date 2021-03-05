@@ -62,15 +62,9 @@ It's also applied for the Executive Platform of the Command Generator in case yo
 
 ### Profile Inheritance
 
-Profile Inheritance allows you to define a default profile that configures testing environments through global variables and to define derived (custom) profiles that either inherit or override those configurations.
+**Profile Inheritance** mimics your effort to modify and recreate the global variables in derived profiles.
 
-Profile Inheritance feature allows you to define a base class that provides specific functionality (data and behavior) and to define derived classes that either inherit or override that functionality.
-
-Does each additional profile (those in addition to default) require the developer to recreate each variable or do the additional profiles inherit from default? For instance if I had 3 variables in default but only needed one of them to change in a new “integration” profile, do I need to create all 3 variables in the integration profile or just add the one that I need overridden?
-
-During the execution, if global variables are not defined in the profile being executed with, then Katalon 
-
-During the execution, if Katalon does not find a variable that is used in the test within the designated profile, it’ll look into Default Profile.
+If global variables are not defined in the designated profile (any profiles but default), Katalon Studio will inherit the variables in the default if they exist to execute the test.
 
 **How to utilize Profile Inheritance**
 
