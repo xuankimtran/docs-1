@@ -64,7 +64,7 @@ It's also applied for the Executive Platform of the Command Generator in case yo
 
 **Profile Inheritance** mimics your effort to modify and recreate the global variables in derived profiles.
 
-If global variables are not defined in the designated profile (any profiles but default), Katalon Studio will inherit the variables in the default if they exist to execute the test.
+During the execution, if Katalon Studio does not find a variable that is used in the test within the designated profile (any profiles but default), it will look into and use those in default profile.
 
 **How to utilize Profile Inheritance**
 
