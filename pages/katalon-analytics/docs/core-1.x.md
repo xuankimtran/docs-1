@@ -1,12 +1,30 @@
 ---
-title: "Katalon TestOps Core 1.0" 
+title: "Katalon TestOps Core 1.x" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-analytics/docs/core-1.0.html 
+permalink: katalon-analytics/docs/core-1.x.html
+redirect from: katalon-analytics/docs/core-1.0.html
 description:
 ---
 > Release Notes for **Katalon TestOps Advanced** can be found [here](/katalon-analytics/docs/advanced-0.1.x.html).
 
-## New features
+## Latest Release - Version 1.1.0
+
+### New features
+
+- Introduce a new term — Build —  that is used in Katalon TestOps. Learn more about the definition of Build [here](/katalon-analytics/docs/testops-terminology.html).
+
+- View and manage Builds in Test Planning. [Learn more](/katalon-analytics/docs/kt-build.html)
+
+- The "Task" feature has been removed.
+
+### Improvements
+
+- Introduce a new and improved Katalon TestOps User Interface.
+
+
+## Version 1.0.0
+
+### New features
 
 - Monitor Test Runs in a calendar view. [Learn more](https://docs.katalon.com/katalon-analytics/docs/create-plan.html#view-test-runs)
 
@@ -24,7 +42,7 @@ description:
 
 - Create an Agent for Docker Environment. [Learn more](https://docs.katalon.com/katalon-analytics/docs/agents.html)
 
-## Improvements
+### Improvements
 
 - Simplify the Local Test Environment setup process.
 

@@ -1177,6 +1177,14 @@ items:
         tree:
           - title: "Welcome to Katalon TestOps"
             url: /katalon-analytics/docs/overview.html
+          - title: "What's new"
+            tree:
+              - title: What's new in TestOps Core 1.1.0?
+                url: /katalon-analytics/docs/new-core-11.html
+              - title: Core 1.x
+                url: /katalon-analytics/docs/core-1.0.html
+              - title: Advanced 0.1.x
+                url: /katalon-analytics/docs/advanced-0.1.x.html
           - title: "Terminology" 
             url: /katalon-analytics/docs/testops-terminology.html
           - title: "Access Katalon TestOps"
@@ -1185,16 +1193,6 @@ items:
             url: /katalon-analytics/docs/setup-org-team-project.html
           - title: "Set up Teams and Projects"
             url: /katalon-analytics/docs/setup-team.html
-      - title: "Release Notes"
-        tree:
-          - title: "Katalon TestOps Core"
-            tree:
-              - title: Version 1.x
-                url: /katalon-analytics/docs/core-1.0.html
-          - title: "Katalon TestOps Advanced (beta)"
-            tree:
-              - title: Version 0.1.x
-                url: /katalon-analytics/docs/advanced-0.1.x.html
       - title: "Configurations"
         tree:
           - title: "Katalon Studio Integration"
