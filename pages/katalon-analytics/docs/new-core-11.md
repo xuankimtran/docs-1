@@ -38,5 +38,4 @@ A 'build' is an attempt to compile all of the source code for the project into a
 
 Starting from version 1.1.0, Katalon TestOps allows you create Builds so that your team can view and track development activities more efficiently. You can link Builds to Test Runs and add multiple Builds to a Release. Each Build's detailed page will show you lists of Test Runs and Test Cases so that you can easily monitor the testing progress of each Build.
 
-See the [how-to guide](/katalon-analytics/docs/kt-build.html
-) for more detailed instructions.
+See the [how-to guide](/katalon-analytics/docs/kt-build.html) for more detailed instructions.
