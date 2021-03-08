@@ -1285,6 +1285,8 @@ items:
                 url: /katalon-analytics/docs/view-ci-plans.html
           - title: "Releases"
             url: /katalon-analytics/docs/kt-jira-release.html
+          - title: "Builds"
+            url: /katalon-analytics/docs/kt-build.html
       - title: "Test Management"
         tree:
           - title: "Compare Test Results"
