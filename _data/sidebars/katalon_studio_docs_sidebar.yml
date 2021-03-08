@@ -1182,7 +1182,7 @@ items:
               - title: What's new in TestOps Core 1.1.0?
                 url: /katalon-analytics/docs/new-core-11.html
               - title: Core 1.x
-                url: /katalon-analytics/docs/core-1.0.html
+                url: /katalon-analytics/docs/core-1.x.html
               - title: Advanced 0.1.x
                 url: /katalon-analytics/docs/advanced-0.1.x.html
           - title: "Terminology" 
