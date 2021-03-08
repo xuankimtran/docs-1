@@ -13,7 +13,7 @@ description:
 
 - Introduce a new term — Build —  that is used in Katalon TestOps. Learn more about the definition of Build [here](/katalon-analytics/docs/testops-terminology.html).
 
-- View and manage Builds in Test Planning. [Learn more](/katalon-analytics/docs/kt-build.html)
+- Create and manage Builds in Test Planning. [Learn more](/katalon-analytics/docs/kt-build.html)
 
 - The "Task" feature has been removed.
 
@@ -21,6 +21,7 @@ description:
 
 - Introduce a new and improved Katalon TestOps User Interface.
 
+See [What's new in TestOps Core 1.1.0?](/katalon-analytics/docs/new-core-11.html)
 
 ## Version 1.0.0
 
