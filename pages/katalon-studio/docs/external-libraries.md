@@ -53,7 +53,7 @@ With the ability to remove built-in libraries stored in the `.classpath` file of
 
 > **Note**
 >
-> This feature is applicable to certain libraries. Following is the list of libraries in `.classpath` that should not exclude in **Exclude libraries** field: 
+> This feature applies to all libraries in `classpath`, excluding:
 > - `com.kms.katalon.*.jar`
 > - `selenium-server-standalone-3.141.59.jar`
 > - `poi-3.17.jar`
@@ -61,6 +61,7 @@ With the ability to remove built-in libraries stored in the `.classpath` file of
 > - `poi-ooxml-schemas-3.17.jar`
 > - `java-client-7.0.0.jar`
 > - `io.cucumber.*.jar`
+> Excluding those libraries may cause failure of the relevant features.
 
 **Requirements**
 
