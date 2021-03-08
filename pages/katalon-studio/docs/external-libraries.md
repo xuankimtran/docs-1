@@ -51,10 +51,22 @@ When your `.jar` library is recognized by the test engine, you should be able to
 
 With the ability to remove built-in libraries stored in the `.classpath` file of a project folder, you can replace a built-in library with an external one for flexible libraries usage in a test project.
 
+> **Note**
+>
+> This feature applies to all libraries in `classpath`, excluding:
+> - `com.kms.katalon.*.jar`
+> - `selenium-server-standalone-3.141.59.jar`
+> - `poi-3.17.jar`
+> - `poi-ooxml-3.17.jar`
+> - `poi-ooxml-schemas-3.17.jar`
+> - `java-client-7.0.0.jar`
+> - `io.cucumber.*.jar`
+> Excluding those libraries may cause failure of the relevant features.
+
 **Requirements**
 
-* An active Katalon Studio Enterprise license
-* Katalon Studio version 7.8
+* An active Katalon Studio Enterprise license.
+* Katalon Studio version 7.8.
 
 1. Open **Project** > **Settings** > **Library Management** 
 2. In the **Exclude the following built-in libraries** section, click **Add** to add a built-in library’s name that will be removed.

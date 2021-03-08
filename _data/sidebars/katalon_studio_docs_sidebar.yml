@@ -1207,7 +1207,7 @@ items:
             url: /katalon-analytics/docs/getting-started.html
           - title: "Create Organization"
             url: /katalon-analytics/docs/kt-create-org.html
-          - title: "Invite the user into an Organization"
+          - title: "Invite a user into an Organization"
             url: /katalon-analytics/docs/kt_invite_user_org.html
           - title: "Set up Teams and Projects"
             url: /katalon-analytics/docs/setup-team.html
@@ -1229,6 +1229,8 @@ items:
                 url: /katalon-studio/docs/katalon-analytics-beta-integration.html
               - title: "Upload Test Results manually from Katalon Studio"
                 url: /katalon-analytics/docs/project-management-import-KS.html
+              - title: "Upload a Test Suite to the Katalon TestOps"
+                url: katalon-analytics/docs/ks_upload_project_kt.html
           - title: "Framework Integration"
             tree:
               - title: "Upload JUnit and Katalon Studio Test Results using Katalon Report Uploader"
@@ -1241,13 +1243,15 @@ items:
             tree:
               - title: "Overview"
                 url: /katalon-analytics/docs/test-run-config.html
-              - title: "Upload test scripts as a .zip file"
+              - title: "Upload Test Scripts to a Script Repository"
                 url: /katalon-analytics/docs/code-repo.html
               - title: "Upload test scripts from Git repositories"
                 url: /katalon-analytics/docs/git-test-project.html
               - title: "Local Test Environments"
                 tree:
-                  - title: "Create a Local Test Environment"
+                  - title: "Install Katalon TestOps Agent on a test machine" 
+                    url: /katalon-analytics/docs/install_kt_agent.html
+                  - title: "Create a Local Test Environment with Agent"
                     url: /katalon-analytics/docs/agents.html
                   - title: "Load Balancing for Local Test Environments"
                     url: /katalon-analytics/docs/load-balancing-agents.html
@@ -1337,32 +1341,62 @@ items:
             url: /katalon-analytics/docs/network-config.html
   - title: "Katalon Recorder"
     tree:
-      - title: "Overview"
-        url: /katalon-recorder/docs/overview.html
-      - title: "Release Notes"
-        url: /katalon-recorder/docs/release-notes.html
-      - title: "FAQ & Troubleshooting Instructions"
-        url: /katalon-recorder/docs/faq-and-troubleshooting-instructions.html
-      - title: "GUI Overview"
-        url: /katalon-recorder/docs/gui-overview.html
-      - title: "Katalon Recorder Helper Tool"
-        url: /katalon-recorder/docs/katalon-recorder-helper-tool.html
-      - title: "Extension Scripts (AKA user-extensions.js) for Custom Locator Builders and Actions"
-        url: /katalon-recorder/docs/extension-scripts-aka-user-extensionsjs-for-custom-locator-builders-and-actions.html
-      - title: "Writing Custom Script Formatter"
-        url: /katalon-recorder/docs/writing-custom-script-formatter.html
-      - title: "Samples"
-        url: /katalon-recorder/docs/samples.html
-      - title: "Selenese (Selenium IDE) Commands Reference"
-        url: /katalon-recorder/docs/selenese-selenium-ide-commands-reference.html
-      - title: "Export Test Case as Script"
-        url: /katalon-recorder/docs/export-test-script.html
-      - title: "Katalon Recorder vs Katalon Studio"
-        url: /katalon-recorder/docs/katalon-recorder-vs-katalon-studio.html
-      - title: "Auto Backup in Katalon TestOps"
-        url: /katalon-recorder/docs/auto-backup.html
-      - title: "Acknowledgments"
-        url: /katalon-recorder/docs/acknowledgments.html
+      - title: "Getting started"
+        tree:
+          - title: "Overview"
+            url: /katalon-recorder/docs/overview.html
+          - title: "Release Notes"
+            url: /katalon-recorder/docs/release-notes.html
+          - title: "GUI Overview"
+            url: /katalon-recorder/docs/gui-overview.html
+      - title: "Production Evaluation Center"
+        tree:
+          - title: "Katalon Recorder vs Selenium IDE"
+            url: /katalon-recorder/docs/katalon-recorder-vs-selenium-ide.html
+          - title: "Katalon Recorder vs Alternatives"
+            url: /katalon-recorder/docs/katalon-recorder-vs-alternatives.html
+      - title: "Get your job done"
+        tree:
+          - title: "Automate scenarios"
+            tree:
+              - title: "Selenese (Selenium IDE) Commands Reference"
+                url: /katalon-recorder/docs/selenese-selenium-ide-commands-reference.html
+              - title: "Basics of automating scenarios"
+                url: /katalon-recorder/docs/automate-scenarios.html
+              - title: "Handle conditional cases"
+                url: /katalon-recorder/docs/conditional-cases.html
+              - title: "Validate expected values"
+                url: /katalon-recorder/docs/validate-expected-values.html
+          - title: "Execute scenarios"
+            tree:
+              - title: "Basics of executing scenarios"
+                url: /katalon-recorder/docs/execute-scenarios.html
+          - title: "Monitor scenarios"
+            tree:
+              - title: "Basics of monitoring scenario executions"
+                url: /katalon-recorder/docs/auto-backup.html
+          - title: "Export scenarios"
+            tree:
+              - title: "Export Test Case as Script"
+                url: /katalon-recorder/docs/export-test-script.html
+              - title: "Writing Custom Script Formatter"
+                url: /katalon-recorder/docs/writing-custom-script-formatter.html
+          - title: "Data-driven excecution"
+            url: /katalon-recorder/docs/data-driven-execution.html
+          - title: "Extend Katalon Recorder"
+            tree:
+              - title: "Katalon Recorder Helper Tool"
+                url: /katalon-recorder/docs/katalon-recorder-helper-tool.html
+              - title: "Extension Scripts (AKA user-extensions.js) for Custom Locator Builders and Actions"
+                url: /katalon-recorder/docs/extension-scripts-aka-user-extensionsjs-for-custom-locator-builders-and-actions.html
+      - title: "Help & Resources"
+        tree:
+          - title: "FAQ & Troubleshooting Instructions"
+            url: /katalon-recorder/docs/faq-and-troubleshooting-instructions.html
+          - title: "Samples"
+            url: /katalon-recorder/docs/samples.html
+          - title: "Acknowledgments"
+            url: /katalon-recorder/docs/acknowledgments.html
   - title: "Katalium Framework"
     tree:
       - title: "Overview"

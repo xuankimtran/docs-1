@@ -4,24 +4,35 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/code-repo.html 
 description: 
 ---
-Script Repository is used to store your automation test scripts in **Katalon TestOps** that allows you to better manage and organize your test projects for Remote Execution.
+In **Katalon TestOps**, Script Repository is used to store your automation test scripts. Script Repository allows you to better manage and organize your test projects for Remote Execution.
 
 Your test scripts can be uploaded as a .zip file or from Git repositories.
 
 ## Upload a .zip file to a Script Repository
 
-Under **Configurations**, select *"Script Repositories"* > Click on *"Create Script Repository"*. 
+ In **Katalon TestOps**, click the button **Setting** on the top right corner, choose **Project Management**.
 
-1. Give a name to your project and describe what it does.
-2. Click *Choose Files* to browse to your compressed project code from your local machine. *Note: only a .zip file is allowed.*
-3. Click *Create* to upload the project code.
+ ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/code-repo/kt_project_management.png)
 
+ Then, choose a project.
 
-![](https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/code-repo/1-script-repo.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/code-repo/kt_choose_project.png)
 
-Once your test scripts have been uploaded, you can view them from the list of Script Repositories.
+The **Dashboard** of the project which we have just chosen displays. On the left sidebar, click **Configuration**, then click **Script Repositories**.
 
-![](https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/code-repo/2-script-repo.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/code-repo/kt_config_script_repo.png)
+
+Click button Create Script Repositories.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/code-repo/kt_create_script_repo.png)
+
+Give a name to your project and describe what it does. Click *Choose Files* to browse to your compressed project code from your local machine. Only a .zip file is allowed. Click button *Create* to upload the project code.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/code-repo/kt_choose_file_upload.png)
+
+Once you uploaded test scripts successfully, you can view them from the list of **Script Repositories**.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/code-repo/kt_script_repository.png)
 
 ## Next steps
 

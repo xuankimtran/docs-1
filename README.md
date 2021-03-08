@@ -69,6 +69,12 @@ bundle exec jekyll clean
 bundle exec jekyll serve --watch --force_polling --incremental
 ```
 
+View all files written by someone (on github):
+
+```
+git log --pretty="%H" --author="email" | while read commit_hash; do git show --oneline --name-only $commit_hash | tail -n+2; done | sort | uniq
+```
+
 ## Katalon Community
 
 For technical and product-specific questions, please post your questions to Katalon [forum](https://forum.katalon.com/discussions). We have a team of product specialists and community users to assist with your issues.
