@@ -30,19 +30,23 @@ This tutorial shows you how to create teams and projects.
 
 * In **Katalon Administrantion** page, on the top right corner, click the symbol **Setting**. Click **User Management**.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_set_org_user_manage.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt2_set_org_user_manage.png)
 
-* The **Manager User** displays with **Users** and **Pending Invitations**.
+* The **Manager User** displays with **Users** 
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_manager_user.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt2_manager_user.png)
+
+and **Pending Invitations**.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt2_manager_user_1.png)
 
 * Go to **Users** > Click on the **Invite user** button on the top right corner.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_user_manage_invite.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt2_user_manage_invite.png)
 
 * Enter valid email addresses and click **Invite**. *Note: You can enter multiple accounts at the same time.*
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_invite_user.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt2_invite_user.png)
 
 * An invitation email will be sent to the invited members, or you can copy the activation link and send it to them to confirm and join your organization.
 

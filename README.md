@@ -60,6 +60,7 @@ Install:
 sudo apt update
 sudo apt upgrade -y
 sudo apt install -y build-essential ruby ruby-dev ruby-bundler
+cd /mnt/d/docs
 bundle install
 ```
 
