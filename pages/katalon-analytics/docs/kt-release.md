@@ -60,7 +60,7 @@ You can view a list of Test Run within each Release by access the Release detail
 
 > **Quick tips**: You can also view your releases in Katalon Studio’s Test Explorer.
 >
-> To view releases, in Test Explorer, go to **TestOps** > **Releases**.
+> To view releases, in Test Explorerss, go to **TestOps** > **Releases**.
 >
 > <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/release/view-release-ks.png" width="" height="">
 
