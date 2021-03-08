@@ -83,6 +83,10 @@ On a release detailed page, select **Test Runs** tab.
 > To view releases, in Test Explorer, go to **TestOps** > **Releases**.
 > <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/release/view-release-ks.png" width="" height="">
 
+## Next steps
+
+- [Create and manage Builds](/katalon-analytics/docs/kt-build.html)
+
 ## Related topics
 
 - [Link Test Cases to Jira Requirements](https://docs.katalon.com/katalon-analytics/docs/ka-integration-jira.html)

@@ -22,7 +22,7 @@ Manages your test cases and testing progress by milestone. With Katalon TestOps 
 
 ## Build
 
-Represents a version of a software product, which the development team hands over to the testing team for testing purposes. A build also consists of one or more **Test Case**   
+Represents a version of a software product, which the development team hands over to the testing team for testing purposes. A build also consists of one or more **Test Cases**.  
 
 **Usage**
 
