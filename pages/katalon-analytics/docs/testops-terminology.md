@@ -7,7 +7,7 @@ redirect_from:
 
 ## Release
 
-Represents a version or a milestone of a software product, which consists of one or more Test Cases.  
+Represents a version or a milestone of a software product, which consists of one or more **Test Cases**.  
 
 **Usage**
 
@@ -17,7 +17,22 @@ Manages your test cases and testing progress by milestone. With Katalon TestOps 
 
 **Example**                                                                          
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-terminology/release.png) 
+![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-analytics/docs/release/release-list.png) 
+
+
+## Build
+
+Represents a version of a software product, which the development team hands over to the testing team for testing purposes. A build also consists of one or more **Test Cases**.  
+
+**Usage**
+
+This feature strengthens collaboration among developers and testers. Hence, you can manage product readiness efficiently and seamlessly. 
+
+> **Build** list can be viewed and managed on **Releases** detailed page.      
+
+**Example**                                                                          
+
+![](https://raw.githubusercontent.com/katalon-studio/docs-images/testops-new/katalon-analytics/docs/build/build-list.png) 
 
 
 ## Test Run
@@ -34,9 +49,9 @@ Gives you the related information of running Test Cases.  A Test Run will keep t
 
 **Examples**
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-terminology/test-run.png)
+![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-analytics/docs/view-reports-overview/report-test-run.png)
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-terminology/plan-test-run.png)
+![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-analytics/docs/kt-scheduler/test-run-detail.png)
 
 
 ## Trigger
@@ -46,9 +61,7 @@ By when the Test Run should be executed. (A Trigger can be an Event (e.g. from G
 **Usage**
 
 **Katalon TestOps** provides you an ability to determine when the Test Run is executed so that you can actively plan your testing procedure.
-
-> To create a Trigger, go to **Test Planning** > *Test Run Types* > Select the one you want to create a Trigger for > Click *"Create Trigger"* button.                  
-
+                 
 **Example**
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-terminology/trigger.png)
@@ -69,6 +82,8 @@ Used to execute test cases along with Script Repository after being configured. 
 **Example**
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-terminology/test-environment.png)
+
+
 
 ## Script Repository
 
@@ -110,8 +125,6 @@ Gives you information after executing a subset of the overall Test Run. In **Kat
 - One or more Test Cases
 - Test Environment and test scripts in Script Repository used for the execution of each Test Case 
 
-> To view Test Session, in **Reports & Analytics** section, go to *Test Runs* > select a Test Run you want to view > *Test Session* tab.
-
 **Example**                                                                          
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-terminology/test-session.png) 
@@ -132,7 +145,8 @@ Gives you detailed results after a Test Case is executed from **Katalon Studio**
 
 ## Defect
 
-Represents a Jira Issue linked to a (failed) Test Run in **Katalon TestOps**.                                                                                             
+Represents a Jira Issue linked to a (failed) Test Run in **Katalon TestOps**.                                                                                       
+
 **Usage**
 
 Gives you an oveview of performance of Test Runs by Jira issue so that you can have full control and awareness of any problem for better test maintenance.
@@ -144,6 +158,8 @@ Gives you an oveview of performance of Test Runs by Jira issue so that you can h
 **Example**
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-terminology/defect.png)
+
+
 
 ## Assertion
 
@@ -199,7 +215,6 @@ A collection of Test Cases.
 Organizes Test Cases for better management and maintenance.
 
 > You can find Test Suites in **Test Management** section.
-
 
 **Example**
 

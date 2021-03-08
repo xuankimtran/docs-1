@@ -8,7 +8,9 @@ Same as [Agents for local environments](/katalon-analytics/docs/agents.html), **
 
 ## Set up an Agent
 
-In **Configurations**, go to *"Agent setup"* > select *"Docker Environment"* > Follow instructions in the setup wizard.
+1. Under **Configurations**, go to *"Agent setup"* 
+2. Select *"Docker Environment"
+3. Follow instructions in the setup wizard
 
 ## Start an Agent
 
