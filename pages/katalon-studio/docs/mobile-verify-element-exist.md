@@ -20,6 +20,7 @@ Parameters  
 | Parameter | Parameter Type | Mandatory | Description |
 | --- | --- | --- | --- |
 | to | TestObject  | Required | Represent a mobile element |
+| timeout | Integer | Required | system will wait at most timeout (seconds) to return result |
 | flowControl | FailureHandling | Optional | Specify [failure handling](/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
