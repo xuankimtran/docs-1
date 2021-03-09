@@ -84,7 +84,7 @@ Before users accept the invitation, their email address will display in the list
 
 You can view the list of existing members in **Users** page once they have accepted the invitation to join your organization.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_manager_user.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt2_manager_user.png)
 
 > After joining the organization, their name and email address will display in the **Users** section with the default **User** role. You can update their permission by editing information on the User's details page.
 
@@ -92,7 +92,7 @@ You can view the list of existing members in **Users** page once they have accep
 
 On the left sidebar, click **Users**. On the **Manager Users** click the remove icon in the last column and confirm your action in the pop-up.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_manage_user_remove_icon.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt2_manager_user_remove_icon.png)
 
 ### Update user permission
 
@@ -100,11 +100,11 @@ On the left sidebar, click **Users**. On the **Manager Users** click the remove 
 
 The Admin and Owner can reassign the existing Admin and User to a new role. Select your organization/team > from **Users** Tab, click the pencil icon in the last column.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_manager_user_change_user.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt2_manager_user_change_user.png)
 
 On page **detail**, show **Role** select **Admin**, **User**, **Billing Manager** or **Owner** role in the drop-down list. A user can have different roles in different teams.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_change_role_user.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt2_change_role_user.png)
 
 **Assign Billing Manager role**
 
@@ -116,7 +116,7 @@ The Owner and Admin of an organization can transfer the ownership of an Owner to
 
 * Select an organization, go to **Manage Users** page, go to the user's details page by clicking on the pencil icon.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_change_role_user.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt2_change_role_user.png)
 
 * Select **Owner** in the drop-down list.
 
@@ -130,11 +130,11 @@ The Owner and Admin of an organization can transfer the ownership of an Owner to
 
 To rename an Organization, go to your Organization and click **Settings**, choose **Organization Management**. 
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_set_org_management.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt2_set_org_management.png)
 
 You can edit the name in the **Organization profile** section.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_org_profile.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt2_org_profile.png)
 
 Click **Update** to save your changes.
 
@@ -144,12 +144,10 @@ Click **Update** to save your changes.
 
 To delete an Organization, click **Settings**, choose **Organization Management**, the **Settings** page displays. In the **Settings** page, you will see **Delete this organization** option. Click the button **I understand the consequences, delete this organization**. 
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_set_delete_org.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt2_set_delete_org.png)
 
 Type the organization's name and click the button **I understand the consequences, delete this organization**. 
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_confirm_del_org.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt2_confirm_del_org.png)
 
 > You cannot undo this action. You will permanently delete your organization, projects, licenses and remove all associated teams.
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/delete-org.png" width="" height="">
