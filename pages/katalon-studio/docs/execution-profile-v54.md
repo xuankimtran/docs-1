@@ -136,9 +136,7 @@ A **global variable** is a variable defined in the execution profile and can be 
 
 ### Scope of Global Variables
 
-During runtime, global variables' value can not be passed from a Test Suite to another Test Suite within a Test suite Collection. This infers you can run or modify all the Test Suite in parallel without clashing.
-
-In a Test Suite Collection, you can list a Test Suite more than once with different Profiles applied, which implies a Profile is scoped for each run of a Test Suite.
+During runtime, global variables' value can not be passed from a Test Suite to another Test Suite within a Test Suite Collection. This infers you can run or modify all the Test Suites in a Test Suite Collection in parallel without clashing.
 
 In the following screenshot, you can find "Test Suites/New Test Suite (1)" is listed twice. The first one uses "default," and the second one has "stagging". This association proves that **a Profile is Test Suite scoped**. Otherwise, the association can not be logically valid.
 
