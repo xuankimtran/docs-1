@@ -136,15 +136,13 @@ A **global variable** is a variable defined in the execution profile and can be 
 
 ### Scope of Global Variables
 
-During runtime, the value of global variables can not be passed from a Test Suite to another Test Suite within a Test suite Collection.
+During runtime, global variables' value can not be passed from a Test Suite to another Test Suite within a Test suite Collection. This infers you can run or modify all the Test Suite in parallel without clashing.
 
-   - In a Test Suite, you can assign which Profile to apply to each Test Case, which implies that **Global variables are Test Case scoped**.
+In a Test Suite Collection, you can list a Test Suite more than once with different Profiles applied, which implies a Profile is scoped for each run of a Test Suite.
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/test-case-scoped.png" width=70%>
+In the following screenshot, you can find "Test Suites/New Test Suite (1)" is listed twice. The first one uses "default," and the second one has "stagging". This association proves that **a Profile is Test Suite scoped**. Otherwise, the association can not be logically valid.
 
-   - In a Test Suite Collection, you can list a single Test Suite more than once with different Profiles applied. In the following screenshot, you can find “Test Suites/New Test Suite (1)” is listed twice. The first one uses “default", and the second one has “stagging”. This association proves that **Global variables are Test Suite scoped**. Otherwise, the association can not be logically valid.
-
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/test-suite-scoped.png" width=70%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/test-suite-scoped.png" width=70%>
 
 ### Use a Global Variable
 
