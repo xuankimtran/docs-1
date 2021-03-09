@@ -46,7 +46,11 @@ In the **Script view**, profiles are in sync once a similar list of **Global Var
 
 ### Set default profile at project level
 
-You may have multiple profiles for executing your tests, for instance, staging and production profiles with corresponding global variables. It would be convenient if you can set a profile as your default one in every execution of a project. Starting from **version 7.4.2**, you can configure a default profile at the project level.
+A Default Profile is considerd as a place to comprises commonly used global variables. By customizing the default profile, you can either inherit or override the  global variables for other profiles that are created on Katalon Studio. Read more about [Profile Inheritance](https://docs.katalon.com/katalon-studio/docs/execution-profile-v54.html#inheritance-profile).
+
+You may have multiple profiles for executing your tests, for instance, staging and production profiles with corresponding global variables. It would be convenient if you can set a profile as your default one in every execution of a project. 
+
+> Starting from **version 7.4.2**, you can configure a default profile at the project level.
 
 Right-click on your desired execution profile and select **Set as default Execution Profile**.
 
@@ -206,7 +210,11 @@ To use a special character like `$` or `\` as a regular one in any place that ca
 - Without `\`: *note: Currency unit of ${GlobalVariable.productName} is $*.
 - With `\`: *note: Currency unit of wine is $*.
 
-### Create Global Variables during runtime
+### Create and Update Global Variables during runtime
+
+This sections show you how to **Create** and **Update** Global variables during the execution.
+
+**Create Global Variables during runtime**
 
 To create global variables during runtime, here is an approach provided by [Sergii Tyshchenko](https://forum.katalon.com/t/how-to-pass-user-defined-parameters-from-command-line/8771/22?u=jass).
 
@@ -223,11 +231,21 @@ You can define environment variable (with path to external configuration or prop
 }
 ```
 
-It’s possible to add getter and/or setter as new methods to the `GlobalVariable` class or add a new field. Then in the script, you can use GlobalVariable.VarName where the VarName is your new variable.
+It is possible to add getter and/or setter as new methods to the `GlobalVariable` class or add a new field. Then in the script, you can use `GlobalVariable.VarName` where the VarName is your new variable.
 
 ```groovy
 CustomKeywords.'helper.addGlobalVariable'('localURL', 'katalon.com')
 println GlobalVariable.localURL
 ```
+
+**Update Global Variables during runtime**
+
+During runtime, you can:
+
+- Override the Execution profile variables using command syntax `-g_XXX`.
+
+   For instance: `-g_userName="admin"`
+
+- Override the Emails settings variables via command line `${GlobalVariable.name}`. [Learn more](https://docs.katalon.com/katalon-studio/docs/execution-settings.html#support-global-variables-in-email-settings) about this use case.
 
 > Go to the [original discussion](https://forum.katalon.com/t/how-to-define-global-variables-within-scripts-i-e-on-the-fly/). 
