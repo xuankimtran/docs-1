@@ -240,10 +240,10 @@ println GlobalVariable.localURL
 
 **Update Global Variables during runtime**
 
-During runtime, you can:
+To update global variables during runtime, use the following commands:
 
-- Override the Execution profile variables using command syntax `-g_XXX`. For instance: `-g_userName="admin"`
+- Override the Execution profile variables via command syntax `-g_XXX`. For instance: `-g_userName="admin"`
 
-- Override the Emails settings variables via command line `${GlobalVariable.name}`. [Learn more](https://docs.katalon.com/katalon-studio/docs/execution-settings.html#support-global-variables-in-email-settings) about this use case.
+- Parameterize the Emails settings variables via command line `${GlobalVariable.name}`. [Learn more](https://docs.katalon.com/katalon-studio/docs/execution-settings.html#support-global-variables-in-email-settings) about this use case.
 
 > Go to the [original discussion](https://forum.katalon.com/t/how-to-define-global-variables-within-scripts-i-e-on-the-fly/). 
