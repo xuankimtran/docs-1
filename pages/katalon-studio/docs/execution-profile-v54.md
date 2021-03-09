@@ -242,9 +242,7 @@ println GlobalVariable.localURL
 
 During runtime, you can:
 
-- Override the Execution profile variables using command syntax `-g_XXX`.
-
-   For instance: `-g_userName="admin"`
+- Override the Execution profile variables using command syntax `-g_XXX`. For instance: `-g_userName="admin"`
 
 - Override the Emails settings variables via command line `${GlobalVariable.name}`. [Learn more](https://docs.katalon.com/katalon-studio/docs/execution-settings.html#support-global-variables-in-email-settings) about this use case.
 
