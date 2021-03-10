@@ -16,23 +16,26 @@ To define a global database connection to be used in other features of Katalon S
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/new-ui.png" width=70%>
 
 Where:
-* Secure User and Password: for authentication in the connected database server, disable by default.
-* User: The username for authentication in the connected database server.
-* Password: The password for authentication in the connected database server.
-* JDBC Driver: The ClassDriverName of the database that has a supported library connection (JDBC).
-* Connection URL: The connection string of database server. Katalon Studio supports the following databases.
-  * For Katalon Studio license: MySQL and PostgreSQL.
-  * For Katalon Studio Enterprise license: Oracle and SQL Server.
-
+- Secure User and Password: for authentication in the connected database server, disable by default.
+- User: The username for authentication in the connected database server.
+- Password: The password for authentication in the connected database server.
+- JDBC Driver: The ClassDriverName of the database that has a supported library connection (JDBC).
+- Connection URL: The connection string of database server. Katalon Studio supports the following databases.
+    - [MySQL](https://dev.mysql.com/doc/connectors/en/connector-j-reference-configuration-properties.html).
+    - [SQL Server](https://docs.microsoft.com/en-us/sql/connect/jdbc/connecting-to-sql-server-with-the-jdbc-driver?view=sql-server-ver15).
+    - [Oracle SQL](https://docs.oracle.com/database/121/JJDBC/urls.htm#JJDBC28268).
+    - [PostgreSQL](https://jdbc.postgresql.org/documentation/head/connect.html).
 
 ## Connect to Built-in database libraries
 
 Katalon Studio provides you with the following built-in libraries list that allows the built-in database connection support.
 
-- [MySQL](https://dev.mysql.com/doc/connectors/en/connector-j-reference-configuration-properties.html).
-- [SQL Server](https://docs.microsoft.com/en-us/sql/connect/jdbc/connecting-to-sql-server-with-the-jdbc-driver?view=sql-server-ver15).
-- [Oracle SQL](https://docs.oracle.com/database/121/JJDBC/urls.htm#JJDBC28268).
-- [PostgreSQL](https://jdbc.postgresql.org/documentation/head/connect.html).
+- For Katalon Studio license: 
+    - MySQL up to v8.0.15
+    - PostgreSQL up to v42.2.17
+- For Katalon Studio Enterprise license: 
+    - Oracle SQL up to v12.1.0.2
+    - SQL Server from 2008 - 2017, Azure SQL Database
 
 The following example illustrates how to connect to a built-in database by **Creating a test file from Postgre**.
 
