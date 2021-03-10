@@ -9,14 +9,14 @@ redirect_from:
     - "/katalon-studio/docs/database-settings/"
 description: 
 ---
-This document shows which kind of databases and how to use database sources that Katalon Studio supports in Data-driven testing.
+This document gives you information on which database can be used for Data-driven testing and how to set up the database connection in Katalon Studio.
 
 To define a global database connection to be used in other features of Katalon Studio, access the settings at **Project > Settings > Database**.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/new-ui.png" width=70%>
 
 Where:
-
+* Secure User and Password: 
 * User: The username for authentication in the connected database server.
 * Password: The password for authentication in the connected database server.
 * JDBC Driver: The ClassDriverName of the database that has a supported library connection (JDBC).
@@ -24,22 +24,21 @@ Where:
   * For Katalon Studio license: MySQL and PostgreSQL.
   * For Katalon Studio Enterprise license: Oracle and SQL Server.
 
-> Starting from **version 7.0.0 and later**, Katalon Studio users can configure additional database sources with the supported JDBC Driver field.
 
 ## Connect to Built-in database libraries
 
 Katalon Studio provides you with the following built-in libraries list that allows the built-in database connection support.
 
-- MySQL.
-- SQL Server.
-- Oracle SQL.
-- PostgreSQL.
+- [MySQL](https://dev.mysql.com/doc/connectors/en/connector-j-reference-configuration-properties.html).
+- [SQL Server](https://docs.microsoft.com/en-us/sql/connect/jdbc/connecting-to-sql-server-with-the-jdbc-driver?view=sql-server-ver15).
+- [Oracle SQL](https://docs.oracle.com/database/121/JJDBC/urls.htm#JJDBC28268).
+- [PostgreSQL](https://jdbc.postgresql.org/documentation/head/connect.html).
 
 The following example illustrates how to connect to a built-in database by **Creating a test file from MyQSL**.
 
 **Requirements**:
 
-- Katalon Studio v7.9 onwards.
+- Katalon Studio version 7.0 onwards.
 - Setting up MySQL database.
 - MySQL database is running.
 
@@ -79,9 +78,10 @@ This section provides guidance to connect to an external database that has JDBC 
 
 **Requirements**:
 
-- Katalon Studio v7.9 onwards.
+- Katalon Studio version 7.0 onwards.
 - Setting up MariaDB.
 - MariaDB is running.
+- An active Katalon Studio Enterprise license
 
 To start the connection:
 
