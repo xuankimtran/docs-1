@@ -30,17 +30,77 @@ Where:
 
 Katalon Studio provides you with the following built-in libraries list that allows the built-in database connection support.
 
-- For Katalon Studio license: 
-    - MySQL up to version 8.0.15.
-    - PostgreSQL up to version 42.2.17.
-- For Katalon Studio Enterprise license: 
-    - Oracle SQL up to version 12.1.0.2.
-    - SQL Server 2008 - 2017, Azure SQL Database.
-
-từ v7.0 thì mình support MySQL 8.0+
-từ v7.5 thì mình support Microsoft SQL Server 2017
-còn lại là đã sp từ version 5.x
-
+<p>&nbsp;</p>
+<table style="width: 595px;">
+<tbody>
+<tr style="height: 35px;">
+<td style="height: 35px; width: 159px; text-align: center;">&nbsp;</td>
+<td style="height: 35px; width: 141px; text-align: center;">
+<p><strong>Katalon Studio version</strong></p>
+</td>
+<td style="height: 35px; width: 42px; text-align: center;">
+<p><strong>MySQL</strong></p>
+</td>
+<td style="height: 35px; width: 72px; text-align: center;">
+<p><strong>PostgreSQL</strong></p>
+</td>
+<td style="height: 35px; width: 68px; text-align: center;">
+<p><strong>Oracle SQL</strong></p>
+</td>
+<td style="height: 35px; width: 73px; text-align: center;">
+<p><strong>SQL Server&nbsp;</strong></p>
+</td>
+</tr>
+<tr style="height: 35px;">
+<td style="height: 70px; width: 159px; text-align: center;" rowspan="2">
+<p><strong>Katalon Studio license</strong></p>
+</td>
+<td style="height: 35px; width: 141px; text-align: center;">
+<p><strong>7.0+</strong></p>
+</td>
+<td style="height: 140px; width: 42px; text-align: center;" rowspan="4">
+<p style="text-align: center;"><span style="font-weight: 400;">v8.0+</span></p>
+</td>
+<td style="height: 140px; width: 72px; text-align: center;" rowspan="4">
+<p style="text-align: center;"><span style="font-weight: 400;"> all version</span></p>
+</td>
+<td style="height: 70px; width: 68px; text-align: center;" rowspan="2">
+<p style="text-align: center;"><span style="font-weight: 400;">X</span></p>
+</td>
+<td style="height: 70px; width: 73px; text-align: center;" rowspan="2">
+<p style="text-align: center;"><span style="font-weight: 400;">X</span></p>
+</td>
+</tr>
+<tr style="height: 35px;">
+<td style="height: 35px; width: 141px; text-align: center;">
+<p><strong>7.5+</strong></p>
+</td>
+</tr>
+<tr style="height: 35px;">
+<td style="height: 70px; width: 159px; text-align: center;" rowspan="2">
+<p><strong>Katalon Studio Enterprise license</strong></p>
+</td>
+<td style="height: 35px; width: 141px; text-align: center;">
+<p><strong>7.0+</strong></p>
+</td>
+<td style="height: 70px; width: 68px; text-align: center;" rowspan="2">
+<p><span style="font-weight: 400;">all version</span></p>
+</td>
+<td style="height: 35px; width: 73px; text-align: center;">
+<p><span style="font-weight: 400;">2008 - 2016</span></p>
+</td>
+</tr>
+<tr style="height: 35px;">
+<td style="height: 35px; width: 141px; text-align: center;">
+<p><strong>7.5+</strong></p>
+</td>
+<td style="height: 35px; width: 73px; text-align: center;">
+<p><span style="font-weight: 400;">2008 - 2017</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><br /><br /></p>
 
 The following example illustrates how to connect to a built-in database by **Creating a test file from Postgre**.
 
