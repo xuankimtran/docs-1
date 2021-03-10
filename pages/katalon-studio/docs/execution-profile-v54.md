@@ -184,14 +184,10 @@ WebUI.closeBrowser()
 
 > You can directly parameterize Global Variables in both WebUI and API Test Objects.
 
-To parameterize a global variable in the following supported locations, enter the syntax `${GlobalVariable.name}`.
+To parameterize a global variable, enter the syntax `${GlobalVariable.name}` in the following supported locations.
 
-- Query parameter
-- Requested URL
-- Variables
-- Variables Editor
-- HTTP Header
-- HTTP Body
+- [For RESTful request](https://docs.katalon.com/katalon-studio/docs/parameterize-a-web-service-object.html#for-restful-request)
+- [For SOAP-based request](https://docs.katalon.com/katalon-studio/docs/parameterize-a-web-service-object.html#for-soap-based-request)
 
  For example:
 
@@ -257,8 +253,8 @@ println GlobalVariable.localURL
 
 To update global variables during runtime, use the following commands:
 
-- Override the Execution profile variables via command syntax `-g_XXX`. For instance: `-g_userName="admin"`
+- Override the variables via command syntax `-g_XXX`. For instance: `-g_userName="admin"`
 
-- Parameterize the Emails settings variables via command line `${GlobalVariable.name}`. [Learn more](https://docs.katalon.com/katalon-studio/docs/execution-settings.html#support-global-variables-in-email-settings) about this use case.
+- Parameterize the variables via command line `${GlobalVariable.name}`. [Learn more](https://docs.katalon.com/katalon-studio/docs/execution-settings.html#support-global-variables-in-email-settings) about an use case.
 
 > Go to the [original discussion](https://forum.katalon.com/t/how-to-define-global-variables-within-scripts-i-e-on-the-fly/). 
