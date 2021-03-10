@@ -62,7 +62,7 @@ Katalon Studio provides you with the following built-in libraries list that allo
 <p><span style="font-weight: 400;">v8.0+</span></p>
 </td>
 <td style="text-align: center; height: 140px;" rowspan="4">
-<p><span style="font-weight: 400;"> all version</span></p>
+<p><span style="font-weight: 400;">all version</span></p>
 </td>
 <td style="text-align: center; height: 70px;" rowspan="2">
 <p><span style="font-weight: 400;">X</span></p>
