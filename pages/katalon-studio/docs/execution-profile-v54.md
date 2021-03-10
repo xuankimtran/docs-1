@@ -182,15 +182,30 @@ WebUI.closeBrowser()
 
 ### Parameterize a Global Variable
 
-Enter the syntax `${GlobalVariable.name}` in any supported locations. For example:
+> You can directly parameterize Global Variables in both WebUI and API Test Objects.
 
-in HTTP Body of an API Test Object:
+To parameterize a global variable in the following supported locations, enter the syntax `${GlobalVariable.name}`.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/variable-types/1-GlobalVariable.png" width=70%>
+- Query parameter
+- Requested URL
+- Variables
+- Variables Editor
+- HTTP Header
+- HTTP Body
 
-in Selected Locator of a WebUI Test Object:
+ For example:
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/variable-types/2-GlobalVariable.png" width=70%>
+- in HTTP Body of an API Test Object:
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/http-body.png" width=70%>
+
+- in Selected Locator of a WebUI Test Object:
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/web-ui-test-object.png" width=70%>
+
+- in Requested URL of a Web Service Request:
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/requested-url.png" width=70%>
 
 ### Use escaping, special characters
 
