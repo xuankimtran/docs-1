@@ -31,70 +31,70 @@ Where:
 Katalon Studio provides you with the following built-in libraries list that allows the built-in database connection support.
 
 <p>&nbsp;</p>
-<table style="width: 595px;">
+<table>
 <tbody>
 <tr style="height: 35px;">
-<td style="height: 35px; width: 159px; text-align: center;">&nbsp;</td>
-<td style="height: 35px; width: 141px; text-align: center;">
+<td style="text-align: center; height: 35px;">&nbsp;</td>
+<td style="text-align: center; height: 35px;">
 <p><strong>Katalon Studio version</strong></p>
 </td>
-<td style="height: 35px; width: 42px; text-align: center;">
+<td style="text-align: center; height: 35px;">
 <p><strong>MySQL</strong></p>
 </td>
-<td style="height: 35px; width: 72px; text-align: center;">
+<td style="text-align: center; height: 35px;">
 <p><strong>PostgreSQL</strong></p>
 </td>
-<td style="height: 35px; width: 68px; text-align: center;">
+<td style="text-align: center; height: 35px;">
 <p><strong>Oracle SQL</strong></p>
 </td>
-<td style="height: 35px; width: 73px; text-align: center;">
+<td style="text-align: center; height: 35px;">
 <p><strong>SQL Server&nbsp;</strong></p>
 </td>
 </tr>
 <tr style="height: 35px;">
-<td style="height: 70px; width: 159px; text-align: center;" rowspan="2">
+<td style="text-align: center; height: 70px;" rowspan="2">
 <p><strong>Katalon Studio license</strong></p>
 </td>
-<td style="height: 35px; width: 141px; text-align: center;">
+<td style="text-align: center; height: 35px;">
 <p><strong>7.0+</strong></p>
 </td>
-<td style="height: 140px; width: 42px; text-align: center;" rowspan="4">
-<p style="text-align: center;"><span style="font-weight: 400;">v8.0+</span></p>
+<td style="text-align: center; height: 140px;" rowspan="4">
+<p><span style="font-weight: 400;">v8.0+</span></p>
 </td>
-<td style="height: 140px; width: 72px; text-align: center;" rowspan="4">
-<p style="text-align: center;"><span style="font-weight: 400;"> all version</span></p>
+<td style="text-align: center; height: 140px;" rowspan="4">
+<p><span style="font-weight: 400;"> all version</span></p>
 </td>
-<td style="height: 70px; width: 68px; text-align: center;" rowspan="2">
-<p style="text-align: center;"><span style="font-weight: 400;">X</span></p>
+<td style="text-align: center; height: 70px;" rowspan="2">
+<p><span style="font-weight: 400;">X</span></p>
 </td>
-<td style="height: 70px; width: 73px; text-align: center;" rowspan="2">
-<p style="text-align: center;"><span style="font-weight: 400;">X</span></p>
+<td style="text-align: center; height: 70px;" rowspan="2">
+<p><span style="font-weight: 400;">X</span></p>
 </td>
 </tr>
 <tr style="height: 35px;">
-<td style="height: 35px; width: 141px; text-align: center;">
+<td style="text-align: center; height: 35px;">
 <p><strong>7.5+</strong></p>
 </td>
 </tr>
 <tr style="height: 35px;">
-<td style="height: 70px; width: 159px; text-align: center;" rowspan="2">
+<td style="text-align: center; height: 70px;" rowspan="2">
 <p><strong>Katalon Studio Enterprise license</strong></p>
 </td>
-<td style="height: 35px; width: 141px; text-align: center;">
+<td style="text-align: center; height: 35px;">
 <p><strong>7.0+</strong></p>
 </td>
-<td style="height: 70px; width: 68px; text-align: center;" rowspan="2">
+<td style="text-align: center; height: 70px;" rowspan="2">
 <p><span style="font-weight: 400;">all version</span></p>
 </td>
-<td style="height: 35px; width: 73px; text-align: center;">
+<td style="text-align: center; height: 35px;">
 <p><span style="font-weight: 400;">2008 - 2016</span></p>
 </td>
 </tr>
 <tr style="height: 35px;">
-<td style="height: 35px; width: 141px; text-align: center;">
+<td style="text-align: center; height: 35px;">
 <p><strong>7.5+</strong></p>
 </td>
-<td style="height: 35px; width: 73px; text-align: center;">
+<td style="text-align: center; height: 35px;">
 <p><span style="font-weight: 400;">2008 - 2017</span></p>
 </td>
 </tr>
