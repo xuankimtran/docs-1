@@ -16,7 +16,7 @@ To define a global database connection to be used in other features of Katalon S
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/new-ui.png" width=70%>
 
 Where:
-* Secure User and Password: 
+* Secure User and Password: for authentication in the connected database server, disable by default.
 * User: The username for authentication in the connected database server.
 * Password: The password for authentication in the connected database server.
 * JDBC Driver: The ClassDriverName of the database that has a supported library connection (JDBC).
