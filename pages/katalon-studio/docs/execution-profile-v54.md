@@ -126,7 +126,7 @@ The following section shows you a usage example. Based on testing environments, 
 
 - **For [Console Mode](/display/KD/Console+Mode+Execution) execution**: Select your desired profile on the **Profile** field.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/5.png" width=70%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/5.png" width=60%>
 
    The **Generated Command** has **executionProfile** parameter so that you can change it manually. For example:
 
