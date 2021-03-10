@@ -255,6 +255,6 @@ To update global variables during runtime, use the following commands:
 
 - Override the variables via command syntax `-g_XXX`. For instance: `-g_userName="admin"`
 
-- Parameterize the variables via command line `${GlobalVariable.name}`. [For instance](https://docs.katalon.com/katalon-studio/docs/execution-settings.html#support-global-variables-in-email-settings)
+- Parameterize the variables via command line `${GlobalVariable.name}`. Refer to this [use case](https://docs.katalon.com/katalon-studio/docs/execution-settings.html#support-global-variables-in-email-settings).
 
 > Go to the [original discussion](https://forum.katalon.com/t/how-to-define-global-variables-within-scripts-i-e-on-the-fly/). 
