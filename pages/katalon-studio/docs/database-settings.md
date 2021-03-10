@@ -34,13 +34,13 @@ Katalon Studio provides you with the following built-in libraries list that allo
 - [Oracle SQL](https://docs.oracle.com/database/121/JJDBC/urls.htm#JJDBC28268).
 - [PostgreSQL](https://jdbc.postgresql.org/documentation/head/connect.html).
 
-The following example illustrates how to connect to a built-in database by **Creating a test file from MyQSL**.
+The following example illustrates how to connect to a built-in database by **Creating a test file from Postgre**.
 
 **Requirements**:
 
 - Katalon Studio version 7.0 onwards.
-- Setting up MySQL database.
-- MySQL database is running.
+- Setting up Postgre database.
+- Postgre database is running.
 
 To start the connection, go to **Project > Settings > Database**.
 
@@ -51,7 +51,7 @@ To start the connection, go to **Project > Settings > Database**.
 
     Once the database is connected succesfully, the result is shown as below.
     
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/database-settings.png" width=65%>
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/postgre-db.pngg" width=65%>
 
     - Click **Apply and Close** to complete the connection process.
 
@@ -68,7 +68,8 @@ To start the connection, go to **Project > Settings > Database**.
 
         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/data.png" width=70%>
 
-In addition, you can connect to the external database libraries if they have JDBC driver using **Kakalon Studio Enterprise license**. For more details, please refer to the [Connect to External database libraries with JDBC driver](https://docs.katalon.com/katalon-studio/docs/database-settings.html#how-jdbc-connection-works) section.
+In case you want to use a version other than the built-in one, learn more about [Exclude built-in libraries](https://docs.katalon.com/katalon-studio/docs/external-libraries.html#exclude-built-in-libraries). 
+
 
 ## Connect to External database libraries with JDBC driver
 
