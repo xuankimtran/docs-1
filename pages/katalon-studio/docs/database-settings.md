@@ -51,7 +51,7 @@ To start the connection, go to **Project > Settings > Database**.
 
     Once the database is connected succesfully, the result is shown as below.
     
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/postgre-db.pngg" width=65%>
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/postgre-db.png" width=65%>
 
     - Click **Apply and Close** to complete the connection process.
 
