@@ -106,7 +106,6 @@ The following example illustrates how to connect to a built-in database by **Cre
 
 **Requirements**:
 
-- Katalon Studio version 7.0 onwards.
 - Setting up Postgre database.
 - Postgre database is running.
 
@@ -151,7 +150,6 @@ This section provides guidance to connect to an external database with a JDBC dr
 
 **Requirements**:
 
-- Katalon Studio version 7.0 onwards.
 - Setting up MariaDB.
 - MariaDB is running.
 - An active Katalon Studio Enterprise license.
