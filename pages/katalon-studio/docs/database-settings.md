@@ -20,7 +20,7 @@ Where:
 - User: The username for authentication in the connected database server.
 - Password: The password for authentication in the connected database server.
 - JDBC Driver: The ClassDriverName of the database that has a supported library connection (JDBC).
-- Connection URL: The connection string of the database server. Katalon Studio supports the following databases.
+- Connection URL: The connection string of the database server. Katalon Studio supports built-in JDBC Drivers for the following databases:
     - [MySQL](https://dev.mysql.com/doc/connectors/en/connector-j-reference-configuration-properties.html).
     - [SQL Server](https://docs.microsoft.com/en-us/sql/connect/jdbc/connecting-to-sql-server-with-the-jdbc-driver?view=sql-server-ver15).
     - [Oracle SQL](https://docs.oracle.com/database/121/JJDBC/urls.htm#JJDBC28268).
