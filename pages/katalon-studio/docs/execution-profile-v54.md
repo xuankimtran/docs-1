@@ -148,7 +148,7 @@ In the following screenshot, you can find "Test Suites/New Test Suite (1)" is li
 
 ### Use a Global Variable
 
-Any test cases across a project can use global variables (highlighted in blue) - for example, input data for keywords in [Manual View](/display/KD/Manual+View) or params when [binding Data for Test Execution](/display/KD/Design+a+Test+Suite#DesignaTestSuite-VariableBinding) (highlighted in red).
+Any test cases across a project can use global variables - for example, input data for keywords in [Manual View](/display/KD/Manual+View) (highlighted in blue) or params when [binding Data for Test Execution](/display/KD/Design+a+Test+Suite#DesignaTestSuite-VariableBinding) (highlighted in red).
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/data-binding-global-varaiable.png" width=70%>
 
