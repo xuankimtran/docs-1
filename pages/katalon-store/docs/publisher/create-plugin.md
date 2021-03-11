@@ -179,7 +179,7 @@ To extend this extension point, we need to declare in `plugin.xml` as shown belo
 	    <point
 	          id="com.mycompany.plugin.myFirstExtensionId"
 	          extensionPointId="com.katalon.platform.api.extension.pluginActivationListener"
-	          implementationClass="com.mycompany.plugin.MyPluginActivationListener"
+	          implementationClass="com.mycompany.plugin.MyPluginActivationListener">
 	    </point>
 	</extension>
 </plugin>
