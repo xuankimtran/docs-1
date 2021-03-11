@@ -11,7 +11,7 @@ description:
 ---
 This document gives you information on which database can be used for Data-driven testing and how to set up the database connection in Katalon Studio.
 
-To define a global database connection to be used in other features of Katalon Studio, access the settings at **Project > Settings > Database**.
+To define a global database connection to be used for Data-driven testing, access the settings at **Project > Settings > Database**.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/new-ui.png" width=70%>
 
