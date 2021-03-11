@@ -15,18 +15,18 @@ Threshold is the maximum number of sessions that a local test environment can ex
 
 > Note: Thresholds are set as 1 by default for all local test environments.
 
-<img src="https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/load-balancing-agents/1-view-agent-threshold.png" width="" height="">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/load-balancing-agents/1-view-agent-threshold.png" width="" height="">
 
 
 1. To configure the threshold, go to a local test environment detailed page, update the value of the threshold 
 2. Click on **Update**.
 
-<img src="https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/load-balancing-agents/2-update-agent-threshold.png" width="" height="">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/load-balancing-agents/2-update-agent-threshold.png" width="" height="">
 
 
 After updating the threshold value, you can assign your local test environment to execute test plans. The maximum number of parallel sessions that the local test environment can execute is equal to the threshold value you have configured.
 
-<img src="https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/load-balancing-agents/3-new-agent-threshold.png" width="" height="">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/load-balancing-agents/3-new-agent-threshold.png" width="" height="">
 
 ## Assign local test environments to execute test runs
 
