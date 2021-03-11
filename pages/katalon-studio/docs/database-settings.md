@@ -16,7 +16,7 @@ To define a global database connection to be used for Data-driven testing, acces
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/new-ui.png" width=70%>
 
 Where:
-- Secure User and Password: select to authenticate the connected database server, disable by default.
+- Secure User and Password: select to authenticate the connected database server, disabled by default.
 - User: The username for authentication in the connected database server.
 - Password: The password for authentication in the connected database server.
 - JDBC Driver: The ClassDriverName of the database that has a supported library connection (JDBC).
