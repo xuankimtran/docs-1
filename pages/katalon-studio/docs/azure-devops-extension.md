@@ -6,17 +6,14 @@ description: To show instrcutions of how to install and setup Azure DevOps exten
 ---
 > Katalon TestOps CI is an easier way to execute Katalon Studio tests remotely or schedule remote Katalon Studio execution. [Learn more](https://docs.katalon.com/katalon-analytics/docs/kt-remote-execution.html)
 
-This tutorial shows you the step by step guide on how to install and run Katalon for Azure DevOps for Web UI testing.
-
-> You need to have **Katalon Studio version 7.0.0** or later to use Azure DevOps extension.
+This tutorial shows you the step by step guide on how to install and run Katalon for Azure DevOps for Web UI testing. Refer to this [sample pipeline](https://github.com/katalon-studio-samples/azure-devops-extension-samples) for your reference.
 
 > This extension is NOT available for Linux.
 
-Refer to this [sample pipeline](https://github.com/katalon-studio-samples/azure-devops-extension-samples) for your reference.
-
 ## Installation
 
-Go to [this link](https://marketplace.visualstudio.com/items?itemName=katalon-llc.katalon&ssr=false#overview) to install the extension.
+* Go to [this link](https://marketplace.visualstudio.com/items?itemName=katalon-llc.katalon&ssr=false#overview) to install the extension.
+* For running UI tests on Azure Pipelines, you may need to adjust the sreen resolution ([Learn more](https://docs.microsoft.com/en-us/azure/devops/pipelines/test/ui-testing-considerations?view=azure-devops&tabs=mstest#setting-screen-resolution)). You're recommended to install the [Screen Resolution Utility](https://marketplace.visualstudio.com/items?itemName=ms-autotest.screen-resolution-utility-task#overview) extension that is available from Marketplace. A usage example running a Katalon Studio test is provided [here](https://github.com/duyluonganh/kat-download-file/blob/master/azure-pipelines.yml).
 
 ## Configuration steps
 
