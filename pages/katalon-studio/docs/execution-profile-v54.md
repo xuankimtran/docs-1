@@ -25,7 +25,7 @@ Just like other test artifacts, you can CRUD the **Execution Profile** in the **
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/Untitled3.png" width=55%>
    
-You need to define a profile's content via adding [Global variables](https://docs.katalon.com/katalon-studio/docs/execution-profile-v54.html#global-variables). Do as follows:
+You need to define a profile's content by adding [Global variables](https://docs.katalon.com/katalon-studio/docs/execution-profile-v54.html#global-variables). Do as follows:
 
 1. Select a profile > click **Add**.
 2. In the **New Variable** dialog, specify details for the variable > click **OK**.
@@ -50,7 +50,9 @@ In the **Script view**, profiles are in sync once a similar list of **Global Var
 
 A default profile is considered as a place to comprise commonly used global variables. Other profiles can either inherit or override the global variables stored in the default one. Read more about [Profile Inheritance](https://docs.katalon.com/katalon-studio/docs/execution-profile-v54.html#inheritance-profile).
 
-You may have multiple profiles for executing your tests, for instance, *staging* and *production* profiles. It would be convenient if you can set a profile as your default one in every execution of a project. Right-click on your desired execution profile and select **Set as default Execution Profile**.
+You may have multiple profiles for executing your tests, for instance, *staging* and *production* profiles. It would be convenient if you can set a profile as your default one in every execution of a project. 
+
+Right-click on your desired execution profile and select **Set as default Execution Profile**.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/set-default-profile.png" width=45%>
 
@@ -64,21 +66,21 @@ It's also applied for the Executive Platform of the Command Generator in case yo
 
 ### Profile Inheritance
 
-**Profile Inheritance** reduces your effort spent on modification and recreation the same global variables in derived profiles. If Katalon Studio does not find variables that are used in the test within the designated profile (any profiles but default), it will look into the default profile and use its variables to execute the test.
+**Profile Inheritance** reduces your effort spent on modification and recreation of the same global variables in derived profiles. If Katalon Studio does not find variables that are used in the test within the designated profile (any profiles but default), it will look into the default profile and use its variables to execute the test.
 
 **How to utilize Profile Inheritance**
 
-Commonly used global variables should be stored in the **default** profile and other sets of global variables should be stored in the **derived** (custom) profiles to avoid duplicated code and for better management.
+Commonly used global variables should be stored in the **default** profile, and other sets of global variables should be stored in the **derived** (custom) profiles to avoid duplicated code and for better management.
 
 **Running the examples**
 
 The following examples illustrate how the **Profile Inheritance** feature works.
 
-- Given test case:
+- Given the following test case:
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/inherit-sample.png" width=70%>
 
-- Execute default profile with given test case:
+- Execute default profile with the given test case:
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/inherit-default-profile.png" width=70%>
 
@@ -86,9 +88,9 @@ The following examples illustrate how the **Profile Inheritance** feature works.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/inherit-console-default.png" width=70%>
 
-- Execute stagging and production profile with given test case:
+- Execute stagging and production profile with the given test case:
    
-   When executing the stagging and production profiles, the **name**, **serveURL** and **credential** variables are overriden (highlighted in red) while the **usage** and **reference** variables are inherited (highlighted in blue) from the global variables in default profile. 
+   When executing the stagging and production profiles, the **name**, **serveURL**, and **credential** variables are overidden (highlighted in red), while the **usage** and **reference** variables are inherited (highlighted in blue) from the global variables in the default profile. 
 
    - Stagging profile:
 
@@ -132,7 +134,7 @@ The following section shows you a usage example. Based on testing environments, 
 
 ## Global Variables
 
-A **global variable** is a variable defined in the execution profile and can be used in a test case, test object, web service object and email configuration in the project.
+A **global variable** is a variable defined in the execution profile and can be used in a test case, test object, web service object, and email configuration in a project.
 
 ### Scope of Global Variables
 
@@ -194,8 +196,8 @@ To use a special character like `$` or `\` as a regular one in any place that ca
 
 To create global variables during runtime, here is an approach provided by [Sergii Tyshchenko](https://forum.katalon.com/t/how-to-pass-user-defined-parameters-from-command-line/8771/22?u=jass).
 
-1. Define an environment variable (with path to an external configuration or a properties file) in the session that is used to execute Katalon Studio. 
-2. In the `TestListener`, read the variable's value (path to the file), load that file and override the project settings, or Global variables. Use the following metaprogramming:
+1. Define an environment variable (with a path to an external configuration or a properties file) in the session that is used to execute Katalon Studio. 
+2. In the `TestListener`, read the variable's value (a path to the file), load that file, and override the project settings or Global variables. Use the following metaprogramming:
 
 ```groovy
  @Keyword
