@@ -17,9 +17,9 @@ Katalon Studio allows using external Java `.jar` libraries either through projec
 
 You can add external libraries to a Katalon Studio's project in three different ways:
 
-* Use Gradle
-* Go to Libraries Management of the Project Settings of a project
-* Copy and past a library's `.jar` file to Driver folder of a project
+* Use Gradle.
+* Go to Libraries Management of the Project Settings of a project.
+* Copy and past a library's `.jar` file to Driver folder of a project.
 
 ### Use Gradle
 
@@ -37,7 +37,7 @@ After saving the setting, Katalon will add the library file(s) to the project's 
 
 ![Driver folder](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/import_java_library/2.-Katalon-External-Library.png)
 
-To remove an added external libraries, select a library, click **Remove** and click **OK**.
+To remove an added external libraries, select a library > click **Remove** > click **OK**.
 
 ### Manually copy and paste .jar files to the Drivers folder
 
@@ -61,6 +61,7 @@ With the ability to remove built-in libraries stored in the `.classpath` file of
 > - `poi-ooxml-schemas-3.17.jar`
 > - `java-client-7.0.0.jar`
 > - `io.cucumber.*.jar`
+>
 > Excluding those libraries may cause failure of the relevant features.
 
 **Requirements**
