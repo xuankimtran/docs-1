@@ -1,5 +1,5 @@
 ---
-title: "Database Settings" 
+title: "Set up Database Connection for Data-Driven Testing" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/database-settings.html 
 redirect_from:
@@ -9,13 +9,19 @@ redirect_from:
     - "/katalon-studio/docs/database-settings/"
 description: 
 ---
+
 This document gives you information on which database can be used for Data-driven testing and how to set up the database connection in Katalon Studio.
 
-To define a global database connection to be used for Data-driven testing, access the settings at **Project > Settings > Database**.
+## Introduce Database Connection 
+
+To do data-driven testing with database, you can define a database connection that can be used for the whole project and override this global configuration in a test data file later ([more details](https://docs.katalon.com/katalon-studio/docs/manage-test-data.html#create-a-database-data).
+
+To set up a global database connection, go to **Project** > **Settings** > **Database**.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/new-ui.png" width=70%>
 
 Where:
+
 - Secure User and Password: select to authenticate the connected database server, disabled by default.
 - User: The username for authentication in the connected database server.
 - Password: The password for authentication in the connected database server.
@@ -26,9 +32,7 @@ Where:
     - [Oracle SQL](https://docs.oracle.com/database/121/JJDBC/urls.htm#JJDBC28268).
     - [PostgreSQL](https://jdbc.postgresql.org/documentation/head/connect.html).
 
-## Connect to Built-in database libraries
-
-Katalon Studio provides you with the following built-in libraries list that allows the built-in database connection support.
+You can set up a connection to one of those 4 database types with its executable jar file already embedded. Refer to the following table for an availability check: 
 
 <p>&nbsp;</p>
 <table>
@@ -62,13 +66,13 @@ Katalon Studio provides you with the following built-in libraries list that allo
 <p><span style="font-weight: 400;">v8.0+</span></p>
 </td>
 <td style="text-align: center; height: 140px;" rowspan="4">
-<p><span style="font-weight: 400;">all version</span></p>
+<p><span style="font-weight: 400;">all versions</span></p>
 </td>
 <td style="text-align: center; height: 70px;" rowspan="2">
-<p><span style="font-weight: 400;">X</span></p>
+<p><span style="font-weight: 400;">N/A</span></p>
 </td>
 <td style="text-align: center; height: 70px;" rowspan="2">
-<p><span style="font-weight: 400;">X</span></p>
+<p><span style="font-weight: 400;">N/A</span></p>
 </td>
 </tr>
 <tr style="height: 35px;">
@@ -84,7 +88,7 @@ Katalon Studio provides you with the following built-in libraries list that allo
 <p><strong>7.0+</strong></p>
 </td>
 <td style="text-align: center; height: 70px;" rowspan="2">
-<p><span style="font-weight: 400;">all version</span></p>
+<p><span style="font-weight: 400;">all versions</span></p>
 </td>
 <td style="text-align: center; height: 35px;">
 <p><span style="font-weight: 400;">2008 - 2016</span></p>
@@ -102,55 +106,34 @@ Katalon Studio provides you with the following built-in libraries list that allo
 </table>
 <p><br /><br /></p>
 
-The following example illustrates how to connect to a built-in database by **Creating a test file from Postgre**.
+In case you want to use a version other than the version those built-in drivers are compatible with, learn more about [Exclude built-in libraries](https://docs.katalon.com/katalon-studio/docs/external-libraries.html#exclude-built-in-libraries). 
+
+For those who wish to connect to an external database having JDBC driver, you need to install its executable jar file accordingly then tell Katalon Studio where to use it for connection. 
+
+## Connect to a database with a built-in driver
+
+The following example illustrates how to connect to a Postgre database that can be used in a whole project.
 
 **Requirements**:
 
-- Setting up Postgre database.
+- You have already set up Postgre database.
 - Postgre database is running.
 
-To start the connection, go to **Project > Settings > Database**.
+To establish a connection, go to **Project > Settings > Database**. In **Database**:
+   
+1. Select "Secure User and Password" to enable "User" and "Password".
+2. Input "User" name and "Password" used for authentication and "Connection URL".
+3. Click **Test Connection** to verify whether your database is connected successfully. With a successful connection, the result is shown as below.
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/postgre-db.png" width=65%>
+4. Click **Apply and Close** to save your setting.
 
-1. In **Database**:
-    - Select "Secure User and Password" to enable "User" and "Password".
-    - Input "User" name and "Password" used for authentication, "JDBC Driver" and "Connection URL".
-    - Click **Test Connection** to verify whether your database is connected on Katalon Studio. 
+## Connect to a database with an external JDBC driver
 
-    Once the database is connected successfully, the result is shown below.
-    
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/postgre-db.png" width=65%>
-
-    - Click **Apply and Close** to complete the connection process.
-
-2. Create a new **Test Data** with the "Database Data" type.
-
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/new-test-data.png" width=65%>
-
-3. - Click **Edit Query** > select "Use global database connection settings" in the **Database Connection and Query Settings** dialog to use the database setting up in step 1 to query data.
-    - Input **SQL Query** > click **OK**.
-
-        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/SQL-query.png" width=65%>
-    
-        The result is shown as below:
-
-        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/data.png" width=70%>
-
-In case you want to use a version other than the built-in one, learn more about [Exclude built-in libraries](https://docs.katalon.com/katalon-studio/docs/external-libraries.html#exclude-built-in-libraries). 
-
-
-## Connect to External database libraries with JDBC driver
-
-> **The difference between built-in and external JDBC driver:**
-> - For built-in libraries, Katalon Studio has embedded the executable jar files of those databases for usage.
-> - For external libraries, users need to install the database's executable jar file then tell Katalon Studio where to use it for connecting to the database.
->
-> **Kakalon Studio Enterprise license** is required to connect to external database libraries.
-
-This section provides guidance to connect to an external database with a JDBC driver by **Creating a test file from MariaDB**.
+This section provides a usage example by connecting to MariaDB, a database with an external JDBC driver.
 
 **Requirements**:
 
-- Setting up MariaDB.
+- You have already set up MariaDB.
 - MariaDB is running.
 - An active Katalon Studio Enterprise license.
 
@@ -158,32 +141,20 @@ To start the connection:
 
 1. Download the executable jar file of MariaDB library [here](https://downloads.mariadb.org/connector-java/2.4.4/).
 
-2. Go to **Project > Settings > Library Management** to add the downloaded jar file > click **Apply**.
+2. Go to **Project** > **Settings** > **Library Management** to add the jar file > click **Apply**.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/mariadb-jar-file.png" width=65%>
 
-3. In **Database**: 
+3. In Project Settings, go to **Database**: 
 
-    - Select "Secure User and Password" to enable "User" and "Password".
-    - Input "User" name and "Password" used for authentication, "JDBC Driver" and "Connection URL".
-    - Click **Test Connection** to verify whether your database is connected on Katalon Studio.
+- Select "Secure User and Password" to enable "User" and "Password" for editting.
+- Input "User" name and "Password" used for authentication, 
+- Enter "JDBC Driver".
+- Enter "Connection URL".
+- Click **Test Connection** to verify whether your database is connected successfully. With a successful connection, the result is shown as below.
 
-        Once the database is connected successfully, the result is shown below.
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/database-mariadb.png" width=65%>
 
-        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/database-mariadb.png" width=65%>
+- Click **Apply and Close** to complete the connection process.
 
-    - Click **Apply and Close** to complete the connection process.
-
-4. Create a new **Test Data** with the "Database Data" type.
-
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/test-data-mariadb.png" width=65%>
-
-5. - Click **Edit Query**. In the **Database Connection and Query Settings** dialog, you can connect to the MariaDB to query data.
-
-    - Input **SQL Query** > click **OK**.
-
-        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/secure-mariadb.png" width=65%>
-
-        The result is shown below:
-
-        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/result-mariadb.png" width=70%>
+Next: See [Manage Test Data](https://docs.katalon.com/katalon-studio/docs/manage-test-data.html#create-a-database-data)
