@@ -25,7 +25,7 @@ Just like other test artifacts, you can CRUD the **Execution Profile** in the **
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/Untitled3.png" width=55%>
    
-A profile contains a set of Global Variables, you need to define its content via adding [Global variables](https://docs.katalon.com/katalon-studio/docs/execution-profile-v54.html#global-variables). Do as follows:
+You need to define a profile's content via adding [Global variables](https://docs.katalon.com/katalon-studio/docs/execution-profile-v54.html#global-variables). Do as follows:
 
 1. Select a profile > click **Add**.
 2. In the **New Variable** dialog, specify details for the variable > click **OK**.
@@ -38,7 +38,7 @@ A profile contains a set of Global Variables, you need to define its content via
 
 ### View a profile 
 
-Execution profile is provided with **Manual view** and **Script view** where an XML editor is available for adding variables via script. Depending on the project needs, you can create as many profiles as you want to.
+Execution profile is provided with **Manual view** and **Script view**. In the Script view, an XML editor is available for adding variables via script. Depending on the project needs, you can create as many profiles as you want to.
 
 In the **Script view**, profiles are in sync once a similar list of **Global Variables** is required for testing different environment types. To conduct, copy and paste the variables list from one profile to another.
 
@@ -46,13 +46,11 @@ In the **Script view**, profiles are in sync once a similar list of **Global Var
 
 ### Set default profile at project level
 
-A Default Profile is considerd as a place to comprises commonly used global variables. By customizing the default profile, you can either inherit or override the  global variables for other profiles that are created on Katalon Studio. Read more about [Profile Inheritance](https://docs.katalon.com/katalon-studio/docs/execution-profile-v54.html#inheritance-profile).
+> Introduced in **v7.4.2**, you can set a default profile at the project level.
 
-You may have multiple profiles for executing your tests, for instance, staging and production profiles with corresponding global variables. It would be convenient if you can set a profile as your default one in every execution of a project. 
+A default profile is considered as a place to comprise commonly used global variables. Other profiles can either inherit or override the global variables stored in the default one. Read more about [Profile Inheritance](https://docs.katalon.com/katalon-studio/docs/execution-profile-v54.html#inheritance-profile).
 
-> Starting from **version 7.4.2**, you can configure a default profile at the project level.
-
-Right-click on your desired execution profile and select **Set as default Execution Profile**.
+You may have multiple profiles for executing your tests, for instance, *staging* and *production* profiles. It would be convenient if you can set a profile as your default one in every execution of a project. Right-click on your desired execution profile and select **Set as default Execution Profile**.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/set-default-profile.png" width=45%>
 
@@ -66,13 +64,11 @@ It's also applied for the Executive Platform of the Command Generator in case yo
 
 ### Profile Inheritance
 
-**Profile Inheritance** mimics your effort to modify and recreate the global variables in derived profiles.
-
-If Katalon Studio does not find variables that are used in the test within the designated profile (any profiles but default), it will look into the default profile and use its variables to execute the test.
+**Profile Inheritance** reduces your effort spent on modification and recreation the same global variables in derived profiles. If Katalon Studio does not find variables that are used in the test within the designated profile (any profiles but default), it will look into the default profile and use its variables to execute the test.
 
 **How to utilize Profile Inheritance**
 
-Commonly used global variables should be stored in the **default** profile and other sets of global variables should be stored in the **derived** (custom) profiles to avoid the code from duplicating and for an easy code management.
+Commonly used global variables should be stored in the **default** profile and other sets of global variables should be stored in the **derived** (custom) profiles to avoid duplicated code and for better management.
 
 **Running the examples**
 
@@ -154,12 +150,13 @@ Any test cases across a project can use global variables - for example, input da
 
 ### Parameterize a Global Variable
 
-> You can directly parameterize Global Variables in both WebUI and API Test Objects.
+You can directly parameterize Global Variables in WebUI, Mobile, Windows and API Test Objects. To parameterize a global variable, enter the syntax `${GlobalVariable.name}` in the supported locations of each type.
 
-To parameterize a global variable, enter the syntax `${GlobalVariable.name}` in the following supported locations.
-
-- [For RESTful request](https://docs.katalon.com/katalon-studio/docs/parameterize-a-web-service-object.html#for-restful-request)
-- [For SOAP-based request](https://docs.katalon.com/katalon-studio/docs/parameterize-a-web-service-object.html#for-soap-based-request)
+* [Web Test Objects](https://docs.katalon.com/katalon-studio/docs/parameterize-web-objects.html)
+* [Mobile Test Objects](https://docs.katalon.com/katalon-studio/docs/parameterize-mobile-test-object-properties.html)
+* [Windows Test Objects](https://docs.katalon.com/katalon-studio/docs/windows-test-objects.html#parameterize-windows-test-objects)
+* [RESTful request](https://docs.katalon.com/katalon-studio/docs/parameterize-a-web-service-object.html#for-restful-request) 
+* [SOAP-based request](https://docs.katalon.com/katalon-studio/docs/parameterize-a-web-service-object.html#for-soap-based-request).
 
  For example:
 
@@ -193,15 +190,12 @@ To use a special character like `$` or `\` as a regular one in any place that ca
 - Without `\`: *note: Currency unit of ${GlobalVariable.productName} is $*.
 - With `\`: *note: Currency unit of wine is $*.
 
-### Create and Update Global Variables during runtime
-
-This sections show you how to **Create** and **Update** Global variables during the execution.
-
-**Create Global Variables during runtime**
+### Create Global Variables during runtime
 
 To create global variables during runtime, here is an approach provided by [Sergii Tyshchenko](https://forum.katalon.com/t/how-to-pass-user-defined-parameters-from-command-line/8771/22?u=jass).
 
-You can define environment variable (with path to external configuration or properties file) in the session that is used to execute Katalon Studio. Then in the `TestListener`, read the variable's value (path to the file), load that file and override the project settings, or Global variables. Use the following metaprogramming:
+1. Define an environment variable (with path to an external configuration or a properties file) in the session that is used to execute Katalon Studio. 
+2. In the `TestListener`, read the variable's value (path to the file), load that file and override the project settings, or Global variables. Use the following metaprogramming:
 
 ```groovy
  @Keyword
@@ -221,12 +215,15 @@ CustomKeywords.'helper.addGlobalVariable'('localURL', 'katalon.com')
 println GlobalVariable.localURL
 ```
 
-**Update Global Variables during runtime**
-
-To update global variables during runtime, use the following commands:
-
-- Override the variables via command syntax `-g_XXX`. For instance: `-g_userName="admin"`
-
-- Parameterize the variables via command line `${GlobalVariable.name}`. Refer to this [use case](https://docs.katalon.com/katalon-studio/docs/execution-settings.html#support-global-variables-in-email-settings).
-
 > Go to the [original discussion](https://forum.katalon.com/t/how-to-define-global-variables-within-scripts-i-e-on-the-fly/). 
+
+### Update Global Variables during runtime
+
+To change a global variable's value during runtime, use the following command syntax `-g_XXX` ([Learn more](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#general-options)).
+
+See Also:
+
+* [How to change email settings during execution](https://docs.katalon.com/katalon-studio/docs/execution-settings.html#support-global-variables-in-email-settings).
+
+
+
