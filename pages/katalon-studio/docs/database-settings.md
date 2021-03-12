@@ -140,14 +140,14 @@ This section provides a usage example by connecting to MariaDB, a database with 
 To start the connection:
 
 1. Download the executable jar file of the MariaDB library [here](https://downloads.mariadb.org/connector-java/2.4.4/).
-2. Go to **Project** > **Settings** > **Library Management** to add the jar file > click **Apply**.
+2. Go to **Project** > **Settings** > **Library Management** to **Add** the jar file > click **Apply**.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/mariadb-jar-file.png" width=65%>
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/mariadb-jar.png" width=65%>
 
 3. In Project Settings, go to **Database**: 
 
 - Select "Secure User and Password" to enable "User" and "Password" for editing.
-- Input "User" name and "Password" used for authentication, 
+- Input "User" name and "Password" used for authentication.
 - Enter "JDBC Driver".
 - Enter "Connection URL".
 - Click **Test Connection** to verify whether your database is connected successfully. 
