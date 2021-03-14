@@ -9,7 +9,7 @@ description:
 
 In this video, Rahul Rathore discusses how to handle JSON Web Token (jwt) with Katalon Studio.
 
-1\. Add Authorization field via HTTP Header.
+1\. Add Authorization field in HTTP Header.
 
 2\. In Authorization field > add values as `Bearer {token_id}`.
 
