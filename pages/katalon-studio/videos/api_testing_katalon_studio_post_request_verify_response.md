@@ -6,13 +6,13 @@ description:
 ---
 <iframe width="840" height="473" src="https://www.youtube.com/embed/v-eBvfkLg-8?feature=oembed" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="">&nbsp;</iframe>
 
-In this video, Karthik will discuss how to perform API Testing with Katalon Studio for POST request and verify the response:
+In this video, Karthik will discusses how to perform API Testing with Katalon Studio for POST request and verify the response:
 
-1\. POST operation with Katalon Studio via Object Repository (UI)
+1\. Create POST operation with Katalon Studio via Object Repository.
 
-2\. Understanding the passing of body via Katalon Studio
+2\. Configure fields via HTTP Header and pass the corresponding values to HTTP Body.
 
-3\. Calling the POST and passing the body via Script
+3\. Call the GET operation via Object Repository.
 
 4\. Catching exception to see if we make any mistakes while calling
 
