@@ -165,6 +165,16 @@ items:
       url: /katalon-studio/videos/jenkins_master_slave_configuration.html
     - title: "Running the test parallel on Jenkins Slave"
       url: /katalon-studio/videos/running_test_parallel_jenkins_slave.html
+    - title: "API Testing with Katalon Studio for Web Service Request"
+      url: /katalon-studio/videos/api_testing_katalon_studio_dynamic_data_in_request_body.html
+    - title: "API Testing with Katalon Studio for handling JSON Web Token"
+      url: /katalon-studio/videos/api_testing_katalon_studio_handling_jwt.html
+    - title: "API Testing with Katalon Studio for GET request and verify the response"
+      url: /katalon-studio/videos/api_testing_katalon_studio_get_request_verify_response.html
+    - title: "API Testing with Katalon Studio for POST request and verify the response"
+      url: /katalon-studio/videos/api_testing_katalon_studio_post_request_verify_response_rahul.html
+    - title: "API Testing with Katalon Studio for PUT request and verify the response"
+      url: katalon-studio/videos/api_testing_katalon_studio_put_request_verify_response_rahul.html
   - title: "Tony Chau"
     tree:
     - title: "Katalon Studio Set Up Guidelines"
