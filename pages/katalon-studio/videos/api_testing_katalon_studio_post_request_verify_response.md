@@ -4,20 +4,24 @@ sidebar: katalon_studio_videos_sidebar
 permalink: katalon-studio/videos/api_testing_katalon_studio_post_request_verify_response.html
 description: 
 ---
-<iframe width="1001" height="568" src="https://www.youtube.com/embed/GnsCW45X2uA?list=PLlsKgYi2Lw732Snuu4qPlkvnOykiiatKc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="840" height="473" src="https://www.youtube.com/embed/v-eBvfkLg-8?feature=oembed" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="">&nbsp;</iframe>
 
-In this video, Rahul Rathore discusses how to send the POST request and verify the response with Katalon Studio.
+In this video, Karthik will discuss how to perform API Testing with Katalon Studio for POST request and verify the response:
 
-1\. Create POST request with Katalon Studio via Object Repository.
+1\. POST operation with Katalon Studio via Object Repository (UI)
 
-2\. Configure fields in HTTP Header and pass the corresponding values to HTTP Body.
+2\. Understanding the passing of body via Katalon Studio
 
-3\. Call the POST request via Object Repository.
+3\. Calling the POST and passing the body via Script
 
-4\. Add Verification conditions.
+4\. Catching exception to see if we make any mistakes while calling
 
-5\. Run a test case with POST request.
+5\. Check the POST operation by a GET
 
-6\. Verify the element and other objects of the Response.
+6\. GET via Parameter for the exact POST
 
-**Note:** This video is contributed by [Rahul Rathore](https://www.youtube.com/channel/UCeuu4kw1a7SRSdH7TGAn7gg).
+7\. Verify the element and other objects of JSON response body
+
+The course source code is available in GitHub [https://github.com/executeautomation/KatalonAPITesting](https://github.com/executeautomation/KatalonAPITesting)
+
+**Note: **This video is contributed by Karthik K.K from [http://executeautomation.com/blog/](http://executeautomation.com/blog/)
