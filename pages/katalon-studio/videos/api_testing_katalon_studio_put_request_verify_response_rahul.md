@@ -1,7 +1,7 @@
 ---
 title: "API Testing with Katalon Studio for PUT request and verify the response"
 sidebar: katalon_studio_videos_sidebar
-permalink: katalon-studio/videos/api_testing_katalon_studio_put_request_verify_response.html
+permalink: katalon-studio/videos/api_testing_katalon_studio_put_request_verify_response_rahul.html
 description:
 ---
 
