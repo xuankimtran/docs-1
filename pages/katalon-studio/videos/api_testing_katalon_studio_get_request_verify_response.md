@@ -9,11 +9,11 @@ description:
 
 In this video, Rahul Rathore discusses how to send the GET request and verify the response with Katalon Studio.
 
-1\. Create GET operation with Katalon Studio via Object Repository.
+1\. Create GET request with Katalon Studio via Object Repository.
 
 2\. Configure Request Type and URL.
 
-3\. Call the GET operation via Object Repository.
+3\. Call the GET request via Object Repository.
 
 4\. Add Verification conditions.
 
