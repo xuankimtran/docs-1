@@ -19,4 +19,4 @@ In this video, Rahul Rathore discusses how to send the GET request and verify th
 
 5\. Verify the element and other objects of the Response.
 
-**Note: **This video is contributed by [Rahul Rathore](https://www.youtube.com/channel/UCeuu4kw1a7SRSdH7TGAn7gg)
+**Note:** This video is contributed by [Rahul Rathore](https://www.youtube.com/channel/UCeuu4kw1a7SRSdH7TGAn7gg).

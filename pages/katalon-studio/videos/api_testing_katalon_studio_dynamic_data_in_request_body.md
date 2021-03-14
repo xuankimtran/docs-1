@@ -15,4 +15,4 @@ In this video, Rahul Rathore discuses how to create dynamic data Request Body wi
 
 3\. Pass values to variables in the test case.
 
-**Note: **This video is contributed by [Rahul Rathore](https://www.youtube.com/channel/UCeuu4kw1a7SRSdH7TGAn7gg)
+**Note:** This video is contributed by [Rahul Rathore](https://www.youtube.com/channel/UCeuu4kw1a7SRSdH7TGAn7gg).
