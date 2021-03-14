@@ -1,7 +1,7 @@
 ---
 title: "API Testing with Katalon Studio for Web Service Request"
 sidebar: katalon_studio_videos_sidebar
-permalink: katalon-studio/videos/api_testing_katalon_studio_dynamic_data_in_request_body.html
+permalink: katalon-studio/videos/api_testing_katalon_studio_handling_jwt.html
 description: 
 ---
 
