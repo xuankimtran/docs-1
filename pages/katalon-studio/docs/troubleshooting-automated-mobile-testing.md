@@ -20,14 +20,14 @@ description:
     </thead>
     <tbody>
         <tr>
-            <td>Connected device is not displayed in 'Device Name' list</td>
+            <td>Connected device is not displayed in 'Device Name' list.</td>
             <td>
                 <strong>iOS</strong>
                 <ul>
                     <li>Connect your&nbsp;device to Xcode.</li>
                     <li>Go to Settings -&gt;&nbsp;Developer&nbsp;&gt; turn ON&nbsp;UIAutomation.</li>
                     <li>
-                        <p>Check if your device is recognized using the following commands on Terminal</p>
+                        <p>Check if your device is recognized using the following commands on Terminal.</p>
                         <pre><code class="language-groovy">cd /Applications/Katalon\ Studio.app/Contents/Eclipse/configuration/resources/tools/imobiledevice&nbsp;
 idevice_id -l</code></pre>
                         <p>If your iOS version is iOS 11, make sure Katalon Studio's version is 5.3+.</p>
@@ -48,31 +48,31 @@ idevice_id -l</code></pre>
             </td>
         </tr>
         <tr>
-            <td>xcodebuild exited with code&nbsp;'65'&nbsp;and signal&nbsp;'null'</td>
+            <td>xcodebuild exited with code&nbsp;'65'&nbsp;and signal&nbsp;'null'.</td>
             <td>
                 <p>Your .ipa application and/or WebDriverAgent is not signed correctly.</p>
                 Solutions:
                 <ul>
                     <li>Sign and rebuild the WebDriverAgent XCode project with your developer certificate.</li>
-                    <li>Uncheck 'Automatically Signing' option from WebDriverAgentRunner and select <strong>valid provisioning profile</strong> (profile displayed as Eligible from the list)</li>
+                    <li>Uncheck 'Automatically Signing' option from WebDriverAgentRunner and select <strong>valid provisioning profile</strong> (profile displayed as Eligible from the list).</li>
                 </ul>
             </td>
         </tr>
         <tr>
-            <td>Xcode fails to create a provisioning profile for the <code>WebDriverAgentRunner</code>&nbsp;target:</td>
+            <td>Xcode fails to create a provisioning profile for the <code>WebDriverAgentRunner</code>&nbsp;target.</td>
             <td>
                 <p>This necessitates manually changing the bundle id for the target by going into the "Build Settings" tab, and changing the "Product Bundle Identifier" from&nbsp;<code>com.facebook.WebDriverAgentRunner</code>&nbsp;to something that Xcode will accept.</p>
             </td>
         </tr>
         <tr>
-            <td>Fail to start Appium server in 30 seconds</td>
-            <td>Katalon Studio can't start Appium server within 30 seconds (default timeout). You can increase this timeout value from this settings: Project&nbsp;→ Settings&nbsp;→ Execution&nbsp;→ Default&nbsp;→ Default wait for elements timeout (in seconds)</td>
+            <td>Fail to start Appium server in 30 seconds.</td>
+            <td>Katalon Studio can't start Appium server within 30 seconds (default timeout). You can increase this timeout value from this settings: Project&nbsp;→ Settings&nbsp;→ Execution&nbsp;→ Default&nbsp;→ Default wait for elements timeout (in seconds).</td>
         </tr>
         <tr>
             <td>
                 <ul>
-                    <li>Fail to start the Appium server in 60 seconds</li>
-                    <li>Original error: 'x.x.SplashActivity' never started</li>
+                    <li>Fail to start the Appium server in 60 seconds.</li>
+                    <li>Original error: 'x.x.SplashActivity' never started.</li>
                 </ul>
             </td>
             <td>
@@ -83,32 +83,32 @@ idevice_id -l</code></pre>
 [debug] [ADB] Incorrect package and activity. Retrying.</code></pre>
                 <p>&nbsp;</p>
                 <p>The root cause is Katalon Studio can't start application due to incorrect package and activity by default, so you need to add additional settings to desired capabilities:&nbsp;</p>
-                <p>&nbsp;-&nbsp;Navigate to Mobile settings (Project &gt; Settings &gt; Execution &gt; Default &gt; Mobile &gt; Android)&nbsp;<br>&nbsp;-&nbsp;Add the following key<br>&nbsp; &nbsp;Name: appWaitActivity&nbsp;<br>&nbsp; &nbsp;Value: com.* (<strong>based on the prefix of 'Found package' log</strong>)</p>
+                <p>&nbsp;-&nbsp;Navigate to Mobile settings (Project &gt; Settings &gt; Execution &gt; Default &gt; Mobile &gt; Android).&nbsp;<br>&nbsp;-&nbsp;Add the following key.<br>&nbsp; &nbsp;Name: appWaitActivity.&nbsp;<br>&nbsp; &nbsp;Value: com.* (<strong>based on the prefix of 'Found package' log</strong>).</p>
                 <p><br></p>
             </td>
         </tr>
         <tr>
-            <td>Carthage&nbsp;is not found</td>
+            <td>Carthage&nbsp;is not found.</td>
             <td>Known issue of Appium 1.7 with Xcode 9:&nbsp;<a class="external-link" href="https://github.com/appium/appium/issues/9344" rel="nofollow">https://github.com/appium/appium/issues/9344</a>, so please use Katalon Studio 5.1.0.2+ to avoid this message.</td>
         </tr>
         <tr>
             <td>Unable to Start Application on this device: Appium directory is invalid.</td>
             <td>
                 <p>Katalon Studio cannot locate the provided Appium directory. Please double check your Appium directory to make sure it should be as shown below:</p>
-                <p>Windows: (Window&nbsp;→ Katalon Studio Preferences&nbsp;→ Mobile&nbsp;→ Appium Directory)</p>
+                <p>Windows: (Window&nbsp;→ Katalon Studio Preferences&nbsp;→ Mobile&nbsp;→ Appium Directory).</p>
                 <pre><code class="language-groovy">C:\Users\&lt;Username&gt;\AppData\Roaming\npm\node_modules\appium</code></pre>
-                <p>MacOS/Linux: (Katalon Studio&nbsp;→ Preferences&nbsp;→ Mobile&nbsp;→ Appium Directory)</p>
+                <p>MacOS/Linux: (Katalon Studio&nbsp;→ Preferences&nbsp;→ Mobile&nbsp;→ Appium Directory).</p>
                 <pre><code class="language-groovy">/usr/local/lib/node_modules/appium</code></pre>
             </td>
         </tr>
         <tr>
-            <td>Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Appium directory is not set</td>
+            <td>com.kms.katalon.core.appium.exception.AppiumStartException: Appium directory is not set.</td>
             <td>
                 <p> When running tests with <strong>Katalon Runtime Engine</strong>, by default Katalon checks the Appium directory at:</p>
                 <ul>
-                  <li>APPIUM_HOME environment variable (*) </li>
-                  <li>Windows: C:\Users<Username>\AppData\Roaming\npm\node_modules\appium</li>
-                  <li>macOS and Linux: /usr/local/lib/node_modules/appium</li>
+                  <li>APPIUM_HOME environment variable (*). </li>
+                  <li>Windows: C:\Users<Username>\AppData\Roaming\npm\node_modules\appium.</li>
+                  <li>macOS and Linux: /usr/local/lib/node_modules/appium.</li>
                 </ul>
                 <p> (*) To set Appium location by using APPIUM_HOME environment variable:
                 <li>Windows: <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/roubleshooting-automated-mobile-testing/windows-appium-home.png"></li>
@@ -116,5 +116,16 @@ idevice_id -l</code></pre>
                 </p>
             </td>
         </tr>
+        <tr>
+            <td>java.util.concurrent.ExecutionException: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: timeout of 240000ms exceeded.</td>
+            <td>
+                <p>Solution:</p>
+                    <ol>
+                        <li> Install <a href="https://docs.katalon.com/katalon-studio/docs/installing-webdriveragent-for-ios-devices.html">Webdriveragent</a>.</li>
+                        <li> Kill the running appium proccesses with the following command:  <pre><code>killall -9 node</code></pre></li>
+                        <li> Start the AUT again.</li>
+                    </ul>
+            </td>
+        </tr>                                  
     </tbody>
 </table>

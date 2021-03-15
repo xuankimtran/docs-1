@@ -25,6 +25,11 @@ body {
       word-break: break-word;
     }
   }
+  
+  table.top-vertical-align-table td {
+    vertical-align: top;
+  }
+  
   ul, ol {
     padding-inline-start: 2em;
     li {

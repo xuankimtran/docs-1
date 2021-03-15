@@ -10,7 +10,7 @@ Your test scripts can be uploaded as a .zip file or from Git repositories.
 
 ## Upload a .zip file to a Script Repository
 
- In **Katalon Testops**, click the button **Setting** on the top right corner, choose **Project Management**.
+ In **Katalon TestOps**, click the button **Setting** on the top right corner, choose **Project Management**.
 
  ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/code-repo/kt2_project_management.png)
 
