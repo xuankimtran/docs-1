@@ -11,7 +11,7 @@ With **TestOps CI**, you can execute your test plans parallelly in load-balanced
 
 ## Configure a threshold
 
-Threshold is the maximum number of sessions that a local test environment can execute concurrently. You need to configure the threshold value to assign one local test environment to multiple test plans.
+The threshold is the maximum number of jobs that a local test environment can execute concurrently. You need to configure the threshold value to assign one local test environment to multiple test plans.
 
 > Note: Thresholds are set as 1 by default for all local test environments.
 
