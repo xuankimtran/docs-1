@@ -19,7 +19,7 @@ To import a service definition with OpenAPI 3.0, please do as follows:
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-openapi30/icon.png" width=65%>
 
-* In **Tests Explorer**, right-click on any folder of **Object Repository** > select **Import > From OpenAPI 3**.
+* Or in the **Tests Explorer**, right-click on **Object Repository** > select **Import > From OpenAPI 3**.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-openapi30/rightclick.png" width=70%>
 
