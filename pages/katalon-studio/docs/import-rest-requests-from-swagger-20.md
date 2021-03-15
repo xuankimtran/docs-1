@@ -26,7 +26,7 @@ To conduct, do as follow:
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-rest-requests-from-swagger-20/import.png" width=56%>
 
-* In **Tests Explorer**, right-click on any folder of **Object Repository** > select **Import > From OpenAPI 2 (Swagger)**.
+* Or in the **Tests Explorer**, right-click on **Object Repository** > select **Import > From OpenAPI 2 (Swagger)**.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-rest-requests-from-swagger-20/import-via-object.png" width=70%>
 
