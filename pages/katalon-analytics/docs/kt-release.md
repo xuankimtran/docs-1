@@ -4,7 +4,6 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/kt-release.html
 redirect_from:
     - "/katalon-analytics/docs/release.html"
-    - "/katalon-analytics/docs/kt-jira-release.html"
 ---
 
 With the Releases feature in **Katalon TestOps**, you can populate releases from Jira or create a new one and link your Test Runs to it.
