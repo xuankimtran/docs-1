@@ -12,27 +12,23 @@ Your test scripts can be uploaded as a .zip file or from Git repositories.
 
  In **Katalon TestOps**, click the button **Setting** on the top right corner, choose **Project Management**.
 
- ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/code-repo/kt_project_management.png)
+ ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/code-repo/kt2_project_management.png)
 
  Then, choose a project.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/code-repo/kt_choose_project.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/code-repo/kt2_choose_project.png)
 
-The **Dashboard** of the project which we have just chosen displays. On the left sidebar, click **Configuration**, then click **Script Repositories**.
+The **Dashboard** of the project which we have just chosen displays. On the left sidebar, click **Configuration**, click **Script Repositories**, click button **Create Script Repositories**.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/code-repo/kt_config_script_repo.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/code-repo/kt2_create_script_repo.png)
 
-Click button Create Script Repositories.
+Give a name to your project and describe what it does. Click **Choose Files** to browse to your compressed project code from your local machine. Only a .zip file is allowed. Click button **Create** to upload the project code.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/code-repo/kt_create_script_repo.png)
-
-Give a name to your project and describe what it does. Click *Choose Files* to browse to your compressed project code from your local machine. Only a .zip file is allowed. Click button *Create* to upload the project code.
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/code-repo/kt_choose_file_upload.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/code-repo/kt2_choose_file_upload.png)
 
 Once you uploaded test scripts successfully, you can view them from the list of **Script Repositories**.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/code-repo/kt_script_repository.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/code-repo/kt2_script_repository.png)
 
 ## Next steps
 
