@@ -1237,6 +1237,8 @@ items:
                 url: /katalon-analytics/docs/testops-uploader.html
               - title: "Upload JUnit and TestNG Test Results via Maven" 
                 url: /katalon-analytics/docs/upload-junit-and-testng.html
+              - title: "Upload Test to Katalon TestOps via Jest."
+                url: /katalon-analytics/docs/kt-upload-test-jest.html
           - title: "Remote Execution"
             tree:
               - title: "Overview"
