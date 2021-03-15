@@ -12,7 +12,7 @@ description:
 Description
 -----------
 
-Verify if a mobile element is not present.
+Verify if a mobile element is NOT present.
 
 Parameters  
 ------------
@@ -20,12 +20,13 @@ Parameters  
 | Parameter | Parameter Type | Mandatory | Description |
 | --- | --- | --- | --- |
 | to | TestObject  | Required | Represent a mobile element |
+| timeout | Integer | Required | system will wait at most timeout (seconds) to return result |
 | flowControl | FailureHandling | Optional | Specify [failure handling](/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------
 
-**true** if the element is NOT present; otherwise,** false**
+**true** if the element is NOT present; otherwise, **false**.
 
 Example
 -------

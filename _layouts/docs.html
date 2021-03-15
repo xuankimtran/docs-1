@@ -233,63 +233,65 @@
                             </div>
                         </div>
                     </nav>
-                    <nav class="col-toc">
-                        <div class="sidebar hidden-xs hidden-sm">
-                            <div class="author-sidebar">
-                                {% if page.author_name %}
-                                <div class="title_author_block">
-                                    Credit to:
-                                </div>
-                                <div class="author_info">
-                                    <a href="{{ page.author_link }}">
-                                        <div class="author_image">
-                                            <img src="{{ page.author_avatar }}" />
-                                        </div>
-                                        <div class="author_name">
-                                            {{ page.author_name }}
-                                        </div>
-                                        <div style="clear: both;"></div>
-                                    </a>
-                                </div>
-                                {% endif %}
-                            </div>
-
-                            <div class="toc-nav">
-                                {% unless page.toc == false %}
-                                    <div class="settings">
-                                        <ul>
-                                            <li>
-                                                <div class="toggle-mode">
-                                                    <div class="icon">
-                                                        <i class="fa fa-sun-o"></i>
-                                                    </div>
-                                                    <div class="toggle-switch">
-                                                        <label class="switch">
-                                                            <input type="checkbox" id="switch-style">
-                                                            <div class="slider round"></div>
-                                                        </label>
-                                                    </div>
-                                                    <div class="icon">
-                                                        <i class="fa fa-moon-o"></i>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
+                    {% unless page.toc == false %}
+                        <nav class="col-toc">
+                            <div class="sidebar hidden-xs hidden-sm">
+                                <div class="author-sidebar">
+                                    {% if page.author_name %}
+                                    <div class="title_author_block">
+                                        Credit to:
                                     </div>
-                                    <div id="side-toc-title">{{site.data.strings.section_on_this_page}}</div>
-                                        <ul id="my_toc" class="inline_toc"></ul>
+                                    <div class="author_info">
+                                        <a href="{{ page.author_link }}">
+                                            <div class="author_image">
+                                                <img src="{{ page.author_avatar }}" />
+                                            </div>
+                                            <div class="author_name">
+                                                {{ page.author_name }}
+                                            </div>
+                                            <div style="clear: both;"></div>
+                                        </a>
                                     </div>
-                                {% endunless %}
+                                    {% endif %}
+                                </div>
+
+                                <div class="toc-nav">
+                                    {% unless page.toc == false %}
+                                        <div class="settings">
+                                            <ul>
+                                                <li>
+                                                    <div class="toggle-mode">
+                                                        <div class="icon">
+                                                            <i class="fa fa-sun-o"></i>
+                                                        </div>
+                                                        <div class="toggle-switch">
+                                                            <label class="switch">
+                                                                <input type="checkbox" id="switch-style">
+                                                                <div class="slider round"></div>
+                                                            </label>
+                                                        </div>
+                                                        <div class="icon">
+                                                            <i class="fa fa-moon-o"></i>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div id="side-toc-title">{{site.data.strings.section_on_this_page}}</div>
+                                            <ul id="my_toc" class="inline_toc"></ul>
+                                        </div>
+                                    {% endunless %}
 
 
-                                <!-- <div class="banner_sales">
-                                    <a href="https://www.katalon.com/support-service-options/">
-                                        <img src="{{ "https://github.com/katalon-studio/docs-images/raw/master/banner@2x_tiny.png" | prepend:site.baseurl }}" />
-                                    </a>
-                                </div> -->
+                                    <!-- <div class="banner_sales">
+                                        <a href="https://www.katalon.com/support-service-options/">
+                                            <img src="{{ "https://github.com/katalon-studio/docs-images/raw/master/banner@2x_tiny.png" | prepend:site.baseurl }}" />
+                                        </a>
+                                    </div> -->
+                                </div>
                             </div>
-                        </div>
-                    </nav>
+                        </nav>
+                    {% endunless %}
                 </div>
             </div>
         </div>

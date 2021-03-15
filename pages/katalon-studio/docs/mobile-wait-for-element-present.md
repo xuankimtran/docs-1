@@ -43,7 +43,7 @@ import internal.GlobalVariable as GlobalVariable
 Mobile.startApplication(GlobalVariable.G_AndroidApp, false)
 
 'Wait for app control to be present in 10 seconds timeout'
-Mobile.waitForElementPresent(findTestObject(findTestObject('Object Repository/Application/android.widget.TextView - App')), 10)
+Mobile.waitForElementPresent(findTestObject('Object Repository/Application/android.widget.TextView - App'), 10)
 
 'Close application on current selected android\'s device'
 Mobile.closeApplication()

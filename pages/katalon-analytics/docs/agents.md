@@ -26,7 +26,7 @@ Start Agents step by step, see [here](https://docs.katalon.com/katalon-analytics
 
 You can check the Agent status by going to **Test Environments** in **Configurations**.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-terminology/test-environment.png)
+![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-analytics/docs/agents/agent-local.png)
 
 > You can delete an Agent anytime by clicking on the recycle bin icon.
 

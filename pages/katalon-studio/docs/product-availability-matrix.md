@@ -6,7 +6,7 @@ permalink: /katalon-studio/docs/product-availability-matrix.html
 
 This document gives you information on the supported technologies and integrations. For the supported environments (including browsers and operating systems), see [this document](https://docs.katalon.com/katalon-studio/docs/supported-environments.html).
 
-<table id="top">
+<table id="top" class="top-vertical-align-table">
     <tr>
         <td colspan="2"><strong>Supported Application Under Test (AUT)</strong>
         </td>

@@ -25,7 +25,7 @@ After creating the environment, you now have the Kubernetes Test Environment rea
 
 > View a list of Test Environment that you have created in *Test Environments* page.
 >
-><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/aws-eks/kubernetes-environment.png" width="" height="">
+><img src="https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/aws-eks/Kubernetes-test-environment.png" width="" height="">
 
 ## Next steps
 
