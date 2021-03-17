@@ -10,4 +10,4 @@ With dozens of new features and improvements, [Katalon Studio 5.4](https://www.k
 
 In this video, Karthik will show you what's new in Katalon Studio 5.4, this version focuses on providing more capability with API testing including query parameters for REST request URL, support various HTTP Body message types, details information in Response, and more.
 
-**Note: **This video is contributed by Karthik K.K from [http://executeautomation.com/blog/](http://executeautomation.com/blog/)
+**Note:** This video is contributed by Karthik K.K from [http://executeautomation.com/blog/](http://executeautomation.com/blog/).
