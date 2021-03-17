@@ -1,5 +1,5 @@
 ---
-title: "How to implement Data-driven Testing with MySQL"
+title: "How to implement Data-driven Testing with MySQL?"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/tutorials/how-to-implement-ddt-mysql.html 
 description:
