@@ -5,7 +5,7 @@ permalink: katalon-studio/videos/api_testing_katalon_studio_get_request_verify_r
 description:
 ---
 
-<iframe width="809" height="363" src="https://www.youtube.com/embed/tEYxORPJWZQ?list=PLlsKgYi2Lw732Snuu4qPlkvnOykiiatKc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="590" height="363" src="https://www.youtube.com/embed/tEYxORPJWZQ?list=PLlsKgYi2Lw732Snuu4qPlkvnOykiiatKc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 In this video, Rahul Rathore discusses how to send the GET request and verify the response with Katalon Studio.
 
