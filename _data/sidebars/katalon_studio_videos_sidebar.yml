@@ -209,3 +209,9 @@ items:
       url: /katalon-studio/videos/take_webelement_screenshot.html
     - title: "Image comparison in Katalon Studio"
       url: /katalon-studio/videos/image_comparison.html
+  - title: "KB Tutorials"
+    tree:
+    - title: "Introducing Katalon Studio"
+      url: /katalon-studio/videos/introducing_katalon_studio.html
+    - title: "Mobile Testing with Katalon Studio"
+      url: /katalon-studio/videos/mobile_testing_using_katalon_studio.html
