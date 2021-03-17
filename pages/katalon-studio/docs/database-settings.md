@@ -9,6 +9,7 @@ redirect_from:
     - "/katalon-studio/docs/database-settings/"
 description: 
 ---
+> From v8.0 onwards, MySQL is removed from Katalon Studio built-in function.
 
 This document gives you information on which database can be used for Data-driven testing and how to set up the database connection in Katalon Studio.
 
@@ -27,7 +28,6 @@ Where:
 - Password: The password for authentication in the connected database server.
 - JDBC Driver: The ClassDriverName of the database that has a supported library connection (JDBC).
 - Connection URL: The connection string of the database server. Katalon Studio supports built-in JDBC Drivers for the following databases:
-    - [MySQL](https://dev.mysql.com/doc/connectors/en/connector-j-reference-configuration-properties.html).
     - [SQL Server](https://docs.microsoft.com/en-us/sql/connect/jdbc/connecting-to-sql-server-with-the-jdbc-driver?view=sql-server-ver15).
     - [Oracle SQL](https://docs.oracle.com/database/121/JJDBC/urls.htm#JJDBC28268).
     - [PostgreSQL](https://jdbc.postgresql.org/documentation/head/connect.html).
