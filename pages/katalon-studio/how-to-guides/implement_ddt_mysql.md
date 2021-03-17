@@ -7,7 +7,7 @@ description:
 
 Prior to v8.0, MySQL is one of the Katalon Studio built-in libraries, which allows the built-in database connection support. Unfortunately, due to the open-source library compliance issue, it is removed from Katalon Studio built-in function. 
 
-> See which libraries Katalon Studio support built-in JDBC drivers [here](https://docs.katalon.com/katalon-studio/docs/database-settings.html#introduce-database-connection).
+> See which libraries Katalon Studio supports built-in JDBC drivers [here](https://docs.katalon.com/katalon-studio/docs/database-settings.html#introduce-database-connection).
 >
 > See Katalon Studio built-in libraries [here](https://docs.katalon.com/katalon-studio/docs/database-settings.html#introduce-database-connection).
 
@@ -22,7 +22,7 @@ This section provides a usage example by connecting to MariaDB, a database with 
 - Katalon Studio v8.0+.
 - An active Katalon Studio Enterprise license.
 - You have already set up MyQSL Database.
-- MyQSL Database is running.
+- MySQL Database is running.
 
 To establish the connection:
 
