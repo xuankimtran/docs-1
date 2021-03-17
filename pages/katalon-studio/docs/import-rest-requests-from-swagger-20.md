@@ -11,38 +11,41 @@ description:
 ---
 > [Read more about Swagger 2.0...](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md)
 
-To import Web Service objects from a **Swagger 2.0 **_File_ or _URL_ depending on the type of your Katalon Studio project, follow the following:
+This topic shows you how to import Web Service objects from a **Swagger 2.0** File or URL, depending on the type of your Katalon Studio project.
 
-Generic Project
----------------
+**Requirements**
 
-*   In Tests Explorer, right-click on any folder within **Object Repository** to display the context menu and select **Import > From Swagger**.
+* Katalon Studio version 7.0+.
+* An active Katalon Studio Enterprise license.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-rest-requests-from-swagger-20/Screen-Shot-2018-10-08-at-4.07.36-PM.png)
+To conduct, do as follow:
 
-API/Web Service Project
------------------------
+1. Open or create a project > import the service definition in two ways:
 
-There are two ways to import existing Swagger request:
+* With an API or Web Service project type, click on the OpenAPI icon > select **Import OpenAPI 2 (Swagger)**.
 
-*   *   In Tests Explorer, right-click on any folder within **Object Repository** to display the context menu and select **Import > From Swagger.**
-    *   Click on '**Import Swagger**' icon on the main toolbar or Quickstart wizard.   
-        ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-rest-requests-from-swagger-20/Screen-Shot-2018-10-09-at-4.41.24-PM.png)
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-rest-requests-from-swagger-20/import.png" width=56%>
 
-Katalon Studio displays the input dialog accepts either a _local file_ or a _remote URL_, e.g: [https://mySite/swagger.json](https://mySite/swagger.json,). Since both inputs are using the same definition, Katalon Studio will load the specs and generate REST requests.
+* Or in the **Tests Explorer**, right-click on **Object Repository** > select **Import > From OpenAPI 2 (Swagger)**.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-rest-requests-from-swagger-20/Screen-Shot-2018-10-02-at-12.02.20.png)
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-rest-requests-from-swagger-20/import-via-object.png" width=70%>
 
-**Katalon automatically imports and generates:**
+2. In the displayed dialog, browse your **Swagger** local file or enter an OpenAPI 2 (Swagger) URL >click **OK**.
 
-*   Web Service _objects_ (REST) are added under the right-clicked directory.
-*   _Query Parameters_, _variables_ _HTTP Headers_.
-*   _HTTP body_, _form-data_, and _encoded URL_ parameters are parsed.  
-      
-    
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-rest-requests-from-swagger-20/browse.png" width=70%>
+
+    Katalon Studio loads the file and generates RESTful test requests accordingly.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-rest-requests-from-swagger-20/result.png" width=70%>
 
 > **Known Issues**:
 > 
 > *   No Raw text content in HTTP Body parsed from Swagger.
 > *   No Authorization parsed from Swagger.
 > *   Variables and Parameters should be adjusted manually.
+
+**See also:**
+
+* [Use test requests in a test case](https://docs.katalon.com/katalon-studio/docs/using-web-services-in-a-test-case.html)
+* [Parameterize a Web Service Object](/display/KD/Parameterize+a+Web+Service+Object)
+* [Verification Snippets](/display/KD/Verification+Snippets)

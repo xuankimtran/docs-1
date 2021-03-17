@@ -8,28 +8,28 @@ This manual shows you how to import RESTful APIs with [OpenAPI Specification ver
 
 **Requirements**
 
-* Katalon Studio version 7.7+
-* An active Katalon Studio Enterprise license
+* Katalon Studio version 7.7+.
+* An active Katalon Studio Enterprise license.
 
 To import a service definition with OpenAPI 3.0, please do as follows:
 
-1. Open or create a project then import the service definition in two ways:
+1. Open or create a project > import the service definition in two ways:
 
-* With a API/Web Service project type, click on the OpenAPI icon and select the **Import OpenAPI 3** option; or
+* With an API or Web Service project type, click on the OpenAPI icon > select **Import OpenAPI 3**.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-openapi30/icon.png" width=351>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-openapi30/icon.png" width=65%>
 
-* In **Tests Explorer**, right-click on any folder of **Object Repository** and select **Import > From OpenAPI 3**.
+* Or in the **Tests Explorer**, right-click on **Object Repository** > select **Import > From OpenAPI 3**.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-openapi30/rightclick.png" width=541>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-openapi30/rightclick.png" width=70%>
 
-3. In the displayed dialog, browse your **OpenAPI 3.0** local file or enter an OpenAPI 3 URL, and click **OK**.
+2. In the displayed dialog, browse your **OpenAPI 3.0** local file or enter an OpenAPI 3 URL > click **OK**.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-openapi30/browse.png" width=454>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-openapi30/browse.png" width=70%>
 
    Katalon Studio loads the file and generates RESTful test requests accordingly.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-openapi30/imported.png" width=651>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-openapi30/imported.png" width=70%>
 
 **See also:**
 
