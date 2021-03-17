@@ -5,15 +5,15 @@ permalink: katalon-analytics/docs/kt-upload-test-mocha.html
 description: 
 ---
 
-We can submit results from the Jest test frameworks to Katalon TestOps. An example with the Jest test can be download from [here](https://github.com/katalon-studio/testops-report-js).
+We can submit results from the Mocha test frameworks to Katalon TestOps. An example with the Mocha test can be download from [here](https://github.com/katalon-studio-samples/testops-report-sample-js).
 
-On the **Visual Studio Code**, open a file Jest.
+On the **Visual Studio Code**, open a file Mocha.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jest/kt_vs_code_open_jest.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-mocha/kt_vs_code_open_mocha.png)
 
 Open file "package.json".
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jest/kt_vs_code_open_package_json.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-mocha/kt_vs_code_package_json.png)
 
 Type the command `npm install`, press **Enter**, and wait a few minutes for running.
 
