@@ -1,5 +1,5 @@
 ---
-title: "API Testing with Katalon Studio for Web Service Request"
+title: "API Testing with Katalon Studio for handling dynamic data in Test Request"
 sidebar: katalon_studio_videos_sidebar
 permalink: katalon-studio/videos/api_testing_katalon_studio_dynamic_data_in_request_body.html
 description: 
@@ -7,7 +7,7 @@ description:
 
 <iframe width="589" height="362" src="https://www.youtube.com/embed/KsIkV_Zmkek?list=PLlsKgYi2Lw732Snuu4qPlkvnOykiiatKc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-In this video, Rahul Rathore discuses how to create dynamic data Request Body with Katalon Studio.
+In this video, Rahul Rathore discusses how to create Request Body having dynamic data with Katalon Studio.
 
 1\. Create variables with Default values for holding dynamic data.
 
