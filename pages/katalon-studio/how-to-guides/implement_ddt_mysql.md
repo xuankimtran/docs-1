@@ -13,7 +13,7 @@ From v8.0 onwards, MySQL becomes an external library. This change impacts the co
 
 ### Connect to MySQL database with the external JDBC driver
 
-This section provides a usage example by connecting to MySQL database with its external JDBC driver.
+This section provides an usage example by connecting to MySQL database with its external JDBC driver.
 
 **Requirements**
 
