@@ -19,10 +19,12 @@ There are two ways of installing the WinAppDriver on a local Windows 10 machine.
 
 ## Set up Windows Application Driver on a remote machine
 
+On the host Windows machine:
+
 * Open **Task Manager** -> Select **File** -> Create a new task
 * Check `Create this task with administrative privileges` and enter `cmd` in the **Open** text box, then click the **OK** button.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/introduction-desktop-app-testing/Set-up-1.png" width="476" height="171">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/introduction-desktop-app-testing/Set-up-1.png" width="476" height="171">
 
 * Enter `cd` to folder `C:\Program Files (x86)\Windows Application Driver`.
 * Enter `WinAppDriver.exe IP_Adress Port` \
