@@ -3,7 +3,7 @@ title: "Set up WinAppDriver"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/setup-winappdriver.html 
 ---
-This document shows you how to install and run Windows Application Driver on a Windows 10 machine before performing automation test for Windows application. You need to install and run WinAppDriver on the test machine having the Application under test. While the machine where you install Katalon Studio (the test runner) and store test scripts can be either the same as the test machine (local connection) or another one (remote connection).
+This document shows you how to install and run Windows Application Driver on a Windows 10 machine before performing automation test for Windows application. You need to install and run WinAppDriver on the **test machine** where you has the Application Under Test. The test runner machine where you install Katalon Studio and store test scripts can be either the same as the test machine (local connection) or another one (remote connection).
 
 ## Set up Windows Application Driver on a local Windows 10 machine
 
