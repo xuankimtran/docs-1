@@ -17,46 +17,42 @@ Open file "package.json".
 
 Type the command `npm install`, press **Enter**, and wait a few minutes for running.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jest/kt_vs_code_json_install.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-mocha/kt_vs_code_mocha_json_install.png)
 
 On the page Katalon TestOps, we do 5 steps as follow:
 * Choose a project, which we want to upload the test results.
 * Click the tab **Configurations**.
 * Click the tab **Framework Integration**.
-* On the board **Framework Integration**, choose the tab **Jest**.
-* Click the button **Copy** on the right of the item **Install dependency**. And now we copied the command line `npm i -s @katalon/testops-jest`.
+* On the board **Framework Integration**, choose the tab **Mocha**.
+* Click the button **Copy** on the right of the item **Install dependency**. And now we copied the command line `npm i -s @katalon/testops-mocha`.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jest/kt_bash_copy_npm.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-mocha/kt_bash_copy_mocha_npm.png)
 
 On the **Visual Studio Code**, file "package.json", right-click for pasting the command `npm i -s @katalon/testops-jest` and press Enter. And we wait a few minutes for running.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jest/kt_vs_code_paste_bash.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-mocha/kt_vs_code_mocha_paste_bash.png)
 
-Create two new files with the name "testops-config.json" and "jest.config.js".
+Create a new files with the name "testops-config.json".
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jest/kt_create_file_json_js.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-mocha/kt_vs_code_creat_testops_config.png)
 
 On the page Katalon TestOps, we click the button **Copy** on the right of the item **Base** of **Configure**. 
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jest/kt_copy_configure_base.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-mocha/kt_copy_configure_base.png)
 
 On the **Visual Studio Code**, open file "testops-config.json
 ", paste the terms which we have just copied from Katalon TestOps. We save this file.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jest/kt_paste_testops_json.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-mocha/kt_vs_code_paste_testops_config.png)
 
-On the page Katalon TestOps, we click the button **Copy** on the right of the item **Add Report** of **Configure**.
+On the page Katalon TestOps, we click the button **Copy** on the right of the item **Import reports**. 
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jest/kt_copy_configure_add_report.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-mocha/kt_npx_mocha.png)
 
-On the **Visual Studio Code**, open file "jest.config.js", paste the terms which we have just copied from Katalon TestOps. We save this file.
+On the **Visual Studio Code**, type the command `npm test`, press **Enter**, and wait a few minutes for running.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jest/kt_paste_js_vs_code.png)
-
-On the **Visual Studio Code**, type the command `npx jest`, press **Enter**, and wait a few minutes for running.
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jest/kt_npx_jest.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-mocha/kt_vs_code_npm_test.png)
 
 On the **Test Planning** of **Katalon TestOps**, the Test Run was uploaded.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jest/kt_upload_test_plan.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-mocha/kt_upload_test_planning.png)
