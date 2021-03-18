@@ -8,14 +8,12 @@ description:
 Prior to v8.0, MySQL is one of the Katalon Studio built-in libraries, which allows the built-in database connection support. Unfortunately, due to the open-source library compliance issue, it is removed from Katalon Studio built-in function. 
 
 > See which libraries Katalon Studio supports built-in JDBC drivers [here](https://docs.katalon.com/katalon-studio/docs/database-settings.html#introduce-database-connection).
->
-> See Katalon Studio built-in libraries [here](https://docs.katalon.com/katalon-studio/docs/database-settings.html#introduce-database-connection).
 
 From v8.0 onwards, MySQL becomes an external library. This change impacts the configuration of all existing projects having configured MySQL DB connection. The document shows you how to configure MySQL database connection to continue using it.
 
 ### Connect to MySQL database with the external JDBC driver
 
-This section provides a usage example by connecting to MySQL database with the external JDBC driver.
+This section provides a usage example by connecting to MySQL database with its external JDBC driver.
 
 **Requirements**
 
