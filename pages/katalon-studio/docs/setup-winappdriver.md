@@ -27,7 +27,7 @@ On the host Windows machine:
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/introduction-desktop-app-testing/Set-up-1.png" width="476" height="171">
 
 * Enter `cd` to folder `C:\Program Files (x86)\Windows Application Driver`.
-* Enter `WinAppDriver.exe IP_Adress Port` \
+* Enter `WinAppDriver.exe <IP_Adress> <Port>` \
     where: \
     *IP_Adress* is the public IP address of the remote machine \
     *Port* is the public port of the remote machine. By default, it should be 4723.
