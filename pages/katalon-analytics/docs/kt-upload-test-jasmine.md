@@ -9,7 +9,7 @@ We can submit results from the Jasmine test frameworks to Katalon TestOps. An ex
 
 On the **Visual Studio Code**, open a file Jasmine.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-mocha/kt_vs_code_open_mocha.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/kt_vs_code_file_test_jasmine.png)
 
 Open file "package.json".
 
