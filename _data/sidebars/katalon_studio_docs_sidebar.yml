@@ -1228,7 +1228,7 @@ items:
               - title: "Upload Test Results manually from Katalon Studio"
                 url: /katalon-analytics/docs/project-management-import-KS.html
               - title: "Upload a Test Suite to the Katalon TestOps"
-                url: katalon-analytics/docs/ks_upload_project_kt.html
+                url: /katalon-analytics/docs/ks_upload_project_kt.html
           - title: "Framework Integration"
             tree:
               - title: "Upload JUnit and Katalon Studio Test Results using Katalon Report Uploader"
@@ -1238,11 +1238,11 @@ items:
               - title: "Upload JUnit and TestNG Test Results via Maven" 
                 url: /katalon-analytics/docs/upload-junit-and-testng.html
               - title: "Upload Test to Katalon TestOps via Mocha."
-                url: katalon-analytics/docs/kt-upload-test-mocha.html
+                url: /katalon-analytics/docs/kt-upload-test-mocha.html
               - title: "Upload Test to Katalon TestOps via Jest."
                 url: /katalon-analytics/docs/kt-upload-test-jest.html
               - title: "Upload Test to Katalon TestOps via Jasmine."
-                url: katalon-analytics/docs/kt-upload-test-jasmine.html
+                url: /katalon-analytics/docs/kt-upload-test-jasmine.html
           - title: "Remote Execution"
             tree:
               - title: "Overview"
