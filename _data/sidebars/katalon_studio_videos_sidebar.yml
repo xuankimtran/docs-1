@@ -174,7 +174,7 @@ items:
     - title: "API Testing with Katalon Studio for POST request and verify the response"
       url: /katalon-studio/videos/api_testing_katalon_studio_post_request_verify_response_rahul.html
     - title: "API Testing with Katalon Studio for PUT request and verify the response"
-      url: katalon-studio/videos/api_testing_katalon_studio_put_request_verify_response_rahul.html
+      url: /katalon-studio/videos/api_testing_katalon_studio_put_request_verify_response_rahul.html
   - title: "Tony Chau"
     tree:
     - title: "Katalon Studio Set Up Guidelines"
