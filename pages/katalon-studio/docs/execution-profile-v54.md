@@ -138,7 +138,7 @@ A **global variable** is a variable defined in the execution profile and can be 
 
 ### Scope of Global Variables
 
-During runtime, global variables' value can not be passed from a Test Suite to another Test Suite within a Test Suite Collection. This infers you can run or modify the Test Suites in a Test Suite Collection in parallel without clashing.
+Global variables are Test Suite scoped. If the value of any Global Variable is changed during runtime, it will not be shared among Test Suites. This infers that you can modify Global Variables in a particular Test Suite run without affecting the Global Variables of other Test Suites in the Test Suit Collection.
 
 In the following screenshot, you can find "Test Suites/New Test Suite (1)" is listed twice. The first one uses "default," and the second one has "stagging". This association proves that **a Profile is Test Suite scoped**. Otherwise, the association can not be logically valid.
 
@@ -226,6 +226,3 @@ To change a global variable's value during runtime, use the following command sy
 See Also:
 
 * [How to change email settings during execution](https://docs.katalon.com/katalon-studio/docs/execution-settings.html#support-global-variables-in-email-settings).
-
-
-
