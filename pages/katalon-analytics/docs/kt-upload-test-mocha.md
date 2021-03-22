@@ -1,5 +1,5 @@
 ---
-title: "Upload Test to Katalon TestOps via Mocha." 
+title: "Upload Test to Katalon TestOps via Mocha" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/kt-upload-test-mocha.html
 description: 
