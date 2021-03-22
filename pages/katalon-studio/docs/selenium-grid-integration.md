@@ -7,7 +7,7 @@ description: Tutorials of executing Katalon Studio's scripts on remote machines 
 
 You can execute your scripts on remote machines by using [Selenium Grid](https://www.seleniumhq.org/docs/07_selenium_grid.jsp).
 
-1. Follow [this user guide](https://www.seleniumhq.org/docs/07_selenium_grid.jsp#installation) to set up and activate Selenium Grid.
+1. Follow [this user guide](https://www.selenium.dev/documentation/en/grid/grid_3/setting_up_your_own_grid/) to set up and activate Selenium Grid.
 
 2. Configure the desired capabilities for a remote machine. Open Katalon Studio and navigate to **Project** > **Settings** > **Desired Capabilities** > **Remote** > Enter required information and then click **OK**.
 
