@@ -1,5 +1,5 @@
 ---
-title: "Upload Test to Katalon TestOps via Jasmine." 
+title: "Upload Test to Katalon TestOps via Jasmine" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/kt-upload-test-jasmine.html
 description: 
