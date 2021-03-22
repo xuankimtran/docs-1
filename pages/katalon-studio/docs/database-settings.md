@@ -9,7 +9,8 @@ redirect_from:
     - "/katalon-studio/docs/database-settings/"
 description: 
 ---
-> From v8.0 onwards, MySQL is removed from Katalon Studio built-in function. To continue using it, read [here](https://docs.katalon.com/katalon-studio/tutorials/how-to-implement-ddt-mysql.html).
+
+> From v8.0 onwards, MySQL's JDBC Driver is removed from Katalon Studio's built-in libraries. To continue using it, follow [this guide](https://docs.katalon.com/katalon-studio/tutorials/how-to-implement-ddt-mysql.html).
 
 This document gives you information on which database can be used for Data-driven testing and how to set up the database connection in Katalon Studio.
 
