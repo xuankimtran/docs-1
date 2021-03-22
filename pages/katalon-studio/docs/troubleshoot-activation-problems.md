@@ -15,6 +15,11 @@ First, please make sure you have configured the date and time of the machine ins
 
 Below are the common issues you may encounter, please troubleshoot correspondingly.
 
+<details><summary>Cannot connect to Katalon TestOps server. Please check your Internet connection and try again.</summary>
+   
+First check your Internet connection. If you still encounter this error, please replace the auto-filled Server URL with [https://testops.katalon.io](https://testops.katalon.io).
+
+</details>
 <details><summary>This account has been blocked.</summary>
 
 This error message indicates that your Katalon account has been registered but not verified. To unblock your Katalon account:
