@@ -13,41 +13,30 @@ redirect_from:
 description:
 ---
 
-> The Git integration feature is based on **EGit**. You can refer to [http://wiki.eclipse.org/EGit/User_Guide](http://wiki.eclipse.org/EGit/User_Guide) for a detailed user guide regarding EGit.
+Git is an essential and popular system for version control. Suppose your Katalon Studio automation project involves several or more members. In that case, you should use Git or another source control system for managing change and configuration on your test project. A Git repository can be shared across multiple team members to help improve the team's collaboration and productivity.
 
-## What is Git?
+Below are several benefits of using Git for your Katalon Studio projects:  
 
-Git is an essential and popular system for version control. It is one of the essential tools for collaboration in software development teams. 
-
-Suppose your Katalon Studio automation project involves several or more members. In that case, you should use Git or another source control system for managing change and configuration on your project. 
-
-Below are several specific benefits of using Git for your Katalon Studio projects:  
-
-- Git allows undoing mistakes.
-  - The undo ability gives project teams the courage to try out ideas and concepts without worrying about the risk of breaking stuff and, thus, fosters a culture of innovation.
-- Git makes the team progress clearer.
+- Git allows undoing mistakes. The undo ability gives project teams the courage to try out ideas and concepts without worrying about the risk of breaking stuff and, thus, fosters a culture of innovation.
+- Git makes the team progress clearer:
   - A commit in Git refers to a change in automation scripts that a team member makes, indicating the progress of tasks.
   - Git supports comparing versions of code to show differences between commits. It is useful to review a commit before it officially becomes final.
-- Git supports working offline.
-  - Being to work offline makes your team more fail-safe. Each member can perform everything on his/her computer, independent from possible infrastructure downtime.
-- Never losing data ever again.
-  - As daily work can be committed to the remote Git server, every team member working on a project has a full-fledged copy on his/her machine, including the project's complete change history.
-- If any backup breaks down: restore it using any team member's local repository or Git repository.
+- Git supports working offline. Being to work offline makes your team more fail-safe. Each member can perform everything on his/her computer, independent from possible infrastructure downtime.
+- Never losing data ever again. As daily work can be committed to the remote Git server, every team member working on a project has a full-fledged copy on his/her machine, including the project's complete change history.
+- If any backup breaks down, restore it using any team member's local repository or Git repository.
 
-Using Git, a repository can be shared with multiple team members to help improve the team's collaboration and productivity.
+## About Git Integration
 
-## Introduce Katalon Studio's integration with Git
-
-With its benefits, Katalon Studio provides **Git Integration** feature for a much more convenient collaboration between team members in automated test projects. Following are Git cloud-hosted services that you can integrate with Katalon Studio:
-
-- Github.
-- Gitlab.
-- Bitbucket.
-- Microsoft Azure DevOps.
-
-This tutorial presents a typical workflow of Git integration with Katalon Studio:
+The Git integration supported in Katalon Studio is based on **EGit**. You can refer to [http://wiki.eclipse.org/EGit/User_Guide](http://wiki.eclipse.org/EGit/User_Guide) for a detailed user guide regarding EGit. A typical workflow of Git integration with Katalon Studio is depicted in the following diagram:
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/git_integration_introduction/Katalon-and-Git.png" width=70%>
+
+You can integrate Katalon Studio with **Git** and its cloud-hosted services, including:
+
+### GitHub
+### GitLab
+### BitBucket
+### Microsoft Azure DevOps
 
 ## Configure Git Integration
 
