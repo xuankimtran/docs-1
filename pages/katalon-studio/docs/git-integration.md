@@ -1,5 +1,5 @@
 ---
-title: "Git Integration"
+title: "Git Integration (BitBucket Integration)"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/git-integration.html
 redirect_from:
@@ -33,10 +33,10 @@ The Git integration supported in Katalon Studio is based on **EGit**. You can re
 
 You can integrate Katalon Studio with **Git** and its cloud-hosted services, including:
 
-### GitHub
-### GitLab
-### BitBucket
-### Microsoft Azure DevOps
+* GitHub
+* GitLab
+* BitBucket
+* Microsoft Azure DevOps
 
 ## Configure Git Integration
 
