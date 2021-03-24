@@ -14,9 +14,9 @@ description:
 
 - An active Katalon Studio Enterprise license.
 
-### Enable the Intergration and Authenticate Azure DevOps Organization
+### Enable the Integration and Authenticate Azure DevOps Organization
 
-You need to enable ADO integration and authenticate to your Azure DevOps Organization to retrieve and map test artifacts between two systems and submit test results to ADO. Do as follow:
+You need to enable ADO integration and authenticate your Azure DevOps Organization to retrieve and map test artifacts between two systems and submit test results to ADO. Do as follow:
 
 In Katalon Studion, go to **Project > Settings > Integrations > Azure DevOps**:
 
@@ -33,7 +33,7 @@ In Katalon Studion, go to **Project > Settings > Integrations > Azure DevOps**:
 
 After successfully authenticating with ADO, all relevant ADO Projects will be retrieved and displayed in the drop-down list of **Project**.
 
-To configure the intergration, do as follows:
+To configure the integration, do as follows:
 
 1. Select a Project for Submitting the test run.
 
@@ -41,7 +41,7 @@ To configure the intergration, do as follows:
 
     - The **Test Artifacts Mapping** and **Submission Option** fieldsets are expanded automatically. You can customize the settings in each section. 
 
-        > If you want to fetch the lastest projects list > click **Fetch Project**.
+        > If you want to fetch the latest projects list > click **Fetch Project**.
 
 2. Conduct Test Artifacts Mapping.
  
@@ -59,13 +59,13 @@ To configure the intergration, do as follows:
 
     > **What is Test Point?**
     > 
-    > **A test point is a unique combination of test case, test suite, configuration, and tester**. Test cases by themselves are not executable. When you add a test case to a test suite then test point(s) are generated. [Learn more](https://docs.microsoft.com/en-us/azure/devops/test/new-test-plans-page?view=azure-devops#execute-tab) 
+    > **A test point is a unique combination of a test case, test suite, configuration, and tester**. Test cases by themselves are not executable. When you add a test case to a test suite, test point(s) are generated. [Learn more](https://docs.microsoft.com/en-us/azure/devops/test/new-test-plans-page?view=azure-devops#execute-tab) 
 
     - Select a fetched test plan in the drop-down list.
     - Enter the required **Test Run Name**.
     - Enter **Build Number** > click **Verify** to check if your number is valid.
 
-        > If you want to fetch the lastest test plans list > click **Fetch Test Plans**.
+        > If you want to fetch the latest test plans list > click **Fetch Test Plans**.
 
     - Decide when and what to submit test results.
 
@@ -81,11 +81,11 @@ To configure the intergration, do as follows:
 
 > Ensure that you have already taken the stated steps.
 
-When the execution finishes, the test run is created and test results are uploaded automatically to ADO in the format specified as below:
+When the execution finishes, the test run is created, and test results are uploaded automatically to ADO in the format specified as below:
 
 Test case result of each test case should display these fields:
 - Outcome = Azure status in Status Mapping.
 - Test Case Title = Title of the executed test case in ADO.
-- Machine name = Hostname in report.
+- Machine name = Hostname in the report.
 - Duration =  The elapsed time of each test case.
 - Error message = The test case message whenever the Katalon test case status is FAILED or ERROR.
