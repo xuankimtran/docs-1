@@ -77,7 +77,7 @@ To configure the integration, do as follows:
 2. Select **Integrations** tab > specify the Test Case's ID(s) of ADO.
 3. Click **Verify** to check whether the test case is valid > **Save**.
 
-### Create Test Run and Submit Test Results to Azure DevOps after execution
+### Submit test run and test results after execution
 
 > Ensure that you have already taken the stated steps.
 
