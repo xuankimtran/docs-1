@@ -9,13 +9,12 @@ description:
 
 - Map test cases between Katalon Studio and ADO.
 - In ADO, you can send and view Test Results of both Test Suites and Test Cases executed in Katalon Studio.
-- In Katalon Studio, you can query Test Runs of ADO in [Dynamic Test Suite](https://docs.katalon.com/katalon-studio/docs/dynamic-test-suite.html).
 
 **Prerequisite**
 
 - An active Katalon Studio Enterprise license.
 
-## Enable the intergration and Authenticate 
+### Enable the Intergration and Authenticate Azure DevOps Organization
 
 You need to enable ADO integration and authenticate to your Azure DevOps Organization to retrieve and map test artifacts between two systems and submit test results to ADO. Do as follow:
 
@@ -30,59 +29,63 @@ In Katalon Studion, go to **Project > Settings > Integrations > Azure DevOps**:
 
 3. Click **Connect** to verify whether ADO is connected successfully.
 
-## Configure the Integration
+### Configure the Integration
 
 After successfully authenticating with ADO, all relevant ADO Projects will be retrieved and displayed in the drop-down list of **Project**.
 
 To configure the intergration, do as follows:
 
-### 1. Select a project for submitting the test run
+1. Select a Project for Submitting the test run.
 
-- Select a project in the **Project** drop-down list for submitting the test run. 
+    - Select a fetched project in the **Project** drop-down list.
 
-- The **Test Artifacts Mapping** and **Submission Option** fieldsets are expanded automatically. You can customize the settings in each section. 
+    - The **Test Artifacts Mapping** and **Submission Option** fieldsets are expanded automatically. You can customize the settings in each section. 
 
-    > **Note**
-    >
-    > If you want to fetch the lastest list of projects > click **Fetch Project**.
+        > If you want to fetch the lastest projects list > click **Fetch Project**.
 
-### 2. Conduct Test Artifacts Mapping
-
-What is Test Point?
-
-- Test cases by themselves are not executable. When you add a test case to a test suite then test point(s) are generated. A test point is a unique combination of test case, test suite, configuration, and tester. 
-
-- If you have a test case as "Test login functionality" and you add 2 configurations to it as Edge and Chrome then this results in 2 test points. Now these test points can be executed. On execution, test results are generated. Through the test results view (execution history) you can see all executions of a test point. The latest execution for the test point is what you see in the execute tab.
-
-- Hence, test cases are reusable entities. By including them in a test plan or suite, test points are generated. By executing test points, you determine the quality of the product or service being developed. 
-
-What is Test Configuration?
-
-- A test configuration is a combination of configuration variable values. Your configuration variables could be, for example, operating system, browser, CPU type, database. A configuration might be "Windows 8 + 32-bit CPU" or "Windows 10 + 64-bit CPU." 
+2. Conduct Test Artifacts Mapping.
  
-To conduct, go to the **Test Artifacts Mapping** to customize the **Execution Status Mapping** and the **Test Configuration Mapping**.
+    > **What is Test Configuration?**
+    >
+    > **A test configuration is a combination of configuration variable values**. Your configuration variables could be, for example, operating system, browser, CPU type, database. A configuration might be "Windows 8 + 32-bit CPU" or "Windows 10 + 64-bit CPU." [Learn more](https://docs.microsoft.com/en-us/azure/devops/test/test-different-configurations?view=azure-devops)
 
-- Execute the status mapping in the **Execution Status Mapping**, map Katalon Studio's Execution Status to ADO test status.
+    In the **Test Artifacts Mapping**:
 
-- In the **Test Configuration Mapping**, you can also **Add** or **Remove** an item to customize the settings. 
+    - Map Katalon Studio's Execution Status to ADO test status in the **Execution Status Mapping**.
 
-### 3. Config Submission Options
+    - Map testing environment in Katalon Studio to configurations fetched from ADO in the **Test Configuration Mapping**, you can also **Add** or **Remove** an item to customize the settings.
 
-- Select a test plan in the drop-down list to submit the test run.
+3. Config Submission Options.
 
-> **Note**
->
-> If you want to fetch the lastest list of test plans > click **Fetch Test Plans**.
+    > **What is Test Point?**
+    > 
+    > **A test point is a unique combination of test case, test suite, configuration, and tester**. Test cases by themselves are not executable. When you add a test case to a test suite then test point(s) are generated. [Learn more](https://docs.microsoft.com/en-us/azure/devops/test/new-test-plans-page?view=azure-devops#execute-tab) 
 
-- Select **Automatically submit test run**.
-- Enter the **Test Run Name** and **Build Number** to 
+    - Select a fetched test plan in the drop-down list.
+    - Enter the required **Test Run Name**.
+    - Enter **Build Number** > click **Verify** to check if your number is valid.
 
-## Map test cases between Katalon Studio and Azure DevOps 
+        > If you want to fetch the lastest test plans list > click **Fetch Test Plans**.
 
-### In Katalon Studio
+    - Decide when and what to submit test results.
+
+### Map test cases between Katalon Studio and Azure DevOps 
+
+**In Katalon Studio:**
 
 1. Double-click on a Test Case to open the test case view.
 2. Select **Integrations** tab > specify the Test Case's ID(s) of ADO.
 3. Click **Verify** to check whether the test case is valid > **Save**.
 
-## Add test results to Azure DevOps
+### Create Test Run and Submit Test Results to Azure DevOps after execution
+
+> Ensure that you have already taken the stated steps.
+
+When the execution finishes, the test run is created and test results are uploaded automatically to ADO in the format specified as below:
+
+Test case result of each test case should display these fields:
+- Outcome = Azure status in Status Mapping.
+- Test Case Title = Title of the executed test case in ADO.
+- Machine name = Hostname in report.
+- Duration =  The elapsed time of each test case.
+- Error message = The test case message whenever the Katalon test case status is FAILED or ERROR.
