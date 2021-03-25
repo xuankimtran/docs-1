@@ -12,11 +12,12 @@ Katalon Studio provides the **Azure DevOps Integration** feature to enhance the 
 - Map test cases between Katalon Studio and ADO.
 - In ADO, you can send and view Test Results of both Test Suites and Test Cases executed in Katalon Studio.
 
-What is the phase of this feature (alpha, beta, PoC, official,...)
-If it's not officially supported, where can users get the build for trying out the feature
+??? What is the phase of this feature (alpha, beta, PoC, official,...)
+If it's not officially supported, where can users get the build for trying out the feature ???
 
-**Prerequisite**
+**Prerequisites**
 
+- Katalon Studio v8.0 onwards.
 - An active Katalon Studio Enterprise license.
 
 ### Enable the Integration and Authenticate Azure DevOps Organization
