@@ -5,7 +5,7 @@ permalink: katalon-studio/docs/azure-devops-integration.html
 description:
 ---
 
-Katalon Studio provides the **Azure DevOps Integration** feature to enhance the integration between Katalon Studio and Azure DevOps Pipeline to run automated tests in CI/CD pipeline.
+Katalon Studio provides the **Azure DevOps Integration** feature to enhance the integration between Katalon Studio and Azure DevOps Pipeline to run automated tests in CI/CD pipeline. 
 
 **Azure DevOps Integration** is a built-in integration in Katalon Studio. It supports the connection between Katalon Studio and Azure DevOps (ADO) to deliver the following advanced capabilities:
 
@@ -52,11 +52,11 @@ To configure the integration, do as follows:
 
     In the **Test Artifacts Mapping**:
 
-    - Map Katalon Studio's Execution Status to ADO test status in the **Execution Status Mapping** to compaticonfigure the outcome of ADO matching with to the result of Katalon Studio.
+    - Map Katalon Studio's Execution Status to ADO test status in the **Execution Status Mapping** to match the test results in Katalon Studio with the test outcomes in ADO.
     
-    Tuong thich test result cua katalon voi outcome status of ADO
+    Tuong thich test result cua katalon voi Test Outcomes in ADO
 
-    - Map testing environment in Katalon Studio to configurations fetched from ADO in the **Test Configuration Mapping** to , you can also **Add** or **Remove** an item to customize the settings.
+    - Map testing environment in Katalon Studio to configurations fetched from ADO in the **Test Configuration Mapping** to match the **Execution OS/Device** and **Execution Browser/App** in Katalon Studio with the **Test Configurations in Azure DevOps**, you can also **Add** or **Remove** an item to customize the settings.
 
 tuong ung voi he dieu hanh execution os device va execution browser app da duoc su dung de cha.y duoi' Katalon. Tu do tuong ung ma tich hop len test configurations da duoc user luu trong settings len Azure.
 
