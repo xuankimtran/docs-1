@@ -56,7 +56,7 @@ To configure the integration, do as follows:
     
     Tuong thich test result cua katalon voi Test Outcomes in ADO
 
-    - Map testing environment in Katalon Studio to configurations fetched from ADO in the **Test Configuration Mapping** to match the **Execution OS/Device** and **Execution Browser/App** in Katalon Studio with the **Test Configurations in Azure DevOps**, you can also **Add** or **Remove** an item to customize the settings.
+    - Map testing environment in Katalon Studio to configurations fetched from ADO in the **Test Configuration Mapping** to match the  configured **Execution OS/Device** and **Execution Browser/App** configured ibn KS/ to run the test in Katalon Studio with the **Test Configurations in Azure DevOps**, you can also **Add** or **Remove** an item to customize the settings.
 
 tuong ung voi he dieu hanh execution os device va execution browser app da duoc su dung de cha.y duoi' Katalon. Tu do tuong ung ma tich hop len test configurations da duoc user luu trong settings len Azure.
 
