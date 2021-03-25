@@ -5,10 +5,15 @@ permalink: katalon-studio/docs/azure-devops-integration.html
 description:
 ---
 
+Katalon Studio provides the **Azure DevOps Integration** feature to enhance the integration between Katalon Studio and Azure DevOps Pipeline to run automated tests in CI/CD pipeline.
+
 **Azure DevOps Integration** is a built-in integration in Katalon Studio. It supports the connection between Katalon Studio and Azure DevOps (ADO) to deliver the following advanced capabilities:
 
 - Map test cases between Katalon Studio and ADO.
 - In ADO, you can send and view Test Results of both Test Suites and Test Cases executed in Katalon Studio.
+
+What is the phase of this feature (alpha, beta, PoC, official,...)
+If it's not officially supported, where can users get the build for trying out the feature
 
 **Prerequisite**
 
@@ -25,13 +30,13 @@ In Katalon Studion, go to **Project > Settings > Integrations > Azure DevOps**:
 2. Enter the required credentials for **Authentication**. Your credentials are encrypted by default for security.
 
     - **Server URL**: `https://dev.azure.com/{yourorganization}`
-    - **Personal Access Token**: your Personal Access Token. [Learn more](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops&tabs=preview-page)
+    - **Personal Access Token**: your [Personal Access Token](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops&tabs=preview-page). (Learn about the **Permission** [here](https://docs.microsoft.com/en-us/azure/devops/organizations/security/about-permissions?view=azure-devops&tabs=preview-page#permissions).)
 
-3. Click **Connect** to verify whether ADO is connected successfully.
+3. Click **Connect** to verify whether Azure DevOps is connected successfully.
 
 ### Configure the Integration
 
-After successfully authenticating with ADO, all relevant ADO Projects will be retrieved and displayed in the drop-down list of **Project**.
+After successfully authenticating with ADO, you can select an ADO project among those you have access to in the drop-down list of **Project**.
 
 To configure the integration, do as follows:
 
@@ -44,16 +49,21 @@ To configure the integration, do as follows:
         > If you want to fetch the latest projects list > click **Fetch Project**.
 
 2. Conduct Test Artifacts Mapping.
- 
-    > **What is Test Configuration?**
-    >
-    > **A test configuration is a combination of configuration variable values**. Your configuration variables could be, for example, operating system, browser, CPU type, database. A configuration might be "Windows 8 + 32-bit CPU" or "Windows 10 + 64-bit CPU." [Learn more](https://docs.microsoft.com/en-us/azure/devops/test/test-different-configurations?view=azure-devops)
 
     In the **Test Artifacts Mapping**:
 
-    - Map Katalon Studio's Execution Status to ADO test status in the **Execution Status Mapping**.
+    - Map Katalon Studio's Execution Status to ADO test status in the **Execution Status Mapping** to compaticonfigure the outcome of ADO matching with to the result of Katalon Studio.
+    
+    Tuong thich test result cua katalon voi outcome status of ADO
 
-    - Map testing environment in Katalon Studio to configurations fetched from ADO in the **Test Configuration Mapping**, you can also **Add** or **Remove** an item to customize the settings.
+    - Map testing environment in Katalon Studio to configurations fetched from ADO in the **Test Configuration Mapping** to , you can also **Add** or **Remove** an item to customize the settings.
+
+tuong ung voi he dieu hanh execution os device va execution browser app da duoc su dung de cha.y duoi' Katalon. Tu do tuong ung ma tich hop len test configurations da duoc user luu trong settings len Azure.
+
+
+        > **What is Test Configuration?**
+        >
+        > **A test configuration is a combination of configuration variable values**. Your configuration variables could be, for example, operating system, browser, CPU type, database. A configuration might be "Windows 8 + 32-bit CPU" or "Windows 10 + 64-bit CPU." [Learn more](https://docs.microsoft.com/en-us/azure/devops/test/test-different-configurations?view=azure-devops)
 
 3. Config Submission Options.
 
@@ -74,8 +84,10 @@ To configure the integration, do as follows:
 **In Katalon Studio:**
 
 1. Double-click on a Test Case to open the test case view.
-2. Select **Integrations** tab > specify the Test Case's ID(s) of ADO.
+2. Select **Integrations** tab > specify the Test Cases ID(s) of ADO.
 3. Click **Verify** to check whether the test case is valid > **Save**.
+
+Mo^i~ test case cua KS se ung voi nhieu test cases cua Azure, va ung voi moi Azure test case la nhieu test points
 
 ### Submit test run and test results after execution
 
