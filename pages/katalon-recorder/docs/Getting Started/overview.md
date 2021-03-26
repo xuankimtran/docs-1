@@ -12,7 +12,7 @@ description:
 
 ## What is Katalon Recorder ?
 
-Katalon Recorder is a free, Selenium IDE alternative, lightweight web extension for automating actions and automated testing on the browser. Currently, we are available on Chrome and Firefox, and are working on publishing the extension to Edge.
+Katalon Recorder is a free, Selenium IDE alternative, lightweight web extension for automating actions and automated testing on the browser. Currently, we are available on **Chrome**, **Firefox** and **Edge**.
 
 ## The 60-Second Elevator Pitch
 
