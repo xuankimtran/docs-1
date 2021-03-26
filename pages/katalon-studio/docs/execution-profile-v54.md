@@ -21,7 +21,7 @@ description:
 
 ### Create a profile
 
-Just like other test artifacts, you can CRUD the **Execution Profile** in the **Tests Explorer**.
+Like other test artifacts, you can CRUD the **Execution Profile** in the **Tests Explorer**.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/Untitled3.png" width=55%>
    
@@ -50,7 +50,7 @@ In the **Script view**, profiles are in sync once a similar list of **Global Var
 
 A default profile is considered as a place to comprise commonly used global variables. Other profiles can either inherit or override the global variables stored in the default one. Read more about [Profile Inheritance](https://docs.katalon.com/katalon-studio/docs/execution-profile-v54.html#inheritance-profile).
 
-You may have multiple profiles for executing your tests, for instance, *staging* and *production* profiles. It would be convenient if you can set a profile as your default one in every execution of a project. 
+You may have multiple profiles for executing your tests, for instance, *staging* and *production* profiles. It would be convenient to set a profile as your default one in every execution of a project. 
 
 Right-click on your desired execution profile and select **Set as default Execution Profile**.
 
@@ -60,21 +60,22 @@ This profile becomes a default execution option for Test Case, Test Suite, and T
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/tsc.png" width=70%>
 
-It's also applied for the Executive Platform of the Command Generator in case you use Katalon Runtime Engine.
+It's also applied for the Command Generator's Executive Platform in case you use Katalon Runtime Engine.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/cli.png" width=70%>
 
 ### Profile Inheritance
 
-**Profile Inheritance** reduces your effort spent on modification and recreation of the same global variables in derived profiles. If Katalon Studio does not find variables that are used in the test within the designated profile (any profiles but default), it will look into the default profile and use its variables to execute the test.
+**Profile Inheritance** reduces your effort spent on modification and recreation of the same global variables in derived profiles. Suppose Katalon Studio does not find variables used in the test within the designated profile (any profiles but default). In that case, it will look into the default profile and use its variables to execute the test.
 
 **How to utilize Profile Inheritance**
 
-Commonly used global variables should be stored in the **default** profile, and other sets of global variables should be stored in the **derived** (custom) profiles to avoid duplicated code and for better management.
+Commonly used global variables should be stored in the **default** profile and should store other sets of global variables in the **derived** (custom) profiles to avoid duplicated code and for better management.
 
 **Running the examples**
 
 The following examples illustrate how the **Profile Inheritance** feature works.
+ 
 
 - Given the following test case:
 
@@ -90,7 +91,7 @@ The following examples illustrate how the **Profile Inheritance** feature works.
 
 - Execute stagging and production profile with the given test case:
    
-   When executing the stagging and production profiles, the **name**, **serveURL**, and **credential** variables are overidden (highlighted in red), while the **usage** and **reference** variables are inherited (highlighted in blue) from the global variables in the default profile. 
+   When executing the stagging and production profiles, the **name**, **serveURL**, and **credential** variables are overridden (highlighted in red), while the **usage** and **reference** variables are inherited (highlighted in blue) from the global variables in the default profile. 
 
    - Stagging profile:
 
@@ -110,9 +111,9 @@ The following examples illustrate how the **Profile Inheritance** feature works.
 
 ### Use a profile
 
-By default, Katalon Studio uses the **default** profile for executing tests, as indicated on the top right corner of the screen. You can select any available execution profiles in the drop-down menu.
+By default, Katalon Studio uses the **default** profile for executing tests, as indicated on the screen's top right corner. You can select any available execution profiles in the drop-down menu.
 
-The following section shows you a usage example. Based on testing environments, there are three profiles: **local**, **staging**, and **production**.
+The following section shows you a usage example. There are three profiles based on testing environments: **local**, **staging**, and **production**.
 
 - **For test cases or test suites**: Select your desired profile on the top right > **all Global Variables** within your current project automatically uses these values.
 
@@ -129,7 +130,7 @@ The following section shows you a usage example. Based on testing environments, 
    The **Generated Command** has **executionProfile** parameter so that you can change it manually. For example:
 
    ```groovy
-   katalonc -noSplash  -runMode=console -consoleLog -projectPath="C:\Users\Admin\Katalon Studio\yourProject.prj" -retry=0 -testSuitePath="Test Suites/TS_RegressionTest" -executionProfile="local" -browserType="Chrome (headless)
+   katalonc -noSplash  -runMode=console -consoleLog -projectPath="C:\Users\Admin\Katalon Studio\yourProject.prj" -retry=0 -testSuitePath="Test Suites/TS_RegressionTest" -executionProfile="local" -browserType="Chrome (headless)
    ```
 
 ## Global Variables
@@ -138,21 +139,21 @@ A **global variable** is a variable defined in the execution profile and can be 
 
 ### Scope of Global Variables
 
-**Global variables are Test Suite scoped**. If the value of any Global Variable is changed during runtime, it will not be shared among Test Suites. This infers that you can modify Global Variables in a particular Test Suite run without affecting the Global Variables of other Test Suites in the Test Suit Collection.
+**Global variables are Test Suite scoped**. If any Global Variable value is changed during runtime, it will not be shared among Test Suites. This infers that you can modify Global Variables in a particular Test Suite run without affecting the Global Variables of other Test Suites in the Test Suite Collection.
 
-In the following screenshot, you can find "Test Suites/New Test Suite (1)" is listed twice. The first one uses "default," and the second one has "stagging". This association proves that **a Profile is Test Suite scoped**. Otherwise, the association can not be logically valid.
+You can find "Test Suites/New Test Suite (1)" is listed twice in the following screenshot. The first one uses "default," and the second one has "stagging". This association proves that **a Profile is Test Suite scoped**. Otherwise, the association can not be logically valid.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/test-suite-scoped.png" width=70%>
 
 ### Use a Global Variable
 
-Any test cases across a project can use global variables - for example, input data for keywords in [Manual View](/display/KD/Manual+View) (highlighted in blue) or params when [binding Data for Test Execution](/display/KD/Design+a+Test+Suite#DesignaTestSuite-VariableBinding) (highlighted in red).
+Any test cases across a project can use global variables - for example, input data for keywords in [Manual View](/display/KD/Manual+View) (highlighted in blue) or params when [binding Data for Test Execution](/display/KD/Design+a+Test+Suite#DesignaTestSuite-VariableBinding) (highlighted in red).
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/data-binding-global-varaiable.png" width=70%>
 
 ### Parameterize a Global Variable
 
-You can directly parameterize Global Variables in WebUI, Mobile, Windows and API Test Objects. To parameterize a global variable, enter the syntax `${GlobalVariable.name}` in the supported locations of each type.
+You can directly parameterize Global Variables in WebUI, Mobile, Windows, and API Test Objects. To parameterize a global variable, enter the syntax `${GlobalVariable.name}` in each type's supported locations.
 
 * [Web Test Objects](https://docs.katalon.com/katalon-studio/docs/parameterize-web-objects.html)
 * [Mobile Test Objects](https://docs.katalon.com/katalon-studio/docs/parameterize-mobile-test-object-properties.html)
@@ -180,11 +181,11 @@ To use a special character like `$` or `\` as a regular one in any place that ca
 
 ```groovy
 {
- 	"productName": ${GlobalVariable.productName},
-  	"unit": "\\bottle\",
-  	"quantity": 50,
-  	"discount": ${ if (productName == "wine") { return 30 } else { return 0}}
-	"note": "Currency unit of ${GlobalVariable.productName} is \$."
+   "productName": ${GlobalVariable.productName},
+   "unit": "\\bottle\",
+   "quantity": 50,
+   "discount": ${ if (productName == "wine") { return 30 } else { return 0}}
+   "note": "Currency unit of ${GlobalVariable.productName} is \$."
 
 }
 ```
@@ -194,19 +195,19 @@ To use a special character like `$` or `\` as a regular one in any place that ca
 
 ### Create Global Variables during runtime
 
-To create global variables during runtime, here is an approach provided by [Sergii Tyshchenko](https://forum.katalon.com/t/how-to-pass-user-defined-parameters-from-command-line/8771/22?u=jass).
+Here is an approach provided by [Sergii Tyshchenko](https://forum.katalon.com/t/how-to-pass-user-defined-parameters-from-command-line/8771/22?u=jass).
 
-1. Define an environment variable (with a path to an external configuration or a properties file) in the session that is used to execute Katalon Studio. 
+1. Define an environment variable (with a path to an external configuration or a properties file) in the session used to execute Katalon Studio. 
 2. In the `TestListener`, read the variable's value (a path to the file), load that file, and override the project settings or Global variables. Use the following metaprogramming:
 
 ```groovy
- @Keyword
- void addGlobalVariable(String name, def value) {
-  GroovyShell shell1 = new GroovyShell()
-  MetaClass mc = shell1.evaluate("internal.GlobalVariable").metaClass
-  String getterName = "get" + name.capitalize()
-  mc.'static'."$getterName" = { -> return value }
-  mc.'static'."$name" = value
+ @Keyword
+ void addGlobalVariable(String name, def value) {
+  GroovyShell shell1 = new GroovyShell()
+  MetaClass mc = shell1.evaluate("internal.GlobalVariable").metaClass
+  String getterName = "get" + name.capitalize()
+  mc.'static'."$getterName" = { -> return value }
+  mc.'static'."$name" = value
 }
 ```
 
