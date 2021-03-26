@@ -63,16 +63,17 @@ To configure the integration, do as follows:
 
 3. Config Submission Options.
 
-    > **What is Test Point?**
-    > 
-    > **A test point is a unique combination of a test case, test suite, configuration, and tester**. Test cases by themselves are not executable. When you add a test case to a test suite, test point(s) are generated. [Learn more](https://docs.microsoft.com/en-us/azure/devops/test/new-test-plans-page?view=azure-devops#execute-tab) 
-
-    - Select a fetched test plan in the drop-down list.
-    - Enter the required **Test Run Name**.
-    - Enter **Build Number** > click **Verify** to check if your number is valid.
+    - Select a fetched test plan in the drop-down list, the test run is submitted to ADO automatically.
 
         > Click **Fetch Test Plans** to fetch the latest test plans list.
-        > Select **Send test results when ...**  to create Test Results for Azure DevOps Test Case ID=<Id> due to multiple Test Points returned. Please check Test Points with Id = <Test Points ID list separated by comma>; or allow sending Test Results anyway in Project Settings.
+
+    - If you want to create test results for ADO test case ID due to multiple test points returned, select **Send test results when ...** to enable test run details for editing.
+        - Enter the required **Test Run Name**.
+        - Enter **Build Number** > click **Verify** to check if your number is valid.
+    
+        > **What is Test Point?**
+        > 
+        > **A test point is a unique combination of a test case, test suite, configuration, and tester**. Test cases by themselves are not executable. When you add a test case to a test suite, test point(s) are generated. [Learn more](https://docs.microsoft.com/en-us/azure/devops/test/new-test-plans-page?view=azure-devops#execute-tab)
 
     - Decide when and what to submit test results.
 
