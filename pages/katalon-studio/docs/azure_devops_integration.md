@@ -71,7 +71,8 @@ To configure the integration, do as follows:
     - Enter the required **Test Run Name**.
     - Enter **Build Number** > click **Verify** to check if your number is valid.
 
-        > If you want to fetch the latest test plans list > click **Fetch Test Plans**.
+        > Click **Fetch Test Plans** to fetch the latest test plans list.
+        > Select **Send test results when ...**  to create Test Results for Azure DevOps Test Case ID=<Id> due to multiple Test Points returned. Please check Test Points with Id = <Test Points ID list separated by comma>; or allow sending Test Results anyway in Project Settings.
 
     - Decide when and what to submit test results.
 
