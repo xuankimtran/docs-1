@@ -9,9 +9,9 @@ Actions on GitHub is a new way to automate your development workflow. Katalon St
 
 **Prerequisites**
 
-* An active Katalon Runtiem Engine license
-* Katalon Studio version 7.0 and later
-* Set up [Katalon API Keys](https://docs.katalon.com/katalon-analytics/docs/ka-api-key.html#katalon-api-keys-usage) using [GitHub Encrypted Secret](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets) named `API_KEY`
+* An active Katalon Runtime Engine license.
+* Katalon Studio version 7.0 and later.
+* Set up [Katalon API Keys](https://docs.katalon.com/katalon-analytics/docs/ka-api-key.html#katalon-api-keys-usage) using [GitHub Encrypted Secret](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets) named `API_KEY`.
 
 ## Variables
 
@@ -63,4 +63,4 @@ jobs:
           args: '-noSplash -retry=0 -testSuiteCollectionPath="Test Suites/Simple Test Suite Collection" -apiKey= ${{ secrets.API_KEY }} --config -webui.autoUpdateDrivers=true'
 ```
 
-Our team provides CI Samples for macOS and Windows [here](https://github.com/katalon-studio-samples/ci-samples/tree/master/.github/workflows)
+Our team provides CI Samples for macOS and Windows [here](https://github.com/katalon-studio-samples/ci-samples/tree/master/.github/workflows).
