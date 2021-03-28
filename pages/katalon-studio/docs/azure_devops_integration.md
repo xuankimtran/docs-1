@@ -73,7 +73,7 @@ To configure the integration, do as follows:
 
     - If you want to create test results for ADO test case ID due to multiple test points returned, select **Send test results when ...** to enable test run details for editing.
         - Enter the required **Test Run Name**.
-        - Enter **Build Number** > click **Verify** to check if your number is valid (to map to more than one ID, separate them by a comma). 
+        - Enter **Build Number** > click **Verify** to check if your number is valid (to map to more than one number, separate them by a comma). 
     
         > **What is Test Point?**
         > 
