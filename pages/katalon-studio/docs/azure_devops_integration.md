@@ -32,6 +32,8 @@ In Katalon Studion, go to **Project > Settings > Integrations > Azure DevOps**:
 
 3. Click **Connect** to verify whether Azure DevOps is connected successfully.
 
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/authentication.png" width=70%>
+
 ### Configure the Integration
 
 After successfully authenticating with ADO, you can select an ADO project among those you have access to in the drop-down list of **Project**.
@@ -46,17 +48,22 @@ To configure the integration, do as follows:
 
         > If you want to fetch the latest projects list > click **Fetch Project**.
 
+        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/expand-both.png" width=65%>
 2. Conduct Test Artifacts Mapping.
 
-    In the **Test Artifacts Mapping**, do as follow for submitting the test run.
+    In the **Test Artifacts Mapping**, do as follow for submitting the test run:
 
     - Map Katalon Studio's Execution Status to ADO test status in the **Execution Status Mapping** to match the test results in Katalon Studio with the test outcomes in ADO.
+
+        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/status-mapping.png" width=70%>
 
     - Map testing environment in Katalon Studio to configurations fetched from ADO in the **Test Configuration Mapping** to match the  **Execution OS/Device** and **Execution Browser/App** configured in Katalon Studio to run the tests with the **Test Configurations in Azure DevOps**, you can also **Add** or **Remove** an item to customize the settings.
 
         > **What is Test Configuration?**
         >
         > **A Test Configuration is a combination of configuration variable values**. Your configuration variables could be, for example, operating system, browser, CPU type, database. A configuration might be "Windows 8 + 32-bit CPU" or "Windows 10 + 64-bit CPU." [Learn more](https://docs.microsoft.com/en-us/azure/devops/test/test-different-configurations?view=azure-devops)
+
+        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/environment-mapping.png" width=70%>
 
 3. Config Submission Options.
 
@@ -74,6 +81,8 @@ To configure the integration, do as follows:
 
     - Decide when and what to submit test results.
 
+        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/submission-options.png" width=65%>
+
 ### Map test cases between Katalon Studio and Azure DevOps 
 
 **In Katalon Studio:**
@@ -82,15 +91,12 @@ To configure the integration, do as follows:
 2. Select **Integrations** tab > specify the Test Cases ID(s) of ADO.
 3. Click **Verify** to check whether the test case is valid > **Save**.
 
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/map-ks-test-case-with-ado.png" width=70%>
+
 ### Submit test run and test results after execution
 
 > Ensure that you have already taken the stated steps.
 
 When the execution finishes, the test run is created, and test results are uploaded automatically to ADO in the format specified as below:
 
-Test case result of each test case should display these fields:
-- Outcome = Azure status in Status Mapping.
-- Test Case Title = Title of the executed test case in ADO.
-- Machine name = Hostname in the report.
-- Duration =  The elapsed time of each test case.
-- Error message = The test case message whenever the Katalon test case status is FAILED or ERROR.
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/result-on-ado.png" width=70%>
