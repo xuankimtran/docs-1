@@ -57,7 +57,7 @@ To configure the integration, do as follows:
 
     - Map testing environment in Katalon Studio to configurations fetched from ADO in the **Test Configuration Mapping** to match the  **Execution OS/Device**, and **Execution Browser/App** configured in Katalon Studio to run the tests with the **Test Configurations in Azure DevOps**.  
 
-	    You can also **Add** or **Remove** an item to customize the settings.
+	    You can also **Add** or **Remove** item(s) to customize the settings.
 
         > **What is Test Configuration?**
         >
