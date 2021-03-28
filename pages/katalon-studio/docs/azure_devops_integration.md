@@ -10,7 +10,7 @@ description:
 - Map test cases between Katalon Studio and ADO.
 - In ADO, you can send and view Test Results of both Test Suites and Test Cases executed in Katalon Studio.
 
-Katalon Studio provides the **Azure DevOps Integration** feature to enhance the integration between Katalon Studio and Azure DevOps Pipeline to run automated tests in CI/CD pipeline.
+Katalon Studio provides the **Azure DevOps Integration** feature to enhance the integration between Katalon Studio and Azure DevOps Pipeline to run automated CI/CD pipeline tests.
 
 **Prerequisites**
 
@@ -51,13 +51,15 @@ To configure the integration, do as follows:
         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/expand-both.png" width=65%>
 2. Conduct Test Artifacts Mapping.
 
-    In the **Test Artifacts Mapping**, do as follow for submitting the test run:
+    In the **Test Artifacts Mapping**, do as follows for submitting the test run:
 
     - Map Katalon Studio's Execution Status to ADO test status in the **Execution Status Mapping** to match the test results in Katalon Studio with the test outcomes in ADO.
 
         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/status-mapping.png" width=70%>
 
-    - Map testing environment in Katalon Studio to configurations fetched from ADO in the **Test Configuration Mapping** to match the  **Execution OS/Device** and **Execution Browser/App** configured in Katalon Studio to run the tests with the **Test Configurations in Azure DevOps**, you can also **Add** or **Remove** an item to customize the settings.
+    - Map testing environment in Katalon Studio to configurations fetched from ADO in the **Test Configuration Mapping** to match the  **Execution OS/Device**, and **Execution Browser/App** configured in Katalon Studio to run the tests with the **Test Configurations in Azure DevOps**.  
+
+	    You can also **Add** or **Remove** an item to customize the settings.
 
         > **What is Test Configuration?**
         >
