@@ -5,12 +5,10 @@ permalink: katalon-studio/docs/azure-devops-integration.html
 description:
 ---
 
-**Azure DevOps Integration** is a built-in integration that supports the connection between Katalon Studio and Azure DevOps (ADO) to deliver the following advanced capabilities:
+Katalon Studio provides the **Azure DevOps Integration** feature to enhance the integration between Katalon Studio and Azure DevOps (ADO) Pipeline to run automated CI/CD pipeline tests. **Azure DevOps Integration** is a built-in integration that supports the connection between Katalon Studio and ADO to deliver the following advanced capabilities:
 
 - Map test cases between Katalon Studio and ADO.
 - In ADO, you can send and view Test Results of both Test Suites and Test Cases executed in Katalon Studio.
-
-Katalon Studio provides the **Azure DevOps Integration** feature to enhance the integration between Katalon Studio and Azure DevOps Pipeline to run automated CI/CD pipeline tests.
 
 **Prerequisites**
 
