@@ -10,10 +10,7 @@ description:
 - Map test cases between Katalon Studio and ADO.
 - In ADO, you can send and view Test Results of both Test Suites and Test Cases executed in Katalon Studio.
 
-Katalon Studio provides the **Azure DevOps Integration** feature to enhance the integration between Katalon Studio and Azure DevOps Pipeline to run automated tests in CI/CD pipeline. 
-
-??? What is the phase of this feature (alpha, beta, PoC, official,...)
-If it's not officially supported, where can users get the build for trying out the feature ???
+Katalon Studio provides the **Azure DevOps Integration** feature to enhance the integration between Katalon Studio and Azure DevOps Pipeline to run automated tests in CI/CD pipeline.
 
 **Prerequisites**
 
