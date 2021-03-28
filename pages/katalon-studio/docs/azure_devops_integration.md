@@ -73,7 +73,7 @@ To configure the integration, do as follows:
 
     - If you want to create test results for ADO test case ID due to multiple test points returned, select **Send test results when ...** to enable test run details for editing.
         - Enter the required **Test Run Name**.
-        - Enter **Build Number** > click **Verify** to check if your number is valid.
+        - Enter **Build Number** > click **Verify** to check if your number is valid (to map to more than one ID, separate them by a comma). 
     
         > **What is Test Point?**
         > 
@@ -88,7 +88,7 @@ To configure the integration, do as follows:
 **In Katalon Studio:**
 
 1. Double-click on a Test Case to open the test case view.
-2. Select **Integrations** tab > specify the Test Cases ID(s) of ADO.
+2. Select **Integrations** tab > specify the Test Cases ID(s) of ADO (to map to more than one ID, separate them by a comma).
 3. Click **Verify** to check whether the test case is valid > **Save**.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/map-ks-test-case-with-ado.png" width=70%>
