@@ -1027,6 +1027,8 @@ items:
             url: /katalon-studio/docs/testlink-integration.html
           - title: "App Center Integration"
             url: /katalon-studio/docs/app-center.html
+          - title: "Azure DevOps Integration"
+            url: /katalon-studio/docs/azure-devops-integration.html
       - title: "Migration from other tools"
         tree:
           - title: "Selenium/TestNG/JUnit Migration"
