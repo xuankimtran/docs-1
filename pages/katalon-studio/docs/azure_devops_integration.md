@@ -82,8 +82,6 @@ To configure the integration, do as follows:
 2. Select **Integrations** tab > specify the Test Cases ID(s) of ADO.
 3. Click **Verify** to check whether the test case is valid > **Save**.
 
-Mo^i~ test case cua KS se ung voi nhieu test cases cua Azure, va ung voi moi Azure test case la nhieu test points
-
 ### Submit test run and test results after execution
 
 > Ensure that you have already taken the stated steps.
