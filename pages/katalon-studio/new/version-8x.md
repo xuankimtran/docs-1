@@ -38,9 +38,9 @@ description: Release notes 8.0
 * Bug: [Katalon Runtime Engine] There is no event tracked for activation.
 * Bug: An issue of not displaying error message when removing MySQL driver.
 * Bug: [Katalon Studio Enterprise] [Windows] An issue of generating PDF reports.
-* Bug: [Katalon Studio Enterprise] Cannot clone existing Project from GIT.
+* Bug: [Katalon Studio Enterprise] Cannot clone existing project from GIT.
 * Bug: [Windows Testing] Test Suite Collection does not execute the 2nd Test Suite.
-* Bug: [Chrome 87] An error thrown in the HTML Execution result.
+* Bug: [Chrome 87] An error thrown in the HTML execution result.
 * Bug: [Windows] Missing Network connection Preference.
 
 
