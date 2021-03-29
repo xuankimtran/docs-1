@@ -33,5 +33,3 @@ From v8.0, Katalon Studio allows you to import and export desired capabilities i
     By default, all current existing desired capabilities will be overridden by imported ones.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops/desired-capabilities-management/import-json.png" width=55%>
-
-    abcxyz
