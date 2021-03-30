@@ -1,5 +1,5 @@
 ---
-title: "Change the Test Result from failing to pass" 
+title: "Change the Test Result from failing to passing" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/kt-change-result-pass-fail.html
 description: 
