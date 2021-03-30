@@ -35,35 +35,17 @@ description: Release notes 8.0
 ### Fixes
 
 * Bug: Fix all blocker & critical security vulnerabilities reported by SonarQube in static code analysis and 3rd-party libraries scanning tools. 
-* Bug: [Katalon Runtime Engine] There is no event tracked for activation.
-* Bug: An issue of not displaying error message when removing MySQL driver.
+* Bug: [Katalon Runtime Engine] Lacking of tracking event for activation.
+* Bug: An issue of not displaying an error message when removing MySQL driver.
 * Bug: [Katalon Studio Enterprise] [Windows] An issue of generating PDF reports.
-* Bug: [Katalon Studio Enterprise] Cannot clone existing project from GIT.
-* Bug: [Windows Testing] Test Suite Collection does not execute the 2nd Test Suite.
-* Bug: [Chrome 87] An error thrown in the HTML execution result.
 * Bug: [Windows] Missing Network connection Preference.
-
-
-[@rezcomm.com]: Unable to record scripts using recorder on chrome v86 for a customer web application
-
-[@leidos.com][WS] Unable to import swagger api json files
-
-[@dssinc.com][@ge] Cannot bypass the certificate after select the "Bypass Certificate validation" option in Project Settings
-
-@m3as.com: KRE not sending emails
-
-[@ravago.com][Regression] Scripts are automatic deleted when renaming folder name
-
-[Regression] Incorrect Object UI when opening it from the script
-
-[Research][@ge] Cannot drag and Drop a custom keyword from Keyword Browser to a test case
-
-References of Called Test Cases in Test Listeners aren't updated automatically when the test cases are moved by drag and drop or cut/paste
-
-[Security] Secure this "Transformer" by either disabling external DTDs or enabling secure processing
-
-[Security] Disable XML external entity (XXE) processing
-
-[Security] Several issues in Http utility class (ServerAPICommunicationUtil.java, NetworkUtils.java ...)
-
-[Security] 'PASSWORD' or 'Passphrase' detected in this expression, review this potentially hard-coded credential.
+* Bug: [Chorme 86] Recorder function is not working.
+* Bug: Cannot import Swagger JSON files.
+* Bug: [Katalon Studio Enterprise] Cannot clone an existing project from GIT.
+* Bug: The Bypass Certificate validation option is not working.
+* Bug: [Katalon Runtime Engine] An issue of not sending emails.
+* Bug: [Windows Testing] Test Suite Collection does not execute the 2nd Test Suite.
+* Bug: An issue of deleting scripts when renaming folder name.
+* Bug: [Chrome 87] An error thrown in the HTML execution result.
+* Bug: Cannot drag and drop a custom keyword from Keyword Browser.
+* Bug: An issue of not updating References of Called Test Cases in Test Listeners when the test cases are moved by drag and drop or cut and paste.
