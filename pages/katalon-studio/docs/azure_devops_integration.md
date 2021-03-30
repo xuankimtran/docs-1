@@ -1,7 +1,7 @@
 ---
 title: "Integration with Azure DevOps Test Plans"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/import-export-desired-capabilities.html
+permalink: katalon-studio/docs/azure-devops-test-plans.html
 description: 
 ---
 
