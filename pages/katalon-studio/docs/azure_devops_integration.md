@@ -22,7 +22,7 @@ In short, it will support you to do the following jobs:
 
 - When you execute the integrated Test Cases in Katalon Studio, you want the Test Run to be created accordingly with the test execution reports and results uploaded to its corresponding Test Run in ADO so that you can get the test status and have sufficient materials for debugging.
 
-This document introduces what built-in Azure DevOps Intergration feature looks like and how to use it in Katalon Studio.
+This document introduces what built-in **Azure DevOps Intergration** feature looks like and how to use it in Katalon Studio.
 
 > Download Katalon Studio v8.0.0.rc [here](https://github.com/katalon-studio/katalon-studio/releases/tag/v8.0.0.rc).
 
