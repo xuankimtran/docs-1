@@ -32,7 +32,6 @@ This document introduces what built-in **Azure DevOps Intergration** feature loo
 * An active Katalon Studio Enterprise license.
 * Set up Azure DevOps.
 
-
 ### Enable the Integration and Authenticate Azure DevOps Organization
 
 You need to enable ADO integration and authenticate your Azure DevOps Organization to retrieve and map test artifacts between two systems and submit test results to ADO. Do as follow:
