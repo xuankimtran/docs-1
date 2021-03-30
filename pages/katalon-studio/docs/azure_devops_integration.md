@@ -1,19 +1,37 @@
 ---
-title: "Azure DevOps Integration"
+title: "Integration with Azure DevOps Test Plans"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/azure-devops-integration.html
-description:
+permalink: katalon-studio/docs/import-export-desired-capabilities.html
+description: 
 ---
 
-Katalon Studio provides the **Azure DevOps Integration** to enhance the integration between Katalon Studio and Azure DevOps (ADO) Pipeline to run automated tests in CI/CD pipeline. This built-in feature supports the connection between Katalon Studio and ADO to deliver the following advanced capabilities:
+> **Important**
+>
+> This is just a prerelease version, not ready for production use.
 
-- Map test cases between Katalon Studio and ADO.
-- In ADO, you can send and view Test Results of both Test Suites and Test Cases executed in Katalon Studio.
+In the next major release, v8.0, expected to be shipped by the end of April, Katalon Studio can be natively integrated with Azure DevOps (ADO) - Test Plans. In terms of the feature, you can do the following things:
 
-**Prerequisites**
+- Enable, Authenticate and Configure the integration in Project Settings.
+- Associate Test Cases between two systems.
+- When a Test Suite/ Test Suite Collection execution finishes, Katalon will create Test Run and submit Test Results to ADO.
+- Dynamically change test plan ID, test run name, and build number of a test run via CLI.
 
-- Katalon Studio v8.0 onwards.
-- An active Katalon Studio Enterprise license.
+In short, it will support you to do the following jobs:
+
+- When you have manual Test Cases in ADO and you want to map to a corresponding automated Test Case in Katalon Studio to know which Test Cases are automated.
+
+- When you execute the integrated Test Cases in Katalon Studio, you want the Test Run to be created accordingly with the test execution reports and results uploaded to its corresponding Test Run in ADO so that you can get the test status and have sufficient materials for debugging.
+
+This document introduces what built-in Azure DevOps Intergration feature looks like and how to use it in Katalon Studio.
+
+> Download Katalon Studio v8.0.0.rc [here](https://github.com/katalon-studio/katalon-studio/releases/tag/v8.0.0.rc).
+
+**Requirements**
+
+* Katalon Studio version 8.0.
+* An active Katalon Studio Enterprise license.
+* Set up Azure DevOps.
+
 
 ### Enable the Integration and Authenticate Azure DevOps Organization
 
@@ -47,6 +65,7 @@ To configure the integration, do as follows:
         > If you want to fetch the latest projects list > click **Fetch Project**.
 
         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/expand-both.png" width=65%>
+        
 2. Conduct Test Artifacts Mapping.
 
     In the **Test Artifacts Mapping**, do as follows for submitting the test run:
