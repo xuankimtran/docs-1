@@ -1,5 +1,5 @@
 ---
-title: "Integration with Azure DevOps Test Plans"
+title: "Integration with Azure DevOps Test Plans (Prerelease)"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/azure-devops-test-plans.html
 description: 
@@ -120,3 +120,56 @@ To configure the integration, do as follows:
 When the execution finishes, the test run is created, and test results are uploaded automatically to ADO in the format specified as below:
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/result-on-ado.png" width=70%>
+
+### Change test run information in Command-line
+
+You can dynamically change test plan ID, test run name, and build number of a test run by using the following command-line.
+
+<table data-number-column="false" data-layout="default" data-autosize="false" data-pm-slice="1 1 []">
+<tbody>
+<tr>
+<th data-colwidth="254">
+<p>Katalonc Command-line Option</p>
+</th>
+<th data-colwidth="253">
+<p>Description</p>
+</th>
+<th data-colwidth="253">
+<p>Mandatory?</p>
+</th>
+</tr>
+<tr>
+<td data-colwidth="254">
+<p>-adoPlanId=&lt;testplan id&gt;</p>
+</td>
+<td data-colwidth="253">
+<p>Id of the test plan used for submitting test run(s).</p>
+</td>
+<td data-colwidth="253">
+<p>N</p>
+</td>
+</tr>
+<tr>
+<td data-colwidth="254">
+<p>-adoTestRunName="text"</p>
+</td>
+<td data-colwidth="253">
+<p>Create test run(s) on ADO with the specified name.</p>
+</td>
+<td data-colwidth="253">
+<p>N</p>
+</td>
+</tr>
+<tr>
+<td data-colwidth="254">
+<p>--info -adoBuildNumber="text"</p>
+</td>
+<td data-colwidth="253">
+<p>Pass the build number to Test Run properties on ADO.</p>
+</td>
+<td data-colwidth="253">
+<p>N</p>
+</td>
+</tr>
+</tbody>
+</table>
