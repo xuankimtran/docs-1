@@ -1315,6 +1315,8 @@ items:
         tree:
           - title: "Overview"
             url: /katalon-analytics/docs/view-reports-overview.html
+          - title: "Change the Test Result from failing to passing"
+            url: /katalon-analytics/docs/kt-change-result-pass-fail.html      
           - title: "Detect abnormal Web Services"
             url: /katalon-analytics/docs/view-abnormal-web-services.html
           - title: "View Requirement Coverage heat map"
