@@ -21,4 +21,4 @@ The board **Test Results** displays, and we can see the test result with passed 
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-change-result-pass-fail/kt_test_results_change.png)
 
-We can change a passed Test Results to failed Test Results by similar.
+We can change a passed Test Results to failed Test Results with similar steps.
