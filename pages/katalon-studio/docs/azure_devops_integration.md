@@ -16,7 +16,7 @@ In the next major release, v8.0, expected to be shipped by the end of April, Kat
 - When a Test Suite/ Test Suite Collection execution finishes, Katalon will create Test Run and submit Test Results to ADO.
 - Dynamically change test plan ID, test run name, and build number of a test run via CLI.
 
-In short, it will support you to do the following jobs:
+In short, it will support you:
 
 - When you have manual Test Cases in ADO and you want to map to a corresponding automated Test Case in Katalon Studio to know which Test Cases are automated.
 
@@ -100,6 +100,8 @@ To configure the integration, do as follows:
     - Decide when and what to submit test results.
 
         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/submission-options.png" width=65%>
+
+3. Click **Apply and Close** to save your settings.
 
 ### Map test cases between Katalon Studio and Azure DevOps 
 
