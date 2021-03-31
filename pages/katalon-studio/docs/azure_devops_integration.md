@@ -9,18 +9,18 @@ description:
 >
 > This is just a prerelease version, not ready for production use.
 
-In the next major release, v8.0, expected to be shipped by the end of April, Katalon Studio can be natively integrated with Azure DevOps (ADO) - Test Plans. In terms of the feature, you can do the following things:
+In the next major release, v8.0, expected to be shipped by the end of April, Katalon Studio can be natively integrated with Azure DevOps (ADO) - Test Plans. This feature will support you:
+
+- When you have manual Test Cases in ADO and you want to map to a corresponding automated Test Case in Katalon Studio to know which Test Cases are automated.
+
+- When you execute the integrated Test Cases in Katalon Studio, you want the Test Run to be created accordingly with the test execution reports and results uploaded to its corresponding Test Run in ADO so that you can get the test status and have sufficient materials for debugging.
+
+To be specific, in terms of the feature, you can do the following things:
 
 - Enable, Authenticate and Configure the integration in Project Settings.
 - Associate Test Cases between two systems.
 - When a Test Suite/ Test Suite Collection execution finishes, Katalon will create Test Run and submit Test Results to ADO.
 - Dynamically change test plan ID, test run name, and build number of a test run via CLI.
-
-In short, it will support you:
-
-- When you have manual Test Cases in ADO and you want to map to a corresponding automated Test Case in Katalon Studio to know which Test Cases are automated.
-
-- When you execute the integrated Test Cases in Katalon Studio, you want the Test Run to be created accordingly with the test execution reports and results uploaded to its corresponding Test Run in ADO so that you can get the test status and have sufficient materials for debugging.
 
 This document introduces what built-in **Azure DevOps Intergration** feature looks like and how to use it in Katalon Studio.
 
