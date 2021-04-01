@@ -31,4 +31,4 @@ And now, we can see the comments about changing the status.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-change-result-pass-fail/kt_comment_result_pass_fail.png)
 
-We can change a passed Test Results to failed Test Results by similar.
+We can change a passed Test Results to failed Test Results with similar steps.
