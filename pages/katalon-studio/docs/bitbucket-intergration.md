@@ -1,5 +1,5 @@
 ---
-title: "BitBicuket Integration"
+title: "BitBcuket Integration"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/bitbucket-integration.html
 ---
@@ -24,10 +24,6 @@ This section gives instructions on how to work with BitBucket repositories using
     - Select **Workspace** and Enter required **Project name** and **Repository name** > **Create repository**.
 
         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/bitbucket-integration/create-repo-in-bitbucket.png" width=60%>
-
-        
-
-
 
 ### Clone a Katalon Studio project from a Git repository in BitBucket
 
