@@ -101,7 +101,7 @@ To configure the integration, do as follows:
 
         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/submission-options.png" width=65%>
 
-3. Click **Apply and Close** to save your settings.
+4. Click **Apply and Close** to save your settings.
 
 ### Map test cases between Katalon Studio and Azure DevOps 
 
