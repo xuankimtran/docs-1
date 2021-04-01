@@ -45,10 +45,18 @@ Navigate to **Slack Settings** under **Configurations**.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/slack-integration/kt_slack_integration.png)
 
-Enter an **Incoming Webhook URL** by pasting the URL which we have just copied. Click the button **Save** for saving the URL and click the button **Test Connection** for connecting to Slack.
+Enter an **Incoming Webhook URL** by pasting the URL which we have just copied. Click the button **Test Connection** for connecting to Slack.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/slack-integration/kt_save_test_connect.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/slack-integration/kt_paste_test_connect.png)
 
 You will receive notification messages in Slack once you have configured the integration.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/slack-integration/kt_slack_message.png)
+
+On Katalon TestOps, after connecting slack, we click the button **Save** for saving Incoming Webhook URL.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/slack-integration/kt_save_webhook_url.png)
+
+And now, every we run a Test on Katalon TestOps, we will receive a message on Slack. This message includes some information about Test Run, which we have run.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/slack-integration/kt_slack_test_run.png)
