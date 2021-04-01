@@ -65,6 +65,7 @@ description: Release note 7.x
 ### Improvements
 
 * Upgrade Eclipse IDE from version 4.6 to 4.16.
+* Upgrade Groovy compiler from version 2.4.7 to version 2.4.20.
 * Notarize Katalon Studio and Katalon Runtime Engine applications for macOS Catalina. [Learn more](https://developer.apple.com/documentation/xcode/notarizing_macos_software_before_distribution)
 * Enhance qTest Integration, including:
    - Support uploading screenshots in test results to qTest. [Learn more](https://docs.katalon.com/katalon-studio/docs/qtest-integration.html#manual-setup)
