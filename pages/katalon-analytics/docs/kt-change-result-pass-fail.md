@@ -5,7 +5,9 @@ permalink: katalon-analytics/docs/kt-change-result-pass-fail.html
 description: 
 ---
 
-On Katalon TestOps, we can change a failed Test Result of a Test Run to passed Test Result. We choose **Reports & Analytics** > **Test Runs**. Then we click to select an ID of the Test Run that we want to execute.
+On Katalon TestOps, if we are team owners or admins, we can change a failed Test Result of a Test Run to a passed Test Result. 
+
+We choose **Reports & Analytics** > **Test Runs**. Then we click to select an ID of the Test Run that we want to execute.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-change-result-pass-fail/kt_choose_test_run.png)
 
