@@ -9,9 +9,9 @@ description:
 >
 > This is just a prerelease version, not ready for production use.
 
-In the next major release, v8.0, expected to be shipped by the end of April, Katalon Studio can be natively integrated with Azure DevOps (ADO) - Test Plans. This feature will support you:
+In the next major release, v8.0, expected to be shipped by the end of April, Azure DevOps (ADO) - Test Plans can natively integrate with Katalon Studio. This feature will support you:
 
-- When you have manual Test Cases in ADO and you want to map to a corresponding automated Test Case in Katalon Studio to know which Test Cases are automated.
+- When you have manual Test Cases in ADO, you want to map to a corresponding automated Test Case in Katalon Studio to know which Test Cases are automated.
 
 - When you execute the integrated Test Cases in Katalon Studio, you want the Test Run to be created accordingly with the test execution reports and results uploaded to its corresponding Test Run in ADO so that you can get the test status and have sufficient materials for debugging.
 
@@ -22,7 +22,7 @@ To be specific, in terms of the feature, you can do the following things:
 - When a Test Suite/ Test Suite Collection execution finishes, Katalon will create Test Run and submit Test Results to ADO.
 - Dynamically change test plan ID, test run name, and build number of a test run via CLI.
 
-This document introduces what built-in **Azure DevOps Intergration** feature looks like and how to use it in Katalon Studio.
+This document introduces what the built-in **Azure DevOps Integration** feature looks like and how to use it in Katalon Studio.
 
 > Download Katalon Studio v8.0.0.rc [here](https://github.com/katalon-studio/katalon-studio/releases/tag/v8.0.0.rc).
 
@@ -43,7 +43,7 @@ In Katalon Studion, go to **Project > Settings > Integrations > Azure DevOps**:
 2. Enter the required credentials for **Authentication**. Your credentials are encrypted by default for security.
 
     - **Server URL**: `https://dev.azure.com/{yourorganization}`
-    - **Personal Access Token**: your [Personal Access Token](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops&tabs=preview-page). We recommend you to create a Personal Access Token with a full scope access. (Learn about the [Permission](https://docs.microsoft.com/en-us/azure/devops/organizations/security/about-permissions?view=azure-devops&tabs=preview-page#permissions))
+    - **Personal Access Token**: your [Personal Access Token](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops&tabs=preview-page). We recommend you to create a Personal Access Token with full scope access. (Learn about the [Permission](https://docs.microsoft.com/en-us/azure/devops/organizations/security/about-permissions?view=azure-devops&tabs=preview-page#permissions))
 
 3. Click **Connect** to verify whether Azure DevOps is connected successfully.
 
@@ -73,9 +73,9 @@ To configure the integration, do as follows:
 
         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/status-mapping.png" width=70%>
 
-    - In the **Test Configuration Mapping**, match the **Execution OS/Device**, and **Execution Browser/App** configured to run the tests in Katalon Studio with the **Test Configurations in Azure DevOps**. 
+    - In the **Test Configuration Mapping**, match the **Execution OS/Device** and **Execution Browser/App** configured to run the tests in Katalon Studio with the **Test Configurations in Azure DevOps**. 
 
-	    You can also **Add** or **Remove** item(s) to customize the settings.
+        You can also **Add** or **Remove** item(s) to customize the settings.
 
         > **What is Test Configuration?**
         >
@@ -121,7 +121,7 @@ When the execution finishes, the test run is created, and test results are uploa
 
 ### Dynamically changing test run’s information in CLI
 
-You can change test plan ID, test run name, and build number of a test run by using the following command-line.
+You can change the test plan ID, test run name, and build number of a test run by using the following command-line.
 
 <table data-number-column="false" data-layout="default" data-autosize="false" data-pm-slice="1 1 []">
 <tbody>
