@@ -43,7 +43,7 @@ In Katalon Studion, go to **Project > Settings > Integrations > Azure DevOps**:
 2. Enter the required credentials for **Authentication**. Your credentials are encrypted by default for security.
 
     - **Server URL**: `https://dev.azure.com/{yourorganization}`
-    - **Personal Access Token**: your [Personal Access Token](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops&tabs=preview-page). We recommend you to create a Personal Access Token with full scope access. (Learn about the [Permission](https://docs.microsoft.com/en-us/azure/devops/organizations/security/about-permissions?view=azure-devops&tabs=preview-page#permissions))
+    - **Personal Access Token**: your [Personal Access Token](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops&tabs=preview-page). We recommend you to create a Personal Access Token with full scope access.
 
 3. Click **Connect** to verify whether Azure DevOps is connected successfully.
 
@@ -65,15 +65,13 @@ To configure the integration, do as follows:
 
         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/expand-both.png" width=65%>
         
-2. Conduct Test Artifacts Mapping.
+2. Conduct Test Artifacts Mapping for ?
 
-    In the **Test Artifacts Mapping**, do as follows for submitting the test run:
-
-    - In the **Execution Status Mapping**, match the test results in Katalon Studio with the test outcomes in ADO.
+    - In the **Execution Status Mapping**, map the test results in Katalon Studio with the test outcomes in ADO.
 
         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/status-mapping.png" width=70%>
 
-    - In the **Test Configuration Mapping**, match the **Execution OS/Device** and **Execution Browser/App** configured to run the tests in Katalon Studio with the **Test Configurations in Azure DevOps**. 
+    - In the **Test Configuration Mapping**, map the **Execution OS/Device** and **Execution Browser/App** configured to run the tests in Katalon Studio with the **Test Configurations in Azure DevOps**. 
 
         You can also **Add** or **Remove** item(s) to customize the settings.
 
@@ -83,7 +81,7 @@ To configure the integration, do as follows:
 
         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/environment-mapping.png" width=70%>
 
-3. Configure Submission Options.
+3. Configure Submission Options for ?
 
     - Select a fetched test plan in the drop-down list, the test run is submitted to ADO automatically.
 
@@ -170,4 +168,21 @@ You can change the test plan ID, test run name, and build number of a test run b
 </td>
 </tr>
 </tbody>
+</table>
+
+### Troubleshoot common issues
+
+<table>
+    <thead>
+        <tr>
+            <th>Error</th>
+            <th>Solution</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Cannot create Test Results for Azure DevOps Test Case ID= due to multiple Test Points returned.</td>
+            <td>Please check Test Points with Id = ; or allow sending Test Results anyway in Project Settings.</td>
+        </tr>
+    </tbody>
 </table>
