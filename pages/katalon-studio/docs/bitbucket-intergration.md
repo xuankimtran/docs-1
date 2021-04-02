@@ -1,5 +1,5 @@
 ---
-title: "BitBcuket Integration"
+title: "BitBucket Integration"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/bitbucket-integration.html
 ---
