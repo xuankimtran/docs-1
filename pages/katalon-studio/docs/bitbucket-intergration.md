@@ -6,7 +6,7 @@ permalink: katalon-studio/docs/bitbucket-integration.html
 
 **BitBucket** is a web-based source control repository hosting service by Atlassian. 
 
-Katalon Studio provides the integration with BitBucket to simplify performing various commands directly from Katalon Studio UI, such as: add Katalon Studio project files to the repositories; commit and pull changes, and push them to the repositories, and so on.
+Katalon Studio provides the integration with BitBucket to simplify performing various commands directly from Katalon Studio UI, such as: add Katalon Studio project files to the repositories; commit and pull changes, and push them to the repositories and so on.
 
 **Requirements**
 
