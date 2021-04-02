@@ -28,7 +28,7 @@ The basic steps are:
 2. Enter file in which to save the key.
 3. Enter the SSH key passphrase and confirm it.
 4. Add your SSH key to the ssh-agent.
-5. Add a new SSH key to your Git account.
+5. Add a new SSH key to your BitBucket account.
 
 ### Clone a Katalon Studio project from a Git repository in BitBucket
 
