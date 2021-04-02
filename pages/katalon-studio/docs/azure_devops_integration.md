@@ -34,7 +34,7 @@ This document introduces what built-in **Azure DevOps Intergration** feature loo
 
 ### Enable the Integration and Authenticate Azure DevOps Organization
 
-You need to enable ADO integration and authenticate your Azure DevOps Organization to retrieve and map test artifacts between two systems and submit test results to ADO. Do as follow:
+You need to enable ADO integration and authenticate your ADO to retrieve and map test artifacts between two systems and submit test results to ADO. Do as follow:
 
 In Katalon Studion, go to **Project > Settings > Integrations > Azure DevOps**:
 
@@ -69,11 +69,11 @@ To configure the integration, do as follows:
 
     In the **Test Artifacts Mapping**, do as follows for submitting the test run:
 
-    - Map Katalon Studio's Execution Status to ADO test status in the **Execution Status Mapping** to match the test results in Katalon Studio with the test outcomes in ADO.
+    - In the **Execution Status Mapping**, match the test results in Katalon Studio with the test outcomes in ADO.
 
         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/status-mapping.png" width=70%>
 
-    - Map testing environment in Katalon Studio to configurations fetched from ADO in the **Test Configuration Mapping** to match the  **Execution OS/Device**, and **Execution Browser/App** configured in Katalon Studio to run the tests with the **Test Configurations in Azure DevOps**.  
+    - In the **Test Configuration Mapping**, match the **Execution OS/Device**, and **Execution Browser/App** configured to run the tests in Katalon Studio with the **Test Configurations in Azure DevOps**. 
 
 	    You can also **Add** or **Remove** item(s) to customize the settings.
 
@@ -83,15 +83,13 @@ To configure the integration, do as follows:
 
         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/environment-mapping.png" width=70%>
 
-3. Config Submission Options.
+3. Configure Submission Options.
 
     - Select a fetched test plan in the drop-down list, the test run is submitted to ADO automatically.
 
         > Click **Fetch Test Plans** to fetch the latest test plans list.
 
-    - If you want to create test results for ADO test case ID due to multiple test points returned, select **Send test results when ...** to enable test run details for editing.
-        - Enter the required **Test Run Name**.
-        - Enter **Build Number** > click **Verify** to check if your number is valid (to map to more than one number, separate them by a comma). 
+    - If you want to create test results for ADO test case ID due to multiple test points returned, select **Send test results when ...** to enable test run details for editing > enter the required **Test Run Name**.
     
         > **What is Test Point?**
         > 
@@ -109,7 +107,7 @@ To configure the integration, do as follows:
 
 1. Double-click on a Test Case to open the test case view.
 2. Select **Integrations** tab > specify the Test Cases ID(s) of ADO (to map to more than one ID, separate them by a comma).
-3. Click **Verify** to check whether the test case is valid > **Save**.
+3. Click **Verify** to check whether the test case id exists in ADO for mapping the test case(s) > **Save**.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/map-ks-test-case-with-ado.png" width=60%>
 
@@ -121,9 +119,9 @@ When the execution finishes, the test run is created, and test results are uploa
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/result-on-ado.png" width=70%>
 
-### Change test run information in Command-line
+### Dynamically changing test run’s information in CLI
 
-You can dynamically change test plan ID, test run name, and build number of a test run by using the following command-line.
+You can change test plan ID, test run name, and build number of a test run by using the following command-line.
 
 <table data-number-column="false" data-layout="default" data-autosize="false" data-pm-slice="1 1 []">
 <tbody>
