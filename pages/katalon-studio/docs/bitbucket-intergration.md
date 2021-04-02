@@ -4,7 +4,9 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/bitbucket-integration.html
 ---
 
-**BitBucket** is a web-based source control repository hosting service by Atlassian. Katalon Studio provides the integration with BitBucket that simplifies performing various commands directly from Katalon Studio UI such as: add Katalon Studio project files to the repositories; commit and pull changes, and push them to the repositories, and so on.
+**BitBucket** is a web-based source control repository hosting service by Atlassian. 
+
+Katalon Studio provides the integration with BitBucket to simplify performing various commands directly from Katalon Studio UI such as: add Katalon Studio project files to the repositories; commit and pull changes, and push them to the repositories, and so on.
 
 **Requirements**
 
@@ -18,7 +20,7 @@ Follow [this document](https://support.atlassian.com/bitbucket-cloud/docs/set-up
 
 The basic steps are:
 
-1. Generating a public/private rsa key pair with this command:\
+1. Generating a public or private rsa key pair with this command:\
 `ssh-keygen -m PEM -t rsa -b 2048 -C "your_email@example.com"`
     > Note: Katalon Studio only supports `OpenSSL`, NOT `OpenSSH` formats.
 2. Enter file in which to save the key.
