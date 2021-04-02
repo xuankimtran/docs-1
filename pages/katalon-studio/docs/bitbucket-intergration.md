@@ -26,7 +26,7 @@ Follow [this document](https://support.atlassian.com/bitbucket-cloud/docs/set-up
 4. Add your SSH key to the ssh-agent.
 5. Add a new SSH key to your BitBucket account.
 
-### Clone a Katalon Studio project from a Git repository in BitBucket
+### Clone a Katalon Studio project from a BitBucket repository
 
 1. In BitBucket, get the repository URL with **SSH Protocol** for the project clone.
 
