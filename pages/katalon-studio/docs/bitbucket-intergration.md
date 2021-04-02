@@ -4,17 +4,13 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/bitbucket-integration.html
 ---
 
-**BitBucket** is a web-based source control repository hosting service by Atlassian. Katalon Studio provides/supports the integration with BitBucket that simplifies performing various commands directly from Katalon Studio UI such as: add Katalon Studio project files to the repositories; commit and pull changes, and push them to the repositories, and so on.
+**BitBucket** is a web-based source control repository hosting service by Atlassian. Katalon Studio provides the integration with BitBucket that simplifies performing various commands directly from Katalon Studio UI such as: add Katalon Studio project files to the repositories; commit and pull changes, and push them to the repositories, and so on.
 
 **Requirements**
 
 - Your computer already configured [Git Integration](https://docs.katalon.com/katalon-studio/docs/git-integration.html#configure-git-integration).
 - Connect to your [BitBucket](https://bitbucket.org/) account.
 - You already [Created a Git repository](https://support.atlassian.com/bitbucket-cloud/docs/create-a-git-repository/) in BitBucket.
-
-## Work with BitBucket Repositories
-
-This section gives instructions on how to work with BitBucket repositories using Git.
 
 ### Connect to Git with SSH Keys
 
