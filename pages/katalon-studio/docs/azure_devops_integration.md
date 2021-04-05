@@ -45,7 +45,7 @@ In Katalon Studion, go to **Project > Settings > Integrations > Azure DevOps**:
 2. Enter the required credentials for **Authentication**. Your credentials are encrypted by default for security.
 
     - **Server URL**: `https://dev.azure.com/{yourorganization}`
-    - **Personal Access Token**: your [Personal Access Token](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops&tabs=preview-page). We recommend you to create a Personal Access Token with full scope access.
+    - **Personal Access Token**: your [Personal Access Token](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops&tabs=preview-page). We recommend you to create a Personal Access Token with full-access [scopes](https://docs.microsoft.com/en-us/azure/devops/integrate/get-started/authentication/oauth?view=azure-devops#scopes).
 
 3. Select **Encrypt authentication data** for security assurance.
 
