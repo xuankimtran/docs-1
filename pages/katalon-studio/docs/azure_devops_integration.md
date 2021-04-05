@@ -77,7 +77,7 @@ To configure the integration, do as follows:
 
     - In the **Test Configuration Mapping**, map the **Execution OS/Device** and **Execution Browser/App** configured to run the test in Katalon Studio with the **Test Configurations in Azure DevOps**.
 
-        **Test Configuration** is used as a filter in Test Point Query for test run submission. Depending on **what OS and platform** using to execute the test, Katalon Studio will get the corresponding **Azure Test Configuration** and use it as a filter for test points configured to it.
+        **Test Configuration** is used as a filter in Test Point Query for test run submission. Depending on **what OS and platform** using to execute the test, Katalon Studio will get the corresponding **Azure Test Configuration** and use that **Azure Test Configuration** as a filter for test points configured to it.
 
         You can also **Add** or **Remove** item(s) to customize the settings.
 
