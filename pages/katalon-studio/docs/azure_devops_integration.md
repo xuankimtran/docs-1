@@ -9,10 +9,9 @@ description:
 >
 > This is just a prerelease version, not ready for production use.
 
-In the release of version 8.0, expected to be shipped by the end of April. Katalon Studio can be natively integrated with  Azure DevOps (ADO) - Test Plans. 
+In the release of version 8.0, expected to be shipped by the end of April, Katalon Studio can be natively integrated with Azure DevOps (ADO) - Test Plans. 
 
 > Download Katalon Studio v8.0.0.rc [here](https://github.com/katalon-studio/katalon-studio/releases/tag/v8.0.0.rc).
-
 
 This feature will support you:
 
@@ -76,13 +75,19 @@ To configure the integration, do as follows:
 
         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/status-mapping.png" width=70%>
 
-    - In the **Test Configuration Mapping**, map the **Execution OS/Device** and **Execution Browser/App** with the **Test Configurations in Azure DevOps** to match the testing environment configured to run the tests in Katalon Studio with configurations fetched from ADO.
+    - In the **Test Configuration Mapping**, map the **Execution OS/Device** and **Execution Browser/App** configured to run the test in Katalon Studio with the **Test Configurations in Azure DevOps**.
+
+        **Test Configuration** is used as a filter in Test Point Query for test run submission. Depending on **what OS and platform** using to execute the test, Katalon Studio will get the corresponding **Azure Test Configuration** and use it as a filter for test points configured to it.
 
         You can also **Add** or **Remove** item(s) to customize the settings.
 
         > **What is Test Configuration?**
         >
         > **A Test Configuration is a combination of configuration variable values**. Your configuration variables could be, for example, operating system, browser, CPU type, database. A configuration might be "Windows 8 + 32-bit CPU" or "Windows 10 + 64-bit CPU." [Learn more](https://docs.microsoft.com/en-us/azure/devops/test/test-different-configurations?view=azure-devops)
+        >
+        > **What is Test Point?**
+        > 
+        > **A test point is a unique combination of a test case, test suite, configuration, and tester**. Test cases by themselves are not executable. When you add a test case to a test suite, test point(s) are generated. [Learn more](https://docs.microsoft.com/en-us/azure/devops/test/new-test-plans-page?view=azure-devops#execute-tab)
 
         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/environment-mapping.png" width=70%>
 
@@ -93,10 +98,6 @@ To configure the integration, do as follows:
         > Click **Fetch Test Plans** to fetch the latest test plans list.
 
     - If you want to create test results for ADO test case ID when there are multiple test points returned, select **Send test results when ...** to enable test run details for editing > enter the required **Test Run Name**.
-    
-        > **What is Test Point?**
-        > 
-        > **A test point is a unique combination of a test case, test suite, configuration, and tester**. Test cases by themselves are not executable. When you add a test case to a test suite, test point(s) are generated. [Learn more](https://docs.microsoft.com/en-us/azure/devops/test/new-test-plans-page?view=azure-devops#execute-tab)
 
     - Decide when and what to submit test results.
 
