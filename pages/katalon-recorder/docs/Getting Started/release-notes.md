@@ -10,8 +10,12 @@ redirect_from:
 description:
 ---
 
-## 5.3.x
+## 5.3.30
 
+**New feature**
+- [Daily Usage](https://docs.katalon.com/katalon-recorder/docs/daily-usage.html).
+
+**Bug fixes**
 - Fixed an error where sign-up dialog prevents people from using KR
 
 ## 5.1.0
