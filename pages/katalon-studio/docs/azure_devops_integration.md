@@ -36,7 +36,7 @@ This document introduces how the built-in **Azure DevOps Integration** feature l
 
 ### Enable the Integration and Authenticate Azure DevOps Organization
 
-You need to enable ADO integration and authenticate your ADO to retrieve and map test artifacts between two systems and submit test results to ADO. Do as follow:
+You need to enable ADO integration and authenticate your ADO to retrieve and map test artifacts between two systems and submit test results to ADO. Do as follows:
 
 In Katalon Studion, go to **Project > Settings > Integrations > Azure DevOps**:
 
@@ -75,13 +75,13 @@ To configure the integration, do as follows:
 
         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/status-mapping.png" width=70%>
 
-    - In the **Test Configuration Mapping**, map the **Execution OS/Device** and **Execution Browser/App** configured to run the test in Katalon Studio with the **Test Configurations in Azure DevOps**.
+    - In the **Test Configuration Mapping**, map the **Execution OS/Device** and **Execution Browser/App** configured to run the test in Katalon Studio with the **Test Configurations in Azure DevOps**. 
 
-        **Test Configuration** is used as a filter in Test Point Query for test run submission. Depending on **what OS and platform** using to execute the test, Katalon Studio will get the corresponding **Azure Test Configuration** and use it as a filter for its configured test points.
+        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/test-configuration-mapping.png" width=70%>
+    
+        Depending on **what OS and platform** using to execute the test, Katalon Studio will get the corresponding **Azure Test Configuration** and use it as a filter for its configured test points for the test run submission.
 
         You can also **Add** or **Remove** item(s) to customize the settings.
-
-        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/environment-mapping.png" width=70%>
 
         > **What is Test Configuration?**
         >
@@ -97,7 +97,7 @@ To configure the integration, do as follows:
 
         > Click **Fetch Test Plans** to fetch the latest test plans list.
 
-    - If you want to create test results for ADO test case ID when there are multiple test points returned, select **Send test results when ...** to enable test run details for editing > enter the required **Test Run Name**.
+    - If you want to submit test results for ADO test case ID when there are multiple test points returned, select **Send test results when ...** to enable test run details for editing > enter the required **Test Run Name**.
 
     - Decide when and what to submit test results.
 
