@@ -1,5 +1,5 @@
 ---
-title: "Integration with Azure DevOps Test Plans (Prerelease)"
+title: "Integration with Azure DevOps Test Plans (Pre-release)"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/azure-devops-test-plans.html
 description: 
@@ -7,7 +7,7 @@ description:
 
 > **Important**
 >
-> This is just a prerelease version, not ready for production use.
+> This is just a pre-release version, not ready for production use.
 
 In the release of version 8.0, expected to be shipped by the end of April, Katalon Studio can be natively integrated with Azure DevOps (ADO) - Test Plans. 
 
