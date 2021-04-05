@@ -66,3 +66,24 @@ Follow [this document](https://support.atlassian.com/bitbucket-cloud/docs/set-up
     Ensure that the repository is selected correctly with the URL specified.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/bitbucket-integration/verify-configuration.png" width=65%>
+
+### Store Katalon Studio Projects in BitBucket
+
+1. In Katalon Studio, select the **Git** icon from the main toolbar > **Commit**.
+    
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/bitbucket-integration/commmit.png" width=30%>
+
+2. The **Git Staging** tab is displayed for configuration.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/bitbucket-integration/git-log.png" width=70%>
+
+    Where:
+
+    | Field | Description |
+    | --- | --- |
+    | Unstaged Changes | Changes which have been made. |
+    | Staged Changes | Selected changes from **Unstaged Changes.** These changes are committed. |
+
+3. From the **Unstaged Changes** list, select the changes to be committed, then right-click on them and select **Add To Index**. Selected changes are added to the **Staged Changes** list.
+
+4. Enter your comments into the **Commit Message** > click **Commit and Push...** to store your staged changes into the local branch and push them to BitBucket.
