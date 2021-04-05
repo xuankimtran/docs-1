@@ -23,9 +23,9 @@ description: Release notes 8.0
 * Enhance Katalon TestOps Integration:
     * [Katalon Runtime Engine] Support query for Test Suite Collection. [Learn more]()
     * [Katalon Runtime Engine] Support new parameters for new Build concept. [Learn more]()
-* [Katalon Runtime Engine] Pass HashMap for Global Variables from CLI
-* [Katalon Runtime Engine] Add an option to Command Builder for updating WebDriver automatically
-* [Enhanced Report] Add profile details to the email reports
+* [Katalon Runtime Engine] Pass HashMap for Global Variables from CLI.
+* [Katalon Runtime Engine] Add an option to Command Builder for updating WebDriver automatically.
+* [Enhanced Report] Add profile details to the email reports.
 
 ### Changes
 
