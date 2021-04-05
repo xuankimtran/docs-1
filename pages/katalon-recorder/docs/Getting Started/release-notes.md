@@ -10,7 +10,7 @@ redirect_from:
 description:
 ---
 
-## 5.3.30
+## 5.3.30 - latest release
 
 **New feature**
 - [Daily Usage](https://docs.katalon.com/katalon-recorder/docs/daily-usage.html).
