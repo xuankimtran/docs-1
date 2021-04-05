@@ -1377,6 +1377,10 @@ items:
                 url: /katalon-recorder/docs/writing-custom-script-formatter.html
           - title: "Data-driven excecution"
             url: /katalon-recorder/docs/data-driven-execution.html
+          - title: "Social values"
+            tree:
+              - title: "Daily Usage"
+                url: /katalon-recorder/docs/daily-usage.html
           - title: "Extend Katalon Recorder"
             tree:
               - title: "Katalon Recorder Helper Tool"
