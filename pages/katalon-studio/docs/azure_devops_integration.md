@@ -77,19 +77,19 @@ To configure the integration, do as follows:
 
     - In the **Test Configuration Mapping**, map the **Execution OS/Device** and **Execution Browser/App** configured to run the test in Katalon Studio with the **Test Configurations in Azure DevOps**.
 
-        **Test Configuration** is used as a filter in Test Point Query for test run submission. Depending on **what OS and platform** using to execute the test, Katalon Studio will get the corresponding **Azure Test Configuration** and use that **Azure Test Configuration** as a filter for test points configured to it.
+        **Test Configuration** is used as a filter in Test Point Query for test run submission. Depending on **what OS and platform** using to execute the test, Katalon Studio will get the corresponding **Azure Test Configuration** and use it as a filter for its configured test points.
 
         You can also **Add** or **Remove** item(s) to customize the settings.
+
+        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/environment-mapping.png" width=70%>
 
         > **What is Test Configuration?**
         >
         > **A Test Configuration is a combination of configuration variable values**. Your configuration variables could be, for example, operating system, browser, CPU type, database. A configuration might be "Windows 8 + 32-bit CPU" or "Windows 10 + 64-bit CPU." [Learn more](https://docs.microsoft.com/en-us/azure/devops/test/test-different-configurations?view=azure-devops)
-        >
+
         > **What is Test Point?**
         > 
         > **A test point is a unique combination of a test case, test suite, configuration, and tester**. Test cases by themselves are not executable. When you add a test case to a test suite, test point(s) are generated. [Learn more](https://docs.microsoft.com/en-us/azure/devops/test/new-test-plans-page?view=azure-devops#execute-tab)
-
-        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/environment-mapping.png" width=70%>
 
 3. Configure Submission Options
 
