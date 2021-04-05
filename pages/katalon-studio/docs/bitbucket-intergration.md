@@ -77,7 +77,7 @@ Follow [this document](https://support.atlassian.com/bitbucket-cloud/docs/set-up
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/bitbucket-integration/git-log.png" width=70%>
 
-    Where:
+    **Where:**
 
     | Field | Description |
     | --- | --- |
