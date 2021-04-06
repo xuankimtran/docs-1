@@ -5,9 +5,9 @@ permalink: katalon-studio/tutorials/webui-create-test-case.html
 description: Create and Run WebUI Test Case 
 ---
 
-This tutorial demonstrates how to create iOS tests with Katalon Studio using **Record** and **Playback**.
+This tutorial demonstrates how to create a WebUI test case with Katalon Studio using **Record** and **Playback**.
 
-Go throught the scenario "Sign in and purchase a tank top" to get familiar with this feature. The basic steps are:
+Go through the scenario "Sign in the web page to purchase a tank top" to get familiar with these features. The basic steps are:
 
 1. Create a new project to store recorded actions.
 2. Interact with the web page.
@@ -15,7 +15,7 @@ Go throught the scenario "Sign in and purchase a tank top" to get familiar with 
     - Purchase a tank top.
 3. Stop recording and Save scripts.
 
-> Shopping Cart sample project is available [here](https://github.com/katalon-studio-samples/shopping-cart-tests).
+> **Shopping Cart** sample project is available [here](https://github.com/katalon-studio-samples/shopping-cart-tests).
 
 ## Create and Run your first WebUI test case
 
@@ -26,8 +26,8 @@ Go throught the scenario "Sign in and purchase a tank top" to get familiar with 
 2. In the displayed **New Project** dialog:
 
    - Enter project **Name**.
-   - In project **Type** > select **Web**.
-   - In **Project** > select **Sample Web UI...(Shopping Cart)**, the **Repository URL** is filled automatically.
+   - In project **Type**, select **Web**.
+   - In **Project**, select **Sample Web UI...(Shopping Cart)**, the **Repository URL** is filled automatically.
    - Browse a **Location** to store your project > click **OK**.
 
         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/recording-webui-test/new-project.png" width=70%>
@@ -54,7 +54,7 @@ Go throught the scenario "Sign in and purchase a tank top" to get familiar with 
 
 4. Interact with the web page. In this scenario, we will sign in and purchase a tank top.
 
-    During your recording, **Katalon Web Recorder** captures all the objects that you have interacted with. When you enter in the **Password** field, **Katalon Web Recorder** uses '[Set Encrypted Text](https://docs.katalon.com/display/KD/%5BWebUI%5D+Set+Encrypted+Text)' keyword automatically. This input value will be encrypted to ensure security.
+    During your recording, **Katalon Web Recorder** captures all the objects that you have interacted with. When you enter the **Password** field, **Katalon Web Recorder** uses the '[Set Encrypted Text](https://docs.katalon.com/display/KD/%5BWebUI%5D+Set+Encrypted+Text)' keyword automatically. This input value will be encrypted to ensure security.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/recording-webui-test/recorded-actions.png" width=70%>
 
@@ -73,11 +73,11 @@ Go throught the scenario "Sign in and purchase a tank top" to get familiar with 
 To playback the recorded scenario:
 
 1. Select the test case where you saved the recorded actions.
-2. From the main toolbar, select any browser on the drop-down list next to **Run** to execute the test case. 
+2. From the main toolbar, select any browser on the drop-down list next to **Run**.
+
+    Katalon Studio will execute the chosen test case with the recorded steps accordingly.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/recording-webui-test/select-browser-to-playback.png" width=30%>
-
-    Katalon Studio executes the test case with the recorded steps accordingly.
 
 **<details><summary>View the test case in Script mode.</summary>**
 
