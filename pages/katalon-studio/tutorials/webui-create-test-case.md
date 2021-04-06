@@ -7,7 +7,7 @@ description: Create and Run WebUI Test Case
 
 This tutorial demonstrates how to create a WebUI test case with Katalon Studio using **Record** and **Playback**.
 
-Go through the scenario "Sign in the web page to purchase a tank top" to get familiar with these features. The basic steps are:
+Go through the scenario "Sign in the shopping page to purchase a tank top" to get familiar with these features. The basic steps are:
 
 1. Create a new project to store recorded actions.
 2. Interact with the web page.
