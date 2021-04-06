@@ -4,70 +4,65 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/kt_run_parallel_agent.html 
 description: 
 ---
-Agents manage local servers for executing the scheduled Test Runs the in local Test Environment. Katalon supports Agents that are compatible with different execution environments.
 
-> We share the Agents among members and projects within a team.
+On Katalons TestOps, we can run multiple Test Suites in parallel with Agents.
 
-## Set up an Agent
+## Set up Agents
 
-In **Configurations**, go to **Agent setup** > Select **Local Environment** > Follow instructions in the setup wizard.
+At first, we have to set up some Agents. For setting up an Agent, we can read [here](https://docs.katalon.com/katalon-analytics/docs/install_kt_agent.html).
 
-Setup Agents step by step, see [here](https://docs.katalon.com/katalon-analytics/docs/install_kt_agent.html).
+We start two agents for preparing run Test Suites.
 
-## Start an Agent
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt_run_parallel_agent/kt_start_two_agent.png)
 
-Copy the command that was automatically generated in **Agent Setup** page and paste to your CLI.
+For the illustrated example, on Katalon TestOps, we set up two agents.
 
-It may take a while for the agent to start.
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt_run_parallel_agent/kt_set_up_multi_agents.png)
 
-Start Agents step by step, see [here](https://docs.katalon.com/katalon-analytics/docs/install_kt_agent.html).
+We click on an agent, the **Agent Details** displays.
 
-## View Agent status
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt_run_parallel_agent/kt_display_agent_details.png)
 
-You can check the Agent status by going to **Test Environments** in **Configurations**.
+At the below of **Agent Details**, in the **Threshold** item, we select the number moreover than 1. For this example, we choose number 2 and click the button **Update**.
 
-![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-analytics/docs/agents/agent-local.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt_run_parallel_agent/kt_threshold_agent_update.png)
 
-> You can delete an Agent anytime by clicking on the recycle bin icon.
+## Run multiple Test Suites
 
-> ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/agents/kt_delete_agent.png)
+Make a Script Repository and upload it to Katalon TestOps. On Katalon TestOps, open this Script Repository, and click the run button.
 
-> The window Delete Agent displays and click the button Delete.
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt_run_parallel_agent/kt_sample_script_repo.png)
 
-> ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/agents/kt_delete_agent_window.png)
+The board **Test run type** displays. We choose and type the information in the cells of items.
 
-> **Please note that this action cannot be undone.**
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt_run_parallel_agent/kt_test_run_type.png)
 
-## Authentication with Katalon TestOps
+At the item Test Suite Collection, we choose a Test Suite Collection which we want to run. At the item Execution Mode, we choose Parallel for running multiple Test Suite parallel. At the item Test Environment Type, we choose Local Test Environment.
 
-Agents will use `serverurl` and `apikey` in **agentconfig** for:
-* Activating Katalon Runtime Engine used for test execution.
-* Sending test results to Katalon TestOps.
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt_run_parallel_agent/kt_test_run_type_1.png)
 
-We can see the `serverurl` and `apikey` in Generate configuration of Agent Setup. 
+At the item Test Environments, we choose agents which we have just started. We select the version of Katalon Studio at the item Katalon Studio Version or Pre-Installed Katalon Studio Location.
 
- ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/agents/kt_agentconfig_server_url.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt_run_parallel_agent/kt_test_run_type_2.png)
 
- ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/agents/kt_agentconfig_apikey.png)
+We click the button Creat at below for creating a new Test Run Type.
 
-Using the `serverurl` and `apikey` was shown [here](katalon-analytics/docs/install_kt_agent.html ).
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt_run_parallel_agent/kt_test_run_type_3.png)
 
-## Configure Proxy for Agent
+In the board Test Planning, a new Test Run Type displays with agents, which we have just started. We click the button Run for running.
 
-You can set up proxy for Agent in the `agentconfig` file with the `proxy` option.
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt_run_parallel_agent/kt_new_test_run_type.png)
 
-For example, `proxy=http://localhost:8080`.
+Two agents run parallelly.
 
-## Next Steps
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt_run_parallel_agent/kt_two_agents_run.png)
 
-- [Set up a Script Repository](/katalon-analytics/docs/code-repo)
-- [Schedule Test Runs](/katalon-analytics/docs/kt-scheduler)
+We can see the results of Test Suites at **Report & Analysis**.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt_run_parallel_agent/kt_test_run.png)
 
 ## Related topics
 
-- [Create a Docker environment](https://docs.katalon.com/katalon-analytics/docs/docker.html)
-- [Create a CircleCI Environment](https://docs.katalon.com/katalon-analytics/docs/circleci.html)
-- [Create a Kubernetes Environment](https://docs.katalon.com/katalon-analytics/docs/aws-eks.html)
-- [Load balancing for Local Test Environment](https://docs.katalon.com/katalon-analytics/docs/load-balancing-agents.html)
-- [Katalon TestOps Terminology](/katalon-analytics/docs/testops-terminology.html)
+- [Create a Local Test Environment with Agent](https://docs.katalon.com/katalon-analytics/docs/agents.html)
+- [Install Katalon TestOps Agent on a test machine](https://docs.katalon.com/katalon-analytics/docs/install_kt_agent.html)
 
