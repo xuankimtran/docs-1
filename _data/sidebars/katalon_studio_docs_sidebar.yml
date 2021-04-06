@@ -1027,6 +1027,8 @@ items:
             url: /katalon-studio/docs/testlink-integration.html
           - title: "App Center Integration"
             url: /katalon-studio/docs/app-center.html
+          - title: "Integration with Azure DevOps Test Plans (P.o.C)"
+            url: /katalon-studio/docs/azure-devops-test-plans.html
       - title: "Migration from other tools"
         tree:
           - title: "Selenium/TestNG/JUnit Migration"
