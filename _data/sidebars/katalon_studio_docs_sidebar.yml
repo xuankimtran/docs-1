@@ -1273,6 +1273,8 @@ items:
                 url: /katalon-analytics/docs/kt-jira-config.html
               - title: "Jira Dashboard Gadgets"
                 url: /katalon-analytics/docs/jira-gadgets.html
+          - title: "How to configure Kobiton integration with Katalon TestOps"
+            url: /katalon-analytics/docs/kt_kobiton_integration.html
           - title: "Slack Integration"
             url: /katalon-analytics/docs/slack-integration.html
           - title: "Jenkins Integration"
