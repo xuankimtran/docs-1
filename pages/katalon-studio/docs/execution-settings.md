@@ -113,7 +113,7 @@ These settings decide Katalon Studio's behaviors when executing WebUI test in a 
 
 See also:
 
-* [Self-healing Tests for Web UI](https://docs.katalon.com/katalon-studio/docs/self-healing.html)
+* [Self-healing Tests for Web UI](https://docs.katalon.com/katalon-studio/docs/self-healing.html).
 
 ### Web Service Settings
 
@@ -271,27 +271,32 @@ You can decide whether to include a test execution report as an email attachment
 To customize the email's body templates:
 
 For Test Suite's  email, click **Edit Template for Test Suite Execution** or go to **Project/Settings/Email/Template/Test Suite**.
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/emails-settings/ts-email.png" width="" height="">
 
-Where:
+  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/email-report-template.png" width=70%>
+
+**Where:**
 
 * hostName: Host's name
 * os: Operating system
-* Browser: Browser's name and version
+* bnrowser: Browser's name and version
 * deviceId: Id of the executed device
 * deviceName: Name of the executed device
 * suiteId: Id of the test suite
 * suiteName: Name of the test suite
+* executionProfile: Profile for Test Suite execution
 * totalPassed: Total passed test cases
 * totalFailed: Total failed test cases
 * totalError: Total error test cases
 
 For Test Suite Collection's email, **Edit Template for Test Suite Collection Execution** or go to **Project/Settings/Email/Template/Test Suite Collection**.
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/emails-settings/tsc-email.png" width="" height="">
+
+  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/emails-settings/tsc-email.png" width="" height="">
 
 All fields in the templates are editable. Click **Apply** when finished.
 
-Where:
+**Where:**
+
+> `executionProfile` is not available for usage in **Test Suite Collection Execution**.
 
 * hostName: Host's name
 * os: Operating system
