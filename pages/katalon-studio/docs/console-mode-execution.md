@@ -520,12 +520,11 @@ katalonc -noSplash -runMode=console -projectPath="C:\Users\Katalon Studio\Projec
          <td>N</td>
       </tr>
       <tr>
-         <td>-adoPlanId=&lt;testplan ID&gt;</td>
+         <td>-adoPlanId=&lt;testplan id&gt;</td>
          <td>
          <p>ID of the test plan used for submitting test run(s).</p>
          </td>
          <td>N</td>
-      </tr>
       <tr>
          <td>-adoTestRunName="text"</td>
          <td>
