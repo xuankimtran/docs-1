@@ -520,7 +520,7 @@ katalonc -noSplash -runMode=console -projectPath="C:\Users\Katalon Studio\Projec
          <td>N</td>
       </tr>
       <tr>
-         <td>-adoPlanId=&lt;testplan id&gt;</td>
+         <td>-adoPlanId=&lt;testplan ID&gt;</td>
          <td>
          <p>ID of the test plan used for submitting test run(s).</p>
          </td>
@@ -537,6 +537,15 @@ katalonc -noSplash -runMode=console -projectPath="C:\Users\Katalon Studio\Projec
          <td>--info -adoBuildNumber="text"</td>
          <td>
          <p>Pass the build number to Test Run properties on ADO.</p>
+         </td>
+         <td>N</td>
+      </tr>
+      <tr>
+         <td>-maxResponseSize</td>
+         <td>
+         <p>Override the maximum response size in project setting (available from version <strong>7.6</strong>). <a href="https://docs.katalon.com/katalon-studio/docs/execution-settings.html#web-service-settings">Learn more about Web Service Settings.</a></p>
+         <p>Example:</p>
+         <p><code class="java plain"> -maxResponseSize=400</code></p>
          </td>
          <td>N</td>
       </tr>
