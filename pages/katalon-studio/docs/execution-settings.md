@@ -296,7 +296,7 @@ All fields in the templates are editable. Click **Apply** when finished.
 
 **Where:**
 
-> `executionProfile` is not available for usage in **Test Suite Collection Execution**.
+> `executionProfile` is not available in the **Test Suite Collection Execution** email reports.
 
 * hostName: Host's name
 * os: Operating system
