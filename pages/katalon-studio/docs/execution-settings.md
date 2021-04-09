@@ -24,7 +24,7 @@ description:
 
 Execution settings help define the desired behaviors of Katalon Studio during test execution. To access default Execution Settings of a project,from the main menu, select **Project > Settings > Execution**
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/default-execution.png" width="" height="">
+  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/default-execution.png" width="" height="">
 
 You can also see the following subviews:
 
@@ -98,7 +98,7 @@ Handling Out of Memory
 
 You can set default settings for Web UI test execution by going to **Project > Settings > Execution > WebUI**.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/webui.png">
+  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/webui.png">
 
 These settings decide Katalon Studio's behaviors when executing WebUI test in a project.
 
@@ -124,7 +124,7 @@ See also:
 
 You can set default settings for Web Service test execution by going to **Project > Settings > Execution > Web Service**. The following global configurations are applied to both RESTful and SOAP requests in a project.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/web-service.png">
+  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/web-service.png">
 
 * **Connection Timeout in milliseconds (0=unlimited)**: The time to establish the connection with the remote server. When it is set to 0 or left empty, Katalon waits for a response forever.
 * **Socket Timeout in milliseconds (0=unlimited)**: The time waiting for data – after establishing the connection.
@@ -132,7 +132,7 @@ You can set default settings for Web Service test execution by going to **Projec
 
 For your convenience, we provide a shortcut to this global settings in a test request's view.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/timeout-maxsize.png">
+  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/timeout-maxsize.png">
 
 ### Web Service Settings in Script view
 
@@ -226,7 +226,7 @@ As an exclusive feature for Katalon Studio Enterprise, users are given an option
 * **Protocol**: the protocol to communicate with the mail server (None, SSL, TLS).
 * **Encrypt authentication data** is recommended for sensitive data protection.
 
->Tips
+>**Tips**
 >
 > In case your email servers are using two-step authentication, please turn it off.
 >
