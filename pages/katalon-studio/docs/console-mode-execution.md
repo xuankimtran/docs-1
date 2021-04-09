@@ -248,6 +248,17 @@ Here's the list of options supported for the `katalonc` commands for Katalon Stu
          </td>
          <td>N</td>
       </tr>
+      <tr>
+         <td>
+         <p>-licenseRelease</p>
+         <p>-orgID=&lt;organization's id&gt;</p>
+         <td>
+         <p>Release the previous execution session before checking license.</p>
+         <p>Example:</p>
+         <p><code class="java plain"> -licenseRelease=true </code></p>
+         <p><code class="java plain"> -orgID=89151</code></p>
+         </td>
+         <td>N</td>
    </tbody>
 </table>
 
