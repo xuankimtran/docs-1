@@ -22,7 +22,7 @@ description:
 
 ## Execution Settings
 
-Execution settings help define the desired behaviors of Katalon Studio during test execution. To access default Execution Settings of a project,from the main menu, select **Project > Settings > Execution**
+Execution settings help define the desired behaviors of Katalon Studio during test execution. To access default Execution Settings of a project, from the main menu, select **Project > Settings > Execution**
 
   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/default-execution.png" width="" height="">
 
@@ -36,7 +36,7 @@ You can also see the following subviews:
 
 * **Default execution**: The default environment that Katalon Studio uses for executing test scripts.
 * **Log executed test steps**: Decide whether the logs include executed test steps or not. [Learn more](https://docs.katalon.com/katalon-studio/docs/working-with-execution-log.html#log-executed-test-steps).
-* **Default wait for element timeout (in seconds)**: The default timeout period that Katalon Studio waits for the application under test to be loaded when executing automation test.
+* **Default wait for element timeout (in seconds)**: The default timeout period that Katalon Studio waits for the application under test to be loaded when executing the automation test.
 * **Post-Execution Options**: These options decide the actions that Katalon Studio performs after finishing test execution.
   * Open report: Specify whether the report generated after your test suite's execution finishes is to be opened immediately.
   * Terminate drivers: Specify when any driver remains after execution is terminated.
@@ -65,7 +65,7 @@ KeywordUtil.logInfo(System.getProperty("testme"))
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/hello.png" width="" height="">
 
-Currently, Katalon Studio does not support VM arguments' values containing space. Below is a list of most used JVM Parameters:
+Currently, Katalon Studio does not support VM arguments' values containing space. Below is a list of the most used JVM Parameters:
 
 Specify minimal and maximal heap sizes
 
@@ -102,7 +102,7 @@ You can set default settings for Web UI test execution by going to **Project > S
 
 These settings decide Katalon Studio's behaviors when executing WebUI test in a project.
 
-* **Default Smart Wait**: Tell the web driver to wait for the web page to become static before any operations performed. [Learn more](https://docs.katalon.com/katalon-studio/docs/webui-smartwait.html).
+* **Default Smart Wait**: Tell the web driver to wait for the web page to become static before any operations are performed. [Learn more](https://docs.katalon.com/katalon-studio/docs/webui-smartwait.html).
 * **Default wait when IE hangs**: Specify Katalon Studio's default waiting time when IE hangs.
 * **Default page load timeout**:
   * Wait until the page is loaded: Katalon Studio waits for the web page to load completely.
@@ -130,7 +130,7 @@ You can set default settings for Web Service test execution by going to **Projec
 * **Socket Timeout in milliseconds (0=unlimited)**: The time waiting for data – after establishing the connection.
 * **Max Response size in bytes**: The maximum number of bytes Katalon Studio renders from a response. When it is set to 0 or left empty, Katalon Studio downloads a response regardless of its size. Please note that downloading a large response may affect the application's performance.
 
-For your convenience, we provide a shortcut to this global settings in a test request's view.
+For your convenience, we provide a shortcut to these global settings in a test request's view.
 
   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/timeout-maxsize.png">
 
@@ -141,7 +141,7 @@ For your convenience, we provide a shortcut to this global settings in a test re
 * Katalon Studio version 7.6 onwards
 * An active Katalon Studio Enterprise license
 
-You can set request timeout and maximum response size via script by using built-in functions of Katalon Studio.
+You can set request timeout and maximum response size via a script using the built-in functions of Katalon Studio.
 
 **Request Timeout**
 
@@ -175,7 +175,7 @@ request.setSocketTimeout(RequestObject.DEFAULT_TIMEOUT)
 
 **Maximum Response Size**
 
-> Katalon Studio also supports setting maximum response size of an execution by using `-maxResponseSize` in command line. [Learn more](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#general-options)
+> Katalon Studio also supports setting the maximum response size of execution using `-maxResponseSize` in the command line. [Learn more](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#general-options)
 
 * Override response size limit of a project in a test case
 
@@ -202,15 +202,15 @@ request.setMaxResponseSize(RequestObject.DEFAULT_MAX_RESPONSE_SIZE)
 
 ## Emails Settings
 
-> In version **7.5.0+**, Katalon Studio Enterprise users can send report emails of Test Suite Collection execution.
+> In version **7.5.0+**, Katalon Studio Enterprise users can send email reports of Test Suite Collection execution.
 
-To receive summary reports via email after the execution of **Test Suite** or **Test Suite Collection**, you need to configure global settings of email in **Project/Settings/Email**.
+To receive summary reports via email after the execution of **Test Suite** or **Test Suite Collection**, you need to configure global email settings in **Project/Settings/Email**.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/emails-settings/new-ui.png">
 
-By default, Katalon Studio is configured to send all report emails for Test Suite executions, including Test Suites in a Test Suite Collection.
+By default, Katalon Studio is configured to send all email reports for Test Suite executions, including Test Suites in a Test Suite Collection.
 
-As an exclusive feature for Katalon Studio Enterprise, users are given an option to receive report emails for Test Suite Collections' executions and skipping a single email for each Test Suite stored in that Collection. This feature is proved useful for those who execute Test Suite Collections containing a significant number of Test Suites. In that case, they can check **Skip sending email report for individual Test Suites in the Test Suite Collection** to keep their mailbox tidy.
+As an exclusive feature for Katalon Studio Enterprise, users are given an option to receive email reports for Test Suite Collections' executions and skipping a single email for each Test Suite stored in that Collection. This feature is proved useful for those who execute Test Suite Collections containing a significant number of Test Suites. In that case, they can check **Skip sending email report for individual Test Suites in the Test Suite Collection** to keep their mailbox tidy.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/emails-settings/options.png" width="" height="">
 
@@ -232,29 +232,29 @@ As an exclusive feature for Katalon Studio Enterprise, users are given an option
 >
 > For those who use Gmail & Yahoo! Mail, make sure to allow low secure apps to access your account. Follow [this guide](https://support.google.com/accounts/answer/6010255) for Gmail users, or [the other one](https://help.yahoo.com/kb/account/SLN27791.html) for Yahoo! Mail users.
 
-Below is SMTP configuration for popular email servers:
+Below is the SMTP configuration for popular email servers:
 
 **Gmail:**
 
-* Host: _[smtp.gmail.com](http://smtp.gmail.com/)_
-* Port: _465_
-* Username: _Your full Gmail address (e.g., [yourusername@gmail.com](mailto:yourusername@gmail.com))_
-* Password: Your Gmail password
+* Host: _[smtp.gmail.com](http://smtp.gmail.com/)_
+* Port: _465_
+* Username: _Your full Gmail address (e.g., [yourusername@gmail.com](mailto:yourusername@gmail.com))_
+* Password: Your Gmail password
 
 **Yahoo! Mail:**
 
-* Host: _[smtp.mail.yahoo.com](http://smtp.mail.yahoo.com/)_
-* Port: _465_
-* Username: _Your full Yahoo! Mail address (e.g., [yourusername@yahoo.com](mailto:yourusername@yahoo.com))_
-* Password: _Your Yahoo! Mail password_
+* Host: _[smtp.mail.yahoo.com](http://smtp.mail.yahoo.com/)_
+* Port: _465_
+* Username: _Your full Yahoo! Mail address (e.g., [yourusername@yahoo.com](mailto:yourusername@yahoo.com))_
+* Password: _Your Yahoo! Mail password_
 
 **Outlook:**
 
-* Host: _[smtp.mail.outlook.com](http://smtp.mail.outlook.com/)_
-* Port: _587 or 25_
-* Username: _Your full Microsoft email address (e.g., [yourusername@outlook.com](mailto:yourusername@outlook.com))_
-* Password: _Your Microsoft password_
-* Protocol: _TLS_
+* Host: _[smtp.mail.outlook.com](http://smtp.mail.outlook.com/)_
+* Port: _587 or 25_
+* Username: _Your full Microsoft email address (e.g., [yourusername@outlook.com](mailto:yourusername@outlook.com))_
+* Password: _Your Microsoft password_
+* Protocol: _TLS_
 
 ### Email Template
 
@@ -264,13 +264,13 @@ You can define the sender, recipients (the list of emails to receive reports), e
 
 ### Report Format
 
-You can decide whether to include a test execution report as an email attachment or not. Specifically, you are given options to include **log files** and configure which **report format** (HTML, CSV, and PDF) of test executions to be sent as attachments in the report email.
+You can decide whether to include a test execution report as an email attachment or not. Specifically, you are given options to include **log files** and configure which **report format** (HTML, CSV, and PDF) of test executions to be sent as attachments in the email report.
 
 ### Body Template
 
 To customize the email's body templates:
 
-For Test Suite's  email, click **Edit Template for Test Suite Execution** or go to **Project/Settings/Email/Template/Test Suite**.
+For Test Suite's email, click **Edit Template for Test Suite Execution** or go to **Project/Settings/Email/Template/Test Suite**.
 
   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/email-report-template.png" width=70%>
 
@@ -278,7 +278,7 @@ For Test Suite's  email, click **Edit Template for Test Suite Execution** or go 
 
 * hostName: Host's name
 * os: Operating system
-* bnrowser: Browser's name and version
+* browser: Browser's name and version
 * deviceId: Id of the executed device
 * deviceName: Name of the executed device
 * suiteId: Id of the test suite
@@ -311,7 +311,7 @@ All fields in the templates are editable. Click **Apply** when finished.
 
 From **version 7.7 onwards**, you can customize Email Settings with Global Variables and override their default values via Command line. 
 
-The below section guides you how to do that with a usage example.
+The below section guides you on how to do that with a usage example.
 
 1. [Define a Global Variable](https://docs.katalon.com/katalon-studio/docs/execution-profile-v54.html#define-a-global-variable) in your Execution Profile. 
 
@@ -331,7 +331,7 @@ When running your Test Suite/Test Suite Collection in console mode, you can also
 
 ### Certificate settings
 
-Katalon Studio supports the capability to bypass certificate validation so that users with protected network policy can work with Katalon Studio as usual. Go to **Project > Settings > Network**:
+Katalon Studio supports the capability to bypass certificate validation so that users with protected network policy can work with Katalon Studio as usual. Go to **Project > Settings > Network**:
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/project-settings-network.png)
 
@@ -360,7 +360,7 @@ To generate public and private key pairs (KeyStore and KeyStore Password) for th
 
    `keytool -genkey -alias katalon -keyalg RSA -keystore katalon.keystore`
 
-3. Enter a password for the new KeyStore and provide the utility with the required information (your name, the name of your organization, and etc.).
+3. Enter a password for the new KeyStore and provide the utility with the required information (your name, the name of your organization, etc.).
 
 To export a certificate with your public key, run this command:
 `keytool -export -alias katalon -file katalon.cer -keystore katalon.keystore`.
