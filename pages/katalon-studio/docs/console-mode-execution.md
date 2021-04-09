@@ -459,7 +459,6 @@ katalonc -noSplash -runMode=console -projectPath="C:\Users\Katalon Studio\Projec
 ## Integration Options
 
 <table>
-<<<<<<< Updated upstream
    <thead>
       <tr>
          <th style="width:40%">Katalonc Command-line Option</th>
@@ -502,123 +501,46 @@ katalonc -noSplash -runMode=console -projectPath="C:\Users\Katalon Studio\Projec
          </td>
          <td>N</td>
       </tr>
+      <tr>
+         <td>-testOpsBuildId</td>
+         <td>
+         <p>Specify the build ID to update Test Suite/Test Suite Collection report.</p>
+         <p>Example:</p>
+         <p><code class="java plain"> -testOpsBuildId=24 </code></p>
+         </td>
+         <td>N</td>
+      </tr>
+      <tr>
+         <td>-testSuiteCollectionQuery</td>
+         <td>
+         <p>Enable or Disable Test Suite(s) in Test Suite Collection.</p>
+         <p>Example:</p>
+         <p><code class="java plain"> -testSuiteCollectionQuery=”indexes=(1,3)” </code></p>
+         </td>
+         <td>N</td>
+      </tr>
+      <tr>
+         <td>-adoPlanId=&lt;testplan id&gt;</td>
+         <td>
+         <p>ID of the test plan used for submitting test run(s).</p>
+         </td>
+         <td>N</td>
+      </tr>
+      <tr>
+         <td>-adoTestRunName="text"</td>
+         <td>
+         <p>Create test run(s) on ADO with the specified name.</p>
+         </td>
+         <td>N</td>
+      </tr>
+      <tr>
+         <td>--info -adoBuildNumber="text"</td>
+         <td>
+         <p>Pass the build number to Test Run properties on ADO.</p>
+         </td>
+         <td>N</td>
+      </tr>
    </tbody>
-=======
-<tbody>
-<tr>
-<td>
-<p><strong>Katalonc Command-line Option</strong></p>
-</td>
-<td>
-<p><strong>Description</strong></p>
-</td>
-<td>
-<p><strong>Mandatory?</strong></p>
-</td>
-</tr>
-<tr>
-<td>
-<p>--config -kobiton.authentication.username=[yourKobitonusername] -kobiton.authentication.password=xxxxx</p>
-</td>
-<td>
-<p>Passing Kobiton username and password</p>
-</td>
-<td>
-<p>N</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>--config -kobiton.authentication.serverUrl=[defaultKobitonServer] -kobiton.authentication.username=[yourKobitonUsername] -kobiton.authentication.apiKey=[yourKobitonAPIKey</p>
-</td>
-<td>
-<p>Passing Kobiton Server URL, username, and APIKey (Available in 7.8 and later)</p>
-</td>
-<td>
-<p>N</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>-kobitonDeviceId=[yourKobitonDeviceId]</p>
-</td>
-<td>
-<p>Passing Kobiton Device ID (Available in 7.8 and later)</p>
-</td>
-<td>
-<p>N</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>-qTestDestId=&lt;destination's id&gt;</p>
-</td>
-<td>
-<p>Id of the destination where the result is uploaded on it</p>
-</td>
-<td>
-<p>N</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>-qTestDestType=&lt;destination's type&gt;</p>
-</td>
-<td>
-<p>Type of the destination. There are 4 options for destination's type:"test-suite", "test-cycle", "release", and "root".</p>
-</td>
-<td>
-<p>N</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>--info -qTestBuildNumber="text" --qTestBuildURL="text"</p>
-</td>
-<td>
-<p>Introduced in version 7.8.5. Pass the build's number and URL to Test Run properties on qTest.</p>
-<p>Example:</p>
-<p>Example: --info -qTestBuildNumber="Build 1" -qTestBuildURL="http://192.168.35.52:8080/job/katalon-demo/job/master/179/"</p>
-</td>
-<td>
-<p>N</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>-adoPlanId=&lt;testplan id&gt;</p>
-</td>
-<td>
-<p>Id of the test plan used for submitting test run(s).</p>
-</td>
-<td>
-<p>N</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>-adoTestRunName="text"</p>
-</td>
-<td>
-<p>Create test run(s) on ADO with the specified name.</p>
-</td>
-<td>
-<p>N</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>--info -adoBuildNumber="text"</p>
-</td>
-<td>
-<p>Pass the build number to Test Run properties on ADO.</p>
-</td>
-<td>
-<p>N</p>
-</td>
-</tr>
-</tbody>
->>>>>>> Stashed changes
 </table>
 
 ## Automatically Updating WebDriver Option
