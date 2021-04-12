@@ -3,7 +3,8 @@ title: "Desired Capabilities Management"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/import-export-desired-capabilities.html
 redirect_from:
-     - 
+    - "/katalon-studio/docs/introduction-to-desired-capabilities.html/"
+    - "/katalon-studio/docs/introduction-to-desired-capabilities.html"
 ---
 
 From v8.0, Katalon Studio allows you to import and export desired capabilities in Katalon Studio project(s). These functions support you to work with **Desired Capabilities** more efficiently and less error-prone.
