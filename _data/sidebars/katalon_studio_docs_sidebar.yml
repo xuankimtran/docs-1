@@ -1343,6 +1343,8 @@ items:
             url: /katalon-recorder/docs/release-notes.html
           - title: "GUI Overview"
             url: /katalon-recorder/docs/gui-overview.html
+          - title: "What's new"
+            url: /katalon-recorder/docs/whats-new.html
       - title: "Production Evaluation Center"
         tree:
           - title: "Katalon Recorder vs Selenium IDE"
