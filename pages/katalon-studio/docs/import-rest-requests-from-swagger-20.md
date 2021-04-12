@@ -7,6 +7,8 @@ redirect_from:
     - "/display/KD/Import%20REST%20requests%20from%20Swagger%202.0/"
     - "/x/8hXR/"
     - "/katalon-studio/docs/import-rest-requests-from-swagger-20/"
+    - "/katalon-studio/docs/manage-test-project.html"
+    - "https://docs.katalon.com/katalon-studio/docs/import-openapi30.html"
 description: 
 ---
 > [Read more about Swagger 2.0...](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md)
@@ -30,7 +32,7 @@ To conduct, do as follow:
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-rest-requests-from-swagger-20/import-via-object.png" width=70%>
 
-2. In the displayed dialog, browse your **Swagger** local file or enter an OpenAPI 2 (Swagger) URL >click **OK**.
+2. In the displayed dialog, browse your **Swagger** local file or enter an OpenAPI 2 (Swagger) URL > click **OK**.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-rest-requests-from-swagger-20/browse.png" width=70%>
 
@@ -49,3 +51,4 @@ To conduct, do as follow:
 * [Use test requests in a test case](https://docs.katalon.com/katalon-studio/docs/using-web-services-in-a-test-case.html)
 * [Parameterize a Web Service Object](/display/KD/Parameterize+a+Web+Service+Object)
 * [Verification Snippets](/display/KD/Verification+Snippets)
+* [Import REST API with OpenAPI Specification 3.0](https://docs.katalon.com/katalon-studio/docs/import-openapi30.html)
