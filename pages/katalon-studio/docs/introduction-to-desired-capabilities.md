@@ -280,7 +280,7 @@ Defined configuration settings are saved in separated files under the "**<your t
 
 ## Override desired capabilities at runtime
 
-If you want to override desired capabilities of a browser before it's started, refer to the sample code below.
+If you want to override desired capabilities of a browser before it is started, refer to the sample code below.
 
 ```groovy
 import com.kms.katalon.core.configuration.RunConfiguration
