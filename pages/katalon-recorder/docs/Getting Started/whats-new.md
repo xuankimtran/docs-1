@@ -3,6 +3,7 @@ title: "What's new"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-recorder/docs/whats-new.html
 description:
+toc: false
 ---
 
 ## 5.3.31
