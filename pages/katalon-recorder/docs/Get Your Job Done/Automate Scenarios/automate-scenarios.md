@@ -63,10 +63,11 @@ Click on _Reference_ tab at the bottom panel. Then click on each action to see t
 ## Save data
 From 5.3.31, users can quickly save changes made to test cases via shortcuts `ctrl + s` or right-click on a test case and choose **Save Test Case**.
 
+![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/automate-scenarios/image8.png)
+
+
 ## Remove data
 ### Delete operations
-
-![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/automate-scenarios/image8.png)
 
 From 5.3.31, KR implement some UX enhancements to help users more aware before removing data.
 

@@ -3,12 +3,13 @@ title: "What's new"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-recorder/docs/whats-new.html
 description:
+toc: false
 ---
 
 ## 5.3.31
 New, shiny features:
-- [Daily Usage](../Get%20Your%20Job%20Done/Social%20Values/daily-usage.md).
-- [Save test cases](../Get%20Your%20Job%20Done/Automate%20Scenarios/automate-scenarios.md#save-data).
-- [UX enhancement to safeguard against dataloss](../Get%20Your%20Job%20Done/Automate%20Scenarios/automate-scenarios.md#remove-data).
+- [Daily Usage](https://docs.katalon.com/katalon-recorder/docs/daily-usage.html).
+- [Save test case through shortcut and context menu](https://docs.katalon.com/katalon-recorder/docs/automate-scenarios.html#save-data).
+- [UX enhancement to safeguard against dataloss](https://docs.katalon.com/katalon-recorder/docs/automate-scenarios.html#remove-data).
 
-![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/whats-new/whatsnewin5331.gif)
+![](https://raw.githubusercontent.com/katalon-studio/docs-images/bc34f0356bb90c3d6e1157a736e6b267b6085c0d/katalon-recorder/docs/whats-new/whatsnewin5331.gif)
