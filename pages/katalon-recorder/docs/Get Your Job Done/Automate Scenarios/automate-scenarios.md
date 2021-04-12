@@ -58,3 +58,30 @@ Click on the _down arrow_ next to the command input and choose a desired action.
 Click on _Reference_ tab at the bottom panel. Then click on each action to see the documentation.
 
 ![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/automate-scenarios/image7.png)
+
+---
+## Save data
+From 5.3.31, users can quickly save changes made to test cases via shortcuts `ctrl + s` or right-click on a test case and choose **Save Test Case**.
+
+## Remove data
+### Delete operations
+
+![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/automate-scenarios/image8.png)
+
+From 5.3.31, KR implement some UX enhancements to help users more aware before removing data.
+
+Specifically, the following operations are changed from:
+- **Remove test case** to **Remove Test Case from Workspace**.
+- **Close Test Suite** to **Remove Test Suite from Workspace**.
+- **Close All Test Suites to** to **Remove all Test Suites from Workspace**.
+- **Save Test Suite as** to **Save Test Suite to Computer**.
+
+### Remove test suite
+![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/automate-scenarios/image9.png)
+
+![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/automate-scenarios/image11.png)
+
+### Remove test case
+![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/automate-scenarios/image10.png)
+
+![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/automate-scenarios/image12.png)
