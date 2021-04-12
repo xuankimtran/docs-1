@@ -9,16 +9,48 @@ description:
 >
 > This is just a pre-release version that is not ready for production use. You're highly recommended to test its usability only.
 
-In the release of version 8.0.0, expected to be shipped by the end of April, Katalon Studio can be natively integrated with Azure DevOps (ADO) - Test Plans. 
+In the release of version 8.0.0, expected to be shipped by the end of April, Katalon Studio can be natively integrated with Azure DevOps (ADO) - Test Plans. This integration will help you with the following problems:
+
+<table style="width: 914px;">
+	<tbody>
+		<tr>
+			<td style="width: 417px;">
+				<p><strong>Problems</strong></p>
+			</td>
+			<td style="width: 481px;">
+				<p><strong>Solutions</strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 417px;">
+				<p>You want to map manual Test Cases in ADO to a corresponding automated Test Case in Katalon Studio to know which Test Cases are automated.</p>
+			</td>
+			<td style="width: 481px;">
+				<p>Do as follows:</p>
+				<ol>
+					<li>In <a href="https://docs.katalon.com/katalon-studio/docs/azure-devops-test-plans.html#configure-the-integration">Configure the Integration</a>, <strong>Conduct Test Artifacts Mapping</strong>.</li>
+					<li><a href="https://docs.katalon.com/katalon-studio/docs/azure-devops-test-plans.html#map-test-cases-between-katalon-studio-and-azure-devops">Map test cases between Katalon Studio and Azure DevOps</a>.</li>
+				</ol>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 417px;">
+				<p>You want the Test Run in Katalon Studio to be created accordingly with the test execution reports and results uploaded to its corresponding Test Run in ADO to get the test status and have sufficient materials for debugging.</p>
+			</td>
+			<td style="width: 481px;">
+				<p>Do as follows:</p>
+				<ol>
+					<li>In <a href="https://docs.katalon.com/katalon-studio/docs/azure-devops-test-plans.html#configure-the-integration">Configure the Integration</a>, <strong>Configure Submission Options</strong>.</li>
+					<li><a href="https://docs.katalon.com/katalon-studio/docs/azure-devops-test-plans.html#submit-test-run-and-test-results-after-execution">Submit test run and test results after execution</a>.</li>
+				</ol>
+			</td>
+		</tr>
+	</tbody>
+</table>
 
 > [Download Katalon Studio v8.0.0.rc2](https://github.com/katalon-studio/katalon-studio/releases/tag/v8.0.0.rc2).
 
-This integration will support you to do the following jobs:
-
-- When you have manual Test Cases in ADO, you want to map them to a corresponding automated Test Case in Katalon Studio to know which Test Cases are automated.
-- When you execute the integrated Test Cases in Katalon Studio, you want the Test Run to be created accordingly with the test execution reports and results uploaded to its corresponding Test Run in ADO so that you can get the test status and have sufficient materials for debugging.
-
-This document introduces how the built-in **Azure DevOps Integration** feature looks like and how to use it in Katalon Studio.
+The document introduces how the built-in **Azure DevOps Integration** feature looks like and how to use it in Katalon Studio.
 
 **Requirements**
 
