@@ -287,7 +287,7 @@ import com.kms.katalon.core.configuration.RunConfiguration
 RunConfiguration.setWebDriverPreferencesProperty("key", "value")
 ```
 
-**References:**
+**See also:**
 
 * [Run Configuration](https://api-docs.katalon.com/com/kms/katalon/core/configuration/RunConfiguration.html)
 * [Import/Export Desired Capabilities](https://docs.katalon.com/katalon-studio/docs/import-export-desired-capabilities.html)
