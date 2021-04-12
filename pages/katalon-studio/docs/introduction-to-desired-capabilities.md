@@ -289,4 +289,5 @@ RunConfiguration.setWebDriverPreferencesProperty("key", "value")
 
 **References:**
 
-* [RunConfiguration](https://api-docs.katalon.com/com/kms/katalon/core/configuration/RunConfiguration.html)
+* [Run Configuration](https://api-docs.katalon.com/com/kms/katalon/core/configuration/RunConfiguration.html)
+* [Import/Export Desired Capabilities](https://docs.katalon.com/katalon-studio/docs/import-export-desired-capabilities.html)
