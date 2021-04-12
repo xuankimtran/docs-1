@@ -26,9 +26,9 @@ To import a service definition with OpenAPI 3.0, please do as follows:
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-openapi30/rightclick.png" width=70%>
 
-2. In the displayed dialog, browse your **OpenAPI 3.0** local file or enter an OpenAPI 3 URL > click **OK**.
+2. In the displayed dialog, enter or browse your **OpenAPI 3.0** local file > click **OK**.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-openapi30/browse.png" width=70%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-openapi30/browse-openapi30.png" width=70%>
 
    Katalon Studio loads the file and generates RESTful test requests accordingly.
 
