@@ -11,7 +11,7 @@ description: Release notes 8.0
 
 * [Katalon Studio Enterprise] Support native integration with Azure DevOps Test Plans. [Learn more](/katalon-studio/docs/azure-devops-test-plans.html)
 * [Katalon Studio Enterprise] Import/Export desired capabilities. [Learn more](/katalon-studio/docs/import-export-desired-capabilities.html)
-* [Katalon Runtime Engine License] Add a parameter to release the previous execution session before checking license. [Learn more]()
+* [Katalon Runtime Engine License] Add a parameter to release the previous execution session before checking license. [Learn more](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#general-options)
 * Product Tours for new Web UI and Web Service users.
 
 ### Improvements
