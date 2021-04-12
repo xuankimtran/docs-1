@@ -6,6 +6,8 @@ description:
 toc: false
 ---
 
+URL of this page: https://docs.katalon.com/katalon-recorder/docs/whats-new.html
+
 ## 5.3.31
 New, shiny features:
 - [Daily Usage](https://docs.katalon.com/katalon-recorder/docs/daily-usage.html).
