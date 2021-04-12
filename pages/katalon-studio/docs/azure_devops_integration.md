@@ -18,13 +18,6 @@ This integration will support you to do the following jobs:
 - When you have manual Test Cases in ADO, you want to map them to a corresponding automated Test Case in Katalon Studio to know which Test Cases are automated.
 - When you execute the integrated Test Cases in Katalon Studio, you want the Test Run to be created accordingly with the test execution reports and results uploaded to its corresponding Test Run in ADO so that you can get the test status and have sufficient materials for debugging.
 
-In terms of features, you can:
-
-- Enable, Authenticate and Configure the integration in Project Settings.
-- Associate Test Cases between two systems.
-- When a Test Suite/ Test Suite Collection execution finishes, Katalon will create Test Run and submit Test Results to ADO automatically.
-- Dynamically change test plan ID, test run name, and build number of a test run in CLI.
-
 This document introduces how the built-in **Azure DevOps Integration** feature looks like and how to use it in Katalon Studio.
 
 **Requirements**
@@ -132,52 +125,52 @@ You can change the test plan ID, test run name, and build number of a test run b
 * Katalon Runtime Engine v8.0.
 
 <table data-number-column="false" data-layout="default" data-autosize="false" data-pm-slice="1 1 []">
-<tbody>
-<tr>
-<th data-colwidth="254">
-<p>Katalonc Command-line Option</p>
-</th>
-<th data-colwidth="253">
-<p>Description</p>
-</th>
-<th data-colwidth="253">
-<p>Mandatory?</p>
-</th>
-</tr>
-<tr>
-<td data-colwidth="254">
-<p>-adoPlanId=&lt;testplan id&gt;</p>
-</td>
-<td data-colwidth="253">
-<p>Id of the test plan used for submitting test run(s).</p>
-</td>
-<td data-colwidth="253">
-<p>N</p>
-</td>
-</tr>
-<tr>
-<td data-colwidth="254">
-<p>-adoTestRunName="text"</p>
-</td>
-<td data-colwidth="253">
-<p>Create test run(s) on ADO with the specified name.</p>
-</td>
-<td data-colwidth="253">
-<p>N</p>
-</td>
-</tr>
-<tr>
-<td data-colwidth="254">
-<p>--info -adoBuildNumber="text"</p>
-</td>
-<td data-colwidth="253">
-<p>Pass the build number to Test Run properties on ADO.</p>
-</td>
-<td data-colwidth="253">
-<p>N</p>
-</td>
-</tr>
-</tbody>
+	<tbody>
+		<tr>
+			<th data-colwidth="254">
+				<p>Katalonc Command-line Option</p>
+			</th>
+			<th data-colwidth="253">
+				<p>Description</p>
+			</th>
+			<th data-colwidth="253">
+				<p>Mandatory?</p>
+			</th>
+		</tr>
+		<tr>
+			<td data-colwidth="254">
+				<p>-adoPlanId=&lt;testplan id&gt;</p>
+			</td>
+			<td data-colwidth="253">
+				<p>Id of the test plan used for submitting test run(s).</p>
+			</td>
+			<td data-colwidth="253">
+				<p>N</p>
+			</td>
+		</tr>
+		<tr>
+			<td data-colwidth="254">
+				<p>-adoTestRunName="text"</p>
+			</td>
+			<td data-colwidth="253">
+				<p>Create test run(s) on ADO with the specified name.</p>
+			</td>
+			<td data-colwidth="253">
+				<p>N</p>
+			</td>
+		</tr>
+		<tr>
+			<td data-colwidth="254">
+				<p>--info -adoBuildNumber="text"</p>
+			</td>
+			<td data-colwidth="253">
+				<p>Pass the build number to Test Run properties on ADO.</p>
+			</td>
+			<td data-colwidth="253">
+				<p>N</p>
+			</td>
+		</tr>
+	</tbody>
 </table>
 
 ### Known issues
