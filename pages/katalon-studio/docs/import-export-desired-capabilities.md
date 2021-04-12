@@ -16,7 +16,7 @@ From v8.0, Katalon Studio allows you to import and export desired capabilities i
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops/desired-capabilities-management/desired-capabilities.png" width=65%>
 
-3. Click **Import**. In the dialog box, **Browse** the import JSON file > **OK**.
+3. Click **Import**. In the dialog box, **Browse** the imported JSON file > **OK**.
 
     By default, all current existing desired capabilities will be overridden by imported ones.
 
@@ -28,7 +28,7 @@ From v8.0, Katalon Studio allows you to import and export desired capabilities i
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops/desired-capabilities-management/desired-capabilities.png" width=65%>
 
-2. Click **Export**. In the dialog box, select the destination folder to save the export file > **Save**.
+2. Click **Export**. In the dialog box, select the destination folder to save the exported file > **Save**.
 
     > **Note**
     > 
