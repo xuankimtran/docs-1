@@ -24,7 +24,7 @@ We choose a Test Suite Collection, which we want to run. We choose **Enable Kobi
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt_kobiton_integration/kt_test_run_type_2.png)
 
-Choose a Test Environment and Katalon Studio version or Pre-Installed Katalon Studio Location.
+Choose a Test Environment and a suitable Katalon Studio version.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt_kobiton_integration/kt_test_run_type_3.png)
 
