@@ -4,7 +4,11 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/kt_kobiton_integration.html
 ---
 
-We can configure Kobiton Integration with Katalon TestOps. We must have a Script Repository on Katalon TestOps. Click to a Script Repository.
+We can configure Kobiton Integration with Katalon TestOps. First, on the board Katalon Integration, we assign the Kobiton Device URL (1), Username (2), Kobiton's API Key (3). Then, we click the buttons **Test Connection** (4) and **Save** (5).
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt_kobiton_integration/kt_kobiton_integration.png)
+
+We must have a Script Repository on Katalon TestOps. Click to a Script Repository.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt_kobiton_integration/kt_script_repo_ex.png)
 
@@ -28,7 +32,7 @@ Click the button Create for creating a Test Run Type.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt_kobiton_integration/kt_test_run_type_4.png)
 
-Start Agent.
+Start Agent. Running a Test Run with Agent on Katalon TestOps can be seen [here](https://docs.katalon.com/katalon-analytics/docs/agents.html).
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt_kobiton_integration/kt_start_agent.png)
 
