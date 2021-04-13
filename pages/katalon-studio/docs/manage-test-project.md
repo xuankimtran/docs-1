@@ -41,7 +41,7 @@ description:
 
 If the project files have been modified and they are yet to be reflected in Katalon Studio, you can refresh project to show up-to-date information, as illustrated below:
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/copy-of-manage-test-project/image2017-2-21-163A543A2.png" width=50%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/copy-of-manage-test-project/image2017-2-21-163A543A2.png" width=55%>
 
 ## Clean up project
 
