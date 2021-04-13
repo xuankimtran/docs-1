@@ -1,5 +1,5 @@
 ---
-title: "JMeter Integration (Deprecated) "
+title: "JMeter Integration (Discontinued Support) "
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/jmeter-integration.html
 ---
