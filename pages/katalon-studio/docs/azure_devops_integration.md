@@ -11,7 +11,7 @@ description:
 
 In the release of version 8.0.0, expected to be shipped by the end of April, Katalon Studio can be natively integrated with Azure DevOps (ADO) - Test Plans. 
 
-> [Download Katalon Studio v8.0.0.rc2](https://github.com/katalon-studio/katalon-studio/releases/tag/v8.0.0.rc2).
+> [Download Katalon Studio v8.0.0.rc3](https://github.com/katalon-studio/katalon-studio/releases/tag/v8.0.0.rc3).
 
 This integration will support you to do the following jobs:
 
@@ -179,15 +179,6 @@ You can change the test plan ID, test run name, and build number of a test run b
 </tr>
 </tbody>
 </table>
-
-### Known issues
-
-* Both macOS and Windows builds:
-   * [Katalon Studio] Moving Katalon Test Cases integrated with ADO to another folder causes the association to be lost. 
-   * [Katalon Runtime Engine] Using `-adoPlanId` with **invalid** value causes the execution to stop.
-   * Test Results submission is not applicable to a SKIPPED test case.
-* macOS build only:
-   * You can only set up this integration **ONCE** since there is an issue with switching the project and test plan later.
   
 ### Troubleshoot common issues
 
