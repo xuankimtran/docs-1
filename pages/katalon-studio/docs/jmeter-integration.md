@@ -1,8 +1,10 @@
 ---
-title: "JMeter Integration "
+title: "JMeter Integration (Deprecated) "
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/jmeter-integration.html
 ---
+
+> Discontinued support of this plugin in version 7.0.0
 
 You can integrate Katalon Studio with Apache JMeter for API/Web Service testing in 2 ways:
 
