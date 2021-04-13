@@ -28,6 +28,7 @@ In the release of version 8.0.0, expected to be shipped by the end of April, Kat
 			<td style="width: 481px;">
 				<p>Do as follows:</p>
 				<ol>
+					<li><a href="https://docs.katalon.com/katalon-studio/docs/azure-devops-test-plans.html#enable-the-integration-and-authenticate-azure-devops-organization">Enable the Integration and Authenticate Azure DevOps Organization</a>.</li>
 					<li>In <a href="https://docs.katalon.com/katalon-studio/docs/azure-devops-test-plans.html#configure-the-integration">Configure the Integration</a>, <strong>Conduct Test Artifacts Mapping</strong>.</li>
 					<li><a href="https://docs.katalon.com/katalon-studio/docs/azure-devops-test-plans.html#map-test-cases-between-katalon-studio-and-azure-devops">Map test cases between Katalon Studio and Azure DevOps</a>.</li>
 				</ol>
@@ -40,6 +41,7 @@ In the release of version 8.0.0, expected to be shipped by the end of April, Kat
 			<td style="width: 481px;">
 				<p>Do as follows:</p>
 				<ol>
+					<li><a href="https://docs.katalon.com/katalon-studio/docs/azure-devops-test-plans.html#enable-the-integration-and-authenticate-azure-devops-organization">Enable the Integration and Authenticate Azure DevOps Organization</a>.</li>
 					<li>In <a href="https://docs.katalon.com/katalon-studio/docs/azure-devops-test-plans.html#configure-the-integration">Configure the Integration</a>, <strong>Configure Submission Options</strong>.</li>
 					<li><a href="https://docs.katalon.com/katalon-studio/docs/azure-devops-test-plans.html#submit-test-run-and-test-results-after-execution">Submit test run and test results after execution</a>.</li>
 				</ol>
