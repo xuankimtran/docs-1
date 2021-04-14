@@ -1243,6 +1243,8 @@ items:
                 url: /katalon-analytics/docs/kt-upload-test-jest.html
               - title: "Upload Test to Katalon TestOps via Jasmine"
                 url: /katalon-analytics/docs/kt-upload-test-jasmine.html
+              - title: "Upload Test to Katalon TestOps via Pytest"
+                url: /katalon-analytics/docs/kt-upload-test-pytest.html
           - title: "Remote Execution"
             tree:
               - title: "Overview"
