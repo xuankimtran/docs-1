@@ -5,65 +5,49 @@ permalink: katalon-analytics/docs/kt-upload-test-pytest.html
 description: 
 ---
 
-We can submit results from the Jasmine test frameworks to Katalon TestOps. An example with the Jasmine test can be download from [here](https://github.com/katalon-studio/testops-report-js.git).
+We can submit results from the Pytest test frameworks to Katalon TestOps. An example with the Pytest test can be download from [here](https://github.com/katalon-studio/testops-report-python).
 
-On the **Visual Studio Code**, open a file Jasmine.
+On the **Visual Studio Code**, open a file Pytest.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/kt_vs_code_open_pack_jasmine.png)
-
-Open file "package.json".
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/kt_vs_code_open_json.png)
-
-Type the command `npm install`, press **Enter**, and wait a few minutes for running.
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/kt_vs_code_npm_install.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-pytest/kt_open_file_pytest.png)
 
 On the page Katalon TestOps, we do 5 steps as follow:
 * Choose a project, which we want to upload the test results.
 * Click the tab **Configurations**.
 * Click the tab **Framework Integration**.
-* On the board **Framework Integration**, choose the tab **Mocha**.
-* Click the button **Copy** on the right of the item **Install dependency**. And now we copied the command line `npm i -s @katalon/testops-jasmine`.
+* On the board **Framework Integration**, choose the tab **Pytest**.
+* Click the button **Copy** on the right of the item **Install dependency**. And now we copied the command line `pip3 install testops-pytest`.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/kt_jas_install_dependency.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-pytest/kt_bash_install_dependency.png)
 
-On the **Visual Studio Code**, file "package.json", right-click for pasting the command `npm i -s @katalon/testops-jest` and press Enter. And we wait a few minutes for running.
+On the **Visual Studio Code**, open file "testops-config.json".
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/kt_vs_code_paste_npm_command.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-pytest/kt_open_testops_config_json.png)
 
-Create a new files with the name "testops-config.json".
+On the page Katalon TestOps, we click the button **Copy** on the right of the item **TestOps Credentials & Project** of **Configure TestOps plugin**. 
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/kt_vs_code_create_config_json.png)
-
-On the page Katalon TestOps, we click the button **Copy** on the right of the item **Base** of **Configure**. 
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/kt_copy_configure_base.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-pytest/kt_copy_config_testops_credential.png)
 
 On the **Visual Studio Code**, open file "testops-config.json", paste the terms which we have just copied from Katalon TestOps. We save this file.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/kt_vs_code_paste_testops_config.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-pytest/kt_paste_testops_config.png)
+
+On the **Visual Studio Code**, open file "conftest.py".
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-pytest/kt_open_conftest_py.png)
 
 On the page Katalon TestOps, we click the button **Copy** on the right of the item **Add Report**. 
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/kt_add_report_copy.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-pytest/kt_copy_conftest.png)
 
-On the VS code, create a new file "setup.js" on folder "test" and paste all the terms that we have just copied.
+On the **Visual Studio Code**, paste the terms, which we have just copied from Katalon TestOps in file "conftest.py". We save this file.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/kt_setup_js.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-pytest/kt_paste_conftest_py.png)
 
-On the page Katalon TestOps, we click the button **Copy** on the right of the item **Import reports**. 
+On the **Visual Studio Code**, type the command `python -m pytest`, press **Enter**, and wait a few minutes for running.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/kt_copy_import_report.png)
-
-On the **Visual Studio Code**, type the command `npx jasmine`, press **Enter**, and wait a few minutes for running.
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/kt_vs_code_npx_jas.png)
-
-On the **Visual Studio Code**, type the command `npm test`, press **Enter**, and wait a few minutes for running.
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/kt_vs_code_npm_test.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-pytest/kt_command_python_test.png)
 
 On the **Test Planning** of **Katalon TestOps**, the Test Run was uploaded.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/kt_upload_test_planning.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-pytest/kt_upload_pytest.png)
