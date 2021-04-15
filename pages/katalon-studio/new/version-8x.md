@@ -36,16 +36,11 @@ description: Release notes 8.0
 
 * Bug: Fix all blocker & critical security vulnerabilities reported by SonarQube in static code analysis and 3rd-party libraries scanning tools. 
 * Bug: [Katalon Runtime Engine] Lacking of tracking event for activation.
-* Bug: An issue of not displaying an error message when removing MySQL driver.
-* Bug: [Katalon Studio Enterprise] [Windows] An issue of generating PDF reports.
 * Bug: [Windows] Missing Network connection Preference.
-* Bug: [Chorme 86] Recorder function is not working.
+* Bug: [Chrome 86] Recorder utility is not working.
 * Bug: Cannot import Swagger JSON files.
-* Bug: [Katalon Studio Enterprise] Cannot clone an existing project from GIT.
 * Bug: The Bypass Certificate validation option is not working.
-* Bug: [Katalon Runtime Engine] An issue of not sending emails.
-* Bug: [Windows Testing] Test Suite Collection does not execute the 2nd Test Suite.
+* Bug: [Katalon Runtime Engine] An issue of not sending emails via command syntax `sendMail`.
 * Bug: An issue of deleting scripts when renaming folder name.
-* Bug: [Chrome 87] An error thrown in the HTML execution result.
 * Bug: Cannot drag and drop a custom keyword from Keyword Browser.
-* Bug: An issue of not updating References of Called Test Cases in Test Listeners when the test cases are moved by drag and drop or cut and paste.
+* Bug: Cannot update References of Called Test Cases when the test cases are moved by drag and drop or cut and paste.
