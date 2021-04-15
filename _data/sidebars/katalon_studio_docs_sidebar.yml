@@ -1003,6 +1003,8 @@ items:
             url: /katalon-studio/docs/jira-integration.html
           - title: "Git Integration"
             url: /katalon-studio/docs/git-integration.html
+          - title: "Bitbucket Integration"
+            url: /katalon-studio/docs/bitbucket-integration.html
           - title: "Slack Integration"
             url: /katalon-studio/docs/slack-plugin-integration.html
           - title: "Kobiton Integration"
@@ -1027,8 +1029,6 @@ items:
             url: /katalon-studio/docs/testlink-integration.html
           - title: "App Center Integration"
             url: /katalon-studio/docs/app-center.html
-          - title: "Bitbucket Integration"
-            url: /katalon-studio/docs/bitbucket-integration.html
       - title: "Migration from other tools"
         tree:
           - title: "Selenium/TestNG/JUnit Migration"
