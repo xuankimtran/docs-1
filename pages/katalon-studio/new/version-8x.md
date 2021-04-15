@@ -21,8 +21,8 @@ description: Release notes 8.0
 * Web Testing: Update the embedded GeckoDriver to the latest version.
 * [Windows OS] Replace embedded Oracle JRE 8 with Azul Zulu OpenJDK 8.
 * Enhance Katalon TestOps Integration:
-    * [Katalon Runtime Engine] Support query for Test Suite Collection. [Learn more]()
-    * [Katalon Runtime Engine] Support new parameters for new Build concept. [Learn more]()
+    * [Katalon Runtime Engine] Support query for Test Suite Collection. [Learn more](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#general-options)
+    * [Katalon Runtime Engine] Support new parameters for new Build concept. [Learn more](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#general-options)
 * [Katalon Runtime Engine] Pass HashMap for Global Variables from CLI.
 * [Katalon Runtime Engine] Add an option to Command Builder for updating WebDriver automatically.
 * [Enhanced Report] Add profile details to the email reports.
