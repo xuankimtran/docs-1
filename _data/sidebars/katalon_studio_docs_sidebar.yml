@@ -1245,6 +1245,8 @@ items:
                 url: /katalon-analytics/docs/kt-upload-test-jest.html
               - title: "Upload Test to Katalon TestOps via Jasmine"
                 url: /katalon-analytics/docs/kt-upload-test-jasmine.html
+              - title: "Upload Test to Katalon TestOps via Pytest"
+                url: /katalon-analytics/docs/kt-upload-test-pytest.html
           - title: "Remote Execution"
             tree:
               - title: "Overview"
@@ -1261,6 +1263,8 @@ items:
                     url: /katalon-analytics/docs/agents.html
                   - title: "Load Balancing for Local Test Environments"
                     url: /katalon-analytics/docs/load-balancing-agents.html
+                  - title: "Run multiple Test Suites in parallel with Agents"
+                    url: /katalon-analytics/docs/kt_run_parallel_agent.html
               - title: "Docker Test Environments"
                 url: /katalon-analytics/docs/docker.html
               - title: "Create a Kubernetes Test Environments"
@@ -1273,6 +1277,8 @@ items:
                 url: /katalon-analytics/docs/kt-jira-config.html
               - title: "Jira Dashboard Gadgets"
                 url: /katalon-analytics/docs/jira-gadgets.html
+          - title: "Kobiton Integration"
+            url: /katalon-analytics/docs/kt_kobiton_integration.html
           - title: "Slack Integration"
             url: /katalon-analytics/docs/slack-integration.html
           - title: "Jenkins Integration"
