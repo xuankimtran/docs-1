@@ -19,7 +19,7 @@ To cancel your subscription, follow these steps:
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-cancel/cancel-2.png" width=70%>
 
-5. Check email confirmation of cancellation to be sent by Recurly
+5. Check email confirmation of cancellation to be sent to your email.
 
 If you cancel your subscription before the expiration date, your subscription is still displayed in the Current Plan but with CANCELED status until the last billing date. 
 
