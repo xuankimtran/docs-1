@@ -15,9 +15,9 @@ Planning test suite process before creating automated test cases:
 * **Define test suite goals** and group actions of a particular web experience together. A test suite could compile a series of actions depicting a particular user experience on our website. 
 
     For example, to test user’s online shopping experience on your website, your test suite might include the following actions:
-    1. Sign up or login test case.
+    1. Sign up or log in test case.
     2. Enter shopping cart test case.
-    3. Checkout test case.
+    3. Check out test case.
     4. Order confirmation test case.
 
 * **Plan test cases** by deciding which action/group of actions each test case performs, run test cases for double checking. Name and put test cases in a test suite accordingly. This creates a test suite flow and minimizes errors when running a test batch. 
