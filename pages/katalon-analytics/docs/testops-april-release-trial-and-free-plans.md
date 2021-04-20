@@ -17,7 +17,7 @@ If you are a Katalon Studio user, you are automatically entitled to TestOps Comm
 
 ### Katalon TestOps Enterprise trial for new users
 
-> This trial request is applied for KTE Cloud only. For On-premises deployment, please contact our Sales team via sales@katalon.com
+> This trial request is applied for KTE Cloud only. For On-premises deployment, please contact our Sales team via sales@katalon.com.
 
 Once you have a Katalon account, you can submit a trial request via TestOps in one of the following ways:
 
