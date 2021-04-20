@@ -1,11 +1,11 @@
 ---
-title: "[WebUI] Create and Run WebUI Test Case using Record and Playback"
+title: "[WebUI] Create and Run Web UI Test Case using Record and Playback"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/tutorials/webui-create-test-case.html
-description: Create and Run WebUI Test Case 
+description: Create and Run Web UI Test Case 
 ---
 
-This tutorial demonstrates how to create a WebUI test case with Katalon Studio using **Record** and **Playback**.
+This tutorial demonstrates how to create a Web UI test case with Katalon Studio using **Record** and **Playback**.
 
 Go through the scenario "Sign in the shopping page to purchase a tank top" to get familiar with these features. The basic steps are:
 
@@ -17,7 +17,7 @@ Go through the scenario "Sign in the shopping page to purchase a tank top" to ge
 
 > **Shopping Cart** sample project is available [here](https://github.com/katalon-studio-samples/shopping-cart-tests).
 
-## Create and Run your first WebUI test case
+## Create and Run your first Web UI test case
 
 ### Create New Project
 
