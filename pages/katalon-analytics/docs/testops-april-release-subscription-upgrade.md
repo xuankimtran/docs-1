@@ -6,7 +6,7 @@ description:
 ---
 ## Upgrade TestOps Subscriptions
 
-If you want to increase the number of test runs or switch from monthly to yearly billing cycles, you can upgrade your subscriptions at any time. 
+If you want to increase the number of test results or switch from monthly to yearly billing cycles, you can upgrade your subscriptions at any time. 
 
 To upgrade your subscription, follow these steps:
 1. Go to Subscriptions screen
@@ -16,7 +16,7 @@ To upgrade your subscription, follow these steps:
 * The screen displays the current subscription and TestOps plans as above
 * You can only subscribe to one plan at a time 
 2. Click **Upgrade** on the current plan
-3. Adjust the number of test runs and review the new plan
+3. Adjust the number of test results and review the new plan
 4. Click **Checkout** to complete the process.
 
 ### Upgrade to Annual billing cycle
