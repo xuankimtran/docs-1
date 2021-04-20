@@ -16,6 +16,8 @@ description: Release notes 8.0
 
 ### Improvements
 
+* Support Chrome 90.
+* Support Microsoft Edge (Chromium) 90.
 * Improve Performance: Load large projects faster and consume less memory during execution.
 * Edge Chromium is now the default **embedded browser** (used to be Internet Explorer).
 * Web Testing: Update the embedded GeckoDriver to the latest version.
