@@ -2,9 +2,6 @@
 title: "Import REST API with OpenAPI Specification 3.0" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/import-openapi30.html
-redirect_from:
-    - "/katalon-studio/docs/manage-test-project.html"
-    - "katalon-studio/docs/import-rest-requests-from-swagger-20.html"
 ---
 
 This manual shows you how to import RESTful APIs with [OpenAPI Specification version 3.0](https://swagger.io/specification/) to Katalon Studio. For OpenAPI 2.0 (Swagger), please see the following [document](https://docs.katalon.com/katalon-studio/docs/import-rest-requests-from-swagger-20.html).
