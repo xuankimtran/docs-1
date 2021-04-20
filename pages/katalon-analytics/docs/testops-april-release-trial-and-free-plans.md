@@ -49,4 +49,4 @@ Once submitting the Trial Request using your business email, you could use the t
 
 ### TestOps Community
 
-TestOps Community includes the all standard features with a limited number of test results. You can upgrade your plan from TestOps Community to Business or Enterprise by purchasing TestOps subscriptions.
+TestOps Community includes the all standard features with a limited number of test results. You can upgrade your plan from TestOps Community to Business or Enterprise by [subscribing to TestOps](/katalon-analytics/docs/testops-subscription-via-screen.html).
