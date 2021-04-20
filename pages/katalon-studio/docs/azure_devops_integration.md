@@ -95,7 +95,7 @@ To configure the integration, do as follows:
 
         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/expand-both.png" width=65%>
         
-2. Conduct Test Artifacts Mapping
+2. Conduct Test Artifacts Mapping.
 
     - In the **Execution Status Mapping**, map **Katalon Studio's status** with **Azure DevOps's status** to match the test results in Katalon Studio with the test outcomes in ADO.
 
@@ -117,7 +117,7 @@ To configure the integration, do as follows:
         > 
         > **A test point is a unique combination of a test case, test suite, configuration, and tester**. Test cases by themselves are not executable. When you add a test case to a test suite, test point(s) are generated. [Learn more](https://docs.microsoft.com/en-us/azure/devops/test/new-test-plans-page?view=azure-devops#execute-tab)
 
-3. Configure Submission Options
+3. Configure Submission Options.
 
     - Select a fetched test plan in the drop-down list, the test run is submitted to ADO automatically.
 
