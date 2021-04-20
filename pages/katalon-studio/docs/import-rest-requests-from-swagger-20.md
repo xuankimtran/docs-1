@@ -7,8 +7,6 @@ redirect_from:
     - "/display/KD/Import%20REST%20requests%20from%20Swagger%202.0/"
     - "/x/8hXR/"
     - "/katalon-studio/docs/import-rest-requests-from-swagger-20/"
-    - "/katalon-studio/docs/manage-test-project.html"
-    - "https://docs.katalon.com/katalon-studio/docs/import-openapi30.html"
 description: 
 ---
 > [Read more about Swagger 2.0...](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md)
