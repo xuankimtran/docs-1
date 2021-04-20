@@ -5,9 +5,9 @@ permalink: katalon-analytics/docs/kte-whats-new-in-april-release.html
 description: 
 ---
 ## What's new in April release?
-**April 20, 2021**
+**April 26, 2021**
 
-Katalon TestOps 1.0 has been released with combined features of TestOps Core and TestOps Advanced. This release is the official version of TestOps, featuring three main points:
+Katalon TestOps has been released with combined features of TestOps Core and TestOps Advanced. This release is the official version of TestOps, featuring three main points:
 * Introduce PyTest integration
 * Introduce Kobiton integration 
 * Introduce test suite-based parallel execution
