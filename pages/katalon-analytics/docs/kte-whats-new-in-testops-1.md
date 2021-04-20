@@ -1,11 +1,11 @@
 ---
-title: "What's New in TestOps 1.0" 
+title: "What’s new in April release " 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-analytics/docs/kte-whats-new-in-testops-1.0.html 
+permalink: katalon-analytics/docs/kte-whats-new-in-april-release.html 
 description: 
 ---
-## What's new in TestOps 1.0?
-**April 16, 2021**
+## What's new in April release?
+**April 20, 2021**
 
 Katalon TestOps 1.0 has been released with combined features of TestOps Core and TestOps Advanced. This release is the official version of TestOps, featuring three main points:
 * Introduce PyTest integration
@@ -29,5 +29,3 @@ Running test suites in sequential mode is time-consuming. You can only run one t
 * Distribute multiple test suites across available test environments
 * Reduce execution time
 * Minimize efforts to deliver results faster
-
-For detailed instructions on how to subscribe to TestOps 1.0, click here.
