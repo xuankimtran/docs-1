@@ -9,7 +9,7 @@ description:
 >
 > This is just a pre-release version that is not ready for production use. You are highly recommended to test its usability only.
 
-In the release of version 8.0.0, expected to be shipped by the end of April, Katalon Studio can be natively integrated with Azure DevOps (ADO) - Test Plans. This integration will help you with the following problems:
+From version 8.0.0 onwards, Katalon Studio can be natively integrated with Azure DevOps (ADO) - Test Plans. This integration will help you with the following problems:
 
 <table style="width: 914px;">
 	<tbody>
