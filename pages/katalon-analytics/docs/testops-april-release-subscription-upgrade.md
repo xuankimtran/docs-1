@@ -17,15 +17,10 @@ To upgrade your subscription, follow these steps:
 * You can only subscribe to one plan at a time 
 2. Click **Upgrade** on the current plan
 3. Adjust the number of test runs and review the new plan
-4. Follow steps on [Create subscriptions](subscriptionlinktobeprovided)
-
-After completing the payment process, continue the following steps:
-1. Call API to update your plan in Recurly to the same OrgID
-2. Send an invoice with a prorated charge for the [new plan](https://docs.recurly.com/docs/change-subscription)
-3. Maintain the current billing period and current subscription term, follow the standard proration rules
-4. Log subscription upgrade activities
+4. Click **Checkout** to complete the process.
 
 ### Upgrade to Annual billing cycle
+
 A yearly billing cycle helps you save costs. You can only upgrade monthly subscriptions to annual ones.
 
 Successful payment will immediately change your subscription. After upgrading, you can find new subscription information updated on the **Subscription Plan** page.
