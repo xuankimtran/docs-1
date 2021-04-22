@@ -10,9 +10,9 @@ description:
 
 TestOps Community includes the all standard features with a limited number of test results. You can upgrade your plan from TestOps Community to Business or Enterprise by [subscribing to TestOps](/katalon-analytics/docs/testops-subscription-via-screen.html).
 
-### Trial Plan 
+### Trial Plan
 
-Valid email registration is eligible for a 3-month trial of Katalon TestOps Enterprise (KTE). 
+Valid email registration is eligible for a 3-month trial of Katalon TestOps Enterprise (KTE).
 
 When your trial period expires, you need to subscribe to the monthly or annual subscription to continue using the full features of KTE. Otherwise, your plan will be reverted to the TestOps Community version.
 
@@ -50,4 +50,3 @@ Enter information in the Trial Request form and click **Submit**
 Once submitting the Trial Request using your business email, you could use the trial KTE for three months. The trial period will be displayed on the TestOps Subscription page.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-free-plan/free-plan-5.png" width=70%>
-
