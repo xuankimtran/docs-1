@@ -1,7 +1,7 @@
 ---
 title: "Subscribe to Katalon TestOps"
 sidebar: katalon_analytics_docs_sidebar
-permalink: katalon-analytics/docs/testops-subscription-via-screen.html 
+permalink: katalon-analytics/docs/testops-subscription.html 
 description: 
 ---
 ## Subscribe to Katalon TestOps
