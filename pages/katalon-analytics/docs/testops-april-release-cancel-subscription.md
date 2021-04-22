@@ -6,6 +6,10 @@ description:
 ---
 ## Cancel TestOps Subscriptions
 
+> Subscription cancelation does NOT issue a refund. You can continue using the remaining subscription you have already purchased.
+>
+> Only the Organization Owner/Admins can cancel a subscription.
+
 You can cancel your subscription at any time. Canceling a subscription will turn off the auto-renewal of your subscription on the next billing cycle. Subscription cancellation takes effect at the end of the current billing period.
 
 To cancel your subscription, follow these steps:
