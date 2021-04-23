@@ -89,9 +89,9 @@ To configure the integration, do as follows:
 
     - Select a fetched project in the **Project** drop-down list.
 
-    - The **Test Artifacts Mapping** and **Submission Option** fieldsets are expanded automatically. You can customize the settings in each section. 
-
         > Click **Fetch Project** to fetch the latest projects list.
+
+    - The **Test Artifacts Mapping** and **Submission Option** fieldsets are expanded automatically. You can customize the settings in each section. 
 
         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/expand-both.png" width=70%>
         
