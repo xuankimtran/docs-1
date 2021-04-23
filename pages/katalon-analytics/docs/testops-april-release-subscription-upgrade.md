@@ -1,12 +1,12 @@
 ---
-title: "Upgrade TestOps Subscriptions"
+title: "Upgrade subscriptions"
 sidebar: katalon_analytics_docs_sidebar
-permalink: katalon-analytics/docs/upgrade-testops-subscription.html 
+permalink: katalon-analytics/docs/upgrade-subscriptions.html 
 description: 
 ---
-## Upgrade TestOps Subscriptions
+## Upgrade subscriptions
 
-If you want to increase the number of test results or switch from monthly to yearly billing cycles, you can upgrade your subscriptions at any time. 
+If you want to increase the number of test results or switch from monthly to yearly billing cycles, you can upgrade your subscriptions at any time.
 
 To upgrade your subscription, follow these steps:
 1. Go to Subscriptions screen
