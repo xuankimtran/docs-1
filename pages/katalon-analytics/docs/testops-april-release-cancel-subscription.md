@@ -1,10 +1,10 @@
 ---
-title: "Cancel TestOps Subscriptions"
+title: "Cancel subscriptions"
 sidebar: katalon_analytics_docs_sidebar
-permalink: katalon-analytics/docs/cancel-testops-subscription.html 
+permalink: katalon-analytics/docs/cancel-subscriptions.html 
 description: 
 ---
-## Cancel TestOps Subscriptions
+## Cancel subscriptions
 
 > Subscription cancelation does NOT issue a refund. You can continue using the remaining subscription you have already purchased.
 >
