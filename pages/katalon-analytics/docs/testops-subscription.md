@@ -1,10 +1,10 @@
 ---
-title: "Subscribe to Katalon TestOps"
+title: "Set up subscriptions"
 sidebar: katalon_analytics_docs_sidebar
-permalink: katalon-analytics/docs/testops-subscription.html 
+permalink: katalon-analytics/docs/set-up-subscriptions.html 
 description: 
 ---
-## Subscribe to Katalon TestOps
+## Set up subscriptions
 
 Start the following steps to subscribe:
 1. Log in to Katalon TestOps
@@ -22,6 +22,3 @@ Start the following steps to subscribe:
 ## View TestOps subscriptions
 
 Once you have succesfully subscribed to Katlalon TestOps, you can view your subscriptions in TestOps Subscription Plan.
-
-
-
