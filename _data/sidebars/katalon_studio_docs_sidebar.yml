@@ -1267,6 +1267,8 @@ items:
                     url: /katalon-analytics/docs/kt_run_parallel_agent.html
               - title: "Docker Test Environments"
                 url: /katalon-analytics/docs/docker.html
+              - title: "Install TestOps On-premises with Docker"
+                url: katalon-analytics/docs/kt_install_premises_docker.html
               - title: "Create a Kubernetes Test Environments"
                 url: /katalon-analytics/docs/aws-eks.html
           - title: "Jira Integration"
