@@ -93,7 +93,7 @@ To configure the integration, do as follows:
 
         > Click **Fetch Project** to fetch the latest projects list.
 
-        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/expand-both.png" width=65%>
+        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/expand-both.png" width=70%>
         
 2. Conduct Test Artifacts Mapping.
 
@@ -121,13 +121,18 @@ To configure the integration, do as follows:
 
     - Select a fetched test plan in the drop-down list, the test run is submitted to ADO automatically.
 
-        > Click **Fetch Test Plans** to fetch the latest test plans list.
+	    > Click **Fetch Test Plans** to fetch the latest test plans list.
 
-    - If you want to submit test results for ADO test case ID when there are multiple test points returned, select **Send test results when ...** to enable test run details for editing > enter the required **Test Run Name**.
+	- Enter the required **Test Run Name**. 
+
+		If you want to specify the **Build ID** for test run submitted from Katalon Studio to ADO, enter the **Definition ID**. During runtime, Katalon Studio uses this definition ID to get the latest build ID and pass it to the submitted test run on ADO.
 
     - Decide when and what to submit test results.
 
-        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/submission-options.png" width=65%>
+    	If you want to submit test results for ADO test case ID when there are multiple test points returned, select **Submit test results for multiple test points with the same test case ID**.
+
+	    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/submission-options-new.png" width=70%>
+
 
 4. Click **Apply and Close** to save your settings.
 
@@ -139,7 +144,7 @@ To configure the integration, do as follows:
 2. Select **Integrations** tab > specify the Test Cases ID(s) of ADO (to map to more than one ID, separate them by a comma).
 3. Click **Verify** to check whether the test case id exists in ADO for mapping the test case(s) > **Save**.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/map-ks-test-case-with-ado.png" width=60%>
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/map-ks-test-case-with-ado.png" width=70%>
 
 ### Submit test run and test results after execution
 
