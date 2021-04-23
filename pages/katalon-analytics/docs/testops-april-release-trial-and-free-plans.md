@@ -1,16 +1,10 @@
 ---
-title: "TestOps Trial and Free Plans"
+title: "TestOps Trial Plans"
 sidebar: katalon_analytics_docs_sidebar
-permalink: katalon-analytics/docs/testops-trial-and-free-plans.html 
+permalink: katalon-analytics/docs/testops-trial-plans.html 
 description: 
 ---
-## TestOps Trial and Free Plans
-
-### TestOps Community
-
-TestOps Community includes the all standard features with a limited number of test results. You can upgrade your plan from TestOps Community to Business or Enterprise by [subscribing to TestOps](/katalon-analytics/docs/testops-subscription-via-screen.html).
-
-### Trial Plan
+## TestOps Trial Plans
 
 Valid email registration is eligible for a 3-month trial of Katalon TestOps Enterprise (KTE).
 
