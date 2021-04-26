@@ -8,8 +8,7 @@ description:
 
 Start the following steps to subscribe:
 1. Log in to Katalon TestOps
-2. Select an organization
-3. Go to **Subscription Management** > **TestOps Subscriptions**
+2. Select **Organization** > **Subscription Management** > **TestOps Subscriptions**
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-subscription/monthly-subs-1.png" width=70%>
 
