@@ -17,7 +17,7 @@ To cancel your subscription, follow these steps:
 2. Select your organization
 3. Go to **Settings** > **Subscription Management** > **TestOps Subscriptions**
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-cancel/cancel-new-1.png" width=70%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-cancel/cancel-rename-te-business.png" width=70%>
 
 4. Click **Cancel** on the current plan
 5. Type CANCEL to confirm cancellation on the dialog display
@@ -28,4 +28,4 @@ To cancel your subscription, follow these steps:
 
 If you cancel your subscription before the expiration date, your subscription is still displayed in the Current Plan but with CANCELED status until the last billing date.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-cancel/cancel-new-3.png" width=70%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-cancel/cancel-3-red-rename-te-business.png" width=70%>
