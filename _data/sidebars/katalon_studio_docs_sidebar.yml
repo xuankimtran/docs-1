@@ -1199,6 +1199,20 @@ items:
             url: /katalon-store/docs/publisher/manage-published-plugins.html
   - title: "Katalon TestOps"
     tree:
+      - title: "Subsriptions"
+        tree:
+          - title: "Overview"
+            url: /katalon-analytics/docs/testops_subscriptions_overview.html
+          - title: "Trial Plans"
+            url: /katalon-analytics/docs/trial-plans.html
+          - title: "Manage Subscriptions"
+            tree:
+              - title: "Create Subscriptions"
+                url: /katalon-analytics/docs/testops-subscriptions.html
+              - title: "Ugrade Subscriptions"
+                url: /katalon-analytics/docs/upgrade-subscriptions.html
+              - title: "Cancel Subscriptions"
+                url: /katalon-analytics/docs/cancel-subscriptions.html
       - title: "Get Started"
         tree:
           - title: "Welcome to Katalon TestOps"
@@ -1267,6 +1281,8 @@ items:
                     url: /katalon-analytics/docs/kt_run_parallel_agent.html
               - title: "Docker Test Environments"
                 url: /katalon-analytics/docs/docker.html
+              - title: "Install TestOps On-premises with Docker"
+                url: /katalon-analytics/docs/kt_install_premises_docker.html
               - title: "Create a Kubernetes Test Environments"
                 url: /katalon-analytics/docs/aws-eks.html
           - title: "Jira Integration"
