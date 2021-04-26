@@ -1,13 +1,32 @@
 ---
-title: "Katalon TestOps Core 1.x" 
+title: "Katalon TestOps 2021 Releases" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-analytics/docs/core-1.x.html
-redirect from: katalon-analytics/docs/core-1.0.html
+permalink: /katalon-studio/docs/docs/testops-releases.html
+redirect from: 
+    - "/katalon-studio/docs/docs/core-1.x.html"
+    - "/katalon-analytics/docs/core-1.0.html"
+    - "/katalon-analytics/docs/advanced-0.1.x.html"
 description:
 ---
-> Release Notes for **Katalon TestOps Advanced** can be found [here](/katalon-analytics/docs/advanced-0.1.x.html).
+## Latest Release - April 26
 
-## Latest Release - Version 1.1.0
+### New features
+
+- Integration with Pytest. [Learn more](https://docs.katalon.com/katalon-analytics/docs/kt-upload-test-pytest.html)
+
+- Integration with Kobiton. [Learn more](https://docs.katalon.com/katalon-analytics/docs/kt_kobiton_integration.html)
+
+- Test Suite-based parallel execution. [Learn more](https://docs.katalon.com/katalon-analytics/docs/kt_run_parallel_agent.html)
+
+### Improvements
+
+- New release of Katalon agent version 1.7.
+
+- Improve performance for Test Planning calendar view.
+
+See [What's new in April Release?](/katalon-analytics/docs/kte-whats-new-in-testops-1.html)
+
+## March 8
 
 ### New features
 
@@ -21,9 +40,9 @@ description:
 
 - Introduce a new and improved Katalon TestOps User Interface.
 
-See [What's new in TestOps Core 1.1.0?](/katalon-analytics/docs/new-core-11.html)
+See [What's new in March Release?](/katalon-analytics/docs/new-core-11.html)
 
-## Version 1.0.0
+## January 19
 
 ### New features
 
@@ -42,6 +61,16 @@ See [What's new in TestOps Core 1.1.0?](/katalon-analytics/docs/new-core-11.html
 - Support reports for Visual Testing. [Learn more](https://forum.katalon.com/t/visual-testing-image-comparison-with-katalon-studio-7-8-0-and-katalon-testops/45557)
 
 - Create an Agent for Docker Environment. [Learn more](https://docs.katalon.com/katalon-analytics/docs/agents.html)
+
+- Create a Kubernetes Environment. [Learn more](https://docs.katalon.com/katalon-analytics/docs/aws-eks.html)
+
+- View reports of Web Services & Test Objects.
+
+- View abnormal Web Services for faster failure detection. [Learn more](https://docs.katalon.com/katalon-analytics/docs/view-abnormal-web-services.html)
+
+- View Requirement coverage heat map. [Learn more](https://docs.katalon.com/katalon-analytics/docs/requirement-coverage.html)
+
+- Detect the flakiness of Test Cases. [Learn more](https://docs.katalon.com/katalon-analytics/docs/view-test-cases.html#active-test-cases)
 
 ### Improvements
 
@@ -66,3 +95,5 @@ See [What's new in TestOps Core 1.1.0?](/katalon-analytics/docs/new-core-11.html
 - View Test Sessions with logs submitted from Test Environments.
 
 - Support sharing Test Run report via email.
+
+- Provide shortcuts to access reports. 
