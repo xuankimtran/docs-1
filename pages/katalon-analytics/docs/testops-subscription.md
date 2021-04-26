@@ -17,6 +17,8 @@ Start the following steps to subscribe:
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-subscription/monthly-subs-2.png" width=70%>
 
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-subscription/monthly-subs-3.png" width=70%>
+
 ## View TestOps subscriptions
 
 Once you have succesfully subscribed to Katlalon TestOps, you can view your subscriptions in TestOps Subscription Plan.
