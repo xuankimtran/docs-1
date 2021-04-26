@@ -19,17 +19,17 @@ If you are a Katalon Studio user, you are automatically entitled to TestOps Comm
 
 Once you have a Katalon account, you can submit a trial request via TestOps in one of the following ways:
 
-1. From TestOps Subscription page
+1. From **TestOps Subscriptions** page
 
 Access **Settings** > **Subscription Management**
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-free-plan/free-plan-1.png" width=70%>
 
-From the Subscriptions section, select **TestOps Subscription** to access Katalon TestOps plans.
+Select **TestOps Subscriptions** to access TestOps plans.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-free-plan/free-plan-2.png" width=70%>
 
-2. From License Management section
+2. From **License Management** section
 
 Access **Settings** > **License Management** > **Trial Request**
 
