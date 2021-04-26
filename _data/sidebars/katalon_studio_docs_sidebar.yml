@@ -1207,6 +1207,7 @@ items:
             url: /katalon-analytics/docs/
           - title: "Manage Subscriptions"
             url: /katalon-analytics/docs/
+            tree:
             - title: "Creat Subscriptions"
               url: /katalon-analytics/docs/
             - title: "Ugrade Subscriptions"
