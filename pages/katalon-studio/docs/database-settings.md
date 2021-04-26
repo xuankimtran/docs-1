@@ -33,7 +33,7 @@ Where:
     - [Oracle SQL](https://docs.oracle.com/database/121/JJDBC/urls.htm#JJDBC28268).
     - [PostgreSQL](https://jdbc.postgresql.org/documentation/head/connect.html).
 
-You can set up a connection to one of those 4 database types with its executable jar file already embedded. Refer to the following table for an availability check: 
+You can set up a connection to one of those three database types with its executable jar file already embedded. Refer to the following table for an availability check: 
 <p>&nbsp;</p>
 <table>
 <tbody>
