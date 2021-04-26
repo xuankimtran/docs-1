@@ -1,8 +1,9 @@
 ---
 title: "Katalon TestOps 2021 Releases" 
 sidebar: katalon_studio_docs_sidebar
-permalink: /katalon-studio/docs/docs/core-1.x.html
+permalink: /katalon-studio/docs/docs/testops-releases.html
 redirect from: 
+    - "/katalon-studio/docs/docs/core-1.x.html"
     - "/katalon-analytics/docs/core-1.0.html"
     - "/katalon-analytics/docs/advanced-0.1.x.html"
 description:
