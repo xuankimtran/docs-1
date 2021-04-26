@@ -25,7 +25,7 @@ description:
 
 - Improve performance for Test Planning calendar view.
 
-See [What's new in April Release?](katalon-analytics/docs/kte-whats-new-in-april-release.html)
+See [What's new in April Release?](https://docs.katalon.com/katalon-analytics/docs/kte-whats-new-in-april-release.html)
 
 ## March 8
 
