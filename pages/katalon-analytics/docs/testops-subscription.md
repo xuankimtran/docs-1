@@ -7,8 +7,9 @@ description:
 ## Create subscriptions
 
 Start the following steps to subscribe:
-1. Log in to Katalon TestOps
-2. Select **Organization** > **Subscription Management** > **TestOps Subscriptions**
+1. Log in to [Katalon TestOps](https://testops.katalon.io/)
+2. Select your organization
+3. Go to **Settings** > **Subscription Management** > **TestOps Subscriptions**
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-subscription/monthly-subs-1.png" width=70%>
 
@@ -20,4 +21,4 @@ Start the following steps to subscribe:
 
 ## View TestOps subscriptions
 
-Once you have succesfully subscribed to Katlalon TestOps, you can view your subscriptions in TestOps Subscription Plan.
+Once you have succesfully subscribed to Katlalon TestOps, you can view your subscriptions in **TestOps Subscription** page.
