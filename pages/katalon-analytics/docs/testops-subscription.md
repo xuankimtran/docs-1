@@ -13,7 +13,7 @@ Start the following steps to subscribe:
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-subscription/subscribe-renameTEbusiness.png" width=70%>
 
-4. Review the order and click **Check Out**. Fill in **Billing information**. You must fill all required fields.
+4. Review the order and click **Checkout**. Fill in **Billing information**. You must fill all required fields.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-subscription/monthly-subs-2.png" width=70%>
 
