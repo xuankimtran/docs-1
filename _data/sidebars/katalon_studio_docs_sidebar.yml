@@ -1206,14 +1206,13 @@ items:
           - title: "Trial Plan"
             url: /katalon-analytics/docs/
           - title: "Manage Subscriptions"
-            url: /katalon-analytics/docs/
             tree:
-            - title: "Creat Subscriptions"
-              url: /katalon-analytics/docs/
-            - title: "Ugrade Subscriptions"
-              url: /katalon-analytics/docs/
-            - title: "Cancel Subscriptions"
-              url: /katalon-analytics/docs/
+              - title: "Creat Subscriptions"
+                url: /katalon-analytics/docs/testops-subscriptions.html
+              - title: "Ugrade Subscriptions"
+                url: /katalon-analytics/docs/
+              - title: "Cancel Subscriptions"
+                url: /katalon-analytics/docs/
       - title: "Get Started"
         tree:
           - title: "Welcome to Katalon TestOps"
