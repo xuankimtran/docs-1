@@ -1,21 +1,21 @@
 ---
-title: "TestOps Trial Plans"
+title: "Trial Plans"
 sidebar: katalon_analytics_docs_sidebar
-permalink: katalon-analytics/docs/testops-trial-plans.html 
+permalink: katalon-analytics/docs/trial-plans.html 
 description: 
 ---
-## TestOps Trial Plans
+## Trial Plans
 
-Valid email registration is eligible for a 3-month trial of Katalon TestOps Enterprise (KTE).
+Valid email registration is eligible for a 3-month trial of Katalon TestOps Enterprise.
 
-When your trial period expires, you need to subscribe to the monthly or annual subscription to continue using the full features of KTE. Otherwise, your plan will be reverted to the TestOps Community version.
+When your trial period expires, you need to subscribe to the monthly or annual subscription to continue using the full features of Katalon TestOps Enterprise. Otherwise, your plan will be reverted to the TestOps Community version.
 
-If you are a Katalon Studio user, you are automatically entitled to TestOps Community. You can submit a Trial Request for a 3-month trial of KTE.
- > You can only register for KTE using business emails.
+If you are a Katalon Studio user, you are automatically entitled to TestOps Community. You can submit a Trial Request for a 3-month trial of Katalon TestOps Enterprise.
+ > You can only register for Katalon TestOps Enterprise using business emails.
 
 ### Katalon TestOps Enterprise trial for new users
 
-> This trial request is applied for KTE Cloud only. For On-premises deployment, please contact our Sales team via sales@katalon.com.
+> This trial request is applied for Cloud only. For On-premises deployment, please contact our Sales team via sales@katalon.com.
 
 Once you have a Katalon account, you can submit a trial request via TestOps in one of the following ways:
 
@@ -25,7 +25,7 @@ Access **Settings** > **Subscription Management**
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-free-plan/free-plan-1.png" width=70%>
 
-From the Subscriptions section, select **TestOps Subscription** to access Katalon TestOps Plan.
+From the Subscriptions section, select **TestOps Subscription** to access Katalon TestOps plans.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-free-plan/free-plan-2.png" width=70%>
 
@@ -39,8 +39,8 @@ Enter information in the Trial Request form and click **Submit**
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-free-plan/free-plan-4.png" width=70%>
 
-### Access grant for KTE Cloud
+### Access for Cloud
 
-Once submitting the Trial Request using your business email, you could use the trial KTE for three months. The trial period will be displayed on the TestOps Subscription page.
+Once submitting the Trial Request using your business email, you could use the trial Katalon TestOps Enterprise for three months. The trial period will be displayed on the TestOps Subscription page.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-free-plan/free-plan-5.png" width=70%>
