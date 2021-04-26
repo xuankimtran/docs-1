@@ -3,8 +3,6 @@ title: "Overview"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/testops_subscriptions_overview.html 
 redirect_from:
-    - "/katalon-analytics/docs/testops_subscriptions_overview/"
-description: 
 ---
 
 Katalon Testops is currently offering three plans: 
