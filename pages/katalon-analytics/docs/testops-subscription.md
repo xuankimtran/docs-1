@@ -21,4 +21,4 @@ Start the following steps to subscribe:
 
 ## View TestOps subscriptions
 
-Once you have succesfully subscribed to Katlalon TestOps, you can view your subscriptions in **TestOps Subscription** page.
+Once you have succesfully subscribed to Katlalon TestOps, you can view your subscriptions in **TestOps Subscriptions** page.
