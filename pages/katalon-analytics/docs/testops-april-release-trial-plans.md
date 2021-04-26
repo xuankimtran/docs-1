@@ -37,7 +37,7 @@ Access **Settings** > **License Management** > **Trial Request**
 
 Enter information in the Trial Request form and click **Submit**
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-free-plan/free-plan-4.png" width=70%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-free-plan/replace-free-plan-4.png" width=70%>
 
 ### Access for Cloud
 
