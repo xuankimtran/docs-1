@@ -1205,9 +1205,9 @@ items:
             url: /katalon-analytics/docs/overview.html
           - title: "What's new"
             tree:
-              - title: "What's new in April Release?"
+              - title: "April 2021"
                 url: /katalon-analytics/docs/kte-whats-new-in-april-release.html
-              - title: "What's new in March Release?"
+              - title: "March 2021"
                 url: /katalon-analytics/docs/new-core-11.html
               - title: "2021 Releases"
                 url: /katalon-analytics/docs/testops-releases-2021.html
