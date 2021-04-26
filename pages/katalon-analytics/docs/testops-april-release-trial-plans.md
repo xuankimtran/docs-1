@@ -28,15 +28,13 @@ Select **TestOps Subscriptions** to access TestOps plans.
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-free-plan/rename-te-business-free-plan.png" width=70%>
 
 Choose one of the two followings: 
-1. Click **Contact us** under TestOps Enterprise plan. Fill in all required information then click **Submit**.
+1. Click **Contact us** under TestOps Enterprise plan. 
 
 2. Click **Trial Request**
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-free-plan/trial-request-highlight.png" width=70%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-free-plan/replace-free-plan-4.png" width=70%>
 
 Fill in the form then click **Submit**.
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-free-plan/replace-free-plan-4.png" width=70%>
 
 ### Access for Cloud
 
