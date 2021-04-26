@@ -9,9 +9,9 @@ description:
 If you want to increase the number of test results or switch from monthly to yearly billing cycles, you can upgrade your subscriptions at any time.
 
 To upgrade your subscription, follow these steps:
-1. Go to Subscriptions screen
+1. Go to **Subscription Management** > **TestOps Subsscriptions** 
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-upgrade/upgrade-1.png" width=70%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-upgrade/upgrade-new.png" width=70%>
 
 * The screen displays the current subscription and TestOps plans as above
 * You can only subscribe to one plan at a time 
@@ -23,4 +23,4 @@ To upgrade your subscription, follow these steps:
 
 A yearly billing cycle helps you save costs. You can only upgrade monthly subscriptions to annual ones.
 
-Successful payment will immediately change your subscription. After upgrading, you can find new subscription information updated on the **Subscription Plan** page.
+Successful payment will immediately change your subscription. After upgrading, you can find new subscription information updated on the **TestOps Subscriptions** page.
