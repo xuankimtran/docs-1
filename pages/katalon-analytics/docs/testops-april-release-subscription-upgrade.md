@@ -13,7 +13,7 @@ To upgrade your subscription, follow these steps:
 2. Select your organization
 3. Go to **Settings** > **Subscription Management** > **TestOps Subscriptions**
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-upgrade/upgrade-rename-te-business.png" width=70%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-upgrade/upgrade-rename-te-business.png">
 
 * The screen displays the current subscription and TestOps plans as above
 * You can only subscribe to one plan at a time 
