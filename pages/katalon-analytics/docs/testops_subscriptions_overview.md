@@ -1,17 +1,17 @@
 ---
-title: "Katalon TestOps for Community, Business and Katalon TestOps Enterprise " 
+title: "Overview" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-analytics/docs/kt_business_enterprise_com.html 
+permalink: katalon-analytics/docs/testops_subscriptions_overview.html 
 redirect_from:
-    - "/katalon-analytics/docs/kt_business_enterprise_com/"
+    - "/katalon-analytics/docs/testops_subscriptions_overview/"
 description: 
 ---
 
 Katalon Testops is currently offering three plans: 
 
-* Katalon TestOps for Community (free version)
-* Katalon TestOps for Business
-* Katalon TestOps Enterprise 
+* Katalon TestOps for Community (free version).
+* Katalon TestOps for Business.
+* Katalon TestOps Enterprise.
 
 ## Katalon TestOps for Community ##
 
