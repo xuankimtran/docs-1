@@ -1202,17 +1202,17 @@ items:
       - title: "Subsriptions"
         tree:
           - title: "Overview"
-            url:
+            url: /katalon-analytics/docs/
           - title: "Trial Plan"
-            url:
+            url: /katalon-analytics/docs/
           - title: "Manage Subscriptions"
-            url:
+            url: /katalon-analytics/docs/
             - title: "Creat Subscriptions"
-              url:
+              url: /katalon-analytics/docs/
             - title: "Ugrade Subscriptions"
-              url:
+              url: /katalon-analytics/docs/
             - title: "Cancel Subscriptions"
-              url:
+              url: /katalon-analytics/docs/
       - title: "Get Started"
         tree:
           - title: "Welcome to Katalon TestOps"
