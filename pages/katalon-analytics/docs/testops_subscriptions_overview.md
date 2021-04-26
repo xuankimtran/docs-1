@@ -52,3 +52,4 @@ A three-month trial with unlimited test results is available upon request for bo
 
 This plan will be available for purchase on **June 22, 2021**. You will need to contact our Sales team to purchase **Katalon TestOps Enterprise**, both **Cloud** and **On-Premise** version. Stay tuned for more information.
 
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops_subscriptions_overview/kt_table_com_ent.png)

@@ -1202,7 +1202,7 @@ items:
       - title: "Subsriptions"
         tree:
           - title: "Overview"
-            url: /katalon-analytics/docs/
+            url: /katalon-analytics/docs/testops_subscriptions_overview.html
           - title: "Trial Plan"
             url: /katalon-analytics/docs/
           - title: "Manage Subscriptions"
