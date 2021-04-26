@@ -1199,6 +1199,20 @@ items:
             url: /katalon-store/docs/publisher/manage-published-plugins.html
   - title: "Katalon TestOps"
     tree:
+      - title: "Subsriptions"
+        tree:
+          - title: "Overview"
+            url:
+          - title: "Trial Plan"
+            url:
+          - title: "Manage Subscriptions"
+            url:
+            - title: "Creat Subscriptions"
+              url:
+            - title: "Ugrade Subscriptions"
+              url:
+            - title: "Cancel Subscriptions"
+              url:
       - title: "Get Started"
         tree:
           - title: "Welcome to Katalon TestOps"
