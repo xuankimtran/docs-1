@@ -21,21 +21,21 @@ Once you have a Katalon account, you can submit a trial request for Katalon Test
 
 From **TestOps Subscriptions** page, access **Settings** > **Subscription Management**.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-free-plan/free-plan-1.png" width=70%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-free-plan/free-plan-1.png">
 
 Select **TestOps Subscriptions** to access TestOps plans.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-free-plan/rename-te-business-free-plan.png" width=70%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-free-plan/rename-te-business-free-plan.png">
 
 Choose one of the two followings: 
 1. Click **Contact us** under TestOps Enterprise plan. 
 
 2. Click **Trial Request**
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-free-plan/replace-free-plan-4.png" width=70%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-free-plan/replace-free-plan-4.png">
 
 Fill in the form then click **Submit**.
 
-### Access for Cloud
+### Access for Katalon TestOps Enterprise (Cloud)
 
 Once submitting the trial request using your business email, you could use the trial Katalon TestOps Enterprise for three months.
