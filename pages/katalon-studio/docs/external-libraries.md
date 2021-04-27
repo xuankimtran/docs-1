@@ -46,7 +46,7 @@ You can also manually copy and paste your `.jar` file (and its dependencies if a
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/location.png" width=70%>
 
-When your `.jar` library is recognized by the test engine, you should be able to use it. Refer to **[How to create a Custom Keyword](/katalon-studio/tutorials/create-custom-keyword/)** for information on how to use the email validation functionality from Apache open-source library **commons-validator-1.5.1.jar.**
+When your `.jar` library is recognized by the test engine, you should be able to use it. Refer to **[how to create a Custom Keyword](https://docs.katalon.com/katalon-studio/docs/introduction-to-custom-keywords.html#create-a-custom-keyword)** for more information on how to use the email validation functionality from Apache open-source library **commons-validator-1.5.1.jar.**
 
 ## Exclude built-in libraries
 
