@@ -15,13 +15,13 @@ To import a service definition with OpenAPI 3.0, please do as follows:
 
 1. Open or create a project > import the service definition in two ways:
 
-* With an API or Web Service project type, click on the OpenAPI icon > select **Import OpenAPI 3**.
+   * With an API or Web Service project type, click on the OpenAPI icon > select **Import OpenAPI 3**.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-openapi30/icon.png" width=65%>
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-openapi30/icon.png" width=65%>
 
-* Or in the **Tests Explorer**, right-click on **Object Repository** > select **Import > From OpenAPI 3**.
+   * Or in the **Tests Explorer**, right-click on **Object Repository** > select **Import > From OpenAPI 3**.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-openapi30/rightclick.png" width=70%>
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-openapi30/rightclick.png" width=70%>
 
 2. In the displayed dialog, browse your **OpenAPI 3.0** local file > click **OK**.
 
@@ -33,7 +33,7 @@ To import a service definition with OpenAPI 3.0, please do as follows:
 
 **See also:**
 
-* [Use test requests in a test case](https://docs.katalon.com/katalon-studio/docs/using-web-services-in-a-test-case.html)
-* [Parameterize a Web Service Object](/display/KD/Parameterize+a+Web+Service+Object)
-* [Verification Snippets](/display/KD/Verification+Snippets)
-* [Import RESTful requests with OpenAPI Specification 2.0 (Swagger)](https://docs.katalon.com/katalon-studio/docs/import-rest-requests-from-swagger-20.html)
+* [Use test requests in a test case](https://docs.katalon.com/katalon-studio/docs/using-web-services-in-a-test-case.html).
+* [Parameterize a Web Service Object](/display/KD/Parameterize+a+Web+Service+Object).
+* [Verification Snippets](/display/KD/Verification+Snippets).
+* [Import RESTful requests with OpenAPI Specification 2.0 (Swagger)](https://docs.katalon.com/katalon-studio/docs/import-rest-requests-from-swagger-20.html).
