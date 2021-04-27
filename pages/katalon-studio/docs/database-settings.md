@@ -22,7 +22,7 @@ To set up a global database connection, go to **Project** > **Settings** > **Dat
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/new-ui.png" width=70%>
 
-**Where:**
+Where:
 
 - **Secure User and Password**: select to authenticate the connected database server, disabled by default.
 - **User**: The username for authentication in the connected database server.
@@ -153,7 +153,7 @@ To start the connection:
     - Enter **Connection URL**.
     - Click **Test Connection** to verify whether your database is connected successfully. 
 
-       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/database-mariadb.png" width=65%>
+       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/database-mariadb-new.png" width=70%>
 
     - Click **Apply and Close** to complete the connection process.
 
