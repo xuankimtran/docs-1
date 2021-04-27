@@ -9,7 +9,7 @@ Prior to v8.0, MySQL is one of the Katalon Studio built-in libraries, which allo
 
 > See which libraries Katalon Studio supports built-in JDBC drivers [here](https://docs.katalon.com/katalon-studio/docs/database-settings.html#introduce-database-connection).
 
-From v8.0 onwards, MySQL becomes an external library. This change impacts the configuration of all existing projects having configured MySQL DB connection. The document shows you how to configure MySQL database connection to continue using it.
+From v8.0 onwards, MySQL becomes an external library that impacts all existing projects' configurations having configured MySQL DB connection. This document will show you how to configure MySQL database connection to keep it in use.
 
 ### Connect to MySQL database with the external JDBC driver
 
@@ -31,14 +31,14 @@ To establish the connection:
 
 3. In **Project Settings**, go to **Database** to configure the database connection. 
 
-- Select "Secure User and Password" to enable "User" and "Password" for editing.
-- Input "User" name and "Password" used for authentication.
-- Enter "JDBC Driver".
-- Enter "Connection URL".
-- Click **Test Connection** to verify whether your database is connected successfully.
+    - Select **Secure User and Password** to enable **User** and **Password** for editing.
+    - Input **User** name and **Password** used for authentication.
+    - Enter **JDBC Driver**.
+    - Enter **Connection URL**.
+    - Click **Test Connection** to verify whether your database is connected successfully.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/database-settings.png" width=70%>
+        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/database-settings.png" width=70%>
 
-- Click **Apply and Close** to complete the connection process.
+    - Click **Apply and Close** to complete the connection process.
 
 Next: See [Manage Test Data](https://docs.katalon.com/katalon-studio/docs/manage-test-data.html#create-a-database-data).
