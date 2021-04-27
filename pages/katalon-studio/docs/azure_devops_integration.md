@@ -23,7 +23,7 @@ From version 8.0.0 onwards, Katalon Studio can be natively integrated with Azure
 		</tr>
 		<tr>
 			<td style="width: 417px;">
-				<p>Map manual Test Cases in ADO to a corresponding automated Test Case in Katalon Studio to know which Test Cases are automated.</p>
+				<p>Manually map Test Cases in ADO to corresponding automated Test Cases in Katalon Studio to know which Test Cases are automated.</p>
 			</td>
 			<td style="width: 481px;">
 				<p>Do as follows:</p>
