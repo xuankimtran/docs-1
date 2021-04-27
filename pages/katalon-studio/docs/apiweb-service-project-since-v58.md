@@ -18,15 +18,15 @@ The update comes with a new interface, including a new toolbar and view that ser
 
  The main toolbar contains API/Web Service testing related features only to help you navigate around the app easily and intuitively.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/apiweb-service-project-since-v58/type.png" width=60%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/apiweb-service-project-since-v58/type.png" width=45%>
 
 Read more:
 
-* [Import OpenAPI 2 (Swagger)](https://docs.katalon.com/katalon-studio/docs/import-rest-requests-from-swagger-20.html)
-* [Import OpenAPI 3](https://docs.katalon.com/katalon-studio/docs/import-openapi30.html)
-* [Import WSDL](https://docs.katalon.com/katalon-studio/docs/import-soap-requests-from-wsdl.html)
-* [Import Postman](https://docs.katalon.com/katalon-studio/docs/import-postman.html)
-* [Import SoapUI](https://docs.katalon.com/katalon-studio/docs/import-soapui.html)
+* [Import OpenAPI 2 (Swagger)](https://docs.katalon.com/katalon-studio/docs/import-rest-requests-from-swagger-20.html).
+* [Import OpenAPI 3](https://docs.katalon.com/katalon-studio/docs/import-openapi30.html).
+* [Import WSDL](https://docs.katalon.com/katalon-studio/docs/import-soap-requests-from-wsdl.html).
+* [Import Postman](https://docs.katalon.com/katalon-studio/docs/import-postman.html).
+* [Import SoapUI](https://docs.katalon.com/katalon-studio/docs/import-soapui.html).
 
 ### Request History Panel
 
