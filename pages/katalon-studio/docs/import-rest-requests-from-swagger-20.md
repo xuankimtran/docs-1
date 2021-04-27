@@ -18,17 +18,17 @@ This topic shows you how to import Web Service objects from a **Swagger 2.0** Fi
 * Katalon Studio version 7.0+.
 * An active Katalon Studio Enterprise license.
 
-To conduct, do as follow:
+To conduct, do as follows:
 
 1. Open or create a project > import the service definition in two ways:
 
-* With an API or Web Service project type, click on the OpenAPI icon > select **Import OpenAPI 2 (Swagger)**.
+   * With an API or Web Service project type, click on the OpenAPI icon > select **Import OpenAPI 2 (Swagger)**.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-rest-requests-from-swagger-20/import.png" width=56%>
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-rest-requests-from-swagger-20/import.png" width=40%>
 
-* Or in the **Tests Explorer**, right-click on **Object Repository** > select **Import > From OpenAPI 2 (Swagger)**.
+   * Or in the **Tests Explorer**, right-click on **Object Repository** > select **Import > From OpenAPI 2 (Swagger)**.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-rest-requests-from-swagger-20/import-via-object.png" width=70%>
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-rest-requests-from-swagger-20/import-via-object.png" width=70%>
 
 2. In the displayed dialog, browse your **Swagger** local file or enter an OpenAPI 2 (Swagger) URL > click **OK**.
 
@@ -46,7 +46,7 @@ To conduct, do as follow:
 
 **See also:**
 
-* [Use test requests in a test case](https://docs.katalon.com/katalon-studio/docs/using-web-services-in-a-test-case.html)
-* [Parameterize a Web Service Object](/display/KD/Parameterize+a+Web+Service+Object)
-* [Verification Snippets](/display/KD/Verification+Snippets)
-* [Import REST API with OpenAPI Specification 3.0](https://docs.katalon.com/katalon-studio/docs/import-openapi30.html)
+* [Use test requests in a test case](https://docs.katalon.com/katalon-studio/docs/using-web-services-in-a-test-case.html).
+* [Parameterize a Web Service Object](/display/KD/Parameterize+a+Web+Service+Object).
+* [Verification Snippets](/display/KD/Verification+Snippets).
+* [Import REST API with OpenAPI Specification 3.0](https://docs.katalon.com/katalon-studio/docs/import-openapi30.html).
