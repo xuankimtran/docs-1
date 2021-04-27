@@ -18,7 +18,7 @@ The update comes with a new interface, including a new toolbar and view that ser
 
  The main toolbar contains API/Web Service testing related features only to help you navigate around the app easily and intuitively.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/apiweb-service-project-since-v58/type.png" width=45%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/apiweb-service-project-since-v58/type.png" width=40%>
 
 Read more:
 
