@@ -57,7 +57,7 @@ With the ability to remove built-in libraries stored in the `.classpath` file of
 * An active Katalon Studio Enterprise license.
 * Katalon Studio version 7.8.
 
-1. Open **Project** > **Settings** > **Library Management** 
+1. Open **Project** > **Settings** > **Library Management**.
 2. In the **Exclude the following built-in libraries** section, click **Add** to add a built-in library’s name that will be removed.
 3. In the **External Libraries** section, click **Add** to browse an external library to replace the excluded one.
 
