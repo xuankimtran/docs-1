@@ -22,7 +22,7 @@ To set up a global database connection, go to **Project** > **Settings** > **Dat
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/new-ui.png" width=70%>
 
-Where:
+**Where:**
 
 - Secure User and Password: select to authenticate the connected database server, disabled by default.
 - User: The username for authentication in the connected database server.
