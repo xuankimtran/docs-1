@@ -1,10 +1,10 @@
 ---
-title: "Create subscriptions"
+title: "Create TestOps subscriptions"
 sidebar: katalon_analytics_docs_sidebar
-permalink: katalon-analytics/docs/create-subscriptions.html 
+permalink: katalon-analytics/docs/create-testops-subscriptions.html 
 description: 
 ---
-## Create subscriptions
+## Access TestOps subscription plan
 
 Start the following steps to subscribe:
 1. Log in to [Katalon TestOps](https://testops.katalon.io/).
