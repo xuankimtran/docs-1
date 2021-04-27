@@ -17,11 +17,11 @@ description:
 
 1. Select **File > New > Project** from the main menu. In the displayed **New Project** dialog, choose a desired project **type**.
     
-- **Generic, Web, Mobile, Desktop**: All standard features for Web, Mobile, API, and Desktop Testing are available.
+    - **Generic, Web, Mobile, Desktop**: All standard features for Web, Mobile, API, and Desktop Testing are available.
 
-- **API/Web Service**: Exclusive features for API/Web Service Testing are enabled including icons of importing test requests from [OpenAPI Specification 3.0](https://docs.katalon.com/katalon-studio/docs/import-openapi30.html), [WADLs](https://docs.katalon.com/katalon-studio/docs/import-wadl.html), [WSDLs](https://docs.katalon.com/katalon-studio/docs/import-soap-requests-from-wsdl.html), [OpenAPI Specification 2.0 (Swagger)](https://docs.katalon.com/katalon-studio/docs/import-rest-requests-from-swagger-20.html), and [Postman](https://docs.katalon.com/katalon-studio/docs/import-soapui.html); [Request History list](https://docs.katalon.com/katalon-studio/docs/request-history.html) and more.
+    - **API/Web Service**: Exclusive features for API/Web Service Testing are enabled including icons of importing test requests from [OpenAPI Specification 3.0](https://docs.katalon.com/katalon-studio/docs/import-openapi30.html), [WADLs](https://docs.katalon.com/katalon-studio/docs/import-wadl.html), [WSDLs](https://docs.katalon.com/katalon-studio/docs/import-soap-requests-from-wsdl.html), [OpenAPI Specification 2.0 (Swagger)](https://docs.katalon.com/katalon-studio/docs/import-rest-requests-from-swagger-20.html), and [Postman](https://docs.katalon.com/katalon-studio/docs/import-soapui.html); [Request History list](https://docs.katalon.com/katalon-studio/docs/request-history.html) and more.
     
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/manage-test-project/new-project.png" width=70%>
+        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/manage-test-project/new-project.png" width=70%>
     
 2. Specify **Name**, **Location**, and **Description** for the new project and click **OK**. 
 
