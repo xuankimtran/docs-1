@@ -45,7 +45,7 @@ At the item Test Environments, we choose agents which we have just started. We s
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt_run_parallel_agent/kt_test_run_type_2.png)
 
-We click the button Creat at below for creating a new Test Run Type.
+We click the button Create at below for creating a new Test Run Type.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt_run_parallel_agent/kt_test_run_type_3.png)
 
