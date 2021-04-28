@@ -1209,7 +1209,7 @@ items:
             tree:
               - title: "Create Subscriptions"
                 url: /katalon-analytics/docs/testops-subscriptions.html
-              - title: "Ugrade Subscriptions"
+              - title: "Upgrade Subscriptions"
                 url: /katalon-analytics/docs/upgrade-subscriptions.html
               - title: "Cancel Subscriptions"
                 url: /katalon-analytics/docs/cancel-subscriptions.html
