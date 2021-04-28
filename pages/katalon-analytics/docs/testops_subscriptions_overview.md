@@ -1,5 +1,5 @@
 ---
-title: "Overview" 
+title: "Overview of TestOps Plans" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/testops_subscriptions_overview.html 
 redirect_from:
@@ -30,7 +30,7 @@ You can upgrade or modify the number of test results included at any time on you
 ## Katalon TestOps Enterprise ## 
 
 The Enterprise plan is best for large organizations with a strong focus on streamlining processes and enhancing security.
-On top of the core features of Katalon Testops, this plan includes additional **AI/Ml** and **Security/Compliance** features to maximize the quality and efficiency of your testing. Our support team is also available to assist with any problems you encounter.
+On top of the core features of Katalon Testops, this plan includes additional **AI/ML** and **Security/Compliance** features to maximize the quality and efficiency of your testing. Our support team is also available to assist with any problems you encounter.
 
 You have the option to choose between **Cloud** and **On-Premise** versions. 
 
@@ -44,10 +44,10 @@ Once successfully subscribed, you will be provided the license key by our Sales 
 
 ### Free Trial ###
 
-A three-month trial with unlimited test results is available upon request for both versions. For more information, please visit Trial Plans.
+A three-month trial with unlimited test results is available upon request for both versions. For more information, please visit [Trial Plans](https://docs.katalon.com/katalon-analytics/docs/trial-plans.html#trial-plans).
 
 ### Notes ###
 
-This plan will be available for purchase on **June 22, 2021**. You will need to contact our Sales team to purchase **Katalon TestOps Enterprise**, both **Cloud** and **On-Premise** version. Stay tuned for more information.
+> This plan will be available for purchase on **June 22, 2021**. You will need to contact our Sales team to purchase **Katalon TestOps Enterprise**, both **Cloud** and **On-Premise** version. Stay tuned for more information.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops_subscriptions_overview/kt_table_com_ent.png)
