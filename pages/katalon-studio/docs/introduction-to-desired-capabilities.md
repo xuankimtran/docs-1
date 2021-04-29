@@ -311,7 +311,6 @@ RunConfiguration.setWebDriverPreferencesProperty("key", "value")
 
 The test passes successfully with Chrome window-size 100x100 (overriding Chrome window-size 1200x600).
 
-For example, 
 **References:**
 
 * [RunConfiguration](https://api-docs.katalon.com/com/kms/katalon/core/configuration/RunConfiguration.html)
