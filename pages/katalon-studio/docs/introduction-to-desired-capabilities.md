@@ -280,13 +280,38 @@ Defined configuration settings are saved in separated files under the "**<your t
 
 ## Override desired capabilities at runtime
 
-If you want to override desired capabilities of a browser before it's started, refer to the sample code below.
+Suppose you want to override desired capabilities of a browser before it's started. In that case, you need to define the value in the project settings first, then refer to the sample code below to override that value.
 
 ```groovy
 import com.kms.katalon.core.configuration.RunConfiguration
 RunConfiguration.setWebDriverPreferencesProperty("key", "value")
 ```
 
+### Example
+
+The example below shows how to override Chrome window-sized 1200x600 and run the test in Chrome window-sized 100x100 instead.
+
+* **Project** > **Settings** > **Desired Capabilities** > **Web UI** > **Chrome**.
+
+![project-settings](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-override-in-run-time/override-crop0.png)
+
+* Insert `window-size=1200,600` value > **Apply and Close**.
+
+![insert-value](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-override-in-run-time/override-crop2.png)
+
+* Open the test case in Script mode, use the sample code below but change the `key, value` into `window-size=100,100`.
+
+```groovy
+import com.kms.katalon.core.configuration.RunConfiguration
+RunConfiguration.setWebDriverPreferencesProperty("key", "value")
+```
+![override-script](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-override-in-run-time/override-crop4.png)
+
+![override-demo](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-override-in-run-time/override-crop5-highlighted.png)
+
+The test passes successfully with Chrome window-size 100x100 (overriding Chrome window-size 1200x600).
+
+For example, 
 **References:**
 
 * [RunConfiguration](https://api-docs.katalon.com/com/kms/katalon/core/configuration/RunConfiguration.html)
