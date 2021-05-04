@@ -44,7 +44,7 @@ Once successfully subscribed, you will be provided the license key by our Sales 
 
 ### Free Trial ###
 
-A three-month trial with unlimited test results is available upon request for both versions. For more information, please visit [Trial Plans](https://docs.katalon.com/katalon-analytics/docs/trial-plans.html#trial-plans).
+A three-month trial with unlimited test results is available upon request for both versions. For more information, please visit [Trial Plans](https://docs.katalon.com/katalon-analytics/docs/trial-plans.html#).
 
 >### Notes ###
 
