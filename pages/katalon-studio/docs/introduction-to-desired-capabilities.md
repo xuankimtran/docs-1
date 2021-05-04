@@ -278,16 +278,46 @@ Defined configuration settings are saved in separated files under the "**<your t
 | Android | com.kms.katalon.core.mobile.android.properties |
 | iOS | com.kms.katalon.core.mobile.ios.properties |
 
-## Override desired capabilities at runtime
+## Passing of Desired Capabilities at Runtime
 
-Suppose you want to override desired capabilities of a browser before it's started. In that case, you need to define the value in the project settings first, then refer to the sample code below to override that value.
+Use the following sample code
 
 ```groovy
 import com.kms.katalon.core.configuration.RunConfiguration
 RunConfiguration.setWebDriverPreferencesProperty("key", "value")
 ```
 
-### Example
+to either
+* pass dynamically the test with desired capabilities or 
+* override the desired capabilities in project settings.
+
+### Example 1
+
+The example below shows how to pass the test with desired capability of Chrome window-sized 100x100.
+
+* Open the test case in Script mode.
+
+![open-test](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-override-in-run-time/pass-dynamically-1.png)
+
+* Use the sample code above but change the `key, value` into `window-size=100,100`.
+
+![use-code](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-override-in-run-time/pass-dynamically-2.png)
+
+* Continue writing the script then run the test in Chrome.
+
+![write-script](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-override-in-run-time/pass-dynamically-3.png)
+
+![run-chrome](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-override-in-run-time/pass-dynamically-4.png)
+
+> Make sure the browser is updated by clicking **Tools** > **Update WebDrivers** > **Chrome** 
+
+![test-pass](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-override-in-run-time/pass-dynamically-5.png)
+
+The test passes successfully with Chrome window-size 100x100.
+
+### Example 2
+
+Suppose you want to override desired capabilities of a browser before it's started. In that case, you need to define the value in the project settings first, then refer to the sample code to override that value.
 
 The example below shows how to override Chrome window-sized 1200x600 and run the test in Chrome window-sized 100x100 instead.
 
@@ -299,12 +329,8 @@ The example below shows how to override Chrome window-sized 1200x600 and run the
 
 ![insert-value](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-override-in-run-time/override-crop2.png)
 
-* Open the test case in Script mode, use the sample code below but change the `key, value` into `window-size=100,100`.
+* Open the test case in Script mode, use the sample code above but change the `key, value` into `window-size=100,100`.
 
-```groovy
-import com.kms.katalon.core.configuration.RunConfiguration
-RunConfiguration.setWebDriverPreferencesProperty("key", "value")
-```
 ![override-script](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-override-in-run-time/override-crop4.png)
 
 ![override-demo](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-override-in-run-time/override-crop5-highlighted.png)
