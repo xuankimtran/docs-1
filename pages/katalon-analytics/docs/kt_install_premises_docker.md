@@ -4,6 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/kt_install_premises_docker.html 
 redirect_from:
     - "/katalon-analytics/docs/kt_install_premises_docker/"
+    - "/katalon-analytics/docs/ktop/"
 description: 
 ---
 
