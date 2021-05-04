@@ -32,15 +32,15 @@ You can upgrade or modify the number of test results included at any time on you
 The Enterprise plan is best for large organizations with a strong focus on streamlining processes and enhancing security.
 On top of the core features of Katalon Testops, this plan includes additional **AI/ML** and **Security/Compliance** features to maximize the quality and efficiency of your testing. Our support team is also available to assist with any problems you encounter.
 
-You have the option to choose between **Cloud** and **On-Premise** versions. 
+You have the option to choose between **Cloud** and **On-Premises** versions. 
 
 * **Katalon TestOps Enterprise Cloud**
 
 This version is accessible via https://testops.katalon.io once you have successfully subscribed.
 
-* **Katalon TestOps Enterprise On-Premise**
+* **Katalon TestOps Enterprise On-Premises**
 
-Once successfully subscribed, you will be provided the license key by our Sales team to install and activate **On-Premise** version in your environment.
+Once successfully subscribed, you will be provided the license key by our Sales team to install and activate **On-Premises** version in your environment.
 
 ### Free Trial ###
 
@@ -48,6 +48,6 @@ A three-month trial with unlimited test results is available upon request for bo
 
 >### Notes ###
 
->This plan will be available for purchase on **June 22, 2021**. You will need to contact our Sales team to purchase **Katalon TestOps Enterprise**, both **Cloud** and **On-Premise** versions. Stay tuned for more information.
+>This plan will be available for purchase on **June 22, 2021**. You will need to contact our Sales team to purchase **Katalon TestOps Enterprise**, both **Cloud** and **On-Premises** versions. Stay tuned for more information.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops_subscriptions_overview/kt_table_com_ent.png)
