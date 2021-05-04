@@ -1359,8 +1359,6 @@ items:
             url: /katalon-analytics/docs/ip-settings.html
           - title: "Delete data"
             url: /katalon-analytics/docs/project-management-delete.html
-          - title: "Katalon TestOps OnPremise"
-            url: /katalon-analytics/docs/ktop.html
           - title: "Subdomain Configurations"
             url: /katalon-analytics/docs/subdomain.html
           - title: "Single Sign-On (SSO) Configurations"
