@@ -1199,7 +1199,7 @@ items:
             url: /katalon-store/docs/publisher/manage-published-plugins.html
   - title: "Katalon TestOps"
     tree:
-      - title: "Subsriptions"
+      - title: "Subscriptions"
         tree:
           - title: "Overview"
             url: /katalon-analytics/docs/testops_subscriptions_overview.html
@@ -1209,7 +1209,7 @@ items:
             tree:
               - title: "Create Subscriptions"
                 url: /katalon-analytics/docs/testops-subscriptions.html
-              - title: "Ugrade Subscriptions"
+              - title: "Upgrade Subscriptions"
                 url: /katalon-analytics/docs/upgrade-subscriptions.html
               - title: "Cancel Subscriptions"
                 url: /katalon-analytics/docs/cancel-subscriptions.html
@@ -1219,12 +1219,12 @@ items:
             url: /katalon-analytics/docs/overview.html
           - title: "What's new"
             tree:
-              - title: What's new in TestOps Core 1.1.0?
+              - title: "April 2021"
+                url: /katalon-analytics/docs/kte-whats-new-in-april-release.html
+              - title: "March 2021"
                 url: /katalon-analytics/docs/new-core-11.html
-              - title: Core 1.x
-                url: /katalon-analytics/docs/core-1.x.html
-              - title: Advanced 0.1.x
-                url: /katalon-analytics/docs/advanced-0.1.x.html
+              - title: "2021 Releases"
+                url: /katalon-analytics/docs/testops-releases-2021.html
           - title: "Terminology" 
             url: /katalon-analytics/docs/testops-terminology.html
           - title: "Access Katalon TestOps"
