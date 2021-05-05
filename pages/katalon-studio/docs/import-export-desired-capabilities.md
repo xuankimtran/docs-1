@@ -25,7 +25,7 @@ Consequently, from version 8.0.0, Katalon Studio allows you to import and export
 
     By default, all current existing desired capabilities will be overridden by imported ones.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops/desired-capabilities-management/chrome_dc.png" width=60%>
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops/desired-capabilities-management/chrome_dc.png" width=55%>
 
 ### Export Desired Capabilities
 
@@ -39,7 +39,7 @@ Consequently, from version 8.0.0, Katalon Studio allows you to import and export
     > 
     > The export configuration will be saved as a **JSON file** to reduce your effort spent on modification and recreation capabilities in case you want to copy the configuration to multiple places with some minor changes.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops/desired-capabilities-management/export-chrome-save.png" width=60%>
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops/desired-capabilities-management/export-chrome-save.png" width=55%>
 
 See also:
 
