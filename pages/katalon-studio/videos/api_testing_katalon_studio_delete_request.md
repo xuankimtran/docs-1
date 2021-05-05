@@ -11,6 +11,6 @@ Karthik K.K continues to talk about API Testing with Katalon Studio. In this tut
 1.  Create a Delete request to existing My JSON server.
 2.  Verify if the existing data has been deleted.
 
-The source code is available at: [https://github.com/executeautomation/KatalonAPITesting](https://github.com/executeautomation/KatalonAPITesting)
+The source code is available at: [https://github.com/executeautomation/KatalonAPITesting](https://github.com/executeautomation/KatalonAPITesting).
 
-**Note: **This video is contributed by Karthik K.K from [http://executeautomation.com/blog/](http://executeautomation.com/blog/).
+**Note:** This video is contributed by Karthik K.K from [http://executeautomation.com/blog/](http://executeautomation.com/blog/).

@@ -6,20 +6,20 @@ description:
 ---
 TestOps allows you to compare the results of multiple test executions in a side-by-side table so that you can know whether or not a test is producing the same effect each time you run it.
 
-On the sidebar **Reports & Analytics** of Katalon TestOps, choose **Test Runs**.
+On the tabbed ribbon **Reports & Analytics** of Katalon TestOps, choose **Test Runs**.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/compare-test-results/kt_report_test_runs.png)
+![Test runs is the first button on the left](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/compare-test-results/kt2_report_test_runs.png)
 
 Select **Test Runs** from the list by checking the checkboxes.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/compare-test-results/kt_select_test_run.png)
+![Scroll down to find the list of Test Runs](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/compare-test-results/kt2_select_test_run.png)
 
 Click on the **Compare** button;
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/compare-test-results/kt_test_run_button_compare.png)
+![Location of the compare button](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/compare-test-results/kt2_test_run_button_compare.png)
 
-> Note: You can select up to 3 test executions to view the comparison.
+> Note: You can select up to 3 test executions for comparison.
 
 Now you can view the execution details and comparison charts.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/compare-test-results/kt_test_run_comparison.png)
+![An example of test runs comparisons](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/compare-test-results/kt2_test_run_comparison.png)

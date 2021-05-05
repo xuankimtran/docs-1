@@ -1,5 +1,5 @@
 ---
-title: "Upload Git Test Project" 
+title: "Upload Test Script From Git Repository" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/git-test-project.html 
 description: 
@@ -7,7 +7,7 @@ description:
 
 This feature allows you to create your projects stored in Git and execute them in Katalon TestOps without manually uploading them to Test Projects.
 
-## Create a new Git test project
+## Create Git script repository
 
 Choose a project in which you want to create a new Git on Katalon TestOps.
 
@@ -25,6 +25,10 @@ Then fill in the below information:
 
 - **Source Type**: choose Github.
 
+<img src="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-analytics/docs/git-test-project/1-git-test-project.png" width="" height="">
+
+2. Fill in information as below:
+- Select a source type 
 - **Repository URL**: your Git repository. (Example: https://github.com/katalon-studio-samples/ci-samples)
 
 - **Username**: your Git username.

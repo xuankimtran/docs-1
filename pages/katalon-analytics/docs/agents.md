@@ -26,7 +26,7 @@ Start Agents step by step, see [here](https://docs.katalon.com/katalon-analytics
 
 You can check the Agent status by going to **Test Environments** in **Configurations**.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-terminology/test-environment.png)
+![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-analytics/docs/agents/agent-local.png)
 
 > You can delete an Agent anytime by clicking on the recycle bin icon.
 
@@ -50,7 +50,7 @@ We can see the `serverurl` and `apikey` in Generate configuration of Agent Setup
 
  ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/agents/kt_agentconfig_apikey.png)
 
-Using the `serverurl` and `apikey` was shown [here](katalon-analytics/docs/install_kt_agent.html ).
+Using the `serverurl` and `apikey` was shown [here](https://docs.katalon.com/katalon-analytics/docs/install_kt_agent.html).
 
 ## Configure Proxy for Agent
 

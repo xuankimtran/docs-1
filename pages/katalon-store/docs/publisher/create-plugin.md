@@ -73,7 +73,7 @@ Update your `pom.xml` file with the template below:
 	<parent>
 		<groupId>com.katalon</groupId>
 		<artifactId>com.katalon.platform.parent</artifactId>
-		<version>1.0.5</version>
+		<version>1.0.17</version>
 	</parent>
 
     <!-- REPLACE ME: Your plugin description here -->
@@ -88,7 +88,7 @@ Update your `pom.xml` file with the template below:
 		<dependency>
 			<groupId>com.katalon</groupId>
 			<artifactId>com.katalon.platform</artifactId>
-			<version>1.0.5</version>
+			<version>1.0.17</version>
 		</dependency>
 	</dependencies>
 
@@ -179,7 +179,7 @@ To extend this extension point, we need to declare in `plugin.xml` as shown belo
 	    <point
 	          id="com.mycompany.plugin.myFirstExtensionId"
 	          extensionPointId="com.katalon.platform.api.extension.pluginActivationListener"
-	          implementationClass="com.mycompany.plugin.MyPluginActivationListener"
+	          implementationClass="com.mycompany.plugin.MyPluginActivationListener">
 	    </point>
 	</extension>
 </plugin>

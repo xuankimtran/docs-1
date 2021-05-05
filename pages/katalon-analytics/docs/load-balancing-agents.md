@@ -6,29 +6,29 @@ permalink: katalon-analytics/docs/load-balancing-agents.html
 
 With **TestOps CI**, you can execute your test plans parallelly in load-balanced local test environments.
 
-> Prerequisites:
->
-> - You have at least one active local test environment. Learn how to start a local test environment [here](https://docs.katalon.com/katalon-analytics/docs/agents.html).
+## Prerequisites:
+- You have at least one active local test environment. Learn how to start a local test environment [here](https://docs.katalon.com/katalon-analytics/docs/agents.html).
 
 ## Configure a threshold
 
-Threshold is the maximum number of jobs that a local test environment can execute concurrently. You need to configure the threshold value to assign one local test environment to multiple test plans.
+The threshold is the maximum number of jobs that a local test environment can execute concurrently. You need to configure the threshold value to assign one local test environment to multiple test plans.
 
-*Note: Thresholds are set as 1 by default for all local test environments.*
+> Note: Thresholds are set as 1 by default for all local test environments.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/load-balancing-agents/local-agents.png" width="" height="">
-
-
-To configure the threshold, go to your local test environment details page, update the value of the threshold and click on **Update**.
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/load-balancing-agents/update-threshold.png" width="" height="">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/load-balancing-agents/1-view-agent-threshold.png" width="" height="">
 
 
-After updating the threshold value, you can assign your local test environment to execute test plans. The maximum number of parallel jobs that the local test environment can execute is equal to the threshold value you have configured.
+1. To configure the threshold, go to a local test environment detailed page, update the value of the threshold 
+2. Click on **Update**.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/load-balancing-agents/after-config-threshold.png" width="" height="">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/load-balancing-agents/2-update-agent-threshold.png" width="" height="">
 
-## Assign local test environments to execute test plans
+
+After updating the threshold value, you can assign your local test environment to execute test plans. The maximum number of parallel sessions that the local test environment can execute is equal to the threshold value you have configured.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/load-balancing-agents/3-new-agent-threshold.png" width="" height="">
+
+## Assign local test environments to execute test runs
 
 To assign a local test environment to a test plan, select a plan and click on **Edit**.
 

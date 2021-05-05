@@ -57,14 +57,17 @@ Please notice that although we very much appreciate all of your feedback, pull r
 Install:
 
 ```
-sudo apt install build-essential ruby ruby-dev ruby-bundler
+sudo apt update
+sudo apt upgrade -y
+sudo apt install -y build-essential ruby ruby-dev ruby-bundler
+cd /mnt/d/docs
 bundle install
 ```
 
 Write:
 
 ```
-cd /mnt/d/tmp/docs
+cd /mnt/d/docs
 bundle exec jekyll clean
 bundle exec jekyll serve --watch --force_polling --incremental
 ```
