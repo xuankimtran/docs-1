@@ -176,7 +176,11 @@ items:
           - title: "Fixing broken Web Test Objects with Time Capsule"
             url: /katalon-studio/docs/time-capsule.html
           - title: "Desired Capabilities"
-            url: /katalon-studio/docs/introduction-to-desired-capabilities.html
+            tree:
+              - title: "Introduction to Desired Capabilities"
+                url: /katalon-studio/docs/introduction-to-desired-capabilities.html
+              - title: "Desired Capabilities Management"
+                url: /katalon-studio/docs/import-export-desired-capabilities.html
           - title: "Usage Examples"
             tree:
               - title: "Custom Keywords"
