@@ -79,7 +79,7 @@ To playback the recorded scenario:
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/recording-webui-test/select-browser-to-playback.png" width=30%>
 
-**<details><summary>View the test case in Script mode.</summary>**
+## View the test case in Script mode
 
 ```groovy
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
@@ -129,7 +129,6 @@ WebUI.click(findTestObject('Object Repository/shoppingCart/Page_Zack Market/span
 
 WebUI.closeBrowser()
 ```
-</details>
 
 Next: [Execute and Debug a Test Case](https://docs.katalon.com/katalon-studio/docs/execute-a-test-case-or-a-test-suite.html).
 
