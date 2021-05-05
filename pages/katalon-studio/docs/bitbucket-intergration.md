@@ -4,13 +4,19 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/bitbucket-integration.html
 ---
 
-**BitBucket** is a web-based source control repository hosting service by Atlassian. 
+**BitBucket** is a Git-based source code repository hosting service owned by Atlassian.
 
 Katalon Studio provides the integration with BitBucket to simplify performing various commands directly from Katalon Studio UI, such as: add Katalon Studio project files to the repositories; commit and pull changes, and push them to the repositories and so on.
 
+You can integrate Katalon Studio with Git and its cloud-hosted services, including:
+
+- GitHub
+- GitLab
+- BitBucket
+- Microsoft Azure DevOps
+
 **Requirements**
 
-- Your computer already configured [Git Integration](https://docs.katalon.com/katalon-studio/docs/git-integration.html#configure-git-integration).
 - Connect to your [BitBucket](https://bitbucket.org/) account.
 - You already [Created a Git repository](https://support.atlassian.com/bitbucket-cloud/docs/create-a-git-repository/) in BitBucket.
 
@@ -32,31 +38,31 @@ Follow [this document](https://support.atlassian.com/bitbucket-cloud/docs/set-up
 
     - Go to the repository you want to clone > click **Clone** in the right corner.
 
-        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/bitbucket-integration/repo-created.png" width=65%>
+        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/bitbucket-integration/repo-created.png" width=70%>
 
     - Select **SSH** > copy the repository URL.
         
-        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/bitbucket-integration/ssh-url.png" width=60%>
+        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/bitbucket-integration/ssh-url.png" width=70%>
 
 2. In Katalon Studio, select the **Git** icon from the main toolbar > **Clone Project**.
     
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/bitbucket-integration/git-icon.png" width=30%>
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/bitbucket-integration/git-icon.png" width=40%>
 
 3. In the displayed **Source Git Repository** dialog, enter the repository URL with **SSH Protocol** in step 1 > **Next**.  
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/bitbucket-integration/source-git-repo.png" width=65%>
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/bitbucket-integration/source-git-repo.png" width=70%>
 
 4.  In **Branch Selection**, select which branch(es) to be checked out as local branch(es) >  **Next**.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/bitbucket-integration/branch-selection.png" width=65%>
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/bitbucket-integration/branch-selection.png" width=70%>
 
 5. In **Local Destination**, specify the local location for cloning and the initial branch > **Finish**.
 
     Katalon Studio automatically opens your cloned project.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/bitbucket-integration/save.png" width=65%>
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/bitbucket-integration/save.png" width=70%>
 
-    Where:
+    **Where:**
 
     - **Directory**: the local storage location you want to store your Git repository.
     - **Initial branch**: all selected branches from step 4 are displayed here. Select the branch to be used initially from this list.
@@ -65,13 +71,13 @@ Follow [this document](https://support.atlassian.com/bitbucket-cloud/docs/set-up
 
     Ensure that the repository is selected correctly with the URL specified.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/bitbucket-integration/verify-configuration.png" width=65%>
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/bitbucket-integration/verify-configuration.png" width=70%>
 
 ### Store Katalon Studio Projects in BitBucket
 
 1. In Katalon Studio, select the **Git** icon from the main toolbar > **Commit**.
     
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/bitbucket-integration/commmit.png" width=30%>
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/bitbucket-integration/commmit.png" width=40%>
 
 2. The **Git Staging** tab is displayed for configuration.
 
