@@ -280,16 +280,19 @@ Defined configuration settings are saved in separated files under the "**<your t
 
 ## Passing Desired Capabilities at Runtime
 
-Use the following sample code,
+Desired capabilities added to project settings apply at a global level. 
+Configuring desired capabilities programmatically helps you scope down the application in a specific test case. 
+
+Use the sample code below to pass desired capabilities to a specific test script, which also overrides the desired capabilities predefined in project settings.
 
 ```groovy
-import com.kms.katalon.core.configuration.RunConfiguration
-RunConfiguration.setWebDriverPreferencesProperty("key", "value")
+import com.kms.katalon.core.configuration.RunConfiguration
+RunConfiguration.setWebDriverPreferencesProperty(“key”, “value”)
 ```
 
-to either
-* pass the test dynamically with desired capabilities or 
-* override the desired capabilities in project settings.
+The following examples show you how to
+* pass desired capabilities to a specific test script and
+* override the desired capabilities predefined in project settings
 
 ### Example 1
 
