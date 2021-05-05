@@ -1,6 +1,6 @@
 ---
 title: "Katalon Analytics (Beta)"
-sidebar: katalon_analytics_docs_sidebar
+sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/katalon-analytics-beta.html
 redirect_from:
     - "/x/WxVO"

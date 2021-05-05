@@ -27,6 +27,6 @@ Get started to perform [mobile testing](/katalon-studio/tutorials/setting-mobi
 *   Step 7: Run the sample mobile test project
 *   Step 8: Create a new test and try mobile recording Run and Validate
 
-To perform Mobile Testing on Katalon Studio, please refer to learn more about the [environment setup for mobile app automation](/katalon-studio/tutorials/setting-mobile-application-automation/) tutorial.
+To perform Mobile Testing on Katalon Studio, please refer to learn how to set up the environment for [iOS](https://docs.katalon.com/katalon-studio/tutorials/mobile-ios-setup.html#set-up-ios-tests-on-windows-and-macos) and [Android](https://docs.katalon.com/katalon-studio/tutorials/mobile-android-setup.html).
 
 _**Note: This video is contributed by [Raghav Pal](https://www.youtube.com/channel/UCTt7pyY-o0eltq14glaG5dg). **_
