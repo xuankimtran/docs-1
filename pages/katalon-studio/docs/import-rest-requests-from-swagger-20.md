@@ -13,12 +13,11 @@ description:
 
 This topic shows you how to import Web Service objects from a **Swagger 2.0** File or URL, depending on the type of your Katalon Studio project.
 
-**Requirements**
+**Requirement**
 
 * Katalon Studio version 7.0+.
-* An active Katalon Studio Enterprise license.
 
-To conduct, do as follows:
+Do as follows:
 
 1. Open or create a project > import the service definition in two ways:
 
