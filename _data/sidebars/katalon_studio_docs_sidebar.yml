@@ -125,6 +125,10 @@ items:
                 url: /katalon-studio/tutorials/mobile-android-setup.html
               - title: "[Mobile] Create and Run Android Test Case"
                 url: /katalon-studio/tutorials/mobile-create-android-test-case.html
+          - title: "Web UI"
+            tree:
+              - title: "[WebUI] Create and Run Web UI Test Case using Record and Playback"
+                url: /katalon-studio/tutorials/webui-create-test-case.html
       - title: "GUI and Preferences"
         tree:
           - title: "Toolbars and Views"
@@ -1210,7 +1214,7 @@ items:
               - title: "Create Subscriptions"
                 url: /katalon-analytics/docs/testops-subscriptions.html
               - title: "Ugrade Subscriptions"
-                url: /katalon-analytics/docs/upgrade-testops-subscriptions.html
+                url: /katalon-analytics/docs/upgrade-subscriptions.html
               - title: "Cancel Subscriptions"
                 url: /katalon-analytics/docs/cancel-subscriptions.html
       - title: "Get Started"
@@ -1359,8 +1363,6 @@ items:
             url: /katalon-analytics/docs/ip-settings.html
           - title: "Delete data"
             url: /katalon-analytics/docs/project-management-delete.html
-          - title: "Katalon TestOps OnPremise"
-            url: /katalon-analytics/docs/ktop.html
           - title: "Subdomain Configurations"
             url: /katalon-analytics/docs/subdomain.html
           - title: "Single Sign-On (SSO) Configurations"
@@ -1472,5 +1474,4 @@ items:
       - title: "Sessions Monitoring"
         url: /katalium-server/docs/view-session-details.html
       - title: "Contributing Guidelines"
-        url: /katalium-server/docs/katalium-contributing.html
-     
+        url: /katalium-server/docs/katalium-contributing.html  

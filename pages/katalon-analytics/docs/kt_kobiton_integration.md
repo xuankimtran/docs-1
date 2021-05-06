@@ -20,7 +20,7 @@ In the board **Test run type**, we choose and type information in the cells (sel
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt_kobiton_integration/kt_test_run_type_1.png)
 
-We choose a Test Suite Collection, which we want to run. We choose **Enable Kobiton Integration** and type the ID of the device in **Katalon Device ID**. We select the **Test Environment Type**.
+We choose a Test Suite Collection, which we want to run. We choose **Enable Kobiton Integration** and type the ID of the device in **Kobiton Device ID**. We select the **Test Environment Type**.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt_kobiton_integration/kt_test_run_type_2.png)
 
