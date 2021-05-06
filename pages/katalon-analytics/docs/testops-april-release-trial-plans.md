@@ -1,7 +1,7 @@
 ---
 title: "TestOps Trial Plans"
 sidebar: katalon_analytics_docs_sidebar
-permalink: katalon-analytics/docs/testops-trial-plans.html 
+permalink: katalon-analytics/docs/trial-plans.html 
 description: 
 ---
 
