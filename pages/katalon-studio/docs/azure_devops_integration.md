@@ -11,10 +11,10 @@ From version 8.0.0 onwards, Katalon Studio can be natively integrated with Azure
 	<tbody>
 		<tr>
 			<td style="width: 417px;">
-				<p><strong>Problems</strong></p>
+				<p><strong>Problem</strong></p>
 			</td>
 			<td style="width: 481px;">
-				<p><strong>Solutions</strong></p>
+				<p><strong>Solution</strong></p>
 			</td>
 		</tr>
 		<tr>
