@@ -8,6 +8,34 @@ When desired capabilities need to be used across projects, users have to manuall
 
 Consequently, from version 8.0.0, Katalon Studio allows you to import and export desired capabilities in the Katalon Studio project(s). These functions support you to work with **Desired Capabilities** more efficiently and less error-prone.
 
+<table>
+	<tbody>
+		<tr>
+			<td>
+				<p><strong>Problem</strong></p>
+			</td>
+			<td>
+				<p><strong>Solution</strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>To reuse or copy the configured desired capabilities to multiple places with some minor changes.</p>
+			</td>
+			<td rowspan="2">
+				<ol>
+					<li>Choose the driver you want to export its desired capabilities &gt; <a href="https://docs.katalon.com/%20katalon-studio/docs/import-export-desired-capabilities.html/export-desired-capabilities">Export</a> it as JSON file.</li>
+					<li>Modify the JSON file if needed.</li>
+					<li>Choose the driver you want to import the desired capabilities &gt; <a href="https://docs.katalon.com/%20katalon-studio/docs/import-export-desired-capabilities.html/import-desired-capabilities">Import</a> the JSON file.</li>
+				</ol>
+			</td>
+		</tr>
+		<tr>
+			<td>To share the configured desired capabilities for team members to reduce the effort spent on modification and recreation of the same settings.</td>
+		</tr>
+	</tbody>
+</table>
+
 ### Requirements
 
 - Katalon Studio version 8.0.0.
