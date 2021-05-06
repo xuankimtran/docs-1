@@ -1210,7 +1210,7 @@ items:
               - title: "Create Subscriptions"
                 url: /katalon-analytics/docs/testops-subscriptions.html
               - title: "Ugrade Subscriptions"
-                url: /katalon-analytics/docs/upgrade-subscriptions.html
+                url: /katalon-analytics/docs/upgrade-testops-subscriptions.html
               - title: "Cancel Subscriptions"
                 url: /katalon-analytics/docs/cancel-subscriptions.html
       - title: "Get Started"
