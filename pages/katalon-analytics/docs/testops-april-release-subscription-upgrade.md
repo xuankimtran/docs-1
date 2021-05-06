@@ -1,7 +1,7 @@
 ---
 title: "Upgrade TestOps subscriptions"
 sidebar: katalon_analytics_docs_sidebar
-permalink: katalon-analytics/docs/upgrade-testops-subscriptions.html 
+permalink: katalon-analytics/docs/upgrade-subscriptions.html 
 description: 
 ---
 ## Add more test results
