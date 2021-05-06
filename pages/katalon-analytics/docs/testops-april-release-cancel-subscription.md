@@ -1,7 +1,7 @@
 ---
 title: "Cancel TestOps subscriptions"
 sidebar: katalon_analytics_docs_sidebar
-permalink: katalon-analytics/docs/cancel-testops-subscriptions.html 
+permalink: katalon-analytics/docs/cancel-subscriptions.html 
 description: 
 ---
 
