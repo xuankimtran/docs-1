@@ -4,7 +4,6 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/cancel-subscriptions.html 
 description: 
 ---
-## Cancel subscriptions
 
 > Subscription cancelation does NOT issue a refund. You can continue using the remaining subscription you have already purchased.
 >
