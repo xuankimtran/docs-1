@@ -8,9 +8,9 @@ redirect_from:
 description:
 ---
 
-Katalon Studio supports API/Web Service testing project, which allows separating the API/Web Service testing from Web UI and Mobile testing. You can also perform more API/Web Service automation tasks on Katalon Studio such as **Quickstart wizard**, **Import Swagger or WSDL** definition File/URL directly, or retrieve **request history** at any time.
+Katalon Studio supports API/Web Service testing project, which allows separating the API/Web Service testing from Web UI and Mobile testing. You can also perform more API/Web Service automation tasks on Katalon Studio such as **Quickstart wizard**, **Import Swagger** or **WSDL** definition File/URL directly, or retrieve **Request history** at any time.
 
-The update comes with a new interface, including a new toolbar and view that serve only for API/Web Service testing. To create a **New API/Web Service Project**, select **API/Web Service** type in **New Project** dialog and specify all required project information.
+The update comes with a interface, including a toolbar and a view that serve only for API/Web Service testing. To create a **New API/Web Service Project**, select **API/Web Service** type in **New Project** dialog and specify all required project information.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/apiweb-service-project-since-v58/new-project.png" width=70%>
 
@@ -30,6 +30,6 @@ Read more:
 
 ### Request History Panel
 
-Same with a normal Katalon Project, the left column now have [Request History](https://docs.katalon.com/katalon-studio/docs/request-history.html) view where all the sent requests are saved here. You can freely access and retrieve them to work or save as a request object in the Object Repository.
+Same with a Katalon Project, the left column now have [Request History](https://docs.katalon.com/katalon-studio/docs/request-history.html) view where all the sent requests are saved here. You can freely access and retrieve them to work or save as a request object in the Object Repository.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/apiweb-service-project-since-v58/New-API.png" width=70%>
