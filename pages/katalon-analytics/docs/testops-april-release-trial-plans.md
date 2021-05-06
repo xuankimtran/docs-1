@@ -1,6 +1,6 @@
 ---
-title: "TestOps Trial Plans"
-sidebar: katalon_analytics_docs_sidebar
+title: "Trial Plans"
+sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/trial-plans.html 
 description: 
 ---
@@ -16,7 +16,7 @@ If you are a Katalon Studio user, you are automatically entitled to TestOps Comm
 
 ## Katalon TestOps Enterprise trial for new users
 
-> This trial request is applied for Cloud only. For On-Premise version, please contact our Sales team via sales@katalon.com.
+> This trial request is applied for Cloud only. For On-Premises version, please contact our Sales team via sales@katalon.com.
 
 Once you have a Katalon account, you can submit a trial request for Katalon TestOps Enterprise via the  website.
 

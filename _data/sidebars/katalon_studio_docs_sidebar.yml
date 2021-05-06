@@ -125,6 +125,10 @@ items:
                 url: /katalon-studio/tutorials/mobile-android-setup.html
               - title: "[Mobile] Create and Run Android Test Case"
                 url: /katalon-studio/tutorials/mobile-create-android-test-case.html
+          - title: "Web UI"
+            tree:
+              - title: "[WebUI] Create and Run Web UI Test Case using Record and Playback"
+                url: /katalon-studio/tutorials/webui-create-test-case.html
       - title: "GUI and Preferences"
         tree:
           - title: "Toolbars and Views"
@@ -1199,18 +1203,32 @@ items:
             url: /katalon-store/docs/publisher/manage-published-plugins.html
   - title: "Katalon TestOps"
     tree:
+      - title: "Subscriptions"
+        tree:
+          - title: "Overview"
+            url: /katalon-analytics/docs/testops_subscriptions_overview.html
+          - title: "Trial Plans"
+            url: /katalon-analytics/docs/trial-plans.html
+          - title: "Manage Subscriptions"
+            tree:
+              - title: "Create Subscriptions"
+                url: /katalon-analytics/docs/testops-subscriptions.html
+              - title: "Ugrade Subscriptions"
+                url: /katalon-analytics/docs/upgrade-subscriptions.html
+              - title: "Cancel Subscriptions"
+                url: /katalon-analytics/docs/cancel-subscriptions.html
       - title: "Get Started"
         tree:
           - title: "Welcome to Katalon TestOps"
             url: /katalon-analytics/docs/overview.html
           - title: "What's new"
             tree:
-              - title: What's new in TestOps Core 1.1.0?
+              - title: "April 2021"
+                url: /katalon-analytics/docs/kte-whats-new-in-april-release.html
+              - title: "March 2021"
                 url: /katalon-analytics/docs/new-core-11.html
-              - title: Core 1.x
-                url: /katalon-analytics/docs/core-1.x.html
-              - title: Advanced 0.1.x
-                url: /katalon-analytics/docs/advanced-0.1.x.html
+              - title: "2021 Releases"
+                url: /katalon-analytics/docs/testops-releases-2021.html
           - title: "Terminology" 
             url: /katalon-analytics/docs/testops-terminology.html
           - title: "Access Katalon TestOps"
@@ -1245,6 +1263,8 @@ items:
                 url: /katalon-analytics/docs/kt-upload-test-jest.html
               - title: "Upload Test to Katalon TestOps via Jasmine"
                 url: /katalon-analytics/docs/kt-upload-test-jasmine.html
+              - title: "Upload Test to Katalon TestOps via Pytest"
+                url: /katalon-analytics/docs/kt-upload-test-pytest.html
           - title: "Remote Execution"
             tree:
               - title: "Overview"
@@ -1261,8 +1281,12 @@ items:
                     url: /katalon-analytics/docs/agents.html
                   - title: "Load Balancing for Local Test Environments"
                     url: /katalon-analytics/docs/load-balancing-agents.html
+                  - title: "Run multiple Test Suites in parallel with Agents"
+                    url: /katalon-analytics/docs/kt_run_parallel_agent.html
               - title: "Docker Test Environments"
                 url: /katalon-analytics/docs/docker.html
+              - title: "Install TestOps On-premises with Docker"
+                url: /katalon-analytics/docs/kt_install_premises_docker.html
               - title: "Create a Kubernetes Test Environments"
                 url: /katalon-analytics/docs/aws-eks.html
           - title: "Jira Integration"
@@ -1273,6 +1297,8 @@ items:
                 url: /katalon-analytics/docs/kt-jira-config.html
               - title: "Jira Dashboard Gadgets"
                 url: /katalon-analytics/docs/jira-gadgets.html
+          - title: "Kobiton Integration"
+            url: /katalon-analytics/docs/kt_kobiton_integration.html
           - title: "Slack Integration"
             url: /katalon-analytics/docs/slack-integration.html
           - title: "Jenkins Integration"
@@ -1337,8 +1363,6 @@ items:
             url: /katalon-analytics/docs/ip-settings.html
           - title: "Delete data"
             url: /katalon-analytics/docs/project-management-delete.html
-          - title: "Katalon TestOps OnPremise"
-            url: /katalon-analytics/docs/ktop.html
           - title: "Subdomain Configurations"
             url: /katalon-analytics/docs/subdomain.html
           - title: "Single Sign-On (SSO) Configurations"
@@ -1450,5 +1474,4 @@ items:
       - title: "Sessions Monitoring"
         url: /katalium-server/docs/view-session-details.html
       - title: "Contributing Guidelines"
-        url: /katalium-server/docs/katalium-contributing.html
-     
+        url: /katalium-server/docs/katalium-contributing.html  
