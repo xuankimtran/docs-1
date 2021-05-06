@@ -1,5 +1,5 @@
 ---
-title: "Trial Plans"
+title: "TestOps Trial Plans"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/trial-plans.html 
 description: 
