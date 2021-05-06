@@ -16,7 +16,7 @@ Katalon Studio provides the integration with BitBucket to simplify performing va
 
 ### Connect to BitBucket with SSH Keys
 
-Follow [this document](https://support.atlassian.com/bitbucket-cloud/docs/set-up-an-ssh-key/) to set up an SSH Key and add that public key to your BitBucket Account settings. The basic steps are:
+Follow [this document](https://support.atlassian.com/bitbucket-cloud/docs/set-up-an-ssh-key/) to set up an SSH Key and add that public key to your BitBucket Account settings. Do as follows:
 
 1. Generating a public or private rsa key pair with this command:\
 `ssh-keygen -m PEM -t rsa -b 2048 -C "your_email@example.com"`
