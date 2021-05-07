@@ -4,8 +4,10 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/new/version-8x.html
 redirect_from:
     - "/katalon-studio/new/all-versions.html"
-description: Release notes 8.0
+description: Release notes 8.0.0
 ---
+
+> Download [here](https://www.katalon.com/download/)
 
 ### New Features
 
@@ -18,9 +20,9 @@ description: Release notes 8.0
 
 * Support Chrome 90.
 * Support Microsoft Edge (Chromium) 90.
+* Update the embedded GeckoDriver to the latest version.
 * Improve Performance: Load large projects faster and consume less memory during execution.
 * Edge Chromium is now the default **embedded browser** (used to be Internet Explorer).
-* Web Testing: Update the embedded GeckoDriver to the latest version.
 * [Windows OS] Replace embedded Oracle JRE 8 with Azul Zulu OpenJDK 8.
 * Enhance Katalon TestOps Integration:
     * [Katalon Runtime Engine] Support query for Test Suite Collection. [Learn more](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#general-options)

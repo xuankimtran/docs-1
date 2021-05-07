@@ -3,7 +3,6 @@ title: "Version History - 7.x"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/new/version-70.html
 redirect_from:
-    - "/katalon-studio/new/all-versions.html"
     - "/katalon-studio/new/version-72.html"
     - "/katalon-studio/new/version-72/"
     - "/katalon-studio/new/version-71/"
