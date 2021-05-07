@@ -2,6 +2,9 @@
 title: "Integration with Azure DevOps Test Plans"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/azure-devops-test-plans.html
+redirect_from:
+    - "https://docs.katalon.com/katalon-studio/docs/azure-devops-integration.html"
+
 description: 
 ---
 
@@ -46,7 +49,6 @@ From version 8.0.0 onwards, Katalon Studio can be natively integrated with Azure
 	</tbody>
 </table>
 
-The document introduces how the built-in **Azure DevOps Integration** feature looks like and how to use it in Katalon Studio.
 
 **Requirements**
 
@@ -58,10 +60,10 @@ The document introduces how the built-in **Azure DevOps Integration** feature lo
 
 You need to enable ADO integration and authenticate your ADO to retrieve and map test artifacts between two systems and submit test results to ADO. Do as follows:
 
-In Katalon Studion, go to **Project > Settings > Integrations > Azure DevOps**:
+In Katalon Studio, go to **Project > Settings > Integrations > Azure DevOps**:
 
 1. Select **Enable Intergration** to enable **Authentication** section for editting.
-
+xs
 2. Enter the required credentials for **Authentication**. Your credentials are encrypted by default for security.
 
     - **Server URL**: `https://dev.azure.com/{yourorganization}`
@@ -194,10 +196,10 @@ You can change the test plan ID, test run name, and build number of a test run b
 		</tr>
 		<tr>
 			<td data-colwidth="254">
-				<p>--info -adoBuildNumber="text"</p>
+				<p>--info -adoDefinitionID=&lt;DefinitionID&gt;</p>
 			</td>
 			<td data-colwidth="253">
-				<p>Pass the build number to Test Run properties on ADO.</p>
+				<p>Get the latest completed Build ID of the specified Definition ID and pass it to Test Run properties on ADO..</p>
 			</td>
 			<td data-colwidth="253">
 				<p>N</p>
@@ -205,15 +207,6 @@ You can change the test plan ID, test run name, and build number of a test run b
 		</tr>
 	</tbody>
 </table>
-
-### Known issues
-
-* Both macOS and Windows builds:
-   * [Katalon Studio] Moving Katalon Test Cases integrated with ADO to another folder causes the association to be lost. 
-   * [Katalon Runtime Engine] Using `-adoPlanId` with **invalid** value causes the execution to stop.
-   * Test Results submission is not applicable to a SKIPPED test case.
-* macOS build only:
-   * You can only set up this integration **ONCE** since there is an issue with switching the project and test plan later.
   
 ### Troubleshoot common issues
 
