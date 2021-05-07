@@ -19,13 +19,22 @@ A test suite could compile a series of actions depicting a particular user exper
 
 You plan test cases based on deciding which action a test case should perform. You then create a test suite flow by naming and ordering test cases.
 
+For example, to test user’s online shopping experience, your test suite might include the following sequential actions:
+
+* *Sign up* or *log in* test case.
+* *Enter shopping cart* test case.
+* *Check out* test case.
+* *Order confirmation* test case.
+
+Structuring test cases in a test suite prevents chaos and identifies issues before test suite execution.
+
 ## Test Suite execution
 
 Once defining test suite goals, the following guidelines could support your test suite execution step by step:
 1. [Create a new test suite](https://docs.katalon.com/katalon-studio/docs/test-suite.html#create-a-new-test-suite).
 2. Plan test suite operation.
-* [Modify execution information](https://docs.katalon.com/katalon-studio/docs/test-suite.html#modify-execution-information).
-* [Manage test case list](https://docs.katalon.com/katalon-studio/docs/test-suite.html#manage-test-case-list).
+    * [Modify execution information](https://docs.katalon.com/katalon-studio/docs/test-suite.html#modify-execution-information).
+    * [Manage test case list](https://docs.katalon.com/katalon-studio/docs/test-suite.html#manage-test-case-list).
 3. View [test suite reports](https://docs.katalon.com/katalon-studio/docs/test-suite-report.html#test-suite-report).
 
     Katalon Studio logs test suite results in different formats and provides a complete account of the test suite process to help spot errors and reduce test case restructuring time.
