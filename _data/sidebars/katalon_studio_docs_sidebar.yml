@@ -1007,6 +1007,8 @@ items:
             url: /katalon-studio/docs/jira-integration.html
           - title: "Git Integration"
             url: /katalon-studio/docs/git-integration.html
+          - title: "Bitbucket Integration"
+            url: /katalon-studio/docs/bitbucket-integration.html
           - title: "Slack Integration"
             url: /katalon-studio/docs/slack-plugin-integration.html
           - title: "Kobiton Integration"

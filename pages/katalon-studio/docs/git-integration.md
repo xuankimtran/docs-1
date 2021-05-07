@@ -1,5 +1,5 @@
 ---
-title: "Git Integration (BitBucket Integration)"
+title: "Git Integration"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/git-integration.html
 redirect_from:
