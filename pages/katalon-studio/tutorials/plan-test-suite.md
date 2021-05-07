@@ -1,32 +1,31 @@
 ---
-title: "Plan test suite"
+title: "Web UI - Plan Test Suite"
 sidebar: katalon_studio_tutorials_sidebar
-permalink: katalon-studio/tutorials/plan-test-suite.html
+permalink: katalon-studio/tutorials/webui-plan-test-suite.html
 description:
 ---
 
-## Plan Test Suite
+## Plan a Test Suite
 
-Before we run a test suite, we need to create multiple automated test cases in line with the test suite goal. This helps prevent chaos and restructuring of test cases.
+Planning a test suite helps prevent restructuring of test cases and execution errors.
 
-Test suite is a collection of multiple different or duplicate test cases. Executing a test suite means that each test case is run successively and automatically.
+Ask yourself the following questions:
+* What is your test suite goal?
+* How do you want to execute your test suite?
 
-Planning test suite process before creating automated test cases:
+## Define Test Suite goals
 
-* **Define test suite goals** and group actions of a particular web experience together. A test suite could compile a series of actions depicting a particular user experience on our website.
+A test suite could compile a series of actions depicting a particular user experience on your website.
 
-    For example, to test user’s online shopping experience on your website, your test suite might include the following actions:
-    1. Sign up or log in test case.
-    2. Enter shopping cart test case.
-    3. Check out test case.
-    4. Order confirmation test case.
+You plan test cases based on deciding which action a test case should perform. You then create a test suite flow by naming and ordering test cases.
 
-* **Plan test cases** by deciding which action/group of actions each test case performs, run test cases for double checking. Name and put test cases in a test suite accordingly. This creates a test suite flow and minimizes errors when running a test batch.
+## Test Suite execution
 
-* **Plan test suite operation** by setting the time it is run. If there are hundreds of test cases, running the batch overnight is time-saving.
+Once defining test suite goals, the following tutorials could support your test suite execution step by step:
+1. [Create a new test suite](https://docs.katalon.com/katalon-studio/docs/test-suite.html#create-a-new-test-suite).
+2. Plan test suite operation.
+* [Modify execution information](https://docs.katalon.com/katalon-studio/docs/test-suite.html#modify-execution-information).
+* [Manage test case list](https://docs.katalon.com/katalon-studio/docs/test-suite.html#manage-test-case-list).
+3. View [test suite reports](https://docs.katalon.com/katalon-studio/docs/test-suite-report.html#test-suite-report).
 
-> It is highly recommended that failure handling options such as [self-healing](https://docs.katalon.com/katalon-studio/docs/self-healing.html#tutorial-and-usage-example) and [smart wait](https://docs.katalon.com/katalon-studio/docs/webui-smartwait.html) are enabled to avoid operation failures at night when no one is available for checking.
-
-* **View test suite reports** to see operation results and check whether there is a test failure. If yes, find out where and why it failed. Katalon Studio logs test suite results in different formats and provides a full account of the test suite process to help spot errors and reduce test case restructuring time.
-
-The test suite is successful if each test case runs through successfully.
+    Katalon Studio logs test suite results in different formats and provides a complete account of the test suite process to help spot errors and reduce test case restructuring time.
