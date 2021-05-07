@@ -21,7 +21,7 @@ You plan test cases based on deciding which action a test case should perform. Y
 
 ## Test Suite execution
 
-Once defining test suite goals, the following tutorials could support your test suite execution step by step:
+Once defining test suite goals, the following guidelines could support your test suite execution step by step:
 1. [Create a new test suite](https://docs.katalon.com/katalon-studio/docs/test-suite.html#create-a-new-test-suite).
 2. Plan test suite operation.
 * [Modify execution information](https://docs.katalon.com/katalon-studio/docs/test-suite.html#modify-execution-information).
