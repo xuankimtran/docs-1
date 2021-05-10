@@ -50,7 +50,7 @@ Together with [private plugins](https://docs.katalon.com/katalon-studio/docs/kse
 
 ## Brand new Product Tours for new Web UI and Web Service users
 
-Picking up a new skill is hard and test automation is not an exception. Often our new users feel overwhelmed with what's offered in the tool. We feel you. That's why from v8.0.0 onwards, users using Katalon Studio for the first time can enjoy two product walkthroughs with Web and Web Service testing. Take a look at those tours:
+Picking up a new skill is hard, and test automation is not an exception. Often our new users feel overwhelmed with what's offered in the tool. We feel you. That's why from v8.0.0 onwards, users using Katalon Studio for the first time can enjoy two product walkthroughs with Web and Web Service testing. Take a look at those tours:
 
 <img alt="Web Walkthrough" src="" width=100%>
 
