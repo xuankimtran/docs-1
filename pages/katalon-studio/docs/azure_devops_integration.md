@@ -3,7 +3,7 @@ title: "Integration with Azure DevOps Test Plans"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/azure-devops-test-plans.html
 redirect_from:
-    - "https://docs.katalon.com/katalon-studio/docs/azure-devops-integration.html"
+    - "/katalon-studio/docs/azure-devops-integration.html"
 
 description: 
 ---
