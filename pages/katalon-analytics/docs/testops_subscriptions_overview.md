@@ -46,8 +46,8 @@ Once successfully subscribed, you will be provided the license key by our Sales 
 
 A three-month trial with unlimited test results is available upon request for both versions. For more information, please visit [Trial Plans](https://docs.katalon.com/katalon-analytics/docs/trial-plans.html#).
 
->### Notes ###
+### Notes ###
 
->This plan will be available for purchase on **June 22, 2021**. You will need to contact our Sales team to purchase **Katalon TestOps Enterprise**, both **Cloud** and **On-Premises** versions. Stay tuned for more information.
+> This plan will be available for purchase on **June 22, 2021**. You will need to contact our Sales team to purchase **Katalon TestOps Enterprise**, both **Cloud** and **On-Premises** versions. Stay tuned for more information.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops_subscriptions_overview/kt_table_com_ent.png)

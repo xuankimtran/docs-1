@@ -4,6 +4,9 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/sso-settings.html
 redirect_from:
 ---
+
+> This feature is only available for Katalon TestOps Enterprise. To request a free trial, please visit [Trial Plans](https://docs.katalon.com/katalon-analytics/docs/trial-plans.html).
+
 > This feature is accesible to the organization **Owner** and **Admin** only.
 
 ## Prerequisites
