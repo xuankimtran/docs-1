@@ -25,5 +25,5 @@ Your subscription will automatically renew on the specified day included in your
 See also:
 
 * [How to cancel a subscription](https://docs.katalon.com/katalon-studio/docs/cancel-subs.html)
-* [How to upgrade a subscription](https://docs.katalon.com/katalon-studio/docs/cancel-subs.html)
+* [How to upgrade a subscription](https://docs.katalon.com/katalon-studio/docs/upgrade-subs.html#add-more-licenses-to-a-subscription)
 * [How to manage subscribed licenses](https://docs.katalon.com/katalon-studio/docs/license-management.html)
