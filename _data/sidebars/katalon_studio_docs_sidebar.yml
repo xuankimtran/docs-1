@@ -1004,7 +1004,7 @@ items:
           - title: "Database Settings"
             url: /katalon-studio/docs/database-settings.html
           - title: "How to implement Data-driven Testing with MySQL?"
-            url: /katalon-studio/tutorials/how-to-implement-ddt-mysql.html
+            url: /katalon-studio/how-to-guides/how-to-implement-ddt-mysql.html
           - title: "Combine Multiple Data Sources"
             url: /katalon-studio/docs/combine-multiple-data-sources.html
       - title: "BDD Testing Framework (Cucumber integration)"

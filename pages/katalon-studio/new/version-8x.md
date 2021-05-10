@@ -34,7 +34,7 @@ description: Release notes 8.0.0
 ### Changes
 
 * Katalon accounts registered with personal email are eligible for Katalon Studio Enterprise and Katalon Runtime Engine trial licenses for 30 days.
-* MySQL becomes an external library. To continue using it, follow [this guide](/katalon-studio/tutorials/how-to-implement-ddt-mysql.html) to configure MySQL database connection.
+* MySQL becomes an external library. To continue using it, follow [this guide](/katalon-studio/how-to-guides/how-to-implement-ddt-mysql.html) to configure MySQL database connection.
 
 ### Fixes
 
