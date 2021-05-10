@@ -40,7 +40,7 @@ We believe a scaling need should have a scaling solution. In v8.0.0, it no longe
 
 When your business grows, your team's testing demand increases to ensure software quality. Whether the test automation needs to cover more new features, or you have more types of applications to test (for instance, before you only need to test Web, now your company launches a mobile app), there comes very often our users tend to store all the tests in one test project. Some projects even have up to thousands of test files. Whenever you open a test project, it takes you half an hour or more. And you get frustrated as a result and feel like you're wasting your time. The Katalon team totally understands your frustration. In this version, we are happy to let you know: For the second time to open the project, loading time is reduced by 60%.
 
-You may know that Katalon Studio stores custom keywords in individual files. Every time you open a test project, Katalon Studio needs to parse and compile the custom keywords in one file for your usage. We made an improvement here: we cache the keywords for later working sessions. What we need from you is a little patience for the first time.
+You may know that Katalon Studio stores custom keywords in individual files. Every time you open a test project, Katalon Studio needs to parse every single custom keyword, which means the more custom keywords a project stores, the longer it takes to finish opening that project. We made an improvement here: we cache the keywords parsing result. What we need from you is a little patience for the first time.
 
 ## Reusing Desired Capabilities across projects
 
