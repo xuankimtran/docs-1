@@ -5,19 +5,17 @@ permalink: katalon-studio/tutorials/how-to-implement-ddt-mysql.html
 description:
 ---
 
-Prior to v8.0, MySQL is one of the Katalon Studio built-in libraries, which allows the built-in database connection support. Unfortunately, due to the open-source library compliance issue, it is removed from Katalon Studio built-in function. 
+Prior to v8.0.0, MySQL is one of the libraries having built-in JDBC driver in Katalon Studio. From v8.0 onwards, the JDBC driver is no longer embedded in our tool. To continue using MySQL database, you need to add its driver to Katalon Studio. This document shows you how to configure MySQL database connection to keep it in use.
 
 > See which libraries Katalon Studio supports built-in JDBC drivers [here](https://docs.katalon.com/katalon-studio/docs/database-settings.html#introduce-database-connection).
 
-From v8.0 onwards, MySQL becomes an external library that impacts all existing projects' configurations having configured MySQL DB connection. This document will show you how to configure MySQL database connection to keep it in use.
-
-### Connect to MySQL database with the external JDBC driver
+### Connect to MySQL database with an external JDBC driver
 
 This section provides an usage example by connecting to MySQL database with its external JDBC driver.
 
 **Requirements**
 
-- Katalon Studio v8.0+.
+- Katalon Studio v8.0.0+.
 - An active Katalon Studio Enterprise license.
 - You have already set up MyQSL Database.
 - MySQL Database is running.
