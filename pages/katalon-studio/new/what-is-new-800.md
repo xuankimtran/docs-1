@@ -19,11 +19,11 @@ Katalon Studio 8.0.0 is now released with Azure Test Plans's native integration 
 
 In this update, we've focused on scalability and interoperability across projects and tools so you can have a cohesive experience in creating and executing automated tests. We are on a mission to help software team achieve continuous testing; hence, incorporating Katalon Studio into your SDLC & DevOps with ease and greater security is our top priority.
 
-This version offered teams using Azure DevOps Services one more native integration - Azure Test Plans for monitoring quality. Katalon Studio indeed plays a quality gate in your CI/CD pipeline. Furthermore, 8.0.0 packaged Edge Chromium as the default embedded browser in Katalon Studio IDE to improve the IDE performance, resolved security vulnerabilities, and drove the development towards Open-Source Software Compliance. And as usual - a ton of tidbits are also packed in this version (see [release notes](https://docs.katalon.com/katalon-studio/new/version-8x.html)). Let’s take a look at the most exciting features and changes that have been offered.
+This version offered teams using [Azure DevOps Services](https://azure.microsoft.com/en-in/services/devops/) one more native integration - [Azure Test Plans](https://azure.microsoft.com/en-in/services/devops/test-plans/) for monitoring quality. Katalon Studio indeed plays a quality gate in your CI/CD pipeline. Furthermore, 8.0.0 packaged Edge Chromium as the default embedded browser in Katalon Studio IDE to improve the IDE performance, resolved security vulnerabilities, and drove the development towards Open-Source Software Compliance. And as usual - a ton of tidbits are also packed in this version (see [release notes](https://docs.katalon.com/katalon-studio/new/version-8x.html)). Let’s take a look at the most exciting features and changes that have been offered.
 
 ## Continuous Testing with Azure Test Plans Integration
 
-A need for Continuous Testing is inevitable to companies adopting Continuous Integration. Integrating Katalon Studio into their SDLC & DevOps, in particular, the Azure DevOps, is our mission: letting Katalon Studio play an automatic quality gate. That ultimately serves the purpose of helping you achieve continuous testing.
+A need for Continuous Testing is inevitable to companies adopting Continuous Integration. Integrating Katalon Studio into your Azure DevOps workflow ultimately serves the purpose of helping you achieve continuous testing.
 
 Picture this: In the morning, you open your **Azure Test Plans** and already seen there the results of your **Pipeline** run last night. There is one red test outcome while the rest is green, you click on it, and you see an error message. To see what happened, what caused your test case to fail, you open the test run attachment where you can find a test report in HTML (because you like HTML) and an execution log. You want to make sure your test case failed because it found a bug, not because it's not good enough. You open the linked test case in Katalon Studio just to make sure your script is qualified. After a little while of debugging, you rerun your test script, and it passes. And you're confident that tomorrow it won't happen again. 8.0.0 further increases the interoperability between Katalon Studio and Azure DevOps Services. The desired workflow is as follows:
 
@@ -31,6 +31,8 @@ Picture this: In the morning, you open your **Azure Test Plans** and already see
 * Associate automated tests in Katalon with manual test cases in Azure Test Plans
 * Run Katalon tests in Azure Pipelines
 * On Azure Test Plans, view test results sent by Katalon Studio. You're equipped with test logs and reports for troubleshooting. [Learn more](https://docs.katalon.com/katalon-studio/docs/azure-devops-test-plans.html)
+
+<img alt="Azure DevOps and Katalon Studio" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/whatsnew800/interoperability.png" width=100%>
 
 ## Opening large Projects much faster
 
