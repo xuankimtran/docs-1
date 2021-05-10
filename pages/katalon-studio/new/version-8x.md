@@ -48,3 +48,4 @@ description: Release notes 8.0.0
 * Bug: An issue of deleting scripts when renaming folder name.
 * Bug: Cannot drag and drop a custom keyword from Keyword Browser.
 * Bug: Cannot update References of Called Test Cases when the test cases are moved by drag and drop or cut and paste.
+* Bug: [Mobile testing] Cannot capture object(s) while testing.
