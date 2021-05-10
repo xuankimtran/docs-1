@@ -25,20 +25,26 @@ This version offered teams using [Azure DevOps Services](https://azure.microsoft
 
 A need for Continuous Testing is inevitable to companies adopting Continuous Integration. Integrating Katalon Studio into your Azure DevOps workflow ultimately serves the purpose of helping you achieve continuous testing.
 
-Picture this: In the morning, you open your **Azure Test Plans** and already seen there the results of your **Pipeline** run last night. There is one red test outcome while the rest is green, you click on it, and you see an error message. To see what happened, what caused your test case to fail, you open the test run attachment where you can find a test report in HTML (because you like HTML) and an execution log. You want to make sure your test case failed because it found a bug, not because it's not good enough. You open the linked test case in Katalon Studio just to make sure your script is qualified. After a little while of debugging, you rerun your test script, and it passes. And you're confident that tomorrow it won't happen again. 8.0.0 further increases the interoperability between Katalon Studio and Azure DevOps Services. The desired workflow is as follows:
+Picture this: In the morning, you open your **Azure Test Plans** and already seen there the results of your **Pipeline** run last night. There is one red test outcome while the rest is green. What does it means? It means either there’s a bug found in your software build or in the failed test case itself.
+
+What will you do?
+
+Normally, you will start investigating to see what happened, what caused your test case to fail. You're equipped with test logs and reports sent by Katalon Studio for troubleshooting.
+
+8.0.0 further increases the interoperability between Katalon Studio and Azure DevOps Services with the following desired workflow:
 
 * Contribute to a project cloned from Azure Repos through Katalon's built-in Git Integration
 * Associate automated tests in Katalon with manual test cases in Azure Test Plans
 * Run Katalon tests in Azure Pipelines
-* On Azure Test Plans, view test results sent by Katalon Studio. You're equipped with test logs and reports for troubleshooting. [Learn more](https://docs.katalon.com/katalon-studio/docs/azure-devops-test-plans.html)
+* On Azure Test Plans, view test results sent by Katalon Studio.  [Learn more](https://docs.katalon.com/katalon-studio/docs/azure-devops-test-plans.html)
 
 <img alt="Azure DevOps and Katalon Studio" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/whatsnew800/interoperability.png" width=100%>
 
 ## Opening large Projects much faster
 
-We believe a scaling need should have a scaling solution. In v8.0.0, it no longer takes forever to open test projects with hundreds of custom keywords.
+We believe a scaling need should have a scaling solution. For the second time to open a project with hundreds of custom keywords, loading time is reduced by 60% in 8.0.0.
 
-When your business grows, your team's testing demand increases to ensure software quality. Whether the test automation needs to cover more new features, or you have more types of applications to test (for instance, before you only need to test Web, now your company launches a mobile app), there comes very often our users tend to store all the tests in one test project. Some projects even have up to thousands of test files. Whenever you open a test project, it takes you half an hour or more. And you get frustrated as a result and feel like you're wasting your time. The Katalon team totally understands your frustration. In this version, we are happy to let you know: For the second time to open the project, loading time is reduced by 60%.
+When your business grows, your team's testing demand increases to ensure software quality. Whether the test automation needs to cover more new features, or you have more types of applications to test (for instance, before you only need to test Web, now your company launches a mobile app), there comes very often our users tend to store all the tests in one test project. Some projects even have up to thousands of test files. Whenever you open a test project, it takes you half an hour or more. And you get frustrated as a result and feel like you're wasting your time. The Katalon team totally understands your frustration.
 
 You may know that Katalon Studio stores custom keywords in individual files. Every time you open a test project, Katalon Studio needs to parse every single custom keyword, which means the more custom keywords a project stores, the longer it takes to finish opening that project. We made an improvement here: we cache the keywords parsing result. What we need from you is a little patience for the first time.
 
@@ -50,11 +56,7 @@ Together with [private plugins](https://docs.katalon.com/katalon-studio/docs/kse
 
 ## Brand new Product Tours for new Web UI and Web Service users
 
-Picking up a new skill is hard, and test automation is not an exception. Often our new users feel overwhelmed with what's offered in the tool. We feel you. That's why from v8.0.0 onwards, users using Katalon Studio for the first time can enjoy two product walkthroughs with Web and Web Service testing. Take a look at those tours:
-
-<img alt="Web Walkthrough" src="" width=100%>
-
-<img alt="Web Service Walkthrough" src="" width=100%>
+Picking up a new skill is hard, and test automation is not an exception. Often our new users feel overwhelmed with what's offered in the tool. We feel you. That's why from v8.0.0 onwards, users using Katalon Studio for the first time can enjoy two product walkthroughs with Web and Web Service testing.
 
 ## Tidbits
 
