@@ -20,7 +20,7 @@ description: Release notes 8.0.0
 
 * Support Chrome 90.
 * Support Microsoft Edge (Chromium) 90.
-* Update the embedded GeckoDriver to the latest version.
+* Update the embedded GeckoDriver to 0.29.
 * Improve Performance: Load large projects faster and consume less memory during execution.
 * Edge Chromium is now the default **embedded browser** (used to be Internet Explorer).
 * [Windows OS] Replace embedded Oracle JRE 8 with Azul Zulu OpenJDK 8.
