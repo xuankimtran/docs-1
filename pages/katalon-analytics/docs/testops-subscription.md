@@ -1,12 +1,5 @@
 ---
 title: "Create TestOps subscriptions"
-<<<<<<< Updated upstream
-sidebar: katalon_analytics_docs_sidebar
-permalink: katalon-analytics/docs/create-testops-subscriptions.html 
-description: 
----
-## Access TestOps subscription plan
-=======
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/create-testops-subscriptions.html 
 description: 
@@ -17,7 +10,6 @@ You can create TestOps subscriptions in one of the following ways:
 * Via Katalon website
 
 ## Via TestOps subcription screen
->>>>>>> Stashed changes
 
 Start the following steps to subscribe:
 1. Log in to [Katalon TestOps](https://testops.katalon.io/).
@@ -32,11 +24,6 @@ Start the following steps to subscribe:
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-subscription/monthly-subs-3.png" width=70%>
 
-<<<<<<< Updated upstream
-## View TestOps subscriptions
-
-Once you have successfully subscribed to Katalon TestOps, you can view your subscriptions on **TestOps Subscriptions** page.
-=======
 ### View TestOps subscriptions
 
 Once you have successfully subscribed to Katalon TestOps, you can view your subscriptions on **TestOps Subscriptions** page.
@@ -109,4 +96,3 @@ After signing up successfully, an organization is auto-created with the user's e
 5. Fill out the payment and billing information, then click **Checkout**
 
 </details>
->>>>>>> Stashed changes
