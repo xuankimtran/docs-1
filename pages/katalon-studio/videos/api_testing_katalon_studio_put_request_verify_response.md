@@ -10,4 +10,4 @@ In this video, Karthik will discuss how to perform API Testing with Katalon Stu
 
 The course source code is available in GitHub [https://github.com/executeautomation/KatalonAPITesting](https://github.com/executeautomation/KatalonAPITesting)
 
-**Note: **This video is contributed by Karthik K.K from [http://executeautomation.com/blog/](http://executeautomation.com/blog/)
+**Note:** This video is contributed by Karthik K.K from [http://executeautomation.com/blog/](http://executeautomation.com/blog/).

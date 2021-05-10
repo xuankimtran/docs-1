@@ -55,8 +55,14 @@ items:
             url: /katalon-studio/docs/overview.html
           - title: "What's new"
             tree:
-              - title: "What's new in Katalon Studio 7.8"
-                url: /katalon-studio/new/what-is-new.html
+              - title: "What's new in v8.0.0?"
+                url: /katalon-studio/new/what-is-new-80.html
+              - title: "What's new in v7.9.0?"
+                url: /katalon-studio/new/what-is-new-79.html
+              - title: "What's new in v7.8.0?"
+                url: /katalon-studio/new/what-is-new-78.html
+              - title: "Version 8.x"
+                url: /katalon-studio/new/version-8x.html
               - title: "Version 7.x"
                 url: /katalon-studio/new/version-70.html
               - title: "Version 6.x"
@@ -105,6 +111,22 @@ items:
                 url: /katalon-studio/docs/web-service-samples.html
               - title: "BDD Samples"
                 url: /katalon-studio/docs/bdd-samples.html
+          - title: "iOS"
+            tree:
+              - title: "[Mobile] iOS Setup"
+                url: /katalon-studio/tutorials/mobile-ios-setup.html
+              - title: "[Mobile] Create and Run iOS Test Case"
+                url: /katalon-studio/tutorials/mobile-create-ios-test-case.html
+          - title: "Android"
+            tree:
+              - title: "[Mobile] Android Setup"
+                url: /katalon-studio/tutorials/mobile-android-setup.html
+              - title: "[Mobile] Create and Run Android Test Case"
+                url: /katalon-studio/tutorials/mobile-create-android-test-case.html
+          - title: "Web UI"
+            tree:
+              - title: "[WebUI] Create and Run Web UI Test Case using Record and Playback"
+                url: /katalon-studio/tutorials/webui-create-test-case.html
       - title: "GUI and Preferences"
         tree:
           - title: "Toolbars and Views"
@@ -150,7 +172,11 @@ items:
           - title: "Fixing broken Web Test Objects with Time Capsule"
             url: /katalon-studio/docs/time-capsule.html
           - title: "Desired Capabilities"
-            url: /katalon-studio/docs/introduction-to-desired-capabilities.html
+            tree:
+              - title: "Introduction to Desired Capabilities"
+                url: /katalon-studio/docs/introduction-to-desired-capabilities.html
+              - title: "Desired Capabilities Management"
+                url: /katalon-studio/docs/import-export-desired-capabilities.html
           - title: "Usage Examples"
             tree:
               - title: "Custom Keywords"
@@ -981,6 +1007,8 @@ items:
             url: /katalon-studio/docs/jira-integration.html
           - title: "Git Integration"
             url: /katalon-studio/docs/git-integration.html
+          - title: "Bitbucket Integration"
+            url: /katalon-studio/docs/bitbucket-integration.html
           - title: "Slack Integration"
             url: /katalon-studio/docs/slack-plugin-integration.html
           - title: "Kobiton Integration"
@@ -1005,6 +1033,8 @@ items:
             url: /katalon-studio/docs/testlink-integration.html
           - title: "App Center Integration"
             url: /katalon-studio/docs/app-center.html
+          - title: "Integration with Azure DevOps Test Plans (P.o.C)"
+            url: /katalon-studio/docs/azure-devops-test-plans.html
       - title: "Migration from other tools"
         tree:
           - title: "Selenium/TestNG/JUnit Migration"
@@ -1175,17 +1205,111 @@ items:
             url: /katalon-store/docs/publisher/manage-published-plugins.html
   - title: "Katalon TestOps (Beta)"
     tree:
-      - title: "Overview"
-        url: /katalon-analytics/docs/overview.html
-      - title: "Access Katalon TestOps"
-        url: /katalon-analytics/docs/getting-started.html
-      - title: "Set up Organizations"
-        url: /katalon-analytics/docs/setup-org-team-project.html
-      - title: "Set up Teams and Projects"
-        url: /katalon-analytics/docs/setup-team.html
-      - title: "API Keys"
-        url: /katalon-analytics/docs/ka-api-key.html
-      - title: "Upload Test Results to Katalon TestOps"
+      - title: "Subscriptions"
+        tree:
+          - title: "Overview"
+            url: /katalon-analytics/docs/testops_subscriptions_overview.html
+          - title: "Trial Plans"
+            url: /katalon-analytics/docs/trial-plans.html
+          - title: "Manage Subscriptions"
+            tree:
+              - title: "Create Subscriptions"
+                url: /katalon-analytics/docs/testops-subscriptions.html
+              - title: "Ugrade Subscriptions"
+                url: /katalon-analytics/docs/upgrade-subscriptions.html
+              - title: "Cancel Subscriptions"
+                url: /katalon-analytics/docs/cancel-subscriptions.html
+      - title: "Get Started"
+        tree:
+          - title: "Welcome to Katalon TestOps"
+            url: /katalon-analytics/docs/overview.html
+          - title: "What's new"
+            tree:
+              - title: "April 2021"
+                url: /katalon-analytics/docs/kte-whats-new-in-april-release.html
+              - title: "March 2021"
+                url: /katalon-analytics/docs/new-core-11.html
+              - title: "2021 Releases"
+                url: /katalon-analytics/docs/testops-releases-2021.html
+          - title: "Terminology" 
+            url: /katalon-analytics/docs/testops-terminology.html
+          - title: "Access Katalon TestOps"
+            url: /katalon-analytics/docs/getting-started.html
+          - title: "Create Organization"
+            url: /katalon-analytics/docs/kt-create-org.html
+          - title: "Invite a user into an Organization"
+            url: /katalon-analytics/docs/kt_invite_user_org.html
+          - title: "Set up Teams and Projects"
+            url: /katalon-analytics/docs/setup-team.html
+      - title: "Configurations"
+        tree:
+          - title: "Katalon Studio Integration"
+            tree:
+              - title: "Upload Test Results automatically from Katalon Studio"
+                url: /katalon-studio/docs/katalon-analytics-beta-integration.html
+              - title: "Upload Test Results manually from Katalon Studio"
+                url: /katalon-analytics/docs/project-management-import-KS.html
+              - title: "Upload a Test Suite to the Katalon TestOps"
+                url: /katalon-analytics/docs/ks_upload_project_kt.html
+          - title: "Framework Integration"
+            tree:
+              - title: "Upload JUnit and Katalon Studio Test Results using Katalon Report Uploader"
+                url: /katalon-analytics/docs/project-management-import-cli.html
+              - title: "Upload JUnit and Katalon Studio Test Results from web browsers"
+                url: /katalon-analytics/docs/testops-uploader.html
+              - title: "Upload JUnit and TestNG Test Results via Maven" 
+                url: /katalon-analytics/docs/upload-junit-and-testng.html
+              - title: "Upload Test to Katalon TestOps via Mocha"
+                url: /katalon-analytics/docs/kt-upload-test-mocha.html
+              - title: "Upload Test to Katalon TestOps via Jest"
+                url: /katalon-analytics/docs/kt-upload-test-jest.html
+              - title: "Upload Test to Katalon TestOps via Jasmine"
+                url: /katalon-analytics/docs/kt-upload-test-jasmine.html
+              - title: "Upload Test to Katalon TestOps via Pytest"
+                url: /katalon-analytics/docs/kt-upload-test-pytest.html
+          - title: "Remote Execution"
+            tree:
+              - title: "Overview"
+                url: /katalon-analytics/docs/test-run-config.html
+              - title: "Upload Test Scripts to a Script Repository"
+                url: /katalon-analytics/docs/code-repo.html
+              - title: "Upload test scripts from Git repositories"
+                url: /katalon-analytics/docs/git-test-project.html
+              - title: "Local Test Environments"
+                tree:
+                  - title: "Install Katalon TestOps Agent on a test machine" 
+                    url: /katalon-analytics/docs/install_kt_agent.html
+                  - title: "Create a Local Test Environment with Agent"
+                    url: /katalon-analytics/docs/agents.html
+                  - title: "Load Balancing for Local Test Environments"
+                    url: /katalon-analytics/docs/load-balancing-agents.html
+                  - title: "Run multiple Test Suites in parallel with Agents"
+                    url: /katalon-analytics/docs/kt_run_parallel_agent.html
+              - title: "Docker Test Environments"
+                url: /katalon-analytics/docs/docker.html
+              - title: "Install TestOps On-premises with Docker"
+                url: /katalon-analytics/docs/kt_install_premises_docker.html
+              - title: "Create a Kubernetes Test Environments"
+                url: /katalon-analytics/docs/aws-eks.html
+          - title: "Jira Integration"
+            tree:
+              - title: "Jira Releases"
+                url: /katalon-analytics/docs/kt-jira-release.html
+              - title: "Jira Settings"
+                url: /katalon-analytics/docs/kt-jira-config.html
+              - title: "Jira Dashboard Gadgets"
+                url: /katalon-analytics/docs/jira-gadgets.html
+          - title: "Kobiton Integration"
+            url: /katalon-analytics/docs/kt_kobiton_integration.html
+          - title: "Slack Integration"
+            url: /katalon-analytics/docs/slack-integration.html
+          - title: "Jenkins Integration"
+            url: /katalon-analytics/docs/ka-integration-jenkins.html
+          - title: "Notification Emails"
+            url: /katalon-analytics/docs/kt-noti-email.html
+          - title: "API Keys"
+            url: /katalon-analytics/docs/ka-api-key.html
+      - title: "Test Planning"
         tree:
           - title: "Upload Test Results automatically from Katalon Studio"
             url: /katalon-studio/docs/katalon-analytics-beta-integration.html
@@ -1222,35 +1346,17 @@ items:
       - title: "Test Planning"
         tree: 
           - title: "Overview"
-            url: /katalon-analytics/docs/kt-remote-execution.html
-          - title: "Local Test Environments"
-            tree:
-              - title: "Set up Local Test Environments"
-                url: /katalon-analytics/docs/agents.html
-              - title: "Load Balancing for Local Test Environments"
-                url: /katalon-analytics/docs/load-balancing-agents.html
-          - title: "AWS EKS Test Environments"
-            url: /katalon-analytics/docs/aws-eks.html
-          - title: "Test Projects"
-            tree:
-              - title: "Upload Test Projects"
-                url: /katalon-analytics/docs/code-repo.html
-              - title: "Upload Git Test Project"
-                url: /katalon-analytics/docs/git-test-project.html
-          - title: "Remote Execution Plan"
-            tree:
-              - title: "Create and Run a Test Plan"
-                url: /katalon-analytics/docs/create-plan.html
-              - title: "Schedule a Test Plan"
-                url: /katalon-analytics/docs/kt-scheduler.html
-              - title: "View Test Plan Summary in Katalon Studio"
-                url: /katalon-analytics/docs/view-ci-plans.html
-          - title: "Integration with Jenkins"
-            url: /katalon-analytics/docs/ka-integration-jenkins.html
-      - title: "Test Analytics"
-        url: /katalon-analytics/docs/view-reports-overview.html
-      - title: "Configure Notification Emails"
-        url: /katalon-analytics/docs/kt-noti-email.html
+            url: /katalon-analytics/docs/view-reports-overview.html
+          - title: "Change the Test Result from failing to passing"
+            url: /katalon-analytics/docs/kt-change-result-pass-fail.html      
+          - title: "Detect abnormal Web Services"
+            url: /katalon-analytics/docs/view-abnormal-web-services.html
+          - title: "View Requirement Coverage heat map"
+            url: /katalon-analytics/docs/requirement-coverage.html
+          - title: "View Test Case reports"
+            url: /katalon-analytics/docs/view-test-cases.html
+          - title: "Visual Testing" 
+            url: /katalon-analytics/docs/ks-visual-testing.html
       - title: "REST API"
         url: /katalon-analytics/docs/rest-api.html
       - title: "Tutorials"
@@ -1261,8 +1367,6 @@ items:
             url: /katalon-analytics/docs/ip-settings.html
           - title: "Delete data"
             url: /katalon-analytics/docs/project-management-delete.html
-          - title: "Katalon TestOps OnPremise"
-            url: /katalon-analytics/docs/ktop.html
           - title: "Subdomain Configurations"
             url: /katalon-analytics/docs/subdomain.html
           - title: "Single Sign-On (SSO) Configurations"
@@ -1277,32 +1381,68 @@ items:
             url: /katalon-analytics/docs/network-config.html
   - title: "Katalon Recorder"
     tree:
-      - title: "Overview"
-        url: /katalon-recorder/docs/overview.html
-      - title: "Release Notes"
-        url: /katalon-recorder/docs/release-notes.html
-      - title: "FAQ & Troubleshooting Instructions"
-        url: /katalon-recorder/docs/faq-and-troubleshooting-instructions.html
-      - title: "GUI Overview"
-        url: /katalon-recorder/docs/gui-overview.html
-      - title: "Katalon Recorder Helper Tool"
-        url: /katalon-recorder/docs/katalon-recorder-helper-tool.html
-      - title: "Extension Scripts (AKA user-extensions.js) for Custom Locator Builders and Actions"
-        url: /katalon-recorder/docs/extension-scripts-aka-user-extensionsjs-for-custom-locator-builders-and-actions.html
-      - title: "Writing Custom Script Formatter"
-        url: /katalon-recorder/docs/writing-custom-script-formatter.html
-      - title: "Samples"
-        url: /katalon-recorder/docs/samples.html
-      - title: "Selenese (Selenium IDE) Commands Reference"
-        url: /katalon-recorder/docs/selenese-selenium-ide-commands-reference.html
-      - title: "Export Test Case as Script"
-        url: /katalon-recorder/docs/export-test-script.html
-      - title: "Katalon Recorder vs Katalon Studio"
-        url: /katalon-recorder/docs/katalon-recorder-vs-katalon-studio.html
-      - title: "Auto Backup in Katalon TestOps"
-        url: /katalon-recorder/docs/auto-backup.html
-      - title: "Acknowledgments"
-        url: /katalon-recorder/docs/acknowledgments.html
+      - title: "Getting started"
+        tree:
+          - title: "Overview"
+            url: /katalon-recorder/docs/overview.html
+          - title: "Release Notes"
+            url: /katalon-recorder/docs/release-notes.html
+          - title: "GUI Overview"
+            url: /katalon-recorder/docs/gui-overview.html
+          - title: "What's new"
+            url: /katalon-recorder/docs/whats-new.html
+      - title: "Production Evaluation Center"
+        tree:
+          - title: "Katalon Recorder vs Selenium IDE"
+            url: /katalon-recorder/docs/katalon-recorder-vs-selenium-ide.html
+          - title: "Katalon Recorder vs Alternatives"
+            url: /katalon-recorder/docs/katalon-recorder-vs-alternatives.html
+      - title: "Get your job done"
+        tree:
+          - title: "Automate scenarios"
+            tree:
+              - title: "Selenese (Selenium IDE) Commands Reference"
+                url: /katalon-recorder/docs/selenese-selenium-ide-commands-reference.html
+              - title: "Basics of automating scenarios"
+                url: /katalon-recorder/docs/automate-scenarios.html
+              - title: "Handle conditional cases"
+                url: /katalon-recorder/docs/conditional-cases.html
+              - title: "Validate expected values"
+                url: /katalon-recorder/docs/validate-expected-values.html
+          - title: "Execute scenarios"
+            tree:
+              - title: "Basics of executing scenarios"
+                url: /katalon-recorder/docs/execute-scenarios.html
+          - title: "Monitor scenarios"
+            tree:
+              - title: "Basics of monitoring scenario executions"
+                url: /katalon-recorder/docs/auto-backup.html
+          - title: "Export scenarios"
+            tree:
+              - title: "Export Test Case as Script"
+                url: /katalon-recorder/docs/export-test-script.html
+              - title: "Writing Custom Script Formatter"
+                url: /katalon-recorder/docs/writing-custom-script-formatter.html
+          - title: "Data-driven excecution"
+            url: /katalon-recorder/docs/data-driven-execution.html
+          - title: "Social values"
+            tree:
+              - title: "Daily Usage"
+                url: /katalon-recorder/docs/daily-usage.html
+          - title: "Extend Katalon Recorder"
+            tree:
+              - title: "Katalon Recorder Helper Tool"
+                url: /katalon-recorder/docs/katalon-recorder-helper-tool.html
+              - title: "Extension Scripts (AKA user-extensions.js) for Custom Locator Builders and Actions"
+                url: /katalon-recorder/docs/extension-scripts-aka-user-extensionsjs-for-custom-locator-builders-and-actions.html
+      - title: "Help & Resources"
+        tree:
+          - title: "FAQ & Troubleshooting Instructions"
+            url: /katalon-recorder/docs/faq-and-troubleshooting-instructions.html
+          - title: "Samples"
+            url: /katalon-recorder/docs/samples.html
+          - title: "Acknowledgments"
+            url: /katalon-recorder/docs/acknowledgments.html
   - title: "Katalium Framework"
     tree:
       - title: "Overview"
@@ -1338,5 +1478,4 @@ items:
       - title: "Sessions Monitoring"
         url: /katalium-server/docs/view-session-details.html
       - title: "Contributing Guidelines"
-        url: /katalium-server/docs/katalium-contributing.html
-     
+        url: /katalium-server/docs/katalium-contributing.html  

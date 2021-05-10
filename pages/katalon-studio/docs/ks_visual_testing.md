@@ -75,3 +75,21 @@ We choose the tab **Results** and click the button **Save to baseline**.
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ks_visual_testing/kt_click_new_baseline.png)
 
 And now, Katalon TestOps will compare the new baseline with the screenshot of the new Test Run.
+
+**See also**
+
+[[WebUI] Take Area Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/webui-take-area-screenshot-as-checkpoint.html)
+
+[[WebUI] Take Element Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/webui-take-element-screenshot-as-checkpoint.html)
+
+[[WebUI] Take Full Page Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/webui-take-fullpage-screenshot-as-checkpoint.html)
+
+[[WebUI] Take Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/webui-take-screenshot-as-checkpoint.html)
+
+[[Mobile] Take Area Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/mobile-take-area-screenshot-as-checkpoint.html)
+
+[[Mobile] Take Element Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/mobile-take-element-screenshot-as-checkpoint.html)
+
+[[Mobile] Take Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/mobile-take-screenshot-as-checkpoint.html)
+
+

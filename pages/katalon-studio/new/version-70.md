@@ -3,7 +3,6 @@ title: "Version History - 7.x"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/new/version-70.html
 redirect_from:
-    - "/katalon-studio/new/all-versions.html"
     - "/katalon-studio/new/version-72.html"
     - "/katalon-studio/new/version-72/"
     - "/katalon-studio/new/version-71/"
@@ -58,13 +57,14 @@ description: Release note 7.x
   - [Web UI][Take Element Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/webui-take-element-screenshot-as-checkpoint.html)
   - [Web UI][Take Area Screenshot](https://docs.katalon.com/katalon-studio/docs/webui-take-area-screenshot.html)
   - [Web UI][Take Area Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/webui-take-area-screenshot-as-checkpoint.html)
-* Support Class File Decompiler for debug. [Learn more](https://docs.katalon.com/katalon-studio/docs/execute-a-test-case-or-a-test-suite.html#decompile-class-file-for-debugging)
+* Support Class File Decompiler for debug. [Learn more](https://docs.katalon.com/katalon-studio/docs/class-decompiler.html)
 * Support setting a new default JRE in test projects. [Learn more](https://docs.katalon.com/katalon-studio/how-to-guides/set-new-default-JRE.html)
 * [Katalon TestOps Vision] Support [a sample project for Visual Testing with TestOps Vision](https://github.com/katalon-studio-samples/web-visual-testing-samples).
 
 ### Improvements
 
 * Upgrade Eclipse IDE from version 4.6 to 4.16.
+* Upgrade Groovy compiler from version 2.4.7 to version 2.4.20.
 * Notarize Katalon Studio and Katalon Runtime Engine applications for macOS Catalina. [Learn more](https://developer.apple.com/documentation/xcode/notarizing_macos_software_before_distribution)
 * Enhance qTest Integration, including:
    - Support uploading screenshots in test results to qTest. [Learn more](https://docs.katalon.com/katalon-studio/docs/qtest-integration.html#manual-setup)
