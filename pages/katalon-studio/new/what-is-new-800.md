@@ -50,8 +50,14 @@ Together with [private plugins](https://docs.katalon.com/katalon-studio/docs/kse
 
 ## Brand new Product Tours for new Web UI and Web Service users
 
+Picking up a new skill is hard and test automation is not an exception. Often our new users feel overwhelmed with what's offered in the tool. We feel you. That's why from v8.0.0 onwards, users using Katalon Studio for the first time can enjoy two product walkthroughs with Web and Web Service testing. Take a look at those tours:
+
+<img alt="Web Walkthrough" src="" width=100%>
+
+<img alt="Web Service Walkthrough" src="" width=100%>
+
 ## Tidbits
 
 * Edge Chromium became the default embedded browser in Katalon Studio IDE: Before 8.0.0, Internet Explorer is the default embedded browser in Katalon Studio, which have caused multiple issues, for instance, failure to render variable editors of test case & request object; or failure to submit a bug to the integrated Jira project. Enabled by the Eclipse platform upgraded in v7.9, we can replace Internet Explorer with Edge Chromium to resolve those issues.
-* Newly supported browser versions: Chrome 90; Support Microsoft Edge (Chromium) 90.
+* Newly supported browser versions: Chrome 90 and Microsoft Edge (Chromium) 90.
 * Maximizing Katalon Runtime Engine License Usage by an ability to enforce releasing the license used for the previous session through a command option: `-licenseRelease`.
