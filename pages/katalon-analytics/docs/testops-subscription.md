@@ -1,28 +1,28 @@
 ---
 title: "Create TestOps subscriptions"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-analytics/docs/testops-subscriptions.html
+permalink: katalon-analytics/docs/testops-subscriptions.html 
 description: 
 ---
 
-You can create TestOps subscriptions in one of the following ways: 
-* Via TestOps subscription screen
+You can create TestOps subscriptions in one of the following ways:
+* Via TestOps website
 * Via Katalon website
 
-## Via TestOps subcription screen
+## Via TestOps website
 
 Start the following steps to subscribe:
 1. Log in to [Katalon TestOps](https://testops.katalon.io/).
 2. Select your organization.
 3. Go to **Settings** > **Subscription Management** > **TestOps Subscriptions**. Choose your plan (**Monthly** or **Annual**) then click **Subscribe**.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-subscription/subscribe-renameTEbusiness.png">
+    ![sub-1](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-subscription/subscribe-renameTEbusiness.png)
 
 4. Review the order and click **Checkout**. Fill in **Billing information**. You must fill in all required fields.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-subscription/monthly-subs-2.png">
+    ![sub-2](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-subscription/monthly-subs-2.png)
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-subscription/monthly-subs-3.png">
+    ![sub-3](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-subscription/monthly-subs-3.png)
 
 ### View TestOps subscriptions
 
@@ -83,15 +83,14 @@ Start the following steps to log in:
 
 After signing up successfully, an organization is auto-created with the user's email as the organization name. Continue the following steps:
 
-1. Navigate back to the **Pricing** page
+1. Navigate to **TestOps Subscriptions** page.
 
-2. Navigate to **TestOps Subscriptions** page.
+2. Select the desired plan and number of test results.
 
-3. Select the desired plan and number of test results.
-
-4. Click **Checkout** to review the order.
+3. Click **Checkout** to review the order.
 
     ![choose-plan](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-may-subscription-via-web/via-web-1.png)
 
-5. Fill out the payment and billing information, then click **Checkout**
+4. Fill out the payment and billing information, then click **Checkout**
 
+</details>
