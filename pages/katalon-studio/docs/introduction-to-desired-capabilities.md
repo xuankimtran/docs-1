@@ -1,5 +1,5 @@
 ---
-title: "Desired Capabilities" 
+title: "Introduction to Desired Capabilities" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/introduction-to-desired-capabilities.html 
 redirect_from:
