@@ -27,7 +27,7 @@ Consequently, from version 8.0.0, Katalon Studio allows you to import and export
 					<ol>
 						<li>Choose the driver you want to export its desired capabilities &gt; <a href="https://docs.katalon.com/%20katalon-studio/docs/import-export-desired-capabilities.html/export-desired-capabilities">Export</a> it as JSON file.</li>
 						<li>Modify the JSON file if needed.</li>
-						<li>Choose the driver you want to import the desired capabilities &gt; <a href="https://docs.katalon.com/%20katalon-studio/docs/import-export-desired-capabilities.html/import-desired-capabilities">Import</a> the JSON file in step 1.</li>
+						<li>Choose the driver you want to import the desired capabilities &gt; <a href="https://docs.katalon.com/%20katalon-studio/docs/import-export-desired-capabilities.html/import-desired-capabilities">Import</a> the modified JSON file.</li>
 					</ol>
 			</td>
 		</tr>
