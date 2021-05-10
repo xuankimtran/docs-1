@@ -27,7 +27,7 @@ A need for Continuous Testing is inevitable to companies adopting Continuous Int
 
 Picture this: In the morning, you open your **Azure Test Plans** and already seen there the results of your **Pipeline** run last night. There is one red test outcome while the rest is green, you click on it, and you see an error message. To see what happened, what caused your test case to fail, you open the test run attachment where you can find a test report in HTML (because you like HTML) and an execution log. You want to make sure your test case failed because it found a bug, not because it's not good enough. You open the linked test case in Katalon Studio just to make sure your script is qualified. After a little while of debugging, you rerun your test script, and it passes. And you're confident that tomorrow it won't happen again. 8.0.0 further increases the interoperability between Katalon Studio and Azure DevOps Services. The desired workflow is as follows:
 
-* Clone and contribute to a project from Azure Repos through Katalon's built-in Git Integration
+* Contribute to a project cloned from Azure Repos through Katalon's built-in Git Integration
 * Associate automated tests in Katalon with manual test cases in Azure Test Plans
 * Run Katalon tests in Azure Pipelines
 * On Azure Test Plans, view test results sent by Katalon Studio. You're equipped with test logs and reports for troubleshooting. [Learn more](https://docs.katalon.com/katalon-studio/docs/azure-devops-test-plans.html)
