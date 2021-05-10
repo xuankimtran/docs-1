@@ -20,7 +20,7 @@ Consequently, from version 8.0.0, Katalon Studio allows you to import and export
 		</tr>
 		<tr>
 			<td>
-				<p>To reuse or copy the configured desired capabilities to multiple places with some minor changes.</p>
+				<p>Reuse or copy the configured desired capabilities to multiple places with some minor changes.</p>
 			</td>
 			<td rowspan="2">
 				<ol>
@@ -31,7 +31,7 @@ Consequently, from version 8.0.0, Katalon Studio allows you to import and export
 			</td>
 		</tr>
 		<tr>
-			<td>To share the configured desired capabilities for team members to reduce the effort spent on modification and recreation of the same settings.</td>
+			<td>Share the configured desired capabilities for team members to reduce the effort spent on modification and recreation of the same settings.</td>
 		</tr>
 	</tbody>
 </table>
