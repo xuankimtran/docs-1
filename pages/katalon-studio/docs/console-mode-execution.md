@@ -515,20 +515,20 @@ katalonc -noSplash -runMode=console -projectPath="C:\Users\Katalon Studio\Projec
       <tr>
          <td>-adoPlanId=&lt;testplan id&gt;</td>
          <td>
-         <p>ID of the test plan used for submitting test run(s)(available from version <strong>8.0.0+</strong>).</p>
+         <p>ID of the test plan used for submitting test run(s)(available from version <strong>8.0.0</strong>).</p>
          </td>
          <td>N</td>
       <tr>
          <td>-adoTestRunName="text"</td>
          <td>
-         <p>From version <strong>8.0.0+</strong>, you can create test run(s) on ADO with the specified name.</p>
+         <p>From version <strong>8.0.0</strong>, you can create test run(s) on ADO with the specified name.</p>
          </td>
          <td>N</td>
       </tr>
       <tr>
          <td>--info -adoBuildNumber="text"</td>
          <td>
-         <p>From version <strong>8.0.0+</strong>, you can pass the build number to Test Run properties on ADO.</p>
+         <p>From version <strong>8.0.0</strong>, you can pass the build number to Test Run properties on ADO.</p>
          </td>
          <td>N</td>
       </tr>
