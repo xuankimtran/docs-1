@@ -225,7 +225,7 @@ Here's the list of options supported for the `katalonc` commands for Katalon Stu
       <tr>
          <td>-testOpsBuildId</td>
          <td>
-         <p>Specify the build ID to update Test Suite/Test Suite Collection report.</p>
+         <p>From version <strong>8.0.0</strong>, you can specify the build ID to update Test Suite/Test Suite Collection report.</p>
          <p>Example:</p>
          <p><code class="java plain"> -testOpsBuildId=24 </code></p>
          </td>
@@ -234,7 +234,7 @@ Here's the list of options supported for the `katalonc` commands for Katalon Stu
       <tr>
          <td>-testSuiteCollectionQuery</td>
          <td>
-         <p>Enable or Disable Test Suite(s) in Test Suite Collection.</p>
+         <p>From version <strong>8.0.0</strong>, you can enable or disable Test Suite(s) in Test Suite Collection.</p>
          <p>Example:</p>
          <p><code class="java plain"> -testSuiteCollectionQuery=”indexes=(1,3)” </code></p>
          </td>
@@ -253,7 +253,7 @@ Here's the list of options supported for the `katalonc` commands for Katalon Stu
          <p>-licenseRelease</p>
          <p>-orgID=&lt;organization's id&gt;</p>
          <td>
-         <p>Release the previous execution session before checking license.</p>
+         <p>From version <strong>8.0.0</strong>, you can release the previous execution session before checking license.</p>
          <p>Example:</p>
          <p><code class="java plain"> -licenseRelease=true </code></p>
          <p><code class="java plain"> -orgID=89151</code></p>
@@ -515,20 +515,20 @@ katalonc -noSplash -runMode=console -projectPath="C:\Users\Katalon Studio\Projec
       <tr>
          <td>-adoPlanId=&lt;testplan id&gt;</td>
          <td>
-         <p>ID of the test plan used for submitting test run(s).</p>
+         <p>ID of the test plan used for submitting test run(s)(available from version <strong>8.0.0</strong>).</p>
          </td>
          <td>N</td>
       <tr>
          <td>-adoTestRunName="text"</td>
          <td>
-         <p>Create test run(s) on ADO with the specified name.</p>
+         <p>From version <strong>8.0.0</strong>, you can create test run(s) on ADO with the specified name.</p>
          </td>
          <td>N</td>
       </tr>
       <tr>
          <td>--info -adoBuildNumber="text"</td>
          <td>
-         <p>Pass the build number to Test Run properties on ADO.</p>
+         <p>From version <strong>8.0.0</strong>, you can pass the build number to Test Run properties on ADO.</p>
          </td>
          <td>N</td>
       </tr>
