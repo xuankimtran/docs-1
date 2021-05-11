@@ -14,7 +14,6 @@ This document shows you how to add a driver for MySQL database connection to kee
 **Requirements**
 
 - Katalon Studio v8.0.0+.
-- An active Katalon Studio Enterprise license.
 - You have already set up MyQSL Database.
 - MySQL Database is running.
 
@@ -31,7 +30,6 @@ Do as follows:
 
     - Select **Secure User and Password** to enable **User** and **Password** for editing.
     - Input **User** name and **Password** used for authentication.
-    - Enter **JDBC Driver**.
     - Enter **Connection URL**.
     - Click **Test Connection** to verify whether your database is connected successfully.
 
