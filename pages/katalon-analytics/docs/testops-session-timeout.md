@@ -1,5 +1,5 @@
 ---
-title: "Configure Session Timeout"
+title: "Configure Timeout Session"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/timeout-config.html
 description:
