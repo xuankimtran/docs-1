@@ -1351,7 +1351,7 @@ items:
             url: /katalon-analytics/docs/strict-domain.html
           - title: "Configure Network Security"
             url: /katalon-analytics/docs/network-config.html
-          - title: "Configure Session Timeout"
+          - title: "Configure Timeout Session"
             url: /katalon-analytics/docs/timeout-config.html
   - title: "Katalon Recorder"
     tree:
