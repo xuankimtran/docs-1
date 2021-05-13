@@ -35,7 +35,7 @@ Go through the "Recording a scenario of counting down Green Tea making time via 
 
 1. On the main toolbar, click on the **Record Mobile** icon and select your device type. For example, **iOS Devices**.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/record-iOS.png" width=30%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/record-iOS.png" width=100%>
 
 2. In the displayed **Mobile Recorder** dialog, specify the information at the **Configurations** section:
 
