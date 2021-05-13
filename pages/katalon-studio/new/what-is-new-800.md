@@ -65,5 +65,5 @@ Picking up a new skill is hard, and test automation is not an exception. Often o
 ## Tidbits
 
 * Edge Chromium became the default embedded browser in Katalon Studio IDE: Before 8.0.0, Internet Explorer is the default embedded browser in Katalon Studio, which have caused multiple issues, for instance, failure to render variable editors of test case & request object; or failure to submit a bug to the integrated Jira project. Enabled by the Eclipse platform upgraded in v7.9, we can replace Internet Explorer with Edge Chromium to resolve those issues.
-* Newly supported browser versions: Chrome 90, Microsoft Edge (Chromium) 90, Firefox 0.29.
+* Newly supported browser versions: Chrome 90, Microsoft Edge (Chromium) 90, Firefox 88.
 * Maximizing Katalon Runtime Engine License Usage by an ability to enforce releasing the license used for the previous session through a command option: `-licenseRelease`.
