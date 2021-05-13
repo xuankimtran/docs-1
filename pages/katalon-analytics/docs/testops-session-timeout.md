@@ -22,4 +22,4 @@ Click **Save** once finished.
 
 ![timeout-screen](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-session-timeout/session-timeout-2.png)
 
-If you enter a number, all inactive users in the organization will be logged out after the number of minutes you have determined.
+If you enter a number, all inactive users in your organization will be logged out after the number of minutes you have determined.
