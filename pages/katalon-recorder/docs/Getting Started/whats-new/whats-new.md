@@ -38,5 +38,5 @@ We have streamlined the registration & log-in process by integrating it into the
 Users are strongly encouraged to sign up for a free Katalon account to get access to regular product updates and upcoming advanced features. However, it's important to experience the values of the product first before investing further efforts. From 5.3.36, users can try out Katalon Recorder without an account, but a reminder will appear after every test execution for unregistered users.
 
 ## Tidbits
-- Mac users can now use both CTRL and CMD in hotkeys. Previously they were limited to CTRL which may not be intuitive to some users. Additionally, sers can also initiate undo/redo with hotkeys (ctrl/cmd + z and ctrl/cmd + y).
+- Mac users can now use both CTRL and CMD in hotkeys. Previously they were limited to CTRL which may not be intuitive to some users. Additionally, users can also initiate undo/redo with hotkeys (ctrl/cmd + z and ctrl/cmd + y).
 - We fixed an issue where passed/failed statuses below the Test Explorer get erased when users stop or pause an execution.
