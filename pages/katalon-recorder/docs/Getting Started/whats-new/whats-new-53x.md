@@ -1,12 +1,12 @@
 ---
-title: "What's new"
+title: "5.3.x"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-recorder/docs/whats-new-5.3.x.html
 description:
 toc: false
 ---
 
-## What's new in 5.3.31
+## 5.3.31
 New, shiny features:
 - [Daily Usage](https://docs.katalon.com/katalon-recorder/docs/daily-usage.html).
 - [Save test case through shortcut and context menu](https://docs.katalon.com/katalon-recorder/docs/automate-scenarios.html#save-data).
