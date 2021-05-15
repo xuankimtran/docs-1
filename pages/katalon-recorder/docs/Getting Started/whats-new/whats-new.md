@@ -40,3 +40,4 @@ Users are strongly encouraged to sign up for a free Katalon account to get acces
 ## Tidbits
 - Mac users can now use both CTRL and CMD in hotkeys. Previously they were limited to CTRL which may not be intuitive to some users. Additionally, users can also initiate undo/redo with hotkeys (ctrl/cmd + z and ctrl/cmd + y).
 - We fixed an issue where passed/failed statuses below the Test Explorer get erased when users stop or pause an execution.
+- We added **Save test case as** and **Save test suite as** options to context menu.
