@@ -26,7 +26,7 @@ Generally, there are two broad use cases: automating repetitive tasks and automa
 The product tours are automatically visible to new users and are accessible for current users through the app's toolbar.
 
 ## New data-driven execution example
-Regardless of the use case, data-driven execution capability is useful for many purposes. For automated testing, you can test the log-in flow of your website against a set of usernames and passwords to ensure your validation logic work robustly. For automating repetitive tasks, you can fill in employee information by executing an automated scenario against a prepared data set.
+Regardless of the use case, data-driven execution capability is useful for many purposes. For automated testing, you can test the log-in flow of your website against a set of usernames and passwords to ensure your validation logic works robustly. For automating repetitive tasks, you can fill in employee information by executing an automated scenario against a prepared data set.
 
 Data-driven execution is already simple in Katalon Recorder, in this release we've made the simplicity obvious. When you launch the new Product Tours, a sample test suite and data file will be loaded into the application. You can view the sample test case to see how data-driven works, and apply it to your own tests.
 
