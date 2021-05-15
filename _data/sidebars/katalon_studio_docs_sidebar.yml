@@ -1391,12 +1391,10 @@ items:
             url: /katalon-analytics/docs/timeout-config.html
   - title: "Katalon Recorder"
     tree:
-      - title: "Getting started"
+      - title: "Get started"
         tree:
           - title: "Overview"
             url: /katalon-recorder/docs/overview.html
-          - title: "Release Notes"
-            url: /katalon-recorder/docs/release-notes.html
           - title: "GUI Overview"
             url: /katalon-recorder/docs/gui-overview.html
           - title: "What's new"
@@ -1404,7 +1402,9 @@ items:
             - title: "What's new in v5.4"
               url: /katalon-recorder/docs/whats-new.html
             - title: "5.3.x"
-              url: /katalon-recorder/docs/whats-new-53x.html
+              url: /katalon-recorder/docs/whats-new-5.3.x.html
+            - title: "Older release notes"
+              url: /katalon-recorder/docs/release-notes.html
       - title: "Production Evaluation Center"
         tree:
           - title: "Katalon Recorder vs Selenium IDE"
