@@ -10,7 +10,7 @@ Test scripts debugging can be time-consuming and challenging for many automation
 
 By default, you have the test engine capture screenshots automatically upon test failures. This feature is currently applicable to Web UI and Mobile testings. To turn off this function, do as follows:
 
-* In version **7.8 onwards**: Go to **Project/Settings/Execution**. In the displayed **Execution** view, uncheck **Take Screenshot when execution failed** in the **During Execution Options** panel and click **OK**.
+* In version **7.8 onwards**: Go to **Project/Settings/Execution**. In the displayed **Execution** view, uncheck **Take Screenshot when execution failed** in the **During Execution Options** panel and click **Apply and Close**.
 * In versions **before 7.8**: Go to **Project/Settings/Report**. In the displayed **Report** view, uncheck **Take Screenshot when execution failed** and click **OK**.
 
 If you wish to take screenshots of the application under test during runtime manually, you can use the following built-in keywords for Web UI and Mobile respectively:
@@ -69,7 +69,7 @@ Follow the steps below to see how to record screen:
 * **Video format**: AVI (`.avi`) or MOV (`.mov`)
 * **Video quality**: Low; Medium or High
 
-4. Click **OK**.
+4. Click **Apply and Close**.
 
 ### Configurations in versions before 7.8
 
@@ -87,6 +87,10 @@ Follow the steps below to see how to record screen:
 * **Video quality**: Low; Medium or High
 
 4. Click **OK**
+
+> If you use MacOS, make sure you enable Katalon Studio for Screen Recording. 
+> 
+> Go to **Security & Privacy** settings > **Privacy** > **Screen Recording** > Allow Katalon Studio to do Screen Recording.
 
 ## Browser-based Video Recorder
 
@@ -124,11 +128,11 @@ To use this feature, you need to enable it in Project Settings of Katalon Studio
 
    > Learn more about how to set [Desired Capabilities for Web UI](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html#chromechrome-headless)
 
-4. Click **OK**.
+4. Click **Apply and Close**.
 
-**Install FFmpeg library**
+### Install FFmpeg library
 
-To install the FFmpeg library, :
+To install the FFmpeg library,
 
 **For macOS**: 
 
@@ -154,6 +158,31 @@ To install the FFmpeg library, :
 2. Download the package which is appropriate for your operating system.
 3. Add the path to the FFmpeg executable file to your PATH environment variable.
 4. Reactivate Katalon Studio for this installation to take effect.
+
+**For Docker Image**:
+
+Currently, Katalon Docker Image doesn’t include FFmpeg library. You can build your own image by following these steps:
+
+1. Create a docker image file with this content:
+
+   ```groovy
+   FROM katalonstudio/katalon
+   RUN apt-get -y update
+   RUN apt-get install -y ffmpeg
+   ```
+
+2. Build your own image. Eg:
+
+   ```groovy
+   docker build -t mybuild .
+   ```
+
+3. Run your docker with Katalon script. Eg:
+
+   ```groovy
+   docker run -t --rm -v "$(pwd)":/tmp/project mybuild katalonc.sh -projectPath=/tmp/project - 
+   browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/TS_RegressionTest"
+   ```
 
 ## View recorded videos
 
