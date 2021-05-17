@@ -1391,16 +1391,20 @@ items:
             url: /katalon-analytics/docs/timeout-config.html
   - title: "Katalon Recorder"
     tree:
-      - title: "Getting started"
+      - title: "Get started"
         tree:
           - title: "Overview"
             url: /katalon-recorder/docs/overview.html
-          - title: "Release Notes"
-            url: /katalon-recorder/docs/release-notes.html
           - title: "GUI Overview"
             url: /katalon-recorder/docs/gui-overview.html
           - title: "What's new"
-            url: /katalon-recorder/docs/whats-new.html
+            tree:
+            - title: "What's new in v5.4"
+              url: /katalon-recorder/docs/whats-new.html
+            - title: "5.3.x"
+              url: /katalon-recorder/docs/whats-new-5.3.x.html
+            - title: "Older release notes"
+              url: /katalon-recorder/docs/release-notes.html
       - title: "Production Evaluation Center"
         tree:
           - title: "Katalon Recorder vs Selenium IDE"
@@ -1413,7 +1417,7 @@ items:
             tree:
               - title: "Selenese (Selenium IDE) Commands Reference"
                 url: /katalon-recorder/docs/selenese-selenium-ide-commands-reference.html
-              - title: "Basics of automating scenarios"
+              - title: "Create tests automatically and manually"
                 url: /katalon-recorder/docs/automate-scenarios.html
               - title: "Handle conditional cases"
                 url: /katalon-recorder/docs/conditional-cases.html
@@ -1421,11 +1425,11 @@ items:
                 url: /katalon-recorder/docs/validate-expected-values.html
           - title: "Execute scenarios"
             tree:
-              - title: "Basics of executing scenarios"
+              - title: "Execute test cases and test suites"
                 url: /katalon-recorder/docs/execute-scenarios.html
           - title: "Monitor scenarios"
             tree:
-              - title: "Basics of monitoring scenario executions"
+              - title: "View & save your execution history"
                 url: /katalon-recorder/docs/auto-backup.html
           - title: "Export scenarios"
             tree:
