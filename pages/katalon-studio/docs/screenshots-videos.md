@@ -88,7 +88,7 @@ Follow the steps below to see how to record screen:
 
 4. Click **OK**
 
-> If you use MacOS, make sure you enable Katalon Studio for Screen Recording. 
+> If you use macOS, make sure you enable Katalon Studio for Screen Recording. 
 > 
 > Go to **Security & Privacy** settings > **Privacy** > **Screen Recording** > Allow Katalon Studio to do Screen Recording.
 
