@@ -1359,6 +1359,8 @@ items:
             url: /katalon-analytics/docs/kt-change-result-pass-fail.html      
           - title: "Detect abnormal Web Services"
             url: /katalon-analytics/docs/view-abnormal-web-services.html
+          - title: "Filter Test Runs list by Build name"
+            url: /katalon-analytics/docs/filter-test-runs-list-by-build-name.html  
           - title: "View Requirement Coverage heat map"
             url: /katalon-analytics/docs/requirement-coverage.html
           - title: "View Test Case reports"
