@@ -16,7 +16,7 @@ Katalon TestOps users can filter Test Runs by Build name to:
 ## Add Build name in Command Line or Console Mode
 Follow these steps:
 1. Open Command prompt.
-2. Find this Command Line option <mark style="background-color:  gainsboro">--info -buildLabel</mark> and edit it with your own info.
+2. Find this Command Line option `--info -buildLabel` and edit it with your own info.
 > If you are unclear, check [here](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#general-options) for the list of options supporting `katalonc` commands.
 
 ## View Test Runs by Build name in Katalon TestOps
@@ -29,13 +29,13 @@ Follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-may-filter-test-runs-list-by-build-name/v1.0-build-label-1.png" width=100%>
 
-4. Click on the Build filter to start filtering. Manually input the <mark style="background-color:  gainsboro">-buildLabel</mark> value that is previously configured in Katalon Studio.
+4. Click on the Build filter to start filtering. Manually input the `-buildLabel` value that is previously configured in Katalon Studio.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-may-filter-test-runs-list-by-build-name/v1.0-build-label-2.png" width=70%>
 
-5. Click **Update**. 
+5. Click **Update**.
 
-    You, then, see the list of executed Test Runs in that <mark style="background-color:  gainsboro">-buildLabel</mark>.
+    You, then, see the list of executed Test Runs in that `-buildLabel`.
 > The Build name will be displayed under **Configuration** section on each Test Run.
 
-If you want, you can also go back to **Default** status by choosing **Clear** for the current <mark style="background-color:  gainsboro">-buildLabel</mark>.
+If you want, you can also go back to **Default** status by choosing **Clear** for the current `-buildLabel`.
