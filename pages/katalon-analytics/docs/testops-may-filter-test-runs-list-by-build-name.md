@@ -17,7 +17,7 @@ Katalon TestOps users can filter Test Runs by Build name to:
 Follow these steps:
 1. Open Command prompt.
 2. Find this Command Line option <mark style="background-color:  gainsboro">--info -buildLabel</mark> and edit it with your own info.
-> If you are unclear, check [here](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#general-options) for the list of options supporting ```katalonc``` commands.
+> If you are unclear, check [here](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#general-options) for the list of options supporting `katalonc` commands.
 
 ## View Test Runs by Build name in Katalon TestOps
 Follow these steps:
