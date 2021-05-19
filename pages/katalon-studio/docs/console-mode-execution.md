@@ -526,12 +526,16 @@ katalonc -noSplash -runMode=console -projectPath="C:\Users\Katalon Studio\Projec
          <td>N</td>
       </tr>
       <tr>
-         <td>--info -adoBuildNumber="text"</td>
-         <td>
-         <p>From version <strong>8.0.0</strong>, you can pass the build number to Test Run properties on ADO.</p>
-         </td>
-         <td>N</td>
-      </tr>
+			<td data-colwidth="254">
+				<p>--info -adoDefinitionID=&lt;DefinitionID&gt;</p>
+			</td>
+			<td data-colwidth="253">
+				<p>From version 8.0.0, you can get the latest completed Build ID of the specified Definition ID and pass it to Test Run properties on ADO.</p>
+			</td>
+			<td data-colwidth="253">
+				<p>N</p>
+			</td>
+		</tr>
    </tbody>
 </table>
 
