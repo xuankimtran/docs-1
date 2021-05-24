@@ -5,10 +5,10 @@ permalink: katalon-recorder/docs/data-driven-execution.html
 description:
 ---
 
-Data-driven execution is the ability to execute a test with different dataset. For example, when inputting patient information from a CSV file to your website, you would only need to develop a test case once and use data-driven execution to execute it with the prepared data set.
+Data-driven execution is the ability to execute a test with multiple data set. For example, when inputting patient information from a CSV file to your website, you would develop one test case and use data-driven execution to execute it with the prepared data set.
 
 ## Data-driven execution sample
-Since version 5.4.0, a data-driven execution sample is available for all users. You can adapt it to your own purpose as needed.
+Since version 5.4.0, a data-driven execution sample is available for all users. You can adapt it to your own purposes as needed.
 
 **How to add the data-driven execution sample**
 
