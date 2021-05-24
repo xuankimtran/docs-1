@@ -31,11 +31,11 @@ Follow these steps:
 3. Click on **Reports & Analytics**, then **Test Runs**.
 4. Find the **Build Label** filter as shown below.
 
-    By default, it will display _All_ which means that all of your Test Runs in all Builds are listed.
-
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-may-filter-test-runs-list-by-build-name/v1.0-build-label-1.png" width=100%>
 
-5. Click on the Build filter to start filtering. Manually input the `-buildLabel` value that was previously configured in Katalon Studio.
+    By default, it will display _All_ which means that all of your Test Runs in all Builds are listed.
+
+5. Click on **Build Label** to start filtering. Manually input the `-buildLabel` value that was previously configured in Katalon Studio.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-may-filter-test-runs-list-by-build-name/v1.0-build-label-2.png" width=70%>
 
