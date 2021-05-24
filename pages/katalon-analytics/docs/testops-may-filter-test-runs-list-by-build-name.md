@@ -26,10 +26,10 @@ Follow these steps:
 
 ## Filter Test Runs by Build name in Katalon TestOps
 Follow these steps:
-1. Go to [TestOps web page](https://testops.katalon.io/login) account and choose your project.
-2. Login to your account and choose your project. 
+1. Go to [TestOps web page](https://testops.katalon.io/login) account.
+2. Login to your account and choose your project.
 3. Click on **Reports & Analytics**, then **Test Runs**.
-4. Find the **Build Label** filter as shown below. 
+4. Find the **Build Label** filter as shown below.
 
     By default, it will display _All_ which means that all of your Test Runs in all Builds are listed.
 
