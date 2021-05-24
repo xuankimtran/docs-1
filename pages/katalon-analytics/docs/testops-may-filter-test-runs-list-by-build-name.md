@@ -15,6 +15,8 @@ In Katalon TestOps, you can filter Test Runs by Build name to:
 >
 >* Execute tests from Katalon Runtime Engine.
 >* Integrate Katalon Studio with Katalon TestOps.
+>
+>   You can learn about integration [here]( https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html).
 
 ## Add Build name in Command Line or Console Mode
 Follow these steps:
