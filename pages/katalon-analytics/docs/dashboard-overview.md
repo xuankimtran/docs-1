@@ -1,5 +1,5 @@
 ---
-title: "Introduction to TestOps dashboard"
+title: "Introduction to TestOps Dashboard"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/dashboard-overview.html 
 description: 
