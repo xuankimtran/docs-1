@@ -18,7 +18,6 @@ description:
 
 - View Release Readiness in TestOps Dashboard. [Learn more](https://katalon-analytics/docs/dashboard-overview.html)
 
-
 ## April 26
 
 ### New features
