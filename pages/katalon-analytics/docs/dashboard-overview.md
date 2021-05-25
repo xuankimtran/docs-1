@@ -5,9 +5,9 @@ permalink: katalon-analytics/docs/dashboard-overview.html
 description: 
 ---
 
-TestOps Dashboard module provides you an overview of recent test activities and upcoming releases. This module highlights your testing with real-time data and dashboards, which drive insights and assist you in the decision-making process.
+The TestOps Dashboard module provides you an overview of recent test activities and upcoming releases. This module highlights your testing with real-time data assembled in three dashboards, which drive insights and assist you in the decision-making process.
 
-You can check the following key sections on TestOps Dashboard:
+The three dashboards are:
 
 * Test Activities
 * Release Readiness
@@ -15,28 +15,31 @@ You can check the following key sections on TestOps Dashboard:
 
 ## Test Activities
 
-This section allows you to:
+This section allows you to monitor:
 
-* Monitor the number of passed and failed test runs during a week.
+* The number of passed and failed test runs, week by week.
 
-* Track the time of test execution each day.
+* How much time test execution takes each day.
 
-* View the number of test cases and their results.
+* The number of test cases and their results.
 
-* Evaluate the change in ratio of passed and failed tests between the current week and previous week.
+* How the ratio of passed and failed test runs change, week by week.
 
 ## Release Readiness
 
 This section allows you to:
 
-* See a complete picture of the two most recent releases for assessment.
+* Assess the status of the two most recent releases.
 
-* Keep track of the release plan with a reminder for the delivery date.
+* Oversee your release plan and set reminders for the delivery date.
 
-* Monitor productivity through development, testing, and progress-building.
+* Monitor productivity to see progress in development and testing.
 
 * Highlight the total number of defects for each release.
 
 ## Local Test Environment
 
-This section allows you to view the distribution of offline agents.
+This section allows you to view:
+
+* How many offline agents are setup for your local tests.
+* The distribution of offline agents by operating system.
