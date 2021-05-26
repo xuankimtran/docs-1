@@ -9,7 +9,16 @@ redirect from:
     - "/katalon-analytics/docs/advanced-0.1.x.html"
 description:
 ---
-## Latest Release - April 26
+
+## Latest Release - May 26, 2021 
+
+### New features 
+
+- Filter test runs by Build Name. [Learn more](https://docs.katalon.com/katalon-analytics/docs/filter-test-build-name.html) 
+
+- View Release Readiness in TestOps Dashboard. [Learn more](https://docs.katalon.com/katalon-analytics/docs/dashboard-overview.html)
+
+## April 26
 
 ### New features
 
