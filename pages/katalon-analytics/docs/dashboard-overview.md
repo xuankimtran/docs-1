@@ -17,7 +17,7 @@ The three dashboards are:
 
 This section allows you to monitor:
 
-* The number of passed and failed test runs, week by week.
+* The number of passed and failed test runs each week.
 
 * How much time test execution takes each day.
 
@@ -31,7 +31,7 @@ This section allows you to:
 
 * Assess the status of the two most recent releases.
 
-* Oversee your release plan and set reminders for the delivery date.
+* Oversee your release plan with reminders for the delivery date.
 
 * Monitor productivity to see progress in development and testing.
 
