@@ -1,13 +1,38 @@
 ---
-title: "Official Release - Version 8.0.0" 
+title: "Version History - 8.x" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/new/version-8x.html
 redirect_from:
     - "/katalon-studio/new/all-versions.html"
-description: Release notes 8.0.0
+description: Release notes 8.x
 ---
 
-> Download [here](https://www.katalon.com/download/)
+> Download [here](https://www.katalon.com/download/).
+
+## Official Release - Version 8.0.5
+
+### New Feature
+
+* Publish Katalon Record Utility extension on Chrome Web Store. [Learn more](https://docs.katalon.com/katalon-studio/docs/record-web-utility-using-chrome-with-profile.html)
+
+### Changes
+
+* The plugin activation is changed based on the license type.
+* Update Time Capsule with built-in ChromeDevTools function.
+
+### Fixes
+
+* Bug: Custom Keywords
+    * The Back and Forth navigation in the Editor is not working.
+    * Hyperlink is not working.
+    * Java doc is not working.
+    * Cannot open the Declaration of the keyword.
+    * Custom Keywords in the Step definitions are not working.
+
+* Bug: Test Suite stops executing after some test cases.
+* Bug: [Katalon Runtime Engine] An issue of not generating and submitting JUnit report to TestOps.
+
+## Version 8.0.0
 
 ### New Features
 
