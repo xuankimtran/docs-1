@@ -14,9 +14,9 @@ description:
 
 ### New features 
 
-- Filter test runs by Build Name. [Learn more](https://katalon-analytics/docs/filter-test-build-name.html) 
+- Filter test runs by Build Name. [Learn more](https://docs.katalon.com/katalon-analytics/docs/filter-test-build-name.html) 
 
-- View Release Readiness in TestOps Dashboard. [Learn more](https://katalon-analytics/docs/dashboard-overview.html)
+- View Release Readiness in TestOps Dashboard. [Learn more](https://docs.katalon.com/katalon-analytics/docs/dashboard-overview.html)
 
 ## April 26
 
