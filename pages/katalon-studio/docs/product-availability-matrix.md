@@ -159,10 +159,10 @@ This document gives you information on the supported technologies and integratio
 				<p>all version</p>
 			</td>
 			<td>
-				<p>✘</p>
+				<p> </p>
 			</td>
 			<td>
-				<p>✘</p>
+				<p> </p>
 			</td>
 			<td>
 				<p>✔</p>
@@ -179,16 +179,16 @@ This document gives you information on the supported technologies and integratio
 				<p>2008-2016</p>
 			</td>
 			<td>
-				<p>✘</p>
+				<p> </p>
 			</td>
 			<td>
-				<p>✘</p>
+				<p> </p>
 			</td>
 			<td>
 				<p>✔</p>
 			</td>
 			<td>
-				<p>✘</p>
+				<p> </p>
 			</td>
 		</tr>
 		<tr>
@@ -196,10 +196,10 @@ This document gives you information on the supported technologies and integratio
 				<p>2008-2017</p>
 			</td>
 			<td>
-				<p>✘</p>
+				<p> </p>
 			</td>
 			<td>
-				<p>✘</p>
+				<p> </p>
 			</td>
 			<td>
 				<p>✔</p>
@@ -475,10 +475,10 @@ This document gives you information on the supported technologies and integratio
 			</td>
 			<td>&nbsp;</td>
 			<td>
-				<p>✘</p>
+				<p> </p>
 			</td>
 			<td>
-				<p>✘</p>
+				<p> </p>
 			</td>
 			<td>
 				<p>✔</p>
