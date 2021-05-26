@@ -12,7 +12,7 @@ description:
 
 ## Latest Release - May 26, 2021 
 
-### New features 
+### Improvements 
 
 - Filter test runs by Build Name. [Learn more](https://docs.katalon.com/katalon-analytics/docs/filter-test-build-name.html) 
 
