@@ -1252,7 +1252,7 @@ items:
           - title: "Set up Teams and Projects"
             url: /katalon-analytics/docs/setup-team.html
           - title: "View TestOps Dashboard" 
-            url: katalon-analytics/docs/dashboard-overview.html
+            url: /katalon-analytics/docs/dashboard-overview.html
       - title: "Configurations"
         tree:
           - title: "Katalon Studio Integration"
