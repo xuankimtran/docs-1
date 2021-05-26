@@ -1,8 +1,7 @@
 ---
 title: "Filter Test Runs list by Build name"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-analytics/docs/filter-test-build-name.html
-
+permalink: /katalon-analytics/docs/filter-test-build-name.html
 description:
 ---
 
