@@ -83,34 +83,27 @@ People reportedly use Katalon Recorder to:
         <tr>
             <td>
                 <ul>
-                    <li><a href="./automate-scenarios.html">Add actions to scenarios</a>
+                    <li><a href="./automate-scenarios.html">Create your first test</a>
                     </li>
-                    <li><a href="./conditional-cases.html">Handle conditional cases</a>
+                    <li><a href="./conditional-cases.html">Handle conditional cases in your test</a>
                     </li>
-                    <li><a href="./validate-expected-values.html">Validate expected values</a>
-                    </li>                                        
+                    <li><a href="./validate-expected-values.html">Verify or 
+                    assert in your test</a>
+                    </li>      
+                    <li><a href="./auto-backup.html">Auto backup your data</a>
+                    </li>                                     
                 </ul>
             </td>
             <td>
                 <ul>
-                    <li><a href="./execute-scenarios.html#execute-a-scenario">Execute a scenario</a>
+                    <li><a href="./execute-scenarios.html">Modes of test execution</a>
                     </li>
-                    <li><a href="./execute-scenarios.html#execute-a-group-of-scenarios">Execute a group of scenarios</a>
-                    </li>
-                    <li><a href="./execute-scenarios.html#execute-all-scenarios">Execute all scenarios</a>
-                    </li> 
-                    <li><a href="./execute-scenarios.html#execute-an-action">Execute an action</a>
-                    </li>   
                 </ul>  
             </td>
             <td>
                 <ul>
-                    <li><a href="./auto-backup.html#view-execution-status">View execution status</a>
-                    </li>
-                    <li><a href="./auto-backup.html#save-execution-log">Save execution log</a>
-                    </li>
-                    <li><a href="./auto-backup.html#view-execution-history-with-testops">View execution history</a>
-                    </li>                                        
+                    <li><a href="./monitor-scenario-executions.html">Monitor test execution </a>
+                    </li>                    
                 </ul>
             </td>
         </tr>

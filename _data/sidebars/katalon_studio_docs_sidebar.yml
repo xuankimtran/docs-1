@@ -1427,14 +1427,16 @@ items:
                 url: /katalon-recorder/docs/conditional-cases.html
               - title: "Validate expected values"
                 url: /katalon-recorder/docs/validate-expected-values.html
+              - title: "Back up data automatically to Katalon TestOps"
+                url: /katalon-recorder/docs/auto-backup.html
           - title: "Execute scenarios"
             tree:
-              - title: "Execute test cases and test suites"
+              - title: "How to execute scenarios"
                 url: /katalon-recorder/docs/execute-scenarios.html
           - title: "Monitor scenarios"
             tree:
-              - title: "View & save your execution history"
-                url: /katalon-recorder/docs/auto-backup.html
+              - title: "Monitor scenario executions"
+                url: /katalon-recorder/docs/monitor-scenario-executions.html
           - title: "Export scenarios"
             tree:
               - title: "Export Test Case as Script"
