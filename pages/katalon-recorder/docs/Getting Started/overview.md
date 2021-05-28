@@ -85,12 +85,11 @@ People reportedly use Katalon Recorder to:
                 <ul>
                     <li><a href="./automate-scenarios.html">Create your first test</a>
                     </li>
-                    <li><a href="./conditional-cases.html">Handle conditional cases in your test</a>
+                    <li><a href="./conditional-cases.html">Handle conditional cases in your tests</a>
                     </li>
-                    <li><a href="./validate-expected-values.html">Verify or 
-                    assert in your test</a>
+                    <li><a href="./validate-expected-values.html">Verify or assert in your tests</a>
                     </li>      
-                    <li><a href="./auto-backup.html">Auto backup your data</a>
+                    <li><a href="./auto-backup.html">Auto backup your tests to Katalon TestOps</a>
                     </li>                                     
                 </ul>
             </td>
@@ -119,12 +118,12 @@ People reportedly use Katalon Recorder to:
         <tr>
             <td>
                 <ul>
-                    <li><a href="./export-test-script.html">Export scenario to test script</a>
+                    <li><a href="./export-test-script.html">Export tests to other frameworks</a>
                     </li>                   
                 </ul>
             </td>
             <td>
-                <a href="./data-driven-execution.html">Execute scenarios with multiple data</a>
+                <a href="./data-driven-execution.html">Execute tests with data set</a>
             </td>
             <td>
                 <ul>

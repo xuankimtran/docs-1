@@ -1421,21 +1421,21 @@ items:
             tree:
               - title: "Selenese (Selenium IDE) Commands Reference"
                 url: /katalon-recorder/docs/selenese-selenium-ide-commands-reference.html
-              - title: "Create tests automatically and manually"
+              - title: "Create your first test"
                 url: /katalon-recorder/docs/automate-scenarios.html
-              - title: "Handle conditional cases"
+              - title: "Handle conditional cases in your tests"
                 url: /katalon-recorder/docs/conditional-cases.html
-              - title: "Validate expected values"
+              - title: "erify or assert in your tests"
                 url: /katalon-recorder/docs/validate-expected-values.html
               - title: "Back up data automatically to Katalon TestOps"
                 url: /katalon-recorder/docs/auto-backup.html
           - title: "Execute scenarios"
             tree:
-              - title: "How to execute scenarios"
+              - title: "Modes of test execution"
                 url: /katalon-recorder/docs/execute-scenarios.html
           - title: "Monitor scenarios"
             tree:
-              - title: "Monitor scenario executions"
+              - title: "Monitor test execution"
                 url: /katalon-recorder/docs/monitor-scenario-executions.html
           - title: "Export scenarios"
             tree:
