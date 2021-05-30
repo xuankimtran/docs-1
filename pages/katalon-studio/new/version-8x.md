@@ -1,10 +1,10 @@
 ---
-title: "Official Release - Version 8.0.0" 
+title: "Official Release - Version 8.0.0 - 8.0.1" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/new/version-8x.html
 redirect_from:
     - "/katalon-studio/new/all-versions.html"
-description: Release notes 8.0.0
+description: Release notes 8.0.0 - 8.0.1
 ---
 
 > Download [here](https://www.katalon.com/download/)
