@@ -1405,9 +1405,9 @@ items:
             tree:
             - title: "What's new in v5.4"
               url: /katalon-recorder/docs/whats-new.html
-            - title: "5.3.x"
+            - title: "What's new in 5.3.x"
               url: /katalon-recorder/docs/whats-new-5.3.x.html
-            - title: "Older release notes"
+            - title: "Release notes"
               url: /katalon-recorder/docs/release-notes.html
       - title: "Production Evaluation Center"
         tree:
