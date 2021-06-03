@@ -66,7 +66,7 @@ To ensure business continuity, we recommend you subscribe to more licenses.
 
 If the number of machines on which you're using Katalon Studio exceeds the number of licenses that you purchased, you have two options:
 
-* Subscribe more licenses to cover more machines.
+* Subscribe to more licenses to cover more machines.
 * Remove the machines.
 
    Follow these steps to remove a registered machine ID.
