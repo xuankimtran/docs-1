@@ -28,18 +28,19 @@ This article will show you how to install the extension, configure your profile,
 3. Make sure the extension is now active. You can find instructions to manage your chrome extensions in this guide: [Install and Manage Extensions](https://support.google.com/chrome_webstore/answer/2664769).
 
 ## Configuring Katalon Studio Recorder to use your Chrome Profile
+
 You will need to find the local path to your current Chrome profile, and apply it in the Katalon Studio preference menu for Recorder.
 
 1. Open Chrome. In the address bar, type `chrome://version` and press Enter.
 
-2. Find the line "Profile Path:" Select and copy the displayed path. For example, `C:\Users\username\AppData\Local\Google\Chrome\User Data\Default`
+2. Find the line "Profile Path:" Select and copy the displayed path, for example: `C:\Users\username\AppData\Local\Google\Chrome\User Data\Default`. Close Chrome.
 
 3. Open Katalon Studio. Go to **Window > Katalon Studio Preferences > Katalon > Recorder**
 
-4. Next to **Chrome profile**, click on the text box and paste your Profile Path. Click on **Apply and close**
+4. Next to **Chrome profile**, click on the text box and paste your Profile Path. Click on **Apply and Close**.
 
-5. Click on **Record Web**. Click on the dropdown menu on the right of the **Record** button. Under the New Browsers section, select **Chrome (with Profile)**.
+5. Click on **Record Web**. Click on the dropdown menu on the right of the **Record** button. Under the **New Browsers** section, select **Chrome (with Profile)**.
 
-Katalon Studio will launch the Katalon Record Utility with your associated Chrome profile. 
+Katalon Studio now launches the Katalon Record Utility with your associated Chrome profile.
 
 You can now record your test script.
