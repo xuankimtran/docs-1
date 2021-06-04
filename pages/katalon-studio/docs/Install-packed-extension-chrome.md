@@ -11,19 +11,19 @@ description:
 >* Katalon Studio version 8.0.5 or higher. Currently in pre-release. You can find the build here: [8.0.5rc3 on Github](https://github.com/katalon-studio/katalon-studio/releases/tag/v8.0.5.rc3)
 >* A Chrome Profile. Find more information here: [Share Chrome with others](https://support.google.com/chrome/answer/2364824/share-chrome-with-others-computer).
 
-On some environments, unpacked extensions are disabled as a security feature. In that case, using the Record utility with Chrome prompts this error: "Loading the unpacked extension is disabled by the administrators."
+In some environments, unpacked extensions are disabled as a security feature. In that case, using the Record utility with Chrome prompts this error: "Loading the unpacked extension is disabled by the administrators."
 
-It is possible to use the packed extension **Katalon Record Utility** as an alternative. The extension is available on the Google Chrome store.
+It is possible to use the packed extension **Katalon Record Utility** as an alternative. The extension is available on Chrome Web Store.
 
-This article will show you how to install the extension, configure your profile, and use this alternative to Record in Katalon Studio.
+This article will show you how to install the extension, configure your Profile, and use this alternative to Record in Katalon Studio.
 
-> Notes: This utility is associated to your Chrome Profile, which means you can only have one active session at any given time.
+> Notes: This utility is associated with your Chrome Profile, which means you can only have one active session at any given time.
 
 ## Installing Katalon Record Utility
 
 1. Open Chrome. Make sure you are using the Profile you want to Record with.
 
-2. Navigate to the Chrome Web store page for this extension: [Katalon Record Utility](https://chrome.google.com/webstore/detail/katalon-record-utility/nhjadcbdhpaglfenolfcepmoeifeaijd).
+2. Navigate to the Chrome Web Store page for this extension: [Katalon Record Utility](https://chrome.google.com/webstore/detail/katalon-record-utility/nhjadcbdhpaglfenolfcepmoeifeaijd).
 
 3. Download and install **Katalon Record Utility**.
 
@@ -31,7 +31,7 @@ This article will show you how to install the extension, configure your profile,
 
 ## Configuring and Using the Record Utility with Chrome Profile
 
-The next steps will help you associate your Chrome profile with the Record Chrome (with Profile) function in Katalon Studio.
+The next steps will help you associate your Chrome Profile with the Record Chrome (with Profile) function in Katalon Studio.
 
 ### Finding your Chrome Profile in the User Data Directory
 
