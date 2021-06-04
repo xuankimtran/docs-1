@@ -9,13 +9,13 @@ description:
 > Requirements:
 >
 >* Katalon Studio version 8.0.5 or higher.
->* A Chrome Profile.
+>* A Chrome Profile. Find more information here: [Share Chrome with others](https://support.google.com/chrome/answer/2364824/share-chrome-with-others-computer).
 
-On some environments, unpacked extensions are disabled as a security feature. In that case, using Web Recorder utility with Chrome prompts this error: "Loading the unpacked extension is disabled by the administrators."
+On some environments, unpacked extensions are disabled as a security feature. In that case, using the Record utility with Chrome prompts this error: "Loading the unpacked extension is disabled by the administrators."
 
 It is possible to use the packed extension **Katalon Record Utility** as an alternative. The extension is available on the Google Chrome store.
 
-This article will show you how to install the extension, configure your profile, and use this alternative recording method when using the Record feature in Katalon Studio.
+This article will show you how to install the extension, configure your profile, and use this alternative to Record in Katalon Studio.
 
 > Notes: This utility is associated to your Chrome Profile, which means you can only have one active session at any given time.
 
@@ -39,8 +39,8 @@ There are multiple Profiles in a given User Data Directory. This section will he
 
 1. Open Chrome with the Profile you installed the extension with. In the address bar, type `chrome://version` and press Enter. 
 
-2. The line "Profile Path:" now displays your *active* Profile. For example: `C:\Users\username\AppData\Local\Google\Chrome\User Data\Default`.
-3. Copy the displayed path.
+2. The line "Profile Path:" now displays the path to your *active* Profile. For example: `C:\Users\username\AppData\Local\Google\Chrome\User Data\Default`.
+3. Copy the path.
 
 4. Close Chrome.
 
@@ -48,12 +48,12 @@ There are multiple Profiles in a given User Data Directory. This section will he
 
 1. Open Katalon Studio, then:
 
-   * As a Windows user: Click on **Window > Katalon Studio Preferences > Katalon > Recorder**
-   * As a macOS user: Click on **Katalon Studio > Preferences > Katalon > Recorder**
+   * As a Windows user: Click on **Window > Katalon Studio Preferences > Katalon > Recorder**.
+   * As a macOS user: Click on **Katalon Studio > Preferences > Katalon > Recorder**.
 
 2. Next to **Chrome profile**, click on the text box and paste your Profile Path. Click on **Apply and Close**.
 
->You can also click on **Browse** and navigate to the folder you wish to use. Find out more information about user data directory paths here: [User Data Directory](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/user_data_dir.md#Introduction)
+>You can also click on **Browse** and navigate to the folder you wish to use. Find out more information about user data directory paths here: [User Data Directory](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/user_data_dir.md#Introduction).
 
 3. Click on **Record Web**. Click on the dropdown menu. Under the **New Browsers** section, select **Chrome (with Profile)**.
 
