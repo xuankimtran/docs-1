@@ -11,10 +11,7 @@ description:
 >* Katalon Studio version 8.0.5 or higher.
 >* A Chrome Profile.
 
-On some environments, using the Web Recorder utility with Chrome will prompt this error:
-> “Loading the unpacked extensions is disabled by the administrators.”
-
-Unpacked extensions are disabled on some environments as a security feature.
+On some environments, unpacked extensions are disabled as a security feature. In that case, using Web Recorder utility with Chrome prompts this error: "Loading the unpacked extension is disabled by the administrators."
 
 It is possible to use the packed extension **Katalon Record Utility** as an alternative. The extension is available on the Google Chrome store.
 
