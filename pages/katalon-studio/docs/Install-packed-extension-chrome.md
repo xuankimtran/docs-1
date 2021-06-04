@@ -31,19 +31,18 @@ This article will show you how to install the extension, configure your profile,
 
 ## Configuring and Using the Record Utility with Chrome Profile
 
-The next steps will help you associate this Chrome profile with the Record Chrome (with Profile) function in Katalon Studio.
+The next steps will help you associate your Chrome profile with the Record Chrome (with Profile) function in Katalon Studio.
 
 ### Finding your Chrome Profile in the User Data Directory
 
-This section will help you select the path to the correct Chrome Profile in your User Data Directory.
-
-There are multiple Profiles in a given User Data Directory.
+There are multiple Profiles in a given User Data Directory. This section will help you find the path to the correct Chrome Profile in your User Data Directory.
 
 1. Open Chrome with the Profile you installed the extension with. In the address bar, type `chrome://version` and press Enter. 
 
-2. Find the line "Profile Path:" Select and copy the displayed path, for example: `C:\Users\username\AppData\Local\Google\Chrome\User Data\Default`. This is the path to your *active* Profile.
+2. The line "Profile Path:" now displays your *active* Profile. For example: `C:\Users\username\AppData\Local\Google\Chrome\User Data\Default`.
+3. Copy the displayed path.
 
-3. Close Chrome.
+4. Close Chrome.
 
 ### Configuring and using Katalon Record Utility with Chrome Profile
 
