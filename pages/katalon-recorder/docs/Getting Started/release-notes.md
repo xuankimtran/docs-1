@@ -10,10 +10,16 @@ redirect_from:
 description:
 ---
 
+## 5.4.6
+- Improved registration process.
+  - Since version 5.4.6, new users will have to sign up for a **free** account after 4 successful executions. Our data has shown that users that have more than 4 successful executions are more likely to adopt the product.
+- Fixed an issue where record and playback fails on Angular forms.
+  - A bug prevented users from recording `sendKey` on Angular forms, which also makes playback fail.
+
 ## 5.4.5
 - Improved registration process. 
   - We are constantly refining the registration process to offer users the best experience while balancing againt our business needs.
-  - Since version 5.4.5, new users will be able to execute 25 tests without being forced or suggested to sign up. However, when the quota is exceeded, you will need a **free** Katalon account and log in to continue your work.
+  - Since version 5.4.5, new users will be able to execute 25 tests without being forced or suggested to sign up. However, when the quota is exceeded, you will need a **free** account and log in to continue your work.
 
 ## 5.4
 - Undo/redo mechanism to recover from mistakes while editing tests.
