@@ -1,5 +1,5 @@
 ---
-title: "Overview" 
+title: "Katalon TestOps Overview" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/overview.html 
 redirect_from:
@@ -11,37 +11,46 @@ redirect_from:
     - "/katalon-analytics/index.html"
 description: 
 ---
-## Welcome to Katalon TestOps
 
-[Katalon TestOps](https://testops.katalon.io/home) is an enterprise-ready platform for **QA Orchestration**, **test analytics**, and **reporting**.
-- It coordinates various activities, cycles, and frameworks in software testing to ensure software quality in every stage, without sacrificing speed or requiring DevOps expertise.
-- It provides dashboards and reports on the quality status of the product application.
+[Katalon TestOps](https://www.katalon.com/testops/) is an enterprise-class platform for **QA orchestration**, **test analytics**, and **advanced reports**.
 
-## Key Modules
+Katalon TestOps provides dashboards and reports on the status of product quality.
 
-### Test Planning
+With Katalon TestOps, you can coordinate various activities, cycles, and frameworks in software testing. By doing so, you can ensure software quality at every stage without the need to sacrifice speed or require DevOps expertise.
 
-The CI for scheduling remote executions on local machines, Kubernetes, and CircleCI. It is designed and built with ease of deployment and configuration in mind to let QAs focus on testing activities.
+Katalon TestOps' key modules include:
+* Test Planning
+* Test Management
+* Reports & Analytics
+* Configurations
 
-**Test Planning** provides the capability to plan, schedule and trigger Test Runs remotely. [Learn more](https://docs.katalon.com/katalon-analytics/docs/kt-remote-execution.html)
+## Test Planning
 
-### Test Management
+This key module is the CI for scheduling remote executions on local machines, Kubernetes, and CircleCI.
 
-The test hub to gather and connect quality data from multiple sources, including Katalon Studio, JUnit, TestNG, and Jira.
+Test Planning eases deployment and configuration so that QAs can focus on testing activities.
 
-With **Test Management**, you can monitor and enable analytics for your projects. You and your team can leverage **Test Management** to gain key insights into test results and integrate seamlessly with both Katalon Studio and Jira for efficient project management. [Learn more](https://docs.katalon.com/katalon-analytics/docs/TO-center-overview.html)
+It allows you to plan, schedule, and trigger Test Runs remotely. [Learn more](https://docs.katalon.com/katalon-analytics/docs/kt-remote-execution.html).
 
-### Reports & Analytics
+## Test Management
 
-Provide dynamic perspectives and an insightful look at your automated testing activities.
+This key module is a test hub gathering and connecting all quality data from multiple sources such as Katalon Studio, JUnit, TestNG, and Jira.
 
-### Configurations
+Using Test Management, you can monitor test analytics for your projects.
 
-This module allows you to:
+You can also leverage it to gain critical insights into test results and integrate seamlessly with Katalon Studio and Jira for more efficient project management. [Learn more](https://docs.katalon.com/katalon-analytics/docs/compare-test-results.html).
 
-- Set up and manage Test Environments and Script Repository.
-- Enable integration with other frameworks.
+## Reports & Analytics
 
-## Next steps
+This key module provides dynamic perspectives and insights into your automated testing activities. [Learn more](https://docs.katalon.com/katalon-analytics/docs/view-reports-overview.html#test-runs)
 
-- [Get started](/katalon-analytics/docs/getting-started.html) with **Katalon TestOps**
+## Configurations
+
+This key module allows you to:
+
+* Set up and manage Test Environments and Script Repository.
+* Enable integration with other frameworks.
+
+## Next step
+
+[Get started](/katalon-analytics/docs/getting-started.html) with Katalon TestOps.
