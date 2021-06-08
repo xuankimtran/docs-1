@@ -53,4 +53,4 @@ This key module allows you to:
 
 ## Next step
 
-[Get started](/katalon-analytics/docs/getting-started.html) with Katalon TestOps.
+[Get started](https://docs.katalon.com/katalon-analytics/docs/getting-started.html#log-in) with Katalon TestOps.
