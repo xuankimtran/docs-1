@@ -165,7 +165,7 @@ The following parameter allows you to set automatic timestamps as per your prefe
 | --- | --- | --- | --- |
 | screenshotOptions | Map | Optional | A String representing the information to be printed on the captured screenshot. This string should be limited to 100 characters and size. |
 
-For further information on standard map literal syntax, go to: [Apache Groovy programming language - The Groovy Development Kit](https://groovy-lang.org/groovy-dev-kit.html#Collections-Maps)
+>For further information on standard map literal syntax, go to: [Apache Groovy programming language - The Groovy Development Kit](https://groovy-lang.org/groovy-dev-kit.html#Collections-Maps)
 
 The screenshotOptions parameter has the following properties:
 
@@ -180,34 +180,35 @@ The screenshotOptions parameter has the following properties:
 | fontStyle | FontStyle | Optional | fontStyle can be Plain, Italic or Bold. Default is Plain. |
 
 >Notes: Supported fonts are OS system fonts. You can find a list of font names for your operating system here:
+>
 > * Windows: [How to Change the Default System Font on Windows 10](https://www.howtogeek.com/716407/how-to-change-the-default-system-font-on-windows-10/#:~:text=Windows%2010's%20default%20system%20font,on%20your%20Windows%2010%20PC.)
 > * macOS: [Fonts - Apple Developer](https://developer.apple.com/fonts/#:~:text=SF%20Pro,and%20includes%20a%20rounded%20variant.)
- 
+
 ### Example uses of screenshotOptions
 
 The following examples illustrate different configurations to print the information you require on your screenshots.
 
 #### Add current timestamp to your screenshot
 
-```
+```groovy
 def timestamp = new Date().format("YYYY-MM-dd HH:mm:ss")
 WebUI.takeScreenshot(["text" : timestamp])
 ```
 
 #### Add text "Katalon Studio" at position (10, 20)
 
-```
+```groovy
 WebUI.takeScreenshot(["text" : "Katalon Studio", "x" : 10, "y" : 20])
 ```
 
 #### Add text Katalon Studio at position (10, 20) with font Courier, size 24, and gray color
 
-```
+```groovy
 WebUI.takeScreenshot(["text" : "Katalon Studio", "x" : 10, "y" : 20, "font" : "Courier", "fontSize" : "24", "fontColor": "#808080"])
 ```
 
 #### Take a screenshot, save it at D://Document. Add text "Katalon Studio" at position (10, 20) with font Courier, size 24 in gray
 
-```
+```groovy
 WebUI.takeScreenshot("D://Document", ["text" : "Katalon Studio", "x" : 10, "y" : 20, "font" : "Courier", "fontSize" : "24", "fontColor": "#808080"])
 ```
