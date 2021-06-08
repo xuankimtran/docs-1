@@ -26,7 +26,7 @@ Katalon TestOps' key modules include:
 
 ## Test Planning
 
-This key module is the CI for scheduling remote executions on local machines, Kubernetes, and CircleCI.
+This key module is a continuous integration tool for scheduling remote executions on local machines, Kubernetes, and CircleCI.
 
 Test Planning eases deployment and configuration so that QAs can focus on testing activities.
 
