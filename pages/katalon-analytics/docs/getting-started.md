@@ -9,28 +9,41 @@ redirect_from:
     - "/katalon-analytics/docs/getting-started/"
 description:
 ---
-## Log in
+## Sign In
 
-Navigate to: [https://testops.katalon.io](https://testops.katalon.io/).
+> For new users, sign up with a business email.
+>
+> For existing users, sign in with your registered Katalon account.  
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/login/login_page.png)
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/login/login_page.png" width=100%>
 
-Enter your Katalon account to sign in. Sign up if you are new to Katalon.
+Once you have successfully signed in [Katalon TestOps](https://testops.katalon.io/), the homepage displays as below.
 
-Once you have signed in successfully, the Katalon TestOps’ home page will display.
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/login/kt2_home_page_org.png" width=100%>
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/login/kt2_home_page_org.png)
+### TestOps Homepage
 
-The home page shows quick paths to your organizations, teams, and projects to view details of each page.
+TestOps homepage is a quick way to see your organizations, teams, projects and their details.
 
-* **Organization**: You can view all the organizations you belong to. Select an organization to see its name and ID. Also, you can update your organization name, manage teams and users if you’re its **Owner**.
+* **Organization**: You can view here the list of all organizations you belong to.
+    
+    Select an organization (e.g., CURA Healthcare 1) to see its details.
+    
+    You can update your organization name, manage teams and users if you’re the **Owner** of your organization.
 
-* **Team**: You only view those teams you have access to. Select a team to start working with Dashboard, Projects, Agents, and Users in that team.
+* **Team**: You can view here the teams you have access to.
 
-* **Project**: You can view all projects under the teams you belong to. Select a project to view its details and to start working on it.
+     Select a relevant team and you can start working on its Dashboard, Projects, Agents, and Users.
 
-## Sign out
+* **Project**: You can view here all projects managed by the team you belong to.
+    
+    Select a project to view its details and to start working on it.
 
-On the top right corner of the Profile page, click the **Avatar** icon, click **Sign Out** at the bottom to finish using Katalon TestOps.
+## Sign Out
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/login/kt2_sign_out.png)
+Follow these steps to sign out Katalon TestOps:
+
+1. Click the **Avatar** icon on the top right corner of the homepage.
+2. Click **Sign Out** at the bottom of the popup bar.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/login/kt2_sign_out.png" width=100%>
