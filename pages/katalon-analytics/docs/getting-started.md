@@ -1,5 +1,5 @@
 ---
-title: "Access Katalon TestOps"
+title: "Welcome to Katalon TestOps"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/getting-started.html
 redirect_from:
@@ -9,7 +9,7 @@ redirect_from:
     - "/katalon-analytics/docs/getting-started/"
 description:
 ---
-## Sign In
+## Sign in
 
 > For new users, sign up with a business email.
 >
@@ -21,7 +21,7 @@ Once you have successfully signed in [Katalon TestOps](https://testops.katalon.i
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/login/kt2_home_page_org.png" width=100%>
 
-### TestOps Homepage
+### TestOps homepage
 
 TestOps homepage is a quick way to see your organizations, teams, projects and their details.
 
@@ -39,7 +39,7 @@ TestOps homepage is a quick way to see your organizations, teams, projects and t
     
     Select a project to view its details and to start working on it.
 
-## Sign Out
+## Sign out
 
 Follow these steps to sign out Katalon TestOps:
 
@@ -47,3 +47,7 @@ Follow these steps to sign out Katalon TestOps:
 2. Click **Sign Out** at the bottom of the popup bar.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/login/kt2_sign_out.png" width=100%>
+
+## Next step
+
+[Create an organization](https://docs.katalon.com/katalon-analytics/docs/kt-create-org.html#create-an-organization) with Katalon TestOps.
