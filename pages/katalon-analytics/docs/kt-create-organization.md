@@ -1,22 +1,26 @@
 ---
-title: "How to create Katalon TestOps Organization"
+title: "Create Katalon TestOps Organization"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/kt-create-org.html
 redirect_from:
     - "/katalon-analytics/docs/manage-org.html"
 ---
 
-This tutorial shows you how to set up an Organization properly in Katalon TestOps. One team member can complete these steps to invite all the others to an Organization for working on projects.
+You can set up an organization in Katalon TestOps and invite a member to the organization to work on projects.
 
 > You need a Katalon account. Register [here](https://www.katalon.com/sign-up/) if you don't have one.
 
-## Create an Organization
+## Create an organization
 
-Organizations are shared Katalon TestOps accounts where groups of users can collaborate across several projects at once. A user defaults to owning a personal organization and can belong to many organizations.
+By creating an organization, team members can collaborate across several projects instantly.
 
-1. Sign in to Katalon TestOps.
+You own a personal organization by default and belong to any other organization you are invited to.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/1e86fafbb5ac1d4dc845598cc86ee24c9d99e86b/katalon-analytics/docs/setup-org-team-project/login_kat_testops.png" width="" height="">
+To create a new organization, follow these steps:
+
+1. Sign in [Katalon TestOps](https://testops.katalon.io/login).
+
+<img src="https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/testops-revamp-june-create-org/kt-june-create-org-8.png" width=100%>
 
 2. On the home page, click **Create Organization** on the left sidebar, type the name of organization and click **Create**.
 
