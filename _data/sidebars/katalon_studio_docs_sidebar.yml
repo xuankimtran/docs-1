@@ -1245,7 +1245,7 @@ items:
                 url: /katalon-analytics/docs/testops-releases-2021.html
           - title: "Terminology" 
             url: /katalon-analytics/docs/testops-terminology.html
-          - title: "Access Katalon TestOps"
+          - title: "Welcome to Katalon TestOps"
             url: /katalon-analytics/docs/getting-started.html  
           - title: "Create Organization"
             url: /katalon-analytics/docs/kt-create-org.html
