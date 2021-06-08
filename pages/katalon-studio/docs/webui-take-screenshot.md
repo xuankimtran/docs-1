@@ -9,23 +9,18 @@ redirect_from:
     - "/katalon-studio/docs/webui-take-screenshot/"
 description: 
 ---
-Description  
--------------
+In this section, you will find key example uses of WebUI keywords. Those examples demonstrate how to take screenshots using WebUI keywords, as well as optional settings and triggers.
 
-Take a screenshot of the browser.
+## Parameters  
 
-Parameters  
-------------
-
-| Param | Param Type | Mandatory | Description |
+| Parameter |  Type | Mandatory | Description |
 | --- | --- | --- | --- |
-| fileName | String | Optional | The captured file path. |
+| fileName | String | Optional | A String that represents the path to the saved image. The path can be an absolute or relative path. |
 | flowControl | FailureHandling | Optional | Specify [failure handling](/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
-Example 
---------
+## Use cases
 
-1.  You want to take a screenshot of the current browser after logging in and store it in the temp folder
+### Taking a screenshot of your current browser after logging in
 
 ```groovy
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
@@ -67,8 +62,11 @@ WebUI.takeScreenshot()
 'Close browser'
 WebUI.closeBrowser()
 ```
+By default, your screenshot will be saved to your temp folder.
 
-2\. You want to take a screenshot of the current browser after logging in and store it custom location:
+### Store your screenshot in a custom location
+
+ The following example also takes a screenshot of your current browser after logging in. Here, the screenshot is saved to a custom location.
 
 ```groovy
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
@@ -111,7 +109,9 @@ WebUI.takeScreenshot('E:\\screenshot.png')
 WebUI.closeBrowser()
 ```
 
-3. You want to take a screenshot of the current browser after logging in and store it current project by using relative paths.
+### Sort and store screenshots by projects using relative paths
+
+Same as above, but here the screenshot is stored with your current project.
 
 ```groovy
  import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
@@ -153,3 +153,57 @@ WebUI.takeScreenshot('Test/Demo.png')
 'Close browser'
 WebUI.closeBrowser()
 ```
+
+## Add timestamps to your screenshots
+
+> Requirements: Katalon Studio 8.0.5
+
+The following parameter allows you to set automatic timestamps as per your preference.
+
+| Parameter | Type | Mandatory | Description |
+| --- | --- | --- | --- |
+| screenshotOptions | Map | Optional | A String representing the information to be printed on the captured screenshot. This string should be limited to 100 characters and size. |
+
+For further information on standard map literal syntax, go to: [Apache Groovy programming language - The Groovy Development Kit](https://groovy-lang.org/groovy-dev-kit.html#Collections-Maps)
+
+The screenshotOptions parameter has the following properties:
+
+| Parameter | Type | Mandatory | Description |
+| --- | --- | --- | ---|
+| Text | String | Must not be null or empty | This string determines the information to be printed on the captured screenshot. This string should be limited to 100 characters. |
+| x | Integer | Optional | x pixels from the left side of image. Default is 0.|
+| y | Integer | Optional | y pixels from the top of the image. Default is 0. |
+| font | String | Optional | Font name. Default is Arial. |
+| fontSize | Integer | Optional | Size of font. Default is 12, maximum is 50. |
+| fontColor | String | Optional | Hex string of color. Default is “#000000“ (black).|
+| fontStyle | FontStyle | Optional | fontStyle can be Plain, Italic or Bold. Default is Plain. |
+ 
+### Example uses of screenshotOptions
+
+The following examples illustrate different configurations to print the information you require on your screenshots.
+
+#### Add current timestamp to your screenshot:
+```
+def timestamp = new Date().format("YYYY-MM-dd HH:mm:ss")
+WebUI.takeScreenshot(["text" : timestamp])
+```
+
+#### Add text "Katalon Studio" at position (10, 20):
+
+```
+WebUI.takeScreenshot(["text" : "Katalon Studio", "x" : 10, "y" : 20])
+```
+
+#### Add text Katalon Studio at position (10, 20) with font Courier, size 24, and gray color
+
+```
+WebUI.takeScreenshot(["text" : "Katalon Studio", "x" : 10, "y" : 20, "font" : "Courier", "fontSize" : "24", "fontColor": "#808080"])
+```
+
+#### Take screenshot at D://Document and add text Katalon Studio at position (10, 20) with font Courier, size 24 and gray color
+
+```
+WebUI.takeScreenshot("D://Document", ["text" : "Katalon Studio", "x" : 10, "y" : 20, "font" : "Courier", "fontSize" : "24", "fontColor": "#808080"])
+```
+
+Placeholder: information on OS fonts
