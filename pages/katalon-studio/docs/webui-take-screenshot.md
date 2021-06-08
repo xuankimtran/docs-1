@@ -9,7 +9,7 @@ redirect_from:
     - "/katalon-studio/docs/webui-take-screenshot/"
 description: 
 ---
-In this section, you will find key example uses of WebUI keywords. Those examples demonstrate how to take screenshots using WebUI keywords, as well as optional settings and triggers.
+In this section, you will find examples that illustrate uses of WebUI keywords. Those examples demonstrate how to take screenshots using WebUI keywords, as well as optional settings.
 
 ## Parameters  
 
@@ -62,7 +62,8 @@ WebUI.takeScreenshot()
 'Close browser'
 WebUI.closeBrowser()
 ```
-By default, your screenshot will be saved to your temp folder.
+
+By default, your screenshots are saved to your temp folder.
 
 ### Store your screenshot in a custom location
 
@@ -175,20 +176,25 @@ The screenshotOptions parameter has the following properties:
 | y | Integer | Optional | y pixels from the top of the image. Default is 0. |
 | font | String | Optional | Font name. Default is Arial. |
 | fontSize | Integer | Optional | Size of font. Default is 12, maximum is 50. |
-| fontColor | String | Optional | Hex string of color. Default is “#000000“ (black).|
+| fontColor | String | Optional | Hex string of color. Default is "#000000" (black).|
 | fontStyle | FontStyle | Optional | fontStyle can be Plain, Italic or Bold. Default is Plain. |
+
+>Notes: Supported fonts are OS system fonts. You can find a list of font names for your operating system here:
+> * Windows: [How to Change the Default System Font on Windows 10](https://www.howtogeek.com/716407/how-to-change-the-default-system-font-on-windows-10/#:~:text=Windows%2010's%20default%20system%20font,on%20your%20Windows%2010%20PC.)
+> * macOS: [Fonts - Apple Developer](https://developer.apple.com/fonts/#:~:text=SF%20Pro,and%20includes%20a%20rounded%20variant.)
  
 ### Example uses of screenshotOptions
 
 The following examples illustrate different configurations to print the information you require on your screenshots.
 
-#### Add current timestamp to your screenshot:
+#### Add current timestamp to your screenshot
+
 ```
 def timestamp = new Date().format("YYYY-MM-dd HH:mm:ss")
 WebUI.takeScreenshot(["text" : timestamp])
 ```
 
-#### Add text "Katalon Studio" at position (10, 20):
+#### Add text "Katalon Studio" at position (10, 20)
 
 ```
 WebUI.takeScreenshot(["text" : "Katalon Studio", "x" : 10, "y" : 20])
@@ -200,10 +206,8 @@ WebUI.takeScreenshot(["text" : "Katalon Studio", "x" : 10, "y" : 20])
 WebUI.takeScreenshot(["text" : "Katalon Studio", "x" : 10, "y" : 20, "font" : "Courier", "fontSize" : "24", "fontColor": "#808080"])
 ```
 
-#### Take screenshot at D://Document and add text Katalon Studio at position (10, 20) with font Courier, size 24 and gray color
+#### Take a screenshot, save it at D://Document. Add text "Katalon Studio" at position (10, 20) with font Courier, size 24 in gray
 
 ```
 WebUI.takeScreenshot("D://Document", ["text" : "Katalon Studio", "x" : 10, "y" : 20, "font" : "Courier", "fontSize" : "24", "fontColor": "#808080"])
 ```
-
-Placeholder: information on OS fonts
