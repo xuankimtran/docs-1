@@ -9,18 +9,19 @@ redirect_from:
     - "/katalon-studio/docs/webui-take-screenshot/"
 description: 
 ---
-In this section, you will find examples that illustrate uses of WebUI keywords. Those examples demonstrate how to take screenshots using WebUI keywords, as well as optional settings.
 
-## Parameters  
+## Parameters
 
+Here are the parameters for the WebUI keywords. 
 | Parameter |  Type | Mandatory | Description |
 | --- | --- | --- | --- |
 | fileName | String | Optional | A String that represents the path to the saved image. The path can be an absolute or relative path. |
 | flowControl | FailureHandling | Optional | Specify [failure handling](/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 ## Use cases
+In this section, we demonstrate example uses of the WebUI keywords for screenshots.
 
-### Taking a screenshot of your current browser after logging in
+### Take a screenshot of your current browser after logging in
 
 ```groovy
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
@@ -67,7 +68,7 @@ By default, your screenshots are saved to your temp folder.
 
 ### Store your screenshot in a custom location
 
- The following example also takes a screenshot of your current browser after logging in. Here, the screenshot is saved to a custom location.
+ The following example also takes a screenshot of your current browser after logging in. But here, the screenshot is saved to a custom location.
 
 ```groovy
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
@@ -112,7 +113,7 @@ WebUI.closeBrowser()
 
 ### Sort and store screenshots by projects using relative paths
 
-Same as above, but here the screenshot is stored with your current project.
+Same as above, but here the screenshot is stored in the same location as your current project, using relative paths.
 
 ```groovy
  import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
@@ -159,7 +160,7 @@ WebUI.closeBrowser()
 
 > Requirements: Katalon Studio 8.0.5
 
-The following parameter allows you to set automatic timestamps as per your preference.
+The following parameter allows you to set automatic timestamps with your preferred settings.
 
 | Parameter | Type | Mandatory | Description |
 | --- | --- | --- | --- |
