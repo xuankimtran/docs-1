@@ -42,7 +42,7 @@ You can also leverage it to gain critical insights into test results and integra
 
 ## Reports & Analytics
 
-This key module provides dynamic perspectives and insights into your automated testing activities. [Learn more](https://docs.katalon.com/katalon-analytics/docs/view-reports-overview.html#test-runs)
+This key module provides dynamic perspectives and insights into your automated testing activities. [Learn more](https://docs.katalon.com/katalon-analytics/docs/view-reports-overview.html#test-runs).
 
 ## Configurations
 
