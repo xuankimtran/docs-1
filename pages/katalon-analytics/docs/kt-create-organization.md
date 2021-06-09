@@ -44,7 +44,7 @@ After creating a new organization, Katalon TestOps prompts you to set up a proje
 
    > Note:
    >
-   > You should [create a team](https://docs.katalon.com/katalon-analytics/docs/setup-team.html#create-a-team) before setting up your project. Or else, Katalon TestOps automatically stores your project in First Team.
+   > You should [create a team](https://docs.katalon.com/katalon-analytics/docs/setup-team.html#create-a-team) before setting up your project. Or else, Katalon TestOps automatically stores your project in the First Team.
 
 2. Type email addresses of your team members in **Share projects to your members**. Click **Invite**.
 
