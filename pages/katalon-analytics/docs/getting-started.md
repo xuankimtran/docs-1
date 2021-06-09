@@ -1,5 +1,5 @@
 ---
-title: "Welcome to Katalon TestOps"
+title: "Register Katalon TestOps"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/getting-started.html
 redirect_from:
@@ -11,7 +11,7 @@ description:
 ---
 ## Sign in
 
-> For new users, sign up with a business email.
+> For new users, [sign up](https://www.katalon.com/sign-up/?redirect=https%3A%2F%2Ftestops.katalon.io) with a business email.
 >
 > For existing users, sign in with your registered Katalon account.  
 
