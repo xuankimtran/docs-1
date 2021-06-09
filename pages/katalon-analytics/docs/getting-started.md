@@ -11,7 +11,9 @@ description:
 ---
 ## Sign in
 
-> For new users, [sign up](https://www.katalon.com/sign-up/?redirect=https%3A%2F%2Ftestops.katalon.io) with a business email.
+> Notes:
+>
+>For new users, [sign up](https://www.katalon.com/sign-up/?redirect=https%3A%2F%2Ftestops.katalon.io) with a business email.
 >
 > For existing users, sign in with your registered Katalon account.  
 
