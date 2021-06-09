@@ -43,7 +43,7 @@ TestOps homepage is a quick way to see your organizations, teams, projects and t
 
 Follow these steps to sign out Katalon TestOps:
 
-1. Click the **Avatar** icon on the top right corner of the homepage.
+1. Click on the **Avatar** icon on the top right corner of the homepage.
 2. Click **Sign Out** at the bottom of the popup bar.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/login/kt2_sign_out.png" width=100%>
