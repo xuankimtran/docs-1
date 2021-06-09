@@ -33,7 +33,7 @@ TestOps homepage is a quick way to see your organizations, teams, projects and t
 
 * **Team**: You can view here the teams you have access to.
 
-     Select a relevant team and you can start working on its Dashboard, Projects, Agents, and Users.
+     Select a team to start working on its Dashboard, Projects, Agents, and Users.
 
 * **Project**: You can view here all projects managed by the team you belong to.
     
