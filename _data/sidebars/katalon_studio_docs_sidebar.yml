@@ -1233,7 +1233,7 @@ items:
                 url: /katalon-analytics/docs/cancel-subscriptions.html
       - title: "Get Started"
         tree:
-          - title: "Katalon TestOps Overview"
+          - title: "Overview"
             url: /katalon-analytics/docs/overview.html 
           - title: "What's new"
             tree:
