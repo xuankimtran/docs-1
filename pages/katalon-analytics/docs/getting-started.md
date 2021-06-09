@@ -15,8 +15,6 @@ description:
 >
 > For existing users, sign in with your registered Katalon account.  
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/login/login_page.png" width=100%>
-
 Once you have successfully signed in [Katalon TestOps](https://testops.katalon.io/), the homepage displays as below.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/login/kt2_home_page_org.png" width=100%>
