@@ -43,7 +43,7 @@ For further information on standard map literal syntax, go to: [The Groovy Devel
 > * Windows: [How to Change the Default System Font on Windows 10](https://www.howtogeek.com/716407/how-to-change-the-default-system-font-on-windows-10/#:~:text=Windows%2010's%20default%20system%20font,on%20your%20Windows%2010%20PC.)
 > * macOS: [Fonts - Apple Developer](https://developer.apple.com/fonts/#:~:text=SF%20Pro,and%20includes%20a%20rounded%20variant.)
 
-## Example uses
+## Example uses of WebUI keywords
 
 In this section, we demonstrate example uses of the WebUI keywords for screenshots.
 
