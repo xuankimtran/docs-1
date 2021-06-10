@@ -18,7 +18,7 @@ Here are the parameters for the WebUI keywords.
 | --- | --- | --- | --- |
 | fileName | String | Optional | A String that represents the path to the saved image. The path can be an absolute or relative path. |
 | flowControl | FailureHandling | Optional | Specify [failure handling](/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
-| screenshotOptions | Map | Optional | A String representing the information to be printed on the captured screenshot. This string should be limited to 100 characters and size. |
+| screenshotOptions | Map | Optional | A String representing the information to be printed on the captured screenshot.|
 
 >Notes: ScreenshotOptions is available for Katalon Studio version 8.0.5 onwards.
 
