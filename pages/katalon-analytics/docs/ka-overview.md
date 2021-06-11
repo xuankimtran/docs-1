@@ -1,5 +1,5 @@
 ---
-title: "Katalon TestOps Overview" 
+title: "TestOps Overview" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/overview.html 
 redirect_from:
@@ -30,7 +30,9 @@ This key module is a continuous integration tool for scheduling remote execution
 
 Test Planning eases deployment and configuration so that QAs can focus on testing activities.
 
-It allows you to plan, schedule, and trigger Test Runs remotely. [Learn more](https://docs.katalon.com/katalon-analytics/docs/kt-remote-execution.html).
+It allows you to plan, schedule, and trigger Test Runs remotely. 
+
+Learn more about [Test Planning](https://docs.katalon.com/katalon-analytics/docs/kt-remote-execution.html).
 
 ## Test Management
 
@@ -38,11 +40,15 @@ This key module is a test hub gathering and connecting all quality data from mul
 
 Using Test Management, you can monitor test analytics for your projects.
 
-You can also leverage it to gain critical insights into test results and integrate seamlessly with Katalon Studio and Jira for more efficient project management. [Learn more](https://docs.katalon.com/katalon-analytics/docs/compare-test-results.html).
+You can also leverage it to gain critical insights into test results and integrate seamlessly with Katalon Studio and Jira for more efficient project management. 
+
+Learn more about [Test Management](https://docs.katalon.com/katalon-analytics/docs/compare-test-results.html).
 
 ## Reports & Analytics
 
-This key module provides dynamic perspectives and insights into your automated testing activities. [Learn more](https://docs.katalon.com/katalon-analytics/docs/view-reports-overview.html#test-runs).
+This key module provides dynamic perspectives and insights into your automated testing activities. 
+
+Learn more about [Reports & Analytics](https://docs.katalon.com/katalon-analytics/docs/view-reports-overview.html#test-runs).
 
 ## Configurations
 
@@ -51,6 +57,4 @@ This key module allows you to:
 * Set up and manage Test Environments and Script Repository.
 * Enable integration with other frameworks.
 
-## Next step
-
-[Get started](https://docs.katalon.com/katalon-analytics/docs/getting-started.html#log-in) with Katalon TestOps.
+Next step: [Get started](https://docs.katalon.com/katalon-analytics/docs/getting-started.html#log-in) with Katalon TestOps.
