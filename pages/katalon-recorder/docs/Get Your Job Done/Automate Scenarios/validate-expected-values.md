@@ -1,5 +1,5 @@
 ---
-title: "Validate expected values"
+title: "Verify or assert in your test"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-recorder/docs/validate-expected-values.html
 description:
@@ -7,12 +7,12 @@ description:
 
 Validating expected values is important when you want to confirm that certain states are according to your expectations. For example, when you automate purchasing an item, you want to make sure that the name of the item reflects what you actually bought.
 
-There are at least two ways to add a verification statement to a scenario.
+There are at least two ways to add a verify/assert statement to a scenario.
 
-1.  Use context menu in a Recording session.
-2.  Add a verification statement manually.
+1.  Use context menu while recording.
+2.  Add verify/assert commands from manual interface.
 
-## Use context menu in a Recording session
+## Use context menu while recording.
 
 After recording a test case, right-click on the element that you want to verify then select the corresponding command:
 
@@ -24,13 +24,13 @@ After recording a test case, right-click on the element that you want to verify 
 
 ![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/validate-expected-values/media/image1.jpeg)
 
-Then you got a new verification command.
+Then you got a new verify command.
 
 ![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/validate-expected-values/media/image2.jpeg)
 
-## Add verification statements manually
+## Add verify/assert commands from manual interface
 
-You can also add a new verification statement manually.
+You can also add a new verify statement manually.
 
 1\. Record your teps
 
@@ -40,7 +40,7 @@ You can also add a new verification statement manually.
 
 3\. In the **Command** combobox, type "**verify**"
 
-Then you got the autocomplete list of verification commands.
+Then you got the autocomplete list of verify/assert commands.
 
 ![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/validate-expected-values/media/image4.jpeg)
 

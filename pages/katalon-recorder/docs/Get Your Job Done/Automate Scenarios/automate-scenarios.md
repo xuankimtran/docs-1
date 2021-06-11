@@ -1,16 +1,16 @@
 ---
-title: "Basics of automating scenarios"
+title: "Create your first test"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-recorder/docs/automate-scenarios.html
 description:
 ---
 
-Automating a scenario in KR is essentially adding actions, either through recording or manually.
+The following tutorials aim to help you create your first test case automatically and manually
 
 ## Tutorials
-### Automate your first scenario
+### Create your test from recording interactions
 
-#### 1/ Start recording
+#### Start recording
 
 Once the extension is opened, open https://www.airbnb.com/ to automate booking a place to stay. Minimize and position the window in a way that allows you to see what's going on with KR. Click on the button with the red circle to start a recording session.
 
@@ -20,41 +20,41 @@ Start interacting with the website. Perform any activity like you would normally
 
 ![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/automate-scenarios/image2.png)
 
-#### 2/ Use context menu to add actions
+#### Use context menu to add actions
 
 Right-clicking on any element, select _Katalon Recorder (Selenium tests generator) \> waitForElementPresent_. This adds the step _waitForElementPresent_ with the value being the locator of the selected element.
 
 ![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/automate-scenarios/image3.png)
 
-#### 3/ Rename your test for better readability
+#### Rename your test for better readability
 
 Click on the _Stop_ button.Rename your test case by right clicking on the test case and choose _Rename Test Case._
 
 ![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/automate-scenarios/image4.png)
 
-#### 4/ Save your test case/test suite
+#### Save your test case/test suite
 
 Right click on the Test Suite and choose _Save Test Suite as_, KR will save your test suite, along with the test cases, into a HTML file.
 
 ---
 
-### Add actions to a scenario
+### Create your test manually
 
 After recording a scenario, you may choose to extend it by adding actions manually.
 
-#### 1/ Add a new step
+#### Add a new test step
 
 Click on the button with the _Plus icon._
 
 ![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/automate-scenarios/image5.png)
 
-#### 2/ Specify an action
+#### Specify the command, target, value
 
 Click on the _down arrow_ next to the command input and choose a desired action.
 
 ![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/au#tomate-scenarios/image6.png)
 
-#### 3/ Read how to use the action & parameters
+#### View command's reference
 
 Click on _Reference_ tab at the bottom panel. Then click on each action to see the documentation.
 

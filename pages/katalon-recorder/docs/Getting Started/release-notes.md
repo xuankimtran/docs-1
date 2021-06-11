@@ -10,6 +10,16 @@ redirect_from:
 description:
 ---
 
+## 5.4.5
+- Improved registration process. 
+  - We are constantly refining the registration process to offer users the best experience while balancing againt our business needs.
+  - Since version 5.4.5, new users will be able to execute 25 tests without being forced or suggested to sign up. However, when the quota is exceeded, you will need a **free** Katalon account and log in to continue your work.
+
+## 5.4
+- Undo/redo mechanism to recover from mistakes while editing tests.
+- New Product Tours for both new and current KR users.
+- Improved registration process.
+
 ## 5.3.30 - latest release
 
 **New feature**
