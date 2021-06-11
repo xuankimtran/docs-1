@@ -22,11 +22,11 @@ As an Owner, you have full permission to transfer the Owner role to another team
 
 This role is granted by the Owner.
 
-The Admin has similar privileges as the Owner but cannot transfer the team ownership to an existing team member.
+The Admin has similar privileges as the Owner but cannot transfer the Team ownership to an existing team member.
 
 * **User**
 
-This role is automatically assigned to any person accepting the invitation to join the team.
+This role is automatically assigned to any person accepting the invitation to join the Team.
 
 Users can only monitor project progress.
 
@@ -39,7 +39,7 @@ Follow these steps:
     The **Manage Teams** page appears.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-setup-team/kt-june-create-team-2.png" width="" height="">
-2. Enter the team name and click **Create**.
+2. Enter the Team name and click **Create**.
 
     You are the Owner of your Team.
 
