@@ -85,7 +85,7 @@ If you are not the Owner nor Admin, you will receive an invitation to join the o
 
      You will be directed to [Katalon TestOps](https://testops.katalon.io/login).
 
-2. Sign in TestOps page.
+2. Sign in on the TestOps page.
  
     The invitation page appears.
 
@@ -95,13 +95,13 @@ If you are not the Owner nor Admin, you will receive an invitation to join the o
 
 > Only the Owner or Admins of an organization can do this.
 
-### View Pending Invitations
+### View pending invitations
 
-Unless your team members accept the invitations, you can check all pending invitations on the **Manage Users** page.
+You can check all pending invitations on the **Manage Users** page.
 
 > Notes:
 >
-> You can withdraw the invitation by removing the email address in the **Pending Invitations** section.
+> You can withdraw pending invitations by removing the email address in the **Pending Invitations** section.
 
 ### View the member list
 
@@ -111,7 +111,7 @@ Once your team members have accepted the invitations, the **Users** section will
 
 > Notes:
 >
-> After joining your organization, their roles are users by default. You can update their permission on the **User's detail** page.
+> The default role for team members is User. You can update their permissions on the **User's detail** page.
 
 ### Remove an existing User
 
@@ -119,11 +119,11 @@ In the **Manager Users** page, click on the *Trash bin* icon (next to the *Penci
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-invite-user-org/kt-june-invite-user-org-3.png" width=100%>
 
-A box displays, asking for your confirmation. Confirm your action by clicking **Remove**.
+A confirmation popup box appears. Click **Remove** to confirm.
 
-### Update a User's permission
+### Change a User's permission
 
-The Owner and Admin can reassign a role to the existing member by following these steps:
+As an Owner or Admin, you can change the permissions of an existing member by following these steps:
 
 1. Go to the **Manage Users** page.
 
