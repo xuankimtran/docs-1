@@ -1,14 +1,16 @@
 ---
-title: "Create TestOps Organization and Projects"
+title: "Create TestOps Organization and Project"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/kt-create-org.html
 redirect_from:
  - "/katalon-analytics/docs/manage-org.html"
 ---
 
-In Katalon TestOps, you can set up a new Organization, create projects, and invite members to the Organization.
+In Katalon TestOps, you can set up a new Organization, create a Project, and invite members to the Organization.
 
-> You need a Katalon account. Register [here](https://www.katalon.com/sign-up/) if you don't have one.
+> Requirements:
+>
+> You need a Katalon account. Register for [Katalon account](https://www.katalon.com/sign-up/) if you don't have one.
 
 ## Create an Organization
 
@@ -32,7 +34,7 @@ You are now the Owner of a new Organization.
 
 ### Set up your first Project
 
-Each time you create a new Organization, Katalon TestOps automatically prompts you to set up a Project, invite other members and upload a Test Result.
+Each time you create a new Organization, Katalon TestOps automatically prompts you to set up a Project, invite other members and upload Test Results.
 
 1. **Set up the first project** page.
 
@@ -40,6 +42,8 @@ Each time you create a new Organization, Katalon TestOps automatically prompts y
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-create-org/kt-june-create-org-2.png" width=100%>
 
+   > Notes:
+   >
    > By default, Katalon TestOps automatically stores your Project in the **First Team**. To create a Team, follow these instructions: [Create a Team](https://docs.katalon.com/katalon-analytics/docs/setup-team.html#create-a-team). 
    
 2. **Share projects to your members** page.
@@ -86,7 +90,9 @@ The **Organization profile** page appears as below.
 
 After the **Organization profile** page appears, you can enter a new name for your Organization in the **Name** section, then click **Update** to save your changes.
 
-> This function is only accessible to the **Owner** and **Admin** of an organization.
+> Notes:
+>
+> This function is only accessible to the Owner and Admin of an Organization.
 
 ### Delete an Organization
 
@@ -94,6 +100,8 @@ After the **Organization profile** screen appears, click on the **I understand t
 
 A popup displays for confirmation. Enter the Organization name to validate. Click **I understand the consequences, delete this organization**.
 
+> Notice:
+>
 > You cannot undo this action. This action will permanently delete your Organization, projects, licenses and remove all associated teams.
 
 See also:
