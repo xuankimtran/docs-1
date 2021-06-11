@@ -30,7 +30,7 @@ This key module is a continuous integration tool for scheduling remote execution
 
 Test Planning eases deployment and configuration so that QAs can focus on testing activities.
 
-It allows you to plan, schedule, and trigger Test Runs remotely. 
+It allows you to plan, schedule, and trigger Test Runs remotely.
 
 Learn more about [Test Planning](https://docs.katalon.com/katalon-analytics/docs/kt-remote-execution.html).
 
@@ -57,4 +57,4 @@ This key module allows you to:
 * Set up and manage Test Environments and Script Repository.
 * Enable integration with other frameworks.
 
-Next step: [Get started](https://docs.katalon.com/katalon-analytics/docs/getting-started.html#log-in) with Katalon TestOps.
+Next step: [Create Organization and Projects](https://docs.katalon.com/katalon-analytics/docs/kt-create-org.html) in Katalon TestOps.
