@@ -1247,7 +1247,7 @@ items:
             url: /katalon-analytics/docs/testops-terminology.html
           - title: "Access Katalon TestOps"
             url: /katalon-analytics/docs/getting-started.html  
-          - title: "Create Organization"
+          - title: "Create Organization and Project"
             url: /katalon-analytics/docs/kt-create-org.html
           - title: "Invite a user into an Organization"
             url: /katalon-analytics/docs/kt_invite_user_org.html
