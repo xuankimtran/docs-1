@@ -14,7 +14,7 @@ In Katalon TestOps, you can set up a new Organization, create projects, and invi
 
 By creating an Organization, team members can collaborate across several projects instantly.
 
-You can create as many Organizations as you need. 
+You can create as many Organizations as you need.
 
 You can also join any other Organization you are invited to.
 
@@ -66,10 +66,11 @@ Follow these steps:
 
 2. Click on the **Create Project** button on the top right corner. Select the team in the **Choose Team** box, then click **Next**.
 
- <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-create-org/kt-june-create-org-project.png" width="" height="">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-create-org/kt-june-create-org-project.png" width="" height="">
 
-3. Enter the project name after the **Manage Projects** page appears.
-Click **Create**.
+    The **Manage Projects** page then appears.
+
+3. Enter your Project name and click **Create**.
 
 ## Manage an organization
 
