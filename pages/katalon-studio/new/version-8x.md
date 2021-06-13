@@ -11,66 +11,69 @@ description: Release notes 8.x
 
 ## Official Release - Version 8.0.5
 
-### New Feature
+### Improvements
 
-* Publish Katalon Record Utility extension on Chrome Web Store. [Learn more](https://docs.katalon.com/katalon-studio/docs/record-web-utility-using-chrome-with-profile.html)
-
-### Changes
-
-* The plugin activation is changed based on the license type.
-* Update Time Capsule with built-in ChromeDevTools function.
+* Published Record Web with bundled Katalon Record Utility on Chrome Web Store. [Find out more](https://docs.katalon.com/katalon-studio/docs/record-web-utility-using-chrome-with-profile.html)
+* [Time Capsule] Introduced ChromeDevTools functionality.
+* [Web UI] Printed text on captured screenshots. [Learn more](https://docs.katalon.com/katalon-studio/docs/webui-take-screenshot.html)
 
 ### Fixes
 
-* Bug: Custom Keywords
-    * The Back and Forth navigation in the Editor is not working.
-    * Hyperlink is not working.
-    * Java doc is not working.
-    * Cannot open the Declaration of the keyword.
-    * Custom Keywords in the Step definitions are not working.
-
-* Bug: Test Suite stops executing after some test cases.
-* Bug: [Katalon Runtime Engine] An issue of not generating and submitting JUnit report to TestOps.
+* Fixed issues with Custom Keywords where:
+    * Back and Forth navigation in the Editor was not working.
+    * Hyperlink was not working.
+    * Javadoc was not working.
+    * The Declaration of the keyword could not be opened.
+    * [Cucumber] Custom Keywords in Step definitions were not working.
+* Bug: Resolved activation issue of Enterprise-exclusive plugins.
+* Bug: Test Suite stopped executing after some test cases.
+* Fixed reports parsing issues:
+    * [Katalon Runtime Engine] Could not generate and submit JUnit report to TestOps.
+    * Could not generate reports due to `Null` character in log files.
+* Fixed Katalon Runtime Engine hanging issues when:
+    * Running tests with Selenium Grid.
+    * Running tests with multiple API requests.
+    * [Test Suite Collection] The number of Java threads kept increasing during execution.
 
 ## Version 8.0.0
 
 ### New Features
 
-* [Katalon Studio Enterprise] Support native integration with Azure DevOps Test Plans. [Learn more](/katalon-studio/docs/azure-devops-test-plans.html)
-* [Katalon Studio Enterprise] Import/Export desired capabilities. [Learn more](/katalon-studio/docs/import-export-desired-capabilities.html)
-* [Katalon Runtime Engine License] Add a parameter to release the previous execution session before checking license. [Learn more](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#general-options)
-* Product Tours for new Web UI and Web Service users.
+* [Katalon Studio Enterprise] Supported native integration with Azure DevOps Test Plans. [Learn more](/katalon-studio/docs/azure-devops-test-plans.html)
+* [Katalon Studio Enterprise] Imported/Exported desired capabilities. [Learn more](/katalon-studio/docs/import-export-desired-capabilities.html)
+* [Katalon Runtime Engine License] Added a parameter to release the previous execution session before checking the license. [Learn more](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#general-options)
+* Provided Product Tours for new Web UI and Web Service users.
 
 ### Improvements
 
-* Support Chrome 90.
-* Support Microsoft Edge (Chromium) 90.
-* Update the embedded GeckoDriver to 0.29 (Firefox 88).
-* Improve Performance: Load large projects faster and consume less memory during execution.
-* Edge Chromium is now the default **embedded browser** (used to be Internet Explorer).
-* [Windows OS] Replace embedded Oracle JRE 8 with Azul Zulu OpenJDK 8.
-* Enhance Katalon TestOps Integration:
-    * [Katalon Runtime Engine] Support query for Test Suite Collection. [Learn more](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#general-options)
-    * [Katalon Runtime Engine] Support new parameters for new Build concept. [Learn more](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#general-options)
-* [Katalon Runtime Engine] Pass HashMap for Global Variables from CLI.
-* [Katalon Runtime Engine] Add an option to Command Builder for updating WebDriver automatically.
-* [Enhanced Report] Add profile details to the email reports.
+* Supported Chrome 90.
+* Supported Microsoft Edge (Chromium) 90.
+* Updated the embedded GeckoDriver to 0.29 (Firefox 88).
+* Improved Performance: Load large projects faster and consume less memory during execution.
+* Edge Chromium was now the default **embedded browser** (used to be Internet Explorer).
+* [Windows OS] Replaced embedded Oracle JRE 8 with Azul Zulu OpenJDK 8.
+* Enhanced Katalon TestOps Integration:
+    * [Katalon Runtime Engine] Supported query for Test Suite Collection. [Learn more](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#general-options)
+    * [Katalon Runtime Engine] Supported new parameters for the new Build concept. [Learn more](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#general-options)
+* [Katalon Runtime Engine] Passed HashMap for Global Variables from CLI.
+* [Katalon Runtime Engine] Added an option to Command Builder for updating WebDriver automatically.
+* [Enhanced Report] Added profile details to the email reports.
 
 ### Changes
 
 * Katalon accounts registered with personal email are eligible for Katalon Studio Enterprise and Katalon Runtime Engine trial licenses for 30 days.
-* MySQL becomes an external library. To continue using it, follow [this guide](/katalon-studio/how-to-guides/how-to-implement-ddt-mysql.html) to configure MySQL database connection.
+* MySQL became an external library. To keep it in use, follow [this guide](/katalon-studio/how-to-guides/how-to-implement-ddt-mysql.html) to configure MySQL database connection.
 
 ### Fixes
 
-* Bug: Fix all blocker & critical security vulnerabilities reported by SonarQube in static code analysis and 3rd-party libraries scanning tools. 
+* Bug: Fixed all blocker & critical security vulnerabilities reported by SonarQube in static code analysis and 3rd-party libraries scanning tools. 
 * Bug: [Katalon Runtime Engine] Lacking of tracking event for activation.
 * Bug: [Windows] Missing Network connection Preference.
-* Bug: [Chrome 86] Recorder utility is not working.
-* Bug: Cannot import Swagger JSON files.
-* Bug: The Bypass Certificate validation option is not working.
+* Bug: [Chrome 86] Recorder utility was not working.
+* Bug: Could not import Swagger JSON files.
+* Bug: The Bypass Certificate validation option was not working.
 * Bug: [Katalon Runtime Engine] An issue of not sending emails via command syntax `sendMail`.
-* Bug: An issue of deleting scripts when renaming folder name.
-* Bug: Cannot drag and drop a custom keyword from Keyword Browser.
-* Bug: Cannot update References of Called Test Cases when the test cases are moved by drag and drop or cut and paste.
-* Bug: [Mobile testing] Cannot capture object(s) while testing.
+* Bug: An issue of deleting scripts when renaming the folder name.
+* Bug: Could not drag and drop a custom keyword from Keyword Browser.
+* Bug: Could not update References of Called Test Cases when the test cases are moved by drag and drop or cut and paste.
+* Bug: [Mobile testing] Could not capture object(s) while testing.
