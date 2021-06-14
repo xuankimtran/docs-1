@@ -10,7 +10,7 @@ redirect_from:
 description:
 ---
 
-This article shows you how to start a TestOps Account.
+This article shows you how to start with Katalon TestOps.
 
 > Notes:
 >
