@@ -90,5 +90,4 @@ The **Edit Current User** box pops up. Select the new role in the dropdown list.
 
 See also:
 
-* [Create Organization and Project](https://docs.katalon.com/katalon-analytics/docs/kt-create-org.html)
 * [Integration of Katalon Studio with Katalon TestOps](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html)
