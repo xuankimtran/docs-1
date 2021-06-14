@@ -1249,7 +1249,7 @@ items:
             url: /katalon-analytics/docs/getting-started.html  
           - title: "Create Organization"
             url: /katalon-analytics/docs/kt-create-org.html
-          - title: "Invite a User into an Organization"
+          - title: "Manage Users"
             url: /katalon-analytics/docs/kt_invite_user_org.html
           - title: "Set up Teams and Projects"
             url: /katalon-analytics/docs/setup-team.html
