@@ -56,5 +56,3 @@ This key module allows you to:
 
 * Set up and manage Test Environments and Script Repository.
 * Enable integration with other frameworks.
-
-Next step: [Create Organization and Projects](https://docs.katalon.com/katalon-analytics/docs/kt-create-org.html) in Katalon TestOps.
