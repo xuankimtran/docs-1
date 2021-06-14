@@ -281,6 +281,8 @@ items:
                 tree:
                   - title: "Record Web Utility"
                     url: /katalon-studio/docs/record-web-utility.html
+                  - title: "Record with Chrome using Packed Extension (pre-release)"
+                    url: /katalon-studio/docs/record-web-utility-using-chrome-with-profile.html
                   - title: "Spy Web Utility"
                     url: /katalon-studio/docs/spy-web-utility.html
                   - title: "Web Locators Settings (since v5.7.1)"
