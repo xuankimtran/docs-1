@@ -12,7 +12,7 @@ redirect_from:
 description: 
 ---
 
-[Katalon TestOps](https://www.katalon.com/testops/) is an enterprise-class platform for **QA orchestration**, **test analytics**, and **advanced reports**.
+[Katalon TestOps](https://testops.katalon.io/home) is an enterprise-class platform for **QA orchestration**, **test analytics**, and **advanced reports**.
 
 Katalon TestOps provides dashboards and reports on the status of product quality.
 
