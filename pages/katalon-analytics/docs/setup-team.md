@@ -87,5 +87,3 @@ The **Edit Current User** box pops up. Select the new role in the dropdown list.
 > Notes:
 >
 > Users can have different roles in different teams.
-
-Next step: [Integration of Katalon Studio with Katalon TestOps](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html)
