@@ -24,21 +24,21 @@ Once you have successfully signed in [Katalon TestOps](https://testops.katalon.i
 
 ## TestOps homepage
 
-TestOps homepage is a quick way to see your organizations, teams, projects and their details.
+TestOps homepage is a quick way to see your Organizations, Teams, Projects and their details.
 
-* **Organization**: You can view here the list of all organizations you belong to.
+* **Organization**: You can view here the list of all Organizations you belong to.
     
-    Select an organization (e.g., CURA Healthcare 1) to see its details.
+    Select an Organization (e.g., CURA Healthcare 1) to see its details.
     
-    You can update your organization name, manage teams and users if you’re the **Owner** of your organization.
+    You can update your Organization name, manage Teams and Users if you’re the **Owner** of your Organization.
 
-* **Team**: You can view here the teams you have access to.
+* **Team**: You can view here the Teams you have access to.
 
-     Select a team to start working on its Dashboard, Projects, Agents, and Users.
+     Select a Team to start working on its Dashboard, Projects, Agents, and Users.
 
-* **Project**: You can view here all projects managed by the team you belong to.
+* **Project**: You can view here all Projects managed by the Team you belong to.
     
-    Select a project to view its details and to start working on it.
+    Select a Project to view its details and to start working on it.
 
 ## Sign out
 
