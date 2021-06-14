@@ -1,5 +1,5 @@
 ---
-title: "Create TestOps Organization and Project"
+title: "TestOps Organization Management"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/kt-create-org.html
 redirect_from:
@@ -103,7 +103,3 @@ A popup displays for confirmation. Enter the Organization name to validate. Clic
 > Notice:
 >
 > You cannot undo this action. This action will permanently delete your Organization, projects, licenses and remove all associated teams.
-
-See also:
-* [Invite a User into an Organization](https://docs.katalon.com/katalon-analytics/docs/kt_invite_user_org.html#transfer-organization-ownership).
-* [Set up a Team in an Organization](https://docs.katalon.com/katalon-analytics/docs/setup-team.html).
