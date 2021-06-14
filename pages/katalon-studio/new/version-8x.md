@@ -13,7 +13,7 @@ description: Release notes 8.x
 
 ### Improvements
 
-* Published Record Web with bundled Katalon Record Utility on Chrome Web Store. Find out more here: [Record Web Using Packed Extension](https://docs.katalon.com/katalon-studio/docs/record-web-utility-using-chrome-with-profile.html).
+* Introduced an option to Record Web with a packed extension, now available on the Chrome Web Store. Learn more here: [Record Web Utility using Chrome with Profile](https://docs.katalon.com/katalon-studio/docs/record-web-utility-using-chrome-with-profile.html).
 * [Time Capsule] Introduced ChromeDevTools functionality. Credit to [Kazurayam](https://forum.katalon.com/t/saving-web-page-as-mhtml-in-katalon-studio/49368).
 * [Web UI] Supported to print text on captured screenshots. See [Take screenshots with WebUI keywords](https://docs.katalon.com/katalon-studio/docs/webui-take-screenshot.html)
 
