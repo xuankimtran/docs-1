@@ -1,5 +1,5 @@
 ---
-title: "Invite a User into TestOps Organization"
+title: "TestOps User Management"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/kt_invite_user_org.html
 redirect_from:
@@ -140,20 +140,3 @@ As an Owner or Admin, you can change the permissions of an existing member by fo
     > * Organization members can have different roles in different teams.
     > * The **Owner** role only appears in the dropdown list if you are the Owner of your Organization.
     > * The **Billing Manager** role is only available at the Organization level.
-
-## Transfer Organization
-
-> Notes:
->
-> Only the Owner of an Organization can transfer the ownership to an existing team member.
-
-In the **User's detail** page, click on the dropdown button. In the **Role** section, select **Owner**. Click **Update**.
-
-This User is now the Owner of your Organization.
-
-> Notes:
->
-> Transferring Organization ownership does not affect Team ownership. The previous Organization Owner maintains Owner permissions for the Teams they have created.
-
-See also:
-* [Set up a Team in an Organization](https://docs.katalon.com/katalon-analytics/docs/setup-team.html).
