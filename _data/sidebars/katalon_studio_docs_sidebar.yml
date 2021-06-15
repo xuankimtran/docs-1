@@ -1367,6 +1367,8 @@ items:
             url: /katalon-analytics/docs/filter-test-build-name.html  
           - title: "View Requirement Coverage heat map"
             url: /katalon-analytics/docs/requirement-coverage.html
+          - title: "View Re-run Test Results"
+            url: /katalon-analytics/docs/rerun-results.html
           - title: "View Test Case reports"
             url: /katalon-analytics/docs/view-test-cases.html
           - title: "Visual Testing" 
