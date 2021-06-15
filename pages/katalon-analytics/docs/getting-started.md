@@ -20,23 +20,22 @@ This article shows you how to start with Katalon TestOps.
 
 Once you have successfully signed in [Katalon TestOps](https://testops.katalon.io/), the homepage displays as below.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/login/kt2_home_page_org.png" width=100%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-signup/kt-june-revamp-testop-homepage.png" width=100%>
+
+> Notes:
+> You automatically create an Organization under your account name when you sign in for the first time.
 
 ## TestOps homepage
 
 TestOps homepage is a quick way to see your Organizations, Teams, Projects and their details.
 
-* **Organization**: You can view here the list of all Organizations you belong to.
+* **Organization**: You can see the list of all Organizations you belong to.
     
-    Select an Organization (e.g., CURA Healthcare 1) to see its details.
+    Select an Organization (e.g., Katalon) to see its details.
     
     You can update your Organization name, manage Teams and Users if you’re the **Owner** of your Organization.
 
-* **Team**: You can view here the Teams you have access to.
-
-     Select a Team to start working on its Dashboard, Projects, Agents, and Users.
-
-* **Project**: You can view here all Projects managed by the Team you belong to.
+* **Project**: You can view the most recent Projects managed by the Team you belong to.
     
     Select a Project to view its details and to start working on it.
 
@@ -47,4 +46,4 @@ Follow these steps to sign out Katalon TestOps:
 1. Click on the **Avatar** icon on the top right corner of the homepage.
 2. Click **Sign Out** at the bottom of the popup bar.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/login/kt2_sign_out.png" width=100%>
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-signup/kt-june-revamp-signout-testops.png" width=100%>
