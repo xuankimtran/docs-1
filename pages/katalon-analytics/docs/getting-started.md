@@ -30,7 +30,7 @@ the homepage displays as below.
 
 ## TestOps homepage
 
-TestOps homepage is a quick way to see your Organizations, Teams, Projects and their details.
+TestOps homepage is a quick way to see your Organizations, Projects and their details.
 
 * **Organization**: You can see the list of all Organizations you belong to.
     
