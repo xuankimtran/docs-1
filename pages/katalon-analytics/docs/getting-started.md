@@ -21,7 +21,8 @@ This article shows you how to start with Katalon TestOps.
 Once you have successfully signed in [Katalon TestOps](https://testops.katalon.io/), it prompts you to create an Organization and a Project. For detailed instructions, click [here](https://docs.katalon.com/katalon-analytics/docs/kt-create-org.html#create-an-organization).
 
 > Notes:
-> You also automatically create an Organization under your account name when you sign in for the first time.
+>
+> If you are an existing user, you automatically have an Organization under your account name when you sign in Katalon TestOps for the first time.
 
 After creating an Organization,
 the homepage displays as below.
