@@ -1,5 +1,5 @@
 ---
-title: "Sign up TestOps Accounts"
+title: "Sign up TestOps account"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/getting-started.html
 redirect_from:
