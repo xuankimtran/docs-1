@@ -38,4 +38,4 @@ To see details of all executions, click on the **Test Results** tab and choose t
 
 The latest execution results display on the top of the list by default.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-june-release-rerun-results/Overview%20rerun%20result.png" width=100%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-june-release-rerun-results/All%20rerun%20results%20log.png" width=100%>
