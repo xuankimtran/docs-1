@@ -41,7 +41,7 @@ description:
             <td>
                 <ul>
                     <li><a href="https://docs.katalon.com/katalon-studio/new/what-is-new.html">What's new in
-                            v8.0.0?</a>
+                            v8.0.0 and v8.0.5?</a>
                     <li><a href="https://docs.katalon.com/katalon-studio/new/all-versions.html"">Release notes</a>
                     <li><a href="https://www.katalon.com/download/">Download</a>
                     </li>
