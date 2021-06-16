@@ -1,5 +1,5 @@
 ---
-title: "Version History - 8.x" 
+title: "Release Notes - 8.x" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/new/version-8x.html
 redirect_from:
