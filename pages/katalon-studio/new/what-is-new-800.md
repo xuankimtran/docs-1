@@ -11,11 +11,14 @@ redirect_from:
 description: What's new in Katalon Studio 8.0.0?
 ---
 
+> 8.0.5 is now available!
+> 
+> * Download [here](https://www.katalon.com/download/).
+> * See [release notes](https://docs.katalon.com/katalon-studio/new/version-8x.html)
+
 **May 10, 2021**
 
-Katalon Studio 8.0.0 is now released with Azure Test Plans's native integration and robust IDE performance for processing large projects.
-
-> Download [here](https://www.katalon.com/download/).
+Katalon Studio 8.0.0 was released with Azure Test Plans's native integration and robust IDE performance for processing large projects.
 
 In this update, we've focused on scalability and interoperability across projects and tools so you can have a cohesive experience in creating and executing automated tests. We are on a mission to help software team achieve continuous testing; hence, incorporating Katalon Studio into your SDLC & DevOps with ease and greater security is our top priority.
 
