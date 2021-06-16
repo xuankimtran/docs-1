@@ -7,9 +7,9 @@ redirect_from:
 description: Release notes 8.x
 ---
 
-> Download [here](https://www.katalon.com/download/).
-
 ## Official Release - Version 8.0.5
+
+> Download [here](https://www.katalon.com/download/).
 
 ### Improvements
 
@@ -34,7 +34,7 @@ description: Release notes 8.x
     * Running tests with Selenium Grid.
     * [Test Suite Collection] The number of Java threads kept increasing during execution.
 
-## Version 8.0.0
+## Version 8.0.0 - 8.0.1
 
 ### New Features
 
