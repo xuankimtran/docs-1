@@ -4,13 +4,13 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/troubleshoot-activation-problems.html
 ---
 
-## Configuring Time Zone
+## Configure Time Zone
 
 When installing Katalon Studio on your machine, make sure you have configured the date and time of the machine based on the local time zone.
 
 Time differences might affect the validation of licenses on the Katalon Server.
 
-## Troubleshooting Common Issues
+## Troubleshoot Common Issues
 
 > **Tips**
 >
@@ -41,15 +41,15 @@ If you are behind a **Proxy Server**, configure Authentication Proxy first and t
 
 CAPTCHA is required when you enter incorrect passwords multiple times.
 
-Log into [Katalon TestOps](https://analytics.katalon.com/) using that account and entering the captcha.
+Log into [Katalon TestOps](https://analytics.katalon.com/) using that account and enter the captcha.
 
-After that, you can activate Katalon Studio.
+You can now activate Katalon Studio.
 
 </details>
 
 **<details><summary>License Quota exceeded</summary>**
 
-This exception means that the number of licenses in use (both online and offline) exceeds the total number of licenses subscribed by your Organization.
+This exception means that the number of licenses in use (both online and offline) exceeds the total number of licenses available to your Organization.
 
 This may cause [session termination](https://docs.katalon.com/katalon-studio/docs/session-termination.html).
 
