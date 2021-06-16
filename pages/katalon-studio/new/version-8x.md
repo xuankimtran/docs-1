@@ -19,6 +19,7 @@ description: Release notes 8.x
 
 ### Fixes
 
+* Fixed Katalon Docker Image not sending reports to Katalon TestOps.
 * Fixed issues with Custom Keywords where:
     * Back and Forth navigation in the Editor was not working.
     * Hyperlink was not working.
