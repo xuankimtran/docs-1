@@ -58,11 +58,11 @@ Each time you create a new Organization, Katalon TestOps automatically prompts y
 
     Click **Upload sample project**, then click **Finish**.
 
-### Create new projects
+### Create new Projects
 
-You can also create a new project in **TestOps Setting**.
+You can also create a new Project in **TestOps Setting**.
 
-Admin permissions allow you to create multiple projects for one Team.
+Admin permissions allow you to create multiple Projects for one Team.
 
 Follow these steps:
 
@@ -70,7 +70,7 @@ Follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-create-org/kt-june-create-org-project-2.png" width="" height="">
 
-2. Click on the **Create Project** button on the top right corner. Select the team in the **Choose Team** box, then click **Next**.
+2. Click on the **Create Project** button on the top right corner. Select the Team in the **Choose Team** box, then click **Next**.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-create-org/kt-june-create-org-project.png" width="" height="">
 
@@ -102,4 +102,4 @@ A popup displays for confirmation. Enter the Organization name to validate. Clic
 
 > Notice:
 >
-> You cannot undo this action. This action will permanently delete your Organization, projects, licenses and remove all associated teams.
+> You cannot undo this action. This action will permanently delete your Organization, Projects, licenses and remove all associated teams.
