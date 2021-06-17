@@ -1455,6 +1455,12 @@ items:
             tree:
               - title: "Katalon Recorder Helper Tool"
                 url: /katalon-recorder/docs/katalon-recorder-helper-tool.html
+              - title: "Import from Selenium IDE"
+                tree:
+                  - title: "How to import from Selenium IDE"
+                    url: /katalon-recorder/docs/how-to-import-selenium-ide.html 
+                  - title: "Command Compatibility between Selenium IDE and KR"
+                    url: /katalon-recorder/docs/side-kr-command-compatibility.html 
               - title: "Extension Scripts (AKA user-extensions.js) for Custom Locator Builders and Actions"
                 url: /katalon-recorder/docs/extension-scripts-aka-user-extensionsjs-for-custom-locator-builders-and-actions.html
       - title: "Help & Resources"
