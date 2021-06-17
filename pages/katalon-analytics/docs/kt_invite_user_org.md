@@ -75,11 +75,11 @@ Alternatively, you can copy the activation link and send it to them.
 
 > Notes:
 >
-> After joining your Organization, the new Users are not yet part of a Team. You have to add them to a Team so that they can gain access to the Project.
+> After joining your Organization, the new users are not yet part of a team. You have to add them to a team so that they can gain access to a project.
 
 ### As a User
 
-If you are not the Owner nor Admin, you will receive an invitation to join the organization via email.
+If you are not the Owner nor Admin, you will receive an invitation to join the Organization via email.
 
 1. Accept the invitation in the email.
 
@@ -93,7 +93,7 @@ If you are not the Owner nor Admin, you will receive an invitation to join the o
 
 ## Manage Users
 
-> Only the Owner or Admins of an organization can do this.
+> Only the Owner or Admins of an Organization can do this.
 
 ### View pending invitations
 
