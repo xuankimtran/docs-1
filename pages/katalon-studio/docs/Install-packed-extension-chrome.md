@@ -1,5 +1,5 @@
 ---
-title: "Record with Chrome using Packed Extension (pre-release)" 
+title: "Record with Chrome using Packed Extension" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/record-web-utility-using-chrome-with-profile.html 
 redirect_from:
@@ -8,7 +8,7 @@ description:
 ---
 > Requirements:
 >
->* Katalon Studio version 8.0.5 or higher. Currently in pre-release. You can find the build here: [8.0.5rc3 on Github](https://github.com/katalon-studio/katalon-studio/releases/tag/v8.0.5.rc3)
+>* Katalon Studio version 8.0.5 or higher.
 >* A Chrome Profile. Find more information here: [Share Chrome with others](https://support.google.com/chrome/answer/2364824/share-chrome-with-others-computer).
 
 In some environments, unpacked extensions are disabled as a security feature. In that case, using the Record utility with Chrome prompts this error: "Loading the unpacked extension is disabled by the administrators."
