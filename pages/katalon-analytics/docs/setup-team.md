@@ -1,14 +1,14 @@
 ---
-title: "Set up TestOps Team"
+title: "Set up TestOps Teams"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/setup-team.html
 redirect_from:
     - "/katalon-analytics/docs/setup-team/"
 ---
 
-A Team is a group of Users working on same projects. A Team is created by either the Owner or Admins of an Organization.
+A Team is a group of Users working on same Projects. A Team is created by either the Owner or Admins of an Organization.
 
-Only the team members can view and access the Team's projects.
+Only the team members can view and access the Team's Projects.
 
 ## Roles and permission at the Team level
 
@@ -64,7 +64,7 @@ Follow these steps:
 
 > Notes:
 >
-> You have to [invite a User into an Organization](https://docs.katalon.com/katalon-analytics/docs/kt_invite_user_org.html) first. Only Users in the Organization can be added to the Team.
+> You have to invite users into an Organization first. Only Users of the Organization can be added to the Team.
 
 ### Remove existing Users
 
@@ -80,7 +80,7 @@ The Owner can reassign **Owner** and lower roles to existing members.
 
 The Admin can reassign **Admin** and lower roles to existing members.
 
-In the **Manage Users** page, click on the *Pencil* icon to edit the user's role.
+In the **Manage Users** page, click on the *Pencil* icon to edit the User's role.
 
 The **Edit Current User** box pops up. Select the new role in the dropdown list. Click **Save**.
 
