@@ -83,25 +83,25 @@ People reportedly use Katalon Recorder to:
         <tr>
             <td>
                 <ul>
-                    <li><a href="./automate-scenarios.html">Create your first test</a>
+                    <li><a href="./automate-scenarios.html">Create your first automation script</a>
                     </li>
-                    <li><a href="./conditional-cases.html">Handle conditional cases in your tests</a>
+                    <li><a href="./conditional-cases.html">Handle conditional cases</a>
                     </li>
-                    <li><a href="./validate-expected-values.html">Verify or assert in your tests</a>
+                    <li><a href="./validate-expected-values.html">Verify or assert states</a>
                     </li>      
-                    <li><a href="./auto-backup.html">Auto backup your tests to Katalon TestOps</a>
+                    <li><a href="./auto-backup.html">Auto backup your automation scripts to Katalon TestOps</a>
                     </li>                                     
                 </ul>
             </td>
             <td>
                 <ul>
-                    <li><a href="./execute-scenarios.html">Modes of test execution</a>
+                    <li><a href="./execute-scenarios.html">Execution modes</a>
                     </li>
                 </ul>  
             </td>
             <td>
                 <ul>
-                    <li><a href="./monitor-scenario-executions.html">Monitor test execution </a>
+                    <li><a href="./monitor-scenario-executions.html">Monitor automation script executions </a>
                     </li>                    
                 </ul>
             </td>
@@ -118,12 +118,12 @@ People reportedly use Katalon Recorder to:
         <tr>
             <td>
                 <ul>
-                    <li><a href="./export-test-script.html">Export tests to other frameworks</a>
+                    <li><a href="./export-test-script.html">Export automation scripts to other frameworks</a>
                     </li>                   
                 </ul>
             </td>
             <td>
-                <a href="./data-driven-execution.html">Execute tests with data set</a>
+                <a href="./data-driven-execution.html">Execute automation scripts with multiple data set</a>
             </td>
             <td>
                 <ul>

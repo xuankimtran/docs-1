@@ -8,6 +8,14 @@ redirect_from:
 description:
 ---
 
+## Why should I sign up for a free account?
+When you sign up for a free account, you will get access to the following capabilities in Katalon Recorder:
+- Create **unlimited automation scripts** to automate unlimited scenarios.
+- **[Automatically back up your data to TestOps](https://docs.katalon.com/katalon-recorder/docs/auto-backup.html)**  to avoid data loss.
+- **[Store execution results to TestOps](https://docs.katalon.com/katalon-recorder/docs/monitor-scenario-executions.html#upload-and-view-past-executions-via-testops)**  to review trends and history.
+- **Receive updates** on Katalon, new features and bug fixes regularly to maximize the value of the product.
+
+
 ## Common failures and resolutions
 Try the following suggestions when your automation scripts fail. If they don't work either, open a thread on [our forum](https://forum.katalon.com/c/katalon-recorder/17) to ask experts for help.
 

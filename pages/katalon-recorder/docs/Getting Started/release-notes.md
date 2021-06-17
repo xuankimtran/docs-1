@@ -10,6 +10,11 @@ redirect_from:
 description:
 ---
 
+## 5.4.10
+- Improved registration process.
+  - Since version 5.4.10, new users will have unlimited test executions, but can create only one automation script. To create more, a **free account** is required. 
+    - We have experimented with setting quota on the number of executions, but decided that it does not align with how users experience success with the product because the number of executions required to automate a scenario successfully vary greatly. However, when you want to automate more scenarios, it likely indicates that you have succeeded in automating one scenarios.
+
 ## 5.4.6
 - Improved registration process.
   - Since version 5.4.6, new users will have to sign up for a **free** account after 4 successful executions. Our data has shown that users that have more than 4 successful executions are more likely to adopt the product.

@@ -1423,31 +1423,31 @@ items:
             tree:
               - title: "Selenese (Selenium IDE) Commands Reference"
                 url: /katalon-recorder/docs/selenese-selenium-ide-commands-reference.html
-              - title: "Create your first test"
+              - title: "Create your first automation script"
                 url: /katalon-recorder/docs/automate-scenarios.html
-              - title: "Handle conditional cases in your tests"
+              - title: "Handle conditional cases"
                 url: /katalon-recorder/docs/conditional-cases.html
-              - title: "erify or assert in your tests"
+              - title: "Verify or assert state"
                 url: /katalon-recorder/docs/validate-expected-values.html
               - title: "Back up data automatically to Katalon TestOps"
                 url: /katalon-recorder/docs/auto-backup.html
           - title: "Execute scenarios"
             tree:
-              - title: "Modes of test execution"
+              - title: "Execution modes"
                 url: /katalon-recorder/docs/execute-scenarios.html
           - title: "Monitor scenarios"
             tree:
-              - title: "Monitor test execution"
+              - title: "Monitor automation script executions"
                 url: /katalon-recorder/docs/monitor-scenario-executions.html
           - title: "Export scenarios"
             tree:
-              - title: "Export Test Case as Script"
+              - title: "Export automation scripts to other frameworks"
                 url: /katalon-recorder/docs/export-test-script.html
               - title: "Writing Custom Script Formatter"
                 url: /katalon-recorder/docs/writing-custom-script-formatter.html
           - title: "Data-driven excecution"
             url: /katalon-recorder/docs/data-driven-execution.html
-          - title: "Social values"
+          - title: "Social"
             tree:
               - title: "Daily Usage"
                 url: /katalon-recorder/docs/daily-usage.html
