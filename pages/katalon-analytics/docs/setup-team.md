@@ -6,16 +6,15 @@ redirect_from:
     - "/katalon-analytics/docs/setup-team/"
 ---
 
-A Team is a group of Users working on same Projects. A Team is created by either the Owner or Admins of an Organization.
+A Team is a group of Users working on the same Projects. A Team is created by either the Owner or Admins of an Organization.
 
-Only the team members can view and access the Team's Projects.
+Only Users can view and access the Team's Projects.
 
-## Roles and permission at the Team level
+## Roles and permissions at the Team level
 
 * **Owner**
 
-You become the Owner by default if you create a new Team.
-
+If you create a new Team, you become its Owner by default.
 As an Owner, you have full permission to transfer the Owner role to another team member.
 
 * **Admin**
@@ -28,7 +27,7 @@ The Admin has similar privileges as the Owner but cannot transfer the Team owner
 
 This role is automatically assigned to any person accepting the invitation to join the Team.
 
-Users can only monitor project progress.
+Users can only monitor the Project's progress.
 
 ## Create a Team
 
@@ -60,7 +59,7 @@ Follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-setup-team/kt-june-create-team-3.png" width="" height="">
 
-4. Select team members in **Add User to Team** section. Click **Add**.
+4. Select team members in the section **Add User to Team**. Click **Add**.
 
 > Notes:
 >
