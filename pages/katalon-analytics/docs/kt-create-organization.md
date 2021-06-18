@@ -86,6 +86,8 @@ The **Organization profile** page appears as below.
 
  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-create-org/kt-june-create-org-rename-org.png" width="" height=""> 
 
+You can find your Organization ID, update Organization name or delete your Organization here.
+ 
 ### Rename an Organization
 
 After the **Organization profile** page appears, you can enter a new name for your Organization in the **Name** section, then click **Update** to save your changes.
