@@ -23,22 +23,18 @@ Follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-releases/create-release-in-test-planning-testops.png" width="" height="">
 
-3. Click on the **Create Release** button on the top right corner.
+3. Click on the **Create Release** button at the top right corner.
 
     The **Create Release** page appears as below.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-releases/create-release-page-fill-in-info.png" width="" height="">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-releases/create-release-page-appears.png" width="" height="">
 
 4. Fill in the required information.
-    * **Name**: your Release Name (e.g., Release 01).
-    * **Start Date**: when you want your Release to start.
-    * **Release Date**: when you want your Release to end.
+    * **Name**: your Release version (e.g., Release **8.0**).
+    * **Start Date**: when you want to start your Release.
+    * **Release Date**: when you want to end your Release.
 
 5. Click **Create**.
-
-    A new Release now displays in the **Releases** page.
-
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-releases/release-created-appears-on-test-planning.png" width="" height="">
 
 ## Populate a Jira Release
 
@@ -54,7 +50,7 @@ OR
 
 * You populate a Jira Release.
 
-### Create Release
+### Create Releases
 
 Once you enable Jira integration in Katalon TestOps, the **Jira Project** and **Jira Release** sections are added in the **Create Release** page.
 
@@ -104,8 +100,18 @@ Follow these steps:
 
 > Notes:
 >
-> After linking the Test Runs to a Release, the Test Runs are shown under the **Release** section on your Jira page.
+> After linking the Test Runs to a Release, these Test Runs are shown under the **Release** section on your Jira page.
 
-If a Test Run has already been linked before, click on the button (as shown below) at the top right corner and select a Release.
+### Relink Test Runs to a Release
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/release/kt_test_run_link_release1.png" width="" height="">
+If a Test Run has already been linked to a Release before, the Release linking that Test Run displays as below (e.g., Release **8.0**).
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-releases/test-run-already-linked-to-a-release.png" width="" height="">
+
+You can relink the Test Run to a new Release by clicking on the button next to the current Release (e.g., next to **8.0**).
+
+After clicking the button, the scrolldown menu appears as below.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-releases/test-run-already-linked-scrolldown-menu.png" width="" height="">
+
+Select the Release you want to relink.
