@@ -1,7 +1,8 @@
 ---
 title: "Jira Settings" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-analytics/docs/kt-jira-config.html 
+permalink: katalon-analytics/docs/kt-jira-config.html
+redirect_from: /katalon-analytics/docs/jira-gadgets.html
 ---
 Katalon TestOps provides seamless integration with Jira that brings several benefits for team collaboration. [Learn more](https://docs.katalon.com/katalon-analytics/docs/ka-integration-jira.html)
 
