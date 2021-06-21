@@ -37,7 +37,7 @@ TestOps homepage is a quick way to see your Organizations, Projects and their de
     
     Select an Organization (e.g., Katalon) to see its details.
     
-    You can update your Organization name, manage Teams and Users if you’re the **Owner** of your Organization.
+    You can update your Organization name, manage Teams and Users if you’re the Owner or Admin of your Organization.
 
 * **Project**: You can view the most recent Projects managed by the Team you belong to.
     
