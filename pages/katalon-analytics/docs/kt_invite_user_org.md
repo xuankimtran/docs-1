@@ -23,6 +23,8 @@ You can invite your team members into your Organization to work on projects.
 
 By default, you become the Owner of the Organization you have created.
 
+The Owner can manage the Organization, Teams, Users, Projects, licenses, plugins, and subscriptions.
+
 The Owner can also transfer ownership to another member.
 
 * **Admin**
