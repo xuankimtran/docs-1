@@ -9,7 +9,7 @@ redirect from:
     - "/katalon-analytics/docs/advanced-0.1.x.html"
 description:
 ---
-## Latest Release - June 23, 2021 
+## Latest Release - June 22, 2021 
 
 ### New features
 
@@ -17,8 +17,6 @@ description:
 
 ### Enhancements
 
-* Enhanced TestOps login security for Enterprise.
-* Supported changing payment methods when upgrading subscriptions.
 * Updated maintainer column in Flaky Test list.
 * Updated UI for Integration function.
 * Enhanced security when updating Git test projects.
@@ -34,7 +32,6 @@ description:
     * could not delete the execution.
 
 * Fixed the missing profile name on the execution page.
-* Fixed Test Run's sidebar to show the last Re-run Test Result only.
 * Fixed search field for execution that doesn't re-run.
 * Clarified the message for adding Users to Teams successfully.
 
