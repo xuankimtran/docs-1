@@ -31,7 +31,6 @@ description:
     * could not send an invitation email.
     * could not calculate statistics for empty Test Runs.
     * could not download a large Test Run as .xsls file.
-    * could not create TestOps OP license.
     * could not delete the execution.
 
 * Fixed the missing profile name on the execution page.
