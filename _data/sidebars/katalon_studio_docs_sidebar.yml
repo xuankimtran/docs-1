@@ -1251,7 +1251,7 @@ items:
             url: /katalon-analytics/docs/kt-create-org.html
           - title: "Manage Users"
             url: /katalon-analytics/docs/kt_invite_user_org.html
-          - title: "Set up Teams and Projects"
+          - title: "Set up Teams"
             url: /katalon-analytics/docs/setup-team.html
           - title: "View TestOps Dashboard" 
             url: /katalon-analytics/docs/dashboard-overview.html
