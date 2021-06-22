@@ -17,35 +17,34 @@ description:
 
 ### Enhancements
 
-* Enabled the viewing of Maintainer in Flaky Test list to help users identify the responsible personnel.
-* Enhanced TestOps login security for Enterprise by adding a CAPTCHA layer.  
+* Applied SegmentIO for data tracking.
+* Enhanced TestOps login security for Enterprise.
+* Supported changing payment methods when upgrading subscriptions.
+* Enabled IP Address viewing in Audit log files.
+* Updated maintainer column in Flaky Test list.
+* Updated UI for Integration function.
+* Enhanced security when updating Git test projects.
 
-### Improvements
-
-* Included a full list of integration options and improved Integration page.
-* Preserved data input after refreshing Integration page.
-* Included KatOne page for TestOps usage tracking.
-* Updated payment method when upgrading TestOps subscriptions.
-
-### Bug Fixes
+### Fixes
 
 * Fixed a bug where users:
 
     * could not migrate subscriptions.
     * could not send an invitation email.
     * could not get apiKey from KatOne.
-    * could not calculate statistics for an empty Test Run.
+    * could not calculate statistics for empty Test Runs.
     * could not download a large Test Run as .xsls file.
     * could not create TestOps OP license.
+    * could not delete the execution.
 
+* Fixed the missing profile name on the execution page.
 * Fixed Test Run's sidebar to show the last Re-run Test Result only.
-* Fixed security issue when updating Git test projects.
 * Fixed search field for execution that doesn't re-run.
 * Clarified the message for adding Users to Teams successfully.
 
 ## May 26
 
-### Improvements 
+### Improvements
 
 - Filter test runs by Build Name. [Learn more](https://docs.katalon.com/katalon-analytics/docs/filter-test-build-name.html) 
 
