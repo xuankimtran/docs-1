@@ -13,12 +13,12 @@ description:
 
 ### New features
 
-* View Re-run Test Results. [Learn more](https://docs.katalon.com/katalon-analytics/docs/rerun-results.html).
+* Added Re-run Test Results to the Test Results summary. See: [View Re-run Test Results in TestOps](https://docs.katalon.com/katalon-analytics/docs/rerun-results.html).
 
 ### Enhancements
 
-* Added Maintainer in Flaky Test list.
-* Enhanced TestOps login security for Enterprise.
+* Enabled the viewing of Maintainer in Flaky Test list to help users identify the responsible personnel.
+* Enhanced TestOps login security for Enterprise by adding a CAPTCHA layer.  
 
 ### Improvements
 
@@ -29,19 +29,19 @@ description:
 
 ### Bug Fixes
 
-* Bug: Cannot migrate subscriptions.
-* Bug: Cannot send an invitation email.
-* Bug: Display a wrong message when adding Users to the Team.
-* Bug: Write in read-only transaction.
-* Bug: Cannot get apiKey from KatOne.
-* Bug: Cannot calculate statistics for an empty Test Run.
-* Bug: Cannot download a large Test Run as .xsls file.
-* Bug: Similar failures.
-* Bug: Profile name is missing on the execution page.
-* Bug: Cannot create TestOps OP license.
+* Fixed a bug where users:
+
+    * could not migrate subscriptions.
+    * could not send an invitation email.
+    * could not get apiKey from KatOne.
+    * could not calculate statistics for an empty Test Run.
+    * could not download a large Test Run as .xsls file.
+    * could not create TestOps OP license.
+
 * Fixed Test Run's sidebar to show the last Re-run Test Result only.
 * Fixed security issue when updating Git test projects.
 * Fixed search field for execution that doesn't re-run.
+* Clarified the message for adding Users to Teams successfully.
 
 ## May 26
 
