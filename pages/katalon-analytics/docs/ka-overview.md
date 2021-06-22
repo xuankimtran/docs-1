@@ -48,7 +48,7 @@ Learn more about [Test Management](https://docs.katalon.com/katalon-analytics/do
 
 This key module provides dynamic perspectives and insights into your automated testing activities. 
 
-Learn more about [Reports & Analytics](https://docs.katalon.com/katalon-analytics/docs/view-reports-overview.html#test-runs).
+Learn more about [Reports & Analytics](https://docs.katalon.com/katalon-analytics/docs/view-reports-overview.html).
 
 ## Configurations
 
