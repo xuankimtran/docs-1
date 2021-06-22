@@ -17,10 +17,8 @@ description:
 
 ### Enhancements
 
-* Applied SegmentIO for data tracking.
 * Enhanced TestOps login security for Enterprise.
 * Supported changing payment methods when upgrading subscriptions.
-* Enabled IP Address viewing in Audit log files.
 * Updated maintainer column in Flaky Test list.
 * Updated UI for Integration function.
 * Enhanced security when updating Git test projects.
@@ -31,7 +29,6 @@ description:
 
     * could not migrate subscriptions.
     * could not send an invitation email.
-    * could not get apiKey from KatOne.
     * could not calculate statistics for empty Test Runs.
     * could not download a large Test Run as .xsls file.
     * could not create TestOps OP license.
