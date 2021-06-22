@@ -26,7 +26,7 @@ description: Release notes 8.x
     * The Declaration of the keyword could not be opened.
     * [Cucumber] Custom Keywords in Step definitions were not working.
 * Bug: Resolved activation issue of Enterprise-exclusive plugins.
-* Bug: Test Suite stopped executing after some test cases.
+* Bug: Resolved Test Suite stopped executing after some test cases.
 * Fixed reports parsing issues:
     * [Katalon Runtime Engine] Could not generate and submit JUnit report to TestOps.
     * Could not generate reports due to `Null` character in log files.
