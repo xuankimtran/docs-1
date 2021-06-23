@@ -4,40 +4,46 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/code-repo.html 
 description: 
 ---
-In **Katalon TestOps**, Script Repository is used to store your automation test scripts. Script Repository allows you to better manage and organize your test projects for Remote Execution.
+In Katalon TestOps, you can store your Test Scripts in a Script Repository. A Script Repository helps you manage and organize your Test Projects better for Remote Execution.
 
-Your test scripts can be uploaded as a .zip file or from Git repositories.
+You can upload your Test Scripts as a .zip file from your local machine.
 
-## Upload a .zip file to a Script Repository
+You can also upload your Test Scripts from a Git Repository. See: [Upload Test Scripts from a Git Repository](https://docs.katalon.com/katalon-analytics/docs/git-test-project.html).
 
- In **Katalon TestOps**, click the button **Setting** on the top right corner, choose **Project Management**.
+## Upload Test Scripts as a .zip file
 
- ![Location of the project management setting](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/code-repo/kt2_project_management.png)
+Follow these steps:
+1. Sign in [Katalon TestOps](https://testops.katalon.io/login?redirect=%252F%253F).
+2. Go to **Settings** > **Project Management**.
 
- Select a project.
+     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-create-org/kt-june-create-org-project-2.png" width=100%>
+ 
+3. Select a Project.
 
-![Example Projects page](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/code-repo/kt2_choose_project.png)
+    The **Dashboard** page appears.
+    
+4. Go to **Configuration** > **Script Repositories**.
 
-The **Dashboard** now displays the selected project. On the left sidebar, click **Configuration**, click **Script Repositories**, click button **Create Script Repositories**.
+    The **Script Repositories** page appears.
 
-![Location of the Create Script Repository button](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/code-repo/kt2_create_script_repo.png)
+5. Click on the **Create Script Repository** button.
 
-Give a name to your project and describe what it does. Click **Choose Files** to browse to your compressed project code from your local machine. Only a .zip file is allowed. Click button **Create** to upload the project code.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-code-repo/create-script-repo-page.png" width=100%>
 
-![Script Repositories upload page](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/code-repo/kt2_choose_file_upload.png)
+    Fill in the following information:
+    * **Name**: enter a name for your Project.
+    * **Description**: give detailed information of the Project.
+    * **Upload**: click on the **Choose Files** button and browse for the compressed Project code in your local machine.
 
-After successfully uploading your test scripts, you can now view them from the list of **Script Repositories**.
+    > Notes:
+    >
+    > You can only upload a .zip file.
 
-![Example list of Script Repositories](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/code-repo/kt2_script_repository.png)
+6. Click **Create**.
 
-## Next steps
+You can see the uploaded Test Scripts in the **Script Repositories** page.
 
-- [Schedule Test Runs](/katalon-analytics/docs/create-plan.html)
-- [Execute Test Runs using a Trigger](/katalon-analytics/docs/kt-scheduler.html)
-- [Execute Test Runs manually](/katalon-analytics/docs/execute-test-run.html)
+See also:
 
-## Related topics
-
-- [Upload test scripts from Git repositories](https://docs.katalon.com/katalon-analytics/docs/git-test-project.html)
-- [Set up Configurations for Remote Execution](/katalon-analytics/docs/test-run-config.html)
-- [Katalon TestOps Terminology](https://docs.katalon.com/katalon-analytics/docs/testops-terminology.html)
+* [Set up Configurations for Remote Execution](/katalon-analytics/docs/test-run-config.html)
+* [Katalon TestOps Terminology](https://docs.katalon.com/katalon-analytics/docs/testops-terminology.html)
