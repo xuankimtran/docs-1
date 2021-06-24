@@ -86,11 +86,9 @@ Follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-releases/scroll-down-for-test-run-id-list.png" width="" height="">
 
-4. Click on the ID number in the **ID** column (e.g., click **21**).
+4. Click on the ID number a the Test Run.
 
-    The page of that Test Run ID appears (e.g., **Test Run: #21**).
-
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-releases/test-run-id-21-page.png" width="" height="">
+    The **Test Run: #** page appears, and **#** represents the ID number (e.g., **Test Run: #21**).
 
 3. Click on the **Link to a release** button at the top right corner.
 
@@ -102,16 +100,22 @@ Follow these steps:
 >
 > After linking the Test Runs to a Release, these Test Runs are shown under the **Release** section on your Jira page.
 
-### Relink Test Runs to a Release
+### Link Test Runs to a different Release
 
-If a Test Run has already been linked to a Release before, the Release linking that Test Run displays as below (e.g., Release **8.0**).
+If you have already linked a Test Run to a Release, the **Test Run: #** page displays as below.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-releases/test-run-already-linked-to-a-release.png" width="" height="">
 
-You can relink the Test Run to a new Release by clicking on the button next to the current Release (e.g., next to **8.0**).
+For example, **Test Run: #1234** has already been linked to Release **8.0**.
 
-After clicking the button, the scrolldown menu appears as below.
+You can link this Test Run to a different Release by clicking on the button next to the current Release (next to **8.0**).
+
+The scrolldown menu appears as below.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-releases/test-run-already-linked-scrolldown-menu.png" width="" height="">
 
-Select the Release you want to relink.
+Select the new Release you want to link.
+
+> Notes:
+>
+> You can also unlink a Test Run by selecting the **Clear this release** option.
