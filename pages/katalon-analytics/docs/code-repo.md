@@ -8,8 +8,6 @@ In Katalon TestOps, you can store your Test Scripts in a Script Repository. A Sc
 
 You can upload your Test Scripts as a .zip file from your local machine.
 
-You can also upload your Test Scripts from a Git Repository. See: [Upload Test Scripts from a Git Repository](https://docs.katalon.com/katalon-analytics/docs/git-test-project.html).
-
 ## Upload Test Scripts as a .zip file
 
 Follow these steps:
@@ -44,6 +42,7 @@ Follow these steps:
 You can see the uploaded Test Scripts in the **Script Repositories** page.
 
 See also:
+* [Execute Test Scripts from a Git Repository](https://docs.katalon.com/katalon-analytics/docs/git-test-project.html).
 
 * [Set up Configurations for Remote Execution](/katalon-analytics/docs/test-run-config.html)
 * [Katalon TestOps Terminology](https://docs.katalon.com/katalon-analytics/docs/testops-terminology.html)
