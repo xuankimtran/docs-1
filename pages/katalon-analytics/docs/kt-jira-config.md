@@ -7,8 +7,6 @@ redirect_from: /katalon-analytics/docs/jira-gadgets.html
 
 Katalon TestOps provides seamless Jira integration, which creates several benefits for more efficient team collaboration.
 
-Learn more about [Jira integration](https://docs.katalon.com/katalon-analytics/docs/ka-integration-jira.html).
-
 > Requirements:
 > * You must install [Jira App](https://marketplace.atlassian.com/apps/1217501/katalon-bdd-test-automation-for-jira).
 > * You must be the Owner or Admin of an Organization.
@@ -51,7 +49,7 @@ Follow these steps:
 
     > Notes:
     >
-    > You can find out your Organization ID in [Organization management](https://docs.katalon.com/katalon-analytics/docs/kt-create-org.html#create-an-organization).
+    > You can find out your Organization ID in [Organization management](https://docs.katalon.com/katalon-analytics/docs/kt-create-org.html#manage-an-organization).
 
 6. Click **Save**.
 
@@ -59,15 +57,11 @@ Follow these steps:
 
 1. Sign in [Katalon TestOps](https://testops.katalon.io/login) and go to your Project.
 
-    The Project's **Dashboard** page appears as below.
-
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-jira-settings/testops-project-dashboard.png" width=100%>
+    The Project's **Dashboard** page appears.
 
 2. Click on the **Configurations** tab, then the **Integrations** tab.
 
-    The **Integrations** page appears as below.
-
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-jira-settings/testops-project-integrations-scrolldown-bar-jira.png" width=100%>
+    The **Integrations** page appears. There is a scrolldown menu on the page for a full list of integration options.
 
 3. Select **Jira** in the scrolldown menu.
 
@@ -95,7 +89,7 @@ Follow these steps:
 
         * In the **Username** section, enter your Username instead of your email address.
 
-        c. In the **Password** section, enter your Password.
+        * In the **Password** section, enter your Password.
 
 5. Click **Test Connection** to see if the connection is successful, then click **Save**.
 
