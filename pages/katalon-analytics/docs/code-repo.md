@@ -13,7 +13,7 @@ You can also upload your Test Scripts from a Git Repository. See: [Upload Test S
 ## Upload Test Scripts as a .zip file
 
 Follow these steps:
-1. Sign in [Katalon TestOps](https://testops.katalon.io/login?redirect=%252F%253F).
+1. Sign into [Katalon TestOps](https://testops.katalon.io/login?redirect=%252F%253F).
 2. Go to **Settings** > **Project Management**.
 
      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-create-org/kt-june-create-org-project-2.png" width=100%>
