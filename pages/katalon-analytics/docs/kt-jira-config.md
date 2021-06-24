@@ -55,7 +55,7 @@ Follow these steps:
 
 ## Configure in Katalon TestOps
 
-1. Sign in [Katalon TestOps](https://testops.katalon.io/login) and go to your Project.
+1. Sign in to [Katalon TestOps](https://testops.katalon.io/login) and go to your Project.
 
     The Project's **Dashboard** page appears.
 
