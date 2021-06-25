@@ -1,5 +1,5 @@
 ---
-title: "Execute Test Scripts from a Git Repository" 
+title: "Upload Test Scripts from a Git Repository" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/git-test-project.html 
 description: 
@@ -52,5 +52,11 @@ Follow these steps:
 
 You have created a new Git Script Repository.
 
-Next step:
+See also:
+* [Set up Configurations for Remote Execution](/katalon-analytics/docs/test-run-config.html).
+
+* [Upload Test Scripts to a Script Repository](https://docs.katalon.com/katalon-analytics/docs/code-repo.html#upload-a-zip-file-to-a-script-repository).
+
 * [Schedule Test Runs](https://docs.katalon.com/katalon-analytics/docs/create-plan.html).
+
+ * [Execute Test Runs by a Trigger](https://docs.katalon.com/katalon-analytics/docs/kt-scheduler.html).
