@@ -37,7 +37,7 @@ Follow these steps:
 You can see the uploaded Test Scripts in the **Script Repositories** page.
 
 See also:
-* [Set up Configurations for Remote Execution](/katalon-analytics/docs/test-run-config.html).
+* [Set up Configurations for Remote Execution](https://docs.katalon.com/katalon-analytics/docs/test-run-config.html).
 
 * [Upload Test Scripts from a Git Repository](https://docs.katalon.com/katalon-analytics/docs/git-test-project.html).
 
