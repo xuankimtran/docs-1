@@ -7,7 +7,7 @@ description:
 
 You can create a Git Script Repository in Katalon TestOps. By doing so, you can store your Test Scripts in Git while executing them in Katalon TestOps.
 
-Because Katalon TestOps upload Test Scripts automatically from a Git Script Repository, you do not have to upload them manually to TestOps Projects.
+Because Katalon TestOps upload Test Scripts automatically from a Git Repository, you do not have to upload them manually to TestOps Projects.
 
 ## Create Git Script Repository
 
@@ -34,11 +34,11 @@ Follow these steps:
    
       > Notes:
       >
-      > You can create an individual access token in GitHub. 
+      > You can create an individual access token in GitHub.
       >
       > See: [Create a Personal Access Token](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line).
-      > 
-      > Follow the instruction and make sure you choose **repo** in the **Select scopes** section in the **New personal access token** page.      
+      >
+      > Follow the instruction and make sure you choose **repo** in the **Select scopes** section in the **New personal access token** page.
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-git-test-project/new-personal-access-toke-page-git.png" width=100%>
 
 4. Click **Connect**.
