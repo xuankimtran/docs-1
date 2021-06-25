@@ -13,7 +13,7 @@ Using Katalon TestOps's Releases feature, you can populate Jira Releases or crea
 
 Follow these steps:
 
-1. Sign in [Katalon TestOps](https://testops.katalon.io/login?redirect=%252F%253F) and go to your Project.
+1. Sign in to [Katalon TestOps](https://testops.katalon.io/login?redirect=%252F%253F) and go to your Project.
 
     The Project's **Dashboard** page appears.
 
