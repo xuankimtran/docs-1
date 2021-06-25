@@ -5,7 +5,9 @@ permalink: katalon-analytics/docs/git-test-project.html
 description: 
 ---
 
-You can generate a Git Script Repository from Katalon TestOps. By doing so, you can store your Projects in Git while executing them in Katalon TestOps without having to upload them manually to TestOps Projects.
+You can create a Git Script Repository in Katalon TestOps. By doing so, you can store your Test Scripts in Git while executing them in Katalon TestOps.
+
+Because Katalon TestOps upload Test Scripts automatically from a Git Script Repository, you do not have to upload them manually to TestOps Projects.
 
 ## Create Git Script Repository
 
