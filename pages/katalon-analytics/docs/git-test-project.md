@@ -55,7 +55,7 @@ Follow these steps:
 You have created a new Git Script Repository.
 
 See also:
-* [Set up Configurations for Remote Execution](/katalon-analytics/docs/test-run-config.html).
+* [Set up Configurations for Remote Execution](https://docs.katalon.com/katalon-analytics/docs/test-run-config.html).
 
 * [Upload Test Scripts to a Script Repository](https://docs.katalon.com/katalon-analytics/docs/code-repo.html#upload-a-zip-file-to-a-script-repository).
 
