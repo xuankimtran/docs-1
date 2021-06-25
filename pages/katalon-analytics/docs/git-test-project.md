@@ -11,7 +11,7 @@ You can generate a Git Script Repository from Katalon TestOps. By doing so, you 
 
 Follow these steps:
 
-1. Sign in [Katalon TestOps](https://testops.katalon.io/login?redirect=%252F%253F) and go to the Project you want to create a Git Repository for.
+1. Sign in to [Katalon TestOps]( https://testops.katalon.io/login) and go to the Project you want to create a Git Repository for.
 
    Go to **Configurations** > **Script Repositories**.
    
