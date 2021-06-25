@@ -11,20 +11,15 @@ You can upload your Test Scripts as a .zip file from your local machine.
 ## Upload Test Scripts as a .zip file
 
 Follow these steps:
-1. Sign in to [Katalon TestOps]( https://testops.katalon.io/login).
-2. Go to **Settings** > **Project Management**.
-
-     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-create-org/kt-june-create-org-project-2.png" width=100%>
- 
-3. Select a Project.
+1. Sign in to [Katalon TestOps]( https://testops.katalon.io/login) and go to your Project. 
 
     The **Dashboard** page appears.
     
-4. Go to **Configuration** > **Script Repositories**.
+2. Go to **Configurations** > **Script Repositories**.
 
     The **Script Repositories** page appears.
 
-5. Click on the **Create Script Repository** button.
+3. Click on the **Create Script Repository** button.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-code-repo/create-script-repo-page.png" width=100%>
 
@@ -37,12 +32,15 @@ Follow these steps:
     >
     > You can only upload a .zip file.
 
-6. Click **Create**.
+4. Click **Create**.
 
 You can see the uploaded Test Scripts in the **Script Repositories** page.
 
 See also:
-* [Execute Test Scripts from a Git Repository](https://docs.katalon.com/katalon-analytics/docs/git-test-project.html).
+* [Set up Configurations for Remote Execution](/katalon-analytics/docs/test-run-config.html).
 
-* [Set up Configurations for Remote Execution](/katalon-analytics/docs/test-run-config.html)
-* [Katalon TestOps Terminology](https://docs.katalon.com/katalon-analytics/docs/testops-terminology.html)
+* [Upload Test Scripts from a Git Repository](https://docs.katalon.com/katalon-analytics/docs/git-test-project.html).
+
+* [Schedule Test Runs](https://docs.katalon.com/katalon-analytics/docs/create-plan.html).
+
+* [Execute Test Runs by a Trigger](https://docs.katalon.com/katalon-analytics/docs/kt-scheduler.html).
