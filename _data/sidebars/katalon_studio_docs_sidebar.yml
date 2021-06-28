@@ -1306,9 +1306,7 @@ items:
               - title: "Create a Kubernetes Test Environments"
                 url: /katalon-analytics/docs/aws-eks.html
           - title: "Jira Integration"
-            tree:
-              - title: "Jira Settings"
-                url: /katalon-analytics/docs/kt-jira-config.html
+          - url: /katalon-analytics/docs/kt-jira-config.html 
           - title: "Kobiton Integration"
             url: /katalon-analytics/docs/kt_kobiton_integration.html
           - title: "Slack Integration"
