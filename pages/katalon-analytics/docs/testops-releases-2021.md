@@ -9,10 +9,35 @@ redirect from:
     - "/katalon-analytics/docs/advanced-0.1.x.html"
 description:
 ---
+## Latest Release - June 22, 2021 
 
-## Latest Release - May 26, 2021 
+### New features
 
-### Improvements 
+* Added Re-run Test Results to the Test Results summary. See: [View Re-run Test Results in TestOps](https://docs.katalon.com/katalon-analytics/docs/rerun-results.html).
+
+### Enhancements
+
+* Updated maintainer column in Flaky Test list.
+* Updated UI for Integration function.
+* Enhanced security when updating Git test projects.
+
+### Fixes
+
+* Fixed a bug where users:
+
+    * could not migrate subscriptions.
+    * could not send an invitation email.
+    * could not calculate statistics for empty Test Runs.
+    * could not download a large Test Run as .xsls file.
+    * could not delete the execution.
+
+* Fixed the missing profile name on the execution page.
+* Fixed search field for execution that doesn't re-run.
+* Clarified the message for adding Users to Teams successfully.
+
+## May 26
+
+### Improvements
 
 - Filter test runs by Build Name. [Learn more](https://docs.katalon.com/katalon-analytics/docs/filter-test-build-name.html) 
 
