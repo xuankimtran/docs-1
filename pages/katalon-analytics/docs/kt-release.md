@@ -86,7 +86,7 @@ Follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-releases/scroll-down-for-test-run-id-list.png" width="" height="">
 
-4. Click on the ID number a the Test Run.
+4. Click on the ID number of a Test Run.
 
     The **Test Run: #** page appears, and **#** represents the ID number (e.g., **Test Run: #21**).
 
