@@ -175,6 +175,56 @@ items:
       url: /katalon-studio/videos/api_testing_katalon_studio_post_request_verify_response_rahul.html
     - title: "API Testing with Katalon Studio for PUT request and verify the response"
       url: /katalon-studio/videos/api_testing_katalon_studio_put_request_verify_response_rahul.html
+    - title: "Handling mouse click with Katalon Studio"
+      url: /katalon-studio/videos/handling_mouse_click_with_katalon_studio.html
+    - title: "Handling keyboard actions with Katalon Studio"
+      url: /katalon-studio/videos/handling_keyboard_actions_with_katalon_studio.html  
+    - title: "Writing custom keywords for Log In and Log Out functionality"
+      url: /katalon-studio/videos/writing_custom_keywords_for_log_in_log_out.html
+    - title: "Test suite creation and execution in Katalon Studio "
+      url: /katalon-studio/videos/test_suite_creation_and_execution_in_katalon.html   
+    - title: "Parallel test execution in Katalon Studio"
+      url: /katalon-studio/videos/parallel_test_execution_in_katalon_studio.html
+    - title: "Handling multiple sets of test data in Katalon Studio"
+      url: /katalon-studio/videos/handling_multiple_set_test_data_katalon_studio.html
+    - title: "Setting up and creating Teardown from Script Mode"
+      url: /katalon-studio/videos/set_up_create_teardown_from_script_mode.html
+    - title: "Adding new property for a test object in Katalon Studio"
+      url: /katalon-studio/videos/adding_new_property_for_test_object.html
+    - title: "Updating the existing property for a test object in Katalon Studio"
+      url: /katalon-studio/videos/updating_existing_property_for_test_object.html
+    - title: "Removing a property from a test object in Katalon Studio"
+      url: /katalon-studio/videos/removing_property_from_test_object.html
+    - title: "Reading the value from Grid in Katalon Studio"
+      url: /katalon-studio/videos/reading_value_from_grid_in_katalon.html
+    - title: "Developing custom keywords for Grid in Katalon Studio"
+      url: /katalon-studio/videos/developing_custom_keyword_for_grid__in_katalon.html
+    - title: "Handling complex Grid in Katalon Studio"
+      url: /katalon-studio/videos/handling_complex_grid_katalon_studio.html
+    - title: "Running the script in headless browser"
+      url: /katalon-studio/videos/running_script_in_headless_browser.html
+    - title: "Introduction to Katalon Analytics"
+      url: /katalon-studio/videos/introduction_katalon_analytics.html
+    - title: "Where to access Katalon Analytics"
+      url: /katalon-studio/videos/where_to_access_katalon_analytics.html
+    - title: "Uploading reports to Katalon Analytics"
+      url: /katalon-studio/videos/uploading_reports_to_katalon_analytics.html
+    - title: "Report analysis in Katalon Studio"
+      url: /katalon-studio/videos/report_analysis_in_katalon_studio.html
+    - title: "Test execution using Katalon Plugin for Jenskin"
+      url: /katalon-studio/videos/test_execution_using_katalon_plugin.html
+    - title: "Creating the execution profile in Katalon Studio"
+      url: /katalon-studio/videos/creating_execution_profile_katalon_studio.html
+    - title: "Test case execution using different profiles in Katalon Studio"
+      url: /katalon-studio/videos/test_case_execution_using_different_profiles.html
+    - title: "Creating parameterized test object in Katalon Studio"
+      url: /katalon-studio/videos/creating_parameterized_test_object_in_katalon.html
+    - title: "Using parameterized test object in test script in Katalon Studio"
+      url: /katalon-studio/videos/using_parameterized_test_object_in_katalon.html
+    - title: "Test execution on remote machines in Katalon Studio"
+      url: /katalon-studio/videos/test_execution_on_remote_machines.html
+    - title: "White loop in Katalon Studio"
+      url: /katalon-studio/videos/white_loop_in_katalon_studio.html
   - title: "Tony Chau"
     tree:
     - title: "Katalon Studio Set Up Guidelines"
