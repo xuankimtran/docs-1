@@ -36,7 +36,7 @@ description: Release notes 8.x
 * [Kobiton Integration] Supported customizing remote server protocol.
 * [Kobiton Integration] Supported customizing device name.
 * Introduced options to include or exclude timestamps in .properties files in the Project Settings folder. See [doc's name](url)
-* [Katalon Studio Enterprise] [Katalon Runtime Engine] Supported auto-retry up to three times once failed activation.
+* [Katalon Studio Enterprise] [Katalon Runtime Engine] Supported auto-retry up to three times after failed activation.
 
 ### Bug Fixes
 
