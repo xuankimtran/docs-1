@@ -11,7 +11,7 @@ Katalon Recorder 5.5.0 provides compatibility for Selenium IDE imports. As a res
 
 Selenium IDE is the most frequently used open source tool when it comes to web automation but its complexity and advanced requirements might daunt on non-code testers.
 
-With the import functionality in Katalon Recorder, Selenium IDE migration is possible.
+With the import functionality in Katalon Recorder, you can migrate Selenium IDE test scripts to Katalon Recorder.
 
 Selenium users can have an alternative tool for testing, without losing their existing works on Selenium.
 
