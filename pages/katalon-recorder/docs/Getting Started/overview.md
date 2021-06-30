@@ -97,6 +97,10 @@ People reportedly use Katalon Recorder to:
                 <ul>
                     <li><a href="./execute-scenarios.html">Execution modes</a>
                     </li>
+                    <li><a href="./self-healing.html">Self-healing</a>
+                    </li>
+                    <li><a href="./command-line-runner.html ">Command-line runner</a>
+                    </li>
                 </ul>  
             </td>
             <td>
@@ -132,7 +136,9 @@ People reportedly use Katalon Recorder to:
                     <li><a href="./extension-scripts-aka-user-extensionsjs-for-custom-locator-builders-and-actions.html#actions">Add custom actions</a>
                     </li>
                     <li><a href="./katalon-recorder-helper-tool.html#executing-os-commands">Use OS commands</a>
-                    </li>                                        
+                    </li>              
+                    <li><a href="./import-selenium-ide.html">Import tests from Selenium IDE</a>
+                    </li>                            
                 </ul>
             </td>
         </tr>
