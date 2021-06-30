@@ -1,11 +1,11 @@
 ---
 title: "Use the Commande-Line Runner"
 sidebar: katalon_studio_docs_sidebar
-permalink: url: /katalon-recorder/docs/command-line-runner.html 
-redirect_from:
+permalink: /katalon-recorder/docs/command-line-runner.html
 description:
 ---
-You can now execute tests in Katalon Recorder directly from the command line using the *Command-Line runner* (KR CLI)
+
+You can now execute tests in Katalon Recorder directly from the command line using the [*Command-Line runner*](https://www.npmjs.com/package/katalon-recorder-cli) (KR CLI)
 
 >Prerequisites:
 >
@@ -15,7 +15,9 @@ You can now execute tests in Katalon Recorder directly from the command line usi
 
 If you are using Homebrew to manage dependencies, run the following script:
 
-> `1brew install node 2npm install -g kr-cli`
+> brew install node 
+> 
+> npm install -g kr-cli
 
 ## Using KR CLI as a tester
 

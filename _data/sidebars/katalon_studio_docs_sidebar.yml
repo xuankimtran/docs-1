@@ -1403,7 +1403,7 @@ items:
             url: /katalon-recorder/docs/gui-overview.html
           - title: "What's new"
             tree:
-            - title: "What's new in v5.4"
+            - title: "What's new"
               url: /katalon-recorder/docs/whats-new.html
             - title: "What's new in 5.3.x"
               url: /katalon-recorder/docs/whats-new-5.3.x.html

@@ -20,7 +20,7 @@ You can disable it by following these steps:
 
 3. Save and close.
 
-Screenshot placeholder. Use html syntax.
+![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/execute-scenarios/self-healing/kr-self-healing-setting.png)
 
 ## Prioritizing locator methods in Self-Healing
 
@@ -62,7 +62,7 @@ You can choose to exclude certain commands from Self-Healing by following these 
 
 When the default locator fails, Self-Healing finds alternative locators to complete the test execution. After the test execution is completed, you can choose to replace failing locators by approving Self-Healing suggestions.
 
-Screenshot placeholder
+![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/execute-scenarios/self-healing/kr-self-healing-approval-process.png)
 
 The Self-Healing tab is refreshed on every new execution.
 

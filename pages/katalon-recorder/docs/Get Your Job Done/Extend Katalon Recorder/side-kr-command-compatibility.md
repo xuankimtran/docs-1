@@ -3,6 +3,7 @@ title: "Command Compatibility between Selenium IDE and KR"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-recorder/docs/side-kr-command-compatibility.html 
 description: 
+toc: false
 ---
 
 During the migration process, KR will remove or transform certain Selenium IDE to make the tests functional. The following table contains more details:
