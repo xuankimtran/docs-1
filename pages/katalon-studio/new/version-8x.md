@@ -17,7 +17,10 @@ description: Release notes 8.x
     * Condition to stop Test Suite Collection executing in Parallel Mode.
     * CLI option used in Test Suite Collection executing in Sequential Mode.
     * CLI option used in Test Suite and Handle Validation Rules.
+    * Terminated Execution status, Report and 3rd-party integration.
 * [Mobile] [Keyword] Introduced `waitForElementNotPresent`. See [doc's name](url).
+* Supported Chrome 92.
+* Supported Microsoft Edge (Chromium) 92.
 
 ### Enhancements
 
@@ -44,7 +47,7 @@ description: Release notes 8.x
     * [macOS Big Sur] Not switching to Object Properties View when 
     * [macOS Big Sur] Hidden text of selecting items on table and tree.
     * [macOS Big Sur] Not updating Log Viewer when the execution items were changed on Job Progress.
-    * [Azure DevOps] UI broke when expanding Submission Options.
+    * [Azure DevOps] Broken UI when expanding Submission Options.
 * Bug: [Keyword] `verifyElementPropertyValue` threw an error message.
 * Bug: [Slack Integration] Failed to connect to Slack.
 * Bug: [Cucumber] An issue of not displaying Executed steps in the Console log.
