@@ -13,7 +13,7 @@ description: Release notes 8.x
 ### New features
 
 * Introduced the Condition to stop test execution.
-    * Handle Command Builder.
+    * Handled Command Builder reflecting the scope of Retry Options only at Test Suite level.
     * Condition to stop Test Suite Collection executing in Parallel Mode.
     * CLI option used in Test Suite Collection executing in Sequential Mode.
     * CLI option used in Test Suite and Handle Validation Rules.
@@ -22,7 +22,7 @@ description: Release notes 8.x
 ### Enhancements
 
 * Supported built-in Excel keywords. See [doc's name](url)
-* [Mobile] Improved Setup for Mobile testing on macOS. - Selected for development
+* [Mobile] Improved Setup for Mobile testing on macOS.
 * [Katalon Studio Enterprise] Enhanced Retry Immediately Strategy. See [doc's name](url)
     * Changed the condition to stop execution, number of retry times, and Consolidated Execution.Log.
     * Introduced Consolidated Report.
@@ -40,71 +40,21 @@ description: Release notes 8.x
 
 ### Bug Fixes
 
-STUDIO-890 Bug fixes for UI issues on macOS Big Sur
-
-UI/UX Fixes:
-
-STUDIO-1064 [Regression][Existing Bug][Mac Big Sur] Test Steps are NOT visible in the test cases after recording
-
-STUDIO-1035 [Keyword] verifyElementPropertyValue throws an error message
-
-STUDIO-1013 [Regression][Existing Bug][Big Sur][Desired Capabilities] Items are NOT displayed in the table/tree after importing
-
-STUDIO-1008 [Slack Integration] Failed to connect to Slack
-
-STUDIO-971 [ADO] UI broken when expanding "Submission Options"
-
-STUDIO-957 [Regression][Existing Bug] Some test cases are NOT executed if using "Retry Failed Execution Immediately"
-
-STUDIO-897 Log Viewer does not update when change execution item on Job Progress
-
-STUDIO-892 When users switch the selected Object, Katalon does not switch Object Properties View accordingly.
-
-STUDIO-891 [Big Sur] Text of selecting item on table/tree are hidden
-
-STUDIO-885 [@qbe.com] Executed steps are not displayed in Console log for Katalon-Cucumber
-
-STUDIO-859 [8.0.0] No error message displayed/warning when make a configuration for My SQL after removing its driver
-
-STUDIO-822 Fixing typo in Mobile Object Spy
-
-STUDIO-787 [Regression][Existing Bug] Cancel Export Report via Context Menu return error message
-
-STUDIO-756 [Regression][Existing Bug] Broken GUI when working with TestOps creating new File
-
-STUDIO-746 It takes 2 - 3 paused seconds to create a new sample project
-
-STUDIO-666 [Regression] Problems with Project Settings when having TestRail plugin already installed
-
-STUDIO-628 [Regression 7.8.1] Cannot link an existing Window Object to Window Built In Keyword
-
-STUDIO-613 [Regression] Users cannot configure Report in Project Setting if NOT having internet
-
-STUDIO-611 [Regression] Katalon displayed device's Id instead of device's name in the progress bar
-
-STUDIO-576 [Regression 7.8] Script is automatically delete when using customized keywords with incorrect argument values
-
-STUDIO-537 [Regression 7.8] Activate button is NOT enable if email contains space
-
-STUDIO-534 KRE: Cannot find the attached device in AWS Device Farm
-
-STUDIO-515 [Regression] Event Log shows duplicated information
-
-STUDIO-506 [Regression] Incorrect Object UI when opening it from the script
-
-STUDIO-396 [Regression] Updating Query parameters in WS object does NOT mark the object 'changed'
-
-STUDIO-332 [Regression][UI/UX] Incorrect linked URL
-
-STUDIO-1067 Technical Debt: Handle Command Builder reflecting the scope of Retry Options only at Test Suite level
-
-STUDIO-941 iOS dependencies not found due to default path changes when installing with Homebrew
-
-STUDIO-826 [@caci.nl][@culturatech.com] Code Refactor to resolve issue: Cannot select Run/Debug from here
-
-STUDIO-823 Update message "Object <ObjectId> has been broken. Please fix it before proceeding further."
-
-STUDIO-818 Correct Labels in Project Settings/Library Management and add help link
+* Fixed UI issues
+    * [macOS Big Sur] Not switching to Object Properties View when 
+    * [macOS Big Sur] Hidden text of selecting items on table and tree.
+    * [macOS Big Sur] Not updating Log Viewer when the execution items were changed on Job Progress.
+    * [Azure DevOps] UI broke when expanding Submission Options.
+* Bug: [Keyword] `verifyElementPropertyValue` threw an error message.
+* Bug: [Slack Integration] Failed to connect to Slack.
+* Bug: [Cucumber] An issue of not displaying Executed steps in the Console log.
+* Bug: Fixed typo issue "Application ID" in Mobile Object Spy.
+* Bug: Project Settings Explorer was not working.
+* Bug: [Katalon Runtime Engine] Could not find the attached device in AWS Device Farm.
+* Bug: Could not find iOS dependencies due to default path changes when installing Homebrew.
+* Bug: [Katalon Studio Enterprise] Could not select Run from here and Debug from here.
+* Bug: Updated warning message "Object <ObjectId> has been broken. Please fix it before proceeding further."
+* Bug: Fixed Labels in Library Management and added referral link.
 
 ## Version 8.0.5
 
