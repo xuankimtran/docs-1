@@ -15,7 +15,7 @@ With the import functionality in Katalon Recorder, you can migrate Selenium IDE 
 
 Selenium users can have an alternative tool for testing, without losing their existing works on Selenium.
 
-> Requirements:
+> **Requirements**:
 >
 > Katalon Recorder version 5.5.0.
 
@@ -34,5 +34,4 @@ To import Tests from Selenium IDE, follow these steps:
 > Please review the incompatible commands to see if they break the relevant tests.
 
 See also:
-
-* List of Selenium IDE commands supported in Katalon Recorder.
+* [List of Selenium IDE commands supported in Katalon Recorder](https://docs.katalon.com/katalon-recorder/docs/katalon-recorder-vs-selenium-ide.html).
