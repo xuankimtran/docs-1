@@ -34,4 +34,4 @@ To import Tests from Selenium IDE, follow these steps:
 > Please review the incompatible commands to see if they break the relevant tests.
 
 See also:
-* [List of Selenium IDE commands supported in Katalon Recorder](https://docs.katalon.com/katalon-recorder/docs/katalon-recorder-vs-selenium-ide.html).
+* [List of Selenium IDE commands supported in Katalon Recorder](https://docs.katalon.com/katalon-recorder/docs/side-kr-command-compatibility.html).
