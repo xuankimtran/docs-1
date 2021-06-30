@@ -1433,6 +1433,10 @@ items:
             tree:
               - title: "Execution modes"
                 url: /katalon-recorder/docs/execute-scenarios.html
+              - title: "Use the Self-Healing function"
+                url: /katalon-recorder/docs/self-healing.html 
+              - title: "Use the Commande-Line Runner"
+                url: /katalon-recorder/docs/command-line-runner.html 
           - title: "Monitor scenarios"
             tree:
               - title: "Monitor automation script executions"
