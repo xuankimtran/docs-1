@@ -46,7 +46,7 @@ The **Test Run Types** page shows you a collection of Test Runs with the same co
 
 > Notes:
 >
-> Once you have created a schedule, you can set dates for Test Runs by creating a Trigger. See: [Execute Test Runs by a Trigger](https://docs.katalon.com/katalon-analytics/docs/kt-scheduler.html#prerequisites).
+> Once you have created a schedule, you can set dates for Test Runs by creating a Trigger. See: [Execute Test Runs by a Trigger](https://docs.katalon.com/katalon-analytics/docs/kt-scheduler.html).
 
 ## View Test Runs
 
@@ -60,7 +60,7 @@ If you click on each Test Run in the calendar, you can see its summary.
 
 If the Tests belongs to a Test Suite, you can also see a summary of the Test Suite here.
 
-Next step: [Execute Test Runs](https://docs.katalon.com/katalon-analytics/docs/kt-scheduler.html#prerequisites).
+Next step: [Execute Test Runs by a Trigger](https://docs.katalon.com/katalon-analytics/docs/kt-scheduler.html).
 
 See also:
 
