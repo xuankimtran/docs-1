@@ -39,14 +39,13 @@ You have created a new schedule for your Test Runs.
 
 After creating the schedule, Katalon TestOps automatically directs you to the **Test Run Types** page.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/test-run-type-page.png
-" width=100%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/test-run-type-page.png" width=100%>
 
 The **Test Run Types** page shows you a collection of Test Runs with the same configurations (Test Environment, Trigger, Script Repository).
 
 > Notes:
 >
-> Once you have created a schedule, you can set dates for Test Runs by creating a Trigger. See: [Execute Test Runs by a Trigger](https://docs.katalon.com/katalon-analytics/docs/kt-scheduler.html).
+> Once you have created a schedule, you can set dates for Test Runs execution by creating a Trigger. See: [Execute Test Runs by a Trigger](https://docs.katalon.com/katalon-analytics/docs/kt-scheduler.html).
 
 ## View Test Runs
 
