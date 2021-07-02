@@ -47,7 +47,7 @@ The **Test Run Types** page shows you a collection of Test Runs with the same co
 
 ## View Test Runs
 
-Once creating a schedule for Test Runs, the calendar in the **Test Runs** page reflects the change.
+Once creating a schedule for Test Runs, the calendar on the **Test Runs** page reflects the change.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/test-runs-page-after-scheduling-test-run.png" width=100%>
 
