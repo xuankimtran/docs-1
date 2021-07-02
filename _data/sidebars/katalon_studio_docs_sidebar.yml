@@ -1327,7 +1327,7 @@ items:
             tree:
               - title: "Schedule Test Runs"
                 url: /katalon-analytics/docs/create-plan.html
-              - title: "Execute Test Runs by a Trigger"
+              - title: "Execute Test Runs with a Trigger"
                 url: /katalon-analytics/docs/kt-scheduler.html
               - title: "Execute Test Runs manually"
                 url: /katalon-analytics/docs/execute-test-run.html
