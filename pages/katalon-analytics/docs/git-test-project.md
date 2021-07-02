@@ -1,59 +1,64 @@
 ---
-title: "Upload Test Script From Git Repository" 
+title: "Upload Test Scripts from a Git Repository" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/git-test-project.html 
 description: 
 ---
 
-This feature allows you to create your projects stored in Git and execute them in Katalon TestOps without manually uploading them to Test Projects.
+You can create a Git Script Repository in Katalon TestOps. By doing so, you can store your Test Scripts in Git and execute them in Katalon TestOps, because Katalon TestOps upload Test Scripts automatically from a Git Repository.
 
-## Create Git script repository
+You do not have to upload Test Scripts manually to TestOps Projects.
 
-Choose a project in which you want to create a new Git on Katalon TestOps.
+## Create Git Script Repository
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/git-test-project/kt_choose_project_create_git.png)
+Follow these steps:
 
-On sidebar **Configurations** > **Script Repositories**. 
+1. Sign in to [Katalon TestOps]( https://testops.katalon.io/login) and go to the Project you want to create a Git Repository for.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/git-test-project/kt_config_script_repo.png)
+   Go to **Configurations** > **Script Repositories**.
+   
+   The **Script Repositories** page appears as below.
 
-Click button Create Git Script Repository.
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-git-test-project/script-repo-screen-in-testops-config-new.png" width=100%>
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/git-test-project/kt_click_create_git_script_repo.png)
+2. Click **Create Git Script Repository**.
 
-Then fill in the below information:
+3. Fill in the required information.
 
-- **Source Type**: choose Github.
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-git-test-project/scrip-repo-page-after-creating-git-repo.png" width=100%>
 
-<img src="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-analytics/docs/git-test-project/1-git-test-project.png" width="" height="">
+   * **Source Type**: choose **Github**.
+   * **Repository URL**: enter your Git Repository. For example, https://github.com/katalon-studio-samples/ci-samples.
+   * **Username**: enter your Git Username.
+   * **Personal Access Token**: enter your Personal Access Token.
+   
+      > Notes:
+      >
+      > You can create an individual access token in GitHub.
+      >
+      > See: [Create a Personal Access Token](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line).
+      >
+      > Follow the instruction and make sure you choose **repo** in the **Select scopes** section in the **New personal access token** page.
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-git-test-project/new-personal-access-toke-page-git.png" width=100%>
 
-2. Fill in information as below:
-- Select a source type 
-- **Repository URL**: your Git repository. (Example: https://github.com/katalon-studio-samples/ci-samples)
+4. Click **Connect**.
 
-- **Username**: your Git username.
+   Additional sections appear as below.
 
-- **Personal Access Token**: your **personal access token**. To create an individual access token in Github, refer to [this document](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line). In the https://github.com/settings/tokens, at **New personal access token** > **Select scopes**, we click **repo** for generating token.
-   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/git-test-project/kt_token_select_scopes.png)
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-git-test-project/script-repo-page-after-clicking-connect.png" width=100%>
 
-Then click the button **Connect**.
+   * **Branch**: choose a branch.
+   * **Name**: enter your Project’s name.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/git-test-project/kt_fill_script_repositories.png)
+5. Click **Create**.
 
-In **Script Repository**, the **Branch**, **Name**, and **Description** display.
+You have created a new Git Script Repository.
 
-- **Branch**: choose a branch.
+See also:
+* [Set up Configurations for Remote Execution](https://docs.katalon.com/katalon-analytics/docs/test-run-config.html).
 
-- **Name**: your project’s name.
+* [Upload Test Scripts to a Script Repository](https://docs.katalon.com/katalon-analytics/docs/code-repo.html#upload-a-zip-file-to-a-script-repository).
 
-Click button **Create** to create the Git test project.
+* [Schedule Test Runs](https://docs.katalon.com/katalon-analytics/docs/create-plan.html).
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/git-test-project/kt_connect_script_repositories.png)
-
-In the list of **Script Repositories**, we created a new Git. 
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/git-test-project/kt_git_sample_create.png)
-
-## Plan your Git project
-
-To plan your Git projects, go to sidebar **Test Planning**. [Learn more](https://docs.katalon.com/katalon-analytics/docs/create-plan.html)
+ * [Execute Test Runs by a Trigger](https://docs.katalon.com/katalon-analytics/docs/kt-scheduler.html).

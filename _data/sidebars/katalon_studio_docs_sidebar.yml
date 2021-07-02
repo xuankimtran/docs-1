@@ -1287,7 +1287,7 @@ items:
                 url: /katalon-analytics/docs/test-run-config.html
               - title: "Upload Test Scripts to a Script Repository"
                 url: /katalon-analytics/docs/code-repo.html
-              - title: "Upload test scripts from Git repositories"
+              - title: "Upload Test Scripts from a Git Repository"
                 url: /katalon-analytics/docs/git-test-project.html
               - title: "Local Test Environments"
                 tree:
