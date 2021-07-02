@@ -45,16 +45,4 @@ After creating the schedule, Katalon TestOps automatically directs you to the **
 
 The **Test Run Types** page shows you a collection of Test Runs with the same configurations (Test Environment, Trigger, Script Repository).
 
-## View Test Runs
-
-Once creating a schedule for Test Runs, the calendar on the **Test Runs** page reflects the change.
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/test-runs-page-after-scheduling-test-run.png" width=100%>
-
-Click on a Test Run in the calendar to see its summary.
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/detail-of-test-run-after-clicking-it-on-calendar.png" width=100%>
-
-If the Tests belongs to a Test Suite, you can also see a summary of the Test Suite here.
-
 Next step: [Execute Test Runs](https://docs.katalon.com/katalon-analytics/docs/kt-scheduler.html).
