@@ -80,7 +80,7 @@ After executing Test Runs, go to **Test Planning** to check their status in a ca
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/test-runs-page-after-scheduling-test-run.png" width=100%>
 
-Click on a Test Run in the calendar to see its summary.
+Click on a Test Run on the calendar to see its summary.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/detail-of-test-run-after-clicking-it-on-calendar.png" width=100%>
 
