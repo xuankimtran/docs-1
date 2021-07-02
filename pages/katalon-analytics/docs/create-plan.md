@@ -23,7 +23,7 @@ Follow these steps:
 
     > Notes:
     >
-    > If you have not scheduled any Test Run yet, the calendar view in the **Test Runs** page is empty.
+    > If you have not scheduled any Test Run yet, the calendar view on the **Test Runs** page is empty.
 
 2. Click on the **Schedule Test Run** button.
 
