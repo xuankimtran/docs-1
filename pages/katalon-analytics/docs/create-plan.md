@@ -7,9 +7,7 @@ description:
 
 > Requirements:
 >
-> * You have already downloaded and finished [Agent Setup](https://docs.katalon.com/katalon-analytics/docs/install_kt_agent.html).
->
-> * You have already created a [Test Environment](https://docs.katalon.com/katalon-analytics/docs/agents.html#set-up-an-agent).
+> * You have created a [Local Test Environment with Agent](https://docs.katalon.com/katalon-analytics/docs/agents.html), or you have already created a different Test Environment (Docker, Kubernetes, etc.).
 >
 > * You have created a [Script Repository](https://docs.katalon.com/katalon-analytics/docs/code-repo.html).
 
@@ -47,10 +45,6 @@ After creating the schedule, Katalon TestOps automatically directs you to the **
 
 The **Test Run Types** page shows you a collection of Test Runs with the same configurations (Test Environment, Trigger, Script Repository).
 
-> Notes:
->
-> Once you have created a schedule, you can set time for Test Runs execution by creating a Trigger. See: [Execute Test Runs with a Trigger](https://docs.katalon.com/katalon-analytics/docs/kt-scheduler.html).
-
 ## View Test Runs
 
 Once creating a schedule for Test Runs, the calendar in the **Test Runs** page reflects the change.
@@ -63,8 +57,4 @@ Click on a Test Run in the calendar to see its summary.
 
 If the Tests belongs to a Test Suite, you can also see a summary of the Test Suite here.
 
-Next step: [Execute Test Runs with a Trigger](https://docs.katalon.com/katalon-analytics/docs/kt-scheduler.html).
-
-See also:
-
-* [Set up Configurations for Remote Execution](https://docs.katalon.com/katalon-analytics/docs/test-run-config.html).
+Next step: [Execute Test Runs](https://docs.katalon.com/katalon-analytics/docs/kt-scheduler.html).
