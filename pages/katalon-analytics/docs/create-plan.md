@@ -23,6 +23,10 @@ Follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/schedule-test-run-button.png" width=100%>
 
+    > Notes:
+    >
+    > If you have not scheduled any Test Run yet, the calendar view in the **Test Runs** page is empty.
+
 2. Click on the **Schedule Test Run** button.
 
     The **Schedule Test Run** page appears as below.
@@ -45,21 +49,21 @@ The **Test Run Types** page shows you a collection of Test Runs with the same co
 
 > Notes:
 >
-> Once you have created a schedule, you can set dates for Test Runs execution by creating a Trigger. See: [Execute Test Runs by a Trigger](https://docs.katalon.com/katalon-analytics/docs/kt-scheduler.html).
+> Once you have created a schedule, you can set time for Test Runs execution by creating a Trigger. See: [Execute Test Runs with a Trigger](https://docs.katalon.com/katalon-analytics/docs/kt-scheduler.html).
 
 ## View Test Runs
 
-Right after creating a schedule for Test Runs, you can see those Test Runs in a calendar view if you go back to the **Test Runs** page.
+Once creating a schedule for Test Runs, the calendar in the **Test Runs** page reflects the change.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/test-runs-page-after-scheduling-test-run.png" width=100%>
 
-If you click on each Test Run in the calendar, you can see its summary.
+Click on a Test Run in the calendar to see its summary.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/detail-of-test-run-after-clicking-it-on-calendar.png" width=100%>
 
 If the Tests belongs to a Test Suite, you can also see a summary of the Test Suite here.
 
-Next step: [Execute Test Runs by a Trigger](https://docs.katalon.com/katalon-analytics/docs/kt-scheduler.html).
+Next step: [Execute Test Runs with a Trigger](https://docs.katalon.com/katalon-analytics/docs/kt-scheduler.html).
 
 See also:
 
