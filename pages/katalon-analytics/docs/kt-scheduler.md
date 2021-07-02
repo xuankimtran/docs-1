@@ -76,12 +76,14 @@ You can also execute Test Runs manually by following these steps:
 
 ## View the status of Test Runs
 
-With a Trigger, your Test Runs are executed automatically based on your configurations when creating a Trigger.
+After executing Test Runs, go to **Test Planning** to check their status in a calendar view.
 
-You also execute Test Runs by manually clicking on the *Run* icon.
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/test-runs-page-after-scheduling-test-run.png" width=100%>
 
-After executing Test Runs, go to **Test Planning** to check their status in a calendar view. See: [View Test Runs](https://docs.katalon.com/katalon-analytics/docs/create-plan.html#view-test-runs).
+Click on a Test Run in the calendar to see its summary.
 
- <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-execute-test-runs-by-trigger/test-run-manual-calendar-view.png" width=100%> 
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/detail-of-test-run-after-clicking-it-on-calendar.png" width=100%>
+
+If the Tests belongs to a Test Suite, you can also see a summary of the Test Suite here.
 
 Next step: [Manage Test Runs by Release](https://docs.katalon.com/katalon-analytics/docs/kt-release.html).
