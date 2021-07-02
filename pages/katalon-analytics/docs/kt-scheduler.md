@@ -1,12 +1,12 @@
 ---
-title: "Execute Test Runs by a Trigger"
+title: "Execute Test Runs with a Trigger"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/kt-scheduler.html 
 redirect_from: /katalon-analytics/docs/execute-test-run.html 
 description: 
 ---
 
-In Katalon TestOps, you can execute Test Runs manually or automatically.
+In Katalon TestOps, you can manually execute Test Runs, or schedule them automatically.
 
 > Requirements:
 >
@@ -14,7 +14,7 @@ In Katalon TestOps, you can execute Test Runs manually or automatically.
 >
 > You have set up an Agent and let it run while executing Test Runs. See: [Agent Setup](https://docs.katalon.com/katalon-analytics/docs/install_kt_agent.html).
 
-## Execute Test Runs by a Trigger
+## Execute Test Runs with a Trigger
 
 Using a Trigger allows you to execute a Test Run automatically. By doing so, you can leverage Remote Execution to take complete control of your testing plan.
 
@@ -30,7 +30,7 @@ Follow these steps:
 
 3. Click on the ID number of a Test Run you want to create a Trigger for.
 
-    The **Test Run: #** page appears, and **#** represents the ID number.
+    The **Test Run: #** page appears, where **#** represents the ID number.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-execute-test-runs-by-trigger/test-run-configuration-for-trigger.png" width=100%>
 
