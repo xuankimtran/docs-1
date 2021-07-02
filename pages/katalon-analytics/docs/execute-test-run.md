@@ -5,4 +5,4 @@ permalink: katalon-analytics/docs/execute-test-run.html
 description: 
 ---
 
-The content has been moved to [Execute Test Runs](/katalon-analytics/docs/kt-scheduler.html).
+The content has been moved to [Execute Test Runs](https://docs.katalon.com/katalon-analytics/docs/kt-scheduler.html).
