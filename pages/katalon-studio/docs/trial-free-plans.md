@@ -15,7 +15,7 @@ Each trial license can be activated on only one machine at a time. When your tri
 
 > Notes:
 >
-> Katalon Studio Enterprise and Katalon Runtime Engine **trial** licenses can only be registered with **business** emails. 
+> Katalon accounts registered with personal email are eligible for Katalon Studio Enterprise and Katalon Runtime Engine trial licenses for 30 days.
 >
 > Trial licenses work in online or offline environments for 30 days.
 >
