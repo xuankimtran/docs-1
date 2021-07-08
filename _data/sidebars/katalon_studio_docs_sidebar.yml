@@ -1291,7 +1291,7 @@ items:
                 tree:
                   - title: "Install Katalon TestOps Agent on a test machine" 
                     url: /katalon-analytics/docs/install_kt_agent.html
-                  - title: "Create a Local Test Environment with Agent"
+                  - title: "Create a Local Test Environment with an Agent"
                     url: /katalon-analytics/docs/agents.html
                   - title: "Load Balancing for Local Test Environments"
                     url: /katalon-analytics/docs/load-balancing-agents.html
