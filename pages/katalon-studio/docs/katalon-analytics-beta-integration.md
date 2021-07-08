@@ -1,5 +1,5 @@
 ---
-title: "Upload Test Results to Katalon TestOps automatically from Katalon Studio" 
+title: "Upload Test Results to Katalon TestOps from Katalon Studio" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/katalon-analytics-beta-integration.html
 redirect_from:
@@ -14,68 +14,82 @@ redirect_from:
     - "/x/mw3R/"
     - "/katalon-analytics/docs/integration-with-katalon-studio.html"
     - "/katalon-analytics/docs/upload-reports-overview.html"
+    - "/katalon-analytics/docs/project-management-import-KS.html"
 ---
 
-To configure the Katalon TestOps Integration, right after activating:
+> Notes:
+>
+> Katalon Studio version **7.0 onwards** supports video capture of Test Results when uploading them to Katalon TestOps.
 
-* Select a team in the configured organization that you have permission to access.
+From Katalon Studio, you can upload Test Results to Katalon TestOps manually or automatically.
 
-* Select a project under that team you would like to work on or create your own one if you have permission.
+## Upload Test Results automatically
 
-## Settings
+Follow these steps:
 
-In Katalon Studio, go to **Project > Settings**.
+1. Open Katalon Studio.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/integration-ks/ks_project_setting.png)
+2. Go to **Project** > **Settings** > **Katalon TestOps**.
 
-The window **Project Settings** displays, in the **Project Information**, type the name and description, then click OK.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-test-uploads-to-kto-from-ks/enable-kto-integration-in-ks.png"  width=100% alt="ks project setting testops integration">
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/integration-ks/ks_pro_set_window.png)
+3. Tick on the **Enable Katalon TestOps Integration** checkbox.
 
-You must enable **Katalon TestOps Integration** (in the **Project Settings**) to submit test execution reports to Katalon TestOps. 
+    Wait for Katalon Studio to connect to Katalon TestOps.
+    
+    Once the connection is successful, Katalon Studio retrieves all Teams and Projects from the Organization you belong to.
+    
+4. Choose your Team and Project in a dropdown menu of the **Team** and **Project** sections.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/integration-ks/ks_enable_katalon_testops.png)
+    If you are the Owner or Admin, you can also click **New Project** to create a new Project instead.
 
-Follow the below steps to set up the integration properly:
+5. Click **Apply and Close**.
 
-1. Check the **Enable Katalon TestOps Integration** checkbox to retrieve all teams and projects that you have permission to access in the organization you are working.
+Once you have enabled Katalon TestOps integration in Katalon Studio, your Test Results are automatically uploaded to TestOps Center every time you run Test Suites in Katalon Studio.
+    
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-test-uploads-to-kto-from-ks/automatic-upload-report-to-testops-from-ks.png"  width=100% alt="automatic upload of test reports to kto">
 
-Once Katalon Studio is **successfully connected** to Katalon TestOps, all relevant Katalon TestOps the **Teams** and **Projects** will be retrieved and displayed in the Teams and Projects drop-down menu. You can also **create a new project** in Katalon TestOps if you're a team owner or admin, simply click the **New Project** button and enter a name for it.
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-test-uploads-to-kto-from-ks/test-suit-upload-to-testops-page.png"  width=100% alt="see uploads in testops page">
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/integration-ks/ks_create_new_project.png)
+### Switch Organization in Katalon Studio
 
- > If you want to switch to another organization, click on the top right corner of the app.
+You can switch to a different Organization in Katalon Studio by following these steps:
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/integration-ks/ks_main.png)
+1. Open Kataln Studio and click on the *Profile* icon at the top right corner.
 
-> Select **Deactivate**.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-test-uploads-to-kto-from-ks/profile-icon-in-ks.png" width=100% alt="switch organization in ks">
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/integration-ks/ks_main_deactive.png)
+2. Select **Deactivate**.
 
-> **Katalon Studio Activation** displays, type the email, password, and click **Active**.
+    The **Katalon Studio Activation** box displays.
+    
+3. Type the email address and password, then click **Activate**.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/integration-ks/ks_activation.png)
+To verify if you have overridden the authentication successfully, click on the *Profile* icon again and select **View Dashboard**.
 
-2. In **Project Settings**, select a team and project, in which you will upload your test results. Here you can reload this part by clicking **Fetch Projects**.
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-test-uploads-to-kto-from-ks/view-dashboard-in-ks-after-switching-org.png" width=100% alt="view dashboard button in ks">
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/integration-ks/ks_fetch_projects.png)
+You will be navigated to the Project's **Dashboard** in Katalon TestOps.
 
-3. Click **Apply** and then **OK** to finish your configurations.
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-test-uploads-to-kto-from-ks/to-dashboard-on-browser.png
+" width=100% alt="testops dashboard page">
 
-To verify if you have overridden the authentication successfully. On the top right corner, select your account, click **View Dashboard**.
+## Upload Test Results manually
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/integration-ks/ks_view_dashboard.png)
+You can also upload Test Results manually by following these steps:
 
-The project, which you have created, will be navigated to you.
+1. Open Katalon Studio and go to the Project you are working on.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/integration-ks/ks_dashboard_project_create.png)
+2. Go to **Test Suites** or **Test Suite Collection** and choose your Test Suite.
 
-## Automatically upload test results
+    Select the **Result** tab.
 
-After configuring TestOps settings in Katalon Studio, starting running a test suite.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-test-uploads-to-kto-from-ks/manually-upload-test-result-to-TO-from-KS.png" width=100% alt="upload manually from ks to testops">
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/integration-ks/run-test-ks.png)
+3. Click on the **Katalon TestOps** tab at the top right corner and select **Upload**.
 
-Your test results will be automatically uploaded to TestOps Center.
+4. Choose the Team and Project you want to upload Test Results to.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/integration-ks/upload-to.png)
+5. Click **Upload**.
+
+You have uploaded Test Results manually to Katalon Testops.
