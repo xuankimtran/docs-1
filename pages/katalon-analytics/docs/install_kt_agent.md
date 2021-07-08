@@ -7,4 +7,4 @@ redirect_from:
 description: 
 ---
 
-This content has been moved to [Create a Local Test Environment with Agent](https://docs.katalon.com/katalon-analytics/docs/agents.html).
+The content has been moved to [Create a Local Test Environment with Agent](https://docs.katalon.com/katalon-analytics/docs/agents.html).
