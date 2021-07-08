@@ -1,18 +1,78 @@
 ---
-title: "Create a Local Test Environment with Agent" 
+title: "Create a Local Test Environment with an Agent" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/agents.html 
+redirect_from: /katalon-analytics/docs/install_kt_agent.html
 description: 
 ---
-Agents manage local servers for executing the scheduled Test Runs the in local Test Environment. Katalon supports Agents that are compatible with different execution environments.
 
-> We share the Agents among members and projects within a team.
+An Agent manages a local server for executing the scheduled Test Runs in a Local Test Environment.
+
+Katalon TestOps supports compatible Agents for different execution environments.
+
+Once you install the Agent in your local test machine, you have created a Local Test Environment for Test Runs execution.
+
+> Notes:
+>
+> You can share the Agents among Users and Projects within a Team.
 
 ## Set up an Agent
 
-In **Configurations**, go to **Agent setup** > Select **Local Environment** > Follow instructions in the setup wizard.
+> Requirements:
+>
+> You have a Katalon account.
 
-Setup Agents step by step, see [here](https://docs.katalon.com/katalon-analytics/docs/install_kt_agent.html).
+### Download an Agent from Katalon TestOps
+
+To install an Agent, follow these steps:
+
+1. Sign in to [Katalon TestOps](https://testops.katalon.io/login).
+
+2. Go to your Project > **Configurations** > **Agent Setup** > **Local Environment**.
+
+    The **Agent Setup** page appears as below.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-agent-setup/agen-setup-page-to.png" width=100% alt="testops agent setup page">
+
+3. Choose your Operating System (Windows, MacOS, etc.) in **Select OS**, then click **Download Agent**.
+
+    You have downloaded the Agent file (.zip file) to your computer.
+
+### Set up an Agent in a local machine
+
+**For Windows**
+
+Follow these steps:
+
+1. Unzip the Agent file.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/kt_install_agent/kt_unzip_agent_setup.png" width=100% alt="windows unzip agent file">
+    
+2. Open a new CMD window.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/kt_install_agent/kt_agent_cmd.png" width=100% alt="windows cmd">
+    
+
+In Agent Setup on Katalon Testops, click the button Copy at Generate configuration.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/kt_install_agent/kt_agent_copy_gen_config.png)
+
+Paste the command, which we have just copied, in the cmd.exe. Then Enter to run.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/kt_install_agent/kt_paste_gen_config_cmd.png)
+
+In Agent Setup on Katalon Testops, click the button Copy at Start an agent.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/kt_install_agent/kt_copy_start_agent.png)
+
+Paste the command, which we have just copied, in the cmd.exe. Then Enter to run.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/kt_install_agent/kt_paste_start_agent.png)
+
+After about a minute, in the Test Environments on Katalon Testops, the new Test Environment was be added.
+
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/kt_install_agent/kt_test_environments.png)
+
 
 ## Start an Agent
 
@@ -70,4 +130,3 @@ For example, `proxy=http://localhost:8080`.
 - [Create a Kubernetes Environment](https://docs.katalon.com/katalon-analytics/docs/aws-eks.html)
 - [Load balancing for Local Test Environment](https://docs.katalon.com/katalon-analytics/docs/load-balancing-agents.html)
 - [Katalon TestOps Terminology](/katalon-analytics/docs/testops-terminology.html)
-
