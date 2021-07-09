@@ -117,14 +117,6 @@ After verifying your account, open Katalon Studio and reactivate it.
 
 </details>
 
-**<details><summary>Trial license is only available for Katalon accounts registered with a business email.</summary>**
-
-You encounter this exception if you have registered Katalon accounts using your personal email (e.g., an email with a public domain such as `@gmail.com`).
-
-You must register your business email to use the Katalon Studio Enterprise and Katalon Runtime Engine trial license.
-
-</details>
-
 **<details><summary>Your trial has expired. Please subscribe to continue using Katalon Runtime Engine.</summary>**
 
 A valid business email is eligible for a 30-day trial of Katalon Studio Enterprise and Katalon Runtime Engine. The trial license is a floating license.
