@@ -125,6 +125,12 @@ items:
                 url: /katalon-studio/tutorials/mobile-android-setup.html
               - title: "[Mobile] Create and Run Android Test Case"
                 url: /katalon-studio/tutorials/mobile-create-android-test-case.html
+          - title: "Web UI"
+            tree:
+              - title: "[WebUI] Create and Run Web UI Test Case using Record and Playback"
+                url: /katalon-studio/tutorials/webui-create-test-case.html
+              - title: "[Web UI] Plan Test Suite"
+                url: /katalon-studio/tutorials/webui-plan-test-suite.html
       - title: "GUI and Preferences"
         tree:
           - title: "Toolbars and Views"
