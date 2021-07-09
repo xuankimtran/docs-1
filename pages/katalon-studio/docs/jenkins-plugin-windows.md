@@ -8,6 +8,8 @@ description: Guidelines of how to use Jenkins plugin on Windows
 
 This tutorial shows you how to install and run **Katalon TestOps – Jenkins** plugin for Web UI testing on Windows platform.
 
+> You can learn how to set up and run your Katalon tests on a Jenkins server by attending [Refine your CI/CD Pipeline with Automated Testing course](https://academy.katalon.com/courses/automated-testing-cicd-pipeline/?utm_source=kat_docs_testops_jenkins&utm_medium=top_link&utm_campaign=academy_promotion)
+
 ## Run a Freestyle Jenkins project
 
 ### Prerequisites
@@ -87,3 +89,5 @@ To run Katalon Studio scripts in Jenkins Pipeline, do as follows:
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/git-selected.png">
 
 4. Enter your Git credentials, save and start running the Jenkinsfile.
+
+> Leverage Katalon Studio’s automated testing features by joining [Refine your CI/CD Pipeline with Automated Testing course](https://academy.katalon.com/courses/automated-testing-cicd-pipeline/?utm_source=kat_docs_testops_jenkins&utm_medium=bottom_link&utm_campaign=academy_promotion) on [Katalon Academy](https://academy.katalon.com)
