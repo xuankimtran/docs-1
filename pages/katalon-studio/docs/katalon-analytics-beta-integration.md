@@ -15,6 +15,7 @@ redirect_from:
     - "/katalon-analytics/docs/integration-with-katalon-studio.html"
     - "/katalon-analytics/docs/upload-reports-overview.html"
     - "/katalon-analytics/docs/project-management-import-KS.html"
+    - "/katalon-analytics/docs/ks_upload_project_kt.html"
 ---
 
 > Notes:
