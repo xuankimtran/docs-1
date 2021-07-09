@@ -12,7 +12,7 @@ Katalon TestOps supports compatible Agents for different executing environments.
 
 Once you install the Agent in your local test machine, you have created a Local Test Environment for Test Runs execution.
 
-With Agents, you can also execute Test Runs from  Katalon Studio, Git and Gitbucket.
+With Agents, you can execute Tests from Katalon Studio, or from your Git and Bitbucket's Repositories.
 
 > Notes:
 >
@@ -128,10 +128,3 @@ You can set up Proxy for the Agent in the *agentconfig* file, using the `proxy` 
 Next steps:
 * [Upload Test Scripts to a Script Repository](https://docs.katalon.com/katalon-analytics/docs/code-repo.html).
 * [Schedule Test Runs](https://docs.katalon.com/katalon-analytics/docs/create-plan.html).
-
-See also:
-
-* [Create a Docker Environment](https://docs.katalon.com/katalon-analytics/docs/docker.html).
-* [Create a CircleCI Environment](https://docs.katalon.com/katalon-analytics/docs/circleci.html).
-* [Create a Kubernetes Environment](https://docs.katalon.com/katalon-analytics/docs/aws-eks.html).
-* [Load balancing for Local Test Environment](https://docs.katalon.com/katalon-analytics/docs/load-balancing-agents.html).
