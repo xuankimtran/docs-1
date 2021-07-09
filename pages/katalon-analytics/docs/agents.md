@@ -44,7 +44,7 @@ To install an Agent, follow these steps:
 
     You have downloaded the Agent file (.zip file) to your computer.
 
-4. Created a name for the Agent in the **Agent Name** section (e.g., **My Agent**).
+4. Create a name for the Agent in the **Agent Name** section (e.g., **My Agent**).
 
 5. Leave the **Agent Setup** page open while following the instructions to set up the Agent in your local machine.
 
