@@ -92,6 +92,6 @@ To verify that you have overridden the authentication successfully, click on the
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-test-uploads-to-kto-from-ks/view-dashboard-in-ks-after-switching-org.png" width=100% alt="view dashboard button in ks">
 
-You will be navigated to the Project's **Dashboard** of the new Organization in Katalon TestOps.
+You will be navigated to the new Organization in Katalon TestOps.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-test-uploads-to-kto-from-ks/to-dashboard-on-browser.png" width=100% alt="testops dashboard page">
