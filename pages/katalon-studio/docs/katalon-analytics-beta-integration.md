@@ -86,10 +86,12 @@ You can switch to a different Organization in Katalon Studio by following these 
     
 3. Type the email address and password, then click **Activate**.
 
-To verify if you have overridden the authentication successfully, click on the *Profile* icon again and select **View Dashboard**.
+You have logged in to a different Organization.
+
+To verify that you have overridden the authentication successfully, click on the *Profile* icon again and select **View Dashboard**.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-test-uploads-to-kto-from-ks/view-dashboard-in-ks-after-switching-org.png" width=100% alt="view dashboard button in ks">
 
-You will be navigated to the Project's **Dashboard** in Katalon TestOps.
+You will be navigated to the Project's **Dashboard** of the new Organization in Katalon TestOps.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-test-uploads-to-kto-from-ks/to-dashboard-on-browser.png" width=100% alt="testops dashboard page">
