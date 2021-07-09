@@ -8,7 +8,7 @@ description:
 
 An Agent manages a local server for executing the scheduled Test Runs in a Local Test Environment.
 
-Katalon TestOps supports compatible Agents for different execution environments.
+Katalon TestOps supports compatible Agents for different executing environments.
 
 Once you install the Agent in your local test machine, you have created a Local Test Environment for Test Runs execution.
 
