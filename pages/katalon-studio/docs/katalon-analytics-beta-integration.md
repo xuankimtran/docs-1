@@ -46,34 +46,11 @@ Follow these steps:
 
 5. Click **Apply and Close**.
 
-Once you have enabled Katalon TestOps integration in Katalon Studio, your Test Results are automatically uploaded to TestOps Center every time you run Test Suites in Katalon Studio.
+Once you have enabled Katalon TestOps integration in Katalon Studio, your Test Results are automatically uploaded to Katalon TestOps every time you run Test Suites in Katalon Studio.
     
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-test-uploads-to-kto-from-ks/automatic-upload-report-to-testops-from-ks.png"  width=100% alt="automatic upload of test reports to kto">
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-test-uploads-to-kto-from-ks/test-suit-upload-to-testops-page.png"  width=100% alt="see uploads in testops page">
-
-### Switch Organization in Katalon Studio
-
-You can switch to a different Organization in Katalon Studio by following these steps:
-
-1. Open Kataln Studio and click on the *Profile* icon at the top right corner.
-
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-test-uploads-to-kto-from-ks/profile-icon-in-ks.png" width=100% alt="switch organization in ks">
-
-2. Select **Deactivate**.
-
-    The **Katalon Studio Activation** box displays.
-    
-3. Type the email address and password, then click **Activate**.
-
-To verify if you have overridden the authentication successfully, click on the *Profile* icon again and select **View Dashboard**.
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-test-uploads-to-kto-from-ks/view-dashboard-in-ks-after-switching-org.png" width=100% alt="view dashboard button in ks">
-
-You will be navigated to the Project's **Dashboard** in Katalon TestOps.
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-test-uploads-to-kto-from-ks/to-dashboard-on-browser.png
-" width=100% alt="testops dashboard page">
 
 ## Upload Test Results manually
 
@@ -94,3 +71,25 @@ You can also upload Test Results manually by following these steps:
 5. Click **Upload**.
 
 You have uploaded Test Results manually to Katalon Testops.
+
+## Switch Organization in Katalon Studio
+
+You can switch to a different Organization in Katalon Studio by following these steps:
+
+1. Open Katalon Studio and click on the *Profile* icon at the top right corner.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-test-uploads-to-kto-from-ks/profile-icon-in-ks.png" width=100% alt="switch organization in ks">
+
+2. Select **Deactivate**.
+
+    The **Katalon Studio Activation** box displays.
+    
+3. Type the email address and password, then click **Activate**.
+
+To verify if you have overridden the authentication successfully, click on the *Profile* icon again and select **View Dashboard**.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-test-uploads-to-kto-from-ks/view-dashboard-in-ks-after-switching-org.png" width=100% alt="view dashboard button in ks">
+
+You will be navigated to the Project's **Dashboard** in Katalon TestOps.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-test-uploads-to-kto-from-ks/to-dashboard-on-browser.png" width=100% alt="testops dashboard page">
