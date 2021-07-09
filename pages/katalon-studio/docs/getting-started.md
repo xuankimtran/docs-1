@@ -21,6 +21,8 @@ description:
 
 This section provides information on how to install and activate Katalon Studio.
 
+> See [Create and Execute Test Cases in Katalon Studio](https://academy.katalon.com/courses/create-execute-test-cases//) for detailed instructions.
+
 ## Installation
 
 ### Environment Requirements
@@ -52,6 +54,8 @@ Verify whether your computer meets the [System Requirements](http://docs.katalon
 **macOS**
 
 - Double-click on the **Katalon Studio** (macOS) file in the directory where it is unpacked.
+
+> Refer to chapter 2 of [Create and Execute Test Cases course](https://academy.katalon.com/courses/create-execute-test-cases//) for manual mode instruction.
 
    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/install_setup_katalon_studio/Katalon-MacOS.png "init-size")
 
