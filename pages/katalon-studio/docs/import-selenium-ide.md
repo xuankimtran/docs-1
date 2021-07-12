@@ -10,7 +10,7 @@ In addition to [importing Selenium/TestNG/JUnit projects](https://docs.katalon.c
 
 This manual shows you how to import a Selenium IDE project to a project in Katalon Studio and how Katalon Studio maps the imported test artifacts. Also, a sample Selenium IDE project is provided for you to try out our newly supported feature.
 
-> See sample project in [Migrate from Selenium to Katalon Studio – Everything You Should Know course.](https://academy.katalon.com/courses/migrate-selenium/?utm_source=kat_docs_side&utm_medium=top_link&utm_campaign=academy_promotion)
+> See sample project in [Migrate from Selenium to Katalon Studio – Everything You Should Know course](https://academy.katalon.com/courses/migrate-selenium/?utm_source=kat_docs_side&utm_medium=top_link&utm_campaign=academy_promotion).
 
 **Requirements**
 

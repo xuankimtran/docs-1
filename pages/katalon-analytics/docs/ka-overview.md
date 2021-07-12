@@ -24,7 +24,7 @@ Katalon TestOps' key modules include:
 * Reports & Analytics
 * Configurations
 
-> For effective orchestration with DevOps, see [Effective Orchestration of Test Automation and DevOps course.](https://academy.katalon.com/courses/orchestration-test-automation-devops/?utm_source=kat_docs_testops&utm_medium=top_link&utm_campaign=academy_promotion)
+> For effective orchestration with DevOps, see [Effective Orchestration of Test Automation and DevOps course](https://academy.katalon.com/courses/orchestration-test-automation-devops/?utm_source=kat_docs_testops&utm_medium=top_link&utm_campaign=academy_promotion).
 ## Test Planning
 
 This key module is a continuous integration tool for scheduling remote executions on local machines, Kubernetes, and CircleCI.
