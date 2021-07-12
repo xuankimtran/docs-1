@@ -12,8 +12,6 @@ Katalon TestOps supports compatible Agents for different executing environments.
 
 Once you install the Agent in your local test machine, you have created a Local Test Environment for Test Runs execution.
 
-With Agents, you can execute Tests from Katalon Studio, or from your Git and Bitbucket's Repositories.
-
 > Notes:
 >
 > You can share the Agents among Users and Projects within a Team.
