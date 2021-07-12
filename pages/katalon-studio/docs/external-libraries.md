@@ -11,7 +11,7 @@ redirect_from:
 description: 
 ---
 
-Katalon Studio allows using external Java `.jar` libraries either through project settings or adding them to a designated folder. You can leverage this to extend the capabilities of Katalon Studio and handle specific situations when needed. This article will show you how to add external libraries to Katalon Studio or replace the buil-in libraries with the external ones in a test project.
+Katalon Studio allows using external Java `.jar` libraries either through project settings or adding them to a designated folder. You can leverage this to extend the capabilities of Katalon Studio and handle specific situations when needed. This article will show you how to add external libraries to Katalon Studio or replace the built-in libraries with the external ones in a test project.
 
 ## Add External Libraries
 

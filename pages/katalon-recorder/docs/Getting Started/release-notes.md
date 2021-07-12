@@ -10,26 +10,60 @@ redirect_from:
 description:
 ---
 
+## 5.5.1.2
+- Improvements
+  - Promote sample projects after 1st successful execution.
+    - We think these sample projects will be helpful to make users successful with their first automation script.
+- Bug fixes
+  - Fix an issue where switching between test cases does not reset the test case view to the top. This makes users think their data are lost.
+
+
+## 5.5.1.1
+- New functions
+  - Add popup to ask users for their automation use cases.
+- Bug fixes
+  - Contextual product tips' text are unreadable on dark themes.
+
+## 5.5.0
+- New functions
+  - Self-healing. [Read more](https://docs.katalon.com/katalon-recorder/docs/self-healing.html)
+  - Command-line runner. [Read more](https://docs.katalon.com/katalon-recorder/docs/command-line-runner.html)
+  - Import from Selenium IDE. [Read more](https://docs.katalon.com/katalon-recorder/docs/import-selenium-ide.html)
+  - Add referral button.
+- Bug fixes
+  - Fix issue type command does not work with multiline in textarea.
+
+## 5.4.14
+- New functions
+  - Add popup for users to rate KR on Chrome and Firefox store.
+  - Add sample projects to contextual product tips.
+  - Add the ability to download data files from KR.
+
 ## 5.4.10
-- Improved registration process.
-  - Since version 5.4.10, new users will have unlimited test executions, but can create only one automation script. To create more, a **free account** is required. 
-    - We have experimented with setting quota on the number of executions, but decided that it does not align with how users experience success with the product because the number of executions required to automate a scenario successfully vary greatly. However, when you want to automate more scenarios, it likely indicates that you have succeeded in automating one scenarios.
+- Improvements
+  - Improved registration process.
+    - Since version 5.4.10, new users will have unlimited test executions, but can create only one automation script. To create more, a **free account** is required. 
+      - We have experimented with setting quota on the number of executions, but decided that it does not align with how users experience success with the product because the number of executions required to automate a scenario successfully vary greatly. However, when you want to automate more scenarios, it likely indicates that you have succeeded in automating one scenarios.
 
 ## 5.4.6
-- Improved registration process.
-  - Since version 5.4.6, new users will have to sign up for a **free** account after 4 successful executions. Our data has shown that users that have more than 4 successful executions are more likely to adopt the product.
-- Fixed an issue where record and playback fails on Angular forms.
-  - A bug prevented users from recording `sendKey` on Angular forms, which also makes playback fail.
+- Improvements
+  - Improved registration process.
+    - Since version 5.4.6, new users will have to sign up for a **free** account after 4 successful executions. Our data has shown that users that have more than 4 successful executions are more likely to adopt the product.
+- Bug fixes
+  - Fixed an issue where record and playback fails on Angular forms. Users could not record `sendKey` on Angular forms, which also makes playback fail.
 
 ## 5.4.5
-- Improved registration process. 
-  - We are constantly refining the registration process to offer users the best experience while balancing againt our business needs.
-  - Since version 5.4.5, new users will be able to execute 25 tests without being forced or suggested to sign up. However, when the quota is exceeded, you will need a **free** account and log in to continue your work.
+- Improvements
+  - Improved registration process. 
+    - We are constantly refining the registration process to offer users the best experience while balancing againt our business needs.
+    - Since version 5.4.5, new users will be able to execute 25 tests without being forced or suggested to sign up. However, when the quota is exceeded, you will need a **free** account and log in to continue your work.
 
 ## 5.4
-- Undo/redo mechanism to recover from mistakes while editing tests.
-- New Product Tours for both new and current KR users.
-- Improved registration process.
+- New functions
+  - Undo/redo mechanism to recover from mistakes while editing tests.
+  - New Product Tours for both new and current KR users.
+- Improvements
+  - Improved registration process.
 
 ## 5.3.30 - latest release
 
