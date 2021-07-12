@@ -60,7 +60,7 @@ To record a new test case, please do as follows:
 
    During your recording, Katalon captures the objects that you have interacted with. When saving test script, **Katalon Web Recorder** exports a list of objects used in the test case. Choose a directory you want your test objects to reside to continue. 
 
-   > Refer to chapter 2 of [Create and Execute Test Cases course](https://academy.katalon.com/courses/create-execute-test-cases//?utm_source=kat_docs_record&utm_medium=bottom_link&utm_campaign=academy_promotion) for manual mode instruction
+   > Refer to chapter 2 of [Create and Execute Test Cases course](https://academy.katalon.com/courses/create-execute-test-cases//?utm_source=kat_docs_record&utm_medium=bottom_link&utm_campaign=academy_promotion) for manual mode instruction.
 
 ## Record Using Existing Test Case
 
