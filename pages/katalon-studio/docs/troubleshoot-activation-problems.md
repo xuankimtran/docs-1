@@ -61,12 +61,13 @@ To ensure business continuity, we recommend you subscribe to more licenses.
 
 > Notes
 >
->* One Node-locked license can be assigned to one physical machine ID only.
->* One Floating license can be assigned to up to three dynamic machine IDs but cannot be used on all machines simultaneously.
+>* One Node-locked license is assigned to only one virtual machine with fixed machine ID or one physical machine. This license type is linked to a single machine ID and for one execution session only.
+>
+>* One Floating license is assigned to one execution session. This license type can be shared across multiple accounts (maximum of three accounts at a time).
 
 If the number of machines on which you're using Katalon Studio exceeds the number of licenses that you purchased, you have two options:
 
-* Subscribe to more licenses to cover more machines.
+* Subscribe to more licenses to cover more machines and execution sessions.
 * Remove the machines.
 
    Follow these steps to remove a registered machine ID.
@@ -119,7 +120,7 @@ After verifying your account, open Katalon Studio and reactivate it.
 
 **<details><summary>Your trial has expired. Please subscribe to continue using Katalon Runtime Engine.</summary>**
 
-A valid business email is eligible for a 30-day trial of Katalon Studio Enterprise and Katalon Runtime Engine. The trial license is a floating license.
+A valid business email or personal email is eligible for a 30-day trial of Katalon Studio Enterprise and Katalon Runtime Engine. The trial license is a floating license.
 
 When your trial period expires, you must subscribe to each product to continue using it.
 
