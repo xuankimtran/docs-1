@@ -26,8 +26,6 @@ Test recording is the easiest way for a tester to create an automation test scri
 
 You can create a new test script or edit an existing test script by using the Katalon Recorder Utility. This manual includes a tutorial of how to record test scripts and a brief introduction to each panel of the Katalon Web Recorder.
 
-> See [Create and Execute Test Cases video instruction](https://academy.katalon.com/courses/create-execute-test-cases//?utm_source=kat_docs_record&utm_medium=top_link&utm_campaign=academy_promotion).
-
 ## Record a New Test Case
 
 To record a new test case, please do as follows:
@@ -60,7 +58,7 @@ To record a new test case, please do as follows:
 
    During your recording, Katalon captures the objects that you have interacted with. When saving test script, **Katalon Web Recorder** exports a list of objects used in the test case. Choose a directory you want your test objects to reside to continue. 
 
-   > Refer to chapter 2 of [Create and Execute Test Cases course](https://academy.katalon.com/courses/create-execute-test-cases//?utm_source=kat_docs_record&utm_medium=bottom_link&utm_campaign=academy_promotion) for manual mode instruction.
+   > Refer to chapter 2 of the course: [Create and Execute Test Cases](https://academy.katalon.com/courses/create-execute-test-cases//?utm_source=kat_docs_record&utm_medium=bottom_link&utm_campaign=academy_promotion) on Katalon Academy for manual mode instruction.
 
 ## Record Using Existing Test Case
 

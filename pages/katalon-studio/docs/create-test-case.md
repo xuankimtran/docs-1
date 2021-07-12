@@ -27,8 +27,6 @@ description:
 
 Katalon Studio supports Keywords-Driven testing where test cases consist of keywords that represent actions of users on the AUT (Applications Under Test). This allows users with less experience in programming to easily generate automation test. The below tutorial will give you step-by-step instruction in order to create an automation test case in manual mode.
 
-> See [Create and Execute Test Cases in Katalon Studio](https://academy.katalon.com/courses/create-execute-test-cases/?utm_source=kat_docs_create&utm_medium=top_link&utm_campaign=academy_promotion) for video instruction.
-
 Given a sample test case with the steps as below:
 
 * _Open the browser_
@@ -187,4 +185,4 @@ The test execution results are shown in **Log Viewer** as below:
 
 ![Test execution Dialog](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/create_test_case_using_script_mode/13b-Katalon-Log-viewer.png)
 
-> You can learn more about executing test cases by joining [Create and Execute Test Cases course](https://academy.katalon.com/courses/create-execute-test-cases//?utm_source=kat_docs_create&utm_medium=bottom_link&utm_campaign=academy_promotion) on our Katalon Academy.
+> You can learn more about executing test cases by joining the course: [Create and Execute Test Cases](https://academy.katalon.com/courses/create-execute-test-cases//?utm_source=kat_docs_create&utm_medium=bottom_link&utm_campaign=academy_promotion) (on Katalon Academy).

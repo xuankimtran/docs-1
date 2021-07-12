@@ -146,6 +146,6 @@ Congratulations! Now you have learned the first and basic steps when using Katal
 
 For further assistance, you can also ask for help on [Katalon Forums](https://forum.katalon.com/) or [Katalon Chat](https://gitter.im/katalon-studio/Lobby).
 
-Read more:
+Learn more:
 
-* [Fundamentals of HTML, CSS, and JavaScript course on Katalon Academy](https://academy.katalon.com/courses/fundamentals-html-css-javascript//?utm_source=kat_docs_web_intro&utm_medium=bottom_link&utm_campaign=academy_promotion)
+* [The Fundamentals of HTML, CSS, and JavaScript course on Katalon Academy](https://academy.katalon.com/courses/fundamentals-html-css-javascript//?utm_source=kat_docs_web_intro&utm_medium=bottom_link&utm_campaign=academy_promotion)
