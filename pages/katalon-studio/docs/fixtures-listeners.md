@@ -23,7 +23,7 @@ There is a **new tab** called '**Script**' in **Test Suite**'s interface. This i
 
 **Supported methods**
 
-<table><thead><tr><th>Method</th><th>Description</th><th>Trigger Condition</th><th>Common Usages</th></tr></thead><tbody><tr><td>setUp</td><td>Setup test suite environment<br><br></td><td>Before executed test suites</td><td><p>Prepare a testing environment</p><p>Call required test cases for the executed test suite</p></td></tr><tr><td>setUpTestCase</td><td>Run before each test case starts</td><td>Before executed test cases</td></tr><tr><td>tearDown</td><td>Clean test suites environment</td><td>After executed test suites</td><td><p>Clean-up testing environment</p><p>Call TearDown test cases for the executed test suite</p><p>&nbsp;</p><p>&nbsp;</p></td></tr><tr><td>tearDownTestCase</td><td>Run after each test case ends</td><td>After executed test cases</td></tr></tbody></table>
+<table><thead><tr><th>Method</th><th>Description</th><th>Trigger Condition</th><th>Common Usages</th></tr></thead><tbody><tr><td>setUp</td><td>Setup test suite environment</td><td>Before executed test suites</td><td><ul><li>Prepare a testing environment</li><li>Call required test cases for the executed test suite</li></ul></td></tr><tr><td>setUpTestCase</td><td>Run before each test case starts</td><td>Before executed test cases</td></tr><tr><td>tearDown</td><td>Clean test suites environment</td><td>After executed test suites</td><td><ul><li>Clean-up testing environment</li><li>Call TearDown test cases for the executed test suite</li></ul></td></tr><tr><td>tearDownTestCase</td><td>Run after each test case ends</td><td>After executed test cases</td></tr></tbody></table>
 
 ### How it works
 
@@ -35,7 +35,7 @@ By default, the **SetUp** and **TearDown** methods are not triggered even if the
 * You can't see setUp and tearDown executed reports from generated Test Suite report. You can only see **setUpTestCase** and **tearDownTestCase** in generated Test Suite report.
 * Test Listeners will always be triggered first if you define both Test Listeners and activate Setup/ Teardown methods simultaneously.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/setupteardown-for-test-suite-and-test-case/Screen-Shot-2018-01-05-at-14.24.23.png" width=100%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/setupteardown-for-test-suite-and-test-case/Screen-Shot-2018-01-05-at-14.24.23.png" width=70%>
 
 ### In Manual view
 
@@ -57,7 +57,7 @@ You can declare a method as `setup()` or `teardown()` method using the appropria
 
 For example:
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/define-method/image2017-2-28-153A103A1.png" width=100%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/define-method/image2017-2-28-153A103A1.png" width=70%>
 
 ## Test Listeners (Test Hooks)
 
@@ -136,7 +136,7 @@ As you can see from the code above, a sample generated template has already adde
 
 To not get confused with [setUp and tearDown](/display/Documentation/Define+method#Definemethod-SetUp()andTearDown()inManualview), the visualized workflows below demonstrate how Katalon Studio will execute test automation projects with/ without setUp and tearDown methods.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-listeners-test-hooks/image2018-9-27-123A333A20.png" width=100%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-listeners-test-hooks/image2018-9-27-123A333A20.png" width=70%>
 
 ### Example
 
