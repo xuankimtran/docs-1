@@ -32,8 +32,7 @@ This document gives you information on the supported technologies and integratio
     <tr>
         <td style="width:50%"><strong>API</strong>
             <ul>
-                <li>REST: <a href="https: //docs.katalon.com/katalon-studio/docs/import-rest-requests-from-swagger-20.html">
-                        Swagger</a>, <a href="https://docs.katalon.com/katalon-studio/docs/import-openapi30.html"> OpenAPI 3.0</a> &amp;<a href="https://docs.katalon.com/katalon-studio/docs/import-wadl.html"> WADL</a></li>
+                <li>REST: <a href="https://docs.katalon.com/katalon-studio/docs/import-rest-requests-from-swagger-20.html"> Swagger</a>, <a href="https://docs.katalon.com/katalon-studio/docs/import-openapi30.html"> OpenAPI 3.0</a> &amp;<a href="https://docs.katalon.com/katalon-studio/docs/import-wadl.html"> WADL</a></li>
                 <li>SOAP (SOAP 1.1 & 1.2)
                 <li>Authentication: <a
                         href="https://docs.katalon.com/katalon-studio/docs/authorization-basic.html">Basic</a>, <a
