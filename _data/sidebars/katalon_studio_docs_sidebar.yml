@@ -1287,7 +1287,7 @@ items:
                 url: /katalon-analytics/docs/git-test-project.html
               - title: "Local Test Environments"
                 tree:
-                  - title: "Create a Local Test Environment with Agent"
+                  - title: "Create a Local Test Environment with an Agent"
                     url: /katalon-analytics/docs/agents.html
                   - title: "Load Balancing for Local Test Environments"
                     url: /katalon-analytics/docs/load-balancing-agents.html
