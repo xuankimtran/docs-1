@@ -1261,8 +1261,6 @@ items:
             tree:
               - title: "Upload Test Results from Katalon Studio"
                 url: /katalon-studio/docs/katalon-analytics-beta-integration.html
-              - title: "Upload Test Results manually from Katalon Studio"
-                url: /katalon-analytics/docs/project-management-import-KS.html
           - title: "Framework Integration"
             tree:
               - title: "Upload JUnit and Katalon Studio Test Results using Katalon Report Uploader"
