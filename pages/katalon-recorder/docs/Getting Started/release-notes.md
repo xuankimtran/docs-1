@@ -10,6 +10,32 @@ redirect_from:
 description:
 ---
 
+## 5.5.1.3
+- **New features**
+  - You can upload files without specifying a target through `Upload` command.
+    - This command simulates uploading files with drag-and-drop.
+    - You can upload multiple files by separating the path with commas.
+    - *Note*: It only works on Chrome as Firefox doesn't allow extensions to directly read from the file system.
+    - > Help > Sample projects > **Simulate uploading files with drag and drop**.
+  - You can write values to CSV files with `writeToCSV` and `appendToCSV`.
+    - `writeToCSV` accepts a file name, a row number and a column name as the target where it will write the provided value to. For example: `writeToCSV | data.csv,10,first_name | Thomas`.
+    - `appendToCSV` accepts a file name as the target and a string as the target. For example: `appendToCSV | data.csv | Thomas,To`
+    - > Help > Sample projects > **Write values to a CSV file**.
+- **Improvements**
+  - You can read information of a CSV file into variables.
+    - The `storeCsv` command is improved. After storing the result of the command to a variable, You can:
+      - Read the number of lines a CSV file has.
+      - Read the value at a particular row and column.
+      - Compute the values from different cells in a CSV file.
+    - > Help > Sample projects > **Read and use values from a CSV file**.
+- **Bug fixes**
+  - Fix an issue where KR CLI cannot execute on Windows.
+    - The difference between paths on Mac and Windows made KR CLI unable to run on Windows. The problem is now fixed.
+  - Fix an issue where `selectWindow` command is still executed inside a block that does not meet its if statement's condition.
+  - Fix an issue where self-healing proposed locators are the expanded version of the locators instead of the original version that contains variables.
+  - Fix an issue where You cannot export a recorded script from Katalon Recorder to Katalon Studio.
+
+
 ## 5.5.1.2
 - Improvements
   - Promote sample projects after 1st successful execution.
