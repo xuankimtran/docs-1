@@ -56,4 +56,4 @@ Notes:
 
 A sample project for importing a Selenium IDE project to Katalon Studio is available [here](https://github.com/katalon-studio-samples/import-selenium-ide-sample).
 
-> Learn more with our Katalon Academy Course: [Migrate from Selenium to Katalon Studio – Everything You Should Know](https://academy.katalon.com/courses/migrate-selenium/?utm_source=kat_docs_side&utm_medium=bottom_link&utm_campaign=academy_promotion).
+> Learn more with our Katalon Academy course: [Migrate from Selenium to Katalon Studio – Everything You Should Know](https://academy.katalon.com/courses/migrate-selenium/?utm_source=kat_docs_side&utm_medium=bottom_link&utm_campaign=academy_promotion).

@@ -88,4 +88,4 @@ To run Katalon Studio scripts in Jenkins Pipeline, do as follows:
 
 4. Enter your Git credentials, save and start running the Jenkinsfile.
 
-> Learn more with our Katalon Academy Course: [Refine your CI/CD Pipeline with Automated Testing course](https://academy.katalon.com/courses/automated-testing-cicd-pipeline/?utm_source=kat_docs_testops_jenkins&utm_medium=bottom_link&utm_campaign=academy_promotion).
+> Learn more with our Katalon Academy course: [Refine your CI/CD Pipeline with Automated Testing](https://academy.katalon.com/courses/automated-testing-cicd-pipeline/?utm_source=kat_docs_testops_jenkins&utm_medium=bottom_link&utm_campaign=academy_promotion).
