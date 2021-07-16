@@ -9,7 +9,7 @@ You can link Test Cases to Jira Requirements and view them in both Katalon TestO
 
 > Requirements:
 >
-> * You have installed [Jira App](https://marketplace.atlassian.com/apps/1217501/katalon-bdd-test-automation-for-jira).
+> * You have installed the [Jira App](https://marketplace.atlassian.com/apps/1217501/katalon-bdd-test-automation-for-jira).
 >
 > * You have configured Jira integration. See: [Jira Settings](https://docs.katalon.com/katalon-analytics/docs/kt-jira-config.html).
 
@@ -35,7 +35,7 @@ Follow these steps:
 
 ## View linked Test Cases in Jira
 
-Once linking a Test Case to Jira Requirements, you can click on the Jira issue in Katalon TestOps, and it directs you to the Jira issue in Jira.
+After linking a Test Case to Jira Requirements, you can click on the Jira issue in Katalon TestOps, and it directs you to the Jira issue in Jira.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-integration-jira/kat104-link-test-case-to-jira-blurred.png"  width=100% alt="see linked test case in jira">
 
