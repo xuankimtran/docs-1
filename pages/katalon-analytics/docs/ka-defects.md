@@ -6,7 +6,9 @@ redirect_from: /katalon-analytics/docs/kt-jira-issue.html
 description: 
 ---
 
-If a Test Result fails, it must be due to some Defects. Katalon TestOps links the Defects of a Test Run to Jira issues, such as Jira bugs. You can then view the Test Runs and Defects in Jira.
+If a Test Run fails, Katalon TestOps marks it as a Defect.
+
+You are then given the option to link the Defects of a Test Run to Jira issues, such as Jira bugs. You can then view the Test Runs and Defects in Jira.
 
 > Requirements:
 >
