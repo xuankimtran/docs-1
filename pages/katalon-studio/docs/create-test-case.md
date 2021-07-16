@@ -185,4 +185,4 @@ The test execution results are shown in **Log Viewer** as below:
 
 ![Test execution Dialog](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/create_test_case_using_script_mode/13b-Katalon-Log-viewer.png)
 
-> You can learn more about executing test cases by joining the course: [Create and Execute Test Cases](https://academy.katalon.com/courses/create-execute-test-cases//?utm_source=kat_docs_create&utm_medium=bottom_link&utm_campaign=academy_promotion) (on Katalon Academy).
+> Learn more with our Katalon Academy Course: [Create and Execute Test Cases](https://academy.katalon.com/courses/create-execute-test-cases//?utm_source=kat_docs_create&utm_medium=bottom_link&utm_campaign=academy_promotion).
