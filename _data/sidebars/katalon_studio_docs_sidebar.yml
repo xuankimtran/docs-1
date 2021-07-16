@@ -132,7 +132,7 @@ items:
           - title: "Web UI"
             tree:
               - title: "[WebUI] Create and Run Web UI Test Case using Record and Playback"
-                url: /katalon-studio/tutorials/webui-create-test-case.htm
+                url: /katalon-studio/tutorials/webui-create-test-case.html
               - title: "[Web UI] Plan Test Suite"
                 url: /katalon-studio/tutorials/webui-plan-test-suite.html
       - title: "GUI and Preferences"
