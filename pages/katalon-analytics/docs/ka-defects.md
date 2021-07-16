@@ -6,7 +6,7 @@ redirect_from: /katalon-analytics/docs/kt-jira-issue.html
 description: 
 ---
 
-Katalon TestOps links Defects with Jira issues (Jira Bugs) and you can view them in both Katalon TestOps and Jira.
+Katalon TestOps links the Defects of a Test Run to Jira issues (such as Jira Bugs), then you can view the Test Runs and Defects in Jira.
 
 > Requirements:
 >
@@ -14,7 +14,7 @@ Katalon TestOps links Defects with Jira issues (Jira Bugs) and you can view them
 >
 > * You have configured Jira integration. See: [Jira Settings](https://docs.katalon.com/katalon-analytics/docs/kt-jira-config.html).
 
-## Link Test Runs to Defects
+## Link Test Runs to Jira
 
 To link a Test Run to a Jira Bug, follow these steps:
 
@@ -48,7 +48,7 @@ You have linked a Test Run to a Jira Bug.
 
 ### Quick Tips
 
-You can also install Katalon Plugin to directly create a Jira issue when linking a Test Run.
+You can also install Katalon Plugin to go directly to Jira and create a new Jira issue for the Test Run and Defects.
 
 Follow these steps:
 
@@ -56,24 +56,26 @@ Follow these steps:
 
     > Notes:
     >
-    > The download is only available on Chrome browser.
+    > The download is only available on the Chrome browser.
 
 2. Enable Katalon Plugin in Chrome Extensions.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-defects/chrome-extension-page-katalon-plugin.png"  width=100% alt="chrome extension page">
     
-3. The *Create* icon is now enabled in the **Jira Defects** section in Katalon TestOps.
+3. Check the **Jira Defects** section in Katalon TestOps again.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-defects/create-icon-enabled-in-jira-defect.png"  width=100% alt="create icon enabled in testops">
 
-4. Click on the **Create** icon to switch directly to Jira, and navigate to Jira Project where you want to create a new Jira issue.
+    The Plugin installation has enabled the *Create* icon.
+
+4. Click on the **Create** icon to switch directly to Jira, then create a new Jira issue.
 
 > Notes:
 >
 > Once you have enabled Katalon Plugin, you can always see the *Plugin* icon in the corner of a Jira issue.
 > <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-defects/link-test-run-to-kat102defect-blurname.png"  width=100% alt="plugin icon floating in jira">
 >
-> You can alwasy click on the icon to quickly switch back to Katalon TestOps.
+> You can always click on the icon to quickly switch back to Katalon TestOps.
 
 ## View linked Test Runs in Jira
 
@@ -85,10 +87,12 @@ Follow these steps:
 
 ## View Defects in Katalon TestOps
 
-Go to a linked Test Run ID, then click on the **Defects** tab to see the Defects you have added to this Test Run.
+Select a Test Run by clicking on its ID, then select the **Defects** tab on the Test Run page.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-defects/defects-of-a-test-run-id.png"  width=100% alt="test run id's defects tab">
 
-To see all the Defects, go to **Test Management** > **Defects**.
+You can view all Jira issues associated with the Defects of a Test Run here.
+
+To see all other Defects, go to **Test Management** > **Defects**.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-defects/all-defects-page.png"  width=100% alt="all defects page">
