@@ -5,7 +5,7 @@ permalink: katalon-analytics/docs/ka-integration-jira.html
 description: 
 ---
 
-You can link Test Cases to Jira issues and view them in both Katalon TestOps and Jira.
+You can link Test Cases to Jira Requirements and view them in both Katalon TestOps and Jira.
 
 > Requirements:
 >
@@ -31,23 +31,23 @@ Follow these steps:
     
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-integration-jira/kat104-under-idfeature-section.png"  width=100% alt="jira issue appears after linking">
     
-    Click on the Jira issue to go view the linked Test Case in Jira.
+    Click on the Jira issue to go to Jira and view the linked Test Case.
 
 ## View linked Test Cases in Jira
 
-Once linking a Test Case to Jira Requirements, you can click on the Jira issue in Katalon TestOps, and it directs you to Jira (e.g., Jira issue **KAT-104**).
+Once linking a Test Case to Jira Requirements, you can click on the Jira issue in Katalon TestOps, and it directs you to the Jira issue in Jira.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-integration-jira/kat104-link-test-case-to-jira-blurred.png"  width=100% alt="see linked test case in jira">
 
-Click on the **Linked Test Cases** section to see the details.
+Click on the **Linked Test Cases** section to see the details of linked Test Cases.
 
 ## View Requirements in Katalon TestOps
 
-1. Go to **Test Management** > **Requirements**. 
+1. Go to your Project > **Test Management** > **Requirements**.
 
 2. Scroll down to the **Requirements** section on the **Requirements** page to view all Jira issues with linked Test Cases.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-integration-jira/requirement-page-with-jira-kat-issues-list.png"  width=100% alt="see linked test case in jira">
 
 See also:
-* [Link Test Runs to Jira Defects](https://docs.katalon.com/katalon-analytics/docs/ka-defects.html)
+* [Link Test Runs to Jira Defects](https://docs.katalon.com/katalon-analytics/docs/ka-defects.html).
