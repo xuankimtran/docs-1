@@ -4,7 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/bdd-test-results.html
 ---
 
-Behavior-driven development (BDD) is enabled in Katalon Studio, and from Katalon Studio version **7.8 onwards**, you can integrate BDD-enabled Projects with Katalon TestOps.
+Behavior-driven development (BDD) is enabled in Katalon Studio. From Katalon Studio version **7.8 onwards**, you can integrate BDD-enabled Projects with Katalon TestOps.
 
 By doing so, you can see native BDD Test Results with their Features and Scenarios.
 
@@ -36,7 +36,7 @@ Follow these steps:
 
 ### View BDD Test Results
 
-Once you have configured BDD Settings, Katalon TestOps  recognizes and processes BDD-based Test Results.
+Once you have configured BDD Settings, Katalon TestOps recognizes and processes BDD-based Test Results.
 
 To view BDD Test Results, follow these steps:
 
@@ -52,13 +52,13 @@ To view BDD Test Results, follow these steps:
 
     You can see the Features of your BDD Tests displayed in the **Name** column (the green icon next to each Name is a *Feature* icon).
 
-3. Click on one of the Features (e.g., **Devide**).
+3. Click on one of the Features (e.g., **Multiply**).
 
     You can see the Scenario of your BDD Test (the blue icon is a *Scenario* icon).
   
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-bdd-test-results/devide-scenario-requirement-devide-page.png"  width=100% alt="bdd scenario icon">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-bdd-test-results/multiply-scenarios.png"  width=100% alt="bdd scenario icon">
 
-    The Scenarios also appear on the **Test Runs** page (**Reports & Analytics** > **Test Runs**). This helps you capture the logic of each Test Case.
+    The Scenarios also appear on the **Test Runs** page (go to **Reports & Analytics** > **Test Runs**).
 
 ### View BDD Test Results in Traceability Matrix
 
