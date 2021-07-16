@@ -72,7 +72,7 @@ If the number of machines on which you're using Katalon Studio exceeds the numbe
    4. Go to **Licenses** screen view. Scroll down to the **Registered Machines** area. Remove at least one machine ID.
    5. Reactivate the license for the change to take effect.
 
-> More information on this exception can be found [here](https://support.katalon.com/hc/en-us/articles/900004333706-Why-Machine-Quota-Exceeded-message-and-How-to-resolve-it-)
+> More information on this exception can be found [here](https://support.katalon.com/hc/en-us/articles/900004333706-Why-Machine-Quota-Exceeded-message-and-How-to-resolve-it-).
 
 </details>
 
