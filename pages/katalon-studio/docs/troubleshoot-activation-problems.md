@@ -59,12 +59,6 @@ To ensure business continuity, we recommend you subscribe to more licenses.
 
 **<details><summary>Machine Quota exceeded</summary>**
 
-> Notes
->
->* One Node-locked license is assigned to only one virtual machine with fixed machine ID or one physical machine. This license type is linked to a single machine ID and for one execution session only.
->
->* One Floating license is assigned to one execution session. This license type can be shared across multiple accounts (maximum of three accounts at a time).
-
 If the number of machines on which you're using Katalon Studio exceeds the number of licenses that you purchased, you have two options:
 
 * Subscribe to more licenses to cover more machines and execution sessions.
