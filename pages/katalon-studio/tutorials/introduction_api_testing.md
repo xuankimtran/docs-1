@@ -210,4 +210,4 @@ Read more:
 
 * [Create your first API test with Katalon Studio](/katalon-studio/tutorials/create-first-api-test-katalon-studio/)
 * [API/Web Service Project](https://docs.katalon.com/katalon-studio/docs/apiweb-service-project-since-v58.html)
-* Follow this course on Katalon Academy: [Leverage API to Boost Web Testing with Katalon and LambdaTest](https://academy.katalon.com/courses/api-boost-web-testing-lambdatest/?utm_source=kat_docs_api_intro&utm_medium=bottom_link&utm_campaign=academy_promotion)
+* Follow this course on Katalon Academy: [Leverage API to Boost Web Testing with Katalon and LambdaTest](https://academy.katalon.com/courses/api-boost-web-testing-lambdatest)
