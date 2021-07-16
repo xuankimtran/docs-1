@@ -16,9 +16,9 @@ By doing so, you can see native BDD Test Results with their Features and Scenari
 
 ## Upload and view BDD Test Results in Katalon TestOps
 
-### Configure BDD settings
+### Configure BDD Settings
 
-You can configure BDD settings in Katalon TestOps to upload BDD Test Results automatically.
+You can configure BDD Settings in Katalon TestOps to upload BDD Test Results automatically.
 
 Follow these steps:
 
@@ -36,7 +36,7 @@ Follow these steps:
 
 ### View BDD Test Results
 
-Once you have configured BDD settings, Katalon TestOps  recognizes and processes BDD-based Test Results.
+Once you have configured BDD Settings, Katalon TestOps  recognizes and processes BDD-based Test Results.
 
 To view BDD Test Results, follow these steps:
 
@@ -58,10 +58,10 @@ To view BDD Test Results, follow these steps:
   
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-bdd-test-results/devide-scenario-requirement-devide-page.png"  width=100% alt="bdd scenario icon">
 
-The Scenarios also appear on the **Test Runs** page (**Reports & Analytics** > **Test Runs**). This helps you capture the logic of each Test Case.
+    The Scenarios also appear on the **Test Runs** page (**Reports & Analytics** > **Test Runs**). This helps you capture the logic of each Test Case.
 
 ### View BDD Test Results in Traceability Matrix
 
-In the **Reports** section on the **Requirements** page, select **Traceability Matrix** to view BDD Test Results and manage the relationships across BDD Features (**Requirements** column), BDD Scenarios (**Test Cases** column), and Defects.
+In the **Reports** section on the **Requirements** page, select **Traceability Matrix** to view BDD Test Results and manage the relationships across BDD Features (displayed in the **Requirements** column), BDD Scenarios (displayed in the**Test Cases** column), and Defects.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-bdd-test-results/traceability-matrix-bdd-page.png"  width=100% alt="traceability matrix page">
