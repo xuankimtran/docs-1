@@ -6,11 +6,11 @@ redirect_from: /katalon-analytics/docs/kt-jira-issue.html
 description: 
 ---
 
-Katalon TestOps links the Defects of a Test Run to Jira issues (such as Jira Bugs), then you can view the Test Runs and Defects in Jira.
+If a Test Result fails, it must be due to some Defects. Katalon TestOps links the Defects of a Test Run to Jira issues, such as Jira bugs. You can then view the Test Runs and Defects in Jira.
 
 > Requirements:
 >
-> * You have installed [Jira App](https://marketplace.atlassian.com/apps/1217501/katalon-bdd-test-automation-for-jira).
+> * You have installed the [Jira App](https://marketplace.atlassian.com/apps/1217501/katalon-bdd-test-automation-for-jira).
 >
 > * You have configured Jira integration. See: [Jira Settings](https://docs.katalon.com/katalon-analytics/docs/kt-jira-config.html).
 
@@ -48,7 +48,7 @@ You have linked a Test Run to a Jira Bug.
 
 ### Quick Tips
 
-You can also install Katalon Plugin to go directly to Jira and create a new Jira issue for the Test Run and Defects.
+You can also install the Katalon Integration Plugin in your Chrome browser. This allows you to navigate directly to Jira to create a new Jira issue for the Test Run and its Defects.
 
 Follow these steps:
 
@@ -66,7 +66,7 @@ Follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-defects/create-icon-enabled-in-jira-defect.png"  width=100% alt="create icon enabled in testops">
 
-    The Plugin installation has enabled the *Create* icon.
+    After completing the installation, the *Create* icon is enabled.
 
 4. Click on the **Create** icon to switch directly to Jira, then create a new Jira issue.
 
@@ -75,7 +75,7 @@ Follow these steps:
 > Once you have enabled Katalon Plugin, you can always see the *Plugin* icon in the corner of a Jira issue.
 > <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-defects/link-test-run-to-kat102defect-blurname.png"  width=100% alt="plugin icon floating in jira">
 >
-> You can always click on the icon to quickly switch back to Katalon TestOps.
+> You can always click on the *Plugin* icon to quickly switch back to Katalon TestOps.
 
 ## View linked Test Runs in Jira
 
