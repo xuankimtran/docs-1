@@ -9,7 +9,7 @@ redirect_from:
     - "/katalon-studio/"
 description:
 ---
-**Katalon Studio** is an all-in-one test automation solution for Web, API, mobile, and desktop built for both beginners and expert testers. 
+**Katalon Studio** is an all-in-one test automation solution for Web, API, mobile, and desktop built for both beginners and expert testers.
 
 <table class="top-vertical-align-table">
     <thead>
@@ -41,7 +41,7 @@ description:
             <td>
                 <ul>
                     <li><a href="https://docs.katalon.com/katalon-studio/new/what-is-new.html">What's new in
-                            v7.9?</a>
+                            v8.0.0 and v8.0.5?</a>
                     <li><a href="https://docs.katalon.com/katalon-studio/new/all-versions.html"">Release notes</a>
                     <li><a href="https://www.katalon.com/download/">Download</a>
                     </li>

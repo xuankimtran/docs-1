@@ -1,31 +1,18 @@
 ---
-title: "Integration with Azure DevOps Test Plans (Pre-release)"
+title: "Integration with Azure DevOps Test Plans"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/azure-devops-test-plans.html
+redirect_from:
+    - "/katalon-studio/docs/azure-devops-integration.html"
+
 description: 
 ---
 
-> **Important**
->
-> This is just a pre-release version that is not ready for production use. You're highly recommended to test its usability only.
+From version 8.0.0 onwards, Katalon Studio can be natively integrated with Azure DevOps (ADO) - Test Plans. This integration will help you:
 
-In the release of version 8.0.0, expected to be shipped by the end of April, Katalon Studio can be natively integrated with Azure DevOps (ADO) - Test Plans. 
+1. Easily map Test Cases in ADO to automated Test Cases in Katalon Studio to know which Test Cases are automated.
 
-> [Download Katalon Studio v8.0.0.rc3](https://github.com/katalon-studio/katalon-studio/releases/tag/v8.0.0.rc3).
-
-This integration will support you to do the following jobs:
-
-- When you have manual Test Cases in ADO, you want to map them to a corresponding automated Test Case in Katalon Studio to know which Test Cases are automated.
-- When you execute the integrated Test Cases in Katalon Studio, you want the Test Run to be created accordingly with the test execution reports and results uploaded to its corresponding Test Run in ADO so that you can get the test status and have sufficient materials for debugging.
-
-In terms of features, you can:
-
-- Enable, Authenticate and Configure the integration in Project Settings.
-- Associate Test Cases between two systems.
-- When a Test Suite/ Test Suite Collection execution finishes, Katalon will create Test Run and submit Test Results to ADO automatically.
-- Dynamically change test plan ID, test run name, and build number of a test run in CLI.
-
-This document introduces how the built-in **Azure DevOps Integration** feature looks like and how to use it in Katalon Studio.
+2. Automatically send Test Execution logs and reports from Katalon Studio to Test Run in ADO to get the test status and have sufficient materials for debugging.
 
 **Requirements**
 
@@ -33,14 +20,14 @@ This document introduces how the built-in **Azure DevOps Integration** feature l
 * An active Katalon Studio Enterprise license.
 * Set up Azure DevOps.
 
-### Enable the Integration and Authenticate Azure DevOps Organization
+### Enable the Integration and Authenticate with Azure DevOps Organization
 
 You need to enable ADO integration and authenticate your ADO to retrieve and map test artifacts between two systems and submit test results to ADO. Do as follows:
 
-In Katalon Studion, go to **Project > Settings > Integrations > Azure DevOps**:
+In Katalon Studio, go to **Project > Settings > Integrations > Azure DevOps**:
 
 1. Select **Enable Intergration** to enable **Authentication** section for editting.
-
+xs
 2. Enter the required credentials for **Authentication**. Your credentials are encrypted by default for security.
 
     - **Server URL**: `https://dev.azure.com/{yourorganization}`
@@ -62,13 +49,13 @@ To configure the integration, do as follows:
 
     - Select a fetched project in the **Project** drop-down list.
 
-    - The **Test Artifacts Mapping** and **Submission Option** fieldsets are expanded automatically. You can customize the settings in each section. 
-
         > Click **Fetch Project** to fetch the latest projects list.
 
-        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/expand-both.png" width=65%>
+    - The **Test Artifacts Mapping** and **Submission Option** fieldsets are expanded automatically. You can customize the settings in each section. 
+
+        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/expand-both.png" width=70%>
         
-2. Conduct Test Artifacts Mapping
+2. Conduct Test Artifacts Mapping.
 
     - In the **Execution Status Mapping**, map **Katalon Studio's status** with **Azure DevOps's status** to match the test results in Katalon Studio with the test outcomes in ADO.
 
@@ -90,17 +77,22 @@ To configure the integration, do as follows:
         > 
         > **A test point is a unique combination of a test case, test suite, configuration, and tester**. Test cases by themselves are not executable. When you add a test case to a test suite, test point(s) are generated. [Learn more](https://docs.microsoft.com/en-us/azure/devops/test/new-test-plans-page?view=azure-devops#execute-tab)
 
-3. Configure Submission Options
+3. Configure Submission Options.
 
     - Select a fetched test plan in the drop-down list, the test run is submitted to ADO automatically.
 
-        > Click **Fetch Test Plans** to fetch the latest test plans list.
+	    > Click **Fetch Test Plans** to fetch the latest test plans list.
 
-    - If you want to submit test results for ADO test case ID when there are multiple test points returned, select **Send test results when ...** to enable test run details for editing > enter the required **Test Run Name**.
+	- Enter the required **Test Run Name**. 
+
+		If you want to specify the **Build ID** for test run submitted from Katalon Studio to ADO, enter the **Definition ID**. During runtime, Katalon Studio uses this definition ID to get the latest build ID and pass it to the submitted test run on ADO.
 
     - Decide when and what to submit test results.
 
-        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/submission-options.png" width=65%>
+    	If you want to submit test results for ADO test case ID when there are multiple test points returned, select **Submit test results for multiple test points with the same test case ID**.
+
+	    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/submission-options-new.png" width=70%>
+
 
 4. Click **Apply and Close** to save your settings.
 
@@ -112,7 +104,7 @@ To configure the integration, do as follows:
 2. Select **Integrations** tab > specify the Test Cases ID(s) of ADO (to map to more than one ID, separate them by a comma).
 3. Click **Verify** to check whether the test case id exists in ADO for mapping the test case(s) > **Save**.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/map-ks-test-case-with-ado.png" width=60%>
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/map-ks-test-case-with-ado.png" width=70%>
 
 ### Submit test run and test results after execution
 
@@ -132,52 +124,52 @@ You can change the test plan ID, test run name, and build number of a test run b
 * Katalon Runtime Engine v8.0.
 
 <table data-number-column="false" data-layout="default" data-autosize="false" data-pm-slice="1 1 []">
-<tbody>
-<tr>
-<th data-colwidth="254">
-<p>Katalonc Command-line Option</p>
-</th>
-<th data-colwidth="253">
-<p>Description</p>
-</th>
-<th data-colwidth="253">
-<p>Mandatory?</p>
-</th>
-</tr>
-<tr>
-<td data-colwidth="254">
-<p>-adoPlanId=&lt;testplan id&gt;</p>
-</td>
-<td data-colwidth="253">
-<p>Id of the test plan used for submitting test run(s).</p>
-</td>
-<td data-colwidth="253">
-<p>N</p>
-</td>
-</tr>
-<tr>
-<td data-colwidth="254">
-<p>-adoTestRunName="text"</p>
-</td>
-<td data-colwidth="253">
-<p>Create test run(s) on ADO with the specified name.</p>
-</td>
-<td data-colwidth="253">
-<p>N</p>
-</td>
-</tr>
-<tr>
-<td data-colwidth="254">
-<p>--info -adoBuildNumber="text"</p>
-</td>
-<td data-colwidth="253">
-<p>Pass the build number to Test Run properties on ADO.</p>
-</td>
-<td data-colwidth="253">
-<p>N</p>
-</td>
-</tr>
-</tbody>
+	<tbody>
+		<tr>
+			<th data-colwidth="254">
+				<p>Katalonc Command-line Option</p>
+			</th>
+			<th data-colwidth="253">
+				<p>Description</p>
+			</th>
+			<th data-colwidth="253">
+				<p>Mandatory?</p>
+			</th>
+		</tr>
+		<tr>
+			<td data-colwidth="254">
+				<p>-adoPlanId=&lt;testplan id&gt;</p>
+			</td>
+			<td data-colwidth="253">
+				<p>Id of the test plan used for submitting test run(s).</p>
+			</td>
+			<td data-colwidth="253">
+				<p>N</p>
+			</td>
+		</tr>
+		<tr>
+			<td data-colwidth="254">
+				<p>-adoTestRunName="text"</p>
+			</td>
+			<td data-colwidth="253">
+				<p>Create test run(s) on ADO with the specified name.</p>
+			</td>
+			<td data-colwidth="253">
+				<p>N</p>
+			</td>
+		</tr>
+		<tr>
+			<td data-colwidth="254">
+				<p>--info -adoDefinitionID=&lt;DefinitionID&gt;</p>
+			</td>
+			<td data-colwidth="253">
+				<p>Get the latest completed Build ID of the specified Definition ID and pass it to Test Run properties on ADO..</p>
+			</td>
+			<td data-colwidth="253">
+				<p>N</p>
+			</td>
+		</tr>
+	</tbody>
 </table>
   
 ### Troubleshoot common issues

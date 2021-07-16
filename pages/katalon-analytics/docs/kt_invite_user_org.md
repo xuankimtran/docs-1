@@ -1,153 +1,158 @@
 ---
-title: "How to invite a user into an Organization"
+title: "TestOps User Management"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/kt_invite_user_org.html
 redirect_from:
-    - "/katalon-analytics/docs/kt-user-role-permission.html"
-    - "/display/KA/User+Management/"
-    - "/display/KA/User%20Management/"
-    - "/x/lQjR/"
-    - "/katalon-analytics/docs/user-management/"
-    - "/katalon-analytics/docs/setup-org-team-project/"
+ - "/katalon-analytics/docs/kt-user-role-permission.html"
+ - "/display/KA/User+Management/"
+ - "/display/KA/User%20Management/"
+ - "/x/lQjR/"
+ - "/katalon-analytics/docs/user-management/"
+ - "/katalon-analytics/docs/setup-org-team-project/"
 ---
 
-This tutorial shows you how to create teams and projects.
+You can invite your team members into your Organization to work on projects.
 
-> You need a Katalon account. Register [here](https://www.katalon.com/sign-up/) if you don't have one.
+> Requirements:
+>
+> You need a Katalon account. Register [Katalon account](https://www.katalon.com/sign-up/) if you don't have one.
 
-## **Organization-level roles and permissions** 
+## Roles and permissions at the Organization level
 
-* **Owner** - is granted by default when creating a new organization or transferred by the other users, who have full permission related to the organization, including teams, users, projects, licenses, plugins, and subscriptions.
-* **Admin** - is granted by the Owner, who has the Owner's privileges but cannot manage the subscriptions.
-* **User** - is automatically assigned when a person joins an organization. Users can only monitor project progress.
-* **Billing Manager** - is granted by the Owner or Admin, who has the User's privileges with additional permission to manage subscriptions.
+* **Owner**
 
-## Invite a user to join organization
+By default, you become the Owner of the Organization you have created.
 
-### As an Owner/Admin
+The Owner can manage the Organization, Teams, Users, Projects, licenses, plugins, and subscriptions.
 
-> This feature is accesible to the organization **Owner** and **Admin** only.
+The Owner can also transfer ownership to another member.
 
-* In **Katalon Administrantion** page, on the top right corner, click the symbol **Setting**. Click **User Management**.
+* **Admin**
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt2_set_org_user_manage.png)
+This role is granted by the Owner.
 
-* The **Manager User** displays with **Users** 
+The Admin has similar privileges as the Owner but cannot manage the subscriptions.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt2_manager_user.png)
+* **User**
 
-and **Pending Invitations**.
+This role is automatically assigned to a person who joins an Organization.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt2_manager_user_1.png)
+Users can only monitor the project's progress.
 
-* Go to **Users** > Click on the **Invite user** button on the top right corner.
+* **Billing Manager**
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt2_user_manage_invite.png)
+This role is granted by the Owner or Admins.
 
-* Enter valid email addresses and click **Invite**. *Note: You can enter multiple accounts at the same time.*
+The Billing Manager has similar privileges as the User and can also manage subscriptions.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt2_invite_user.png)
+## Invite a User to join an Organization
 
-* An invitation email will be sent to the invited members, or you can copy the activation link and send it to them to confirm and join your organization.
+> Notes:
+>
+> Only the Owner or Admins of an Organization can do this.
 
-> After joining the organization, the new user can only access projects after being added to a team.
+Follow these steps:
+
+1. Click on the **Settings** icon at the top right corner of the TestOps homepage and choose **User Management**.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-invite-user-org/kt-june-invite-user-org-1.png" width=100%>
+
+    The **Manage Users** page appears as below.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-invite-user-org/kt-june-invite-user-org-2.png" width=100%>
+ 
+    You can see **Users** and **Pending Invitations** here.
+
+2. Click on the **Invite user** button at the top right corner.
+
+3. Enter valid email addresses, choose Katalon TestOps in **Product Access**, then click **Invite**.
+
+> Notes:
+>
+> You can enter multiple email addresses at the same time.
+
+Your team members will receive the invitation emails. Once they accept the invitation emails, they become Users in your Organization.
+
+Alternatively, you can copy the activation link and send it to them.
+
+> Notes:
+>
+> After joining your Organization, the new users are not yet part of a team. You have to add them to a team so that they can gain access to a project.
 
 ### As a User
 
-After being invited to join organization, you will recieve an email with the subject *"Invitation to join Katalon Organization"*.
+If you are not the Owner nor Admin, you will receive an invitation to join the Organization via email.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_mail_invite.png)
+1. Accept the invitation in the email.
 
-Accept the invitation by clicking the activation link in the email.
+     You will be directed to [Katalon TestOps](https://testops.katalon.io/login).
 
-Sign in to the Katalons TestOps.
+2. Sign in on the TestOps page.
+ 
+    The invitation page appears.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/login_kat_testops.png)
+3. Click on the blue button to join the Organization.
 
-You will be navigated to the below page. Click on the blue button to join your organzation.
+## Manage Users
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_invitation_org.png)
-
-## Manage users
-
-> This feature is accesible to the organization **Owner** and **Admin** only.
+> Only the Owner or Admins of an Organization can do this.
 
 ### View pending invitations
 
-After inviting users to your organization, you can view the list of pending invitations in **Users** page.
+You can check all pending invitations on the **Manage Users** page.
 
-Before users accept the invitation, their email address will display in the list with activation links. 
+> Notes:
+>
+> You can withdraw pending invitations by removing the email address in the **Pending Invitations** section.
 
-> You can withdraw the invitation by removing it from **PENDING INVITATIONS**.
+### View the member list
 
-### View a list of members in your organization
+On the **Manage Users** page, you can also view the list of all existing members.
 
-You can view the list of existing members in **Users** page once they have accepted the invitation to join your organization.
+Once your team members have accepted the invitations, the **Users** section will display their names, email addresses, and roles.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt2_manager_user.png)
+> Notes:
+>
+> The default role for team members is User. You can update their permissions on the **User's detail** page.
 
-> After joining the organization, their name and email address will display in the **Users** section with the default **User** role. You can update their permission by editing information on the User's details page.
+### Remove an existing User
 
-### Remove an existing user
+In the **Manager Users** page, click on the *Trash bin* icon (next to the *Pencil* icon).
 
-On the left sidebar, click **Users**. On the **Manager Users** click the remove icon in the last column and confirm your action in the pop-up.
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-invite-user-org/kt-june-invite-user-org-3.png" width=100%>
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt2_manager_user_remove_icon.png)
+A confirmation popup box appears. Click **Remove** to confirm.
 
-### Update user permission
+### Change a User's permission
 
-**Assign Admin or User role**
+As an Owner or Admin, you can change the permissions of an existing member by following these steps:
 
-The Admin and Owner can reassign the existing Admin and User to a new role. Select your organization/team > from **Users** Tab, click the pencil icon in the last column.
+1. Go to the **Manage Users** page.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt2_manager_user_change_user.png)
+2. Click on the *Pencil* icon.
 
-On page **detail**, show **Role** select **Admin**, **User**, **Billing Manager** or **Owner** role in the drop-down list. A user can have different roles in different teams.
+    The **User's detail** page appears as below.
+ 
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-invite-user-org/kt-june-invite-user-org-4.png" width=100%>
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt2_change_role_user.png)
+3. Select a new role in the dropdown list of the **Role** section, then click **Update**.
 
-**Assign Billing Manager role**
+    > Notes:
+    >
+    > * Organization members can have different roles in different teams.
+    > * The **Owner** role only appears in the dropdown list if you are the Owner of your Organization.
+    > * The **Billing Manager** role is only available at the Organization level.
 
-**Billing Manager** role is only available at the organization level and granted by the organization Owner or Admin. Select your organization > from **Users** Tab, click the pencil icon in the last column and then select **Billing Manager** role in the drop-down list.
+## Transfer Organization
 
-## Transfer organization ownership
+> Notes:
+>
+> Only the Owner of an Organization can transfer the ownership to an existing team member.
 
-The Owner and Admin of an organization can transfer the ownership of an Owner to another existing team member. 
+In the **User's detail** page, click on the dropdown button. In the **Role** section, select **Owner**. Click **Update**.
 
-* Select an organization, go to **Manage Users** page, go to the user's details page by clicking on the pencil icon.
+This User is now the Owner of your Organization.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt2_change_role_user.png)
-
-* Select **Owner** in the drop-down list.
-
-* Click **Update**.
-
-> Note: Transferring Organization ownership does NOT affect Team ownership. The previous Owner still has full permission as a Team Owner to these teams, which have been created by them before.
-
-## Rename an Organization
-
-> This feature is accesible to the organization **Owner** and **Admin** only.
-
-To rename an Organization, go to your Organization and click **Settings**, choose **Organization Management**. 
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt2_set_org_management.png)
-
-You can edit the name in the **Organization profile** section.
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt2_org_profile.png)
-
-Click **Update** to save your changes.
-
-## Delete an Organization
-
-> This feature is accesible to the organization **Owner** only.
-
-To delete an Organization, click **Settings**, choose **Organization Management**, the **Settings** page displays. In the **Settings** page, you will see **Delete this organization** option. Click the button **I understand the consequences, delete this organization**. 
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt2_set_delete_org.png)
-
-Type the organization's name and click the button **I understand the consequences, delete this organization**. 
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt2_confirm_del_org.png)
-
-> You cannot undo this action. You will permanently delete your organization, projects, licenses and remove all associated teams.
+> Notes:
+>
+> Transferring Organization ownership does not affect Team ownership. The previous Organization Owner maintains Owner permissions for the Teams they have created.

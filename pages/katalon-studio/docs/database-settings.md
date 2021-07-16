@@ -10,11 +10,13 @@ redirect_from:
 description: 
 ---
 
+> From v8.0 onwards, MySQL's JDBC Driver is removed from Katalon Studio's built-in libraries. To continue using it, follow [this guide](https://docs.katalon.com/katalon-studio/tutorials/how-to-implement-ddt-mysql.html).
+
 This document gives you information on which database can be used for Data-driven testing and how to set up the database connection in Katalon Studio.
 
 ## Introduce Database Connection 
 
-To do data-driven testing with a database, you can define a database connection that can be used for the whole project and override this global configuration in a test data file later ([Learn more](https://docs.katalon.com/katalon-studio/docs/manage-test-data.html#create-a-database-data)).
+To do data-driven testing with a database, you can define a database connection that can be used for the whole project and override this global configuration in a test data file later. [Learn more](https://docs.katalon.com/katalon-studio/docs/manage-test-data.html#create-a-database-data)
 
 To set up a global database connection, go to **Project** > **Settings** > **Database**.
 
@@ -22,17 +24,16 @@ To set up a global database connection, go to **Project** > **Settings** > **Dat
 
 Where:
 
-- Secure User and Password: select to authenticate the connected database server, disabled by default.
-- User: The username for authentication in the connected database server.
-- Password: The password for authentication in the connected database server.
-- JDBC Driver: The ClassDriverName of the database that has a supported library connection (JDBC).
-- Connection URL: The connection string of the database server. Katalon Studio supports built-in JDBC Drivers for the following databases:
-    - [MySQL](https://dev.mysql.com/doc/connectors/en/connector-j-reference-configuration-properties.html).
+- **Secure User and Password**: select to authenticate the connected database server, disabled by default.
+- **User**: The username for authentication in the connected database server.
+- **Password**: The password for authentication in the connected database server.
+- **JDBC Driver**: The ClassDriverName of the database that has a supported library connection (JDBC).
+- **Connection URL**: The connection string of the database server. Katalon Studio supports built-in JDBC Drivers for the following databases:
     - [SQL Server](https://docs.microsoft.com/en-us/sql/connect/jdbc/connecting-to-sql-server-with-the-jdbc-driver?view=sql-server-ver15).
     - [Oracle SQL](https://docs.oracle.com/database/121/JJDBC/urls.htm#JJDBC28268).
     - [PostgreSQL](https://jdbc.postgresql.org/documentation/head/connect.html).
 
-You can set up a connection to one of those 4 database types with its executable jar file already embedded. Refer to the following table for an availability check: 
+You can set up a connection to one of those three database types with its executable jar file already embedded. Refer to the following table for an availability check: 
 <p>&nbsp;</p>
 <table>
 <tbody>
@@ -120,8 +121,8 @@ The following example illustrates how to connect to a Postgre database that can 
 
 To establish a connection, go to **Project > Settings > Database**. In **Database**:
    
-1. Select "Secure User and Password" to enable "User" and "Password".
-2. Input "User" name and "Password" used for authentication and "Connection URL".
+1. Select **Secure User and Password** to enable **User** and **Password**.
+2. Input **User** name and **Password** used for authentication and **Connection URL**.
 3. Click **Test Connection** to verify whether your database is connected successfully.
    
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/postgre-db.png" width=65%>
@@ -146,14 +147,14 @@ To start the connection:
 
 3. In Project Settings, go to **Database**: 
 
-- Select "Secure User and Password" to enable "User" and "Password" for editing.
-- Input "User" name and "Password" used for authentication.
-- Enter "JDBC Driver".
-- Enter "Connection URL".
-- Click **Test Connection** to verify whether your database is connected successfully. 
+    - Select **Secure User and Password** to enable **User** and **Password**.
+    - Input **User** name and **Password** used for authentication and **Connection URL**.
+    - Enter **JDBC Driver**.
+    - Enter **Connection URL**.
+    - Click **Test Connection** to verify whether your database is connected successfully. 
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/database-mariadb.png" width=65%>
+       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/database-mariadb-new.png" width=70%>
 
-- Click **Apply and Close** to complete the connection process.
+    - Click **Apply and Close** to complete the connection process.
 
 Next: See [Manage Test Data](https://docs.katalon.com/katalon-studio/docs/manage-test-data.html#create-a-database-data)

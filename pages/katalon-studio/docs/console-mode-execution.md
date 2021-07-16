@@ -183,17 +183,17 @@ Here's the list of options supported for the `katalonc` commands for Katalon Stu
       </tr>
       <tr>
         <td>-remoteWebDriverUrl=&lt;remote web server url&gt;</td>
-        <td>Specify the remote web driver URL</td>
+        <td>Specify the remote web driver URL.</td>
         <td>N</td>
       </tr>
       <tr>
          <td>-remoteWebDriverType=&lt;Selenium, Appium&gt;</td>
-         <td>Remote web's driver type</td>
+         <td>Remote web's driver type.</td>
          <td>Y <em>(If -remoteWebDriverUrl is used)</em></td>
       </tr>
       <tr>
          <td>-deviceId=&lt;device Id for Android/device UUID for ios&gt;</td>
-         <td>Specify the device's ID to execute test scripts using this device</td>
+         <td>Specify the device's ID to execute test scripts using this device.</td>
          <td>Y<em> (If -browserType=Android or -browserType=iOS is used)</em></td>
       </tr>
       <tr>
@@ -222,6 +222,23 @@ Here's the list of options supported for the `katalonc` commands for Katalon Stu
          </td>
          <td>N</td>
       </tr>
+      <tr>
+         <td>-testOpsBuildId</td>
+         <td>
+         <p>From version <strong>8.0.0</strong>, you can specify the build ID to update Test Suite/Test Suite Collection report.</p>
+         <p>Example:</p>
+         <p><code class="java plain"> -testOpsBuildId=24 </code></p>
+         </td>
+         <td>N</td>
+      </tr>
+      <tr>
+         <td>-testSuiteCollectionQuery</td>
+         <td>
+         <p>From version <strong>8.0.0</strong>, you can enable or disable Test Suite(s) in Test Suite Collection.</p>
+         <p>Example:</p>
+         <p><code class="java plain"> -testSuiteCollectionQuery=”indexes=(1,3)” </code></p>
+         </td>
+         <td>N</td>
        <tr>
          <td>-maxResponseSize</td>
          <td>
@@ -231,6 +248,17 @@ Here's the list of options supported for the `katalonc` commands for Katalon Stu
          </td>
          <td>N</td>
       </tr>
+      <tr>
+         <td>
+         <p>-licenseRelease</p>
+         <p>-orgID=&lt;organization's id&gt;</p>
+         <td>
+         <p>From version <strong>8.0.0</strong>, you can release the previous execution session before checking license.</p>
+         <p>Example:</p>
+         <p><code class="java plain"> -licenseRelease=true </code></p>
+         <p><code class="java plain"> -orgID=89151</code></p>
+         </td>
+         <td>N</td>
    </tbody>
 </table>
 
@@ -484,6 +512,26 @@ katalonc -noSplash -runMode=console -projectPath="C:\Users\Katalon Studio\Projec
          </td>
          <td>N</td>
       </tr>
+      <tr>
+         <td>-adoPlanId=&lt;testplan id&gt;</td>
+         <td>
+         <p>ID of the test plan used for submitting test run(s)(available from version <strong>8.0.0</strong>).</p>
+         </td>
+         <td>N</td>
+      <tr>
+         <td>-adoTestRunName="text"</td>
+         <td>
+         <p>From version <strong>8.0.0</strong>, you can create test run(s) on ADO with the specified name.</p>
+         </td>
+         <td>N</td>
+      </tr>
+      <tr>
+	<td>--info -adoDefinitionID=&lt;DefinitionID&gt;</td>
+	<td>
+	<p>From version <strong>8.0.0</strong>, you can get the latest completed Build ID of the specified Definition ID and pass it to Test Run properties on ADO.</p>
+	</td>
+	<td>N</td>
+      </tr>
    </tbody>
 </table>
 
@@ -511,50 +559,57 @@ katalonc -noSplash -runMode=console -projectPath="C:\Users\Katalon Studio\Projec
 We recommend using the Command Builder to generate commands quickly and precisely. Please do as follows:
 
 1. Click on **Build CMD** from the main toolbar.
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/Screenshot-at-Jun-20-15-42-46.png)
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/Screenshot-at-Jun-20-15-42-46.png" width=70%>
 
 2. The **Generate Command for Console Mode** is displayed. Configure your execution with the provided options:
 
-   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/command-builder-77.png)
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/command-builder-77.png" width=70%>
 
-   where:
+   **Where**:
 
   * **Test Suite**: The Test Suite or Test Suite Collection to be executed
-  * **Executive Platform**: 
+  * **Executive Platform**:
+   
+      * **Run with** and **Profile**: Testing environment and execution profile of the execution. 
+     
+         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/environment.png" width=70%>
 
-     * **Run with** and **Profile**: Testing environment and execution profile of the execution. <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/environment.png" width=402>
-
-     * **Override the execution profile and environment of all test suites**: Check if you want the specified `-BrowserType` and `-ExecutionProfile` in the command to override the browser type and execution profile of all test suites in the collection (available from version **7.6 onwards**)
+      * **Override the execution profile and environment of all test suites**: Check if you want the specified `-BrowserType` and `-ExecutionProfile` in the command to override the browser type and execution profile of all test suites in the collection (available from version **7.6 onwards**)
 
    * **Authentication**: 
    
      * **API Keys**: API Keys are used for representing a user's credentials. The command-line options of API Key, including -apiKey=<Your_API_Key> and -apikey=<Your_API_Key> are both accepted.[Learn more](https://docs.katalon.com/katalon-studio/docs/katalon-apikey-70.html).
      * From **version 7.7 onwards**, if you belong to more than one Organization subscribing to RE licenses, you can choose which one to validate your license usage. Katalon retrieves and displays the organizations binding to your Katalon account and having RE licenses. Once selected, the Organization ID is passed to the generated command (`-orgID=<Katalon_OrgID>`).
 
-   * **Execution Configurations** (Or **Other Options** in versions before 7.7):
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/other-options.png">
+   * **Execution Configurations** (Or **Other Options** in versions before 7.7).
+   
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/update-web-driver-automatically.png" width=70%>
 
    * **Katalon TestOps**: Override the Project ID in Katalon TestOps (available from **version 7.8** onwards).
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/override-prj-id.png">
+
+       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/override-prj-id.png" width=70%>
 
 3. Click **Generate Command** after completing the configuration.
 
 4. You can **Copy to Clipboard** and paste to the Command Prompt/Terminal for execution.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/command1.png">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/command1.png" width=70%>
 
 ## Use `console.properties` file
 
 We support running console mode using the **console.properties** file where you can manually modify the content if needed.
 
-1. Generate a **console.properties** file using our generator:
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/properties.png">
+1. Generate a **console.properties** file using our generator.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/properties.png" width=70%>
 
 2. The **console.properties** file is generated at your preferred location. You can open and update the parameters manually as needed.
-    For example:
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/image2017-2-20-103A303A2.png)
 
-3. Run the **console.properties** file in console mode with the following syntax:
+    For example:
+
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/image2017-2-20-103A303A2.png" width=70%>
+
+3. Run the **console.properties** file in console mode with the following syntax.
 
    ```groovy
    katalonc -propertiesFile="<absolute path to console.properties file>" -runMode=console -apiKey="<Your_API_Key>"
@@ -562,7 +617,7 @@ We support running console mode using the **console.properties** file where yo
 
    For example:
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/property-apikey.png"> 
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/property-apikey.png" width=80%> 
 
 4. You can add additional `katalonc` command options if needed. Any option already defined in the **console.properties** file is overwritten by the one declared in the command line.  
 

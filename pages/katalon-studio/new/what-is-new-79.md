@@ -2,16 +2,8 @@
 title: "What's new in v7.9?" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/new/what-is-new-79.html
-redirect_from:
-    - "/katalon-studio/new/what-is-new.html"
-    - "/katalon-studio/new/what-is-new/"
-    - "/katalon-studio/new/"
-    - "/display/KD/Release+Notes/"
-    - "/display/KD/Release%20Notes/"
 description: What's new in Katalon Studio 7.9?
 ---
-
-> Our latest release - v7.9.1 is available for upgrade. For a detailed list of changes, see [release notes](https://docs.katalon.com/katalon-studio/new/version-70.html).
 
 **Jan 19, 2021**
 
@@ -86,4 +78,5 @@ Useful link:
 
 * Support Chrome 87.
 * Support Microsoft Edge (Chromium) 87.
+* Support latest embedded GeckoDriver
 

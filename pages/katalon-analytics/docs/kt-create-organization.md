@@ -1,51 +1,107 @@
 ---
-title: "How to create Katalon TestOps Organization"
+title: "TestOps Organization Management"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/kt-create-org.html
 redirect_from:
-    - "/katalon-analytics/docs/manage-org.html"
+ - "/katalon-analytics/docs/manage-org.html"
 ---
 
-This tutorial shows you how to set up an Organization properly in Katalon TestOps. One team member can complete these steps to invite all the others to an Organization for working on projects.
+In Katalon TestOps, you can set up a new Organization, create a Project, and invite members to the Organization.
 
-> You need a Katalon account. Register [here](https://www.katalon.com/sign-up/) if you don't have one.
+> Requirements:
+>
+> You need a Katalon account. Register for [Katalon account](https://www.katalon.com/sign-up/) if you don't have one.
 
 ## Create an Organization
 
-Organizations are shared Katalon TestOps accounts where groups of users can collaborate across several projects at once. A user defaults to owning a personal organization and can belong to many organizations.
+By creating an Organization, team members can collaborate across several projects instantly.
 
-1. Sign in to Katalon TestOps.
+You can create as many Organizations as you need.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/1e86fafbb5ac1d4dc845598cc86ee24c9d99e86b/katalon-analytics/docs/setup-org-team-project/login_kat_testops.png" width="" height="">
+You can also join any other Organization you are invited to.
 
-2. On the home page, click **Create Organization** on the left sidebar, type the name of organization and click **Create**.
+To create a new Organization, follow these steps:
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_create_org.png" width="" height="">
+1. Sign in [Katalon TestOps](https://testops.katalon.io/login).
 
-You have just created an Organization in which you are the Owner.
+2. Click on the **TestOps** icon at the top left corner of the homepage and choose **Create Organization**.
 
-3. Type in **Project name** and click **Create**.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-create-org/kt-june-create-org-1.png" width="" height="">
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_set_first_project.png)
+3. Type a name for the Organization, then click **Create**.
 
-You have just created a new project.
+You are now the Owner of a new Organization.
 
-4. Look for **Share projects to your members**, in the bottom cell, type the emails of members that you want to share.
+### Set up your first Project
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_share_proj_member.png)
+Each time you create a new Organization, Katalon TestOps automatically prompts you to set up a Project, invite other members and upload Test Results.
 
-Click the button **Invite** and **Next**.
+1. **Set up the first project** page.
 
-5. The board **Upload the first test result** is on. 
+    Type your Project name and click **Create**.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_upload_first_test_result.png)
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-create-org/kt-june-create-org-2.png" width=100%>
 
-Click the button **Upload sample project** to finish.
+   > Notes:
+   >
+   > By default, Katalon TestOps automatically stores your Project in the **First Team**. To create a Team, follow these instructions: [Create a Team](https://docs.katalon.com/katalon-analytics/docs/setup-team.html#create-a-team). 
+   
+2. **Share projects to your members** page.
 
-6. Click the button **Settings** on the right side corner, chose **Organization Management**. 
+    Type email addresses of your team members and click **Invite**.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_set_org_management.png)
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-create-org/kt-june-create-org-9.png" width=100%>
 
-In the **Organizaton profile** view, give a name to your Organization. Here is you can also view your Organization ID.
+3. **Upload the first test results** page.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/1fcada24da81018e85826582cba92930f1042fdc/katalon-analytics/docs/setup-org-team-project/kt_org_profile.png" width="" height=""> 
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-create-org/kt-june-create-org-5.png" width="" height=""> 
+
+    Click **Upload sample project**, then click **Finish**.
+
+### Create new Projects
+
+You can also create a new Project in **TestOps Setting**.
+
+Admin permissions allow you to create multiple Projects for one Team.
+
+Follow these steps:
+
+1. Click on the **Settings** icon at the top right corner of the homepage and choose **Project Management**.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-create-org/kt-june-create-org-project-2.png" width="" height="">
+
+2. Click on the **Create Project** button on the top right corner. Select the Team in the **Choose Team** box, then click **Next**.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-create-org/kt-june-create-org-project.png" width="" height="">
+
+    The **Manage Projects** page then appears.
+
+3. Enter your Project name and click **Create**.
+
+## Manage an Organization
+
+To manage your Organization, click on the **Settings** icon and choose **Organization Management**.
+
+The **Organization profile** page appears as below.
+
+ <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-create-org/kt-june-create-org-rename-org.png" width="" height=""> 
+
+You can find your Organization ID, update Organization name or delete your Organization here.
+ 
+### Rename an Organization
+
+After the **Organization profile** page appears, you can enter a new name for your Organization in the **Name** section, then click **Update** to save your changes.
+
+> Notes:
+>
+> This function is only accessible to the Owner and Admin of an Organization.
+
+### Delete an Organization
+
+After the **Organization profile** screen appears, click on the **I understand the consequences, delete this organization** button.
+
+A popup displays for confirmation. Enter the Organization name to validate. Click **I understand the consequences, delete this organization**.
+
+> Notice:
+>
+> You cannot undo this action. This action will permanently delete your Organization, Projects, licenses and remove all associated teams.

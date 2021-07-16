@@ -5,50 +5,44 @@ permalink: katalon-analytics/docs/create-plan.html
 description: 
 ---
 
-## Prerequisites
-
-- Should know [Script Repositories](https://docs.katalon.com/katalon-analytics/docs/code-repo.html), [Agent Setup](https://docs.katalon.com/katalon-analytics/docs/agents.html), and [Test Environment](https://docs.katalon.com/katalon-analytics/docs/test-run-config.html).
-
-- Download and set up [Agent Setup](https://docs.katalon.com/katalon-analytics/docs/agents.html).
-
-## View Test Runs
-
-A list of Test Runs can be found in **Test Planning** section, in which you can see each Test Run in a calendar view.
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/create-plan/kt2_test_planning_test_run.png)
-
-Click on each Test Run in the calendar to view its summary.
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/create-plan/kt2_click_test_run_planning.png)
-
-The summary of Test Suite, which we have clicked display.
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/create-plan/kt2_test_run_summary.png)
+> Requirements:
+>
+> * You have created a [Local Test Environment with Agent](https://docs.katalon.com/katalon-analytics/docs/agents.html), or you have already created a different Test Environment (Docker, Kubernetes, etc.).
+>
+> * You have created a [Script Repository](https://docs.katalon.com/katalon-analytics/docs/code-repo.html).
 
 ## Schedule Test Runs
 
-You can schedule Test Runs by clicking on **Schedule Test Run** button.
+Follow these steps:
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/create-plan/kt2_click_schedule_test_run.png)
+1. Go to your Project and select the **Test Planning** tab.
 
-The **Schedule Test Run** displays and follow the instruction in the setup wizard and click **Create** to finish creating a new schedule for your Test Runs.
+    The **Test Runs** page appears as below.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/create-plan/kt2_type_test_run_1.png)
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/schedule-test-run-button.png" width=100%>
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/create-plan/kt2_type_test_run_2.png)
+    > Notes:
+    >
+    > If you have not scheduled any Test Run yet, the calendar view on the **Test Runs** page is empty.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/create-plan/kt2_type_test_run_3.png)
+2. Click on the **Schedule Test Run** button.
 
-We can find scheduled Test Runs in **Test Run Types** of **Test Planning** after creating schedules. **Test Run Type** is a collection of Test Runs having the same Configurations. This section allows viewing the list of Test Run with similar Configurations (Test Environment, Trigger, Script Repository).
+    The **Schedule Test Run** page appears as below.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/create-plan/kt2_test_run_types.png)
+     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/schedule-test-run-page-fill-in-1.png" width=100%>
 
-## Next steps
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/schedule-test-run-page-fill-in-2.png" width=100%>
 
-- [Execute Test Runs by a Trigger](/katalon-analytics/docs/kt-scheduler.html)
-- [Execute Test Run manually](/katalon-analytics/docs/execute-test-run.htm)
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/schedule-test-run-page-fill-in-3.png" width=100%>
 
-## Related topics
+    Fill in all the required information and click **Create**.
+    
+You have created a new schedule for your Test Runs.
 
-- [Set up Configurations for Remote Execution](/katalon-analytics/docs/test-run-config.html)
-- [Katalon TestOps Terminology](https://docs.katalon.com/katalon-analytics/docs/testops-terminology.html)
+After creating the schedule, Katalon TestOps automatically directs you to the **Test Run Types** page.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/test-run-type-page.png" width=100%>
+
+The **Test Run Types** page shows you a collection of Test Runs with the same configurations (Test Environment, Trigger, Script Repository).
+
+Next step: [Execute Test Runs](https://docs.katalon.com/katalon-analytics/docs/kt-scheduler.html).

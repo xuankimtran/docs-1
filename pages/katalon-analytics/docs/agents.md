@@ -1,73 +1,128 @@
 ---
-title: "Create a Local Test Environment with Agent" 
+title: "Create a Local Test Environment with an Agent" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/agents.html 
+redirect_from: /katalon-analytics/docs/install_kt_agent.html
 description: 
 ---
-Agents manage local servers for executing the scheduled Test Runs the in local Test Environment. Katalon supports Agents that are compatible with different execution environments.
 
-> We share the Agents among members and projects within a team.
+An Agent manages a local server for executing the scheduled Test Runs in a Local Test Environment.
+
+Katalon TestOps supports compatible Agents for different executing environments.
+
+Once you install the Agent in your local test machine, you have created a Local Test Environment for Test Runs execution.
+
+> Notes:
+>
+> You can share the Agents among Users and Projects within a Team.
 
 ## Set up an Agent
 
-In **Configurations**, go to **Agent setup** > Select **Local Environment** > Follow instructions in the setup wizard.
+> Requirements:
+>
+> You have a Katalon account.
 
-Setup Agents step by step, see [here](https://docs.katalon.com/katalon-analytics/docs/install_kt_agent.html).
+### Download an Agent from Katalon TestOps
 
-## Start an Agent
+To install an Agent, follow these steps:
 
-Copy the command that was automatically generated in **Agent Setup** page and paste to your CLI.
+1. Sign in to [Katalon TestOps](https://testops.katalon.io/login).
 
-It may take a while for the agent to start.
+2. Go to your Project > **Configurations** > **Agent Setup** > **Local Environment**.
 
-Start Agents step by step, see [here](https://docs.katalon.com/katalon-analytics/docs/install_kt_agent.html).
+    The **Agent Setup** page appears as below.
 
-## View Agent status
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-agent-setup/agen-setup-page-to.png" width=100% alt="testops agent setup page">
 
-You can check the Agent status by going to **Test Environments** in **Configurations**.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-agent-setup/agent-setup-code-page-blurred.png" width=100% alt="testops agent setup code page">
 
-![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-analytics/docs/agents/agent-local.png)
+> Notes:
+>
+> You use the commands in the **Generate configuration** and **Start an agent** sections when setting up an Agent in your local machine.
 
-> You can delete an Agent anytime by clicking on the recycle bin icon.
+3. Choose your Operating System (Windows, MacOS, etc.) in **Select OS**, then click **Download Agent**.
 
-> ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/agents/kt_delete_agent.png)
+    You have downloaded the Agent file (.zip file) to your computer.
 
-> The window Delete Agent displays and click the button Delete.
+4. Create a name for the Agent in the **Agent Name** section (e.g., **My Agent**).
 
-> ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/agents/kt_delete_agent_window.png)
+5. Leave the **Agent Setup** page open while following the instructions to set up the Agent in your local machine.
 
-> **Please note that this action cannot be undone.**
+### Set up an Agent in a local machine
 
-## Authentication with Katalon TestOps
+**For Windows**
 
-Agents will use `serverurl` and `apikey` in **agentconfig** for:
-* Activating Katalon Runtime Engine used for test execution.
-* Sending test results to Katalon TestOps.
+Follow these steps:
 
-We can see the `serverurl` and `apikey` in Generate configuration of Agent Setup. 
+1. Unzip the Agent file you have downloaded.
 
- ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/agents/kt_agentconfig_server_url.png)
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/kt_install_agent/kt_unzip_agent_setup.png" width=100% alt="windows unzip agent file">
+    
+2. Open a new CMD window.
 
- ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/agents/kt_agentconfig_apikey.png)
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/kt_install_agent/kt_agent_cmd.png" width=100% alt="windows cmd">
 
-Using the `serverurl` and `apikey` was shown [here](katalon-analytics/docs/install_kt_agent.html ).
+3. Copy the command in the **Generate configuration** section on the **Agent Setup** page, and paste it into the CMD window, then click *Enter* on the keyboard to run.
 
-## Configure Proxy for Agent
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/kt_install_agent/kt_paste_gen_config_cmd.png" width=100% alt="windows cmd generate config command">
 
-You can set up proxy for Agent in the `agentconfig` file with the `proxy` option.
+4. Copy the command in the **Start an agent** section, and paste it into the CMD window, then click *Enter* to run.
 
-For example, `proxy=http://localhost:8080`.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/kt_install_agent/kt_paste_start_agent.png" width=100% alt="windows cmd start an agent command">
 
-## Next Steps
+    Wait for a minute.
 
-- [Set up a Script Repository](/katalon-analytics/docs/code-repo)
-- [Schedule Test Runs](/katalon-analytics/docs/kt-scheduler)
+5. Go to the **Agent Setup** page and click on **Test Environments** (in the **Schedule a test run** section) to see the added Local Test Environment.
 
-## Related topics
+**For MacOS**
 
-- [Create a Docker environment](https://docs.katalon.com/katalon-analytics/docs/docker.html)
-- [Create a CircleCI Environment](https://docs.katalon.com/katalon-analytics/docs/circleci.html)
-- [Create a Kubernetes Environment](https://docs.katalon.com/katalon-analytics/docs/aws-eks.html)
-- [Load balancing for Local Test Environment](https://docs.katalon.com/katalon-analytics/docs/load-balancing-agents.html)
-- [Katalon TestOps Terminology](/katalon-analytics/docs/testops-terminology.html)
+1. Double click on the Agent file and select **New Terminal at Folder**.
 
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-agent-setup/open-katalon-agent-for-macos.png" width=100% alt="macos setup agent">
+
+2. Copy the command in the **Generate configuration** section on the **Agent Setup** page, and paste it into the Terminal, then click *Enter* on the keyboard to run.
+
+> Notes:
+>
+> Make sure you have enabled Terminal for Developer Tools in your MacOS's **Security & Privacy** settings (as shown below).
+> <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-agent-setup/enable-terminal-for-developer-tool-macos.png" width=100% alt="macos security & privacy settings">
+
+3. Copy the command in the **Start an agent** section, and paste it into the Terminal, then click *Enter* to run. Wait for a minute.
+
+4. Go to the **Agent Setup** page and click on **Test Environments** (in the **Schedule a test run** section).
+
+You have created a Local Test Environment with an Agent (e.g., **My Agent**).
+
+### Manage the Agent status
+
+Go to **Configurations** > **Test Environments** to check the Agent status.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-agent-setup/test-environment-created-on-testops.png" width=100% alt="macos test environment added after agent setup">
+
+You can delete an Agent by clicking on the *Trash bin* icon.
+
+The **Delete Agent** box pops up.
+
+Click **Delete** to confirm your action.
+
+> Notice:
+>
+> You cannot undo this action.
+
+## Agent Authentication
+
+Agents use `serverurl` and `apikey` in *agentconfig* to:
+* activate Katalon Runtime Engine.
+* send test results to Katalon TestOps.
+
+You can see the `serverurl` and `apikey` in the **Generate configuration** section on the **Agent Setup** page.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-agent-setup/agent-setup-code-page-blurred-red.png" width=100% alt="serveurl and apikey">
+
+## Configure Proxy for Agents
+
+You can set up Proxy for the Agent in the *agentconfig* file, using the `proxy` option. For example, `proxy=http://localhost:8080`.
+
+Next steps:
+* [Upload Test Scripts to a Script Repository](https://docs.katalon.com/katalon-analytics/docs/code-repo.html).
+* [Schedule Test Runs](https://docs.katalon.com/katalon-analytics/docs/create-plan.html).

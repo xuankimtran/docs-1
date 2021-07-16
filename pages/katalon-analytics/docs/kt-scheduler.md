@@ -1,63 +1,89 @@
 ---
-title: "Execute Test Runs by a Trigger"
+title: "Execute Test Runs"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/kt-scheduler.html 
+redirect_from: /katalon-analytics/docs/execute-test-run.html 
 description: 
 ---
 
-Trigger is used to determine when a Test Run is executed. This helps you leverage remote execute to take fully control of your testing plan.
+In Katalon TestOps, you can manually execute Test Runs, or schedule them automatically.
 
-## Prerequisites
+> Requirements:
+>
+> You have already created a Test Runs schedule. See: [Schedule Test Runs](https://docs.katalon.com/katalon-analytics/docs/create-plan.html).
 
-- You have scheduled your Test Runs. [Learn more](https://docs.katalon.com/katalon-analytics/docs/create-plan.html)
+## Execute Test Runs with a Trigger
 
-On Katalon TestOps, choose **Reports & Analytics** > **Test Run**. Then we choose an ID of a Test Run which you want to create a Trigger.
+Using a Trigger allows you to execute a Test Run automatically. By doing so, you can leverage Remote Execution to take complete control of your testing plan.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-scheduler/kt_report_analytic_test_run.png)
+### Create a Trigger
 
-Click the Configuration button on the top right corner.
+Follow these steps:
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-scheduler/kt_test_run_summary.png)
+1. Sign in to [Katalon TestOps](https://testops.katalon.io/login) and go to your Project.
 
-## Create a Trigger
+2. Go to **Test Planning** > **Test Run Types**.
 
-For creating a Trigger of Test Run, click Create Trigger button on the top right corner. And note that the Agent of Test Run displays below.
+3. Click on the Test Run you want to create a Trigger for.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-scheduler/kt_test_plan_create_trigger.png)
+    The Test Run page appears as below.
 
-Type information of a Trigger which we want to create. In the **Create Trigger** view, enter the required details:
-   * **Name**: give a name that has a meaning.
-   * **From-To**: the period in which the scheduled jobs start.
-   * **Interval** and **Interval Unit**: a schedule of executing test.
-     For example: With Interval=3, and Interval Unit=Day, we execute the test every three days.
-   * **Active**: You can change the status of the Trigger with this switch.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-execute-test-runs-by-trigger/config-of-test-trigger.png" width=100%>
 
-Before creating a Trigger, we have to run the Agent of Test Run. For running the Agent, we can [see here](https://docs.katalon.com/katalon-analytics/docs/install_kt_agent.html). Then click Create button.
+    > Notes:
+    >
+    > If you have already set up an Agent, the Agent of Test Runs displays on the page (e.g., **My Agent**).
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-scheduler/kt_create_trigger.png)
+5. Click on the **Create Trigger** button.
 
-We created a Trigger successfully, and Test Run will start executing at our preferred time.
+    The **Create Trigger** page appears as below.
+   
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-execute-test-runs-by-trigger/create-trigger-page.png" width=100%> 
+ 
+6. Fill in the required information.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-scheduler/kt_trigger_run.png)
+   * In the **Name** section, create a name for the Trigger.
+   * In the **From** and **To** sections, set the time and date during which a Test Run is executed.
+   * In the **Interval** and **Interval Unit** sections, create the frequency for that Test Run.
 
-After we finish executing Test Run, the diagram of Test Run is displayed.
+     For example: If the **Interval Unit** is **Day** and the **Interval** is **3**, a Test Run is executed every three days.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-scheduler/kt_trigger_end.png)
+   * The **Active** switch allows you to turn the Trigger on or off.
 
-You can view a list of your Triggers in the **Configuration** tab in the **Test Run Types** section.
+7. Click **Create**.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-scheduler/kt_config_test_run_type.png)
+You have created a Trigger to execute a Test Run. The execution starts automatically at the time you have configured.
 
-## View Test Run status
+You can see all Triggers you have created on the **Test Run Types** page.
 
-Your Test Runs will execute automatically based on your configurations. 
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-execute-test-runs-by-trigger/list-of-triggers-for-test-run-in-test-run-types-page.png" width=100%> 
 
-Test Run status can be found in the calendar view in **Test Planning**. [Learn more](katalon-analytics/docs/create-plan.html#view-test-runs)
+By creating Triggers, **Next Run** is scheduled for automatic execution.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-scheduler/kt_trigger_test_plan.png)
+> Notes:
+>
+> The Agent must always be running for Test Runs execution.
 
-## Related topics
+## Execute Test Runs manually
 
-- [Set up Configurations for Remote Execution](/katalon-analytics/docs/test-run-config.html)
-- [Execute a Test Run manually](/katalon-analytics/docs/execute-test-run.html)
-- [Katalon TestOps Terminology](/https://docs.katalon.com/katalon-analytics/docs/testops-terminology.html#trigger)
+You can also execute Test Runs manually by following these steps:
+
+1. Go to your Project > **Test Planning** > **Test Run Types**.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-execute-test-runs-by-trigger/test-run-manual-mode-button.png" width=100%> 
+
+2. Click on the *Run* icon for manual execution.
+
+## View the status of Test Runs
+
+After executing Test Runs, go to **Test Planning** to check their status in a calendar view.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/test-runs-page-after-scheduling-test-run.png" width=100%>
+
+Click on a Test Run on the calendar to see its summary.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/detail-of-test-run-after-clicking-it-on-calendar.png" width=100%>
+
+If the Tests belongs to a Test Suite, you can also see a summary of the Test Suite here.
+
+Next step: [Manage Test Runs by Release](https://docs.katalon.com/katalon-analytics/docs/kt-release.html).

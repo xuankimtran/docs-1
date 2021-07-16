@@ -4,6 +4,9 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/ip-settings.html 
 description: 
 ---
+
+> This feature is only available for Katalon TestOps Enterprise. To request a free trial, please visit [Trial Plans](https://docs.katalon.com/katalon-analytics/docs/trial-plans.html).
+
 > Only Organization Owners and Admins can access these settings.
  
 To protect organization’s data from unauthorized access, an Owner or Admin can whitelist which IP addresses/ranges that users in your organization can use to access the system. 
