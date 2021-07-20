@@ -81,7 +81,7 @@ By using **Retry** feature, you can configure when and how many times Katalon re
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/retry-fail-immediately-usage-example.png" width=80%>
 
-   In the **Result** tab, collapsing the Test Case 1 result, you can see its status is Failed with 1 is the main run and 3 rerun times are numbered 2,3,4 which meet the configred rerun times. At this point, Katalon logs the result of the first Test Case as Failed and continue execute the rest Test Cases until the Test Suite finishes executing.
+   In the **Result** tab, collapsing the Test Case 1 result, you can see its status is Failed with 1 is the main run and 3 rerun times are numbered 2,3,4 which meet the configured rerun times. At this point, Katalon logs the final result of the first Test Case as Failed and continue execute the rest Test Cases until the Test Suite finishes executing.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/retry-fail-immediately-usage-example-result.png" width=80%>
 
