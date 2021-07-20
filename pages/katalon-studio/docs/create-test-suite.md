@@ -56,7 +56,7 @@ In **Implicit timeout**, you can decide the timeout period that Katalon waits fo
 
 ### Retry
 
-By using **Retry** feature, you can configure when and how many times Katalon retries an execution of a Test Suite until the Test Suite passes successfully.
+By using **Retry** feature, you can configure when and how many times Katalon retries an execution of a Test Suite until the Test Suite finishes executing.
 
 **Capture new UI**
 
