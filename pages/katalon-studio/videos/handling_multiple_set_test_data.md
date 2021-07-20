@@ -1,7 +1,7 @@
 ---
 title: "Handling Multiple Sets of Test Data in Katalon Studio"
 sidebar: katalon_studio_videos_sidebar
-permalink: /katalon-studio/videos/handling_multiple_set_test_data_katalon_studio.html
+permalink: katalon-studio/videos/handling_multiple_set_test_data_katalon_studio.html
 description: 
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/x5do1at6-0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
