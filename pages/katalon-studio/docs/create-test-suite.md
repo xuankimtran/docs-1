@@ -87,7 +87,7 @@ By using **Retry** feature, you can configure when and how many times Katalon re
 
    The **Summary tab** shows how many Test Cases was executed and their final status. In this use case, we have 5 total Test Cases and they all get Failed status.
 
-   Along with the Execution log, Katalon Studio automatically consolidates report in JUnit, HTML, PDF and CSV format with one final test result for a test case. Also, browser-based or window-based video is recorded accordingly for both run and rerun of a Test Case.
+   Along with the Execution log, Katalon Studio automatically consolidates report in JUnit, HTML, PDF and CSV format with one final test result for a Test Case. Also, browser-based or window-based video is recorded accordingly for both run and rerun of a Test Case.
 
 * In **After finishing test suite, retry**:
 
