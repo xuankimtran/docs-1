@@ -1,7 +1,7 @@
 ---
 title: "Handling Complex Grid in Katalon Studio"
 sidebar: katalon_studio_videos_sidebar
-permalink: /katalon-studio/videos/handling_complex_grid_katalon_studio.html
+permalink: katalon-studio/videos/handling_complex_grid_katalon_studio.html
 description: 
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KOzSF2OKeSo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
