@@ -6,9 +6,7 @@ redirect_from: /katalon-analytics/docs/kt-jira-issue.html
 description: 
 ---
 
-If a Test Run fails, Katalon TestOps marks it as a Defect.
-
-You are then given the option to link the Defects of a Test Run to Jira issues, such as Jira bugs. You can then view the Test Runs and Defects in Jira.
+If a Test Run fails, you can link its Test Result to Jira issues, such as Jira Bugs. You can then view the Test Result of that Test Run in Jira to investigate the Defects.
 
 > Requirements:
 >
@@ -16,25 +14,25 @@ You are then given the option to link the Defects of a Test Run to Jira issues, 
 >
 > * You have configured Jira integration. See: [Jira Settings](https://docs.katalon.com/katalon-analytics/docs/kt-jira-config.html).
 
-## Link Test Runs to Jira
+## Link Test Results to Jira
 
-To link a Test Run to a Jira Bug, follow these steps:
+To link a Test Result to a Jira Bug, follow these steps:
 
 1. Sign in to [Katalon TestOps](https://testops.katalon.io/login) and go to your Project.
 
 2. Go to **Reports & Analytics** > **Test Runs**.
 
-3. Select a Test Run by clicking on its ID, then click on the **Test Results** tab.
+3. Select a failed Test Run by clicking on its ID, then click on the **Test Results** tab.
 
     The **Test Results** page appears as below.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-defects/test-results-page-1467-defects-box.png"  width=100% alt="test results page with defects box">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-defects/test-result-page-defect-icon.png"  width=100% alt="test results page with defects box">
 
     The *Defects* icon looks like a bug.
 
-3. Mouse over the Test Run you want to link to Jira. The *Defects* icon of that Test Run appears.
+3. Select the Test Result you want to link to a Jira Bug. The *Defects* icon of that Test Result appears.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-defects/test-result-defect-bug-icon-appears.png"  width=100% alt="defect icon in red box">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-defects/mouse-over-test-result-for-defect-icon.png"  width=100% alt="defect icon in red box">
 
 4. Click on the *Defects* icon.
 
@@ -42,15 +40,15 @@ To link a Test Run to a Jira Bug, follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-defects/jira-defect-screen-appears.png"  width=100% alt="defect screen">
 
-5. Enter the Jira issue in the **Jira Defects** section, and click on the *Link* icon.
+5. Search for the Jira issue in the **Jira Defects** section, and click on the *Link* icon.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-defects/jira-defect-screen-highligh-link-button.png"  width=100% alt="enter jira issue with link icon highlight">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-defects/enter-jira-defect-link-button-bug.png"  width=100% alt="enter jira issue with link icon highlight">
 
-You have linked a Test Run to a Jira Bug.
+You have linked a Test Result to a Jira Bug.
 
 ### Quick Tips
 
-You can also install the Katalon Integration Plugin in your Chrome browser. This allows you to navigate directly to Jira to create a new Jira issue for the Test Run and its Defects.
+You can also install the Katalon Integration Plugin in your Chrome browser. This Plugin allows you to navigate directly to Jira to create a new Jira issue. It then automatically links the Jira issue back to the Test Result you have selected.
 
 Follow these steps:
 
@@ -72,6 +70,8 @@ Follow these steps:
 
 4. Click on the **Create** icon to switch directly to Jira, then create a new Jira issue.
 
+    The new Jira issue is automatically linked to the Test Result you have selected.
+     
 > Notes:
 >
 > Once you have enabled Katalon Plugin, you can always see the *Plugin* icon in the corner of a Jira issue.
@@ -81,9 +81,9 @@ Follow these steps:
 
 ## View linked Test Runs in Jira
 
-1. Go to the Jira issue you have linked the Test Runs to.
+1. Go to the Jira issue you have linked the Test Results to.
 
-2. Click on the **Linked Test Runs** section to see the details of linked Test Runs.
+2. Click on the **Linked Test Runs** section to see all Test Results of the linked Test Runs.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-defects/jira-link-test-run-section-plugin.png"  width=100% alt="jira linked test runs section">
 
