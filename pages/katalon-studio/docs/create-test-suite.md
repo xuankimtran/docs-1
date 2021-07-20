@@ -81,28 +81,18 @@ By using **Retry** feature, you can configure when and how many times Katalon re
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/retry-fail-immediately-usage-example.png" width=80%>
 
-   In the **Result** tab, collapsing the Test Case 1 result, you can see its status is Failed with 1 is the main run and 3 rerun times are numbered 2,3,4 which meet the configred rerun times. At this point, Katalon logs the result of the first Test Case as Failed and continue execute the rest Test Cases.
+   In the **Result** tab, collapsing the Test Case 1 result, you can see its status is Failed with 1 is the main run and 3 rerun times are numbered 2,3,4 which meet the configred rerun times. At this point, Katalon logs the result of the first Test Case as Failed and continue execute the rest Test Cases until the Test Suite finishes executing.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/retry-immediately-usage-example-result.png" width=100%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/retry-fail-immediately-usage-example-result.png" width=80%>
 
+   The **Summary tab** shows how many Test Cases was executed and their final status. In this use case, we have 5 total Test Cases and they all get Failed status.
+
+   Along with the Execution log, Katalon Studio automatically consolidates report in JUnit, HTML, PDF and CSV format with one final test result for a test case. Also, browser-based or window-based video is recorded accordingly for both run and rerun of a Test Case.
 
 * In **After finishing test suite, retry**:
 
    * **All executions**: Retry all executions when the Test Suite fails.
    * **Failed executions only**: Retry only failed executions when the Test Suite fails.
-
-**Consolidating Reports**
-
-In the **Execution log**, Katalon Studio displays only 01 final test result for a test case. Rerun executions of the same test case will be grouped, with their logs and reports for troubleshooting.
-
-<img src=">
-
-Similar to the generated report in JUnit, HTML, PDF, and CSV, Katalon Studio only displays 01 final test result for a test case. 
-
-<img src=">
-
-Video
-For both run and rerun of a Test Case, browser-based or window-based video is recorded accordingly. (see example)
 
 ### Mail Recipients
 
