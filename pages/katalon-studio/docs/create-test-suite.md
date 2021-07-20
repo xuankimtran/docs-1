@@ -56,21 +56,24 @@ In **Implicit timeout**, you can decide the timeout period that Katalon waits fo
 
 ### Retry
 
-**Requirements**
-
-- Katalon Studio version 8.1.0+
-- An active Katalon Studio Enterprise license
-
-From version 8.1.0 onwards, this feature has changed the way it works. Instead of configuring when and how many times Katalon retries an execution of a Test Suite until the Test Suite passes successfully as from version 8.1.0 backwards, you will define how many times to rerun a failed test case of a Test Suite immediately until it meets the configured rerun times. Additionaly, Katalon Studio will not stop the Test Suite execution regardless of the result of that test case.
+By using **Retry** feature, you can configure when and how many times Katalon retries an execution of a Test Suite until the Test Suite passes successfully.
 
 **Capture new UI**
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/retry.png" width=80%>
 
-
 **Where**
 
-- **Retry failed executions immediately**: Retry a failed test cases or test data immediately.
+- **Retry failed executions immediately**
+
+   **Requirements**
+
+   - Katalon Studio version 8.1.0+
+   - An active Katalon Studio Enterprise license
+
+   Prior to version 8.1.0, when a Test Case in a Test Suite fails, the Test Suite reruns immediately starting from the failed Test Case. If the Test Suite reruns for configred rerun times and the Test Case still fails, Katalon Studio stops executing the Test Suite right away.
+
+   From version 8.1.0 onwards, this function has changed the way it works. You will define how many times to rerun a failed test case of a Test Suite immediately until it meets the configured rerun times. And Katalon Studio will not stop the Test Suite execution regardless of the result of that test case.
 
 * In **After finishing test suite, retry**:
 
