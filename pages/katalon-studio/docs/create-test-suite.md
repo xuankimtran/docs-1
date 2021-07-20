@@ -71,9 +71,20 @@ By using **Retry** feature, you can configure when and how many times Katalon re
    - Katalon Studio version 8.1.0+
    - An active Katalon Studio Enterprise license
 
-   Prior to version 8.1.0, when a Test Case in a Test Suite fails, the Test Suite reruns immediately starting from the failed Test Case. If the Test Suite reruns for configred rerun times and the Test Case still fails, Katalon Studio stops executing the Test Suite right away.
+   Prior to version 8.1.0, when a Test Case in a Test Suite fails, the Test Suite reruns immediately starting from the failed Test Case. If the Test Suite reruns for configred rerun times and if the Test Case still fails, Katalon Studio stops executing the Test Suite right away.
 
    From version 8.1.0 onwards, this function has changed the way it works. You will define how many times to rerun a failed test case of a Test Suite immediately until it meets the configured rerun times. And Katalon Studio will not stop the Test Suite execution regardless of the result of that test case.
+
+   **Usage example**
+   
+   As you can see in the following screenshot, we have a Test Suite with 5 Test Cases and Retry Failed Execution Immediately is set for 3 times > execute the Test Suite > Katalon Studio runs all the Test Cases in that Test Suite sequentially.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/retry-fail-immediately-usage-example.png" width=80%>
+
+   In the **Result** tab, collapsing the Test Case 1 result, you can see its status is Failed with 1 is the main run and 3 rerun times are numbered 2,3,4 which meet the configred rerun times. At this point, Katalon logs the result of the first Test Case as Failed and continue execute the rest Test Cases.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/retry-immediately-usage-example-result.png" width=100%>
+
 
 * In **After finishing test suite, retry**:
 
@@ -92,12 +103,6 @@ Similar to the generated report in JUnit, HTML, PDF, and CSV, Katalon Studio onl
 
 Video
 For both run and rerun of a Test Case, browser-based or window-based video is recorded accordingly. (see example)
-
-For example:
-
-We have a Test Suite with 5 Test Cases, we select Retry Failed Execution Immediately for 3 times and run the Test Suite.
-
-
 
 ### Mail Recipients
 
