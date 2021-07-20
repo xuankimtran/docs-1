@@ -34,6 +34,8 @@ Follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-bdd-test-results/enable-bdd-reports-box-in-project-settings-page.png"  width=100% alt="enable bdd report box in testops">
 
+4. Click **Save**.
+
 ### View BDD Test Results
 
 Once you have configured BDD Settings, Katalon TestOps recognizes and processes BDD-based Test Results.
@@ -48,7 +50,7 @@ To view BDD Test Results, follow these steps:
 
 2. Scroll down to the **Requirements** section.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-bdd-test-results/requirement-page-scrolldown.png"  width=100% alt="bdd requirements page scrolldown">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-bdd-test-results/requirement-page-list-all-features.png"  width=100% alt="bdd requirements page scrolldown">
 
     You can see the Features of your BDD Tests displayed in the **Name** column (the green icon next to each Name is a *Feature* icon).
 
@@ -64,4 +66,4 @@ To view BDD Test Results, follow these steps:
 
 In the **Reports** section on the **Requirements** page, select **Traceability Matrix** to view BDD Test Results and manage the relationships across BDD Features (displayed in the **Requirements** column), BDD Scenarios (displayed in the**Test Cases** column), and Defects.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-bdd-test-results/traceability-matrix-bdd-page.png"  width=100% alt="traceability matrix page">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-bdd-test-results/traceability-matrix-page-correct-spelling.png"  width=100% alt="traceability matrix page">
