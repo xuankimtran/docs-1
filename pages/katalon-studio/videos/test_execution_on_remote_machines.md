@@ -1,7 +1,7 @@
 ---
 title: "Test Execution on Remote Machines in Katalon Studio"
 sidebar: katalon_studio_videos_sidebar
-permalink:  /katalon-studio/videos/test_execution_on_remote_machines.html
+permalink: katalon-studio/videos/test_execution_on_remote_machines.html
 description: 
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HXWR4UAwx0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
