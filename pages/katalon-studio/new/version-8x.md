@@ -47,7 +47,7 @@ description: Release notes 8.x
 * Bug: [Keyword] `waitForImagePresent` returned False despite the image was on the page.
 * Bug: [Keyword] `verifyElementPropertyValue` threw an error message.
 * Bug: [Performance] Saving a Test Case with many variables took a long time.
-* Bug: An error message thrown when continuing recording the scripts in an existing test case.
+* Bug: An error message thrown when continuing recording the scripts with an existing test case.
 * Bug: Browser-based recorder could not record videos for the second test case if reusing opened browser.
 * Bug: Project Settings Explorer was not working.
 * Bug: Updated warning message when the broken Test Object could not be moved.
