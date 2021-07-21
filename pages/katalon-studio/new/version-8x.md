@@ -36,6 +36,7 @@ description: Release notes 8.x
     * [macOS Big Sur] Hidden text of selecting items on table and tree.
     * [macOS Big Sur] Could not updating Log Viewer when the execution items were changed on Job Progress.
     * Fixed Labels in Library Management and added referral link.
+    * Fixed typo error in Mobile Object Spy.
 * Bug: [Slack Integration] Failed to connect to Slack.
 * Bug: [Katalon Studio Enterprise] Could not select Run from here and Debug from here.
 * Bug: Updated warning message when the broken Test Object could not be moved.
@@ -49,7 +50,6 @@ description: Release notes 8.x
 * Bug: Error message thrown when continuing recording the scripts in an existing test case.
 * Bug: [Performance] Saving a Test Case with many variables took a long time.
 * Bug: Browser-based recorder could not record videos for 2nd test case if reusing opened browser.
-* Bug: Fixed typo error in Mobile Object Spy.
 * Bug: Project Settings Explorer was not working.
 
 ## Version 8.0.5
