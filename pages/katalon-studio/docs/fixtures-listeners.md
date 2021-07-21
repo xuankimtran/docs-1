@@ -131,7 +131,7 @@ class NewTestListener {
 }
 ```
 
-As you can see from the code above, a sample generated template has already added necessary annotations, libraries and supported functions to help you extend your current testing flows to a higher level. 
+As you can see from the code above, a sample generated template has already added necessary annotations, libraries and supported functions to help you extend your current testing flows to a higher level.
 
 > * There is no limit on Test Listeners. Users can create as many as preferred.
 > * If you have more than one Test Listener class, the classes themselves are instantiated in Katalon storage in alphabetical order. Only then are the individual listener methods executed **top-down**.
