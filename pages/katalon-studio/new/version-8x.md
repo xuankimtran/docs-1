@@ -30,13 +30,13 @@ description: Release notes 8.x
 
 ### Fixes
 
-* Fixed UI issues
+* Fixed UI issues:
     * [Azure DevOps] Expanding Submission Options broke the UI.
     * [macOS Big Sur] Could not switching to Object Properties View.
-    * [macOS Big Sur] Hidden text of selecting items on table and tree.
+    * [macOS Big Sur] Text of selecting items on table and tree was hidden.
     * [macOS Big Sur] Could not updating Log Viewer when the execution items were changed on Job Progress.
-    * Fixed Labels in Library Management and added referral link.
-    * Fixed typo error in Mobile Object Spy.
+    * Fixed Labels and added referral link in the Library Management.
+    * [Mobile Object Spy] Fixed typo error "Application ID".
 * Bug: [Slack Integration] Failed to connect to Slack.
 * Bug: [Katalon Studio Enterprise] Could not select Run from here and Debug from here.
 * Bug: Updated warning message when the broken Test Object could not be moved.
