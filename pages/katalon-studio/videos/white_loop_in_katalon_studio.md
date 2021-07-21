@@ -1,5 +1,5 @@
 ---
-title: "White loop in Katalon Studio"
+title: "While loop in Katalon Studio"
 sidebar: katalon_studio_videos_sidebar
 permalink: katalon-studio/videos/white_loop_in_katalon_studio.html
 description: 
