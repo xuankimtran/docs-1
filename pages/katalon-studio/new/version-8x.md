@@ -38,19 +38,19 @@ description: Release notes 8.x
     * Fixed Labels and added referral link in the Library Management.
     * [Mobile Object Spy] Fixed typo error "Application ID".
 * Bug: [Slack Integration] Failed to connect to Slack.
+* Bug: [qTest Integration] Could not upload test results to qTest. (internal bug?)
 * Bug: [Katalon Studio Enterprise] Could not select Run from here and Debug from here.
-* Bug: Updated warning message when the broken Test Object could not be moved.
-* Bug: [Cucumber] An issue of not displaying Executed steps in the Console log.
 * Bug: [Katalon Runtime Engine] Could not find the attached device in AWS Device Farm.
 * Bug: [Katalon Runtime Engine] Failed to replace excluded built-in libraries with external libraries in CLI/CI execution.
-* Bug: [API Testing] Incorrect response thrown when leaving the parameter blank in the request URL path.
+* Bug: [Cucumber] An issue of not displaying Executed steps in the Console log.
+* Bug: [API Testing] An incorrect response thrown when leaving the parameter blank in the request URL path.
 * Bug: [Keyword] `waitForImagePresent` returned False despite the image was on the page.
 * Bug: [Keyword] `verifyElementPropertyValue` threw an error message.
-* Bug: [qTest Integration] Could not upload test results to qTest. (internal bug?)
-* Bug: Error message thrown when continuing recording the scripts in an existing test case.
 * Bug: [Performance] Saving a Test Case with many variables took a long time.
+* Bug: An error message thrown when continuing recording the scripts in an existing test case.
 * Bug: Browser-based recorder could not record videos for the second test case if reusing opened browser.
 * Bug: Project Settings Explorer was not working.
+* Bug: Updated warning message when the broken Test Object could not be moved.
 
 ## Version 8.0.5
 
