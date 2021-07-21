@@ -494,6 +494,11 @@ katalonc -noSplash -runMode=console -projectPath="C:\Users\Katalon Studio\Projec
          <td>N</td>
       </tr>
       <tr>
+      <td>-kobitonDeviceName=[yourKobitionDeviceName]</td>
+			<td>Dynamically change Kobiton device (Available in 8.1.0 and later)</td>
+			<td>N</td>
+		</tr>
+		<tr>
          <td>-qTestDestId=&lt;destination's id&gt;</td>
          <td>Id of the destination where the result is uploaded on it</td>
          <td>N</td>
