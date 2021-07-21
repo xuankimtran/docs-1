@@ -14,8 +14,7 @@ description: Release notes 8.x
 ### New features
 
 * Introduced the Condition to stop test execution feature.
-* [Mobile] [Keyword] Introduced `waitForElementNotPresent`. See [doc's name](url).
-
+* [Mobile][Keyword] Introduced `waitForElementNotPresent`. See [doc's name](url).
 
 ### Enhancements
 
@@ -24,41 +23,34 @@ description: Release notes 8.x
 * [Sealights Integration] Published new platform APIs.
 * [Azure DevOps Integration] Submitted Release details and Test Run properties to Azure DevOps. See [doc's name](url)
 * [Katalon Studio Enterprise] Enhanced Retry Immediately Strategy. See [doc's name](url)
-* [Katalon Studio Enterprise][Katalon Runtime Engine] Reduced package size. <8.2.0 or 8.1.0?>
 * [Kobiton Integration] Supported customizing remote server protocol.
 * [Kobiton Integration] Supported customizing device name.
 * Introduced options to include or exclude timestamps in .properties files in the Project Settings folder. See [doc's name](url)
-* [Katalon Studio Enterprise] [Katalon Runtime Engine] Supported auto-retry three times after failed activation.
+* [Katalon Studio Enterprise] [Katalon Runtime Engine] Supported auto-retry three times once the activation was failed.
 
 ### Fixes
 
 * Fixed UI issues
-    * [Azure DevOps] Broken UI when expanding Submission Options.
-    * [macOS Big Sur] Not switching to Object Properties View when 
+    * [Azure DevOps] Expanding Submission Options broke the UI.
+    * [macOS Big Sur] Not switching to Object Properties View.
     * [macOS Big Sur] Hidden text of selecting items on table and tree.
     * [macOS Big Sur] Not updating Log Viewer when the execution items were changed on Job Progress.
-
-
-### Enhancements
-
-* Supported built-in Excel keywords. See [doc's name](url)
-* [Mobile] Improved Setup for Mobile testing on macOS.
-
-
-
-
-### Bug Fixes
-
-* Bug: [Keyword] `verifyElementPropertyValue` threw an error message.
+    * Fixed Labels in Library Management and added referral link.
 * Bug: [Slack Integration] Failed to connect to Slack.
-* Bug: [Cucumber] An issue of not displaying Executed steps in the Console log.
-* Bug: Fixed typo issue "Application ID" in Mobile Object Spy.
-* Bug: Project Settings Explorer was not working.
-* Bug: [Katalon Runtime Engine] Could not find the attached device in AWS Device Farm.
-* Bug: Could not find iOS dependencies due to default path changes when installing Homebrew.
 * Bug: [Katalon Studio Enterprise] Could not select Run from here and Debug from here.
-* Bug: Updated warning message "Object <ObjectId> has been broken. Please fix it before proceeding further.
-* Bug: Fixed Labels in Library Management and added referral link.
+* Bug: Updated warning message when the broken Test Object could not be moved.
+* Bug: [Cucumber] An issue of not displaying Executed steps in the Console log.
+* Bug: [Katalon Runtime Engine] Could not find the attached device in AWS Device Farm.
+* Bug: [Katalon Runtime Engine] Failed to replace excluded built-in libraries with external libraries in CLI/CI execution.
+* Bug: [API Testing] Incorrect response threw when leaving the parameter blank in the request URL path.
+* Bug: [Keyword] `waitForImagePresent` returned False despite the image was on the page.
+* Bug: [Keyword] `verifyElementPropertyValue` threw an error message.
+* Bug: [qTest Integration] Could not upload test results to qTest. (internal bug?)
+* Bug: Error message thrown when continuing recording the scripts from an existing test case.
+* Bug: [Performance] Saving a Test Case with many variables took a long time.
+* Bug: Browser-based recorder could not record videos for 2nd test case if reusing opened browser.
+* Bug: Fixed typo error in Mobile Object Spy.
+* Bug: Project Settings Explorer was not working.
 
 ## Version 8.0.5
 
@@ -79,8 +71,9 @@ description: Release notes 8.x
 * Bug: Resolved activation issue of Enterprise-exclusive plugins.
 * Bug: Resolved Test Suite stopped executing after some test cases.
 * Fixed reports parsing issues:
-    * [Katalon Runtime Engine] Could not generate and submit JUnit report to TestOps.
+    * [Katalon Runtime Engine] Could not generate and submit JUnit report to Katalon TestOps.
     * Could not generate reports due to `Null` character in log files.
+    * [Katalon Runtime Engine] Katalon Studio Image could not send report to Katalon TestOps.
 * Fixed Katalon Runtime Engine hanging issues when:
     * Running tests with Selenium Grid.
     * [Test Suite Collection] The number of Java threads kept increasing during execution.
