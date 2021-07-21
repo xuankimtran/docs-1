@@ -49,7 +49,7 @@ description: Release notes 8.x
 * Bug: [qTest Integration] Could not upload test results to qTest. (internal bug?)
 * Bug: Error message thrown when continuing recording the scripts in an existing test case.
 * Bug: [Performance] Saving a Test Case with many variables took a long time.
-* Bug: Browser-based recorder could not record videos for 2nd test case if reusing opened browser.
+* Bug: Browser-based recorder could not record videos for the second test case if reusing opened browser.
 * Bug: Project Settings Explorer was not working.
 
 ## Version 8.0.5
