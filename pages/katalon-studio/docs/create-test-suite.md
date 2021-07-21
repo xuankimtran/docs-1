@@ -77,7 +77,7 @@ Using the **Retry** feature, you can configure when and how many times Katalon r
 
    **Usage example**
    
-   As you can see in the following screenshot, we have a Test Suite with 5 Test Cases, and Retry Failed Execution Immediately is set for three times > execute the Test Suite > Katalon Studio runs all the Test Cases in the Test Suite sequentially.
+   As you can see in the following screenshot, we have a Test Suite with five Test Cases, and Retry Failed Execution Immediately is set for three times > execute the Test Suite > Katalon Studio runs all the Test Cases in the Test Suite sequentially.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/retry-fail-immediately-usage-example.png" width=80%>
 
