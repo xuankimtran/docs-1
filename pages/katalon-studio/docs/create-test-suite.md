@@ -56,7 +56,7 @@ In **Implicit timeout**, you can decide the timeout period that Katalon waits fo
 
 ### Retry
 
-By using **Retry** feature, you can configure when and how many times Katalon retries an execution of a Test Suite until the Test Suite finishes executing.
+Using the **Retry** feature, you can configure when and how many times Katalon retries an execution of a Test Suite until the Test Suite finishes executing.
 
 **Capture new UI**
 
@@ -71,23 +71,23 @@ By using **Retry** feature, you can configure when and how many times Katalon re
    - Katalon Studio version 8.1.0+
    - An active Katalon Studio Enterprise license
 
-   Prior to version 8.1.0, when a Test Case in a Test Suite fails, the Test Suite reruns immediately starting from the failed Test Case. If the Test Suite reruns for configred rerun times and if the Test Case still fails, Katalon Studio stops executing the Test Suite right away.
+   Prior to version 8.1.0, when a Test Case in a Test Suite fails, the Test Suite reruns immediately from the failed Test Case. If the Test Suite reruns for configured rerun times and the Test Case still fails, Katalon Studio stops executing the Test Suite right away.
 
    From version 8.1.0 onwards, this function has changed the way it works. You will define how many times to rerun a failed test case of a Test Suite immediately until it meets the configured rerun times. And Katalon Studio will not stop the Test Suite execution regardless of the result of that test case.
 
    **Usage example**
    
-   As you can see in the following screenshot, we have a Test Suite with 5 Test Cases and Retry Failed Execution Immediately is set for 3 times > execute the Test Suite > Katalon Studio runs all the Test Cases in the Test Suite sequentially.
+   As you can see in the following screenshot, we have a Test Suite with 5 Test Cases, and Retry Failed Execution Immediately is set for three times > execute the Test Suite > Katalon Studio runs all the Test Cases in the Test Suite sequentially.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/retry-fail-immediately-usage-example.png" width=80%>
 
-   In the **Result** tab, collapsing the result of the Test Case 1, you can see its status is Failed with 1 is the main run and 3 rerun times are numbered 2,3,4 which meet the configured rerun times. At this point, Katalon logs the final result of the first Test Case as Failed and continue execute the rest Test Cases until the Test Suite finishes executing.
+   In the **Result** tab, collapsing the Test Case 1, you can see its status is Failed with 1 is the main run, and three rerun times are numbered 2,3,4 which meet the configured rerun times. At this point, Katalon logs the final result of the first Test Case as Failed and continues to execute the rest Test Cases until the Test Suite finishes executing.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/retry-fail-immediately-usage-example-result.png" width=80%>
 
-   The **Summary tab** shows how many Test Cases was executed and their final status. In this use case, we have 5 total Test Cases and they all get Failed status.
+   The **Summary tab** shows how many Test Cases were executed and their final status. In this use case, we have five total Test Cases, and they all get Failed status.
 
-   Along with the Execution log, Katalon Studio automatically consolidates report in JUnit, HTML, PDF and CSV format with one final test result for a Test Case. Also, browser-based or window-based video is recorded accordingly for both run and rerun of a Test Case.
+   Along with the Execution log, Katalon Studio automatically consolidates reports in JUnit, HTML, PDF, and CSV format with one final test result for a Test Case. Also, browser-based or window-based video is recorded accordingly for both run and rerun of a Test Case.
 
 * In **After finishing test suite, retry**:
 
