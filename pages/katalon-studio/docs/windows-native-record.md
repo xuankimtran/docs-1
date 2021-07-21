@@ -28,7 +28,7 @@ In **Native Windows Recorder**, with the enabled **coordinate-based recording**,
 With coordinates-based recording, Katalon Studio records an element's relative coordinates in addition to its selector. For instance, you want to click on the red X part to close a tab in Notepad. Katalon Recorder records the button's offsets (its relative coordinates to its top-left corner) as a set of parameters representing an X and Y offset, and save them in clickElementOffset. It uses them to identify the exact location to perform a click action during runtime.
 
 Without that element's offsets, the test engine can only click on the button's center, resulting in a failed test.
-ß
+
 ## Recording
 
 1. Right-click on the Windows Recorder icon and select **Native Windows Recorder** to open the Native Windows Recorder windows.
