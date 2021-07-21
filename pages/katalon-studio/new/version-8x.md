@@ -20,7 +20,7 @@ description: Release notes 8.x
 
 * Supported Chrome 92.
 * Supported Microsoft Edge (Chromium) 92.
-* [Sealights Integration] Published new platform APIs.
+* [Sealights Integration] Published new APIs platform.
 * [Azure DevOps Integration] Submitted Release details and Test Run properties to Azure DevOps. See [doc's name](url)
 * [Katalon Studio Enterprise] Enhanced Retry Immediately Strategy. See [doc's name](url)
 * [Kobiton Integration] Supported customizing remote server protocol.
