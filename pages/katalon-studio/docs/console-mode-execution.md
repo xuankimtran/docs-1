@@ -172,6 +172,17 @@ Here's the list of options supported for the `katalonc` commands for Katalon Stu
          <td>N</td>
       </tr>
       <tr>
+      <td>-maxFailedTests=&lt;T&gt;</td>
+			<td>
+				<ul>
+					<li><span data-preserver-spaces="true">Available from v8.1.0, you can set a condition to stop test suite/ test suite collection execution based on the number of test failures.</span></li>
+					<li><span data-preserver-spaces="true">Set &lt;T&gt; as the maximum number of total test failures allowed in the execution. Reaching &lt;T&gt; terminates the test execution.</span></li>
+					<li><span data-preserver-spaces="true">1 test case (or retry test case/test iteration (test case+ data row)/ retry test iteration) fails = 1 test failure</span></li>
+				</ul>
+			</td>
+			<td>N&nbsp;</td>
+		</tr>
+		<tr>
          <td>-reportFileName=&lt;name&gt;</td>
          <td>Specify the name for report files (.html, .csv, .log). If not provided, the system uses the name "report" (report.html, report.csv, report.log). This option is only taken into account when being used with the "-reportFolder" option.</td>
          <td>N</td>
