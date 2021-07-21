@@ -8,6 +8,15 @@ description: Release notes 8.x
 ---
 ## Official Release - Version 8.1.0
 
+### New features
+
+* Introduced the Condition to stop test execution feature.
+
+### Enhancements
+
+* [Sealights Integration] Published new platform APIs.
+
+
 > Download [here](https://www.katalon.com/download/).
 
 ### New features
@@ -41,6 +50,7 @@ description: Release notes 8.x
 * Introduced options to include or exclude timestamps in .properties files in the Project Settings folder. See [doc's name](url)
 * [Katalon Studio Enterprise] [Katalon Runtime Engine] Supported auto-retry up to three times after failed activation.
 
+
 ### Bug Fixes
 
 * Fixed UI issues
@@ -56,7 +66,7 @@ description: Release notes 8.x
 * Bug: [Katalon Runtime Engine] Could not find the attached device in AWS Device Farm.
 * Bug: Could not find iOS dependencies due to default path changes when installing Homebrew.
 * Bug: [Katalon Studio Enterprise] Could not select Run from here and Debug from here.
-* Bug: Updated warning message "Object <ObjectId> has been broken. Please fix it before proceeding further."
+* Bug: Updated warning message "Object <ObjectId> has been broken. Please fix it before proceeding further.
 * Bug: Fixed Labels in Library Management and added referral link.
 
 ## Version 8.0.5
