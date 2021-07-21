@@ -32,9 +32,9 @@ description: Release notes 8.x
 
 * Fixed UI issues
     * [Azure DevOps] Expanding Submission Options broke the UI.
-    * [macOS Big Sur] Not switching to Object Properties View.
+    * [macOS Big Sur] Could not switching to Object Properties View.
     * [macOS Big Sur] Hidden text of selecting items on table and tree.
-    * [macOS Big Sur] Not updating Log Viewer when the execution items were changed on Job Progress.
+    * [macOS Big Sur] Could not updating Log Viewer when the execution items were changed on Job Progress.
     * Fixed Labels in Library Management and added referral link.
 * Bug: [Slack Integration] Failed to connect to Slack.
 * Bug: [Katalon Studio Enterprise] Could not select Run from here and Debug from here.
@@ -42,11 +42,11 @@ description: Release notes 8.x
 * Bug: [Cucumber] An issue of not displaying Executed steps in the Console log.
 * Bug: [Katalon Runtime Engine] Could not find the attached device in AWS Device Farm.
 * Bug: [Katalon Runtime Engine] Failed to replace excluded built-in libraries with external libraries in CLI/CI execution.
-* Bug: [API Testing] Incorrect response threw when leaving the parameter blank in the request URL path.
+* Bug: [API Testing] Incorrect response thrown when leaving the parameter blank in the request URL path.
 * Bug: [Keyword] `waitForImagePresent` returned False despite the image was on the page.
 * Bug: [Keyword] `verifyElementPropertyValue` threw an error message.
 * Bug: [qTest Integration] Could not upload test results to qTest. (internal bug?)
-* Bug: Error message thrown when continuing recording the scripts from an existing test case.
+* Bug: Error message thrown when continuing recording the scripts in an existing test case.
 * Bug: [Performance] Saving a Test Case with many variables took a long time.
 * Bug: Browser-based recorder could not record videos for 2nd test case if reusing opened browser.
 * Bug: Fixed typo error in Mobile Object Spy.
