@@ -33,7 +33,7 @@ description: Release notes 8.x
 * Fixed UI issues:
     * [Azure DevOps] Expanding Submission Options broke the UI.
     * [macOS Big Sur] Could not switching to Object Properties View.
-    * [macOS Big Sur] Text of selecting items on table and tree was hidden.
+    * [macOS Big Sur] Text of selecting items on table and tree were hidden.
     * [macOS Big Sur] Could not updating Log Viewer when the execution items were changed on Job Progress.
     * Fixed Labels and added referral link in the Library Management.
     * [Mobile Object Spy] Fixed typo error "Application ID".
