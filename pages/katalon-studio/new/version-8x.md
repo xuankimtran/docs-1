@@ -13,11 +13,10 @@ description: Release notes 8.x
 
 ### New features
 
-* Introduced the Condition to stop test execution feature.
-* [Mobile][Keyword] Introduced `waitForElementNotPresent`. See [doc's name](url).
+* Introduced the Condition to stop test execution feature. See [doc's name](url)
+* [Mobile][Keyword] Introduced `waitForElementNotPresent`. See [doc's name](url)
 
 ### Enhancements
-
 
 * Supported Chrome 92.
 * Supported Microsoft Edge (Chromium) 92.
