@@ -110,6 +110,7 @@ To migrate Selenium/TestNG/JUnit scripts to a Katalon Studio project, please do 
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/Selenium-TestNG-Migration/build-success.png" width="282" height="">
 
+   2.3 Reopen the project to reload all the dependencies.
 3. Copy and paste the source code of your Selenium/TestNG/JUnit project in the `Include/scripts/groovy` folder of your Katalon project.
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/Selenium-TestNG-Migration/step5.png" width="322" height="">
 4. Copy and paste other resources of your Selenium/TestNG/JUnit project in the root folder of your Katalon project.
