@@ -8,7 +8,7 @@ With Katalon TestOps, your tests can be executed in parallel using load-balanced
 
 To do so, Katalon TestOps distributes Test Executions over Agents to optimize Remote Execution efficiency.
 
-Each Agent can be configured with a unique threshold. Test Executions can then be setup to minimize Agent idleness.
+Each Agent can be configured with a unique Threshold. Test Executions can then be setup to minimize Agent idleness.
 
 > Requirements:
 >
