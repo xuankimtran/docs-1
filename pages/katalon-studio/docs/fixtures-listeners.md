@@ -13,7 +13,7 @@ description:
 
 ## SetUp() and TearDown() for Test Suite and Test Case
 
-In Katalon Studio, you can specify prerequisite and clean-up configurations for your test cases. With the prerequisite configuration, you must take certain actions before starting test execution. For clean-up configuration, you must carry out some actions after the test execution finishes.
+Automation testers usually want to specify prerequisite and clean-up configurations for their test cases. With the prerequisite configuration, the test engine must take specific actions before starting test execution. For clean-up configuration, the test engine must carry out some actions after the test execution finishes.
 
 Every test suite from your projects now has been equipped to run either **SetUp** or **TearDown** methods, which are groups of your own defined test steps before or after executing a Test Suite. This feature is another useful extension besides [Test Listeners](/katalon-studio/docs/test-listeners-test-hooks.html) to extend your current testing flow as much as possible.
 
