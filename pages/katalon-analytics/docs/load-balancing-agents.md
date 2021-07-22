@@ -4,9 +4,11 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/load-balancing-agents.html
 ---
 
-In Katalon TestOps, you can have parallel Test Executions using Load Balancing process.
+With Katalon TestOps, your tests can be executed in parallel using load-balanced configurations.
 
-This means that Katalon TestOps distributes Test Executions over Agents to optimize Remote Execution efficiency.
+To do so, Katalon TestOps distributes Test Executions over Agents to optimize Remote Execution efficiency.
+
+Each Agent can be configured with a unique threshold. Test Executions can then be setup to minimize Agent idleness.
 
 > Requirements:
 >
@@ -40,17 +42,17 @@ To configure Agent's Threshold, follow these steps:
 
 5. Click **Update**.
 
-The maximum number of concurrent sessions that an Agent can execute is equal to the Threshold value you have configured. 
+The maximum number of concurrent sessions that an Agent can execute is equal to the Threshold value you have configured.
 
 You can check the sessions in the **Test Environments** page.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-load-balancing/test-environment-page-with-agents-highlight-session.png" width=100% alt="test environment page highlight assigned sessions">
 
-## Assign Test Environments to execute Test Runs
+## Assign Agents to execute Test Runs
 
 ### For a new Test Plan
 
-You can create a new Test Runs Schedule to assign Test Environments for Test Executions. See: [Schedule Test Runs](https://docs.katalon.com/katalon-analytics/docs/create-plan.html).
+You can create a new Test Runs Schedule to assign Agents for Test Executions. See: [Schedule Test Runs](https://docs.katalon.com/katalon-analytics/docs/create-plan.html).
 
 When creating a new Test Runs Schedule, you are asked to select Test Environments.
 
@@ -70,13 +72,13 @@ You can select an Agent here to assign it to your new Test Plan.
 
 3. Click **Edit**.
 
-    The **Test run type: a Verify Match exact name** page appears as below.
+    The Test Run Type page appears as below (e.g., **Test run type: a Verify Match exact name**).
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-load-balancing/assign-test-environjment-agent.png" width=100% alt="highlight select test environment section">
 
 4. Scroll down to the **Select Test Environment** section.
 
-    In the **Test Environments** section, select the new Agent.
+    In the **Test Environments** section, select a new Agent.
     
 5. Click **Save**.
 
