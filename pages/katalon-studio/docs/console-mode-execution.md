@@ -175,7 +175,7 @@ Here's the list of options supported for the `katalonc` commands for Katalon Stu
       <td>-maxFailedTests=&lt;T&gt;</td>
 			<td>
 				<ul>
-					<li><span data-preserver-spaces="true">Available from v8.1.0, you can set a condition to stop test suite/ test suite collection execution based on the number of test failures.</span></li>
+					<li><span data-preserver-spaces="true">From version 8.1.0, you can set a condition to stop test suite/ test suite collection execution based on the number of test failures. (Only for Katalon Studio Enterprise users)</span></li>
 					<li><span data-preserver-spaces="true">Set &lt;T&gt; as the maximum number of total test failures allowed in the execution. Reaching &lt;T&gt; terminates the test execution.</span></li>
 					<li><span data-preserver-spaces="true">1 test case (or retry test case/test iteration (test case+ data row)/ retry test iteration) fails = 1 test failure</span></li>
 				</ul>
@@ -506,7 +506,7 @@ katalonc -noSplash -runMode=console -projectPath="C:\Users\Katalon Studio\Projec
       </tr>
       <tr>
       <td>-kobitonDeviceName=[yourKobitionDeviceName]</td>
-			<td>Dynamically change Kobiton device (Available in 8.1.0 and later)</td>
+			<td>Dynamically change Kobiton device (Available from version 8.1.0)</td>
 			<td>N</td>
 		</tr>
 		<tr>
@@ -575,11 +575,11 @@ katalonc -noSplash -runMode=console -projectPath="C:\Users\Katalon Studio\Projec
 We recommend using the Command Builder to generate commands quickly and precisely. Please do as follows:
 
 1. Click on **Build CMD** from the main toolbar.
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/Screenshot-at-Jun-20-15-42-46.png" width=70%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/Screenshot-at-Jun-20-15-42-46.png" alt="Build CMD" width=70%>
 
 2. The **Generate Command for Console Mode** is displayed. Configure your execution with the provided options:
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/command-builder-77.png" width=70%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/command-builder-77.png" alt="Generate Command for Console Mode" width=70%>
 
    **Where**:
 
@@ -588,7 +588,7 @@ We recommend using the Command Builder to generate commands quickly and precisel
    
       * **Run with** and **Profile**: Testing environment and execution profile of the execution. 
      
-         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/environment.png" width=70%>
+         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/environment.png" alt="select environment" width=70%>
 
       * **Override the execution profile and environment of all test suites**: Check if you want the specified `-BrowserType` and `-ExecutionProfile` in the command to override the browser type and execution profile of all test suites in the collection (available from version **7.6 onwards**)
 
@@ -599,17 +599,19 @@ We recommend using the Command Builder to generate commands quickly and precisel
 
    * **Execution Configurations** (Or **Other Options** in versions before 7.7).
    
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/update-web-driver-automatically.png" width=70%>
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/condition%20to%20stop%20-%202.png" alt="execution configurations" width=70%>
+
+      * **Condition to stop**: Terminate the execution once the total number of test failures reaches the input threshold. (Available from **version 8.1.0 onwards**)
 
    * **Katalon TestOps**: Override the Project ID in Katalon TestOps (available from **version 7.8** onwards).
 
-       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/override-prj-id.png" width=70%>
+       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/override-prj-id.png" alt="Katalon TestOps" width=70%>
 
 3. Click **Generate Command** after completing the configuration.
 
 4. You can **Copy to Clipboard** and paste to the Command Prompt/Terminal for execution.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/command1.png" width=70%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/command1.png" alt="generate command" width=70%>
 
 ## Use `console.properties` file
 
@@ -617,13 +619,13 @@ We support running console mode using the **console.properties** file where yo
 
 1. Generate a **console.properties** file using our generator.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/properties.png" width=70%>
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/properties.png" ="Generate a console.properties" width=70%>
 
 2. The **console.properties** file is generated at your preferred location. You can open and update the parameters manually as needed.
 
     For example:
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/image2017-2-20-103A303A2.png" width=70%>
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/image2017-2-20-103A303A2.png" alt="console.properties" width=70%>
 
 3. Run the **console.properties** file in console mode with the following syntax.
 
@@ -633,7 +635,7 @@ We support running console mode using the **console.properties** file where yo
 
    For example:
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/property-apikey.png" width=80%> 
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/property-apikey.png" alt="console.properties" width=80%> 
 
 4. You can add additional `katalonc` command options if needed. Any option already defined in the **console.properties** file is overwritten by the one declared in the command line.  
 
