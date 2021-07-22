@@ -32,7 +32,7 @@ To configure Agent's Threshold, follow these steps:
 
     The **Test Environments** page appears.
 
-3. Click on the Local Test Environment you want to configure Agent's Threshold (e.g., **My Agent**).
+3. Click on the Local Test Environment you want to configure the Agent's Threshold for (e.g., **My Agent**).
 
     The **Agent Details** page appears as below.
 
