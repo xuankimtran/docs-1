@@ -18,8 +18,11 @@ description: Release notes 8.x
 
 ### Enhancements
 
+
 * Supported Chrome 92.
 * Supported Microsoft Edge (Chromium) 92.
+* [TestRail Integration] Published new plugin version 1.1.0.
+* [Slack Integration] Published new plugin version 1.0.8.
 * [Sealights Integration] Published new APIs platform.
 * [Azure DevOps Integration] Submitted Release details and Test Run properties to Azure DevOps. See [doc's name](url)
 * [Katalon Studio Enterprise] Enhanced Retry Immediately Strategy. See [doc's name](url)
