@@ -14,7 +14,7 @@ Each Agent can be configured with a unique Threshold. Test Executions can then b
 >
 > You have at least one active Local Test Environment. See: [Create a Local Test Environment with an Agent](https://docs.katalon.com/katalon-analytics/docs/agents.html).
 
-## Configure Agent's Threshold
+## Configure an Agent's Threshold
 
 An Agent's Threshold is the maximum number of sessions that an Agent can execute concurrently in a Local Test Environment.
 
@@ -24,7 +24,7 @@ You must configure the Threshold value to assign the number of jobs to an Agent.
 >
 > By default, the Threshold value of all Agents is set as **1**.
 
-To configure Agent's Threshold, follow these steps:
+To configure an Agent's Threshold, follow these steps:
 
 1. Sign in to [Katalon TestOps](https://testops.katalon.io/login) and go to your Project.
 
@@ -48,11 +48,11 @@ You can check the sessions in the **Test Environments** page.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-load-balancing/test-environment-page-with-agents-highlight-session.png" width=100% alt="test environment page highlight assigned sessions">
 
-## Assign Agents to execute Test Runs
+## Assign an Agent to execute Test Runs
 
 ### For a new Test Plan
 
-You can create a new Test Runs Schedule to assign Agents for Test Executions. See: [Schedule Test Runs](https://docs.katalon.com/katalon-analytics/docs/create-plan.html).
+You can create a new Test Runs Schedule to assign an Agent for Test Executions. See: [Schedule Test Runs](https://docs.katalon.com/katalon-analytics/docs/create-plan.html).
 
 When creating a new Test Runs Schedule, you are asked to select Test Environments.
 
