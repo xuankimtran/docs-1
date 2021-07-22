@@ -177,7 +177,7 @@ Here's the list of options supported for the `katalonc` commands for Katalon Stu
 				<ul>
 					<li><span data-preserver-spaces="true">From version 8.1.0, you can set a condition to stop test suite/ test suite collection execution based on the number of test failures. (Only for Katalon Studio Enterprise users)</span></li>
 					<li><span data-preserver-spaces="true">Set &lt;T&gt; as the maximum number of total test failures allowed in the execution. Reaching &lt;T&gt; terminates the test execution.</span></li>
-					<li><span data-preserver-spaces="true">1 test case (or retry test case/test iteration (test case+ data row)/ retry test iteration) fails = 1 test failure</span></li>
+					<li><span data-preserver-spaces="true">A test failure is counted when any of these type of tests fails: test case, retried test case, test iteration, or retried test iteration.</span></li>
 				</ul>
 			</td>
 			<td>N&nbsp;</td>
@@ -506,7 +506,7 @@ katalonc -noSplash -runMode=console -projectPath="C:\Users\Katalon Studio\Projec
       </tr>
       <tr>
       <td>-kobitonDeviceName=[yourKobitionDeviceName]</td>
-			<td>Dynamically change Kobiton device (Available from version 8.1.0)</td>
+			<td>Set which Kobiton device is under test. Name has to match a custom name of a Kobiton device on Kobiton portal. (Available from version 8.1.0)</td>
 			<td>N</td>
 		</tr>
 		<tr>
@@ -581,9 +581,7 @@ We recommend using the Command Builder to generate commands quickly and precisel
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/command-builder-77.png" alt="Generate Command for Console Mode" width=70%>
 
-   **Where**:
-
-  * **Test Suite**: The Test Suite or Test Suite Collection to be executed
+  * **Test Suite**: The saved location of the Test Suite or Test Suite Collection to be executed.
   * **Executive Platform**:
    
       * **Run with** and **Profile**: Testing environment and execution profile of the execution. 
