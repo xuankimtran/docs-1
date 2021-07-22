@@ -170,7 +170,7 @@ Please follow the instructions below to execute your Katalon Studio automation t
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/integrate_with_kobiton/Automation-snippet.png" alt="Automation snippet" width=70%>
 
-4\. Click on the **Devices** menu and select your devices by **Mark as favorite**.
+4\. Click on the **Devices** menu. Select your device, then hover to the top left corner of the tab to **Mark as favorite**.
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/integrate_with_kobiton/Devices.png" alt="Kobiton Devices menu" width=100%>
 
 > From **8.1.0 onwards**, you can change Kobiton's **Custom Device Name** to select the correct device on Katalon Studio. If your Kobiton devices don't have any custom name, Katalon Studio uses the devices' original name when running tests. See Kobiton documentation on [Device Custom Name](https://support.kobiton.com/hc/en-us/articles/360055588512-Device-Custom-Name-)
