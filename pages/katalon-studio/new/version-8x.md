@@ -38,7 +38,6 @@ description: Release notes 8.x
     * Fixed labels and added referral link in the Library Management.
     * [Mobile Object Spy] Fixed typo error "Application ID".
 * Bug: [Slack Integration] Failed to connect to Slack.
-* Bug: [qTest Integration] Could not upload test results to qTest. (internal bug?)
 * Bug: [Katalon Studio Enterprise] Could not select Run from here and Debug from here.
 * Bug: [Katalon Runtime Engine] Could not find the attached device in AWS Device Farm.
 * Bug: [Katalon Runtime Engine] Failed to replace excluded built-in libraries with external libraries in CLI/CI execution.
