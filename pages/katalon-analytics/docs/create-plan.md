@@ -53,7 +53,6 @@ The **Test Run Types** page shows you a collection of Test Runs with the same co
 >
 > * Katalon Studio version 7.9.1 onwards.
 > * [Katalon Studio Integration](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html).
-> * At least one active Remote Execution in Katalon TestOps.
 
 Follow these steps:
 
