@@ -1,95 +1,106 @@
 ---
-title: "Visual Testing" 
+title: "Visual Testing in Katalon TestOps" 
 sidebar: katalon_studio_docs_sidebar
 permalink: /katalon-analytics/docs/ks-visual-testing.html 
 redirect_from:
-description: Katalon TestOps Visual Testing is a feature to help us compare screenshots between executions.
+description: This feature helps us compare screenshots between executions.
 ---
 
-Katalon TestOps Visual Testing is a feature to help us compare screenshots of executions.
+In Katalon TestOps, you can compare images captured during test executions with Visual Testing.
 
-On Katalon Studio, go to **Menu Project** > **Settings**. The board **Project Settings** displays, click **Katalon TestOps** on the left sidebar. We choose **Team** and **Project**, then click **Apply and Close**. And now, we integrate the current Katalon Studio project with Katalon TestOps.
+> Requirements:
+>
+> * You have used Katalon Studio application.
+> * You have enabled [Katalon Studio Integration](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html).
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ks_visual_testing/ks_project_setting_kt.png)
+## Set up Visual Testing
 
-Before testing a Test Suite (or Test Suite Collection) on Katalon Studio, we need to run this Test Suite (or execute Test Suite Collection). If we do not have a Test Suite, we can download the [sample code](https://github.com/katalon-studio-samples/visual-testing-sample) to test this feature. Or we can create a Test Case and Test Suite with [this page](https://www.timeanddate.com/worldclock/), because the time usually changes, and we can compare screenshots of executions easily.
+Follow these steps:
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ks_visual_testing/ks_test_case_sample_time.png)
+1. Enable screenshots capture in Katalon Studio. See [Capture Screenshots](https://docs.katalon.com/katalon-studio/docs/capture-screenshots.html).
 
-We create a Test Suite with one Test Case.
+2. Run a Test Suite in Katalon Studio.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ks_visual_testing/ks_test_suite_sample_time.png)
+> Notes:
+>
+> If you have enabled Katalon Studio Integration, Katalon Studio automatically uploads Test Results to Katalon TestOps.
 
-We insert a Web UI Keyword below the row in which we want to take a screenshot.
+3. Sign in to [Katalon TestOps](https://testops.katalon.io/login) and go to your Project. 
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ks_visual_testing/ks_insert_web_ui_key.png)
+4. Go to **Reports & Analytics** > **Visual Testing**.
 
-In the new row, and we choose the Take Screenshot As Checkpoint.
+    The **Visual Test Runs** page appears as below.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ks_visual_testing/ks_choose_take_sreenshot_checkpoint.png)
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-visual-testing/visual-testing-page-testops.png" width=100% alt="visual test runs page in visual testing">
 
-In the row Take Screenshot As Checkpoint, column Input, we double click.
+5. Click on the ID of the Test Run.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ks_visual_testing/ks_double_click_new_row.png)
+    The Test Run's **Results** page appears.
 
-An Input board displays, we assign a label for the new Item (Take Screenshot As Checkpoint) and click the button OK.
+6. Select the **Checkpoints** tab.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ks_visual_testing/ks_input_value_checkpoint.png)
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-visual-testing/checkpoints-page.png" width=100% alt="test run #1 checkpoints page">
 
-We save the project and run Test Suite.
+    You can see the screenshots captured during a Test Execution.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ks_visual_testing/ks_run_test_suite.png)
+7. Select one of the screenshots to see the details.  
 
-After running, Katalon Studio will upload the result to the Katalon TestOps. In Katalon TestOps, a new Test Run is created in the project which we have chosen in Project Settings. 
+    > Notes:
+    >
+    > If you run a Test Suite for the first time, there is no baseline image.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ks_visual_testing/kt_test_run_visual_testing.png)
+## Configure a baseline image
 
-On Katalon TestOps, run Test Suite second time. After that, in Katalon TestOps, a new Test Run is created.
+You can set up a baseline image to compare it with the screenshot of the next Test Run.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ks_visual_testing/kt_new_test_run.png)
+Follow these steps:
 
-On Katalon TestOps, sidebar **Reports & Analytics** > **Visual Testing**, we click the ID of the second Test Run.
+1. Select a screenshot to see the details.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ks_visual_testing/kt_visual_testing_click_id.png)
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-visual-testing/id-1-sample-visual-testing.png" width=100% alt="id1 sample visual testing image">
 
-Choose the tab Checkpoints, click on the checkpoint.
+2. Click on the *Passed* or *Failed* icon at the top right corner of a screenshot, then close the screenshot.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ks_visual_testing/kt_visual_testing_checkpoint.png)
+    An *Unsaved* label now appears on the **Checkpoints** page.
 
-The board **sample visual testing** displays a Baseline image and a Checkpoint image.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-visual-testing/id-1-unsaved-appears.png" width=100% alt="id1 result page with save to baseline button">
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ks_visual_testing/kt_visual_testing_chekpoint_baseline.png)
+3. Go to the **Results** page.
 
-In the board Visual, click the button Hide diff (Show diff) to hide (show) all the differences. 
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-visual-testing/id-1-save-to-base-line-button.png" width=100% alt="id4 highlight unresolved status">
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ks_visual_testing/kt_visual_testing_hide_diff.png)
+4. Click **Save to baseline**.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ks_visual_testing/kt_show_diff_visual_testing.png)
+> Notes:
+>
+> If you run a Test Suite for the first time and the Test Suite passed. Its screenshots are automatically marked as *Passed* and there is no **Save to baseline** button. You can open a screenshot and click on the *Failed* icon, then switch back to *Passed* so that the **Save to baseline** button appears.
 
-If we want to change the Baseline, choose the icon Check on the top right corner board **sample visual testing** and exit.
+### View Baseline information
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ks_visual_testing/kt_check_new_baseline.png)
+To see the baseline images you have saved, go to **Reports & Analytics** > **Visual Testing** > **Visual Baselines**, then select a screenshot for **Baseline information**.
 
-We choose the tab **Results** and click the button **Save to baseline**.
+### Unresolved images
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ks_visual_testing/kt_click_new_baseline.png)
+If you run the Test Suite again and the new screenshots of Test Execution are different from the baseline images. The status of the Test Run is then marked as *Unresolved*.
 
-And now, Katalon TestOps will compare the new baseline with the screenshot of the new Test Run.
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-visual-testing/visual-testing-page-id-4-unresolved.png" width=100% alt="id4 unresolved status">
 
-**See also**
+To resolve the issues, follow these steps:
 
-[[WebUI] Take Area Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/webui-take-area-screenshot-as-checkpoint.html)
+1. Click on the ID of the unresolved Test Run.
 
-[[WebUI] Take Element Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/webui-take-element-screenshot-as-checkpoint.html)
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-visual-testing/test-run-id-4-result-page-1.png" width=100% alt="id4 results page">
 
-[[WebUI] Take Full Page Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/webui-take-fullpage-screenshot-as-checkpoint.html)
+2. Select a screenshot.
 
-[[WebUI] Take Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/webui-take-screenshot-as-checkpoint.html)
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-visual-testing/test-run-id-4-mismatch-unresolved.png" width=100% alt="id4 mismatch">
 
-[[Mobile] Take Area Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/mobile-take-area-screenshot-as-checkpoint.html)
+    For mismatched screenshots, the new screenshot (on the right) is compared with the baseline image (on the left). 
 
-[[Mobile] Take Element Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/mobile-take-element-screenshot-as-checkpoint.html)
+3. Click **Show diff** to see the differences between two images (marked in red).
 
-[[Mobile] Take Screenshot As Checkpoint](https://docs.katalon.com/katalon-studio/docs/mobile-take-screenshot-as-checkpoint.html)
+4. Click on the *Passed* or *Failed* icon to resolve.
 
-
+    > Notes:
+    >
+    > * The *Unsaved* label appears whenever you change the status (*Passed* or *Failed*) of a screenshot. If you click **Save to baseline** the new *Passed* screenshots replace the older baseline images. Katalon TestOps then compares the new baseline images with the screenshots of the next Test Runs.
