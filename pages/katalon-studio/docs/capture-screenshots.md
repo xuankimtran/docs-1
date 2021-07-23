@@ -2,7 +2,7 @@
  title: "Capture Screenshots"
  sidebar: katalon_studio_docs_sidebar
  permalink: katalon-studio/docs/capture-screenshots.html
- ---
+---
 
  With Katalon Studio, you can capture screenshots during test execution.
 
