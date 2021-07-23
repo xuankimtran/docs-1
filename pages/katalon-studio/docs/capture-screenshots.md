@@ -60,9 +60,9 @@ Follow these steps:
 
     The Test Case shows all Test steps. 
     
-    Double click on a Test step to insert the built-in keyword (as shown in the picture below). 
+    Double click on a Test step and choose options (as shown in the picture below). 
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/screenshots-videos/log-image.png" width=100% alt="add test step">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/screenshots-videos/insert-webui-keyword-in-test-case-studio.png" width=100% alt="add test step">
 
     You have added a new Test step in Manual mode.
 
@@ -70,17 +70,19 @@ Follow these steps:
     
     A list of built-in keywords for capturing screenshots displays as below. 
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/screenshots-videos/log-image.png" width=100% alt="screenshot keywords list">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/screenshots-videos/custom-keyword-for-screenshots.png" width=100% alt="screenshot keywords list">
 
 4. Select a built-in keyword (e.g., **Take Full Page Screenshot As Checkpoint**). 
 
     You have inserted the built-in keyword.
 
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/screenshots-videos/input-no-value.png" width=100% alt="no input value">
+
 5. Double click on the **Input** section of the newly-added keyword to insert a value.
 
     The **Input** box appears as below.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/screenshots-videos/log-image.png" width=100% alt="input box">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/screenshots-videos/input-with-value.png" width=100% alt="input box">
 
 6. Insert a value for the keyword (e.g., **Sample Visual Test**), then click **OK**.
 
