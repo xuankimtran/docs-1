@@ -26,7 +26,7 @@ description: Release notes 8.x
 * Introduced options to include or exclude timestamps in .properties files in the Project Settings folder. See [doc's name](url)
 * Introduced Chrome 92 compatibility.
 * Introduced Microsoft Edge (Chromium) 92 compatibility.
-* Published new APIs platform.
+* [Plugin] Published new APIs platform.
     - list out what API
 * Reduced time on opening a Test Case with many variables.
 
