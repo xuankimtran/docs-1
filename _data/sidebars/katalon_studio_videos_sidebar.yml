@@ -223,8 +223,8 @@ items:
       url: /katalon-studio/videos/using_parameterized_test_object_in_katalon.html
     - title: "Test Execution on Remote Machines in Katalon Studio"
       url: /katalon-studio/videos/test_execution_on_remote_machines.html
-    - title: "White loop in Katalon Studio"
-      url: /katalon-studio/videos/white_loop_in_katalon_studio.html
+    - title: "While loop in Katalon Studio"
+      url: /katalon-studio/videos/while_loop_in_katalon_studio.html
   - title: "Tony Chau"
     tree:
     - title: "Katalon Studio Set Up Guidelines"
