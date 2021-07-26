@@ -18,40 +18,39 @@ description: Release notes 8.x
 
 ### Enhancements
 
-* Supported Chrome 92.
-* Supported Microsoft Edge (Chromium) 92.
-* [TestRail Integration] Published new plugin version 1.1.0.
-* [Slack Integration] Published new plugin version 1.0.8.
-* [Sealights Integration] Published new APIs platform.
+* [Katalon Studio Enterprise] Retry Failed Executions Immediately. See [doc's name](url)
+    * Enhanced function with new logic/behavior. 
+    * Supported consolidating execution reports.
 * [Azure DevOps Integration] Submitted Release details and Test Run properties to Azure DevOps. See [doc's name](url)
-* [Katalon Studio Enterprise] Enhanced Retry Immediately Strategy. See [doc's name](url)
-* [Kobiton Integration] Supported customizing remote server protocol.
-* [Kobiton Integration] Supported customizing device name.
 * Introduced options to include or exclude timestamps in .properties files in the Project Settings folder. See [doc's name](url)
-* [Katalon Studio Enterprise] [Katalon Runtime Engine] Supported three times auto-retry once the activation was failed.
+* Introduced Chrome 92 compatibility.
+* Introduced Microsoft Edge (Chromium) 92 compatibility.
+* [Sealights Integration] Published new APIs platform.
+* [Kobiton Integration] Introduced custom remote server and device name functionality.
 
 ### Fixes
 
 * Fixed UI issues:
     * [Azure DevOps] Expanding Submission Options broke the UI.
     * [macOS Big Sur] Could not switch to Object Properties View.
-    * [macOS Big Sur] Text of selecting items on table and tree were hidden.
-    * [macOS Big Sur] Could not updating Log Viewer when the execution items were changed on the Job Progress.
+    * [macOS Big Sur] Text of selected items on table and tree were hidden.
+    * [macOS Big Sur] Could not update Log Viewer when the execution items were changed on the Job Progress.
     * Fixed labels and added referral link in the Library Management.
     * [Mobile Object Spy] Fixed typo error "Application ID".
 * Bug: [Slack Integration] Failed to connect to Slack.
-* Bug: [Katalon Studio Enterprise] Could not select Run from here and Debug from here.
+* Bug: [TestRail Integration] Solved issues causing with Project Settings.
+* Bug: [Katalon Studio Enterprise] Could not select Run and Debug from here in specific cases.
 * Bug: [Katalon Runtime Engine] Could not find the attached device in AWS Device Farm.
 * Bug: [Katalon Runtime Engine] Failed to replace excluded built-in libraries with external libraries in CLI/CI execution.
-* Bug: [Cucumber] An issue of not displaying Executed steps in the Console log.
+* Bug: [Cucumber] Executed steps were not displaying correctly in the Console log.
 * Bug: [API Testing] An incorrect response thrown when leaving the parameter blank in the request URL path.
-* Bug: [Keyword] `waitForImagePresent` returned False despite the image was on the page.
-* Bug: [Keyword] `verifyElementPropertyValue` threw an error message.
+* Bug: `waitForImagePresent` returned False despite the image appearing correctly.
+* Bug: `verifyElementPropertyValue` returned an incorrect error message.
 * Bug: [Performance] Saving a Test Case with many variables took a long time.
-* Bug: An error message thrown when continuing recording the scripts with an existing test case.
-* Bug: Browser-based recorder could not record videos for the second test case if reusing opened browser.
-* Bug: Project Settings Explorer was not working.
-* Bug: Updated warning message when the broken Test Object could not be moved.
+* Bug: An error message thrown when continuing to record scripts with an existing test case returned error messages incorrectly.
+* Bug: Browser-based recorder could not record videos for the second test case if reusing an open browser.
+* Bug: Explorer Configuration in Project Settings was not working as intended.
+* Bug: Clarified warning message for when broken Test Object could not be moved.
 
 ## Version 8.0.5
 
