@@ -28,7 +28,7 @@ description: Release notes 8.x
 * Introduced Microsoft Edge (Chromium) 92 compatibility.
 * Published new APIs platform.
     - list out what API
-* Reduced time a Test Case with many variables took a long time.
+* Reduced time on opening a Test Case with many variables.
 
 ### Fixes
 
