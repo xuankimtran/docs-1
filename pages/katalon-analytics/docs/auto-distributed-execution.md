@@ -39,3 +39,5 @@ When an Agent completes a test run session, queued jobs that were first assigned
 >When configuring multiple test run types, test run types must share a minimum of 1 mutual Agent for distributed execution. In other words, assign test runs to overlapping Agents.
 
 4. Activate your Agents before the scheduled Test Run time.
+
+5. When the Test Once the test run types execute, the test sessions of these test run types are assigned to the previously configured agents automatically.
