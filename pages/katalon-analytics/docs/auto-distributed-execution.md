@@ -32,12 +32,12 @@ When an Agent completes a test run session, queued jobs that were first assigned
 
 2. Make sure that your Test Suite Collection is configured for parallel execution. If not, you can follow these steps: [Run multiple Test Suites in Parallel](https://docs.katalon.com/katalon-analytics/docs/kt_run_parallel_Agent.html#set-up-Agents).
 
-3. Create a Test Schedule using those Agents. Learn more: [Schedule Test Runs](https://docs.katalon.com/katalon-analytics/docs/create-plan.html#schedule-test-runs).
+3. Create a Test Schedule and assign your Test Run types to those Agents. Learn more: [Schedule Test Runs](https://docs.katalon.com/katalon-analytics/docs/create-plan.html#schedule-test-runs).
 
 >Notes:
 >
->When configuring multiple test run types, test run types must share a minimum of 1 mutual Agent for distributed execution. In other words, assign test runs to overlapping Agents.
+>When configuring multiple Test Run types, Test Run types must share a minimum of 1 mutual Agent for distributed execution. In other words, assign Test Run types to multiple, overlapping Agents.
 
 4. Activate your Agents before the scheduled Test Run time.
 
-5. When the Test Once the test run types execute, the test sessions of these test run types are assigned to the previously configured agents automatically.
+5. When the Test Once the Test Run types execute, the test sessions of these Test Run types are assigned to the previously configured agents automatically.
