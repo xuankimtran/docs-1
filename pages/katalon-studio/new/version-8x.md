@@ -14,7 +14,7 @@ description: Release notes 8.x
 ### New features
 
 * [CLI/CI] [Katalon Runtime Engine] Introduced an ability to terminate execution based on the maximum number of test failures allowed. See [doc's name](url)
-* [Mobile] Introduced `waitForElementNotPresent`. See [doc's name](url)
+* [Mobile testing] Introduced `waitForElementNotPresent`. See [doc's name](url)
 
 ### Enhancements
 
