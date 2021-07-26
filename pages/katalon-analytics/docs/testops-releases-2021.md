@@ -18,14 +18,13 @@ description:
 
 - Introduced Test Usage Validation. Users can view how many test runs remain until their subscription quota is capped.
 
+- Introduced Similar Error Suggestion. Users can view all common errors of their failed test results in the centralized view. 
+
 ### Enhancements
 
-- Added verification to attachments when uploading test cases
-- Made access logs sortable by date range
+- Enhanced filters for Reports & Analytics
 - Enhanced component release summary
-- Updated access log api exporting function to return csv file
 - Enabled component to show test percentage in release readiness
-- Applied feature flag for release readiness
 - Enhanced wizard for framework integration
 - Build visible under Configuration section for each Test Run
 
