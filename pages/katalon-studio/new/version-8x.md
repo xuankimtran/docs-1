@@ -27,6 +27,7 @@ description: Release notes 8.x
 * Introduced Microsoft Edge (Chromium) 92 compatibility.
 * [Sealights Integration] Published new APIs platform.
 * [Kobiton Integration] Introduced custom remote server and device name functionality.
+* Bug: [Performance] Saving a Test Case with many variables took a long time.
 
 ### Fixes
 
@@ -46,7 +47,6 @@ description: Release notes 8.x
 * Bug: [API Testing] An incorrect response thrown when leaving the parameter blank in the request URL path.
 * Bug: `waitForImagePresent` returned False despite the image appearing correctly.
 * Bug: `verifyElementPropertyValue` returned an incorrect error message.
-* Bug: [Performance] Saving a Test Case with many variables took a long time.
 * Bug: An error message thrown when continuing to record scripts with an existing test case returned error messages incorrectly.
 * Bug: Browser-based recorder could not record videos for the second test case if reusing an open browser.
 * Bug: Explorer Configuration in Project Settings was not working as intended.
