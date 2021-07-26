@@ -27,7 +27,7 @@ description:
 - Enabled component to show test percentage in release readiness
 - Applied feature flag for release readiness
 - Enhanced wizard for framework integration
-- build under Configuration section for each Test Run
+- Build visible under Configuration section for each Test Run
 
 ### Fixes
 
