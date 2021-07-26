@@ -4,6 +4,9 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/accept-sso.html
 redirect_from:
 ---
+
+> This feature is only available for Katalon TestOps Enterprise. To request a free trial, please visit [Trial Plans](https://docs.katalon.com/katalon-analytics/docs/trial-plans.html).
+
 ## Prerequisites
 
 - You have accepted the invitation to join Organization. [Learn more](https://docs.katalon.com/katalon-analytics/docs/setup-org-team-project.html#invite-a-user-to-the-organization)

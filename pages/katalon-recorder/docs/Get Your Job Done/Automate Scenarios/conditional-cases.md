@@ -1,5 +1,5 @@
 ---
-title: "Handle conditional cases"
+title: "Handle conditional cases in your tests"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-recorder/docs/conditional-cases.html
 description:

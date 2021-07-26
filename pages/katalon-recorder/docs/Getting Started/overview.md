@@ -16,10 +16,10 @@ Katalon Recorder is a free, Selenium IDE alternative, lightweight web extension 
 
 ## The 60-Second Elevator Pitch
 
-- **Katalon Recorder provides a faster time-to-value than Selenium IDE**. You can start automating instantly, without to worry about manually creating a project, test case, specifying a URL. A large percentage of our users use the product almost every day, so for them such time-saving compound to be a critical advantage.
-- **Katalon Recorder runs directly on your current tab**. This capability allows you to automate bits and pieces of your workflow, where a lot of actions are repetitive but some actions must be carried out by a human. This this different from Selenium IDE which always executes on a new tab.
-- **Katalon Recorder enables you to keep track of execution results**. You can report/share your execution results to your manager/colleagues/friends through our (free) integration with our companion product - [Katalon TestOps](https://docs.katalon.com/katalon-analytics/docs/overview.html).
-- **Katalon Recorder has consistent development efforts, dedicated community and support**. We are professionally motivated to help you resolve your problems, and listen to your suggestions about product improvement.
+- **Katalon Recorder provides faster time-to-value than Selenium IDE**. You can start automating instantly, without having to create a project, or specifying a URL. Overtime, this small difference compounds to be a huge time-saver.
+- **Katalon Recorder runs directly on your current tab**. This allows you to seamlessly combine manual and automated steps in your workflow. In comparison, Selenium IDE requires a brand new tab for every execution.
+- **Katalon Recorder enables you to keep track of execution results**. You can view your execution results and share them with other people through our [free TestOps integration](https://docs.katalon.com/katalon-analytics/docs/overview.html).
+- **Katalon Recorder has consistent development efforts, dedicated community and support**. We have a team professionally motivated to improve the product, listen and help fix to your problems.
 
 ## What do people use Katalon Recorder for ?
 
@@ -83,34 +83,30 @@ People reportedly use Katalon Recorder to:
         <tr>
             <td>
                 <ul>
-                    <li><a href="./automate-scenarios.html">Add actions to scenarios</a>
+                    <li><a href="./automate-scenarios.html">Create your first automation script</a>
                     </li>
                     <li><a href="./conditional-cases.html">Handle conditional cases</a>
                     </li>
-                    <li><a href="./validate-expected-values.html">Validate expected values</a>
-                    </li>                                        
+                    <li><a href="./validate-expected-values.html">Verify or assert states</a>
+                    </li>      
+                    <li><a href="./auto-backup.html">Auto backup your automation scripts to Katalon TestOps</a>
+                    </li>                                     
                 </ul>
             </td>
             <td>
                 <ul>
-                    <li><a href="./execute-scenarios.html#execute-a-scenario">Execute a scenario</a>
+                    <li><a href="./execute-scenarios.html">Execution modes</a>
                     </li>
-                    <li><a href="./execute-scenarios.html#execute-a-group-of-scenarios">Execute a group of scenarios</a>
+                    <li><a href="./self-healing.html">Self-healing</a>
                     </li>
-                    <li><a href="./execute-scenarios.html#execute-all-scenarios">Execute all scenarios</a>
-                    </li> 
-                    <li><a href="./execute-scenarios.html#execute-an-action">Execute an action</a>
-                    </li>   
+                    <li><a href="./command-line-runner.html ">Command-line runner</a>
+                    </li>
                 </ul>  
             </td>
             <td>
                 <ul>
-                    <li><a href="./auto-backup.html#view-execution-status">View execution status</a>
-                    </li>
-                    <li><a href="./auto-backup.html#save-execution-log">Save execution log</a>
-                    </li>
-                    <li><a href="./auto-backup.html#view-execution-history-with-testops">View execution history</a>
-                    </li>                                        
+                    <li><a href="./monitor-scenario-executions.html">Monitor automation script executions </a>
+                    </li>                    
                 </ul>
             </td>
         </tr>
@@ -126,12 +122,12 @@ People reportedly use Katalon Recorder to:
         <tr>
             <td>
                 <ul>
-                    <li><a href="./export-test-script.html">Export scenario to test script</a>
+                    <li><a href="./export-test-script.html">Export automation scripts to other frameworks</a>
                     </li>                   
                 </ul>
             </td>
             <td>
-                <a href="./data-driven-execution.html">Execute scenarios with multiple data</a>
+                <a href="./data-driven-execution.html">Execute automation scripts with multiple data set</a>
             </td>
             <td>
                 <ul>
@@ -140,7 +136,9 @@ People reportedly use Katalon Recorder to:
                     <li><a href="./extension-scripts-aka-user-extensionsjs-for-custom-locator-builders-and-actions.html#actions">Add custom actions</a>
                     </li>
                     <li><a href="./katalon-recorder-helper-tool.html#executing-os-commands">Use OS commands</a>
-                    </li>                                        
+                    </li>              
+                    <li><a href="./import-selenium-ide.html">Import tests from Selenium IDE</a>
+                    </li>                            
                 </ul>
             </td>
         </tr>

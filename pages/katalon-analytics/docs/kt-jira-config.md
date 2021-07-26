@@ -1,59 +1,122 @@
 ---
 title: "Jira Settings" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-analytics/docs/kt-jira-config.html 
+permalink: katalon-analytics/docs/kt-jira-config.html
+redirect_from: /katalon-analytics/docs/jira-gadgets.html
 ---
-Katalon TestOps provides seamless integration with Jira that brings several benefits for team collaboration. [Learn more](https://docs.katalon.com/katalon-analytics/docs/ka-integration-jira.html)
 
-## Prerequisites
+Katalon TestOps provides seamless Jira integration, which creates several benefits for more efficient team collaboration.
 
-* The [Jira App](https://marketplace.atlassian.com/apps/1217501/katalon-bdd-test-automation-for-jira) has been installed.
-* You are the owner/admin of Organization. [Learn more](https://docs.katalon.com/katalon-analytics/docs/kt_invite_user_org.html#strongorganization-level-roles-and-permissionsstrong)
+> Requirements:
+> * You must install [Jira App](https://marketplace.atlassian.com/apps/1217501/katalon-bdd-test-automation-for-jira).
+> * You must be the Owner or Admin of an Organization.
 
-## Configuration in Jira
+## Configure in Jira Software
 
-1. Navigate to **Katalon Settings** under Apps in Project Settings.
+You can configure Katalon Settings in your Jira page.
 
-![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-analytics/docs/jira-ka-configure/1-jira-ka-config.jpg)
+> Notes:
+>
+> Your Jira page name is under the form of `<site_name>.atlassian.net`.
 
-2. Enter the email registered for your Katalon account. 
+Follow these steps:
 
-3. Enter an **[API Key](https://docs.katalon.com/katalon-analytics/docs/ka-api-key.html)**.
+1. Click on the **Projects** tab in your Jira page. Choose your Project (e.g., Katalon).
 
-4. Click **Fetch Organization**.
+    The Project page appears as below.
 
-5. Enter **[Organization ID](https://docs.katalon.com/katalon-analytics/docs/getting-started.html)**.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-jira-settings/jira-soft-project-screen.png" width=100%>
+
+    Select **Project settings** at the bottom of the left bar.
+
+2. Scroll down the left bar to find the **Katalon Settings** section.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-jira-settings/jira-soft-scrolldown-bar-in-project-settings.png" width=100%>
+
+3. Select **Katalon Settings**.
+
+    The **Katalon settings** page appears as below.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-jira-settings/jira-soft-katalon-settings-screen.png" width=100%>
+
+4. Enter the email address you have registered for your Katalon account.
+
+5. Enter an **[API Key](https://docs.katalon.com/katalon-analytics/docs/ka-api-key.html)**.
+
+6. Click on the **Fetch organizations** button.
+
+5. Enter your Organization ID.
+
+    > Notes:
+    >
+    > You can find out your Organization ID in [Organization management](https://docs.katalon.com/katalon-analytics/docs/kt-create-org.html#manage-an-organization).
 
 6. Click **Save**.
 
-## Configuration in Katalon TestOps
+## Configure in Katalon TestOps
 
-1. Navigate to **Jira Settings** located under Configurations.
+1. Sign in to [Katalon TestOps](https://testops.katalon.io/login) and go to your Project.
 
-![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-analytics/docs/jira-ka-configure/2-jira-ka-config.png)
+    The Project's **Dashboard** page appears.
 
-2. Enter Jira URL, Username, and Password.
+2. Click on the **Configurations** tab, then the **Integrations** tab.
 
-* Jira Cloud
+    The **Integrations** page appears. There is a scrolldown menu on the page for a full list of integration options.
 
-    a. Jira URL must be in the form of _https://<site_name>.atlassian.net_.\
-    b. Enter the email registered for your Jira Cloud account in *Username*.\
-    c. Enter an Atlassian Cloud's API token in *Password*. See the instructions **[here](https://confluence.atlassian.com/cloud/api-tokens-938839638.html)**.
+3. Select **Jira** in the scrolldown menu.
 
-* Jira Server
+    The **Jira** page appears as below.
 
-    a. Jira URL must be in the form of _http(s)://domain_ without any trailing parts e.g., _/secure_.\
-    b. Use your username instead of an email in *Username*.\
-    c. Enter Password.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-jira-settings/testops-project-jira-integration-screen.png" width=100%>
 
-3. Click **Test Connection** to see if the connection is successful.
+4. Enter Jira URL, Username, and Password.
 
-4. Click **Save**.
+    * For Jira Cloud
 
-![](https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/jira-ka-configure/2-jira-ka-config.jpg)
+        * Jira URL must be in the form of `https://<site_name>.atlassian.net`.
 
-## Next Steps
+        * In the **Username** section, enter the email address you have  registered for your Jira Cloud account.
 
-- View testing progress in [Jira Release](https://docs.katalon.com/katalon-analytics/docs/kt-jira-release.html), [Jira Requirements](https://docs.katalon.com/katalon-analytics/docs/ka-integration-jira.html), [Jira Defects](https://docs.katalon.com/katalon-analytics/docs/ka-defects.html), [Jira Dashboard](https://docs.katalon.com/katalon-analytics/docs/jira-gadgets.html).
-- [Writing BDD in Jira](https://docs.katalon.com/katalon-analytics/docs/bdd-settings.html).
-- [Submit Test Results from Katalon Studio to Jira](https://docs.katalon.com/katalon-studio/docs/jira-integration.html).
+        * In the **Password** section, enter an Atlassian Cloud's API token.
+
+        > Notes:
+        >
+        > See instructions for [API tokens](https://confluence.atlassian.com/cloud/api-tokens-938839638.html).
+
+    * For Jira Server
+
+        * Jira URL must be in the form of `http(s)://domain`, without any trailing parts. For example, `/secure`.
+
+        * In the **Username** section, enter your Username instead of your email address.
+
+        * In the **Password** section, enter your Password.
+
+5. Click **Test Connection** to see if the connection is successful, then click **Save**.
+
+## Jira Dashboard gadgets
+
+You can see the latest results of Katalon Test Cases in Jira Dashboard.
+
+Click on the **Dashboards** tab in your Jira page, then click **Add gadget** on the top right corner.
+
+**Add a gadget** box displays as below.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/jira-gadgets/katalon-gadgets.png" width="" height="">
+
+Add **Katalon Dashboard** by clicking on the **Add gadget** button next to it.
+
+After adding **Katalon Dashboard**, a table showing the status and duration of each Test Case appears as below.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/jira-gadgets/dashboard.png" width="" height="">
+
+> Notes:
+>
+> See further instructions on how to [add and customize a gadget](https://support.atlassian.com/jira-core-cloud/docs/add-and-customize-a-gadget/).
+
+See also:
+
+* [Jira Requirements](https://docs.katalon.com/katalon-analytics/docs/ka-integration-jira.html), [Jira Defects](https://docs.katalon.com/katalon-analytics/docs/ka-defects.html).
+
+* [Writing BDD in Jira](https://docs.katalon.com/katalon-analytics/docs/bdd-settings.html).
+
+* [Submit Test Results from Katalon Studio to Jira](https://docs.katalon.com/katalon-studio/docs/jira-integration.html).

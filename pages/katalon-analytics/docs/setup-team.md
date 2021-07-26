@@ -1,88 +1,88 @@
 ---
-title: "How to set up Katalon TestOps Team and Project"
+title: "Set up TestOps Teams"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/setup-team.html
 redirect_from:
     - "/katalon-analytics/docs/setup-team/"
 ---
 
+A Team is a group of Users working on the same Projects. A Team is created by either the Owner or Admins of an Organization.
+
+Only Users can view and access the Team's Projects.
+
+## Roles and permissions at the Team level
+
+* **Owner**
+
+If you create a new Team, you become its Owner by default.
+As an Owner, you have full permission to transfer the Owner role to another team member.
+
+* **Admin**
+
+This role is granted by the Owner.
+
+The Admin has similar privileges as the Owner but cannot transfer the Team ownership to an existing team member.
+
+* **User**
+
+This role is automatically assigned to any person accepting the invitation to join the Team.
+
+Users can only monitor the Project's progress.
+
 ## Create a Team
 
-Teams are groups of users that reflect the company's structures. A team is created by either Owner or Admin in an organization. Only members of a team can view and access the projects within that team.
+Follow these steps:
 
-In the top right corner, click **Settings** icon, and then click **Team Management**.
+1. Click on the **Settings** icon at the top right corner of TestOps homepage and choose **Team Management**.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/ka_set_team_manage.png)
+    The **Manage Teams** page appears.
 
-In the **Manage Teams** view, select **Teams** on the left side-bar > give a name to your team and click **Create**. You're the team Owner by default.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-setup-team/kt-june-create-team-2.png" width="" height="">
+2. Enter the Team name and click **Create**.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/create-team.png" width="" height="">
+    You are the Owner of your Team.
 
-## Add users to Team
+### Add Users to a Team
 
-In the top right corner, click **Settings** icon, and then click **Team Management**. 
+1. Go to **Settings** and choose **Team Management**.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/ka_set_user_mange.png)
+    The **Manage Teams** page appears.
 
-Select **Users** on the left sidebar. The lists of **Users** and **Pending Invitations** display. Only the user, who you have just invited to the Organization, can be added to this team. Add your members to the team one by one by selecting **Invite user** on the top right corner.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/ka_manager_user_invite.png)
+2. Choose the Team (e.g., Katalon TestOps).
+    
+    The Team page appears.
 
-**Manage User** displays with the list of **Users** and **Pending Invitations**. 
+3. Click **Users** on the left bar of the Team page.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/add-users-team.png" width="" height=""> 
+    The **Manage Users** page appears.
 
-## **Team-level roles and permissions**
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-setup-team/kt-june-create-team-3.png" width="" height="">
 
-* **Owner** - is granted by default when creating new a team or transferred by other users, who has full permission related to the team, including users and projects of their team.
-* **Admin** - is granted by the Owner, who has the privileges of the Owner but cannot transfer the team ownership to an existing team member.
-* **User** - is automatically assigned when a person is first invited to collaborate in a team. Users can only monitor project progress.
+4. Select team members in the section **Add User to Team**. Click **Add**.
 
-## Invite a user to the team
+> Notes:
+>
+> You have to invite users into an Organization first. Only Users of the Organization can be added to the Team.
 
-* Only the team **Owner** or **Admin** can invite a user to the team.
+### Remove existing Users
 
-> Note: Only the user in an organization can be invited to a team in that organization. 
+In the **Manage Users** page, click on the *Trash bin* icon (next to the *Pencil* icon) to remove a User.
 
-* In the **Manage Teams** view, choose a team in the list **Teams**. 
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-setup-team/kt-june-create-team-4.png" width="" height="">
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_manage_team.png)
+A popup box appears. Confirm your action by clicking **Remove**.
 
-* The **Dashboard** displays. Click **Users** on the left sidebar. At the **Add User to Team** choose the users in the drop-down list. Then click **Add** to add users to the team.
+## Transfer Team ownership
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_manage_user_add_user.png)
+The Owner can reassign **Owner** and lower roles to existing members.
 
-* In the **Users** of **Manage Users**, the users and owner display. The default role for the invited person is **User**. 
+The Admin can reassign **Admin** and lower roles to existing members.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_manage_user_new_user.png)
+In the **Manage Users** page, click on the *Pencil* icon to edit the User's role.
 
-## Remove an existing user
+The **Edit Current User** box pops up. Select the new role in the dropdown list. Click **Save**.
 
-Select your team in **Manage Teams**, choose **Users** in the left sidebar, click the icon **Remove user** ( ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_remove_icon.png) ) in the last column and confirm your action in the pop-up.
-
-## Transfer team ownership
-
-The Admin and Owner can reassign the existing Admin and User to a new role. In the **Users** of **Manage Users**, click the pencil icon in the last column and then select **Admin**, **User** or **Owner** role in the drop-down list and click **Save**. A user can have different roles in different teams.
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_edit_role_user.png)
-
-## Create Projects
-
-A Katalon TestOps project is a handful of reports generated based on a dataset of automation test results which are imported by users. It would typically represent the development of automation testing work. A project is created only by Admins of a team with a particular name and automatically generated ID. There are many projects in a team.
-
-* On the top right corner, click **Settings** icon.
-* Click **Project Management**.
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_setting_project_manage.png)
-
-* On the top right corner, click the button **Create Project**, select the team in **Choose Team**, and click the button **Next**. 
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/kt_creat_new_team.png)
-
-Select **Projects** (on the left sidebar), give a name to your project and click **Create**.
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/setup-org-team-project/create-project.png" width="" height="">
-
-You have had your organization, team, and project. You can start working with Katalon TestOps now.
-
-* [Integration of Katalon Studio with Katalon TestOps](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html)
+> Notes:
+>
+> Users can have different roles in different teams.
