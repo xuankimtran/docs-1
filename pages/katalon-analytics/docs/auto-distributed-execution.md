@@ -16,15 +16,15 @@ description:
 >Agent version 1.7.0 onwards
 >At least 2 active Agents
 
-In Katalon TestOps, you can execute tests in parallel. During parallel execution, test runs are automatically load-balanced. This means that each time a test run starts, the test run is distributed to an available and active local test environment, minimizing execution time.
+In Katalon TestOps, you can execute tests in parallel. During parallel execution, Test Runs are automatically load-balanced. This means that each time a Test Run starts, the Test Run is distributed to an available and active local test environment, minimizing execution time.
 
-When a test run is executed, the test sessions will be assigned to the previously configured Agents in this order of priority:
+When a Test Run is executed, the test sessions will be assigned to the previously configured Agents in this order of priority:
 
 -Idle Agents
 -Agents that have not exceeded their Threshold
--Agents with the least number of queued test runs
+-Agents with the least number of queued Test Runs
 
-When an Agent completes a test run session, queued jobs that were first assigned to other Agents can be automatically reassigned to this Agent for immediate execution.
+When an Agent completes a Test Run session, queued jobs that were first assigned to other Agents can be automatically reassigned to this Agent for immediate execution.
 
 ## Configure Auto-Distributed Executions
 
