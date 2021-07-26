@@ -20,18 +20,29 @@ description:
 
 ### Enhancements
 
-Added verification to attachments when uploading test cases
-Made access logs sortable by date range
-Enhanced component release summary
-Updated access log api exporting function to return csv file
-Enabled component to show test percentage in release readiness
-Applied feature flag for release readiness
-Enhanced wizard for framework integration
-build under Configuration section for each Test Run
-
-### 
+- Added verification to attachments when uploading test cases
+- Made access logs sortable by date range
+- Enhanced component release summary
+- Updated access log api exporting function to return csv file
+- Enabled component to show test percentage in release readiness
+- Applied feature flag for release readiness
+- Enhanced wizard for framework integration
+- build under Configuration section for each Test Run
 
 ### Fixes
+
+- Could not filter API log by timestamp.
+- testRuns \(Number of test runs\) field could be manipulated into invalid values.
+- Long pending messages in Retry function.
+- Path Injection, Zip Slip vulnerabilities.
+- Occurences where the app would break because of a missing LD config file.
+- Uncommon error when creating thumbnail.
+- User could fetch other organization's invoices from Payment Success screen.
+- Week/day view of calendar would show wrong test runs when updating time zone.
+- Manually uploading Katalon Reports in TestOps sometimes failed.
+- Agent could not override Execution Mode of Test Suite Collection when executing with KRE 8.0 \ 8.0.5 versions.
+
+- Removed: polling message prompts for certain errors.
 
 ## June 22nd
 
@@ -48,11 +59,11 @@ build under Configuration section for each Test Run
 ### Fixes
 
 - Fixed a bug where users could not:
-    * migrate subscriptions.
-    * send an invitation email.
-    * calculate statistics for empty Test Runs.
-    * download a large Test Run as .xsls file.
-    * delete the execution.
+  - migrate subscriptions.
+  - send an invitation email.
+  - calculate statistics for empty Test Runs.
+  - download a large Test Run as .xsls file.
+  - delete the execution.
 
 - Fixed the missing profile name on the execution page.
 - Fixed search field for execution that doesn't re-run.
