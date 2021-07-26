@@ -22,12 +22,12 @@ description: Release notes 8.x
     * Enhanced function with new logic/behavior. 
     * Supported consolidating execution reports.
 * [Azure DevOps Integration] Submitted Release details and Test Run properties to Azure DevOps. See [doc's name](url)
+* [Kobiton Integration] Introduced custom remote server and device name functionality.
 * Introduced options to include or exclude timestamps in .properties files in the Project Settings folder. See [doc's name](url)
 * Introduced Chrome 92 compatibility.
 * Introduced Microsoft Edge (Chromium) 92 compatibility.
 * Published new APIs platform.
     - list out what API
-* [Kobiton Integration] Introduced custom remote server and device name functionality.
 * Reduced time a Test Case with many variables took a long time.
 
 ### Fixes
