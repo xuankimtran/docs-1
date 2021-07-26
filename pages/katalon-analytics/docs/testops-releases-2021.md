@@ -10,9 +10,7 @@ redirect from:
 description:
 ---
  
-## Latest Release - July 26, 2021
-
-## Release notes - Katalon TestOps - Version May 26th
+## Latest Release - July 26th, 2021
 
 ### New Features
 
@@ -20,7 +18,47 @@ description:
 
 - Introduced Test Usage Validation. Users can view how many test runs remain until their subscription quota is capped.
 
-## June 22
+### Enhancements
+
+Added verification to attachments when uploading test cases
+Made access logs sortable by date range
+Enhanced component release summary
+Updated access log api exporting function to return csv file
+Enabled component to show test percentage in release readiness
+Applied feature flag for release readiness
+Enhanced wizard for framework integration
+build under Configuration section for each Test Run
+
+### 
+
+### Fixes
+
+## June 22nd
+
+### New features
+
+- Added Re-run Test Results to the Test Results summary. See: [View Re-run Test Results in TestOps](https://docs.katalon.com/katalon-analytics/docs/rerun-results.html).
+
+### Enhancements
+
+-Updated maintainer column in Flaky Test list.
+-Updated UI for Integration function.
+-Enhanced security when updating Git test projects.
+
+### Fixes
+
+- Fixed a bug where users could not:
+    * migrate subscriptions.
+    * send an invitation email.
+    * calculate statistics for empty Test Runs.
+    * download a large Test Run as .xsls file.
+    * delete the execution.
+
+- Fixed the missing profile name on the execution page.
+- Fixed search field for execution that doesn't re-run.
+- Clarified the message for adding Users to Teams successfully.
+
+## May 26th
 
 ### Improvements
 
