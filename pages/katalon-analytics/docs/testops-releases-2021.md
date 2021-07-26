@@ -9,7 +9,26 @@ redirect from:
     - "/katalon-analytics/docs/advanced-0.1.x.html"
 description:
 ---
-## Latest Release - April 26
+ 
+## Latest Release - July 26, 2021
+
+## Release notes - Katalon TestOps - Version May 26th
+
+### New Features
+
+- Introduced Auto-distributed execution. Users can automatically distribute tasks to active and available Agents. Learn more: [Auto-Distributed Execution](https://docs.katalon.com/katalon-analytics/docs/auto-distributed-execution.html)
+
+- Introduced Test Usage Validation. Users can view how many test runs remain until their subscription quota is capped.
+
+## June 22
+
+### Improvements
+
+- Filter test runs by Build Name. [Learn more](https://docs.katalon.com/katalon-analytics/docs/filter-test-build-name.html)
+
+- View Release Readiness in TestOps Dashboard. [Learn more](https://docs.katalon.com/katalon-analytics/docs/dashboard-overview.html)
+
+## April 26
 
 ### New features
 
@@ -79,7 +98,7 @@ See [What's new in March Release?](/katalon-analytics/docs/new-core-11.html)
 
 - Enhance CI integrations.
 
-- Enhance UI/UX 
+- Enhance UI/UX
 
 - Simplify the Local Test Environment setup process.
 
@@ -97,4 +116,4 @@ See [What's new in March Release?](/katalon-analytics/docs/new-core-11.html)
 
 - Support sharing Test Run report via email.
 
-- Provide shortcuts to access reports. 
+- Provide shortcuts to access reports.

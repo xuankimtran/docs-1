@@ -1279,6 +1279,8 @@ items:
                     url: /katalon-analytics/docs/load-balancing-agents.html
                   - title: "Run multiple Test Suites in parallel with Agents"
                     url: /katalon-analytics/docs/kt_run_parallel_agent.html
+                  - title: "Auto-Distributed Execution" 
+                    url: /katalon-analytics/docs/auto-distributed-execution.html
               - title: "Docker Test Environments"
                 url: /katalon-analytics/docs/docker.html
               - title: "Install TestOps On-premises with Docker"
