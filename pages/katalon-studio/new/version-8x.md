@@ -13,7 +13,7 @@ description: Release notes 8.x
 
 ### New features
 
-* Introduced the Condition to stop test execution feature. See [doc's name](url)
+* [CLI/CI] [Katalon Runtime Engine] Introduced an ability to terminate execution based on the maximum number of test failures allowed. See [doc's name](url)
 * [Mobile][Keyword] Introduced `waitForElementNotPresent`. See [doc's name](url)
 
 ### Enhancements
@@ -25,9 +25,10 @@ description: Release notes 8.x
 * Introduced options to include or exclude timestamps in .properties files in the Project Settings folder. See [doc's name](url)
 * Introduced Chrome 92 compatibility.
 * Introduced Microsoft Edge (Chromium) 92 compatibility.
-* [Sealights Integration] Published new APIs platform.
+* Published new APIs platform.
+    - list out what API
 * [Kobiton Integration] Introduced custom remote server and device name functionality.
-* Bug: [Performance] Saving a Test Case with many variables took a long time.
+* Reduced time a Test Case with many variables took a long time.
 
 ### Fixes
 
