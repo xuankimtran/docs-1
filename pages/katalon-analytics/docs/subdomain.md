@@ -5,20 +5,34 @@ permalink: katalon-analytics/docs/subdomain.html
 redirect_from:
 ---
 
-> This feature is only available for Katalon TestOps Enterprise. To request a free trial, please visit [Trial Plans](https://docs.katalon.com/katalon-analytics/docs/trial-plans.html).
-
-> This feature is accesible to the organization **Owner** and **Admin** only.
+> Notes:
+>
+> This feature is only available in Katalon TestOps Enterprise.
+>
+> You can request a trial of Katalon TestOps Enterprise. See: [TestOps Trial Plans](https://docs.katalon.com/katalon-analytics/docs/trial-plans.html).
 
 ## Create a Subdomain
 
-1. Access https://testops.katalon.io.
+> Requirements:
+>
+> You must be an **Owner** or **Admin** of an Organization.
 
-2. In **Katalon Admin** page, go to the **Custom Domain** section in **Organization Settings**.
+1. Sign in to [Katalon TestOps](https://testops.katalon.io/login).
 
-3. Enter your **Domain Name** to the field as below.
+2. Go to **Settings** > **Organization Management**.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/subdomain/subdomain.png)
+3. Select **Settings** on the left bar.
 
-> Note: A domain name can only contain the **letters (a-z)** and the **digits (0-9)**.
+    The **Settings** page appears.
+    
+4. Enter your Domain Name in the **Custom Domain** section.
 
-4. Click on **Update** to set up your new subdomain.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-subdomain/custom-domain-section.png" width=100% alt="enter domain name">
+
+    > Notes:
+    >
+    > A Domain Name can only contain the letters (a-z) and digits (0-9).
+
+5. Click **Update**.
+
+You have created your Subdomain.
