@@ -84,8 +84,6 @@ You can select an Agent here to assign it to your new Test Plan.
 
     > Notes:
     >
-    > * If you want to assign multiple Test Runs to the same Agent whose Threshold you have configured, repeat step 2 to 5 for each Test Run.
-    >
-    > * You can assign Test Runs to multiple Agents. The most available and active Agent would then run the Test.
+    > * If you want to reassign old Test Run Types or assign multiple new Test Run Types to the same Agent whose Threshold you have configured, repeat step 2 to 5 for each Test Run Type.
 
 To check the Test Execution process, go back to the **Test Environments** page.
