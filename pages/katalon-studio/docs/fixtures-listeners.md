@@ -80,8 +80,9 @@ Test Listeners are the same as other test artifacts. You can perform all basic o
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-listeners-test-hooks/image2017-12-5-103A353A38.png" alt="Test Listeners options" width=100%>
 
-| Generate sample Before Test Case method | A sample listener will be generated before every test case starts. |
+| Option | Description |
 | --- | --- |
+| Generate sample Before Test Case method | A sample listener will be generated before every test case starts. |
 | Generate sample After Test Case method | A sample listener will be generated after every test case ends. |
 | Generate sample Before Test Suite method | A sample listener will be generated before every test suite starts. |
 | Generate sample After Test Suite method | A sample listener will be generated after every test suite ends. |
