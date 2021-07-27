@@ -66,7 +66,7 @@ You can select an Agent here to assign it to your new Test Plan.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-load-balancing/test-run-types-page.png" width=100% alt="test run type page">
 
-2. Click on a Test Run (e.g., **a Verify Match exact name**).
+2. Click on a Test Run Type (e.g., **a Verify Match exact name**).
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-load-balancing/a-verify-match-exact-name-page.png" width=100% alt="a verify match exact name page">
 
