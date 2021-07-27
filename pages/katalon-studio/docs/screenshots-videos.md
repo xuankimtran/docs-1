@@ -12,7 +12,7 @@ You can record and watch videos to see what went wrong with failed tests.
 > Notes
 > * You can only record videos for Web UI testing.
 
-Katalon Studio version **7.8 onwards** supports [screen-based recording](katalon-studio/docs/record-screen-based-videos.html) and browser-based recording. Screen-based recording allows you to see tests run in a local machine while browser-based recording enables you to see tests run in console mode.
+Katalon Studio version **7.8 onwards** supports [screen-based recording](katalon-studio/docs/record-screen-based-videos.html) and browser-based recording.
 
 > **Requirements:**
  >
