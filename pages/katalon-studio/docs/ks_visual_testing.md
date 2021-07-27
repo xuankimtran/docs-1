@@ -33,7 +33,7 @@ Follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-visual-testing/visual-testing-page-testops.png" width=100% alt="visual test runs page in visual testing">
 
-5. Click on the ID of the Test Run.
+5. Click on the ID of a Test Run.
 
     The Test Run's **Results** page appears.
 
@@ -41,7 +41,7 @@ Follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-visual-testing/checkpoints-page.png" width=100% alt="test run #1 checkpoints page">
 
-    You can see the screenshots captured during a Test Execution.
+    You can see the screenshots captured during a test execution.
 
 7. Select one of the screenshots to see the details.  
 
@@ -59,7 +59,7 @@ Follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-visual-testing/id-1-sample-visual-testing.png" width=100% alt="id1 sample visual testing image">
 
-2. Click on the *Passed* or *Failed* icon at the top right corner of a screenshot, then close the screenshot.
+2. Select the *Passed* or *Failed* icon at the top right corner of a screenshot, then close the screenshot.
 
     An *Unsaved* label now appears on the **Checkpoints** page.
 
@@ -73,7 +73,7 @@ Follow these steps:
 
 > Notes:
 >
-> If you run a Test Suite for the first time and the Test Suite passed. Its screenshots are automatically marked as *Passed* and there is no **Save to baseline** button. You can open a screenshot and click on the *Failed* icon, then switch back to *Passed* so that the **Save to baseline** button appears.
+> If you run a Test Suite for the first time and the Test Suite has passed. Its screenshots are automatically marked as *Passed* and there is no **Save to baseline** button. You can open a screenshot and click on the *Failed* icon, then switch back to *Passed* so that the **Save to baseline** button appears.
 
 ### View Baseline information
 
@@ -81,7 +81,7 @@ To see the baseline images you have saved, go to **Reports & Analytics** > **Vis
 
 ### Unresolved images
 
-If you run the Test Suite again and the new screenshots of Test Execution are different from the baseline images. The status of the Test Run is then marked as *Unresolved*.
+If you run the Test Suite again and the new screenshots of this test execution are different from the baseline images, the status of this Test Run is then marked as *Unresolved*.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-visual-testing/visual-testing-page-id-4-unresolved.png" width=100% alt="id4 unresolved status">
 
@@ -93,14 +93,14 @@ To resolve the issues, follow these steps:
 
 2. Select a screenshot.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-visual-testing/test-run-id-4-mismatch-unresolved.png" width=100% alt="id4 mismatch">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-visual-testing/show-diff-button.png" width=100% alt="id4 mismatch show diff button">
 
     For mismatched screenshots, the new screenshot (on the right) is compared with the baseline image (on the left). 
 
-3. Click **Show diff** to see the differences between two images (marked in red).
+3. Click **Show diff** to see the differences between two images (the differences are highlighted in red).
 
-4. Click on the *Passed* or *Failed* icon to resolve.
+4. Select the *Passed* or *Failed* icon to resolve.
 
     > Notes:
     >
-    > * The *Unsaved* label appears whenever you change the status (*Passed* or *Failed*) of a screenshot. If you click **Save to baseline** the new *Passed* screenshots replace the older baseline images. Katalon TestOps then compares the new baseline images with the screenshots of the next Test Runs.
+    > * The *Unsaved* label appears whenever you change the status (*Passed* or *Failed*) of a screenshot. If you click **Save to baseline**, the new *Passed* screenshots replace the older baseline images. Katalon TestOps then compares between the new baseline images and screenshots of the next Test Runs.
