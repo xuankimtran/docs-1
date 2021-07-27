@@ -4,9 +4,9 @@
  permalink: katalon-studio/docs/capture-screenshots.html
 ---
 
- With Katalon Studio, you can capture screenshots during test execution.
+With Katalon Studio, you can capture screenshots during test execution.
 
- Capturing screenshots helps you identify the problem when a test fails. By doing so, you can debug the test script more effectively and quickly.
+Capturing screenshots helps you identify the problem when a test fails. By doing so, you can debug the test script more effectively and quickly.
 
 By default, Katalon Studio captures screenshots automatically upon test failures. This feature is currently applicable to Web UI and Mobile testing.
 
@@ -16,9 +16,9 @@ When a test suite fails, you can either open a test suite's report or go to a te
 
 To view the captured screenshots in a test suite's **Results** tab, follow these steps:
 
-1. Select a Test Suite.
+1. Select the failed Test Suite.
 2. Open its **Result** tab.
-3. Select the failed test case.
+3. Select a failed test case.
 4. Click **Show Test Case Details** on the top right corner.
 
     The Test Case's Log then appears.
