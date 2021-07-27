@@ -1,34 +1,49 @@
 ---
-title: "[Admin] Enable Single Sign-On (SSO) for an Organization to access Katalon TestOps"
+title: "Enable Single Sign-On (SSO) for an Organization to access Katalon TestOps"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/sso-settings.html
 redirect_from:
 ---
 
-> This feature is only available for Katalon TestOps Enterprise. To request a free trial, please visit [Trial Plans](https://docs.katalon.com/katalon-analytics/docs/trial-plans.html).
-
-> This feature is accesible to the organization **Owner** and **Admin** only.
-
-## Prerequisites
-
-- You have configured a subdomain for your Organization. [Learn more](https://docs.katalon.com/katalon-analytics/docs/subdomain.html)
-- You have configured Identity Provider and have your metadata (this will be automatically encrypted in Katalon's database).
+> Notes:
+>
+> This feature is only available in Katalon TestOps Enterprise.
+>
+> You can request a trial of Katalon TestOps Enterprise. See: [TestOps Trial Plans](https://docs.katalon.com/katalon-analytics/docs/trial-plans.html).
 
 ## Configure Single Sign-On
 
-1. Access https://testops.katalon.io.
+> Requirements:
+>
+> * You must be an **Owner** or **Admin** of an Organization.
+>
+> * You have configured a Subdomain. See [Configure a Subdomain for an Organization](https://docs.katalon.com/katalon-analytics/docs/subdomain.html).
+>
+> * You have configured Identity Provider. Your metadata is then automatically encrypted in Katalon's database.
 
-2. In the **Katalon Admin** page, go to **Settings** > **Single Sign-On (SSO) Settings** > **Enable SSO** and enter your metadata.
+## Configure Single Sign-On
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/sso-settings/enable-sso.png)
+1. Sign in to [Katalon TestOps](https://testops.katalon.io/login).
 
-3. Click on **Update** to finish.
+2. Go to **Settings** > **Organization Management**.
 
-## Invite and enable SSO for Organization members
+3. Select **Settings** on the left bar, and scroll down to the **Single Sign-On (SSO) Settings** section.
 
-After you have configured SSO for your Organization, you can invite and enable SSO for each member.
+4. Switch **Enable SSO** to **Active**.
 
-### Invite and enable SSO for a new user
+    You then can enter your Metadata.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/sso-settings/enable-sso.png" width=100% alt="SSO section input metadata">
+
+5. Click **Update**.
+
+## Enable SSO for new members and existing members
+
+After configuring SSO, you can enable SSO for new members by inviting them to your Organization.
+
+You can also enable SSO for the existing members of your Organization.
+
+### For a new user
 
 1. Learn how to invite users to an organization [here](https://docs.katalon.com/katalon-analytics/docs/setup-org-team-project.html#invite-a-user-to-the-organization).
 
