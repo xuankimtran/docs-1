@@ -15,7 +15,7 @@ Ask yourself the following questions:
 
 ## Define Test Suite goals
 
-A test suite compiles a series of actions depicting a particular user experience on your website.
+A test suite includes a series of actions depicting a particular user experience on your website.
 
 You plan test cases based on deciding which action a test case should perform. You then create a test suite flow by naming and ordering test cases.
 
