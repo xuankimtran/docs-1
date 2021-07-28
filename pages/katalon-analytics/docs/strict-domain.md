@@ -4,20 +4,34 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/strict-domain.html
 description:
 ---
-> This setting is accesible to the organization **Owner** and **Admin** only.
 
-- When this setting is enabled, all members in your Organization will be restricted from https://analytics.katalon.com. 
+* If you enable the Strict Domain, all members of your Organization have restricted access to [Katalon TestOps](https://testops.katalon.io/login).
+* If you disable the Strict Domain, all members of your Organization have full access to [Katalon TestOps](https://testops.katalon.io/login).
 
-- When disabled, the domain (https://analytics.katalon.com) is accessible for all members.
+## Enable the Strict Domain
 
-In **Katalon Admin** page, go to the **Strict Domain** section in **Organization Settings** and click on **Enable/Disable strict domain**.
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/strict-domain/enable-strict-domain.png)
-
-You need to confirm your action by clicking on *“I understand the consequences, enable/disable strict domain"*.
-
-> **IMPORTANT**
+> Requirements:
 >
-> To avoid access restriction during the setup process, please make sure you have completed all configurations including [Enabling SSO](https://docs.katalon.com/katalon-analytics/docs/sso-settings.html#configure-single-sign-on) and [Invite users to sign in via SSO](https://docs.katalon.com/katalon-analytics/docs/sso-settings.html#invite-and-enable-sso-for-organization-members) (if needed) before enabling strict domain.
+> * You must be an **Owner** or **Admin** of an Organization.
+>
+> * You must complete all settings including [SSO Configurations](https://docs.katalon.com/katalon-analytics/docs/sso-settings.html#configure-single-sign-on) before enabling the Strict Domain.
 
+Follow these steps:
 
+1. Sign in to [Katalon TestOps](https://testops.katalon.io/login).
+
+2. Go to **Settings** > **Organization Management**.
+
+3. Select **Settings** on the left bar, then scroll down to the **Danger zone** section.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/strict-domain/enable-strict-domain.png" width=100% alt="danger zone strict domain">
+
+4. Click **Enable strict domain**.
+
+    The **Enable strict domain** box pops up.
+
+5. Click **I understand the consequences, enable strict domain** to confirm.
+
+> Notes:
+>
+> Once you have enabled the Strict Domain, you have an option to disable it by following the same principles.
