@@ -138,7 +138,8 @@ To migrate Selenium/TestNG/JUnit scripts to a Katalon Studio project, please do 
 
 ### Video tutorial
 
-To migrate Selenium/TestNG/JUnit scripts to a Katalon Studio project, follow the steps in this tutorial: 
+To migrate Selenium/TestNG/JUnit scripts to a Katalon Studio project, follow the steps in this tutorial:
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jpnAMZQtuiI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 See also this sample project demonstrating how to migrate TestNG scripts to Katalon Studio: [TestNG Migration](https://github.com/katalon-studio-samples/TestNG-Migration).
