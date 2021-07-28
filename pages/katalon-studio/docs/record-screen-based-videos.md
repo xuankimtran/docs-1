@@ -9,11 +9,11 @@ You can record and watch videos to see what went wrong with failed tests.
 > Notes
 > * You can only record videos for Web UI testing.
 
-Katalon Studio version **7.8 onwards** supports screen-based recording and [browser-based recording](katalon-studio/docs/record-browser-based-videos.html).
+Katalon Studio version **7.8 onwards** supports screen-based recording and [browser-based recording](https://docs.katalon.com/katalon-studio/docs/record-browser-based-videos.html).
 
 Screen-based Recorder captures and records what is happening on the computer screen when running a test. The function can be used with Chrome, Firefox, Safari, Microsoft Edge, or IE.
 
-Screen-based Recorder is currently available for single Test Suite execution only. To record parallel executions, you can follow these instructions instead: [Record Browser-based Videos](katalon-studio/docs/record-browser-based-videos.html).
+Screen-based Recorder is currently available for single Test Suite execution only. To record parallel executions, you can follow these instructions instead: [Record Browser-based Videos](https://docs.katalon.com/katalon-studio/docs/record-browser-based-videos.html).
 
 We recommend the [K-Lite Codec](https://www.codecguide.com/download_kl.htm) to play the recorded screen-based video.
 
