@@ -1,5 +1,5 @@
 ---
-title: "Enable Single Sign-On (SSO) for an Organization to access Katalon TestOps"
+title: "Enable Single Sign-On (SSO) for an Organization"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/sso-settings.html
 redirect_from:
