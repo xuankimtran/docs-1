@@ -1378,11 +1378,7 @@ items:
           - title: "Subdomain Configurations"
             url: /katalon-analytics/docs/subdomain.html
           - title: "Single Sign-On (SSO) Configurations"
-            tree:
-              - title: "[Admin] Enable SSO for an Organization"
-                url: /katalon-analytics/docs/sso-settings.html
-              - title: "[User] Accept a SSO Request"
-                url: /katalon-analytics/docs/accept-sso.html
+            url: /katalon-analytics/docs/sso-settings.html
           - title: "Enable/Disable Strict Domain"
             url: /katalon-analytics/docs/strict-domain.html
           - title: "Configure Network Security"
