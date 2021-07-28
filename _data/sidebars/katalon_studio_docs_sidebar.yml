@@ -987,11 +987,11 @@ items:
             url: /katalon-studio/docs/test-suite-report.html
           - title: "View and Customize Execution Log"
             url: /katalon-studio/docs/working-with-execution-log.html
-          - title: "Capture Screenshots”
+          - title: "Capture Screenshots"
             url: /katalon-studio/docs/capture-screenshots.html
-          - title: "Record Screen-based Videos”
+          - title: "Record Screen-based Videos"
             url: /katalon-studio/docs/record-screen-based-videos.html    
-          - title: "Record Browser-based Videos”
+          - title: "Record Browser-based Videos"
             url: /katalon-studio/docs/record-browser-based-videos.html  
           - title: "View Execution Summary and Advanced Reports"
             url: /katalon-studio/docs/view-execution-list.html
