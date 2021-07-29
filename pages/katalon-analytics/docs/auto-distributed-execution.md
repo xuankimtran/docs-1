@@ -11,10 +11,10 @@ description:
 
 >Requirements:
 >
->Katalon Studio version 8.0 onwards
->Katalon Runtime Engine
->Agent version 1.7.0 onwards
->At least 2 active Agents
+>* Katalon Studio version 8.0 onwards
+>* Katalon Runtime Engine
+>* Agent version 1.7.0 onwards
+>* At least 2 active Agents
 
 In Katalon TestOps, you can execute tests in parallel. During parallel execution, Test Runs are automatically load-balanced. This means that each time a Test Run starts, the Test Run is distributed to an available and active local test environment, minimizing execution time.
 
@@ -40,4 +40,4 @@ When an Agent completes a Test Run session, queued jobs that were first assigned
 
 4. Activate your Agents before the scheduled Test Run time.
 
-5. When the Test Once the Test Run types execute, the test sessions of these Test Run types are assigned to the previously configured agents automatically.
+5. Once the Test Run types execute, the test sessions of these Test Run types are assigned to the previously configured agents automatically.
