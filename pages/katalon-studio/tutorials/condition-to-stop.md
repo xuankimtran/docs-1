@@ -1,24 +1,25 @@
 ---
-title: "Terminate Execution Additionally"
+title: "Terminate Execution Conditionally"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/condition-to-stop.html
-description: "This article provides the concept of terminating execution additionally and the tutorial on common use cases."
+description: "This article provides the concept of terminating execution conditionally and the tutorial on common use cases."
 ---
-From **version 8.1.0 onwards**, you can terminate test suite and test suite collection execution conditionally based on the number of test failures. This article provides the concept of terminate execution conditionally and the tutorial on common use cases. The ability to terminate execution additionally solves the problem when there is a significant number of test cases in an execution having failed and you want to have early feedback instead of waiting for the execution to finished.
+From **version 8.1.0 onwards**, you can terminate test suite and test suite collection execution conditionally based on the number of test failures. This article provides the concept of the configuration on terminating execution and the tutorial on common use cases. The ability to terminate execution conditionally solves the problem when there is a significant number of test cases in an execution having failed and you want to have early feedback instead of waiting for the execution to finished.
 
-You can terminate a test suite and test suite collection execution conditionally via the command-line to save time spent waiting for the execution to finish. The addition to terminate execution is based on the maximum number of test failures allowed during runtime.
+You can set the condition to terminate a test suite and test suite collection execution via the command-line to save time spent waiting for the execution to finish. The condition is based on the maximum number of test failures allowed during runtime.
 
-Terminate execution conditionally is useful when a set of tests is mature, and it takes hours to finish execution. A significant number of test failures in execution can reflect the tested build’s quality. By terminating the execution, you can have earlier feedback instead of waiting for the execution to finish.
+Terminate execution conditionally is useful when a set of tests is mature, and it takes hours to finish execution. A significant number of test failures in execution can reflect the tested build’s quality.
 
 Defining a threshold that sets the maximum number of test failures in an execution helps you save time and enhance testing efficiency, especially on new code committed or a new build available. A reasonable threshold is subject to the acceptance level of each software team.
 
-### Requirements
-- A test suite or test suite collection and a defined number of maximum failure test cases. See [Create a test suite](https://docs.katalon.com/katalium-framework/docs/katalium-framework-create-test-suite.html).
-- Katalon Studio **version 8.1.0 onwards**. Install the [latest Katalon Studio version](https://www.katalon.com/download/).
-- Katalon Studio Enterprise and Katalon Runtime Engine License. See [Katalon licensing](https://docs.katalon.com/katalon-studio/docs/license.html).
+>**Requirements**
+>- A test suite or test suite collection. See [Create a test suite](https://docs.katalon.com/katalium-framework/docs/katalium-framework-create-test-suite.html).
+>- Katalon Studio **version 8.1.0 onwards**.
+>- A Katalon Studio Enterprise and Katalon Runtime Engine License. See [Katalon licensing](https://docs.katalon.com/katalon-studio/docs/license.html).
 
 >**What is a test failure?**
->A test failure is a failed test case or test data execution in a test suite.
+>
+>A test failure is a failed test case or test iteration execution in a test suite.
 >- 1 test case fails = 1 test failure
 >- 1 retried test case fails = 1 test failure
 >- 1 test iteration (test case + data row) fails = 1 test failure
@@ -28,20 +29,20 @@ Defining a threshold that sets the maximum number of test failures in an executi
 
 **In Command Builder**
 
-To enable terminate execution conditionally, in Katalon Studio, go to **Build CMD** (Build Command) on the toolbar.
+To enable the condition to terminate execution, in Katalon Studio, go to **Build CMD** (Build Command) on the toolbar.
 
 In the **Generate Command for Console Mode** dialog, see the **Execution Configurations** section. Select the checkbox: **Terminate the execution once the total number of test failures reaches this threshold** and fill in the text field with the maximum test failures number.
 
-After you're done with the setting, you can **Generate command** or **Generate property file** to run with Console mode. See [Command Builder](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#command-builder) for detailed instruction on how to run a test execution in Console mode.
+After you're done with the setting, you can **Generate command** or **Generate property file** to run with Console mode. For detailed instruction on how to run a test execution in Console mode, see: [Command Builder](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#command-builder).
 
 **Command-line option**
 
-You can use the command-line option for setting condition to terminate test suite/ test suite collection execution. Given T as the maximum number of test failures allowed. Setting the maximum number of test failures allowed in the execution by using this command-line option: **-maxFailedTests= T**.
+You can use the command-line option for setting condition to terminate a test suite/ test suite collection execution. Given T as the maximum number of test failures allowed. Setting the maximum number of test failures allowed in the execution by using this command-line option: **-maxFailedTests= T**.
 
 See [Katalonc command-line option](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#automatically-updating-webdriver-option) for the list of common command-line options supported.
 
 ## Common Use Cases
-You can apply the terminate execute conditionally in many different situations. Below are the three most common use cases:
+You can apply the condition to terminate execute in many different situations. Below are the three most common use cases:
 ### Terminate Test Suite Execution
 Given that you have a test suite that has 6 test cases. You set the maxFailedTests = 4.
 The test suite has the result describes in the table below:
@@ -356,7 +357,7 @@ The test suite has the result describes in the table below:
 		</th>
 		<th colspan="1" rowspan="1" data-colwidth="150">
 			<div data-="">
-				<p data-renderer-start-pos="23295"><strong data-renderer-mark="true">Condition to Stop</strong></p>
+				<p data-renderer-start-pos="23295"><strong data-renderer-mark="true">Condition to Terminate</strong></p>
 			</div>
 			<div data-="">
 				<p data-renderer-start-pos="23314">T=100&nbsp;</p>
