@@ -56,7 +56,7 @@ In **Implicit timeout**, you can decide the timeout period that Katalon waits fo
 
 Using the **Retry** feature, you can configure when and how many times Katalon retries an execution of a Test Suite until the Test Suite finishes executing.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/retry-new-ui.png" width=85%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/retry-new-ui.png" width=80%>
 
 **Where**
 
@@ -64,7 +64,7 @@ Using the **Retry** feature, you can configure when and how many times Katalon r
 
    Prior to version 8.1.0, when a Test Case in a Test Suite fails, the Test Suite reruns immediately from the failed Test Case. If the Test Suite reruns for the configured rerun times and the Test Case still fails, Katalon Studio stops executing the Test Suite right away.
 
-   From version 8.1.0 onwards, you will define how many times to immediately rerun a failed Test Case of a Test Suite. When a Test Case is failed and already meets the configured rerun times, regardless of its result, Katalon Studio continues execute the rest Test Cases of the Test Suite.
+   From version 8.1.0 onwards, you will define how many times to immediately rerun a failed Test Case of a Test Suite. When a Test Case is failed and meets the configured rerun times, Katalon Studio continues to execute the rest Test Cases of the Test Suite regardless of its result.
 
    **Requirements**
 
@@ -73,15 +73,15 @@ Using the **Retry** feature, you can configure when and how many times Katalon r
 
    **Usage example**
    
-   As you can see in the following screenshot, we have a Test Suite with five Test Cases, and Retry Failed Execution Immediately is set for one time > execute the Test Suite > Katalon Studio runs all the Test Cases in the Test Suite sequentially.
+In this example, we have a Test Suite with five Test Cases, and Retry Failed Execution Immediately is set for one time > execute the Test Suite > Katalon Studio runs all the Test Cases in the Test Suite sequentially until the Test Suite finishes executing.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/ts-with-5-tc-and-retry-fail-1.png" width=75%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/ts-with-5-tc-and-retry-fail-1.png" width=70%>
 
-   Once the Test Suite finishes executing, open the **Result** tab, collapsing the Test Case 3, you can see its status is Failed with 1 is the main run and the rerun time is numbered 2 which meets the configured rerun time (one time). At this point, Katalon Studio logs the final result of the Test Case 3 as Failed and continues to execute the Test Case 4 and 5 with the same logic.
+Once the Test Suite finishes executing, open the **Result** tab, collapsing the Test Case 3, you can see its status is "Failed" with 1 is the main run, and 2 is the rerun time that meets the configured rerun time (one time). At this point, Katalon Studio logs the final result of Test Case 3 as Failed and continues to execute Test Case 4 and 5 with the same logic.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/retry-usage-example-result.png" width=85%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/retry-usage-example-result.png" width=80%>
 
-   The **Summary tab** shows how many Test Cases were executed and their final status. In this use case, we have five total Test Cases, 3 of them Passed and 2 Failed.
+   The **Summary tab** shows how many Test Cases were executed and their final status. In this use case, we have five total Test Cases, 3 of them Passed, and 2 Failed.
 
    > Along with the Execution log, Katalon Studio automatically consolidates reports in JUnit, HTML, PDF, and CSV format with one final test result for a Test Case. Also, browser-based or window-based video is recorded accordingly for both run and rerun of a Test Case.
 
