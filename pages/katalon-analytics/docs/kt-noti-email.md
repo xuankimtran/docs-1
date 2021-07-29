@@ -5,16 +5,16 @@ permalink: katalon-analytics/docs/kt-noti-email.html
 description: 
 ---
 
-Katalon TestOps sends notification emails to help you keep track of scheduled test executions. You can receive notification emails when test resutls are uploaded to Katalon TestOps.
-
-> Requirements:
->
-> You have enabled TestOps integration in Katalon Studio. See: [Katalon Studio Integration](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html).
-
 By default, you receive the following notification emails:
 
 * Notifications on failed test runs that are uploaded to Katalon TestOps.
 * Weekly reports based on your testing activities.
+
+Katalon TestOps sends notification emails to help you keep track of scheduled test executions. You can receive notification emails when test results are uploaded to Katalon TestOps.
+
+> Requirements:
+>
+> You have enabled TestOps integration in Katalon Studio. See: [Katalon Studio Integration](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html).
 
 ## Configure Notifications
 
