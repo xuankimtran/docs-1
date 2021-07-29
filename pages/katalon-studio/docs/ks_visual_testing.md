@@ -10,14 +10,13 @@ In Katalon TestOps, you can compare images captured during test executions with 
 
 > Requirements:
 >
-> * You have used Katalon Studio application.
 > * You have enabled [Katalon Studio Integration](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html).
 
 ## Set up Visual Testing
 
 Follow these steps:
 
-1. Enable screenshots capture in Katalon Studio. See [Capture Screenshots](https://docs.katalon.com/katalon-studio/docs/capture-screenshots.html).
+1. Enable screenshot capture in Katalon Studio. See [Capture Screenshots](https://docs.katalon.com/katalon-studio/docs/capture-screenshots.html).
 
 2. Run a Test Suite in Katalon Studio.
 
@@ -73,9 +72,9 @@ Follow these steps:
 
 > Notes:
 >
-> If you run a Test Suite for the first time and the Test Suite has passed. Its screenshots are automatically marked as *Passed* and there is no **Save to baseline** button. You can open a screenshot and click on the *Failed* icon, then switch back to *Passed* so that the **Save to baseline** button appears.
+> If you run a Test Suite for the first time and the Test Suite has passed, the screenshots are automatically marked as *Passed* and there is no **Save to baseline** button. You can open a screenshot and click on the *Failed* icon, then switch back to *Passed* so that the **Save to baseline** button appears.
 
-### View Baseline information
+### View baseline information
 
 To see the baseline images you have saved, go to **Reports & Analytics** > **Visual Testing** > **Visual Baselines**, then select a screenshot for **Baseline information**.
 
