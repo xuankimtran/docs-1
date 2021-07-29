@@ -97,7 +97,7 @@ After enabling Git Integration, you can clone an existing **Git repository** int
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/RSA%20key.png" alt="rsa key" width=70%>
     
     3. Add your SSH key to the SSH agent:
-        - Go to your **Git Account > Settings > SSH and GPG keys**. Create a **New SSH key**. If you already have some SSH keys here, you don’t need to delete your old keys to create a new key.
+        - Go to your **Git Account > Settings > SSH and GPG keys** and click **New SSH key**. The **SSH keys / Add new** page appears.
         - In **SSH keys / Add new**, enter the **Title** and paste your **Key**, then click **Add SSH key**
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/Add%20new%20SSH%20key.png" alt="add new SSH key" width=70%>
@@ -107,15 +107,16 @@ After enabling Git Integration, you can clone an existing **Git repository** int
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/RSA%20id.png" alt="SSH URL" width=70%>
 
     5. Add a new SSH key to your Git account:
-    In the **Source Git Repository** dialog, enter a repository URL with SSH Protocol and click **Next**.  
+    - In the toolbar, click on the **Git** icon and select **Clone project**. The **Source Git Repository** dialog appears.
+    - In the **Source Git Repository** dialog, enter a repository URL with SSH Protocol and click **Next**.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/ssh.png" alt="source git repository" width=70%>
     
-    Enter the passphrase for the key generated above.
+    Enter the passphrase for the key generated above. The **Branch Selection** screen appears.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/filled-passphrase.png" alt="Enter the passphrase" width=70%>
 
-    6. At the **Branch Selection** screen, you can choose which branches to be checked out as local branches. Click **Next** to continue.
+    6. At the **Branch Selection** screen, you can choose which branches to be checked out as local branches. Click **Next** to continue. The **Local Destination** appears.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/branch.png" alt="choose local branches" width=70%>
 
@@ -193,9 +194,9 @@ The **Checkout Branch** option allows you to switch from one branch to another.
 
 1. On the main toolbar, select the **Git icon > Manage Branches > Checkout Branch**.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-2-22-153A73A15.png" alt="checkout branche" width=60%>
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-2-22-153A73A15.png" alt="checkout branch" width=60%>
 
-2. The **Select Source** dialog is displayed. Select the local branch you want to check out to be the current branch. The branch with an **√** icon is your current local branch.
+2. The **Select Source** dialog displays. Select the local branch you want to check out to be the current branch. The branch with an **√** icon is your current local branch.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-2-22-153A83A40.png" alt="select source" width=70%>
 
@@ -203,7 +204,7 @@ The **Checkout Branch** option allows you to switch from one branch to another.
 
 ### Delete Branch 
 
-1. On the main toolbar, select the **Git icon > Manage Branches > Delete Branch**.
+1. In the main toolbar, select the **Git icon > Manage Branches > Delete Branch**.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-2-22-153A103A10.png" alt="Delete Branch" width=70%>
 
@@ -213,17 +214,17 @@ The **Checkout Branch** option allows you to switch from one branch to another.
 
 ## Fetch
 
-Retrieve all information about changes that have occurred in remote branches. Refer to Git documentation on [Fetch](https://git-scm.com/docs/git-fetch) for detailed command.
+Retrieve all information about changes that have occurred in remote branches. For more information on the fetch command, refer to the Git documentation: [Git Fetch](https://git-scm.com/docs/git-fetch).
 
-1. On the main toolbar, select the **Git icon > Fetch**.
+1. In the main toolbar, click the **Git icon > Fetch**.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-2-22-163A273A32.png" alt="fetch" width=30%>
 
-2. It automatically fetches remote branches, tags, and remote changes.
+2. Remote branches, tags, and remote changes are fetch automatically.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-2-22-163A573A18.png" alt="fetch dialog" width=70%>
 
-3. Select **History** on the main toolbar.
+3. In the main toolbar, click **History**.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-2-22-173A23A17.png" alt="show history" width=30%>
 
@@ -233,9 +234,9 @@ Retrieve all information about changes that have occurred in remote branches. Re
 
 ## Pull
 
-Incorporate changes from a remote repository into the current branch. Refer to Git documentation on [Pull](https://git-scm.com/docs/git-pull) for detailed command.
+Incorporate changes from a remote repository into the current branch. For more information on the pull command, refer to the Git documentation: [Git Pull](https://git-scm.com/docs/git-pull).
 
-1. On the main toolbar, select the **Git icon > Pull**.
+1. On the main toolbar, select the **Git icon > Pull**. The **Pull** dialog appears.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-2-22-153A533A48.png" alt="pull" width=30%>
 
@@ -243,13 +244,13 @@ Incorporate changes from a remote repository into the current branch. Refer to G
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-2-22-153A543A56.png" alt="pull dialog" width=70%>
 
-3. The **Pull Result** dialog is displayed with all data about pulling requests on the selected branch.
+3. The **Pull Result** dialog displays with all data about pulling requests on the selected branch.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-2-22-153A563A21.png" alt="data about pulling requests" width=70%>
 
 ## Push
 
-Update the remote branch using the local branch. Refer to Git documentation on [Push](https://git-scm.com/docs/git-push) for detailed command.
+Update the remote branch using the local branch. For more information on the push command, refer to the Git documentation: [Git Push](https://git-scm.com/docs/git-push).
 
 Before doing any push, you have to commit your changes first.
 
@@ -261,11 +262,11 @@ Before doing any push, you have to commit your changes first.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-2-22-153A193A28.png" alt="push dialog" width=70%>
 
-    Click **Next** after finished selecting your remote branch.
+    Click **Next** after finished selecting your remote branch. The **Push Confirmation** dialog appears.
 
-    >If you enter a different name besides the listed branches, a new remote branch with that name is created accordingly.
+    >**Notes**: If you enter a different name besides the listed branches, a new remote branch with that name is created accordingly.
 
-3. The **Push Confirmation** Dialog is displayed with details regarding your commit.
+3. The **Push Confirmation** dialog displays details regarding your commit.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-2-22-153A273A45.png" alt="Push Confirmation" width=70%>
     
@@ -289,11 +290,11 @@ Before doing any push, you have to commit your changes first.
 
 - Tom and Emma are working on the same test case in a test project. Emma added a new comment ("EMMA ADDED THIS COMMENT"), then committed and pushed the change to the Git remote repository.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/git_conflict_resolve/Git-conflict-2.png" alt="EMMA ADDED THIS COMMENT" width=70%>
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/git_conflict_resolve/Git-conflict-2.png" alt="git conflict 2" width=70%>
 
 - At almost the same time, Tom also added a  new comment ("TOM ADDED THIS COMMENT"), then committed and tried to push to the Git remote repository.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/git_conflict_resolve/Resolve-Git-conflict-2.png" alt="TOM ADDED THIS COMMENT" width=70%>
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/git_conflict_resolve/Resolve-Git-conflict-2.png" alt="git conflict 3" width=70%>
 
 - Unfortunately, since Emma had pushed the code before Tom, so the version of code in Git was different from the version of code in Tom's local repository, and therefore, Git rejected Tom's  push action.
 
@@ -315,7 +316,7 @@ Before doing any push, you have to commit your changes first.
 
 - Now Tom has to decide which change is correct, or both are correct or wrong. Tom has to replace these lines of code with the correct ones. For example, "THIS IS THE CORRECT COMMENT":
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/git_conflict_resolve/Resolve-Git-conflict-6.png" alt="ecide which change is correct" width=70%>
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/git_conflict_resolve/Resolve-Git-conflict-6.png" alt="decide which change is correct" width=70%>
 
 - After resolving the conflict, Tom is now able to commit and push the change to the Git remote repository.
 
