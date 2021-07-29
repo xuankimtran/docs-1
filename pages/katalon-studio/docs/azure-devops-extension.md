@@ -6,16 +6,16 @@ description: To show instructions of how to install and setup Azure DevOps exten
 ---
 > Katalon TestOps CI is an easier way to execute Katalon Studio tests remotely or schedule remote Katalon Studio execution. See [Test Planning Overview](https://docs.katalon.com/katalon-analytics/docs/kt-remote-execution.html) for detailed information.
 
-This tutorial shows you the step-by-step guide on installing and running Katalon for Azure DevOps for Web UI testing. Refer to this [Sample pipeline](https://github.com/katalon-studio-samples/azure-devops-extension-samples) on Github for your reference.
+This tutorial shows you the step-by-step guide on installing and running Katalon with Azure DevOps for Web UI testing. Refer to this [Sample pipeline](https://github.com/katalon-studio-samples/azure-devops-extension-samples) on Github for your reference.
 
 ## Azure DevOps Extension for Linux
 
-Azure DevOps extension is available on Linux. This extension was tested on Ubuntu 16.0.4 and Ubuntu 18.04. For CI using this version, you are highly recommended to use our [Sample script](https://github.com/katalon-studio-samples/azure-devops-extension-samples/blob/master/azure-pipelines.yml) on Github.
+The Azure DevOps extension is available on Linux. This extension was tested on Ubuntu 16.0.4 and Ubuntu 18.04. For continuous integration using this version, we recommend our sample scripts on Github: [Azure DevOps sample script](https://github.com/katalon-studio-samples/azure-devops-extension-samples/blob/master/azure-pipelines.yml).
 
-## Installation
+## Katalon for Azure DevOps Installation
 
-* Go to Visual Studio Market Place and get the free extension of [Katalon for Azure DevOps](https://marketplace.visualstudio.com/items?itemName=katalon-llc.katalon&ssr=false#overview) for installation.
-* For running UI tests on Azure Pipelines, you may need to adjust the screen resolution (See Microsoft documentation on [Setting screen resolution](https://docs.microsoft.com/en-us/azure/devops/pipelines/test/ui-testing-considerations?view=azure-devops&tabs=mstest#setting-screen-resolution)). You're recommended to install the [Screen Resolution Utility](https://marketplace.visualstudio.com/items?itemName=ms-autotest.screen-resolution-utility-task#overview) extension from Visual Studio Marketplace. Please take a look at our [Usage example](https://github.com/duyluonganh/kat-download-file/blob/master/azure-pipelines.yml) of running a Katalon Studio test on Github for more details.
+* Go to the Visual Studio Market Place, download and install the free extension of [Katalon for Azure DevOps](https://marketplace.visualstudio.com/items?itemName=katalon-llc.katalon&ssr=false#overview) for installation.
+* To run UI tests on Azure Pipelines, you might need to adjust the screen resolution (See Microsoft documentation on [Setting screen resolution](https://docs.microsoft.com/en-us/azure/devops/pipelines/test/ui-testing-considerations?view=azure-devops&tabs=mstest#setting-screen-resolution)). You can also install the [Screen Resolution Utility](https://marketplace.visualstudio.com/items?itemName=ms-autotest.screen-resolution-utility-task#overview) extension from the Visual Studio Marketplace. See our Github example on how to run a Katalon Studio test: [Azure DevOps Usage example](https://github.com/duyluonganh/kat-download-file/blob/master/azure-pipelines.yml).
 
 ## Configuration steps
 
@@ -35,7 +35,7 @@ Once you have installed the extension, you need to configure **Execute Katalon S
 
 3. Leave the **X11 DISPLAY** field blank.
 
-4. Configure **Xvfb-run** following Ubuntu Manuals on [Xenial xvfb-run](http://manpages.ubuntu.com/manpages/xenial/man1/xvfb-run.1.html). The function still works if you only change the resolution 1024x768x24 and leave other options as-is.
+4. Configure **Xvfb-run** following Ubuntu Manuals on [Xenial xvfb-run](http://manpages.ubuntu.com/manpages/xenial/man1/xvfb-run.1.html). The function still works if you only change the resolution to 1024x768x24 and leave other options as-is.
 
 5. After everything is set up, click the **Queue** button to build.
 
