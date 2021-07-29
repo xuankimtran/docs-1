@@ -21,7 +21,7 @@ The Azure DevOps extension is available on Linux. This extension was tested on U
 
 Once you have installed the extension, you need to configure **Execute Katalon Studio Tests** task to complete the integration.
 
-1. In **Azure DevOps**, to find and add task **Execute Katalon Studio Tests** to your list, go to the **Search** box or the **Task** category.
+1. In **Azure DevOps**, to find **Execute Katalon Studio Tests**, open Azure DevOps. Then go to the **Search** box or the **Task** category.
 
    > We support VM Image in Windows, MacOS, and Linux.
 
