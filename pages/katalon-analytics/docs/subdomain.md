@@ -5,9 +5,11 @@ permalink: katalon-analytics/docs/subdomain.html
 redirect_from:
 ---
 
-> Notes:
+> Requirements:
 >
-> This feature is only available in Katalon TestOps Enterprise.
+> A Katalon TestOps Entreprise License.
+
+> Notes:
 >
 > You can request a trial of Katalon TestOps Enterprise. See: [TestOps Trial Plans](https://docs.katalon.com/katalon-analytics/docs/trial-plans.html).
 
