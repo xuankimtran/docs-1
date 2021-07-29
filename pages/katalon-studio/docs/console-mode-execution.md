@@ -175,7 +175,7 @@ Here's the list of options supported for the `katalonc` commands for Katalon Stu
       <td>-maxFailedTests=&lt;T&gt;</td>
 			<td>
 				<ul>
-					<li><span data-preserver-spaces="true">From version 8.1.0, you can terminate test suite/ test suite collection execution additionally based on the number of test failures. (Only for Katalon Studio Enterprise users)</span></li>
+					<li><span data-preserver-spaces="true">From version 8.1.0, you can terminate test suite/ test suite collection execution based on the number of test failures. (Only for Katalon Studio Enterprise users)</span></li>
 					<li><span data-preserver-spaces="true">Set &lt;T&gt; as the maximum number of total test failures allowed in the execution. Reaching &lt;T&gt; terminates the test execution.</span></li>
 					<li><span data-preserver-spaces="true">A test failure is counted when any of these type of tests fails: test case, retried test case, test iteration, or retried test iteration.</span></li>
 				</ul>
