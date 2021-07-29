@@ -58,7 +58,7 @@ Kobiton is a mobile device platform that offers real mobile devices for both tes
 You can add additional desired capabilities for Kobiton devices, such as using the `appWaitActivity` capability to troubleshoot an issue related to starting an application. See [Troubleshooting automated mobile testing](https://docs.katalon.com/katalon-studio/docs/troubleshooting-automated-mobile-testing.html).
 
 1. Copy the [desired capabilities](https://docs.kobiton.com/automation-testing/automation-testing-with-kobiton/): In the Kobiton portal, select the device you want to use. Click **Automation setting** and copy the desired capabilities.
-Open Katalon Studio, paste these desired capabilities to your test script. 
+Open Katalon Studio, then paste these desired capabilities to your test script. 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-kobiton-devices/Screen-Shot-2018-07-05-at-11.40.52.png" alt="grab desired capabilities" width=70%>
 
 2. Insert '**app**' capability and pass in Kobiton application id for your device, e.g.,
@@ -162,7 +162,7 @@ To do this, follow the instructions below to execute your Katalon Studio automat
 
 1\. Navigate to [Kobiton Portal](https://portal.kobiton.com) and log in with your Kobiton username and password.
 
-2\. In Kobiton, upload your app to the Kobiton App Repository. See Kobiton documentation on [Managing Application](https://support.kobiton.com/hc/en-us/articles/360056028911-Managing-Applications-).
+2\. In Kobiton, upload your app to the Kobiton App Repository. See Kobiton documentation on [Managing Applications](https://support.kobiton.com/hc/en-us/articles/360056028911-Managing-Applications-).
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/integrate_with_kobiton/Kobiton-App-Repository.png" alt="Kobiton App Repository" width="70%">
 
@@ -170,7 +170,7 @@ To do this, follow the instructions below to execute your Katalon Studio automat
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/integrate_with_kobiton/Automation-snippet.png" alt="Automation snippet" width=70%>
 
-4\. Click on the **Devices** menu. Select your device, then hover and click on the star icon in the top right corner to **Mark as favorite**.
+4\. Click on the **Devices** menu. Select your device, then click on the star icon in the top right corner to **Mark as favorite**.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/integrate_with_kobiton/Devices.png" alt="Kobiton Devices menu" width=70%>
 
