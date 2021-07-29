@@ -8,19 +8,33 @@ redirect_from:
 ## TestOps Terminology
 
 **<details><summary>Agent</summary>**
-Apply local outlier factor agorithm on the latest 30 execution request (based on start time) to identify web services that take much more/less time to respond than usual.
+
+Connects a local machine to the TestOps servers for Test Runs execution.
+
 </details>
 
 **<details><summary>API performance anomalies</summary>**
-Apply local outlier factor agorithm on the latest 30 execution request (based on start time) to identify web services that take much more/less time to respond than usual.
+
+Identify web services that take more/less time to respond than usual by applying the local outlier factor (LOF) on 30 latest execution requests.
 </details>
 
 **<details><summary>Assertions</summary>**
-Apply local outlier factor agorithm on the latest 30 execution request (based on start time) to identify web services that take much more/less time to respond than usual.
+
+Determine whether the automated Test Case succeeds or not.
+
+Katalon TestOps provides users a specific view of Assertions in each Test Case to evaluate the quality of Test Cases and ensure your tested application/software is working correctly.
+
+Assertions help checking whether a condition is true (e.g., whether labels, data, API responses are rendered correctly).
+
+> Notes:
+>
+> Users configure Assertions in Katalon Studio and view them in TestOps once test reports are uploaded to Katalon TestOps.
 </details>
 
 **<details><summary>BDD Test Result</summary>**
-Apply local outlier factor agorithm on the latest 30 execution request (based on start time) to identify web services that take much more/less time to respond than usual.
+
+Represents the result of tests following the behavior-driven development (BDD) conventions. Features of your BDD tests are displayed as Requirements, while Scenarios are displayed as Test Cases.
+*This is configured in Katalon Studio and viewed in TestOps through reports being uploaded.
 </details>
 
 **<details><summary>Build</summary>**
@@ -87,15 +101,15 @@ Apply local outlier factor agorithm on the latest 30 execution request (based on
 Apply local outlier factor agorithm on the latest 30 execution request (based on start time) to identify web services that take much more/less time to respond than usual.
 </details>
 
-**<details><summary>Test Execution</summary>**
-Apply local outlier factor agorithm on the latest 30 execution request (based on start time) to identify web services that take much more/less time to respond than usual.
-</details>
-
 **<details><summary>Test Case</summary>**
 Apply local outlier factor agorithm on the latest 30 execution request (based on start time) to identify web services that take much more/less time to respond than usual.
 </details>
 
-**<details><summary>Test Suite</summary>**
+**<details><summary>Test Environment</summary>**
+Apply local outlier factor agorithm on the latest 30 execution request (based on start time) to identify web services that take much more/less time to respond than usual.
+</details>
+
+**<details><summary>Test Execution</summary>**
 Apply local outlier factor agorithm on the latest 30 execution request (based on start time) to identify web services that take much more/less time to respond than usual.
 </details>
 
@@ -107,11 +121,11 @@ Apply local outlier factor agorithm on the latest 30 execution request (based on
 Apply local outlier factor agorithm on the latest 30 execution request (based on start time) to identify web services that take much more/less time to respond than usual.
 </details>
 
-**<details><summary>Test Suite Collection</summary>**
+**<details><summary>Test Suite</summary>**
 Apply local outlier factor agorithm on the latest 30 execution request (based on start time) to identify web services that take much more/less time to respond than usual.
 </details>
 
-**<details><summary>Test Environment</summary>**
+**<details><summary>Test Suite Collection</summary>**
 Apply local outlier factor agorithm on the latest 30 execution request (based on start time) to identify web services that take much more/less time to respond than usual.
 </details>
 
@@ -135,11 +149,11 @@ Apply local outlier factor agorithm on the latest 30 execution request (based on
 Apply local outlier factor agorithm on the latest 30 execution request (based on start time) to identify web services that take much more/less time to respond than usual.
 </details>
 
-**<details><summary>UUID (Agent)</summary>**
+**<details><summary>User Management</summary>**
 Apply local outlier factor agorithm on the latest 30 execution request (based on start time) to identify web services that take much more/less time to respond than usual.
 </details>
 
-**<details><summary>User Management</summary>**
+**<details><summary>UUID (Agent)</summary>**
 Apply local outlier factor agorithm on the latest 30 execution request (based on start time) to identify web services that take much more/less time to respond than usual.
 </details>
 
