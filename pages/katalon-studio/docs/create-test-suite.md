@@ -79,11 +79,11 @@ Using the **Retry** feature, you can configure when and how many times Katalon r
 
    Once the Test Suite finishes executing, open the **Result** tab, collapsing the Test Case 3, you can see its status is Failed with 1 is the main run, and 2 is the rerun that meets the configured one rerun time. At this point, Katalon Studio logs the final result of Test Case 3 as Failed and continues to execute Test Case 4 and 5 with the same logic.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/retry-usage-example-result.png" width=80%>
-
    The **Summary tab** shows how many Test Cases were executed and their final status. In this use case, we have five total Test Cases, 3 of them Passed, and 2 Failed.
 
    > Along with the Execution log, Katalon Studio automatically consolidates reports in JUnit, HTML, PDF, and CSV format with one final test result for a Test Case. Also, browser-based or window-based video is recorded accordingly for both run and rerun of a Test Case.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/retry-usage-example-result.png" width=80%>
 
 * In **After finishing test suite, retry**:
 
