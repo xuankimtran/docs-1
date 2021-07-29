@@ -211,7 +211,7 @@ items:
       url: /katalon-studio/videos/uploading_reports_to_katalon_analytics.html
     - title: "Report Analysis in Katalon Studio"
       url: /katalon-studio/videos/report_analysis_in_katalon_studio.html
-    - title: "Test Execution Using Katalon Plugin for Jenskin"
+    - title: "Test Execution Using Katalon Plugin for Jenkins"
       url: /katalon-studio/videos/test_execution_using_katalon_plugin.html
     - title: "Creating Execution Profile in Katalon Studio"
       url: /katalon-studio/videos/creating_execution_profile_katalon_studio.html
