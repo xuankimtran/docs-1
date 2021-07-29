@@ -36,4 +36,4 @@ Follow these steps:
 
 ## Disable the Strict Domain
 
-If you have enabled the Strict Domain before, you have an option to disable it by following the same principles as enabling.
+If you have enabled the Strict Domain before, you have an option to disable it by following the same steps.
