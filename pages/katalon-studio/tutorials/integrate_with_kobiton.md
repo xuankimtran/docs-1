@@ -36,24 +36,24 @@ Kobiton is a mobile device platform that offers real mobile devices for both tes
 
 3. Select **Enable Kobiton Integration** and authenticate your access to the Kobiton Server.
 
-* From **7.8 onwards**: enter you username and API Key, then click **Test Connection**.
+* From version **7.8.0 onwards**: enter you username and API Key, then click **Test Connection**.
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-kobiton-integration/sso-kobiton.png" alt="enable kobiton integration 7.8 onwards" width=70%>
 
-   * **Kobiton Server**: The Kobiton server to be integrated with Katalon Studio. 
-   > In **8.1.0 onwards**, you can customize the remote server protocol and pathname. Katalon Studio uses HTTP protocol by default. If your environment prevents sending basic authentication credentials through HTTP, you can input a remote URL with HTTPS instead.
+   * **Kobiton Server**: The Kobiton server to be integrated with Katalon Studio.
+        > From version **8.1.0 onwards**, you can customize the remote server protocol and pathname. Katalon Studio uses HTTP protocol by default. If your environment prevents sending basic authentication credentials through HTTP, you can input a remote URL with HTTPS instead.
    * **API Key**: The token to be used by Katalon Studio when exchanging API messages with Kobiton server. You can generate more keys in [Kobiton API Settings](https://portal.kobiton.com/settings/keys).
 
-* **Before 7.8**, enter your Kobiton account in the **Authentication** form and click **Connect**. Katalon Studio retrieves the information for Kobiton integration automatically.
+* Prior to version 7.8.0, enter your Kobiton account in the **Authentication** form and click **Connect**. Katalon Studio retrieves the information for Kobiton integration automatically.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-kobiton-integration/image2017-6-29-163A543A3.png" alt="enable kobiton integration before 7.8" width=70%>
   
-4. When you are done with the settings, click **Apply and close**.
+4. When you are done with the configuration, click **Apply and close**.
 
 ## Desired Capabilities for Kobiton Devices
 
 > **Prerequisites**
 >
-> Kobiton integration is enabled, and you have adjusted your existing test scripts accordingly. Refer to this section: [Enable Kobiton Integration](https://docs.katalon.com/katalon-studio/docs/enable-kobiton-integration.html) for more details.
+> Kobiton integration is enabled, and you have adjusted your existing test scripts accordingly. Refer to [Enable Kobiton Integration](https://docs.katalon.com/katalon-studio/docs/enable-kobiton-integration.html) for more details.
 
 You can add additional desired capabilities for Kobiton devices, such as using the `appWaitActivity` capability to troubleshoot an issue related to starting an application. See [Troubleshooting automated mobile testing](https://docs.katalon.com/katalon-studio/docs/troubleshooting-automated-mobile-testing.html).
 
@@ -164,15 +164,15 @@ To do this, follow the instructions below to execute your Katalon Studio automat
 
 2\. In Kobiton, upload your app to the Kobiton App Repository. See Kobiton documentation on [Managing Applications](https://support.kobiton.com/hc/en-us/articles/360056028911-Managing-Applications-).
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/integrate_with_kobiton/Kobiton-App-Repository.png" alt="Kobiton App Repository" width="70%">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/integrate_with_kobiton/add-app.png" width="100%">
 
-3\. From the Repository view, select **More Actions > Automation snippet.** Copy the app ID (for example, **kobiton-store:184** as shown below) and save it to use later in Step 5.
+3\. From the Repository view, click on the drop-down icon on the right corner. Copy the app ID (for example, **2229394** as shown below) and save it to use later in Step 5.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/integrate_with_kobiton/Automation-snippet.png" alt="Automation snippet" width=70%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/integrate_with_kobiton/app-ID.png" width=70%>
 
-4\. Click on the **Devices** menu. Select your device, then click on the star icon in the top right corner to **Mark as favorite**.
+4\. Click on the **Devices** menu. Select your device, then click on the flag icon in the top right corner to **Mark as favorite**.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/integrate_with_kobiton/Devices.png" alt="Kobiton Devices menu" width=70%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/integrate_with_kobiton/mark-as-favourite.png" width=70%>
 
 > From **8.1.0 onwards**, you can change Kobiton's **Custom Device Name** to select the correct device on Katalon Studio. If your Kobiton devices don't have any custom name, Katalon Studio uses the devices' original name when running tests. See Kobiton documentation on [Device Custom Name](https://support.kobiton.com/hc/en-us/articles/360055588512-Device-Custom-Name-)
 
