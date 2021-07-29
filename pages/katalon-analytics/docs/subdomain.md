@@ -23,11 +23,11 @@ redirect_from:
 
 3. Select **Settings** on the left bar.
 
-    The **Settings** page appears.
+    The **Settings** page appears as below.
     
-4. Enter your Domain Name in the **Custom Domain** section.
+     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-subdomain/custom-domain-section.png" width=100% alt="enter domain name">
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-subdomain/custom-domain-section.png" width=100% alt="enter domain name">
+4. Enter your Domain Name in the **Custom Domain** section.
 
     > Notes:
     >
