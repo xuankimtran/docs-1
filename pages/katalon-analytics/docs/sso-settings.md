@@ -96,7 +96,7 @@ As an existing User, follow these steps:
 
 1. Go to your email and find the *[Katalon TestOps] Verify Single Sign-On (SSO) authentication* email, then click **Click here to confirm** in the email.
 
-    You will be directed to Katalon TestOps as below.
+    You will be directed to Katalon TestOps and see the below message.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/accept-sso/accept-sso.png" width=100% alt="user accept sso">
 
