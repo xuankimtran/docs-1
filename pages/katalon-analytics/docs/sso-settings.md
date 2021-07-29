@@ -52,7 +52,11 @@ To enable SSO for a new member, follow these steps:
 
 1. Invite a User to your Organization. See [TestOps User Management](https://docs.katalon.com/katalon-analytics/docs/kt_invite_user_org.html#invite-a-user-to-join-an-organization).
 
-2. Enable the SSO option on the **Invite User** page, then click **Invite**.
+    > Notes:
+    >
+    > The **Login Settings** section appears on the **Invite User** page once you have configured SSO.
+
+2. Select the **Enable SSO** login option on the **Invite User** page, then click **Invite**.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/sso-settings/invite-sso.png" width=100% alt="enable SSO in Invite user page">
 
@@ -72,11 +76,11 @@ To enable SSO for an existing memeber, follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/sso-settings/invite-sso.png" width=100% alt="user's detail page">
 
-3. Enable the SSO option on the page.
-
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/sso-settings/update-sso.png" width=100% alt="user's detail page highlight SSO option">
+3. Select the **Enable SSO** login option.
 
     A request to enable SSO is then sent to the existing User.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/sso-settings/update-sso.png" width=100% alt="enable sso pending">
 
 > Notes:
 >
@@ -88,15 +92,11 @@ If you are not an Owner or Admin or an Organization, you will receive the invita
 
 As a new User, accept the invitation to join the Organization first. See: [TestOps User Management](https://docs.katalon.com/katalon-analytics/docs/kt_invite_user_org.html#as-a-user).
 
-As an existing User, you see a screen with the message *The Organization Admin [...] has requested to enable Single Sign-On (SSO) for your account. Please check your inbox and confirm the request*.
+As an existing User, follow these steps:
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/accept-sso/join-organization-sso.png" width=100% alt="sso request message from user's side">
+1. Go to your email and find the *[Katalon TestOps] Verify Single Sign-On (SSO) authentication* email, then click **Click here to confirm** in the email.
 
-Continue with the following steps:
-
-1. Go to your email and find the *Verify Single Sign-On authentication* email, then click on the URL in the email.
-
-    You will be directed to Katalon TestOps.
+    You will be directed to Katalon TestOps as below.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/accept-sso/accept-sso.png" width=100% alt="user accept sso">
 
@@ -104,9 +104,9 @@ Continue with the following steps:
     >
     > If you are a new User, you must accept the invitation to join an Organization first. Then you will receive the authentication email.
 
-2. Check the information, then click **Allow this account to access Organization [...] via SSO**”*** to confirm.
+2. Check the information, then click **Allow this account to access Organization [...] via SSO** to confirm.
 
-    After accepting the SSO request, you are automatically navigated to the Subdomain.
+    After accepting the SSO request, you are automatically navigated to the Subdomain (e.g., **techwrite.katalon.io**).
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/accept-sso/signin-sso.png" width=100% alt="subdomain highlight">
 
