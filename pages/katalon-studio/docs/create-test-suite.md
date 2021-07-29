@@ -73,11 +73,11 @@ Using the **Retry** feature, you can configure when and how many times Katalon r
 
    **Usage example**
    
-In this example, we have a Test Suite with five Test Cases, and Retry Failed Execution Immediately is set for one time > execute the Test Suite > Katalon Studio runs all the Test Cases in the Test Suite sequentially until the Test Suite finishes executing.
+   In this example, we have a Test Suite with five Test Cases, and Retry Failed Execution Immediately is set for one time > execute the Test Suite > Katalon Studio runs all the Test Cases in the Test Suite sequentially until the Test Suite finishes executing.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/ts-with-5-tc-and-retry-fail-1.png" width=70%>
 
-Once the Test Suite finishes executing, open the **Result** tab, collapsing the Test Case 3, you can see its status is "Failed" with 1 is the main run, and 2 is the rerun time that meets the configured rerun time (one time). At this point, Katalon Studio logs the final result of Test Case 3 as Failed and continues to execute Test Case 4 and 5 with the same logic.
+   Once the Test Suite finishes executing, open the **Result** tab, collapsing the Test Case 3, you can see its status is "Failed" with 1 is the main run, and 2 is the rerun time that meets the configured rerun time (one time). At this point, Katalon Studio logs the final result of Test Case 3 as Failed and continues to execute Test Case 4 and 5 with the same logic.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/retry-usage-example-result.png" width=80%>
 
