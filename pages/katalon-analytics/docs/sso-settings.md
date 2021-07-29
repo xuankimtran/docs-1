@@ -32,7 +32,7 @@ As an Owner or Admin, you can configure SSO by following these steps:
 
 4. Switch **Enable SSO** to **Active**.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/sso-settings/enable-sso.png" width=100% alt="SSO section input metadata">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-sso-settings/enter-metadata-for-sso.png" width=100% alt="SSO enabled input metadata">
 
     You then can enter your Metadata.
 
@@ -94,11 +94,13 @@ Continue with the following steps:
 
 1. Go to your email and find the *Verify Single Sign-On authentication* email, then click on the URL in the email.
 
+    You will be directed to Katalon TestOps.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/accept-sso/accept-sso.png" width=100% alt="user accept sso">
+
     > Notes:
     >
     > If you are a new User, you must accept the invitation to join an Organization first. Then you will receive the authentication email.
-
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/accept-sso/accept-sso.png" width=100% alt="user accept sso">
 
 2. Check the information, then click **Allow this account to access Organization [...] via SSO**”*** to confirm.
 
@@ -116,7 +118,7 @@ You can view the pending invitations and SSO requests on the **Manage Users** pa
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/sso-settings/manage-sso.png" width=100% alt="pending SSO invitations">
 
-You can withdraw an invitation or request by clicking on the *Trash bin* icon. After confirming your action, the member will no longer be able to access to the URLs.
+You can withdraw an invitation and request by clicking on the *Trash bin* icon. After confirming your action, the member will no longer be able to access to the URLs.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/sso-settings/delete-sso-request.png" width=100% alt="pending SSO delete box">
 
