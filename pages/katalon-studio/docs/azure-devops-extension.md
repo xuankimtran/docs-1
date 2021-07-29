@@ -14,14 +14,14 @@ The Azure DevOps extension is available on Linux. This extension was tested on U
 
 ## Katalon for Azure DevOps Installation
 
-* Go to the Visual Studio Market Place, download and install the free extension of [Katalon for Azure DevOps](https://marketplace.visualstudio.com/items?itemName=katalon-llc.katalon&ssr=false#overview) for installation.
+* Go to the Visual Studio Market Place, download and install the free extension of [Katalon for Azure DevOps](https://marketplace.visualstudio.com/items?itemName=katalon-llc.katalon&ssr=false#overview).
 * To run UI tests on Azure Pipelines, you might need to adjust the screen resolution (See Microsoft documentation on [Setting screen resolution](https://docs.microsoft.com/en-us/azure/devops/pipelines/test/ui-testing-considerations?view=azure-devops&tabs=mstest#setting-screen-resolution)). You can also install the [Screen Resolution Utility](https://marketplace.visualstudio.com/items?itemName=ms-autotest.screen-resolution-utility-task#overview) extension from the Visual Studio Marketplace. See our Github example on how to run a Katalon Studio test: [Azure DevOps Usage example](https://github.com/duyluonganh/kat-download-file/blob/master/azure-pipelines.yml).
 
 ## Configuration steps
 
 Once you have installed the extension, you need to configure **Execute Katalon Studio Tests** task to complete the integration.
 
-1. In **Azure DevOps**, go to the **Search** box or **Task** category to find and add task **Execute Katalon Studio Tests** to your list.
+1. In **Azure DevOps**, to find and add task **Execute Katalon Studio Tests** to your list, go to the **Search** box or the **Task** category.
 
    > We support VM Image in Windows, MacOS, and Linux.
 
