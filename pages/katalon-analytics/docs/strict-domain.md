@@ -24,14 +24,16 @@ Follow these steps:
 
 3. Select **Settings** on the left bar, then scroll down to the **Danger zone** section.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/strict-domain/enable-strict-domain.png" width=100% alt="danger zone strict domain">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-strict-domain/strict-domain-section-in-settings.png" width=100% alt="danger zone strict domain section">
 
 4. Click **Enable strict domain**.
 
     The **Enable strict domain** box pops up.
 
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-strict-domain/enable-strict-domain-popup.png" width=100% alt="enable strict domain popup">
+
 5. Click **I understand the consequences, enable strict domain** to confirm.
 
-> Notes:
->
-> Once you have enabled the Strict Domain, you have an option to disable it by following the same principles.
+## Disable the Strict Domain
+
+If you have enabled the Strict Domain before, you have an option to disable it by following the same principles as enabling.
