@@ -6,7 +6,7 @@ description: To show instructions of how to install and setup Azure DevOps exten
 ---
 > Katalon TestOps CI is an easier way to execute Katalon Studio tests remotely or schedule remote Katalon Studio execution. See [Test Planning Overview](https://docs.katalon.com/katalon-analytics/docs/kt-remote-execution.html) for detailed information.
 
-This tutorial shows you the step-by-step guide on installing and running Katalon with Azure DevOps for Web UI testing. Refer to this [Sample pipeline](https://github.com/katalon-studio-samples/azure-devops-extension-samples) on Github for your reference.
+This step-by-step guide shows you how to install and run Katalon with Azure DevOps for Web UI testing. Refer to this [Sample pipeline](https://github.com/katalon-studio-samples/azure-devops-extension-samples) on Github for your reference.
 
 ## Azure DevOps Extension for Linux
 
