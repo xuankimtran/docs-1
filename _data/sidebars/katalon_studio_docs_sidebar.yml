@@ -133,6 +133,8 @@ items:
             tree:
               - title: "[WebUI] Create and Run Web UI Test Case using Record and Playback"
                 url: /katalon-studio/tutorials/webui-create-test-case.html
+              - title: "[Web UI] Plan Test Suite"
+                url: /katalon-studio/tutorials/webui-plan-test-suite.html
       - title: "GUI and Preferences"
         tree:
           - title: "Toolbars and Views"
@@ -985,8 +987,12 @@ items:
             url: /katalon-studio/docs/test-suite-report.html
           - title: "View and Customize Execution Log"
             url: /katalon-studio/docs/working-with-execution-log.html
-          - title: "Screenshots and Videos"
-            url: /katalon-studio/docs/screenshots-videos.html
+          - title: "Capture Screenshots"
+            url: /katalon-studio/docs/capture-screenshots.html
+          - title: "Record Screen-based Videos"
+            url: /katalon-studio/docs/record-screen-based-videos.html    
+          - title: "Record Browser-based Videos"
+            url: /katalon-studio/docs/record-browser-based-videos.html  
           - title: "View Execution Summary and Advanced Reports"
             url: /katalon-studio/docs/view-execution-list.html
       - title: "Data-driven Testing"
@@ -1258,9 +1264,7 @@ items:
       - title: "Configurations"
         tree:
           - title: "Katalon Studio Integration"
-            tree:
-              - title: "Upload Test Results from Katalon Studio"
-                url: /katalon-studio/docs/katalon-analytics-beta-integration.html
+            url: /katalon-studio/docs/katalon-analytics-beta-integration.html
           - title: "Framework Integration"
             tree:
               - title: "Upload JUnit and Katalon Studio Test Results using Katalon Report Uploader"
@@ -1291,6 +1295,8 @@ items:
                     url: /katalon-analytics/docs/load-balancing-agents.html
                   - title: "Run multiple Test Suites in parallel with Agents"
                     url: /katalon-analytics/docs/kt_run_parallel_agent.html
+                  - title: "Auto-Distributed Execution" 
+                    url: /katalon-analytics/docs/auto-distributed-execution.html
               - title: "Docker Test Environments"
                 url: /katalon-analytics/docs/docker.html
               - title: "Install TestOps On-premises with Docker"
@@ -1319,8 +1325,6 @@ items:
                 url: /katalon-analytics/docs/create-plan.html
               - title: "Execute Test Runs"
                 url: /katalon-analytics/docs/kt-scheduler.html
-              - title: "View Test Plan Summary in Katalon Studio"
-                url: /katalon-analytics/docs/view-ci-plans.html
           - title: "Releases"
             url: /katalon-analytics/docs/kt-release.html
           - title: "Builds"
@@ -1335,7 +1339,7 @@ items:
                url: /katalon-analytics/docs/bdd-settings.html
              - title: "View BDD Test Results"
                url: /katalon-analytics/docs/bdd-test-results.html
-             - title: "Link Executions to Jira Defects"
+             - title: "Link Test Runs to Jira Defects"
                url: /katalon-analytics/docs/ka-defects.html
              - title: "Link Test Cases to Jira Requirements"
                url: /katalon-analytics/docs/ka-integration-jira.html     

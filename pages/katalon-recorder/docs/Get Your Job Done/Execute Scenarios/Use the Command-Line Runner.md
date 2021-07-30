@@ -17,7 +17,7 @@ If you are using Homebrew to manage dependencies, run the following script:
 
 > brew install node 
 > 
-> npm install -g kr-cli
+> npm i -g katalon-recorder-cli
 
 ## Using KR CLI as a tester
 
