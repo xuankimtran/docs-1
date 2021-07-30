@@ -31,13 +31,19 @@ Defining a threshold that sets the maximum number of test failures in an executi
 
 To enable the condition to terminate execution, in Katalon Studio, go to **Build CMD** (Build Command) on the toolbar.
 
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/build%20cmd.png" alt="build cmd" width=30%>
+
 In the **Generate Command for Console Mode** dialog, see the **Execution Configurations** section. Select the checkbox: **Terminate the execution once the total number of test failures reaches this threshold** and fill in the text field with the maximum test failures number.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/condition%20to%20stop%20-%202.png" alt="command builder" width=70%>
 
 After you're done with the setting, you can **Generate command** or **Generate property file** to run with Console mode. For detailed instruction on how to run a test execution in Console mode, see: [Command Builder](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#command-builder).
 
 **Command-line option**
 
 You can use the command-line option for setting condition to terminate a test suite/ test suite collection execution. Given T as the maximum number of test failures allowed. Setting the maximum number of test failures allowed in the execution by using this command-line option: **-maxFailedTests= T**.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/command-line.png" alt="command line" width=100%>
 
 See [Katalonc command-line option](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#automatically-updating-webdriver-option) for the list of common command-line options supported.
 
@@ -576,6 +582,8 @@ Katalon Studio sends **Incomplete** test suite execution’s attachments, includ
 
 ## Troubleshoot testing
 
-When a test suite/test suite collection is terminated, in the execution log, Katalon Studio prints out information about the test suite/test suite collection reference ID and the maximum number of test failures allowed.
+When a test suite/ test suite collection is terminated, in the execution log, Katalon Studio prints out information about the test suite/ test suite collection reference ID and the maximum number of test failures allowed.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/execution%20log.png" alt="execution log" width=100%>
 
 This applies to either sequential or parallel mode execution. You can be able to check which and why the test execution is terminated.
