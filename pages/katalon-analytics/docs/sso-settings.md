@@ -104,7 +104,7 @@ As an existing User, follow these steps:
 
 2. Check the information, then click **Allow this account to access Organization [...] via SSO** to confirm.
 
-    After accepting the SSO request, you are automatically navigated to the Subdomain (e.g., **techwrite.katalon.io**).
+    After accepting the SSO request, you are automatically navigated to the Subdomain.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-sso-settings/subdomain-signin-using-sso-blurred.png" width=100% alt="subdomain sign in using SSO">
 
