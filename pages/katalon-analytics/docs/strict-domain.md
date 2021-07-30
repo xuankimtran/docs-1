@@ -8,13 +8,15 @@ description:
 * If you enable the Strict Domain, all members of your Organization have restricted access to [Katalon TestOps](https://testops.katalon.io/login).
 * If you disable the Strict Domain, all members of your Organization have full access to [Katalon TestOps](https://testops.katalon.io/login).
 
-## Enable the Strict Domain
-
 > Requirements:
 >
 > * You must be an **Owner** or **Admin** of an Organization.
+
+## Enable the Strict Domain
+
+> Notes:
 >
-> * You must complete all settings including [SSO Configurations](https://docs.katalon.com/katalon-analytics/docs/sso-settings.html#configure-single-sign-on) before enabling the Strict Domain.
+> You should complete all settings including [SSO Configurations](https://docs.katalon.com/katalon-analytics/docs/sso-settings.html) and [Subdomain Configurations](https://docs.katalon.com/katalon-analytics/docs/subdomain.html) before enabling the Strict Domain so that members of your Organization can still have access to Katalon TestOps.
 
 Follow these steps:
 
