@@ -4,22 +4,27 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/condition-to-stop.html
 description: "This article provides the concept of terminating execution conditionally and the tutorial on common use cases."
 ---
-From **version 8.1.0 onwards**, you can terminate test suite and test suite collection execution conditionally based on the number of test failures. This article provides the concept of the configuration on terminating execution and the tutorial on common use cases. The ability to terminate execution conditionally solves the problem when there is a significant number of test cases in an execution having failed and you want to have early feedback instead of waiting for the execution to finished.
+From **version 8.1.0 onwards**, you can terminate test suite and test suite collection execution conditionally via command-line, based on the number of test failures allowed during runtime.
 
-You can set the condition to terminate a test suite and test suite collection execution via the command-line to save time spent waiting for the execution to finish. The condition is based on the maximum number of test failures allowed during runtime.
+This article provides the concept of the configuration on terminating execution and the tutorial on common use cases.
 
-Terminate execution conditionally is useful when a set of tests is mature, and it takes hours to finish execution. A significant number of test failures in execution can reflect the tested build’s quality.
+The ability to terminate execution conditionally solves the problem when:
 
-Defining a threshold that sets the maximum number of test failures in an execution helps you save time and enhance testing efficiency, especially on new code committed or a new build available. A reasonable threshold is subject to the acceptance level of each software team.
+- There is a significant number of failed test cases in an execution.
+- There is a mature set of tests, and it takes hours to finish execution.
+- There is a new code committed or a new build available and a significant number of test failures can reflect the tested build’s quality.
 
->**Requirements**
->- A test suite or test suite collection. See [Create a test suite](https://docs.katalon.com/katalium-framework/docs/katalium-framework-create-test-suite.html).
->- Katalon Studio **version 8.1.0 onwards**.
->- A Katalon Studio Enterprise and Katalon Runtime Engine License. See [Katalon licensing](https://docs.katalon.com/katalon-studio/docs/license.html).
+Defining a threshold of failures test case in an execution helps you save time and enhance testing efficiency. You can have early feedback instead of waiting for the execution to finish. A reasonable threshold is subject to the acceptance level of each software team.
+
+**Requirements**
+- A test suite or test suite collection. See [Create a test suite](https://docs.katalon.com/katalium-framework/docs/katalium-framework-create-test-suite.html).
+- Katalon Studio **version 8.1.0 onwards**.
+- A Katalon Studio Enterprise and Katalon Runtime Engine License. See [Katalon licensing](https://docs.katalon.com/katalon-studio/docs/license.html).
 
 >**What is a test failure?**
 >
 >A test failure is a failed test case or test iteration execution in a test suite.
+>
 >- 1 test case fails = 1 test failure
 >- 1 retried test case fails = 1 test failure
 >- 1 test iteration (test case + data row) fails = 1 test failure
@@ -37,7 +42,11 @@ In the **Generate Command for Console Mode** dialog, see the **Execution Configu
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/condition%20to%20stop%20-%202.png" alt="command builder" width=70%>
 
-After you're done with the setting, you can **Generate command** or **Generate property file** to run with Console mode. For detailed instruction on how to run a test execution in Console mode, see: [Command Builder](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#command-builder).
+After you're done with the setting, you can **Generate command** or **Generate property file** to run with Console mode.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/generate%20command.png" alt="generate command" width=70%>
+
+>**Notes**: For detailed instruction on how to run a test execution in Console mode, see: [Command Builder](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#command-builder).
 
 **Command-line option**
 
@@ -48,9 +57,27 @@ You can use the command-line option for setting condition to terminate a test su
 See [Katalonc command-line option](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#automatically-updating-webdriver-option) for the list of common command-line options supported.
 
 ## Common Use Cases
-You can apply the condition to terminate execute in many different situations. Below are the three most common use cases:
+You can apply the condition to terminate execute in many different situations.
+
+Here are the common use cases you might see:
+
+1. Terminate a test suite.
+	1.1. Terminate a test suite and retry after executing all.
+	1.2. Terminate a test suite and retry failed executions immediately.
+	1.3. Terminate a test suite with Data-driven testing.
+	1.4. Terminate a test suite with Data-driven testing retry after executing all.
+	1.5. Terminate a test suite with Data-driven testing and retry failed executions immediately.
+2. Terminate a test suite collection in sequential mode
+3. Terminate a test suite collection in parallel mode
+
+In the section bellow, we only show you the example of use case 1, 2 and 3.
 ### Terminate Test Suite Execution
 Given that you have a test suite that has 6 test cases. You set the maxFailedTests = 4.
+
+>**Notes**:
+> - T is the number of maximum failure test cases
+> - x is the number of failure test cases in the test suite
+
 The test suite has the result describes in the table below:
 
 <table data-number-column="false"><colgroup><col /><col /><col /><col /></colgroup>
@@ -200,7 +227,7 @@ You can also apply the terminate execution conditionally together with **Retry a
 ### Terminate Test Suite Collection In Sequential Mode
 Given that you have 5 test suites, each test suite has 10 test cases. You set the maxFailedTests = 20. The test suite has the result describes in the table below:
 
->**Note**:
+>**Notes**:
 > - T is the number of maximum failure test cases
 > - x is the number of failure test cases in the test suite
 
@@ -324,14 +351,18 @@ Given that you have 5 test suites, each test suite has 10 test cases. You set th
 </tbody>
 </table>
 
-Katalon Studio auto-generates JUnit report with all executed test cases in test suite 1,2,3,4.
+Katalon Studio auto-generates JUnit report with all executed test cases in test suite 1,2,3, and 4.
 
 > Learn more about how to create and execute a test suite collection in [Test Suite Collection](https://docs.katalon.com/katalon-studio/docs/test-suite-collection.html#manage-execution-information)
 
 ### Terminate Test Suite Collection In Parallel Mode
 Given that you have a test suite collection that has 10 test suites, Instances = 3. You set the maxFailedTests = 100.
 
->**Note**: Instances is the number of test suites you set to run at the same time.
+>**Notes**:
+>
+> - Instances is the number of test suites you set to run at the same time.
+> - T is the number of maximum failure test cases
+> - x is the number of failure test cases in the test suite
 
 The flow of this example is explained as below:
 
