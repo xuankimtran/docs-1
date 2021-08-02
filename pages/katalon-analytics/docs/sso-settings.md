@@ -8,11 +8,7 @@ redirect_from:
 
 > Requirements:
 >
-> A Katalon TestOps Entreprise License.
-
-> Notes:
->
-> You can request a trial of Katalon TestOps Enterprise. See: [TestOps Trial Plans](https://docs.katalon.com/katalon-analytics/docs/trial-plans.html).
+> You need to subscribe to a Katalon TestOps Enterprise plan. To request a trial of Katalon TestOps Enterprise, see [TestOps Trial Plans](https://docs.katalon.com/katalon-analytics/docs/trial-plans.html).
 
 ## Configure Single Sign-On
 
@@ -64,7 +60,7 @@ To enable SSO for a new member, follow these steps:
 
 ### For an existing User
 
-To enable SSO for an existing memeber, follow these steps:
+To enable SSO for an existing member, follow these steps:
 
 1. Go to **Settings** > **User Management**.
 
@@ -84,9 +80,51 @@ To enable SSO for an existing memeber, follow these steps:
 >
 > * The action is pending until new members accept the invitations and existing members accept the requests.
 
-### As an User
+## View and manage User Authentication
 
-If you are not an Owner or Admin or an Organization, you will receive the invitation or SSO request via email.
+### View pending SSO requests
+
+You can view the pending invitations and SSO requests on the **Manage Users** page.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-sso-settings/sso-pending-highlight-blurred.png" width=100% alt="pending SSO invitations">
+
+You can withdraw an invitation and request by clicking on the *Trash bin* icon. After confirming your action, the member will no longer be able to access the URLs.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-sso-settings/delete-sso-pop-up-blurred.png" width=100% alt="pending SSO delete box">
+
+### Update authentication methods
+
+There are two login options: **Enable SSO** and **Access Katalon TestOps with username & password**.
+
+You can always switch back to **Access Katalon TestOps with username & password** to change the authentication method.
+
+To update the authentication method for Users, go to the **User's detail** page and update the login option.
+
+## Activate SSO in Katalon Studio
+
+After configuring SSO in Katalon TestOps, you must reactivate Katalon Studio to enable SSO.
+
+Follow these steps:
+
+1. Open Katalon Studio.
+
+2. Click on the *Profile* icon at the top right corner, and select **Deactivate**.
+
+    The **Katalon Studio Activation** box appears as below.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-sso-settings/activate-sso-in-studio.png" width=100% alt="ks activation box">
+
+3. Fill in the required information.
+
+    * **Server URL**: enter the Subdomain you have configured (e.g., https://techwrite.katalon.io).
+
+    * **Email**: enter your registered Katalon account.
+
+    * **Password**: enter an API key generated in Katalon TestOps. See: [API Keys](https://docs.katalon.com/katalon-analytics/docs/ka-api-key.html).
+
+## Enable SSO as a User
+
+If you are not an Owner or Admin of an Organization, you will receive the invitation or SSO request via email.
 
 As a new User, accept the invitation to join the Organization first. See: [TestOps User Management](https://docs.katalon.com/katalon-analytics/docs/kt_invite_user_org.html#as-a-user).
 
@@ -109,45 +147,3 @@ As an existing User, follow these steps:
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-sso-settings/subdomain-signin-using-sso-blurred.png" width=100% alt="subdomain sign in using SSO">
 
 3. Click **Sign in using SSO**.
-
-## View and manage User Authentication
-
-### View pending SSO requests
-
-You can view the pending invitations and SSO requests on the **Manage Users** page.
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-sso-settings/sso-pending-highlight-blurred.png" width=100% alt="pending SSO invitations">
-
-You can withdraw an invitation and request by clicking on the *Trash bin* icon. After confirming your action, the member will no longer be able to access to the URLs.
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-sso-settings/delete-sso-pop-up-blurred.png" width=100% alt="pending SSO delete box">
-
-### Update authentication methods
-
-There are two login options: **Enable SSO** and **Access Katalon TestOps with username & password**.
-
-You can always switch back to **Access Katalon TestOps with username & password** to change the authentication method.
-
-To update the authentication method for Users, go to the **User's detail** page and update the login option.
-
-## Activate SSO in Katalon Studio
-
-After configuring SSO in Katalon TestOps, you must reactivate Katalon Studio to enable SSO.
-
-Follow these steps:
-
-1. Open Katalon Studio.
-
-2. Click on the *Profile* icon at the top right corner, and select **Deactivate**. 
-
-    The **Katalon Studio Activation** box appears as below.
-
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-sso-settings/activate-sso-in-studio.png" width=100% alt="ks activation box">
-
-3. Fill in the required information.
-
-    * **Server URL**: enter the Subdomain you have configured (e.g., https://techwrite.katalon.io).
-
-    * **Email**: enter your registered Katalon account.
-
-    * **Password**: enter an API key generated in Katalon TestOps. See: [API Keys](https://docs.katalon.com/katalon-analytics/docs/ka-api-key.html).
