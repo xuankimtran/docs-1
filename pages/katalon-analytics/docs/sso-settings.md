@@ -84,7 +84,7 @@ To enable SSO for an existing member, follow these steps:
 
 ### View pending SSO requests
 
-You can view the pending invitations and SSO requests on the **Manage Users** page.
+As an Owner or Admin, you can view the pending invitations and SSO requests on the **Manage Users** page.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-sso-settings/sso-pending-highlight-blurred.png" width=100% alt="pending SSO invitations">
 
