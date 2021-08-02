@@ -7,11 +7,7 @@ redirect_from:
 
 > Requirements:
 >
-> A Katalon TestOps Entreprise License.
-
-> Notes:
->
-> You can request a trial of Katalon TestOps Enterprise. See: [TestOps Trial Plans](https://docs.katalon.com/katalon-analytics/docs/trial-plans.html).
+> You need to subscribe to Katalon TestOps Enterprise plan. To request a trial of Katalon TestOps Enterprise, see [TestOps Trial Plans](https://docs.katalon.com/katalon-analytics/docs/trial-plans.html).
 
 ## Create a Subdomain
 
