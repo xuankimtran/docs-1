@@ -33,7 +33,9 @@ Assertions help checking whether a condition is true (e.g., whether labels, data
 
 **<details><summary>BDD Test Result</summary>**
 
-Represents the result of tests following the behavior-driven development (BDD) conventions. Features of your BDD tests are displayed as Requirements, while Scenarios are displayed as Test Cases.
+Represents the result of a test following the behavior-driven development (BDD) conventions.
+
+In Katalon TestOps, the features of BDD tests are displayed as Requirements, while Scenarios are displayed as Test Cases.
 *This is configured in Katalon Studio and viewed in TestOps through reports being uploaded.
 </details>
 
