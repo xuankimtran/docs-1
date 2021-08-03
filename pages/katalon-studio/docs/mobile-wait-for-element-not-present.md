@@ -123,6 +123,11 @@ To set conditional waiting when executing the Mobile test in script, use the key
 	</tr>
 </tbody>
 </table>
+
+>**Notes**:
+>
+>Failure handling is not supported for this mobile keyword.
+
 ## Returns
 
 <table data-number-column="false"><colgroup><col /><col /></colgroup>
@@ -159,12 +164,7 @@ To set conditional waiting when executing the Mobile test in script, use the key
 </tbody>
 </table>
 
->**Notes**:
->
->Failure handling is not supported for this mobile keyword.
-
-Example 
---------
+## Example
 
 You want to wait for 'App' control to not be present in 10 seconds timeout.
 
@@ -177,7 +177,7 @@ import internal.GlobalVariable as GlobalVariable
 'Start application on current selected android\'s device'
 Mobile.startApplication(GlobalVariable.G_AndroidApp, false)
 
-'Wait for app control to be present in 10 seconds timeout'
+'Wait for app control to not be present in 10 seconds timeout'
 Mobile.waitForElementNotPresent(findTestObject('Object Repository/Application/android.widget.TextView - App'), 10)
 
 'Close application on current selected android\'s device'
