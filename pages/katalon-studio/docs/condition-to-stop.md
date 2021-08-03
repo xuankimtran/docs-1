@@ -32,11 +32,11 @@ You can use this feature with the following testing types:
 		<tbody>
 			<tr>
 				<td><strong>Testing types</strong></td>
-				<td><strong>Additional parameter</strong></td>
+				<td><strong>Use Cases</strong></td>
 			</tr>
 			<tr>
 				<td rowspan="6">Test suite<br /><br /><br /><br /><br /></td>
-				<td>Not applied</td>
+				<td>Normal test suite</td>
 			</tr>
 			<tr>
 				<td>Retry after executing all</td>
