@@ -976,7 +976,7 @@ items:
           - title: "Execute Tests on Multiple Devices in Parallel"
             url: /katalon-studio/docs/execute_tests_parallelly_multiple_devices.html
           - title: "Terminate Execution Conditionally"
-            url: /katalon-studio/docs/condition-to-stop.html
+            url: /katalon-studio/docs/terminate-execution-conditionally.html
           - title: "Set a new default JRE for test projects"
             url: /katalon-studio/how-to-guides/set-new-default-JRE.html
           - title: "Link Execution with TestOps Release using CLI"
