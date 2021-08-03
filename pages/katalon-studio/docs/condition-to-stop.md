@@ -4,7 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/terminate-execution-conditionally.html
 description: "This article provides the concept of terminating execution conditionally and the tutorial on common use cases."
 ---
-From **version 8.1.0 onwards**, you can terminate the execution conditionally via command-line based on the number of **test failures** allowed during runtime. When the execution reaches the configured test failures (`maxFailedTests=` T), the execution stops immediately, and the rest test cases are not triggered to run. By defining a threshold of the failures test case in execution, you can get early feedback instead of waiting for the execution to finish to enhance testing efficiency. A reasonable threshold is subject to the acceptance level of each software team.
+From version 8.1.0 onwards, you can terminate the execution conditionally via command-line based on the number of **test failures** allowed during runtime. When the execution reaches the configured test failures (`maxFailedTests=` T), the execution stops immediately, and the rest test cases are not triggered to run. By defining a threshold of the failures test case in execution, you can get early feedback instead of waiting for the execution to finish to enhance testing efficiency.
 
 >**What is a test failure?**
 >
@@ -257,7 +257,7 @@ When you click **Execute**, test suite 1 runs with T = 20.
 
 - If test suite 1 finishes running and has 4 test failures (x = 4), the new threshold of the next test suite is 16 (T - x = 16). Therefore, test suite 2 is triggered to run with T = 16.
 - If test suite 2 finishes running and has 3 test failures (x = 4 + 3), the new threshold of the next test suite is 13 (T - x = 13). Therefore, test suite 3 is triggered to run with T = 13.
-- If test suite 3 finishes running and has 5 test failures (x = 4 + 3 + 5), the new threshold of the next test suite is 8 (T - x = 8). Therefore, test suite 4 is triggered to run with `T = 8.
+- If test suite 3 finishes running and has 5 test failures (x = 4 + 3 + 5), the new threshold of the next test suite is 8 (T - x = 8). Therefore, test suite 4 is triggered to run with T = 8.
 - If test suite 4 finishes running with 8 test failures and stops, the total number of test failures counted in test suites 1, 2, 3, and 4 is 20 (x = 4 + 3 + 5 + 8). Since x = T = 20, the test suite collection stops triggering test suite 5.
 
 Below are the final status of each test suite in the test suite collection.
