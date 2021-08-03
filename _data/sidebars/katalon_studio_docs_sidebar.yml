@@ -57,7 +57,7 @@ items:
             url: /katalon-analytics/docs/trial-plans.html
           - title: "Manage Subscriptions"
             tree:
-              - title: "Create Subscriptions"
+              - title: "Subscribe to TestOps"
                 url: /katalon-analytics/docs/testops-subscriptions.html
               - title: "Ugrade Subscriptions"
                 url: /katalon-analytics/docs/upgrade-subscriptions.html
