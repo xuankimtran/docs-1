@@ -411,221 +411,222 @@ When you click **Execute**, the first 3 test suites run at the same time with T 
 
 Below is the final status of each test suite in the test suite collection.
 
-<table data-number-column="false"><colgroup><col /><col /><col /><col /><col /><col /></colgroup>
-<tbody>
-	<tr>
-		<th colspan="1" rowspan="1" data-colwidth="126">
-			<p data-renderer-start-pos="23230"><strong data-renderer-mark="true">Test Suite Collection</strong></p>
-		</th>
-		<th colspan="1" rowspan="1" data-colwidth="120">
-			<p data-renderer-start-pos="23255"><strong data-renderer-mark="true">Threshold</strong>&nbsp;</p>
-		</th>
-		<th colspan="1" rowspan="1" data-colwidth="160">
-			<div data-="">
-				<p data-renderer-start-pos="23270"><strong data-renderer-mark="true">Total Failed/Total Test Case</strong></p>
-			</div>
-		</th>
-		<th colspan="1" rowspan="1" data-colwidth="150">
-			<div data-="">
-				<p data-renderer-start-pos="23295"><strong data-renderer-mark="true">Condition to Terminate</strong></p>
-			</div>
-			<div data-="">
-				<p data-renderer-start-pos="23314">T = 100&nbsp;</p>
-			</div>
-		</th>
-		<th colspan="1" rowspan="1" data-colwidth="112">
-			<p data-renderer-start-pos="23323"><strong data-renderer-mark="true">Execution log and Report</strong>&nbsp;</p>
-		</th>
-		<th colspan="1" rowspan="1" data-colwidth="92">
-			<p data-renderer-start-pos="23351"><strong data-renderer-mark="true">3rd-Party Integration</strong></p>
-		</th>
-	</tr>
-	<tr>
-		<td colspan="1" rowspan="1" data-colwidth="126">
-			<p data-renderer-start-pos="23378">Test Suite 1</p>
-		</td>
-		<td colspan="1" rowspan="1" data-colwidth="120">
-			<p data-renderer-start-pos="23394">T = 100</p>
-		</td>
-		<td colspan="1" rowspan="1" data-colwidth="160">
-			<div data-="">
-				<p data-renderer-start-pos="23403">50</p>
-			</div>
-		</td>
-		<td colspan="1" rowspan="1" data-colwidth="150">
-			<div data-="">
-				<p data-renderer-start-pos="23410">x1 = 50</p>
-			</div>
-		</td>
-		<td colspan="1" rowspan="1" data-colwidth="112">
-			<p data-renderer-start-pos="23419">Same as a normal test suite</p>
-		</td>
-		<td colspan="1" rowspan="1" data-colwidth="92">
-			<p data-renderer-start-pos="23440">Applies</p>
-		</td>
-	</tr>
-	<tr>
-		<td colspan="1" rowspan="1" data-colwidth="126">
-			<p data-renderer-start-pos="23453">Test Suite 2</p>
-		</td>
-		<td colspan="1" rowspan="1" data-colwidth="120">
-			<p data-renderer-start-pos="23469">T = 100</p>
-		</td>
-		<td colspan="1" rowspan="1" data-colwidth="160">
-			<div data-="">
-				<p data-renderer-start-pos="23478">40</p>
-			</div>
-		</td>
-		<td colspan="1" rowspan="1" data-colwidth="150">
-			<div data-="">
-				<p data-renderer-start-pos="23484">x2 = x1 + 40 = 90</p>
-			</div>
-		</td>
-		<td colspan="1" rowspan="1" data-colwidth="112">
-			<p data-renderer-start-pos="23499">Same as a normal test suite</p>
-		</td>
-		<td colspan="1" rowspan="1" data-colwidth="92">
-			<p data-renderer-start-pos="23520">Applies</p>
-		</td>
-	</tr>
-	<tr>
-		<td colspan="1" rowspan="1" data-colwidth="126">
-			<p data-renderer-start-pos="23533">Test Suite 3</p>
-		</td>
-		<td colspan="1" rowspan="1" data-colwidth="120">
-			<p data-renderer-start-pos="23549">T = 100</p>
-		</td>
-		<td colspan="1" rowspan="1" data-colwidth="160">
-			<div data-="">
-				<p data-renderer-start-pos="23558">100</p>
-			</div>
-		</td>
-		<td colspan="1" rowspan="1" data-colwidth="150">
-			<div data-="">
-				<p data-renderer-start-pos="23565"><strong data-renderer-mark="true">x3 = 90 + 100 &gt; T</strong></p>
-			</div>
-		</td>
-		<td colspan="1" rowspan="1" data-colwidth="112">
-			<p data-renderer-start-pos="23582">Same as a normal test suite</p>
-		</td>
-		<td colspan="1" rowspan="1" data-colwidth="92">
-			<p data-renderer-start-pos="23603">Applies</p>
-		</td>
-	</tr>
-	<tr>
-		<td colspan="1" rowspan="1" data-colwidth="126">
-			<p data-renderer-start-pos="23616">Test Suite 4</p>
-		</td>
-		<td colspan="1" rowspan="1" data-colwidth="120">
-			<p data-renderer-start-pos="23632">T - x1 = 50</p>
-		</td>
-		<td colspan="1" rowspan="1" data-colwidth="160">
-			<div data-="">
-				<p data-renderer-start-pos="23643">5</p>
-			</div>
-		</td>
-		<td colspan="1" rowspan="1" data-colwidth="112">
-			<p data-renderer-start-pos="23652">Same as a normal test suite</p>
-		</td>
-		<td colspan="1" rowspan="1" data-colwidth="92">
-			<p data-renderer-start-pos="23673">Applies</p>
-		</td>
-	</tr>
-	<tr>
-		<td colspan="1" rowspan="1" data-colwidth="126">
-			<p data-renderer-start-pos="23686">Test Suite 5</p>
-		</td>
-		<td colspan="1" rowspan="1" data-colwidth="120">
-			<p data-renderer-start-pos="23702">T - x2 = 10</p>
-		</td>
-		<td colspan="1" rowspan="1" data-colwidth="160">
-			<div data-="">
-				<p data-renderer-start-pos="23713">2</p>
-			</div>
-		</td>
-		<td colspan="1" rowspan="1" data-colwidth="112">
-			<p data-renderer-start-pos="23722">Same as a normal test suite</p>
-		</td>
-		<td colspan="1" rowspan="1" data-colwidth="92">
-			<p data-renderer-start-pos="23743">Applies</p>
-		</td>
-	</tr>
-	<tr>
-		<td colspan="1" rowspan="1" data-colwidth="126">
-			<p data-renderer-start-pos="23756">Test Suite 6</p>
-		</td>
-		<td colspan="1" rowspan="1" data-colwidth="120">N/A</td>
-		<td colspan="1" rowspan="1" data-colwidth="160">
-			<div data-="">
-				<p data-renderer-start-pos="23776"><strong data-renderer-mark="true">Not Started Yet</strong></p>
-			</div>
-		</td>
-		<td colspan="1" rowspan="1" data-colwidth="112">
-			<p data-renderer-start-pos="23799">N/A</p>
-		</td>
-		<td colspan="1" rowspan="1" data-colwidth="92">N/A</td>
-	</tr>
-	<tr>
-		<td colspan="1" rowspan="1" data-colwidth="126">
-			<p data-renderer-start-pos="23812">Test Suite 7</p>
-		</td>
-		<td colspan="1" rowspan="1" data-colwidth="120">N/A</td>
-		<td colspan="1" rowspan="1" data-colwidth="160">
-			<div data-="">
-				<p data-renderer-start-pos="23832"><strong data-renderer-mark="true">Not Started Yet</strong></p>
-			</div>
-		</td>
-		<td colspan="1" rowspan="1" data-colwidth="112">
-			<p data-renderer-start-pos="23855">N/A</p>
-		</td>
-		<td colspan="1" rowspan="1" data-colwidth="92">N/A&nbsp;</td>
-	</tr>
-	<tr>
-		<td colspan="1" rowspan="1" data-colwidth="126">
-			<p data-renderer-start-pos="23868">Test Suite 8</p>
-		</td>
-		<td colspan="1" rowspan="1" data-colwidth="120">N/A&nbsp;</td>
-		<td colspan="1" rowspan="1" data-colwidth="160">
-			<div data-="">
-				<p data-renderer-start-pos="23888"><strong data-renderer-mark="true">Not Started Yet</strong></p>
-			</div>
-		</td>
-		<td colspan="1" rowspan="1" data-colwidth="112">
-			<p data-renderer-start-pos="23911">N/A</p>
-		</td>
-		<td colspan="1" rowspan="1" data-colwidth="92">N/A</td>
-	</tr>
-	<tr>
-		<td colspan="1" rowspan="1" data-colwidth="126">
-			<p data-renderer-start-pos="23924">Test Suite 9</p>
-		</td>
-		<td colspan="1" rowspan="1" data-colwidth="120">N/A</td>
-		<td colspan="1" rowspan="1" data-colwidth="160">
-			<div data-="">
-				<p data-renderer-start-pos="23944"><strong data-renderer-mark="true">Not Started Yet</strong></p>
-			</div>
-		</td>
-		<td colspan="1" rowspan="1" data-colwidth="112">
-			<p data-renderer-start-pos="23967">N/A</p>
-		</td>
-		<td colspan="1" rowspan="1" data-colwidth="92">N/A</td>
-	</tr>
-	<tr>
-		<td colspan="1" rowspan="1" data-colwidth="126">
-			<p data-renderer-start-pos="23980">Test Suite 10</p>
-		</td>
-		<td colspan="1" rowspan="1" data-colwidth="120">N/A</td>
-		<td colspan="1" rowspan="1" data-colwidth="160">
-			<div data-="">
-				<p data-renderer-start-pos="24001"><strong data-renderer-mark="true">Not Started Yet</strong></p>
-			</div>
-		</td>
-		<td colspan="1" rowspan="1" data-colwidth="112">
-			<p data-renderer-start-pos="24024">N/A</p>
-		</td>
-		<td colspan="1" rowspan="1" data-colwidth="92">N/A</td>
-	</tr>
-</tbody>
+<table>
+	<tbody>
+		<tr>
+			<th colspan="1" rowspan="1">
+				<p><strong>Test Suite Collection</strong></p>
+			</th>
+			<th colspan="1" rowspan="1">
+				<p><strong>Threshold</strong>&nbsp;</p>
+			</th>
+			<th colspan="1" rowspan="1">
+				<div>
+					<p><strong>Total Failed/Total Test Case</strong></p>
+				</div>
+			</th>
+			<th colspan="1" rowspan="1">
+				<div>
+					<p><strong>Condition to Terminate</strong></p>
+				</div>
+				<div>
+					<p>T = 100&nbsp;</p>
+				</div>
+			</th>
+			<th colspan="1" rowspan="1">
+				<p><strong>Execution log and Report</strong>&nbsp;</p>
+			</th>
+			<th>
+				<p><strong>3rd-Party Integration</strong></p>
+			</th>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">
+				<p>Test Suite 1</p>
+			</td>
+			<td colspan="1" rowspan="1">
+				<p>T = 100</p>
+			</td>
+			<td colspan="1" rowspan="1">
+				<div>
+					<p>50</p>
+				</div>
+			</td>
+			<td colspan="1" rowspan="1">
+				<div>
+					<p>x1 = 50</p>
+				</div>
+			</td>
+			<td colspan="1" rowspan="1">
+				<p>Same as a normal test suite</p>
+			</td>
+			<td>&nbsp;Applies</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">
+				<p>Test Suite 2</p>
+			</td>
+			<td colspan="1" rowspan="1">
+				<p>T = 100</p>
+			</td>
+			<td colspan="1" rowspan="1">
+				<div>
+					<p>40</p>
+				</div>
+			</td>
+			<td colspan="1" rowspan="1">
+				<div>
+					<p>x2 = x1 + 40 = 90</p>
+				</div>
+			</td>
+			<td colspan="1" rowspan="1">
+				<p>Same as a normal test suite</p>
+			</td>
+			<td>&nbsp;Applies</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">
+				<p>Test Suite 3</p>
+			</td>
+			<td colspan="1" rowspan="1">
+				<p>T = 100</p>
+			</td>
+			<td colspan="1" rowspan="1">
+				<div>
+					<p>100</p>
+				</div>
+			</td>
+			<td colspan="1" rowspan="1">
+				<div>
+					<p><strong>x3 = 90 + 100 &gt; T</strong></p>
+				</div>
+			</td>
+			<td colspan="1" rowspan="1">
+				<p>Same as a normal test suite</p>
+			</td>
+			<td>&nbsp;Applies</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">
+				<p>Test Suite 4</p>
+			</td>
+			<td colspan="1" rowspan="1">
+				<p>T - x1 = 50</p>
+			</td>
+			<td colspan="1" rowspan="1">
+				<div>
+					<p>5</p>
+				</div>
+			</td>
+			<td colspan="1" rowspan="1">
+				<p>Same as a normal test suite</p>
+			</td>
+			<td colspan="1" rowspan="1">
+				<p>Applies</p>
+			</td>
+			<td>&nbsp;N/A</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">
+				<p>Test Suite 5</p>
+			</td>
+			<td colspan="1" rowspan="1">
+				<p>T - x2 = 10</p>
+			</td>
+			<td colspan="1" rowspan="1">
+				<div>
+					<p>2</p>
+				</div>
+			</td>
+			<td colspan="1" rowspan="1">
+				<p>Same as a normal test suite</p>
+			</td>
+			<td colspan="1" rowspan="1">
+				<p>Applies</p>
+			</td>
+			<td>&nbsp;N/A</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">
+				<p>Test Suite 6</p>
+			</td>
+			<td colspan="1" rowspan="1">N/A</td>
+			<td colspan="1" rowspan="1">
+				<div>
+					<p><strong>Not Started Yet</strong></p>
+				</div>
+			</td>
+			<td colspan="1" rowspan="1">
+				<p>N/A</p>
+			</td>
+			<td colspan="1" rowspan="1">N/A</td>
+			<td>&nbsp;N/A</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">
+				<p>Test Suite 7</p>
+			</td>
+			<td colspan="1" rowspan="1">N/A</td>
+			<td colspan="1" rowspan="1">
+				<div>
+					<p><strong>Not Started Yet</strong></p>
+				</div>
+			</td>
+			<td colspan="1" rowspan="1">
+				<p>N/A</p>
+			</td>
+			<td colspan="1" rowspan="1">N/A&nbsp;</td>
+			<td>&nbsp;N/A</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">
+				<p>Test Suite 8</p>
+			</td>
+			<td colspan="1" rowspan="1">N/A&nbsp;</td>
+			<td colspan="1" rowspan="1">
+				<div>
+					<p><strong>Not Started Yet</strong></p>
+				</div>
+			</td>
+			<td colspan="1" rowspan="1">
+				<p>N/A</p>
+			</td>
+			<td colspan="1" rowspan="1">N/A</td>
+			<td>&nbsp;N/A</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">
+				<p>Test Suite 9</p>
+			</td>
+			<td colspan="1" rowspan="1">N/A</td>
+			<td colspan="1" rowspan="1">
+				<div>
+					<p><strong>Not Started Yet</strong></p>
+				</div>
+			</td>
+			<td colspan="1" rowspan="1">
+				<p>N/A</p>
+			</td>
+			<td colspan="1" rowspan="1">N/A</td>
+			<td>&nbsp;N/A&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="1" rowspan="1">
+				<p>Test Suite 10</p>
+			</td>
+			<td colspan="1" rowspan="1">N/A</td>
+			<td colspan="1" rowspan="1">
+				<div>
+					<p><strong>Not Started Yet</strong></p>
+				</div>
+			</td>
+			<td colspan="1" rowspan="1">
+				<p>N/A</p>
+			</td>
+			<td colspan="1" rowspan="1">N/A</td>
+			<td>&nbsp;N/A</td>
+		</tr>
+	</tbody>
 </table>
 
 Katalon Studio auto-generates JUnit report with all test cases in test suites 1, 2, 3, 4, and 5.
