@@ -8,7 +8,7 @@ redirect_from:
 ## TestOps Terminology
 
 **<details><summary>Agent</summary>**
-Connects a local machine to the TestOps servers for test runs execution.
+Connects a local machine to the TestOps servers for test executions.
 </details>
 
 **<details><summary>API performance anomalies</summary>**
@@ -18,9 +18,9 @@ Identify web services that take more/less time to respond than usual by applying
 **<details><summary>Assertions</summary>**
 Determine whether the automated test case succeeds or not.
 
-Katalon TestOps provides users a specific view of assertions in each test case to evaluate the quality of test cases and ensure your tested application/software is working correctly.
+Katalon TestOps provides you with a specific view of assertions in each test case to evaluate the quality of test cases and ensure your tested application/software is working correctly.
 
-Assertions help checking whether a condition is true (e.g., whether labels, data, API responses are rendered correctly).
+Assertions help to check whether a condition is true (e.g., whether labels, data, API responses are rendered correctly).
 </details>
 
 **<details><summary>BDD Test Result</summary>**
@@ -30,10 +30,11 @@ In Katalon TestOps, the Features of BDD tests are displayed as Requirements, whi
 </details>
 
 **<details><summary>Build</summary>**
-Represents a group of features/tasks in a release for management or testing purposes.
+Represents a group of features/tasks in a release, used for management or testing purposes.
 
 In Katalon TestOps, a build can consist of one or more test cases.
-When users map a test result to a build, it’s automatically mapped to the corresponding release. However, if users map a test result to a release, it’s not mapped to any specific build.
+
+When users map a test result to a build, the test result is automatically mapped to the corresponding release. However, if users map a test result to a release, the test result is not mapped to any specific build.
 </details>
 
 **<details><summary>Build Label</summary>**
@@ -41,7 +42,7 @@ Represents a piece of code committed to the source code
 </details>
 
 **<details><summary>Defect</summary>**
-Identifies a failed test run on TestOps to link the test result to a Jira issue (Jira bug).
+Identifies a failed test run to link the test result to a Jira issue (Jira bug).
 </details>
 
 **<details><summary>Interval (Trigger)</summary>**
@@ -51,9 +52,9 @@ In Katalon TestOps, the Interval Unit values are Minute, Hour, Day, Week. For ex
 </details>
 
 **<details><summary>Key (Jira)</summary>**
-Represents an ID of the Jira issue you have linked a test case/test result to.
+Represents the ID of a Jira issue you have linked a test case/test result to.
 
-In Katalon TestOps, you link a test case to Jira Requirements and link a test result to a Jira Defect.
+In Katalon TestOps, you link a test case to Jira Requirements and link a test result (if the test run fails) to a Jira Defect.
 </details>
 
 **<details><summary>Last Ping (Agent)</summary>**
@@ -61,33 +62,35 @@ The last time an Agent connects to a server to ask for a job to execute.
 </details>
 
 **<details><summary>Maintainer</summary>**
-A role responsible for all test results of a test case.
+A role that is responsible for all test results of a test case.
 
-In Katalon TestOps, within an organization, you can assign a person to maintain a test case. The maintainer is then in charge of all history results of a test case.
+In Katalon TestOps, within an organization, you can assign a person to maintain a test case and the history of its test results.
 </details>
 
 **<details><summary>Organization</summary>**
-Brings together users, teams and projects in your company.
+Created to brings together all users, teams, and projects of a company.
 
-In Katalon TestOps, the organization level is the highest level of management, followed by the team level and then project level.
+In Katalon TestOps, the organization level is the highest level of management, followed by the team level and the project level.
 </details>
 
 **<details><summary>Path</summary>**
 Location of a test in Katalon Studio.
 
-In Katalon TestOps, each test has a path if it is uploaded from Katalon Studio to Katalon TestOps.
+In Katalon TestOps, each test case has a path if it is uploaded from Katalon Studio.
 </details>
 
 **<details><summary>Profile</summary>**
-A profile is set for each test suite in Katalon Studio. Hence, a test run can have multiple profiles in Katalon TestOps. This helps cover multiple and different environments to execute automated test scripts with ease.
+A profile that is set for each test suite in Katalon Studio.
+
+In Katalon TestOps, a test run can have multiple profiles. This helps cover multiple and different environments to execute automated test scripts with ease.
 </details>
 
 **<details><summary>Properties (Visual Testing)</summary>**
-Represents an ID of the baseline image.
+Represents the ID of a baseline image.
 </details>
 
 **<details><summary>Release</summary>**
-Represents a version or a milestone of a software product.
+Represents a version or a milestone of your tested software.
 
 In Katalon TestOps, a release consists of one or more test cases.
 </details>
@@ -97,7 +100,7 @@ Represents the action of calling a server and asking it to perform a task.
 </details>
 
 **<details><summary>Requirement (Jira)</summary>**
-Represents a Jira issue linked to a test case
+Represents the Jira issue that is linked to a test case.
 </details>
 
 **<details><summary>Script Repository</summary>**
@@ -107,9 +110,9 @@ In Katalon TestOps, you can create a script repository to manage all test script
 </details>
 
 **<details><summary>Session</summary>**
-A session is created once a test run is executed.
+A session that is created once a test run is executed.
 
-In Katalon TestOps, each test run can be executed as one or many test sessions depending on whether the test runs in parallel or not.
+In Katalon TestOps, each test run can be executed as one or many test sessions depending on whether the tests run in parallel or not.
 
 A session can contain:
 * one or more test cases
@@ -118,19 +121,19 @@ A session can contain:
 </details>
 
 **<details><summary>Test Case</summary>**
-Consists of multiple test results once being executed. 
+Consists of multiple test results once a test is executed.
 
-In Katalon TestOps, you can see detailed information of test cases to see if your software is free of bugs and whether it is working as expected. You can link test cases to Jira Requirements to ensure a good test coverage. A test case can be linked to one or more Requirements.  
+In Katalon TestOps, you can see detailed information of test cases to see if your software is free of bugs and whether it is working as expected. You can link test cases to Jira Requirements to ensure good test coverage. A test case can be linked to one or more Requirements.
 </details>
 
 **<details><summary>Test Environment</summary>**
-Represents a place where a test run could be executed in command line interface.
+Represents a place where a test run could be executed with the command line interface.
 
 In Katalon TestOps, you can use your local machine as a test environment. This test environment must be controlled by an agent.
 </details>
 
 **<details><summary>Test Execution</summary>**
-The results of test cases executed with TestOps scheduler.
+The results of test cases executed by TestOps scheduler.
 
 > Notes:
 >
@@ -140,11 +143,11 @@ The results of test cases executed with TestOps scheduler.
 **<details><summary>Test Run</summary>**
 Consists of one or more test cases to be executed (execution of more test cases depends on whether a test run is conducted in parallel).
 
-In Katalon TestOps, a test run keeps track of all test results, status, duration, asignee, etc.
+In Katalon TestOps, a test run keeps track of all test results, status, duration, assignee, etc.
 </details>
 
 **<details><summary>Test Run Type</summary>**
-A collection of all test runs that have same configurations.
+A collection of all test runs that have the same configurations.
 </details>
 
 **<details><summary>Test Suite</summary>**
@@ -152,7 +155,7 @@ A collection of test cases.
 </details>
 
 **<details><summary>Test Suite Collection</summary>**
-A list of test suites that allows users to manage and plan tes executions better.
+A list of test suites that allows users to manage and plan test executions better.
 </details>
 
 **<details><summary>Threshold (Agent)</summary>**
@@ -160,13 +163,13 @@ The maximum number of sessions that an agent can execute at the same time.
 </details>
 
 **<details><summary>Total Assigned Sessions (Agent)</summary>**
-Number of sessions assigned to an agent to execute tests.
+The total number of sessions assigned to an agent to execute tests.
 
-In Katalon TestOps, the maximum number of assigned sessions is called Threshold.
+In Katalon TestOps, the maximum number of assigned sessions is also called Threshold.
 </details>
 
 **<details><summary>Total Executing Sessions (Agent)</summary>**
-Number of sessions an agent executes in real time.
+The number of sessions an agent executes in real time.
 </details>
 
 **<details><summary>Traceability Matrix</summary>**
@@ -176,21 +179,21 @@ Manages the relationships across requirements, test cases and defects.
 **<details><summary>Trigger</summary>**
 Determines when a test run is executed.
 
-In Katalon TestOps, this function helps leverage remote execution for a complete control of testing plan.
+In Katalon TestOps, this function helps leverage remote execution for complete control of the testing plan.
 </details>
 
 **<details><summary>User Management</summary>**
 An administration tool to manage users.
 
 In Katalon TestOps, this feature allows you to:
-* invite users to your organization (you can also set up access permission to other Katalon products).
+* invite users to your organization (you can also set up permission access for other Katalon products).
 * delete pending invitations.
 * set and edit a user's role.
 * remove users from your organization.
 </details>
 
 **<details><summary>UUID (Agent)</summary>**
-A identifier generated when an agent is set up successfully..
+An identifier that is generated when an agent is set up successfully.
 </details>
 
 **<details><summary>Visual Baseline (Visual Testing)</summary>**
@@ -199,63 +202,184 @@ A standard reference image used to compare with the Checkpoint screenshot(s) dur
 
 ## TestOps Calculations
 
-**<details><summary>% change (Test Case in Dashboard)</summary>**
-Connects a local machine to the TestOps servers for test runs execution.
+**<details><summary>% change of Test Case (Dashboard)</summary>**
+$$
+\frac{Total-test-cases-this-week}{Total-test-cases-last-week} * 100
+$$
 </details>
 
-**<details><summary>% change (Test Result in Dashboard)</summary>**
-Connects a local machine to the TestOps servers for test runs execution.
+**<details><summary>% change of Test Result (Dashboard)</summary>**
+$$
+\frac{Total-test-results-this-week}{Total-test-results-last-week} * 100
+$$
 </details>
 
-**<details><summary>% pass/fail (Build)</summary>**
-Connects a local machine to the TestOps servers for test runs execution.
+**<details><summary>% fail (Build)</summary>**
+$$
+\frac{Total-failed-test-cases}{Total-test-cases} * 100
+$$
+</details>
+
+**<details><summary>% flakiness</summary>**
+$$
+\frac{Number-of-times-the-status-of-test-results-changes}{Total-number-of-test-results} * 100
+$$
+
+> Notes:
+>
+> Total number of test results =  30 latest test results (ordered by the start time of execution).
+</details>
+
+**<details><summary>% pass (Build)</summary>**
+$$
+\frac{Total-passed-test-cases}{Total-test-cases} * 100
+$$
 </details>
 
 **<details><summary>Active/Archived Release</summary>**
-Connects a local machine to the TestOps servers for test runs execution.
+A new release is active by default. You can track it when it's active.
+
+In Katalon TestOps, you can also archive a release to stop tracking it.
 </details>
 
 **<details><summary>Active Test Case</summary>**
-Connects a local machine to the TestOps servers for test runs execution.
+Test cases that are run in the last 2 months (based on the start time of execution).
 </details>
 
 **<details><summary>Average Duration (Test Case)</summary>**
-Connects a local machine to the TestOps servers for test runs execution.
+$$
+\frac{Total-duration-of-all-test-results}{Total-number-of-test-results} * 100
+$$
+
+> Notes:
+>
+> The calculation is based on the last 100 test results.
 </details>
 
 **<details><summary>Average Duration (Web Services)</summary>**
-Connects a local machine to the TestOps servers for test runs execution.
+The average amount based on the last 30 execution requests (ordered by the start time of execution).
 </details>
 
 **<details><summary>Development Progress (Dashboard)</summary>**
-Connects a local machine to the TestOps servers for test runs execution.
+$$
+\frac{Resolved-Jira-issues}{Total-Jira-issues} * 100
+$$
 </details>
 
 **<details><summary>Duration (Session)</summary>**
-Connects a local machine to the TestOps servers for test runs execution.
+= (End time - Start time)
+
+> Notes:
+>
+> Start time is when an agent starts receiving a job.
+>
+> End time is when uploading reports to TestOps is done.
 </details>
 
 **<details><summary>Duration (Test Result)</summary>**
-Connects a local machine to the TestOps servers for test runs execution.
+= (End time - Start time)
 </details>
 
 **<details><summary>Duration (Test Run)</summary>**
-Connects a local machine to the TestOps servers for test runs execution.
+= (End time - Start time)
+
+> Notes:
+>
+> This shows the actual time of running tests, including test runs via Scheduler and Upload Reports.
 </details>
 
 **<details><summary>Execution Time (Dashboard)</summary>**
-Connects a local machine to the TestOps servers for test runs execution.
-</details>
-
-**<details><summary>Flakiness (%)</summary>**
-Connects a local machine to the TestOps servers for test runs execution.
+Total duration of test results.
 </details>
 
 **<details><summary>Flaky Test Case</summary>**
-Connects a local machine to the TestOps servers for test runs execution.
+Represents test cases that fail to produce the same results each time the same analytics is run.
 </details>
 
 **<details><summary>Max/Min Duration (Web Services)</summary>**
+The max/min duration that is based on the last 30 execution requests.
+</details>
+
+**<details><summary>Offline Agent</summary>**
+An agent is offline when the time of last Ping is longer than the active time
+
+> Notes:
+>
+> By default, the active time is 5 minutes.
+</details>
+
+**<details><summary>Platform Coverage</summary>**
 Connects a local machine to the TestOps servers for test runs execution.
 </details>
 
+**<details><summary>Run Frequency (Test Run)</summary>**
+Connects a local machine to the TestOps servers for test runs execution.
+</details>
+
+**<details><summary>Similar Failures</summary>**
+Connects a local machine to the TestOps servers for test runs execution.
+</details>
+
+**<details><summary>Slowest Test Case</summary>**
+Connects a local machine to the TestOps servers for test runs execution.
+</details>
+
+**<details><summary>Stale Test Case</summary>**
+Connects a local machine to the TestOps servers for test runs execution.
+</details>
+
+**<details><summary>Status (Release)</summary>**
+Connects a local machine to the TestOps servers for test runs execution.
+</details>
+
+**<details><summary>Status (Session)</summary>**
+Connects a local machine to the TestOps servers for test runs execution.
+</details>
+
+**<details><summary>Status (Test Case)</summary>**
+Connects a local machine to the TestOps servers for test runs execution.
+</details>
+
+**<details><summary>Status (Test Result)</summary>**
+Connects a local machine to the TestOps servers for test runs execution.
+</details>
+
+**<details><summary>Status (Test Run)</summary>**
+Connects a local machine to the TestOps servers for test runs execution.
+</details>
+
+**<details><summary>Status (Test Suite)</summary>**
+Connects a local machine to the TestOps servers for test runs execution.
+</details>
+
+**<details><summary>Status (Visual Checkpoint)</summary>**
+Connects a local machine to the TestOps servers for test runs execution.
+</details>
+
+**<details><summary>Status (Visual Test Run)</summary>**
+Connects a local machine to the TestOps servers for test runs execution.
+</details>
+
+**<details><summary>Test Progress (Dashboard)</summary>**
+Connects a local machine to the TestOps servers for test runs execution.
+</details>
+
+**<details><summary>Test Run Coverage</summary>**
+Connects a local machine to the TestOps servers for test runs execution.
+</details>
+
+**<details><summary>Time (Test Suite)</summary>**
+Connects a local machine to the TestOps servers for test runs execution.
+</details>
+
+**<details><summary>Time (Visual Test Run)</summary>**
+Connects a local machine to the TestOps servers for test runs execution.
+</details>
+
+**<details><summary>Total Duration in Summary (Test Results)</summary>**
+Connects a local machine to the TestOps servers for test runs execution.
+</details>
+
+**<details><summary>Total Duration (Release)</summary>**
+Connects a local machine to the TestOps servers for test runs execution.
+</details>
