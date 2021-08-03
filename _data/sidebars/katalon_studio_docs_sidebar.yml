@@ -1,52 +1,68 @@
 items:
   - title: "Products and Licenses"
     tree:
-      - title: "Katalon Products and Licensing"
+      - title: "Katalon Studio Enterprise"
         tree:
           - title: "Katalon Products and Licensing"
             url: /katalon-studio/docs/license.html
-          - title: "Katalon Runtime Engine DevOps Sunsetting"
-            url: /katalon-studio/docs/kre-devops-sunset.html
-      - title: "Online and Offline Licenses"
-        url: /katalon-studio/docs/online-offline-licenses.html
-      - title: "Katalon Trial and Free Plans"
-        url: /katalon-studio/docs/trial-free-plans.html
-      - title: "Subscribe to Katalon licenses"
-        tree:
-          - title: "Katalon License Subscription"
-            url: /katalon-studio/docs/license-subscription.html
-          - title: "Subscription via Katalon Website"
-            url: /katalon-studio/docs/subscription-kstore.html
-          - title: "Subscription via Katalon TestOps"
-            url: /katalon-studio/docs/license-KT.html
-          - title: "Subscription via PO"
-            url: /katalon-studio/docs/license-po.html
-          - title: "Subscription via Quote"
-            url: /katalon-studio/docs/license-quote.html
+          - title: "Katalon Trial and Free Plans"
+            url: /katalon-studio/docs/trial-free-plans.html
+          - title: "Online and Offline Licenses"
+            url: /katalon-studio/docs/online-offline-licenses.html
+          - title: "Subscribe to Katalon licenses"
+            tree:
+              - title: "Katalon License Subscription"
+              url: /katalon-studio/docs/license-subscription.html
+              - title: "Subscription via Katalon Website"
+              url: /katalon-studio/docs/subscription-kstore.html
+              - title: "Subscription via Katalon TestOps"
+              url: /katalon-studio/docs/license-KT.html
+              - title: "Subscription via PO"
+              url: /katalon-studio/docs/license-po.html
+              - title: "Subscription via Quote"
+              url: /katalon-studio/docs/license-quote.html
+          - title: "Use and Manage Katalon Licenses"
+            tree:
+              - title: "Manage Katalon Licenses"
+                url: /katalon-studio/docs/license-management.html
+              - title: "Grant Online Licenses"
+                url: /katalon-studio/docs/use-online-license.html
+              - title: "Grant and Use an Offline Katalon Studio Enterprise License"
+                url: /katalon-studio/docs/how-to-create-kse-offline-license.html
           - title: "Upgrade Subscriptions"
             url: /katalon-studio/docs/upgrade-subs.html
-          - title: "Cancel Subscriptions"
-            url: /katalon-studio/docs/cancel-subs.html
           - title: "Update Billing Information"
             url: /katalon-studio/docs/billing-info.html
-      - title: "Use and Manage Katalon Licenses"
+          - title: "Troubleshoot"
+            tree:
+              - title: "Session Termination Causes"
+                url: /katalon-studio/docs/session-termination.html
+              - title: "Troubleshoot Activation Problems"
+                url: /katalon-studio/docs/troubleshoot-activation-problems.html
+          - title: "Cancel Subscriptions"
+            url: /katalon-studio/docs/cancel-subs.html
+      - title: "Katalon Runtime Engine"
         tree:
-          - title: "Manage Katalon Licenses"
-            url: /katalon-studio/docs/license-management.html
-          - title: "Grant Online Licenses"
-            url: /katalon-studio/docs/use-online-license.html
-          - title: "Grant and Use an Offline Katalon Studio Enterprise License"
-            url: /katalon-studio/docs/how-to-create-kse-offline-license.html
+          - title: "Katalon Runtime Engine DevOps Sunsetting"
+            url: /katalon-studio/docs/kre-devops-sunset.html
           - title: "Grant and Use an Offline Katalon Runtime Engine License"
             url: /katalon-studio/docs/re-offline-licenses.html
           - title: "Transfer an Online Katalon Runtime Engine License"
             url: /katalon-studio/docs/transfer-license.html
-      - title: "Troubleshoot"
+      - title: "Katalon TestOps Subscriptions"
         tree:
-          - title: "Session Termination Causes"
-            url: /katalon-studio/docs/session-termination.html
-          - title: "Troubleshoot Activation Problems"
-            url: /katalon-studio/docs/troubleshoot-activation-problems.html
+          - title: "Overview"
+            url: /katalon-analytics/docs/testops_subscriptions_overview.html
+          - title: "Trial Plans"
+            url: /katalon-analytics/docs/trial-plans.html
+          - title: "Manage Subscriptions"
+            tree:
+              - title: "Create Subscriptions"
+                url: /katalon-analytics/docs/testops-subscriptions.html
+              - title: "Ugrade Subscriptions"
+                url: /katalon-analytics/docs/upgrade-subscriptions.html
+              - title: "Cancel Subscriptions"
+                url: /katalon-analytics/docs/cancel-subscriptions.html
   - title: "Katalon Studio Enterprise"
     tree:
       - title: "Get Started"
@@ -1223,20 +1239,6 @@ items:
             url: /katalon-store/docs/publisher/manage-published-plugins.html
   - title: "Katalon TestOps"
     tree:
-      - title: "Subscriptions"
-        tree:
-          - title: "Overview"
-            url: /katalon-analytics/docs/testops_subscriptions_overview.html
-          - title: "Trial Plans"
-            url: /katalon-analytics/docs/trial-plans.html
-          - title: "Manage Subscriptions"
-            tree:
-              - title: "Create Subscriptions"
-                url: /katalon-analytics/docs/testops-subscriptions.html
-              - title: "Ugrade Subscriptions"
-                url: /katalon-analytics/docs/upgrade-subscriptions.html
-              - title: "Cancel Subscriptions"
-                url: /katalon-analytics/docs/cancel-subscriptions.html
       - title: "Get Started"
         tree:
           - title: "Overview"
