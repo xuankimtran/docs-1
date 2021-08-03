@@ -2,8 +2,7 @@
 title: "Schedule Test Runs"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/create-plan.html 
-redirect_from:
-    - "/katalon-analytics/docs/view-ci-plans/"
+redirect_from: /katalon-analytics/docs/view-ci-plans.html
 description: 
 ---
 
