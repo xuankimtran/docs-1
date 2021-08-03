@@ -815,6 +815,8 @@ items:
                 url: /katalon-studio/docs/mobile-wait-for-element-not-has-attribute.html
               - title: "[Mobile] Wait For Element Present"
                 url: /katalon-studio/docs/mobile-wait-for-element-present.html
+              - title: "[Mobile] Wait For Element Not Present"
+                url: /katalon-studio/docs/mobile-wait-for-element-not-present.html
           - title: "Visual-based Mobile Testing Keywords"
             tree:
               - title: "[Mobile] Take Area Screenshot As Checkpoint"
