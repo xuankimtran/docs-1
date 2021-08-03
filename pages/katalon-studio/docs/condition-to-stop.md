@@ -357,7 +357,7 @@ Below is the final status of each test suite in the test suite collection.
   </td>
   <td colspan="1" rowspan="1" data-colwidth="166">
    <div data-="">
-    <p data-renderer-start-pos="22352">x = T = 20</p>
+    <p data-renderer-start-pos="22352">x = 20 = T</p>
    </div>
   </td>
   <td colspan="1" rowspan="1" data-colwidth="140">
