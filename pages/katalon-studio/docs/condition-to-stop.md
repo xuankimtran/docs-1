@@ -25,46 +25,16 @@ Consider using this parameter when:
 
 In this article, you will learn how to configure a maximum number of test failures, with examples using common use cases.
 
-You can use this feature with the following testing types:
+You can use this feature to:
 
-<div>
-	<table>
-		<tbody>
-			<tr>
-				<td><strong>Testing types</strong></td>
-				<td><strong>Use Cases</strong></td>
-			</tr>
-			<tr>
-				<td rowspan="6">Test suite<br /><br /><br /><br /><br /></td>
-				<td>Normal test suite</td>
-			</tr>
-			<tr>
-				<td>Retry after executing all</td>
-			</tr>
-			<tr>
-				<td>Retry failed executions immediately</td>
-			</tr>
-			<tr>
-				<td>Data-driven testing</td>
-			</tr>
-			<tr>
-				<td>Data-driven testing and retry after executing all
-				</td>
-			</tr>
-			<tr>
-				<td>Data-driven testing and retry failed executions immediately
-				</td>
-			</tr>
-			<tr>
-				<td rowspan="2">Test suite collection</td>
-				<td>Sequential mode</td>
-			</tr>
-			<tr>
-				<td>Parallel mode</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
+- Terminate a test suite.
+ 	- Terminate a test suite with configured retry after executing all.
+	- Terminate a test suite with configured retry failed executions immediately.
+	- Terminate a test suite with Data-driven testing.
+	- Terminate a test suite with Data-driven testing and configured retry after executing all.
+	- Terminate a test suite with Data-driven testing with configured retry failed executions immediately.
+- Terminate a test suite collection executed in sequential mode.
+- Terminate a test suite collection executed in parallel mode.
 
 ## Set a maximum number of test failures
 
@@ -116,9 +86,9 @@ Katalon Studio sends **Incomplete** test suite execution’s attachments, includ
 
 We outline below three example use cases using this parameter:
 
-1. Terminate test suite execution
-2. Terminate test suite collection in sequential mode
-3. Terminate test suite collection in parallel mode.
+1. Terminate test suite execution.
+2. Terminate test suite collection executed in sequential mode.
+3. Terminate test suite collection executed in parallel mode.
 
 ### Terminate Test Suite Execution
 
@@ -289,7 +259,7 @@ Below is the final status of each test case in the test suite.
 
 You can also apply the terminate execution conditionally with **Retry all**, **Retry immediately**, and **Data-driven testing**. These cases follow the same logic with this example, following the definition of a test failure mentioned.
 
-### Terminate Test Suite Collection In Sequential Mode
+### Terminate Test Suite Collection Executed In Sequential Mode
 
 Given that you have 5 test suites, each test suite has 10 test cases. You set the ``maxFailedTests=20`` (T = 20).
 
@@ -434,7 +404,7 @@ Katalon Studio auto-generates JUnit reports with all executed test cases in test
 
 > Learn more about how to create and execute a test suite collection in [Test Suite Collection](https://docs.katalon.com/katalon-studio/docs/test-suite-collection.html#manage-execution-information)
 
-### Terminate Test Suite Collection In Parallel Mode
+### Terminate Test Suite Collection Executed In Parallel Mode
 
 Given that you have a test suite collection that has 10 test suites with 3 parallel instances. You set the ``maxFailedTests=100`` (T = 100).
 
