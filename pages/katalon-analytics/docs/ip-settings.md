@@ -5,21 +5,32 @@ permalink: katalon-analytics/docs/ip-settings.html
 description: 
 ---
 
-> This feature is only available for Katalon TestOps Enterprise. To request a free trial, please visit [Trial Plans](https://docs.katalon.com/katalon-analytics/docs/trial-plans.html).
+In Katalon TestOps, you can create an IP whitelist to protect your Organization's data from any unauthorized access.
 
-> Only Organization Owners and Admins can access these settings.
- 
-To protect organization’s data from unauthorized access, an Owner or Admin can whitelist which IP addresses/ranges that users in your organization can use to access the system. 
+**IP Address Restrictions** is a feature enabling you to whitelist which IP addresses/ranges that are allowed access to your system.
 
-1. Go to **IP Address Restrictions** area under **Organization Settings**.
+> Requirements:
+>
+> * You need to subscribe to Katalon TestOps Enterprise plan. To request a trial of Katalon TestOps Enterprise, see [TestOps Trial Plans](https://docs.katalon.com/katalon-analytics/docs/trial-plans.html).
+>
+> * You must be the Owner or Admin of an Organization.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/whitelist-ip/ip-settings.png" width="" height="">
+## Configure IP Address Restrictions
 
-2. Enter valid IP addresses or ranges you need to whitelist in the empty field.
+1. Sign in to [Katalon TestOps](https://testops.katalon.io/login).
 
-3. Click **Update** button to finish.
+2. Click on the *Settings* icon at the top right corner and select **Organization Management**.
 
-> Note: Only the IP addresses entered in the **IP Address Restrictions** area are whitelisted. Other IPs (if any) are restricted to access the system.
+3. Select **Settings** on the left bar, then scroll down to the **IP Address Restrictions** section.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-ip-whitelist-setting/ip-address-restrictions-section.png"  width=100% alt="ip address restrictions section">
+
+4. Enter valid IP addresses or ranges you want to allow access.
+
+5. Click **Update**.
+
+After configuring IP Address Restrictions, only IP addresses you have entered now have access to your system (the whitelist).  
+
 
 
 
