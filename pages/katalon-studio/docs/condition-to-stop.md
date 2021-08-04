@@ -4,7 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/terminate-execution-conditionally.html
 description: "This article provides the concept of terminating execution conditionally and the tutorial on common use cases."
 ---
-From version 8.1.0 onwards, you can set a maximum number of test failures before your test execution automatically ends. This condition can be set via command-line to save time, providing early feedback instead of waiting for the test execution to finish.
+From version 8.1.0 onwards, you can set a maximum number of test failures before your test execution automatically ends. You can set this condition via the command-line option. The ability to terminate an execution helps you save time and provide early feedback instead of waiting for the testing process to finish.
 
 >**What is a test failure?**
 >
@@ -15,7 +15,7 @@ From version 8.1.0 onwards, you can set a maximum number of test failures before
 >- 1 test iteration (test case + data row) fails = 1 test failure
 >- 1 retried test iteration fails = 1 test failure
 >
-> The number of maximum failure test cases must be greater than 0 and a natural number (1,2,3...). Otherwise, Katalon Studio will not start the execution.
+> The number of maximum test cases failure must be greater than 0 and a natural number (1,2,3...). Otherwise, Katalon Studio will not start the execution.
 
 Consider using this parameter when:
 
@@ -23,7 +23,7 @@ Consider using this parameter when:
 - You have a mature set of tests, and it takes hours to finish execution.
 - You have a new code committed or a new build available, where a high number of test failures might reflect the quality of the new build.
 
-This article provides the concept of the configuration on terminating execution and the tutorial on common use cases.
+In this article, you will learn how to configure a maximum number of test failures, with examples using common use cases.
 
 You can use this feature with the following testing types:
 
@@ -48,19 +48,11 @@ You can use this feature with the following testing types:
 				<td>Data-driven testing</td>
 			</tr>
 			<tr>
-				<td>
-					<ul>
-						<li>Data-driven testing</li>
-						<li>Retry after executing all</li>
-					</ul>
+				<td>Data-driven testing and retry after executing all
 				</td>
 			</tr>
 			<tr>
-				<td>
-					<ul>
-						<li>Data-driven testing</li>
-						<li>Retry failed executions immediately</li>
-					</ul>
+				<td>Data-driven testing and retry failed executions immediately
 				</td>
 			</tr>
 			<tr>
@@ -73,8 +65,6 @@ You can use this feature with the following testing types:
 		</tbody>
 	</table>
 </div>
-
-This article provides the concept of the configuration on terminating execution and the tutorial on common use cases.
 
 ## Set a maximum number of test failures
 
@@ -94,19 +84,33 @@ This article provides the concept of the configuration on terminating execution 
 
  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/condition%20to%20stop%20-%202.png" alt="command builder" width=70%>
 
- After you're done with the configuration, you can now click **Generate command** to copy and use the generated command in the command line directly, or **Generate property file** to save the property file and run execution in Console mode.
+ >**Notes**:
+ >
+ > The number of maximum test cases failure must be greater than 0 and a natural number (1,2,3...). Otherwise, Katalon Studio will not start the execution.
+
+ After you're done with the configuration, click **Generate command**. Copy the generated command to use in Console mode.
 
  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/generate%20command%200.png" alt="generate command" width=70%>
+
+You can also run execution with the property file. To save the property file in the **Execution Configurations** dialog, click **Generate property file > Save**.
 
  >**Notes**: For detailed instruction on how to run a test execution in Console mode, see [Command Builder](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#command-builder).
 
 ### With Command-line option
 
-Use the command-line option: ``-maxFailedTests=T``, with T is the maximum number of test failures.
+Use the command-line option: ``-maxFailedTests=T``, where T is the maximum number of test failures.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/command-line.png" alt="command line" width=100%>
 
 See [Katalonc command-line option](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#automatically-updating-webdriver-option) for the list of common command-line options supported.
+
+## 3rd-Party Integrations
+
+The final status of a terminated test suite is marked **Incomplete**. When a test suite has at least 1 test case not run, the status of this test suite is **Incomplete**.
+
+**Incomplete** and **Not started yet** test suite and its test cases' results are not uploaded to 3rd-party tools (qTest, JIRA, Slack, Azure DevOps Test Plans, TestRail) except for TestOps, since TestOps parses the execution log.
+
+Katalon Studio sends **Incomplete** test suite execution’s attachments, including execution log and JUnit Report to TestOps. This action ends the incomplete execution on TestOps.
 
 ## Common Use Cases
 
@@ -123,11 +127,11 @@ Given that you have a test suite that has 6 test cases. You set the ``maxFailedT
 >**Notes**:
 >
 > - T is the number of maximum failure test cases (threshold).
-> - x is the number of failures test cases in the test suite.
+> - x is the number of test case failures in the test suite.
 
 When you click **Execute**, the test suite runs with T = 4.
 
-- If test case 1 passed, the number of the failures test case in this test suite is 0 (x = 0).
+- If test case 1 passed, the number of the test case failures in this test suite is 0 (x = 0).
 - If test case 2 failed, then x = 1.
 - If test case 3 failed, then x = 2.
 - If test case 4 failed, then x = 3.
@@ -426,13 +430,13 @@ Below is the final status of each test suite in the test suite collection.
 </tbody>
 </table>
 
-Katalon Studio auto-generates JUnit report with all executed test cases in test suites 1, 2, 3, and 4.
+Katalon Studio auto-generates JUnit reports with all executed test cases in test suites 1, 2, 3, and 4.
 
 > Learn more about how to create and execute a test suite collection in [Test Suite Collection](https://docs.katalon.com/katalon-studio/docs/test-suite-collection.html#manage-execution-information)
 
 ### Terminate Test Suite Collection In Parallel Mode
 
-Given that you have a test suite collection that has 10 test suites, Instances = 3. You set the ``maxFailedTests=100`` (T = 100).
+Given that you have a test suite collection that has 10 test suites with 3 parallel instances. You set the ``maxFailedTests=100`` (T = 100).
 
 >**Notes**:
 >
@@ -670,15 +674,7 @@ Below is the final status of each test suite in the test suite collection.
 	</tbody>
 </table>
 
-Katalon Studio auto-generates JUnit report with all test cases in test suites 1, 2, 3, 4, and 5.
-
-## 3rd-Party Integrations
-
-The final status of a terminated test suite is marked **Incomplete**. When a test suite has at least 1 test case not run, the status of this test suite is **Incomplete**.
-
-**Incomplete** and **Not started yet** test suite and its test cases' results are not uploaded to 3rd-party tools (qTest, JIRA, Slack, Azure DevOps Test Plans, TestRail) except for TestOps, since TestOps parses the execution log.
-
-Katalon Studio sends **Incomplete** test suite execution’s attachments, including execution log and JUnit Report to TestOps. This action ends the incomplete execution on TestOps.
+Katalon Studio auto-generates JUnit reports with all test cases in test suites 1, 2, 3, 4, and 5.
 
 ## Troubleshoot testing
 
@@ -686,4 +682,4 @@ When a test suite or test suite collection is terminated, in the execution log, 
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/execution%20log.png" alt="execution log" width=100%>
 
-This applies to either sequential or parallel mode execution. You can be able to check which and why the test execution is terminated.
+This applies to either sequential or parallel mode execution. You can check which and why the test execution is terminated. See also [View and Customize Execution Log](https://docs.katalon.com/katalon-studio/docs/working-with-execution-log.html).
