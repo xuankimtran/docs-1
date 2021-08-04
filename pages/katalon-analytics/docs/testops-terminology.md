@@ -74,7 +74,7 @@ In Katalon TestOps, the organization level is the highest level of management, f
 </details>
 
 **<details><summary>Path</summary>**
-Location of a test in Katalon Studio.
+The location of a test in Katalon Studio.
 
 In Katalon TestOps, each test case has a path if it is uploaded from Katalon Studio.
 </details>
@@ -127,7 +127,7 @@ In Katalon TestOps, you can see detailed information of test cases to see if you
 </details>
 
 **<details><summary>Test Environment</summary>**
-Represents a place where a test run could be executed with the command line interface.
+A place where a test run could be executed with the command line interface.
 
 In Katalon TestOps, you can use your local machine as a test environment. This test environment must be controlled by an agent.
 </details>
@@ -243,7 +243,7 @@ In Katalon TestOps, you can also archive a release to stop tracking it.
 </details>
 
 **<details><summary>Active Test Case</summary>**
-Test cases that are run in the last 2 months (based on the start time of execution).
+A test case that has been run last 2 months (based on the start time of execution).
 </details>
 
 **<details><summary>Average Duration (Test Case)</summary>**
@@ -289,7 +289,7 @@ $$
 </details>
 
 **<details><summary>Execution Time (Dashboard)</summary>**
-Total duration of test results.
+The total duration of test results.
 </details>
 
 **<details><summary>Flaky Test Case</summary>**
@@ -321,65 +321,99 @@ Connects a local machine to the TestOps servers for test runs execution.
 </details>
 
 **<details><summary>Slowest Test Case</summary>**
-Connects a local machine to the TestOps servers for test runs execution.
+A test case that has the longest average duration.
+
+Katalon TestOps ranks active test cases by their average duration. The shorter an average duration is, the more active/faster a test case is.
 </details>
 
 **<details><summary>Stale Test Case</summary>**
-Connects a local machine to the TestOps servers for test runs execution.
+A test case whose last test run is already 2 months ago.
+
+Katalon TestOps calculates the 2-month period based on the time you first click to view a test report in real time.
 </details>
 
 **<details><summary>Status (Release)</summary>**
-Connects a local machine to the TestOps servers for test runs execution.
+The status of a release, including:
+* *Ready*: all test cases have passed.
+* *Not Ready*: at least one test case has failed.
+* *Empty*: there's no test case linked to the release.
 </details>
 
 **<details><summary>Status (Session)</summary>**
-Connects a local machine to the TestOps servers for test runs execution.
+The status of a session, including:
+* *Queued*: session has been created, waiting to be executed. 
+* *Running*: session is in progress.
+* *Failed*: session has failed (the exit code is different from 0).
+* *Success*: session has succeeded (the exit code is 0).
+* *Canceled*: session is canceled manually or session timeout.
 </details>
 
 **<details><summary>Status (Test Case)</summary>**
-Connects a local machine to the TestOps servers for test runs execution.
+The status of a test case, including:
+* *Passed*: all test results have passed.
+* *Failed*: one of the test results has not passed.
+
+> Notes:
+>
+> The status of a test case is defined by its latest execution.
 </details>
 
 **<details><summary>Status (Test Result)</summary>**
-Connects a local machine to the TestOps servers for test runs execution.
+The status of a test result, including:
+* *Passed*: test case runs successfully.
+* *Failed*: test case runs unsuccessfully.
+* *Error*: an error occurs during the execution.
+* *Incomplete*: (defined by KS).
 </details>
 
 **<details><summary>Status (Test Run)</summary>**
-Connects a local machine to the TestOps servers for test runs execution.
+The status of a test run, including:
+* *Passed*: all test results have passed.
+* *Failed*: one of the test results has failed.
 </details>
 
 **<details><summary>Status (Test Suite)</summary>**
-Connects a local machine to the TestOps servers for test runs execution.
+The status of a test suite, including:
+* *Passed*: all test cases have passed.
+* *Failed*: one of the test cases has failed.
 </details>
 
 **<details><summary>Status (Visual Checkpoint)</summary>**
-Connects a local machine to the TestOps servers for test runs execution.
+The status of a visual checkpoint, including:
+* *Pass*: checkpoint image has matched the baseline, or it's manually marked as *Pass*.
+* *Fail*: checkpoint image is marked manually as *Fail*.
+* *Unresolved*: checkpoint image has mismatched the baseline. You can compare with the baseline image, then mark it as *Pass* or *Fail*.
 </details>
 
 **<details><summary>Status (Visual Test Run)</summary>**
-Connects a local machine to the TestOps servers for test runs execution.
+The status of a visual test run, including:
+* *Pass*: all new checkpoint images match the baseline image.
+* *Fail*: one or more checkpoints has failed but no unresolved checkpoints.
+* *Unresolved*: one or more checkpoints is unresolved.
 </details>
 
 **<details><summary>Test Progress (Dashboard)</summary>**
-Connects a local machine to the TestOps servers for test runs execution.
+$$
+\frac{Total-passed-test-results-in-release}{Total-test-results-in-release} * 100
+$$
 </details>
 
 **<details><summary>Test Run Coverage</summary>**
-Connects a local machine to the TestOps servers for test runs execution.
+The quality of each requirement based on the status of the corresponding test result.
 </details>
 
 **<details><summary>Time (Test Suite)</summary>**
-Connects a local machine to the TestOps servers for test runs execution.
+The duration of the last run of a test suite. Also, the start time of the last run of a test suite.
 </details>
 
 **<details><summary>Time (Visual Test Run)</summary>**
-Connects a local machine to the TestOps servers for test runs execution.
+= (End time - Start time of a visual test run)
 </details>
 
 **<details><summary>Total Duration in Summary (Test Results)</summary>**
-Connects a local machine to the TestOps servers for test runs execution.
+A sum of all test result durations in a day.
 </details>
 
 **<details><summary>Total Duration (Release)</summary>**
-Connects a local machine to the TestOps servers for test runs execution.
+The total duration of all test runs in a release.
 </details>
