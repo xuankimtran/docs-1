@@ -82,6 +82,8 @@ The final status of a terminated test suite is marked **Incomplete**. When a tes
 
 Katalon Studio sends **Incomplete** test suite execution’s attachments, including execution log and JUnit Report to TestOps. This action ends the incomplete execution on TestOps.
 
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/TestOps%20report.png" alt="TestOps report" width="100%">
+
 ## Common Use Cases
 
 We outline below three example use cases using this parameter:
