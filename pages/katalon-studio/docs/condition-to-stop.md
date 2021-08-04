@@ -78,11 +78,11 @@ This article provides the concept of the configuration on terminating execution 
 
 ## Set a maximum number of test failures
 
->**Requirements**
->
->- A test suite or test suite collection. See [Create a test suite](https://docs.katalon.com/katalium-framework/docs/katalium-framework-create-test-suite.html).
->- Katalon Studio **version 8.1.0 onwards**.
->- A Katalon Studio Enterprise and Katalon Runtime Engine License. See [Katalon licensing](https://docs.katalon.com/katalon-studio/docs/license.html).
+### Requirements
+
+- A test suite or test suite collection. See [Create a test suite](https://docs.katalon.com/katalium-framework/docs/katalium-framework-create-test-suite.html).
+- Katalon Studio **version 8.1.0 onwards**.
+- A Katalon Studio Enterprise and Katalon Runtime Engine License. See [Katalon licensing](https://docs.katalon.com/katalon-studio/docs/license.html).
 
 ### With Command Builder
 
