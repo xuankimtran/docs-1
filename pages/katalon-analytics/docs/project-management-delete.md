@@ -10,10 +10,15 @@ redirect_from:
 description: 
 ---
 
->* The deleted projects and executions cannot be recovered. Delete them with caution.
->* Only team Owners and Admins can delete a project.
+> Notice:
+>
+> You cannot recover the deleted projects and executions. Delete them with caution.
 
 ## Delete a project
+
+> Requirements:
+>
+> You must be the Owner or Admin of an Organization
 
 1. Open your team page.
 2. Select **Projects** tool page on the left side to view all projects under your team.
