@@ -14,30 +14,49 @@ description:
 >
 > You cannot recover the deleted projects and executions. Delete them with caution.
 
-## Delete a project
+## Delete a Project
 
 > Requirements:
 >
-> You must be the Owner or Admin of an Organization
+> You must be the Owner or Admin of an Organization.
+
+Follow these steps:
 
 1. Open your team page.
 2. Select **Projects** tool page on the left side to view all projects under your team.
 3. Click on the delete icon of the project you want to delete.
 4. Confirm your action in the pop-up by entering the project ID.
 
-## Delete an execution
+## Delete an Execution
 
-In the executions table, click on the extension icon at the end of the execution row, select **Delete** and confirm your action in the pop-up.
+1. Go to your Project > **Reports & Analytics** > **Test Runs**.
 
-*Once you have successfully deleted the execution, it may take a little while for it to disappear from the test executions table.*
+2. Click on the *Extension* icon of the Test Run you want to delete, and choose **Delete**.
 
-> **Quick tips: Delete multiple executions**
->
-> You can delete multiple executions at once by using the bulk selection feature in Executions screen.
->
-> After choosing the executions that you want to delete, click on the Delete button and confirm your action.
->
-> <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/project-management-delete/delete-multiple-execution.png" width="" height="">
->
-> *Please note that the action cannot be undone. Once you delete the executions, they will be gone forever.*
+    The **Delete Execution** box pops up.
 
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration.png"  width=100% alt="delete execution box">
+
+3. Click **Delete**.
+
+> Notes:
+> 
+> After deleting, it might take a while for the Execution to disappear from the Test Runs list.
+
+### Delete multiple Executions
+
+In Katalon TestOps, you can also delete multiple Executions at the same time by using the bulk selection feature.
+
+1. Go to your Project > **Reports & Analytics** > **Test Runs**.
+
+2. Tick on the checkboxes to select all the Executions you want to delete. 
+
+    A new command row appears on the **Test Runs** page as below.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration.png"  width=100% alt="test runs page bulk delete appears">
+
+3. Click **Delete**.
+
+4. Confirm your action in the **Delete Execution** popup.
+
+You have deleted the Executions.
