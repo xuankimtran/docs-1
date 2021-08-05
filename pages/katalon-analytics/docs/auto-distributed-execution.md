@@ -28,7 +28,7 @@ When an Agent completes a Test Run session, queued jobs that were first assigned
 
 ## Configure Auto-Distributed Executions
 
-1. To enable Auto-Distributed Executions, make sure that you have at least 2 active Agents. You can learn how to set-up Agents here: [Create a Local Test Environment](https://docs.katalon.com/katalon-analytics/docs/Agents.html).
+1. To enable Auto-Distributed Executions, make sure that you have at least 2 active Agents. You can learn how to set-up Agents here: [Create a Local Test Environment](https://docs.katalon.com/katalon-analytics/docs/agents.html).
 
 2. Make sure that your Test Suite Collection is configured for parallel execution. If not, you can follow these steps: [Run multiple Test Suites in Parallel](https://docs.katalon.com/katalon-analytics/docs/kt_run_parallel_agent.html#set-up-agents).
 
