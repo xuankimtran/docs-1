@@ -29,7 +29,7 @@ In Katalon TestOps, you can create an IP whitelist to protect your Organization'
 
 5. Click **Update**.
 
-After configuring IP Address Restrictions, only IP addresses you have entered now have access to your system (the whitelist).  
+After configuring IP Address Restrictions, only IP addresses you have entered have access to your system (the whitelist).  
 
 
 
