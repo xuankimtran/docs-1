@@ -1249,7 +1249,7 @@ items:
                 url: /katalon-analytics/docs/new-core-11.html
               - title: "2021 Releases"
                 url: /katalon-analytics/docs/testops-releases-2021.html
-          - title: "Terminology" 
+          - title: "Product Directory" 
             url: /katalon-analytics/docs/testops-terminology.html
           - title: "Set up an account"
             url: /katalon-analytics/docs/getting-started.html  
@@ -1269,7 +1269,7 @@ items:
             tree:
               - title: "Upload JUnit and Katalon Studio Test Results using Katalon Report Uploader"
                 url: /katalon-analytics/docs/project-management-import-cli.html
-              - title: "Upload JUnit and Katalon Studio Test Results from web browsers"
+              - title: "Upload JUnit and Katalon Studio Test Results using TestOps Uploader"
                 url: /katalon-analytics/docs/testops-uploader.html
               - title: "Upload Test to Katalon TestOps via Mocha"
                 url: /katalon-analytics/docs/kt-upload-test-mocha.html
