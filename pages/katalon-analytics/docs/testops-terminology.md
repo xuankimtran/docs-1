@@ -127,7 +127,7 @@ In Katalon TestOps, you can see detailed information of test cases to see if you
 </details>
 
 **<details><summary>Test Environment</summary>**
-A place where a test run could be executed with the command line interface.
+A place where a test run could be executed with the command-line interface.
 
 In Katalon TestOps, you can use your local machine as a test environment. This test environment must be controlled by an agent.
 </details>
@@ -301,7 +301,7 @@ The max/min duration that is based on the last 30 execution requests.
 </details>
 
 **<details><summary>Offline Agent</summary>**
-An agent is offline when the time of last Ping is longer than the active time
+An agent is offline when the time of the last Ping is longer than the active time
 
 > Notes:
 >
@@ -339,7 +339,7 @@ Katalon TestOps ranks active test cases by their average duration. The shorter a
 **<details><summary>Stale Test Case</summary>**
 A test case whose last test run is already 2 months ago.
 
-Katalon TestOps calculates the 2-month period based on the time you first click to view a test report in real time.
+Katalon TestOps calculates the 2 months based on the time you first click to view a test report in real-time.
 </details>
 
 **<details><summary>Status (Release)</summary>**
@@ -398,8 +398,8 @@ The status of a visual checkpoint, including:
 **<details><summary>Status (Visual Test Run)</summary>**
 The status of a visual test run, including:
 * *Pass*: all new checkpoint images match the baseline image.
-* *Fail*: one or more checkpoints has failed but no unresolved checkpoints.
-* *Unresolved*: one or more checkpoints is unresolved.
+* *Fail*: one or more checkpoints have failed but no unresolved checkpoints.
+* *Unresolved*: one or more checkpoints are unresolved.
 </details>
 
 **<details><summary>Test Progress (Dashboard)</summary>**
