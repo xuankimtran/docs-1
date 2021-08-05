@@ -14,11 +14,11 @@ description:
 >
 > You cannot recover the deleted projects and executions. Delete them with caution.
 
-## Delete a Project
-
 > Requirements:
 >
 > You must be the Owner or Admin of an Organization.
+
+## Delete a Project
 
 Follow these steps:
 
@@ -33,11 +33,11 @@ Follow these steps:
 
 2. Click on the *Extension* icon of the Test Run you want to delete, and choose **Delete**.
 
-    The **Delete Execution** box pops up.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-delete-data/extension-icon-delete-button.png"  width=100% alt="extension icon for deletion">
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration.png"  width=100% alt="delete execution box">
+    The **Delete Execution** box then pops up.
 
-3. Click **Delete**.
+3. Click **Delete** to confirm your action.
 
 > Notes:
 > 
@@ -49,14 +49,14 @@ In Katalon TestOps, you can also delete multiple Executions at the same time by 
 
 1. Go to your Project > **Reports & Analytics** > **Test Runs**.
 
-2. Tick on the checkboxes to select all the Executions you want to delete. 
+2. Check the boxes (as shown below) to select the Executions you want to delete.
 
-    A new command row appears on the **Test Runs** page as below.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-delete-data/bulk-selection-for-execution-delete.png"  width=100% alt="test runs page bulk delete appears">
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration.png"  width=100% alt="test runs page bulk delete appears">
+    A new command row appears at the top of the **Test Runs** page after you check the boxes.
 
-3. Click **Delete**.
+3. Select **Delete**.
 
-4. Confirm your action in the **Delete Execution** popup.
+4. Confirm your action in the **Delete Execution** popup box.
 
-You have deleted the Executions.
+You have deleted your Executions.
