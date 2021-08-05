@@ -14,24 +14,49 @@ description:
 >
 > You cannot recover the deleted projects and executions. Delete them with caution.
 
+## Delete a Project
+
+> Requirements:
+>
+> You must be the Owner or Admin of a Team.
+
+Follow these steps:
+
+1. Go to **Settings** > **Team Management**.
+
+    The **Manage Teams** page appears.
+
+2. Choose your Team in the **Teams** section.
+
+    The Team's **Dashboard** page appears.
+
+3. Select **Projects** on the left bar to view all Projects your Team has.
+
+    The **Manage Projects** page appears.
+
+4. Click on the *Settings* icon of the Project you want to delete.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-delete-data/manage-project-page-settings-icon.png"  width=100% alt="manage project page">
+
+    The **Project Settings** page appears.
+
+5. Scroll down to the **Danger zone** section, and click **Delete this project**.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-delete-data/project-settings-page-danger-zone-section.png" width=100% alt="delete this project button">
+
+6. Enter the Project's name, then click **I understand the consequences, delete this project** to confirm your action.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-delete-data/delete-project-popup-confirm-action.png" width=100% alt="delete this project button">
+
+## Delete an Execution
+
 > Requirements:
 >
 > You must be the Owner or Admin of an Organization.
 
-## Delete a Project
-
-Follow these steps:
-
-1. Go to **Settings** > **Organization Management** > **Projects**.
-2. Select **Projects** tool page on the left side to view all projects under your team.
-3. Click on the delete icon of the project you want to delete.
-4. Confirm your action in the pop-up by entering the project ID.
-
-## Delete an Execution
-
 1. Go to your Project > **Reports & Analytics** > **Test Runs**.
 
-2. Click on the *Extension* icon of the Test Run you want to delete, and choose **Delete**.
+2. Click on the *Extension* icon of the Test Run you want to delete and choose **Delete**.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-delete-data/extension-icon-delete-button.png"  width=100% alt="extension icon for deletion">
 
