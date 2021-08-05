@@ -373,7 +373,7 @@ The status of a test result, including:
 * *Passed*: test case runs successfully.
 * *Failed*: test case runs unsuccessfully.
 * *Error*: an error occurs during the execution.
-* *Incomplete*: (defined by KS).
+* *Incomplete*: predefined in Katalon Studio.
 </details>
 
 **<details><summary>Status (Test Run)</summary>**
