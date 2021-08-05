@@ -22,7 +22,7 @@ description:
 
 Follow these steps:
 
-1. Open your team page.
+1. Go to **Settings** > **Organization Management** > **Projects**.
 2. Select **Projects** tool page on the left side to view all projects under your team.
 3. Click on the delete icon of the project you want to delete.
 4. Confirm your action in the pop-up by entering the project ID.
