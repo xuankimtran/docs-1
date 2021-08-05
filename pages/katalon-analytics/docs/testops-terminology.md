@@ -80,9 +80,9 @@ In Katalon TestOps, each test case has a path if it is uploaded from Katalon Stu
 </details>
 
 **<details><summary>Profile</summary>**
-A profile that is set for each test suite in Katalon Studio.
+An execution profile that is created in Katalon Studio (KS). 
 
-In Katalon TestOps, a test run can have multiple profiles. This helps cover multiple and different environments to execute automated test scripts with ease.
+In Katalon TestOps, the KS's execution profiles are displayed as Profiles. A test run can have multiple profiles. This helps cover multiple and different environments to execute automated test scripts with ease.
 </details>
 
 **<details><summary>Properties (Visual Testing)</summary>**
@@ -308,22 +308,32 @@ An agent is offline when the time of last Ping is longer than the active time
 > By default, the active time is 5 minutes.
 </details>
 
-**<details><summary>Platform Coverage</summary>**
-Connects a local machine to the TestOps servers for test runs execution.
+**<details><summary>Platform Coverage (Test Case)</summary>**
+Shows the quality of test cases by operating system (OS) and browser-basis.
+
+The color of the dot indicates that the test has passed or failed.
+* Red dot = failed test
+* Green dot = passed test
+
+The size of the dot represents the number of tests (e.g., the bigger the dot is, the more tests are).
 </details>
 
 **<details><summary>Run Frequency (Test Run)</summary>**
-Connects a local machine to the TestOps servers for test runs execution.
+A statistic of the scheduled test runs in a day.
+
+The color of the dot indicates that the test has passed or failed.
+
+The size of the dot represents the number of test results.
 </details>
 
 **<details><summary>Similar Failures</summary>**
-Connects a local machine to the TestOps servers for test runs execution.
+The test runs that have at least 70% of error similarities.
 </details>
 
 **<details><summary>Slowest Test Case</summary>**
 A test case that has the longest average duration.
 
-Katalon TestOps ranks active test cases by their average duration. The shorter an average duration is, the more active/faster a test case is.
+Katalon TestOps ranks active test cases by their average duration. The shorter an average duration is, the more active/faster a test execution is.
 </details>
 
 **<details><summary>Stale Test Case</summary>**
