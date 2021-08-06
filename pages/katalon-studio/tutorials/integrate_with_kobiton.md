@@ -166,15 +166,15 @@ To do this, follow the instructions below to execute your Katalon Studio automat
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/integrate_with_kobiton/add-app.png" width="100%">
 
-3\. From the Repository view, click on the drop-down icon on the right corner. Copy the app ID (for example, **2229394** as shown below) and save it to use later in Step 5.
+3\. From the Repository view, click on the drop-down icon on the right corner. Copy the app ID to your clipboard for later use (for example, **2229394** as shown below).
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/integrate_with_kobiton/app-ID.png" width=70%>
 
-4\. Click on the **Devices** menu. Select your device, then click on the flag icon in the top right corner to **Mark as favorite**.
+4\. Click on the **Devices** menu. Select your device, then click on the _flag_ in the top right corner to **Mark as favorite**.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/integrate_with_kobiton/mark-as-favourite.png" width=70%>
 
-> From **8.1.0 onwards**, you can change Kobiton's **Custom Device Name** to select the correct device on Katalon Studio. If your Kobiton devices don't have any custom name, Katalon Studio uses the devices' original name when running tests. See Kobiton documentation on [Device Custom Name](https://support.kobiton.com/hc/en-us/articles/360055588512-Device-Custom-Name-)
+> From **version 8.1.0 onwards**, you can change Kobiton's **Custom Device Name** to select the correct device on Katalon Studio. If your Kobiton devices don't have any custom name, Katalon Studio uses the devices' original name when running tests. See Kobiton documentation on [Device Custom Name](https://support.kobiton.com/hc/en-us/articles/360055588512-Device-Custom-Name-)
 
 Once you have set your Device Custom Names in Kobiton Portal, you can check the Kobiton devices list in Katalon Studio. Go to Katalon Studio, then open **Mobile Recorder/Spy > Select Kobiton Device**.
 
@@ -233,6 +233,8 @@ Select your preferred device and click **Ok**.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/integrate_with_kobiton/Favorite-Devices.png" alt="Kobiton Favorite Devices" width=70%>
 
-8\. Once Katalon Studio is finished, automation test execution will be uploaded to Kobiton. Navigate to **Sessions** menu to view:
+8\. Once Katalon Studio is finished, automation test execution will be uploaded to Kobiton. 
+
+9\. To view the session, navigate to **Sessions** in Kobiton.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/integrate_with_kobiton/Sessions.png" alt="automation test execution uploaded to Kobiton" width=100%>
