@@ -4,7 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/terminate-execution-conditionally.html
 description: "This article provides the concept of terminating execution conditionally and the tutorial on common use cases."
 ---
-From version 8.1.0 onwards, you can set a maximum number of test failures before your test execution automatically ends. You can set this condition via the command-line option. The ability to terminate an execution helps you save time and provide early feedback instead of waiting for the testing process to finish.
+From version 8.1.0 onwards, you can set a maximum number of test failures before your test execution automatically ends. You can set this condition via the command-line option. The ability to terminate execution when reaching its failure threshold value helps you save time and provide early feedback instead of waiting for the testing process to finish.
 
 >**What is a test failure?**
 >
@@ -60,7 +60,7 @@ You can use this feature to:
 
  After you're done with the configuration, click **Generate command**. Copy the generated command to use in Console mode.
 
- <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/generate%20command%200.png" alt="generate command" width=70%>
+ <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/generate%20command%201.png" width=70%>
 
 You can also run execution with the property file. To save the property file in the **Execution Configurations** dialog, click **Generate property file > Save**.
 
@@ -70,7 +70,7 @@ You can also run execution with the property file. To save the property file in 
 
 Use the command-line option: ``-maxFailedTests=T``, where T is the maximum number of test failures.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/command-line.png" alt="command line" width=100%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/Command-line-2.png" width=100%>
 
 See [Katalonc command-line option](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#automatically-updating-webdriver-option) for the list of common command-line options supported.
 
@@ -82,15 +82,15 @@ The final status of a terminated test suite is marked **Incomplete**. When a tes
 
 Katalon Studio sends **Incomplete** test suite execution’s attachments, including execution log and JUnit Report to TestOps. This action ends the incomplete execution on TestOps.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/TestOps%20report.png" alt="TestOps report" width="100%">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/TestOps%20report%202.png" alt="TestOps report" width="100%">
 
 ## Common Use Cases
 
-We outline below three example use cases using this parameter:
+Below are three example use cases to illustrate how the parameter works:
 
-1. Terminate test suite execution.
-2. Terminate test suite collection executed in sequential mode.
-3. Terminate test suite collection executed in parallel mode.
+- In the case of a test suite execution.
+- In the case of a test suite collection executed in sequential mode.
+- In the case of a test suite collection executed in parallel mode.
 
 ### Terminate Test Suite Execution
 
@@ -652,6 +652,10 @@ Katalon Studio auto-generates JUnit reports with all test cases in test suites 1
 
 When a test suite or test suite collection is terminated, in the execution log, Katalon Studio prints out information about the test suite or test suite collection reference ID and the maximum number of test failures allowed.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/execution%20log.png" alt="execution log" width=100%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/Execution%20log.png" alt="execution log" width=100%>
 
 This applies to either sequential or parallel mode execution. You can check which and why the test execution is terminated. See also [View and Customize Execution Log](https://docs.katalon.com/katalon-studio/docs/working-with-execution-log.html).
+
+You can also see the report in Katalon Studio IDE.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/report%20in%20IDE.png" alt="report in IDE" width="100%">
