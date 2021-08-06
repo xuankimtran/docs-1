@@ -46,25 +46,21 @@ To set conditional waiting when executing the Mobile test in script, use the key
 		<th colspan="1" rowspan="1" data-colwidth="176">
 			<div tabindex="0">
 				<p data-renderer-start-pos="1550"><strong data-renderer-mark="true">Parameter</strong></p>
-				<figure></figure>
 			</div>
 		</th>
 		<th colspan="1" rowspan="1" data-colwidth="174">
 			<div tabindex="0">
 				<p data-renderer-start-pos="1563"><strong data-renderer-mark="true">Parameter Type</strong></p>
-				<figure></figure>
 			</div>
 		</th>
 		<th colspan="1" rowspan="1" data-colwidth="133">
 			<div tabindex="0">
 				<p data-renderer-start-pos="1581"><strong data-renderer-mark="true">Mandatory</strong></p>
-				<figure></figure>
 			</div>
 		</th>
 		<th colspan="1" rowspan="1" data-colwidth="477">
 			<div tabindex="0">
 				<p data-renderer-start-pos="1594"><strong data-renderer-mark="true">Description</strong></p>
-				<figure></figure>
 			</div>
 		</th>
 	</tr>
@@ -118,15 +114,14 @@ To set conditional waiting when executing the Mobile test in script, use the key
 			<p data-renderer-start-pos="2015">Optional</p>
 		</td>
 		<td colspan="1" rowspan="1" data-colwidth="477">
+			<div>
+				<div><strong>Notes</strong>: Failure handling is currently not supported for this mobile keyword.</div>
+			</div>
 			<p data-renderer-start-pos="2021">Specify&nbsp;<a title="https://docs.katalon.com/x/qAAM" href="https://docs.katalon.com/x/qAAM" data-renderer-mark="true">failure handling</a>&nbsp;schema to determine whether the execution should be allowed to continue or stop.</p>
 		</td>
 	</tr>
 </tbody>
 </table>
-
->**Notes**:
->
->Failure handling is not supported for this mobile keyword.
 
 ## Returns
 
