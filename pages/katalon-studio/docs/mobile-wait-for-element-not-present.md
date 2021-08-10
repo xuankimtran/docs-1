@@ -5,7 +5,7 @@ permalink: katalon-studio/docs/mobile-wait-for-element-not-present.html
 redirect_from:
 description: 
 ---
-From version 8.1.0 onwards, Katalon Studio provides the conditional waiting keyword for Mobile testing as in WebUI. See [[WebUI] Wait For Element Not Present](https://docs.katalon.com/katalon-studio/docs/webui-wait-for-element-not-present.html).
+From version 8.1.0 onwards, Katalon Studio supports the conditional waiting keyword for Mobile testing. To learn about the WebUI keyword, see [[WebUI] Wait For Element Not Present](https://docs.katalon.com/katalon-studio/docs/webui-wait-for-element-not-present.html).
 
 To set conditional waiting when executing the Mobile test in script, use the keyword ``waitForElementNotPresent``.
 
@@ -115,7 +115,7 @@ To set conditional waiting when executing the Mobile test in script, use the key
 		</td>
 		<td colspan="1" rowspan="1" data-colwidth="477">
 			<div>
-				<div><strong>Notes</strong>: Failure handling is currently not supported for this mobile keyword.</div>
+				<div>Failure handling is currently not supported for this mobile keyword.</div>
 			</div>
 			<p data-renderer-start-pos="2021">Specify&nbsp;<a title="https://docs.katalon.com/x/qAAM" href="https://docs.katalon.com/x/qAAM" data-renderer-mark="true">failure handling</a>&nbsp;schema to determine whether the execution should be allowed to continue or stop.</p>
 		</td>
