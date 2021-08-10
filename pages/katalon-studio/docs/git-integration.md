@@ -56,7 +56,7 @@ You can integrate Katalon Studio with **Git** and its cloud-hosted services, inc
 
 After enabling Git Integration, you can clone an existing **Git repository** into a newly-created directory on the local machine.
 
-1. On the main toolbar, select the **Git icon > Clone Project**.
+1. In the main toolbar, click the **Git icon > Clone Project**.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-2-22-143A13A12.png" alt="Clone Project" width=30%>
 
@@ -90,7 +90,7 @@ After enabling Git Integration, you can clone an existing **Git repository** int
 
     `ssh-keygen -m PEM -t rsa -b 2048 -C "your_email@example.com"`
 
-    >**Note**: Katalon Studio only supports `OpenSSL`, not `OpenSSH` formats.
+    >Katalon Studio only supports `OpenSSL`, not `OpenSSH` formats.
 
     2. Enter the **Passphrase** or leave it empty, then click **Save Private Keys** to your computer. You might have to change the file name if there’s currently the same file name in the folder. Copy the RSA key to your clipboard. See Github document on [Working with SSH key passphrases](https://help.github.com/en/articles/working-with-ssh-key-passphrases).
 
@@ -102,7 +102,7 @@ After enabling Git Integration, you can clone an existing **Git repository** int
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/Add%20new%20SSH%20key.png" alt="add new SSH key" width=70%>
 
-    4. Go back to **Katalon Studio > Preferences > General key > Private keys**: delete all the old keys and keep only the key ID you’ve just added. Then click **Apply and close**.
+    4. Go back to **Katalon Studio > Preferences > General key > Private keys**. Delete all the old keys and only keep the ID key you’ve just added. Then click **Apply and close**.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/RSA%20id.png" alt="SSH URL" width=70%>
 
@@ -116,11 +116,11 @@ After enabling Git Integration, you can clone an existing **Git repository** int
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/filled-passphrase.png" alt="Enter the passphrase" width=70%>
 
-    6. At the **Branch Selection** screen, you can choose which branches to be checked out as local branches. Click **Next** to continue. The **Local Destination** appears.
+    6. Choose which branches to be checked out as local branches. Click **Next** to continue. The **Local Destination** appears.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/branch.png" alt="choose local branches" width=70%>
 
-    7. At the **Local Destination** dialog, specify the local location for cloning as well as the initial branch.
+    7. Specify the local location for cloning as well as the initial branch.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/local.png" alt="specify the local location for cloning" width=70%>
 
@@ -136,7 +136,7 @@ After enabling Git Integration, you can clone an existing **Git repository** int
 
 **Share Project** is a step to enable Git configuration for your new Katalon Studio project.
 
-1.  On the main toolbar, select the **Git icon > Share Project**.
+1.  In the main toolbar, click the **Git icon > Share Project**.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-2-22-143A273A20.png" alt="git icon" width=30%>
 
@@ -153,9 +153,9 @@ After enabling Git Integration, you can clone an existing **Git repository** int
 
 ## Commit
 
-The **Commit** option allows users to view all current changes and decide which changes are to be stored in the local branch. Refer to Git document on [Commit](https://git-scm.com/docs/git-commit) for detailed command.
+The **Commit** option allows users to view all current changes and decide which changes are to be stored in the local branch. For more information on the commit command, refer to this Git document: [Commit](https://git-scm.com/docs/git-commit).
 
-1. On the main toolbar, select the **Git icon > Commit**.
+1. In the main toolbar, click the **Git icon > Commit**.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-2-22-143A383A43.png" alt="commit" width=30%>
 
@@ -176,7 +176,7 @@ The **Commit** option allows users to view all current changes and decide which 
 
 ### New Branch
 
-1. On the main toolbar, select the **Git icon > Manage Branches > New Branch**.
+1. In the main toolbar, click the **Git icon > Manage Branches > New Branch**.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-2-22-143A573A48.png" alt="create new branch" width=60%>
 
@@ -192,7 +192,7 @@ The **Commit** option allows users to view all current changes and decide which 
 
 The **Checkout Branch** option allows you to switch from one branch to another.
 
-1. On the main toolbar, select the **Git icon > Manage Branches > Checkout Branch**.
+1. In the main toolbar, click the **Git icon > Manage Branches > Checkout Branch**.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-2-22-153A73A15.png" alt="checkout branch" width=60%>
 
@@ -204,7 +204,7 @@ The **Checkout Branch** option allows you to switch from one branch to another.
 
 ### Delete Branch 
 
-1. In the main toolbar, select the **Git icon > Manage Branches > Delete Branch**.
+1. In the main toolbar, click the **Git icon > Manage Branches > Delete Branch**.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-2-22-153A103A10.png" alt="Delete Branch" width=70%>
 
@@ -236,7 +236,7 @@ Retrieve all information about changes that have occurred in remote branches. Fo
 
 Incorporate changes from a remote repository into the current branch. For more information on the pull command, refer to the Git documentation: [Git Pull](https://git-scm.com/docs/git-pull).
 
-1. On the main toolbar, select the **Git icon > Pull**. The **Pull** dialog appears.
+1. In the main toolbar, click the **Git icon > Pull**. The **Pull** dialog appears.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-2-22-153A533A48.png" alt="pull" width=30%>
 
