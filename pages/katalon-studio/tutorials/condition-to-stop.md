@@ -4,6 +4,8 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/terminate-execution-conditionally.html
 description: "This article provides the concept of terminating execution conditionally and the tutorial on common use cases."
 ---
+In this article, you will learn how to configure a maximum number of test failures, with examples using common use cases.
+
 From version 8.1.0 onwards, you can set a maximum number of test failures before your test execution automatically ends. You can set this condition via the command-line option. The ability to terminate execution when reaching its failure threshold value helps you save time and provide early feedback instead of waiting for the testing process to finish.
 
 >**What is a test failure?**
@@ -22,8 +24,6 @@ Consider using this parameter when:
 - You have a high number of failed test cases in a given test execution.
 - You have a mature set of tests, and it takes hours to finish execution.
 - You have a new code committed or a new build available, where a high number of test failures might reflect the quality of the new build.
-
-In this article, you will learn how to configure a maximum number of test failures, with examples using common use cases.
 
 You can use this feature to:
 
@@ -74,13 +74,13 @@ Use the command-line option: ``-maxFailedTests=T``, where T is the maximum numbe
 
 See [Katalonc command-line option](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#automatically-updating-webdriver-option) for the list of common command-line options supported.
 
-## 3rd-Party Integrations
+## Reporting and 3rd-Party Integrations
 
-The final status of a terminated test suite is marked **Incomplete**. When a test suite has at least 1 test case not run, the status of this test suite is **Incomplete**.
-
-**Incomplete** and **Not started yet** test suite and its test cases' results are not uploaded to 3rd-party tools (qTest, JIRA, Slack, Azure DevOps Test Plans, TestRail) except for TestOps, since TestOps parses the execution log.
+The final status of a terminated test suite is marked **Incomplete**. When a test suite ends early because it reached the maximum failure value, the test suite is marked **Incomplete**.
 
 Katalon Studio sends **Incomplete** test suite execution’s attachments, including execution log and JUnit Report to TestOps. This action ends the incomplete execution on TestOps.
+
+Test suite marked **Incomplete** or **Not started yet** and its test cases' results are uploaded to TestOps, since TestOps parses the execution log. However, they are not uploaded to 3rd-party tools (qTest, JIRA, Slack, Azure DevOps Test Plans, TestRail).
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/TestOps%20report%202.png" alt="TestOps report" width="100%">
 
@@ -94,20 +94,22 @@ Below are three example use cases to illustrate how the parameter works:
 
 ### Terminate Test Suite Execution
 
+In this section, we outline an example execution of a test suite with this parameter. This example works for all test types, such as **Retry all**, **Retry immediately**, and **Data-driven testing**.
+
 Given that you have a test suite that has 6 test cases. You set the ``maxFailedTests=4``. (T = 4).
 
 >**Notes**:
 >
-> - T is the number of maximum failure test cases (threshold).
+> - T is the maximum number of test case failures (threshold).
 > - x is the number of test case failures in the test suite.
 
-When you click **Execute**, the test suite runs with T = 4.
+When the test suite begins execution, the test suite runs with T = 4.
 
 - If test case 1 passed, the number of the test case failures in this test suite is 0 (x = 0).
 - If test case 2 failed, then x = 1.
 - If test case 3 failed, then x = 2.
 - If test case 4 failed, then x = 3.
-- If test case 5 failed, then x = 4. Since x = 4 = T, the test suite is terminated, and test case 6 does not trigger to run.
+- If test case 5 failed, then x = 4. Since x = 4 = T, the test suite is terminated, and test case 6 does not run.
 
 Below is the final status of each test case in the test suite.
 
@@ -257,9 +259,7 @@ Below is the final status of each test case in the test suite.
 
 >**Notes**:
 >
->In the **Execution log**, the report shows information of the executed test cases only, which is 5 test cases in this example. Katalon Studio auto-generates the report of 5 executed test case results in JUnit, HTML, PDF, and CSV format. See also [Test Suite and Test Suite Collection Reports](https://docs.katalon.com/katalon-studio/docs/test-suite-report.html#test-suite-report).
-
-You can also apply the terminate execution conditionally with **Retry all**, **Retry immediately**, and **Data-driven testing**. These cases follow the same logic with this example, following the definition of a test failure mentioned.
+>In this scenario, Katalon Studio generates a report for 5 test case results in JUnit, HTML, PDF, and CSV format. The report does not show information for test cases that were not run, like test case 6 in our example. See also [Test Suite and Test Suite Collection Reports](https://docs.katalon.com/katalon-studio/docs/test-suite-report.html#test-suite-report).
 
 ### Terminate Test Suite Collection Executed In Sequential Mode
 
@@ -273,7 +273,7 @@ Given that you have 5 test suites, each test suite has 10 test cases. You set th
  >
  >- T - x (x < T) is the new threshold of the next test suite.
 
-When you click **Execute**, test suite 1 runs with T = 20.
+When the test suite begins execution, test suite 1 runs with T = 20.
 
 - If test suite 1 finishes running and has 4 test failures (x = 4), the new threshold of the next test suite is 16 (T - x = 16). Therefore, test suite 2 is triggered to run with T = 16.
 - If test suite 2 finishes running and has 3 test failures (x = 4 + 3), the new threshold of the next test suite is 13 (T - x = 13). Therefore, test suite 3 is triggered to run with T = 13.
@@ -420,7 +420,7 @@ Given that you have a test suite collection that has 10 test suites with 3 paral
 >
 >- T - x (x < T) is the new threshold of the next test suite.
 
-When you click **Execute**, the first 3 test suites run at the same time with T = 100 in each test suite. 
+When the test suite begins execution, the first 3 test suites run at the same time with T = 100 in each test suite. 
 
 - If test suite 1 finishes running and has 50 failures, the new threshold of the next test suite is 50 (T - x = 50). Therefore, test suite 4 is triggered to run with T = 50.
 - If test suite 2 finishes running and has 40 failures, the new threshold of the next test suite is 10 (T - x = 10). Therefore, test suite 5 is triggered to run with T = 10.
