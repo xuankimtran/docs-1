@@ -3,47 +3,69 @@ title: "CircleCI Integration - Katalon Orb"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/integration-circleci.html 
 ---
-> Katalon TestOps CI is an easier way to execute Katalon Studio tests remotely or schedule remote Katalon Studio execution. [Learn more](https://docs.katalon.com/katalon-analytics/docs/kt-remote-execution.html)
+> Katalon TestOps CI is another way to execute Katalon Studio tests remotely or schedule remote Katalon Studio execution. To learn more about Katalon TestOps CI, see [Test Planning Overview](https://docs.katalon.com/katalon-analytics/docs/kt-remote-execution.html).
 
-Orbs are shareable packages of configuration elements, including jobs, commands, and executors [(definition from CircleCI)](https://circleci.com/docs/2.0/orb-intro/).
+Orbs are shareable packages of configuration elements, including jobs, commands, and executors. See CircleCI documents about Orbs: [Orbs Introduction
+Cloud](https://circleci.com/docs/2.0/orb-intro/).
 
-Katalon Orb allows executing Katalon tests with your CircleCI CI/CD pipeline easily. We recommend getting the latest version from the CircleCI Orb registry page. Download **katalon/katalon-studio@23.0.8** [here](https://circleci.com/orbs/registry/orb/katalon/katalon-studio). Please note that [katalon/katalonstudio@36.0.0](https://circleci.com/orbs/registry/orb/kms-technology/katalonstudio) is deprecated.
+Katalon Orb allows executing Katalon tests with your CircleCI CI/CD pipeline. We recommend getting the latest version from the CircleCI Orb registry page. Download Katalon Studio Orbs on CircleCI: [katalon/katalon-studio@23.0.8](https://circleci.com/orbs/registry/orb/katalon/katalon-studio).
 
-**Prerequisites**:
-
-* Katalon Studio version 7.0+.
-* An active [Katalon Runtime Engine license](https://docs.katalon.com/katalon-studio/docs/intro-RE.html#license).
+>**Notes**: In CircleCI, [katalon/katalonstudio@36.0.0](https://circleci.com/orbs/registry/orb/kms-technology/katalonstudio) is deprecated.
 
 ## Setup and Configuration
 
-First, you need to establish a connection between your Katalon project in GitHub and CircleCI, then run the test with the Katalon Orb.
+>**Requirements**:
+>
+>* Katalon Studio version 7.0.0 onwards.
+>* An active [Katalon Runtime Engine license](https://docs.katalon.com/katalon-studio/docs/intro-RE.html#license).
 
-### In GitHub
+To run the test with the Katalon Orb, you need to establish a connection between your Katalon project in GitHub and CircleCI. Log in to CircleCI using your GitHub account.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/circleci/log%20in%20with%20github.png" alt="log in with Git" width=70%>
+
+### Prepare Your Project In GitHub
 
 1. Use your repository on GitHub or create a new one storing your Katalon project code.
-2. Add a `.yml` file containing Katalon commands to run the test to the `.circleci` folder in the above GitHub repository (e.g. `katalon-studio-samples/ci-samples/.circleci/config.yml`) and commit. Please see the example of the `config.yml` file below.
-   >**Notes**: In the Orb source code, you can only configure `katalonstudio/run` to run Katalon tests. Please refer to the [command syntax document](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#katalon-studio-plugins-in-console-mode) for the supported options.
+2. To run the test to the `.circleci` folder in the above GitHub repository, add a `.yml` file containing Katalon commands (e.g., `katalon-studio-samples/ci-samples/.circleci/config.yml`) and commit. See the example of the `config.yml` file below.
+   >**Notes**: You can only configure `katalonstudio/run` to run Katalon tests in the Orb source code. For the supported options, see [Command syntax document](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#katalon-studio-plugins-in-console-mode).
    
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/integration-circleci/circleci4.png" width="" height="">
 
-### In CircleCI
+### Configure In CircleCI
 
-Log into CircleCI and configure CircleCI environment variables in your GitHub projects.
+1. Download Katalon Studio Orbs in CircleCI: [katalon/katalon-studio@23.0.8](https://circleci.com/orbs/registry/orb/katalon/katalon-studio)
 
-1. Select **Settings** > choose a Git Organization
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/circleci/circleci1.png" width="" height="">
-2. Select **Projects** > click on the **Settings** icon of your preferred project
-3. Under **Build Settings**, select **Environment Variables**
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/circleci/circleci2.png" width="" height="">
-4. **Import Variables** or **Add Variable** to your project. E.g. KATALON_API_KEY
+2. In CircleCI, click **Go to application**.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/circleci/go%20to%20application.png" alt="go to application" width="100%">
+
+3. The Application page appears. Choose a Git Organization
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/circleci/choose%20organisation.png" width="40%" alt="choose organisation">
+
+4. In your preferred project, select **Projects Settings**.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/circleci/Projects%20Settings.png" width=100% alt="project settings">
+
+5. The **Project Settings** page appears, select **Environment Variables**
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/circleci/environment%20variables.png" width="100%" alt="environment variables">
+
+6. **Import Variables** or **Add Variable** to your project. E.g., KATALON_API_KEY
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/circleci/Add%20Environment.png" alt="add variable" width="70%">
+
    > Katalon API Key
    >
-   > You must get the API Key from [Katalon TestOps](https://analytics.katalon.com/) and then set it as an environment variable in CircleCI to secure this string. Please do NOT store it in source code.
+   > You must get the API Key from [Katalon TestOps](https://analytics.katalon.com/) and then set it as an environment variable in CircleCI to secure this string. Do not store this API Key in source code.
    > See also: [How to create API Keys in Katalon TestOps](https://docs.katalon.com/katalon-analytics/docs/ka-api-key.html)
 
 ## Execute tests with Katalon Orb
 
 Katalon Orb automatically executes Katalon tests after each commit to the configured GitHub repository.
+
+To execute tests with Katalon Orb, In **CircleCI > Projects > Branch**, select **Run Pipeline**.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/circleci/run%20pipeline.png" width=100% alt="run pipeline">
 
 After running Katalon tests in CircleCI, you can download test execution reports in the **Artifact** tab.
 
@@ -51,7 +73,7 @@ After running Katalon tests in CircleCI, you can download test execution reports
 
 ## Usage Examples
 
-> CI sample projects of Katalon Studio are available [here](https://github.com/katalon-studio-samples/ci-samples/).
+> For CI sample projects of Katalon Studio, see [CI Samples](https://github.com/katalon-studio-samples/ci-samples/).
 
 Below is an example demonstrating how to use Katalon Orb to execute a test suite with the latest version of Katalon Studio.
 
