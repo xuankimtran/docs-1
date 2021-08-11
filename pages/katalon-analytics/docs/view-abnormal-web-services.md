@@ -11,9 +11,9 @@ description:
 
 Katalon TestOps automatically detects abnormal Web Services. This feature enhances failure detection.
 
-Go to your Project > **Reports & Analytics** > **Web Services**, then select the **Anomalies** tab. 
+Go to your Project > **Reports & Analytics** > **Web Services**, then select the **Anomalies** tab.
 
-You can view a list of API requests which have taken less or much more time than usual to respond.
+You can view a list of API requests which have taken less or more time than usual to respond.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/view-abnormal-web-services/abnormal-webservices.png" width="" height="" alt text = web anomalies page>
 
