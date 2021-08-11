@@ -149,11 +149,19 @@ description:
 <td>
 <p><strong>Features</strong></p>
 </td>
-<td colspan="2">
+<td>
 <ul>
 <li style="font-weight: 400;"><span style="font-weight: 400;">Test planning</span></li>
 <li style="font-weight: 400;"><span style="font-weight: 400;">Test management</span></li>
 <li style="font-weight: 400;"><span style="font-weight: 400;">3rd-party integration</span></li>
+</ul>
+</td>
+<td>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Test planning</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Test management</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">3rd-party integration</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Web services anomalies</span></li>
 </ul>
 </td>
 <td>
