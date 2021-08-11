@@ -7,8 +7,6 @@ description:
 
 In Katalon TestOps, you can create an IP whitelist to protect your Organization's data from any unauthorized access.
 
-**IP Address Restrictions** is a feature enabling you to whitelist which IP addresses/ranges that are allowed access to your system.
-
 > Requirements:
 >
 > * You need to subscribe to Katalon TestOps Enterprise plan. To request a trial of Katalon TestOps Enterprise, see [TestOps Trial Plans](https://docs.katalon.com/katalon-analytics/docs/trial-plans.html).
@@ -16,6 +14,8 @@ In Katalon TestOps, you can create an IP whitelist to protect your Organization'
 > * You must be the Owner or Admin of an Organization.
 
 ## Configure IP Address Restrictions
+
+You can whitelist which IP addresses/ranges that are allowed access to your system by following these steps:
 
 1. Sign in to [Katalon TestOps](https://testops.katalon.io/login).
 
