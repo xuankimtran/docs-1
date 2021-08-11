@@ -139,17 +139,16 @@ Wait for the given element to NOT present (appear) within the given time (in sec
 You want to wait for 'App' control to not be present in 10 seconds timeout.
 
 ```groovy
-
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
-import internal.GlobalVariable as GlobalVariable
-
-'Start application on current selected android\'s device'
+//Start Application
 Mobile.startApplication(GlobalVariable.G_AndroidApp, false)
-
-'Wait for app control to not be present in 10 seconds timeout'
-Mobile.waitForElementNotPresent(findTestObject('Object Repository/Application/android.widget.TextView - App'), 10)
-
-'Close application on current selected android\'s device'
-Mobile.closeApplication()
+// Wait for the first element to present 
+Mobile.waitForElementPresent(findTestObject('Application/android.widget.TextView - Accessibility'), 10)
+// Verify if the element's text is correct
+Mobile.verifyElementText(findTestObject('Application/android.widget.TextView - Accessibility'), 'Accessibility', FailureHandling.CONTINUE_ON_FAILURE)
+//Tap on OS
+Mobile.tap(findTestObject('Object Repository/Application/android.widget.TextView - OS'), 0)
+//Wait for the Accessibility element to be gone on the next screen
+Mobile.waitForElementNotPresent(findTestObject('Application/android.widget.TextView - Accessibility'), 10)
+//Then tap on MMS Messaging element
+Mobile.tap(findTestObject('Object Repository/Application/android.widget.TextView - MMS Messaging '), 0)
 ```
