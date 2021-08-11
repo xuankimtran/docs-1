@@ -4,7 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/testops-uploader.html
 ---
 
-On Katalon TestOps, you can manually upload JUnit reports and Katalon Studio's test results via TestOps Uploader.
+On Katalon TestOps, you can manually upload JUnit reports and Katalon Studio's test results.
 
 Follow these steps:
 
@@ -19,7 +19,7 @@ Follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-junit-upload/import-manual-report-page.png"  width=100% alt="import manual reports page">
 
-    You have options to either upload JUnit reports or Katalon reports.
+    You can either upload JUnit reports or Katalon reports.
 
 5. Click **Choose Files** and browse the files in your local machine.
 
