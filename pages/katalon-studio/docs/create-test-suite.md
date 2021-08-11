@@ -57,15 +57,14 @@ In **Implicit timeout**, you can decide the timeout period that Katalon Studio w
 
 Using the **Retry** feature, you can configure when and how many times Katalon retries an execution of a Test Suite before the Test Suite finishes executing.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/execution%20information.png" width=80%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/retry.png" alt="retry after executing all" width=40%>
 
 ### Retry Failed Execution Immediately
 
-From version 8.1.0 onwards, you will define how many times to rerun a failed Test Case of a Test Suite immediately. When a Test Case in a Test Suite fails, the Test Suite reruns the failed Test Case immediately and will do so until it uses up the retry time. If all attempts to run the Test Case fail, the Test Suite moves to execute the next Test Case of the Test Suite regardless of the result.
+You can define how many times to rerun a failed Test Case of a Test Suite immediately. When a Test Case in a Test Suite fails, the Test Suite reruns the failed Test Case immediately and will do so until it uses up the retry time. If all attempts to run the Test Case fail, the Test Suite moves to execute the next Test Case of the Test Suite regardless of the result.
 
    >**Requirements**
    >
-   >- Katalon Studio version 8.1.0 onwards
    >- An active Katalon Studio Enterprise license
 
    **Usage example**
@@ -84,13 +83,15 @@ From version 8.1.0 onwards, you will define how many times to rerun a failed Tes
 
    In **Retry after executing all**:
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/retry.png" alt="retry after executing all" width=40%>
-
    * **Retry All executions**: Retry all executions when the Test Suite fails.
    * **Retry Failed executions only**: Retry only failed executions when the Test Suite fails.
 
 ### Consolidate Reports 
    
+   >**Requirements**:
+   >
+   >- Katalon Studio version 8.1.0 onwards
+
    From version 8.1.0 onwards, Katalon Studio automatically consolidates reports in JUnit, HTML, PDF, and CSV format with one final test result for a Test Case. Also, browser-based or window-based video is recorded accordingly for both run and rerun of a Test Case.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/reports.png" alt="consolidate report" width=70%>
