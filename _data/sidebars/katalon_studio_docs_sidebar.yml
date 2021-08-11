@@ -12,15 +12,15 @@ items:
           - title: "Subscribe to Katalon licenses"
             tree:
               - title: "Katalon License Subscription"
-              url: /katalon-studio/docs/license-subscription.html
+                url: /katalon-studio/docs/license-subscription.html
               - title: "Subscription via Katalon Website"
-              url: /katalon-studio/docs/subscription-kstore.html
+                url: /katalon-studio/docs/subscription-kstore.html
               - title: "Subscription via Katalon TestOps"
-              url: /katalon-studio/docs/license-KT.html
+                url: /katalon-studio/docs/license-KT.html
               - title: "Subscription via PO"
-              url: /katalon-studio/docs/license-po.html
+                url: /katalon-studio/docs/license-po.html
               - title: "Subscription via Quote"
-              url: /katalon-studio/docs/license-quote.html
+                url: /katalon-studio/docs/license-quote.html
           - title: "Use and Manage Katalon Licenses"
             tree:
               - title: "Manage Katalon Licenses"
