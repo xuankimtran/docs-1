@@ -71,8 +71,8 @@ This document gives you information on the supported technologies and integratio
 		<tr>
 			<td>
 				<ul>
-					<li><a href="https://github.com/katalon-studio-samples/katalon-bdd-cucumber-tests"> Behavior-driven development - BDD </a></li>
-					<li><a href="https://github.com/katalon-studio-samples/data-driven-tests"> Data-driven testing - DDT </a></li>
+					<li><a href="https://docs.katalon.com/katalon-studio/docs/cucumber-features-file.html"> Behavior-driven development - BDD </a></li>
+					<li><a href="https://docs.katalon.com/katalon-studio/docs/ddt.html"> Data-driven testing - DDT </a></li>
 					<li>Keyword-driven testing - KDT</li>
 					<li>Page Object Model - POM</li>
 				</ul>
