@@ -14,7 +14,7 @@ You need:
 
 * An active [Katalon Runtime Engine](https://docs.katalon.com/katalon-studio/docs/license.html#katalon-runtime-engine) license
 * A [Katalon API Key](https://docs.katalon.com/katalon-analytics/docs/ka-api-key.html)
-* Katalon Studio version 7.6 onwards
+* Katalon Studio version 7.6.0 onwards
 
 Your machine should:
 
