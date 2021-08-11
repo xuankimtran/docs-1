@@ -339,8 +339,8 @@ The status of a release, including:
 The status of a session, including:
 * *Queued*: session has been created, waiting to be executed. 
 * *Running*: session is in progress.
-* *Failed*: session has failed (the exit code is different from 0).
-* *Success*: session has succeeded (the exit code is 0).
+* *Failed*: session has failed.
+* *Success*: session has succeeded.
 * *Canceled*: session is canceled manually or session timeout.
 </details>
 
