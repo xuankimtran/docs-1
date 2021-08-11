@@ -203,27 +203,19 @@ A standard reference image used to compare with the Checkpoint screenshot(s) dur
 ## TestOps Calculations
 
 **<details><summary>% change of Test Case (Dashboard)</summary>**
-$$
-\frac{Total-test-cases-this-week}{Total-test-cases-last-week} * 100
-$$
+= (Total test cases this week/Total test cases last week)*100
 </details>
 
 **<details><summary>% change of Test Result (Dashboard)</summary>**
-$$
-\frac{Total-test-results-this-week}{Total-test-results-last-week} * 100
-$$
+= (Total test results this week/Total test results last week)*100
 </details>
 
 **<details><summary>% fail (Build)</summary>**
-$$
-\frac{Total-failed-test-cases}{Total-test-cases} * 100
-$$
+= (Total failed test cases/Total test cases)*100
 </details>
 
 **<details><summary>% flakiness</summary>**
-$$
-\frac{Number-of-times-the-status-of-test-results-changes}{Total-number-of-test-results} * 100
-$$
+= (Number of times the status of test results changes/Total number of test results)*100
 
 > Notes:
 >
@@ -231,9 +223,7 @@ $$
 </details>
 
 **<details><summary>% pass (Build)</summary>**
-$$
-\frac{Total-passed-test-cases}{Total-test-cases} * 100
-$$
+= (Total passed test cases/Total test cases)*100
 </details>
 
 **<details><summary>Active/Archived Release</summary>**
@@ -247,9 +237,7 @@ A test case that has been run last 2 months (based on the start time of executio
 </details>
 
 **<details><summary>Average Duration (Test Case)</summary>**
-$$
-\frac{Total-duration-of-all-test-results}{Total-number-of-test-results} * 100
-$$
+= (Total duration of all test results/Total number of test results)*100
 
 > Notes:
 >
@@ -261,9 +249,7 @@ The average amount based on the last 30 execution requests (ordered by the start
 </details>
 
 **<details><summary>Development Progress (Dashboard)</summary>**
-$$
-\frac{Resolved-Jira-issues}{Total-Jira-issues} * 100
-$$
+= (Resolved Jira issues/Total Jira issues)*100
 </details>
 
 **<details><summary>Duration (Session)</summary>**
@@ -403,9 +389,7 @@ The status of a visual test run, including:
 </details>
 
 **<details><summary>Test Progress (Dashboard)</summary>**
-$$
-\frac{Total-passed-test-results-in-release}{Total-test-results-in-release} * 100
-$$
+= (Total passed test results in release/Total test results in release)*100
 </details>
 
 **<details><summary>Test Run Coverage</summary>**
