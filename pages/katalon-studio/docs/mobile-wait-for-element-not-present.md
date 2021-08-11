@@ -5,38 +5,13 @@ permalink: katalon-studio/docs/mobile-wait-for-element-not-present.html
 redirect_from:
 description: 
 ---
-From version 8.1.0 onwards, Katalon Studio supports the conditional waiting keyword for Mobile testing. To learn about the WebUI keyword, see [[WebUI] Wait For Element Not Present](https://docs.katalon.com/katalon-studio/docs/webui-wait-for-element-not-present.html).
-
-To set conditional waiting when executing the Mobile test in script, use the keyword ``waitForElementNotPresent``.
-
 ## Description
 
-<table data-number-column="false"><colgroup><col /><col /></colgroup>
-<tbody>
-	<tr>
-		<th colspan="1" rowspan="1" data-colwidth="565">
-			<div tabindex="0">
-				<p data-renderer-start-pos="1344"><strong data-renderer-mark="true">Syntax</strong></p>
-				<figure></figure>
-			</div>
-		</th>
-		<th colspan="1" rowspan="1" data-colwidth="395">
-			<div tabindex="0">
-				<p data-renderer-start-pos="1354"><strong data-renderer-mark="true">Description</strong></p>
-				<figure></figure>
-			</div>
-		</th>
-	</tr>
-	<tr>
-		<td colspan="1" rowspan="1" data-colwidth="565">
-			<p data-renderer-start-pos="1371"><code data-renderer-mark="true">Mobile.waitForElementNotPresent(to, timeout, flowControl) boolean</code></p>
-		</td>
-		<td colspan="1" rowspan="1" data-colwidth="395">
-			<p data-renderer-start-pos="1440">Wait for the given element to <strong data-renderer-mark="true">NOT</strong> present (appear)&nbsp;within&nbsp;the given time (in seconds).&nbsp;</p>
-		</td>
-	</tr>
-</tbody>
-</table>
+Wait for the given element to NOT present (appear) within the given time (in seconds).
+
+>**Requirements**:
+>
+> Katalon Studio version 8.1.0 onwards.
 
 ## Parameters
 
@@ -92,13 +67,13 @@ To set conditional waiting when executing the Mobile test in script, use the key
 			<p data-renderer-start-pos="1700">The maximum period of time in <strong data-renderer-mark="true">seconds</strong> that system will wait to return a result.</p>
 			<ul data-indent-level="1">
 				<li>
-					<p data-renderer-start-pos="1783">If timeout &gt; 0 KS wait <code data-renderer-mark="true">timeout</code> to return a result.</p>
+					<p data-renderer-start-pos="1783">If timeout &gt; 0, Katalon Studio wait <code data-renderer-mark="true">timeout</code> to return a result.</p>
 				</li>
 				<li>
-					<p data-renderer-start-pos="1837">If timeout = 0, KS uses the default wait for element timeout in Project Settings.</p>
+					<p data-renderer-start-pos="1837">If timeout = 0, Katalon Studio uses the default wait for element timeout in Project Settings.</p>
 				</li>
 				<li>
-					<p data-renderer-start-pos="1922">If timeout &lt; 0, KS throws <code data-renderer-mark="true">IllegalArgumentException</code>.</p>
+					<p data-renderer-start-pos="1922">If timeout &lt; 0, Katalon Studio throws <code data-renderer-mark="true">IllegalArgumentException</code>.</p>
 				</li>
 			</ul>
 		</td>
