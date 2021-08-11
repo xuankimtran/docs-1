@@ -658,4 +658,4 @@ This applies to either sequential or parallel mode execution. You can check whic
 
 You can also see the report in Katalon Studio IDE.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/report%20in%20IDE.png" alt="report in IDE" width="100%">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/reports%20in%20IDE.png" alt="report in IDE" width="100%">
