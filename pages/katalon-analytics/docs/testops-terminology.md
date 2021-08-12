@@ -323,9 +323,9 @@ Katalon TestOps ranks active test cases by their average duration. The shorter a
 </details>
 
 **<details><summary>Stale Test Case</summary>**
-A test case whose last test run is already 2 months ago.
+If the last time a test case is run is more than 2 months ago, it is considered Stale Test Case.
 
-Katalon TestOps calculates the 2 months starting from the last time you clicked to view a test report in real-time.
+In real-time, the 2 month-point is calculated everytime you click to view the report.
 </details>
 
 **<details><summary>Status (Release)</summary>**
