@@ -61,7 +61,11 @@ Using the **Retry** feature, you can configure when and how many times Katalon r
 
 ### Retry Failed Execution Immediately
 
-When a Test Case in a Test Suite fails, the Test Suite moves to execute the next Test Case of the Test Suite regardless of the result by default. Instead, you can enable the **Retry Failed Execution Immediately** function, so that failed Test Cases are rerun immediately. You can configure it to **Retry** multiple times. If the retried Test Case fails, the Test Suite continues to rerun until it uses up the retry time. If all attempts to run the Test Case fail, the Test Suite moves to execute the next Test Case of the Test Suite regardless of the result.
+When a Test Case in a Test Suite fails, the Test Suite moves to execute the next Test Case of the Test Suite regardless of the result by default. Instead, you can enable the **Retry Failed Execution Immediately** function, so that failed Test Cases are rerun immediately.
+
+You can configure it to **Retry** multiple times. If the retried Test Case fails, the Test Suite continues to rerun until the test case passes or the maximum retry number is reached. 
+
+If all attempts to run the Test Case fail, the Test Suite moves to execute the next Test Case of the Test Suite regardless of the result.
 
    >**Requirements**
    >
@@ -92,7 +96,7 @@ When a Test Case in a Test Suite fails, the Test Suite moves to execute the next
    >
    >- Katalon Studio version 8.1.0 onwards
 
-   From version 8.1.0 onwards, Katalon Studio automatically consolidates reports in JUnit, HTML, PDF, and CSV format with one final test result for a Test Case. Also, browser-based or window-based video is recorded accordingly for both run and rerun of a Test Case.
+   From version 8.1.0 onwards, Katalon Studio automatically consolidates reports in JUnit, HTML, PDF, and CSV format with one final test result for a Test Case. Browser-based or window-based videos are recorded for runs and reruns of a Test Case.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/reports.png" alt="consolidate report" width=70%>
 
