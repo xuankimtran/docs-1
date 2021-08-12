@@ -7,7 +7,7 @@ description:
 ---
 ## Description
 
-Wait for the given element to NOT present (appear) within the given time (in seconds).
+Wait for the given element to NOT be present within the given time (in seconds).
 
 >**Requirements**:
 >
