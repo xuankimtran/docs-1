@@ -54,3 +54,6 @@ FailureHandling.OPTIONAL
 For example:
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/failure-handling/23.png)
+
+Tip and trick:
+* Why waiting keywords didn't fail? See: [Understand waiting keywords](https://docs.katalon.com/katalon-studio/docs/understand-waiting-keyword.html).
