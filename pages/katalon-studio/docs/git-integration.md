@@ -220,7 +220,7 @@ Retrieve all information about changes that have occurred in remote branches. Fo
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-2-22-163A273A32.png" alt="fetch" width=30%>
 
-2. Remote branches, tags, and remote changes are fetch automatically.
+2. Remote branches, tags, and remote changes are fetched automatically.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-2-22-163A573A18.png" alt="fetch dialog" width=70%>
 
