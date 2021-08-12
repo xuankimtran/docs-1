@@ -14,7 +14,9 @@ Follow these steps:
 
 3. Click **Create Kubernetes Test Environment** at the top right corner.
 
-4. Fill in the required information..
+4. Fill in the required information.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-aws-eks/create-kubernetes-page.png" width=100% alt="create kubernetes page">
 
 * In the **Agent Name** section, enter a name for your Agent.
 * In the **URL**, **Certificate Authority** and **Namespace** sections, enter your Kubernetes information.
@@ -30,9 +32,9 @@ Follow these steps:
 
 5. Click **Test Connection**, then click **Create** to complete.
 
-6. Go to **Test Environments** > **Kubernetes** to see the environment you have created.
+6. Go to **Test Environments** > **Kubernetes** to see the list of Kubernetes test environments you have created.
 
-  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/aws-eks/Kubernetes-test-environment.png" width="" height="" alt text= kubernetes environment list>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-aws-eks/kubernetes-test-environment-page-list.png" width="" height="" alt text= kubernetes environment list>
 
 Next steps:
 
