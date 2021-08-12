@@ -5,8 +5,8 @@ permalink: katalon-analytics/docs/strict-domain.html
 description:
 ---
 
-* If you enable the Strict Domain, all members of your Organization have restricted access to [Katalon TestOps](https://testops.katalon.io/login).
-* If you disable the Strict Domain, all members of your Organization have full access to Katalon TestOps.
+* If you enable the Strict Domain, members of your Organization only have access to some of specific domains configured by you in [Katalon TestOps](https://testops.katalon.io/login).
+* If you disable the Strict Domain, members of your Organization have full access to Katalon TestOps.
 
 > Requirements:
 >
