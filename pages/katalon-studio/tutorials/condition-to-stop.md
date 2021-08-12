@@ -80,7 +80,7 @@ When a test suite ends early because it reached the maximum failure value, the f
 
 Katalon Studio sends **Incomplete** test suite execution’s attachments, including execution log and JUnit Report to TestOps. This action ends the incomplete execution on TestOps.
 
-A test suite marked **Incomplete** or **Not started yet** and its test cases' results are uploaded to TestOps, since TestOps parses the execution log. However, they are not uploaded to 3rd-party tools (qTest, JIRA, Slack, Azure DevOps Test Plans, TestRail).
+A test suite marked **Incomplete** or **Not started yet** and the attachments of the test suite execution are uploaded to TestOps, since TestOps parses the execution log. However, they are not uploaded to 3rd-party tools (qTest, JIRA, Slack, Azure DevOps Test Plans, TestRail).
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/TestOps%20report%202.png" alt="TestOps report" width="100%">
 
