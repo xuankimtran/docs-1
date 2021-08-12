@@ -1,5 +1,5 @@
 ---
-title: "TestOps Directory"
+title: "Terminology and Formulas"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/testops-terminology.html
 redirect_from:
