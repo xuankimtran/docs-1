@@ -136,7 +136,7 @@ Wait for the given element to NOT be present within the given time (in seconds).
 
 ## Example
 
-You want to wait for 'App' control to not be present in 10 seconds timeout.
+In this example, for 10 seconds or until true, wait for the Accessibility element to be gone, then continue testing. If the Accessibility element is still present, mark as failed and continue.
 
 ```groovy
 //Start Application
