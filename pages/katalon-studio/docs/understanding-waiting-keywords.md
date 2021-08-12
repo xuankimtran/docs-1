@@ -6,13 +6,13 @@ permalink: katalon-studio/docs/troubleshoot-globalvariable-special-character.htm
 
 When a condition is not met, Katalon Studio returns a result (either *True* or *False*) with a warning message regardless of what failure handling settings are specified.
 
-In other words, Katalon Studio continues a test despite its failure. This behavior is similar to choosing *Optional* value for failure handling. See: [Failure Handling](https://docs.katalon.com/katalon-studio/docs/failure-handling.html).
+In other words, Katalon Studio continues running despite a test's failure. This behavior is similar to choosing *Optional* value for failure handling. See: [Failure Handling](https://docs.katalon.com/katalon-studio/docs/failure-handling.html).
 
 In case the waiting keyword fails due to such errors as network problem, session timeout, or because the AUT didn't start, failure handling then applies your setting specification.
 
 Here is an example:
 
-The waiting keyword,`WaitForElementPresent`, only returns *True* or *False* in respect of the element's presence. If the element doesn’t present on the current view, the keyword will return *False* and show a warning message.
+If you use the waiting keyword,`WaitForElementPresent`, Katalon Studio only returns a *True* or *False* result in respect of the element's presence. If the element doesn’t present on the current view, Katalon Studio returns a *False* result and shows a warning message (Failure Handling = Optional).
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/understand-waiting-keywords/waiting-keyword.png"  width=100% alt="waiting keywords">
 
