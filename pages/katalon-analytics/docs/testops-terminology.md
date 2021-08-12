@@ -200,7 +200,7 @@ An identifier that is generated when an agent is set up successfully.
 A standard reference image used to compare with the Checkpoint screenshot(s) during a test execution.
 </details>
 
-## TestOps Calculations
+## TestOps Formulas
 
 **<details><summary>% change of Test Case (Dashboard)</summary>**
 = (Total test cases this week/Total test cases last week)*100
@@ -219,7 +219,7 @@ A standard reference image used to compare with the Checkpoint screenshot(s) dur
 
 > Notes:
 >
-> Total number of test results =  30 latest test results (ordered by the start time of execution).
+> Total number of test results =  30 latest test results (sorted by execution start time).
 </details>
 
 **<details><summary>% pass (Build)</summary>**
@@ -233,7 +233,7 @@ In Katalon TestOps, you can also archive a release to stop tracking it.
 </details>
 
 **<details><summary>Active Test Case</summary>**
-A test case that has been run last 2 months (based on the start time of execution).
+A test case that has been run in the last 2 months, based on the start time of the latest execution.
 </details>
 
 **<details><summary>Average Duration (Test Case)</summary>**
@@ -245,7 +245,7 @@ A test case that has been run last 2 months (based on the start time of executio
 </details>
 
 **<details><summary>Average Duration (Web Services)</summary>**
-The average amount based on the last 30 execution requests (ordered by the start time of execution).
+The average amount of time based on the last 30 execution requests (sorted by the most recent execution start time.).
 </details>
 
 **<details><summary>Development Progress (Dashboard)</summary>**
@@ -323,7 +323,7 @@ Katalon TestOps ranks active test cases by their average duration. The shorter a
 </details>
 
 **<details><summary>Stale Test Case</summary>**
-If the last time a test case is run is more than 2 months ago, it is considered Stale Test Case.
+A test case that has not been run for at least 2 months.
 
 In real-time, the 2 month-point is calculated everytime you click to view the report.
 </details>
