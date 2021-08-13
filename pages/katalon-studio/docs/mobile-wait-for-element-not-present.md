@@ -67,7 +67,7 @@ Wait for the given element to NOT be present within the given time (in seconds).
 			<p data-renderer-start-pos="1700">The maximum period of time in <strong data-renderer-mark="true">seconds</strong> that system will wait to return a result.</p>
 			<ul data-indent-level="1">
 				<li>
-					<p data-renderer-start-pos="1783">If timeout &gt; 0, Katalon Studio wait <code data-renderer-mark="true">timeout</code> to return a result.</p>
+					<p data-renderer-start-pos="1783">If timeout &gt; 0, Katalon Studio waits <code data-renderer-mark="true">timeout</code> to return a result.</p>
 				</li>
 				<li>
 					<p data-renderer-start-pos="1837">If timeout = 0, Katalon Studio uses the default wait for element timeout in Project Settings.</p>
@@ -98,6 +98,7 @@ Wait for the given element to NOT be present within the given time (in seconds).
 </tbody>
 </table>
 
+> See also: [Understand waiting keywords](https://docs.katalon.com/katalon-studio/docs/understand-waiting-keywords.html)
 ## Returns
 
 <table data-number-column="false"><colgroup><col /><col /></colgroup>
