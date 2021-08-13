@@ -1,89 +1,149 @@
 ---
-title: "[Admin] Enable Single Sign-On (SSO) for an Organization to access Katalon TestOps"
+title: "Enable Single Sign-On (SSO) for an Organization"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/sso-settings.html
 redirect_from:
+    - "/katalon-analytics/docs/accept-sso/"
 ---
 
-> This feature is only available for Katalon TestOps Enterprise. To request a free trial, please visit [Trial Plans](https://docs.katalon.com/katalon-analytics/docs/trial-plans.html).
-
-> This feature is accesible to the organization **Owner** and **Admin** only.
-
-## Prerequisites
-
-- You have configured a subdomain for your Organization. [Learn more](https://docs.katalon.com/katalon-analytics/docs/subdomain.html)
-- You have configured Identity Provider and have your metadata (this will be automatically encrypted in Katalon's database).
+> Requirements:
+>
+> You need to subscribe to Katalon TestOps Enterprise plan. To request a trial of Katalon TestOps Enterprise, see [TestOps Trial Plans](https://docs.katalon.com/katalon-analytics/docs/trial-plans.html).
 
 ## Configure Single Sign-On
 
-1. Access https://testops.katalon.io.
+> Requirements:
+>
+> * You must be an **Owner** or **Admin** of an Organization.
+>
+> * You have configured a Subdomain. See [Configure a Subdomain for an Organization](https://docs.katalon.com/katalon-analytics/docs/subdomain.html).
+>
+> * You have configured Identity Provider. Your metadata is then automatically encrypted in Katalon's database.
 
-2. In the **Katalon Admin** page, go to **Settings** > **Single Sign-On (SSO) Settings** > **Enable SSO** and enter your metadata.
+As an Owner or Admin, you can configure SSO by following these steps:
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/sso-settings/enable-sso.png)
+1. Sign in to [Katalon TestOps](https://testops.katalon.io/login).
 
-3. Click on **Update** to finish.
+2. Go to **Settings** > **Organization Management**.
 
-## Invite and enable SSO for Organization members
+3. Select **Settings** on the left bar, and scroll down to the **Single Sign-On (SSO) Settings** section.
 
-After you have configured SSO for your Organization, you can invite and enable SSO for each member.
+4. Switch **Enable SSO** to **Active**.
 
-### Invite and enable SSO for a new user
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-sso-settings/enter-metadata-for-sso.png" width=100% alt="SSO enabled input metadata">
 
-1. Learn how to invite users to an organization [here](https://docs.katalon.com/katalon-analytics/docs/setup-org-team-project.html#invite-a-user-to-the-organization).
+    You then can enter your Metadata.
 
-2. In the **Login Options** section in the **Invite users** page, enable the SSO option and click on **Invite** to finish.
+5. Click **Update**.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/sso-settings/invite-sso.png)
+## Enable SSO for new members and existing members
 
-3. A request to enable SSO will be sent to invited users. 
+After configuring SSO, you can enable SSO for new members when inviting them to your Organization.
 
-This action will be *pending* until your member [accepts the request](https://docs.katalon.com/katalon-analytics/docs/setup-org-team-project.html#invite-a-user-to-the-organization).
+You can also enable SSO for the existing members of your Organization.
 
-> Note: The *“Verify Single Sign-On authentication"* email will be sent to invited users once they have accepted the invitation to join the organization.
+### For a new User
 
-### Enable SSO for an existing member
+To enable SSO for a new member, follow these steps:
 
-1. To enable SSO for an existing member in an organization, in **Katalon Admin** page, go to **Users** and select an account you want to enable SSO. 
+1. Invite a User to your Organization. See [TestOps User Management](https://docs.katalon.com/katalon-analytics/docs/kt_invite_user_org.html#invite-a-user-to-join-an-organization).
 
-2. Click on the pencil icon to go to the details page.
+    > Notes:
+    >
+    > The **Login Settings** section appears on the **Invite User** page once you have configured SSO.
 
-3. In the **Login Options** section in the user's details page, enable the SSO option. 
+2. Select **Enable SSO** in the **Login Settings** section, then click **Invite**.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/sso-settings/update-sso.png)
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-sso-settings/invite-user-page-sso-enabled.png" width=100% alt="enable SSO in Invite user page">
 
-4. A request to enable SSO will be sent to invited users. 
+    An invitation is then sent to the User.
 
-This action will be pending until your member [accepts the request](https://docs.katalon.com/katalon-analytics/docs/setup-org-team-project.html#invite-a-user-to-the-organization).
+### For an existing User
 
-> You need to enable SSO for your own account in order to login via SSO.
+To enable SSO for an existing member, follow these steps:
 
-## View and Manage User Authentication
+1. Go to **Settings** > **User Management**.
 
-### View Pending SSO Requests
+    The **Manage Users** page appears.
 
-After enabling SSO for your member, the pending request will be displayed in the **Users** page.
+2. Edit a User's account by clicking on the *Pencil* icon.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/sso-settings/manage-sso.png)
+    The **User's detail** page appears.
 
-Before the member have accepted the request, you can withdraw it by removing the URL from the pending list. Once you have confirmed your action, the member will no longer be able to access your request URL.
+3. Select **Enable SSO** as a login option.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/sso-settings/delete-sso-request.png)
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-sso-settings/user-detail-page-sso-enabled-blurred.png" width=100% alt="enable sso pending request sent box">
 
-### Update Authentication Methods
+    A request to enable SSO is then sent to the existing User.
 
-Once users have accepted the request to enable SSO, their accounts will be displayed in the user list with details of login options. 
+> Notes:
+>
+> * The action is pending until new members accept the invitations and existing members accept the requests.
 
-To update authentication methods, in the **Katalon Admin** page, go to **Users** and click on the pencil icon to view user's details.
+## View and manage User Authentication
 
-You can update the login options (SSO and/or Username & Password) for members in the **Login Settings** section.
+### View pending SSO requests
 
-## Activate Katalon Studio
+As an Owner or Admin, you can view the pending invitations and SSO requests on the **Manage Users** page.
 
-After you have finished the SSO configurations, open the activation log of Katalon Studio and fill in the below information to get started. 
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-sso-settings/sso-pending-highlight-blurred.png" width=100% alt="pending SSO invitations">
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/sso-settings/activate-ks.png)
+You can withdraw an invitation and request by clicking on the *Trash bin* icon. After confirming your action, the member will no longer be able to access the URLs.
 
-- Server URL: your subdomain that you have already configured. (E.g.: https://beo.katalon.io)
-- Email: your registered Katalon account
-- Password: an API key generated from Katalon TestOps. [Learn more](https://docs.katalon.com/katalon-analytics/docs/ka-api-key.html)
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-sso-settings/delete-sso-pop-up-blurred.png" width=100% alt="pending SSO delete box">
+
+### Update authentication methods
+
+There are two login options: **Enable SSO** and **Access Katalon TestOps with username & password**.
+
+You can always switch back to **Access Katalon TestOps with username & password** to change the authentication method.
+
+To update the authentication method for Users, go to the **User's detail** page and update the login option.
+
+## Activate SSO in Katalon Studio
+
+After configuring SSO in Katalon TestOps, you must reactivate Katalon Studio to enable SSO.
+
+Follow these steps:
+
+1. Open Katalon Studio.
+
+2. Click on the *Profile* icon at the top right corner, and select **Deactivate**.
+
+    The **Katalon Studio Activation** box appears as below.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-sso-settings/activate-sso-in-studio.png" width=100% alt="ks activation box">
+
+3. Fill in the required information.
+
+    * **Server URL**: enter the Subdomain you have configured (e.g., https://techwrite.katalon.io).
+
+    * **Email**: enter your registered Katalon account.
+
+    * **Password**: enter an API key generated in Katalon TestOps. See: [API Keys](https://docs.katalon.com/katalon-analytics/docs/ka-api-key.html).
+
+## Enable SSO as a User
+
+If you are not an Owner or Admin of an Organization, you will receive the invitation or SSO request via email.
+
+As a new User, accept the invitation to join the Organization first. See: [TestOps User Management](https://docs.katalon.com/katalon-analytics/docs/kt_invite_user_org.html#as-a-user).
+
+As an existing User, follow these steps:
+
+1. Go to your email and find the *[Katalon TestOps] Verify Single Sign-On (SSO) authentication* email, then click **Click here to confirm** in the email.
+
+    You will be directed to Katalon TestOps and see the below message.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-sso-settings/user-navigate-sso-acceptance-blurred.png" width=100% alt="user accept sso">
+
+    > Notes:
+    >
+    > If you are a new User, you must accept the invitation to join an Organization first. Then you will receive the authentication email.
+
+2. Check the information, then click **Allow this account to access Organization [...] via SSO** to confirm.
+
+    After accepting the SSO request, you are automatically navigated to the Subdomain.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-sso-settings/subdomain-signin-using-sso-blurred.png" width=100% alt="subdomain sign in using SSO">
+
+3. Click **Sign in using SSO**.
