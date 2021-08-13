@@ -17,7 +17,7 @@ For example, if you use the waiting keyword, `WaitForElementPresent`, Katalon St
 If you want to let the test case fail due to the element not being present, use the following script to make it an assertion:
 
 ```groovy
-1 boolean present = Mobile.waitForElementPresent(findTestObject('...'), 10)`
-2
-3 assert present
+boolean present = Mobile.waitForElementPresent(findTestObject('...'), 10)
+
+assert present
 ```
