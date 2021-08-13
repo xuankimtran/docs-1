@@ -1347,8 +1347,6 @@ items:
             url: /katalon-analytics/docs/compare-test-results.html    
       - title: "Reporting"
         tree:
-          - title: "Overview"
-            url: /katalon-analytics/docs/view-reports-overview.html     
           - title: "View TestOps Dashboard" 
             url: /katalon-analytics/docs/dashboard-overview.html
           - title: "Filter Test Runs list by Build name"
