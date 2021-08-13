@@ -13,22 +13,20 @@ description: Release notes 8.x
 
 ### New features
 
-* [CLI/CI] [Katalon Runtime Engine] Introduced an ability to terminate execution based on the maximum number of test failures allowed. See [doc's name](url)
-* [Mobile testing] Introduced `waitForElementNotPresent`. See [doc's name](url)
+* [CLI/CI] [Katalon Runtime Engine] Introduced an ability to terminate execution based on the maximum number of test failures allowed. See [Terminate Execution Conditionally](https://docs.katalon.com/katalon-studio/docs/terminate-execution-conditionally.html)
+* [Mobile testing] Introduced `waitForElementNotPresent`. See [[Mobile] Wait For Element Not Present](https://docs.katalon.com/katalon-studio/docs/mobile-wait-for-element-not-present.html)
 
 ### Enhancements
 
-* [Katalon Studio Enterprise] Retry Failed Executions Immediately. See [doc's name](url)
-    * Enhanced function with new logic/behavior. 
-    * Supported consolidating execution reports.
-* [Azure DevOps Integration] Submitted Release details and Test Run properties to Azure DevOps. See [doc's name](url)
-* [Kobiton Integration] Introduced custom remote server and device name functionality.
-* Introduced options to include or exclude timestamps in .properties files in the Project Settings folder. See [doc's name](url)
-* Introduced Chrome 92 compatibility.
-* Introduced Microsoft Edge (Chromium) 92 compatibility.
-* [Plugin] Published new APIs platform.
-    - list out what API
+* [Katalon Studio Enterprise] Supported tackling test flackiness with Retry Failed Executions Immediately and Consolidated execution reports. See [Retry Failed Execution Immediately](https://docs.katalon.com/katalon-studio/docs/test-suite.html#retry-failed-executions-immediately).
+* [Azure DevOps Integration] Supported submitting Release Information together with Test Run to Azure DevOps. See [Integration with Azure DevOps Test Plans](https://docs.katalon.com/katalon-studio/docs/azure-devops-test-plans.html#configure-the-integration)
+* [Kobiton Integration] Introduced custom remote server and device name functionality. See [Mobile Testing with Kobiton Devices
+](https://docs.katalon.com/katalon-studio/docs/integrate_with_kobiton.html)
+* Supported Chrome 92 compatibility.
+* Supported Microsoft Edge (Chromium) 92 compatibility.
+* [Plugin] Introduced new APIs for Plugin platform. See [new APIs list](https://github.com/katalon-studio/katalon-studio-platform/blob/master/docs/turorials/apilist.md)
 * Reduced time on opening a Test Case with many variables.
+* [Katalon Runtime Engine] Supported using custom Android SDK location in environment variables.
 
 ### Fixes
 
@@ -42,7 +40,6 @@ description: Release notes 8.x
 * Bug: [Slack Integration] Failed to connect to Slack.
 * Bug: [TestRail Integration] Solved issues causing with Project Settings.
 * Bug: [Katalon Studio Enterprise] Could not select Run and Debug from here in specific cases.
-* Bug: [Katalon Runtime Engine] Could not find the attached device in AWS Device Farm.
 * Bug: [Katalon Runtime Engine] Failed to replace excluded built-in libraries with external libraries in CLI/CI execution.
 * Bug: [Cucumber] Executed steps were not displaying correctly in the Console log.
 * Bug: [API Testing] An incorrect response thrown when leaving the parameter blank in the request URL path.
