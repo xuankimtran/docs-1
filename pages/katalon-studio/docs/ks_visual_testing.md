@@ -10,6 +10,8 @@ In Katalon TestOps, you can compare images captured during test executions with 
 
 > Requirements:
 >
+> * You need to subscribe to Katalon TestOps Enterprise plan. To request a trial of Katalon TestOps Enterprise, see [TestOps Trial Plans](https://docs.katalon.com/katalon-analytics/docs/trial-plans.html).
+>
 > * You have enabled [Katalon Studio Integration](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html).
 
 ## Set up Visual Testing
