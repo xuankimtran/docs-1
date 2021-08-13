@@ -26,7 +26,7 @@ To run the test with the Katalon Orb, you need to establish a connection between
 ### Prepare Your Project In GitHub
 
 1. Use your repository on GitHub or create a new one storing your Katalon project code.
-2. To run the test to the `.circleci` folder in the above GitHub repository, add a `.yml` file containing Katalon commands (e.g., `katalon-studio-samples/ci-samples/.circleci/config.yml`) and commit. See the example of the `config.yml` file below.
+2. To run the test in CircleCI, create a `.circleci` folder in the GitHub repository and add a `.yml` file containing Katalon commands (e.g., `katalon-studio-samples/ci-samples/.circleci/config.yml`), then commit. See the example of the `config.yml` file below.
    >**Notes**: You can only configure `katalonstudio/run` to run Katalon tests in the Orb source code. For the supported options, see [Command syntax document](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#katalon-studio-plugins-in-console-mode).
    
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/integration-circleci/circleci4.png" width="" height="">
