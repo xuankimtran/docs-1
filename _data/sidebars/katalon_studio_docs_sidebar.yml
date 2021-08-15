@@ -966,7 +966,7 @@ items:
       - title: "Execution"
         tree:
           - title: "Test Suite"
-            url: /katalon-studio/docs/test-suite.html
+            url: /katalon-studio/docs/create-test-suite.html
           - title: "Test Suite Collection"
             url: /katalon-studio/docs/test-suite-collection.html
           - title: "Execute tests periodically on remote machines"

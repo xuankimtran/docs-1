@@ -13,6 +13,7 @@ redirect_from:
     - "/katalon-studio/docs/dynamic-querying-test-suite/"
     - "/katalon-studio/docs/dynamic+querying+test+suite/"
     - "/katalon-studio/docs/dynamic%20querying%20test%20suite/"
+    - "/katalon-studio/docs/test-suite.html/"
 description: 
 ---
 A Test Suite is a collection of multiple different or duplicate test cases.
@@ -61,11 +62,9 @@ Using the **Retry** feature, you can configure when and how many times Katalon r
 
 ### Retry Failed Execution Immediately
 
-When a Test Case in a Test Suite fails, the Test Suite moves to execute the next Test Case of the Test Suite regardless of the result by default. Instead, you can enable the **Retry Failed Execution Immediately** function, so that failed Test Cases are rerun immediately.
+By default, each Test Case is run once during an automation test execution. However, you might want to rerun a Failed Test Case several times before moving to execute the next Test Case. You can do so with **Retry Failed Execution Immediately**.
 
-You can configure it to **Retry** multiple times. If the retried Test Case fails, the Test Suite continues to rerun until the test case passes or the maximum retry number is reached. 
-
-If all attempts to run the Test Case fail, the Test Suite moves to execute the next Test Case of the Test Suite regardless of the result.
+You can configure the desired number of retries for Failed Test Cases. Test Cases will be rerun until they either **Passed** or all retries have been used up. If all rerun attempts fail, Katalon Studio marks the Test Case as **Failed** and proceeds with the next Test Case.
 
    >**Requirements**
    >
@@ -83,13 +82,9 @@ If all attempts to run the Test Case fail, the Test Suite moves to execute the n
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/retry-usage-example-result.png" width=80%>
 
-### Retry After Executing All
-
-   In **Retry after executing all**:
-
-   * **Retry All executions**: Retry all executions when the Test Suite fails.
-   * **Retry Failed executions only**: Retry only failed executions when the Test Suite fails.
-
+   If the test result pattern fails intermittently, this test is likely to be flaky.
+   A flaky test is a test that occasionally fails but finally passes if you attempt it enough times. With the **Retry Failed Execution Immediately** function, you can detect flaky test cases and figure out the problem of the test.
+   
 ### Consolidate Reports 
    
    >**Requirements**:
@@ -99,6 +94,17 @@ If all attempts to run the Test Case fail, the Test Suite moves to execute the n
    From version 8.1.0 onwards, Katalon Studio automatically consolidates reports in JUnit, HTML, PDF, and CSV format with one final test result for a Test Case. Browser-based or window-based videos are recorded for runs and reruns of a Test Case.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/reports.png" alt="consolidate report" width=70%>
+
+>**Notes**:
+>
+>Consolidating Reports only applies to the **Retry Failed Execution Immediately** mechanism.
+
+### Retry After Executing All
+
+   In **Retry after executing all**:
+
+   * **Retry All executions**: Retry all executions when the Test Suite fails.
+   * **Retry Failed executions only**: Retry only failed executions when the Test Suite fails.
 
 ### Mail Recipients
 
