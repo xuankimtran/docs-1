@@ -137,7 +137,7 @@ Wait for the given element to NOT be present within the given time (in seconds).
 
 ## Example
 
-In this example, for 10 seconds or until true, wait for the Accessibility element to be gone, then continue testing. If the Accessibility element is still present, mark as failed and continue.
+In this example, for 10 seconds or until true, wait for the Accessibility element to be gone, then continue testing. If the Accessibility element is still present, the keyword returns **False**. A warning message appears, and the test engine goes on with the following steps.
 
 ```groovy
 //Start Application
