@@ -18,9 +18,9 @@ The auto-update feature ensures Katalon users work with the most recent version 
 
 >**Notes**:
 >
-> From the release of version 8.1.0 in August 2021, the **New Update** dialog might appear for some specific versions only. You can always find the latest update in Katalon Studio by navigating to **Help > Check for Updates**.
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/auto-updater/check%20for%20update.png" alt="check for update" width=40%>
+> You can always find the latest update in Katalon Studio by navigating to **Help > Check for Updates**.
+>
+><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/auto-updater/check%20for%20update.png" alt="check for update" width=40%>
 
 - Suppose a new version is available, the **Katalon Studio New Update** dialog displays. Otherwise, your Katalon Studio is up to date.
 
