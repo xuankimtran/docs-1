@@ -975,8 +975,6 @@ items:
             url: /katalon-studio/docs/selenium-grid-integration.html
           - title: "Execute Tests on Multiple Devices in Parallel"
             url: /katalon-studio/docs/execute_tests_parallelly_multiple_devices.html
-          - title: "Terminate Execution Conditionally"
-            url: /katalon-studio/docs/terminate-execution-conditionally.html
           - title: "Set a new default JRE for test projects"
             url: /katalon-studio/how-to-guides/set-new-default-JRE.html
           - title: "Link Execution with TestOps Release using CLI"
@@ -1163,6 +1161,8 @@ items:
         url: /katalon-studio/docs/export-test-results-in-junit-format.html
       - title: "Command Syntax (Command-line/Console Mode Execution)"
         url: /katalon-studio/docs/console-mode-execution.html
+      - title: "Terminate Execution Conditionally"
+        url: /katalon-studio/docs/terminate-execution-conditionally.html
       - title: "Docker Image"
         url: /katalon-studio/docs/docker.html
       - title: "Run with Cloud CIs"
