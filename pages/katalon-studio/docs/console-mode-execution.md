@@ -599,8 +599,7 @@ We recommend using the Command Builder to generate commands quickly and precisel
    
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/condition%20to%20stop%20-%202.png" alt="execution configurations" width=70%>
 
-      From **version 8.1.0 onwards**, you can terminate execution after T test failures (T is the failure threshold value) with the option: **Terminate the execution once the total number of test failures reaches the input threshold**.
-
+      From **version 8.1.0 onwards**, you can terminate execution after T test failures (T is the failure threshold value) with the option: **Terminate the execution once the total number of test failures reaches the input threshold**. See also: [Terminate Execution Conditionally](https://docs.katalon.com/katalon-studio/docs/terminate-execution-conditionally.html).
    * **Katalon TestOps**: Override the Project ID in Katalon TestOps (available from **version 7.8** onwards).
 
        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/override-prj-id.png" alt="Katalon TestOps" width=70%>
