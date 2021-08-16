@@ -9,7 +9,7 @@ description:
 
 Wait for the given element to NOT be present within the given time (in seconds).
 
->**Requirements**:
+>**Requirement**:
 >
 > Katalon Studio version 8.1.0 onwards.
 
