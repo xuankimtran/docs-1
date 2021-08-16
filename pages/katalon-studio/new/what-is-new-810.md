@@ -14,9 +14,9 @@ description: What's new in Katalon Studio 8.1.0?
 
 As ever, we are so excited to announce Katalon Studio version 8.1.0 is now available for download from the [Katalon website](https://www.katalon.com/download/).
 
-Version 8.1.0 focuses on improving the Retry Immediately mechanism and allowing users to stop execution based on the maximum number of test failures permitted in a single run. While the former assists users in overcoming test flakiness, the latter considerably reduces the time spent waiting for the entire execution to complete, resulting in lower testing environment costs. In addition, better experience in mobile testing and Azure DevOps integration is worth the wait in this major release.
+Version 8.1.0 focused on improving the Retry Immediately mechanism and allowing users to stop execution based on the maximum number of test failures permitted in a single run. While the former assists users in overcoming test flakiness, the latter considerably reduces the time spent waiting for the entire execution to complete, resulting in lower testing environment costs. In addition, better experience in mobile testing and Azure DevOps integration was worth the wait in this major release.
 
-Along with the exciting news, there are a few tidbits and changes about macOS Big Sur's UI and other 3rd-party integration that you should check out. See our [Release Notes](https://docs.katalon.com/katalon-studio/new/version-8x.html) for details on the modifications made to previous versions. Read on for the intriguing new features and improvements that we offer as below.
+Along with the exciting news, there were a few tidbits and changes about macOS Big Sur's UI and other 3rd-party integration that you should check out. See our [Release Notes](https://docs.katalon.com/katalon-studio/new/version-8x.html) for details on the modifications made to previous versions. Read on for the intriguing new features and improvements that we offered as below.
 
 ## Tackling test flakiness with Effective Retry Immediately mechanism 
 
