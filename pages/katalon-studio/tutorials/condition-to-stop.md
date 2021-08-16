@@ -6,13 +6,6 @@ description: "This article provides the concept of terminating execution conditi
 ---
 In this article, you will learn how to terminate an automation execution by configuring a maximum number of test failures in manual view or via the command-line option (T is the failure threshold value), with examples using common use cases.
 
->**Requirements**
->
->- Katalon Studio **version 8.1.0 onwards**.
->- A Katalon Runtime Engine License. See [Katalon licensing](https://docs.katalon.com/katalon-studio/docs/license.html).
-
-Consider using the condition to terminate execution when a set of tests is mature and takes hours to finish. Once a significant number of tests fail, they may fail for the exact cause. This feature helps you save time, provide early feedback, and avoid the execution of unnecessary automation test cases.
-
 >**What is a test failure?**
 >
 >A test failure is a failed test case or test iteration in an execution.
@@ -23,6 +16,13 @@ Consider using the condition to terminate execution when a set of tests is matur
 >- 1 retried test iteration fails = 1 test failure
 >
 > The number of maximum test cases failure must be greater than 0 and a natural number (1,2,3...). Otherwise, Katalon Studio will not start the execution.
+
+>**Requirements**
+>
+>- Katalon Studio **version 8.1.0 onwards**.
+>- A Katalon Runtime Engine License. See [Katalon licensing](https://docs.katalon.com/katalon-studio/docs/license.html).
+
+Consider using the condition to terminate execution when a set of tests is mature and takes hours to finish. Once a significant number of tests fail, they may fail for the exact cause. This feature helps you save time, provide early feedback, and avoid the execution of unnecessary automation test cases.
 
 You can use this feature to:
 
@@ -148,5 +148,7 @@ In this section, we outline an example execution of a test suite with this param
 - When the test suite begins execution, the first 3 test suites run at the same time with T = 20 in each test suite.
 
 - The test suite collection is terminated once the total number of failures becomes 20. The rest test cases in the terminated test suite and the rest test suite do not run. However, the currently running test suites will not be terminated.
+
+	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/Report%20UC%203.png" alt="report test suite collection in parallel mode" width="100%">
 
 - Katalon Studio generates a report in JUnit, HTML, PDF, and CSV format. The report does not show information for test cases and test suites that were not run.
