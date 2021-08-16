@@ -4,7 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/terminate-execution-conditionally.html
 description: "This article provides the concept of terminating execution conditionally and the tutorial on common use cases."
 ---
-In this article, you will learn how to terminate an automation execution by configuring a maximum number of test failures in manual view or via the command-line option (T is the failure threshold value), with examples using common use cases.
+In this article, you will learn how to terminate an automation execution by configuring a maximum number of test failures in manual view or via the command-line option, with examples using common use cases.
 
 >**What is a test failure?**
 >
