@@ -13,7 +13,7 @@ description: Release notes 8.x
 
 ### New features
 
-* [CLI/CI] [Katalon Runtime Engine] Introduced an ability to terminate execution based on the maximum number of test failures allowed. See [Terminate Execution Conditionally](https://docs.katalon.com/katalon-studio/docs/terminate-execution-conditionally.html)
+* [Katalon Runtime Engine] Introduced an ability to terminate execution based on the maximum number of test failures allowed. See [Terminate Execution Conditionally](https://docs.katalon.com/katalon-studio/docs/terminate-execution-conditionally.html)
 * [Mobile testing] Introduced `waitForElementNotPresent`. See [[Mobile] Wait For Element Not Present](https://docs.katalon.com/katalon-studio/docs/mobile-wait-for-element-not-present.html)
 
 ### Enhancements
