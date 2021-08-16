@@ -65,7 +65,7 @@ Using the **Retry** feature, you can configure when and how many times Katalon r
 
 By default, each Test Case is run only one time in a Test Suite execution. Suppose you want to rerun a failed Test Case several times to identify flaky before executing the next ones. You can set the desired number of retry times in **Retry Failed Execution Immediately**. The failed test case will be rerun immediately until they pass or all retries are used up. If all rerun attempts fail, Katalon Studio marks that Test Case as **Failed** and proceeds with the rests in the Test Suite.
 
-   >**Requirement**
+   >**Requirements**
    >
    > - An active Katalon Studio Enterprise license
    > - A Test Suite
