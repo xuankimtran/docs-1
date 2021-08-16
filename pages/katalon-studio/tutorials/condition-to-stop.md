@@ -24,11 +24,7 @@ From version 8.1.0 onwards, you can terminate an execution after T test failures
 >
 > The number of maximum test cases failure must be greater than 0 and a natural number (1,2,3...). Otherwise, Katalon Studio will not start the execution.
 
-Consider using this parameter when:
-
-- You have a high number of failed test cases in given test execution.
-- You have a mature set of tests, and it takes hours to finish execution.
-- You have a new code committed or a new build available, where a high number of test failures might reflect the quality of the new build.
+Consider using this parameter when a set of tests is mature and it takes hours to finish execution. Once a significant number of tests fail, they may fail for the exact cause. Hence, spending hours to finish the execution is not a wise choice as the root cause is already sufficient to take action forward.
 
 You can use this feature to:
 
@@ -103,7 +99,7 @@ Below are three example use cases to illustrate how the parameter works:
 
 ### Terminate Test Suite Execution
 
-In this section, we outline an example execution of a test suite with this parameter. This example works for all test types, such as **Retry all**, **Retry immediately**, and **Data-driven testing**.
+In this section, we outline an example execution of a test suite with this parameter.
 
 - Given that you have a test suite that has 10 test cases.
 
@@ -127,7 +123,7 @@ In this section, we outline an example execution of a test suite with this param
 
 	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/Test%20Result%20in%20KS%20-%20UC%201.png" width="80%" alt="report in Katalon Studio">
 
-See also [Test Suite and Test Suite Collection Reports](https://docs.katalon.com/katalon-studio/docs/test-suite-report.html#test-suite-report).
+	>See also [Test Suite and Test Suite Collection Reports](https://docs.katalon.com/katalon-studio/docs/test-suite-report.html#test-suite-report).
 
 ### Terminate Test Suite Collection Executed In Sequential Mode
 
@@ -139,7 +135,7 @@ See also [Test Suite and Test Suite Collection Reports](https://docs.katalon.com
 
 - Katalon Studio generates a report in JUnit, HTML, PDF, and CSV format. The report does not show information for test cases and test suites that were not run.
 
-	> Learn more about how to create and execute a test suite collection in [Test Suite Collection](https://docs.katalon.com/katalon-studio/docs/test-suite-collection.html#manage-execution-information)
+	> Learn more about how to create and execute a [Test Suite Collection](https://docs.katalon.com/katalon-studio/docs/test-suite-collection.html#manage-execution-information).
 
 ### Terminate Test Suite Collection Executed In Parallel Mode
 
