@@ -59,7 +59,7 @@ In **Implicit timeout**, you can decide the timeout period that Katalon Studio w
 
 Using the **Retry** feature, you can configure when and how many times Katalon retries an execution of a Test Suite before the Test Suite finishes executing.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/retry.png" alt="retry after executing all" width=70%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/retry.png" alt="retry after executing all" width=60%>
 
 ### Retry Failed Execution Immediately
 
