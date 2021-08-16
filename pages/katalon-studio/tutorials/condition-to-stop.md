@@ -115,11 +115,23 @@ In this section, we outline an example execution of a test suite with this param
 
 Given that you have a test suite that has 6 test cases.
 
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/Test%20suite.png" alt="Test Suites" width="40%">
+
 You want to stop the test suite after 4 test failures and the maximum number of failures set to 4.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/terminate.png" alt="command builder" width="70%">
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/execution%20log%20UC%201.png" alt="execution log" width="70%">
 
 The test suite is terminated once the number of failures becomes 4. The execution ends, and the rest test cases do not run.
 
-Katalon Studio generates a report in JUnit, HTML, PDF, and CSV format. The report does not show information for test cases that were not run. See also [Test Suite and Test Suite Collection Reports](https://docs.katalon.com/katalon-studio/docs/test-suite-report.html#test-suite-report).
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/log.png" width="70%" alt="info">
+
+Katalon Studio generates a report in JUnit, HTML, PDF, and CSV format. The report does not show information for test cases that were not run.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/report%20in%20KS%20UC%201.png" width="100%" alt="report in Katalon Studio">
+
+See also [Test Suite and Test Suite Collection Reports](https://docs.katalon.com/katalon-studio/docs/test-suite-report.html#test-suite-report).
 
 ### Terminate Test Suite Collection Executed In Sequential Mode
 
