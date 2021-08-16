@@ -85,7 +85,7 @@ You can configure the desired number of retries for Failed Test Cases. Test Case
    If the test result pattern fails intermittently, this test is likely to be flaky.
    A flaky test is a test that occasionally fails but finally passes if you attempt it enough times. With the **Retry Failed Execution Immediately** function, you can detect flaky test cases and figure out the problem of the test.
    
-### Consolidate Reports 
+   **Consolidate Reports**
    
    >**Requirements**:
    >
