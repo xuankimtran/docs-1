@@ -4,14 +4,14 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/terminate-execution-conditionally.html
 description: "This article provides the concept of terminating execution conditionally and the tutorial on common use cases."
 ---
-In this article, you will learn how to terminate an automation execution by configuring a maximum number of test failures (T is the failure threshold value), with examples using common use cases.
+In this article, you will learn how to terminate an automation execution by configuring a maximum number of test failures in manual view or via the command-line option (T is the failure threshold value), with examples using common use cases.
 
 >**Requirements**
 >
 >- Katalon Studio **version 8.1.0 onwards**.
 >- A Katalon Runtime Engine License. See [Katalon licensing](https://docs.katalon.com/katalon-studio/docs/license.html).
 
-From version 8.1.0 onwards, you can terminate an execution after T test failures number. Reaching the threshold value immediately stops the entire test run. You can set this condition via the command-line option. The ability to terminate execution when reaching its failure threshold value helps you save time, provide early feedback, and avoid the execution of unnecessary automation test cases.
+You can terminate an execution when reaching the failure threshold value. Consider using this parameter when a set of tests is mature and it takes hours to finish execution. Once a significant number of tests fail, they may fail for the exact cause. The ability to terminate execution when reaching its failure threshold value helps you save time, provide early feedback, and avoid the execution of unnecessary automation test cases.
 
 >**What is a test failure?**
 >
@@ -23,8 +23,6 @@ From version 8.1.0 onwards, you can terminate an execution after T test failures
 >- 1 retried test iteration fails = 1 test failure
 >
 > The number of maximum test cases failure must be greater than 0 and a natural number (1,2,3...). Otherwise, Katalon Studio will not start the execution.
-
-Consider using this parameter when a set of tests is mature and it takes hours to finish execution. Once a significant number of tests fail, they may fail for the exact cause. Hence, spending hours to finish the execution is not a wise choice as the root cause is already sufficient to take action forward.
 
 You can use this feature to:
 
