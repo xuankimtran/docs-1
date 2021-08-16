@@ -11,7 +11,7 @@ In this article, you will learn how to terminate an automation execution by conf
 >- Katalon Studio **version 8.1.0 onwards**.
 >- A Katalon Runtime Engine License. See [Katalon licensing](https://docs.katalon.com/katalon-studio/docs/license.html).
 
-You can terminate an execution when reaching the failure threshold value. Consider using this parameter when a set of tests is mature and it takes hours to finish execution. Once a significant number of tests fail, they may fail for the exact cause. This feature helps you save time, provide early feedback, and avoid the execution of unnecessary automation test cases.
+Consider using the condition to terminate execution when a set of tests is mature and takes hours to finish. Once a significant number of tests fail, they may fail for the exact cause. This feature helps you save time, provide early feedback, and avoid the execution of unnecessary automation test cases.
 
 >**What is a test failure?**
 >
