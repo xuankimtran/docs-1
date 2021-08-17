@@ -89,9 +89,6 @@ Wait for the given element to NOT be present within the given time (in seconds).
 			<p data-renderer-start-pos="2015">Optional</p>
 		</td>
 		<td colspan="1" rowspan="1" data-colwidth="477">
-			<div>
-				<div>Failure handling is currently not supported for this mobile keyword.</div>
-			</div>
 			<p data-renderer-start-pos="2021">Specify&nbsp;<a title="https://docs.katalon.com/x/qAAM" href="https://docs.katalon.com/x/qAAM" data-renderer-mark="true">failure handling</a>&nbsp;schema to determine whether the execution should be allowed to continue or stop.</p>
 		</td>
 	</tr>
@@ -137,7 +134,7 @@ Wait for the given element to NOT be present within the given time (in seconds).
 
 ## Example
 
-In this example, for 10 seconds or until true, wait for the Accessibility element to be gone, then continue testing. If the Accessibility element is still present, the keyword returns **False**. A warning message appears, and the test engine goes on with the following steps.
+In this example, Studio waits for the Accessibility element to be gone within 10 seconds then continues testing. If the Accessibility element is still present, the keyword returns **False** and throws a warning message, and goes on with the following steps.
 
 ```groovy
 //Start Application
