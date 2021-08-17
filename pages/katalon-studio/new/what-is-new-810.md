@@ -24,7 +24,7 @@ A flaky test is a test that occasionally fails but finally passes if you attempt
 
 As of being known, retrying a failed test is the first step to combat test flakiness since it will assist you in figuring out which test is problematic. Hence, in version 8.1.0, Katalon Studio applied new logic for *Retry Failed Executions Immediately Strateg*y and supports consolidating retried test case’s execution log and results into one report, which helps users easily detect flaky test cases at a glance. Wonder how it works? See [Retry Failed Execution Immediately](https://docs.katalon.com/katalon-studio/docs/test-suite.html#retry-failed-executions-immediately).
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/Gif.gif" width=90%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/Gif.gif" width=90% alt="how retry immeidately works gif">
 
 ## Terminating Execution Conditionally
 
@@ -36,13 +36,13 @@ From version 8.1.0 onwards, Katalon Studio introduced the utility to terminate e
 
 **Configure in Command Builder**
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/Cmd%20builder%20UC%201.png" width=90%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/Cmd%20builder%20UC%201.png" width=90% alt="configure number of test failures">
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/command%20UC%201.png" width=90%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/command%20UC%201.png" width=90% alt="execute with the configured number of test failures">
 
 **Execute in Console Mode**
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/execution%20log%20UC%201.png" width=90%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/execution%20log%20UC%201.png" width=90% alt="execute in console mode">
 
 ## Improving Mobile testing
 
@@ -54,7 +54,7 @@ When it comes to mobile test automation, the integration between Kobition and Ka
 
 A must-have feature of a codeless automation testing tool called Conditional waiting (a modern approach comparing with Record-and-playback tools) has proved quite reliable. In this approach, scripts do not blindly wait *x* number of seconds before continuing to the next step; instead, they wait until a condition is true and proceed as soon as possible. This drastically cuts down on the execution time of the automation suite while also preventing flaky tests. Accordingly, in version 8.1.0, Katalon Studio introduced the keyword waitForElementNotPresent for Mobile testing, allowing users to set conditional waiting when executing the test script. See [[Mobile] Wait For Element Not Present](https://docs.katalon.com/katalon-studio/docs/mobile-wait-for-element-not-present.html).
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-wait-for-element-not-present/mobile-wait-for-element-not-present.png" width=90%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-wait-for-element-not-present/mobile-wait-for-element-not-present.png" width=90% alt="add mobile wait for element not present in manual view">
 
 ## Tidbits
 
