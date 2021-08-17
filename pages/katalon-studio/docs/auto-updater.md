@@ -12,9 +12,8 @@ description:
 > **Known Issues**
 > 
 >- After installing the new version successfully, product reactivation is required.
->- Katalon Preferences are carried out to the updated version.
   
-The auto-update feature ensures Katalon users work with the most recent version of Katalon Studio, with the latest updates and enhancements. By default, Katalon Studio automatically checks for the most recent version every time the application starts.
+The auto-update feature ensures Katalon users work with the most recent version of Katalon Studio, with the latest updates and enhancements. Katalon Preferences are carried out to the updated version. By default, Katalon Studio automatically checks for the most recent version every time the application starts.
 
 >**Notes**:
 >
@@ -32,7 +31,7 @@ The auto-update feature ensures Katalon users work with the most recent version 
     | **Ignore This Update** | **New Updates** dialog will not be displayed any more if this option is selected. |
     | **Download** | New version will be downloaded immediately. |
     
-- If you select the **Download** option, Katalon Studio starts downloading the new version. You can observe this progress in the **Job progress** sidebar. You can also stop downloading anytime by clicking **Cancel**.
+- If you select the **Download** option, Katalon Studio starts downloading the new version. Meanwhile, you can observe the **Job progress** bar located at the bottom right screen corner. You can also stop downloading anytime by clicking **Cancel**.
     
     > Please note that it might take some time to complete the download, depending on your network connection.
     
