@@ -67,8 +67,6 @@ For test suites marked **Incomplete** or **Not started yet**, Katalon Studio aut
 
 Test suites marked **Incomplete** or **Not started yet** and the attachments of the test suite execution cannot be uploaded to 3rd-party tools (qTest, JIRA, Slack, Azure DevOps Test Plans, TestRail).
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/TestOps%20report%202.png" alt="TestOps report" width="100%">
-
 ## Troubleshooting
 
 When a test suite or test suite collection is terminated, you can find the test suite or test suite collection reference ID and the maximum number of test failures in the execution log.
