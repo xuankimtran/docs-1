@@ -63,7 +63,7 @@ Using the **Retry** feature, you can configure when and how many times Katalon r
 
 ### Retry Failed Execution Immediately
 
-By default, each Test Case is run only one time in a Test Suite execution. Suppose you want to rerun a failed Test Case several times to identify flaky tests before executing the next ones. You can set the desired number of retry times in **Retry Failed Execution Immediately**. The failed test case will be rerun immediately until they pass or all retries are used up. If all rerun attempts fail, Katalon Studio marks that Test Case as **Failed** and proceeds with the rests in the Test Suite.
+By default, each Test Case is run only one time in a Test Suite execution. Suppose you want to rerun failed Test Cases several times to identify flaky tests before executing the next ones. You can set the desired number of retry times in **Retry Failed Execution Immediately**. The failed test case will be rerun immediately until they pass or all retries are used up. If all rerun attempts fail, Katalon Studio marks that Test Case as **Failed** and proceeds with the rests in the Test Suite.
 
    >**Requirements**
    >
@@ -90,7 +90,7 @@ By default, each Test Case is run only one time in a Test Suite execution. Suppo
 
    - Execute the Test Suite with a Retry limit of 2:
 
-      When we set the retry limit to 2, five-Test Cases passed. Test Cases 3 and 5 failed at the main run and first rerun but passed at the second try. 
+      When we set the retry limit to 2, five Test Cases passed. Test Cases 3 and 5 failed at the main run and first rerun but passed at the second try. 
 
       Since Test Cases 3 and 5 did not succeed on the first try but still succeed after two tries, their result pattern is intermittent. This is a clear sign of test flakiness and can be further investigated.
 
