@@ -23,9 +23,9 @@ description: Release notes 8.x
 * [Kobiton Integration] Introduced custom remote server and device name functionality. See [Mobile Testing with Kobiton Devices](https://docs.katalon.com/katalon-studio/docs/integrate_with_kobiton.html)
 * Added Chrome 92 compatibility.
 * Added Microsoft Edge (Chromium) 92 compatibility.
-* [Plugin] Introduced new APIs for Plugin platform. See [new APIs list](https://github.com/katalon-studio/katalon-studio-platform/blob/master/docs/turorials/apilist.md)
+* [Plugin] Introduced new APIs for the Plugin platform. See [new APIs list](https://github.com/katalon-studio/katalon-studio-platform/blob/master/docs/turorials/apilist.md)
 * Performance: Reduced time to open a Test Case with many variables.
-* [Katalon Runtime Engine] Introduced ANDROID_HOME environment variable to specify path to Android SDK root folder.
+* [Katalon Runtime Engine] Introduced the ANDROID_HOME environment variable to specify the Android SDK root folder path.
 
 ### Fixes
 
@@ -40,7 +40,7 @@ description: Release notes 8.x
     * [Mobile] An issue of displaying device ID instead of device name in the Progress bar.
     * [Mobile] An incorrect UI thrown when opening Object from the script.
     * Clarified warning message for when broken Test Object could not be moved.
-    * Options in "Retry after executing all" were disable when generating command.
+    * Options in "Retry after executing all" were disabled when generating command.
     * Broken UI in the Execution Information.
 * Fixed Report issues:
     * An incorrect test status thrown when finish executing in the BDD Report.
@@ -62,7 +62,7 @@ description: Release notes 8.x
 * Bug: An issue of deleting script when using customized keywords with incorrect values.
 * Bug: An issue of displaying incorrect redirect link to "Customize API method".
 * Bug: Could not link an existing Window Object to Window built-in keyword.
-* Bug: Could not activate Katalon Studio by provding email with extra spacing.
+* Bug: Could not activate Katalon Studio by providing email with extra spacing.
 * Bug: Could not display test steps after recording.
 * Bug: Browser-based recorder could not record videos for the second test case if reusing an open browser.
 * Bug: Explorer Configuration in Project Settings was not working as intended.
