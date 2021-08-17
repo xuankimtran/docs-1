@@ -63,7 +63,7 @@ Using the **Retry** feature, you can configure when and how many times Katalon r
 
 ### Retry Failed Execution Immediately
 
-By default, each Test Case is run only one time in a Test Suite execution. Suppose you want to rerun a failed Test Case several times to identify flaky before executing the next ones. You can set the desired number of retry times in **Retry Failed Execution Immediately**. The failed test case will be rerun immediately until they pass or all retries are used up. If all rerun attempts fail, Katalon Studio marks that Test Case as **Failed** and proceeds with the rests in the Test Suite.
+By default, each Test Case is run only one time in a Test Suite execution. Suppose you want to rerun a failed Test Case several times to identify flaky tests before executing the next ones. You can set the desired number of retry times in **Retry Failed Execution Immediately**. The failed test case will be rerun immediately until they pass or all retries are used up. If all rerun attempts fail, Katalon Studio marks that Test Case as **Failed** and proceeds with the rests in the Test Suite.
 
    >**Requirements**
    >
@@ -78,9 +78,9 @@ By default, each Test Case is run only one time in a Test Suite execution. Suppo
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/ts-with-5-tc-and-retry-fail-1.png" width=65%>
 
-      You can see the Test Suite status once the Test Suite finishes executing. Because Test Case 3 fails, we open the **Result** tab and collapse Test Case 3 for investigating. It fails two times with 1 is the main run and 2 is the retry time that has been used up (one time). At this point, Katalon Studio logs its final result as Failed and continues to execute Test Case 4 and 5 with the same logic.
+      You can see the Test Suite status once the Test Suite finishes executing. Because Test Case 3 is marked as Failed, we open the **Result** tab. Then, we click on the scrolldown button of Test Case 3 to investigate. Test Case 3 is shown to have failed twice: 1st during the main run, then as a retried run. The maximum number of retried execution was set as one, so the Test Suite marked Test Case 3 as **Failed** then skipped to Test Case 4.
 
-      You can get how many Test Cases in the Test Suite were executed and their final status in the **Summary** tab. In this use case, the Test Suite has five total Test Cases, Test Cases 1, 2 and 4 pass while 3 and 5 fail.
+      You can view how many Test Cases in the Test Suite were executed and their final status in the **Summary** tab. In this use case, the Test Suite has five total Test Cases, Test Cases 1, 2 and 4 pass while 3 and 5 fail.
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/retry-usage-example-result.png" width=85%>
 
@@ -90,7 +90,7 @@ By default, each Test Case is run only one time in a Test Suite execution. Suppo
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/retry-2-times.png" width=85%>
 
-   Since Test cases 3 and 5 have the same test result pattern that fails intermittently, these test cases are likely to be flaky that need further investigation.
+   Since Test cases 3 and 5 have the same pattern of intermittent failure, these test cases are likely to be flaky tests that need further investigation.
    
    **Consolidate Reports**
 
