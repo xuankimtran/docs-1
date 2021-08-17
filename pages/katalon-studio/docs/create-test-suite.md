@@ -74,23 +74,27 @@ By default, each Test Case is run only one time in a Test Suite execution. Suppo
    
    In this example, we have a Test Suite with five Test Cases. We set **Retry Failed Execution Immediately** for one and two times. When we run the Test Suite and a test fails, Katalon Studio immediately reruns the problematic test case until it passes or the maximum number of retries is reached.
 
-   - Execute the Test Suite with one-time retry:
+   - Execute the Test Suite with a Retry limit of 1:
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/ts-with-5-tc-and-retry-fail-1.png" width=65%>
 
-      You can see the Test Suite status once the Test Suite finishes executing. Because Test Case 3 is marked as Failed, we open the **Result** tab. Then, we click on the scrolldown button of Test Case 3 to investigate. Test Case 3 is shown to have failed twice: 1st during the main run, then as a retried run. The maximum number of retried execution was set as one, so the Test Suite marked Test Case 3 as **Failed** then skipped to Test Case 4.
+      You can see the Test Suite status once the Test Suite finishes executing. Because Test Case 3 is marked as **Failed**, we open the **Result** tab and expand Test Case 3 to investigate. 
+      
+      Test Case 3 failed twice, once during the main run and once as a retried run. Only one retried run was allowed. 
+      
+      At this point, Katalon Studio logged its final result as **Failed** and continued to execute Test Case 4 and 5 with the same logic.
 
       You can view how many Test Cases in the Test Suite were executed and their final status in the **Summary** tab. In this use case, the Test Suite has five total Test Cases, Test Cases 1, 2 and 4 pass while 3 and 5 fail.
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/retry-usage-example-result.png" width=85%>
 
-   - Execute the Test Suite with two-time retry:
+   - Execute the Test Suite with a Retry limit of 2:
 
-      In the following screenshot, five Test Cases pass when we set the retry times = 2.
+      In the following screenshot, five Test Cases pass when we set tthe retry limit to 2.
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/retry-2-times.png" width=85%>
 
-   Since Test cases 3 and 5 have the same pattern of intermittent failure, these test cases are likely to be flaky tests that need further investigation.
+   Because Test cases 3 and 5 fail intermittently, these test cases can be considered flaky and require further investigation.
    
    **Consolidate Reports**
 
