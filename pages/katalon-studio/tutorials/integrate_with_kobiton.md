@@ -233,8 +233,8 @@ Select your preferred device and click **Ok**.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/integrate_with_kobiton/Favorite-Devices.png" alt="Kobiton Favorite Devices" width=70%>
 
-8\. Once Katalon Studio is finished, automation test execution will be uploaded to Kobiton. 
+8\. Once Katalon Studio finishes configuring, the automated test execution session will be uploaded to Kobiton.
 
-9\. To view the session, navigate to **Sessions** in Kobiton.
+You can view the session in the **Sessions** section in Kobiton.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/integrate_with_kobiton/Sessions.png" alt="automation test execution uploaded to Kobiton" width=100%>
