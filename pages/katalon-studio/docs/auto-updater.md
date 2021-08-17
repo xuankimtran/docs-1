@@ -12,7 +12,7 @@ description:
 > **Known Issues**
 > 
 >- After installing the new version successfully, product reactivation is required.
->- Previous configurations of the prior version are not carried into the updated version.
+>- Katalon Preferences are carried out to the updated version.
   
 The auto-update feature ensures Katalon users work with the most recent version of Katalon Studio, with the latest updates and enhancements. By default, Katalon Studio automatically checks for the most recent version every time the application starts.
 
