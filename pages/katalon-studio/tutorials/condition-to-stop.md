@@ -4,7 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/terminate-execution-conditionally.html
 description: "This article provides the concept of terminating execution conditionally and the tutorial on common use cases."
 ---
-In this article, you will learn how to terminate an automation execution by configuring a maximum number of test failures in manual view or via the command-line option, with examples using common use cases.
+In this article, you will learn how to terminate a test execution automatically by configuring a maximum number of test failures in manual view or via the command-line option, with examples using common use cases.
 
 >**What is a test failure?**
 >
@@ -22,7 +22,7 @@ In this article, you will learn how to terminate an automation execution by conf
 >- Katalon Studio **version 8.1.0 onwards**.
 >- A Katalon Runtime Engine License. See [Katalon licensing](https://docs.katalon.com/katalon-studio/docs/license.html).
 
-Consider using the condition to terminate execution when a set of tests is mature and takes hours to finish. Once a significant number of tests fail, they may fail for the exact cause. This feature helps you save time, provide early feedback, and avoid the execution of unnecessary automation test cases.
+Consider using the condition to terminate execution when a set of tests is mature and takes hours to finish. Once a significant number of tests fail, they may fail for the same cause. This feature helps you save time, provide early feedback, and avoid the execution of unnecessary test cases.
 
 You can use this feature to:
 
@@ -73,7 +73,7 @@ See [Katalonc command-line option](https://docs.katalon.com/katalon-studio/docs/
 
 When a test suite has at least 1 test case **Not Run**, the final status of that test suite is marked **Incomplete**.
 
-For test suites marked **Incomplete** or **Not started yet**, Katalon Studio automatically sends attachments to TestOps after finishes executing. The reports include the execution logs and JUnit Reports.
+For test suites marked **Incomplete** or **Not started yet**, Katalon Studio automatically sends attachments to TestOps after execution ends. The reports include the execution logs and JUnit Reports.
 
 Test suites marked **Incomplete** or **Not started yet** and the attachments of the test suite execution cannot be uploaded to 3rd-party tools (qTest, JIRA, Slack, Azure DevOps Test Plans, TestRail).
 
