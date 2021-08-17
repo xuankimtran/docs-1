@@ -18,14 +18,14 @@ description: Release notes 8.x
 
 ### Enhancements
 
-* [Katalon Studio Enterprise] Supported tackling test flackiness with Retry Failed Executions Immediately and Consolidated execution reports. See [Retry Failed Execution Immediately](https://docs.katalon.com/katalon-studio/docs/test-suite.html#retry-failed-executions-immediately).
-* [Azure DevOps Integration] Supported submitting Release Information together with Test Run to Azure DevOps. See [Integration with Azure DevOps Test Plans](https://docs.katalon.com/katalon-studio/docs/azure-devops-test-plans.html#configure-the-integration)
+* [Katalon Studio Enterprise] Improved the Retry Failed Executions Immediately feature and Introduced the consolidated execution reports to address test flakiness. See [Retry Failed Execution Immediately](https://docs.katalon.com/katalon-studio/docs/test-suite.html#retry-failed-executions-immediately).
+* [Azure DevOps Integration] Introduced an option to submit Release Information together with Test Run to Azure DevOps. See [Integration with Azure DevOps Test Plans](https://docs.katalon.com/katalon-studio/docs/azure-devops-test-plans.html#configure-the-integration)
 * [Kobiton Integration] Introduced custom remote server and device name functionality. See [Mobile Testing with Kobiton Devices
 ](https://docs.katalon.com/katalon-studio/docs/integrate_with_kobiton.html)
-* Supported Chrome 92 compatibility.
-* Supported Microsoft Edge (Chromium) 92 compatibility.
+* Added Chrome 92 compatibility.
+* Added Microsoft Edge (Chromium) 92 compatibility.
 * [Plugin] Introduced new APIs for Plugin platform. See [new APIs list](https://github.com/katalon-studio/katalon-studio-platform/blob/master/docs/turorials/apilist.md)
-* Reduced time on opening a Test Case with many variables.
+* Performance: Reduced time to open a Test Case with many variables.
 * [Katalon Runtime Engine] Supported using custom Android SDK location in environment variables.
 
 ### Fixes
@@ -37,8 +37,9 @@ description: Release notes 8.x
     * [macOS Big Sur] Could not update Log Viewer when the execution items were changed on the Job Progress.
     * Fixed labels and added referral link in the Library Management.
     * [Mobile Object Spy] Fixed typo error "Application ID".
+    * Clarified warning message for when broken Test Object could not be moved.
 * Bug: [Slack Integration] Failed to connect to Slack.
-* Bug: [TestRail Integration] Solved issues causing with Project Settings.
+* Bug: [TestRail Integration] Solved issues with Project Settings.
 * Bug: [Katalon Studio Enterprise] Could not select Run and Debug from here in specific cases.
 * Bug: [Katalon Runtime Engine] Failed to replace excluded built-in libraries with external libraries in CLI/CI execution.
 * Bug: [Cucumber] Executed steps were not displaying correctly in the Console log.
@@ -48,7 +49,6 @@ description: Release notes 8.x
 * Bug: An error message thrown when continuing to record scripts with an existing test case returned error messages incorrectly.
 * Bug: Browser-based recorder could not record videos for the second test case if reusing an open browser.
 * Bug: Explorer Configuration in Project Settings was not working as intended.
-* Bug: Clarified warning message for when broken Test Object could not be moved.
 
 ## Version 8.0.5
 
