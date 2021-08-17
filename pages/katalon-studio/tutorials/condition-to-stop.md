@@ -6,6 +6,16 @@ description: "This article provides the concept of terminating execution conditi
 ---
 In this article, you will learn how to terminate a test execution automatically by configuring a maximum number of test failures in manual view or via the command-line option, with examples using common use cases.
 
+>**Requirements**
+>
+>- Katalon Studio **version 8.1.0 onwards**.
+>- Katalon Runtime Engine **version 8.1.0 onwards**.
+>- A Katalon Runtime Engine License. See [Katalon licensing](https://docs.katalon.com/katalon-studio/docs/license.html).
+
+Consider using the condition to terminate execution when a set of tests is mature and takes hours to finish. Once a significant number of tests fail, they may fail for the same cause. This feature helps you save time, provide early feedback, and avoid the execution of unnecessary test cases.
+
+## Set a maximum number of test failures
+
 >**What is a test failure?**
 >
 >A test failure is a failed test case or test iteration in an execution.
@@ -16,26 +26,6 @@ In this article, you will learn how to terminate a test execution automatically 
 >- 1 retried test iteration fails = 1 test failure
 >
 > The number of maximum test cases failure must be greater than 0 and a natural number (1,2,3...). Otherwise, Katalon Studio will not start the execution.
-
->**Requirements**
->
->- Katalon Studio **version 8.1.0 onwards**.
->- A Katalon Runtime Engine License. See [Katalon licensing](https://docs.katalon.com/katalon-studio/docs/license.html).
-
-Consider using the condition to terminate execution when a set of tests is mature and takes hours to finish. Once a significant number of tests fail, they may fail for the same cause. This feature helps you save time, provide early feedback, and avoid the execution of unnecessary test cases.
-
-You can use this feature to:
-
-- Terminate a test suite.
- 	- Terminate a test suite with configured Retry after executing all.
-	- Terminate a test suite with configured Retry failed executions immediately.
-	- Terminate a test suite with Data-driven testing.
-	- Terminate a test suite with Data-driven testing and configured Retry after executing all.
-	- Terminate a test suite with Data-driven testing with configured Retry failed executions immediately.
-- Terminate a test suite collection executed in sequential mode.
-- Terminate a test suite collection executed in parallel mode.
-
-## Set a maximum number of test failures
 
 ### With Command Builder
 
