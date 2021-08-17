@@ -53,13 +53,13 @@ You can use this feature to:
 	>
 	> The maximum test cases failure must be greater than 0 and a natural number (1,2,3...). Otherwise, Katalon Studio will not start the execution.
 
- 3. After you are done with the configuration, click **Generate command**. A command contains the `-maxFailedTests` option is generated.
+ 3. After you are done with the configuration, click **Generate command**. A command containing the `-maxFailedTests` option is generated.
  
 	Copy the generated command to use in Console mode.
 
 	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/generate%20command%201.png" width=70%>
 
-	You can also run execution with the property file. To save the property file in the **Execution Configurations** dialog, click **Generate property file > Save**.
+	You can also execute the test with the property file. To save the property file in the **Execution Configurations** dialog, click **Generate property file > Save**.
 
 ### With Command-line option
 
@@ -71,21 +71,21 @@ See [Katalonc command-line option](https://docs.katalon.com/katalon-studio/docs/
 
 ## Reporting Incomplete Test Suite
 
-When a test suite has at least 01 test case **Not Run**, the final status of that test suite is marked **Incomplete**.
+When a test suite has at least 1 test case **Not Run**, the final status of that test suite is marked **Incomplete**.
 
-Katalon Studio sends **Incomplete** or **Not started yet** test suite and the attachments of the test suite execution, including execution log and JUnit Report to TestOps.
+For test suites marked **Incomplete** or **Not started yet**, Katalon Studio automatically sends attachments to TestOps after finishes executing. The reports include the execution logs and JUnit Reports.
 
-However, **Incomplete** or **Not started yet** test suite and the attachments of the test suite execution are not uploaded to 3rd-party tools (qTest, JIRA, Slack, Azure DevOps Test Plans, TestRail).
+Test suites marked **Incomplete** or **Not started yet** and the attachments of the test suite execution cannot be uploaded to 3rd-party tools (qTest, JIRA, Slack, Azure DevOps Test Plans, TestRail).
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/TestOps%20report%202.png" alt="TestOps report" width="100%">
 
 ## Troubleshooting
 
-When a test suite or test suite collection is terminated, in the execution log, Katalon Studio prints out information about the test suite or test suite collection reference ID and the maximum number of test failures allowed.
+When a test suite or test suite collection is terminated, you can find the test suite or test suite collection reference ID and the maximum number of test failures in the execution log.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/Execution%20log.png" alt="execution log" width=100%>
 
-This applies to either sequential or parallel mode execution. You can check which and why the test execution is terminated. You can also see the report in the manual view of Katalon Studio. See also [View and Customize Execution Log](https://docs.katalon.com/katalon-studio/docs/working-with-execution-log.html).
+This applies to either sequential or parallel mode execution. You can check which test execution was terminated and why. You can also see the report in the manual view of Katalon Studio. See also [View and Customize Execution Log](https://docs.katalon.com/katalon-studio/docs/working-with-execution-log.html).
 
 ## Common Use Cases
 
