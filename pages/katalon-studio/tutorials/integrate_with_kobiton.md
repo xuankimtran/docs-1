@@ -233,6 +233,8 @@ Select your preferred device and click **Ok**.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/integrate_with_kobiton/Favorite-Devices.png" alt="Kobiton Favorite Devices" width=70%>
 
+> To dynamically change Kobiton devices in console mode, see [Integration Options](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#integration-options).
+
 8\. Once Katalon Studio finishes configuring, the automated test execution session will be uploaded to Kobiton.
 
 You can view the session in the **Sessions** section in Kobiton.
