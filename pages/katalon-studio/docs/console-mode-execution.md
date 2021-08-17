@@ -21,7 +21,7 @@ You can execute an automation test without launching Katalon Studio by using com
 >
 > Katalon Studio only supports **Chrome, Firefox, and Remote** options for console mode execution using the **Linux** version.
 >
-> From version **7.9** onwards, you can change default JRE 8 to higher versions in console mode. [Learn more](https://docs.katalon.com/katalon-studio/docs/change-default-JRE-8-to-higher-versions.html)
+> From version 7.9 onwards, you can change default JRE 8 to higher versions in console mode. [Learn more](https://docs.katalon.com/katalon-studio/docs/change-default-JRE-8-to-higher-versions.html)
 
 
 ## Execute Katalon Studio in console mode
@@ -114,7 +114,7 @@ Here's the list of options supported for the `katalonc` commands for Katalon Stu
          <td>-browserType=&lt;browser&gt;</td>
          <td>
             <p>Specify the browser type used for test suite execution.</p>
-            <p>From <strong>version 7.6+</strong>, you can use this option in Test Suite Collection execution. The specified browser is used for all test suites in that collection. </p>
+            <p>From version 7.6+, you can use this option in Test Suite Collection execution. The specified browser is used for all test suites in that collection. </p>
             <p>The following browsers are supported in Katalon:</p>
             <ul>
                <li>Firefox</li>
@@ -151,13 +151,13 @@ Here's the list of options supported for the `katalonc` commands for Katalon Stu
       </tr>
       <tr>
          <td>-retryFailedTestCasesTestData=&lt;true,false&gt;</td>
-         <td>Retry failed test data execution in test suite (this parameter overrides setting in test suite file). There are 2 options: true if you want to run failed test data execution; otherwise, false (available from version <strong>7.5</strong> and only for Katalon Studio Enterprise users).</td>
+         <td>Retry failed test data execution in test suite (this parameter overrides setting in test suite file). There are 2 options: true if you want to run failed test data execution; otherwise, false (available from version 7.5 and only for Katalon Studio Enterprise users).</td>
          <td>N</td>
       </tr>
       <tr>
          <td>-retryStrategy=&lt;allExecutions,failedExecutions,immediately&gt;</td>
          <td>
-         <p>This option is supported in version <strong>7.6 onwards</strong>. Specify which execution to be retried (this parameter overrides setting in test suite file):</p>
+         <p>This option is supported in version 7.6 onwards. Specify which execution to be retried (this parameter overrides setting in test suite file):</p>
           <ul>
                <li><strong>allExecutions</strong>: Retry all executions when the Test Suite fails</li>
                <li><strong>failedExecutions</strong>: Retry only failed executions when the Test Suite fails</li>
@@ -175,7 +175,7 @@ Here's the list of options supported for the `katalonc` commands for Katalon Stu
       <td>-maxFailedTests=&lt;T&gt;</td>
 			<td>
 				<ul>
-					<li><span data-preserver-spaces="true">From version 8.1.0, you can terminate a test suite/ test suite collection execution based on the number of test failures. (Only for Katalon Studio Enterprise users)</span></li>
+					<li><span data-preserver-spaces="true">From version 8.1.0, you can terminate a test suite/ test suite collection execution based on the number of test failures.</span></li>
 					<li><span data-preserver-spaces="true">Set &lt;T&gt; as the maximum number of total test failures allowed in the execution. Reaching &lt;T&gt; terminates the test execution.</span></li>
 					<li><span data-preserver-spaces="true">A test failure is counted when any of these type of tests fails: test case, retried test case, test iteration, or retried test iteration.</span></li>
 				</ul>
@@ -211,7 +211,7 @@ Here's the list of options supported for the `katalonc` commands for Katalon Stu
          <td>-executionProfile</td>
          <td>
             <p>Specify the execution profile that a test suite executes with</p>
-            <p>From <strong>version 7.6+</strong>, you can use this option in Test Suite Collection execution. The specified execution profile is applied to all test suites in that collection.</p>
+            <p>From version 7.6+, you can use this option in Test Suite Collection execution. The specified execution profile is applied to all test suites in that collection.</p>
          </td>
          <td>N</td>
       </tr>
@@ -236,7 +236,7 @@ Here's the list of options supported for the `katalonc` commands for Katalon Stu
       <tr>
          <td>-testOpsBuildId</td>
          <td>
-         <p>From version <strong>8.0.0</strong>, you can specify the build ID to update Test Suite/Test Suite Collection report.</p>
+         <p>From version 8.0.0, you can specify the build ID to update Test Suite/Test Suite Collection report.</p>
          <p>Example:</p>
          <p><code class="java plain"> -testOpsBuildId=24 </code></p>
          </td>
@@ -245,7 +245,7 @@ Here's the list of options supported for the `katalonc` commands for Katalon Stu
       <tr>
          <td>-testSuiteCollectionQuery</td>
          <td>
-         <p>From version <strong>8.0.0</strong>, you can enable or disable Test Suite(s) in Test Suite Collection.</p>
+         <p>From version 8.0.0, you can enable or disable Test Suite(s) in Test Suite Collection.</p>
          <p>Example:</p>
          <p><code class="java plain"> -testSuiteCollectionQuery=”indexes=(1,3)” </code></p>
          </td>
@@ -253,7 +253,7 @@ Here's the list of options supported for the `katalonc` commands for Katalon Stu
        <tr>
          <td>-maxResponseSize</td>
          <td>
-         <p>Override the maximum response size in project setting (available from version <strong>7.6</strong>). <a href="https://docs.katalon.com/katalon-studio/docs/execution-settings.html#web-service-settings">Learn more about Web Service Settings.</a></p>
+         <p>Override the maximum response size in project setting (available from version 7.6). <a href="https://docs.katalon.com/katalon-studio/docs/execution-settings.html#web-service-settings">Learn more about Web Service Settings.</a></p>
          <p>Example:</p>
          <p><code class="java plain"> -maxResponseSize=400</code></p>
          </td>
@@ -264,7 +264,7 @@ Here's the list of options supported for the `katalonc` commands for Katalon Stu
          <p>-licenseRelease</p>
          <p>-orgID=&lt;organization's id&gt;</p>
          <td>
-         <p>From version <strong>8.0.0</strong>, you can release the previous execution session before checking license.</p>
+         <p>From version 8.0.0, you can release the previous execution session before checking license.</p>
          <p>Example:</p>
          <p><code class="java plain"> -licenseRelease=true </code></p>
          <p><code class="java plain"> -orgID=89151</code></p>
@@ -299,11 +299,11 @@ Here's the list of options supported for the `katalonc` commands for Katalon Stu
 
 ## Proxy Options
 
->In **version 7.5+**, there are two types of proxy configurations: Authentication and System proxies. Refer to [this document](https://docs.katalon.com/katalon-studio/docs/proxy-preferences.html) for further details.
+>In version 7.5+, there are two types of proxy configurations: Authentication and System proxies. Refer to [this document](https://docs.katalon.com/katalon-studio/docs/proxy-preferences.html) for further details.
 >
-> In **version 7.2+**, you can exclude proxy in **manual** configuration.
+> In version 7.2+, you can exclude proxy in **manual** configuration.
 >
-> In **version 7.0+**, you can pass proxy details via a request object in Web Service testing. Refer to [this document](https://docs.katalon.com/katalon-studio/docs/proxy-preferences.html#pass-proxy-details-through-the-script) for further details.
+> In version 7.0+, you can pass proxy details via a request object in Web Service testing. Refer to [this document](https://docs.katalon.com/katalon-studio/docs/proxy-preferences.html#pass-proxy-details-through-the-script) for further details.
 
 These proxy options must be used with `--config` parameter e.g. `--config -proxy.auth.option=MANUAL_CONFIG`.
 
@@ -517,7 +517,7 @@ katalonc -noSplash -runMode=console -projectPath="C:\Users\Katalon Studio\Projec
       <tr>
          <td>--info -qTestBuildNumber="text" --qTestBuildURL="text"</td>
          <td>
-         <p>Introduced in version <strong>7.8.5</strong>. Pass the build's number and URL to Test Run properties on qTest.</p>
+         <p>Introduced in version 7.8.5. Pass the build's number and URL to Test Run properties on qTest.</p>
          <p>Example:</p>
          <p><code class="java plain"> Example: --info -qTestBuildNumber="Build 1" -qTestBuildURL="http://192.168.35.52:8080/job/katalon-demo/job/master/179/"</code></p>
          </td>
@@ -526,20 +526,20 @@ katalonc -noSplash -runMode=console -projectPath="C:\Users\Katalon Studio\Projec
       <tr>
          <td>-adoPlanId=&lt;testplan id&gt;</td>
          <td>
-         <p>ID of the test plan used for submitting test run(s)(available from version <strong>8.0.0</strong>).</p>
+         <p>ID of the test plan used for submitting test run(s)(available from version 8.0.0).</p>
          </td>
          <td>N</td>
       <tr>
          <td>-adoTestRunName="text"</td>
          <td>
-         <p>From version <strong>8.0.0</strong>, you can create test run(s) on ADO with the specified name.</p>
+         <p>From version 8.0.0, you can create test run(s) on ADO with the specified name.</p>
          </td>
          <td>N</td>
       </tr>
       <tr>
 	<td>--info -adoDefinitionID=&lt;DefinitionID&gt;</td>
 	<td>
-	<p>From version <strong>8.0.0</strong>, you can get the latest completed Build ID of the specified Definition ID and pass it to Test Run properties on ADO.</p>
+	<p>From version 8.0.0, you can get the latest completed Build ID of the specified Definition ID and pass it to Test Run properties on ADO.</p>
 	</td>
 	<td>N</td>
       </tr>
@@ -576,26 +576,26 @@ We recommend using the Command Builder to generate commands quickly and precisel
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/command-builder-77.png" alt="Generate Command for Console Mode" width=70%>
 
-  * **Test Suite**: The saved location of the Test Suite or Test Suite Collection to be executed.
+  * **Test Suite**: The Test Suite or Test Suite Collection to be executed.
   * **Executive Platform**:
    
       * **Run with** and **Profile**: Testing environment and execution profile of the execution. 
      
          <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/environment.png" alt="select environment" width=70%>
 
-      * **Override the execution profile and environment of all test suites**: Check if you want the specified `-BrowserType` and `-ExecutionProfile` in the command to override the browser type and execution profile of all test suites in the collection (available from version **7.6 onwards**)
+      * **Override the execution profile and environment of all test suites**: Check if you want the specified `-BrowserType` and `-ExecutionProfile` in the command to override the browser type and execution profile of all test suites in the collection (available from version 7.6 onwards)
 
    * **Authentication**: 
    
      * **API Keys**: API Keys are used for representing a user's credentials. The command-line options of API Key, including -apiKey=<Your_API_Key> and -apikey=<Your_API_Key> are both accepted.[Learn more](https://docs.katalon.com/katalon-studio/docs/katalon-apikey-70.html).
-     * From **version 7.7 onwards**, if you belong to more than one Organization subscribing to RE licenses, you can choose which one to validate your license usage. Katalon retrieves and displays the organizations binding to your Katalon account and having RE licenses. Once selected, the Organization ID is passed to the generated command (`-orgID=<Katalon_OrgID>`).
+     * From version 7.7 onwards, if you belong to more than one Organization subscribing to RE licenses, you can choose which one to validate your license usage. Katalon retrieves and displays the organizations binding to your Katalon account and having RE licenses. Once selected, the Organization ID is passed to the generated command (`-orgID=<Katalon_OrgID>`).
 
    * **Execution Configurations** (Or **Other Options** in versions before 7.7).
    
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/condition%20to%20stop%20-%202.png" alt="execution configurations" width=70%>
 
-      From **version 8.1.0 onwards**, you can terminate execution after T test failures (T is the failure threshold value) with the option: **Terminate the execution once the total number of test failures reaches the input threshold**. See also: [Terminate Execution Conditionally](https://docs.katalon.com/katalon-studio/docs/terminate-execution-conditionally.html).
-   * **Katalon TestOps**: Override the Project ID in Katalon TestOps (available from **version 7.8** onwards).
+      From version 8.1.0 onwards, you can terminate execution after T test failures (T is the failure threshold value) with the option: **Terminate the execution once the total number of test failures reaches the input threshold**. See also: [Terminate Execution Conditionally](https://docs.katalon.com/katalon-studio/docs/terminate-execution-conditionally.html).
+   * **Katalon TestOps**: Override the Project ID in Katalon TestOps (available from version 7.8 onwards).
 
        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/override-prj-id.png" alt="Katalon TestOps" width=70%>
 
