@@ -90,11 +90,11 @@ By default, each Test Case is run only one time in a Test Suite execution. Suppo
 
    - Execute the Test Suite with a Retry limit of 2:
 
-      In the following screenshot, five Test Cases pass when we set the retry limit to 2.
+      In the following screenshot, five Test Cases pass when we set the retry limit to 2. 
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/retry-2-times.png" width=85%>
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/retry-2-times-result.png" width=85%>
 
-   Because Test cases 3 and 5 fail intermittently, these test cases can be considered flaky and require further investigation.
+   Since Test Cases 3 and 5 did not succeed on the first try, but still succeed after 2 number of tries, their result pattern is intermittent. This is a clear sign of test flakiness and can be further investigated.
    
    **Consolidate Reports**
 
