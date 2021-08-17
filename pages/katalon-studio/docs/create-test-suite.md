@@ -3,7 +3,6 @@ title: "Test Suite"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/create-test-suite.html 
 redirect_from:
-    - "/katalon-studio/docs/create-test-suite/"
     - "/katalon-studio/docs/design-a-test-suite.html"
     - "/display/KD/Design+a+Test+Suite/"
     - "/display/KD/Design%20a%20Test%20Suite/"
@@ -65,10 +64,19 @@ Using the **Retry** feature, you can configure when and how many times Katalon r
 
 By default, each Test Case is run only one time in a Test Suite execution. Suppose you want to rerun failed Test Cases several times to identify flaky tests before executing the next ones. You can set the desired number of retry times in **Retry Failed Execution Immediately**. The failed test case will be rerun immediately until they pass or all retries are used up. If all rerun attempts fail, Katalon Studio marks that Test Case as **Failed** and proceeds with the rest in the Test Suite.
 
-   >**Requirements**
+   >**Requirement**
    >
    > - An active Katalon Studio Enterprise license
-   > - A Test Suite
+
+   **Consolidate Reports**
+
+   > **Requirements**
+   >
+   > - Katalon Studio version 8.1.0 onwards
+   > 
+   > - Only applicable to the **Retry Failed Execution Immediately** functionality
+
+   From version 8.1.0 onwards, Katalon Studio automatically consolidates reports in JUnit, HTML, PDF, and CSV format with one final test result for a Test Case. Browser-based or window-based videos are recorded for runs and reruns of a Test Case.
 
    **Usage example**
    
@@ -95,19 +103,6 @@ By default, each Test Case is run only one time in a Test Suite execution. Suppo
       Since Test Cases 3 and 5 did not succeed on the first try but still succeed after two tries, their result pattern is intermittent. This is a clear sign of test flakiness and can be further investigated.
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/retry-2-times-result.png" width=85%>
-
-   **Consolidate Reports**
-
-   > **Requirements**
-   >
-   > - Katalon Studio version 8.1.0 onwards
-   > 
-   > - Only applicable to the **Retry Failed Execution Immediately** functionality
-
-   From version 8.1.0 onwards, Katalon Studio automatically consolidates reports in JUnit, HTML, PDF, and CSV format with one final test result for a Test Case. Browser-based or window-based videos are recorded for runs and reruns of a Test Case.
-
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/reports.png" width=80%>
-
 
 ### Retry After Executing All
 
