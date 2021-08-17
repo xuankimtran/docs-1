@@ -72,7 +72,7 @@ By default, each Test Case is run only one time in a Test Suite execution. Suppo
 
    **Usage example**
    
-   In this example, we have a Test Suite with five Test Cases. We set **Retry Failed Execution Immediately** for one and two time. When we run the Test Suite, and a test fails, Katalon Studio immediately reruns the problematic test case until it passes or the maximum number of retries is reached.
+   In this example, we have a Test Suite with five Test Cases. We set **Retry Failed Execution Immediately** for one and two times. When we run the Test Suite and a test fails, Katalon Studio immediately reruns the problematic test case until it passes or the maximum number of retries is reached.
 
    - Execute the Test Suite with one-time retry:
 
