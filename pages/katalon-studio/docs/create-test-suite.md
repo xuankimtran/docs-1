@@ -78,25 +78,25 @@ By default, each Test Case is run only one time in a Test Suite execution. Suppo
 
 - **Example 1**: Execute the Test Suite with a Retry limit of 1:
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/ts-with-5-tc-and-retry-fail-1.png" width=65%>
+  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/ts-with-5-tc-and-retry-fail-1.png" width=65%>
 
-      You can see the Test Suite status once the Test Suite finishes executing. Because Test Case 3 is marked as **Failed**, we open the **Result** tab and expand Test Case 3 to investigate. 
+   You can see the Test Suite status once the Test Suite finishes executing. Because Test Case 3 is marked as **Failed**, we open the **Result** tab and expand Test Case 3 to investigate. 
       
-      Test Case 3 failed twice, once during the main run and once as a retried run. Only one retried run was allowed. 
+   Test Case 3 failed twice, once during the main run and once as a retried run. Only one retried run was allowed. 
       
-      At this point, Katalon Studio logged its final result as **Failed** and continued to execute Test Case 4 and 5 with the same logic.
+   At this point, Katalon Studio logged its final result as **Failed** and continued to execute Test Case 4 and 5 with the same logic.
 
-      You can view how many Test Cases in the Test Suite were executed and their final status in the **Summary** tab. In this use case, the Test Suite has five total Test Cases, Test Cases 1, 2 and 4 pass while 3 and 5 fail.
+   You can view how many Test Cases in the Test Suite were executed and their final status in the **Summary** tab. In this use case, the Test Suite has five total Test Cases, Test Cases 1, 2 and 4 pass while 3 and 5 fail.
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/retry-usage-example-result.png" width=85%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/retry-usage-example-result.png" width=85%>
 
  - **Example 2**: Execute the Test Suite with a Retry limit of 2:
 
-      When we set the retry limit to 2, five Test Cases passed. Test Cases 3 and 5 failed at the main run and first rerun but passed at the second try. 
+   When we set the retry limit to 2, five Test Cases passed. Test Cases 3 and 5 failed at the main run and first rerun but passed at the second try. 
 
-      Since Test Cases 3 and 5 did not succeed on the first try but still succeed after two tries, their result pattern is intermittent. This is a clear sign of test flakiness and can be further investigated.
+   Since Test Cases 3 and 5 did not succeed on the first try but still succeed after two tries, their result pattern is intermittent. This is a clear sign of test flakiness and can be further investigated.
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/retry-2-times-result.png" width=85%>
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/retry-2-times-result.png" width=85%>
 
 ### Retry After Executing All
 
