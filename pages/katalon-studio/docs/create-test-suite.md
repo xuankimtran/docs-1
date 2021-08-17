@@ -76,7 +76,7 @@ By default, each Test Case is run only one time in a Test Suite execution. Suppo
 
    - Execute the Test Suite with one-time retry:
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/ts-with-5-tc-and-retry-fail-1.png" width=70%>
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/ts-with-5-tc-and-retry-fail-1.png" width=65%>
 
       You can see the Test Suite status once the Test Suite finishes executing. Because Test Case 3 fails, we open the **Result** tab and collapse Test Case 3 for investigating. It fails two times with 1 is the main run and 2 is the retry time that has been used up (one time). At this point, Katalon Studio logs its final result as Failed and continues to execute Test Case 4 and 5 with the same logic.
 
