@@ -26,7 +26,7 @@ description: Release notes 8.x
 * Added Microsoft Edge (Chromium) 92 compatibility.
 * [Plugin] Introduced new APIs for Plugin platform. See [new APIs list](https://github.com/katalon-studio/katalon-studio-platform/blob/master/docs/turorials/apilist.md)
 * Performance: Reduced time to open a Test Case with many variables.
-* [Katalon Runtime Engine] Supported using custom Android SDK location in environment variables.
+* [Katalon Runtime Engine] Introduced custom Android SDK location in environment variables.
 
 ### Fixes
 
