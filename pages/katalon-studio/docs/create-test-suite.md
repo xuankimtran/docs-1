@@ -68,21 +68,15 @@ By default, each Test Case is run only one time in a Test Suite execution. Suppo
    >
    > - An active Katalon Studio Enterprise license
 
-   **Consolidate Reports**
-
-   > **Requirements**
-   >
-   > - Katalon Studio version 8.1.0 onwards
-   > 
-   > - Only applicable to the **Retry Failed Execution Immediately** functionality
+**Consolidate Reports**
 
    From version 8.1.0 onwards, Katalon Studio automatically consolidates reports in JUnit, HTML, PDF, and CSV format with one final test result for a Test Case. Browser-based or window-based videos are recorded for runs and reruns of a Test Case.
 
-   **Usage example**
+**Usage example**
    
    In this example, we have a Test Suite with five Test Cases. We set **Retry Failed Execution Immediately** for one and two times. When we run the Test Suite and a test fails, Katalon Studio immediately reruns the problematic test case until it passes or the maximum number of retries is reached.
 
-   - Execute the Test Suite with a Retry limit of 1:
+- **Example 1**: Execute the Test Suite with a Retry limit of 1:
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/ts-with-5-tc-and-retry-fail-1.png" width=65%>
 
@@ -96,7 +90,7 @@ By default, each Test Case is run only one time in a Test Suite execution. Suppo
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/retry-usage-example-result.png" width=85%>
 
-   - Execute the Test Suite with a Retry limit of 2:
+ - **Example 2**: Execute the Test Suite with a Retry limit of 2:
 
       When we set the retry limit to 2, five Test Cases passed. Test Cases 3 and 5 failed at the main run and first rerun but passed at the second try. 
 
