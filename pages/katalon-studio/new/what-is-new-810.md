@@ -12,11 +12,9 @@ description: What's new in Katalon Studio 8.1.0?
 ---
 **August 18th, 2021**
 
-We are excited to announce Katalon Studio version 8.1.0 is now available for download from the [Katalon website](https://www.katalon.com/download/).
+We are excited to announce Katalon Studio version 8.1.0 is now available for download from the [Katalon website](https://www.katalon.com/download/). 
 
-Version 8.1.0 is a major release packed with features and enhancements aimed to INSERT VALUE PROP/MAIN THEME HERE. We significantly improved the Retry Immediately mechanism to better detect and overcome test flakiness. To lower your testing environment costs, we've also introduced a new functionality: you can now configure a maximum number of test failures to automatically end poorly performing test executions early. 
-
-Version 8.1.0 is a major release focused on improving the Retry Immediately mechanism and allowing users to stop execution based on the maximum number of test failures permitted in a single run. While the former assists users in detecting test flakiness, the latter considerably reduces the time spent waiting for the entire execution to complete, resulting in lower testing environment costs. We've also worked on a better experience in mobile testing, and enhanced integration with Azure DevOps.
+Version 8.1.0 is a major release packed with features and enhancements aimed aimed at more efficient and effective test maintenance. We focused on improving the Retry Immediately mechanism and allowing users to stop execution based on the maximum number of test failures permitted in a single run. While the former assists users in detecting test flakiness, the latter considerably reduces the time spent waiting for the entire execution to complete, resulting in lower testing environment costs. We've also worked on a better experience in mobile testing, and enhanced integration with Azure DevOps.
 
 Along with these major changes, we've also made adjustments to our UI on macOS Big Sur, as well as to Report and 3rd-party integration that you should check out. See our [Release Notes](https://docs.katalon.com/katalon-studio/new/version-8x.html) for details on the modifications made to previous versions. Read on to find out more detailed information on the new features and improvements we've prepared for you.
 
