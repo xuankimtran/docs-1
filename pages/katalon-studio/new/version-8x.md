@@ -7,9 +7,67 @@ redirect_from:
 description: Release notes 8.x
 ---
 
-## Official Release - Version 8.0.5
-
 > Download [here](https://www.katalon.com/download/).
+
+## Official Release - Version 8.1.0
+
+### New features
+
+* [Katalon Runtime Engine] Introduced an ability to terminate execution based on the maximum number of test failures allowed. See [Terminate Execution Conditionally](https://docs.katalon.com/katalon-studio/docs/terminate-execution-conditionally.html)
+* [Mobile testing] Introduced `waitForElementNotPresent`. See [[Mobile] Wait For Element Not Present](https://docs.katalon.com/katalon-studio/docs/mobile-wait-for-element-not-present.html)
+
+### Enhancements
+
+* [Katalon Studio Enterprise] Improved the Retry Failed Executions Immediately feature and Introduced the consolidated execution reports to address test flakiness. See [Retry Failed Execution Immediately](https://docs.katalon.com/katalon-studio/docs/test-suite.html#retry-failed-executions-immediately).
+* [Azure DevOps Integration] Introduced an option to submit Release Information together with Test Run to Azure DevOps. See [Integration with Azure DevOps Test Plans](https://docs.katalon.com/katalon-studio/docs/azure-devops-test-plans.html#configure-the-integration)
+* [Kobiton Integration] Introduced custom remote server and device name functionality. See [Mobile Testing with Kobiton Devices](https://docs.katalon.com/katalon-studio/docs/integrate_with_kobiton.html)
+* Added Chrome 92 compatibility.
+* Added Microsoft Edge (Chromium) 92 compatibility.
+* [Plugin] Introduced new APIs for the Plugin platform. See [new APIs list](https://github.com/katalon-studio/katalon-studio-platform/blob/master/docs/turorials/apilist.md)
+* Performance: Reduced time to open a Test Case with many variables.
+* [Katalon Runtime Engine] Passed a path to the Android SDK root folder by using ANDROID_HOME environment variable.
+
+### Fixes
+
+* Fixed UI issues:
+    * [Azure DevOps] Expanding Submission Options broke the UI.
+    * [TestOps] Creating new files with TestOps broke the UI.
+    * Expanding Execution Information broke the UI.
+    * [macOS Big Sur] Could not switch to Object Properties View.
+    * [macOS Big Sur] Text of selected items on table and tree were hidden.
+    * [macOS Big Sur] Could not update Log Viewer when the execution items were changed on the Job Progress.
+    * [Mobile Object Spy] Fixed typo error "Application ID".
+    * [Mobile] An issue of displaying device ID instead of device name in the Progress bar.
+    * [Mobile] An incorrect UI thrown when opening Object from the script.
+    * [API Testing] An issue of displaying incorrect redirect link to "Customize API method".
+    * Could not display test steps after recording.
+    * Clarified warning message for when broken Test Object could not be moved.
+    * Options in "Retry after executing all" were disabled when generating command.
+    * Fixed labels and added referral link in the Library Management.
+* Fixed Report issues:
+    * An incorrect test status thrown when finish executing in the BDD Report.
+    * An issue of displaying incorrect in-line color and icon for failed test steps in the Report and Report Viewer when using assertion.
+    * Skipped Test Cases were marked as Passed in HTML report.
+    * [Cucumber] Executed steps were not displaying correctly in the Console log. 
+    * Duplicated information in the Event log.
+    * An incorrect response thrown when users cancel the Export Report.
+    * Could not configure Report in Project Setting without internet connection.
+* Bug: [Slack Integration] Failed to connect to Slack.
+* Bug: [TestRail Integration] Solved issues with Project Settings.
+* Bug: [Katalon Studio Enterprise] Could not select Run and Debug from here in specific cases.
+* Bug: [Katalon Runtime Engine] Failed to replace excluded built-in libraries with external libraries.
+* Bug: [API Testing] An incorrect response thrown when leaving the parameter blank in the request URL path.
+* Bug: [API Testing] Could not change object status after updating query parameters in Web Service object.
+* Bug: `waitForImagePresent` returned False despite the image appearing correctly.
+* Bug: `verifyElementPropertyValue` returned an incorrect error message.
+* Bug: An error message thrown when continuing to record scripts with an existing test case returned error messages incorrectly.
+* Bug: An issue of deleting script when using customized keywords with incorrect values.
+* Bug: Could not link an existing Window Object to Window built-in keyword.
+* Bug: Could not activate Katalon Studio by providing email with extra spacing.
+* Bug: Browser-based recorder could not record videos for the second test case if reusing an open browser.
+* Bug: Explorer Configuration in Project Settings was not working as intended.
+
+## Version 8.0.5
 
 ### Improvements
 
@@ -27,10 +85,11 @@ description: Release notes 8.x
     * The Declaration of the keyword could not be opened.
     * [Cucumber] Custom Keywords in Step definitions were not working.
 * Bug: Resolved activation issue of Enterprise-exclusive plugins.
-* Bug: Test Suite stopped executing after some test cases.
+* Bug: Resolved Test Suite stopped executing after some test cases.
 * Fixed reports parsing issues:
-    * [Katalon Runtime Engine] Could not generate and submit JUnit report to TestOps.
+    * [Katalon Runtime Engine] Could not generate and submit JUnit report to Katalon TestOps.
     * Could not generate reports due to `Null` character in log files.
+    * [Katalon Runtime Engine] Katalon Studio Image could not send report to Katalon TestOps.
 * Fixed Katalon Runtime Engine hanging issues when:
     * Running tests with Selenium Grid.
     * [Test Suite Collection] The number of Java threads kept increasing during execution.
