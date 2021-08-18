@@ -13,3 +13,5 @@ description:
 >-Katalon Runtime Engine version 8.1.0 onwards
 
 ### Using Environment Variable to specify a path to Android SDK root folder
+
+### Use Case
