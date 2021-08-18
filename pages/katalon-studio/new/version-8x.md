@@ -25,23 +25,25 @@ description: Release notes 8.x
 * Added Microsoft Edge (Chromium) 92 compatibility.
 * [Plugin] Introduced new APIs for the Plugin platform. See [new APIs list](https://github.com/katalon-studio/katalon-studio-platform/blob/master/docs/turorials/apilist.md)
 * Performance: Reduced time to open a Test Case with many variables.
-* [Katalon Runtime Engine] Introduced the ANDROID_HOME environment variable to specify the Android SDK root folder path.
+* [Katalon Runtime Engine] Passed a path to the Android SDK root folder by using ANDROID_HOME environment variable.
 
 ### Fixes
 
 * Fixed UI issues:
     * [Azure DevOps] Expanding Submission Options broke the UI.
     * [TestOps] Creating new files with TestOps broke the UI.
+    * Expanding Execution Information broke the UI.
     * [macOS Big Sur] Could not switch to Object Properties View.
     * [macOS Big Sur] Text of selected items on table and tree were hidden.
     * [macOS Big Sur] Could not update Log Viewer when the execution items were changed on the Job Progress.
-    * Fixed labels and added referral link in the Library Management.
     * [Mobile Object Spy] Fixed typo error "Application ID".
     * [Mobile] An issue of displaying device ID instead of device name in the Progress bar.
     * [Mobile] An incorrect UI thrown when opening Object from the script.
+    * [API] An issue of displaying incorrect redirect link to "Customize API method".
+    * Could not display test steps after recording.
     * Clarified warning message for when broken Test Object could not be moved.
     * Options in "Retry after executing all" were disabled when generating command.
-    * Broken UI in the Execution Information.
+    * Fixed labels and added referral link in the Library Management.
 * Fixed Report issues:
     * An incorrect test status thrown when finish executing in the BDD Report.
     * An issue of displaying incorrect in-line color and icon for failed test steps in the Report and Report Viewer when using assertion.
@@ -60,10 +62,8 @@ description: Release notes 8.x
 * Bug: `verifyElementPropertyValue` returned an incorrect error message.
 * Bug: An error message thrown when continuing to record scripts with an existing test case returned error messages incorrectly.
 * Bug: An issue of deleting script when using customized keywords with incorrect values.
-* Bug: An issue of displaying incorrect redirect link to "Customize API method".
 * Bug: Could not link an existing Window Object to Window built-in keyword.
 * Bug: Could not activate Katalon Studio by providing email with extra spacing.
-* Bug: Could not display test steps after recording.
 * Bug: Browser-based recorder could not record videos for the second test case if reusing an open browser.
 * Bug: Explorer Configuration in Project Settings was not working as intended.
 
