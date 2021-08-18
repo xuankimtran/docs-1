@@ -24,7 +24,7 @@ Katalon Studio can be natively integrated with Azure Test Plans service of Azure
 
 ## Enable the Integration and Perform Authentication
 
-In Project Settings, you need to enable the integration and authenticate your project with ADO Server to allow retrieving relevant test artifacts and creating test runs and results. Go to **Project > Settings > Integrations > Azure DevOps**:
+In Project Settings, you need to enable the integration and authenticate your project with Azure Server to allow retrieving relevant test artifacts and creating test runs and results. Go to **Project > Settings > Integrations > Azure DevOps**:
 
 1. Select **Enable Intergration** to enable **Authentication** area for editting.
 
@@ -33,7 +33,7 @@ In Project Settings, you need to enable the integration and authenticate your pr
     - **Server URL**: `https://dev.azure.com/{yourorganization}`
     - **Personal Access Token**: your [Personal Access Token](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops&tabs=preview-page). We recommend you to create a Personal Access Token with full-access [scopes](https://docs.microsoft.com/en-us/azure/devops/integrate/get-started/authentication/oauth?view=azure-devops#scopes).
 
-3. Click **Connect** to verify whether Azure DevOps is connected successfully.
+3. Click **Connect** to verify whether the connection to Azure Server is successful.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/authentication.png" width=70%>
 
