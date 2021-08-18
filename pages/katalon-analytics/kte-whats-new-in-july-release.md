@@ -28,6 +28,8 @@ TestOps continues to enhance the way that test results are displayed to its user
 - A consolidated view of all re-run tests
 - Combined view of all retry attempts into one single execution report
 
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-june-release-rerun-results/All%20rerun%20results%20log.png" alt="re-run test result" width="100%">
+
 ## Similar Error Suggestion
 
 Identifying the root cause of a failed test can be a daunting task. This new feature allows users to:
