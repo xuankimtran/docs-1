@@ -65,26 +65,28 @@ items:
                 url: /katalon-analytics/docs/cancel-subscriptions.html
   - title: "Katalon Studio Enterprise"
     tree:
+      - title: "What's new"
+        tree:
+          - title: "What's new in v8.1.0?"
+            url: /katalon-studio/new/what-is-new-810.html            
+          - title: "What's new in v8.0.0?"
+            url: /katalon-studio/new/what-is-new-800.html
+          - title: "What's new in v7.9.0?"
+            url: /katalon-studio/new/what-is-new-79.html
+          - title: "What's new in v7.8.0?"
+            url: /katalon-studio/new/what-is-new-78.html
+      - title: "Release Notes"
+        tree:
+          - title: "Version 8.x"
+            url: /katalon-studio/new/version-8x.html
+          - title: "Version 7.x"
+            url: /katalon-studio/new/version-70.html
+          - title: "Version 6.x"
+            url: /katalon-studio/new/version-60.html
       - title: "Get Started"
         tree:
           - title: "Welcome to Katalon Studio"
             url: /katalon-studio/docs/overview.html
-          - title: "What's new"
-            tree:
-              - title: "What's new in v8.1.0?"
-                url: /katalon-studio/new/what-is-new-810.html            
-              - title: "What's new in v8.0.0?"
-                url: /katalon-studio/new/what-is-new-800.html
-              - title: "What's new in v7.9.0?"
-                url: /katalon-studio/new/what-is-new-79.html
-              - title: "What's new in v7.8.0?"
-                url: /katalon-studio/new/what-is-new-78.html
-              - title: "Version 8.x"
-                url: /katalon-studio/new/version-8x.html
-              - title: "Version 7.x"
-                url: /katalon-studio/new/version-70.html
-              - title: "Version 6.x"
-                url: /katalon-studio/new/version-60.html
           - title: "Supported Technologies"
             url: /katalon-studio/docs/product-availability-matrix.html
           - title: "Supported Environments"
@@ -1245,18 +1247,22 @@ items:
             url: /katalon-store/docs/publisher/manage-published-plugins.html
   - title: "Katalon TestOps"
     tree:
+      - title: "What's new"
+        tree:
+          - title: "July 2021"
+            url: /katalon-analytics/docs/kte-whats-new-in-july-release.html
+          - title: "April 2021"
+            url: /katalon-analytics/docs/kte-whats-new-in-april-release.html
+          - title: "March 2021"
+            url: /katalon-analytics/docs/new-core-11.html
+      - title: "Release Notes"
+        tree:
+          - title: "2021 Releases"
+            url: /katalon-analytics/docs/testops-releases-2021.html
       - title: "Get Started"
         tree:
           - title: "Overview"
             url: /katalon-analytics/docs/overview.html 
-          - title: "What's new"
-            tree:
-              - title: "April 2021"
-                url: /katalon-analytics/docs/kte-whats-new-in-april-release.html
-              - title: "March 2021"
-                url: /katalon-analytics/docs/new-core-11.html
-              - title: "2021 Releases"
-                url: /katalon-analytics/docs/testops-releases-2021.html
           - title: "Terminology and Formulas" 
             url: /katalon-analytics/docs/testops-terminology.html
           - title: "Set up an account"
