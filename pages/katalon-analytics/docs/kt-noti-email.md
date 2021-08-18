@@ -1,23 +1,33 @@
 ---
-title: "Receive Notification Emails from Katalon TestOps" 
+title: "Configure Notifications in Katalon TestOps" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/kt-noti-email.html
 description: 
 ---
-Executing scheduled jobs and uploading test results may take a while. For watching scheduled jobs and uploaded test results better, you can customize the events on which you want to receive notification emails from Katalon.
 
-Once you have enabled TestOps integration in Katalon Studio, these settings are turned on by default. You will receive notification emails of:
+By default, you receive the following notification emails:
 
-* Failed test results uploaded in Katalon TestOps
-* Weekly reports of your testing activities
+* Notifications on failed test runs that are uploaded to Katalon TestOps.
+* Weekly reports based on your testing activities.
 
-## Turn on/off Notification Emails
+Katalon TestOps sends notification emails to help you keep track of scheduled test executions. You can receive notification emails when test results are uploaded to Katalon TestOps.
 
-1. You can turn on/off these settings in Katalon TestOps by going to **Profile** menu at the right top corner.
+> Requirements:
+>
+> You have enabled TestOps integration in Katalon Studio. See: [Katalon Studio Integration](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html).
 
-![](https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/configure-notification-emails/your-profile.png)
+## Configure Notifications
 
-2. Select **Notifications Settings**, specify your settings  
-3. Click **Save**.
+1. Sign in to [Katalon TestOps](https://testops.katalon.io/login).
 
-![](https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/configure-notification-emails/config-email.png)
+2. Click on the *Avatar* icon at the top right corner and choose **Notification Settings**.
+
+     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-noti-emails/notification-settings-highlight-blurred.png" width=100% alt="notifications setting button on testops">
+
+3. Select **Notifications** on the left bar.
+
+    The **Notifications** page appears as below.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-noti-emails/notification-page-highligh-blurred.png" width=100% alt="notification page">
+   
+4. Choose your options, then click **Save**.

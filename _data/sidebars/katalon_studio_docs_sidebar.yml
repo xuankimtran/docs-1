@@ -1,52 +1,68 @@
 items:
   - title: "Products and Licenses"
     tree:
-      - title: "Katalon Products and Licensing"
+      - title: "Katalon Studio Enterprise"
         tree:
           - title: "Katalon Products and Licensing"
             url: /katalon-studio/docs/license.html
-          - title: "Katalon Runtime Engine DevOps Sunsetting"
-            url: /katalon-studio/docs/kre-devops-sunset.html
-      - title: "Online and Offline Licenses"
-        url: /katalon-studio/docs/online-offline-licenses.html
-      - title: "Katalon Trial and Free Plans"
-        url: /katalon-studio/docs/trial-free-plans.html
-      - title: "Subscribe to Katalon licenses"
-        tree:
-          - title: "Katalon License Subscription"
-            url: /katalon-studio/docs/license-subscription.html
-          - title: "Subscription via Katalon Website"
-            url: /katalon-studio/docs/subscription-kstore.html
-          - title: "Subscription via Katalon TestOps"
-            url: /katalon-studio/docs/license-KT.html
-          - title: "Subscription via PO"
-            url: /katalon-studio/docs/license-po.html
-          - title: "Subscription via Quote"
-            url: /katalon-studio/docs/license-quote.html
+          - title: "Katalon Trial and Free Plans"
+            url: /katalon-studio/docs/trial-free-plans.html
+          - title: "Online and Offline Licenses"
+            url: /katalon-studio/docs/online-offline-licenses.html
+          - title: "Subscribe to Katalon licenses"
+            tree:
+              - title: "Katalon License Subscription"
+                url: /katalon-studio/docs/license-subscription.html
+              - title: "Subscription via Katalon Website"
+                url: /katalon-studio/docs/subscription-kstore.html
+              - title: "Subscription via Katalon TestOps"
+                url: /katalon-studio/docs/license-KT.html
+              - title: "Subscription via PO"
+                url: /katalon-studio/docs/license-po.html
+              - title: "Subscription via Quote"
+                url: /katalon-studio/docs/license-quote.html
+          - title: "Use and Manage Katalon Licenses"
+            tree:
+              - title: "Manage Katalon Licenses"
+                url: /katalon-studio/docs/license-management.html
+              - title: "Grant Online Licenses"
+                url: /katalon-studio/docs/use-online-license.html
+              - title: "Grant and Use an Offline Katalon Studio Enterprise License"
+                url: /katalon-studio/docs/how-to-create-kse-offline-license.html
           - title: "Upgrade Subscriptions"
             url: /katalon-studio/docs/upgrade-subs.html
-          - title: "Cancel Subscriptions"
-            url: /katalon-studio/docs/cancel-subs.html
           - title: "Update Billing Information"
             url: /katalon-studio/docs/billing-info.html
-      - title: "Use and Manage Katalon Licenses"
+          - title: "Troubleshoot"
+            tree:
+              - title: "Session Termination Causes"
+                url: /katalon-studio/docs/session-termination.html
+              - title: "Troubleshoot Activation Problems"
+                url: /katalon-studio/docs/troubleshoot-activation-problems.html
+          - title: "Cancel Subscriptions"
+            url: /katalon-studio/docs/cancel-subs.html
+      - title: "Katalon Runtime Engine"
         tree:
-          - title: "Manage Katalon Licenses"
-            url: /katalon-studio/docs/license-management.html
-          - title: "Grant Online Licenses"
-            url: /katalon-studio/docs/use-online-license.html
-          - title: "Grant and Use an Offline Katalon Studio Enterprise License"
-            url: /katalon-studio/docs/how-to-create-kse-offline-license.html
+          - title: "Katalon Runtime Engine DevOps Sunsetting"
+            url: /katalon-studio/docs/kre-devops-sunset.html
           - title: "Grant and Use an Offline Katalon Runtime Engine License"
             url: /katalon-studio/docs/re-offline-licenses.html
           - title: "Transfer an Online Katalon Runtime Engine License"
             url: /katalon-studio/docs/transfer-license.html
-      - title: "Troubleshoot"
+      - title: "Katalon TestOps Subscriptions"
         tree:
-          - title: "Session Termination Causes"
-            url: /katalon-studio/docs/session-termination.html
-          - title: "Troubleshoot Activation Problems"
-            url: /katalon-studio/docs/troubleshoot-activation-problems.html
+          - title: "Overview"
+            url: /katalon-analytics/docs/testops_subscriptions_overview.html
+          - title: "Trial Plans"
+            url: /katalon-analytics/docs/trial-plans.html
+          - title: "Manage Subscriptions"
+            tree:
+              - title: "Subscribe to TestOps"
+                url: /katalon-analytics/docs/testops-subscriptions.html
+              - title: "Ugrade Subscriptions"
+                url: /katalon-analytics/docs/upgrade-subscriptions.html
+              - title: "Cancel Subscriptions"
+                url: /katalon-analytics/docs/cancel-subscriptions.html
   - title: "Katalon Studio Enterprise"
     tree:
       - title: "Get Started"
@@ -55,6 +71,8 @@ items:
             url: /katalon-studio/docs/overview.html
           - title: "What's new"
             tree:
+              - title: "What's new in v8.1.0?"
+                url: /katalon-studio/new/what-is-new-810.html            
               - title: "What's new in v8.0.0?"
                 url: /katalon-studio/new/what-is-new-800.html
               - title: "What's new in v7.9.0?"
@@ -133,6 +151,8 @@ items:
             tree:
               - title: "[WebUI] Create and Run Web UI Test Case using Record and Playback"
                 url: /katalon-studio/tutorials/webui-create-test-case.html
+              - title: "[Web UI] Plan Test Suite"
+                url: /katalon-studio/tutorials/webui-plan-test-suite.html
       - title: "GUI and Preferences"
         tree:
           - title: "Toolbars and Views"
@@ -813,6 +833,8 @@ items:
                 url: /katalon-studio/docs/mobile-wait-for-element-not-has-attribute.html
               - title: "[Mobile] Wait For Element Present"
                 url: /katalon-studio/docs/mobile-wait-for-element-present.html
+              - title: "[Mobile] Wait For Element Not Present"
+                url: /katalon-studio/docs/mobile-wait-for-element-not-present.html
           - title: "Visual-based Mobile Testing Keywords"
             tree:
               - title: "[Mobile] Take Area Screenshot As Checkpoint"
@@ -964,7 +986,7 @@ items:
       - title: "Execution"
         tree:
           - title: "Test Suite"
-            url: /katalon-studio/docs/test-suite.html
+            url: /katalon-studio/docs/create-test-suite.html
           - title: "Test Suite Collection"
             url: /katalon-studio/docs/test-suite-collection.html
           - title: "Execute tests periodically on remote machines"
@@ -985,8 +1007,12 @@ items:
             url: /katalon-studio/docs/test-suite-report.html
           - title: "View and Customize Execution Log"
             url: /katalon-studio/docs/working-with-execution-log.html
-          - title: "Screenshots and Videos"
-            url: /katalon-studio/docs/screenshots-videos.html
+          - title: "Capture Screenshots"
+            url: /katalon-studio/docs/capture-screenshots.html
+          - title: "Record Screen-based Videos"
+            url: /katalon-studio/docs/record-screen-based-videos.html    
+          - title: "Record Browser-based Videos"
+            url: /katalon-studio/docs/record-browser-based-videos.html  
           - title: "View Execution Summary and Advanced Reports"
             url: /katalon-studio/docs/view-execution-list.html
       - title: "Data-driven Testing"
@@ -1161,6 +1187,8 @@ items:
         url: /katalon-studio/docs/export-test-results-in-junit-format.html
       - title: "Command Syntax (Command-line/Console Mode Execution)"
         url: /katalon-studio/docs/console-mode-execution.html
+      - title: "Terminate Execution Conditionally"
+        url: /katalon-studio/docs/terminate-execution-conditionally.html
       - title: "Docker Image"
         url: /katalon-studio/docs/docker.html
       - title: "Run with Cloud CIs"
@@ -1217,20 +1245,6 @@ items:
             url: /katalon-store/docs/publisher/manage-published-plugins.html
   - title: "Katalon TestOps"
     tree:
-      - title: "Subscriptions"
-        tree:
-          - title: "Overview"
-            url: /katalon-analytics/docs/testops_subscriptions_overview.html
-          - title: "Trial Plans"
-            url: /katalon-analytics/docs/trial-plans.html
-          - title: "Manage Subscriptions"
-            tree:
-              - title: "Create Subscriptions"
-                url: /katalon-analytics/docs/testops-subscriptions.html
-              - title: "Ugrade Subscriptions"
-                url: /katalon-analytics/docs/upgrade-subscriptions.html
-              - title: "Cancel Subscriptions"
-                url: /katalon-analytics/docs/cancel-subscriptions.html
       - title: "Get Started"
         tree:
           - title: "Overview"
@@ -1243,7 +1257,7 @@ items:
                 url: /katalon-analytics/docs/new-core-11.html
               - title: "2021 Releases"
                 url: /katalon-analytics/docs/testops-releases-2021.html
-          - title: "Terminology" 
+          - title: "Terminology and Formulas" 
             url: /katalon-analytics/docs/testops-terminology.html
           - title: "Set up an account"
             url: /katalon-analytics/docs/getting-started.html  
@@ -1258,14 +1272,12 @@ items:
       - title: "Configurations"
         tree:
           - title: "Katalon Studio Integration"
-            tree:
-              - title: "Upload Test Results from Katalon Studio"
-                url: /katalon-studio/docs/katalon-analytics-beta-integration.html
+            url: /katalon-studio/docs/katalon-analytics-beta-integration.html
           - title: "Framework Integration"
             tree:
               - title: "Upload JUnit and Katalon Studio Test Results using Katalon Report Uploader"
                 url: /katalon-analytics/docs/project-management-import-cli.html
-              - title: "Upload JUnit and Katalon Studio Test Results from web browsers"
+              - title: "Upload JUnit and Katalon Studio Test Results via a web browser"
                 url: /katalon-analytics/docs/testops-uploader.html
               - title: "Upload Test to Katalon TestOps via Mocha"
                 url: /katalon-analytics/docs/kt-upload-test-mocha.html
@@ -1291,6 +1303,8 @@ items:
                     url: /katalon-analytics/docs/load-balancing-agents.html
                   - title: "Run multiple Test Suites in parallel with Agents"
                     url: /katalon-analytics/docs/kt_run_parallel_agent.html
+                  - title: "Auto-Distributed Execution" 
+                    url: /katalon-analytics/docs/auto-distributed-execution.html
               - title: "Docker Test Environments"
                 url: /katalon-analytics/docs/docker.html
               - title: "Install TestOps On-premises with Docker"
@@ -1319,8 +1333,6 @@ items:
                 url: /katalon-analytics/docs/create-plan.html
               - title: "Execute Test Runs"
                 url: /katalon-analytics/docs/kt-scheduler.html
-              - title: "View Test Plan Summary in Katalon Studio"
-                url: /katalon-analytics/docs/view-ci-plans.html
           - title: "Releases"
             url: /katalon-analytics/docs/kt-release.html
           - title: "Builds"
@@ -1335,7 +1347,7 @@ items:
                url: /katalon-analytics/docs/bdd-settings.html
              - title: "View BDD Test Results"
                url: /katalon-analytics/docs/bdd-test-results.html
-             - title: "Link Executions to Jira Defects"
+             - title: "Link Test Runs to Jira Defects"
                url: /katalon-analytics/docs/ka-defects.html
              - title: "Link Test Cases to Jira Requirements"
                url: /katalon-analytics/docs/ka-integration-jira.html     
@@ -1370,11 +1382,7 @@ items:
           - title: "Subdomain Configurations"
             url: /katalon-analytics/docs/subdomain.html
           - title: "Single Sign-On (SSO) Configurations"
-            tree:
-              - title: "[Admin] Enable SSO for an Organization"
-                url: /katalon-analytics/docs/sso-settings.html
-              - title: "[User] Accept a SSO Request"
-                url: /katalon-analytics/docs/accept-sso.html
+            url: /katalon-analytics/docs/sso-settings.html
           - title: "Enable/Disable Strict Domain"
             url: /katalon-analytics/docs/strict-domain.html
           - title: "Configure Network Security"

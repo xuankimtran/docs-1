@@ -10,6 +10,14 @@ redirect_from:
 description:
 ---
 
+## 5.5.2
+- **Improvements**
+  - Add sample project "Upload a set of images sand their metadata" to showcase how to use `upload` command.
+  - Improve export function from KR to KS.
+  - Users now can export recorded tests, tests using `if else` and `while` commands, tests containing `verify/assert` commands and tests using command `runScript` from Katalon Recorder to Katalon Studio.
+- **Bug fixes**
+  - Fix an issue where users cannot see the selected autosuggested command when navigating with key up/key down.
+
 ## 5.5.1.3
 - **New features**
   - You can upload files without specifying a target through `Upload` command.
@@ -22,8 +30,8 @@ description:
     - `appendToCSV` accepts a file name as the target and a string as the target. For example: `appendToCSV | data.csv | Thomas,To`
     - > Help > Sample projects > **Write values to a CSV file**.
 - **Improvements**
-  - You can read information of a CSV file into variables.
-    - The `storeCsv` command is improved. After storing the result of the command to a variable, You can:
+  - You can read information of a CSV file into variables with `storeCsv` command. 
+    - After storing the result of the command to a variable, You can:
       - Read the number of lines a CSV file has.
       - Read the value at a particular row and column.
       - Compute the values from different cells in a CSV file.

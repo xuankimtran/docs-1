@@ -12,15 +12,15 @@ description:
 Description 
 ------------
 
-Verify if two objects are equal. 
+Verify if two numbers are equal. 
 
 Parameters 
 -----------
 
 | Param | Param Type | Mandatory | Description |
 | --- | --- | --- | --- |
-| actualObject  | Object  | Required | Represent the actual object. |
-| expectedObject  | Object  | Required | Represent the expected object. |
+| actualNumber  | Number as string  | Required | Represent the actual number. |
+| expectedNumber  | Number as string  | Required | Represent the expected number. |
 | flowControl | FailureHandling | Optional | Specify [failure handling](/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns

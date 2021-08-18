@@ -9,6 +9,71 @@ redirect from:
     - "/katalon-analytics/docs/advanced-0.1.x.html"
 description:
 ---
+
+## Latest Release - July 26th, 2021
+
+### New Features
+
+- Introduced Auto-distributed execution. Users can automatically distribute tasks to active and available Agents. Learn more: [Auto-Distributed Execution](https://docs.katalon.com/katalon-analytics/docs/auto-distributed-execution.html)
+
+- Introduced Test Usage Validation. Users can view how many test runs remain until their subscription quota is capped.
+
+- Introduced Similar Error Suggestion. Users can view all common errors of their failed test results in the centralized view. 
+
+### Enhancements
+
+- Enhanced filters for Reports & Analytics
+- Enhanced component release summary
+- Enabled component to show test percentage in release readiness
+- Enhanced wizard for framework integration
+- Build visible under Configuration section for each Test Run
+
+### Fixes
+
+- Could not filter API log by timestamp.
+- testRuns \(Number of test runs\) field could be manipulated into invalid values.
+- Long pending messages in Retry function.
+- Path Injection, Zip Slip vulnerabilities.
+- Occurences where the app would break because of a missing LD config file.
+- Uncommon error when creating thumbnail.
+- User could fetch other organization's invoices from Payment Success screen.
+- Week/day view of calendar would show wrong test runs when updating time zone.
+- Manually uploading Katalon Reports in TestOps sometimes failed.
+- Agent could not override Execution Mode of Test Suite Collection when executing with KRE 8.0 \ 8.0.5 versions.
+
+- Removed: polling message prompts for certain errors.
+
+## June 22nd
+
+### New features
+
+- Added Re-run Test Results to the Test Results summary. See: [View Re-run Test Results in TestOps](https://docs.katalon.com/katalon-analytics/docs/rerun-results.html).
+
+### Enhancements
+
+-Updated maintainer column in Flaky Test list.
+-Updated UI for Integration function.
+-Enhanced security when updating Git test projects.
+
+### Fixes
+
+- Fixed a bug where users could not:
+  - migrate subscriptions.
+  - send an invitation email.
+  - calculate statistics for empty Test Runs.
+  - download a large Test Run as .xsls file.
+  - delete the execution.
+
+- Fixed the missing profile name on the execution page.
+- Fixed search field for execution that doesn't re-run.
+- Clarified the message for adding Users to Teams successfully.
+
+## May 26th
+
+### Improvements
+
+- Filter test runs by Build Name. [Learn more](https://docs.katalon.com/katalon-analytics/docs/filter-test-build-name.html)
+=======
 ## Latest Release - June 22, 2021 
 
 ### New features
@@ -113,7 +178,7 @@ See [What's new in March Release?](/katalon-analytics/docs/new-core-11.html)
 
 - Enhance CI integrations.
 
-- Enhance UI/UX 
+- Enhance UI/UX
 
 - Simplify the Local Test Environment setup process.
 
@@ -131,4 +196,5 @@ See [What's new in March Release?](/katalon-analytics/docs/new-core-11.html)
 
 - Support sharing Test Run report via email.
 
-- Provide shortcuts to access reports. 
+- Provide shortcuts to access reports.
+
