@@ -1247,18 +1247,22 @@ items:
             url: /katalon-store/docs/publisher/manage-published-plugins.html
   - title: "Katalon TestOps"
     tree:
+      - title: "What's new"
+        tree:
+          - title: "July 2021"
+            url: /katalon-analytics/docs/kte-whats-new-in-july-release.html
+          - title: "April 2021"
+            url: /katalon-analytics/docs/kte-whats-new-in-april-release.html
+          - title: "March 2021"
+            url: /katalon-analytics/docs/new-core-11.html
+      - title: "Release Notes"
+        tree:
+          - title: "2021 Releases"
+            url: /katalon-analytics/docs/testops-releases-2021.html
       - title: "Get Started"
         tree:
           - title: "Overview"
             url: /katalon-analytics/docs/overview.html 
-          - title: "What's new"
-            tree:
-              - title: "April 2021"
-                url: /katalon-analytics/docs/kte-whats-new-in-april-release.html
-              - title: "March 2021"
-                url: /katalon-analytics/docs/new-core-11.html
-              - title: "2021 Releases"
-                url: /katalon-analytics/docs/testops-releases-2021.html
           - title: "Terminology and Formulas" 
             url: /katalon-analytics/docs/testops-terminology.html
           - title: "Set up an account"
