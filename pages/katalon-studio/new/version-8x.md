@@ -39,7 +39,7 @@ description: Release notes 8.x
     * [Mobile Object Spy] Fixed typo error "Application ID".
     * [Mobile] An issue of displaying device ID instead of device name in the Progress bar.
     * [Mobile] An incorrect UI thrown when opening Object from the script.
-    * [API] An issue of displaying incorrect redirect link to "Customize API method".
+    * [API Testing] An issue of displaying incorrect redirect link to "Customize API method".
     * Could not display test steps after recording.
     * Clarified warning message for when broken Test Object could not be moved.
     * Options in "Retry after executing all" were disabled when generating command.
