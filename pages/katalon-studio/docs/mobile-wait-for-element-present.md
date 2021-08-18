@@ -17,7 +17,7 @@ Wait for the given mobile element to present within the given time (in seconds)
 Parameters
 ----------
 
-| Param | Param Type | Mandatory | Description |
+| Parameter | Parameter Type | Mandatory | Description |
 | --- | --- | --- | --- |
 | to | TestObject | Required | Represent a mobile element. |
 | timeOut  | int  | Required | Maximum period of time (in seconds) that system will wait to return a result. |
