@@ -76,3 +76,5 @@ In version 8.1.0, Katalon Studio provided [a list of new APIs](https://github.co
 - JRE location
 - Running mode (IDE or Katalon Runtime Engine)
 - Test Suite/ Test Suite Collection JUnit report location (via the plugin platform)
+
+We hope you will enjoy these changes, and look forward to offering you more improvements in the next release. Test away!
