@@ -57,7 +57,9 @@ You can **Add** or **Remove** item(s) in each section to serve your need.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/status-mapping.png" width=70%>
 
-**In the Test Configuration Mapping**: This step is required to help Katalon Studio to know for which Test Points you want to submit a test result. You need to map **Execution OS/Device** and **Execution Browser/App** in Katalon Studio to the Test Configurations retrieved from Azure Test Plans.
+**In the Test Configuration Mapping**: This step is to help reducing the number of Test Results created for each mapped test case. You need to pair **Execution OS/Device** and **Execution Browser/App** in Katalon Studio with Test Configurations retrieved from Azure Test Plans.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/test-configuration-mapping.png" width=70%>
 
 > **What is Test Point?**
 >
@@ -67,17 +69,19 @@ You can **Add** or **Remove** item(s) in each section to serve your need.
 >
 > A Test Configuration is **a combination of configuration variable values**, containing information of operating system, browser, CPU type, database. For example: "Windows 8 + 32-bit CPU" or "Windows 10 + 64-bit CPU." [Learn more](https://docs.microsoft.com/en-us/azure/devops/test/test-different-configurations?view=azure-devops)
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/test-configuration-mapping.png" width=70%>
-
 ### Step 3. Configure Submission Options
 
 1. Select a test plan for test run to be submitted. Hit **Fetch Test Plans** to retrieve latest test plans list.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/submission-options-new.png" width=70%>
+   <img alt="Submission Options 8.1.0" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/Submission-option-8.1.0.png" width=70%>
 
 2. Name test run.
 
-3. If you want to add Build and Release Information to test runs in this project, specify **Build Definition ID** and **Release Definition ID** respectively (*Release Definition ID* was introduced since 8.1.0). During runtime, Katalon Studio uses these pipeline definition IDs to get the latest Build and Release, and pass them to the corresponding properties of a test run.
+3. If you want to add Build and Release Information to test runs, specify **Build Definition ID** and **Release Definition ID** respectively (*Release Definition ID* was introduced since 8.1.0). 
+
+   During runtime, Katalon Studio uses these pipeline definition IDs to get the latest Build and Release, and pass them to the corresponding properties of a test run.
+
+   <img alt="Fill Pipeline Defition ID" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/definition-id.png" width=70%>
 
 4. Decide what attachments to be sent together with a test run.
 
@@ -154,7 +158,7 @@ You can change test plan ID, test run name, build and release definition IDs of 
 		</tr>
 		<tr>
 			<td data-colwidth="254">
-				<p>--info -adoDefinitionID=&lt;Definition ID of Build Pipeline&gt;</p>
+				<p>--info -adoBuildDefId =&lt;Definition ID of Build Pipeline&gt;</p>
 			</td>
 			<td data-colwidth="253">
 				<p>Get the latest completed Build ID of the specified Build Definition ID and pass it to the corresponding Test Run property on ADO.</p>
@@ -168,7 +172,7 @@ You can change test plan ID, test run name, build and release definition IDs of 
 				<p>--info -adoReleaseDefID=&lt;Definition ID of Release Pipeline&gt;</p>
 			</td>
 			<td data-colwidth="253">
-				<p>Get the latest Release based on the specified Definition ID of Release Pipeline and pass it to the corresponding Test Run property on ADO. (Requiring Runtime Engine 8.1.0+)</p>
+				<p>Get the latest Release ID and its stage based on the specified Definition ID of Release Pipeline and pass them to the corresponding Test Run properties on ADO. (Runtime Engine 8.1.0+ is required)</p>
 			</td>
 			<td data-colwidth="253">
 				<p>N</p>
@@ -176,7 +180,7 @@ You can change test plan ID, test run name, build and release definition IDs of 
 		</tr>
 	</tbody>
 </table>
-  
+
 ## Troubleshoot common issues
 
 <table>
