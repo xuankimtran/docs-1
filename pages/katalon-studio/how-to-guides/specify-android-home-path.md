@@ -24,15 +24,20 @@ Start Katalon Studio with this command-line option instead of double-clicking on
 
 - For Linux and macOS:
 
-```groovy
-export ANDROID_HOME=[Your Android SDK location]
-./katalon
-```
+    `-ANDROID_HOME=<Your Android SDK location>`
+
+    For example:
+
+    ```groovy
+    export ANDROID_HOME=/opt/dev/android-sdk-linux
+    ./katalon
+    ```
 
 - For Windows:
     
-    1. Go to **Edit the system environment variables > Environment Variables > System variables**.
-    2. Create a new environment variable with the **Variable** names **ANDROID HOME** and the **Value** is the path to the Android SDK root folder.
+    1\. Go to **Edit the system environment variables > Environment Variables > System variables**.
+    
+    2\. Create a new environment variable with the **Variable** names **ANDROID HOME** and the **Value** is the path to the Android SDK root folder.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/android-home-path/window-android-home-path.png" alt="Window Environment Variable" width="100%">
 
@@ -53,10 +58,10 @@ export ANDROID_HOME=[Your Android SDK location]
 
 - In Katalon Runtime Engine, use this command-line option:
 
-```groovy
-$export ANDROID_HOME=[Your new Android SDK location]
-./katalon
-```
+    ```groovy
+    $export ANDROID_HOME=[Your new Android SDK location]
+    ./katalon
+    ```
 
 <img src="" alt="execution log">
 
