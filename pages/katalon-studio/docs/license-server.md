@@ -124,9 +124,6 @@ Follow these steps:
    `docker run --name postgres -dp 5432:5432 -e POSTGRES_PASSWORD=admin postgres:alpine`
 
 5. Create the database *kit* in DBeaver.
-
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-license-server/database-k1.png" width=100% alt="kit k1 database dbeaver">
-
 6. Create the database *k1* in DBeaver.
 7. Edit .env file.
 
