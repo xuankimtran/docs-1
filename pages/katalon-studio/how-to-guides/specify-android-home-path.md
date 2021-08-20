@@ -24,12 +24,12 @@ Start Katalon Studio with this command-line option instead of double-clicking on
 
 - For Linux and macOS:
 
-    `-ANDROID_HOME=<Your Android SDK location>`
+    `$export ANDROID_HOME=<Your Android SDK location>`
 
     For example:
 
     ```groovy
-    export ANDROID_HOME=/opt/dev/android-sdk-linux
+    $export ANDROID_HOME=/opt/dev/android-sdk-linux
     ./katalon
     ```
 
@@ -49,20 +49,3 @@ Start Katalon Studio with this command-line option instead of double-clicking on
 > - build-tools
 > - platform-tools
 > - tools folders
-
-**Specify a path to a custom Android SDK location**
-
-- You have an Android device connect with Katalon Studio. By default, the Android SDK root folder locates at **~/.katalon/tools/android_sdk**.
-
-- You move the Android SDK root folder to the new location: <NEW LOCATION>
-
-- In Katalon Runtime Engine, use this command-line option:
-
-    ```groovy
-    $export ANDROID_HOME=[Your new Android SDK location]
-    ./katalon
-    ```
-
-<img src="" alt="execution log">
-
-- Restart Katalon Studio and configure your mobile tests. Katalon Runtime Engine finds the new Android SDK root and runs the test as usual.
