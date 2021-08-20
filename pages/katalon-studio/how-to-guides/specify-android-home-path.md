@@ -21,7 +21,7 @@ From version 8.1.0 onwards, Katalon Runtime Engine supports the **ANDROID_HOME**
 
 ### Command-line Option
 
-Start Katalon Studio with this command-line option instead of double-clicking on **Katalon** app:
+Start Katalon Studio with this command-line option instead of double-clicking on the **Katalon** app:
 
 - For Linux and macOS:
 
@@ -30,9 +30,9 @@ export ANDROID_HOME=[Your Android SDK location]
 ./katalon
 ```
 
-- For Windows: 
+- For Windows:
     
-    1. In **Control panel**, go to **Edit the system environment variables > Enviroment Variables > System variables**.
+    1. Go to **Edit the system environment variables > Environment Variables > System variables**.
     2. Create a new environment variable with the **Variable** names **ANDROID HOME** and the **Value** is the path to the Android SDK root folder.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/android-home-path/window-android-home-path.png" alt="Window Environment Variable" width="100%">
