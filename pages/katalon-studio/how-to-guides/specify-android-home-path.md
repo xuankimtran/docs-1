@@ -12,12 +12,11 @@ description:
 > - Katalon Studio version 8.1.0 onwards
 > - Katalon Runtime Engine version 8.1.0 onwards
 
-You can use a custom Android SDK location instead of the Katalon Studio default location. This enhancement resolves the problem when Katalon Runtime Engine cannot find the attached device. See also: [[Mobile] Android Setup](https://docs.katalon.com/katalon-studio/tutorials/mobile-android-setup.html#set-up-android-tests-on-windows-and-macos).
-## Using Environment Variable to specify a path to Android SDK root folder
+You can use a custom Android SDK location instead of the Katalon Studio default location. From version 8.1.0 onwards, Katalon Runtime Engine supports the **ANDROID_HOME** environment variable to specify the path to the Android SDK root. To learn more about environment variables, see [Command arguments](https://docs.katalon.com/katalon-studio/docs/common-configuration.html#command-arguments).
 
-From version 8.1.0 onwards, Katalon Runtime Engine supports the **ANDROID_HOME** environment variable to specify the path to the Android SDK root. By default, the Android SDK root folder locates at **~/.katalon/tools/android_sdk**. You can rename or move your Android SDK root folder to another location and point the **ANDROID_HOME** environment variable to that new location.
+## Using ANDROID_HOME Environment Variable
 
->To learn more about environment variables, see [Command arguments](https://docs.katalon.com/katalon-studio/docs/common-configuration.html#command-arguments).
+By default, the Android SDK root folder locates at **~/.katalon/tools/android_sdk**. You can rename or move your Android SDK root folder to another location and use the **ANDROID_HOME** environment variable to point the path to that new location. See also: [[Mobile] Android Setup](https://docs.katalon.com/katalon-studio/tutorials/mobile-android-setup.html#set-up-android-tests-on-windows-and-macos).
 
 ### Command-line Option
 
