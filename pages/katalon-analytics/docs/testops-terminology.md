@@ -1,221 +1,413 @@
 ---
-title: "Katalon TestOps Terminology"
+title: "Terminology and Formulas"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/testops-terminology.html
 redirect_from:
 ---
 
-## Release
+## TestOps Terminology
 
-Represents a version or a milestone of a software product, which consists of one or more **Test Cases**.  
+**<details><summary>Agent</summary>**
+Connects a local machine to the TestOps servers for test executions.
+</details>
 
-**Usage**
+**<details><summary>API performance anomalies</summary>**
+Identify web services that take more/less time to respond than usual by applying the local outlier factor (LOF) on 30 latest execution requests.
+</details>
 
-Manages your test cases and testing progress by milestone. With Katalon TestOps Release, you can view the overall performance and readiness of the software product to be deployed with confidence.
+**<details><summary>Assertions</summary>**
+Determine whether the automated test case succeeds or not.
 
-> Releases can be managed in **Test Planning** section.      
+Katalon TestOps provides you with a specific view of assertions in each test case to evaluate the quality of test cases and ensure your tested application/software is working correctly.
 
-**Example**                                                                          
+Assertions help to check whether a condition is true (e.g., whether labels, data, API responses are rendered correctly).
+</details>
 
-![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-analytics/docs/release/release-list.png) 
+**<details><summary>BDD Test Result</summary>**
+Represents the result of a test following the Behavior Driven Development (BDD) Framework.
 
+In Katalon TestOps, the Features of BDD tests are displayed as Requirements, while Scenarios are displayed as Test Cases.
+</details>
 
-## Build
+**<details><summary>Build</summary>**
+Represents a group of features/tasks in a release, used for management or testing purposes.
 
-Represents a version of a software product, which the development team hands over to the testing team for testing purposes. A build also consists of one or more **Test Cases**.  
+In Katalon TestOps, a build can consist of one or more test cases.
 
-**Usage**
+When users map a test result to a build, the test result is automatically mapped to the corresponding release. However, if users map a test result to a release, the test result is not mapped to any specific build.
+</details>
 
-This feature strengthens collaboration among developers and testers. Hence, you can manage product readiness efficiently and seamlessly. 
+**<details><summary>Build Label</summary>**
+Represents a piece of code committed to the source code
+</details>
 
-> **Build** list can be viewed and managed on **Releases** detailed page.      
+**<details><summary>Defect</summary>**
+Identifies a failed test run to link the test result to a Jira issue (Jira bug).
+</details>
 
-**Example**                                                                          
+**<details><summary>Interval (Trigger)</summary>**
+A time period between each scheduled execution.
 
-![](https://raw.githubusercontent.com/katalon-studio/docs-images/testops-new/katalon-analytics/docs/build/build-list.png) 
+In Katalon TestOps, the Interval Unit values are Minute, Hour, Day, Week. For example, if you set Interval Unit as Hour, Interval as 5, it means the execution is scheduled for every 5 hours.
+</details>
 
+**<details><summary>Key (Jira)</summary>**
+Represents the ID of a Jira issue you have linked a test case/test result to.
 
-## Test Run
+In Katalon TestOps, you link a test case to Jira Requirements and link a test result (if the test run fails) to a Jira Defect.
+</details>
 
-Consists of one or more test case, depending on whether it is conducted parallelly, to be scheduled or executed.
+**<details><summary>Last Ping (Agent)</summary>**
+The last time an Agent connects to a server to ask for a job to execute.
+</details>
 
-**Usage**
+**<details><summary>Maintainer</summary>**
+A role that is responsible for all test results of a test case.
 
-Gives you the related information of running Test Cases.  A Test Run will keep track of the test result, when the test was ran, Test Run status, duration, assignee, etc. 
+In Katalon TestOps, within an organization, you can assign a person to maintain a test case and the history of its test results.
+</details>
 
-> Test Runs can be planned in **Test Planning** section.
+**<details><summary>Organization</summary>**
+Created to brings together all users, teams, and projects of a company.
+
+In Katalon TestOps, the organization level is the highest level of management, followed by the team level and the project level.
+</details>
+
+**<details><summary>Path</summary>**
+The location of a test in Katalon Studio.
+
+In Katalon TestOps, each test case has a path if it is uploaded from Katalon Studio.
+</details>
+
+**<details><summary>Profile</summary>**
+An execution profile that is created in Katalon Studio (KS). 
+
+In Katalon TestOps, the KS's execution profiles are displayed as Profiles. A test run can have multiple profiles. This helps cover multiple and different environments to execute automated test scripts with ease.
+</details>
+
+**<details><summary>Properties (Visual Testing)</summary>**
+Represents the ID of a baseline image.
+</details>
+
+**<details><summary>Release</summary>**
+Represents a version or a milestone of your tested software.
+
+In Katalon TestOps, a release consists of one or more test cases.
+</details>
+
+**<details><summary>Request (API testing)</summary>**
+Represents the action of calling a server and asking it to perform a task.
+</details>
+
+**<details><summary>Requirement (Jira)</summary>**
+Represents the Jira issue that is linked to a test case.
+</details>
+
+**<details><summary>Script Repository</summary>**
+Stores all the test assets for a test automation project (tests, data files, scripts files, macros, etc.)
+
+In Katalon TestOps, you can create a script repository to manage all test scripts and decide which one to be executed along with the given test environment. You can upload files to a script repository from an external source or as a .zip file.
+</details>
+
+**<details><summary>Session</summary>**
+A session that is created once a test run is executed.
+
+In Katalon TestOps, each test run can be executed as one or many test sessions depending on whether the tests run in parallel or not.
+
+A session can contain:
+* one or more test cases
+* a test environment
+* test scripts (in a script repository) used for the execution of each test case.
+</details>
+
+**<details><summary>Test Case</summary>**
+Consists of multiple test results once a test is executed.
+
+In Katalon TestOps, you can see detailed information of test cases to see if your software is free of bugs and whether it is working as expected. You can link test cases to Jira Requirements to ensure good test coverage. A test case can be linked to one or more Requirements.
+</details>
+
+**<details><summary>Test Environment</summary>**
+A place where a test run could be executed with the command-line interface.
+
+In Katalon TestOps, you can use your local machine as a test environment. This test environment must be controlled by an agent.
+</details>
+
+**<details><summary>Test Execution</summary>**
+The results of test cases executed by TestOps scheduler.
+
+> Notes:
 >
-> After being executed, you can view their results in **Reports & Analytics** section.                                                                            
+> Not including reports uploaded from Katalon Studio or other tools.
+</details>
 
-**Examples**
+**<details><summary>Test Run</summary>**
+Consists of one or more test cases to be executed (execution of more test cases depends on whether a test run is conducted in parallel).
 
-![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-analytics/docs/view-reports-overview/report-test-run.png)
+In Katalon TestOps, a test run keeps track of all test results, status, duration, assignee, etc.
+</details>
 
-![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-analytics/docs/kt-scheduler/test-run-detail.png)
+**<details><summary>Test Run Type</summary>**
+A collection of all test runs that have the same configurations.
+</details>
 
+**<details><summary>Test Suite</summary>**
+A collection of test cases.
+</details>
 
-## Trigger
+**<details><summary>Test Suite Collection</summary>**
+A list of test suites that allows users to manage and plan test executions better.
+</details>
 
-By when the Test Run should be executed. (A Trigger can be an Event (e.g. from Github or Jira), or a time interval).   
+**<details><summary>Threshold (Agent)</summary>**
+The maximum number of sessions that an agent can execute at the same time.
+</details>
 
-**Usage**
+**<details><summary>Total Assigned Sessions (Agent)</summary>**
+The total number of sessions assigned to an agent to execute tests.
 
-**Katalon TestOps** provides you an ability to determine when the Test Run is executed so that you can actively plan your testing procedure.
-                 
-**Example**
+In Katalon TestOps, the maximum number of assigned sessions is also called Threshold.
+</details>
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-terminology/trigger.png)
+**<details><summary>Total Executing Sessions (Agent)</summary>**
+The number of sessions an agent executes in real time.
+</details>
 
-## Test Environment
+**<details><summary>Traceability Matrix</summary>**
+Manages the relationships across requirements, test cases and defects.
+</details>
 
-In what machines the Test Run should be executed. If a Test Environment is a local machine, it has to be controlled by an Agent.           
+**<details><summary>Trigger</summary>**
+Determines when a test run is executed.
 
-**Usage**
+In Katalon TestOps, this function helps leverage remote execution for complete control of the testing plan.
+</details>
 
-Used to execute test cases along with Script Repository after being configured. **Katalon TestOps** allows you to create a Test Environment with the following options:
-- Your local machine
-- Kubernetes environment
-- CircleCI environment
+**<details><summary>User Management</summary>**
+An administration tool to manage users.
 
-> Test Environments can be managed in **Configurations** section.
+In Katalon TestOps, this feature allows you to:
+* invite users to your organization (you can also set up permission access for other Katalon products).
+* delete pending invitations.
+* set and edit a user's role.
+* remove users from your organization.
+</details>
 
-**Example**
+**<details><summary>UUID (Agent)</summary>**
+An identifier that is generated when an agent is set up successfully.
+</details>
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-terminology/test-environment.png)
+**<details><summary>Visual Baseline (Visual Testing)</summary>**
+A standard reference image used to compare with the Checkpoint screenshot(s) during a test execution.
+</details>
 
+## TestOps Formulas
 
+**<details><summary>% change of Test Case (Dashboard)</summary>**
+= (Total test cases this week/Total test cases last week)*100
+</details>
 
-## Script Repository
+**<details><summary>% change of Test Result (Dashboard)</summary>**
+= (Total test results this week/Total test results last week)*100
+</details>
 
-Stores the actual test automation scripts to be executed.                           
+**<details><summary>% fail (Build)</summary>**
+= (Total failed test cases/Total test cases)*100
+</details>
 
-**Usage**
+**<details><summary>% flakiness</summary>**
+= (Number of times the status of test results changes/Total number of test results)*100
 
-Gives you a space to manage all test scripts and decide which one to be executed along with the given Test Environment. In **Katalon TestOps**, Script Repository can be a Git repository or a ZIP file. 
-
-> Script Repository can be managed in **Configurations** section.                    
-
-**Example**
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-terminology/script-repository.png)                                           
-
-
-## Test Run Type
-
-A collection of Test Runs having the same configurations.  
-
-**Usage**
-
-Gives you an ability to view the list of Test Run with similar configurations (Test Environment, Trigger, Script Repository) so that you can better manage your Test Runs.
-
-> You can find Test Run Types in **Test Planning** section.   
-
-**Example**
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-terminology/test-run-type.png)   
-
-
-## Test Session
-
-Being created once a Test Run is executed. Each Test Run can be executed as one or many Test Sessions depending on whether it is conducted parellely. 
-
-**Usage**
-
-Gives you information after executing a subset of the overall Test Run. In **Katalon TestOps**, each Test Session contains:
-- One or more Test Cases
-- Test Environment and test scripts in Script Repository used for the execution of each Test Case 
-
-**Example**                                                                          
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-terminology/test-session.png) 
-
-
-## Test Result
-
-A result of a Test Case after being executed.                                                                                                                             
-**Usage**
-
-Gives you detailed results after a Test Case is executed from **Katalon Studio** (or other apps). Usually, Test Results are organized into one or more Test Suites and can link to one or more Defects to track bugs and failures.
-
-> To view Test Result, in **Reports & Analytics**, go to Test Runs > select one Test Run to view details. Here you can view all details of the Test Case after being executed.  
-
-**Example**
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-terminology/test-result.png)
-
-## Defect
-
-Represents a Jira Issue linked to a (failed) Test Run in **Katalon TestOps**.                                                                                       
-
-**Usage**
-
-Gives you an oveview of performance of Test Runs by Jira issue so that you can have full control and awareness of any problem for better test maintenance.
-
-> You can find Defects in **Test Management** section.
+> Notes:
 >
-> Learn how to link Test Runs to Jira Defects [here](https://docs.katalon.com/katalon-analytics/docs/ka-defects.html).
+> Total number of test results =  30 latest test results (sorted by execution start time).
+</details>
 
-**Example**
+**<details><summary>% pass (Build)</summary>**
+= (Total passed test cases/Total test cases)*100
+</details>
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-terminology/defect.png)
+**<details><summary>Active/Archived Release</summary>**
+A new release is active by default. You can track it when it's active.
 
+In Katalon TestOps, you can also archive a release to stop tracking it.
+</details>
 
+**<details><summary>Active Test Case</summary>**
+A test case that has been run in the last 2 months, based on the start time of the latest execution.
+</details>
 
-## Assertion
+**<details><summary>Average Duration (Test Case)</summary>**
+= (Total duration of all test results/Total number of test results)*100
 
-A statement that a predicate (Boolean-valued function, a true–false expression) is expected to always be true at that point in the code. Assertion is the validation step that determines whether the automated Test Case succeeded or not.
-
-**Usage**
-
-**Katalon TestOps** provides you a specific view of Assertions in each Test Case. This used to evaluate the quality of Test Case and ensure that your application is working correctly by checking whether a condition is true, i.e., whether labels, data, API responses, etc., are rendered correctly.
-
-> Assertion statistics of each Test Case are displayed in the list of Test Cases from **Test Management**.
+> Notes:
 >
-> To view details of Assertions, in **Reports & Analytics**, go to Test Runs > select a Test Run to view details. Here you can view the list of Assertions with status, errors and logs.
+> The calculation is based on the last 100 test results.
+</details>
 
-**Example**
+**<details><summary>Average Duration (Web Services)</summary>**
+The average amount of time based on the last 30 execution requests (sorted by the most recent execution start time.).
+</details>
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-terminology/assertion.png)                                                                                        
-## Requirement
+**<details><summary>Development Progress (Dashboard)</summary>**
+= (Resolved Jira issues/Total Jira issues)*100
+</details>
 
-Represents a Jira Issue linked to a Test Case in **Katalon TestOps**.                
+**<details><summary>Duration (Session)</summary>**
+= (End time - Start time)
 
-**Usage**
+> Notes:
+>
+> Start time is when an agent starts receiving a job.
+>
+> End time is when uploading reports to TestOps is done.
+</details>
 
-Gives you an oveview of performance of Test Cases by Jira issue so that you can oversee the Test Case quality for better test performance. 
+**<details><summary>Duration (Test Result)</summary>**
+= (End time - Start time)
+</details>
 
-> Requirements can be managed in **Test Management** section.
+**<details><summary>Duration (Test Run)</summary>**
+= (End time - Start time)
 
-**Example**
+> Notes:
+>
+> This shows the actual time of running tests, including test runs via Scheduler and Upload Reports.
+</details>
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-terminology/requirement.png) 
+**<details><summary>Execution Time (Dashboard)</summary>**
+The total duration of test results.
+</details>
 
+**<details><summary>Flaky Test Case</summary>**
+Represents test cases that fail to produce the same results each time the same analytics is run.
+</details>
 
-## Test Case
+**<details><summary>Max/Min Duration (Web Services)</summary>**
+The max/min duration that is based on the last 30 execution requests.
+</details>
 
-Has multiple Test Results, usually when the Test Case is a data-driven one. A Test Case can link to one or more Requirements.
+**<details><summary>Offline Agent</summary>**
+An agent is offline when the time of the last Ping is longer than the active time
 
-**Usage**
+> Notes:
+>
+> By default, the active time is 5 minutes.
+</details>
 
-Ensures if different features within an application are working as expected. **Katalon TestOps** provides you detailed information of Test Cases that helps your team validate if the software is free of defects and if it is working as per your expectations. You can also link Test Cases to Jira Requirements to ensure good test coverage.
+**<details><summary>Platform Coverage (Test Case)</summary>**
+Shows the quality of test cases by operating system (OS) and browser-basis.
 
-> You can find Test Cases in **Test Management** section.
+The color of the dot indicates that the test has passed or failed.
+* Red dot = failed test
+* Green dot = passed test
 
-**Example** 
+The size of the dot represents the number of tests (e.g., the bigger the dot is, the more tests are).
+</details>
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-terminology/test-case.png)                                    
+**<details><summary>Run Frequency (Test Run)</summary>**
+A statistic of the scheduled test runs in a day.
 
+The color of the dot indicates that the test has passed or failed.
 
-## Test Suite
+The size of the dot represents the number of test results.
+</details>
 
-A collection of Test Cases.                      
+**<details><summary>Similar Failures</summary>**
+The test runs that have at least 70% of error similarities.
+</details>
 
-**Usage**
+**<details><summary>Slowest Test Case</summary>**
+A test case that has the longest average duration.
 
-Organizes Test Cases for better management and maintenance.
+Katalon TestOps ranks active test cases by their average duration. The shorter an average duration is, the more active/faster a test execution is.
+</details>
 
-> You can find Test Suites in **Test Management** section.
+**<details><summary>Stale Test Case</summary>**
+A test case that has not been run for at least 2 months.
 
-**Example**
+In real-time, the 2 month-point is calculated everytime you click to view the report.
+</details>
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-terminology/test-suite.png)                                  
+**<details><summary>Status (Release)</summary>**
+The status of a release, including:
+* *Ready*: all test cases have passed.
+* *Not Ready*: at least one test case has failed.
+* *Empty*: there's no test case linked to the release.
+</details>
+
+**<details><summary>Status (Session)</summary>**
+The status of a session, including:
+* *Queued*: session has been created, waiting to be executed. 
+* *Running*: session is in progress.
+* *Failed*: session has failed.
+* *Success*: session has succeeded.
+* *Canceled*: session is canceled manually or session timeout.
+</details>
+
+**<details><summary>Status (Test Case)</summary>**
+The status of a test case, including:
+* *Passed*: all test results have passed.
+* *Failed*: one of the test results has not passed.
+
+> Notes:
+>
+> The status of a test case is defined by its latest execution.
+</details>
+
+**<details><summary>Status (Test Result)</summary>**
+The status of a test result, including:
+* *Passed*: test case runs successfully.
+* *Failed*: test case runs unsuccessfully.
+* *Error*: an error occurs during the execution.
+* *Incomplete*: predefined in Katalon Studio.
+</details>
+
+**<details><summary>Status (Test Run)</summary>**
+The status of a test run, including:
+* *Passed*: all test results have passed.
+* *Failed*: one of the test results has failed.
+</details>
+
+**<details><summary>Status (Test Suite)</summary>**
+The status of a test suite, including:
+* *Passed*: all test cases have passed.
+* *Failed*: one of the test cases has failed.
+</details>
+
+**<details><summary>Status (Visual Checkpoint)</summary>**
+The status of a visual checkpoint, including:
+* *Pass*: checkpoint image has matched the baseline, or it's manually marked as *Pass*.
+* *Fail*: checkpoint image is marked manually as *Fail*.
+* *Unresolved*: checkpoint image has mismatched the baseline. You can compare with the baseline image, then mark it as *Pass* or *Fail*.
+</details>
+
+**<details><summary>Status (Visual Test Run)</summary>**
+The status of a visual test run, including:
+* *Pass*: all new checkpoint images match the baseline image.
+* *Fail*: one or more checkpoints have failed but no unresolved checkpoints.
+* *Unresolved*: one or more checkpoints are unresolved.
+</details>
+
+**<details><summary>Test Progress (Dashboard)</summary>**
+= (Total passed test results in release/Total test results in release)*100
+</details>
+
+**<details><summary>Test Run Coverage</summary>**
+The quality of each requirement based on the status of the corresponding test result.
+</details>
+
+**<details><summary>Time (Test Suite)</summary>**
+The duration of the last run of a test suite. Also, the start time of the last run of a test suite.
+</details>
+
+**<details><summary>Time (Visual Test Run)</summary>**
+= (End time - Start time of a visual test run)
+</details>
+
+**<details><summary>Total Duration in Summary (Test Results)</summary>**
+A sum of all test result durations in a day.
+</details>
+
+**<details><summary>Total Duration (Release)</summary>**
+The total duration of all test runs in a release.
+</details>
