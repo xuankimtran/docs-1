@@ -30,7 +30,10 @@ export ANDROID_HOME=[Your Android SDK location]
 ./katalon
 ```
 
-- For Windows: Put your Android SDK location in the Environment Variable value field.
+- For Windows: 
+    
+    1. In **Control panel**, go to **Edit the system environment variables > Enviroment Variables > System variables**.
+    2. Create a new environment variable with the **Variable** names **ANDROID HOME** and the **Value** is the path to the Android SDK root folder.
 
 <img src="" alt="Window Environment Variable">
 
