@@ -37,15 +37,14 @@ Start Katalon Studio with this command-line option instead of double-clicking on
     
     1\. Go to **Edit the system environment variables > Environment Variables > System variables**.
     
-    2\. Create a new environment variable with the **Variable** names **ANDROID HOME** and the **Value** is the path to the Android SDK root folder.
+    2\. Create a new environment variable with the **Variable** names **ANDROID_HOME** and the **Value** is the path to the Android SDK root folder.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/android-home-path/window-android-home-path.png" alt="Window Environment Variable" width="100%">
 
 >**Notes**:
 >
-> For Appium to locate the tools, keep these folders as their original name:
+> For Appium to locate the tools, keep the ADB file and these folders as their original names:
 >
-> - ADB file
 > - build-tools
 > - platform-tools
-> - tools folders
+> - tools
