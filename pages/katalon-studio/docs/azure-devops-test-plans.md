@@ -41,7 +41,7 @@ To retrieve relevant test artifacts and create test runs with test results, you 
 
 ### Step 1: Select a Project for submitting test run and results
 
-After successfully authenticating your project with Azure Server, in the drop-down list of **Project**, select an ADO project that you have access to.
+After successfully authenticating your project with the Azure Server, in the drop-down list of **Project**, select an ADO project that you have access to.
 
 To retrieve the latest projects list, click **Fetch Project**.
 
@@ -85,7 +85,7 @@ You can **Add** or **Remove** items in each section to serve your need.
 
 4. Decide what attachments to be sent together with a test run.
 
-5. With the associated Test Case ID and Test Configurations, more than one Test Point might be returned. These Test Points share the same Test Case ID and Test Configurations, yet are different in Test Suite and Tester. In this case, to decide whether Katalon Studio submits test results regardless of the number of Test Points or not, select **Submit test results for multiple test points with the same test case ID**.
+5. With the associated Test Case ID and Test Configurations, more than one Test Point might be returned. These Test Points share the same Test Case ID and Test Configurations, but can still differ depending on the Test Suite and Tester. In this case, to decide whether Katalon Studio submits test results regardless of the number of Test Points or not, select **Submit test results for multiple test points with the same test case ID**.
 
 6. To save your settings, click **Apply and Close**.
 
@@ -111,7 +111,7 @@ After a test suite execution finishes, Katalon Studio automatically adds a new t
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/result-on-ado.png" alt="new item" width=70%>
 
-## Dynamically change the information of test run in Command-line Option
+## Dynamically change the information of a test run in Command-line Option
 
 You can change the test plan ID, test run name, build and release the definition IDs of a test run by using the following command-line options:
 
