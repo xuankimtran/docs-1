@@ -24,13 +24,13 @@ Start Katalon Studio with this command-line option instead of double-clicking on
 
 - For Linux and macOS:
 
-    `$export ANDROID_HOME=<Your Android SDK location>`
+    `$ export ANDROID_HOME=<Your Android SDK location>`
 
     For example:
 
     ```groovy
-    $export ANDROID_HOME=/opt/dev/android-sdk-linux
-    ./katalon
+    $ export ANDROID_HOME=/opt/dev/android-sdk-linux
+    $ ./katalon <arguments>
     ```
 
 - For Windows:
