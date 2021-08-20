@@ -8,13 +8,13 @@ redirect_from:
 description: 
 ---
 
-> From version 8.1.0 onwards, you can submit a test run with Release information to Azure.
+> From version 8.1.0 onwards, you can submit a test run with Release information to Azure DevOps.
 
 Katalon Studio can natively integrate with the Azure Test Plans service of Azure DevOps (ADO). This integration helps you:
 
 1. Establish a connection between a Katalon Studio project and an ADO project.
 2. Easily map ADO Test Cases to automated Test Cases in Katalon Studio.
-3. Automatically submit test runs and results to ADO with execution logs, reports, and images for analysis.
+3. Automatically submit test runs and results to ADO with release information (release stage and release ID) execution logs, reports, and images for analysis.
 
 > **Requirements**
 >
@@ -51,7 +51,7 @@ After you select a project, the **Test Artifacts Mapping** and **Submission Opti
 
 ### Step 2: Map Test Artifacts between two systems
 
-You can **Add** or **Remove** items in each section to serve your need.
+You can **Add** or **Remove** item(s) in each section to serve your need.
 
 **In the Execution Status Mapping**: Match test results in Katalon Studio with test outcomes in ADO.
 
@@ -136,7 +136,7 @@ You can change the test plan ID, test run name, build and release the definition
 		</tr>
 		<tr>
 			<td data-colwidth="254">
-				<p>-adoPlanId=&lt;testplan id&gt;</p>
+				<p>-adoPlanId=&lt;testplan ID&gt;</p>
 			</td>
 			<td data-colwidth="253">
 				<p>ID of the test plan used for submitting test run(s).</p>
