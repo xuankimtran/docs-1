@@ -16,14 +16,14 @@ redirect_from:
     - "/katalon-studio/docs/webdriver-event-listeners.html"
     - "/katalon-studio/docs/automatically-update-webdriver.html"
 ---
-> To execute web tests successfully, make sure the version of browsers equal to the version of browser drivers. In case the versions are different, please try to upgrade or downgrade one of them to be similar. 
+> To execute web tests successfully, make sure the version of browsers equal to the version of browser drivers. In case the versions are different, try to upgrade or downgrade one of them to be similar. 
 >
 > Starting from **Katalon Studio version 7.0.0**, you can terminate WebDriver processes or update WebDrivers including Chrome, FireFox and Internet Explorer Drivers.
 >
 >
 ## Terminate WebDriver processes
 
-From the main toolbar, select **Tools > Web > Terminate running WebDrivers** > a pop-up message will inform whether your operation succeeds or not.
+From the main toolbar, select **Tools > Web > Terminate running WebDrivers** > a pop-up message informs whether your operation succeeds or not.
 
 <img src="url" alt="terminate-webdriver-processes" width=100%>
 
