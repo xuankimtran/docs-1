@@ -28,8 +28,8 @@ From the main toolbar, select **Tools > Web > Terminate running WebDrivers** > a
 <img src="url" alt="terminate-webdriver-processes" width=100%>
 
 ## Update a Webdriver
+>
 There are two ways to update WebDrivers:
-
 ## 1. In automatic ways
 
 From the main toolbar, select **Tools > Update WebDrivers > Select a browser in the drop-down list.**
@@ -125,10 +125,11 @@ Location:
 
 If you want to use a very old version of your current browser, you might need to downgrade browser's driver. Do it manually by downloading a specific version of Browser Drivers and replace WebDriver binaries (project-level) or Replace WebDriver binaries (application-level).
 
-> See versions of different browser drivers:
+> Versions of different browser drivers:
 > - [Chrome Drivers](https://chromedriver.chromium.org/downloads)
 > - [Gecko Drivers](https://firefox-source-docs.mozilla.org/testing/geckodriver/Support.html)
 > - [Internet Explorer](http://selenium-release.storage.googleapis.com/index.html)
+> - [Microsoft Edge](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/)
 
 **Note:**
 After updating or downgrading WebDrivers, to make sure the current version of browser driver running smoothly, it is advisible to try re-running the test to resolve and check any pop-up issues.
