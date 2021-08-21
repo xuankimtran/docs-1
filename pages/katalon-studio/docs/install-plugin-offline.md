@@ -21,15 +21,20 @@ In this document, you can find step-by-step guide on how to install plugin offli
 
 To use any plugins published on Store without accessing the Internet, follow these steps:
 
-1. Download a plugin package from Katalon Store. [Learn more](https://docs.katalon.com/katalon-store/docs/user/getting-started.html#download-plugin-packages).
-2. Unzip your downloaded plugin package
-3. Move the plugin package to **<project_name>/plugins**
+1. In [Katalon Store](https://store.katalon.com/), select the plugin you want to install. In the **Information** section, check the type of that plugin. There are two types of plugin: **Custom Keywords Plugin** and **Katalon Studio Plugin**.
 
-   > Please be noted that *Platform* plugins need storing in the **<project_name>/plugins/platform** folder.
+2. Download the plugin package. To learn how to download a plugin package, see [Download plugin packages](https://docs.katalon.com/katalon-store/docs/user/getting-started.html#download-plugin-packages).
 
-4. Open your project in Katalon Studio, and go to **Project > Settings > Plugins**, select one of the following options to use plugins offline:
+3. Unzip your downloaded plugin package.
 
-* **Katalon Store and Local**: Katalon Studio will install plugins from Store and the Plugins folder of each project.
+4. Move the plugin package **jar.** file to the following folder:
+
+- For Custom Keywords Plugin: **<project_name>/plugins**
+- For Katalon Studio Plugin: **<project_name>/plugins/platform**
+
+5. Open your project in Katalon Studio, and go to **Project > Settings > Plugins**, select one of the following options to use plugins offline:
+
+* **Katalon Store and Local**: Katalon Studio installs plugins from Store and the Plugins folder of each project. Make sure that you log in Katalon Studio and Katalon Store with the same account
 * **Local**: Katalon Studio will install plugins from the Plugins folder only.
 
-5. Click **Reload Plugins**
+6. In the **Toolbar > Your Profile**, click **Reload Plugins**.
