@@ -8,7 +8,7 @@ description:
 To leverage your testing experience, Katalon Store provides you a library of useful plugins developed by Katalon team and the community users. You can install plugins online by navigating to Katalon Store. However, there are cases when you might want to:
 
 * Install and use all the plugins that are available on the Store without the Internet required.
-* Build your plugins and use them directly in Katalon Studio without publishing on Store. See also: [Private Plugins](https://docs.katalon.com/katalon-studio/docs/kse-use-plugins.html#private-plugins)
+* Build your plugins and use them directly in Katalon Studio without publishing on Store. See also: [Private Plugins](https://docs.katalon.com/katalon-studio/docs/kse-use-plugins.html#private-plugins).
 
 In this document, you can find a step-by-step guidance on how to install plugins offline in Katalon Studio.
 
@@ -41,7 +41,7 @@ To use any plugins published on Store without accessing the Internet, follow the
 * **Katalon Store and Local**: Katalon Studio installs plugins from the Store and the **Plugins** folder of each project. Make sure that you log in Katalon Studio and Katalon Store with the same account.
 * **Local**: Katalon Studio will install plugins from the **Plugins** folder only.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/install-offline-plugin/KS-install-plugin-offline-project%20settings.png" alt="project settings" width=70%>
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/install-offline-plugin/KS-install-plugin-offline-project%20settings.png" alt="project settings" width=60%>
 
 6. In the **Toolbar > Your Profile**, click **Reload Plugins**.
 
@@ -49,4 +49,4 @@ To use any plugins published on Store without accessing the Internet, follow the
 
     The **Plugins** dialog appears with the reload status.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/install-offline-plugin/KS-install-plugin-offline-reload-success.png" alt="reload success" width=70%>
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/install-offline-plugin/KS-install-plugin-offline-reload-success.png" alt="reload success" width=60%>
