@@ -97,7 +97,7 @@ Location:
 Location:
 - `/Applications/Katalon Studio.app/Contents/Eclipse/configuration\resources\drivers\edgechromium_mac`
 
-## 3. Replace WebDriver binaries (project-level)
+### 3. Replace WebDriver binaries (project-level)
 
 WebDriver binaries can be replaced at project-level by copying new files into the `Include` directory inside the project.
 
@@ -175,7 +175,7 @@ public class MyCustomWebEventListener extends AbstractWebDriverEventListener {
 }
 ```
 
-2. Register `MyCustomWebEventListener` with WebDriver
+2. Register `MyCustomWebEventListener` with WebDriver.
 
 ```groovy
 import org.openqa.selenium.WebDriver as WebDriver
@@ -202,7 +202,7 @@ WebUI.navigateToUrl('www.google.com')
 WebUI.closeBrowser()
 ```
 
-3. Observe the result in the Console log
+3. Observe the result in the Console log.
 
 ```groovy
 2019-09-06 13:45:55.845 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 2cde39924e0651313007e6beedae94bf
