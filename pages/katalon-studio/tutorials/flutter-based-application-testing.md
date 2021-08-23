@@ -105,8 +105,7 @@ You can use Mobile keywords to automate your application. However, Katalon Mobil
                     to.getObjectId()] as Object[]))
             }, flowControl, true, to != null ? MessageFormat.format(StringConstants.KW_MSG_FAILED_TO_SET_ELEMENT_TEXT, to.getObjectId()) : StringConstants.KW_MSG_FAILED_TO_SET_ELEMENT_TEXT)
         }
-    }```
-
+    }
 </details>
 
 4. In the toolbar, select **Window > Reset Perspective...**
