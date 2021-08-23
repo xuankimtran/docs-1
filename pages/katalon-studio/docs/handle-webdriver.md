@@ -25,7 +25,7 @@ To execute web tests successfully, make sure the version of browsers is equal to
 
 From the main toolbar, select **Tools > Web > Terminate running WebDrivers** > a pop-up message informs whether your operation succeeds or not.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/handle-webdrivers/Terminate-Webdrivers.png" alt="terminate-webdriver-processes" width=100%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/handle-webdrivers/Terminate-Webdrivers.png" alt="terminate-webdriver-processes" width=70%>
 
 ## Update a Webdriver
 >
@@ -34,7 +34,7 @@ There are two possible ways to update WebDrivers:
 
 From the main toolbar, select **Tools > Update WebDrivers > Select a browser in the drop-down list.**
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/handle-webdrivers/Update-Webdrivers.png" alt="update-webdriver-automatically" width=100%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/handle-webdrivers/Update-Webdrivers.png" alt="update-webdriver-automatically" width=70%>
 
 > In the console mode, you can use this command argument, `--config -webui.autoUpdateDrivers=true`, to allow WebDriver binaries to be updated automatically. Learn more about [Console Mode Execution](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html).
 ## 2. In manual ways
