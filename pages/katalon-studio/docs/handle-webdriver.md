@@ -130,8 +130,10 @@ If you want to use a very old version of your current browser, you might need to
 > - [Gecko Drivers](https://firefox-source-docs.mozilla.org/testing/geckodriver/Support.html)
 > - [Internet Explorer](http://selenium-release.storage.googleapis.com/index.html)
 > - [Microsoft Edge](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/)
+>
 
 **Note:**
+
 After updating or downgrading WebDrivers, to make sure the current version of browser driver running smoothly, it is advisible to try re-running the test to resolve and check any pop-up issues.
 ## Use the WebDriver Object
 
@@ -153,11 +155,11 @@ The returned '**driver**' parameter will use the current browser's session launc
 
 > Starting in **Katalon Studio version 7.0.0**, the Katalon Studio's WebDriver extends the  EventFiringWebDriver.
 
-You can use [`WebDriverEventListener`](https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/support/events/WebDriverEventListener.html) to handle events triggered by the WebDriver, which happens before or after navigation; before or after a click and etc. [`EventFiringWebDriver`](https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/support/events/EventFiringWebDriver.html) is a class in Selenium that supports the WebDriver with event-driven capabilities. Those capabilities are useful for many use cases - one of which is for logging steps or triggering certain events before an operation.
+[`EventFiringWebDriver`](https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/support/events/EventFiringWebDriver.html) is a class in Selenium that supports the WebDriver with event-driven capabilities. Those capabilities are useful for many use cases - one of which is for logging steps or triggering certain events before an operation. You can use [`WebDriverEventListener`](https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/support/events/WebDriverEventListener.html) to handle events triggered by the WebDriver, which happens before or after navigation; before or after a click and etc. 
 
 Below is an example of how to add your custom `WebDriverEventListener` method:
 
-1. Create a class named `MyCustomWebEventListener` to handle WebDriver's events.
+1. [Create a class](https://docs.katalon.com/katalon-studio/docs/introduction-to-custom-keywords.html) named `MyCustomWebEventListener` to handle WebDriver's events.
 
 ```groovy
 package customlistener
@@ -173,7 +175,7 @@ public class MyCustomWebEventListener extends AbstractWebDriverEventListener {
 }
 ```
 
-2. Register MyCustomWebEventListener with WebDriver
+2. Register `MyCustomWebEventListener` with WebDriver
 
 ```groovy
 import org.openqa.selenium.WebDriver as WebDriver
@@ -218,9 +220,9 @@ Before navigating to http://www.google.com
 2019-09-06 13:45:57.091 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Ev
 ```
 
-4. Using RemoteWebDriver
+## Using RemoteWebDriver
 
-Because [`EventFiringWebDriver`](https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/support/events/EventFiringWebDriver.html) does not implement the interface ['RemoteWebDriver'](https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/remote/RemoteWebDriver.html), if your code is currently casting the WebDriver obtained from [DriverFactory](https://docs.katalon.com/katalon-studio/docs/using_selenium_webdriver_katalon_studio.html#driverfactory) as below:
+Because [`EventFiringWebDriver`](https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/support/events/EventFiringWebDriver.html) does not implement the interface ['RemoteWebDriver'](https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/remote/RemoteWebDriver.html), in case your code is currently casting the WebDriver obtained from [DriverFactory](https://docs.katalon.com/katalon-studio/docs/using_selenium_webdriver_katalon_studio.html#driverfactory) as below:
 
 ```groovy
 ....
@@ -228,7 +230,7 @@ RemoteWebDriver katalonWebDriver = (RemoteWebDriver) DriverFactory.getWebDriver(
 // Using RemoteWebDriver from now on
 
 ```
-Then starting from Katalon 7.0.0, the following exception indicates as:
+Starting from Katalon 7.0.0, the following exception shows:
 
 ```groovy
 Cannot cast object 'com.kms.katalon.core.webui.driver.SmartWaitWebDriver@7cab1508' with class 'com.kms.katalon.core.webui.driver.SmartWaitWebDriver' to class 'org.openqa.selenium.remote.RemoteWebDriver'
