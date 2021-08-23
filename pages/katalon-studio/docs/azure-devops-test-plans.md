@@ -51,7 +51,7 @@ After you select a project, the **Test Artifacts Mapping** and **Submission Opti
 
 ### Step 2: Map Test Artifacts between two systems
 
-You can **Add** or **Remove** item(s) in each section to serve your need.
+You can **Add** or **Remove** one or more items in each section to serve your need.
 
 **In the Execution Status Mapping**: Match test results in Katalon Studio with test outcomes in ADO.
 
