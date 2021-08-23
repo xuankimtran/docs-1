@@ -38,7 +38,13 @@ From the main toolbar, select **Tools > Update WebDrivers > Select a browser in 
 
 > In the console mode, you can use this command argument, `--config -webui.autoUpdateDrivers=true`, to allow WebDriver binaries to be updated automatically. Learn more about [Console Mode Execution](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html).
 ## 2. In manual ways
-
+>
+> Versions of browser drivers:
+> - [Chrome Drivers](https://chromedriver.chromium.org/downloads)
+> - [Gecko Drivers](https://firefox-source-docs.mozilla.org/testing/geckodriver/Support.html)
+> - [Internet Explorer](http://selenium-release.storage.googleapis.com/index.html)
+> - [Microsoft Edge](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/)
+> 
 ### 1. Replace Selenium library
 
 Location:
@@ -123,18 +129,11 @@ Location:
 
 ## Downgrade a WebDriver:
 
-If you want to use an older version of your current browser, you might need to downgrade the browser's driver. Do it manually by downloading a specific version of Browser Drivers and replacing WebDriver binaries (project-level) or Replacing WebDriver binaries (application-level).
+If you want to use an older version of your current browser, you might need to downgrade the browser's driver. Do it manually by downloading a specific version of Browser Drivers and Replacing WebDriver binaries (project-level) or Replacing WebDriver binaries (application-level).
 
-> Versions of browser drivers:
-> - [Chrome Drivers](https://chromedriver.chromium.org/downloads)
-> - [Gecko Drivers](https://firefox-source-docs.mozilla.org/testing/geckodriver/Support.html)
-> - [Internet Explorer](http://selenium-release.storage.googleapis.com/index.html)
-> - [Microsoft Edge](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/)
+>**Re-run the tests**
 >
-
-**Note:**
-
-After updating or downgrading WebDrivers, to make sure the current version of the browser driver is running smoothly, it is advisable to try re-running the test to resolve and check any pop-up issues.
+> After updating or downgrading WebDrivers, to make sure the current version of the browser driver is running smoothly, it is advisable to try **re-running the test** to resolve and check any pop-up issues.
 ## Use the WebDriver Object
 
 To use the current session created by Katalon Studio, you can refer to example code as below:  
