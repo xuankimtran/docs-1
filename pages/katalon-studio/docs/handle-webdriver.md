@@ -16,7 +16,7 @@ redirect_from:
     - "/katalon-studio/docs/webdriver-event-listeners.html"
     - "/katalon-studio/docs/automatically-update-webdriver.html"
 ---
-To execute web tests successfully, make sure the version of browsers equal to the version of browser drivers. In case the versions are different, try to upgrade or downgrade one of them to be similar. Learn more about [Common exceptions in Katalon Studio](https://docs.katalon.com/katalon-studio/docs/troubleshoot-common-execution-exceptions-web-test.html).
+To execute web tests successfully, make sure the version of browsers is equal to the version of browser drivers. In case the versions are different, try to upgrade or downgrade one of them to be similar. Learn more about [Common exceptions in Katalon Studio](https://docs.katalon.com/katalon-studio/docs/troubleshoot-common-execution-exceptions-web-test.html).
 >
 > Starting from **Katalon Studio version 7.0.0**, you can terminate WebDriver processes or update WebDrivers including Chrome, FireFox and Internet Explorer Drivers.
 >
@@ -99,7 +99,7 @@ Location:
 
 ### 3. Replace WebDriver binaries (project-level)
 
-WebDriver binaries can be replaced at project-level by copying new files into the `Include` directory inside the project.
+WebDriver binaries are replaceable at project-level by copying new files into the `Include` directory inside the project.
 
 Location:
 
@@ -123,7 +123,7 @@ Location:
 
 ## Downgrade a WebDriver:
 
-If you want to use a very old version of your current browser, you might need to downgrade browser's driver. Do it manually by downloading a specific version of Browser Drivers and replace WebDriver binaries (project-level) or Replace WebDriver binaries (application-level).
+If you want to use an older version of your current browser, you might need to downgrade the browser's driver. Do it manually by downloading a specific version of Browser Drivers and replacing WebDriver binaries (project-level) or Replacing WebDriver binaries (application-level).
 
 > Versions of browser drivers:
 > - [Chrome Drivers](https://chromedriver.chromium.org/downloads)
@@ -134,7 +134,7 @@ If you want to use a very old version of your current browser, you might need to
 
 **Note:**
 
-After updating or downgrading WebDrivers, to make sure the current version of browser driver running smoothly, it is advisible to try re-running the test to resolve and check any pop-up issues.
+After updating or downgrading WebDrivers, to make sure the current version of the browser driver is running smoothly, it is advisable to try re-running the test to resolve and check any pop-up issues.
 ## Use the WebDriver Object
 
 To use the current session created by Katalon Studio, you can refer to example code as below:  
@@ -149,13 +149,13 @@ WebDriver driver = DriverFactory.getWebDriver()
 
 ```
 
-The returned '**driver**' parameter will use the current browser's session launched by Katalon Studio. You need to import necessary libraries also (can be done by pressing **Ctrl + Shift + O**).
+The returned '**driver**' parameter will use the current browser's session launched by Katalon Studio. You also need to import necessary libraries (can be done by pressing **Ctrl + Shift + O**).
 
 ## Use WebDriver Event Listeners
 
 > Starting in **Katalon Studio version 7.0.0**, the Katalon Studio's WebDriver extends the  EventFiringWebDriver.
 
-[`EventFiringWebDriver`](https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/support/events/EventFiringWebDriver.html) is a class in Selenium that supports the WebDriver with event-driven capabilities. Those capabilities are useful for many use cases - one of which is for logging steps or triggering certain events before an operation. You can use [`WebDriverEventListener`](https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/support/events/WebDriverEventListener.html) to handle events triggered by the WebDriver, which happens before or after navigation; before or after a click and etc. 
+[`EventFiringWebDriver`](https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/support/events/EventFiringWebDriver.html) is a class in Selenium that supports the WebDriver with event-driven capabilities. Those capabilities are helpful for many use cases - one of which is for logging steps or triggering certain events before an operation. You can use [`WebDriverEventListener`](https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/support/events/WebDriverEventListener.html) to handle events started by the WebDriver, which happens before or after navigation; before or after a click, etc. 
 
 Below is an example of how to add your custom `WebDriverEventListener` method:
 
