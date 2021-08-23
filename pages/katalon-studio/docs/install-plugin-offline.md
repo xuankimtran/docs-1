@@ -5,12 +5,12 @@ permalink: katalon-studio/docs/install-plugin-offline.html
 redirect_from:
 description:
 ---
-To leverage your testing experience, Katalon Store provides you a library of useful plugins developed by Katalon team and the community users. You can intall plugins online by navigating to Katalon Store. However, there are cases when you might want to:
+To leverage your testing experience, Katalon Store provides you a library of useful plugins developed by Katalon team and the community users. You can install plugins online by navigating to Katalon Store. However, there are cases when you might want to:
 
-* Install and use all the plugins that are available on Store without the Internet required.
-* Build your plugins and use them directly in Katalon Studio without publishing on Store.
+* Install and use all the plugins that are available on the Store without the Internet required.
+* Build your plugins and use them directly in Katalon Studio without publishing on Store. See also: [Private Plugins](https://docs.katalon.com/katalon-studio/docs/kse-use-plugins.html#private-plugins)
 
-In this document, you can find step-by-step guide on how to install plugin offline in Katalon Studio.
+In this document, you can find a step-by-step guidance on how to install plugins offline in Katalon Studio.
 
 ## Install Plugin Offline
 
@@ -21,7 +21,9 @@ In this document, you can find step-by-step guide on how to install plugin offli
 
 To use any plugins published on Store without accessing the Internet, follow these steps:
 
-1. In [Katalon Store](https://store.katalon.com/), select the plugin you want to install. In the **Information** section, check the type of that plugin. There are two types of plugin: **Custom Keywords Plugin** and **Katalon Studio Plugin**.
+1. In [Katalon Store](https://store.katalon.com/), select the plugin you want to install. In the **Information** section, check the type of that plugin. There are two types of plugins: **Custom Keywords Plugin** and **Katalon Studio Plugin**.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/install-offline-plugin/KS-install-plugin-offline-plugin-type.png" alt="Plugin Type" width=100%>
 
 2. Download the plugin package. To learn how to download a plugin package, see [Download plugin packages](https://docs.katalon.com/katalon-store/docs/user/getting-started.html#download-plugin-packages).
 
@@ -29,12 +31,22 @@ To use any plugins published on Store without accessing the Internet, follow the
 
 4. Move the plugin package **jar.** file to the following folder:
 
-- For Custom Keywords Plugin: **<project_name>/plugins**
-- For Katalon Studio Plugin: **<project_name>/plugins/platform**
+    * For Custom Keywords Plugin: **<project_name>/plugins**
+    * For Katalon Studio Plugin: **<project_name>/plugins/platform**
 
-5. Open your project in Katalon Studio, and go to **Project > Settings > Plugins**, select one of the following options to use plugins offline:
+        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/install-offline-plugin/KS-install-plugin-offline-platform.png" alt="Platform Plugin" width=70%>
 
-* **Katalon Store and Local**: Katalon Studio installs plugins from Store and the Plugins folder of each project. Make sure that you log in Katalon Studio and Katalon Store with the same account
-* **Local**: Katalon Studio will install plugins from the Plugins folder only.
+5. Open your project in Katalon Studio and go to **Project > Settings > Plugins**. Select one of the following options to use plugins offline:
+
+* **Katalon Store and Local**: Katalon Studio installs plugins from the Store and the **Plugins** folder of each project. Make sure that you log in Katalon Studio and Katalon Store with the same account.
+* **Local**: Katalon Studio will install plugins from the **Plugins** folder only.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/install-offline-plugin/KS-install-plugin-offline-project%20settings.png" alt="project settings" width=70%>
 
 6. In the **Toolbar > Your Profile**, click **Reload Plugins**.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/install-offline-plugin/KS-install-plugin-offline-reload.png" alt="Reload plugin" width=40%>
+
+    The **Plugins** dialog appears with the reload status.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/install-offline-plugin/KS-install-plugin-offline-reload-success.png" alt="reload success" width=70%>
