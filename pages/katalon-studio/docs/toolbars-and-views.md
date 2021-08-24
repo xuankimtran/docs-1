@@ -9,16 +9,206 @@ redirect_from:
     - "/katalon-studio/docs/toolbars-and-views/"
 description:
 ---
-Toolbar
--------
+## Toolbar
 
-> Since version 5.6
+> Since version 8.1.0.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-8-1-143A573A20.png)
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-toobar-full.png" alt="full toolbar" width=100%>
 
-The main **Toolbar** contains the most common actions which you usually perform (e.g. creating test resources or executing automation tests).
+The Main **Toolbar** contains the most common actions you usually perform (e.g., creating test resources or executing automation tests).
+### System features
 
-<table><thead><tr><th>Icon</th><th>Description</th></tr></thead><tbody><tr><td><p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A193A48.png"></p></td><td>Save the current opened test artifact.</td></tr><tr><td><p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A193A17.png"></p></td><td>Save all opened test artifacts.</td></tr><tr><td><p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A183A47.png"></p></td><td><p>Create new test artifacts. You can select these options by selecting from dropdownlist:</p><ul><li>Folder</li><li>Test Case</li><li>Test Suite</li><li>Test Suite Collection</li><li>Test Object</li><li>Web Service Request</li><li>Test Data</li><li>Checkpoint</li><li>Package</li><li>Keyword</li></ul></td></tr><tr><td><p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A203A11.png"></p></td><td>Open <strong>Web</strong> <strong>Object Spy</strong> dialog for capturing elements on websites.</td></tr><tr><td><p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A203A32.png"></p></td><td>Open <strong>Mobile Object Spy</strong> dialog for capturing elements on mobile applications.</td></tr><tr><td><p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A213A15.png"></p></td><td>Open <strong>Web</strong> <strong>Record</strong> dialog for recording WebUI test cases.</td></tr><tr><td><p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A203A56.png"></p></td><td>Open <strong>Mobile Recorder</strong> dialog for recording Mobile test cases.</td></tr><tr><td><p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A213A34.png"></p></td><td><p>Run the current open test case. You can select these options by selecting from dropdownlist:</p><ul><li>Chrome</li><li>Firefox</li><li>IE</li><li>Safari</li><li>Edge</li><li>Remote</li><li>Headless</li><li>Android</li><li>iOS (on macOS)</li><li>Custom</li></ul></td></tr><tr><td><p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A223A4.png"></p></td><td><p>Debug the current open test case. You can select these options by selecting from dropdownlist:</p><ul><li>Chrome</li><li>Firefox</li><li>IE</li><li>Safari</li><li>Edge</li><li>Remote</li><li>Headless</li><li>Android</li><li>iOS (on macOS)</li><li>Custom</li></ul></td></tr><tr><td><p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A223A28.png"></p></td><td>Stop the current execution</td></tr><tr><td><p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A223A45.png"></p></td><td>Open <strong>Command Builder</strong> for generating commands for console execution</td></tr><tr><td><p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A233A4.png"></p></td><td><p>Command for Git activities. You can select these options by selecting from dropdownlist (after <a class="external-link" href="/display/KD/Git+Integration" rel="nofollow">enabling Git</a>):</p><ul><li>Clone Project</li><li>Share Project</li><li>Show History</li><li>Manage Branches</li><li>Commit</li><li>Push</li><li>Pull</li><li>Fetch</li></ul></td></tr><tr><td><p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A233A24.png"></p></td><td>Import test case from JIRA integrated account</td></tr><tr><td><p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-3-153A93A34.png"></p></td><td>Execution profile (testing environments) to be applied when run tests</td></tr><tr><td><p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-8-1-113A263A34.png"></p></td><td>Allowing you to search for help on Katalon Documentation and our Forum</td></tr><tr><td><p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-8-1-143A93A36.png"></p></td><td>If you have any further questions, you can also submit it in our Gitter channel. Katalon experts and users will try to help you as soon as possible.</td></tr></tbody></table>
+<table>
+	<thead>
+		<tr>
+			<th>Icon</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>
+				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A193A48.png" width=20% alt="Save" /></p>
+			</td>
+			<td>Save the currently opened test artifact.</td>
+		</tr>
+		<tr>
+			<td>
+				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A193A17.png" width=20% alt="Save all" /></p>
+			</td>
+			<td>Save all opened test artifacts.</td>
+		</tr>
+		<tr>
+			<td>
+				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A203A11.png" width=20% alt="Web Object Spy" /></p>
+			</td>
+			<td>Open <strong>Web Object Spy</strong> dialog for capturing elements on websites.</td>
+		</tr>
+		<tr>
+			<td>
+				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A203A32.png" width=20% alt="Mobile Object Spy" /></p>
+			</td>
+			<td>Open <strong>Mobile Object Spy</strong> dialog for capturing elements on mobile applications.</td>
+		</tr>
+        <tr>
+			<td>
+				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-toolbar-window-spy.png" width=20% alt="Window Spy" /></p>
+			</td>
+			<td>Open <strong>Window Spy</strong> dialog for capturing elements on window.</td>
+		</tr>
+		<tr>
+			<td>
+				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A213A15.png" width=20% alt="Web Record" /></p>
+			</td>
+			<td>Open <strong>Web Record</strong> dialog for recording WebUI test cases.</td>
+		</tr>
+        <tr>
+			<td>
+				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A203A56.png" width=20% alt="Mobile Recorder" /></p>
+			</td>
+			<td>Open <strong>Mobile Recorder</strong> dialog for recording Mobile test cases.</td>
+		</tr>
+        <tr>
+			<td>
+				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-toolbar-window-recorder.png" width=20% alt="Window Recorder" /></p>
+			</td>
+			<td>Open <strong>Window Recorder</strong> dialog for recording Window test cases.</td>
+		</tr>
+		<tr>
+			<td>
+				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A213A34.png" width=30% alt="Run" /></p>
+			</td>
+			<td>
+				<p>Run the currently open test case. You can select these options by selecting from the dropdown list:</p>
+				<ul>
+					<li>Chrome</li>
+					<li>Firefox</li>
+					<li>IE</li>
+					<li>Safari</li>
+					<li>Edge</li>
+					<li>Remote</li>
+					<li>Headless</li>
+					<li>Android</li>
+					<li>iOS (on macOS)</li>
+					<li>Custom</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A223A4.png" width=30% alt="Run and debug" /></p>
+			</td>
+			<td>
+				<p>Run and debug the currently open test case. You can select these options by selecting from the dropdown list:</p>
+				<ul>
+					<li>Chrome</li>
+					<li>Firefox</li>
+					<li>IE</li>
+					<li>Safari</li>
+					<li>Edge</li>
+					<li>Remote</li>
+					<li>Headless</li>
+					<li>Android</li>
+					<li>iOS (on macOS)</li>
+					<li>Custom</li>
+				</ul>
+			</td>
+		</tr>
+<tr>
+			<td>
+				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-toolbar-debug.png" width=30% alt="Debug" /></p>
+			</td>
+			<td>
+				Debug the currently open test case. See <a href="https://docs.katalon.com/katalon-studio/docs/execute-a-test-case-or-a-test-suite.html#debug-a-test-case">Debug a test case</a>.
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-toolbar-stop.png" width=20% alt="Stop" /></p>
+			</td>
+			<td>Stop the current execution.</td>
+		</tr>
+		<tr>
+			<td>
+				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A223A45.png" width=20% alt="" /></p>
+			</td>
+			<td>Open <strong>Command Builder</strong> for generating commands for console execution.</td>
+		</tr>
+		<tr>
+			<td>
+				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-3-153A93A34.png" width=40% alt="Execution profile" /></p>
+			</td>
+			<td>Execution profile (testing environments) to be applied when run tests.</td>
+		</tr>
+		<tr>
+			<td>
+				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-toolbar-community.png" width=20% alt="" /></p>
+			</td>
+			<td>Allow you to access our Help Center and our Forum.</td>
+		</tr>
+		<tr>
+			<td>
+				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-toolbar-community-2.png" width=40% alt="" /></p>
+			</td>
+			<td>You can also submit any feedback or further questions to our channel. Katalon experts and users will try to help you as soon as possible.</td>
+		</tr>
+	</tbody>
+</table>
+
+### Plugin Features
+
+<table>
+	<thead>
+		<tr>
+			<th>Icon</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+        <tr>
+			<td>
+				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-toolbar-git.png" width=30% alt="" /></p>
+			</td>
+			<td>
+				<p>Command for Git activities. You can select these options by selecting from the dropdown list (after <a href="/display/KD/Git+Integration" rel="nofollow">enabling Git</a>):</p>
+				<ul>
+					<li>Clone Project</li>
+					<li>Share Project</li>
+					<li>Show History</li>
+					<li>Manage Branches</li>
+					<li>Commit</li>
+					<li>Push</li>
+					<li>Pull</li>
+					<li>Fetch</li>
+				</ul>
+			</td>
+		</tr>
+        <tr>
+			<td>
+				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-toolbar-TestOps.png" width=30% alt="TestOps" /></p>
+			</td>
+			<td><a href="https://docs.katalon.com/katalon-analytics/docs/overview.html" rel="nofollow">Katalon TestOps</a> is an enterprise-class platform for QA orchestration, test analytics, and advanced reports.</td>
+		</tr>
+        <tr>
+			<td>
+				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-toolbar-applitool.png" width=30% alt="Applitool" /></p>
+			</td>
+			<td><a href="https://docs.katalon.com/katalon-studio/docs/applitools-integration.html#configure-applitools-integration" rel="nofollow">Applitools</a> is a visual-based testing built-in for both Recording and Scripting modes.</td>
+		</tr>
+        <tr>
+			<td>
+				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-toolbar-self-healing.png" width=30% alt="Selfhealing" /></p>
+			</td>
+			<td><a href="https://docs.katalon.com/katalon-recorder/docs/self-healing.html#enabling-and-disabling-self-healing" rel="nofollow">Self-Healing</a> automatically tries out other locators when the default locator fails.</td>
+		</tr>
+		<tr>
+			<td>
+				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-toolbar-Jira.png" width=30% alt="" /></p>
+			</td>
+			<td>Import test case from <a href="https://store.katalon.com/product/3/Jira-Integration" rel="nofollow">JIRA integrated</a> account.</td>
+		</tr>
+	</tbody>
+</table>
 
 Tests Explorer View
 -------------------
