@@ -9,6 +9,8 @@ items:
             url: /katalon-studio/docs/trial-free-plans.html
           - title: "Online and Offline Licenses"
             url: /katalon-studio/docs/online-offline-licenses.html
+          - title: "On-Premises License Server"  
+            url: /katalon-studio/docs/license-server.html
           - title: "Subscribe to Katalon licenses"
             tree:
               - title: "Katalon License Subscription"
@@ -341,7 +343,7 @@ items:
                     url: /katalon-studio/docs/spy-mobile-utility.html
                   - title: "Spy and Record Utilities for testing an existing application"
                     url: /katalon-studio/docs/mobile-spy-record-existing-apps.html
-              - title: "Testing Mobile Apps using Katalon Studio and Kobiton’s cloud-based device farm"
+              - title: "Testing Mobile Apps using Katalon Studio and Kobiton's cloud-based device farm"
                 url: /katalon-studio/docs/testing_mobile_apps_using_katalon_studio_kobiton.html
               - title: "Testing Mobile Apps using Custom Cloud Devices"
                 url: /katalon-studio/docs/mobile-testing-apps-cloud-devices.html
