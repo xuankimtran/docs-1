@@ -28,55 +28,55 @@ The Main **Toolbar** contains the most common actions you usually perform (e.g
 	<tbody>
 		<tr>
 			<td>
-				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A193A48.png" width=20% alt="Save" /></p>
+				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A193A48.png" width=30% alt="Save" /></p>
 			</td>
 			<td>Save the currently opened test artifact.</td>
 		</tr>
 		<tr>
 			<td>
-				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A193A17.png" width=20% alt="Save all" /></p>
+				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A193A17.png" width=30% alt="Save all" /></p>
 			</td>
 			<td>Save all opened test artifacts.</td>
 		</tr>
 		<tr>
 			<td>
-				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A203A11.png" width=20% alt="Web Object Spy" /></p>
+				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A203A11.png" width=30% alt="Web Object Spy" /></p>
 			</td>
 			<td>Open <strong>Web Object Spy</strong> dialog for capturing elements on websites.</td>
 		</tr>
 		<tr>
 			<td>
-				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A203A32.png" width=20% alt="Mobile Object Spy" /></p>
+				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A203A32.png" width=30% alt="Mobile Object Spy" /></p>
 			</td>
 			<td>Open <strong>Mobile Object Spy</strong> dialog for capturing elements on mobile applications.</td>
 		</tr>
         <tr>
 			<td>
-				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-toolbar-window-spy.png" width=20% alt="Window Spy" /></p>
+				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-toolbar-window-spy.png" width=30% alt="Window Spy" /></p>
 			</td>
 			<td>Open <strong>Window Spy</strong> dialog for capturing elements on window.</td>
 		</tr>
 		<tr>
 			<td>
-				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A213A15.png" width=20% alt="Web Record" /></p>
+				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A213A15.png" width=30% alt="Web Record" /></p>
 			</td>
 			<td>Open <strong>Web Record</strong> dialog for recording WebUI test cases.</td>
 		</tr>
         <tr>
 			<td>
-				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A203A56.png" width=20% alt="Mobile Recorder" /></p>
+				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A203A56.png" width=30% alt="Mobile Recorder" /></p>
 			</td>
 			<td>Open <strong>Mobile Recorder</strong> dialog for recording Mobile test cases.</td>
 		</tr>
         <tr>
 			<td>
-				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-toolbar-window-recorder.png" width=20% alt="Window Recorder" /></p>
+				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-toolbar-window-recorder.png" width=30% alt="Window Recorder" /></p>
 			</td>
 			<td>Open <strong>Window Recorder</strong> dialog for recording Window test cases.</td>
 		</tr>
 		<tr>
 			<td>
-				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A213A34.png" width=30% alt="Run" /></p>
+				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A213A34.png" width=40% alt="Run" /></p>
 			</td>
 			<td>
 				<p>Run the currently open test case. You can select these options by selecting from the dropdown list:</p>
@@ -96,7 +96,7 @@ The Main **Toolbar** contains the most common actions you usually perform (e.g
 		</tr>
 		<tr>
 			<td>
-				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A223A4.png" width=30% alt="Run and debug" /></p>
+				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A223A4.png" width=40% alt="Run and debug" /></p>
 			</td>
 			<td>
 				<p>Run and debug the currently open test case. You can select these options by selecting from the dropdown list:</p>
@@ -116,7 +116,7 @@ The Main **Toolbar** contains the most common actions you usually perform (e.g
 		</tr>
 <tr>
 			<td>
-				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-toolbar-debug.png" width=30% alt="Debug" /></p>
+				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-toolbar-debug.png" width=40% alt="Debug" /></p>
 			</td>
 			<td>
 				Debug the currently open test case. See <a href="https://docs.katalon.com/katalon-studio/docs/execute-a-test-case-or-a-test-suite.html#debug-a-test-case">Debug a test case</a>.
@@ -124,31 +124,31 @@ The Main **Toolbar** contains the most common actions you usually perform (e.g
 		</tr>
 		<tr>
 			<td>
-				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-toolbar-stop.png" width=20% alt="Stop" /></p>
+				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-toolbar-stop.png" width=30% alt="Stop" /></p>
 			</td>
 			<td>Stop the current execution.</td>
 		</tr>
 		<tr>
 			<td>
-				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A223A45.png" width=20% alt="" /></p>
+				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A223A45.png" width=30% alt="" /></p>
 			</td>
 			<td>Open <strong>Command Builder</strong> for generating commands for console execution.</td>
 		</tr>
 		<tr>
 			<td>
-				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-3-153A93A34.png" width=40% alt="Execution profile" /></p>
+				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-3-153A93A34.png" width=50% alt="Execution profile" /></p>
 			</td>
 			<td>Execution profile (testing environments) to be applied when run tests.</td>
 		</tr>
 		<tr>
 			<td>
-				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-toolbar-community.png" width=20% alt="" /></p>
+				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-toolbar-community.png" width=30% alt="" /></p>
 			</td>
 			<td>Allow you to access our Help Center and our Forum.</td>
 		</tr>
 		<tr>
 			<td>
-				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-toolbar-community-2.png" width=40% alt="" /></p>
+				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-toolbar-community-2.png" width=50% alt="" /></p>
 			</td>
 			<td>You can also submit any feedback or further questions to our channel. Katalon experts and users will try to help you as soon as possible.</td>
 		</tr>
@@ -203,7 +203,7 @@ The Main **Toolbar** contains the most common actions you usually perform (e.g
 		</tr>
 		<tr>
 			<td>
-				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-toolbar-Jira.png" width=30% alt="" /></p>
+				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-toolbar-Jira.png" width=35% alt="" /></p>
 			</td>
 			<td>Import test case from <a href="https://store.katalon.com/product/3/Jira-Integration" rel="nofollow">JIRA integrated</a> account.</td>
 		</tr>
