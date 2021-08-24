@@ -15,8 +15,9 @@ description:
 
 This article shows how to execute a test with different broswers locales with [Desired Capabilities](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html).
 
-## Use Data-driven tests with Desired Capability
+## Use Configured Desired Capability with data-driven tests.
+
 ### 1. Create a new test
 ### 2. Create a test suite
 
-## Use custom profiles in Desired Capabilities
+## Use Custom Desired Capabilities
