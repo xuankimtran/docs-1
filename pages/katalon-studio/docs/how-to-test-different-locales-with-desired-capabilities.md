@@ -12,8 +12,8 @@ description:
 > - Katalon Studio version 8.0.0 onwards
 > - Katalon Runtime Engine version 8.0.0 onwards
 
-
-This article shows steps by steps as of how to execute different browser locale tests with [Desired Capabilities](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html).
+For Chrome’s current design, the UI language sets default by the first/main Chrome window that opens. In order words, if you wish to alters browser locales using `chrome --lang=de`\\start Chrome with German, the Chrome browser still starts with its default language.
+Nevertheless, with [Desired Capabilities](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html), you can now test different browser locals with two possible approaches. 
 
 > From 8.0.0 onwards, you can [reusing Desired Capabilities across project](https://docs.katalon.com/katalon-studio/docs/import-export-desired-capabilities.html). 
 
@@ -106,16 +106,17 @@ Follow this video tutorial shows to configure [Selenium Grid Hub & Node](https:/
 2. Create a new Custom profile in Desired Capabilities function. 
 - Go to **Project > Settings > Desired Capabilities > Custom.**
 
-<img src="url" width=100% alt="Custom Desired Capabililities">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Custom%20Desired%20Capabilities.png" width=100% alt="Custom Desired Capabililities">
 
 - Click **Add** on the command toolbar to add a language custom execution.
 - Change the name into the language you want to test for better recognition, then click on the **More** icon under the **Value** column.
   
-<img src="url" width=100% alt="Set value for custom Desired Capabilities">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Set%20Value%20for%20Custom%20Execution%20Configuration%20Builder.png" width=100% alt="Set value for custom Desired Capabilities">
+
 
 - In the **Custom Execution Configuration Builder** dialog, specify the **Driver Name** as **Remote**, then click on the **More** icon under the **Preferences** column.
  
- <img src="url" width=100% alt="Set Remote Control for custom Desired Capabilities">
+ <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Set%20Remote%20Control%20for%20custom%20Desired%20Capabilities.png" width=100% alt="Set value for custom Desired Capabilities">
 
 - In the **Driver Builder** dialog, fill in appeared criterias as below:
   1. Remote Server URL: `http://localhost:port/wd/hub`
@@ -146,7 +147,6 @@ Follow this video tutorial shows to configure [Selenium Grid Hub & Node](https:/
 </tbody>
 </table>  
 
- <img src="url" width=100% alt="Set language custom in Remote Control dialog"> 
 
   4. In the opened **Dictionary Property Builder**, input
 <table width="781">
@@ -196,7 +196,9 @@ Follow this video tutorial shows to configure [Selenium Grid Hub & Node](https:/
    6. The results after a series of above command is
   
 
- <img src="url" width=100% alt="Results after setting up custom language Remote Control dialog"> 
+ <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Final%20results%20with%20customs%20in%20DC.png" width=100% alt="Results after setting up custom language Remote Control dialog"> 
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Final%20results.png" width=100% alt="Final Results"> 
 
 
 
