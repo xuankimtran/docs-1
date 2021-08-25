@@ -1,5 +1,5 @@
 ---
-title: "How to test different browser locales with Desired Capabilities?"
+title: "How to test different browser locales in Chrome with Desired Capabilities?"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/how-to-test-different-browser-locales-with-Desired-Capabilities.html
 redirect_from:
@@ -10,14 +10,14 @@ description:
 >**Requirements**
 >
 > - Katalon Studio version 8.0.0 onwards
-> - Katalon Runtime Engine version 8.0.0 onwards
 
-For Chrome’s current design, the UI language sets default by the first/main Chrome window that opens. In order words, if you wish to alters browser locales using `chrome --lang=de`\\start Chrome with German, the Chrome browser still starts with its default language.
-Nevertheless, with [Desired Capabilities](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html), you can now test different browser locals with two possible approaches. 
+
+For Chrome’s current design, the UI language sets default by the first/main Chrome window that opens. In order words, if you wish to alters browser locales using `chrome --lang=de`\\start Chrome with German, Chrome Driver still picks the default language from the Chrome browser.
+Nevertheless, with [Desired Capabilities](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html), you can now test different browser locales with two possible approaches. 
 
 > From 8.0.0 onwards, you can [reusing Desired Capabilities across project](https://docs.katalon.com/katalon-studio/docs/import-export-desired-capabilities.html). 
 
-The following example is to Open and Close Browser showing in English, Spanish, French.
+The following example is to test Chrome Browser in English, Spanish, French.
 ## Use Configured Desired Capability with Test Case Variables.
 
 Do as follow:
@@ -84,26 +84,22 @@ Create a new [Test Suite with Test Case Variable](https://docs.katalon.com/katal
 
 ## Use Custom Profiles in Desired Capabilities
 
-Before starting, make sure that you have:
-- [Downloaded](https://www.selenium.dev/downloads/) Selenium Grid Hub. This app is presiquite to activate Remote Execution for WebUI. The configuration of [Selenium Grid Hub](https://www.lambdatest.com/blog/selenium-remotewebdriver/) is Step 2 of the following tutorial.
-
-
-The idea is to use [Custom Desired Capabilities](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html#remote-server) to define a certain language option for execution.
+The purpose of this approach is to create a custom profile with the desired language settings,then combine with Remote Server to open `chromedriver.exe` using this profile.
+The idea is to use [Custom Desired Capabilities](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html#remote-server) combined with Selenium Remote WebDriver to alter pre-set language in Chrome.
 
 Do as follow:
 
 1. Implement Selenium Grid Hub & Node
 
-- [Downloaded](https://www.selenium.dev/downloads/) Selenium Grid.
-Selenium Grid is presiquite to activate Remote Execution in Katalon Studio.
-Follow this video tutorial shows to configure [Selenium Grid Hub & Node](https://docs.katalon.com/katalon-studio/videos/test_execution_on_remote_machines.html)
+- [Downloaded](https://www.selenium.dev/downloads/) Selenium Grid. Selenium Grid is presiquite to activate Remote Execution in Katalon Studio.
+- Follow this video tutorial shows to configure [Selenium Grid Hub & Node](https://docs.katalon.com/katalon-studio/videos/test_execution_on_remote_machines.html)
 
 **Note:**
 - Make sure to change the version number from the command accordingly.
 - Selenium Grid server is up and running till the time command prompt window closes.
 - Selenium Grid, by default uses port <4444> for its web interface. To start the same on other port, use this command: `java -jar selenium-server-standalone-3.3.1.jar -port 4455 -role hub`
 
-2. Create a new Custom profile in Desired Capabilities function. 
+1. Create a new Custom profile in Desired Capabilities function. 
 - Go to **Project > Settings > Desired Capabilities > Custom.**
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Custom%20Desired%20Capabilities.png" width=100% alt="Custom Desired Capabililities">
@@ -116,12 +112,10 @@ Follow this video tutorial shows to configure [Selenium Grid Hub & Node](https:/
 
 - In the **Custom Execution Configuration Builder** dialog, specify the **Driver Name** as **Remote**, then click on the **More** icon under the **Preferences** column.
  
- <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Set%20Remote%20Control%20for%20custom%20Desired%20Capabilities.png" width=100% alt="Set value for custom Desired Capabilities">
+ <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Custom%20Execution%20Configuration%20Builder.jpg" width=100% alt="Set value for custom Desired Capabilities">
 
 - In the **Driver Builder** dialog, fill in appeared criterias as below:
-  1. Remote Server URL: `http://localhost:port/wd/hub`
-   
-**where** localhost is your [machine IP address](https://www.avast.com/c-how-to-find-ip-address).
+  1. Remote Server URL: `http://localhost:port/wd/hub` **where** localhost is your [machine IP address](https://www.avast.com/c-how-to-find-ip-address).
 
   2. Remote Server Type: Choose **Selenium**
   3. Click **Add** on the command toolbar as following command
@@ -199,9 +193,6 @@ Follow this video tutorial shows to configure [Selenium Grid Hub & Node](https:/
  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Final%20results%20with%20customs%20in%20DC.png" width=100% alt="Results after setting up custom language Remote Control dialog"> 
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Final%20results.png" width=100% alt="Final Results"> 
-
-
-
 
 > Make sure the browser is updated by clicking Tools > Update WebDrivers > Choose browser.
 
