@@ -70,12 +70,13 @@ RunConfiguration.setWebDriverPreferencesProperty("prefs", pref)
 ```
 - Continue writing the script, then run the test in browser.
   
-<img src="url" width=90% alt="Configired Desired Capaibll">
+<img src="url" width=90% alt="Configired Desired Capabililities">
 
-### . Create a test suite
+4. Create a test suite
 
+With the same idea as craaaaa
 ## Use Custom Profiles in Desired Capabilities
 
 Before starting, make sure that you have:
 - [Downloaded](https://www.selenium.dev/downloads/) Selenium Grid Hub. This app is presiquite to run Remote Selenium WebDriver (Grid).
-- [Configured Selenium Grid Hub](https://www.lambdatest.com/blog/selenium-remotewebdriver/)
+- [Configured Selenium Grid Hub.](https://www.lambdatest.com/blog/selenium-remotewebdriver/)
