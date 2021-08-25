@@ -9,7 +9,7 @@ description:
 >
 > * Only applicable to users with an On-Premises package.
 >
-> * For existing On-Premises users, contact our [Sales team](business@katalon.com) for data migration.  
+> * For existing On-Premises users, contact our Sales team at business@katalon.com for data migration.  
 
 The Katalon On-Premises License Server allows installation at the client's network location.
 
@@ -38,7 +38,7 @@ The following features are available for users of a Katalon Studio On-Premises L
 
 > Requirements:
 >
-> * You have downloaded [PostgreSQL database version 9.6.16](https://www.postgresql.org/download/).
+> * You have downloaded [PostgreSQL database version 10 onwards](https://www.postgresql.org/download/).
 > * Katalon Studio version 7.2.2 onwards (for Katalon Studio Enterprise).
 > * Katalon License Server installer and a license file for activation. To acquire them, contact our Sales team at business@katalon.com.
 
@@ -47,7 +47,7 @@ The following features are available for users of a Katalon Studio On-Premises L
 PostgreSQL database is where you manage all data including organizations, teams, and user accounts used in the server.
 
 Follow these steps:
-1. Download [PostgreSQL database version 9.6.16](https://www.postgresql.org/download/).
+1. Download [PostgreSQL database](https://www.postgresql.org/download/).
 
 2. Run the PostgreSQL installation and follow the PostgreSQL setup instructions.
 
@@ -107,9 +107,12 @@ You have set up the server successfully.
 
 ## Install and setup an On-Premises License Server (for MacOS)
 
+
 > Requirements:
 >
-> Katalon License Server installer and a license file for activation. To acquire them, contact our Sales team at business@katalon.com.
+> * You have downloaded [PostgreSQL database version 10 onwards](https://www.postgresql.org/download/).
+> * Katalon Studio version 7.2.2 onwards (for Katalon Studio Enterprise).
+> * Katalon License Server installer and a license file for activation. To acquire them, contact our Sales team at business@katalon.com.
 
 Follow these steps:
 
@@ -129,7 +132,7 @@ Follow these steps:
 
    ```
    LICENSE_SERVER_VERSION=latest
-      LICENSE_SERVER_PORT=80
+   LICENSE_SERVER_PORT=80
       
    DB_HOST=192.168.250.103
    DB_PORT=5432
