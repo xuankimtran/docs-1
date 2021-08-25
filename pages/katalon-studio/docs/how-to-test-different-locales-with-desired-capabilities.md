@@ -85,15 +85,79 @@ Create a new [Test Suite with Test Case Variable](https://docs.katalon.com/katal
 ## Use Custom Profiles in Desired Capabilities
 
 Before starting, make sure that you have:
-- [Downloaded](https://www.selenium.dev/downloads/) Selenium Grid Hub. This app is presiquite to run Remote Selenium WebDriver (Grid).
+- [Downloaded](https://www.selenium.dev/downloads/) Selenium Grid Hub. This app is presiquite to activate Remote Execution for WebUI.
 - [Configured Selenium Grid Hub.](https://www.lambdatest.com/blog/selenium-remotewebdriver/)
 
 The idea is to use [Custom Desired Capabilities](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html#remote-server) to define a certain language option for execution.
 
 Do as follow:
-1. Create a new Custom Desired Capabilities. Go to **Project > Settings > Desired Capabilities > Custom.**
+1. Create a new Custom in Desired Capabilities function. 
+- Go to **Project > Settings > Desired Capabilities > Custom.**
 
-<img src="url" width=100% alt="Custome Desired Capabililities">
+<img src="url" width=100% alt="Custom Desired Capabililities">
+
+- Click **Add** on the command toolbar to add a language custom execution.
+- Change the name into the language you want to test for better recognition, then click on the **More** icon under the **Value** column.
+  
+<img src="url" width=100% alt="Set value for custom Desired Capabilities">
+
+- In the **Custom Execution Configuration Builder** dialog, specify the **Driver Name** as **Remote**, then click on the **More** icon under the **Preferences** column.
+ 
+ <img src="url" width=100% alt="Set Remote Control for custom Desired Capabilities"> 
+
+- In the **Driver Builder** dialog, fill in appeared criterias as below:
+  - Remote Server URL: `http://localhost:4444/wd/hub`
+  
+**where** localhost is your machine IP address.
+- MacOS IP addresss: **System Preferences > Network > click on the TCP/IP tab**
+- Windows IP address: **Control panel > Network and Internet > Network and Sharing Center > Change adapter settings > Double-click Ethernet > Details > Scroll down until you find the IPv4 Address**
+
+  - Remote Server Type: Choose **Selenium**
+  - Click **Add** on the command toolbar as following command
+  
+<table width="781">
+<tbody>
+<tr>
+<td><strong>Name</strong></td>
+<td><strong>Type&nbsp;</strong></td>
+<td><strong>Value</strong></td>
+</tr>
+<tr>
+<td>browserName</td>
+<td>String</td>
+<td>chrome</td>
+</tr>
+<tr>
+<td>goog:chromeOptions</td>
+<td>Dictionary</td>
+<td>Click <strong>More</strong> icon to navigate to <strong>*Dictionary Property Builder.*</strong></td>
+</tr>
+</tbody>
+</table>  
+
+ <img src="url" width=100% alt="Set language custom in Remote Control dialog"> 
+
+    - In the opened **Dictionary Property Builder**, input
+<table width="781">
+<tbody>
+<tr>
+<td><strong>Name</strong></td>
+<td><strong>Type&nbsp;</strong></td>
+<td><strong>Value</strong></td>
+</tr>
+<tr>
+<td>prefs</td>
+<td>Dictionary</td>
+<td>Click More to navigate to *Dictionary Property Builder.*</td>
+</tr>
+</tbody>
+</table>
+
+- In the opened **Dictionary Property Builder**, input
+
+
+
+> Make sure the browser is updated by clicking Tools > Update WebDrivers > Choose browser.
 
 > - Use Configured Desired Capability with Test Case Variables. Sample Project
 > - Use Custom Profiles in Desired Capabilities. Sample Project
