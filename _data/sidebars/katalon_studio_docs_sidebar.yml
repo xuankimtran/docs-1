@@ -1254,7 +1254,7 @@ items:
           - title: "TestOps Overview" 
             url: /katalon-analytics/docs/overview.html 
           - title: "Terminology and Formulas" 
-            url: /katalon-analytics/docs/testops-terminology.htm
+            url: /katalon-analytics/docs/testops-terminology.html
       - title: "What's New"
         tree:
           - title: "April 2021"
