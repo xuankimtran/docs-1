@@ -1264,7 +1264,7 @@ items:
       - title: "Release Notes"
         url: /katalon-analytics/docs/testops-releases-2021.html
       - title: "Get Started"  
-        tr
+        tree:
           - title: "Set up an account"
             url: /katalon-analytics/docs/getting-started.html  
           - title: "Create Organization and Project"
