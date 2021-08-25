@@ -54,8 +54,7 @@ With the purpose of running tests with different browser locales, [Test Case Var
 
 
 3. Use Configured Desired Capabilities.
-After defining Test Case Variables, the idea is to override predefined language in `ChromeOptions`
-by using [Configured Desired Capabilities](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html#passing-desired-capabilities-at-runtime).
+After defining Test Case Variables, the idea is to override default language by using [Configured Desired Capabilities](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html#passing-desired-capabilities-at-runtime).
 
 - Switch to Script tab of your Test Case.
 - Use the sample code below.
