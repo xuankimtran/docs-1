@@ -130,11 +130,12 @@ Follow these steps:
    ```
    LICENSE_SERVER_VERSION=latest
       LICENSE_SERVER_PORT=80
-
-   DB_HOST=host.docker.internal
+      
+   DB_HOST=192.168.250.103
    DB_PORT=5432
    DB_USERNAME=postgres
    DB_PASSWORD=admin
+   LICENSE_SERVER_URL=http://192.168.250.103
    ```
 
 8. Use the following commands to run.
