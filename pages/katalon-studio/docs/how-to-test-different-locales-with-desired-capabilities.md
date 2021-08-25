@@ -18,22 +18,20 @@ This article shows steps by steps as of how to execute different browser locale 
 > From 8.0.0 onwards, you can [reusing Desired Capabilities across project](https://docs.katalon.com/katalon-studio/docs/import-export-desired-capabilities.html). 
 
 The following sample tests is to Open and Close Browser showing in English, Spanish, French.
-## Use Configured Desired Capability with data-driven approach.
+## Use Configured Desired Capability with Test Case Variables.
 
 Do as follow:
 
 1. Create a New Test Case. Go to **File > New > Test Case.**
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Sample%20Test%20Case.png" width=100% alt="sample test cases">
-
->
 2. Create Test Case Variables. 
+With the purpose of running tests with different browser locales, [Test Case Variables](https://docs.katalon.com/katalon-studio/docs/test-case-variables.html#manage-test-case-variables) comes in handy because it allows to parameterize that test case with different language inputs.
 
 - Switch to Variables tab of your Test Case.
 - Click Add. A new row is added to the variable list.
 - Input variables.
   
- For example, you want to run test case in English, input:
+ For example, you want to run test case in French, input:
 
  <table width="959">
 <tbody>
@@ -45,14 +43,34 @@ Do as follow:
 <tr>
 <td>locale</td>
 <td>String</td>
-<td>"en"</td>
+<td>"fr"</td>
 </tr>
 </tbody>
 </table>
-* Default Value should be the [language code](https://developers.google.com/admin-sdk/directory/v1/languages) you want to test.
-* 
+ 
+ - "Default Value" should be the [language code](https://developers.google.com/admin-sdk/directory/v1/languages) you want to test.
+
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Test%20Case%20Variable.png" width=90% alt="test case with variables">
 
+
+3. Use Configured Desired Capabilities.
+After defining Test Case Variables, the idea is to override predefined language in `ChromeOptions`
+by using [Configured Desired Capabilities](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html#passing-desired-capabilities-at-runtime).
+
+- Switch to Script tab of your Test Case.
+- Use the sample code below.
+```groovy
+
+import com.kms.katalon.core.configuration.RunConfiguration
+
+Map prefs = [('intl.accept_languages') : locale]
+\\ Map preferences key to manipulate a page's language.
+
+RunConfiguration.setWebDriverPreferencesProperty("prefs", pref)
+```
+- Continue writing the script, then run the test in browser.
+  
+<img src="url" width=90% alt="Configired Desired Capaibll">
 
 ### . Create a test suite
 
