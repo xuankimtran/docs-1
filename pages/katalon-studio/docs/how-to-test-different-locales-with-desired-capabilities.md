@@ -17,7 +17,7 @@ This article shows steps by steps as of how to execute different browser locale 
 
 > From 8.0.0 onwards, you can [reusing Desired Capabilities across project](https://docs.katalon.com/katalon-studio/docs/import-export-desired-capabilities.html). 
 
-The following sample tests is to Open and Close Browser showing in English, Spanish, French.
+The following example is to Open and Close Browser showing in English, Spanish, French.
 ## Use Configured Desired Capability with Test Case Variables.
 
 Do as follow:
@@ -70,13 +70,25 @@ RunConfiguration.setWebDriverPreferencesProperty("prefs", pref)
 ```
 - Continue writing the script, then run the test in browser.
   
-<img src="url" width=90% alt="Configired Desired Capabililities">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Configured%20Desired%20Capabilities.png" width=90% alt="Configired Desired Capabililities">
 
 4. Create a test suite
 
-With the same idea as craaaaa
+Create a new [Test Suite with Test Case Variable](https://docs.katalon.com/katalon-studio/docs/run-test-case-external-data.html#create-a-new-test-suite-with-test-case-variables) with data input should be different [language code](https://developers.google.com/admin-sdk/directory/v1/languages) you want to test on browsers.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/New%20Data%20File.png" width=90% alt="Configired Desired Capabililities">
+
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Test%20Suite%20Data%20Binding.png" width=100% alt="Configired Desired Capabililities">
+
+
 ## Use Custom Profiles in Desired Capabilities
 
 Before starting, make sure that you have:
 - [Downloaded](https://www.selenium.dev/downloads/) Selenium Grid Hub. This app is presiquite to run Remote Selenium WebDriver (Grid).
 - [Configured Selenium Grid Hub.](https://www.lambdatest.com/blog/selenium-remotewebdriver/)
+
+
+
+> - Use Configured Desired Capability with Test Case Variables. Sample Project
+> - Use Custom Profiles in Desired Capabilities. Sample Project
