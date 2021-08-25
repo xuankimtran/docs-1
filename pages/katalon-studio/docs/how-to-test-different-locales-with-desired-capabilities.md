@@ -91,7 +91,19 @@ Before starting, make sure that you have:
 The idea is to use [Custom Desired Capabilities](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html#remote-server) to define a certain language option for execution.
 
 Do as follow:
-1. Create a new Custom profile in Desired Capabilities function. 
+
+1. Implement Selenium Grid Hub & Node
+
+- [Downloaded](https://www.selenium.dev/downloads/) Selenium Grid.
+Selenium Grid is presiquite to activate Remote Execution in Katalon Studio.
+Follow this video tutorial shows to configure [Selenium Grid Hub & Node](https://docs.katalon.com/katalon-studio/videos/test_execution_on_remote_machines.html)
+
+**Note:**
+- Make sure to change the version number from the command accordingly.
+- Selenium Grid server is up and running till the time command prompt window closes.
+- Selenium Grid, by default uses port <4444> for its web interface. To start the same on other port, use this command: `java -jar selenium-server-standalone-3.3.1.jar -port 4455 -role hub`
+
+2. Create a new Custom profile in Desired Capabilities function. 
 - Go to **Project > Settings > Desired Capabilities > Custom.**
 
 <img src="url" width=100% alt="Custom Desired Capabililities">
@@ -103,16 +115,16 @@ Do as follow:
 
 - In the **Custom Execution Configuration Builder** dialog, specify the **Driver Name** as **Remote**, then click on the **More** icon under the **Preferences** column.
  
- <img src="url" width=100% alt="Set Remote Control for custom Desired Capabilities"> 
+ <img src="url" width=100% alt="Set Remote Control for custom Desired Capabilities">
 
 - In the **Driver Builder** dialog, fill in appeared criterias as below:
-  1. Remote Server URL: `http://localhost:4444/wd/hub`
-  
+  1. Remote Server URL: `http://localhost:port/wd/hub`
+   
 **where** localhost is your [machine IP address](https://www.avast.com/c-how-to-find-ip-address).
 
+  2. Remote Server Type: Choose **Selenium**
+  3. Click **Add** on the command toolbar as following command
 
-  Remote Server Type: Choose **Selenium**
-  - Click **Add** on the command toolbar as following command
   
 <table width="781">
 <tbody>
@@ -136,7 +148,7 @@ Do as follow:
 
  <img src="url" width=100% alt="Set language custom in Remote Control dialog"> 
 
-- In the opened **Dictionary Property Builder**, input
+  4. In the opened **Dictionary Property Builder**, input
 <table width="781">
 <tbody>
 <tr>
@@ -152,7 +164,7 @@ Do as follow:
 </tbody>
 </table>
 
-- In the opened **Dictionary Property Builder**, input
+   5.In the opened **Dictionary Property Builder**, input
 <table>
 <tbody>
 <tr>
@@ -181,21 +193,12 @@ Do as follow:
 
 > Know more about type "String","Dictionary" at [Date type](https://docs.katalon.com/katalon-studio/docs/value-types.html)
 
-- The results after a series of above command is
+   6. The results after a series of above command is
   
 
  <img src="url" width=100% alt="Results after setting up custom language Remote Control dialog"> 
 
-1. Implement Selenium Grid Hub & Node
 
-- [Downloaded](https://www.selenium.dev/downloads/) Selenium Grid.
-Selenium Grid is presiquite to activate Remote Execution for WebUI.
-Follow this tutorials to configure [Selenium Grid Hub & Node](https://docs.katalon.com/katalon-studio/videos/test_execution_on_remote_machines.html)
-
-**Note:**
-- Make sure to change the version number from the command accordingly.
-- Selenium Grid server is up and running till the time command prompt window closes.
-- Selenium Grid, by default uses port <4444> for its web interface. To start the same on other port, use this command: `java -jar selenium-server-standalone-3.3.1.jar -port 4455 -role hub`
 
 
 > Make sure the browser is updated by clicking Tools > Update WebDrivers > Choose browser.
