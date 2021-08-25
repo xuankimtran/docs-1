@@ -34,6 +34,29 @@ The following features are available for users of a Katalon Studio On-Premises L
 >
 > The current On-Premises License Server does not support M1 chip (macOS).
 
+## Set up Docker
+
+* To install Docker for Windows, see [Install Docker Desktop for Windows](https://docs.docker.com/desktop/windows/install/) (Hyper-V should be enabled).
+* To install Docker for MacOS, see [Install Docker Desktop for Mac](https://docs.docker.com/desktop/mac/install/).
+
+<table style="width: 165.71875px;">
+<tbody>
+<tr>
+<td style="width: 155.71875px;" colspan="2">System requirements</td>
+</tr>
+<tr>
+<td style="width: 70px;">CPU</td>
+<td style="width: 85.71875px;">Minimum 4</td>
+</tr>
+<tr>
+<td style="width: 70px;">Memory</td>
+<td style="width: 85.71875px;">Minimum 8GB</td>
+</tr>
+</tbody>
+</table>
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-license-server/docker-resources.png" width=80% alt="docker resources">
+
 ## Install and setup an On-Premises License Server (for Windows)
 
 > Requirements:
