@@ -88,7 +88,12 @@ Before starting, make sure that you have:
 - [Downloaded](https://www.selenium.dev/downloads/) Selenium Grid Hub. This app is presiquite to run Remote Selenium WebDriver (Grid).
 - [Configured Selenium Grid Hub.](https://www.lambdatest.com/blog/selenium-remotewebdriver/)
 
+The idea is to use [Custom Desired Capabilities](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html#remote-server) to define a certain language option for execution.
 
+Do as follow:
+1. Create a new Custom Desired Capabilities. Go to **Project > Settings > Desired Capabilities > Custom.**
+
+<img src="url" width=100% alt="Custome Desired Capabililities">
 
 > - Use Configured Desired Capability with Test Case Variables. Sample Project
 > - Use Custom Profiles in Desired Capabilities. Sample Project
