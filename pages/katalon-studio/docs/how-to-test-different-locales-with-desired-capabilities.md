@@ -103,7 +103,7 @@ Do as follow:
 - Selenium Grid server is up and running till the time command prompt window closes.
 - Selenium Grid, by default uses port <4444> for its web interface. To start the same on other port, use this command: `java -jar selenium-server-standalone-3.3.1.jar -port 4455 -role hub`
 
-1. Create a new Custom profile in Desired Capabilities function. 
+2. Create a new Custom profile in Desired Capabilities function. 
 - Go to **Project > Settings > Desired Capabilities > Custom.**
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Custom%20Desired%20Capabilities.png" width=100% alt="Custom Desired Capabililities">
@@ -119,7 +119,7 @@ Do as follow:
  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Custom%20Execution%20Configuration%20Builder.jpg" width=100% alt="Set value for custom Desired Capabilities">
 
 - In the **Driver Builder** dialog, fill in appeared criterias as below:
-  1. Remote Server URL: `http://localhost:port/wd/hub` **where** localhost is your [machine IP address](https://www.avast.com/c-how-to-find-ip-address).
+  1. Remote Server URL: `http://localhost:port/wd/hub`. This URL retrieves from Step 1.
 
   2. Remote Server Type: Choose **Selenium**
   3. Click **Add** on the command toolbar as following command
@@ -144,7 +144,6 @@ Do as follow:
 </tr>
 </tbody>
 </table>  
-
 
   4. In the opened **Dictionary Property Builder**, input
 <table width="781">
@@ -192,9 +191,8 @@ Do as follow:
 > Know more about type "String","Dictionary" at [Date type](https://docs.katalon.com/katalon-studio/docs/value-types.html)
 
    6. The results after a series of above command is
-  
 
- <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Final%20results%20with%20customs%20in%20DC.png" width=100% alt="Results after setting up custom language Remote Control dialog"> 
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Final%20results%20with%20customs%20in%20DC.png" width=100% alt="Results after setting up custom language Remote Control dialog"> 
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Final%20results.png" width=100% alt="Final Results"> 
 
