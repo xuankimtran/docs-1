@@ -1183,7 +1183,7 @@ items:
         url: /katalon-studio/docs/export-test-results-in-junit-format.html
       - title: "Command Syntax (Command-line/Console Mode Execution)"
         url: /katalon-studio/docs/console-mode-execution.html
-      - title: "How to specify a path to Android SDk root folder?"
+      - title: "Specify a path to Android SDK root folder"
         url: /katalon-studio/how-to-guides/how-to-specify-android-home-path.html
       - title: "Docker Image"
         url: /katalon-studio/docs/docker.html

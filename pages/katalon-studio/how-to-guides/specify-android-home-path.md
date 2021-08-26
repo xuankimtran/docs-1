@@ -1,5 +1,5 @@
 ---
-title: "How to specify a path to Android SDk root folder?"
+title: "Specify a path to Android SDK root folder"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/how-to-guides/how-to-specify-android-home-path.html
 redirect_from:
@@ -11,9 +11,9 @@ description:
 > - Katalon Studio version 8.1.0 onwards
 > - Katalon Runtime Engine version 8.1.0 onwards
 
-You can use a custom Android SDK location instead of the Katalon Studio default location. From version 8.1.0 onwards, Katalon Runtime Engine supports the **ANDROID_HOME** environment variable to specify the path to the Android SDK root. To learn more about environment variables, see [Command arguments](https://docs.katalon.com/katalon-studio/docs/common-configuration.html#command-arguments).
+You can use a custom Android SDK location instead of the Katalon Studio default location. From version 8.1.0 onwards, Katalon Runtime Engine supports the **ANDROID_HOME** environment variable to specify a path to Android SDK root folder. To learn more about environment variables, see [Command arguments](https://docs.katalon.com/katalon-studio/docs/common-configuration.html#command-arguments).
 
-## Specify the path to the Android SDK root folder
+## Specify a path to Android SDK root folder
 
 By default, the Android SDK root folder is located at **~/.katalon/tools/android_sdk**. You can rename or move your Android SDK root folder to another location and use the **ANDROID_HOME** environment variable to point the path to that new location. See also: [[Mobile] Android Setup](https://docs.katalon.com/katalon-studio/tutorials/mobile-android-setup.html#set-up-android-tests-on-windows-and-macos).
 
