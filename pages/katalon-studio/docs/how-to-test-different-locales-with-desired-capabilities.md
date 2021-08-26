@@ -79,7 +79,7 @@ For the purpose of this example, the language codes are `fr`,`en,`,`es`.
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/New%20Data%20File.png" width=70% alt="New Data file">
 
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Test%20Suite%20Data%20Binding.png" width=100% alt="Test Suite data">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Test%20Suite%20Data%20Binding.png" width=70% alt="Test Suite data">
 
 
 ## Use Custom Profiles in Desired Capabilities
@@ -100,7 +100,7 @@ Change the name into the language you want to test for better recognition, then 
 
 3. In the **Custom Execution Configuration Builder** dialog, specify the **Driver Name** as **Remote**, then click on the **More** icon under the **Preferences** column.
  
- <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Custom%20Execution%20Configuration%20Builder.jpg" width=70% alt="Set value for custom Desired Capabilities">
+ <img src="https://github.com/katalon-studio/docs-images/raw/5ce4d691c2e1223380169717503cd3189ae5b1ed/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Custom-Execution%20-Configuration%20-Builder-2.jpg" width=70% alt="Set value for custom Desired Capabilities">
 
 - In the **Driver Builder** dialog, fill in appeared criterias as below:
   1. Remote Server URL: `http://localhost:port/wd/hub` - the URL to the Remote server
@@ -114,7 +114,7 @@ Change the name into the language you want to test for better recognition, then 
   4. Click **More** icon under the **Preferences** column 
   5. In the opened **Dictionary Property Builder**, input
   
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/prefs.png" width=70% alt="Set value for custom Desired Capabilities">
+<img src="https://github.com/katalon-studio/docs-images/raw/7a0462f8e1b3f6a3c973b1c70a9b7ff6de1b4b9b/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/prefs.png" width=70% alt="Set value for custom Desired Capabilities">
 
   6. Click **More** icon under the **Preferences** column 
   7. In the opened **Dictionary Property Builder**, input
@@ -122,7 +122,7 @@ Change the name into the language you want to test for better recognition, then 
   - **string**: the [data type](https://docs.katalon.com/katalon-studio/docs/value-types.html) give you permission to enter value directly into the Value cell.
   - **es**: Spanish's language code 
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/intl.accept_languages.png" width=70% alt="Set value for custom Desired Capabilities">
+<img src="https://github.com/katalon-studio/docs-images/raw/7a0462f8e1b3f6a3c973b1c70a9b7ff6de1b4b9b/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/intl.accept_languages.png" width=70% alt="Set value for custom Desired Capabilities">
 
   8. The results after a series of above command
 
