@@ -107,7 +107,7 @@ Change the name into the language you want to test for better recognition, then 
   2. Remote Server Type: Choose **Selenium**.
   3. Click **Add** on the command toolbar as the following command.
   - **goog:chromeOptions**: Support passing the ChromeOptions object into the ChromeDriver constructor
-  - **Dictionary**: the [data type](https://docs.katalon.com/katalon-studio/docs/value-types.html) gives you permission to input a collection of keys and values.
+  - **Dictionary**: the [data type](https://docs.katalon.com/katalon-studio/docs/value-types.html) permits you to input a collection of keys and values.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/chromeoptions.png" width=70% alt="Set value for custom Desired Capabilities">
 
@@ -119,12 +119,12 @@ Change the name into the language you want to test for better recognition, then 
   6. Click **More** icon under the **Preferences** column.
   7. In the opened **Dictionary Property Builder**, input
   - **intl.accept_languages**: Support passing preference key to manipulate a page's language.
-  - **String**: the [data type](https://docs.katalon.com/katalon-studio/docs/value-types.html) gives you permission to enter a value directly into the Value cell.
+  - **String**: the [data type](https://docs.katalon.com/katalon-studio/docs/value-types.html) permits you to enter a value directly into the Value cell.
   - **es**: Spanish's language code 
 
 <img src="https://github.com/katalon-studio/docs-images/raw/7a0462f8e1b3f6a3c973b1c70a9b7ff6de1b4b9b/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/intl.accept_languages.png" width=70% alt="Set value for custom Desired Capabilities">
 
-  8. Results after a series of above commands
+  8. Results after a series of the above commands
 
 <img src="https://github.com/katalon-studio/docs-images/raw/3e6484c7dff66c86389ba45dbbe88de452031e0e/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/final-results-2-reup.png" width=70% alt="Results after setting up custom language Remote Control dialog"> 
 
