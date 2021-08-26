@@ -5,7 +5,6 @@ permalink: katalon-studio/how-to-guides/how-to-specify-android-home-path.html
 redirect_from:
 description:
 ---
-<INTRODUCTION>
 
 >**Requirements**
 >
@@ -14,7 +13,7 @@ description:
 
 You can use a custom Android SDK location instead of the Katalon Studio default location. From version 8.1.0 onwards, Katalon Runtime Engine supports the **ANDROID_HOME** environment variable to specify the path to the Android SDK root. To learn more about environment variables, see [Command arguments](https://docs.katalon.com/katalon-studio/docs/common-configuration.html#command-arguments).
 
-## Using ANDROID_HOME Environment Variable
+## Specify the path to the Android SDK root folder
 
 By default, the Android SDK root folder locates at **~/.katalon/tools/android_sdk**. You can rename or move your Android SDK root folder to another location and use the **ANDROID_HOME** environment variable to point the path to that new location. See also: [[Mobile] Android Setup](https://docs.katalon.com/katalon-studio/tutorials/mobile-android-setup.html#set-up-android-tests-on-windows-and-macos).
 
@@ -35,11 +34,22 @@ Start Katalon Studio with this command-line option instead of double-clicking on
 
 - For Windows:
     
-    1\. Go to **Edit the system environment variables > Environment Variables > System variables**.
-    
-    2\. Create a new environment variable with the **Variable** names **ANDROID_HOME** and the **Value** is the path to the Android SDK root folder.
+    1\. In your Window, search for **Edit the system environment variables**. 
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/android-home-path/window-android-home-path.png" alt="Window Environment Variable" width="100%">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/android-home-path/KS-android-home-edit-environment-variables.png" alt="Edit the system environment variable" width=70%>
+
+    The **System Properties** dialog appears. Click **Environment Variables**.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/android-home-path/KS-android-home-environment.png" alt="system properties" width=70%>
+    
+    2\. In the **System variables**, click **New** to create a new environment variable where:
+
+    * **Variable**: **ANDROID_HOME**
+    * **Value**: the path to the Android SDK root folder
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/android-home-path/KS-android-home-new.png" alt="new" width=70%>
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/android-home-path/KS-android-home-value.png" alt="Window Environment Variable" width="70%">
 
 >**Notes**:
 >
