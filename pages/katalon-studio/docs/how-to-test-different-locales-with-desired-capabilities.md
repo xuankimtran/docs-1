@@ -7,9 +7,6 @@ description:
 ---
 <INTRODUCTION>
 
->**Requirements**
->
-> - Katalon Studio version 8.0.0 onwards
 > From 8.0.0 onwards, you can [reusing Desired Capabilities across project](https://docs.katalon.com/katalon-studio/docs/import-export-desired-capabilities.html). 
 
 For Chrome’s current design, the UI language sets default by the first/main Chrome window that opens. In order words, if you wish to alters browser locales using `chrome --lang=de`//start Chrome with German, Chrome Driver still picks the default language from the Chrome browser.
