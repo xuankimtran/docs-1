@@ -14,34 +14,34 @@ Katalon Studio can natively integrate with the Azure Test Plans service of Azure
 
 1. Establish a connection between a Katalon Studio project and an ADO project.
 2. Easily map ADO Test Cases to automated Test Cases in Katalon Studio.
-3. Automatically submit test runs and results to ADO with release information (release stage and release ID) execution logs, reports, and images for analysis.
+3. Automatically submit test runs and results to ADO with release information (release stage and release ID), execution logs, reports, and images for analysis.
 
 > **Requirements**
 >
 > * Katalon Studio version 8.0.0 onwards.
 > * An active Katalon Studio Enterprise license.
-> * Azure Test Plans having already been set up.
+> * Azure Test Plans already configured. See [How to use Katalon for Azure DevOps](https://docs.katalon.com/katalon-studio/docs/azure-devops-extension.html#installation).
 
 ## Enable the Integration and Perform Authentication
 
-To retrieve relevant test artifacts and create test runs with test results, you need to integrate and authenticate your project with Azure Server. In Katalon Studio, go to **Project > Settings > Integrations > Azure DevOps**. The **Azure DevOps** dialog appears.
+To retrieve your test artifacts and test results directly in Azure DevOps, you need to integrate and authenticate your project with Azure Server. In Katalon Studio, go to **Project > Settings > Integrations > Azure DevOps**. The **Azure DevOps** dialog appears.
 
-1. To enable the **Authentication** area for editing, select **Enable Integration**.
+1. Check the **Enable Integration** box. The **Authentication** area can now be edited.
 
 2. Enter your credentials. Your credentials are encrypted by default.
 
     - **Server URL**: `https://dev.azure.com/{yourorganization}`
     - **Personal Access Token**: your Personal Access Token. We recommend you create a Personal Access Token with full-access scopes. See Microsoft document: [Use personal access tokens](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops&tabs=preview-page) and [Scopes](https://docs.microsoft.com/en-us/azure/devops/integrate/get-started/authentication/oauth?view=azure-devops#scopes).
 
-3. To verify whether the connection to Azure Server is successful, click **Connect**.
+3. Click **Connect**. If the connection to Azure Server is successful, the **Test Connetion Succeeded** line appears.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/authentication.png" alt="Azure DevOps dialog" width=70%>
 
 ## Configure the Integration
 
-### Step 1: Select a Project for submitting test run and results
+### Step 1: Select a Project for submitting test runs and results
 
-After successfully authenticating your project with the Azure Server, in the drop-down list of **Project**, select an ADO project that you have access to.
+After successfully authenticating your project with the Azure Server, in the dropdown list of **Project**, select an ADO project that you have access to.
 
 To retrieve the latest projects list, click **Fetch Project**.
 
@@ -51,7 +51,7 @@ After you select a project, the **Test Artifacts Mapping** and **Submission Opti
 
 ### Step 2: Map Test Artifacts between two systems
 
-You can **Add** or **Remove** one or more items in each section to serve your need.
+You can **Add** or **Remove** one or more items in each section at your convenience.
 
 **In the Execution Status Mapping**: Match test results in Katalon Studio with test outcomes in ADO.
 
@@ -63,7 +63,7 @@ You can **Add** or **Remove** one or more items in each section to serve your ne
 
 > **What is a Test Point?**
 >
-> A Test Point is a unique combination of a test case, test suite, configuration, and tester. Test cases by themselves are not executable. When you add a test case to a test suite, a test point is generated. To learn more about the Test Point, see Microsoft document: [Execute tab](https://docs.microsoft.com/en-us/azure/devops/test/new-test-plans-page?view=azure-devops#execute-tab).
+> A Test Point is a unique combination of a test case, test suite, configuration, and tester. Test cases by themselves are not executable. When you add a test case to a test suite, a test point is generated. To learn more about Test Points, see Microsoft document: [Execute tab](https://docs.microsoft.com/en-us/azure/devops/test/new-test-plans-page?view=azure-devops#execute-tab).
 >
 > **What is a Test Configuration?**
 >
@@ -113,7 +113,7 @@ After a test suite execution finishes, Katalon Studio automatically adds a new t
 
 ## Dynamically change the information of a test run in Command-line Option
 
-You can change the test plan ID, test run name, build and release the definition IDs of a test run by using the following command-line options:
+You can change the test plan ID, test run name, build and release definition IDs of a test run by using the following command-line options:
 
 > **Requirements**
 >
