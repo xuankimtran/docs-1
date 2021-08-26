@@ -74,7 +74,7 @@ RunConfiguration.setWebDriverPreferencesProperty("prefs", pref)
 
 4. Create a test suite
 
-After configuring all your test case with Desired Capabilities, use configured test cases to create a test suite with different browser locales. The example here uses French, English, Spanish.
+After configuring all your test cases with Desired Capabilities, use configured test cases to create a test suite with different browser locales. The example here uses French, English, Spanish.
 
 Create a new [Test Suite with Test Case Variable](https://docs.katalon.com/katalon-studio/docs/run-test-case-external-data.html#create-a-new-test-suite-with-test-case-variables) with data input should be different [language code](https://developers.google.com/admin-sdk/directory/v1/languages) you want to test on browsers.
 
