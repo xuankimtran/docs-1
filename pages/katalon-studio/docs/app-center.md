@@ -54,7 +54,7 @@ AppiumDriverManager.setDriver(driver)
 
 2. Change the [desired capabilities](http://appium.io/docs/en/writing-running-appium/caps/) corresponding to your app.
 
-> Since you have created a custom Appium driver, you need to comment out, or remove all the `Mobile.startApplication(...)` or `Mobile.startExistingApplication(...)` in your current test cases.
+    Since you have created a custom Appium driver, you need to comment out, or remove all the `Mobile.startApplication(...)` or `Mobile.startExistingApplication(...)` in your current test cases.
 
 3. Package your Katalon project into a **.zip** file.
 
@@ -71,25 +71,26 @@ AppiumDriverManager.setDriver(driver)
     * Configure .bat file: `upload.sh/upload.bat`
     * Configure .java file: `src/test/java/com/katalon/sideload/SideloadTest.java`
 
+    > **Notes**
+    >
+    > If both files contain the configuration, the configuration in the **.bat** file will be prioritized.
+
     **Configure .bat file**
 
-      Open the upload.bat file. Change the following variables as your context:
+    Open the upload.bat file. Change the following variables as your context:
 
-      -   `<app_name>`: Your App Name on App Center
-      -   `<device_id/device_name>`: Device ID or Device Name on App Center. To find your Device ID or Device Name on App Center, go to `Test > Device sets`.
-      -   `<path_to_app_file>`: The App to upload to App Center
-      - `<katalon_version>`: The version of Katalon Studio used to execute. Left blank or set as "latest" to run with the latest version of Katalon Studio.
-      -  `<katalon_project_package_file>`: Your package file.
-      -   `<katalon_project_path>`: Relative path of Katalon project's folder inside the  `zip`  package.
-      -   `<katalon_execute_args>`: The arguments part of your Katalon run command. 
-      For more arguments, refer to [Command Syntax](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#general-options).
+    * `<app_name>`: Your App Name on App Center
+    * `<device_id/device_name>`: Device ID or Device Name on App Center. To find your Device ID or Device Name on App Center, go to `Test > Device sets`.
+    * `<path_to_app_file>`: The App to upload to App Center
+    * `<katalon_version>`: The version of Katalon Studio used to execute. Left blank or set as "latest" to run with the latest version of Katalon Studio.
+    * `<katalon_project_package_file>`: Your package file
+    * `<katalon_project_path>`: Relative path of Katalon project's folder inside the  `zip`  package
+    * `<katalon_execute_args>`: The arguments part of your Katalon run command
+        * The argument `browserType` must be set as `"Chome"`
+        * The argument `projectPath` must be excluded from this parameter
+        * For more arguments, refer to [Command Syntax](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#general-options)
 
-      >**Notes**
-      >
-      >- The argument `browserType` must be set as `"Chome"`.
-      >- The argument `projectPath` must be excluded from this parameter.
-
-      For example:
+    For example:
 
       ``` groovy
       appcenter test run appium ^
@@ -109,29 +110,55 @@ AppiumDriverManager.setDriver(driver)
 
       Open `src/test/java/com/katalon/sideload/SideloadTest.java`, find the `SideloadTest` section and change the following variables as your context:
 
-      * `katalonProjectPackageFile`: Your package file<br>
-      * `projectPath`: Katalon project's folder name inside the `zip` package<br>
-      * `executeArgs`: The arguments part of your Katalon run command<br>
+      * **API_KEY**: Your API key
+      * **KATALON_VERSION**: The version of Katalon Studio used to execute. Left blank or set as "latest" to run with the latest version of Katalon Studio.
+      * **KATALON_PROJECT_PACKAGE_FILE**: Your package file<br>
+      * **KATALON_PROJECT_PATH**: Path to the Katalon project inside the package file.<br>
+      * **KATALON_EXECUTE_ARGS**: The arguments part of your Katalon run command<br>
+        * The argument `browserType` must be set as `"Chome"`
+        * The argument `projectPath` must be excluded from this parameter
+        * For more arguments, refer to [Command Syntax](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#general-options)
 
-      >**Notes**
-      >
-      >- The argument `browserType` must be set as `"Chome"`.
+    For example:
 
-4. To pack your sideload project, run this command at the sideload folder:
+    ``` java
+    public class SideloadTest {
+    /**
+     * Your Katalon API Key
+     */
+    private static final String API_KEY = "12345678-aaaa-bbbb-cccc-91011121314";
 
-    ```shell script
-    $ mvn -DskipTests -P prepare-for-upload package
+    /**
+     * Katalon version which will be used to run the test
+     */
+    private static final String KATALON_VERSION = ""; // Leave it blank to always use the latest version
+
+    /**
+     * The package file under the "src/test/resources" folder
+     */
+    private static final String KATALON_PROJECT_PACKAGE_FILE = "KatalonDemoProject.zip";
+
+    /**
+     * Path to the katalon project inside the package file.
+     * If not specified it will use the same name with the package file.
+     * (In this case, it is: KatalonDemoProject)
+     */
+    private static final String KATALON_PROJECT_PATH = "";
+
+    /**
+     * Katalon arguments
+     * @apiNote Remember to always set "browserType" to "Chrome". This will prevent Katalon from inject inappropriate configurations in execution.
+     * @apiNote Besides, you do not need to include project path in the argument list.
+     */
+    private static final String KATALON_EXECUTE_ARGS = String.format("-retry=0 -testSuitePath=\"Test Suites/Regression Tests\" -executionProfile=default -browserType=Chrome -apiKey=\"%s\"", API_KEY);
     ```
 
-5. Upload and run your sideload project on the App Center with command:
 
-    ```shell script
-    $ appcenter test run appium --app <app_name> --devices <device_id/device_name> --app-path <path_to_app_file> --test-series "master" --locale "en_US" --build-dir target/upload
-    ```
+4. To pack your sideload project, execute the file `package.bat`/`package.sh`.
 
-   * `<app_name>`: Your App Name on App Center
-   * `<device_id/device_name>`: Device ID or Device Name on App Center (You could find it under the tab `Test > Device sets`)
-   * `<path_to_app_file>`: The App to upload to App Center
+5. Upload sideload:
+    * Before uploading, you should update sideload by configuring the **.bat** or **.java** file.
+    * To upload and run your sideload project on the App Center, configure in the file `upload.sh`/`upload.bat`.
 
 ## Executing KatalonDemoProject
 
@@ -147,7 +174,7 @@ On App Center Test, [create and start a new test run](https://docs.microsoft.com
 
 To run tests, from the **KatalonDemoProject** workspace, copy and paste the commands generated automatically in the **Submit** screen of the **New test run** dialog
 
-1. Build and Package all your dependencies using Maven
+1. Build and package all your dependencies using Maven
 
     ```shell script
     $ mvn -DskipTests -P prepare-for-upload package
