@@ -12,13 +12,14 @@ description:
 > - Katalon Studio version 8.0.0 onwards
 
 
-For Chrome’s current design, the UI language sets default by the first/main Chrome window that opens. In order words, if you wish to alters browser locales using `chrome --lang=de`\\start Chrome with German, Chrome Driver still picks the default language from the Chrome browser.
+For Chrome’s current design, the UI language sets default by the first/main Chrome window that opens. In order words, if you wish to alters browser locales using `chrome --lang=de`//start Chrome with German, Chrome Driver still picks the default language from the Chrome browser.
 Nevertheless, with [Desired Capabilities](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html), you can now test different browser locales with two possible approaches. 
 
 > From 8.0.0 onwards, you can [reusing Desired Capabilities across project](https://docs.katalon.com/katalon-studio/docs/import-export-desired-capabilities.html). 
-
-The following example is to test Chrome Browser in English, Spanish, French.
 ## Use Configured Desired Capability with Test Case Variables.
+
+In the following example, we demonstrate how to create a Test Suite containing several Test cases with different Browser locales. Here, we use French, English and Spanish.
+First, we configure a test case to run with a specific browser locale, like French.
 
 Do as follow:
 
@@ -63,22 +64,26 @@ After defining Test Case Variables, the idea is to override default language by 
 import com.kms.katalon.core.configuration.RunConfiguration
 
 Map prefs = [('intl.accept_languages') : locale]
-\\ Map preferences key to manipulate a page's language.
+// Map preferences key to manipulate a page's language.
 
 RunConfiguration.setWebDriverPreferencesProperty("prefs", pref)
 ```
 - Continue writing the script, then run the test in browser.
   
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Configured%20Desired%20Capabilities.png" width=90% alt="Configired Desired Capabililities">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Configured%20Desired%20Capabilities.png" width=90% alt="Configured Desired Capabilities">
 
 4. Create a test suite
 
+After configuring all your test case with Desired Capabilities, use configured test cases to create a test suite with different browser locales. The example here uses French, English, Spanish.
+
 Create a new [Test Suite with Test Case Variable](https://docs.katalon.com/katalon-studio/docs/run-test-case-external-data.html#create-a-new-test-suite-with-test-case-variables) with data input should be different [language code](https://developers.google.com/admin-sdk/directory/v1/languages) you want to test on browsers.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/New%20Data%20File.png" width=90% alt="Configired Desired Capabililities">
+For the purpose of this example, the language codes are `fr`,`en,`,`es`.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/New%20Data%20File.png" width=90% alt="New Data file">
 
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Test%20Suite%20Data%20Binding.png" width=100% alt="Configired Desired Capabililities">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Test%20Suite%20Data%20Binding.png" width=100% alt="Test Suite data">
 
 
 ## Use Custom Profiles in Desired Capabilities
