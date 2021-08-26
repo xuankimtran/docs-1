@@ -28,31 +28,33 @@ From the main toolbar, select **Tools > Web > Terminate running WebDrivers** > a
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/handle-webdrivers/Terminate-Webdrivers.png" alt="terminate-webdriver-processes" width=70%>
 
 ## Update a Webdriver
->
-There are two possible ways to update WebDrivers:
-## 1. In automatic ways
-
+You can update a Webdriver directly from from Katalon Studio applications.
 From the main toolbar, select **Tools > Update WebDrivers > Select a browser in the drop-down list.**
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/handle-webdrivers/Update-Webdrivers.png" alt="update-webdriver-automatically" width=70%>
 
 > In the console mode, you can use this command argument, `--config -webui.autoUpdateDrivers=true`, to allow WebDriver binaries to be updated automatically. Learn more about [Console Mode Execution](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html).
-## 2. In manual ways
+## Replace a Webdriver
+
+By replacing the Webdriver, you can either upgrade or downgrade Selenium libary, Webdriver binaries at application-level or project-level to suit your test's purposes. Do as follow:
+- Download the Webdriver version you want to run your test on.
+- Navigate to Webdriver location as below.
+- Replace the `driver.exe` file with the downloaded `driver.exe` file. 
+
 >
 > Versions of browser drivers:
 > - [Chrome Drivers](https://chromedriver.chromium.org/downloads)
 > - [Gecko Drivers](https://firefox-source-docs.mozilla.org/testing/geckodriver/Support.html)
 > - [Internet Explorer](http://selenium-release.storage.googleapis.com/index.html)
 > - [Microsoft Edge](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/)
-> 
-### 1. Replace Selenium library
+### Replace Selenium library
 
 Location:
 
 * Windows: `<Katalon Studio folder>\configuration\resources\lib\selenium-server-standalone-3.x.jar`
 * macOS: `/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/lib/selenium-server-standalone-3.x.jar`
 
-### 2. Replace WebDriver binaries (application-level)
+### Replace WebDriver binaries (application-level)
 ### Windows
 
 **Chrome**
@@ -103,7 +105,7 @@ Location:
 Location:
 - `/Applications/Katalon Studio.app/Contents/Eclipse/configuration\resources\drivers\edgechromium_mac`
 
-### 3. Replace WebDriver binaries (project-level)
+### Replace WebDriver binaries (project-level)
 
 WebDriver binaries are replaceable at project-level by copying new files into the `Include` directory inside the project.
 
