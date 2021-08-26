@@ -29,7 +29,7 @@ From the main toolbar, select **Tools > Web > Terminate running WebDrivers** > a
 
 ## Update a Webdriver
 You can update a Webdriver directly from from Katalon Studio applications.
-From the main toolbar, select **Tools > Update WebDrivers > Select a browser in the drop-down list.**
+From the main toolbar, select **Tools > Update WebDrivers > Select a browser in the dropdown list.**
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/handle-webdrivers/Update-Webdrivers.png" alt="update-webdriver-automatically" width=70%>
 
