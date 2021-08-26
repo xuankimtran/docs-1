@@ -13,7 +13,7 @@ description:
 
 
 For Chrome’s current design, the UI language sets default by the first/main Chrome window that opens. In order words, if you wish to alters browser locales using `chrome --lang=de`//start Chrome with German, Chrome Driver still picks the default language from the Chrome browser.
-Nevertheless, with [Desired Capabilities](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html), you can now test different browser locales with two possible approaches. 
+Nevertheless, you can now test different browser locales by configuring [Desired Capabilities](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html). 
 
 > From 8.0.0 onwards, you can [reusing Desired Capabilities across project](https://docs.katalon.com/katalon-studio/docs/import-export-desired-capabilities.html). 
 ## Use Configured Desired Capability with Test Case Variables.
@@ -55,20 +55,21 @@ With the purpose of running tests with different browser locales, [Test Case Var
 
 
 3. Use Configured Desired Capabilities.
-After defining Test Case Variables, the idea is to override default language by using [Configured Desired Capabilities](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html#passing-desired-capabilities-at-runtime).
+After defining Test Case Variables, we override default language settings in Chrome by using [Configured Desired Capabilities](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html#passing-desired-capabilities-at-runtime).
 
 - Switch to Script tab of your Test Case.
-- Use the sample code below.
+- Use the code as below. With this code, the language in testing broswer changes into the language defined in Step 2 which is, in this case, French.
 ```groovy
 
 import com.kms.katalon.core.configuration.RunConfiguration
 
 Map prefs = [('intl.accept_languages') : locale]
-// Map preferences key to manipulate a page's language.
+// Map preferences key to manipulate page's language.
 
 RunConfiguration.setWebDriverPreferencesProperty("prefs", pref)
 ```
-- Continue writing the script, then run the test in browser.
+
+- Continue writing the script for your testing purpose.
   
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Configured%20Desired%20Capabilities.png" width=90% alt="Configured Desired Capabilities">
 
@@ -80,7 +81,7 @@ Create a new [Test Suite with Test Case Variable](https://docs.katalon.com/katal
 
 For the purpose of this example, the language codes are `fr`,`en,`,`es`.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/New%20Data%20File.png" width=90% alt="New Data file">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/New%20Data%20File.png" width=70% alt="New Data file">
 
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Test%20Suite%20Data%20Binding.png" width=100% alt="Test Suite data">
