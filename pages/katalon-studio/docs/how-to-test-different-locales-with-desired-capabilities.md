@@ -10,18 +10,16 @@ description:
 >**Requirements**
 >
 > - Katalon Studio version 8.0.0 onwards
-
+> From 8.0.0 onwards, you can [reusing Desired Capabilities across project](https://docs.katalon.com/katalon-studio/docs/import-export-desired-capabilities.html). 
 
 For Chrome’s current design, the UI language sets default by the first/main Chrome window that opens. In order words, if you wish to alters browser locales using `chrome --lang=de`//start Chrome with German, Chrome Driver still picks the default language from the Chrome browser.
 Nevertheless, you can now test different browser locales by configuring [Desired Capabilities](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html). 
 
-> From 8.0.0 onwards, you can [reusing Desired Capabilities across project](https://docs.katalon.com/katalon-studio/docs/import-export-desired-capabilities.html). 
 ## Use Configured Desired Capability with Test Case Variables.
 
 In the following example, we demonstrate how to create a Test Suite containing several Test cases with different Browser locales. Here, we use French, English and Spanish.
-First, we configure a test case to run with a specific browser locale, like French.
 
-Do as follow:
+First, we configure a test case to run with a specific browser locale, like French.
 
 1. Create a New Test Case. Go to **File > New > Test Case.**
 
@@ -51,7 +49,7 @@ With the purpose of running tests with different browser locales, [Test Case Var
  
  - "Default Value" should be the [language code](https://developers.google.com/admin-sdk/directory/v1/languages) you want to test.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Test%20Case%20Variable.png" width=90% alt="test case with variables">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Test-case-variables-2.png" width=90% alt="test case with variables">
 
 
 3. Use Configured Desired Capabilities.
@@ -71,7 +69,7 @@ RunConfiguration.setWebDriverPreferencesProperty("prefs", pref)
 
 - Continue writing the script for your testing purpose.
   
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Configured%20Desired%20Capabilities.png" width=90% alt="Configured Desired Capabilities">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/configured-desired-capabilities.png" width=90% alt="Configured Desired Capabilities">
 
 4. Create a test suite
 
@@ -107,17 +105,17 @@ Do as follow:
 2. Create a new Custom profile in Desired Capabilities function. 
 - Go to **Project > Settings > Desired Capabilities > Custom.**
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Custom%20Desired%20Capabilities.png" width=100% alt="Custom Desired Capabililities">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Custom%20Desired%20Capabilities.png" width=70% alt="Custom Desired Capabililities">
 
 - Click **Add** on the command toolbar to add a language custom execution.
 - Change the name into the language you want to test for better recognition, then click on the **More** icon under the **Value** column.
   
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Set%20Value%20for%20Custom%20Execution%20Configuration%20Builder.png" width=100% alt="Set value for custom Desired Capabilities">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Set%20Value%20for%20Custom%20Execution%20Configuration%20Builder.png" width=70% alt="Set value for custom Desired Capabilities">
 
 
 - In the **Custom Execution Configuration Builder** dialog, specify the **Driver Name** as **Remote**, then click on the **More** icon under the **Preferences** column.
  
- <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Custom%20Execution%20Configuration%20Builder.jpg" width=100% alt="Set value for custom Desired Capabilities">
+ <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Custom%20Execution%20Configuration%20Builder.jpg" width=70% alt="Set value for custom Desired Capabilities">
 
 - In the **Driver Builder** dialog, fill in appeared criterias as below:
   1. Remote Server URL: `http://localhost:port/wd/hub`. This URL retrieves from Step 1.
@@ -193,9 +191,9 @@ Do as follow:
 
    6. The results after a series of above command is
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Final%20results%20with%20customs%20in%20DC.png" width=100% alt="Results after setting up custom language Remote Control dialog"> 
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Final%20results%20with%20customs%20in%20DC.png" width=70% alt="Results after setting up custom language Remote Control dialog"> 
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Final%20results.png" width=100% alt="Final Results"> 
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Final%20results.png" width=70% alt="Final Results"> 
 
 > Make sure the browser is updated by clicking Tools > Update WebDrivers > Choose browser.
 
