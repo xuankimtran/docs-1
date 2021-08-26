@@ -90,7 +90,7 @@ In **Project > Settings > Plugins**, select one of the following options:
 * **Katalon Store and Local**: Katalon Studio will install plugins from Store and the Plugins folder of each project.
 * **Local**: Katalon Studio will install plugins from the Plugins folder only.
 
-> **Notes**: To install plugin offline, see [Offline Plugin Installation](https://docs.katalon.com/katalon-studio/docs/install-plugin-offline.html)
+> **Notes**: To install plugins offline, see [Offline Plugin Installation](https://docs.katalon.com/katalon-studio/docs/install-plugin-offline.html)
 
 ## Use Plugins in Console Mode
 
