@@ -99,7 +99,7 @@ View Test Case ID on its URL.
 
 1. Open a test case.
 2. Select the **Integrations** tab.
-3. Input Test Case ID(s) of ADO. When many mappings are supported, separate IDs by a comma.
+3. Input Test Case ID(s) of ADO. **One:Many mapping** is supported and IDs are separate by commas.
 4. To check whether the test case ID is valid, click **Verify**.
 5. **Save** your setting.
 
