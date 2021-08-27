@@ -10,6 +10,14 @@ redirect_from:
 description:
 ---
 
+## 5.5.4.1
+**Bug fixes**
+	- Fixed an issue where users cannot execute tests with CSV files on Windows.
+	- Fixed an issue where copy and pasting a command does not work as expected.
+	- Fixed an issue where users cannot open .krecorder files.
+	- Fixed an issue where users can't see test steps' statuses after executions.
+	- Fixed an issue where users can't visually distinguish between passed and failed tests.
+
 ## 5.5.4
 **Improvements**
   - Roll out a completely reworked UI/UX.
