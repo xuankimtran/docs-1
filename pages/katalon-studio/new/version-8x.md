@@ -18,7 +18,7 @@ description: Release notes 8.x
 
 ### Enhancements
 
-* [Katalon Studio Enterprise] Improved the Retry Failed Executions Immediately feature and Introduced the consolidated execution reports to address test flakiness. See [Retry Failed Execution Immediately](https://docs.katalon.com/katalon-studio/docs/test-suite.html#retry-failed-executions-immediately).
+* [Katalon Studio Enterprise] Improved the Retry Failed Executions Immediately feature and Introduced the consolidated execution reports to address test flakiness. See [Retry Failed Execution Immediately](https://docs.katalon.com/katalon-studio/docs/create-test-suite.html#retry-failed-execution-immediately).
 * [Azure DevOps Integration] Introduced an option to submit Release Information together with Test Run to Azure DevOps. See [Integration with Azure DevOps Test Plans](https://docs.katalon.com/katalon-studio/docs/azure-devops-test-plans.html#configure-the-integration)
 * [Kobiton Integration] Introduced custom remote server and device name functionality. See [Mobile Testing with Kobiton Devices](https://docs.katalon.com/katalon-studio/docs/integrate_with_kobiton.html)
 * Added Chrome 92 compatibility.
