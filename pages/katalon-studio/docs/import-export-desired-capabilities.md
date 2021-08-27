@@ -46,19 +46,19 @@ Consequently, from version 8.0.0, Katalon Studio allows you to import and export
 
 1. Create new desired capabilities configuration using **JSON file**.
 
-2. Go to **Project/Settings/Desired Capabilities** > choose the driver that you want to import the desired capabilities.
+2. Go to **Project/Settings/Desired Capabilities** > choose the driver you want to import the desired capabilities.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops/desired-capabilities-management/desired-capabilities.png" width=70%>
 
 3. Click **Import**. In the dialog box, **Browse** the imported JSON file > **OK**.
 
-    By default, all current existing desired capabilities will be overridden by imported ones.
+    By default, imported ones overwrite all existing desired capabilities.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops/desired-capabilities-management/chrome_dc.png" width=55%>
 
 ### Export Desired Capabilities
 
-1. Go to **Project/Settings/Desired Capabilities** > choose the driver that you want to export its desired capabilities.
+1. Go to **Project/Settings/Desired Capabilities** > choose the driver you want to export its desired capabilities.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops/desired-capabilities-management/desired-capabilities.png" width=70%>
 
@@ -66,7 +66,7 @@ Consequently, from version 8.0.0, Katalon Studio allows you to import and export
 
     > **Note**
     > 
-    > The export configuration will be saved as a **JSON file** to reduce your effort spent on modification and recreation capabilities in case you want to copy the configuration to multiple places with some minor changes.
+    > The export configuration will be saved as a **JSON file** to reduce your effort spent on modification and recreation capabilities if you want to copy the configuration to multiple places with some minor changes.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops/desired-capabilities-management/export-chrome-save.png" width=55%>
 
