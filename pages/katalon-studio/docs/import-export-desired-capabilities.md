@@ -58,7 +58,7 @@ Consequently, from version 8.0.0, Katalon Studio allows you to import and export
 
 ### Export Desired Capabilities
 
-1. Go to **Project/Settings/Desired Capabilities** > choose the driver you want to export its desired capabilities.
+1. Go to **Project/Settings/Desired Capabilities** > choose the driver you wish to export its desired capabilities.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops/desired-capabilities-management/desired-capabilities.png" width=70%>
 
