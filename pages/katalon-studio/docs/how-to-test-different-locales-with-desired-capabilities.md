@@ -81,7 +81,10 @@ In this example, the language codes are `fr`,`en`,`es`.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Test%20Suite%20Data%20Binding.png" width=70% alt="Test Suite data">
 
-
+> - [Sample test cases run with local Chrome](https://github.com/katalon-studio-samples/multi-locales-sample/blob/main/Test%20Cases/Run%20with%20local%20Chrome.tc)
+> 
+> - [Sample test suite with data binding support](https://github.com/katalon-studio-samples/multi-locales-sample/tree/main/Test%20Suites)
+> 
 ## Use Custom Profiles in Desired Capabilities
 
 Suppose you are using Remote Server and want to test different browser locales. You can combine it with [Custom Desired Capabilities](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html#remote-server) with the desired language settings to alter pre-set language in Chrome.
@@ -133,7 +136,5 @@ Change the name into the language you want to test for better recognition, then 
 > Make sure the browser is updated by clicking Tools > Update WebDrivers > Choose browser.
 
 >
-> - [Sample test cases run with local Chrome](https://github.com/katalon-studio-samples/multi-locales-sample/blob/main/Test%20Cases/Run%20with%20local%20Chrome.tc)
-> - [Sample test cases run with custom execution](https://github.com/katalon-studio-samples/multi-locales-sample/blob/main/Test%20Cases/Run%20with%20custom%20execution.tc)
 > - [Sample test suite with data binding support](https://github.com/katalon-studio-samples/multi-locales-sample/tree/main/Test%20Suites)
 >  
