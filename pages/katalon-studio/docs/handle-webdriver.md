@@ -47,65 +47,58 @@ By replacing the Webdriver, you can either upgrade or downgrade Selenium libary,
 > - [Gecko Drivers](https://firefox-source-docs.mozilla.org/testing/geckodriver/Support.html)
 > - [Internet Explorer](http://selenium-release.storage.googleapis.com/index.html)
 > - [Microsoft Edge](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/)
-### Replace Selenium library
+>
 
-Location:
+**- Selenium library location**
 
 * Windows: `<Katalon Studio folder>\configuration\resources\lib\selenium-server-standalone-3.x.jar`
 * macOS: `/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/lib/selenium-server-standalone-3.x.jar`
 
-### Replace WebDriver binaries (application-level)
-### Windows
+**- WebDriver binaries' (application-level) locations**
+
+For **Window** users, you can find WebDriver binaries (application-level) at: 
 
 **Chrome**
 
 You can use 32-bit Windows Chromedriver for both 32-bit and 64-bit Windows.
 
-Location:
 - `<Katalon Studio folder>\configuration\resources\drivers\chromedriver_win32`
 - `<Katalon Studio folder>\configuration\resources\drivers\chromedriver_win64`
 
 **Firefox**
 
-Location:
 - `<Katalon Studio folder>\configuration\resources\drivers\firefox_win32`
 - `<Katalon Studio folder>\configuration\resources\drivers\firefox_win64`
 
 **Internet Explorer**
 
-Location:
 - `<Katalon Studio folder>\configuration\resources\drivers\iedriver_win32`
 - `<Katalon Studio folder>\configuration\resources\drivers\iedriver_win64`
 
 **Edge**
 
-Location:
 - `<Katalon Studio folder>\configuration\resources\drivers\edgedriver`
 
 **Edge (Chromium)**
 
-Location:
 - `<Katalon Studio folder>\configuration\resources\drivers\edgechromium_win32`
 - `<Katalon Studio folder>\configuration\resources\drivers\edgechromium_win64`
 
-### macOS
+For **macOS** users, you can find WebDriver binaries (application-level) at: 
 
 **Chrome**
 
-Location:
 - `/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/drivers/chromedriver_mac`
 
 **Firefox**
 
-Location:
 - `/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/drivers/firefox_mac`
 
 **Edge (Chromium)**
 
-Location:
 - `/Applications/Katalon Studio.app/Contents/Eclipse/configuration\resources\drivers\edgechromium_mac`
 
-### Replace WebDriver binaries (project-level)
+**- WebDriver binaries' (project-level) locations**
 
 WebDriver binaries are replaceable at project-level by copying new files into the `Include` directory inside the project.
 
