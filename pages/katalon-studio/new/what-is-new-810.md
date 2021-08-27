@@ -22,7 +22,7 @@ Along with these significant changes, we've made adjustments to our UI on macOS 
 
 A flaky test is a test that occasionally fails but finally passes if you attempt it enough times. It lowers test confidence and, as a result, trust is eroded. It not only irritates stakeholders, developers, and testers but also causes everyone to question the process. As a consequence, flakiness becomes an outgoing problem that needs to be tackled. Addressing this issue requires testers and developers to identify which and why tests are flaky and then remedy them accordingly.
 
-The first step to combat test flakiness is to identify it. In version 8.1.0, we've addressed this by applying a new logic to our *Retry Failed Executions Immediately* function. The changed function now consolidates retried test case execution logs into one report so that you can identify flaky tests at a glance. Wonder how it works? See [Retry Failed Execution Immediately](https://docs.katalon.com/katalon-studio/docs/test-suite.html#retry-failed-executions-immediately).
+The first step to combat test flakiness is to identify it. In version 8.1.0, we've addressed this by applying a new logic to our *Retry Failed Executions Immediately* function. The changed function now consolidates retried test case execution logs into one report so that you can identify flaky tests at a glance. Wonder how it works? See [Retry Failed Execution Immediately](https://docs.katalon.com/katalon-studio/docs/create-test-suite.html#retry-failed-execution-immediately).
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/Gif.gif" width=90% alt="how retry immeidately works gif">
 
