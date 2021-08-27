@@ -4,9 +4,9 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/import-export-desired-capabilities.html
 ---
 
-When desired capabilities need to be used across projects, users have to manually re-define them again in a project in use, which is time-consuming and error-prone. 
+When desired capabilities need to use across projects, users have to manually re-define them again in a project in use, which is time-consuming and error-prone. 
 
-Consequently, from version 8.0.0, Katalon Studio allows you to import and export desired capabilities in the Katalon Studio project(s). These functions support you to work with **Desired Capabilities** more efficiently and less error-prone.
+Consequently, from version 8.0.0, Katalon Studio allows you to import and export desired capabilities in the Katalon Studio project(s). These functions support you to work with [Desired Capabilities](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html) more efficiently and less error-prone.
 
 <table>
 	<tbody>
