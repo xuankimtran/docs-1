@@ -157,8 +157,8 @@ AppiumDriverManager.setDriver(driver)
 4. To pack your sideload project, execute the file `package.bat`/`package.sh`.
 
 5. Upload sideload:
-    * Before uploading, you should update sideload by configuring the **.bat** or **.java** file.
-    * To upload and run your sideload project on the App Center, configure in the file `upload.sh`/`upload.bat`.
+    * Before uploading, you should configure in the file `upload.sh`/`upload.bat`.
+    * To upload and run your sideload project on the App Center, execute  the file `upload.sh`/`upload.bat`.
 
 ## Executing KatalonDemoProject
 
@@ -172,18 +172,10 @@ On App Center Test, [create and start a new test run](https://docs.microsoft.com
 * Device: Android 7.1.1 or prior. Ex: Motorola Nexus 6
 * Test framework: Appium
 
-To run tests, from the **KatalonDemoProject** workspace, copy and paste the commands generated automatically in the **Submit** screen of the **New test run** dialog
+3. To pack your sideload project, execute the file `package.bat`/`package.sh`.
 
-1. Build and package all your dependencies using Maven
-
-    ```shell script
-    $ mvn -DskipTests -P prepare-for-upload package
-    ```
-
-2. Upload and schedule tests
-
-    ```shell script
-    $ appcenter test run appium --app "katalon/demo-app" --devices "katalon/nexus" --app-path "apps/APIDemos.apk" --test-series "master" --locale "en_US" --build-dir target/upload
-    ```
+5. Upload sideload:
+    * Before uploading, you should configure in the file `upload.sh`/`upload.bat`.
+    * To upload and run your sideload project on the App Center, execute  the file `upload.sh`/`upload.bat`.
 
 You can view test reports on App Center Test. See Microsoft documentation: [Test reports](https://docs.microsoft.com/en-us/appcenter/test-cloud/test-reports).
