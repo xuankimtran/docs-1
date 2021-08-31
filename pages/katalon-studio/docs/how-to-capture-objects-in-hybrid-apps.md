@@ -41,11 +41,11 @@ Example:
 5. By default, Katalon Studio starts in the [NATIVE_APP](http://appium.io/docs/en/writing-running-appium/web/hybrid/) mode. Navigate to a portion of your app where a web view is active. Click **Save Script**
 
 6. To automate under the `Webview` context, do as follow:
-In the mobile test you have just saved at Step 5
+In the mobile test you saved at Step 5
 
 -  Switch to the Script tab.
--  Set the WebView context by using [switchToWebView](https://docs.katalon.com/katalon-studio/docs/mobile-switch-to-web-view.html#example).
--  Continue writing your script to run in Webview context.
+-  Set the `WebView` context by using [switchToWebView](https://docs.katalon.com/katalon-studio/docs/mobile-switch-to-web-view.html#example).
+-  Continue writing your script to run in `Webview` context.
   
 ```groovy
 //to set context to WebView
