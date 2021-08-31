@@ -51,11 +51,11 @@ The dashboard contains a dynamic visualization with filter options.
 
 ### The Displayed Graph
 
-The graph shows the testing duration in hours for each month. Observing this diagram helps you find out a trend in the time each user in your team use for each license. For example, when your team reaches the peak in the graph, how many licenses are utilized during peak durations. With this information, you can decide on an upgrade in your subscription accordingly.
+The graph shows the testing duration in hours for each month. Observing this diagram helps you find out a trend in the time each user in your team use for each license. For example, when your team reaches the peak in the graph, you can see how many licenses are utilized during peak durations. With this information, you can decide on an upgrade in your subscription accordingly.
 
 There are two modes for view: linear and stacked. Clicking on the button above the graph switches between the modes.
 
-After choosing your filter options, the graph appears. You can find the time used in each license type and the total amount of it.
+After choosing your filter options, the graph appears. You can now see the time spent testing for each license type as well as total testing duration for the period.
 
 **The linear mode**:
 
