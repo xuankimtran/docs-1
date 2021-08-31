@@ -34,7 +34,7 @@ Start Katalon Studio with this command-line option instead of double-clicking on
 
 - For Windows:
     
-    1\. In your Window, search for **Edit the system environment variables**. 
+    1\. In the Windows explorer search bar, search for **Edit the system environment variables**. 
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/android-home-path/KS-android-home-edit-environment-variables.png" alt="Edit the system environment variable" width=70%>
 
@@ -42,10 +42,10 @@ Start Katalon Studio with this command-line option instead of double-clicking on
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/android-home-path/KS-android-home-environment.png" alt="system properties" width=70%>
     
-    2\. In the **System variables**, click **New** to create a new environment variable where:
+    2\. In the **System variables**, click **New** to create a new environment variable like so:
 
     * **Variable**: **ANDROID_HOME**
-    * **Value**: the path to the Android SDK root folder
+    * **Value**: your custom path to the Android SDK root folder
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/android-home-path/KS-android-home-new.png" alt="new" width=70%>
 
