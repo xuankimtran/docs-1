@@ -15,12 +15,9 @@ You can execute your Katalon test scripts with devices provided on App Center Te
 > * An active [Katalon Runtime Engine](https://docs.katalon.com/katalon-studio/docs/license.html#katalon-runtime-engine) license
 > * A [Katalon API Key](https://docs.katalon.com/katalon-analytics/docs/ka-api-key.html)
 > * Katalon Studio version 7.6.0 onwards
->
-> **Your machine should**
->
-> * Install [Apache Maven](https://maven.apache.org/download.cgi) version 3.3.9 or later
-> * Install [NodeJS](https://nodejs.org/es/blog/release/) version 6.3 or later
-> * Install and log into [App Center CLI](https://docs.microsoft.com/en-us/appcenter/cli/#installation)
+> * [Apache Maven](https://maven.apache.org/download.cgi) version 3.3.9 or later installed
+> * [NodeJS](https://nodejs.org/es/blog/release/) version 6.3 or later installed
+> * [App Center CLI](https://docs.microsoft.com/en-us/appcenter/cli/#installation) installed and logged in
 
 To run your Katalon projects with App Center Test, you have to configure your Katalon project and make updates in **sideload** properly.
 
@@ -54,17 +51,17 @@ AppiumDriverManager.setDriver(driver)
 
 2. Change the [desired capabilities](http://appium.io/docs/en/writing-running-appium/caps/) corresponding to your app.
 
-    Since you have created a custom Appium driver, you need to comment out, or remove all the `Mobile.startApplication(...)` or `Mobile.startExistingApplication(...)` in your current test cases.
+    Since you have created a custom Appium driver, you need to comment out or remove all the `Mobile.startApplication(...)` or `Mobile.startExistingApplication(...)` in your current test cases.
 
 3. Package your Katalon project into a **.zip** file.
 
 ### Update sideload
 
-1. Clone or download **sideload** [here](https://github.com/katalon-studio/sideload).
+1. Clone or download **sideload** from our repository: [Katalon Studio sideload](https://github.com/katalon-studio/sideload).
 
 2. Inside sideload, place your Katalon Project .**zip** file in this directory: `src/test/resources`.
 
-3. Configure sideload
+3. Configure sideload.
 
     There are two ways to update sideload for you to choose:
 
@@ -164,10 +161,10 @@ AppiumDriverManager.setDriver(driver)
 
 This section provides you a usage example on how to upload **KatalonDemoProject** packaged in JUnit by **sideload** and start a test run in App Center Test.
 
-1. Clone or download **sideload** [here](https://github.com/katalon-studio/sideload).
-2. Open the workspace of the usage example project by following this path `src/test/resources/KatalonDemoProject.zip`.
+1. Clone or download **sideload** from our repository: [Katalon Studio sideload](https://github.com/katalon-studio/sideload).
+2. Open the workspace of the usage example project by following the path: `src/test/resources/KatalonDemoProject.zip`.
 
-On App Center Test, [create and start a new test run](https://docs.microsoft.com/en-us/appcenter/test-cloud/starting-a-test-run#new-test-run).
+On App Center Test, create and start a new test run. See Microsoft documentation: [Starting a test run](https://docs.microsoft.com/en-us/appcenter/test-cloud/starting-a-test-run#new-test-run).
 
 * Device: Android 7.1.1 or prior. Ex: Motorola Nexus 6
 * Test framework: Appium
