@@ -23,14 +23,6 @@ items:
                 url: /katalon-studio/docs/license-po.html
               - title: "Subscription via Quote"
                 url: /katalon-studio/docs/license-quote.html
-          - title: "Use and Manage Katalon Licenses"
-            tree:
-              - title: "Manage Katalon Licenses"
-                url: /katalon-studio/docs/license-management.html
-              - title: "Grant Online Licenses"
-                url: /katalon-studio/docs/use-online-license.html
-              - title: "Grant and Use an Offline Katalon Studio Enterprise License"
-                url: /katalon-studio/docs/how-to-create-kse-offline-license.html
           - title: "Upgrade Subscriptions"
             url: /katalon-studio/docs/upgrade-subs.html
           - title: "Update Billing Information"
@@ -51,7 +43,7 @@ items:
             url: /katalon-studio/docs/re-offline-licenses.html
           - title: "Transfer an Online Katalon Runtime Engine License"
             url: /katalon-studio/docs/transfer-license.html
-      - title: "Katalon TestOps Subscriptions"
+      - title: "Katalon TestOps"
         tree:
           - title: "Overview"
             url: /katalon-analytics/docs/testops_subscriptions_overview.html
@@ -65,6 +57,16 @@ items:
                 url: /katalon-analytics/docs/upgrade-subscriptions.html
               - title: "Cancel Subscriptions"
                 url: /katalon-analytics/docs/cancel-subscriptions.html
+      - title: "License Administration"
+        tree:
+          - title: "Manage Katalon Licenses"
+            url: /katalon-studio/docs/license-management.html
+          - title: "Grant Online Licenses"
+            url: /katalon-studio/docs/use-online-license.html
+          - title: "Grant and Use an Offline Katalon Studio Enterprise License"
+            url: /katalon-studio/docs/how-to-create-kse-offline-license.html
+          - title: "License Utilization Dashboard"
+            url: /katalon-studio/docs/license-utilization-dashboard.html
   - title: "Katalon Studio Enterprise"
     tree:
       - title: "What's new"
