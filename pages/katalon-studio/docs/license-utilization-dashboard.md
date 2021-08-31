@@ -7,19 +7,20 @@ description:
 > **Known Issue**:
 >
 > * The search bar and user filters are not available at the moment.
-> * The date range provided supports 1-year range only.
-> * Currently not support reports exported in CSV file.
+> * The date range provided supports the 1-year range only.
+> * Currently cannot export reports as **.csv** files.
 
-As an organization owner or an organization administrator, you might want to keep track of your license utilization to manage the productivity usage of your team with Katalon Studio Enterprise and Katalon Runtime Engine licenses. Keeping track of the time each machine ID use helps you maximize your license subscription, enhancing the team work efficiency and even saving your company some money.
+As an organization owner or administrator, the **License Utilization Dashboard** allows you to track the use of Katalon Studio Enterprise and Katalon Runtime Engine licenses to help maximize the license allocations and productivity of your team.
 
-For an organization owner or an organization administrator to get the insights on the license assignments, sessions, duration in a glance, we introduce you to the **License utilization dashboard**.
+## License Usage Visualization
 
-## Visualized License Utilization Report
+> **Requirements**:
+>
+> * Owner or Admin in an Organization.
 
-In [Katalon TestOps](https://admin.katalon.com/), go to the **License Utilization Dashboard**.
-In the dashboard, you can see a filter and a diagram.
+In [Katalon TestOps](https://testops.katalon.io/), select an Organization. Go to **Settings > Subscription Management > License Utilization**.
 
-There are two main things this dashboard provides: the filter bar and the displayed graph.
+The dashboard contains a dynamic visualization with filter options.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-utilization-dashboard/license%20utilization.png" alt="license utilization" wwidth=100%>
 
@@ -31,7 +32,7 @@ There are two main things this dashboard provides: the filter bar and the displa
 
     > **Notes**:
     >
-    > The date range filter is not supported at the moment. The data you see is the Count the data of a fixed date range: 1 year ago from this month.
+    > The date range filter is not supported at the moment. The data you see is a fixed date range: 1 year ago from this month.
 
 2. **User email and machine ID**:
 
@@ -48,18 +49,22 @@ There are two main things this dashboard provides: the filter bar and the displa
     * KSE Node-locked
     * KSE Floating
 
-    Once you filtered it, the total number and the diagram you want to see appear. You can find the time used in each license type and the total amount of it.
+### The Displayed Graph
 
-    There are two modes for view: linear and stacked. You can switch between these two.
+The graph shows the testing duration in hours for each month. Observing this diagram helps you find out a trend in the time each user in your team use for each license. For example, when your team reaches the peak in the graph, how many licenses are utilized during peak durations. With this information, you can decide on an upgrade in your subscription accordingly.
 
-    **The linear mode**:
+There are two modes for view: linear and stacked. Clicking on the button above the graph switches between the modes.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-utilization-dashboard/linear.png" alt="linear" width=100%>
+After choosing your filter options, the graph appears. You can find the time used in each license type and the total amount of it.
 
-    **The stacked mode**:
+**The linear mode**:
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-utilization-dashboard/stacked.png" alt="stacked" width=100%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-utilization-dashboard/linear-mode.png" alt="linear" width=100%>
 
-## The Displayed Graph
+**The stacked mode**:
 
-The graph below shows the testing duration in hours for each month. Observing this diagram helps you find out a trend in the time each user in your team use for each license. For example, when your team reaches the peak in the graph, how many licenses are utilized during peak durations. With this information, you can decide on an upgrade in your subscription accordingly.
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-utilization-dashboard/stacked%20mode.png" alt="stacked" width=100%>
+
+You can also view the detailed session list right below the graph section.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-utilization-dashboard/detail%20session.png" alt="sessions" width=100%>
