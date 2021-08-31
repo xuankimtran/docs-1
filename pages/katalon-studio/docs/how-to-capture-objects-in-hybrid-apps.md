@@ -36,20 +36,28 @@ appium --chromedriver-executable "/Users/yen.nguyen/Downloads/node_modules/appiu
 
 4. Start Katalon Studio Mobile [Spy](https://docs.katalon.com/katalon-studio/docs/spy-mobile-utility.html) or [Record](https://docs.katalon.com/katalon-studio/docs/record-mobile-utility.html), and wait for the AUT to start.
 
-5. Open Chrome and navigate to this URL: [chrome://inspect/#devices](chrome://inspect/#devices). The devices will be listed here, 
 
-   <img src="url" width="70%" alt="Inspection view">
-
-
-6. By default, Katalon Studio starts in the [NATIVE_APP](http://appium.io/docs/en/writing-running-appium/web/hybrid/) mode. To find the objects under *WEBVIEW*, you need switch to WebView by using [switchToWebView](https://api-docs.katalon.com/com/kms/katalon/core/mobile/keyword/MobileBuiltInKeywords.html#switchToWebView()).
-
-- Continue writing your script.
-
-Example:
+6. By default, Katalon Studio starts in the [NATIVE_APP](http://appium.io/docs/en/writing-running-appium/web/hybrid/) mode. To find the objects under *WEBVIEW*, you need switch to WebView by using [switchToWebView](https://docs.katalon.com/katalon-studio/docs/mobile-switch-to-web-view.html#example).
 
 ```groovy
 //to switch to WebView
 Mobile.switchToWebView()
+
+```
+
+7. After switching to the Webview, to identify hybrid app elements, navigate to [chrome://inspect/#devices](chrome://inspect/#devices). The **chrome://inspect** page displays a list of debug-enabled WebViews on your device 
+
+>Make you have turned on **USB debugging mode** on your testing Anrdoid devices. Go to **Setting > System > Developer Options > USD debugging > ON**
+
+
+8. Click **Inspect** below the WebView you want to debug, this opens the Webview in **DevTools**, here you can inspect elements in your testing hybrid app.
+
+<img src="url" width="70%" alt="Chrome inspecting mode after switching webview">
+
+
+9. After inspecting hybrid app elements by **Devtools**, use below sample code to automate hybrid app’s elements:
+
+```groovy
 
 DriverFactory.changeWebDriver(MobileDriverFactory.getDriver())
 
@@ -57,13 +65,9 @@ TestObject cdmDetails = new TestObject()
 cdmDetails.addProperty("id", ConditionType.EQUALS, "119")WebUI.setText(cdmDetails, "123")
 
 ```
-<img src="url" width="70%" alt="Script view after switching webview">
-
-7. After switch to the Webview, sour hybrid app url should show in Chrome url [chrome://inspect/#devices](chrome://inspect/#devices) from Step 5. 
-
 <img src="url" width="70%" alt="Chrome inspecting mode after switching webview">
 
-8. After finishing capturing objects in Webview, you wish to change back to mobile key by using.
+You can then change back to mobile keywords by using.
 
 ```groovy
 
@@ -71,6 +75,7 @@ cdmDetails.addProperty("id", ConditionType.EQUALS, "119")WebUI.setText(cdmDetail
 Mobile.switchToNative()
 
 ```
+9.  Results
 
-<img src="url" width="70%" alt="Script view after switching to mobile key">
+
 
