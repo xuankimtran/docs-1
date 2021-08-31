@@ -1,7 +1,7 @@
 ---
-title: "How to capture objects in Hybrid apps?"
+title: "Capture elements in Android Hybrid apps?"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/how-to-capture-objects-in-hybrid-apps.html
+permalink: katalon-studio/docs/capture-elements-in-hybrid-apps.html
 redirect_from:
 description:
 ---
@@ -9,16 +9,9 @@ description:
 
 Katalon Studio partially supports Hybrid Mobile App. You can use Mobile keywords to automate your app but Katalon’s Mobile Spy/Recorder doesn’t support to detect elements at this moment. Hence, this turtorial shows you how to use Appium with built-in hybrid support via Chromedriver, that allows the automation of any Chrome-backed [Android web views](https://developer.android.com/reference/android/webkit/WebView).
 
-1. [Download]((http://appium.io/docs/en/writing-running-appium/web/chromedriver/#chromedriverchrome-compatibility)) ChromeDriver for Appium. It is advisible to download the compatible version with Chrome on your testing devices.
+1. [Download](http://appium.io/docs/en/writing-running-appium/web/chromedriver/#chromedriverchrome-compatibility) ChromeDriver for Appium. It is advisible to download the compatible version with Chrome on your testing devices.
 
-2. Go to *Project > Settings > Desired Capabilities > Mobile > Android* and add this property *chromedriverExecutable: "path_to_my_chromedriver"*.
-
-Example:
-
-   <img src="url" width="70%" alt="Set up Android in Desired Capabilities">
-
-
-3. Start Appium ChromeDriver in Terminal (for macOS)/Command Prompt (for Windows):
+2. To specify Chromedriver version at runtime, open Appium ChromeDriver in **Command Prompt** (for Windows)/ **Terminal** (for macOS), along with the full path to the downloaded Chromedriver from Step 1:
 
 ```groovy
 
@@ -34,40 +27,40 @@ appium --chromedriver-executable "/Users/yen.nguyen/Downloads/node_modules/appiu
 
 ```
 
+3. After starting Chromedriver for Appium at server level, you need to specify Chromeversion in session capabilities by using [Mobile Testing function in Desired Capabilities](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html#mobile-testing). Go to **Project > Settings > Desired Capabilities > Mobile > Android** and add this property:
+**chromedriverExecutable** : Support specifying Chromedriver version in session capabilities.
+**path_to_my_chromedriver**: full path to the downloaded Chromversion from Step 1.
+
+Example:
+
+   <img src="url" width="70%" alt="Set up Android in Desired Capabilities">
+
+
 4. Start Katalon Studio Mobile [Spy](https://docs.katalon.com/katalon-studio/docs/spy-mobile-utility.html) or [Record](https://docs.katalon.com/katalon-studio/docs/record-mobile-utility.html), and wait for the AUT to start.
 
+5. By default, Katalon Studio starts in the [NATIVE_APP](http://appium.io/docs/en/writing-running-appium/web/hybrid/) mode. Navigate to a portion of your app where a web view is active. Click **Save Script**
 
-6. By default, Katalon Studio starts in the [NATIVE_APP](http://appium.io/docs/en/writing-running-appium/web/hybrid/) mode. To find the objects under *WEBVIEW*, you need switch to WebView by using [switchToWebView](https://docs.katalon.com/katalon-studio/docs/mobile-switch-to-web-view.html#example).
+6. To automate under the `Webview` context, do as follow:
+In the mobile test you have just saved at Step 5
 
+-  Switch to the Script tab.
+-  Set the WebView context by using [switchToWebView](https://docs.katalon.com/katalon-studio/docs/mobile-switch-to-web-view.html#example).
+-  Continue writing your script to run in Webview context.
+  
 ```groovy
-//to switch to WebView
+//to set context to WebView
 Mobile.switchToWebView()
-
-```
-
-7. After switching to the Webview, to identify hybrid app elements, navigate to [chrome://inspect/#devices](chrome://inspect/#devices). The **chrome://inspect** page displays a list of debug-enabled WebViews on your device 
-
->Make you have turned on **USB debugging mode** on your testing Anrdoid devices. Go to **Setting > System > Developer Options > USD debugging > ON**
-
-
-8. Click **Inspect** below the WebView you want to debug, this opens the Webview in **DevTools**, here you can inspect elements in your testing hybrid app.
-
-<img src="url" width="70%" alt="Chrome inspecting mode after switching webview">
-
-
-9. After inspecting hybrid app elements by **Devtools**, use below sample code to automate hybrid app’s elements:
-
-```groovy
 
 DriverFactory.changeWebDriver(MobileDriverFactory.getDriver())
 
 TestObject cdmDetails = new TestObject()
-cdmDetails.addProperty("id", ConditionType.EQUALS, "119")WebUI.setText(cdmDetails, "123")
+cdmDetails.addProperty("id", ConditionType.EQUALS, "119")
+WebUI.setText(cdmDetails, "123")
 
 ```
 <img src="url" width="70%" alt="Chrome inspecting mode after switching webview">
 
-You can then change back to mobile keywords by using.
+7. To stop automating in the web view context and go back to automating the native portion of the app by using [switchToNative](https://docs.katalon.com/katalon-studio/docs/mobile-switch-to-native.html)
 
 ```groovy
 
@@ -75,7 +68,13 @@ You can then change back to mobile keywords by using.
 Mobile.switchToNative()
 
 ```
-9.  Results
-
+>
+> **Detect Webview Elements**
+>
+> Android testers can use **Devtools** at [chrome://inspect/#devices](chrome://inspect/#devices) to detach the web elements from the applications. 
+> For **Devtool** to discover testing Android device, set up your Android device for remote debugging. [See also](https://developer.chrome.com/docs/devtools/remote-debugging/)
+> On your development machine, open Chrome browser and navigate to [chrome://inspect/#devices](chrome://inspect/#devices), this page displays the name of your connecting device and a list of debug-enabled WebViews on your device.
+> Click **Inspect** to open a **Devtools** instance.
+>
 
 
