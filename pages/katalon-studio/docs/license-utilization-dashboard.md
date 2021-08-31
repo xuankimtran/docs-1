@@ -16,48 +16,50 @@ For an organization owner or an organization administrator to get the insights o
 
 ## Visualized License Utilization Report
 
-In [Katalon TestOps](link), go to the **License Utilization Dashboard**.
+In [Katalon TestOps](https://admin.katalon.com/), go to the **License Utilization Dashboard**.
 In the dashboard, you can see a filter and a diagram.
 
 There are two main things this dashboard provides: the filter bar and the displayed graph.
 
-<ADD THE SCREENSHOT>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-utilization-dashboard/license%20utilization.png" alt="license utilization" wwidth=100%>
 
 ### The Filter Bar
 
 1. **Time range**:
 
-On the top right, you can see the specific date range, for example: Aug 2020 - Jul 2021.
+    On the top right, you can see the specific date range, for example: Aug 2020 - Jul 2021.
 
-> **Notes**:
->
-> The date range filter is not supported at the moment. The data you see is the Count the data of a fixed date range: 1 year ago from this month.
+    > **Notes**:
+    >
+    > The date range filter is not supported at the moment. The data you see is the Count the data of a fixed date range: 1 year ago from this month.
 
-2. **Email and machine ID**:
+2. **User email and machine ID**:
 
-Use the filter to select the email or machine ID you want to analyze. If you leave it blank, you will see the total time used for all machine IDs and emails.
+    Use the filter to select the user email and machine ID you want to analyze. If you leave it blank, you will see the total time used for all machine IDs and user emails.
 
-You can select multiple emails or machine IDs. The removed machine IDs or emails are excluded in this filter.
+    You can select multiple user emails or machine IDs. The removed machine IDs or user emails are excluded in this filter.
 
 3. **License types**:
 
-To view the time used for each license, you can filter the license type of:
+    To view the time used for each license, you can filter the license type of:
 
-* KRE Node-locked
-* KRE Floating
-* KSE Node-locked
-* KSE Floating
+    * KRE Node-locked
+    * KRE Floating
+    * KSE Node-locked
+    * KSE Floating
 
-Once you filtered it, the total number and the diagram you want to see appear.
+    Once you filtered it, the total number and the diagram you want to see appear. You can find the time used in each license type and the total amount of it.
 
-You can find the time used in each license type and the total amount of it.
+    There are two modes for view: linear and stacked. You can switch between these two.
 
-There are two modes for view: Linear and stacked. You can switch between these two.
+    **The linear mode**:
 
-<LINEAR AND STACKED SCREENSHOT>
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-utilization-dashboard/linear.png" alt="linear" width=100%>
 
-## Display Graph
+    **The stacked mode**:
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-utilization-dashboard/stacked.png" alt="stacked" width=100%>
+
+## The Displayed Graph
 
 The graph below shows the testing duration in hours for each month. Observing this diagram helps you find out a trend in the time each user in your team use for each license. For example, when your team reaches the peak in the graph, how many licenses are utilized during peak durations. With this information, you can decide on an upgrade in your subscription accordingly.
-
-<ADD GRAPH SCREENSHOT>
