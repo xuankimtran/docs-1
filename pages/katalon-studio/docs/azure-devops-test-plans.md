@@ -33,7 +33,7 @@ To retrieve your test artifacts and test results directly in Azure DevOps, you n
     - **Server URL**: `https://dev.azure.com/{yourorganization}`
     - **Personal Access Token**: your Personal Access Token. We recommend you create a Personal Access Token with full-access scopes. See Microsoft document: [Use personal access tokens](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops&tabs=preview-page) and [Scopes](https://docs.microsoft.com/en-us/azure/devops/integrate/get-started/authentication/oauth?view=azure-devops#scopes).
 
-3. Click **Connect**. If the connection to Azure Server is successful, the **Test Connetion Succeeded** line appears.
+3. Click **Connect**. If the connection to the Azure server is successful, the **Test Connection Succeeded** line appears.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration/authentication.png" alt="Azure DevOps dialog" width=70%>
 
@@ -99,7 +99,7 @@ View Test Case ID on its URL.
 
 1. Open a test case.
 2. Select the **Integrations** tab.
-3. Input Test Case ID(s) of ADO. **One:Many mapping** is supported and IDs are separate by commas.
+3. Input one or more Test Case IDs of ADO. You can map one test case ID in Katalon Studio with many test case IDs on ADO. IDs are separate by commas.
 4. To check whether the test case ID is valid, click **Verify**.
 5. **Save** your setting.
 
