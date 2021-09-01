@@ -125,7 +125,7 @@ You can use Mobile keywords to automate your application. However, Katalon Mobil
 
 ## How to switch contexts?
 
-For the test engine to know whether you want to automate the native aspects of the app or the web views, Katalon Studio provides two keywords that help you can switch contexts:
+For the test engine to know whether you want to automate the native aspects of the app or the web views, Katalon Studio provides two keywords that help you switch contexts:
 
 * [Switch to Native](https://docs.katalon.com/katalon-studio/docs/mobile-switch-to-native.html)
 * [Switch to WebView](https://docs.katalon.com/katalon-studio/docs/mobile-switch-to-web-view.html)
