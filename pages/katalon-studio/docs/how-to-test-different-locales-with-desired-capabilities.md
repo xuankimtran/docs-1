@@ -14,9 +14,16 @@ Nevertheless, you can now test different browser locales by configuring [Desired
 
 ## Use Configured Desired Capability with Test Case Variables
 
-In the following example, we demonstrate how to create a Test Suite containing several Test cases with different Browser locales. Here, we use French, English, and Spanish.
+In this section, we show you 2 possible approaches to alter browser locales while testing: 
 
-First, we configure a test case to run with a specific browser locale, like French.
+- To test one specific language with a test case.
+- To test different languages with a test suite.
+
+### 1. Create a test case to test one language
+
+In the following example, we configure a test case to run with a specific browser locale, like French.
+
+Do as follow:
 
 1. Create a New Test Case. Go to **File > New > Test Case.**
 
@@ -68,17 +75,45 @@ RunConfiguration.setWebDriverPreferencesProperty("prefs", pref)
   
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/configured-desired-capabilities.png" width=90% alt="Configured Desired Capabilities">
 
-4. Create a test suite
+### 2. Create a Test Suite to test different languages
 
-After configuring all your test cases with Desired Capabilities, use configured test cases to create a test suite with different browser locales. The example here uses French, English, Spanish.
+> **Requerements:**
+> 
+> Make sure to configure all your test cases with Desired Capabilities as per Part 1. 
+>
+>
 
-Create a new [Test Suite with Test Case Variable](https://docs.katalon.com/katalon-studio/docs/run-test-case-external-data.html#create-a-new-test-suite-with-test-case-variables) with data input should be different [language code](https://developers.google.com/admin-sdk/directory/v1/languages) you want to test on browsers.
+In the following example, we demonstrate how to create a [Test Suite with Test cases variables](https://docs.katalon.com/katalon-studio/docs/run-test-case-external-data.html#create-a-new-test-suite-with-test-case-variables) to test different browser locales. Here, we use French, English, and Spanish.
+
+1. Create a test suite. Go to **File > New > Test Suite.**
+2. Click **Add** in command toolbar, then choose pre-configured test cases.
+
+<img src="url" width=70% alt="New Test Suite">
+
+3. Create a data file. Go to **File > New > Test Data.** Choose **Data Type** as **Internal Data.**
+This data file contains different [language code](https://developers.google.com/admin-sdk/directory/v1/languages) you want to test on browsers.
 
 In this example, the language codes are `fr`,`en`,`es`.
 
+<img src="url" width=70% alt="New Data file 2">
+
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/New%20Data%20File.png" width=70% alt="New Data file">
 
+4. Manage Data Binding
+- Switch back to the test suite editor, click **Show Data Binding** to expand the **Data Binding** section with the **Test Data** and **Variable Binding** tables. Make sure you click on the correct pre-configured test case beforehand.
 
+<img src="url" width=70% alt="Show Data Binding section">
+
+- In the **Test Data** table, select **Add > select the data file from Step 3 > OK**.
+- In the **Variable Binding** table:
+   - Katalon Studio automatically fills in the **Name** and **Default Value** column from variables in pre-configured test cases.
+   - Double-click the **Type** comlumn to show a drop-down menu, then choose **Data Column**
+   - Katalon Studio then asks you to fill in **Test Data** and **Value** column, alternatively double-click on them and choose available data in the pop-up dialog. See also [Manage Binding](https://docs.katalon.com/katalon-studio/docs/run-test-case-external-data.html#manage-data-binding)
+
+<img src="url" width=70% alt="Variable Data Binding section">
+
+- The final results should show as below:
+  
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Test%20Suite%20Data%20Binding.png" width=70% alt="Test Suite data">
 
 >
