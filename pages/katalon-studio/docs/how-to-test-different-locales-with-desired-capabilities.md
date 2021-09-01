@@ -28,8 +28,8 @@ Do as follow:
 
 1. Create a New Test Case. Go to **File > New > Test Case.**
 
-2. Create Test Case Variables. 
-To run tests with different browser locales, [Test Case Variables](https://docs.katalon.com/katalon-studio/docs/test-case-variables.html#manage-test-case-variables) comes in handy because it allows parameterizing that test case with varying language inputs.
+2. Create Test Case Variables. Learn more about [Test Case Variables](https://docs.katalon.com/katalon-studio/docs/test-case-variables.html#manage-test-case-variables). 
+To run tests with different browser locales, Test Case Variables comes in handy because it allows you to run that test case with varying language inputs.
 
 - Switch to Variables tab of your Test Case.
 - Click **Add**. A new row appears in the variable list.
