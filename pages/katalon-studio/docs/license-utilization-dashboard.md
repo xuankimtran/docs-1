@@ -52,7 +52,7 @@ There are two modes for view. Clicking on the button above the graph switches be
 * **The linear mode** shows the stats in number and the graph in a line chart.
 * **The stacked mode** shows the stats in percentage and the graph in a bar chart.
 
-**Statistics summary**:
+**The statistics summary**:
 
 The statistics summary above the chart represents the total duration of testing for each license type within the time range.
 
