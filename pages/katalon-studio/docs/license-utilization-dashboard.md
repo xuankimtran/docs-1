@@ -52,11 +52,11 @@ There are two modes for view. Clicking on the button above the graph switches be
 * **The linear mode** shows the stats in number and the graph in a line chart.
 * **The stacked mode** shows the stats in percentage and the graph in a bar chart.
 
-1. **Statistics summary**:
+**Statistics summary**:
 
 The statistics summary above the chart represents the total duration of testing for each license type within the time range.
 
-2. **The graph**:
+**The graph**:
 
 The graph visualizes the duration of each license type for each month. Observing this diagram helps you find out a trend in the time each user in your team use for each license.
 
