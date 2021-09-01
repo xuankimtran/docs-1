@@ -71,7 +71,7 @@ Mobile.switchToNative()
 > **Detect Webview Elements**
 >
 > Android testers can use **Devtools** at [chrome://inspect/#devices](chrome://inspect/#devices) to detach the web elements from the applications. 
-> For **Devtool** to discover testing Android device, set up your Android device for remote debugging. [See also](https://developer.chrome.com/docs/devtools/remote-debugging/)
+> For **Devtool** to discover testing Android device, set up your Android device for remote debugging. See also [Remote Debug Android devices](https://developer.chrome.com/docs/devtools/remote-debugging/)
 > On your development machine, open Chrome browser and navigate to [chrome://inspect/#devices](chrome://inspect/#devices), this page displays the name of your connecting device and a list of debug-enabled WebViews on your device.
 > Click **Inspect** to open a **Devtools** instance.
 >
