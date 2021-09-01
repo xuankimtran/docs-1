@@ -45,7 +45,7 @@ The dashboard contains a dynamic visualization with filter options.
 
 ### License Usage
 
-In the **License Usage** section, you can see a statistics summary and a graph.
+In the **License Usage** section, you can see the statistics summary and the graph.
 
 There are two modes for view. Clicking on the button above the graph switches between the modes:
 
@@ -54,7 +54,7 @@ There are two modes for view. Clicking on the button above the graph switches be
 
 1. **Statistics summary**:
 
-The summary above the chart represents the total duration of testing for each license type within the time range.
+The statistics summary above the chart represents the total duration of testing for each license type within the time range.
 
 2. **The graph**:
 
