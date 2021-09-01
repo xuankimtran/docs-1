@@ -35,7 +35,8 @@ To run tests with different browser locales, [Test Case Variables](https://docs.
 - Click **Add**. A new row appears in the variable list.
 - Input variables.
   
- For example, you want to run a test case in French, input:
+ For example: 
+You want to run a test case in French, input:
 
  <table width="959">
 <tbody>
@@ -52,16 +53,17 @@ To run tests with different browser locales, [Test Case Variables](https://docs.
 </tbody>
 </table>
  
- - Setting the Default Value to the language code "fr" sets the locale as French. You can find other language codes for Chrome here: [language code](https://developers.google.com/admin-sdk/directory/v1/languages).
+ - Setting the **Default Value** to the language code "fr" sets the locale as French. You can find other language codes for Chrome here: [language code](https://developers.google.com/admin-sdk/directory/v1/languages).
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Test-case-variables-2.png" width=90% alt="test case with variables">
 
 
-1. Use Configured Desired Capabilities.
+3. Use Configured Desired Capabilities.
 After defining Test Case Variables, we override default language settings in Chrome by using [Configured Desired Capabilities](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html#passing-desired-capabilities-at-runtime).
 
-- Switch to Script tab of your Test Case.
-- Use the code as below. With this code, the language in the testing browser changes into the language defined in Step 2, which is, in this case, French.
+- Switch to the Script tab of your Test Case.
+- Use the code as below. With this code, it allows you to manipulate the locales of the testing browsers.
+
 ```groovy
 
 import com.kms.katalon.core.configuration.RunConfiguration
@@ -73,7 +75,8 @@ RunConfiguration.setWebDriverPreferencesProperty("prefs", pref)
 ```
 
 - Continue writing the script for your testing purpose.
-  
+- Your Test Case is now ready to run with Chrome in French.
+
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/configured-desired-capabilities.png" width=90% alt="Configured Desired Capabilities">
 
 >
@@ -119,21 +122,28 @@ This step is to bind New Data File from Step 3 with the Test Suite you want to t
 > 
 ## Use Custom Profiles in Desired Capabilities
 
-Suppose you are using Remote Server and want to test different browser locales. You can combine it with [Custom Desired Capabilities](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html#remote-server) with the desired language settings to alter pre-set language in Chrome.
+If you are using a Remote Server and want to test different browser locales. You can use [Custom Desired Capabilities](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html#remote-server) and set the desired language settings to alter default language in Chrome.
+
+> **Requerements:**
+> 
+> Make sure that you are running Selenium Grid Hub & Node while executing the test. 
+>
+>
 
 The following example shows how to create a custom profile with Spanish as the testing language.
-Make sure that you are running Selenium Grid Hub & Node while executing the test. 
 Do as follow:
 
 1. Create a new Custom profile in Desired Capabilities function. Go to **Project > Settings > Desired Capabilities > Custom.**
 
-2. Click **Add** on the command toolbar to add a language custom execution.
-Change the name into the language you want to test for better recognition, then click on the **More** icon under the **Value** column.
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/project-settings-dialog.png" width=70% alt="Project Settings dialog">
+
+2. In the command toolbar, click **Add** to add a language custom execution.
+In the new added property, change the name into the language you want to test for better recognition, then click on the *More* (...) under the **Value** column.
   
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/name-the-spanish.png" width=70% alt="Set value for custom Desired Capabilities">
 
 
-3. In the **Custom Execution Configuration Builder** dialog, specify the **Driver Name** as **Remote**, then click on the **More** icon under the **Preferences** column.
+3. In the **Custom Execution Configuration Builder** dialog, specify the **Driver Name** as **Remote**, then click on the *More* (...) under the **Preferences** column.
  
  <img src="https://github.com/katalon-studio/docs-images/raw/5ce4d691c2e1223380169717503cd3189ae5b1ed/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Custom-Execution%20-Configuration%20-Builder-2.jpg" width=70% alt="Set value for custom Desired Capabilities">
 
@@ -146,12 +156,12 @@ Change the name into the language you want to test for better recognition, then 
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/chromeoptions.png" width=70% alt="Set value for custom Desired Capabilities">
 
-  4. Click **More** icon under the **Preferences** column.
+  4. Click *More* (...) under the **Preferences** column.
   5. In the opened **Dictionary Property Builder**, input
   
 <img src="https://github.com/katalon-studio/docs-images/raw/7a0462f8e1b3f6a3c973b1c70a9b7ff6de1b4b9b/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/prefs.png" width=70% alt="Set value for custom Desired Capabilities">
 
-  6. Click **More** icon under the **Preferences** column.
+  6. Click *More* (...) under the **Preferences** column.
   7. In the opened **Dictionary Property Builder**, input
   - **intl.accept_languages**: Support passing preference key to manipulate a page's language.
   - **String**: the [data type](https://docs.katalon.com/katalon-studio/docs/value-types.html) permits you to enter a value directly into the Value cell.
