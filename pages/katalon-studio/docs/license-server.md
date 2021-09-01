@@ -50,7 +50,7 @@ The following features are available for users of a Katalon Studio On-Premises L
 </tr>
 <tr>
 <td style="width: 70px;">Memory</td>
-<td style="width: 85.71875px;">Minimum 8GB</td>
+<td style="width: 85.71875px;">Minimum 8 GB</td>
 </tr>
 </tbody>
 </table>
