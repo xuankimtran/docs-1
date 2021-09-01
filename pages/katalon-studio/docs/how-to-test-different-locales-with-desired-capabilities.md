@@ -9,9 +9,9 @@ description:
 
 > You can now [reuse Desired Capabilities across projects](https://docs.katalon.com/katalon-studio/docs/import-export-desired-capabilities.html). 
 
-Chrome sets a default UI language with the first Chrome window that opens. In other words, if you alter browser locales, for example with `chrome --lang=de` to start Chrome in German, Chrome Driver still defines the default language from the Chrome browser.
+Chrome sets a default UI language with the first Chrome window that opens. In other words, if you alter browser locales, for example with command line arguements `chrome.exe --lang=de` to start Chrome in German, Chrome Driver still defines the default language from the Chrome browser.
 
-Nevertheless, you can now test different browser locales by configuring [Desired Capabilities](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html). 
+To test different browser locales, you can instead configure [Desired Capabilities](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html). 
 
 ## Use Configured Desired Capability with Test Case Variables
 
@@ -52,12 +52,12 @@ To run tests with different browser locales, [Test Case Variables](https://docs.
 </tbody>
 </table>
  
- - "Default Value" should be the [language code](https://developers.google.com/admin-sdk/directory/v1/languages) you want to test.
+ - Setting the Default Value to the language code "fr" sets the locale as French. You can find other language codes for Chrome here: [language code](https://developers.google.com/admin-sdk/directory/v1/languages).
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Test-case-variables-2.png" width=90% alt="test case with variables">
 
 
-3. Use Configured Desired Capabilities.
+1. Use Configured Desired Capabilities.
 After defining Test Case Variables, we override default language settings in Chrome by using [Configured Desired Capabilities](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html#passing-desired-capabilities-at-runtime).
 
 - Switch to Script tab of your Test Case.
