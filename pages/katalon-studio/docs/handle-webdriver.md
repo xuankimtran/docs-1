@@ -49,17 +49,14 @@ Do as follows:
 > - [Microsoft Edge](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/)
 >
 
-- Navigate to Webdriver location as below.
-
-
-**- Selenium library location**
+- To replace Selenium library, go to:
 
 * Windows: `<Katalon Studio folder>\configuration\resources\lib\selenium-server-standalone-3.x.jar`
 * macOS: `/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/lib/selenium-server-standalone-3.x.jar`
 
-**- WebDriver binaries' (application-level) locations**
+- To replace WebDriver binaries' at application-level, go to:
 
-For **Window** users, you can find WebDriver binaries (application-level) at: 
+For **Window** users:
 
 **Chrome**
 
@@ -87,7 +84,7 @@ You can use 32-bit Windows Chromedriver for both 32-bit and 64-bit Windows.
 - `<Katalon Studio folder>\configuration\resources\drivers\edgechromium_win32`
 - `<Katalon Studio folder>\configuration\resources\drivers\edgechromium_win64`
 
-For **macOS** users, you can find WebDriver binaries (application-level) at: 
+For **macOS** users:
 
 **Chrome**
 
@@ -101,11 +98,7 @@ For **macOS** users, you can find WebDriver binaries (application-level) at:
 
 - `/Applications/Katalon Studio.app/Contents/Eclipse/configuration\resources\drivers\edgechromium_mac`
 
-**- WebDriver binaries' (project-level) locations**
-
-WebDriver binaries are replaceable at project-level by copying new files into the `Include` directory inside the project.
-
-Location:
+- To replace WebDriver binaries' at application-level, go to **Include** directory inside the project you want to alter Webdrivers and follow the below path:
 
 - `Include/drivers/chromedriver_win32/chromedriver.exe`
 - `Include/drivers/chromedriver_win64/chromedriver.exe`
