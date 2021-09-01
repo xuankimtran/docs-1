@@ -39,7 +39,7 @@ The following features are available for users of a Katalon Studio On-Premises L
 * To install Docker for Windows, see [Install Docker Desktop for Windows](https://docs.docker.com/desktop/windows/install/) (Hyper-V should be enabled).
 * To install Docker for MacOS, see [Install Docker Desktop for Mac](https://docs.docker.com/desktop/mac/install/).
 
-<table style="width: 165.71875px;">
+<table style="width: 200.71875px;">
 <tbody>
 <tr>
 <td style="width: 155.71875px;" colspan="2">System requirements</td>
@@ -50,7 +50,7 @@ The following features are available for users of a Katalon Studio On-Premises L
 </tr>
 <tr>
 <td style="width: 70px;">Memory</td>
-<td style="width: 85.71875px;">Minimum 8GB</td>
+<td style="width: 85.71875px;">Minimum 8 GB</td>
 </tr>
 </tbody>
 </table>
@@ -170,7 +170,7 @@ Follow these steps:
    <tbody>
    <tr>
    <td>Load image</td>
-   <td>docker&nbsp;load&nbsp;-I&nbsp;image.tar.gz</td>
+   <td>docker&nbsp;load&nbsp;-I&nbsp;images.tar.gz</td>
    </tr>
    <tr>
    <td>Start image</td>
