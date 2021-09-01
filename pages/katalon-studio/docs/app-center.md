@@ -150,7 +150,6 @@ AppiumDriverManager.setDriver(driver)
     private static final String KATALON_EXECUTE_ARGS = String.format("-retry=0 -testSuitePath=\"Test Suites/Regression Tests\" -executionProfile=default -browserType=Chrome -apiKey=\"%s\"", API_KEY);
     ```
 
-
 4. To pack your sideload project, execute the file `package.bat`/`package.sh`.
 
 5. Upload sideload:
@@ -164,15 +163,16 @@ This section provides you a usage example on how to upload **KatalonDemoProject*
 1. Clone or download **sideload** from our repository: [Katalon Studio sideload](https://github.com/katalon-studio/sideload).
 2. Open the workspace of the usage example project by following the path: `src/test/resources/KatalonDemoProject.zip`.
 
-On App Center Test, create and start a new test run. See Microsoft documentation: [Starting a test run](https://docs.microsoft.com/en-us/appcenter/test-cloud/starting-a-test-run#new-test-run).
+    On App Center Test, create and start a new test run. See Microsoft documentation: [Starting a test run](https://docs.microsoft.com/en-us/appcenter/test-cloud/starting-a-test-run#new-test-run).
 
-* Device: Android 7.1.1 or prior. Ex: Motorola Nexus 6
-* Test framework: Appium
+    * Device: Android 7.1.1 or prior. Ex: Motorola Nexus 6
+    * Test framework: Appium
 
 3. To pack your sideload project, execute the file `package.bat`/`package.sh`.
 
-5. Upload sideload:
+4. Upload sideload:
+
     * Before uploading, you should configure in the file `upload.sh`/`upload.bat`.
     * To upload and run your sideload project on the App Center, execute  the file `upload.sh`/`upload.bat`.
 
-You can view test reports on App Center Test. See Microsoft documentation: [Test reports](https://docs.microsoft.com/en-us/appcenter/test-cloud/test-reports).
+    You can view test reports on App Center Test. See Microsoft documentation: [Test reports](https://docs.microsoft.com/en-us/appcenter/test-cloud/test-reports).
