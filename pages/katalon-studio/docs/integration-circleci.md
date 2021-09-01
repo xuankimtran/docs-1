@@ -9,8 +9,6 @@ Orbs are shareable packages of configuration elements, including jobs, commands,
 
 Katalon Orb enables you to execute Katalon tests with your CircleCI CI/CD pipeline. We recommend getting the latest version from the CircleCI Orb registry page. Download the latest Katalon Orb on CircleCI: [katalon/katalon-studio](https://circleci.com/orbs/registry/orb/katalon/katalon-studio).
 
->**Notes**: In CircleCI, [katalon/katalonstudio@36.0.0](https://circleci.com/orbs/registry/orb/kms-technology/katalonstudio) is deprecated.
-
 ## Setup and Configuration
 
 >**Requirements**:
