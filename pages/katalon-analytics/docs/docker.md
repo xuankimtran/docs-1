@@ -39,7 +39,7 @@ Similar to [Create a Local Test Environment with an Agent](/katalon-analytics/do
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-docker/open-cmd-windows.png" width=100% alt="cmd.exe">
     
-4. Open your cmd Windows.
+4. Open cmd.exe on Windows.
 5. Copy and paste the command in the **Start an agent** section into your cmd to start an Agent.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-docker/run-docker-compose-in-cmd.png" width=100% alt="run agent for docker">
@@ -50,7 +50,7 @@ You have started your Docker with an Agent. You can open your Docker to see the 
     
 ## View an Agent's status
 
-Go to the **Test Environments** page to see the Docker Test Environment you have created and its status.
+In Katalon TestOps, go to the **Test Environments** page to see the Docker Test Environment you have created and its status.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-docker/docker-appears-in-test-environment-page.png" width=100% alt="open docker">
 
