@@ -1,5 +1,5 @@
 ---
-title: "How to test different browser locales in Chrome with Desired Capabilities?"
+title: "Set different browser locales in Chrome with Desired Capabilities"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/how-to-test-different-browser-locales-in-chrome-with-desired-capabilities.html
 redirect_from:
@@ -75,6 +75,9 @@ RunConfiguration.setWebDriverPreferencesProperty("prefs", pref)
   
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/configured-desired-capabilities.png" width=90% alt="Configured Desired Capabilities">
 
+>
+> - [Sample test cases run with local Chrome](https://github.com/katalon-studio-samples/multi-locales-sample/blob/main/Test%20Cases/Run%20with%20local%20Chrome.tc)
+> 
 ### 2. Create a Test Suite to test different languages
 
 > **Requerements:**
@@ -88,36 +91,28 @@ In the following example, we demonstrate how to create a [Test Suite with Test c
 1. Create a test suite. Go to **File > New > Test Suite.**
 2. Click **Add** in command toolbar, then choose pre-configured test cases.
 
-<img src="url" width=70% alt="New Test Suite">
+<img src="https://github.com/katalon-studio/docs-images/raw/d22b289b2b07c6ae15b9a52e11a3cc245e725974/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/new-test-suite.png" width=70% alt="New Test Suite">
 
 3. Create a data file. Go to **File > New > Test Data.** Choose **Data Type** as **Internal Data.**
 This data file contains different [language code](https://developers.google.com/admin-sdk/directory/v1/languages) you want to test on browsers.
 
 In this example, the language codes are `fr`,`en`,`es`.
 
-<img src="url" width=70% alt="New Data file 2">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/create-new-data-file-2.png" width=70% alt="New Data file 2">
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/New%20Data%20File.png" width=70% alt="New Data file">
 
 4. Manage Data Binding
-- Switch back to the test suite editor, click **Show Data Binding** to expand the **Data Binding** section with the **Test Data** and **Variable Binding** tables. Make sure you click on the correct pre-configured test case beforehand.
+- Switch back to the test suite editor, click **Show Data Binding** to expand the **Data Binding** section. Make sure you click on the correct pre-configured test case beforehand. 
+This step is to bind New Data File from Step 3 with the Test Suite you want to test. See also [Manage Data Binding](https://docs.katalon.com/katalon-studio/docs/run-test-case-external-data.html#manage-data-binding).
 
-<img src="url" width=70% alt="Show Data Binding section">
-
-- In the **Test Data** table, select **Add > select the data file from Step 3 > OK**.
-- In the **Variable Binding** table:
-   - Katalon Studio automatically fills in the **Name** and **Default Value** column from variables in pre-configured test cases.
-   - Double-click the **Type** comlumn to show a drop-down menu, then choose **Data Column**
-   - Katalon Studio then asks you to fill in **Test Data** and **Value** column, alternatively double-click on them and choose available data in the pop-up dialog. See also [Manage Binding](https://docs.katalon.com/katalon-studio/docs/run-test-case-external-data.html#manage-data-binding)
-
-<img src="url" width=70% alt="Variable Data Binding section">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/show-data-variables.png" width=70% alt="Show Data Binding section">
 
 - The final results should show as below:
   
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Test%20Suite%20Data%20Binding.png" width=70% alt="Test Suite data">
 
->
-> - [Sample test cases run with local Chrome](https://github.com/katalon-studio-samples/multi-locales-sample/blob/main/Test%20Cases/Run%20with%20local%20Chrome.tc)
+
 > 
 > - [Sample test suite with data binding support](https://github.com/katalon-studio-samples/multi-locales-sample/tree/main/Test%20Suites)
 > 
