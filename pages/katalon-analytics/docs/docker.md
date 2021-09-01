@@ -36,10 +36,9 @@ Similar to [Create a Local Test Environment with an Agent](/katalon-analytics/do
 3. Save the file as .yml file in the folder you have created (as shown in the pictures below).
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-docker/save-notepad-file-in-docker-folder.png" width=100% alt="docker compose yml command">
-
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-docker/open-cmd-windows.png" width=100% alt="cmd.exe">
     
-4. Open cmd.exe on Windows.
+4. Search "cmd" in the Windows explorer search bar, then press *Enter*.
+
 5. Copy and paste the command in the **Start an agent** section into your cmd to start an Agent.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-docker/run-docker-compose-in-cmd.png" width=100% alt="run agent for docker">
