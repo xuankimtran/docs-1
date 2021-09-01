@@ -87,7 +87,7 @@ RunConfiguration.setWebDriverPreferencesProperty("prefs", pref)
 
 > **Requerements:**
 > 
-> Make sure to configure all your test cases with Desired Capabilities as per Part 1. 
+> - Make sure to configure all your test cases with Desired Capabilities as per Part 1. 
 >
 >
 
@@ -127,7 +127,7 @@ If you are using a Remote Server and want to test different browser locales. You
 
 > **Requerements:**
 > 
-> Make sure that you are running Selenium Grid Hub & Node while executing the test. 
+> - Make sure that you are running Selenium Grid Hub & Node while executing the test. 
 >
 >
 
