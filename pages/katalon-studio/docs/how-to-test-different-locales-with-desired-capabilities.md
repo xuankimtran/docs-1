@@ -29,9 +29,10 @@ Do as follow:
 1. Create a New Test Case. Go to **File > New > Test Case.**
 
 2. Create Test Case Variables. Learn more about [Test Case Variables](https://docs.katalon.com/katalon-studio/docs/test-case-variables.html#manage-test-case-variables). 
+
 To run tests with different browser locales, Test Case Variables comes in handy because it allows you to run that test case with varying language inputs.
 
-- Switch to Variables tab of your Test Case.
+- Switch to the Variables tab of your Test Case.
 - Click **Add**. A new row appears in the variable list.
 - Input variables.
   
@@ -53,7 +54,7 @@ You want to run a test case in French, input:
 </tbody>
 </table>
  
- - Setting the **Default Value** to the language code "fr" sets the locale as French. You can find other language codes for Chrome here: [language code](https://developers.google.com/admin-sdk/directory/v1/languages).
+ - Setting the **Default Value** to the language code `fr` sets the locale as French. You can find other language codes for Chrome here: [language code](https://developers.google.com/admin-sdk/directory/v1/languages).
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Test-case-variables-2.png" width=90% alt="test case with variables">
 
@@ -138,7 +139,7 @@ Do as follow:
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/project-settings-dialog.png" width=70% alt="Project Settings dialog">
 
 2. In the command toolbar, click **Add** to add a language custom execution.
-In the new added property, change the name into the language you want to test for better recognition, then click on the *More* (...) under the **Value** column.
+In the new added property line, change the name into the language you want to test for better recognition, then click on the *More* (...) under the **Value** column.
   
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/name-the-spanish.png" width=70% alt="Set value for custom Desired Capabilities">
 
