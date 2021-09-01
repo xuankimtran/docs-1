@@ -5,7 +5,7 @@ permalink: katalon-studio/docs/flutter-based-application-testing.html
 description: 
 ---
 
-Flutter is a UI toolkit for building beautiful, natively compiled applications for mobile, web, desktop, and embedded devices from a single codebase.
+Flutter is a UI toolkit for building applications for mobile, web, desktop, and embedded devices from a single codebase.
 
 > **Known Issue**:
 >
@@ -15,17 +15,20 @@ You can use Mobile keywords to automate your application. However, Katalon Mobil
 
 ## Run Flutter-based application test
 
-1. In Katalon Studio, record your mobile testing script. Use Tab keyword on elements **EditText - Email** and **EditText - Password**, then click **Save**.
+1. In Katalon Studio, open your project and create a new test case. Record your mobile testing script. Use [Tab keyword](https://docs.katalon.com/katalon-studio/docs/mobile-tap.html) on elements **EditText - Email** and **EditText - Password**, then click **Save**.
 
-2. Go to Katalon Studio. Create a new keyword package in **Tests Explorer board > Keywords**. Name the package **com.kms.katalon.core.mobile.keyword.builtin**.
+2. In the **Tests Explorer** section on the left side of Katalon Studio, navigate to the **Keywords** folder and create a new keyword package. Name the package **com.kms.katalon.core.mobile.keyword.builtin**.
 
-3. Open the folder **com.kms.katalon.core.mobile.keyword.builtin**. Create a new file names **SetTextKeyword.groovy** and copy the script below. Save the **Keyword** file. See also: [Introduction to Custom Keywords](https://docs.katalon.com/katalon-studio/docs/introduction-to-custom-keywords.html).
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/flutter-based-application-testing/create%20package.png" alt="create package" width=70%>
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/flutter-based-application-testing/KS-flutter-based-application-testing-folder.png" alt="create custom keyword" width="100%">
+3. Right click on the **com.kms.katalon.core.mobile.keyword.builtin** package and create a new keyword named **SetTextKeyword**. See also: [Introduction to Custom Keywords](https://docs.katalon.com/katalon-studio/docs/introduction-to-custom-keywords.html).
 
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/flutter-based-application-testing/create%20keyword.png" alt="create Class name" width="70%">
 
-    **<details><summary>SetTextKeyword.groovy</summary>**
-    
+    In the **SetTextKeyword.groovy** file, copy and paste the following script and save it.
+
+    **<details><summary>SetTextKeyword.groovy script</summary>**
+
     ```groovy
     package com.kms.katalon.core.mobile.keyword.builtin
 
@@ -106,7 +109,11 @@ You can use Mobile keywords to automate your application. However, Katalon Mobil
             }, flowControl, true, to != null ? MessageFormat.format(StringConstants.KW_MSG_FAILED_TO_SET_ELEMENT_TEXT, to.getObjectId()) : StringConstants.KW_MSG_FAILED_TO_SET_ELEMENT_TEXT)
         }
     }
-</details>
+    ```
+
+    </details>
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/flutter-based-application-testing/KS-flutter-based-application-testing-folder.png" alt="create custom keyword" width="100%">
 
 4. In the toolbar, select **Window > Reset Perspective...**
 
@@ -123,7 +130,7 @@ For the test engine to know whether you want to automate the native aspects of t
 * [Switch to Native](https://docs.katalon.com/katalon-studio/docs/mobile-switch-to-native.html)
 * [Switch to WebView](https://docs.katalon.com/katalon-studio/docs/mobile-switch-to-web-view.html)
 
-Sample code to automate the elements of the app:
+The following is a code sample that automates elements of the app:
 
 ``` groovy
 
