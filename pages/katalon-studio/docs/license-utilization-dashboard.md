@@ -4,11 +4,6 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/license-utilization-dashboard.html
 description:
 ---
-> **Known Issue**:
->
-> * The search bar is not available at the moment.
-> * The date range provided supports the 1-year range only.
-> * Currently cannot export reports as **.csv** files.
 
 As an organization owner or administrator, the **License Utilization Dashboard** allows you to track the use of Katalon Studio Enterprise and Katalon Runtime Engine licenses to help maximize the license allocations and productivity of your team.
 
@@ -36,20 +31,17 @@ The dashboard contains a dynamic visualization with filter options.
 
 2. **User email, machine ID, and license types**:
 
-    Use the filter to select the user email, machine ID, and license type you want to analyze. If you leave it blank by default, you will see the total duration used for all license types, machine IDs, and user emails, including the data of removed machine IDs and user emails.
-
-    There are 4 types of license:
-
-    * KRE Node-locked
-    * KRE Floating
-    * KSE Node-locked
-    * KSE Floating
+    Use the filter to select the user email, machine ID, and license type you want to analyze. The statistic number, the graph, and the session table below reflect the duration used of each license type within the 1-year period.
+    
+    If you leave it blank by default, you will see the total duration used for all license types, machine IDs, and user emails, including the data of removed machine IDs and user emails.
 
     In each filter category, you can search and select multiple options. The removed machine IDs or user emails are excluded in the filter.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-utilization-dashboard/search-filter.png" alt="search option" width=70%>
 
-    After choosing your filter options, the graph appears with the reflected data filtered. The statistic number, the graph, and the session table below reflect the duration used of each license type within the 1-year period.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-utilization-dashboard/multiple.png" alt="multiple options" width=70%>
+
+    After choosing your filter options, the dynamic graph below changes accordingly.
 
 ### License Usage
 
