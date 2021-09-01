@@ -33,7 +33,7 @@ Similar to [Create a Local Test Environment with an Agent](/katalon-analytics/do
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-docker/copy-paste-notepad-docker-compose-yml-file.png" width=100% alt="docker compose yml command">
 
-3. Save the file in the folder you have created (as shown in the pictures below).
+3. Save the file as .yml file in the folder you have created (as shown in the pictures below).
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-docker/save-notepad-file-in-docker-folder.png" width=100% alt="docker compose yml command">
 
