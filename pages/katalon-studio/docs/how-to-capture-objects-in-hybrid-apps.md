@@ -28,6 +28,7 @@ appium --chromedriver-executable "/Users/yen.nguyen/Downloads/node_modules/appiu
 ```
 
 3. After starting Chromedriver for Appium at server level, you need to specify Chromeversion in session capabilities by using [Mobile Testing function in Desired Capabilities](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html#mobile-testing). Go to **Project > Settings > Desired Capabilities > Mobile > Android** and add this property:
+
 **chromedriverExecutable** : Support specifying Chromedriver version in session capabilities.
 **path_to_my_chromedriver**: full path to the downloaded Chromversion from Step 1.
 
