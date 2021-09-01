@@ -31,7 +31,7 @@ The dashboard contains a dynamic visualization with filter options.
 
 2. **User email, machine ID, and license types**:
 
-    Use the filter to select the user email, machine ID, and license type you want to analyze. The statistic number, the graph, and the session table below reflect the duration used of each license type within the 1-year period.
+    Use the filter to select the user email, machine ID, and license type you want to analyze. The statistics, graph, and the session table below display the session durations for each license type within the 1-year period.
     
     If you leave it blank by default, you will see the total duration used for all license types, machine IDs, and user emails, including the data of removed machine IDs and user emails.
 
@@ -45,16 +45,16 @@ The dashboard contains a dynamic visualization with filter options.
 
 ### License Usage
 
-In the **License Usage** section, you can see a statistic summary and a graph.
+In the **License Usage** section, you can see a statistics summary and a graph.
 
 There are two modes for view. Clicking on the button above the graph switches between the modes:
 
 * **The linear mode** shows the stats in number and the graph in a line chart.
 * **The stacked mode** shows the stats in percentage and the graph in a bar chart.
 
-1. **Statistic summary**:
+1. **Statistics summary**:
 
-The statistic summarizes the total duration used for each license type within the time range.
+The summary above the chart represents the total duration of testing for each license type within the time range.
 
 2. **The graph**:
 
@@ -76,7 +76,7 @@ To see the detailed information, hover to the stats bar or the graph. The detail
 
 ### Session Table
 
-Below the graph section, you can view the detailed session list generated when your team uses the license.
+Below the graph section, you can view the detailed list of sessions completed by your team members.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-utilization-dashboard/detail%20session.png" alt="sessions" width=100%>
 
