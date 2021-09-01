@@ -23,12 +23,12 @@ To execute web tests successfully, make sure the version of browsers is equal to
 >
 ## Terminate WebDriver processes
 
-From the main toolbar, select **Tools > Web > Terminate running WebDrivers** > a pop-up message informs whether your operation succeeds or not.
+From the main toolbar, select **Tools > Web > Terminate running WebDrivers** > a pop-up message appears when WebDrivers are successfully terminated.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/handle-webdrivers/Terminate-Webdrivers.png" alt="terminate-webdriver-processes" width=70%>
 
 ## Update a Webdriver
-You can update a Webdriver directly from from Katalon Studio applications.
+You can update a Webdriver directly from Katalon Studio applications.
 From the main toolbar, select **Tools > Update WebDrivers > Select a browser in the dropdown list.**
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/handle-webdrivers/Update-Webdrivers.png" alt="update-webdriver-automatically" width=70%>
@@ -36,10 +36,10 @@ From the main toolbar, select **Tools > Update WebDrivers > Select a browser in 
 > In the console mode, you can use this command argument, `--config -webui.autoUpdateDrivers=true`, to allow WebDriver binaries to be updated automatically. Learn more about [Console Mode Execution](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html).
 ## Replace a Webdriver
 
-By replacing the Webdriver, you can either upgrade or downgrade Selenium libary, Webdriver binaries at application-level or project-level to suit your test's purposes. Do as follow:
+In case you wish to upgrade or downgrade Selenium libary or Webdriver binaries to suit your test's purposes, you can do this by replacing Webdrivers. You can replace Webdriver binaries at either application-level or project-level.
+
+Do as follows:
 - Download the Webdriver version you want to run your test on.
-- Navigate to Webdriver location as below.
-- Replace the `driver.exe` file with the downloaded `driver.exe` file. 
 
 >
 > Versions of browser drivers:
@@ -48,6 +48,9 @@ By replacing the Webdriver, you can either upgrade or downgrade Selenium libary,
 > - [Internet Explorer](http://selenium-release.storage.googleapis.com/index.html)
 > - [Microsoft Edge](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/)
 >
+
+- Navigate to Webdriver location as below.
+
 
 **- Selenium library location**
 
@@ -122,34 +125,20 @@ Location:
 - `Include/drivers/edgechromiumdriver_win32/msedgedriver.exe`
 - `Include/drivers/edgechromiumdriver_mac/msedgedriver`
 
-## Downgrade a WebDriver:
-
-If you want to use an older version of your current browser, you might need to downgrade the browser's driver. Do it manually by downloading a specific version of Browser Drivers and Replacing WebDriver binaries (project-level) or Replacing WebDriver binaries (application-level).
+- Replace the `driver.exe` file with the downloaded `driver.exe` file. 
 
 >**Re-run the tests**
 >
 > After updating or downgrading WebDrivers, to make sure the current version of the browser driver is running smoothly, it is advisable to try **re-running the test** to resolve and check any pop-up issues.
-## Use the WebDriver Object
+## Use DriverFactory library
 
-To use the current session created by Katalon Studio, you can refer to example code as below:  
-
-```groovy
-import org.openqa.selenium.WebDriver
-import com.kms.katalon.core.webui.driver.DriverFactory
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-
-WebUI.openBrowser('')
-WebDriver driver = DriverFactory.getWebDriver()
-
-```
-
-The returned '**driver**' parameter will use the current browser's session launched by Katalon Studio. You also need to import necessary libraries (can be done by pressing **Ctrl + Shift + O**).
+Katalon Studio introduces DriverFactory to manipulate WebDriver instances by using Katalon keywords. Learn more about [DriverFactory](https://docs.katalon.com/katalon-studio/docs/using_selenium_webdriver_katalon_studio.html#driverfactory).
 
 ## Use WebDriver Event Listeners
 
-> Starting in **Katalon Studio version 7.0.0**, the Katalon Studio's WebDriver extends the  EventFiringWebDriver.
+> Starting in **Katalon Studio version 7.0.0**, the Katalon Studio's WebDriver extends the EventFiringWebDriver. Learn more about [EventFiringWebDriver](https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/support/events/EventFiringWebDriver.html).
 
-[`EventFiringWebDriver`](https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/support/events/EventFiringWebDriver.html) is a class in Selenium that supports the WebDriver with event-driven capabilities. Those capabilities are helpful for many use cases - one of which is for logging steps or triggering certain events before an operation. You can use [`WebDriverEventListener`](https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/support/events/WebDriverEventListener.html) to handle events started by the WebDriver, which happens before or after navigation; before or after a click, etc. 
+You can use [WebDriverEventListener](https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/support/events/WebDriverEventListener.html) to handle events started by the WebDriver, which happens before or after navigation; before or after a click, etc. 
 
 Below is an example of how to add your custom `WebDriverEventListener` method:
 
@@ -216,7 +205,7 @@ Before navigating to http://www.google.com
 
 ## Use RemoteWebDriver
 
-Because [`EventFiringWebDriver`](https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/support/events/EventFiringWebDriver.html) does not implement the interface ['RemoteWebDriver'](https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/remote/RemoteWebDriver.html), in case your code is currently casting the WebDriver obtained from [DriverFactory](https://docs.katalon.com/katalon-studio/docs/using_selenium_webdriver_katalon_studio.html#driverfactory) as below:
+Because `EventFiringWebDriver` does not implement the interface `RemoteWebDriver`, in case your code is currently casting the WebDriver obtained from [DriverFactory](https://docs.katalon.com/katalon-studio/docs/using_selenium_webdriver_katalon_studio.html#driverfactory) as below: 
 
 ```groovy
 ....
