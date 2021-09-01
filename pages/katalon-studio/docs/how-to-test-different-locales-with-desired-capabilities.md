@@ -9,7 +9,8 @@ description:
 
 > You can now [reuse Desired Capabilities across projects](https://docs.katalon.com/katalon-studio/docs/import-export-desired-capabilities.html). 
 
-For Chrome’s current design, the UI language sets default by the first/main Chrome window that opens. In order words, if you wish to alter browser locales using `chrome --lang=de`//start Chrome with German, Chrome Driver still picks the default language from the Chrome browser.
+Chrome sets a default UI language with the first Chrome window that opens. In other words, if you alter browser locales, for example with `chrome --lang=de` to start Chrome in German, Chrome Driver still defines the default language from the Chrome browser.
+
 Nevertheless, you can now test different browser locales by configuring [Desired Capabilities](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html). 
 
 ## Use Configured Desired Capability with Test Case Variables
