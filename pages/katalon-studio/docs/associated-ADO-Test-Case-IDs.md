@@ -18,7 +18,7 @@ In this POC, you can parameterize the test case variable in the ADO test case ID
 >
 > A test case executes with a test data row is considered an iteration.
 
-> Download Katalon Studio ... [here]()
+> Download Katalon Studio version [8.1.1.alpha](https://github.com/katalon-studio/katalon-studio/releases/tag/v8.1.1.alpha).
 
 ## Azure DevOps Test Case Ids Parameter
 
