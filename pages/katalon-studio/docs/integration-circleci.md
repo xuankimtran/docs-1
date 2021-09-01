@@ -11,7 +11,7 @@ Katalon Orb enables you to execute Katalon tests with your CircleCI CI/CD pipeli
 
 ## Setup and Configuration
 
->**Requirements**:
+> Requirements:
 >
 >* Katalon Studio version 7.0.0 onwards.
 >* An active [Katalon Runtime Engine license](https://docs.katalon.com/katalon-studio/docs/intro-RE.html#license).
@@ -53,7 +53,7 @@ To run your test with Katalon Orb, you need to establish a connection between yo
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/circleci/Add%20Environment.png" alt="add variable" width="70%">
 
-   > **How to obtain the Katalon API Key?**
+   > Notes:
    >
    > 1. To secure your project settings, you must get the API Key from [Katalon TestOps](https://analytics.katalon.com/).
    > 2. Set **KATALON_API_KEY** as an environment variable in CircleCI. Do not store this API Key in source code.
