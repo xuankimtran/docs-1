@@ -33,7 +33,7 @@ appium --chromedriver-executable "/Users/yen.nguyen/Downloads/node_modules/appiu
 
 Example:
 
-   <img src="url" width="70%" alt="Set up Android in Desired Capabilities">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/path-to-chrome-driver-executable.png" width="70%" alt="Set up Android in Desired Capabilities">
 
 
 4. Start Katalon Studio Mobile [Spy](https://docs.katalon.com/katalon-studio/docs/spy-mobile-utility.html) or [Record](https://docs.katalon.com/katalon-studio/docs/record-mobile-utility.html), and wait for the AUT to start.
@@ -58,7 +58,6 @@ cdmDetails.addProperty("id", ConditionType.EQUALS, "119")
 WebUI.setText(cdmDetails, "123")
 
 ```
-<img src="url" width="70%" alt="Chrome inspecting mode after switching webview">
 
 7. To stop automating in the web view context and go back to automating the native portion of the app by using [switchToNative](https://docs.katalon.com/katalon-studio/docs/mobile-switch-to-native.html)
 
