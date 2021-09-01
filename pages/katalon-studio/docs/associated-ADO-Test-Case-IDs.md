@@ -1,14 +1,15 @@
 ---
 title: "Enhance Data-driven Testing Report in Azure DevOps (PoC)"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/associated-ado-test-case-ids.html
+permalink: katalon-studio/docs/enhance-ddt-report-in-ado.html
 ---
 
-> **Important**
+> Important:
 >
-> This Proof of Concept (PoC) is not ready for production use. We recommend using this PoC for evaluation purposes only.
+> * This Proof of Concept (PoC) is not ready for production use. We recommend using this PoC for evaluation purposes only.
+> * Download Katalon Studio version [8.1.1.alpha](https://github.com/katalon-studio/katalon-studio/releases/tag/v8.1.1.alpha).
 
-Previously, Katalon Studio provides the Data-Driven Testing method for test cases and supports test IDs mapping at test cases level in Azure DevOps (ADO). See [Integration with Azure DevOps Test Plans](https://docs.katalon.com/katalon-studio/docs/azure-devops-test-plans.html).
+Katalon Studio provides the Data-Driven Testing method for test cases and supports test IDs mapping at test cases level in Azure DevOps (ADO). See [Integration with Azure DevOps Test Plans](https://docs.katalon.com/katalon-studio/docs/azure-devops-test-plans.html).
 
 Katalon Studio also supports submitting test results that include test iterations to ADO. However, running Data-Driven Test generates lots of results, especially when you run it with a large test data file. In that case, you might want to do the test ID mapping from the test data file to ADO so that you can quickly identify false lines in your test data.
 
@@ -17,8 +18,6 @@ In this PoC, you can parameterize the test case variable in the ADO test case ID
 > **What is an iteration?**
 >
 > A test case executes with a test data row is considered an iteration.
-
-> Download Katalon Studio version [8.1.1.alpha](https://github.com/katalon-studio/katalon-studio/releases/tag/v8.1.1.alpha).
 
 ## Azure DevOps Test Case IDs Parameter
 
@@ -67,7 +66,7 @@ Use the `ado_id` variable to parameterize the test case variable in ADO test cas
 
 ## Execute Test Suite containing Associated Test Cases
 
-Before you execute a test suite containing associated test cases, ensure you already enable ADO integration. To learn more about ADO integration, see [Enable the Integration and Perform Authentication](https://docs.katalon.com/katalon-studio/docs/azure-devops-test-plans.html#enable-the-integration-and-perform-authentication).
+Before you execute a test suite containing associated test cases, ensure you already enable ADO integration.
 
 **In Azure Test Plans**:
 
@@ -85,7 +84,7 @@ View test case ID on its URL.
     * You can map one test case ID in Katalon Studio with many test case IDs on ADO, for example, `${ado_id},123456` or `${ado_id}, ${ado_id_1}`.
     * Duplicate test case IDs will be used one time only.
 
-	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/associated-ADO-TC-IDs/ks-ddt-ado-data.png" alt="test data" width=50%>
+		<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/associated-ADO-TC-IDs/ks-ddt-ado-data.png" alt="test data" width=50%>
 
 4. To check if the test case ID is valid, click **Verify**.
 
@@ -100,4 +99,4 @@ View test case ID on its URL.
 
     * Each Katalon Studio iteration is mapped to an ADO test case.
 	* In the **Event Log**, you can find the invalid ADO test case ID.
-	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/associated-ADO-TC-IDs/ks-ddt-ado-event-log.png" alt="event log" width=100%>
+		<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/associated-ADO-TC-IDs/ks-ddt-ado-event-log.png" alt="event log" width=100%>
