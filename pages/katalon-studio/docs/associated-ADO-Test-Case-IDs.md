@@ -67,7 +67,7 @@ Use the `ado_id` variable to parameterize the test case variable in ADO test cas
 
 ## Execute Test Suite containing Associated Test Cases
 
-Before you execute a test suite containing associated test cases, ensure you already [Enable the Integration and Perform Authentication](https://docs.katalon.com/katalon-studio/docs/azure-devops-test-plans.html#enable-the-integration-and-perform-authentication) with ADO and [create your Test Data](https://docs.katalon.com/katalon-studio/docs/manage-test-data.html).
+Before you execute a test suite containing associated test cases, ensure you already enable ADO integration. To learn more about ADO integration, see [Enable the Integration and Perform Authentication](https://docs.katalon.com/katalon-studio/docs/azure-devops-test-plans.html#enable-the-integration-and-perform-authentication).
 
 **In Azure Test Plans**:
 
@@ -75,14 +75,14 @@ View test case ID on its URL.
 
 **In Katalon Studio**:
 
-1. Open your desired test case.
+1. Open your desired Data-driven test case. To learn more about the test data, see [create your Test Data](https://docs.katalon.com/katalon-studio/docs/manage-test-data.html).
 2. In the **Test Case/Variables** tab, click **Add** and create a **Number** type variable names `ado_id` with the **Default value** of your choice. See [Test Case Variables](https://docs.katalon.com/katalon-studio/docs/test-case-variables.html).
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/associated-ADO-TC-IDs/ks-ddt-ado-ado-id.png" alt="add variable" width=60%>
 
 3. In **ADO Test Case ID List**, call the variable with the syntax `${ado_id}`.
 
-    * You can map one test case ID in Katalon Studio with many test case IDs on ADO, for example, `${ado_id},123456` or `${ado_id}, ${ado_id_1}`. 
+    * You can map one test case ID in Katalon Studio with many test case IDs on ADO, for example, `${ado_id},123456` or `${ado_id}, ${ado_id_1}`.
     * Duplicate test case IDs will be used one time only.
 
 	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/associated-ADO-TC-IDs/ks-ddt-ado-data.png" alt="test data" width=40%>
