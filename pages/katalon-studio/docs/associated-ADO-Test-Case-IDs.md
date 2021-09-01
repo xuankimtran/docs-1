@@ -1,18 +1,18 @@
 ---
-title: "Enhance Data-driven Testing Report in Azure DevOps (POC)"
+title: "Enhance Data-driven Testing Report in Azure DevOps (PoC)"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/associated-ado-test-case-ids.html
 ---
 
 > **Important**
 >
-> This Proof of Concept (POC) is not ready for production use. We recommend using this POC for evaluation purposes only.
+> This Proof of Concept (PoC) is not ready for production use. We recommend using this PoC for evaluation purposes only.
 
 Previously, Katalon Studio provides the Data-Driven Testing method for test cases and supports test IDs mapping at test cases level in Azure DevOps (ADO). See [Integration with Azure DevOps Test Plans](https://docs.katalon.com/katalon-studio/docs/azure-devops-test-plans.html).
 
 Katalon Studio also supports submitting test results that include test iterations to ADO. However, running Data-Driven Test generates lots of results, especially when you run it with a large test data file. In that case, you might want to do the test ID mapping from the test data file to ADO so that you can quickly identify false lines in your test data.
 
-In this POC, you can parameterize the test case variable in the ADO test case ID with the syntax `ado_id` and execute a test suite containing associated test cases. Each Katalon Studio iteration is now mapped to an ADO test case.
+In this PoC, you can parameterize the test case variable in the ADO test case ID with the syntax `ado_id` and execute a test suite containing associated test cases. Each Katalon Studio iteration is now mapped to an ADO test case.
 
 > **What is an iteration?**
 >
@@ -20,7 +20,7 @@ In this POC, you can parameterize the test case variable in the ADO test case ID
 
 > Download Katalon Studio version [8.1.1.alpha](https://github.com/katalon-studio/katalon-studio/releases/tag/v8.1.1.alpha).
 
-## Azure DevOps Test Case Ids Parameter
+## Azure DevOps Test Case IDs Parameter
 
 Use the `ado_id` variable to parameterize the test case variable in ADO test case ID.
 
@@ -78,21 +78,21 @@ View test case ID on its URL.
 1. Open your desired Data-driven test case. To learn more about the test data, see [create your Test Data](https://docs.katalon.com/katalon-studio/docs/manage-test-data.html).
 2. In the **Test Case/Variables** tab, click **Add** and create a **Number** type variable names `ado_id` with the **Default value** of your choice. See [Test Case Variables](https://docs.katalon.com/katalon-studio/docs/test-case-variables.html).
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/associated-ADO-TC-IDs/ks-ddt-ado-ado-id.png" alt="add variable" width=60%>
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/associated-ADO-TC-IDs/ks-ddt-ado-ado-id.png" alt="add variable" width=70%>
 
 3. In **ADO Test Case ID List**, call the variable with the syntax `${ado_id}`.
 
     * You can map one test case ID in Katalon Studio with many test case IDs on ADO, for example, `${ado_id},123456` or `${ado_id}, ${ado_id_1}`.
     * Duplicate test case IDs will be used one time only.
 
-	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/associated-ADO-TC-IDs/ks-ddt-ado-data.png" alt="test data" width=40%>
+	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/associated-ADO-TC-IDs/ks-ddt-ado-data.png" alt="test data" width=50%>
 
 4. To check if the test case ID is valid, click **Verify**.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/associated-ADO-TC-IDs/ks-ddt-ado-verify.png" alt="verify" width=40%>
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/associated-ADO-TC-IDs/ks-ddt-ado-verify.png" alt="verify" width=50%>
 
 5. Add your test case to a test suite.
-6. Conduct **Variable Binding**. See [Run Test Case with an external data source](https://docs.katalon.com/katalon-studio/docs/run-test-case-external-data.html).
+6. Conduct **Data Binding**. See [Manage Data Binding](https://docs.katalon.com/katalon-studio/docs/run-test-case-external-data.html#manage-data-binding)
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/associated-ADO-TC-IDs/ks-ddt-ado-binding.png" alt="conduct variable binding" width=100%>
 
