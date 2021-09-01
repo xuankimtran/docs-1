@@ -10,7 +10,7 @@ You can execute your Katalon test scripts with devices provided on App Center Te
 
 ## Integrate with App Center
 
-> **Requirement**
+> Requirements:
 >
 > * An active [Katalon Runtime Engine](https://docs.katalon.com/katalon-studio/docs/license.html#katalon-runtime-engine) license
 > * A [Katalon API Key](https://docs.katalon.com/katalon-analytics/docs/ka-api-key.html)
@@ -19,7 +19,7 @@ You can execute your Katalon test scripts with devices provided on App Center Te
 > * [NodeJS](https://nodejs.org/es/blog/release/) version 6.3 or later installed
 > * [App Center CLI](https://docs.microsoft.com/en-us/appcenter/cli/#installation) installed and logged in
 
-To run your Katalon projects with App Center Test, you have to configure your Katalon project and make updates in **sideload** properly.
+To run your Katalon projects with App Center Test, you have to configure your Katalon project and make updates in **sideload**.
 
 ### Configure your Katalon Project
 
