@@ -59,12 +59,12 @@ To learn more about **Chrome Devtools** and its available function. See also [Ch
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/Chrome-Devtools.png" width="70%" alt="Debug-enabled Webviews in Devtools">
 
 
-9. Switch bach to Katalon Studio framework, in the **Mobile Record** dialog, click **Save Script**. An open dialog asks you to save captured objects into Object Repository of Katalon Studio. Click **OK** to save recorded actions and objects. 
+9. Switch back to Katalon Studio framework, in the **Mobile Record** dialog, click **Save Script**. An open dialog asks you to save captured objects into Object Repository of Katalon Studio. Click **OK** to save recorded actions and objects. 
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/results-of-test-recording.png" width="70%" alt="Results after recording mobile test">
 
 
-10.  In the mobile test you saved at Step 8, to automate hybrid app's elements under the `WEBVIEW` context, do as follows:
+10.  In the mobile test you saved at Step 9, to automate hybrid app's elements under the `WEBVIEW` context, do as follows:
 
 -  Switch to the Script tab.
 -  By default, Katalon Studio Record starts the AUT in the `NATIVE_APP` context. Set to the `WEBVIEW` context by using [switchToWebView](https://docs.katalon.com/katalon-studio/docs/mobile-switch-to-web-view.html#example) mobile keywords.
