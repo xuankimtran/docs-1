@@ -31,7 +31,7 @@ Example:
 
 3. From the main toolbar, click on the **Mobile Spy** or **Mobile Record**, and select **Android Devices**. 
 
-If you wish to learn more about Katalon Mobile Spy or Katalon Mobile Record, see also examples at:
+If you wish to learn more about Katalon Mobile Spy or Katalon Mobile Record, see also:
 - [Tutorials for Mobile Spy](https://docs.katalon.com/katalon-studio/docs/spy-mobile-utility.html) 
 - [Tutorials for Mobile Record](https://docs.katalon.com/katalon-studio/docs/record-mobile-utility.html)
 
