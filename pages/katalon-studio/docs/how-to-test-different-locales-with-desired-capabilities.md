@@ -128,7 +128,7 @@ If you are using a Remote Server and want to test different browser locales. You
 > Requirements:
 > 
 > - Make sure that you are running Selenium Grid Hub & Node while executing the test. 
-> - Make sure the browser is updated by clicking **Tools > Update WebDrivers > Choose browser.** See also [Handle WebDriver](https://docs.katalon.com/katalon-studio/docs/handle-webdrivers.html#update-a-webdriver).
+> - Make sure to update the browser by clicking **Tools > Update WebDrivers > Choose browser.** See also [Handle WebDrivers](https://docs.katalon.com/katalon-studio/docs/handle-webdrivers.html#update-a-webdriver).
 >
 
 The following example shows you how to create a custom profile with Spanish as the testing language.
