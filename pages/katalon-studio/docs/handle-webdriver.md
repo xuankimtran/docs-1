@@ -18,12 +18,12 @@ redirect_from:
 ---
 To execute web tests successfully, make sure the version of browsers is equal to the version of browser drivers. In case the versions are different, try to upgrade or downgrade one of them to be similar. Learn more about [Common exceptions in Katalon Studio](https://docs.katalon.com/katalon-studio/docs/troubleshoot-common-execution-exceptions-web-test.html).
 >
-> Starting from **Katalon Studio version 7.0.0**, you can terminate WebDriver processes or update WebDrivers including Chrome, FireFox and Internet Explorer Drivers.
+> Starting from **Katalon Studio version 7.0.0**, you can terminate WebDriver processes or update WebDrivers including Chrome, Firefox and Internet Explorer Drivers.
 >
 >
 ## Terminate WebDriver processes
 
-From the main toolbar, select **Tools > Web > Terminate running WebDrivers** > a pop-up message appears when WebDrivers are successfully terminated.
+From the main toolbar, select **Tools > Web > Terminate running WebDrivers** > a pop-up message appears when WebDrivers successfully terminates.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/handle-webdrivers/Terminate-Webdrivers.png" alt="terminate-webdriver-processes" width=70%>
 
@@ -36,10 +36,10 @@ From the main toolbar, select **Tools > Update WebDrivers > Select a browser in 
 > In the console mode, you can use this command argument, `--config -webui.autoUpdateDrivers=true`, to allow WebDriver binaries to be updated automatically. Learn more about [Console Mode Execution](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html).
 ## Replace a Webdriver
 
-In case you wish to upgrade or downgrade Selenium libary or Webdriver binaries to suit your test's purposes, you can do this by replacing Webdrivers. You can replace Webdriver binaries at either application-level or project-level.
+In case you wish to upgrade or downgrade Selenium library or Webdriver binaries to suit your test's purposes, you can do this by replacing WebDrivers. You can replace WebDriver binaries at either application-level or project-level.
 
 Do as follows:
-- Download the Webdriver version you want to run your test on.
+- Download the WebDriver version you want to run your test on.
 
 >
 > Versions of browser drivers:
@@ -54,7 +54,7 @@ Do as follows:
 * Windows: `<Katalon Studio folder>\configuration\resources\lib\selenium-server-standalone-3.x.jar`
 * macOS: `/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/lib/selenium-server-standalone-3.x.jar`
 
-- To replace WebDriver binaries' at application-level, go to:
+- To replace WebDriver binaries at the application level, go to:
 
 For **Window** users:
 
@@ -98,25 +98,52 @@ For **macOS** users:
 
 - `/Applications/Katalon Studio.app/Contents/Eclipse/configuration\resources\drivers\edgechromium_mac`
 
-- To replace WebDriver binaries' at application-level, go to **Include** directory inside the project you want to alter Webdrivers and follow the below path:
+- To replace WebDriver binaries at the project level, go to **Include** directory inside the project and follow the below paths:
 
+For **Window** users:
+
+**Chrome**
 - `Include/drivers/chromedriver_win32/chromedriver.exe`
 - `Include/drivers/chromedriver_win64/chromedriver.exe`
-- `Include/drivers/chromedriver_mac64/chromedriver`
-- `Include/drivers/chromedriver_linux32/chromedriver`
-- `Include/drivers/chromedriver_linux64/chromedriver`
+
+**Firefox** 
+
 - `Include/drivers/geckodriver_win32/geckodriver.exe`
 - `Include/drivers/geckodriver_win64/geckodriver.exe`
-- `Include/drivers/geckodriver_mac64/geckodriver`
-- `Include/drivers/geckodriver_linux32/geckodriver`
-- `Include/drivers/geckodriver_linux64/geckodriver`
+
+**Internet Explorer**
+
 - `Include/drivers/iedriver_win32/IEDriverServer.exe`
 - `Include/drivers/iedriver_win64/IEDriverServer.exe`
+
+**Edge (Chromium)**
 - `Include/drivers/edgedriver_win32/MicrosoftWebDriver.exe`
 - `Include/drivers/edgedriver_win64/MicrosoftWebDriver.exe`
 - `Include/drivers/edgechromiumdriver_win64/msedgedriver.exe`
 - `Include/drivers/edgechromiumdriver_win32/msedgedriver.exe`
+
+For **macOS** users:
+
+**Chrome**
+- `Include/drivers/chromedriver_mac64/chromedriver`
+
+**Firefox**
+- `Include/drivers/geckodriver_mac64/geckodriver`
+
+**Edge (Chromium)**
+
 - `Include/drivers/edgechromiumdriver_mac/msedgedriver`
+
+For **Linux** user:
+
+**Chrome**
+- `Include/drivers/chromedriver_linux32/chromedriver`
+- `Include/drivers/chromedriver_linux64/chromedriver`
+
+**Firefox**
+
+- `Include/drivers/geckodriver_linux32/geckodriver`
+- `Include/drivers/geckodriver_linux64/geckodriver`
 
 - Replace the `driver.exe` file with the downloaded `driver.exe` file. 
 
@@ -131,7 +158,7 @@ Katalon Studio introduces DriverFactory to manipulate WebDriver instances by usi
 
 > Starting in **Katalon Studio version 7.0.0**, the Katalon Studio's WebDriver extends the EventFiringWebDriver. Learn more about [EventFiringWebDriver](https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/support/events/EventFiringWebDriver.html).
 
-You can use [WebDriverEventListener](https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/support/events/WebDriverEventListener.html) to handle events started by the WebDriver, which happens before or after navigation; before or after a click, etc. 
+You can use [WebDriverEventListener](https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/support/events/WebDriverEventListener.html) to handle events started by the WebDriver, which happens before or after navigation, before or after a click, etc. 
 
 Below is an example of how to add your custom `WebDriverEventListener` method:
 
