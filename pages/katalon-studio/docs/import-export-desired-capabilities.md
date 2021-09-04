@@ -4,9 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/import-export-desired-capabilities.html
 ---
 
-When desired capabilities need to use across projects, users have to manually re-define them again in a project in use, which is time-consuming and error-prone. 
-
-Consequently, from version 8.0.0, Katalon Studio allows you to import and export desired capabilities in the Katalon Studio project(s). These functions support you to work with [Desired Capabilities](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html) more efficiently and less error-prone.
+From version 8.0.0 onwards, you can use desired capabilities across Katalon Studio project(s) by importing and exporting desired capabilities in a JSON file. With this new feature, you don't have to manually re-define them again in another project, making your work more efficient and less error-prone. See also [Desired Capabilities](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html).
 
 <table>
 	<tbody>
@@ -25,7 +23,7 @@ Consequently, from version 8.0.0, Katalon Studio allows you to import and export
 			<td rowspan="2">
 				<p>Do as follows:</p>
 					<ol>
-						<li>Choose the driver you want to export its desired capabilities &gt; <a href="https://docs.katalon.com/katalon-studio/docs/import-export-desired-capabilities.html#export-desired-capabilities">Export</a> it as JSON file.</li>
+						<li>Choose the driver with the desired capabilities you want to export &gt; <a href="https://docs.katalon.com/katalon-studio/docs/import-export-desired-capabilities.html#export-desired-capabilities">Export</a> it as a JSON file.</li>
 						<li>Modify the JSON file if needed.</li>
 						<li>Choose the driver you want to import the desired capabilities &gt; <a href="https://docs.katalon.com/katalon-studio/docs/import-export-desired-capabilities.html#import-desired-capabilities">Import</a> the modified JSON file.</li>
 					</ol>
@@ -52,21 +50,26 @@ Consequently, from version 8.0.0, Katalon Studio allows you to import and export
 
 3. Click **Import**. In the dialog box, **Browse** the imported JSON file > **OK**.
 
-    By default, imported ones overwrite all existing desired capabilities.
+> **Notice**
+> 
+> After importing new desired capabilities from the JSON file, it overwrites all existing ones.
+>
+>
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops/desired-capabilities-management/chrome_dc.png" width=55%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops/desired-capabilities-management/chrome_dc.png" width=55%>
 
 ### Export Desired Capabilities
 
-1. Go to **Project/Settings/Desired Capabilities** > choose the driver you wish to export its desired capabilities.
+1. Go to **Project/Settings/Desired Capabilities** > Choose the driver with the desired capabilities you wish to export.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops/desired-capabilities-management/desired-capabilities.png" width=70%>
 
-2. Click **Export**. In the dialog box, select the destination folder to save the exported file > **Save**.
+2. Click **Export**. In the dialog box, select the destination folder to save the exported JSON file > **Save**.
 
     > **Note**
     > 
-    > The export configuration will be saved as a **JSON file** to reduce your effort spent on modification and recreation capabilities if you want to copy the configuration to multiple places with some minor changes.
+    > The export configuration as a **JSON file** reduces your effort on modification and recreation capabilities in case you want to copy the configuration to multiple places with minor changes.
+	>
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops/desired-capabilities-management/export-chrome-save.png" width=55%>
 
