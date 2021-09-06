@@ -43,6 +43,7 @@ To learn more about Katalon Mobile Record, see also [Tutorials for Mobile Record
 >**Note**
 >
 >If your application begins in a WebView, and you don't want to automate in the `NATIVE_APP` context when starting the AUT, go to **Project > Settings > Desired Capabilities > Mobile > Android** to set `autoWebview` to `true` in **Desired capabilities**.
+>
 >The AUT automatically enters the `WEBVIEW` context on session start. Skip **Step 6,7,8** and move to **Step 9** to continue to automate your hybrid app.
 >
 >
