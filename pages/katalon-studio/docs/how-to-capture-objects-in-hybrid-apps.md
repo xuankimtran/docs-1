@@ -42,9 +42,9 @@ To learn more about Katalon Mobile Record, see also [Tutorials for Mobile Record
 >
 >**Note**
 >
->If your application begins in a WebView, and you don't want to automate in the `NATIVE_APP` context when starting the AUT, go to **Project > Settings > Desired Capabilities > Mobile > Android** to set `autoWebview` to `true` in **Desired capabilities**.
+>If your application begins in a WebView, and you don't want to open the AUT in the `NATIVE_APP` context, go to **Project > Settings > Desired Capabilities > Mobile > Android** to set `autoWebview` to `true` in **Desired capabilities**.
 >
->The AUT automatically enters the `WEBVIEW` context on session start. Skip **Step 6,7,8** and move to **Step 9** to continue to automate your hybrid app.
+> With this setting, the AUT automatically enters the `WEBVIEW` context on session start. Skip **Step 6,7,8** and move to **Step 9** to continue to automate your hybrid app.
 >
 >
 
@@ -68,7 +68,7 @@ Mobile.switchToWebView()
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/results-after-recording-mobile-test.png" width="70%" alt="Results after recording mobile test">
 
-9. Next, open Chrome Browser and navigate to [chrome://inspect/#devices](chrome://inspect/#devices).
+9. Next, open Chrome Browser and navigate to **chrome://inspect/#devices**.
 The **chrome://inspect** page displays:
 - The name of your Android testing device.
 - The version of Chrome that's running on the device, with the version number in parentheses.
