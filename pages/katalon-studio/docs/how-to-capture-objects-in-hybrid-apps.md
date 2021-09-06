@@ -88,7 +88,7 @@ WebUI.setText(cdmDetails, "123")
 
 ```
 
-If you wish to stop automating in the web view context and go back to automate the native portion of the app, use [switchToNative](https://docs.katalon.com/katalon-studio/docs/mobile-switch-to-native.html) mobile keyword.
+If you wish to stop automating in the `WEBVIEW` context and go back to automate the native portion of the app, use [switchToNative](https://docs.katalon.com/katalon-studio/docs/mobile-switch-to-native.html) mobile keyword.
 
 ```groovy
 
