@@ -48,7 +48,7 @@ In the main toolbar, click **Add > Mobile keyword** > a new command line appears
 Mobile.switchToWebView()
 ```
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/switchToWebView-mobile-keyword.png" width="70%" alt="Add switch to Webview">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/add-webview-mobile-keyword.001.jpeg" width="70%" alt="Add switch to Webview">
 
 7. Click **Save Script**. An open dialog asks you to save captured objects into Object Repository of Katalon Studio. Click **OK** to save recorded actions and objects. 
 
@@ -66,12 +66,12 @@ The **chrome://inspect** page displays:
 - A list of debug-enabled WebViews on your device. After Step 8, you should see the URL of the testing Android application here.
 - Click **Inspect** to open a **Chrome Devtools** instance. Use **Chrome Devtools** to inspect WebView elements. 
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/chrome-inspect-displays.png" width="50%" alt="Chrome Inspect displays">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/chrome-inspect-displays-hybrid-app.png" width="50%" alt="Chrome Inspect displays">
 
 
 To learn more about **Chrome Devtools** and its available function. See also [Chrome Devtools](https://developer.chrome.com/docs/devtools/)
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/Debugged-enabled-webview-in-chrome-devtools.png" width="70%" alt="Debug-enabled Webviews in Devtools">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/Chrome-Devtools.png" width="70%" alt="Debug-enabled Webviews in Devtools">
 
 
 10. Switch back to Katalon Studio framework, continue writing your test script with sample code as below:
