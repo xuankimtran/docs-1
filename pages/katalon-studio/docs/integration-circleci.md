@@ -29,7 +29,7 @@ To run your test with Katalon Orb, you need to establish a connection between yo
    
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/integration-circleci/circleci4.png" width="" height="">
 
-### Configure In CircleCI
+### Configure Environment Variables In CircleCI
 
 1. Download the latest Katalon Orbs in CircleCI: [katalon/katalon-studio](https://circleci.com/orbs/registry/orb/katalon/katalon-studio)
 
@@ -55,7 +55,7 @@ To run your test with Katalon Orb, you need to establish a connection between yo
 
    > Notes:
    >
-   > 1. To secure your project settings, you must get the API Key from [Katalon TestOps](https://analytics.katalon.com/).
+   > 1. To secure your project settings, you must get the API Key from [Katalon TestOps](https://testops.katalon.io/).
    > 2. Set **KATALON_API_KEY** as an environment variable in CircleCI. Do not store this API Key in source code.
    > See also: [How to create API Keys in Katalon TestOps](https://docs.katalon.com/katalon-analytics/docs/ka-api-key.html)
 
