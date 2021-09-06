@@ -1057,7 +1057,7 @@ items:
         tree:
           - title: "Using Plugins"
             url: /katalon-studio/docs/kse-use-plugins.html
-          - title: "Install Plugin Offline"
+          - title: "Installing Plugin Offline"
             url: /katalon-studio/docs/install-plugin-offline.html
           - title: "Integration Plugins"
             url: /katalon-studio/docs/integration-plugins.html

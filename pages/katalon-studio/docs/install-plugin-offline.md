@@ -1,5 +1,5 @@
 ---
-title: "Install Plugin Offline"
+title: "Installing Plugin Offline"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/install-plugin-offline.html
 redirect_from:
