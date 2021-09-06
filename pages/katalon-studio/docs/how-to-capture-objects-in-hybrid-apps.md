@@ -16,7 +16,7 @@ Katalon Studio partially supports Hybrid Mobile App. You can use Mobile keywords
 
 Do as follows:
 
-1. [Download](http://appium.io/docs/en/writing-running-appium/web/chromedriver/#chromedriverchrome-compatibility) ChromeDriver for Appium. It is advisible to download the compatible version with Chrome on your testing devices.
+1. [Download and install](http://appium.io/docs/en/writing-running-appium/web/chromedriver/#chromedriverchrome-compatibility) ChromeDriver for Appium. It is advisible to download the compatible version with Chrome on your testing devices.
 
 2. Specify Chromedriver version in session capabilities by using **Mobile Testing** function in **Desired Capabilities**. Go to **Project > Settings > Desired Capabilities > Mobile > Android** and add this property:
 
