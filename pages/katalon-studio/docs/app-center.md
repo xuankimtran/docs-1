@@ -152,9 +152,7 @@ AppiumDriverManager.setDriver(driver)
 
 4. To pack your sideload project, execute the file `package.bat`/`package.sh`.
 
-5. Upload sideload:
-    * Before uploading, you should configure in the file `upload.sh`/`upload.bat`.
-    * To upload and run your sideload project on the App Center, execute  the file `upload.sh`/`upload.bat`.
+5. To upload and run your sideload project on the App Center, execute  the file `upload.sh`/`upload.bat`.
 
 ## Executing KatalonDemoProject
 
