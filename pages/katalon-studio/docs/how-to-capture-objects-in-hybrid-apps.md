@@ -33,11 +33,11 @@ Example:
 4. In the blank Test Case page, from the main toolbar, click on the **Mobile Record**, and select **Android Devices**. 
 To learn more about Katalon Mobile Record, see also [Tutorials for Mobile Record](https://docs.katalon.com/katalon-studio/docs/record-mobile-utility.html).
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/Open-mobile-record.png" width="40%" alt="Open Mobile Record">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/Open-mobile-record.png" width="30%" alt="Open Mobile Record">
 
 5. In the pop-up **Mobile Recorder** dialog, specify the information at **Configuration** section, then click **Start** to begin recording the application under test (AUT).
    
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/Start-mobile-record.png" width="70%" alt="Start Mobile Record">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/Start-mobile-record.png" width="50%" alt="Start Mobile Record">
 
 6. By default, Katalon Studio Record starts the AUT in the `NATIVE_APP` context. Set to the `WEBVIEW` context by using [switchToWebView](https://docs.katalon.com/katalon-studio/docs/mobile-switch-to-web-view.html#example) mobile keywords.
 
@@ -66,7 +66,7 @@ The **chrome://inspect** page displays:
 - A list of debug-enabled WebViews on your device. After Step 8, you should see the URL of the testing Android application here.
 - Click **Inspect** to open a **Chrome Devtools** instance. Use **Chrome Devtools** to inspect WebView elements. 
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/chrome-inspect-displays.png" width="70%" alt="Chrome Inspect displays">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/chrome-inspect-displays.png" width="50%" alt="Chrome Inspect displays">
 
 
 To learn more about **Chrome Devtools** and its available function. See also [Chrome Devtools](https://developer.chrome.com/docs/devtools/)
