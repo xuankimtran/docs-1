@@ -7,7 +7,7 @@ description:
 ---
 <INTRODUCTION>
 
-Katalon Studio partially supports Hybrid Mobile App. You can use mobile keywords to automate your app but Katalon’s Mobile Spy/Recorder doesn’t support detecting elements. Hence, this tutorial shows you how to capture elements in hybrid Android apps with Appium and Chrome Devtools under the control of [Android WebView](https://developer.android.com/reference/android/webkit/WebView).
+Katalon Studio partially supports Hybrid Mobile App. You can use mobile keywords to automate your app, but Katalon’s Mobile Spy/Recorder doesn’t support detecting elements. Hence, this tutorial shows you how to capture elements in hybrid Android apps with Appium and Chrome Devtools under the control of [Android WebView](https://developer.android.com/reference/android/webkit/WebView).
 
 > Requirements
 >
@@ -72,7 +72,7 @@ Mobile.switchToWebView()
 The **chrome://inspect** page displays:
 - The name of your Android testing device.
 - The version of Chrome that's running on the device, with the version number in parentheses.
-- A list of debug-enabled WebViews on your device. After Step 8, you should see the URL of the testing Android application here.
+- A list of debug-enabled WebViews on your device. After step 8, you should see the URL of the testing Android application here.
 - Click **Inspect** to open a **Chrome Devtools** instance. Use **Chrome Devtools** to inspect WebView elements. 
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/chrome-inspect-displays-hybrid-app.png" width="50%" alt="Chrome Inspect displays">
