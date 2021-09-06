@@ -39,36 +39,42 @@ To learn more about Katalon Mobile Record, see also [Tutorials for Mobile Record
    
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/Start-mobile-record.png" width="70%" alt="Start Mobile Record">
 
-6. After the start of the AUT, you need to tell Appium which portion of your app has an active WebView. Use **Available Actions** section to navigate to that portion.
+6. By default, Katalon Studio Record starts the AUT in the `NATIVE_APP` context. Set to the `WEBVIEW` context by using [switchToWebView](https://docs.katalon.com/katalon-studio/docs/mobile-switch-to-web-view.html#example) mobile keywords.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/Navigate-to-webview-portion.png" width="70%" alt="Navigate to active WebView portion">
+In the main toolbar, click **Add > Mobile keyword** > a new command line appears > manually add `switchToWebview` mobile keyword.
 
-7. Next, open Chrome Browser and navigate to [chrome://inspect/#devices](chrome://inspect/#devices).
+```groovy
+//to set context to WebView
+Mobile.switchToWebView()
+```
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/switchToWebView-mobile-keyword.png" width="70%" alt="Add switch to Webview">
+
+7. Click **Save Script**. An open dialog asks you to save captured objects into Object Repository of Katalon Studio. Click **OK** to save recorded actions and objects. 
+
+8. In the new test case saved from Step 7, do as follows:
+- Switch to the Script tab
+- Remove command line **Close Application**. 
+- Run the test script.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/results-after-recording-mobile-test.png" width="70%" alt="Results after recording mobile test">
+
+9. Next, open Chrome Browser and navigate to [chrome://inspect/#devices](chrome://inspect/#devices).
 The **chrome://inspect** page displays:
 - The name of your Android testing device.
 - The version of Chrome that's running on the device, with the version number in parentheses.
-- A list of debug-enabled WebViews on your device. After Step 5, you should see the URL of the testing Android application here.
+- A list of debug-enabled WebViews on your device. After Step 8, you should see the URL of the testing Android application here.
+- Click **Inspect** to open a **Chrome Devtools** instance. Use **Chrome Devtools** to inspect WebView elements. 
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/chrome-inspect-displays.png" width="70%" alt="Chrome Inspect displays">
 
 
-8. In the **chrome://inspect** page, click **Inspect** to open a **Chrome Devtools** instance. Use **Chrome Devtools** to inspect WebView elements. 
-
 To learn more about **Chrome Devtools** and its available function. See also [Chrome Devtools](https://developer.chrome.com/docs/devtools/)
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/Chrome-Devtools.png" width="70%" alt="Debug-enabled Webviews in Devtools">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/Debugged-enabled-webview-in-chrome-devtools.png" width="70%" alt="Debug-enabled Webviews in Devtools">
 
 
-9. Switch back to Katalon Studio framework, in the **Mobile Record** dialog, click **Save Script**. An open dialog asks you to save captured objects into Object Repository of Katalon Studio. Click **OK** to save recorded actions and objects. 
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/results-of-test-recording.png" width="70%" alt="Results after recording mobile test">
-
-
-10.  In the mobile test you saved at Step 9, to automate hybrid app's elements under the `WEBVIEW` context, do as follows:
-
--  Switch to the Script tab.
--  By default, Katalon Studio Record starts the AUT in the `NATIVE_APP` context. Set to the `WEBVIEW` context by using [switchToWebView](https://docs.katalon.com/katalon-studio/docs/mobile-switch-to-web-view.html#example) mobile keywords.
--  Continue writing your script to run in `WEBVIEW` context.
+10. Switch back to Katalon Studio framework, continue writing your test script with sample code as below:
   
 ```groovy
 //to set context to WebView
@@ -82,7 +88,7 @@ WebUI.setText(cdmDetails, "123")
 
 ```
 
-To stop automating in the web view context and go back to automate the native portion of the app by using [switchToNative](https://docs.katalon.com/katalon-studio/docs/mobile-switch-to-native.html)
+If you wish to stop automating in the web view context and go back to automate the native portion of the app, use [switchToNative](https://docs.katalon.com/katalon-studio/docs/mobile-switch-to-native.html) mobile keyword.
 
 ```groovy
 
