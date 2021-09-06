@@ -39,11 +39,12 @@ To learn more about Katalon Mobile Record, see also [Tutorials for Mobile Record
    
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/Start-mobile-record.png" width="50%" alt="Start Mobile Record">
 
-
->Note
+>
+>**Note**
 >
 >If your application begins in a WebView, and you don't want to automate the native application before entering it, set `autoWebview` to `true` in **Desired capabilities**. 
 >The AUT automatically enters the `WEBVIEW` context on session start. Skip **Step 6,7,8**, move to **Step 9** to continue automate your hybrid app.
+>
 >
 
 6. By default, Katalon Studio Record starts the AUT in the `NATIVE_APP` context. Set to the `WEBVIEW` context by using [switchToWebView](https://docs.katalon.com/katalon-studio/docs/mobile-switch-to-web-view.html#example) mobile keywords.
