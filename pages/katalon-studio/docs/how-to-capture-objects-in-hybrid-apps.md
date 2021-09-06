@@ -61,8 +61,8 @@ Mobile.switchToWebView()
 
 7. Click **Save Script**. An open dialog asks you to save captured objects into the Object Repository of Katalon Studio. Click **OK** to save recorded actions and objects. 
 
-8. In the new test case saved from Step 7, do as follows:
-- Switch to the Script tab
+8. In the new test case saved from step 7, do as follows:
+- Switch to the Script tab.
 - Remove command line **Close Application**. 
 - Run the test script.
 
@@ -73,12 +73,12 @@ The **chrome://inspect** page displays:
 - The name of your Android testing device.
 - The version of Chrome that's running on the device, with the version number in parentheses.
 - A list of debug-enabled WebViews on your device. After step 8, you should see the URL of the testing Android application here.
-- Click **Inspect** to open a **Chrome Devtools** instance. Use **Chrome Devtools** to inspect WebView elements. 
+- Click **Inspect** to open a **Chrome Devtools** instance. Use **Chrome Devtools** to inspect WebView elements.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/chrome-inspect-displays-hybrid-app.png" width="50%" alt="Chrome Inspect displays">
 
 
-To learn more about **Chrome Devtools** and its available function. See also [Chrome Devtools](https://developer.chrome.com/docs/devtools/)
+To learn more about **Chrome Devtools** and its available function. See also [Chrome Devtools](https://developer.chrome.com/docs/devtools/).
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/Chrome-Devtools.png" width="70%" alt="Debug-enabled Webviews in Devtools">
 
