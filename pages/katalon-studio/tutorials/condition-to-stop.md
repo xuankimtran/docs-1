@@ -8,8 +8,8 @@ In this article, you will learn how to terminate a test execution automatically 
 
 >**Requirements**
 >
->- Katalon Studio **version 8.1.0 onwards**.
->- Katalon Runtime Engine **version 8.1.0 onwards**.
+>- Katalon Studio **version 8.1.0 onwards**
+>- Katalon Runtime Engine **version 8.1.0 onwards**
 >- A Katalon Runtime Engine License. See [Katalon licensing](https://docs.katalon.com/katalon-studio/docs/license.html).
 
 Consider using the condition to terminate execution when a set of tests is mature and takes hours to finish. Once a significant number of tests fail, they may fail for the same cause. This feature helps you save time, provide early feedback, and avoid the execution of unnecessary test cases.
@@ -24,12 +24,12 @@ Consider using the condition to terminate execution when a set of tests is matur
 >- 1 retried test case fails = 1 test failure
 >- 1 test iteration (test case + data row) fails = 1 test failure
 >- 1 retried test iteration fails = 1 test failure
->
-> The number of maximum test cases failure must be greater than 0 and a natural number (1,2,3...). Otherwise, Katalon Studio will not start the execution.
 
 ### With Command Builder
 
->**Notes**: For detailed instruction on how to run a test execution in Console mode, see [Command Builder](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#command-builder).
+>**Notes**:
+>
+>For detailed instruction on how to run a test execution in Console mode, see [Command Builder](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#command-builder).
 
  Go to Katalon Studio and set a maximum number of test failures.
  
@@ -37,11 +37,11 @@ Consider using the condition to terminate execution when a set of tests is matur
 
  2. In the **Generate Command for Console Mode > Execution Configurations**, check the box **Terminate the execution once the total number of test failures reaches this threshold**. In the text field, input your desired maximum number of test failures.
 
- 	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/condition%20to%20stop%20-%202.png" alt="command builder" width=70%>
+ 	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/condition%20to%20stop%20-%202.png" alt="command builder" width=80%>
 
 	>**Notes**:
 	>
-	> The maximum test cases failure must be greater than 0 and a natural number (1,2,3...). Otherwise, Katalon Studio will not start the execution.
+	> The maximum test cases failure must be greater than 0 and a natural number (1, 2, 3...). Otherwise, Katalon Studio will not start the execution.
 
  3. After you are done with the configuration, click **Generate command**. A command containing the `-maxFailedTests` option is generated.
  
@@ -59,7 +59,7 @@ Use the command-line option: ``-maxFailedTests=T``, where T is the maximum numbe
 
 See [Katalonc command-line option](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#automatically-updating-webdriver-option) for the list of common command-line options supported.
 
-## Reporting Incomplete Test Suite
+## Report Incomplete Test Suite
 
 When a test suite has at least 1 test case **Not Run**, the final status of that test suite is marked **Incomplete**.
 
@@ -67,7 +67,7 @@ For test suites marked **Incomplete** or **Not started yet**, Katalon Studio aut
 
 Test suites marked **Incomplete** or **Not started yet** and the attachments of the test suite execution cannot be uploaded to 3rd-party tools (qTest, JIRA, Slack, Azure DevOps Test Plans, TestRail).
 
-## Troubleshooting
+## Troubleshoot
 
 When a test suite or test suite collection is terminated, you can find the test suite or test suite collection reference ID and the maximum number of test failures in the execution log.
 
@@ -89,13 +89,13 @@ In this section, we outline an example execution of a test suite with this param
 
 - Given that you have a test suite that has 10 test cases.
 
-	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/Test%20suite%20UC%201.png" alt="Test Suites" width="70%">
+	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/Test%20suite%20UC%201.png" alt="Test Suites" width="80%">
 
 - You want to stop the test suite after 4 test failures. Set T = 4.
 
 	**Configure in Command Builder**
 
-	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/terminate.png" alt="command builder" width="70%">
+	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/terminate.png" alt="command builder" width="80%">
 
 	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/command%20UC%201.png" alt="execution log" width="70%">
 
@@ -103,7 +103,7 @@ In this section, we outline an example execution of a test suite with this param
 
 - The test suite is terminated once the number of failures becomes 4. The execution ends, and the rest test cases do not run.
 
-	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/Test%20log%20result%20-%20UC%201.png" width="70%" alt="info">
+	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/Test%20log%20result%20-%20UC%201.png" width="90%" alt="info">
 
 - Katalon Studio generates a report in JUnit, HTML, PDF, and CSV format. The report does not show information for test cases that were not run.
 
