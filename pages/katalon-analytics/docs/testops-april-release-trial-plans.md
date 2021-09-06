@@ -21,7 +21,7 @@ If you are a Katalon Studio user, you are automatically entitled to the TestOps 
 
 > Notes:
 >
-> This trial request is applied for Cloud version only. For On-Premises version, please contact our Sales team via sales@katalon.com.
+> This trial request is applied for Cloud version only. TestOps no longer supports an On-Premises solution.
 
 Once you have a Katalon account, you can submit a trial request via Katalon TestOps's website.
 

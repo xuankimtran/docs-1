@@ -10,6 +10,23 @@ redirect_from:
 description:
 ---
 
+## 5.5.4.1
+**Bug fixes**
+	- Fixed an issue where users cannot execute tests with CSV files on Windows.
+	- Fixed an issue where copy and pasting a command does not work as expected.
+	- Fixed an issue where users cannot open .krecorder files.
+	- Fixed an issue where users can't see test steps' statuses after executions.
+	- Fixed an issue where users can't visually distinguish between passed and failed tests.
+
+## 5.5.4
+**Improvements**
+  - Roll out a completely reworked UI/UX.
+  - Users can now duplicate a test suite along with all of its test cases through an option in context menu.
+**Bug fixes**
+  - Fixed an issue where [Goto](https://forum.katalon.com/t/error-using-appendtocsv-with-katalon-recorder-v-5-5-3/57655/4), [AppendToCSV and WriteToCSV](https://forum.katalon.com/t/error-using-appendtocsv-with-katalon-recorder-v-5-5-3/57655/4) commands do not work as expected.
+  - Fixed an issue where autosuggestion dropdowns do not disappear after selecting an option.
+  - Fixed an issue that prevents users from singing up a Katalon account in-app.
+
 ## 5.5.2
 - **Improvements**
   - Add sample project "Upload a set of images sand their metadata" to showcase how to use `upload` command.

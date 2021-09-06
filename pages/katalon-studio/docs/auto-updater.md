@@ -11,27 +11,35 @@ description:
 
 > **Known Issues**
 > 
-> *   Product **reactivation** is **required** after installed new version successfully.
-> *   Previous configurations from the previous version will not be carried into the updated version.
-
+>- After installing the new version successfully, product reactivation is required.
   
-Auto-update feature helps to ensure Katalon users are working with the newest version of Katalon Studio with latest updates and enhancements. By default, Katalon Studio will automatically check for new version everytime the application is started. 
+The auto-update feature ensures Katalon users work with the most recent version of Katalon Studio, with the latest updates and enhancements. Katalon Preferences are carried out to the updated version. By default, Katalon Studio automatically checks for the most recent version every time the application starts.
 
-*   If there is a new version **available**, Katalon Studio will display the notification with options as shown below  
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/auto-updater/Screen-Shot-2018-04-12-at-21.46.21.png)  
-      
-    
+>**Notes**:
+>
+> You can always find the latest update in Katalon Studio by navigating to **Help > Check for Updates**.
+>
+><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/auto-updater/check%20for%20update.png" alt="check for update" width=40%>
+
+- Suppose a new version is available, the **Katalon Studio New Update** dialog displays. Otherwise, your Katalon Studio is up to date.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/auto-updater/new%20update%20dialog.png" alt="new update dialog" width=40%> 
+
     | Option | Description |
     | --- | --- |
+    | **Remind me later** | New Update will be prompted again after the next app reload or launch. |
+    | **Ignore This Update** | **New Updates** dialog will not be displayed any more if this option is selected. |
     | **Download** | New version will be downloaded immediately. |
-    | **Remind me later** | New Update will be prompted again after the next app reload or launch |
-    | **Ignore This Update** | '**New Update**' dialog will not be displayed anymore if this option is selected. |
     
-*   If **Download** option is selected, Katalon Studio will download the new version and its progress can be viewed. Users are allowed to **Cancel** download at any time. 
+- If you select the **Download** option, Katalon Studio starts downloading the new version. Meanwhile, you can observe the **Job progress** bar located at the bottom right screen corner. You can also stop downloading anytime by clicking **Cancel**.
     
-    > Please note that it might take some time to complete the download depending on the current network connection.
+    > Please note that it might take some time to complete the download, depending on your network connection.
     
       
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/auto-updater/Screen-Shot-2018-04-12-at-21.46.53.png)
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/auto-updater/downloading%20process.png" alt="downloading update" width=70%>
     
-*   After the download process is finished, select '**Install and Re-launch**' option to install the new version and relaunch Katalon Studio after it is installed.
+*   Once the download ends, the **Katalon Studio Update** dialog appears:
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/auto-updater/Install%20and%20relaunch.png" alt="install and relaunch" width=40%>
+
+    To install and relaunch the new version, select **Install and Re-launch**.

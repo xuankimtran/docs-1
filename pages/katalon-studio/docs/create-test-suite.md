@@ -1,9 +1,8 @@
 ---
 title: "Test Suite" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/test-suite.html 
+permalink: katalon-studio/docs/create-test-suite.html 
 redirect_from:
-    - "/katalon-studio/docs/create-test-suite/"
     - "/katalon-studio/docs/design-a-test-suite.html"
     - "/display/KD/Design+a+Test+Suite/"
     - "/display/KD/Design%20a%20Test%20Suite/"
@@ -13,16 +12,19 @@ redirect_from:
     - "/katalon-studio/docs/dynamic-querying-test-suite/"
     - "/katalon-studio/docs/dynamic+querying+test+suite/"
     - "/katalon-studio/docs/dynamic%20querying%20test%20suite/"
-description: 
+    - "/katalon-studio/docs/test-suite.html/"
+    
+description:
 ---
-A test suite is a collection of multiple different or duplicate test cases.
+A Test Suite is a collection of multiple different or duplicate test cases.
 
 ## Create a new Test Suite
 
 To create a new Test Suite, do as follows:
 
 1. From the menu bar, select **File > New > Test Suite**
-  ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/test-suite-1.png)
+
+   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/test-suite-1.png)
 
 2. Fill in the name of the test suite and the description (optional).
 
@@ -30,7 +32,7 @@ To create a new Test Suite, do as follows:
 
 3. Click **OK** when you are done.
 
-Here is another way to create a new Test Suite. In a Test Case, click  **Add to test suite** button after you have finished creating a test case.
+Alternatively, you can create a new Test Suite after creating a Test Case. In a Test Case, click the **Add to test suite** button.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/Test-suite-2.png)
 
@@ -42,48 +44,72 @@ You can specify additional configurations for test suite execution by expanding 
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/design-a-test-suite/image2017-2-15-143A493A29.png)
 
-### Implicit timeout
+## Implicit timeout
 
-In **Implicit timeout**, you can decide the timeout period that Katalon waits for a page to be loaded by choosing one of the following options:
+In **Implicit timeout**, you can decide the timeout period that Katalon Studio waits for a page to be loaded by choosing one of the following options:
 <ul>
    <li><strong>Use default</strong>: Use the predefined default value</li>
-   <li><strong>User define</strong>: Use the specified value (in seconds)</li>
+   <li><strong>User define (in seconds)</strong>: Set a custom waiting time. Input a value in seconds.</li>
 </ul>
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/design-a-test-suite/image2017-2-15-143A563A48.png">
 
-### Retry
+## Retry
 
-You can configure when and how many times Katalon retries an execution of a Test Suite until the Test Suite passes successfully.
+Using the **Retry** feature, you can configure when and how many times Katalon retries an execution of a Test Suite before the Test Suite finishes executing.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/retry.png" width=396>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/retry.png" alt="retry after executing all" width=60%>
 
-**From version 7.6 onwards**
+### Retry Failed Execution Immediately
 
-> To significantly shorten the execution time, Katalon Studio supports retrying failed test executions **immediately**.
+By default, each Test Case is run only one time in a Test Suite execution. Suppose you want to rerun failed Test Cases several times to identify flaky tests before executing the next ones. You can set the desired number of retry times in **Retry Failed Execution Immediately**. The failed test case will be rerun immediately until they pass or all retries are used up. If all rerun attempts fail, Katalon Studio marks that Test Case as **Failed** and proceeds with the rest in the Test Suite.
 
-Select one of the following options to decide when and which execution Katalon Studio will retry:
+   >**Requirement**
+   >
+   > - An active Katalon Studio Enterprise license
 
-* **Retry failed executions immediately** (only available for Katalon Studio Enterprise users): Retry a failed execution of a test case or test data immediately.
+**Consolidate Reports**
 
-* In **Retry after executing all**:
+   From version 8.1.0 onwards, Katalon Studio automatically consolidates reports in JUnit, HTML, PDF, and CSV format with one final test result for a Test Case. Browser-based or window-based videos are recorded for runs and reruns of a Test Case.
 
-   * **Retry all executions**: Retry all executions when the Test Suite fails.
-   * **Retry failed executions only**: Retry only failed executions when the Test Suite fails.
+**Usage example**
+   
+   In this example, we have a Test Suite with five Test Cases. We set **Retry Failed Execution Immediately** for one and two times. When we run the Test Suite and a test fails, Katalon Studio immediately reruns the problematic test case until it passes or the maximum number of retries is reached.
 
-**From version 7.6 backwards**
+- **Example 1**: Execute the Test Suite with a Retry limit of 1:
 
-You can opt to retry only <strong>failed</strong> test cases and/or <strong>failed</strong> test data.
+  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/ts-with-5-tc-and-retry-fail-1.png" width=65%>
 
-> Retrying **Failed Test Data Only** is available for **Katalon Studio Enterprise** users from version **7.5+**
+   You can see the Test Suite status once the Test Suite finishes executing. Because Test Case 3 is marked as **Failed**, we open the **Result** tab and expand Test Case 3 to investigate. 
+      
+   Test Case 3 failed twice, once during the main run and once as a retried run. Only one retried run was allowed. 
+      
+   At this point, Katalon Studio logged its final result as **Failed** and continued to execute Test Case 4 and 5 with the same logic.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/design-a-test-suite/retry-750.png">
+   You can view how many Test Cases in the Test Suite were executed and their final status in the **Summary** tab. In this use case, the Test Suite has five total Test Cases, Test Cases 1, 2 and 4 pass while 3 and 5 fail.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/retry-usage-example-result.png" width=85%>
+
+ - **Example 2**: Execute the Test Suite with a Retry limit of 2:
+
+   When we set the retry limit to 2, five Test Cases passed. Test Cases 3 and 5 failed at the main run and first rerun but passed at the second try. 
+
+   Since Test Cases 3 and 5 did not succeed on the first try but still succeed after two tries, their result pattern is intermittent. This is a clear sign of test flakiness and can be further investigated.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/retry-2-times-result.png" width=85%>
+
+### Retry After Executing All
+
+   In **Retry after executing all**:
+
+   * **Retry All executions**: Retry all executions when the Test Suite fails.
+   * **Retry Failed executions only**: Retry only failed executions when the Test Suite fails.
 
 ### Mail Recipients
 
 You can add a list of recipients who will receive execution reports via email once the test suite finishes its execution.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/design-a-test-suite/image2017-2-15-153A123A46.png">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/email.png" alt="email recipients" width=70%>
 
 There's also another list of recipients who will receive all the reports from Katalon by default. Refer to [Emails Settings](https://docs.katalon.com/katalon-studio/docs/execution-settings.html#emails-settings) for more details.
 
@@ -104,7 +130,7 @@ All test cases in Katalon Studio are displayed in the **Test Case Browser** dial
 
 **Dynamic Test Suite** is a test suite in which a collection of multiple test cases are added to NOT in a manual way but via a [search query](https://docs.katalon.com/katalon-studio/docs/search.html). This feature only works when you have already installed the plugin that defines the querying syntax. In case there is no installed plugin, the Query Provider is set to “No query provider available.” by default.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dynamic-querying-test-suite/dynamic-ts.png" width="1041" height="289">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dynamic-querying-test-suite/dynamic-ts.png" width="100%" alt="dynamic test suite">
 
 Currently, there are three plugins from Katalon Store, which enable this feature by providing query search function and returning any matched test cases or test suites of the query statement.
 
@@ -131,7 +157,7 @@ After installing one of those plugins, go to Katalon Studio and click **Reload P
 
 **Preview**: View the results after having the searching query.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dynamic-querying-test-suite/result.png" width="1039" height="346">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dynamic-querying-test-suite/result.png" width="100%" alt="search querry">
 
 ## Execute a Test Suite
 
@@ -161,7 +187,7 @@ The Job Progress is triggered automatically to show the progress while your test
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/image2017-6-30-203A543A25.png)
 
-> You can also [execute the test case using console mode](/display/KD/Console+Mode+Execution).
+> See also [Execute the test case using console mode](/display/KD/Console+Mode+Execution).
 
 ## Submit and view test results on Katalon TestOps
 
