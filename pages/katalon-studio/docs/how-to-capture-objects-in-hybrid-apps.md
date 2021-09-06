@@ -7,7 +7,7 @@ description:
 ---
 <INTRODUCTION>
 
-Katalon Studio partially supports Hybrid Mobile App. You can use Mobile keywords to automate your app but Katalon’s Mobile Spy/Recorder doesn’t support detecting elements. Hence, this tutorial shows you how to capture elements in hybrid Android apps with Appium and Chrome Devtools under the control of [Android WebView](https://developer.android.com/reference/android/webkit/WebView).
+Katalon Studio partially supports Hybrid Mobile App. You can use mobile keywords to automate your app but Katalon’s Mobile Spy/Recorder doesn’t support detecting elements. Hence, this tutorial shows you how to capture elements in hybrid Android apps with Appium and Chrome Devtools under the control of [Android WebView](https://developer.android.com/reference/android/webkit/WebView).
 
 > Requirements
 >
@@ -16,7 +16,7 @@ Katalon Studio partially supports Hybrid Mobile App. You can use Mobile keywords
 
 Do as follows:
 
-1. [Download and install](http://appium.io/docs/en/writing-running-appium/web/chromedriver/#chromedriverchrome-compatibility) ChromeDriver for Appium. It is advisable to download the compatible version with Chrome on your testing devices.
+1. [Download and install](http://appium.io/docs/en/writing-running-appium/web/chromedriver/#chromedriverchrome-compatibility) Chromedriver for Appium. It is advisable to download the compatible version with Chrome on your testing devices.
 
 2. Specify Chromedriver version in session capabilities by using **Mobile Testing** function in **Desired Capabilities**. Go to **Project > Settings > Desired Capabilities > Mobile > Android** and add this property:
 
@@ -42,8 +42,8 @@ To learn more about Katalon Mobile Record, see also [Tutorials for Mobile Record
 >
 >**Note**
 >
->If your application begins in a WebView, and you don't want to automate the native application before entering it, set `autoWebview` to `true` in **Desired capabilities**. 
->The AUT automatically enters the `WEBVIEW` context on session start. Skip **Step 6,7,8**, move to **Step 9** to continue to automate your hybrid app.
+>If your application begins in a WebView, and you don't want to automate in the `NATIVE_APP` context when starting the AUT, go to **Project > Settings > Desired Capabilities > Mobile > Android** to set `autoWebview` to `true` in **Desired capabilities**.
+>The AUT automatically enters the `WEBVIEW` context on session start. Skip **Step 6,7,8** and move to **Step 9** to continue to automate your hybrid app.
 >
 >
 
