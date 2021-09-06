@@ -20,11 +20,11 @@ Katalon Studio can natively integrate with the Azure Test Plans service of Azure
 >
 > * Katalon Studio version 8.0.0 onwards.
 > * An active Katalon Studio Enterprise license.
-> * Azure Test Plans already configured. See [How to use Katalon for Azure DevOps](https://docs.katalon.com/katalon-studio/docs/azure-devops-extension.html#installation).
+> * Azure Test Plans already configured.
 
 ## Enable the Integration and Perform Authentication
 
-To retrieve your test artifacts and test results directly in Azure DevOps, you need to integrate and authenticate your project with Azure Server. In Katalon Studio, go to **Project > Settings > Integrations > Azure DevOps**. The **Azure DevOps** dialog appears.
+To retrieve your test artifacts and create new test results directly on Azure DevOps, you need to integrate and authenticate your project with Azure Server. In Katalon Studio, go to **Project > Settings > Integrations > Azure DevOps**. The **Azure DevOps** dialog appears.
 
 1. Check the **Enable Integration** box. The **Authentication** area can now be edited.
 
