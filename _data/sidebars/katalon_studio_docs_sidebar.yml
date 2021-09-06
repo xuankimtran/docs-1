@@ -47,6 +47,8 @@ items:
         tree:
           - title: "Overview"
             url: /katalon-analytics/docs/testops_subscriptions_overview.html
+          - title: "Pricing and Feature Comparisons"
+            url: /katalon-analytics/docs/testops-packages.html "  
           - title: "Trial Plans"
             url: /katalon-analytics/docs/trial-plans.html
           - title: "Manage Subscriptions"
@@ -1303,7 +1305,7 @@ items:
                 url: /katalon-analytics/docs/auto-distributed-execution.html
           - title: "Docker Test Environments"
             url: /katalon-analytics/docs/docker.html
-          - title: "Create a Kubernetes Test Environments"
+          - title: "Kubernetes Test Environments"
             url: /katalon-analytics/docs/aws-eks.html
       - title: "Test Planning"     
         tree: 
@@ -1387,7 +1389,7 @@ items:
             url: /katalon-analytics/docs/ip-settings.html
           - title: "Subdomain Configurations"
             url: /katalon-analytics/docs/subdomain.html
-          - title: "Single Sign-On (SSO) Configurations"
+          - title: "Single Sign-On Configurations"
             url: /katalon-analytics/docs/sso-settings.html
           - title: "Configure Network Security"
             url: /katalon-analytics/docs/network-config.html
