@@ -5,6 +5,7 @@ permalink: katalon-analytics/docs/testops-packages.html
 description:
 ---
 
+<p>&nbsp;</p>
 <table>
 <tbody>
 <tr>
@@ -30,7 +31,8 @@ description:
 <p><span style="font-weight: 400;">Starting at $120 per month</span></p>
 </td>
 <td style="text-align: center;">
-<p><span style="font-weight: 400;">Starting at $10,000 per year</span><span style="font-weight: 400;"><br /></span><span style="font-weight: 400;">Free Trial: 45 days</span></p>
+<p><span style="font-weight: 400;">Contact</span>&nbsp;our Sales team at <a href="mailto:business@katalon.com">business@katalon.com</a></p>
+<p><span style="font-weight: 400;">Free Trial: 45 days</span></p>
 </td>
 </tr>
 <tr>
@@ -49,7 +51,7 @@ description:
 </tr>
 <tr>
 <td>
-<p><strong>Price for addition test executions</strong></p>
+<p><strong>Price for additional test executions</strong></p>
 </td>
 <td style="text-align: center;">
 <p><span style="font-weight: 400;">N/A</span></p>
@@ -169,7 +171,7 @@ description:
 <li style="font-weight: 400;"><span style="font-weight: 400;">Test planning</span></li>
 <li style="font-weight: 400;"><span style="font-weight: 400;">Test management</span></li>
 <li style="font-weight: 400;"><span style="font-weight: 400;">3rd-party integration</span></li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">On-Premises package</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Web services anomalies</span></li>
 <li style="font-weight: 400;"><span style="font-weight: 400;">Single Sign-On</span></li>
 <li style="font-weight: 400;"><span style="font-weight: 400;">Whitelist IP Address</span></li>
 <li style="font-weight: 400;"><span style="font-weight: 400;">Visual Testing</span></li>
