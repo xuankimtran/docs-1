@@ -90,32 +90,7 @@ In **Project > Settings > Plugins**, select one of the following options:
 * **Katalon Store and Local**: Katalon Studio will install plugins from Store and the Plugins folder of each project.
 * **Local**: Katalon Studio will install plugins from the Plugins folder only.
 
-## Use Plugins Offline
-
-Together with offline features of Katalon Studio Enterprise, using plugins without Internet access is an excellent complimentary feature for you to:
-
-* Install and use all the plugins that are available on Store without the Internet required.
-* Build your plugins and use them directly in Katalon Studio without publishing on Store.
-
-> **Requirements**:
->
-> * Your Katalon Studio version must be 7.0 or later.
-> * You need an [active license for Katalon Studio Enterprise](https://docs.katalon.com/katalon-studio/docs/license.html#paid-license).
-
-To use any plugins published on Store without accessing the Internet, follow these steps:
-
-1. Get a plugin package from Katalon Store. [Learn more](https://docs.katalon.com/katalon-store/docs/user/getting-started.html#download-plugin-packages).
-2. Unzip your downloaded plugin package
-3. Move the plugin package to **<project_name>/plugins**
-
-   > Please be noted that *Platform* plugins need storing in the **<project_name>/plugins/platform** folder.
-
-4. Open your project in Katalon Studio, and go to **Project > Settings > Plugins**, select one of the following options to use plugins offline:
-
-* **Katalon Store and Local**: Katalon Studio will install plugins from Store and the Plugins folder of each project.
-* **Local**: Katalon Studio will install plugins from the Plugins folder only.
-
-5. Click **Reload Plugins**
+> **Notes**: To install plugins offline, see [Offline Plugin Installation](https://docs.katalon.com/katalon-studio/docs/install-plugin-offline.html)
 
 ## Use Plugins in Console Mode
 
