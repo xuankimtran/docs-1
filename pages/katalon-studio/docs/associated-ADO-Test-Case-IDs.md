@@ -1,5 +1,5 @@
 ---
-title: "Enhance Data-driven Testing Report in Azure DevOps (PoC)"
+title: "Enhance Data-driven Testing Report in Azure Test Plans (PoC)"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/enhance-ddt-report-in-ado.html
 ---
@@ -9,15 +9,15 @@ permalink: katalon-studio/docs/enhance-ddt-report-in-ado.html
 > * This Proof of Concept (PoC) is not ready for production use. We recommend using this PoC for evaluation purposes only.
 > * Download Katalon Studio version [8.1.1.alpha](https://github.com/katalon-studio/katalon-studio/releases/tag/v8.1.1.alpha).
 
-Katalon Studio provides the Data-Driven Testing method for test cases and supports test IDs mapping at test cases level in Azure DevOps (ADO). See [Integration with Azure DevOps Test Plans](https://docs.katalon.com/katalon-studio/docs/azure-devops-test-plans.html).
+In Katalon Studio, you can enable an integration with Azure DevOps (ADO) to allow test runs and test results automatically being submitted to ADO. See [Integration with Azure DevOps Test Plans](https://docs.katalon.com/katalon-studio/docs/azure-devops-test-plans.html).
 
-Katalon Studio also supports submitting test results that include test iterations to ADO. However, running Data-Driven Test generates lots of results, especially when you run it with a large test data file. In that case, you might want to do the test ID mapping from the test data file to ADO so that you can quickly identify false lines in your test data.
-
-In this PoC, you can parameterize the test case variable in the ADO test case ID with the syntax `ado_id` and execute a test suite containing associated test cases. Each Katalon Studio iteration is now mapped to an ADO test case.
+However, running a test in Katalon Studio can generate lots of results when you use the Data-driven Testing method. In that case, you might want to quickly identify data rows related to false test iterations.
 
 > **What is an iteration?**
 >
 > A test case executes with a test data row is considered an iteration.
+
+In this PoC, we enhance the Data-driven Testing Report in ADO by support you to parameterize associated ADO test case IDs in Katalon Studio.
 
 ## Azure DevOps Test Case IDs Parameter
 
@@ -81,7 +81,7 @@ View test case ID on its URL.
 
 3. In **ADO Test Case ID List**, call the variable with the syntax `${ado_id}`.
 
-    * You can map one test case ID in Katalon Studio with many test case IDs on ADO, for example, `${ado_id},123456` or `${ado_id}, ${ado_id_1}`.
+    * You can map one test case ID in Katalon Studio with many test case IDs on ADO, IDs are separated by commas. For example, `${ado_id},123456` or `${ado_id}, ${ado_id_1}`.
     * Duplicate test case IDs will be used one time only.
 
 		<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/associated-ADO-TC-IDs/ks-ddt-ado-data.png" alt="test data" width=50%>
