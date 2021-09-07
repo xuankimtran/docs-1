@@ -20,7 +20,7 @@ Go to the Visual Studio Market Place, download and install the free extension of
 
 The Azure DevOps extension was tested on Ubuntu 16.0.4 and Ubuntu 18.04. For continuous integration using this version, we recommend our sample scripts on Github: [Azure DevOps sample script](https://github.com/katalon-studio-samples/azure-devops-extension-samples/blob/master/azure-pipelines.yml).
 
-### For Window
+### For Windows
 
 To run UI tests on Azure Pipelines, you might need to adjust the screen resolution (See Microsoft documentation on [Setting screen resolution](https://docs.microsoft.com/en-us/azure/devops/pipelines/test/ui-testing-considerations?view=azure-devops&tabs=mstest#setting-screen-resolution)). You can also install the [Screen Resolution Utility](https://marketplace.visualstudio.com/items?itemName=ms-autotest.screen-resolution-utility-task#overview) extension from the Visual Studio Marketplace. See our Github example on how to run a Katalon Studio test: [Azure DevOps Usage example](https://github.com/duyluonganh/kat-download-file/blob/master/azure-pipelines.yml).
 
