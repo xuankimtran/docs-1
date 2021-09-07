@@ -60,7 +60,7 @@ description:
 <p><span style="font-weight: 400;">$40 per 1,000</span></p>
 </td>
 <td style="text-align: center;">
-<p><span style="font-weight: 400;">$100 per 1,000</span></p>
+<p><span style="font-weight: 400;">Contact Sales</span></p>
 </td>
 </tr>
 <tr>
