@@ -1171,7 +1171,7 @@ items:
         tree:
           - title: "Dependencies Management with Native Gradle Support"
             url: /katalon-studio/docs/dependencies-management-gradle-support.html
-          - title: "Enhance Data-driven Testing Report in Azure DevOps (PoC)"
+          - title: "Parameterize Associated Test Case IDs in Azure Test Plans (PoC)"
             url: /katalon-studio/docs/enhance-ddt-report-in-ado.html  
       - title: "Javadoc"
         url: /katalon-studio/docs/javadoc.html
