@@ -1,10 +1,14 @@
 items:
   - title: "Products and Licenses"
     tree:
+      - title: "Overview"
+        tree:
+          - title: "Katalon Products"
+            url: /katalon-studio/docs/product.html
+          - title: "Type of Licenses"
+            url: /katalon-studio/docs/license.html
       - title: "Katalon Studio Enterprise"
         tree:
-          - title: "Katalon Products and Licensing"
-            url: /katalon-studio/docs/license.html
           - title: "Katalon Trial and Free Plans"
             url: /katalon-studio/docs/trial-free-plans.html
           - title: "Online and Offline Licenses"
