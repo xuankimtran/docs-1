@@ -1,20 +1,10 @@
 items:
   - title: "Products and Licenses"
     tree:
-      - title: "Overview"
-        tree:
-          - title: "Katalon Products"
-            url: /katalon-studio/docs/product.html
-          - title: "Type of Licenses"
-            url: /katalon-studio/docs/license.html
       - title: "Katalon Studio Enterprise"
         tree:
           - title: "Katalon Trial and Free Plans"
             url: /katalon-studio/docs/trial-free-plans.html
-          - title: "Online and Offline Licenses"
-            url: /katalon-studio/docs/online-offline-licenses.html
-          - title: "On-Premises License Server"  
-            url: /katalon-studio/docs/license-server.html
           - title: "Subscribe to Katalon licenses"
             tree:
               - title: "Katalon License Subscription"
@@ -65,6 +55,10 @@ items:
                 url: /katalon-analytics/docs/cancel-subscriptions.html
       - title: "License Administration"
         tree:
+          - title: "Type of Licenses"
+            url: /katalon-studio/docs/license.html
+          - title: "On-Premises License Server"  
+            url: /katalon-studio/docs/license-server.html
           - title: "Manage Katalon Licenses"
             url: /katalon-studio/docs/license-management.html
           - title: "Grant Online Licenses"
