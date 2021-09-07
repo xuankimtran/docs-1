@@ -28,7 +28,7 @@ The following features are available for users of a Katalon Studio On-Premises L
 
 ## System requirements
 
-<table><thead><tr><th>&nbsp;</th><th>Requirements</th></tr></thead><tbody><tr><th>Operating System</th><td>MacOS, Windows, Linux (Ubuntu based)</td></tr><tr><th>CPU</th><td>Minimum 4</td></tr><tr><th>Memory</th><td><p</p><p>Minimum 8 GB RAM (64-bit)</p><p><em.</p><p></p><p><em</p><p><em></p></td></tr><tr><th>Hard Drive</th><td>At least 40 GB available hard disk space.</td></tr></tbody></table>
+<table><thead><tr><th>&nbsp;</th><th>Requirements</th></tr></thead><tbody><tr><th>Operating System</th><td>MacOS, Windows, Linux (Ubuntu based)</td></tr><tr><th>CPU</th><td>Minimum 4</td></tr><tr><th>Memory</th><td><p</p><p>Minimum 8 GB</p><p><em.</p><p></p><p><em</p><p><em></p></td></tr><tr><th>Hard Drive</th><td>At least 40 GB available hard disk space.</td></tr></tbody></table>
 
 > Notice:
 >
