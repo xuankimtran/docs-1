@@ -16,30 +16,34 @@ redirect_from:
     - "/katalon-studio/docs/webdriver-event-listeners.html"
     - "/katalon-studio/docs/automatically-update-webdriver.html"
 ---
-To execute web tests successfully, make sure the version of browsers is equal to the version of browser drivers. In case the versions are different, try to upgrade or downgrade one of them to be similar. Learn more about [Common exceptions in Katalon Studio](https://docs.katalon.com/katalon-studio/docs/troubleshoot-common-execution-exceptions-web-test.html).
+
+Make sure your browser version is equal to your browser driver version. In case the versions are different, you can upgrade or downgrade one of them so that they match.
+
 >
-> Starting from **Katalon Studio version 7.0.0**, you can terminate WebDriver processes or update WebDrivers including Chrome, Firefox and Internet Explorer Drivers.
+> Starting from **Katalon Studio version 7.0.0**, you can terminate WebDriver processes or update WebDrivers. This feature supports Chrome, Firefox and Internet Explorer. 
 >
 >
 ## Terminate WebDriver processes
 
-From the main toolbar, select **Tools > Web > Terminate running WebDrivers** > a pop-up message appears when WebDrivers successfully terminates.
+From the main toolbar, select **Tools > Web > Terminate running WebDrivers**. A pop-up message appears when WebDrivers successfully terminate.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/handle-webdrivers/Terminate-Webdrivers.png" alt="terminate-webdriver-processes" width=70%>
 
 ## Update a Webdriver
-You can update a Webdriver directly from Katalon Studio applications.
-From the main toolbar, select **Tools > Update WebDrivers > Select a browser in the dropdown list.**
+You can update a Webdriver directly from Katalon Studio.
+From the main toolbar, select **Tools > Update WebDrivers**. Select a browser in the dropdown list.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/handle-webdrivers/Update-Webdrivers.png" alt="update-webdriver-automatically" width=70%>
 
-> In the console mode, you can use this command argument, `--config -webui.autoUpdateDrivers=true`, to allow WebDriver binaries to be updated automatically. Learn more about [Console Mode Execution](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html).
+Alternatively, you can use this command argument  `--config -webui.autoUpdateDrivers=true` in console mode to allow automatic WebDriver updates. These kinds of console mode commands are useful for advanced users, who typically require less hand holding.
+Learn more about [Console Mode Execution](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html).
 ## Replace a Webdriver
 
-In case you wish to upgrade or downgrade Selenium library or Webdriver binaries to suit your test's purposes, you can do this by replacing WebDrivers. You can replace WebDriver binaries at either application-level or project-level.
+To upgrade or downgrade your Selenium library or WebDriver binaries, you can replace WebDrivers manually. You can choose to do so at the application or project level.
 
 Do as follows:
-- Download the WebDriver version you want to run your test on.
+
+1. Find the WebDriver version you want to run your test with. You can find them here:
 
 >
 > Versions of browser drivers:
@@ -49,12 +53,14 @@ Do as follows:
 > - [Microsoft Edge](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/)
 >
 
-- To replace Selenium library, go to:
+2. Find the location of the WebDrivers you want to replace. Replace the `driver.exe` file with the one you have downloaded.
+  
+- For location of the Selenium Library, go to: 
 
 * Windows: `<Katalon Studio folder>\configuration\resources\lib\selenium-server-standalone-3.x.jar`
 * macOS: `/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/lib/selenium-server-standalone-3.x.jar`
 
-- To replace WebDriver binaries at the application level, go to:
+- At the application level, WebDriver binaries are stored here:
 
 For **Window** users:
 
@@ -98,7 +104,7 @@ For **macOS** users:
 
 - `/Applications/Katalon Studio.app/Contents/Eclipse/configuration\resources\drivers\edgechromium_mac`
 
-- To replace WebDriver binaries at the project level, go to **Include** directory inside the project and follow the below paths:
+- At the project level, find your project folder, go to **Include** directory inside the project and follow the below paths:
 
 For **Window** users:
 
@@ -145,20 +151,19 @@ For **Linux** user:
 - `Include/drivers/geckodriver_linux32/geckodriver`
 - `Include/drivers/geckodriver_linux64/geckodriver`
 
-- Replace the `driver.exe` file with the downloaded `driver.exe` file. 
 
 >**Re-run the tests**
 >
 > After updating or downgrading WebDrivers, to make sure the current version of the browser driver is running smoothly, it is advisable to try **re-running the test** to resolve and check any pop-up issues.
 ## Use DriverFactory library
 
-Katalon Studio introduces DriverFactory to manipulate WebDriver instances by using Katalon keywords. Learn more about [DriverFactory](https://docs.katalon.com/katalon-studio/docs/using_selenium_webdriver_katalon_studio.html#driverfactory).
+Katalon Studio also offers DriverFactory library to manipulate WebDriver instances by using Katalon keywords. Learn more about [DriverFactory](https://docs.katalon.com/katalon-studio/docs/using_selenium_webdriver_katalon_studio.html#driverfactory).
 
 ## Use WebDriver Event Listeners
 
 > Starting in **Katalon Studio version 7.0.0**, the Katalon Studio's WebDriver extends the EventFiringWebDriver. Learn more about [EventFiringWebDriver](https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/support/events/EventFiringWebDriver.html).
 
-You can use [WebDriverEventListener](https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/support/events/WebDriverEventListener.html) to handle events started by the WebDriver, which happens before or after navigation, before or after a click, etc. 
+You can use [WebDriverEventListener](https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/support/events/WebDriverEventListener.html) to handle events started by the WebDriver, which happens for example, before or after navigation, before or after a click. 
 
 Below is an example of how to add your custom `WebDriverEventListener` method:
 
