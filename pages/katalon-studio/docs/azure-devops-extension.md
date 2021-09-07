@@ -14,14 +14,15 @@ This step-by-step guide shows you how to install and run Katalon with Azure DevO
 
 ## Install Azure DevOps Extension
 
+Go to the Visual Studio Market Place, download and install the free extension of [Katalon for Azure DevOps](https://marketplace.visualstudio.com/items?itemName=katalon-llc.katalon&ssr=false#overview).
+
 ### For Linux
 
-The Azure DevOps extension is available on Linux. This extension was tested on Ubuntu 16.0.4 and Ubuntu 18.04. For continuous integration using this version, we recommend our sample scripts on Github: [Azure DevOps sample script](https://github.com/katalon-studio-samples/azure-devops-extension-samples/blob/master/azure-pipelines.yml).
+The Azure DevOps extension was tested on Ubuntu 16.0.4 and Ubuntu 18.04. For continuous integration using this version, we recommend our sample scripts on Github: [Azure DevOps sample script](https://github.com/katalon-studio-samples/azure-devops-extension-samples/blob/master/azure-pipelines.yml).
 
-### For Window and macOS
+### For Window
 
-* Go to the Visual Studio Market Place, download and install the free extension of [Katalon for Azure DevOps](https://marketplace.visualstudio.com/items?itemName=katalon-llc.katalon&ssr=false#overview).
-* To run UI tests on Azure Pipelines, you might need to adjust the screen resolution (See Microsoft documentation on [Setting screen resolution](https://docs.microsoft.com/en-us/azure/devops/pipelines/test/ui-testing-considerations?view=azure-devops&tabs=mstest#setting-screen-resolution)). You can also install the [Screen Resolution Utility](https://marketplace.visualstudio.com/items?itemName=ms-autotest.screen-resolution-utility-task#overview) extension from the Visual Studio Marketplace. See our Github example on how to run a Katalon Studio test: [Azure DevOps Usage example](https://github.com/duyluonganh/kat-download-file/blob/master/azure-pipelines.yml).
+To run UI tests on Azure Pipelines, you might need to adjust the screen resolution (See Microsoft documentation on [Setting screen resolution](https://docs.microsoft.com/en-us/azure/devops/pipelines/test/ui-testing-considerations?view=azure-devops&tabs=mstest#setting-screen-resolution)). You can also install the [Screen Resolution Utility](https://marketplace.visualstudio.com/items?itemName=ms-autotest.screen-resolution-utility-task#overview) extension from the Visual Studio Marketplace. See our Github example on how to run a Katalon Studio test: [Azure DevOps Usage example](https://github.com/duyluonganh/kat-download-file/blob/master/azure-pipelines.yml).
 
 ## Configure the Execute Katalon Studio Tests
 
