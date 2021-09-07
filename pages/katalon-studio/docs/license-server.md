@@ -28,7 +28,7 @@ The following features are available for users of a Katalon Studio On-Premises L
 
 ## System requirements
 
-<table><thead><tr><th>&nbsp;</th><th>Requirements</th></tr></thead><tbody><tr><th>Operating System</th><td>MacOS, Windows, Linux (Ubuntu based)</td></tr><tr><th>CPU</th><td>Minimum 2 GHz or faster 32-bit (x86) or 64-bit (x64) processor</td></tr><tr><th>Memory</th><td><p</p><p>Minimum 8 GB RAM (64-bit)</p><p><em.</p><p></p><p><em</p><p><em></p></td></tr><tr><th>Hard Drive</th><td>At least 40 GB available hard disk space.</td></tr></tbody></table>
+<table><thead><tr><th>&nbsp;</th><th>Requirements</th></tr></thead><tbody><tr><th>Operating System</th><td>MacOS, Windows, Linux (Ubuntu based)</td></tr><tr><th>CPU</th><td>Minimum 4</td></tr><tr><th>Memory</th><td><p</p><p>Minimum 8 GB RAM (64-bit)</p><p><em.</p><p></p><p><em</p><p><em></p></td></tr><tr><th>Hard Drive</th><td>At least 40 GB available hard disk space.</td></tr></tbody></table>
 
 > Notice:
 >
@@ -38,22 +38,6 @@ The following features are available for users of a Katalon Studio On-Premises L
 
 * To install Docker for Windows, see [Install Docker Desktop for Windows](https://docs.docker.com/desktop/windows/install/) (Hyper-V should be enabled).
 * To install Docker for MacOS, see [Install Docker Desktop for Mac](https://docs.docker.com/desktop/mac/install/).
-
-<table style="width: 200.71875px;">
-<tbody>
-<tr>
-<td style="width: 155.71875px;" colspan="2">System requirements</td>
-</tr>
-<tr>
-<td style="width: 70px;">CPU</td>
-<td style="width: 85.71875px;">Minimum 4</td>
-</tr>
-<tr>
-<td style="width: 70px;">Memory</td>
-<td style="width: 85.71875px;">Minimum 8 GB</td>
-</tr>
-</tbody>
-</table>
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-license-server/docker-resources.png" width=80% alt="docker resources">
 
