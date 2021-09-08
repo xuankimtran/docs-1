@@ -2,6 +2,10 @@
 title: "Grant Katalon Licenses"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/use-online-license.html
+redirect_from:
+  - "/katalon-studio/docs/online-offline-licenses.html"
+  - "/katalon-studio/docs/re-offline-licenses.html"
+  - "/katalon-studio/docs/how-to-create-kse-offline-license.html"
 description:
 ---
 
