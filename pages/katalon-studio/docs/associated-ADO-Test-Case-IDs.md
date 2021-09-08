@@ -9,10 +9,9 @@ permalink: katalon-studio/docs/parameterize-ado-test-case-id.html
 > * This Proof of Concept (PoC) is not ready for production use. We recommend using this PoC for evaluation purposes only.
 > * Download Katalon Studio version [8.1.1.alpha](https://github.com/katalon-studio/katalon-studio/releases/tag/v8.1.1.alpha).
 
-From version 8.0.0, you can natively integrate with Azure DevOps (ADO) to map ADO test cases to test cases in Katalon Studio, and 
-automatically submit test runs with results to ADO.
+From version 8.0.0, you can natively integrate with Azure DevOps (ADO) to map ADO test cases to test cases in Katalon Studio, and automatically submit test runs with results to ADO.
 
-However, running a test can generate lots of results when you use the Data-driven Testing method. In this PoC, we provide a solution to set custom test iteration IDs, so that test iterations in Katalon Studio are automatically mapped to the related ADO test cases.
+In fact, running a test can generate lots of results when you use the Data-driven Testing method. In this PoC, we provide a solution to set custom test iteration IDs, so that test iterations in Katalon Studio are automatically mapped to the related ADO test cases.
 
 > **What is an iteration?**
 >
