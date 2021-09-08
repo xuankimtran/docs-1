@@ -11,6 +11,114 @@ This section provides information on the licensing system of Katalon. You will f
 
 ## Katalon Studio Enterprise
 
+Katalon Studio is free with basic tool suitable for individuals. For an advanced solution for business, consider purchase Katalon Studio Enterprise. Bellow is a feature comparison between KS and KSE:
+
+<table>
+	<tbody>
+		<tr>
+			<td>
+				<p><strong>Feature</strong></p>
+			</td>
+			<td>
+				<p><strong>Katalon Studio</strong></p>
+			</td>
+			<td>
+				<p><strong>Katalon Studio Enterprise</strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>Test generation and execution</p>
+				<br /><br /><br /></td>
+			<td>
+				<p><a href="https://docs.katalon.com/katalon-studio/docs/webui-smartwait.html">Smart Wait</a></p>
+			</td>
+			<td>
+				<ul>
+					<li><a href="https://docs.katalon.com/katalon-studio/docs/webui-smartwait.html">Smart Wait</a></li>
+					<li><a href="https://docs.katalon.com/katalon-studio/docs/self-healing.html">Self-healing</a></li>
+					<li><a href="https://docs.katalon.com/katalon-studio/docs/web-image-based-object-recognition.html">Image-based Object Detection</a></li>
+					<li><a href="https://docs.katalon.com/katalon-studio/docs/create_first_api_test_katalon_studio.html#create-custom-apiweb-service-methods">Custom Method to API</a></li>
+					<li><a href="https://docs.katalon.com/katalon-studio/docs/windows-native-record.html">Native Windows Recorder</a></li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>Data-driven Testing</p>
+				<br /><br /></td>
+			<td>
+				<p>Excel, CSV, PostgreSQL, MySQL</p>
+			</td>
+			<td>
+				<ul>
+					<li>Excel, CSV, PostgreSQL, MySQL</li>
+					<li>Oracle SQL, SQL Server</li>
+					<li>Combination of Multiple Data Sources</li>
+					<li>Check Points</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>Report&nbsp;</p>
+			</td>
+			<td>
+				<p>Not available</p>
+			</td>
+			<td>
+				<ul>
+					<li><a href="https://docs.katalon.com/katalon-studio/docs/test-suite-report.html#test-suite-collection-report">Test Suite Collection Reports (JUnit)</a></li>
+					<li><a href="https://docs.katalon.com/katalon-studio/docs/test-suite-report.html#report-history">Report History</a></li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>Test Design</p>
+			</td>
+			<td>
+				<p><a href="https://docs.katalon.com/katalon-studio/docs/custom-keywords-refactor.html">Custom Keywords Refactoring</a></p>
+			</td>
+			<td>
+				<ul>
+					<li><a href="https://docs.katalon.com/katalon-studio/docs/custom-keywords-refactor.html">Custom Keywords Refactoring</a></li>
+					<li><a href="https://docs.katalon.com/katalon-studio/docs/test-objects-refactoring.html">Test Objects Refactoring</a></li>
+					<li><a href="https://docs.katalon.com/katalon-studio/docs/import-export-test-artifact.html">Test Artifacts Sharing</a></li>
+					<li><a href="https://docs.katalon.com/katalon-studio/docs/basic-search-for-dynamic-querying-test-suite.html">Dynamic Test Suite</a></li>
+					<li><a href="https://docs.katalon.com/katalon-studio/docs/working-with-execution-log.html#customize-console-log">Console Log Customization</a></li>
+					<li><a href="https://docs.katalon.com/katalon-studio/docs/execute-a-test-case-or-a-test-suite.html#debug-a-test-case">Debugging Mode</a></li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>Utilities&nbsp;</p>
+			</td>
+			<td>
+				<p>Not available</p>
+			</td>
+			<td>
+				<ul>
+					<li><a href="https://docs.katalon.com/katalon-studio/docs/activate-KSE.html#offline-activation">Offline Activation</a></li>
+					<li><a href="https://docs.katalon.com/katalon-store/docs/publisher/how-to-develop-custom-keywords-plugins.html">Custom Plugins</a></li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>Product Support</p>
+			</td>
+			<td>
+				<p>Community Support</p>
+			</td>
+			<td>
+				<p>Enterprise Support</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
 KSE license is named license, meaning:
 
 * One license is exclusively assigned to one Katalon account/user.
@@ -23,6 +131,41 @@ KSE license is named license, meaning:
 KRE license can be a node-locked or Floating license. When running from the command-line interface (CLI), one working session accounting for one license equals to a conducted process. Learn more about the use cases of [KRE](https://docs.katalon.com/katalon-studio/docs/intro-RE.html).
 
 ## License types
+
+There are two types of license for KSE and KRE: node-locked and floating. 
+
+<table>
+	<tbody>
+		<tr>
+			<td><strong>Node-locked license</strong></td>
+			<td><strong>Floating license</strong></td>
+		</tr>
+		<tr>
+			<td>
+				<p>One license is assigned to one machine ID.</p>
+			</td>
+			<td>One license is assigned to one execution session and can be shared across 3 machines.</td>
+		</tr>
+		<tr>
+			<td>
+				<p>Licenses are transferable</p>
+			</td>
+			<td>&nbsp;Applies to all types of execution environments.</td>
+		</tr>
+		<tr>
+			<td>
+				<p>Online subscription available.</p>
+			</td>
+			<td>Online subscription available.</td>
+		</tr>
+		<tr>
+			<td>
+				<p>Offline licenses can be generated from online node-locked licenses.</p>
+			</td>
+			<td>Offline licenses is available for on-premises licensing server only. For more information, <a href="https://www.katalon.com/book-a-demo/">contact sales</a>.</td>
+		</tr>
+	</tbody>
+</table>
 
 ### Node-Locked License
 
