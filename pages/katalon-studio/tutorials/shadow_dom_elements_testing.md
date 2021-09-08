@@ -9,16 +9,16 @@ description: "What is Shadow DOM? This article will show you how Katalon Studio 
 What is Shadow DOM?
 -------------------
 
-[Shadow DOM](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Shadow_DOM) is a technique to help web developers to better encapsulate their code. Shadow DOM works by allowing DOM elements to contain child node and CSS. Shadow DOM also keeps child node and CSS separate from the DOM of the main document. DOM subtree has a root node (Shadow Root) which is unaffected by any modification made to other elements.
+Shadow DOM is a technique to help web developers to better encapsulate their code. Shadow DOM works by allowing DOM elements to contain child node and CSS. Shadow DOM also keeps child node and CSS separate from the DOM of the main document. DOM subtree has a root node (Shadow Root) which is unaffected by any modification made to other elements. To learn more about the usage of shadow DOM, go to [Using shadow DOM](https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM)
 
 Although shadow DOM is a useful solution for Web developers, it becomes a challenge for automation testing because those elements inside a shadow root technically do not exist in the main document DOM. Therefore, test automation frameworks that use the DOM query function would not work properly.
 
-In this article, we will take a look at how [Katalon Studio](https://www.katalon.com/) solves the problem and let you test shadow DOM elements in a straightforward way. We will use Chrome as the main browser for testing this feature as Chrome version 53 or later fully supports shadow DOM.
+In this article, we will take a look at how Katalon Studio solves the problem and let you test shadow DOM elements in a straightforward way. We use Chrome as the main browser for testing this feature as Chrome version 53 or later fully supports shadow DOM.
 
 A shadow DOM demo site
 ----------------------
 
-We're going to use the demo site JavaScript Books [http://www.kaidez.com/samples/template-shadowdom-practice/](http://www.kaidez.com/samples/template-shadowdom-practice/).
+We're going to use the demo site [Books](https://books-pwakit.appspot.com/explore?q=) .
 
 All the books in this demo website are comprised of elements that are contained within a shadow root. You can validate this by inspecting a book element (right click on a book element and select Inspect to open the Chrome Developer tools).
 
