@@ -4,7 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/associated-test-case-ids-ado.html
 ---
 
-> Important:
+> **Important**
 >
 > * This Proof of Concept (PoC) is not ready for production use. We recommend using this PoC for evaluation purposes only.
 > * Download Katalon Studio version [8.1.1.alpha](https://github.com/katalon-studio/katalon-studio/releases/tag/v8.1.1.alpha).
@@ -17,7 +17,7 @@ However, running a test can generate lots of results when you use the Data-drive
 >
 > An iteration is a test case executed with a test data row.
 
-> Requirements:
+> **Requirements**
 >
 > * An active Katalon Studio Enterprise license.
 > * Azure Test Plans already configured.
@@ -67,13 +67,13 @@ Use the `ado_id` variable to set the test case variable parameter in the **ADO t
 </tbody>
 </table>
 
-**In Azure Test Plans**:
+**In Azure Test Plans**
 
 You can view your test case IDs in Azure Test Plan.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/associated-ADO-TC-IDs/test-case-ids.png" alt="ado ID" width=90%>
 
-**In Katalon Studio**:
+**In Katalon Studio**
 
 1. Open your desired test case.
 
@@ -106,4 +106,4 @@ You can view your test case IDs in Azure Test Plan.
 
 	In Azure Test Plan, you can find a report with a list of test iterations.
 
-	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/associated-ADO-TC-IDs/report%20in%20ADO.png" alt="report in ADO" width=100%>
+	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/associated-ADO-TC-IDs/event-log-ado.png" alt="report in ADO" width=100%>
