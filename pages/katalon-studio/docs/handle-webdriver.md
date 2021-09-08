@@ -62,7 +62,7 @@ Do as follows:
 
 - At the application level, WebDriver binaries are stored here:
 
-<details><summary> For Window users:</summary>
+<details><summary> For Window users</summary>
 
 **Chrome**
 
@@ -93,7 +93,7 @@ You can use 32-bit Windows Chromedriver for both 32-bit and 64-bit Windows.
 </details>
 
 
-<details><summary> For macOS users:</summary>
+<details><summary> For macOS users</summary>
 
 
 **Chrome**
@@ -109,7 +109,7 @@ You can use 32-bit Windows Chromedriver for both 32-bit and 64-bit Windows.
 - `/Applications/Katalon Studio.app/Contents/Eclipse/configuration\resources\drivers\edgechromium_mac`
 
 </details>
-
+<p>&nbsp;</p>
 
 - At the project level, go to **\Project Folder\Include** on your computer and follow the below paths:
 
@@ -118,7 +118,7 @@ You can use 32-bit Windows Chromedriver for both 32-bit and 64-bit Windows.
 > After replacing WebDrivers at project level, restart Katalon Studio to run new WebDrivers.
 > 
 
-<details><summary> For Window users:</summary>
+<details><summary> For Window users</summary>
 
 **Chrome**
 - `Include/drivers/chromedriver_win32/chromedriver.exe`
@@ -142,7 +142,7 @@ You can use 32-bit Windows Chromedriver for both 32-bit and 64-bit Windows.
 
 </details>
 
-<details><summary> For macOS users:</summary>
+<details><summary> For macOS users</summary>
 
 **Chrome**
 - `Include/drivers/chromedriver_mac64/chromedriver`
@@ -156,7 +156,7 @@ You can use 32-bit Windows Chromedriver for both 32-bit and 64-bit Windows.
 
 </details>
 
-<details><summary> For Linux users:</summary>
+<details><summary> For Linux users</summary>
 
 **Chrome**
 - `Include/drivers/chromedriver_linux32/chromedriver`
@@ -168,6 +168,8 @@ You can use 32-bit Windows Chromedriver for both 32-bit and 64-bit Windows.
 - `Include/drivers/geckodriver_linux64/geckodriver`
 
 </details>
+
+<p>&nbsp;</p>
 
 3. After finding the correct location, replace the `driver.exe` file with the one you have downloaded.
    
