@@ -100,10 +100,10 @@ You can view your test case IDs in Azure Test Plan.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/associated-ADO-TC-IDs/ks-ddt-ado-binding.png" alt="conduct data binding" width=100%>
 
-3. When you are done with the configuration, hit **Run** to execute your test suite. Once the test suite finished executing, you can view your test results in ADO. Each test iteration in Katalon Studio is automatically mapped to related ADO test cases. Invalid ADO test case IDs is showed in Katalon Studio **Event Log**.
+3. When you are done with the configuration, hit **Run** to execute your test suite. Once the test suite finished executing, you can view your test results in ADO. Each test iteration in Katalon Studio is automatically mapped to related ADO test cases. Invalid ADO test case IDs are showed in Katalon Studio **Event Log**.
 
-	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/associated-ADO-TC-IDs/event-log.png" alt="event log" width=100%>
+	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/associated-ADO-TC-IDs/event-log-ado.png" alt="event log" width=100%>
 
 	In Azure Test Plan, you can find a report with a list of test iterations.
 
-	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/associated-ADO-TC-IDs/event-log-ado.png" alt="report in ADO" width=100%>
+	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/associated-ADO-TC-IDs/report%20in%20ADO.png" alt="report in ADO" width=100%>
