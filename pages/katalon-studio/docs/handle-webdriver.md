@@ -62,7 +62,7 @@ Do as follows:
 
 - At the application level, WebDriver binaries are stored here:
 
-For **Window** users:
+<details><summary> For Window users:</summary>
 
 **Chrome**
 
@@ -90,7 +90,11 @@ You can use 32-bit Windows Chromedriver for both 32-bit and 64-bit Windows.
 - `<Katalon Studio folder>\configuration\resources\drivers\edgechromium_win32`
 - `<Katalon Studio folder>\configuration\resources\drivers\edgechromium_win64`
 
-For **macOS** users:
+</details>
+
+
+<details><summary> For macOS users:</summary>
+
 
 **Chrome**
 
@@ -104,14 +108,17 @@ For **macOS** users:
 
 - `/Applications/Katalon Studio.app/Contents/Eclipse/configuration\resources\drivers\edgechromium_mac`
 
-- At the project level, go to **Project Folder >Include** on your computer and follow the below paths:
+</details>
+
+
+- At the project level, go to **\Project Folder\Include** on your computer and follow the below paths:
 
 > **Note**
 > 
 > After replacing WebDrivers at project level, restart Katalon Studio to run new WebDrivers.
 > 
 
-For **Window** users:
+<details><summary> For Window users:</summary>
 
 **Chrome**
 - `Include/drivers/chromedriver_win32/chromedriver.exe`
@@ -133,7 +140,9 @@ For **Window** users:
 - `Include/drivers/edgechromiumdriver_win64/msedgedriver.exe`
 - `Include/drivers/edgechromiumdriver_win32/msedgedriver.exe`
 
-For **macOS** users:
+</details>
+
+<details><summary> For macOS users:</summary>
 
 **Chrome**
 - `Include/drivers/chromedriver_mac64/chromedriver`
@@ -145,7 +154,9 @@ For **macOS** users:
 
 - `Include/drivers/edgechromiumdriver_mac/msedgedriver`
 
-For **Linux** user:
+</details>
+
+<details><summary> For Linux users:</summary>
 
 **Chrome**
 - `Include/drivers/chromedriver_linux32/chromedriver`
@@ -156,6 +167,10 @@ For **Linux** user:
 - `Include/drivers/geckodriver_linux32/geckodriver`
 - `Include/drivers/geckodriver_linux64/geckodriver`
 
+</details>
+
+3. After finding the correct location, replace the `driver.exe` file with the one you have downloaded.
+   
 >**Re-run the tests**
 >
 > After updating or downgrading WebDrivers, to make sure the current version of the browser driver is running smoothly, it is advisable to try **re-running the test** to resolve and check any pop-up issues.
