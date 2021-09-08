@@ -39,7 +39,7 @@ Follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/license.png" width=100% alt="license page">
 
-2. Choose between KSE (Node-locked) or KSE (Floating).
+2. Choose between KSE (Node-locked) and KSE (Floating).
 
 3. Grant an online license to users by adding them in the **Licensed Users** section.
 
@@ -103,8 +103,85 @@ See also [Install Runtime Engine](https://docs.katalon.com/katalon-studio/docs/i
 
 ## Grant an offline license
 
+> Notes:
+>
+> You can only convert node-locked licenses which have a **yearly** billing cycle to offline licenses.
+>
+> A KSE/KRE license, once converted to an offline license, is bound to a machine until its expiry date (in **60 days**). You should generate an offline license with cautions as you cannot undo this action.
 
+This tutorial is for:
 
-### Use an offline license
+* The Owner/Admins of an Organization that has purchased KSE/KRE licenses.
+* Users who need offline licenses.
+
+### Step 1: Users view and send a machine ID to the Owner/Admins
+
+As an user, you need to copy the machine ID on which you use Katalon Studio, then send the machine ID to your Owner/Admins.
+
+Follow these steps:
+
+1. Download and open Katalon Studio.
+2. In the **Katalon Studio Enterprise Activation** log, click **Offline Activation** to view and copy the machine ID.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-offline-kse-licenses/view-machineid.png" width="494" height="" alt="kse activation log">
+
+3. Send the machine ID to the Owner/Admins.
+
+### Step 2: Owner/Admins create offline licenses and send them to Users
+
+As an Owner/Admin, you create an offline license by following these steps:
+
+1. Sign in to [Katalon TestOps](https://admin.katalon.com/).
+2. Go to **Settings** > **License Management**.
+3. Choose between KSE (Node-locked) and KRE (Node-locked).
+4. Click on the **Create Offline License** button at the top right corner.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-offline-kse-licenses/button.png" width="1424" height="" alt="create offline license button">
+
+5. Enter the User's machine ID, then click **Create**.
+
+    > Notes:
+    >
+    > You should check the machine ID and make sure you download and distribute offline licenses to the right users.
+
+6. Confirm your action.
+
+    For KSE, the newly-created offline license is named `KSE_<machineID>.lic` and added in the **Offline Licenses** section.
+
+    For KRE, the newly-created offline license is named `KRE_<machineID>.lic` and added in the **Offline Licenses** section.
+
+### Step 3: Users use offline licenses
+
+#### For Katalon Studio Enterprise
+
+As an user, you download the offline license and store it in your machine.
+
+1. In the **Katalon Studio Enterprise Activation** log, click **Offline Activation**.
+2. Browse the license file with the corresponding machine ID.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-offline-kse-licenses/activate.png" width="498" height="" alt="kse activation log">
+
+You now can use KSE in an offline environment.
+
+#### For Katalon Runtime Engine
+
+As an user, you can use the KRE offline license to execute KSE from the command-line interface and in the offline environment.
+
+* For **Execute a single session**, put an offline license file (named `KRE_<machineID>.lic`) in the **license** folder.
+* For **Execute multiple sessions in parallel**, put multiple offline license files in the **license** folder.
+
+Depending on your operating system, you can find the **license** folder as follows:
+
+* For Windows: **C:\Users\<user_name>\.katalon\license**.
+
+  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/activate-RE/license.png" width="" height="">
+
+* For Linux: **/home/<user_name>/.katalon/license**
+
+* For MacOS: **/Users/<user_name>/.katalon/license**
+
+  > Notes:
+  >
+  > **.katalon** is a hidden folder.
 
 
