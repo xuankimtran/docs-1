@@ -1,70 +1,110 @@
 ---
-title: "How to Grant Online Licenses"
+title: "Grant Katalon Licenses"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/use-online-license.html
 description:
 ---
 
-Before assigning a license, the organization Owner/Admin must [add the team member(s) to the organization in the Katalon Admin](https://docs.katalon.com/katalon-analytics/docs/user-management.html#user-related-permissions). Once added, the Admin can assign a Katalon license to any team member, or withdraw a license if no longer needed.
+## Online and offline licenses
 
-### Katalon Studio Enterprise
+An **online license** of Katalon Studio Enterprise (KSE) and Katalon Runtime Engine (KRE) is transferable among registered users of an organization as long as the number of active licenses does not exceed the license quota.
 
-1. In [[Katalon Admin](https://admin.katalon.com/), select your **Organization > Licenses**.
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/license.png" width="" height="">
-2. On **Katalon Studio Enterprise** view, register the on-demand users by adding them to the **Registered Users** list.
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/grant%20.png" width="" height="">
-   When the registered users activate Katalon Studio Enterprise, the machine IDs are added to the **Online Licenses** list in Katalon TestOps.
+An **offline license** allows you to use KSE and KRE without internet. Once you activate an offline license, you cannot revoke or transfer it to a different machine. An offline license expires at the end of your subscription period. It can also be expired earlier than its actual date if you make changes in the offline license file.
 
-   > The number of registered users cannot exceed the license quota.
+When an offline license expires, you can generate a new offline license file to continue using KSE/KRE offline, or you can switch to an online license instead.
 
-Learn about [how to create a Katalon Studio Enterprise offline license](https://docs.katalon.com/katalon-studio/docs/how-to-create-kse-offline-license.html).
+> Notes:
+>
+> You can only convert an annual node-locked license into an offline license.
 
-### Katalon Runtime Engine
+As a machine ID is required to create an offline license, Katalon generates a machine ID based on the hardware specifications and the user's account logging in to that machine at the generation time.
 
-Any members of an Organization can use the Katalon Runtime Engine online licenses that the Organization has purchased. [Learn about how to add a new user to your Organization.](https://docs.katalon.com/katalon-analytics/docs/user-management.html#invite-a-user-to-the-organization)
+For example, if User A logs in to Machine A, Katalon generates a machine ID X. At the same time, if User B logs in to Machine A, Katalon generates a machine ID Y. This means that you need two licenses to use KSE/KRE in this case.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/invite.png" width="" height="">
+## Grant an online license
 
-To avoid sessions termination or optimize license usage, the Organization Owner/Admins should remember the following rules:
+> Requirements:
+>
+> You must add team members to your Organization. See: [TestOps User Management](https://docs.katalon.com/katalon-analytics/docs/kt_invite_user_org.html#invite-a-user-to-join-an-organization).
+>
+> The Owner or Admin of an Organization can grant licenses to any team member. The Owner or Admin can also revoke this action anytime.
 
-* Each process accounts for one license.
-* The number of parallel processes conducted cannot exceed the license quota.
-* The number of registered machines cannot exceed the license quota.
-* Users need API Keys to activate an online RE license.
+### For Katalon Studio Enterprise
 
-All users of an organization can use RE online licenses as long as the total number of active online licenses does not exceed the license quota.
+Follow these steps:
 
-To run Katalon Studio or Katalon Studio Enterprise with Katalon Runtime Engine, you need to:
+1. Sign in to [Katalon TestOps](https://testops.katalon.io/login), then go to **Settings** > **License Management**.
 
-1. Log in to your Katalon account on Katalon Studio.
-2. In the command generator, generate a command with the auto-filled Katalon API Key and customized information. 
+    The **Licenses** page appears as below.
 
-   From **version 7.7 onwards**, if you belong to more than one Organization subscribing to RE licenses, you can choose which one to validate your license usage. Katalon retrieves and displays the organizations binding to your Katalon account and having RE licenses. Once selected, the Organization ID is passed to the generated command (`-orgID=<Katalon_OrgID>`).
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/license.png" width=100% alt="license page">
 
-3. Copy and paste the generated command into **Terminal** (for macOS/Linux) or **Command Prompt** (for Windows).
-4. Open the command prompt and navigate to the folder of Katalon Studio Engine: `katalonc.exe` (Windows), Applications folder (Mac OS), or `katalonc` (Linux) file.
+2. Choose between KSE (Node-locked) or KSE (Floating).
 
-    **macOS:**
+3. Grant an online license to users by adding them in the **Licensed Users** section.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/grant%20.png" width=100% alt="licensed user section">
+
+   Once the licensed users activate KSE, their machine IDs are added in the **Online Licenses** section.
+
+   > Notes:
+   >
+   > The number of licensed users cannot exceed the license quota.
+
+### For Katalon Runtime Engine
+
+All members of an Organization can use the KRE online licenses as long as the total number of active online licenses does not exceed the license quota.
+
+To optimize license usage and avoid session termination, the Owner and Admin must remember the following rules:
+
+* Each session accounts for one license.
+* The number of parallel sessions cannot exceed the license quota.
+* The number of registered machine IDs cannot exceed the license quota.
+* Users need [API Keys](https://docs.katalon.com/katalon-studio/docs/katalon-apikey-70.html) to activate a KRE online license.
+
+To run KSE using KRE, follow these steps:
+
+1. Open Katalon Studio and log in to your account.
+
+2. In the command generator, generate a command with the auto-filled Katalon API Key and customized information.
+
+    > Notes:
+    >
+    > From **version 7.7 onwards**, if you belong to more than one Organization purchasing KRE licenses, you can choose which organization to validate your license usage. Katalon retrieves and displays the organizations bound to your Katalon account. Once you have selected an Organization, you pass the Organization ID to the generated command (`-orgID=<Katalon_OrgID>`).
+
+3. Copy and paste the generated command into the Terminal (for MacOS/Linux) or Command Prompt (for Windows).
+
+4. Open the Terminal/Command Prompt and navigate to the Katalon Studio Engine folder `katalonc.exe` (for Windows), or Applications folder (for MacOS), or `katalonc` file (for Linux).
+
+    For example, for MacOS:
 
     ```groovy
     cd /Applications/Katalon\ Studio\ Engine.app/Contents/MacOS
     ```
 
-5. Enter the following syntax to execute automation test:
+5. Enter the following syntax to execute test automation:
 
-    For example: `katalonc -noSplash -runMode=console -consoleLog -noExit -projectPath="C:\Users\Katalon Studio\Project\YourProject.prj" -retry=0 -testSuitePath="Test Suites/TS_RegressionTest" -browserType="Chrome (headless)" -apiKey=abczxzxz -orgID=123xx`
+    `katalonc -noSplash -runMode=console -consoleLog -noExit -projectPath="C:\Users\Katalon Studio\Project\YourProject.prj" -retry=0 -testSuitePath="Test Suites/TS_RegressionTest" -browserType="Chrome (headless)" -apiKey=abczxzxz -orgID=123xx`
 
-    > [Katalon API Key](https://docs.katalon.com/katalon-analytics/docs/ka-api-key.html#create-an-api-key) is required for activating RE.
+    > Notes:
     >
-    > Please refer to [Command Syntax](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#katalon-studio-plugins-in-console-mode) for further instructions on working with RE.
+    > See [Command Syntax](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#katalon-studio-plugins-in-console-mode) for further instructions on working with KRE.
 
-For Enterprise users with a private network, you may encounter a situation where you fail to execute test scripts or integrate Katalon Studio due to the network security error. Please contact your IT team to whitelist the following domains:
+For an Enterprise user with a private network, you might encounter a situation where you fail to execute test scripts or integrate Katalon Studio due to the network security error. In such case, contact your IT team to whitelist the following domains:
 
 * store.katalon.com
 * update.katalon.com
 * analytics.katalon.com
 * testops.katalon.io
 * admin.katalon.com
-* katalon-test.s3-accelerate.amazonaws.com (used for uploading reports to [Katalon TestOps](https://analytics.katalon.com))
+* katalon-test.s3-accelerate.amazonaws.com (used for uploading reports to Katalon TestOps.
 
-Learn more about how to install and execute Katalon Runtime Engine [here](https://docs.katalon.com/katalon-studio/docs/install-RE.html).
+See also [Install Runtime Engine](https://docs.katalon.com/katalon-studio/docs/install-RE.html) for installing and executing KRE.
+
+## Grant an offline license
+
+
+
+### Use an offline license
+
+
