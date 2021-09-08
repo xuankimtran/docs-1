@@ -1,7 +1,7 @@
 ---
-title: "Set Associated Test Case IDs Parameter in Azure Test Plans (PoC)"
+title: "Parameterize Azure DevOps Test Case ID List (PoC)"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/associated-test-case-ids-ado.html
+permalink: katalon-studio/docs/parameterize-ado-test-case-id.html
 ---
 
 > **Important**
@@ -9,7 +9,8 @@ permalink: katalon-studio/docs/associated-test-case-ids-ado.html
 > * This Proof of Concept (PoC) is not ready for production use. We recommend using this PoC for evaluation purposes only.
 > * Download Katalon Studio version [8.1.1.alpha](https://github.com/katalon-studio/katalon-studio/releases/tag/v8.1.1.alpha).
 
-From version 8.0.0, you can enable integration with Azure DevOps (ADO) to allow test runs and test results to be automatically submitted to ADO. See [Integration with Azure DevOps Test Plans](https://docs.katalon.com/katalon-studio/docs/azure-devops-test-plans.html).
+From version 8.0.0, you can natively integrate with Azure DevOps (ADO) to map ADO test cases to automated test cases in Katalon Studio, and 
+automatically submit test runs with results to ADO.
 
 However, running a test can generate lots of results when you use the Data-driven Testing method. In this PoC, we provide a solution to set custom test iteration IDs, so that test iterations in Katalon Studio are automatically mapped to the related ADO test cases.
 
@@ -20,52 +21,12 @@ However, running a test can generate lots of results when you use the Data-drive
 > **Requirements**
 >
 > * An active Katalon Studio Enterprise license.
-> * Azure Test Plans already configured.
+> * Azure Test Plans is already configured.
+> * Azure DevOps integration is already enabled and configured. See [Integration with Azure DevOps Test Plans](https://docs.katalon.com/katalon-studio/docs/azure-devops-test-plans.html).
 
 ## Set Parameter
 
-Use the `ado_id` variable to set the test case variable parameter in the **ADO test case ID list**.
-
-<table data-number-column="false"><colgroup><col /><col /><col /><col /></colgroup>
-<tbody>
-	<tr>
-		<th colspan="1" rowspan="1" data-colwidth="170">
-			<div tabindex="0">
-				<p data-renderer-start-pos="2330"><strong data-renderer-mark="true">Variable</strong></p>
-			</div>
-		</th>
-		<th colspan="1" rowspan="1" data-colwidth="170">
-			<div tabindex="0">
-				<p data-renderer-start-pos="2342"><strong data-renderer-mark="true">Parameter  Type</strong></p>
-			</div>
-		</th>
-		<th colspan="1" rowspan="1" data-colwidth="170">
-			<div tabindex="0">
-				<p data-renderer-start-pos="2356"><strong data-renderer-mark="true">Mandatory</strong></p>
-			</div>
-		</th>
-		<th colspan="1" rowspan="1" data-colwidth="170">
-			<div tabindex="0">
-				<p data-renderer-start-pos="2369"><strong data-renderer-mark="true">Description</strong></p>
-			</div>
-		</th>
-	</tr>
-	<tr>
-		<td colspan="1" rowspan="1" data-colwidth="170">
-			<p data-renderer-start-pos="2386">ado_id</p>
-		</td>
-		<td colspan="1" rowspan="1" data-colwidth="170">
-			<p data-renderer-start-pos="2396">Number</p>
-		</td>
-		<td colspan="1" rowspan="1" data-colwidth="170">
-			<p data-renderer-start-pos="2406">Optional</p>
-		</td>
-		<td colspan="1" rowspan="1" data-colwidth="170">
-			<p data-renderer-start-pos="2418">List of ADO Test Case IDs</p>
-		</td>
-	</tr>
-</tbody>
-</table>
+In this step, we will guide you through adding and calling a test case variable in the **ADO test case ID list**.
 
 **In Azure Test Plans**
 
@@ -75,17 +36,19 @@ You can view your test case IDs in Azure Test Plan.
 
 **In Katalon Studio**
 
-1. Open your desired test case.
+1. Add a test case variable:
 
-2. To add the `ado_id` variable, switch to the **Variables** tab of your test case. Click **Add** to create a variable named `ado_id`. To learn more about variables, see [Test Case Variables](https://docs.katalon.com/katalon-studio/docs/test-case-variables.html).
+	Open your desired test case and switch to the **Variables** tab. To create a variable, click **Add**. For example, we create a number variable named `ado_id`. To learn more about variables, see [Test Case Variables](https://docs.katalon.com/katalon-studio/docs/test-case-variables.html).
 
 	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/associated-ADO-TC-IDs/number-ado_id.png" width=90%>
 
-3. To call the `ado_id` variable, switch to the **Integration** tab and select the **Azure** integration. In the **ADO Test Case ID list**, call the variable with the syntax `${ado_id}`.
+2. Call a variable in the ADO test case ID list:
+
+	Switch to the **Integration** tab and select the **Azure** integration. In the **ADO Test Case ID list**, call the variable with the syntax `${Your_variable_name}`, for example: `${ado_id}`.
 
 	You can map one test case ID in Katalon Studio with many test case IDs on ADO, IDs are separated by commas. Duplicated test case IDs will be used one time only.
 
-4. To check if the test case ID is valid, click **Verify**.
+	To check if the test case ID is valid, click **Verify**.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/associated-ADO-TC-IDs/verified.png" alt="verify" width=70%>
 
@@ -96,7 +59,7 @@ You can view your test case IDs in Azure Test Plan.
 2. To conduct **Data Binding**, in the test suite editor, click **Show Data Binding**.
 
 	In the **Test Data** table, you can add or check your test data files.
-	In the **Variable Binding** table, you can see your variable list with related test data files and values. See [Manage Data Binding](https://docs.katalon.com/katalon-studio/docs/run-test-case-external-data.html#manage-data-binding).
+	The **Variable Binding** table shows your variable list with related test data files and values. See [Manage Data Binding](https://docs.katalon.com/katalon-studio/docs/run-test-case-external-data.html#manage-data-binding).
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/associated-ADO-TC-IDs/ks-ddt-ado-binding.png" alt="conduct data binding" width=100%>
 
