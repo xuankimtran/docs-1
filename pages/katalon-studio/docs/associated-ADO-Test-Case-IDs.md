@@ -17,29 +17,15 @@ However, running a test can generate lots of results when you use the Data-drive
 >
 > An iteration is a test case executed with a test data row.
 
-## Set Parameter
-
 > Requirements:
 >
 > * Katalon Studio version 8.0.0 onwards.
 > * An active Katalon Studio Enterprise license.
 > * Azure Test Plans already configured.
 
-**In Azure Test Plans**:
+## Set Parameter
 
-You can view your test case IDs in Azure Test Plan.
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/associated-ADO-TC-IDs/test-case-ids.png" alt="ado ID" width=90%>
-
-**In Katalon Studio**:
-
-1. Open your desired test case. To learn more about the test data, see [create your Test Data](https://docs.katalon.com/katalon-studio/docs/manage-test-data.html).
-
-2. Use the `ado_id` variable to set the test case variable parameter in the **ADO test case ID list**.
-
-	To add the `ado_id` variable, switch to the **Variables** tab of your test case. Click **Add** and create a **Number** type variable names `ado_id`, with the **Default value** of your choice. Click **Save**. To learn more about variables, see [Test Case Variables](https://docs.katalon.com/katalon-studio/docs/test-case-variables.html).
-
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/associated-ADO-TC-IDs/add%20variable.png" width=90%>
+Use the `ado_id` variable to set the test case variable parameter in the **ADO test case ID list**.
 
 <table data-number-column="false"><colgroup><col /><col /><col /><col /></colgroup>
 <tbody>
@@ -82,6 +68,20 @@ You can view your test case IDs in Azure Test Plan.
 </tbody>
 </table>
 
+**In Azure Test Plans**:
+
+You can view your test case IDs in Azure Test Plan.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/associated-ADO-TC-IDs/test-case-ids.png" alt="ado ID" width=90%>
+
+**In Katalon Studio**:
+
+1. Open your desired test case.
+
+2. To add the `ado_id` variable, switch to the **Variables** tab of your test case. Click **Add** and create a variable named `ado_id`. To learn more about variables, see [Test Case Variables](https://docs.katalon.com/katalon-studio/docs/test-case-variables.html).
+
+	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/associated-ADO-TC-IDs/number-ado_id.png" width=90%>
+
 3. To call the `ado_id` variable, switch to the **Integration** tab and select the **Azure** integration. In the **ADO Test Case ID list**, call the variable with the syntax `${ado_id}`.
 
 	You can map one test case ID in Katalon Studio with many test case IDs on ADO, IDs are separated by commas. For example, `${ado_id},123456` or `${ado_id}, ${ado_id_1}`.
@@ -109,7 +109,7 @@ After you already set the associated Test Case IDs parameter in ADO, you can sta
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/associated-ADO-TC-IDs/ks-ddt-ado-binding.png" alt="conduct data binding" width=100%>
 
-3. When you are done with the configuration, hit **Run** to execute your test suite with Data Binding. Once the test suite finished executing, you can view your test results in ADO. Each test iteration in Katalon Studio is mapped to an ADO test case. In the Katalon Studio event log, you can see the invalid ADO test case IDs.
+3. When you are done with the configuration, hit **Run** to execute your test suite with Data Binding. Once the test suite finished executing, you can view your test results in ADO. Each test iteration in Katalon Studio is mapped to an ADO test case. In the Katalon Studio event log, you can see invalid ADO test case IDs.
 
 	For example, in the **Data Files**, we have an `ado_id` list as below:
 
@@ -119,7 +119,7 @@ After you already set the associated Test Case IDs parameter in ADO, you can sta
 
 	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/associated-ADO-TC-IDs/test%20case%20ids.png" alt="ado IDs" width=100%>
 
-	In the **Event Log**, you can find invalid ADO test case IDs.
+	After you executed the test suite, in the **Event Log**, you can find invalid ADO test case IDs. Test case ID 3 and 7 is valid, so they are not listed in the **Event Log**.
 	
 	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/associated-ADO-TC-IDs/event-log.png" alt="event log" width=100%>
 
