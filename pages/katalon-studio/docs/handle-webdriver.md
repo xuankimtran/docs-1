@@ -104,7 +104,12 @@ For **macOS** users:
 
 - `/Applications/Katalon Studio.app/Contents/Eclipse/configuration\resources\drivers\edgechromium_mac`
 
-- At the project level, find your project folder, go to **Include** directory inside the project and follow the below paths:
+- At the project level, go to **Project Folder >Include** on your computer and follow the below paths:
+
+> **Note**
+> 
+> After replacing WebDrivers at project level, restart Katalon Studio to run new WebDrivers.
+> 
 
 For **Window** users:
 
@@ -150,7 +155,6 @@ For **Linux** user:
 
 - `Include/drivers/geckodriver_linux32/geckodriver`
 - `Include/drivers/geckodriver_linux64/geckodriver`
-
 
 >**Re-run the tests**
 >
