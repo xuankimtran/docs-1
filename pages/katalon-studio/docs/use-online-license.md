@@ -7,7 +7,11 @@ description:
 
 ## Online and offline licenses
 
+### Online licenses
+
 An **online license** of Katalon Studio Enterprise (KSE) and Katalon Runtime Engine (KRE) is transferable among registered users of an organization as long as the number of active licenses does not exceed the license quota.
+
+### Offline licenses
 
 An **offline license** allows you to use KSE and KRE without internet. Once you activate an offline license, you cannot revoke or transfer it to a different machine. An offline license expires at the end of your subscription period. It can also be expired earlier than its actual date if you make changes in the offline license file.
 
@@ -97,7 +101,7 @@ For an Enterprise user with a private network, you might encounter a situation w
 * analytics.katalon.com
 * testops.katalon.io
 * admin.katalon.com
-* katalon-test.s3-accelerate.amazonaws.com (used for uploading reports to Katalon TestOps.
+* katalon-test.s3-accelerate.amazonaws.com (used for uploading reports to Katalon TestOps).
 
 See also [Install Runtime Engine](https://docs.katalon.com/katalon-studio/docs/install-RE.html) for installing and executing KRE.
 
@@ -154,7 +158,7 @@ As an Owner/Admin, you create an offline license by following these steps:
 
 #### For Katalon Studio Enterprise
 
-As an user, you download the offline license and store it in your machine.
+As an user, you download the offline license and store it in your machine, then follow these steps:
 
 1. In the **Katalon Studio Enterprise Activation** log, click **Offline Activation**.
 2. Browse the license file with the corresponding machine ID.
@@ -183,5 +187,4 @@ Depending on your operating system, you can find the **license** folder as follo
   > Notes:
   >
   > **.katalon** is a hidden folder.
-
-
+  
