@@ -45,13 +45,11 @@ Follow these steps:
 
     The **Licenses** page appears as below.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/license.png" width=100% alt="license page">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/licenses-page-blurred.png" width=100% alt="license page licensed users section highlighted">
 
 2. Choose between KSE (Node-locked) and KSE (Floating).
 
 3. Grant an online license to users by adding them in the **Licensed Users** section.
-
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/grant%20.png" width=100% alt="licensed user section">
 
    Once the licensed users activate KSE, their machine IDs are added in the **Online Licenses** section.
 
@@ -139,12 +137,12 @@ Follow these steps:
 
 As an Owner/Admin, you create an offline license by following these steps:
 
-1. Sign in to [Katalon TestOps](https://admin.katalon.com/).
+1. Sign in to [Katalon TestOps](https://testops.katalon.io/login).
 2. Go to **Settings** > **License Management**.
 3. Choose between KSE (Node-locked) and KRE (Node-locked).
 4. Click on the **Create Offline License** button at the top right corner.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-offline-kse-licenses/button.png" width="1424" height="" alt="create offline license button">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/create-offline-license-button.png" width="1424" height="" alt="create offline license button">
 
 5. Enter the User's machine ID, then click **Create**.
 
@@ -182,7 +180,7 @@ Depending on your operating system, you can find the **license** folder as follo
 
 * For Windows: **C:\Users\<user_name>\.katalon\license**.
 
-  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/activate-RE/license.png" width="" height="">
+  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/activate-RE/license.png" width="" height="" alt="license folder location">
 
 * For Linux: **/home/<user_name>/.katalon/license**
 
