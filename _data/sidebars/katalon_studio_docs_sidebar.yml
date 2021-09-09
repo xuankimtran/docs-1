@@ -33,8 +33,6 @@ items:
         tree:
           - title: "Katalon Runtime Engine DevOps Sunsetting"
             url: /katalon-studio/docs/kre-devops-sunset.html
-          - title: "Grant and Use an Offline Katalon Runtime Engine License"
-            url: /katalon-studio/docs/re-offline-licenses.html
           - title: "Transfer an Online Katalon Runtime Engine License"
             url: /katalon-studio/docs/transfer-license.html
       - title: "Katalon TestOps"
@@ -63,8 +61,6 @@ items:
             url: /katalon-studio/docs/license-management.html
           - title: "Grant Online Licenses"
             url: /katalon-studio/docs/use-online-license.html
-          - title: "Grant and Use an Offline Katalon Studio Enterprise License"
-            url: /katalon-studio/docs/how-to-create-kse-offline-license.html
           - title: "License Utilization Dashboard"
             url: /katalon-studio/docs/license-utilization-dashboard.html
   - title: "Katalon Studio Enterprise"
