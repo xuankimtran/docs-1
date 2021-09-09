@@ -16,7 +16,7 @@ Shadow DOM is a useful solution for Web developers. It helps web developers to b
 
 In this artical, we demonstrate how to test shadow DOM elements in Katalon Studio framework.
 
-We use the demo site [Books](https://books-pwakit.appspot.com/explore?q=). All the elements in this demo website are under a shadow root. In this demonstration, we identify shadow DOM objects to perform test action Set Text: "hello World" into the website's search bar.
+We use the demo site [Books](https://books-pwakit.appspot.com/explore?q=). All the elements in this demo website are under a shadow root. In this demonstration, we identify shadow DOM objects to test inputting: "hello World" into the website's search bar.
 
 Do as follows:
 
@@ -39,69 +39,51 @@ Do as follows:
     - Go to **File > New > Test Object**. Name it as **book_app**.
     - In the **Object's Properties** section, define the inspected property from step 3.
 
-    <img src=”url” width=”%” alt="Create parent object">
+    <img src=”url” width=”%” alt="Create the parent object">
 
 5. Next, create the child object:
    
     - Go to **File > New > Test Object**. Name it as **input**.
     - In the **Object's Properties** section, define the inspected property from step 3.
+    - 
+    <img src=”url” width=”%” alt="Define child object's property">
+
     - After defining the property, in the **Settings** section, choose **Shadow DOM parent** option, then click **Browse**. An **Object Repository Browser** dialog opens.
     - In the open dialog, choose the `book_app` object from step 4. Click **OK**.
+    - Once finished, the `input` object has Shadow Root Parent as below
 
-    <img src=”url” width=”%” alt="Create child object">
+    <img src=”url” width=”%” alt="Results after creating the child object">
 
-6. Next, create a new test **object** to represent an object in HTML DOM. Let's name this object as **aStoreLink**.
+6. Next, create a new test case. Go to **File > New > Test Case**. Name it **Shadow DOM Test** and open it.
+   
+    <img src=”url” width=”%” alt="Create">
 
-7. Create a property for this object, **aStoreLink**. This property has the _name as_ **href** and _value_ as [http://www.amazon.com/gp/product/1849693129/ref=as\_li\_qf\_sp\_asin\_il\_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1849693129&linkCode=as2&tag=kaidez-20&linkId=CK7X5SMYEHL3BMEQ](http://www.amazon.com/gp/product/1849693129/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1849693129&linkCode=as2&tag=kaidez-20&linkId=CK7X5SMYEHL3BMEQ)
+7. In the new test case, switch to the Script tab, copy and paste the following script into the test script.
 
-![Katalon-DOM-astorelink](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/shadow_dom_elements_testing/Katalon-DOM-astorelink.png)
+    ```groovy
+    import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
-6. Select the Shadow Root Parent option, as shown below. Click on Browse and select **SectionAllBooks** from Object Repository Browser.
+    import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
-![Katalon-DOM-root-parent](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/shadow_dom_elements_testing/Katalon-DOM-root-parent.png)
+    //Open browser and navigate to the AUT website
+    WebUI.openBrowser('https://books-pwakit.appspot.com/explore?q=')
 
-Once finished, the aStoreLink object has Shadow Root Parent as below
+    //Input text into the search bar
+    WebUI.setText(findTestObject('Object Repository/input'), 'hello World')
 
-![Katalon-shadow-root-parent-2](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/shadow_dom_elements_testing/Katalon-shadow-root-parent-2.png)
+    //Delay 5s to view the result
+    WebUI.delay(5)
 
-7. Now you're ready to start scripting. Let's create a test case with the name **Shadow DOM Test** and open it.
+    //Close the browser to clean up
+    WebUI.closeBrowser()
 
-![Katalon-Shadow-DOM-test1](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/shadow_dom_elements_testing/Katalon-Shadow-DOM-test1-300x169.png)
+    ```
+    <img src=”url” width=”%” alt="Write the Test Script">
 
-8. Paste the following script into the test case's Script editor.
+You can also write the test case in the Manual tab. Learn more at: [How to create the test in Manual mode](https://docs.katalon.com/katalon-studio/videos/create_test_manual_mode.html)
 
-```groovy
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+8. Run the test script. In the main toolbar. Click **Run > Chrome**.
+   
+   <img src=”url” width=”%” alt="Run the Test Script">
 
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-
-'Open browser and navigate to the AUT website'
-WebUI.openBrowser('http://www.kaidez.com/samples/template-shadowdom-practice/')
-
-'Click on the destination book store link'
-WebUI.click(findTestObject('aStoreLink'))
-
-'Delay 5s to view the result'
-WebUI.delay(5)
-
-'Verify that a new window is opened'
-WebUI.switchToWindowTitle('Object-Oriented JavaScript, 2nd Edition: Stoyan Stefanov, Kumar Chetan Sharma: 9781849693127: Amazon.com: Books')
-
-'Close the browser to clean up'
-WebUI.closeBrowser()
-
-```
-
-![Katalon DOM script editor](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/shadow_dom_elements_testing/Katalon-DOM-script-editor.png)
-
-9. Now execute the test script by selecting Run > Chrome.
-
-![Katalon-DOM-Execute-on-chrome](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/shadow_dom_elements_testing/Katalon-DOM-Execute-on-chrome.png)
-
-10. Katalon Studio should successfully find the element within the shadow root and open the Amazon window to show the book.
-
-![Katalon-DOM-Amazon-window](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/shadow_dom_elements_testing/Katalon-DOM-Amazon-window-1024x715.png)
-
-Congratulations! You have successfully created and run your first Shadow DOM test script with Katalon Studio. For more advanced features and keywords, please visit Katalon Studio tutorials center
-
-The sample project for this tutorial can be found at [https://github.com/katalon-studio/ShadowDOMSampleProject](https://github.com/katalon-studio/ShadowDOMSampleProject).
+Katalon Studio should successfully find the element within the shadow root and input text: "hello World" into the search bar.
