@@ -4,7 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/shadow_dom_elements_testing.html
 redirect_from:
     - "katalon-studio/tutorials/shadow_dom_elements_testing.html"
-description: "What is Shadow DOM? This article will show you how Katalon Studio solves Shadow DOM problem and let you test shadow DOM elements in a straightforward way"
+description: "This article will show you how Katalon Studio solves Shadow DOM problem and let you test shadow DOM elements in a straightforward way"
 ---
 <INTRODUCTION>
 
@@ -24,30 +24,31 @@ Do as follows:
 
     <img src=”https://github.com/katalon-studio/docs-images/raw/339de0f5ad5bce4f4dc1d8d7ef8f0ea6b5d0780a/katalon-studio/tutorials/shadow_dom_elements_testing/Katalon-DOM-testing.png” width=”70%” alt="Create a project">
 
-2. In the demo website, to inspect the search bar's elements, right-click at it > **Inspect**. A Chrome Developer tool opens and highlights its elements.
+2. In the demo website, to inspect the search bar's elements, right-click at it, then click **Inspect**. A Chrome Developer tool opens and highlights its elements.
 
     <img src=”url” width=”%” alt="Inspect web object element">
-3. In the Chrome Developer tool, there are two Shadow DOM elements that you need to identify:
-    - The shadow host
-    - The property of the shadow DOM elements. In this example, we need to look at the property of the search bar's elements.
+
+3. At this point, there are two Shadow DOM elements that you need to identify in the Chrome Developer tool:
+    - The property of the parent object. The parent object is the shadow host. In this demo site, `book-app` is the parent object.
+    - The property of the child object. The child object is the inspecting shadow DOM elements. In this example, we look at the property of the search bar's elements.
    
-   Here you can see the search bar' s elements are in a shadow tree, under the shadow root. Even though the DOM query function can not locate elements within a shadow DOM, it can find the shadow host. In this demo website, book-app is a shadow host. 
+    <img src=”url” width=”%” alt="Property of shadow DOM elements">
 
-    <img src=”url” width=”%” alt="Shadow root element">
+4. Switch back to the Katalon Studio framework, create the parent object: 
+   
+    - Go to **File > New > Test Object**. Name it as **book_app**.
+    - In the **Object's Properties** section, define the inspected property from step 3.
 
+    <img src=”url” width=”%” alt="Create parent object">
 
+5. Next, create the child object:
+   
+    - Go to **File > New > Test Object**. Name it as **input**.
+    - In the **Object's Properties** section, define the inspected property from step 3.
+    - After defining the property, in the **Settings** section, choose **Shadow DOM parent** option, then click **Browse**. An **Object Repository Browser** dialog opens.
+    - In the open dialog, choose the `book_app` object from step 4. Click **OK**.
 
-4. Create a new test object to represent a shadow root. Go to **File > New > Test Object**. Name it as **sectionBookApp**.
-
-    <img src=”url” width=”%” alt="Test object sectionBookApp">
-
-5. In the new object, click **Add** in the command toolbar. A new **Add property** dialog opens. 
-
-    Add a property with the name **id** and the value **allBooks** for the **sectionAllBooks** object.
-
-    <img src=”url” width=”%” alt="Test object sectionBookApp">
-
-    ![Katalon DOM allbooks](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/shadow_dom_elements_testing/Katalon-DOM-allbooks.png)
+    <img src=”url” width=”%” alt="Create child object">
 
 6. Next, create a new test **object** to represent an object in HTML DOM. Let's name this object as **aStoreLink**.
 
