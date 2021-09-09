@@ -7,10 +7,6 @@ description:
 
 Flutter is a UI toolkit for building applications for mobile, web, desktop, and embedded devices from a single codebase.
 
-> **Known Issue**:
->
-> Katalon Mobile Recorder and SetText keyword cannot perform on an **EditText** element of the Flutter-based application.
-
 You can use Mobile keywords to automate your application. However, Katalon Mobile Spy and Recorder currently cannot detect **EditText** elements in Flutter-based applications. In this tutorial, we provide a workaround to automate the Flutter-based application using a custom SetText keyword package.
 
 ## Run Flutter-based application test
