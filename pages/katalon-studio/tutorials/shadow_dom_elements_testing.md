@@ -16,7 +16,7 @@ Shadow DOM is a useful solution for Web developers. It helps web developers to b
 
 In this artical, we demonstrate how to test shadow DOM elements in Katalon Studio framework.
 
-We use the demo site [Books](https://books-pwakit.appspot.com/explore?q=). All the elements in this demo website are under a shadow root. In this demonstration, we identify shadow DOM objects to perform test action Set Text: "shadow DOM" into the website's search bar.
+We use the demo site [Books](https://books-pwakit.appspot.com/explore?q=). All the elements in this demo website are under a shadow root. In this demonstration, we identify shadow DOM objects to perform test action Set Text: "hello World" into the website's search bar.
 
 Do as follows:
 
@@ -24,21 +24,24 @@ Do as follows:
 
     <img src=”https://github.com/katalon-studio/docs-images/raw/339de0f5ad5bce4f4dc1d8d7ef8f0ea6b5d0780a/katalon-studio/tutorials/shadow_dom_elements_testing/Katalon-DOM-testing.png” width=”70%” alt="Create a project">
 
-2. In the demo website, right-click at the search bar, click **Inspect** to inspect its elements. A Chrome Developer tool appears within the browser.
+2. In the demo website, to inspect the search bar's elements, right-click at it > **Inspect**. A Chrome Developer tool opens and highlights its elements.
 
     <img src=”url” width=”%” alt="Inspect web object element">
-
+3. In the Chrome Developer tool, there are two Shadow DOM elements that you need to identify:
+    - The shadow host
+    - The property of the shadow DOM elements. In this example, we need to look at the property of the search bar's elements.
+   
    Here you can see the search bar' s elements are in a shadow tree, under the shadow root. Even though the DOM query function can not locate elements within a shadow DOM, it can find the shadow host. In this demo website, book-app is a shadow host. 
 
     <img src=”url” width=”%” alt="Shadow root element">
 
 
 
-1. Create a new test object to represent a shadow root. Go to **File > New > Test Object**. Name it as **sectionBookApp**.
+4. Create a new test object to represent a shadow root. Go to **File > New > Test Object**. Name it as **sectionBookApp**.
 
     <img src=”url” width=”%” alt="Test object sectionBookApp">
 
-2. In the new object, click **Add** in the command toolbar. A new **Add property** dialog opens. 
+5. In the new object, click **Add** in the command toolbar. A new **Add property** dialog opens. 
 
     Add a property with the name **id** and the value **allBooks** for the **sectionAllBooks** object.
 
@@ -46,9 +49,9 @@ Do as follows:
 
     ![Katalon DOM allbooks](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/shadow_dom_elements_testing/Katalon-DOM-allbooks.png)
 
-3. Next, create a new test **object** to represent an object in HTML DOM. Let's name this object as **aStoreLink**.
+6. Next, create a new test **object** to represent an object in HTML DOM. Let's name this object as **aStoreLink**.
 
-4. Create a property for this object, **aStoreLink**. This property has the _name as_ **href** and _value_ as [http://www.amazon.com/gp/product/1849693129/ref=as\_li\_qf\_sp\_asin\_il\_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1849693129&linkCode=as2&tag=kaidez-20&linkId=CK7X5SMYEHL3BMEQ](http://www.amazon.com/gp/product/1849693129/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1849693129&linkCode=as2&tag=kaidez-20&linkId=CK7X5SMYEHL3BMEQ)
+7. Create a property for this object, **aStoreLink**. This property has the _name as_ **href** and _value_ as [http://www.amazon.com/gp/product/1849693129/ref=as\_li\_qf\_sp\_asin\_il\_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1849693129&linkCode=as2&tag=kaidez-20&linkId=CK7X5SMYEHL3BMEQ](http://www.amazon.com/gp/product/1849693129/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1849693129&linkCode=as2&tag=kaidez-20&linkId=CK7X5SMYEHL3BMEQ)
 
 ![Katalon-DOM-astorelink](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/shadow_dom_elements_testing/Katalon-DOM-astorelink.png)
 
