@@ -9,27 +9,11 @@ redirect_from:
 description:
 ---
 
-## Online and offline licenses
-
-### Online licenses
-
-An **online license** of Katalon Studio Enterprise (KSE) and Katalon Runtime Engine (KRE) is transferable among registered users of an organization as long as the number of active licenses does not exceed the license quota.
-
-### Offline licenses
-
-An **offline license** allows you to use KSE and KRE without internet. Once you activate an offline license, you cannot revoke or transfer it to a different machine. An offline license expires at the end of your subscription period. It can also be expired earlier than its actual date if you make changes in the offline license file.
-
-When an offline license expires, you can generate a new offline license file to continue using KSE/KRE offline, or you can switch to an online license instead.
+## Grant an online license
 
 > Notes:
->
-> You can only convert an annual node-locked license into an offline license.
-
-As a machine ID is required to create an offline license, Katalon generates a machine ID based on the hardware specifications and the user's account logging in to that machine at the generation time.
-
-For example, if User A logs in to Machine A, Katalon generates a machine ID X. At the same time, if User B logs in to Machine A, Katalon generates a machine ID Y. This means that you need two licenses to use KSE/KRE in this case.
-
-## Grant an online license
+> 
+> An **online license** of Katalon Studio Enterprise (KSE) and Katalon Runtime Engine (KRE) is transferable among registered users of an organization as long as the number of active licenses does not exceed the license quota. See: [Transfer License](link).
 
 > Requirements:
 >
@@ -37,9 +21,7 @@ For example, if User A logs in to Machine A, Katalon generates a machine ID X. A
 >
 > The Owner or Admin of an Organization can grant licenses to any team member. The Owner or Admin can also revoke this action anytime.
 
-### For Katalon Studio Enterprise
-
-Follow these steps:
+Follow these steps to grant KSE licenses:
 
 1. Sign in to [Katalon TestOps](https://testops.katalon.io/login), then go to **Settings** > **License Management**.
 
@@ -57,9 +39,7 @@ Follow these steps:
    >
    > The number of licensed users cannot exceed the license quota.
 
-### For Katalon Runtime Engine
-
-All members of an Organization can use the KRE online licenses as long as the total number of active online licenses does not exceed the license quota.
+For KRE, all users of an Organization can use KRE online licenses by default once the KRE licenses are purchased.
 
 To optimize license usage and avoid session termination, the Owner and Admin must remember the following rules:
 
@@ -68,50 +48,21 @@ To optimize license usage and avoid session termination, the Owner and Admin mus
 * The number of registered machine IDs cannot exceed the license quota.
 * Users need [API Keys](https://docs.katalon.com/katalon-studio/docs/katalon-apikey-70.html) to activate a KRE online license.
 
-To run KSE using KRE, follow these steps:
-
-1. Open Katalon Studio and log in to your account.
-
-2. In the command generator, generate a command with the auto-filled Katalon API Key and customized information.
-
-    > Notes:
-    >
-    > From **version 7.7 onwards**, if you belong to more than one Organization purchasing KRE licenses, you can choose which organization to validate your license usage. Katalon retrieves and displays the organizations bound to your Katalon account. Once you have selected an Organization, you pass the Organization ID to the generated command (`-orgID=<Katalon_OrgID>`).
-
-3. Copy and paste the generated command into the Terminal (for MacOS/Linux) or Command Prompt (for Windows).
-
-4. Open the Terminal/Command Prompt and navigate to the Katalon Studio Engine folder `katalonc.exe` (for Windows), or Applications folder (for MacOS), or `katalonc` file (for Linux).
-
-    For example, for MacOS:
-
-    ```groovy
-    cd /Applications/Katalon\ Studio\ Engine.app/Contents/MacOS
-    ```
-
-5. Enter the following syntax to execute test automation:
-
-    `katalonc -noSplash -runMode=console -consoleLog -noExit -projectPath="C:\Users\Katalon Studio\Project\YourProject.prj" -retry=0 -testSuitePath="Test Suites/TS_RegressionTest" -browserType="Chrome (headless)" -apiKey=abczxzxz -orgID=123xx`
-
-    > Notes:
-    >
-    > See [Command Syntax](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#katalon-studio-plugins-in-console-mode) for further instructions on working with KRE.
-
-For an Enterprise user with a private network, you might encounter a situation where you fail to execute test scripts or integrate Katalon Studio due to the network security error. In such case, contact your IT team to whitelist the following domains:
-
-* store.katalon.com
-* update.katalon.com
-* analytics.katalon.com
-* testops.katalon.io
-* admin.katalon.com
-* katalon-test.s3-accelerate.amazonaws.com (used for uploading reports to Katalon TestOps).
-
-See also [Install Runtime Engine](https://docs.katalon.com/katalon-studio/docs/install-RE.html) for installing and executing KRE.
-
 ## Grant an offline license
 
-> Notes:
+An **offline license** allows you to use KSE and KRE without internet. Once you activate an offline license, you cannot revoke or transfer it to a different machine. An offline license expires at the end of your subscription period. It can also be expired earlier than its actual date if you make changes in the offline license file.
+
+When an offline license expires, you can generate a new offline license file to continue using KSE/KRE offline, or you can switch to an online license instead.
+
+As a machine ID is required to create an offline license, Katalon generates a machine ID based on the hardware specifications and the user's account logging in to that machine at the generation time.
+
+For example, if User A logs in to Machine A, Katalon generates a machine ID X. At the same time, if User B logs in to Machine A, Katalon generates a machine ID Y. This means that you need two licenses to use KSE/KRE in this case.
+
+> Requirements:
 >
-> You can only convert node-locked licenses which have a **yearly** billing cycle to offline licenses.
+> An **annual** node-locked license.
+
+> Notes:
 >
 > A KSE/KRE license, once converted to an offline license, is bound to a machine until its expiry date (in **60 days**). You should generate an offline license with cautions as you cannot undo this action.
 
@@ -122,7 +73,7 @@ This tutorial is for:
 
 ### Step 1: Users view and send a machine ID to the Owner/Admins
 
-As an user, you need to copy the machine ID on which you use Katalon Studio, then send the machine ID to your Owner/Admins.
+As a user, you need to copy the machine ID on which you use Katalon Studio, then send the machine ID to your Owner/Admins.
 
 Follow these steps:
 
