@@ -25,7 +25,7 @@ From version 8.0.0 onwards, you can use desired capabilities across Katalon Stud
 					<ol>
 						<li>Choose the driver with the desired capabilities you want to export &gt; <a href="https://docs.katalon.com/katalon-studio/docs/import-export-desired-capabilities.html#export-desired-capabilities">Export</a> it as a JSON file.</li>
 						<li>Modify the JSON file if needed.</li>
-						<li>Choose the driver you want to import the desired capabilities &gt; <a href="https://docs.katalon.com/katalon-studio/docs/import-export-desired-capabilities.html#import-desired-capabilities">Import</a> the modified JSON file.</li>
+						<li>Choose the driver with the desired capabilities you wish to import&gt; <a href="https://docs.katalon.com/katalon-studio/docs/import-export-desired-capabilities.html#import-desired-capabilities">Import</a> the modified JSON file.</li>
 					</ol>
 			</td>
 		</tr>
@@ -50,13 +50,11 @@ From version 8.0.0 onwards, you can use desired capabilities across Katalon Stud
 
 3. Click **Import**. In the dialog box, **Browse** the imported JSON file > **OK**.
 
-> **Notice**
-> 
-> After importing new desired capabilities from the JSON file, it overwrites all existing ones.
->
->
+	> **Notice**
+	> 
+	> After importing new desired capabilities from the JSON file, it overwrites all existing ones.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops/desired-capabilities-management/chrome_dc.png" width=55%>
+	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops/desired-capabilities-management/chrome_dc.png" width=55%>
 
 ### Export Desired Capabilities
 
@@ -68,7 +66,7 @@ From version 8.0.0 onwards, you can use desired capabilities across Katalon Stud
 
     > **Note**
     > 
-    > The export configuration as a **JSON file** reduces your effort on modification and recreation capabilities in case you want to copy the configuration to multiple places with minor changes.
+    > Exporting desired capabilities as a **JSON file** reduces your effort in reusing the configuration in different projects with minor changes.
 	>
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops/desired-capabilities-management/export-chrome-save.png" width=55%>
