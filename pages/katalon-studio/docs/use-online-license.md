@@ -38,11 +38,13 @@ Follow these steps to grant a KSE license:
 
 3. Add users to the **Licensed Users** section.
 
-   Once the licensed users activate the KSE licenses, their machine IDs are added in the **Online Licenses** section.
+  Once the licensed users activate the KSE licenses, their machine IDs are added in the **Online Licenses** section.
 
-   > Notes:
-   >
-   > The number of licensed users cannot exceed the license quota.
+  > Notes:
+  >
+  > The number of licensed users cannot exceed the license quota.
+  >
+  > For instructions on activating the KSE license, see [Activate KSE Licenses](https://docs.katalon.com/katalon-studio/docs/kse_license_activation.html).
 
 For KRE, all Users of an Organization can use the KRE licenses by default once the Organization has purchased the KRE licenses.
 
@@ -55,7 +57,7 @@ However, to optimize license usage and avoid session termination, the Owner and 
 
   > Notes:
   >
-  > If you are a user, see [Activate Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license_activation.html) for instructions on activating the Katalon licenses.
+  > For instructions on activating the KRE license, see [Activate KRE Licenses](https://docs.katalon.com/katalon-studio/docs/kre_license_activation.html).
 
 ### Create an offline license
 
@@ -81,25 +83,19 @@ For example, if User A logs in to Machine A, Katalon generates a machine ID X. A
 
 Follow these steps:
 
-1. Receive the User's machine ID.
+1. Sign in to [Katalon TestOps](https://testops.katalon.io/login).
 
-  > Notes:
-  >
-  > If you are a user, see [Activate Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license_activation.html) for instructions on finding your machine ID and using Katalon licenses.
-
-2. Sign in to [Katalon TestOps](https://testops.katalon.io/login).
-
-3. Go to **Settings** > **License Management**.
+2. Go to **Settings** > **License Management**.
 
     The **Licenses** page appears.
 
-4. Choose between KSE (Node-locked) and KRE (Node-locked).
+3. Choose between KSE (Node-locked) and KRE (Node-locked).
 
-5. Click on the **Create Offline License** button at the top right corner.
+4. Click on the **Create Offline License** button at the top right corner.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/create-offline-license-button.png" width="1424" height="" alt="create offline license button">
 
-6. Enter the User's machine ID and input the expiry date, then click **Create**.
+5. Enter the User's machine ID and input the expiry date, then click **Create**.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/create-offline-license-page.png" width="1424" height="" alt="create offline license page">
 
