@@ -8,12 +8,13 @@ redirect_from:
   - "/katalon-studio/docs/how-to-create-kse-offline-license.html"
 description:
 ---
+In this guide, you will learn to assign Katalon Studio Enterprise (KSE) and Katalon Runtime Engine (KRE) licenses to Users in your Organization.
 
 ## Grant an online license
 
 > Notes:
 > 
-> An **online license** of Katalon Studio Enterprise (KSE) and Katalon Runtime Engine (KRE) is transferable among registered users of an organization as long as the number of active licenses does not exceed the license quota. See: [Transfer License](link).
+> An **online license** of KSE and KRE is transferable among registered users of an organization as long as the number of active licenses does not exceed the license quota. See: [Transfer License](link).
 
 > Requirements:
 >
