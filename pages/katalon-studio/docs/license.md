@@ -7,11 +7,11 @@ description:
 
 > Starting from **version 7.0.0**, you need a license to activate and use one of the Katalon Studio products, including Katalon Studio Enterprise (KSE), Katalon Studio (KS), and Katalon Runtime Engine (KRE).
 
-This section provides information on the licensing system of Katalon. You will find description of Katalon products and their available license types.
+This section provides information on the licensing system of Katalon. You will find a description of Katalon products and their available license types.
 
 ## Katalon Studio Enterprise
 
-Katalon Studio is free with basic tool suitable for individuals. For an advanced solution for business, consider purchase Katalon Studio Enterprise. Bellow is a feature comparison between KS and KSE:
+Katalon Studio is free with basic tools suitable for individuals. For an business advanced solution, consider purchase Katalon Studio Enterprise licenses. Below is a feature comparison between KS and KSE:
 
 <table>
 	<tbody>
@@ -119,15 +119,17 @@ Katalon Studio is free with basic tool suitable for individuals. For an advanced
 	</tbody>
 </table>
 
+One KSE license is exclusively assigned to one Katalon account and can be activated/used on one machine at a time. Licenses are transferable. You need an internet connection to activate and validate licenses.
+
 ## Katalon Runtime Engine
 
-Katalon Runtime Engine (KRE) is the test execution add-on of Katalon Studio. While KSE license only supports you to generate test scripts and manually execute test s via the graphical user interface, KRE license allows you to execute automation tests in console mode.
+Katalon Runtime Engine (KRE) is the test execution add-on of Katalon Studio. While the KSE license only supports you in generating test scripts and manually executing tests via the graphical user interface, the KRE license allows you to execute automation tests in the command-line interface (CLI) mode.
 
-When running from the command-line interface (CLI), one working session accounting for one license equals to a conducted process. Learn more about the use cases of [KRE](https://docs.katalon.com/katalon-studio/docs/intro-RE.html).
+When running from CLI, one working session accounting for one license equals a conducted process. To learn more about the use cases of KRE, see [Introduce Katalon Runtime Engine](https://docs.katalon.com/katalon-studio/docs/intro-RE.html).
 
 ## License types
 
-There are two types of license for KSE and KRE: node-locked and floating.
+There are two types of licenses for KSE and KRE: node-locked and floating. Base on the size and the workflow of your team, you can choose node-locked, floating, or both types simultaneously.
 
 <table>
 	<tbody>
@@ -139,11 +141,17 @@ There are two types of license for KSE and KRE: node-locked and floating.
 			<td>
 				<p>One license is assigned to one machine ID.</p>
 			</td>
-			<td>One license is assigned to one execution session and can be shared across 3 machines.</td>
+			<td>One license is assigned to one parallel execution session and can be shared across maximum 3 machines.</td>
 		</tr>
 		<tr>
 			<td>
-				<p>Licenses are transferable</p>
+				<p>Licenses are transferable.</p>
+			</td>
+			<td>Licenses need to be assigned.</td>
+		</tr>
+		<tr>
+			<td>
+				<p>Applies to local desktops or workstations with fixed hardware specifications.</p>
 			</td>
 			<td>&nbsp;Applies to all types of execution environments.</td>
 		</tr>
@@ -157,7 +165,7 @@ There are two types of license for KSE and KRE: node-locked and floating.
 			<td>
 				<p>Offline licenses can be generated from online node-locked licenses.</p>
 			</td>
-			<td>Offline licenses is available for on-premises licensing server only. For more information, <a href="https://www.katalon.com/book-a-demo/">contact sales</a>.</td>
+			<td>Offline licenses are available for on-premises licensing server only. For more information, <a href="https://www.katalon.com/book-a-demo/">contact sales</a>.</td>
 		</tr>
 	</tbody>
 </table>
@@ -166,7 +174,7 @@ There are two types of license for KSE and KRE: node-locked and floating.
 
 This license type is applied to local desktops or workstations with fixed hardware specifications (machine-blocked license):
 
-* Virtual machine with fixed machine ID
+* Virtual machine with the fixed machine ID
 * Physical machine
 
 The number of licenses to acquire should be based on the number of execution machines.
@@ -183,11 +191,9 @@ For scaling teams with dynamic usage, floating licenses reduce the management co
 
 This license type is applied to all types of execution environments, including cloud or virtual machines with dynamic hardware specifications (to execute tests in Docker, Azure, AWS).
 
-* One floating license can be shared across maximum of 3 machines.
-* One floating license is assigned to one execution session at a time.
+* One floating license can be shared across a maximum of 3 machines.
+* One floating license is assigned to one parallel execution session at a time.
 
 For instance, you have 1 floating Katalon Studio Enterprise license attached to the email example@katalon.com.
 You can use example@katalon.com to log in to Katalon Studio and enjoy all of the Enterprise level features in 3 different machines at maximum.
 However, since you only have 1 floating Katalon Studio Enterprise license, you can only be active on 1 of that 3 machines at a time.
-
-> Only online activation is allowed.
