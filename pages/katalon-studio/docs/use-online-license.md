@@ -13,8 +13,8 @@ In this guide, you will learn to assign Katalon Studio Enterprise (KSE) and Kata
 ## Grant a license
 
 > Notes:
-> 
-> An **Online License** of KSE and KRE is transferable among registered users of an organization as long as the number of active licenses does not exceed the license quota. See: [Transfer License](link).
+>
+> An **Online License** of KSE and KRE is transferable among registered users of an organization as long as the number of active licenses does not exceed the license quota. See: [Manage Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license-management.html).
 
 > Requirements:
 >
@@ -22,7 +22,7 @@ In this guide, you will learn to assign Katalon Studio Enterprise (KSE) and Kata
 >
 > The Owner or Admin of an Organization can grant licenses to any team member. The Owner or Admin can also revoke this action anytime. See: [Manage Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license-management.html).
 
-Follow these steps to grant KSE licenses:
+Follow these steps to grant a KSE license:
 
 1. Sign in to [Katalon TestOps](https://testops.katalon.io/login), then go to **Settings** > **License Management**.
 
@@ -55,7 +55,7 @@ However, to optimize license usage and avoid session termination, the Owner and 
 
   > Notes:
   >
-  > If you are a user, see [new doc](new link) for instructions on activating Katalon licenses.
+  > If you are a user, see [Activate Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license_activation.html) for instructions on activating the Katalon licenses.
 
 ### Create an offline license
 
@@ -85,7 +85,7 @@ Follow these steps:
 
   > Notes:
   >
-  > If you are a user, see [new doc](new link) for instructions on finding your machine ID and using Katalon licenses.
+  > If you are a user, see [Activate Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license_activation.html) for instructions on finding your machine ID and using Katalon licenses.
 
 2. Sign in to [Katalon TestOps](https://testops.katalon.io/login).
 
@@ -112,10 +112,6 @@ Follow these steps:
     For KSE, the newly-created offline license file is named `KSE_<machineID>.lic` and added in the **Offline Licenses** section.
 
     For KRE, the newly-created offline license file is named `KRE_<machineID>.lic` and added in the **Offline Licenses** section.
-
-> Notes:
->
-> If you are an user, see [new doc](new link) for instructions on activating the offline licenses.
 
 See also:
 * [Manage Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license-utilization-dashboard.html#license-usage-visualization).
