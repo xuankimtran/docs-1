@@ -5,7 +5,6 @@ permalink: katalon-studio/docs/set-different-browser-locales-in-chrome-with-desi
 redirect_from:
 description:
 ---
-<INTRODUCTION>
 
 Chrome sets a default UI language with the first Chrome window that opens. In other words, if you alter browser locales, for example, with command line arguments `chrome.exe --lang=de` to start Chrome in German, the Chrome driver still defines the default language from the Chrome browser.
 
