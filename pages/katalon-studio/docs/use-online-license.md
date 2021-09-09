@@ -38,7 +38,7 @@ Follow these steps to grant a KSE license:
 
 3. Add users to the **Licensed Users** section.
 
-   Once the licensed users activate KSE, their machine IDs are added in the **Online Licenses** section.
+   Once the licensed users activate the KSE licenses, their machine IDs are added in the **Online Licenses** section.
 
    > Notes:
    >
