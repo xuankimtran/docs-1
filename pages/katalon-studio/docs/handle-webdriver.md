@@ -1,8 +1,9 @@
 ---
-title: "Handle WebDrivers"
+title: "Terminate WebDrivers"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/handle-webdrivers.html
-redirect_from:
+permalink: /katalon-studio/docs/terminate-webdrivers.html
+redirect_from: 
+    - "/katalon-studio/docs/handle-webdrivers.html"
     - "/katalon-studio/docs/using-the-webdriver-object.html"
     - "/display/KD/Using+the+WebDriver+Object/"
     - "/display/KD/Using%20the%20WebDriver%20Object/"
