@@ -619,8 +619,8 @@ items:
                 url: /katalon-studio/docs/webui-verify-element-not-has-attribute.html
               - title: "[WebUI] Verify Element Not Present"
                 url: /katalon-studio/docs/webui-verify-element-not-present.html
-              - title: "[WebUI] Verify Element Not Visible In Viewport"
-                url: /katalon-studio/docs/webui-verify-element-not-visible-in-viewport.html
+              - title: "[WebUI] Verify Element Not In Viewport"
+                url: /katalon-studio/docs/webui-verify-element-not-in-viewport.html
               - title: "[WebUI] Verify Element Not Visible"
                 url: /katalon-studio/docs/webui-verify-element-not-visible.html
               - title: "[WebUI] Verify Element Present"
@@ -629,8 +629,8 @@ items:
                 url: /katalon-studio/docs/webui-verify-element-text.html
               - title: "[WebUI] Verify Element Visible"
                 url: /katalon-studio/docs/webui-verify-element-visible.html
-              - title: "[WebUI] Verify Element Visible In Viewport"
-                url: /katalon-studio/docs/webui-verify-element-visible-in-viewport.html
+              - title: "[WebUI] Verify Element In Viewport"
+                url: /katalon-studio/docs/webui-verify-element-in-viewport.html
               - title: "[WebUI] Verify Image Present" 
                 url: /katalon-studio/docs/webui-verify-image-present.html 
               - title: "[WebUI] Verify Links Accessible" 
