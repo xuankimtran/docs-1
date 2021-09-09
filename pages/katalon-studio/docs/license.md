@@ -119,16 +119,11 @@ Katalon Studio is free with basic tool suitable for individuals. For an advanced
 	</tbody>
 </table>
 
-KSE license is named license, meaning:
-
-* One license is exclusively assigned to one Katalon account/user.
-* One account can be activated/used on one machine at a time.
-* Licenses are transferable.
-* License activation and validation require an internet connection.
-
 ## Katalon Runtime Engine
 
-KRE license can be a node-locked or a floating license. When running from the command-line interface (CLI), one working session accounting for one license equals to a conducted process. Learn more about the use cases of [KRE](https://docs.katalon.com/katalon-studio/docs/intro-RE.html).
+Katalon Runtime Engine (KRE) is the test execution add-on of Katalon Studio. While KSE license only supports you to generate test scripts and manually execute test s via the graphical user interface, KRE license allows you to execute automation tests in console mode.
+
+When running from the command-line interface (CLI), one working session accounting for one license equals to a conducted process. Learn more about the use cases of [KRE](https://docs.katalon.com/katalon-studio/docs/intro-RE.html).
 
 ## License types
 
@@ -178,11 +173,13 @@ The number of licenses to acquire should be based on the number of execution mac
 
 * A license is linked to a single machine ID and for one execution session.
 * A machine can be mapped to multiple licenses (if needed).
-* The license can be transferred to a new machine for an online environment. For the offline environment, once converted, the license cannot be transferred to another machine until it is expired.
+* The license can be transferred to a new machine for an online environment. Only annual node-locked licenses can be converted to offline licenses. For the offline environment, once converted, the license cannot be transferred to another machine until it is expired.
 
 > This license allows both online and offline activation for **annual subscriptions**. With monthly subscriptions, only online activation is allowed.
 
 ### Floating License
+
+For scaling teams with dynamic usage, floating licenses reduce the management cost and optimize your workflow.
 
 This license type is applied to all types of execution environments, including cloud or virtual machines with dynamic hardware specifications (to execute tests in Docker, Azure, AWS).
 
@@ -190,7 +187,7 @@ This license type is applied to all types of execution environments, including c
 * One floating license is assigned to one execution session at a time.
 
 For instance, you have 1 floating Katalon Studio Enterprise license attached to the email example@katalon.com.
-You can use example@katalon.com to log in to Katalon Studio and enjoy all of the Enterprise level features in 3 different machines at maximum. 
+You can use example@katalon.com to log in to Katalon Studio and enjoy all of the Enterprise level features in 3 different machines at maximum.
 However, since you only have 1 floating Katalon Studio Enterprise license, you can only be active on 1 of that 3 machines at a time.
 
 > Only online activation is allowed.
