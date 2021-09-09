@@ -1169,7 +1169,7 @@ items:
             url: /katalon-studio/docs/using-autoit-for-authentication-in-katalon-studio.html
       - title: "Proof of Concept"
         tree:
-          - title: "Dependencies Management with Native Gradle Support"
+          - title: "Dependencies Management with Native Gradle Support (Poc)"
             url: /katalon-studio/docs/dependencies-management-gradle-support.html
           - title: "Parameterize Azure DevOps Test Case ID List (PoC)"
             url: /katalon-studio/docs/parameterize-ado-test-case-id.html  
