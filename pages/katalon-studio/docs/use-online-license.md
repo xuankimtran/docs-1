@@ -38,13 +38,11 @@ Follow these steps to grant a KSE license:
 
 3. Add users to the **Licensed Users** section.
 
-  Once the licensed users activate the KSE licenses, their machine IDs are added in the **Online Licenses** section.
+Once you have added users, the next time users open Katalon Studio for working, their machine IDs are automatically added in the **Online Licenses** section. In other words, the users activate the licenses simply by using Katalon Studio.
 
   > Notes:
   >
   > The number of licensed users cannot exceed the license quota.
-  >
-  > For instructions on activating the KSE license, see [Activate KSE Licenses](https://docs.katalon.com/katalon-studio/docs/kse_license_activation.html).
 
 For KRE, all Users of an Organization can use the KRE licenses by default once the Organization has purchased the KRE licenses.
 
@@ -111,7 +109,7 @@ Follow these steps:
 
     For KRE, the newly-created offline license file is named `KRE_<machineID>.lic` and added in the **Offline Licenses** section.
 
-7. Download and transfer the offline license files to Users.
+7. Download and transfer the offline license files to the User.
 
 See also:
 * [Manage Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license-utilization-dashboard.html#license-usage-visualization).
