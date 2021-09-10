@@ -6,7 +6,6 @@ redirect_from:
     - "katalon-studio/tutorials/shadow_dom_elements_testing.html"
 description:
 ---
-<INTRODUCTION>
 
 > Requirements
 > - Chrome Browser version from 53 onwards. To see browser versions with shadow DOM support here: [Shadow DOM (V1)](https://caniuse.com/shadowdomv1)
@@ -16,7 +15,7 @@ Shadow DOM is a useful solution for Web developers. It helps web developers bett
 
 In this article, we demonstrate how to test shadow DOM elements in the Katalon Studio framework.
 
-We use the demo site [Books](https://books-pwakit.appspot.com/explore?q=). All the elements in this demo website are under a shadow root. This demonstration identifies shadow DOM objects to test inputting: "hello World" into the website's search bar.
+We use the demo site [Books](https://books-pwakit.appspot.com/explore?q=). All the elements in this demo website are under a shadow root. In this demonstration, we identify shadow DOM objects to test inputting: "hello World" into the website's search bar.
 
 Do as follows:
 
