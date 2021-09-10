@@ -37,7 +37,7 @@ Do as follows:
    
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/shadow_dom_elements_testing/KS-DOM-Property-of-shadow-DOM-elements.png" width="70%" alt="Identify the property of child object">
 
-4. After identifying the property of parent object and child object, switch back to the Katalon Studio framework to create them. 
+4. After identifying the property of the parent object and the child object, return to the Katalon Studio framework to create them. 
     
     Katalon Studio supports the following selection methods to create the object's properties: Attributes, XPath, CSS, Image. Learn more about [Selection Method](https://docs.katalon.com/katalon-studio/docs/web-selection-methods.html#change-the-css-selector-of-an-object-at-runtime). 
     
@@ -97,7 +97,7 @@ Do as follows:
 
         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/shadow_dom_elements_testing/KS-DOM-after-defining-parent-object-for-the-child-object.png" width="70%" alt="Results after pointing the child object to the parent object">
 
-5. Next, create a new test case. Go to **File > New > Test Case**. Name it **Shadow DOM Test** and open it.
+5. Next, create a new test case. Go to **File > New > Test Case**. Name it as **Shadow DOM Test**.
    
 6. In the new test case, switch to the Script tab, copy and paste the following script into the test script.
 
