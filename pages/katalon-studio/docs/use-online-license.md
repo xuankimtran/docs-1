@@ -55,7 +55,7 @@ However, to optimize license usage and avoid session termination, the Owner and 
 
   > Notes:
   >
-  > For instructions on activating the KRE license, see [Activate KRE Licenses](https://docs.katalon.com/katalon-studio/docs/kre_license_activation.html).
+  > For instructions on activating the KRE licenses, see [Activate KRE Licenses](https://docs.katalon.com/katalon-studio/docs/kre_license_activation.html).
 
 ### Create an offline license
 
