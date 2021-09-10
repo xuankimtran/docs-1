@@ -4,7 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/shadow_dom_elements_testing.html
 redirect_from:
     - "katalon-studio/tutorials/shadow_dom_elements_testing.html"
-description: "This article will show you how Katalon Studio solves Shadow DOM problem and let you test shadow DOM elements in a straightforward way"
+description:
 ---
 <INTRODUCTION>
 
