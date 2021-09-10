@@ -12,11 +12,11 @@ description:
 > - Chrome Browser version from 53 onwards. To see browser versions with shadow DOM support here: [Shadow DOM (V1)](https://caniuse.com/shadowdomv1)
 > 
 
-Shadow DOM is a useful solution for Web developers. It helps web developers to better encapsulate their code by allowing DOM elements to contain child node and CSS. Nevertheless, it becomes a challenge for automation testing because elements inside a shadow root technically don't exist in the main document DOM. Therefore, test automation frameworks that use the DOM query function don't work properly.
+Shadow DOM is a useful solution for Web developers. It helps web developers better encapsulate their code by allowing DOM elements to contain child nodes and CSS. Nevertheless, it becomes a challenge for automation testing because elements inside a shadow root technically don't exist in the main document DOM. Therefore, test automation frameworks that use the DOM query function don't work properly.
 
-In this artical, we demonstrate how to test shadow DOM elements in Katalon Studio framework.
+In this article, we demonstrate how to test shadow DOM elements in the Katalon Studio framework.
 
-We use the demo site [Books](https://books-pwakit.appspot.com/explore?q=). All the elements in this demo website are under a shadow root. In this demonstration, we identify shadow DOM objects to test inputting: "hello World" into the website's search bar.
+We use the demo site [Books](https://books-pwakit.appspot.com/explore?q=). All the elements in this demo website are under a shadow root. This demonstration identifies shadow DOM objects to test inputting: "hello World" into the website's search bar.
 
 Do as follows:
 
@@ -41,12 +41,12 @@ Do as follows:
     
     Katalon Studio supports the following selection methods to create the object's properties: Attributes, XPath, CSS, Image. Learn more about [Selection Method](https://docs.katalon.com/katalon-studio/docs/web-selection-methods.html#change-the-css-selector-of-an-object-at-runtime). 
     
-    In this example, we use **Attributes** method.
+    In this example, we use the **Attributes** method.
 
     - Create the parent object: 
 
       - Go to **File > New > Test Object**. Name it as **book_app**.
-      - In the **Object's Properties** section, click **Add**. An **Add Property** dialogs open. 
+      - In the **Object's Properties** section, click **Add**. An **Add Property** dialog opens. 
       - Fill in the **Add Property** dialog as shown below: 
         <table width="592">
         <tbody>
@@ -62,15 +62,15 @@ Do as follows:
         </tr>
         </tbody>
         </table>
-      - Click **OK**. The `apptitle` property appears in the **Object 's Properties** section.
-      - Check **Detect object by** box in the `apptitle` property line to generate a **Selected Locator** for the object.  
+      - Click **OK**. The `apptitle` property appears in the **Object's Properties** section.
+      - Check the **Detect object by** box in the `apptitle` property line to generate a **Selected Locator** for the object.  
 
         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/shadow_dom_elements_testing/KS-DOM-Results-after-creating-the-parent-objects.png" width="70%" alt="Results after creating the parent object">
     
     - Create the child object:
    
       - Go to **File > New > Test Object**. Name it as **input**.
-      - In the **Object's Properties** section, click **Add**. An **Add Property** dialogs open. 
+      - In the **Object's Properties** section, click **Add**. An **Add Property** dialog opens. 
       - Fill in the **Add Property** dialog as shown below: 
         <table width="592">
         <tbody>
