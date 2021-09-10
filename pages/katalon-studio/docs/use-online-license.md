@@ -77,9 +77,11 @@ For example, if User A logs in to Machine A, Katalon generates a machine ID X. A
 
 > Requirements:
 >
-> An **annual** node-locked license.
+> * You can only convert an **annual** node-locked license into an offline license.
 >
-> You must be the Owner or Admin of your Organization.
+> * You must be the Owner or Admin of your Organization.
+>
+> * You have already received the User's machine ID. See [Activation doc?](link) for instructions on how to find the machine ID.
 
 Follow these steps:
 
