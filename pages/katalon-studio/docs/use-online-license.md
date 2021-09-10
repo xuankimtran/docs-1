@@ -79,7 +79,7 @@ For example, if User A logs in to A's account on Machine A, Katalon generates a 
 >
 > * You must be the Owner or Admin of your Organization.
 >
-> * You have already received the User's machine ID. See [Activation doc?](link) to instruct users to find their machine IDs.
+> * You have already received the User's machine ID. See [Manage Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license-management.html) for instructions on how to find a machine ID.
 
 Follow these steps:
 
