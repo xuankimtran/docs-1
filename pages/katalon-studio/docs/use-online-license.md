@@ -111,6 +111,10 @@ Follow these steps:
 
 7. Download and transfer the offline license files to the User.
 
+    > Notes:
+    >
+    > For instructions on activating the offline licenses, see [Activate KSE Licenses](https://docs.katalon.com/katalon-studio/docs/kse_license_activation.html) and [Activate KRE Licenses](https://docs.katalon.com/katalon-studio/docs/kre_license_activation.html).
+
 See also:
 * [Manage Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license-utilization-dashboard.html#license-usage-visualization).
 * [License Utilization Dashboard](https://docs.katalon.com/katalon-studio/docs/license-utilization-dashboard.html#license-usage-visualization).
