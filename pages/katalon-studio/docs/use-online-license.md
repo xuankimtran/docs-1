@@ -65,9 +65,9 @@ An offline license expires at the end of your subscription period. It can also b
 
 When an offline license expires, you can generate a new offline license file to continue using KSE/KRE offline, or you can switch to an online license instead.
 
-As a machine ID is required to create an offline license, Katalon generates a machine ID based on the hardware specifications and the user's account logging in to that machine at the generation time.
+As a machine ID is required to create an offline license, Katalon generates a machine ID based on the hardware specifications and the user's account logging in to that machine.
 
-For example, if User A logs in to Machine A, Katalon generates a machine ID X. At the same time, if User B logs in to Machine A, Katalon generates a machine ID Y. This means that you need two offline licenses for User A and User B.
+For example, if User A logs in to A's account on Machine A, Katalon generates a machine ID X. If User B logs in to B's account on Machine A, Katalon generates a machine ID Y. This means that you need two offline licenses for User A and User B.
 
 > Notice:
 >
