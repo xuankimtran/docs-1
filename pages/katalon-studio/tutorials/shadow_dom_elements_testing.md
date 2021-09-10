@@ -9,7 +9,7 @@ description:
 <INTRODUCTION>
 
 > Requirements
-> - Chrome Browser version from 53 onwards. To see full browser version with shadow DOM support here: [Shadow DOM (V1)](https://caniuse.com/shadowdomv1)
+> - Chrome Browser version from 53 onwards. To see browser versions with shadow DOM support here: [Shadow DOM (V1)](https://caniuse.com/shadowdomv1)
 > 
 
 Shadow DOM is a useful solution for Web developers. It helps web developers to better encapsulate their code by allowing DOM elements to contain child node and CSS. Nevertheless, it becomes a challenge for automation testing because elements inside a shadow root technically don't exist in the main document DOM. Therefore, test automation frameworks that use the DOM query function don't work properly.
@@ -31,7 +31,7 @@ Do as follows:
 3. At this point, there are two Shadow DOM elements that you need to identify in the Chrome Developer tool:
     - The property of the parent object. The parent object is the shadow host. In this demo site, `book-app` is the parent object.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/shadow_dom_elements_testing/KS-DOM-Property-of-shadow-host.png" width="70%" alt="Identify the property of shadow host">
+    <img src="https://github.com/katalon-studio/docs-images/raw/59a8792abbe002830ddd808284c7a51a43fb5acb/katalon-studio/tutorials/shadow_dom_elements_testing/KS-DOM-Property-of-shadow-host.png" width="70%" alt="Identify the property of shadow host">
 
     - The property of the child object. The child object is the inspecting shadow DOM elements. In this example, we look at the property of the search bar's elements.
    
