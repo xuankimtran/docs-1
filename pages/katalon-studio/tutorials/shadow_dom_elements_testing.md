@@ -24,11 +24,11 @@ Do as follows:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/339de0f5ad5bce4f4dc1d8d7ef8f0ea6b5d0780a/katalon-studio/tutorials/shadow_dom_elements_testing/Katalon-DOM-testing.png" width="70%" alt="Create a project">
 
-2. In the demo website, to inspect the search bar's elements, right-click at it, then click **Inspect**. A Chrome Developer tool opens and highlights its elements.
+2. In the demo website, navigate to the search bar, **right-click > Inspect**. The **Chrome Developer** tool opens and highlights its elements.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/shadow_dom_elements_testing/KS-DOM-Inspect-web-object%20element%20.png" width="70%" alt="Inspect web object element">
 
-3. At this point, there are two Shadow DOM elements that you need to identify in the Chrome Developer tool:
+3. At this point, there are two Shadow DOM elements that you need to identify in the **Chrome Developer** tool:
     - The property of the parent object. The parent object is the shadow host. In this demo site, `book-app` is the parent object.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/59a8792abbe002830ddd808284c7a51a43fb5acb/katalon-studio/tutorials/shadow_dom_elements_testing/KS-DOM-Property-of-shadow-host.png" width="70%" alt="Identify the property of shadow host">
