@@ -14,15 +14,15 @@ In this guide, you will learn to assign Katalon Studio Enterprise (KSE) and Kata
 
 > Notes:
 >
-> An **Online License** of KSE and KRE is transferable among registered users of an organization as long as the number of active licenses does not exceed the license quota. See: [Manage Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license-management.html).
+> * An **Online License** of KSE and KRE is transferable among registered users of an organization as long as the number of active licenses does not exceed the license quota. The Owner or Admin of an Organization can grant licenses to any team member. The Owner or Admin can also revoke this action anytime. See: [Manage Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license-management.html).
 
 > Requirements:
 >
-> You must add team members to your Organization. See: [TestOps User Management](https://docs.katalon.com/katalon-analytics/docs/kt_invite_user_org.html#invite-a-user-to-join-an-organization).
+> * You must be the Owner or Admin of your Organization.
 >
-> The Owner or Admin of an Organization can grant licenses to any team member. The Owner or Admin can also revoke this action anytime. See: [Manage Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license-management.html).
+> * You have already added team members to your Organization. See: [TestOps User Management](https://docs.katalon.com/katalon-analytics/docs/kt_invite_user_org.html#invite-a-user-to-join-an-organization).
 
-Follow these steps to grant a KSE license:
+Follow these steps to grant KSE licenses:
 
 1. Sign in to [Katalon TestOps](https://testops.katalon.io/login), then go to **Settings** > **License Management**.
 
@@ -79,7 +79,7 @@ For example, if User A logs in to A's account on Machine A, Katalon generates a 
 >
 > * You must be the Owner or Admin of your Organization.
 >
-> * You have already received the User's machine ID. See [Activation doc?](link) for instructions on how to find the machine ID.
+> * You have already received the User's machine ID. See [Activation doc?](link) to instruct users to find their machine IDs.
 
 Follow these steps:
 
