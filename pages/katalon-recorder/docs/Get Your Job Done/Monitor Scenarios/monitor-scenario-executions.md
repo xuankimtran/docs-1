@@ -8,7 +8,7 @@ description:
 
 You can integrate Katalon Recorder with [Katalon TestOps](https://www.katalon.com/testops/)) to upload and view execution history.
 
-There are three steps to upload executions to TestOps.
+There are four steps to upload executions to TestOps.
 1. Login to TestOps.
 2. Create a TestOps project.
 3. Execute tests in Katalon Recorder.
