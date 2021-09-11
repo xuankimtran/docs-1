@@ -5,70 +5,43 @@ permalink: katalon-recorder/docs/conditional-cases.html
 description:
 ---
 
-Handling conditional cases may become important when you want your scenarios to be executed successfully under different circumstances. An example of that is a website whose functionality depends on the log-in state. You have to log in first, only then you can use the functionality.
+Katalon Recorder supports the following flow control methods:
+- Branching.
+- Loops
 
-The test scenario
 
-1.  Go to <https://katalon-demo-cura.herokuapp.com/>
-2.  If you are not logged in, go to **Log in** screen then log in into the system. Otherwise, skip this step.
-3.  Select **Hongkong CURA Healthcare Center** in the **Facility** drop down
+## Branching
 
-## Record the scenario
+Conditional branching allows your test to behave differently based on certain conditions.
 
-1/ Start recording on Katalon Recorder
+### if
+The `if` command opens a conditional branch. The target of an `if` a command is an expression that evaluates to either `true` or `false`. The expression can be a JavaScript expression that use variables. If the expression evaluates to `true`, all the steps following `if`  will be executed until a `else if`, `else` or `endif` command is found.
 
-![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/conditional-cases/media/image1.png)
+### else if
+The `elseif` command is similar to the `if` command. If the steps between `if` and `elseif` are not executed, the expression in `elseif` will be evaluated. If the expression evaluates to `true`, all commands following `elseif` will be executed until a `else if`, `else`, or `endif` command is found.
 
-2/ On the Chrome\'s active tab, go to <https://katalon-demo-cura.herokuapp.com/>
+### else
+The `else` command usually follows the  `if` command. If the steps between `if` and `else` are not executed, the steps following `else` will be executed until a `endif` command is found.
 
-_Notes: Make sure that you are not logged in._
+### endif
+The `endif` command terminates the conditional branching block. You need to add `endif` to your test, otherwise you will get an error message.
 
-3/ Click on the hamburger menu then click on Login link
+## Looping
 
-![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/conditional-cases/media/image2.png)
+Looping allows you to repeat steps until a condition is met.
 
-4/ Input the Username and Password that are on the screen
+### while
+The `while` starts a loop. The target of a `while` command is an expression that evaluates to either `true` or `false`. The expression can be a JavaScript expression that use variables. If the expression evaluates to `true`, the steps following `while` will be executed until `endwhile`, at which point the expression evaluates again. The steps between `while` and `endwhile` will be executed repeatedly until the expression evaluates to `false`.
 
-![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/conditional-cases/media/image3.jpeg)
+### endWhile
+The `endif` command terminates the looping branching block. You need to add `endif` to your test, otherwise you will get an error message.
 
-5/ Select 'Hongkong CURA Healthcare Center' in the Facility drop down
 
-![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/conditional-cases/media/image4.png)
+## Sample Projects
+Katalon Recorder comes with some sample projects (templates) to help you get started with flow controls.
+1. In Katalon Recorder, go to Templates.
+2. Choose *Conditional and loops* from the left-side bar.
+3. Check the sample projects.
+4. Click on the **Add Templates** button.
 
-Then, you got this automated steps
-
-![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/conditional-cases/media/image5.png)
-
-6/ Run the test, it will be failed due to there is no Login link
-
-![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/conditional-cases/media/image6.jpeg)
-
-7/ Manually log out the web, then run the test again, it should be passed
-
-![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/conditional-cases/media/image7.jpeg)
-
-## Add conditional statements
-
-Manually add **IF statement** to check the log-in state. If user is already logged in, then we want to only select the value. Otherwise, we want to log in into the system first.
-
-1/ Add a new test step after Open command
-
-![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/conditional-cases/media/image8.jpeg)
-
-2/ Add storeElementPresent step to store a value into a variable
-
-![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/conditional-cases/media/image9.jpeg)
-
-3/ Add IF statement after storeElementPresent command
-
-![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/conditional-cases/media/image10.jpeg)
-
-4/ Add ELSE statement before Select facility command
-
-![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/conditional-cases/media/image11.jpeg)
-
-5/ Run the test several times
-
-The test case should be passed for both cases, logged and not logged in.
-
-![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/conditional-cases/media/image12.jpeg)
+You should see the sample projects are added to your workspace.

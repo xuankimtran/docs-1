@@ -1429,16 +1429,12 @@ items:
                 url: /katalon-recorder/docs/selenese-selenium-ide-commands-reference.html
               - title: "Create your first automation script"
                 url: /katalon-recorder/docs/automate-scenarios.html
-              - title: "Handle conditional cases"
+              - title: "Control the flows"
                 url: /katalon-recorder/docs/conditional-cases.html
-              - title: "Verify or assert state"
-                url: /katalon-recorder/docs/validate-expected-values.html
-              - title: "Back up data automatically to Katalon TestOps"
+              - title: "Back up data automatically"
                 url: /katalon-recorder/docs/auto-backup.html
           - title: "Execute scenarios"
             tree:
-              - title: "Execution modes"
-                url: /katalon-recorder/docs/execute-scenarios.html
               - title: "Use the Self-Healing function"
                 url: /katalon-recorder/docs/self-healing.html 
               - title: "Use the Commande-Line Runner"
@@ -1455,10 +1451,6 @@ items:
                 url: /katalon-recorder/docs/writing-custom-script-formatter.html
           - title: "Data-driven excecution"
             url: /katalon-recorder/docs/data-driven-execution.html
-          - title: "Social"
-            tree:
-              - title: "Daily Usage"
-                url: /katalon-recorder/docs/daily-usage.html
           - title: "Extend Katalon Recorder"
             tree:
               - title: "Katalon Recorder Helper Tool"
