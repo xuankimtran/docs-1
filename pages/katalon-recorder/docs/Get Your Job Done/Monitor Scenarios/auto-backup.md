@@ -11,7 +11,10 @@ description:
 
 Once you see the below message, your **Katalon Recorder** data will be automatically backed up and retained in **Katalon TestOps** for 7 days.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/kr-backup/1-kr-data.png)
+## Backup data to Katalon TestOps
+1. Log in to Katalon TestOps using your Katalon account.
+2. Go to Katalon Recorder.
+3. Click on the **Backup data** action.
 
 ## View backup data in Katalon TestOps
 

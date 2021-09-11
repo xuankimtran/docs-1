@@ -1447,9 +1447,9 @@ items:
                 url: /katalon-recorder/docs/self-healing.html 
               - title: "Use the Commande-Line Runner"
                 url: /katalon-recorder/docs/command-line-runner.html 
-          - title: "Monitor scenarios"
+          - title: "Execution report"
             tree:
-              - title: "Monitor automation script executions"
+              - title: "View execution reports in TestOps"
                 url: /katalon-recorder/docs/monitor-scenario-executions.html
           - title: "Export scenarios"
             tree:
