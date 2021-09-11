@@ -15,7 +15,7 @@ The following fields are supported in Katalon Studio:
 | --- | --- |
 | Consumer Key | The API key associated with the application (Twitter, Facebook, etc.). This key (or 'client ID', as Facebook calls it) is what identifies the client, which is a website/service that is trying to access an end-user's resources. |
 | Consumer Secret | The client's password that is used to authenticate with the authentication server, which is a Twitter/Facebook/etc. server that authenticates the client. |
-| Signature Method | The Consumer used this to sign the request _For signature method RSA-SHA1, only support OpenSSL RSA Private key with **PKCS#8 or PKCS#1 format**_ |
+| Signature Method | The Consumer uses either **HMAC-SHA1** or **RSA-SHA1** to sign the request. For signature method RSA-SHA1, only OpenSSL RSA Private key with **PKCS#8** or **PKCS#1** format is supported.|
 | Token | What is issued to the client once the client successfully authenticates itself (using the consumer key & secret). This access token defines the privileges of the client (what data the client can and cannot access) |
 | Token Secret | The string sent with the access token as a password |
 | Realm | The Provider basically decides if this is of any importance. It is the counterpart of the WWW-authenticate response header. If a server returns a WWW-authenticate header of 'OAuth realm="[https://api.example.com](https://api.example.com/)"' then it probably parses that value from the Authenticate request header in the OAuth process. |

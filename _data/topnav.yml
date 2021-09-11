@@ -14,6 +14,9 @@ topnav:
     - title: Videos
       url: /katalon-studio/videos/index.html
       parenturl: /katalon-studio/videos
+    # Add Academy into nav menu at the docs resource
+    - title: Academy
+      external_url: https://academy.katalon.com/?utm_source=menu&utm_medium=docs
     # - title: FAQs
     #   url: /faqs/licensing.html
     #   parenturl: /faqs

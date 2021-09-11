@@ -47,6 +47,8 @@ items:
         tree:
           - title: "Overview"
             url: /katalon-analytics/docs/testops_subscriptions_overview.html
+          - title: "Pricing and Feature Comparisons"
+            url: /katalon-analytics/docs/testops-packages.html
           - title: "Trial Plans"
             url: /katalon-analytics/docs/trial-plans.html
           - title: "Manage Subscriptions"
@@ -1089,6 +1091,8 @@ items:
         tree:
           - title: "Using Plugins"
             url: /katalon-studio/docs/kse-use-plugins.html
+          - title: "Installing Plugin Offline"
+            url: /katalon-studio/docs/install-plugin-offline.html
           - title: "Integration Plugins"
             url: /katalon-studio/docs/integration-plugins.html
           - title: "Auto-healing Smart XPath"
@@ -1173,8 +1177,10 @@ items:
             url: /katalon-studio/docs/using-autoit-for-authentication-in-katalon-studio.html
       - title: "Proof of Concept"
         tree:
-          - title: "Dependencies Management with Native Gradle Support"
+          - title: "Dependencies Management with Native Gradle Support (Poc)"
             url: /katalon-studio/docs/dependencies-management-gradle-support.html
+          - title: "Parameterize Azure DevOps Test Case ID List (PoC)"
+            url: /katalon-studio/docs/parameterize-ado-test-case-id.html  
       - title: "Javadoc"
         url: /katalon-studio/docs/javadoc.html
       - title: "Deprecated Documentation"
@@ -1195,6 +1201,8 @@ items:
         url: /katalon-studio/docs/export-test-results-in-junit-format.html
       - title: "Command Syntax (Command-line/Console Mode Execution)"
         url: /katalon-studio/docs/console-mode-execution.html
+      - title: "Specify a path to Android SDK root folder"
+        url: /katalon-studio/how-to-guides/how-to-specify-android-home-path.html
       - title: "Terminate Execution Conditionally"
         url: /katalon-studio/docs/terminate-execution-conditionally.html
       - title: "Docker Image"
@@ -1301,7 +1309,7 @@ items:
                 url: /katalon-analytics/docs/auto-distributed-execution.html
           - title: "Docker Test Environments"
             url: /katalon-analytics/docs/docker.html
-          - title: "Create a Kubernetes Test Environments"
+          - title: "Kubernetes Test Environments"
             url: /katalon-analytics/docs/aws-eks.html
       - title: "Test Planning"     
         tree: 
@@ -1385,7 +1393,7 @@ items:
             url: /katalon-analytics/docs/ip-settings.html
           - title: "Subdomain Configurations"
             url: /katalon-analytics/docs/subdomain.html
-          - title: "Single Sign-On (SSO) Configurations"
+          - title: "Single Sign-On Configurations"
             url: /katalon-analytics/docs/sso-settings.html
           - title: "Configure Network Security"
             url: /katalon-analytics/docs/network-config.html
