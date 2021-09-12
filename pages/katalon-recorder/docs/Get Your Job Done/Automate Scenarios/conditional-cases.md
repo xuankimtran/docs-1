@@ -15,7 +15,7 @@ Katalon Recorder supports the following flow control methods:
 Conditional branching allows your test to behave differently based on certain conditions.
 
 ### if
-The `if` command opens a conditional branch. The target of an `if` a command is an expression that evaluates to either `true` or `false`. The expression can be a JavaScript expression that use variables. If the expression evaluates to `true`, all the steps following `if`  will be executed until a `else if`, `else` or `endif` command is found.
+The `if` command opens a conditional branch. The target of an `if` command is an expression that evaluates to either `true` or `false`. The expression can be a JavaScript expression with variables. If the expression evaluates to `true`, all the steps following `if`  will be executed until a `else if`, `else` or `endif` command is found.
 
 ### else if
 The `elseif` command is similar to the `if` command. If the steps between `if` and `elseif` are not executed, the expression in `elseif` will be evaluated. If the expression evaluates to `true`, all commands following `elseif` will be executed until a `else if`, `else`, or `endif` command is found.
@@ -31,7 +31,7 @@ The `endif` command terminates the conditional branching block. You need to add 
 Looping allows you to repeat steps until a condition is met.
 
 ### while
-The `while` starts a loop. The target of a `while` command is an expression that evaluates to either `true` or `false`. The expression can be a JavaScript expression that use variables. If the expression evaluates to `true`, the steps following `while` will be executed until `endwhile`, at which point the expression evaluates again. The steps between `while` and `endwhile` will be executed repeatedly until the expression evaluates to `false`.
+The `while` command starts a loop. The target of a `while` command is an expression that evaluates to either `true` or `false`. The expression can be a JavaScript with variables. If the expression evaluates to `true`, the steps following `while` will be executed until `endwhile` is found and the expression evaluates again. The steps between `while` and `endwhile` will be executed repeatedly until the expression evaluates to `false`.
 
 ### endWhile
 The `endif` command terminates the looping branching block. You need to add `endif` to your test, otherwise you will get an error message.

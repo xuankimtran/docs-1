@@ -14,23 +14,23 @@ There are two steps to perform data-driven execution:
 3. Modify your test to use the data.
 
 ### Add data files to workspace
-Katalon Recorder supports CSV and JSON data files. They can be added to your workspace.
+Katalon Recorder supports adding CSV and JSON data files to your workspace: 
 1. Click on the add icon next to **Test Data** in the **Workspace** left-side bar.
-2. Select CSV or a JSON files.
+2. Select CSV or JSON files.
 
-You should see your data files are added to your workspace under **Test Data**.
+You should see your data files under **Test Data**.
 
 ### Add data-driven commands
 Refer to [Data-driven commands](#data-driven-commands) for more information.
 1. Add a `loadVars` command to the beginning of your test.
-2. Type in the name of the data file in your workspace (for example, `data.csv`) to the target of the `loadVars` command.
+2. Type in the data file name to the target of the `loadVars` command (for example, `data.csv`).
 3. Add a `endLoadVars` command to the end of your test.
 
-### Modify your test to use the data
+### Change your test to use variables
 
-Modify the Value field of the test steps to use variables. 
+Use variables with the same names as the columns in your CSV file.
 
-For example, if you CSV file contains a column named `firstName` that contains a row of values, then modify a test step `type | id=first-name | Thomas` to `type | id=first-name | ${firstName}` will make it use the data from the CSV file.
+For example, if your CSV file has a column named `firstName`, then you can change a test step `type | id=first-name | Thomas` to `type | id=first-name | ${firstName}` will make it use the data from that column.
 
 ## Data-driven commands
 ### loadVars
