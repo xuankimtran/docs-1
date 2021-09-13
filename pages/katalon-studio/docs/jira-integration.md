@@ -122,9 +122,9 @@ When importing Jira tickets with BDD feature file from Jira Cloud, you can impor
 
 Once this setting is configured successfully in Project Settings, the custom field’s content will be retrieved like in Jira Server integration. 
 
-## View Test Results on Jira
+## View Test Results in Jira
 
-After a test suite execution finishes, Katalon Studio automatically uploads a test result to the integrated Jira issue. You can view the test result and its attachments (if you have predefined in Project Settings) on Jira.
+After a test suite execution finishes, Katalon Studio automatically uploads a test result to the integrated Jira issue. You can view the test result and its attachments (if you have predefined in Project Settings) in Jira.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jira-plugin-integration/image2017-8-2-173A563A40.png)
 
