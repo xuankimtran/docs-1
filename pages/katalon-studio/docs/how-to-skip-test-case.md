@@ -50,8 +50,9 @@ Inside the **SkipTest** Listener, copy and patse the following code under the ge
 This helps check for the desired condition and skip the test case if true.
    
 ```groovy
-if(inputyourconditionhere){
-testCaseContext.skipThisTestCase()
+if(inputyourconditionhere)
+{   testCaseContext.skipThisTestCase()
+}
 ```
 
 4. Return to your test suite and run it. Check the results in the **Results** tab to see the final status of your tests.
