@@ -63,9 +63,8 @@ WebDriver webdriver = DriverFactory.getWebDriver()
 EventFiringWebDriver eventFiring = ((webdriver) as EventFiringWebDriver)
 
 eventFiring.register(new MyCustomWebEventListener())
-// Don't use changeWebDriver, there's a bug we will fix in upcoming releases and will update
-// the docs to reflect the fix
-DriverFactory.changeWebDriverWithoutLog(eventFiring)
+
+DriverFactory.changeWebDriver(eventFiring)
 
 WebUI.navigateToUrl('www.google.com')
 
@@ -75,19 +74,24 @@ WebUI.closeBrowser()
 3. Observe the result in the Console log.
 
 ```groovy
-2019-09-06 13:45:55.845 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 2cde39924e0651313007e6beedae94bf
-2019-09-06 13:45:55.865 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 76.0.3809.132
-2019-09-06 13:45:55.866 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
-2019-09-06 13:45:55.867 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 3.141.59
-2019-09-06 13:45:55.876 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}
-2019-09-06 13:45:55.888 DEBUG testcase.Event Firing Web Driver         - 2: webdriver = getWebDriver()
-2019-09-06 13:45:55.895 DEBUG testcase.Event Firing Web Driver         - 3: eventFiring = webdriver
-2019-09-06 13:45:55.910 DEBUG testcase.Event Firing Web Driver         - 4: eventFiring.register(new customlistener.MyCustomWebEventListener())
-2019-09-06 13:45:55.927 DEBUG testcase.Event Firing Web Driver         - 5: changeWebDriverWithoutLog(eventFiring)
-2019-09-06 13:45:55.947 DEBUG testcase.Event Firing Web Driver         - 6: navigateToUrl("www.google.com")
+2021-09-13 09:16:21.722 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = ebf7a901164241457b656ffece5da9b0
+2021-09-13 09:16:21.747 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 93.0.4577.63
+2021-09-13 09:16:21.753 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2021-09-13 09:16:21.754 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 3.141.59
+2021-09-13 09:16:21.773 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2021-09-13 09:16:22.642 DEBUG testcase.WebDriver Event Listeners       - 2: webdriver = getWebDriver()
+2021-09-13 09:16:22.652 DEBUG testcase.WebDriver Event Listeners       - 3: eventFiring = webdriver
+2021-09-13 09:16:22.673 DEBUG testcase.WebDriver Event Listeners       - 4: eventFiring.register(new customlistener.MyCustomWebEventListener())
+2021-09-13 09:16:22.693 DEBUG testcase.WebDriver Event Listeners       - 5: changeWebDriver(eventFiring)
+2021-09-13 09:16:22.699 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = ebf7a901164241457b656ffece5da9b0
+2021-09-13 09:16:22.711 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 93.0.4577.63
+2021-09-13 09:16:22.711 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2021-09-13 09:16:22.712 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 3.141.59
+2021-09-13 09:16:22.713 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2021-09-13 09:16:22.722 DEBUG testcase.WebDriver Event Listeners       - 6: navigateToUrl("www.google.com")
 Before navigating to http://www.google.com
-2019-09-06 13:45:56.965 DEBUG testcase.Event Firing Web Driver         - 7: closeBrowser()
-2019-09-06 13:45:57.091 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Ev
+2021-09-13 09:16:23.220 DEBUG testcase.WebDriver Event Listeners       - 7: closeBrowser()
+2021-09-13 09:16:23.243 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/WebDriver Event Listeners
 ```
 
 ## Use RemoteWebDriver
