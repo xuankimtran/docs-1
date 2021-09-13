@@ -46,7 +46,7 @@ class Skiptest {
 
 3. Use the `TestCaseContext.skipThisTestCase()` method to skip test cases. See also [skipThisTestCase()](https://docs.katalon.com/javadoc/com/kms/katalon/core/context/TestCaseContext.html#skipThisTestCase()).
    
-Inside the **SkipTest** Test Listener, copy and patse the code under the generated sample template.
+Inside the **SkipTest** Listener, copy and patse the code under the generated sample template.
 This helps check for the desired condition and skip the test case if true.
    
 ```groovy
