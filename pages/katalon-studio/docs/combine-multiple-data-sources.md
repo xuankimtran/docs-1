@@ -24,7 +24,7 @@ In the extending **Data Binding** section, there are two tables:
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/design-a-test-suite/image2017-6-30-213A473A37.png" width="50%" alt="">
 
 
-2. In the **Test Data Browser** dialog, select a combination of data files you wish to use for variable binding. Click **OK**. The selected test data files appear in the **Test Data** table.
+2. Select a combination of data files you wish to use for variable binding in the **Test Data Browser** dialog. Click **OK**. The selected test data files appear in the **Test Data** table.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/combine-multiple-data-sources/data-browser.png" width="50%" alt=""> 
 
@@ -38,7 +38,7 @@ Double-click on the cell under the **Data Iteration** column of each data files 
 
 **Where**
 
-<table><thead><tr><th>Option</th><th>Description</th></tr></thead><tbody><tr><td>Run all rows</td><td>All the data rows in the data file will be used during test execution.</td></tr><tr><td>Run from row ... to row ...</td><td>The data range from a particular row to another particular row in the data file will be used during test execution.</td></tr><tr><td>Run with specific rows</td><td><p>The data rows which are specified here will be used during test execution. You can use <strong>comma</strong> and <strong>hyphen</strong> characters to define the rows.</p><p>For example:</p><ul><li>to use three data rows (row 1, row 2, row 3), enter: 1,2,3</li><li>to use six data rows (row 1, row 2, row 3, row 4, row 5, row 9), enter: 1-5,9</li></ul></td></tr></tbody></table>
+<table><thead><tr><th>Option</th><th>Description</th></tr></thead><tbody><tr><td>Run all rows</td><td>To use all the data rows in the data file in the test execution.</td></tr><tr><td>Run from row ... to row ...</td><td>To use the data range from a particular row to another particular row in the data file during the test execution.</td></tr><tr><td>Run with specific rows</td><td><p>To use the specific data rows in the data file during test execution. You can use <strong>comma</strong> and <strong>hyphen</strong> characters to define the rows.</p><p>For example:</p><ul><li>to use three data rows (row 1, row 2, row 3), enter: 1,2,3</li><li>to use six data rows (row 1, row 2, row 3, row 4, row 5, row 9), enter: 1-5,9</li></ul></td></tr></tbody></table>
 
 ### Manage test data relationship
 
