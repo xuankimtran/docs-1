@@ -48,8 +48,8 @@ You can also further define the relationship among them as below:
 
 | Relationship Type | Description |
 | --- | --- |
-| One | The data set will be indicated as 'One' in the relationship with other data set. |
-| Many | The data set will be indicated as 'Many' in the relationship with other data set. |
+| One | To indicate the data set as 'One' in the relationship with the other data set. |
+| Many | To indicate the data set as 'Many' in the relationship with the other data set. |
 
 Therefore, we have the following combinations of data sets:
 
@@ -72,19 +72,20 @@ After adding the test case into the test suite, Katalon automatically imports al
     
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/combine-multiple-data-sources/bind-value.png" width="70%" alt="">
 
-4. Save the test suite when you're done.
+4. Save the test suite when you finish.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/combine-multiple-data-sources/binding.png" width="70%" alt="">
     
 During execution, the _username_ variable looks for the _Username_ column of the _valid-accounts_ excel file while the _password_ variable searches for the _Password_ column of the _valid-accounts_ CSV file.
 ### Bind to Scripting value
 
-This option allows you to associate the variables with other scripting value.
+This option allows you to associate the variables with other scripting values.
+
 1.  Highlight rows No. 1 and No.2 > click **Set Type** > select **Script Variable**.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/design-a-test-suite/image2017-8-31-153A193A20.png" width="70%" alt=""> 
 
-2.  Specify the data to be used in the **Value** cell. This value is  used during execution.
+2.  Specify the data used in the **Value** cell.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/design-a-test-suite/image2017-8-31-153A213A10.png" width="70%" alt=""> 
 
