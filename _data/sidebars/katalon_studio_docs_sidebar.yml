@@ -3,6 +3,8 @@ items:
     tree:
       - title: "Katalon Studio Enterprise"
         tree:
+          - title: "View License Details"
+            url: /katalon-studio/docs/view-license-details.html
           - title: "Katalon Trial and Free Plans"
             url: /katalon-studio/docs/trial-free-plans.html
           - title: "Subscribe to Katalon licenses"
