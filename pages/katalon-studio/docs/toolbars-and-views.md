@@ -42,44 +42,44 @@ The Main **Toolbar** contains the most common actions you usually perform (e.g
 			<td>
 				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A203A11.png" width=30% alt="Web Object Spy" /></p>
 			</td>
-			<td>Open <strong>Web Object Spy</strong> dialog for capturing elements on websites.</td>
+			<td>Open <strong>Spy Web</strong> dialog to capture elements on websites.</td>
 		</tr>
 		<tr>
 			<td>
 				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A203A32.png" width=30% alt="Mobile Object Spy" /></p>
 			</td>
-			<td>Open <strong>Mobile Object Spy</strong> dialog for capturing elements on mobile applications.</td>
+			<td>Open <strong>Spy Mobile</strong> dialog to capture elements on mobile applications.</td>
 		</tr>
         <tr>
 			<td>
-				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-toolbar-window-spy.png" width=30% alt="Window Spy" /></p>
+				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-toolbar-window-spy.png" width=30% alt="Spy Windows Object" /></p>
 			</td>
-			<td>Open <strong>Window Spy</strong> dialog for capturing elements on window.</td>
+			<td>Open <strong>Spy Windows Object</strong> dialog to capture elements in Windows.</td>
 		</tr>
 		<tr>
 			<td>
 				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A213A15.png" width=30% alt="Web Record" /></p>
 			</td>
-			<td>Open <strong>Web Record</strong> dialog for recording WebUI test cases.</td>
+			<td>Open <strong>Record Web</strong> dialog to record WebUI test cases.</td>
 		</tr>
         <tr>
 			<td>
 				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A203A56.png" width=30% alt="Mobile Recorder" /></p>
 			</td>
-			<td>Open <strong>Mobile Recorder</strong> dialog for recording Mobile test cases.</td>
+			<td>Open <strong>Record Mobile</strong> dialog to record mobile test cases.</td>
 		</tr>
         <tr>
 			<td>
 				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-toolbar-window-recorder.png" width=30% alt="Window Recorder" /></p>
 			</td>
-			<td>Open <strong>Window Recorder</strong> dialog for recording Window test cases.</td>
+			<td>Open <strong>Record Windows Actions</strong> dialog to record Windows test cases.</td>
 		</tr>
 		<tr>
 			<td>
 				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A213A34.png" width=40% alt="Run" /></p>
 			</td>
 			<td>
-				<p>Run the currently open test case. You can select these options by selecting from the dropdown list:</p>
+				<p>Run the currently open test case. You can select an app to run the test from the dropdown list:</p>
 				<ul>
 					<li>Chrome</li>
 					<li>Firefox</li>
@@ -99,7 +99,7 @@ The Main **Toolbar** contains the most common actions you usually perform (e.g
 				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A223A4.png" width=40% alt="Run and debug" /></p>
 			</td>
 			<td>
-				<p>Run and debug the currently open test case. You can select these options by selecting from the dropdown list:</p>
+				<p>Run and debug the currently open test case. You can select an app to run the test from the dropdown list:</p>
 				<ul>
 					<li>Chrome</li>
 					<li>Firefox</li>
@@ -126,25 +126,25 @@ The Main **Toolbar** contains the most common actions you usually perform (e.g
 			<td>
 				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-toolbar-stop.png" width=30% alt="Stop" /></p>
 			</td>
-			<td>Stop the current execution.</td>
+			<td>Stop the current test execution session.</td>
 		</tr>
 		<tr>
 			<td>
 				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A223A45.png" width=30% alt="" /></p>
 			</td>
-			<td>Open <strong>Command Builder</strong> for generating commands for console execution.</td>
+			<td>Open <strong>Command Builder</strong> to generate commands for console execution.</td>
 		</tr>
 		<tr>
 			<td>
 				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-3-153A93A34.png" width=50% alt="Execution profile" /></p>
 			</td>
-			<td>Execution profile (testing environments) to be applied when run tests.</td>
+			<td>Execution profile (testing environments) to be applied when running tests.</td>
 		</tr>
 		<tr>
 			<td>
 				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-toolbar-community.png" width=30% alt="" /></p>
 			</td>
-			<td>Allow you to access our Help Center and our Forum.</td>
+			<td>Allow you to access our <a href="https://www.katalon.com/help-center/">Help Center</a> and our <a href="https://forum.katalon.com/">Forum</a>.</td>
 		</tr>
 		<tr>
 			<td>
@@ -170,7 +170,7 @@ The Main **Toolbar** contains the most common actions you usually perform (e.g
 				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-toolbar-git.png" width=30% alt="" /></p>
 			</td>
 			<td>
-				<p>Command for Git activities. You can select these options by selecting from the dropdown list (after <a href="/display/KD/Git+Integration" rel="nofollow">enabling Git</a>):</p>
+				<p>Command for Git activities. You can select these options by selecting these options appear in the dropdown list (after <a href="/display/KD/Git+Integration" rel="nofollow">enabling Git</a>):</p>
 				<ul>
 					<li>Clone Project</li>
 					<li>Share Project</li>
@@ -187,13 +187,13 @@ The Main **Toolbar** contains the most common actions you usually perform (e.g
 			<td>
 				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-toolbar-TestOps.png" width=30% alt="TestOps" /></p>
 			</td>
-			<td><a href="https://docs.katalon.com/katalon-analytics/docs/overview.html" rel="nofollow">Katalon TestOps</a> is an enterprise-class platform for QA orchestration, test analytics, and advanced reports.</td>
+			<td><a href="https://docs.katalon.com/katalon-analytics/docs/overview.html" rel="nofollow">Katalon TestOps</a> is our dedicated platform for QA orchestration, test analytics, and advanced reports.</td>
 		</tr>
         <tr>
 			<td>
 				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-toolbar-applitool.png" width=30% alt="Applitool" /></p>
 			</td>
-			<td><a href="https://docs.katalon.com/katalon-studio/docs/applitools-integration.html#configure-applitools-integration" rel="nofollow">Applitools</a> is a visual-based testing built-in for both Recording and Scripting modes.</td>
+			<td><a href="https://docs.katalon.com/katalon-studio/docs/applitools-integration.html#configure-applitools-integration" rel="nofollow">Applitools</a> is a built-in visual testing tool for Recording and Scripting modes.</td>
 		</tr>
         <tr>
 			<td>
