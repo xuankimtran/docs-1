@@ -8,7 +8,7 @@ description:
 
 Chrome sets a default UI language with the first Chrome window that opens. In other words, if you alter browser locales, for example, with command line arguments `chrome.exe --lang=de` to start Chrome in German, the Chrome driver still defines the default language from the Chrome browser.
 
-To test different browser locales, you can instead configure [Desired Capabilities](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html). 
+To test different browser locales, you can instead configure Desired Capabilities. You can learn about this here: [Desired Capabilities](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html)
 
 ## Use Configured Desired Capability with Test Case Variables
 
@@ -25,7 +25,7 @@ Do as follows:
 
 1. Create a New Test Case. Go to **File > New > Test Case.**
 
-2. Create Test Case Variables. Learn more about [Test Case Variables](https://docs.katalon.com/katalon-studio/docs/test-case-variables.html#manage-test-case-variables). 
+2. Create Test Case Variables. See also: [Test Case Variables](https://docs.katalon.com/katalon-studio/docs/test-case-variables.html#manage-test-case-variables). 
 
 - Switch to the Variables tab of your Test Case.
 - Click **Add**. A new row appears in the variable list.
@@ -52,7 +52,7 @@ Do as follows:
 
 
 3. Use Configured Desired Capabilities.
-After defining Test Case Variables, we override default language settings in Chrome by using [Configured Desired Capabilities](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html#passing-desired-capabilities-at-runtime).
+After defining Test Case Variables, we override default language settings in Chrome by using Configured Desired Capabilities. You can learm more about this here: [Configured Desired Capabilities](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html#passing-desired-capabilities-at-runtime)
 
 - Switch to the Script tab of your Test Case.
 - Copy and paste the below code into your script test. With this code, you can manipulate the locales of the testing browsers.
@@ -92,7 +92,7 @@ RunConfiguration.setWebDriverPreferencesProperty("prefs", pref)
 > Notes:
 > Desired Capabilities can be reused across projects. Learn more here: [reuse Desired Capabilities](https://docs.katalon.com/katalon-studio/docs/import-export-desired-capabilities.html)
 
-In the following example, we demonstrate how to create a [Test Suite with Test case variables](https://docs.katalon.com/katalon-studio/docs/run-test-case-external-data.html#create-a-new-test-suite-with-test-case-variables) to test different browser locales. Here, we use French, English, and Spanish.
+In the following example, we demonstrate how to create a Test Suite with Test case variables to test different browser locales. Here, we use French, English, and Spanish.
 
 1. Create a test suite. Go to **File > New > Test Suite.**
 2. Click **Add** in the command toolbar, then choose pre-configured test cases.
@@ -124,12 +124,12 @@ This step binds the New Data File from Step 3 with the Test Suite you want to ru
 > 
 ## Use Custom Profiles in Desired Capabilities
 
-You can also test different browser locales with a Remote Server. In this case, you can set [Custom Desired Capabilities](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html#custom-desired-capabilities) to alter the default language in Chrome.
+You can also test different browser locales with a Remote Server. In this case, you can set **Custom Desired Capabilities** to alter the default language in Chrome. 
 
 > Requirements:
 > 
 > - Make sure that you are running Selenium Grid Hub & Node while executing the test. 
-> - Make sure to update the browser by clicking **Tools > Update WebDrivers > Choose browser.** See also [Change WebDrivers](https://docs.katalon.com/katalon-studio/docs/change-webdrivers.html).
+> - Make sure to update the browser by clicking **Tools > Update WebDrivers > Choose browser.** See also [Update or Downgrade WebDrivers](https://docs.katalon.com/katalon-studio/docs/update-or-downgrade-webdrivers.html).
 >
 
 The following example shows you how to create a custom profile with Spanish as the testing language.
@@ -154,24 +154,24 @@ In the newly added property line, change the name into "spanish" for better reco
   2. Remote Server Type: Choose **Selenium**.
   3. Click **Add** on the command toolbar as the following command.
   - **goog:chromeOptions**: Support passing the ChromeOptions object into the ChromeDriver constructor
-  - **Dictionary**: the [data type](https://docs.katalon.com/katalon-studio/docs/value-types.html) permits you to input a collection of keys and values.
+  - **Dictionary**: the data type permits you to input a collection of keys and values. You can learm more about this here: [data type](https://docs.katalon.com/katalon-studio/docs/value-types.html)
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/chromeoptions.png" width=70% alt="Set value for custom Desired Capabilities">
 
-  4. Click *More* (...) under the **Preferences** column.
-  5. The  **Dictionary Property Builder** opens. Input these values:
+  1. Click *More* (...) under the **Preferences** column.
+  2. The  **Dictionary Property Builder** opens. Input these values:
   
 <img src="https://github.com/katalon-studio/docs-images/raw/7a0462f8e1b3f6a3c973b1c70a9b7ff6de1b4b9b/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/prefs.png" width=70% alt="Set value for custom Desired Capabilities">
 
   6. Click *More* (...) under the **Preferences** column.
   7. The **Dictionary Property Builder** opens. Input these values:
   - **intl.accept_languages**: Support passing preference key to manipulate a page's language.
-  - **String**: the [data type](https://docs.katalon.com/katalon-studio/docs/value-types.html) permits you to enter a value directly into the Value cell.
+  - **String**: the data type permits you to enter a value directly into the Value cell.
   - **es**: the language code for Spanish.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/7a0462f8e1b3f6a3c973b1c70a9b7ff6de1b4b9b/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/intl.accept_languages.png" width=70% alt="Set value for custom Desired Capabilities">
 
-  8. Results after a series of the above commands
+  1. Results after a series of the above commands
 
 <img src="https://github.com/katalon-studio/docs-images/raw/3e6484c7dff66c86389ba45dbbe88de452031e0e/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/final-results-2-reup.png" width=70% alt="Results after setting up custom language Remote Control dialog"> 
 
