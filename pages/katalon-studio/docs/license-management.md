@@ -13,57 +13,7 @@ After subscribing to the Katalon Licenses, you can start managing your licenses 
 >
 > You must be the Owner or Admins of your Organization to manage the licenses on the **Licenses** page. For further details on roles and user management, see: [TestOps User Management](https://docs.katalon.com/katalon-analytics/docs/kt_invite_user_org.html).
 
-## Find your machine ID
-
-It's important to know your machine ID. You know your machine ID to verify if your local machine is currently using an offline license.
-
-You also receive Users' machine IDs in order to grant offline licenses to Users.
-
-To find the ID of your machine, follow these steps:
-
-1. Open Katalon Studio in your local machine.
-
-2. Click on the *Profile* icon at the top right corner and select **Deactivate**.
-
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/transfer-license/1-deactivate.png" width=300 alt="ks profile settings">
-
-   The **Katalon Studio Activation** log appears as below.
-
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/transfer-license/2-machine-id.png" width="400">
-
-   You can see your machine ID here.
-
-3. Select the **Offline Activation** tab on the **Katalon Studio Activation** log.
-
-   The **Katalon Studio Enterprise Activation** log appears as below.
-   
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/transfer-license/3-license-file.png" width="400">
-
-   You can click on the **Copy** button to copy your machine ID to a clipboard.
-
-4. Paste your machine ID into a note to store it.
-
-5. Click **Back** and enter your email and password, then click **Activate** to reactivate Katalon Studio.
-
-### Verify if your machine is using an offline license
-
-1. Sign in to [Katalon TestOps]((https://testops.katalon.io/login).
-
-2. Go to **Settings** > **License Management**.
-
-   The **Licenses** page appears. 
-   
-3. Choose your Katalon product (e.g., **Katalon Runtime Engine (Node-locked)**)
-
-4. Check if your machine ID appears in the **Offline Licenses** section. 
-
-   If you see your machine ID, it means your machine has already had an offline license. 
-   
-   > Notes:
-   >
-   > You cannot remove an offline license from a machine until the license is expired.
-
-## Verify and view the license information
+## View the license information
 
 You can verify the subscription information and view all license information by following these steps:
 
@@ -113,7 +63,9 @@ Once being assigned, users can activate and use licenses. See: [Activation doc](
 
 > Notes:
 >
-> You can revoke Katalon Studio Enterprise's (KSE) **Online Licenses** only. For Katalon Runtime Engine (KRE), see: [Manage Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license-management.html#transfer-a-license).
+> * You cannot remove an offline license from a machine until the license is expired.
+>
+> * You can revoke Katalon Studio Enterprise's (KSE) **Online Licenses** only. For Katalon Runtime Engine (KRE), see: [Manage Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license-management.html#transfer-a-license).
 
 Follow these steps:
 
