@@ -29,7 +29,7 @@ You can change Global Variable values during runtime without affecting other Tes
     **Example**:
     
     ```groovy
-    CucumberKW.runFeatureFolderWithTags('Include/features/BDD Cucumber Tests',GlobalVariable.username)
+    CucumberKW.runFeatureFolderWithTags('Include/features/BDD Cucumber Tests', GlobalVariable.username)
     ```
 
     > Notes:
