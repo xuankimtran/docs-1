@@ -20,7 +20,7 @@ redirect_from:
 
 > Starting in **Katalon Studio version 7.0.0**, the Katalon Studio's WebDriver extends the `EventFiringWebDriver`. 
 
-`EventFiringWebDriver` is a class in Selenium that wraps the WebDriver around to throw events. It is useful in many scenarios. One of which is for logging steps or triggering certain events before an operation. Learn more about [EventFiringWebDriver](https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/support/events/EventFiringWebDriver.html).
+`EventFiringWebDriver` is a class in Selenium that supports the WebDriver with event-driven capabilities. It is useful in many scenarios. One of which is for logging steps or triggering certain events before an operation. Learn more about [EventFiringWebDriver](https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/support/events/EventFiringWebDriver.html).
 
 In this article, we show you how to handle WebDrivers with the support of `EventFiringWebDriver`.
 ## Use WebDriver Event Listeners
@@ -129,5 +129,5 @@ We recommend encapsulating the above logic into a function to avoid code duplica
 
 ## See also
 
-- [Change WebDrivers](https://docs.katalon.com/katalon-studio/docs/change-webdrivers.html)
+- [Update or Downgrade WebDrivers](https://docs.katalon.com/katalon-studio/docs/update-or-downgrade-webdrivers.html)
 - [Terminate Webdrivers](https://docs.katalon.com/katalon-studio/docs/terminate-webdrivers.html)

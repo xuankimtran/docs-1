@@ -29,6 +29,6 @@ From the main toolbar, select **Tools > Web > Terminate running WebDrivers**. A 
 
 ## See also
 
-- [Change WebDrivers](https://docs.katalon.com/katalon-studio/docs/change-webdrivers.html)
+- [Update or Downgrade WebDrivers](https://docs.katalon.com/katalon-studio/docs/update-or-downgrade-webdrivers.html)
 - [Handle WebDrivers with EvenFiringWebdriver](https://docs.katalon.com/katalon-studio/docs/handle-webdrivers-with-event-firing-webdriver.html)
 
