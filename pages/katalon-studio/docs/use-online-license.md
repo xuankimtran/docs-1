@@ -12,11 +12,9 @@ In this guide, you will learn to assign Katalon Studio Enterprise (KSE) and Kata
 
 ## Grant a license
 
-> Notes:
->
-> * An **Online License** of KSE and KRE is transferable among registered users of an organization as long as the number of active licenses does not exceed the license quota. The Owner or Admin of an Organization can grant licenses to any team member. The Owner or Admin can also revoke this action anytime. See: [Manage Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license-management.html).
-
 > Requirements:
+>
+> * You must have internet connection.
 >
 > * You must be the Owner or Admin of your Organization.
 >
@@ -40,9 +38,9 @@ Follow these steps to grant KSE licenses:
 
 Once you have added users, the next time users open Katalon Studio for working, their machine IDs are automatically added in the **Online Licenses** section. In other words, the users activate the licenses simply by using Katalon Studio.
 
-  > Notes:
-  >
-  > The number of licensed users cannot exceed the license quota.
+Granting a license this way allows you to transfer a license freely among registered users of an organization as long as the number of licensed users does not exceed the license quota.
+
+You can revoke these licenses at any time by following this guide: [Manage Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license-management.html).
 
 For KRE, all Users of an Organization can use the KRE licenses by default once the Organization has purchased the KRE licenses.
 
@@ -55,9 +53,11 @@ However, to optimize license usage and avoid session termination, the Owner and 
 
   > Notes:
   >
-  > For instructions on activating the KRE licenses, see [Activate KRE Licenses](https://docs.katalon.com/katalon-studio/docs/kre_license_activation.html).
+  > You can send your Users the following guide for license activation: [Activate KRE Licenses](https://docs.katalon.com/katalon-studio/docs/kre_license_activation.html).
 
 ### Create an offline license
+
+If the users you wish to grant a license to are not connected to the internet, you can instead generate an offline license.
 
 An **Offline License** allows you to use KSE and KRE without internet. Once an offline license is activated, you cannot revoke or transfer it to a different machine.
 
