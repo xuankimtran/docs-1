@@ -129,7 +129,7 @@ When running from CLI, one working session accounting for one license equals a c
 
 ## License types
 
-There are two types of licenses for KSE and KRE: node-locked and floating. Base on the size and the workflow of your team, you can choose node-locked, floating, or both types simultaneously.
+There are two types of licenses for KSE and KRE: node-locked and floating. Depending on the size, composition, and work requirements of your team, you can choose to purchase node-locked licenses, floating licenses, or a mix of both.
 
 <table>
 	<tbody>
@@ -141,7 +141,7 @@ There are two types of licenses for KSE and KRE: node-locked and floating. Base 
 			<td>
 				<p>One license is assigned to one machine ID.</p>
 			</td>
-			<td>One license is assigned to one parallel execution session and can be shared across maximum 3 machines.</td>
+			<td>One license is assigned to one parallel execution session and can be shared between 3 machines.</td>
 		</tr>
 		<tr>
 			<td>
@@ -172,18 +172,18 @@ There are two types of licenses for KSE and KRE: node-locked and floating. Base 
 
 ### Node-Locked License
 
-This license type is applied to local desktops or workstations with fixed hardware specifications (machine-blocked license):
+This license type is applied to local desktops or workstations with fixed hardware specifications (machine-blocked license), such as:
 
-* Virtual machine with the fixed machine ID
-* Physical machine
+* A virtual machine with a fixed machine ID
+* A physical machine
 
-The number of licenses to acquire should be based on the number of execution machines.
+With node-locked licenses, one machine running tests = one license.
 
-* A license is linked to a single machine ID and for one execution session.
-* A machine can be mapped to multiple licenses (if needed).
-* The license can be transferred to a new machine for an online environment. Only annual node-locked licenses can be converted to offline licenses. For the offline environment, once converted, the license cannot be transferred to another machine until it is expired.
-
-> This license allows both online and offline activation for **annual subscriptions**. With monthly subscriptions, only online activation is allowed.
+* A license is tied to a single machine ID and only for one execution session at a time.
+* A machine can be mapped to multiple licenses if needed.
+* For machines connected to the internet, the licenses can be transferred to other machines at no cost and as many times as needed.
+* For _annual licenses_ only: Licenses can be converted to be used in an offline environment. Once converted, the license cannot be transferred to another machine until it is expired.
+* Licenses purchased on a monthly basis cannot be converted for use in an offline environment.
 
 ### Floating License
 
@@ -195,5 +195,7 @@ This license type is applied to all types of execution environments, including c
 * One floating license is assigned to one parallel execution session at a time.
 
 For instance, you have 1 floating Katalon Studio Enterprise license attached to the email example@katalon.com.
-You can use example@katalon.com to log in to Katalon Studio and enjoy all of the Enterprise level features in 3 different machines at maximum.
-However, since you only have 1 floating Katalon Studio Enterprise license, you can only be active on 1 of that 3 machines at a time.
+
+You can use example@katalon.com to log in to Katalon Studio and enjoy all of the Enterprise level features on 3 different machines. You will not be able to do so on additional machines.
+
+However, this email represents only 1 floating Katalon Studio Enterprise license. This means you can only be active on 1 of those 3 machines at any time.
