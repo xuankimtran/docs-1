@@ -1,7 +1,7 @@
 ---
-title: "Change WebDrivers"
+title: "Update or Downgrade WebDrivers"
 sidebar: katalon_studio_docs_sidebar
-permalink: /katalon-studio/docs/change-webdrivers.html
+permalink: /katalon-studio/docs/update-or-downgrade-webdrivers.html
 redirect_from: 
     - "/katalon-studio/docs/handle-webdrivers.html"
     - "/katalon-studio/docs/using-the-webdriver-object.html"
@@ -27,11 +27,16 @@ From the main toolbar, select **Tools > Update WebDrivers**. Select a browser in
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/handle-webdrivers/Update-Webdrivers.png" alt="update-webdriver-automatically" width=70%>
 
-Alternatively, you can use this command argument  `--config -webui.autoUpdateDrivers=true` in console mode to allow automatic WebDriver updates. These kinds of console mode commands are useful for advanced users, who typically require less hand holding.
+Alternatively, you can use this command argument  `--config -webui.autoUpdateDrivers=true` in console mode to allow automatic WebDriver updates. 
 Learn more about [Console Mode Execution](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html).
 ## Replace a Webdriver
 
-To upgrade or downgrade your Selenium library or WebDriver binaries, you can replace WebDrivers manually. You can choose to do so at the application or project level.
+To upgrade or downgrade WebDrivers, you can replace WebDrivers manually. You can choose to do so at the application or project level.
+
+> Note
+>
+> By default, Katalon Studio runs WebDrivers at the application level. Adding a Webdriver at the project level overrides the application level to open your web browsers.
+>
 
 Do as follows:
 
@@ -45,12 +50,7 @@ Do as follows:
 > - [Microsoft Edge](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/)
 >
 
-2. Find the location of the WebDrivers you want to replace. Replace the `driver.exe` file with the one you have downloaded.
-  
-- For location of the Selenium Library, go to: 
-
-* Windows: `<Katalon Studio folder>\configuration\resources\lib\selenium-server-standalone-3.x.jar`
-* macOS: `/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/lib/selenium-server-standalone-3.x.jar`
+2. Find the location of the WebDrivers you want to replace. 
 
 - At the application level, WebDriver binaries are stored here:
 
@@ -106,7 +106,8 @@ You can use 32-bit Windows Chromedriver for both 32-bit and 64-bit Windows.
 - At the project level, go to **\Project Folder\Include** on your computer and follow the below paths:
 
 > **Note**
-> 
+>
+> By default, there is no Webdriver at project level. 
 > After replacing WebDrivers at project level, restart Katalon Studio to run new WebDrivers.
 > 
 
