@@ -5,9 +5,8 @@ permalink: katalon-studio/docs/capture-elements-in-hybrid-android-apps.html
 redirect_from:
 description:
 ---
-<INTRODUCTION>
 
-Katalon Studio partially supports Hybrid Mobile App. You can use mobile keywords to automate your app, but Katalon’s Mobile Spy/Recorder doesn’t support detecting elements. Hence, this tutorial shows you how to capture elements in hybrid Android apps with Appium and Chrome Devtools under the control of [Android WebView](https://developer.android.com/reference/android/webkit/WebView).
+Katalon Studio partially supports Hybrid Mobile App. You can use mobile keywords to automate your app, but Katalon’s Mobile Spy/Recorder doesn’t support detecting elements at the moment. Hence, this tutorial shows you how to capture elements in hybrid Android apps with Appium and Chrome Devtools under the control of [Android WebView](https://developer.android.com/reference/android/webkit/WebView).
 
 > Requirements
 >
@@ -83,7 +82,7 @@ To learn more about **Chrome Devtools** and its available function. See also [Ch
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/Chrome-Devtools.png" width="70%" alt="Debug-enabled Webviews in Devtools">
 
 
-10. Switch back to the Katalon Studio framework, continue writing your test script with sample code as below:
+10. Return to the Katalon Studio framework, continue writing your test script with sample code as below:
   
 ```groovy
 //this is unnecessary if your AUT automatically enters the WEBVIEW context on session start.
