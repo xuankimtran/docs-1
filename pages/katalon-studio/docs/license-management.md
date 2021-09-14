@@ -6,12 +6,11 @@ redirect_from:
     - "/katalon-studio/docs/transfer-license.html"
 description:
 ---
-
-After subscribing to the Katalon Licenses, you can start managing your licenses in [Katalon TestOps](https://testops.katalon.io/login).
+After purchasing Katalon Studio Entreprise and/or Katalon Runtime Engine licenses, you can attribute, transfer, and revoke licenses from [Katalon TestOps](https://testops.katalon.io/login).
 
 > Requirements:
 >
-> You must be the Owner or Admins of your Organization to manage the licenses on the **Licenses** page. For further details on roles and user management, see: [TestOps User Management](https://docs.katalon.com/katalon-analytics/docs/kt_invite_user_org.html).
+> You must be the Owner or Admin of your Organization to access the **Licenses** page. For further details on roles and user management, see: [TestOps User Management](https://docs.katalon.com/katalon-analytics/docs/kt_invite_user_org.html).
 
 ## View the license information
 
@@ -27,7 +26,7 @@ You can verify the subscription information and view all license information by 
 
    The **Licenses** page displays as below.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/license.png"  width=100% alt="licenses page">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/licenses-page-blurred-not-highlighted.png" width=100% alt="licenses page">
 
    * In the **Subscription** section, you can see the following information:
       * **Subscribed Licenses**: the license quota that you have purchased.
@@ -55,7 +54,7 @@ You can verify the subscription information and view all license information by 
 
 You can assign licenses to users. See [Grant Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/use-online-license.html).
 
-Once being assigned, users can activate and use licenses. See: [Activation doc](link).
+Once you have assigned a license successfully, users can follow this activation guide: [new Activation doc](link).
 
 ## Revoke and transfer a license
 
@@ -74,6 +73,8 @@ Follow these steps:
 2. In the **Online Licenses** section, click on the *Trash bin* icon of the machine ID you want to revoke.
 
    The **Remove license** box appears as below.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/remove-license-box-blurred.png" width=100% alt="remove license popup">
 
 3. Click **Remove** to confirm your action.
 
@@ -113,6 +114,8 @@ Follow these steps:
 
    The **Deactivate Machine** box appears as below.
 
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/deactive-machine-box-blurred.png" width=100% alt="deactivate machine popup">
+   
 4. Click **Remove** to confirm your action.
 
 > Notes:
