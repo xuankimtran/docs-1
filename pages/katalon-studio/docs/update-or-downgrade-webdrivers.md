@@ -14,7 +14,6 @@ redirect_from:
     - "/x/1xtO/"
     - "/katalon-studio/docs/update-or-replace-web-browser-drivers-and-selenium/"
     - "/katalon-studio/docs/update-or-replace-web-browser-drivers-and-selenium.html"
-    - "/katalon-studio/docs/webdriver-event-listeners.html"
     - "/katalon-studio/docs/automatically-update-webdriver.html"
 ---
 
@@ -28,7 +27,7 @@ From the main toolbar, select **Tools > Update WebDrivers**. Select a browser in
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/handle-webdrivers/Update-Webdrivers.png" alt="update-webdriver-automatically" width=70%>
 
 Alternatively, you can use this command argument  `--config -webui.autoUpdateDrivers=true` in console mode to allow automatic WebDriver updates. 
-Learn more about [Console Mode Execution](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html).
+You can learn more about using the console mode here: [Console Mode Execution](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html).
 ## Replace a Webdriver
 
 To upgrade or downgrade WebDrivers, you can replace WebDrivers manually. You can choose to do so at the application or project level.
@@ -42,13 +41,12 @@ Do as follows:
 
 1. Find the WebDriver version you want to run your test with. You can find them here:
 
->
-> Versions of browser drivers:
-> - [Chrome Drivers](https://chromedriver.chromium.org/downloads)
-> - [Gecko Drivers](https://firefox-source-docs.mozilla.org/testing/geckodriver/Support.html)
-> - [Internet Explorer](http://selenium-release.storage.googleapis.com/index.html)
-> - [Microsoft Edge](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/)
->
+Versions of browser drivers:
+- [Chrome Drivers](https://chromedriver.chromium.org/downloads)
+- [Gecko Drivers](https://firefox-source-docs.mozilla.org/testing/geckodriver/Support.html)
+- [Internet Explorer](http://selenium-release.storage.googleapis.com/index.html)
+- [Microsoft Edge](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/)
+
 
 2. Find the location of the WebDrivers you want to replace. 
 
@@ -166,12 +164,12 @@ You can use 32-bit Windows Chromedriver for both 32-bit and 64-bit Windows.
 
 3. After finding the correct location, replace the `driver.exe` file with the one you have downloaded.
    
->**Re-run the tests**
+> Notes:
 >
 > After updating or downgrading WebDrivers, to make sure the current version of the browser driver is running smoothly, it is advisable to try **re-running the test** to resolve and check any pop-up issues.
 ## Use DriverFactory library
 
-Katalon Studio also offers DriverFactory library to manipulate WebDriver instances by using Katalon keywords. Learn more about [DriverFactory](https://docs.katalon.com/katalon-studio/docs/using_selenium_webdriver_katalon_studio.html#driverfactory).
+Katalon Studio also offers DriverFactory library to manipulate WebDriver instances by using Katalon keywords. You can learn more about this here: [DriverFactory](https://docs.katalon.com/katalon-studio/docs/using_selenium_webdriver_katalon_studio.html#driverfactory).
 
 ## See also
 
