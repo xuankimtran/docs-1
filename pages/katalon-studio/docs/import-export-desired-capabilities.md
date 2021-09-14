@@ -30,19 +30,17 @@ Follow these steps:
 
 After exporting the JSON files, you can modify them if needed, then import them into another projects. 
 
-Follow below steps to import files:
+Follow the following steps to import files:
 
-1. Create new desired capabilities configuration using **JSON file**.
-
-2. Go to **Project/Settings/Desired Capabilities** > choose the driver you want to import the desired capabilities. Click **Import**.
+1. Go to **Project/Settings/Desired Capabilities** > choose the driver you want to import the desired capabilities. Click **Import**.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops/desired-capabilities-management/desired-capabilities.png" width=70%>
 
-3. The dialog box appears. Click **Browse**. Navigate to the JSON file you want to import and select it. Click **OK**.
+2. The dialog box appears. Click **Browse**. Navigate to the JSON file you want to import and select it. Click **OK**.
 
-	> **Notice**
+	> **Note**
 	> 
-	> Importing new desired capabilities from a JSON file will overwrite all existing ones.
+	> You can decide whether to override all existing desired capabilities by checking/unchecking the **Override existing properties** box.
 
 	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops/desired-capabilities-management/chrome_dc.png" width=55%>
 
