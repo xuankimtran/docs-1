@@ -2,6 +2,8 @@
 title: "Manage Katalon Licenses"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/license-management.html
+redirect_from:
+    - "/katalon-studio/docs/transfer-license.html"
 description:
 ---
 
