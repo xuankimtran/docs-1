@@ -65,6 +65,8 @@ items:
             url: /katalon-studio/docs/use-online-license.html
           - title: "License Utilization Dashboard"
             url: /katalon-studio/docs/license-utilization-dashboard.html
+          - title: "Configure Idle Timeout"
+            url: /katalon-studio/docs/license-idle-timeout.html
   - title: "Katalon Studio Enterprise"
     tree:
       - title: "What's new"
