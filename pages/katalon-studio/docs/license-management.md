@@ -15,9 +15,9 @@ After subscribing to the Katalon Licenses, you can start managing your licenses 
 
 It's important to know your machine ID. You know your machine ID to verify if your local machine is currently using an offline license.
 
-Users must know their machine IDs to send IDs to you, so that you can grant offline licenses to Users.
+You also receive Users' machine IDs in order to grant offline licenses to Users.
 
-Follow these steps:
+To find the ID of your machine, follow these steps:
 
 1. Open Katalon Studio in your local machine.
 
@@ -33,7 +33,7 @@ Follow these steps:
 
 3. Select the **Offline Activation** tab on the **Katalon Studio Activation** log.
 
-   The **Katalon Studio Enterprise Activation** log appears as below. 
+   The **Katalon Studio Enterprise Activation** log appears as below.
    
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/transfer-license/3-license-file.png" width="400">
 
@@ -42,6 +42,24 @@ Follow these steps:
 4. Paste your machine ID into a note to store it.
 
 5. Click **Back** and enter your email and password, then click **Activate** to reactivate Katalon Studio.
+
+### Verify if your machine is using an offline license
+
+1. Sign in to [Katalon TestOps]((https://testops.katalon.io/login).
+
+2. Go to **Settings** > **License Management**.
+
+   The **Licenses** page appears. 
+   
+3. Choose your Katalon product (e.g., **Katalon Runtime Engine (Node-locked)**)
+
+4. Check if your machine ID appears in the **Offline Licenses** section. 
+
+   If you see your machine ID, it means your machine has already had an offline license. 
+   
+   > Notes:
+   >
+   > You cannot remove an offline license from a machine until the license is expired.
 
 ## Verify and view the license information
 
@@ -93,7 +111,7 @@ Once being assigned, users can activate and use licenses. See: [Activation doc](
 
 > Notes:
 >
-> You can revoke KSE's **Online Licenses** only. 
+> You can revoke Katalon Studio Enterprise's (KSE) **Online Licenses** only. For Katalon Runtime Engine (KRE), see: [Manage Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license-management.html#transfer-a-license).
 
 Follow these steps:
 
@@ -109,7 +127,27 @@ Follow these steps:
    >
    > By clicking **Remove**, you immediately terminate the current session that machine ID is working on in Katalon Studio. You should revoke a license with caution.
 
-If a User is leaving your Organization, you can also end that User's license usage by deactivating that User's machine ID.
+### Transfer a license
+
+> Notes:
+>
+> Only **Online Licenses** are transferable among the organization's registered users as long as the active licenses do not exceed the license quota.
+>
+> **Offline Licenses** cannot be transferred until their expiry dates.
+
+> Requirements:
+>
+> You have already verified that your machine does not have an offline license.
+
+After activation, the KSE/KRE node-locked licenses are bound to the machine IDs until the expiry dates. You need to remove the licenses or transfer them manually.
+
+For KSE, once you have revoked a license, you can transfer the license to another User by adding that User in the **Online Licenses** section. See: [Grant Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/use-online-license.html).
+
+For KRE, as one session accounts for one license, you must deactivate the machine ID using that license first, then transfer the license to the on-demand User.
+
+For example, if the KRE license is bound to your machine ID because you have run KSE using KRE. You must deactivate your machine ID so that the other member in your organization can use the KRE node-locked license.
+
+### Deactivate a machine ID
 
 Follow these steps:
 
@@ -123,76 +161,16 @@ Follow these steps:
 
 4. Click **Remove** to confirm your action.
 
-### Transfer a license
-
 > Notes:
 >
-> Only **Online Licenses** are transferable among the organization's registered users as long as the active licenses do not exceed the license quota.
+> After deactivating a machine ID, you have removed the machine ID from Katalon TestOps. This also means that the license in that machine is deactivated in Katalon Studio.
 
+### Transfer the KRE license to another machine
 
+All members of an organization can use the KRE licenses by default once the organization has purchased the KRE licenses.
 
-An online Node-locked Runtime Engine license, when activated, binds to a machine until expired or manually removed from that machine. For other members in your organization to use an online Node-locked Runtime Engine, you must remove it from your machine.
+You activate the KRE license by running KSE with KRE. After activating, your machine ID is then added to the **Online Licenses** section.
 
-> Only **online licenses** are transferable.
->
-> **Offline licenses** cannot be transferred until expired (60 days).
+Therefore, if your machine ID is deactivated, the other member can start running the KSE with KRE to activate the license. The User's machine ID is then added to the **Online Linceses** section.
 
-## Verify that the machine does not have an offline license
-
-Visit **Katalon TestOps** > **Organization** > **License**, navigate to tab **Runtime Engine**. You should not see your Machine ID in step 1 listed under **Offline Licenses**. 
-
-
-If you do see it, then it means this machine already has an offline license. You won’t be able to remove an offline license from the machine until the license is expired or 60 days have passed. In this case, this guide is not for you. 
-
-If you do not see your **Machine ID** listed there, then please continue.
-
-
-## Remove an online Node-locked Runtime Engine license from a machine
-
-At the bottom of the same page, you should see under Registered Machines, the **Machine ID** (step 1) There is a button to remove it from the list.
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/transfer-license/4-delete-machine-id.png)
-
-
-You will be asked to provide confirmation.
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/transfer-license/5-confirm.png)
-
-Once you confirm, the **Machine ID** will be removed from the Registered Machines.
-
-> As soon as you remove the **Machine ID** from **Katalon TestOps**, the online license in that machine will be deactivated in **Katalon Studio**.
-
-
-## Use the online Node-locked Runtime Engine license on another machine
-
-Now you can use the license for Runtime Engine on another machine.
-## How to View License Details
-
-Users can view the license's details that they are using. From the main menu of Katalon Studio:
-
-* macOS: **Katalon Studio > About Katalon Studio**
-* Windows/Linux: **Help > About**
-
-## Configure Idle Timeout
-
-> Introduced in version 7.8 and applicable to the **online** Katalon Studio Enterprise (KSE) license only.
-
-With this function, you can optimize the usage of KSE licenses by setting a time restriction for users to have no interactions with Katalon Studio. This setting impacts all KSE users in this organization, which means a KSE user will sign out automatically when they take no actions in the app. 
-
-**On Katalon Admin**: 
-
-To enable timeout setting for license usage, please do as follows:
-
-1. Log into [Katalon Admin](https://admin.katalon.com/) 
-2. Select your **Organization** > select **Timeout**
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/turn-off.png" width=60%>
-3. In the displayed **Idle Timeout Settings** screen, Katalon turns off the idle timeout by default, click on the switch button to enable the setting.
-4. Specify the desired timeout (in minutes). By default, Katalon sets 120 minutes as the timeout period.
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/turn-on.png" width=60%>
-5. Click **Update** to save your setting.
-
-**In Katalon Studio**: 
-
-When this setting is applied, if the users in that organization have been idle for the specified minutes, they will log out automatically. Katalon Studio will send a notification to the user before the automatic signout.
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/noti.png" width=60%>
+Repeat the steps to deactivate the machine ID if you want to transfer the KRE license to another machine.
