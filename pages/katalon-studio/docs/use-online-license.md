@@ -36,32 +36,28 @@ Follow these steps to grant KSE licenses:
 
 3. Add users to the **Licensed Users** section.
 
-Once you have added users, the next time users open Katalon Studio for working, their machine IDs are automatically added in the **Online Licenses** section. In other words, the users activate the licenses simply by using Katalon Studio.
-
-Granting a license this way allows you to transfer a license freely among registered users of an organization as long as the number of licensed users does not exceed the license quota.
-
-You can revoke these licenses at any time by following this guide: [Manage Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license-management.html).
-
 For KRE, all Users of an Organization can use the KRE licenses by default once the Organization has purchased the KRE licenses.
 
 However, to optimize license usage and avoid session termination, the Owner and Admin must remember the following rules:
 
 * Each session accounts for one license.
 * The number of parallel sessions cannot exceed the license quota.
-* The number of registered machine IDs cannot exceed the license quota.
+* The number of registered machine IDs cannot exceed the license quota. You can remove a registered machine ID by following this guide: [Manage Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license-management.html).
 * Users need [API Keys](https://docs.katalon.com/katalon-studio/docs/katalon-apikey-70.html) to activate a KRE online license.
 
-  > Notes:
-  >
-  > You can send your Users the following guide for license activation: [Activate KRE Licenses](https://docs.katalon.com/katalon-studio/docs/kre_license_activation.html).
+Your users can now activate their KSE and KRE licenses. You can refer them to this link for activation: [new Activation doc](link).
 
-### Create an offline license
+Granting a license this way allows you to transfer a license freely among registered users of an organization as long as the number of licensed users does not exceed the license quota.
+
+You can revoke these licenses at any time by following this guide: [Manage Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license-management.html).
 
 If the users you wish to grant a license to are not connected to the internet, you can instead generate an offline license.
 
+### Create an offline license
+
 An **Offline License** allows you to use KSE and KRE without internet. Once an offline license is activated, you cannot revoke or transfer it to a different machine.
 
-An offline license expires at the end of your subscription period. It can also be expired earlier than its actual date if you make changes in the offline license file.
+An offline license expires at the end of your subscription period. It can also be expired earlier than its actual date if you input a new expiry date when generating the offline license file.
 
 When an offline license expires, you can generate a new offline license file to continue using KSE/KRE offline, or you can switch to an online license instead.
 
@@ -111,9 +107,7 @@ Follow these steps:
 
 7. Download and transfer the offline license files to the User.
 
-    > Notes:
-    >
-    > For instructions on activating the offline licenses, see [Activate KSE Licenses](https://docs.katalon.com/katalon-studio/docs/kse_license_activation.html) and [Activate KRE Licenses](https://docs.katalon.com/katalon-studio/docs/kre_license_activation.html).
+8. Send your users to this activation guide: [new Activation doc](link).
 
 See also:
 * [Manage Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license-utilization-dashboard.html#license-usage-visualization).
