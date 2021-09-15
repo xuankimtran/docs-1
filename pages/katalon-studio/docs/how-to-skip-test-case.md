@@ -6,8 +6,7 @@ redirect_from:
 description:
 ---
 
-
-In this article, we demonstrate how to skip test cases in a test suite by preconfiguring **Test Listener** with the `TestCaseContext.skipThisTestCase()` method. See also [Test Listeners](https://docs.katalon.com/katalon-studio/docs/fixtures-listeners.html#test-listeners-test-hooks).
+In this article, we demonstrate how to skip test cases in a test suite by preconfiguring **Test Listener** with the `TestCaseContext.skipThisTestCase()` method. To learn more about the usage of Test Listeners, go to [Test Listeners (Test Hooks)](https://docs.katalon.com/katalon-studio/docs/fixtures-listeners.html#test-listeners-test-hooks).
 
 ## Skip Test Cases
 
@@ -46,10 +45,11 @@ class Skiptest {
 
 3. Use the `TestCaseContext.skipThisTestCase()` method to skip test cases. See also [skipThisTestCase()](https://docs.katalon.com/javadoc/com/kms/katalon/core/context/TestCaseContext.html#skipThisTestCase()).
    
-Inside the **SkipTest** Listener, copy and patse the following code under the generated sample template.
-This helps check for the desired condition and skip the test case if true.
+Inside the **Skiptest** Listener, copy and paste the following code under the generated sample template.
    
 ```groovy
+
+// To check for the desired condition and skip the test case if true.
 if(inputyourconditionhere)
 {   testCaseContext.skipThisTestCase()
 }
@@ -57,11 +57,14 @@ if(inputyourconditionhere)
 
 4. Return to your test suite and run it. Check the results in the **Results** tab to see the final status of your tests.
 
+> Note:
+>
+> Katalon Studio supports exporting test reports in **HTML**, **CSV**, **PDF** and **JUnit**. You can learn more about exporting reports here: [Generate reports](https://docs.katalon.com/katalon-studio/docs/test-suite-report.html#automatically-generate-reports).
 
 ## Example:
 
-In this example, we want to skip Test Case named: "Google" in a test suite.
-We input the following sample code in the new Test Listener:
+In this example, we want to skip the Test Case named: "Google" in a test suite.
+We input the following sample code in the **Skiptest** Listener:
 
 ```groovy
 class Skiptest {
@@ -78,6 +81,6 @@ class Skiptest {
 		}
 }
 ```
-Check the results after running the Test Suite. The test case named: "Google" is succesfully skipped.
+Check the results after running the Test Suite. Katalon successfully skips the test case named: "Google".
 
 <img src="https://github.com/katalon-studio/docs-images/raw/8dc7e1d66cd0fe2719aaeabc91d5040ede4bb2aa/katalon-studio/docs/skip-test-cases/KS-SKIP-Results-after-skipping-test-cases.png" width="70%" alt="Results after skipping test case">
