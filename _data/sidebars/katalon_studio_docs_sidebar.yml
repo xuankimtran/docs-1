@@ -35,14 +35,12 @@ items:
         tree:
           - title: "Katalon Runtime Engine DevOps Sunsetting"
             url: /katalon-studio/docs/kre-devops-sunset.html
-          - title: "Transfer an Online Katalon Runtime Engine License"
-            url: /katalon-studio/docs/transfer-license.html
       - title: "Katalon TestOps"
         tree:
           - title: "Overview"
             url: /katalon-analytics/docs/testops_subscriptions_overview.html
           - title: "Pricing and Feature Comparisons"
-            url: /katalon-analytics/docs/testops-packages.html "  
+            url: /katalon-analytics/docs/testops-packages.html 
           - title: "Trial Plans"
             url: /katalon-analytics/docs/trial-plans.html
           - title: "Manage Subscriptions"
