@@ -12,11 +12,11 @@ In this article, we demonstrate how to skip test cases in a test suite by precon
 
 1. In the **Test Explorer** pane, right-click on **Test Listeners**. Select **New > New Test Listener**. 
    
-<img src="https://github.com/katalon-studio/docs-images/raw/4edfbc46044bc17f1d039c925c34230ed76357e1/katalon-studio/docs/test-listeners-test-hooks/image2017-12-5-103A353A3.png" width="60%" alt="Create a new test listener">
+<img src="https://github.com/katalon-studio/docs-images/raw/4edfbc46044bc17f1d039c925c34230ed76357e1/katalon-studio/docs/test-listeners-test-hooks/image2017-12-5-103A353A3.png" width="50%" alt="Create a new test listener">
 
 2. A **New Test Listener** dialog opens. Name it as **Skiptest**. Choose **Generate sample Before Test Case method**. Click **OK**.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/skip-test-cases/KS-SKIP-Create-Skiptest-Listener.png" width="60%" alt="Name new test listener">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/skip-test-cases/KS-SKIP-Create-Skiptest-Listener.png" width="50%" alt="Name new test listener">
 
 Katalon Studio generates a sample template with necessary annotations, libraries and supported functions as accordingly:
 
