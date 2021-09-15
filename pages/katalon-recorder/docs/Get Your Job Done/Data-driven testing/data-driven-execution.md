@@ -5,35 +5,49 @@ permalink: katalon-recorder/docs/data-driven-execution.html
 description:
 ---
 
-Data-driven execution is the ability to execute a test with multiple data set. For example, when inputting patient information from a CSV file to your website, you would develop one test case and use data-driven execution to execute it with the prepared data set.
+Data-driven execution allows you to execute your test with multiple data set.
 
-## Data-driven execution sample
-Since version 5.4.0, a data-driven execution sample is available for all users. You can adapt it to your own purposes as needed.
+## Perform data-driven testing
+There are two steps to perform data-driven execution:
+1. Add data files to workspace.
+2. Add data-driven commands.
+3. Modify your test to use the data.
 
-### How to add the data-driven execution sample
+### Add data files to workspace
+Katalon Recorder supports adding CSV and JSON data files to your workspace: 
+1. Click on the add icon next to **Test Data** in the **Workspace** left-side bar.
+2. Select CSV or JSON files.
 
-The sample will be automatically visible to new users when they first go through the Product Tours. Existing users can go to *Extended Feature > Essential Product Tours* to trigger the Product Tours which will add the sample to KR.
+You should see your data files under **Test Data**.
 
-<img src="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/data-driven/KR-5-4-0-how-to-add-data-driven-sample-test-case.png" width="100%">
+### Add data-driven commands
+Refer to [Data-driven commands](#data-driven-commands) for more information.
+1. Add a `loadVars` command to the beginning of your test.
+2. Type in the data file name to the target of the `loadVars` command (for example, `data.csv`).
+3. Add a `endLoadVars` command to the end of your test.
 
-### Anatomy of the data-driven execution sample
+### Change your test to use variables
 
-The data-driven execution sample contains of a test case named *Book many healthcare appointments* and a data file named *sample_data.csv*. 
+Use variables with the same names as the columns in your CSV file.
 
-The test case uses two variables `visit_date` and `comment`, which correspond to the column names specified in the data file:
+For example, if your CSV file has a column named `firstName`, then you can change a test step `type | id=first-name | Thomas` to `type | id=first-name | ${firstName}` will make it use the data from that column.
 
-```
-visit_date,comment
-26/10/1984,some text 1
-1/10/1996,some text 2
-```
+## Data-driven commands
+### loadVars
 
-When executed, the test case will book two appointments using on the information in the data file.
+The `loadVars` command loads the values from the data file specified in its Target. 
 
-<img src="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/data-driven/KR-5.4.0-sample-data-driven-execution-sample-test-case.png" width="100%">
+When you execute a test containing `loadVars` and `endLoadVars` commands, the following process will take place, with i start with 1 and ends with the number of rows in the data file:
+1. The ith row of the data file will be fetched.
+2. The values of the row will be mapped to the variables used in the test case.
+3. The steps between `loadVars` and `endLoadVars` will be executed using these mapped values.
 
+### endLoadVars
 
-## Tutorial
-The following video (2:29 to 5:26) demonstrates how to use data-driven testing with Katalon Recorder and a JSON file. It walks you through how to prepare a JSON file and how to convert a normal test case into a data-driven one.
+The `endLoadVars` command terminates the data-driven block. You need to add it to your test, otherwise you will get an error message.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sgzFkQ-0Ta8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+## Sample projects
+Katalon Recorder comes with a set of built-in sample projects to get you started with data-driven executions.
+1. Go to **Templates**.
+2. Go to **Read and write value with CSV file**
+3. Add **Fill a form with data from CSV file** sample project.

@@ -8,7 +8,6 @@ toc: false
 
 ## 5.3.31
 New, shiny features:
-- [Daily Usage](https://docs.katalon.com/katalon-recorder/docs/daily-usage.html).
 - [Save test case through shortcut and context menu](https://docs.katalon.com/katalon-recorder/docs/automate-scenarios.html#save-data).
 - [UX enhancement to safeguard against dataloss](https://docs.katalon.com/katalon-recorder/docs/automate-scenarios.html#remove-data).
 

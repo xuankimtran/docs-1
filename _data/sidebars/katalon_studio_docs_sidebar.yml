@@ -40,7 +40,7 @@ items:
           - title: "Overview"
             url: /katalon-analytics/docs/testops_subscriptions_overview.html
           - title: "Pricing and Feature Comparisons"
-            url: /katalon-analytics/docs/testops-packages.html 
+            url: /katalon-analytics/docs/testops-packages.html
           - title: "Trial Plans"
             url: /katalon-analytics/docs/trial-plans.html
           - title: "Manage Subscriptions"
@@ -1175,8 +1175,10 @@ items:
             url: /katalon-studio/docs/using-autoit-for-authentication-in-katalon-studio.html
       - title: "Proof of Concept"
         tree:
-          - title: "Dependencies Management with Native Gradle Support"
+          - title: "Dependencies Management with Native Gradle Support (Poc)"
             url: /katalon-studio/docs/dependencies-management-gradle-support.html
+          - title: "Parameterize Azure DevOps Test Case ID List (PoC)"
+            url: /katalon-studio/docs/parameterize-ado-test-case-id.html  
       - title: "Javadoc"
         url: /katalon-studio/docs/javadoc.html
       - title: "Deprecated Documentation"
@@ -1433,23 +1435,19 @@ items:
                 url: /katalon-recorder/docs/selenese-selenium-ide-commands-reference.html
               - title: "Create your first automation script"
                 url: /katalon-recorder/docs/automate-scenarios.html
-              - title: "Handle conditional cases"
+              - title: "Control the flows"
                 url: /katalon-recorder/docs/conditional-cases.html
-              - title: "Verify or assert state"
-                url: /katalon-recorder/docs/validate-expected-values.html
-              - title: "Back up data automatically to Katalon TestOps"
+              - title: "Back up data automatically"
                 url: /katalon-recorder/docs/auto-backup.html
           - title: "Execute scenarios"
             tree:
-              - title: "Execution modes"
-                url: /katalon-recorder/docs/execute-scenarios.html
               - title: "Use the Self-Healing function"
                 url: /katalon-recorder/docs/self-healing.html 
               - title: "Use the Commande-Line Runner"
                 url: /katalon-recorder/docs/command-line-runner.html 
-          - title: "Monitor scenarios"
+          - title: "Execution report"
             tree:
-              - title: "Monitor automation script executions"
+              - title: "View execution reports in TestOps"
                 url: /katalon-recorder/docs/monitor-scenario-executions.html
           - title: "Export scenarios"
             tree:
@@ -1459,10 +1457,6 @@ items:
                 url: /katalon-recorder/docs/writing-custom-script-formatter.html
           - title: "Data-driven excecution"
             url: /katalon-recorder/docs/data-driven-execution.html
-          - title: "Social"
-            tree:
-              - title: "Daily Usage"
-                url: /katalon-recorder/docs/daily-usage.html
           - title: "Extend Katalon Recorder"
             tree:
               - title: "Katalon Recorder Helper Tool"

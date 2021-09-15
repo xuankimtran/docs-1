@@ -10,6 +10,14 @@ redirect_from:
 description:
 ---
 
+## 5.5.4.3
+**Bug fixes**
+- Fixed an issue where Play from here / Play all executes tests in the wrong order when creating a new test case or duplicating a test case.
+
+## 5.5.4.2
+**Bug fixes**
+- Fixed an issue where JSON files cannot be read as expected
+
 ## 5.5.4.1
 **Bug fixes**
 	- Fixed an issue where users cannot execute tests with CSV files on Windows.

@@ -83,19 +83,16 @@ People reportedly use Katalon Recorder to:
         <tr>
             <td>
                 <ul>
-                    <li><a href="./automate-scenarios.html">Create your first automation script</a>
+                    <li><a href="./automate-scenarios.html">Create an automation scenario</a>
                     </li>
-                    <li><a href="./conditional-cases.html">Handle conditional cases</a>
+                    <li><a href="./conditional-cases.html">Control the flows</a>
                     </li>
-                    <li><a href="./validate-expected-values.html">Verify or assert states</a>
-                    </li>      
-                    <li><a href="./auto-backup.html">Auto backup your automation scripts to Katalon TestOps</a>
+                    <li><a href="./auto-backup.html">Auto data backup</a>
                     </li>                                     
                 </ul>
             </td>
             <td>
                 <ul>
-                    <li><a href="./execute-scenarios.html">Execution modes</a>
                     </li>
                     <li><a href="./self-healing.html">Self-healing</a>
                     </li>
@@ -105,7 +102,7 @@ People reportedly use Katalon Recorder to:
             </td>
             <td>
                 <ul>
-                    <li><a href="./monitor-scenario-executions.html">Monitor automation script executions </a>
+                    <li><a href="./monitor-scenario-executions.html">Upload reports to TestOps </a>
                     </li>                    
                 </ul>
             </td>
@@ -127,7 +124,7 @@ People reportedly use Katalon Recorder to:
                 </ul>
             </td>
             <td>
-                <a href="./data-driven-execution.html">Execute automation scripts with multiple data set</a>
+                <a href="./data-driven-execution.html">Data-driven execution</a>
             </td>
             <td>
                 <ul>
