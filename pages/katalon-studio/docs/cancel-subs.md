@@ -21,7 +21,12 @@ To cancel your subscription, follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-subscription/edit-subscription.png" alt="edit subscription" width=100%>
 
-5. At the license you wish to cancel, click **Cancel**.
-6. Fill in the survey form to complete the cancellation.
+5. At the license you wish to cancel, click **Cancel**. The **Cancel Subscription** dialog appears. To confirm your action, click **OK**.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-subscription/cancel-subs.png" alt="cancel subscription" width=100%>
+
+6. Fill in the survey form, then click **Done** to complete the cancellation.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-subscription/feedback-form.png" alt="survey form" width=50%>
 
 If you cancel your subscription by accident and want to reactivate the canceled subscription, contact us via license@katalon.com for further support.
