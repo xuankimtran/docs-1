@@ -20,27 +20,66 @@ This is useful if you want to:
 > **Requirements**
 >
 > * An active Katalon Studio Enterprise license.
+> * A Katalon Runtime Engine License. To learn more about Katalon licenses here: [Katalon licensing](https://docs.katalon.com/katalon-studio/docs/license.html).
 
 In this article, we demonstrate how to manage data binding at test case level and execute them in a test suite.
 
 ## Data-driven testing at test case level
 
 Do as follows:
-### Create Test Case 
+### Create a new Test Case 
 
-  1. Create a new test case. Go to **File > New > Test Case**. A new test case opens.
-  2. Switch to the the **Variables & Data** tab. There are two sections in this tab:
+  1. Create a new test case. Go to **File > New > Test Case**. 
+  2. In the new test case, switch to the the **Variables & Data** tab. There are two sections in this tab:
 
   - **Variables** section: Support defining variables populated in the **Variables Binding** table.
   - **Data Binding** section: Support adding predefined test data files and manage variable binding for your test case execution.
-### Manage Test case variables 
 
-### Manage data binding
+<img src="url" alt="Variables & Data section" width=70%>
+
+### Manage Variables section
+
+To add test case variables, in the **Variables** section of the **Variables & Data** tab:
+  1. Click **Add**. A new row appears in the variable list.
+  2. Input variables.
+
+  For example:
+
+  <img src="url" alt="Input Variables" width=70%>
+
+### Manage Data Binding section
+
+In the **Data Binding** section, there are two tables:
+
+- **Test Data**: Support specifying data files for your test execution.
+- **Variable Binding**: Display all variables from the  **Variables** section. See also [Test case Variables](https://docs.katalon.com/katalon-studio/docs/test-case-variables.html#view-and-declare-variables-in-script-mode).
+
+  1. In the **Test Data** table:
+
+     - Click **Add** to add data file(s). A **Test Data Browser** dialog opens.
+  
+      <img src="url" width="70%" alt="Add data files">
+
+     - Select a data file or a combination of data files you wish to use for variable binding in the **Test Data Browser** dialog. Click **OK**. The selected test data files appear in the **Test Data** table.
+
+      <img src="url" width="70%" alt="Test Data Browser">
+      <img src="url" width="70%" alt="Results after adding data files">
+
+      > Note:
+      > 
+      > In case you are adding a combination of data files, by default, Katalon defines the relationship of multiple data sources at test case level as One - One. You can learn more about the relationship of multiple data file here: [Manage test data relationship](https://docs.katalon.com/katalon-studio/docs/combine-multiple-data-sources.html#manage-test-data-relationship).
+
+      - To specify the data range, double-click on the cell under the **Data Iteration** column of each data files. You can learn more about specifying data iteration here: [Modify data range](https://docs.katalon.com/katalon-studio/docs/combine-multiple-data-sources.html#modify-data-range).
+
+  2. In the **Variable Binding** table, it displays all variables from the **Variables** section of the test.
 
 
 
-  - **Test Data** table: Support specifying data files for your test execution.
-  - **Variable Binding** table: Display all variables from the **Variables** section in the test case. See also [Test case Variables](https://docs.katalon.com/katalon-studio/docs/test-case-variables.html#view-and-declare-variables-in-script-mode).
+      > Note:
+      > 
+      > In case the variables and the respective columns in Test Data should share the **same name**. You can quickly map all the public variables of the selected test case with respective columns in the test data by clicking **Auto Map**.
+
+
 <img src="url" width="70%" alt="Data binding section">
 
 
