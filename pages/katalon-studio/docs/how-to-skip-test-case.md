@@ -10,7 +10,7 @@ In this article, we demonstrate how to skip test cases in a test suite by precon
 
 ## Skip Test Cases
 
-1. In the **Test Explorer** pane, right-click on **Test Listeners**. Select **New > New Test Listener**. 
+1. In the **Test Explorer** panel, right-click on **Test Listeners**. Select **New > New Test Listener**. 
    
 <img src="https://github.com/katalon-studio/docs-images/raw/4edfbc46044bc17f1d039c925c34230ed76357e1/katalon-studio/docs/test-listeners-test-hooks/image2017-12-5-103A353A3.png" width="50%" alt="Create a new test listener">
 
