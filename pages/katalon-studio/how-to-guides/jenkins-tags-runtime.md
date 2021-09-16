@@ -1,5 +1,5 @@
 ---
-title: "Passing feature file tags at runtime when building with Jenkins"
+title: "Passing scenario tags at runtime when building with Jenkins"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/how-to-guides/jenkins-tags-runtime.html
 description:
@@ -15,9 +15,9 @@ This tutorial will guide you through how to set your scenario tags to be execute
 
 ### Create Global Variables during runtime
 
-You can change Global Variable values during runtime without affecting other Test Suites. Therefore, using a Global Variable as a parameter in the keyword `runFeatureFolderWithTags` can save your time when you have a huge amount of tags to manage.
+You can change Global Variable values during runtime without affecting other Test Suites. Therefore, using a Global Variable as a parameter in the keyword `runFeatureFolderWithTags` can save your time when you have many tags to manage.
 
-1. Open your desired Profiles. Click **Add** to create a Global Variable whose values are tags. See [Global Variables](https://docs.katalon.com/katalon-studio/docs/execution-profile-v54.html#global-variables).
+1. In the **Tests Explorer**, go to **Profiles** to open your desired Profiles. Click **Add** to create a Global Variable which values are tags. See [Global Variables](https://docs.katalon.com/katalon-studio/docs/execution-profile-v54.html#global-variables).
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-tag-runtime/globalvariable-tags.png" alt="add global variable" width=70%>
 
