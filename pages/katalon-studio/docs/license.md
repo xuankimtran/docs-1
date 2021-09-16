@@ -11,7 +11,7 @@ This section provides information on the licensing system of Katalon. You will f
 
 ## Katalon Studio Enterprise
 
-Katalon Studio is free with basic tools suitable for individuals. For an business advanced solution, consider purchase Katalon Studio Enterprise licenses. Below is a feature comparison between KS and KSE:
+Katalon Studio provides free, basic tools suitable for the testing needs of individuals. For an advanced business solution, consider purchasing Katalon Studio Enterprise licenses. Below is a feature comparison between KS and KSE:
 
 <table>
 	<tbody>
@@ -125,7 +125,7 @@ One KSE license is exclusively assigned to one Katalon account and can be activa
 
 Katalon Runtime Engine (KRE) is the test execution add-on of Katalon Studio. While the KSE license only supports you in generating test scripts and manually executing tests via the graphical user interface, the KRE license allows you to execute automation tests in the command-line interface (CLI) mode.
 
-When running from CLI, one working session accounting for one license equals a conducted process. To learn more about the use cases of KRE, see [Introduce Katalon Runtime Engine](https://docs.katalon.com/katalon-studio/docs/intro-RE.html).
+When running from the CLI, one working session accounts for one license. To learn more about the use cases of KRE, see [Introduce Katalon Runtime Engine](https://docs.katalon.com/katalon-studio/docs/intro-RE.html).
 
 ## License types
 
