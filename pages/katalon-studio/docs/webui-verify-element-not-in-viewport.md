@@ -27,7 +27,7 @@ Parameters
 Returns
 -------
 
-<table><thead><tr><th>Param Type</th><th>Description</th></tr></thead><tbody><tr><td>boolean</td><td><ul><li><strong>true:</strong> the element is visible in the current viewport.</li><li><strong>false: </strong>the element is visible is not visible in the current viewport.</li></ul></td></tr></tbody></table>
+<table><thead><tr><th>Param Type</th><th>Description</th></tr></thead><tbody><tr><td>boolean</td><td><ul><li><strong>true:</strong> the element is not visible in the current viewport.</li><li><strong>false: </strong>the element is visible visible in the current viewport.</li></ul></td></tr></tbody></table>
 
 Example
 -------
