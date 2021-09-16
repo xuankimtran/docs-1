@@ -8,18 +8,18 @@ description:
 ---
 
 > Requirements
-> - Chrome Browser version from 53 onwards. To see browser versions with shadow DOM support here: [Shadow DOM (V1)](https://caniuse.com/shadowdomv1)
+> - Chrome Browser version from 53 onwards. You can see browser versions with shadow DOM support here: [Shadow DOM (V1)](https://caniuse.com/shadowdomv1)
 > 
 
-Shadow DOM is a useful solution for Web developers. It helps web developers better encapsulate their code by allowing DOM elements to contain child nodes and CSS. Nevertheless, it becomes a challenge for automation testing because elements inside a shadow root technically don't exist in the main document DOM. Therefore, test automation frameworks that use the DOM query function don't work properly.
+Shadow DOM is a useful solution for Web developers. It helps web developers better encapsulate their code by allowing DOM elements to contain child nodes and CSS. Nevertheless, it becomes a challenge for automation testing because elements inside a shadow root technically don't exist in the main DOM. Therefore, test automation frameworks that use the DOM query function don't work properly.
 
 In this article, we demonstrate how to test shadow DOM elements in the Katalon Studio framework.
 
-We use the demo site [Books](https://books-pwakit.appspot.com/explore?q=). All the elements in this demo website are under a shadow root. In this demonstration, we identify shadow DOM objects to test inputting: "hello World" into the website's search bar.
+We use the demo site [Books](https://books-pwakit.appspot.com/explore?q=). All the elements in this demo website are under a shadow root. In this demonstration, we identify shadow DOM objects, then verify them by successfully inputting: "hello World" into the website's search bar.
 
 Do as follows:
 
-1. Create a new project. Go to **File > New > Project**. Name it as **Shadow DOM Testing**.
+1. Create a new project. Go to **File > New > Project**. Here, we name the project **Shadow DOM Testing**.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/339de0f5ad5bce4f4dc1d8d7ef8f0ea6b5d0780a/katalon-studio/tutorials/shadow_dom_elements_testing/Katalon-DOM-testing.png" width="70%" alt="Create a project">
 
@@ -36,9 +36,11 @@ Do as follows:
    
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/shadow_dom_elements_testing/KS-DOM-Property-of-shadow-DOM-elements.png" width="70%" alt="Identify the property of child object">
 
+You can learn more about object properties from Mozilla developer documentation here: [Working with objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects).
+
 4. After identifying the property of the parent object and the child object, return to the Katalon Studio framework to create them. 
     
-    Katalon Studio supports the following selection methods to create the object's properties: Attributes, XPath, CSS, Image. Learn more about [Selection Method](https://docs.katalon.com/katalon-studio/docs/web-selection-methods.html#change-the-css-selector-of-an-object-at-runtime). 
+    Katalon Studio supports the following selection methods to create the object's properties: Attributes, XPath, CSS, Image. You can learn more about using the best selection method for object properties here: [Selection Method](https://docs.katalon.com/katalon-studio/docs/web-selection-methods.html#change-the-css-selector-of-an-object-at-runtime). 
     
     In this example, we use the **Attributes** method.
 
@@ -92,7 +94,7 @@ Do as follows:
 
       - After defining the property, in the **Settings** section, choose **Shadow DOM parent** option, then click **Browse**. An **Object Repository Browser** dialog opens.
       - In the open dialog, choose the `book_app` object as the parent object. Click **OK**.
-      - Once finished, the `input` object has Shadow Root Parent as below.
+      - Once finished, the `input` object identifies `book_app` as its **Shadow Root Parent** as below.
 
         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/shadow_dom_elements_testing/KS-DOM-after-defining-parent-object-for-the-child-object.png" width="70%" alt="Results after pointing the child object to the parent object">
 
