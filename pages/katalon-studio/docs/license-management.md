@@ -22,7 +22,7 @@ You can verify the subscription information and view all license information by 
 
    The **Licenses** page appears.
 
-3. Select the Katalon product whose licenses you want to check. For example, **Katalon Studio Enterprise (Node-locked)**.
+3. Select a Katalon product. For example, **Katalon Studio Enterprise (Node-locked)**.
 
    The **Licenses** page displays as below.
 
@@ -34,17 +34,17 @@ You can verify the subscription information and view all license information by 
 
          > Notes:
          > 
-         > Available Licenses = Subscribed Licenses – (Offline Licenses + Online Licenses).
+         > Licenses attributed online, as well as offline licenses you have generated, are substracted from your license quota.
 
-      * **Machine Quota**: equal to the license quota.
-
+      * **Machine Quota**: the maximum number of machines that can be registered with your licenses.
+      
    * In the **Licensed Users** section, you can add users for license usage. You can also view a list of users you have added for license usage.
 
    * In the **Online Licenses** section, you can see a list of active machine IDs (users who are currently using the licenses online).
 
-   * In the **Offline Licenses** section, you can see a list of machine IDs to which the offline licenses are bound.
+   * In the **Offline Licenses** section, you can see a list of machine IDs bound to offline licenses.
 
-   * In the **Registered Machines** section, you can see a list of all machine IDs using either online or offline licenses.
+   * In the **Registered Machines** section, you can see a list of all machine IDs that are using either types of licenses.
 
 > Notes:
 >
@@ -94,11 +94,11 @@ Follow these steps:
 >
 > You have already verified that your machine does not have an offline license.
 
-After activation, the KSE/KRE node-locked licenses are bound to the machine IDs until the expiry dates. You need to remove the licenses or transfer them manually.
+After activation, the KSE/KRE node-locked licenses are bound to the machine IDs until the expiry dates. You can still remove the licenses or transfer them manually.
 
 For KSE, once you have revoked a license, you can transfer the license to another User by adding that User in the **Online Licenses** section. See: [Grant Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/use-online-license.html).
 
-For KRE, as one session accounts for one license, you must deactivate the machine ID using that license first, then transfer the license to the on-demand User.
+For KRE, one session will reserve one license. You must deactivate the machine ID that reserved that license first. Another user can then use KRE and take over the license.
 
 For example, if the KRE license is bound to your machine ID because you have run KSE using KRE. You must deactivate your machine ID so that the other member in your organization can use the KRE node-locked license.
 
@@ -128,6 +128,6 @@ All members of an organization can use the KRE licenses by default once the orga
 
 You activate the KRE license by running KSE with KRE. After activating, your machine ID is then added to the **Online Licenses** section.
 
-Therefore, if your machine ID is deactivated, the other member can start running the KSE with KRE to activate the license. The User's machine ID is then added to the **Online Linceses** section.
+Therefore, if your machine ID is deactivated, another user can start running KSE with KRE and reserve the KRE license. The User's machine ID is then added to the **Online Licenses** section.
 
 Repeat the steps to deactivate the machine ID if you want to transfer the KRE license to another machine.
