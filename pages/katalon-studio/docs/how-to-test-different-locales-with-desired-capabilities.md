@@ -6,7 +6,7 @@ redirect_from:
 description:
 ---
 
-Chrome sets a default UI language with the first Chrome window that opens. In other words, if you alter browser locales, for example, with command line arguments `chrome.exe --lang=de` to start Chrome in German, the Chrome driver still defines the default language from the Chrome browser.
+Chrome sets a default UI language with the first Chrome window that opens. In other words, if you alter browser locales, for example, with command line argument `chrome.exe --lang=de` to start Chrome in German, the Chrome driver still defines the default language from the Chrome browser.
 
 To test different browser locales, you can instead configure Desired Capabilities. You can learn about this here: [Desired Capabilities](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html)
 
@@ -55,7 +55,7 @@ Do as follows:
 After defining Test Case Variables, we override default language settings in Chrome by using Configured Desired Capabilities. You can learm more about this here: [Configured Desired Capabilities](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html#passing-desired-capabilities-at-runtime)
 
 - Switch to the Script tab of your Test Case.
-- Copy and paste the below code into your script test. With this code, you can manipulate the locales of the testing browsers.
+- Copy and paste the below code into your test script. With this code, you can manipulate the locales of the testing browsers.
 
 ```groovy
 
@@ -71,7 +71,7 @@ RunConfiguration.setWebDriverPreferencesProperty("prefs", pref)
 
 > Notes:
 > 
-> In case you wish to alter browser locales with an existing test script, copy and patse the above sample code before the test script.
+> In case you wish to alter browser locales with an existing test script, copy and paste the above sample code before the test script.
 > 
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/configured-desired-capabilities.png" width=90% alt="Final results after configuring Desired Capabilities">
@@ -153,8 +153,8 @@ In the newly added property line, change the name into "spanish" for better reco
   1. Remote Server URL: `http://localhost:port/wd/hub` - the URL to the Remote server.
   2. Remote Server Type: Choose **Selenium**.
   3. Click **Add** on the command toolbar as the following command.
-  - **goog:chromeOptions**: Support passing the ChromeOptions object into the ChromeDriver constructor
-  - **Dictionary**: the data type permits you to input a collection of keys and values. You can learm more about this here: [data type](https://docs.katalon.com/katalon-studio/docs/value-types.html)
+  - **goog:chromeOptions**: Support passing the ChromeOptions object into the ChromeDriver constructor.
+  - **Dictionary**: the data type permits you to input a collection of keys and values. You can learm more about this here: [data type](https://docs.katalon.com/katalon-studio/docs/value-types.html).
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/chromeoptions.png" width=70% alt="Set value for custom Desired Capabilities">
 
@@ -171,7 +171,7 @@ In the newly added property line, change the name into "spanish" for better reco
 
 <img src="https://github.com/katalon-studio/docs-images/raw/7a0462f8e1b3f6a3c973b1c70a9b7ff6de1b4b9b/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/intl.accept_languages.png" width=70% alt="Set value for custom Desired Capabilities">
 
-  1. Results after a series of the above commands
+  8. Results after a series of the above commands:
 
 <img src="https://github.com/katalon-studio/docs-images/raw/3e6484c7dff66c86389ba45dbbe88de452031e0e/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/final-results-2-reup.png" width=70% alt="Results after setting up custom language Remote Control dialog"> 
 
