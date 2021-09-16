@@ -19,7 +19,7 @@ Below is a sample of a custom `WebDriverEventListener`:
 
 1. Create a new keyword to handle WebDriver events.
 - Go to **File > New > Keywords**. Name it as **MyCustomWebEventListener**. Click **OK**.
-- Copy and patse below sample code into the created keyword.
+- Copy and paste below sample code into the created keyword.
 
 ```groovy
 
@@ -85,7 +85,7 @@ Before navigating to http://www.google.com
 
 ## Use RemoteWebDriver
 
-Because `EventFiringWebDriver` does not implement the interface `RemoteWebDriver`, to obtain RemoteWebDriver instance safely, do as follows:
+Because `EventFiringWebDriver` does not implement the interface `RemoteWebDriver`, to obtain a RemoteWebDriver instance safely, do as follows:
 
 ```groovy
 ....
@@ -99,21 +99,22 @@ RemoteWebDriver katalonWebDriver = (RemoteWebDriver) wrappedWebDriver
 ```
 We recommend encapsulating the above logic into a function to avoid code duplication.
 
-
-If your code is currently casting the WebDriver obtained from DriverFactory as below: 
-
-```groovy
-....
-RemoteWebDriver katalonWebDriver = (RemoteWebDriver) DriverFactory.getWebDriver()
-
-```
-Starting from Katalon 7.0.0, an exception appears as below:
-
-```groovy
-Cannot cast object 'com.kms.katalon.core.webui.driver.SmartWaitWebDriver@7cab1508' with class 'com.kms.katalon.core.webui.driver.SmartWaitWebDriver' to class 'org.openqa.selenium.remote.RemoteWebDriver'
-```
-
-(From [`Russ Thomas's bug report`](https://forum.katalon.com/t/bug-katalon-v7-cannot-cast-smartwaitwebdriver-to-remotewebdriver/33236))
+> Note:
+> 
+> This is to avoid an exception in the case that your code is casting the WebDriver from DriverFactory, such as with:
+>
+> ```groovy
+> ....
+> RemoteWebDriver katalonWebDriver = (RemoteWebDriver) DriverFactory.getWebDriver()
+>
+> ```
+> In this scenario, from Katalon Studio 7.0.0, an exception would appear as below:
+>
+> ```groovy
+> Cannot cast object 'com.kms.katalon.core.webui.driver.SmartWaitWebDriver@7cab1508' with class 'com.kms.katalon.core.webui.driver.SmartWaitWebDriver' to class 'org.openqa.selenium.remote.RemoteWebDriver'
+> ```
+>
+> (From [`Russ Thomas's bug report`](https://forum.katalon.com/t/bug-katalon-v7-cannot-cast-smartwaitwebdriver-to-remotewebdriver/33236))
 
 ## See also
 
