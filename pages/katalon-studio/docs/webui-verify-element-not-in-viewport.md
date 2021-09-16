@@ -32,7 +32,7 @@ Returns
 Example
 -------
 
-You want to verify 'Make Appointment'  button is not visible in the current viewport.
+You want to verify that the 'Make Appointment' button is not visible in the current viewport.
 
 ```groovy
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint

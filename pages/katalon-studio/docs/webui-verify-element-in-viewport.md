@@ -32,7 +32,7 @@ Returns
 Example
 -------
 
-You want to verify 'btn_Login' button to be visible in 10 seconds in the current viewport.
+Within the next 10 seconds, you want to verify that the 'btn_Login' button is visible in the current viewport.
 
 ```groovy
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
