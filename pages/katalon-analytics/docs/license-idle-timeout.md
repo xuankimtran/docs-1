@@ -35,6 +35,6 @@ When this setting is applied, if the users in that organization have been idle f
 
 * To resume your session, click **Continue** or close this notification dialog.
 * To  log out immediately, click **Deactivate**.
-* Ignore this dialog, user will automatically log out after 15 minutes.
+* If the user do nothing, they will automatically log out after 15 minutes.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/noti.png" width=60%>
