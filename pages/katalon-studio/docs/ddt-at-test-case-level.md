@@ -33,7 +33,7 @@ Do as follows:
   2. In the new test case, switch to the the **Variables & Data** tab. There are two sections in this tab:
 
   - **Variables** section: Support defining variables populated in the **Variables Binding** table.
-  - **Data Binding** section: Support adding predefined test data files and manage variable binding for your test case execution.
+  - **Data Binding** section: You can add predefined test data files and manage variable binding for your test case execution.
 
 <img src="url" alt="Variables & Data section" width=70%>
 
@@ -51,8 +51,8 @@ To add test case variables, in the **Variables** section of the **Variables & Da
 
 In the **Data Binding** section, there are two tables:
 
-- **Test Data**: Support specifying data files for your test execution.
-- **Variable Binding**: Display all variables from the  **Variables** section. See also [Test case Variables](https://docs.katalon.com/katalon-studio/docs/test-case-variables.html#view-and-declare-variables-in-script-mode).
+- **Test Data**: Specify here data files for your test execution.
+- **Variable Binding**: This displays all variables from the  **Variables** section. See also [Test case Variables](https://docs.katalon.com/katalon-studio/docs/test-case-variables.html#view-and-declare-variables-in-script-mode).
 
   1. In the **Test Data** table:
 
@@ -60,7 +60,7 @@ In the **Data Binding** section, there are two tables:
   
       <img src="url" width="70%" alt="Add data files">
 
-     - Select a data file or a combination of data files you wish to use for variable binding in the **Test Data Browser** dialog. Click **OK**. The selected test data files appear in the **Test Data** table.
+     - Select the data file(s) you wish to use for variable binding in the **Test Data Browser** dialog. Click **OK**. The selected test data file(s) appear in the **Test Data** table.
 
       <img src="url" width="70%" alt="Test Data Browser">
       <img src="url" width="70%" alt="Results after adding data files">
@@ -72,8 +72,21 @@ In the **Data Binding** section, there are two tables:
       - To specify the data range, double-click on the cell under the **Data Iteration** column of each data files. You can learn more about specifying data iteration here: [Modify data range](https://docs.katalon.com/katalon-studio/docs/combine-multiple-data-sources.html#modify-data-range).
 
   2. In the **Variable Binding** table, it displays all variables from the **Variables** section of the test.
+   
+      - Katalon Studio allows users to **Set Type** for variables all at once if the variables have the **same type**. 
+        In the following example, Employee and Department have the same type as *Data Column*. Highlight both rows, click **Set Type > Data Column**.  
 
+        <img src="url" width="70%" alt="Set Data Type">
 
+      - In the **Test Data** column, click on each row to choose the test data files for execution.
+       
+        <img src="url" width="70%" alt="Choose Test data for Data Type">
+      
+      - In the **Value** column, click on each row to specify the data field in the selected data file.
+
+        <img src="url" width="70%" alt="Choose Value for Data Type">
+
+      - Save the test case when you finish. 
 
       > Note:
       > 
