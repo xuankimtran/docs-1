@@ -12,7 +12,7 @@ Do as follows:
 
 1. Enable WebView debugging in your Android app. To enable this, set the `setWebContentsDebuggingEnabled` property on the `android.webkit.WebView` element to `true`. You can learn more about configuring WebView for debugging from the Chrome developer documentation here: [Automating hybrid Android apps](https://developer.chrome.com/docs/devtools/remote-debugging/webviews/).
    
-2. Download and install Chromedriver for Appium. You can download it from Appium documentation here: [Chromedriver](http://appium.io/docs/en/writing-running-appium/web/chromedriver/#chromedriverchrome-compatibility). Make sure to download the compatible version with Chrome on your testing devices. 
+2. Download and install Chromedriver for Appium. You can download it from the Appium documentation here: [Chromedriver](http://appium.io/docs/en/writing-running-appium/web/chromedriver/#chromedriverchrome-compatibility). Make sure to download the compatible version with Chrome on your testing devices. 
 
 3. Specify the Chromedriver version in the session. Go to **Project > Settings > Desired Capabilities > Mobile > Android** and add this property:
 
@@ -74,7 +74,7 @@ The **chrome://inspect** page displays:
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/chrome-inspect-displays-hybrid-app.png" width="50%" alt="Chrome Inspect displays">
 
 
-To learn more about **Chrome Devtools** and its function, see also [Chrome Devtools](https://developer.chrome.com/docs/devtools/).
+To learn more about **Chrome Devtools** and its functions, see also [Chrome Devtools](https://developer.chrome.com/docs/devtools/).
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/Chrome-Devtools.png" width="70%" alt="Debug-enabled Webviews in Devtools">
 
