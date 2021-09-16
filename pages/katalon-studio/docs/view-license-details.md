@@ -6,7 +6,7 @@ description:
 ---
 ## How to View License Details
 
-You can view the license's details that you are using. From the main menu of Katalon Studio:
+To view the details of your current license, open Katalon Studio. Go to:
 
 * macOS: **Katalon Studio > About Katalon Studio**
 * Windows/Linux: **Help > About**

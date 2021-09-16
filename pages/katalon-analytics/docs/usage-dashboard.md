@@ -39,10 +39,11 @@ The **Test Executions** panel displays a test executions counter and your monthl
 
 > Notes:
 >
-> * When you reach the monthly quota, you cannot run test on TestOps, but you can still upload the test results to TestOps.
+> * When you reach your monthly quota, you cannot run any more tests on TestOps, but you can still upload your test results.
 > * For the first 3 months of any billing plan, including the free plan, you can fill 130% of your maximum quota at no extra cost.
-> * Your test executions counter are reset every month, starting from the first day of your free plan or your purchased date.
-> * Upgrading your subscription renews your balance and sets the new date as the first day of the first month of your new billing plan.
+> * Your test executions counter is reset to 0 every month, starting from the first day of your free plan, or from the last time you upgraded your subscription plan.
+> * Upgrading your subscription renews your balance and sets the new date as the first day of the first month of your new billing plan. You can once again use 130% of your maximum quota for 3 months.
+
 ## Test Activities Panel
 
 The **Test Activities** panel displays your weekly testing activity as a bar chart. Data includes tests run on Katalon TestOps as well as uploaded test results.
