@@ -15,7 +15,7 @@ In this article, we show you how to handle WebDrivers with the support of `Event
 
 You can use `WebDriverEventListener` to handle events started by the WebDriver, which happens for example, before or after navigation, before or after a click. If `EventFiringWebDriver` is a class that wraps around the WebDriver to throw events, `WebDriverEventListeners` is an interface to catch WebDriver events. You can learn more about this interface from the Selenium documentation here: [WebDriverEventListener](https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/support/events/WebDriverEventListener.html)
 
-Below is an example of how to add a custom `WebDriverEventListener`:
+Below is an example use of a custom `WebDriverEventListener`:
 
 1. Create a new keyword to handle WebDriver events.
 - Go to **File > New > Keywords**. Name it as **MyCustomWebEventListener**. Click **OK**.
