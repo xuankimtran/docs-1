@@ -183,6 +183,8 @@ items:
             url: /katalon-studio/docs/search.html
           - title: "Create Test Case"
             url: /katalon-studio/docs/create-test-case.html
+          - title: "Skip test cases"  
+            url: /katalon-studio/docs/skip-test-cases.html
           - title: "Elements of Test Cases"
             tree:
               - title: "Statements"
