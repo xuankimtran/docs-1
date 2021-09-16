@@ -1,5 +1,5 @@
 ---
-title: "Handle WebDrivers with EventFiringWebDriver"
+title: "Handle WebDrivers"
 sidebar: katalon_studio_docs_sidebar
 permalink: /katalon-studio/docs/handle-webdrivers.html
 redirect_from: 
