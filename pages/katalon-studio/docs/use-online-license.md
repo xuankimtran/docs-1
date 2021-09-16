@@ -14,7 +14,7 @@ In this guide, you will learn to assign Katalon Studio Enterprise (KSE) and Kata
 
 > Requirements:
 >
-> * You must have internet connection.
+> * You must have an internet connection.
 >
 > * You must be the Owner or Admin of your Organization.
 >
@@ -32,8 +32,8 @@ Follow these steps to grant KSE licenses:
 
   > Notes:
   >
-  > See [Type of Licenses](https://docs.katalon.com/katalon-studio/docs/license.html) to understand the differences between a node-locked license and a floating license.
-
+  > See [Type of Licenses](https://docs.katalon.com/katalon-studio/docs/overview.html#types of licenses) to understand the differences between a node-locked license and a floating license.
+  
 3. Add users to the **Licensed Users** section.
 
 For KRE, all Users of an Organization can use the KRE licenses by default once the Organization has purchased the KRE licenses.
@@ -67,7 +67,7 @@ For example, if User A logs in to A's account on Machine A, Katalon generates a 
 
 > Notice:
 >
-> A KSE/KRE license, once being converted to an offline license, is bound to a machine until its expiry date. You should generate an offline license with cautions as you cannot undo this action.
+> Once converted to an offline license, a KSE/KRE license is bound to a machine until it expires. You cannot undo this action.
 
 > Requirements:
 >
@@ -75,7 +75,7 @@ For example, if User A logs in to A's account on Machine A, Katalon generates a 
 >
 > * You must be the Owner or Admin of your Organization.
 >
-> * You have already received the User's machine ID. See [Manage Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license-management.html) for instructions on how to find a machine ID.
+> * You have already received the User's machine ID. You can send this guide to your users:  [new Machine ID doc](link), for instructions on how to find a machine ID.
 
 Follow these steps:
 
@@ -107,7 +107,7 @@ Follow these steps:
 
 7. Download and transfer the offline license files to the User.
 
-8. Send your users to this activation guide: [new Activation doc](link).
+8. Send your users this activation guide: [new Activation doc](link).
 
 See also:
 * [Manage Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license-utilization-dashboard.html#license-usage-visualization).
