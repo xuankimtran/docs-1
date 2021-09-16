@@ -44,7 +44,7 @@ To learn more about the Record Mobile utility, you can refer to this document [R
 >
 >
 
-7. By default, Katalon Studio Record starts the AUT in the `NATIVE_APP` context. Set to the `WEBVIEW` context by using the `switchToWebView` mobile keyword. More information here: [[Mobile]switchToWebView](https://docs.katalon.com/katalon-studio/docs/mobile-switch-to-web-view.html#example)
+7. By default, the Record Utility starts the AUT in the `NATIVE_APP` context. Set to the `WEBVIEW` context by using the `switchToWebView` mobile keyword. More information here: [[Mobile]switchToWebView](https://docs.katalon.com/katalon-studio/docs/mobile-switch-to-web-view.html#example)
 
 In the main toolbar, click **Add > Mobile keyword** > a new command line appears > manually add the `switchToWebview` mobile keyword.
 
@@ -74,7 +74,7 @@ The **chrome://inspect** page displays:
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/chrome-inspect-displays-hybrid-app.png" width="50%" alt="Chrome Inspect displays">
 
 
-To learn more about **Chrome Devtools** and its available function, see also [Chrome Devtools](https://developer.chrome.com/docs/devtools/).
+To learn more about **Chrome Devtools** and its function, see also [Chrome Devtools](https://developer.chrome.com/docs/devtools/).
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/Chrome-Devtools.png" width="70%" alt="Debug-enabled Webviews in Devtools">
 
@@ -85,7 +85,7 @@ In case you are defining test objects programmatically, you can use the followin
 ```groovy
 // this is unnecessary if your AUT automatically enters the WEBVIEW context on session start.
 Mobile.switchToWebView()
-// To implement Mobile Driver Factory
+// to implement Mobile Driver Factory
 DriverFactory.changeWebDriver(MobileDriverFactory.getDriver())
 
 // to create a new test object named cdmDetails
