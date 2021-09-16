@@ -1,5 +1,5 @@
 ---
-title: "Type of Licenses"
+title: "Types of License"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/license.html
 description:
