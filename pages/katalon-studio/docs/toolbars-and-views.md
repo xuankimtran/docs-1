@@ -42,37 +42,37 @@ The Main **Toolbar** contains the most common actions you usually perform (e.g
 			<td>
 				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A203A11.png" width=30% alt="Web Object Spy" /></p>
 			</td>
-			<td>Open <strong>Spy Web</strong> dialog to capture elements on websites.</td>
+			<td>Open <strong>Spy Web</strong> to capture elements on websites.</td>
 		</tr>
 		<tr>
 			<td>
 				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A203A32.png" width=30% alt="Mobile Object Spy" /></p>
 			</td>
-			<td>Open <strong>Spy Mobile</strong> dialog to capture elements on mobile applications.</td>
+			<td>Open <strong>Spy Mobile</strong> to capture elements on mobile applications.</td>
 		</tr>
         <tr>
 			<td>
 				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-toolbar-window-spy.png" width=30% alt="Spy Windows Object" /></p>
 			</td>
-			<td>Open <strong>Spy Windows Object</strong> dialog to capture elements in Windows.</td>
+			<td>Open <strong>Spy Windows Object</strong> to capture elements in Windows.</td>
 		</tr>
 		<tr>
 			<td>
 				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A213A15.png" width=30% alt="Web Record" /></p>
 			</td>
-			<td>Open <strong>Record Web</strong> dialog to record WebUI test cases.</td>
+			<td>Open <strong>Record Web</strong> to record WebUI test cases.</td>
 		</tr>
         <tr>
 			<td>
 				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-4-16-183A203A56.png" width=30% alt="Mobile Recorder" /></p>
 			</td>
-			<td>Open <strong>Record Mobile</strong> dialog to record mobile test cases.</td>
+			<td>Open <strong>Record Mobile</strong> to record mobile test cases.</td>
 		</tr>
         <tr>
 			<td>
 				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-toolbar-window-recorder.png" width=30% alt="Window Recorder" /></p>
 			</td>
-			<td>Open <strong>Record Windows Actions</strong> dialog to record Windows test cases.</td>
+			<td>Open <strong>Record Windows Actions</strong> to record Windows test cases.</td>
 		</tr>
 		<tr>
 			<td>
