@@ -39,7 +39,7 @@ Follow these steps:
    * For GitHub integration:
 
       * **Source Type**: choose **Github**.
-      * **Repository URL**: enter your Git Repository. For example, https://github.com/katalon-studio-samples/ci-samples.
+      * **Repository URL**: enter your GitHub Repository. For example, https://github.com/katalon-studio-samples/ci-samples.
       * **Username**: enter your GitHub Username.
       * **Personal Access Token**: enter your Personal Access Token.
    
@@ -53,7 +53,7 @@ Follow these steps:
    * For Bitbucket integration:
 
       * **Source Type**: choose **Bitbucket**.
-      * **Repository URL**: enter your Bitbucket URL.
+      * **Repository URL**: enter your Bitbucket Repository.
       * **Username**: enter your Bitbucket Username.
       * **Personal Access Token**: enter your Personal Access Token.
    
