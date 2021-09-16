@@ -25,10 +25,24 @@ In this article, we demonstrate how to manage data binding at test case level an
 
 ## Data-driven testing at test case level
 
-### Manage Test Case Variables
-    
-  1. Create a new test case. Go to **File > New > Test Case**.
-  2. 
+Do as follows:
+### Create Test Case 
+
+  1. Create a new test case. Go to **File > New > Test Case**. A new test case opens.
+  2. Switch to the the **Variables & Data** tab. There are two sections in this tab:
+
+  - **Variables** section: Support defining variables populated in the **Variables Binding** table.
+  - **Data Binding** section: Support adding predefined test data files and manage variable binding for your test case execution.
+### Manage Test case variables 
+
+### Manage data binding
+
+
+
+  - **Test Data** table: Support specifying data files for your test execution.
+  - **Variable Binding** table: Display all variables from the **Variables** section in the test case. See also [Test case Variables](https://docs.katalon.com/katalon-studio/docs/test-case-variables.html#view-and-declare-variables-in-script-mode).
+<img src="url" width="70%" alt="Data binding section">
+
 
 ## Execute Test Suite with Associated Test Case
 
