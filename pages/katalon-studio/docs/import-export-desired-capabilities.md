@@ -13,7 +13,7 @@ From version 8.0.0 onwards, you can reuse desired capabilities across Katalon St
 
 This is useful if you want to:
 - Reuse or copy the configured desired capabilities to another projects with some minor changes.
-- Share the configured desired capabilities for team members to reduce the effort.
+- Share the configured desired capabilities for team members to reduce effort.
 
 Follow these steps:
 ### Export Desired Capabilities
@@ -30,13 +30,13 @@ Follow these steps:
 
 After exporting the JSON files, you can modify them if needed, then import them into another projects. 
 
-Follow the following steps to import files:
+Follow these steps:
 
-1. Go to **Project/Settings/Desired Capabilities** > choose the driver you want to import the desired capabilities. Click **Import**.
+1. Go to **Project/Settings/Desired Capabilities** > choose the driver you want to import the desired capabilities of. Click **Import**.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops/desired-capabilities-management/desired-capabilities.png" width=70%>
 
-2. The dialog box appears. Click **Browse**. Navigate to the JSON file you want to import and select it. Click **OK**.
+2. A dialog box appears. Click **Browse**. Navigate to the JSON file you want to import and select it. Click **OK**.
 
 	> **Note**
 	> 
