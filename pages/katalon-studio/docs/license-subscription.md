@@ -45,7 +45,7 @@ Follow these steps to get a Price Quote and pay for the Quote:
 Follow these steps to purchase licenses:
 
 1. Log into [Katalon TestOps](https://testops.katalon.io/).
-2. Select your desired Organization and select **Subscribe to Katalon products**. The **Subscriptions** page appears.
+2. Select your desired Organization and go to **Settings > Subscription Managements**. The **Subscriptions** page appears.
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-subscription/purchase.png" alt="purchase" width=100%>
 
 3. Select **Studio Subscription**. In the **Billing Summary**, select the license you want to purchase, then click **Subscribe**.
