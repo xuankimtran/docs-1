@@ -1,7 +1,7 @@
 ---
 title: "Capture elements in hybrid Android apps"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/capture-elements-in-hybrid-android-apps.html
+permalink: /katalon-studio/docs/capture-elements-in-hybrid-android-apps.html
 redirect_from:
 description:
 ---
