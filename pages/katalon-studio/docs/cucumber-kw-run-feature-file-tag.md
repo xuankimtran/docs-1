@@ -23,5 +23,5 @@ permalink: katalon-studio/docs/cucumber-kw-run-feature-file-tag.html
 * **Example**:
 
 ```groovy
-CucumberKW.runFeatureFileWithTags('Include/features/BDD Cucumber Tests/Jira Integration/KD-31800.feature', "@BA","@regressiontest")
+CucumberKW.runFeatureFileWithTags('Include/features/BDD Cucumber Tests/Jira Integration/KD-31800.feature', ["@BA","@regressiontest"] as String[])
 ```
