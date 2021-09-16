@@ -26,7 +26,16 @@ In this article, we demonstrate how to manage data binding at test case level an
 
 ## Data-driven testing at test case level
 
+In the following example, we configure a data-driven testing at test case level with the following statement:
+
+``` groovy
+println "${employee} - ${department}"
+```
 Do as follows:
+
+### Create a new Test Data
+
+Katalon allows you to use external or internal data sources for test execution. To learn more about creating new data files, you can refer to this document: [Manage Test Data](https://docs.katalon.com/katalon-studio/docs/manage-test-data.html#create-an-excel-test-data)
 ### Create a new Test Case 
 
   1. Create a new test case. Go to **File > New > Test Case**. 
@@ -39,9 +48,7 @@ Do as follows:
 
 ### Manage Variables section
 
-To add test case variables, in the **Variables** section of the **Variables & Data** tab:
-  1. Click **Add**. A new row appears in the variable list.
-  2. Input variables.
+In the **Variables** section of the **Variables & Data** tab, to add test case variables, click **Add**. Input variables in the newly added row.
 
   For example:
 
@@ -74,7 +81,7 @@ In the **Data Binding** section, there are two tables:
   2. In the **Variable Binding** table, it displays all variables from the **Variables** section of the test.
    
       - Katalon Studio allows users to **Set Type** for variables all at once if the variables have the **same type**. 
-        In the following example, Employee and Department have the same type as *Data Column*. Highlight both rows, click **Set Type > Data Column**.  
+        In the following example, the **Employee** and **Department** variables have the same type as *Data Column*. Highlight both rows, click **Set Type > Data Column**.  
 
         <img src="url" width="70%" alt="Set Data Type">
 
@@ -86,17 +93,16 @@ In the **Data Binding** section, there are two tables:
 
         <img src="url" width="70%" alt="Choose Value for Data Type">
 
-      - Save the test case when you finish. 
-
       > Note:
       > 
-      > In case the variables and the respective columns in Test Data should share the **same name**. You can quickly map all the public variables of the selected test case with respective columns in the test data by clicking **Auto Map**.
+      > In case the variables and the data field in the selected data files share the **same name**, you can quickly map all the variables with its data field in the data file by clicking **Auto Map**. For example, the 'Employee' and 'Department' variables automatically maps with the 'Employee' and 'Department' columns of the test data.
 
+      - Save the test case and run it. To view the the results of your test, go to the **Log Viewer** tab.
 
-<img src="url" width="70%" alt="Data binding section">
-
+        <img src="url" width="70%" alt="Results in Log Viewer">
 
 ## Execute Test Suite with Associated Test Case
+
 
 ### Dynamic Test Suite
 
