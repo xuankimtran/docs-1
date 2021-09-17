@@ -70,7 +70,7 @@ In the **Data Binding** section, there are two tables:
      - Select the data file(s) you wish to use for variable binding in the **Test Data Browser** dialog. Click **OK**. The selected test data file(s) appear in the **Test Data** table.
 
       <img src="url" width="70%" alt="Test Data Browser">
-
+      
       <img src="url" width="70%" alt="Results after adding data files">
 
       > Note:
@@ -138,6 +138,7 @@ To learn more about the dynamic test suite, you can refer to this document: [Dyn
 
   1. Add the test case above to a test suite.
   2. To conduct **Data Binding**, in the test suite editor, click **Show Data Binding**. By default, this section shows the **Data binding** section from the test case added in Step 1.
+      
       <img src="url" width="70%" alt="Default data binding section">
   3. Select the data binding level. Katalon allows you to select the data binding level at the Test Case (TC) level or the Suite Test Case (STC) level.
 
