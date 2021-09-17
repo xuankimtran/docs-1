@@ -9,9 +9,9 @@ permalink: katalon-studio/docs/data-driven-testing-at-test-case-level.html
 > * This Proof of Concept (PoC) is not ready for production use. We recommend using this PoC for evaluation purposes only.
 > * Download Katalon Studio version [8.1.2.alpha](url).
 
-Data-driven testing (DDT) at test case level allows you to add data file(s) and manage variable binding at test case level. 
+Data-driven testing (DDT) at the test case level allows you to add data file(s) and manage variable binding at the test case level. 
 
-This is useful if you want to:
+This function is useful if you want to:
 - Bind each test case to a fixed set of data.
 - Run a test case with different test data combinations.
 - When executing a test suite containing associated test cases, you can see the results of each test iteration (test case + data row) with the mapped test data.
@@ -21,11 +21,11 @@ This is useful if you want to:
 > * An active Katalon Studio Enterprise license.
 > * A Katalon Runtime Engine License. To learn more about Katalon licenses here: [Katalon licensing](https://docs.katalon.com/katalon-studio/docs/license.html).
 
-In this article, we demonstrate how to manage data binding at test case level and execute them in a test suite.
+In this article, we demonstrate how to manage data binding at the test case level and execute them in a test suite.
 
-## Data-driven testing at test case level
+## Conduct Data Binding at the Test Case level
 
-In the following example, we configure a data-driven testing at test case level with the following statement:
+In the following example, we configure DDT at the test case level with the following statement:
 
 ``` groovy
 println "${employee} - ${department}"
@@ -39,9 +39,9 @@ To create a new data file, go to **File > New > Test Data**. Katalon allows you 
 ### Create a new Test Case 
 
   1. Create a new test case. Go to **File > New > Test Case**. Here, we name the test case **DDT at TC level**.
-  2. In the new test case, switch to the the **Variables & Data** tab. There are two sections in this tab:
+  2. In the new test case, switch to the **Variables & Data** tab. There are two sections in this tab:
 
-  - **Variables** section: Support defining variables populated in the **Variables Binding** table.
+  - **Variables** section: This defines variables populated in the **Variables Binding** table.
   - **Data Binding** section: You can add predefined test data files and manage variable binding for your test case execution.
 
     <img src="url" alt="Variables & Data section" width=70%>
@@ -75,11 +75,11 @@ In the **Data Binding** section, there are two tables:
 
       > Note:
       > 
-      > In case you are adding a combination of data files, by default, Katalon defines the relationship of multiple data sources at test case level as **One** - **One**. You can learn more about the relationship of multiple data file here: [Manage test data relationship](https://docs.katalon.com/katalon-studio/docs/combine-multiple-data-sources.html#manage-test-data-relationship).
+      > If you are adding a combination of data files, by default, Katalon defines the relationship of multiple data sources at the test case level as **One** - **One**. You can learn more about the relationship of multiple data files here: [Manage test data relationship](https://docs.katalon.com/katalon-studio/docs/combine-multiple-data-sources.html#manage-test-data-relationship).
 
       - To specify the data range, double-click on the cell under the **Data Iteration** column of each data files. You can learn more about types of data iteration here: [Modify data range](https://docs.katalon.com/katalon-studio/docs/combine-multiple-data-sources.html#modify-data-range).
 
-  2. In the **Variable Binding** table, it displays all variables from the **Variables** section of the test.
+  2. The **Variable Binding** table displays all variables from the **Variables** section of the test.
    
       - Katalon Studio allows users to **Set Type** for variables all at once if the variables have the **same type**. 
         In the following example, the **Employee** and **Department** variables have the same type as *Data Column*. Highlight both rows, click **Set Type > Data Column**.  
@@ -96,9 +96,9 @@ In the **Data Binding** section, there are two tables:
 
       > Note:
       > 
-      > In case the variables and the data field in the selected data files share the **same name**, you can quickly map all the variables with its data field in the data file by clicking **Auto Map**. For example, with this function, the 'Employee' and the 'Department' variables automatically maps with the 'Employee' and 'Department' columns of the test data.
+      > If the variables and the data field in the selected data files share the **same name**, you can quickly map all the variables with the data fields in the data file by clicking **Auto Map**. For example, with this function, the 'Employee' and the 'Department' variables automatically map with the 'Employee' and 'Department' columns of the test data.
 
-      - Save the test case and run it. To view the the results of your test, go to the **Log Viewer** tab.
+      - Save the test case and run it. To view the results of your test, go to the **Log Viewer** tab.
 
         <img src="url" width="70%" alt="Results in Log Viewer">
 
@@ -110,26 +110,26 @@ In this section, we demonstrate how to execute the associated test cases in:
 - A Suite Test Case
 ### Dynamic Test Suite 
 
-Dynamic Test Suite is a test suite with a collection of multiple test cases added via a search query. You can dynamically add additional test cases while running the test suite. 
-To learn more about the dynamic test suite, you can refer to this documents: [Dynamic Test Suite](https://docs.katalon.com/katalon-studio/docs/create-test-suite.html#dynamic-test-suite-dynamic-test-cases-list).
+Dynamic Test Suite is a test suite with multiple test cases added via a search query. You can dynamically add additional test cases while running the test suite. 
+To learn more about the dynamic test suite, you can refer to this document: [Dynamic Test Suite](https://docs.katalon.com/katalon-studio/docs/create-test-suite.html#dynamic-test-suite-dynamic-test-cases-list).
 
   1. To implement this function, install one of the plugins from the Katalon Store:
      * [Basic Search For Dynamic Test Suite.](https://store.katalon.com/product/2/Basic-Search-For-Dynamic-Test-Suite)
      * [Test Case Management with Tags.](https://store.katalon.com/product/6/Test-Case-Management-with-Tags)
      * [TestRail Integration.](https://store.katalon.com/product/13/TestRail-Integration)
 
-  - To activate installed plugin, in the Katalon Studio framework, nagivate to Account settings, click **Reload Plugin**.
+  - To activate the installed plugin, navigate to Account Settings in the Katalon Studio framework and click **Reload Plugin**.
   
   2. In the **Test Explorer** panel, right-click on **Test Suite**. Select **New > Dynamic Test Suite**.
-  3. To add test case via search query, input the search condition into the **Query** box. Then hit **Preview** to query out the matching test cases.
-    To learn more about the search query function, you can refer to this documents: [Search test cases](https://docs.katalon.com/katalon-studio/docs/search.html).
+  3. To add test cases via search query, input the search condition into the **Query** box. Then hit **Preview** to query out the matching test cases.
+    To learn more about the search query function, you can refer to this document: [Search test cases](https://docs.katalon.com/katalon-studio/docs/search.html).
     For example: 
-    To add the associated test case into this dynamic test suite, you can input `Test Cases/DDT at TC level` into the **Query** box. This adds the machted test cases into the executing test suite.
+    To add the associated test case into this dynamic test suite, you can input `id=(Test Cases/DDT at TC level)` into the **Query** box. The matched test case appears in the test suite.
 
     <img src="url" width="70%" alt="Results after searching query">
     
   4. Hit **Run** to execute the test suite.
-    Alternatively, you can run the test suite in console mode. For detailed instruction on how to run a test execution in Console mode, you can refer to this document: [Command Builder](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#command-builder).
+    Alternatively, you can run the test suite in console mode. For detailed instructions on running a test execution in Console mode, you can refer to this document: [Command Builder](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#command-builder).
 ### Conduct Data Binding in a Suite Test Case
 
 > **What is a Suite Test Case?**
@@ -139,7 +139,7 @@ To learn more about the dynamic test suite, you can refer to this documents: [Dy
   1. Add the test case above to a test suite.
   2. To conduct **Data Binding**, in the test suite editor, click **Show Data Binding**. By default, this section shows the **Data binding** section from the test case added in Step 1.
       <img src="url" width="70%" alt="Default data binding section">
-  3. Select the data binding level. Katalon allows you to select the data binding level at the Test Case (TC) level or at the Suite Test Case (STC) level.
+  3. Select the data binding level. Katalon allows you to select the data binding level at the Test Case (TC) level or the Suite Test Case (STC) level.
 
       <img src="url" width="70%" alt="Data Binding Options">
 
@@ -167,7 +167,7 @@ To learn more about the dynamic test suite, you can refer to this documents: [Dy
       
       > Note:
       >
-      > In case your test suite has existing data configurations, in the **Data Binding** section, Katalon shows data from Suite Test Case level by default. Switching to the **Use Test Cse level** does not remove the preconfigured data in the STC.
+      > In case your test suite has existing data configurations, in the **Data Binding** section, Katalon shows data from the Suite Test Case level by default. Switching to the **Use Test Case level** does not remove the preconfigured data in the STC.
 
   4. When you are done with the configuration, hit **Run** to execute your test suite. 
 ### Test Reports
