@@ -14,7 +14,7 @@ Data-driven testing (DDT) at test case level allows you to add data file(s) and 
 This is useful if you want to:
 - Bind each test case to a fixed set of data.
 - Run a test case with different test data combinations.
-- When executing a test suite containing associated test cases, you can see the results of each test iteration with its mapped data files.
+- When executing a test suite containing associated test cases, you can see the results of each test iteration (test case + data row) with its mapped test data.
 
 > **Requirements**
 >
