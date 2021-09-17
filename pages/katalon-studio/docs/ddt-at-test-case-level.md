@@ -43,7 +43,7 @@ Katalon allows you to use external or internal data sources for test execution. 
   - **Variables** section: Support defining variables populated in the **Variables Binding** table.
   - **Data Binding** section: You can add predefined test data files and manage variable binding for your test case execution.
 
-<img src="url" alt="Variables & Data section" width=70%>
+    <img src="url" alt="Variables & Data section" width=70%>
 
 ### Manage Variables section
 
@@ -75,7 +75,7 @@ In the **Data Binding** section, there are two tables:
       > 
       > In case you are adding a combination of data files, by default, Katalon defines the relationship of multiple data sources at test case level as One - One. You can learn more about the relationship of multiple data file here: [Manage test data relationship](https://docs.katalon.com/katalon-studio/docs/combine-multiple-data-sources.html#manage-test-data-relationship).
 
-      - To specify the data range, double-click on the cell under the **Data Iteration** column of each data files. You can learn more about specifying data iteration here: [Modify data range](https://docs.katalon.com/katalon-studio/docs/combine-multiple-data-sources.html#modify-data-range).
+      - To specify the data range, double-click on the cell under the **Data Iteration** column of each data files. You can learn more about types of data iteration here: [Modify data range](https://docs.katalon.com/katalon-studio/docs/combine-multiple-data-sources.html#modify-data-range).
 
   2. In the **Variable Binding** table, it displays all variables from the **Variables** section of the test.
    
