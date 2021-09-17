@@ -81,7 +81,7 @@ In the **Data Binding** section, there are two tables:
 
   2. The **Variable Binding** table displays all variables from the **Variables** section of the test.
    
-      - Katalon Studio allows users to **Set Type** for variables all at once if the variables have the **same type**. 
+      - Katalon Studio allows users to **Set Type** for variables all at once if the variables have the **same type**.  
         In the following example, the **Employee** and **Department** variables have the same type as *Data Column*. Highlight both rows, click **Set Type > Data Column**.  
 
         <img src="url" width="70%" alt="Set Data Type">
@@ -121,14 +121,14 @@ To learn more about the dynamic test suite, you can refer to this document: [Dyn
   - To activate the installed plugin, navigate to Account Settings in the Katalon Studio framework and click **Reload Plugin**.
   
   2. In the **Test Explorer** panel, right-click on **Test Suite**. Select **New > Dynamic Test Suite**.
-  3. To add test cases via search query, input the search condition into the **Query** box. Then hit **Preview** to query out the matching test cases.
-    To learn more about the search query function, you can refer to this document: [Search test cases](https://docs.katalon.com/katalon-studio/docs/search.html).
+  3. To add test cases via search query, input the search condition into the **Query** box. Then hit **Preview** to query out the matching test cases.  
+    To learn more about the search query function, you can refer to this document: [Search test cases](https://docs.katalon.com/katalon-studio/docs/search.html).  
     For example: 
     To add the associated test case into this dynamic test suite, you can input `id=(Test Cases/DDT at TC level)` into the **Query** box. The matched test case appears in the test suite.
 
       <img src="url" width="70%" alt="Results after searching query">
     
-  4. Hit **Run** to execute the test suite.
+  4. Hit **Run** to execute the test suite.  
     Alternatively, you can run the test suite in console mode. For detailed instructions on running a test execution in Console mode, you can refer to this document: [Command Builder](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#command-builder).
 ### Conduct Data Binding in a Suite Test Case
 
