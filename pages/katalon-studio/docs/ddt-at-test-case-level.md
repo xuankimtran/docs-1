@@ -100,8 +100,12 @@ In the **Data Binding** section, there are two tables:
 
         <img src="url" width="70%" alt="Results in Log Viewer">
 
-## Execute Test Suite containing Associated Test Cases
+## Execute Test Suites containing Associated Test Cases
 
+In this section, we demonstrate how to execute the associated test cases in:
+
+- A Dynamic Test Suite
+- A Suite Test Case
 ### Dynamic Test Suite 
 
 Dynamic Test Suite is a test suite with a collection of multiple test cases added via a search query. You can dynamically add additional test cases while running the test suite. 
@@ -115,13 +119,13 @@ To learn more about the dynamic test suite, you can refer to this documents: [Dy
     - To activate installed plugin, in the Katalon Studio framework, nagivate to Account settings, click **Reload Plugin**.
   
   2. In the **Test Explorer** panel, right-click on **Test Suite**. Select **New > Dynamic Test Suite**.
-  3. To add test case via search query, input the search condition into the **Query** box. Then hit **Preview** to query out the matching test cases and the total number of results.
-    To learn more about the search query function, you can refer to this documents: [search test cases](https://docs.katalon.com/katalon-studio/docs/search.html).
+  3. To add test case via search query, input the search condition into the **Query** box. Then hit **Preview** to query out the matching test cases.
+    To learn more about the search query function, you can refer to this documents: [Search test cases](https://docs.katalon.com/katalon-studio/docs/search.html).
     For example: 
     To add the associated test case into this dynamic test suite, you can input `Test Cases/DDT at TC level` into the **Query** box. This adds the machted test cases into the executing test suite.
   4. Hit **Run** to execute the test suite.
-    Alternatively, you can run in console mode. For detailed instruction on how to run a test execution in Console mode, you can refer to this document: [Command Builder](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#command-builder).
-### Built-in Test Suite
+    Alternatively, you can run the test suite in console mode. For detailed instruction on how to run a test execution in Console mode, you can refer to this document: [Command Builder](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#command-builder).
+### Conduct Data Binding in a Suite Test Case
 
 > **What is a Suite Test Case?**
 >
@@ -150,7 +154,7 @@ To learn more about the dynamic test suite, you can refer to this documents: [Dy
       <td>
       <p>With this option:</p>
       <p>- Data in the&nbsp;<strong>Test Data</strong>&nbsp;and&nbsp;<strong>Variable Binding</strong>&nbsp;table is the data from the STC.</p>
-      <p>- You can edit these sections at the STC level.</p>
+      <p>- You can edit these sections at the STC level. To learn more about binding data at the STC level, you can refer to this document: <a href="https://docs.katalon.com/katalon-studio/docs/run-test-case-external-data.html#manage-data-binding">Manage Data Binding</a>.</p>
       &nbsp;</td>
       </tr>
       </tbody>
