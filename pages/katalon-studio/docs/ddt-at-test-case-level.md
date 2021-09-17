@@ -126,7 +126,7 @@ To learn more about the dynamic test suite, you can refer to this document: [Dyn
     For example: 
     To add the associated test case into this dynamic test suite, you can input `id=(Test Cases/DDT at TC level)` into the **Query** box. The matched test case appears in the test suite.
 
-    <img src="url" width="70%" alt="Results after searching query">
+      <img src="url" width="70%" alt="Results after searching query">
     
   4. Hit **Run** to execute the test suite.
     Alternatively, you can run the test suite in console mode. For detailed instructions on running a test execution in Console mode, you can refer to this document: [Command Builder](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#command-builder).
