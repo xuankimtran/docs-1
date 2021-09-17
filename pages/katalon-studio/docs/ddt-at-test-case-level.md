@@ -14,7 +14,7 @@ Data-driven testing (DDT) at test case level allows you to add data file(s) and 
 This is useful if you want to:
 - Bind each test case to a fixed set of data.
 - Run a test case with different test data combinations.
-- When executing a test suite containing associated test cases, you can see the results of each test iteration (test case + data row) with its mapped test data.
+- When executing a test suite containing associated test cases, you can see the results of each test iteration (test case + data row) with the mapped test data.
 
 > **Requirements**
 >
@@ -34,7 +34,8 @@ Do as follows:
 
 ### Create a new Test Data
 
-Katalon allows you to use external or internal data sources for test execution. To learn more about creating new data files, you can refer to this document: [Manage Test Data](https://docs.katalon.com/katalon-studio/docs/manage-test-data.html#create-an-excel-test-data)
+To create a new data file, go to **File > New > Test Data**. Katalon allows you to use external or internal data sources for test execution. To learn more about creating new data files, you can refer to this document: [Manage Test Data](https://docs.katalon.com/katalon-studio/docs/manage-test-data.html#create-an-excel-test-data).
+
 ### Create a new Test Case 
 
   1. Create a new test case. Go to **File > New > Test Case**. Here, we name the test case **DDT at TC level**
@@ -73,7 +74,7 @@ In the **Data Binding** section, there are two tables:
 
       > Note:
       > 
-      > In case you are adding a combination of data files, by default, Katalon defines the relationship of multiple data sources at test case level as One - One. You can learn more about the relationship of multiple data file here: [Manage test data relationship](https://docs.katalon.com/katalon-studio/docs/combine-multiple-data-sources.html#manage-test-data-relationship).
+      > In case you are adding a combination of data files, by default, Katalon defines the relationship of multiple data sources at test case level as **One** - **One**. You can learn more about the relationship of multiple data file here: [Manage test data relationship](https://docs.katalon.com/katalon-studio/docs/combine-multiple-data-sources.html#manage-test-data-relationship).
 
       - To specify the data range, double-click on the cell under the **Data Iteration** column of each data files. You can learn more about types of data iteration here: [Modify data range](https://docs.katalon.com/katalon-studio/docs/combine-multiple-data-sources.html#modify-data-range).
 
