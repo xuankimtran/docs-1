@@ -67,6 +67,10 @@ description: Release notes 8.x
 * Bug: Browser-based recorder could not record videos for the second test case if reusing an open browser.
 * Bug: Explorer Configuration in Project Settings was not working as intended.
 
+### Known issues
+
+* Bug: [Windows OS] Import error of some javax classes: "Groovy:unable to resolve class javax.*". Address [here](https://forum.katalon.com/t/katalon-8-customkeywords-groovy-import-error/58225).
+
 ## Version 8.0.5
 
 ### Improvements
