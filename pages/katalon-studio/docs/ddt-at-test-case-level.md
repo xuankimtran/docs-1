@@ -9,13 +9,12 @@ permalink: katalon-studio/docs/data-driven-testing-at-test-case-level.html
 > * This Proof of Concept (PoC) is not ready for production use. We recommend using this PoC for evaluation purposes only.
 > * Download Katalon Studio version [8.1.2.alpha](url).
 
-<INTRODUCTION>
-
-Katalon Studio offers data-driven testing at test case level. 
+Data-driven testing (DDT) at test case level allows you to add data file(s) and manage variable binding at test case level. 
 
 This is useful if you want to:
 - Bind each test case to a fixed set of data.
 - Run a test case with different test data combinations.
+- When executing a test suite containing associated test cases, you can see the results of each test iteration with its mapped data files.
 
 > **Requirements**
 >
@@ -38,7 +37,7 @@ Do as follows:
 Katalon allows you to use external or internal data sources for test execution. To learn more about creating new data files, you can refer to this document: [Manage Test Data](https://docs.katalon.com/katalon-studio/docs/manage-test-data.html#create-an-excel-test-data)
 ### Create a new Test Case 
 
-  1. Create a new test case. Go to **File > New > Test Case**. 
+  1. Create a new test case. Go to **File > New > Test Case**. Here, we name the test case **DDT at TC level**
   2. In the new test case, switch to the the **Variables & Data** tab. There are two sections in this tab:
 
   - **Variables** section: Support defining variables populated in the **Variables Binding** table.
@@ -101,36 +100,75 @@ In the **Data Binding** section, there are two tables:
 
         <img src="url" width="70%" alt="Results in Log Viewer">
 
-## Execute Test Suite with Associated Test Case
-### Data-binding Test Suite
+## Execute Test Suite containing Associated Test Cases
+
+### Dynamic Test Suite 
+
+Dynamic Test Suite is a test suite with a collection of multiple test cases added via a search query. You can dynamically add additional test cases while running the test suite. 
+To learn more about the dynamic test suite, you can refer to this documents: [Dynamic Test Suite](https://docs.katalon.com/katalon-studio/docs/create-test-suite.html#dynamic-test-suite-dynamic-test-cases-list).
+
+  1. To implement this function, install one of the plugins from the Katalon Store:
+     * [Basic Search For Dynamic Test Suite.](https://store.katalon.com/product/2/Basic-Search-For-Dynamic-Test-Suite)
+     * [Test Case Management with Tags.](https://store.katalon.com/product/6/Test-Case-Management-with-Tags)
+     * [TestRail Integration.](https://store.katalon.com/product/13/TestRail-Integration)
+
+    - To activate installed plugin, in the Katalon Studio framework, nagivate to Account settings, click **Reload Plugin**.
+  
+  2. In the **Test Explorer** panel, right-click on **Test Suite**. Select **New > Dynamic Test Suite**.
+  3. To add test case via search query, input the search condition into the **Query** box. Then hit **Preview** to query out the matching test cases and the total number of results.
+    To learn more about the search query function, you can refer to this documents: [search test cases](https://docs.katalon.com/katalon-studio/docs/search.html).
+    For example: 
+    To add the associated test case into this dynamic test suite, you can input `Test Cases/DDT at TC level` into the **Query** box. This adds the machted test cases into the executing test suite.
+  4. Hit **Run** to execute the test suite.
+    Alternatively, you can run in console mode. For detailed instruction on how to run a test execution in Console mode, you can refer to this document: [Command Builder](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#command-builder).
+### Built-in Test Suite
 
 > **What is a Suite Test Case?**
 >
 > A Suite Test Case is a test case in a test suite.
 
   1. Add the test case above to a test suite.
-  2. To conduct **Data Binding**, in the test suite editor, click **Show Data Binding**.
-    Katalon allows you to select Data Binding options between Test Case (TC) level and Suite Test Case (STC) level.
+  2. To conduct **Data Binding**, in the test suite editor, click **Show Data Binding**. By default, this section shows the **Data binding** section from the test case added in Step 1.
+      <img src="url" width="70%" alt="Default data binding section">
+  3. Select the data binding level. Katalon allows you to select the data binding level at the Test Case (TC) level or at the Suite Test Case (STC) level.
 
       <img src="url" width="70%" alt="Data Binding Options">
-  
 
-       - Use **Use Test Case level** option: In case your test suite has existing data configurations, choosing this option will not remove the existing data.
-         - **Test Data**: This displays data files from test case added in Step 1.
-         - **Variable Binding**: This displays all variables from test case added in Step 1.
-     - Use **Suite Test Case level** option:
-        - **Test Data**: This displays data files from suite test case.
-        - **Variable Binding**: This displays all variables from the  **Variables** section. See also [Test case Variables](https://docs.katalon.com/katalon-studio/docs/test-case-variables.html#view-and-declare-variables-in-script-mode).
 
-### Dynamic Test Suite 
+      <table width="714">
+      <tbody>
+      <tr>
+      <td><strong>Use Test Case level&nbsp;</strong>option&nbsp;</td>
+      <td><strong>Use Suite Test Case level</strong>&nbsp;option&nbsp;</td>
+      </tr>
+      <tr>
+      <td>
+      <p>With this option:</p>
+      <p>- Data in the&nbsp;<strong>Test Data</strong>&nbsp;and&nbsp;<strong>Variable Binding</strong>&nbsp;table is the data from the test case added in Step 1.</p>
+      <p>- You can edit these sections at the TC level.</p>
+      </td>
+      <td>
+      <p>With this option:</p>
+      <p>- Data in the&nbsp;<strong>Test Data</strong>&nbsp;and&nbsp;<strong>Variable Binding</strong>&nbsp;table is the data from the STC.</p>
+      <p>- You can edit these sections at the STC level.</p>
+      &nbsp;</td>
+      </tr>
+      </tbody>
+      </table>
+      
+      > Note:
+      >
+      > In case your test suite has existing data configurations, in the **Data Binding** section, Katalon shows data from Suite Test Case level by default. Switching to the **Use Test Cse level** does not remove the preconfigured data in the STC.
 
-Dynamic Test Suite is a test suite with a collection of multiple test cases added via a search query. You can dynamically add additional test cases while running the test suite. To learn more about search query function, you can refer to this documents: [search test cases](https://docs.katalon.com/katalon-studio/docs/search.html).
+  4. When you are done with the configuration, hit **Run** to execute your test suite. 
+### Test Reports
 
-  1. To implement this function, download and install one of the plugins from the Katalon Store:
-     * [Basic Search For Dynamic Test Suite.](https://store.katalon.com/product/2/Basic-Search-For-Dynamic-Test-Suite)
-     * [Test Case Management with Tags.](https://store.katalon.com/product/6/Test-Case-Management-with-Tags)
-     * [TestRail Integration.](https://store.katalon.com/product/13/TestRail-Integration)
+After the test suite execution, to view your test reports, in the **Test Explorer** panel, right-click at **Test Report > Open containing folder**. In the report, you can view:
+  -  The final status of your test and test steps.
+  -  The mapped data file of each test iteration (test case + data row).
+      
+  <img src="url" width="70%" alt="Reports">
 
-  2. After installing one the plugins, to activate it, return to Katalon Studio. Nagivate to Account settings, click **Reload Plugin**.
-  3. In the **Test Explorer** panel, right-click on **Test Suite**. Select **New > Dynamic Test Suite**.
-  4. 
+> Note:
+>
+> Katalon Studio supports exporting test reports in **HTML**, **CSV**, **PDF** and **JUnit**. You can learn more about exporting reports here: [Generate reports](https://docs.katalon.com/katalon-studio/docs/test-suite-report.html#automatically-generate-reports).
