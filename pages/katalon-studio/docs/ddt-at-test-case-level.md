@@ -38,7 +38,7 @@ To create a new data file, go to **File > New > Test Data**. Katalon allows you 
 
 ### Create a new Test Case 
 
-  1. Create a new test case. Go to **File > New > Test Case**. Here, we name the test case **DDT at TC level**
+  1. Create a new test case. Go to **File > New > Test Case**. Here, we name the test case **DDT at TC level**.
   2. In the new test case, switch to the the **Variables & Data** tab. There are two sections in this tab:
 
   - **Variables** section: Support defining variables populated in the **Variables Binding** table.
@@ -70,6 +70,7 @@ In the **Data Binding** section, there are two tables:
      - Select the data file(s) you wish to use for variable binding in the **Test Data Browser** dialog. Click **OK**. The selected test data file(s) appear in the **Test Data** table.
 
       <img src="url" width="70%" alt="Test Data Browser">
+
       <img src="url" width="70%" alt="Results after adding data files">
 
       > Note:
@@ -117,13 +118,16 @@ To learn more about the dynamic test suite, you can refer to this documents: [Dy
      * [Test Case Management with Tags.](https://store.katalon.com/product/6/Test-Case-Management-with-Tags)
      * [TestRail Integration.](https://store.katalon.com/product/13/TestRail-Integration)
 
-    - To activate installed plugin, in the Katalon Studio framework, nagivate to Account settings, click **Reload Plugin**.
+  - To activate installed plugin, in the Katalon Studio framework, nagivate to Account settings, click **Reload Plugin**.
   
   2. In the **Test Explorer** panel, right-click on **Test Suite**. Select **New > Dynamic Test Suite**.
   3. To add test case via search query, input the search condition into the **Query** box. Then hit **Preview** to query out the matching test cases.
     To learn more about the search query function, you can refer to this documents: [Search test cases](https://docs.katalon.com/katalon-studio/docs/search.html).
     For example: 
     To add the associated test case into this dynamic test suite, you can input `Test Cases/DDT at TC level` into the **Query** box. This adds the machted test cases into the executing test suite.
+
+    <img src="url" width="70%" alt="Results after searching query">
+    
   4. Hit **Run** to execute the test suite.
     Alternatively, you can run the test suite in console mode. For detailed instruction on how to run a test execution in Console mode, you can refer to this document: [Command Builder](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#command-builder).
 ### Conduct Data Binding in a Suite Test Case
