@@ -110,11 +110,12 @@ In the **Data Binding** section, there are two tables:
 
   1. Add the test case above to a test suite.
   2. To conduct **Data Binding**, in the test suite editor, click **Show Data Binding**.
-    Katalon allows you to select Data Binding options between Test Case level and Suite Test Case level.
+    Katalon allows you to select Data Binding options between Test Case (TC) level and Suite Test Case (STC) level.
 
       <img src="url" width="70%" alt="Data Binding Options">
+  
 
-       - Use **Use Variables and Binding() at Test Case** option: In case your test suite has existing data configurations, choosing this option will not remove the existing data.
+       - Use **Use Test Case level** option: In case your test suite has existing data configurations, choosing this option will not remove the existing data.
          - **Test Data**: This displays data files from test case added in Step 1.
          - **Variable Binding**: This displays all variables from test case added in Step 1.
      - Use **Suite Test Case level** option:
