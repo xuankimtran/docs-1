@@ -6,7 +6,13 @@ redirect_from:
     - "/katalon-studio/docs/katalon-studio-activation-since-70.html#activating-katalon-studio-enterprise"
     - "/katalon-studio/docs/katalon-studio-activation-since-70.html#other-options"
     - "/katalon-studio/docs/katalon-studio-activation-since-70.html#activating-katalon-studio-enterprise-trial-license"
-    - "katalon-studio/docs/activate-KSE.html"
+    - "/katalon-studio/docs/activate-KSE.html"
+    - "/katalon-studio/docs/katalon-studio-activation-since-70.html"
+    - "/x/ERLR/"
+    - "/katalon-studio/docs/katalon-studio-activation-since-70/"
+    - "/katalon-studio/docs/katalon-studio-activation-since-57/"
+    - "/katalon-studio/docs/katalon%20studio%20activation%20since%2057/"
+    - "/katalon-studio/docs/katalon-studio-activation-since-57.html"
 description:
 ---
 
@@ -51,7 +57,7 @@ From Katalon Studio version 7.0.0 onwards, when you first log in to your Katalon
 
 To activate the trial license, in the **Katalon Studio Activation** dialog, enter the email and password registered for your Katalon account, then click **Activate**.
 
-You can start using KSE and KRE for 30 days.
+You can start using KSE and KRE for 30 days. When your trial period expires, you need to purchase licenses to continue using KSE and KRE, or you can use the Katalon Studio free license with basic testing features. At any time, you can upgrade the free Katalon Studio to Katalon Studio Enterprise without re-download.
 
 ### Activate Purchased Licenses with the Internet
 
