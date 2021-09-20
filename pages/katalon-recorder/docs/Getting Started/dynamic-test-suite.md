@@ -10,57 +10,60 @@ description:
 
 Dynamic Test Suite is a test suite with multiple test cases added at run time via a search query. This allows users to dynamically execute test cases with certain tags, names or properties.
 
-In this article, we demonstrate how to manage test case tags and execute them in a dynamic test suite.
+In this article, we show you how to catergorize test cases with tags and execute them in a dynamic test suite.
 
-## Manage Test Case Tags
+## Catergorize Test Cases with Tags
 
-The **Tags Management** functions allows you to manage all tags in one place. With this functions, you can:
-- Add/remove tags in one or many selected test cases. 
-- Edit tags in one or many selected test cases.
+Katalon Recorder offers three possible ways to catergorize your test cases with tags. You can do it from:
 
-Follow these steps:
+1. The **Tags Management** function:  
+   This function allows you to manage all tags in one place. You can add/remove or edit tags in one or many selected test cases. 
 
-1. In the **Actions** panel, click **Tags Management**. The **Tags Management** dialog opens.
-2. In the opened dialog, you can see a list of existing tags along with the number of test cases where the tags present. 
-     <img src="url" width="70%" alt="List of existing tags">
+   Follow these steps:
 
-     - To add new tags, click **Add new tag**. The opened interface allows you to add new tags into one or many selected test cases. You can also add tags into all test cases in a test suite.
+     1. In the **Actions** panel, click **Tags Management**. The **Tags Management** dialog opens.
+     2. In the opened dialog, the first inteface shows you a list of existing tags along with the number of test cases where the tags present. If you have no tags, this page should be blank.
+         <img src="url" width="70%" alt="List of existing tags">
 
-     <img src="url" width="70%" alt="Add tags into selected test cases from tags management">
+      - To add new tags, click **Add new tag**. The opened interface allows you to add new tags into one or many selected test cases. You can also add tags into all test cases in a test suite.
 
-     <img src="url" width="70%" alt="Add tags into all test case in a test suite from tags management">
+         <img src="url" width="70%" alt="Add tags into selected test cases from tags management">
 
-     - To remove tags, click **Remove (X)** in the tag you wish to remove. Katalon Recorder will delete it from all test cases. 
+         <img src="url" width="70%" alt="Add tags into all test case in a test suite from tags management">
 
-     <img src="url" width="70%" alt="Remove tags in all test cases">
+         <img src="url" width="70%" alt="Tags icon highlighted after adding tags">
 
-     - To edit tags, click on the tag you wish to edit. Katalon Recorder will change it into a new tag in all test cases. 
+      - To remove tags, click **Remove (X)** in the tag you wish to remove. Katalon Recorder deletes it from all test cases. 
 
-     <img src="url" width="70%" alt="Remove tags in all test cases">
+         <img src="url" width="70%" alt="Remove tags in all test cases">
 
-Moreover, you can also add/remove or edit tags from:
-- The **Test case** view:
+      - To edit tags, click on the tag you wish to edit. The edited tag is replaced in all test cases. 
 
-<img src="url" width="70%" alt="Add tags from test case view">
+         <img src="url" width="70%" alt="Edit tags in all test cases">
 
-- The **Workspace** panel:
+2. The **Test case** view:
 
-<img src="url" width="70%" alt="Add tags from test case view">
+   <img src="url" width="70%" alt="Add tags from test case view">
 
-> Note:
-> 
-> In the **Workspace** panel, you can quickly add tags into all test cases in a test suite by click **Tags** <img src="url" width="30%" alt="Tag icon"> in the test suite.
+3. The **Workspace** panel:
+
+   <img src="url" width="70%" alt="Add tags from test case view">
+
+   > Note:
+   > 
+   > In the **Workspace** panel, you can quickly add tags into all test cases in a test suite by click **Tags** <img src="url" width="30%" alt="Tag icon"> in the test suite.
 ## Execute Dynamic Test Suite
 
-  1. Use one of three options in Part 1 to add tags into your test case.
-  2. In the **Workshop** panel, right-click on **Test Suite > New Dynamic Test Suite**.
-  3. To add test cases via search query, input the the query `tags=(tags1,tags2,tags3)` into the **Query** box. Then hit **What?** to query out the matching test cases.
-   
-     To learn more about the search query function, you can refer to this document: [Search test cases](https://docs.katalon.com/katalon-studio/docs/search.html).
-   
-     For example: To add the test cases with the `Caculator` and `Dashboard` tags into this dynamic test suite, you can input `tags=(Caculator,Dashboard)` into the **Query** box. The matching test case appears in the test suite.
+After catergorizing your test cases with tags, you can now add them into a dynamic test suite.
 
-     <img src="url" width="70%" alt="Results after searching query">
+1. In the **Workshop** panel, right-click on **Test Suite > New Dynamic Test Suite**.
+2. To add associated test cases via search query, input the query `tags=(tags1,tags2,tags3)` into the **Query** box. Then hit **What?** to query out the matching test cases.
+   
+   To learn more about the search query function, you can refer to this document: [Search test cases](https://docs.katalon.com/katalon-studio/docs/search.html).
+   
+   For example: To add the test cases with the `Caculator` and `Dashboard` tags into this dynamic test suite, you can input `tags=(Caculator,Dashboard)` into the **Query** box. The matching test case appears in the test suite.
 
-  4. Hit **What?** to execute the test suite.
-  5. Do we have reports? Where to see the results?
+   <img src="url" width="70%" alt="Results after searching query">
+
+3. Hit **What?** to execute the test suite.
+4. Do we have reports? Where to see the results?
