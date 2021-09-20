@@ -33,7 +33,7 @@ Katalon Recorder offers three possible ways to catergorize your test cases with 
 
          <img src="url" width="70%" alt="Tags icon highlighted after adding tags">
 
-      - To remove tags, click **Remove (X)** in the tag you wish to remove. Katalon Recorder deletes it from all test cases. 
+      - To remove tags, click *Remove* (x) in the tag you wish to remove. Katalon Recorder deletes it from all test cases. 
 
          <img src="url" width="70%" alt="Remove tags in all test cases">
 
