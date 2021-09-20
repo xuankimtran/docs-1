@@ -32,7 +32,7 @@ Follow these steps:
 
      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/schedule-test-run-page-fill-in-1.png" width=100% alt="schedule test run page new UI">
 
-3. Fill in the required information.
+3. Fill in the information.
 
     * In the **General Information** section, create a name for the schedule.
     * In the **What to run** section, fill in the following information:
@@ -42,32 +42,28 @@ Follow these steps:
             >
             > Katalon TestOps currently supports test scripts from Katalon Studio and Git Repositories (GitHub and Bitbucket).  
 
-        * **Type**: select ?
-
-    * In the **When to run** section, you can choose to either run tests automatically or manually.
-
-        * To run tests automatically, switch the **Repeat** toggle on, then select the time and interval for your test runs. By doing so, you have created a trigger to run tests periodically and automatically.
-
-        * To run tests manually, switch the **Repeat** toggle off, then click **Run**.
+        * **Type**: choose among **Test Suite Collection** or **Katalon Command** or **Generic Command** to run your tests.
 
     * In the **Where to run** section, fill in the following information:
         * **Test Environment Type**: choose among **Local Test Environment**, **Kubernetes Test Environment** or **CircleCI Test Environment**.
 
             > Notes:
             >
-            > For **Local Test Environment**, you can check the **Katalon Runtime Engine Version** box to download your test runs automatically from KRE. Or you can check the **Pre-installed Katalon Studio Location** box to retrieve Katalon Studio's tests from your local machine. 
+            > You can also check the **Katalon Runtime Engine Version** box and select a version if you are using KRE.
 
         * **Test Environments**: select the Agents you want to use for test executions.
 
-    * In the **Advanced Settings** section, fill in the following information:
+    * In the **When to run** section, you have the following options:
+        * If you want to save what you have configured so far without running tests, select **Manual Trigger**, then click **Save**. You then can come back another time to schedule test runs.
+        * If you want to run tests immediately, select **TestOps Scheduler**, turn the **Repeat** toggle off, then click **Run**. You have run the tests manually.
+        * If you want to run tests automatically during a certain period of time, select **TestOps Scheduler**, turn the **Repeat** toggle on, set the time and interval you want to run the tests (e.g., run tests every 2 days from 4th July to 19th September), then click **Schedule**. You have created a trigger to run tests automatically.
+
+    * In the **Advanced Settings** section (optional) you can optimize your configurations as below:
 
         * **Execution Mode**: choose between **Sequential** (run one test after another) or **Parallel** (run tests at the same time).
-        * **Timeout in Minutes**: enter the time after which test execution is aborted.
+        * **Timeout in Minutes**: define the time after which test execution is cancelled.
         * Kobiton integration: switch the **Kobiton** toggle on to enable the integration, then enter Kobiton Device ID for test runs on that devide.
-        * **Release Version**: select the release version you want to link your test run to.
-4. Click **Save**.
-    
-You have created a new schedule for your Test Runs.
+        * **Release Version**: select the release version you want to link your test runs to.
 
 After creating the schedule, Katalon TestOps automatically directs you to the **Test Run Types** page.
 
