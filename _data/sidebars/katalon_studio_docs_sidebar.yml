@@ -95,10 +95,6 @@ items:
             tree:
               - title: "Installation Overview"
                 url: /katalon-studio/docs/getting-started.html
-              - title: "Activate Katalon Studio"
-                url: /katalon-studio/docs/katalon-studio-activation-since-70.html
-              - title: "Troubleshoot Activation Problems"
-                url: /katalon-studio/docs/troubleshoot-activation-problems.html
               - title: "Update Katalon Studio"
                 url: /katalon-studio/docs/auto-updater.html
               - title: "Katalon Studio for Linux (GUI)"
