@@ -45,25 +45,25 @@ Katalon Recorder offers three possible ways to catergorize your test cases with 
 
    <img src="url" width="70%" alt="Add tags from test case view">
 
-3. The **Workspace** panel:
+3. The **Workspace** sidebar:
 
    <img src="url" width="70%" alt="Add tags from test case view">
 
    > Note:
    > 
-   > In the **Workspace** panel, you can quickly add tags into all test cases in a test suite by click **Tags** <img src="url" width="30%" alt="Tag icon"> in the test suite.
+   > In the **Workspace** sidebar, you can quickly add tags into all test cases in a test suite by click **Tags** <img src="url" width="30%" alt="Tag icon"> in the test suite.
 ## Execute Dynamic Test Suite
 
 After catergorizing your test cases with tags, you can now add them into a dynamic test suite.
 
-1. In the **Workshop** panel, right-click on **Test Suite > New Dynamic Test Suite**.
-2. To add associated test cases via search query, input the query `tags=(tags1,tags2,tags3)` into the **Query** box. Then hit **What?** to query out the matching test cases.
+1. In the **Workshop** sidebar, right-click on **Test Suite > New Dynamic Test Suite**.
+2. To add associated test cases via search query, input the query `tags=(tags1,tags2,tags3)` into the **Query** box. Then press **Enter** to query out the matching test cases.
    
    To learn more about the search query function, you can refer to this document: [Search test cases](https://docs.katalon.com/katalon-studio/docs/search.html).
    
-   For example: To add the test cases with the `Caculator` and `Dashboard` tags into this dynamic test suite, you can input `tags=(Caculator,Dashboard)` into the **Query** box. The matching test case appears in the test suite.
+   For example: To add the test cases with the `Calculator` and `Dashboard` tags into this dynamic test suite, you can input `tags=(Caculator,Dashboard)` into the **Query** box. The matching test case appears in the test suite.
 
    <img src="url" width="70%" alt="Results after searching query">
 
-3. Hit **What?** to execute the test suite.
-4. Do we have reports? Where to see the results?
+3. Hit **Play** to execute the test suite.
+4. After executing the test suite, you can check the status of you test in the **Log** tab. 
