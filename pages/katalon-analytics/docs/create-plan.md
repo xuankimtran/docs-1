@@ -92,4 +92,4 @@ Follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/detail-of-test-run-type-on-testops.png" width=100% alt="test run details on testops">
     
-Next step: [Execute Test Runs](https://docs.katalon.com/katalon-analytics/docs/kt-scheduler.html).
+See also: [Execute Test Runs](https://docs.katalon.com/katalon-analytics/docs/kt-scheduler.html).
