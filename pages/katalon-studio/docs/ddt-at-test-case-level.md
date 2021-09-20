@@ -25,13 +25,7 @@ In this article, we demonstrate how to manage data binding at the test case leve
 
 ## Conduct Data Binding at the Test Case level
 
-In the following example, we configure DDT at the test case level with the following statement:
-
-``` groovy
-println "${employee} - ${department}"
-```
-Do as follows:
-
+Follow these steps:
 ### Create a new Test Data
 
 To create a new data file, go to **File > New > Test Data**. Katalon allows you to use external or internal data sources for test execution. To learn more about creating new data files, you can refer to this document: [Manage Test Data](https://docs.katalon.com/katalon-studio/docs/manage-test-data.html#create-an-excel-test-data).
