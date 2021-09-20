@@ -9,17 +9,21 @@ permalink: katalon-studio/docs/data-driven-testing-at-test-case-level.html
 > * This Proof of Concept (PoC) is not ready for production use. We recommend using this PoC for evaluation purposes only.
 > * Download Katalon Studio version [8.1.2.alpha](url).
 
-Data-driven testing (DDT) at the test case level allows you to add data file(s) and manage variable binding at the test case level. 
+Data-driven testing (DDT) at the test case level allows you to add one or more data files and manage variable binding at the test case level. 
 
 This function is useful if you want to:
 - Bind each test case to a fixed set of data.
 - Run a test case with different test data combinations.
-- When executing a test suite containing associated test cases, you can see the results of each test iteration (test case + data row) with the mapped test data.
+- When executing a test suite containing associated test cases, you can see the results of each test iteration with the mapped test data.
 
-> **Requirements**
+> **What is an iteration?**
+>
+> An iteration is a test case executed with a test data row.
+
+> **Requirements:**
 >
 > * An active Katalon Studio Enterprise license.
-> * A Katalon Runtime Engine License. To learn more about Katalon licenses here: [Katalon licensing](https://docs.katalon.com/katalon-studio/docs/license.html).
+> * An active Katalon Runtime Engine license. To learn more about Katalon licenses, you can refer to this document here: [Katalon licensing](https://docs.katalon.com/katalon-studio/docs/license.html).
 
 In this article, we demonstrate how to manage data binding at the test case level and execute them in a test suite.
 
@@ -30,38 +34,26 @@ Follow these steps:
 
 To create a new data file, go to **File > New > Test Data**. Katalon allows you to use external or internal data sources for test execution. To learn more about creating new data files, you can refer to this document: [Manage Test Data](https://docs.katalon.com/katalon-studio/docs/manage-test-data.html#create-an-excel-test-data).
 
-### Create a new Test Case 
+### Create Test Case Variables
 
   1. Create a new test case. Go to **File > New > Test Case**. Here, we name the test case **DDT at TC level**.
-  2. In the new test case, switch to the **Variables & Data** tab. There are two sections in this tab:
+  2. In the new test case, switch to the **Variables & Data** tab. In the **Variables** section, to add test case variables, click **Add**. Input variables in the newly added row.
 
-  - **Variables** section: This defines variables populated in the **Variables Binding** table.
-  - **Data Binding** section: You can add predefined test data files and manage variable binding for your test case execution.
-
-    <img src="url" alt="Variables & Data section" width=70%>
-
-### Manage Variables section
-
-In the **Variables** section of the **Variables & Data** tab, to add test case variables, click **Add**. Input variables in the newly added row.
-
-  For example:
-
-  <img src="url" alt="Input Variables" width=70%>
-
-### Manage Data Binding section
+    <img src="url" alt="Input Variables" width=70%>
+### Manage Data Binding
 
 In the **Data Binding** section, there are two tables:
 
 - **Test Data**: Specify here the data files for your test execution.
-- **Variable Binding**: This displays all variables from the  **Variables** section. See also [Test case Variables](https://docs.katalon.com/katalon-studio/docs/test-case-variables.html#view-and-declare-variables-in-script-mode).
+- **Variable Binding**: This displays all variables from the  **Variables** section. 
 
   1. In the **Test Data** table:
 
-     - Click **Add** to add data file(s). A **Test Data Browser** dialog opens.
+     - Click **Add** to add one or more data files. A **Test Data Browser** dialog opens.
   
       <img src="url" width="70%" alt="Add data files">
 
-     - Select the data file(s) you wish to use for variable binding in the **Test Data Browser** dialog. Click **OK**. The selected test data file(s) appear in the **Test Data** table.
+     - Select the data files you wish to use for variable binding in the **Test Data Browser** dialog. Click **OK**. The selected test data files appear in the **Test Data** table.
 
       <img src="url" width="70%" alt="Test Data Browser">
       
@@ -73,10 +65,10 @@ In the **Data Binding** section, there are two tables:
 
       - To specify the data range, double-click on the cell under the **Data Iteration** column of each data files. You can learn more about types of data iteration here: [Modify data range](https://docs.katalon.com/katalon-studio/docs/combine-multiple-data-sources.html#modify-data-range).
 
-  2. The **Variable Binding** table displays all variables from the **Variables** section of the test.
+  2. In the **Variable Binding** table:
    
-      - Katalon Studio allows users to **Set Type** for variables all at once if the variables have the **same type**.  
-        In the following example, the **Employee** and **Department** variables have the same type as *Data Column*. Highlight both rows, click **Set Type > Data Column**.  
+      - Katalon Studio allows users to **Set Type** for variables all at once if the variables have the same type.  
+        In the following example, the **Employee** and **Department** variables have the same type as **Data Column**. Highlight both rows, click **Set Type > Data Column**.  
 
         <img src="url" width="70%" alt="Set Data Type">
 
@@ -90,7 +82,7 @@ In the **Data Binding** section, there are two tables:
 
       > Note:
       > 
-      > If the variables and the data field in the selected data files share the **same name**, you can quickly map all the variables with the data fields in the data file by clicking **Auto Map**. For example, with this function, the 'Employee' and the 'Department' variables automatically map with the 'Employee' and 'Department' columns of the test data.
+      > If the variables and the data field in the selected data files share the same name, you can quickly map all the variables with the data fields in the data file by clicking **Auto Map**. For example, with this function, the 'Employee' and the 'Department' variables automatically map with the 'Employee' and 'Department' columns of the test data.
 
       - Save the test case and run it. To view the results of your test, go to the **Log Viewer** tab.
 
@@ -123,7 +115,7 @@ To learn more about the dynamic test suite, you can refer to this document: [Dyn
       <img src="url" width="70%" alt="Results after searching query">
     
   4. Hit **Run** to execute the test suite.  
-    Alternatively, you can run the test suite in console mode. For detailed instructions on running a test execution in Console mode, you can refer to this document: [Command Builder](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#command-builder).
+    Alternatively, you can run the test suite in console mode. For detailed instructions on running a test execution in console mode, you can refer to this document: [Command Builder](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#command-builder).
 ### Conduct Data Binding in a Suite Test Case
 
 > **What is a Suite Test Case?**
@@ -169,7 +161,7 @@ To learn more about the dynamic test suite, you can refer to this document: [Dyn
 
 After the test suite execution, to view your test reports, in the **Test Explorer** panel, right-click at **Test Report > Open containing folder**. In the report, you can view:
   -  The final status of your test and test steps.
-  -  The mapped data file of each test iteration (test case + data row).
+  -  The mapped data file of each test iteration.
       
   <img src="url" width="70%" alt="Reports">
 
