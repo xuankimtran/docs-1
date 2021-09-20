@@ -1,64 +1,106 @@
 ---
-title: "Activate Katalon Studio Enterprise"
+title: "Activate Katalon License"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/activate-KSE.html
+permalink: katalon-studio/docs/activate-license.html
 redirect_from:
     - "/katalon-studio/docs/katalon-studio-activation-since-70.html#activating-katalon-studio-enterprise"
     - "/katalon-studio/docs/katalon-studio-activation-since-70.html#other-options"
     - "/katalon-studio/docs/katalon-studio-activation-since-70.html#activating-katalon-studio-enterprise-trial-license"
+    - "katalon-studio/docs/activate-KSE.html"
 description:
 ---
-You need a license to activate Katalon Studio Enterprise (KSE) that can work with or without an Internet connection.
 
-> Having activation problems? [Click here.](https://docs.katalon.com/katalon-studio/docs/troubleshoot-activation-problems.html)
+In this tutorial, we will guide you through the activation of your 30 days trial and your purchased Katalon licenses, including Katalon Studio Enterprise (KSE) and Katalon Runtime Engine (KRE). You can activate your license with or without Internet access. You can also learn how to configure a proxy if you are behind a proxy server.
 
-## Online Activation
+To learn more about Katalon licenses, see [Types of License](https://docs.katalon.com/katalon-studio/docs/license.html)
 
-You can activate KSE in an online environment with the [trial KSE license](/katalon-studio/docs/license.html), or an online license that grants permission to the registered users.
+## Activate Licenses
 
-* Trial License: When you first download Katalon Studio version 7.0.0 and log in to your Katalon account, the trial license associated with your account is automatically activated. Each trial KSE license is tied to each Katalon account.
-* Online License: Only the registered users who are added to the **Register Users** list can use online licenses.
+To start your activation, download and open Katalon Studio. The **Katalon Studio Activation** automatically pops up.
 
-In the **Katalon Studio Activation** window:
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/activate-KSE/activation.png" alt="activation" width=70%>
 
-1. Enter the email and password registered for your Katalon account then click **Activate**.
-2. You are navigated to your organization, or you can select one of the organizations you belong to in the drop-down list, click **OK**.
-3. You are recommended to install the plugins for a better experience with Katalon Studio.
-4. Open an existing project or create a new one in Katalon Studio.
-5. In Katalon TestOps Integration pop-up window:
+### Configure proxy
 
-* Select a team in the configured organization that you have permission to access.
-* Select a project under that team you’d like to work on or create one if you have permission.
+If you are behind a proxy server, before activating Katalon licenses, you need to configure the Authentication proxy settings. Otherwise, you can skip this step.
 
-### Configuring proxy for online activation
-
-If you are behind a Proxy Server, you need to configure the Authentication proxy settings before activating KSE. Click **Configure Authentication Proxy** at the bottom of the Activation dialog box.
+Click **Configure Authentication Proxy** at the bottom of the Activation dialog box.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/config-proxy-activation.png" width="">
 
-In the Proxy Settings dialog box, you can select one of three options below.
+In the Proxy Settings dialog box, you can select one of the three options below.
 
-* **Use system proxy configuration**: Katalon Studio tries to guess which proxy server your system is behind and sync with these settings.
-* **No proxy**: there's no proxy.
-* **Manual proxy configuration**: you can manually set up your proxy.
+* **Use system proxy configuration**: Katalon Studio automatically syncs with the proxy server behind your system.
+* **No proxy**: There's no proxy.
+* **Manual proxy configuration**: You can manually set up your proxy.
 
-## Offline Activation
+> Notes:
+>
+> If you are using a private network, you might encounter a situation where you fail to execute test scripts or integrate Katalon Studio due to the network security error. To fix this problem, whitelist the following domains:
+>
+> * store.katalon.com
+> * update.katalon.com
+> * analytics.katalon.com
+> * testops.katalon.io
+> * admin.katalon.com
+> * katalon-test.s3-accelerate.amazonaws.com (used for uploading reports to [Katalon TestOps](https://analytics.katalon.com))
 
-A machine ID is required for generating an offline license. In the Katalon Studio Activation window, click **Offline Activation**:
+### Activate Trial License
 
-1. **Generate an offline license**: Log into [Katalon Admin](https://admin.katalon.com/) > go to your organization > **License** > **Katalon Studio Enterprise** > **Create Offline License** > insert a **Machine ID** > click **Create**.
+From Katalon Studio version 7.0.0 onwards, when you first log in to your Katalon account, the trial license associated with your account is automatically activated. Each trial KSE or KRE license is tied to one Katalon account.
 
-    > Notes:
-    >
-    >* Machine ID is granted for each computer installing Katalon Studio. In the Katalon Studio Activation window, click **Offline Activation**, you can view and copy your machine ID.
-    >* Only organizational owners or admins can access **License** in an organization. Learn more about [Roles and Permission](https://docs.katalon.com/katalon-analytics/docs/user-management.html#roles-and-default-permissions).
+To activate the trial license, in the **Katalon Studio Activation** dialog, enter the email and password registered for your Katalon account, then click **Activate**.
 
-2. **Locate the generated license**: To use a license, click the **Download** button, the license will be downloaded as a `KSE_<machine_ID>.lic` file. Then click **Browse** in **Katalon Studio Enterprise Activation** to locate the downloaded license file.
+You can start using KSE and KRE for 30 days.
+
+### Activate Purchased Licenses with the Internet
+
+When the Owner or Admin of your Organization already granted you a license by adding you to the **Register Users** list, you can activate your KSE and KRE in Katalon Studio.
+
+To activate your license with the Internet, in the **Katalon Studio Activation** dialog, enter the email and password registered for your Katalon account, then click **Activate**.
+
+### Activate Purchased License without the Internet
+
+> Requirement:
+>
+> * A machine ID. To view your machine ID, see [Machine ID](https://docs.katalon.com/katalon-studio/docs/machine-id.html).
+> * A `KSE_<machine_ID>.lic` or `KRE_<machine_ID>.lic` file. To get this license file, provide your machine ID to your Organization Owner or Admin and ask them to grant you an offline license. See [Grant Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/use-online-license.html)
+
+To activate your license without the Internet, follow these steps:
+
+Put your **.lic** file in the **license** folder. With KRE, to execute multiple sessions in parallel, put multiple license files in the **license** folder.
+
+You can find the **license** folder at:
+
+* Windows: **C:\Users\<user_name>\.katalon\license**
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/activate-RE/license.png" width="" height="">
+
+* Linux: **/home/<user_name>/.katalon/license**
+* macOS: **/Users/<user_name>/.katalon/license**
+
+> Notes:
+>
+> **.katalon** is a hidden folder.
+
+**For KRE**:
+
+After you put your `KRE_<machine_ID>.lic` file in the **license** folder, you successfully activate your KRE license. Every time you start running a test with KRE, KRE automatically verifies your valid licenses available in the **license** file.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/activate-KSE/verify-offline-kre-license.png" alt="verify KRE license" width=70%>
+
+**For KSE**
+
+1. To activate your KSE license, in the **Katalon Studio Activation** dialog, click **Offline Activation**. The **Katalon Studio Enterprise Activation** dialog appears.
+
+2. In the **License file** section, enter the path to your `KSE_<machine_ID>.lic` file, or click **Browse** to navigate to your **lic.** file.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/activate-KSE/offline-license-activation.png" alt="offline activation" width=70%>
 
 3. Click **Activate**.
 
-### Other options
-
-After activating KSE, there will be a window requiring you to log into your Katalon account for connecting to [Katalon TestOps](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html) and [Store](https://docs.katalon.com/katalon-store/docs/overview.html).
-
-KSE users can use plugins both from Store and [offline](https://docs.katalon.com/katalon-studio/docs/offline-plugin.html).
+> Notes:
+>
+> * For a better experience with Katalon Studio, you can also install our plugins. See [Using Plugins with Katalon Studio Enterprise License](https://docs.katalon.com/katalon-studio/docs/kse-use-plugins.html).
+> * If you have any activation problems, see [Troubleshoot Activation Problems](https://docs.katalon.com/katalon-studio/docs/troubleshoot-activation-problems.html).
+> * For further instructions on working with KRE, refer to [Command Syntax](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#katalon-studio-plugins-in-console-mode).
