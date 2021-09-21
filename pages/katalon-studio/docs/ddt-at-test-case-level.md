@@ -122,10 +122,11 @@ To learn more about the dynamic test suite, you can refer to this document: [Dyn
 >
 > A Suite Test Case is a test case in a test suite.
 
-  1. Add the test case above to a test suite.
+  1. Add the above test case to a test suite.
   2. To conduct **Data Binding**, in the test suite editor, click **Show Data Binding**. By default, this section shows the **Data binding** section from the test case added in Step 1.
       
       <img src="url" width="70%" alt="Default data binding section">
+      
   3. Select the data binding level. Katalon allows you to select the data binding level at the Test Case (TC) level or the Suite Test Case (STC) level.
 
       <img src="url" width="70%" alt="Data Binding Options">
@@ -154,7 +155,7 @@ To learn more about the dynamic test suite, you can refer to this document: [Dyn
       
       > Note:
       >
-      > In case your test suite has existing data configurations, in the **Data Binding** section, Katalon shows data from the Suite Test Case level by default. Switching to the **Use Test Case level** does not remove the preconfigured data in the STC.
+      > In case your test suite has existing data configurations, switching to the **Use Test Case level** does not remove the preconfigured data in the STC.
 
   4. When you are done with the configuration, hit **Run** to execute your test suite. 
 ### Test Reports
