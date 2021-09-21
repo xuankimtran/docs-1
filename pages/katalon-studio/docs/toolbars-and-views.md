@@ -15,7 +15,7 @@ description:
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-toobar-full.png" alt="full toolbar" width=100%>
 
-The Main **Toolbar** contains the most common actions you usually perform (e.g., creating test resources or executing automation tests).
+The Main **Toolbar** contains the most common actions you usually perform (e.g., creating test resources or executing automated tests).
 ### System features
 
 <table>
