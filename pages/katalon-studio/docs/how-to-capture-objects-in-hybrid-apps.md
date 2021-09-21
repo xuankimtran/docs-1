@@ -12,7 +12,7 @@ Do as follows:
 
 1. Enable WebView debugging in your Android app. To enable this, set the `setWebContentsDebuggingEnabled` property on the `android.webkit.WebView` element to `true`. You can learn more about configuring WebView for debugging from the Chrome developer documentation here: [Automating hybrid Android apps](https://developer.chrome.com/docs/devtools/remote-debugging/webviews/).
    
-2. Download and install Chromedriver for Appium. You can download it from the Appium documentation here: [Chromedriver](http://appium.io/docs/en/writing-running-appium/web/chromedriver/#chromedriverchrome-compatibility). Make sure to download the compatible version with Chrome on your testing devices. 
+2. Download and install Chromedriver for Appium. You can download it from the Appium website: [Chromedriver](http://appium.io/docs/en/writing-running-appium/web/chromedriver/#chromedriverchrome-compatibility). Make sure to download the compatible version with Chrome on your testing devices. 
 
 3. Specify the Chromedriver version in the session. Go to **Project > Settings > Desired Capabilities > Mobile > Android** and add this property:
 
