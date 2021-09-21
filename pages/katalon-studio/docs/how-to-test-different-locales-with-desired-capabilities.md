@@ -154,7 +154,7 @@ In the newly added property line, change the name into "spanish" for better reco
   2. Remote Server Type: Choose **Selenium**.
   3. Click **Add** on the command toolbar as the following command.
   - **goog:chromeOptions**: Support passing the ChromeOptions object into the ChromeDriver constructor.
-  - **Dictionary**: the data type permits you to input a collection of keys and values. You can learn more about this here: [data type](https://docs.katalon.com/katalon-studio/docs/value-types.html).
+  - **Dictionary**: the data type permits you to input a collection of keys and values. You can learn more about this here: [data types](https://docs.katalon.com/katalon-studio/docs/value-types.html).
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/chromeoptions.png" width=70% alt="Set value for custom Desired Capabilities">
 
