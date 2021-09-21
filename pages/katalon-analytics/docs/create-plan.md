@@ -30,7 +30,7 @@ Follow these steps:
 
     The **Schedule Test Run** dialog appears as below.
 
-     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/schedule-test-run-new-ui-save-config.png" width=100% alt="schedule test run page new UI">
+     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/schedule-test-run-new-ui-trigger-automated-test.png" width=100% alt="schedule test run page new UI">
 
 3. Fill in the information.
 
@@ -55,14 +55,19 @@ Follow these steps:
 
     * In the **When to run** section, you have the following options:
         * If you want to save what you have configured so far without running tests, select **Save Configurations**, then click **Save**. You then can come back another time to schedule test runs.
+
+            <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/schedule-test-run-new-ui-save-config.png" width=100% alt="schedule test run page new UI save config">
+        
         * If you want to run tests immediately, select **Trigger Automated Test**, turn the **Repeat** toggle off, then click **Run**. You have run the tests manually.
 
             <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/schedule-test-run-new-ui-manually.png" width=100% alt="schedule test run page new UI manual run">
+        
         * If you want to run tests automatically during a certain period of time, select **Trigger Automated Test**, turn the **Repeat** toggle on, set the time period and the interval you want to run the tests (e.g., run tests every **2 days** from **09/21/2021 10:49** to **10/20/2021 11:00**), then click **Schedule**. You have created a trigger to run tests automatically.
 
             <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/schedule-test-run-new-ui-trigger-automated-test.png" width=100% alt="schedule test run page new UI automatic run">
     * In the **Advanced Settings** section (optional) you can optimize your configurations as below:
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/schedule-test-run-new-ui-advanced-settings.png" width=100% alt="schedule test run page new UI automatic run">
+
+        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/schedule-test-run-new-ui-advanced-settings.png" width=100% alt="schedule test run page new UI automatic run">
 
         * **Execution Mode**: choose between **Sequential** (run one test after another) or **Parallel** (run tests at the same time).
         * **Timeout in Minutes**: define the time after which test execution is cancelled.
