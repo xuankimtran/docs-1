@@ -30,7 +30,7 @@ Follow these steps:
 
     The **Schedule Test Run** dialog appears as below.
 
-     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/schedule-test-run-page-fill-in-1.png" width=100% alt="schedule test run page new UI">
+     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/schedule-test-run-new-ui-save-config.png" width=100% alt="schedule test run page new UI">
 
 3. Fill in the information.
 
@@ -54,22 +54,26 @@ Follow these steps:
         * **Test Environments**: select the Agents you want to use for test executions.
 
     * In the **When to run** section, you have the following options:
-        * If you want to save what you have configured so far without running tests, select **Manual Trigger**, then click **Save**. You then can come back another time to schedule test runs.
-        * If you want to run tests immediately, select **TestOps Scheduler**, turn the **Repeat** toggle off, then click **Run**. You have run the tests manually.
-        * If you want to run tests automatically during a certain period of time, select **TestOps Scheduler**, turn the **Repeat** toggle on, set the time and interval you want to run the tests (e.g., run tests every 2 days from 4th July to 19th September), then click **Schedule**. You have created a trigger to run tests automatically.
+        * If you want to save what you have configured so far without running tests, select **Save Configurations**, then click **Save**. You then can come back another time to schedule test runs.
+        * If you want to run tests immediately, select **Trigger Automated Test**, turn the **Repeat** toggle off, then click **Run**. You have run the tests manually.
 
+            <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/schedule-test-run-new-ui-manually.png" width=100% alt="schedule test run page new UI manual run">
+        * If you want to run tests automatically during a certain period of time, select **Trigger Automated Test**, turn the **Repeat** toggle on, set the time period and the interval you want to run the tests (e.g., run tests every **2 days** from **09/21/2021 10:49** to **10/20/2021 11:00**), then click **Schedule**. You have created a trigger to run tests automatically.
+
+            <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/schedule-test-run-new-ui-trigger-automated-test.png" width=100% alt="schedule test run page new UI automatic run">
     * In the **Advanced Settings** section (optional) you can optimize your configurations as below:
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/schedule-test-run-new-ui-advanced-settings.png" width=100% alt="schedule test run page new UI automatic run">
 
         * **Execution Mode**: choose between **Sequential** (run one test after another) or **Parallel** (run tests at the same time).
         * **Timeout in Minutes**: define the time after which test execution is cancelled.
-        * Kobiton integration: switch the **Kobiton** toggle on to enable the integration, then enter Kobiton Device ID for test runs on that devide.
+        * Kobiton integration: switch the **Kobiton** toggle on to enable the integration, then enter Kobiton Device ID for running tests on that devide.
         * **Release Version**: select the release version you want to link your test runs to.
 
 After creating the schedule, Katalon TestOps automatically directs you to the **Test Run Types** page.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/test-run-type-page.png" width=100% alt="test run types page">
 
-The **Test Run Types** page shows you a collection of Test Runs with the same configurations (Test Environment, Trigger, Script Repository).
+The **Test Run Types** page shows you a collection of Test Runs with the same configurations (Test Environment, Script Repository).
 
 ## View Test Run Types in Katalon Studio
 
