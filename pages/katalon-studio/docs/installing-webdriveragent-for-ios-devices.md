@@ -10,9 +10,9 @@ redirect_from:
 description:
 ---
 
-> This setup process is **NOT** required if you use **Android** devices. Please go straight to this [step](/pages/viewpage.action?pageId=13698548#MobileonmacOS(new)-Android) instead.
+> If you use **Android** devices, this setup process is **NOT** neccesary. To learn more about setting up Android devices, you can refer to this document: [[Mobile] Android Setup](https://docs.katalon.com/katalon-studio/tutorials/mobile-android-setup.html#set-up-android-tests-on-windows-and-macos)
 
-[WebDriverAgent](https://github.com/facebook/WebDriverAgent), a [WebDriver server](https://w3c.github.io/webdriver/webdriver-spec.html) implementation for iOS, is used for controlling iOS devices remotely. You need to install and set up WebDriverAgent for Katalon Studio to automate iOS devices.
+WebDriverAgent is a WebDriver server used to control iOS devices remotely. You need to install and set up WebDriverAgent for Katalon Studio to automate iOS devices.
 
 1\. Open **Xcode > Preferences > Accounts** > add your developer's Apple ID.
 
@@ -20,6 +20,11 @@ description:
 
 2\. Open **Terminal** > enter the following commands to initialize the **WebDriverAgent** project:
 
+  - Appium 2.32.0
+    ```groovy
+    cd /usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent
+    mkdir -p Resources/WebDriverAgent.bundle
+    ```
   - Appium 1.15.0+
     ```groovy
     cd /usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent
