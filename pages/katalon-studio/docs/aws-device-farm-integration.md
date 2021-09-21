@@ -3,9 +3,20 @@ title: "AWS Device Farm Integration"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/aws-device-farm.html
 ---
-**aws-device-farm-integration** is a Proof of Concept (PoC) built for executing Katalon Studio tests on [AWS Device Farm](https://aws.amazon.com/device-farm/). AWS Device Farm only supports running tests using supported frameworks such as Appium. Hence, Katalon users cannot execute their tests on AWS Device farm directly. See AWS document on [Working with Appium and AWS Device Farm](https://docs.aws.amazon.com/devicefarm/latest/developerguide/test-types-appium.html).
+**aws-device-farm-integration** is a Proof of Concept (PoC) built for executing Katalon Studio tests on [AWS Device Farm](https://aws.amazon.com/device-farm/). AWS Device Farm only supports running tests using supported frameworks such as Appium. Hence, Katalon users cannot execute their tests on AWS Device farm directly. See this AWS document for further information:  [Working with Appium and AWS Device Farm](https://docs.aws.amazon.com/devicefarm/latest/developerguide/test-types-appium.html).
 
 You can execute your Katalon test scripts with devices provided on AWS Device Farm by using **aws-device-farm-integration**. This tutorial shows you how to integrate with AWS Device Farm using **aws-device-farm-integration**. We also provide the **KatalonDemoProject** as a usage example.
+
+## Example Katalon project and AUT
+
+You can clone or download our sample project and iOS application here. This step is optional, you can still use your own project in this tutorial.
+
+* Sample Katalon project: [KatalonDemoProject](https://github.com/katalon-studio-samples/aws-device-farm-integration/tree/main/aut/KatalonDemoProject)
+* Sample iOS application: [Coffee Timer.ipa](https://github.com/katalon-studio-samples/aws-device-farm-integration/blob/main/aut/Coffee%20Timer.ipa)
+
+> Notes:
+>
+> For CI/CD pipelines with Jenkins, clone or download from our repository: [Jenkins integration](https://github.com/katalon-studio-samples/aws-device-farm-integration/raw/main/docs/Jenkins-integration.MD).
 
 ## Integrate with AWS Device Farm
 
@@ -15,7 +26,7 @@ To run your Katalon project with AWS Device Farm, you have to configure your Kat
 >
 > * An active Katalon Runtime Engine license.
 > * Katalon Runtime Engine version 7.8.0 onwards.
-> * [Apache Maven](https://maven.apache.org/download.cgi) version 3.3.9 or later installed.
+> * [Apache Maven](https://maven.apache.org/download.cgi) version 3.3.9 onwards.
 > * Java JDK 8 installed.
 
 > Supported testing types and platforms:
@@ -28,9 +39,9 @@ To run your Katalon project with AWS Device Farm, you have to configure your Kat
 
 ### Configure your Katalon project
 
-1. In Katalon Studio, open your desired Katalon Project. Prepare your Katalon tested test cases and test suites that can successfully run on local device.
+1. In Katalon Studio, open your desired Katalon Project. Prepare your Katalon test cases and test suites that can successfully run on local device.
 
-    Your mobile test case should start with **Start Existing Application** keyword, because AWS Device Farm already installs the application on tested device before every run. To learn more about this mobile keyword, see [[Mobile] Start Existing Application](https://docs.katalon.com/katalon-studio/docs/mobile-keyword-start-existing-apps.html).
+    Your mobile test case should start with the keyword: **Start Existing Application**. This is because AWS Device Farm already installs the application on devices under test before every run. To learn more about this mobile keyword, see [[Mobile] Start Existing Application](https://docs.katalon.com/katalon-studio/docs/mobile-keyword-start-existing-apps.html).
 
 2. To change the desired capabilities corresponding to your app, open **Project Settings > Desired Capabilities > Remote**.
 
@@ -125,11 +136,11 @@ In this section, we will guide you through 4 steps to configure your Katalon tes
 
     Review all of configurations one last time, then click **Confirm and Start Run**.
 
-    In AWS Console, a test run with the pending status created.
+    In AWS Console, a new test run is created. Its status is pending.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/aws-device-farm-integration/3-finish-creating-run.png" alt="finish creating run" width=70%>
 
-    When the run already starts, you can click on test run name and a specified device to view the test status.
+    After the run starts, you can click on the test run name and a specified device to view the test status.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/aws-device-farm-integration/3-view-test-run-status.png" alt="view test run status" width=70%>
 
@@ -138,14 +149,3 @@ In this section, we will guide you through 4 steps to configure your Katalon tes
     After the run finishes, you can download the execution report at Files/Customer Artifacts.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/aws-device-farm-integration/3-download-report.png" alt="download report" width=70%>
-
-## Examples Katalon project and AUTs
-
-You can clone or download our sample projects and iOS application here:
-
-* Sample Katalon project: [KatalonDemoProject](https://github.com/katalon-studio-samples/aws-device-farm-integration/tree/main/aut/KatalonDemoProject)
-* Sample iOS application: [Coffee Timer.ipa](https://github.com/katalon-studio-samples/aws-device-farm-integration/blob/main/aut/Coffee%20Timer.ipa)
-
-## CI/CD pipelines
-
-For CI/CD pipelines with Jenkins, clone or download from our repository: [Jenkins integration](https://github.com/katalon-studio-samples/aws-device-farm-integration/raw/main/docs/Jenkins-integration.MD).
