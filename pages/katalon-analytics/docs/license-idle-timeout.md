@@ -13,9 +13,9 @@ description:
 
 ## Configure Idle Timeout
 
-By defining how long an open Katalon Studio app with a KSE license can stay inactive before the licensed user is considered idle. Licensed users considered idle will be automatically signed out. This setting impacts all the licensed users in the organization.
+You can define how long an open Katalon Studio app with a KSE license can stay inactive before the licensed user is considered idle. Licensed users considered idle will be automatically signed out. This setting impacts all the licensed users in the organization.
 
-**On Katalon Admin**:
+**In Katalon TestOps**:
 
 To enable idle timeout, do as follows:
 
@@ -31,10 +31,10 @@ To enable idle timeout, do as follows:
 
 **In Katalon Studio**:
 
-When this setting is applied, if the users in that organization have been idle for the specified minutes, they will log out automatically. Katalon Studio will notify to the user 15 minutes or a quarter of the idle timeout before automatically logging out.
+When this setting is applied, if the users in that organization have been idle for the specified minutes, they will log out automatically. Katalon Studio will notify the user 15 minutes before the end of the timeout period or when only a quarter of the time remains, whichever is shorter.
 
-* To resume your session, click **Continue** or close this notification dialog.
-* To log out immediately, click **Deactivate**.
+* To resume the session, the user can click **Continue** or close this notification dialog.
+* To log out immediately, the user can click **Deactivate**.
 * If the user does nothing, they will automatically log out after the notified time
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/noti.png" width=60%>
