@@ -54,7 +54,7 @@ Follow these steps:
         * **Test Environments**: select the Agents you want to use for test executions.
 
     * In the **When to run** section, you have the following options:
-        * If you want to save what you have configured so far without running tests, select **Save Configurations**, then click **Save**. You then can come back another time to schedule test runs.
+        * If you want to save what you have configured so far without running tests, select **Save Configurations**, then click **Save**. You then can come back another time to run tests manually. See: [Execute Test Runs](https://docs.katalon.com/katalon-analytics/docs/kt-scheduler.html).
 
             <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/schedule-test-run-new-ui-save-config.png" width=100% alt="schedule test run page new UI save config">
         
@@ -100,5 +100,5 @@ Follow these steps:
 3. Click on one of the names to view Test Runs details in Katalon TestOps (e.g., **a Verify Match exact name(git)**).
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/detail-of-test-run-type-on-testops.png" width=100% alt="test run details on testops">
-    
+
 See also: [Execute Test Runs](https://docs.katalon.com/katalon-analytics/docs/kt-scheduler.html).
