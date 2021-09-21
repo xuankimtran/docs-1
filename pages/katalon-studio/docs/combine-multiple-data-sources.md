@@ -13,7 +13,7 @@ Go to your test suite, click **Show Data Binding** to expand the **Data Binding*
 
 In the extended **Data Binding** section, there are two tables:
 
-- **Test Data**: Specify here data files for your test execution.
+- **Test Data**: Specify here the data files for your test execution.
 - **Variable Binding**: This displays all variables of the selected test case. See also [Test case Variables](https://docs.katalon.com/katalon-studio/docs/test-case-variables.html#view-and-declare-variables-in-script-mode).
 
 ## Test Data Table
