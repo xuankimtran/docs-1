@@ -59,7 +59,7 @@ Therefore, we have the following combinations of data sets:
 
 After adding the test case into the test suite, Katalon automatically imports all variables of the selected test case into the **Variable Binding** table.
 
-1. Katalon Studio allows users to **Set Type** for variables all at once if the variables have the **same type**. In this case, Username and Password have the same type as *Data Column*. Highlight both rows, click **Set Type > Data Column**.  
+1. Katalon Studio allows users to **Set Type** for variables all at once if the variables have the same type. In this case, **Username** and **Password** have the same type as **Data Column**. Highlight both rows, click **Set Type > Data Column**.  
     
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/combine-multiple-data-sources/set-type.png" width="70%" alt="Set Data Type">
 
