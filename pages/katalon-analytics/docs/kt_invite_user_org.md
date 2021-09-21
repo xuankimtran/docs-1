@@ -11,39 +11,15 @@ redirect_from:
  - "/katalon-analytics/docs/setup-org-team-project/"
 ---
 
-You can invite your team members into your Organization to work on projects.
-
 > Requirements:
 >
 > You need a Katalon account. Register [Katalon account](https://www.katalon.com/sign-up/) if you don't have one.
-
-## Roles and permissions at the Organization level
-
-* **Owner**
 
 By default, you become the Owner of the Organization you have created.
 
 The Owner can manage the Organization, Teams, Users, Projects, licenses, plugins, and subscriptions.
 
-The Owner can also transfer ownership to another member.
-
-* **Admin**
-
-This role is granted by the Owner.
-
-The Admin has similar privileges as the Owner but cannot manage the subscriptions.
-
-* **User**
-
-This role is automatically assigned to a person who joins an Organization.
-
-Users can only monitor the project's progress.
-
-* **Billing Manager**
-
-This role is granted by the Owner or Admins.
-
-The Billing Manager has similar privileges as the User and can also manage subscriptions.
+For detailed privileges each role has at the organizational level, see [Roles and permissions](https://docs.katalon.com/katalon-analytics/docs/testops-roles-privileges.html).
 
 ## Invite a User to join an Organization
 
