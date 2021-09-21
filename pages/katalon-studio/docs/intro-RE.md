@@ -21,4 +21,4 @@ KRE is only required for executing automation tests in CLI (command-line interfa
   * For example, building a Docker image to execute your test with a specific environment.
 * KRE is compatible with both Katalon Studio 7 and Enterprise versions.
 
-> To learn more about Katalon Runtime Engine, see [Type of Licenses](https://docs.katalon.com/katalon-studio/docs/katalon-studio/docs/license.html).
+> To learn more about Katalon Runtime Engine, see [Types of Licenses](https://docs.katalon.com/katalon-studio/docs/katalon-studio/docs/license.html).

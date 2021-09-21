@@ -1,5 +1,5 @@
 ---
-title: "Types of License"
+title: "Types of Licenses"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/license.html
 description:
@@ -119,7 +119,7 @@ Katalon Studio provides free, basic tools suitable for the testing needs of indi
 	</tbody>
 </table>
 
-One KSE license is exclusively assigned to one Katalon account and can be activated/used on one machine at a time. Licenses are transferable. You need an internet connection to activate and validate licenses.
+One KSE license is exclusively assigned to one Katalon account and can be activated/used on one machine at a time. Licenses are transferable. You need an internet connection to activate and validate licenses, although special rules apply to enable offline activation. See: [Create an offline license](https://docs.katalon.com/katalon-studio/docs/use-online-license.html#create#an#offline#license).
 
 ## Katalon Runtime Engine
 
