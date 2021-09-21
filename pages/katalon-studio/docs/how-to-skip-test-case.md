@@ -6,7 +6,7 @@ redirect_from:
 description:
 ---
 
-In this article, we demonstrate how to skip test cases in a test suite by preconfiguring **Test Listener** with the `TestCaseContext.skipThisTestCase()` method. To learn more about the usage of Test Listeners, go to [Test Listeners (Test Hooks)](https://docs.katalon.com/katalon-studio/docs/fixtures-listeners.html#test-listeners-test-hooks).
+In this article, we demonstrate how to skip test cases in a test suite by preconfiguring a **Test Listener** with the `TestCaseContext.skipThisTestCase()` method. To learn more about the usage of Test Listeners, go to [Test Listeners (Test Hooks)](https://docs.katalon.com/katalon-studio/docs/fixtures-listeners.html#test-listeners-test-hooks).
 
 ## Skip Test Cases
 
@@ -14,11 +14,11 @@ In this article, we demonstrate how to skip test cases in a test suite by precon
    
 <img src="https://github.com/katalon-studio/docs-images/raw/4edfbc46044bc17f1d039c925c34230ed76357e1/katalon-studio/docs/test-listeners-test-hooks/image2017-12-5-103A353A3.png" width="50%" alt="Create a new test listener">
 
-2. A **New Test Listener** dialog opens. Name it as **Skiptest**. Choose **Generate sample Before Test Case method**. Click **OK**.
+2. A **New Test Listener** dialog opens. Give it a name, such as **Skiptest**. Choose **Generate sample Before Test Case method**. Click **OK**.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/skip-test-cases/KS-SKIP-Create-Skiptest-Listener.png" width="50%" alt="Name new test listener">
 
-Katalon Studio generates a sample template with necessary annotations, libraries and supported functions as accordingly:
+Katalon Studio generates a sample template with the necessary annotations, libraries and supported functions as below:
 
 ```groovy
 import internal.GlobalVariable as GlobalVariable
