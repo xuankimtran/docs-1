@@ -17,7 +17,7 @@ description:
 - Breakpoints are remembered when users switch between test caes again.
 **Improvements**
 - Autosuggested options now will disappear when users interact with other elemenets.
--Test cases' execution status will be retained when users stop the execution mid-way.
+- Test cases' execution status will be retained when users stop the execution mid-way.
 - Added an explanation via tooltip when users use Save Test Case functionality the first time.
 
 ## 5.5.4.3
