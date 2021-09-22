@@ -1,5 +1,5 @@
 ---
-title: "Execute Test Runs"
+title: "Execute Test Runs manually"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/kt-scheduler.html 
 redirect_from: /katalon-analytics/docs/execute-test-run.html 
