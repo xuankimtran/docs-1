@@ -21,7 +21,7 @@ To navigate to the **Usage Dashboard**, follow these steps:
 
 1. Sign in to [Katalon TestOps](https://testops.katalon.io/).
 
-2. Click on the **Organization** scroll-down menu in the top left corner, then select your Organization.
+2. Click on the **Organization** scrolldown menu in the top left corner, then select your Organization.
 
 3. Click on the *Settings* button in the top right corner. Select **License Management > Dashboard**. The **Usage Dashboard** page appears.
 
