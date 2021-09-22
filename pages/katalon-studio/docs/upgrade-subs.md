@@ -5,30 +5,35 @@ permalink: katalon-studio/docs/upgrade-subs.html
 description:
 ---
 
-You can purchase more licenses or switch from monthly to yearly billing cycle at any time. After you paid the prorated amount, the upgrading action takes effect immediately.
-## Add more licenses to a subscription
+You can purchase more licenses or switch from monthly to yearly billing cycles at any time. After you pay the prorated amount, the upgrading action takes effect immediately.
+## Purchase more licenses
 
-> Only the Organization Owner/Admins can upgrade a subscription.
+> Notes:
 >
-> Subscription upgrade does NOT require subscription cancelation.
->
-> The _Upgrade_ button only appears when you already purchase at least one license.
+> * Only the Organization Owner/Admins can upgrade a subscription.
+> * Subscription upgrade does NOT require subscription cancellation.
+> * The _Upgrade_ button only appears when you already purchased at least one license.
 
-To add more number of licenses to your subscription, follow these steps:
+To add more licenses to your subscription, follow these steps:
 
 1. Log in to [Katalon TestOps](https://testops.katalon.io/).
 2. Select your **Organization**. Go to **Settings > Subscriptions Management > Studio Subscriptions**.
-3. Locate which product you want to upgrade, click **Upgrade** and adjust the total number of licenses.
+3. Locate which product you want to upgrade, click **Upgrade**.
 
-   > You can only upgrade a single subscription at a time.
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/upgrade-subs/upgrade.png" alt="upgrade" width=100%>
+
+   > You can only upgrade a single license type at a time.
+4. Adjust the total number of licenses. Apply discount code, if any.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/upgrade-subs/upgrade-license.png" alt="upgrade licenses" width=80%>
 
 4. Pay for the prorated amount.
 
 Successful payment will immediately change your subscription.
 
-## Upgrade to annual billing cycle
+## Upgrade to the annual billing cycle
 
-An annual billing cycle represents one month of saved license costs per year, and allows you to generate licenses for offline environments.
+An annual billing cycle represents one month of saved license costs per year and allows you to generate licenses for offline environments.
 
 > Only monthly subscriptions can be upgraded to annual ones.
 

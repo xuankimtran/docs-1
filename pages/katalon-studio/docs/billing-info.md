@@ -11,13 +11,15 @@ To update payment method and billing information, follow these steps:
 1. Log in to [Katalon TestOps](https://testops.katalon.io/)
 2. Select your **Organization**. Go to **Settings > License Management > Payment Method**. The **Payment Method** page appears.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/payment-method.png" alt="payment method" width=80%>
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/payment-method.png" alt="payment method" width=70%>
 
 ## Edit credit card information
 
 In Katalon TestOps, only credit cards are supported, and you can only save one card in each organization.
 
-If you already added your credit card and wish to replace it with a new card, in the **Payment Method** section, click **Update**.
+If you already added your credit card and wished to replace it with a new one, in the **Payment Method** section, click **Update**.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/upgrade-subs/payment-method-update.png" alt="update payment" width="40%">
 
 You can enter another card’s details, then click **Add new card**. The old credit card information is replaced with the new card.
 
@@ -33,6 +35,6 @@ To delete an existing credit card, in the **Payment Method** section, click **De
 
 ## Update billing information
 
-Katalon sends invoices and other billing-related communication to the Organization Owners or Billing Managers by default. In the **Billing Information** section, you can add cc emails to receive these emails. Cc emails is particularly helpful for an enterprise where the person in charge of billing does not need to be involved in your Katalon Organization.
+Katalon sends invoices and other billing-related communication to the Organization Owners or Billing Managers by default. In the **Billing Information** section, you can add cc emails to receive these emails. Cc emails are particularly helpful for an enterprise where the person in charge of billing does not need to be involved in your Katalon Organization.
 
 To update your billing information, in the **Billing Information** section, click **Update** and enter the billing information. Email addresses are separated by commas. When you are done, click **Save Billing Information**.
