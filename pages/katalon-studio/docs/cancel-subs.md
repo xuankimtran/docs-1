@@ -5,7 +5,7 @@ permalink: katalon-studio/docs/cancel-subs.html
 description:
 ---
 
-You can cancel your subscription at any time. This action will turn off the auto-renewal of your subscription on the next billing cycle.
+You can cancel your Katalon license subscription at any time. This action will turn off the auto-renewal of your license subscription on the next billing cycle.
 
 Subscription cancellation does NOT issue a refund. You can continue using the remaining subscription you have already purchased.
 
