@@ -10,6 +10,16 @@ redirect_from:
 description:
 ---
 
+## 5.5.4.4
+**Bug fixes**
+- Users now can navigate between Target, Command and Value using tabs again.
+- Users can now restore their backup data from TestOps again.
+- Breakpoints are remembered when users switch between test caes again.
+**Improvements**
+- Autosuggested options now will disappear when users interact with other elemenets.
+-Test cases' execution status will be retained when users stop the execution mid-way.
+- Added an explanation via tooltip when users use Save Test Case functionality the first time.
+
 ## 5.5.4.3
 **Bug fixes**
 - Fixed an issue where Play from here / Play all executes tests in the wrong order when creating a new test case or duplicating a test case.
