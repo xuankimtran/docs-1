@@ -1,5 +1,5 @@
 ---
-title: "Installing WebDriverAgent for iOS devices"
+title: "Install WebDriverAgent for iOS devices"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/installing-webdriveragent-for-ios-devices.html
 redirect_from:
@@ -14,19 +14,19 @@ The WebDriverAgent is a WebDriver server used to control iOS devices remotely. 
 
 > Requirements:
 >
-> * Download and install Xcode. You can download it from the Apple developer website here: [Xcode 13](https://developer.apple.com/xcode/).
+> * Xcode installation. You can download it from the Apple developer website here: [Xcode 13](https://developer.apple.com/xcode/).
 > 
-> * Download and install Appium. To learn more about installing Appium, you can follow the steps in the Appium document here: [Getting started](http://appium.io/docs/en/about-appium/getting-started/#installing-appium).
+> * Appium installation. To learn more about installing Appium, you can follow the steps in the Appium document here: [Getting started](http://appium.io/docs/en/about-appium/getting-started/#installing-appium).
 
 
 In this article, we demonstrate how to configure the WebDriverAgent in Xcode to automate iOS devices. Follow these steps:
 
 ### Setting up the iOS device
 
-1. Any device that is to be enabled for development use with Xcode must be listed in your online Apple developer portal. To learn more about how to register your device in Apple Developer Portal, you can refer to wikiHow document here: [How to Add a New Device to Your Apple Developer Portal](https://www.wikihow.com/Add-a-New-Device-to-Your-Apple-Developer-Portal).
+1. Any device for development with Xcode must be listed in your online Apple developer portal. To learn more about registering your device in Apple Developer Portal, you can refer to wikiHow document here: [How to Add a New Device to Your Apple Developer Portal](https://www.wikihow.com/Add-a-New-Device-to-Your-Apple-Developer-Portal).
 2. Connect an iOS device to your computer via USB.
 3. On your iOS device, confirm that you trust this Mac on the **Trust This Computer** pop up.
-4. To enable **UI Automation** on the Device, navigate to **Settings > Developer**. In the **UI Automation** section, turn on the setting for **Enable UI Automation**.
+4. To enable **UI Automation** on the device, navigate to **Settings > Developer**. In the **UI Automation** section, turn on the setting for **Enable UI Automation**.
 
 ### Configure the WebDriverAgent
 
@@ -34,7 +34,7 @@ In this article, we demonstrate how to configure the WebDriverAgent in Xcode to 
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/installing-webdriveragent-for-ios-devices/add-apple-id.png" width=85%>
 
-2. To navigate to the location of WebDriverAgent, open **Terminal**, copy and paste the command line arguement below:
+2. To navigate to the location of WebDriverAgent, open **Terminal**, copy and paste the command line argument below:
 
    ```groovy
    cd /usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent
@@ -85,6 +85,7 @@ In this article, we demonstrate how to configure the WebDriverAgent in Xcode to 
 
       On the menu bar, select **Product > Build**.  
          <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/installing-webdriveragent-for-ios-devices/build-runner.png" width=85%>
+
 
 ### See also
 
