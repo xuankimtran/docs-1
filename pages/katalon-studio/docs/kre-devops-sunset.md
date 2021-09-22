@@ -5,7 +5,7 @@ permalink: katalon-studio/docs/kre-devops-sunset.html
 description:
 ---
 
-This section provides information about the sunsetting plan of Katalon Runtime Engine (KRE) DevOps, including license management and renewal process.
+This section provides information about the sunsetting plan of Katalon Runtime Engine (KRE) DevOps, including license management and the renewal process.
 
 <table>
    <thead>
@@ -65,16 +65,16 @@ This section provides information about the sunsetting plan of Katalon Runtime E
 
 1. Do I have to do anything?
 
-   * For **Annual** billing cycle: Upon renewal, your current DevOps licenses will be automatically upgraded to Floating licenses at no additional charge.
-   * For **Monthly** billing cycle: Upon renewal, you can choose between Monthly Node-locked license or Annual Floating license. For pricing details, see the example in the table above.  
+   * For **Annual** billing cycles: Upon renewal, your current DevOps licenses will be automatically upgraded to Floating licenses at no additional charge.
+   * For **Monthly** billing cycles: Upon renewal, you can choose between Monthly Node-locked licenses or Annual Floating licenses. For pricing details, see the example in the table above.  
 
-2. What if I don’t want to upgrade from Monthly KRE DevOps to Annual KRE Floating license after six months?
+2. What if I don’t want to upgrade from Monthly KRE DevOps to Annual Floating licenses after six months?
 
-   * You will have the option to switch to a monthly KRE Node-locked license.
+   * You will have the option to switch to a monthly billing for KRE Node-locked licenses.
 
 3. Can I use the DevOps license for another three months and come back for another three months?
 
-   * No, it will need to be consecutive, with a maximum of 6 months. Once you cancel your DevOps subscription, it will be no longer available for repurchase.
+   * No, it will need to be consecutive, with a maximum of 6 months. Once you cancel your DevOps subscription, it will no longer be available for repurchase.
 
 4. My team purchased our licenses via a reseller. Will this change affect me?
 
@@ -82,4 +82,4 @@ This section provides information about the sunsetting plan of Katalon Runtime E
 
 5. Other inquiries
 
-   * For further supports, you can submit a ticket at our support portal: [Katalon Support](https://support.katalon.com/hc/en-us).
+   * For further support, you can submit a ticket at our support portal: [Katalon Support](https://support.katalon.com/hc/en-us).

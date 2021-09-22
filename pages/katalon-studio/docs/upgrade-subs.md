@@ -5,14 +5,14 @@ permalink: katalon-studio/docs/upgrade-subs.html
 description:
 ---
 
-You can purchase more licenses or switch from monthly to yearly billing cycles at any time. After you pay the prorated amount, the upgrading action takes effect immediately.
+You can purchase more licenses or switch from a monthly to a yearly billing cycle at any time. Confirmed payment of the prorated amount upgrades your account immediately.
 ## Purchase more licenses
 
 > Notes:
 >
 > * Only the Organization Owner/Admins can upgrade a subscription.
 > * Subscription upgrade does NOT require subscription cancellation.
-> * The _Upgrade_ button only appears when you already purchased at least one license.
+> * The _Upgrade_ button only appears when you already purchased at least one license. See [Purchase Katalon License](https://docs.katalon.com/katalon-studio/docs/license-subscription.html).
 
 To add more licenses to your subscription, follow these steps:
 
@@ -31,7 +31,7 @@ To add more licenses to your subscription, follow these steps:
 
 Successful payment will immediately change your subscription.
 
-## Upgrade to the annual billing cycle
+## Upgrade to an annual billing cycle
 
 An annual billing cycle represents one month of saved license costs per year and allows you to generate licenses for offline environments.
 
@@ -41,7 +41,7 @@ To upgrade to an annual billing cycle, follow these steps:
 
 1. Log in to [Katalon TestOps](https://testops.katalon.io/).
 2. Select your **Organization**. Go to **Settings > Subscriptions Management > Studio Subscriptions**.
-3. Locate which product you want to upgrade, click **Upgrade**. Toggle between the monthly and the annual to select the annual billing cycle.
+3. Locate which product you want to upgrade, click **Upgrade** to select between monthly and annual.
 
 4. Pay for the prorated amount.
 

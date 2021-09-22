@@ -17,13 +17,13 @@ To update payment method and billing information, follow these steps:
 
 In Katalon TestOps, only credit cards are supported, and you can only save one card in each organization.
 
-If you already added your credit card and wished to replace it with a new one, in the **Payment Method** section, click **Update**.
+If you wish to replace a pre-existing credit card, go to the **Payment Method** section, then click **Update**.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/upgrade-subs/payment-method-update.png" alt="update payment" width="40%">
 
-You can enter another card’s details, then click **Add new card**. The old credit card information is replaced with the new card.
+Enter your new credit card information, then click **Add new card**. The old credit card information is replaced with the new card. This information cannot be retrieved.
 
-The replaced card is automatically added to other subscriptions for future payments.
+This card is now the default for all billing purposes, including subscription renewals.
 
 ## Delete an existing credit card
 
@@ -35,6 +35,8 @@ To delete an existing credit card, in the **Payment Method** section, click **De
 
 ## Update billing information
 
-Katalon sends invoices and other billing-related communication to the Organization Owners or Billing Managers by default. In the **Billing Information** section, you can add cc emails to receive these emails. Cc emails are particularly helpful for an enterprise where the person in charge of billing does not need to be involved in your Katalon Organization.
+In the **Billing Information** section, you can add cc emails and update information related to your invoices, such as VAT/GSC ID, Full Business Name, and Address.
+
+Katalon sends invoices and other billing-related communication to the Organization Owners and Billing Managers by default. Cc emails are particularly helpful for an enterprise where the person in charge of billing does not need to be involved in your Katalon Organization.
 
 To update your billing information, in the **Billing Information** section, click **Update** and enter the billing information. Email addresses are separated by commas. When you are done, click **Save Billing Information**.
