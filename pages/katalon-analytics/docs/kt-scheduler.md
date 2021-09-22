@@ -5,7 +5,7 @@ permalink: katalon-analytics/docs/kt-scheduler.html
 redirect_from: /katalon-analytics/docs/execute-test-run.html 
 description: 
 ---
-You can execute Test Runs one time or on repeats by configuring a schedule for Test Runs. See: [Schedule Test Runs](https://docs.katalon.com/katalon-analytics/docs/create-plan.html).
+You can execute Test Runs one time or regularly by configuring a schedule for Test Runs. See: [Schedule Test Runs](https://docs.katalon.com/katalon-analytics/docs/create-plan.html).
 
 You can also execute Test Runs manually by following these steps:
 
