@@ -22,7 +22,7 @@ In this guide, you will learn to assign Katalon Studio Enterprise (KSE) and Kata
 
 Follow these steps to grant KSE licenses:
 
-1. Sign in to [Katalon TestOps](https://testops.katalon.io/login), then go to **Settings** > **License Management**.
+1. Sign in to [Katalon TestOps](https://testops.katalon.io/login), select your Organization, then go to **Settings** > **License Management**.
 
     The **Licenses** page appears as below.
 
@@ -32,7 +32,7 @@ Follow these steps to grant KSE licenses:
 
   > Notes:
   >
-  > See [Type of Licenses](https://docs.katalon.com/katalon-studio/docs/overview.html#types of licenses) to understand the differences between a node-locked license and a floating license.
+  > See [Types of Licenses](https://docs.katalon.com/katalon-studio/docs/overview.html#types#of#licenses) to understand the differences between a node-locked license and a floating license.
   
 3. Add users to the **Licensed Users** section.
 
@@ -55,9 +55,9 @@ If the users you wish to grant a license to are not connected to the internet, y
 
 ### Create an offline license
 
-An **Offline License** allows you to use KSE and KRE without internet. Once an offline license is activated, you cannot revoke or transfer it to a different machine.
+An **Offline License** allows you to use KSE and KRE without internet. Once an offline license is generated, you cannot revoke or transfer it to a different machine.
 
-An offline license expires at the end of your subscription period. It can also be expired earlier than its actual date if you input a new expiry date when generating the offline license file.
+By default, an offline license expires at the end of your subscription period. It can also be set to expire earlier by inputting a different expiry date when generating the offline license file.
 
 When an offline license expires, you can generate a new offline license file to continue using KSE/KRE offline, or you can switch to an online license instead.
 
