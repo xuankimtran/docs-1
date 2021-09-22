@@ -31,25 +31,21 @@ Follow these steps:
 
 1. Click on the **Settings** icon at the top right corner of the TestOps homepage and choose **User Management**.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-invite-user-org/kt-june-invite-user-org-1.png" width=100%>
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-invite-user-org/kt-june-invite-user-org-1.png" width=100% alt="kt settings">
 
-    The **Manage Users** page appears as below.
+    The **User Management** page appears as below.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-invite-user-org/kt-june-invite-user-org-2.png" width=100%>
- 
-    You can see **Users** and **Pending Invitations** here.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-invite-user-org/kt-june-invite-user-org-2.png" width=100% alt="new user mgt ui">
 
-2. Click on the **Invite user** button at the top right corner.
+2. Click on the **Invite User** button at the top right corner, then click **By Email**.
 
-3. Enter valid email addresses, choose Katalon TestOps in **Product Access**, then click **Invite**.
+    A new window pops up asking you to enter the email and assign the product license to the new User.
 
-> Notes:
->
-> You can enter multiple email addresses at the same time.
+3. Fill in the required information, then click **Invite members**.
 
 Your team members will receive the invitation emails. Once they accept the invitation emails, they become Users in your Organization.
 
-Alternatively, you can copy the activation link and send it to them.
+Alternatively, you can copy the activation link in the **Pending Invitation** section and send it to them.
 
 > Notes:
 >
@@ -71,53 +67,84 @@ If you are not the Owner nor Admin, you will receive an invitation to join the O
 
 ## Manage Users
 
-> Only the Owner or Admins of an Organization can do this.
-
-### View pending invitations
-
-You can check all pending invitations on the **Manage Users** page.
-
 > Notes:
 >
-> You can withdraw pending invitations by removing the email address in the **Pending Invitations** section.
+> Only the Owner or Admins of an Organization can do this.
 
 ### View the member list
 
-On the **Manage Users** page, you can also view the list of all existing members.
+Go to the **User Management** page and click on the **Active Users** tab.
 
-Once your team members have accepted the invitations, the **Users** section will display their names, email addresses, and roles.
+You then can view the list of all existing members.
+
+Once your team members have accepted the invitations to join your organization, you will see their full names, emails, their roles, the dates they have joined your organization, their license access and their most recent access to the organization in the **Active Users** section.
 
 > Notes:
 >
-> The default role for team members is User. You can update their permissions on the **User's detail** page.
+> The default role for team members is User. You can update their permissions by changing their roles.
+
+### View pending invitations
+
+Go to the **User Management** page and click on the **Pending Invitation** tab.
+
+You can check all pending invitations here.
 
 ### Remove an existing User
 
-In the **Manager Users** page, click on the *Trash bin* icon (next to the *Pencil* icon).
+1. Go to the **User Management** page.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-invite-user-org/kt-june-invite-user-org-3.png" width=100%>
+2. Tick on the checkbox next to the User's name to select the User and enable the **Remove User** button.
 
-A confirmation popup box appears. Click **Remove** to confirm.
+3. Click **Remove User**.
+
+4. Confirm your action in the popup screen.
+
+You have removed the User from your Organization.
+
+> Notes:
+>
+> * You can remove multiple users by selecting multiple checkboxes.
+
+#### View the Removed Users list
+
+Go to the **User Management** page and click on the **Removed Users** tab.
+
+You can view a full list of users you have removed from your organization.
+
+Use the search bar if you want to find a specific user you have removed.
 
 ### Change a User's permission
 
 As an Owner or Admin, you can change the permissions of an existing member by following these steps:
 
-1. Go to the **Manage Users** page.
+1. Go to the **User Management** page.
 
-2. Click on the *Pencil* icon.
+2. Tick on the checkbox next to the User's name to select the User and enable the **Change Role** button.
 
-    The **User's detail** page appears as below.
- 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-invite-user-org/kt-june-invite-user-org-4.png" width=100%>
-
-3. Select a new role in the dropdown list of the **Role** section, then click **Update**.
+3. Select a new role in the dropdown list. then click **Change role**.
 
     > Notes:
     >
+    > * You can change to the same role for multiple users by selecting multiple checkboxes.
     > * Organization members can have different roles in different teams.
     > * The **Owner** role only appears in the dropdown list if you are the Owner of your Organization.
     > * The **Billing Manager** role is only available at the Organization level.
+
+### Export a User's data
+
+1. Go to the **User Management** page.
+
+2. Tick on the checkbox to select the User and enable the **Export User** button.
+
+3. Click **Export User**.
+
+    The User's data is exported in .csv format.
+
+4. Download the .csv file.
+
+> Notes:
+>
+> You can select multiple users to export their data.
 
 ## Transfer Organization
 
