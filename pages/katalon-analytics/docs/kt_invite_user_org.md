@@ -13,13 +13,7 @@ redirect_from:
 
 > Requirements:
 >
-> You need a Katalon account. Register [Katalon account](https://www.katalon.com/sign-up/) if you don't have one.
-
-By default, you become the Owner of the Organization you have created.
-
-The Owner can manage the Organization, Teams, Users, Projects, licenses, plugins, and subscriptions.
-
-For detailed privileges each role has at the organizational level, see [Roles and permissions](https://docs.katalon.com/katalon-analytics/docs/testops-roles-privileges.html).
+> You need a Katalon account. You can create a Katalon account on our website: [Sign Up to Katalon](https://www.katalon.com/sign-up/).
 
 ## Invite a User to join an Organization
 
@@ -43,27 +37,15 @@ Follow these steps:
 
 3. Fill in the required information, then click **Invite members**.
 
-Your team members will receive the invitation emails. Once they accept the invitation emails, they become Users in your Organization.
+    You can enter multiple email addresses to invite members. Multiple email addresses should be separated by a space.
+    
+Your team members will receive an invitation email containing a link. Once they click on the link, they become Users in your Organization.
 
 Alternatively, you can copy the activation link in the **Pending Invitation** section and send it to them.
 
 > Notes:
 >
 > After joining your Organization, the new users are not yet part of a team. You have to add them to a team so that they can gain access to a project.
-
-### As a User
-
-If you are not the Owner nor Admin, you will receive an invitation to join the Organization via email.
-
-1. Accept the invitation in the email.
-
-     You will be directed to [Katalon TestOps](https://testops.katalon.io/login).
-
-2. Sign in on the TestOps page.
- 
-    The invitation page appears.
-
-3. Click on the blue button to join the Organization.
 
 ## Manage Users
 
@@ -93,17 +75,15 @@ You can check all pending invitations here.
 
 1. Go to the **User Management** page.
 
-2. Tick on the checkbox next to the User's name to select the User and enable the **Remove User** button.
+2. Check the box next to the User's name to select the User and enable the **Remove User** button.
+
+    You can remove multiple users by selecting multiple checkboxes.
 
 3. Click **Remove User**.
 
 4. Confirm your action in the popup screen.
 
 You have removed the User from your Organization.
-
-> Notes:
->
-> * You can remove multiple users by selecting multiple checkboxes.
 
 #### View the Removed Users list
 
@@ -113,19 +93,20 @@ You can view a full list of users you have removed from your organization.
 
 Use the search bar if you want to find a specific user you have removed.
 
-### Change a User's permission
+### Change a User's role
 
-As an Owner or Admin, you can change the permissions of an existing member by following these steps:
+As an Owner or Admin, you can change the role of an existing member by following these steps:
 
 1. Go to the **User Management** page.
 
-2. Tick on the checkbox next to the User's name to select the User and enable the **Change Role** button.
+2. Check the box next to the User's name to select the User and enable the **Change Role** button.
+
+    You can check multiple boxes if you want to update the same role for multiple users.
 
 3. Select a new role in the dropdown list. then click **Change role**.
 
     > Notes:
     >
-    > * You can change to the same role for multiple users by selecting multiple checkboxes.
     > * Organization members can have different roles in different teams.
     > * The **Owner** role only appears in the dropdown list if you are the Owner of your Organization.
     > * The **Billing Manager** role is only available at the Organization level.
@@ -134,7 +115,7 @@ As an Owner or Admin, you can change the permissions of an existing member by fo
 
 1. Go to the **User Management** page.
 
-2. Tick on the checkbox to select the User and enable the **Export User** button.
+2. Check the box to select the User and enable the **Export User** button.
 
 3. Click **Export User**.
 
