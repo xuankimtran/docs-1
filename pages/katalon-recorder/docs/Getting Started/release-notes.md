@@ -15,6 +15,7 @@ description:
 - Users now can navigate between Target, Command and Value using tabs again.
 - Users can now restore their backup data from TestOps again.
 - Breakpoints are remembered when users switch between test caes again.
+
 **Improvements**
 - Autosuggested options now will disappear when users interact with other elemenets.
 - Test cases' execution status will be retained when users stop the execution mid-way.
