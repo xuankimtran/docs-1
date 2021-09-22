@@ -1,5 +1,5 @@
 ---
-title: "Machine ID"
+title: "View my machine ID"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/machine-id.html
 redirect_from:
@@ -27,7 +27,7 @@ To view your machine ID in Katalon Studio, follow these steps:
 
     > Notes:
     >
-    > If you download Katalon Studio for the first time or are not logged in to any account in Katalon Studio, when you open Katalon Studio, the **Katalon Studio Activation** automatically pops up.
+    > If this is your first time opening Katalon Studio, the **Katalon Studio Activation** automatically pops up.
 
 2. In the **Katalon Studio Activation** log, you can view and copy your machine ID.
 
@@ -35,6 +35,6 @@ To view your machine ID in Katalon Studio, follow these steps:
 
 ### With Katalon Runtime Engine
 
-Whenever you run a test with KRE, KRE starts getting your machine ID and verifying active licenses. In the terminal, you can view the information of your machine ID.
+Running a test with KRE automatically fetches your machine ID to validate your license. You can view your machine ID information in the terminal.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/machine-ID/machine-id-kre.png" alt="machine ID in KRE" width=100%>

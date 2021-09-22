@@ -1,12 +1,12 @@
 ---
-title: "Configure Proxy"
+title: "Configure Proxy for Authentication"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/configure-proxy.html
 redirect_from:
 description:
 ---
 
-In this tutorial, you can learn how to configure a proxy if you are behind a proxy server.
+If you are behind a proxy server, before activating Katalon licenses, you need to configure the Authentication proxy settings. In this tutorial, you can learn how to configure a proxy.
 
 To learn more about how to activate Katalon licenses, see [Activate Katalon License](https://docs.katalon.com/katalon-studio/docs/activate-KSE.html).
 

@@ -35,9 +35,9 @@ Starting from **version 7.0.0**, you need a [Katalon Runtime Engine](https://doc
     
 ## KRE Licensing
 
-You need a valid KRE license to use this add-on. KRE license can be a node-locked or floating license. Learn more about [KRE Licenses](https://docs.katalon.com/katalon-studio/docs/license.html#katalon-runtime-engine).
+You need a valid KRE license to use this add-on. Learn more about [KRE Licenses](https://docs.katalon.com/katalon-studio/docs/license.html#katalon-runtime-engine).
 
-To activate KRE license, see [Activate Katalon Runtime Engine license](https://docs.katalon.com/katalon-studio/docs/active-KRE.html)
+To activate your KRE license, see [Activate Katalon License](https://docs.katalon.com/katalon-studio/docs/active-KRE.html)
 
 Once ready, navigate to the KRE directory and execute the Katalon automation test in command-line mode (CLI) as normal. Learn more about [execution in console mode](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#execute-katalon-in-cmd).
 

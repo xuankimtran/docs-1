@@ -7,7 +7,7 @@ description:
 
 ## Trial License
 
-Valid email registration is eligible for a **30-day** trial of both **Katalon Studio Enterprise** and **Katalon Runtime Engine** floating licenses.
+Users registering with a valid email are eligible for a **30-day** trial of both **Katalon Studio Enterprise** and **Katalon Runtime Engine** floating licenses.
 
 > The trial licenses are automatically generated and activated when you first log into the Katalon Studio application.
 
@@ -24,4 +24,8 @@ To purchase licenses, see [Purchase Katalon License](https://docs.katalon.com/ka
 To activate trial licenses, see [Activate Katalon License](https://docs.katalon.com/katalon-studio/docs/activate-KSE.html).
 ## Free License
 
-The free license granted for each Katalon account only includes the standard Katalon Studio with basic features. Currently, the free license for Katalon Runtime Engine is not available. If you wish to execute Katalon Studio in console mode, you need to subscribe to a Katalon Runtime Engine license. At any time, you can upgrade the free Katalon Studio to Katalon Studio Enterprise without re-download.
+The free license offers core features of the low-code test automation experience in Katalon Studio. You can see a breakdown of features available to free users here: [Types of Licenses](https://docs.katalon.com/katalon-studio/docs/license.html).
+
+Currently, the free license does not include Katalon Runtime Engine and console mode features.
+
+You can upgrade Katalon Studio to Katalon Studio Entreprise at any time without re-download.
