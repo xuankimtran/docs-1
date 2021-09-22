@@ -60,17 +60,15 @@ Once you have assigned a license successfully, users can follow this activation 
 
 ### Revoke a license
 
-> Notes:
+> Notice:
 >
-> * You cannot remove an offline license from a machine until the license is expired.
->
-> * You can revoke Katalon Studio Enterprise's (KSE) **Online Licenses** only. For Katalon Runtime Engine (KRE), see: [Manage Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license-management.html#transfer-a-license).
+> By clicking **Remove**, you immediately terminate the current session that machine ID is working on in Katalon Studio. You should revoke a license with caution.
 
 Follow these steps:
 
 1. Go to the **Licenses** page.
 
-2. In the **Online Licenses** section, click on the *Trash bin* icon of the machine ID you want to revoke.
+2. In the **Online Licenses** section, click on the *Trash bin* icon of the machine ID for which you want to revoke the license.
 
    The **Remove license** box appears as below.
 
@@ -78,9 +76,11 @@ Follow these steps:
 
 3. Click **Remove** to confirm your action.
 
-   > Notice:
-   >
-   > By clicking **Remove**, you immediately terminate the current session that machine ID is working on in Katalon Studio. You should revoke a license with caution.
+> Notes:
+>
+> * You cannot remove an offline license from a machine until the license is expired.
+>
+> * You can revoke Katalon Studio Enterprise's (KSE) **Online Licenses** only. For Katalon Runtime Engine (KRE), see: [Manage Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license-management.html#transfer-a-license).
 
 ### Transfer a license
 
@@ -124,10 +124,10 @@ Follow these steps:
 
 ### Transfer the KRE license to another machine
 
-All members of an organization can use the KRE licenses by default once the organization has purchased the KRE licenses.
+All licensed Users in an Organization can use available KRE licenses by default once the Organization has purchased the KRE licenses.
 
-You activate the KRE license by running KSE with KRE. After activating, your machine ID is then added to the **Online Licenses** section.
+Licensed Users activate a KRE license by running KSE with KRE. After activation, their machine ID is then added to the **Online Licenses** section. This license is then reserved for their use.
 
-Therefore, if your machine ID is deactivated, another user can start running KSE with KRE and reserve the KRE license. The User's machine ID is then added to the **Online Licenses** section.
+Therefore, to make a KRE license available when all licenses are reserved, a machine ID has to be deactivated.
 
-Repeat the steps to deactivate the machine ID if you want to transfer the KRE license to another machine.
+Follow the steps above to deactivate a machine ID.
