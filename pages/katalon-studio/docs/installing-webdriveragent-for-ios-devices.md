@@ -86,7 +86,6 @@ In this article, we demonstrate how to configure the WebDriverAgent in Xcode to 
       On the menu bar, select **Product > Build**.  
          <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/installing-webdriveragent-for-ios-devices/build-runner.png" width=85%>
 
-
 ### See also
 
 - [[Mobile]iOS Setup](https://docs.katalon.com/katalon-studio/tutorials/mobile-ios-setup.html#verify-the-ios-application-file)
