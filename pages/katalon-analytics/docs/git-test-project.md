@@ -7,9 +7,7 @@ description:
 
 You can create a Git Script Repository in Katalon TestOps. Katalon TestOps can then upload Test Scripts automatically from a Git Repository. This allows you to store your Test Scripts in your Git accounts and execute them in Katalon TestOps.
 
-Katalon TestOps allows GitHub integration and Bitbucket integration for Git Repositories.
-
-In this guide, you will learn to enable GitHub and Bitbucket integration to create a Git Repository.
+Katalon TestOps allows GitHub and Bitbucket integration for Git Repositories. This guide will teach you to enable integration with either option.
 
 > Requirements:
 >
