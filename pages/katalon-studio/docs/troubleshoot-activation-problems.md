@@ -14,8 +14,8 @@ Time differences might affect the validation of licenses on the Katalon Server.
 
 > **Tips**
 >
->* Use **Ctrl+F** to find the exceptions and errors you encountered.
->* Leave a comment below if you cannot find the exceptions and errors you have had.
+> * To find the exceptions and errors you encountered, use **Ctrl+F**.
+> * If you cannot find the exceptions and errors you have had, you can leave a comment below for further supports.
 
 Here is the list of common issues when activating Katalon Studio and instructions to solve them:
 
@@ -33,7 +33,7 @@ This error message means that the application has failed to communicate with Kat
 
 Check your Internet connection and try again.
 
-If you are behind a **Proxy Server**, configure Authentication Proxy first and then activate Katalon Studio again.
+If you are behind a **Proxy Server**, configure Authentication Proxy first and then activate Katalon Studio again. See [Configure Proxy](https://docs.katalon.com/katalon-studio/docs/configure-proxy.html)
 
 </details>
 
@@ -49,7 +49,7 @@ You can now activate Katalon Studio.
 
 **<details><summary>License Quota exceeded</summary>**
 
-This exception means that the number of licenses in use (both online and offline) exceeds the total number of licenses available to your Organization.
+This exception means that the number of licenses in use exceeds the total number of licenses available to your Organization.
 
 This may cause [session termination](https://docs.katalon.com/katalon-studio/docs/session-termination.html).
 
@@ -64,7 +64,7 @@ If the number of machines on which you're using Katalon Studio exceeds the numbe
 * Subscribe to more licenses to cover more machines and execution sessions.
 * Remove the machines.
 
-   Follow these steps to remove a registered machine ID.
+   Follow these steps to remove a registered machine ID:
 
    1. Log into [Katalon TestOps](https://analytics.katalon.com/).
    2. Select the Organization which permits you to use the license.
@@ -72,7 +72,7 @@ If the number of machines on which you're using Katalon Studio exceeds the numbe
    4. Go to **Licenses** screen view. Scroll down to the **Registered Machines** area. Remove at least one machine ID.
    5. Reactivate the license for the change to take effect.
 
-> More information on this exception can be found [here](https://support.katalon.com/hc/en-us/articles/900004333706-Why-Machine-Quota-Exceeded-message-and-How-to-resolve-it-).
+> More information on this exception can be found at our support center: [Why "Machine Quota Exceeded" message and How to resolve it.](https://support.katalon.com/hc/en-us/articles/900004333706-Why-Machine-Quota-Exceeded-message-and-How-to-resolve-it-).
 
 </details>
 
@@ -120,7 +120,7 @@ When your trial period expires, you must subscribe to each product to continue u
 
 Currently, the free license for Katalon Runtime Engine is not available.
 
-If you have subscribed but cannot use a Katalon license, check if you have permission to use it. See more instructions [here](https://docs.katalon.com/katalon-studio/docs/use-online-license.html).
+If you have subscribed but cannot use a Katalon license, check if you have permission to use it. See [Grant Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/use-online-license.html).
 
 </details>
 
