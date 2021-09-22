@@ -31,10 +31,10 @@ To enable idle timeout, do as follows:
 
 **In Katalon Studio**:
 
-When this setting is applied, if the users in that organization have been idle for the specified minutes, they will log out automatically. Katalon Studio will notify the user 15 minutes before the end of the timeout period or when only a quarter of the time remains, whichever is shorter.
+When this setting is applied, Katalon Studio will notify the user 15 minutes before the end of the timeout period or when only a quarter of the time remains, whichever is shorter.
 
 * To resume the session, the user can click **Continue** or close this notification dialog.
 * To log out immediately, the user can click **Deactivate**.
-* If the user does nothing, they will automatically log out after the notified time
+* If the user does nothing, the user will be logged out automatically at the end of the timeout period.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/noti.png" width=60%>
