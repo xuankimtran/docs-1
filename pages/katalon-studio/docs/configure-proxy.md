@@ -8,7 +8,7 @@ description:
 
 If you are behind a proxy server, before activating Katalon licenses, you need to configure the Authentication proxy settings. In this tutorial, you can learn how to configure a proxy.
 
-To learn more about how to activate Katalon licenses, see [Activate Katalon License](https://docs.katalon.com/katalon-studio/docs/activate-KSE.html).
+To learn more about how to activate Katalon licenses, see [Activate Katalon License](https://docs.katalon.com/katalon-studio/docs/activate-license.html).
 
 ### Configure proxy
 

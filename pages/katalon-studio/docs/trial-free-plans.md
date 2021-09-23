@@ -21,7 +21,7 @@ You can start using KSE and KRE for 30 days. When your trial period expires, you
 
 To purchase licenses, see [Purchase Katalon License](https://docs.katalon.com/katalon-studio/docs/license-subscription.html).
 
-To activate trial licenses, see [Activate Katalon License](https://docs.katalon.com/katalon-studio/docs/activate-KSE.html).
+To activate trial licenses, see [Activate Katalon License](https://docs.katalon.com/katalon-studio/docs/activate-license.html).
 ## Free License
 
 The free license offers core features of the low-code test automation experience in Katalon Studio. You can see a breakdown of features available to free users here: [Types of Licenses](https://docs.katalon.com/katalon-studio/docs/license.html).
