@@ -100,7 +100,7 @@ Katalon Studio provides free, basic tools suitable for the testing needs of indi
 			</td>
 			<td>
 				<ul>
-					<li><a href="https://docs.katalon.com/katalon-studio/docs/activate-KSE.html#offline-activation">Offline Activation</a></li>
+					<li><a href="https://docs.katalon.com/katalon-studio/docs/activate-license.html">Offline Activation</a></li>
 					<li><a href="https://docs.katalon.com/katalon-store/docs/publisher/how-to-develop-custom-keywords-plugins.html">Custom Plugins</a></li>
 				</ul>
 			</td>
