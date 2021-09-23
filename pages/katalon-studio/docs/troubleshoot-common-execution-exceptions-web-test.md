@@ -165,8 +165,9 @@ WebUI.click(findTestObject('Page_CuraHomepage/btn_MakeAppointment'))</code></pre
 <tr>
 <td>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point</td>
 <td>
-<p>1. From Katalon version 8.2.0 onwards, if the test case fails because the <strong>Default wait for element timeout</strong> setting is not long enough for the overlay to disappear, you can add the <code>WebUI.waitForElementClickable</code> keyword before the <strong>Click</strong> action. To learn more about using the <code>WebUI.waitForElementClickable</code> keyword, you can refer to this document here:&nbsp;<a href="https://docs.katalon.com/katalon-studio/docs/webui-wait-for-element-clickable.html#description">[WebUI] Wait For Element Clickable.</a></p>
-<p>2.&nbsp;If the test case fails because there is another object covering the target element, for example, a pop-up dialog, you can add actions to remove the object before the <strong>Click </strong>action.</p>
+<p>1.&nbsp;If the test case fails because there is another object covering the target element, for example, a pop-up dialog, you can add actions to remove the object before the <strong>Click </strong>action.</p>
+<p>2. From Katalon version 8.2.0 onwards, if the <strong>Default wait for element timeout</strong> setting is not long enough for Katalon to click on the target element behind an overlay, you can add the <code>WebUI.waitForElementClickable</code> keyword before the <strong>Click</strong> action. To learn more about using the <code>WebUI.waitForElementClickable</code> keyword, you can refer to this document here:&nbsp;<a href="https://docs.katalon.com/katalon-studio/docs/webui-wait-for-element-clickable.html#description">[WebUI] Wait For Element Clickable.</a></p>
+
 &nbsp;</td>
 </tr>
 </tbody>
