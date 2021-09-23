@@ -79,3 +79,7 @@ Verify whether your computer meets the [System Requirements](http://docs.katalon
     - License types:
         - [Node-Locked License](https://docs.katalon.com/katalon-studio/docs/license.html#node-locked-license)
         - [Floating License](https://docs.katalon.com/katalon-studio/docs/license.html#floating-license)
+
+>**Notes for Windows users on choosing installation folder**
+> 
+> To grant Katalon Studio full access, installation in custom folder (outside of the default `C:\Users\<username>`) would require you to run the software with Administrator privilege, or adjust the Read/Write permission of Katalon Studio package for the current user.
