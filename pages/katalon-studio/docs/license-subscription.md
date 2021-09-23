@@ -56,7 +56,7 @@ Follow these steps to purchase licenses:
 > After completing your license purchase, you can also:
 >
 > * Verify available licenses. See [Manage Katalon License](https://docs.katalon.com/katalon-studio/docs/license-management.html#verify-and-view-licenses-information).
-> * Follow this activation guide to begin using a purchased license: [Activate Katalon Studio Enterprise](https://docs.katalon.com/katalon-studio/docs/activate-KSE.html)
+> * Follow this activation guide to begin using a purchased license: [Activate Katalon License](https://docs.katalon.com/katalon-studio/docs/activate-license.html).
 
 ## Subscribe via Purchase Order
 
