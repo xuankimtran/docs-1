@@ -23,7 +23,7 @@ In this article, we demonstrate how to configure the WebDriverAgent in Xcode to 
 
 ### Setting up the iOS device
 
-1. Any device for development with Xcode must be listed in your online Apple developer portal. To learn more about registering your device in Apple Developer Portal, you can refer to wikiHow document here: [How to Add a New Device to Your Apple Developer Portal](https://www.wikihow.com/Add-a-New-Device-to-Your-Apple-Developer-Portal).
+1. Any device for development with Xcode must be listed in the Apple developer portal. To learn more about registering your device in Apple Developer Portal, you can refer to the wikiHow document here: [How to Add a New Device to Your Apple Developer Portal](https://www.wikihow.com/Add-a-New-Device-to-Your-Apple-Developer-Portal).
 2. Connect an iOS device to your computer via USB.
 3. On your iOS device, confirm that you trust this Mac on the **Trust This Computer** pop up.
 4. To enable **UI Automation** on the device, navigate to **Settings > Developer**. In the **UI Automation** section, turn on the setting for **Enable UI Automation**.
@@ -34,13 +34,13 @@ In this article, we demonstrate how to configure the WebDriverAgent in Xcode to 
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/installing-webdriveragent-for-ios-devices/add-apple-id.png" width=70% alt="Add Apple Developer ID">
 
-2. To navigate to the location of WebDriverAgent, open **Terminal**, copy and paste the command line argument below:
+2. To navigate to the location of the WebDriverAgent, open **Terminal**, copy and paste the command line argument below:
 
    ```groovy
    cd /usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent
    ```
 
-   For Appium version 1.14.2 or older versions, copy the following command: 
+   For Appium version 1.14.2 or older, copy the following command instead: 
 
    ```groovy
     cd /usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/webdriveragent
@@ -54,7 +54,7 @@ In this article, we demonstrate how to configure the WebDriverAgent in Xcode to 
    
    > **Note**
    >
-   > For Appium version below 1.20.0, you also need to run the next script on the same terminal:
+   > For Appium version older than 1.20.0, you also need to run the following script on the same terminal:
    >
    > ```groovy
    > sh ./Scripts/bootstrap.sh -d
@@ -81,7 +81,7 @@ In this article, we demonstrate how to configure the WebDriverAgent in Xcode to 
 
          <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/installing-webdriveragent-for-ios-devices/KS-WEBDRIVERAGENT-Build-IntergrationApp.png" width=85% alt="Build the IntergrationApp target">
 
-   - The **WebDriverAgentLib** target
+   - The **WebDriverAgentLib** target:
       - Select the **WebDriverAgentLib** target. In the **Signing & Capabilities** section, check the **Automatically manage signing** box, then choose a team added in Step 1.
 
          <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/installing-webdriveragent-for-ios-devices/KS-WEBDRIVERAGENT-Confiugre-lib.png" width=85% alt="Configure the WebDriverAgentLib target">
@@ -90,7 +90,7 @@ In this article, we demonstrate how to configure the WebDriverAgent in Xcode to 
 
          <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/installing-webdriveragent-for-ios-devices/KS-WEBDRIVERAGENT-Build-lib.png" width=85% alt="Build the WebDriverAgentLib target">
 
-   - The **WebDriverAgentRunner** target
+   - The **WebDriverAgentRunner** target:
       
      - Select the **WebDriverAgentRunner** target. In the **Signing & Capabilities** section, check the **Automatically manage signing** box, then choose a team added in Step 1.
          <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/installing-webdriveragent-for-ios-devices/KS-WEBDRIVERAGENT-Confiugre-Runner.png" width=85% alt="Configure the WebDriverAgentRunner target">
