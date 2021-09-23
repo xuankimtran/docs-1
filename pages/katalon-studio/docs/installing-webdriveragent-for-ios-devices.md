@@ -75,6 +75,7 @@ In this article, we demonstrate how to configure the WebDriverAgent in Xcode to 
    - The **IntergrationApp** target:
 
       - Select the **IntergrationApp** target. In the **Signing & Capabilities** section, check the **Automatically manage signing** box, then choose a team added in Step 1.
+
          <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/installing-webdriveragent-for-ios-devices/KS-WEBDRIVERAGENT-Confiugre-IntergrationApp.png" width=85% alt="Configure the IntergrationApp target">
       - On the menu bar, select **Product > Build**.
 
@@ -82,6 +83,7 @@ In this article, we demonstrate how to configure the WebDriverAgent in Xcode to 
 
    - The **WebDriverAgentLib** target
       - Select the **WebDriverAgentLib** target. In the **Signing & Capabilities** section, check the **Automatically manage signing** box, then choose a team added in Step 1.
+
          <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/installing-webdriveragent-for-ios-devices/KS-WEBDRIVERAGENT-Confiugre-lib.png" width=85% alt="Configure the WebDriverAgentLib target">
 
       - On the menu bar, select **Product > Build**.
