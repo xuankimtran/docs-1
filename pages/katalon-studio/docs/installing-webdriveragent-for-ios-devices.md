@@ -32,7 +32,7 @@ In this article, we demonstrate how to configure the WebDriverAgent in Xcode to 
 
 1. Open **Xcode**. Go to **Preferences > Accounts**. Click *Add* (+) to add your developer's Apple ID.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/installing-webdriveragent-for-ios-devices/add-apple-id.png" width=85%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/installing-webdriveragent-for-ios-devices/add-apple-id.png" width=70% alt="Add Apple Developer ID">
 
 2. To navigate to the location of WebDriverAgent, open **Terminal**, copy and paste the command line argument below:
 
@@ -67,24 +67,35 @@ In this article, we demonstrate how to configure the WebDriverAgent in Xcode to 
    > * Error _Error StackTrace: Cannot find module 'eslint-config-appium': _missing paramter `-d` when running `/Scripts/bootstrap.sh`
 
 
-4. Open **Finder** and type **appium-webdriveragent** to quickly search for the folder. In the opened folder, double-click to open the **WebDriverAgent.xcodeproj** file in **Xcode**.
+4. Open **Finder** and type **appium-webdriveragent** to quickly search for the folder. In the opened folder, double-click the **WebDriverAgent.xcodeproj** file to open it in **Xcode**.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/installing-webdriveragent-for-ios-devices/xcodeproj.png" width=85%>
 
-5. After opening **WebDriverAgent.xcodeproj** file in **Xcode**, you need to build **WebDriverAgentLib** and **WebDriverAgentRunner**:
+5. After opening **WebDriverAgent.xcodeproj** file in **Xcode**, you need to build three targets:
+   - The **IntergrationApp** target:
 
-   - Select **WebDriverAgentLib**. In the **Signing & Capabilities** section, check the **Automatically manage signing** box, then choose a team added in Step 1.
+      - Select the **IntergrationApp** target. In the **Signing & Capabilities** section, check the **Automatically manage signing** box, then choose a team added in Step 1.
+         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/installing-webdriveragent-for-ios-devices/KS-WEBDRIVERAGENT-Confiugre-IntergrationApp.png" width=85% alt="Configure the IntergrationApp target">
+      - On the menu bar, select **Product > Build**.
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/installing-webdriveragent-for-ios-devices/lib.png" width=85%>
+         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/installing-webdriveragent-for-ios-devices/KS-WEBDRIVERAGENT-Build-IntergrationApp.png" width=85% alt="Build the IntergrationApp target">
 
-      On the menu bar, select **Product > Build**.
-         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/installing-webdriveragent-for-ios-devices/build-lib.png" width=85%>
+   - The **WebDriverAgentLib** target
+      - Select the **WebDriverAgentLib** target. In the **Signing & Capabilities** section, check the **Automatically manage signing** box, then choose a team added in Step 1.
+         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/installing-webdriveragent-for-ios-devices/KS-WEBDRIVERAGENT-Confiugre-lib.png" width=85% alt="Configure the WebDriverAgentLib target">
 
-   - Select **WebDriverAgentRunner**. In the **Signing & Capabilities** section, check the **Automatically manage signing** box, then choose a team added in Step 1. 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/installing-webdriveragent-for-ios-devices/runner.png" width=85%>
+      - On the menu bar, select **Product > Build**.
 
-      On the menu bar, select **Product > Build**.  
-         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/installing-webdriveragent-for-ios-devices/build-runner.png" width=85%>
+         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/installing-webdriveragent-for-ios-devices/KS-WEBDRIVERAGENT-Build-lib.png" width=85% alt="Build the WebDriverAgentLib target">
+
+   - The **WebDriverAgentRunner** target
+      
+     - Select the **WebDriverAgentRunner** target. In the **Signing & Capabilities** section, check the **Automatically manage signing** box, then choose a team added in Step 1.
+         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/installing-webdriveragent-for-ios-devices/KS-WEBDRIVERAGENT-Confiugre-Runner.png" width=85% alt="Configure the WebDriverAgentRunner target">
+
+     - On the menu bar, select **Product > Build**.
+
+         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/installing-webdriveragent-for-ios-devices/KS-WEBDRIVERAGENT-Build-Runner.png" width=85% alt="Build the WebDriverAgentRunner target">
 
 ### See also
 
