@@ -9,7 +9,7 @@ You might encounter situations when your session has been terminated due to a sp
 
 **Inactive session; the license has been transferred to <another_user>.**
 
-* When your session is inactive, another granted user from your Organization can occupy your license.
+* When your session is inactive, another licensed user from your Organization can occupy your license.
 
 **Your account has logged in on another machine.**
 
@@ -19,4 +19,4 @@ You might encounter situations when your session has been terminated due to a sp
 
 * This happens when your Organization Admins or Owner remove your machine from the registered list on Katalon TestOps. This removal ends your session on the Katalon Studio app.
 
-> See also:  [roubleshoot Activation Problems](https://docs.katalon.com/katalon-studio/docs/troubleshoot-activation-problems.html).
+> See also: [Troubleshoot Activation Problems](https://docs.katalon.com/katalon-studio/docs/troubleshoot-activation-problems.html).
