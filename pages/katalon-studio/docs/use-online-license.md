@@ -14,7 +14,7 @@ In this guide, you will learn to assign Katalon Studio Enterprise (KSE) and Kata
 
 > Requirements:
 >
-> * You must have an internet connection.
+> * An internet connection for you and the users you will grant the license to.
 >
 > * You must be the Owner or Admin of your Organization.
 >
@@ -36,16 +36,18 @@ Follow these steps to grant KSE licenses:
   
 3. Add users to the **Licensed Users** section.
 
+  You have granted the KSE licenses to Users.
+
 For KRE, all Users of an Organization can use the KRE licenses by default once the Organization has purchased the KRE licenses.
 
 However, to optimize license usage and avoid session termination, the Owner and Admin must remember the following rules:
 
 * Each session accounts for one license.
 * The number of parallel sessions cannot exceed the license quota.
-* The number of registered machine IDs cannot exceed the license quota. You can remove a registered machine ID by following this guide: [Manage Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license-management.html).
+* The number of registered machine IDs cannot exceed the license quota. You can remove a registered machine ID by following this guide: [Manage Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license-management.html#revoke-a-license).
 * Users need [API Keys](https://docs.katalon.com/katalon-studio/docs/katalon-apikey-70.html) to activate a KRE online license.
 
-Your users can now activate their KSE and KRE licenses. You can refer them to this link for activation: [new Activation doc](link).
+Your users can now activate their KSE and KRE licenses. You can refer them to this link for activation: [Activate Katalon License](https://docs.katalon.com/katalon-studio/docs/activate-license.html).
 
 Granting a license this way allows you to transfer a license freely among registered users of an organization as long as the number of licensed users does not exceed the license quota.
 
