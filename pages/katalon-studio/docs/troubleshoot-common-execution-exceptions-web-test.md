@@ -154,7 +154,7 @@ public class WebUICustomKeywords {
 WebUI.navigateToUrl(GlobalVariable.G_SiteURL)
 WebUI.click(findTestObject('Page_CuraHomepage/btn_MakeAppointment'))</code></pre>
 </details></li>
-<li>Downgrade browser's version: Another approach is to downgrade your current browser's version to a version you want. If you want to use a very old version of your current browser, you may need to downgrade or upgrade browser drivers as well as Selenium WebDriver, please refer to this <a href="https://docs.katalon.com/display/KD/Update+or+Replace+Web+Browser+Drivers+and+Selenium">guide</a>.</li>
+<li>Downgrade browser's version: Another approach is to downgrade your current browser's version to a version you want. If you want to use a very old version of your current browser, you may need to downgrade or upgrade browser drivers as well as Selenium WebDriver, please refer to this <a href="https://docs.katalon.com/katalon-studio/docs/upgrade-or-downgrade-webdrivers.html">guide</a>.</li>
 </ul>
 </li>
 </ol>
