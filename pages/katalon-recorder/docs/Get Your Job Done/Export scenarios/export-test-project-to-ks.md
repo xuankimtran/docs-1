@@ -34,7 +34,7 @@ To export a test project to KS, follow these steps:
 
     The **Export to Katalon Studio** dialog appears as below.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration.png"  width=100% alt="kr export test project to ks">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/5.6.0-release/export-test-project-to-ks.png"  width=100% alt="kr export test project to ks">
     
 3. Select the data you want to export.
 4. Click **Export**.
