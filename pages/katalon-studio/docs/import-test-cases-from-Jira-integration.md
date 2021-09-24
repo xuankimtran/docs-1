@@ -29,6 +29,9 @@ Katalon Studio can integrate with both Jira Cloud and Jira Server. This integrat
 * Automatically submit test results and test reports to the linked Jira issue.
 * Submit Bugs to Jira.
 
+
+With Jira intergration, you can import test cases from Jira to Katalon Studio for creating test cases, and BDD tests. After the test suite execution, Katalon automatically submit test results and test reports to the linked Jira issue. To learn more about executing test cases with Jira intergration, you can refer to this document here: 
+
 > Prerequisites:
 >
 > * An active Katalon Studio Enterprise license.
