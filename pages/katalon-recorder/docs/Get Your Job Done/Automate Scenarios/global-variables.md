@@ -51,5 +51,4 @@ Follow these steps:
 
 Now you run the tests without the need to input the same set of values (e.g., username and password) across all tests.
 
-If you want to change the global variables in your test cases, you must create a new Execution Profile and set it as default Execution Profile, then repeat the steps to add the new global variables to the new default Execution Profile.
-The new set of values will then be added to your test cases.
+If you want to change the global variables in your test cases, you must create a new Execution Profile and set it as default Execution Profile, then repeat the steps above to add the new set of values to your test cases.
