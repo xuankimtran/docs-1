@@ -66,15 +66,23 @@ Follow these steps:
 
             <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/schedule-test-run-new-ui-save-config.png" width=100% alt="schedule test run page new UI save config">
         
+### Advanced settings
 
-    * In the **Advanced Settings** section (optional) you can optimize your configurations as below:
+You can optimize your configurations in the **Advanced Settings** section of the **Schedule Test Run** dialog.
 
-        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/schedule-test-run-new-ui-advanced-settings.png" width=100% alt="schedule test run page new UI automatic run">
+Follow these steps:
 
-        * **Execution Mode**: choose between **Sequential** (run one test after another) or **Parallel** (run tests at the same time).
-        * **Timeout in Minutes**: define the time after which test execution is cancelled.
-        * Kobiton integration: switch the **Kobiton** toggle on to enable the integration, then enter your Kobiton Device ID to run tests on that device.
-        * **Release Version**: select the release version you want to link your test runs to.
+1. Open the **Schedule Test Run** dialog.
+2. At the bottom of the dialog, click **Advanced Settings**.
+
+    The dialog now appears as below.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/schedule-test-run-new-ui-advanced-settings.png" width=100% alt="schedule test run page new UI automatic run">
+
+    * **Execution Mode**: choose between **Sequential** (run one test after another) or **Parallel** (run tests at the same time). See: [Run multiple Test Suites in parallel with Agents](https://docs.katalon.com/katalon-analytics/docs/kt_run_parallel_agent.html).
+    * **Timeout in Minutes**: define the time after which test execution is cancelled.
+    * Kobiton integration: switch the **Kobiton** toggle on to enable the integration, then enter your Kobiton Device ID to run tests on that device. See: [How to configure Kobiton integration with Katalon TestOps](https://docs.katalon.com/katalon-analytics/docs/kt_kobiton_integration.html).
+    * **Release Version**: select the release version you want to link your test runs to. See: [Manage Test Runs by Release](https://docs.katalon.com/katalon-analytics/docs/kt-release.html#create-a-new-release).
 
 After creating the schedule, Katalon TestOps automatically directs you to the **Test Run Types** page.
 
