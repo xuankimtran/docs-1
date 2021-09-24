@@ -29,7 +29,7 @@ You can verify the subscription information and view all license information by 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/licenses-page-blurred-not-highlighted.png" width=100% alt="licenses page">
 
    * In the **Subscription** section, you can see the following information:
-      * **Subscribed Licenses**: the license quota that you have purchased.
+      * **Subscribed Licenses**: the total number of licenses you have purchased, also known as your license quota.
       *  **Available Licenses**: the remaining licenses you can use.
 
          > Notes:
@@ -54,7 +54,7 @@ You can verify the subscription information and view all license information by 
 
 You can assign licenses to users. See [Grant Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/use-online-license.html).
 
-Once you have assigned a license successfully, users can follow this activation guide: [new Activation doc](link).
+Once you have assigned a license successfully, users can follow this activation guide: [Activate Katalon License](https://docs.katalon.com/katalon-studio/docs/activate-license.html).
 
 ## Revoke and transfer a license
 
@@ -96,7 +96,10 @@ Follow these steps:
 
 After activation, the KSE/KRE node-locked licenses are bound to the machine IDs until the expiry dates. You can still remove the licenses or transfer them manually.
 
-For KSE, once you have revoked a license, you can transfer the license to another User by adding that User in the **Online Licenses** section. See: [Grant Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/use-online-license.html).
+To transfer a KSE license, you need to:
+
+1. Revoke a license. See: [Revoke a license](https://docs.katalon.com/katalon-studio/docs/license-management.html#revoke-a-license).
+2. Add the new user in the **Online Licenses** section. See: [Grant Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/use-online-license.html).
 
 For KRE, one session will reserve one license. You must deactivate the machine ID that reserved that license first. Another user can then use KRE and take over the license.
 
