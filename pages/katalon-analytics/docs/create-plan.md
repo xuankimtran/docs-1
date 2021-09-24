@@ -68,12 +68,12 @@ Follow these steps:
         
 ### Advanced settings
 
-You can optimize your configurations in the **Advanced Settings** section of the **Schedule Test Run** dialog.
+You can optimize your configurations in the **Advanced settings** section of the **Schedule Test Run** dialog.
 
 Follow these steps:
 
 1. Open the **Schedule Test Run** dialog.
-2. At the bottom of the dialog, click **Advanced Settings**.
+2. At the bottom of the dialog, click **Advanced settings**.
 
     The dialog now appears as below.
 
