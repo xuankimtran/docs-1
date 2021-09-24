@@ -59,7 +59,7 @@ AppiumDriverManager.setDriver(driver)
     >
     > When running tests on the App Center, macOS users can sometimes encounter the error: _No such file or directory_. This problem might happen because of your macOS default file compress tool.
     >
-    > To resolve this error, try a third-party tool to zip your project, or run this command-line at your **.zip** file: `zip -d <katalon_project_package_file> __MACOSX/\*`, then continue with the following steps to update sideload.
+    > To resolve this error, run this command from the directory where the **.zip** file locates: `zip -d <katalon_project_package_file> __MACOSX/\*`, then continue with the following steps to update sideload.
 
 ### Update sideload
 
