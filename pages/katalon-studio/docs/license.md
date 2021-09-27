@@ -19,7 +19,7 @@ One KSE license is exclusively assigned to one Katalon account and can be activa
 
 Katalon Runtime Engine (KRE) is the test execution add-on of Katalon Studio. While the KSE license only supports you in generating test scripts and manually executing tests via the graphical user interface, the KRE license allows you to execute automation tests in the command-line interface (CLI) mode.
 
-When running from the CLI, one working session accounts for one license. To learn more about the use cases of KRE, see [Introduce Katalon Runtime Engine](https://docs.katalon.com/katalon-studio/docs/intro-RE.html).
+When running from the CLI, one working session accounts for one license. To learn more about the use cases of KRE, see [Introduction to Katalon Runtime Engine](https://docs.katalon.com/katalon-studio/docs/intro-RE.html).
 
 ## License types
 
