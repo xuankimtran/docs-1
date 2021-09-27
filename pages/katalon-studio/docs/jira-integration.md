@@ -35,7 +35,7 @@ Katalon Studio can integrate with both Jira Cloud and Jira Server. This integrat
 > * Install the **Jira Integration** plugin for Katalon Studio. You can download the plugin from Katalon Store at: [Jira Intergration](https://store.katalon.com/product/3/Jira-Integration).
 > * Install the **Katalon Studio and TestOps integration** plugin for Atlassian site. You can download the plugin from the Atlassian Marketplace website at: [Katalon Studio and TestOps integration](https://marketplace.atlassian.com/apps/1217501/katalon-bdd-test-automation-for-jira).
 
-In this article, we show you how to configure Jira intergration in Katalon Studio, then submit a ticket to Jira from Katalon. 
+In this article, we show you how to configure Jira intergration in Katalon Studio. 
 
 ## Configure Jira integration 
 
@@ -107,74 +107,12 @@ To enable Jira Integration, follow these steps:
 > 
 > If you want to enable Jira integration with Katalon TestOps, you can refer to this document: [TestOps - Jira Integration](https://docs.katalon.com/katalon-analytics/docs/kt-jira-config.html).
 
-## Submit an issue to Jira
-
-After sucessfully configuring Jira Integration, you can submit a ticket to Jira from Katalon. 
-
-> Note:
-> 
-> You can only submit Jira tickets from test reports, which are automatically generated after executing a test suite.
-
-Follow these steps:
-
-1. In the **Test Explorer** panel, go to **Reports**, double-click to open the test reports you want to review for issues. 
-2. In the opened test report, click **Bug** <img src="url" width=70% alt="Bug icon">. A **Linked Jira issues** dialog opens.
-
-    <img src="url" width=70% alt="Jira intergration in test cases table">
-
-3. In the opened dialog, click **Add** to choose your submit options.
-
-    <img src="url" width=70% alt="Choose your submit options">
-
-The ticket submission options include:
-
-<table>
-<thead>
-<tr>
-<th>Option</th>
-<th>Description</th>
-<th>Steps to take&nbsp;</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Create as New</td>
-<td>To create a new ticket on Jira.</td>
-<td>
-<p>After choosing this option:</p>
-<p>1. A&nbsp;<strong>JIRA native submission form </strong>opens in the pop-up browser<strong>.&nbsp;</strong>You might be prompt to sign in to your Atlassian account. You only have to do this once.</p>
-<p>2 After signing in, fill in the&nbsp;<strong>JIRA native submission form&nbsp;</strong>to submit the ticket.</p>
-</td>
-</tr>
-<tr>
-<td>Create as Sub Issue</td>
-<td>To create a sub-task for an existing Jira issue.</td>
-<td>
-<p>After choosing this option:</p>
-<p>1. A <strong>Create as JIRA Sub Task </strong>dialogopens. Fill in the&nbsp;<strong>ID</strong>&nbsp;of an existing Jira issue to create a sub-task within. Click&nbsp;<strong>OK&nbsp;</strong>to open&nbsp;<strong>JIRA native submission form.</strong></p>
-<p>2. You might be prompt to sign in to your Atlassian account. You only have to do this once.</p>
-<p>- After signing in, fill in the&nbsp;<strong>JIRA native submission form&nbsp;</strong>to submit the ticket.</p>
-</td>
-</tr>
-<tr>
-<td>Link to existing Issue</td>
-<td>This option will add the execution details of the test to an existing JIRA issue. You will be asked to provide the <strong>ID</strong> of the existing JIRA issue for this.</td>
-<td>
-<p>After choosing this option:&nbsp;</p>
-<p>- A <strong>Link to JIRA Issue</strong> dialog opens. Fill in the&nbsp;<strong>ID</strong>&nbsp;of an existing Jira issue. Click&nbsp;<strong>OK.&nbsp;</strong>The test case execution .zip files&nbsp;will be attached to the linked JIRA Issue.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-> Note:
-> 
-> * The default **JIRA native submission form** might include the **Summary**, **Screenshots**, **Logs**, **Reports**, and **Description** of the test case. You can configure the default submission form from the **Submit Options** section in the Jira integration settings.
-> * To quickly navigate to a linked JIRA issue, click the hyperlink embbeded in the ticket's ID. 
-> 
-> <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/katalon_studio_integration_with_jira_overview/Linked-JIRA-issues1.png" width=70% alt="Jira Issues Hyperlink">
-
 ## See also
-- [Automation testing with Jira integration]()
+
+* [Execute test cases with Jira Integration](katalon-studio/docs/execute-test-cases-with-jira-integration.html)
+
+
+
+
 
 
