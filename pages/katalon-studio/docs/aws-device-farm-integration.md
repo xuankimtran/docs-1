@@ -7,7 +7,7 @@ permalink: katalon-studio/docs/aws-device-farm.html
 
 You can execute your Katalon test scripts with devices provided on AWS Device Farm by using **aws-device-farm-integration**. This tutorial shows you how to integrate with AWS Device Farm using **aws-device-farm-integration**. We also provide the **KatalonDemoProject** as a usage example.
 
-## Example Katalon project and AUT
+## Example Katalon project
 
 You can clone or download our sample project and iOS application here. This step is optional, you can still use your own project in this tutorial.
 
@@ -39,7 +39,7 @@ To run your Katalon project with AWS Device Farm, you have to configure your Kat
 
 ### Configure your Katalon project
 
-1. In Katalon Studio, open your desired Katalon Project. Prepare your Katalon test cases and test suites that can successfully run on local device.
+1. In Katalon Studio, open your desired Katalon Project. Prepare your Katalon test cases and test suites that can successfully run on your local device.
 
     Your mobile test case should start with the keyword: **Start Existing Application**. This is because AWS Device Farm already installs the application on devices under test before every run. To learn more about this mobile keyword, see [[Mobile] Start Existing Application](https://docs.katalon.com/katalon-studio/docs/mobile-keyword-start-existing-apps.html).
 
@@ -57,11 +57,11 @@ To run your Katalon project with AWS Device Farm, you have to configure your Kat
 
     > Notes:
     >
-    >For Android app testing, we need to add two extra desired capabilities: `appPackage: [app ID]` and `appActivity: [main activity name]`. The main activity can retrieve after uploading app to AWS Device Farm.
+    >For Android app testing, we need to add two extra desired capabilities: `appPackage: [app ID]` and `appActivity: [main activity name]`. The main activity can retrieve after uploading the app to AWS Device Farm.
     >
     > <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/aws-device-farm-integration/android-main-activity.png" alt=" Android main activity" width=50%>
 
-3. Package your Katalon project into a **.zip** file.
+3. Package your Katalon project into a .zip file.
 
 ### Update aws-device-farm-integration project
 
@@ -70,7 +70,7 @@ To run your Katalon project with AWS Device Farm, you have to configure your Kat
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/aws-device-farm-integration/zip-demo-project.png" alt="zip demo project" width=60%>
 
-3. Open `config.properties` file and change the following variables as your context:
+3. Open the `config.properties` file and change the following variables as your context:
 
     * `KATALON_VERSION`: Katalon Runtime Engine version.
     * `KATALON_PROJECT_PACKAGE_FILE`: Your package file.
@@ -88,29 +88,29 @@ To run your Katalon project with AWS Device Farm, you have to configure your Kat
     KATALON_EXECUTE_ARGS=-retry=0 -testSuitePath="Test Suites/Regression Tests" -executionProfile=default -browserType=Remote -reportFolder=$DEVICEFARM_LOG_DIR -apiKey=xxxxxxxx
     ```
 
-4. To build the **aws-device-farm-integration**, at the folder **aws-device-farm-integration**, typing the below command in terminal:
+4. To build the **aws-device-farm-integration**, at the folder **aws-device-farm-integration**, typing the below command in the terminal:
 
     `mvn clean package -DskipTests=true`
 
-    When the build runs successfully, in the `target` folder, you will see a zip name `zip-with-dependencies.zip`.
+    When the build runs successfully, in the `target` folder, you will see a .zip file named `zip-with-dependencies.zip`.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/aws-device-farm-integration/2-build-project-with-maven.png" alt="build project with maven" width=40%>
 
-## Configure test project on AWS Device Farm
+## Configure a test project on AWS Device Farm
 
-After you already prepare your Katalon Project, log in to AWS Console and go to **Device Farm > Mobile Device: Projects** to create new project.
+After preparing your Katalon Project, log in to the AWS Console and go to **Device Farm > Mobile Device: Projects** to create a new project.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/aws-device-farm-integration/3-create-test-project.png" alt="create test project" width=70%>
 
 Input your **Project Name**, then hit **Create**.
 
-In this section, we will guide you through 4 steps to configure your Katalon test project on AWS Device Farm.
+This section guides you through 4 steps to configure your Katalon test project on AWS Device Farm.
 
 1. **Choose application**
 
-    To choose application, toggle between **Mobile App** and **Web App**.
+    Choose between **Mobile App** and **Web App** with the toggle button.
 
-    * For mobile app testing, select **Mobile App**. Upload your tested application, which is an **.apk** file for an Android application or an **.ipa** file for an iOS application. Wait for the file to upload, then click **Next**.
+    * For mobile app testing, select **Mobile App**. Upload your application under test, which is an **.apk** file for an Android application or an **.ipa** file for an iOS application. Wait for the file to upload, then click **Next**.
 
         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/aws-device-farm-integration/3-upload-mobile-app.png" alt="upload mobile app" width=70%>
 
@@ -120,9 +120,9 @@ In this section, we will guide you through 4 steps to configure your Katalon tes
 
     In the **Setup test framework** section, click the _dropdown_ button and select `Appium Java JUnit`.
 
-    In the **Selected File** section, upload the `zip-with-dependencies.zip` file. 
+    In the **Selected File** section, upload the `zip-with-dependencies.zip` file.
 
-    In the **Chooose your execution environment**, choose **Run your test in a custom environment**, then click **Next**.
+    In the **Choose your execution environment**, choose **Run your test in a custom environment**, then click **Next**.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/aws-device-farm-integration/3-upload-zip-file.png" alt="upload zip file" width=70%>
 
@@ -130,11 +130,11 @@ In this section, we will guide you through 4 steps to configure your Katalon tes
 
     Choose a suitable device pool, then click **Next**.
 
-    The **Specify device state** page appears. Review other settings and change when needed then click **Next**.
+    The **Specify device state** page appears. Review other settings and change when needed, then click **Next**.
 
 4. **Review and start Run**
 
-    Review all of configurations one last time, then click **Confirm and Start Run**.
+    Review all of the configurations one last time, then click **Confirm and Start Run**.
 
     In AWS Console, a new test run is created. Its status is pending.
 
