@@ -29,7 +29,7 @@ Follow these steps:
 
     The **User Management** page appears as below.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-invite-user-org/kt-june-invite-user-org-2.png" width=100% alt="new user mgt ui">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-invite-user-org/k1-user-mgt-new-ui.png" width=100% alt="new ui user mgt page">
 
 2. Click **Invite Users** at the top right corner.
 
@@ -53,7 +53,7 @@ Alternatively, you can copy the activation link in the **Pending Invitation** se
 >
 > Only the Owner or Admins of an Organization can do this.
 
-### View the member list
+### View the members list
 
 Go to the **User Management** page and click on the **Active Users** tab.
 
@@ -77,6 +77,14 @@ Go to the **User Management** page and click on the **Removed Users** tab.
 
 You can view a full list of users you have removed from your organization.
 
+### Search Users
+
+In the **Active Users** section, use the search bar if you want to find a specific user.
+
+In the **Pending Invitations** section, use the search bar if you want to find the invitation to a specific user.
+
+In the **Removed Users** section, use the search bar if you want to find the user you have removed.
+
 ### Revoke invitations
 
 1. Go to the **User Management** page and click on the **Pending Invitation** tab.
@@ -89,9 +97,11 @@ You can view a full list of users you have removed from your organization.
 
     The **Revoke Invitation** box pops up.
 
-4. Double check the invitees' names, then click **Revoke**.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-invite-user-org/revoke-invitation-popup.png" width=100% alt="revoke invitation popup">
 
-You have removed the invitation link. Now if your team members click on the link, it shows the link is invalid
+4. Double check the email addresses, then click **Revoke**.
+
+You have revoked the invitations. The invitation links your team members have received now become invalid.
 
 ### Remove existing Users
 
@@ -105,6 +115,8 @@ You have removed the invitation link. Now if your team members click on the link
 
     The **Remove Users** box pops up.
 
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-invite-user-org/remove-users-popup.png" width=100% alt="remove users popup">
+
 4. Click **Remove** to confirm your action.
 
 You have removed the users.
@@ -114,7 +126,7 @@ You have removed the users.
 > * The users cannot log in to your organization after being removed.
 > * You still keep the data the users have performed in your organization and you can invite them back to your organization anytime.
 
-### Change Users' role
+### Change Users' roles
 
 In an organization, different roles have different permissions. See: [Roles and permissions](https://docs.katalon.com/katalon-analytics/docs/testops-roles-privileges.html)
 
@@ -126,10 +138,12 @@ As an Owner or Admin, you can change the role of an existing member by following
 
     You can check multiple boxes if you want to update the same role for multiple users.
 
-3. Click on the **Change Role** button.
+3. Click **Change Role**.
 
     The **Change User Role** box pops up.
     
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-invite-user-org/change-user-role-popup.png" width=100% alt="change user role popup">
+
 4. Select a new role in the dropdown list, then click **Change Role**.
 
     > Notes:
@@ -141,18 +155,10 @@ As an Owner or Admin, you can change the role of an existing member by following
 
 1. Go to the **User Management** page.
 
-2. Click on the **Export User** button at the top right corner.
+2. Click **Export User** at the top right corner.
 
     The Users list is exported in .csv format.
     
 > Notes:
 >
 > The exported file contains **Active Users** list and **Removed Users** list.
-
-### Search Users
-
-In the **Active Users** section, use the search bar if you want to find a specific user.
-
-In the **Pending Invitations** section, use the search bar if you want to find the invitation to a specific user.
-
-In the **Removed Users** section, use the search bar if you want to find a specific user you have removed.
