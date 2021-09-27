@@ -31,15 +31,15 @@ Follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-invite-user-org/kt-june-invite-user-org-2.png" width=100% alt="new user mgt ui">
 
-2. Click on the **Invite User** button at the top right corner, then click **By Email**.
+2. Click on the **Invite User** button at the top right corner.
 
     A new window pops up asking you to enter the email and assign the product license to the new User.
 
 3. Fill in the required information, then click **Invite members**.
 
-    You can enter multiple email addresses to invite members. Multiple email addresses should be separated by a space.
-    
-Your team members will receive an invitation email containing a link. Once they click on the link, they become Users in your Organization.
+    You can enter multiple email addresses to invite members. Multiple email addresses should be separated by a space or comma, or *Enter*.
+
+Your team members will receive an invitation email containing a link. Once they click on the link and accept the invitation, they become Users in your Organization.
 
 Alternatively, you can copy the activation link in the **Pending Invitation** section and send it to them.
 
@@ -63,13 +63,36 @@ Once your team members have accepted the invitations to join your organization, 
 
 > Notes:
 >
-> The default role for team members is User. You can update their permissions by changing their roles.
+> The default role for team members is Member. You can update their permissions by changing their roles.
 
 ### View pending invitations
 
 Go to the **User Management** page and click on the **Pending Invitation** tab.
 
 You can check all pending invitations here.
+
+### View the Removed Users list
+
+Go to the **User Management** page and click on the **Removed Users** tab.
+
+You can view a full list of users you have removed from your organization.
+
+Use the search bar if you want to find a specific user you have removed.
+
+### Revoke an invitation
+
+1. Go to the **User Management** page and click on the **Pending Invitation** tab.
+
+2. Check the box next to the User's name to select the User and enable the **Revoke** button.
+
+    You can remove multiple users by selecting multiple checkboxes.
+2. Check the box next to the User's name to select the User and enable the **Revoke** button.
+
+    You can revoke multiple invitations by selecting multiple checkboxes.
+
+3. Click **Revoke**.
+
+You have removed the invitation link. Now if your team members click on the link, it shows the link is invalid
 
 ### Remove an existing User
 
@@ -79,19 +102,9 @@ You can check all pending invitations here.
 
     You can remove multiple users by selecting multiple checkboxes.
 
-3. Click **Remove User**.
+3. Click **Remove**.
 
-4. Confirm your action in the popup screen.
-
-You have removed the User from your Organization.
-
-#### View the Removed Users list
-
-Go to the **User Management** page and click on the **Removed Users** tab.
-
-You can view a full list of users you have removed from your organization.
-
-Use the search bar if you want to find a specific user you have removed.
+You have removed the users.
 
 ### Change a User's role
 
