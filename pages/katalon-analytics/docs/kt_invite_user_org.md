@@ -128,7 +128,7 @@ You have removed the users.
 
 ### Change Users' roles
 
-In an organization, different roles have different permissions. See: [Roles and permissions](https://docs.katalon.com/katalon-analytics/docs/testops-roles-privileges.html)
+In an organization, different roles have different permissions. See: [Roles and permissions](https://docs.katalon.com/katalon-analytics/docs/testops-roles-privileges.html).
 
 As an Owner or Admin, you can change the role of an existing member by following these steps:
 
