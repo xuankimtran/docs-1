@@ -66,7 +66,7 @@ With a minimum purchase of 10 licenses, you can subscribe licenses via Purchase 
 2. Click on the dropdown button on the top left to select your desired Organization.
 3. Copy and send the Organization's URL containing its ID and the Organization Owner's email account to the Katalon team.
 
-Once having confirmed our receipt of your Organization’s URL, Katalon will grant the purchased licenses to your Organization within 24 business hours. The licenses are generated and added directly to your account.
+After confirming your Organization URL and payment, our team will grant the purchased licenses to your Organization within 24 business hours. The licenses are generated and added directly to your account.
 
 ## Subscription Renewal
 
