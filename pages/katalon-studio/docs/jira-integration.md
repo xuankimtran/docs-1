@@ -230,7 +230,7 @@ To view test results in Jira, follow these steps:
     >```groovy
     >"Katalon Status"=<status>
     >```
-    > For example, to search for all issues that have failed in the Katalon Studio test execution, type `"Katalon Status"=FAIL` in the search bar. Katalon Studio supports five test statuses: **Passed**, **Failed**, **Incomplete**, **Error**, and **Skip**.
+    > For example, to search for all issues that have failed in the Katalon Studio test execution, type `"Katalon Status"=FAIL` in the search bar. Katalon Studio supports five test statuses: **Passed**, **Failed**, **Incomplete**, **Error**, and **Skipped**.
 
 ## Submit an issue to Jira
 
