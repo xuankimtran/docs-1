@@ -24,19 +24,16 @@ description:
 
 Katalon Studio can integrate with both Jira Cloud and Jira Server. This integration helps you:
 
-* Submit Bugs to Jira.
 * Link a Katalon Studio project with a Jira project.
-* Import Test Cases from Jira to Katalon Studio for creating test cases and run BDD tests.
+* Import Test Cases from Jira to Katalon Studio for creating test cases and running BDD tests.
 * Automatically submit test results and test reports to the linked Jira issue.
-
+* Submit Bugs to Jira.
+  
 > Prerequisites:
 >
 > * An active Katalon Studio Enterprise license.
 > * Install the **Jira Integration** plugin for Katalon Studio. You can download the plugin from Katalon Store here: [Jira Integration](https://store.katalon.com/product/3/Jira-Integration).
 > * Install the **Katalon Studio and TestOps integration** plugin for the Atlassian site. You can download the plugin from the Atlassian Marketplace website here: [Katalon Studio and TestOps integration](https://marketplace.atlassian.com/apps/1217501/katalon-bdd-test-automation-for-jira).
-
-In this article, we show you how to configure Jira integration and execute them in Katalon Studio. 
-
 ## Configure Jira Integration 
 
 To enable Jira Integration, follow these steps:
@@ -45,7 +42,7 @@ To enable Jira Integration, follow these steps:
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Jira%20Configuration-in-Katalon.png" width=70% alt="Jira Configuration in Katalon">
 
-2. Select **Enable integration** option to enable integration settings.
+2. Select **Enable integration** option to enable Jira Integration settings.
 
 3. In the **Authentication** section, fill in the criteria as shown below: 
 
@@ -70,7 +67,7 @@ To enable Jira Integration, follow these steps:
 </tr>
 <tr>
 <td><strong>Username</strong></td>
-<td>&nbsp;Your username or the registered email for Atlassian account.</td>
+<td>&nbsp;Your username or the registered email of the Atlassian account.</td>
 </tr>
 <tr>
 <td><strong>Password/API Token</strong></td>
@@ -102,7 +99,6 @@ To enable Jira Integration, follow these steps:
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Submit-Options.png" width=70% alt="Submit Options">
 
-
 5.  Click **Apply and Close** to complete the Jira integration.
 
 > Notes
@@ -112,7 +108,7 @@ To enable Jira Integration, follow these steps:
 ## Execute Test Cases with Jira Integration
 ### Import BDD custom field from Jira Cloud
 
-Besides importing BDD feature files for Jira Cloud integration, you can also import the BDD custom fields to Katalon Studio. To learn more about adding BDD custom fields in Jira via Katlon BDD, you can refer to this document here: [Install and Use Katalon BDD custom field in Jira Cloud](https://docs.katalon.com/katalon-studio/docs/BDD-field-jira-cloud.html#prerequisites).
+From Katalon Studio version 7.8.0 onwards, for Jira Cloud integration, you can also import the BDD custom fields to Katalon Studio when importing BDD feature files. To learn more about adding BDD custom fields in Jira via Katlon BDD, you can refer to this document here: [Install and Use Katalon BDD custom field in Jira Cloud](https://docs.katalon.com/katalon-studio/docs/BDD-field-jira-cloud.html#prerequisites).
 
 Follow these steps:
 
@@ -131,7 +127,7 @@ Follow these steps:
 4. Click **Apply and Close** to apply your settings. 
 ### Import Test Cases from Jira
 
-Katalon Studio allows you to import test cases from Jira and link Jira issues to Katalon. Follow these steps:
+Katalon Studio allows you to pull test cases from Jira and link Jira issues to Katalon. Follow these steps:
 
 1. From the Katalon toolbar, select **Jira Integration <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Jira-icon.png" width=4% alt="Jira Intergration icon"> > Import Test Case from JIRA JQL**. An **Import Test Case from JIRA JQL** dialog opens.
 
