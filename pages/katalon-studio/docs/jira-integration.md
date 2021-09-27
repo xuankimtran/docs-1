@@ -107,8 +107,8 @@ To enable Jira Integration, follow these steps:
 
 ## Execute Test Cases with Jira Integration
 
-There are three main steps to execute test cases imported from Jira in Katalon. However, if you don't want to run BDD tests or you are intergrating Jira Server with Katalon,you can skip Step 1
-### Step 1: Import BDD custom field (Applicable to Jira Cloud Intergration)
+There are three main steps to execute test cases imported from Jira in Katalon. However, if you don't want to run BDD tests or you are intergrating Jira Server with Katalon, you can skip Step 1.
+### Step 1: Import BDD custom fields (Applicable to Jira Cloud Intergration)
 
 From Katalon Studio version 7.8.0 onwards, for Jira Cloud integration, you can also import the BDD custom fields to Katalon Studio when importing BDD feature files. To learn more about adding BDD custom fields in Jira via Katlon BDD, you can refer to this document here: [Install and Use Katalon BDD custom field in Jira Cloud](https://docs.katalon.com/katalon-studio/docs/BDD-field-jira-cloud.html#prerequisites).
 
@@ -144,7 +144,7 @@ Katalon Studio allows you to pull test cases from Jira and link Jira issues to K
             <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Copy-JQL-syntax-to-Katalon.png" width=70% alt="Copy and paste JQL script into the Jira JQL">
 
 
-   - By default, the **Import BDD feature files** box is selected. This option allows you to import BDD feature files to run BDD tests. In case you don't want to import BDD files, uncheck this option. To learn more about BDD testing, you can refer to this document here: [BDD Testing Framework (Cucumber Integration)](https://docs.katalon.com/katalon-studio/docs/cucumber-features-file.html#set-default-package-for-step-definitions.)
+   - By default, the **Import BDD feature files** box is selected. This option allows you to import BDD feature files to run BDD tests. In case you don't want to run BDD tests, uncheck this option. To learn more about BDD testing, you can refer to this document here: [BDD Testing Framework (Cucumber Integration)](https://docs.katalon.com/katalon-studio/docs/cucumber-features-file.html#set-default-package-for-step-definitions.)
 
 3. In the **Test Case Folder Selection** dialog, select the destination to store the issues. Click **OK**.
 
