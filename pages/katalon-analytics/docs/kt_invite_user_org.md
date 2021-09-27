@@ -129,14 +129,28 @@ As an Owner or Admin, you can change the role of an existing member by following
 
 ## Transfer Organization
 
+> Requirements:
+>
+> You are the Owner of an Organization.
+
 > Notes:
 >
-> Only the Owner of an Organization can transfer the ownership to an existing team member.
+> * You cannot change the Owner's email address. If you want to change the Owner's email address, your only option is to transfer the ownership to the new email address.
+> * You can only transfer ownership to an existing member. See: [Invite a User to join an Organization](https://docs.katalon.com/katalon-analytics/docs/kt_invite_user_org.html#invite-a-user-to-join-an-organization).
 
-In the **User's detail** page, click on the dropdown button. In the **Role** section, select **Owner**. Click **Update**.
+1. Go to the **User Management** page.
+
+2. Select the User or the email address you want to transfer ownership to.
+
+3. Click **Change Role**.
+
+4. Select the **Owner** role.
+
+5. Confirm your action.
 
 This User is now the Owner of your Organization.
 
 > Notes:
 >
 > Transferring Organization ownership does not affect Team ownership. The previous Organization Owner maintains Owner permissions for the Teams they have created.
+ 
