@@ -98,7 +98,7 @@ WebElement element = WebUiCommonHelper.findWebElement(findTestObject('your/objec
 <tr>
 <td>Unable to connect to Katalon server.</td>
 <td>
-<p>Allow the following .exe files to communicate through Windows Firewall. Here is the full <a href="https://www.howtogeek.com/howto/uncategorized/how-to-create-exceptions-in-windows-vista-firewall/">guide</a> to access this interface:</p>
+<p>Allow the following .exe files to communicate through Windows Firewall. To learn more about allowing apps through Windows firewall, you can refer to the Microsoft document here: <a href="https://support.microsoft.com/en-us/windows/risks-of-allowing-apps-through-windows-defender-firewall-654559af-3f54-3dcf-349f-71ccd90bcc5c">Risks of allowing apps through Windows Defender Firewall</a>.</p>
 <ul>
 <li>geckodriver.exe</li>
 <li>chromedriver.exe</li>
