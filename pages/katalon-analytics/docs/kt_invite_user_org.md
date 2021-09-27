@@ -15,7 +15,7 @@ redirect_from:
 >
 > You need a Katalon account. You can create a Katalon account on our website: [Sign Up to Katalon](https://www.katalon.com/sign-up/).
 
-## Invite a User to join an Organization
+## Invite Users to join an Organization
 
 > Notes:
 >
@@ -31,11 +31,11 @@ Follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-invite-user-org/kt-june-invite-user-org-2.png" width=100% alt="new user mgt ui">
 
-2. Click on the **Invite User** button at the top right corner.
+2. Click **Invite Users** at the top right corner.
 
     A new window pops up asking you to enter the email and assign the product license to the new User.
 
-3. Fill in the required information, then click **Invite members**.
+3. Fill in the required information, then click **Invite**.
 
     You can enter multiple email addresses to invite members. Multiple email addresses should be separated by a space or comma, or *Enter*.
 
@@ -77,7 +77,7 @@ Go to the **User Management** page and click on the **Removed Users** tab.
 
 You can view a full list of users you have removed from your organization.
 
-### Revoke an invitation
+### Revoke invitations
 
 1. Go to the **User Management** page and click on the **Pending Invitation** tab.
 
@@ -93,11 +93,11 @@ You can view a full list of users you have removed from your organization.
 
 You have removed the invitation link. Now if your team members click on the link, it shows the link is invalid
 
-### Remove an existing User
+### Remove existing Users
 
 1. Go to the **User Management** page, and click on the **Active Users** tab.
 
-2. Check the box next to the User's name to select the User and enable the **Remove User** button.
+2. Check the box next to the User's name to select the User and enable the **Remove Users** button.
 
     You can remove multiple users by selecting multiple checkboxes.
 
@@ -113,7 +113,9 @@ You have removed the users.
 >
 > After removing, the users cannot log in to your organization anymore. You still keep the data the users have performed in your organization and you can invite them back to your organization anytime.
 
-### Change a User's role
+### Change Users' role
+
+add role permisson doc
 
 As an Owner or Admin, you can change the role of an existing member by following these steps:
 
