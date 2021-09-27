@@ -115,7 +115,7 @@ From Katalon Studio version 7.8.0 onwards, for Jira Cloud integration, you can a
 Follow these steps:
 
 1. Go to **Project > Settings > Plugins > Jira**.
-2. In the **Fetch Options** section, select **Enable retrieving content of the specified custom field**.
+2. In the **Fetch Options** section, check the **Enable retrieving content of the specified custom field** box.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Enable-BDD-custom-files-2.png" width=50% alt="Enable the BDD custom field in Jira Cloud">
 
@@ -124,7 +124,7 @@ Follow these steps:
     > Note:
     >
     > Only existing custom field ID is valid for this configuration.
-    > In case you can not find the custom field in the drop-down list, click **Fetch Custom Fields** to fetch the latest list from the connected Jira Cloud Server. 
+    > In case you can not find the custom field in the drop-down list, click **Fetch Custom Fields** to fetch the latest list from the connected Jira Cloud. 
 
 4. Click **Apply and Close** to apply your settings. 
 ### Step 2: Import Test Cases from Jira
@@ -149,6 +149,7 @@ Katalon Studio allows you to pull test cases from Jira and link Jira issues to K
    - By default, the **Import BDD feature files** box is selected. This option allows you to import BDD feature files to run BDD tests. In case you don't want to run BDD tests, uncheck this option. To learn more about BDD testing, you can refer to this document here: [BDD Testing Framework (Cucumber Integration)](https://docs.katalon.com/katalon-studio/docs/cucumber-features-file.html#set-default-package-for-step-definitions.)
 
         <img src="https://github.com/katalon-studio/docs-images/raw/de6b6cc7920a9776a331e2e44b4bb30f90344653/katalon-studio/docs/configure-jira-integration/KS-JIRA-Import-BDD-feature-file.png" width=50% alt="Import the BDD feature files">
+
 3. In the **Test Case Folder Selection** dialog, select the destination to store the issues. Click **OK**. A **Jira Issues** dialog opens.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Choose-the-des-for-Jira-test-cases.png" width=40% alt="Choose the destination for Jira test cases">
@@ -216,11 +217,10 @@ After importing the test case from Jira, you can continue to add additional step
 
 To view test results in Jira, follow these steps:
 1. Add the associated test cases to a test suite. 
-2. After a test suite execution, open the linked Jira ticket, click **Open Test Results** in the **Details** group.
+After a test suite execution, Katalon Studio automatically uploads the latest test result and attaches a `.zip` file that contains test reports to the linked Jira issue. 
+2. To view the test results, open the linked Jira ticket, click **Open Test Results** in the **Details** group.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Click-Open-test-results-in-the-Jira-issue.png" width=70% alt="Click on the Open test results in the Jira issue">
-
-    Katalon Studio automatically uploads a test result to the integrated Jira issue. You can view the test result and its attachments you have predefined in **Project > Settings > Jira**.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-see-results-of-test-case-in-the-Jira-issue.png" width=70% alt="See results of test case in the Jira issue">
 
