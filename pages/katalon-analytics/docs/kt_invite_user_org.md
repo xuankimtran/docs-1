@@ -148,9 +148,8 @@ As an Owner or Admin, you can change the role of an existing member by following
 
 5. Confirm your action.
 
-This User is now the Owner of your Organization.
+After transfering, your role has become the **Admin** role, while this User is now the Owner of your Organization.
 
 > Notes:
 >
-> Transferring Organization ownership does not affect Team ownership. The previous Organization Owner maintains Owner permissions for the Teams they have created.
- 
+> * Transferring Organization ownership does not affect Team ownership. The previous Organization Owner maintains Owner permissions for the Teams they have created.
