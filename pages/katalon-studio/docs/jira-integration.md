@@ -106,7 +106,9 @@ To enable Jira Integration, follow these steps:
 > If you want to enable Jira integration with Katalon TestOps, you can refer to this document: [TestOps - Jira Integration](https://docs.katalon.com/katalon-analytics/docs/kt-jira-config.html).
 
 ## Execute Test Cases with Jira Integration
-### Import BDD custom field from Jira Cloud
+
+There are three main steps to execute test cases imported from Jira in Katalon. However, if you don't want to run BDD tests or you are intergrating Jira Server with Katalon,you can skip Step 1
+### Step 1: Import BDD custom field (Applicable to Jira Cloud Intergration)
 
 From Katalon Studio version 7.8.0 onwards, for Jira Cloud integration, you can also import the BDD custom fields to Katalon Studio when importing BDD feature files. To learn more about adding BDD custom fields in Jira via Katlon BDD, you can refer to this document here: [Install and Use Katalon BDD custom field in Jira Cloud](https://docs.katalon.com/katalon-studio/docs/BDD-field-jira-cloud.html#prerequisites).
 
@@ -125,7 +127,7 @@ Follow these steps:
 > In case you can not find the custom field in the drop-down list, click **Fetch Custom Fields** to fetch the latest list from the connected Jira Cloud Server. 
 
 4. Click **Apply and Close** to apply your settings. 
-### Import Test Cases from Jira
+### Step 2: Import Test Cases from Jira
 
 Katalon Studio allows you to pull test cases from Jira and link Jira issues to Katalon. Follow these steps:
 
@@ -205,7 +207,7 @@ Katalon opens a new test case with:
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jira-plugin-integration/bdd2.png" width=70% alt="Final results after importing test cases">
 
-### Run the test case
+### Step 3: Run the test case
 
 After importing the test case from Jira, hit **Run** to run the test case.
 ## View Test Results in Jira
