@@ -85,7 +85,7 @@ You can view a full list of users you have removed from your organization.
 
     You can revoke multiple invitations by selecting multiple checkboxes.
 
-3. Click on the **Revoke** button.
+3. Click **Revoke**.
 
     The **Revoke Invitation** box pops up.
 
@@ -101,7 +101,7 @@ You have removed the invitation link. Now if your team members click on the link
 
     You can remove multiple users by selecting multiple checkboxes.
 
-3. Click on the **Remove** button.
+3. Click **Remove**.
 
     The **Remove Users** box pops up.
 
@@ -111,11 +111,12 @@ You have removed the users.
 
 > Notes:
 >
-> After removing, the users cannot log in to your organization anymore. You still keep the data the users have performed in your organization and you can invite them back to your organization anytime.
+> * The users cannot log in to your organization after being removed.
+> * You still keep the data the users have performed in your organization and you can invite them back to your organization anytime.
 
 ### Change Users' role
 
-add role permisson doc
+In an organization, different roles have different permissions. See: [Roles and permissions](https://docs.katalon.com/katalon-analytics/docs/testops-roles-privileges.html)
 
 As an Owner or Admin, you can change the role of an existing member by following these steps:
 
@@ -148,7 +149,10 @@ As an Owner or Admin, you can change the role of an existing member by following
 >
 > The exported file contains **Active Users** list and **Removed Users** list.
 
-### Search 
-in each tab you can search
+### Search Users
 
-Use the search bar if you want to find a specific user you have removed.
+In the **Active Users** section, use the search bar if you want to find a specific user.
+
+In the **Pending Invitations** section, use the search bar if you want to find the invitation to a specific user.
+
+In the **Removed Users** section, use the search bar if you want to find a specific user you have removed.
