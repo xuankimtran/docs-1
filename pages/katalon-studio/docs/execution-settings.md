@@ -202,7 +202,7 @@ request.setMaxResponseSize(RequestObject.DEFAULT_MAX_RESPONSE_SIZE)
 
 ## Emails Settings
 
-> From version 7.5.0 onwards, Katalon Studio Enterprise users can send email reports of Test Suite Collection execution.
+> From version 7.5.0 onwards, Katalon Studio Enterprise users can send email reports after executing Test Suite Collections.
 
 To receive summary reports via email after the execution of **Test Suite** or **Test Suite Collection**, you need to configure global email settings in **Project/Settings/Email**.
 
@@ -315,7 +315,7 @@ The below section guides you on how to do that with a usage example.
 
 > Notes:
 >
-> Global Variables are Test Suite scoped. When executing your Test Suite Collection, only Global Variables in the default profile are applied.
+> When sending email reports on Test Suite Collection, only the Global Variables in the default profile are applied. This is because Test Suites included in your Test Suite Collection can have different execution profiles, and Global Variables defined in a Test Suite do not affect other Test Suites.
 
 1. [Define a Global Variable](https://docs.katalon.com/katalon-studio/docs/execution-profile-v54.html#define-a-global-variable) in your Execution Profile.
 
