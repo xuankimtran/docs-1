@@ -11,6 +11,7 @@ This tutorial will guide you through how to set your scenario tags to be execute
 > Requirement:
 >
 > * Jenkins is already installed. See Jenkins documentation on [Installing Jenkins](https://www.jenkins.io/doc/book/installing/).
+> * Katalon TestOps plugin is already installed on Jenkins. See [How to use Katalon TestOps plugin for Jenkins on Windows](https://docs.katalon.com/katalon-studio/docs/jenkins-plugin-windows.html#run-a-freestyle-jenkins-project).
 > * An active Katalon Runtime Engine license.
 
 ### Create Global Variables during runtime
