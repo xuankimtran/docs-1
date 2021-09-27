@@ -13,7 +13,7 @@ redirect_from:
 
 > Requirements:
 >
-> You need a Katalon account. You can create a Katalon account on our website: [Sign Up to Katalon](https://www.katalon.com/sign-up/).
+> You need a Katalon account. [Sign up to Katalon](https://www.katalon.com/sign-up/).
 
 ## Invite Users to join an Organization
 
