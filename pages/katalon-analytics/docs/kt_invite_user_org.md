@@ -45,7 +45,7 @@ Alternatively, you can copy the activation link in the **Pending Invitation** se
 
 > Notes:
 >
-> After joining your Organization, the new users are not yet part of a team. You have to add them to a team so that they can gain access to a project.
+> The default role for team members is Member. After joining your Organization, the new users are not yet part of a team. You have to add them to a team so that they can gain access to a project.
 
 ## Manage Users
 
@@ -63,7 +63,7 @@ Once your team members have accepted the invitations to join your organization, 
 
 > Notes:
 >
-> The default role for team members is Member. You can update their permissions by changing their roles.
+> You can update their permissions by changing their roles.
 
 ### View pending invitations
 
@@ -71,40 +71,47 @@ Go to the **User Management** page and click on the **Pending Invitation** tab.
 
 You can check all pending invitations here.
 
-### View the Removed Users list
+### View the removed users list
 
 Go to the **User Management** page and click on the **Removed Users** tab.
 
 You can view a full list of users you have removed from your organization.
 
-Use the search bar if you want to find a specific user you have removed.
-
 ### Revoke an invitation
 
 1. Go to the **User Management** page and click on the **Pending Invitation** tab.
 
-2. Check the box next to the User's name to select the User and enable the **Revoke** button.
-
-    You can remove multiple users by selecting multiple checkboxes.
-2. Check the box next to the User's name to select the User and enable the **Revoke** button.
+2. Check the box next to the name to select and enable the **Revoke** button.
 
     You can revoke multiple invitations by selecting multiple checkboxes.
 
-3. Click **Revoke**.
+3. Click on the **Revoke** button.
+
+    The **Revoke Invitation** box pops up.
+
+4. Double check the invitees' names, then click **Revoke**.
 
 You have removed the invitation link. Now if your team members click on the link, it shows the link is invalid
 
 ### Remove an existing User
 
-1. Go to the **User Management** page.
+1. Go to the **User Management** page, and click on the **Active Users** tab.
 
 2. Check the box next to the User's name to select the User and enable the **Remove User** button.
 
     You can remove multiple users by selecting multiple checkboxes.
 
-3. Click **Remove**.
+3. Click on the **Remove** button.
+
+    The **Remove Users** box pops up.
+
+4. Click **Remove** to confirm your action.
 
 You have removed the users.
+
+> Notes:
+>
+> After removing, the users cannot log in to your organization anymore. You still keep the data the users have performed in your organization and you can invite them back to your organization anytime.
 
 ### Change a User's role
 
@@ -116,53 +123,30 @@ As an Owner or Admin, you can change the role of an existing member by following
 
     You can check multiple boxes if you want to update the same role for multiple users.
 
-3. Select a new role in the dropdown list. then click **Change role**.
+3. Click on the **Change Role** button.
+
+    The **Change User Role** box pops up.
+    
+4. Select a new role in the dropdown list, then click **Change Role**.
 
     > Notes:
     >
     > * Organization members can have different roles in different teams.
-    > * The **Owner** role only appears in the dropdown list if you are the Owner of your Organization.
     > * The **Billing Manager** role is only available at the Organization level.
 
-### Export a User's data
+### Export Users list
 
 1. Go to the **User Management** page.
 
-2. Check the box to select the User and enable the **Export User** button.
+2. Click on the **Export User** button at the top right corner.
 
-3. Click **Export User**.
-
-    The User's data is exported in .csv format.
-
-4. Download the .csv file.
-
+    The Users list is exported in .csv format.
+    
 > Notes:
 >
-> You can select multiple users to export their data.
+> The exported file contains **Active Users** list and **Removed Users** list.
 
-## Transfer Organization
+### Search 
+in each tab you can search
 
-> Requirements:
->
-> You are the Owner of an Organization.
-
-> Notes:
->
-> * You cannot change the Owner's email address. If you want to change the Owner's email address, your only option is to transfer the ownership to the new email address.
-> * You can only transfer ownership to an existing member. See: [Invite a User to join an Organization](https://docs.katalon.com/katalon-analytics/docs/kt_invite_user_org.html#invite-a-user-to-join-an-organization).
-
-1. Go to the **User Management** page.
-
-2. Select the User or the email address you want to transfer ownership to.
-
-3. Click **Change Role**.
-
-4. Select the **Owner** role.
-
-5. Confirm your action.
-
-After transfering, your role has become the **Admin** role, while this User is now the Owner of your Organization.
-
-> Notes:
->
-> * Transferring Organization ownership does not affect Team ownership. The previous Organization Owner maintains Owner permissions for the Teams they have created.
+Use the search bar if you want to find a specific user you have removed.
