@@ -42,7 +42,13 @@ Follow these steps:
             >
             > Katalon TestOps currently supports test scripts from Katalon Studio and Git Repositories (GitHub and Bitbucket). See: [Upload Test Scripts from a Git Repository](https://docs.katalon.com/katalon-analytics/docs/git-test-project.html#create-git-script-repository).
 
-        * **Type**: choose among **Test Suite Collection** or **Katalon Command** or **Generic Command** to run your tests.
+        * **Type**: choose between **Test Suite Collection**, **Katalon Command** and **Generic Command** to run your tests.
+
+            > Notes:
+            >
+            > * You choose **Test Suite Collection** if you want to select the Test Suite Collections directly from Katalon Studio (KS). Katalon TestOps will automatically fetch your Test Suite Collections.
+            > * You choose **Generic Command** if you want to execute tests with other frameworks outside KS (e.g., Pytest).
+            > * You choose **Katalon Command** if you want to execute tests with KS. The Katalon commands can be generated from KS (in the **Command Generator** dialog). See: [Command Syntax](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html).
 
     * In the **Where to run** section, fill in the following information:
         * **Test Environment Type**: choose among **Local Test Environment**, **Kubernetes Test Environment** or **CircleCI Test Environment**.
