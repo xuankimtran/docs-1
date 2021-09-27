@@ -66,7 +66,7 @@ To run your Katalon project with AWS Device Farm, you have to configure your Kat
 ### Update aws-device-farm-integration project
 
 1. Clone or download **aws-device-farm-integration** from our repository: [Katalon Studio AWS Device Farm Integration](https://github.com/katalon-studio-samples/aws-device-farm-integration).
-2. Inside **aws-device-farm-integration**, place your Katalon Project .**zip** file in this directory: `src/test/resources`.
+2. Inside **aws-device-farm-integration**, place your Katalon Project .zip file in this directory: `src/test/resources`.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/aws-device-farm-integration/zip-demo-project.png" alt="zip demo project" width=60%>
 
@@ -76,7 +76,7 @@ To run your Katalon project with AWS Device Farm, you have to configure your Kat
     * `KATALON_PROJECT_PACKAGE_FILE`: Your package file.
     * `KATALON_EXECUTE_ARGS`: The arguments part of your Katalon run command
         * The `-browserType` argument must be set to `"Remote"`.
-        * The `-reportFolder=$DEVICEFARM_LOG_DIR` argument allows us can download the execution report in Files/Customer Artifact of the AWS Device Farm Job.
+        * The `-reportFolder=$DEVICEFARM_LOG_DIR` argument allows us to download the execution report in Files/Customer Artifact of the AWS Device Farm Job.
         * For more arguments, refer to [Command Syntax](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#general-options).
 
     For example:
@@ -110,7 +110,7 @@ In this section, we will guide you through 4 steps to configure your Katalon tes
 
     To choose application, toggle between **Mobile App** and **Web App**.
 
-    * For mobile app testing, select **Mobile App**. Upload your tested application, which is an **.apk** file for Anroid application or an **.ipa** file for iOS application. When the app uploaded successfully, click **Next**.
+    * For mobile app testing, select **Mobile App**. Upload your tested application, which is an **.apk** file for an Android application or an **.ipa** file for an iOS application. Wait for the file to upload, then click **Next**.
 
         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/aws-device-farm-integration/3-upload-mobile-app.png" alt="upload mobile app" width=70%>
 
