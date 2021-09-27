@@ -1,10 +1,10 @@
 ---
-title: "Passing scenario tags at runtime when building with Jenkins"
+title: "Passing feature file and scenario tags at runtime when building with Jenkins"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/how-to-guides/jenkins-tags-runtime.html
 description:
 ---
-When running automated tests, you might want to classify different scenarios into different tags for better management.
+When running automated tests, you might want to classify different features and scenarios into different tags for better management.
 
 This tutorial will guide you through how to set your scenario tags to be executed at runtime when Jenkins Build triggers your tests.
 
@@ -14,7 +14,7 @@ This tutorial will guide you through how to set your scenario tags to be execute
 > * Katalon TestOps plugin is already installed on Jenkins. See [How to use Katalon TestOps plugin for Jenkins on Windows](https://docs.katalon.com/katalon-studio/docs/jenkins-plugin-windows.html#run-a-freestyle-jenkins-project).
 > * An active Katalon Runtime Engine license.
 
-### Create Global Variables during runtime
+### Create Global Variables
 
 You can change Global Variable values during runtime without affecting other Test Suites. Therefore, using a Global Variable as a parameter in the keyword `runFeatureFolderWithTags` can save your time when you have many tags to manage.
 
@@ -37,7 +37,7 @@ You can change Global Variable values during runtime without affecting other Tes
     >
     > To learn more about this keyword, see [[Cucumber] Run Feature Folder with Tags](https://docs.katalon.com/katalon-studio/docs/cucumber-kw-run-feature-folder-tag.html).
 
-3. Add this test case to a test suite and execute it from Jenkins. To learn more about how to execute tests from Jenkins, see [How to use Katalon TestOps plugin for Jenkins on Windows](https://docs.katalon.com/katalon-studio/docs/jenkins-plugin-windows.html).
+3. Add this test case to a test suite and execute it from Jenkins. You can choose feature files stored in a folder to run with your desired tags values.
 
 ### Update Global Variables during runtime
 
