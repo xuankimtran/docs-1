@@ -7,8 +7,8 @@ redirect_from:
 
 > Tips
 >
->* Please use **Ctrl+F** to look for the exceptions and errors you have encountered quickly.
->* If the exception you are looking for is not documented, please leave a comment below to request a proposed solution from the Katalon team.
+> * To find the exceptions and errors you encountered, use **Ctrl+F**.
+> * If you cannot find the exceptions or error message you encountered, you can leave a comment below for further support.
 
 <table>
 	<thead>
@@ -22,7 +22,7 @@ redirect_from:
 			<td>Handling Splash screen</td>
 			<td>
 				<ul>
-					<li>If your app has Splash screen, <a href="https://github.com/microsoft/WinAppDriver/releases/tag/v1.2-RC&nbsp;15">download WinAppDriver v1.2</a>&nbsp;and install Appium version&nbsp;<a title="https://github.com/appium/appium/releases" href="https://github.com/appium/appium/releases" data-renderer-mark="true">1.16.0 onwards</a>. In Katalon Studio, go to <strong>Project Settings &gt; Desired capabilities &gt; Windows</strong>&nbsp;and add this desired capabilities: "ms:waitForAppLaunch": "25"</li>
+					<li>If your app has Splash screen, <a href="https://github.com/microsoft/WinAppDriver/releases/tag/v1.2-RC&nbsp;15">download WinAppDriver v1.2</a>&nbsp;and install Appium version&nbsp;<a title="https://github.com/appium/appium/releases" href="https://github.com/appium/appium/releases" data-renderer-mark="true">1.16.0 onwards</a>. In Katalon Studio, go to <strong>Project Settings &gt; Desired capabilities &gt; Windows</strong>&nbsp;and add this desired capabilities: <code>"ms:waitForAppLaunch": "25"</code></li>
 				</ul>
 				<ul>
 					<li>If your app does not have Splash screen, in the Application Title field, add the application title and start again.</li>
