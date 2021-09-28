@@ -33,7 +33,7 @@ Katalon Studio can integrate with both Jira Cloud and Jira Server. This integrat
 >
 > * An active Katalon Studio Enterprise license.
 > * Install the **Jira Integration** plugin for Katalon Studio. You can download the plugin from Katalon Store here: [Jira Integration](https://store.katalon.com/product/3/Jira-Integration).
-> * Install the **Katalon Studio and TestOps integration** plugin for the Atlassian site. You can download the plugin from the Atlassian Marketplace website here: [Katalon Studio and TestOps integration](https://marketplace.atlassian.com/apps/1217501/katalon-bdd-test-automation-for-jira).
+> * Install the **Katalon Studio and TestOps integration** plugin for Jira. You can download the plugin from the Atlassian Marketplace website here: [Katalon Studio and TestOps integration](https://marketplace.atlassian.com/apps/1217501/katalon-bdd-test-automation-for-jira).
 ## Configure Jira Integration 
 
 To enable Jira Integration, follow these steps:
@@ -110,7 +110,7 @@ To enable Jira Integration, follow these steps:
 There are three main steps to execute test cases imported from Jira in Katalon. However, if you don't want to run BDD tests or you are integrating Jira Server with Katalon, you can skip Step 1.
 ### Step 1: Import BDD custom fields (Applicable to Jira Cloud Integration)
 
-From Katalon Studio version 7.8.0 onwards, you can also import the BDD custom fields to Katalon Studio when importing BDD feature files for Jira Cloud Integration. To learn more about adding BDD custom fields in Jira via Katlon BDD, you can refer to this document here: [Install and Use Katalon BDD custom field in Jira Cloud](https://docs.katalon.com/katalon-studio/docs/BDD-field-jira-cloud.html#prerequisites).
+From Katalon Studio version 7.8.0 onwards, you can also import the BDD custom fields to Katalon Studio when importing BDD feature files for Jira Cloud Integration. To learn more about adding BDD custom fields in Jira via Katalon BDD, you can refer to this document here: [Configure Jira BDD Settings](https://docs.katalon.com/katalon-analytics/docs/bdd-settings.html).
 
 Follow these steps:
 

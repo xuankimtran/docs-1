@@ -4,6 +4,8 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/bdd-settings.html
 redirect_from:
     - "/katalon-studio/docs/bdd-settings.html"
+    - "katalon-studio/docs/install-and-use-katalons-jira-add-on.html"
+    - "katalon-studio/docs/BDD-field-jira-cloud.html"
 ---
 Katalon Studio provides a free Jira add-on to help create a seamless integration. This add-on gives you several benefits:
 
@@ -11,13 +13,11 @@ Katalon Studio provides a free Jira add-on to help create a seamless integration
 * Dynamic perspectives and an insightful look at your automation testing data.
 * Progress tracking for better test management.
 
+> Prerequisites:
+> * Install Katalon Studio and TestOps integration for Jira. You can download the plugin from the Atlassian Marketplace website here: [Katalon Studio and TestOps integration](https://marketplace.atlassian.com/apps/1217501/katalon-bdd-test-automation-for-jira?hosting=cloud&tab=overview).
+> * Enable Jira Integration with Katalon TestOps. To enable Jira Integration with Katalon TestOps, follow the steps in this document: [TestOps - Jira Integration](https://docs.katalon.com/katalon-analytics/docs/kt-jira-config.html).
+
 ## Jira Server
-
-### Installation
-
-> Install Katalon BDD - Test Automation for Jira [here](https://marketplace.atlassian.com/apps/1217501/katalon-bdd-test-automation-for-jira?hosting=cloud&tab=overview).
-
-To install the add-on, please follow [Atlassian's instruction](https://marketplace.atlassian.com/plugins/com.katalon.katalon-jira-plugin/server/installation).
 
 ### Gherkin custom field
 
@@ -32,11 +32,6 @@ To create Katalon Gherkin custom field, please follow [Atlassian's instruction]
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/install-and-use-katalons-jira-add-on/field-config-marked.png)
 
 ## Jira Cloud
-
-### Install and Use Katalon BDD custom field in Jira Cloud
-
-A new version of the Katalon BDD Add-on for Jira Cloud which supports BDD editor is available [here](https://marketplace.atlassian.com/apps/1217501/katalon-bdd-test-automation-for-jira?hosting=cloud&tab=overview). 
-
 ### Install the Katalon BDD add-on
 
 To add the **Katalon BDD** custom field to Jira Cloud, from **Jira settings** -> Select **Apps**-> Select **Find new apps** -> Enter **“BDD Katalon”** in Filter apps-> **Get app**.
