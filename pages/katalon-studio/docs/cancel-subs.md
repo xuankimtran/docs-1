@@ -1,5 +1,5 @@
 ---
-title: "Cancel Subscriptions"
+title: "Cancel Billing Renewal"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/cancel-subs.html
 description:
