@@ -285,7 +285,7 @@ Follow these steps:
     <td>This option adds the execution details of the test to an existing JIRA issue. You need to provide the <strong>ID</strong> of the existing JIRA issue for this.</td>
     <td>
     <p>After choosing this option:&nbsp;</p>
-    <p>- A <strong>Link to JIRA Issue</strong> dialog opens. Fill in the&nbsp;<strong>ID</strong>&nbsp;of an existing Jira issue. Click&nbsp;<strong>OK.&nbsp;</strong>The test case execution .zip files&nbsp;will be attached to the linked JIRA Issue.</p>
+    <p>- A <strong>Link to JIRA Issue</strong> dialog opens. Fill in the&nbsp;<strong>ID</strong>&nbsp;of an existing Jira issue. Click&nbsp;<strong>OK.&nbsp;</strong>The test case execution files&nbsp;will be attached to the linked JIRA Issue.</p>
     <p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Create-a-linked-ticket.png" alt="Create a linked ticket" /></p>
     </td>
     </tr>
@@ -294,7 +294,7 @@ Follow these steps:
 
     > Note:
     > 
-    > * The default **JIRA native submission form** might include the **Summary**, **Screenshots**, **Logs**, **Reports**, and **Description** of the test case. You can configure the default submission form from the **Submit Options** section in the Jira integration settings.
+    > * By default, the submitted ticket might include the **Summary**, **Description**, **Screenshots** and **Logs** of the test case. You can configure the default submission form from the **Submit Options** section in the Jira integration settings.
     > * To quickly navigate to a linked JIRA issue, click the hyperlink embedded in the ticket's ID. 
     > 
     > <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/katalon_studio_integration_with_jira_overview/Linked-JIRA-issues1.png" width=40% alt="Jira Issues Hyperlink">
