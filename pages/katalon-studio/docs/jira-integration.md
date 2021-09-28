@@ -25,15 +25,15 @@ description:
 Katalon Studio can integrate with both Jira Cloud and Jira Server. This integration helps you:
 
 * Link a Katalon Studio project with a Jira project.
-* Import Test Cases from Jira to Katalon Studio for creating test cases and running BDD tests.
+* Import Test Cases from Jira to Katalon Studio to create test cases and run BDD tests.
 * Automatically submit test results and test reports to the linked Jira issue.
 * Submit Bugs to Jira.
   
 > Prerequisites:
 >
 > * An active Katalon Studio Enterprise license.
-> * Install the **Jira Integration** plugin for Katalon Studio. You can download the plugin from Katalon Store here: [Jira Integration](https://store.katalon.com/product/3/Jira-Integration).
-> * Install the **Katalon Studio and TestOps integration** plugin for Jira. You can download the plugin from the Atlassian Marketplace website here: [Katalon Studio and TestOps integration](https://marketplace.atlassian.com/apps/1217501/katalon-bdd-test-automation-for-jira).
+> * The **Jira Integration** plugin for Katalon Studio installed. You can find the plugin here: [Jira Integration](https://store.katalon.com/product/3/Jira-Integration).
+> * The **Katalon Studio and TestOps integration** plugin for Jira installed. You can download the plugin from the Atlassian Marketplace website here: [Katalon Studio and TestOps integration](https://marketplace.atlassian.com/apps/1217501/katalon-bdd-test-automation-for-jira).
 ## Configure Jira Integration 
 
 To enable Jira Integration, follow these steps:
@@ -42,7 +42,7 @@ To enable Jira Integration, follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Jira%20Configuration-in-Katalon.png" width=50% alt="Jira Configuration in Katalon">
 
-2. Select **Enable integration** option to enable Jira Integration settings.
+2. Select the **Enable integration** box.
 
 3. In the **Authentication** section, fill in the criteria as shown below: 
 
@@ -86,7 +86,7 @@ To enable Jira Integration, follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Connect-JIRA-successfully.png" width=50% alt="Connect Jira Configuration successfully in Katalon">
 
-4. After successfully authenticating with JIRA, all relevant **JIRA Projects** and **Issue Types** will be retrieved and displayed under the **Submit Options** section. You can specify the default project and the default issue type for submission here.
+4. After successfully authenticating with Jira, all relevant **JIRA Projects** and **Issue Types** will be retrieved and displayed under the **Submit Options** section. You can specify the default project and the default issue type for submission here.
 
     | Field | Description |
     | --- | --- |
@@ -158,7 +158,7 @@ Katalon Studio allows you to pull test cases from Jira and link Jira issues to K
 
     > Notice:
     >
-    > If you have imported a test case from a JIRA ticket, you can not do it again.
+    > You can only import test cases from a Jira ticket once. You can not repeat this action.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Link-the-JIRA-issue.png" width=40% alt="Link the Jira issue">
 
@@ -236,7 +236,7 @@ After a test suite execution, Katalon Studio automatically uploads the latest te
 
 ## Submit an issue to Jira
 
-After executing a test suite, you can submit a ticket to Jira from its test reports. 
+After executing a test suite, you can submit an issue to Jira directly from the test reports page.
 
 Follow these steps:
 
@@ -245,7 +245,7 @@ Follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Click-the-Bug-icon.png" width=50% alt="Click the Bug icon">
 
-3. In the opened dialog, click **Add** to choose your submit options.
+3. Click **Add** to choose your submit options.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Choose-your-submit-options.png" width=50% alt="Choose your submit options">
 
