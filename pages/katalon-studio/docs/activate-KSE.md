@@ -35,20 +35,27 @@ First, download and open Katalon Studio. The **Katalon Studio Activation** autom
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/activate-KSE/activation.png" alt="activation" width=70%>
 
-## Activate a license with the Internet access
+## Activate a license with Internet access
 
 > Requirements:
 >
 > Owner or Admin of your Organization has added you to the **Register Users** list. See [Grant Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/use-online-license.html).
 
-To activate your license with the Internet, open Katalon Studio. The **Katalon Studio Activation** automatically pops up. Log in with the Licensed User account email and password. Click **Activate**.
+To activate your license with the Internet, do as follow:
 
-You can now use KSE, and can also reserve an available KRE license by using KRE. If you wish to use KRE but no licenses are available, contact your Org Owner or Admin.
+1. Open Katalon Studio:
+
+* If you open Katalon Studio for the first time, the **Katalon Studio Activation** dialog automatically pops up.
+
+* If you are already logged in to a Katalon account in Katalon Studio, click on the _Profile_ button and select **Deactivate**. You are now logged out and the **Katalon Studio Activation** dialog appears.
+
+2. Log in with the Licensed User account email and password. Click **Activate**.
+
+You can now use KSE, and can also reserve an available KRE license by using KRE. If you wish to use KRE but no licenses are available, contact your Organization Owner or Admin.
 
 > Notes:
 >
 > To view your current license, see [View License Details](https://docs.katalon.com/katalon-studio/docs/view-license-details.html).
-> If you already logged in to a Katalon account in Katalon Studio, click on the _Profile_ button and select **Deactivate** to log out and view the **Katalon Studio Activation** dialog.
 
 ## Activate a license while offline
 
