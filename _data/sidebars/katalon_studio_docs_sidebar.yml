@@ -25,13 +25,13 @@ items:
             url: /katalon-studio/docs/kre-devops-sunset.html
       - title: "License Administration"
         tree:
-          - title: "Purchase Katalon Licenses"
+          - title: "Purchases and Billing"
             tree:
-              - title: "Subscribe to Katalon Licenses"
+              - title: "Purchase Katalon Licenses"
                 url: /katalon-studio/docs/license-subscription.html
-              - title: "Upgrade Subscriptions"
+              - title: "Upgrade Billing Plan"
                 url: /katalon-studio/docs/upgrade-subs.html
-              - title: "Update Billing Information"
+              - title: "Change Billing Information"
                 url: /katalon-studio/docs/billing-info.html
           - title: "Manage Katalon Licenses"
             tree:
