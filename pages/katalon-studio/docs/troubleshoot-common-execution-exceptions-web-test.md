@@ -149,7 +149,7 @@ public class WebUICustomKeywords {
 }</code></pre>
 </details></li>
 <li>In a test case, use this custom keyword instead of the<code>&nbsp;Open Browser&nbsp;</code>keyword.</li>
-<li><details><summary>For example.</summary>
+<li><details><summary>For example</summary>
 <pre><code>CustomKeywords.'com.example.WebUICustomKeywords.openFirefoxBrowser'('C:\\Program Files\\Mozilla Firefox 52\\firefox.exe',
 &nbsp;'C:\\5.4\\Katalon Studio Windows 64\\configuration\\resources\\drivers\\firefox_win64\\geckodriver.exe')
 WebUI.navigateToUrl(GlobalVariable.G_SiteURL)
