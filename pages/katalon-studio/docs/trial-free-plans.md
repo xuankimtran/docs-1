@@ -1,5 +1,5 @@
 ---
-title: "Katalon Trial and Free Plans"
+title: "Trial and Free Plans"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/trial-free-plans.html
 description:
