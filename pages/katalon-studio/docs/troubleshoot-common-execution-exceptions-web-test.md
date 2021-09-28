@@ -115,9 +115,9 @@ WebElement element = WebUiCommonHelper.findWebElement(findTestObject('your/objec
 <td>In case you want Katalon Studio to use different versions besides the currently installed version, there are two ways to do it:
 <p>1. Use custom keywords. Follow these steps:</p>
 <ul>
-<li>These Firefox&nbsp;instances should be installed on your machine first.</li>
+<li>The browser&nbsp;instances you wish to use should be installed on your machine first.</li>
 <li>Create a custom keyword&nbsp;to open the browser. Press <strong>Ctrl + Shift + O</strong> to automatically import necessary packages. To learn more about creating a custom keyword, you can refer to this document here: <a href="https://docs.katalon.com/katalon-studio/docs/introduction-to-custom-keywords.html#create-a-custom-keyword">Introduction to Custom Keyword</a>.</li>
-<li><details><summary>Learn more</summary>
+<li><details><summary>For example</summary>
 <pre><code>package com.example
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.chrome.ChromeDriver
