@@ -1,13 +1,17 @@
 ---
-title: "Flutter-based application testing" 
+title: "Flutter-based application testing with SetText custom keyword" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/flutter-based-application-testing.html 
 description: 
 ---
 
+> Known issues:
+>
+> Katalon Studio partially supports Hybrid Mobile App. At the moment, Katalon Mobile Spy and Recorder doesn’t support detecting elements. You can use Mobile keywords to automatically test your app instead.
+
 Flutter is a UI toolkit for building applications for mobile, web, desktop, and embedded devices from a single codebase.
 
-You can use Mobile keywords to automate your application. However, Katalon Mobile Spy and Recorder currently cannot detect **EditText** elements in Flutter-based applications. In this tutorial, we provide a workaround to automate the Flutter-based application using a custom SetText keyword package.
+You can use Mobile keywords to automate your application. However, Katalon Mobile Spy and Recorder currently cannot detect **EditText** elements in Flutter-based applications. This tutorial provides a workaround to automatically test the Flutter-based application using a custom SetText keyword package.
 
 ## Run Flutter-based application test
 
