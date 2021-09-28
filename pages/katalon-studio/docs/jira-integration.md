@@ -139,7 +139,7 @@ Katalon Studio allows you to pull test cases from Jira and link Jira issues to K
 
    - Fill the JIRA Query Language (JQL) script of the desired test case in the **Jira JQL** box. To find out the JQL script of your test case, you can refer to the Atlassian document here: [Search for issues using JQL](https://confluence.atlassian.com/jirasoftwarecloud/advanced-searching-764478330.html)
 
-        For example: We want to import test case TDAP-46 from the Jira board. After searching for the Jira ticket using the JQL query, copy and paste the JOL script into the **Jira JQL** box:
+        For example: We want to import test cases from **TDAP** project that has **Bug** type and **Complete** status. After searching for the Jira ticket using the JQL query, copy and paste the JQL script into the **Jira JQL** box:
 
         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-JQL-query-from-Jira.png" width=90% alt="JQL query from Jira">  
 
@@ -220,9 +220,9 @@ To view test results in Jira, follow these steps:
 After a test suite execution, Katalon Studio automatically uploads the latest test result and attaches a `.zip` file that contains test reports to the linked Jira issue. 
 2. To view the test results, open the linked Jira ticket, click **Open Test Results** in the **Details** group.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Click-Open-test-results-in-the-Jira-issue.png" width=70% alt="Click on the Open test results in the Jira issue">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Open-test-results-2.png" width=70% alt="Click on the Open test results in the Jira issue">
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-see-results-of-test-case-in-the-Jira-issue.png" width=70% alt="See results of test case in the Jira issue">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-View-results-on-Jira.png" width=70% alt="See results of test case in the Jira issue">
 
     > Note
     >
