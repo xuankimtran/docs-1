@@ -1,20 +1,20 @@
 items:
   - title: "Products and Licenses"
     tree:
-      - title: "Katalon Licenses"
+      - title: "Katalon Studio Enterprise & Runtime Engine Licenses"
         tree:
           - title: "Types of Licenses"
             url: /katalon-studio/docs/license.html
-          - title: "Katalon Trial and Free Plans"
+          - title: "Trial and Free Plans"
             url: /katalon-studio/docs/trial-free-plans.html
-          - title: "View License Details"
-            url: /katalon-studio/docs/view-license-details.html
-          - title: "Machine ID"
-            url: /katalon-studio/docs/machine-id.html
           - title: "Activate Katalon License"
             url: /katalon-studio/docs/activate-license.html
           - title: "Configure Proxy Authentication"
             url: /katalon-studio/docs/configure-proxy.html
+          - title: "View License Details"
+            url: /katalon-studio/docs/view-license-details.html
+          - title: "Machine ID"
+            url: /katalon-studio/docs/machine-id.html
           - title: "Troubleshoot"
             tree:
               - title: "Session Termination Causes"
@@ -33,23 +33,21 @@ items:
                 url: /katalon-studio/docs/upgrade-subs.html
               - title: "Change Billing Information"
                 url: /katalon-studio/docs/billing-info.html
-          - title: "Manage Katalon Licenses"
+              - title: "Cancel Billing Renewal"
+                url: /katalon-studio/docs/cancel-subs.html
+          - title: "Licenses Management"
             tree:
               - title: "Manage Katalon Licenses"
                 url: /katalon-studio/docs/license-management.html
               - title: "Grant Katalon Licenses"
                 url: /katalon-studio/docs/use-online-license.html
-          - title: "Monitor Licenses"
-            tree:
               - title: "View Test Usage and Balance in the Usage Dashboard" 
                 url: /katalon-analytics/docs/test-usage-balance-usage-dashboard.html
               - title: "License Utilization Dashboard"
                 url: /katalon-studio/docs/license-utilization-dashboard.html
               - title: "Configure Idle Timeout"
                 url: /katalon-studio/docs/license-idle-timeout.html
-          - title: "Cancel Subscriptions"
-            url: /katalon-studio/docs/cancel-subs.html
-          - title: "On-Premises License Server"  
+          - title: "Set up an On-Premises License Server"  
             url: /katalon-studio/docs/license-server.html
       - title: "Katalon TestOps Subscriptions"
         tree:
