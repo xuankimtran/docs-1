@@ -14,8 +14,8 @@ Katalon Studio provides a free Jira add-on to help create a seamless integration
 * Progress tracking for better test management.
 
 > Prerequisites:
-> * Install the **Katalon Studio and TestOps integration** plugin for Jira. You can download the plugin from the Atlassian Marketplace website here: [Katalon Studio and TestOps integration](https://marketplace.atlassian.com/apps/1217501/katalon-bdd-test-automation-for-jira?hosting=cloud&tab=overview).
-> * Enable Jira Integration with Katalon TestOps. To enable Jira Integration with Katalon TestOps, follow the steps in this document: [TestOps - Jira Integration](https://docs.katalon.com/katalon-analytics/docs/kt-jira-config.html).
+> * The **Katalon Studio and TestOps integration** plugin for Jira installed. You can download the plugin from the Atlassian Marketplace website here: [Katalon Studio and TestOps integration](https://marketplace.atlassian.com/apps/1217501/katalon-bdd-test-automation-for-jira?hosting=cloud&tab=overview).
+> * Jira Integration with Katalon TestOps enabled. To enable Jira Integration with Katalon TestOps, follow the steps in this document: [TestOps - Jira Integration](https://docs.katalon.com/katalon-analytics/docs/kt-jira-config.html).
 
 ## Jira Server
 
