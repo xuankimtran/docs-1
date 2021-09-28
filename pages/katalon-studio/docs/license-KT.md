@@ -5,4 +5,4 @@ permalink: katalon-studio/docs/license-KT.html
 description:
 ---
 
-The content has been moved to [Katalon License Subscription](https://docs.katalon.com/katalon-studio/docs/license-subscription.html).
+The content has been moved to [Purchase Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license-subscription.html).

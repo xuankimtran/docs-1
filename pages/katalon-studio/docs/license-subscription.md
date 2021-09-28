@@ -1,5 +1,5 @@
 ---
-title: "Katalon License Subscription"
+title: "KPurchase Katalon Licenses"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/license-subscription.html
 redirect_from: 
