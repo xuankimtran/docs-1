@@ -13,7 +13,7 @@ items:
             url: /katalon-studio/docs/configure-proxy.html
           - title: "View License Details"
             url: /katalon-studio/docs/view-license-details.html
-          - title: "Machine ID"
+          - title: "View Machine ID"
             url: /katalon-studio/docs/machine-id.html
           - title: "Troubleshoot"
             tree:
