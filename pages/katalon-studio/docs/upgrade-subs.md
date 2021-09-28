@@ -1,5 +1,5 @@
 ---
-title: "Upgrade Subscriptions"
+title: "Upgrade Billing Plan"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/upgrade-subs.html
 description:

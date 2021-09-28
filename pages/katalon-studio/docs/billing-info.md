@@ -1,5 +1,5 @@
 ---
-title: "Manage your billing settings"
+title: "Change Billing Information"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/billing-info.html
 ---
