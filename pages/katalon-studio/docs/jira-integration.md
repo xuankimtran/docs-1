@@ -107,10 +107,10 @@ To enable Jira Integration, follow these steps:
 
 ## Execute Test Cases with Jira Integration
 
-There are three main steps to execute test cases imported from Jira in Katalon. However, if you don't want to run BDD tests or you are intergrating Jira Server with Katalon, you can skip Step 1.
-### Step 1: Import BDD custom fields (Applicable to Jira Cloud Intergration)
+There are three main steps to execute test cases imported from Jira in Katalon. However, if you don't want to run BDD tests or you are integrating Jira Server with Katalon, you can skip Step 1.
+### Step 1: Import BDD custom fields (Applicable to Jira Cloud Integration)
 
-From Katalon Studio version 7.8.0 onwards, for Jira Cloud integration, you can also import the BDD custom fields to Katalon Studio when importing BDD feature files. To learn more about adding BDD custom fields in Jira via Katlon BDD, you can refer to this document here: [Install and Use Katalon BDD custom field in Jira Cloud](https://docs.katalon.com/katalon-studio/docs/BDD-field-jira-cloud.html#prerequisites).
+From Katalon Studio version 7.8.0 onwards, you can also import the BDD custom fields to Katalon Studio when importing BDD feature files for Jira Cloud Integration. To learn more about adding BDD custom fields in Jira via Katlon BDD, you can refer to this document here: [Install and Use Katalon BDD custom field in Jira Cloud](https://docs.katalon.com/katalon-studio/docs/BDD-field-jira-cloud.html#prerequisites).
 
 Follow these steps:
 
@@ -139,7 +139,7 @@ Katalon Studio allows you to pull test cases from Jira and link Jira issues to K
 
    - Fill the JIRA Query Language (JQL) script of the desired test case in the **Jira JQL** box. To find out the JQL script of your test case, you can refer to the Atlassian document here: [Search for issues using JQL](https://confluence.atlassian.com/jirasoftwarecloud/advanced-searching-764478330.html)
 
-        For example: We want to import test cases from **TDAP** project that has **Bug** type and **Complete** status. After searching for the Jira ticket using the JQL query, copy and paste the JQL script into the **Jira JQL** box:
+        For example, we want to import test cases from the **TDAP** project with **Bug** type and **Complete** status. After searching for the Jira ticket using the JQL query, copy and paste the JQL script into the **Jira JQL** box:
 
         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-JQL-query-from-Jira.png" width=90% alt="JQL query from Jira">  
 
@@ -228,7 +228,7 @@ After a test suite execution, Katalon Studio automatically uploads the latest te
 
     > Note
     >
-    > You can quickly find the test execution status via JQL query. The syntax is as follows:
+    > You can quickly find the test execution status via the JQL query. The syntax is as follows:
     >```groovy
     >"Katalon Status"=<status>
     >```
