@@ -11,7 +11,7 @@ This section provides information on the licensing system of Katalon. You will f
 
 ## Katalon Studio Enterprise
 
-Katalon Studio provides free, basic tools suitable for the testing needs of individuals. For an advanced business solution, consider purchasing Katalon Studio Enterprise licenses. For feature comparison between KS and KSE, see [Katalon Studio vs Katalon Studio Enterprise Features](https://docs.katalon.com//katalon-studio/docs/katalon-studio-vs-katalon-studio-enterprise.html).
+Katalon Studio provides free, basic tools suitable for the testing needs of individuals. For an advanced business solution, consider purchasing Katalon Studio Enterprise licenses. For feature comparison between KS and KSE, see [Katalon Studio vs Katalon Studio Enterprise Features](https://docs.katalon.com/katalon-studio/docs/katalon-studio-vs-katalon-studio-enterprise.html).
 
 One KSE license is exclusively assigned to one Katalon account and can be activated/used on one machine at a time. Licenses are transferable. You need an internet connection to activate and validate licenses, although special rules apply to enable offline activation. See: [Create an offline license](https://docs.katalon.com/katalon-studio/docs/use-online-license.html#create#an#offline#license).
 
@@ -35,7 +35,7 @@ There are two types of licenses for KSE and KRE: node-locked and floating. Depen
 			<td>
 				<p>One license is assigned to one machine ID.</p>
 			</td>
-			<td>One license is assigned to one parallel execution session and can be shared between 3 machines.</td>
+			<td>One license is assigned to one execution session and can be shared between 3 machines.</td>
 		</tr>
 		<tr>
 			<td>
