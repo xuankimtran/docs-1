@@ -19,31 +19,31 @@ Katalon Studio provides a free Jira add-on to help create a seamless integration
 
 ## Jira Server
 
-### Gherkin custom field
-
 > Only availabe for Jira Server Version
 
-This add-on adds a custom field type to Jira called Katalon Gherkin. This custom field lets you write descriptions for your test cases and stories in Gherkin syntax. Gherkin keywords such as _Given_, _When_, _Then_ will be highlighted automatically. 
+This add-on adds a custom field type to Jira called the **Katalon Gherkin** custom field. This custom field lets you write descriptions for your test cases and stories in Gherkin syntax. Gherkin keywords such as _Given_, _When_, _Then_ will be highlighted automatically. 
 
 To create Katalon Gherkin custom field, please follow the instruction from the Atlassian document here: [Project screens, schemes and fields](https://confluence.atlassian.com/adminjiraserver071/project-screens-schemes-and-fields-802592517.html).
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/install-and-use-katalons-jira-add-on/field-config-marked.png" width=50% alt="Create the Katalon Gherkin">
 
-Once imported to Katalon Studio, the content of Katalon Gherkin field will be populated into test cases description.  
+Once imported to Katalon Studio, the content of Katalon Gherkin field is in the test cases description.  
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/TO-JIRA-View-results-on-Jira-Gherkin.png" width=70% alt="Results after linking the Katalon Gherkin">
 
 ## Jira Cloud
+
+You can also add Katalon BDD custom field into Jira ticket with Jira Cloud Intergration. Follow these steps:
 ### Create the Katalon BDD custom field
 
-+ From **Jira settings** -> Select **Issues** ->in the **FIELDS** tab, select **Custom fields -> Add custom field**.
-+ Select a Field Type: **_Text Field (multi-line)._** Remember to associate it with issue types you want.
+1. From **Jira settings** -> Select **Issues** ->in the **FIELDS** tab, select **Custom fields -> Add custom field**.
+2. Select a Field Type: **_Text Field (multi-line)._** Remember to associate it with issue types you want.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/BDD-field-Jira-Cloud/3-field-type.png" width=50% alt="Add the BDD custom field">
 
 
-+ Provide a name and its description -> **Create**.
-+ Associate the custom field to multiple screens by checkbox.
+3. In the new custom field window, provide a name and its description -> Click **Create**.
+4. Associate the custom field to multiple screens by checkbox.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/BDD-field-Jira-Cloud/4-screens.png" width=50% alt="Choose screens for the BDD custom fields">
 
@@ -65,7 +65,7 @@ To edit content in Katalon BDD  Field, click the pencil icon and write a Gherkin
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/BDD-field-Jira-Cloud/7-gherkin.png" width=50% alt="Edit the BDD field">
 
 
-### View Katalon Studio Test Execution Result on Jira
+## View Katalon Studio Test Execution Result on Jira
 
 Once Jira is integrated with Katalon Studio and the add-on is enabled in Jira Cloud, a panel called TEST RESULT inside the issue page enables users to directly view the test result. In the new view of the issue page, just click **Test Result**. The result includes the execution status (PASSED, FAILED, INCOMPLETE, ERROR) and test artifact attachments (e.g. logs, screenshots, etc.).
 
