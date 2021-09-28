@@ -15,16 +15,6 @@ description:
 
 Git is an essential system for version control. Suppose your Katalon Studio automation project involves several or more members. In that case, you should use Git or another source control system for managing change and configuration on your test project. You can share a Git repository across multiple team members to help improve the team's collaboration and productivity.
 
-Below are several benefits of using Git for your Katalon Studio projects:
-
-- Git allows undoing mistakes. The undo ability gives project teams the courage to try out ideas and concepts without worrying about the risk of breaking stuff, thus fostering a culture of innovation.
-- Git makes the team progress clearer:
-  - A commit in Git refers to a change in automation scripts that a team member makes, indicating the progress of tasks.
-  - Git supports comparing versions of code to show differences between commits. It is helpful to review a commit before it officially becomes final.
-- Git supports working offline. Being to work offline makes your team more fail-safe. Each member can perform everything on their computer, independent of possible infrastructure downtime.
-- Never losing data ever again. As daily work can be committed to the remote Git server, every team member working on a project has a full-fledged copy on their machine, including the complete change history of the project.
-- If any backup breaks down, restore it using any team member's local or Git repository.
-
 ## About Git Integration
 
 The Git integration supported in Katalon Studio is based on **EGit**. For detailed instruction, you can refer to the Eclipse Foundation document on [EGit/User Guide](http://wiki.eclipse.org/EGit/User_Guide). A typical workflow of Git integration with Katalon Studio is depicted in the following diagram:
@@ -62,7 +52,7 @@ After enabling Git Integration, you can clone an existing **Git repository** int
 
 2. The **Clone Git Repository** dialog is displayed.
 
-### Connecting to Git with HTTPS
+### Connect to Git with HTTPS
 
 To let Katalon Studio get details about your repository, enter all required information and click **Next**.
 
@@ -89,6 +79,8 @@ If you cannot access the repository after clicking **Next**, the connection migh
 ```groovy
 git config --global http.sslVerify false
 ```
+
+### Connect to Git with SSH Keys
 
 To connect to Git with SSH keys, see [Git Integration Authentication with SSH Keys](https://docs.katalon.com/katalon-studio/docs/git-integration-authenticattion.html).
 
@@ -256,7 +248,7 @@ Before doing any push, you have to commit your changes first.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/git_conflict_resolve/Resolve-Git-conflict-2.png" alt="git conflict 3" width=70%>
 
-- Unfortunately, since Emma had pushed the code before Tom, so the version of code in Git was different from the version of code in Tom's local repository.Therefore, Git rejected Tom's push action.
+- Unfortunately, since Emma had pushed the code before Tom, so the version of code in Git was different from the version of code in Tom's local repository. Therefore, Git rejected Tom's push action.
 
 **Question: What should Tom do to push its change to the Git remote control?**
 
@@ -284,7 +276,7 @@ Before doing any push, you have to commit your changes first.
 
 ### Best practices
 
-In order to minimize the conflict in a team having more than one member, you should define a process from the very beginning so that all team members are on the same page when using Git.
+To minimize the conflict in a team having more than one member, you should define a process from the very beginning so that all team members are on the same page when using Git.
 
 Below are some suggestions for good practices:
 
