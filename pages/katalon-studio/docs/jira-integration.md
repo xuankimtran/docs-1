@@ -158,11 +158,11 @@ Katalon Studio allows you to pull test cases from Jira and link Jira issues to K
 
     > Notice:
     >
-    > If your test cases have already been linked to a JIRA ticket, you can not sync them again.
+    > If you have imported a test case from a JIRA ticket, you can not do it again.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Link-the-JIRA-issue.png" width=40% alt="Link the Jira issue">
 
-    Katalon opens a new test case with:
+    As the result, Katalon opens a new test case with:
 
     <table width="886">
     <tbody>
@@ -209,6 +209,8 @@ Katalon Studio allows you to pull test cases from Jira and link Jira issues to K
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Final-results-after-importing-test-cases.png" width=70% alt="Final results after importing test cases">
 
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Results-after-importing-BDD-feature-files.png" width=70% alt="Final results after importing BDD feature files">
+
 ### Step 3: Run the test case
 
 After importing the test case from Jira, you can continue to add additional steps in the test case for your purpose. Then hit **Run** to run the test case.
@@ -226,7 +228,7 @@ After a test suite execution, Katalon Studio automatically uploads the latest te
 
     > Note
     >
-    > You can quickly find the test execution status via JQL. The syntax is as follows:
+    > You can quickly find the test execution status via JQL query. The syntax is as follows:
     >```groovy
     >"Katalon Status"=<status>
     >```
