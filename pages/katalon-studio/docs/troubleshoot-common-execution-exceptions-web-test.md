@@ -46,13 +46,13 @@ On the main toolbar, select <strong>Tool &gt;&nbsp;Update WebDrivers&nbsp;&gt; s
 <li>Open your test object in Katalon Studio &gt;&nbsp;update XPath property with the copied value.</li>
 </ul>
 </li>
-<li><a href="https://docs.katalon.com/katalon-studio/docs/optimizing-object-identification-and-tools.html">Optimize object identification and tools.</a></li>
+<li>You can also try optimizing your Test Object properties by referring to this document here:<a href="https://docs.katalon.com/katalon-studio/docs/optimizing-object-identification-and-tools.html"> Optimize object identification and tools.</a></li>
 </ol>
 </td>
 </tr>
 <tr>
 <td>selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted.</td>
-<td>Add the <a href="display/KD/%5BWebUI%5D+Wait+For+Element+Visible">Wait For Element Visible</a> step before the one having this issue. For example:
+<td>Add the <code>Wait For Element Visible</code> keyword before the one having this issue. To learn more about the <code>Wait For Element Visible</code> keyword, you can refer to this document here: <a href="https://docs.katalon.com/katalon-studio/docs/webui-wait-for-element-visible.html"> [WebUI] Wait For Element Visible</a>. For example:
 <pre><code>WebUI.openBrowser('http://demoaut.katalon.com')
 WebUI.waitForElementVisible(findtestObject('btn_Login'),30)<br />WebUI.click(findTestObject('btn_Login'))</code></pre>
 </td>
@@ -72,7 +72,7 @@ WebElement element = WebUiCommonHelper.findWebElement(findTestObject('your/objec
 <tr>
 <td>org.openqa.selenium.WebDriverException: Element is not clickable at point (x, y). Other elements would receive the click: ...</td>
 <td>
-<p>Click on the element using <a href="/display/KD/%5BWebUI%5D+Execute+JavaScript">Javascript</a> instead.</p>
+<p>Click on the element using the <code>Execute Javascript</code> keyword instead. To learn more about the <code>Javascript</code> keyowrd, you can refer to this document here: <a href="https://docs.katalon.com/katalon-studio/docs/webui-execute-javascript.html#description-"> [WebUI] Execute JavaScript</a>. For example:</p>
 <pre><code>import com.kms.katalon.core.webui.common.WebUiCommonHelper
 WebElement element = WebUiCommonHelper.findWebElement(findTestObject('your/object'),30)<br />WebUI.executeJavaScript("arguments[0].click", Arrays.asList(element))</code></pre>
 </td>
@@ -81,7 +81,7 @@ WebElement element = WebUiCommonHelper.findWebElement(findTestObject('your/objec
 <td>Timed out waiting for the driver server to start.</td>
 <td>
 <ul>
-<li>Download correct Edge driver from this page:&nbsp;<a href="https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/">https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/</a>&nbsp;based on your OS build (Go to&nbsp;<strong>Start</strong>&nbsp;&gt;&nbsp;<strong>Settings</strong>&nbsp;&gt;&nbsp;<strong>System</strong>&nbsp;&gt;&nbsp;<strong>About</strong>&nbsp;and locate the number next to OS Build on the screen).</li>
+<li>Download the correct Edge driver from the Microsoft website here:&nbsp;<a href="https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/">Microsoft Edge Driver </a>based on your OS build (Go to&nbsp;<strong>Start</strong>&nbsp;&gt;&nbsp;<strong>Settings</strong>&nbsp;&gt;&nbsp;<strong>System</strong>&nbsp;&gt;&nbsp;<strong>About</strong>&nbsp;and locate the number next to OS Build on the screen).</li>
 <li>Copy downloaded Edge driver and replace it in existing edgedriver&nbsp;folder of Katalon Studio. For example:&nbsp;<strong>C:\\Katalon\_Studio\_Windows_64-4.8\\configuration\\resources\\drivers\\edgedriver</strong></li>
 </ul>
 </td>
@@ -90,15 +90,16 @@ WebElement element = WebUiCommonHelper.findWebElement(findTestObject('your/objec
 <td>Unable to record on Internet Explorer.</td>
 <td>
 <ul>
-<li>Open 'Manage Add-ons' in Internet Explorer: <a href="https://support.microsoft.com/en-us/help/17447/windows-internet-explorer-11-manage-add-ons">https://support.microsoft.com/en-us/help/17447/windows-internet-explorer-11-manage-add-ons</a>.</li>
-<li>Enable the RecorderExtension.RecorderBHO. <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/troubleshooting-web-automated-testing/image2017-10-27-163A293A17.png" alt="" width="85%" /></li>
+<li>Open Internet Explorer, select the <strong>Tools</strong> button, and then select <strong> Manage add-ons</strong>.</li>
+<li>Under <strong>Show</strong>, select <strong>All add-ons</strong>.</li>
+<li>Select the <strong>RecorderExtension.RecorderBHO</strong>, <strong>Enable,</strong> and then select <strong>Close</strong>. <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/troubleshooting-web-automated-testing/image2017-10-27-163A293A17.png" alt="" width="85%" /></li>
 </ul>
 </td>
 </tr>
 <tr>
 <td>Unable to connect to Katalon server.</td>
 <td>
-<p>Allow the following .exe files to communicate through Windows Firewall. To learn more about allowing apps through Windows firewall, you can refer to the Microsoft document here: <a href="https://support.microsoft.com/en-us/windows/risks-of-allowing-apps-through-windows-defender-firewall-654559af-3f54-3dcf-349f-71ccd90bcc5c">Risks of allowing apps through Windows Defender Firewall</a>.</p>
+<p>Allow the following .exe files to communicate through Windows Firewall. To learn more about allowing apps through Windows Firewall, you can refer to the Microsoft document here: <a href="https://support.microsoft.com/en-us/windows/risks-of-allowing-apps-through-windows-defender-firewall-654559af-3f54-3dcf-349f-71ccd90bcc5c">Risks of allowing apps through Windows Defender Firewall</a>.</p>
 <ul>
 <li>geckodriver.exe</li>
 <li>chromedriver.exe</li>
@@ -112,12 +113,11 @@ WebElement element = WebUiCommonHelper.findWebElement(findTestObject('your/objec
 <tr>
 <td>Use different browser versions.</td>
 <td>In case you want Katalon Studio to use different versions besides the currently installed version, there are two ways to do it:
-<ol>
-<li>Use custom keywords.</li>
-<li>
+<p>1. Use custom keywords. Follow these steps:</p>
 <ul>
 <li>These Firefox&nbsp;instances should be installed on your machine first.</li>
-<li>Create a <a href="/display/KD/Define+custom+keywords">custom keyword</a>&nbsp;to open the browser. Press Ctrl + Shift + O to automatically import necessary packages. <details><summary>Learn more.</summary>
+<li>Create a custom keyword&nbsp;to open the browser. Press <strong>Ctrl + Shift + O</strong> to automatically import necessary packages. To learn more about creating a custom keyword, you can refer to this document here: <a href="https://docs.katalon.com/katalon-studio/docs/introduction-to-custom-keywords.html#create-a-custom-keyword">Introduction to Custom Keyword</a>.</li>
+<li><details><summary>Learn more</summary>
 <pre><code>package com.example
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.chrome.ChromeDriver
@@ -148,17 +148,15 @@ public class WebUICustomKeywords {
 &nbsp;}
 }</code></pre>
 </details></li>
-<li>In a test case, <strong>use this custom keyword instead of 'Open Browser' keyword</strong>. <details><summary>For example.</summary>
+<li>In a test case, use this custom keyword instead of the<code>&nbsp;Open Browser&nbsp;</code>keyword.</li>
+<li><details><summary>For example.</summary>
 <pre><code>CustomKeywords.'com.example.WebUICustomKeywords.openFirefoxBrowser'('C:\\Program Files\\Mozilla Firefox 52\\firefox.exe',
 &nbsp;'C:\\5.4\\Katalon Studio Windows 64\\configuration\\resources\\drivers\\firefox_win64\\geckodriver.exe')
 WebUI.navigateToUrl(GlobalVariable.G_SiteURL)
 WebUI.click(findTestObject('Page_CuraHomepage/btn_MakeAppointment'))</code></pre>
 </details></li>
-<li>Downgrade browser's version: Another approach is to downgrade your current browser's version to a version you want. If you want to use a very old version of your current browser, you may need to downgrade or upgrade browser drivers as well as Selenium WebDriver, please refer to this <a href="https://docs.katalon.com/katalon-studio/docs/upgrade-or-downgrade-webdrivers.html">guide</a>.</li>
 </ul>
-</li>
-</ol>
-</td>
+2. Downgrade browser version: Another approach is to downgrade your current browser's version to a version you want. If you want to use a very old version of your current browser, you may need to downgrade or upgrade browser drivers as well as Selenium WebDriver, you can refer to this document here: <a href="https://docs.katalon.com/katalon-studio/docs/upgrade-or-downgrade-webdrivers.html">Update or Downgrade WebDrivers</a>.</td>
 </tr>
 </tbody>
 <tbody>
@@ -167,7 +165,6 @@ WebUI.click(findTestObject('Page_CuraHomepage/btn_MakeAppointment'))</code></pre
 <td>
 <p>1.&nbsp;If the test case fails because there is another object covering the target element, for example, a pop-up dialog, you can add actions to remove the object before the <strong>Click </strong>action.</p>
 <p>2. From Katalon version 8.2.0 onwards, if the <strong>Default wait for element timeout</strong> setting is not long enough for Katalon to click on the target element behind an overlay, you can add the <code>WebUI.waitForElementClickable</code> keyword before the <strong>Click</strong> action. To learn more about using the <code>WebUI.waitForElementClickable</code> keyword, you can refer to this document here:&nbsp;<a href="https://docs.katalon.com/katalon-studio/docs/webui-wait-for-element-clickable.html#description">[WebUI] Wait For Element Clickable.</a></p>
-
 &nbsp;</td>
 </tr>
 </tbody>
