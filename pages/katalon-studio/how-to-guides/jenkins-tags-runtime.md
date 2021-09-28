@@ -16,7 +16,7 @@ This tutorial will guide you through how to set your scenario tags to be execute
 
 ### Create Global Variables
 
-You can change Global Variable values during runtime without affecting other Test Suites. Therefore, using a Global Variable as a parameter in the keyword `runFeatureFolderWithTags` can save your time when you have many tags to manage.
+You can change Global Variable values in a Test Suite during runtime without affecting other Test Suites. Therefore, using a Global Variable as a parameter in the keyword `runFeatureFolderWithTags` can save your time when you have many tags to manage.
 
 1. In the **Tests Explorer**, go to **Profiles** to open your desired Profiles. Click **Add** to create a Global Variable which values are tags. See [Global Variables](https://docs.katalon.com/katalon-studio/docs/execution-profile-v54.html#global-variables).
 
@@ -37,7 +37,7 @@ You can change Global Variable values during runtime without affecting other Tes
     >
     > To learn more about this keyword, see [[Cucumber] Run Feature Folder with Tags](https://docs.katalon.com/katalon-studio/docs/cucumber-kw-run-feature-folder-tag.html).
 
-3. Add this test case to a test suite and execute it from Jenkins. You can choose feature files stored in a folder to run with your desired tags values.
+3. Add this test case to a test suite and execute it from Jenkins. With the Global Variable created, you can choose which feature files folder to run with your desired tags values.
 
 ### Update Global Variables during runtime
 
