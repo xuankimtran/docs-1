@@ -973,7 +973,7 @@ items:
             url: /katalon-studio/docs/introduction-to-custom-keywords.html
           - title: "Sample Custom Keywords"
             url: /katalon-studio/docs/sample-custom-keywords.html
-          - title: "Flutter-based application testing"
+          - title: "Flutter-based application testing with SetText custom keyword"
             url: /katalon-studio/docs/flutter-based-application-testing.html
           - title: "Import/Export Keywords"
             url: /katalon-studio/docs/importexport-keywords.html
