@@ -14,7 +14,7 @@ Katalon Studio provides a free Jira add-on to help create a seamless integration
 * Progress tracking for better test management.
 
 > Prerequisites:
-> * Install Katalon Studio and TestOps integration for Jira. You can download the plugin from the Atlassian Marketplace website here: [Katalon Studio and TestOps integration](https://marketplace.atlassian.com/apps/1217501/katalon-bdd-test-automation-for-jira?hosting=cloud&tab=overview).
+> * Install the **Katalon Studio and TestOps integration** plugin for Jira. You can download the plugin from the Atlassian Marketplace website here: [Katalon Studio and TestOps integration](https://marketplace.atlassian.com/apps/1217501/katalon-bdd-test-automation-for-jira?hosting=cloud&tab=overview).
 > * Enable Jira Integration with Katalon TestOps. To enable Jira Integration with Katalon TestOps, follow the steps in this document: [TestOps - Jira Integration](https://docs.katalon.com/katalon-analytics/docs/kt-jira-config.html).
 
 ## Jira Server
@@ -27,7 +27,7 @@ This add-on adds a custom field type to Jira called Katalon Gherkin. This custom
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/install-and-use-katalons-jira-add-on/katalon-jira-plugin-1-field-marked.png)  
  
-To create Katalon Gherkin custom field, please follow [Atlassian's instruction](https://confluence.atlassian.com/adminjiraserver071/project-screens-schemes-and-fields-802592517.html).
+To create Katalon Gherkin custom field, please follow the instruction from the Atlassian document here: [Project screens, schemes and fields](https://confluence.atlassian.com/adminjiraserver071/project-screens-schemes-and-fields-802592517.html).
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/install-and-use-katalons-jira-add-on/field-config-marked.png)
 
