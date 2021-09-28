@@ -154,7 +154,7 @@ Katalon Studio allows you to pull test cases from Jira and link Jira issues to K
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Choose-the-des-for-Jira-test-cases.png" width=40% alt="Choose the destination for Jira test cases">
 
-4. In the **Jira Issues** dialog, click **OK**. 
+4. In the **Jira Issues** dialog, click **OK** to import the test case from Jira.
 
     > Notice:
     >
@@ -167,7 +167,7 @@ Katalon Studio allows you to pull test cases from Jira and link Jira issues to K
     <table width="886">
     <tbody>
     <tr>
-    <td>Test Case Name</td>
+    <td><b>Test Case Name</b></td>
     <td>
     <div>
     <div>Jira ticket's summary/subject</div>
@@ -177,7 +177,7 @@ Katalon Studio allows you to pull test cases from Jira and link Jira issues to K
     <tr>
     <td>
     <div>
-    <div>Test Description</div>
+    <div><b>Test Description</b></div>
     </div>
     </td>
     <td>
