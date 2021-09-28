@@ -27,7 +27,7 @@ items:
         tree:
           - title: "Purchase Katalon Licenses"
             tree:
-              - title: "Katalon License Subscription"
+              - title: "Subscribe to Katalon Licenses"
                 url: /katalon-studio/docs/license-subscription.html
               - title: "Upgrade Subscriptions"
                 url: /katalon-studio/docs/upgrade-subs.html
