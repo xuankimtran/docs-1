@@ -85,13 +85,15 @@ You can find the detailed permissions for each role in the following table:
 			</td>
 			<td rowspan="2">
 				<ul>
-					<li>View and export data</li>
+					<li>View license usage</li>
+					<li>Filter license usage by users, machineID and license type</li>
+					<li>Export license usage under .csv format</li>
 				</ul>
 			</td>
 			<td rowspan="3">
 				<ul>
-					<li>View Dashboard</li>
-					<li>Export data</li>
+					<li>View TestOps test executions usage</li>
+					<li>Export usage dashboard under .csv format</li>
 				</ul>
 			</td>
 		</tr>
@@ -150,9 +152,7 @@ You can find the detailed permissions for each role in the following table:
 				<p>No access</p>
 			</td>
 			<td>
-				<p>No access</p>
-				<br /><br />
-				<p></p>
+				<p>No access&nbsp;</p>
 			</td>
 			<td>
 				<p>No access</p>
