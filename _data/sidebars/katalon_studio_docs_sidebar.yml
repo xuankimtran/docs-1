@@ -1221,6 +1221,8 @@ items:
                 url: /katalon-studio/docs/jenkins-plugin-windows.html
               - title: "On Ubuntu"
                 url: /katalon-studio/docs/jenkins-plugin-ubuntu.html
+              - title: "Passing scenario tags at runtime when building with Jenkins"
+                url: /katalon-studio/how-to-guides/jenkins-tags-runtime.html  
           - title: "Bamboo Add-on"
             url: /katalon-studio/docs/bamboo-addon.html
           - title: "Azure DevOps Extension"
