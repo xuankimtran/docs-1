@@ -92,7 +92,7 @@ WebElement element = WebUiCommonHelper.findWebElement(findTestObject('your/objec
 <ul>
 <li>Open Internet Explorer, select the <strong>Tools</strong> button, and then select <strong> Manage add-ons</strong>.</li>
 <li>Under <strong>Show</strong>, select <strong>All add-ons</strong>.</li>
-<li>Select the <strong>RecorderExtension.RecorderBHO</strong>, <strong>Enable,</strong> and then select <strong>Close</strong>. <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/troubleshooting-web-automated-testing/image2017-10-27-163A293A17.png" alt="" width="85%" /></li>
+<li>Select the <strong>RecorderExtension.RecorderBHO</strong> add-on, <strong>Enable,</strong> and then select <strong>Close</strong>. <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/troubleshooting-web-automated-testing/image2017-10-27-163A293A17.png" alt="Select the RecorderExtension.RecorderBHO add-on" width="70%" /></li>
 </ul>
 </td>
 </tr>
@@ -106,7 +106,7 @@ WebElement element = WebUiCommonHelper.findWebElement(findTestObject('your/objec
 <li>iedriverserver.exe</li>
 </ul>
 <p>These executable files can be located in: <strong>&lt;Katalon Studio folder&gt;\\configuration\\resources\\drivers</strong>.</p>
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/troubleshooting-web-automated-testing/Screen-Shot-2018-04-24-at-13.51.51.png" alt="" width="85%" /><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/troubleshooting-web-automated-testing/Screen-Shot-2018-04-24-at-13.51.41.png" alt="" width="85%" />
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/troubleshooting-web-automated-testing/Screen-Shot-2018-04-24-at-13.51.51.png" alt="Allowing chromedriver.exe through Window FireWal" width="70%" /><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/troubleshooting-web-automated-testing/Screen-Shot-2018-04-24-at-13.51.41.png" alt="" width="70%" />
 <p>You may also need to add Google Chrome (chrome.exe) and Firefox (firefox.exe) in the worst case if your current Windows Firewall blocks them as well.</p>
 </td>
 </tr>
@@ -156,7 +156,7 @@ WebUI.navigateToUrl(GlobalVariable.G_SiteURL)
 WebUI.click(findTestObject('Page_CuraHomepage/btn_MakeAppointment'))</code></pre>
 </details></li>
 </ul>
-2. Downgrade browser version: Another approach is to downgrade your current browser's version to a version you want. If you want to use a very old version of your current browser, you may need to downgrade or upgrade browser drivers as well as Selenium WebDriver, you can refer to this document here: <a href="https://docs.katalon.com/katalon-studio/docs/upgrade-or-downgrade-webdrivers.html">Update or Downgrade WebDrivers</a>.</td>
+1. Downgrade browser version: Another approach is to downgrade your current browser's version to a version you want. If you want to use a very old version of your current browser, you may need to downgrade or upgrade browser drivers as well as Selenium WebDriver, you can refer to this document here: <a href="https://docs.katalon.com/katalon-studio/docs/upgrade-or-downgrade-webdrivers.html">Update or Downgrade WebDrivers</a>.</td>
 </tr>
 </tbody>
 <tbody>
