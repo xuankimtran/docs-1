@@ -79,7 +79,7 @@ Go to the **User Management** page and click on the **Removed Users** tab.
 
 > Notes:
 >
-> By default, the list is sorted by **JOIN DATE** or **FULL NAME**.
+> By default, the list is sorted by **JOIN DATE**.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-invite-user-org/k1-removed-users-tab.png" width=100% alt="removed users tab">
 
