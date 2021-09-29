@@ -6,11 +6,11 @@ redirect_from:
 description:
 ---
 
-You can use mobile keywords to automate your app, but our Mobile Spy/Recorder utility does not detect hybrid mobile elements. This tutorial provides a solution to capture hybrid mobile elements with Appium and Chrome Devtools under the control of Android WebView. You can learn more about Android WebView functionalities from the Android developer documentation here: [WebView](https://developer.android.com/reference/android/webkit/WebView).
+Katalon Mobile Recorder/Spy utility can detect elements in hybrid app rendered as native app, but cannot as Webview. This tutorial provides a solution to capture Android hybrid mobile elements in WebView with Appium and Chrome Devtools. You can learn more about Android WebView functionalities from the Android developer documentation here: [WebView](https://developer.android.com/reference/android/webkit/WebView).
 
 Do as follows:
 
-1. Enable WebView debugging in your Android app. To enable this, set the `setWebContentsDebuggingEnabled` property on the `android.webkit.WebView` element to `true`. You can learn more about configuring WebView for debugging from the Chrome developer documentation here: [Automating hybrid Android apps](https://developer.chrome.com/docs/devtools/remote-debugging/webviews/).
+1. Enable WebView debugging in your Android app. To enable this, set the `setWebContentsDebuggingEnabled` property on the `android.webkit.WebView` element to `true`. You can learn more about configuring WebView for debugging from the Chrome developer documentation here: [Remote debugging WebViews](https://developer.chrome.com/docs/devtools/remote-debugging/webviews/).
    
 2. Download and install Chromedriver for Appium. You can download it from the Appium website: [Chromedriver](http://appium.io/docs/en/writing-running-appium/web/chromedriver/#chromedriverchrome-compatibility). Make sure to download the compatible version with Chrome on your testing devices. 
 
@@ -104,3 +104,7 @@ Do as follows:
    Mobile.switchToNative()
 
    ```
+
+   ## See also
+
+   * [Flutter-based application testing with SetText custom keyword](https://docs.katalon.com/katalon-studio/docs/flutter-based-application-testing.html)
