@@ -5,6 +5,8 @@ items:
         tree:
           - title: "Types of Licenses"
             url: /katalon-studio/docs/license.html
+          - title: "Katalon Studio vs Katalon Studio Enterprise Features"
+            url: /katalon-studio/docs/katalon-studio-vs-katalon-studio-enterprise.html
           - title: "Trial and Free Plans"
             url: /katalon-studio/docs/trial-free-plans.html
           - title: "Activate Katalon License"
