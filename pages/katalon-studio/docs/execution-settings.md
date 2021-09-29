@@ -313,9 +313,12 @@ From version 7.7.0 onwards, you can customize Email Settings with Global Variabl
 
 The below section guides you on how to do that with a usage example.
 
-> Notes:
+> **Scope of application**:
 >
-> When sending email reports on Test Suite Collection, only the Global Variables in the default profile are applied. This is because Test Suites included in your Test Suite Collection can have different execution profiles, and Global Variables defined in a Test Suite do not affect other Test Suites.
+> * When sending email reports on a Test Suite, the Global Variables in the Execution Profile are applied.
+> * When sending email reports on a Test Suite Collection:
+>   * For the Test Suite Collection: only the Global Variables in the default profile are applied.
+>   * For Test Suites contained in that Test Suite Collection: the Global Variables in each Execution Profile are still applied.
 
 1. [Define a Global Variable](https://docs.katalon.com/katalon-studio/docs/execution-profile-v54.html#define-a-global-variable) in your Execution Profile.
 
