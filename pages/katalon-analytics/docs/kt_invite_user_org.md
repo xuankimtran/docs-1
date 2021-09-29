@@ -157,8 +157,8 @@ As an Owner or Admin, you can change the role of an existing member by following
     > Notes:
     >
     > * Organization members can have different roles in different teams.
-    > * The **Billing Manager** role is only available at the Organization level.
-
+    > * The **Billing Manager** cannot be added to Teams or Projects.
+    
 ### Export Users list
 
 1. Go to the **User Management** page.
