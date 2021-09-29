@@ -92,7 +92,7 @@ WebElement element = WebUiCommonHelper.findWebElement(findTestObject('your/objec
 <ul>
 <li>Open Internet Explorer, select the <strong>Tools</strong> button, and then select <strong> Manage add-ons</strong>.</li>
 <li>Under <strong>Show</strong>, select <strong>All add-ons</strong>.</li>
-<li>Select the <strong>RecorderExtension.RecorderBHO</strong> add-on, <strong>Enable,</strong> and then select <strong>Close</strong>. <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/troubleshooting-web-automated-testing/image2017-10-27-163A293A17.png" alt="Select the RecorderExtension.RecorderBHO add-on" width="70%" /></li>
+<li>Select the <strong>RecorderExtension.RecorderBHO</strong> add-on, <strong>Enable,</strong> and then select <strong>Close</strong>. <p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/troubleshooting-web-automated-testing/image2017-10-27-163A293A17.png" alt="Select the RecorderExtension.RecorderBHO add-on" width="60%" /></p></li>
 </ul>
 </td>
 </tr>
@@ -106,7 +106,7 @@ WebElement element = WebUiCommonHelper.findWebElement(findTestObject('your/objec
 <li>iedriverserver.exe</li>
 </ul>
 <p>These executable files can be located in: <strong>&lt;Katalon Studio folder&gt;\\configuration\\resources\\drivers</strong>.</p>
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/troubleshooting-web-automated-testing/Screen-Shot-2018-04-24-at-13.51.51.png" alt="Allowing chromedriver.exe through Window FireWal" width="70%" /><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/troubleshooting-web-automated-testing/Screen-Shot-2018-04-24-at-13.51.41.png" alt="" width="70%" />
+<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/troubleshooting-web-automated-testing/Screen-Shot-2018-04-24-at-13.51.51.png" alt="Allowing chromedriver.exe through Window FireWal" width="60%" /></p><p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/troubleshooting-web-automated-testing/Screen-Shot-2018-04-24-at-13.51.41.png" alt="" width="60%" /></p>
 <p>You may also need to add Google Chrome (chrome.exe) and Firefox (firefox.exe) in the worst case if your current Windows Firewall blocks them as well.</p>
 </td>
 </tr>
