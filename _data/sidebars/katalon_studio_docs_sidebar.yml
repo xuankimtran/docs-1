@@ -1289,6 +1289,8 @@ items:
         url: /katalon-analytics/docs/testops-releases-2021.html
       - title: "Get Started"  
         tree:
+          - title: "Roles and permissions" 
+            url: /katalon-analytics/docs/testops-roles-privileges.html 
           - title: "Set up an account"
             url: /katalon-analytics/docs/getting-started.html  
           - title: "Create Organization and Project"
