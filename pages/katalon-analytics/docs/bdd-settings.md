@@ -39,13 +39,13 @@ You can also add Katalon BDD custom field into Jira ticket with Jira Cloud Inter
 1. From **Jira settings** -> Select **Issues** ->in the **FIELDS** tab, select **Custom fields -> Add custom field**.
 2. Select a Field Type: **_Text Field (multi-line)._** Remember to associate it with issue types you want.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/BDD-field-Jira-Cloud/3-field-type.png" width=50% alt="Add the BDD custom field">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/BDD-field-Jira-Cloud/3-field-type.png" width=50% alt="Add the BDD custom field">
 
 
 3. In the new custom field window, provide a name and its description -> Click **Create**.
 4. Associate the custom field to multiple screens by checkbox.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/BDD-field-Jira-Cloud/4-screens.png" width=50% alt="Choose screens for the BDD custom fields">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/BDD-field-Jira-Cloud/4-screens.png" width=50% alt="Choose screens for the BDD custom fields">
 
 ### Enable the Katalon add-on and custom field
 

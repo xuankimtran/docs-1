@@ -90,11 +90,11 @@ To enable Jira Integration, follow these steps:
 
     | Field | Description |
     | --- | --- |
-    | Default JIRA Project | The default JIRA project to submit tickets. |
-    | Default JIRA Issue Type | The default JIRA Issue type to create when submitting tickets. |
-    | Use Test Case name as Summary for JIRA ticket | To use the test case name as a summary for submitted tickets. |
-    | Attach Screenshot to JIRA ticket | To include taken screenshots during test execution in submitted tickets. |
-    | Attach Log to JIRA ticket | To include the execution log in submitted tickets. |
+    | Default Jira Project | The default Jira project to submit tickets. |
+    | Default Jira Issue Type | The default Jira issue type to create when submitting tickets. |
+    | Use Test Case name as Summary for Jira ticket | To use the test case name as a summary for submitted tickets. |
+    | Attach Screenshot to Jira ticket | To include taken screenshots during test execution in submitted tickets. |
+    | Attach Log to Jira ticket | To include the execution log in submitted tickets. |
 
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Submit-Options.png" width=50% alt="Submit Options">
@@ -219,7 +219,7 @@ After importing the test case from Jira, you can continue to add additional step
 
 To view test results in Jira, follow these steps:
 1. Add the associated test cases to a test suite. 
-After a test suite execution, Katalon Studio automatically uploads the latest test result and attaches a `.zip` file that contains test reports to the linked Jira issue. 
+After a test suite execution, Katalon Studio automatically uploads the latest test result and attaches a `.zip` file that contains test reports to the linked Jira ticket. 
 2. To view the test results, open the linked Jira ticket, click **Open Test Results** in the **Details** group.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Open-test-results-2.png" width=70% alt="Click on the Open test results in the Jira issue">
@@ -249,7 +249,7 @@ Follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Choose-your-submit-options.png" width=50% alt="Choose your submit options">
 
-    The ticket submission options include:
+    The issue submission options include:
 
     <table>
     <thead>
@@ -262,11 +262,11 @@ Follow these steps:
     <tbody>
     <tr>
     <td>Create as New</td>
-    <td>To create a new ticket on Jira.</td>
+    <td>To create a new issue on Jira.</td>
     <td>
     <p>After choosing this option:</p>
     <p>1. A&nbsp;<strong>JIRA native submission form </strong>opens in the pop-up browser<strong>.&nbsp;</strong>You might be prompted to sign in to your Atlassian account. You only have to do this once.</p>
-    <p>2 After signing in, fill in the&nbsp;<strong>JIRA native submission form&nbsp;</strong>to submit the ticket.</p>
+    <p>2 After signing in, fill in the&nbsp;<strong>JIRA native submission form&nbsp;</strong>to submit the issue.</p>
     </td>
     </tr>
     <tr>
@@ -275,9 +275,9 @@ Follow these steps:
     <td>
     <p>After choosing this option:</p>
     <p>1. A <strong>Create as JIRA Sub Task </strong>dialog opens. Fill in the&nbsp;<strong>ID</strong>&nbsp;of an existing Jira issue to create a sub-task within. Click&nbsp;<strong>OK&nbsp;</strong>to open&nbsp;<strong>JIRA native submission form.</strong></p>
-    <p><strong><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Create-as-sub-task.png" alt="Create a sub ticket" /></strong></p>
+    <p><strong><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Create-as-sub-task.png" alt="Create a sub task" /></strong></p>
     <p>2. You might be prompted to sign in to your Atlassian account. You only have to do this once.</p>
-    <p>- After signing in, fill in the&nbsp;<strong>JIRA native submission form&nbsp;</strong>to submit the ticket.</p>
+    <p>- After signing in, fill in the&nbsp;<strong>JIRA native submission form&nbsp;</strong>to submit the issue.</p>
     </td>
     </tr>
     <tr>
@@ -286,7 +286,7 @@ Follow these steps:
     <td>
     <p>After choosing this option:&nbsp;</p>
     <p>- A <strong>Link to JIRA Issue</strong> dialog opens. Fill in the&nbsp;<strong>ID</strong>&nbsp;of an existing Jira issue. Click&nbsp;<strong>OK.&nbsp;</strong>The test case execution files&nbsp;will be attached to the linked JIRA Issue.</p>
-    <p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Create-a-linked-ticket.png" alt="Create a linked ticket" /></p>
+    <p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Create-a-linked-ticket.png" alt="Create a linked issue" /></p>
     </td>
     </tr>
     </tbody>
