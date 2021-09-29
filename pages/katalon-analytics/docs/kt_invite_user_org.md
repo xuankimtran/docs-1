@@ -25,11 +25,11 @@ Follow these steps:
 
 1. Click on the **Settings** icon at the top right corner of the TestOps homepage and choose **User Management**.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-invite-user-org/kt-june-invite-user-org-1.png" width=100% alt="kt settings">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-invite-user-org/k1-user-mgt-settings.png" width=100% alt="kt settings">
 
     The **User Management** page appears as below.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-invite-user-org/k1-user-mgt-new-ui.png" width=100% alt="new ui user mgt page">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-invite-user-org/k1-user-mgt-page-new-ui.png" width=100% alt="new ui user mgt page">
 
 2. Click **Invite Users** at the top right corner.
 
@@ -45,7 +45,7 @@ Alternatively, you can copy the activation link in the **Pending Invitation** se
 
 > Notes:
 >
-> The default role for team members is Member. After joining your Organization, the new users are not yet part of a team. You have to add them to a team so that they can gain access to a project.
+> The default role for team members is Member, you can change this role later anytime.
 
 ## Manage Users
 
@@ -69,11 +69,15 @@ Once your team members have accepted the invitations to join your organization, 
 
 Go to the **User Management** page and click on the **Pending Invitation** tab.
 
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-invite-user-org/k1-pending-invitation-tab.png" width=100% alt="pending invitation tab">
+
 You can check all pending invitations here.
 
 ### View the removed users list
 
 Go to the **User Management** page and click on the **Removed Users** tab.
+
+<img src="https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/testops-revamp-june-invite-user-org/k1-removed-users-tab.png" width=100% alt="removed users tab">
 
 You can view a full list of users you have removed from your organization.
 
@@ -97,7 +101,7 @@ In the **Removed Users** section, use the search bar if you want to find the use
 
     The **Revoke Invitation** box pops up.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-invite-user-org/revoke-invitation-popup.png" width=100% alt="revoke invitation popup">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-invite-user-org/k1-revoke-invitation-popup.png" width=100% alt="revoke invitation popup">
 
 4. Double check the email addresses, then click **Revoke**.
 
@@ -115,7 +119,7 @@ You have revoked the invitations. The invitation links your team members have re
 
     The **Remove Users** box pops up.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-invite-user-org/remove-users-popup.png" width=100% alt="remove users popup">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-invite-user-org/k1-remove-users-popup.png" width=100% alt="remove users popup">
 
 4. Click **Remove** to confirm your action.
 
@@ -142,7 +146,7 @@ As an Owner or Admin, you can change the role of an existing member by following
 
     The **Change User Role** box pops up.
     
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-invite-user-org/change-user-role-popup.png" width=100% alt="change user role popup">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-invite-user-org/k1-change-user-role-popup.png" width=100% alt="change user role popup">
 
 4. Select a new role in the dropdown list, then click **Change Role**.
 
