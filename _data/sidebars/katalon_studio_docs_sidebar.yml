@@ -1001,6 +1001,8 @@ items:
             url: /katalon-studio/docs/create-test-suite.html
           - title: "Test Suite Collection"
             url: /katalon-studio/docs/test-suite-collection.html
+          - title: "Skip Test Cases"  
+            url: /katalon-studio/docs/skip-test-cases.html
           - title: "Execute tests periodically on remote machines"
             url: /katalon-studio/docs/execute_tests_periodically_on_remote_machines.html
           - title: "Headless Browsers Execution"
