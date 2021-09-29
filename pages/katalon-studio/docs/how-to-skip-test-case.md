@@ -1,5 +1,5 @@
 ---
-title: "Skip test cases"
+title: "Skip Test Cases"
 sidebar: katalon_studio_docs_sidebar
 permalink: /katalon-studio/docs/skip-test-cases.html
 redirect_from:
