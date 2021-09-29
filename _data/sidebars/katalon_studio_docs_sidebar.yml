@@ -43,12 +43,14 @@ items:
                 url: /katalon-studio/docs/license-management.html
               - title: "Grant Katalon Licenses"
                 url: /katalon-studio/docs/use-online-license.html
+              - title: "Configure Idle Timeout"
+                url: /katalon-studio/docs/license-idle-timeout.html
+          - title: "Monitor Licenses"
+            tree:
               - title: "View Test Usage and Balance in the Usage Dashboard" 
                 url: /katalon-analytics/docs/test-usage-balance-usage-dashboard.html
               - title: "License Utilization Dashboard"
                 url: /katalon-studio/docs/license-utilization-dashboard.html
-              - title: "Configure Idle Timeout"
-                url: /katalon-studio/docs/license-idle-timeout.html
           - title: "Set up an On-Premises License Server"  
             url: /katalon-studio/docs/license-server.html
       - title: "Katalon TestOps Subscriptions"
