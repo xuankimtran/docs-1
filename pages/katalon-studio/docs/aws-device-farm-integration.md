@@ -27,7 +27,7 @@ To run your Katalon project with AWS Device Farm, you have to configure your Kat
 > * An active Katalon Runtime Engine license.
 > * Katalon Runtime Engine version 7.8.0 onwards.
 > * [Apache Maven](https://maven.apache.org/download.cgi) version 3.3.9 onwards.
-> * Java JDK 8 installed.
+> * Java JDK 8 installed (This version is recommended).
 
 > Supported testing types and platforms:
 >
