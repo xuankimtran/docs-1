@@ -315,10 +315,10 @@ The below section guides you on how to do that with a usage example.
 
 > **Scope of application**:
 >
-> * When sending email reports on a Test Suite, the Global Variables in the Execution Profile are applied.
+> * When sending email reports on a Test Suite, the Global Variables in the executed profile are applied.
 > * When sending email reports on a Test Suite Collection:
 >   * For the Test Suite Collection: only the Global Variables in the default profile are applied.
->   * For Test Suites contained in that Test Suite Collection: the Global Variables in each Execution Profile are still applied.
+>   * For Test Suites contained in that Test Suite Collection: the Global Variables in each executed profile are still applied.
 
 1. [Define a Global Variable](https://docs.katalon.com/katalon-studio/docs/execution-profile-v54.html#define-a-global-variable) in your Execution Profile.
 
