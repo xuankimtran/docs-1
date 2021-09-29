@@ -3,7 +3,7 @@ title: "AWS Device Farm Integration"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/aws-device-farm.html
 ---
-**aws-device-farm-integration** is a Proof of Concept (PoC) built for executing Katalon Studio tests on [AWS Device Farm](https://aws.amazon.com/device-farm/). AWS Device Farm only supports running tests using supported frameworks such as Appium. Hence, Katalon users cannot execute their tests on AWS Device farm directly. See this AWS document for further information:  [Working with Appium and AWS Device Farm](https://docs.aws.amazon.com/devicefarm/latest/developerguide/test-types-appium.html).
+**aws-device-farm-integration** is built for executing Katalon Studio tests on [AWS Device Farm](https://aws.amazon.com/device-farm/). AWS Device Farm only supports running tests using supported frameworks such as Appium. Hence, Katalon users cannot execute their tests on AWS Device farm directly. See this AWS document for further information:  [Working with Appium and AWS Device Farm](https://docs.aws.amazon.com/devicefarm/latest/developerguide/test-types-appium.html).
 
 You can execute your Katalon test scripts with devices provided on AWS Device Farm by using **aws-device-farm-integration**. This tutorial shows you how to integrate with AWS Device Farm using **aws-device-farm-integration**. We also provide the **KatalonDemoProject** as a usage example.
 
