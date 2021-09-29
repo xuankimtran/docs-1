@@ -21,14 +21,14 @@ In the extended **Data Binding** section, there are two tables:
 
 1. In the **Test Data** table, click **Add** to add data file(s). A **Test Data Browser** dialog opens.
    
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/design-a-test-suite/image2017-6-30-213A473A37.png" width="50%" alt="Add data files">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/combine-multiple-data-sources/KS-MULTIPLE-Add-test-data.png" width="50%" alt="Add data files">
 
 
 2. Select a combination of data files you wish to use for variable binding in the **Test Data Browser** dialog. Click **OK**. The selected test data files appear in the **Test Data** table.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/combine-multiple-data-sources/data-browser.png" width="50%" alt="Test Data Browser"> 
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/combine-multiple-data-sources/data-browser.png" width="50%" alt="Test Data Browser"> 
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/combine-multiple-data-sources/KS-MULTIPLE-add-data-files.png" width="70%" alt="Results after adding data files"> 
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/combine-multiple-data-sources/KS-MULTIPLE-add-data-files.png" width="70%" alt="Results after adding data files"> 
 
 ### Modify data range
 
@@ -52,8 +52,12 @@ You can also further define the relationship among them as below:
 
 Therefore, we have the following combinations of data sets:
 
-<table><thead><tr><th>Relationship</th><th>Example</th></tr></thead><tbody><tr><td>One to One</td><td><p>Given there are two data sets as below:</p><p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/combine-multiple-data-sources/KS-MULTIPLE-Managa-data-relationship-One-One.png" width="70%" alt="Manage Data Relationships One One"><img width=170 src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/design-a-test-suite/one-one.png"></p><p>Then the final data set used for test execution will be:</p><ul><li>John Marketing</li><li>Joe Sales</li></ul></td></tr><tr><td>Many to Many</td><td><p>Given there are two data sets as below:</p><p>
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/combine-multiple-data-sources/KS-MULTIPLE-Manage-data-relationships-Many-Many.png" width="70%" alt="Manage Data Relationship One Many"><img width=170 src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/design-a-test-suite/many-many.png"></p><p>Then the final data set used for test execution will be:</p><ul><li>John Marketing</li><li>John Sales</li><li>Joe Marketing</li><li>Joe Sales</li><li>Mary Marketing</li><li>Mary Sales</li></ul></td></tr><tr><td>One to Many</td><td><p>Given there are two data sets as below:</p><p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/combine-multiple-data-sources/KS-MULTIPLE-Manage-data-relationship-One-Many.png" width="70%" alt="Manage Data Relationship Many Many"><img width=170 src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/design-a-test-suite/one-many.png"></p><p>Then the final data set used for test execution will be:</p><ul><li>John Marketing</li><li>Joe Marketing</li><li>Mary Marketing</li><li>Emily Marketing</li><li>John Sales</li><li>Joe Sales</li><li>Mary Sales</li><li>Emily Sales</li></ul></td></tr><tr><td>One to One to Many</td><td><p>Given there are three data sets as below:</p><p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/combine-multiple-data-sources/KS-MULTIPLE-Manage-data-relationships-One-One-Many.png" width="70%" alt="Manage Data Relationships One One Many"><img width=220 src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/design-a-test-suite/one-one-many.png"></p><p>Then the final data set used for test execution will be:</p><ul><li>John Marketing Executive</li><li>John Marketing Director</li><li>Joe Sales Executive</li><li>Joe Sales Director</li></ul></td></tr></tbody></table>
+<table><thead><tr><th>Relationship</th><th>Example</th></tr></thead><tbody><tr><td>One to One</td><td><p>Given there are two data sets as below:</p><p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/combine-multiple-data-sources/KS-MULTIPLE-Managa-data-relationship-One-One.png" width="70%" alt="Manage Data Relationships One One"></p>
+<p><img width=170 src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/design-a-test-suite/one-one.png"></p><p>Then the final data set used for test execution will be:</p><ul><li>John Marketing</li><li>Joe Sales</li></ul></td></tr><tr><td>Many to Many</td><td><p>Given there are two data sets as below:</p><p>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/combine-multiple-data-sources/KS-MULTIPLE-Manage-data-relationships-Many-Many.png" width="70%" alt="Manage Data Relationship One Many"></p>
+<p><img width=170 src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/design-a-test-suite/many-many.png"></p><p>Then the final data set used for test execution will be:</p><ul><li>John Marketing</li><li>John Sales</li><li>Joe Marketing</li><li>Joe Sales</li><li>Mary Marketing</li><li>Mary Sales</li></ul></td></tr><tr><td>One to Many</td><td><p>Given there are two data sets as below:</p><p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/combine-multiple-data-sources/KS-MULTIPLE-Manage-data-relationship-One-Many.png" width="70%" alt="Manage Data Relationship Many Many"></p>
+<p><img width=170 src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/design-a-test-suite/one-many.png"></p><p>Then the final data set used for test execution will be:</p><ul><li>John Marketing</li><li>Joe Marketing</li><li>Mary Marketing</li><li>Emily Marketing</li><li>John Sales</li><li>Joe Sales</li><li>Mary Sales</li><li>Emily Sales</li></ul></td></tr><tr><td>One to One to Many</td><td><p>Given there are three data sets as below:</p><p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/combine-multiple-data-sources/KS-MULTIPLE-Manage-data-relationships-One-One-Many.png" width="70%" alt="Manage Data Relationships One One Many"></p>
+<p><img width=220 src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/design-a-test-suite/one-one-many.png"></p><p>Then the final data set used for test execution will be:</p><ul><li>John Marketing Executive</li><li>John Marketing Director</li><li>Joe Sales Executive</li><li>Joe Sales Director</li></ul></td></tr></tbody></table>
 
 ## Variable Binding Table
 
@@ -61,30 +65,30 @@ After adding the test case into the test suite, Katalon automatically imports al
 
 1. Katalon Studio allows users to **Set Type** for variables all at once if the variables have the same type. In this case, **Username** and **Password** have the same type as **Data Column**. Highlight both rows, click **Set Type > Data Column**.  
     
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/combine-multiple-data-sources/set-type.png" width="70%" alt="Set Data Type">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/combine-multiple-data-sources/set-type.png" width="70%" alt="Set Data Type">
 
 2. In the **Test Data** column, click on each row to choose the test data files for execution.
     
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/combine-multiple-data-sources/bind-test-data.png" width="70%" alt="Choose Test data for Data Type"> 
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/combine-multiple-data-sources/bind-test-data.png" width="70%" alt="Choose Test data for Data Type"> 
 
 3. In the **Value** column, click on each row to specify the data field in the selected data file.
     
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/combine-multiple-data-sources/bind-value.png" width="70%" alt="Choose Value for Data Type">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/combine-multiple-data-sources/bind-value.png" width="70%" alt="Choose Value for Data Type">
 
 4. Save the test suite when you finish.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/combine-multiple-data-sources/binding.png" width="70%" alt="Final result">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/combine-multiple-data-sources/binding.png" width="70%" alt="Final result">
     
-During execution, the _username_ variable looks for the _Username_ column of the _valid-accounts_ excel file while the _password_ variable searches for the _Password_ column of the _valid-accounts_ CSV file.
+    During execution, the _username_ variable looks for the _Username_ column of the _valid-accounts_ excel file while the _password_ variable searches for the _Password_ column of the _valid-accounts_ CSV file.
 ### Bind to Scripting value
 
 This option allows you to associate the variables with other scripting values.
 
 1.  Highlight rows No. 1 and No.2 > click **Set Type** > select **Script Variable**.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/design-a-test-suite/image2017-8-31-153A193A20.png" width="70%" alt="Script Variable Option"> 
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/combine-multiple-data-sources/KS-MULTIPLE-Choose-Script-Variable-Options.png" width="70%" alt="Script Variable Option"> 
 
 2.  Specify the data used in the **Value** cell.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/design-a-test-suite/image2017-8-31-153A213A10.png" width="70%" alt="Secify Value in Script Variable"> 
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/combine-multiple-data-sources/KS-MULTIPLE-Choose-Value-for-Script-Variable.png" width="70%" alt="Secify Value in Script Variable"> 
 
