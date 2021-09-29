@@ -101,7 +101,11 @@ To enable Jira Integration, follow these steps:
 
 5.  Click **Apply and Close** to complete the Jira integration.
 
-    > Notes
+    > Notice:
+    >
+    > Jira Intergration configuration is available in the project scope only. If you want to intergrate Jira in another Katalon project, you have to repeat the above steps.
+
+    > Note:
     > 
     > If you want to enable Jira integration with Katalon TestOps, you can refer to this document: [TestOps - Jira Integration](https://docs.katalon.com/katalon-analytics/docs/kt-jira-config.html).
 
