@@ -7,7 +7,7 @@ description:
 
 In Katalon TestOps, Organization members are assigned different roles with varying permissions and privileges. Those roles are only valid within each Organization.
  
-You can find the detailed permissions for each role in the following table:
+You can find the detailed permissions for each role in the following tables:
 
 <table>
 	<tbody>
@@ -15,7 +15,7 @@ You can find the detailed permissions for each role in the following table:
 			<td rowspan="2">
 				<p><strong>Roles</strong></p>
 			</td>
-			<td colspan="6">
+			<td colspan="3">
 				<p><strong>Permissions</strong></p>
 			</td>
 		</tr>
@@ -28,15 +28,6 @@ You can find the detailed permissions for each role in the following table:
 			</td>
 			<td>
 				<p><strong>User Management</strong></p>
-			</td>
-			<td>
-				<p><strong>License Management</strong></p>
-			</td>
-			<td>
-				<p><strong>License Utilization</strong></p>
-			</td>
-			<td>
-				<p><strong>Usage Dashboard</strong></p>
 			</td>
 		</tr>
 		<tr>
@@ -72,28 +63,6 @@ You can find the detailed permissions for each role in the following table:
 						<li>Billing Manager&nbsp;</li>
 					</ul>
 					<li>Transfer Organization ownership to another member</li>
-				</ul>
-			</td>
-			<td rowspan="2">
-				<ul>
-					<li>View subscription information</li>
-					<li>Add/remove users from licenses</li>
-					<li>View/delete the Online Licenses list</li>
-					<li>Create/view/delete the Offline Licenses list</li>
-					<li>View/delete the registered machines</li>
-				</ul>
-			</td>
-			<td rowspan="2">
-				<ul>
-					<li>View license usage</li>
-					<li>Filter license usage by users, machineID and license type</li>
-					<li>Export license usage under .csv format</li>
-				</ul>
-			</td>
-			<td rowspan="3">
-				<ul>
-					<li>View TestOps test executions usage</li>
-					<li>Export usage dashboard under .csv format</li>
 				</ul>
 			</td>
 		</tr>
@@ -135,14 +104,6 @@ You can find the detailed permissions for each role in the following table:
 			<td>
 				<p>No access</p>
 			</td>
-			<td>
-				<ul>
-					<li>View subscription information</li>
-				</ul>
-			</td>
-			<td rowspan="2">
-				<p>No access</p>
-			</td>
 		</tr>
 		<tr>
 			<td>
@@ -156,6 +117,80 @@ You can find the detailed permissions for each role in the following table:
 			</td>
 			<td>
 				<p>No access</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<tbody>
+		<tr>
+			<td rowspan="2">
+				<p><strong>Roles</strong></p>
+			</td>
+			<td colspan="3">
+				<p><strong>Permissions</strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p><strong>License Management</strong></p>
+			</td>
+			<td>
+				<p><strong>License Utilization</strong></p>
+			</td>
+			<td>
+				<p><strong>Usage Dashboard</strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p><strong>Owner</strong></p>
+			</td>
+			<td rowspan="2">
+				<ul>
+					<li>View subscription information</li>
+					<li>Add/remove users from licenses</li>
+					<li>View/delete the Online Licenses list</li>
+					<li>Create/view/delete the Offline Licenses list</li>
+					<li>View/delete the registered machines</li>
+				</ul>
+			</td>
+			<td rowspan="2">
+				<ul>
+					<li>View license usage</li>
+					<li>Filter license usage by users, machineID and license type</li>
+					<li>Export license usage under .csv format</li>
+				</ul>
+			</td>
+			<td rowspan="3">
+				<ul>
+					<li>View TestOps test executions usage</li>
+					<li>Export usage dashboard under .csv format</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p><strong>Admin</strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p><strong>Billing Manager</strong></p>
+			</td>
+			<td>
+				<ul>
+					<li>View subscription information</li>
+				</ul>
+			</td>
+			<td rowspan="2">
+				<p>No access</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p><strong>Member</strong></p>
 			</td>
 			<td>
 				<p>No access</p>
