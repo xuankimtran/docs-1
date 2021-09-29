@@ -65,45 +65,46 @@ Do as follows:
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/results-after-recording-mobile-test.png" width="70%" alt="Results after recording mobile test">
 
 10. Next, open Chrome Browser and navigate to **chrome://inspect/#devices**.
-   The **chrome://inspect** page displays:
-   - The name of your Android testing device.
-   - The version of Chrome that's running on the device, with the version number in parentheses.
-   - A list of debug-enabled WebViews on your device. After step 8, you should see the URL of the testing Android application here.
-   - Click **Inspect** to open a **Chrome Devtools** instance. Use **Chrome Devtools** to inspect WebView elements.
+      The **chrome://inspect** page displays:
+      - The name of your Android testing device.
+      - The version of Chrome that's running on the device, with the version number in parentheses.
+      - A list of debug-enabled WebViews on your device. After step 9, you should see the URL of the testing Android application here.
+      - Click **Inspect** to open a **Chrome Devtools** instance. Use **Chrome Devtools** to inspect WebView elements.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/chrome-inspect-displays-hybrid-app.png" width="50%" alt="Chrome Inspect displays">
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/chrome-inspect-displays-hybrid-app.png" width="50%" alt="Chrome Inspect displays">
 
 
-   To learn more about **Chrome Devtools** and its functions, see also [Chrome Devtools](https://developer.chrome.com/docs/devtools/). 
+      To learn more about **Chrome Devtools** and its functions, see also [Chrome Devtools](https://developer.chrome.com/docs/devtools/). 
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/Chrome-Devtools.png" width="70%" alt="Debug-enabled Webviews in Devtools">
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/Chrome-Devtools.png" width="70%" alt="Debug-enabled Webviews in Devtools">
 
 
 11. Return to Katalon Studio. Create and automate objects in your test with inspected elements from Step 10. To learn more about creating test objects in Webview, you can refer to this document [Web Test Object](https://docs.katalon.com/katalon-studio/docs/manage-web-test-object.html#in-manual-view).
-   In case you are defining test objects programmatically, you can use the following sample code in the script tab of your test:
    
-   ```groovy
-   // this is unnecessary if your AUT automatically enters the WEBVIEW context on session start.
-   Mobile.switchToWebView()
-   // to implement Mobile Driver Factory
-   DriverFactory.changeWebDriver(MobileDriverFactory.getDriver())
+      In case you are defining test objects programmatically, you can use the following sample code in the script tab of your test:
+      
+      ```groovy
+      // this is unnecessary if your AUT automatically enters the WEBVIEW context on session start.
+      Mobile.switchToWebView()
+      // to implement Mobile Driver Factory
+      DriverFactory.changeWebDriver(MobileDriverFactory.getDriver())
 
-   // to create a new test object named cdmDetails
-   TestObject cdmDetails = new TestObject()
-   // to add the object's property inspected from step 10
-   cdmDetails.addProperty("id", ConditionType.EQUALS, "119")
-   WebUI.setText(cdmDetails, "123")
+      // to create a new test object named cdmDetails
+      TestObject cdmDetails = new TestObject()
+      // to add the object's property inspected from step 10
+      cdmDetails.addProperty("id", ConditionType.EQUALS, "119")
+      WebUI.setText(cdmDetails, "123")
 
-   ```
+      ```
 
-   If you wish to stop automating in the `WEBVIEW` context and go back to automate the native portion of the app, use the `switchToNative`. More information here: [[Mobile]switchToNative](https://docs.katalon.com/katalon-studio/docs/mobile-switch-to-native.html) mobile keyword.
+      If you wish to stop automating in the `WEBVIEW` context and go back to automate the native portion of the app, use the `switchToNative`. More information here: [[Mobile]switchToNative](https://docs.katalon.com/katalon-studio/docs/mobile-switch-to-native.html) mobile keyword.
 
-   ```groovy
+      ```groovy
 
-   // to switch back to the native mode.
-   Mobile.switchToNative()
+      // to switch back to the native mode.
+      Mobile.switchToNative()
 
-   ```
+      ```
 
    ## See also
 
