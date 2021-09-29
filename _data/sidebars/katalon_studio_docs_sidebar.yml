@@ -213,6 +213,8 @@ items:
                 url: /katalon-studio/docs/introduction-to-desired-capabilities.html
               - title: "Desired Capabilities Management"
                 url: /katalon-studio/docs/import-export-desired-capabilities.html
+              - title: "Test different browser locales in Chrome with Desired Capabilities"
+                url: katalon-studio/docs/test-different-browser-locales-in-chrome-with-desired-capabilities.html
           - title: "Usage Examples"
             tree:
               - title: "Custom Keywords"
