@@ -1,19 +1,34 @@
 ---
-title: "Flutter-based application testing with SetText custom keyword" 
+title: "Flutter-based application testing with custom SetText keyword" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/flutter-based-application-testing.html 
 description: 
 ---
 
-> Known issues:
->
-> Katalon Studio partially supports Hybrid Mobile App. At the moment, Katalon Mobile Spy and Recorder doesn’t support detecting elements. You can use Mobile keywords to automatically test your app instead.
-
 Flutter is a UI toolkit for building applications for mobile, web, desktop, and embedded devices from a single codebase.
 
-You can use Mobile keywords to automate your application. However, Katalon Mobile Spy and Recorder currently cannot detect **EditText** elements in Flutter-based applications. This tutorial provides a workaround to automatically test the Flutter-based application using a custom SetText keyword package.
+> Known limitation:
+>
+> Katalon Studio partially supports Flutter-based applications. If elements of a Flutter-based app are rendered as in a native app, Katalon Mobile Recorder can capture elements. If those elements are rendered in web view, which is a use case of a hybrid Mobile app, Katalon Studio partially supports elements capturing.
 
-## Run Flutter-based application test
+You can use Mobile keywords to automate your Flutter-based application. However, Katalon Mobile Spy and Recorder currently cannot detect **EditText** elements in Flutter-based applications. This tutorial provides a workaround to automatically test the Flutter-based application using a custom SetText keyword package.
+
+## Set up Appium Flutter Driver
+
+To set up Katalon Studio for Flutter-based app mobile automated testing, you need to use Appium Flutter Driver. Appium Flutter Driver is a test automation tool for Flutter apps on multiple platforms/OSes. Appium Flutter Driver is part of the Appium mobile test automation tool maintained by the community.
+
+You can clone or download Appium Flutter Driver at Appium's repository on GitHub: [Appium Flutter Driver](https://github.com/appium-userland/appium-flutter-driver).
+
+To use Appium Flutter Driver with Katalon Studio, follow these requirements:
+
+* Your Flutter App Under Test (AUT) must be compiled in `debug` or `profile` mode because Flutter Driver does not support running in release mode.
+* Your Flutter AUT has `enableFlutterDriverExtension()` before `runApp` in source code.
+
+In Katalon Studio, specify this desired capability to let Katalon Studio run with Appium Flutter Driver: Go to **Project Settings > Desired Capabilities > Mobile**. Select Android or iOS, then create a desired capabilities, which value is `Flutter`.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/flutter-based-application-testing/desired-capabilities.png" alt="desired capabilities" width=70%>
+
+## Run Flutter-based application test with custom SetText keyword
 
 1. In Katalon Studio, open your project and create a new test case. Record your mobile testing script. Use [Tab keyword](https://docs.katalon.com/katalon-studio/docs/mobile-tap.html) on elements **EditText - Email** and **EditText - Password**, then click **Save**.
 
@@ -117,7 +132,7 @@ You can use Mobile keywords to automate your application. However, Katalon Mobil
 
 4. In the toolbar, select **Window > Reset Perspective...**
 
-5. Create a Test Case and switch to **Script** mode. Enter **Mobile.setText**, then select `setText(TestObject to, String text, int timeout, FailureHandling flowcontrol)`. See also:[[Mobile] Set Text](https://docs.katalon.com/katalon-studio/docs/mobile-set-text.html#description).
+5. Create a Test Case and switch to **Script** mode. Enter **Mobile.setText**, then select `setText(TestObject to, String text, int timeout, FailureHandling flowcontrol)`. See also: [[Mobile] Set Text](https://docs.katalon.com/katalon-studio/docs/mobile-set-text.html#description).
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/flutter-based-application-testing/KS-flutter-setText.png" alt="settext option" width=100%>
 
