@@ -37,9 +37,9 @@ Follow these steps:
 
 3. Fill in the required information, then click **Invite**.
 
-    You can enter multiple email addresses to invite members. Multiple email addresses should be separated by a space or comma, or *Enter*.
+    You can enter multiple email addresses to invite members. Multiple email addresses should be separated by a Comma, Space, Tab, Alt, Out Focus, or Enter.
 
-Your team members will receive an invitation email containing a link. Once they click on the link and accept the invitation, they become Users in your Organization.
+Your team members will receive an invitation email containing a link. Once they click on the link and accept the invitation, they become Members in your Organization.
 
 Alternatively, you can copy the activation link in the **Pending Invitation** section and send it to them.
 
@@ -77,7 +77,11 @@ You can check all pending invitations here.
 
 Go to the **User Management** page and click on the **Removed Users** tab.
 
-<img src="https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/testops-revamp-june-invite-user-org/k1-removed-users-tab.png" width=100% alt="removed users tab">
+> Notes:
+>
+> By default, the list is sorted by **JOIN DATE** or **FULL NAME**.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-invite-user-org/k1-removed-users-tab.png" width=100% alt="removed users tab">
 
 You can view a full list of users you have removed from your organization.
 
@@ -153,7 +157,6 @@ As an Owner or Admin, you can change the role of an existing member by following
     > Notes:
     >
     > * Organization members can have different roles in different teams.
-    > * The **Billing Manager** role is only available at the Organization level.
 
 ### Export Users list
 
