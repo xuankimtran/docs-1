@@ -9,6 +9,7 @@ This document helps you troubleshoot common exceptions when executing tests with
 
 * [Web automated testing](/katalon-studio/docs/troubleshoot-common-execution-exceptions-web-test.html)
 * [Mobile automated testing](/katalon-studio/docs/troubleshooting-automated-mobile-testing.html)
+* [License activation](https://docs.katalon.com/katalon-studio/docs/troubleshoot-activation-problems.html)
 * [Known issues](/katalon-studio/docs/known-issues-limitations.html)
 * Others:
 <table>
