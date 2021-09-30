@@ -25,7 +25,7 @@ This topic describes the preliminary actions you need to perform to prepare the 
      > **Note**
      >
      > Some emulators have already supported Appium through their installations. Thus, if you want to run an application on an emulator, check your emulators' settings before proceeding with the Appium installation.
-     >   
+     >
      > Xcode must support the current version of your IOS device.
      >
      > We recommend upgrading Appium to the latest version.
