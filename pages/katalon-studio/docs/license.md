@@ -35,7 +35,7 @@ There are two types of licenses for KSE and KRE: node-locked and floating. Depen
 			<td>
 				<p>One license is assigned to one machine ID.</p>
 			</td>
-			<td>One license is assigned to one execution session and can be shared between 3 machines.</td>
+			<td>One license is assigned to one execution session and can be shared across multiple accounts.</td>
 		</tr>
 		<tr>
 			<td>
