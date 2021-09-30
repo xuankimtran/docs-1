@@ -40,7 +40,7 @@ Follow these steps to grant KSE licenses:
 
 For KRE, all members of your Organization can use the KRE licenses by default once the Organization has purchased **only one type of license (node-locked or floating) at a time**.
 
-If your Organization has purchased two types of license at the same time. All Members of your Organization can use the KRE node-locked licenses by default. However, to use the KRE floating licenses, you have to assign the license to your users by following these steps:
+If your Organization has purchased two types of license at the same time. All members of your Organization can use the KRE node-locked licenses by default. However, to use the KRE floating licenses, you have to assign the license to your users by following these steps:
 
 1. Sign in to [Katalon TestOps](https://testops.katalon.io/login), select your Organization, then go to **Settings** > **License Management**.
 
