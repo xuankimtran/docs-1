@@ -203,8 +203,8 @@ These settings are applied to a test execution on a Windows desktop app. You are
 
 * **WinAppDriver URL**: a URL to the WinAppDriver server. By default, Katalon Studio is set to http://127.0.0.1:4723.
 * **Desired Capabilities**: Katalon Studio supports the same [capabilities](https://github.com/microsoft/WinAppDriver/blob/master/Docs/AuthoringTestScripts.md#user-content-supported-locators-to-find-ui-elements) as WinAppDriver does. For Native Windows Recorder, only **appArguments** and **appWorkingDir** are supported (available in version 7.7).
-   * **appArguments**: Support passing arguments to the Application Under Test
-   * **appWorkingDir**: Support overriding the Application Under Test's working directory  
+   * **appArguments**: Support passing arguments to the Application Under Test. You can also use this desired capabilities to record action without opening a Windows.
+   * **appWorkingDir**: Support overriding the Application Under Test's working directory.
 
 The example below shows you:
 

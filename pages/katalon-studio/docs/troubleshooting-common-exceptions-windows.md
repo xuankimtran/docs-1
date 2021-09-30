@@ -39,10 +39,6 @@ redirect_from:
 			</td>
 		</tr>
 		<tr>
-			<td>To record actions without opening a Windows</td>
-			<td>Go to <strong data-renderer-mark="true">Project Settings</strong><span data-renderer-mark="true">&nbsp;&gt;&nbsp;</span><strong data-renderer-mark="true">Desired Capabilities &gt; Windows. </strong>Pass arguments to the Windows app via <code data-renderer-mark="true">appArguments</code> in the <strong data-renderer-mark="true">Desired Capabilities</strong> section. See&nbsp;<a title="https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html#windows-desktop-app-testing" href="https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html#windows-desktop-app-testing" data-renderer-mark="true">Windows Desktop App Testing</a>.</td>
-		</tr>
-		<tr>
 			<td>WinAppDriver could not sendKeys with correctly text when the default setting is German keyboard&nbsp;</td>
 			<td>Clone or download our demo project at our repository: <a href="https://github.com/duyluonganh/kat-german-windows-test">German Windows test</a>.&nbsp;</td>
 		</tr>
