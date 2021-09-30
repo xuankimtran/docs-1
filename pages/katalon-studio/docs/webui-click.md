@@ -19,7 +19,7 @@ From Katalon Studio version 8.2.0 onwards, you can set the timeout for Katalon t
 
 To set the timeout, go to **Project > Settings > Execution**, then manually input the desired waiting time in the **Default wait for element timeout** setting.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/wait-for-element-timeout/KS-OVERLAY-Set-the-default-wait-for-element-timeout.png" width=70% alt="The Default wait for element timeout setting">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/wait-for-element-timeout/KS-OVERLAY-Set-the-default-wait-for-element-timeout.png" width=60% alt="The Default wait for element timeout setting">
 
 ## Parameters
 
