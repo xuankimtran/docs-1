@@ -35,12 +35,27 @@ redirect_from:
 			<td>1. Close all unneeded apps and opened folders. Open Katalon Studio only.
 				<p>2. Remove unused shortcuts on your desktop and your taskbar.</p>
 				<p>3. Use&nbsp;<strong>Windows.startApplication(&hellip;)</strong>&nbsp;instead of&nbsp;<strong>Windows.startApplicationWithTitle(&hellip;)</strong>&nbsp;</p>
-				<pre><code class="language-groovy">Windows.startApplication('C:\\Users\\katalon\\Desktop\\Demo\\WindowsFormsApp.exe') Windows.switchToWindowTitle('Main App Title') // Replace this by your main window title</code></pre>
+				<pre><code>Windows.startApplication('C:\\Users\\katalon\\Desktop\\Demo\\WindowsFormsApp.exe') Windows.switchToWindowTitle('Main App Title') // Replace this by your main window title</code></pre>
 			</td>
 		</tr>
 		<tr>
 			<td>WinAppDriver could not sendKeys with correctly text when the default setting is German keyboard&nbsp;</td>
 			<td>Clone or download our demo project at our repository: <a href="https://github.com/duyluonganh/kat-german-windows-test">German Windows test</a>.&nbsp;</td>
+		</tr>
+		<tr>
+			<td>
+				<p data-renderer-start-pos="757">Unable to Start Application</p>
+			</td>
+			<td>
+				<ul>
+					<li>Use this keyword to start the application:&nbsp;<a tabindex="0" href="https://docs.katalon.com/katalon-studio/docs/windows-kw-start-app-title.html" data-testid="inline-card-resolved-view">[Windows] Start Application with Title</a>.</li>
+				</ul>
+				<ul data-indent-level="1">
+					<li>
+						<p data-renderer-start-pos="137">Or: Use capability <a title="https://github.com/microsoft/WinAppDriver/releases/tag/v1.2-RC" href="https://github.com/microsoft/WinAppDriver/releases/tag/v1.2-RC" data-renderer-mark="true"><strong data-renderer-mark="true">ms:waitForAppLaunch</strong></a> to wait longer for the app to open.</p>
+					</li>
+				</ul>
+			</td>
 		</tr>
 	</tbody>
 </table>
