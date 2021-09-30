@@ -36,16 +36,28 @@ Follow these steps to grant KSE licenses:
   
 3. Add users to the **Licensed Users** section.
 
-  You have granted the KSE licenses to Users.
+  You have granted the KSE licenses to your users.
 
-For KRE, all Users of an Organization can use the KRE licenses by default once the Organization has purchased the KRE licenses.
+For KRE, all members of your Organization can use the KRE licenses by default once the Organization has purchased **only one type of license (node-locked or floating) at a time**.
 
-However, to optimize license usage and avoid session termination, the Owner and Admin must remember the following rules:
+If your Organization has purchased two types of license at the same time. All Members of your Organization can use the KRE node-locked licenses by default. However, to use the KRE floating licenses, you have to assign the license to your users by following these steps:
 
-* Each session accounts for one license.
-* The number of parallel sessions cannot exceed the license quota.
-* The number of registered machine IDs cannot exceed the license quota. You can remove a registered machine ID by following this guide: [Manage Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license-management.html#revoke-a-license).
-* Users need [API Keys](https://docs.katalon.com/katalon-studio/docs/katalon-apikey-70.html) to activate a KRE online license.
+1. Sign in to [Katalon TestOps](https://testops.katalon.io/login), select your Organization, then go to **Settings** > **License Management**.
+
+    The **Licenses** page appears.
+
+2. Choose KRE (Floating).
+3. Add users to the **Licensed Users** section.
+
+  You have granted the KRE floating licenses to your users.
+
+> Notes:
+>
+> To optimize license usage and avoid session termination, the Owner and Admin must remember the following rules:
+>
+> * Each session accounts for one license.
+> * The number of parallel sessions cannot exceed the license quota.
+> * Users need [API Keys](https://docs.katalon.com/katalon-studio/docs/katalon-apikey-70.html) to activate a KRE online license.
 
 Your users can now activate their KSE and KRE licenses. You can refer them to this link for activation: [Activate Katalon License](https://docs.katalon.com/katalon-studio/docs/activate-license.html).
 
