@@ -1,70 +1,116 @@
 ---
-title: "How to Grant Online Licenses"
+title: "Grant Katalon Licenses"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/use-online-license.html
+redirect_from:
+  - "/katalon-studio/docs/online-offline-licenses.html"
+  - "/katalon-studio/docs/re-offline-licenses.html"
+  - "/katalon-studio/docs/how-to-create-kse-offline-license.html"
 description:
 ---
+In this guide, you will learn to assign Katalon Studio Enterprise (KSE) and Katalon Runtime Engine (KRE) licenses to Users in your Organization.
 
-Before assigning a license, the organization Owner/Admin must [add the team member(s) to the organization in the Katalon Admin](https://docs.katalon.com/katalon-analytics/docs/user-management.html#user-related-permissions). Once added, the Admin can assign a Katalon license to any team member, or withdraw a license if no longer needed.
+## Grant a license
 
-### Katalon Studio Enterprise
+> Requirements:
+>
+> * An internet connection for you and the users you will grant the license to.
+>
+> * You must be the Owner or Admin of your Organization.
+>
+> * You have already added team members to your Organization. See: [TestOps User Management](https://docs.katalon.com/katalon-analytics/docs/kt_invite_user_org.html#invite-a-user-to-join-an-organization).
 
-1. In [[Katalon Admin](https://admin.katalon.com/), select your **Organization > Licenses**.
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/license.png" width="" height="">
-2. On **Katalon Studio Enterprise** view, register the on-demand users by adding them to the **Registered Users** list.
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/grant%20.png" width="" height="">
-   When the registered users activate Katalon Studio Enterprise, the machine IDs are added to the **Online Licenses** list in Katalon TestOps.
+Follow these steps to grant KSE licenses:
 
-   > The number of registered users cannot exceed the license quota.
+1. Sign in to [Katalon TestOps](https://testops.katalon.io/login), select your Organization, then go to **Settings** > **License Management**.
 
-Learn about [how to create a Katalon Studio Enterprise offline license](https://docs.katalon.com/katalon-studio/docs/how-to-create-kse-offline-license.html).
+    The **Licenses** page appears as below.
 
-### Katalon Runtime Engine
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/licenses-page-blurred.png" width=100% alt="license page licensed users section highlighted">
 
-Any members of an Organization can use the Katalon Runtime Engine online licenses that the Organization has purchased. [Learn about how to add a new user to your Organization.](https://docs.katalon.com/katalon-analytics/docs/user-management.html#invite-a-user-to-the-organization)
+2. Choose between KSE (Node-locked) and KSE (Floating).
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/invite.png" width="" height="">
+  > Notes:
+  >
+  > See [Types of Licenses](https://docs.katalon.com/katalon-studio/docs/overview.html#types#of#licenses) to understand the differences between a node-locked license and a floating license.
+  
+3. Add users to the **Licensed Users** section.
 
-To avoid sessions termination or optimize license usage, the Organization Owner/Admins should remember the following rules:
+  You have granted the KSE licenses to Users.
 
-* Each process accounts for one license.
-* The number of parallel processes conducted cannot exceed the license quota.
-* The number of registered machines cannot exceed the license quota.
-* Users need API Keys to activate an online RE license.
+For KRE, all Users of an Organization can use the KRE licenses by default once the Organization has purchased the KRE licenses.
 
-All users of an organization can use RE online licenses as long as the total number of active online licenses does not exceed the license quota.
+However, to optimize license usage and avoid session termination, the Owner and Admin must remember the following rules:
 
-To run Katalon Studio or Katalon Studio Enterprise with Katalon Runtime Engine, you need to:
+* Each session accounts for one license.
+* The number of parallel sessions cannot exceed the license quota.
+* The number of registered machine IDs cannot exceed the license quota. You can remove a registered machine ID by following this guide: [Manage Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license-management.html#revoke-a-license).
+* Users need [API Keys](https://docs.katalon.com/katalon-studio/docs/katalon-apikey-70.html) to activate a KRE online license.
 
-1. Log in to your Katalon account on Katalon Studio.
-2. In the command generator, generate a command with the auto-filled Katalon API Key and customized information. 
+Your users can now activate their KSE and KRE licenses. You can refer them to this link for activation: [Activate Katalon License](https://docs.katalon.com/katalon-studio/docs/activate-license.html).
 
-   From **version 7.7 onwards**, if you belong to more than one Organization subscribing to RE licenses, you can choose which one to validate your license usage. Katalon retrieves and displays the organizations binding to your Katalon account and having RE licenses. Once selected, the Organization ID is passed to the generated command (`-orgID=<Katalon_OrgID>`).
+Granting a license this way allows you to transfer a license freely among registered users of an Organization as long as the number of licensed users does not exceed the license quota.
 
-3. Copy and paste the generated command into **Terminal** (for macOS/Linux) or **Command Prompt** (for Windows).
-4. Open the command prompt and navigate to the folder of Katalon Studio Engine: `katalonc.exe` (Windows), Applications folder (Mac OS), or `katalonc` (Linux) file.
+You can revoke these licenses at any time by following this guide: [Manage Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license-management.html).
 
-    **macOS:**
+If the users you wish to grant a license to are not connected to the internet, you can instead generate an offline license.
 
-    ```groovy
-    cd /Applications/Katalon\ Studio\ Engine.app/Contents/MacOS
-    ```
+### Create an offline license
 
-5. Enter the following syntax to execute automation test:
+An **Offline License** allows you to use KSE and KRE without internet. Once an offline license is generated, you cannot revoke or transfer it to a different machine.
 
-    For example: `katalonc -noSplash -runMode=console -consoleLog -noExit -projectPath="C:\Users\Katalon Studio\Project\YourProject.prj" -retry=0 -testSuitePath="Test Suites/TS_RegressionTest" -browserType="Chrome (headless)" -apiKey=abczxzxz -orgID=123xx`
+By default, an offline license expires at the end of your subscription period. It can also be set to expire earlier by inputting a different expiry date when generating the offline license file.
 
-    > [Katalon API Key](https://docs.katalon.com/katalon-analytics/docs/ka-api-key.html#create-an-api-key) is required for activating RE.
-    >
-    > Please refer to [Command Syntax](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#katalon-studio-plugins-in-console-mode) for further instructions on working with RE.
+When an offline license expires, you can generate a new offline license file to continue using KSE/KRE offline, or you can switch to an online license instead.
 
-For Enterprise users with a private network, you may encounter a situation where you fail to execute test scripts or integrate Katalon Studio due to the network security error. Please contact your IT team to whitelist the following domains:
+As a machine ID is required to create an offline license, Katalon generates a machine ID based on the hardware specifications and the user's account logging in to that machine.
 
-* store.katalon.com
-* update.katalon.com
-* analytics.katalon.com
-* testops.katalon.io
-* admin.katalon.com
-* katalon-test.s3-accelerate.amazonaws.com (used for uploading reports to [Katalon TestOps](https://analytics.katalon.com))
+For example, if User A logs in to A's account on Machine A, Katalon generates a machine ID X. If User B logs in to B's account on Machine A, Katalon generates a machine ID Y. This means that you need two offline licenses for User A and User B.
 
-Learn more about how to install and execute Katalon Runtime Engine [here](https://docs.katalon.com/katalon-studio/docs/install-RE.html).
+> Notice:
+>
+> Once converted to an offline license, a KSE/KRE license is bound to a machine until it expires. You cannot undo this action.
+
+> Requirements:
+>
+> * You can only convert an **annual** node-locked license into an offline license.
+>
+> * You must be the Owner or Admin of your Organization.
+>
+> * You have already received the User's machine ID. You can send this guide to your users:  [View Machine ID](https://docs.katalon.com/katalon-studio/docs/machine-id.html), for instructions on how to find a machine ID.
+
+Follow these steps:
+
+1. Sign in to [Katalon TestOps](https://testops.katalon.io/login).
+
+2. Go to **Settings** > **License Management**.
+
+    The **Licenses** page appears.
+
+3. Choose between KSE (Node-locked) and KRE (Node-locked).
+
+4. Click on the **Create Offline License** button at the top right corner.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/create-offline-license-button.png" width="1424" height="" alt="create offline license button">
+
+5. Enter the User's machine ID and input the expiry date, then click **Create**.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/create-offline-license-page.png" width="1424" height="" alt="create offline license page">
+
+  > Notes:
+  >
+  > You should double check the machine IDs to make sure you distribute offline licenses to the right users.
+
+6. Confirm your action.
+
+    For KSE, the newly-created offline license file is named `KSE_<machineID>.lic` and added in the **Offline Licenses** section.
+
+    For KRE, the newly-created offline license file is named `KRE_<machineID>.lic` and added in the **Offline Licenses** section.
+
+7. Download and transfer the offline license files to the User.
+
+8. Send your users this activation guide: [Activate Katalon License](https://docs.katalon.com/katalon-studio/docs/activate-license.html).
+
+See also:
+* [Manage Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license-utilization-dashboard.html#license-usage-visualization).
+* [License Utilization Dashboard](https://docs.katalon.com/katalon-studio/docs/license-utilization-dashboard.html#license-usage-visualization).
