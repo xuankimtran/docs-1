@@ -15,7 +15,7 @@ After the cancellation, the subscription remains **active** until the end of the
 
 To cancel your subscription, follow these steps:
 
-1. Log in to [Katalon TestOps](https://admin.katalon.com/).
+1. Log in to [Katalon TestOps](https://testops.katalon.io/).
 2. Select your **Organization**.
 3. Go to **Settings > Subscriptions Management > Studio Subscriptions**.
 4. On the top right corner of the **Subscription** view, click **Edit Subscription**
