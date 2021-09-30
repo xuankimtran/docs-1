@@ -15,9 +15,9 @@ Click on the given element.
 
 ## Set the default wait for element timeout
 
-From Katalon Studio version 8.2.0 onwards, you can set the default timeout for Katalon to wait until the overlay disappears before taking the **Click** action.
+From Katalon Studio version 8.2.0 onwards, you can set the timeout for Katalon to click an element behind an overlay. With this configuration, Katalon repeatedly tries clicking the target element until the predefined time is used up.
 
-To do this, go to **Project > Settings > Execution**, then manually input the desired waiting time in the **Default wait for element timeout** setting.
+To set the timeout, go to **Project > Settings > Execution**, then manually input the desired waiting time in the **Default wait for element timeout** setting.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/wait-for-element-timeout/KS-OVERLAY-Set-the-default-wait-for-element-timeout.png" width=70% alt="The Default wait for element timeout setting">
 
@@ -26,11 +26,11 @@ To do this, go to **Project > Settings > Execution**, then manually input the de
 | Param | Param Type | Mandatory | Description |
 | --- | --- | --- | --- |
 | to | TestObject | Required | Represent a web element. |
-| flowControl | FailureHandling | Optional | Specify [failure handling](/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. To learn more about failure handling setting, you can refer to this document: [Failure handling](https://docs.katalon.com/katalon-studio/docs/failure-handling.html#default-failure-handlingbehavior) |
 
 ## Example
 
-You want to click on 'Make Appointment' button.
+You want to click on the **Make Appointment** button. By default, the **Default wait for element timeout** setting is for 30 seconds. If the **Make Appointment** button is behind a loading overlay, Katalon will try clicking the button for 30 seconds in maximum.
 
 ```groovy
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
