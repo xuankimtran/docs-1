@@ -49,7 +49,7 @@ However, to optimize license usage and avoid session termination, the Owner and 
 
 Your users can now activate their KSE and KRE licenses. You can refer them to this link for activation: [Activate Katalon License](https://docs.katalon.com/katalon-studio/docs/activate-license.html).
 
-Granting a license this way allows you to transfer a license freely among registered users of an organization as long as the number of licensed users does not exceed the license quota.
+Granting a license this way allows you to transfer a license freely among registered users of an Organization as long as the number of licensed users does not exceed the license quota.
 
 You can revoke these licenses at any time by following this guide: [Manage Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license-management.html).
 
@@ -77,7 +77,7 @@ For example, if User A logs in to A's account on Machine A, Katalon generates a 
 >
 > * You must be the Owner or Admin of your Organization.
 >
-> * You have already received the User's machine ID. You can send this guide to your users:  [new Machine ID doc](link), for instructions on how to find a machine ID.
+> * You have already received the User's machine ID. You can send this guide to your users:  [View Machine ID](https://docs.katalon.com/katalon-studio/docs/machine-id.html), for instructions on how to find a machine ID.
 
 Follow these steps:
 
@@ -109,7 +109,7 @@ Follow these steps:
 
 7. Download and transfer the offline license files to the User.
 
-8. Send your users this activation guide: [new Activation doc](link).
+8. Send your users this activation guide: [Activate Katalon License](https://docs.katalon.com/katalon-studio/docs/activate-license.html).
 
 See also:
 * [Manage Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license-utilization-dashboard.html#license-usage-visualization).
