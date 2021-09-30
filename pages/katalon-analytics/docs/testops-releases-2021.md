@@ -9,8 +9,53 @@ redirect from:
     - "/katalon-analytics/docs/advanced-0.1.x.html"
 description:
 ---
+## Latest Release - September 29th, 2021
 
-## Latest Release - July 26th, 2021
+### New Features
+
+* Introduced Test Orchestration for Bitbucket repositories (sequential and parallel mode). Read more: [Upload Test Scripts from a Git Repository](https://docs.katalon.com/katalon-analytics/docs/git-test-project.html).
+
+* Introduced a new flow to schedule test runs. Read more: [Schedule Test Runs](https://docs.katalon.com/katalon-analytics/docs/create-plan.html).
+
+### Enhancements
+
+* [Subscription] Enabled subscribing to TestOps Business via a "Get Quote" email.
+
+* [License Management] Added max session timeout in Idle TimeOut.
+
+* [UI] Updated invitation UI in User Management.
+
+* [UI] Allowed to select Test Environment in Schedule Test Run dialog.
+
+* [UI] Allowed to create Test Run Type without running or scheduling.
+
+* [UI] Updated information in Script Repositories view (Create & Edit).
+
+* [UI] Consolidated Schedule Test Run button colors.
+
+* [Access log] Added email address to access log files.
+
+* [Test Run Type] Added sorting value by time.
+
+* [Test Run Type] Removed data in Last Run column.
+
+* [Reports] New confirmation dialog when exporting test run reports.
+
+* [Reports] Allowed viewing re-run test results via email.
+
+* [Jira integration] Synced Release status from Jira.
+
+* [Jira integration] Enabled refreshing Jira release status in TestOps.
+
+### Fixes
+
+* [Agent] Local Agent status (online/offline) failed to show up when scheduling test runs.
+
+* [Jira integration] Katalon Studio and TestOps integration (com.katalon.katalon-jira-plugin) failed HSTS Validation from Connect Security Requirements Tester.
+
+* [Maintenance mode] Chart did not display and show error message after navigating to the Summary by Test Result page.
+
+## July 26th
 
 ### New Features
 

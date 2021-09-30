@@ -1,5 +1,5 @@
 ---
-title: "On-Premises License Server"
+title: "Set up an On-Premises License Server"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/license-server.html
 description: 
