@@ -12,21 +12,50 @@ description:
 ---
 A Test Suite Collection contains a list of test suites to allow users more options for planning their test execution. 
 
+To open a new Test Suite Collection, go to **File > New > Test Suite Collection**.
 ## Manage Execution Information
 
-You can manage additional configurations for test suite collection execution by expanding the **Execution Information** section, as below:
+This section allows you to manage additional configurations for test suite collection execution. In the new **Test Suite Collection** page, click **Execution Information** to expanding the section:
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-suite-collection/image2017-2-17-113A463A21.png)
+<img src="url" width=60% alt="Execution Information">
 
-where:
-
-<table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td><p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-suite-collection/image2017-2-17-113A473A25.png"></p></td><td><p>The order to execute test suites within the collection.</p><ul><li><strong>Sequential</strong>: the test suites will be executed one after another.</li><li><strong>Parallel</strong>: the test suites will be executed at the same time.</li></ul></td></tr></tbody></table>
+<table>
+<thead>
+<tr>
+<th>Execution mode</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>Sequential</strong></p>
+</td>
+<td>
+<p>This mode allows you to&nbsp;execute the test suites one after another.</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><strong><strong>Parallel</strong></strong></p>
+</td>
+<td>
+<p>This mode allows you to execute the test suites at the same time. With this mode, you can also set:</p>
+<ul>
+<li><strong>Max concurrent instances</strong>: To set the number of test suites executing at the same time.</li>
+<li><strong>Delay between instances (in seconds)</strong>: To configure the delay time between each test suite execution. You can set the delay time between 0-999 seconds. This function reduces the risk of CPU spike issues when there are too many concurrent test suite executions.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Manage Test Suite List
 
 You can add a test suite into a collection by following the steps below:
 
-1.  Open a test suite collection, then select an option to add **Add Test Suite** from command toolbar.  
+1.  In the command toolbar, click **Add** to add Test Suite.
+   
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-suite-collection/image2017-2-17-133A243A44.png)  
       
     
