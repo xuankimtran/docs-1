@@ -35,13 +35,13 @@ There are two types of licenses for KSE and KRE: node-locked and floating. Depen
 			<td>
 				<p>One license is assigned to one machine ID.</p>
 			</td>
-			<td>One license is assigned to one execution session and can be shared across multiple accounts.</td>
+			<td>One license is assigned to one execution session and can be shared across multiple machines.</td>
 		</tr>
 		<tr>
 			<td>
 				<p>Licenses are transferable.</p>
 			</td>
-			<td>Licenses need to be assigned.</td>
+			<td>Licenses are transferable.</td>
 		</tr>
 		<tr>
 			<td>
@@ -85,9 +85,9 @@ For scaling teams with dynamic usage, floating licenses reduce the management co
 
 This license type is applied to all types of execution environments, including cloud or virtual machines with dynamic hardware specifications (to execute tests in Docker, Azure, AWS).
 
-* One floating license can be shared across a maximum of 3 machines.
+* One floating license can be shared across multiple machines.
 * One floating license is assigned to one execution session at a time.
 
 For instance, you have 1 floating Katalon Studio Enterprise license attached to the email example@katalon.com.
 
-You can use example@katalon.com to log in to Katalon Studio on up to 3 different machines, but not at the same time. This is because  example@katalon.com represents only 1 floating Katalon Studio Enterprise license. Therefore, you can only be active on 1 of those 3 machines at a time.
+You can use example@katalon.com to log in to Katalon Studio on multiple different machines, but not at the same time. This is because  example@katalon.com represents only 1 floating Katalon Studio Enterprise license. Therefore, you can only be active on 1 of those machines at a time.
