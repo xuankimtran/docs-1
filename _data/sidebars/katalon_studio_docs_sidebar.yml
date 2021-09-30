@@ -1054,9 +1054,11 @@ items:
           - title: "Jira Integration"
             url: /katalon-studio/docs/jira-integration.html
           - title: "Git Integration"
-            url: /katalon-studio/docs/git-integration.html
-          - title: "Bitbucket Integration"
-            url: /katalon-studio/docs/bitbucket-integration.html
+            tree:
+              - title: "Git Integration"
+                url: /katalon-studio/docs/git-integration.html
+              - title: "Git Integration Authentication with SSH Keys"
+                url: /katalon-studio/docs/git-integration-authentication.html
           - title: "Slack Integration"
             url: /katalon-studio/docs/slack-plugin-integration.html
           - title: "Kobiton Integration"
