@@ -21,7 +21,6 @@ To do this, go to **Project > Settings > Execution**, then manually input the de
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/wait-for-element-timeout/KS-OVERLAY-Set-the-default-wait-for-element-timeout.png" width=70% alt="The Default wait for element timeout setting">
 
-
 ## Parameters
 
 

@@ -9,21 +9,26 @@ redirect_from:
     - "/katalon-studio/docs/webui-click/"
 description: 
 ---
-Description
------------
+## Description
 
 Click on the given element.
 
-Parameters
-----------
+## Set the default wait for element timeout
+
+From Katalon Studio version 8.2.0 onwards, you can set the default timeout for Katalon to wait until the overlay disappears before taking the **Click** action.
+
+To do this, go to **Project > Settings > Execution**, then manually input the desired waiting time in the **Default wait for element timeout** setting.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/wait-for-element-timeout/KS-OVERLAY-Set-the-default-wait-for-element-timeout.png" width=70% alt="The Default wait for element timeout setting">
+
+## Parameters
 
 | Param | Param Type | Mandatory | Description |
 | --- | --- | --- | --- |
 | to | TestObject | Required | Represent a web element. |
 | flowControl | FailureHandling | Optional | Specify [failure handling](/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
-Example
--------
+## Example
 
 You want to click on 'Make Appointment' button.
 
