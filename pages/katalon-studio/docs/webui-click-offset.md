@@ -33,7 +33,7 @@ To set the timeout, go to **Project > Settings > Execution**, then manually inpu
 
 ## Example
 
-You want to click on the top left cell of the Tic Tac Toe board. 
+In this example, we want to click on the top left cell of the Tic Tac Toe board. 
 By default, the **Default wait for element timeout** setting is for 30 seconds. If the **Make Appointment** button is behind a loading overlay, Katalon will try clicking the button for 30 seconds in maximum.
 
 ```groovy
