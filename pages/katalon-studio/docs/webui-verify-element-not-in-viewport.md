@@ -1,18 +1,19 @@
 ---
-title: "[WebUI] Verify Element Not Visible" 
+title: "[WebUI] Verify Element Not In Viewport" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/webui-verify-element-not-visible.html 
+permalink: katalon-studio/docs/webui-verify-element-not-in-viewport.html 
 redirect_from:
-    - "/display/KD/%5BWebUI%5D+Verify+Element+Not+Visible/"
-    - "/display/KD/%5BWebUI%5D%20Verify%20Element%20Not%20Visible/"
-    - "/x/GooY/"
-    - "/katalon-studio/docs/webui-verify-element-not-visible/"
+    - "/display/KD/%5BWebUI%5D+Verify+Element+Not+Visible+In+Viewport/"
+    - "/display/KD/%5BWebUI%5D%20Verify%20Element%20Not%20Visible%20In%20Viewport/"
+    - "/x/HooY/"
+    - "/katalon-studio/docs/webui-verify-element-not-visible-in-viewport/"
+    - "/katalon-studio/docs/webui-verify-element-not-visible-in-viewport.html"
 description: 
 ---
 Description
 -----------
 
-Verify if given web element is NOT visible.
+Verify if given web element is NOT visible in the current viewport.
 
 Parameters
 ----------
@@ -20,17 +21,18 @@ Parameters
 | Param | Param Type | Mandatory | Description |
 | --- | --- | --- | --- |
 | to | TestObject | Required | Represent a web element. |
-| flowControl | FailureHandling | Optional | Specify [failure handling](/x/qAAM) schema to determine whether the execution should be allowed to continue orsto |
+| timeout | int | Required | System will wait at most timeout (seconds) to return a result. |
+| flowControl | FailureHandling | Optional | Specify [failure handling](/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
 
 Returns
 -------
 
-<table><thead><tr><th>Param Type</th><th>Description</th></tr></thead><tbody><tr><td>boolean</td><td><ul><li><strong>true:</strong> the element is not visible.</li><li><strong>false: </strong>the element is visible.</li></ul></td></tr></tbody></table>
+<table><thead><tr><th>Param Type</th><th>Description</th></tr></thead><tbody><tr><td>boolean</td><td><ul><li><strong>true:</strong> the element is not visible in the current viewport.</li><li><strong>false: </strong>the element is visible in the current viewport.</li></ul></td></tr></tbody></table>
 
 Example
 -------
 
-You want to verify 'Make Appointment'  button is not visible on DOM.
+You want to verify that the 'Make Appointment' button is not visible in the current viewport.
 
 ```groovy
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
@@ -54,13 +56,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 
-'Open browser and navigate to demo AUT site.'
+// Open browser and navigate to demo AUT site.
 WebUI.openBrowser(GlobalVariable.G_SiteURL)
 
-'Verify \'Make Appointment\' button is not visible.'
-if(WebUI.verifyElementNotVisible(findTestObject(...), FailureHandling.CONTINUE_ON_FAILURE) == true){
-   System.out.println(" Element is visible " );
-    }
-'Close browser'
+// Verify \'Make Appointment\' button is not visible in the current viewport.
+WebUI.verifyElementNotInViewport(findTestObject('Page_CuraHomepage/btn_MakeAppointment'), 20)
+
+// Close browser
 WebUI.closeBrowser()
 ```
