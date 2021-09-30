@@ -7,7 +7,7 @@ description:
 
 This article shows you how to execute your automation test using predefined test data from multiple sources.
 
-Go to your test suite, click **Show Data Binding** to expand the **Data Binding** section. This feature help us binds the predefined test data files and manage variable binding with the Test Suite you want to run.
+Go to your test suite, click **Show Data Binding** to expand the **Data Binding** section. This feature help you bind the predefined test data files and manage variable binding with the Test Suite you want to run.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/combine-multiple-data-sources/1-databinding.png" width="70%" alt="Expand data binding section">
 
