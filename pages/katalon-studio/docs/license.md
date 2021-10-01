@@ -13,7 +13,7 @@ This section provides information on the licensing system of Katalon. You will f
 
 Katalon Studio provides free, basic tools suitable for the testing needs of individuals. For an advanced business solution, consider purchasing Katalon Studio Enterprise licenses. For feature comparison between KS and KSE, see [Katalon Studio vs Katalon Studio Enterprise Features](https://docs.katalon.com/katalon-studio/docs/katalon-studio-vs-katalon-studio-enterprise.html).
 
-One KSE license is exclusively assigned to one Katalon account and can be activated/used on one machine at a time. Licenses are transferable. You need an internet connection to activate and validate licenses, although special rules apply to enable offline activation. See: [Create an offline license](https://docs.katalon.com/katalon-studio/docs/use-online-license.html#create#an#offline#license).
+Licenses are transferable. You need an internet connection to activate and validate licenses, although special rules apply to enable offline activation. See: [Create an offline license](https://docs.katalon.com/katalon-studio/docs/use-online-license.html#create-an-offline-license).
 
 ## Katalon Runtime Engine
 
@@ -77,7 +77,6 @@ With node-locked licenses, one machine running tests = one license.
 * A machine can be mapped to multiple licenses if needed.
 * For machines connected to the internet, the licenses can be transferred to other machines at no cost and as many times as needed.
 * For _annual licenses_ only: Licenses can be converted to be used in an offline environment. Once converted, the license cannot be transferred to another machine until it is expired.
-* Licenses purchased on a monthly basis cannot be converted for use in an offline environment.
 
 ### Floating License
 
