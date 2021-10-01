@@ -32,7 +32,7 @@ Follow these steps to grant KSE licenses:
 
   > Notes:
   >
-  > See [Types of Licenses](https://docs.katalon.com/katalon-studio/docs/overview.html#types#of#licenses) to understand the differences between a node-locked license and a floating license.
+  > See [Types of Licenses](https://docs.katalon.com/katalon-studio/docs/license.html#license-types) to understand the differences between a node-locked license and a floating license.
   
 3. Add users to the **Licensed Users** section.
 
