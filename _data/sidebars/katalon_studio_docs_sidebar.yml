@@ -865,6 +865,10 @@ items:
                 url: /katalon-studio/docs/ws-verify-response-status-code.html
               - title: "[WS] Verify Response Status Code In Range"
                 url: /katalon-studio/docs/ws-verify-response-status-code-in-range.html
+              - title: "[WS] Get HAR File Generation" 
+                url: /katalon-studio/docs/ws-get-har-file-generation.html
+              - title: "[WS] Set HAR File Generation" 
+                url: /katalon-studio/docs/ws-set-har-file-generation.html
           - title: "Windows Keywords"
             tree:
               - title: "[Windows] Clear Text"
