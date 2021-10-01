@@ -1,7 +1,7 @@
 ---
 title: "Test different browser locales in Chrome with Desired Capabilities"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/test-different-browser-locales-in-chrome-with-desired-capabilities.html
+permalink: /katalon-studio/docs/test-different-browser-locales-in-chrome-with-desired-capabilities.html
 redirect_from:
 description:
 ---
