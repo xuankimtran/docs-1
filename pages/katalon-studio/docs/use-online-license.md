@@ -107,7 +107,9 @@ Follow these steps:
 
 5. Enter the User's machine ID and input the expiry date, then click **Create**.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/create-offline-license-page.png" width="1424" height="" alt="create offline license page">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/create-offline-license-kse.png" width="1424" height="" alt="create offline license page">
+
+    You can also add a note on the offline license in the **Description** section.
 
   > Notes:
   >
