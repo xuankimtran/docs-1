@@ -7,7 +7,7 @@ redirect_from:
 description: 
 ---
 
-> **Katalon Record Utility** is an obsolete extension. For latest extension, see [Katalon Compact Utility](https://docs.katalon.com/katalon-studio/docs/katalon-compact-utility.html).
+> This solution is obsolete. For a better solution, consider our latest extension: [Katalon Compact Utility](https://docs.katalon.com/katalon-studio/docs/katalon-compact-utility.html).
 
 > Requirements:
 >

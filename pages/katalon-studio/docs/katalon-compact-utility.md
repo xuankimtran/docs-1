@@ -82,7 +82,7 @@ To configure and use Katalon Compact Utility, you need to update the Desired Cap
 
 	> Notes:
 	>
-	> Ensure to log out of all Chrome sessions before executing, since this extension is currently not supported multiple sessions.
+	> Before executing, ensure to log out of all Chrome sessions. This extension is currently not supported multiple sessions.
 
 See also:
 
