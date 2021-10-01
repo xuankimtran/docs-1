@@ -9,6 +9,34 @@ description: Release notes 8.x
 
 > Download [here](https://www.katalon.com/download/).
 
+## Version 8.2.0 Beta
+
+### New features
+
+* [Katalon Studio Enterprise] Introduced `setHarFileGeneration(boolean enable)` and `getHarFileGeneration` Web Service Keywords for disabling HAR file generation on demand. See [new docs]().
+
+### Enhancements
+
+* [Security] Addressed high-risk Security Vulnerabilities of Open-Source Software:
+    * [Sonar Cloud] Resolved Sonar Cloud Vulnerabilities report.
+    * [XMLBeans] Upgraded XMLBeans library to version 3.0.0.
+    * [Apache Commons Compress] Upgraded Apache Commons Compress library to version 1.21.
+* [Web testing] Improved Synchronization Handling for Web Testing:
+    * [Katalon Studio and Katalon Runtime ENgine] Improved the [Click](https://docs.katalon.com/katalon-studio/docs/webui-click.html) and [Click Offset](https://docs.katalon.com/katalon-studio/docs/webui-click-offset.html) Keyword to automatically delay and click again on an element behind a loading overlay.
+    * [Smart Wait] Supported detecting and waiting for fetch requests to finish before continuing with the next action.
+* Performance: Introduced **Delay between instances** option in Katalon Studio and `-delayBetweenInstances` parameter in Katalon Runtime Engine to execute Test Suite Collection in parallel mode. See [Command Syntax link]()
+* [Katalon Studio Enterprise] Introduced Idle Timeout Bypass Limit to automatically log out licensed users due to timeout. [Link]()
+* [Project Information]: Introduced an option in project settings to include or exclude timestamps in the .properties files.
+
+### Fixes
+
+* Bug: [CSV Report] Incorrect status for skipped Test Suite in CSV Report.
+* Bug: Unable to recognize namespace in SOAP Envelope Body.
+* Bug: [BDD] Failed feature file from the second run when calling custom keywords.
+* Bug: null.null Katalon version in the Report Viewer when deactivating the current account and activating a new one.
+* Bug: Incorrect information of test case in Log Report Viewer.
+* Bug: Not matching between the Elapsed time of execution in Katalon Studio and the generated report.
+
 ## Official Release - Version 8.1.0
 
 ### New features
