@@ -31,7 +31,9 @@ Follow these steps:
 
 5. Click **Test Connection**, then click **Save**.
 
-## Run tests with Kobiton devices
+You have enabled Kobiton integration. Now you can run tests with a Kobiton device in Katalon TestOps.
+
+## Run tests with a Kobiton device
 
 > Requirements:
 >
