@@ -8,7 +8,7 @@ description:
 
 ## Description
 
-Enable or disable HAR file generations on demand.
+Katalon Studio generates HAR file for each Web Service request by default. From version 8.2.0 onwards, you can use the `setHarFileGeneration` keyword to enable or disable HAR file generations on demand.
 
 ## Parameters
 
