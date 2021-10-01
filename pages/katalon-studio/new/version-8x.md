@@ -13,7 +13,7 @@ description: Release notes 8.x
 
 ### New features
 
-* [Katalon Studio Enterprise] Introduced `setHarFileGeneration(boolean enable)` and `getHarFileGeneration` Web Service Keywords for disabling HAR file generation on demand. See [new docs]().
+* [Web Service] Introduced `setHarFileGeneration(boolean enable)` and `getHarFileGeneration` Web Service Keywords for disabling HAR file generation on demand. See [new docs]().
 
 ### Enhancements
 
