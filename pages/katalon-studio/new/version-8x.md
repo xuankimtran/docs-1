@@ -13,7 +13,7 @@ description: Release notes 8.x
 
 ### New features
 
-* [Web Service] Introduced `setHarFileGeneration(boolean enable)` and `getHarFileGeneration` Web Service Keywords for disabling HAR file generation on demand. See [new docs]().
+* [Web Service] Introduced `setHarFileGeneration(boolean enable)` and `getHarFileGeneration` Web Service Keywords for disabling HAR file generation on demand. See [[WS] Set HAR File Generation](https://docs.katalon.com/katalon-studio/docs/ws-set-HAR-file-generation.html) and [[WS] Get HAR File Generation](https://docs.katalon.com/katalon-studio/docs/ws-get-HAR-file-generation.html).
 
 ### Enhancements
 
@@ -22,7 +22,7 @@ description: Release notes 8.x
     * [XMLBeans] Upgraded XMLBeans library to version 3.0.0.
     * [Apache Commons Compress] Upgraded Apache Commons Compress library to version 1.21.
 * [Web testing] Improved Synchronization Handling for Web Testing:
-    * [Katalon Studio and Katalon Runtime ENgine] Improved the [Click](https://docs.katalon.com/katalon-studio/docs/webui-click.html) and [Click Offset](https://docs.katalon.com/katalon-studio/docs/webui-click-offset.html) Keyword to automatically delay and click again on an element behind a loading overlay.
+    * [Katalon Studio and Katalon Runtime ENgine] Improved the `Click` and `Click Offset` Keywords to automatically delay and click again on an element behind a loading overlay. See [Click](https://docs.katalon.com/katalon-studio/docs/webui-click.html/#set-the-default-wait-for-element-timeout) and [Click Offset](https://docs.katalon.com/katalon-studio/docs/webui-click-offset.html/#set-the-default-wait-for-element-timeout).
     * [Smart Wait] Supported detecting and waiting for fetch requests to finish before continuing with the next action.
 * Performance: Introduced **Delay between instances** option in Katalon Studio and `-delayBetweenInstances` parameter in Katalon Runtime Engine to execute Test Suite Collection in parallel mode. See [Command Syntax](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html).
 * [Katalon Studio Enterprise] Introduced Idle Timeout Bypass Limit to automatically log out licensed users due to timeout. See [Configure Idle Timeout](https://docs.katalon.com/katalon-studio/docs/license-idle-timeout.html).
