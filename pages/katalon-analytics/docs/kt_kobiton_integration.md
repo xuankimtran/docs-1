@@ -4,6 +4,30 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/kt_kobiton_integration.html
 ---
 
+You can enable Kobiton integration in Katalon TestOps to enhance your real-device testing experiences.
+
+> Requirements:
+>
+> You have already registered a [Kobiton](https://kobiton.com/) account.
+
+## Integrate Kobiton with Katalon TestOps
+
+Follow these steps:
+
+1. Sign in to [Katalon TestOps](https://testops.katalon.io/login) and go to your Project.
+2. Go to **Configurations** > **Integrations**.
+
+    The **Integrations** page appears.
+3. Select **Kobiton** in the dropdown list.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/schedule-test-run-button.png" width=100% alt="kobiton dropdown">
+
+4. Fill in the required information.
+
+    * **Kobiton Device URL**: enter the URL from your Kobiton Device.
+    * **Username**: enter your Kobiton username.
+    * **Kobiton's API Key**: enter your 
+
 We can configure Kobiton Integration with Katalon TestOps. First, on the board Katalon Integration, we assign the Kobiton Device URL (1), Username (2), Kobiton's API Key (3). Then, we click the buttons **Test Connection** (4) and **Save** (5).
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt_kobiton_integration/kt_kobiton_integration.png)
