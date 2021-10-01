@@ -57,7 +57,7 @@ Katalon Studio generates HAR file for each Web Service request by default. From 
 
 > Exception:
 >
-> If Katalon Studio could not save the setting, throw: **StepFailedException**
+> If Katalon Studio could not save the setting, throw: **StepFailedException**.
 
 ### Returns
 

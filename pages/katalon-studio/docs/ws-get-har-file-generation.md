@@ -45,7 +45,7 @@ Check HAR file generation option is enabled or disabled.
 
 > Exception:
 >
-> If Katalon Studio could not save the setting, throw: **StepFailedException**
+> If Katalon Studio could not get the setting, throw: **StepFailedException**.
 
 ### Returns
 
