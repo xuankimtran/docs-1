@@ -38,6 +38,11 @@ Follow these steps to grant KSE licenses:
 
   You have granted the KSE licenses to your users.
 
+> Notes:
+>
+> * For KSE node-locked licenses, the number of assigned users cannot exceed the license quota.
+> * For KSE floating licenses, there is no limit on the number of assigned users.
+
 For KRE, all members of your Organization can use the KRE licenses by default if your Organization has purchased only one type of license, either node-locked or floating.
 
 If your Organization has purchased both types of licenses at the same time, all members of your Organization can use the KRE node-locked licenses by default. However, to use the KRE floating licenses, you have to assign the license to your users by following these steps:
@@ -53,7 +58,7 @@ If your Organization has purchased both types of licenses at the same time, all 
 
 > Notes:
 >
-> To optimize license usage and avoid session termination, the Owner and Admin must remember the following rules:
+> For both KRE node-locked and floating licenses, there is no limit on the number of assigned users. However, to optimize license usage and avoid session termination, the Owner and Admin must remember the following rules:
 >
 > * Each session accounts for one license.
 > * The number of parallel sessions cannot exceed the license quota.
