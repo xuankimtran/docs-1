@@ -24,7 +24,7 @@ description: Release notes 8.x
 * [Web testing] Improved Synchronization Handling for Web Testing:
     * [Katalon Studio and Katalon Runtime ENgine] Improved the [Click](https://docs.katalon.com/katalon-studio/docs/webui-click.html) and [Click Offset](https://docs.katalon.com/katalon-studio/docs/webui-click-offset.html) Keyword to automatically delay and click again on an element behind a loading overlay.
     * [Smart Wait] Supported detecting and waiting for fetch requests to finish before continuing with the next action.
-* Performance: Introduced **Delay between instances** option in Katalon Studio and `-delayBetweenInstances` parameter in Katalon Runtime Engine to execute Test Suite Collection in parallel mode. See [Command Syntax link]().
+* Performance: Introduced **Delay between instances** option in Katalon Studio and `-delayBetweenInstances` parameter in Katalon Runtime Engine to execute Test Suite Collection in parallel mode. See [Command Syntax](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html).
 * [Katalon Studio Enterprise] Introduced Idle Timeout Bypass Limit to automatically log out licensed users due to timeout. See [Configure Idle Timeout](https://docs.katalon.com/katalon-studio/docs/license-idle-timeout.html).
 * [Project Information]: Introduced an option in project settings to include or exclude timestamps in the .properties files.
 
