@@ -32,15 +32,15 @@ This article will show you how to install the extension, configure your Profile,
 
 ## Configuring and Using the Compact Utility with Chrome Profile
 
-The next steps will help you associate your Chrome Profile with the Compact Chrome (with Profile) function in Katalon Studio.
+The next steps will help you associate your Chrome Profile with the Spy, Record and Smart Wait in Katalon Studio.
 
 ### Finding your Chrome Profile in the User Data Directory
 
-There are multiple Profiles in a given User Data Directory. This section will help you find the path to the correct one.
+There are multiple Profiles in a given User Data Directory. This section will help you find the name of the correct one.
 
 1. Open Chrome with the Profile you previously used to install Katalon Compact Utility. In the address bar, type `chrome://version` and press Enter.
 
-2. The line "Profile Path:" now displays the path to your *active* Profile. For example: `C:\Users\your_username\AppData\Local\Google\Chrome\User Data\your_profile_name`.
+2. The line **Profile Path**: now displays the path to your active Profile. For example: `C:\Users\your_username\AppData\Local\Google\Chrome\User Data\your_profile_name`.
 3. Copy your profile name.
 4. Close Chrome.
 
@@ -48,7 +48,7 @@ There are multiple Profiles in a given User Data Directory. This section will he
 
 To configure and use Katalon Compact Utility, you need to update the Desired Capabilities. Do as follow:
 1. Go to **Project > Settings > Desired Capabilities**.
-2. In the **Desired Capabilities** section, select **WebUI > Chrome**.
+2. In the **Desired Capabilities** section, select **Web UI > Chrome**.
 3. Click **Add** to create a new capability named `args`, which type is `List`.
 4. To add elements to your list, in the **Value** column of the capability you've created, click on the `...` button.
 
