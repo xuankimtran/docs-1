@@ -15,19 +15,19 @@ You can execute an automation test without launching Katalon Studio by using com
 
 > Prerequisites:
 > * Katalon Runtime Engine installed. You can download Katalon Runtime Engine here: [Katalon](https://www.katalon.com/all-products/).
-> * A Katalon Runtime Engine License. To learn more about activating license, you can refer to this document: [Katalon license](https://docs.katalon.com/katalon-studio/docs/license.html)
+> * A Katalon Runtime Engine License. To learn more about activating license, you can refer to this document: [Katalon license](https://docs.katalon.com/katalon-studio/docs/license.html).
 
 >
 > Katalon Studio only supports **Chrome, Firefox, and Remote** options for console mode execution using the **Linux** version.
 >
-> From version 7.9.0 onwards, you can change default JRE 8 to higher versions in console mode. [Learn more](https://docs.katalon.com/katalon-studio/docs/change-default-JRE-8-to-higher-versions.html)
+> From version 7.9.0 onwards, you can change default JRE 8 to higher versions in console mode. You can refer to this document for further detail: [Run tests with another JRE in the command line](https://docs.katalon.com/katalon-studio/how-to-guides/set-new-default-JRE.html#use-the-newly-added-jre-in-a-test-project).
 
 ## Execute Katalon Studio in console mode
 
 > The Katalon launcher (`katalon.exe`) is replaced by `katalonc.exe`.
 
 1. Open the command prompt and navigate to the folder of your Katalon Studio build: `katalonc.exe` (Windows), Applications folder (Mac OS), or `katalonc` (Linux) file.
-2. Enter the following syntax to execute automation test:
+2. Enter the following syntax to execute the automation test:
 
     **Windows:**
 
@@ -267,7 +267,7 @@ Here's the list of options supported for the `katalonc` commands for Katalon Stu
 				<p>-orgID=&lt;organization's id&gt;</p>
 			</td>
 			<td>
-				<p>From version 8.0.0, you can release the previous execution session before checking license.</p>
+				<p>From version 8.0.0, you can release the previous execution session before checking the license.</p>
 				<p>Example:</p>
 				<p><code> -licenseRelease=true </code></p>
 				<p><code> -orgID=89151</code></p>
@@ -290,12 +290,12 @@ Here's the list of options supported for the `katalonc` commands for Katalon Stu
    <tbody>
       <tr>
          <td>-consoleLog</td>
-         <td>Display log in the console. Only use this option when running Katalon Studio in Windows Command Prompt. Do not use this option in other OSes or CI tools e.g., Jenkins.</td>
+         <td>Display log in the console. Only use this option when running Katalon Studio in Windows Command Prompt. Do not use this option in other OSes or CI tools for example, Jenkins.</td>
          <td>N</td>
       </tr>
       <tr>
          <td>-noExit</td>
-         <td>Keep the console open after the execution is completed. Only use this option when running Katalon Studio in Windows Command Prompt. Do not use this option in other OSes or CI tools e.g., Jenkins.</td>
+         <td>Keep the console open after the execution is completed. Only use this option when running Katalon Studio in Windows Command Prompt. Do not use this option in other OSes or CI tools for example, Jenkins.</td>
          <td>N</td>
       </tr>
    </tbody>
@@ -305,9 +305,9 @@ Here's the list of options supported for the `katalonc` commands for Katalon Stu
 
 > From version 7.5.0 onwards, there are two types of proxy configurations: Authentication and System proxies. To learn more about configuring different proxy preferences, you can refer to this document: [Proxy Preferences](https://docs.katalon.com/katalon-studio/docs/proxy-preferences.html) for further details.
 >
-> From version 7.2.0 onwards, you can exclude proxy in **Manual proxy configuration**. To learn more about excluding proxy manually, you can refer to this document: [Proxy settings](https://docs.katalon.com/katalon-studio/docs/katalon-studio-preferences.html#proxy-settings).
+> From version 7.2.0 onwards, you can exclude proxy in the **Manual proxy configuration**. To learn more about excluding proxy manually, you can refer to this document: [Proxy settings](https://docs.katalon.com/katalon-studio/docs/katalon-studio-preferences.html#proxy-settings).
 >
-> From version version 7.0.0 onwards, you can pass proxy details via a request object in Web Service testing. To learn more about pass proxy details through the script, you can refer to this document: [Override proxy details in the test script](https://docs.katalon.com/katalon-studio/docs/proxy-preferences.html#pass-proxy-details-through-the-script).
+> From version 7.0.0 onwards, you can pass proxy details via a request object in Web Service testing. To learn more about pass proxy details through the script, you can refer to this document: [Override proxy details in the test script](https://docs.katalon.com/katalon-studio/docs/proxy-preferences.html#pass-proxy-details-through-the-script).
 
 These proxy options must be used with `--config` parameter e.g. `--config -proxy.auth.option=MANUAL_CONFIG`.
 
@@ -371,6 +371,8 @@ katalonc -noSplash -runMode=console -projectPath="C:\Users\Katalon Studio\Projec
 
 ### System Proxy
 
+- For Katalon version 7.5.0 onwards, do as follows:
+
 <table>
    <thead>
       <tr>
@@ -428,7 +430,7 @@ katalonc -noSplash -runMode=console -projectPath="C:\Users\Katalon Studio\Projec
    </tbody>
 </table>
 
-### Proxy Configurations prior to 7.5.0
+- For Katalon version older than 7.5.0, do as follows:
 
 <table>
    <thead>
@@ -596,7 +598,7 @@ We recommend using the Command Builder to generate commands quickly and precisel
 
    * **Execution Configurations** (Or **Other Options** in versions older than 7.7.0).
    
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/condition%20to%20stop%20-%202.png" alt="execution configurations" width=70%>
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/condition%20to%20stop%20-%202.png" alt="execution configurations" width=60%>
 
       From version 8.1.0 onwards, you can terminate execution after T test failures (T is the failure threshold value) with the option: **Terminate the execution once the total number of test failures reaches the input threshold**. See also: [Terminate Execution Conditionally](https://docs.katalon.com/katalon-studio/docs/terminate-execution-conditionally.html).
    * **Katalon TestOps**: Override the Project ID in Katalon TestOps (available from version 7.8 onwards).
