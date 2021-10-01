@@ -6,6 +6,9 @@ redirect_from:
 
 description: 
 ---
+
+> **Katalon Record Utility** is an obsolete extension. For latest extension, see [Katalon Compact Utility](https://docs.katalon.com/katalon-studio/docs/katalon-compact-utility.html).
+
 > Requirements:
 >
 >* Katalon Studio version 8.0.5 or higher.

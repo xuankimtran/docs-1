@@ -55,46 +55,33 @@ To configure and use Katalon Compact Utility, you need to update the Desired Cap
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-compact-utility/capability.png" alt="element" width=80%>
 
 5. The **List Properties Builder** dialog appears. Click **Add** to create two elements as below:
-    
-    <table width="70%">
-	<tbody>
-	<tr>
-	<td><strong>Type</strong></td>
-	<td><strong>Value</strong></td>
-    </tr>
-	<tr>
-	<td rowspan="2">Element 1</td>
-	<td rowspan="2">String</td>
-	<td>
-	<div>
-	<div>For Windows: <code>user-data-dir=C:/Users/&lt;your_username&gt;/Desktop/User Data</code></div>
-	</div>
-	</td>
-    </tr>
-	<tr>
-	<td>
-	<div>
-	<div>For Mac OS: <code>user-data-dir=/Users/&lt;username&gt;/Library/Application Support/Google/Chrome</code></div>
-	</div>
-	</td>
-	</tr>
-	<tr>
-	<td>Element 2</td>
-	<td>String</td>
-	<td>
-	<div>
-	<div><code>profile-directory=&lt;your_profile_name&gt;</code></div>
-	</div>
-	</td>
-	</tr>
-	</tbody>
-    </table>
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-compact-utility/list-properties-builder.png" alt="list" width=70%>
+	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-compact-utility/list-properties-builder.png" alt="list" width=80%>
+    
+<table>
+	<tbody>
+		<tr>
+			<td><strong>Type</strong></td>
+			<td><strong>Value</strong></td>
+		</tr>
+		<tr>
+			<td rowspan="2">String<br /><br /></td>
+			<td>For Windows:&nbsp;<code>user-data-dir=C:/Users/&lt;your_username&gt;/Desktop/User Data</code></td>
+		</tr>
+		<tr>
+			<td>For Mac OS:&nbsp;<code>user-data-dir=/Users/&lt;username&gt;/Library/Application Support/Google/Chrome</code></td>
+		</tr>
+		<tr>
+			<td>String</td>
+			<td>profile-directory=&lt;your_profile_name&gt;</td>
+		</tr>
+	</tbody>
+</table>
 
 6. Execute feature by default Chrome option.
 
 See also:
+
 * [Spy Web Utility](https://docs.katalon.com/katalon-studio/docs/spy-web-utility.html)
-* [Record with Chrome using Packed Extension](https://docs.katalon.com/katalon-studio/docs/record-web-utility-using-chrome-with-profile.html)
+* [Creating test cases using Record & Playback](https://docs.katalon.com/katalon-studio/docs/create_test_case_using_record_playback.html)
 * [[WebUI] Smart Wait Function](https://docs.katalon.com/katalon-studio/docs/webui-smartwait.html)
