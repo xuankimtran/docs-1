@@ -17,71 +17,81 @@ You can use `WebDriverEventListener` to handle events started by the WebDriver, 
 
 Below is an example use of a custom `WebDriverEventListener`:
 
-1. Create a new keyword to handle WebDriver events.
-- Go to **File > New > Keywords**. Name it as **MyCustomWebEventListener**. Click **OK**.
-- Copy and paste below sample code into the created keyword.
+1. Create a new package to contain a keyword. Go to **File > New > Package**. Here, we name the package **customkeyword**.
+2. Create a new keyword to handle WebDriver events.
+      - Go to **File > New > Keywords**. A **New** dialog opens.
+      - Click **Browse** to choose a package for your keyword, then manually type the class name. Here, we choose the package created from Step 1 and name the keyword **MyCustomWebEventListener**. Click **OK**. A new keyword page opens.
+   		
+		   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/handle-webdrivers/KS-WEBDRIVER-Choose-package-and-name-the-keyword.png" width="50%" alt="Choose the package and create the keyword">
 
-```groovy
+      - Copy and paste below sample code into the created keyword.
 
-import org.openqa.selenium.WebDriver
-import org.openqa.selenium.support.events.AbstractWebDriverEventListener
+		```groovy
 
-public class MyCustomWebEventListener extends AbstractWebDriverEventListener {
-	@Override
-	public void beforeNavigateTo(String url, WebDriver driver) {
-		 println "Before navigating to " + url;
-	}
-}
-```
+		import org.openqa.selenium.WebDriver
+		import org.openqa.selenium.support.events.AbstractWebDriverEventListener
 
-2. Register `MyCustomWebEventListener` with WebDriver.
+		public class MyCustomWebEventListener extends AbstractWebDriverEventListener {
+			@Override
+			public void beforeNavigateTo(String url, WebDriver driver) {
+				println "Before navigating to " + url;
+			}
+		}
+		```
 
-```groovy
-import org.openqa.selenium.WebDriver as WebDriver
-import org.openqa.selenium.support.events.EventFiringWebDriver as EventFiringWebDriver
+		<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/handle-webdrivers/KS-WEBDRIVER-final-results-after-creating-the-keyword.png" width="50%" alt="Final results after creating the keyword">
 
-import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
-import customlistener.MyCustomWebEventListener as MyCustomWebEventListener
+3. Open your test script. To register `MyCustomWebEventListener` with WebDriver, copy and paste the sample code as below:
 
-WebUI.openBrowser('')
+	```groovy
+	import org.openqa.selenium.WebDriver as WebDriver
+	import org.openqa.selenium.support.events.EventFiringWebDriver as EventFiringWebDriver
 
-WebDriver webdriver = DriverFactory.getWebDriver()
+	import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+	import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
-EventFiringWebDriver eventFiring = ((webdriver) as EventFiringWebDriver)
+	import customlistener.MyCustomWebEventListener as MyCustomWebEventListener
 
-eventFiring.register(new MyCustomWebEventListener())
+	WebUI.openBrowser('')
 
-DriverFactory.changeWebDriver(eventFiring)
+	WebDriver webdriver = DriverFactory.getWebDriver()
 
-WebUI.navigateToUrl('www.google.com')
+	EventFiringWebDriver eventFiring = ((webdriver) as EventFiringWebDriver)
 
-WebUI.closeBrowser()
-```
+	eventFiring.register(new MyCustomWebEventListener())
 
-3. Observe the result in the Console log.
+	DriverFactory.changeWebDriver(eventFiring)
 
-```groovy
-2021-09-13 09:16:21.722 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = ebf7a901164241457b656ffece5da9b0
-2021-09-13 09:16:21.747 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 93.0.4577.63
-2021-09-13 09:16:21.753 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
-2021-09-13 09:16:21.754 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 3.141.59
-2021-09-13 09:16:21.773 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
-2021-09-13 09:16:22.642 DEBUG testcase.WebDriver Event Listeners       - 2: webdriver = getWebDriver()
-2021-09-13 09:16:22.652 DEBUG testcase.WebDriver Event Listeners       - 3: eventFiring = webdriver
-2021-09-13 09:16:22.673 DEBUG testcase.WebDriver Event Listeners       - 4: eventFiring.register(new customlistener.MyCustomWebEventListener())
-2021-09-13 09:16:22.693 DEBUG testcase.WebDriver Event Listeners       - 5: changeWebDriver(eventFiring)
-2021-09-13 09:16:22.699 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = ebf7a901164241457b656ffece5da9b0
-2021-09-13 09:16:22.711 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 93.0.4577.63
-2021-09-13 09:16:22.711 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
-2021-09-13 09:16:22.712 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 3.141.59
-2021-09-13 09:16:22.713 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
-2021-09-13 09:16:22.722 DEBUG testcase.WebDriver Event Listeners       - 6: navigateToUrl("www.google.com")
-Before navigating to http://www.google.com
-2021-09-13 09:16:23.220 DEBUG testcase.WebDriver Event Listeners       - 7: closeBrowser()
-2021-09-13 09:16:23.243 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/WebDriver Event Listeners
-```
+	WebUI.navigateToUrl('www.google.com')
+
+	WebUI.closeBrowser()
+	```
+	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/handle-webdrivers/KS-WEBDRIVER-Results-after-registering-custom-keyword.png" width="50%" alt="Final results after registering the keyword">
+
+
+4. Hit **Run**, then observe the result in the Console log.
+
+	```groovy
+	2021-09-13 09:16:21.722 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = ebf7a901164241457b656ffece5da9b0
+	2021-09-13 09:16:21.747 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 93.0.4577.63
+	2021-09-13 09:16:21.753 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+	2021-09-13 09:16:21.754 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 3.141.59
+	2021-09-13 09:16:21.773 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+	2021-09-13 09:16:22.642 DEBUG testcase.WebDriver Event Listeners       - 2: webdriver = getWebDriver()
+	2021-09-13 09:16:22.652 DEBUG testcase.WebDriver Event Listeners       - 3: eventFiring = webdriver
+	2021-09-13 09:16:22.673 DEBUG testcase.WebDriver Event Listeners       - 4: eventFiring.register(new customlistener.MyCustomWebEventListener())
+	2021-09-13 09:16:22.693 DEBUG testcase.WebDriver Event Listeners       - 5: changeWebDriver(eventFiring)
+	2021-09-13 09:16:22.699 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = ebf7a901164241457b656ffece5da9b0
+	2021-09-13 09:16:22.711 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 93.0.4577.63
+	2021-09-13 09:16:22.711 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+	2021-09-13 09:16:22.712 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 3.141.59
+	2021-09-13 09:16:22.713 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+	2021-09-13 09:16:22.722 DEBUG testcase.WebDriver Event Listeners       - 6: navigateToUrl("www.google.com")
+	Before navigating to http://www.google.com
+	2021-09-13 09:16:23.220 DEBUG testcase.WebDriver Event Listeners       - 7: closeBrowser()
+	2021-09-13 09:16:23.243 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/WebDriver Event Listeners
+	```
 
 ## Use RemoteWebDriver
 
