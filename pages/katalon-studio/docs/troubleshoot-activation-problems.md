@@ -2,6 +2,7 @@
 title: "Troubleshoot Activation Problems"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/troubleshoot-activation-problems.html
+redirect_from: /katalon-analytics/docs/network-config.html
 ---
 
 ## Configure Time Zone
@@ -68,7 +69,7 @@ If the number of machines on which you're using Katalon Studio exceeds the numbe
 
 **<details><summary>Network Security errors</summary>**
 
-For an enterprise user with a private network, you might encounter this problem when executing test scripts or integrating Katalon Studio.
+For Enterprise users with a private network, you may encounter a situation where you fail to execute test scripts, integrate Katalon Studio, and/or access Katalon TestOps, due to the network security error.
 
 Contact your IT team to whitelist the following domains:
 
@@ -78,6 +79,20 @@ Contact your IT team to whitelist the following domains:
 * testops.katalon.io
 * admin.katalon.com
 * katalon-test.s3-accelerate.amazonaws.com (used for uploading reports to [Katalon TestOps](https://testops.katalon.io))
+
+</details>
+
+**<details><summary>IP Addresses errors</summary>**
+
+For Katalon TestOps's network configuration, you may encounter a problem when you integrate with an On-Premises development system such as Jira Server or Azure DevOps Server.
+
+Contact your IT team to whitelist the following IP addresses:
+
+* 52.45.203.41
+
+* 52.203.34.201
+
+* 35.172.81.5
 
 </details>
 
