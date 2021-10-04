@@ -18,7 +18,7 @@ Time differences might affect the validation of licenses on the Katalon Server.
 > * To find the exceptions and errors you encountered, use **Ctrl+F**.
 > * If you cannot find the exceptions or error message you encountered, you can leave a comment below for further support.
 
-Here is the list of common issues when activating Katalon Studio and instructions to solve them:
+Here is the list of common issues when activating Katalon Studio and/or starting Katalon TestOps, followed by the instructions to solve them:
 
 **<details><summary>Cannot connect to Katalon TestOps server. Please check your Internet connection and try again (1).</summary>**
 
@@ -34,7 +34,7 @@ This error message means that the application has failed to communicate with Kat
 
 Check your Internet connection and try again.
 
-If you are behind a **Proxy Server**, configure proxy authentication first and then activate Katalon Studio again. See [Configure Proxy](https://docs.katalon.com/katalon-studio/docs/configure-proxy.html)
+If you are behind a **Proxy Server**, configure proxy authentication first and then activate Katalon Studio again. See: [Configure Proxy for Authentication](https://docs.katalon.com/katalon-studio/docs/configure-proxy.html).
 
 </details>
 
@@ -125,7 +125,7 @@ When your trial period expires, you must subscribe to each product to continue u
 
 Currently, the free license for Katalon Runtime Engine is not available.
 
-If you or your enterprise has purchased Katalon licenses but you are not able to use them, check if you have permission to use it. See [Grant Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/use-online-license.html).
+If your Enterprise has purchased Katalon licenses but you are not able to use them, check if you have permissions to use the licenses. See [Grant Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/use-online-license.html).
 
 </details>
 
