@@ -227,6 +227,7 @@ The **Tests Explorer** view allows you to browse the structure of your project
 | Keywords | List all [custom keywords](/display/KD/Introduction+to+Custom+Keywords) of the current project |
 | Test Listeners | List all [test listeners](https://docs.katalon.com/katalon-studio/docs/fixtures-listeners.html#test-listeners-test-hooks) of the current project |
 | Reports | List all generated [reports](/display/KD/Test+Report) of the current project |
+| TestOps | Contains all test runs from [TestOps server](https://testops.katalon.io/) |
 | Include | Contains [Cucumber](/x/wRDR) Features File and Step Definitions |
 | Plugins | Contains all [plugins](https://docs.katalon.com/katalon-studio/docs/kse-use-plugins.html#introduction-to-plugins) file of the current project
 
@@ -236,15 +237,13 @@ The **Tests Explorer** view allows you to browse the structure of your project
 >
 > <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/explorer-settings.png" alt="explorer settings" width="70%">
 
-Keywords Browser View
----------------------
+## Keywords Browser View
 
-The **Keywords Browser** view displays all available keywords supported by Katalon Studio. You can drag and drop the keywords here to the Test Case editor when scripting.
+The **Keywords Browser** view displays all available keywords supported by Katalon Studio, including built-in keywords, custom keywords, and utils. When you create a Test Case script, you can drag and drop the keywords in the **Keywords Browser** to the Test Case editor.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2017-2-20-173A263A5.png)
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/keywords-browser.png" width="70%" alt="keywords browser">
 
-Editors
--------
+## Editors
 
 The editor is used to modify the detailed information of an object. Each test artifact has its own editor.
 
@@ -258,44 +257,50 @@ When you open a test case, its detailed information is shown in the editor that 
 *   Integration tab
 *   Properties tab
 
-#### Manual tab
+**Manual tab**
 
-The Manual tab displays the Manual view where the basic keyword-driven-configuration allows novice users to create automation tests effortlessly. Refer to [Manual View](/display/KD/Manual+View) for more details.
+The Manual tab displays the Manual view, where the basic keyword-driven-configuration allows novice users to create automation tests effortlessly. Refer to [Manual View](/display/KD/Manual+View) for more details.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2017-6-29-153A303A14.png)
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/manual-view.png" alt="manual tab" width=100%>
 
-#### Script tab
+**Script tab**
 
 This tab displays the Script view where advanced users with programming background can modify test scripts easily using either Groovy or Java. Refer to [Script View](/display/KD/Script+View) for more details.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2017-6-29-153A303A45.png)
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/script-tab.png" alt="script" width=100%>
 
-#### Variables tab
+**Variables tab**
 
 The Variables tab shows all variables defined for the test case. Refer to [Public Variables](/display/KD/Variable+Types#VariableTypes-Publicvariables) for more details.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2017-6-29-153A313A50.png)
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/variables.png" alt="variable" width=70%>
 
-#### Integration tab
+**Variables tab (Script mode)**
+
+The Variables tab (Script mode) shows all variables defined for the test case in script mode.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/variables-script.png" alt="variable script" width=100%>
+
+**Integration tab**
 
 Information regarding your test case integration with qTest is displayed in this tab. Refer to [Integrate test case](/display/KD/Integrate+test+case) for more details.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2017-10-11-133A323A45.png)
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/integration.png" alt="integration" width=70%>
 
-#### Properties tab
+**Properties tab**
 
-General information about the test case is displayed in this tab.
+This tab displays general information about the test case.
 
-*   **Description:** Users can add or edit this field to provide detail information about a test case
-*   **Comment: **This field is **read-only**. The content is extracted and populated from [Comment](/display/KD/%5BCommon%5D+Comment) keyword in the test case. Business users can leverage comment field to involve in development process by providing the requirements. The example below shows the description of a test case that verify successful login and comment field shows the scenario written in BDD's Gherkin syntax.
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/properties.png" alt="properties" width=100%>
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2017-6-23-153A413A54.png)
+* **Description:** Users can add or edit this field to provide detail information about a test case
+* **Comment**: This field is read-only field. The content is extracted and populated from [Comment](/display/KD/%5BCommon%5D+Comment) keyword in the test case. Business users can leverage comment field to involve in development process by providing the requirements. The example below shows the description of a test case that verify successful login and comment field shows the scenario written in BDD's Gherkin syntax.
 
 ### Test Object Editor
 
-When you open a test object, its detailed information including properties and object identification mechanism is displayed in the Test Object editor. Refer to [Spy Object](/display/KD/Record+and+Spy+Utilities) for more details.
+To open a Test Object, go to **Test Explorer > Object Repository** and select the object you want to open. The Test Object Editor displays all detailed information of a Test Object, including properties and object identification mechanism. Refer to [Spy Object](/display/KD/Record+and+Spy+Utilities) for more details.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2018-9-6-103A383A21.png)
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/object-editor.png" alt="object editor" width=100%>
 
 ### Web Service Editor
 
@@ -350,8 +355,6 @@ When you open a data file, its detailed information including the data source an
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2017-2-20-173A93A51.png)
 *   If the test data is from a database query:
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2017-2-20-173A93A21.png)
-
-
 
 ### Checkpoint Editor
 
