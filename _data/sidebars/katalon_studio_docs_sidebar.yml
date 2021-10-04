@@ -318,7 +318,7 @@ items:
                   - title: "Terminate WebDrivers"
                     url: /katalon-studio/docs/terminate-webdrivers.html
                   - title: "Upgrade or Downgrade WebDrivers"
-                    url: /katalon-studio/docs/upgrade-or-downgrade-webdrivers.html
+                    url: /katalon-studio/docs/update-or-downgrade-webdrivers.html
                   - title: "Handle WebDrivers with EventFiringWebDriver"
                     url: /katalon-studio/docs/handle-webdrivers-with-event-firing-webdriver.html
               - title: "Testing Web App on Mobile Browsers"
