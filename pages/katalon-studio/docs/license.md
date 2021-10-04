@@ -13,7 +13,7 @@ This section provides information on the licensing system of Katalon. You will f
 
 Katalon Studio provides free, basic tools suitable for the testing needs of individuals. For an advanced business solution, consider purchasing Katalon Studio Enterprise licenses. For feature comparison between KS and KSE, see [Katalon Studio vs Katalon Studio Enterprise Features](https://docs.katalon.com/katalon-studio/docs/katalon-studio-vs-katalon-studio-enterprise.html).
 
-One KSE license is exclusively assigned to one Katalon account and can be activated/used on one machine at a time. Licenses are transferable. You need an internet connection to activate and validate licenses, although special rules apply to enable offline activation. See: [Create an offline license](https://docs.katalon.com/katalon-studio/docs/use-online-license.html#create#an#offline#license).
+One KSE license can be activated and used on one machine at a time. Licenses are transferable. You need an internet connection to activate and validate licenses, although special rules apply to enable offline activation. See: [Create an offline license](https://docs.katalon.com/katalon-studio/docs/use-online-license.html#create-an-offline-license).
 
 ## Katalon Runtime Engine
 
@@ -35,13 +35,13 @@ There are two types of licenses for KSE and KRE: node-locked and floating. Depen
 			<td>
 				<p>One license is assigned to one machine ID.</p>
 			</td>
-			<td>One license is assigned to one execution session and can be shared between 3 machines.</td>
+			<td>One license is assigned to one execution session and can be shared across multiple machines.</td>
 		</tr>
 		<tr>
 			<td>
 				<p>Licenses are transferable.</p>
 			</td>
-			<td>Licenses need to be assigned.</td>
+			<td>Licenses are transferable.</td>
 		</tr>
 		<tr>
 			<td>
@@ -77,7 +77,6 @@ With node-locked licenses, one machine running tests = one license.
 * A machine can be mapped to multiple licenses if needed.
 * For machines connected to the internet, the licenses can be transferred to other machines at no cost and as many times as needed.
 * For _annual licenses_ only: Licenses can be converted to be used in an offline environment. Once converted, the license cannot be transferred to another machine until it is expired.
-* Licenses purchased on a monthly basis cannot be converted for use in an offline environment.
 
 ### Floating License
 
@@ -85,9 +84,9 @@ For scaling teams with dynamic usage, floating licenses reduce the management co
 
 This license type is applied to all types of execution environments, including cloud or virtual machines with dynamic hardware specifications (to execute tests in Docker, Azure, AWS).
 
-* One floating license can be shared across a maximum of 3 machines.
+* One floating license can be shared across multiple machines.
 * One floating license is assigned to one execution session at a time.
 
 For instance, you have 1 floating Katalon Studio Enterprise license attached to the email example@katalon.com.
 
-You can use example@katalon.com to log in to Katalon Studio on up to 3 different machines, but not at the same time. This is because  example@katalon.com represents only 1 floating Katalon Studio Enterprise license. Therefore, you can only be active on 1 of those 3 machines at a time.
+You can use example@katalon.com to log in to Katalon Studio on multiple different machines, but not at the same time. This is because  example@katalon.com represents only 1 floating Katalon Studio Enterprise license. Therefore, you can only be active on 1 of those machines at a time.

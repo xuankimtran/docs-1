@@ -32,26 +32,43 @@ Follow these steps to grant KSE licenses:
 
   > Notes:
   >
-  > See [Types of Licenses](https://docs.katalon.com/katalon-studio/docs/overview.html#types#of#licenses) to understand the differences between a node-locked license and a floating license.
+  > See [Types of Licenses](https://docs.katalon.com/katalon-studio/docs/license.html#license-types) to understand the differences between a node-locked license and a floating license.
   
 3. Add users to the **Licensed Users** section.
 
-  You have granted the KSE licenses to Users.
+  You have granted the KSE licenses to your users.
 
-For KRE, all Users of an Organization can use the KRE licenses by default once the Organization has purchased the KRE licenses.
+> Notes:
+>
+> * For KSE node-locked licenses, the number of assigned users cannot exceed the license quota.
+> * For KSE floating licenses, there is no limit on the number of assigned users.
 
-However, to optimize license usage and avoid session termination, the Owner and Admin must remember the following rules:
+For KRE, all members of your Organization can use the KRE licenses by default if your Organization has purchased only one type of license, either node-locked or floating.
 
-* Each session accounts for one license.
-* The number of parallel sessions cannot exceed the license quota.
-* The number of registered machine IDs cannot exceed the license quota. You can remove a registered machine ID by following this guide: [Manage Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license-management.html#revoke-a-license).
-* Users need [API Keys](https://docs.katalon.com/katalon-studio/docs/katalon-apikey-70.html) to activate a KRE online license.
+If your Organization has purchased both types of licenses at the same time, all members of your Organization can use the KRE node-locked licenses by default. However, to use the KRE floating licenses, you have to assign the license to your users by following these steps:
+
+1. Sign in to [Katalon TestOps](https://testops.katalon.io/login), select your Organization, then go to **Settings** > **License Management**.
+
+    The **Licenses** page appears.
+
+2. Choose KRE (Floating).
+3. Add users to the **Licensed Users** section.
+
+  You have granted the KRE floating licenses to your users.
+
+> Notes:
+>
+> For both KRE node-locked and floating licenses, there is no limit on the number of assigned users. However, to optimize license usage and avoid session termination, the Owner and Admin must remember the following rules:
+>
+> * Each session accounts for one license.
+> * The number of parallel sessions cannot exceed the license quota.
+> * Users need [API Keys](https://docs.katalon.com/katalon-studio/docs/katalon-apikey-70.html) to activate a KRE online license.
 
 Your users can now activate their KSE and KRE licenses. You can refer them to this link for activation: [Activate Katalon License](https://docs.katalon.com/katalon-studio/docs/activate-license.html).
 
 Granting a license this way allows you to transfer a license freely among registered users of an Organization as long as the number of licensed users does not exceed the license quota.
 
-You can revoke these licenses at any time by following this guide: [Manage Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license-management.html).
+You can revoke these licenses at any time by following this guide: [Manage Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license-management.html#revoke-and-transfer-a-license).
 
 If the users you wish to grant a license to are not connected to the internet, you can instead generate an offline license.
 
@@ -95,7 +112,9 @@ Follow these steps:
 
 5. Enter the User's machine ID and input the expiry date, then click **Create**.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/create-offline-license-page.png" width="1424" height="" alt="create offline license page">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/create-offline-license-kse.png" width=100% alt="create offline license page">
+    
+    You can also add a note on the offline license in the **Description** section.
 
   > Notes:
   >
@@ -112,5 +131,5 @@ Follow these steps:
 8. Send your users this activation guide: [Activate Katalon License](https://docs.katalon.com/katalon-studio/docs/activate-license.html).
 
 See also:
-* [Manage Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license-utilization-dashboard.html#license-usage-visualization).
+* [Manage Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license-management.html).
 * [License Utilization Dashboard](https://docs.katalon.com/katalon-studio/docs/license-utilization-dashboard.html#license-usage-visualization).
