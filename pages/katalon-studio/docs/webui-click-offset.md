@@ -23,7 +23,7 @@ To learn more about setting the **Default wait for element timeout**, you can re
 | to | TestObject | Required | Represent a web element. |
 | offsetX | int | Required | x position in relative to the element |
 | offsetY | int | Required | y position in relative to the element |
-| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. To learn more about failure handling setting, you can refer to this document: [Failure handling](https://docs.katalon.com/katalon-studio/docs/failure-handling.html#default-failure-handlingbehavior)|
+| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. To learn more about failure handling settings, you can refer to this document: [Failure handling](https://docs.katalon.com/katalon-studio/docs/failure-handling.html#default-failure-handlingbehavior)|
 
 ## Example
 

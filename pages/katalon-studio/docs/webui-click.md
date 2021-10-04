@@ -20,7 +20,7 @@ To learn more about setting the **Default wait for element timeout**, you can re
 | Param | Param Type | Mandatory | Description |
 | --- | --- | --- | --- |
 | to | TestObject | Required | Represent a web element. |
-| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. To learn more about failure handling setting, you can refer to this document: [Failure handling](https://docs.katalon.com/katalon-studio/docs/failure-handling.html#default-failure-handlingbehavior). |
+| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. To learn more about failure handling settings, you can refer to this document: [Failure handling](https://docs.katalon.com/katalon-studio/docs/failure-handling.html#default-failure-handlingbehavior). |
 
 ## Example
 
