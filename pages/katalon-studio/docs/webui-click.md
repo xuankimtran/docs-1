@@ -30,7 +30,7 @@ To set the timeout, go to **Project > Settings > Execution**, then manually inpu
 
 ## Example
 
-In this example, we want to click on the **Make Appointment** button. By default, the **Default wait for element timeout** setting is for 30 seconds. If the **Make Appointment** button is behind a loading overlay, Katalon will try clicking the button for 30 seconds in maximum.
+In this example, we want to click on the **Make Appointment** button. By default, the **Default wait for element timeout** setting is for 30 seconds. If the **Make Appointment** button is behind a loading overlay, Katalon will try clicking the button for 30 seconds maximum.
 
 ```groovy
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint

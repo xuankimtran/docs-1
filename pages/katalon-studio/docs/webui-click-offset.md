@@ -29,12 +29,12 @@ To set the timeout, go to **Project > Settings > Execution**, then manually inpu
 | to | TestObject | Required | Represent a web element. |
 | offsetX | int | Required | x position in relative to the element |
 | offsetY | int | Required | y position in relative to the element |
-| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. To learn more about failue handling setting, you can refer to this document: [Failure handling](https://docs.katalon.com/katalon-studio/docs/failure-handling.html#default-failure-handlingbehavior)|
+| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. To learn more about failure handling setting, you can refer to this document: [Failure handling](https://docs.katalon.com/katalon-studio/docs/failure-handling.html#default-failure-handlingbehavior)|
 
 ## Example
 
 In this example, we want to click on the top left cell of the Tic Tac Toe board. 
-By default, the **Default wait for element timeout** setting is for 30 seconds. If the **Make Appointment** button is behind a loading overlay, Katalon will try clicking the button for 30 seconds in maximum.
+By default, the **Default wait for element timeout** setting is for 30 seconds. If the Tic Tac Toe board is behind a loading overlay, Katalon will try clicking the button for 30 seconds maximum.
 
 ```groovy
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
