@@ -5,4 +5,4 @@ permalink: katalon-analytics/docs/network-config.html
 description: 
 ---
 
-The content has been moved to [Configure Proxy for Authentication](https://docs.katalon.com/katalon-studio/docs/configure-proxy.html).
+The content has been moved to [Troubleshoot Activation Problems](https://docs.katalon.com/katalon-studio/docs/troubleshoot-activation-problems.html#troubleshoot-common-issues).
