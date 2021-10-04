@@ -39,7 +39,7 @@ First, download and open Katalon Studio. The **Katalon Studio Activation** autom
 
 > Requirements:
 >
-> Owner or Admin of your Organization has added you to the **Register Users** list. See [Grant Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/use-online-license.html).
+> Owner or Admin of your Organization has added you to the **Licensed Users** list. See [Grant Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/use-online-license.html).
 
 To activate your license with the Internet, do as follow:
 
@@ -62,7 +62,7 @@ You can now use KSE, and can also reserve an available KRE license by using KRE.
 > Requirement:
 >
 > * A machine ID. To view your machine ID, see [Machine ID](https://docs.katalon.com/katalon-studio/docs/machine-id.html).
-> * A `KSE_<machine_ID>.lic` or `KRE_<machine_ID>.lic` file. To get this license file, provide your machine ID to your Organization Owner or Admin and ask them to grant you an offline license. See [Grant Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/use-online-license.html).
+> * A `KSE_<machine_ID>.lic` or `KRE_<machine_ID>.lic` file. To get this license file, provide your machine ID to your Organization Owner or Admin and ask them to grant you an offline license. See [Grant Offline Licenses](https://docs.katalon.com/katalon-studio/docs/use-online-license.html#create-an-offline-license).
 
 For offline license activation, follow these steps:
 
