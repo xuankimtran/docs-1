@@ -3,60 +3,79 @@ title: "How to configure Slack integration with Katalon TestOps"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/slack-integration.html
 ---
-Katalon TestOps allows you to integrate with Slack to receive notification messages of your test execution results.
+Katalon TestOps allows you to integrate with Slack to receive notifications of your test results on Slack.
 
-## Prerequisites
+> Requirements:
+>
+> * You must be the Owner of an Organization.
+> * You must be the Admin of a Slack's workspace.
 
-This feature is only accessible to the Owner of the Organization. We can learn how to create an Incoming Webhook [here](https://api.slack.com/messaging/webhooks).
+## Create an Incoming Webhook on Slack
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/slack-integration/kt_message_webhook.png)
+1. Go to [Slack API](https://api.slack.com/messaging/webhooks) > **Using Webhooks**. 
 
-In the left sidebar of the page [Sending messages using Incoming Webhooks](https://api.slack.com/messaging/webhooks), choose **Using Webhooks**, and click the button **Create your Slack app**.
+2. Click on the green **Create your Slack app** button.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/slack-integration/kt_create_slack_app.png)
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-slack-integration/slack-step1-create-apps.png" width=100% alt="slack api create app">
 
-The table **Create a Slack App** displays, type the **App Name**, choose a **Development Slack Workspace** from the list, click **Create App**.
+    The **Create an app** box appears.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/slack-integration/kt_table_create_slack_app.png)
+3. Select your preferred configuration, then name your app and choose your workspace.
 
-The table **Basic Information** displays, click button **Incoming Webhooks**.
+4. Click **Create App**.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/slack-integration/kt_click_incoming_webhooks.png)
+    You will be automatically navigated to the **Basic Information** page.
 
-The table **Incoming Webhooks** displays, at the item **Active Incoming Webhooks**, click button **On**.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-slack-integration/slack-step4-basic-info.png" width=100% alt="slack api basic info page">
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/slack-integration/kt_incom_webhook_on.png)
+5. Click on the **Incoming Webhooks** box.  
 
-Click button **Add New Webhook to Workspace**.
+    The **Incoming Webhooks** page appears.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/slack-integration/kt_add_new_webhook.png)
+6. Switch the toggle **On** to activate Incoming Webhooks.
 
-Choose a channel to post to an app and click the button **Allow**.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-slack-integration/slack-step5-activate-incoming-webhook.png" width=100% alt="slack api incoming webhook page">
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/slack-integration/kt_slack_channel_post.png)
+7. Click **Add New Webhook to Workspace**.
 
-The board **Incoming Webhooks** display, click the button **Copy** below for coping URL.
+    A new window appears as below. 
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/slack-integration/kt_copy_webhook_url.png)
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-slack-integration/slack-step5-allow-webhook-on-slack.png" width=100% alt="add webhook to workspace">
 
-## Configure in TestOps 
+8. Select a channel to receive Slack notifications, click **Allow**.
 
-Navigate to **Slack Settings** under **Configurations**.
+    You will be automatically navigated back to the **Incoming Webhooks** page.
+    
+9. Scroll down to the **Webhook URL** section.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/slack-integration/kt_slack_integration.png)
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-slack-integration/slack-step6-add-webhook.png" width=100% alt="webhook url">
 
-Enter an **Incoming Webhook URL** by pasting the URL which we have just copied. Click the button **Test Connection** for connecting to Slack.
+    You can see that your channel has been added (e.g., #qa-demo).
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/slack-integration/kt_paste_test_connect.png)
+10. Click **Copy** to copy the Webhook URL.
 
-You will receive notification messages in Slack once you have configured the integration.
+You use this URL for Slack integration on Katalon TestOps.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/slack-integration/kt_slack_message.png)
+## Integrate Slack with Katalon TestOps
 
-On Katalon TestOps, after connecting slack, we click the button **Save** for saving Incoming Webhook URL.
+1. Sign in to [Katalon TestOps](https://testops.katalon.io/login) and go to your Project.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/slack-integration/kt_save_webhook_url.png)
+2. Go to **Configurations** > **Integrations**.
 
-And now, every we run a Test on Katalon TestOps, we will receive a message on Slack. This message includes some information about Test Run, which we have run.
+3. Select **Slack** from the dropdown list.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/slack-integration/kt_slack_test_run.png)
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-slack-integration/slack-step8-integrate-slack-with-testops.png" width=100% alt="slack integration on testops">
+
+4. Paste the URL you have copied earlier in the **Incoming Webhook URL** section, then click **Test Connection**.
+
+    If the connection is successful, you will receive a message on Slack.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-slack-integration/slack-step9-receive-slack-noti.png" width=100% alt="slack notification of successful integration">
+    
+5. Click **Save**.
+
+You have enabled Slack integration on Katalon TestOps.
+
+Now every time you run a test on Katalon TestOps, you and your members will receive a Slack message on the Test Run and its result.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/slack-integration/kt_slack_test_run.png" width=100% alt="slack message on test run">
