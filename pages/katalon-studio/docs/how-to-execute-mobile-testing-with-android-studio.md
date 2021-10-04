@@ -13,7 +13,7 @@ The Android Emulator simulates Android devices on your computer so that you can 
 In this article, we guide you step by step how to execute mobile testing in Katalon Studio with Android Studio (Emulator).
 
 > Requirements:
-> * Appium installed. To learn more about installing Appium, you can refer to this document: [Getting started](https://appium.io/docs/en/about-appium/getting-started/?lang=en).
+> * Appium installed. To learn more about installing Appium, you can refer to the Appium document here: [Getting started](https://appium.io/docs/en/about-appium/getting-started/?lang=en).
 
 Follow these steps:
 
@@ -64,10 +64,9 @@ Download and install Android Studio. You can download Android Studio from the An
 
 4. After choosing the system image, click **Next**. The **Verify Configuration** page appears. 
 5. Change the default name of your emulator if neccessary, then click **Finish**. A new emulator appears in the **AVD Manager**.
-
 ### Launch an emulator
 
-To launch the emulator, go to **ADV Manager**, select the emulator you want to launch, then click **Run** <img src="url" width="3%" alt="Run button">.
+To launch the emulator, open the **ADV Manager**, select the emulator you want to launch, then click **Run** <img src="url" width="3%" alt="Run button">.
 
 <img src="url" width="70%" alt="Choose project template">
 
@@ -75,7 +74,11 @@ If you want to run the emulator via command line option, you can refer to the An
 
 ## Execute mobile testing with Android Studio in Katalon
 
-After launching the emulator, Katalon automatically recognizes the emulator as an Android device. Katalon provides an emulator with the full access to mobile testing utility. To learn more about creating and executing mobile testing in Katalon, you can refer to this document:
+After launching the emulator, Katalon automatically recognizes the emulator as an Android device. You can now execute mobile testing with the emulator. 
+
+<img src="url" width="70%" alt="Choose project template">
+
+To learn more about creating and executing mobile testing in Katalon, you can refer to below documents:
 
 - [Mobile Record Tutorials](https://docs.katalon.com/katalon-studio/docs/mobile-recorder-tutorials.html#record).
 - [Tutorials for Mobile Object Spy](https://docs.katalon.com/katalon-studio/docs/spy-mobile-utility.html).
