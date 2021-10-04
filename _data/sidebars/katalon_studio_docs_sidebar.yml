@@ -314,7 +314,13 @@ items:
                   - title: "How to use synchronization commands while recording"
                     url: /katalon-studio/docs/synchronization_commands_recording.html
               - title: "Handle WebDrivers"
-                url: /katalon-studio/docs/handle-webdrivers.html
+                tree:
+                  - title: "Terminate WebDrivers"
+                    url: /katalon-studio/docs/terminate-webdrivers.html
+                  - title: "Upgrade or Downgrade WebDrivers"
+                    url: /katalon-studio/docs/upgrade-or-downgrade-webdrivers.html
+                  - title: "Handle WebDrivers with EventFiringWebDriver"
+                    url: /katalon-studio/docs/handle-webdrivers-with-event-firing-webdriver.html
               - title: "Testing Web App on Mobile Browsers"
                 url: /katalon-studio/docs/running_application_mobile_browsers.html
           - title: "Mobile Test Design"
