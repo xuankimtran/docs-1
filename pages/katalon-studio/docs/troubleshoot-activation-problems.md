@@ -69,7 +69,7 @@ If the number of machines on which you're using Katalon Studio exceeds the numbe
 
 **<details><summary>Network Security errors</summary>**
 
-For Enterprise users with a private network, you may encounter a situation where you fail to execute test scripts, integrate Katalon Studio, and/or access Katalon TestOps, due to the network security error.
+For Enterprise users with a private network, you might encounter a situation where you fail to execute test scripts, integrate Katalon Studio, and/or access Katalon TestOps, due to the network security errors.
 
 Contact your IT team to whitelist the following domains:
 
@@ -84,7 +84,7 @@ Contact your IT team to whitelist the following domains:
 
 **<details><summary>IP Addresses errors</summary>**
 
-For Katalon TestOps's network configuration, you may encounter a problem when you integrate with an On-Premises development system such as Jira Server or Azure DevOps Server.
+For Katalon TestOps's network configuration, you might encounter a problem if you are integrating with an On-Premises development system such as Jira Server or Azure DevOps Server.
 
 Contact your IT team to whitelist the following IP addresses:
 
