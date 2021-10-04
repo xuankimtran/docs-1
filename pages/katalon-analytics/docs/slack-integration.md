@@ -8,7 +8,7 @@ Katalon TestOps allows you to integrate with Slack to receive notifications of y
 > Requirements:
 >
 > * You must be the Owner of an Organization.
-> * You must be the Admin of a Slack's workspace.
+> * You must be the Admin of a Slack workspace.
 
 ## Create an Incoming Webhook on Slack
 
@@ -50,7 +50,7 @@ Katalon TestOps allows you to integrate with Slack to receive notifications of y
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-slack-integration/slack-step6-add-webhook.png" width=100% alt="webhook url">
 
-    You can see that your channel has been added (e.g., #qa-demo).
+    You can see that your channel has been added (e.g., **#qa-demo**).
 
 10. Click **Copy** to copy the Webhook URL.
 
@@ -76,6 +76,6 @@ You use this URL for Slack integration on Katalon TestOps.
 
 You have enabled Slack integration on Katalon TestOps.
 
-Now every time you run a test on Katalon TestOps, you and your members will receive a Slack message on the Test Run and its result.
+Now every time you run a test on Katalon TestOps, you and your members will receive a Slack message on the Test Run and its results.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/slack-integration/kt_slack_test_run.png" width=100% alt="slack message on test run">
