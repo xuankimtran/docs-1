@@ -332,33 +332,36 @@ The main tab displays basic information about the test suite such as the test ca
 
 **Script tab**
 
+The script tab displays the script view, where user can set the environment, setUp, tearDown, or any configuration in test suite level. To learn more about test suite configuration, see [Test Suite](https://docs.katalon.com/katalon-studio/docs/create-test-suite.html).
+
 **Integration tab**
 
-Information regarding your test suite integration with qTest is displayed in this tab. Refer to [Integrate test suite](/display/KD/Integrate+test+suite) for more details.
+The Integration tab displays information regarding your test suite integration, for example, with qTest. Refer to [Integrate test suite](/display/KD/Integrate+test+suite) for more details.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2017-2-20-163A543A47.png)
 
 **Result tab**
 
+After you execute the test, the result tab displays the result of the latest execution, including the Passed/ Failed status of each test case, a summary report, all execution settings, and the execution environment.
 ### Test Suite Collection Editor
 
-Basically, a Test Suite Collection contains a set of test suites to allow users to execute test suites together. Refer to [Test suite collection](/display/KD/Test+Suite+Collection) for more details.
+A Test Suite Collection contains a set of test suites, which allows you to execute test suites together. Refer to [Test suite collection](/display/KD/Test+Suite+Collection) for more details.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2017-10-11-133A393A22.png)
 
 ### Data File Editor
 
-When you open a data file, its detailed information including the data source and preview data set... is displayed in the editor. Refer to [Manage Test Data](/display/KD/Manage+Test+Data) for more details.
+When you open a data file, the data file editor displays its detailed information, including the data source and preview data set. You can upload your data from an Excel file, a CSV file. Refer to [Manage Test Data](/display/KD/Manage+Test+Data) for more details.
 
-*   If the test data is from an Excel file:
+* If the test data is from an Excel file:
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2017-2-20-173A73A38.png)
 
-*   If the test data is from a CSV file:
+* If the test data is from a CSV file:
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2017-2-20-173A63A7.png)
 
-*   If the test data is defined internally inside your test project:
+* If the test data is defined internally inside your test project:
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2017-2-20-173A93A51.png)
-*   If the test data is from a database query:
+* If the test data is from a database query:
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2017-2-20-173A93A21.png)
 
 ### Checkpoint Editor
