@@ -97,7 +97,7 @@ Download and install Android Studio. You can download Android Studio from the An
 
     Select the system image you want to test. If you see **Download** next to the system image you select, you need to click it to download its necessary components.
 
-    For example: We choose the **Pie** Android version with x86 system image. **Pie** is the code name for Android version 9.0 and API level 28. After clicking **Download**, you need to accept Android Software Development Kit License Agreement, then click **Next** to start downloading.
+    For example: We choose the **Pie** Android version with an x86 system image. **Pie** is the code name for Android version 9.0 and API level 28. After clicking **Download**, you need to accept Android Software Development Kit License Agreement, then click **Next** to start downloading.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-mobile-testing-with-emulator/KS-EMULATOR-Select-system-image.png" width="60%" alt="Select system image"> 
 
@@ -115,6 +115,7 @@ Download and install Android Studio. You can download Android Studio from the An
 To launch an emulator, open the **ADV Manager**, select the emulator you want to launch, then click **Run** <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-mobile-testing-with-emulator/KS-EMULATOR-Run-button.png" width="2%" alt="Run button">.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-mobile-testing-with-emulator/KS-EMULATOR-Launch-the-emulator.png" width="60%" alt="Launch the emulator">
+
 
 If you want to run the emulator via the command-line option, you can refer to the Android developer document here: [Start the emulator from the command line](https://developer.android.com/studio/run/emulator-commandline).
 
