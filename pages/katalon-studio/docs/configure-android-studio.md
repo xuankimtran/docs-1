@@ -6,8 +6,6 @@ redirect_from:
 description:
 ---
 
-<INTRODUCTION>
-
 The Android Emulator simulates Android devices on your computer so that you can test your application on a variety of devices and Android API levels without needing to have each physical device. To learn more about the Android emulator capabilities and system requirements, you can refer to this Android developer document: [Run apps on the Android Emulator](https://developer.android.com/studio/run/emulator).
 
 In this article, we guide you step by step on how to configure Android Studio (Emulator) for mobile testing in Katalon.

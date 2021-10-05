@@ -147,6 +147,8 @@ items:
             tree:
               - title: "[Mobile] Android Setup"
                 url: /katalon-studio/tutorials/mobile-android-setup.html
+              - title: "[Mobile] Configure Android Studio (Emulator)"
+                url: /katalon-studio/docs/configure-android-studio.html
               - title: "[Mobile] Create and Run Android Test Case"
                 url: /katalon-studio/tutorials/mobile-create-android-test-case.html
           - title: "Web UI"
