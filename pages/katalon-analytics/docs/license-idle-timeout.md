@@ -9,11 +9,11 @@ description:
 >
 > * An active Katalon Studio Enterprise (KSE) license.
 > * Katalon Studio version 7.8.0 onwards.
-> * You must be an Admin or Owner of your Organisation.
+> * You must be an Admin or Owner of your Organization.
 
 ## Configure Idle Timeout
 
-You can define how long an open Katalon Studio app with a KSE license can stay inactive before the licensed user is considered idle. Licensed users considered idle will be automatically signed out. This setting impacts all the licensed users in the organization.
+You can define how long an open Katalon Studio app with a KSE license can stay inactive before the licensed user is considered idle. Licensed users considered idle will be automatically signed out. This setting impacts all the licensed users in the Organization.
 
 **In Katalon TestOps**:
 
@@ -37,8 +37,15 @@ To enable idle timeout, do as follows:
 
 When this setting is applied, Katalon Studio will notify the user 15 minutes before the end of the timeout period or when only a quarter of the time remains, whichever is shorter.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/noti.png" width=60%>
+If you leave the bypass section empty in TestOps, idle users receive a notification like this:
 
-* To resume the session, the user can click **Continue**. The notification dialog displays how many times you have left to resume the session.
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/idle-timeout/bypass0.PNG" width=60%>
+
+* To resume the session, the user can click **Continue**. If you set a bypass limit in TestOps, the notification dialog displays how many times idle users have left to resume the session.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/idle-timeout/bypass1.PNG" alt="bypass number" width=70%>
+
 * To log out immediately, the user can click **Deactivate**.
 * If the user does nothing or clicks on the _X_ button to close this notification dialog, the user will be logged out automatically at the end of the timeout period.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/idle-timeout/nobypass.PNG" alt="out of bypass" width=60%>
