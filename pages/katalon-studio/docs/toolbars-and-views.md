@@ -249,23 +249,24 @@ The editor is used to modify the detailed information of an object. Each test ar
 
 ### Test Case Editor
 
-When you open a test case, its detailed information is shown in the editor that contains the following tabs:
+When you open a test case, the test case editor contains its detailed information in following tabs:
 
-*   Manual tab
-*   Script tab
-*   Variables tab
-*   Integration tab
-*   Properties tab
+* Manual tab
+* Script tab
+* Variables tab
+* Variables (Script mode) tab
+* Integration tab
+* Properties tab
 
 **Manual tab**
 
-The Manual tab displays the Manual view, where the basic keyword-driven-configuration allows novice users to create automation tests effortlessly. Refer to [Manual View](/display/KD/Manual+View) for more details.
+The Manual tab displays the Manual view, where the basic keyword-driven configuration allows users to create automation tests without coding. Refer to [Manual View](/display/KD/Manual+View) for more details.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/manual-view.png" alt="manual tab" width=100%>
 
 **Script tab**
 
-This tab displays the Script view where advanced users with programming background can modify test scripts easily using either Groovy or Java. Refer to [Script View](/display/KD/Script+View) for more details.
+The Script tab displays the Script view, where advanced users with programming background can modify test scripts using either Groovy or Java language. Refer to [Script View](/display/KD/Script+View) for more details.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/script-tab.png" alt="script" width=100%>
 
@@ -283,18 +284,18 @@ The Variables tab (Script mode) shows all variables defined for the test case in
 
 **Integration tab**
 
-Information regarding your test case integration with qTest is displayed in this tab. Refer to [Integrate test case](/display/KD/Integrate+test+case) for more details.
+The Integration tab displays your configured integration in the project, for example: qTest, Jira or Azure DevOps, etc. Refer to [Integrate test case](/display/KD/Integrate+test+case) for more details.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/integration.png" alt="integration" width=70%>
 
 **Properties tab**
 
-This tab displays general information about the test case.
+The Properties tab displays general information about the test case, including description and comment.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/properties.png" alt="properties" width=100%>
 
-* **Description:** Users can add or edit this field to provide detail information about a test case
-* **Comment**: This field is read-only field. The content is extracted and populated from [Comment](/display/KD/%5BCommon%5D+Comment) keyword in the test case. Business users can leverage comment field to involve in development process by providing the requirements. The example below shows the description of a test case that verify successful login and comment field shows the scenario written in BDD's Gherkin syntax.
+* **Description**: You can add or edit this field to provide detail information about a test case
+* **Comment**: This field is a read-only field. The content is extracted and populated from the comment keyword in the test case. You can leverage comment field to involve in development process of your company by providing requirements. For more information about the comment keyword, see [Comment](/display/KD/%5BCommon%5D+Comment).
 
 ### Test Object Editor
 
@@ -304,36 +305,40 @@ To open a Test Object, go to **Test Explorer > Object Repository** and select th
 
 ### Web Service Editor
 
-#### RESTful Request Object Editor
+To open a Web Service, go to **Test Explorer > Object Repository** and select the Web Service you want to open. When you open a RESTful or SOAP request object, the Web Service Editor displays detailed information of the current project, including the resource URL, request methods, parameters... Refer to [RESTful](/pages/viewpage.action?pageId=5125144) and [SOAP](/display/KD/SOAP) for more details.
 
-When you open a RESTful request object, its detailed information including the resource URL, request methods, parameters... is displayed in the editor. Refer to [RESTful](/pages/viewpage.action?pageId=5125144) for more details.
+**RESTful Request Object Editor**
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2017-2-20-163A443A23.png)
 
-#### SOAP Request Object Editor
-
-When you open a SOAP request object, its detailed information including the resource URL, request methods, parameters... is displayed in the editor. Refer to [SOAP](/display/KD/SOAP) for more details.
+**SOAP Request Object Editor**
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2017-6-29-153A423A43.png)
 
 ### Test Suite Editor
 
-When you open a test suite, its detailed information is displayed in the Test Suite editor that contains the following tabs:
+When you open a test suite, the test suite editor displays its detailed information, including:
 
-*   Main tab
-*   Integration tab
+* Main tab
+* Script tab
+* Integration tab
+* Result tab
 
-#### Main tab
+**Main tab**
 
 The main tab displays basic information about the test suite such as the test cases to be executed, the execution mechanism and data binding. Refer to [Execute a test suite](/display/KD/Execute+a+Test+Case+or+a+Test+Suite) for more details.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2017-2-20-163A493A18.png)
 
-#### Integration tab
+**Script tab**
+
+**Integration tab**
 
 Information regarding your test suite integration with qTest is displayed in this tab. Refer to [Integrate test suite](/display/KD/Integrate+test+suite) for more details.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2017-2-20-163A543A47.png)
+
+**Result tab**
 
 ### Test Suite Collection Editor
 
