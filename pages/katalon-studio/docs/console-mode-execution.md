@@ -305,9 +305,9 @@ Here's the list of options supported for the `katalonc` commands for Katalon Stu
 
 > From version 7.5.0 onwards, there are two types of proxy configurations: Authentication and System proxies. To learn more about configuring different proxy preferences, you can refer to this document: [Proxy Preferences](https://docs.katalon.com/katalon-studio/docs/proxy-preferences.html) for further details.
 >
-> From version 7.2.0 onwards, you can exclude a list of hosts from proxy in the **Manual proxy configuration**. To learn more about excluding proxy manually, you can refer to this document: [Proxy settings](https://docs.katalon.com/katalon-studio/docs/katalon-studio-preferences.html#proxy-settings).
+> From version 7.2.0 onwards, you can exclude a list of hosts from proxy in the **Manual proxy configuration**. To learn more about manually excluding domains from proxy, you can refer to this document: [Proxy settings](https://docs.katalon.com/katalon-studio/docs/katalon-studio-preferences.html#proxy-settings).
 >
-> From version 7.0.0 onwards, you can pass proxy details via a request object in Web Service testing. To learn more about passing proxy details through the script, you can refer to this document: [Override proxy details in the test script](https://docs.katalon.com/katalon-studio/docs/proxy-preferences.html#pass-proxy-details-through-the-script).
+> From version 7.0.0 onwards, you can pass proxy details via a request object in Web Service testing. To learn more about passing proxy details in script mode, you can refer to this document: [Override proxy details in the test script](https://docs.katalon.com/katalon-studio/docs/katalon-studio-preferences.html#override-proxy-details-in-the-test-script).
 
 These proxy options must be used with `--config` parameter, for example `--config -proxy.auth.option=MANUAL_CONFIG`.
 
@@ -594,7 +594,7 @@ We recommend using the Command Builder to generate commands quickly and precisel
    * **Authentication**: 
    
      * **API Keys**: API Keys are used to represent a user's credentials. The command-line options of API Key, including `-apiKey=<Your_API_Key>` and `-apikey=<Your_API_Key>` are both accepted. To learn more about API keys, you can refer to this document: [API key](https://docs.katalon.com/katalon-studio/docs/katalon-apikey-70.html).
-     * From version 7.7.0 onwards, if you belong to more than one Organization subscribing to Runtime Engine (RE) licenses, you can choose which Organization validates your license usage. Katalon retrieves and displays the organizations binding to your Katalon account and having RE licenses. Once selected, the Organization ID is passed to the generated command (`-orgID=<Katalon_OrgID>`).
+     * From version 7.7.0 onwards, if you belong to more than one Organization subscribing to Runtime Engine (RE) licenses, you can choose which Organization validates your license usage. Katalon retrieves and displays the Organizations your Katalon account is bound to, as well as which Organizations have made RE licenses available to you. Once selected, the Organization ID is passed to the generated command (`-orgID=<Katalon_OrgID>`).
 
    * **Execution Configurations** (Or **Other Options** in versions older than 7.7.0).
    
