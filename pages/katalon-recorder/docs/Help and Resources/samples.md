@@ -1,5 +1,5 @@
 ---
-title: "Samples" 
+title: "Sample Projects" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-recorder/docs/samples.html 
 redirect_from:
@@ -8,23 +8,25 @@ redirect_from:
     - "/katalon-recorder/docs/samples/"
 description: 
 ---
-Sample Project
---------------
 
-> [Katalon Recorder Samples Project](https://github.com/katalon-recorder/katalon-recorder-samples)
+In Katalon Recorder (KR), a sample project covers a common topic that you will find when working with KR.
 
-The sample project covers various common topics on working with Katalon Recorder. The guide below walk through steps to download and open Katalon Recorder Sample Project.
+From version 5.5.4 onwards, all KR samples projects are compiled into automation templates. You then can easily add any sample project to KR using the **Templates** function.
 
-1.  Navigate to the sample project on Github by clicking on the link above. Select Clone or Download > Choose Download Zip option to download the Zip package that includes sample project and its associated files.   
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/samples/image2018-3-2-183A403A43.png)  
-      
-    
-2.  Once finished, unzip the package. Open Katalon Recorder, click on **Open test suite** \> navigate to the location of the unzipped project and select the project to open.   
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/samples/image2018-3-2-183A453A10.png)  
-      
-    
-3.  Katalon Recorder will open the Sample Project as shown below.  
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/samples/image2018-3-2-183A463A22.png)
-4.  Click on Test Data and add data files "data.csv" (for CSV) and "data.json" (for JSON).  
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/samples/image2018-6-27-103A583A20.png)
-5.  Click on any preferred Test Case and select Play to execute a single Test Case or select Play All to play all Test Cases in the Sample Project.
+Follow these steps:
+
+1. Open Katalon Recorder.
+2. Select **Templates** on the left sidebar.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/samples/kr-templates.png"  width=100% alt="kr templates">
+
+    A new window pops up as below.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/samples/kr-templace-popup.png"  width=100% alt="kr templates popup">
+3. Select the automation templates you want.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/samples/kr-add-templates.png"  width=100% alt="kr templates list">
+
+4. Click **Add templates**.
+
+You have added the sample projects to KR. 
