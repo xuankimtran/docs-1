@@ -1,5 +1,5 @@
 ---
-title: "Sample Projects" 
+title: "Sample projects" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-recorder/docs/samples.html 
 redirect_from:
