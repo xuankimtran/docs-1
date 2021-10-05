@@ -63,7 +63,7 @@ After configuring the **Execution Information** section, to add test suites into
    
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-suite-collection/image2017-2-17-133A243A44.png" width=40% alt="Click Add to add test suite">
     
-2.  The opened **Test Suite Browser** dialog displays all test suites in Katalon Studio. Select the test suites you wish to execute, then click **OK**.  
+2.  The **Test Suite Browser** dialog appears, displaying all your Katalon Studio test suites. Select the test suites you wish to execute, then click **OK**.  
     
 3.  The selected test suites are added to the test suite collection accordingly.
 
@@ -71,7 +71,7 @@ After configuring the **Execution Information** section, to add test suites into
     
     <table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>Run with</td><td><p> To select the environment executed with the Test Suite.</p></td></tr><tr><td>Run configuration</td><td><p>To add extra information to execute with the selected environment.</p><p>For example: Select mobile devices to be executed for Android environment</p><p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-suite-collection/image2017-2-17-133A533A7.png"></p></td></tr><tr><td>Profile</td><td>Execution Profile that contains all variables values for each Test Suite execution. To learn more about the execution profile, you can refer to this document: <a class="external-link" href="https://docs.katalon.com/katalon-studio/docs/execution-profile-v54.html" rel="nofollow">Execution Profile</a></td></tr><tr><td>Run</td><td> To choose the test suite you wish to run in the test suite collection. This is checked by default. </td></tr></tbody></table>
     
-    > You can add one test suite to the collection multiple times. This capability helps you execute the same test suite in different environments.
+    > You can then configure each duplicated test suite individually, for example to run the same test suites in different environments.
 ## Execute a Test Suite Collection
 
 1.  To run a TSC, from the main toolbar, click **Execute**. 
@@ -87,7 +87,7 @@ You can centralize test results including logs and attachments in Katalon TestOp
 ## Schedule execution of Test Suite Collections remotely
 
 You can schedule a TSC execution on multiple servers with Katalon TestOps. To learn more about planning and monitoring all test activities in Katalon TestOps, you can refer to this document here:
-[Schedule Test Runs]([/katalon-analytics/docs/kt-remote-execution.html](https://docs.katalon.com/katalon-analytics/docs/create-plan.html#advanced-settings)).
+[Schedule Test Runs](https://docs.katalon.com/katalon-analytics/docs/create-plan.html#schedule-test-runs).
 
 To quickly schedule a TSC execution on Katalon TestOps from Katalon Studio, in the **Test Suite Collection** page, click **Schedule on Katalon TestOps**.
 
