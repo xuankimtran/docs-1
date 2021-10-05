@@ -13,9 +13,9 @@ description:
 ---
 You can execute an automation test without launching Katalon Studio by using command-line mode execution.
 
-> Prerequisites:
+> Requirements:
 > * Katalon Runtime Engine installed. You can download Katalon Runtime Engine here: [Katalon products](https://www.katalon.com/all-products/).
-> * A Katalon Runtime Engine License. To learn more about activating your license, you can refer to this document: [Katalon license](https://docs.katalon.com/katalon-studio/docs/activate-license.html#activate-trial-license).
+> * A Katalon Runtime Engine License. To learn more about activating your license, you can refer to this document: [Katalon license](https://docs.katalon.com/katalon-studio/docs/activate-license.html#activate-a-license-with-internet-access).
 
 >
 > Katalon Studio only supports **Chrome, Firefox, and Remote** options for console mode execution using the **Linux** version.
@@ -66,7 +66,7 @@ You can execute an automation test without launching Katalon Studio by using com
 
 ## Use Plugins in Console Mode
 
-API Keys are required to use **Katalon Studio Plugins** in console mode. To learn more about using plugins in console mode, you can refer to this document: [Use Plugins in Console Mode](https://docs.katalon.com/katalon-studio/docs/kse-use-plugins.html#use-plugins-in-console-mode).
+You can also continue using your plugins of choice with console commands. See this guide: [Use Plugins in Console Mode](https://docs.katalon.com/katalon-studio/docs/kse-use-plugins.html#use-plugins-in-console-mode).
 
 ## General Options
 
@@ -305,7 +305,7 @@ Here's the list of options supported for the `katalonc` commands for Katalon Stu
 
 > From version 7.5.0 onwards, there are two types of proxy configurations: Authentication and System proxies. To learn more about configuring different proxy preferences, you can refer to this document: [Proxy Preferences](https://docs.katalon.com/katalon-studio/docs/proxy-preferences.html) for further details.
 >
-> From version 7.2.0 onwards, you can exclude proxy in the **Manual proxy configuration**. To learn more about excluding proxy manually, you can refer to this document: [Proxy settings](https://docs.katalon.com/katalon-studio/docs/katalon-studio-preferences.html#proxy-settings).
+> From version 7.2.0 onwards, you can exclude a list of hosts from proxy in the **Manual proxy configuration**. To learn more about excluding proxy manually, you can refer to this document: [Proxy settings](https://docs.katalon.com/katalon-studio/docs/katalon-studio-preferences.html#proxy-settings).
 >
 > From version 7.0.0 onwards, you can pass proxy details via a request object in Web Service testing. To learn more about passing proxy details through the script, you can refer to this document: [Override proxy details in the test script](https://docs.katalon.com/katalon-studio/docs/proxy-preferences.html#pass-proxy-details-through-the-script).
 
@@ -593,8 +593,8 @@ We recommend using the Command Builder to generate commands quickly and precisel
 
    * **Authentication**: 
    
-     * **API Keys**: API Keys are used for representing a user's credentials. The command-line options of API Key, including -apiKey=<Your_API_Key> and -apikey=<Your_API_Key> are both accepted. To learn more about API key, you can refer to this document: [API key](https://docs.katalon.com/katalon-studio/docs/katalon-apikey-70.html).
-     * From version 7.7.0 onwards, if you belong to more than one Organization subscribing to RE licenses, you can choose which one to validate your license usage. Katalon retrieves and displays the organizations binding to your Katalon account and having RE licenses. Once selected, the Organization ID is passed to the generated command (`-orgID=<Katalon_OrgID>`).
+     * **API Keys**: API Keys are used to represent a user's credentials. The command-line options of API Key, including `-apiKey=<Your_API_Key>` and `-apikey=<Your_API_Key>` are both accepted. To learn more about API keys, you can refer to this document: [API key](https://docs.katalon.com/katalon-studio/docs/katalon-apikey-70.html).
+     * From version 7.7.0 onwards, if you belong to more than one Organization subscribing to Runtime Engine (RE) licenses, you can choose which Organization validates your license usage. Katalon retrieves and displays the organizations binding to your Katalon account and having RE licenses. Once selected, the Organization ID is passed to the generated command (`-orgID=<Katalon_OrgID>`).
 
    * **Execution Configurations** (Or **Other Options** in versions older than 7.7.0).
    
