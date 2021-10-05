@@ -14,20 +14,20 @@ description:
 You can execute an automation test without launching Katalon Studio by using command-line mode execution.
 
 > Prerequisites:
-> * Katalon Runtime Engine installed. You can download Katalon Runtime Engine here: [Katalon](https://www.katalon.com/all-products/).
-> * A Katalon Runtime Engine License. To learn more about activating license, you can refer to this document: [Katalon license](https://docs.katalon.com/katalon-studio/docs/license.html).
+> * Katalon Runtime Engine installed. You can download Katalon Runtime Engine here: [Katalon products](https://www.katalon.com/all-products/).
+> * A Katalon Runtime Engine License. To learn more about activating your license, you can refer to this document: [Katalon license](https://docs.katalon.com/katalon-studio/docs/activate-license.html#activate-trial-license).
 
 >
 > Katalon Studio only supports **Chrome, Firefox, and Remote** options for console mode execution using the **Linux** version.
 >
-> From version 7.9.0 onwards, you can change default JRE 8 to higher versions in console mode. You can refer to this document for further detail: [Run tests with another JRE in the command line](https://docs.katalon.com/katalon-studio/how-to-guides/set-new-default-JRE.html#use-the-newly-added-jre-in-a-test-project).
+> From version 7.9.0 onwards, you can upgrade the default JRE 8 to higher versions in console mode. You can refer to this document for further details: [Run tests with another JRE in the command line](https://docs.katalon.com/katalon-studio/how-to-guides/set-new-default-JRE.html#use-the-newly-added-jre-in-a-test-project).
 
 ## Execute Katalon Studio in console mode
 
 > The Katalon launcher (`katalon.exe`) is replaced by `katalonc.exe`.
 
 1. Open the command prompt and navigate to the folder of your Katalon Studio build: `katalonc.exe` (Windows), Applications folder (Mac OS), or `katalonc` (Linux) file.
-2. Enter the following syntax to execute the automation test:
+2. Enter the following syntax to execute your test:
 
     **Windows:**
 
@@ -205,7 +205,7 @@ Here's the list of options supported for the `katalonc` commands for Katalon Stu
 			</td>
 			<td>
 				<ul>
-					<li>From Katalon version 8.2.0 onwards, you can set the delay time between each test suite execution in a Test Suite Collection.</li>
+					<li>From Katalon version 8.2.0 onwards, you can set a delay between each test suite execution in a Test Suite Collection.</li>
 				</ul>
 				<ul>
 					<li><code>Value</code> is a positive integer from 0-999 seconds.</li>
@@ -237,7 +237,7 @@ Here's the list of options supported for the `katalonc` commands for Katalon Stu
 		<tr>
 			<td>-testOpsBuildId</td>
 			<td>
-				<p>From version 8.0.0, you can specify the build ID to update Test Suite/Test Suite Collection report.</p>
+				<p>From version 8.0.0, you can specify the build ID to update the Test Suite/Test Suite Collection report.</p>
 				<p>Example:</p>
 				<p><code> -testOpsBuildId=24 </code></p>
 			</td>
@@ -290,12 +290,12 @@ Here's the list of options supported for the `katalonc` commands for Katalon Stu
    <tbody>
       <tr>
          <td>-consoleLog</td>
-         <td>Display log in the console. Only use this option when running Katalon Studio in Windows Command Prompt. Do not use this option in other OSes or CI tools for example, Jenkins.</td>
+         <td>Display log in the console. Only use this option when running Katalon Studio in Windows Command Prompt. Do not use this option in other OSes or CI tools, for example Jenkins.</td>
          <td>N</td>
       </tr>
       <tr>
          <td>-noExit</td>
-         <td>Keep the console open after the execution is completed. Only use this option when running Katalon Studio in Windows Command Prompt. Do not use this option in other OSes or CI tools for example, Jenkins.</td>
+         <td>Keep the console open after the execution is completed. Only use this option when running Katalon Studio in Windows Command Prompt. Do not use this option in other OSes or CI tools, for example Jenkins.</td>
          <td>N</td>
       </tr>
    </tbody>
@@ -307,9 +307,9 @@ Here's the list of options supported for the `katalonc` commands for Katalon Stu
 >
 > From version 7.2.0 onwards, you can exclude proxy in the **Manual proxy configuration**. To learn more about excluding proxy manually, you can refer to this document: [Proxy settings](https://docs.katalon.com/katalon-studio/docs/katalon-studio-preferences.html#proxy-settings).
 >
-> From version 7.0.0 onwards, you can pass proxy details via a request object in Web Service testing. To learn more about pass proxy details through the script, you can refer to this document: [Override proxy details in the test script](https://docs.katalon.com/katalon-studio/docs/proxy-preferences.html#pass-proxy-details-through-the-script).
+> From version 7.0.0 onwards, you can pass proxy details via a request object in Web Service testing. To learn more about passing proxy details through the script, you can refer to this document: [Override proxy details in the test script](https://docs.katalon.com/katalon-studio/docs/proxy-preferences.html#pass-proxy-details-through-the-script).
 
-These proxy options must be used with `--config` parameter e.g. `--config -proxy.auth.option=MANUAL_CONFIG`.
+These proxy options must be used with `--config` parameter, for example `--config -proxy.auth.option=MANUAL_CONFIG`.
 
 ```groovy
 katalonc -noSplash -runMode=console -projectPath="C:\Users\Katalon Studio\Project\YourProject.prj" -retry=0 -testSuitePath="Test Suites/download" -executionProfile="default" -browserType="Chrome" --config -proxy.auth.option=MANUAL_CONFIG -proxy.auth.server.type=HTTP -proxy.auth.server.address=192.168.1.16 -proxy.auth.server.port=16000 -proxy.system.option=MANUAL_CONFIG -proxy.system.server.type=HTTP -proxy.system.server.address=127.0.0.1 -proxy.system.server.port=12701 -proxy.system.username=katalon -proxy.system.password=T3stP@zZW0rol -proxy.system.applyToDesiredCapabilities=true
@@ -430,7 +430,7 @@ katalonc -noSplash -runMode=console -projectPath="C:\Users\Katalon Studio\Projec
    </tbody>
 </table>
 
-- For Katalon version older than 7.5.0, do as follows:
+- For versions older than 7.5.0, do as follows:
 
 <table>
    <thead>
