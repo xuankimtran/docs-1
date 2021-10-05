@@ -8,7 +8,7 @@ description:
 
 ## Description
 
-Katalon Studio generates HAR file for each Web Service request by default. From version 8.2.0 onwards, you can use the `setHarFileGeneration` keyword to enable or disable HAR file generations on demand.
+Katalon Studio generates HAR files for each Web Service request by default. From version 8.2.0 onwards, you can use the `setHarFileGeneration` keyword to enable or disable HAR files generation.
 
 ## Parameters
 
@@ -99,4 +99,4 @@ Katalon Studio generates HAR file for each Web Service request by default. From 
 WS.setHarFileGeneration(true)
 ```
 
-To check HAR file generation option is enabled or not, see [[WS] Get HAR File Generation](https://docs.katalon.com/katalon-studio/docs/ws-get-HAR-file-generation.html).
+To check whether the HAR file generation option is enabled or not, see [[WS] Get HAR File Generation](https://docs.katalon.com/katalon-studio/docs/ws-get-HAR-file-generation.html).

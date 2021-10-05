@@ -8,7 +8,7 @@ description:
 
 ## Description
 
-Check HAR file generation option is enabled or disabled.
+With this keyword, you can check whether HAR file generation is enabled or disabled.
 
 ## Parameters
 
