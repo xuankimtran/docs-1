@@ -83,9 +83,15 @@ With this keyword, you can check whether HAR file generation is enabled or disab
 
 ### Example
 
+You disable the HAR file generation. Then, you want to check whether the HAR file generation is disabled or not.
+
 ```groovy
-boolean isHarFileGenerationEnabled = WS.getHarFileGeneration()
-println isHarFileGenerationEnabled
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+
+WS.setHarFileGeneration(false)
+
+'Get the status of generating a har file when sending a request is true or false'
+print(WS.getHarFileGeneration())
 ```
 
 To enable or disable HAR file generations on demand, see [[WS] Set HAR File Generation](https://docs.katalon.com/katalon-studio/docs/ws-set-HAR-file-generation.html).
