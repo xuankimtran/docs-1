@@ -8,7 +8,7 @@ description:
 
 ## Description
 
-Katalon Studio generates HAR files for each Web Service request by default. From version 8.2.0 onwards, you can use the `setHarFileGeneration` keyword to enable or disable HAR file generation globally.
+Katalon Studio generates HAR files for each Web Service request by default. From version 8.2.0 onwards, you can use the `setHarFileGeneration` keyword to enable or disable HAR file generation either at the test case or test suite level.
 
 ## Parameters
 

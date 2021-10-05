@@ -43,7 +43,7 @@ With this keyword, you can check whether HAR file generation is enabled or disab
 	</tbody>
 </table>
 
-> Exception:
+> Notes:
 >
 > If Katalon Studio could not get the setting, throw: **StepFailedException**.
 
@@ -83,7 +83,7 @@ With this keyword, you can check whether HAR file generation is enabled or disab
 
 ### Example
 
-You disable the HAR file generation. Then, you want to check whether the HAR file generation is disabled or not.
+You have previously disabled the HAR file generation. Later, you want to check whether the HAR file generation is disabled or not.
 
 ```groovy
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
@@ -94,4 +94,4 @@ WS.setHarFileGeneration(false)
 print(WS.getHarFileGeneration())
 ```
 
-To enable or disable HAR file generations on demand, see [[WS] Set HAR File Generation](https://docs.katalon.com/katalon-studio/docs/ws-set-HAR-file-generation.html).
+To enable or disable HAR file generation, see [[WS] Set HAR File Generation](https://docs.katalon.com/katalon-studio/docs/ws-set-HAR-file-generation.html).
