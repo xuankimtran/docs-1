@@ -11,7 +11,7 @@ redirect_from:
 description: 
 ---
 
-A Test Suite Collection (TSC) contains a list of test suites to allow users more options for planning their test execution. 
+A Test Suite Collection (TSC) contains a list of test suites to allow users more options to plan their test execution. 
 
 To open a new Test Suite Collection, go to **File > New > Test Suite Collection**. The new **Test Suite Collection** page opens with two sections:
 
