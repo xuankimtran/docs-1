@@ -61,6 +61,8 @@ You have to create a test plan in Katalon TestOps before assigning this plan to 
 
       The **Add Credentials** dialog appears.
 
+       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/jenkins-ka-integration/secret-text.png" width="" height="" alt="jenkins testops integration">
+
       * In the **Kind** dropdown list, select **Secret Text**.
       * In the **Secret** section, enter a Katalon TestOps API Key. See: [API Keys](https://docs.katalon.com/katalon-analytics/docs/ka-api-key.html).
       * In the **ID** section, give a name for the credential (e.g., **katalon-api-key-test**).
@@ -71,8 +73,6 @@ You have to create a test plan in Katalon TestOps before assigning this plan to 
 8. Click **Test Connection** for Jenkins to retrieve Projects and Test Plans from Katalon TestOps.
 
 9. Select your Project and the Test Plan you have created earlier. See: [Configure a test plan in Katalon TestOps](https://docs.katalon.com/katalon-analytics/docs/ka-integration-jenkins.html#configuration-a-test-plan-in-Katalon-TestOps).
-
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/jenkins-ka-integration/secret-text.png" width="" height="" alt="jenkins testops integration">
 
 10. Click **Save**.
 
