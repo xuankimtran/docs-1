@@ -2,7 +2,7 @@
 title: "Integration with Jenkins" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/ka-integration-jenkins.html 
-description: How to integrate KT with Jenkins to execute TestOps Grid Plan
+description: How to integrate Katalon TestOps with Jenkins to execute TestOps test plans.
 ---
 
 > Requirements:
@@ -10,7 +10,7 @@ description: How to integrate KT with Jenkins to execute TestOps Grid Plan
 > * You have downloaded and installed [Jenkins](https://jenkins.io/download/).
 > * You have downloaded and installed [Katalon Runtime Engine](https://docs.katalon.com/katalon-studio/docs/install-RE.html).
 
-## Install Katalon TestOps on Jenkins
+## Install the Katalon plugin on Jenkins
 
 1. Sign in to Jenkins.
    
@@ -35,7 +35,7 @@ You have to create a test plan in Katalon TestOps before assigning this plan to 
 >
 > Choose the **Save Configurations** option in the **Schedule Test Run** dialog to define a test plan for Jenkins.
 
-## Integrate with Jenkins
+## Integrate Katalon TestOps with Jenkins
 
 1. Sign in to Jenkins.
 
