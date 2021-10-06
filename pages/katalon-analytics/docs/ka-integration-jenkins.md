@@ -25,7 +25,7 @@ description: How to integrate Katalon TestOps with Jenkins to execute TestOps te
 4. Search for the Katalon plugin.
 
    You will find the **Katalon TestOps** plugin.
-5. Choose between **Install without restart** and **Download now and install after restart** to install Katalon TestOps.
+5. Choose between **Install without restart** and **Download now and install after restart** to install the plugin.
 
 ## Configure a test plan in Katalon TestOps
 
