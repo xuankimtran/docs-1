@@ -28,6 +28,8 @@ The following guidelines show you how to start browsers (Firefox, Chrome, Edge C
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/start-browsers-in-private-mode/1-private-mode.png" width=100% alt="ks firefox private mode">
 
+4. Click **Apply and Close**.
+
 ## Chrome
 
 1. Go to **Project** > **Settings**.
@@ -43,6 +45,8 @@ The following guidelines show you how to start browsers (Firefox, Chrome, Edge C
     * **Value**: enter `--incognito`.
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/start-browsers-in-private-mode/2-private-mode.png" width=100% alt="ks chrome private mode">
+
+4. Click **Apply and Close**.
 
 ## Edge Chromium
 
@@ -71,3 +75,5 @@ The following guidelines show you how to start browsers (Firefox, Chrome, Edge C
     * **Value**: `true`.
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/start-browsers-in-private-mode/edge-chromium-1.png" width=100% alt="ks edge chromium private mode">
+
+5. Click **Apply and Close**.
