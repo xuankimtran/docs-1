@@ -8,16 +8,14 @@ description:
 The iOS-mobile-tests perform UI functional automation test on an iOS application using Katalon Studio.
    
 This topic describes the preliminary actions you need to perform to prepare the environment for testing iOS applications with Katalon Studio.
-
-## Set up iOS tests on Windows and macOS
    
-### On Windows machine
+## On Windows machine
 
    You can only test an **iOS** application using **macOS**.
 
-### On macOS machine
+## On macOS machine
    
-   1. Supported environments
+### Supported environments
 
    * Appium: 1.12.1 onwards
    * iOS: 9.x onwards
@@ -26,78 +24,59 @@ This topic describes the preliminary actions you need to perform to prepare the 
      >
      > Some emulators have already supported Appium through their installations. Thus, if you want to run an application on an emulator, check your emulators' settings before proceeding with the Appium installation.
    
-   2. Install the following required components
+### Installation
 
-   * Appium v1.12.1 or newer. 
-   * Xcode 10.2 or newer.
-   * Command-line tool for Xcode.
-   * Carthage 0.33 or newer.
-   * ios-deploy 1.9.4 or newer.
-   * ios-webkit-debug-proxy 1.8.4 or newer.
-   * libimobiledevice 1.2.0 or newer.
-   * usbmuxd 1.0.10 or newer.
-   * WebDriverAgent.
+1. Install Xcode version 10.2 or newer. You can download Xcode from the App Store or the Apple Developer website [here](https://developer.apple.com/xcode/).
+2. Install Command-line tool for Xcode. You can download the compatible command-line tool for Xcode version from the Apple Developer website here: [Downloads](https://developer.apple.com/download/all/).
 
-      **<details><summary>Reference installation guide</summary>**
+3. Install Appium version 1.12.1 or newer. You can install Appium via NPM or by downloading Appium Desktop. Follow the instruction in the Appium document here: [Getting started](http://appium.io/docs/en/about-appium/getting-started/#installing-appium).
+
+      > **Note**
+      >
+      > In case you are installing Applium via NPM. Make sure you install Node.js into a location where you have full permission to **Read** and **Write** 
+
+4. Install Homebrew. To install Homebrew, follow the instruction in the Homebrew website: [Homebrew](https://brew.sh/).
+
+5. After installing Homebrew, open the **Terminal** to install:
+
+   - Carthage version 0.33 or newer. Carthage is a dependency manager for iOS development. To install carthage, copy and paste the command line arguement below:
+
+      `brew install carthage`
    
-      We recommend you to refer to the official documentation of each component for the detailed instructions.
+   - ios-deploy version 1.9.4 or newer. The ios-deploy tools allow you to launch iOS apps on an iOS Device from the command-line. To install ios-deploy, copy and paste the command-line below:
 
-      1. **Install Xcode**
-   
-         Xcode can be installed via the App Store.
+      `brew install ios-deploy`
 
-      2. **Install Xcode command-line tool**
-   
-         `xcode-select --install`\
-         `sudo xcode-select -s /Applications/Xcode.app/Contents/Developer`
+   - usbmuxd version 1.0.10 or newer: usbmuxd stands for "USB multiplexing daemon". This daemon is in charge of multiplexing connections over USB to an iPhone or iPod touch. 
 
-      3. **Install homebrew** 
-      
-         Follow this [link](https://brew.sh/).
-
-      4. **Install [Appium](http://appium.io/docs/en/about-appium/getting-started/#installing-appium)**
-   
-         `brew install node`\
-         `npm install -g appium`
-      
-         > **Note**
-         >
-         > Make sure you install Node.js into a location where you have full **Read** and **Write** permissions.
-
-      5. **Install carthage**
-   
-         `brew install carthage`
-
-      6. **Install ios-deploy**
-   
-         `brew install ios-deploy`
-
-      7. **Install usbmuxd**
-   
-         `brew install --HEAD usbmuxd`\
-         `brew unlink usbmuxd`\
+         `brew install --HEAD usbmuxd`
+         `brew unlink usbmuxd`
          `brew link usbmuxd`
 
-      8. **Install libimobiledevice**
-   
-         `brew install --HEAD libimobiledevice`\
-         `brew unlink libimobiledevice`\
+   - libimobiledevice version 1.2.0 or newer. libimobiledevice is a cross-platform software library that talks the protocols to support iPhone, iPod Touch, iPad® and Apple TV devices.
+         
+         `brew install --HEAD libimobiledevice`
+         `brew unlink libimobiledevice`
          `brew link libimobiledevice`
 
-      9. **Install ios-webkit-debug-proxy**
-   
+   - ios-webkit-debug-proxy version 1.8.4 or newer. The ios_webkit_debug_proxy (aka iwdp) proxies requests from usbmuxd daemon over a websocket connection, allowing developers to send commands to MobileSafari and UIWebViews on real and simulated iOS devices.
+
          `brew install ios-webkit-debug-proxy`
 
-      10. **Install WebDriverAgent**
+         > Note:
+         >
+         > For Appium 1.15 or above, you do not need to install ios_webkit_debug_proxy.
 
-          Follow these links:
+6. Install WebDriverAgent 
 
-          * [Installing WebDriverAgent for iOS devices](/display/KD/Installing+WebDriverAgent+for+iOS+devices).
-          * [WebDriverAgent project page](https://github.com/facebook/WebDriverAgent).
+The WebDriverAgent is a WebDriver server used to control iOS devices remotely. To install WebDriverAgent, you can refer to this document: [Install WebDriverAgent for iOS devices](https://docs.katalon.com/katalon-studio/docs/installing-webdriveragent-for-ios-devices.html#setting-up-the-ios-device).
+### Set up the iOS devices for mobile testing in Katalon Studio
 
-      </details>
+1. iOS emulators:
 
-   3. Set up the devices
+
+
+2. Real iOS devices:
 
    * Connect your iOS devices to your computer via a USB cable. Confirm to accept or trust the phone.
    * If you want to execute your tests using Safari on iOS (mobile browser), make sure **Web Inspector** is turned on for **Safari** (**Settings > Safari > Advanced > Web Inspector**).
@@ -105,7 +84,12 @@ This topic describes the preliminary actions you need to perform to prepare the 
    * Connect the iOS devices to **Xcode**.
    * Go to **Settings** on the iOS devices > **Developer** > turn on **UIAutomation**.
 
-## Verify the iOS application file
+## Prepare the iOS application file
+
+1. With iOS emulators:
+
+
+2. With Real iOS devices:
 
 Before diving further into testing, make sure the iOS native application file (**.ipa** file) is verified.
 
