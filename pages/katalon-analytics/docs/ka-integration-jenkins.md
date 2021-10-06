@@ -16,20 +16,33 @@ description: How to integrate Katalon TestOps with Jenkins to execute TestOps pl
    
    The Jenkins's **Dashboard** page appears.
 
-2. Select **Manage Jenkins** on the left sidebar, then select **Manage Plugins**.
+2. Select **Manage Jenkins** on the left sidebar.
+
+   The **Manage Jenkins** page appears as below.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-jenkins-integration/jk-manage-jenkins.png"  width=100% alt="manage jenkins page">
+
+3. Click **Manage Plugins**.
 
    The **Plugin Manager** page appears as below.
 
-3. Click on the **Available** tab.
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-jenkins-integration/jk-manage-jenkins-available.png" width=100% alt="jenkins plugin page">
+   
+4. Click on the **Available** tab.
 
-4. Search for the Katalon plugin.
+5. Search for the Katalon plugin.
 
-   You will find the **Katalon TestOps** plugin.
-5. Choose between **Install without restart** and **Download now and install after restart** to install the plugin.
+   You will find **Katalon TestOps**.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-jenkins-integration/jk-manage-jenkins-search-testops-plugin.png" width=100% alt="jenkins search katalon plugin">
+   
+6. Select this Katalon plugin, then choose between **Install without restart** and **Download now and install after restart** to install it.
+
+You have installed the Katalon plugin on Jenkins.
 
 ## Configure a test plan in Katalon TestOps
 
-You have to create a test plan in Katalon TestOps before assigning this plan to Jenkins for test execution. See: [Schedule Test Runs](https://docs.katalon.com/katalon-analytics/docs/create-plan.html).
+You must create a test plan in Katalon TestOps first, before assigning this plan to Jenkins for test execution. See: [Schedule Test Runs](https://docs.katalon.com/katalon-analytics/docs/create-plan.html).
 
 > Notes:
 >
@@ -41,36 +54,57 @@ You have to create a test plan in Katalon TestOps before assigning this plan to 
 
    The Jenkins's **Dashboard** page appears.
    
-2. Select **New Item** on the left sidebar, then choose **Freestyle Project**.
+2. Select **New Item** on the left sidebar.
 
-3. Enter a name for your project, then click **OK**.
+   The page appears as below.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/jenkins-ka-integration/1-Create-New-Item-Project.JPG"  width=100% alt="jenkins create project">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-jenkins-integration/jk-s1-create-free-style-project.png" width=100% alt="jenkins new item page">
+   
+3. Select **Freestyle Project**, then enter a name for your project.
+
+4. Click **OK**.
+
+   You will be navigated to your project's page as below.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-jenkins-integration/jk-s2-create-build.png"  width=100% alt="jenkins create project">
 
 4. Click on the **Build** tab.
 
-5. Choose **Execute Katalon TestOps Plan**.
+   You will be navigated to the **Build** section.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/jenkins-ka-integration/2-Execute-TestOps_Plan.png"  width=100% alt="jenkins build">
+5. Click **Add build step**, then select **Execute Katalon TestOps Plan**.
 
-6. In the **Server URL** section, enter `https://testops.katalon.io`.
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-jenkins-integration/jk-build-execute-kto-plan.png"  width=100% alt="jenkins build">
 
-7. Select one of the existing credentials OR add new credentials as follows:
+   The **Execute Katalon TestOps Plan** dialog appears as below.
 
-   * Click **Add**.
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-jenkins-integration/jenkins-credentials-highlight.png" width=100% alt="jenkins build">
+   
+6. Fill in the required information.
 
-      The **Add Credentials** dialog appears.
+   * In the **Server URL** section, enter `https://testops.katalon.io`.
 
-       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/jenkins-ka-integration/secret-text.png" width="" height="" alt="jenkins testops integration">
+   * In the **Credentials** section, click **Add** > **Jenkins** to add a new credential.
+   
+      The **Add Credentials** dialog appears as below.
+
+       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/jenkins-ka-integration/secret-text.png" width="" height="" alt="jenkins add credentials">
 
       * In the **Kind** dropdown list, select **Secret Text**.
       * In the **Secret** section, enter a Katalon TestOps API Key. See: [API Keys](https://docs.katalon.com/katalon-analytics/docs/ka-api-key.html).
-      * In the **ID** section, give a name for the credential (e.g., **katalon-api-key-test**).
+      * In the **ID** section, give a name for the new credential (e.g., **katalon-api-key-test**).
       * Click **Add**.
 
-          <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/jenkins-ka-integration/secret-text.png" width="" height="" alt="jenkins add credentials">
+   You have added a new credential. You will be navigated back to the **Execute Katalon TestOps Plan** dialog.
+   You can now select the newly-added credential from the dropdown list (the **None** box).
 
 8. Click **Test Connection** for Jenkins to retrieve Projects and Test Plans from Katalon TestOps.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-jenkins-integration/jenkins-project-plans-retrieval.png" width="" height="" alt="jenkins add credentials">
+
+   > Notes:
+   >
+   > If the test connection is successful, you will see *Success!* on the screen (highlighted in the image above).
 
 9. Select your Project and the Test Plan you have created earlier. See: [Configure a test plan in Katalon TestOps](https://docs.katalon.com/katalon-analytics/docs/ka-integration-jenkins.html#configuration-a-test-plan-in-Katalon-TestOps).
 
@@ -79,3 +113,5 @@ You have to create a test plan in Katalon TestOps before assigning this plan to 
    You will be navigated back to the Jenkins's **Dashboard** page.
 
 11. Select **Build Now** on the left sidebar to run the job.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-jenkins-integration/jk-build-now.png" width="" height="" alt="jenkins add credentials">
