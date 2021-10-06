@@ -2,7 +2,7 @@
 title: "Integration with Jenkins" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/ka-integration-jenkins.html 
-description: How to integrate Katalon TestOps with Jenkins to execute TestOps test plans.
+description: How to integrate Katalon TestOps with Jenkins to execute TestOps plans.
 ---
 
 > Requirements:
