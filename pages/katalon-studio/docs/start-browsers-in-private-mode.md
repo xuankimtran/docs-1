@@ -39,7 +39,7 @@ The following guidelines show you how to start browsers (Firefox, Chrome, Edge C
 3. Add a new property as follows.
 
     * **Name**: enter `args`.
-    * **Type**: select `list`.
+    * **Type**: select `List`.
     * **Value**: enter `--incognito`.
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/start-browsers-in-private-mode/2-private-mode.png" width=100% alt="ks chrome private mode">
@@ -59,8 +59,10 @@ The following guidelines show you how to start browsers (Firefox, Chrome, Edge C
     * **Value**: open the **Dictionary Property Builder** dialog and add the following property.
     
         * **Name**: enter `args`.
-        * **Type**: select `String`.
-        * **Value**: enter `[-inprivate]`.
+        * **Type**: select `List`.
+        * **Value**: enter `-inprivate`.
+
+        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/start-browsers-in-private-mode/edge-chromium-2.png" width=100% alt="ks edge chromium dictionary property builder">
 
 4. Add a second property as follows.
 
