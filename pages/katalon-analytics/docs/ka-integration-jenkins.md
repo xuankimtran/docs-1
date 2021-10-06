@@ -54,7 +54,7 @@ You must create a test plan in Katalon TestOps first, before assigning this plan
 
    The Jenkins's **Dashboard** page appears.
    
-2. Select **New item** on the left sidebar.
+2. Select **New Item** on the left sidebar.
 
    The page appears as below.
 
