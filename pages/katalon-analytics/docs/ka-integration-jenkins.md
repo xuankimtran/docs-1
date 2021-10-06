@@ -55,7 +55,7 @@ You have to create a test plan in Katalon TestOps before assigning this plan to 
 
 6. In the **Server URL** section, enter `https://testops.katalon.io`.
 
-7. Select one of the existing credentials or add new credentials as follows:
+7. Select one of the existing credentials OR add new credentials as follows:
 
    * Click **Add**.
 
