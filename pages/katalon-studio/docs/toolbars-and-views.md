@@ -170,7 +170,7 @@ The Main **Toolbar** contains the most common actions you usually perform, for
 				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-toolbar-git.png" width=30% alt="" /></p>
 			</td>
 			<td>
-				<p>Command for Git activities. You can select these options by selecting these options appear in the dropdown list (after <a href="/display/KD/Git+Integration" rel="nofollow">enabling Git</a>):</p>
+				<p>Command for Git activities. You can select these options by selecting these options that appear in the dropdown list (after <a href="/display/KD/Git+Integration" rel="nofollow">enabling Git</a>):</p>
 				<ul>
 					<li>Clone Project</li>
 					<li>Share Project</li>
@@ -212,7 +212,7 @@ The Main **Toolbar** contains the most common actions you usually perform, for
 
 ## Tests Explorer View
 
-The **Tests Explorer** view allows you to browse the structure of your projects and access all test artifacts quickly. Using the context menu on the view, you can create new artifacts, organize the view's items, or drag and drop them to certain editor views if needed.
+The **Tests Explorer** view allows you to browse the structure of your project and access all your test artifacts. Using the context menu on the view, you can create new artifacts, organize the view's items, or drag and drop them to certain editor views if needed.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/tests-explorer.png" alt="tests explorer" width=70% >
 
@@ -233,7 +233,7 @@ The **Tests Explorer** view allows you to browse the structure of your project
 
 > Notes:
 >
-> From version 7.0.0 onwards, you can customize Tests Explorer by selecting **Project > Settings > Explorer**. By default, Tests Explorer displays all test artifacts; hence, uncheck the test artifacts you want to hide, then click **Apply and Close**.
+> By default, Tests Explorer displays all test artifacts. From version 7.0.0 onwards, you can customize Tests Explorer by selecting **Project > Settings > Explorer**. Uncheck test artifacts you want to hide, then click **Apply and Close**.
 >
 > <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/explorer-settings.png" alt="explorer settings" width="70%">
 
@@ -249,7 +249,7 @@ The editor is used to modify the detailed information of an object. Each test ar
 
 ### Test Case Editor
 
-When you open a test case, the test case editor contains its detailed information in following tabs:
+When you open a test case, the test case editor contains the detailed information of that test case in following tabs:
 
 * Manual tab
 * Script tab
@@ -260,64 +260,64 @@ When you open a test case, the test case editor contains its detailed informatio
 
 **Manual tab**
 
-The Manual tab displays the Manual view, where the basic keyword-driven configuration allows users to create automation tests without coding. Refer to [Manual View](/display/KD/Manual+View) for more details.
+The Manual tab displays the Manual view, where the basic keyword-driven configuration allows you to create automated tests without coding. Refer to [Manual View](/display/KD/Manual+View) for more details.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/manual-view.png" alt="manual tab" width=100%>
 
 **Script tab**
 
-The Script tab displays the Script view, where advanced users with programming background can modify test scripts using either Groovy or Java language. Refer to [Script View](/display/KD/Script+View) for more details.
+The Script tab displays the Script view, where advanced users with a programming background can modify test scripts using either Groovy or Java language. Refer to [Script View](/display/KD/Script+View) for more details.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/script-tab.png" alt="script" width=100%>
 
 **Variables tab**
 
-The Variables tab shows all variables defined for the test case. Refer to [Public Variables](/display/KD/Variable+Types#VariableTypes-Publicvariables) for more details.
+The Variables tab shows all defined Variables for that Test Case. Refer to [Public Variables](/display/KD/Variable+Types#VariableTypes-Publicvariables) for more details.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/variables.png" alt="variable" width=70%>
 
 **Variables tab (Script mode)**
 
-The Variables tab (Script mode) shows all variables defined for the test case in script mode.
+The Variables tab (Script mode) shows all defined Variables for that Test Case in Script mode.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/variables-script.png" alt="variable script" width=100%>
 
 **Integration tab**
 
-The Integration tab displays your configured integration in the project, for example: qTest, Jira or Azure DevOps, etc. Refer to [Integrate test case](/display/KD/Integrate+test+case) for more details.
+The Integration tab displays your configured Integration in the project, for example: qTest, Jira, Azure DevOps, etc. Refer to [Integrate test case](/display/KD/Integrate+test+case) for more details.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/integration.png" alt="integration" width=70%>
 
 **Properties tab**
 
-The Properties tab displays general information about the test case, including description and comment.
+The Properties tab displays general information about the Test Case, including the Description and the Comment.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/properties.png" alt="properties" width=100%>
 
-* **Description**: You can add or edit this field to provide detail information about a test case
-* **Comment**: This field is a read-only field. The content is extracted and populated from the comment keyword in the test case. You can leverage comment field to involve in development process of your company by providing requirements. For more information about the comment keyword, see [Comment](/display/KD/%5BCommon%5D+Comment).
+* **Description**: You can add or edit this field to provide detailed information about the Test Case
+* **Comment**: This field is read-only. The content is extracted and populated from the comment keyword in the Test Case. You can leverage the Comment field to involve in development process of your company by providing requirements in the Comment. For more information about the Comment keyword, see [Comment](/display/KD/%5BCommon%5D+Comment).
 
 ### Test Object Editor
 
-To open a Test Object, go to **Test Explorer > Object Repository** and select the object you want to open. The Test Object Editor displays all detailed information of a Test Object, including properties and object identification mechanism. Refer to [Spy Object](/display/KD/Record+and+Spy+Utilities) for more details.
+To open a Test Object, go to **Test Explorer > Object Repository** and select the Object you want to open. The Test Object Editor displays all detailed information of a Test Object, including Properties and Object identification mechanism. Refer to [Spy Object](/display/KD/Record+and+Spy+Utilities) for more details.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/object-editor.png" alt="object editor" width=100%>
 
 ### Web Service Editor
 
-To open a Web Service, go to **Test Explorer > Object Repository** and select the Web Service you want to open. When you open a RESTful or SOAP request object, the Web Service Editor displays detailed information of the current project, including the resource URL, request methods, parameters... Refer to [RESTful](/pages/viewpage.action?pageId=5125144) and [SOAP](/display/KD/SOAP) for more details.
+To open a Web Service, go to **Test Explorer > Object Repository** and select the Web Service you want to open. When you open a RESTful or SOAP Request Object, the Web Service editor displays detailed information of the current project, including the resource URL, request methods, and parameters. Refer to [RESTful](/pages/viewpage.action?pageId=5125144) and [SOAP](/display/KD/SOAP) for more details.
 
 **RESTful Request Object Editor**
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2017-2-20-163A443A23.png)
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/RESTful.png" alt="RESTful" width=100%>
 
 **SOAP Request Object Editor**
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2017-6-29-153A423A43.png)
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/SOAP.png" alt="SOAP" width=100%>
 
 ### Test Suite Editor
 
-When you open a test suite, the test suite editor displays its detailed information, including:
+When you open a Test Suite, the Test Suite editor displays detailed information of that Test Suite, including:
 
 * Main tab
 * Script tab
@@ -326,119 +326,133 @@ When you open a test suite, the test suite editor displays its detailed informat
 
 **Main tab**
 
-The main tab displays basic information about the test suite such as the test cases to be executed, the execution mechanism and data binding. Refer to [Execute a test suite](/display/KD/Execute+a+Test+Case+or+a+Test+Suite) for more details.
+The Main tab displays basic information about the Test Suite, such as which Test Cases to execute, the execution mechanism, and Data Binding. Refer to [Execute a test suite](/display/KD/Execute+a+Test+Case+or+a+Test+Suite) for more details.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2017-2-20-163A493A18.png)
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/ts-main.png" alt="main tab" width=100%>
 
 **Script tab**
 
-The script tab displays the script view, where user can set the environment, setUp, tearDown, or any configuration in test suite level. To learn more about test suite configuration, see [Test Suite](https://docs.katalon.com/katalon-studio/docs/create-test-suite.html).
+The Script tab displays the Script view, where you can set the environment, setUp, tearDown, or any configuration in Test Suite level. To learn more about Test Suite configuration, see [Test Suite](https://docs.katalon.com/katalon-studio/docs/create-test-suite.html).
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/ts-script.png" alt="script tab" width=100%>
 
 **Integration tab**
 
-The Integration tab displays information regarding your test suite integration, for example, with qTest. Refer to [Integrate test suite](/display/KD/Integrate+test+suite) for more details.
+The Integration tab displays information regarding your Test Suite Integration, for example, with qTest. Refer to [Integrate test suite](/display/KD/Integrate+test+suite) for more details.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2017-2-20-163A543A47.png)
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/ts-integration.png" alt="integration tab" width=100%>
 
 **Result tab**
 
-After you execute the test, the result tab displays the result of the latest execution, including the Passed/ Failed status of each test case, a summary report, all execution settings, and the execution environment.
+After you execute the test, the Result tab displays the result of the latest execution, including the Passed/ Failed status of each Test Case, the Summary Report, all Execution Settings, and the Execution Environment.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/ts-result.png" alt="result tab" width=100%>
+
 ### Test Suite Collection Editor
 
-A Test Suite Collection contains a set of test suites, which allows you to execute test suites together. Refer to [Test suite collection](/display/KD/Test+Suite+Collection) for more details.
+A Test Suite Collection contains a set of Test Suites, which allows you to execute multiple Test Suites together in either Parallel mode or Sequential mode. The Test Suite Collection editor has two tabs: The Main tab and the Result tab. Refer to [Test suite collection](/display/KD/Test+Suite+Collection) for more details.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2017-10-11-133A393A22.png)
+**Main tab**
+The Main tab displays which Test Suites to be executed, the Profile of each Test Suite, and the Execution Mode of the Test Suite Collection.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/tsc-main.png" alt="main tab" width=100%>
+
+**Result tab**
+
+After you execute the test, the Result tab displays the result of the latest execution, including the executed status and the Failed/ Total rate of each Test Suite. You can view detail results of each Test Suite by clicking **Show details**.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/tsc-result.png" alt="result tab" width=100%>
 
 ### Data File Editor
 
-When you open a data file, the data file editor displays its detailed information, including the data source and preview data set. You can upload your data from an Excel file, a CSV file. Refer to [Manage Test Data](/display/KD/Manage+Test+Data) for more details.
+When you open a Data File, the Data File editor displays detailed information of the Data File, including the Data Source and the preview data set. You can upload your data from an Excel file, a CSV file. Refer to [Manage Test Data](/display/KD/Manage+Test+Data) for more details.
 
-* If the test data is from an Excel file:
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2017-2-20-173A73A38.png)
+* Import Data File with an Excel file:
 
-* If the test data is from a CSV file:
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2017-2-20-173A63A7.png)
+	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/data-excel.png" alt="excel" width=100%>
 
-* If the test data is defined internally inside your test project:
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2017-2-20-173A93A51.png)
-* If the test data is from a database query:
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2017-2-20-173A93A21.png)
+* Import Data File with a CSV file:
+    
+	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/data-csv.png" alt="data csv" width=100%>
+
+* Create Data File manually using Katalon Studio:
+
+	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/internal-data.png" alt="internal data" width=70%>
+    
+* Import Data File with a Database Query:
+    
+	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/mySQL.png" alt="database query" width=100%>
 
 ### Checkpoint Editor
 
-When you open a checkpoint, its detailed information including the data source and its taken snapshot... is displayed in the editor. Refer to [Manage Checkpoints](/display/KD/Manage+Checkpoints) for more details.
+When you open a Checkpoint, the Checkpoint editor displays the detailed information of the Test Data, including the Data Source and its Taken Snapshot. Refer to [Manage Checkpoints](/display/KD/Manage+Checkpoints) for more details.
 
-*   If the data source is from an Excel file:
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2017-2-28-153A463A42.png)
-*   If the data source is from a CSV file:
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2017-2-28-153A483A0.png)
-*   If the data source is from a database:
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2017-2-28-153A483A46.png)
-*   If the data source is from existing test data:
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2017-2-28-153A493A42.png)
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/checkpoint.png" alt="checkpoint" width=100%>
 
 ### Keyword Editor
 
-When you open a custom keyword, its content is displayed in the scripting editor. This scripting editor is similar to the Script view of test cases where you can define new custom keywords easily using Groovy or Java. Refer to [Introduction to Custom Keywords](/display/KD/Introduction+to+Custom+Keywords) for more details.
+When you open a Custom Keyword, the Keyword editor displays the Keyword content in Script view. This scripting editor is similar to the Script view of Test Cases, where you can define new Custom Keywords using Groovy or Java. Refer to [Introduction to Custom Keywords](/display/KD/Introduction+to+Custom+Keywords) for more details.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2017-2-20-173A203A0.png)
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/keyword.png" alt="keyword" width=100%>
 
-Global Variables View
----------------------
+## Global Variables View
 
-The Global Variables view allows you to browse the list of available global variables defined in your project. Refer to [Global Variables](/display/KD/Variable+Types#VariableTypes-Globalvariables) for more details.
+The Global Variables view allows you to browse the list of defined Global Variables in your Project. You can either view your Global Variables in Manual view or in Script view. Refer to [Global Variables](/display/KD/Variable+Types#VariableTypes-Globalvariables) for more details.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2017-6-29-153A493A54.png)
+**Manual view**
 
-Job Progress View
------------------
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/global-variables.png" alt="global variable" width=70%>
 
-The Job Progress view allows you to see the progress of executing test cases and test suites.
+**Script view**
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2017-2-20-173A313A18.png)
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/global-variable-script.png" alt="global variable script view" width=70%>
 
-Problems View
--------------
+## Job Progress View
 
-The Problems view shows errors and warning messages raised when you are setting up a project or designing the test case, test suite, test object or test data.
+The Job Progress view allows you to see the Progress of executing Test Cases and Test Suites.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2017-6-29-153A513A15.png)
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/job-progress.png" alt="job progress" width=70%>
 
-The messages displayed in the Problems view can be configured via the drop-down menu of this view.
+## Problems View
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2017-2-20-173A423A36.png)
+The Problems view shows errors and warning messages raised when setting up a Project or designing a Test Case, Test Suite, Test Object, or Test Data.
 
-Console View
-------------
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/problems.png" alt="problems view" width=100%>
 
-The Console view shows the system logs of all run-time activities performed while the automation test is being executed. The console output generated from test scripts is also displayed here.
+## Event Log
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2017-6-29-153A523A58.png)
+The Event Log displays all run-time activities performed of the Plugin and Integration enabled in that test run while Katalon Studio executes the automated test. Refer to [Plugin](https://docs.katalon.com/katalon-studio/docs/kse-use-plugins.html) for more details.
 
-Log Viewer View
----------------
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/event-log.png" alt="event log" width=100%>
 
-The Log Viewer view shows the real-time report/log of the test execution. Refer to [View Execution Log](/display/KD/View+Execution+Log) for more details.
+## Console View
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2017-6-29-153A543A23.png)
+The Console view shows the system logs of all run-time activities performed while Katalon Studio executes the automated test. The Console output generated from Test Scripts is also displayed here.
 
-Search View
------------
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/console.png" alt="console" width=100%>
 
-The Search view shows the search results from the search function. You can double-click on a search entry to navigate to the corresponding position in the editor.
+## Log Viewer View
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2017-6-29-153A553A30.png)
+The Log Viewer shows the real-time report/log of the test execution. Refer to [View Execution Log](/display/KD/View+Execution+Log) for more details.
 
-Report View
------------
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/log-viewer.png" alt="log viewer summary" width=100%>
 
-The Report view allows you to view detailed information of a completed test execution for a certain test suite. Refer to [Test Suite Report](/display/KD/Test+Suite+Report) for more details.
+Click on the expand button to see more information in the Log Viewer.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2017-2-21-163A423A16.png)
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/log-view.png" alt="log viewer" width=100%>
 
-Test Suite Collection Report view
----------------------------------
+## Report View
 
-The Test Suite Collection Report view allows you to view detailed information of a completed test execution for a certain test suite collection. Refer to [Test Suite Collection Report](/display/KD/Test+Suite+Collection+Report) for more details.
+The Report view allows you to view detailed information of completed test execution for a certain Test Suite.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/image2017-2-28-153A523A37.png)
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/ts-report.png" alt="report view" width=100%>
+
+You can use the search bar to find the desired information in your Report.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/search.png" alt="report view" width=100%>
+
+## Test Suite Collection Report view
+
+The Test Suite Collection Report view allows you to view detailed information of completed test execution for a certain Test Suite Collection. Refer to [Test Suite Collection Report](/display/KD/Test+Suite+Collection+Report) for more details.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/tsc-report.png" alt="test suite collection report" width=100%>
