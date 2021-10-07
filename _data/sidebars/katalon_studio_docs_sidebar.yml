@@ -301,6 +301,8 @@ items:
                     url: /katalon-studio/docs/manage-web-test-object.html
                   - title: "Parameterize Web Test Objects"
                     url: /katalon-studio/docs/parameterize-web-objects.html
+                  - title: "Web Image-based Testing"
+                    url: /katalon-studio/docs/web-image-based-testing.html
               - title: "Web Record and Spy Utilities"
                 tree:
                   - title: "Record Web Utility"
