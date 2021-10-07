@@ -23,26 +23,26 @@ Katalon Studio provides a free Jira add-on to help create a seamless integration
 
 This add-on adds a custom field type to Jira called the **Katalon Gherkin** custom field. This custom field lets you write descriptions for your test cases and stories in Gherkin syntax. Gherkin keywords such as _Given_, _When_, _Then_ will be highlighted automatically. 
 
-To create Katalon Gherkin custom field, please follow the instruction from the Atlassian document here: [Project screens, schemes and fields](https://confluence.atlassian.com/adminjiraserver071/project-screens-schemes-and-fields-802592517.html).
+To create the Katalon Gherkin custom field, please follow the instructions from the Atlassian document here: [Project screens, schemes and fields](https://confluence.atlassian.com/adminjiraserver071/project-screens-schemes-and-fields-802592517.html).
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/install-and-use-katalons-jira-add-on/field-config-marked.png" width=50% alt="Create the Katalon Gherkin">
 
-Once imported to Katalon Studio, the content of Katalon Gherkin field is in the test cases description.  
+Once imported to Katalon Studio, the content of the Katalon Gherkin field is in the test cases description.  
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/TO-JIRA-View-results-on-Jira-Gherkin.png" width=70% alt="Results after linking the Katalon Gherkin">
 
 ## Jira Cloud
 
-You can also add Katalon BDD custom field into Jira ticket with Jira Cloud Intergration. Follow these steps:
+You can also add a Katalon BDD custom field into your ticket with Jira Cloud Intergration. Follow these steps:
 ### Create the Katalon BDD custom field
 
 1. From **Jira settings** -> Select **Issues** ->in the **FIELDS** tab, select **Custom fields -> Add custom field**.
-2. Select a Field Type: **_Text Field (multi-line)._** Remember to associate it with issue types you want.
+2. Select a Field Type: **_Text Field (multi-line)._** Remember to associate it with the issue types you want.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/BDD-field-Jira-Cloud/3-field-type.png" width=50% alt="Add the BDD custom field">
 
 
-3. In the new custom field window, provide a name and its description -> Click **Create**.
+3. In the new custom field window, provide a name and description -> Click **Create**.
 4. Associate the custom field to multiple screens by checkbox.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/BDD-field-Jira-Cloud/4-screens.png" width=50% alt="Choose screens for the BDD custom fields">

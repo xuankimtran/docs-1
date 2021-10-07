@@ -128,7 +128,7 @@ Follow these steps:
     > Note:
     >
     > Only existing custom field ID is valid for this configuration.
-    > In case you can not find the custom field in the drop-down list, click **Fetch Custom Fields** to fetch the latest list from the connected Jira Cloud. 
+    > In case you can not find the custom field in the dropdown list, click **Fetch Custom Fields** to fetch the latest list from the connected Jira Cloud. 
 
 4. Click **Apply and Close** to apply your settings. 
 ### Step 2: Import Test Cases from Jira
@@ -166,7 +166,7 @@ Katalon Studio allows you to pull test cases from Jira and link Jira issues to K
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Link-the-JIRA-issue.png" width=40% alt="Link the Jira issue">
 
-    As the result, Katalon opens a new test case with:
+    As a result, Katalon opens a new test case with:
 
     <table width="886">
     <tbody>
@@ -217,7 +217,7 @@ Katalon Studio allows you to pull test cases from Jira and link Jira issues to K
 
 ### Step 3: Run the test case
 
-After importing the test case from Jira, you can continue to add additional steps in the test case for your purpose. Then hit **Run** to run the test case.
+After importing the test case from Jira, you can continue to add additional steps in the test case as needed. Then hit **Run** to run the test case.
 
 ## View Test Results in Jira
 
@@ -230,7 +230,7 @@ After a test suite execution, Katalon Studio automatically uploads the latest te
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-View-results-on-Jira.png" width=70% alt="See results of test case in the Jira issue">
 
-    > Note
+    > Notes:
     >
     > You can quickly find the test execution status via the JQL query. The syntax is as follows:
     >```groovy
@@ -298,7 +298,7 @@ Follow these steps:
 
     > Note:
     > 
-    > * By default, the submitted ticket might include the **Summary**, **Description**, **Screenshots** and **Logs** of the test case. You can configure the default submission form from the **Submit Options** section in the Jira integration settings.
+    > * By default, the submitted ticket includes the **Summary**, **Description**, **Screenshots** and **Logs** of the test case. You can configure the default submission form from the **Submit Options** section in the Jira integration settings.
     > * To quickly navigate to a linked JIRA issue, click the hyperlink embedded in the ticket's ID. 
     > 
     > <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/katalon_studio_integration_with_jira_overview/Linked-JIRA-issues1.png" width=40% alt="Jira Issues Hyperlink">
