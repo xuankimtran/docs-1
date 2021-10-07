@@ -30,6 +30,7 @@ You can download Katalon Studio version 8.2.0 Beta here at our Github repository
 * Performance: Introduced **Delay between instances** option in Katalon Studio and `-delayBetweenInstances` parameter in Katalon Runtime Engine to execute Test Suite Collection in parallel mode. See [Command Syntax](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html).
 * [Katalon Studio Enterprise] Introduced Idle Timeout Bypass Limit to automatically log out licensed users due to timeout. See [Configure Idle Timeout](https://docs.katalon.com/katalon-studio/docs/license-idle-timeout.html).
 * [Project Information]: Introduced an option in project settings to include or exclude timestamps in the .properties files.
+* [WebUI] Introduced an option to use the Spy, Record, and Smart Wait function with a packed extension, now available on the Chrome Web Store. This extension is compatible with Katalon Studio version 8.0.0 onwards. See [Katalon Compact Utility](https://docs.katalon.com/katalon-studio/docs/katalon-compact-utility.html).
 
 ### Fixes
 
@@ -40,7 +41,7 @@ You can download Katalon Studio version 8.2.0 Beta here at our Github repository
 * Bug: Incorrect information of test case in Log Report Viewer.
 * Bug: Not matching between the Elapsed time of execution in Katalon Studio and the generated report.
 * Bug: [Jira] Could not interact with embedded Jira page. Install [Jira Integration 1.0.22](https://store.katalon.com/product/3/Jira-Integration#overview-content).
-* Bug: [WebUI] Unable to generate test steps when using `replace, trim, split` function and opening WebUI Recorder.
+* Bug: [WebUI] Using `replace, trim, split` when opening WebUI Recorder returned an error message: "Cannot genrate test steps".
 
 ## Official Release - Version 8.1.0
 
@@ -93,7 +94,7 @@ You can download Katalon Studio version 8.2.0 Beta here at our Github repository
 * Bug: [API Testing] Could not change object status after updating query parameters in Web Service object.
 * Bug: `waitForImagePresent` returned False despite the image appearing correctly.
 * Bug: `verifyElementPropertyValue` returned an incorrect error message.
-* Bug: An error message thrown when continuing to record scripts with an existing test case returned error messages incorrectly.
+* Bug: When continuing to record scripts with an existing test case returned error messages incorrectly.
 * Bug: An issue of deleting script when using customized keywords with incorrect values.
 * Bug: Could not link an existing Window Object to Window built-in keyword.
 * Bug: Could not activate Katalon Studio by providing email with extra spacing.
