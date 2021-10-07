@@ -73,7 +73,7 @@ To configure and use Katalon Compact Utility, you need to update the Desired Cap
 		</tr>
 		<tr>
 			<td>String</td>
-			<td>profile-directory=&lt;your_profile_name&gt;</td>
+			<td><code>profile-directory=&lt;your_profile_name&gt;</code></td>
 		</tr>
 	</tbody>
 </table>
