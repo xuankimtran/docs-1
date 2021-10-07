@@ -13,7 +13,7 @@ description: Release notes 8.x
 
 You can download Katalon Studio version 8.2.0 Beta here at our Github repository: [Katalon Studio 8.2.0 Beta](link).
 
-### New feature
+### New features
 
 * [Web Service] Introduced `setHarFileGeneration(boolean enable)` and `getHarFileGeneration` Web Service Keywords for disabling HAR file generation on demand. See [[WS] Set HAR File Generation](https://docs.katalon.com/katalon-studio/docs/ws-set-HAR-file-generation.html) and [[WS] Get HAR File Generation](https://docs.katalon.com/katalon-studio/docs/ws-get-HAR-file-generation.html).
 
