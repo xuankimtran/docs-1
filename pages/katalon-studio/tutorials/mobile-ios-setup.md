@@ -19,30 +19,29 @@ This topic describes the preliminary actions you need to perform to prepare the 
 
    * Appium: 1.12.1 onwards
    * iOS: 9.x onwards
-   
-     > **Note**
-     >
-     > Some emulators have already supported Appium through their installations. Thus, if you want to run an application on an emulator, check your emulators' settings before proceeding with the Appium installation.
-   
-### Installation
+### Installations
 
 1. Install Xcode version 10.2 or newer. You can download Xcode from the App Store or the Apple Developer website [here](https://developer.apple.com/xcode/).
 2. Install Command-line tool for Xcode. You can download the compatible command-line tool for Xcode version from the Apple Developer website here: [Downloads](https://developer.apple.com/download/all/).
 
 3. Install Appium version 1.12.1 or newer. You can install Appium via NPM or by downloading Appium Desktop. Follow the instruction in the Appium document here: [Getting started](http://appium.io/docs/en/about-appium/getting-started/#installing-appium).
 
-      > **Note**
-      >
-      > In case you are installing Applium via NPM. Make sure you install Node.js into a location where you have full permission to **Read** and **Write** 
+   > Note:
+   > * In case you are installing Applium via NPM. Make sure you install Node.js into a location where you have full permission to **Read** and **Write**.
+   > * Some emulators/simulators have already supported Appium through their installations. Thus, if you want to run an application on an emulator, check your emulators' settings before proceeding with the Appium installation.
 
-4. Install Homebrew. To install Homebrew, follow the instruction in the Homebrew website: [Homebrew](https://brew.sh/).
+4. Install WebDriverAgent
 
-5. After installing Homebrew, open the **Terminal** to install:
+The WebDriverAgent is a WebDriver server used to control iOS devices remotely. To install WebDriverAgent, you can refer to this document: [Install WebDriverAgent for iOS devices](https://docs.katalon.com/katalon-studio/docs/installing-webdriveragent-for-ios-devices.html#setting-up-the-ios-device).
 
-   - Carthage version 0.33 or newer. Carthage is a dependency manager for iOS development. To install carthage, copy and paste the command line arguement below:
+   > Note:
+   >
+   > If you execute mobile testing on simulators only, skip step 5 and 6.
 
-      `brew install carthage`
-   
+5. Install Homebrew. To install Homebrew, follow the instruction in the Homebrew website: [Homebrew](https://brew.sh/).
+
+6. After installing Homebrew, open the **Terminal** to install below extra dependencies. :
+
    - ios-deploy version 1.9.4 or newer. The ios-deploy tools allow you to launch iOS apps on an iOS Device from the command-line. To install ios-deploy, copy and paste the command-line below:
 
       `brew install ios-deploy`
@@ -65,11 +64,13 @@ This topic describes the preliminary actions you need to perform to prepare the 
 
          > Note:
          >
-         > For Appium 1.15 or above, you do not need to install ios_webkit_debug_proxy.
+         > For Appium 1.15.0 or above, you do not need to install ios_webkit_debug_proxy.
 
-6. Install WebDriverAgent 
+   - Carthage version 0.33 or newer. Carthage is a dependency manager for iOS development. To install carthage, copy and paste the command line arguement below:
 
-The WebDriverAgent is a WebDriver server used to control iOS devices remotely. To install WebDriverAgent, you can refer to this document: [Install WebDriverAgent for iOS devices](https://docs.katalon.com/katalon-studio/docs/installing-webdriveragent-for-ios-devices.html#setting-up-the-ios-device).
+      `brew install carthage`
+
+      Since version 3.33.0 (included into Appium 1.20.0+) of XCUITest driver the Carthage dependency is not needed anymore
 ### Set up the iOS devices for mobile testing in Katalon Studio
 
 1. iOS emulators:
