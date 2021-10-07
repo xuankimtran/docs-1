@@ -12,7 +12,7 @@ As a solution, Smart Wait is introduced in Katalon Studio version 7.0. It tells 
 > **Notes**:
 >
 > * Your Katalon Studio version must be 7.0 or later.
-> * The Smart Wait function is only available on Chrome and Firefox.
+> * The Smart Wait function is only available on Chrome, Edge Chromium, and Firefox.
 
 ## Sample Tests
 

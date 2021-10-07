@@ -11,6 +11,8 @@ description: Release notes 8.x
 
 ## Version 8.2.0 Beta
 
+You can download Katalon Studio version 8.2.0 Beta here at our Github repository: [Katalon Studio 8.2.0 Beta](link).
+
 ### New feature
 
 * [Web Service] Introduced `setHarFileGeneration(boolean enable)` and `getHarFileGeneration` Web Service Keywords for disabling HAR file generation on demand. See [[WS] Set HAR File Generation](https://docs.katalon.com/katalon-studio/docs/ws-set-HAR-file-generation.html) and [[WS] Get HAR File Generation](https://docs.katalon.com/katalon-studio/docs/ws-get-HAR-file-generation.html).
@@ -24,6 +26,7 @@ description: Release notes 8.x
 * [Web testing] Improved Synchronization Handling for Web Testing:
     * [Katalon Studio and Katalon Runtime ENgine] Improved the `Click` and `Click Offset` Keywords to automatically delay and click again on an element behind a loading overlay. See [Click](https://docs.katalon.com/katalon-studio/docs/webui-click.html) and [Click Offset](https://docs.katalon.com/katalon-studio/docs/webui-click-offset.html).
     * [Smart Wait] Supported detecting and waiting for fetch requests to finish before continuing with the next action.
+    * [Smart Wait] Supported Smart Wait on Edge Chromium. See [[WebUI] Smart Wait Function](https://docs.katalon.com/katalon-studio/docs/webui-smartwait.html).
 * Performance: Introduced **Delay between instances** option in Katalon Studio and `-delayBetweenInstances` parameter in Katalon Runtime Engine to execute Test Suite Collection in parallel mode. See [Command Syntax](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html).
 * [Katalon Studio Enterprise] Introduced Idle Timeout Bypass Limit to automatically log out licensed users due to timeout. See [Configure Idle Timeout](https://docs.katalon.com/katalon-studio/docs/license-idle-timeout.html).
 * [Project Information]: Introduced an option in project settings to include or exclude timestamps in the .properties files.
@@ -36,6 +39,8 @@ description: Release notes 8.x
 * Bug: null.null Katalon version in the Report Viewer when deactivating the current account and activating a new one.
 * Bug: Incorrect information of test case in Log Report Viewer.
 * Bug: Not matching between the Elapsed time of execution in Katalon Studio and the generated report.
+* Bug: [Jira] Could not interact with embedded Jira page. Install [Jira Integration 1.0.22](https://store.katalon.com/product/3/Jira-Integration#overview-content).
+* Bug: [WebUI] Unable to generate test steps when using `replace, trim, split` function and opening WebUI Recorder.
 
 ## Official Release - Version 8.1.0
 
