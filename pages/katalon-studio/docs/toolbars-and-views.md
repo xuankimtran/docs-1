@@ -144,7 +144,7 @@ The Main **Toolbar** contains the most common actions you usually perform, for
 			<td>
 				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/help%20center.png" width=30% alt="help center" /></p>
 			</td>
-			<td>Allow you to access our <a href="https://www.katalon.com/help-center/">Help Center</a> and our <a href="https://forum.katalon.com/">Forum</a>.</td>
+			<td>Access our <a href="https://www.katalon.com/help-center/">Help Center</a> and our <a href="https://forum.katalon.com/">Forum</a>.</td>
 		</tr>
 		<tr>
 			<td>
@@ -239,7 +239,7 @@ The **Tests Explorer** view allows you to browse the structure of your project
 
 ## Keywords Browser View
 
-The **Keywords Browser** view displays all available keywords supported by Katalon Studio, including built-in keywords, custom keywords, and utils. When you create a Test Case script, you can drag and drop the keywords in the **Keywords Browser** to the Test Case editor.
+The **Keywords Browser** view displays all available keywords supported by Katalon Studio, including built-in, custom, and utilities keywords. When you create a Test Case script, you can drag and drop the keywords in the **Keywords Browser** to the Test Case editor.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/keywords-browser.png" width="70%" alt="keywords browser">
 
@@ -249,7 +249,7 @@ The editor is used to modify the detailed information of an object. Each test ar
 
 ### Test Case Editor
 
-When you open a test case, the test case editor contains the detailed information of that test case in following tabs:
+When you open a test case, the test case editor contains the detailed information of that test case in the following tabs:
 
 * Manual tab
 * Script tab
@@ -299,7 +299,7 @@ The Properties tab displays general information about the Test Case, including t
 
 ### Test Object Editor
 
-To open a Test Object, go to **Test Explorer > Object Repository** and select the Object you want to open. The Test Object Editor displays all detailed information of a Test Object, including Properties and Object identification mechanism. Refer to [Spy Object](/display/KD/Record+and+Spy+Utilities) for more details.
+To open a Test Object, go to **Test Explorer > Object Repository** and select the Object you want to open. The Test Object Editor displays all detailed information of a Test Object, including Properties and Object identification mechanisms. Refer to [Spy Object](/display/KD/Record+and+Spy+Utilities) for more details.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/object-editor.png" alt="object editor" width=100%>
 
@@ -332,7 +332,7 @@ The Main tab displays basic information about the Test Suite, such as which Test
 
 **Script tab**
 
-The Script tab displays the Script view, where you can set the environment, setUp, tearDown, or any configuration in Test Suite level. To learn more about Test Suite configuration, see [Test Suite](https://docs.katalon.com/katalon-studio/docs/create-test-suite.html).
+The Script tab displays the Script view, where you can set the environment, setUp, tearDown, or any configuration at Test Suite level. To learn more about Test Suite configuration, see [Test Suite](https://docs.katalon.com/katalon-studio/docs/create-test-suite.html).
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/ts-script.png" alt="script tab" width=100%>
 
@@ -365,7 +365,7 @@ After you execute the test, the Result tab displays the result of the latest exe
 
 ### Data File Editor
 
-When you open a Data File, the Data File editor displays detailed information of the Data File, including the Data Source and the preview data set. You can upload your data from an Excel file, a CSV file. Refer to [Manage Test Data](/display/KD/Manage+Test+Data) for more details.
+When you open a Data File, the Data File editor displays detailed information of the Data File, including the Data Source and the data set preview. You can upload your data from an Excel file, a CSV file, a database query or create your own data file in Katalon Studio. Refer to [Manage Test Data](/display/KD/Manage+Test+Data) for more details.
 
 * Import Data File with an Excel file:
 
@@ -421,7 +421,7 @@ The Problems view shows errors and warning messages raised when setting up a Pro
 
 ## Event Log
 
-The Event Log displays all run-time activities performed of the Plugin and Integration enabled in that test run while Katalon Studio executes the automated test. Refer to [Plugin](https://docs.katalon.com/katalon-studio/docs/kse-use-plugins.html) for more details.
+The Event Log displays all run-time activities from all plugins and integrations enabled for your test run. Refer to [Plugin](https://docs.katalon.com/katalon-studio/docs/kse-use-plugins.html) for more details.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/event-log.png" alt="event log" width=100%>
 
