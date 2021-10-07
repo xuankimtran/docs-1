@@ -80,7 +80,7 @@ After installing Xcode, Katalon automatically recognizes the simulators as an iO
     - Web Inspector
     - Remote Automation
 
-   <img src="url" width="70%" alt="Turn on Safari Web Inspector on iOS mobile">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/KS-IOS-Safari-Web-Inspector.png" width="70%" alt="Turn on Safari Web Inspector on iOS mobile">
 
 ## Step 4: Build WebDriverAgent
 
