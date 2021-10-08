@@ -11,7 +11,7 @@ description: Release notes 8.x
 
 ## Version 8.2.0 Beta
 
-You can download Katalon Studio version 8.2.0 Beta on our GitHub repository: [Katalon Studio 8.2.0 Beta](link).
+You can download Katalon Studio version 8.2.0 Beta on our GitHub repository: [Katalon Studio 8.2.0 Beta](https://github.com/katalon-studio/katalon-studio/releases/tag/untagged-0cfe44285a1ee2b1ee43).
 
 ### New features
 
