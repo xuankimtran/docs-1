@@ -41,9 +41,57 @@ Go through the "Recording a scenario of counting down Green Tea making time via 
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/configuration.png" width=65%>
 
-   * **Device Name**: select one of your connected iOS  devices.
-   * **Start with**: select **Application File** in the drop-down list.
-   * **Application File**: Browse **Coffee Timer.ipa**.
+   <table width="927">
+   <tbody>
+   <tr>
+   <td>
+   <div>
+   <div><strong>Device Name</strong></div>
+   </div>
+   </td>
+   <td>
+   <div>
+   <div>Select one of your connected iOS devices or Xcode simulators</div>
+   </div>
+   </td>
+   </tr>
+   <tr>
+   <td>
+   <div>
+   <div>
+   <div>
+   <div><strong>Start with</strong></div>
+   </div>
+   </div>
+   </div>
+   </td>
+   <td>
+   <div>
+   <div>Select <strong>Application File</strong> in the drop-down list.</div>
+   </div>
+   </td>
+   </tr>
+   <tr>
+   <td>
+   <div>
+   <div>
+   <div>
+   <div>
+   <div>
+   <div><strong>Application File</strong></div>
+   </div>
+   </div>
+   </div>
+   </div>
+   </div>
+   </td>
+   <td>
+   <p>For Xcode simulators: browse <code>Coffee Timer.app</code></p>
+   <p>For real iOS devices: browse <code>Coffee Timer.ipa</code></p>
+   </td>
+   </tr>
+   </tbody>
+   </table>
 
 3. Click **Start** to begin recording your test case: 
 

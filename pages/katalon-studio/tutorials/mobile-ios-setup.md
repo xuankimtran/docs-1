@@ -4,13 +4,11 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/tutorials/mobile-ios-setup.html
 description:
 ---
-
-The iOS-mobile-tests perform UI functional automation test on an iOS application using Katalon Studio.
    
-This topic describes the preliminary actions you need to perform to prepare the environment for testing iOS applications with Katalon Studio.
+In this article, we show you how set up Xcode simulators and real iOS devices to test iOS applications with Katalon Studio.
 
-To start testing iOS device, you need to equip yourself with a **MacOS**. You can not execute iOS mobile testing in a **Window**.
-## Step 1: Set parameter
+To begin with, you need to equip yourself with a **MacOS**. You can not execute iOS mobile testing in a **Window**.
+## Step 1: Setting up the environment for iOS testing
 
 1. Install Xcode version 10.2 or newer. You can download Xcode from the App Store or the Apple Developer website: [Xcode 13](https://developer.apple.com/xcode/).
 
@@ -32,42 +30,48 @@ To start testing iOS device, you need to equip yourself with a **MacOS**. You ca
    > Notes:
    > * We recommend installing Appium latest version.
    > * In case you are installing Applium via NPM. Make sure you install Node.js into a location where you have full permission to **Read** and **Write**.
-   > * Some emulators/simulators have already supported Appium through their installations. Thus, if you want to run an application on an emulator, check your emulators' settings before proceeding with the Appium installation.
 ## Step 2: Install extra dependencies to test real iOS device
 
-> If you execute mobile testing on simulators only, skip this step.
+> If you execute mobile testing on Xcode simulators only, skip this step.
 
 1. Install Homebrew. Homebrew is a package manager that makes it easy to install other extra dependencies. To install Homebrew, follow the instructions in the Homebrew website: [Homebrew](https://brew.sh/).
 
 2. After installing Homebrew, you can now use it to install below dependencies in the **Terminal**:
 
-   - ios-deploy version 1.9.4 or newer. The ios-deploy tools allow you to launch iOS apps on an iOS Device from the command line. To install ios-deploy, copy and paste the command line arguement as below:
+   - ios-deploy version 1.9.4 or newer. You can learn more about ios-deploy in this Github project: [ios-deply](https://github.com/ios-control/ios-deploy). To install ios-deploy via Homebrew, copy and paste the command line arguement as below:
 
-         `brew install ios-deploy`
+      `brew install ios-deploy`
 
-   - usbmuxd version 1.0.10 or newer. usbmuxd stands for "USB multiplexing daemon". This daemon is in charge of multiplexing connections over USB to an iPhone or iPod touch. To install usbmuxd, copy and paste the following command line arguements respectively:
+   - usbmuxd version 1.0.10 or newer. You can learn more about usbmuxd in this Github project: [usbmuxd](https://github.com/libimobiledevice/usbmuxd). To install usbmuxd via Homebrew, copy and paste the following command line arguements respectively:
 
-         `brew install --HEAD usbmuxd`
-         `brew unlink usbmuxd`
-         `brew link usbmuxd`
+      `brew install --HEAD usbmuxd`
 
-   - libimobiledevice version 1.2.0 or newer. libimobiledevice is a library to communicate with iOS devices natively. To install libimobiledevice, copy and paste the following command line arguement respectively:
+      `brew unlink usbmuxd`
+
+      `brew link usbmuxd`
+
+   - libimobiledevice version 1.2.0 or newer. You can learn more about libimobiledevice in the libimobiledevice website: [libimobiledevice](https://libimobiledevice.org/). To install libimobiledevice via Homwbrew, copy and paste the following command line arguement respectively:
          
-         `brew install --HEAD libimobiledevice`
-         `brew unlink libimobiledevice`
-         `brew link libimobiledevice`
+      `brew install --HEAD libimobiledevice`
 
-   - For Appium version older than 1.20.0, you need to install Carthage. Carthage is a dependency manager for iOS development. To install carthage, copy and paste the command line arguement below:
+      `brew unlink libimobiledevice`
 
-         `brew install carthage`
+      `brew link libimobiledevice`
 
-   - For Appium version older than 1.15.0, you also need to install ios-webkit-debug-proxy. The ios_webkit_debug_proxy proxies requests from usbmuxd daemon over a websocket connection, allowing developers to send commands to MobileSafari and UIWebViews on real and simulated iOS devices. To install ios-webkit-debug-proxy, copy and paste the command-line as below:
+   - For Appium version older than 1.20.0, you need to install Carthage. You can learn more about Carthage in this Github project: [carthage](https://github.com/Carthage/Carthage). To install Carthage via Homebrew, copy and paste the command line arguement below:
 
-         `brew install ios-webkit-debug-proxy`
-## Step 3: Set up the iOS devices/simulators for mobile testing in Katalon Studio
-### For iOS simulators
+      `brew install carthage`
 
-After installing Xcode, Katalon automatically recognizes the simulators as an iOS device. You can now move on to Step 4.
+   - For Appium version older than 1.15.0, you also need to install ios-webkit-debug-proxy. You can learn more about ios-webkit-debug-proxy in this Github project: [ios-webkit-debug-proxy](https://github.com/google/ios-webkit-debug-proxy). To install ios-webkit-debug-proxy via Homwbrew, copy and paste the command-line as below:
+
+      `brew install ios-webkit-debug-proxy`
+## Step 3: Set up the iOS devices/ Xocde simulators for mobile testing in Katalon Studio
+### For Xcode simulators
+
+   After installing Xcode, Katalon automatically recognizes Xcode simulators as an iOS device. You can now move on to Step 4.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/KS-iOS-Katalon-regconizes-simulators.png" width="40%" alt="Katalon recognizes Xcode simulators">
+
 ### For real iOS devices
 
 1. Any device for development with Xcode must be listed in the Apple developer portal. To learn more about registering your device in Apple Developer Portal, you can refer to the wikiHow document here: [How to Add a New Device to Your Apple Developer Portal](https://www.wikihow.com/Add-a-New-Device-to-Your-Apple-Developer-Portal).
@@ -86,59 +90,61 @@ After installing Xcode, Katalon automatically recognizes the simulators as an iO
 
 The WebDriverAgent is a WebDriver server used to control iOS devices remotely. To install WebDriverAgent, you can refer to this document: [Install WebDriverAgent for iOS devices](https://docs.katalon.com/katalon-studio/docs/installing-webdriveragent-for-ios-devices.html#setting-up-the-ios-device).
 ## Step 5: Prepare the iOS application file
+### For Xcode simulators:
 
-### For iOS simulators:
+To execute mobile testing with Xcode simulators, you need to prepare an `.app` file.
+To get the `.app` file from the Xcode project, go to `~/Library/Developer/Xcode/DerivedData/{app name}/Build/Products/{scheme}-iphonesimulator/{app name}.app`. 
 
-To execute mobile testing with iOS simulators, you need to prepare an `.app` file.
-To get the `.app` file from the Xcode project, go to `~/Library/Developer/Xcode/DerivedData/{app name}/Build/Products/{scheme}-iphonesimulator/{app name}.app`.
+> Notes:
+> 
+> To quickly search for the `DerivedData` folder, copy and patse the following path `~/Library/Developer/Xcode/DerivedData` into the **Spotlight**. 
+
+For example: To find the `app` file from the **Coffee Timer** project, go to: `~/Library/Developer/Xcode/DerivedData/Coffee Timer/Build/Products/Debug-iphonesimulator/Coffee Timer.app`.
 ### For Real iOS devices:
 
 To execute mobile testing with real iOS devices, you need to:
-- Prepare an iOS native application file `.ipa` file. If you already have the `.ipa` file built and signed, skip this Step.
-- Verify the `.ipa` file. 
 
-1. Prepare the `.ipa` file, do as follows:
+1. Prepare the `.ipa` file. Follow these steps:
+   
+   > If you already have the `.ipa` file built and signed, skip this Step.
 
-   - Open the project file with **Xcode** tool. For example, to open **Coffe Time.xcodeproj**:
+   - Open the project file with Xcode. For example, to open `Coffee Timer.xcodeproj`:
 
-      From where you store the project > **App** > **Your-First-iOS-App** > **Coffee Timer** > **Coffee Timer.xodeproj**.
+      From where you store the project > **App** > **Your-First-iOS-App** > **Coffee Timer**. Double-click the `Coffee Timer.xodeproj` file.
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/open-xcode-file.png" width=50%>
 
-   - In Xcode:
-      - Select a device to launch the apps.
+   - After opening the project in Xcode, select a iOS device to launch the apps.
 
-         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/select-device.png" width=35%>
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/select-device.png" width=35%>
 
-     - Set deployment iOS version and select device type in **General**/**Deployment Info**.
+   - In the **General** tab, set deployment iOS version and select device type in the **Deployment Info** section.
 
-         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/deployment.png" width=45%>
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/deployment.png" width=45%>
 
-     - Build the apps by clicking **Product -> Build**. Wait until the build progress is finished.
+   - Switch to the **Signing & Capabilities** tab, check the **Automatically manage signing** box, then choose a team added in Step 3.
 
-         > Make sure to select your **Team** in **Signing & Capabilities**.
-         >
-         ><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/team.png" width=45%> 
+   - To build the `.ipa` file, click **Product > Build**. 
 
-     - Export the apps by clicking **Product -> Archive** then follow the instruction to get "**Coffee Time.ipa**" file.
+   - To export the `.ipa` file, click **Product > Archive** then follow the instruction to get `**Coffee Timer.ipa` file.
 
-         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/export.gif" width=70%>
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/export.gif" width=70%>
 
 2. Verify the `.ipa` file, follow these steps:
 
-   - Open **Xcode** and navigate to **Window/Devices**.
+   - Navigate to **Window > Devices** in Xcode.
    - Choose your device from the **Devices** list.
-   - Click *Add* (+) to choose your application file.
+   - Click *Add* (+) to choose the `.ipa` file.
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/image2016-8-8-143A313A5.png" width=60%>
       
-   - Once installed successfully, the application appears in the **Installed Apps** section, as shown below.  
+   - Once installed successfully, the application appears in the **Installed Apps** section.  
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/image2016-8-8-143A313A14.png" width=60%>
 
-## Execute mobile testing in iOS device/simulators
+## Execute mobile testing in iOS devices/simulators
 
-After the above steps, you can now execute mobile testing with the emulator. To learn more about creating and executing mobile testing in Katalon, you can refer to this document: [Create your first iOS test case](https://docs.katalon.com/katalon-studio/tutorials/mobile-create-ios-test-case.html).
+After the above steps, you can now execute mobile testing with the Xcode simulators/real iOS devices. To learn more about creating and executing iOS mobile testing in Katalon, you can refer to this document: [Create your first iOS test case](https://docs.katalon.com/katalon-studio/tutorials/mobile-create-ios-test-case.html).
 ## See also:
    * [Set up Android-mobile-tests](https://docs.katalon.com/katalon-studio/tutorials/mobile-android-setup.html)
    * [Troubleshoot automated mobile testing](https://docs.katalon.com/katalon-studio/docs/troubleshooting-automated-mobile-testing.html)
