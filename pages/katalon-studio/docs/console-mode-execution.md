@@ -17,10 +17,9 @@ You can execute an automation test without launching Katalon Studio by using com
 > * Katalon Runtime Engine installed. You can download Katalon Runtime Engine here: [Katalon products](https://www.katalon.com/all-products/).
 > * A Katalon Runtime Engine License. To learn more about activating your license, you can refer to this document: [Katalon license](https://docs.katalon.com/katalon-studio/docs/activate-license.html#activate-a-license-with-internet-access).
 
->
-> Katalon Studio only supports **Chrome, Firefox, and Remote** options for console mode execution using the **Linux** version.
->
-> From version 7.9.0 onwards, you can upgrade the default JRE 8 to higher versions in console mode. You can refer to this document for further details: [Run tests with another JRE in the command line](https://docs.katalon.com/katalon-studio/how-to-guides/set-new-default-JRE.html#use-the-newly-added-jre-in-a-test-project).
+> Notes:
+> * Katalon Studio only supports **Chrome, Firefox, and Remote** options for console mode execution using the **Linux** version.
+> * From version 7.9.0 onwards, you can upgrade the default JRE 8 to higher versions in console mode. You can refer to this document for further details: [Run tests with another JRE in the command line](https://docs.katalon.com/katalon-studio/how-to-guides/set-new-default-JRE.html#use-the-newly-added-jre-in-a-test-project).
 
 ## Execute Katalon Studio in console mode
 
@@ -303,11 +302,10 @@ Here's the list of options supported for the `katalonc` commands for Katalon Stu
 
 ## Proxy Options
 
-> From version 7.5.0 onwards, there are two types of proxy configurations: Authentication and System proxies. To learn more about configuring different proxy preferences, you can refer to this document: [Proxy Preferences](https://docs.katalon.com/katalon-studio/docs/proxy-preferences.html) for further details.
->
-> From version 7.2.0 onwards, you can exclude a list of hosts from proxy in the **Manual proxy configuration**. To learn more about manually excluding domains from proxy, you can refer to this document: [Proxy settings](https://docs.katalon.com/katalon-studio/docs/katalon-studio-preferences.html#proxy-settings).
->
-> From version 7.0.0 onwards, you can pass proxy details via a request object in Web Service testing. To learn more about passing proxy details in script mode, you can refer to this document: [Override proxy details in the test script](https://docs.katalon.com/katalon-studio/docs/katalon-studio-preferences.html#override-proxy-details-in-the-test-script).
+> Notes:
+> * From version 7.5.0 onwards, there are two types of proxy configurations: Authentication and System proxies. To learn more about configuring different proxy preferences, you can refer to this document: [Proxy Preferences](https://docs.katalon.com/katalon-studio/docs/proxy-preferences.html) for further details.
+> * From version 7.2.0 onwards, you can exclude a list of hosts from proxy in the **Manual proxy configuration**. To learn more about manually excluding domains from proxy, you can refer to this document: [Proxy settings](https://docs.katalon.com/katalon-studio/docs/katalon-studio-preferences.html#proxy-settings).
+> * From version 7.0.0 onwards, you can pass proxy details via a request object in Web Service testing. To learn more about passing proxy details in script mode, you can refer to this document: [Override proxy details in the test script](https://docs.katalon.com/katalon-studio/docs/katalon-studio-preferences.html#override-proxy-details-in-the-test-script).
 
 These proxy options must be used with `--config` parameter, for example `--config -proxy.auth.option=MANUAL_CONFIG`.
 
@@ -612,7 +610,7 @@ We recommend using the Command Builder to generate commands quickly and precisel
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/command1.png" alt="generate command" width=70%>
 
-## Use `console.properties` file
+## Use the console.properties file
 
 We support running console mode using the **console.properties** file where you can manually modify the content if needed.
 
