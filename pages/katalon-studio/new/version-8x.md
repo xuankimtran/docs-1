@@ -9,32 +9,6 @@ description: Release notes 8.x
 
 > Download [here](https://www.katalon.com/download/).
 
-## Version 8.2.0 Beta
-
-You can download Katalon Studio version 8.2.0 Beta on our GitHub repository: [Katalon Studio 8.2.0 Beta](https://github.com/katalon-studio/katalon-studio/releases/tag/v8.2.0.beta).
-
-### New features
-
-* [Web Service] Introduced `setHarFileGeneration(boolean enable)` and `getHarFileGeneration` Web Service Keywords for disabling HAR file generation on demand. See [[WS] Set HAR File Generation](https://docs.katalon.com/katalon-studio/docs/ws-set-HAR-file-generation.html) and [[WS] Get HAR File Generation](https://docs.katalon.com/katalon-studio/docs/ws-get-HAR-file-generation.html).
-
-### Enhancements
-
-* [Security] Addressed high-risk Security Vulnerabilities of Open-Source Software.
-* [Performance] Introduced **Delay between instances** option in Katalon Studio and `-delayBetweenInstances` parameter in Katalon Runtime Engine to execute Test Suite Collection in parallel mode. See [Command Syntax](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html).
-* [Katalon Studio Enterprise] Introduced Idle Timeout Bypass Limit to automatically log out licensed users due to timeout. See [Configure Idle Timeout](https://docs.katalon.com/katalon-studio/docs/license-idle-timeout.html).
-* [WebUI] Introduced an option to use the Spy, Record, and Smart Wait function with a packed extension, now available on the Chrome Web Store. This extension is compatible with Katalon Studio version 8.0.0 onwards. See [Katalon Compact Utility](https://docs.katalon.com/katalon-studio/docs/katalon-compact-utility.html).
-
-### Fixes
-
-* Bug: [CSV Report] Incorrect status for skipped Test Suite in CSV Report.
-* Bug: Unable to recognize namespace in SOAP Envelope Body.
-* Bug: [BDD] Failed feature file from the second run when calling custom keywords.
-* Bug: null.null Katalon version in the Report Viewer when deactivating the current account and activating a new one.
-* Bug: Incorrect information of test case in Log Report Viewer.
-* Bug: Not matching between the Elapsed time of execution in Katalon Studio and the generated report.
-* Bug: [Jira] Could not interact with embedded Jira page. Also requires installing Jira Integration version 1.0.22 onwards. Download from Katalon store here: [Jira Integration](https://store.katalon.com/product/3/Jira-Integration#overview-content).
-* Bug: [WebUI] Could not generate test steps when using `replace, trim, split` function and opening WebUI Recorder.
-
 ## Official Release - Version 8.1.0
 
 ### New features
@@ -86,7 +60,7 @@ You can download Katalon Studio version 8.2.0 Beta on our GitHub repository: [Ka
 * Bug: [API Testing] Could not change object status after updating query parameters in Web Service object.
 * Bug: `waitForImagePresent` returned False despite the image appearing correctly.
 * Bug: `verifyElementPropertyValue` returned an incorrect error message.
-* Bug: When continuing to record scripts with an existing test case returned error messages incorrectly.
+* Bug: An error message thrown when continuing to record scripts with an existing test case returned error messages incorrectly.
 * Bug: An issue of deleting script when using customized keywords with incorrect values.
 * Bug: Could not link an existing Window Object to Window built-in keyword.
 * Bug: Could not activate Katalon Studio by providing email with extra spacing.
