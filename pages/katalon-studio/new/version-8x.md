@@ -19,14 +19,9 @@ You can download Katalon Studio version 8.2.0 Beta on our GitHub repository: [Ka
 
 ### Enhancements
 
-* [Security] Addressed high-risk Security Vulnerabilities of Open-Source Software:
-    * [Sonar Cloud] Resolved Sonar Cloud Vulnerabilities report.
-    * [Apache Commons Compress] Upgraded Apache Commons Compress library to version 1.21.
-* [Web testing] Improved Synchronization Handling for Web Testing:
-    * [Smart Wait] Supported Smart Wait on Edge Chromium. See [[WebUI] Smart Wait Function](https://docs.katalon.com/katalon-studio/docs/webui-smartwait.html).
+* [Security] Addressed high-risk Security Vulnerabilities of Open-Source Software.
 * Performance: Introduced **Delay between instances** option in Katalon Studio and `-delayBetweenInstances` parameter in Katalon Runtime Engine to execute Test Suite Collection in parallel mode. See [Command Syntax](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html).
 * [Katalon Studio Enterprise] Introduced Idle Timeout Bypass Limit to automatically log out licensed users due to timeout. See [Configure Idle Timeout](https://docs.katalon.com/katalon-studio/docs/license-idle-timeout.html).
-* [Project Information]: Introduced an option in project settings to include or exclude timestamps in the .properties files.
 * [WebUI] Introduced an option to use the Spy, Record, and Smart Wait function with a packed extension, now available on the Chrome Web Store. This extension is compatible with Katalon Studio version 8.0.0 onwards. See [Katalon Compact Utility](https://docs.katalon.com/katalon-studio/docs/katalon-compact-utility.html).
 
 ### Fixes
@@ -38,7 +33,7 @@ You can download Katalon Studio version 8.2.0 Beta on our GitHub repository: [Ka
 * Bug: Incorrect information of test case in Log Report Viewer.
 * Bug: Not matching between the Elapsed time of execution in Katalon Studio and the generated report.
 * Bug: [Jira] Could not interact with embedded Jira page. Install [Jira Integration 1.0.22](https://store.katalon.com/product/3/Jira-Integration#overview-content).
-* Bug: [WebUI] An error message returned when using `replace, trim, split` function and opening WebUI Recorder.
+* Bug: [WebUI] Could not generate test steps when using `replace, trim, split` function and opening WebUI Recorder.
 
 ## Official Release - Version 8.1.0
 
