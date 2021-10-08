@@ -610,7 +610,7 @@ We recommend using the Command Builder to generate commands quickly and precisel
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/command1.png" alt="generate command" width=70%>
 
-## Use `console.properties` file
+## Use the console.properties file
 
 We support running console mode using the **console.properties** file where you can manually modify the content if needed.
 
