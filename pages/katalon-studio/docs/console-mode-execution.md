@@ -576,6 +576,7 @@ katalonc -noSplash -runMode=console -projectPath="C:\Users\Katalon Studio\Projec
 We recommend using the Command Builder to generate commands quickly and precisely. Please do as follows:
 
 1. Click on **Build CMD** from the main toolbar.
+   
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/Screenshot-at-Jun-20-15-42-46.png" alt="Build CMD" width=70%>
 
 2. The **Generate Command for Console Mode** is displayed. Configure your execution with the provided options:
