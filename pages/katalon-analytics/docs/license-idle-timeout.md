@@ -8,12 +8,12 @@ description:
 > Requirement:
 >
 > * An active Katalon Studio Enterprise (KSE) license.
-> * Katalon Studio version 7.8.0 onwards.
-> * You must be an Admin or Owner of your Organisation.
+> * Katalon Studio version 8.2.0 onwards.
+> * You must be an Admin or Owner of your Organization.
 
 ## Configure Idle Timeout
 
-You can define how long an open Katalon Studio app with a KSE license can stay inactive before the licensed user is considered idle. Licensed users considered idle will be automatically signed out. This setting impacts all the licensed users in the organization.
+You can define how long an open Katalon Studio app with a KSE license can stay inactive before the licensed user is considered idle. Licensed users considered idle will be automatically signed out. This setting impacts all the licensed users in the Organization.
 
 **In Katalon TestOps**:
 
@@ -21,20 +21,31 @@ To enable idle timeout, do as follows:
 
 1. Log into [Katalon TestOps](https://testops.katalon.io/).
 2. Select your **Organization** > select **Timeout**. The **Idle Timeout Settings** screen appears.
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/manage-idle-timeout.png" width=60% alt="manage idle timeout">
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/idle-timeout/idle-timeout.png" width=100% alt="manage idle timeout">
+   
 3. Idle Timeout is disabled by default. Toggle it on to enable the setting.
 4. Specify the desired timeout (in minutes). By default, Katalon sets 120 minutes as the timeout period.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/manage-enabling-timeout.png" alt="set timeout" width=60%>
+5. You can set the bypass threshold to limit the number of times that licensed users can resume the session after receiving the idle timeout notification.
 
-5. Click **Update** to save your setting.
+   In the **Idle Timeout Bypass Limit** section, input the desired bypass limit. Leaving this section empty enables licensed users to resume the session unlimited times.
+
+6. Click **Update** to save your setting.
 
 **In Katalon Studio**:
 
 When this setting is applied, Katalon Studio will notify the user 15 minutes before the end of the timeout period or when only a quarter of the time remains, whichever is shorter.
 
-* To resume the session, the user can click **Continue** or close this notification dialog.
-* To log out immediately, the user can click **Deactivate**.
-* If the user does nothing, the user will be logged out automatically at the end of the timeout period.
+If you leave the bypass section empty in TestOps, idle users receive a notification like this:
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/noti.png" width=60%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/idle-timeout/bypass0.PNG" width=60%>
+
+* To resume the session, the user can click **Continue**. If you set a bypass limit in TestOps, the notification dialog displays how many times idle users have left to resume the session.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/idle-timeout/bypass1.PNG" alt="bypass number" width=70%>
+
+* To log out immediately, the user can click **Deactivate**.
+* If the user does nothing or clicks on the _X_ button to close this notification dialog, the user will be logged out automatically at the end of the timeout period.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/idle-timeout/nobypass.PNG" alt="out of bypass" width=60%>
