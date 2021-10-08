@@ -32,7 +32,7 @@ You can download Katalon Studio version 8.2.0 Beta on our GitHub repository: [Ka
 * Bug: null.null Katalon version in the Report Viewer when deactivating the current account and activating a new one.
 * Bug: Incorrect information of test case in Log Report Viewer.
 * Bug: Not matching between the Elapsed time of execution in Katalon Studio and the generated report.
-* Bug: [Jira] Could not interact with embedded Jira page. Install [Jira Integration 1.0.22](https://store.katalon.com/product/3/Jira-Integration#overview-content).
+* Bug: [Jira] Could not interact with embedded Jira page. Also requires installing Jira Integration version 1.0.22 onwards. Download from Katalon store here: [Jira Integration](https://store.katalon.com/product/3/Jira-Integration#overview-content).
 * Bug: [WebUI] Could not generate test steps when using `replace, trim, split` function and opening WebUI Recorder.
 
 ## Official Release - Version 8.1.0
