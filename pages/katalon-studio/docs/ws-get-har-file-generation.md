@@ -6,6 +6,10 @@ redirect_from:
 description: 
 ---
 
+> Requirements:
+>
+> Katalon Studio version 8.2.0 onwards.
+
 ## Description
 
 With this keyword, you can check whether HAR file generation is enabled or disabled.
