@@ -250,7 +250,7 @@ To playback the recorded scenario:
    ```
    </details>
 
-To debug a test case, you can refer to this document: [Execute and Debug a Test Case](https://docs.katalon.com/katalon-studio/docs/execute-a-test-case-or-a-test-suite.html#debug-a-test-case).
+To learn more about debugging a test case, move to the next lesson, see [Execute and Debug a Test Case](https://docs.katalon.com/katalon-studio/docs/execute-a-test-case-or-a-test-suite.html#debug-a-test-case).
 
 ### See also:
    * [Create and Run your first Android test case](http://docs.katalon.com/katalon-studio/tutorials/mobile-create-android-test-case.html).
