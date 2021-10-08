@@ -13,7 +13,7 @@ You can download Katalon Studio version 8.2.0 Beta on our GitHub repository: [Ka
 
 ### New features
 
-* [Web Service] Introduced `setHarFileGeneration(boolean enable)` and `getHarFileGeneration` Web Service Keywords for disabling HAR file generation on demand. See [[WS] Set HAR File Generation](https://docs.katalon.com/katalon-studio/docs/ws-set-HAR-file-generation.html) and [[WS] Get HAR File Generation](https://docs.katalon.com/katalon-studio/docs/ws-get-HAR-file-generation.html).
+* [Web Service] Introduced `setHarFileGeneration(boolean enable)` and `getHarFileGeneration` Web Service Keywords for disabling HAR file generation on demand. See [[WS] Set HAR File Generation](https://docs.katalon.com/katalon-studio/docs/ws-set-har-file-generation.html) and [[WS] Get HAR File Generation](https://docs.katalon.com/katalon-studio/docs/ws-get-har-file-generation.html).
 
 ### Enhancements
 
@@ -30,7 +30,7 @@ You can download Katalon Studio version 8.2.0 Beta on our GitHub repository: [Ka
 * Bug: null.null Katalon version in the Report Viewer when deactivating the current account and activating a new one.
 * Bug: Incorrect information of test case in Log Report Viewer.
 * Bug: Not matching between the Elapsed time of execution in Katalon Studio and the generated report.
-* Bug: [Jira] Could not interact with embedded Jira page. Fixed with changes to Jira Integration version 1.0.22 onwards. Download here: [Jira Integration](https://store.katalon.com/product/3/Jira-Integration#overview-content).
+* Bug: [Jira] Could not interact with embedded Jira page. Fixed with changes to Jira Integration version 1.0.22. Download here: [Jira Integration](https://store.katalon.com/product/3/Jira-Integration#overview-content).
 * Bug: [WebUI] Could not generate test steps when using `replace, trim, split` function and opening WebUI Recorder.
 
 ## Official Release - Version 8.1.0
