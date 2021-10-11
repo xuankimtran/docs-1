@@ -4,7 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/kt_kobiton_integration.html
 ---
 
-You can enable Kobiton integration in Katalon TestOps to enhance your mobile device testing experiences.
+Kobiton allows you to test your apps on real devices to enhance your mobile testing experiences. By integrating Kobiton with Katalon TestOps, you can now plan your tests and run them on Kobiton's devices, leveraging your mobile testing activities.
 
 > Requirements:
 >
@@ -21,11 +21,9 @@ Follow these steps:
 
 3. Select **Kobiton** from the dropdown list.
 
-    <img src="https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/testops-revamp-oct-kobiton-integration/kobiton-integration-page-dropdown-list.png" width=100% alt="kobiton dropdown list">
-
 4. Fill in the required information.
 
-    <img src="https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/testops-revamp-oct-kobiton-integration/kobiton-integration-page-fillin.png" width=100% alt="kobiton integration page">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-kobiton-integration/kobiton-integration-page-fillin.png" width=100% alt="kobiton integration page">
 
     * **Kobiton Device URL**: enter your Kobiton Device URL.
     * **Username**: enter your Kobiton username.
