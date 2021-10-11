@@ -1417,8 +1417,6 @@ items:
             url: /katalon-analytics/docs/subdomain.html
           - title: "Single Sign-On Configurations"
             url: /katalon-analytics/docs/sso-settings.html
-          - title: "Configure Network Security"
-            url: /katalon-analytics/docs/network-config.html
           - title: "Configure Session Timeout"
             url: /katalon-analytics/docs/timeout-config.html 
           - title: "Notification Emails"
