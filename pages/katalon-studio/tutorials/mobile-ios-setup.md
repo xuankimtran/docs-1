@@ -86,11 +86,11 @@ To begin with, you need to equip yourself with a **MacOS**. You can not execute 
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/KS-IOS-Safari-Web-Inspector.png" width="40%" alt="Turn on Safari Web Inspector on iOS mobile">
 
-## Step 4: Build WebDriverAgent
+## Step 4: Install the WebDriverAgent
 
-The WebDriverAgent is a WebDriver server used to control iOS devices remotely. To install WebDriverAgent, you can refer to this document: [Install WebDriverAgent for iOS devices](https://docs.katalon.com/katalon-studio/docs/installing-webdriveragent-for-ios-devices.html#setting-up-the-ios-device).
+The WebDriverAgent is a WebDriver server used to control iOS devices remotely. To install the WebDriverAgent, you can refer to this document: [Install WebDriverAgent for iOS devices](https://docs.katalon.com/katalon-studio/docs/installing-webdriveragent-for-ios-devices.html#setting-up-the-ios-device).
 ## Step 5: Prepare the iOS application file
-### For Xcode simulators:
+### For Xcode simulators
 
 To execute mobile testing with Xcode simulators, you need to prepare an `.app` file.
 To get the `.app` file from the Xcode project, go to `~/Library/Developer/Xcode/DerivedData/{app name}/Build/Products/{scheme}-iphonesimulator/{app name}.app`. 
@@ -100,7 +100,7 @@ To get the `.app` file from the Xcode project, go to `~/Library/Developer/Xcode/
 > To quickly search for the `DerivedData` folder, copy and patse the following path `~/Library/Developer/Xcode/DerivedData` into the **Spotlight**. 
 
 For example: To find the `app` file from the **Coffee Timer** project, go to: `~/Library/Developer/Xcode/DerivedData/Coffee Timer/Build/Products/Debug-iphonesimulator/Coffee Timer.app`.
-### For Real iOS devices:
+### For Real iOS devices
 
 To execute mobile testing with real iOS devices, you need to:
 
@@ -142,9 +142,8 @@ To execute mobile testing with real iOS devices, you need to:
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/image2016-8-8-143A313A14.png" width=60%>
 
-## Execute mobile testing in iOS devices/simulators
 
 After the above steps, you can now execute mobile testing with Xcode simulators/real iOS devices. To learn more about creating and executing iOS mobile testing in Katalon, you can refer to this document: [Create your first iOS test case](https://docs.katalon.com/katalon-studio/tutorials/mobile-create-ios-test-case.html).
 ## See also:
-   * [Set up Android-mobile-tests](https://docs.katalon.com/katalon-studio/tutorials/mobile-android-setup.html)
+
    * [Troubleshoot automated mobile testing](https://docs.katalon.com/katalon-studio/docs/troubleshooting-automated-mobile-testing.html)

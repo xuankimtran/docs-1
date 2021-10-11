@@ -8,7 +8,7 @@ description: Create and Run iOS Test Case
 This tutorial demonstrates how to create iOS tests with Katalon Studio using Mobile Record Utility, then run the recorded test case.
 
 > Requirements:
-> * iOS setup. To set up Xcode simulator/ real iOS devices, you can refer to this document: [[Mobile] iOS Setup](https://docs.katalon.com/katalon-studio/tutorials/mobile-ios-setup.html).
+> * iOS setup. To set up Xcode simulators/ real iOS devices, you can refer to this document: [[Mobile] iOS Setup](https://docs.katalon.com/katalon-studio/tutorials/mobile-ios-setup.html).
 
 In this example, we record the following actions to test the **Coffee Timer** application:
 
@@ -79,7 +79,7 @@ In this example, we record the following actions to test the **Coffee Timer** ap
 
 ### Record a new Test Case
 
-1. On the main toolbar, click **Record Mobile** <img src="url" width=3% alt="Record Mobile icon"> and select your device type. For our example, we choose the **iOS Devices** option.
+1. On the main toolbar, click **Record Mobile** <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/KS-iOS-record-mobile-icon.png" width=4% alt="Record Mobile icon"> and select your device type. For our example, we choose the **iOS Devices** option.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/record-iOS.png" width=30%>
 
@@ -249,9 +249,7 @@ To playback the recorded scenario:
    Mobile.closeApplication()
    ```
    </details>
-
-To learn more about debugging a test case, move to the next lesson, see [Execute and Debug a Test Case](https://docs.katalon.com/katalon-studio/docs/execute-a-test-case-or-a-test-suite.html#debug-a-test-case).
-
 ### See also:
-   * [Create and Run your first Android test case](http://docs.katalon.com/katalon-studio/tutorials/mobile-create-android-test-case.html).
+
+   * [Execute and Debug a Test Case](https://docs.katalon.com/katalon-studio/docs/execute-a-test-case-or-a-test-suite.html#debug-a-test-case)
    * [Troubleshoot automated mobile testing](https://docs.katalon.com/katalon-studio/docs/troubleshooting-automated-mobile-testing.html).
