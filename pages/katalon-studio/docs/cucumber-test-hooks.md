@@ -19,11 +19,11 @@ To apply hooks in Cucumber BDD test, first you need to create a Cucumber Feature
 
 1. Create a separate Step definition or Custom Keyword that includes the Cucumber hooks:
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/cucumber-test-hooks/KS-sample-test-hooks.png" width="100%" alt="Sample test hooks">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/cucumber-test-hooks/KS-sample-test-hooks.png" width="70%" alt="Sample test hooks">
 
 2. Run the Feature file or test case and test suite that include the Cucumber Keyword and verify the message of Cucumber hooks in **Console** log:
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/cucumber-test-hooks/KS-test-hooks-log.png" width="100%" alt="Test hooks log in Console">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/cucumber-test-hooks/KS-test-hooks-log.png" width="70%" alt="Test hooks log in Console">
 
 **See also**: 
 
