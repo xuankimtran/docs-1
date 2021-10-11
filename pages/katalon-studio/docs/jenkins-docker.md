@@ -16,10 +16,11 @@ However, when your Jenkins is installed on a dynamic Docker hosted in Ubuntu wit
 
 This tutorial will guide you through configuring and building your Katalon Project with Jenkins on Docker hosted in Ubuntu.
 
-## Configure Jenkins
-### Integrate Jenkins with Docker
+## Integrate with Docker on Jenkins
 
-To integrate with Docker on Jenkins, you need to install the **Docker Plugins** and **Docker Pipeline** plugin. Do as follows:
+To integrate with Docker on Jenkins, you need to install the **Docker Plugins** and **Docker Pipeline** plugin, then set an environment path to Jenkins. Do as follows:
+
+### Install plugins
 
 1. Open Jenkins, then go to **Dashboard > Manage Jenkins > Manage Plugins**.
 
@@ -33,7 +34,7 @@ To integrate with Docker on Jenkins, you need to install the **Docker Plugins** 
 
 ### Add an Environment Path
 
-After you have installed the plugins, you need to add an environment path to Jenkins.
+To run Docker commands from Jenkins, you need to add an environment path to Jenkins. The `PATH` specifies where to find the folder containing Docker's commands.
 
 Go to **Dashboard > Manage Jenkins > Configure System > Global properties**. Select the **Environment variables** to add a global variable named `PATH`, which value is `$PATH:/usr/local/bin:`.
 
@@ -60,7 +61,7 @@ You can either upload your Katalon project from a Git repository or your local w
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-docker/git.png" alt="add git repository" width=85%>
 
-### Upload in local workspace
+### Upload in the local workspace
 
 1. Put your CI/CD project folder in this directory: `Users/Your_user_name/.jenkins/workspace`. Copy your project folder name.
 2. In Jenkins Dashboard, go to **New Item** and create a **Freestyle project**. Name your project the same name as your project folder in your local Jenkins workspace.
@@ -93,6 +94,6 @@ You can either upload your Katalon project from a Git repository or your local w
 
 4. To view your report files, you can go to this directory: `Users/Your_user_name/.jenkins/workspace/Your_project_name/Reports` or your third-party integration like Katalon TestOps, Azure DevOps, or qTest.
 
-    >Notes:
+    > Notes:
     >
-    > For real-time monitoring and better reporting capabilities, consider integrate your project with Katalon TestOps. See also [Upload Test Results to Katalon TestOps from Katalon Studio](https://docs.katalon.com/katalon-analytics/docs/integration-with-katalon-studio.html#enable-integration).
+    > For real-time monitoring and better reporting capabilities, consider integrating your project with Katalon TestOps. See also [Upload Test Results to Katalon TestOps from Katalon Studio](https://docs.katalon.com/katalon-analytics/docs/integration-with-katalon-studio.html#enable-integration).
