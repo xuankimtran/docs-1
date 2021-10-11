@@ -19,7 +19,7 @@ In this article, we guide you step by step on how to configure Android Studio (E
 Download and install Android Studio. You can download Android Studio from the Android developer website here: [Android Studio](https://developer.android.com/studio). Android Studio will guide you through each step during the installation and automatically download the necessary components to create emulators.
 ### Create an Android project
 
-1. After successfully installed, in the **Welcome Page** window, click **Create new project**. Android Studio provides a variety of sample projects for you to choose. Here, we choose **Empty Activity** as an example, then click **Next**.
+1. After installing successfully, in the **Welcome Page** window, click **Create new project**. Android Studio provides a variety of sample projects for you to choose from. Here, we choose **Empty Activity** as an example, then click **Next**.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-mobile-testing-with-emulator/KS-EMULATOR-Choose-project-template.png" width="60%" alt="Choose project template">
 
@@ -49,7 +49,7 @@ Download and install Android Studio. You can download Android Studio from the An
     <div><strong>Save location</strong></div>
     </div>
     </td>
-    <td>The location to save your project. In case you want to change the default location, click <em>Browse </em>(folder icon).</td>
+    <td>The save location of your project. In case you want to change the default location, click <em>Browse </em>(folder icon).</td>
     </tr>
     <tr>
     <td>
@@ -57,7 +57,7 @@ Download and install Android Studio. You can download Android Studio from the An
     <div><strong>Language</strong></div>
     </div>
     </td>
-    <td>To choose the language to build your Android app. You can select either <strong>Java</strong> or <strong>Kotlin</strong> from the drop-down menu.</td>
+    <td>The language to build your Android app. You can select either <strong>Java</strong> or <strong>Kotlin</strong> from the dropdown menu.</td>
     </tr>
     <tr>
     <td>
@@ -65,15 +65,15 @@ Download and install Android Studio. You can download Android Studio from the An
     <div><strong>Minimum SDK</strong></div>
     </div>
     </td>
-    <td>&nbsp;To select the lowest version of Android you want your app to support</td>
+    <td>&nbsp;The lowest version of Android supported by your app</td>
     </tr>
     <tr>
     <td>
     <div>
-    <div><strong>Use legacy android.support libraries</strong></div>
+    <div><strong>Use legacy android.support libraries.</strong></div>
     </div>
     </td>
-    <td>&nbsp;If your app requires legacy library support, check this box.</td>
+    <td>&nbsp;If your app requires legacy library support, check this box. To learn more about Android  support libraries, you can refer to the Android developer document here: <p><a href="https://developer.android.com/topic/libraries/support-library">Support libraries</a></p></td>
     </tr>
     </tbody>
     </table>
@@ -87,7 +87,7 @@ Download and install Android Studio. You can download Android Studio from the An
    
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-mobile-testing-with-emulator/KS-EMULATOR-Choose-AVD-Manager.png" width="70%" alt="Choose AVD Manager">
 
-2. Click **Create Virtual Device**. The **Select Hardware** page opens, allowing you to choose your emulator's size, resolution, and density. After selecting the hardware, click **Next**.
+2. Click **Create Virtual Device**. The **Select Hardware** page opens, allowing you to choose your emulator's screen size, resolution, and pixel density. To get an overview about screen variations, you can refer to this Android developer document: [Screen compatibility overview](https://developer.android.com/guide/practices/screens_support). After selecting the hardware, click **Next**.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-mobile-testing-with-emulator/KS-EMULATOR-Select-hardware.png" width="60%" alt="Select the hardware">   
 
