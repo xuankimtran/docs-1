@@ -20,19 +20,19 @@ In this example, we record the following actions to test the **Coffee Timer** ap
 > You can download the sample project as a .zip file here: [iOS Mobile Tests](https://github.com/katalon-studio-samples/ios-mobile-tests).
 ### Create a new project
 
-1. To create new project, go to **File > New > New Project**.
+1. To create a new project, go to **File > New > New Project**.
 
-2. Fill in in the displayed **New Project** dialog as shown below:
+2. Fill in the displayed **New Project** dialog as shown below:
 
    <table>
    <tbody>
    <tr>
    <td><strong>Name</strong></td>
-   <td>To input the project name</td>
+   <td>The project name</td>
    </tr>
    <tr>
    <td><strong>Type</strong></td>
-   <td>To select the project type. In this example, we choose the&nbsp;<strong>Mobile&nbsp;</strong>project type.</td>
+   <td>The project type. In this example, we choose the&nbsp;<strong>Mobile&nbsp;</strong>project type.</td>
    </tr>
    <tr>
    <td>
@@ -40,7 +40,7 @@ In this example, we record the following actions to test the **Coffee Timer** ap
    <div><strong>Project</strong></div>
    </div>
    </td>
-   <td>This section allows you to choose a sample project. If you don't want to open a sample project, choose the&nbsp;<strong>Blank</strong> option. In this example, we choose the <strong>Sample iOS Mobile Tests Project </strong>project<strong>.</strong></td>
+   <td>This section allows you to choose a sample project. If you don't want to open a sample project, select the&nbsp;<strong>Blank</strong> option. In this example, we choose the <strong>Sample iOS Mobile Tests Project </strong>project<strong>.</strong></td>
    </tr>
    <tr>
    <td>
@@ -68,7 +68,7 @@ In this example, we record the following actions to test the **Coffee Timer** ap
    </div>
    </div>
    </td>
-   <td>&nbsp;The location to save your project.&nbsp;</td>
+   <td>&nbsp;The save location of your project.&nbsp;</td>
    </tr>
    </tbody>
    </table>
@@ -139,39 +139,39 @@ In this example, we record the following actions to test the **Coffee Timer** ap
    </tbody>
    </table>
 
-3. Click **Start** to begin recording your test case. After the application under test (AUT) is lanched, you can now see:
+3. Click **Start** to begin recording your test case. After the application under test (AUT) is launched, you can now see:
 
-   -  **Device View**: this section displays the start page of your AUT. You can interact with the the **Device View** section the same way as in a real iOS device.
+   -  **Device View**: this section displays the start page of your AUT. You can interact with the **Device View** section the same way as in a real iOS device.
    -  **All Objects**: this section displays all objects of the current view in the **Device View** section.
 
-4. In the **Device View** section, click **Green Tea**, Katalon Studio correspondingly selects the **Green Tea** object in the **All Objects** section.
+4. In the **Device View** section, click **Green Tea**. Katalon Studio correspondingly selects the **Green Tea** object in the **All Objects** section.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/Green%20Tea.png" width=65%>
 
 5. Once **Green Tea** is selected, click the **Tab** action in the **Available Action** section, you will see:
 
    * The **Device View** section displays the countdown for **Green Tea**.
-   * Katalon automatically adds the **Tap** action to the list of recorded steps in the **Recorded Actions** tab .
+   * Katalon automatically adds the **Tap** action to the list of recorded steps in the **Recorded Actions** tab.
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/recorded-action.png" width=65%>
 
-   * Katalon also captures the **Green Tea** object properties including in the **Captured Objects** tab. To learn more about mobile object properies, you can refer to this document: [Manage Mobile Test Objects](https://docs.katalon.com/katalon-studio/docs/manage-mobile-test-object.html#validate-test-object-on-aut).
+   * Katalon also captures the **Green Tea** object properties including in the **Captured Objects** tab. To learn more about mobile object properties, you can refer to this document: [Manage Mobile Test Objects](https://docs.katalon.com/katalon-studio/docs/manage-mobile-test-object.html#validate-test-object-on-aut).
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/captured-object.png" width=65%>
 
    > Notes:
-   > * If you prefer another locator strategy, select your prefered one, then click **Generate** to generate a new locator. You can also check if your newly updated locator can detect the target object correctly by clicking **Highlight**.
+   > * Select your preferred one if you prefer another locator strategy, then click **Generate** to generate a new locator. You can also check if your newly updated locator can detect the target object correctly by clicking **Highlight**.
    >  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/locator.png" width=70%>
 
 6. Similarly, click **Start** in the **Device View** section, then click **Tap** in the **Available Actions** section. 
    
-   You can see another tap action is added to the list of **Recorded Actions**, as well as the **Start** object properties in the **Captured Objects** tab.
+    Katalon automatically adds another **Tap** action to the list of **Recorded Actions** and the **Start** object properties in the **Captured Objects** tab.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/start-action.png" width=70%>
 
 7. Next, click **Stop** in the **Device View** section, then click **Tap** in the **Available Actions** section. 
 
-   Katalon automatically adds another **Tap** action to the list of **Recorded Actions**, as well as the **Stop** object properties in the **Captured Objects** tab.
+   Katalon automatically adds another **Tap** action to the list of **Recorded Actions** and the **Stop** object properties in the **Captured Objects** tab.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/stop-action.png" width=70%>
 
