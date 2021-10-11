@@ -30,6 +30,7 @@ To begin with, you need to equip yourself with a **macOS**. You can not execute 
    > Notes:
    > * We recommend installing Appium latest version.
    > * In case you are installing Applium via NPM. Make sure you install Node.js into a location where you have full permission to **Read** and **Write**.
+   > * If you are using emulators other than Xcode simulators, some emulators come with Appium installed. If you want to run an application on an emulator, check your emulator settings before installing Appium.
 ## Step 2: Install extra dependencies to test real iOS device
 
 > If you execute mobile testing on Xcode simulators only, skip this Step.
