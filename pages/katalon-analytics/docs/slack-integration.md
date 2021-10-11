@@ -64,8 +64,6 @@ You use this URL for Slack integration on Katalon TestOps.
 
 3. Select **Slack** from the dropdown list.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-slack-integration/slack-step8-integrate-slack-with-testops.png" width=100% alt="slack integration on testops">
-
 4. Paste the URL you have copied earlier in the **Incoming Webhook URL** section, then click **Test Connection**.
 
     If the connection is successful, you will receive a message on Slack.
