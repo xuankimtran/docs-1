@@ -18,7 +18,7 @@ Time differences might affect the validation of licenses on the Katalon Server.
 > * To find the exceptions and errors you encountered, use **Ctrl+F**.
 > * If you cannot find the exceptions or error message you encountered, you can leave a comment below for further support.
 
-Here is the list of common issues when activating Katalon Studio and/or starting Katalon TestOps, followed by the instructions to solve them:
+Here is the list of common issues when activating Katalon Studio and/or starting Katalon TestOps, followed by possible solutions:
 
 **<details><summary>Cannot connect to Katalon TestOps server. Please check your Internet connection and try again (1).</summary>**
 
@@ -69,7 +69,7 @@ If the number of machines on which you're using Katalon Studio exceeds the numbe
 
 **<details><summary>Network Security errors</summary>**
 
-For Enterprise users with a private network, you might encounter a situation where you fail to execute test scripts, integrate Katalon Studio, and/or access Katalon TestOps, due to the network security errors.
+For Enterprise users with a private network, you might encounter a situation where you fail to execute test scripts, integrate Katalon Studio, and/or access Katalon TestOps, due to network security errors.
 
 Contact your IT team to whitelist the following domains:
 
@@ -84,7 +84,7 @@ Contact your IT team to whitelist the following domains:
 
 **<details><summary>IP Addresses errors</summary>**
 
-For Katalon TestOps's network configuration, you might encounter a problem if you are integrating with an On-Premises development system such as Jira Server or Azure DevOps Server.
+You might encounter a problem with Katalon TestOps network configurations if you are integrating with an On-Premises development system such as Jira Server or Azure DevOps Server.
 
 Contact your IT team to whitelist the following IP addresses:
 
