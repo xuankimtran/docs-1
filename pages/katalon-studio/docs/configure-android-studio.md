@@ -124,7 +124,7 @@ To check whether Katalon successfully recognizes your Android emulator, on the m
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-mobile-testing-with-emulator/KS-EMULATOR-Recognize-Android-emulator.png" width="30%" alt="Regconize Android devices">
 
-You should see the name of your emulator appeared as a Android device.
+You should see the name of your emulator appeared as an Android device.
 
 > Notice:
 > * You must first manually launch the emulator with Android Studio or via the command-line option for Katalon to recognize the device.  
