@@ -5,9 +5,9 @@ permalink: katalon-recorder/docs/export-test-project-to-ks.html
 description: 
 ---
 
-From version 5.6.0 onwards, Katalon Recorder (KR) users can export the entire test project to Katalon Studio (KS). 
+From version 5.6.0 onwards, Katalon Recorder (KR) users can export the entire test project to Katalon Studio (KS).
 
-With this feature, you can now scale up your projects by migrating the large test artifacts from KR to KS for continuous use of Katalon ecosystem, without the need to find an alternative framework when KR can no longer handle your larger and larger projects.
+This feature is especially useful to users outgrowing the capabilities of KR. As your work requirements and projects complexity increase, you can move your test artifacts and projects to KS. This allows you to benefit from Studio's more advanced features without losing your work.
 
 This feature allows you to:
 
