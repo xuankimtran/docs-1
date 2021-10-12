@@ -119,14 +119,20 @@ If you want to run the emulator via the command-line option, you can refer to th
 
 ## Execute mobile testing with Android Studio in Katalon
 
-After launching the emulator, Katalon automatically recognizes the emulator as an Android device. You can now execute mobile testing with the emulator. 
+After launching the emulator, Katalon automatically recognizes the emulator as an Android device. 
+To check whether Katalon successfully recognizes your Android emulator, on the main toolbar, select the **Android** device in the dropdown list next to **Run**. 
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-mobile-testing-with-emulator/KS-EMULATOR-Recognize-Android-emulator.png" width="30%" alt="Regconize Android devices">
+
+You should see the name of your emulator appeared as a Android device.
+
+> Notice:
+> * You must first manually launch the emulator with Android Studio or via the command-line option for Katalon to recognize the device.  
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-mobile-testing-with-emulator/KS-EMULATOR-Choose-emulator-in-Katalon.png" width="50%" alt="Choose emulator in Katalon">
 
-To learn more about creating and executing mobile testing in Katalon, you can refer to the below documents:
+You can now execute mobile testing with the emulator. To learn more about creating and executing mobile testing in Katalon, you can refer to the below documents:
 
 * [Mobile Record Tutorials](https://docs.katalon.com/katalon-studio/docs/mobile-recorder-tutorials.html#record).
 * [Tutorials for Mobile Object Spy](https://docs.katalon.com/katalon-studio/docs/spy-mobile-utility.html).
 
-> Notice:
-> * You must first manually launch the emulator with Android Studio or via the command-line option for Katalon to recognize the device.  
