@@ -23,7 +23,7 @@ Download and install Android Studio. You can download Android Studio from the An
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-mobile-testing-with-emulator/KS-EMULATOR-Choose-project-template.png" width="60%" alt="Choose project template">
 
-2. In the next interface, you can configure the following prospect of your project to build an Android app:
+2. In the next interface, you can configure your project as follows:
 
     <table width="926">
     <tbody>
