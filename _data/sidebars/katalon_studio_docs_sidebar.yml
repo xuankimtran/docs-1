@@ -115,8 +115,6 @@ items:
                     url: /katalon-studio/docs/katalon-addon-for-chrome.html
               - title: "Configuration for Mobile Testing"
                 tree:
-                  - title: "Mobile on Windows"
-                    url: /katalon-studio/docs/mobile-on-windows.html
                   - title: "Mobile on macOS"
                     url: /katalon-studio/docs/mobile-on-macos.html
                   - title: "Installing WebDriverAgent for iOS devices"
@@ -147,6 +145,8 @@ items:
             tree:
               - title: "[Mobile] Android Setup"
                 url: /katalon-studio/tutorials/mobile-android-setup.html
+              - title: "[Mobile] Configure Android Studio (Emulator)"
+                url: /katalon-studio/docs/configure-android-studio.html
               - title: "[Mobile] Create and Run Android Test Case"
                 url: /katalon-studio/tutorials/mobile-create-android-test-case.html
           - title: "Web UI"
