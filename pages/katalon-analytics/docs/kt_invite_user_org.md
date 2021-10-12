@@ -53,7 +53,7 @@ Your team members will receive an invitation email containing a link. Once they 
 
 > Notes:
 > 
-> The invitation link is valid within 24 hours only. The link becomes invalid after 24 hours and you will have to invite your team members again.
+> The invitation link is valid for 24 hours. After that, you will have to invite you team members again.
 
 Alternatively, you can copy the activation link in the **Pending Invitation** section and send it to them.
 
