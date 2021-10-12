@@ -93,6 +93,10 @@ You can download Katalon Studio version 8.2.0 Beta on our GitHub repository: [Ka
 * Bug: Browser-based recorder could not record videos for the second test case if reusing an open browser.
 * Bug: Explorer Configuration in Project Settings was not working as intended.
 
+### Known issues
+
+* Bug: [Windows OS] Import error of some javax classes: "Groovy:unable to resolve class javax.*". More details on this forum post: [Katalon 8 custom keywords groovy import error](https://forum.katalon.com/t/katalon-8-customkeywords-groovy-import-error/58225).
+
 ## Version 8.0.5
 
 ### Improvements
