@@ -73,7 +73,7 @@ In this example, we record the following actions to test the **Coffee Timer** ap
    </tbody>
    </table>
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/create-new-project-with-sample-project.png" width=70%>
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/create-new-project-with-sample-project.png" width=50%>
 
 3. After filling in the project details, click **OK**. A new mobile project opens.
 
@@ -85,7 +85,7 @@ In this example, we record the following actions to test the **Coffee Timer** ap
 
 2. In the displayed **Mobile Recorder** dialog, specify the information in the **Configurations** section:
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/configuration.png" width=65%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/configuration.png" width=50%>
 
    <table width="927">
    <tbody>
@@ -146,74 +146,74 @@ In this example, we record the following actions to test the **Coffee Timer** ap
 
 4. In the **Device View** section, click **Green Tea**. Katalon Studio correspondingly selects the **Green Tea** object in the **All Objects** section.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/Green%20Tea.png" width=65%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/Green%20Tea.png" width=50%>
 
 5. Once **Green Tea** is selected, click the **Tab** action in the **Available Action** section, you will see:
 
    * The **Device View** section displays the countdown for **Green Tea**.
    * Katalon automatically adds the **Tap** action to the list of recorded steps in the **Recorded Actions** tab.
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/recorded-action.png" width=65%>
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/recorded-action.png" width=50%>
 
    * Katalon also captures the **Green Tea** object properties including in the **Captured Objects** tab. To learn more about mobile object properties, you can refer to this document: [Manage Mobile Test Objects](https://docs.katalon.com/katalon-studio/docs/manage-mobile-test-object.html#validate-test-object-on-aut).
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/captured-object.png" width=65%>
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/captured-object.png" width=50%>
 
    > Notes:
-   > * Select your preferred one if you prefer another locator strategy, then click **Generate** to generate a new locator. You can also check if your newly updated locator can detect the target object correctly by clicking **Highlight**.
-   >  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/locator.png" width=70%>
+   > * If you prefer another locator strategy, you can select your preferred one, then click **Generate** to generate a new locator. You can also check if your newly updated locator can detect the target object correctly by clicking **Highlight**.
+   >  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/KS-ios-choose-another-locator-strategy.png" width=50%>
 
 6. Similarly, click **Start** in the **Device View** section, then click **Tap** in the **Available Actions** section. 
    
     Katalon automatically adds another **Tap** action to the list of **Recorded Actions** and the **Start** object properties in the **Captured Objects** tab.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/start-action.png" width=70%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/start-action.png" width=50%>
 
 7. Next, click **Stop** in the **Device View** section, then click **Tap** in the **Available Actions** section. 
 
    Katalon automatically adds another **Tap** action to the list of **Recorded Actions** and the **Stop** object properties in the **Captured Objects** tab.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/stop-action.png" width=70%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/stop-action.png" width=50%>
 
 8.  Click **Save script**. An open dialog asks you to save captured objects into the Object Repository of Katalon Studio. You can create a new folder or select an existing folder in **Object Repository**, then click **OK**.
 
 9.  A dialog opens, providing you three options to save your recorded test:
 
-   <table>
-   <tbody>
-   <tr>
-   <td><strong>Export to new test case</strong></td>
-   <td>To export the recorded test steps to a new test case.</td>
-   </tr>
-   <tr>
-   <td><strong>Append to test case</strong></td>
-   <td>To add the recorded test steps to an existing test case.</td>
-   </tr>
-   <tr>
-   <td>
-   <div>
-   <div><strong>Overwrite test case</strong></div>
-   </div>
-   </td>
-   <td>To replace an existing test case with the recorded test case</td>
-   </tr>
-   </tbody>
-   </table>
+      <table>
+      <tbody>
+      <tr>
+      <td><strong>Export to new test case</strong></td>
+      <td>To export the recorded test steps to a new test case.</td>
+      </tr>
+      <tr>
+      <td><strong>Append to test case</strong></td>
+      <td>To add the recorded test steps to an existing test case.</td>
+      </tr>
+      <tr>
+      <td>
+      <div>
+      <div><strong>Overwrite test case</strong></div>
+      </div>
+      </td>
+      <td>To replace an existing test case with the recorded test case</td>
+      </tr>
+      </tbody>
+      </table>
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/save-script.png" width=65%>
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/save-script.png" width=50%>
 
 ### Run the recorded test case
 
-To playback the recorded scenario:
+To run the recorded steps, follow these steps:
 
 1. Select the test case where you saved the recorded actions.
-2. On the main toolbar, select **iOS** device on the drop-down list next to **Run**.
+2. On the main toolbar, select **iOS** device in the dropdown list next to **Run**.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/select-ios.png" width=30%>
 
-3. In the displayed **iOS Devices** dialog, select a device, then click **OK**.
+3. In the displayed **iOS Devices** dialog, select an iOS device/ a Xcode simulator, then click **OK**.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/ios-devices-list.png" width=70%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/ios-devices-list.png" width=50%>
 
    Katalon Studio executes the iOS test with the recorded steps accordingly.
 
