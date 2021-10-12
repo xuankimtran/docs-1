@@ -5,10 +5,10 @@ permalink: katalon-studio/docs/jenkins-docker-ubuntu.html
 description: This article will show you how to use Jenkins on Docker hosted in Ubuntu.
 ---
 
-> Requirement:
+> Requirements:
 >
 > An active Katalon Runtime Engine license.
-> Docker and Jenkins are already installed and configured. You can learn how to install Docker and Jenkins at Jenkins document: [Docker](https://www.jenkins.io/doc/book/installing/docker/).
+> Docker and Jenkins already installed and configured. You can learn how to install Docker and Jenkins in this Jenkins guide: [Docker](https://www.jenkins.io/doc/book/installing/docker/).
 
 Docker is a platform for running applications in an isolated environment called a Docker container. Applications like Jenkins can be downloaded as read-only images, each of which is run in Docker as a container.
 
@@ -18,7 +18,7 @@ This tutorial will guide you through configuring and building your Katalon Proje
 
 ## Integrate with Docker on Jenkins
 
-To integrate with Docker on Jenkins, you need to install the **Docker Plugins** and **Docker Pipeline** plugin, then set an environment path to Jenkins. Do as follows:
+To integrate with Docker on Jenkins, you need to install the **Docker Plugins** and **Docker Pipeline**, then set an environment path to Jenkins. Do as follows:
 
 ### Install plugins
 
@@ -34,9 +34,9 @@ To integrate with Docker on Jenkins, you need to install the **Docker Plugins** 
 
 ### Add an Environment Path
 
-To run Docker commands from Jenkins, you need to add an environment path to Jenkins. The `PATH` specifies where to find the folder containing Docker's commands.
+To run Docker commands from Jenkins, you need to add an environment path to Jenkins. The `PATH` specifies where to find the folder containing Docker commands.
 
-Go to **Dashboard > Manage Jenkins > Configure System > Global properties**. Select the **Environment variables** to add a global variable named `PATH`, which value is `$PATH:/usr/local/bin:`.
+Go to **Dashboard > Manage Jenkins > Configure System > Global properties**. Select the **Environment variables** to add a global variable named `PATH` with this value: `$PATH:/usr/local/bin:`.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-docker/Global-properties.png" alt="global properties" width=100%>
 
@@ -44,7 +44,7 @@ Go to **Dashboard > Manage Jenkins > Configure System > Global properties**. Sel
 
 > Notes:
 >
-> Make sure you have opened Docker and installed Docker Plugin, Docker Pipeline plugin on Jenkins.
+> Make sure you have Docker open, with **Docker Plugin** and **Docker Pipeline** activate on Jenkins.
 > You can clone or download our sample CI/CD project at our GitHub repository: [CI sample](https://github.com/katalon-studio-samples/ci-samples).
 
 You can either upload your Katalon project from a Git repository or your local workspace.
@@ -52,7 +52,7 @@ You can either upload your Katalon project from a Git repository or your local w
 ### Upload a Git repository
 
 1. Prepare your Katalon project repository on GitHub.
-2. In Jenkins Dashboard, go to **New Item** and create a **Freestyle project**.
+2. In the Jenkins Dashboard, go to **New Item** and create a **Freestyle project**.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-docker/new-item.png" alt="new item" width=85%>
 
@@ -64,7 +64,7 @@ You can either upload your Katalon project from a Git repository or your local w
 ### Upload in the local workspace
 
 1. Put your CI/CD project folder in this directory: `Users/Your_user_name/.jenkins/workspace`. Copy your project folder name.
-2. In Jenkins Dashboard, go to **New Item** and create a **Freestyle project**. Name your project the same name as your project folder in your local Jenkins workspace.
+2. In the Jenkins Dashboard, go to **New Item** and create a **Freestyle project**. Name your project the same name as your project folder in your local Jenkins workspace.
 
 ## Build your project
 
