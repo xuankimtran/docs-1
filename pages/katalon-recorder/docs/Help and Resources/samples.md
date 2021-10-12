@@ -9,9 +9,9 @@ redirect_from:
 description: 
 ---
 
-In Katalon Recorder (KR), a sample project covers a common topic that you will find when working with KR.
+Katalon Recorder (KR) offers a suite of sample projects that cover common testing needs and topics you will find during your test automation journey.
 
-From version 5.5.4 onwards, all KR samples projects are compiled into automation templates. You then can easily add any sample project to KR using the **Templates** function.
+From version 5.5.4 onwards, all sample projects are compiled into automation templates. You can easily add any sample project to KR using the **Templates** function.
 
 Follow these steps:
 
