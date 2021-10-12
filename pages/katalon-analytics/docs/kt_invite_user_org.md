@@ -21,6 +21,14 @@ redirect_from:
 >
 > Only the Owner or Admins of an Organization can do this.
 
+You have two options to invite your members: **By Email** or **Import CSV file**.
+
+> Notes:
+>
+> The default role for team members you have invited is Member, you can change this role later anytime.
+
+### Invite Users by Email
+
 Follow these steps:
 
 1. Click on the **Settings** icon at the top right corner of the TestOps homepage and choose **User Management**.
@@ -31,21 +39,47 @@ Follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-invite-user-org/k1-user-mgt-page-new-ui.png" width=100% alt="new ui user mgt page">
 
-2. Click **Invite Users** at the top right corner.
+2. Click **Invite Users** at the top right corner, then select **By Email**.
 
-    A new window pops up asking you to enter the email and assign the product license to the new User.
+    A new window pops up asking you to enter the email addresses. You can enter multiple email addresses to invite members. Multiple email addresses should be separated by a Comma, Space, Tab, Alt, Out Focus, or Enter.
 
-3. Fill in the required information, then click **Invite**.
+3. Click **Next**.
 
-    You can enter multiple email addresses to invite members. Multiple email addresses should be separated by a Comma, Space, Tab, Alt, Out Focus, or Enter.
+    A new window pops up asking you to assign the product license to the new members.
+
+4. Select the licenses and click **Confirm**.
 
 Your team members will receive an invitation email containing a link. Once they click on the link and accept the invitation, they become Members in your Organization.
 
+> Notes:
+> 
+> The invitation link is valid within 24 hours only. The link becomes invalid after 24 hours and you will have to invite your team members again.
+
 Alternatively, you can copy the activation link in the **Pending Invitation** section and send it to them.
+
+### Invite Users by importing CSV file
+
+Follow these steps:
+
+1. Click on the **Settings** icon at the top right corner of the TestOps homepage and choose **User Management**.
+
+2. Click **Invite Users** at the top right corner, then select **Import CSV file**.
+
+3. Click **Choose File** to upload the users list.
+
+4. Click **Import Users** once the upload is successful.
 
 > Notes:
 >
-> The default role for team members is Member, you can change this role later anytime.
+> If the upload is unsuccessful, double check if one of the following issues occurs:
+> 
+> * The email address is invalid.
+> * The email address is duplicated.
+> * The email address already exists in the **Active Users** section (i.e., existing member's email).
+
+You have invited your team members by importing their data under .csv format. Now you can wait for their confirmation.
+
+Once your team members have confirmed the invitation, you can assign the product license to them.
 
 ## Manage Users
 
@@ -92,6 +126,17 @@ In the **Active Users** section, use the search bar if you want to find a specif
 In the **Pending Invitations** section, use the search bar if you want to find the invitation to a specific user.
 
 In the **Removed Users** section, use the search bar if you want to find the user you have removed.
+
+### Filter Users
+
+This function helps you find specific users under the following categories:
+
+* Filter by Join Date.
+* Filter by Last Access.
+* Filter by License Type.
+* Filter by Role.
+
+To reset your filter, click **Clear all filter**.
 
 ### Revoke invitations
 
