@@ -117,8 +117,6 @@ items:
                 tree:
                   - title: "Mobile on Windows"
                     url: /katalon-studio/docs/mobile-on-windows.html
-                  - title: "Mobile on macOS"
-                    url: /katalon-studio/docs/mobile-on-macos.html
                   - title: "Installing WebDriverAgent for iOS devices"
                     url: /katalon-studio/docs/installing-webdriveragent-for-ios-devices.html
       - title: "Tutorials and Samples"

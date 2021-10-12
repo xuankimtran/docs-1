@@ -2,6 +2,9 @@
 title: "[Mobile] iOS Setup"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/tutorials/mobile-ios-setup.html
+redirect_from:
+   - "/katalon-studio/docs/mobile-on-macos.html"
+
 description:
 ---
    
