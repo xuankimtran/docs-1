@@ -4,9 +4,10 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/kt-build.html
 
 ---
-Katalon TestOps allows you to create Builds and monitor the testing process in these Builds. By doing so, you can track the progress and find the root cause of a problem if it arises.
 
-## Create a new Build
+During the release cycle, you commonly need to test different builds to easily track production issues. In TestOps, the Build function allows you to associate and orchestrate the test runs relevant to each build.
+
+## Create a build
 
 Follow these steps:
 
@@ -36,7 +37,7 @@ You have created a new Build. This Build now appears in the **Builds** section o
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/builds/build-list.png" width="" height="" alt="builds section">
 
-### Link Test Runs to a Build
+### Link Test Runs to a build
 
 You can link a Test Run to a Build (or a Release). See: [Link Test Runs to a Release](https://docs.katalon.com/katalon-analytics/docs/kt-release.html#link-test-runs-to-a-release).
 
@@ -46,9 +47,9 @@ You can link a Test Run to a Build (or a Release). See: [Link Test Runs to a Rel
 
 After linking, you can view the linked Test Runs on the Build page.
 
-## Manage a Build
+## Manage a build
 
-### View a Build  
+### View a build  
 
 1. Go to **Test Planning** > **Releases**.
 
@@ -66,7 +67,7 @@ After linking, you can view the linked Test Runs on the Build page.
     
     You can also see all Test Cases associated with this Build.
 
-###  Update a Build
+###  Update a build
 
 1. Go to **Test Planning** > **Releases**.
 
@@ -86,7 +87,7 @@ After linking, you can view the linked Test Runs on the Build page.
 
 You have updated a Build.
 
-### Delete a Build
+### Delete a build
 
 1. Go to **Test Planning** > **Releases**.
 
