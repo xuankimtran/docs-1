@@ -14,7 +14,7 @@ description: How to integrate Katalon TestOps with Jenkins to execute TestOps pl
 
 1. Sign in to Jenkins.
    
-   The Jenkins's **Dashboard** page appears.
+   The Jenkins **Dashboard** page appears.
 
 2. Select **Manage Jenkins** on the left sidebar.
 
@@ -111,7 +111,7 @@ You must schedule test runs in Katalon TestOps before assigning this schedule to
 
 10. Click **Save**.
 
-    You will be navigated back to the Jenkins's **Dashboard** page.
+    You will be navigated back to the Jenkins **Dashboard** page.
 
 11. Select **Build Now** on the left sidebar to run the job.
 
