@@ -40,13 +40,13 @@ description: How to integrate Katalon TestOps with Jenkins to execute TestOps pl
 
 You have installed the Katalon plugin on Jenkins.
 
-## Configure a test plan in Katalon TestOps
+## Configure Test Runs in Katalon TestOps
 
-You must create a test plan in Katalon TestOps first, before assigning this plan to Jenkins for test execution. See: [Schedule Test Runs](https://docs.katalon.com/katalon-analytics/docs/create-plan.html).
+You must schedule test runs in Katalon TestOps before assigning this schedule to Jenkins for test executions. See: [Schedule Test Runs](https://docs.katalon.com/katalon-analytics/docs/create-plan.html).
 
 > Notes:
 >
-> Choose the **Save Configurations** option in the **Schedule Test Run** dialog to define a test plan for Jenkins.
+> Choose the **Save Configurations** option in the **Schedule Test Run** dialog to schedule Test Runs for Jenkins.
 
 ## Integrate Katalon TestOps with Jenkins
 
@@ -99,7 +99,7 @@ You must create a test plan in Katalon TestOps first, before assigning this plan
       
          You will be automatically navigated back to the **Credentials** section, where you can select the newly-added credential in the **- none -** box.
 
-8. Click **Test Connection** for Jenkins to retrieve Projects and Test Plans from Katalon TestOps.
+8. Click **Test Connection** for Jenkins to retrieve Projects and Test Runs from Katalon TestOps.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-jenkins-integration/jenkins-project-plans-retrieval.png" width="" height="" alt="jenkins add credentials">
 
@@ -107,7 +107,7 @@ You must create a test plan in Katalon TestOps first, before assigning this plan
    >
    > If the test connection is successful, you will see *Success!* on the screen (highlighted in the image above).
 
-9. Select your Project and the Test Plan you have created earlier. See: [Configure a test plan in Katalon TestOps](https://docs.katalon.com/katalon-analytics/docs/ka-integration-jenkins.html#configuration-a-test-plan-in-Katalon-TestOps).
+9. Select your Project and the schedule you have created earlier. See: [Configure Test Runs in Katalon TestOps](https://docs.katalon.com/katalon-analytics/docs/ka-integration-jenkins.html#configuration-a-test-plan-in-Katalon-TestOps).
 
 10. Click **Save**.
 
