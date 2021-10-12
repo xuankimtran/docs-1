@@ -11,7 +11,7 @@ description:
 This article shows you how to set up Xcode simulators and real iOS devices to test iOS applications with Katalon Studio.
 
 To begin with, you need to equip yourself with a **macOS**. You can not execute iOS mobile testing in a **Window**.
-## Step 1: Setting up the environment for iOS testing
+## Part 1: Setting up the environment for iOS testing
 
 1. Install Xcode version 10.2 or newer. You can download Xcode from the App Store or the Apple Developer website: [Xcode 13](https://developer.apple.com/xcode/).
 
@@ -34,7 +34,7 @@ To begin with, you need to equip yourself with a **macOS**. You can not execute 
    > * We recommend installing Appium latest version.
    > * In case you are installing Applium via NPM. Make sure you install Node.js into a location where you have full permission to **Read** and **Write**.
    > * If you are using emulators other than Xcode simulators, some emulators come with Appium installed. If you want to run an application on an emulator, check your emulator settings before installing Appium.
-## Step 2: Install extra dependencies to test real iOS device
+## Part 2: Install extra dependencies to test real iOS device
 
 > If you execute mobile testing on Xcode simulators only, skip this Step.
 
@@ -69,10 +69,10 @@ To begin with, you need to equip yourself with a **macOS**. You can not execute 
    - For the Appium version older than 1.15.0, you also need to install ios-webkit-debug-proxy. You can learn more about ios-webkit-debug-proxy in this Github project: [ios-webkit-debug-proxy](https://github.com/google/ios-webkit-debug-proxy). To install ios-webkit-debug-proxy via Homebrew, copy and paste the command line argument as below:
 
       `brew install ios-webkit-debug-proxy`
-## Step 3: Set up the iOS devices/ Xcode simulators for mobile testing in Katalon Studio
+## Part 3: Set up the iOS devices/ Xcode simulators for mobile testing in Katalon Studio
 ### For Xcode simulators
 
-   After installing Xcode, Katalon automatically recognizes Xcode simulators as iOS devices. You can now move on to Step 4.
+   After installing Xcode, Katalon automatically recognizes Xcode simulators as iOS devices. You can now move on to [Part 4: Install the WebDriverAgent](https://docs.katalon.com//katalon-studio/docs/mobile-on-macos.html/#part-4-install-the-webdriveragent).
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/KS-iOS-Katalon-regconizes-simulators.png" width="40%" alt="Katalon recognizes Xcode simulators">
 
@@ -90,10 +90,10 @@ To begin with, you need to equip yourself with a **macOS**. You can not execute 
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/KS-IOS-Safari-Web-Inspector.png" width="40%" alt="Turn on Safari Web Inspector on iOS mobile">
 
-## Step 4: Install the WebDriverAgent
+## Part 4: Install the WebDriverAgent
 
 The WebDriverAgent is a WebDriver server used to control iOS devices remotely. To install the WebDriverAgent, you can refer to this document: [Install WebDriverAgent for iOS devices](https://docs.katalon.com/katalon-studio/docs/installing-webdriveragent-for-ios-devices.html#setting-up-the-ios-device).
-## Step 5: Prepare the iOS application file
+## Part 5: Prepare the iOS application file
 ### For Xcode simulators
 
 To execute mobile testing with Xcode simulators, you need to prepare an `.app` file.
