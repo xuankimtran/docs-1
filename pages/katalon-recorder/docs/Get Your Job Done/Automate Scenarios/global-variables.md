@@ -5,15 +5,13 @@ permalink: katalon-recorder/docs/global-variables.html
 description:
 ---
 
-In test automation, sometimes multiple test cases might require a same set of values. Instead of manually duplicating the same set of values across multiple test cases, you can create global variables to reuse same values across test cases. This would save time and reduce maintenance efforts.
+In test automation, sometimes multiple test cases might require the same values. Instead of manually duplicating the same set of values across multiple test cases, you can create global variables to reuse same values across test cases. This saves time and reduces maintenance efforts as projects increase in complexity. From version 5.6.0 onwards, Katalon Recorder introduces global variables to help you automate tests with ease.
 
-Global variables are a set of pre-defined values that are accessible across all test cases. From version 5.6.0 onwards, Katalon Recorder introduces this feature to help you automate tests with ease.
-
-Implementing global variables in Katalon Recorder would then allow the migration process from Katalon Recorder to Katalon Studio to become easier for you.
+Global variables are cross-compatible with Katalon Studio when migrating your projects.
 
 ## Create an Execution Profile
 
-In Katalon Studio (KS), global variables are defined within an artifact called **Execution Profiles**. From version 5.6.0 onwards, you can create an Execution Profile in Katalon Recorder for global variables settings and migration to KS.
+Global variables are defined within an artifact called Execution Profiles. Creating an Execution Profile allows you to save which global variables apply to which workflow. These Profiles can be migrated to Katalon Studio (KS) along with your projects.
 
 Follow these steps:
 
@@ -45,10 +43,10 @@ Follow these steps:
 
 4. Click **Add**, then paste the values in the **Name** and **Default value** sections.
 
-5. Go to the test cases you want to implement global variables.
+5. Go to the test cases you want to implement global variables in.
 
 6. Insert the syntax `${GlobalVariables.name}` in which *name* represents the specified global variable (e.g., `${GlobalVariables.username}`).  
 
-Now you run the tests without the need to input the same set of values (e.g., username and password) across all tests.
+You can now run the tests without inputting the same sets of values for every test.
 
 If you want to change the global variables in your test cases, you must create a new Execution Profile and set it as default Execution Profile, then repeat the steps above to add the new set of values to your test cases.
