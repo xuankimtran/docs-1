@@ -5,7 +5,7 @@ permalink: katalon-studio/tutorials/mobile-create-ios-test-case.html
 description: Create and Run iOS Test Case 
 ---
 
-This tutorial demonstrates how to create iOS tests with Katalon Studio using Mobile Record Utility, then run the recorded test case.
+This tutorial demonstrates how to create test cases for iOS with Katalon Studio using the Mobile Record Utility, then run the recorded test cases.
 
 > Requirements:
 > * iOS setup. To set up Xcode simulators/ real iOS devices, you can refer to this document: [[Mobile] iOS Setup](https://docs.katalon.com/katalon-studio/tutorials/mobile-ios-setup.html).
@@ -52,7 +52,7 @@ In this example, we record the following actions to test the **Coffee Timer** ap
    </div>
    </div>
    </td>
-   <td>The Github repository URL. After choosing the sample project, Katalon automatically fills in the URL</td>
+   <td>The Github repository URL. After choosing the sample project, Katalon automatically fills in the URL.</td>
    </tr>
    <tr>
    <td>
@@ -113,7 +113,7 @@ In this example, we record the following actions to test the **Coffee Timer** ap
    </td>
    <td>
    <div>
-   <div>To select <strong>Application File</strong> in the drop-down list.</div>
+   <div>To select <strong>Application File</strong> in the dropdown list.</div>
    </div>
    </td>
    </tr>
@@ -144,18 +144,20 @@ In this example, we record the following actions to test the **Coffee Timer** ap
    -  **Device View**: this section displays the start page of your AUT. You can interact with the **Device View** section the same way as in a real iOS device.
    -  **All Objects**: this section displays all objects of the current view in the **Device View** section.
 
-4. In the **Device View** section, click **Green Tea**. Katalon Studio correspondingly selects the **Green Tea** object in the **All Objects** section.
+   For our example, we can see the start page of the **Coffee Timer** application in the **Device View** section and its object properties in the **All Objects** section.
+
+4. In the **Device View** section, we click **Green Tea**. Katalon Studio correspondingly selects the **Green Tea** object in the **All Objects** section.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/Green%20Tea.png" width=50%>
 
-5. Once **Green Tea** is selected, click the **Tab** action in the **Available Action** section, you will see:
+5. Once **Green Tea** is selected, we click the **Tab** action in the **Available Action** section, we now see:
 
    * The **Device View** section displays the countdown for **Green Tea**.
    * Katalon automatically adds the **Tap** action to the list of recorded steps in the **Recorded Actions** tab.
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/recorded-action.png" width=50%>
 
-   * Katalon also captures the **Green Tea** object properties including in the **Captured Objects** tab. To learn more about mobile object properties, you can refer to this document: [Manage Mobile Test Objects](https://docs.katalon.com/katalon-studio/docs/manage-mobile-test-object.html#validate-test-object-on-aut).
+   * Katalon also captures the **Green Tea** object properties and includes it in the **Captured Objects** tab. To learn more about mobile object properties, you can refer to this document: [Manage Mobile Test Objects](https://docs.katalon.com/katalon-studio/docs/manage-mobile-test-object.html#validate-test-object-on-aut).
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/captured-object.png" width=50%>
 
@@ -211,7 +213,7 @@ To run the recorded steps, follow these steps:
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/select-ios.png" width=30%>
 
-3. In the displayed **iOS Devices** dialog, select an iOS device/ a Xcode simulator, then click **OK**.
+3. In the displayed **iOS Devices** dialog, select an iOS device or a Xcode simulator, then click **OK**.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/ios-devices-list.png" width=50%>
 
