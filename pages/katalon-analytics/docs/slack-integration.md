@@ -7,7 +7,7 @@ Katalon TestOps allows you to integrate with Slack to receive notifications of y
 
 > Requirements:
 >
-> * You must be the Owner of an Organization.
+> * You must be the Owner of an Organization and a Team.
 > * You must be the Admin of a Slack workspace.
 
 ## Create an Incoming Webhook on Slack
