@@ -35,7 +35,7 @@ The dashboard contains a dynamic visualization with filter options.
     
     If you leave it blank by default, you will see the total duration used for all license types, machine IDs, and user emails, including the data of removed machine IDs and user emails.
 
-    In each filter category, you can search and select multiple options. The removed machine IDs or user emails are excluded in the filter.
+    In each filter category, you can search and select multiple options. You can filter removed users. The removed machine IDs are excluded in the filter.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-utilization-dashboard/search-filter.png" alt="search option" width=70%>
 
