@@ -8,8 +8,8 @@ redirect_from:
 
 > Requirements:
 >
->* Your Katalon Studio version must be 7.2.2 onwards.
->* You need an active Katalon Studio Enterprise license.
+>* Katalon Studio version 7.2.2 onwards.
+>* An active Katalon Studio Enterprise license.
 
 Katalon Studio provides an image locator method to associate Test Objects with images. With this method, you can perform image-based testing when elements of the web application under test retain their appearance even though the underlying structures have changed.
 
@@ -21,14 +21,14 @@ This guide shows you how to configure image-based object recognition, capture sc
 
 Image-based object recognition is enabled by default for web test execution in **Project > Settings > Self-Healing > Web UI > Test Execution** ([See Self-healing Tests](https://docs.katalon.com/katalon-studio/docs/self-healing.html)).
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/image-enabled.png" width="" height="">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/image-enabled.png" width=70%>
 
 <details>
 <summary><strong>Before 7.6</strong></summary>
 
 By default, image-based object recognition is disabled in Project Settings. Please go to <strong>Project > Settings > Execution</strong> and check <strong>Enable Image Recognition</strong> to turn on this fallback strategy.
 <br>
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/enable.png" width="" height="">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/enable.png" width=70%>
 </details>
 
 ## Capture screenshots for object recognition
@@ -42,13 +42,12 @@ To capture an image of a Test object:
 1. Open your AUT with Web Recorder/Spy utility.
 2. In the **Captured Objects** view, select a captured object and click the **Add Screenshot** button on the bottom right corner.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/recorder.png" width="" height="">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/recorder.png" width=70% atl="Add Screenshot button">
 
 
-### Using other tools
-
-If you capture object images using other tools, you have to resize them to the display sizes of the corresponding web elements.
-
+> **Notes**
+>
+> If you capture object images using other tools, you have to resize them to the display sizes of the corresponding web elements.
 
 ## Add image locator to objects
 
@@ -58,13 +57,13 @@ After you capture a screenshot using the Web Recorder/Spy utility, Katalon Studi
 
 To use the image locator of an object:
 
-1. Open the object in Object's view.
+1. Select the object in the **Object Repository**.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/KS-Object-view.png" alt="Object view">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/KS-Object-view.png" width=70% alt="Object view">
 
-2. In **Selection Method**, select **Image**.
+2. In the **Object** view, navigate to **Selection Method** and select the **Image** option.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/image-locator.png" alt="Object selection method">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/image-locator.png" width=70% alt="Object selection method">
 
 <details>
 <summary><strong>Before 7.6</strong></summary>
@@ -73,7 +72,7 @@ After you capture a screenshot using Web Recorder/Spy utility, Katalon Studio ad
 <br>
 To enable the image locator of an object:
 
-1. Open the object in Object's view. 
+1. Select the object in the **Object Repository**.
 <br>
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/KS-Object-view.png" alt="Object view">
@@ -81,14 +80,14 @@ To enable the image locator of an object:
 2. Select <strong>Attributes</strong> as the <strong>Selection Method</strong>.
 3. In the <strong>Object's Properties</strong> table, tick the <strong>screenshot</strong> property. 
 <br>
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/property.png" alt="Object's Properties table">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/property.png" width=70% alt="Object's Properties table">
 </details>
 
 > **Notes**
 >
-> For a screenshot captured using other tools, you must provide the absolute path to the screenshot in the **Path** property when enabling the image locator.
+> To add screenshots captured using other tools, provide the absolute path to the screenshot in the **Path** property when enabling the image locator.
 >
-> <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/KS-Object-screenshot-path.png" alt="object screenshot absolute path">
+> <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/KS-Object-screenshot-path.png" width=70% alt="object screenshot absolute path">
 
 ## Reduce image-based testing failures
 
