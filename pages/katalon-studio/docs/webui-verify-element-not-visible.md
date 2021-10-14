@@ -25,7 +25,7 @@ Parameters
 Returns
 -------
 
-<table><thead><tr><th>Param Type</th><th>Description</th></tr></thead><tbody><tr><td>boolean</td><td><ul><li><strong>true:</strong> the element is visible.</li><li><strong>false: </strong>the element is NOT visible.</li></ul></td></tr></tbody></table>
+<table><thead><tr><th>Param Type</th><th>Description</th></tr></thead><tbody><tr><td>boolean</td><td><ul><li><strong>true:</strong> the element is not visible.</li><li><strong>false: </strong>the element is visible.</li></ul></td></tr></tbody></table>
 
 Example
 -------

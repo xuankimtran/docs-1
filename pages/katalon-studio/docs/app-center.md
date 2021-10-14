@@ -55,6 +55,12 @@ AppiumDriverManager.setDriver(driver)
 
 3. Package your Katalon project into a **.zip** file.
 
+    > Notes:
+    >
+    > When running tests on App Center with the **.zip** file packaged by macOS default file compress tool, you can sometimes encounter the error: _No such file or directory_.
+    >
+    > To resolve this error, try running this command from the directory where the **.zip** file is located: `zip -d <katalon_project_package_file> __MACOSX/\*`, then continue with the following steps to update sideload.
+
 ### Update sideload
 
 1. Clone or download **sideload** from our repository: [Katalon Studio sideload](https://github.com/katalon-studio/sideload).

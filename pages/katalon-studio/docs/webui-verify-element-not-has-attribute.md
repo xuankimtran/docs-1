@@ -27,7 +27,7 @@ Parameters
 Returns
 -------
 
-<table><thead><tr><th>Param Type</th><th>Description</th></tr></thead><tbody><tr><td>boolean</td><td><ul><li><strong>true:</strong> the element doesn't the attribute with the specified name.</li><li><strong>false: </strong>the element has the attribute with the specified name</li></ul></td></tr></tbody></table>
+<table><thead><tr><th>Param Type</th><th>Description</th></tr></thead><tbody><tr><td>boolean</td><td><ul><li><strong>true:</strong> the element doesn't have the attribute with the specified name.</li><li><strong>false: </strong>the element has the attribute with the specified name</li></ul></td></tr></tbody></table>
 
 Example
 -------
