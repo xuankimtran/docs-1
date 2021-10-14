@@ -44,7 +44,7 @@ Go to **Dashboard > Manage Jenkins > Configure System > Global properties**. Sel
 
 > Notes:
 >
-> Make sure you have Docker open, with **Docker Plugin** and **Docker Pipeline** activate on Jenkins.
+> Make sure you have Docker open, with **Docker Plugin** and **Docker Pipeline** activated on Jenkins.
 > You can clone or download our sample CI/CD project at our GitHub repository: [CI sample](https://github.com/katalon-studio-samples/ci-samples).
 
 You can either upload your Katalon project from a Git repository or your local workspace.
