@@ -2,6 +2,9 @@
 title: "[Mobile] Android Setup"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/tutorials/mobile-android-setup.html
+redirect_from:
+   - "/katalon-studio/docs/mobile-on-windows.html"
+
 description:
 ---
 

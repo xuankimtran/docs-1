@@ -5,11 +5,15 @@ permalink: katalon-analytics/docs/git-test-project.html
 description: 
 ---
 
-You can create a Git Script Repository in Katalon TestOps. By doing so, you can store your Test Scripts in Git and execute them in Katalon TestOps, because Katalon TestOps upload Test Scripts automatically from a Git Repository.
+You can create a Git Script Repository in Katalon TestOps. Katalon TestOps can then upload Test Scripts automatically from a Git Repository. This allows you to store your Test Scripts in your Git accounts and execute them in Katalon TestOps.
 
-You do not have to upload Test Scripts manually to TestOps Projects.
+Katalon TestOps allows GitHub and Bitbucket integration for Git Repositories. This guide will teach you to enable integration with either option.
 
-## Create Git Script Repository
+> Requirements:
+>
+> An existing [GitHub](https://github.com) and/or [Bitbucket](https://bitbucket.org/product) account.
+
+## Create Git Script Repositories
 
 Follow these steps:
 
@@ -27,19 +31,30 @@ Follow these steps:
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-git-test-project/scrip-repo-page-after-creating-git-repo.png" width=100%>
 
-   * **Source Type**: choose **Github**.
-   * **Repository URL**: enter your Git Repository. For example, https://github.com/katalon-studio-samples/ci-samples.
-   * **Username**: enter your Git Username.
-   * **Personal Access Token**: enter your Personal Access Token.
+   * For GitHub integration:
+
+      * **Source Type**: choose **Github**.
+      * **Repository URL**: enter your GitHub Repository. For example, https://github.com/katalon-studio-samples/ci-samples.
+      * **Username**: enter your GitHub Username.
+      * **Personal Access Token**: enter your Personal Access Token.
    
-      > Notes:
-      >
-      > You can create an individual access token in GitHub.
-      >
-      > See: [Create a Personal Access Token](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line).
-      >
-      > Follow the instruction and make sure you choose **repo** in the **Select scopes** section in the **New personal access token** page.
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-git-test-project/new-personal-access-toke-page-git.png" width=100%>
+         > Notes:
+         >
+         > You can create an individual access token in GitHub. See: [Create a Personal Access Token](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line).
+         >
+         > Follow the instruction and make sure you choose **repo** in the **Select scopes** section in the **New personal access token** page.
+         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-git-test-project/new-personal-access-toke-page-git.png" width=100%>
+
+   * For Bitbucket integration:
+
+      * **Source Type**: choose **Bitbucket**.
+      * **Repository URL**: enter your Bitbucket Repository.
+      * **Username**: enter your Bitbucket Username.
+      * **Personal Access Token**: enter your Personal Access Token.
+   
+         > Notes:
+         >
+         > See Bitbucket's [personal access tokens](https://confluence.atlassian.com/bitbucketserver/personal-access-tokens-939515499.html) for guidelines.
 
 4. Click **Connect**.
 
@@ -52,13 +67,7 @@ Follow these steps:
 
 5. Click **Create**.
 
-You have created a new Git Script Repository.
+You have enabled GitHub/Bitbucket integration and created a new Git Script Repository.
 
-See also:
-* [Set up Configurations for Remote Execution](https://docs.katalon.com/katalon-analytics/docs/test-run-config.html).
-
-* [Upload Test Scripts to a Script Repository](https://docs.katalon.com/katalon-analytics/docs/code-repo.html#upload-a-zip-file-to-a-script-repository).
-
+Next step:
 * [Schedule Test Runs](https://docs.katalon.com/katalon-analytics/docs/create-plan.html).
-
- * [Execute Test Runs by a Trigger](https://docs.katalon.com/katalon-analytics/docs/kt-scheduler.html).
