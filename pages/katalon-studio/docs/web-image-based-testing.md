@@ -98,7 +98,7 @@ Since reliable image-based testing depends on image comparison, you can reduce t
 
 * **Capture tool**: We recommend using built-in capture tools in Web Recorder and Spy utility since they automatically resize the captured images.
 
-**See also**:
+**See also**: 
 
 * [Sample Project](https://github.com/katalon-studio-samples/image-recognition-web)
 * [Self-Healing Tests](https://docs.katalon.com/katalon-studio/docs/self-healing.html)

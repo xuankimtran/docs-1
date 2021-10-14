@@ -153,7 +153,7 @@ Once finished, click **Save** to add the object to **Object Repository** as 
 
 ## Visual Object Recognition
 
-Image locators allow you to identify test objects with images and perform web image-based testing. [Learn more](https://docs.katalon.com/katalon-studio/docs/web-image-based-testing.html)
+Image locators allow you to identify test objects with images and perform web image-based testing. [Learn more](https://docs.katalon.com/katalon-studio/docs/web-image-based-testing.html) 
 
 ### Enable Image-based object recognition
 
