@@ -8,8 +8,8 @@ description:
 This tutorial shows you how to execute Katalon Studio Tests in Jenkins on Window and MacOS with: 
 
 -  The **Katalon TestOps** plugin for Jenkins
--  Jenkins Pipeline (Jenkinsfile) with Docker Image
 -  Jenkins pipeline script
+-  Jenkins Pipeline (Jenkinsfile) with Docker Image
 
 > Requirements:
 > * An active Katalon Runtime Engine license. To learn more about activating Katalon Runtime Engine license, you can refer to this document: [Activate Katalon License](https://docs.katalon.com/katalon-studio/docs/activate-license.html#activate-trial-license).
@@ -27,21 +27,21 @@ Install Jenkins. Follow the instructions in the following Jenkins documents:
 
 2. Select the plugin and click **Install without restart**.
 
-   <img src="alt" width=40% alt="Install Katalon TestOps plugin>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/KS-JENKINS-Download-Katalon-Testops-plugin.png" width=70% alt="Install Katalon TestOps plugin">
 ### Upload your Katalon project on Jenkins
 
 After installing the **Katalon TestOps** plugin, you can now start Katalon Studio test in Jenkins. 
 
 1. In the Jenkins Dashboard, go to **New Item** and create a **Freestyle project**.
 
-   <img src="alt" width=40% alt="Create a new Freestyle project">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/KS-JENKINS-Create-a-freestyle-project.png" width=70% alt="Create a new Freestyle project">
 
 2. To upload your Katalon project on Jenkins, you can either upload your Katalon project from a Git repository or your local workspace. Here, we use a Git repository. 
 
    - In the **Source Code Management** section, choose **Git**.
    - Enter your repository URL, then select branches to build, repository browser, and additional behaviours, if any.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/Picture4.png" width=60% alt="Upload Katalon project">
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/Picture4.png" width=70% alt="Upload Katalon project">
 ### Build your project
 
 1. In the **Build** section, click **Add build step** and choose **Execute Katalon Studio Tests**. The **Execute Katalon Studio Tests** box opens, asking you to input Katalon Runtime Engine version and command arguments.
@@ -66,15 +66,15 @@ After installing the **Katalon TestOps** plugin, you can now start Katalon Studi
    > * From version 7.7.0 onwards, if you belong to more than one Organization subscribing to Runtime Engine licenses, you can choose which Organization validates your license usage with the following command line: `-orgID=<Katalon_OrgID>`.
    > * Make sure your current browser version is compatible with the KRE Webdriver version. To learn more about upgrading or downgrading Webdrivers, you can refer to this document: [Update or Downgrade WebDrivers](https://docs.katalon.com/katalon-studio/docs/update-or-downgrade-webdrivers.html#replace-a-webdriver).
 
-   <img src="url" width=60% alt="Input command arguments>
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/KS-JENKINS-Enter-command-line-in-freestyles-project.png" width=60% alt="Input command arguments">
 
 4. After you are done with the configuration, click **Save**, then click **Build Now** to run the project.
    
-   <img src="url" width=60% alt="Build your Jenkins project>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/KS-JENKINS-Build-now.png" width=60% alt="Build your Jenkins project">
 
 5. To view the console log, click on your current build on Jenkins and select **Console Output**.
 
-   <img src="url" width=60% alt="View console output">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/KS-JENKINS-console-output.png" width=60% alt="View console output">
 ### Troubleshoot empty videos recorded after running tests on Window
 
 If you encounter an issue of having empty videos recorded after running your tests in Jenkins on Window, it is because the WebDriver hasn't launched during test execution. To fix this issue, please uninstall Jenkins of Windows services, and replace it by a DOS batch file containing the following codes:
@@ -88,7 +88,7 @@ _Credit to Sébastien Taniere and his [original topic](https://forum.katalon.com
 
 ## Execute Katalon Studio Tests with Jenkins Pipeline (Jenkinsfile)
 
-Jenkins Pipeline provides an extensible set of tools for modeling simple-to-complex delivery pipelines "as code". The definition of a Jenkins Pipeline is typically written into a text file (called a Jenkinsfile) which in turn is checked into a project’s source control repository. To learn more about creating a Jenkinsfile, you can refer to this Jenkins document: [Using a Jenkins](https://www.jenkins.io/doc/book/pipeline/jenkinsfile/).
+Jenkins Pipeline (Jenkinsfile) provides an extensible set of tools for modeling simple-to-complex delivery pipelines "as code". To learn more about creating a Jenkinsfile, you can refer to this Jenkins document: [Using a Jenkinsfile](https://www.jenkins.io/doc/book/pipeline/jenkinsfile/).
 ### Installation
 
 Download and install Katalon Runtime Engine (KRE). You can download Katalon Runtime Engine here: [Katalon products](https://www.katalon.com/download/).
@@ -97,7 +97,7 @@ Download and install Katalon Runtime Engine (KRE). You can download Katalon Runt
 1. In the Jenkins Dashboard, go to **New Item** and create a **Jenkins Pipeline** project.
 2. In the **Definition** dropdown list, select **Pipeline Script**.
 
-   <img src="url" width=70% alt="Select Pipeline script>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/KS-JENKINS-Choose-pipeline-script.png" width=70% alt="Select Pipeline script">
 
 3. Copy and paste the following command-line argurements in the **Script** box:
 
@@ -209,6 +209,8 @@ pipeline {
 
 3. Install the **Docker** plugin and **Docker Pipeline** plugin. Go to **Manage Jenkins > Manage Plugins > Available tab** and search for the **Docker** plugin and **Docker Pipeline** plugin. 
 4. Select the plugin and click **Install without restart**.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-docker/plugins.png" alt="plugins" width=70%>
 ### Upload your project
 
 3. In the Jenkins Dashboard, go to **New Item** and create a **Jenkins Pipeline** project.
@@ -223,15 +225,24 @@ Here, since we have our Pipeline project stored in Git, we select **Pipeline Scr
 
 5. In the **SCM** field, select **Git**. Enter your repository URL, select branches to build, repository browser, and additional behaviours, if any. You can use the following sample project here: [CI samples](https://github.com/katalon-studio-samples/ci-samples).
 
-   <img src="url" width="70%" alt="Enter Git repository url">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/KS-JENKINS-Add-Git-url-in-pipline-from-SCM.png" width="70%" alt="Enter Git repository url">
 
 6. Specify the Jenkinsfile path from your Git project in the **Script Path** box.
 
-   <img src="url" width="70%" alt="Jenkinsfile path">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/KS-JENKINS-Add-Jenkinspath.png" width="70%" alt="Jenkinsfile path">
 
    > Notes:
-   > To quickly copy the Jenkinsfile path in your Git project, go to your Jenkinsfile, click *More* (...), then click **Copy Path**. You can see our sample Jenkinsfile here: [Jenkinsfile](https://github.com/katalon-studio-samples/ci-samples/blob/master/Jenkinsfile). 
-   > <img src="url" width="70%" alt="Quickly Jenkinsfile path in Git project">
+   > To quickly copy the Jenkinsfile path in your Git project, go to your Jenkinsfile, click *More* (...), then click **Copy Path**. 
+   > <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/KS-JENKINS-Quickly-go-to-Jenkins-file-in-Git.png" width="70%" alt="Quickly Jenkinsfile path in Git project">
+
+You can see our sample Jenkinsfile for MacOS/Linux here: [Jenkinsfile](https://github.com/katalon-studio-samples/ci-samples/blob/master/Jenkinsfile). In case you are using Window, use `bat` instead: 
+
+``` groovy
+steps {
+   bat '''
+   '''
+}
+```
 
 7. Enter your Git credentials. 
 
@@ -239,5 +250,10 @@ Here, since we have our Pipeline project stored in Git, we select **Pipeline Scr
    > * To add credentials to Jenkins, you need the **Credentials** plugin, which is usually installed in the Jenkins installation. To check whether you have installed the plugin, go to **Dashboards > Manage Jenkins > Manage plugins**.
    > * You can refer to this Jenkins document: [Using credentials](https://www.jenkins.io/doc/book/using/using-credentials/) for further information about managing credentials in Jenkins.
 
-8.  Click **Save** then click **Build Now** to run the Jenkinsfile. 
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/KS-JENKINS-Choose-creadentials.png" width="70%" alt="Quickly Jenkinsfile path in Git project">
 
+8.  Click **Save** then click **Build Now** to run the Jenkinsfile. 
+## See also
+
+* [Jenkins Intergration on Ubuntu](https://docs.katalon.com/katalon-studio/docs/jenkins-plugin-ubuntu.html).
+* [Integrate Jenkins on Docker hosted in Ubuntu](https://docs.katalon.com/katalon-studio/docs/jenkins-docker-ubuntu.html#install-plugins)

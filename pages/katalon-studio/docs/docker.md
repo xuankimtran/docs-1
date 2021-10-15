@@ -9,6 +9,10 @@ redirect_from:
 description: 
 ---
 
+> Requirements:
+> * An active Katalon Runtime Engine floating license. To learn more about types of licenses, you can refer to this document: [Types of license](https://docs.katalon.com/katalon-studio/docs/license.html).
+
+
 Docker Image for Katalon Studio is open-source and available [here](https://hub.docker.com/r/katalonstudio/katalon/).
 
 * Learn more about its [usage](https://github.com/katalon-studio/docker-images).
