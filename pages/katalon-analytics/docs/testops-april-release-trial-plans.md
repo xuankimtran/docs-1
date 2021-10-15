@@ -19,33 +19,27 @@ If you are a Katalon Studio user, you are automatically entitled to **TestOps Fr
 
 Follow these steps:
 
-1. Sign in to [Katalon TestOps](https://testops.katalon.io/login), and access **Settings** > **Subscription Management**.
+1. Sign in to [Katalon TestOps](https://testops.katalon.io/login).
+
+2. Go to **Settings** > **Subscription Management**.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-free-plan/free-plan-1.png" width=100% alt="subs management on testop web">
 
-2. Select **TestOps Subscriptions** to access TestOps plans.
+2. Select **Trial Request** on the left sidebar.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-free-plan/rename-te-business-free-plan.png" width=100% alt="testops plan">
 
-3. Choose one of the folowings:
+3. Select a trial plan.
 
-    * Click **Contact us** under the TestOps Enterprise plan.
-    
-        OR
-    
-    * Click **Trial Request**.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-free-plan/replace-free-plan-4.png" width=100% alt="trial request form">
 
-        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-free-plan/replace-free-plan-4.png" width=100% alt="trial request form">
-
-4. Fill in the form, then click **Submit**.
+4. Click **Submit**.
 
 > Notice:
 >
-> * You cannot request **TestOps Business** trial if you have already requested **TestOps Enterprise** trial.
+> * You cannot request a **TestOps Business** trial if you have already submitted a **TestOps Enterprise** trial request.
 >
-> * If you want to try both **TestOps Business** and **TestOps Enterprise** for comparison. We suggest you request **TestOps Business** trial to use first. Then you can request a **TestOps Enterprise** trial afterwards.
-
-After submitting the trial request, you can use **TestOps Business** and/or **TestOps Enterprise**.
+> * If you want to try both **TestOps Business** and **TestOps Enterprise**, we suggest you submit a **TestOps Business** trial request first. After using this trial plan, you can submit a **TestOps Enterprise** trial request.
 
 ## For new users
 
