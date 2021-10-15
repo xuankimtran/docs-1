@@ -27,15 +27,13 @@ Follow these steps:
 
 2. Select **Trial Request** on the left sidebar.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-free-plan/rename-te-business-free-plan.png" width=100% alt="testops plan">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-subscription-docs/to-trial-request-page.png" width=100% alt="trial request page">
 
 3. Select a trial plan.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-free-plan/replace-free-plan-4.png" width=100% alt="trial request form">
-
 4. Click **Submit**.
 
-> Notice:
+> Notes:
 >
 > * You cannot request a **TestOps Business** trial if you have already submitted a **TestOps Enterprise** trial request.
 >
@@ -51,8 +49,12 @@ Follow these steps:
 
     A welcome page appears as below.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-free-plan/replace-free-plan-4.png" width=100% alt="testops create org page">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-subscription-docs/to-create-org-page.png" width=100% alt="testops create org page">
 
-4. Select a TestOps plan.
+4. Enter a name for your organization.
 
-5. Finish the on-screen instructions to start your organization. See: [Create Organization and Project](https://docs.katalon.com/katalon-analytics/docs/kt-create-org.html#create-an-organization).
+5. Select a trial plan.
+
+6. Click **Create**.
+
+7. Finish the on-screen instructions to start using TestOps. See: [Create Organization and Project](https://docs.katalon.com/katalon-analytics/docs/kt-create-org.html#create-an-organization).
