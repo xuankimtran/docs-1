@@ -15,7 +15,7 @@ You can subscribe to Katalon TestOps in one of the following ways:
 
 ## Via Katalon website
 
-*<details><summary> For users who have one organization:</summary>*
+### For users who have one organization
 
 Follow these steps:
 
@@ -23,17 +23,16 @@ Follow these steps:
 
 2. Click on the **Katalon TestOps** tab. 
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration.png"  width=100% alt="katalon testops pricing page">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-subscription-docs/katalon-pricing-page.png"  width=100% alt="katalon testops pricing page">
 
+   
 3. Select a plan.
 
     * If you choose **TestOps Business**, click **Buy Now**, sign in with your Katalon account, fill out the billing information and payment method, then click **Checkout** to finish.
 
     * If you choose **TestOps Enterprise**, click **Contact sales** to send us a subscription request.
 
-</details>
-
-*<details><summary> For users who have multiple organizations:</summary>*
+### For users who have multiple organizations
 
 Follow these steps:
 
@@ -41,15 +40,11 @@ Follow these steps:
 
 2. Click on the **Katalon TestOps** tab. 
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration.png"  width=100% alt="katalon testops pricing page">
-
 3. Select a plan.
 
     * If you choose **TestOps Business**, click **Buy Now**, sign in with your Katalon account, select the organization you want, fill out the billing information and payment method, then click **Checkout** to finish.
 
     * If you choose **TestOps Enterprise**, click **Contact sales** to send us a subscription request.
-
-</details>
 
 ## Via TestOps website
 
@@ -63,13 +58,13 @@ Follow these steps:
 
     The **TestOps Subscriptions** page appears as below.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration.png" width=100% alt="testops subscriptions page">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-subscription-docs/to-subscription-page.png" width=100% alt="testops subscriptions page">
 
 5. Select a plan.
 
     * If you choose **Katalon TestOps Business**, click **Subscribe**, fill in the required information in the **Billing Information** and **Payment Method** sections, then click **Checkout**.
     
-        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration.png" width=100% alt="testops subscriptions page">
+        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-subscription-docs/subscribe-testops-business-page.png" width=100% alt="testops subscriptions page">
     
     * If you choose **Katalon TestOps Enterprise**, click **Contact Sales** to send us a subscription request.
 
