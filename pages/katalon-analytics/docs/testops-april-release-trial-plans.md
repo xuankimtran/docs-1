@@ -5,25 +5,19 @@ permalink: katalon-analytics/docs/trial-plans.html
 description: 
 ---
 
-Valid email registration is eligible for a 45-day trial of Katalon TestOps Enterprise (Cloud version).
+A valid business email registration is eligible for a 30-day trial of **TestOps Business** and/or a 45-day trial of **TestOps Enterprise**.
 
-When your trial period expires, you need to purchase a monthly or annual subscription. Otherwise, your plan is reverted to the TestOps Free version.
-
-## Katalon TestOps Enterprise trial for existing users
-
-If you are a Katalon Studio user, you are automatically entitled to the TestOps Free version. You can submit a trial request for a 45-day trial of Katalon TestOps Enterprise.
-
- > Notes:
- >
- > You can only register for Katalon TestOps Enterprise using business emails.
-
-## Katalon TestOps Enterprise trial for new users
+When your trial period expires, you need to purchase a monthly or annual subscription. Otherwise, your plan is reverted to **TestOps Free**.
 
 > Notes:
 >
-> This trial request is applied for Cloud version only. TestOps no longer supports an On-Premises solution.
+> The trial request is applied for Cloud version only. TestOps no longer supports an On-Premises solution.
 
-Once you have a Katalon account, you can submit a trial request via Katalon TestOps's website.
+## For existing users
+
+If you are a Katalon Studio user, you are automatically entitled to **TestOps Free**. You can submit a trial request for **TestOps Busines** and/or **TestOps Enterprise**.
+
+Follow these steps:
 
 1. Sign in to [Katalon TestOps](https://testops.katalon.io/login), and access **Settings** > **Subscription Management**.
 
@@ -45,6 +39,26 @@ Once you have a Katalon account, you can submit a trial request via Katalon Test
 
 4. Fill in the form, then click **Submit**.
 
-## Access for Katalon TestOps Enterprise (Cloud)
+> Notice:
+>
+> * You cannot request **TestOps Business** trial if you have already requested **TestOps Enterprise** trial.
+>
+> * If you want to try both **TestOps Business** and **TestOps Enterprise** for comparison. We suggest you request **TestOps Business** trial to use first. Then you can request a **TestOps Enterprise** trial afterwards.
 
-Once submitting the trial request using your business email, you could use a 45-day trial of Katalon TestOps Enterprise.
+After submitting the trial request, you can use **TestOps Business** and/or **TestOps Enterprise**.
+
+## For new users
+
+1. Sign up to [Katalon TestOps](https://testops.katalon.io/login).
+
+2. Click on the *Katalon TestOps* icon at the top left corner.
+
+3. Select **Create organization**.
+
+    A welcome page appears as below.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-free-plan/replace-free-plan-4.png" width=100% alt="testops create org page">
+
+4. Select a TestOps plan.
+
+5. Finish the on-screen instructions to start your organization. See: [Create Organization and Project](https://docs.katalon.com/katalon-analytics/docs/kt-create-org.html#create-an-organization).
