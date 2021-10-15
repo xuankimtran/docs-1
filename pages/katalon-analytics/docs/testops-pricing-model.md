@@ -70,7 +70,7 @@ A **45-day trial** for TestOps Enterprise is available. See: [Trial Plans](https
 </td>
 <td style="text-align: center;">
 <p><span style="font-weight: 400;">Contact</span>&nbsp;our Sales team at <a href="mailto:business@katalon.com">business@katalon.com</a></p>
-<p><span style="font-weight: 400;">Free Trial: 45 days</span></p>
+<p><span style="font-weight: 400;"></span></p>
 </td>
 </tr>
 <tr>
