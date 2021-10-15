@@ -64,7 +64,7 @@ Once you have assigned a license successfully, users can follow this activation 
 >
 > By clicking **Remove**, you immediately terminate the current session that machine ID is working on in Katalon Studio. You should revoke a license with caution.
 
-You can either revoke a license from a User or a machine ID only. When you revoke a license from a User, all their registered machine IDs are also removed from the Online License list.
+You can either revoke a license from a User or a machine ID only. When you unassign a license from a User or remove a User from your Organization, all their registered machine IDs are also removed from the Online License list.
 
 Follow these steps:
 
