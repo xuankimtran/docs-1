@@ -7,8 +7,8 @@ description: This article will show you how to use Jenkins on Docker hosted in U
 
 > Requirements:
 >
-> An active Katalon Runtime Engine license.
-> Docker and Jenkins already installed and configured. You can learn how to install Docker and Jenkins in this Jenkins guide: [Docker](https://www.jenkins.io/doc/book/installing/docker/).
+> * An active Katalon Runtime Engine license.
+> * Docker and Jenkins already installed and configured. You can learn how to install Docker and Jenkins in this Jenkins guide: [Docker](https://www.jenkins.io/doc/book/installing/docker/).
 
 Docker is a platform for running applications in an isolated environment called a Docker container. Applications like Jenkins can be downloaded as read-only images, each of which is run in Docker as a container.
 
@@ -44,8 +44,8 @@ Go to **Dashboard > Manage Jenkins > Configure System > Global properties**. Sel
 
 > Notes:
 >
-> Make sure you have Docker open, with **Docker Plugin** and **Docker Pipeline** activated on Jenkins.
-> You can clone or download our sample CI/CD project at our GitHub repository: [CI sample](https://github.com/katalon-studio-samples/ci-samples).
+> * Make sure you have Docker open, with **Docker Plugin** and **Docker Pipeline** activated on Jenkins.
+> * You can clone or download our sample CI/CD project at our GitHub repository: [CI sample](https://github.com/katalon-studio-samples/ci-samples).
 
 You can either upload your Katalon project from a Git repository or your local workspace.
 
