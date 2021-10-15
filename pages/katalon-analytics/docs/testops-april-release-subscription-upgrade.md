@@ -4,25 +4,32 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/upgrade-subscriptions.html 
 description: 
 ---
-## Add more test results
 
-If you want to increase the number of test results or switch from monthly to yearly billing cycles, you can upgrade your subscriptions at any time.
+If you want to increase the number of test executions or switch from a monthly to a yearly billing cycle, you can upgrade your subscriptions at any time.
 
-To upgrade your subscription, follow these steps:
-1. Log in to [Katalon TestOps](https://testops.katalon.io/).
+## Add more test executions
+
+Follow these steps:
+1. Sign in to [Katalon TestOps](https://testops.katalon.io/).
 2. Select your organization.
 3. Go to **Settings** > **Subscription Management** > **TestOps Subscriptions**.
+4. Adjust the number of additional test executions and review the new plan.
+5. Click **Checkout** to complete the process.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-upgrade/upgrade-rename-te-business.png">
+## Upgrade to an annual billing cycle
 
-* The screen displays the current subscription and TestOps plans as above.
-* You can only subscribe to one plan at a time. 
-4. Click **Upgrade** on the current plan.
-5. Adjust the number of test results and review the new plan.
-6. Click **Checkout** to complete the process.
+A yearly billing cycle saves costs.
 
-## Upgrade to Annual billing cycle
+Follow these steps:
 
-A yearly billing cycle helps you save costs. You can only upgrade monthly subscriptions to annual ones.
+1. Sign in to [Katalon TestOps](https://testops.katalon.io/).
+2. Select your organization.
+3. Go to **Settings** > **Subscription Management** > **TestOps Subscriptions**.
+4. Upgrade your TestOps plan in the **Subscription Term** section.
+5. Click **Checkout**.
 
-Successful payment will immediately change your subscription. After upgrading, you can find new subscription information updated on the **TestOps Subscriptions** page.
+Successful payment will immediately change your subscription type. After upgrading, you can find the new subscription information updated on the **TestOps Subscriptions** page.
+
+> Notice:
+>
+> You cannot change your annual subscriptions back to the monthly ones.
