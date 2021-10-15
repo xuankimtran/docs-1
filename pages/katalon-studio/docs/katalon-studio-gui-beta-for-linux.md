@@ -16,19 +16,21 @@ description:
 
 Katalon Studio for Linux (Ubuntu tested) supports both IDE and console mode versions. This guide covers setting-up steps for running Katalon Studio GUI on Linux.
 
-> Download Katalon Studio for Linux [here](https://www.katalon.com/download/)
+> Download Katalon Studio for Linux [here](https://www.katalon.com/download/).
 
-1\. Install OpenJDK 8 on your Ubuntu (NOT Oracle JDK). You can find the installation steps [here](http://openjdk.java.net/install/). Once you finish the installation, your `OpenJDK` information is displayed when you execute `java -version` command.
+## Install and Activate Katalon Studio on Linux
 
-![java](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-gui-beta-for-linux/Screen-Shot-2018-02-07-at-11.50.50.png)
+1. Install OpenJDK 8 on your Ubuntu (NOT Oracle JDK). You can find the installation steps at OpenJDK document: [How to download and install prebuilt OpenJDK packages](http://openjdk.java.net/install/). Once you finish the installation, your `OpenJDK` information is displayed when you execute `java -version` command.
 
-2\. Activate Katalon Studio
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-gui-beta-for-linux/Screen-Shot-2018-02-07-at-11.50.50.png" alt="linux" width=100%>
 
-If you don't have an account with Katalon Studio, provide your desired username and password to sign up after launching the app. If you have an account, please read more about licenses and how to activate each license in [Katalon Studio Licensing](https://docs.katalon.com/katalon-studio/docs/license.html).
+2. After launching the app, you can sign in to your Katalon account to activate your license. To learn how to activate your license, see [Activate Katalon License](https://docs.katalon.com/katalon-studio/docs/activate-license.html).
 
-3\. Additional set-up for Mobile and Web Services:
+## Configure Katalon Studio on Linux
 
-#### Mobile
+This section provide some additional set-up for Mobile and Web Services.
+
+### Mobile
 
 * Install [Node.js for Linux](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
 * Install Appium:
@@ -42,7 +44,7 @@ If you don't have an account with Katalon Studio, provide your desired username 
   * You may need to [set JAVA_HOME](https://askubuntu.com/questions/175514/how-to-set-java-home-for-java?utm_medim=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa) if you encounter an error related to that Java `jar` file can't be found.
   * Set the Appium directory manually in **Windows > Katalon Studio Preferences**. The default directory should be **/usr/lib/node_modules/appium/**.
 
-#### Web Services
+### Web Services
 
 To see the Web Service's response section and email template content, install `libwebkitgtk-3.0-0`.
 
@@ -50,10 +52,10 @@ To see the Web Service's response section and email template content, install 
 apt-get install libwebkitgtk-3.0-0
 ```
 
-#### Notes
+> Notes:
+>
+> There is no "On top" option in the Spy/Record dialog. To make it work, please select the Spy/Record dialog > Right-click > choose **Always On Top** option.
 
-There is no "On top" option in the Spy/Record dialog. To make it work, please select the Spy/Record dialog > Right-click > choose **Always On Top** option.
-
-#### Troubleshooting
+### Troubleshoot configuration
 
 You may encounter the `NoClassDefFoundError` error since Oracle JDK is being used. Please uninstall Oracle JDK, and then install [Open JDK8](http://openjdk.java.net/install/).
