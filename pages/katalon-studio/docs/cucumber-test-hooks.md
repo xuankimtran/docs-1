@@ -6,118 +6,24 @@ redirect_from:
 description: 
 ---
 
-The integration of Cucumber framework in Katalon Studio allows you to include Cucumber test hooks, which work at the start and the end of a scenario in a behavior-driven development (BDD) test. To learn more about test hooks in Cucumber framework, you can refer to this document: [Cucumber Hooks reference](https://cucumber.io/docs/cucumber/api/#hooks).
+The integration of Cucumber framework in Katalon Studio allows you to include Cucumber test hooks, which work at the start and the end of a scenario in a behavior-driven development (BDD) test. To learn more about test hooks in Cucumber framework, you can refer to this document: [Cucumber reference](https://cucumber.io/docs/cucumber/api/#hooks)
 
 This guide shows you how to create and use Cucumber hooks in Katalon Studio.
 
 ## Set up Cucumber Hooks
 
-### Create Cucumber Feature file
-To apply hooks in Cucumber BDD test, first you need to create a Cucumber Feature file and its corresponding Step definitions. 
-
-1. To create a Cucumber Feature file, go to **File > New > BDD Feature File**.
-
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/cucumber-test-hooks/KS-Create-new-feature-file.png" width=70% alt="New Feature File dialog">
-
-    You can tick the **Generate sample feature** option for a sample feature file.
-
-    For example:
-
-    ```groovy
-    #Sample Feature Definition Template
-    @tag
-    Feature: Title of your feature
-    I want to use this template for my feature file
-
-    @tag1
-    Scenario Outline: Title of your scenario outline
-        Given I want to write a step with <name>
-        When I check for the <value> in step
-        Then I verify the <status> in step
-
-        Examples: 
-        | name  | value | status  |
-        | name1 |     5 | success |
-        | name2 |     7 | Fail    |
-    ```
-
-2. To create Step definitions, go to **File > New > Groovy Script**.
-
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/cucumber-test-hooks/KS-Generate-sample-step-defintions.png" width=70% alt="Create Keyword Dialog">
-
-    Tick the **Generate sample @Given, @When, @Then steps** for sample Step definitions. 
-
-    For example:
-    ```groovy
-    class Sample {
-
-        /**
-        * The step definitions below match with Katalon sample Gherkin steps
-        */
-        @Given("I want to write a step with (.*)")
-        def I_want_to_write_a_step_with_name(String name) {
-            println name
-        }
-
-        @When("I check for the (\\d+) in step")
-        def I_check_for_the_value_in_step(int value) {
-            println value
-        }
-
-        @Then("I verify the (.*) in step")
-        def I_verify_the_status_in_step(String status) {
-            println status
-        }
-    }
-
-    ```
+### Create Feature file
+To apply hooks in Cucumber BDD test, first you need to create a Cucumber Feature file and its corresponding Step definitions. Follow this guide to set up your Feature file: [Add Feature files and Step definitions](https://docs.katalon.com/katalon-studio/docs/cucumber-features-file.html)
 
 ### Add Cucumber Hooks
 
-1. Create a separate Step definition or Custom Keyword that includes the Cucumber hooks.
+1. Create a separate Step definition or Custom Keyword that includes the Cucumber hooks:
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/cucumber-test-hooks/KS-New-Cucumber-hooks-script.png" width=70% alt="New Cucumber hook script">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/cucumber-test-hooks/KS-sample-test-hooks.png" width="70%" alt="Sample test hooks">
 
-2. Enter the following code snippet to include two Cucumber hooks:
+2. Run the Feature file or test case and test suite that include the Cucumber Keyword and verify the message of Cucumber hooks in **Console** log:
 
-    ```groovy
-    class SampleTestHook {
-        @Before
-        public void beforeScenario(Scenario scenario) {
-            println 'This is a before scenario method: ' + scenario.getName()
-        }
-
-        @After
-        public void afterScenario(Scenario scenario) {
-            println 'This is a after scenario method: ' + scenario.getName()
-        }
-    }
-    ```
-
-## Create a test case with Cucumber hooks
-
-1. In a new test case, click on the **Add** dropdown button and select **Cucumber Keywords**.
-
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/cucumber-test-hooks/KS-Add-Cucumber-keyword.png" width=70% alt="Add Cucumber Keywords">
-
-2. Select the **Run Feature File** keyword. 
-
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/cucumber-test-hooks/KS-select-run-feature-file-keyword.png" width=70% alt="Select Run Feature File keyword">
-
-
-3. Input of the **Run Feature File** keyword is the relative path to the Feature file. 
-
-    To get its relative path, right-click on the Feature file and select **Copy ID**.
-
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/cucumber-test-hooks/KS-Copy-ID-feature-file.png" width=70% alt="Copy ID of Feature file">
-
-4. Double-click on the **Input** cell. In the displayed **Input** dialog, paste the copied relative path as the input value. 
-
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/cucumber-test-hooks/KS-Feature-file-input-value.png" width=70% alt="Paste keyword input value">
-
-5. Run the test and verify the message of the Cucumber hooks in **Console** log:
-
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/cucumber-test-hooks/KS-Cucumber-hooks-message.png" width=70% alt="Cucumber hooks message">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/cucumber-test-hooks/KS-test-hooks-log.png" width="70%" alt="Test hooks log in Console">
 
 **See also**: 
 
