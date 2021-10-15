@@ -1055,7 +1055,7 @@ items:
             url: /katalon-studio/docs/combine-multiple-data-sources.html
       - title: "BDD Testing Framework (Cucumber integration)"
         tree:
-          - title: "Add Feature File"
+          - title: "BDD Testing Framework (Cucumber integration)"
             url: /katalon-studio/docs/cucumber-features-file.html
           - title: "Create Cucumber Test Hooks"
             url: /katalon-studio/docs/cucumber-test-hook.html
