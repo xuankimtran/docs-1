@@ -5,7 +5,7 @@ permalink: katalon-analytics/docs/upgrade-subscriptions.html
 description: 
 ---
 
-If you want to increase the number of test executions or switch from a monthly to a yearly billing cycle, you can upgrade your subscriptions at any time.
+If you want to increase the number of test executions or switch from a monthly to a yearly billing cycle, you can upgrade your subscription at any time.
 
 ## Add more test executions
 
@@ -32,4 +32,4 @@ Successful payment will immediately change your subscription type. After upgradi
 
 > Notice:
 >
-> You cannot change your annual subscriptions back to the monthly ones.
+> You cannot change your annual subscription back to a monthly one.
