@@ -7,14 +7,14 @@ description: This article will show you how to use Jenkins on Docker hosted in U
 
 > Requirements:
 >
-> * An active Katalon Runtime Engine license.
+> * An active floating Katalon Runtime Engine license.
 > * Docker and Jenkins already installed and configured. You can learn how to install Docker and Jenkins in this Jenkins guide: [Docker](https://www.jenkins.io/doc/book/installing/docker/).
 
 Docker is a platform for running applications in an isolated environment called a Docker container. Applications like Jenkins can be downloaded as read-only images, each of which is run in Docker as a container.
 
 However, when your Jenkins is installed on a dynamic Docker hosted in Ubuntu without GUI, you might not be able to configure build and integration with Katalon Studio from the user interface normally.
 
-This tutorial will guide you through configuring and building your Katalon Project with Jenkins on Docker hosted in Ubuntu.
+This tutorial will guide you through configuring and building your Katalon Project with Jenkins on Docker hosted in Ubuntu. Your Katalon Project will be run with Katalon Studio Docker Image; hence pre-installed Katalon Studio and Katalon Runtime Engine in your local machine are not required. You can pull Docker Image for Katalon Studio at Docker Hub: [katalonstudio/katalon](https://hub.docker.com/r/katalonstudio/katalon).
 
 ## Integrate with Docker on Jenkins
 
@@ -85,6 +85,8 @@ You can either upload your Katalon project from a Git repository or your local w
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-docker/build-now.png" alt="build now" width=85%>
 
 5. To view the console log, click on your current build on Jenkins and select **Console Output**.
+
+    In the **Console Output**, you can view the status when Docker starts finding the image `katalonstudio/katalon`, verifying your licenses, reloading plugins, then executing your test. If Docker cannot find the `katalonstudio/katalon` image locally, it automatically pulls this image.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-docker/console-output.png" alt="console output" width=100%>
 
