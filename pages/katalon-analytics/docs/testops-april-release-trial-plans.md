@@ -23,15 +23,14 @@ Follow these steps:
 
 2. Go to **Settings** > **Subscription Management**.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-free-plan/free-plan-1.png" width=100% alt="subs management on testop web">
+3. Select **Trial Request** on the left sidebar.
 
-2. Select **Trial Request** on the left sidebar.
-
+    The **Trial request for TestOps Business/Enterprise** page appears as below.
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-subscription-docs/to-trial-request-page.png" width=100% alt="trial request page">
 
-3. Select a trial plan.
+4. Select a trial plan.
 
-4. Click **Submit**.
+5. Click **Submit**.
 
 > Notes:
 >
