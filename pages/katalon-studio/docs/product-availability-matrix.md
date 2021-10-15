@@ -8,7 +8,7 @@ This document gives you information on the supported technologies and integratio
 
 ### Supported Application Under Test (AUT)
 
-<table id="top" class="top-vertical-align-table">
+<table width=100% id="top" class="top-vertical-align-table">
     <tr>
         <td style="width:50%"><strong>Web UI</strong>
             <ul>
@@ -55,7 +55,7 @@ This document gives you information on the supported technologies and integratio
 
 ### Programming Skill & Language
 
-<table>
+<table width=100%>
 	<tbody>
 		<tr>
 			<td>
@@ -86,10 +86,10 @@ This document gives you information on the supported technologies and integratio
 
 ### Testing Methodologies
 
-<table>
+<table width=100%>
 	<tbody>
 		<tr>
-			<td rowspan="6">
+			<td rowspan="4">
 				<p><a href="https://github.com/katalon-studio-samples/data-driven-tests">Data-driven testing - DDT</a></p>
 			</td>
 			<td>
@@ -99,36 +99,16 @@ This document gives you information on the supported technologies and integratio
 				<p>Version</p>
 			</td>
 			<td>
-				<p>Katalon Studio 7.0+</p>
+				<p>Katalon Studio 7.0.0+</p>
 			</td>
 			<td>
-				<p>Katalon Studio 7.5+</p>
+				<p>Katalon Studio 7.5.0+</p>
 			</td>
 			<td>
-				<p>Katalon Studio Enterprise 7.0+</p>
+				<p>Katalon Studio Enterprise 7.0.0+</p>
 			</td>
 			<td>
-				<p>Katalon Studio Enterprise 7.5+</p>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<p>MySQL</p>
-			</td>
-			<td>
-				<p>8.0+</p>
-			</td>
-			<td>
-				<p>✔</p>
-			</td>
-			<td>
-				<p>✔</p>
-			</td>
-			<td>
-				<p>✔</p>
-			</td>
-			<td>
-				<p>✔</p>
+				<p>Katalon Studio Enterprise 7.5.0+</p>
 			</td>
 		</tr>
 		<tr>
@@ -136,7 +116,7 @@ This document gives you information on the supported technologies and integratio
 				<p>PostgreSQL</p>
 			</td>
 			<td>
-				<p>all version</p>
+				<p data-pm-slice="1 1 [&quot;bulletList&quot;,null,&quot;listItem&quot;,null,&quot;bulletList&quot;,null,&quot;listItem&quot;,null]">v42.2.17</p>
 			</td>
 			<td>
 				<p>✔</p>
@@ -156,14 +136,10 @@ This document gives you information on the supported technologies and integratio
 				<p>Oracle SQL</p>
 			</td>
 			<td>
-				<p>all version</p>
+				<p data-pm-slice="1 1 [&quot;bulletList&quot;,null,&quot;listItem&quot;,null,&quot;bulletList&quot;,null,&quot;listItem&quot;,null]">v12.1.0.2</p>
 			</td>
-			<td>
-				<p> </p>
-			</td>
-			<td>
-				<p> </p>
-			</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
 			<td>
 				<p>✔</p>
 			</td>
@@ -172,35 +148,14 @@ This document gives you information on the supported technologies and integratio
 			</td>
 		</tr>
 		<tr>
-			<td rowspan="2">
-				<p>SQL Server</p>
+			<td>
+				<p data-pm-slice="1 1 [&quot;bulletList&quot;,null,&quot;listItem&quot;,null,&quot;bulletList&quot;,null,&quot;listItem&quot;,null]">SQL Server</p>
 			</td>
 			<td>
-				<p>2008-2016</p>
+				<p data-pm-slice="1 1 [&quot;bulletList&quot;,null,&quot;listItem&quot;,null,&quot;bulletList&quot;,null,&quot;listItem&quot;,null]">6.2.2</p>
 			</td>
-			<td>
-				<p> </p>
-			</td>
-			<td>
-				<p> </p>
-			</td>
-			<td>
-				<p>✔</p>
-			</td>
-			<td>
-				<p> </p>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<p>2008-2017</p>
-			</td>
-			<td>
-				<p> </p>
-			</td>
-			<td>
-				<p> </p>
-			</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
 			<td>
 				<p>✔</p>
 			</td>
@@ -264,84 +219,106 @@ This document gives you information on the supported technologies and integratio
 
 ### Testing Capabilities
 
-<table>
+<table width=70%>
 	<tbody>
+		<tr>
+			<td>&nbsp;</td>
+			<td>7.8.0</td>
+			<td>7.9.0</td>
+			<td>8.0.0</td>
+		</tr>
 		<tr>
 			<td>
 				<p>Integration Testing</p>
 			</td>
-			<td>
-				<p>✔</p>
-			</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
 		</tr>
 		<tr>
 			<td>
 				<p>Functional Testing</p>
 			</td>
-			<td>
-				<p>✔</p>
-			</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
 		</tr>
 		<tr>
 			<td>
 				<p>E-2-E Testing</p>
 			</td>
-			<td>
-				<p>✔</p>
-			</td>
+			<td>✔&nbsp;</td>
+			<td>✔&nbsp;</td>
+			<td>✔&nbsp;</td>
 		</tr>
 		<tr>
 			<td>
 				<p><a href="https://github.com/katalon-studio-samples/web-visual-testing-samples">Visual Testing</a></p>
 			</td>
-			<td>
-				<p>✔</p>
-			</td>
+			<td>✔&nbsp;</td>
+			<td>✔&nbsp;</td>
+			<td>✔&nbsp;</td>
 		</tr>
 	</tbody>
 </table>
 
 ### Report
 
-<table>
+<table width=70%>
 	<tbody>
 		<tr>
+			<td>&nbsp;</td>
+			<td>7.8.0</td>
+			<td>7.9.0</td>
+			<td>8.0.0</td>
+		</tr>
+		<tr>
 			<td>
-				<p>Type</p>
+				<p>HTML, PDF, CSV</p>
 			</td>
 			<td>
-				<ul>
-					<li>HTML</li>
-					<li>PDF</li>
-					<li>CSV</li>
-				</ul>
+				<p>✔</p>
 			</td>
+			<td>✔</td>
+			<td>✔&nbsp;</td>
 		</tr>
 		<tr>
 			<td>
 				<p>Dynamic email configuration</p>
 			</td>
+			<td>✔&nbsp;</td>
 			<td>✔</td>
+			<td>✔&nbsp;</td>
 		</tr>
 		<tr>
 			<td>
 				<p>Release/build-based reports</p>
 			</td>
+			<td>✔&nbsp;</td>
 			<td>✔</td>
+			<td><strong>✔</strong>&nbsp;</td>
 		</tr>
 		<tr>
 			<td>
 				<p>Performance, Trending &amp; Insights reports</p>
 			</td>
+			<td><strong>✔</strong>&nbsp;</td>
 			<td>✔</td>
+			<td>✔&nbsp;</td>
 		</tr>
 	</tbody>
 </table>
 
 ### Cloud Device Integration
 
-<table>
+<table width=70%>
 	<tbody>
+		<tr>
+			<td>&nbsp;</td>
+			<td>7.8.0</td>
+			<td>7.9.0</td>
+			<td>8.0.0</td>
+		</tr>
 		<tr>
 			<td>
 				<p><a href="https://docs.katalon.com/katalon-studio/videos/introducing_kobiton_katalon_studio.html">Kobiton</a></p>
@@ -349,6 +326,10 @@ This document gives you information on the supported technologies and integratio
 			<td>
 				<p>✔</p>
 			</td>
+			<td>
+				<p>✔</p>
+			</td>
+			<td>✔&nbsp;</td>
 		</tr>
 		<tr>
 			<td>
@@ -357,6 +338,8 @@ This document gives you information on the supported technologies and integratio
 			<td>
 				<p>✔</p>
 			</td>
+			<td>✔&nbsp;</td>
+			<td>✔&nbsp;</td>
 		</tr>
 		<tr>
 			<td>
@@ -365,6 +348,8 @@ This document gives you information on the supported technologies and integratio
 			<td>
 				<p>✔</p>
 			</td>
+			<td><strong>✔</strong>&nbsp;</td>
+			<td>✔&nbsp;</td>
 		</tr>
 		<tr>
 			<td>
@@ -373,20 +358,30 @@ This document gives you information on the supported technologies and integratio
 			<td>
 				<p>✔</p>
 			</td>
+			<td>✔&nbsp;</td>
+			<td>✔&nbsp;</td>
 		</tr>
 		<tr>
 			<td>
 				<p><a href="https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html#remote-server">Custom integration</a></p>
 			</td>
 			<td>✔</td>
+			<td>✔&nbsp;</td>
+			<td>✔&nbsp;</td>
 		</tr>
 	</tbody>
 </table>
 
 ### ALM Integration
 
-<table>
+<table width=70%>
 	<tbody>
+		<tr>
+			<td>&nbsp;</td>
+			<td>7.8.0</td>
+			<td>7.9.0</td>
+			<td>8.0.0</td>
+		</tr>
 		<tr>
 			<td>
 				<p><a href="https://docs.katalon.com/katalon-studio/docs/jira-integration.html">Jira</a></p>
@@ -394,6 +389,10 @@ This document gives you information on the supported technologies and integratio
 			<td>
 				<p>✔</p>
 			</td>
+			<td>
+				<p>✔</p>
+			</td>
+			<td>✔&nbsp;</td>
 		</tr>
 		<tr>
 			<td>
@@ -402,6 +401,8 @@ This document gives you information on the supported technologies and integratio
 			<td>
 				<p>✔</p>
 			</td>
+			<td>✔&nbsp;</td>
+			<td>✔&nbsp;</td>
 		</tr>
 		<tr>
 			<td>
@@ -410,6 +411,8 @@ This document gives you information on the supported technologies and integratio
 			<td>
 				<p>✔</p>
 			</td>
+			<td>✔&nbsp;</td>
+			<td>✔&nbsp;</td>
 		</tr>
 		<tr>
 			<td>
@@ -418,25 +421,31 @@ This document gives you information on the supported technologies and integratio
 			<td>
 				<p>✔</p>
 			</td>
+			<td>✔&nbsp;</td>
+			<td>✔&nbsp;</td>
 		</tr>
 		<tr>
 			<td>
 				<p><a href="https://docs.katalon.com/katalon-studio/docs/testlink-integration.html">TestLink</a></p>
 			</td>
 			<td>✔</td>
+			<td>✔&nbsp;</td>
+			<td>✔&nbsp;</td>
 		</tr>
 		<tr>
 			<td>
 				<p><a href="https://docs.katalon.com/katalon-store/docs/publisher/example-plugin-testrail.html">Custom ALM integration</a></p>
 			</td>
 			<td>&nbsp;✔</td>
+			<td>✔&nbsp;</td>
+			<td>✔&nbsp;</td>
 		</tr>
 	</tbody>
 </table>
 
 ### CI/CD Integration
 
-<table>
+<table width=70%>
 	<tbody>
 		<tr>
 			<td>
@@ -445,13 +454,13 @@ This document gives you information on the supported technologies and integratio
 				<p>Version</p>
 			</td>
 			<td>
-				<p>7.8</p>
+				<p>7.8.0</p>
 			</td>
 			<td>
-				<p>7.9</p>
+				<p>7.9.0</p>
 			</td>
 			<td>
-				<p>8.0</p>
+				<p>8.0.0</p>
 			</td>
 		</tr>
 		<tr>
@@ -551,20 +560,20 @@ This document gives you information on the supported technologies and integratio
 
 ### Integration with other Katalon products and extensions
 
-<table>
+<table width=70%>
 	<tbody>
 		<tr>
 			<td>
 				<p><strong>Product</strong></p>
 			</td>
 			<td>
-				<p>7.8</p>
+				<p>7.8.0</p>
 			</td>
 			<td>
-				<p>7.9</p>
+				<p>7.9.0</p>
 			</td>
 			<td>
-				<p>8.0</p>
+				<p>8.0.0</p>
 			</td>
 		</tr>
 		<tr>
@@ -596,20 +605,20 @@ This document gives you information on the supported technologies and integratio
 
 ### Migration from other tools
 
-<table>
+<table width=70%>
 	<tbody>
 		<tr>
 			<td>
 				<p><strong>Tools</strong></p>
 			</td>
 			<td>
-				<p>7.8</p>
+				<p>7.8.0</p>
 			</td>
 			<td>
-				<p>7.9</p>
+				<p>7.9.0</p>
 			</td>
 			<td>
-				<p>8.0</p>
+				<p>8.0.0</p>
 			</td>
 		</tr>
 		<tr>
@@ -673,13 +682,25 @@ This document gives you information on the supported technologies and integratio
 
 ### Offering
 
-<table>
+<table width=70%>
 	<tbody>
+		<tr>
+			<td>&nbsp;</td>
+			<td colspan="15">&nbsp;7.8.0</td>
+			<td colspan="15">&nbsp;7.9.0</td>
+			<td colspan="15">&nbsp;8.0.0</td>
+		</tr>
 		<tr>
 			<td>
 				<p>Community package (<a href="https://www.katalon.com/pricing/">Comparison</a>)</p>
 			</td>
-			<td colspan="3">
+			<td colspan="15">
+				<p>✔</p>
+			</td>
+			<td colspan="15">
+				<p>✔</p>
+			</td>
+			<td colspan="15">
 				<p>✔</p>
 			</td>
 		</tr>
@@ -687,7 +708,13 @@ This document gives you information on the supported technologies and integratio
 			<td>
 				<p>Enterprise packages</p>
 			</td>
-			<td colspan="3">
+			<td colspan="15">
+				<p>✔</p>
+			</td>
+			<td colspan="15">
+				<p>✔</p>
+			</td>
+			<td colspan="15">
 				<p>✔</p>
 			</td>
 		</tr>
@@ -696,13 +723,25 @@ This document gives you information on the supported technologies and integratio
 
 ### Support
 
-<table>
+<table width=70%>
 	<tbody>
+		<tr>
+			<td>&nbsp;</td>
+			<td colspan="15">&nbsp;7.8.0</td>
+			<td colspan="15">&nbsp;7.9.0</td>
+			<td colspan="15">&nbsp;8.0.0</td>
+		</tr>
 		<tr>
 			<td>
 				<p><a href="https://forum.katalon.com/">Katalon forum</a></p>
 			</td>
-			<td colspan="3">
+			<td colspan="15">
+				<p>✔</p>
+			</td>
+			<td colspan="15">
+				<p>✔</p>
+			</td>
+			<td colspan="15">
 				<p>✔</p>
 			</td>
 		</tr>
@@ -710,7 +749,13 @@ This document gives you information on the supported technologies and integratio
 			<td>
 				<p><a href="https://www.katalon.com/pricing/">Exclusive Support Service</a></p>
 			</td>
-			<td colspan="3">
+			<td colspan="15">
+				<p>✔</p>
+			</td>
+			<td colspan="15">
+				<p>✔</p>
+			</td>
+			<td colspan="15">
 				<p>✔</p>
 			</td>
 		</tr>
