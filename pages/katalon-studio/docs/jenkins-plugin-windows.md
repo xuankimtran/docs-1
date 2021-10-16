@@ -161,7 +161,7 @@ pipeline {
                 sh '''
                 cd  <KRE installed folder>
                 ./katalonc  -projectPath="<projectpath>" -browserType="<browse" -retry=<number of retry time> 
-                -statusDelay=<seconds> -testSuitePath="<path>" -apiKey="<user API key>" -orgID=<<Katalon_OrgID>
+                -statusDelay=<seconds> -testSuitePath="<path>" -apiKey="<user API key>" -orgID=<Katalon_OrgID>
                 '''
                 
             }
@@ -183,7 +183,7 @@ pipeline {
                 sh '''
                 cd  /Users/yen.nguyen/Downloads/Katalon_Studio_Engine_MacOS-8.1.0/Katalon\\ Studio\\ Engine.app/Contents/MacOS
                 ./katalonc  -projectPath="/Users/yen.nguyen/Downloads/ci-samples-master/test.prj" -browserType="Chrome" -retry=0 
-                -statusDelay=15 -testSuitePath="Test Suites/TS_RegressionTest" -apiKey="<user API key>" -orgID=<<Katalon_OrgID>
+                -statusDelay=15 -testSuitePath="Test Suites/TS_RegressionTest" -apiKey="<user API key>" -orgID=<Katalon_OrgID>
                 '''
                 
             }
