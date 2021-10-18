@@ -20,7 +20,18 @@ Follow these steps:
 2. Select your organization.
 3. Go to **Settings** > **Subscription Management** > **TestOps Subscriptions**.
 
-4. Click **Cancel** on the current plan.
-5. Confirm your action.
+    The **TestOps Subscriptions** page appears as below.
 
-    A confirmation email will be sent to your email.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-subscription-docs/testops-subscription-page-upgrade-cancel.png" width=100% alt="testops cancel subs button">
+    
+4. Click **Cancel**.
+
+    The **Confirm Cancellation** box pops up.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-subscription-docs/confirm-cancellation-popup.png" width=100% alt="testops confirm cancel popup">
+    
+5. Type `CANCEL`, then click **Cancel this subscription**. 
+
+You have cancelled your subscription successfully.
+
+ <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-subscription-docs/kt-cancel-status-highlight.png" width=100% alt="testops confirm cancel popup">
