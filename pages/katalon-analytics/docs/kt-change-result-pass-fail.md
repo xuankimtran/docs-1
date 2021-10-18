@@ -34,7 +34,7 @@ Follow these steps:
 
     You can see all test results and their details (Status, ID, Name, Time, Assertions, Links) here.
 
-4. Click on the *Extension* icon of the Test Result you want to change its status.
+4. Click on the *Extension* icon of the Test Result you want to change.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration.png" width=100% alt="test result extension icon">
 
@@ -47,6 +47,7 @@ Follow these steps:
     A box pops up asking you to choose a reason for the status change.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration.png" width=100% alt="change status popup">
+    
 6. Select an option, then submit the new status for this Test Result.
 
 ## View status change details of a Test Result
