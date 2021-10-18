@@ -1,7 +1,7 @@
 ---
-title: "Intergrate Jenkins Pipeline with Katalon Studio Docker Image"
+title: "Intergrate Jenkins Pipeline (Jenkinsfile) with Katalon Studio Docker Image"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/jenkins-plugin-windows.html 
+permalink: katalon-studio/docs/jenkins-pipeline-docker.html 
 description: 
 ---
 
@@ -13,16 +13,13 @@ Your Katalon Project is run with Katalon Studio Docker Image; hence pre-installe
 > * Docker installed. You can refer to the instructions in the Docker document here: [Get Docker](https://docs.docker.com/get-docker/). 
 > * An active Katalon Runtime Engine floating license. To learn more about types of licenses, you can refer to this document: [Types of license](https://docs.katalon.com/katalon-studio/docs/license.html).
 
-
 ## Intergrate Jenkins with Docker
-
 ### Install plugins
    
 1. Install the **Docker** plugin and **Docker Pipeline** plugin. Go to **Manage Jenkins > Manage Plugins > Available tab** and search for the **Docker** plugin and **Docker Pipeline** plugin. 
 2. Select the plugin and click **Install without restart**.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-docker/plugins.png" alt="plugins" width=70%>
-
 ### Add an environment path
 
 <details><summary>For Window</summary>
@@ -94,6 +91,10 @@ Here, since we have our Pipeline project stored in Git, we select **Pipeline Scr
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/KS-JENKINS-Choose-creadentials.png" width="70%" alt="Quickly Jenkinsfile path in Git project">
 
 6.  Click **Save** then click **Build Now** to run the Jenkinsfile. 
+7.  To view the console log, click on your current build on Jenkins and select **Console Output**.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/KS-JENKINS-console-output.png" width=60% alt="View console output">
+
     When the test is being run, you can also view the console log in Docker.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-docker/docker-log.png" alt="docker log" width=100%>
