@@ -1,5 +1,5 @@
 ---
-title: "Use Katalon TestOps plugin for Jenkins on Ubuntu" 
+title: "Use Katalon TestOps plugin for Jenkins Integration on Ubuntu" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/jenkins-plugin-ubuntu.html 
 description: This article will show you how to use Jenkins plugin on Ubuntu.
