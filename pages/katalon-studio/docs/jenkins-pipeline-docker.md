@@ -5,8 +5,7 @@ permalink: katalon-studio/docs/jenkins-pipeline-docker.html
 description: 
 ---
 
-This tutorial shows you how to execute Katalon Studio tests in Jenkins with Jenkins Pipeline (Jenkinsfile) and Katalon Studio Docker Image.
-Your Katalon Project is run with Katalon Studio Docker Image; hence pre-installed Katalon Studio and Katalon Runtime Engine in your local machine are not required. Docker Image for Katalon Studio is available here at Docker Hub: [katalonstudio/katalon](https://hub.docker.com/r/katalonstudio/katalon/).
+This tutorial shows you how to intergrate Jenkins Pipeline (Jenkinsfile) with Katalon Studio Docker Image. This image contains up-to-date browsers including Google Chrome, Mozilla Firefox, and Katalon Studio. Hence when running your Katalon Project with Katalon Studio Docker Image; the pre-installed Katalon Studio and Katalon Runtime Engine in your local machine are not required. Docker Image for Katalon Studio is available here at Docker Hub: [katalonstudio/katalon](https://hub.docker.com/r/katalonstudio/katalon/).
 
 > Requirements:
 > * Jenkins installed. Follow the instructions in this Jenkins document for installation: [Getting started](https://www.jenkins.io/doc/book/installing/).
@@ -90,7 +89,10 @@ Here, since we have our Pipeline project stored in Git, we select **Pipeline Scr
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/KS-JENKINS-Choose-creadentials.png" width="70%" alt="Quickly Jenkinsfile path in Git project">
 
-6.  Click **Save** then click **Build Now** to run the Jenkinsfile. 
+6.  Click **Save** then click **Build Now** to run the Jenkinsfile. While the test is being run, if Docker cannot find the `katalonstudio/katalon` image locally, it will automatically pulls this image.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/KS-JENKINS-Build-now.png" width=60% alt="Build your Jenkins project">
+
 7.  To view the console log, click on your current build on Jenkins and select **Console Output**.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/KS-JENKINS-console-output.png" width=60% alt="View console output">

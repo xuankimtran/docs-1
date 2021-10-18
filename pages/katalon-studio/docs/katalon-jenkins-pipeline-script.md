@@ -119,6 +119,11 @@ pipeline {
 
 4. After the configuration, click **Save**, then click **Build Now** to run the project.
 
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/KS-JENKINS-Build-now.png" width=60% alt="Build your Jenkins project">
+
+5.  To view the console log, click on your current build on Jenkins and select **Console Output**.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/KS-JENKINS-console-output.png" width=60% alt="View console output">
 ## See also
 
 * [Intergrate Jenkins Pipeline (Jenkinsfile) with Katalon Studio Docker Image](https://docs.katalon.com/katalon-studio/docs/jenkins-pipeline-docker.html)
