@@ -58,4 +58,13 @@ apt-get install libwebkitgtk-3.0-0
 
 ### Troubleshoot configuration
 
-You may encounter the `NoClassDefFoundError` error since Oracle JDK is being used. Please uninstall Oracle JDK, and then install [Open JDK8](http://openjdk.java.net/install/).
+You might encounter the `NoClassDefFoundError` error since Oracle JDK is being used. To resolve this error, do as follows:
+
+1. Uninstall Oracle JDK.
+2. Install [Open JDK8](http://openjdk.java.net/install/):
+
+  ``` groovy
+  sudo apt-get install openjdk-8-jre
+  sudo update-alternatives --config java //then choose the openjdk-8-jre option
+  java -version
+  ```
