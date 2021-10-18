@@ -68,7 +68,7 @@ Follow these steps:
 
 1. Go to the **Licenses** page.
 
-2. In the **Online License** section, click on the *Trash bin* icon of the machine ID for which you want to revoke the license.
+2. In the **Online Licenses** section, click on the *Trash bin* icon of the machine ID for which you want to revoke the license.
 
    The **Remove license** box appears as below.
 
