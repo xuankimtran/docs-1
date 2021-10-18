@@ -1,7 +1,7 @@
 ---
 title: "Jenkins Integration Overview"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/jenkins-intergration-overview.html 
+permalink: katalon-studio/docs/jenkins-integration-overview.html 
 description: 
 redirect from: 
 ---
