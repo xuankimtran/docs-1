@@ -6,12 +6,12 @@ description:
 redirect from: 
 ---
 
-Jenkins Pipeline (Jenkinsfile) provides an extensible set of tools for modeling simple-to-complex delivery pipelines "as code". To learn more about creating a Jenkinsfile, you can refer to this Jenkins document: [Using a Jenkinsfile](https://www.jenkins.io/doc/book/pipeline/jenkinsfile/).
+Jenkins Pipeline (Jenkinsfile) provides an extensible set of tools for modeling simple-to-complex delivery pipelines. To learn more about creating a Jenkinsfile, you can refer to this Jenkins document: [Using a Jenkinsfile](https://www.jenkins.io/doc/book/pipeline/jenkinsfile/).
 
 > Requirements:
 > * Jenkins installed. Follow the instructions in this Jenkins document for installation: [Getting started](https://www.jenkins.io/doc/book/installing/).
 > * Katalon Runtime Engine (KRE) installed. You can download Katalon Runtime Engine here: [Katalon products](https://www.katalon.com/download/).
-> * An active Katalon Runtime Engine license. To learn more about activating Katalon Runtime Engine license, you can refer to this document: [Activate Katalon License](https://docs.katalon.com/katalon-studio/docs/activate-license.html#activate-trial-license).
+> * An active Katalon Runtime Engine license. To learn more about activating the Katalon Runtime Engine license, you can refer to this document: [Activate Katalon License](https://docs.katalon.com/katalon-studio/docs/activate-license.html#activate-trial-license).
 
 This tutorial shows you how to execute Katalon Studio tests in Jenkins with Jenkins Pipeline Script (Jenkinsfile). Follow these steps:
 
@@ -21,7 +21,7 @@ This tutorial shows you how to execute Katalon Studio tests in Jenkins with Jenk
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/KS-JENKINS-Choose-pipeline-script.png" width=70% alt="Select Pipeline script">
 
-3. Copy and paste the following command-line argurements in the **Script** box:
+3. Copy and paste the following command-line arguments in the **Script** box:
 
 <details><summary>For Windows</summary>
 
@@ -70,7 +70,7 @@ pipeline {
 
 </details>
 
-<details><summary>For MacOS/Linux</summary>
+<details><summary>For macOS/Linux</summary>
 
 ```groovy
 pipeline {
@@ -115,7 +115,7 @@ pipeline {
 
 </details>
 
-> You can find more command line options at [Command Syntax](https://docs.katalon.com/katalon-studio/docs/jenkins-docker-ubuntu.html#build-your-project).
+> You can find more command-line options at [Command Syntax](https://docs.katalon.com/katalon-studio/docs/jenkins-docker-ubuntu.html#build-your-project).
 
 4. After the configuration, click **Save**, then click **Build Now** to run the project.
 

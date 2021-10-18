@@ -7,16 +7,16 @@ redirect from:
     - "/katalon-studio/docs/jenkins-plugin-windows.html"
 ---
 
-This tutorial shows you how to execute Katalon Studio tests in Jenkins on Window and MacOS with the **Katalon TestOps** plugin for Jenkins.
+This tutorial shows you how to integrate Katalon with Jenkins on Windows and macOS via the **Katalon TestOps** plugin for Jenkins.
 
 > Requirements:
-> * An active Katalon Runtime Engine license. To learn more about activating Katalon Runtime Engine license, you can refer to this document: [Activate Katalon License](https://docs.katalon.com/katalon-studio/docs/activate-license.html#activate-trial-license).
+> * An active Katalon Runtime Engine license. To learn more about activating the Katalon Runtime Engine license, you can refer to this document: [Activate Katalon License](https://docs.katalon.com/katalon-studio/docs/activate-license.html#activate-trial-license).
 
 ## Installation
 
 Install Jenkins. Follow the instructions in the following Jenkins documents:
    - For Windows: [Windows](https://www.jenkins.io/doc/book/installing/windows/)
-   - For MacOS: [MacOS](https://www.jenkins.io/doc/book/installing/macos/) 
+   - For macOS: [macOS](https://www.jenkins.io/doc/book/installing/macos/) 
 
 ## Execute Katalon Studio tests in Jenkins with the Katalon TestOps plugin
 ### Install the Katalon TestOps plugin
@@ -28,25 +28,25 @@ Install Jenkins. Follow the instructions in the following Jenkins documents:
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/KS-JENKINS-Download-Katalon-Testops-plugin.png" width=70% alt="Install Katalon TestOps plugin">
 ### Upload your Katalon project on Jenkins
 
-After installing the **Katalon TestOps** plugin, you can now start Katalon Studio test in Jenkins. 
+After installing the **Katalon TestOps** plugin, you can now start the Katalon Studio test in Jenkins. 
 
 1. In the Jenkins Dashboard, go to **New Item** and create a **Freestyle project**.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/KS-JENKINS-Create-a-freestyle-project.png" width=70% alt="Create a new Freestyle project">
 
-2. To upload your Katalon project on Jenkins, you can either upload your Katalon project from a Git repository or your local workspace. Here, we use a Git repository. 
+2. To upload your Katalon project on Jenkins, you can upload your Katalon project from a Git repository or your local workspace. Here, we use a Git repository. 
 
    - In the **Source Code Management** section, choose **Git**.
-   - Enter your repository URL, then select branches to build, repository browser, and additional behaviours, if any.
+   - Enter your repository URL, then select branches to build, repository browser, and additional behaviors, if any.
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/Picture4.png" width=70% alt="Upload Katalon project">
 ### Build your project
 
-1. In the **Build** section, click **Add build step** and choose **Execute Katalon Studio Tests**. The **Execute Katalon Studio Tests** box opens, asking you to input Katalon Runtime Engine version and command arguments.
+1. In the **Build** section, click **Add build step** and choose **Execute Katalon Studio Tests**. The **Execute Katalon Studio Tests** box opens, asking you to input the Katalon Runtime Engine version and command arguments.
    
 2. Specify the Katalon Studio version you wish to execute with:
 
-   - If you haven't downloaded Katalon Runtime Engine (KRE), you can input the KRE version you wish to execute with in the **Download Katalon Studio version** box. KRE will be downloaded and deployed automatically. You can retrieve the list of all releases on Github repository: [Releases](https://github.com/katalon-studio/katalon-studio/releases).
+   - If you haven't downloaded Katalon Runtime Engine (KRE), you can input the KRE version you wish to execute with in the **Download Katalon Studio version** box. KRE will be downloaded and deployed automatically. You can retrieve the list of all releases on the Github repository: [Releases](https://github.com/katalon-studio/katalon-studio/releases).
    - If you want to use a pre-installed version, manually input the KRE version you have installed in the **Use pre-installed Katalon Studio** box with the following command line: ```<KRE stored folder>-<KRE pre-installed version>```. For example: ```/Users/yen.nguyen/Downloads/Katalon_Studio_Engine_MacOS-8.1.0```.
    
 3. Input your command in the **Command arguments** box, for example:
@@ -62,7 +62,7 @@ After installing the **Katalon TestOps** plugin, you can now start Katalon Studi
 
    > Notes:
    > * From version 7.7.0 onwards, if you belong to more than one Organization subscribing to Runtime Engine licenses, you can choose which Organization validates your license usage with the following command line: `-orgID=<Katalon_OrgID>`.
-   > * Make sure your current browser version is compatible with the KRE Webdriver version. To learn more about upgrading or downgrading Webdrivers, you can refer to this document: [Update or Downgrade WebDrivers](https://docs.katalon.com/katalon-studio/docs/update-or-downgrade-webdrivers.html#replace-a-webdriver).
+   > * Make sure your current browser version is compatible with the KRE Webdriver version. To learn more about upgrading or downgrading WebDrivers, you can refer to this document: [Update or Downgrade WebDrivers](https://docs.katalon.com/katalon-studio/docs/update-or-downgrade-webdrivers.html#replace-a-webdriver).
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/KS-JENKINS-Enter-command-line-in-freestyles-project.png" width=60% alt="Input command arguments">
 

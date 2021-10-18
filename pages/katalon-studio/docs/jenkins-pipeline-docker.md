@@ -1,18 +1,18 @@
 ---
-title: "Intergrate Jenkins Pipeline (Jenkinsfile) with Katalon Studio Docker Image"
+title: "Integrate Jenkins Pipeline (Jenkinsfile) with Katalon Studio Docker Image"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/jenkins-pipeline-docker.html 
 description: 
 ---
 
-This tutorial shows you how to intergrate Jenkins Pipeline (Jenkinsfile) with Katalon Studio Docker Image. This image contains up-to-date browsers including Google Chrome, Mozilla Firefox, and Katalon Studio. Hence when running your Katalon Project with Katalon Studio Docker Image; the pre-installed Katalon Studio and Katalon Runtime Engine in your local machine are not required. Docker Image for Katalon Studio is available here at Docker Hub: [katalonstudio/katalon](https://hub.docker.com/r/katalonstudio/katalon/).
+This tutorial shows you how to integrate Jenkins Pipeline (Jenkinsfile) with Katalon Studio Docker Image. This image contains up-to-date browsers, including Google Chrome, Mozilla Firefox, and Katalon Studio. Hence when running your Katalon Project with Katalon Studio Docker Image, the pre-installed Katalon Studio and Katalon Runtime Engine in your local machine are not required. Docker Image for Katalon Studio is available here at Docker Hub: [katalonstudio/katalon](https://hub.docker.com/r/katalonstudio/katalon/).
 
 > Requirements:
 > * Jenkins installed. Follow the instructions in this Jenkins document for installation: [Getting started](https://www.jenkins.io/doc/book/installing/).
 > * Docker installed. You can refer to the instructions in the Docker document here: [Get Docker](https://docs.docker.com/get-docker/). 
 > * An active Katalon Runtime Engine floating license. To learn more about types of licenses, you can refer to this document: [Types of license](https://docs.katalon.com/katalon-studio/docs/license.html).
 
-## Intergrate Jenkins with Docker
+## Integrate Jenkins with Docker
 ### Install plugins
    
 1. Install the **Docker** plugin and **Docker Pipeline** plugin. Go to **Manage Jenkins > Manage Plugins > Available tab** and search for the **Docker** plugin and **Docker Pipeline** plugin. 
@@ -27,7 +27,7 @@ This step is not required for Window users, you can now skip to [Upload your pro
 
 </details>
 
-<details><summary>For MacOS/Linux</summary>
+<details><summary>For macOS/Linux</summary>
 
 When running jobs with Docker from a Jenkinsfile with Pipeline syntax, you need to add an environment path to Jenkins. This `PATH` helps Jenkins point to the correct Docker installation path. Do as follows:
 
@@ -51,13 +51,13 @@ When running jobs with Docker from a Jenkinsfile with Pipeline syntax, you need 
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/create-pipeline.png" width=70%>
 
-2. In the **Definition** dropdown list, you can either choose **Pipeline Script** or **Pipeline Script from SCM** depending on where you store your Pipeline project. The **Pipeline Script from SCM** instructs Jenkins to obtain your Pipeline from Source Control Management (SCM), which will be your locally cloned Git repository. To learn more about defining a Pipeline, you can refer to this Jenkins document: [Getting started with Pipeline](https://www.jenkins.io/doc/book/pipeline/getting-started/#defining-a-pipeline-in-scm).
+2. In the **Definition** dropdown list, you can choose **Pipeline Script** or **Pipeline Script from SCM**, depending on where you store your Pipeline project. The **Pipeline Script from SCM** instructs Jenkins to obtain your Pipeline from Source Control Management (SCM), which will be your locally cloned Git repository. To learn more about defining a Pipeline, you can refer to this Jenkins document: [Getting started with Pipeline](https://www.jenkins.io/doc/book/pipeline/getting-started/#defining-a-pipeline-in-scm).
 
 Here, since we have our Pipeline project stored in Git, we select **Pipeline Script from SCM**.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/git.png" width="70%" alt="Choose Pipeline Script from SCM">
 
-3. In the **SCM** field, select **Git**. Enter your repository URL, select branches to build, repository browser, and additional behaviours, if any. You can clone the following sample project here: [CI samples](https://github.com/katalon-studio-samples/ci-samples).
+3. In the **SCM** field, select **Git**. Enter your repository URL, select branches to build, repository browser, and additional behaviors, if any. You can clone the following sample project here: [CI samples](https://github.com/katalon-studio-samples/ci-samples).
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/KS-JENKINS-Add-Git-url-in-pipline-from-SCM.png" width="70%" alt="Enter Git repository url">
 
@@ -89,7 +89,7 @@ Here, since we have our Pipeline project stored in Git, we select **Pipeline Scr
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/KS-JENKINS-Choose-creadentials.png" width="70%" alt="Quickly Jenkinsfile path in Git project">
 
-6.  Click **Save** then click **Build Now** to run the Jenkinsfile. While the test is being run, if Docker cannot find the `katalonstudio/katalon` image locally, it will automatically pulls this image.
+6.  Click **Save**, then click **Build Now** to run the Jenkinsfile. While the test is being run, if Docker cannot find the `katalonstudio/katalon` image locally, it will automatically pull this image.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/KS-JENKINS-Build-now.png" width=60% alt="Build your Jenkins project">
 
@@ -97,7 +97,7 @@ Here, since we have our Pipeline project stored in Git, we select **Pipeline Scr
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/KS-JENKINS-console-output.png" width=60% alt="View console output">
 
-    When the test is being run, you can also view the console log in Docker.
+    You can also view the console log in Docker when the test is running.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-docker/docker-log.png" alt="docker log" width=100%>
 
