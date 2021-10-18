@@ -64,14 +64,11 @@ Once you have assigned a license successfully, users can follow this activation 
 >
 > By clicking **Remove**, you immediately terminate the current session that machine ID is working on in Katalon Studio. You should revoke a license with caution.
 
-You can either revoke a license from a User or a machine ID only. When you unassign a license from a User or remove a User from your Organization, all their registered machine IDs are also removed from the Online License list.
-
 Follow these steps:
 
 1. Go to the **Licenses** page.
 
-   * To revoke a license from a User, in the **Licensed Users** section, click on the *Trash bin* icon of the User for which you want to revoke the license.
-   * To revoke a license from a machine ID, in the **Online License** section, click on the *Trash bin* icon of the machine ID for which you want to revoke the license.
+2. In the **Online License** section, click on the *Trash bin* icon of the machine ID for which you want to revoke the license.
 
    The **Remove license** box appears as below.
 
@@ -126,7 +123,8 @@ Follow these steps:
 
 > Notes:
 >
-> After deactivating a machine ID, you have removed the machine ID from Katalon TestOps. This also means that the license in that machine is deactivated in Katalon Studio.
+> * After deactivating a machine ID, you have removed the machine ID from Katalon TestOps. This also means that the license in that machine is deactivated in Katalon Studio.
+> * You can also deactivate machine IDs associated with a Licensed User by following this guide: [Remove Licensed Users](https://docs.katalon.com/katalon-studio/docs/license-management.html#remove-licensed-users).
 
 ### Transfer the KRE license to another machine
 
