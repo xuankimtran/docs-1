@@ -1,5 +1,5 @@
 ---
-title: "Use Katalon TestOps plugin for Jenkins on Window/MacOS"
+title: "Use Katalon TestOps plugin for Jenkins Integration on Window/MacOS"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/katalon-plugin-jenkins-window-macOS.html 
 description: 
