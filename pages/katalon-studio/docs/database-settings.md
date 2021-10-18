@@ -14,7 +14,7 @@ description:
 
 This document gives you information on which database can be used for Data-driven testing and how to set up the database connection in Katalon Studio.
 
-## Introduce Database Connection 
+## Introduce Database Connection
 
 To do data-driven testing with a database, you can define a database connection that can be used for the whole project and override this global configuration in a test data file later. [Learn more](https://docs.katalon.com/katalon-studio/docs/manage-test-data.html#create-a-database-data)
 
@@ -39,7 +39,7 @@ You can set up a connection to one of those three database types with its execut
 	<tbody>
 		<tr>
 			<td>
-				<p>Database</p>
+				<p>Built-in Database</p>
 			</td>
 			<td>
 				<p>Version</p>
@@ -98,7 +98,7 @@ You can set up a connection to one of those three database types with its execut
 				<p data-pm-slice="1 1 [&quot;bulletList&quot;,null,&quot;listItem&quot;,null,&quot;bulletList&quot;,null,&quot;listItem&quot;,null]">SQL Server</p>
 			</td>
 			<td>
-				<p data-pm-slice="1 1 [&quot;bulletList&quot;,null,&quot;listItem&quot;,null,&quot;bulletList&quot;,null,&quot;listItem&quot;,null]">6.2.2</p>
+				<p data-pm-slice="1 1 [&quot;bulletList&quot;,null,&quot;listItem&quot;,null,&quot;bulletList&quot;,null,&quot;listItem&quot;,null]">v6.2.2</p>
 			</td>
 			<td>&nbsp;</td>
 			<td>&nbsp;</td>
@@ -112,7 +112,7 @@ You can set up a connection to one of those three database types with its execut
 	</tbody>
 </table>
 
-In case you want to use a version other than the version those built-in drivers are compatible with, learn more about [excluding built-in libraries](https://docs.katalon.com/katalon-studio/docs/external-libraries.html#exclude-built-in-libraries). 
+In case you want to use a version other than the version those built-in drivers are compatible with, learn more about [excluding built-in libraries](https://docs.katalon.com/katalon-studio/docs/external-libraries.html#exclude-built-in-libraries).
 
 For those who wish to connect to an external database having a JDBC driver, you need to install its executable jar file accordingly then tell Katalon Studio where to use it for connection. 
 
@@ -151,7 +151,7 @@ To start the connection:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/mariadb-jar.png" width=65%>
 
-3. In Project Settings, go to **Database**: 
+3. In Project Settings, go to **Database**:
 
     - Select **Secure User and Password** to enable **User** and **Password**.
     - Input **User** name and **Password** used for authentication and **Connection URL**.

@@ -93,7 +93,7 @@ This document gives you information on the supported technologies and integratio
 				<p><a href="https://github.com/katalon-studio-samples/data-driven-tests">Data-driven testing - DDT</a></p>
 			</td>
 			<td>
-				<p>Database</p>
+				<p>Built-in Database</p>
 			</td>
 			<td>
 				<p>Version</p>
@@ -152,7 +152,7 @@ This document gives you information on the supported technologies and integratio
 				<p data-pm-slice="1 1 [&quot;bulletList&quot;,null,&quot;listItem&quot;,null,&quot;bulletList&quot;,null,&quot;listItem&quot;,null]">SQL Server</p>
 			</td>
 			<td>
-				<p data-pm-slice="1 1 [&quot;bulletList&quot;,null,&quot;listItem&quot;,null,&quot;bulletList&quot;,null,&quot;listItem&quot;,null]">6.2.2</p>
+				<p data-pm-slice="1 1 [&quot;bulletList&quot;,null,&quot;listItem&quot;,null,&quot;bulletList&quot;,null,&quot;listItem&quot;,null]">v6.2.2</p>
 			</td>
 			<td>&nbsp;</td>
 			<td>&nbsp;</td>
@@ -226,11 +226,13 @@ This document gives you information on the supported technologies and integratio
 			<td>7.8.0</td>
 			<td>7.9.0</td>
 			<td>8.0.0</td>
+			<td>8.1.0</td>
 		</tr>
 		<tr>
 			<td>
 				<p>Integration Testing</p>
 			</td>
+			<td>✔</td>
 			<td>✔</td>
 			<td>✔</td>
 			<td>✔</td>
@@ -242,6 +244,7 @@ This document gives you information on the supported technologies and integratio
 			<td>✔</td>
 			<td>✔</td>
 			<td>✔</td>
+			<td>✔</td>
 		</tr>
 		<tr>
 			<td>
@@ -250,11 +253,13 @@ This document gives you information on the supported technologies and integratio
 			<td>✔&nbsp;</td>
 			<td>✔&nbsp;</td>
 			<td>✔&nbsp;</td>
+			<td>✔&nbsp;</td>
 		</tr>
 		<tr>
 			<td>
 				<p><a href="https://github.com/katalon-studio-samples/web-visual-testing-samples">Visual Testing</a></p>
 			</td>
+			<td>✔&nbsp;</td>
 			<td>✔&nbsp;</td>
 			<td>✔&nbsp;</td>
 			<td>✔&nbsp;</td>
@@ -271,40 +276,43 @@ This document gives you information on the supported technologies and integratio
 			<td>7.8.0</td>
 			<td>7.9.0</td>
 			<td>8.0.0</td>
+			<td>8.1.0</td>
 		</tr>
 		<tr>
 			<td>
 				<p>HTML, PDF, CSV</p>
 			</td>
-			<td>
-				<p>✔</p>
-			</td>
 			<td>✔</td>
-			<td>✔&nbsp;</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
 		</tr>
 		<tr>
 			<td>
 				<p>Dynamic email configuration</p>
 			</td>
-			<td>✔&nbsp;</td>
 			<td>✔</td>
-			<td>✔&nbsp;</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
 		</tr>
 		<tr>
 			<td>
 				<p>Release/build-based reports</p>
 			</td>
-			<td>✔&nbsp;</td>
 			<td>✔</td>
-			<td><strong>✔</strong>&nbsp;</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
 		</tr>
 		<tr>
 			<td>
 				<p>Performance, Trending &amp; Insights reports</p>
 			</td>
-			<td><strong>✔</strong>&nbsp;</td>
 			<td>✔</td>
-			<td>✔&nbsp;</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
 		</tr>
 	</tbody>
 </table>
@@ -318,127 +326,120 @@ This document gives you information on the supported technologies and integratio
 			<td>7.8.0</td>
 			<td>7.9.0</td>
 			<td>8.0.0</td>
+			<td>8.1.0</td>
 		</tr>
 		<tr>
 			<td>
 				<p><a href="https://docs.katalon.com/katalon-studio/videos/introducing_kobiton_katalon_studio.html">Kobiton</a></p>
 			</td>
-			<td>
-				<p>✔</p>
-			</td>
-			<td>
-				<p>✔</p>
-			</td>
-			<td>✔&nbsp;</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
 		</tr>
 		<tr>
 			<td>
 				<p><a href="https://docs.katalon.com/katalon-studio/docs/saucelabs-plugin.html">Sauce Labs</a></p>
 			</td>
-			<td>
-				<p>✔</p>
-			</td>
-			<td>✔&nbsp;</td>
-			<td>✔&nbsp;</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
 		</tr>
 		<tr>
 			<td>
 				<p><a href="https://docs.katalon.com/katalon-studio/docs/browserstack-integration.html">Browserstack</a></p>
 			</td>
-			<td>
-				<p>✔</p>
-			</td>
-			<td><strong>✔</strong>&nbsp;</td>
-			<td>✔&nbsp;</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
 		</tr>
 		<tr>
 			<td>
 				<p><a href="https://docs.katalon.com/katalon-studio/docs/lambdatest-integration.html">LambdaTest</a></p>
 			</td>
-			<td>
-				<p>✔</p>
-			</td>
-			<td>✔&nbsp;</td>
-			<td>✔&nbsp;</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
 		</tr>
 		<tr>
 			<td>
 				<p><a href="https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html#remote-server">Custom integration</a></p>
 			</td>
 			<td>✔</td>
-			<td>✔&nbsp;</td>
-			<td>✔&nbsp;</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
 		</tr>
 	</tbody>
 </table>
 
 ### ALM Integration
 
-<table width=70%>
+<table width="70%">
 	<tbody>
 		<tr>
 			<td>&nbsp;</td>
 			<td>7.8.0</td>
 			<td>7.9.0</td>
 			<td>8.0.0</td>
+			<td>8.1.0</td>
 		</tr>
 		<tr>
 			<td>
 				<p><a href="https://docs.katalon.com/katalon-studio/docs/jira-integration.html">Jira</a></p>
 			</td>
-			<td>
-				<p>✔</p>
-			</td>
-			<td>
-				<p>✔</p>
-			</td>
-			<td>✔&nbsp;</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
 		</tr>
 		<tr>
 			<td>
 				<p><a href="https://docs.katalon.com/katalon-studio/docs/qtest-integration.html">qTest</a></p>
 			</td>
-			<td>
-				<p>✔</p>
-			</td>
-			<td>✔&nbsp;</td>
-			<td>✔&nbsp;</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
 		</tr>
 		<tr>
 			<td>
 				<p><a href="https://docs.katalon.com/katalon-studio/docs/testrail-integration.html">TestRail</a></p>
 			</td>
-			<td>
-				<p>✔</p>
-			</td>
-			<td>✔&nbsp;</td>
-			<td>✔&nbsp;</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
 		</tr>
 		<tr>
 			<td>
 				<p><a href="https://docs.katalon.com/katalon-studio/docs/rally-integration.html">Rally</a></p>
 			</td>
-			<td>
-				<p>✔</p>
-			</td>
-			<td>✔&nbsp;</td>
-			<td>✔&nbsp;</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
 		</tr>
 		<tr>
 			<td>
 				<p><a href="https://docs.katalon.com/katalon-studio/docs/testlink-integration.html">TestLink</a></p>
 			</td>
 			<td>✔</td>
-			<td>✔&nbsp;</td>
-			<td>✔&nbsp;</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
 		</tr>
 		<tr>
 			<td>
 				<p><a href="https://docs.katalon.com/katalon-store/docs/publisher/example-plugin-testrail.html">Custom ALM integration</a></p>
 			</td>
-			<td>&nbsp;✔</td>
-			<td>✔&nbsp;</td>
-			<td>✔&nbsp;</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
 		</tr>
 	</tbody>
 </table>
@@ -462,12 +463,18 @@ This document gives you information on the supported technologies and integratio
 			<td>
 				<p>8.0.0</p>
 			</td>
+			<td>
+				<p>8.1.0</p>
+			</td>
 		</tr>
 		<tr>
 			<td>
 				<p><a href="https://plugins.jenkins.io/pam-auth/#documentation">Jenkins</a></p>
 			</td>
 			<td>&nbsp;</td>
+			<td>
+				<p>✔</p>
+			</td>
 			<td>
 				<p>✔</p>
 			</td>
@@ -492,12 +499,18 @@ This document gives you information on the supported technologies and integratio
 			<td>
 				<p>✔</p>
 			</td>
+			<td>
+				<p>✔</p>
+			</td>
 		</tr>
 		<tr>
 			<td>
 				<p><a href="https://docs.katalon.com/katalon-studio/docs/integration-circleci.html#setup-and-configuration">CircleCI</a></p>
 			</td>
 			<td>&nbsp;</td>
+			<td>
+				<p>✔</p>
+			</td>
 			<td>
 				<p>✔</p>
 			</td>
@@ -524,6 +537,9 @@ This document gives you information on the supported technologies and integratio
 			<td>
 				<p>✔</p>
 			</td>
+			<td>
+				<p>✔</p>
+			</td>
 		</tr>
 		<tr>
 			<td>
@@ -539,12 +555,18 @@ This document gives you information on the supported technologies and integratio
 			<td>
 				<p>✔</p>
 			</td>
+			<td>
+				<p>✔</p>
+			</td>
 		</tr>
 		<tr>
 			<td>
 				<p><a href="https://docs.katalon.com/katalon-studio/docs/katalon-studio-github-action.html">Katalon Studio Github Action</a></p>
 			</td>
 			<td>&nbsp;</td>
+			<td>
+				<p>✔</p>
+			</td>
 			<td>
 				<p>✔</p>
 			</td>
@@ -575,30 +597,27 @@ This document gives you information on the supported technologies and integratio
 			<td>
 				<p>8.0.0</p>
 			</td>
+			<td>
+				<p>8.1.0</p>
+			</td>
 		</tr>
 		<tr>
 			<td>
 				<p>Katalon Recorder</p>
 			</td>
-			<td>
-				<p>✔</p>
-			</td>
-			<td>&nbsp;✔</td>
-			<td>&nbsp;✔</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
 		</tr>
 		<tr>
 			<td>
 				<p>Katalon TestOps</p>
 			</td>
-			<td>
-				<p>✔</p>
-			</td>
-			<td>
-				<p>✔</p>
-			</td>
-			<td>
-				<p>✔</p>
-			</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
 		</tr>
 	</tbody>
 </table>
@@ -620,62 +639,45 @@ This document gives you information on the supported technologies and integratio
 			<td>
 				<p>8.0.0</p>
 			</td>
+			<td>
+				<p>8.1.0</p>
+			</td>
 		</tr>
 		<tr>
 			<td>
 				<p><a href="https://docs.katalon.com/katalon-studio/docs/selenium-testng-junit-migration.html">Selenium</a></p>
 			</td>
-			<td>
-				<p>✔</p>
-			</td>
-			<td>
-				<p>✔</p>
-			</td>
-			<td>
-				<p>✔</p>
-			</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
 		</tr>
 		<tr>
 			<td>
 				<p><a href="https://docs.katalon.com/katalon-studio/docs/import-selenium-ide.html">Selenium IDE</a></p>
 			</td>
-			<td>
-				<p>✔</p>
-			</td>
-			<td>
-				<p>✔</p>
-			</td>
-			<td>
-				<p>✔</p>
-			</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
 		</tr>
 		<tr>
 			<td>
 				<p><a href="https://docs.katalon.com/katalon-studio/docs/import-postman.html">Postman</a></p>
 			</td>
-			<td>
-				<p>✔</p>
-			</td>
-			<td>
-				<p>✔</p>
-			</td>
-			<td>
-				<p>✔</p>
-			</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
 		</tr>
 		<tr>
 			<td>
 				<p><a href="https://docs.katalon.com/katalon-studio/docs/import-soapui.html">SoapUI</a></p>
 			</td>
-			<td>
-				<p>✔</p>
-			</td>
-			<td>
-				<p>✔</p>
-			</td>
-			<td>
-				<p>✔</p>
-			</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
 		</tr>
 	</tbody>
 </table>
@@ -686,21 +688,25 @@ This document gives you information on the supported technologies and integratio
 	<tbody>
 		<tr>
 			<td>&nbsp;</td>
-			<td colspan="15">&nbsp;7.8.0</td>
-			<td colspan="15">&nbsp;7.9.0</td>
-			<td colspan="15">&nbsp;8.0.0</td>
+			<td>7.8.0</td>
+			<td>7.9.0</td>
+			<td>8.0.0</td>
+			<td>8.1.0</td>
 		</tr>
 		<tr>
 			<td>
 				<p>Community package (<a href="https://www.katalon.com/pricing/">Comparison</a>)</p>
 			</td>
-			<td colspan="15">
+			<td>
 				<p>✔</p>
 			</td>
-			<td colspan="15">
+			<td>
 				<p>✔</p>
 			</td>
-			<td colspan="15">
+			<td>
+				<p>✔</p>
+			</td>
+			<td>
 				<p>✔</p>
 			</td>
 		</tr>
@@ -708,13 +714,16 @@ This document gives you information on the supported technologies and integratio
 			<td>
 				<p>Enterprise packages</p>
 			</td>
-			<td colspan="15">
+			<td>
 				<p>✔</p>
 			</td>
-			<td colspan="15">
+			<td>
 				<p>✔</p>
 			</td>
-			<td colspan="15">
+			<td>
+				<p>✔</p>
+			</td>
+			<td>
 				<p>✔</p>
 			</td>
 		</tr>
@@ -727,21 +736,26 @@ This document gives you information on the supported technologies and integratio
 	<tbody>
 		<tr>
 			<td>&nbsp;</td>
-			<td colspan="15">&nbsp;7.8.0</td>
-			<td colspan="15">&nbsp;7.9.0</td>
-			<td colspan="15">&nbsp;8.0.0</td>
+			<td>7.8.0</td>
+			<td>7.9.0</td>
+			<td>8.0.0</td>
+			<td>8.1.0</td>
 		</tr>
 		<tr>
 			<td>
 				<p><a href="https://forum.katalon.com/">Katalon forum</a></p>
 			</td>
-			<td colspan="15">
+			<td>
 				<p>✔</p>
 			</td>
-			<td colspan="15">
+			<td>
 				<p>✔</p>
 			</td>
-			<td colspan="15">
+			<td>
+				<p>✔</p>
+			</td>
+			</td>
+			<td>
 				<p>✔</p>
 			</td>
 		</tr>
@@ -749,13 +763,17 @@ This document gives you information on the supported technologies and integratio
 			<td>
 				<p><a href="https://www.katalon.com/pricing/">Exclusive Support Service</a></p>
 			</td>
-			<td colspan="15">
+			<td>
 				<p>✔</p>
 			</td>
-			<td colspan="15">
+			<td>
 				<p>✔</p>
 			</td>
-			<td colspan="15">
+			<td>
+				<p>✔</p>
+			</td>
+			</td>
+			<td>
 				<p>✔</p>
 			</td>
 		</tr>
