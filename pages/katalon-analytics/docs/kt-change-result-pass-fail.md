@@ -6,7 +6,7 @@ description:
 ---
 
 You can edit the status of a test result in Katalon TestOps and provide a reason for such change to notify your team.
-You can also see the whole history of status changes. 
+You can also see the whole history of status changes.
 
 This feature allows you to:
 
@@ -14,7 +14,7 @@ This feature allows you to:
 
 * keep a clear record of why a test result has been changed, who changed it, and the reason for such change.
 
-* find out whether the status of a test result has been manually modified, knowing who modified it and what was its initial status.
+* find out whether the status of a test result has been manually modified and what was its initial status.
 
 ## Change the status of a Test Result
 
@@ -36,6 +36,8 @@ Follow these steps:
 
 4. Click on the *Extension* icon of the Test Result you want to change its status.
 
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration.png" width=100% alt="test result extension icon">
+
 5. Click **Mark as Passed** (for a **failed**/**incomplete**/**error** Test Result) or **Mark as Failed** (for a **passed** Test Result).
 
     > Notes:
@@ -44,14 +46,18 @@ Follow these steps:
 
     A box pops up asking you to choose a reason for the status change.
 
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration.png" width=100% alt="change status popup">
 6. Select an option, then submit the new status for this Test Result.
 
-## View change details of a Test Result
+## View status change details of a Test Result
 
-You can see the detailed information and description of a status change once the status has been modified. 
+You can see the detailed information and description of a status change once the status has been modified.
 
-Select the **Test Results** tab, then click on the **Comments** tab. 
-You can check the following information:
+Select the **Test Results** tab, then click on the **Comments** tab.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration.png"  width=100% alt="status change history">
+
+You then can check the following information:
 
 * the member's name who changed the status of a Test Result.
 * the history of a Test Result's status changes. 
@@ -67,36 +73,10 @@ Follow these steps:
 
 2. Mouse over the *Information* icon, then click **View changes log**.
 
-    You can view the following information:
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration.png"  width=100% alt="status change history">
 
-    * the original status of a Test Result.
-    * the latest status of that Test Result.
-    * further detailed changes of that Test Result.
-    
-On Katalon TestOps, if we are team owners or admins, we can change a failed Test Result of a Test Run to a passed Test Result. 
+Now you can view the following information:
 
-We choose **Reports & Analytics** > **Test Runs**. Then we click to select an ID of the Test Run that we want to execute.
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-change-result-pass-fail/kt_choose_test_run.png)
-
-The Summary of Test Run displays, click and choose **Mark as Passed** at the Test Result, which we want to change from failed status to passed status.
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-change-result-pass-fail/kt_id_mark_pass.png)
-
-On the board **Change status** display, click **Yes** to accept.
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-change-result-pass-fail/kt_change_status.png)
-
-The board **Test Results** displays, and we can see the test result with passed status.
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-change-result-pass-fail/kt_test_results_change.png)
-
-We click test result, which we have changed from failed status to passed status, and the board **Test Result:** displays. We click on the **Comments** tab.
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-change-result-pass-fail/kt_test_result_should_failed.png)
-
-And now, we can see the comments about changing the status.
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-change-result-pass-fail/kt_comment_result_pass_fail.png)
-
-We can change a passed Test Results to failed Test Results with similar steps.
+* the original status of a Test Result.
+* the latest status of that Test Result.
+* further detailed changes of that Test Result.
