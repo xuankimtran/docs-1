@@ -31,8 +31,8 @@ To begin with, you need to equip yourself with a **macOS**. You can not execute 
 3. Install Appium version 1.12.1 or newer. You can install Appium via NPM or by downloading Appium Desktop. Follow the instructions in the Appium document here: [Getting started](http://appium.io/docs/en/about-appium/getting-started/#installing-appium).
 
    > Notes:
-   > * We recommend installing the Appium latest version.
-   > * In case you are installing Appium via NPM, make sure you install Node.js into a location where you have full permission to **Read** and **Write**.
+   > * We recommend installing the latest Appium version.
+   > * In case you are installing Appium via NPM, make sure you install Node.js into a location where you have full Read/Write permissions.
    > * If you are using emulators other than Xcode simulators, some emulators come with Appium installed. If you want to run an application on an emulator, check your emulator settings before installing Appium.
 ## Part 2: Install extra dependencies to test real iOS device
 
@@ -77,7 +77,7 @@ To begin with, you need to equip yourself with a **macOS**. You can not execute 
    
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/KS-IOS-lists-of-xcode-simulators.png" width="30%" alt="Katalon recognizes Xcode simulators">
    
-   You should see a list of pre-installed Xcode simulators appeared as iOS devices. You can now move on to [Part 4: Install the WebDriverAgent](https://docs.katalon.com//katalon-studio/docs/mobile-on-macos.html/#part-4-install-the-webdriveragent).
+   You should see a list of pre-installed Xcode simulators appearing as iOS devices. You can now move on to [Part 4: Install the WebDriverAgent](https://docs.katalon.com//katalon-studio/docs/mobile-on-macos.html/#part-4-install-the-webdriveragent).
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/KS-iOS-Katalon-regconizes-simulators.png" width="50%" alt="Katalon recognizes Xcode simulators">
 
