@@ -1237,7 +1237,7 @@ items:
             url: /katalon-studio/docs/common-configuration.html
           - title: "Jenkins Integration"
             tree:
-              - title: "Overview"
+              - title: "Jenkins Integration Overview"
               - url: /katalon-studio/docs/jenkins-integration-overview.html
               - title: "Use Katalon TestOps plugins for Jenkins Integration"
                 tree:
