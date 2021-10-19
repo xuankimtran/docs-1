@@ -7,7 +7,7 @@ description:
 
 A valid business email registration is eligible for a 30-day trial of **TestOps Business** and/or a 45-day trial of **TestOps Enterprise**.
 
-When your trial period expires, you need to purchase a monthly or annual subscription. Otherwise, your plan is reverted to **TestOps Free**.
+When your trial period expires, you need to purchase a monthly or annual subscription. Otherwise, your plan is reverted to **TestOps** (free plan).
 
 > Notes:
 >
@@ -35,8 +35,8 @@ Follow these steps:
 > Notes:
 >
 > * You cannot request a **TestOps Business** trial if you have already submitted a **TestOps Enterprise** trial request.
->
-> * If you want to try both **TestOps Business** and **TestOps Enterprise**, we suggest you submit a **TestOps Business** trial request first. After using this trial plan, you can submit a **TestOps Enterprise** trial request.
+> * If you have previously subscribed to **TestOps Business**, you cannot request a **TestOps Business** trial.
+> * If have previously subscribed to **TestOps Enterprise**, you cannot request a **TestOps Business** and/or **TestOps Enterprise** trial.
 
 ## For new users
 
