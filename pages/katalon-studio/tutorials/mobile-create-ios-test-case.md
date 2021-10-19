@@ -18,7 +18,7 @@ In this example, we record the following actions to test the **Coffee Timer** ap
 4. Tap on **Stop**.
 
 > You can download the sample project as a .zip file here: [iOS Mobile Tests](https://github.com/katalon-studio-samples/ios-mobile-tests).
-### Create a new project
+## Create a new project
 
 1. To create a new project, go to **File > New > New Project**.
 
@@ -77,7 +77,7 @@ In this example, we record the following actions to test the **Coffee Timer** ap
 
 3. After filling in the project details, click **OK**. A new mobile project opens.
 
-### Record a new Test Case
+## Record a new Test Case
 
 1. On the main toolbar, click **Record Mobile** <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/KS-iOS-record-mobile-icon.png" width=4% alt="Record Mobile icon"> and select your device type. For our example, we choose the **iOS Devices** option.
 
@@ -204,7 +204,7 @@ In this example, we record the following actions to test the **Coffee Timer** ap
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/save-script.png" width=50%>
 
-### Run the recorded test case
+## Run the recorded test case
 
 To run the recorded steps, follow these steps:
 
@@ -251,7 +251,7 @@ To run the recorded steps, follow these steps:
    Mobile.closeApplication()
    ```
    </details>
-### See also:
+## See also:
 
    * [Execute and Debug a Test Case](https://docs.katalon.com/katalon-studio/docs/execute-a-test-case-or-a-test-suite.html#debug-a-test-case)
    * [Troubleshoot automated mobile testing](https://docs.katalon.com/katalon-studio/docs/troubleshooting-automated-mobile-testing.html).
