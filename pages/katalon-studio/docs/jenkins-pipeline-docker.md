@@ -49,7 +49,7 @@ For macOS/Linux, when running builds with Docker from a Jenkinsfile with Pipelin
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/git.png" width="70%" alt="Choose Pipeline Script from SCM">
 
-3. In the **SCM** field, select **Git**. Enter your repository URL, select branches to build, repository browser, and additional behaviors, if any. You can clone the following sample project here: [CI samples](https://github.com/katalon-studio-samples/ci-samples).
+3. In the **SCM** field, select **Git**. Enter your repository URL, select branches to build, repository browser, and additional behaviors, if any. You can clone and download the following sample project here: [CI samples](https://github.com/katalon-studio-samples/ci-samples).
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/KS-JENKINS-Add-Git-url-in-pipline-from-SCM.png" width="70%" alt="Enter Git repository url">
 
@@ -63,22 +63,37 @@ For macOS/Linux, when running builds with Docker from a Jenkinsfile with Pipelin
    > 
    > <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/KS-JENKINS-Quickly-go-to-Jenkins-file-in-Git.png" width="70%" alt="Quickly Jenkinsfile path in Git project">
 
-    You can see our sample Jenkinsfile for MacOS/Linux here: [Jenkinsfile](https://github.com/katalon-studio-samples/ci-samples/blob/master/Jenkinsfile). In case you are using Window, replace the `sh` command in this sample Jenkinsfile with the `bat` command: 
+    You can see our sample Jenkinsfile for MacOS/Linux here: [Jenkinsfile](https://github.com/katalon-studio-samples/ci-samples/blob/master/Jenkinsfile). In case you are using Windows, replace the `sh` command in this sample Jenkinsfile with the `bat` command: 
 
     ``` groovy
     steps {
-    bat '''
-    '''
+    bat ''
     }
     ```
+   For example:
+   ``` groovy
+   pipeline {
+    agent any
+    stages {
+        stage('Test') {
+            steps {
+                dir('/Users/yen.nguyen/Downloads/ci-samples-master'){
+                bat 'docker run -t --rm -v "$(pwd)":/tmp/project katalonstudio/katalon katalonc.sh -projectPath=/tmp/project -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/TS_RegressionTest" -apiKey=<your-api-key>'
+                }
+                }
+        }
+    }
+   ```
+
 
     > Notes: 
     > 
     > Make sure to add your API key to verify your credentials. The command-line options of API Key, including `-apiKey=<Your_API_Key>` and `-apikey=<Your_API_Key>` are both accepted. To learn more about API keys, you can refer to this document: [API key](https://docs.katalon.com/katalon-analytics/docs/ka-api-key.html#katalon-api-keys-usage).
 
+
 5.  Click **Save**, then click **Build Now** to run the Jenkinsfile. While the test is being run, if Docker cannot find the `katalonstudio/katalon` image locally, it will automatically pull this image.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/KS-JENKINS-Build-now.png" width=60% alt="Build your Jenkins project">
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/KS-JENKINS-Build-now.png" width=60% alt="Build your Jenkins project">
 
 6.  To view the console log, click on your current build on Jenkins and select **Console Output**.
 
