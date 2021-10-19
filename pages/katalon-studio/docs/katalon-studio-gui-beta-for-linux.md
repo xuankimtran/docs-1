@@ -16,11 +16,13 @@ description:
 
 Katalon Studio for Linux (Ubuntu tested) supports both IDE and console mode versions. This guide covers setting-up steps for running Katalon Studio GUI on Linux.
 
-> Download Katalon Studio for Linux [here](https://www.katalon.com/download/).
+## Installation
 
-## Install and Activate Katalon Studio on Linux
+### Environment Requirements
 
-1. Install OpenJDK 8 on your Ubuntu (NOT Oracle JDK).
+1. Verify whether your computer meets the [System Requirements](http://docs.katalon.com/display/KD/System+Requirements) to work with Katalon Studio.
+
+2. Install OpenJDK 8 on your Ubuntu (NOT Oracle JDK).
 
   > Katalon Studio for Linux currently supports OpenJDK 8 only.
 
@@ -32,11 +34,23 @@ sudo update-alternatives --config java //then choose the openjdk-8-jre option
 java -version
   ```
 
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-gui-beta-for-linux/linux-config.png" alt="configure" width=100%>
+
   You can find more information about the installation steps at OpenJDK document: [How to download and install prebuilt OpenJDK packages](http://openjdk.java.net/install/). Once you finish the installation, your `OpenJDK` information is displayed when you execute `java -version` command.
 
   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-gui-beta-for-linux/Screen-Shot-2018-02-07-at-11.50.50.png" alt="linux" width=100%>
 
-2. Open Katalon Studio. After launching the app, you can sign in to your Katalon account to activate your license. To learn how to activate your license, see [Activate Katalon License](https://docs.katalon.com/katalon-studio/docs/activate-license.html).
+### Download Katalon Studio
+
+* Download [Katalon Studio for Linux](https://www.katalon.com/download/).
+
+* Do a quick check on [System Requirements](/display/KD/System+Requirements) before using Katalon Studio.
+
+### Start Katalon Studio
+
+Open Katalon Studio. After launching the app, you can sign in to your Katalon account to activate your license. To learn how to activate your license, see [Activate Katalon License](https://docs.katalon.com/katalon-studio/docs/activate-license.html).
+
+  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-gui-beta-for-linux/activation-linux.png" alt="activate on linux" width=100%>
 
 ## Configure Katalon Studio on Linux
 

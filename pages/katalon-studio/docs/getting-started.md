@@ -67,6 +67,10 @@ Verify whether your computer meets the [System Requirements](http://docs.katalon
 
    ![Katalon Studio Loading](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/install_setup_katalon_studio/image2016-10-20-143A113A21.png)
 
+**Linux**
+
+Follow this guide to start Katalon Studio on Linux: [Katalon Studio for Linux (GUI)](https://docs.katalon.com/katalon-studio/docs/katalon-studio-gui-beta-for-linux.html).
+
 ## Activate Katalon Studio
 
 - If you do not have a Katalon Studio account, provide a username and password to sign up after launching the app. 
