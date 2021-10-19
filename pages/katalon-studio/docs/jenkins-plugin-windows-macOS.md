@@ -46,7 +46,7 @@ After installing the **Katalon TestOps** plugin, you can now start the Katalon S
    
 2. Specify the Katalon Studio version you wish to execute with:
 
-   - If you haven't downloaded Katalon Runtime Engine (KRE), you can input the KRE version you wish to execute with in the **Download Katalon Studio version** box. KRE will be downloaded and deployed automatically. You can retrieve the list of all releases on the Github repository: [Releases](https://github.com/katalon-studio/katalon-studio/releases).
+   - If you haven't downloaded Katalon Runtime Engine (KRE), you can input the KRE version you wish to execute with in the **Download Katalon Studio version** box. KRE will be downloaded and deployed automatically. You can retrieve the list of all releases on our Github repository: [Releases](https://github.com/katalon-studio/katalon-studio/releases).
    - If you want to use a pre-installed version, manually input the KRE version you have installed in the **Use pre-installed Katalon Studio** box with the following command line: ```<KRE stored folder>-<KRE pre-installed version>```. For example: ```/Users/yen.nguyen/Downloads/Katalon_Studio_Engine_MacOS-8.1.0```.
    
 3. Input your command in the **Command arguments** box, for example:
