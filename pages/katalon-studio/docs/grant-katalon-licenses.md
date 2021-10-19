@@ -69,7 +69,7 @@ Your users can now activate their KSE and KRE licenses. You can refer them to th
 
 Granting a license this way allows you to transfer a license freely among registered users of an Organization as long as the number of licensed users does not exceed the license quota.
 
-You can revoke these licenses at any time by following this guide: [Revoke and transfer a license](https://docs.katalon.com/katalon-studio/docs/license-management.html#revoke-and-transfer-a-license).
+You can remove these licenses and reattribute them any time by following this guide: [Transfer a license](https://docs.katalon.com/katalon-studio/docs/license-management.html#transfer-a-license).
 
 If the users you wish to grant a license to are not connected to the internet, you can instead generate an offline license.
 

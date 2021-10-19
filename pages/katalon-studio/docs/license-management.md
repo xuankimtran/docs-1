@@ -6,7 +6,7 @@ redirect_from:
     - "/katalon-studio/docs/transfer-license.html"
 description:
 ---
-After purchasing Katalon Studio Enterprise and/or Katalon Runtime Engine licenses, you can attribute, transfer, and revoke licenses from [Katalon TestOps](https://testops.katalon.io/login).
+After purchasing Katalon Studio Enterprise and/or Katalon Runtime Engine licenses, you can attribute, transfer, and removegrant licenses from [Katalon TestOps](https://testops.katalon.io/login).
 
 > Requirements:
 >

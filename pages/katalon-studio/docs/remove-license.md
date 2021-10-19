@@ -10,7 +10,7 @@ description:
 >
 > You must be the Owner or Admin of your Organization to access the **Licenses** page. For further details on roles and user management, see: [TestOps User Management](https://docs.katalon.com/katalon-analytics/docs/kt_invite_user_org.html).
 
-In the **Liceses** page, you can remove a Licensed User, a machine ID, or a license from a machine ID. To access the **Licenses** page, do as follows:
+On the **Licenses** page, you can remove a Licensed User, a machine ID, or a license from a machine ID. To access the **Licenses** page, do as follows:
 
 1. Sign in to [Katalon TestOps](https://testops.katalon.io/login).
 
@@ -27,9 +27,9 @@ In the **Liceses** page, you can remove a Licensed User, a machine ID, or a lice
 > Notice:
 >
 > * By clicking **Remove**, you immediately terminate the current session that User is working on with their online licenses in Katalon Studio. You should remove a Licensed User with caution.
-> * Remove a Licensed Users does not revoke their assigned offline licenses.
+> * Removing a Licensed User working with an offline license does not revoke the license.
 
-When you remove a Licensed User, their associated machine IDs are also removed from the Registered Machine list. This action removes assigned licenses from that User and makes those licenses available to be attributed again. That User can still use the free Katalon product.
+When you remove a Licensed User, their associated machine IDs are also removed from the Registered Machine list. This action removes assigned licenses from that User. If that User had any node-locked licenses, those licenses are available to be attributed again. That User can still use the free Katalon product.
 
 Follow these steps:
 
@@ -45,7 +45,7 @@ Follow these steps:
 
 ## Remove a license
 
-This action removes the license associated with that machine ID and makes that license available to be attributed again. That User can still use the free Katalon product.
+This action removes the license associated with that machine ID. If that User had any node-locked licenses, those licenses are available to be attributed again. That User can still use the free Katalon product.
 
 > Notice:
 >
@@ -71,7 +71,7 @@ Follow these steps:
 
 ## Remove a registered machine ID
 
-This action removes the license associated with that machine ID and makes that license available to be attributed again. That User can still use the free Katalon product.
+This action removes the license associated with that machine ID. If that User had any node-locked licenses, those licenses are available to be attributed again. The User associated with that machine ID can still use the free Katalon product.
 
 Follow these steps:
 
