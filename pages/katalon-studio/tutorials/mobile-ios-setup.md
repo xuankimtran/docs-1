@@ -10,7 +10,7 @@ description:
    
 This article shows you how to set up Xcode simulators and real iOS devices to test iOS applications with Katalon Studio.
 
-To begin with, you need to equip yourself with a **macOS**. You can not execute iOS mobile testing in a **Window**.
+To begin with, you need to setup a macOS environment. You can not execute iOS mobile testing in Windows.
 ## Part 1: Setting up the environment for iOS testing
 
 1. Install Xcode version 10.2 or newer. You can download Xcode from the App Store or the Apple Developer website: [Xcode 13](https://developer.apple.com/xcode/).
