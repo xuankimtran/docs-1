@@ -56,33 +56,11 @@ You can assign licenses to users. See [Grant Katalon Licenses](https://docs.kata
 
 Once you have assigned a license successfully, users can follow this activation guide: [Activate Katalon License](https://docs.katalon.com/katalon-studio/docs/activate-license.html).
 
-## Revoke and transfer a license
+## Remove a license
 
-### Revoke a license
+You can remove a Licensed User, a machine ID, or a license from a machine ID. See [Remove a License](https://docs.katalon.com/katalon-studio/docs/remove-license.html).
 
-> Notice:
->
-> By clicking **Remove**, you immediately terminate the current session that machine ID is working on in Katalon Studio. You should revoke a license with caution.
-
-Follow these steps:
-
-1. Go to the **Licenses** page.
-
-2. In the **Online Licenses** section, click on the *Trash bin* icon of the machine ID for which you want to revoke the license.
-
-   The **Remove license** box appears as below.
-
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/remove-license-box-blurred.png" width=100% alt="remove license popup">
-
-3. Click **Remove** to confirm your action.
-
-> Notes:
->
-> * You cannot remove an offline license from a machine until the license is expired.
->
-> * You can revoke Katalon Studio Enterprise's (KSE) **Online Licenses** only. For Katalon Runtime Engine (KRE), see: [Manage Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license-management.html#transfer-a-license).
-
-### Transfer a license
+## Transfer a license
 
 > Notes:
 >
@@ -98,33 +76,12 @@ After activation, the KSE/KRE node-locked licenses are bound to the machine IDs 
 
 To transfer a KSE license, you need to:
 
-1. Revoke a license. See: [Revoke a license](https://docs.katalon.com/katalon-studio/docs/license-management.html#revoke-a-license).
+1. Remove a license. See [Remove a License](https://docs.katalon.com/katalon-studio/docs/remove-license.html).
 2. Add the new user in the **Online Licenses** section. See: [Grant Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/use-online-license.html).
 
 For KRE, one session will reserve one license. You must deactivate the machine ID that reserved that license first. Another user can then use KRE and take over the license.
 
 For example, if the KRE license is bound to your machine ID because you have run KSE using KRE. You must deactivate your machine ID so that the other member in your organization can use the KRE node-locked license.
-
-### Deactivate a machine ID
-
-Follow these steps:
-
-1. Go to the **Licenses** page.
-
-2. Scroll down to the **Registered Machines** section.
-
-3. Click on the *Trash bin* icon of the machine ID you want to deactivate.
-
-   The **Deactivate Machine** box appears as below.
-
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/deactive-machine-box-blurred.png" width=100% alt="deactivate machine popup">
-   
-4. Click **Remove** to confirm your action.
-
-> Notes:
->
-> * After deactivating a machine ID, you have removed the machine ID from Katalon TestOps. This also means that the license in that machine is deactivated in Katalon Studio.
-> * You can also deactivate machine IDs associated with a Licensed User by following this guide: [Remove Licensed Users](https://docs.katalon.com/katalon-studio/docs/license-management.html#remove-licensed-users).
 
 ### Transfer the KRE license to another machine
 

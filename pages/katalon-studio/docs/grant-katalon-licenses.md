@@ -1,8 +1,9 @@
 ---
 title: "Grant Katalon Licenses"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/use-online-license.html
+permalink: katalon-studio/docs/grant-katalon-licenses.html
 redirect_from:
+  - "/katalon-studio/docs/use-online-license.html"
   - "/katalon-studio/docs/online-offline-licenses.html"
   - "/katalon-studio/docs/re-offline-licenses.html"
   - "/katalon-studio/docs/how-to-create-kse-offline-license.html"
@@ -130,27 +131,8 @@ Follow these steps:
 
 8. Send your users this activation guide: [Activate Katalon License](https://docs.katalon.com/katalon-studio/docs/activate-license.html).
 
-### Remove Licensed Users
-
-> Notice:
->
-> * By clicking **Remove**, you immediately terminate the current session that User is working on with their online licenses in Katalon Studio. You should remove a Licensed User with caution.
-> * Remove a Licensed Users does not revoke their granted offline licenses.
-
-When you remove a Licensed User, their associated machine IDs are also removed from the Registered Machine list.
-
-Follow these steps:
-
-1. Go to the **Licenses** page.
-
-2. In the **Licensed User** section, click on the *Trash bin* icon of the User for which you want to unassign the license.
-
-   The **Remove** box appears as below.
-
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/remove-user.png" width=100% alt="remove user popup">
-
-3. Click **Remove** to confirm your action.
-
 See also:
+
+* [Remove a License](https://docs.katalon.com/katalon-studio/docs/remove-license.html).
 * [Manage Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license-management.html).
 * [License Utilization Dashboard](https://docs.katalon.com/katalon-studio/docs/license-utilization-dashboard.html#license-usage-visualization).

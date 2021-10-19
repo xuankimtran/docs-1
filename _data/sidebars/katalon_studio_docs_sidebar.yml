@@ -42,7 +42,9 @@ items:
               - title: "Manage Katalon Licenses"
                 url: /katalon-studio/docs/license-management.html
               - title: "Grant Katalon Licenses"
-                url: /katalon-studio/docs/use-online-license.html
+                url: /katalon-studio/docs/grant-katalon-licenses.html
+              - title: "Remove a License"
+                url: /katalon-studio/docs/remove-license.html  
               - title: "Configure Idle Timeout"
                 url: /katalon-studio/docs/license-idle-timeout.html
           - title: "Monitor Licenses"
