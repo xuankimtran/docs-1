@@ -20,11 +20,23 @@ Katalon Studio for Linux (Ubuntu tested) supports both IDE and console mode vers
 
 ## Install and Activate Katalon Studio on Linux
 
-1. Install OpenJDK 8 on your Ubuntu (NOT Oracle JDK). You can find the installation steps at OpenJDK document: [How to download and install prebuilt OpenJDK packages](http://openjdk.java.net/install/). Once you finish the installation, your `OpenJDK` information is displayed when you execute `java -version` command.
+1. Install OpenJDK 8 on your Ubuntu (NOT Oracle JDK).
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-gui-beta-for-linux/Screen-Shot-2018-02-07-at-11.50.50.png" alt="linux" width=100%>
+  > Katalon Studio for Linux currently supports OpenJDK 8 only.
 
-2. After launching the app, you can sign in to your Katalon account to activate your license. To learn how to activate your license, see [Activate Katalon License](https://docs.katalon.com/katalon-studio/docs/activate-license.html).
+  To install OpenJDK 8, on the command line, type:
+
+``` groovy
+sudo apt-get install openjdk-8-jre
+sudo update-alternatives --config java //then choose the openjdk-8-jre option
+java -version
+  ```
+
+  You can find more information about the installation steps at OpenJDK document: [How to download and install prebuilt OpenJDK packages](http://openjdk.java.net/install/). Once you finish the installation, your `OpenJDK` information is displayed when you execute `java -version` command.
+
+  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-gui-beta-for-linux/Screen-Shot-2018-02-07-at-11.50.50.png" alt="linux" width=100%>
+
+2. Open Katalon Studio. After launching the app, you can sign in to your Katalon account to activate your license. To learn how to activate your license, see [Activate Katalon License](https://docs.katalon.com/katalon-studio/docs/activate-license.html).
 
 ## Configure Katalon Studio on Linux
 
@@ -61,10 +73,4 @@ apt-get install libwebkitgtk-3.0-0
 You might encounter the `NoClassDefFoundError` error since Oracle JDK is being used. To resolve this error, do as follows:
 
 1. Uninstall Oracle JDK.
-2. Install [Open JDK8](http://openjdk.java.net/install/):
-
-  ``` groovy
-  sudo apt-get install openjdk-8-jre
-  sudo update-alternatives --config java //then choose the openjdk-8-jre option
-  java -version
-  ```
+2. Install [OpenJDK 8](http://openjdk.java.net/install/).
