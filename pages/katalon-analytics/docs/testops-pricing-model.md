@@ -5,15 +5,15 @@ permalink: katalon-analytics/docs/testops-packages.html
 redirect_from: /katalon-analytics/docs/testops_subscriptions_overview.html 
 ---
 
-## Overview 
+## Overview
 
 Katalon Testops is currently offering three plans:
 
-* TestOps Free.
-* TestOps Business.
-* TestOps Enterprise.
+* TestOps (free plan).
+* TestOps Business (business plan).
+* TestOps Enterprise (enterprise plan).
 
-### TestOps Free
+### TestOps
 
 The free plan is ideal for individuals or small teams to get started with test orchestration. It includes the functions you need to coordinate various activities, cycles, and frameworks in software testing.
 
@@ -49,7 +49,7 @@ A **45-day trial** for TestOps Enterprise is available. See: [Trial Plans](https
 <tr>
 <td>&nbsp;</td>
 <td style="text-align: center;">
-<p><strong>TestOps Community</strong></p>
+<p><strong>TestOps</strong></p>
 </td>
 <td style="text-align: center;">
 <p><strong>TestOps Business</strong></p>
