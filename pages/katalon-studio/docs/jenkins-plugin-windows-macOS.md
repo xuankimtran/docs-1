@@ -73,7 +73,7 @@ After installing the **Katalon TestOps** plugin, you can now start the Katalon S
 5. To view the console log, click on your current build on Jenkins and select **Console Output**.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/KS-JENKINS-console-output.png" width=60% alt="View console output">
-### Troubleshoot empty videos recorded after running tests on Window
+### Troubleshoot empty videos recorded after running tests on Windows
 
 If you encounter an issue of having empty videos recorded after running your tests in Jenkins on Window, it is because the WebDriver hasn't launched during test execution. To fix this issue, please uninstall Jenkins of Windows services, and replace it by a DOS batch file containing the following codes:
 
@@ -81,10 +81,7 @@ If you encounter an issue of having empty videos recorded after running your tes
 cd D:\Tools\Jenkins //path to Jenkins folder
 java -jar --webroot=jenkins.war
 ```
-
-_Credit to Sébastien Taniere and his [original topic](https://forum.katalon.com/t/video-is-empty-when-scenario-is-launched-by-katalon-runtime-trough-jenkins-windows-instance/43974)._
-
-
+*Code sample courtesy of Sébastien Taniere*
 ## See also
 
 * [Execute Katalon Studio tests with Jenkins Pipeline Script (Jenkinsfile)](https://docs.katalon.com/katalon-studio/docs/execute-katalon-tests-with-jenkins-pipeline-script.html ).

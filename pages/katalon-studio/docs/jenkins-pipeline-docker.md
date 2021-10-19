@@ -21,7 +21,7 @@ This tutorial shows you how to integrate Jenkins Pipeline (Jenkinsfile) with Kat
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-docker/plugins.png" alt="plugins" width=70%>
 ### Add an environment path
 
-> For Window users, this step is not required , you can now skip to [Upload your project](https://docs.katalon.com/katalon-studio/docs/jenkins-plugin-windows.html/#upload-your-project).
+> For Windows users, this step is not required , you can now skip to [Upload your project](https://docs.katalon.com/katalon-studio/docs/jenkins-plugin-windows.html/#upload-your-project).
 
 For macOS/Linux, when running builds with Docker from a Jenkinsfile with Pipeline syntax, you need to add an environment path to Jenkins. This `PATH` helps Jenkins point to the correct Docker installation path. Do as follows:
 
