@@ -133,7 +133,6 @@ You have removed the users.
 >
 > * The users cannot log in to your organization after being removed.
 > * You still keep the data the users have performed in your organization and you can invite them back to your organization anytime.
-> * When you remove a user from your Organization, their associated machine IDs are also removed from the Registered Machine list.
 
 ### Change Users' roles
 
