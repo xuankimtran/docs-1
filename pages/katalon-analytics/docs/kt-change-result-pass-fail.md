@@ -20,7 +20,7 @@ This feature allows you to:
 
 > Notice:
 >
-> Changing the status of a Test Result affects the status of a Test Run and its Test Suite. You should override Test Results status with caution.
+> Changing the status of a Test Result affects the status of a Test Run and its Test Suite. You should override Test Results statuses with caution.
 
 Follow these steps:
 
@@ -32,11 +32,11 @@ Follow these steps:
     
 3. Click on a Test Run ID, then select the **Test Results** tab.
 
-    You can see all test results and their details (Status, ID, Name, Time, Assertions, Links) here.
+    You can see the list of all test results and their details (Status, ID, Name, Time, Assertions, Links) here.
 
 4. Click on the *Extension* icon of the Test Result you want to change.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration.png" width=100% alt="test result extension icon">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-override-test-result/extention-icon-highlight.png" width=100% alt="test result extension icon">
 
 5. Click **Mark as Passed** (for a **failed**/**incomplete**/**error** Test Result) or **Mark as Failed** (for a **passed** Test Result).
 
@@ -46,7 +46,7 @@ Follow these steps:
 
     A box pops up asking you to choose a reason for the status change.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration.png" width=100% alt="change status popup">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-override-test-result/change-test-result-status-popup.png" width=100% alt="change status popup">
     
 6. Select an option, then submit the new status for this Test Result.
 
@@ -54,9 +54,9 @@ Follow these steps:
 
 You can see the detailed information and description of a status change once the status has been modified.
 
-Select the **Test Results** tab, then click on the **Comments** tab.
+Select the **Test Results** tab, click on a Test Result ID, then select the **Comments** tab.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration.png"  width=100% alt="status change history">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-override-test-result/Description.png" width=100% alt="test result comments tab">
 
 You then can check the following information:
 
@@ -70,11 +70,11 @@ No matter how many times a test result has been modified, you can check a full r
 
 Follow these steps:
 
-1. Select the **Test Results** tab, then click on the **Summary** tab. 
+1. Select the **Test Results** tab.
 
-2. Mouse over the *Information* icon, then click **View changes log**.
+2. Mouse over the *Information* icon next to the Test Result status, then click **View changes log**.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration.png"  width=100% alt="status change history">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-override-test-result/View%20key%20information.png"  width=100% alt="view changes log">
 
 Now you can view the following information:
 
