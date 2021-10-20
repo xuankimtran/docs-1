@@ -91,17 +91,17 @@ This guide shows you how to use Spy Web Utility to capture and manually define t
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-web-utility/KS-Web-Spy-highlighted-element.png" width=70% alt="Web Spy highlights element"> 
       
     
-4.  Press the combination of **\<Alt + \`\>** keys on the keyboard to capture the object. For macOS users, right-click on the element and select **Capture Object**. 
+4. Press the combination of **\<Alt + \`\>** keys on the keyboard to capture the object. For macOS users, right-click on the element and select **Capture Object**. 
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-web-utility/KS-Web-Spy-Capture-Object.png" width=70% alt="Capture element"> 
       
     
-5.  Captured objects appear in the **Object Spy** dialog.
+5. Captured objects appear in the **Object Spy** dialog.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-web-utility/KS-Object-Spy-captured-object.png" width=70% alt="Captured object">  
 
     
-6.  Select the object in the **Captured Objects** tree; the utility displays its details in the **Object Properties** section.
+6. Select the object in the **Captured Objects** tree; the utility displays its details in the **Object Properties** section.
 
       <table>
   <thead>
@@ -173,34 +173,29 @@ This guide shows you how to use Spy Web Utility to capture and manually define t
 
 2. **Add a Frame element**: If the new object is a nested object, a frame is needed to locate the element. Frames are web elements that usually contain many other web objects.
     
-    
-3.  **Add an Object element**: Click on the **New object** button from the toolbar to manually add a web object. Click **Delete** to remove any unwanted element.
-    
-4.  In **Object Properties** section, provide **Object Name** for the recently added object, choose **Selection Method** options and specify **properties** for the new web object.
+3. **Add an Object element**: Click on the **New object** button from the toolbar to manually add a web object. Click **Delete** to remove any unwanted element.
+
+4. In **Object Properties** section, provide **Object Name** for the recently added object, choose **Selection Method** options and specify **properties** for the new web object.
 
       Here we define a button element using the **Attributes** selection method. The chosen properties are **tag** and **id**.
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-web-utility/KS-Object-Spy-New-Object.png" width=70% alt="Add Element to object repository">  
     
-5.  Click **Verify and Highlight** to ensure Katalon Studio can locate the object.
+5. Click **Verify and Highlight** to ensure Katalon Studio can locate the object.
 
     If there is a web object with matched **Selector Editor** value, it is highlighted **red** in the opened browser, and the message **" Found X element using XPath Selector"** is displayed.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-web-utility/KS-Object-Spy-verify-object.png" width=70% alt="Verify object"> 
     
-6.  Once finished, click **Save** to add the object to **Object Repository** as normal.
-    
+6. Once finished, click **Save** to add the object to **Object Repository** as normal.
 
 ## Get web object XPath or CSS locator
 
-1.  In the open spying browser, right-click on the target web element and select **Inspect**.
-
+1. In the open spying browser, right-click on the target web element and select **Inspect**.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-web-utility/KS-Web-element-right-click.png" width=70% alt="Right-click on web element"> 
 
-
-2.  In the inspector window, the selected element is highlighted, indicating the target element's location in the HTML DOM. Right-click on the highlighted line and select **Copy > Copy XPath** or **Copy Selector**.
-
+2. In the inspector window, the selected element is highlighted, indicating the target element's location in the HTML DOM. Right-click on the highlighted line and select **Copy > Copy XPath** or **Copy Selector**.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-web-utility/KS-Web-element-copy-XPath.png" width=70% alt="Copy XPath">   
       
