@@ -14,25 +14,34 @@ redirect_from:
 description: 
 ---
 
-Katalon Studio for Linux (Ubuntu tested) supports both IDE and console mode versions. This guide covers setting-up steps for running Katalon Studio GUI on Linux.
+Beside macOS and Windows, Linux is trusted by many users because of its high security environment. You can still enjoy Katalon Studio with a GUI on your Linux. Katalon Studio for Linux (Ubuntu tested) supports both IDE and console mode versions.
+
+If you have not used Linux before and need to test your build in Linux environment, here are some suggestion:
+
+* Linux distributions:
+* Linux installation: You can install Linux with a USB stick or a drive, see Ubuntu documentation:
+* Use Linux on virtual machine: For Windows, you can try Hyper-V by Microsoft. For macOS, you can try VirtualBox.
+* Another way to test your build in Linux environment without installing Linux is Docker. See Docker.
+
+This guide covers setting-up steps for running Katalon Studio GUI on Linux.
 
 ## Installation
 
 ### Environment Requirements
 
-1. Verify whether your computer meets the [System Requirements](http://docs.katalon.com/display/KD/System+Requirements) to work with Katalon Studio.
+1. Verify whether your computer meets the [System Requirements](http://docs.katalon.com/display/KD/System+Requirements) to work with Katalon Studio. This step is important if you run your Linux by creating a Virtual Machine or a USB stick. You need to make sure that there are minimum 2 GB RAM (32-bit) or 4 GB RAM (64-bit) for the app to run normally.
 
 2. Install OpenJDK 8 on your Ubuntu (NOT Oracle JDK).
 
   > Katalon Studio for Linux currently supports OpenJDK 8 only.
 
-  To install OpenJDK 8, on the command line, type:
+  To install OpenJDK 8, open your Terminal. On the command line, type:
 
 ``` groovy
 sudo apt-get install openjdk-8-jre
 sudo update-alternatives --config java //then choose the openjdk-8-jre option
 java -version
-  ```
+```
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-gui-beta-for-linux/linux-config.png" alt="configure" width=100%>
 
@@ -42,15 +51,20 @@ java -version
 
 ### Download Katalon Studio
 
-* Download [Katalon Studio for Linux](https://www.katalon.com/download/).
+* Download [Katalon Studio for Linux](https://www.katalon.com/download/). Choose Linux version of Katalon Studio, a tar.gz file is downloading to your machine.
 
 * Do a quick check on [System Requirements](/display/KD/System+Requirements) before using Katalon Studio.
 
 ### Start Katalon Studio
 
-Open Katalon Studio. After launching the app, you can sign in to your Katalon account to activate your license. To learn how to activate your license, see [Activate Katalon License](https://docs.katalon.com/katalon-studio/docs/activate-license.html).
+Extract the tar.gz file. In the extracted folder, you can find the Katalon Studio app.
+Open Katalon Studio by double-click on Katalon Studio, or run `cd ./katalon` in your terminal. 
+
+The Katalon Studio start launching, then the ... dialog appears. You can sign up a Katalon account to start your 30 days trial, or sign in to your previous account to activate your license. To learn more about how to activate your license, see [Activate Katalon License](https://docs.katalon.com/katalon-studio/docs/activate-license.html).
 
   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-gui-beta-for-linux/activation-linux.png" alt="activate on linux" width=100%>
+
+After you are done, click ... Now Katalon Studio is ready to run.
 
 ## Configure Katalon Studio on Linux
 
