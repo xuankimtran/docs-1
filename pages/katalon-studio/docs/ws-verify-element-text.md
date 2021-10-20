@@ -11,11 +11,9 @@ description:
 ---
 ## Description
 
-
 Verify that there is an element with expected text appeared in the returned data from a web service call.
 
 ## Parameters 
-
 
 | Parameter | Parameter Type | Mandatory | Description |
 | --- | --- | --- | --- |
@@ -43,7 +41,7 @@ Given the following sample **SOAP_TransactionResult** SOAP object:
 
 ```
 
-We want to verify the **TransactionResult** object in XML format after sending the request. You can use the `verifyElementText` web service keyword as below:
+We want to verify the `TransactionResult` element in the SOAP response after sending the request. You can use the `WS.verifyElementText()` keyword as below:
 
 ```groovy
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -67,14 +65,16 @@ import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 'Send a SOAP request and returns its response'
 def response = WS.sendRequest(findTestObject('SOAP_TransactionResult'))
 
-'Verify converted weight after sending request is correct or not'
+'Verify the selected element in the response'
 WS.verifyElementText(response, 'PreAuthorizeResponse.Receipt.TransactionResult', 'Approved')
 ```
 > Notices:
 > 
-> Katalon checks if the XML element content text is strictly equal to the expected value. For example, if the **Approved** value have a whitespace, then you should add a whitespace when using the `verifyElementText` keyword.
+> Katalon checks if the XML element content text is strictly equal to the expected value. For example, if there is a whitespace after the `Approved` value, you need to add a whitespace when using the `WS.verifyElementText()` keyword as below:
 > 
 > ``` groovy
-> WS.verifyElementText(response, 'PreAuthorizeResponse.Receipt.TransactionResult', '''Approved
->        ''')
+> WS.verifyElementText(response, 'PreAuthorizeResponse.Receipt.TransactionResult', 'Approved ')
 >  ```
+
+## See also
+* [[WS] Verify Element Property Value](https://docs.katalon.com/katalon-studio/docs/ws-verify-element-property-value.html#description)
