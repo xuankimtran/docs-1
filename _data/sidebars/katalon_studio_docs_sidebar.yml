@@ -1303,6 +1303,8 @@ items:
             url: /katalon-analytics/docs/testops-roles-privileges.html 
           - title: "Set up an account"
             url: /katalon-analytics/docs/getting-started.html  
+          - title: "Join an Organization"
+            url: /katalon-analytics/docs/kt_users_joining_org.html
           - title: "Create Organization and Project"
             url: /katalon-analytics/docs/kt-create-org.html
           - title: "Set up Teams"
