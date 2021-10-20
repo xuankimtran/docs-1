@@ -44,3 +44,5 @@ You can find the new subscription information updated on the **TestOps Subscript
 > Notice:
 >
 > You cannot change your annual subscription back to a monthly one.
+>
+> You can only subscribe monthly again once your annual subscription has ended.
