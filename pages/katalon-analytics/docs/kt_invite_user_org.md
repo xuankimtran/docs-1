@@ -39,14 +39,16 @@ Follow these steps:
 
 5. Switch the toggle on to select the license type.
 
-> Notes:
->
-> For detailed information about assigning KSE/KRE licenses, see [Grant Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/use-online-license.html#grant-a-license).
- 
-Your team members will receive an invitation email containing a link. Once they click on the link and accept the invitation, they become Members in your Organization.
+    > Notes:
+    >
+    > For detailed information about assigning KSE/KRE licenses, see [Grant Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/use-online-license.html#grant-a-license).
+
+6. Send your users this guide: [Join TestOps Organizations](https://docs.katalon.com/katalon-analytics/docs/kt_users_joining_org.html).
+
+    Once your users follow the guide to join your Organization, they become Members of your Organization.
 
 > Notes:
-> 
+>
 > The invitation link is valid for 24 hours. After that, you will have to invite your team members again.
 
 Alternatively, you can copy the activation link in the **Pending Invitation** section and send it to them.
