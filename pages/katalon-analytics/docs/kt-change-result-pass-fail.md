@@ -62,11 +62,11 @@ Select the **Test Results** tab, click on a Test Result ID, then select the **Co
 
 You then can check the following information:
 
-* the member's name who changed the status of a Test Result.
-* the history of a Test Result's status changes. 
+* the name of the member who changed the status of a Test Result.
+* the history of that Test Result's status changes.
 * the reason for each status change.
 
-## View the summary of a Test Result
+## View the summary of a Test Result's status change
 
 No matter how many times a test result has been modified, you can check a full record of the modification.
 
