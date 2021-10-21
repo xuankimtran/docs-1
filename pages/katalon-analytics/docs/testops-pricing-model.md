@@ -10,8 +10,8 @@ redirect_from: /katalon-analytics/docs/testops_subscriptions_overview.html
 Katalon Testops is currently offering three plans:
 
 * TestOps (free plan).
-* TestOps Business (business plan).
-* TestOps Enterprise (enterprise plan).
+* TestOps Business.
+* TestOps Enterprise.
 
 ### TestOps
 
