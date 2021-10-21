@@ -10,10 +10,12 @@ The integration of Cucumber framework in Katalon Studio allows you to include Cu
 
 This guide shows you how to create and use Cucumber hooks in Katalon Studio.
 
+> You can download the sample project here on our Github repository: [Katalon BDD Cucumber Tests](https://github.com/katalon-studio-samples/katalon-bdd-cucumber-tests).
+
 ## Set up Cucumber Hooks
 
 ### Create Cucumber Feature file
-To apply hooks in Cucumber BDD test, first you need to create a Cucumber Feature file and its corresponding Step definitions. 
+To apply hooks in Cucumber BDD test, first you need to create a Cucumber Feature file and its corresponding step definitions.
 
 1. To create a Cucumber Feature file, go to **File > New > BDD Feature File**.
 
@@ -45,7 +47,7 @@ To apply hooks in Cucumber BDD test, first you need to create a Cucumber Feature
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/cucumber-test-hooks/KS-Generate-sample-step-defintions.png" width=70% alt="Create Keyword Dialog">
 
-    You can tick the **Generate sample @Given, @When, @Then steps** for sample Step definitions.
+    You can tick the **Generate sample @Given, @When, @Then steps** for sample step definitions.
 
     For example:
     ```groovy
@@ -120,4 +122,3 @@ To apply hooks in Cucumber BDD test, first you need to create a Cucumber Feature
 **See also**: 
 
 * [Cucumber Integration in Katalon Studio](https://docs.katalon.com/katalon-studio/docs/cucumber-features-file.html)
-* [Sample project](https://github.com/katalon-studio-samples/katalon-bdd-cucumber-tests)
