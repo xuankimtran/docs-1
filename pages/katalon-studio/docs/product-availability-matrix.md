@@ -90,7 +90,7 @@ This document gives you information on the supported technologies and integratio
 	<tbody>
 		<tr>
 			<td rowspan="4">
-				<p><a href="https://github.com/katalon-studio-samples/data-driven-tests">Data-driven testing - DDT</a></p>
+				<p><a href="https://docs.katalon.com/katalon-studio/docs/ddt.html">Data-driven testing - DDT</a></p>
 			</td>
 			<td>
 				<p>Built-in Database</p>
@@ -165,7 +165,7 @@ This document gives you information on the supported technologies and integratio
 		</tr>
 		<tr>
 			<td colspan="3">
-				<p><a href="https://github.com/katalon-studio-samples/katalon-bdd-cucumber-tests">Behavior-driven development - BDD</a></p>
+				<p><a href="https://docs.katalon.com/katalon-studio/docs/cucumber-features-file.html">Behavior-driven development - BDD</a></p>
 			</td>
 			<td>
 				<p>✔</p>
