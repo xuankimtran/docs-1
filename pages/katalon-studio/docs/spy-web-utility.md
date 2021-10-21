@@ -91,7 +91,7 @@ This guide shows you how to use Spy Web Utility to capture and manually define t
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-web-utility/KS-Web-Spy-highlighted-element.png" width=70% alt="Web Spy highlights element"> 
       
     
-4. Press the combination of **\<Alt + \`\>** keys on the keyboard to capture the object. For macOS users, right-click on the element and select **Capture Object**. 
+4. Press the combination of **\<Alt + \`\>** keys on the keyboard or right-click on the web element to capture the object.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-web-utility/KS-Web-Spy-Capture-Object.png" width=70% alt="Capture element"> 
       
@@ -117,7 +117,7 @@ This guide shows you how to use Spy Web Utility to capture and manually define t
     </tr>
     <tr>
       <td><strong>Options</strong></td>
-      <td></td>
+      <td><strong>Description</strong></td>
     </tr>
     <tr>
       <td><strong>Attributes</strong></td>
@@ -141,7 +141,7 @@ This guide shows you how to use Spy Web Utility to capture and manually define t
     </tr>
     <tr>
       <td><strong>Options</strong></td>
-      <td></td>
+      <td><strong>Description</strong></td>
     </tr>
     <tr>
       <td><strong>Basic or XPath</strong></td>
