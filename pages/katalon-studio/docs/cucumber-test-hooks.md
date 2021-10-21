@@ -1,5 +1,5 @@
 ---
-title: "Create Cucumber Test Hooks" 
+title: "Use Test Hooks for Cucumber Framework" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/cucumber-test-hook.html
 redirect_from:
@@ -41,11 +41,11 @@ To apply hooks in Cucumber BDD test, first you need to create a Cucumber Feature
         | name2 |     7 | Fail    |
     ```
 
-2. To create Step definitions, go to **File > New > Groovy Script**.
+2. To create step definitions, go to **File > New > Groovy Script**.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/cucumber-test-hooks/KS-Generate-sample-step-defintions.png" width=70% alt="Create Keyword Dialog">
 
-    Tick the **Generate sample @Given, @When, @Then steps** for sample Step definitions. 
+    You can tick the **Generate sample @Given, @When, @Then steps** for sample Step definitions.
 
     For example:
     ```groovy
@@ -74,11 +74,11 @@ To apply hooks in Cucumber BDD test, first you need to create a Cucumber Feature
 
 ### Add Cucumber Hooks
 
-1. Create a separate Step definition or Custom Keyword that includes the Cucumber hooks.
+1. Create another step definition or a custom keyword that includes the Cucumber hooks. Here, we create a step definition.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/cucumber-test-hooks/KS-New-Cucumber-hooks-script.png" width=70% alt="New Cucumber hook script">
 
-2. Enter the following code snippet to include two Cucumber hooks:
+2. Enter Cucumber hooks into the new step definition. For example, to add ```@Before``` and ```@After``` scenario hooks, copy and paste the following script:
 
     ```groovy
     class SampleTestHook {
@@ -105,13 +105,11 @@ To apply hooks in Cucumber BDD test, first you need to create a Cucumber Feature
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/cucumber-test-hooks/KS-select-run-feature-file-keyword.png" width=70% alt="Select Run Feature File keyword">
 
 
-3. Input of the **Run Feature File** keyword is the relative path to the Feature file. 
-
-    To get the relative path, right-click on the Feature file and select **Copy ID**.
+3. To get the relative path, right-click on the Feature file and select **Copy ID**.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/cucumber-test-hooks/KS-Copy-ID-feature-file.png" width=70% alt="Copy ID of Feature file">
 
-4. Double-click on the **Input** cell. In the displayed **Input** dialog, paste the copied relative path as the input value. 
+4. Double-click on the **Input** cell of the **Run Feature File** keyword. In the displayed **Input** dialog, paste the copied relative path from step 3 as the input value.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/cucumber-test-hooks/KS-Feature-file-input-value.png" width=70% alt="Paste keyword input value">
 

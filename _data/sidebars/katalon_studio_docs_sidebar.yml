@@ -1057,7 +1057,7 @@ items:
         tree:
           - title: "BDD Testing Framework (Cucumber integration)"
             url: /katalon-studio/docs/cucumber-features-file.html
-          - title: "Create Cucumber Test Hooks"
+          - title: "Use Test Hooks for Cucumber Framework"
             url: /katalon-studio/docs/cucumber-test-hook.html
       - title: "Integration"
         tree:
