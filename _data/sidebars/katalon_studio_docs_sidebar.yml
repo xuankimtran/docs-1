@@ -115,8 +115,6 @@ items:
                     url: /katalon-studio/docs/katalon-addon-for-chrome.html
               - title: "Configuration for Mobile Testing"
                 tree:
-                  - title: "Mobile on Windows"
-                    url: /katalon-studio/docs/mobile-on-windows.html
                   - title: "Installing WebDriverAgent for iOS devices"
                     url: /katalon-studio/docs/installing-webdriveragent-for-ios-devices.html
       - title: "Tutorials and Samples"
