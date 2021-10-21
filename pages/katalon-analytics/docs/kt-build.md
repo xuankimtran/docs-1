@@ -1,78 +1,114 @@
 ---
-title: "Create and Manage Builds" 
+title: "Create and manage Builds" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/kt-build.html
 
 ---
-**Katalon TestOps** allows you to create builds and monitor testing progress from those builds. This also helps testing team to better track and investigate root causes once issues have occured.
 
-You can create a new build from Release's detailed page and link your existing Test Runs into it.
+During the release cycle, you commonly need to test different builds to easily track production issues. In TestOps, the Build function allows you to associate and orchestrate the test runs relevant to each build.
 
-> Learn how to work with Releases [here](https://docs.katalon.com/katalon-analytics/docs/kt-jira-release.html).
+## Create a build
 
-## Create a new Build
+Follow these steps:
 
-1. Under **Test Planning**, select an existing **Release** to view its detailed page. [Learn more](https://docs.katalon.com/katalon-analytics/docs/kt-jira-release.html) 
+1. Sign in to [Katalon TestOps](https://testops.katalon.io/login) and go to your Project.
 
-2. Click **Create Build** button.
+2. Go to **Test Planning**, then select the **Releases** tab.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/builds/create-build.png" width="" height="">
+3. Click on the name of a Release (e.g., **7.3.7**).
 
-3. Enter the required information: 
+    The **Test Cases** page of the **7.3.7** Release appears as below.
 
-- *Name*: your Build name
-- *Description*: notes about your build 
-- *Date*
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/builds/create-build.png" width="" height="" alt="create build button">
 
-4. Click **Save** to finish.
+4. Click on the **Create Build** button at the top right corner.
+    
+    The **Create Build** page appears.
 
-Once you have created a Build, it will appear in the Release's detailed page.
+5. Fill in the required information.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/builds/build-list.png" width="" height="">
+    * **Name**: enter the Build's name.
+    * **Description**: add a note about your Build.
+    * **Date**: enter the date you create this Build. 
 
-## Link Test Runs to a Build
+6. Click **Create**.
 
-In Test Run's detailed page, click on **Link to a release** button to link the Test Run to a Build (or a Release).
+You have created a new Build. This Build now appears in the **Builds** section of the **7.3.7** Release.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/builds/link-build.png" width="" height="">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/builds/build-list.png" width="" height="" alt="builds section">
 
-> Note: You can link multiple Test Runs to a Build.
+### Link Test Runs to a build
 
-All Test Runs you have linked will be displayed in the Build's detailed page.
+You can link a Test Run to a Build (or a Release). See: [Link Test Runs to a Release](https://docs.katalon.com/katalon-analytics/docs/kt-release.html#link-test-runs-to-a-release).
 
+> Notes:
+>
+> You can link multiple Test Runs to a Build.
 
-## View a Build  
+After linking, you can view the linked Test Runs on the Build page.
 
-1. On the detailed page of a **Release**, scroll down to view a list of Builds.
+## Manage a build
 
-2. Click on a **Build** name to view its details.
+### View a build  
 
-From here you can view a list of Test Runs you have already linked before. You can also see all Test Cases used for the chosen Build.
+1. Go to **Test Planning** > **Releases**.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/builds/build-details.png" width="" height="">
+2. Click on the name of a Release (e.g., **7.3.7**).
 
-##  Update a Build 
+3. Scroll down to view a list of Builds in the **Builds** section.
 
-1. On the detailed page of a **Release**, scroll down to view a list of Builds.
-2. On the row of a build name, click on triple dots icon.
-3. Select **Edit**.
+4. Select a Build to view (e.g., **Create a new Build**).
 
-<img src="https://raw.githubusercontent.com/katalon-studio/docs-images/testops-new/katalon-analytics/docs/build/build-edit-delete.png" width="" height="">
+    The **Build: Create a new Build** page appears as below.
 
-4. Edit the information you need.
-5. Click **Save** to finish.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/builds/build-details.png" width="" height="" alt="build page">
 
+    You can view a list of Test Runs you have linked to this Build. 
+    
+    You can also see all Test Cases associated with this Build.
 
-## Delete a Build 
-1. On the detailed page of a **Release**, scroll down to view a list of Builds.  
-2. On the row of a build name, click on triple dots icon. 
-3. Select **Delete**.
-4. Click **Delete** button to finish. 
+###  Update a build
 
-![](https://raw.githubusercontent.com/katalon-studio/docs-images/testops-new/katalon-analytics/docs/build/build-delete.png)
+1. Go to **Test Planning** > **Releases**.
 
-## Related topics
+2. Click on the name of a Release (e.g., **7.3.7**).
 
-- [Katalon TestOps Terminology](https://docs.katalon.com/katalon-analytics/docs/testops-terminology.html)
+3. Scroll down to view a list of Builds in the **Builds** section.
 
-- [Working with Jira Releases](https://docs.katalon.com/katalon-analytics/docs/kt-jira-release.html)
+4. Click on the *Extension* icon of the Build you want to update.
+
+    <img src="https://raw.githubusercontent.com/katalon-studio/docs-images/testops-new/katalon-analytics/docs/build/build-edit-delete.png" width="" height="" alt="edit build">
+
+5. Click **Edit**.
+
+6. Update the Build's information.
+
+7. Click **Save**.
+
+You have updated a Build.
+
+### Delete a build
+
+1. Go to **Test Planning** > **Releases**.
+
+2. Click on the name of a Release (e.g., **7.3.7**).
+
+3. Scroll down to view a list of Builds in the **Builds** section.
+
+4. Click on the *Extension* icon of the Build you want to delete.
+
+    <img src="https://raw.githubusercontent.com/katalon-studio/docs-images/testops-new/katalon-analytics/docs/build/build-edit-delete.png" width="" height="" alt="edit build">
+
+5. Click **Delete**.
+
+    The **Delete Build** box pops up as below.
+
+    <img src="https://raw.githubusercontent.com/katalon-studio/docs-images/testops-new/katalon-analytics/docs/build/build-delete.png" width="" height="" alt="edit build">
+
+6. Click **Delete** to confirm your action.
+
+> Notice:
+>
+> You cannot undo this action.
+    
+See also: [Manage Test Runs by Release](https://docs.katalon.com/katalon-analytics/docs/kt-jira-release.html).

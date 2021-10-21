@@ -115,6 +115,8 @@ items:
                     url: /katalon-studio/docs/katalon-addon-for-chrome.html
               - title: "Configuration for Mobile Testing"
                 tree:
+                  - title: "Mobile on macOS"
+                    url: /katalon-studio/docs/mobile-on-macos.html
                   - title: "Installing WebDriverAgent for iOS devices"
                     url: /katalon-studio/docs/installing-webdriveragent-for-ios-devices.html
       - title: "Tutorials and Samples"
@@ -143,6 +145,8 @@ items:
             tree:
               - title: "[Mobile] Android Setup"
                 url: /katalon-studio/tutorials/mobile-android-setup.html
+              - title: "[Mobile] Configure Android Studio (Emulator)"
+                url: /katalon-studio/docs/configure-android-studio.html
               - title: "[Mobile] Create and Run Android Test Case"
                 url: /katalon-studio/tutorials/mobile-create-android-test-case.html
           - title: "Web UI"
@@ -203,6 +207,8 @@ items:
                 url: /katalon-studio/docs/introduction-to-desired-capabilities.html
               - title: "Desired Capabilities Management"
                 url: /katalon-studio/docs/import-export-desired-capabilities.html
+              - title: "Start browsers in private mode"
+                url: /katalon-studio/docs/start-browsers-in-private-mode.html  
               - title: "Test different browser locales in Chrome with Desired Capabilities"
                 url: /katalon-studio/docs/test-different-browser-locales-in-chrome-with-desired-capabilities.html
           - title: "Usage Examples"
@@ -869,6 +875,10 @@ items:
                 url: /katalon-studio/docs/ws-verify-response-status-code.html
               - title: "[WS] Verify Response Status Code In Range"
                 url: /katalon-studio/docs/ws-verify-response-status-code-in-range.html
+              - title: "[WS] Get HAR File Generation" 
+                url: /katalon-studio/docs/ws-get-har-file-generation.html
+              - title: "[WS] Set HAR File Generation" 
+                url: /katalon-studio/docs/ws-set-har-file-generation.html
           - title: "Windows Keywords"
             tree:
               - title: "[Windows] Clear Text"
@@ -1231,8 +1241,10 @@ items:
                 url: /katalon-studio/docs/jenkins-plugin-windows.html
               - title: "On Ubuntu"
                 url: /katalon-studio/docs/jenkins-plugin-ubuntu.html
+              - title: "Integrate Jenkins on Docker hosted in Ubuntu"
+                url: /katalon-studio/docs/jenkins-docker-ubuntu.html
               - title: "Passing scenario tags at runtime when building with Jenkins"
-                url: /katalon-studio/how-to-guides/jenkins-tags-runtime.html  
+                url: /katalon-studio/how-to-guides/jenkins-tags-runtime.html
           - title: "Bamboo Add-on"
             url: /katalon-studio/docs/bamboo-addon.html
           - title: "Azure DevOps Extension"
@@ -1409,8 +1421,6 @@ items:
             url: /katalon-analytics/docs/subdomain.html
           - title: "Single Sign-On Configurations"
             url: /katalon-analytics/docs/sso-settings.html
-          - title: "Configure Network Security"
-            url: /katalon-analytics/docs/network-config.html
           - title: "Configure Session Timeout"
             url: /katalon-analytics/docs/timeout-config.html 
           - title: "Notification Emails"

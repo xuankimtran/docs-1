@@ -4,38 +4,41 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/kt_kobiton_integration.html
 ---
 
-We can configure Kobiton Integration with Katalon TestOps. First, on the board Katalon Integration, we assign the Kobiton Device URL (1), Username (2), Kobiton's API Key (3). Then, we click the buttons **Test Connection** (4) and **Save** (5).
+Kobiton allows you to test your apps on real devices to enhance your mobile testing experiences. By integrating Kobiton with Katalon TestOps, you can now plan your tests and run them on Kobiton's devices, leveraging your mobile testing activities.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt_kobiton_integration/kt_kobiton_integration.png)
+> Requirements:
+>
+> You have already registered a [Kobiton](https://kobiton.com/) account.
 
-We must have a Script Repository on Katalon TestOps. Click to a Script Repository.
+## Integrate Kobiton with Katalon TestOps
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt_kobiton_integration/kt_script_repo_ex.png)
+Follow these steps:
 
-The Script Repository displays the list of Test Suite Collection. We choose Test Suite Collection, which we want to test.
+1. Sign in to [Katalon TestOps](https://testops.katalon.io/login) and go to your Project.
+2. Go to **Configurations** > **Integrations**.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt_kobiton_integration/kt_open_script_repo.png)
+    The **Integrations** page appears.
 
-In the board **Test run type**, we choose and type information in the cells (select **Scrip Repository**, **Name**, and **Type** in **Configure Test Run**).
+3. Select **Kobiton** from the dropdown list.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt_kobiton_integration/kt_test_run_type_1.png)
+4. Fill in the required information.
 
-We choose a Test Suite Collection, which we want to run. We choose **Enable Kobiton Integration** and type the ID of the device in **Kobiton Device ID**. We select the **Test Environment Type**.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-kobiton-integration/kobiton-integration-page-fillin.png" width=100% alt="kobiton integration page">
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt_kobiton_integration/kt_test_run_type_2.png)
+    * **Kobiton Device URL**: enter your Kobiton Device URL.
+    * **Username**: enter your Kobiton username.
+    * **Kobiton's API Key**: enter your Kobiton's API key.  
 
-Choose a Test Environment and a suitable Katalon Studio version.
+5. Click **Test Connection**, then click **Save**.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt_kobiton_integration/kt_test_run_type_3.png)
+You have enabled Kobiton integration. Now you can run tests with a Kobiton device in Katalon TestOps.
 
-Click the button Create for creating a Test Run Type.
+## Run tests with a Kobiton device
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt_kobiton_integration/kt_test_run_type_4.png)
+> Requirements:
+>
+> You have created a Script Repository on Katalon TestOps. See: [Upload Test Scripts to a Script Repository](https://docs.katalon.com/katalon-analytics/docs/code-repo.html).
 
-Start Agent. Running a Test Run with Agent on Katalon TestOps can be seen [here](https://docs.katalon.com/katalon-analytics/docs/agents.html).
+After creating a Script Repository, you can schedule test runs with a Kobiton device by configuring the advanced settings in the **Schedule Test Runs** dialog. See: [Schedule Test Runs](https://docs.katalon.com/katalon-analytics/docs/create-plan.html#advanced-settings).
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt_kobiton_integration/kt_start_agent.png)
-
-A new Test Run Type displays, we click the button Run for running.
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt_kobiton_integration/kt_test_plan_run_scrip_repo.png)
+You can also execute test runs manually. See: [Execute Test Runs manually](https://docs.katalon.com/katalon-analytics/docs/kt-scheduler.html).

@@ -2,6 +2,7 @@
 title: "Troubleshoot Activation Problems"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/troubleshoot-activation-problems.html
+redirect_from: /katalon-analytics/docs/network-config.html
 ---
 
 ## Configure Time Zone
@@ -17,7 +18,7 @@ Time differences might affect the validation of licenses on the Katalon Server.
 > * To find the exceptions and errors you encountered, use **Ctrl+F**.
 > * If you cannot find the exceptions or error message you encountered, you can leave a comment below for further support.
 
-Here is the list of common issues when activating Katalon Studio and instructions to solve them:
+Here is the list of common issues when activating Katalon Studio and/or starting Katalon TestOps, followed by possible solutions:
 
 **<details><summary>Cannot connect to Katalon TestOps server. Please check your Internet connection and try again (1).</summary>**
 
@@ -33,7 +34,7 @@ This error message means that the application has failed to communicate with Kat
 
 Check your Internet connection and try again.
 
-If you are behind a **Proxy Server**, configure proxy authentication first and then activate Katalon Studio again. See [Configure Proxy](https://docs.katalon.com/katalon-studio/docs/configure-proxy.html)
+If you are behind a **Proxy Server**, configure proxy authentication first and then activate Katalon Studio again. See: [Configure Proxy for Authentication](https://docs.katalon.com/katalon-studio/docs/configure-proxy.html).
 
 </details>
 
@@ -68,7 +69,7 @@ If the number of machines on which you're using Katalon Studio exceeds the numbe
 
 **<details><summary>Network Security errors</summary>**
 
-For an enterprise user with a private network, you might encounter this problem when executing test scripts or integrating Katalon Studio.
+For Enterprise users with a private network, you might encounter a situation where you fail to execute test scripts, integrate Katalon Studio, and/or access Katalon TestOps, due to network security errors.
 
 Contact your IT team to whitelist the following domains:
 
@@ -78,6 +79,20 @@ Contact your IT team to whitelist the following domains:
 * testops.katalon.io
 * admin.katalon.com
 * katalon-test.s3-accelerate.amazonaws.com (used for uploading reports to [Katalon TestOps](https://testops.katalon.io))
+
+</details>
+
+**<details><summary>IP Addresses errors</summary>**
+
+You might encounter a problem with Katalon TestOps network configurations if you are integrating with an On-Premises development system such as Jira Server or Azure DevOps Server.
+
+Contact your IT team to whitelist the following IP addresses:
+
+* 52.45.203.41
+
+* 52.203.34.201
+
+* 35.172.81.5
 
 </details>
 
@@ -110,7 +125,7 @@ When your trial period expires, you must subscribe to each product to continue u
 
 Currently, the free license for Katalon Runtime Engine is not available.
 
-If you or your enterprise has purchased Katalon licenses but you are not able to use them, check if you have permission to use it. See [Grant Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/use-online-license.html).
+If your Enterprise has purchased Katalon licenses but you are not able to use them, check if you have permissions to use the licenses. See [Grant Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/use-online-license.html).
 
 </details>
 
