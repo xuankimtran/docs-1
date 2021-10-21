@@ -22,28 +22,22 @@ To accept the invitation to join an Organization, follow these steps:
 
 3. Sign in to Katalon TestOps.
  
+    > Notes:
+    >
+    > Make sure that the account you log in with is the same as the account you were invited with.
+
     The invitation page appears.
 
 4. Click **Join** to become a Member of the Organization.
 
     You will see a message saying *You are now a member of [Organization name]*.
 
-You have had access to the Organization. You can now use the product license that the Owner/Admin has assigned to you.
+You now have access to the Organization. You can use the product license that the Owner/Admin has assigned to you.
 
 > Notes:
 >
-> If you decline the invitation to join the Organization, you won't have access to that Organization.
+> * If you decline the invitation to join the Organization, you won't have access to that Organization.
+>
+> * If the invitation link has expired, you will see a message saying invalid link instead (image below). Ask your Owner/Admin to resend the invitation.
+> <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-subscription-docs/image-20210923-032528.png" width=100% alt="invalid invitation link">
 
-## Troubleshoot users issue
-
-**<details><summary> Invalid page when clicking on the invitation link</summary>**
-
-You might be logging in with an account different from the one you have registered with your Owner/Admin. Double check your Katalon account.
-
-</details>
-
-**<details><summary> Unable to accept the invitation to join the Organization</summary>**
-
-The Owner/Admin of the Organization might have revoked the invitation. Contact your Owner/Admin for a new invitation link.
-
-</details>
