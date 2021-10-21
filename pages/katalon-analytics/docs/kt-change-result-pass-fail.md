@@ -21,6 +21,8 @@ This feature allows you to:
 > Notice:
 >
 > Changing the status of a Test Result affects the status of a Test Run and its Test Suite. You should override Test Results statuses with caution.
+>
+> See [TestOps Formulas](https://docs.katalon.com/katalon-analytics/docs/testops-terminology.html#testops-formulas) for definitions of **Status (Test Run)** and **Status (Test Suite)**.
 
 Follow these steps:
 
