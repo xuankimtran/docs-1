@@ -6,7 +6,7 @@ redirect_from:
 description: 
 ---
 
-The integration of Cucumber framework in Katalon Studio allows you to include Cucumber test hooks, which work at the start and the end of a scenario in a behavior-driven development (BDD) test. To learn more about test hooks in Cucumber framework, you can refer to this document: [Cucumber Hooks reference](https://cucumber.io/docs/cucumber/api/#hooks).
+The integration of the Cucumber framework in Katalon Studio allows you to include Cucumber test hooks, which work at the start and the end of a scenario in a behavior-driven development (BDD) test. To learn more about test hooks in the Cucumber framework, you can refer to this document: [Cucumber Hooks reference](https://cucumber.io/docs/cucumber/api/#hooks).
 
 This guide shows you how to create and use Cucumber hooks in Katalon Studio.
 
@@ -15,7 +15,7 @@ This guide shows you how to create and use Cucumber hooks in Katalon Studio.
 ## Set up Cucumber Hooks
 
 ### Create Cucumber Feature file
-To apply hooks in Cucumber BDD test, first you need to create a Cucumber Feature file and its corresponding step definitions.
+To apply hooks in the Cucumber BDD test, first you need to create a Cucumber Feature file and its corresponding step definitions.
 
 1. To create a Cucumber Feature file, go to **File > New > BDD Feature File**.
 
@@ -115,7 +115,7 @@ To apply hooks in Cucumber BDD test, first you need to create a Cucumber Feature
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/cucumber-test-hooks/KS-Feature-file-input-value.png" width=70% alt="Paste keyword input value">
 
-5. Run the test and verify the message of the Cucumber hooks in **Console** log:
+5. Run the test and verify the message of the Cucumber hooks in the **Console** log:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/cucumber-test-hooks/KS-Cucumber-hooks-message.png" width=70% alt="Cucumber hooks message">
 
