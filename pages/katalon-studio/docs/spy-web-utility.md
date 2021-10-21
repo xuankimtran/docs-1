@@ -21,73 +21,62 @@ This guide shows you how to use Spy Web Utility to capture and manually define t
 
 1. To open the Spy Web Utility, from the main toolbar, click on the **Spy Web** button.  
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-web-utility/KS-Spy-Web-Utility-toolbar.png" width=70% alt="Spy Web Utility on toolbar">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-web-utility/KS-Spy-Web-Utility-toolbar.png" width=70% alt="Spy Web Utility on toolbar">
 
 2. In the displayed **Object Spy** dialog, specify the URL of the AUT and the web browser. Click on the **Start** button to start capturing.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-web-utility/KS-Object-Spy-dialog.png" width=70% alt="New Object Spy dialog">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-web-utility/KS-Object-Spy-dialog.png" width=70% alt="New Object Spy dialog">
 
-      Here you have two options for web browsers: **New Browsers** and **Active Browsers**.
+    Here you have two options for web browsers: **New Browsers** and **Active Browsers**.
 
-   <table>
-  <thead>
-    <tr>
-      <th>Type</th>
-      <th>Description</th>
-      <th>Note</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>New Browsers</td>
-      <td>
-        Start a new browser and start spying web objects from that browser.
-      </td>
-      <td>
-        <strong>Supported browsers:</strong><br />- Firefox<br />- Chrome<br />-
-        Internet Explorer (only on Windows)
-      </td>
-    </tr>
-    <tr>
-      <td>Active Browsers</td>
-      <td>
-        Focus on <strong>the current active Chrome browser</strong> and start
-        spying web objects from it.
-      </td>
-      <td>
-        Katalon Studio will install
-        <a
-          class="external-link"
-          href="https://chrome.google.com/webstore/detail/katalon-recorder-selenium/ljdobmomdgdljniojadhoplhkpialdid"
-          rel="nofollow"
-          >Katalon Recorder</a
-        >
-        as an add-on to help with recording for this type of browser<br /><br /><strong
-          >Supported browsers:</strong
-        ><br />- Chrome<br />- Firefox (coming soon)
-        <p>You will be asked for installation of <em>Katalon Utility</em>:</p>
-        <p>
-          <img
-            src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-web-utility/KS-Object-Spy-Active-browsers-extension.png"
-            width="70%"
-            alt="Add extension dialog"
-          />
-        </p>
-        <p>
-          Refer to
-          <a href="https://docs.katalon.com/katalon-studio/docs/katalon-addon-for-chrome.html"
-            >Katalon Addon for Chrome</a
-          >
-          for more details.
-        </p>
-      </td>
-    </tr>
-   </tbody>
-   </table>
+    <table>
+        <thead>
+          <tr>
+            <th>Type</th>
+            <th>Description</th>
+            <th>Note</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>New Browsers</td>
+            <td> Start a new browser and start spying web objects from that browser. </td>
+            <td><strong>Supported browsers:
+              </strong>
+              <br>- Firefox
+              <br>- Chrome
+              <br>- Internet Explorer (only on Windows) 
+            </td>
+          </tr>
+          <tr>
+            <td>Active Browsers</td>
+            <td> Focus on <strong>the current active Chrome browser</strong> and start spying web objects from it. </td>
+            <td> Katalon Studio will install <a class="external-link" href="https://chrome.google.com/webstore/detail/katalon-recorder-selenium/ljdobmomdgdljniojadhoplhkpialdid" rel="nofollow">Katalon Recorder</a> as an add-on to help with recording for this type of browser
+              <br/>
+              <br/><strong>Supported browsers:</strong>
+              <br/>- Chrome
+              <br/> - Firefox (coming soon)
+              <p>You will be asked for installation of <em>Katalon Automation Recorder</em> extension:</p>
+              <p>
+                <img
+                  src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-web-utility/KS-Object-Spy-Active-browsers-extension.png"
+                  width="70%"
+                  alt="Add extension dialog">
+              </p>
+              <p>
+                Refer to
+                <a href="https://docs.katalon.com/katalon-studio/docs/katalon-addon-for-chrome.html">Katalon Addon for Chrome</a>
+                for more details.
+              </p>
+            </td>
+          </tr>
+        </tbody>
+    </table>
     
 3. Katalon Studio launches the selected browser. Hover the mouse cursor over the web element to be captured.  
 
-    Spy Web Utility highlights the web object with a red border. An overlay pane is also displayed at the top edge of the screen to show relevant **XPath** info.  
+    Spy Web Utility highlights the web object with a red border. An overlay pane is also displayed at the top edge of the screen to show relevant **XPath** info. 
+
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-web-utility/KS-Web-Spy-highlighted-element.png" width=70% alt="Web Spy highlights element"> 
       
     
@@ -163,8 +152,8 @@ This guide shows you how to use Spy Web Utility to capture and manually define t
     The structure of your **Object Repository** is displayed on the right pane. Select the folder to add the captured objects. Click **OK** when done.  
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-web-utility/KS-Add-element-to-object-repository.png" width=70% alt="Add Element to object repository">   
-      
-    
+
+
 9. The captured objects are added to **Object Repository** accordingly.
 
 ## Define additional objects manually
@@ -177,9 +166,9 @@ This guide shows you how to use Spy Web Utility to capture and manually define t
 
 4. In **Object Properties** section, provide **Object Name** for the recently added object, choose **Selection Method** options and specify **properties** for the new web object.
 
-      Here we define a button element using the **Attributes** selection method. The chosen properties are **tag** and **id**.
+    Here we define a button element using the **Attributes** selection method. The chosen properties are **tag** and **id**.
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-web-utility/KS-Object-Spy-New-Object.png" width=70% alt="Add Element to object repository">  
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-web-utility/KS-Object-Spy-New-Object.png" width=70% alt="Add Element to object repository">  
     
 5. Click **Verify and Highlight** to ensure Katalon Studio can locate the object.
 
@@ -202,8 +191,8 @@ This guide shows you how to use Spy Web Utility to capture and manually define t
     
 3. Navigate to the **Object Spy** window and paste into **Selected Locator** or **Object Properties** section.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-web-utility/KS-Object-Spy-paste-XPath.png" width=70% alt="Paste XPath into Selected Locator section">  
-    
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-web-utility/KS-Object-Spy-paste-XPath.png" width=70% alt="Paste XPath into Selected Locator section">  
+
 4. Click the **Verify and Highlight** button to check if Katalon Studio can locate the object.  
 
 5. Once finished, click **Save** to add the object to **Object Repository** as normal.
