@@ -19,16 +19,61 @@ To begin with, you need to setup a macOS environment. You can not execute iOS mo
    >
    > * Xcode must support the current version of your iOS device.
    > * Katalon Studio can only support iOS version 9.0 or above. To learn more about the supported environment in Katalon Studio, you can refer to this document: [Supported environment](https://docs.katalon.com/katalon-studio/docs/supported-environments.html#mobile).
-   * Appium: 1.12.1 onwards
-   * iOS: 9.x onwards
 
-     > **Note**
-     >
-     > Some emulators come with Appium installed. If you want to run an application on an emulator, check your emulator settings before installing Appium.
-     >
-     > Xcode must support the current version of your IOS device.
-     >
-     > We recommend upgrading Appium to the latest version.
+2. Install the command-line tool for Xcode. You can download the command-line tool compatible with your Xcode version from the Apple Developer website here: [Downloads](https://developer.apple.com/download/all/).
+
+   Alternatively, you can copy and paste the following command-line arguments in this order in the **Terminal** to install the command-line tool for Xcode:
+
+      `xcode-select --install`
+
+      `sudo xcode-select -s /Applications/Xcode.app/Contents/Developer`
+
+3. Install Appium version 1.12.1 or newer. You can install Appium via NPM or by downloading Appium Desktop. Follow the instructions in the Appium document here: [Getting started](http://appium.io/docs/en/about-appium/getting-started/#installing-appium).
+
+   > Notes:
+   > * We recommend installing the latest Appium version.
+   > * In case you are installing Appium via NPM, make sure you install Node.js into a location where you have full Read/Write permissions.
+   > * If you are using emulators other than Xcode simulators, some emulators come with Appium installed. If you want to run an application on an emulator, check your emulator settings before installing Appium.
+## Part 2: Install extra dependencies to test real iOS device
+
+> If you execute mobile testing on Xcode simulators only, skip this part.
+
+1. Install Homebrew. Homebrew is a package manager that makes it easy to install other extra dependencies. To install Homebrew, follow the instructions on the Homebrew website: [Homebrew](https://brew.sh/).
+
+2. After installing Homebrew, you can now use it to install the following dependencies in the **Terminal**:
+
+   - ios-deploy version 1.9.4 or newer. You can learn more about ios-deploy in this Github project: [ios-deploy](https://github.com/ios-control/ios-deploy). To install ios-deploy via Homebrew, copy and paste the command-line argument as below:
+
+      `brew install ios-deploy`
+
+   - usbmuxd version 1.0.10 or newer. You can learn more about usbmuxd in this Github project: [usbmuxd](https://github.com/libimobiledevice/usbmuxd). To install usbmuxd via Homebrew, copy and paste the following command-line arguments in this order:
+
+      `brew install --HEAD usbmuxd`
+
+      `brew unlink usbmuxd`
+
+      `brew link usbmuxd`
+
+   - libimobiledevice version 1.2.0 or newer. You can learn more about libimobiledevice on the libimobiledevice website: [libimobiledevice](https://libimobiledevice.org/). To install libimobiledevice via Homebrew, copy and paste the following command-line arguments in this order:
+         
+      `brew install --HEAD libimobiledevice`
+
+      `brew unlink libimobiledevice`
+
+      `brew link libimobiledevice`
+
+   - For Appium version older than 1.20.0, you need to install Carthage. You can learn more about Carthage in this Github project: [Carthage](https://github.com/Carthage/Carthage). To install Carthage via Homebrew, copy and paste the command-line argument below:
+
+      `brew install carthage`
+
+   - For Appium version older than 1.15.0, you also need to install ios-webkit-debug-proxy. You can learn more about ios-webkit-debug-proxy in this Github project: [ios-webkit-debug-proxy](https://github.com/google/ios-webkit-debug-proxy). To install ios-webkit-debug-proxy via Homebrew, copy and paste the command-line argument as below:
+
+      `brew install ios-webkit-debug-proxy`
+## Part 3: Set up the iOS devices/ Xcode simulators for mobile testing in Katalon Studio
+
+<details><summary>For Xcode simulators</summary>
+
+   After installing Xcode, Katalon automatically recognizes Xcode simulators as iOS devices. To check whether Katalon successfully recognizes Xcode simulators, on the main toolbar, select the **iOS** device in the dropdown list next to **Run**.
    
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/KS-IOS-lists-of-xcode-simulators.png" width="30%" alt="Katalon recognizes Xcode simulators">
    
