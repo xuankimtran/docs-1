@@ -23,7 +23,7 @@ This guide shows you how to use Spy Web Utility to capture and manually define t
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-web-utility/KS-Spy-Web-Utility-toolbar.png" width=70% alt="Spy Web Utility on toolbar">
 
-2. In the displayed **Object Spy** dialog, specify the URL of the AUT and the web browser. Click on the **Start** button to start capturing.
+2. In the displayed **Object Spy** dialog, specify the URL of the application under test (AUT) and the web browser. Click on the **Start** button to start capturing.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-web-utility/KS-Object-Spy-dialog.png" width=70% alt="New Object Spy dialog">
 
