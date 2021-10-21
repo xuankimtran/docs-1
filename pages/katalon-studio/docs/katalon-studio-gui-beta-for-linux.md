@@ -14,11 +14,11 @@ redirect_from:
 description: 
 ---
 
-Beside macOS and Windows, Linux is trusted by many users because of its high security environment. You can still enjoy Katalon Studio with a GUI on your Linux. Katalon Studio for Linux (Ubuntu tested) supports both IDE and console mode versions.
+Linus is a reliable computer ecosystems. You can still enjoy Katalon Studio with a GUI on your Linux. Katalon Studio for Linux (Ubuntu tested) supports both IDE and console mode versions.
 
-If you have not used Linux before and need to test your build in Linux environment, here are some suggestion:
+If you have not used Linux before and need to test your build in Linux environment, here are some suggestions to install Linux on your desktop or laptop computer:
 
-* Linux distributions:
+* Linux distribution: You can find links to popular distribution download pages at [Linux.org](https://www.linux.org/pages/download/).
 * Linux installation: You can install Linux with a USB stick or a drive, see Ubuntu documentation:
 * Use Linux on virtual machine: Virtualisation programs such as Parallels Desktop and VMWare Fusion run on the macOS, but allow you to create a Virtual Machine - or VM - that mimics the hardware of a Windows PC. For Windows, you can try Hyper-V by Microsoft.
 * Another way to test your build in Linux environment without installing Linux is Docker. See Docker.
