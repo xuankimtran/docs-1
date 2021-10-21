@@ -92,56 +92,73 @@ This guide shows you how to use Spy Web Utility to capture and manually define t
     
 6. Select the object in the **Captured Objects** tree; the utility displays its details in the **Object Properties** section.
 
-      <table>
-  <thead>
-    <tr>
-      <th>Type</th>
-      <th colspan="2">Descriptions</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td rowspan="5"><strong>Selection Method</strong></td>
-      <td colspan="2">The method which Katalon Studio will be using to detect web elements.</td>
-    </tr>
-    <tr>
-      <td><strong>Options</strong></td>
-      <td><strong>Description</strong></td>
-    </tr>
-    <tr>
-      <td><strong>Attributes</strong></td>
-      <td>Katalon Studio automatically generate an XPath combine with objects' properties.</td>
-    </tr>
-    <tr>
-      <td><strong>XPath</strong></td>
-      <td>Katalon Studio <strong>Relative XPath</strong>. If an element cannot be consistently located using its direct attributes, Katalon Studio will identify by using its more robust neighbors.</td>
-    </tr>
-    <tr>
-      <td><strong>XPath</strong></td>
-      <td>Users are allowed to input CSS selector manually into Object Detect Editor.</td>
-    </tr>
-    <tr>
-      <td><strong>Properties Grid</strong></td>
-      <td colspan="2">All the captured properties of the selected object. You can edit the value of any property.</td>
-    </tr>  
-    <tr>
-      <td rowspan="4"><strong>Selector Editor</strong></td>
-      <td colspan="2">Display object locator based on selected method</td>
-    </tr>
-    <tr>
-      <td><strong>Options</strong></td>
-      <td><strong>Description</strong></td>
-    </tr>
-    <tr>
-      <td><strong>Basic or XPath</strong></td>
-      <td>Katalon Studio generated XPath will be displayed.</td>
-    </tr>
-    <tr>
-      <td><strong>CSS</strong></td>
-      <td>Editable text field allows users to manually input object's locator.</td>
-    </tr>
-  </tbody>
-</table>
+    <table>
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th colspan="2">Descriptions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="5"><strong>Selection Method</strong></td>
+          <td colspan="2">
+            The method which Katalon Studio will be using to detect web elements.
+          </td>
+        </tr>
+        <tr>
+          <td><strong>Options</strong></td>
+          <td><strong>Description</strong></td>
+        </tr>
+        <tr>
+          <td><strong>Attributes</strong></td>
+          <td>
+            Katalon Studio automatically generate an XPath combine with objects'
+            properties.
+          </td>
+        </tr>
+        <tr>
+          <td><strong>XPath</strong></td>
+          <td>
+            Katalon Studio <strong>Relative XPath</strong>. If an element cannot be
+            consistently located using its direct attributes, Katalon Studio will
+            identify by using its more robust neighbors.
+          </td>
+        </tr>
+        <tr>
+          <td><strong>XPath</strong></td>
+          <td>
+            Users are allowed to input CSS selector manually into Object Detect
+            Editor.
+          </td>
+        </tr>
+        <tr>
+          <td><strong>Properties Grid</strong></td>
+          <td colspan="2">
+            All the captured properties of the selected object. You can edit the
+            value of any property.
+          </td>
+        </tr>
+        <tr>
+          <td rowspan="4"><strong>Selector Editor</strong></td>
+          <td colspan="2">Display object locator based on selected method</td>
+        </tr>
+        <tr>
+          <td><strong>Options</strong></td>
+          <td><strong>Description</strong></td>
+        </tr>
+        <tr>
+          <td><strong>Basic or XPath</strong></td>
+          <td>Katalon Studio generated XPath will be displayed.</td>
+        </tr>
+        <tr>
+          <td><strong>CSS</strong></td>
+          <td>
+            Editable text field allows users to manually input object's locator.
+          </td>
+        </tr>
+      </tbody>
+    </table>
 
 > To learn more about object selection methods, refer to this document: [Selection Method](https://docs.katalon.com/katalon-studio/docs/working-with-objects-selection-method-for-spyrecord-web.html).
  
