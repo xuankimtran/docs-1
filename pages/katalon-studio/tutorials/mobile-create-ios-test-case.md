@@ -213,7 +213,7 @@ To run the recorded steps, follow these steps:
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/select-ios.png" width=30%>
 
-3. In the displayed **iOS Devices** dialog, select an iOS device or a Xcode simulator, then click **OK**.
+3. In the displayed **iOS Devices** dialog, select an iOS device or Xcode simulator, then click **OK**.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/ios-devices-list.png" width=50%>
 

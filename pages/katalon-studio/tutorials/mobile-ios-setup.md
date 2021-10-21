@@ -20,9 +20,9 @@ To begin with, you need to setup a macOS environment. You can not execute iOS mo
    > * Xcode must support the current version of your iOS device.
    > * Katalon Studio can only support iOS version 9.0 or above. To learn more about the supported environment in Katalon Studio, you can refer to this document: [Supported environment](https://docs.katalon.com/katalon-studio/docs/supported-environments.html#mobile).
 
-2. Install Command-line tool for Xcode. You can download the command-line tool compatible with your Xcode version from the Apple Developer website here: [Downloads](https://developer.apple.com/download/all/).
+2. Install the command-line tool for Xcode. You can download the command-line tool compatible with your Xcode version from the Apple Developer website here: [Downloads](https://developer.apple.com/download/all/).
 
-   Alternatively, you can copy and paste the following command-line arguments respectively to install the command-line tool for Xcode in the **Terminal**:
+   Alternatively, you can copy and paste the following command-line arguments in this order in the **Terminal** to install the command-line tool for Xcode:
 
       `xcode-select --install`
 
@@ -46,7 +46,7 @@ To begin with, you need to setup a macOS environment. You can not execute iOS mo
 
       `brew install ios-deploy`
 
-   - usbmuxd version 1.0.10 or newer. You can learn more about usbmuxd in this Github project: [usbmuxd](https://github.com/libimobiledevice/usbmuxd). To install usbmuxd via Homebrew, copy and paste the following command-line arguments respectively:
+   - usbmuxd version 1.0.10 or newer. You can learn more about usbmuxd in this Github project: [usbmuxd](https://github.com/libimobiledevice/usbmuxd). To install usbmuxd via Homebrew, copy and paste the following command-line arguments in this order:
 
       `brew install --HEAD usbmuxd`
 
@@ -54,7 +54,7 @@ To begin with, you need to setup a macOS environment. You can not execute iOS mo
 
       `brew link usbmuxd`
 
-   - libimobiledevice version 1.2.0 or newer. You can learn more about libimobiledevice on the libimobiledevice website: [libimobiledevice](https://libimobiledevice.org/). To install libimobiledevice via Homebrew, copy and paste the following command-line arguments respectively:
+   - libimobiledevice version 1.2.0 or newer. You can learn more about libimobiledevice on the libimobiledevice website: [libimobiledevice](https://libimobiledevice.org/). To install libimobiledevice via Homebrew, copy and paste the following command-line arguments in this order:
          
       `brew install --HEAD libimobiledevice`
 
