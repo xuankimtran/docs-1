@@ -20,7 +20,7 @@ If you have not used Linux before and need to test your build in Linux environme
 
 * Linux distributions:
 * Linux installation: You can install Linux with a USB stick or a drive, see Ubuntu documentation:
-* Use Linux on virtual machine: For Windows, you can try Hyper-V by Microsoft. For macOS, you can try VirtualBox.
+* Use Linux on virtual machine: Virtualisation programs such as Parallels Desktop and VMWare Fusion run on the macOS, but allow you to create a Virtual Machine - or VM - that mimics the hardware of a Windows PC. For Windows, you can try Hyper-V by Microsoft.
 * Another way to test your build in Linux environment without installing Linux is Docker. See Docker.
 
 This guide covers setting-up steps for running Katalon Studio GUI on Linux.
