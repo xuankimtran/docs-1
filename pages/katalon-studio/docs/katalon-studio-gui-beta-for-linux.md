@@ -61,7 +61,7 @@ On macOS, virtualization programs like Parallels Desktop, Virtual Box, and VMWar
 
 ### Download Katalon Studio
 
-Download [Katalon Studio for Linux](https://www.katalon.com/download/). Choose the Linux version of Katalon Studio, then click **Donwload**. A tar.gz file is downloading to your machine.
+Download [Katalon Studio for Linux](https://www.katalon.com/download/). Choose the Linux version of Katalon Studio, then click **Donwload**. A tar.gz file is being downloaded to your machine.
 
 ### Start Katalon Studio
 
