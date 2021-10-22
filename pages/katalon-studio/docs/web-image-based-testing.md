@@ -11,7 +11,7 @@ redirect_from:
 >* Katalon Studio version 7.2.2 onwards.
 >* An active Katalon Studio Enterprise license.
 
-Katalon Studio provides an image locator method to associate Test Objects with images. With this method, you can perform image-based testing when elements of the web application under test retain their appearance even though the underlying structures have changed.
+Katalon Studio provides an image locator method to associate Test Objects with images. With this method, you can perform image-based testing when elements of the web application under tests (AUT) retain their appearance even though the underlying structures have changed.
 
 This guide shows you how to configure image-based object recognition, capture screenshots, and reduce the chance of failures in image-based testing.
 
@@ -37,13 +37,27 @@ By default, image-based object recognition is disabled in Project Settings. Plea
 
 To produce images associated with captured Test objects, Katalon Studio includes the **Add Screenshot** button in both Web Recorder and Spy utility.
 
-To capture an image of a Test object:
+Here we use the **Spy Web Utility** to capture screenshots. Follow these steps:
 
-1. Open your AUT with Web Recorder/Spy utility.
-2. In the **Captured Objects** view, select a captured object and click the **Add Screenshot** button on the bottom right corner.
+1. To open the Spy Web Utility, from the main toolbar, select **Spy Web**.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/recorder.png" width=70% atl="Add Screenshot button">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/KS-Spy-Web-Utility.png" alt="Toolbar" width=70%>
 
+2. In the displayed **Object Spy** dialog, specify the URL of your AUT and the web browser. Click on the **Start** button to start capturing.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/KS-Object-Spy-dialog.png" alt="Object Spy dialog" width=70%>
+
+3. To capture an object, hover your mouse cursor over the web element and press the combination of **\<Alt + \`\>** keys.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/KS-Object-Spy-capture-object.png" alt="Capture object" width=70%>
+
+4. In the **Captured Objects** view, select the captured object and click the **Add Screenshot** button on the bottom right corner.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/KS-Object-Spy-add-screenshot.png" alt="Add screenshot" width=70%>
+
+5. After the Spy utility verifies the image with the message **"Screenshot taken!"**, click on the **Save** button to save the captured object and its screenshot.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/KS-Object-Spy-screenshot-taken.png" alt="Screenshot taken message" width=70%>
 
 > **Notes**
 >
@@ -59,11 +73,11 @@ To use the image locator of an object:
 
 1. Select the object in the **Object Repository**.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/KS-Object-view.png" width=70% alt="Object view">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/KS-Object-repository-select-object.png" alt="Select the object" width=70%>
 
 2. In the **Object** view, navigate to **Selection Method** and select the **Image** option.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/image-locator.png" width=70% alt="Object selection method">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/KS-Object-view-select-image.png" alt="Select the image locator" width=70%>
 
 <details>
 <summary><strong>Before 7.6</strong></summary>
@@ -73,14 +87,13 @@ After you capture a screenshot using Web Recorder/Spy utility, Katalon Studio ad
 To enable the image locator of an object:
 
 1. Select the object in the **Object Repository**.
-<br>
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/KS-Object-view.png" alt="Object view">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/KS-Object-view-image-path.png" alt="Object view">
 
 2. Select <strong>Attributes</strong> as the <strong>Selection Method</strong>.
 3. In the <strong>Object's Properties</strong> table, tick the <strong>screenshot</strong> property. 
-<br>
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/property.png" width=70% alt="Object's Properties table">
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/property.png" width=70% alt="Object's Properties table">
 </details>
 
 > **Notes**
