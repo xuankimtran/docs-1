@@ -84,7 +84,7 @@ This section provides some additional setup for Mobile and Web Services.
 
   * If you see an EACCES error with the Appium installation command, follow the instructions of npm documentation here: [Resolving EACCES permissions errors when installing packages globally](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally).
 
-  * If you encounter an error related to that Java `jar` file can't be found. You might need to add the environment variable: `KATALON_JAVA_HOME= <JRE_location>`.
+  * If you encounter an error related to that Java `jar` file can't be found, you might need to add the environment variable: `KATALON_JAVA_HOME= <JRE_location>`.
   * Set the Appium directory manually in **Katalon Studio Preferences**. The default directory should be `/usr/lib/node_modules/appium/`.
 
 ### Web Services
