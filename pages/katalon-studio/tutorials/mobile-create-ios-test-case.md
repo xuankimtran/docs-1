@@ -185,10 +185,10 @@ In this example, we record the following actions to test the **Coffee Timer** ap
       <tbody>
       <tr>
       <td><strong>Export to new test case</strong></td>
-      <td>To export the recorded test steps to a new test case.</td>
+      <td>To export the recorded test steps to a new test case.</td>
       </tr>
       <tr>
-      <td><strong>Append to test case</strong></td>
+      <td><strong>Append to test case</strong></td>
       <td>To add the recorded test steps to an existing test case.</td>
       </tr>
       <tr>
