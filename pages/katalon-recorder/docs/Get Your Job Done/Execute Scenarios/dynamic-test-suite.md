@@ -41,7 +41,7 @@ Katalon Recorder offers three possible ways to catergorize your test cases with 
 
          <img src="url" width="70%" alt="Edit tags in all test cases">
 
-2. The **Test case** view:
+2. The test case view: 
 
    <img src="url" width="70%" alt="Add tags from test case view">
 
@@ -54,30 +54,35 @@ Katalon Recorder offers three possible ways to catergorize your test cases with 
    > In the **Workspace** sidebar, you can quickly add tags into all test cases in a test suite by click **Tags** <img src="url" width="30%" alt="Tag icon"> in the test suite.
 ## Execute Dynamic Test Suite
 
-After catergorizing your test cases with tags, you can now execute them in a dynamic test suite.
-### Execute a Dynamic Test Suite directly from tags
+After catergorizing your test cases with tags, you can now execute them in a dynamic test suite. 
+### Create a new Dynamic Test Suite
 
-1. From the **Workspace** sidebar, click **Tags** <img src="url" width="30%" alt="Tag icon"> of the test case you wish to add in a Dynamic Test Suite. 
-   
-   <img src="url" width="70%" alt="Click the tag from the test case panel">
+To quickly create a new Dynamic Test Suite, from the **Workspace** sidebar or the test case view, click on a tag. An **Execute test case** dialog opens, showing all test cases of the selected tag.
 
-2. An **Execute test case** dialog appears, showing all test cases that have selected tags from step 1.
-   
-   <img src="url" width="70%" alt="Click the tag from the test case panel">
+<img src="url" width="70%" alt="Click a a tag from the workspace sidebar">
 
-In case you want to add more tags, select or types desired tags to include them in the **Query** box. Each tag is seperated by `,`. For example: `tag_1,tag_2`.
+<img src="url" width="70%" alt="A execute test case dialog opens">
 
-3. Click **Execute** to create and execute a dynamic test suite with the specified query.
+Alternatively, from the **Workspace** sidebar, you can right-click on **Test Suite > New Dynamic Test Suite** to create a new Dynamic Test Suite.
 
-### Execute a Dynamic Test Suite from Test Suite view
+<img src="url" width="70%" alt="Create a new dynamic test suite manually">
 
-1. In the **Workshop** sidebar, right-click on **Test Suite > New Dynamic Test Suite** to create a new Dynamic Test Suite.
+### Add tags into a Dynamic Test Suite
 
-2. To add associated test cases via search query, click or manually input tags name into the **Query** box. Then click **Apply** to query out the matching test cases.
-   
-   For example: To add the test cases with the `Calculator` and `Dashboard` tags into this dynamic test suite, you can input `Caculator,Dashboard` into the **Query** box. The matching test case appears in the test suite.
+To add tags into a Dynamic Test Suite, select or type desired tags to include them in the **Query** box. Each tag is seperated by *Comma*(,). Then click **Apply** to query out the matching test cases.
 
-   <img src="url" width="70%" alt="Results after searching query">
+For example: To add the test cases with the `tag_1` and `tag_2` tags into the dynamic test suite, you can click on the `tag_1` and `tag_2` tags or input `tag_1,tag_2` into the **Query** box, then click **Apply**. The matching test case appears in the test suite.
 
-3. Hit **Play** to execute the test suite.
-4. After executing the test suite, you can check the status of you test in the **Log** tab. 
+<img src="url" width="70%" alt="Results after searching query">
+
+### Run the Dynamic Test Suite
+
+Click **Execute** to create and execute the dynamic test suite with the specified query.
+
+<img src="url" width="70%" alt="Execute the dynamic test suite">
+
+After executing the test suite, you can check the status of your test in the **Log** tab. 
+
+> Notes:
+> 
+> For real-time monitoring and better reporting capabilities, consider integrating your project with Katalon TestOps. To learn more about TestOps intergration, you can refer to this document: [View execution reports in TestOps](https://docs.katalon.com/katalon-recorder/docs/monitor-scenario-executions.html#login-to-testops).
