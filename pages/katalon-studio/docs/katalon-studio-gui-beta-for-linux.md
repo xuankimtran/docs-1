@@ -42,13 +42,20 @@ On macOS, virtualization programs like Parallels Desktop, Virtual Box, and VMWar
 
     ``` groovy
     sudo apt-get install openjdk-8-jre
-    sudo update-alternatives --config java //then choose the openjdk-8-jre option
-    java -version
     ```
 
     You can find more information about the installation steps at the OpenJDK document: [How to download and install prebuilt OpenJDK packages](http://openjdk.java.net/install/). Once you finish the installation, your `OpenJDK` information is displayed when you execute `java -version` command.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-gui-beta-for-linux/Screen-Shot-2018-02-07-at-11.50.50.png" alt="linux" width=100%>
+
+    If you have multiple versions of OpenJDK installed and the correct version is not being used, use the alternatives command to switch between them:
+    
+    ``` groovy
+    
+    sudo update-alternatives --config java //then choose the openjdk-8-jre option
+    ```
+
+    Verify the version of the JDK again using `java -version` command.
 
     > After you have finished configuring the system, restart it to take effect.
 
