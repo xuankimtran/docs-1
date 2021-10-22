@@ -75,7 +75,7 @@ This guide shows you how to use Spy Web Utility to capture and manually define t
     
 3. Katalon Studio launches the selected browser. Hover the mouse cursor over the web element to be captured.  
 
-    Spy Web Utility highlights the web object with a red border. An overlay pane is also displayed at the top edge of the screen to show relevant **XPath** info. 
+    Spy Web Utility highlights the web object with a red border. An overlay pane is also displayed at the top edge of the screen to show relevant **XPath** information. 
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-web-utility/KS-Web-Spy-highlighted-element.png" width=70% alt="Web Spy highlights element"> 
       
@@ -185,23 +185,23 @@ This guide shows you how to use Spy Web Utility to capture and manually define t
 
     Here we define a button element using the **Attributes** selection method. The chosen properties are **tag** and **id**.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-web-utility/KS-Object-Spy-New-Object.png" width=70% alt="Add Element to object repository">  
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-web-utility/KS-Object-Spy-new-object.png" width=70% alt="Add Element to object repository">  
     
-5. Click **Verify and Highlight** to ensure Katalon Studio can locate the object.
+5. Click the **Verify and Highlight** button to verify the object.
 
-    If there is a web object with matched **Selector Editor** value, it is highlighted **red** in the opened browser, and the message **" Found X element using XPath Selector"** is displayed.
+    If there is a web object with matched **Selector Editor** value, it is highlighted **red** in the opened browser, and the message **"Found X element using XPath Selector"** is displayed.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-web-utility/KS-Object-Spy-verify-object.png" width=70% alt="Verify object"> 
     
 6. Once finished, click **Save** to add the object to **Object Repository** as normal.
 
-## Get web object XPath or CSS locator
+## Get web element XPath or CSS locator
 
 1. In the open spying browser, right-click on the target web element and select **Inspect**.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-web-utility/KS-Web-element-right-click.png" width=70% alt="Right-click on web element"> 
 
-2. In the inspector window, the selected element is highlighted, indicating the target element's location in the HTML DOM. Right-click on the highlighted line and select **Copy > Copy XPath** or **Copy Selector**.
+2. In the inspector window, the selected element is highlighted, indicating the target element's location in the HTML DOM. Right-click on the highlighted line and select **Copy > Copy XPath** or **Copy selector**.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-web-utility/KS-Web-element-copy-XPath.png" width=70% alt="Copy XPath">   
       
