@@ -31,7 +31,7 @@ Repeat the steps to create multiple Global Variable Profiles.
 > * You must set one Global Variable Profile as default.
 > * You cannot delete a default Global Variable Profile. To delete it, you have to set another Global Variable Profile as default.
 
-## Use global variables
+### Use global variables
 
 Follow these steps:
 
