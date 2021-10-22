@@ -34,9 +34,11 @@ You can download the sample project here at our Github repository: [Katalon SAP 
    
     <img src="url" width="70%" alt="Open the default file">
 
-2. In the **Value** cell of the **username** and **password** variables, change the sample value to your SAP account.
+2. Double-click the **Value** cell of the **username** and **password** variables, change the sample value to your SAP account.
 
-    <img src="url" width="70%" alt="Fill in your username and password">
+    <img src="url" width="70%" alt="Fill in your username">
+
+    <img src="url" width="70%" alt="Fill in your password">
 
 ### Create a new test case based on the sample project
 
@@ -65,6 +67,7 @@ You can download the sample project here at our Github repository: [Katalon SAP 
 3. Open the **Script** tab of the **TestCaseTemplate** test case, copy the content and paste it into the **Script** tab of the new test case created from step 1.
 
     <img src="url" width="70%" alt="Copy the test script in the TestCaseTemplate sample test"> (This can be numbering 1-3 steps in the picture)
+    
     <img src="url" width="70%" alt="Paste the test script into the new test case">
 
 ### Record test script using SAP Scripting Tracker
@@ -73,9 +76,13 @@ You can download the sample project here at our Github repository: [Katalon SAP 
    
    <img src="url" width="70%" alt="3 sample test cases">
 
-2. Open SAP Scripting Tracker and start recording your SAP GUI script. 
+2. Open SAP Scripting Tracker, select the SAP session.
+   
+   <img src="url" width="70%" alt="Select the SAP session">
 
-    Here, we record the following scenerio in Java language:
+3. Choose Java language, then click **Record** to start recording your SAP GUI script. 
+
+    Here, we record the following scenerio:
 
     - In the opened SAP GUI session, go to **SAP Menu > Human Resources**. Double-click on **PPMDT - Manager's Desktop**. The **Manager's Desktop** interface opens.
     - Double-click on **Personal Data** to open the folder.
@@ -85,11 +92,13 @@ You can download the sample project here at our Github repository: [Katalon SAP 
 
     <img src="url" width="70%" alt="Recording from Scripting Tracker"> (put a gif file here)
 
-3. After finishing your recording, copy and paste the content from Scripting Tracker into your Katalon test script.
+4. After finishing your recording, copy and paste the content from Scripting Tracker into your Katalon test script.
 
     <img src="url" width="70%" alt="Copy the script from Scripting Tracker">
 
     <img src="url" width="70%" alt="Paste the script into the Katalon test script">
+
+    <img src="url" width="70%" alt="Results after pasting the script into the Katalon test script">
 ### Run the test script
 
 To run the recorded test script, on the main toolbar, select **Windows** in the dropdown list next to **Run**.
