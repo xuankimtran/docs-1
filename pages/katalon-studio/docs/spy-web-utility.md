@@ -65,7 +65,7 @@ This guide shows you how to use Spy Web Utility to capture and manually define t
               </p>
               <p>
                 Refer to
-                <a href="https://docs.katalon.com/katalon-studio/docs/katalon-addon-for-chrome.html">Katalon Addon for Chrome</a>
+                <a href="https://docs.katalon.com/katalon-studio/docs/katalon-addon-for-chrome.html">Katalon Add-on for Chrome</a>
                 for more details.
               </p>
             </td>
@@ -126,7 +126,7 @@ This guide shows you how to use Spy Web Utility to capture and manually define t
           </td>
         </tr>
         <tr>
-          <td><strong>XPath</strong></td>
+          <td><strong>CSS</strong></td>
           <td>
             Users are allowed to input CSS selector manually into Object Detect
             Editor.
@@ -177,7 +177,9 @@ This guide shows you how to use Spy Web Utility to capture and manually define t
 
 1. **Add a Page element**: Web objects need a web page to hold them. Click on the **New page** button from the toolbar to add a new Page element manually.  
 
-2. **Add a Frame element**: If the new object is a nested object, a frame is needed to locate the element. Frames are web elements that usually contain many other web objects.
+2. **Add a Frame element** (optional): If the new object is a nested object, a frame is needed to locate the element. Frames are web elements that usually contain many other web objects. 
+
+    The current page of the AUT doesn't contain any frame so we don't need to add a Frame element.
     
 3. **Add an Object element**: Click on the **New object** button from the toolbar to manually add a web object. Click **Delete** to remove any unwanted element.
 
