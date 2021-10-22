@@ -14,18 +14,18 @@ redirect_from:
 description: 
 ---
 
-Linux is an open-source operating system with many distributions. If you are a Linux user or you want to test your build in a Linux environment, you can still enjoy Katalon Studio with a GUI on your Linux. You can also use Katalon Runtime Engine for Linux to run your test in console mode.
+Linux is an open-source operating system with many distributions. If you are a Linux user or you want to test your build in a Linux environment, you can still enjoy Katalon Studio with a GUI on your Linux. You can also run your test in console mode with Katalon Runtime Engine for Linux.
 
-Katalon Studio for Linux is compatible with any latest version of Linux distribution that supports Gnome, KDE, or Unity DE. You can find links to popular distribution download pages at [Linux.org](https://www.linux.org/pages/download/). Katalon Studio for Linux is tested by our Katalon team on Linux Ubuntu. To learn more about how to install Linux Ubuntu, see Ubuntu documentation: [Installation](https://help.ubuntu.com/community/Installation).
+Katalon Studio for Linux is compatible with any latest version of Linux distribution that supports Gnome, KDE, or Unity Desktop Environment. You can find links to popular distribution download pages at [Linux.org](https://www.linux.org/pages/download/). Our Katalon team has tested Katalon Studio for Linux on Ubuntu Linux. See the Ubuntu manual for additional information on how to install Linux Ubuntu: [Installation](https://help.ubuntu.com/community/Installation).
 
 This guide covers setting up steps for running Katalon Studio GUI on Linux.
 
 <details>
   <summary><strong>New to Linux? Here are some tips!</strong></summary>
 
-You can install Linux with a LiveDVD, USB drive, or physical disk to a Virtual Machine. Before installing Linux, take a look at the [System Requirements](http://docs.katalon.com/display/KD/System+Requirements) to work with Katalon Studio.
+You can install Linux with a LiveDVD, USB drive, or physical disk to a Virtual Machine. Before installing Linux, take a look at the [System Requirements](http://docs.katalon.com/display/KD/System+Requirements) to operate with Katalon Studio.
 
-Virtualization programs such as Parallels Desktop, Virtual Box, and VMWare Fusion run on the macOS allow you to create a Virtual Machine that mimics the hardware of a Linux operating system. For Windows, you can try Hyper-V by Microsoft. To learn more about these virtualization programs, see Parallels Desktop documentation [Parallels Desktop for Mac](https://www.parallels.com/products/desktop/resources/), Virtual Box documentation [About VirtualBox](https://www.virtualbox.org/wiki/VirtualBox), WMWare documentation [Creating a Linux Virtual Machine in Fusion](https://docs.vmware.com/en/VMware-Fusion/12/com.vmware.fusion.using.doc/GUID-4919245A-CD5D-4FC7-B5D0-4D90DFAFC7F7.html), or Microsoft documentation [Hyper-V on Windows Server](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/hyper-v-on-windows-server).
+On macOS, virtualization programs like Parallels Desktop, Virtual Box, and VMWare Fusion allow you to construct a Virtual Machine that emulates the hardware of a Linux operating system. Microsoft's Hyper-V is a good option for Windows. To learn more about these virtualization programs, see Parallels Desktop documentation [Parallels Desktop for Mac](https://www.parallels.com/products/desktop/resources/), Virtual Box documentation [About VirtualBox](https://www.virtualbox.org/wiki/VirtualBox), WMWare documentation [Creating a Linux Virtual Machine in Fusion](https://docs.vmware.com/en/VMware-Fusion/12/com.vmware.fusion.using.doc/GUID-4919245A-CD5D-4FC7-B5D0-4D90DFAFC7F7.html), or Microsoft documentation [Hyper-V on Windows Server](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/hyper-v-on-windows-server).
 </details>
 
 ## Install Katalon Studio for Linux
@@ -49,6 +49,8 @@ Virtualization programs such as Parallels Desktop, Virtual Box, and VMWare Fusio
     You can find more information about the installation steps at the OpenJDK document: [How to download and install prebuilt OpenJDK packages](http://openjdk.java.net/install/). Once you finish the installation, your `OpenJDK` information is displayed when you execute `java -version` command.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-gui-beta-for-linux/Screen-Shot-2018-02-07-at-11.50.50.png" alt="linux" width=100%>
+
+    > After you have finished configuring the system, restart it to take effect.
 
 ### Download Katalon Studio
 
