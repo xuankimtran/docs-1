@@ -34,7 +34,7 @@ Katalon Recorder offers three possible ways to catergorize your test cases with 
 
          <img src="url" width="70%" alt="Add tags into all test case in a test suite from tags management">
 
-      - To remove tags, click *Remove* (x) in the tag you wish to remove. Katalon Recorder deletes it from all test cases. 
+      - To remove tags, click *Remove* (Trash icon) in the tag you wish to remove. Katalon Recorder deletes it from all test cases. 
 
          <img src="url" width="70%" alt="Remove tags in all test cases">
 
@@ -42,7 +42,7 @@ Katalon Recorder offers three possible ways to catergorize your test cases with 
 
          <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/dynamic-test-suite/KR-DYNAMIC-Edit-tags.png" width="70%" alt="Edit tags in all test cases">
 
-         
+
 
 2. The test case view: 
 
