@@ -32,9 +32,11 @@ You can download the sample project here at our Github repository: [Katalon SAP 
 
 1. After downloading our sample project, from the **Test Explorer** panel, open **Profiles > default**.     
 
-2. Double-click the **Value** cell of the **username** and **password** variables, change the sample value to your SAP account.
+2. Double-click the **Value** cell of the **username** and **password** variables.  
    
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-Open-the-default-file.png" width="70%" alt="Open the default file">
+
+3. In the opened **Edit variables** dialog, change the sample value to your SAP account.
    
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-Fill-in-your-username.png" width="70%" alt="Fill in your username">
 
