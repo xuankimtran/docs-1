@@ -53,6 +53,9 @@ Follow these steps:
 
 5. Click **Confirm**.
 
+    You will be redirected to the **Pending Invitation** section.
+    An invitation email has also been sent to the user you have invited.
+
 6. Send your users this guide: [Join TestOps Organizations](https://docs.katalon.com/katalon-analytics/docs/kt_users_joining_org.html).
 
     Once your users follow the guide to join your Organization, they become Members of your Organization.
@@ -61,7 +64,7 @@ Follow these steps:
 >
 > The invitation link is valid for 24 hours. After that, you will have to invite your team members again.
 
-Alternatively, you can copy the activation link in the **Pending Invitation** section and send it to them.
+Alternatively, you can copy the activation link in the **Pending Invitation** section and send it to your users.
 
 ## Manage users
 
