@@ -32,7 +32,7 @@ To accept the invitation to join an Organization, follow these steps:
 
 4. Click **Join [Organization name]** to become a Member of the Organization.
 
-    You will be directed to TestOps homepage.
+    You will be directed to the TestOps homepage.
 
 You now have access to the Organization. You can use the product license that the Owner/Admin has assigned to you.
 
