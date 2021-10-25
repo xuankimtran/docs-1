@@ -45,7 +45,7 @@ Follow these steps:
 
 ## Remove a license
 
-This action removes the license associated with that machine ID and those licenses are available to be attributed again. That User can still use the free Katalon product.
+This action removes a license associated with a machine ID. This license is then available to be attributed again. The User that was using the license can still use the free Katalon product.
 
 > Notice:
 >
@@ -55,7 +55,7 @@ Follow these steps:
 
 1. Go to the **Licenses** page.
 
-2. In the **Online Licenses** section, click on the *Trash bin* icon of the machine ID for which you want to revoke the license.
+2. In the **Online Licenses** section, click on the *Trash bin* icon of the machine ID for which you want to remove the license.
 
    The **Remove license** box appears as below.
 
@@ -67,11 +67,11 @@ Follow these steps:
 >
 > * You cannot remove an offline license from a machine until the license is expired.
 >
-> * You can revoke Katalon Studio Enterprise's (KSE) **Online Licenses** only. For Katalon Runtime Engine (KRE), see: [Manage Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license-management.html#transfer-a-license).
+> * You can remove Katalon Studio Enterprise's (KSE) **Online Licenses** only. For Katalon Runtime Engine (KRE), see: [Manage Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license-management.html#transfer-a-license).
 
 ## Remove a registered machine ID
 
-This action removes the license associated with that machine ID and those licenses are available to be attributed again. The User associated with that machine ID can still use the free Katalon product.
+This action removes the license associated with a registered machine ID. This license is then available to be attributed again. The User who had their machine ID removed from the registered machine ID list can still use the free Katalon product.
 
 Follow these steps:
 
