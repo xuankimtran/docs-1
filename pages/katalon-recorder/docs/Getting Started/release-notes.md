@@ -10,40 +10,15 @@ redirect_from:
 description:
 ---
 
-## 5.5.4.10
-**Bug fixes**
-- Users cannot use a CSV file in test cases on some Windows machines.
-
-## 5.5.4.9
-**Shiny new things**
-- The ability to export multiple test cases to Selenium frameworks.
-- Improve visibility Template Dialog.
-
-## 5.5.4.6
-**Improvement**
-- Improve exporting tests to Java Junit, Java TestNG, Python.
-
-**Bug fixes**
-- Fix issues cannot progress through Generating Selenium tests in the on-boarding flow.
-
-## 5.5.4.5
-**Shiny new things**
-- Add the ability to export test projects to Katalon Studio.
-
-**Bug fixes**
-- Users cannot see failed tests when they upload them to TestOps.
-
 ## 5.5.4.4
-**Shiny new things**
-- Add an on-boarding flow for new users.
-- Execution results are kept after being stopped.
-- Promote the Template Dialog after the first successful execution.
-
 **Bug fixes**
-- Users cannot navigate between Command, Target, Value fields using Tab.
-- Context menus don't disappear after interacting with other elements.
-- Breakpoints disappear after switching to another test case.
-- Cannot restore backup from TestOps.
+- Users now can navigate between Target, Command and Value using tabs again.
+- Users can now restore their backup data from TestOps again.
+- Breakpoints are remembered when users switch between test caes again.
+**Improvements**
+- Autosuggested options now will disappear when users interact with other elemenets.
+- Test cases' execution status will be retained when users stop the execution mid-way.
+- Added an explanation via tooltip when users use Save Test Case functionality the first time.
 
 ## 5.5.4.3
 **Bug fixes**
