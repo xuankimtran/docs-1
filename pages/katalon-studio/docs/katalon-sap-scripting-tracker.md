@@ -32,13 +32,13 @@ You can download the sample project here at our Github repository: [Katalon SAP 
 
 1. After downloading our sample project, from the **Test Explorer** panel, open **Profiles > default**. 
    
-    <img src="url" width="70%" alt="Open the default file">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-Open-the-default-file.png" width="70%" alt="Open the default file">
 
 2. Double-click the **Value** cell of the **username** and **password** variables, change the sample value to your SAP account.
 
-    <img src="url" width="70%" alt="Fill in your username">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-Fill-in-your-username.png" width="70%" alt="Fill in your username">
 
-    <img src="url" width="70%" alt="Fill in your password">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-Fill-in-ur-password.png" width="70%" alt="Fill in your password">
 
 ### Create a new test case based on the sample project
 
@@ -62,25 +62,29 @@ You can download the sample project here at our Github repository: [Katalon SAP 
     </tbody>
     </table>
 
-    <img src="url" width="70%" alt="3 sample test cases">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-3-sample-test-cases.png" width="70%" alt="3 sample test cases">
 
 3. Open the **Script** tab of the **TestCaseTemplate** test case, copy the content and paste it into the **Script** tab of the new test case created from step 1.
 
-    <img src="url" width="70%" alt="Copy the test script in the TestCaseTemplate sample test"> (This can be numbering 1-3 steps in the picture)
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-Copy-the-test-script-in-the-TestCaseTemplate-sample.png" width="70%" alt="Copy the test script in the TestCaseTemplate sample test">
     
-    <img src="url" width="70%" alt="Paste the test script into the new test case">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-Paste-the-test-script-into-the-new-test-case.png" width="70%" alt="Paste the test script into the new test case">
 
 ### Record test script using SAP Scripting Tracker
 
 1. Start SAPLogon and sign in SAP GUI with your SAP account.
    
-   <img src="url" width="70%" alt="3 sample test cases">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-Start-SAPLogon.png" width="70%" alt="Start SAPLogon">
 
-2. Open SAP Scripting Tracker, select the SAP session.
+2. After signing in, open SAP Scripting Tracker. Click **Refresh**, then select the current SAP session.
    
-   <img src="url" width="70%" alt="Select the SAP session">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-select-SAP-session.png" width="70%" alt="Select the SAP session">
 
 3. Choose Java language, then click **Record** to start recording your SAP GUI script. 
+
+    > Notes:
+    >
+    > Katalon can only read Java language generated from SAP Scripting Tracker. 
 
     Here, we record the following scenerio:
 
@@ -90,15 +94,15 @@ You can download the sample project here at our Github repository: [Katalon SAP 
 
     We stop recording here.
 
-    <img src="url" width="70%" alt="Recording from Scripting Tracker"> (put a gif file here)
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-record-scenerios.gif" width="70%" alt="Recording from Scripting Tracker"> (put a gif file here)
 
 4. After finishing your recording, copy and paste the content from Scripting Tracker into your Katalon test script.
 
-    <img src="url" width="70%" alt="Copy the script from Scripting Tracker">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-Copy-the-script-from-Scripting-Tracker.png" width="70%" alt="Copy the script from Scripting Tracker">
 
-    <img src="url" width="70%" alt="Paste the script into the Katalon test script">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-Paste-after-pasting-the-script-into-Katalon.png" width="70%" alt="Paste the script into the Katalon test script">
 
-    <img src="url" width="70%" alt="Results after pasting the script into the Katalon test script">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-Final-results.png" width="70%" alt="Results after pasting the script into the Katalon test script">
 ### Run the test script
 
 To run the recorded test script, on the main toolbar, select **Windows** in the dropdown list next to **Run**.
