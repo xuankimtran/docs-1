@@ -18,7 +18,7 @@ To accept the invitation to join an Organization, follow these steps:
 
 2. Click on the invitation link in the email.
 
-     You will be directed to [Katalon TestOps](https://testops.katalon.io/login).
+     You will be directed to [Katalon TestOps](https://my.katalon.com/login).
 
 3. Sign in to Katalon TestOps.
  
