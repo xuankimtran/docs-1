@@ -6,8 +6,6 @@ redirect_from:
 description: 
 ---
 
-<INTRODUCTION>
-
 Scripting Tracker is a utility and a replacement to the SAP GUI Scripting Development Tools. It is a SAP GUI analyzer and recorder on SAP GUI Scripting base. You can learn more about SAP Scripting Tracker in the SAP blog post here: [Scripting Tracker – Development Tool for SAP GUI Scripting](https://blogs.sap.com/2014/11/20/scripting-tracker-development-tool-for-sap-gui-scripting/).
 
 This tutorial demonstrates how to combine Katalon Studio with SAP Scripting Tracker for Windows. 
@@ -19,14 +17,12 @@ This tutorial demonstrates how to combine Katalon Studio with SAP Scripting Trac
 ## Enable SAP Scripting mode
 
 To enable SAP scripting mode, you can refer to the SAP document here: [Enabling Scripting on the Server Side](https://help.sap.com/viewer/8ecea00c1f854fd0a433c4aef5da1ea2/Cloud/en-US/001675913cc54719930aa8197478dcde.html).
-
 ## Build your record test case
 ### Download our sample Katalon SAP GUI project
 
 This sample project provides you code samples, custom keywords and sample test cases that gives you necessary preparations to automate your test script with SAP Scripting Tracker.
 
 You can download the sample project here at our Github repository: [Katalon SAP GUI sample project](https://github.com/katalon-studio-samples/kat-sap-gui-sample-test).
-
 ### Add your login account to the test case
 
 1. After downloading our sample project, from the **Test Explorer** panel, open **Profiles > default**.     
@@ -40,7 +36,6 @@ You can download the sample project here at our Github repository: [Katalon SAP 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-Fill-in-your-username.png" width="70%" alt="Fill in your username">
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-Fill-in-ur-password.png" width="70%" alt="Fill in your password">
-
 ### Create a new test case based on the sample project
 
 1. Create a new test case. Go to **File > New > Test Case**.
@@ -70,7 +65,6 @@ You can download the sample project here at our Github repository: [Katalon SAP 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-Copy-the-test-script-in-the-TestCaseTemplate-sample.png" width="70%" alt="Copy the test script in the TestCaseTemplate sample test">
     
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-Paste-the-test-script-into-the-new-test-case.png" width="70%" alt="Paste the test script into the new test case">
-
 ### Record test script using SAP Scripting Tracker
 
 1. Start SAP Logon and sign in SAP GUI with your SAP account.
@@ -108,5 +102,7 @@ You can download the sample project here at our Github repository: [Katalon SAP 
 ### Run the test script
 
 To run the recorded test script, on the main toolbar, select **Windows** in the dropdown list next to **Run**.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-Run-the-test.png" width="30%" alt="Run the test">
 
 Katalon will automatically sign in SAP GUI with your SAP account and playback the recorded steps from Scripting Tracker.
