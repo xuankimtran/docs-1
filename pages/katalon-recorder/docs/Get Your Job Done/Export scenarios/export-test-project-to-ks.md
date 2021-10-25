@@ -1,31 +1,21 @@
 ---
-title: "Export Test Projects to Katalon Studio"
+title: "Export Test Projects"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-recorder/docs/export-test-project-to-ks.html
 description: 
 ---
 
-From version 5.6.0 onwards, Katalon Recorder (KR) users can export the entire test project to Katalon Studio (KS).
+From version 5.6.0 onwards, Katalon Recorder (KR) users can export multiple tests to other frameworks in one file.
 
-This feature is especially useful to users outgrowing the capabilities of KR. As your work requirements and projects complexity increase, you can move your test artifacts and projects to KS. This allows you to benefit from Studio's more advanced features without losing your work.
+You can also export KR tests into Java Maven and Python projects.
 
-This feature allows you to:
+This feature is especially useful to users outgrowing the capabilities of KR. As your work requirements and projects complexity increase, you can move your test artifacts and projects to other frameworks. This allows you to benefit from further advanced testing without losing your work.
 
-* pull all your test artifacts in one place.
-    
-    By doing so, you can save time arranging all relevant test artifacts into the exported project in KS.
+The table below shows the full list of exporting features that KR offers, compared with Selenium IDE:
 
-* preview the exported test artifacts.
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/5.6.0-release/KR%20vs.%20Selenium%20exporting%20features.png" width=100% alt="kr kr vs selenium in exporting">
 
-    By doing so, you can detect problems faster and/or double check if your test articfacts are exported successfully.
-
-* select and export your desired test artifacts to KS,
-
-    By doing so, you can make sure their compatibilities with KS functions.
-
-* monitor the export procedure.
-
-    By doing so, you can ensure the smooth transition and reduce uncertainty.
+## Export to Katalon Studio
 
 To export a test project to KS, follow these steps:
 
@@ -39,4 +29,24 @@ To export a test project to KS, follow these steps:
 3. Select the data you want to export.
 4. Click **Export**.
 
+## Export to other frameworks
 
+> Requirements:
+>
+> * You have had a ChromeDriver.
+> * You have had an IDE for Java (preferably IntelliJ).
+
+Follow these steps:
+
+1. Open Katalon Recorder.
+2. On the left sidebar, go to **Export** > **Export to other frameworks**.
+
+3. Select a framework (e.g., **Java (WebDriver + TestNG)**).
+
+4. Select the tests you want to export.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/5.6.0-release/export-to-java.png" width=100% alt="kr export test project to ks">
+
+   Katalon Recorder will also notify you here if there are incompatible commands.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/5.6.0-release/incompatible-commands.png" width=100% alt="kr export test project to ks">
+    
+4. Click **Export**.
