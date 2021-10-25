@@ -26,11 +26,11 @@ To accept the invitation to join an Organization, follow these steps:
     >
     > Make sure that the account you log in with is the same as the account you were invited with.
 
-    The invitation page appears.
+    The invitation page appears as below.
 
-4. Click **Join** to become a Member of the Organization.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-invite-user-org/k1-invitation-to-join-org-blurred.png" width=100% alt="valid invitation link">
 
-    You will see a message saying *You are now a member of [Organization name]*.
+4. Click **Join KatOne** to become a Member of the Organization.
 
 You now have access to the Organization. You can use the product license that the Owner/Admin has assigned to you.
 
@@ -38,6 +38,6 @@ You now have access to the Organization. You can use the product license that th
 >
 > * If you decline the invitation to join the Organization, you won't have access to that Organization.
 >
-> * If the invitation link has expired, you will see a message saying invalid link instead (image below). Ask your Owner/Admin to resend the invitation.
-> <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-subscription-docs/image-20210923-032528.png" width=100% alt="invalid invitation link">
+> * If the invitation link has expired, you will see a message saying invalid link (image below). In such case, ask your Owner/Admin to resend the invitation.
+> <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-invite-user-org/k1-invalid-invitation-link.png" width=100% alt="invalid invitation link">
 
