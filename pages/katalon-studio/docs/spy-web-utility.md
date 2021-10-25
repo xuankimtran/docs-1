@@ -89,89 +89,17 @@ This guide shows you how to use Spy Web Utility to capture and manually define t
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-web-utility/KS-Object-Spy-captured-object.png" width=70% alt="Captured object">  
 
-    
-6. Select the object in the **Captured Objects** tree; the utility displays its details in the **Object Properties** section.
-
-    <table>
-      <thead>
-        <tr>
-          <th>Type</th>
-          <th colspan="2">Descriptions</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td rowspan="5"><strong>Selection Method</strong></td>
-          <td colspan="2">
-            The method which Katalon Studio will be using to detect web elements.
-          </td>
-        </tr>
-        <tr>
-          <td><strong>Options</strong></td>
-          <td><strong>Description</strong></td>
-        </tr>
-        <tr>
-          <td><strong>Attributes</strong></td>
-          <td>
-            Katalon Studio automatically generate an XPath combine with objects'
-            properties.
-          </td>
-        </tr>
-        <tr>
-          <td><strong>XPath</strong></td>
-          <td>
-            Katalon Studio <strong>Relative XPath</strong>. If an element cannot be
-            consistently located using its direct attributes, Katalon Studio will
-            identify by using its more robust neighbors.
-          </td>
-        </tr>
-        <tr>
-          <td><strong>CSS</strong></td>
-          <td>
-            Users are allowed to input CSS selector manually into Object Detect
-            Editor.
-          </td>
-        </tr>
-        <tr>
-          <td><strong>Properties Grid</strong></td>
-          <td colspan="2">
-            All the captured properties of the selected object. You can edit the
-            value of any property.
-          </td>
-        </tr>
-        <tr>
-          <td rowspan="4"><strong>Selector Editor</strong></td>
-          <td colspan="2">Display object locator based on selected method</td>
-        </tr>
-        <tr>
-          <td><strong>Options</strong></td>
-          <td><strong>Description</strong></td>
-        </tr>
-        <tr>
-          <td><strong>Basic or XPath</strong></td>
-          <td>Katalon Studio generated XPath will be displayed.</td>
-        </tr>
-        <tr>
-          <td><strong>CSS</strong></td>
-          <td>
-            Editable text field allows users to manually input object's locator.
-          </td>
-        </tr>
-      </tbody>
-    </table>
-
-> To learn more about object selection methods, refer to this document: [Selection Method](https://docs.katalon.com/katalon-studio/docs/working-with-objects-selection-method-for-spyrecord-web.html).
  
-7. Click on the **Save** button to add captured objects to **Object Repository**.
+6. Click on the **Save** button to add captured objects to **Object Repository**.
 
-8. Check on those captured objects in the left pane that you would like to save into Katalon Studio.   
+7. Check on those captured objects in the left pane that you would like to save into Katalon Studio.   
 
     The structure of your **Object Repository** is displayed on the right pane. Select the folder to add the captured objects. Click **OK** when done.  
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-web-utility/KS-Add-element-to-object-repository.png" width=70% alt="Add Element to object repository">   
 
 
-9. The captured objects are added to **Object Repository** accordingly.
+8. The captured objects are added to **Object Repository** accordingly.
 
 ## Define additional objects manually
 
@@ -183,11 +111,32 @@ This guide shows you how to use Spy Web Utility to capture and manually define t
     
 3. **Add an Object element**: Click on the **New object** button from the toolbar to manually add a web object. Click **Delete** to remove any unwanted element.
 
-4. In **Object Properties** section, provide **Object Name** for the recently added object, choose **Selection Method** options and specify **properties** for the new web object.
+4. In **Object Properties** section, provide **Object Name** for the recently added object, choose **Selection Method** options and specify the **Properties** for the new object.
+
+    **Selection Method**
+
+    This is the method that Katalon Studio uses to detect web elements.
+
+    * **Attributes**: Users are allowed to specify the properties of an object in the **Properties Grid**.
+
+    * **XPath** / **CSS**: Users can input an XPath or CSS selector of an object into the **Selected Locator** section.
+
+    * **Image**: To detect a web element using its image, users need to provide a path to the image in the **Selected Locator** section.
+
+    **Properties Grid**
+
+    This section displays all the properties of the selected object. Users can manually specify or edit the value of any property here.
+
+    **Selected Locator**
+
+    Based on the selected method, this editable text field allows users to manually input the selector of an object using a CSS selector, an XPath, or a path to a web element screenshot.
+
+    > To learn more about object selection methods, refer to this document: [Selection Method](https://docs.katalon.com/katalon-studio/docs/working-with-objects-selection-method-for-spyrecord-web.html).
 
     Here we define a button element using the **Attributes** selection method. The chosen properties are **tag** and **id**.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-web-utility/KS-Object-Spy-new-object.png" width=70% alt="Add Element to object repository">  
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-web-utility/KS-Object-Spy-new-object.png" width=70% alt="Add Element to object repository">
+
     
 5. Click the **Verify and Highlight** button to verify the object.
 
