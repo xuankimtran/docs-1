@@ -16,7 +16,6 @@ This tutorial demonstrates how to combine Katalon Studio with SAP Scripting Trac
 > * Katalon Studio version 7.0.0 onwards.
 > * WinAppDriver version 1.1.0 onwards. To learn more about setting up WinAppDriver, you can refer to this document: [Set up WinAppDriver](https://docs.katalon.com/katalon-studio/docs/setup-winappdriver.html#set-up-windows-application-driver-on-a-local-windows-10-machine).
 > * SAP Scripting Tracker installed. You can download the SAP Scripting Tracker from theScripting Trackere website: [Scripting Tracker](https://tracker.stschnell.de/#).
-
 ## Enable SAP Scripting mode
 
 To enable SAP scripting mode, you can refer to the SAP document here: [Enabling Scripting on the Server Side](https://help.sap.com/viewer/8ecea00c1f854fd0a433c4aef5da1ea2/Cloud/en-US/001675913cc54719930aa8197478dcde.html).
@@ -30,15 +29,17 @@ You can download the sample project here at our Github repository: [Katalon SAP 
 
 ### Add your login account to the test case
 
-1. After downloading our sample project, from the **Test Explorer** panel, open **Profiles > default**. 
+1. After downloading our sample project, from the **Test Explorer** panel, open **Profiles > default**.     
+
+2. Double-click the **Value** cell of the **username** and **password** variables.  
    
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-Open-the-default-file.png" width="70%" alt="Open the default file">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-Open-the-default-file.png" width="70%" alt="Open the default file">
 
-2. Double-click the **Value** cell of the **username** and **password** variables, change the sample value to your SAP account.
+3. In the opened **Edit variables** dialog, change the sample value to your SAP account.
+   
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-Fill-in-your-username.png" width="70%" alt="Fill in your username">
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-Fill-in-your-username.png" width="70%" alt="Fill in your username">
-
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-Fill-in-ur-password.png" width="70%" alt="Fill in your password">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-Fill-in-ur-password.png" width="70%" alt="Fill in your password">
 
 ### Create a new test case based on the sample project
 
@@ -49,7 +50,7 @@ You can download the sample project here at our Github repository: [Katalon SAP 
     <tbody>
     <tr>
     <td><strong>StartSAPLogon</strong></td>
-    <td>This sample test case starts SAP Logon, then goes to the <strong>log in</strong> section.</td>
+    <td>This sample test case starts SAP Logon, then goes to the <strong>sign in</strong> section.</td>
     </tr>
     <tr>
     <td><strong>Login</strong></td>
@@ -72,7 +73,7 @@ You can download the sample project here at our Github repository: [Katalon SAP 
 
 ### Record test script using SAP Scripting Tracker
 
-1. Start SAPLogon and sign in SAP GUI with your SAP account.
+1. Start SAP Logon and sign in SAP GUI with your SAP account.
    
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-Start-SAPLogon.png" width="70%" alt="Start SAPLogon">
 
@@ -81,11 +82,12 @@ You can download the sample project here at our Github repository: [Katalon SAP 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-select-SAP-session.png" width="70%" alt="Select the SAP session">
 
 3. Choose Java language, then click **Record** to start recording your SAP GUI script. 
-
+   
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-Choose-Java-language.png" width="70%" alt=" Choose Java ">
+   
     > Notes:
     >
     > Katalon can only read Java language generated from SAP Scripting Tracker. 
-
     Here, we record the following scenerio:
 
     - In the opened SAP GUI session, go to **SAP Menu > Human Resources**. Double-click on **PPMDT - Manager's Desktop**. The **Manager's Desktop** interface opens.
@@ -94,11 +96,11 @@ You can download the sample project here at our Github repository: [Katalon SAP 
 
     We stop recording here.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-record-scenerios.gif" width="70%" alt="Recording from Scripting Tracker"> (put a gif file here)
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/ezgif.com-gif-maker.gif" width="70%" alt="Recording from Scripting Tracker">
 
 4. After finishing your recording, copy and paste the content from Scripting Tracker into your Katalon test script.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-Copy-the-script-from-Scripting-Tracker.png" width="100%" alt="Copy the script from Scripting Tracker">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-Copy-the-script-from-Scripting-Tracker.png" width="70%" alt="Copy the script from Scripting Tracker">
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-Paste-after-pasting-the-script-into-Katalon.png" width="70%" alt="Paste the script into the Katalon test script">
 
@@ -106,7 +108,5 @@ You can download the sample project here at our Github repository: [Katalon SAP 
 ### Run the test script
 
 To run the recorded test script, on the main toolbar, select **Windows** in the dropdown list next to **Run**.
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-Run-the-test.png" width="30%" alt="Run the test">
 
 Katalon will automatically sign in SAP GUI with your SAP account and playback the recorded steps from Scripting Tracker.
