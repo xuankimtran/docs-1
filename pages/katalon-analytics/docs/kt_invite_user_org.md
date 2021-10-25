@@ -54,7 +54,7 @@ Follow these steps:
 5. Click **Confirm**.
 
     You will be redirected to the **Pending Invitation** section.
-    An invitation email has also been sent to the user you have invited.
+    An invitation email has also been sent to the users you have invited.
 
 6. Send your users this guide: [Join TestOps Organizations](https://docs.katalon.com/katalon-analytics/docs/kt_users_joining_org.html).
 
