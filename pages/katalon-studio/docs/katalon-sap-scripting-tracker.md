@@ -30,15 +30,15 @@ You can download the sample project here at our Github repository: [Katalon SAP 
 
 ### Add your login account to the test case
 
-1. After downloading our sample project, from the **Test Explorer** panel, open **Profiles > default**. 
-   
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-Open-the-default-file.png" width="70%" alt="Open the default file">
+1. After downloading our sample project, from the **Test Explorer** panel, open **Profiles > default**.     
 
 2. Double-click the **Value** cell of the **username** and **password** variables, change the sample value to your SAP account.
+   
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-Open-the-default-file.png" width="70%" alt="Open the default file">
+   
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-Fill-in-your-username.png" width="70%" alt="Fill in your username">
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-Fill-in-your-username.png" width="70%" alt="Fill in your username">
-
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-Fill-in-ur-password.png" width="70%" alt="Fill in your password">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-Fill-in-ur-password.png" width="70%" alt="Fill in your password">
 
 ### Create a new test case based on the sample project
 
@@ -49,7 +49,7 @@ You can download the sample project here at our Github repository: [Katalon SAP 
     <tbody>
     <tr>
     <td><strong>StartSAPLogon</strong></td>
-    <td>This sample test case starts SAP Logon, then goes to the <strong>log in</strong> section.</td>
+    <td>This sample test case starts SAP Logon, then goes to the <strong>sign in</strong> section.</td>
     </tr>
     <tr>
     <td><strong>Login</strong></td>
