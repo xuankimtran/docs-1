@@ -17,7 +17,7 @@ redirect_from:
 >
 > You must be the Owner or Admin of an Organization.
 
-## Invite Users to join an Organization
+## Invite users to join an Organization
 
 Follow these steps:
 
@@ -31,17 +31,27 @@ Follow these steps:
 
 2. Click **Invite Users** at the top right corner.
 
-    A new window pops up asking you to enter the email addresses. You can enter multiple email addresses to invite members. Multiple email addresses should be separated by a Comma, Space, Tab, Alt, Out Focus, or Enter.
+    A new window appears, asking you to enter the email addresses.
 
-3. Click on the button to go to the next step: Assign licenses.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-invite-user-org/invite-user-to-org-page.png" width=100% alt="new ui user mgt page">
+    
+    You can enter multiple email addresses to invite members.
+    
+    > Notes:
+    >
+    > Multiple email addresses should be separated by a Comma, Space, Tab, Alt, Out Focus, or Enter.
 
-4. Select the product licenses to assign them to the new members.
+3. Click **Next** to go to the next step: assign licenses to your users.
 
-5. Switch the toggle on to select the license type.
+4. Switch the toggle on to select the product licenses.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-invite-user-org/assign-licenses-step.png" width=100% alt="new ui user mgt page">
 
     > Notes:
     >
     > For detailed information about assigning KSE/KRE licenses, see [Grant Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/use-online-license.html#grant-a-license).
+
+5. Click **Confirm**.
 
 6. Send your users this guide: [Join TestOps Organizations](https://docs.katalon.com/katalon-analytics/docs/kt_users_joining_org.html).
 
@@ -53,7 +63,7 @@ Follow these steps:
 
 Alternatively, you can copy the activation link in the **Pending Invitation** section and send it to them.
 
-## Manage Users
+## Manage users
 
 > Notes:
 >
@@ -91,7 +101,7 @@ Go to the **User Management** page and click on the **Removed Users** tab.
 
 You can view a full list of users you have removed from your organization.
 
-### Search Users
+### Search users
 
 In the **Active Users** section, use the search bar if you want to find a specific user.
 
@@ -117,7 +127,7 @@ In the **Removed Users** section, use the search bar if you want to find the use
 
 You have revoked the invitations. The invitation links your team members have received now become invalid.
 
-### Remove existing Users
+### Remove existing users
 
 1. Go to the **User Management** page, and click on the **Active Users** tab.
 
@@ -141,7 +151,7 @@ You have removed the users.
 > * You still keep the data the users have performed in your organization and you can invite them back to your organization anytime.
 > * When you remove a user from your Organization, their associated machine IDs are also removed from the Registered Machine list.
 
-### Change Users' roles
+### Change users' roles
 
 In an organization, different roles have different permissions. See: [Roles and permissions](https://docs.katalon.com/katalon-analytics/docs/testops-roles-privileges.html).
 
@@ -166,11 +176,11 @@ As an Owner or Admin, you can change the role of an existing member by following
     > * Organization members can have different roles in different teams.
     > * The **Billing Manager** cannot be added to Teams or Projects.
     
-### Export Users list
+### Export users list
 
 1. Go to the **User Management** page.
 
-2. Click **Export User** at the top right corner.
+2. Click **Export Users** at the top right corner.
 
     The Users list is exported in .csv format.
     
