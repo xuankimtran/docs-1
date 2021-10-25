@@ -30,7 +30,9 @@ To accept the invitation to join an Organization, follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-invite-user-org/k1-invitation-to-join-org-blurred.png" width=100% alt="valid invitation link">
 
-4. Click **Join KatOne** to become a Member of the Organization.
+4. Click **Join [Organization name]** to become a Member of the Organization.
+
+    You will be directed to TestOps homepage.
 
 You now have access to the Organization. You can use the product license that the Owner/Admin has assigned to you.
 
