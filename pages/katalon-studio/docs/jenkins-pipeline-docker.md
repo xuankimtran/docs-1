@@ -21,7 +21,7 @@ This tutorial shows you how to integrate Jenkins Pipeline (Jenkinsfile) with Kat
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-docker/plugins.png" alt="plugins" width=70%>
 ### Add an environment path
 
-> For Windows users, this step is not required , you can now skip to [Upload your project](https://docs.katalon.com/katalon-studio/docs/jenkins-plugin-windows.html/#upload-your-project).
+> For Windows users, this step is not required. You can now skip to [Upload your project](https://docs.katalon.com/katalon-studio/docs/jenkins-plugin-windows.html/#upload-your-project).
 
 For macOS/Linux, when running builds with Docker from a Jenkinsfile with Pipeline syntax, you need to add an environment path to Jenkins. This `PATH` helps Jenkins point to the correct Docker installation path. Do as follows:
 
@@ -59,7 +59,7 @@ For macOS/Linux, when running builds with Docker from a Jenkinsfile with Pipelin
 
    > Notes:
    > 
-   > To quickly copy the Jenkinsfile path in your Git project, go to your Jenkinsfile, click *More* (...), then click **Copy Path**. 
+   > To quickly copy the Jenkinsfile path, go to your Jenkinsfile in your Github repository, click *More* (...), then click **Copy Path**. 
    > 
    > <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/KS-JENKINS-Quickly-go-to-Jenkins-file-in-Git.png" width="70%" alt="Quickly Jenkinsfile path in Git project">
 
@@ -70,27 +70,29 @@ For macOS/Linux, when running builds with Docker from a Jenkinsfile with Pipelin
     bat ''
     }
     ```
-    For example:
+    
+    For example, we want to run the **TS_RegressionTest** test suite from the **CI samples** project with the Chrome browser in Windows. We adjust the sample Jenkinsfile as follows:
+
     ``` groovy
     pipeline {
         agent any
         stages {
             stage('Test') {
                 steps {
-                    dir('<your-project-folder>'){
-                    bat 'docker run -t --rm -v "$(pwd)":/tmp/project katalonstudio/katalon katalonc.sh -projectPath=/tmp/project -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/TS_RegressionTest" -apiKey=<your-api-key>'
+                    dir('/Users/yen.nguyen/Downloads/ci-samples-master'){
+                        bat 'docker run -t --rm -v "$(pwd)":/tmp/project katalonstudio/katalon katalonc.sh -projectPath=/tmp/project -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/TS_RegressionTest" -apiKey=<your-api-key>'
                     }
-                    }
+                }
             }
         }
     ```
 
-
     > Notes: 
-    > 
-    > * `<your-project-folder>` is the direct path to your project folder in the local machine.
-    > 
-    > * Make sure to add your API key to verify your credentials. The command-line options of API Key, including `-apiKey=<Your_API_Key>` and `-apikey=<Your_API_Key>` are both accepted. To learn more about API keys, you can refer to this document: [API key](https://docs.katalon.com/katalon-analytics/docs/ka-api-key.html#katalon-api-keys-usage).
+    >
+    > After cloning our sample Jenkinsfile to your repository, customize the below command lines for your purposes:  
+    > * `<your-project-folder>`: the direct path to your project folder in the local machine.
+    > * `<your_API_Key>`: the API key verifies your credentials. The command-line options of API Key, including `-apiKey=<Your_API_Key>` and `-apikey=<Your_API_Key>` are both accepted. To learn more about API keys, you can refer to this document: [API key](https://docs.katalon.com/katalon-analytics/docs/ka-api-key.html#katalon-api-keys-usage).
+
 
 ## Build your project
 
@@ -106,7 +108,7 @@ For macOS/Linux, when running builds with Docker from a Jenkinsfile with Pipelin
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-docker/docker-log.png" alt="docker log" width=70%>
 
-3. To view your report files, you can go to this directory: `<your-project-folder>/Reports` or your third-party integration like Katalon TestOps, Azure DevOps, or qTest. Katalon Studio supports exporting test reports in **HTML**, **CSV**, **PDF** and **JUnit**.
+3. To view your report files, you can go to this directory: `<your-project-folder>/Reports` or your third-party integration like Katalon TestOps, Azure DevOps, or qTest. Katalon Studio supports exporting test reports in **HTML**, **CSV**, **PDF**, and **JUnit**.
 
 ## See also
 
