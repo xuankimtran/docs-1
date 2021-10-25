@@ -126,6 +126,16 @@ idevice_id -l</code></pre>
                         <li> Start the AUT again.</li>
                     </ul>
             </td>
-        </tr>                                  
+        </tr>  
+<tr>
+            <td>Katalon Mobile Recorder and SetText keyword cannot perform on an <strong>EditText</strong> element of the Flutter-based application</td>
+            <td>
+                <p>Solution:</p>
+                    <ol>
+                        <li> Create a <a href="https://docs.katalon.com/katalon-studio/docs/flutter-based-application-testing.html">SetText Custom keyword</a>.</li>
+                        <li> Run the test again in script mode.</li>
+                    </ul>
+            </td>
+        </tr>                                 
     </tbody>
 </table>

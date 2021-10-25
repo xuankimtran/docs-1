@@ -6,6 +6,9 @@ redirect_from:
 
 description: 
 ---
+
+> This solution is obsolete. For a better solution, consider our latest extension: [Katalon Compact Utility](https://docs.katalon.com/katalon-studio/docs/katalon-compact-utility.html).
+
 > Requirements:
 >
 >* Katalon Studio version 8.0.5 or higher.

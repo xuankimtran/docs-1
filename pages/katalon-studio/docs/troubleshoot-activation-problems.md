@@ -2,6 +2,7 @@
 title: "Troubleshoot Activation Problems"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/troubleshoot-activation-problems.html
+redirect_from: /katalon-analytics/docs/network-config.html
 ---
 
 ## Configure Time Zone
@@ -14,10 +15,10 @@ Time differences might affect the validation of licenses on the Katalon Server.
 
 > **Tips**
 >
->* Use **Ctrl+F** to find the exceptions and errors you encountered.
->* Leave a comment below if you cannot find the exceptions and errors you have had.
+> * To find the exceptions and errors you encountered, use **Ctrl+F**.
+> * If you cannot find the exceptions or error message you encountered, you can leave a comment below for further support.
 
-Here is the list of common issues when activating Katalon Studio and instructions to solve them:
+Here is the list of common issues when activating Katalon Studio and/or starting Katalon TestOps, followed by possible solutions:
 
 **<details><summary>Cannot connect to Katalon TestOps server. Please check your Internet connection and try again (1).</summary>**
 
@@ -33,7 +34,7 @@ This error message means that the application has failed to communicate with Kat
 
 Check your Internet connection and try again.
 
-If you are behind a **Proxy Server**, configure Authentication Proxy first and then activate Katalon Studio again.
+If you are behind a **Proxy Server**, configure proxy authentication first and then activate Katalon Studio again. See: [Configure Proxy for Authentication](https://docs.katalon.com/katalon-studio/docs/configure-proxy.html).
 
 </details>
 
@@ -41,7 +42,7 @@ If you are behind a **Proxy Server**, configure Authentication Proxy first and t
 
 CAPTCHA is required when you enter incorrect passwords multiple times.
 
-Log into [Katalon TestOps](https://analytics.katalon.com/) using that account and enter the captcha.
+Log into [Katalon TestOps](https://testops.katalon.io) using that account and enter the captcha.
 
 You can now activate Katalon Studio.
 
@@ -49,7 +50,7 @@ You can now activate Katalon Studio.
 
 **<details><summary>License Quota exceeded</summary>**
 
-This exception means that the number of licenses in use (both online and offline) exceeds the total number of licenses available to your Organization.
+This exception means that the number of licenses in use exceeds the total number of licenses available to your Organization.
 
 This may cause [session termination](https://docs.katalon.com/katalon-studio/docs/session-termination.html).
 
@@ -61,24 +62,14 @@ To ensure business continuity, we recommend you subscribe to more licenses.
 
 If the number of machines on which you're using Katalon Studio exceeds the number of licenses that you purchased, you have two options:
 
-* Subscribe to more licenses to cover more machines and execution sessions.
-* Remove the machines.
-
-   Follow these steps to remove a registered machine ID.
-
-   1. Log into [Katalon TestOps](https://analytics.katalon.com/).
-   2. Select the Organization which permits you to use the license.
-   3. Go to the **License Management** panel. Select Katalon Studio Enterprise or Katalon Runtime Engine, depending on which one you are using.
-   4. Go to **Licenses** screen view. Scroll down to the **Registered Machines** area. Remove at least one machine ID.
-   5. Reactivate the license for the change to take effect.
-
-> More information on this exception can be found [here](https://support.katalon.com/hc/en-us/articles/900004333706-Why-Machine-Quota-Exceeded-message-and-How-to-resolve-it-).
+* Subscribe to more licenses to cover more machines and execution sessions. See [Upgrade Subscriptions](https://docs.katalon.com/katalon-studio/docs/upgrade-subs.html).
+* Remove the machines. See [Revoke and transfer a license](https://docs.katalon.com/katalon-studio/docs/license-management.html#revoke#a#license).
 
 </details>
 
 **<details><summary>Network Security errors</summary>**
 
-For an enterprise user with a private network, you might encounter this problem when executing test scripts or integrating Katalon Studio.
+For Enterprise users with a private network, you might encounter a situation where you fail to execute test scripts, integrate Katalon Studio, and/or access Katalon TestOps, due to network security errors.
 
 Contact your IT team to whitelist the following domains:
 
@@ -87,7 +78,21 @@ Contact your IT team to whitelist the following domains:
 * analytics.katalon.com
 * testops.katalon.io
 * admin.katalon.com
-* katalon-test.s3-accelerate.amazonaws.com (used for uploading reports to [Katalon TestOps](https://analytics.katalon.com))
+* katalon-test.s3-accelerate.amazonaws.com (used for uploading reports to [Katalon TestOps](https://testops.katalon.io))
+
+</details>
+
+**<details><summary>IP Addresses errors</summary>**
+
+You might encounter a problem with Katalon TestOps network configurations if you are integrating with an On-Premises development system such as Jira Server or Azure DevOps Server.
+
+Contact your IT team to whitelist the following IP addresses:
+
+* 52.45.203.41
+
+* 52.203.34.201
+
+* 35.172.81.5
 
 </details>
 
@@ -120,7 +125,7 @@ When your trial period expires, you must subscribe to each product to continue u
 
 Currently, the free license for Katalon Runtime Engine is not available.
 
-If you have subscribed but cannot use a Katalon license, check if you have permission to use it. See more instructions [here](https://docs.katalon.com/katalon-studio/docs/use-online-license.html).
+If your Enterprise has purchased Katalon licenses but you are not able to use them, check if you have permissions to use the licenses. See [Grant Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/use-online-license.html).
 
 </details>
 
