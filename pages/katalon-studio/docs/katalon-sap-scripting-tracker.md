@@ -98,7 +98,7 @@ You can download the sample project here at our Github repository: [Katalon SAP 
 
 4. After finishing your recording, copy and paste the content from Scripting Tracker into your Katalon test script.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-Copy-the-script-from-Scripting-Tracker.png" width="70%" alt="Copy the script from Scripting Tracker">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-Copy-the-script-from-Scripting-Tracker.png" width="100%" alt="Copy the script from Scripting Tracker">
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-Paste-after-pasting-the-script-into-Katalon.png" width="70%" alt="Paste the script into the Katalon test script">
 
@@ -106,5 +106,7 @@ You can download the sample project here at our Github repository: [Katalon SAP 
 ### Run the test script
 
 To run the recorded test script, on the main toolbar, select **Windows** in the dropdown list next to **Run**.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-Run-the-test.png" width="30%" alt="Run the test">
 
 Katalon will automatically sign in SAP GUI with your SAP account and playback the recorded steps from Scripting Tracker.
