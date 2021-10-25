@@ -79,22 +79,7 @@ Download [Katalon Studio for Linux](https://www.katalon.com/download/). Choose t
 
 ## Configure Katalon Studio on Linux
 
-This section provides some additional setup for Mobile and Web Services.
-
-### Mobile
-
-1. Install Node.js. See Node.js documentation: [Node.js for Linux](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions).
-
-2. Install Appium by typing this in the Terminal:
-
-    ```groovy
-    npm install -g appium
-    ```
-
-  * If you see an EACCES error with the Appium installation command, follow the instructions of npm documentation here: [Resolving EACCES permissions errors when installing packages globally](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally).
-
-  * If you encounter an error related to that Java `jar` file can't be found, you might need to add the environment variable: `KATALON_JAVA_HOME= <JRE_location>`.
-  * Set the Appium directory manually in **Katalon Studio Preferences**. The default directory should be `/usr/lib/node_modules/appium/`.
+This section provides some additional setup for Web Services.
 
 ### Web Services
 
