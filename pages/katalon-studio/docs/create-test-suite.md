@@ -109,7 +109,7 @@ By default, each Test Case is run only one time in a Test Suite execution. Suppo
 
 ### Mail Recipients
 
-To receive test summary reports via email, first you need to configure **Email** settings. Refer to this guide to set up email test reports and recipients in a project: [Email Settings](https://docs.katalon.com/katalon-studio/docs/execution-settings.html#emails-settings).
+To send test summary reports via email, first you need to configure the [Email Settings](https://docs.katalon.com/katalon-studio/docs/execution-settings.html#emails-settings). You need to set up a mail server, an email template, and a default recipient list.
 
 Once configured, you can add an additional list of recipients for a specific Test Suite report.
 
@@ -117,7 +117,7 @@ Once configured, you can add an additional list of recipients for a specific Tes
 
 > Notes:
 >
-> Both lists of recipients can receive the same test reports after a Test Suite execution.  
+> The default recipient list in Email settings and the additional list in a Test Suite can receive the same test reports after the Test Suite execution.  
 
 ## Manage Test Case List
 
