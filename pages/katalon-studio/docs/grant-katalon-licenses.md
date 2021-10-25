@@ -1,8 +1,9 @@
 ---
 title: "Grant Katalon Licenses"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/use-online-license.html
+permalink: katalon-studio/docs/grant-katalon-licenses.html
 redirect_from:
+  - "/katalon-studio/docs/use-online-license.html"
   - "/katalon-studio/docs/online-offline-licenses.html"
   - "/katalon-studio/docs/re-offline-licenses.html"
   - "/katalon-studio/docs/how-to-create-kse-offline-license.html"
@@ -68,7 +69,7 @@ Your users can now activate their KSE and KRE licenses. You can refer them to th
 
 Granting a license this way allows you to transfer a license freely among registered users of an Organization as long as the number of licensed users does not exceed the license quota.
 
-You can revoke these licenses at any time by following this guide: [Manage Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license-management.html#revoke-and-transfer-a-license).
+You can remove these licenses and reattribute them any time by following this guide: [Transfer a license](https://docs.katalon.com/katalon-studio/docs/license-management.html#transfer-a-license).
 
 If the users you wish to grant a license to are not connected to the internet, you can instead generate an offline license.
 
@@ -131,5 +132,7 @@ Follow these steps:
 8. Send your users this activation guide: [Activate Katalon License](https://docs.katalon.com/katalon-studio/docs/activate-license.html).
 
 See also:
+
+* [Remove a License](https://docs.katalon.com/katalon-studio/docs/remove-license.html).
 * [Manage Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license-management.html).
 * [License Utilization Dashboard](https://docs.katalon.com/katalon-studio/docs/license-utilization-dashboard.html#license-usage-visualization).
