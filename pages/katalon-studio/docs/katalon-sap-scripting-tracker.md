@@ -74,7 +74,7 @@ You can download the sample project here at our Github repository: [Katalon SAP 
 
 ### Record test script using SAP Scripting Tracker
 
-1. Start SAPLogon and sign in SAP GUI with your SAP account.
+1. Start SAP Logon and sign in SAP GUI with your SAP account.
    
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-Start-SAPLogon.png" width="70%" alt="Start SAPLogon">
 
