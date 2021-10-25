@@ -83,7 +83,9 @@ You can download the sample project here at our Github repository: [Katalon SAP 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-select-SAP-session.png" width="70%" alt="Select the SAP session">
 
 3. Choose Java language, then click **Record** to start recording your SAP GUI script. 
-
+   
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-Choose-Java-language.png" width="70%" alt=" Choose Java ">
+   
     > Notes:
     >
     > Katalon can only read Java language generated from SAP Scripting Tracker. 
@@ -96,7 +98,7 @@ You can download the sample project here at our Github repository: [Katalon SAP 
 
     We stop recording here.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-record-scenerios.gif" width="70%" alt="Recording from Scripting Tracker"> (put a gif file here)
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/ezgif.com-gif-maker.gif" width="70%" alt="Recording from Scripting Tracker">
 
 4. After finishing your recording, copy and paste the content from Scripting Tracker into your Katalon test script.
 
