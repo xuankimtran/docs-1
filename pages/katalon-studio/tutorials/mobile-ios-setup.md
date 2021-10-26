@@ -38,7 +38,7 @@ To begin with, you need to setup a macOS environment. You can not execute iOS mo
 
 > If you execute mobile testing on Xcode simulators only, skip this part.
 
-1. Install Homebrew. Homebrew is a package manager that makes it easy to install other extra dependencies. To install Homebrew, follow the instructions on the Homebrew website: [Homebrew](https://brew.sh/).
+1. Install Homebrew. Homebrew is a package manager that makes it easy to install extra dependencies. To install Homebrew, follow the instructions on the Homebrew website: [Homebrew](https://brew.sh/).
 
 2. After installing Homebrew, you can now use it to install the following dependencies in the **Terminal**:
 
@@ -62,11 +62,11 @@ To begin with, you need to setup a macOS environment. You can not execute iOS mo
 
       `brew link libimobiledevice`
 
-   - For Appium version older than 1.20.0, you need to install Carthage. You can learn more about Carthage in this Github project: [Carthage](https://github.com/Carthage/Carthage). To install Carthage via Homebrew, copy and paste the command-line argument below:
+   - For Appium versions older than 1.20.0, you need to install Carthage. You can learn more about Carthage in this Github project: [Carthage](https://github.com/Carthage/Carthage). To install Carthage via Homebrew, copy and paste the command-line argument below:
 
       `brew install carthage`
 
-   - For Appium version older than 1.15.0, you also need to install ios-webkit-debug-proxy. You can learn more about ios-webkit-debug-proxy in this Github project: [ios-webkit-debug-proxy](https://github.com/google/ios-webkit-debug-proxy). To install ios-webkit-debug-proxy via Homebrew, copy and paste the command-line argument as below:
+   - For Appium versions older than 1.15.0, you also need to install ios-webkit-debug-proxy. You can learn more about ios-webkit-debug-proxy in this Github project: [ios-webkit-debug-proxy](https://github.com/google/ios-webkit-debug-proxy). To install ios-webkit-debug-proxy via Homebrew, copy and paste the command-line argument as below:
 
       `brew install ios-webkit-debug-proxy`
 ## Part 3: Set up the iOS devices/ Xcode simulators for mobile testing in Katalon Studio
@@ -140,7 +140,7 @@ To execute mobile testing with real iOS devices, you need to:
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/deployment.png" width=45%>
 
-   - Switch to the **Signing & Capabilities** tab, check the **Automatically manage signing** box, then choose a team added added before.
+   - Switch to the **Signing & Capabilities** tab, check the **Automatically manage signing** box, then choose a team added before.
 
    - To build the `.ipa` file, click **Product > Build**. 
 
