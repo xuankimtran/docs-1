@@ -21,8 +21,8 @@ Katalon Recorder offers three possible ways to catergorize your test cases with 
 
    Follow these steps:
 
-     1. In the **Actions** panel, click **Tags Management**. The **Tags Management** dialog opens.
-     2. In the opened dialog, the first inteface shows you a list of existing tags along with the number of test cases where the tags present. If you have no tags, this page should be blank.
+   1. In the **Actions** panel, click **Tags Management**. The **Tags Management** dialog opens.
+   2. In the opened dialog, the first inteface shows you a list of existing tags along with the number of test cases where the tags present. If you have no tags, this page should be blank.
 
          <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/dynamic-test-suite/KR-DYNAMIC-List-of-existing-tags.png" width="70%" alt="List of existing tags">
 
