@@ -61,7 +61,7 @@ Katalon Recorder offers three possible ways to categorize your test cases with t
 
 3. The **Workspace** sidebar:
    
-   To add new tags from the **Workspace** sidebar, click **Tags** <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/dynamic-test-suite/KR-DYNAMIC-Tag-icon.png" width="1.5%" alt="Tag icon">. A pop-up **Tag this test case** dialog allows you to add tags to the test case.
+   To add new tags from the **Workspace** sidebar, click **Tags** <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/dynamic-test-suite/KR-DYNAMIC-Tag-icon.png" width="1.8%" alt="Tag icon">. A pop-up **Tag this test case** dialog allows you to add tags to the test case.
    
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/dynamic-test-suite/KR-DYNAMIC-Add-tags-from-the-workspace-sidebar.png" width="70%" alt="Add tags from the Workspace sidebar">
 
