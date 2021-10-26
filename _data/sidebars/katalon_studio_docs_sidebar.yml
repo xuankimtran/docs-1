@@ -57,8 +57,6 @@ items:
             url: /katalon-studio/docs/license-server.html
       - title: "Katalon TestOps Subscriptions"
         tree:
-          - title: "Overview"
-            url: /katalon-analytics/docs/testops_subscriptions_overview.html
           - title: "Pricing and Feature Comparisons"
             url: /katalon-analytics/docs/testops-packages.html
           - title: "Trial Plans"
@@ -1318,7 +1316,7 @@ items:
           - title: "Roles and permissions" 
             url: /katalon-analytics/docs/testops-roles-privileges.html 
           - title: "Set up an account"
-            url: /katalon-analytics/docs/getting-started.html  
+            url: /katalon-analytics/docs/getting-started.html
           - title: "Create Organization and Project"
             url: /katalon-analytics/docs/kt-create-org.html
           - title: "Set up Teams"
