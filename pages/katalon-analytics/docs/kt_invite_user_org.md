@@ -92,7 +92,7 @@ Go to the **User Management** page and click on the **Pending Invitation** tab.
 
 You can check all pending invitations here.
 
-### View the removed users list
+### View the removed user list
 
 Go to the **User Management** page and click on the **Removed Users** tab.
 
@@ -154,7 +154,7 @@ You have removed the users.
 > * You still keep the data the users have performed in your organization and you can invite them back to your organization anytime.
 > * When you remove a user from your Organization, their associated machine IDs are also removed from the Registered Machine list.
 
-### Change users' roles
+### Change user role
 
 In an organization, different roles have different permissions. See: [Roles and permissions](https://docs.katalon.com/katalon-analytics/docs/testops-roles-privileges.html).
 
@@ -179,7 +179,7 @@ As an Owner or Admin, you can change the role of an existing member by following
     > * Organization members can have different roles in different teams.
     > * The **Billing Manager** cannot be added to Teams or Projects.
     
-### Export users list
+### Export user list
 
 1. Go to the **User Management** page.
 
