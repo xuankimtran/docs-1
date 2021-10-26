@@ -50,7 +50,7 @@ Katalon Recorder offers three possible ways to categorize your test cases with t
 
          > Notes:
          > 
-         > If you uncheck a test case while editing the tags, the edited tags will be removed completely from the test case. 
+         > If you uncheck the test case while editing the tag, the edited tag will be removed completely from the test case. 
          > In the above example, when changing the tag name from `Dashboard` to `Calculator`, if you uncheck the **Test case 01** test case, there will be no tags named `Dashboard` or `Calculator` in this test case.
 
 2. The test case view: 
