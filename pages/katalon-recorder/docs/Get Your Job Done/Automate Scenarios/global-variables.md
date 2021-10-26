@@ -55,24 +55,3 @@ Follow these steps:
         > From KR 5.6.0 onwards, you can easily use a selected command without the need to know the syntax for implementing global variables in a test case.
 
 You can now run the tests without inputting the same sets of values for every test.
-
-## Replace Global Variables
-
-You can replace a value with an existing Global Variable by following these steps:
-
-1. Open Katalon Recorder and click on a test case.
-2. Right click on a Test Case's value.
-
-    You have two options: **Replace with an existing Global Variable** or **Create a new Global Variable**.
-
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/5.6.0-release/replace-existing-gv.png" width=100% alt="kr ui global variables">
-
-3. Select **Replace with an existing Global Variable**.
-
-    The **Replace with existing Global Variables** box pops up.
-
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/5.6.0-release/replace-existing-gv-popup.png" width=100% alt="kr ui replace existing global variables">
-
-4. Select the Global Variables from the dropdown list.
-
-5. Click **Replace**.
