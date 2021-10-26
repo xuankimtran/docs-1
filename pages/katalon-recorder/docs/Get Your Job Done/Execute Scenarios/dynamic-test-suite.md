@@ -67,7 +67,7 @@ Katalon Recorder offers three possible ways to categorize your test cases with t
 
       > Note:
       > 
-      > In the **Workspace** sidebar, you can quickly add tags into all test cases in a test suite by clicking **Tags** <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/dynamic-test-suite/KR-DYNAMIC-Tag-icon.png" width="1.8%" alt="Tag icon"> in the test suite.
+      > In the **Workspace** sidebar, you can quickly add tags to all test cases in a test suite by clicking **Tags** <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/dynamic-test-suite/KR-DYNAMIC-Tag-icon.png" width="1.8%" alt="Tag icon"> in the test suite.
 
 ## Execute Dynamic Test Suite containing Categorized Test Cases
 
