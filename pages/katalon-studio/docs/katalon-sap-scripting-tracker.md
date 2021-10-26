@@ -104,6 +104,8 @@ You can download the sample project here at our Github repository: [Katalon SAP 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-Final-results.png" width="70%" alt="Results after pasting the script into the Katalon test script">
 ### Run the test script
 
+> Make sure to have `WinAppDriver.exe` running from the installation directory. By default, you can find it at ` C:\Program Files (x86)\Windows Application Driver\WinAppDriver.exe`.
+
 To run the recorded test script, on the main toolbar, select **Windows** in the dropdown list next to **Run**.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-Run-the-test.png" width="30%" alt="Run the test">
