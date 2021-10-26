@@ -5,12 +5,12 @@ permalink: katalon-analytics/docs/kt-change-result-pass-fail.html
 description: 
 ---
 
-You can edit the status of a test result in Katalon TestOps and provide a reason for such change to notify your team.
+You can edit the status of a test result in Katalon TestOps and provide a reason for such change to notify your team of the change.
 You can also see the whole history of status changes.
 
 This feature allows you to:
 
-* update manually the status of a test result to accomodate the actual expectations.
+* manually update the status of a test result to reflect actual expectations.
 
 * keep a clear record of why a test result has been changed, who changed it, and the reason for such change.
 
@@ -60,7 +60,7 @@ Select the **Test Results** tab, click on a Test Result ID, then select the **Co
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-override-test-result/Description.png" width=100% alt="test result comments tab">
 
-You then can check the following information:
+You can then check the following information:
 
 * the name of the member who changed the status of a Test Result.
 * the history of that Test Result's status changes.
@@ -68,7 +68,7 @@ You then can check the following information:
 
 ## View the summary of a Test Result's status change
 
-No matter how many times a test result has been modified, you can check a full record of the modification.
+No matter how many times a test result has been modified, you can always view the full history of changes.
 
 Follow these steps:
 
