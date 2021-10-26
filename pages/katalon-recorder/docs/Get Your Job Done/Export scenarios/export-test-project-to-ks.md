@@ -5,9 +5,7 @@ permalink: katalon-recorder/docs/export-test-project-to-ks.html
 description: 
 ---
 
-From version 5.6.0 onwards, Katalon Recorder (KR) users can export multiple tests to other frameworks in one file.
-
-You can also export KR tests into Java Maven and Python projects.
+From version 5.6.0 onwards, Katalon Recorder (KR) users can export multiple tests into a single file. This file is compatible with many other frameworks, such as Katalon Studio, Java Maven or Python.
 
 This feature is especially useful to users outgrowing the capabilities of KR. As your work requirements and projects complexity increase, you can move your test artifacts and projects to other frameworks. This allows you to benefit from further advanced testing without losing your work.
 
@@ -33,8 +31,8 @@ To export a test project to KS, follow these steps:
 
 > Requirements:
 >
-> * You have had a ChromeDriver.
-> * You have had an IDE for Java (preferably IntelliJ).
+> * ChromeDriver installed.
+> * Java IDE installed (preferably IntelliJ).
 
 Follow these steps:
 
