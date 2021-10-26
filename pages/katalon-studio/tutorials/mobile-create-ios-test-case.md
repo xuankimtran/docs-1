@@ -163,7 +163,7 @@ In this example, we record the following actions to test the **Coffee Timer** ap
 
    > Notes:
    > * If you prefer another locator strategy, you can select your preferred one, then click **Generate** to generate a new locator. You can also check if your newly updated locator can detect the target object correctly by clicking **Highlight**.
-   >  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/KS-ios-choose-another-locator-strategy.png" width=50%>
+      >  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/KS-ios-choose-another-locator-strategy.png" width=50%>
 
 6. Similarly, click **Start** in the **Device View** section, then click **Tap** in the **Available Actions** section. 
    
