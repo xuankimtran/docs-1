@@ -26,27 +26,37 @@ Katalon Recorder offers three possible ways to catergorize your test cases with 
 
          <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/dynamic-test-suite/KR-DYNAMIC-List-of-existing-tags.png" width="70%" alt="List of existing tags">
 
-      - To add new tags, click **Add new tag**. The opened interface allows you to add new tags into one or many selected test cases. 
+      - To add new tags, click **Add new tag**. The opened interface allows you to add new tags into one or many selected test cases. You can also add tags into all test cases in a test suite.
 
-         <img src="url" width="70%" alt="Add tags into selected test cases from tags management">
+         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/dynamic-test-suite/KR-DYNAMIC-Add-new-tag.png" width="70%" alt="Add new tags from tags management">
+         
+         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/dynamic-test-suite/KR-DYNAMIC-Add-tags-from-tags-management.png" width="70%" alt="Add new tags from tags management">
 
-         You can also add tags into all test cases in a test suite.
+         After adding tags, you can see the tag icon of the test case in the sidebar is highlighted.
 
-         <img src="url" width="70%" alt="Add tags into all test case in a test suite from tags management">
+         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/dynamic-test-suite/KR-DYNAMIC-Highlighted-tag-icon-after-adding-tags.png" width="70%" alt="Tags icon highlighted after adding tags">
 
       - To remove tags, click *Remove* (Trash icon) in the tag you wish to remove. Katalon Recorder deletes it from all test cases. 
 
-         <img src="url" width="70%" alt="Remove tags in all test cases">
+         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/dynamic-test-suite/KR-DYNAMIC-Remove-the-tag.png" width="70%" alt="Remove tags in all test cases">
 
-      - To edit tags, click *Edit* (Pencil icon) of the tag you wish to edit. After editing the tagsm click **Save**. The edited tag is replaced in all test cases. 
+      - To edit tags, click *Edit* (Pencil icon) of the tag you wish to edit. After editing the tags, click **Save**. The edited tag is replaced in all test cases. 
 
          <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/dynamic-test-suite/KR-DYNAMIC-Edit-tags.png" width="70%" alt="Edit tags in all test cases">
 
+         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/dynamic-test-suite/KS-DYNAMIC-Click-save-to-edit.png" width="70%" alt="Save edited tags">
+
+         > Notes:
+         > 
+         > If you uncheck the test case while editing the tags, it will be removed completely from the test case.
+         >
 
 
 2. The test case view: 
+   
+   - To add new tags from the test case view, click **Add new tag** in the page header, then manually input the tag name.
 
-   <img src="url" width="70%" alt="Add tags from test case view">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/dynamic-test-suite/KR-DYNAMIC-Add-new-tags-from-test-case%202.png" width="70%" alt="Add tags from test case view">
 
 3. The **Workspace** sidebar:
    
@@ -56,11 +66,7 @@ Katalon Recorder offers three possible ways to catergorize your test cases with 
 
    > Note:
    > 
-   > In the **Workspace** sidebar, you can quickly add tags into all test cases in a test suite by click **Tags** <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/dynamic-test-suite/KR-Dynamic-Highlighted-tag-icon.png" width="3%" alt="Highlighted tag icon"> in the test suite.
-
-After adding tags, you can see the tag icon of the test case in the sidebar is highlighted.
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/dynamic-test-suite/KR-DYNAMIC-Highlighted-tag-icon-after-adding-tags.png" width="70%" alt="Tags icon highlighted after adding tags">
+   > In the **Workspace** sidebar, you can quickly add tags into all test cases in a test suite by click **Tags** <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/dynamic-test-suite/KR-DYNAMIC-Tag-icon.png" width="2%" alt="Tag icon"> in the test suite.
 
 ## Execute Dynamic Test Suite containing Catergorized Test Cases
 
@@ -73,7 +79,7 @@ To quickly create a new Dynamic Test Suite, from the **Workspace** sidebar or th
 
 An **Execute test case** dialog opens, showing all test cases of the selected tag.
 
-<img src="url" width="70%" alt="An execute test case dialog opens">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/dynamic-test-suite/KR-DYNAMIC-an-execute-test-case-dialog.png" width="70%" alt="An execute test case dialog opens">
 
 Alternatively, from the **Workspace** sidebar, you can also right-click on **Test Suite > New Dynamic Test Suite** to create a new Dynamic Test Suite.
 
@@ -91,7 +97,7 @@ For example: To add the test cases with the `aTag_1` and `atag_2` tags into the 
 
 Click **Execute** to create and execute the dynamic test suite with the specified query.
 
-<img src="url" width="70%" alt="Execute the dynamic test suite">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/dynamic-test-suite/KR-DYNAMIC-execute-a-dynamic-test-suite.png" width="70%" alt="Execute the dynamic test suite">
 
 After executing the test suite, you can check the status of your test in the **Log** tab. 
 
