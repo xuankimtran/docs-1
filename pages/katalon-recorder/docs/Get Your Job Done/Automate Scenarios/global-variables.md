@@ -5,9 +5,9 @@ permalink: katalon-recorder/docs/global-variables.html
 description:
 ---
 
-In test automation, sometimes multiple test cases might require the same values. Instead of manually duplicating the same set of values across multiple test cases, you can create global variables to reuse same values across test cases. This saves time and reduces maintenance efforts as projects increase in complexity. From version 5.6.0 onwards, Katalon Recorder introduces **Global Variable Profile** feature to help you automate tests with ease.
+In test automation, sometimes multiple test cases might require the same values. Instead of manually duplicating the same set of values across multiple test cases, you can create global variables to reuse same values across test cases. This saves time and reduces maintenance efforts as projects increase in complexity. From version 5.6.0 onwards, you can use **Global Variable Profile** feature in Katalon Recorder (KR) to help you automate tests with ease.
 
-This feature reduces syntax complication so that you can simply use global variables with just one click. 
+This feature reduces syntax complexity so that you can simply use global variables with just one click.
 
 Global variables are cross-compatible with Katalon Studio when migrating your projects.
 
@@ -52,7 +52,7 @@ Follow these steps:
 
         > Notes:
         >
-        > With Katalon Recorder 5.6.0, you can easily use a selected command without the need to know the syntax for implementing global variables in a test case.
+        > From KR 5.6.0 onwards, you can easily use a selected command without the need to know the syntax for implementing global variables in a test case.
 
 You can now run the tests without inputting the same sets of values for every test.
 
