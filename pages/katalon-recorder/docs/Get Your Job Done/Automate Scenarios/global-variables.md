@@ -11,6 +11,10 @@ This feature reduces syntax complexity so that you can simply use global variabl
 
 Global variables are cross-compatible with Katalon Studio when migrating your projects.
 
+> Notes:
+>
+> Global variables are fixed. You cannot modify them during a test execution.
+
 ## Global Variable Profile
 
 Creating a Global Variable Profile allows you to save which global variables apply to which workflow. These Profiles can be migrated to Katalon Studio (KS) along with your projects.
