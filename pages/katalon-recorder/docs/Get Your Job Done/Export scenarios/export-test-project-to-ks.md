@@ -27,12 +27,16 @@ To export a test project to KS, follow these steps:
 3. Select the data you want to export.
 4. Click **Export**.
 
+    The downloaded file is a .zip file.
+
+You can now unzip this file to import your tests in Katalon Studio.
+
 ## Export to other frameworks
 
-> Requirements:
+> Requirements (for Java/Python frameworks):
 >
 > * ChromeDriver installed.
-> * Java IDE installed (preferably IntelliJ).
+> * Java/Python IDE installed (preferably IntelliJ).
 
 Follow these steps:
 
@@ -48,3 +52,11 @@ Follow these steps:
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/5.6.0-release/incompatible-commands.png" width=100% alt="kr export test project to ks">
     
 4. Click **Export**.
+
+You can now import the file/project in the framework of your choice.
+
+> Notes:
+>
+> * For Java JUnit, Java TestNG and Python, the data is exported as a full project. You can open the project in the Java/Python IDE.
+>
+> * For other frameworks, the data is exported as a .zip file.
