@@ -1062,7 +1062,11 @@ items:
           - title: "Combine Multiple Data Sources"
             url: /katalon-studio/docs/combine-multiple-data-sources.html
       - title: "BDD Testing Framework (Cucumber integration)"
-        url: /katalon-studio/docs/cucumber-features-file.html
+        tree:
+          - title: "BDD Testing Framework (Cucumber integration)"
+            url: /katalon-studio/docs/cucumber-features-file.html
+          - title: "Use Test Hooks for Cucumber Framework"
+            url: /katalon-studio/docs/cucumber-test-hook.html
       - title: "Integration"
         tree:
           - title: "Katalon API Keys"
