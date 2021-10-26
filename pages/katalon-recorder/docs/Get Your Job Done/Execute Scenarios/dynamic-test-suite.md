@@ -8,7 +8,7 @@ description:
 > Requirements:
 > Katalon Recorder version 5.6.0 onwards. 
 
-Dynamic Test Suite has multiple test cases added at run time via a search query. It allows users to execute test cases with certain tags dynamically.
+With Dynamic Test Suites, you can add multiple test cases at run time via a search query. It allows users to execute test cases with certain tags dynamically.
 
 In this article, we show you how to categorize test cases with tags and execute them in a dynamic test suite.
 
@@ -59,6 +59,10 @@ Katalon Recorder offers three possible ways to categorize your test cases with t
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/dynamic-test-suite/KR-DYNAMIC-Add-new-tags-from-test-case%202.png" width="70%" alt="Add tags from test case view">
 
+      > Notices:
+      >
+      > A tag can be reused across test cases but you can not have a duplicated tag in a test case.
+
 3. The **Workspace** sidebar:
    
    To add new tags from the **Workspace** sidebar, click **Tags** <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/dynamic-test-suite/KR-DYNAMIC-Tag-icon.png" width="1.8%" alt="Tag icon">. A pop-up **Tag this test case** dialog allows you to add tags to the test case.
@@ -72,6 +76,7 @@ Katalon Recorder offers three possible ways to categorize your test cases with t
 ## Execute Dynamic Test Suite containing Categorized Test Cases
 
 After categorizing your test cases with tags, you can now execute them in a dynamic test suite. 
+
 ### Create a new Dynamic Test Suite
 
 To quickly create a new Dynamic Test Suite, click on a tag from the **Workspace** sidebar or the test case view.
