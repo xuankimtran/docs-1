@@ -1235,18 +1235,28 @@ items:
         url: /katalon-studio/docs/run-cloud-ci.html
       - title: "Continuous integration with Gitlab"
         url: /katalon-studio/docs/continuous_integration_gitlab.html
-      - title: "CI/CD Plugins"
+      - title: "CI/CD tools Integration"
         tree:
           - title: "Common Configuration"
             url: /katalon-studio/docs/common-configuration.html
-          - title: "Jenkins Plugin"
+          - title: "Jenkins Integration"
             tree:
-              - title: "On Windows"
-                url: /katalon-studio/docs/jenkins-plugin-windows.html
-              - title: "On Ubuntu"
-                url: /katalon-studio/docs/jenkins-plugin-ubuntu.html
-              - title: "Integrate Jenkins on Docker hosted in Ubuntu"
-                url: /katalon-studio/docs/jenkins-docker-ubuntu.html
+              - title: "Jenkins Integration Overview"
+              - url: /katalon-studio/docs/jenkins-integration-overview.html
+              - title: "Use Katalon TestOps plugins for Jenkins Integration"
+                tree:
+                - title: "On Windows/macOS"
+                  url: /katalon-studio/docs/katalon-plugin-jenkins-window-macOS.html
+                - title: "On Ubuntu"
+                  url: /katalon-studio/docs/jenkins-plugin-ubuntu.html
+              - title: "Use Katalon Docker Image for Jenkins Integration"
+                tree: 
+                - title: "Integrate Jenkins on Docker hosted in Ubuntu"
+                  url: /katalon-studio/docs/jenkins-docker-ubuntu.html
+                - title: "Integrate Jenkins Pipeline (Jenkinsfile) with Katalon Studio Docker Image"
+                  url: /katalon-studio/docs/jenkins-pipeline-docker.html
+              - title: "Execute Katalon Studio tests with Jenkins Pipeline Script (Jenkinsfile)"
+                url: /katalon-studio/docs/execute-katalon-tests-with-jenkins-pipeline-script.html
               - title: "Passing scenario tags at runtime when building with Jenkins"
                 url: /katalon-studio/how-to-guides/jenkins-tags-runtime.html
           - title: "Bamboo Add-on"
