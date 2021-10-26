@@ -53,7 +53,7 @@ Follow these steps:
     
 4. Click **Export**.
 
-You can now import the file/project in the framework of your choice.
+You can now import the file/project with your framework of choice.
 
 > Notes:
 >
