@@ -27,7 +27,7 @@ For macOS/Linux, when running builds with Docker from a Jenkinsfile with Pipelin
 
 1. To find the correct Docker installation path, open **Terminal**, copy and paste the following command line: `which docker`. The result will tell you where the Docker is. Here, our Docker installation path is: `/usr/local/bin/docker`.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/KS-JENKINS-Docker%20installation%20path.png" alt="Docker installation path" width=70%>
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/KS-JENKINS-Docker-installation-path-2.png" alt="Docker installation path" width=70%>
 
 2. Go to **Dashboard > Manage Jenkins > Configure System > Global properties**. Select the **Environment variables** to add a global variable named `PathExtra` with this value: `$PATH:<the correct Docker installation path>`. For our example, the `PathExtra` value is: `$PATH:</usr/local/bin/docker>`.
    
@@ -55,7 +55,7 @@ For macOS/Linux, when running builds with Docker from a Jenkinsfile with Pipelin
 
 4. Specify the Jenkinsfile path from your Git project in the **Script Path** box.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/KS-JENKINS-Add-Jenkinspath.png" width="70%" alt="Jenkinsfile path">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/KS-JENKINS-Add-Jenkinspath-2.png" width="70%" alt="Jenkinsfile path">
 
    > Notes:
    > 
@@ -79,7 +79,7 @@ For macOS/Linux, when running builds with Docker from a Jenkinsfile with Pipelin
         stages {
             stage('Test') {
                 steps {
-                    dir('/Users/yen.nguyen/Downloads/ci-samples-master'){
+                    dir('/Users/<user_name>/Downloads/ci-samples-master'){
                         bat 'docker run -t --rm -v "$(pwd)":/tmp/project katalonstudio/katalon katalonc.sh -projectPath=/tmp/project -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/TS_RegressionTest" -apiKey=<your-api-key>'
                     }
                 }
@@ -92,6 +92,7 @@ For macOS/Linux, when running builds with Docker from a Jenkinsfile with Pipelin
     > After cloning our sample Jenkinsfile to your repository, customize the below command lines for your purposes:  
     > * `<your-project-folder>`: the direct path to your project folder in the local machine.
     > * `<your_API_Key>`: the API key verifies your credentials. The command-line options of API Key, including `-apiKey=<Your_API_Key>` and `-apikey=<Your_API_Key>` are both accepted. To learn more about API keys, you can refer to this document: [API key](https://docs.katalon.com/katalon-analytics/docs/ka-api-key.html#katalon-api-keys-usage).
+    > * From version 7.7.0 onwards, if you belong to more than one Organization subscribing to Runtime Engine licenses, you can choose which Organization validates your license usage with the following command line: `-orgID=<Katalon_OrgID>`.
 
 
 ## Build your project
@@ -102,7 +103,7 @@ For macOS/Linux, when running builds with Docker from a Jenkinsfile with Pipelin
 
 2.  To view the console log, click on your current build on Jenkins and select **Console Output**.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/KS-JENKINS-pipeline-console-output.png" width=70% alt="View console output">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/KS-JENKINS-pipeline-console-output-2.png" width=70% alt="View console output">
 
     You can also view the console log in Docker during the test.
 
