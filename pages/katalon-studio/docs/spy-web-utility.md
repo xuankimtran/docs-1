@@ -80,7 +80,7 @@ This guide shows you how to use Spy Web Utility to capture and manually define t
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-web-utility/KS-Web-Spy-highlighted-element.png" width=70% alt="Web Spy highlights element"> 
       
     
-4. Press the combination of **\<Alt + \`\>** keys on the keyboard or right-click on the web element to capture the object.
+4. To capture the object, right-click on the web element and select **Capture**. You can also use the combination of **\<Alt + \`\>** keys on the keyboard.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-web-utility/KS-Web-Spy-Capture-Object.png" width=70% alt="Capture element"> 
       
@@ -98,7 +98,6 @@ This guide shows you how to use Spy Web Utility to capture and manually define t
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-web-utility/KS-Add-element-to-object-repository.png" width=70% alt="Add Element to object repository">   
 
-
 8. The captured objects are added to **Object Repository** accordingly.
 
 ## Define additional objects manually
@@ -107,11 +106,15 @@ This guide shows you how to use Spy Web Utility to capture and manually define t
 
 2. **Add a Frame element** (optional): If the new object is a nested object, a frame is needed to locate the element. Frames are web elements that usually contain many other web objects. 
 
-    The current page of the AUT doesn't contain any frame so we don't need to add a Frame element.
+    The current page of the AUT doesn't contain any frame, so we don't need to add a Frame element.
     
 3. **Add an Object element**: Click on the **New object** button from the toolbar to manually add a web object. Click **Delete** to remove any unwanted element.
 
-4. In **Object Properties** section, provide **Object Name** for the recently added object, choose **Selection Method** options and specify the **Properties** for the new object.
+4. In the **Object Properties** section, provide the object name for the recently added object, choose **Selection Method** options and specify the **Properties** for the new object.
+
+    Here we define a button element using the **Attributes** selection method. The chosen properties are **tag** and **id**.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-web-utility/KS-Object-Spy-new-object.png" width=70% alt="Add Element to object repository">
 
     **Selection Method**
 
@@ -129,18 +132,14 @@ This guide shows you how to use Spy Web Utility to capture and manually define t
 
     **Selected Locator**
 
-    Based on the selected method, this editable text field allows users to manually input the selector of an object using a CSS selector, an XPath, or a path to a web element screenshot.
+    Based on the selected method, this editable text field allows users to adjust the current selector of an object or manually add a selector using either an XPath or a CSS selector. Users can also select an object using its image by providing a path to the image of the web element.
 
     > To learn more about object selection methods, refer to this document: [Selection Method](https://docs.katalon.com/katalon-studio/docs/working-with-objects-selection-method-for-spyrecord-web.html).
-
-    Here we define a button element using the **Attributes** selection method. The chosen properties are **tag** and **id**.
-
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-web-utility/KS-Object-Spy-new-object.png" width=70% alt="Add Element to object repository">
 
     
 5. Click the **Verify and Highlight** button to verify the object.
 
-    If there is a web object with matched **Selector Editor** value, it is highlighted **red** in the opened browser, and the message **"Found X element using XPath Selector"** is displayed.
+    If there is a web object with matched properties in the **Properties Grid**, it is highlighted **red** in the opened browser, and the message **"Found X element using XPath Selector"** is displayed.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-web-utility/KS-Object-Spy-verify-object.png" width=70% alt="Verify object"> 
     
