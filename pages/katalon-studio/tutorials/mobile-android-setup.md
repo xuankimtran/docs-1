@@ -55,7 +55,7 @@ This topic describes the preliminary actions you need to perform to prepare the 
 
    2. Install [Appium](http://appium.io/docs/en/about-appium/getting-started/#installing-appium)
 
-      `brew install node`\
+      `brew install node`
       `npm install -g appium`
 
       > **Note**
