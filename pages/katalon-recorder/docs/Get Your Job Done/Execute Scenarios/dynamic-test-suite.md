@@ -55,19 +55,19 @@ Katalon Recorder offers three possible ways to categorize your test cases with t
 
 2. The test case view: 
    
-   To add new tags from the test case view, click **Add new tag** in the page header, then manually input the tag name.
+   To add new tags from the test case view, click **Add new tag** in the test case header, then manually input the tag name.
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/dynamic-test-suite/KR-DYNAMIC-Add-new-tags-from-test-case%202.png" width="70%" alt="Add tags from test case view">
+
+3. The **Workspace** sidebar:
+   
+   To quickly add new tags to a test case from the **Workspace** sidebar, click **Tags** <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/dynamic-test-suite/KR-DYNAMIC-Tag-icon.png" width="1.8%" alt="Tag icon">. A pop-up **Tag this test case** dialog allows you to add tags to the test case.
+   
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/dynamic-test-suite/KR-DYNAMIC-Add-tags-from-the-workspace-sidebar.png" width="70%" alt="Add tags from the Workspace sidebar">
 
       > Notices:
       >
       > A tag can be reused across test cases but you can not have a duplicated tag in a test case.
-
-3. The **Workspace** sidebar:
-   
-   To add new tags from the **Workspace** sidebar, click **Tags** <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/dynamic-test-suite/KR-DYNAMIC-Tag-icon.png" width="1.8%" alt="Tag icon">. A pop-up **Tag this test case** dialog allows you to add tags to the test case.
-   
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/dynamic-test-suite/KR-DYNAMIC-Add-tags-from-the-workspace-sidebar.png" width="70%" alt="Add tags from the Workspace sidebar">
 
       > Note:
       > 
