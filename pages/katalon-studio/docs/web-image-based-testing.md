@@ -61,7 +61,7 @@ Here we use the **Spy Web Utility** to capture screenshots. Follow these steps:
 
 > **Notes**
 >
-> If you capture object images using other tools, you have to resize them to the display sizes of the corresponding web elements.
+> * The image comparison algorithm in Katalon Studio compares a screenshot of an object with the displayed image of the corresponding web element on the active browser, pixel by pixel. Therefore, if you capture object images using other tools, you have to resize the images to the displayed sizes of the web elements on the active browser.
 
 ## Add image locator to objects
 
