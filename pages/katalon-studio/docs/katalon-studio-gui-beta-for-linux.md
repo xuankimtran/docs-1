@@ -34,21 +34,21 @@ On macOS, virtualization programs like Parallels Desktop, Virtual Box, and VMWar
 
 1. Verify whether your computer meets the System Requirements to work with Katalon Studio. You need to make sure that there is a minimum of 2 GB RAM (32-bit) or 4 GB RAM (64-bit) for the app to run normally. For more details, see [System Requirements](http://docs.katalon.com/display/KD/System+Requirements).
 
-2. Install OpenJDK 8 on your Ubuntu (NOT Oracle JDK).
+2. Install OpenJDK 8 (NOT Oracle JDK).
 
     > Katalon Studio for Linux currently supports OpenJDK 8 only.
 
-    To install OpenJDK 8, open your Terminal. On the command line, type:
+    To install OpenJDK 8 on your Ubuntu, open your Terminal. On the command line, type:
 
     ``` groovy
     sudo apt-get install openjdk-8-jre
     ```
 
-    You can find more information about the installation steps at the OpenJDK document: [How to download and install prebuilt OpenJDK packages](http://openjdk.java.net/install/). Once you finish the installation, your `OpenJDK` information is displayed when you execute `java -version` command.
+    Once you finish the installation, your `OpenJDK` information is displayed when you execute `java -version` command.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-gui-beta-for-linux/Screen-Shot-2018-02-07-at-11.50.50.png" alt="linux" width=100%>
 
-    If you have multiple versions of OpenJDK installed and the correct version is not being used, use the alternatives command to switch between them:
+    If you have multiple versions of OpenJDK installed on your Ubuntu and the correct version is not being used, use the alternatives command to switch between them:
     
     ``` groovy
     
@@ -57,11 +57,13 @@ On macOS, virtualization programs like Parallels Desktop, Virtual Box, and VMWar
 
     Verify the version of the JDK again using `java -version` command.
 
-    > After you have finished configuring the system, restart it to take effect.
+    > After you have finished configuring the system, restart for your changes to take effect.
+
+    You can find more information about the installation steps for other Linux distributions at the OpenJDK document: [How to download and install prebuilt OpenJDK packages](http://openjdk.java.net/install/).
 
 ### Download Katalon Studio
 
-Download [Katalon Studio for Linux](https://www.katalon.com/download/). Choose the Linux version of Katalon Studio, then click **Donwload**. A tar.gz file is being downloaded to your machine.
+Download [Katalon Studio for Linux](https://www.katalon.com/download/). Choose the Linux version of Katalon Studio, then click **Download**. A tar.gz file is being downloaded to your machine.
 
 ### Start Katalon Studio
 
@@ -71,7 +73,7 @@ Download [Katalon Studio for Linux](https://www.katalon.com/download/). Choose t
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-gui-beta-for-linux/katalon-ubuntu.png" alt="Katalon in extracted folder" width=100%>
 
-2. The Katalon Studio app starts launching, then the **Katalon Studio Activation** dialog appears. You can click **Register** to sign up for a Katalon account and begin your 30 days trial or sign in to your existing account to activate your license. To learn more about license activation steps, see [Activate Katalon License](https://docs.katalon.com/katalon-studio/docs/activate-license.html).
+2. The Katalon Studio app launches, then the **Katalon Studio Activation** dialog appears. Sign in to your Katalon account to activate your license, or click **Register** to sign up. To learn more about license activation steps, see [Activate Katalon License](https://docs.katalon.com/katalon-studio/docs/activate-license.html).
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-gui-beta-for-linux/activation-linux.png" alt="activate on linux" width=100%>
 
@@ -80,6 +82,10 @@ Download [Katalon Studio for Linux](https://www.katalon.com/download/). Choose t
 ## Configure Katalon Studio on Linux
 
 This section provides some additional setup for Web Services.
+
+## Mobile
+
+You can only test an **iOS** application using **macOS**. To set up Android tests on Linux machine, see [Set up Android tests on Linux](https://docs.katalon.com/katalon-studio/tutorials/mobile-android-setup.html#on-linux-machine)
 
 ### Web Services
 
@@ -91,7 +97,7 @@ apt-get install libwebkitgtk-3.0-0
 
 > Notes:
 >
-> There is no "On top" option in the Spy/Record dialog. To make it work, select and right-click the Spy/Record dialog, then choose **Always On Top** option.
+> There is no "On top" option in the Spy/Record dialog. To make it work, select and right-click the Spy/Record dialog, then choose the **Always On Top** option.
 
 ### Troubleshoot configuration
 
