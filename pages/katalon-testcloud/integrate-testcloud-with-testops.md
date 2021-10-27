@@ -22,7 +22,7 @@ TestCloud stabilizes the test results when you execute a massive number of paral
 >
 > You have joined the TestCloud Beta Testing program to enable TestCloud in Katalon TestOps. Contact us at success@katalon.com for detailed information on how to join our Beta Testing program.
 
-Once you have joined our Beta Testing program, we will enable TestCloud in your TestOps account. You then can schedule your test runs on a TestCloud environment.
+Once you have joined our Beta Testing program, we will enable TestCloud in your TestOps account. You can then schedule your test runs on a TestCloud environment.
 
 > Notes:
 >
