@@ -28,7 +28,7 @@ Follow these steps:
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/dynamic-test-suite/KR-DYNAMIC-Add-new-tag.png" width="70%" alt="Add new tags from tags management">
          
-      - Input the new tag name, then click **Save** to add tags into selected test cases.
+      - Input the new tag name, then click **Save** to add tags to selected test cases.
 
          <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/dynamic-test-suite/KR-DYNAMIC-Add-tags-from-tags-management.png" width="70%" alt="Add new tags from tags management">
 
