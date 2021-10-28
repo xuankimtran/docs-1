@@ -13,6 +13,11 @@ With Dynamic Test Suites, you can add multiple test cases at run time via a sear
 In this article, we show you how to categorize test cases with tags and execute them in a dynamic test suite.
 
 ## Categorize Test Cases with Tags
+
+   > Notes:
+   >
+   > A tag can be reused across test cases, but you can not have a duplicated tag in a test case.
+   
 ### Categorize test cases with Tags Management
 
 The **Tags Management** function allows you to manage all tags in one place. You can add/remove or edit tags in one or many selected test cases. 
@@ -20,6 +25,7 @@ The **Tags Management** function allows you to manage all tags in one place. You
 Follow these steps:
 
 1. In the **Actions** panel, click **Tags Management**. The **Tags Management** dialog opens.
+   
 2. In the opened dialog, the first interface shows you a list of existing tags and the number of test cases where the tags are present. If you have no tags, this page should be blank.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/dynamic-test-suite/KR-DYNAMIC-List-of-existing-tags.png" width="70%" alt="List of existing tags">
@@ -32,7 +38,7 @@ Follow these steps:
 
          <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/dynamic-test-suite/KR-DYNAMIC-Add-tags-from-tags-management.png" width="70%" alt="Add new tags from tags management">
 
-      - After adding tags, you can see the tag icon of the test case in the sidebar is highlighted.
+      - After adding tags, the tag icon is highlighted in the sidebar for this test case.
 
          <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/dynamic-test-suite/KR-DYNAMIC-Highlighted-tag-icon-after-adding-tags.png" width="70%" alt="Tags icon highlighted after adding tags">
 
@@ -54,10 +60,6 @@ Follow these steps:
 ### Categorize test cases from test case view
 
 You can also add tags directly to a test case. To do so, open the desired test case. Click **Add new tag** in the test case header, then manually input the tag name or select an existing tag in the dropdown list.
-
-   > Notices:
-   >
-   > A tag can be reused across test cases, but you can not have a duplicated tag in a test case.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/b8e6cfa9512728f2d1c7b99e7336bafe19089a20/katalon-recorder/docs/dynamic-test-suite/KR-DYNAMIC-Add-new-tags-from-test-case%202.png" width="70%" alt="Add tags from test case view">
 
@@ -87,7 +89,7 @@ Alternatively, you can also click *Add* (+) in the **Dynamic Test Suite** sectio
 
 ### Add categorized test cases into a Dynamic Test Suite
 
-To add categorized test cases into a Dynamic Test Suite, select or type the tags of the desired test cases in the **Input tags** box. Each tag is separated by *Comma* (,). Then click **Apply** to query out the matching test cases.
+To add categorized test cases into a Dynamic Test Suite, select or type the tags of the desired test cases in the **Input tags** box. Each tag is separated by a comma. Then click **Apply** to query out the matching test cases.
 
 For example: To add the test cases with the `aTag_1` and `atag_2` tags into the dynamic test suite, you can click on the `aTag_1` and `atag_2` tags or input `aTag_1,atag_2` into the **Input tags** box, then click **Apply**. Katalon Recorder will query out the matching test cases.
 
