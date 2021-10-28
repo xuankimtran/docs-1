@@ -94,9 +94,9 @@ Follow these steps:
 
     Follow the on-screen instruction:
 
-    i.  Select your OS, then download the binary file.
+    i.  Select your OS, download the binary file, then unzip the file.
 
-    ii. Right click on the downloaded binary file to open the terminal (for macOs), or open the file in cmd.exe (for Windows).
+    ii. Right click on the file to open it in the terminal (for macOs), or open the file in cmd.exe (for Windows).
 
     iii. Copy the command in the **Generate configuration** section, paste it in Terminal/cmd, then click *Enter* to run the command.
 
