@@ -7,9 +7,9 @@ redirect_from:
 description: Release notes 8.x
 ---
 
-## Version 8.2.0 Beta
+> Download [here](https://www.katalon.com/download/).
 
-You can download Katalon Studio version 8.2.0 Beta on our GitHub repository: [Katalon Studio 8.2.0 Beta](https://github.com/katalon-studio/katalon-studio/releases/tag/v8.2.0.beta).
+## Version 8.2.0
 
 ### New features
 
@@ -17,8 +17,20 @@ You can download Katalon Studio version 8.2.0 Beta on our GitHub repository: [Ka
 
 ### Enhancements
 
-* [Security] Addressed high-risk Security Vulnerabilities of Open-Source Software.
-* [Performance] Introduced **Delay between instances** option in Katalon Studio and `-delayBetweenInstances` parameter in Katalon Runtime Engine to execute Test Suite Collection in parallel mode. See [Command Syntax](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html).
+* Added Chrome 95 compatibility.
+* Added Microsoft Edge (Chromium) 95 compatibility.
+* Added GeckoDriver 0.30 compatibility.
+* [Security] Addressed Security Vulnerabilities of Open-Source Software:
+    * Added an option in Katalon Studio Preferences to automatically disable connection to external domains.
+* [Performance] Improved Katalon Studio IDE and Katalon Runtime Engine performance:
+    * Introduced **Delay between instances** option in Katalon Studio and `-delayBetweenInstances` parameter in Katalon Runtime Engine to execute Test Suite Collection in parallel mode. See [Command Syntax](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html), quick tip: search for `-delay`.
+    * Shortened loading time for big projects in Katalon Runtime Engine.
+    * Improved responsiveness and loading time when renaming/moving test cases in big projects.
+    * Prevented loading unused images when opening Katalon Studio.
+    * Reduced CPU Usage when using Self-healing, Run and Debug from here functions.
+    * Removed unused messages in Test Data.
+* [Web Testing] Better Synchronization Handling:
+    * Improved SmartWait
 * [Katalon Studio Enterprise] Introduced Idle Timeout Bypass Limit to automatically log out licensed users due to timeout. See [Configure Idle Timeout](https://docs.katalon.com/katalon-studio/docs/license-idle-timeout.html).
 * [WebUI] Introduced an option to use the Spy, Record, and Smart Wait function with a packed extension, now available on the Chrome Web Store. This extension is compatible with Katalon Studio version 8.0.0 onwards. See [Katalon Compact Utility](https://docs.katalon.com/katalon-studio/docs/katalon-compact-utility.html).
 
@@ -34,8 +46,6 @@ You can download Katalon Studio version 8.2.0 Beta on our GitHub repository: [Ka
 * Bug: [WebUI] Could not generate test steps when using `replace, trim, split` function and opening WebUI Recorder.
 
 ## Official Release - Version 8.1.0
-
-> Download [here](https://www.katalon.com/download/).
 
 ### New features
 
