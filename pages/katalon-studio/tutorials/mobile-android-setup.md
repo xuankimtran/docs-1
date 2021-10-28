@@ -51,7 +51,7 @@ This topic describes the preliminary actions you need to perform to prepare the 
    
      > **Note**
      >
-     > Some emulators supports Appium directly when installed. If you want to run an application on an emulator, check your emulator settings before proceeding with the Appium installation.
+     > Some emulators support Appium directly when installed. If you want to run an application on an emulator, check your emulator settings before proceeding with the Appium installation.
 
    2. Install [Appium](http://appium.io/docs/en/about-appium/getting-started/#installing-appium)
 
