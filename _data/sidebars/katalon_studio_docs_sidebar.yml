@@ -1443,6 +1443,14 @@ items:
         url: /katalon-analytics/docs/rest-api.html
       - title: "Tutorials"
         url: /katalon-analytics/docs/testops-tutorials.html
+  - title: "Katalon TestCloud (Beta)"
+    tree:
+      - title: "Overview"
+        url: /katalon-testcloud/docs/testcloud-overview.html
+      - title: "Get started"
+        tree:
+          - title: "Integration with TestOps"
+            url: /katalon-testcloud/docs/integrate-testcloud-with-testops.html 
   - title: "Katalon Recorder"
     tree:
       - title: "Get started"
