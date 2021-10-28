@@ -46,7 +46,7 @@ Follow these steps:
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/dynamic-test-suite/KR-DYNAMIC-Remove-the-tag.png" width="70%" alt="Remove tags in all test cases">
 
-   - To edit tags, click *Edit* (Pencil icon) of the tag you wish to edit. After editing the tags, click **Save**. The edited tag is replaced in all test cases. 
+   - To edit tags, click *Edit* (Pencil icon) of the tag you wish to edit. By default, Katalon Recorder will check the box of the test case where the edited tag exists. After editing the tags, click **Save**. The new tag will replace the previous one in all checked test cases. 
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/dynamic-test-suite/KR-DYNAMIC-Edit-tags.png" width="70%" alt="Edit tags in all test cases">
 
@@ -54,8 +54,9 @@ Follow these steps:
 
       > Notes:
       > 
-      > If you uncheck the test case while editing the tag, the edited tag will be removed completely from the test case. 
-      > In the above example, when changing the tag name from `Dashboard` to `Calculator`, if you uncheck the **Test case 01** test case, there will be no tags named `Dashboard` or `Calculator` in this test case.
+      > * If you wish to remove the edited tag from a test case, leave the box of the test case unchecked. In the above example, when changing the tag name from `Dashboard` to `Calculator`, if you uncheck the **Test case 01** test case, there will be no tags named `Dashboard` or `Calculator` in this test case.
+      >
+      > * If you wish to add the edited tag to a test case, check the box of the test case you wish to add the tag. In the above example, when changing the tag name from `Dashboard` to `Calculator`, if you check the box of the **UI Test** test case, a new tag named `Calculator` will be added to this test case.
 
 ### Categorize test cases from test case view
 
