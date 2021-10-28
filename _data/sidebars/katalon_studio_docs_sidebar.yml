@@ -71,16 +71,6 @@ items:
                 url: /katalon-analytics/docs/cancel-subscriptions.html
   - title: "Katalon Studio Enterprise"
     tree:
-      - title: "What's new"
-        tree:
-          - title: "What's new in v8.1.0?"
-            url: /katalon-studio/new/what-is-new-810.html            
-          - title: "What's new in v8.0.0?"
-            url: /katalon-studio/new/what-is-new-800.html
-          - title: "What's new in v7.9.0?"
-            url: /katalon-studio/new/what-is-new-79.html
-          - title: "What's new in v7.8.0?"
-            url: /katalon-studio/new/what-is-new-78.html
       - title: "Release Notes"
         tree:
           - title: "Version 8.x"
@@ -1303,12 +1293,6 @@ items:
             url: /katalon-analytics/docs/overview.html 
           - title: "Terminology and Formulas" 
             url: /katalon-analytics/docs/testops-terminology.html
-      - title: "What's New"
-        tree:
-          - title: "April 2021"
-            url: /katalon-analytics/docs/kte-whats-new-in-april-release.html
-          - title: "March 2021"
-            url: /katalon-analytics/docs/new-core-11.html
       - title: "Release Notes"
         url: /katalon-analytics/docs/testops-releases-2021.html
       - title: "Get Started"  
@@ -1451,14 +1435,8 @@ items:
             url: /katalon-recorder/docs/overview.html
           - title: "GUI Overview"
             url: /katalon-recorder/docs/gui-overview.html
-          - title: "What's new"
-            tree:
-            - title: "What's new"
-              url: /katalon-recorder/docs/whats-new.html
-            - title: "What's new in 5.3.x"
-              url: /katalon-recorder/docs/whats-new-5.3.x.html
-            - title: "Release notes"
-              url: /katalon-recorder/docs/release-notes.html
+          - title: "Release notes"
+            url: /katalon-recorder/docs/release-notes.html
       - title: "Production Evaluation Center"
         tree:
           - title: "Katalon Recorder vs Selenium IDE"
