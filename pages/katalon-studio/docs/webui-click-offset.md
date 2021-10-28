@@ -9,26 +9,25 @@ redirect_from:
     - "/katalon-studio/docs/webui-click-offset/"
 description: 
 ---
+## Description
 
-Description
------------
+Click on the given element with the relative position (x, y) from the top-left corner of that element. From Katalon Studio version 8.2.0 onwards, if the target element is behind a loading overlay, Katalon repeatedly tries clicking the element for a period configured in **Project > Settings > Execution > Default wait for element timeout**.
 
-Click on the given element with the relative position (x, y) from the top-left corner of that element.
+To learn more about setting the **Default wait for element timeout**, you can refer to this document: [Project settings](https://docs.katalon.com/katalon-studio/docs/execution-settings.html#default-execution-settings).
 
-Parameters
-----------
+## Parameters
 
 | Param | Param Type | Mandatory | Description |
 | --- | --- | --- | --- |
 | to | TestObject | Required | Represent a web element. |
 | offsetX | int | Required | x position in relative to the element |
 | offsetY | int | Required | y position in relative to the element |
-| flowControl | FailureHandling | Optional | Specify [failure handling](/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
+| flowControl | FailureHandling | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. To learn more about failure handling settings, you can refer to this document: [Failure handling](https://docs.katalon.com/katalon-studio/docs/failure-handling.html#default-failure-handlingbehavior)|
 
-Example
--------
+## Example
 
-You want to click on the top left cell of the Tic Tac Toe board.
+In this example, we want to click on the top left cell of the Tic Tac Toe board. 
+By default, the **Default wait for element timeout** setting is for 30 seconds. If the Tic Tac Toe board is behind a loading overlay, Katalon will try clicking the button for 30 seconds maximum.
 
 ```groovy
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
