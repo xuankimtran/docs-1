@@ -13,10 +13,10 @@ With TestCloud, users can simultaneously and instantly test their application ac
 
 The simplicity and practicality TestCloud offers would address the following problems:
 
-* Difficulty and inability to test across browsers and OS effectively.
-* Scalability issues due to expensive infrastructure and slow process in setting up physical labs.
-* Time-consuming configuration and integration for the test execution to work in different environments and scenarios.
-* Limited availability of test scenarios/devices/OS/browsers.
+* difficulty and inability to test across browsers and OS effectively.
+* scalability issues due to expensive infrastructure and slow process in setting up physical labs.
+* time-consuming configuration and integration for the test execution to work in different environments and scenarios.
+* limited availability of test scenarios/devices/OS/browsers.
 
 **No setup and maintenance required** to use TestCloud as your test environment.
 
