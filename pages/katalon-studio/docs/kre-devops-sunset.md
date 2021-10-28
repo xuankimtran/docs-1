@@ -5,7 +5,7 @@ permalink: katalon-studio/docs/kre-devops-sunset.html
 description:
 ---
 
-This section provides information about the sunsetting plan of Katalon Runtime Engine (KRE) DevOps, including license management and renewal process. 
+This section provides information about the sunsetting plan of Katalon Runtime Engine (KRE) DevOps, including license management and the renewal process.
 
 <table>
    <thead>
@@ -23,8 +23,8 @@ This section provides information about the sunsetting plan of Katalon Runtime E
       </tr>
       <tr>
          <td><strong>License Management</strong></td>
-         <td>Upon renewal, your current DevOps licenses will be automatically upgraded to Floating licenses at no additional charge. Log onto <a href="https://admin.katalon.com">https://admin.katalon.com<a> to manage your available licenses.</td>
-         <td>Upon renewal, you can choose between Monthly Node-locked license or Annual Floating license. For pricing details, please view the example below.  Log onto <a href="https://admin.katalon.com">https://admin.katalon.com</a> to manage your available licenses.</td>
+         <td>Upon renewal, your current DevOps licenses will be automatically upgraded to Floating licenses at no additional charge. Log in to <a href="https://testops.katalon.io/">Katalon TestOps</a> to manage your available licenses.</td>
+         <td>Upon renewal, you can choose between a Monthly Node-locked license or an Annual Floating license. For pricing details, view the example below.  Log in to <a href="https://testops.katalon.io/">Katalon TestOps</a> to manage your available licenses.</td>
        </tr>
       </tr>
       <tr>
@@ -53,23 +53,33 @@ This section provides information about the sunsetting plan of Katalon Runtime E
     </tbody>
 </table>
 
-(*): The pricing listed in the example is applicable in **2020** only. Refer to the [Katalon Pricing page](https://www.katalon.com/pricing/) for updated information. 
+(*): The pricing listed in the example is applicable in **2020** only. Refer to the [Katalon Pricing page](https://www.katalon.com/pricing/) for updated information.
+
+> Notes:
+>
+> * To learn more about Katalon licenses, see [Types of Licenses](https://docs.katalon.com/katalon-studio/docs/license.html).
+> * To purchase Katalon licenses, see [Purchase Katalon License](https://docs.katalon.com/katalon-studio/docs/license-subscription.html).
+> * To upgrade Katalon licenses, see [Upgrade Subscriptions](https://docs.katalon.com/katalon-studio/docs/upgrade-subs.html).
 
 ### Frequently asked questions (FAQs)
 
 1. Do I have to do anything?
 
-* For **Annual** subscribers: Upon renewal, your current DevOps licenses will be automatically upgraded to Floating licenses at no additional charge. 
-* For **Monthly** subscribers: Upon renewal, you can choose between Monthly Node-locked license or Annual Floating license. For pricing details, please see the example in the table above.  
+   * For **Annual** billing cycles: Upon renewal, your current DevOps licenses will be automatically upgraded to Floating licenses at no additional charge.
+   * For **Monthly** billing cycles: Upon renewal, you can choose between Monthly Node-locked licenses or Annual Floating licenses. For pricing details, see the example in the table above.  
 
-2. What if I don’t want to upgrade from Monthly KRE DevOps to Annual KRE Floating license after six months?
-* You will have the option to switch to a monthly KRE Node-locked license.
+2. What if I don’t want to upgrade from Monthly KRE DevOps to Annual Floating licenses after six months?
+
+   * You will have the option to switch to a monthly billing for KRE Node-locked licenses.
 
 3. Can I use the DevOps license for another three months and come back for another three months?
-* No, it will need to be consecutive, with a maximum of 6 months. Once you cancel your DevOps subscription, it will be no longer available for repurchase.
 
-4. My team purchased our licenses via a reseller. Will this change affect me? 
-* Your team will still be able to use your licenses as per the explanation in the table above. Upon renewal, kindly contact your reseller for more information. Alternatively, contact us at success@katalon.com for renewal.
+   * No, it will need to be consecutive, with a maximum of 6 months. Once you cancel your DevOps subscription, it will no longer be available for repurchase.
+
+4. My team purchased our licenses via a reseller. Will this change affect me?
+
+   * Your team will still be able to use your licenses as per the explanation in the table above. Upon renewal, kindly contact your reseller for more information. Alternatively, contact us at success@katalon.com for renewal.
 
 5. Other inquiries
-* Please submit a ticket at our support portal: https://support.katalon.com/hc/en-us.
+
+   * For further support, you can submit a ticket at our support portal: [Katalon Support](https://support.katalon.com/hc/en-us).

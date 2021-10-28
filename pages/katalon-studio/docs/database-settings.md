@@ -14,7 +14,7 @@ description:
 
 This document gives you information on which database can be used for Data-driven testing and how to set up the database connection in Katalon Studio.
 
-## Introduce Database Connection 
+## Introduce Database Connection
 
 To do data-driven testing with a database, you can define a database connection that can be used for the whole project and override this global configuration in a test data file later. [Learn more](https://docs.katalon.com/katalon-studio/docs/manage-test-data.html#create-a-database-data)
 
@@ -33,80 +33,86 @@ Where:
     - [Oracle SQL](https://docs.oracle.com/database/121/JJDBC/urls.htm#JJDBC28268).
     - [PostgreSQL](https://jdbc.postgresql.org/documentation/head/connect.html).
 
-You can set up a connection to one of those three database types with its executable jar file already embedded. Refer to the following table for an availability check: 
-<p>&nbsp;</p>
-<table>
-<tbody>
-<tr style="height: 35px;">
-<td style="text-align: center; height: 35px;">&nbsp;</td>
-<td style="text-align: center; height: 35px;">
-<p><strong>Katalon Studio version</strong></p>
-</td>
-<td style="text-align: center; height: 35px;">
-<p><strong>MySQL</strong></p>
-</td>
-<td style="text-align: center; height: 35px;">
-<p><strong>PostgreSQL</strong></p>
-</td>
-<td style="text-align: center; height: 35px;">
-<p><strong>Oracle SQL</strong></p>
-</td>
-<td style="text-align: center; height: 35px;">
-<p><strong>SQL Server&nbsp;</strong></p>
-</td>
-</tr>
-<tr style="height: 35px;">
-<td style="text-align: center; height: 70px;" rowspan="2">
-<p><strong>Katalon Studio license</strong></p>
-</td>
-<td style="text-align: center; height: 35px;">
-<p><strong>7.0+</strong></p>
-</td>
-<td style="text-align: center; height: 140px;" rowspan="4">
-<p><span style="font-weight: 400;">v8.0+</span></p>
-</td>
-<td style="text-align: center; height: 140px;" rowspan="4">
-<p><span style="font-weight: 400;">all versions</span></p>
-</td>
-<td style="text-align: center; height: 70px;" rowspan="2">
-<p><span style="font-weight: 400;">N/A</span></p>
-</td>
-<td style="text-align: center; height: 70px;" rowspan="2">
-<p><span style="font-weight: 400;">N/A</span></p>
-</td>
-</tr>
-<tr style="height: 35px;">
-<td style="text-align: center; height: 35px;">
-<p><strong>7.5+</strong></p>
-</td>
-</tr>
-<tr style="height: 35px;">
-<td style="text-align: center; height: 70px;" rowspan="2">
-<p><strong>Katalon Studio Enterprise license</strong></p>
-</td>
-<td style="text-align: center; height: 35px;">
-<p><strong>7.0+</strong></p>
-</td>
-<td style="text-align: center; height: 70px;" rowspan="2">
-<p><span style="font-weight: 400;">all versions</span></p>
-</td>
-<td style="text-align: center; height: 35px;">
-<p><span style="font-weight: 400;">2008 - 2016</span></p>
-</td>
-</tr>
-<tr style="height: 35px;">
-<td style="text-align: center; height: 35px;">
-<p><strong>7.5+</strong></p>
-</td>
-<td style="text-align: center; height: 35px;">
-<p><span style="font-weight: 400;">2008 - 2017</span></p>
-</td>
-</tr>
-</tbody>
-</table>
-<p><br /><br /></p>
+You can set up a connection to one of those three database types with its executable jar file already embedded. Refer to the following table for an availability check:
 
-In case you want to use a version other than the version those built-in drivers are compatible with, learn more about [excluding built-in libraries](https://docs.katalon.com/katalon-studio/docs/external-libraries.html#exclude-built-in-libraries). 
+<table width="100%">
+	<tbody>
+		<tr>
+			<td>
+				<p>Built-in Database</p>
+			</td>
+			<td>
+				<p>Version</p>
+			</td>
+			<td>
+				<p>Katalon Studio 7.0.0+</p>
+			</td>
+			<td>
+				<p>Katalon Studio 7.5.0+</p>
+			</td>
+			<td>
+				<p>Katalon Studio Enterprise 7.0.0+</p>
+			</td>
+			<td>
+				<p>Katalon Studio Enterprise 7.5.0+</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>PostgreSQL</p>
+			</td>
+			<td>
+				<p data-pm-slice="1 1 [&quot;bulletList&quot;,null,&quot;listItem&quot;,null,&quot;bulletList&quot;,null,&quot;listItem&quot;,null]">v42.2.17</p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>Oracle SQL</p>
+			</td>
+			<td>
+				<p data-pm-slice="1 1 [&quot;bulletList&quot;,null,&quot;listItem&quot;,null,&quot;bulletList&quot;,null,&quot;listItem&quot;,null]">v12.1.0.2</p>
+			</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>
+				<p>✔</p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p data-pm-slice="1 1 [&quot;bulletList&quot;,null,&quot;listItem&quot;,null,&quot;bulletList&quot;,null,&quot;listItem&quot;,null]">SQL Server</p>
+			</td>
+			<td>
+				<p data-pm-slice="1 1 [&quot;bulletList&quot;,null,&quot;listItem&quot;,null,&quot;bulletList&quot;,null,&quot;listItem&quot;,null]">v6.2.2</p>
+			</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>
+				<p>✔</p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+In case you want to use a version other than the version those built-in drivers are compatible with, learn more about [excluding built-in libraries](https://docs.katalon.com/katalon-studio/docs/external-libraries.html#exclude-built-in-libraries).
 
 For those who wish to connect to an external database having a JDBC driver, you need to install its executable jar file accordingly then tell Katalon Studio where to use it for connection. 
 
@@ -145,7 +151,7 @@ To start the connection:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/mariadb-jar.png" width=65%>
 
-3. In Project Settings, go to **Database**: 
+3. In Project Settings, go to **Database**:
 
     - Select **Secure User and Password** to enable **User** and **Password**.
     - Input **User** name and **Password** used for authentication and **Connection URL**.

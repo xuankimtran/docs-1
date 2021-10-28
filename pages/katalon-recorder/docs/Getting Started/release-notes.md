@@ -10,6 +10,30 @@ redirect_from:
 description:
 ---
 
+## 5.5.4.10
+**Bug fixes**
+- Users cannot use a CSV file in test cases on some Windows machines.
+
+## 5.5.4.9
+**Shiny new things**
+- The ability to export multiple test cases to Selenium frameworks.
+- Improve visibility Template Dialog.
+
+## 5.5.4.6
+**Improvement**
+- Improve exporting tests to Java Junit, Java TestNG, Python.
+
+**Bug fixes**
+- Fix issues cannot progress through Generating Selenium tests in the on-boarding flow.
+
+## 5.5.4.5
+**Shiny new things**
+- Add the ability to export test projects to Katalon Studio.
+
+**Bug fixes**
+- Users cannot see failed tests when they upload them to TestOps.
+
+
 ## 5.5.4.4
 **Bug fixes**
 - Users now can navigate between Target, Command and Value using tabs again.
