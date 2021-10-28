@@ -116,6 +116,7 @@ This document gives you information on the supported technologies and integratio
 			<td>
 				<ul>
 					<li><a href="https://docs.katalon.com/katalon-studio/docs/jira-integration.html"> Jira </a></li>
+					<li><a href="https://docs.katalon.com/katalon-studio/docs/git-integration.html"> Git </a></li>
 					<li><a href="https://docs.katalon.com/katalon-studio/docs/qtest-integration.html"> qTest </a></li>
 					<li><a href="https://docs.katalon.com/katalon-studio/docs/testrail-integration.html"> TestRail </a></li>
 					<li><a href="https://docs.katalon.com/katalon-studio/docs/rally-integration.html"> Rally </a></li>
@@ -170,4 +171,3 @@ This document gives you information on the supported technologies and integratio
 </table>
 <p>(*) <em> Limitation: Elements inside embedded web views cannot be captured automatically by Record&amp;Spy utilities. </em><a href="#top"> Back to top </a></p>
 
-> Leave a comment below to propose any technologies you need Katalon Studio to support.
