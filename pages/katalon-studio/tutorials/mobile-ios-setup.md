@@ -10,7 +10,8 @@ description:
    
 This article shows you how to set up Xcode simulators and real iOS devices to test iOS applications with Katalon Studio.
 
-To begin with, you need to setup a macOS environment. You can not execute iOS mobile testing in Windows.
+To begin with, you need to setup a macOS environment. You can not execute iOS mobile testing in Windows and Linux.
+
 ## Part 1: Setting up the environment for iOS testing
 
 1. Install Xcode version 10.2 or newer. You can download Xcode from the App Store or the Apple Developer website: [Xcode 13](https://developer.apple.com/xcode/).
@@ -34,6 +35,7 @@ To begin with, you need to setup a macOS environment. You can not execute iOS mo
    > * We recommend installing the latest Appium version.
    > * In case you are installing Appium via NPM, make sure you install Node.js into a location where you have full Read/Write permissions.
    > * If you are using emulators other than Xcode simulators, some emulators come with Appium installed. If you want to run an application on an emulator, check your emulator settings before installing Appium.
+
 ## Part 2: Install extra dependencies to test real iOS device
 
 > If you execute mobile testing on Xcode simulators only, skip this part.
