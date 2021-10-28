@@ -14,13 +14,13 @@ With TestCloud, users can simultaneously and instantly test their application ac
 The simplicity and practicality TestCloud offers would address the following problems:
 * Difficulty and inability to test across browsers and OS effectively.
 * Scalability issues due to expensive infrastructure and slow process in setting up physical labs.
-* Time-consuming configuration and integration for the test execution to actually work in different environments and scenarios.
+* Time-consuming configuration and integration for the test execution to work in different environments and scenarios.
 * Limited availability of test scenarios/devices/OS/browsers.
 
 **No setup and maintenance required** to use TestCloud as your test environment.
 
 TestCloud also supports any request for readiness to integrate with your CI/CD pipelines.
 
-Katalon TestCloud (Beta) is now available for a seamless [integration with Katalon TestOps](https://docs.katalon.com/katalon-testcloud/docs/integrate-testcloud-with-testops.html) and Katalon Studio (coming soon) to increase your testing environment options and reduce your waiting time in software deployment. As an existing Katalon user, you can benefit from our Beta Testing program.
+Katalon TestCloud (Beta) is now available for seamless [integration with Katalon TestOps](https://docs.katalon.com/katalon-testcloud/docs/integrate-testcloud-with-testops.html) and Katalon Studio (coming soon) to increase your testing environment options and reduce your waiting time in software deployment. As an existing Katalon user, you can benefit from our Beta Testing program.
 
 For more information on the program and how to join, contact us at success@katalon.com.  
