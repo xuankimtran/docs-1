@@ -6,9 +6,9 @@ redirect_from:
 description: 
 ---
 
-[Web Service Object Parameterization](https://docs.katalon.com/katalon-studio/docs/parameterize-a-web-service-object.html) in Katalon Studio allows you to perform data-driven testing (DDT) with web service.
+Web Service Object Parameterization in Katalon Studio allows you to perform data-driven testing (DDT) with web services.
 
-This tutorial shows you how to apply DDT to web service test. The test includes:
+This tutorial shows you how to apply DDT to a web service test. The test includes:
 
 * Requests to web service for user registration and verification.
 
@@ -16,119 +16,103 @@ This tutorial shows you how to apply DDT to web service test. The test includes:
 
 > You can download the sample project here: [Web Service Tests](https://github.com/katalon-studio-samples/web-service-tests).
 
-## Create a web service test
+## Create parameterized web service request objects
 
-### Create web service request objects
+1. To create a web service request object, from the main menu, select **File > New > Web Service Request**. 
 
-1. In **Tests Explorer**, right-click on **Object Repository** and select **New > Web Service Request**. 
+2. In the displayed **New** dialog, name your request object and specify the request type.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-with-web-service/New-Web-Request-Object.png" width=70% alt="New web request object">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-web-service/KS-New-request-object.png" width=70% alt="New Web Service Request dialog">
 
-2. In the displayed **New** dialog, name your request object and specify the **Request Type**. Here you need to create two RESTful requests. 
-
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-with-web-service/POST-request-object-dialog.png" width=70% alt="New request object dialog">
+    In our example, we need to create two RESTful requests.
 
     **POST request to register a new user**
 
-    You need to specify the request method, the API endpoint, and the corresponding HTTP Body. 
+    We need to specify the request method, the API endpoint, and the corresponding HTTP Body.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-with-web-service/POST-request-config.png" width=70% alt="POST request config">
+    The JSON-encoded HTTP Body in the POST request includes these parameterized values: `username`, `password`, `gender`, `age`, and `avatar`. This API request receives user information and returns the ID of the newly created user.
 
-    The JSON-encoded HTTP Body includes these parameterized values: username, password, gender, age, and avatar.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-web-service/KS-New-POST-request-object.png" width=70% alt="POST request configuration">
 
-    **GET request to get user by ID**
+    **GET request to get a user by ID**
 
-    With this request's endpoint, the user ID is parameterized in the URL.
+    This API request receives a user ID and returns the corresponding user information. The user ID (`id`) is parameterized in the API endpoint. 
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-with-web-service/GET-request-config.png" width=70% alt="GET request config">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-web-service/KS-New-GET-request-object.png" width=70% alt="GET request configuration">
 
-### Create a test case with request objects
+> To learn more about using parameters with Web Service Requests, refer to this document: [Parameterize a Web Service Object](https://docs.katalon.com/katalon-studio/docs/parameterize-a-web-service-object.html).
 
-To demonstrate web service test design, here we create a test case using the POST request object and specify its variables.
+## Create a test case with parameterized web service requests
 
-**User registration test case**
+To demonstrate parameterized web service test design, we create a test case to send the POST request to create a new user. With the returned user id from the POST request, we verify user identity using the GET request.
 
-1. Open the test case in **Manual** view, click **Add  Web Service Keyword** button from command toobar.
+Follow these steps to set up the test case:
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-with-web-service/Add-web-service-keyword.png" width=70% alt="Add web service keyword">
+1. Open a new test case, in the **Script** view, enter the following code snippet to set up the test case:
 
-2. To send a user registration request to web service, select the **Send Request And Verify** keyword.
+    ```groovy
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-with-web-service/Double-click-on-object-cell.png" width=70% alt="Send request and verify keyword result">
+    // Send a POST request to create a new user
+    // The response contains the id of the newly created user
+    post_response = WS.sendRequestAndVerify(findTestObject('POST a new user', [('username') : username, ('password') : password
+                , ('gender') : gender, ('age') : age]))
 
-3. Double click on object cell and select a test object (POST request object in this case) with the required variables.
+    // Get the id value from the response
+    user_id = WS.getElementPropertyValue(post_response, 'id')
+    println("ID of user " + username + ": " + user_id.toString())
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-with-web-service/Test-object-input.png" width=70% alt="Test Object input dialog">
+    // Send a GET request to retrieve user information by id
+    get_response = WS.sendRequestAndVerify(findTestObject('GET user by id', [('id') : user_id]))
+    println("The response is: " + get_response.getResponseText())
 
-4. Run the test case and verify the result in **Log Viewer**:
+    // Verify that the returned values match the user information
+    WS.verifyElementPropertyValue(get_response, 'username', username)
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-with-web-service/Run-test-case-and-view-result.png" width=70% alt="Test case result">
+    ```
 
-## Apply data-driven testing with parameterized test requests
+2. To run a test case with different inputs, you need to parameterize the test case. Switch to the **Variables** tab of the **Test Case Editor** and specify the parameterized values.
 
-To combine user registration and verfication into one test case, you can define custom keywords from the two request objects. 
+    Here we specify the variables in use (`username`, `password`, `gender`, `age`, and `avatar`), provide the type and the default values.
 
-### Define custom keywords with web service requests
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-web-service/KS-Variables-tab.png" width=70% alt="Test case variables">
 
-1. In **Tests Explorer**, right-click on the default package and select **New > Keyword** to create a new custom keyword class.
+4. Run the test case and verify the test message in the **Console** log:
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-with-web-service/KS-create-new-keyword.png" width=70% alt="Create new keyword">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-web-service/KS-Console-log-test-case-result.png" width=70% alt="Test case run result">
 
-2. Enter the following code snippet to define custom keywords and associate them with the two requests: 
+## Apply data-driven testing with web service tests
 
-```groovy
-import groovy.json.JsonSlurper
+We apply DDT to the web service test by binding a data file to a test suite.
 
-import java.math.BigDecimal
-public class Common {
+Follow these steps to set up the test data, the test suite, and data binding:
 
-	public static JsonSlurper jsonSlurper = new JsonSlurper()
+1. To create a test data file, from the main menu, select **New > File > Test Data**. In the displayed dialog, name the test data file and specify the data type.
 
-	@Keyword
-	def int createNewUser(BigDecimal age, String username, String password, String gender, int expectedStatus) {
-		def response = WS.sendRequestAndVerify(findTestObject("Object Repository/POST a new user",
-				["age": age, "username": username, "password": password, "gender": gender]))
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-web-service/KS-New-Test-Data-dialog.png" width=70% alt="New Test Data dialog">
 
-		def jsonResponse = jsonSlurper.parseText(response.getResponseText())
-		return jsonResponse.id
-	}
+    In our example, we use an Excel file that contains user information.
 
-	@Keyword
-	def static void findUserById(int id, BigDecimal age, String username, String password, String gender, int expectedStatus) {
-		def response = WS.sendRequestAndVerify(findTestObject('Object Repository/GET user by id', [('id') : id]))
-		WS.verifyElementPropertyValue(response, "age", (age.intValue()).toString())
-		WS.verifyElementPropertyValue(response, "username", username)
-		WS.verifyElementPropertyValue(response, "password", password)
-		WS.verifyElementPropertyValue(response, "gender", gender)
-	}
-}
-```
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-web-service/KS-Test-Data-User-Information-Table.png" width=70% alt="Test Data table of user information">
 
-### Create a test case with custom keywords
+    > To learn more about test data management, refer to this guide: [Manage Test Data](https://docs.katalon.com/katalon-studio/docs/manage-test-data.html).
 
-1. Open the new test case in **Manual** view. Click the **Add** dropdown button and select **Custom Keyword**.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-with-web-service/add-cutom-keyword-web-service.png" width=70% alt="Add a custom keyword">
+2. Open a new test suite, click on the **Add** button and include the parameterized test case.
 
-2. Add the two custom keywords to the test case (```createNewUser``` and ```findUserById```).
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-web-service/KS-Test-Suite-add-test-case.png" width=70% alt="Test Data table of user information">
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-with-web-service/Select-two-custom-keywords.png" width=70% alt="Select two keywords">
+3. To open the **Data Binding** section, click on the **Show Data Binding** button.
 
-3. Configure each custom keyword with its input and output parameters.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-web-service/KS-Test-Suite-Show-Data-Binding.png" width=70% alt="Test Data table of user information">
 
-    ***createNewUser***
+4. You need to specify the test data file and configure the variable binding. Follow the steps in this guide to configure the binding: [Manage Data Binding](https://docs.katalon.com/katalon-studio/docs/run-test-case-external-data.html#manage-data-binding).
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-with-web-service/Create-user-input-variables.png" width=70% alt="Input variables">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-web-service/KS-Test-Suite-configure-data-binding.png" width=70% alt="Test Data table of user information">
 
-    ***findUserById***
+5. Once configured, run the test suite and verify the result in the **Log Viewer**.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-with-web-service/Find-user-by-id-input-variables.png" width=70% alt="Input variables">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-web-service/KS-DDT-Test-Result.png" width=70% alt="Test Data table of user information">
 
-    The ***CreateNewUser*** keyword requires an ouput parameter called **id**.
+**See also**:
 
-    [image]
-
-### Bind external data to a test suite
-
-1. In a new Test Suite, click on the **Add** button from the command toolbar to add the test case.
-
+* [Data-driven Testing with Katalon Studio](https://docs.katalon.com/katalon-studio/docs/ddt.html)
