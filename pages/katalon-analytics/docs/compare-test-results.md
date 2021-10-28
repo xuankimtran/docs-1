@@ -4,22 +4,33 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/compare-test-results.html 
 description: 
 ---
-TestOps allows you to compare the results of multiple test executions in a side-by-side table so that you can know whether or not a test is producing the same effect each time you run it.
+TestOps allows you to compare the results of multiple test runs. By doing so, you can check if a test is producing the same results each time you run it.
 
-On the tabbed ribbon **Reports & Analytics** of Katalon TestOps, choose **Test Runs**.
+Follow these steps:
 
-![Test runs is the first button on the left](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/compare-test-results/kt2_report_test_runs.png)
+1. Sign in to [Katalon TestOps](https://testops.katalon.io/login) and go to your Project.
+2. Go to **Reports & Analytics** > **Test Runs**.
 
-Select **Test Runs** from the list by checking the checkboxes.
+    The **Test Runs** page appears.
 
-![Scroll down to find the list of Test Runs](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/compare-test-results/kt2_select_test_run.png)
+3. Scroll down the page to see the Test Runs list.  
 
-Click on the **Compare** button;
+4. Select the Test Runs you want to compare.
 
-![Location of the compare button](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/compare-test-results/kt2_test_run_button_compare.png)
+    > Notes:
+    >
+    > You can select up to 3 test runs for comparison.
 
-> Note: You can select up to 3 test executions for comparison.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/compare-test-results/kt2_select_test_run.png" width=100% alt="select test runs">
 
-Now you can view the execution details and comparison charts.
+    After selecting Test Runs, you will see a new options bar pop up at the top of the page.
 
-![An example of test runs comparisons](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/compare-test-results/kt2_test_run_comparison.png)
+5. Click **Compare**.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/compare-test-results/compare-button.png" width=100% alt="compare button">
+
+    The **Test Runs Comparison** page appears as below.
+
+     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/compare-test-results/kt2_test_run_comparison.png" width=100% alt="select test runs">
+
+    You can check the details of Test Runs and view a comparison chart here.
