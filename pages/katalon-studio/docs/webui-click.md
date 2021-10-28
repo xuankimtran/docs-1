@@ -9,6 +9,7 @@ redirect_from:
     - "/katalon-studio/docs/webui-click/"
 description: 
 ---
+
 ## Description
 
 Click on the given element. From Katalon Studio version 8.2.0 onwards, if the target element is behind a loading overlay, Katalon repeatedly tries clicking the element for a period configured in **Project > Settings > Execution > Default wait for element timeout**.
