@@ -12,6 +12,7 @@ Katalon TestCloud is developed following our users needs to test their products 
 With TestCloud, users can simultaneously and instantly test their application across multiple browsers and OS in just a few clicks, avoiding any hassle with infrastructure setup, infrastructure requirements and maintenance as well as IT dependency.
 
 The simplicity and practicality TestCloud offers would address the following problems:
+
 * Difficulty and inability to test across browsers and OS effectively.
 * Scalability issues due to expensive infrastructure and slow process in setting up physical labs.
 * Time-consuming configuration and integration for the test execution to work in different environments and scenarios.
