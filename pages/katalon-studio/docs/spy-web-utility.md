@@ -92,9 +92,7 @@ This guide shows you how to use Spy Web Utility to capture and manually define t
  
 6. Click on the **Save** button to add captured objects to **Object Repository**.
 
-7. Check on those captured objects in the left pane that you would like to save into Katalon Studio.   
-
-    The structure of your **Object Repository** is displayed on the right pane. Select the folder to add the captured objects. Click **OK** when done.  
+7. Your captured objects now show in the Object Repository window. The objects are displayed in the left pane. Select your save folder from the right pane. Click OK when done.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-web-utility/KS-Add-element-to-object-repository.png" width=70% alt="Add Element to object repository">   
 
@@ -106,7 +104,7 @@ This guide shows you how to use Spy Web Utility to capture and manually define t
 
 2. **Add a Frame element** (optional): If the new object is a nested object, a frame is needed to locate the element. Frames are web elements that usually contain many other web objects. 
 
-    The current page of the AUT doesn't contain any frame, so we don't need to add a Frame element.
+    In our example, the AUT doesn't contain any frame. We don't need to add a Frame element.
     
 3. **Add an Object element**: Click on the **New object** button from the toolbar to manually add a web object. Click **Delete** to remove any unwanted element.
 
@@ -156,7 +154,7 @@ This guide shows you how to use Spy Web Utility to capture and manually define t
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-web-utility/KS-Web-element-copy-XPath.png" width=70% alt="Copy XPath">   
       
     
-3. Navigate to the **Object Spy** window and paste into **Selected Locator** or **Object Properties** section.
+3. Navigate to the **Object Spy** window and paste into the **Selected Locator** or the **Object Properties** section.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-web-utility/KS-Object-Spy-paste-XPath.png" width=70% alt="Paste XPath into Selected Locator section">  
 
