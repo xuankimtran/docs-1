@@ -1,22 +1,33 @@
 ---
-title: "Cancel Subscriptions"
+title: "Cancel Billing Renewal"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/cancel-subs.html
 description:
 ---
-You can cancel your subscription at any time. This action will turn-off auto-renewal of your subscription on the next billing date.
 
-After the cancelation, the subscription remains **active** until its next billing date. On that date, its status becomes **terminated**.
+You can cancel your Katalon license subscription at any time. This action will turn off the auto-renewal of your license subscription on the next billing cycle.
 
-> Subscription cancelation does NOT issue a refund. You can continue using the remaining subscription you have already purchased.
->
-> Only the Organization Owner/Admins can cancel a subscription.
+Subscription cancellation does NOT issue a refund. You can continue using the remaining subscription you have already purchased.
 
-To cancel your subscription, follow the following steps:
+Only the Organization Owner and Admins can cancel a subscription.
 
-1. Log into [Katalon Admin](https://admin.katalon.com/)
-2. Select your **Organization > Subscriptions**
-3. On the top right corner of the **Subscription** view, select **Edit Subscription**
-4. Click **Cancel** any active subscriptions and confirm your action
+After the cancellation, the subscription remains **active** until the end of the current billing period. On the next billing date, its status becomes **terminated**.
 
-If you cancel your subscription by mistake and would love to reactivate the canceled subscription, please contact us via license@katalon.com.
+To cancel your subscription, follow these steps:
+
+1. Log in to [Katalon TestOps](https://testops.katalon.io/).
+2. Select your **Organization**.
+3. Go to **Settings > Subscriptions Management > Studio Subscriptions**.
+4. On the top right corner of the **Subscription** view, click **Edit Subscription**
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-subscription/edit-subscription.png" alt="edit subscription" width=100%>
+
+5. Find the license you wish to cancel, then click **Cancel**. The **Cancel Subscription** dialog appears. To confirm your action, click **OK**.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-subscription/cancel-subs.png" alt="cancel subscription" width=100%>
+
+6. A customer survey form appears. Fill in the survey form, then click **Done** to complete the cancellation.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-subscription/feedback-form.png" alt="survey form" width=50%>
+
+If you cancel your subscription by accident and want to reactivate the canceled subscription, contact us via license@katalon.com for further support.

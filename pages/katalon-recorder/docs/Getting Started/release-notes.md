@@ -10,6 +10,155 @@ redirect_from:
 description:
 ---
 
+## 5.5.4.10
+**Bug fixes**
+- Users cannot use a CSV file in test cases on some Windows machines.
+
+## 5.5.4.9
+**Shiny new things**
+- The ability to export multiple test cases to Selenium frameworks.
+- Improve visibility Template Dialog.
+
+## 5.5.4.6
+**Improvement**
+- Improve exporting tests to Java Junit, Java TestNG, Python.
+
+**Bug fixes**
+- Fix issues cannot progress through Generating Selenium tests in the on-boarding flow.
+
+## 5.5.4.5
+**Shiny new things**
+- Add the ability to export test projects to Katalon Studio.
+
+**Bug fixes**
+- Users cannot see failed tests when they upload them to TestOps.
+
+
+## 5.5.4.4
+**Bug fixes**
+- Users now can navigate between Target, Command and Value using tabs again.
+- Users can now restore their backup data from TestOps again.
+- Breakpoints are remembered when users switch between test caes again.
+
+**Improvements**
+- Autosuggested options now will disappear when users interact with other elemenets.
+- Test cases' execution status will be retained when users stop the execution mid-way.
+- Added an explanation via tooltip when users use Save Test Case functionality the first time.
+
+## 5.5.4.3
+**Bug fixes**
+- Fixed an issue where Play from here / Play all executes tests in the wrong order when creating a new test case or duplicating a test case.
+
+## 5.5.4.2
+**Bug fixes**
+- Fixed an issue where JSON files cannot be read as expected
+
+## 5.5.4.1
+**Bug fixes**
+	- Fixed an issue where users cannot execute tests with CSV files on Windows.
+	- Fixed an issue where copy and pasting a command does not work as expected.
+	- Fixed an issue where users cannot open .krecorder files.
+	- Fixed an issue where users can't see test steps' statuses after executions.
+	- Fixed an issue where users can't visually distinguish between passed and failed tests.
+
+## 5.5.4
+**Improvements**
+  - Roll out a completely reworked UI/UX.
+  - Users can now duplicate a test suite along with all of its test cases through an option in context menu.
+**Bug fixes**
+  - Fixed an issue where [Goto](https://forum.katalon.com/t/error-using-appendtocsv-with-katalon-recorder-v-5-5-3/57655/4), [AppendToCSV and WriteToCSV](https://forum.katalon.com/t/error-using-appendtocsv-with-katalon-recorder-v-5-5-3/57655/4) commands do not work as expected.
+  - Fixed an issue where autosuggestion dropdowns do not disappear after selecting an option.
+  - Fixed an issue that prevents users from singing up a Katalon account in-app.
+
+## 5.5.2
+- **Improvements**
+  - Add sample project "Upload a set of images sand their metadata" to showcase how to use `upload` command.
+  - Improve export function from KR to KS.
+  - Users now can export recorded tests, tests using `if else` and `while` commands, tests containing `verify/assert` commands and tests using command `runScript` from Katalon Recorder to Katalon Studio.
+- **Bug fixes**
+  - Fix an issue where users cannot see the selected autosuggested command when navigating with key up/key down.
+
+## 5.5.1.3
+- **New features**
+  - You can upload files without specifying a target through `Upload` command.
+    - This command simulates uploading files with drag-and-drop.
+    - You can upload multiple files by separating the path with commas.
+    - *Note*: It only works on Chrome as Firefox doesn't allow extensions to directly read from the file system.
+    - > Help > Sample projects > **Simulate uploading files with drag and drop**.
+  - You can write values to CSV files with `writeToCSV` and `appendToCSV`.
+    - `writeToCSV` accepts a file name, a row number and a column name as the target where it will write the provided value to. For example: `writeToCSV | data.csv,10,first_name | Thomas`.
+    - `appendToCSV` accepts a file name as the target and a string as the target. For example: `appendToCSV | data.csv | Thomas,To`
+    - > Help > Sample projects > **Write values to a CSV file**.
+- **Improvements**
+  - You can read information of a CSV file into variables with `storeCsv` command. 
+    - After storing the result of the command to a variable, You can:
+      - Read the number of lines a CSV file has.
+      - Read the value at a particular row and column.
+      - Compute the values from different cells in a CSV file.
+    - > Help > Sample projects > **Read and use values from a CSV file**.
+- **Bug fixes**
+  - Fix an issue where KR CLI cannot execute on Windows.
+    - The difference between paths on Mac and Windows made KR CLI unable to run on Windows. The problem is now fixed.
+  - Fix an issue where `selectWindow` command is still executed inside a block that does not meet its if statement's condition.
+  - Fix an issue where self-healing proposed locators are the expanded version of the locators instead of the original version that contains variables.
+  - Fix an issue where You cannot export a recorded script from Katalon Recorder to Katalon Studio.
+
+
+## 5.5.1.2
+- Improvements
+  - Promote sample projects after 1st successful execution.
+    - We think these sample projects will be helpful to make users successful with their first automation script.
+- Bug fixes
+  - Fix an issue where switching between test cases does not reset the test case view to the top. This makes users think their data are lost.
+
+
+## 5.5.1.1
+- New functions
+  - Add popup to ask users for their automation use cases.
+- Bug fixes
+  - Contextual product tips' text are unreadable on dark themes.
+
+## 5.5.0
+- New functions
+  - Self-healing. [Read more](https://docs.katalon.com/katalon-recorder/docs/self-healing.html)
+  - Command-line runner. [Read more](https://docs.katalon.com/katalon-recorder/docs/command-line-runner.html)
+  - Import from Selenium IDE. [Read more](https://docs.katalon.com/katalon-recorder/docs/import-selenium-ide.html)
+  - Add referral button.
+- Bug fixes
+  - Fix issue type command does not work with multiline in textarea.
+
+## 5.4.14
+- New functions
+  - Add popup for users to rate KR on Chrome and Firefox store.
+  - Add sample projects to contextual product tips.
+  - Add the ability to download data files from KR.
+
+## 5.4.10
+- Improvements
+  - Improved registration process.
+    - Since version 5.4.10, new users will have unlimited test executions, but can create only one automation script. To create more, a **free account** is required. 
+      - We have experimented with setting quota on the number of executions, but decided that it does not align with how users experience success with the product because the number of executions required to automate a scenario successfully vary greatly. However, when you want to automate more scenarios, it likely indicates that you have succeeded in automating one scenarios.
+
+## 5.4.6
+- Improvements
+  - Improved registration process.
+    - Since version 5.4.6, new users will have to sign up for a **free** account after 4 successful executions. Our data has shown that users that have more than 4 successful executions are more likely to adopt the product.
+- Bug fixes
+  - Fixed an issue where record and playback fails on Angular forms. Users could not record `sendKey` on Angular forms, which also makes playback fail.
+
+## 5.4.5
+- Improvements
+  - Improved registration process. 
+    - We are constantly refining the registration process to offer users the best experience while balancing againt our business needs.
+    - Since version 5.4.5, new users will be able to execute 25 tests without being forced or suggested to sign up. However, when the quota is exceeded, you will need a **free** account and log in to continue your work.
+
+## 5.4
+- New functions
+  - Undo/redo mechanism to recover from mistakes while editing tests.
+  - New Product Tours for both new and current KR users.
+- Improvements
+  - Improved registration process.
+
 ## 5.3.30 - latest release
 
 **New feature**

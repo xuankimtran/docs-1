@@ -2,75 +2,93 @@
 title: "Manage Katalon Licenses"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/license-management.html
+redirect_from:
+    - "/katalon-studio/docs/transfer-license.html"
 description:
 ---
+After purchasing Katalon Studio Enterprise and/or Katalon Runtime Engine licenses, you can attribute, transfer, and remove granted licenses from [Katalon TestOps](https://testops.katalon.io/login).
 
-After successfully subscribing to Katalon licenses, the **Organization Owner and Admins** can start granting licenses to your users immediately. For more details about roles and default permission, please view [this document](https://docs.katalon.com/katalon-analytics/docs/kt-user-role-permission.html).
-
-> **Important**:
+> Requirements:
 >
-> * The **Licenses** view of your Organization on Katalon Admin is the workspace to manage Katalon licenses.
-> * Only **Organization Owner and Admins** can view, create, assign, revoke, and transfer licenses.
+> You must be the Owner or Admin of your Organization to access the **Licenses** page. For further details on roles and user management, see: [TestOps User Management](https://docs.katalon.com/katalon-analytics/docs/kt_invite_user_org.html).
 
-## Verify and View Licenses Information
+## View the license information
 
-Please follow these steps to verify the information of your subscribed licenses and contact us via license@katalon.com if you need help. You can also view the number of available licenses and machines.
+You can verify the subscription information and view all license information by following these steps:
 
-1. Log into [Katalon Admin](https://admin.katalon.com/)
-2. Select your **Organization > Licenses**
-3. Select a Katalon product to open its view
-4. The product view displays the following information:
-* **Subscribed Licenses**- license quota that you have purchased.
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/license.png" width="" height="">
-* **Available Licenses**- the remaining licenses after the subscribed license quota subtracts the total number of offline licenses created and currently active online licenses.
-  > *Available licenses = Subscribed licenses quota – (Offline licenses + Active online licenses)*
-* **Machine Quota** is equal to the license quota.
-* **Registered Users**- the users are allowed to use Katalon Studio Enterprise licenses. (This list only displays in the **Katalon Studio Enterprise** view.)
-* **Online Licenses**- active machines that are using online licenses.
-* **Offline Licenses**- machines to which an offline license binds.
-* **Registered Machines** display a list of  machines that have used either online or offline license.
+1. Sign in to [Katalon TestOps](https://testops.katalon.io/login).
 
-## Manage and Assign Licenses
+2. Go to **Settings** > **License Management**.
 
-We provide different tutorials on how to grant and use different licenses:
+   The **Licenses** page appears.
 
-* [Grant Online Licenses](https://docs.katalon.com/katalon-studio/docs/use-online-license.html) describes how to grant permission of using the subscribed licenses of both Katalon Studio Enterprise and Katalon Runtime Engine
-* Katalon Studio Enterprise: [How to grant and use an Offline License](https://docs.katalon.com/katalon-studio/docs/how-to-create-kse-offline-license.html)
-* Katalon Runtime Engine: [How to grant and use an Offline License](https://docs.katalon.com/katalon-studio/docs/how-to-create-kse-offline-license.html)
+3. Select a Katalon product. For example, **Katalon Studio Enterprise (Node-locked)**.
 
-## Revoke and Transfer Licenses
+   The **Licenses** page displays as below.
 
-Only **online** licenses of Katalon Studio Enterprise and Katalon Runtime Engine are transferable among the organization's registered users as long as the active licenses do not exceed the license quota.
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/licenses-page-blurred-not-highlighted.png" width=100% alt="licenses page">
 
-You can revoke a Katalon Studio Enterprise license from a user by removing the user from the **Registered Users** list. You can do the same for a registered machine.
+   * In the **Subscription** section, you can see the following information:
+      * **Subscribed Licenses**: the total number of licenses you have purchased, also known as your license quota.
+      *  **Available Licenses**: the remaining licenses you can use.
 
-## How to View License Details
+         > Notes:
+         > 
+         > Licenses attributed online, as well as offline licenses you have generated, are substracted from your license quota.
 
-Users can view the license's details that they are using. From the main menu of Katalon Studio:
+      * **Machine Quota**: the maximum number of machines that can be registered with your licenses.
+      
+   * In the **Licensed Users** section, you can add users for license usage. You can also view a list of users you have added for license usage.
 
-* macOS: **Katalon Studio > About Katalon Studio**
-* Windows/Linux: **Help > About**
+   * In the **Online Licenses** section, you can see a list of active machine IDs (users who are currently using the licenses online).
 
-## Configure Idle Timeout
+   * In the **Offline Licenses** section, you can see a list of machine IDs bound to offline licenses.
 
-> Introduced in version 7.8 and applicable to the **online** Katalon Studio Enterprise (KSE) license only.
+   * In the **Registered Machines** section, you can see a list of all machine IDs that are using either types of licenses.
 
-With this function, you can optimize the usage of KSE licenses by setting a time restriction for users to have no interactions with Katalon Studio. This setting impacts all KSE users in this organization, which means a KSE user will sign out automatically when they take no actions in the app. 
+> Notes:
+>
+> Contact us at license@katalon.com if you need further help with your licenses.
 
-**On Katalon Admin**: 
+## Grant a license
 
-To enable timeout setting for license usage, please do as follows:
+You can assign licenses to users. See [Grant Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/use-online-license.html).
 
-1. Log into [Katalon Admin](https://admin.katalon.com/) 
-2. Select your **Organization** > select **Timeout**
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/turn-off.png" width=60%>
-3. In the displayed **Idle Timeout Settings** screen, Katalon turns off the idle timeout by default, click on the switch button to enable the setting.
-4. Specify the desired timeout (in minutes). By default, Katalon sets 120 minutes as the timeout period.
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/turn-on.png" width=60%>
-5. Click **Update** to save your setting.
+Once you have assigned a license successfully, users can follow this activation guide: [Activate Katalon License](https://docs.katalon.com/katalon-studio/docs/activate-license.html).
 
-**In Katalon Studio**: 
+## Remove a license
 
-When this setting is applied, if the users in that organization have been idle for the specified minutes, they will log out automatically. Katalon Studio will send a notification to the user before the automatic signout.
+You can remove a Licensed User, a machine ID, or a license from a machine ID. See [Remove a License](https://docs.katalon.com/katalon-studio/docs/remove-license.html).
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/noti.png" width=60%>
+## Transfer a license
+
+> Notes:
+>
+> Only **Online Licenses** are transferable among the organization's registered users as long as the active licenses do not exceed the license quota.
+>
+> **Offline Licenses** cannot be transferred until their expiry dates.
+
+> Requirements:
+>
+> You have already verified that your machine does not have an offline license.
+
+After activation, the KSE/KRE node-locked licenses are bound to the machine IDs until the expiry dates. You can still remove the licenses or transfer them manually.
+
+To transfer a KSE license, you need to:
+
+1. Remove a license. See [Remove a License](https://docs.katalon.com/katalon-studio/docs/remove-license.html).
+2. Add the new user in the **Online Licenses** section. See: [Grant Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/use-online-license.html).
+
+For KRE, one session will reserve one license. You must deactivate the machine ID that reserved that license first. Another user can then use KRE and take over the license.
+
+For example, if the KRE license is bound to your machine ID because you have run KSE using KRE. You must deactivate your machine ID so that the other member in your organization can use the KRE node-locked license.
+
+### Transfer the KRE license to another machine
+
+All licensed Users in an Organization can use available KRE licenses by default once the Organization has purchased the KRE licenses.
+
+Licensed Users activate a KRE license by running KSE with KRE. After activation, their machine ID is then added to the **Online Licenses** section. This license is then reserved for their use.
+
+Therefore, to make a KRE license available when all licenses are reserved, a machine ID has to be deactivated.
+
+Follow the steps above to deactivate a machine ID.

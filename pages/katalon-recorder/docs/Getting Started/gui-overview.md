@@ -10,6 +10,8 @@ redirect_from:
 description:
 ---
 
+> This doc will be updated soon to reflect our new user interface.
+
 Katalon Automation Recorder main UI contains 4 sections as follow
 
 - Main Toolbar

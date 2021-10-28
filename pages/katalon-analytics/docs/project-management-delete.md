@@ -10,29 +10,78 @@ redirect_from:
 description: 
 ---
 
->* The deleted projects and executions cannot be recovered. Delete them with caution.
->* Only team Owners and Admins can delete a project.
-
-## Delete a project
-
-1. Open your team page.
-2. Select **Projects** tool page on the left side to view all projects under your team.
-3. Click on the delete icon of the project you want to delete.
-4. Confirm your action in the pop-up by entering the project ID.
-
-## Delete an execution
-
-In the executions table, click on the extension icon at the end of the execution row, select **Delete** and confirm your action in the pop-up.
-
-*Once you have successfully deleted the execution, it may take a little while for it to disappear from the test executions table.*
-
-> **Quick tips: Delete multiple executions**
+> Notice:
 >
-> You can delete multiple executions at once by using the bulk selection feature in Executions screen.
->
-> After choosing the executions that you want to delete, click on the Delete button and confirm your action.
->
-> <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/project-management-delete/delete-multiple-execution.png" width="" height="">
->
-> *Please note that the action cannot be undone. Once you delete the executions, they will be gone forever.*
+> You cannot recover the deleted projects and executions. Delete them with caution.
 
+## Delete a Project
+
+> Requirements:
+>
+> You must be the Owner or Admin of a Team.
+
+Follow these steps:
+
+1. Go to **Settings** > **Team Management**.
+
+    The **Manage Teams** page appears.
+
+2. Choose your Team in the **Teams** section.
+
+    The Team's **Dashboard** page appears.
+
+3. Select **Projects** on the left bar to view all Projects your Team has.
+
+    The **Manage Projects** page appears.
+
+4. Click on the *Settings* icon of the Project you want to delete.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-delete-data/manage-project-page-settings-icon.png"  width=100% alt="manage project page">
+
+    The **Project Settings** page appears.
+
+5. Scroll down to the **Danger zone** section, and click **Delete this project**.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-delete-data/project-settings-page-danger-zone-section.png" width=100% alt="delete this project button">
+
+6. Enter the Project's name, then click **I understand the consequences, delete this project** to confirm your action.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-delete-data/delete-project-popup-confirm-action.png" width=100% alt="delete this project button">
+
+## Delete an Execution
+
+> Requirements:
+>
+> You must be the Owner or Admin of an Organization.
+
+1. Go to your Project > **Reports & Analytics** > **Test Runs**.
+
+2. Click on the *Extension* icon of the Test Run you want to delete and choose **Delete**.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-delete-data/extension-icon-delete-button.png"  width=100% alt="extension icon for deletion">
+
+    The **Delete Execution** box then pops up.
+
+3. Click **Delete** to confirm your action.
+
+> Notes:
+> 
+> After deleting, it might take a while for the Execution to disappear from the Test Runs list.
+
+### Delete multiple Executions
+
+In Katalon TestOps, you can also delete multiple Executions at the same time by using the bulk selection feature.
+
+1. Go to your Project > **Reports & Analytics** > **Test Runs**.
+
+2. Check the boxes (as shown below) to select the Executions you want to delete.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-delete-data/bulk-selection-for-execution-delete.png"  width=100% alt="test runs page bulk delete appears">
+
+    A new command row appears at the top of the **Test Runs** page after you check the boxes.
+
+3. Select **Delete**.
+
+4. Confirm your action in the **Delete Execution** popup box.
+
+You have deleted your Executions.

@@ -5,36 +5,44 @@ permalink: katalon-analytics/docs/aws-eks.html
 description: 
 ---
 
-Create a **Kubernetes Test Environment** to execute or schedule Test Runs with **Katalon TestOps**.
+In Katalon TestOps, you can create a Kubernetes (EKS) Test Environment  to execute or schedule Test Runs.
 
-In your project, go to *Configurations* and select *Test Environments*.
+Follow these steps:
 
-Click on *"Create Kubernetes Test Environment"* and fill in the required fields to connect to **Kubernetes**.
+1. Sign in to [Katalon TestOps](https://testops.katalon.io/login).
+2. Go to your Project > **Configurations** > **Test Environments** > **Kubernetes**.
 
-- **Agent Name**: Enter a name for your agent.
-- **Endpoint, Certificate Authority, Namespace**: This information can be found in **Kubernetes**.
-- **API Key**: your API Key in [Katalon TestOps](https://analytics.katalon.com/user/apikey).
-- **Authentication Type**: please choose one of the below options which you have configured in EKS:
-  - Username/Password
-  - Token
-  - EKS
+3. Click **Create Kubernetes Test Environment** at the top right corner.
 
-Click **Create** to after finishing these above steps.
+4. Fill in the required information.
 
-After creating the environment, you now have the Kubernetes Test Environment ready to schedule a Test Run.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-aws-eks/create-kubernetes-page.png" width=100% alt="create kubernetes page">
 
-> View a list of Test Environment that you have created in *Test Environments* page.
->
-><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/aws-eks/Kubernetes-test-environment.png" width="" height="">
+* In the **Agent Name** section, enter a name for your Agent.
+* In the **URL**, **Certificate Authority** and **Namespace** sections, enter your Kubernetes information.
+* In the **Katalon API Key** section, enter your [API Key](https://analytics.katalon.com/user/apikey).
+* In the **Authentication Type** section, choose one of the following options:
+  * Username/Password
+  * Token
+  * AWS EKS
 
-## Next steps
+  > Notes:
+  >
+  > You have already configured Authentication Type in EKS.
 
-- [Create a Script Repository](/katalon-analytics/docs/code-repo)
-- [Schedule a Test Run](/katalon-analytics/docs/kt-scheduler)
+5. Click **Test Connection**, then click **Create** to complete.
 
+6. Go to **Test Environments** > **Kubernetes** to see the list of Kubernetes test environments you have created.
 
-## Related topics
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-aws-eks/kubernetes-test-environment-page-list.png" width="" height="" alt text= kubernetes environment list>
 
-- [Create a Local Test Environment](https://docs.katalon.com/katalon-analytics/docs/agents.html)
-- [Create a Docker environment](https://docs.katalon.com/katalon-analytics/docs/docker.html)
-- [Create a CircleCI Environment](https://docs.katalon.com/katalon-analytics/docs/circleci.html)
+Next steps:
+
+1. [Upload Test Scripts to a Script Repository](https://docs.katalon.com/katalon-analytics/docs/code-repo.html).
+2. [Schedule Test Runs](https://docs.katalon.com/katalon-analytics/docs/create-plan.html).
+
+See also:
+
+* [Create a Local Test Environment with an Agent](https://docs.katalon.com/katalon-analytics/docs/agents.html).
+* [Set up an Agent to execute tests on Docker environment](https://docs.katalon.com/katalon-analytics/docs/docker.html).
+* [Create a CircleCI Test Environment](https://docs.katalon.com/katalon-analytics/docs/circleci.html).

@@ -1,38 +1,59 @@
 ---
-title: "Set up an Agent to execute tests on Docker environment"
+title: "Set up an Agent to execute tests in a Docker Environment"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/docker.html
 redirect_from:
 ---
-Same as [Agents for local environments](/katalon-analytics/docs/agents.html), **Katalon TestOps** allows you to set up the agent that compatible with Docker environment.
+
+Similar to [Create a Local Test Environment with an Agent](/katalon-analytics/docs/agents.html), you can create a Docker Test Environment with a compatible Agent in Katalon TestOps.
 
 ## Set up an Agent
 
-1. Under **Configurations**, go to *"Agent setup"* 
-2. Select *"Docker Environment"
-3. Follow instructions in the setup wizard
+1. Sign in to [Katalon TestOps](https://testops.katalon.io/login) and go to your Project.
+2. Go to **Configurations** > **Agent Setup**.
+3. Select the **Docker Environment** tab.
+
+    The page appears as below.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-docker/create-agent-for-docker-environment-page.png" width=100% alt="create docker environment page">
+
+4. Fill in the required information for the **Configure an agent** and **Select method** sections.
+
+    > Notes:
+    >
+    > You then use the commands in the **Generate configuration** and **Start an agent** sections to run the Agent in your computer.
+
+5. Leave the TestOps page open while following the instructions to start an Agent in your local machine.
 
 ## Start an Agent
 
-Copy the command that was automatically generated in *Agent Setup* page and paste to your CLI.
+1. Create a folder (e.g, **Docker** folder) in your computer.
 
-It may take a while for the agent to start.
+2. Open a new Notepad file in your computer, then copy and paste the command in the **Generate configuration** section into the new file.
 
-## View Agent status
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-docker/copy-paste-notepad-docker-compose-yml-file.png" width=100% alt="docker compose yml command">
 
-Refer to [this document](https://docs.katalon.com/katalon-analytics/docs/agents.html#view-agent-status) for more details.
+3. Save the file as .yml file in the folder you have created (as shown in the pictures below).
 
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-docker/save-notepad-file-in-docker-folder.png" width=100% alt="docker compose yml command">
+    
+4. Search "cmd" in the Windows explorer search bar, then press *Enter*.
 
-## Next Steps
+5. Copy and paste the command in the **Start an agent** section into your cmd to start an Agent.
 
-- [Set up a Script Repository](/katalon-analytics/docs/code-repo)
-- [Schedule Test Runs](/katalon-analytics/docs/kt-scheduler)
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-docker/run-docker-compose-in-cmd.png" width=100% alt="run agent for docker">
 
+You have started your Docker with an Agent. You can open your Docker to see the Agent running.
 
-## Related topics
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-docker/agent-running-in-docker.png" width=100% alt="open docker">
+    
+## View an Agent's status
 
-- [Create a local Test Environment](https://docs.katalon.com/katalon-analytics/docs/agents.html)
-- [Create a CircleCI Environment](https://docs.katalon.com/katalon-analytics/docs/circleci.html)
-- [Create a Kubernetes Environment](https://docs.katalon.com/katalon-analytics/docs/aws-eks.html)
-- [Load balancing for Local Test Environment](https://docs.katalon.com/katalon-analytics/docs/load-balancing-agents.html)
-- [Katalon TestOps Terminology](/katalon-analytics/docs/testops-terminology.html)
+In Katalon TestOps, go to the **Test Environments** page to see the Docker Test Environment you have created and its status.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-docker/docker-appears-in-test-environment-page.png" width=100% alt="open docker">
+
+Next steps:
+
+1. [Upload Test Scripts to a Script Repository](https://docs.katalon.com/katalon-analytics/docs/code-repo.html).
+2. [Schedule Test Runs](https://docs.katalon.com/katalon-analytics/docs/create-plan.html).

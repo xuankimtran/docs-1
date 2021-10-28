@@ -33,6 +33,7 @@ description:
             <td>
                 <ul>   
                 <li><a href="https://docs.katalon.com/katalon-studio/docs/product-availability-matrix.html">Supported Technologies</a>
+                <li><a href="https://docs.katalon.com/katalon-studio/docs/katalon-studio-vs-katalon-studio-enterprise.html">Katalon Studio vs Katalon Studio Enterprise Features</a></li>
                     <li><a href="https://docs.katalon.com/katalon-studio/docs/unique-capabilities.html">Unique Capabilities </a>
                     <li><a href="https://d1h3p5fzmizjvp.cloudfront.net/other-resources/Katalon-License-Guide-112020.pdf">Choose right license</a>
                     </li>    
@@ -41,7 +42,7 @@ description:
             <td>
                 <ul>
                     <li><a href="https://docs.katalon.com/katalon-studio/new/what-is-new.html">What's new in
-                            v8.0.0?</a>
+                            v8.1.0?</a>
                     <li><a href="https://docs.katalon.com/katalon-studio/new/all-versions.html"">Release notes</a>
                     <li><a href="https://www.katalon.com/download/">Download</a>
                     </li>

@@ -779,7 +779,6 @@ This document gives you information on the supported technologies and integratio
 		</tr>
 	</tbody>
 </table>
-
-<p id="mobile-limit">(*) <i>Limitation: Elements inside embedded web views cannot be captured automatically by Record&Spy utilities. </i><a href="#top">Back to top</a></p>
+<p>(*) <em> Limitation: Elements inside embedded web views cannot be captured automatically by Record&amp;Spy utilities. </em><a href="#top"> Back to top </a></p>
 
 > Leave a comment below to propose any technologies you need Katalon Studio to support.

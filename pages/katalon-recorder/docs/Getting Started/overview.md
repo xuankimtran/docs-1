@@ -83,34 +83,27 @@ People reportedly use Katalon Recorder to:
         <tr>
             <td>
                 <ul>
-                    <li><a href="./automate-scenarios.html">Add actions to scenarios</a>
+                    <li><a href="./automate-scenarios.html">Create an automation scenario</a>
                     </li>
-                    <li><a href="./conditional-cases.html">Handle conditional cases</a>
+                    <li><a href="./conditional-cases.html">Control the flows</a>
                     </li>
-                    <li><a href="./validate-expected-values.html">Validate expected values</a>
-                    </li>                                        
+                    <li><a href="./auto-backup.html">Auto data backup</a>
+                    </li>                                     
                 </ul>
             </td>
             <td>
                 <ul>
-                    <li><a href="./execute-scenarios.html#execute-a-scenario">Execute a scenario</a>
                     </li>
-                    <li><a href="./execute-scenarios.html#execute-a-group-of-scenarios">Execute a group of scenarios</a>
+                    <li><a href="./self-healing.html">Self-healing</a>
                     </li>
-                    <li><a href="./execute-scenarios.html#execute-all-scenarios">Execute all scenarios</a>
-                    </li> 
-                    <li><a href="./execute-scenarios.html#execute-an-action">Execute an action</a>
-                    </li>   
+                    <li><a href="./command-line-runner.html ">Command-line runner</a>
+                    </li>
                 </ul>  
             </td>
             <td>
                 <ul>
-                    <li><a href="./auto-backup.html#view-execution-status">View execution status</a>
-                    </li>
-                    <li><a href="./auto-backup.html#save-execution-log">Save execution log</a>
-                    </li>
-                    <li><a href="./auto-backup.html#view-execution-history-with-testops">View execution history</a>
-                    </li>                                        
+                    <li><a href="./monitor-scenario-executions.html">Upload reports to TestOps </a>
+                    </li>                    
                 </ul>
             </td>
         </tr>
@@ -126,12 +119,12 @@ People reportedly use Katalon Recorder to:
         <tr>
             <td>
                 <ul>
-                    <li><a href="./export-test-script.html">Export scenario to test script</a>
+                    <li><a href="./export-test-script.html">Export automation scripts to other frameworks</a>
                     </li>                   
                 </ul>
             </td>
             <td>
-                <a href="./data-driven-execution.html">Execute scenarios with multiple data</a>
+                <a href="./data-driven-execution.html">Data-driven execution</a>
             </td>
             <td>
                 <ul>
@@ -140,7 +133,9 @@ People reportedly use Katalon Recorder to:
                     <li><a href="./extension-scripts-aka-user-extensionsjs-for-custom-locator-builders-and-actions.html#actions">Add custom actions</a>
                     </li>
                     <li><a href="./katalon-recorder-helper-tool.html#executing-os-commands">Use OS commands</a>
-                    </li>                                        
+                    </li>              
+                    <li><a href="./import-selenium-ide.html">Import tests from Selenium IDE</a>
+                    </li>                            
                 </ul>
             </td>
         </tr>

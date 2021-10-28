@@ -5,38 +5,55 @@ permalink: katalon-analytics/docs/trial-plans.html
 description: 
 ---
 
-Valid email registration is eligible for a 3-month trial of Katalon TestOps Enterprise.
+A valid business email registration is eligible for a 30-day trial of **TestOps Business** and/or a 45-day trial of **TestOps Enterprise**.
 
-When your trial period expires, you need to subscribe to the monthly or annual subscription to continue using the full features of Katalon TestOps Enterprise. Otherwise, your plan will be reverted to the TestOps Community version.
+When your trial period expires, you need to purchase a monthly or annual subscription. Otherwise, your plan is reverted to **TestOps** (free plan).
 
-## Katalon TestOps Enterprise trial for existing users
+> Notes:
+>
+> The trial request is applied for Cloud version only. TestOps no longer supports an On-Premises solution.
 
-If you are a Katalon Studio user, you are automatically entitled to TestOps Community. You can submit a trial request for a 3-month trial of Katalon TestOps Enterprise.
- > You can only register for Katalon TestOps Enterprise using business emails.
+## For existing users
 
-## Katalon TestOps Enterprise trial for new users
+If you are a Katalon Studio user, you are automatically entitled to **TestOps Free**. You can submit a trial request for **TestOps Busines** and/or **TestOps Enterprise**.
 
-> This trial request is applied for Cloud only. For On-Premises version, please contact our Sales team via sales@katalon.com.
+Follow these steps:
 
-Once you have a Katalon account, you can submit a trial request for Katalon TestOps Enterprise via the  website.
+1. Sign in to [Katalon TestOps](https://testops.katalon.io/login).
 
-From **TestOps Subscriptions** page, access **Settings** > **Subscription Management**.
+2. Go to **Settings** > **Subscription Management**.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-free-plan/free-plan-1.png">
+3. Select **Trial Request** on the left sidebar.
 
-Select **TestOps Subscriptions** to access TestOps plans.
+    The **Trial request for TestOps Business/Enterprise** page appears as below.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-subscription-docs/to-trial-request-page.png" width=100% alt="trial request page">
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-free-plan/rename-te-business-free-plan.png">
+4. Select a trial plan.
 
-Choose one of the two followings: 
-1. Click **Contact us** under TestOps Enterprise plan. 
+5. Click **Submit**.
 
-2. Click **Trial Request**
+> Notes:
+>
+> * You cannot request a **TestOps Business** trial if you have already submitted a **TestOps Enterprise** trial request.
+> * If you have previously subscribed to **TestOps Business**, you cannot request a **TestOps Business** trial.
+> * If have previously subscribed to **TestOps Enterprise**, you cannot request a **TestOps Business** and/or **TestOps Enterprise** trial.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-april-release-free-plan/replace-free-plan-4.png">
+## For new users
 
-Fill in the form then click **Submit**.
+1. Sign up to [Katalon TestOps](https://testops.katalon.io/login).
 
-## Access for Katalon TestOps Enterprise (Cloud)
+2. Click on the *Katalon TestOps* icon at the top left corner.
 
-Once submitting the trial request using your business email, you could use the trial Katalon TestOps Enterprise for three months.
+3. Select **Create organization**.
+
+    A welcome page appears as below.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-subscription-docs/to-create-org-page.png" width=100% alt="testops create org page">
+
+4. Enter a name for your organization.
+
+5. Select a trial plan.
+
+6. Click **Create**.
+
+7. Finish the on-screen instructions to start using TestOps. See: [Create Organization and Project](https://docs.katalon.com/katalon-analytics/docs/kt-create-org.html#create-an-organization).

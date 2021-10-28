@@ -1,5 +1,5 @@
 ---
-title: "Dependencies Management with Native Gradle Support (P.o.C)"
+title: "Dependencies Management with Native Gradle Support (PoC)"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/dependencies-management-gradle-support.html
 ---

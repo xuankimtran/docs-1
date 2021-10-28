@@ -12,4 +12,4 @@ In this tutorial, Raghav will help you learn:
 * What are listeners
 * How to use listeners in Katalon Studio
 
-_**Note: This video is contributed by [Raghav Pal](https://www.youtube.com/channel/UCTt7pyY-o0eltq14glaG5dg). **_
+_**Note: This video is contributed by [Raghav Pal](https://www.youtube.com/channel/UCTt7pyY-o0eltq14glaG5dg).**_

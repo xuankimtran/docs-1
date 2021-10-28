@@ -19,30 +19,6 @@ KRE is only required for executing automation tests in CLI (command-line interfa
   * For example, setting up your tests to run with different Operating System, Browsers or Devices at the same time.
 * Bundle your test execution into virtual containers.
   * For example, building a Docker image to execute your test with a specific environment.
-* KRE is compatible with both Katalon Studio 7 and Enterprise versions.
+* KRE is compatible with both Katalon Studio and Katalon Studio Enterprise.
 
-## License
-
-### Node-Locked License
-
-This license model is applied to local desktops or workstations with fixed hardware specifications (machine-blocked license):
-
-* Virtual machine with fixed machine ID
-* Physical machine
-
-The number of licenses to acquire should be based on the number of execution machines.
-
-* A license is linked to a single machine ID and for one execution session.
-* A machine can be mapped to multiple licenses (if needed).
-* The license can be transferred to a new machine for an online environment. For the offline environment, once converted, the license cannot be transferred to another machine until it is expired.
-
-### Floating License
-
-This license type is applied to all types of execution environments, including cloud or virtual machines with dynamic hardware specifications (to execute tests in [Docker](https://docs.katalon.com/katalon-studio/docs/docker.html) or [Azure DevOps plugin](https://docs.katalon.com/katalon-studio/docs/azure-devops-extension.html))
-
-* One license is assigned to one execution session.
-* Each floating license can be shared across multiple accounts — maximum of 3 accounts at a time.
-
-> Only online activation is allowed.
-
-Please refer to [this document](https://docs.katalon.com/katalon-studio/docs/install-RE.html) for more details about downloading, activating and installing RE.
+> Katalon Runtime Engine is a paid product. You can enjoy KRE for free with a 30-day trial. To learn more about Katalon Runtime Engine licenses, see [Katalon Runtime Engine license](https://docs.katalon.com/katalon-studio/docs/katalon-studio/docs/license.html#katalon#runtime#engine).
