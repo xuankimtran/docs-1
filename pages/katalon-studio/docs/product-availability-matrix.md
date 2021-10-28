@@ -59,10 +59,10 @@ This document gives you information on the supported technologies and integratio
 	<tbody>
 		<tr>
 			<td>
-				<p>Code-less</p>
+				<p>Low-code</p>
 			</td>
 			<td>
-				<p>Rich set of utilities to generate and maintain automated script without programming skills.</p>
+				<p>Rich set of utilities to generate and maintain automated script without programming experience.</p>
 			</td>
 		</tr>
 		<tr>
