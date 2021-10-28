@@ -1485,6 +1485,8 @@ items:
                 url: /katalon-recorder/docs/self-healing.html 
               - title: "Use the Commande-Line Runner"
                 url: /katalon-recorder/docs/command-line-runner.html 
+              - title: "Dynamic Test Suite"
+                url: /katalon-recorder/docs/dynamic-test-suite.html
           - title: "Execution report"
             tree:
               - title: "View execution reports in TestOps"
