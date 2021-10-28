@@ -89,7 +89,7 @@ This topic describes the preliminary actions you need to perform to prepare the 
       ```
 
       * If you see an EACCES error with the Appium installation command, follow the instructions of npm documentation here: [Resolving EACCES permissions errors when installing packages globally](https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally).
-      * If you encounter an error where the Java `jar` file can't be found, you might need to add the environment variable: `KATALON_JAVA_HOME= <JRE_location>`.
+      * If you encounter an error where the Java `jar` file can't be found, you might need to add the environment variable: `KATALON_JAVA_HOME= <JRE_location>`. See related discussion on Ask Ubuntu: [How to set JAVA_HOME for Java?](https://askubuntu.com/questions/175514/how-to-set-java-home-for-java?utm_medim=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa)
       * Set the Appium directory manually in **Katalon Studio Preferences**. The default directory should be `/usr/lib/node_modules/appium/`.
 
       > **Note**
@@ -101,7 +101,7 @@ This topic describes the preliminary actions you need to perform to prepare the 
    * Turn on developer mode on your Android device. Go to **Settings** > **Developer options**.
    * Connect your Android device to your computer via a USB cable. Just confirm if prompted to accept or trust the device.
    
-   4. Install Android SDK
+   4. Install Android SDK (Optional)
    
       Katalon Studio will detect and ask you to install **Android SDK** automatically if your current machine does not have it.
       

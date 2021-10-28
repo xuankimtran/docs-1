@@ -32,6 +32,8 @@ On macOS, virtualization programs like Parallels Desktop, Virtual Box, and VMWar
 
 ### Environment Requirements
 
+> From Katalon Studio version 7.9.1 onwards, we only support 64-bit Windows, macOS, and Linux.
+
 1. Verify whether your computer meets the System Requirements to work with Katalon Studio. You need to make sure that there is a minimum of 2 GB RAM (32-bit) or 4 GB RAM (64-bit) for the app to run normally. For more details, see [System Requirements](http://docs.katalon.com/display/KD/System+Requirements).
 
 2. Install OpenJDK 8 (NOT Oracle JDK).
