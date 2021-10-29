@@ -17,7 +17,7 @@ After signing in to [Katalon TestOps](https://testops.katalon.io/login), the Tes
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-signup/kt-june-revamp-testop-homepage.png" width=100% alt="testops homepage">
 
 On the top left corner, if you click on the *TestOps* icon, you can:
-* see all Organizations you belong to.
+* see all organizations you belong to.
 * create a new organization. See: [Create Organization and Project](https://docs.katalon.com/katalon-analytics/docs/kt-create-org.html).
 
 On the top right corner, if you click on the *Settings* icon, you can see two distinguished sections: **TestOps Admin** and **TestOps Setting**.
@@ -37,13 +37,13 @@ On the top right corner, if you click on the *Settings* icon, you can see two di
 
 On the top right corner, if you click on the *Profile* icon, you can navigate to:
 
-* **View profile**
-* **Notification Settings**
-* **Feature Request**
-* **Bug Reports**
-* **Documentation**
-* **Community**
-* **Sign out**
+* **View profile**: where you can see your account information.
+* **Notification Settings**: where you can configure notification and see your API keys.
+* **Feature Request**: where you can send us a feature request on GitHub.
+* **Bug Reports**: where you can report a bug to us on GitHub.
+* **Documentation**: where you will be directed to our document site.
+* **Community**: where you will be directed to our community forum.
+* **Sign out**: where you can sign out of Katalon TestOps.
 
 # As a Member
 
@@ -59,10 +59,10 @@ On the top right corner, if you click on the *Settings* icon, you can see the **
 
 On the top right corner, if you click on the *Profile* icon, you can navigate to:
 
-* **View profile**
-* **Notification Settings**
-* **Feature Request**
-* **Bug Reports**
-* **Documentation**
-* **Community**
-* **Sign out**
+* **View profile**: where you can see your account information.
+* **Notification Settings**: where you can configure notification and see your API keys.
+* **Feature Request**: where you can send us a feature request on GitHub.
+* **Bug Reports**: where you can report a bug to us on GitHub.
+* **Documentation**: where you will be directed to our document site.
+* **Community**: where you will be directed to our community forum.
+* **Sign out**: where you can sign out of Katalon TestOps.
