@@ -54,7 +54,7 @@ Follow these steps to set up the test case:
 
     // Send a POST request to create a new user
     // The response contains the id of the newly created user
-    post_response = WS.sendRequestAndVerify(findTestObject('POST a new user', [('username') : username, ('password') : password
+    post_response = WS.sendRequest(findTestObject('POST a new user', [('username') : username, ('password') : password
                 , ('gender') : gender, ('age') : age]))
 
     // Get the id value from the response
@@ -62,11 +62,12 @@ Follow these steps to set up the test case:
     println("ID of user " + username + ": " + user_id.toString())
 
     // Send a GET request to retrieve user information by id
-    get_response = WS.sendRequestAndVerify(findTestObject('GET user by id', ['id' : user_id]))
+    get_response = WS.sendRequest(findTestObject('GET user by id', ['id' : user_id]))
     println("The response is: " + get_response.getResponseText())
 
     // Verify that the returned values match the user information
     WS.verifyElementPropertyValue(get_response, 'username', username)
+    WS.verifyElementPropertyValue(get_response, 'password', password)
 
     ```
 
