@@ -62,7 +62,7 @@ Follow these steps to set up the test case:
     println("ID of user " + username + ": " + user_id.toString())
 
     // Send a GET request to retrieve user information by id
-    get_response = WS.sendRequestAndVerify(findTestObject('GET user by id', [('id') : user_id]))
+    get_response = WS.sendRequestAndVerify(findTestObject('GET user by id', ['id' : user_id]))
     println("The response is: " + get_response.getResponseText())
 
     // Verify that the returned values match the user information
@@ -76,7 +76,7 @@ Follow these steps to set up the test case:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-web-service/KS-Variables-tab.png" width=70% alt="Test case variables">
 
-4. Run the test case and verify the test message in the **Console** log:
+3. Run the test case and verify the test message in the **Console** log:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-web-service/KS-Console-log-test-case-result.png" width=70% alt="Test case run result">
 
