@@ -27,7 +27,7 @@ description: Release notes 8.x
     * Shortened loading time for big projects in Katalon Runtime Engine.
     * Improved responsiveness and loading time when renaming/moving test cases in big projects.
     * Prevented loading unused images when opening Katalon Studio.
-    * Reduced CPU Usage when using Self-healing, Run and Debug from here functions.
+    * Reduced CPU usage when using Self-healing, Run and Debug from here function.
     * Removed unused messages in Test Case and Test Data.
 * [Web Testing] Improved Synchronization Handling for Web Testing:
     * [Katalon Studio and Katalon Runtime Engine] Improved the `Click` and `Click Offset` Keywords to automatically delay and click again on an element behind a loading overlay. See [Click](https://docs.katalon.com/katalon-studio/docs/webui-click.html) and [Click Offset](https://docs.katalon.com/katalon-studio/docs/webui-click-offset.html).
@@ -37,7 +37,10 @@ description: Release notes 8.x
 * [WebUI] Introduced an option to use the Spy, Record, and Smart Wait function with a packed extension, now available on the Chrome Web Store. This extension is compatible with Katalon Studio version 8.0.0 onwards. See [Katalon Compact Utility](https://docs.katalon.com/katalon-studio/docs/katalon-compact-utility.html).
 * [BDD] Supported onboarding with BDD testing.
 * [Project Information] Introduced an option in project settings to include or exclude timestamps in the .properties files.
-* [Jira] 
+* [Jira] Supported only adding the _Bug_ icon for Final test results.
+* [Console Log] Enhanced Plugin loading information in the console log of Katalon Studio Enterprise and Katalon Runtime Engine.
+* [Katalon Runtime Engine] Removed the "Offline activation failed" message in the execution log.
+* [DDT] Specified the input data of iterations in the Data-driven Testing report.
 
 ### Fixes
 
@@ -47,7 +50,8 @@ description: Release notes 8.x
 * Bug: null.null Katalon version in the Report Viewer when deactivating the current account and activating a new one.
 * Bug: Incorrect information of test case in Log Report Viewer.
 * Bug: Not matching between the Elapsed time of execution in Katalon Studio and the generated report.
-* Bug: [Jira] Could not interact with embedded Jira page. Fixed with changes to Jira Integration version 1.0.22. Download here: [Jira Integration](https://store.katalon.com/product/3/Jira-Integration#overview-content).
+* Bug: [Jira Integration] Could not interact with embedded Jira page. Fixed with changes to Jira Integration version 1.0.22. Download here: [Jira Integration](https://store.katalon.com/product/3/Jira-Integration#overview-content).
+* Bug: [Jira Integration] Jira-linked tickets had no step in the description.
 * Bug: [WebUI] Could not generate test steps when using `replace, trim, split` function and opening WebUI Recorder.
 
 ## Official Release - Version 8.1.0
