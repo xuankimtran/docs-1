@@ -552,7 +552,7 @@ This document gives you information on the supported technologies and integratio
 		</tr>
 		<tr>
 			<td>
-				<p><a href="https://marketplace.atlassian.com/apps/1220235/katalon-testops-for-bamboo/version-history">Bamboo</a></p>
+				<p><a href="https://docs.katalon.com/katalon-studio/docs/bamboo-addon.html#prerequisites">Bamboo</a></p>
 			</td>
 			<td>
 				<p>6.0.0</p>
@@ -573,7 +573,7 @@ This document gives you information on the supported technologies and integratio
 		</tr>
 		<tr>
 			<td>
-				<p><a href="https://plugins.jetbrains.com/plugin/12653-katalon-studio-runner/versions">TeamCity</a></p>
+				<p><a href="https://docs.katalon.com/katalon-studio/docs/teamcity-plugin.html">TeamCity</a></p>
 			</td>
 			<td>&nbsp;</td>
 			<td>
@@ -638,7 +638,7 @@ This document gives you information on the supported technologies and integratio
 		</tr>
 		<tr>
 			<td>
-				<p>Katalon Recorder</p>
+				<p><a href="https://docs.katalon.com/katalon-recorder/docs/export-test-project-to-ks.html#export-to-katalon-studio">Katalon Recorder</a></p>
 			</td>
 			<td>✔</td>
 			<td>✔</td>
@@ -648,7 +648,7 @@ This document gives you information on the supported technologies and integratio
 		</tr>
 		<tr>
 			<td>
-				<p>Katalon TestOps</p>
+				<p><a href="https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html#upload-test-results-automatically">Katalon TestOps</a></p>
 			</td>
 			<td>✔</td>
 			<td>✔</td>
@@ -831,4 +831,4 @@ This document gives you information on the supported technologies and integratio
 		</tr>
 	</tbody>
 </table>
-<p>(*) <em> Limitation: Elements inside embedded web views cannot be captured automatically by Record&amp;Spy utilities. </em><a href="#top"> Back to top </a></p>
+(*) <em> Limitation: Elements inside embedded web views cannot be captured automatically by Record&amp;Spy utilities. </em><a href="#top"> Back to top </a>
