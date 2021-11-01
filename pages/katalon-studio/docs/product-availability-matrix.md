@@ -555,7 +555,7 @@ This document gives you information on the supported technologies and integratio
 				<p><a href="https://docs.katalon.com/katalon-studio/docs/bamboo-addon.html#prerequisites">Bamboo</a></p>
 			</td>
 			<td>
-				<p>6.0.0</p>
+				<p>Bamboo server 6.0.0+</p>
 			</td>
 			<td>
 				<p>✔</p>
