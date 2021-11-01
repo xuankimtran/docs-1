@@ -60,7 +60,7 @@ To configure Katalon general behaviors at startup, go to **Katalon Studio > Pref
 		<tr>
 			<td>Allow usage tracking</td>
 			<td>This option allows you to configure the usage tracked by Katalon Studio. By default, Katalon Studio is allowed to collect errors, execution logs, and other information about your application use. You can refer to this document:&nbsp;<a href="https://www.katalon.com/terms/katalon/privacy-policy/">Privacy Policy</a>&nbsp;for further details of our tracking.</td>
-			<td rowspan="3"><p>&nbsp;</p><p>&nbsp;</p>To disable these functions,&nbsp;you need an active Katalon Studio Enterprise license. You can refer to this document to learn more about activating licenses: <a href="https://docs.katalon.com/katalon-studio/docs/activate-license.html#activate-trial-license">Activate Katalon License.</a></td>
+			<td rowspan="3"><p>&nbsp;</p>To disable these functions,&nbsp;you need an active Katalon Studio Enterprise license. You can refer to this document to learn more about activating licenses: <a href="https://docs.katalon.com/katalon-studio/docs/activate-license.html#activate-trial-license">Activate Katalon License.</a></td>
 		</tr>
 		<tr>
 			<td>Received dynamic content notifications</td>
@@ -73,7 +73,7 @@ To configure Katalon general behaviors at startup, go to **Katalon Studio > Pref
 	</tbody>
 </table>
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-preferences/KS-PREF-Katalon-preferences.png" width="610" height="304">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-preferences/KS-PREF-Katalon-preferences.png" width=70% alt="Katalon preferences">
 
 ## Import Preferences
 
@@ -85,17 +85,17 @@ In case you have to download the latest version from the Katalon website and wan
 2. Download the latest version from the [Katalon website](https://www.katalon.com/download/).
 3. Open Katalon Studio, select **File** > **Import Settings**.
    
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-preferences/import-settings.png" width=50%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-preferences/import-settings.png" width=50% alt="import settings">
    
 4. Browse to the **config** folder of your preferred version. For instance:
 
 * macOS:
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-preferences/macos.png">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-preferences/macos.png" width=100% alt="Browse to the Config folder in macOS">
 
 * Windows:
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-preferences/import_3.PNG">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-preferences/import_3.PNG" width=100% alt="Browse to the Config folder in Windows">
 
 5. Click **Open**.
 
@@ -105,7 +105,7 @@ All the preferences under the **Test Case** group are for controlling the defaul
 
 You can configure the Test Case preferences via **Katalon Studio > Preferences > Katalon > Test Case**.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-case-preferences/Window.png)
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-case-preferences/Window.png" width=70% alt="Test Case Preferences">
 
 ### Test Case Calling
 
@@ -115,7 +115,7 @@ This is to specify how Katalon Studio should behave when you are calling another
 * **Generate variable with the same name as the exposed variable of the called test case**: Called test case uses the default values, which are the same as its variables name.
   * **Expose variables automatically after choosing the called test case**: Called test case uses the default values, which are the same as its variables name. The variables are also added to the current test case at the 'Variables' tab.
 
-You might need to refer back to the [Variable Types](/display/KD/Variable+Types) section for which types of variables are supported in Katalon Studio.
+You might need to refer back to the [Variable Types](https://docs.katalon.com/katalon-studio/docs/variable-types.html#test-case-variables) section for which types of variables are supported in Katalon Studio.
 
 ### Initially open Test Case
 
@@ -134,11 +134,13 @@ This is to enable Katalon Studio to wrap up the code lines in a script with a cu
 
 Before the line-wrapping enabled:
 
-![Before](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-case-preferences/wrap.png)
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-case-preferences/wrap.png" width=100% alt="Before the line-wrapping enabled">
+
 
 After the line-wrapping enabled:
 
-![After](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-case-preferences/wrapped.png)
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-case-preferences/wrapped.png" width=100% alt="After the line-wrapping enabled">
+
 
 > All the above preferences are saved into the  `com.kms.katalon.composer.testcase.prefs` file under the "**config\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings**" location in your Katalon Studio build folder. You can manually modify the values in this file to change these preference settings.
 
@@ -152,13 +154,13 @@ Please go to **Katalon Studio> Preferences > Katalon > Proxy** and select **Aut
 
 The proxy configurations in this section are used for all network connections to authenticate with Katalon Servers including Katalon account authentication, Katalon Auto-updater, Katalon TestOps, and  Katalon Store integration, sample projects provider, AMI Authentication, and etc.)
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/auth-proxy.png" width="">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/auth-proxy.png" width="70%" alt="Authentication proxy">
 
 ### System Proxy
 
 System proxy configurations are applied to all network connections generated when using Katalon Studio, including but not limited to recording, spying, executing tests, integrating with other tools, and downloading Web Drivers or Android SDK.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/proxy-system.png" width="">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/proxy-system.png" width="70%" alt="System proxy">
 
 ### Proxy Settings
 
@@ -172,7 +174,7 @@ In the Proxy Settings areas of both Authentication and System proxies, you can s
   * Excludes: A list of addresses separated by comma to exclude
   > The ability to exclude proxy is available in **version 7.2+**. Katalon Studio only supports proxy exceptions in web recorder and spying with **Chrome** and **Firefox**.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/proxy-options.png" width="546">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/proxy-options.png" width="70%" alt="proxy settings">
 
 ### System proxy for test execution's desired capabilities
 
@@ -180,7 +182,8 @@ Katalon Studio applies the System proxy to test execution's desired capabilities
 
 1. Open your project and go to **Katalon Studio/Preferences/Katalon/Proxy/System**
 2. At the bottom of the displayed view, uncheck the **Auto-apply to test execution desired capabilities** option and click **OK** to save
-  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/uncheck.png">
+   
+  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/uncheck.png" width="70%" alt="uncheck proxy for desired capabilities">
 
 3. Go to **Project/Settings/Desired Capabilities** and select a testing environment
 
@@ -188,7 +191,7 @@ Katalon Studio applies the System proxy to test execution's desired capabilities
 
    For example:
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/desired-capabilities.png">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/desired-capabilities.png" width="70%" alt="use proxy for desired capabilities">
 
 ### Override proxy details in the test script
 
@@ -210,7 +213,7 @@ requestObject.setProxy(proxyInfo)
 
 1. If you're behind a Proxy Server, you need to configure the Authentication proxy settings before activating Katalon Studio. Click **Configure Authentication Proxy** at the bottom of the Activation dialog box.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/config-proxy-activation.png" width="">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/config-proxy-activation.png" width="70%" alt="troubleshoot proxy issue">
 
 2. "*New and old proxy mechanisms are not allowed in one command. Please use either the new or the old one.*"
 
@@ -220,7 +223,7 @@ requestObject.setProxy(proxyInfo)
 
 You can access these preferences at **Window > Katalon Studio Preferences > Katalon > Object Spy.**
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/object-spy-preferences/image2017-11-27-113A43A34.png)
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/object-spy-preferences/image2017-11-27-113A43A34.png" width="70%" alt="Object spy preferences">
 
 ### Pin Object Spy Window while spying
 
