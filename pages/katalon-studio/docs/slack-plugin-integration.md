@@ -20,7 +20,7 @@ This guide shows you how to integrate a Slack API app with Katalon Studio.
 > * An active Katalon Studio Enterprise license.
 > * The **Slack Integration** plugin for Katalon Studio installed. You can install the plugin here: [Slack Integration](https://store.katalon.com/product/4/Slack-Integration).
 
-### Create a Slack API app for integration
+## Create a Slack API app for integration
 
 1. To create a Slack API app, navigate to the [Slack API app](https://api.slack.com/apps) site and create a new app from scratch.
 
@@ -48,7 +48,7 @@ This guide shows you how to integrate a Slack API app with Katalon Studio.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/slack-plugin-integration/Slack-add-app-to-channel.png" width=70% alt="Add apps to this channel">
 
-### Configure Slack plugin
+## Configure Slack plugin
 
 1. Open Katalon Studio, in the main menu, select **Project > Settings > Plugin > Slack**. Check the **Using Slack** checkbox and input the required information. Click the **Test Connection** button to ensure Katalon Studio is integrated with the Slack API app. Click **Apply** when done.
 
@@ -57,5 +57,3 @@ This guide shows you how to integrate a Slack API app with Katalon Studio.
 2. After the configuration, run your tests and verify the test report messages on the Slack channel.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/slack-plugin-integration/Slack-Test-result-summary.png" width=70% alt="Configure Slack plugin">
-
-    
