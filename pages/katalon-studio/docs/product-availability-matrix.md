@@ -1,61 +1,52 @@
----
-title: "Supported Technologies"
-sidebar: katalon_studio_docs_sidebar
-permalink: /katalon-studio/docs/product-availability-matrix.html
----
+--- 
+title: "Supported Technologies" 
+sidebar: katalon_studio_docs_sidebar permalink: /katalon-studio/docs/product-availability-matrix.html 
+--- 
 
-This document gives you information on the supported technologies and integrations. For the supported environments (including browsers and operating systems), see [this document](https://docs.katalon.com/katalon-studio/docs/supported-environments.html).
-
+This document gives you information on the supported technologies and integrations. For the supported environments (including browsers and operating systems), see [this document](https://docs.katalon.com/katalon-studio/docs/supported-environments.html). 
 ### Supported Application Under Test (AUT)
 
-<table width=100% id="top" class="top-vertical-align-table">
-    <tr>
-        <td style="width:50%"><strong>Web UI</strong>
-            <ul>
-                <li>Support all front-end frameworks: ReactJS, AngularJS, VueJS.
-                <li>Cross-browser compatibility: Chrome, Firefox, Safari, Edge
-                </li>
-            </ul>
-        </td>
-        <td><strong>Mobile</strong>
-            <ul>
-                <li>Android & iOS
-                <li>Native application
-                <li>Web mobile
-                <li>Hybrid <a href="#mobile-limit">(*)</a>
-                </li>
-            </ul>
-        </td>
-    </tr>
-    <tr>
-        <td style="width:50%"><strong>API</strong>
-            <ul>
-                <li>REST: <a href="https: //docs.katalon.com/katalon-studio/docs/import-rest-requests-from-swagger-20.html">
-                        Swagger</a>,<a href="https://docs.katalon.com/katalon-studio/docs/import-openapi30.html"> OpenAPI 3.0</a> &<a
-                        href="https://docs.katalon.com/katalon-studio/docs/import-wadl.html"> WADL</a>
-                <li>SOAP (SOAP 1.1 & 1.2)
-                <li>Authentication: <a
-                        href="https://docs.katalon.com/katalon-studio/docs/authorization-basic.html">Basic</a>, <a
-                        href="https://docs.katalon.com/katalon-studio/docs/authorization-oauth1.html">OAuth 1.0</a> &<a
-                        href="https://docs.katalon.com/katalon-studio/docs/authorization-oauth2.html"> OAuth 2.0</a>
-                </li>
-            </ul>
-        </td>
-        <td style="width:50%"><strong>Windows</strong>
-            <ul>
-                <li>Universal Windows Platform (UWP)
-                <li>Windows Forms (WinForms)
-                <li>Windows Presentation Foundation (WPF)
-                <li>Classic Windows (Win32) apps on Windows 10 PCs
-                </li>
-            </ul>
-        </td>
-    </tr>
+<table id="top" class="top-vertical-align-table" width="100%">
+	<tbody>
+		<tr>
+			<td style="width: 50%;"><strong>Web UI</strong>
+				<ul>
+					<li>Support all front-end frameworks: ReactJS, AngularJS, VueJS.</li>
+					<li>Cross-browser compatibility: Chrome, Firefox, Safari, Edge</li>
+				</ul>
+			</td>
+			<td><strong>Mobile</strong>
+				<ul>
+					<li>Android &amp; iOS</li>
+					<li>Native application</li>
+					<li>Web mobile</li>
+					<li>Hybrid <a href="#mobile-limit">(*)</a></li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 50%;"><strong>API</strong>
+				<ul>
+					<li>REST: <a href="https: //docs.katalon.com/katalon-studio/docs/import-rest-requests-from-swagger-20.html"> Swagger</a>,<a href="https://docs.katalon.com/katalon-studio/docs/import-openapi30.html"> OpenAPI 3.0</a> &amp;<a href="https://docs.katalon.com/katalon-studio/docs/import-wadl.html"> WADL</a></li>
+					<li>SOAP (SOAP 1.1 &amp; 1.2)</li>
+					<li>Authentication: <a href="https://docs.katalon.com/katalon-studio/docs/authorization-basic.html">Basic</a>, <a href="https://docs.katalon.com/katalon-studio/docs/authorization-oauth1.html">OAuth 1.0</a> &amp;<a href="https://docs.katalon.com/katalon-studio/docs/authorization-oauth2.html"> OAuth 2.0</a></li>
+				</ul>
+			</td>
+			<td style="width: 50%;"><strong>Windows</strong>
+				<ul>
+					<li>Universal Windows Platform (UWP)</li>
+					<li>Windows Forms (WinForms)</li>
+					<li>Windows Presentation Foundation (WPF)</li>
+					<li>Classic Windows (Win32) apps on Windows 10 PCs</li>
+				</ul>
+			</td>
+		</tr>
+	</tbody>
 </table>
 
-### Programming Skill & Language
+### Programming Skill &amp; Language
 
-<table width=100%>
+<table width="100%">
 	<tbody>
 		<tr>
 			<td>
@@ -86,7 +77,7 @@ This document gives you information on the supported technologies and integratio
 
 ### Testing Methodologies
 
-<table width=100%>
+<table width="100%">
 	<tbody>
 		<tr>
 			<td rowspan="4">
@@ -219,19 +210,21 @@ This document gives you information on the supported technologies and integratio
 
 ### Testing Capabilities
 
-<table width=70%>
+<table width="70%">
 	<tbody>
 		<tr>
 			<td>&nbsp;</td>
-			<td>7.8.0</td>
-			<td>7.9.0</td>
-			<td>8.0.0</td>
-			<td>8.1.0</td>
+			<td>7.8.0+</td>
+			<td>7.9.0+</td>
+			<td>8.0.0+</td>
+			<td>8.1.0+</td>
+			<td>8.2.0+</td>
 		</tr>
 		<tr>
 			<td>
 				<p>Integration Testing</p>
 			</td>
+			<td>✔</td>
 			<td>✔</td>
 			<td>✔</td>
 			<td>✔</td>
@@ -245,6 +238,7 @@ This document gives you information on the supported technologies and integratio
 			<td>✔</td>
 			<td>✔</td>
 			<td>✔</td>
+			<td>✔&nbsp;</td>
 		</tr>
 		<tr>
 			<td>
@@ -254,6 +248,7 @@ This document gives you information on the supported technologies and integratio
 			<td>✔&nbsp;</td>
 			<td>✔&nbsp;</td>
 			<td>✔&nbsp;</td>
+			<td>✔</td>
 		</tr>
 		<tr>
 			<td>
@@ -263,75 +258,83 @@ This document gives you information on the supported technologies and integratio
 			<td>✔&nbsp;</td>
 			<td>✔&nbsp;</td>
 			<td>✔&nbsp;</td>
+			<td>✔</td>
 		</tr>
 	</tbody>
 </table>
 
 ### Report
 
-<table width=70%>
+<table width="70%">
 	<tbody>
 		<tr>
-			<td>&nbsp;</td>
-			<td>7.8.0</td>
-			<td>7.9.0</td>
-			<td>8.0.0</td>
-			<td>8.1.0</td>
+			<td style="width: 50.8357%;">&nbsp;</td>
+			<td style="width: 8.6351%;">7.8.0+</td>
+			<td style="width: 8.6351%;">7.9.0+</td>
+			<td style="width: 8.68515%;">8.0.0+</td>
+			<td style="width: 10%;">8.1.0+</td>
+			<td style="width: 8.6351%;">8.2.0+</td>
 		</tr>
 		<tr>
-			<td>
+			<td style="width: 50.8357%;">
 				<p>HTML, PDF, CSV</p>
 			</td>
-			<td>✔</td>
-			<td>✔</td>
-			<td>✔</td>
-			<td>✔</td>
+			<td style="width: 8.6351%;">✔</td>
+			<td style="width: 8.6351%;">✔</td>
+			<td style="width: 8.68515%;">✔</td>
+			<td style="width: 10%;">✔</td>
+			<td style="width: 8.6351%;">✔</td>
 		</tr>
 		<tr>
-			<td>
+			<td style="width: 50.8357%;">
 				<p>Dynamic email configuration</p>
 			</td>
-			<td>✔</td>
-			<td>✔</td>
-			<td>✔</td>
-			<td>✔</td>
+			<td style="width: 8.6351%;">✔</td>
+			<td style="width: 8.6351%;">✔</td>
+			<td style="width: 8.68515%;">✔</td>
+			<td style="width: 10%;">✔</td>
+			<td style="width: 8.6351%;">✔&nbsp;</td>
 		</tr>
 		<tr>
-			<td>
+			<td style="width: 50.8357%;">
 				<p>Release/build-based reports</p>
 			</td>
-			<td>✔</td>
-			<td>✔</td>
-			<td>✔</td>
-			<td>✔</td>
+			<td style="width: 8.6351%;">✔</td>
+			<td style="width: 8.6351%;">✔</td>
+			<td style="width: 8.68515%;">✔</td>
+			<td style="width: 10%;">✔</td>
+			<td style="width: 8.6351%;">✔</td>
 		</tr>
 		<tr>
-			<td>
+			<td style="width: 50.8357%;">
 				<p>Performance, Trending &amp; Insights reports</p>
 			</td>
-			<td>✔</td>
-			<td>✔</td>
-			<td>✔</td>
-			<td>✔</td>
+			<td style="width: 8.6351%;">✔</td>
+			<td style="width: 8.6351%;">✔</td>
+			<td style="width: 8.68515%;">✔</td>
+			<td style="width: 10%;">✔</td>
+			<td style="width: 8.6351%;">✔</td>
 		</tr>
 	</tbody>
 </table>
 
 ### Cloud Device Integration
 
-<table width=70%>
+<table width="70%">
 	<tbody>
 		<tr>
 			<td>&nbsp;</td>
-			<td>7.8.0</td>
-			<td>7.9.0</td>
-			<td>8.0.0</td>
-			<td>8.1.0</td>
+			<td>7.8.0+</td>
+			<td>7.9.0+</td>
+			<td>8.0.0+</td>
+			<td>8.1.0+</td>
+			<td>8.2.0+</td>
 		</tr>
 		<tr>
 			<td>
 				<p><a href="https://docs.katalon.com/katalon-studio/videos/introducing_kobiton_katalon_studio.html">Kobiton</a></p>
 			</td>
+			<td>✔</td>
 			<td>✔</td>
 			<td>✔</td>
 			<td>✔</td>
@@ -345,11 +348,13 @@ This document gives you information on the supported technologies and integratio
 			<td>✔</td>
 			<td>✔</td>
 			<td>✔</td>
+			<td>✔&nbsp;</td>
 		</tr>
 		<tr>
 			<td>
 				<p><a href="https://docs.katalon.com/katalon-studio/docs/browserstack-integration.html">Browserstack</a></p>
 			</td>
+			<td>✔</td>
 			<td>✔</td>
 			<td>✔</td>
 			<td>✔</td>
@@ -363,6 +368,7 @@ This document gives you information on the supported technologies and integratio
 			<td>✔</td>
 			<td>✔</td>
 			<td>✔</td>
+			<td>✔&nbsp;</td>
 		</tr>
 		<tr>
 			<td>
@@ -372,6 +378,7 @@ This document gives you information on the supported technologies and integratio
 			<td>✔</td>
 			<td>✔</td>
 			<td>✔</td>
+			<td>✔&nbsp;</td>
 		</tr>
 	</tbody>
 </table>
@@ -381,90 +388,111 @@ This document gives you information on the supported technologies and integratio
 <table width="70%">
 	<tbody>
 		<tr>
-			<td>&nbsp;</td>
-			<td>7.8.0</td>
-			<td>7.9.0</td>
-			<td>8.0.0</td>
-			<td>8.1.0</td>
+			<td style="width: 42.4791%;">&nbsp;</td>
+			<td style="width: 9.86682%;">
+				<p>7.8.0+</p>
+			</td>
+			<td style="width: 10%;">7.9.0+</td>
+			<td style="width: 9.7493%;">8.0.0+</td>
+			<td style="width: 9.7493%;">8.1.0+</td>
+			<td style="width: 9.7493%;">8.2.0+</td>
 		</tr>
 		<tr>
-			<td>
+			<td style="width: 42.4791%;">
 				<p><a href="https://docs.katalon.com/katalon-studio/docs/jira-integration.html">Jira</a></p>
 			</td>
-			<td>✔</td>
-			<td>✔</td>
-			<td>✔</td>
-			<td>✔</td>
+			<td style="width: 9.86682%;">✔</td>
+			<td style="width: 10%;">✔</td>
+			<td style="width: 9.7493%;">✔</td>
+			<td style="width: 9.7493%;">✔</td>
+			<td style="width: 9.7493%;">✔</td>
 		</tr>
 		<tr>
-			<td>
+			<td style="width: 42.4791%;">
+				<p><a href="https://docs.katalon.com/katalon-studio/docs/git-integration.html">Git</a></p>
+			</td>
+			<td style="width: 9.86682%;">✔</td>
+			<td style="width: 10%;">✔&nbsp;</td>
+			<td style="width: 9.7493%;">✔</td>
+			<td style="width: 9.7493%;">✔</td>
+			<td style="width: 9.7493%;">✔&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="width: 42.4791%;">
 				<p><a href="https://docs.katalon.com/katalon-studio/docs/qtest-integration.html">qTest</a></p>
 			</td>
-			<td>✔</td>
-			<td>✔</td>
-			<td>✔</td>
-			<td>✔</td>
+			<td style="width: 9.86682%;">✔</td>
+			<td style="width: 10%;">✔</td>
+			<td style="width: 9.7493%;">✔</td>
+			<td style="width: 9.7493%;">✔</td>
+			<td style="width: 9.7493%;">✔&nbsp;</td>
 		</tr>
 		<tr>
-			<td>
+			<td style="width: 42.4791%;">
 				<p><a href="https://docs.katalon.com/katalon-studio/docs/testrail-integration.html">TestRail</a></p>
 			</td>
-			<td>✔</td>
-			<td>✔</td>
-			<td>✔</td>
-			<td>✔</td>
+			<td style="width: 9.86682%;">✔</td>
+			<td style="width: 10%;">✔</td>
+			<td style="width: 9.7493%;">✔</td>
+			<td style="width: 9.7493%;">✔</td>
+			<td style="width: 9.7493%;">✔&nbsp;</td>
 		</tr>
 		<tr>
-			<td>
+			<td style="width: 42.4791%;">
 				<p><a href="https://docs.katalon.com/katalon-studio/docs/rally-integration.html">Rally</a></p>
 			</td>
-			<td>✔</td>
-			<td>✔</td>
-			<td>✔</td>
-			<td>✔</td>
+			<td style="width: 9.86682%;">✔</td>
+			<td style="width: 10%;">✔</td>
+			<td style="width: 9.7493%;">✔</td>
+			<td style="width: 9.7493%;">✔</td>
+			<td style="width: 9.7493%;">✔&nbsp;</td>
 		</tr>
 		<tr>
-			<td>
+			<td style="width: 42.4791%;">
 				<p><a href="https://docs.katalon.com/katalon-studio/docs/testlink-integration.html">TestLink</a></p>
 			</td>
-			<td>✔</td>
-			<td>✔</td>
-			<td>✔</td>
-			<td>✔</td>
+			<td style="width: 9.86682%;">✔</td>
+			<td style="width: 10%;">✔</td>
+			<td style="width: 9.7493%;">✔</td>
+			<td style="width: 9.7493%;">✔</td>
+			<td style="width: 9.7493%;">✔&nbsp;</td>
 		</tr>
 		<tr>
-			<td>
+			<td style="width: 42.4791%;">
 				<p><a href="https://docs.katalon.com/katalon-store/docs/publisher/example-plugin-testrail.html">Custom ALM integration</a></p>
 			</td>
-			<td>✔</td>
-			<td>✔</td>
-			<td>✔</td>
-			<td>✔</td>
+			<td style="width: 9.86682%;">✔</td>
+			<td style="width: 10%;">✔</td>
+			<td style="width: 9.7493%;">✔</td>
+			<td style="width: 9.7493%;">✔</td>
+			<td style="width: 9.7493%;">✔&nbsp;</td>
 		</tr>
 	</tbody>
 </table>
 
 ### CI/CD Integration
 
-<table width=70%>
+<table width="70%">
 	<tbody>
 		<tr>
+			<td>&nbsp;</td>
 			<td>
+				<p>Supported Version</p>
 			</td>
 			<td>
-				<p>Version</p>
+				<p>7.8.0+</p>
 			</td>
 			<td>
-				<p>7.8.0</p>
+				<p>7.9.0+</p>
 			</td>
 			<td>
-				<p>7.9.0</p>
+				<p>8.0.0+</p>
 			</td>
 			<td>
-				<p>8.0.0</p>
+				<p>8.1.0+</p>
 			</td>
 			<td>
-				<p>8.1.0</p>
+				<p>8.2.0+</p>
 			</td>
 		</tr>
 		<tr>
@@ -484,24 +512,24 @@ This document gives you information on the supported technologies and integratio
 			<td>
 				<p>✔</p>
 			</td>
+			<td>
+				<p>✔</p>
+			</td>
 		</tr>
 		<tr>
 			<td>
 				<p><a href="https://docs.katalon.com/katalon-studio/docs/azure-devops-integration.html">Azure DevOps Pipeline</a></p>
 			</td>
 			<td>&nbsp;</td>
-			<td>
-				<p> </p>
-			</td>
-			<td>
-				<p> </p>
-			</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
 			<td>
 				<p>✔</p>
 			</td>
 			<td>
 				<p>✔</p>
 			</td>
+			<td>✔</td>
 		</tr>
 		<tr>
 			<td>
@@ -520,6 +548,7 @@ This document gives you information on the supported technologies and integratio
 			<td>
 				<p>✔</p>
 			</td>
+			<td>✔</td>
 		</tr>
 		<tr>
 			<td>
@@ -540,6 +569,7 @@ This document gives you information on the supported technologies and integratio
 			<td>
 				<p>✔</p>
 			</td>
+			<td>✔</td>
 		</tr>
 		<tr>
 			<td>
@@ -558,6 +588,7 @@ This document gives you information on the supported technologies and integratio
 			<td>
 				<p>✔</p>
 			</td>
+			<td>✔</td>
 		</tr>
 		<tr>
 			<td>
@@ -576,35 +607,40 @@ This document gives you information on the supported technologies and integratio
 			<td>
 				<p>✔</p>
 			</td>
+			<td>✔</td>
 		</tr>
 	</tbody>
 </table>
 
 ### Integration with other Katalon products and extensions
 
-<table width=70%>
+<table width="70%">
 	<tbody>
 		<tr>
 			<td>
 				<p><strong>Product</strong></p>
 			</td>
 			<td>
-				<p>7.8.0</p>
+				<p>7.8.0+</p>
 			</td>
 			<td>
-				<p>7.9.0</p>
+				<p>7.9.0+</p>
 			</td>
 			<td>
-				<p>8.0.0</p>
+				<p>8.0.0+</p>
 			</td>
 			<td>
-				<p>8.1.0</p>
+				<p>8.1.0+</p>
+			</td>
+			<td>
+				<p>8.2.0+</p>
 			</td>
 		</tr>
 		<tr>
 			<td>
 				<p>Katalon Recorder</p>
 			</td>
+			<td>✔</td>
 			<td>✔</td>
 			<td>✔</td>
 			<td>✔</td>
@@ -618,35 +654,40 @@ This document gives you information on the supported technologies and integratio
 			<td>✔</td>
 			<td>✔</td>
 			<td>✔</td>
+			<td>✔</td>
 		</tr>
 	</tbody>
 </table>
 
 ### Migration from other tools
 
-<table width=70%>
+<table width="70%">
 	<tbody>
 		<tr>
 			<td>
 				<p><strong>Tools</strong></p>
 			</td>
 			<td>
-				<p>7.8.0</p>
+				<p>7.8.0+</p>
 			</td>
 			<td>
-				<p>7.9.0</p>
+				<p>7.9.0+</p>
 			</td>
 			<td>
-				<p>8.0.0</p>
+				<p>8.0.0+</p>
 			</td>
 			<td>
-				<p>8.1.0</p>
+				<p>8.1.0+</p>
+			</td>
+			<td>
+				<p>8.2.0+</p>
 			</td>
 		</tr>
 		<tr>
 			<td>
 				<p><a href="https://docs.katalon.com/katalon-studio/docs/selenium-testng-junit-migration.html">Selenium</a></p>
 			</td>
+			<td>✔</td>
 			<td>✔</td>
 			<td>✔</td>
 			<td>✔</td>
@@ -660,6 +701,7 @@ This document gives you information on the supported technologies and integratio
 			<td>✔</td>
 			<td>✔</td>
 			<td>✔</td>
+			<td>✔&nbsp;</td>
 		</tr>
 		<tr>
 			<td>
@@ -669,6 +711,7 @@ This document gives you information on the supported technologies and integratio
 			<td>✔</td>
 			<td>✔</td>
 			<td>✔</td>
+			<td>✔&nbsp;</td>
 		</tr>
 		<tr>
 			<td>
@@ -678,24 +721,29 @@ This document gives you information on the supported technologies and integratio
 			<td>✔</td>
 			<td>✔</td>
 			<td>✔</td>
+			<td>✔&nbsp;</td>
 		</tr>
 	</tbody>
 </table>
 
 ### Offering
 
-<table width=70%>
+<table width="70%">
 	<tbody>
 		<tr>
 			<td>&nbsp;</td>
-			<td>7.8.0</td>
-			<td>7.9.0</td>
-			<td>8.0.0</td>
-			<td>8.1.0</td>
+			<td>7.8.0+</td>
+			<td>7.9.0+</td>
+			<td>8.0.0+</td>
+			<td>8.1.0+</td>
+			<td>8.2.0+</td>
 		</tr>
 		<tr>
 			<td>
 				<p>Community package (<a href="https://www.katalon.com/pricing/">Comparison</a>)</p>
+			</td>
+			<td>
+				<p>✔</p>
 			</td>
 			<td>
 				<p>✔</p>
@@ -726,20 +774,22 @@ This document gives you information on the supported technologies and integratio
 			<td>
 				<p>✔</p>
 			</td>
+			<td>✔</td>
 		</tr>
 	</tbody>
 </table>
 
 ### Support
 
-<table width=70%>
+<table width="70%">
 	<tbody>
 		<tr>
 			<td>&nbsp;</td>
-			<td>7.8.0</td>
-			<td>7.9.0</td>
-			<td>8.0.0</td>
-			<td>8.1.0</td>
+			<td>7.8.0+</td>
+			<td>7.9.0+</td>
+			<td>8.0.0+</td>
+			<td>8.1.0+</td>
+			<td>8.2.0+</td>
 		</tr>
 		<tr>
 			<td>
@@ -754,6 +804,8 @@ This document gives you information on the supported technologies and integratio
 			<td>
 				<p>✔</p>
 			</td>
+			<td>
+				<p>✔</p>
 			</td>
 			<td>
 				<p>✔</p>
@@ -772,12 +824,11 @@ This document gives you information on the supported technologies and integratio
 			<td>
 				<p>✔</p>
 			</td>
-			</td>
 			<td>
 				<p>✔</p>
 			</td>
+			<td>✔&nbsp;</td>
 		</tr>
 	</tbody>
 </table>
 <p>(*) <em> Limitation: Elements inside embedded web views cannot be captured automatically by Record&amp;Spy utilities. </em><a href="#top"> Back to top </a></p>
-
