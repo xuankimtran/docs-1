@@ -29,11 +29,51 @@ redirect_from:
 description: 
 ---
 
-Katalon Studio Preferences define default behaviors of Katalon Studio across projects. You can access the Preferences by selecting **Katalon Studio > Preferences** from the menu.
+Katalon Studio Preferences define default behaviors of Katalon Studio across projects. You can configure the below preferences:
+- Katalon Preferences
+- Import Preferences
+- Test Case Preferences
+- Proxy Preferences
+- Object Spy Preferences
+- Katalon Studio themes
+## Katalon Preferences
 
-You can configure the usage tracked by Katalon Studio. Go to **Katalon Studio > Preferences> Katalon** from the menu. By default, Katalon Studio is allowed to collect error and execution logs, and other information about your use of the application. Refer to the [Privacy Policy](https://www.katalon.com/terms/katalon/privacy-policy/) for further details of our tracking.
+To configure Katalon general behaviors at startup, go to **Katalon Studio > Preferences > Katalon** from the menu. You can see the following options:
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-preferences/preferences.png" width="610" height="304">
+<table style="width: 709.109px;">
+	<tbody>
+		<tr>
+			<td><strong>Options</strong></td>
+			<td><strong>Capabilities</strong></td>
+			<td><strong>Notes</strong></td>
+		</tr>
+		<tr>
+			<td>Show Help at startup</td>
+			<td>This option allows you to turn on/off the <strong>Help</strong> page at startup.</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Automatically check for new version</td>
+			<td>This option allows Katalon to check for the latest Katalon version automatically.</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>Allow usage tracking</td>
+			<td>This option allows you to configure the usage tracked by Katalon Studio. By default, Katalon Studio is allowed to collect errors, execution logs, and other information about your application use. You can refer to this document:&nbsp;<a href="https://www.katalon.com/terms/katalon/privacy-policy/">Privacy Policy</a>&nbsp;for further details of our tracking.</td>
+			<td rowspan="3"><p>&nbsp;</p><p>&nbsp;</p>To disable these functions,&nbsp;you need an active Katalon Studio Enterprise license. You can refer to this document to learn more about activating licenses: <a href="https://docs.katalon.com/katalon-studio/docs/activate-license.html#activate-trial-license">Activate Katalon License.</a></td>
+		</tr>
+		<tr>
+			<td>Received dynamic content notifications</td>
+			<td>From Katalon version 8.2.0 onwards, you can stop receiving notifications from the Katalon Studio team by unchecking this option.</td>
+		</tr>
+		<tr>
+			<td>Show Start Page contents</td>
+			<td>From Katalon version 8.2.0 onwards, you can hide Start Page contents by unchecking this option.</td>
+		</tr>
+	</tbody>
+</table>
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-preferences/KS-PREF-Katalon-preferences.png" width="610" height="304">
 
 ## Import Preferences
 
@@ -188,10 +228,10 @@ Users can check/uncheck this option to pin Object Spy Window on top while spying
 
 ### Hotkeys
 
-Katalon Studio supports customizable hotkeys for Object Spy function so that users can choose the preferred combination or avoid confliction with UAT hotkeys.
+Katalon Studio supports customizable hotkeys for Object Spy function so that users can choose the preferred combination or avoid conflict with UAT hotkeys.
 
 > This ability to change hotkeys for Object Spy only affects the Chrome browser. Other browsers will be considered for future releases.
 
 ## Apply Dark theme
 
-By default, Katalon Studio has the Light theme applied. Starting in version 6.3.0, Dark Theme is available. You can enable it at **Window > Themes >Dark**. Katalon Studio is required restarting to enable another theme to be applied.
+By default, Katalon Studio has the Light theme applied. Starting in version 6.3.0, Dark Theme is available. You can enable it at **Window > Themes >Dark**. You need to restart Katalon Studio after changing the theme.
