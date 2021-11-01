@@ -146,7 +146,7 @@ After the line-wrapping enabled:
 
 ## Proxy Preferences
 
-Starting in Katalon Studio version **7.5.0**, the proxy is divided into two categories: Authentication and System proxies. You can apply different proxy configurations for connecting to the Katalon server and your servers during testing.
+From Katalon Studio version 7.5.0 onwards, the proxy is divided into two categories: Authentication and System proxies. You can apply different proxy configurations for connecting to the Katalon server and your servers during testing.
 
 Please go to **Katalon Studio> Preferences > Katalon > Proxy** and select **Authentication** or **System** section for corresponding proxy configuration of each type.
 
@@ -172,7 +172,7 @@ In the Proxy Settings areas of both Authentication and System proxies, you can s
   * Address: an HTTP Proxy host
   * Port: an HTTP Proxy port
   * Excludes: A list of addresses separated by comma to exclude
-  > The ability to exclude proxy is available in **version 7.2+**. Katalon Studio only supports proxy exceptions in web recorder and spying with **Chrome** and **Firefox**.
+  > The ability to exclude proxy is available from version 7.2.0 onwards. Katalon Studio only supports proxy exceptions in web recorder and spying with **Chrome** and **Firefox**.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/proxy-options.png" width="70%" alt="proxy settings">
 
@@ -195,7 +195,7 @@ Katalon Studio applies the System proxy to test execution's desired capabilities
 
 ### Override proxy details in the test script
 
-Starting from **version 7.0.0**, Katalon Studio supports an option to pass proxy details via a request object in Web Service testing. Below is an example:
+From version 7.0.0 onwards, Katalon Studio supports an option to pass proxy details via a request object in Web Service testing. Below is an example:
 
 ```groovy
 RequestObject requestObject = findTestObject("google")
