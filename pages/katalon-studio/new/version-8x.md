@@ -24,7 +24,7 @@ description: Release notes 8.x
     * Added an option in Katalon Studio Preferences to automatically disable connection to external domains.
 * [Performance] Improved Katalon Studio IDE and Katalon Runtime Engine performance:
     * Introduced **Delay between instances** option in Katalon Studio and `-delayBetweenInstances` parameter in Katalon Runtime Engine to execute Test Suite Collection in parallel mode. See [Command Syntax](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html), quick tip: search for `-delay`.
-    * Shortened loading time for big projects in Katalon Runtime Engine.
+    * Reduced loading time for big projects in Katalon Runtime Engine.
     * Improved responsiveness and loading time when renaming/moving test cases in big projects.
     * Prevented loading unused images when opening Katalon Studio.
     * Reduced CPU usage when using Self-healing, Run and Debug from here function.
@@ -37,7 +37,7 @@ description: Release notes 8.x
 * [WebUI] Introduced an option to use the Spy, Record, and Smart Wait function with a packed extension, now available on the Chrome Web Store. This extension is compatible with Katalon Studio version 8.0.0 onwards. See [Katalon Compact Utility](https://docs.katalon.com/katalon-studio/docs/katalon-compact-utility.html).
 * [BDD] Supported onboarding with BDD testing.
 * [Project Information] Introduced an option in project settings to include or exclude timestamps in the .properties files.
-* [Jira] Supported only adding the _Bug_ icon for Final test results.
+* [Jira Integration] Supported only adding the _Bug_ icon for Final test results.
 * [Console Log] Enhanced Plugin loading information in the console log of Katalon Studio Enterprise and Katalon Runtime Engine.
 * [Katalon Runtime Engine] Removed the "Offline activation failed" message in the execution log.
 * [DDT] Specified the input data of iterations in the Data-driven Testing report.
