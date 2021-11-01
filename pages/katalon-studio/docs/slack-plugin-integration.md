@@ -1,5 +1,5 @@
 ---
-title: "Slack Integration Plugin" 
+title: "Slack Integration" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/slack-plugin-integration.html
 redirect_from:
@@ -10,40 +10,52 @@ redirect_from:
     - "/katalon-studio/docs/slack-integration/"
 description: 
 ---
-### Configure Slack plugin   
-Go to **Project** > **Setting** > **Plugin**. 
-Check the **Using Slack** checkbox. Next, provide all required information. Click **Test Connection** to make sure Katalon Studio and Slack are integrated.
 
-Once the connection from Katalon Studio to your Slack team space has been successfully established, you can verify as below:
+Slack Integration with Katalon Studio allows you to send test execution reports using a Slack API app.
 
-<center>
-<img src="https://i.ibb.co/68wFsZN/Slack-2.png" width="550" >
-</center>
+This guide shows you how to integrate a Slack API app with Katalon Studio.
 
+> **Prerequisites**
+>
+> * An active Katalon Studio Enterprise license.
+> * The **Slack Integration** plugin for Katalon Studio installed. You can install the plugin here: [Slack Integration](https://store.katalon.com/product/4/Slack-Integration).
 
+### Create a Slack API app for integration
 
+1. To create a Slack API app, navigate to the [Slack API app](https://api.slack.com/apps) site and create a new app from scratch.
 
-### Obtain Slack OAuth authentication token
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/slack-plugin-integration/Slack-create-app-from-scratch.png" width=70% alt="Create an app from scratch">
 
-Log in to your Slack team space and navigate to the [Slack API App](https://api.slack.com/apps). Then create a Katalon Studio app.
+2. Next, you need to configure the app. Navigate to the **OAuth & Permissions** section, scroll down to the **Scopes** pane and add some **Bot Token Scopes**.
 
-Click on **OAuth & Permissions**
+    We need to grant the app these scopes: `app_mentions:read`, `calls:write`, `chat:write`, and `chat:write.customize`.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/slack-plugin-integration/Slack_3.png) 
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/slack-plugin-integration/Slack-add-scope.png" width=70% alt="Add scopes">
 
-Scroll down to the **Scopes** section.  
-Under **Select Permission Scopes**, choose all options: **Send messages as Katalon Studio**, **Send messages as user**, and **Access information about user's public channels** > **Save Changes**.  An authentication token will be generated. 
+    > To learn more about Slack permission scopes, refer to this guide on the Slack documentation site: [Slack Permission Scopes](https://api.slack.com/scopes).
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/slack-plugin-integration/Slack_4.png) 
-*Note*: If you forget to define Scopes to the chatbot, you will have to reinstall the app and define Scopes again.
+3. To install the app, scroll up to the **OAuth Tokens for Your Workspace** pane and click on the **Install to Workspace** button. 
 
-### Obtain Slack Legacy token
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/slack-plugin-integration/Slack-app-api-install-app.png" width=70% alt="Install to Workspace button">
 
-Under Slack ‘Settings’, navigate to the [Legacy Tokens](http://api.slack.com/custom-integrations/legacy-tokens) page > click **Create token**.  
-You may see the Request token if the Approved Apps feature is turned on for your workspace.
+4. After the installation, a **Bot User OAuth Token** is displayed. Click on the **Copy** button to copy the token to your clipboard.
 
-<center>
-<img src="https://i.ibb.co/64PP0f8/Slack-5.png">
-</center>
+    Katalon Studio requires this token to integrate with a Slack API app.
 
-*Note*. After the configuration, messages will be automatically sent from Katalon Studio Slack Plugin once the test suite has been successfully executed.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/slack-plugin-integration/Slack-bot-OAuth-token.png" width=70% alt="Copy the OAuth token">
+
+5. Select a channel in your Slack workspace. In the message field, type in "`/invite`" and select **Add apps to this channel**. Enter your app's name.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/slack-plugin-integration/Slack-add-app-to-channel.png" width=70% alt="Add apps to this channel">
+
+### Configure Slack plugin
+
+1. Open Katalon Studio, in the main menu, select **Project > Settings > Plugin > Slack**. Check the **Using Slack** checkbox and input the required information. Click the **Test Connection** button to ensure Katalon Studio is integrated with the Slack API app. Click **Apply** when done.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/slack-plugin-integration/KS-Plugin-Slack.png" width=70% alt="Configure Slack plugin">
+
+2. After the configuration, run your tests and verify the test report messages on the Slack channel.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/slack-plugin-integration/Slack-Test-result-summary.png" width=70% alt="Configure Slack plugin">
+
+    
