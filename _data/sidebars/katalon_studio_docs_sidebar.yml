@@ -1477,12 +1477,16 @@ items:
                 url: /katalon-recorder/docs/conditional-cases.html
               - title: "Back up data automatically"
                 url: /katalon-recorder/docs/auto-backup.html
+              - title: "Global variables"
+                url: /katalon-recorder/docs/global-variables.html
           - title: "Execute scenarios"
             tree:
               - title: "Use the Self-Healing function"
                 url: /katalon-recorder/docs/self-healing.html 
               - title: "Use the Commande-Line Runner"
                 url: /katalon-recorder/docs/command-line-runner.html 
+              - title: "Dynamic Test Suite"
+                url: /katalon-recorder/docs/dynamic-test-suite.html
           - title: "Execution report"
             tree:
               - title: "View execution reports in TestOps"
@@ -1491,6 +1495,8 @@ items:
             tree:
               - title: "Export automation scripts to other frameworks"
                 url: /katalon-recorder/docs/export-test-script.html
+              - title: "Export test projects"
+                url: /katalon-recorder/docs/export-test-project-to-ks.html
               - title: "Writing Custom Script Formatter"
                 url: /katalon-recorder/docs/writing-custom-script-formatter.html
           - title: "Data-driven excecution"

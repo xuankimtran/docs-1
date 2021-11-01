@@ -18,6 +18,8 @@ description:
 ---
 A Test Suite is a collection of multiple different or duplicate test cases.
 
+This guide shows you how to configure and create a Test Suite.
+
 ## Create a new Test Suite
 
 To create a new Test Suite, do as follows:
@@ -26,7 +28,7 @@ To create a new Test Suite, do as follows:
 
    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/test-suite-1.png)
 
-2. Fill in the name of the test suite and the description (optional).
+2. Fill in the **Name** of the test suite and the **Description** (optional).
 
    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/New-test-suite-window.png)
 
@@ -40,7 +42,7 @@ You can choose to add that test case to an **existing** or a **new** test suite.
 
 ## Modify Execution Information
 
-You can specify additional configurations for test suite execution by expanding the **Execution Information** section, as below:
+You can specify additional configurations for test suite execution by expanding the **Execution Information** section, as below:
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/design-a-test-suite/image2017-2-15-143A493A29.png)
 
@@ -86,7 +88,7 @@ By default, each Test Case is run only one time in a Test Suite execution. Suppo
       
    At this point, Katalon Studio logged its final result as **Failed** and continued to execute Test Case 4 and 5 with the same logic.
 
-   You can view how many Test Cases in the Test Suite were executed and their final status in the **Summary** tab. In this use case, the Test Suite has five total Test Cases, Test Cases 1, 2 and 4 pass while 3 and 5 fail.
+   You can view how many Test Cases in the Test Suite were executed and their final status in the **Summary** tab. In this use case, the Test Suite has five total Test Cases; Test Cases 1, 2, and 4 pass while 3 and 5 fail.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/retry-usage-example-result.png" width=85%>
 
@@ -107,19 +109,23 @@ By default, each Test Case is run only one time in a Test Suite execution. Suppo
 
 ### Mail Recipients
 
-You can add a list of recipients who will receive execution reports via email once the test suite finishes its execution.
+To send test summary reports via email, first you need to configure the [Email Settings](https://docs.katalon.com/katalon-studio/docs/execution-settings.html#emails-settings). You need to set up a mail server, an email template, and a default recipient list.
+
+Once configured, you can add an additional list of recipients for a specific Test Suite report.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/email.png" alt="email recipients" width=70%>
 
-There's also another list of recipients who will receive all the reports from Katalon by default. Refer to [Emails Settings](https://docs.katalon.com/katalon-studio/docs/execution-settings.html#emails-settings) for more details.
+> Notes:
+>
+> The default recipient list in Email settings and the additional list in a Test Suite can receive the same test reports after the Test Suite execution.  
 
 ## Manage Test Case List
 
-There are several ways to add Test Cases into Test Suites. You can drag and drop the Test Case into Test Suites or using the Test Suite editor to manually add the test case.
+There are several ways to add Test Cases into Test Suites. You can drag and drop the Test Case into Test Suites or use the Test Suite editor to manually add the test case.
 
 > Test Cases can be duplicated in the same Test Suite.
 
-Open a test suite, then select the option to add **Add Test Case** from the command toolbar.  
+Open a test suite, then select the option to add **Add Test Case** from the command toolbar.  
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/design-a-test-suite/image2017-2-15-143A333A40.png)
 
 All test cases in Katalon Studio are displayed in the **Test Case Browser** dialog for you to select your preferred options. The selected test cases are added to the test case list accordingly.  
@@ -161,7 +167,7 @@ After installing one of those plugins, go to Katalon Studio and click **Reload P
 
 ## Execute a Test Suite
 
-Open a test case/test suite, then select an environment to run the test case from **Run** command of the main toolbar.
+Open a test case/test suite, then select an environment to run the test case from **Run** command of the main toolbar.
 
 > If you click on the **Run** button, the test case is executed using the default browser defined in [Execution Settings](/display/KD/Execution+Settings).
 

@@ -9,30 +9,39 @@ redirect_from:
     - "/katalon-studio/docs/ws-verify-element-text/"
 description: 
 ---
-Description
------------
+## Description
 
-Verify that there is an element with expected text appeared in the returned data from a web service call.
+Verify an element with expected text appeared in the returned data from a web service call.
 
-Parameters 
------------
+## Parameters 
 
 | Parameter | Parameter Type | Mandatory | Description |
 | --- | --- | --- | --- |
 | response  | ResponseObject  | Required | Represent an HTTP Response, the user can get responded content type, data, header properties (sometimes the user may want to get cookies from response header) |
-| locator  | String  | Required | An expression Katalon will use to go through and look for the expected element(s), please refer to our user guide on how to write it: [Handle Web Service Response object](https://docs.katalon.com/katalon-studio/docs/handle-response-messages.html) |
+| locator  | String  | Required | The element locator that Katalon uses to look for the expected data. To learn more about element locators, you can refer to this document: [Handle Response messages](https://docs.katalon.com/katalon-studio/docs/handle-response-messages.html). |
 | text  | String  | Required | The expected text of element you want to verify in the responded data (usually is JSON/XML) |
-| flowControl  | FailureHandling  | Optional | Specify [failure handling](/x/qAAM) schema to determine whether the execution should be allowed to continue or stop. |
-
-Returns
--------
+| flowControl  | FailureHandling  | Optional | Specify failure handling schema to determine whether the execution should be allowed to continue or stop. To learn more about failure handling settings, you can refer to this document: [Failure handling](https://docs.katalon.com/katalon-studio/docs/failure-handling.html#default-failure-handlingbehavior). |
+## Returns
 
 *   **true**, if your element text is found, otherwise; **false**.
+## Example
 
-Example
--------
+Given the following sample **SOAP_TransactionResult** SOAP object: 
 
-You want to verify converted weight after sending request is correct or not.
+``` groovy
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+  <env:Body>
+    <ns:PreAuthorizeResponse xmlns:ns="beep" xmlns:ns2="bop" xmlns:ns1="foo" >
+      <ns:Receipt>
+        <ns1:DataKey>123</ns1:DataKey>
+        <ns1:CustomerId>12345</ns1:CustomerId>
+        <ns1:PaymentId>123456</ns1:PaymentId>
+        <ns1:TransactionResult>Approved</ns1:TransactionResult>
+
+```
+
+We want to verify the `TransactionResult` element in the SOAP response after sending the request. You can use the `WS.verifyElementText()` keyword as below:
 
 ```groovy
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -54,8 +63,19 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 
 'Send a SOAP request and returns its response'
-def response = WS.sendRequest(findTestObject('SOAP_ConvertWeight'))
+def response = WS.sendRequest(findTestObject('SOAP_TransactionResult'))
 
-'Verify converted weight after sending request is correct or not'
-WS.verifyElementText(response, 'ConvertWeightResult', '3000')
+'Verify the selected element in the response'
+WS.verifyElementText(response, 'PreAuthorizeResponse.Receipt.TransactionResult', 'Approved')
 ```
+> Notices:
+> 
+> Katalon checks if the XML element content text is strictly equal to the expected value. For example, if there is whitespace after the `Approved` value, you need to add it to the third arguement as below:
+> 
+> ``` groovy
+> WS.verifyElementText(response, 'PreAuthorizeResponse.Receipt.TransactionResult', 'Approved ')
+>  ```
+
+## See also
+
+* [[WS] Verify Element Property Value](https://docs.katalon.com/katalon-studio/docs/ws-verify-element-property-value.html#description)

@@ -6,165 +6,775 @@ permalink: /katalon-studio/docs/product-availability-matrix.html
 
 This document gives you information on the supported technologies and integrations. For the supported environments (including browsers and operating systems), see [this document](https://docs.katalon.com/katalon-studio/docs/supported-environments.html).
 
-<table>
+### Supported Application Under Test (AUT)
+
+<table width=100% id="top" class="top-vertical-align-table">
+    <tr>
+        <td style="width:50%"><strong>Web UI</strong>
+            <ul>
+                <li>Support all front-end frameworks: ReactJS, AngularJS, VueJS.
+                <li>Cross-browser compatibility: Chrome, Firefox, Safari, Edge
+                </li>
+            </ul>
+        </td>
+        <td><strong>Mobile</strong>
+            <ul>
+                <li>Android & iOS
+                <li>Native application
+                <li>Web mobile
+                <li>Hybrid <a href="#mobile-limit">(*)</a>
+                </li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td style="width:50%"><strong>API</strong>
+            <ul>
+                <li>REST: <a href="https: //docs.katalon.com/katalon-studio/docs/import-rest-requests-from-swagger-20.html">
+                        Swagger</a>,<a href="https://docs.katalon.com/katalon-studio/docs/import-openapi30.html"> OpenAPI 3.0</a> &<a
+                        href="https://docs.katalon.com/katalon-studio/docs/import-wadl.html"> WADL</a>
+                <li>SOAP (SOAP 1.1 & 1.2)
+                <li>Authentication: <a
+                        href="https://docs.katalon.com/katalon-studio/docs/authorization-basic.html">Basic</a>, <a
+                        href="https://docs.katalon.com/katalon-studio/docs/authorization-oauth1.html">OAuth 1.0</a> &<a
+                        href="https://docs.katalon.com/katalon-studio/docs/authorization-oauth2.html"> OAuth 2.0</a>
+                </li>
+            </ul>
+        </td>
+        <td style="width:50%"><strong>Windows</strong>
+            <ul>
+                <li>Universal Windows Platform (UWP)
+                <li>Windows Forms (WinForms)
+                <li>Windows Presentation Foundation (WPF)
+                <li>Classic Windows (Win32) apps on Windows 10 PCs
+                </li>
+            </ul>
+        </td>
+    </tr>
+</table>
+
+### Programming Skill & Language
+
+<table width=100%>
 	<tbody>
 		<tr>
-			<td colspan="2"><strong> Supported Application Under Test</strong> (AUT)</td>
-		</tr>
-		<tr>
-			<td><strong>Web UI </strong></td>
-			<td><strong>Mobile </strong></td>
+			<td>
+				<p>Low-code</p>
+			</td>
+			<td>
+				<p>Rich set of utilities to generate and maintain automated script without programming experience.</p>
+			</td>
 		</tr>
 		<tr>
 			<td>
-				<ul>
-					<li>Support all front-end frameworks: ReactJS, AngularJS, VueJS.</li>
-					<li>Cross-browser compatibility: Chrome, Firefox, Safari, Edge</li>
-				</ul>
+				<p>Groovy</p>
 			</td>
 			<td>
-				<ul>
-					<li>Android &amp; iOS</li>
-					<li>Native application</li>
-					<li>Web mobile</li>
-					<li>Hybrid <a href="#mobile-limit"> (*) </a></li>
-				</ul>
+				<p>2.4.7</p>
 			</td>
-		</tr>
-		<tr>
-			<td><strong>API </strong></td>
-			<td><strong>Windows</strong></td>
 		</tr>
 		<tr>
 			<td>
-				<ul>
-					<li>REST: <a href="https://docs.katalon.com/katalon-studio/docs/import-rest-requests-from-swagger-20.html"> Swagger</a>, <a href="https://docs.katalon.com/katalon-studio/docs/import-openapi30.html"> OpenAPI 3.0 </a> &amp; <a href="https://docs.katalon.com/katalon-studio/docs/import-wadl.html"> WADL </a></li>
-					<li>SOAP (SOAP 1.1 &amp; 1.2)</li>
-					<li>Authentication: <a href="https://docs.katalon.com/katalon-studio/docs/authorization-basic.html"> Basic </a> , <a href="https://docs.katalon.com/katalon-studio/docs/authorization-oauth1.html"> OAuth 1.0 </a> &amp; <a href="https://docs.katalon.com/katalon-studio/docs/authorization-oauth2.html"> OAuth 2.0 </a></li>
-				</ul>
+				<p>Java</p>
 			</td>
 			<td>
-				<ul>
-					<li>Universal Windows Platform (UWP)</li>
-					<li>Windows Forms (WinForms)</li>
-					<li>Windows Presentation Foundation (WPF)</li>
-					<li>Classic Windows (Win32) apps on Windows 10 PCs</li>
-				</ul>
+				<p>v8.0 - v14</p>
 			</td>
 		</tr>
+	</tbody>
+</table>
+
+### Testing Methodologies
+
+<table width=100%>
+	<tbody>
 		<tr>
-			<td colspan="2"><strong> Programming Skill &amp; Language </strong></td>
-		</tr>
-		<tr>
-			<td colspan="2">
-				<ul>
-					<li>Code-less: rich set of utilities to generate and maintain automated script without programming skills</li>
-					<li>Groovy 2.4.7</li>
-					<li>Java v8.0 - v14</li>
-				</ul>
-			</td>
-		</tr>
-		<tr>
-			<td><strong> Testing Methodologies </strong></td>
-			<td><strong> Testing Capabilities </strong></td>
-		</tr>
-		<tr>
-			<td>
-				<ul>
-					<li><a href="https://docs.katalon.com/katalon-studio/docs/cucumber-features-file.html"> Behavior-driven development - BDD </a></li>
-					<li><a href="https://docs.katalon.com/katalon-studio/docs/ddt.html"> Data-driven testing - DDT </a></li>
-					<li>Keyword-driven testing - KDT</li>
-					<li>Page Object Model - POM</li>
-				</ul>
+			<td rowspan="4">
+				<p><a href="https://docs.katalon.com/katalon-studio/docs/ddt.html">Data-driven testing - DDT</a></p>
 			</td>
 			<td>
-				<ul>
-					<li>Integration Testing</li>
-					<li>Functional Testing</li>
-					<li>E-2-E Testing</li>
-					<li><a href="https://github.com/katalon-studio-samples/web-visual-testing-samples"> Visual Testing </a></li>
-				</ul>
+				<p>Built-in Database</p>
 			</td>
-		</tr>
-		<tr>
-			<td colspan="2"><strong> Report </strong></td>
-		</tr>
-		<tr>
-			<td colspan="2">
-				<ul>
-					<li>Execution summary in HTML, PDF, CSV format</li>
-					<li>Dynamic email configuration</li>
-					<li>Release/build-based reports</li>
-					<li>Performance, Trending &amp; Insights reports</li>
-				</ul>
+			<td>
+				<p>Version</p>
 			</td>
-		</tr>
-		<tr>
-			<td><strong> Cloud Device integration </strong></td>
-			<td><strong> ALM integration </strong></td>
+			<td>
+				<p>Katalon Studio 7.0.0+</p>
+			</td>
+			<td>
+				<p>Katalon Studio 7.5.0+</p>
+			</td>
+			<td>
+				<p>Katalon Studio Enterprise 7.0.0+</p>
+			</td>
+			<td>
+				<p>Katalon Studio Enterprise 7.5.0+</p>
+			</td>
 		</tr>
 		<tr>
 			<td>
-				<ul>
-					<li><a href="https://docs.katalon.com/katalon-studio/videos/introducing_kobiton_katalon_studio.html"> Kobiton </a></li>
-					<li><a href="https://docs.katalon.com/katalon-studio/docs/saucelabs-plugin.html"> Sauce Labs </a></li>
-					<li><a href="https://docs.katalon.com/katalon-studio/docs/browserstack-integration.html"> Browserstack </a></li>
-					<li><a href="https://docs.katalon.com/katalon-studio/docs/lambdatest-integration.html"> LambdaTest </a></li>
-					<li><a href="https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html#remote-server"> Custom integration </a></li>
-				</ul>
+				<p>PostgreSQL</p>
 			</td>
 			<td>
-				<ul>
-					<li><a href="https://docs.katalon.com/katalon-studio/docs/jira-integration.html"> Jira </a></li>
-					<li><a href="https://docs.katalon.com/katalon-studio/docs/git-integration.html"> Git </a></li>
-					<li><a href="https://docs.katalon.com/katalon-studio/docs/qtest-integration.html"> qTest </a></li>
-					<li><a href="https://docs.katalon.com/katalon-studio/docs/testrail-integration.html"> TestRail </a></li>
-					<li><a href="https://docs.katalon.com/katalon-studio/docs/rally-integration.html"> Rally </a></li>
-					<li><a href="https://docs.katalon.com/katalon-studio/docs/testlink-integration.html"> TestLink </a></li>
-					<li><a href="https://docs.katalon.com/katalon-store/docs/publisher/example-plugin-testrail.html"> Custom ALM integration </a></li>
-				</ul>
+				<p data-pm-slice="1 1 [&quot;bulletList&quot;,null,&quot;listItem&quot;,null,&quot;bulletList&quot;,null,&quot;listItem&quot;,null]">v42.2.17</p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+			<td>
+				<p>✔</p>
 			</td>
 		</tr>
 		<tr>
-			<td><strong> CI/CD integration </strong></td>
-			<td><strong> Migration from other tools </strong></td>
-		</tr>
-		<tr>
 			<td>
-				<ul>
-					<li><a href="https://docs.katalon.com/katalon-studio/docs/jenkins-plugin-windows.html"> Jenkins </a></li>
-					<li><a href="https://docs.katalon.com/katalon-studio/docs/azure-devops-extension.html"> Azure DevOps Pipeline </a></li>
-					<li><a href="https://docs.katalon.com/katalon-studio/docs/integration-circleci.html"> CircleCI </a></li>
-					<li><a href="https://docs.katalon.com/katalon-studio/docs/bamboo-addon.html"> Bamboo </a></li>
-					<li><a href="https://docs.katalon.com/katalon-studio/docs/teamcity-plugin.html"> TeamCity </a></li>
-					<li><a href="https://docs.katalon.com/katalon-studio/docs/intro-RE.html"> Custom CI/CD integration </a></li>
-				</ul>
+				<p>Oracle SQL</p>
 			</td>
 			<td>
-				<ul>
-					<li>From <a href="https://docs.katalon.com/katalon-studio/docs/selenium-testng-junit-migration.html"> Selenium </a> &amp; <a href="https://docs.katalon.com/katalon-studio/docs/import-selenium-ide.html"> Selenium IDE </a></li>
-					<li>From Katalon Recorder</li>
-					<li>From <a href="https://docs.katalon.com/katalon-studio/docs/import-postman.html"> Postman </a></li>
-					<li>From <a href="https://docs.katalon.com/katalon-studio/docs/import-soapui.html"> SoapUI </a></li>
-				</ul>
+				<p data-pm-slice="1 1 [&quot;bulletList&quot;,null,&quot;listItem&quot;,null,&quot;bulletList&quot;,null,&quot;listItem&quot;,null]">v12.1.0.2</p>
+			</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>
+				<p>✔</p>
+			</td>
+			<td>
+				<p>✔</p>
 			</td>
 		</tr>
 		<tr>
-			<td><strong> Offering </strong></td>
-			<td><strong> Support </strong></td>
+			<td>
+				<p data-pm-slice="1 1 [&quot;bulletList&quot;,null,&quot;listItem&quot;,null,&quot;bulletList&quot;,null,&quot;listItem&quot;,null]">SQL Server</p>
+			</td>
+			<td>
+				<p data-pm-slice="1 1 [&quot;bulletList&quot;,null,&quot;listItem&quot;,null,&quot;bulletList&quot;,null,&quot;listItem&quot;,null]">v6.2.2</p>
+			</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>
+				<p>✔</p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3">
+				<p><a href="https://docs.katalon.com/katalon-studio/docs/cucumber-features-file.html">Behavior-driven development - BDD</a></p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3">
+				<p>Keyword-driven testing - KDT</p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="3">
+				<p>Page Object Model - POM</p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+### Testing Capabilities
+
+<table width=70%>
+	<tbody>
+		<tr>
+			<td>&nbsp;</td>
+			<td>7.8.0</td>
+			<td>7.9.0</td>
+			<td>8.0.0</td>
+			<td>8.1.0</td>
 		</tr>
 		<tr>
 			<td>
-				<ul>
-					<li>Community package ( <a href="https://www.katalon.com/pricing/"> Comparison </a> )</li>
-					<li>Enterprise packages</li>
-				</ul>
+				<p>Integration Testing</p>
+			</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+		</tr>
+		<tr>
+			<td>
+				<p>Functional Testing</p>
+			</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+		</tr>
+		<tr>
+			<td>
+				<p>E-2-E Testing</p>
+			</td>
+			<td>✔&nbsp;</td>
+			<td>✔&nbsp;</td>
+			<td>✔&nbsp;</td>
+			<td>✔&nbsp;</td>
+		</tr>
+		<tr>
+			<td>
+				<p><a href="https://github.com/katalon-studio-samples/web-visual-testing-samples">Visual Testing</a></p>
+			</td>
+			<td>✔&nbsp;</td>
+			<td>✔&nbsp;</td>
+			<td>✔&nbsp;</td>
+			<td>✔&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+### Report
+
+<table width=70%>
+	<tbody>
+		<tr>
+			<td>&nbsp;</td>
+			<td>7.8.0</td>
+			<td>7.9.0</td>
+			<td>8.0.0</td>
+			<td>8.1.0</td>
+		</tr>
+		<tr>
+			<td>
+				<p>HTML, PDF, CSV</p>
+			</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+		</tr>
+		<tr>
+			<td>
+				<p>Dynamic email configuration</p>
+			</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+		</tr>
+		<tr>
+			<td>
+				<p>Release/build-based reports</p>
+			</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+		</tr>
+		<tr>
+			<td>
+				<p>Performance, Trending &amp; Insights reports</p>
+			</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+		</tr>
+	</tbody>
+</table>
+
+### Cloud Device Integration
+
+<table width=70%>
+	<tbody>
+		<tr>
+			<td>&nbsp;</td>
+			<td>7.8.0</td>
+			<td>7.9.0</td>
+			<td>8.0.0</td>
+			<td>8.1.0</td>
+		</tr>
+		<tr>
+			<td>
+				<p><a href="https://docs.katalon.com/katalon-studio/videos/introducing_kobiton_katalon_studio.html">Kobiton</a></p>
+			</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+		</tr>
+		<tr>
+			<td>
+				<p><a href="https://docs.katalon.com/katalon-studio/docs/saucelabs-plugin.html">Sauce Labs</a></p>
+			</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+		</tr>
+		<tr>
+			<td>
+				<p><a href="https://docs.katalon.com/katalon-studio/docs/browserstack-integration.html">Browserstack</a></p>
+			</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+		</tr>
+		<tr>
+			<td>
+				<p><a href="https://docs.katalon.com/katalon-studio/docs/lambdatest-integration.html">LambdaTest</a></p>
+			</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+		</tr>
+		<tr>
+			<td>
+				<p><a href="https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html#remote-server">Custom integration</a></p>
+			</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+		</tr>
+	</tbody>
+</table>
+
+### ALM Integration
+
+<table width="70%">
+	<tbody>
+		<tr>
+			<td>&nbsp;</td>
+			<td>7.8.0</td>
+			<td>7.9.0</td>
+			<td>8.0.0</td>
+			<td>8.1.0</td>
+		</tr>
+		<tr>
+			<td>
+				<p><a href="https://docs.katalon.com/katalon-studio/docs/jira-integration.html">Jira</a></p>
+			</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+		</tr>
+		<tr>
+			<td>
+				<p><a href="https://docs.katalon.com/katalon-studio/docs/qtest-integration.html">qTest</a></p>
+			</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+		</tr>
+		<tr>
+			<td>
+				<p><a href="https://docs.katalon.com/katalon-studio/docs/testrail-integration.html">TestRail</a></p>
+			</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+		</tr>
+		<tr>
+			<td>
+				<p><a href="https://docs.katalon.com/katalon-studio/docs/rally-integration.html">Rally</a></p>
+			</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+		</tr>
+		<tr>
+			<td>
+				<p><a href="https://docs.katalon.com/katalon-studio/docs/testlink-integration.html">TestLink</a></p>
+			</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+		</tr>
+		<tr>
+			<td>
+				<p><a href="https://docs.katalon.com/katalon-store/docs/publisher/example-plugin-testrail.html">Custom ALM integration</a></p>
+			</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+		</tr>
+	</tbody>
+</table>
+
+### CI/CD Integration
+
+<table width=70%>
+	<tbody>
+		<tr>
+			<td>
 			</td>
 			<td>
-				<ul>
-					<li><a href="https://forum.katalon.com/"> Katalon forum </a></li>
-					<li><a href="https://www.katalon.com/pricing/"> Exclusive Support Service </a></li>
-				</ul>
+				<p>Version</p>
+			</td>
+			<td>
+				<p>7.8.0</p>
+			</td>
+			<td>
+				<p>7.9.0</p>
+			</td>
+			<td>
+				<p>8.0.0</p>
+			</td>
+			<td>
+				<p>8.1.0</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p><a href="https://plugins.jenkins.io/pam-auth/#documentation">Jenkins</a></p>
+			</td>
+			<td>&nbsp;</td>
+			<td>
+				<p>✔</p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p><a href="https://docs.katalon.com/katalon-studio/docs/azure-devops-integration.html">Azure DevOps Pipeline</a></p>
+			</td>
+			<td>&nbsp;</td>
+			<td>
+				<p> </p>
+			</td>
+			<td>
+				<p> </p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p><a href="https://docs.katalon.com/katalon-studio/docs/integration-circleci.html#setup-and-configuration">CircleCI</a></p>
+			</td>
+			<td>&nbsp;</td>
+			<td>
+				<p>✔</p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p><a href="https://marketplace.atlassian.com/apps/1220235/katalon-testops-for-bamboo/version-history">Bamboo</a></p>
+			</td>
+			<td>
+				<p>6.0.0</p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p><a href="https://plugins.jetbrains.com/plugin/12653-katalon-studio-runner/versions">TeamCity</a></p>
+			</td>
+			<td>&nbsp;</td>
+			<td>
+				<p>✔</p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p><a href="https://docs.katalon.com/katalon-studio/docs/katalon-studio-github-action.html">Katalon Studio Github Action</a></p>
+			</td>
+			<td>&nbsp;</td>
+			<td>
+				<p>✔</p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+### Integration with other Katalon products and extensions
+
+<table width=70%>
+	<tbody>
+		<tr>
+			<td>
+				<p><strong>Product</strong></p>
+			</td>
+			<td>
+				<p>7.8.0</p>
+			</td>
+			<td>
+				<p>7.9.0</p>
+			</td>
+			<td>
+				<p>8.0.0</p>
+			</td>
+			<td>
+				<p>8.1.0</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>Katalon Recorder</p>
+			</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+		</tr>
+		<tr>
+			<td>
+				<p>Katalon TestOps</p>
+			</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+		</tr>
+	</tbody>
+</table>
+
+### Migration from other tools
+
+<table width=70%>
+	<tbody>
+		<tr>
+			<td>
+				<p><strong>Tools</strong></p>
+			</td>
+			<td>
+				<p>7.8.0</p>
+			</td>
+			<td>
+				<p>7.9.0</p>
+			</td>
+			<td>
+				<p>8.0.0</p>
+			</td>
+			<td>
+				<p>8.1.0</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p><a href="https://docs.katalon.com/katalon-studio/docs/selenium-testng-junit-migration.html">Selenium</a></p>
+			</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+		</tr>
+		<tr>
+			<td>
+				<p><a href="https://docs.katalon.com/katalon-studio/docs/import-selenium-ide.html">Selenium IDE</a></p>
+			</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+		</tr>
+		<tr>
+			<td>
+				<p><a href="https://docs.katalon.com/katalon-studio/docs/import-postman.html">Postman</a></p>
+			</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+		</tr>
+		<tr>
+			<td>
+				<p><a href="https://docs.katalon.com/katalon-studio/docs/import-soapui.html">SoapUI</a></p>
+			</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+			<td>✔</td>
+		</tr>
+	</tbody>
+</table>
+
+### Offering
+
+<table width=70%>
+	<tbody>
+		<tr>
+			<td>&nbsp;</td>
+			<td>7.8.0</td>
+			<td>7.9.0</td>
+			<td>8.0.0</td>
+			<td>8.1.0</td>
+		</tr>
+		<tr>
+			<td>
+				<p>Community package (<a href="https://www.katalon.com/pricing/">Comparison</a>)</p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>Enterprise packages</p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+### Support
+
+<table width=70%>
+	<tbody>
+		<tr>
+			<td>&nbsp;</td>
+			<td>7.8.0</td>
+			<td>7.9.0</td>
+			<td>8.0.0</td>
+			<td>8.1.0</td>
+		</tr>
+		<tr>
+			<td>
+				<p><a href="https://forum.katalon.com/">Katalon forum</a></p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p><a href="https://www.katalon.com/pricing/">Exclusive Support Service</a></p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+			<td>
+				<p>✔</p>
+			</td>
+			</td>
+			<td>
+				<p>✔</p>
 			</td>
 		</tr>
 	</tbody>
