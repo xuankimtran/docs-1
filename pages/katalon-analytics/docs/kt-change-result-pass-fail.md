@@ -5,16 +5,17 @@ permalink: katalon-analytics/docs/kt-change-result-pass-fail.html
 description: 
 ---
 
-You can edit the status of a test result in Katalon TestOps and provide a reason for such change to notify your team of the change.
-You can also see the whole history of status changes.
+Automated tests produce test results automatically. This means that test results are fixed unless you manually update the status of a test result to reflect actual expectations.
 
-This feature allows you to:
+In Katalon TestOps, you can edit the status of a test result and provide a reason for such change to notify your team of the change.
 
-* manually update the status of a test result to reflect actual expectations.
+This feature also allows you to:
 
 * keep a clear record of why a test result has been changed, who changed it, and the reason for such change.
 
 * find out whether the status of a test result has been manually modified and what was its initial status.
+
+* see the whole history of status changes.
 
 ## Change the status of a Test Result
 
@@ -38,7 +39,7 @@ Follow these steps:
 
 4. Click on the *Extension* icon of the Test Result you want to change.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-override-test-result/extention-icon-highlight.png" width=100% alt="test result extension icon">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-override-test-result/extension-icon-change-test-result-status.png" width=100% alt="test result extension icon">
 
 5. Click **Mark as Passed** (for a **failed**/**incomplete**/**error** Test Result) or **Mark as Failed** (for a **passed** Test Result).
 
