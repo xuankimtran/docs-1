@@ -31,8 +31,8 @@ description: Release notes 8.x
     * Removed unused messages in Test Case and Test Data.
 * [Web Testing] Improved Synchronization Handling for Web Testing:
     * [Katalon Studio and Katalon Runtime Engine] Improved the `Click` and `Click Offset` Keywords to automatically delay and click again on an element behind a loading overlay. See [Click](https://docs.katalon.com/katalon-studio/docs/webui-click.html) and [Click Offset](https://docs.katalon.com/katalon-studio/docs/webui-click-offset.html).
-    * [Smart Wait] Supported detecting and waiting for fetch-based requests to finish before continuing with the next action.
-    * [Smart Wait] Supported Smart Wait on Edge Chromium. See [[WebUI] Smart Wait Function](https://docs.katalon.com/katalon-studio/docs/webui-smartwait.html).
+    * [Smart Wait] Added detection and waiting capabilities for fetch-based requests to finish before continuing with the next action.
+    * [Smart Wait] Added Edge Chromium compatibility for Smart Wait. See [[WebUI] Smart Wait Function](https://docs.katalon.com/katalon-studio/docs/webui-smartwait.html).
 * [Katalon Studio Enterprise] Introduced Idle Timeout Bypass Limit to automatically log out licensed users due to timeout. See [Configure Idle Timeout](https://docs.katalon.com/katalon-studio/docs/license-idle-timeout.html).
 * [WebUI] Introduced an option to use the Spy, Record, and Smart Wait function with a packed extension, now available on the Chrome Web Store. This extension is compatible with Katalon Studio version 8.0.0 onwards. See [Katalon Compact Utility](https://docs.katalon.com/katalon-studio/docs/katalon-compact-utility.html).
 * [BDD] Added BDD testing onboarding flow.
