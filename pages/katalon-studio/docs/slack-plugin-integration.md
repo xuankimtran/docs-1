@@ -20,7 +20,7 @@ This guide shows you how to create a Slack API app and configure Slack Integrati
 > Requirements:
 >
 > * An active Katalon Studio Enterprise license.
-> * Slack workspace already configured.
+> * A Slack workspace already configured.
 > * The **Slack Integration** plugin for Katalon Studio installed. You can find the plugin here: [Katalon Store](https://store.katalon.com/product/4/Slack-Integration). 
 
 ## Create a Slack API app for integration
