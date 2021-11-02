@@ -1293,6 +1293,8 @@ items:
             url: /katalon-analytics/docs/overview.html 
           - title: "Terminology and Formulas" 
             url: /katalon-analytics/docs/testops-terminology.html
+          - title: "Navigate through Katalon TestOps"
+            url: /katalon-analytics/docs/testops-navigation.html 
       - title: "Release Notes"
         url: /katalon-analytics/docs/testops-releases-2021.html
       - title: "Get Started"  
@@ -1301,6 +1303,8 @@ items:
             url: /katalon-analytics/docs/testops-roles-privileges.html 
           - title: "Set up an account"
             url: /katalon-analytics/docs/getting-started.html
+          - title: "Join an Organization"
+            url: /katalon-analytics/docs/kt_users_joining_org.html
           - title: "Create Organization and Project"
             url: /katalon-analytics/docs/kt-create-org.html
           - title: "Set up Teams"
