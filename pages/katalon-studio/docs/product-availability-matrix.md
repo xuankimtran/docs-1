@@ -64,7 +64,7 @@ This document gives you information on the supported technologies and integratio
 <p>Groovy</p>
 </td>
 <td>
-<p>2.4.7</p>
+<p>v2.4.x+</p>
 </td>
 </tr>
 <tr>
@@ -72,7 +72,7 @@ This document gives you information on the supported technologies and integratio
 <p>Java</p>
 </td>
 <td>
-<p>v8.0 - v14</p>
+<p>From Java 8 (Java 1.8) onwards</p>
 </td>
 </tr>
 </tbody>
@@ -107,10 +107,10 @@ This document gives you information on the supported technologies and integratio
 				<p data-pm-slice="1 1 [&quot;bulletList&quot;,null,&quot;listItem&quot;,null,&quot;bulletList&quot;,null,&quot;listItem&quot;,null]">v42.2.17</p>
 			</td>
 			<td>
-				<p>From version 7.0.0+</p>
+				<p>v7.0.0+</p>
 			</td>
 			<td>
-				<p>From version 7.0.0+</p>
+				<p>v7.0.0+</p>
 			</td>
 		</tr>
 		<tr>
@@ -122,7 +122,7 @@ This document gives you information on the supported technologies and integratio
 			</td>
 			<td>Not supported</td>
 			<td>
-				<p>From version 7.0.0+</p>
+				<p>v7.0.0+</p>
 			</td>
 		</tr>
 		<tr>
@@ -134,7 +134,7 @@ This document gives you information on the supported technologies and integratio
 			</td>
 			<td>Not supported</td>
 			<td>
-				<p>From version 7.0.0+</p>
+				<p>v7.0.0+</p>
 			</td>
 		</tr>
 		<tr>
@@ -142,10 +142,10 @@ This document gives you information on the supported technologies and integratio
 				<p><a href="https://docs.katalon.com/katalon-studio/docs/cucumber-features-file.html">Behavior-driven development - BDD</a></p>
 			</td>
 			<td>
-				<p>From version 7.0.0+</p>
+				<p>v7.0.0+</p>
 			</td>
 			<td>
-				<p>From version 7.0.0+</p>
+				<p>v7.0.0+</p>
 			</td>
 		</tr>
 		<tr>
@@ -153,10 +153,10 @@ This document gives you information on the supported technologies and integratio
 				<p>Keyword-driven testing - KDT</p>
 			</td>
 			<td>
-				<p>From version 7.0.0+</p>
+				<p>v7.0.0+</p>
 			</td>
 			<td>
-				<p>From version 7.0.0+</p>
+				<p>v7.0.0+</p>
 			</td>
 		</tr>
 		<tr>
@@ -164,10 +164,10 @@ This document gives you information on the supported technologies and integratio
 				<p>Page Object Model - POM</p>
 			</td>
 			<td>
-				<p>From version 7.0.0+</p>
+				<p>v7.0.0+</p>
 			</td>
 			<td>
-				<p>From version 7.0.0+</p>
+				<p>v7.0.0+</p>
 			</td>
 		</tr>
 	</tbody>
@@ -185,25 +185,25 @@ This document gives you information on the supported technologies and integratio
 			<td>
 				<p>Integration Testing</p>
 			</td>
-			<td>From version 7.8.0+</td>
+			<td>v7.8.0+</td>
 		</tr>
 		<tr>
 			<td>
 				<p>Functional Testing</p>
 			</td>
-			<td>From version 7.8.0+</td>
+			<td>v7.8.0+</td>
 		</tr>
 		<tr>
 			<td>
 				<p>E-2-E Testing</p>
 			</td>
-			<td>From version 7.8.0+</td>
+			<td>v7.8.0+</td>
 		</tr>
 		<tr>
 			<td>
 				<p><a href="https://github.com/katalon-studio-samples/web-visual-testing-samples">Visual Testing</a></p>
 			</td>
-			<td>From version 7.8.0+</td>
+			<td>v7.8.0+</td>
 		</tr>
 	</tbody>
 </table>
@@ -220,25 +220,25 @@ This document gives you information on the supported technologies and integratio
 			<td>
 				<p><a href="https://docs.katalon.com/katalon-studio/docs/test-suite-report.html#export-reports-to-other-formats">HTML, PDF, CSV</a></p>
 			</td>
-			<td>From version 7.0.0+</td>
+			<td>v7.0.0+</td>
 		</tr>
 		<tr>
 			<td>
 				<p><a href="https://docs.katalon.com/katalon-studio/docs/execution-settings.html#emails-settings">Dynamic email configuration</a></p>
 			</td>
-			<td>From version 7.5.0+</td>
+			<td>v7.5.0+</td>
 		</tr>
 		<tr>
 			<td>
 				<p><a href="https://docs.katalon.com/katalon-studio/docs/record-screen-based-videos.html#configure-screen-based-recorder">Release/build-based reports</a></p>
 			</td>
-			<td>From version 7.8.0+</td>
+			<td>v7.8.0+</td>
 		</tr>
 		<tr>
 			<td>
 				<p><a href="https://docs.katalon.com/katalon-studio/docs/view-execution-list.html#prerequisites">Performance, Trending &amp; Insights reports</a>&nbsp;(*)</p>
 			</td>
-			<td>From version 7.6.2+</td>
+			<td>v7.6.2+</td>
 		</tr>
 	</tbody>
 </table>
@@ -256,31 +256,31 @@ This document gives you information on the supported technologies and integratio
 			<td>
 				<p><a href="https://docs.katalon.com/katalon-studio/videos/introducing_kobiton_katalon_studio.html">Kobiton</a></p>
 			</td>
-			<td>From version 7.8.0+</td>
+			<td>v7.8.0+</td>
 		</tr>
 		<tr>
 			<td>
 				<p><a href="https://docs.katalon.com/katalon-studio/docs/saucelabs-plugin.html">Sauce Labs</a></p>
 			</td>
-			<td>From version 7.8.0+</td>
+			<td>v7.0.0+</td>
 		</tr>
 		<tr>
 			<td>
 				<p><a href="https://docs.katalon.com/katalon-studio/docs/browserstack-integration.html">Browserstack</a></p>
 			</td>
-			<td>From version 7.8.0+</td>
+			<td>v7.0.0+</td>
 		</tr>
 		<tr>
 			<td>
 				<p><a href="https://docs.katalon.com/katalon-studio/docs/lambdatest-integration.html">LambdaTest</a></p>
 			</td>
-			<td>From version 7.8.0+</td>
+			<td>v7.8.0+</td>
 		</tr>
 		<tr>
 			<td>
 				<p><a href="https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html#remote-server">Custom integration</a></p>
 			</td>
-			<td>From version 7.8.0+</td>
+			<td>v7.0.0+</td>
 		</tr>
 	</tbody>
 </table>
@@ -299,43 +299,43 @@ This document gives you information on the supported technologies and integratio
 			<td>
 				<p><a href="https://docs.katalon.com/katalon-studio/docs/jira-integration.html">Jira</a></p>
 			</td>
-			<td>From version 7.0.0+</td>
+			<td>v7.0.0+</td>
 		</tr>
 		<tr>
 			<td>
 				<p><a href="https://docs.katalon.com/katalon-studio/docs/git-integration.html">Git</a></p>
 			</td>
-			<td>From version 7.0.0+</td>
+			<td>v7.0.0+</td>
 		</tr>
 		<tr>
 			<td>
 				<p><a href="https://docs.katalon.com/katalon-studio/docs/qtest-integration.html">qTest</a></p>
 			</td>
-			<td>From version 7.0.0+</td>
+			<td>v7.0.0+</td>
 		</tr>
 		<tr>
 			<td>
 				<p><a href="https://docs.katalon.com/katalon-studio/docs/testrail-integration.html">TestRail</a></p>
 			</td>
-			<td>From version 7.6.5+</td>
+			<td>v7.6.5+</td>
 		</tr>
 		<tr>
 			<td>
 				<p><a href="https://docs.katalon.com/katalon-studio/docs/rally-integration.html">Rally</a></p>
 			</td>
-			<td>From version 7.0.0+</td>
+			<td>v7.0.0+</td>
 		</tr>
 		<tr>
 			<td>
 				<p><a href="https://docs.katalon.com/katalon-studio/docs/testlink-integration.html">TestLink</a></p>
 			</td>
-			<td>From version 7.0.0+</td>
+			<td>v7.0.0+</td>
 		</tr>
 		<tr>
 			<td>
 				<p><a href="https://docs.katalon.com/katalon-store/docs/publisher/example-plugin-testrail.html">Custom ALM integration</a></p>
 			</td>
-			<td>From version 7.0.0+</td>
+			<td>v7.0.0+</td>
 		</tr>
 	</tbody>
 </table>
@@ -350,7 +350,7 @@ This document gives you information on the supported technologies and integratio
 				<p><strong>Versions</strong></p>
 			</td>
 			<td>
-				<p><strong>Supported Katalon Studio Versions</strong></p>
+				<p><strong>Supported Katalon Studio versions</strong></p>
 			</td>
 		</tr>
 		<tr>
@@ -361,7 +361,7 @@ This document gives you information on the supported technologies and integratio
 				<p></p>
 			</td>
 			<td>
-				<p>From version 7.8.0+</p>
+				<p>v7.8.0+</p>
 			</td>
 		</tr>
 		<tr>
@@ -369,7 +369,7 @@ This document gives you information on the supported technologies and integratio
 				<p><a href="https://docs.katalon.com/katalon-studio/docs/azure-devops-integration.html">Azure DevOps Pipeline</a></p>
 			</td>
 			<td></td>
-			<td>From version 8.0.0+</td>
+			<td>v8.0.0+</td>
 		</tr>
 		<tr>
 			<td>
@@ -379,7 +379,7 @@ This document gives you information on the supported technologies and integratio
 				<p></p>
 			</td>
 			<td>
-				<p>From version 7.8.0+</p>
+				<p>v7.8.0+</p>
 			</td>
 		</tr>
 		<tr>
@@ -387,10 +387,10 @@ This document gives you information on the supported technologies and integratio
 				<p><a href="https://marketplace.atlassian.com/apps/1220235/katalon-testops-for-bamboo/version-history">Bamboo</a></p>
 			</td>
 			<td>
-				<p>Bamboo Server 6.0.0+</p>
+				<p>Bamboo Server v6.0.0+</p>
 			</td>
 			<td>
-				<p>From version 7.8.0+</p>
+				<p>v7.8.0+</p>
 			</td>
 		</tr>
 		<tr>
@@ -401,7 +401,7 @@ This document gives you information on the supported technologies and integratio
 				<p></p>
 			</td>
 			<td>
-				<p>From version 7.8.0+</p>
+				<p>v7.8.0+</p>
 			</td>
 		</tr>
 		<tr>
@@ -412,7 +412,7 @@ This document gives you information on the supported technologies and integratio
 				<p></p>
 			</td>
 			<td>
-				<p>From version 7.8.0+</p>
+				<p>v7.8.0+</p>
 			</td>
 		</tr>
 	</tbody>
@@ -427,20 +427,20 @@ This document gives you information on the supported technologies and integratio
 				<p><strong>Products</strong></p>
 			</td>
 			<td>
-				<p><strong>Supported Katalon Studio Versions</strong></p>
+				<p><strong>Supported Katalon Studio versions</strong></p>
 			</td>
 		</tr>
 		<tr>
 			<td>
 				<p><a href="https://docs.katalon.com/katalon-recorder/docs/export-test-project-to-ks.html#export-to-katalon-studio">Katalon Recorder</a></p>
 			</td>
-			<td>From version 7.8.0+</td>
+			<td>v7.8.0+</td>
 		</tr>
 		<tr>
 			<td>
 				<p><a href="https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html#upload-test-results-automatically">Katalon TestOps</a></p>
 			</td>
-			<td>From version 7.0.0+</td>
+			<td>v7.0.0+</td>
 		</tr>
 	</tbody>
 </table>
@@ -454,32 +454,32 @@ This document gives you information on the supported technologies and integratio
 				<p><strong>Tools</strong></p>
 			</td>
 			<td>
-				<p><strong>Supported Katalon Studio Versions</strong></p>
+				<p><strong>Supported Katalon Studio versions</strong></p>
 			</td>
 		</tr>
 		<tr>
 			<td>
 				<p><a href="https://docs.katalon.com/katalon-studio/docs/selenium-testng-junit-migration.html">Selenium</a></p>
 			</td>
-			<td>From version 7.4.0+</td>
+			<td>v7.4.0+</td>
 		</tr>
 		<tr>
 			<td>
 				<p><a href="https://docs.katalon.com/katalon-studio/docs/import-selenium-ide.html">Selenium IDE</a></p>
 			</td>
-			<td>From version 7.5.10+</td>
+			<td>v7.5.10+</td>
 		</tr>
 		<tr>
 			<td>
 				<p><a href="https://docs.katalon.com/katalon-studio/docs/import-postman.html">Postman</a></p>
 			</td>
-			<td>From version 7.8.0+</td>
+			<td>v7.8.0+</td>
 		</tr>
 		<tr>
 			<td>
 				<p><a href="https://docs.katalon.com/katalon-studio/docs/import-soapui.html">SoapUI</a></p>
 			</td>
-			<td>From version 7.8.0+</td>
+			<td>v7.8.0+</td>
 		</tr>
 	</tbody>
 </table>
@@ -490,14 +490,14 @@ This document gives you information on the supported technologies and integratio
 	<tbody>
 		<tr>
 			<td>&nbsp;</td>
-			<td><strong>Supported Katalon Studio Versions</strong></td>
+			<td><strong>Supported Katalon Studio versions</strong></td>
 		</tr>
 		<tr>
 			<td>
 				<p>Community package (<a href="https://www.katalon.com/pricing/">Comparison</a>)</p>
 			</td>
 			<td>
-				<p>From version 7.8.0+</p>
+				<p>v7.0.0+</p>
 			</td>
 		</tr>
 		<tr>
@@ -505,7 +505,7 @@ This document gives you information on the supported technologies and integratio
 				<p>Enterprise packages</p>
 			</td>
 			<td>
-				<p>From version 7.8.0+</p>
+				<p>v7.0.0+</p>
 			</td>
 		</tr>
 	</tbody>
@@ -518,14 +518,14 @@ This document gives you information on the supported technologies and integratio
 	<tbody>
 		<tr>
 			<td><strong></strong></td>
-			<td><strong>Supported Katalon Studio Versions</strong></td>
+			<td><strong>Supported Katalon Studio versions</strong></td>
 		</tr>
 		<tr>
 			<td>
 				<p><a href="https://forum.katalon.com/">Katalon forum</a></p>
 			</td>
 			<td>
-				<p>From version 7.8.0+</p>
+				<p>v7.0.0+</p>
 			</td>
 		</tr>
 		<tr>
@@ -533,7 +533,7 @@ This document gives you information on the supported technologies and integratio
 				<p><a href="https://www.katalon.com/pricing/">Exclusive Support Service</a></p>
 			</td>
 			<td>
-				<p>From version 7.8.0+</p>
+				<p>v7.0.0+</p>
 			</td>
 		</tr>
 	</tbody>
