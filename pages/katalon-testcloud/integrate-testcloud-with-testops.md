@@ -7,7 +7,7 @@ description: Instructions on how to use TestCloud in TestOps
 
 Katalon TestCloud (Beta) is now available for seamless integration with Katalon TestOps.
 
-Current test environments require time and effort to set up and maintain them while providing limited browser/operating system (OS) options. By contrast, with just a few clicks, you can easily set up a TestCloud Test Environment in Katalon TestOps for your test execution across browsers and OS.
+Current test environments require time and effort to set up and maintain while providing limited browser/operating system (OS) options. By contrast, with just a few clicks, you can easily set up a TestCloud Test Environment in Katalon TestOps for your test execution across browsers and OS.
 
 The TestCloud Test Environment also allows you to:
 
@@ -37,14 +37,14 @@ Follow these steps:
 
 3. Select **TestCloud Test Environment** from the dropdown list in the **Test Environment Type** section.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/testops-integration/public-domains/beta-testcoud-test-environment-in-kt.png" width=100% alt="testcloud integrated in schedule test run dialog">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/testops-integration/public-domains/test-environment-type-testcloud-beta-icon.png" width=100% alt="testcloud integrated in schedule test run dialog">
 
-    The new **TestCloud** section appears.
+    The **TestCloud** section appears.
 4. Select the OS and browsers you want to test in the **TestCloud** section, then click **Schedule**.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/testops-integration/public-domains/beta-testcloud-browser-selections.png" width=100% alt="testcloud section in schedule test run dialog">
 
-    You will be directed to the **Test Run Types** page, where you can see the newly-added TestCloud Test Environment.
+    You will be directed to the **Test Run Types** page, where you can see the TestCloud Test Environment.
 
 5. Click on the *Play* icon to run tests.
 
