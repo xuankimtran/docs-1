@@ -31,13 +31,13 @@ description: Release notes 8.x
     * Removed unused messages in Test Case and Test Data.
 * [Web Testing] Improved Synchronization Handling for Web Testing:
     * [Katalon Studio and Katalon Runtime Engine] Improved the `Click` and `Click Offset` Keywords to automatically delay and click again on an element behind a loading overlay. See [Click](https://docs.katalon.com/katalon-studio/docs/webui-click.html) and [Click Offset](https://docs.katalon.com/katalon-studio/docs/webui-click-offset.html).
-    * [Smart Wait] Supported detecting and waiting for fetch requests to finish before continuing with the next action.
+    * [Smart Wait] Supported detecting and waiting for fetch-based requests to finish before continuing with the next action.
     * [Smart Wait] Supported Smart Wait on Edge Chromium. See [[WebUI] Smart Wait Function](https://docs.katalon.com/katalon-studio/docs/webui-smartwait.html).
 * [Katalon Studio Enterprise] Introduced Idle Timeout Bypass Limit to automatically log out licensed users due to timeout. See [Configure Idle Timeout](https://docs.katalon.com/katalon-studio/docs/license-idle-timeout.html).
 * [WebUI] Introduced an option to use the Spy, Record, and Smart Wait function with a packed extension, now available on the Chrome Web Store. This extension is compatible with Katalon Studio version 8.0.0 onwards. See [Katalon Compact Utility](https://docs.katalon.com/katalon-studio/docs/katalon-compact-utility.html).
-* [BDD] Supported onboarding with BDD testing.
+* [BDD] Added BDD testing onboarding flow.
 * [Project Information] Introduced an option in project settings to include or exclude timestamps in the .properties files.
-* [Jira Integration] Supported only adding the _Bug_ icon for Final test results.
+* [Jira Integration] Only displayed the _Bug_ icon in Final test results.
 * [Console Log] Enhanced Plugin loading information in the console log of Katalon Studio Enterprise and Katalon Runtime Engine.
 * [Katalon Runtime Engine] Removed the "Offline activation failed" message in the execution log.
 * [DDT] Specified the input data of iterations in the Data-driven Testing report.
