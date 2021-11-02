@@ -26,7 +26,7 @@ Image-based object recognition is enabled by default for web test execution in *
 <details>
 <summary><strong>Before 7.6</strong></summary>
 
-By default, image-based object recognition is disabled in Project Settings. Please go to <strong>Project > Settings > Execution</strong> and check <strong>Enable Image Recognition</strong> to turn on this fallback strategy.
+By default, image-based object recognition is disabled in Project Settings. Go to <strong>Project > Settings > Execution</strong> and check <strong>Enable Image Recognition</strong> to turn on this fallback strategy.
 <br>
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/enable.png" width=70%>
 </details>
@@ -47,7 +47,7 @@ Here we use the **Spy Web Utility** to capture screenshots. Follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/KS-Object-Spy-dialog.png" alt="Object Spy dialog" width=70%>
 
-3. To capture an object, hover your mouse cursor over the web element and press the combination of **\<Alt + \`\>** keys.
+3. To capture an object, hover your mouse cursor over the web element and press the combination of **\<Alt + \`\>** keys. You can also right-click on the web element and select **Capture**.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/KS-Object-Spy-capture-object.png" alt="Capture object" width=70%>
 
@@ -110,7 +110,7 @@ Since reliable image-based testing depends on image comparison, you can reduce t
 
 * **Capture tool**: We recommend using built-in capture tools in Web Recorder and Spy utility since they automatically resize the captured images.
 
-**See also**: 
+**See also**:
 
 * [Sample Project](https://github.com/katalon-studio-samples/image-recognition-web)
 * [Self-Healing Tests](https://docs.katalon.com/katalon-studio/docs/self-healing.html)
