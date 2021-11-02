@@ -15,7 +15,7 @@ description:
 
 * Introduced further capabilities to current Mark as Passed/Failed feature. Read more: [Override Test Results status](/katalon-analytics/docs/kt-change-result-pass-fail.html)
 
-* Test Run report revamp
+* Improved Test Run report with new stacked bar chart
 
 * Introduced TestCloud as a test environment to schedule a Test Run (for beta users only)
 
