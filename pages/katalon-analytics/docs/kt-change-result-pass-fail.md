@@ -1,34 +1,86 @@
 ---
-title: "Change the Test Result from failing to passing" 
+title: "Override Test Results status" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/kt-change-result-pass-fail.html
 description: 
 ---
 
-On Katalon TestOps, if we are team owners or admins, we can change a failed Test Result of a Test Run to a passed Test Result. 
+Automated tests produce test results automatically. This means that test results are fixed unless you manually update the status of a test result to reflect actual expectations.
 
-We choose **Reports & Analytics** > **Test Runs**. Then we click to select an ID of the Test Run that we want to execute.
+In Katalon TestOps, you can edit the status of a test result and provide a reason for the change to notify your team of the change.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-change-result-pass-fail/kt_choose_test_run.png)
+This feature also allows you to:
 
-The Summary of Test Run displays, click and choose **Mark as Passed** at the Test Result, which we want to change from failed status to passed status.
+* keep a clear record of why a test result has been changed, who changed it, and the reason for the change.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-change-result-pass-fail/kt_id_mark_pass.png)
+* find out whether the status of a test result has been manually modified and what was its initial status.
 
-On the board **Change status** display, click **Yes** to accept.
+* see the whole history of status changes.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-change-result-pass-fail/kt_change_status.png)
+## Change the status of a Test Result
 
-The board **Test Results** displays, and we can see the test result with passed status.
+> Notice:
+>
+> Changing the status of a Test Result affects the status of a Test Run and its Test Suite. You should override Test Results statuses with caution.
+>
+> See [TestOps Formulas](https://docs.katalon.com/katalon-analytics/docs/testops-terminology.html#testops-formulas) for definitions of **Status (Test Run)** and **Status (Test Suite)**.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-change-result-pass-fail/kt_test_results_change.png)
+Follow these steps:
 
-We click test result, which we have changed from failed status to passed status, and the board **Test Result:** displays. We click on the **Comments** tab.
+1. Sign in to [Katalon TestOps](https://testops.katalon.io/login) and go to your Project.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-change-result-pass-fail/kt_test_result_should_failed.png)
+2. Go to **Reports & Analytics**.
 
-And now, we can see the comments about changing the status.
+    The **Test Runs** page appears.
+    
+3. Click on a Test Run ID, then select the **Test Results** tab.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-change-result-pass-fail/kt_comment_result_pass_fail.png)
+    You can see the list of all test results and their details (Status, ID, Name, Time, Assertions, Links) here.
 
-We can change a passed Test Results to failed Test Results with similar steps.
+4. Click on the *Extension* icon of the Test Result you want to change.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-override-test-result/extension-icon-change-test-result-status.png" width=100% alt="test result extension icon">
+
+5. Click **Mark as Passed** (for a **failed**/**incomplete**/**error** Test Result) or **Mark as Failed** (for a **passed** Test Result).
+
+    > Notes:
+    >
+    > * See [TestOps Formulas](https://docs.katalon.com/katalon-analytics/docs/testops-terminology.html#testops-formulas) for definitions of **Status (Test Result)**.
+
+    A box pops up asking you to choose a reason for the status change.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-override-test-result/change-test-result-status-popup.png" width=100% alt="change status popup">
+    
+6. Select an option, then submit the new status for this Test Result.
+
+## View status change details of a Test Result
+
+You can see the detailed information and description of a status change once the status has been modified.
+
+Select the **Test Results** tab, click on a Test Result ID, then select the **Comments** tab.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-override-test-result/Description.png" width=100% alt="test result comments tab">
+
+You can then check the following information:
+
+* the name of the member who changed the status of a Test Result.
+* the history of that Test Result's status changes.
+* the reason for each status change.
+
+## View the summary of a Test Result's status change
+
+No matter how many times a test result has been modified, you can always view the full history of changes.
+
+Follow these steps:
+
+1. Select the **Test Results** tab.
+
+2. Mouse over the *Information* icon next to the Test Result status, then click **View changes log**.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-override-test-result/View%20key%20information.png"  width=100% alt="view changes log">
+
+Now you can view the following information:
+
+* the original status of a Test Result.
+* the latest status of that Test Result.
+* further detailed changes of that Test Result.
