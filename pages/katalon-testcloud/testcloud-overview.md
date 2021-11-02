@@ -9,7 +9,7 @@ Katalon TestCloud is a **cloud-based test execution environment** where you can 
 
 TestCloud saves time and reduces the cost of creating physical infrastructure to simulate the same platforms for test automation.
 
-Testcloud addresses the following problems:
+TestCloud addresses the following problems:
 
 * difficulty and inability to test across browsers and OS effectively.
 * scalability issues due to expensive infrastructure and slow process in setting up physical labs.
