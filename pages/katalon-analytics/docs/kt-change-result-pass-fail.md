@@ -7,11 +7,11 @@ description:
 
 Automated tests produce test results automatically. This means that test results are fixed unless you manually update the status of a test result to reflect actual expectations.
 
-In Katalon TestOps, you can edit the status of a test result and provide a reason for such change to notify your team of the change.
+In Katalon TestOps, you can edit the status of a test result and provide a reason for the change to notify your team of the change.
 
 This feature also allows you to:
 
-* keep a clear record of why a test result has been changed, who changed it, and the reason for such change.
+* keep a clear record of why a test result has been changed, who changed it, and the reason for the change.
 
 * find out whether the status of a test result has been manually modified and what was its initial status.
 
