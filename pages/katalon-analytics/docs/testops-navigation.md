@@ -34,7 +34,7 @@ On the top right corner, if you click on the *Settings* icon, you can see two di
     * **Subscription Management**: where you can check your subscriptions.
     * **Organization Management**: where you can check the Organization profile and update its information.
 
-* **TestOps Settings** is a configuration tool specifically for Katalon TestOps product. In the **TestOps Setting** section, you can navigate to:
+* **TestOps Settings** is a configuration tool specifically for the Katalon TestOps product. In the **TestOps Setting** section, you can navigate to:
     * **Team Management**: where you can manage all your TestOps teams.
     * **Project Management**: where you can manage all your TestOps projects.
 
