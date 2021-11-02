@@ -79,6 +79,7 @@ This document gives you information on the supported technologies and integratio
 </table>
 
 ### Testing Methodologies
+
 <table width="100%">
 	<tbody>
 		<tr>
@@ -217,27 +218,27 @@ This document gives you information on the supported technologies and integratio
 		</tr>
 		<tr>
 			<td>
-				<p>HTML, PDF, CSV</p>
+				<p><a href="https://docs.katalon.com/katalon-studio/docs/test-suite-report.html#export-reports-to-other-formats">HTML, PDF, CSV</a></p>
 			</td>
 			<td>From version 7.0.0+</td>
 		</tr>
 		<tr>
 			<td>
-				<p>Dynamic email configuration</p>
+				<p><a href="https://docs.katalon.com/katalon-studio/docs/execution-settings.html#emails-settings">Dynamic email configuration</a></p>
 			</td>
 			<td>From version 7.5.0+</td>
 		</tr>
 		<tr>
 			<td>
-				<p>Release/build-based reports</p>
+				<p><a href="https://docs.katalon.com/katalon-studio/docs/record-screen-based-videos.html#configure-screen-based-recorder">Release/build-based reports</a></p>
 			</td>
 			<td>From version 7.8.0+</td>
 		</tr>
 		<tr>
 			<td>
-				<p>Performance, Trending &amp; Insights reports(*)</p>
+				<p><a href="https://docs.katalon.com/katalon-studio/docs/view-execution-list.html#prerequisites">Performance, Trending &amp; Insights reports</a>&nbsp;(*)</p>
 			</td>
-			<td>From version 7.8.0+</td>
+			<td>From version 7.6.2+</td>
 		</tr>
 	</tbody>
 </table>
