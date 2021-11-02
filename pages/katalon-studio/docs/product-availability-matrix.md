@@ -254,9 +254,9 @@ This document gives you information on the supported technologies and integratio
 		</tr>
 		<tr>
 			<td>
-				<p><a href="https://docs.katalon.com/katalon-studio/videos/introducing_kobiton_katalon_studio.html">Kobiton</a></p>
+				<p><a href="https://docs.katalon.com/katalon-studio/docs/integrate_with_kobiton.html#enable-kobiton-integration">Kobiton</a></p>
 			</td>
-			<td>v7.8.0+</td>
+			<td>v7.0.1+</td>
 		</tr>
 		<tr>
 			<td>
