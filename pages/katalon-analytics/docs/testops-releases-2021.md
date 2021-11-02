@@ -17,7 +17,7 @@ description:
 
 * Improved Test Run report with new stacked bar chart
 
-* Introduced TestCloud as a test environment to schedule a Test Run (for beta users only)
+* Introduced TestCloud as a test environment to schedule a Test Run (for beta users only). Read more: [Integrate TestCloud with TestOps](/katalon-testcloud/docs/integrate-testcloud-with-testops.html)
 
 ### Enhancements
 
