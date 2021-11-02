@@ -9,7 +9,35 @@ redirect from:
     - "/katalon-analytics/docs/advanced-0.1.x.html"
 description:
 ---
-## Latest Release - September 29th, 2021
+## Latest Release - November 2nd, 2021
+
+### New features
+
+* Introduced further capabilities to current Mark as Passed/Failed feature. Read more: [Override Test Results status](/katalon-analytics/docs/kt-change-result-pass-fail.html)
+
+* Improved Test Run report with new stacked bar chart
+
+* Introduced TestCloud as a test environment to schedule a Test Run (for beta users only). Read more: [Integrate TestCloud with TestOps](/katalon-testcloud/docs/integrate-testcloud-with-testops.html)
+
+### Enhancements
+
+* [UI] Updated Organization and Project navigation menu
+
+* [UI] Updated Settings menu
+
+* [UI] Automatically remove machine ID when user is removed - Activate License validation
+
+* [UI] View original & latest status in test result
+
+* [Reports] Added confirmation dialog before sharing reports via email
+
+### Fixes
+
+* [Jira Integration] Can not refresh Jira status if user has deleted Jira release
+
+* [Access Log] Access Log records do not have IP Address values
+
+## September 29th
 
 ### New Features
 
