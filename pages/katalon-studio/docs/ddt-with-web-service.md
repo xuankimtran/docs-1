@@ -113,7 +113,7 @@ Follow these steps to set up the test case:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-web-service/KS-Console-log-test-case-result.png" width=70% alt="Test case run result">
 
-## Apply data-driven testing with web service tests
+## Apply data-driven testing with Web Service tests
 
 We apply DDT to the Web Service test by binding a data file to a test suite.
 
