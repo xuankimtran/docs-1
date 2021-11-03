@@ -1,5 +1,5 @@
 ---
-title: "Slack Plugin Integration" 
+title: "Slack Integration Plugin" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/slack-plugin-integration.html
 redirect_from:
