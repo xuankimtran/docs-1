@@ -1,5 +1,5 @@
 ---
-title: "Data-driven testing with RESTful web service requests" 
+title: "Data-driven testing with RESTful Web Service requests" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/ddt-with-web-service.html 
 redirect_from:
@@ -20,7 +20,7 @@ This tutorial shows you how to apply DDT with RESTful Web Service requests. The 
 
 ## Create parameterized Web Service request objects
 
-### Create Web service requests
+### Create Web Service requests
 
 1. To create a Web Service request object, from the main menu, select **File > New > Web Service Request**. 
 
@@ -74,9 +74,9 @@ Follow these steps to configure the GET request:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-web-service/KS-GET-request-variable-tab.png" width=70% alt="GET request Variables tab">
 
-## Create a test case with parameterized web service requests
+## Create a test case with parameterized Web Service requests
 
-To demonstrate parameterized web service test design, we create a test case to send the POST request to create a new user. With the returned user ID from the POST request, we verify the user identity using the GET request.
+To demonstrate parameterized Web Service test design, we create a test case to send the POST request to create a new user. With the returned user ID from the POST request, we verify the user identity using the GET request.
 
 Follow these steps to set up the test case:
 
@@ -115,7 +115,7 @@ Follow these steps to set up the test case:
 
 ## Apply data-driven testing with web service tests
 
-We apply DDT to the web service test by binding a data file to a test suite.
+We apply DDT to the Web Service test by binding a data file to a test suite.
 
 Follow these steps to set up the test data, the test suite, and data binding:
 
