@@ -12,7 +12,7 @@ This plugin allows you to integrate Katalon Studio with Rally. To install this p
 
 Go to **Project Setting** > **Plugins** > Choose **Rally** > Input **Rally URL** and **API Key**.
 
-*Note: Refer to [this document](https://docs.ca.com/en-us/ca-agile-central/saas/external-api-keys) to generate API Key in Rally.*
+*Note: Refer to [this document](https://knowledge.broadcom.com/external/article/10814/rally-how-to-create-an-api-key.html) to generate API Key in Rally.*
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/rally-integration/1-connect-rally.png)
 
