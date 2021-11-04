@@ -49,3 +49,25 @@ The found web element or `null` if cannot find any.
 
 ## Example
 
+You want to find the Facebook icon on the [https://katalon-demo-cura.herokuapp.com/](https://katalon-demo-cura.herokuapp.com/) demo website using a test object.
+
+``` groovy
+
+import com.kms.katalon.core.testobject.ConditionType as ConditionType
+import com.kms.katalon.core.util.KeywordUtil
+import org.openqa.selenium.WebElement
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.testobject.TestObject as TestObject
+​
+WebUI.openBrowser('https://katalon-demo-cura.herokuapp.com/')
+// Wait until the brower's stable
+WebUI.delay(3)
+​
+// Create a test object. This is the Facebook icon on the demo website
+TestObject testObj = findTestObject('icon_Facebook')
+WebElement anElement = WebUI.findWebElement(testObj, 5)
+KeywordUtil.logInfo(anElement.toString())
+```
+
+**See also**:
+* [[WebUI] Find Web Elements](https://docs.katalon.com/katalon-studio/docs/webui-find-web-elements.html)

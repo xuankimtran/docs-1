@@ -48,3 +48,27 @@ Find web elements by test object.
 The found web elements or `null` if cannot find any.
 
 ## Example
+
+You want to find all social networking icons on the [https://katalon-demo-cura.herokuapp.com/](https://katalon-demo-cura.herokuapp.com/) demo website using a test object.
+
+``` groovy
+
+import com.kms.katalon.core.testobject.ConditionType as ConditionType
+import com.kms.katalon.core.util.KeywordUtil
+import org.openqa.selenium.WebElement
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.testobject.TestObject as TestObject
+​
+WebUI.openBrowser('https://katalon-demo-cura.herokuapp.com/')
+// Wait for the browser to be stable
+WebUI.delay(3)
+​
+TestObject testObj = findTestObject('icon_Social_networking')
+List<WebElement> elements = WebUI.findWebElements(testObj, 10)
+for (int i = 0;  i < elements.size(); ++i) {
+	KeywordUtil.logInfo(elements.get(i).toString())
+}
+```
+
+**See also**:
+* [[WebUI] Find Web Element](https://docs.katalon.com/katalon-studio/docs/webui-find-web-element.html)
