@@ -62,11 +62,13 @@ Follow these steps to configure the GET request:
 
 1. Specify the method type. Here we specify the method type as a GET request.
 
-2. To pass the `id` variable to the GET request, add the `${id}` place holder at the end of the API endpoint.
+2. Specify the API endpoint. For the GET request, the API endpoint is `https://sample-web-service-aut.herokuapp.com/api/users/${id}`.
+
+    Here, the `id` variable is already specified using the `${id}` place holder at the end of the API endpoint.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-web-service/KS-GET-request-API-endpoint.png" width=70% alt="GET request API endpoint">
 
-3. In the **Variables** tab, input the `id` variable.
+4. In the **Variables** tab, input the `id` variable.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-web-service/KS-GET-request-variable-tab.png" width=70% alt="GET request Variables tab">
 
@@ -101,7 +103,7 @@ Follow these steps to set up the test case:
 
 2. To input variables into the test case, switch to the **Variables** tab and pass the variables defined in the Web Service object to the variables in the test case.
 
-    Here we specify the `username`, `password`, `gender`, `age`, and `avatar` variables.
+    Here, we specify the `username`, `password`, `gender`, `age`, and `avatar` variables.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-web-service/KS-Variables-tab.png" width=70% alt="Test case variables">
 
