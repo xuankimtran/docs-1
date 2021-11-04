@@ -269,6 +269,10 @@ items:
                     url: /katalon-studio/docs/horizontal_swipe_mobile_automation.html
                   - title: "Handling Scroll to Element in Mobile Automation"
                     url: /katalon-studio/docs/scroll_element_mobile_automation.html
+              - title: "Windows Desktop Apps Testing"
+                tree:
+                  - title: "Combine Katalon Studio with SAP Scripting Tracker for Windows"
+                    url: /katalon-studio/docs/katalon-sap-scripting-tracker.html
           - title: "Web Test Design"
             tree:
               - title: "Introduction to Web Testing"
