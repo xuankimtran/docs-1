@@ -64,7 +64,7 @@ Follow these steps to configure the GET request:
 
 2. Specify the API endpoint. For the GET request, the API endpoint is `https://sample-web-service-aut.herokuapp.com/api/users/${id}`.
 
-    Here, the `id` variable is already specified using the `${id}` place holder at the end of the API endpoint.
+    Here, we already specify `id` variable using the `${id}` place holder at the end of the API endpoint.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-web-service/KS-GET-request-API-endpoint.png" width=70% alt="GET request API endpoint">
 
