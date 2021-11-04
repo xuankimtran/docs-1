@@ -153,20 +153,7 @@ Once finished, click **Save** to add the object to **Object Repository** as 
 
 ## Visual Object Recognition
 
-**Requirements**
-
-* Your Katalon Studio version must be 7.2.2 or later.
-* You need an active Katalon Studio Enterprise license.
-
-Image-based object recognition in web testing allows using an image representing an object to find that object during test execution. This feature proves helpful in case the web elements retain their appearances even though the underlying HTML structures have changed.
-
-**Given** that a web element has the screenshot property.\
-**When** Katalon fails to find a web element by its selected locator.\
-**Then** Katalon tries using the associated screenshot to find the web element.
-
-Using the image-based locating algorithm, Katalon Studio identifies the recognition area on the current screen based on the **target** screenshot. However, because typically a viewport of a browser is limited, what is present on the screen is also limited. Katalon attempts to scroll the page down and apply the image-based locating algorithm repeatedly. The final web element stored in the **Matched Elements** folder is the one that resembles the screenshot the most.
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/fallback-strategy.gif" width="" height="">
+Image locators allow you to identify test objects with images and perform web image-based testing. Learn more at [Web Image-based Testing](https://docs.katalon.com/katalon-studio/docs/web-image-based-testing.html).
 
 ### Enable Image-based object recognition
 
