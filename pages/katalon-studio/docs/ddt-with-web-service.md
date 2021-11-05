@@ -61,7 +61,7 @@ Follow these steps to configure the GET request:
 
 2. Specify the API endpoint. For the GET request, the API endpoint is `https://sample-web-service-aut.herokuapp.com/api/users/`.
 
-3. To pass a variable to the GET API, place the `${variable_name}` place holder at the end of the API endpoint.
+3. To pass a variable to the GET API, add the `${variable_name}` place holder at the end of the API endpoint.
 
     Here we specify the `id` variable using the `${id}` syntax as follows:
     `https://sample-web-service-aut.herokuapp.com/api/users/${id}`. 
