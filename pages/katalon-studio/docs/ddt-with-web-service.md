@@ -107,7 +107,7 @@ Follow these steps to set up the test case:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-web-service/KS-Console-log-test-case-result.png" width=70% alt="Test case run result">
 
-## Binding data files to the associated Test Case
+## Bind data files to the associated Test Case
 
 After configuring the test case with associated Web Service requests, we bind the test case to the test data in a test suite.
 
