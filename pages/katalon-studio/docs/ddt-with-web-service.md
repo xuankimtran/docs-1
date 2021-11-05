@@ -10,35 +10,30 @@ Web Service Object Parameterization in Katalon Studio allows you to perform data
 
 This tutorial shows you how to apply DDT with RESTful Web Service requests. The tutorial includes:
 
-* Creating RESTful Web Service requests.
-
-* Configuring variables in test request objects and test cases.
+* Creating RESTful Web Service requests and test cases with variables.
 
 * Data binding the associated request objects and test cases with an external data source.
 
 > You can download the sample project here: [Web Service Tests](https://github.com/katalon-studio-samples/web-service-tests).
 
-## Create parameterized Web Service request objects
+In our example, we want to send the user information with dynamic data, including username, password, age, gender, and avatar to the server to create an account, then return a user ID as the response. After creating a new user, we will find that user by the user ID.
 
-In our example, we create two RESTful Web Service requests. We create a POST request to register a new user. With the returned user ID from the POST request, we verify the user identity using a GET request.
+## Create Web Service request objects with variables
 
-### Create Web Service requests
+Here we need to create two RESTful requests with variables:
 
-1. To create a Web Service request, from the main menu, select **File > New > Web Service Request**.
+* A POST request with variables to register a new user.
+* A GET request with variables to get a user by ID.
 
-2. In the displayed **New** dialog, name the request and specify the request type.
+### Create a POST request with variables
 
-    Here, we specify the **Request Type** as **RESTful**.
+We use the POST request to send the user information, including username, password, age, gender, and avatar to the server to create an account, then expect a user ID as the response.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-web-service/KS-New-request-object.png" width=70% alt="New Web Service Request dialog">
+Follow these steps to create and configure the POST request:
 
-### Parameterize the POST request
+1. Create a Web Service request. From the main menu, select **File > New > Web Service Request**. In the displayed **New** dialog, name the request and specify the request type as **RESTful** request.
 
-In our example, we use the POST request to send the user information, including username, password, age, gender, and avatar to the server to create an account, then expect a user ID as the response.
-
-Follow these steps to configure the POST request:
-
-1. Specify the method type. Here we specify the method type as a POST request.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-web-service/KS-new-web-request-POST.png" width=70% alt="New Web request dialog">
 
 2. Specify the API endpoint. In our example, the API endpoint is `https://sample-web-service-aut.herokuapp.com/api/users/json`.
 
@@ -50,31 +45,34 @@ Follow these steps to configure the POST request:
 
 4. To call a variable in a Web Service object, use the `${variable_name}` syntax as a place holder in any of the supported locations.
 
-    Here, we use the syntax to specify the variables in the **HTTP Body** tab.
+    Here we use the syntax to specify the variables in the **HTTP Body** tab.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-web-service/KS-POST-request-HTTP-body.png" width=70% alt="HTTP Body tab">
 
-### Parameterize the GET request
+### Create a GET request with variables
 
-After creating a new user, we use the GET request to find that user by ID. We expect the server to return the user information, including username, password, gender, age, and avatar in the response.
+Next, we use the GET request to find a user by ID. We expect the server to return the user information, including username, password, gender, age, and avatar in the response.
 
 Follow these steps to configure the GET request:
 
-1. Specify the method type. Here we specify the method type as a GET request.
+1. Create a Web Service request. From the main menu, select **File > New > Web Service Request**. In the displayed **New** dialog, name the request and specify the request type as **RESTful** request.
 
-2. Specify the API endpoint. For the GET request, the API endpoint is `https://sample-web-service-aut.herokuapp.com/api/users/${id}`.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-web-service/KS-new-web-request-GET.png" width=70% alt="New Web request dialog">
 
-    Here, we already specify `id` variable using the `${id}` place holder at the end of the API endpoint.
+2. Specify the API endpoint. For the GET request, the API endpoint is `https://sample-web-service-aut.herokuapp.com/api/users/`.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-web-service/KS-GET-request-API-endpoint.png" width=70% alt="GET request API endpoint">
+3. To pass a variable to the GET API, place the `${variable_name}` place holder at the end of the API endpoint.
 
-4. In the **Variables** tab, input the `id` variable.
+    Here we specify the `id` variable using the `${id}` syntax as follows:
+    `https://sample-web-service-aut.herokuapp.com/api/users/${id}`. 
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-web-service/KS-GET-request-variable-tab.png" width=70% alt="GET request Variables tab">
+3. In the **Variables** tab, input the `id` variable.
 
-## Create a test case with parameterized Web Service requests
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-web-service/KS-GET-request-object-config.png" width=70% alt="GET request variables tab">
 
-After creating two RESTful Web Service requests with variables, we create a test case to send the POST request to create a new user and extract the user ID from the response. With the returned user ID, we send the GET request to retrieve user information and verify it.
+## Create a test case with associated Web Service requests
+
+After creating two RESTful Web Service requests with variables, we create a test case to send the POST request to register a new user and extract the user ID from the response. With the returned user ID, we send the GET request to retrieve user information and verify it.
 
 Follow these steps to set up the test case:
 
@@ -126,7 +124,7 @@ Follow these steps to set up the test data, the test suite, and data binding:
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-web-service/KS-Test-Data-User-Information-Table.png" width=70% alt="Test Data table of user information">
 
 
-2. Open a new test suite, click on the **Add** button and include the parameterized test case.
+2. Open a new test suite, click on the **Add** button and include the test case.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-web-service/KS-Test-Suite-add-test-case.png" width=70% alt="Test Data table of user information">
 
