@@ -6,13 +6,9 @@ redirect_from:
 description: 
 ---
 
-Web Service Object Parameterization in Katalon Studio allows you to perform data-driven testing (DDT) with Web Services.
+Katalon Studio allows you to perform data-driven testing (DDT) with Web Service Objects.
 
-This tutorial shows you how to apply DDT with RESTful Web Service requests. The tutorial includes:
-
-* Creating RESTful Web Service requests and test cases with variables.
-
-* Binding data files to the associated request objects and test cases.
+This tutorial shows you how to create Web Service requests and test cases with variables, then bind data files to the associated request objects and test cases.
 
 > You can download the sample project here: [Web Service Tests](https://github.com/katalon-studio-samples/web-service-tests).
 
@@ -45,7 +41,7 @@ Follow these steps to create and configure the POST request:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-web-service/KS-POST-request-variable-tab.png" width=70% alt="POST Variables tab">
 
-4. To call a variable in a Web Service object, use the `${variable_name}` syntax as a placeholder in any of the supported locations.
+4. To call a variable in a Web Service object, use the `${<variable_name>}` syntax as a placeholder in any of the supported locations.
 
     Here we use the syntax to specify the variables in the **HTTP Body** tab.
 
@@ -63,7 +59,7 @@ Follow these steps to configure the GET request:
 
 2. Specify the API endpoint. Our API endpoint for the GET request is `https://sample-web-service-aut.herokuapp.com/api/users/`.
 
-3. To pass a variable to the GET API, add the `${variable_name}` placeholder at the end of the API endpoint.
+3. To pass a variable to the GET API, add the `${<variable_name>}` placeholder at the end of the API endpoint.
 
     Here we specify the `id` variable using the `${id}` syntax as follows:
     `https://sample-web-service-aut.herokuapp.com/api/users/${id}`. 
@@ -101,7 +97,7 @@ Follow these steps to set up the test case:
 
     ```
 
-2. To input variables into the test case, switch to the **Variables** tab and pass the variables defined in the Web Service object to the variables in the test case.
+2. To input variables into the test case, switch to the **Variables** tab and pass the variables defined in the POST request object.
 
     Here, we specify the `username`, `password`, `gender`, `age`, and `avatar` variables.
 
@@ -126,7 +122,7 @@ Follow these steps:
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-web-service/KS-Test-Data-User-Information-Table.png" width=70% alt="Test Data table of user information">
 
 
-2. Open a new test suite, click on the **Add** button and include the test case.
+2. Open a new test suite, click on the **Add** button and include the associated test case.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-web-service/KS-Test-Suite-add-test-case.png" width=70% alt="Test Data table of user information">
 
