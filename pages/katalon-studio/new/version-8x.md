@@ -19,7 +19,6 @@ description: Release notes 8.x
 
 * Added Chrome 95 compatibility.
 * Added Microsoft Edge (Chromium) 95 compatibility.
-* Added GeckoDriver 0.30 compatibility.
 * [Security] Addressed Security Vulnerabilities of Open-Source Software:
     * Added an option in Katalon Studio Preferences to automatically disable connection to external domains.
 * [Performance] Improved Katalon Studio IDE and Katalon Runtime Engine performance:
@@ -36,7 +35,6 @@ description: Release notes 8.x
 * [Katalon Studio Enterprise] Introduced Idle Timeout Bypass Limit to automatically log out licensed users due to timeout. See [Configure Idle Timeout](https://docs.katalon.com/katalon-studio/docs/license-idle-timeout.html).
 * [WebUI] Introduced an option to use the Spy, Record, and Smart Wait function with a packed extension, now available on the Chrome Web Store. This extension is compatible with Katalon Studio version 8.0.0 onwards. See [Katalon Compact Utility](https://docs.katalon.com/katalon-studio/docs/katalon-compact-utility.html).
 * [BDD] Added BDD testing onboarding flow.
-* [Project Information] Introduced an option in project settings to include or exclude timestamps in the .properties files.
 * [Jira Integration] Only displayed the _Bug_ icon in Final test results.
 * [Console Log] Enhanced Plugin loading information in the console log of Katalon Studio Enterprise and Katalon Runtime Engine.
 * [Katalon Runtime Engine] Removed the "Offline activation failed" message in the execution log.
