@@ -5,6 +5,7 @@ permalink: katalon-analytics/docs/kt_install_premises_docker.html
 redirect_from:
     - "/katalon-analytics/docs/kt_install_premises_docker/"
     - "/katalon-analytics/docs/ktop/"
+    - "/katalon-analytics/docs/ktop.html"
 description: 
 ---
 
