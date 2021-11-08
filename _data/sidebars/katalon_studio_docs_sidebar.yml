@@ -483,6 +483,10 @@ items:
                 url: /katalon-studio/docs/webui-enhanced-click.html
               - title: "[WebUI] Execute JavaScript"
                 url: /katalon-studio/docs/webui-execute-javascript.html
+              - title: "[WebUI] Find Web Element" 
+                url: /katalon-studio/docs/webui-find-web-element.html
+              - title: "[WebUI] Find Web Elements" 
+                url: /katalon-studio/docs/webui-find-web-elements.html   
               - title: "[WebUI] Focus"
                 url: /katalon-studio/docs/webui-focus.html
               - title: "[WebUI] Forward"
