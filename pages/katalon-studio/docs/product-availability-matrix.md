@@ -4,7 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: /katalon-studio/docs/product-availability-matrix.html 
 --- 
 
-This document gives you information on the supported technologies and integrations. For the supported environments (including browsers and operating systems), see [this document](https://docs.katalon.com/katalon-studio/docs/supported-environments.html). 
+This document gives you information on the supported technologies and integrations. For the supported environments (including browsers and operating systems), see [supported environments](https://docs.katalon.com/katalon-studio/docs/supported-environments.html). 
 
 ### Supported Application Under Test (AUT)
 
