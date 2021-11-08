@@ -1053,6 +1053,8 @@ items:
             url: /katalon-studio/docs/manage-test-data.html
           - title: "Database Settings"
             url: /katalon-studio/docs/database-settings.html
+          - title: "Data-driven testing with RESTful Web Service requests"
+            url: /katalon-studio/docs/ddt-with-web-service.html 
           - title: "How to implement Data-driven Testing with MySQL?"
             url: /katalon-studio/how-to-guides/how-to-implement-ddt-mysql.html
           - title: "Combine Multiple Data Sources"
