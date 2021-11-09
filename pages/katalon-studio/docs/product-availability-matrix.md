@@ -2,6 +2,8 @@
 title: "Supported Technologies" 
 sidebar: katalon_studio_docs_sidebar 
 permalink: /katalon-studio/docs/product-availability-matrix.html 
+redirect_from: 
+	- "katalon-studio/docs/unique-capabilities.html"
 --- 
 
 This document gives you information on the supported technologies and integrations. For the supported environments (including browsers and operating systems), see [supported environments](https://docs.katalon.com/katalon-studio/docs/supported-environments.html). 
@@ -207,6 +209,48 @@ This document gives you information on the supported technologies and integratio
 		</tr>
 	</tbody>
 </table>
+
+### Unique Capabilities
+
+<table>
+	<tbody>
+		<tr>
+			<td><strong>Unique Capabilities</strong></td>
+			<td><strong>Supported Katalon Studio versions</strong></td>
+		</tr>
+		<tr>
+			<td>
+				<p><a title="https://github.com/katalon-studio-samples/api-web-combination-sample/tree/master" href="https://github.com/katalon-studio-samples/api-web-combination-sample/tree/master" data-renderer-mark="true">Application Under Test (AUT) Testing Combination (*)</a>&nbsp;</p>
+			</td>
+			<td>v7.0.0+</td>
+		</tr>
+		<tr>
+			<td>
+				<p>Dual-editor interface: Manual and Scripting editors</p>
+			</td>
+			<td>v7.0.0+</td>
+		</tr>
+		<tr>
+			<td>
+				<p><a title="https://docs.katalon.com/katalon-studio/docs/self-healing.html" href="https://docs.katalon.com/katalon-studio/docs/self-healing.html" data-renderer-mark="true">Self-healing</a></p>
+			</td>
+			<td>v7.6.0+</td>
+		</tr>
+		<tr>
+			<td>
+				<p><a title="https://docs.katalon.com/katalon-studio/docs/webui-smartwait.html#sample-tests" href="https://docs.katalon.com/katalon-studio/docs/webui-smartwait.html#sample-tests" data-renderer-mark="true">Smart Wait</a></p>
+			</td>
+			<td>v7.0.0+</td>
+		</tr>
+		<tr>
+			<td>
+				<p><a title="https://docs.katalon.com/katalon-studio/docs/time-capsule.html" href="https://docs.katalon.com/katalon-studio/docs/time-capsule.html" data-renderer-mark="true">Time Capsule</a></p>
+			</td>
+			<td>v7.8.0+</td>
+		</tr>
+	</tbody>
+</table>
+(*) <em> You can test this capability with our Github sample project.</em>
 
 ### Report
 
