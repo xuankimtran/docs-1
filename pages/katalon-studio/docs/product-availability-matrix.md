@@ -237,14 +237,14 @@ This document gives you information on the supported technologies and integratio
 			<td style="width: 132px;">
 				<p>Self-healing</p>
 			</td>
-			<td style="width: 521px;">The Self-healing mechanism is to tackle the issue of broken locators during execution to reduce the test maintenance effort.&nbsp;<a title="Self-healing" href="https://docs.katalon.com/katalon-studio/docs/self-healing.html">Learn more</a>.</td>
+			<td style="width: 521px;">The <strong>Self-healing</strong> mechanism is to tackle the issue of broken locators during execution to reduce the test maintenance effort.&nbsp;<a title="Self-healing" href="https://docs.katalon.com/katalon-studio/docs/self-healing.html">Learn more</a>.</td>
 			<td style="width: 121.875px;">v7.6.0+</td>
 		</tr>
 		<tr>
 			<td style="width: 132px;">
 				<p>Smart Wait</p>
 			</td>
-			<td style="width: 521px;">Smart Wait function tells the WebDriver to wait for the web page to become static before performing any operations. This reduces the risk of test failure caused when the page hasn't fully loaded. <a href="https://docs.katalon.com/katalon-studio/docs/webui-smartwait.html#sample-tests">Learn more</a>.</td>
+			<td style="width: 521px;">The <strong>Smart Wait</strong> function tells the WebDriver to wait for the web page to become static before performing any operations. This reduces the risks of test failures caused when the page hasn't fully loaded. <a href="https://docs.katalon.com/katalon-studio/docs/webui-smartwait.html#sample-tests">Learn more</a>.</td>
 			<td style="width: 121.875px;">v7.0.0+</td>
 		</tr>
 		<tr>
