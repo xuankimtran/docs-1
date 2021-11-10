@@ -72,14 +72,14 @@ On macOS, virtualization programs like Parallels Desktop, Virtual Box, and VMWar
 
 2. Register a Katalon account with an active email or sign in to your Katalon account if you already have one.
    
-3. To download Katalon Studio for Linux, click **Create your first test** in the **Katalon Studio** box. Katalon leads you to the downloading page where you will choose the Linux version of Katalon Studio, then click **Download**. A `tar.gz` file is being downloaded to your machine.
+3. To download Katalon Studio for Linux, click **Create your first test** in the **Katalon Studio** box. Katalon leads you to the downloading page where you will choose the Linux version of Katalon Studio, then click **Download**. A tar.gz file is being downloaded to your machine.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/install_setup_katalon_studio/KS-INSTALLATION-go-to-the-downloading-page.png" width="70%" alt="Go to the downloading page">
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-gui-beta-for-linux/KS-INSTALLATION-Download-Linux.png" width="70%" alt="Download Linux version of KS">
 ### Start Katalon Studio
 
-1. Extract the `tar.gz` file. In the extracted folder, you can find the Katalon Studio app.
+1. Extract the tar.gz file. In the extracted folder, you can find the Katalon Studio app.
 
     Open Katalon Studio by double-clicking on Katalon Studio, or run `cd ./katalon` in your Terminal.
 

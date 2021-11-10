@@ -35,7 +35,7 @@ Do a quick check on System Requirements before using Katalon Studio. You can ref
 
 <details><summary>For Windows users</summary>
 
-1. After downloading Katalon Studio `.zip` file, extract it to the `C:\Users\<username>` folder.
+1. After downloading the .zip file, extract it to the `C:\Users\<username>` folder.
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/install_setup_katalon_studio/KS-INSTALLATION-Extract-.zip-file.png" width="60%" alt="Extract the .zip file">
 
@@ -57,7 +57,7 @@ Do a quick check on System Requirements before using Katalon Studio. You can ref
 
 <details><summary>For macOS users</summary>
 
-1. After downloading the Katalon Studio `.dmg` file, double-click on it to proceed with the installation.
+1. After downloading the .dmg file, double-click on it to proceed with the installation.
 2. Add Katalon Studio to the **Application** folder when prompted.
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/install_setup_katalon_studio/KS-INSTALLATION-Add-KS-to-Application.png" width="70%" alt="Add KS to Application">
