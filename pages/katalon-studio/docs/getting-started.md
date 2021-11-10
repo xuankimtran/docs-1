@@ -23,13 +23,8 @@ description:
 This article guides you through the installation of Katalon Studio. Instructions are based on a standard installation using all default settings.
 
 Before the installation, you need to verify whether your computer meets the System Requirements to work with Katalon Studio. You can refer to this document for further details: [Supported Environment](https://docs.katalon.com/katalon-studio/docs/supported-environments.html).
-## Install Katalon Studio
 
 Katalon Studio can work on macOS, Windows and Linux. To have a better guide of the installation in each environment, you can refer to the following documents:
 
 - [Install Katalon Studio on macOS/Windows](https://docs.katalon.com/katalon-studio/docs/katalon-studio-gui-beta-for-linux.html)
 - [Install Katalon Studio on Linux (GUI)](https://docs.katalon.com/katalon-studio/docs/katalon-studio-gui-beta-for-linux.html)
-
-## Activate Katalon Studio
-
-To activate Katalon Studio, you can refer to this guide here: [Activate Katalon License](https://docs.katalon.com/katalon-studio/docs/activate-license.html#activate-trial-license).

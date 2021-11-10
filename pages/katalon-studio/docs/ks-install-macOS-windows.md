@@ -8,53 +8,77 @@ description:
 
 This article provides information on how to install Katalon Studio on macOS/Windows.
 
-> Learn more with our Katalon Academy course: [Create and Execute Test Cases](https://academy.katalon.com/courses/create-execute-test-cases/?utm_source=kat_docs_install&utm_medium=top_link&utm_campaign=academy_promotion).
+> Requirements:
+> * A valid email to register a Katalon Account
+> * An active Internet connection to download Katalon Studio
 
-
-### Download Katalon Studio
-
-- Do a quick check on System Requirements before using Katalon Studio. You can refer to this document here: [Supported Environment](https://docs.katalon.com/katalon-studio/docs/supported-environments.html).
+Do a quick check on System Requirements before using Katalon Studio. You can refer to this document here: [Supported Environment](https://docs.katalon.com/katalon-studio/docs/supported-environments.html).
+## Download Katalon Studio
   
-- Go to Katalon website and download the latest Katalon Studio version: [Katalon products](https://www.katalon.com/download/). 
+1. Go to Katalon website: [Katalon products](https://www.katalon.com/sign-up/).
 
-   Katalon Studio automatically detects and downloads a suitable version for your system, but you can also select a preferred one on the page. 
+2. Register a Katalon account with an active email or sign in to your Katalon account if you already have one.
 
-   <img src="url" width="70%" alt="Download a preferred KS version">
+3. To download Katalon Studio, click **Create your first test** in the **Katalon Studio** box. Katalon will lead you to the downloading page where it automatically detects and downloads a suitable version for your system.
 
-### Install Katalon Studio
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/install_setup_katalon_studio/KS-INSTALLATION-go-to-the-downloading-page.png" width="70%" alt="Go to the downloading page">
+   
+   You can also select a preferred version for your system on the page. 
 
-**Windows**
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/install_setup_katalon_studio/KS-INSTALLATION-Preferred-ks-version.png" width="70%" alt="Download a preferred KS version">
 
-- Double-click on the **katalon.exe** file.
+## Start Katalon Studio
 
-   ![Download and Start Katalon Studio](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/install_setup_katalon_studio/Starting-Katalon-Studio.png)
+<details><summary>For Windows users</summary>
 
-- Ensure you are using the default font size (set to 100%) in both Katalon Studio and your current OS to avoid the name field not being displayed on some pop-up windows.
+1. After downloading Katalon Studio `.zip` file, extract it to the `C:\Users\<username>` folder.
 
-    To adjust the font size:
-    * Windows: [Edit the font size](https://www.pcworld.com/article/242942/how_to_change_font_size.html).
-    * Katalon Studio: **Window** > **Preferences** > **General** > **Appearance** > **Colors and Fonts**. Select **Dialog Font** and edit the font size.
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/install_setup_katalon_studio/KS-INSTALLATION-Extract-.zip-file.png" width="60%" alt="Extract the .zip file">
 
-> **Notes**
-> 
-> For Windows users, installing in custom folder (outside of the default `C:\Users\<username>`) would require you to run the software with Administrator privilege, or to adjust the Read/Write permission of Katalon Studio package for the current user.
+      > **Notes**
+      > 
+      > For Windows users, if you are extracting Katalon Studio outside of the `C:\Users\<username>` folder, make sure to have the Read/Write permission of Katalon Studio package for the current user or to run the software with Administrator privilege.
 
-**macOS**
+2. To start Katalon Studio, double-click on the **katalon.exe** file.
+  
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/install_setup_katalon_studio/KS-INSTALLATION-Start-KS-Windows.png" width="70%" alt="Start KS in Windows">
 
-- Double-click on the **Katalon Studio** (macOS) file in the directory where it is unpacked.
+   - Ensure you are using the default font size (set to 100%) in both Katalon Studio and your current OS to avoid the name field not being displayed on some pop-up windows.
 
-   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/install_setup_katalon_studio/Katalon-MacOS.png "init-size")
+      To adjust the font size:
+      * For Windows, you can refer to the Microsoft document here: [Edit the font size](https://support.microsoft.com/en-us/windows/change-the-size-of-text-in-windows-10-1d5830c3-eee3-8eaa-836b-abcc37d99b9a).
+      * For Katalon Studio: Go to **Window** > **Preferences** > **General** > **Appearance** > **Colors and Fonts**. Select **Dialog Font** and edit the font size.
 
-   > **For macOS Catalina users:**
-   > 
-   > * From version 7.9 onwards, macOS Catalina users no longer have to enable Katalon Studio and Katalon Studio Engine applications in **System Preferences**. 
-   > 
-   > * Users can start the applications directly as in macOS.
+</details>
 
-- Once started, the application should display the splash screen similar to the following screenshot:
+<details><summary>For macOS users</summary>
 
-   ![Katalon Studio Loading](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/install_setup_katalon_studio/image2016-10-20-143A113A21.png)
+1. After downloading the Katalon Studio `.dmg` file, double-click on it to proceed with the installation.
+2. Add Katalon Studio into the **Application** folder when prompted.
 
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/install_setup_katalon_studio/KS-INSTALLATION-Add-KS-to-Application.png" width="70%" alt="Add KS to Application">
 
+3. To start Katalon Studio, double-click on the **Katalon Studio** application. 
+
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/install_setup_katalon_studio/Katalon-MacOS.png" width="70%" alt="Start Katalon Studio in macOS">
+
+      > **For macOS Catalina users:**
+      > 
+      > * From version 7.9 onwards, macOS Catalina users no longer have to enable Katalon Studio and Katalon Studio Engine applications in **System Preferences**. Users can start the applications directly as in macOS.
+
+   - Once started, the application should display the splash screen similar to the following screenshot:
+
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/install_setup_katalon_studio/image2016-10-20-143A113A21.png" width="70%" alt="Katalon Studio loading screen">
+
+</details>
+
+## Activate Katalon Studio
+
+1. The Katalon Studio app launches, then the **Katalon Studio Activation** dialog appears. Sign in to your Katalon account to activate your license. To learn more about license activation steps, see [Activate Katalon Studio license](https://docs.katalon.com/katalon-studio/docs/activate-license.html#activate-trial-license).
+   
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/install_setup_katalon_studio/KS-INSTALLATION-Activate-KS-Light.png" alt="Activate KS" width=100%>
+
+2. After you are done, click **Activate**. Now Katalon Studio is ready to use.
+   
 **Next step:**
-- [Activate Katalon Studio license](https://docs.katalon.com/katalon-studio/docs/activate-license.html#activate-trial-license).
+- [Create your first project in Katalon Studio]
