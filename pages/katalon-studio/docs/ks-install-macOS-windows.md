@@ -27,7 +27,7 @@ Do a quick check on System Requirements before using Katalon Studio. You can ref
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/install_setup_katalon_studio/KS-INSTALLATION-go-to-the-downloading-page.png" width="70%" alt="Go to the downloading page">
    
-   You can also select a preferred version for your system on the page. 
+   - You can also select a preferred version for your system on the page. 
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/install_setup_katalon_studio/KS-INSTALLATION-Preferred-ks-version.png" width="70%" alt="Download a preferred KS version">
 
@@ -60,11 +60,11 @@ Do a quick check on System Requirements before using Katalon Studio. You can ref
 1. After downloading the .dmg file, double-click on it to proceed with the installation.
 2. Add Katalon Studio to the **Application** folder when prompted.
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/install_setup_katalon_studio/KS-INSTALLATION-Add-KS-to-Application.png" width="70%" alt="Add KS to Application">
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/install_setup_katalon_studio/KS-INSTALLATION-Add-KS-to-Application.png" width="60%" alt="Add KS to Application">
 
 3. To start Katalon Studio, double-click on the **Katalon Studio** application. 
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/install_setup_katalon_studio/Katalon-MacOS.png" width="70%" alt="Start Katalon Studio in macOS">
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/install_setup_katalon_studio/Katalon-MacOS.png" width="60%" alt="Start Katalon Studio in macOS">
 
       > **For macOS Catalina users:**
       > 
@@ -72,7 +72,7 @@ Do a quick check on System Requirements before using Katalon Studio. You can ref
 
    - Once started, the application should display the splash screen similar to the following screenshot:
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/install_setup_katalon_studio/image2016-10-20-143A113A21.png" width="70%" alt="Katalon Studio loading screen">
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/install_setup_katalon_studio/image2016-10-20-143A113A21.png" width="60%" alt="Katalon Studio loading screen">
 
 </details>
 
