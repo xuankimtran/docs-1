@@ -21,27 +21,35 @@ redirect_from:
 description:
 ---
 
-## In Manual View
+After you have created your Katalon Project, it's time to generate your very first Test Case. With Katalon Studio, you can create your test case with no coding effort using our Manual mode, or you can still enjoy our script mode if you have programming background. Either way, you can swich between two modes in your Test Case.
 
-### Tutorial
+In this tutorial, we will guide you through how to create a new test case, add your test steps in manual and script mode with a usage example, and use some special function to leverage your test case in Katalon Studio.
 
-Katalon Studio supports Keywords-Driven testing where test cases consist of keywords that represent actions of users on the AUT (Applications Under Test). This allows users with less experience in programming to easily generate automation test. The below tutorial will give you step-by-step instruction in order to create an automation test case in manual mode.
+## Create a new Test Case
 
-Given a sample test case with the steps as below:
+To create a new Test Case, your first need to open your desired Katalon Project. You can learn more about projects at [Projects](link).
 
-* _Open the browser_
-* _Navigate to a website_
-* _Click on certain control_
-* _Validate if a control exists on the page_
-* _Close the browser_
+In the **Test Explorer**, do as follows:
 
-Follow these steps to automate the above test scenario in **Manual view**:
-
-1. Select **File > New > Test Case** from the main menu. The **New Test Case** dialog will be displayed. Provide the name for the new test case, then click **OK** button.  
+1. Right-click on the **Test Case** folder, select **New Test Case**. The **New Test Case** dialog appears. Provide the name for the new test case, then click **OK** button.  
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/manual-view/image2017-2-15-93A593A10.png)  
 
 2. Once a new test case is created, it is opened in **Manual view**. This view allows users to create automation tests easily with little programming skills required.  
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/manual-view/image2017-8-18-133A533A45.png)  
+
+## In Manual View
+
+Katalon Studio supports Keywords-Driven testing where Test Cases consist of keywords that represent actions of users on the Applications Under Test (AUT). This allows users with less experience in programming to generate automation test. The below tutorial will give you step-by-step instruction in order to create an automated test case in manual mode.
+
+Given a sample test case with the steps as below:
+
+* Open the browser
+* Navigate to a website
+* Click on certain control
+* Validate if a control exists on the page
+* Close the browser
+
+
 
 3. Select **Add > Web UI Keyword** from the command toolbar.
 
@@ -72,8 +80,10 @@ Follow these steps to automate the above test scenario in **Manual view**:
 9. Add the **[Verify Element Present](/display/KD/%5BWebUI%5D+Verify+Element+Present)** keyword. This keyword validates if a certain object is displayed on the executing browser. Similar to the previous step, you need to specify the object to be used with this keyword.  
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/manual-view/image2017-8-18-143A543A15.png)
 10. Add the **[Close Browser](/display/KD/%5BWebUI%5D+Close+Browser)** keyword and save your test case.  
+
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/manual-view/image2017-8-18-143A563A32.png)
 11. Click on **Run** in the main toolbar to execute the test case.
+
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/manual-view/image2017-8-11-103A573A37.png)
 
     Katalon Studio should be able to execute all the steps of the sample test case.
@@ -98,8 +108,6 @@ Recent list will have two sections: **Object Folder** and **Test Object**
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/manual-view/image2017-8-25-173A293A39.png)
 
 ## In Script View
-
-### Tutorial
 
 In addition to the [Manual view](/display/KD/Test+Case+Manual+View), Katalon Studio allows expert users to programmatically write automation test in the Script view of test cases. Users with Groovy/Java background can easily modify the test script as needed.
 
