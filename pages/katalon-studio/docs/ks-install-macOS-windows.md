@@ -13,9 +13,11 @@ This article provides information on how to install Katalon Studio on macOS/Wind
 > * An active Internet connection to download Katalon Studio
 
 Do a quick check on System Requirements before using Katalon Studio. You can refer to this document here: [Supported Environment](https://docs.katalon.com/katalon-studio/docs/supported-environments.html).
+
+> From Katalon Studio version 7.9.1 onwards, we only support 64-bit Windows, macOS, and Linux.
 ## Download Katalon Studio
   
-1. Go to Katalon website: [Katalon products](https://www.katalon.com/sign-up/).
+1. Go to the Katalon website: [Katalon products](https://www.katalon.com/download/).
 
 2. Register a Katalon account with an active email or sign in to your Katalon account if you already have one.
 
@@ -37,7 +39,7 @@ Do a quick check on System Requirements before using Katalon Studio. You can ref
 
       > **Notes**
       > 
-      > For Windows users, if you are extracting Katalon Studio outside of the `C:\Users\<username>` folder, make sure to have the Read/Write permission of Katalon Studio package for the current user or to run the software with Administrator privilege.
+      > For Windows users, if you are extracting Katalon Studio outside of the `C:\Users\<username>` folder, make sure the current user have the Read/Write permission for Katalon Studio package or to run the software with Administrator privilege.
 
 2. To start Katalon Studio, double-click on the **katalon.exe** file.
   
@@ -54,7 +56,7 @@ Do a quick check on System Requirements before using Katalon Studio. You can ref
 <details><summary>For macOS users</summary>
 
 1. After downloading the Katalon Studio `.dmg` file, double-click on it to proceed with the installation.
-2. Add Katalon Studio into the **Application** folder when prompted.
+2. Add Katalon Studio to the **Application** folder when prompted.
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/install_setup_katalon_studio/KS-INSTALLATION-Add-KS-to-Application.png" width="70%" alt="Add KS to Application">
 
