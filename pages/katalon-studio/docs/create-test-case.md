@@ -59,13 +59,13 @@ Given a sample test case with the steps as below:
 
 To add test steps in your test case using **Manual** mode, do as follows:
 
-1. In the **Test Case Editor**, click **Add**. A list of option appears, including:
+1. In the **Test Case Editor**, click **Add**. A list of option appears, including keyword, statement, and call Test Case.
 
     > **Recent keywords** allow users quickly add any of the last 10 recent used keywords in **Item** list.
 
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/manual-view/image2017-8-18-133A543A48.png)
 
-4. Select the **[Open Browser](/display/KD/%5BWebUI%5D+Open+Browser)** keyword. This keyword will open a browser and navigate to the specified URL if provided. (selected keywords will have their description displayed along for reference)  
+4. Select the **[Open Browser](/display/KD/%5BWebUI%5D+Open+Browser)** keyword. This keyword will open a browser and navigate to the specified URL if provided. (selected keywords will have their description displayed along for reference)
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/manual-view/image2017-8-18-143A13A24.png)
 
 5. Add the **[Navigate To Url](/display/KD/%5BWebUI%5D+Navigate+to+Url)** keyword. This keyword will navigate to a specified URL. Double click on the **Input** cell to provide additional data (parameters) for the keyword.
