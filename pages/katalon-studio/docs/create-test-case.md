@@ -21,25 +21,31 @@ redirect_from:
 description:
 ---
 
-After you have created your Katalon Project, it's time to generate your very first Test Case. With Katalon Studio, you can create your test case with no coding effort using our Manual mode, or you can still enjoy our script mode if you have programming background. Either way, you can swich between two modes in your Test Case.
+After you have created your Katalon Project, it's time to generate your very first Test Case. With Katalon Studio, you can create your test case with no coding effort using our Manual mode, or you can still enjoy our script mode if you have programming background. Either way, you can switch between two modes in your Test Case.
 
 In this tutorial, we will guide you through how to create a new test case, add your test steps in manual and script mode with a usage example, and use some special function to leverage your test case in Katalon Studio.
 
 ## Create a new Test Case
 
-To create a new Test Case, your first need to open your desired Katalon Project. You can learn more about projects at [Projects](link).
+To create a new Test Case, first, open your desired Katalon Project. You can learn more about how to create projects at [Projects](link).
 
-In the **Test Explorer**, do as follows:
+On the right side of Katalon Studio, you can see the **Test Explorer** section containing access to all folders of your projects. In the **Test Explorer**, do as follows:
 
-1. Right-click on the **Test Case** folder, select **New Test Case**. The **New Test Case** dialog appears. Provide the name for the new test case, then click **OK** button.  
+1. Right-click on the **Test Cases** folder, select **New > Test Case**. The **New Test Case** dialog appears.
+
+2. Enter your Test Case name, description, and tag. Try to create a relevant Test Case name and provide a detailed description for better management. After you are done, click **OK**. A new Test Case is created inside the **Test Cases** folder.
+
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/manual-view/image2017-2-15-93A593A10.png)  
 
-2. Once a new test case is created, it is opened in **Manual view**. This view allows users to create automation tests easily with little programming skills required.  
+    > Tag can help you manage large projects better. You can learn how to manipulate tag properties for efficient management at [Test Case Management With Tags](https://docs.katalon.com/katalon-studio/docs/test-case-management-with-tags.html).
+
+2. Once a new test case is created, it is opened in **Manual** view. This view allows users to create automated tests with little programming skills required. You can switch to the **Script** tab to edit in script mode.
+
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/manual-view/image2017-8-18-133A533A45.png)  
 
-## In Manual View
+## Generate Test Steps
 
-Katalon Studio supports Keywords-Driven testing where Test Cases consist of keywords that represent actions of users on the Applications Under Test (AUT). This allows users with less experience in programming to generate automation test. The below tutorial will give you step-by-step instruction in order to create an automated test case in manual mode.
+Katalon Studio supports Keywords-Driven testing where Test Cases consist of keywords that represent actions of users on the Applications Under Test (AUT). This allows users with less experience in programming to generate automation test. The below tutorial will give you step-by-step instruction in order to create an automated test case in manual and script mode.
 
 Given a sample test case with the steps as below:
 
@@ -49,9 +55,13 @@ Given a sample test case with the steps as below:
 * Validate if a control exists on the page
 * Close the browser
 
+## In Manural View
+
+To add test steps in your test case using **Manual** mode, do as follows:
+
+1. In the **Test Case Editor**, click **Add**. A list of option appears, including:
 
 
-3. Select **Add > Web UI Keyword** from the command toolbar.
 
     > **Recent keywords** allow users quickly add any of the last 10 recent used keywords in **Item** list.
 
