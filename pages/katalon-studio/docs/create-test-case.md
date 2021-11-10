@@ -55,13 +55,11 @@ Given a sample test case with the steps as below:
 * Validate if a control exists on the page
 * Close the browser
 
-## In Manural View
+## In Manual View
 
 To add test steps in your test case using **Manual** mode, do as follows:
 
 1. In the **Test Case Editor**, click **Add**. A list of option appears, including:
-
-
 
     > **Recent keywords** allow users quickly add any of the last 10 recent used keywords in **Item** list.
 
