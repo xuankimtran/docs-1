@@ -12,21 +12,21 @@ description:
 >
 > * You have created a [Local Test Environment with Agent](https://docs.katalon.com/katalon-analytics/docs/agents.html), or you have already created a different Test Environment (Docker, Kubernetes, etc.).
 >
-> * You have created a [Script Repository](https://docs.katalon.com/katalon-analytics/docs/code-repo.html).
+> * You have created a [Git Script Repository](https://docs.katalon.com/katalon-analytics/docs/git-test-project.html).
 
 ## Schedule Test Runs
 
 Follow these steps:
 
-1. Go to your Project and select the **Test Planning** tab.
+1. Go to your Project and select the **Test Execution** tab.
 
-    The **Test Runs** page appears as below.
+    The **Test Run Calendar** page appears as below.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/schedule-test-run-button.png" width=100% alt="test run page">
 
     > Notes:
     >
-    > If you have not scheduled any Test Runs yet, the calendar view on the **Test Runs** page is empty.
+    > If you have not scheduled any Test Runs yet, the calendar is empty.
 
 2. Click on the **Schedule Test Run** button.
 
@@ -92,11 +92,11 @@ Follow these steps:
     * Kobiton integration: switch the **Kobiton** toggle on to enable the integration, then enter your Kobiton Device ID to run tests on that device. See: [How to configure Kobiton integration with Katalon TestOps](https://docs.katalon.com/katalon-analytics/docs/kt_kobiton_integration.html).
     * **Release Version**: select the release version you want to link your test runs to. See: [Manage Test Runs by Release](https://docs.katalon.com/katalon-analytics/docs/kt-release.html#create-a-new-release).
 
-After creating the schedule, Katalon TestOps automatically directs you to the **Test Run Types** page.
+After creating the schedule, Katalon TestOps automatically directs you to the **Test Run List** page.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/test-run-type-page.png" width=100% alt="test run types page">
 
-The **Test Run Types** page shows you a collection of Test Runs with the same configurations (Test Environment, Script Repository).
+The **Test Run List** page shows you a collection of Test Runs with the same configurations (Test Environment, Script Repository).
 
 ## View Test Run Types in Katalon Studio
 
