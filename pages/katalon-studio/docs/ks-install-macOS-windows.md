@@ -12,9 +12,11 @@ This article provides information on how to install Katalon Studio on macOS/Wind
 > * A valid email to register a Katalon Account
 > * An active Internet connection to download Katalon Studio
 
-Do a quick check on System Requirements before using Katalon Studio. You can refer to this document here: [Supported Environment](https://docs.katalon.com/katalon-studio/docs/supported-environments.html).
+## Supported Environment
 
 > From Katalon Studio version 7.9.1 onwards, we only support 64-bit Windows, macOS, and Linux.
+
+Do a quick check on System Requirements before using Katalon Studio. You can refer to this document here: [Supported Environment](https://docs.katalon.com/katalon-studio/docs/supported-environments.html).
 ## Download Katalon Studio
   
 1. Go to the Katalon website: [Katalon products](https://www.katalon.com/download/).
