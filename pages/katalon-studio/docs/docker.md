@@ -17,7 +17,7 @@ This tutorial shows you how to run Katalon Studio test with Katalon Docker Image
 
 Docker Image for Katalon Studio is available here at Docker Hub: [katalonstudio/katalon](https://hub.docker.com/r/katalonstudio/katalon/).
 
-> You can download our Github sample project for CI configurations using Docker Image: [Docker Images samples](https://github.com/katalon-studio/docker-images-samples).
+> You can download our Github sample project for CI configurations using Docker Image: [CI samples](https://github.com/katalon-studio/docker-images-samples).
 ## Pull Katalon Docker Image
 
 To pull KDI, open **Terminal** in your local machine, copy and paste the following command line:
@@ -27,7 +27,7 @@ docker pull katalonstudio/katalon
 ```
 After successfully pulling KDI, you should see the **katalonstudio/katalon** image in your Docker application.
 
-<img src="url" width="70%" alt="KDI in the Docker app">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-docker-image/KS-DOCKER-Katalon-docker-image.png" width="70%" alt="KDI in the Docker app">
 
 If you want to check which version of Google Chrome and Mozilla Firefox the KDI supports, copy and paste the following command in the **Terminal**: 
 
@@ -40,11 +40,9 @@ docker run -t --rm katalonstudio/katalon cat /katalon/version
 > * Katalon Docker Image version 7.2.1 onwards
 > * Make sure you have Docker open while running the test.
 
-1. Open **Terminal**, then go to the test project directory you wish to run. For example, we want to run the **CI sample** test project, we will direct to our CI project location in our local machine.
+1. Open **Terminal**, then go to the test project directory you wish to run. For example, we want to run the **CI sample** test project, we will direct to our **CI sample** project in our local machine.
 
-    <img src="url" width="70%" alt="Direct to the test project directory in Terminal">
-
-2. After directing to your test project directory, input the following command:
+2. Inside your test project directory, input the following command:
 
     ``` groovy
     docker run -t --rm -v "$(pwd)":/tmp/project katalonstudio/katalon katalonc.sh -projectPath=/tmp/project [Option1] [Option2] ... [OptionN]
@@ -59,6 +57,8 @@ docker run -t --rm katalonstudio/katalon cat /katalon/version
     ``` groovy
     docker run -t --rm -v "$(pwd)":/tmp/project katalonstudio/katalon katalonc.sh -projectPath=/tmp/project -browserType="Chrome" -testSuiteCollectionPath="Test Suites/TS_RegressionTestCollection" -apiKey="<your_API_key>"
     ```
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-docker-image/KS-DOCKER-Run-test-with-Docker.png" width="70%" alt="Run test with Docker">
 
     > Notes:
     >
@@ -85,9 +85,9 @@ docker run -t --rm -v "$(pwd)":/tmp/project katalonstudio/katalon katalonc.sh -p
 
 You can also run the test under the current user ID using the `KATALON_USER_ID` environment variable. This helps avoid permission issues when accessing artifacts generated after the test execution. Follow these steps:
 
-1. Open **Terminal**, then run `id -u $USER`. The result will tell you the current user ID. Here, the user ID is: `502`
+1. Open **Terminal**, then run `id -u $USER`. The result will tell you the current user ID. Here, the user ID is: 502
    
-   <img src="url" width="70%" alt="Current userID">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-docker-image/KS-DOCKER-userID.png" width="70%" alt="Current userID">
 
 2. To execute the test with the current user ID, enter the following command line:
 
@@ -120,15 +120,15 @@ docker run -t --rm -v "$(pwd)":/katalon/katalon/source katalonstudio/katalon kat
 			<td>
 				<p dir="auto"><code>katalon-execute.sh</code></p>
 			</td>
-			<td>This command will start Katalon Studio and other necessary components.</td>
+			<td>This command starts Katalon Studio and other necessary components.</td>
 		</tr>
 		<tr>
 			<td>
 				<p dir="auto"><code>/katalon/katalon/source</code></p>
 			</td>
 			<td>
-				<p>The <code>katalon-execute.sh</code> command will look for the test project inside this directory.</p>
-				<p>If you don't want to use this command line, define the test project directory with the&nbsp;<code>docker run</code>'s&nbsp;<code>-w</code>&nbsp;argument as follows:</p>
+				<p>The <code>katalon-execute.sh</code> command looks for the test project inside this directory.</p>
+				<p>If you don't want to use this command line, define the test project directory with the&nbsp;<code>docker run -w</code>&nbsp;argument as follows:</p>
 				<p><code>docker run -t --rm -v "$(pwd)":/tmp/source -w /tmp/source katalonstudio/katalon katalon-execute.sh [Option1] [Option2] ... [OptionN]</code></p>
 			</td>
 		</tr>
@@ -136,3 +136,7 @@ docker run -t --rm -v "$(pwd)":/katalon/katalon/source katalonstudio/katalon kat
 </table>
 
 </details>
+
+## See also
+- [Integrate Jenkins on Docker hosted in Ubuntu](https://docs.katalon.com/katalon-studio/docs/jenkins-docker-ubuntu.html)
+- [Integrate Jenkins Pipeline (Jenkinsfile) with Katalon Studio Docker Image](https://docs.katalon.com/katalon-studio/docs/jenkins-pipeline-docker.html)
