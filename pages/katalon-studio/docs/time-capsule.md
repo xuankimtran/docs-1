@@ -30,7 +30,7 @@ This document shows you how to turn on/ off the Time Capsule and how to trigger 
 
    1. Go to **Project > Settings > Execution > WebUI**
 
-   2. In drop-down list of **Default Time Capsule**, choose **Enable/ Disable > OK**
+   2. In drop-down list of **Default Time Capsule**, choose **Enabled/ Disabled > OK**
 
       <img alt="Enable Time Capsule" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/time-capsule/KS-TIMECAPSULE-Settings.png" width=100%>
 
