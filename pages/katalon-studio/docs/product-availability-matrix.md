@@ -3,7 +3,7 @@ title: "Supported Technologies"
 sidebar: katalon_studio_docs_sidebar 
 permalink: /katalon-studio/docs/product-availability-matrix.html 
 redirect_from: 
-    - "/katalon-studio/docs/webdriver-event-listeners.html"
+    - "/katalon-studio/docs/unique-capabilities.html"
 --- 
 
 This document gives you information on the supported technologies and integrations. For the supported environments (including browsers and operating systems), see [supported environments](https://docs.katalon.com/katalon-studio/docs/supported-environments.html). 
