@@ -64,20 +64,23 @@ To enable SSO for an existing member, follow these steps:
 
 1. Go to **Settings** > **User Management**.
 
-    The **Manage Users** page appears.
+    The **User Management** page appears.
 
-2. Edit a User's account by clicking on the *Pencil* icon.
+2. In the **Active Users** tab, nagivate to a User's row, click on the <em>more options</em> icon, and select **Configure Login Options**.
 
-    The **User's detail** page appears.
+    [image-for-config-options]
 
-3. Select **Enable SSO** as a login option.
+3. Enable SSO for the user. In the new **Login Settings** pop-up, toggle the **Log in to [<custom_domain>] with username and password** option.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-sso-settings/user-detail-page-sso-enabled-blurred.png" width=100% alt="enable sso pending request sent box">
+
+4. Click on the **Save** button to complete the configuration.
 
     A request to enable SSO is then sent to the existing User.
 
 > Notes:
 >
+> * Both **Log in to [custom_domain] by Single Sign-On** and  **Log in to [<custom_domain>] with username and password** options in the **Login Settings** pop-up must be enabled to allow SSO for Users.
 > * The action is pending until new members accept the invitations and existing members accept the requests.
 
 ## View and manage User Authentication
