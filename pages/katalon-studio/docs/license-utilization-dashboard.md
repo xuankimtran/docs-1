@@ -15,7 +15,7 @@ As an organization owner or administrator, the **License Utilization Dashboard**
 
 In [Katalon TestOps](https://testops.katalon.io/), select an Organization. Go to **Settings > License Management > License Utilization**.
 
-The dashboard contains a dynamic visualization with filter options.
+The dashboard contains a dynamic visualization with filter options. You can also export your filtered data as a CSV file for analysis and management purposes.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-utilization-dashboard/license%20utilization%20page.png" alt="license utilization" width=100%>
 
@@ -35,7 +35,7 @@ The dashboard contains a dynamic visualization with filter options.
     
     If you leave it blank by default, you will see the total duration used for all license types, machine IDs, and user emails, including the data of removed machine IDs and user emails.
 
-    In each filter category, you can search and select multiple options. You can filter removed users. The removed machine IDs are excluded in the filter.
+    In each filter category, you can search and select multiple options. You can filter removed users. The removed machine IDs are excluded from the filter.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-utilization-dashboard/search-filter.png" alt="search option" width=70%>
 
@@ -81,3 +81,17 @@ Below the graph section, you can view the detailed list of sessions completed by
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-utilization-dashboard/detail%20session.png" alt="sessions" width=100%>
 
 If you leave the filter blank by default, you can still find the removed user emails or machine IDs session in the session table.
+
+### Export Utilization Report
+
+After you filter your desired data, you can generate and download a CSV report. On the top left corner of the **License Utilization** dashboard, hit the _Export_ button. A CSV file named `License Utilization_[Org-name]_OrgID_yyyymmdd-yyyymmdd.csv` is downloaded to your machine, in which `yyyymmdd-yyyymmdd` is the filtered date range.
+
+The exported report includes:
+
+* Username
+* User email
+* Session ID
+* Machine ID
+* License type
+* Started: Timestamp
+* Duration
