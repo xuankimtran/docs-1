@@ -15,14 +15,23 @@ description:
 
 This tutorial shows you how to run Katalon Studio test with Katalon Docker Image (KDI). This image contains up-to-date browsers, including Google Chrome, Mozilla Firefox, and Katalon Studio. Hence when running your Katalon Project with Katalon Studio Docker Image, the pre-installed Katalon Studio and Katalon Runtime Engine in your local machine are not required. 
 
+Docker Image for Katalon Studio is available here at Docker Hub: [katalonstudio/katalon](https://hub.docker.com/r/katalonstudio/katalon/).
+
+> You can download our Github sample project for CI configurations using Docker Image: [Docker Images samples](https://github.com/katalon-studio/docker-images-samples).
 ## Pull Katalon Docker Image
 
-1. Go to [katalonstudio/katalon](https://hub.docker.com/r/katalonstudio/katalon/) for Katalon Docker Image. 
-2. Open terminal in your local machine, copy and paste the following command line:
+To pull KDI, open **Terminal** in your local machine, copy and paste the following command line:
 
 ```
 docker pull katalonstudio/katalon
 ```
 
-* Learn more about its usage in our Github project: [Docker Images](https://github.com/katalon-studio/docker-images).
-* You can also download our sample project for CI configurations using Docker Image: [Docker Images samples](https://github.com/katalon-studio/docker-images-samples).
+If you want to check which version of Google Chrome and Mozilla Firefox the KDI supports, copy and paste the following command in the **Terminal**: 
+
+```
+docker run -t --rm katalonstudio/katalon cat /katalon/version
+```
+## Run your test with Katalon Docker Image
+
+1. Open **Terminal**, then go to the test project directory you wish to run. For example, we want to run the **CI sample** test project.
+
