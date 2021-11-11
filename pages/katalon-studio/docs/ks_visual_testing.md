@@ -26,13 +26,11 @@ Follow these steps:
 >
 > If you have enabled Katalon Studio Integration, Katalon Studio automatically uploads Test Results to Katalon TestOps.
 
-3. Sign in to [Katalon TestOps](https://testops.katalon.io/login) and go to your Project. 
+3. Sign in to [Katalon TestOps](https://testops.katalon.io/login) and go to your Project.
 
-4. Go to **Reports & Analytics** > **Visual Testing**.
+4. Go to **Reports** > **Visual Testing**.
 
-    The **Visual Test Runs** page appears as below.
-
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-visual-testing/visual-testing-page-testops.png" width=100% alt="visual test runs page in visual testing">
+    The **Visual Test Runs** page appears.
 
 5. Click on the ID of a Test Run.
 
@@ -78,13 +76,11 @@ Follow these steps:
 
 ### View baseline information
 
-To see the baseline images you have saved, go to **Reports & Analytics** > **Visual Testing** > **Visual Baselines**, then select a screenshot for **Baseline information**.
+To see the baseline images you have saved, go to **Reports** > **Visual Testing** > **Visual Baselines**, then select a screenshot for **Baseline information**.
 
-### Unresolved images
+## Unresolved images
 
 If you run the Test Suite again and the new screenshots of this test execution are different from the baseline images, the status of this Test Run is then marked as *Unresolved*.
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-visual-testing/visual-testing-page-id-4-unresolved.png" width=100% alt="id4 unresolved status">
 
 To resolve the issues, follow these steps:
 
