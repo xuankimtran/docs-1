@@ -83,7 +83,7 @@ docker run -t --rm -v "$(pwd)":/tmp/project katalonstudio/katalon katalonc.sh -p
 ```
 ## Prevent user permissions issue on your machine
 
-You can also run the test under the current user ID using the `KATALON_USER_ID` environment variable. This helps avoid permission issues when accessing artifacts generated after the test execution. Follow these steps:
+You can run the test under the current user ID using the `KATALON_USER_ID` environment variable. This helps avoid permission issues when accessing artifacts generated after the test execution. Follow these steps:
 
 1. Open **Terminal**, then run `id -u $USER`. The result will tell you the current user ID. Here, the user ID is: 502
    
