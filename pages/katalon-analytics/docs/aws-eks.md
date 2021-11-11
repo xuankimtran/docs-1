@@ -38,11 +38,10 @@ Follow these steps:
 
 Next steps:
 
-1. [Upload Test Scripts to a Script Repository](https://docs.katalon.com/katalon-analytics/docs/code-repo.html).
+1. [Upload Test Scripts from a Git Repository](https://docs.katalon.com/katalon-analytics/docs/git-test-project.html).
 2. [Schedule Test Runs](https://docs.katalon.com/katalon-analytics/docs/create-plan.html).
 
 See also:
 
 * [Create a Local Test Environment with an Agent](https://docs.katalon.com/katalon-analytics/docs/agents.html).
 * [Set up an Agent to execute tests on Docker environment](https://docs.katalon.com/katalon-analytics/docs/docker.html).
-* [Create a CircleCI Test Environment](https://docs.katalon.com/katalon-analytics/docs/circleci.html).
