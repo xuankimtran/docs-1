@@ -3,6 +3,7 @@ title: "Supported Technologies"
 sidebar: katalon_studio_docs_sidebar 
 permalink: /katalon-studio/docs/product-availability-matrix.html 
 redirect_from:
+
 	- "/katalon-studio/docs/unique-capabilities.html"
 --- 
 
