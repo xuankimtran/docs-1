@@ -32,7 +32,7 @@ To configure an Agent's Threshold, follow these steps:
 
     The **Test Environments** page appears.
 
-3. Click on the Local Test Environment you want to configure the Agent's Threshold for (e.g., **My Agent**).
+3. Click on the Local Test Environment you want to configure the Agent's Threshold for.
 
     The **Agent Details** page appears as below.
 
@@ -54,36 +54,28 @@ You can check the sessions in the **Test Environments** page.
 
 You can create a new Test Runs Schedule to assign an Agent for Test Executions. See: [Schedule Test Runs](https://docs.katalon.com/katalon-analytics/docs/create-plan.html).
 
-When creating a new Test Runs Schedule, you are asked to select Test Environments.
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-load-balancing/assign-test-environment-in-schedule-page.png" width=100% alt="test environment section in schedule test run page">
-
-You can select an Agent here to assign it to your new Test Plan.
+When creating a new Test Runs Schedule, you are asked to select Test Environments. You can select an Agent here to assign it to your new Test Plan.
 
 ### For an existing Test Plan
 
-1. Go to your Project > **Test Planning** > **Test Run Types**.
+1. Go to your Project > **Test Execution** > **Test Run List**.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-load-balancing/test-run-types-page.png" width=100% alt="test run type page">
-
-2. Click on a Test Run Type (e.g., **a Verify Match exact name**).
+2. Click on a Test Run List.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-load-balancing/a-verify-match-exact-name-page.png" width=100% alt="a verify match exact name page">
 
 3. Click **Edit**.
 
-    The Test Run Type page appears as below (e.g., **Test run type: a Verify Match exact name**).
+    The **Schedule Test Run** page appears as below.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-load-balancing/assign-test-environjment-agent.png" width=100% alt="highlight select test environment section">
 
-4. Scroll down to the **Select Test Environment** section.
+4. Go to the **Test Environments** section, select a new Agent.
 
-    In the **Test Environments** section, select a new Agent.
-    
 5. Click **Save**.
 
 > Notes:
 >
-> * You can reassign old Test Run Types or assign multiple new Test Run Types to any configured Agent.
+> * You can reassign old Test Run List or assign multiple new Test Run Lists to any configured Agent.
 
 To check the Test Execution process, go back to the **Test Environments** page.
