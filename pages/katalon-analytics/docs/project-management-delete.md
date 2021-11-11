@@ -54,7 +54,7 @@ Follow these steps:
 >
 > You must be the Owner or Admin of an Organization.
 
-1. Go to your Project > **Reports & Analytics** > **Test Runs**.
+1. Go to your Project > **Reports** > **Test Runs**.
 
 2. Click on the *Extension* icon of the Test Run you want to delete and choose **Delete**.
 
@@ -72,7 +72,7 @@ Follow these steps:
 
 In Katalon TestOps, you can also delete multiple Executions at the same time by using the bulk selection feature.
 
-1. Go to your Project > **Reports & Analytics** > **Test Runs**.
+1. Go to your Project > **Reports** > **Test Runs**.
 
 2. Check the boxes (as shown below) to select the Executions you want to delete.
 
