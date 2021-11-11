@@ -1,5 +1,5 @@
 ---
-title: "Docker Image" 
+title: "Katalon Docker Image" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/docker.html 
 redirect_from:
