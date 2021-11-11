@@ -37,7 +37,7 @@ You have enabled Kobiton integration. Now you can run tests with a Kobiton devic
 
 > Requirements:
 >
-> You have created a Script Repository on Katalon TestOps. See: [Upload Test Scripts to a Script Repository](https://docs.katalon.com/katalon-analytics/docs/code-repo.html).
+> You have created a Script Repository on Katalon TestOps. See: [Upload Test Scripts from a Git Repository](https://docs.katalon.com/katalon-analytics/docs/git-test-project.html).
 
 After creating a Script Repository, you can schedule test runs with a Kobiton device by configuring the advanced settings in the **Schedule Test Runs** dialog. See: [Schedule Test Runs](https://docs.katalon.com/katalon-analytics/docs/create-plan.html#advanced-settings).
 
