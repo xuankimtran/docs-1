@@ -58,9 +58,7 @@ Follow these steps:
 
 4. Click **Connect**.
 
-   Additional sections appear as below.
-
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-git-test-project/script-repo-page-after-clicking-connect.png" width=100%>
+   The following sections appear:
 
    * **Branch**: choose a branch.
    * **Name**: enter your Project’s name.
