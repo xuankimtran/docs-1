@@ -7,17 +7,17 @@ description: Instructions on how to generate and use a Katalon API Key
 
 ## Generate a Katalon API Key
 
-You need to generate API Keys in Katalon TestOps for the following circumstances:
+You need to generate API Keys in Katalon TestOps in the following circumstances:
 
-* when you want to integrate Katalon Studio with Katalon TestOps in the console mode. See [Katalon Studio Integration](https://docs.katalon.com/katalon-analytics/docs/integration-with-katalon-studio.html#enable-integration).
+* When you want to integrate Katalon Studio with Katalon TestOps in console mode. See [Katalon Studio Integration](https://docs.katalon.com/katalon-analytics/docs/integration-with-katalon-studio.html#enable-integration).
   
   > Notes:
   >
   > In the command-line generator in Katalon Studio, the command-line options for API Keys, including `-apiKey=<Your_API_Key>` and `-apikey=<Your_API_Key>` are both accepted.
 
-* when you want to integrate Katalon TestOps with other platforms such as [Jira](https://docs.katalon.com/katalon-analytics/docs/kt-jira-config.html) and [Jenkins](https://docs.katalon.com/katalon-analytics/docs/ka-integration-jenkins.html), 
+* When you want to integrate Katalon TestOps with other platforms such as [Jira](https://docs.katalon.com/katalon-analytics/docs/kt-jira-config.html) and [Jenkins](https://docs.katalon.com/katalon-analytics/docs/ka-integration-jenkins.html), 
 
-* when you want to create a test environment such as [CircleCI](https://docs.katalon.com/katalon-analytics/docs/circleci.html), [AWS EKS](https://docs.katalon.com/katalon-analytics/docs/aws-eks.html), or [create a local test environment with an agent](https://docs.katalon.com/katalon-analytics/docs/agents.html).
+* When you want to create a test environment such as [CircleCI](https://docs.katalon.com/katalon-analytics/docs/circleci.html), [AWS EKS](https://docs.katalon.com/katalon-analytics/docs/aws-eks.html), or [create a local test environment with an agent](https://docs.katalon.com/katalon-analytics/docs/agents.html).
 
 To create a new API Key, follow these steps:
 
