@@ -95,6 +95,12 @@ You can run the test under the current user ID using the `KATALON_USER_ID` envir
     docker run -t --rm -e KATALON_USER_ID=<the-current-userID> -v "$(pwd)":/tmp/project katalonstudio/katalon katalonc.sh -projectPath=/tmp/project [Option1] [Option2] ... [OptionN]
     ```
 
+    For example, we want to run the test with the userID from step 1, we enter the command as follows:
+
+    ```groovy
+    docker run -t --rm -e KATALON_USER_ID=502 -v "$(pwd)":/tmp/project katalonstudio/katalon katalonc.sh -projectPath=/tmp/project [Option1] [Option2] ... [OptionN]
+    ```
+
 <details><summary>For Katalon Docker Image below 7.2.1</summary>
 
 ## Execute Katalon Studio tests with Katalon Docker Image
