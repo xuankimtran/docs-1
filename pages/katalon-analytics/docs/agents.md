@@ -34,8 +34,6 @@ To install an Agent, follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-agent-setup/agen-setup-page-to.png" width=100% alt="testops agent setup page">
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-agent-setup/agent-setup-code-page-blurred.png" width=100% alt="testops agent setup code page">
-
 > Notes:
 >
 > You use the commands in the **Generate configuration** and **Start an agent** sections when setting up an Agent in your local machine.
@@ -91,7 +89,7 @@ Follow these steps:
 
 4. Go to the **Agent Setup** page and click on **Test Environments** (in the **Schedule a test run** section).
 
-You have created a Local Test Environment with an Agent (e.g., **My Agent**).
+You have created a Local Test Environment with an Agent.
 
 ### Manage the Agent status
 
@@ -124,5 +122,5 @@ You can see the `serverurl` and `apikey` in the **Generate configuration** secti
 You can set up Proxy for the Agent in the *agentconfig* file, using the `proxy` option. For example, `proxy=http://localhost:8080`.
 
 Next steps:
-* [Upload Test Scripts to a Script Repository](https://docs.katalon.com/katalon-analytics/docs/code-repo.html).
+* [Upload Test Scripts from a Git Repository](https://docs.katalon.com/katalon-analytics/docs/git-test-project.html).
 * [Schedule Test Runs](https://docs.katalon.com/katalon-analytics/docs/create-plan.html).
