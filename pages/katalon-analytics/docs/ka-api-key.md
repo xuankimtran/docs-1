@@ -29,6 +29,10 @@ To create a new API Key, follow these steps:
 
     The **Katalon API Key** page appears.
 
+    > Notes:
+    >
+    > You can also click on [this link](https://testops.katalon.io/user/apikey), then sign in to have access to the **Katalon API Key** page directly.
+
 4. Click **Create API Key** at the top right corner.
   
     The **Create API Key** box pops up.
