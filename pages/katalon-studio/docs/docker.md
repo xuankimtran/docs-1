@@ -13,7 +13,7 @@ description:
 > * Docker installed. You can refer to the instructions in the Docker document here: [Get Docker](https://docs.docker.com/get-docker/).
 > * An active Katalon Runtime Engine floating license. To learn more about types of licenses, you can refer to this document: [Types of licenses](https://docs.katalon.com/katalon-studio/docs/license.html).
 
-This tutorial shows you how to run Katalon Studio test with Katalon Docker Image (KDI). This image contains up-to-date browsers, including Google Chrome, Mozilla Firefox, and Katalon Studio. Hence when running your Katalon Project with Katalon Studio Docker Image, the pre-installed Katalon Studio and Katalon Runtime Engine in your local machine are not required. 
+This tutorial shows you how to run the Katalon Studio test with Katalon Docker Image (KDI). This image contains up-to-date browsers, including Google Chrome, Mozilla Firefox, and Katalon Studio. Hence when running your Katalon Project with Katalon Studio Docker Image, the pre-installed Katalon Studio and Katalon Runtime Engine in your local machine are not required. 
 
 Docker Image for Katalon Studio is available here at Docker Hub: [katalonstudio/katalon](https://hub.docker.com/r/katalonstudio/katalon/).
 
@@ -50,7 +50,7 @@ docker run -t --rm katalonstudio/katalon cat /katalon/version
     > Notes:
     >
     > * The `katalonc.sh` command starts Katalon Studio and other necessary components. 
-    > * All Katalon Studio console mode arguments are accepted except `-runMode`. You can find more command line options at [Command Syntax](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#general-options).
+    > * All Katalon Studio console mode arguments are accepted except `-runMode`. You can find more command-line options at [Command Syntax](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#general-options).
 
     For example, we want to run the **TS_RegressionTest** test suite from the **CI sample** project with the Chrome browser in Katalon Docker Image. We enter the command as follows:
 
@@ -74,14 +74,14 @@ docker run -t --rm katalonstudio/katalon cat /katalon/version
 
 ## Proxy Configuration
 
-If you need to configure proxy for Katalon Studio, you can refer to this document: [Proxy Options](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#proxy-options).
+If you need to configure proxies for Katalon Studio, you can refer to this document: [Proxy Options](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#proxy-options).
 
-These proxy options must be used with `--config` parameter, for example:
+These proxy options must be used with the `--config` parameter, for example:
 
 ```groovy
 docker run -t --rm -v "$(pwd)":/tmp/project katalonstudio/katalon katalonc.sh -projectPath=/tmp/project -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/TS_RegressionTest" -apikey="<your_API_key>" --config -proxy.option=MANUAL_CONFIG -proxy.server.type=HTTP -proxy.server.address=192.168.1.221 -proxy.server.port=8888
 ```
-## Prevent user permission issue on your machine
+## Prevent user permissions issue on your machine
 
 You can also run the test under the current user ID using the `KATALON_USER_ID` environment variable. This helps avoid permission issues when accessing artifacts generated after the test execution. Follow these steps:
 
