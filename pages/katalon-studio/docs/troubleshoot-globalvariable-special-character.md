@@ -7,6 +7,11 @@ redirect_from:
 
 ---
 
+> Tips
+>
+> * Please use **Ctrl+F** to look for the exceptions and errors you have encountered quickly.
+
+
 <table>
 	<tbody>
 		<tr>
@@ -41,7 +46,7 @@ redirect_from:
 					<div>
 						<div>
 							<div>
-								<div>When executing tests in KRE in Windows with Chrome version 93.x, users may come across the following error:</div>
+								<div>When executing tests in KRE in Windows with Chrome version 93.x or 94.x, users may come across the following error:</div>
 							</div>
 						</div>
 					</div>

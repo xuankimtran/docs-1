@@ -1,5 +1,5 @@
 ---
-title: "Troubleshoot test not loading when executing with Chrome version 93,94 in Windows"
+title: "Tests not loading when executing with Chrome version 93,94 in Windows"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-testcloud/docs/troubleshoot-test-execution-chrome-93-94.html
 description: 
