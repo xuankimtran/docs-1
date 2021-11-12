@@ -13,9 +13,9 @@ Follow these steps:
 
 1. Sign in to [Katalon TestOps](https://testops.katalon.io/login) and go to your Project.
 
-2. Go to **Test Planning**, then select the **Releases** tab.
+2. Go to **Planning** > **Releases**.
 
-3. Click on the name of a Release (e.g., **7.3.7**).
+3. Select a Release (e.g., **7.3.7**).
 
     The **Test Cases** page of the **7.3.7** Release appears as below.
 
@@ -29,7 +29,7 @@ Follow these steps:
 
     * **Name**: enter the Build's name.
     * **Description**: add a note about your Build.
-    * **Date**: enter the date you create this Build. 
+    * **Date**: enter the date you create this Build.
 
 6. Click **Create**.
 
@@ -51,17 +51,15 @@ After linking, you can view the linked Test Runs on the Build page.
 
 ### View a build  
 
-1. Go to **Test Planning** > **Releases**.
+1. Go to **Planning** > **Releases**.
 
-2. Click on the name of a Release (e.g., **7.3.7**).
+2. Select a Release.
 
 3. Scroll down to view a list of Builds in the **Builds** section.
 
-4. Select a Build to view (e.g., **Create a new Build**).
+4. Select a Build.
 
-    The **Build: Create a new Build** page appears as below.
-
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/builds/build-details.png" width="" height="" alt="build page">
+    The Build page appears.
 
     You can view a list of Test Runs you have linked to this Build. 
     
@@ -69,9 +67,9 @@ After linking, you can view the linked Test Runs on the Build page.
 
 ###  Update a build
 
-1. Go to **Test Planning** > **Releases**.
+1. Go to **Planning** > **Releases**.
 
-2. Click on the name of a Release (e.g., **7.3.7**).
+2. Select a Release.
 
 3. Scroll down to view a list of Builds in the **Builds** section.
 
@@ -89,15 +87,13 @@ You have updated a Build.
 
 ### Delete a build
 
-1. Go to **Test Planning** > **Releases**.
+1. Go to **Planning** > **Releases**.
 
-2. Click on the name of a Release (e.g., **7.3.7**).
+2. Select a Release.
 
 3. Scroll down to view a list of Builds in the **Builds** section.
 
 4. Click on the *Extension* icon of the Build you want to delete.
-
-    <img src="https://raw.githubusercontent.com/katalon-studio/docs-images/testops-new/katalon-analytics/docs/build/build-edit-delete.png" width="" height="" alt="edit build">
 
 5. Click **Delete**.
 
