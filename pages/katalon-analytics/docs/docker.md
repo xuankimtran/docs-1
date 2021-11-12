@@ -55,5 +55,5 @@ In Katalon TestOps, go to the **Test Environments** page to see the Docker Test 
 
 Next steps:
 
-1. [Upload Test Scripts to a Script Repository](https://docs.katalon.com/katalon-analytics/docs/code-repo.html).
+1. [Upload Test Scripts from a Git Repository](https://docs.katalon.com/katalon-analytics/docs/git-test-project.html).
 2. [Schedule Test Runs](https://docs.katalon.com/katalon-analytics/docs/create-plan.html).
