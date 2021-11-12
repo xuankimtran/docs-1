@@ -10,6 +10,8 @@ redirect_from:
 > Tips
 >
 > * Please use **Ctrl+F** to look for the exceptions and errors you have encountered quickly.
+> * If the exception you are looking for is not documented, please leave go to the [Katalon forum](https://forum.katalon.com/) to have a better support.
+
 
 
 <table>
