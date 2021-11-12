@@ -9,7 +9,7 @@ TestOps allows you to compare the results of multiple test runs. By doing so, yo
 Follow these steps:
 
 1. Sign in to [Katalon TestOps](https://testops.katalon.io/login) and go to your Project.
-2. Go to **Reports & Analytics** > **Test Runs**.
+2. Go to **Reports** > **Test Runs**.
 
     The **Test Runs** page appears.
 
@@ -26,8 +26,6 @@ Follow these steps:
     After selecting Test Runs, you will see a new options bar pop up at the top of the page.
 
 5. Click **Compare**.
-
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/compare-test-results/compare-button.png" width=100% alt="compare button">
 
     The **Test Runs Comparison** page appears as below.
 
