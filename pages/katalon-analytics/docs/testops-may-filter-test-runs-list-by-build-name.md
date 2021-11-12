@@ -10,37 +10,42 @@ In Katalon TestOps, you can filter Test Runs by Build name to:
 * Find and track the list of Test Runs linked with specific Build names.
 * Monitor testing progress linked with those Builds.
 
-> **Prerequisites**
+> Requirements:
 >
->* Execute tests from Katalon Runtime Engine.
->* Integrate Katalon Studio with Katalon TestOps.
->
->   You can learn about integration [here]( https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html).
+>* You must execute tests from Katalon Runtime Engine.
+>* You have integrated Katalon Studio with Katalon TestOps. See: [Katalon Studio Integration](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html).
 
 ## Add Build name in Command Line or Console Mode
+
 Follow these steps:
 1. Open Command prompt.
 2. Find the Command Line option `--info -buildLabel` and edit it with your own info.
-> You can find it in this [list of `katalonc` command options](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#general-options).
+
+> Notes:
+>
+> You can find it in [this list of `katalonc` command options](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#general-options).
 
 ## Filter Test Runs by Build name in Katalon TestOps
+
 Follow these steps:
-1. Go to [TestOps web page](https://testops.katalon.io/login) account.
-2. Login to your account and choose your project.
-3. Click on **Reports & Analytics**, then **Test Runs**.
+1. Sign in to [Katalon TestOps](https://testops.katalon.io/login) and go to your Project.
+
+2. Go to **Reports** > **Test Runs**.
 4. Find the **Build Label** filter as shown below.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-may-filter-test-runs-list-by-build-name/build-label-button.png"  width=100% alt="build name new UI">
 
     By default, it will display _All_ which means that all of your Test Runs in all Builds are listed.
 
-5. Click on **Build Label** to start filtering. Manually input the `-buildLabel` value that was previously configured in Katalon Studio.
+5. Click **Build Label**, then manually input the `-buildLabel` value that was previously configured in Katalon Studio.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-may-filter-test-runs-list-by-build-name/build-label-box.png" width=70% alt="build name box">
 
 5. Click **Update**.
 
     You can now see the list of Test Runs associated with that `-buildLabel`.
-> The Build name will be displayed under the **Configuration** section on each Test Run.
 
-You can also go back to the default filter by clicking **Clear**.
+> Notes:
+>
+> * The Build name will be displayed under the **Configuration** section on each Test Run.
+> * You can also go back to the default filter by clicking **Clear**.
