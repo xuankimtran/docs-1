@@ -17,17 +17,17 @@ Follow these steps:
 
     The Project's **Dashboard** page appears.
 
-2. Select the **Test Planning** tab, then the **Releases** tab.
+2. Go to **Planning** > **Releases**.
 
     The **Releases** page appears as below.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-releases/create-release-in-test-planning-testops.png" width="" height="">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-releases/create-release-in-test-planning-testops.png" width="" height="" alt="release page">
 
 3. Click on the **Create Release** button at the top right corner.
 
     The **Create Release** page appears as below.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-releases/create-release-page-appears.png" width="" height="">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-releases/create-release-page-appears.png" width="" height="" alt="create release page">
 
 4. Fill in the required information.
     * **Name**: your Release version (e.g., Release **8.0**).
@@ -38,9 +38,9 @@ Follow these steps:
 
 ## Populate a Jira Release
 
-> Notes:
+> Requirements:
 >
-> You must enable Jira integration in Katalon TestOps first.
+> You have enabled Jira integration. See: [Jira Settings](https://docs.katalon.com/katalon-analytics/docs/kt-jira-config.html).
 
 There are two ways to populate Releases from Jira:
 
@@ -52,23 +52,23 @@ OR
 
 ### Create Releases
 
-Once you enable Jira integration in Katalon TestOps, the **Jira Project** and **Jira Release** sections are added in the **Create Release** page.
+Once you have enabled Jira integration in Katalon TestOps, the **Jira Project** and **Jira Release** sections are added in the **Create Release** page.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-releases/create-release-page-once-jira-integrated.png" width="" height="">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-releases/create-release-page-once-jira-integrated.png" width="" height="" alt="create release jira integrated page">
 
 Select your Jira Project and Jira Release in the dropdown menu, then click **Create**.
 
 ### Populate Jira Releases
 
-Once you enable Jira integration in Katalon TestOps, the **Populate Jira Releases** button appears next to the **Create Release** button in the **Releases** page.
+Once you have enabled Jira integration in Katalon TestOps, the **Populate Jira Releases** button appears next to the **Create Release** button on the **Releases** page.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-releases/populate-jira-release-button.png" width="" height="">
+Click on the **Populate Jira Releases** button.
 
-Click on the **Populate Jira Releases** button. The **Populate Jira Releases** box displays as below.
+The **Populate Jira Releases** box pops up.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-releases/populate-jira-release-box-popup.png" width="" height="">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-releases/populate-jira-release-box-popup.png" width="" height="" alt="populate jira release popup">
 
-Choose your Jira Release in the dropdown menu, then click **OK**.
+Select your Jira Release in the dropdown menu, then click **OK**.
 
 ## Link Test Runs to a Release
 
@@ -78,13 +78,9 @@ Follow these steps:
 
     The Project's **Dashboard** page appears.
 
-2. Select the **Reports & Analytics** tab.
+2. Go to **Reports** > **Test Runs**.
 
-    The **Test Runs** page appears.
-
-3. Scroll down the **Test Runs** page to see the list of all Test Runs and their IDs.
-
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-releases/scroll-down-for-test-run-id-list.png" width="" height="">
+3. Scroll down to see the list of all Test Runs and their IDs.
 
 4. Click on the ID number of a Test Run.
 
@@ -104,17 +100,11 @@ Follow these steps:
 
 If you have already linked a Test Run to a Release, the **Test Run: #** page displays as below.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-releases/test-run-already-linked-to-a-release.png" width="" height="">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-releases/test-run-already-linked-to-a-release.png" width="" height="" alt="linked release button">
 
 For example, **Test Run: #1234** has already been linked to Release **8.0**.
 
-You can link this Test Run to a different Release by clicking on the button next to the current Release (next to **8.0**).
-
-The scrolldown menu appears as below.
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-releases/test-run-already-linked-scrolldown-menu.png" width="" height="">
-
-Select the new Release you want to link.
+You can link this Test Run to a different Release by clicking on the icon next to the current Release (next to **8.0**), then select the new Release you want to link.
 
 > Notes:
 >
