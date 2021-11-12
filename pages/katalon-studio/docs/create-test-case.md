@@ -25,6 +25,8 @@ After you create your Katalon Project, it's time to generate your very first Tes
 
 Katalon Studio supports Keywords-Driven testing where Test Cases consist of keywords representing actions of users on the Applications Under Test (AUT). The Manual mode allows users with less experience in programming to generate automated tests.
 
+In addition to the Manual mode, Katalon Studio allows expert users to programmatically write automated test in the Script mode of Test Cases. Users with Groovy/Java backgrounds can modify the test script as needed.
+
 In this tutorial, we will guide you through creating a new Test Case, then adding your test steps in Manual and Script mode with usage examples.
 
 ## Create a new Test Case
@@ -51,7 +53,7 @@ On the right side of Katalon Studio, you can see the **Test Explorer** section c
 
 ## Generate Test Steps in Manual View
 
-The tutorial below will give you step-by-step instruction to create an automated Test Case in Manual mode. Do as follows:
+The tutorial below will give you step-by-step instruction to create test steps in Manual mode.
 
 1. In the **Manual** tab of the **Test Case Editor**, click **Add**. A new line represented a test step is generated.
 
@@ -59,13 +61,15 @@ The tutorial below will give you step-by-step instruction to create an automated
 
     > Notes:
     >
-    > * To learn more about keywords in Katalon Studio, hover on each keyword to see its description. You can also go to Katalon Studio documentation page and use the search bar to find the detailed information and usage example of each keyword.
+    > To learn more about keywords in Katalon Studio, hover over each keyword to see its description. You can also go to Katalon Studio documentation page and use the search bar to find the detailed information and usage example of each keyword.
 
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/manual-view/image2017-8-18-133A543A48.png)
 
 
 3. You can also add a **Statement** or **Call Test Case** as a test step. Click on the drop-down of the _Add_ button and select an option. See also: [Statements](https://docs.katalon.com/katalon-studio/docs/statements.html) and [Call Test Case](https://docs.katalon.com/katalon-studio/docs/call-test-case.html).
     
+    > Notes:
+    >
     > Once a test step is added as Call Test Case, or any of the control statements, it will not be allowed to change into another keyword.
 
 4. Continue adding your test steps. You can also **Move up**, **Move down**, or **Delete** a test step.
@@ -130,8 +134,6 @@ The recent list will have two sections: **Object Folder** and **Test Object**.
 
 ## Generate Test Steps in Script Mode
 
-In addition to the [Manual view](/display/KD/Test+Case+Manual+View), Katalon Studio allows expert users to programmatically write automated test in the Script view of Test Cases. Users with Groovy/Java backgrounds can modify the test script as needed.
-
 Once a new test case is created, you can switch to the **Script view** using the corresponding tab at the footer of the test case editor. Test steps specified in the **Manual view** are translated into a Groovy script in **Script view**.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/script-view/image2017-6-30-193A243A19.png)
@@ -165,9 +167,9 @@ After entering the dot character (.), all built-in keywords and their descriptio
 
 Use the following syntax to refer to an object in **Object Repository** (alternatively, you can drag and drop the object to test case editor to generate the syntax):
 
-    ```groovy
-    findTestObject('{Object ID}')
-    ```
+```groovy
+findTestObject('{Object ID}')
+```
     
 **Object ID** is the ID of that object in Katalon Studio. You can find object ID from its Properties dialog. For example:
 
