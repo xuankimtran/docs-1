@@ -1401,7 +1401,7 @@ items:
             url: /katalon-analytics/docs/ka-integration-jenkins.html
       - title: "Test Maintenance"
         tree:
-          - title: "Change the Test Result from failing to passing"
+          - title: "Override Test Results status"
             url: /katalon-analytics/docs/kt-change-result-pass-fail.html  
           - title: "Compare Test Results"
             url: /katalon-analytics/docs/compare-test-results.html    
