@@ -7,12 +7,12 @@ description:
 
 When executing tests on TestCloud in Windows with Chrome version 93.x or 94.x, users may come across the following error:
 
-```
+``` groovy
 SessionNotCreatedException: Message: session not created
 from timeout: Timed out receiving message from renderer: 600.000
 ```
 
-The tests hang on launching the browser and eventually time out. This is an issue from Chrome itself that doesn’t allow the ChromeDriver to start as Windows service normally.
+The tests hang on launching the browser and eventually time out. This is an issue from Chrome version 93.x and 94.x that doesn’t allow the ChromeDriver to start as a Windows service.
 
 There are two ways to solve this issue:
 
