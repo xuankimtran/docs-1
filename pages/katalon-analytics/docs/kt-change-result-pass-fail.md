@@ -29,9 +29,7 @@ Follow these steps:
 
 1. Sign in to [Katalon TestOps](https://testops.katalon.io/login) and go to your Project.
 
-2. Go to **Reports & Analytics**.
-
-    The **Test Runs** page appears.
+2. Go to **Reports** > **Test Runs**.
     
 3. Click on a Test Run ID, then select the **Test Results** tab.
 
