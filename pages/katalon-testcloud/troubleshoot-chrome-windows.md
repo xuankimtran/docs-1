@@ -14,10 +14,9 @@ from timeout: Timed out receiving message from renderer: 600.000
 
 The tests hang on launching the browser and eventually time out. This is an issue from Chrome version 93.x and 94.x that doesn’t allow the ChromeDriver to start as a Windows service.
 
-There are two ways to solve this issue:
+To solve this issue, we provide you two workarounds:
 
-1. Downgrade to Chrome version 92.x
-2. Set `--disable-gpu` for the desired capability in Chrome. For Katalon Studio users, to do so, go to **Project Settings > Desired Capabilities > Web UI > Chrome**. Click **Add**, then input as follows:
+1. Set `--disable-gpu` for the desired capability in Chrome. For Katalon Studio users, to do so, go to **Project Settings > Desired Capabilities > Web UI > Chrome**. Click **Add**, then input as follows:
 
     <table width="587">
     <tbody>
@@ -34,4 +33,8 @@ There are two ways to solve this issue:
     </tbody>
     </table>
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/troubleshoot/TC-TROUBLESHOOT-Set-desired-capability.png" width="70%" alt="Set desired capabilities in Chrome">
+    With the configured desired capabilities, you can continue to work with Chrome version 93.x or 94.x
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/troubleshoot/TC-DS-2.jpg" width="90%" alt="Set desired capabilities in Chrome">
+
+2. Downgrade to Chrome version 92.x
