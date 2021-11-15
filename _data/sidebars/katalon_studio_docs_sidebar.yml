@@ -1350,9 +1350,7 @@ items:
           - title: "Kubernetes Test Environments"
             url: /katalon-analytics/docs/aws-eks.html
       - title: "Test Planning"     
-        tree: 
-          - title: "Overview"
-            url: /katalon-analytics/docs/kt-remote-execution.html
+        tree:
           - title: "Schedules"
             tree:
               - title: "Schedule Test Runs"
