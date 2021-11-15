@@ -13,9 +13,9 @@ description:
 > * Docker installed. You can refer to the instructions in the Docker document here: [Get Docker](https://docs.docker.com/get-docker/).
 > * An active Katalon Runtime Engine floating license. To learn more about types of licenses, you can refer to this document: [Types of licenses](https://docs.katalon.com/katalon-studio/docs/license.html).
 
-This tutorial shows you how to run the Katalon Studio test with Katalon Docker Image (KDI). This image contains up-to-date browsers, including Google Chrome, Mozilla Firefox, and Katalon Studio. Hence when running your Katalon Project with Katalon Studio Docker Image, the pre-installed Katalon Studio and Katalon Runtime Engine in your local machine are not required. 
+This tutorial shows you how to run tests with Katalon Docker Image (KDI). This image contains up-to-date browsers, including Google Chrome, Mozilla Firefox, and Katalon Studio. With KDI, you do not need to use the Katalon Studio and Runtime Engine apps installed on your local machine.
 
-Docker Image for Katalon Studio is available here at Docker Hub: [katalonstudio/katalon](https://hub.docker.com/r/katalonstudio/katalon/).
+KDI for Katalon Studio is available at Docker Hub: [katalonstudio/katalon](https://hub.docker.com/r/katalonstudio/katalon/).
 
 > You can download our Github sample project for CI configurations using Docker Image: [CI samples](https://github.com/katalon-studio/docker-images-samples).
 ## Pull Katalon Docker Image
@@ -29,7 +29,7 @@ After successfully pulling KDI, you should see the **katalonstudio/katalon** ima
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-docker-image/KS-DOCKER-Katalon-docker-image.png" width="70%" alt="KDI in the Docker app">
 
-If you want to check which version of Google Chrome and Mozilla Firefox the KDI supports, copy and paste the following command in the **Terminal**: 
+To check which Chrome and Firefox versions are supported by KDI, copy and paste the following command in the **Terminal**: 
 
 ``` groovy
 docker run -t --rm katalonstudio/katalon cat /katalon/version
@@ -62,7 +62,7 @@ docker run -t --rm katalonstudio/katalon cat /katalon/version
 
     > Notes:
     >
-    > * To avoid syntax errors, you can use the Command Builder to generate commands quickly and precisely. To learn more about the command builder, you can refer to this document: [Command Builder](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#command-builder).
+    > * To avoid syntax errors, you can use the Command Builder to generate commands. To learn more about the command builder, you can refer to this document: [Command Builder](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#command-builder).
     >
     > * <your_API_Key>: the API key verifies your credentials. The command-line options of API Key, including -apiKey=<Your_API_Key> and -apikey=<Your_API_Key> are both accepted. To learn more about API keys, you can refer to this document: [API key](https://docs.katalon.com/katalon-analytics/docs/ka-api-key.html#katalon-api-keys-usage).
 
