@@ -15,7 +15,7 @@ You can use the **Log Viewer** in two modes: **Tabular View** and **Tree View**.
 
 To switch between the two modes, in the top-right corner of the **Log Viewer**, toggle the **Tree View** button.
 
-[image]
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-view-test-case-execution-logs/KS-Log-Viewer-Tabular-View-toggle-button.png" width=70% alt="Log Viewer Toggle button">
 
 ### Using Tabular View
 
@@ -23,11 +23,11 @@ The **Tabular View** displays execution logs in the form of rows with different 
 
 Follow these steps to view the Test execution logs: 
 
-1. Filter the logs in the Test excution. In the **Execution Filter** section, select the filter options of your choice.
+1. Filter the logs in the test execution. In the **Execution Filter** section, select the filter options of your choice.
 
     In our example, we filter the failure logs by selecting the **Failed** option.
 
-    [image]
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-view-test-case-execution-logs/KS-WebUI-Log-Viewer-Tabular-View-filter.png" width=70% alt="Log Viewer Tabular View filtered results">
 
     Using the filter options, you can specify what type of logs to be displayed.
 
@@ -72,27 +72,27 @@ Follow these steps to view the Test execution logs:
 
 2. To view a log message, double-click on the log. The message is displayed in the **Log's Properties** dialog.
 
-    [image]
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-view-test-case-execution-logs/KS-Log-Viewer-Log-Properties-dialog.png" width=70% alt="Log Viewer Tabular View filtered results">
 
 ### Using Tree View
 
-The **Tree View** displays execution reports in the form of nodes on the left pane, and log messages on the right pane. Each node corresponds to a step in a Test Case.
+The **Tree View** displays execution reports in the form of a tree on the left pane and detailed log messages on the right pane. Each node in the tree corresponds to a step in a Test Case.
 
-    [image]
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-view-test-case-execution-logs/KS-Log-Viewer-Tree-View-overview.png" width=70% alt="Log Viewer Tree View results">
 
-1. To view the log message of a step, click on the coressponding node. The detailed message is displayed on the right pane.
+1. To view the log message of a step, click on the corresponding node. The detailed message is displayed on the right pane.
 
     In our example, the failure log message indicates a specific root cause.
 
-    [image]
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-view-test-case-execution-logs/KS-Log-Viewer-Tree-View-failed-step.png" width=70% alt="Log Viewer Tree View log message">
 
 2. To navigate from a node to a specific step in the **Script** View, right-click on the node and select **Go to this step in Script View**.
 
-    [image]
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-view-test-case-execution-logs/KS-Log-Viewer-Tree-View-right-click.png" width=70% alt="Log Viewer Tree View log message">
 
 > **Notes**:
 >
-> * Test execution logs of Test Cases are preserved only in the running session of Katalon Studio. Once Katalon Studio is reloaded, the execution logs  will disappear.
+> * Test execution logs of Test Cases are preserved only in the running session of Katalon Studio. Once Katalon Studio is reloaded, the execution logs will disappear.
 
 > **See also**:
 >
