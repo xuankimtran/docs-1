@@ -13,7 +13,7 @@ description:
 
 Click on the given element with the relative position (x, y) from the top-left corner of that element. From Katalon Studio version 8.2.0 onwards, if the target element is behind a loading overlay, Katalon repeatedly tries clicking the element for a period configured in **Project > Settings > Execution > Default wait for element timeout**.
 
-To learn more about setting the **Default wait for element timeout**, you can refer to this document: [Project settings](https://docs.katalon.com/katalon-studio/docs/execution-settings.html#default-execution-settings).
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/wait-for-element-timeout/KS-OVERLAY-Project-execution.png" width="80%" alt="Default wait for element timeout settings">
 
 ## Parameters
 
