@@ -21,7 +21,7 @@ Follow these steps:
     >
     > You can select up to 3 test runs for comparison.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/compare-test-results/kt2_select_test_run.png" width=100% alt="select test runs">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/compare-test-results/kt2_select_test_run_2.png" width=100% alt="select test runs">
 
     After selecting Test Runs, you will see a new options bar pop up at the top of the page.
 
@@ -29,6 +29,6 @@ Follow these steps:
 
     The **Test Runs Comparison** page appears as below.
 
-     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/compare-test-results/kt2_test_run_comparison.png" width=100% alt="select test runs">
+     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/compare-test-results/kt2_test_run_comparison_2.png" width=100% alt="select test runs">
 
     You can check the details of Test Runs and view a comparison chart here.
