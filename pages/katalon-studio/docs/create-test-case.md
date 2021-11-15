@@ -68,7 +68,7 @@ The tutorial below will give you step-by-step instructions to create test steps 
 
 3. You can add a **Statement** or **Call Test Case** as a test step. Click on the drop-down of the _Add_ button and select an option. See also: [Statements](https://docs.katalon.com/katalon-studio/docs/statements.html) and [Call Test Case](https://docs.katalon.com/katalon-studio/docs/call-test-case.html).
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-case/tc-add-webui.png" alt="add web UI keywords" width="50%">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-case/tc-add-webui.png" alt="add web UI keywords" width="40%">
     
     > Notes:
     >
@@ -203,7 +203,7 @@ The **Content Assist** function will be invoked after users enter the **dot** 
     
 You can find object ID from its Properties dialog. Go to **Test Explorer > Object Repository**. Right-click on an object and choose **Properties**.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-case/find-properties.png" alt="find properties" width="70%">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-case/find-properties.png" alt="find properties" width="50%">
 
 To refer to an object in **Object Repository**, use `findTestObject('{Object ID}')`, in which **Object ID** is the ID of that object in Katalon Studio. You can also drag and drop the object to the Test Case editor to generate this syntax.
 
