@@ -5,9 +5,9 @@ permalink: katalon-studio/tutorials/webui-view-test-case-execution-logs.html
 description: 
 ---
 
-The **Log Viewer** in Katalon Studio provides users with comprehensive reports of Test runs to quickly troubleshoot and pinpoint root causes of any issue.
+The **Log Viewer** in Katalon Studio provides users with comprehensive logs of test execution to quickly troubleshoot and pinpoint root causes of any issue.
 
-This tutorial shows you how to view logs of Test Case execution using the **Log Viewer**.
+This tutorial shows you how to view logs of a Test Case execution using the **Log Viewer**.
 
 ## View Test execution logs in Log Viewer
 
