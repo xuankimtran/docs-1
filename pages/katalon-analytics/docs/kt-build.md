@@ -19,7 +19,7 @@ Follow these steps:
 
     The **Test Cases** page of the **7.3.7** Release appears as below.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/builds/create-build.png" width="" height="" alt="create build button">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/builds/create-build-2.png" width="" height="" alt="create build button">
 
 4. Click on the **Create Build** button at the top right corner.
     
@@ -35,7 +35,7 @@ Follow these steps:
 
 You have created a new Build. This Build now appears in the **Builds** section of the **7.3.7** Release.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/builds/build-list.png" width="" height="" alt="builds section">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/builds/build-list-2.png" width="" height="" alt="builds section">
 
 ### Link Test Runs to a build
 
