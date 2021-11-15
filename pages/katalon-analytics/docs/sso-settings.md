@@ -74,7 +74,9 @@ To enable SSO for an existing member, follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-sso-settings/K1-Log-Settings-Username_Password-enabled.png" width=70% alt="SSO toggle turned on">
 
-    > You can enable both **Log in to [custom.katalon.io] by Single Sign-On** and **Log in to [custom.katalon.io] with username and password** options.
+    > **Notes**:
+    >
+    > * You can choose to enable both options.
 
 4. Click **Save** to complete the configuration.
 
