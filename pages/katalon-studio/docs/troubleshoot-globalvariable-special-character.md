@@ -74,6 +74,7 @@ redirect_from:
 					<div>
 						<div>To solve this issue, we provide you with two workarounds:</div>
 						1. Set <code>--disable-gpu</code> for the desired capability in <strong>Project Settings &gt; Desired Capabilities &gt; Web UI &gt; Chrome</strong>. Click <strong>Add</strong>, then input as follows:</div>
+					<div>&nbsp;</div>
 					<div>
 						<table width="172">
 							<tbody>
@@ -89,9 +90,11 @@ redirect_from:
 								</tr>
 							</tbody>
 						</table>
+						<p>&nbsp;</p>
 					</div>
 					<div><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/troubleshoot/TC-TROUBLESHOOT-Set-desired-capability.png" alt="Set desired capabilities in chrome" width="100%" /></div>
 				</div>
+				<div>&nbsp;</div>
 				<div>2. Downgrade to Chrome version 92.x</div>
 			</td>
 		</tr>
