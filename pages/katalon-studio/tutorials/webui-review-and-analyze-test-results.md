@@ -1,17 +1,17 @@
 ---
-title: "[WebUI] View and Analyze Test Execution Logs"
+title: "[WebUI] View and Analyze Test Case Execution Logs"
 sidebar: katalon_studio_docs_sidebar
 permalink: 
 description: 
 ---
 
-The **Log Viewer** in Katalon Studio provides users with comprehensive reports of Test runs to quickly troubleshoot and pinpoint root causes of any issues.
+The **Log Viewer** in Katalon Studio provides users with comprehensive reports of Test runs to quickly troubleshoot and pinpoint root causes of any issue.
 
-This tutorial shows you how to view and analyze logs of Test execution using the **Log Viewer**.
+This tutorial shows you how to view and analyze logs of Test Case execution using the **Log Viewer**.
 
 ## Analyze Test execution logs in Log Viewer
 
-You can use the **Log Viewer** in two modes: **Tabular View** and **Tree View**. 
+You can use the **Log Viewer** in two modes: **Tabular View** and **Tree View**.
 
 To switch between the two modes, in the top-right corner of the **Log Viewer**, toggle the **Tree View** button.
 
@@ -86,13 +86,13 @@ The **Tree View** displays execution reports in the form of nodes on the left pa
 
     [image]
 
-2. To navigate to a specific step in the **Script** View, right-click on a node and select **Go to this step in Script View**.
+2. To navigate to a specific step in the **Script** View, right-click on a node and select **Go to this step in Script View**. 
 
     [image]
 
 > **Notes**:
 >
-> * Test execution logs of Test Cases are preserved only in the running session of Katalon Studio. Once Katalon Studio is reloaded, execution logs of Test Cases will disappear.
+> * Test execution logs of Test Cases are preserved only in the running session of Katalon Studio. Once Katalon Studio is reloaded, the execution logs  will disappear.
 
 > **See also**:
 >
