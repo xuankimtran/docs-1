@@ -5,9 +5,9 @@ permalink: katalon-studio/tutorials/webui-view-test-case-execution-logs.html
 description: 
 ---
 
-The **Log Viewer** in Katalon Studio provides users with comprehensive logs of test execution to quickly troubleshoot and pinpoint root causes of any issue.
+The **Log Viewer** in Katalon Studio provides users with comprehensive logs of Test execution to quickly troubleshoot and pinpoint root causes of any issue.
 
-This tutorial shows you how to view logs of a Test Case execution using the **Log Viewer**.
+This tutorial shows you how to view execution logs of a Test Case using the **Log Viewer**.
 
 ## View Test execution logs in Log Viewer
 
@@ -23,7 +23,7 @@ The **Tabular View** displays execution logs in the form of rows with different 
 
 Follow these steps to view the Test execution logs: 
 
-1. Filter the logs in the test execution. In the **Execution Filter** section, select the filter options of your choice.
+1. Filter the logs. In the **Execution Filter** section, select the filter options of your choice.
 
     In our example, we filter the failure logs by selecting the **Failed** option.
 
@@ -76,7 +76,7 @@ Follow these steps to view the Test execution logs:
 
 ### Using Tree View
 
-The **Tree View** displays execution reports in the form of a tree on the left pane and detailed log messages on the right pane. Each node in the tree corresponds to a step in a Test Case.
+The **Tree View** displays execution logs in the form of a tree on the left pane and detailed log messages on the right pane. Each node in the tree corresponds to a step in a Test Case.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-view-test-case-execution-logs/KS-Log-Viewer-Tree-View-overview.png" width=70% alt="Log Viewer Tree View results">
 
@@ -92,7 +92,7 @@ The **Tree View** displays execution reports in the form of a tree on the left p
 
 > **Notes**:
 >
-> * Test execution logs of Test Cases are preserved only in the running session of Katalon Studio. Once Katalon Studio is reloaded, the execution logs will disappear.
+> * Execution logs of Test Cases are preserved only in the running session of Katalon Studio. Once Katalon Studio is reloaded, the logs will disappear.
 
 > **See also**:
 >
