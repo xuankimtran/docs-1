@@ -70,11 +70,11 @@ To enable SSO for an existing member, follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-sso-settings/K1-User-Management-Active-Users-tab-more-options.png" width=100% alt="More options icon">
 
-3. Enable SSO for the User. In the new **Login Settings** pop-up, toggle on the **Log in to [<custom_domain>] with by Single Sign-On** option.
+3. Enable SSO for the User. In the new **Login Settings** pop-up, toggle on the **Log in to [custom.katalon.io] by Single Sign-On** option.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-sso-settings/K1-Log-Settings-Username_Password-enabled.png" width=100% alt="SSO toggle turned on">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-sso-settings/K1-Log-Settings-Username_Password-enabled.png" width=70% alt="SSO toggle turned on">
 
-    > You can enable both **Log in to [<custom_domain>] by Single Sign-On** and **Log in to [<custom_domain>] with username and password** options.
+    > You can enable both **Log in to [custom.katalon.io] by Single Sign-On** and **Log in to [custom.katalon.io] with username and password** options.
 
 4. Click **Save** to complete the configuration.
 
@@ -82,7 +82,7 @@ To enable SSO for an existing member, follow these steps:
 
 > **Notes:**
 >
-> * The SSO action is pending until new members accept the invitations and existing members accept the requests.
+> * New members must first accept their invitations, and existing members must accept their requests before they are allowed to use SSO.
 
 ## View and manage User Authentication
 
