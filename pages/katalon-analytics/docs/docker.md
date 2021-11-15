@@ -15,7 +15,7 @@ Similar to [Create a Local Test Environment with an Agent](/katalon-analytics/do
 
     The page appears as below.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-docker/create-agent-for-docker-environment-page.png" width=100% alt="create docker environment page">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-docker/create-agent-for-docker-environment-page-2.png" width=100% alt="create docker environment page">
 
 4. Fill in the required information for the **Configure an agent** and **Select method** sections.
 
@@ -51,7 +51,7 @@ You have started your Docker with an Agent. You can open your Docker to see the 
 
 In Katalon TestOps, go to the **Test Environments** page to see the Docker Test Environment you have created and its status.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-docker/docker-appears-in-test-environment-page.png" width=100% alt="open docker">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-docker/docker-appears-in-test-environment-page-2.png" width=100% alt="open docker">
 
 Next steps:
 
