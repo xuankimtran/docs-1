@@ -1350,9 +1350,7 @@ items:
           - title: "Kubernetes Test Environments"
             url: /katalon-analytics/docs/aws-eks.html
       - title: "Test Planning"     
-        tree: 
-          - title: "Overview"
-            url: /katalon-analytics/docs/kt-remote-execution.html
+        tree:
           - title: "Schedules"
             tree:
               - title: "Schedule Test Runs"
@@ -1401,7 +1399,7 @@ items:
             url: /katalon-analytics/docs/ka-integration-jenkins.html
       - title: "Test Maintenance"
         tree:
-          - title: "Change the Test Result from failing to passing"
+          - title: "Override Test Results status"
             url: /katalon-analytics/docs/kt-change-result-pass-fail.html  
           - title: "Compare Test Results"
             url: /katalon-analytics/docs/compare-test-results.html    
