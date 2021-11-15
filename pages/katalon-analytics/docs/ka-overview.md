@@ -19,36 +19,36 @@ Katalon TestOps provides dashboards and reports on the status of product quality
 With Katalon TestOps, you can coordinate various activities, cycles, and frameworks in software testing. By doing so, you can ensure software quality at every stage without the need to sacrifice speed or require DevOps expertise.
 
 Katalon TestOps' key modules include:
-* Test Planning
-* Test Management
-* Reports & Analytics
+* Test planning
+* Test management
+* Reports and analytics
 * Configurations
 
-## Test Planning
+## Test planning
 
 This key module is a continuous integration tool for scheduling remote executions on local machines, Kubernetes, and CircleCI.
 
-Test Planning eases deployment and configuration so that QAs can focus on testing activities.
+Test planning eases deployment and configuration so that QAs can focus on testing activities.
 
-It allows you to plan, schedule, and trigger Test Runs remotely.
+It allows you to plan, schedule, and trigger Test Runs remotely. See: [Schedule Test Runs](https://docs.katalon.com/katalon-analytics/docs/kt-remote-execution.html).
 
-Learn more about [Test Planning](https://docs.katalon.com/katalon-analytics/docs/kt-remote-execution.html).
-
-## Test Management
+## Test management
 
 This key module is a test hub gathering and connecting all quality data from multiple sources such as Katalon Studio, JUnit, TestNG, and Jira.
 
-Using Test Management, you can monitor test analytics for your projects.
+With test management, you can monitor test analytics for your projects.
 
-You can also leverage it to gain critical insights into test results and integrate seamlessly with Katalon Studio and Jira for more efficient project management. 
+You can also leverage it to gain critical insights into test results and integrate seamlessly with Katalon Studio and Jira for more efficient project management.
 
-Learn more about [Test Management](https://docs.katalon.com/katalon-analytics/docs/compare-test-results.html).
+For more information, see:
 
-## Reports & Analytics
+* [View BDD Test Results in Katalon TestOps](https://docs.katalon.com/katalon-analytics/docs/bdd-test-results.html).
+* [Link Test Cases to Jira Requirements](https://docs.katalon.com/katalon-analytics/docs/ka-integration-jira.html).
+* [Defects](https://docs.katalon.com/katalon-analytics/docs/ka-defects.html).
 
-This key module provides dynamic perspectives and insights into your automated testing activities. 
+## Reports and analytics
 
-Learn more about [Reports & Analytics](https://docs.katalon.com/katalon-analytics/docs/view-reports-overview.html).
+This key module provides dynamic perspectives and insights into your automated testing activities. See: [Introduction to TestOps Dashboard](https://docs.katalon.com/katalon-analytics/docs/dashboard-overview.html).
 
 ## Configurations
 
