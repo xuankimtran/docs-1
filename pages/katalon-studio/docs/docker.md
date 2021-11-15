@@ -40,9 +40,9 @@ docker run -t --rm katalonstudio/katalon cat /katalon/version
 > * Katalon Docker Image version 7.2.1 onwards
 > * Make sure you have Docker open while running the test.
 
-1. Open **Terminal**, then go to the test project directory you wish to run. For example, we want to run the **CI sample** test project, we will direct to our **CI sample** project in our local machine.
+1. Open **Terminal**, then go to the test project directory you wish to run. For example, we want to run the **CI sample** test project, we will direct to our **CI sample** project folder in our local machine.
 
-2. Inside your test project directory, input the following command:
+2. Inside your test project folder, input the following command:
 
     ``` groovy
     docker run -t --rm -v "$(pwd)":/tmp/project katalonstudio/katalon katalonc.sh -projectPath=/tmp/project [Option1] [Option2] ... [OptionN]
