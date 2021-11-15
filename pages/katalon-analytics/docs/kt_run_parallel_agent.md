@@ -21,7 +21,7 @@ Follow these steps:
 
 3. Creat a Script Repository. See: [Upload Test Scripts from a Git Repository](https://docs.katalon.com/katalon-analytics/docs/git-test-project.html#create-git-script-repositories).
 
-    You would see the newly-created Script Repository appear on the list of Script Repositories in the **Script Repositories** page.
+    You can now see the newly-created Script Repository appear on the list of Script Repositories in the **Script Repositories** page.
 
 4. Click on the Script Repository you have created.
 
@@ -42,7 +42,7 @@ You have created a new Test Run List for parallel executions of Test Suites.
 
 ### Update existing Test Run List
 
-If you have previously scheduled Test Runs in a sequential mode, you can also update your existing Test Run List to parallel executions.
+If you have previously scheduled Test Runs in sequential mode, you can also update your existing Test Run List so that it can be executed in parallel.
 
 Follow these steps:
 
@@ -75,3 +75,5 @@ Follow these steps:
 ## View Test Suites result
 
 Go to **Reports** > **Test Runs** to see the result of Test Suites you have run in parallel.
+
+See also: [Auto-Distributed Executions](https://docs.katalon.com/katalon-analytics/docs/auto-distributed-execution.html).
