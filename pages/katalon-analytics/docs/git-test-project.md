@@ -23,13 +23,13 @@ Follow these steps:
    
    The **Script Repositories** page appears as below.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-git-test-project/script-repo-screen-in-testops-config-new.png" width=100%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-git-test-project/script-repo-screen-in-testops-config-new-2.png" width=100% alt="script repo page">
 
 2. Click **Create Git Script Repository**.
 
 3. Fill in the required information.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-git-test-project/scrip-repo-page-after-creating-git-repo.png" width=100%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-git-test-project/scrip-repo-page-after-creating-git-repo-2.png" width=100% alt="create script repo page">
 
    * For GitHub integration:
 
