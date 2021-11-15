@@ -5,8 +5,6 @@ permalink: katalon-analytics/docs/kt_run_parallel_agent.html
 description: 
 ---
 
-In Katalons TestOps, you can run multiple Test Suites in parallel with Agents.
-
 ## Configure parallel executions
 
 Follow these steps:
@@ -17,9 +15,7 @@ Follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt_run_parallel_agent/kt_start_two_agent.png" width=100% alt="start 2 agents">
 
-2. Update each Agent's Threshold to **2**.
-
-    See [Configure an Agent's Threshold](https://docs.katalon.com/katalon-analytics/docs/load-balancing-agents.html#configure-an-agents-threshold).
+2. Update each Agent's Threshold to **2**. See [Configure an Agent's Threshold](https://docs.katalon.com/katalon-analytics/docs/load-balancing-agents.html#configure-an-agents-threshold).
 
     The assigned sessions for each Agent is now **2**.
 
