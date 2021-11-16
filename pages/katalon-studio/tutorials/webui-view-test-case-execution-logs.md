@@ -1,63 +1,55 @@
 ---
-title: "[WebUI] View and Analyze Test Case Execution Logs"
+title: "[WebUI] Analyze Test Case Execution Logs and Resolve Errors"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/tutorials/webui-view-test-case-execution-logs.html
 description: 
 ---
 
-During Test execution, Katalon Studio provides users with comprehensive execution logs in the **Log Viewer**. Users can investigate the logs to quickly troubleshoot and pinpoint root causes of any issue.
+After Test execution, Katalon Studio provides users with comprehensive execution logs in the **Log Viewer**. Users can investigate the logs to quickly troubleshoot and pinpoint root causes of any issue.
 
-This tutorial shows you how to view execution logs of a Test Case, analyze the logs, and resolve the failed steps using the **Log Viewer**.
+This tutorial shows you how to analyze execution logs of a failed Test Case in the **Log Viewer**, and resolve the failure.
 
-## View Test execution logs in Log Viewer
+Here we reuse the Test Case from the tutorial [[WebUI] Create and Run Web UI Test Case using Record and Playback](https://docs.katalon.com/katalon-studio/tutorials/webui-create-test-case.html).
 
-The **Log Viewer** offers two view modes: **Tabular View** and **Tree View**.
+In our example, the Test Case fails to find a Web element due to an unexpected change of the application under test (AUT). We look for the failed steps in the execution logs, find the root cause, and resolve the failure.
 
-The **Tree View** presents the Test execution logs in a structural way that illustrates to how a Test Case is organized, which helps users to trace the Test execution and locate the errors.
+In our example, the log is as follows:
 
-In our example, we use the **Tree View** to view the logs.
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/analyze-test-execution-logs-and-resolve-errors/KS-Log-Viewer-overview.png" width=70% alt="Test Case and test execution">
 
-Follow these steps:
+## Analyze Test execution logs in Log Viewer
+
+Here we use the **Tree View** mode to analyze the logs. This view presents the logs in a structural way that helps users to trace the Test execution and locate the failed steps.
+
+Follow these steps to analyze the logs:
 
 1. Switch to the **Tree View**. Toggle on the **Tree View** button on the top-right corner of the **Log Viewer**.
 
-    Here the **Tree View** displays the execution logs in the form of a tree on the left pane, and detailed log message of the right pane. Each node in the tree corresponds to a step in the Test Case, and failed steps are highlighted in red.
+    The **Tree View** displays the execution logs in a tree-like structure on the left pane and log message of the right pane. Each node in the tree corresponds to a step in the Test Case, and failed steps are highlighted in red.
 
     [image]
 
-2. To view details of a step, click on the *carat* icon on the left.
-
-    Here **Tree View** displays relevant warnings of the failed steps.
+2. To view warning message of the failed step, click on the *expand* icon on the left of the step.
 
     [image-step-expanded]
 
-3. To view log message of a step, click on the step. 
+3. To view the detailed log message, click on the step. The log message is displayed on the right pane.  
 
-    In our example, the log message shows the root cause of the failed step.
+    In our example, the log message shows the root cause of the failed step. The root cause indicates that Katalon Studio cannot locate a Web element using the XPath `'//*[@value = 'Signing_in']'`.
 
     [image-log-message-failed-steps]
-
-## Resovle errors in Test Cases
-
-From the 
-
-The **Tree View** displays execution logs in the form of a tree on the left pane and detailed log messages on the right pane. Each node in the tree corresponds to a step in a Test Case.
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-view-test-case-execution-logs/KS-Log-Viewer-Tree-View-overview.png" width=70% alt="Log Viewer Tree View results">
-
-1. To view the log message of a step, click on the corresponding node. The detailed message is displayed on the right pane.
-
-    In our example, the failure log message indicates a specific root cause. 
-
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-view-test-case-execution-logs/KS-Log-Viewer-Tree-View-failed-step.png" width=70% alt="Log Viewer Tree View log message">
-
-2. To navigate from a node to a specific step in the **Script** View, right-click on the node and select **Go to this step in Script View**.
-
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-view-test-case-execution-logs/KS-Log-Viewer-Tree-View-right-click.png" width=70% alt="Log Viewer Tree View log message">
 
 > **Notes**:
 >
 > * Execution logs of Test Cases are preserved only in the running session of Katalon Studio. Once Katalon Studio is reloaded, the logs will disappear.
+
+## Resovle the failure in the Test Case
+
+After finding the root cause, we navigate to the Test Object containing incorrect XPath and resolve the failure.
+
+Follow these steps:
+
+1. 
 
 > **See also**:
 >
