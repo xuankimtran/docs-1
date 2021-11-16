@@ -10,7 +10,7 @@ redirect_from:
 > Tips
 >
 > * Please use **Ctrl+F** to look for the exceptions and errors you have encountered quickly.
-> * If the exception you are looking for is not documented, please leave go to the [Katalon forum](https://forum.katalon.com/) to have a better support.
+> * If the exception you are looking for is not documented, please go to the [Katalon forum](https://forum.katalon.com/) for further support.
 
 
 <table>
@@ -72,7 +72,7 @@ redirect_from:
 				</div>
 				<div>
 					<div>
-						<div>To solve this issue, we provide you with two workarounds:</div>
+						<div>Here are two workarounds for this issue:</div>
 						1. Set <code>--disable-gpu</code> for the desired capability in <strong>Project Settings &gt; Desired Capabilities &gt; Web UI &gt; Chrome</strong>. Click <strong>Add</strong>, then input as follows:</div>
 					<div>&nbsp;</div>
 					<div>
