@@ -32,7 +32,7 @@ To install an Agent, follow these steps:
 
     The **Agent Setup** page appears as below.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-agent-setup/agen-setup-page-to.png" width=100% alt="testops agent setup page">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-agent-setup/agen-setup-page-to-2.png" width=100% alt="testops agent setup page">
 
 > Notes:
 >
@@ -95,7 +95,7 @@ You have created a Local Test Environment with an Agent.
 
 Go to **Configurations** > **Test Environments** to check the Agent status.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-agent-setup/test-environment-created-on-testops.png" width=100% alt="macos test environment added after agent setup">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-agent-setup/test-environment-created-on-testops-2.png" width=100% alt="macos test environment added after agent setup">
 
 You can delete an Agent by clicking on the *Trash bin* icon.
 
@@ -115,7 +115,7 @@ Agents use `serverurl` and `apikey` in *agentconfig* to:
 
 You can see the `serverurl` and `apikey` in the **Generate configuration** section on the **Agent Setup** page.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-agent-setup/agent-setup-code-page-blurred-red.png" width=100% alt="serveurl and apikey">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-agent-setup/agent-setup-code-page-blurred-red-2.png" width=100% alt="serveurl and apikey">
 
 ## Configure Proxy for Agents
 
