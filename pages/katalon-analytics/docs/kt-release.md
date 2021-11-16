@@ -21,13 +21,13 @@ Follow these steps:
 
     The **Releases** page appears as below.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-releases/create-release-in-test-planning-testops.png" width="" height="" alt="release page">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-releases/create-release-in-test-planning-testops-2.png" width="" height="" alt="release page">
 
 3. Click on the **Create Release** button at the top right corner.
 
     The **Create Release** page appears as below.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-releases/create-release-page-appears.png" width="" height="" alt="create release page">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-releases/create-release-page-appears-2.png" width="" height="" alt="create release page">
 
 4. Fill in the required information.
     * **Name**: your Release version (e.g., Release **8.0**).
@@ -100,7 +100,7 @@ Follow these steps:
 
 If you have already linked a Test Run to a Release, the **Test Run: #** page displays as below.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-releases/test-run-already-linked-to-a-release.png" width="" height="" alt="linked release button">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-releases/test-run-already-linked-to-a-release-2.png" width="" height="" alt="linked release button">
 
 For example, **Test Run: #1234** has already been linked to Release **8.0**.
 
