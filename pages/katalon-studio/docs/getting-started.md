@@ -26,5 +26,5 @@ Before the installation, you need to verify whether your computer meets the Syst
 
 Katalon Studio can work on macOS, Windows and Linux. To have a better guide of the installation in each environment, you can refer to the following documents:
 
-- [Install Katalon Studio on macOS/Windows](https://docs.katalon.com/katalon-studio/docs/katalon-studio-gui-beta-for-linux.html)
+- [Install Katalon Studio on macOS/Windows](https://docs.katalon.com/katalon-studio/docs/ks-installation-macOS-windows.html)
 - [Install Katalon Studio on Linux (GUI)](https://docs.katalon.com/katalon-studio/docs/katalon-studio-gui-beta-for-linux.html)
