@@ -25,11 +25,11 @@ Follow these steps:
 
 3. Enter the Jira issue in **Jira Requirements** (e.g., **KAT-104**), then click on the *Link* icon.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-integration-jira/linking-test-case-step-red.png" width=100% alt="link test case to jira requirement">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-integration-jira/linking-test-case-step-red-2.png" width=100% alt="link test case to jira requirement">
 
     The Jira issue is now added to the **Linked Issue** section.
     
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-integration-jira/kat104-under-idfeature-section.png" width=100% alt="jira issue appears after linking">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-integration-jira/kat104-under-idfeature-section-2.png" width=100% alt="jira issue appears after linking">
     
     Click on the Jira issue to go to Jira and view the linked Test Case.
 
@@ -49,7 +49,7 @@ Click on the **Linked Test Cases** section to see the details of linked Test Cas
 
 2. Scroll down to the **Requirements** section to view all Jira issues with linked Test Cases.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-integration-jira/requirement-page-with-jira-kat-issues-list.png" width=100% alt="see linked test case in jira">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-integration-jira/requirement-page-with-jira-kat-issues-list-2.png" width=100% alt="see linked test case in jira">
 
 See also:
 * [Link Test Runs to Jira Defects](https://docs.katalon.com/katalon-analytics/docs/ka-defects.html).
