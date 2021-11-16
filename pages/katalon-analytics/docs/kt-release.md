@@ -66,7 +66,7 @@ Click on the **Populate Jira Releases** button.
 
 The **Populate Jira Releases** box pops up.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-releases/populate-jira-release-box-popup.png" width="" height="" alt="populate jira release popup">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-releases/populate-jira-release-box-popup-2.png" width="" height="" alt="populate jira release popup">
 
 Select your Jira Release in the dropdown menu, then click **OK**.
 
