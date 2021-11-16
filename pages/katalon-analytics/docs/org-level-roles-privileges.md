@@ -54,13 +54,17 @@ You can find the detailed permissions for each role in the following tables:
 			</td>
 			<td>
 				<ul>
-					<li>Invite new users</li>
-					<li>Remove users</li>
-					<li>Set roles for:&nbsp;</li>
 					<ul>
-						<li>Admin</li>
-						<li>Member</li>
-						<li>Billing Manager&nbsp;</li>
+						<li>Invite new users</li>
+						<li>Remove users</li>
+						<li>Assign any&nbsp;role to become:&nbsp;</li>
+						<ul>
+							<li>Owner</li>
+							<li>Admin</li>
+							<li>Billing Manager</li>
+							<li>Member</li>
+						</ul>
+						<li>Demote any role</li>
 					</ul>
 				</ul>
 			</td>
@@ -76,12 +80,32 @@ You can find the detailed permissions for each role in the following tables:
 			</td>
 			<td>
 				<ul>
-					<li>Invite new users</li>
-					<li>Remove users</li>
-					<li>Set roles for:</li>
 					<ul>
-						<li>Billing Manager</li>
-						<li>Member</li>
+						<li>Invite new users</li>
+						<li>Remove users</li>
+						<li>Assign:
+							<ul>
+								<li>A Member to become a Billing Manager or an Admin</li>
+								<li>A Billing Manager to become an Admin</li>
+							</ul>
+						</li>
+						<li>Cannot assign:
+							<ul>
+								<li>An Admin to become an Owner</li>
+							</ul>
+						</li>
+						<li>Demote:
+							<ul>
+								<li>Billing Manager</li>
+								<li>Member</li>
+							</ul>
+						</li>
+						<li>Cannot demote:
+							<ul>
+								<li>Owner</li>
+								<li>Admin</li>
+							</ul>
+						</li>
 					</ul>
 				</ul>
 			</td>
