@@ -41,7 +41,7 @@ Do a quick check on System Requirements before using Katalon Studio. You can ref
 
       > **Notes**
       > 
-      > For Windows users, if you are extracting Katalon Studio outside of the `C:\Users\<username>` folder, make sure the current user have the Read/Write permission for Katalon Studio package or to run the software with Administrator privilege.
+      > For Windows users, if you are extracting Katalon Studio outside of the `C:\Users\<username>` folder, make sure the current user has the Read/Write permission for Katalon Studio package or runs the software with administrator privileges.
 
 2. To start Katalon Studio, double-click on the **katalon.exe** file.
   
@@ -82,7 +82,7 @@ Do a quick check on System Requirements before using Katalon Studio. You can ref
    
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/install_setup_katalon_studio/KS-INSTALLATION-Activate-KS-Light.png" alt="Activate KS" width=100%>
 
-2. After you are done, click **Activate**. Now Katalon Studio is ready to use.
+2. After you are done, click **Activate**. Now Katalon Studio is ready for use.
    
 **Next step:**
 - [Create your first project in Katalon Studio]
