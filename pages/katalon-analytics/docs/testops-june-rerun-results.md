@@ -22,7 +22,7 @@ You can find the Test Run's final status and its latest result here.
 
 A re-run result has the *Re-run #* label next to its name, with *#* represents the re-run number.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-june-release-rerun-results/Overview%20rerun%20result.png" width=100% alt="rerun result page">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-june-release-rerun-results/Overview%2520rerun%2520result-2.png" width=100% alt="rerun result page">
 
 > Notes:
 >
@@ -34,4 +34,4 @@ To see the detailed history of re-run tests, select the **Test Results** tab, cl
 
 The latest Re-runs display on the top of the list by default.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-june-release-rerun-results/All%20rerun%20results%20log.png" width=100% alt="re-runs list">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-june-release-rerun-results/All%2520rerun%2520results%2520log-2.png" width=100% alt="re-runs list">
