@@ -57,7 +57,7 @@ You can find the detailed permissions for each role in the following tables:
 					<ul>
 						<li>Invite new users</li>
 						<li>Remove users</li>
-						<li>Assign any&nbsp;role to become:&nbsp;</li>
+						<li>Assign any&nbsp;user to become:&nbsp;</li>
 						<ul>
 							<li>Owner</li>
 							<li>Admin</li>
