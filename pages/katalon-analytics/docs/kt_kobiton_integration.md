@@ -23,7 +23,7 @@ Follow these steps:
 
 4. Fill in the required information.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-kobiton-integration/kobiton-integration-page-fillin.png" width=100% alt="kobiton integration page">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-kobiton-integration/kobiton-integration-page-fillin-2.png" width=100% alt="kobiton integration page">
 
     * **Kobiton Device URL**: enter your Kobiton Device URL.
     * **Username**: enter your Kobiton username.
