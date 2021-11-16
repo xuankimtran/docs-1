@@ -42,7 +42,7 @@ Follow these steps:
 
 5. Scroll down to the **Danger zone** section, and click **Delete this project**.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-delete-data/project-settings-page-danger-zone-section.png" width=100% alt="delete this project button">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-delete-data/project-settings-page-danger-zone-section-2.png" width=100% alt="delete this project button">
 
 6. Enter the Project's name, then click **I understand the consequences, delete this project** to confirm your action.
 
@@ -58,7 +58,7 @@ Follow these steps:
 
 2. Click on the *Extension* icon of the Test Run you want to delete and choose **Delete**.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-delete-data/extension-icon-delete-button.png"  width=100% alt="extension icon for deletion">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-delete-data/extension-icon-delete-button-2.png"  width=100% alt="extension icon for deletion">
 
     The **Delete Execution** box then pops up.
 
@@ -76,7 +76,7 @@ In Katalon TestOps, you can also delete multiple Executions at the same time by 
 
 2. Check the boxes (as shown below) to select the Executions you want to delete.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-delete-data/bulk-selection-for-execution-delete.png"  width=100% alt="test runs page bulk delete appears">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-delete-data/bulk-selection-for-execution-delete-2.png" width=100% alt="test runs page bulk delete appears">
 
     A new command row appears at the top of the **Test Runs** page after you check the boxes.
 
