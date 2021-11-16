@@ -1,6 +1,6 @@
 ---
 title: "[Web UI] Plan Test Suite"
-sidebar: katalon_studio_tutorials_sidebar
+sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/tutorials/webui-plan-test-suite.html
 description:
 ---
