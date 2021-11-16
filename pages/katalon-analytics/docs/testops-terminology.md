@@ -395,9 +395,9 @@ The status of a visual test run, including:
 **<details><summary>Test Run Coverage</summary>**
 The quality of each requirement based on the status of the corresponding test result.
 
-* Size of each block indicates the number of test runs associated with each requirement.
+* The size of each block indicates the number of test runs associated with each requirement.
 
-* Color of each block indicates the overall status of the total test cases in each requirement.
+* The color of each block indicates the overall status of the total test cases in each requirement.
 
 </details>
 
