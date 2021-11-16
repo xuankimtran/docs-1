@@ -38,7 +38,7 @@ Follow these steps:
 
 6. Select the **Checkpoints** tab.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-visual-testing/checkpoints-page.png" width=100% alt="test run #1 checkpoints page">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-visual-testing/checkpoints-page-2.png" width=100% alt="test run #1 checkpoints page">
 
     You can see the screenshots captured during a test execution.
 
@@ -62,11 +62,11 @@ Follow these steps:
 
     An *Unsaved* label now appears on the **Checkpoints** page.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-visual-testing/id-1-unsaved-appears.png" width=100% alt="id1 result page with save to baseline button">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-visual-testing/id-1-unsaved-appears-2.png" width=100% alt="id1 result page with save to baseline button">
 
 3. Go to the **Results** page.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-visual-testing/id-1-save-to-base-line-button.png" width=100% alt="id4 highlight unresolved status">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-visual-testing/id-1-save-to-base-line-button-2.png" width=100% alt="id4 highlight unresolved status">
 
 4. Click **Save to baseline**.
 
@@ -86,7 +86,7 @@ To resolve the issues, follow these steps:
 
 1. Click on the ID of the unresolved Test Run.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-visual-testing/test-run-id-4-result-page-1.png" width=100% alt="id4 results page">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-visual-testing/test-run-id-4-result-page-1-2.png" width=100% alt="id4 results page">
 
 2. Select a screenshot.
 
