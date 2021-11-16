@@ -25,9 +25,9 @@ Follow these steps to analyze the logs:
 
 1. Switch to the **Tree View**. Toggle on the **Tree View** button on the top-right corner of the **Log Viewer**.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/analyze-test-execution-logs-and-resolve-errors/KS-Log-Viewer-Tree-View-button.png" width=70% alt="Tree View button">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/analyze-test-execution-logs-and-resolve-errors/KS-Log-Viewer-Tree-View-button.png" width=30% alt="Tree View button">
 
-    The **Tree View** displays the execution logs in a tree-like structure on the left pane and the log message on the right. Each node in the tree corresponds to a step in the Test Case, and failed steps are highlighted in red.
+    The **Tree View** displays the execution logs in a tree-like structure on the left pane and the log message on the right. Each node in the tree corresponds to a step in the Test Case, and failed steps are marked in red.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/analyze-test-execution-logs-and-resolve-errors/KS-Log-Viewer-Tree-View.png" width=70% alt="Tree View">
 
