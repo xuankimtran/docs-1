@@ -36,7 +36,7 @@ To configure an Agent's Threshold, follow these steps:
 
     The **Agent Details** page appears as below.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-load-balancing/configure-agent-threshold.png" width=100% alt="agent details page">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-load-balancing/configure-agent-threshold-2.png" width=100% alt="agent details page">
 
 4. Update the value in the **Threshold** section.
 
@@ -46,7 +46,7 @@ The maximum number of concurrent sessions that an Agent can execute is equal to 
 
 You can check the sessions in the **Test Environments** page.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-load-balancing/test-environment-page-with-agents-highlight-session.png" width=100% alt="test environment page highlight assigned sessions">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-load-balancing/test-environment-page-with-agents-highlight-session-2.png" width=100% alt="test environment page highlight assigned sessions">
 
 ## Assign an Agent to execute Test Runs
 
@@ -62,13 +62,13 @@ When creating a new Test Runs Schedule, you are asked to select Test Environment
 
 2. Click on a Test Run List.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-load-balancing/a-verify-match-exact-name-page.png" width=100% alt="a verify match exact name page">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-load-balancing/a-verify-match-exact-name-page-2.png" width=100% alt="a verify match exact name page">
 
 3. Click **Edit**.
 
-    The **Schedule Test Run** page appears as below.
+    The **Schedule Test Run** dialog appears as below.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-load-balancing/assign-test-environjment-agent.png" width=100% alt="highlight select test environment section">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-load-balancing/assign-test-environjment-agent-2.png" width=100% alt="highlight select test environment section">
 
 4. Go to the **Test Environments** section, select a new Agent.
 
