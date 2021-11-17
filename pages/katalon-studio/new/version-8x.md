@@ -23,10 +23,10 @@ description: Release notes 8.x
     * Added an option in Katalon Studio Preferences to automatically disable connection to external domains.
 * [Performance] Improved Katalon Studio IDE and Katalon Runtime Engine performance:
     * Introduced **Delay between instances** option in Katalon Studio and `-delayBetweenInstances` parameter in Katalon Runtime Engine to execute Test Suite Collection in parallel mode. See [Command Syntax](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html), quick tip: search for `-delay`.
-    * Improved loading time in Katalon Runtime Engine: 2x faster for big projects, 1.5x faster for small and medium projects.
-    * Improved responsiveness and loading time for big projects in Katalon Studio: renaming/opening test cases 2x faster, moving test cases 1.5x faster.
-    * Reduced 12% memory consumption of Katalon Studio when opening/executing tests.
-    * Reduced 30% memory consumption of Katalon Runtime Engine for long executing sessions.
+    * Improved loading time in Katalon Runtime Engine. Results from our benchmarking tests show: 2x faster for big projects, 1.5x faster for small and medium projects.
+    * Improved responsiveness and loading time for big projects in Katalon Studio. Results from our benchmarking tests show: renaming/opening test cases 2x faster, moving test cases 1.5x faster.
+    * Reduced 12% memory consumption on average of Katalon Studio when opening/executing tests.
+    * Reduced 30% memory consumption on average of Katalon Runtime Engine for long execution sessions.
 * [Web Testing] Improved Synchronization Handling for Web Testing:
     * [Katalon Studio and Katalon Runtime Engine] Improved the `Click` and `Click Offset` Keywords to automatically delay and click again on an element behind a loading overlay. See [Click](https://docs.katalon.com/katalon-studio/docs/webui-click.html) and [Click Offset](https://docs.katalon.com/katalon-studio/docs/webui-click-offset.html).
     * [Smart Wait] Added detection and waiting capabilities for fetch-based requests to finish before continuing with the next action.
