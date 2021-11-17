@@ -27,9 +27,6 @@ description: Release notes 8.x
     * Improved responsiveness and loading time for big projects in Katalon Studio: renaming/opening test cases 2x faster, moving test cases 1.5x faster.
     * Reduced 12% memory consumption of Katalon Studio when opening/executing tests.
     * Reduced 30% memory consumption of Katalon Runtime Engine for long executing sessions.
-    * Prevented loading unused images when opening Katalon Studio.
-    * Reduced CPU usage when using Self-healing, Run and Debug from here function.
-    * Removed unused messages in Test Case and Test Data.
 * [Web Testing] Improved Synchronization Handling for Web Testing:
     * [Katalon Studio and Katalon Runtime Engine] Improved the `Click` and `Click Offset` Keywords to automatically delay and click again on an element behind a loading overlay. See [Click](https://docs.katalon.com/katalon-studio/docs/webui-click.html) and [Click Offset](https://docs.katalon.com/katalon-studio/docs/webui-click-offset.html).
     * [Smart Wait] Added detection and waiting capabilities for fetch-based requests to finish before continuing with the next action.
