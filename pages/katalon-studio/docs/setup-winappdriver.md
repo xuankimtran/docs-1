@@ -60,8 +60,9 @@ While building your test script, make sure to have the `WinAppDriver URL` point 
 
 The application file path points the file path on the remote machine.
 
-## Next step
+
+**Next step:**
 
 After setting up WindAppDriver, you can begin creating your first Windows Desktop Apps tests. You can refer to the following document for further details: 
-* [Windows Record Tutorial](https://docs.katalon.com/katalon-studio/docs/windows-recorder-tutorials.html#coordinate-based-recording)
-* [Windows Spy Tutorial](https://docs.katalon.com/katalon-studio/docs/windows-spy-tutorials.html)
+* [Create test cases using Windows Record Utility](https://docs.katalon.com/katalon-studio/docs/windows-recorder-tutorials.html#coordinate-based-recording)
+* [Create test cases using Windows Spy Utility](https://docs.katalon.com/katalon-studio/docs/windows-spy-tutorials.html)
