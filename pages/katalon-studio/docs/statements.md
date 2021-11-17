@@ -39,7 +39,7 @@ redirect_from:
 description: 
 ---
 
-In Katalon Studio, you can add statements as test steps. There are four types of statements:
+In Katalon Studio, you can add statements as test steps. There are seven types of statements:
 
 * Decision-making Statements
 * Looping Statements
@@ -181,7 +181,7 @@ Refer to following table for the usage of each statement:
 
 ### In Script view
 
-The **Script** View of test cases allows you to programmatically define and handle **For** or **While** structure easily using either Groovy or Java language. Refer to [http://groovy-lang.org/semantics.html#\_looping\_structures](http://groovy-lang.org/semantics.html#_looping_structures) for more details about looping structures in Groovy.
+The **Script** View of test cases allows you to programmatically define and handle **For** or **While** structure using either Groovy or Java language. Refer to [http://groovy-lang.org/semantics.html#\_looping\_structures](http://groovy-lang.org/semantics.html#_looping_structures) for more details about looping structures in Groovy.
 
 For example:
 
@@ -361,7 +361,7 @@ The **Script** view of test cases allows you to programmatically define and han
 
 For example:
 
- ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/assert-statements/11.png)
+![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/assert-statements/11.png)
 
 ## Define Method
 
@@ -398,4 +398,3 @@ The **Script** view of a test case allows you to programmatically define and ha
 For example:
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/define-method/1.png)
-
