@@ -19,12 +19,14 @@ description: Release notes 8.x
 
 * Added Chrome 95 compatibility.
 * Added Microsoft Edge (Chromium) 95 compatibility.
-* [Security] Addressed Security Vulnerabilities of Open-Source Software:
+* [Security] Addressed Security Vulnerabilities of Open-Source Software.
     * Added an option in Katalon Studio Preferences to automatically disable connection to external domains.
 * [Performance] Improved Katalon Studio IDE and Katalon Runtime Engine performance:
     * Introduced **Delay between instances** option in Katalon Studio and `-delayBetweenInstances` parameter in Katalon Runtime Engine to execute Test Suite Collection in parallel mode. See [Command Syntax](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html), quick tip: search for `-delay`.
-    * Reduced loading time for big projects in Katalon Runtime Engine.
-    * Improved responsiveness and loading time when renaming/moving test cases in big projects.
+    * Improved loading time in Katalon Runtime Engine: 2x faster for big projects, 1.5x faster for small and medium projects.
+    * Reduced 12% memory consumption of Katalon Studio when opening/executing tests.
+    * Reduced 30% memory consumption of Katalon Runtime Engine for long executing sessions.
+    * Improved responsiveness and loading time for big projects in Katalon Studio: renaming/opening test cases 2x faster, moving test cases 1.5x faster.
     * Prevented loading unused images when opening Katalon Studio.
     * Reduced CPU usage when using Self-healing, Run and Debug from here function.
     * Removed unused messages in Test Case and Test Data.
@@ -51,6 +53,7 @@ description: Release notes 8.x
 * Bug: [Jira Integration] Could not interact with embedded Jira page. Fixed with changes to Jira Integration version 1.0.22. Download here: [Jira Integration](https://store.katalon.com/product/3/Jira-Integration#overview-content).
 * Bug: [Jira Integration] Jira-linked tickets had no step in the description.
 * Bug: [WebUI] Could not generate test steps when using `replace, trim, split` function and opening WebUI Recorder.
+* Bug: Incorrect Copyright and Version information for Katalon Studio and Katalon Runtime Engine packages on macOS.
 
 ## Official Release - Version 8.1.0
 
