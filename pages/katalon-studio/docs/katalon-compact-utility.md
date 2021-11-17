@@ -7,7 +7,7 @@ description:
 ---
 > Requirements:
 >
-> * Katalon Studio version 8.0.0 onwards.
+> * Katalon Studio version 8.2.5 Beta onwards.
 > * A Chrome Profile. Find more information here: [Share Chrome with others](https://support.google.com/chrome/answer/2364824/share-chrome-with-others-computer).
 
 In restricted environments, unpacked extensions are disabled as a security feature. In that case, using the Spy, Record, and Smart Wait with Chrome might prompt this error: "_Loading the unpacked extension is disabled by the administrators_."
