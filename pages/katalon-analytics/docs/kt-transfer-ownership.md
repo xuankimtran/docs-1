@@ -64,7 +64,7 @@ As an Owner of an Organization, the email address you have registered with Katal
 
 If you want to change your email address, follow these steps:
 
-1. Create a new email address.
+1. Create a new account using your new email address.
 2. Send an invitation to join the Organization to the new email address. See: [Invite users to join an Organization](https://docs.katalon.com/katalon-analytics/docs/kt_invite_user_org.html#invite-users-to-join-an-organization).
 3. Join the Organization as a new user. See: [Join TestOps Organizations](https://docs.katalon.com/katalon-analytics/docs/kt_users_joining_org.html).
 4. Transfer ownership to the new email address. See: [Transfer Ownership](katalon-analytics/docs/kt_transfer_ownership.html#transfer-ownership-to-an-existing-member).
