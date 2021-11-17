@@ -39,13 +39,26 @@ redirect_from:
 description: 
 ---
 
+In Katalon Studio, you can add statements as test steps. There are four types of statements:
+
+* Decision-making Statements
+* Looping Statements
+* Branching Statements
+* Exception Handling Statements
+* Binary Statement
+* Assert Statement
+* Method Call Statement
+
+This article guides you through how to add these statements to your test case and how to define a method in both manual and script view.
 ## Decision-making Statements
 
-> Once a test step is added as any of the control statements, it will **not** be allowed to change it into another keyword.
+> Once a test step is added as any of the control statements, it is not allowed to change it into another keyword.
 
 ### In Manual view
 
-Open a test case in **Manual** view, then navigate to **Decision-making Statements** from command toolbar.
+Open a test case in **Manual** view. Click on the drop-down icon of the **Add** button, then choose **Decision-making Statements**.
+
+To add a keyword under a statement, select that statement then click **Add**. A test step is created under that statement.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/control-statements/image2017-6-30-203A403A1.png)
 
@@ -56,16 +69,12 @@ Refer to the following table for the usage of each statement:
         <tr>
             <th>Statement</th>
             <th>Description</th>
-            <th>Screenshot</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td>If</td>
-            <td>This statement requires a <strong>boolean condition</strong> as <strong>input value</strong>. Katalon Studio will execute all steps within once the condition is triggered.</td>
-            <td>
-                <p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/control-statements/image2017-2-9-143A233A17.png"></p>
-            </td>
+            <td>This statement requires a boolean condition as input value. Katalon Studio will execute all steps within once the condition is triggered.</td>
         </tr>
         <tr>
             <td>Else If</td>
@@ -75,12 +84,19 @@ Refer to the following table for the usage of each statement:
             <td>Else</td>
             <td>This statement serves as the conclusion of the <strong>If - Else If - Else</strong> structure. The steps within this statement will be executed if <strong>all</strong> the conditions above it are <strong>not</strong> triggered.</td>
         </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
         <tr>
+            <th>Statement</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
             <td>Switch</td>
             <td>This statement requires an expression, which is often referred to as <strong>the control expression</strong> (or <strong>control variable</strong>), as <strong>input value</strong>.</td>
-            <td>
-                <p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/control-statements/image2017-2-9-143A473A59.png"></p>
-            </td>
         </tr>
         <tr>
             <td>Case</td>
@@ -98,7 +114,7 @@ Refer to the following table for the usage of each statement:
 
 ### In Script view
 
-The **Script** view of test cases allows you to programmatically define and handle **If-ElseIf-Else** or **Switch-Case** structure easily using either Groovy or Java language. Refer to [http://groovy-lang.org/semantics.html#\_conditional\_structures](http://groovy-lang.org/semantics.html#_conditional_structures) for more details about conditional structure in Groovy.
+The **Script** view of test cases allows you to programmatically define and handle **If-ElseIf-Else** or **Switch-Case** structure easily using either Groovy or Java language. For more details about conditional structure in Groovy, refer to Apache Groovy documentation: [Control structures](http://groovy-lang.org/semantics.html#_conditional_structures).
 
 For example:
 
@@ -129,7 +145,9 @@ For example:
 
 ### In Manual view 
 
-Open a test case in **Manual** view, then navigate to **Looping Statements** from command toolbar.
+Open a test case in **Manual** view. Click on the drop-down icon of the **Add** button, then choose **Looping Statements**.
+
+To add a keyword under a statement, select that statement then click **Add**. A test step is created under that statement.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/control-statements/image2017-6-30-203A403A53.png)
 
@@ -196,7 +214,9 @@ For example:
 
 ### In Manual view 
 
-Open a test case in **Manual** view, then navigate to **Branching Statements** from command toolbar.
+Open a test case in **Manual** view. Click on the drop-down icon of the **Add** button, then choose **Branching Statements**.
+
+To add a keyword under a statement, select that statement then click **Add**. A test step is created under that statement.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/control-statements/image2017-6-30-203A413A31.png)
 
@@ -216,13 +236,15 @@ For example:
 | Continue | ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/control-statements/37.png) |
 | Return | ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/control-statements/38.png) |
 
-## Exception handling block
+## Exception Handling statements
 
 > Once a test step is added as any of the control statements, it will **not** be allowed to change it into another keyword.
 
 ### In Manual view 
 
-Open a test case in **Manual** view, then navigate to **Exception Handling Statements** from command toolbar.
+Open a test case in **Manual** view. Click on the drop-down icon of the **Add** button, then choose **Exception Handling Statements**.
+
+To add a keyword under a statement, select that statement then click **Add**. A test step is created under that statement.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/control-statements/image2017-6-30-203A423A21.png)
 
@@ -244,7 +266,9 @@ A Binary Statement represents a dual expression consisting of two single **expre
 
 ### In Manual view
 
-1. Open a test case in **Manual** view, then navigate to **Binary Statement** from the command toolbar.  
+1. Open a test case in **Manual** view. Click on the drop-down icon of the **Add** button, then choose **Binary Statements**.
+
+To add a keyword under a statement, select that statement then click **Add**. A test step is created under that statement.  
 
    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/binary-statements/image2017-6-30-203A433A7.png)
 2. A test step representing a binary statement is added to the test case.  
@@ -285,7 +309,10 @@ Method Call statement allows you to make calls to other methods provided by the 
 
 ### In Manual view
 
-1. Open a test case in **Manual** view, then navigate to **Method Call Statement** from command toolbar.  
+1. Open a test case in **Manual** view. Click on the drop-down icon of the **Add** button, then choose **Method Call Statements**.
+
+    To add a keyword under a statement, select that statement then click **Add**. A test step is created under that statement.  
+
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/method-call-statements/image2017-6-30-203A443A47.png)  
 
 2. A test step representing a method call is added to the test case.  
@@ -312,7 +339,10 @@ An assert statement contains a **boolean expression** where this condition must
 
 ### In Manual view
 
-1. Open a test case in **Manual** view, then navigate to **Assert Statements** from command toolbar.  
+1. Open a test case in **Manual** view. Click on the drop-down icon of the **Add** button, then choose **Assert Statements**.
+
+    To add a keyword under a statement, select that statement then click **Add**. A test step is created under that statement.
+
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/assert-statements/image2017-6-30-203A443A0.png)  
       
     
@@ -339,10 +369,14 @@ A method consists of instructions to perform a specific task. Defined methods c
 
 ### In Manual view
 
-1. Open a test case in **Manual** view, then select to add **Method** from command toolbar.
+1. Open a test case in **Manual** view. Click on the drop-down icon of the **Add** button, then choose **Method**.
+
+    To add a keyword under a statement, select that statement then click **Add**. A test step is created under that statement.
+
    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/define-method/image2017-6-30-203A453A48.png)
 
 2. The **Method builder** dialog is displayed.
+
   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/define-method/image2017-2-10-153A483A9.png)
    Specify the required information for your method as following:
 
