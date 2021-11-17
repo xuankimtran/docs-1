@@ -60,9 +60,11 @@ Open a test case in **Manual** view. Click on the drop-down icon of the **Add*
 
 To add a keyword under a statement, select that statement then click **Add**. A test step is created under that statement.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/control-statements/image2017-6-30-203A403A1.png)
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/statements/statement.png" alt="add statements" width="70%">
 
 Refer to the following table for the usage of each statement:
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/statements/if-else.png" alt="if-else statements" width="100%">
 
 <table>
     <thead>
@@ -78,7 +80,7 @@ Refer to the following table for the usage of each statement:
         </tr>
         <tr>
             <td>Else If</td>
-            <td>Using <strong>Else If</strong> after <strong>If</strong>, you can create a combination of conditions where the steps within the <em>first</em> satisfied condition will be executed.</td>
+            <td>Using <strong>Else If</strong> after <strong>If</strong>, you can create a combination of conditions where the steps within the first satisfied condition will be executed.</td>
         </tr>
         <tr>
             <td>Else</td>
@@ -86,6 +88,8 @@ Refer to the following table for the usage of each statement:
         </tr>
     </tbody>
 </table>
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/statements/switch-case-default.png" alt="switch statement" wisth="70%">
 
 <table>
     <thead>
@@ -118,26 +122,38 @@ The **Script** view of test cases allows you to programmatically define and hand
 
 For example:
 
-<table>
-    <thead>
-        <tr>
-            <th>Decision-making statement</th>
-            <th>Screenshot</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>If - Else If - Else</td>
-            <td>
-                <p>&nbsp;<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/control-statements/10.png"></p>
-            </td>
-        </tr>
-        <tr>
-            <td>Switch - Case</td>
-            <td>&nbsp;<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/control-statements/11.png"></td>
-        </tr>
-    </tbody>
-</table>
+* **If - Else If - Else**:
+
+``` groovy
+
+if (true) {
+    WebUI.click(findTestObject('Page_CuraAppointment/chk_Medicaid'), FailureHandling.STOP_ON_FAILURE)
+} else if (true) {
+    WebUI.click(findTestObject('Page_CuraAppointment/chk_Medicare'), FailureHandling.STOP_ON_FAILURE)
+} else {
+    WebUI.click(findTestObject('Page_CuraAppointment/chk_None'), FailureHandling.STOP_ON_FAILURE)
+}
+```
+
+* **Switch - Case**:
+
+``` groovy
+
+switch (true) {
+    case true:
+        WebUI.click(findTestObject('Page_CuraAppointment/chk_Medicaid'), FailureHandling.STOP_ON_FAILURE)
+
+        break
+    case true:
+        WebUI.click(findTestObject('Page_CuraAppointment/chk_Medicare'), FailureHandling.STOP_ON_FAILURE)
+
+        break
+    default:
+        WebUI.click(findTestObject('Page_CuraAppointment/chk_None'), FailureHandling.STOP_ON_FAILURE)
+
+        break
+}
+```
 
 ## Looping Statements
 
