@@ -24,9 +24,9 @@ description: Release notes 8.x
 * [Performance] Improved Katalon Studio IDE and Katalon Runtime Engine performance:
     * Introduced **Delay between instances** option in Katalon Studio and `-delayBetweenInstances` parameter in Katalon Runtime Engine to execute Test Suite Collection in parallel mode. See [Command Syntax](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html), quick tip: search for `-delay`.
     * Improved loading time in Katalon Runtime Engine: 2x faster for big projects, 1.5x faster for small and medium projects.
+    * Improved responsiveness and loading time for big projects in Katalon Studio: renaming/opening test cases 2x faster, moving test cases 1.5x faster.
     * Reduced 12% memory consumption of Katalon Studio when opening/executing tests.
     * Reduced 30% memory consumption of Katalon Runtime Engine for long executing sessions.
-    * Improved responsiveness and loading time for big projects in Katalon Studio: renaming/opening test cases 2x faster, moving test cases 1.5x faster.
     * Prevented loading unused images when opening Katalon Studio.
     * Reduced CPU usage when using Self-healing, Run and Debug from here function.
     * Removed unused messages in Test Case and Test Data.
