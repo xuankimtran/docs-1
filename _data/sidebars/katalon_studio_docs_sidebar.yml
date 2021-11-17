@@ -1323,6 +1323,8 @@ items:
             url: /katalon-analytics/docs/setup-team.html 
           - title: "Manage Users"
             url: /katalon-analytics/docs/kt_invite_user_org.html
+          - title: "Transfer Ownership"
+            url: /katalon-analytics/docs/kt_transfer_ownership.html   
           - title: "Install TestOps On-premises with Docker"
             url: /katalon-analytics/docs/kt_install_premises_docker.html
       - title: "Remote Execution"
