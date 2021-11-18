@@ -8,7 +8,7 @@ description:
 > Requirement:
 >
 > * An active Katalon Studio Enterprise (KSE) license.
-> * Katalon Studio version 8.2.0 onwards.
+> * Katalon Studio version 7.8.0 onwards.
 > * You must be an Admin or Owner of your Organization.
 
 ## Configure Idle Timeout
@@ -27,7 +27,7 @@ To enable idle timeout, do as follows:
 3. Idle Timeout is disabled by default. Toggle it on to enable the setting.
 4. Specify the desired timeout (in minutes). By default, Katalon sets 120 minutes as the timeout period.
 
-5. You can set the bypass threshold to limit the number of times that licensed users can resume the session after receiving the idle timeout notification.
+5. From version 8.2.0 onwards, you can set the bypass threshold to limit the number of times that licensed users can resume the session after receiving the idle timeout notification.
 
    In the **Idle Timeout Bypass Limit** section, input the desired bypass limit. Leaving this section empty enables licensed users to resume the session unlimited times.
 
