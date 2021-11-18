@@ -24,7 +24,7 @@ description:
 
 Execution settings help define the desired behaviors of Katalon Studio during test execution. To access default Execution Settings of a project, from the main menu, select **Project > Settings > Execution**
 
-  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/default-execution.png" width="" height="">
+  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/KS-PROJECT-project-execution-settings.png" width="70%" alt="Execution settings">
 
 You can also see the following subviews:
 
@@ -98,7 +98,7 @@ Handling Out of Memory
 
 You can set default settings for Web UI test execution by going to **Project > Settings > Execution > WebUI**.
 
-  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/webui.png">
+  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/KS-PROJECT-WebUI-settings.png" width="70%" alt="WebUI settings">
 
 These settings decide Katalon Studio's behaviors when executing WebUI test in a project.
 
