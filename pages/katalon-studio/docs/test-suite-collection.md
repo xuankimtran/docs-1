@@ -23,35 +23,22 @@ After creating a TSC, in the new **Test Suite Collection** page, click **Execut
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-suite-collection/KS-TSC-Execute-information-2.png" width=70% alt="Execution Information">
 
-<table style="width: 1027px;">
+<table>
 <thead>
-<tr>
-<th style="width: 84.5781px; text-align: left;">Execution mode</th>
-<th style="width: 925.422px;">Description</th>
-</tr>
+  <tr>
+    <th>Execution mode</th>
+    <th>Description</th>
+  </tr>
 </thead>
 <tbody>
-<tr>
-<td style="width: 84.5781px;">
-<p><strong>Sequential</strong></p>
-</td>
-<td style="width: 925.422px;">
-<p>This mode allows you to&nbsp;execute the test suites one after another.</p>
-</td>
-</tr>
-<tr>
-<td style="width: 84.5781px;">
-<p><strong><strong>Parallel</strong></strong></p>
-</td>
-<td style="width: 925.422px;">
-<p>This mode allows you to execute the test suites at the same time. With this mode, you can also set:</p>
-<ul>
-<li><strong>Max concurrent instances</strong>: To set the maximum number of test suites executing at the same time.</li>
-<li><strong>Delay between instances (in seconds)</strong>: From Katalon version 8.2.0 onwards, you can set the delay time between each test suite execution from 0-999 seconds. This function reduces the risk of CPU spike issues when there are too many concurrent instances. When a test suite is ready to start, Katalon will print the following message in the <strong>Event Log</strong> tab: <code>Test suite ${testSuiteID} is ready to start at ${currentTimeStamp}</code></li>
-</ul>
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-suite-collection/KS-TSC-Print-event-log-2.png" alt="Event Log message" width="60%" /></p>
-</td>
-</tr>
+  <tr>
+    <td><strong>Sequential</strong></td>
+    <td>This mode allows you to execute the test suites one after another.</td>
+  </tr>
+  <tr>
+    <td><strong>Parallel</strong></td>
+    <td>This mode allows you to execute the test suites at the same time. With this mode, you can also set:<br>- <strong>Max concurrent instances</strong>: To set the maximum number of test suites executing at the same time.<br>- <strong>Delay between instances (in seconds)</strong>: From Katalon version 8.2.0 onwards, you can set the delay time between each test suite execution from 0-999 seconds. <br>This function reduces the risk of CPU spike issues when there are too many concurrent instances. <br>When a test suite is ready to start, Katalon will print the following message in the Event Log tab: <code>Test suite ${testSuiteID} is ready to start at ${currentTimeStamp}</code><br><br><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-suite-collection/KS-TSC-Print-event-log-2.png" alt="Event Log message" width="60%"></td>
+  </tr>
 </tbody>
 </table>
 
