@@ -32,7 +32,6 @@ description: Release notes 8.x
     * [Smart Wait] Added detection and waiting capabilities for fetch-based requests to finish before continuing with the next action.
     * [Smart Wait] Added Edge Chromium compatibility for Smart Wait. See [[WebUI] Smart Wait Function](https://docs.katalon.com/katalon-studio/docs/webui-smartwait.html).
 * [Katalon Studio Enterprise] Introduced Idle Timeout Bypass Limit to automatically log out licensed users due to timeout. See [Configure Idle Timeout](https://docs.katalon.com/katalon-studio/docs/license-idle-timeout.html).
-* [WebUI] Introduced an option to use the Spy, Record, and Smart Wait function with a packed extension, now available on the Chrome Web Store. This extension will be compatible with Katalon Studio version 8.2.5 beta onwards. See [Katalon Compact Utility](https://docs.katalon.com/katalon-studio/docs/katalon-compact-utility.html).
 * [BDD] Added BDD testing onboarding flow.
 * [Jira Integration] Only displayed the _Bug_ icon in Final test results.
 * [Console Log] Enhanced Plugin loading information in the console log of Katalon Studio Enterprise and Katalon Runtime Engine.
