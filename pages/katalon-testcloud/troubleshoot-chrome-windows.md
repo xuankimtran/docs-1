@@ -37,4 +37,6 @@ Here are two workarounds for this issue:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/troubleshoot/TC-DS-2.jpg" width="90%" alt="Set desired capabilities in Chrome">
 
-2. Downgrade to Chrome version 92.x
+2. Downgrade to Chrome version 92.x. For Katalon Studio users, to downgrade ChromeDriver versions, you can refer to this guide here: [Update or Downgrade WebDrivers](https://docs.katalon.com/katalon-studio/docs/update-or-downgrade-webdrivers.html#update-a-webdriver).
+
+    You can find other ChromeDriver versions here at the ChromeDriver website: [ChromeDriver](https://chromedriver.chromium.org/downloads).
