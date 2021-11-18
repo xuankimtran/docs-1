@@ -95,7 +95,7 @@ redirect_from:
 					<div><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/troubleshoot/TC-TROUBLESHOOT-Set-desired-capability.png" alt="Set desired capabilities in chrome" width="100%" /></div>
 				</div>
 				<div>&nbsp;</div>
-				<div>2. Downgrade to Chrome version 92.x</div>
+				<div>2. Downgrade to Chrome version 92.x. To downgrade ChromeDriver versions, you can refer to this guide here: <a href="https://docs.katalon.com/katalon-studio/docs/update-or-downgrade-webdrivers.html#replace-a-webdriver">Update or Downgrade WebDrivers</a>. </div> 
 			</td>
 		</tr>
 	</tbody>
