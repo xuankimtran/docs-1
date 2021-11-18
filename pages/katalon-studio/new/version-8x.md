@@ -20,7 +20,7 @@ description: Release notes 8.x
 * Added Chrome 95 compatibility.
 * Added Microsoft Edge (Chromium) 95 compatibility.
 * [Security] Addressed Security Vulnerabilities of Open-Source Software.
-    * Added an option in Katalon Studio Preferences to automatically disable connection to external domains.
+* Added an option in Katalon Studio Preferences to automatically disable connection to external domains.
 * [Performance] Improved Katalon Studio IDE and Katalon Runtime Engine performance:
     * Introduced **Delay between instances** option in Katalon Studio and `-delayBetweenInstances` parameter in Katalon Runtime Engine to execute Test Suite Collection in parallel mode. See [Command Syntax](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html), quick tip: search for `-delay`.
     * Improved loading time in Katalon Runtime Engine. Results from our benchmarking tests show: 2x faster for big projects, 1.5x faster for small and medium projects.
@@ -51,7 +51,7 @@ description: Release notes 8.x
 * Bug: [WebUI] Could not generate test steps when using `replace, trim, split` function and opening WebUI Recorder.
 * Bug: Incorrect Copyright and Version information for Katalon Studio and Katalon Runtime Engine packages on macOS.
 
-## Official Release - Version 8.1.0
+## Version 8.1.0
 
 ### New features
 
