@@ -1269,8 +1269,8 @@ items:
             url: /katalon-studio/docs/katalon-studio-github-action.html
       - title: "Troubleshoot"
         tree:
-          - title: "joptsimple.IllegalOptionSpecificationException: $ is not a legal option character"
-            url: /katalon-studio/docs/troubleshoot-globalvariable-special-character.html
+          - title: "Troubleshoot common exception when executing in console mode"
+            url: /katalon-studio/docs/troubleshoot-executing-in-console-mode.html
   - title: "Katalon Store"
     tree:
       - title: "Overview"
