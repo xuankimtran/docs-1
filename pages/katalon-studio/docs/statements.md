@@ -178,23 +178,16 @@ Refer to following table for the usage of each statement:
         <tr>
             <th>Statement</th>
             <th>Description</th>
-            <th>Screenshot</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td>For</td>
             <td>This statement accepts a <em>range</em>,<em> list</em> or <em>array</em> as <strong>input value</strong> so that Katalon Studio knows <strong>how many times</strong> to execute all steps within the <strong>For</strong> structure.</td>
-            <td>
-                <p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/control-statements/image2017-2-9-153A493A5.png"></p>
-            </td>
         </tr>
         <tr>
             <td>While</td>
             <td>This statement requires a <strong>boolean condition</strong> as <strong>input value</strong> so that Katalon Studio will keep executing all steps within <strong>until the condition fails</strong>.</td>
-            <td>
-                <p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/control-statements/image2017-2-9-153A533A44.png"></p>
-            </td>
         </tr>
     </tbody>
 </table>
