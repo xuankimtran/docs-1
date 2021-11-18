@@ -52,12 +52,10 @@ First, you need to set your desired JRE as the default JRE in Katalon Preference
 
 ## Use the newly added JRE in a test project 
 
-Then, to run and compile a test project with the new JRE, you are required to add the `jaxb-api-2.3.1.jar` library to that project. 
+To run and compile a test project with the new JRE:
+1. Download `jaxb-api-2.3.1.jar` library. You can download JAXB API 2.3.1 from the Maven Repository website here: [JAXB API 2.3.1](https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api/2.3.1).
 
-Useful links:
-
-* Download JAXB API 2.3.1 [here](https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api/2.3.1).
-* Refer to this guide to [add an external library to a project](https://docs.katalon.com/katalon-studio/docs/external-libraries.html#add-external-libraries).
+you need add the `jaxb-api-2.3.1.jar` library to that project Refer to this guide to [add an external library to a project](https://docs.katalon.com/katalon-studio/docs/external-libraries.html#add-external-libraries).
 
 Please make sure there is version compatibility between the test project and JRE. In case you want to check which Java version the test project is developed with, append the following script to a test case, then run it and see the log.
  
