@@ -13,7 +13,7 @@ description:
 
 The Slack Integration Plugin allows you to receive test execution results from Katalon Studio to a Slack channel in real-time.
 
-This plugin is supporting both public and private channels at the moment.
+This plugin supports both public and private channels at the moment.
 
 This guide shows you how to create a Slack API app and configure the Slack Integration Plugin in Katalon Studio.
 
@@ -67,6 +67,6 @@ This guide shows you how to create a Slack API app and configure the Slack Integ
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/slack-plugin-integration/KS-Slack-plugin-test-connection.png" width=70% alt="Check Slack connection">
 
-6. After the configuration, whenever an execution in KS is finished, your Slack API app will automatically send real-time summary execution results to the configured Slack channel.
+6. After the configuration, whenever an execution in Katalon Studio is finished, your Slack API app will automatically send real-time summary execution results to the configured Slack channel.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/slack-plugin-integration/Slack-Test-result-summary.png" width=70% alt="Configure Slack plugin">
