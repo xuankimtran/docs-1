@@ -40,37 +40,39 @@ Katalon Studio Preferences define default behaviors of Katalon Studio across pro
 
 To configure Katalon general behaviors at startup, go to **Katalon Studio > Preferences > Katalon** from the menu. You can see the following options:
 
-<table style="width: 709.109px;">
-	<tbody>
-		<tr>
-			<td><strong>Options</strong></td>
-			<td><strong>Capabilities</strong></td>
-			<td><strong>Notes</strong></td>
-		</tr>
-		<tr>
-			<td>Show Help at startup</td>
-			<td>This option allows you to turn on/off the <strong>Help</strong> page at startup.</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Automatically check for new version</td>
-			<td>This option allows Katalon to check for the latest Katalon version automatically.</td>
-			<td></td>
-		</tr>
-		<tr>
-			<td>Allow usage tracking</td>
-			<td>This option allows you to configure the usage tracked by Katalon Studio. By default, Katalon Studio is allowed to collect errors, execution logs, and other information about your application use. You can refer to this document:&nbsp;<a href="https://www.katalon.com/terms/katalon/privacy-policy/">Privacy Policy</a>&nbsp;for further details of our tracking.</td>
-			<td rowspan="3"><p>&nbsp;</p>To disable these functions,&nbsp;you need an active Katalon Studio Enterprise license. You can refer to this document to learn more about activating licenses: <a href="https://docs.katalon.com/katalon-studio/docs/activate-license.html#activate-trial-license">Activate Katalon License.</a></td>
-		</tr>
-		<tr>
-			<td>Received dynamic content notifications</td>
-			<td>From Katalon version 8.2.0 onwards, you can stop receiving notifications from the Katalon Studio team by unchecking this option.</td>
-		</tr>
-		<tr>
-			<td>Show Start Page contents</td>
-			<td>From Katalon version 8.2.0 onwards, you can hide Start Page contents by unchecking this option.</td>
-		</tr>
-	</tbody>
+<table>
+<thead>
+  <tr>
+    <th>Options</th>
+    <th>Capabilities</th>
+    <th>Notes</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Show Help at startup</td>
+    <td>This option allows you to turn on/off the <strong>Help</strong> page at startup.</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Automatically check for new version</td>
+    <td>This option allows Katalon to check for the latest Katalon version automatically.</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Allow usage tracking</td>
+    <td>This option allows you to configure the usage tracked by Katalon Studio. <br>By default, Katalon Studio is allowed to collect errors, execution logs, and other information about your application use. <br>You can refer to this document: <a href="https://www.katalon.com/terms/katalon/privacy-policy/">Privacy Policy</a> for further details of our tracking.</td>
+    <td rowspan="3">To disable these functions, you need an active Katalon Studio Enterprise license. <br>You can refer to this document to learn more about activating licenses: <a href="https://docs.katalon.com/katalon-studio/docs/activate-license.html#activate-trial-license">Activate Katalon License.</a></td>
+  </tr>
+  <tr>
+    <td>Received dynamic content notifications</td>
+    <td>From Katalon version 8.2.0 onwards, you can stop receiving notifications from the Katalon Studio team by unchecking this option.</td>
+  </tr>
+  <tr>
+    <td>Show Start Page contents</td>
+    <td>From Katalon version 8.2.0 onwards, you can hide Start Page contents by unchecking this option.</td>
+  </tr>
+</tbody>
 </table>
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-preferences/KS-PREF-Katalon-preferences.png" width=70% alt="Katalon preferences">
