@@ -58,11 +58,13 @@ This article guides you through how to add these statements to your test case an
 
 Open a test case in **Manual** view. Click on the drop-down icon of the **Add** button, then choose **Decision-making Statements**.
 
-To add a keyword under a statement, select that statement then click **Add**. A test step is created under that statement.
-
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/statements/statement.png" alt="add statements" width="70%">
 
+To add a keyword under a statement, select that statement then click **Add**. A test step is created under that statement.
+
 Refer to the following table for the usage of each statement:
+
+* **If - Else If - Else**:
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/statements/if-else.png" alt="if-else statements" width="100%">
 
@@ -88,6 +90,8 @@ Refer to the following table for the usage of each statement:
         </tr>
     </tbody>
 </table>
+
+* **Switch - Case**:
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/statements/switch-case-default.png" alt="switch statement" wisth="70%">
 
