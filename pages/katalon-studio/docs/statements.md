@@ -93,7 +93,7 @@ Refer to the following table for the usage of each statement:
 
 * **Switch - Case**:
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/statements/switch-case-default.png" alt="switch statement" wisth="70%">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/statements/switch-case-default.png" alt="switch statement" wisth="100%">
 
 <table>
     <thead>
@@ -169,7 +169,7 @@ Open a test case in **Manual** view. Click on the drop-down icon of the **Add*
 
 To add a keyword under a statement, select that statement then click **Add**. A test step is created under that statement.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/control-statements/image2017-6-30-203A403A53.png)
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/statements/for-while.png" alt="looping statement" width="70%">
 
 Refer to following table for the usage of each statement:
 
@@ -194,32 +194,26 @@ Refer to following table for the usage of each statement:
 
 ### In Script view
 
-The **Script** View of test cases allows you to programmatically define and handle **For** or **While** structure using either Groovy or Java language. Refer to [http://groovy-lang.org/semantics.html#\_looping\_structures](http://groovy-lang.org/semantics.html#_looping_structures) for more details about looping structures in Groovy.
-
+The **Script** View of test cases allows you to programmatically define and handle **For** or **While** structure using either Groovy or Java language. For more details about looping structures in Groovy, refer to Apache Groovy documentation: [Looping Structures](http://groovy-lang.org/semantics.html#_looping_structures) 
 For example:
 
-<table>
-    <thead>
-        <tr>
-            <th>Looping statement</th>
-            <th>Screenshot</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>For</td>
-            <td>
-                <p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/control-statements/24.png"></p>
-            </td>
-        </tr>
-        <tr>
-            <td>While</td>
-            <td>
-                <p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/control-statements/25.png"></p>
-            </td>
-        </tr>
-    </tbody>
-</table>
+* **For**:
+
+``` groovy
+
+for (def index : (0..5)) {
+    WebUI.acceptAlert(FailureHandling.STOP_ON_FAILURE)
+}
+```
+
+* **While**:
+
+``` groovy
+
+for (def index : (0..5)) {
+    WebUI.acceptAlert(FailureHandling.STOP_ON_FAILURE)
+}
+```
 
 ## Branching Statements
 
