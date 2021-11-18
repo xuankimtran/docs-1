@@ -32,7 +32,7 @@ First, you need to set your desired JRE as the default JRE in Katalon Preference
    
    > Quick tips:
    >
-   > Type "jre" in the search bar.)
+   > Type "jre" in the search bar.
 
 2. Click on button **Add...**.
 
@@ -42,17 +42,17 @@ First, you need to set your desired JRE as the default JRE in Katalon Preference
 
    <img alt="select standard-VM" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/change-jre/standard-vm.png" width=90%>
 
-4. Browse to the JRE or JDK 11's **Home** folder and give it a meaningful name. And click **Finish**.
+4. Browse to the `Home` folder of the JRE you wish to add and give it a name. Here, we name it JRE 11. Click **Finish**.
 
    <img alt="Browse to the JRE location" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/change-jre/browse-jre.png" width=90%>
 
-5. In **Installed JREs**, set it as the default one and save the changes.
+5. In the **Installed JREs** interface, check the newly added JRE to set it the default one. Click **Apply and close**.
 
    <img alt="Change default" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/change-jre/default.png" width=90%> 
 
 ## Use the newly added JRE in a test project 
 
-Then, to run and compile a test project with the new JRE, you are required to add the JAXB API 2.3.1 `.jar` library to that project. 
+Then, to run and compile a test project with the new JRE, you are required to add the `jaxb-api-2.3.1.jar` library to that project. 
 
 Useful links:
 

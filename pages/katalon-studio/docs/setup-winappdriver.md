@@ -50,6 +50,10 @@ After installing WindAppDriver and enabling **Developer Mode**, to configure Win
     * `Port`: is the public port of the remote machine. By default, it should be 4723.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/introduction-desktop-app-testing/Set-up-2.png" width="690" height="146">
+
+   > Notes: 
+   > 
+   > If the test machine is in a highly secured environment with firewall, you might need to create an Inboud Port Rule for the test machine to receive inbound requests. To set up the inbound rule, you can follow the first step here in the WindAppDriver project document: [Create an Inbound Port Rule](https://github.com/microsoft/WinAppDriver/blob/master/Docs/RunningOnRemoteMachine.md).
 ### On the test runner machine
 
 > Notes:
