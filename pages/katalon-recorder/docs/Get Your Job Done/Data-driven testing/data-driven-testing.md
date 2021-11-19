@@ -98,7 +98,7 @@ The `endLoadVars` command terminates the data-driven block. You need to add it t
 
 Katalon Recorder comes with a set of built-in sample projects to get you started with DDT.
 
-Follow these steps to use sample the projects:
+Follow these steps to use the sample projects:
 
 1. Go to **Templates**.
 2. Go to **Read and write value with CSV file**
