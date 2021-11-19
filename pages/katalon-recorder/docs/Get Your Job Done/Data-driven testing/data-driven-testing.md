@@ -28,7 +28,7 @@ Follow these steps:
 
 1. Open Katalon Recorder. In the **Workspace** sidebar, click on the *more* icon next to the **Test Data** section.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/ddt-guide/KR-Workspace-sidebar-Test-Data.png" width=70% alt="Click on Test Data More icon">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/ddt-guide/KR-Workspace-sidebar-Test-Data.png" width=30% alt="Click on Test Data More icon">
 
 2. In the displayed file dialog, select the CSV or JSON file.
 
@@ -36,7 +36,7 @@ Follow these steps:
 
 3. The selected data file is displayed under the **Test Data** section.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/ddt-guide/KR-Test-Data-File-added.png" width=70% alt="Added data file">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/ddt-guide/KR-Test-Data-File-added.png" width=30% alt="Added data file">
 
 ### Configure data-driven commands and variables in the test case
 
