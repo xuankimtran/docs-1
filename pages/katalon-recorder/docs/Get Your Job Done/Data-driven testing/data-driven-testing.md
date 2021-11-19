@@ -9,13 +9,13 @@ Katalon Recorder allows you to perform data-driven testing (DDT) by binding test
 
 > **Requirements**:
 >
-> Katalon Recorder version x.x.x onwards.
+> Katalon Recorder version 5.6.0 onwards.
 
-This guide shows you how to perform DDT in Katalon Recorder.
+This guide shows you how to apply DDT to a test case in Katalon Recorder.
 
 ## Perform data-driven testing
 
-In Katalon Recorder, there are two steps to perform DDT:
+In Katalon Recorder, there are two steps to apply DDT to a test case:
 
 1. Add data files to your workspace.
 2. Configure data-driven commands and variables in the test case.
@@ -98,8 +98,7 @@ The `endLoadVars` command terminates the data-driven block. You need to add it t
 
 Katalon Recorder comes with a set of built-in sample projects to get you started with DDT.
 
-Follow these steps to use the sample projects:
+Follow these steps to add a sample project:
 
-1. Go to **Templates**.
-2. Go to **Read and write value with CSV file**
-3. Add **Fill a form with data from CSV file** sample project.
+1. In the **Workspace** sidebar, select **Sample Projects**.
+2. Add the **Fill a form with data from CSV file with Sample Test Data** sample project.
