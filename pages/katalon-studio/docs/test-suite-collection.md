@@ -26,18 +26,18 @@ After creating a TSC, in the new **Test Suite Collection** page, click **Execut
 <table>
 <thead>
   <tr>
-    <th>Execution mode</th>
-    <th>Description</th>
+    <th>Execution mode&nbsp;&nbsp;&nbsp;</th>
+    <th>Description<br></th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td><strong>Sequential</strong></td>
+    <td>Sequential</td>
     <td>This mode allows you to execute the test suites one after another.</td>
   </tr>
   <tr>
-    <td><strong>Parallel</strong></td>
-    <td>This mode allows you to execute the test suites at the same time. With this mode, you can also set:<br>- <strong>Max concurrent instances</strong>: To set the maximum number of test suites executing at the same time.<br>- <strong>Delay between instances (in seconds)</strong>: From Katalon version 8.2.0 onwards, you can set the delay time between each test suite execution from 0-999 seconds. <br>This function reduces the risk of CPU spike issues when there are too many concurrent instances. <br>When a test suite is ready to start, Katalon will print the following message in the Event Log tab: <code>Test suite ${testSuiteID} is ready to start at ${currentTimeStamp}</code><br><br><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-suite-collection/KS-TSC-Print-event-log-2.png" alt="Event Log message" width="60%"></td>
+    <td>Parallel</td>
+    <td>This mode allows you to execute the test suites at the same time. With this mode, you can also set:<br>- <strong>Max concurrent instances:</strong> To set the maximum number of test suites executing at the same time.<br>- <strong>Delay between instances (in seconds):</strong> From Katalon version 8.2.0 onwards, you can set the delay time between each test suite execution from 0-999 seconds.<br>This function reduces the risk of CPU spike issues when there are too many concurrent instances. When a test suite is ready to start, Katalon will print the following message in the <strong>Event Log</strong> tab: <br><code>Test suite ${testSuiteID} is ready to start at ${currentTimeStamp}</code>.<br><br><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-suite-collection/KS-TSC-Print-event-log-2.png" alt="Event Log message" width="700" height="453"></td>
   </tr>
 </tbody>
 </table>
