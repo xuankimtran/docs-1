@@ -56,17 +56,62 @@ On the top right corner, if you click on the *Avatar* icon, you can navigate to:
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-navigation-doc/click-profile-icon.png" width=100% alt="testops homepage">
 
+In the **Organization User** section, you can see:
+
+* **Total Users**: the total number of users in the organization.
+* **Active Users**: the number of users joining the organization.
+* **Pending Users**: the number of users with pending invitations to the organization.
+* **Removed Users**: the number of users removed from the organization.
+
+[image]
+
+In the **My Products** section, you can see:
+
+* License summary: purchased license types and the number of license for each license type.
+* TestOps plan summary: the plan name, the number of purchased test executions, and the number of projects.
+
+[image]
+
+In the **Feature Documentations** section, you can see some featured documents for the TestOps knowledge base.
+
+In the **Quick Actions** section, you can perform common TestOps actions, including:
+
+* **View your license**: view details about your purchased licenses.
+* **Invite user to this organization**: invite users to your organization.
+* **Subscribe to Katalon products** (for Owners only): create TestOps subscriptions.
+* **Assign Katalon license to users**: grant licenses to users in the organization.
+* **Get the organization ID**: get the ID of the current organization.
+* **Generate an API key**: generate API keys to integrate TestOps with different platforms.
+* **Manage your profile**: edit your profile.
+
+[image]
+
+# As a Billing Manager
+
+After signing in to [Katalon TestOps](https://testops.katalon.io/login), the TestOps homepage appears as below.
+
+[image]
+
+On the top left corner, you can see your current Organization's name. If you click on it, you can see the list of all organizations you belong to.
+
+> **Notes**:
+>
+> You can click on the downward arrow next to an Organization to see the Projects. If you click on a Project, you will be navigated to the Project's Dashboard.
+
+
 # As a Member
 
-After signing in to [Katalon TestOps](https://testops.katalon.io/login), the TestOps homepage appears.
+After signing in to [Katalon TestOps](https://testops.katalon.io/login), the TestOps homepage appears as below.
+
+[image]
 
 On the top left corner, you can see your current Organization's name. If you click on it, you can:
 
 * see the list of all organizations you belong to.
 
-    > Notes:
-    >
-    > You can click on the downward arrow next to an Organization to see the Projects. If you click on a Project, you will be navigated to the Project's Dashboard.
+> **Notes**:
+>
+> You can click on the downward arrow next to an Organization to see the Projects. If you click on a Project, you will be navigated to the Project's Dashboard.
 * create a new organization. See: [Create Organization and Project](https://docs.katalon.com/katalon-analytics/docs/kt-create-org.html).
 
 On the top right corner, if you click on the *Settings* icon, you can see the **TestOps Settings** section in which you can navigate to:
@@ -82,3 +127,13 @@ On the top right corner, if you click on the *Avatar* icon, you can navigate to:
 * **Documentation**: where you can find tutorials and guidelines to use Katalon products.
 * **Community**: where you can join our Katalon Community and see all community forums.
 * **Sign Out**: where you can sign out of Katalon TestOps.
+
+In the **TestOps Plan** section, you can see a summary of TestOps plan, including the plan name, the number of purchased test executions, and the number of projects.
+
+In the **Feature Documentations** section, you can see some featured documents for the TestOps knowledge base.
+
+In the **Quick Actions** section, you can perform common TestOps actions, including:
+
+* **View your license**: view details about your granted licenses.
+* **Generate an API key**: generate API keys to integrate TestOps with different platforms.
+* **Manage your profile**: edit your profile.
