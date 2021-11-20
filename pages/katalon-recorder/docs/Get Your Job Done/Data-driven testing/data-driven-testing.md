@@ -18,7 +18,7 @@ This guide shows you how to apply DDT to a test case in Katalon Recorder.
 In Katalon Recorder, there are two steps to apply DDT to a test case:
 
 1. Add data files to your workspace.
-2. Configure data-driven commands and variables in the test case.
+2. Configure data-driven commands and variables in the test case to use data from the data files.
 
 ### Add data files to the workspace
 
@@ -26,7 +26,7 @@ Katalon Recorder supports adding CSV and JSON data files to your workspace.
 
 Follow these steps:
 
-1. Open Katalon Recorder. In the **Workspace** sidebar, click on the *more* icon next to the **Test Data** section.
+1. Open Katalon Recorder. In the **Workspace** sidebar, click on the *more* icon in the **Test Data** section.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/ddt-guide/KR-Workspace-sidebar-Test-Data.png" width=30% alt="Click on Test Data More icon">
 
@@ -100,5 +100,11 @@ Katalon Recorder comes with a set of built-in sample projects to get you started
 
 Follow these steps to add a sample project:
 
-1. In the **Workspace** sidebar, select **Sample Projects**.
-2. Add the **Fill a form with data from CSV file with Sample Test Data** sample project.
+1. In the **Actions** sidebar, select **Sample Projects**.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/ddt-guide/KR-Action-sidebar-Sample-Projects.png" width=30% alt="Action sidebar">
+
+2. In the displayed diaplog, select **Fill a form with data from CSV file with Sample Test Data** sample project. Click **Add** to use the project.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/ddt-guide/KR-Sample-Project-dialog.png" width=70% alt="Sample project dialog">
+
