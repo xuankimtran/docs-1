@@ -194,7 +194,8 @@ Refer to following table for the usage of each statement:
 
 ### In Script view
 
-The **Script** View of test cases allows you to programmatically define and handle **For** or **While** structure using either Groovy or Java language. For more details about looping structures in Groovy, refer to Apache Groovy documentation: [Looping Structures](http://groovy-lang.org/semantics.html#_looping_structures) 
+The **Script** View of test cases allows you to programmatically define and handle **For** or **While** structure using either Groovy or Java language. For more details about looping structures in Groovy, refer to Apache Groovy documentation: [Looping Structures](http://groovy-lang.org/semantics.html#_looping_structures).
+
 For example:
 
 * **For**:
