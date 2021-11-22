@@ -2,6 +2,7 @@
 title: "Data-driven testing"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-recorder/docs/data-driven-testing.html
+redirect_from: katalon-recorder/docs/data-driven-execution.html
 description:
 ---
 
