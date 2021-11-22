@@ -7,9 +7,9 @@ redirect_from:
 
 You can manage test cases in Katalon TestOps to evaluate the quality and visualize its trend over time.
 
-By doing so, your team can spot the weak points in your software/application deployment.
+By doing so, your team can spot weak points in your software or application deployment.
 
-With test management, you can also estimate the time it takes to perform test automation. This is useful in production stage, especially if you release critical updates.
+With test management, you can also estimate time it will take to perform all your automated tests. This is useful in the production stage, especially if you release critical updates.
 
 To help you manage test cases effectively, Katalon TestOps categorizes test cases into the following types:
 
@@ -49,7 +49,7 @@ Go to **Reports** > **Test Cases** > **Flaky**.
 
 <img src="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-analytics/docs/view-test-cases/flaky-test-case.png" width=100% alt="flaky test cases">
 
-You can see the level details of flaky Test Cases here.
+You can see the details of flaky Test Cases here.
 
 Katalon TestOps allows you to investigate deeper into the context around flakiness occurrence to help you find the root cause and assist debugging over time.
 
