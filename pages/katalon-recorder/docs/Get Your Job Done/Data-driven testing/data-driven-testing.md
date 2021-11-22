@@ -103,6 +103,6 @@ Follow these steps to add a sample project:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/ddt-guide/KR-Action-sidebar-Sample-Projects.png" width=30% alt="Action sidebar">
 
-2. In the displayed diaplog, select **Fill a form with data from CSV file with Sample Test Data** sample project. Click **Add** to add the project.
+2. In the displayed dialog, select **Fill a form with data from CSV file with Sample Test Data** sample project. Click **Add** to add the project.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/ddt-guide/KR-Sample-Project-dialog.png" width=70% alt="Sample project dialog">
