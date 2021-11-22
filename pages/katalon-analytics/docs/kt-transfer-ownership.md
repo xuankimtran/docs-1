@@ -44,7 +44,7 @@ Follow these steps:
 
 7. Click **Transfer Ownership**.
 
-    > Notes:
+    > Notice:
     >
     > You cannot undo this action.
 
