@@ -21,7 +21,7 @@ Follow these steps:
 
 3. Creat a Script Repository. See: [Upload Test Scripts from a Git Repository](https://docs.katalon.com/katalon-analytics/docs/git-test-project.html#create-git-script-repositories).
 
-    You can now see the newly-created Script Repository appear on the list of Script Repositories in the **Script Repositories** page.
+    You can now see the newly-created Script Repository appear in the **Script Repositories** page.
 
 4. Click on the Script Repository you have created.
 
@@ -72,7 +72,7 @@ Follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt_run_parallel_agent/kt_two_agents_run.png" width=100% alt="2 agents run concurrently">
 
-## View Test Suites result
+## View Test Suites results
 
 Go to **Reports** > **Test Runs** to see the result of Test Suites you have run in parallel.
 
