@@ -50,7 +50,7 @@ Follow these steps to analyze the logs:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-analyze-test-executions-and-resolve-errors/KS-Log-Viewer-Root-cause-section.png" width=70% alt="Root cause section">
 
-    > Learn more about common exceptions in Web tests here: [Troubleshoot common exceptions when executing web tests](https://docs.katalon.com/katalon-studio/docs/troubleshoot-common-execution-exceptions-web-test.html).
+    > To learn how to troubleshoot common exceptions in Web tests, you can refer to this document: [Troubleshoot common exceptions when executing web tests](https://docs.katalon.com/katalon-studio/docs/troubleshoot-common-execution-exceptions-web-test.html).
 
     Below the root cause section, the message displays the failed step in the form of Test Script.
 
