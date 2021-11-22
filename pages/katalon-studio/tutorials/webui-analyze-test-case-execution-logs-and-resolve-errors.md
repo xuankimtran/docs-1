@@ -18,43 +18,45 @@ In our example, the Test Case fails to find a Web element due to an unexpected c
 
 After executing the Test Case, Katalon Studio displays the results in the **Log Viewer** as follows:
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/analyze-test-execution-logs-and-resolve-errors/KS-Test-Execution-overview.png" width=70% alt="Test Execution logs">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-analyze-test-executions-and-resolve-errors/KS-Execution-Results.png" width=70% alt="Test Execution overview">
 
-Here we use the **Tree View** mode of the **Log Viewer** to analyze the logs. This view presents the logs in a structural way that helps users trace the Test execution and locate the failed steps.
+Here we use the **Tree View** mode of the **Log Viewer** to analyze the logs. This mode displays execution logs in a structural way that helps users trace the Test execution and locate failed steps quickly.
 
 Follow these steps to analyze the logs:
 
 1. Switch to the **Tree View**. Toggle on the **Tree View** button on the top-right corner of the **Log Viewer**.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/analyze-test-execution-logs-and-resolve-errors/KS-Log-Viewer-Tree-View-button.png" width=30% alt="Tree View button">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-analyze-test-executions-and-resolve-errors/KS-Tree-View-Button.png" width=30% alt="Tree View button">
 
     The **Tree View** displays the execution logs in a tree-like structure on the left pane. Each node in the tree corresponds to a step in the Test Case, and failed steps are marked in red.
 
-    [image-Tree-View-nodes]
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-analyze-test-executions-and-resolve-errors/KS-Log-Viewer-Tree-View.png" width=70% alt="Tree View Structure">
 
     On the right pane, the view displays detailed log messages of each step.
 
-    [image-log-message-pane]
-
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/analyze-test-execution-logs-and-resolve-errors/KS-Log-Viewer-Tree-View.png" width=70% alt="Tree View">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-analyze-test-executions-and-resolve-errors/KS-Log-Viewer-Log-Message-Overview.png" width=70% alt="Log Message Pane">
 
 2. To view warning messages of the failed step, click on the *expand* icon on the left of the step.
+ 
+    Here the warnings indicate that Katalon Studio fails to find a Test Object with a specific XPath.
 
-    Here the warnings indicate that the Test Case fails to find a Test Object with a specific XPath.
-
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/analyze-test-execution-logs-and-resolve-errors/KS-Log-Viewer-Expanded-warnings.png" width=70% alt="Failed Step warnings">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-analyze-test-executions-and-resolve-errors/KS-Log-Viewer-Warnings.png" width=70% alt="Log Message Pane">
 
 3. To view the detailed log message, click on the step. The log message is displayed on the right pane.  
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/analyze-test-execution-logs-and-resolve-errors/KS-Log-Viewer-Log-Message.png" width=70% alt="Log message pane">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-analyze-test-executions-and-resolve-errors/KS-Log-Viewer-Click-on-step.png" width=70% alt="Tree View Click on step">
 
-    Here the log message shows some details about the failed step.
-    
-    The 
+    In the root cause section, the message shows an exception: `com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id ... not found.`
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-analyze-test-executions-and-resolve-errors/KS-Log-Viewer-Root-cause-section.png" width=70% alt="Root cause section">
 
     > Learn more about common exceptions in Web tests here: [Troubleshoot common exceptions when executing web tests](https://docs.katalon.com/katalon-studio/docs/troubleshoot-common-execution-exceptions-web-test.html).
 
-    In our example, the log message shows that Katalon Studio cannot locate the sign-in button with the id `'Object Repository/Page_Zack Market/input_Password_button_btn__2lzmo'` and the locator `'//*[@value = 'Signing_in']'`. The error is caused by a UI change in the AUT.
+    Below the root cause section, the message displays the failed step in the form of Test Script.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-analyze-test-executions-and-resolve-errors/KS-Log-Viewer-Error-Script.png" width=70% alt="Error Script">
+
+    From the details provided, we know that Katalon Studio cannot locate the sign-in button with the id `'Object Repository/Page_Zack Market/input_Password_button_btn__2lzmo'` and the Object Locator `//*[@value = 'Signing_in']`.
 
 > **Notes**:
 >
@@ -68,26 +70,27 @@ Follow these steps:
 
 1. Navigate to the Test Object. In the log message of the failed step, click on the displayed Object ID.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/analyze-test-execution-logs-and-resolve-errors/KS-Log-Viewer-click-on-object.png" width=70% alt="Log message pane">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-analyze-test-executions-and-resolve-errors/KS-Log-Viewer-Click-on-Object.png" width=70% alt="Click on Object in Log Message pane">
 
-    Katalon Studio will navigate to the selected Test Object.
+    Here Katalon Studio navigates to the Test Object with the deprecated Object Locator.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/analyze-test-execution-logs-and-resolve-errors/KS-Failed-Test-Object.png" width=70% alt="Log message pane">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-analyze-test-executions-and-resolve-errors/KS-Log-Viewer-Navigated-Object.png" width=70% alt="Navgiated Object with incorrect locator">
 
 2. Update the Object Locator.
 
     Because a change in the AUT causes the error, we can update the Object Locator by re-recording the Test Case with the **Web Recorder**.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/analyze-test-execution-logs-and-resolve-errors/KS-Web-Recorder.png" width=70% alt="Log message pane">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-analyze-test-executions-and-resolve-errors/KS-Recording-Test-Case.png" width=70% alt="Navgiated Object with incorrect locator">
 
 3. After re-recording the Test Case, verify that the Test Object is updated.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/analyze-test-execution-logs-and-resolve-errors/KS-Updated-Object.png" width=70% alt="Updated Object">
+    Here the Object Locator is updated with new properties and XPath.
 
-4. Run the Test Case and verify the results in the **Log Viewer**.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-analyze-test-executions-and-resolve-errors/KS-Updated-Object.png" width=70% alt="Updated Object locator">
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/analyze-test-execution-logs-and-resolve-errors/KS-Updated-Test-case.png" width=70% alt="Log message pane">
+4. Run the Test Case and verify the successful Test execution in the **Log Viewer**.
 
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-analyze-test-executions-and-resolve-errors/KS-Successful-Test-Execution.png" width=70% alt="Successful Test Execution">
 
 > **See also**:
 >
