@@ -6,7 +6,7 @@ redirect_from: katalon-recorder/docs/data-driven-execution.html
 description:
 ---
 
-Data-driven testing (DDT) allows you to execute test cases using data from external data files in forms of table or speadsheet format. Katalon Recorder facilitates DDT by providing DDT commands and binding test cases with data files.
+Data-driven testing (DDT) allows you to execute test cases using data from external data files in table or spreadsheet format. Katalon Recorder facilitates DDT by providing DDT commands and enabling you to bind test cases with data files.
 
 > **Requirements**:
 >
