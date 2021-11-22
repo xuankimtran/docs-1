@@ -53,7 +53,7 @@ After installing WindAppDriver and enabling **Developer Mode**, to configure Win
 
    > Notes: 
    > 
-   > If the test machine is in a highly secured environment with firewall, you might need to create an Inboud Port Rule for the test machine to receive inbound requests. To set up the inbound rule, you can follow the first step here in the WindAppDriver project document: [Create an Inbound Port Rule](https://github.com/microsoft/WinAppDriver/blob/master/Docs/RunningOnRemoteMachine.md).
+   > If the test machine is in a highly secured environment with firewall, you might need to create an Inboud Port Rule for the test machine to receive inbound requests. To set up the inbound rule, you can follow the steps here in the WindAppDriver project document: [Create an Inbound Port Rule](https://github.com/microsoft/WinAppDriver/blob/master/Docs/RunningOnRemoteMachine.md).
 ### On the test runner machine
 
 > Notes:
