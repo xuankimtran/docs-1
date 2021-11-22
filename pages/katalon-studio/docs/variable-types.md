@@ -9,24 +9,21 @@ redirect_from:
     - "/katalon-studio/docs/variable-types/"
 description:
 ---
-There are three types of variables supported in Katalon Studio, as below:
+There are three types of variables supported in Katalon Studio:
 
-**Groovy Variable**
+- Groovy Variable
 
-**Test Case Variable**
+- Test Case Variable
 
-A Test Case Variable can be used to parameterize a test case or to call that test case with different inputs.
+- Global Variable (Execution Profiles)
 
-**Global Variable (Execution Profiles)**
+## Groovy Variables
 
-A Global Variable can be accessed anywhere inside your project.
+> Katalon Studio supports Groovy programming language from version 2.4.x onwards.
 
-Refer to the subsequence sections for how to define a variable of each type.
+You can define variables in Groovy in Katalon Studio. To learn more about Groovy programming language, you can refer to the Apache Groovy document: [Groovy documentation](http://groovy-lang.org/semantics.html). 
 
-Groovy Variables
------------------
-
-For more details, please [Groovy documentation](http://groovy-lang.org/semantics.html). Examples:
+For example:
 
 ```groovy
 // x is defined as a variable of String type
@@ -40,70 +37,14 @@ println(x);
 println(y);
 ```
 
-Test Case Variables
----------------
+## Test Case Variables
 
-You can manage Test Case Variable in the **Variables** tab of the **Test Case Editor**.
+Katalon Studio allows you to create test case variables and call test cases with variables.
+To learn more about managing test case variables and calling test cases with variables, you can refer to this document: [Test case variables](https://docs.katalon.com/katalon-studio/docs/test-case-variables.html#manage-test-case-variables).
 
-To add variable using grid view, switch to **Variables** tab of your Test Case. Then click **Add**. A new row is added to the variable list. Modify the variable details and save the test case once done.
+You can also use test case variables in a test suite, To learn more about binding data for test suite execution, you can refer to this document: [Manage data binding](https://docs.katalon.com/katalon-studio/docs/run-test-case-external-data.html).
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/variable-types/variable-manual-mode.png)
+## Global Variables
 
-Alternatively, variables can be added using Script Mode. Switch to **Variable (Script Mode)** tab, Katalon Studio will display a Script Editor with XML format. For example:
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/variable-types/variable-script-mode.png)
-
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<Entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="variableEntityWrapper">
-   <description></description>
-   <tag></tag>
-   <variables>
-      <defaultValue>'John Doe'</defaultValue>
-      <description></description>
-      <id>19fe967b-1564-4705-aff2-848d45b84489</id>
-      <masked>false</masked>
-      <name>Username</name>
-   </variables>
-   <variables>
-      <defaultValue>'ThisIsNotAPassword'</defaultValue>
-      <description></description>
-      <id>75fa3d79-7e92-4d55-b359-f7c9493ea288</id>
-      <masked>false</masked>
-      <name>Password</name>
-   </variables>
-</Entity>
-```
-
-Test Case Variables can be referred in test case as Groovy variables, e.g.
-
-```groovy
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-
-import internal.GlobalVariable as GlobalVariable
-
-WebUI.click(findTestObject('Page_CuraHomepage/btn_MakeAppointment'))
-
-WebUI.setText(findTestObject('Page_Login/txt_UserName'), Username)
-
-WebUI.setText(findTestObject('Page_Login/txt_Password'), Password)
-
-WebUI.click(findTestObject('Page_Login/btn_Login'))
-
-landingPage = WebUI.verifyElementPresent(findTestObject('Page_CuraAppointment/div_Appointment'), GlobalVariable.G_Timeout)
-```
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/test-case-variables-manual-mode.PNG)
-
-Test Case Variables can be utilized as parameters for the test case in other configurations. (e.g. input data for keywords in [Manual View](/display/KD/Manual+View) or params when [binding Data for Test Execution](/display/KD/Execute+a+test+suite#Executeatestsuite-VariableBinding)).
-
-
-
-> For details on how to call test case with variables, refer to [this article](katalon-studio/docs/test-case-variables.html).
-
-Global Variables
-----------------
-
-Please refer to [this article](/katalon-studio/docs/global-variables.html).
+A global variable is a variable defined in the execution profile and can be used in a test case, test object, web service object, and email configuration in a project.
+To learn more about global variables and execution profile, you can refer to this document: [Global Variables and Execution Profile](https://docs.katalon.com/katalon-studio/docs/execution-profile-v54.html#execution-profile).
