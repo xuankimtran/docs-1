@@ -9,7 +9,7 @@ redirect_from:
     - "/katalon-studio/docs/variable-types/"
 description:
 ---
-There are three types of variables supported in Katalon Studio:
+Katalon Studio supports three types of variables:
 
 - Groovy Variable
 
@@ -21,7 +21,7 @@ There are three types of variables supported in Katalon Studio:
 
 > Katalon Studio supports Groovy programming language from version 2.4.x onwards.
 
-You can define variables in Groovy in Katalon Studio. To learn more about Groovy programming language, you can refer to the Apache Groovy document: [Groovy documentation](http://groovy-lang.org/semantics.html). 
+Katalon Studio allows you to define variables in Groovy. 
 
 For example:
 
@@ -36,15 +36,18 @@ int y = 5;
 println(x);
 println(y);
 ```
+To learn more about Groovy programming language, you can refer to the Apache Groovy document: [Groovy documentation](http://groovy-lang.org/semantics.html). 
 
 ## Test Case Variables
 
-Katalon Studio allows you to create test case variables and call test cases with variables.
-To learn more about managing test case variables and calling test cases with variables, you can refer to this document: [Test case variables](https://docs.katalon.com/katalon-studio/docs/test-case-variables.html#manage-test-case-variables).
+Test Case Variables allow you to pass dynamic data into a test case.
 
-You can also use test case variables in a test suite, To learn more about binding data for test suite execution, you can refer to this document: [Manage data binding](https://docs.katalon.com/katalon-studio/docs/run-test-case-external-data.html).
+You can create test case variables and call test cases with variables in the manual and script mode. 
+To learn more about managing test case variables, you can refer to this document: [Test case variables](https://docs.katalon.com/katalon-studio/docs/test-case-variables.html#manage-test-case-variables).
+
+You can also use test case variables in a test suite. To learn more about binding data for test suite execution, you can refer to this document: [Manage data binding](https://docs.katalon.com/katalon-studio/docs/run-test-case-external-data.html).
 
 ## Global Variables
 
 A global variable is a variable defined in the execution profile and can be used in a test case, test object, web service object, and email configuration in a project.
-To learn more about global variables and execution profile, you can refer to this document: [Global Variables and Execution Profile](https://docs.katalon.com/katalon-studio/docs/execution-profile-v54.html#execution-profile).
+To learn more about global variables and execution profiles, you can refer to this document: [Global Variables and Execution Profile](https://docs.katalon.com/katalon-studio/docs/execution-profile-v54.html#execution-profile).
