@@ -6,7 +6,7 @@ redirect_from: katalon-recorder/docs/data-driven-execution.html
 description:
 ---
 
-Katalon Recorder allows you to perform data-driven testing (DDT) by binding test cases with external data set.
+Data-driven testing (DDT) allows you to execute test cases using data from external data files in forms of table or speadsheet format. Katalon Recorder facilitates DDT by providing DDT commands and binding test cases with data files.
 
 > **Requirements**:
 >
@@ -64,7 +64,7 @@ Follow these steps:
 In Katalon Recorder, the manual steps to configure data-driven commands and variables are as follows:
 
 1. Add the `loadVars` command to the beginning of your test case.
-2. Type in the data file name to the target of the `loadVars` command (for example, `data.csv`).
+2. Type in the name of the `loadVars` target file, e.g. `data.csv`.
 3. In the test case, use variables with the same names as the columns in the data file.
 4. Add the `endLoadVars` command to the end of your test case.
 
