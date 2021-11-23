@@ -59,7 +59,7 @@ Do a quick check on System Requirements before using Katalon Studio. You can ref
 
 1. After downloading the .dmg file, double-click on it to proceed with the installation.
 2. Add Katalon Studio to the **Application** folder when prompted.
-
+      
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/install_setup_katalon_studio/KS-INSTALLATION-Add-KS-to-Application.png" width="60%" alt="Add KS to Application">
 
 3. To start Katalon Studio, double-click on the **Katalon Studio** application. 
@@ -79,10 +79,13 @@ Do a quick check on System Requirements before using Katalon Studio. You can ref
 ## Activate Katalon Studio
 
 1. The Katalon Studio app launches, then the **Katalon Studio Activation** dialog appears. Sign in to your Katalon account to activate your license. To learn more about license activation steps, see [Activate Katalon Studio license](https://docs.katalon.com/katalon-studio/docs/activate-license.html#activate-trial-license).
-   
+
+      <a class="pop">
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/install_setup_katalon_studio/KS-INSTALLATION-Activate-KS-Light.png" alt="Activate KS" width=100%>
+      </a>
+      <p style="text-align: center;"><em>Click the image to enlarge it</em></p>
 
 2. After you are done, click **Activate**. Now Katalon Studio is ready for use.
    
 **Next step:**
-- [Create your first project in Katalon Studio]
+- [Create your first project in Katalon Studio](https://docs.katalon.com/katalon-studio/docs/manage-test-project.html#create-a-test-project)
