@@ -1417,6 +1417,8 @@ items:
             url: /katalon-analytics/docs/ks-visual-testing.html
           - title: "View Test Case reports"
             url: /katalon-analytics/docs/view-test-cases.html
+          - title: "View Traceability Matrix"
+            url: /katalon-analytics/docs/view-traceability-matrix.html
           - title: "Detect abnormal Web Services"
             url: /katalon-analytics/docs/view-abnormal-web-services.html
       - title: "Settings"  
