@@ -19,7 +19,7 @@ Katalon Studio supports three types of variables:
 
 ## Groovy Variables
 
-> Katalon Studio supports Groovy programming language from version 2.4.x onwards.
+> Katalon Studio supports Groovy from version 2.4.x onwards.
 
 Katalon Studio allows you to define variables in Groovy. 
 
@@ -36,7 +36,7 @@ int y = 5;
 println(x);
 println(y);
 ```
-To learn more about Groovy programming language, you can refer to the Apache Groovy document: [Groovy documentation](http://groovy-lang.org/semantics.html). 
+To learn more about Groovy, you can refer to the Apache Groovy document: [Groovy documentation](http://groovy-lang.org/semantics.html). 
 
 ## Test Case Variables
 
