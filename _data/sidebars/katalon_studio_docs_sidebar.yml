@@ -87,8 +87,6 @@ items:
             url: /katalon-studio/docs/product-availability-matrix.html
           - title: "Supported Environments"
             url: /katalon-studio/docs/supported-environments.html
-          - title: "Unique Capabilities"
-            url: /katalon-studio/docs/unique-capabilities.html
           - title: "Installation and Activation"
             tree:
               - title: "Installation Overview"
@@ -141,6 +139,8 @@ items:
             tree:
               - title: "[WebUI] Create and Run Web UI Test Case using Record and Playback"
                 url: /katalon-studio/tutorials/webui-create-test-case.html
+              - title: "[WebUI] Analyze Test Case Execution Logs and Resolve Errors"
+                url: /katalon-studio/tutorials/webui-analyze-test-case-execution-logs-and-resolve-errors.html
               - title: "[Web UI] Plan Test Suite"
                 url: /katalon-studio/tutorials/webui-plan-test-suite.html
       - title: "GUI and Preferences"
@@ -1271,8 +1271,8 @@ items:
             url: /katalon-studio/docs/katalon-studio-github-action.html
       - title: "Troubleshoot"
         tree:
-          - title: "joptsimple.IllegalOptionSpecificationException: $ is not a legal option character"
-            url: /katalon-studio/docs/troubleshoot-globalvariable-special-character.html
+          - title: "Troubleshoot common exception when executing in console mode"
+            url: /katalon-studio/docs/troubleshoot-executing-in-console-mode.html
   - title: "Katalon Store"
     tree:
       - title: "Overview"
@@ -1415,8 +1415,6 @@ items:
             url: /katalon-analytics/docs/rerun-results.html  
           - title: "Visual Testing" 
             url: /katalon-analytics/docs/ks-visual-testing.html
-          - title: "View Traceability Matrix"
-            url: /katalon-analytics/docs/view-traceability-matrix.html
           - title: "View Test Case reports"
             url: /katalon-analytics/docs/view-test-cases.html
           - title: "Detect abnormal Web Services"
@@ -1451,6 +1449,10 @@ items:
         tree:
           - title: "Integration with TestOps"
             url: /katalon-testcloud/docs/integrate-testcloud-with-testops.html 
+      - title: "Troubleshooting"
+        tree:
+          - title: "Tests not loading when executing with Chrome version 93,94 in Windows"
+            url: /katalon-testcloud/docs/troubleshoot-test-execution-chrome-93-94.html
   - title: "Katalon Recorder"
     tree:
       - title: "Get started"

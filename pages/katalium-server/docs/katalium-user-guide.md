@@ -34,7 +34,7 @@ Successfully activated Katalium Server will be displayed as belows:
 
 When you activate the server for the first time, you have to enter the email and password of your Katalon Account. It is recommended to use Katalon API Keys instead of your account's password. Refer to [Katalon API Keys](https://docs.katalon.com/katalon-studio/docs/katalon-apikey-70.html) for further details.
 
-**KATALON_EMAIL**: Enter your Katalon account. Click [here](https://www.katalon.com/create-account/) to sign up if you don't have an account.
+**KATALON_EMAIL**: Enter your Katalon account. If you don't have an account, sign up here: [Sign up](https://www.katalon.com/sign-up/).
 
 **KATALON_API_KEY**: Enter the API Key. 
 

@@ -86,5 +86,6 @@ com.kms.katalon.core.windows.keyword.builtin
 com.kms.katalon.core.windows.keyword.contribution
 com.kms.katalon.core.windows.keyword.exception
 com.kms.katalon.core.windows.keyword.helper
+cucumber.runner
 cucumber.runtime.formatter
 cucumber.runtime.io

@@ -7,9 +7,9 @@ redirect_from:
 description: Release notes 8.x
 ---
 
-## Version 8.2.0 Beta
+> Download [here](https://www.katalon.com/download/).
 
-You can download Katalon Studio version 8.2.0 Beta on our GitHub repository: [Katalon Studio 8.2.0 Beta](https://github.com/katalon-studio/katalon-studio/releases/tag/v8.2.0.beta).
+## Version 8.2.0
 
 ### New features
 
@@ -17,10 +17,26 @@ You can download Katalon Studio version 8.2.0 Beta on our GitHub repository: [Ka
 
 ### Enhancements
 
-* [Security] Addressed high-risk Security Vulnerabilities of Open-Source Software.
-* [Performance] Introduced **Delay between instances** option in Katalon Studio and `-delayBetweenInstances` parameter in Katalon Runtime Engine to execute Test Suite Collection in parallel mode. See [Command Syntax](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html).
+* Added Chrome 95 compatibility.
+* Added Microsoft Edge (Chromium) 95 compatibility.
+* [Security] Addressed Security Vulnerabilities of Open-Source Software.
+* Added an option in Katalon Studio Preferences to automatically disable connection to external domains.
+* [Performance] Improved Katalon Studio IDE and Katalon Runtime Engine performance:
+    * Introduced **Delay between instances** option in Katalon Studio and `-delayBetweenInstances` parameter in Katalon Runtime Engine to execute Test Suite Collection in parallel mode. See [Command Syntax](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html), quick tip: search for `-delay`.
+    * Improved loading time in Katalon Runtime Engine. Results from our benchmarking tests show: 2x faster for big projects, 1.5x faster for small and medium projects.
+    * Improved responsiveness and loading time for big projects in Katalon Studio. Results from our benchmarking tests show: renaming/opening test cases 2x faster, moving test cases 1.5x faster.
+    * Reduced 12% memory consumption on average of Katalon Studio when opening/executing tests.
+    * Reduced 30% memory consumption on average of Katalon Runtime Engine for long execution sessions.
+* [Web Testing] Improved Synchronization Handling for Web Testing:
+    * [Katalon Studio and Katalon Runtime Engine] Improved the `Click` and `Click Offset` Keywords to automatically delay and click again on an element behind a loading overlay. See [Click](https://docs.katalon.com/katalon-studio/docs/webui-click.html) and [Click Offset](https://docs.katalon.com/katalon-studio/docs/webui-click-offset.html).
+    * [Smart Wait] Added detection and waiting capabilities for fetch-based requests to finish before continuing with the next action.
+    * [Smart Wait] Added Edge Chromium compatibility for Smart Wait. See [[WebUI] Smart Wait Function](https://docs.katalon.com/katalon-studio/docs/webui-smartwait.html).
 * [Katalon Studio Enterprise] Introduced Idle Timeout Bypass Limit to automatically log out licensed users due to timeout. See [Configure Idle Timeout](https://docs.katalon.com/katalon-studio/docs/license-idle-timeout.html).
-* [WebUI] Introduced an option to use the Spy, Record, and Smart Wait function with a packed extension, now available on the Chrome Web Store. This extension is compatible with Katalon Studio version 8.0.0 onwards. See [Katalon Compact Utility](https://docs.katalon.com/katalon-studio/docs/katalon-compact-utility.html).
+* [BDD] Added BDD testing onboarding flow.
+* [Jira Integration] Only displayed the _Bug_ icon in Final test results.
+* [Console Log] Enhanced Plugin loading information in the console log of Katalon Studio Enterprise and Katalon Runtime Engine.
+* [Katalon Runtime Engine] Removed the "Offline activation failed" message in the execution log.
+* [DDT] Specified the input data of iterations in the Data-driven Testing report.
 
 ### Fixes
 
@@ -30,12 +46,12 @@ You can download Katalon Studio version 8.2.0 Beta on our GitHub repository: [Ka
 * Bug: null.null Katalon version in the Report Viewer when deactivating the current account and activating a new one.
 * Bug: Incorrect information of test case in Log Report Viewer.
 * Bug: Not matching between the Elapsed time of execution in Katalon Studio and the generated report.
-* Bug: [Jira] Could not interact with embedded Jira page. Fixed with changes to Jira Integration version 1.0.22. Download here: [Jira Integration](https://store.katalon.com/product/3/Jira-Integration#overview-content).
+* Bug: [Jira Integration] Could not interact with embedded Jira page. Fixed with changes to Jira Integration version 1.0.22. Download here: [Jira Integration](https://store.katalon.com/product/3/Jira-Integration#overview-content).
+* Bug: [Jira Integration] Jira-linked tickets had no step in the description.
 * Bug: [WebUI] Could not generate test steps when using `replace, trim, split` function and opening WebUI Recorder.
+* Bug: Incorrect Copyright and Version information for Katalon Studio and Katalon Runtime Engine packages on macOS.
 
-## Official Release - Version 8.1.0
-
-> Download [here](https://www.katalon.com/download/).
+## Version 8.1.0
 
 ### New features
 
