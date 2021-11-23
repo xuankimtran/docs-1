@@ -112,12 +112,17 @@ In the following example, we demonstrate how to create a Test Suite with Test ca
 
       This step binds the New Data File from Step 3 with the Test Suite you want to run. See also [Manage Data Binding](https://docs.katalon.com/katalon-studio/docs/run-test-case-external-data.html#manage-data-binding).
 
+      <a class="pop">
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/show-data-variables.png" width=70% alt="Show Data Binding section">
-
+      </a>
+      <p style="text-align: center;"><em>Click the image to enlarge it</em></p>
+      
    - The final results should show as below:
      
+      <a class="pop">
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Test%20Suite%20Data%20Binding.png" width=70% alt="Test Suite data">
-
+      </a>
+      <p style="text-align: center;"><em>Click the image to enlarge it</em></p>
 ## Use Custom Profiles in Desired Capabilities
 
 You can also test different browser locales with a Remote Server. In this case, you can set **Custom Desired Capabilities** to alter the default language in Chrome. 
@@ -231,15 +236,21 @@ In the newly added property line, change the name into "spanish" for better reco
       
       (**) <em>`es`: the language code for Spanish.</em>
 
+        <a class="pop">
         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/KS-LOCALES-Custom-settings.png" width=70% alt="Set value for custom Desired Capabilities">
-
+        </a>
+        <p style="text-align: center;"><em>Click the image to enlarge it</em></p>
 
   4. Click **OK** to save the settings in each table. The above commands should result in the following:
 
+      <a class="pop">
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/KS-LOCALES-Final-results.png" width=70% alt="Results after setting up custom language Remote Control dialog">
+      </a>
+      <p style="text-align: center;"><em>Click the image to enlarge it</em></p>
 
+      <a class="pop">
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/final-results-3.png" width=70% alt="Final Results"> 
-
-
+      </a>
+      <p style="text-align: center;"><em>Click the image to enlarge it</em></p>
 
 
