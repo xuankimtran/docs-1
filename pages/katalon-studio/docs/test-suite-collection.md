@@ -21,7 +21,10 @@ To open a new Test Suite Collection, go to **File > New > Test Suite Collection*
 
 After creating a TSC, in the new **Test Suite Collection** page, click **Execution Information** to expand the section.
 
+<a class="pop">
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-suite-collection/KS-TSC-Execute-information-2.png" width=70% alt="Execution Information">
+</a>
+<p style="text-align: center;"><em>Click the image to enlarge it</em></p>
 
 <table>
 <thead>
@@ -37,7 +40,7 @@ After creating a TSC, in the new **Test Suite Collection** page, click **Execut
   </tr>
   <tr>
     <td>Parallel</td>
-    <td>This mode allows you to execute the test suites at the same time. With this mode, you can also set:<br>- <strong>Max concurrent instances:</strong> To set the maximum number of test suites executing at the same time.<br>- <strong>Delay between instances (in seconds):</strong> From Katalon version 8.2.0 onwards, you can set the delay time between each test suite execution from 0-999 seconds.<br>This function reduces the risk of CPU spike issues when there are too many concurrent instances. When a test suite is ready to start, Katalon will print the following message in the <strong>Event Log</strong> tab: <br><code>Test suite ${testSuiteID} is ready to start at ${currentTimeStamp}</code>.<br><br><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-suite-collection/KS-TSC-Print-event-log-2.png" alt="Event Log message" width="700" height="453"></td>
+    <td>This mode allows you to execute the test suites at the same time. With this mode, you can also set:<br>- <strong>Max concurrent instances:</strong> To set the maximum number of test suites executing at the same time.<br>- <strong>Delay between instances (in seconds):</strong> From Katalon version 8.2.0 onwards, you can set the delay time between each test suite execution from 0-999 seconds.<br>This function reduces the risk of CPU spike issues when there are too many concurrent instances. When a test suite is ready to start, Katalon will print the following message in the <strong>Event Log</strong> tab: <br><code>Test suite ${testSuiteID} is ready to start at ${currentTimeStamp}</code>.<br><br><a class="pop"><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-suite-collection/KS-TSC-Print-event-log-2.png" alt="Event Log message" width="700" height="453"></a><p style="text-align: center;"><em>Click the image to enlarge it</em></p></td>
   </tr>
 </tbody>
 </table>
@@ -54,7 +57,10 @@ After configuring the **Execution Information** section, to add test suites into
     
 3.  The selected test suites are added to the test suite collection accordingly.
 
+    <a class="pop">
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-suite-collection/KS-TSC-Add-test-to-TSC-2.png" width=70% alt="Add test suite into TSC">
+    </a>
+    <p style="text-align: center;"><em>Click the image to enlarge it</em></p>
     
     <table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>Run with</td><td><p> To select the environment executed with the Test Suite.</p></td></tr><tr><td>Run configuration</td><td><p>To add extra information to execute with the selected environment.</p><p>For example: Select mobile devices to be executed for Android environment</p><p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-suite-collection/image2017-2-17-133A533A7.png"></p></td></tr><tr><td>Profile</td><td>Execution Profile that contains all variables values for each Test Suite execution. To learn more about the execution profile, you can refer to this document: <a class="external-link" href="https://docs.katalon.com/katalon-studio/docs/execution-profile-v54.html" rel="nofollow">Execution Profile</a></td></tr><tr><td>Run</td><td> To choose the test suite you wish to run in the test suite collection. This is checked by default. </td></tr></tbody></table>
     
@@ -63,7 +69,10 @@ After configuring the **Execution Information** section, to add test suites into
 
 1.  To run a TSC, from the main toolbar, click **Execute**. 
 
+    <a class="pop">
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-suite-collection/KS-TCS-Execute-TCS-2.png" width=60% alt="Run a test suite collection">
+    </a>
+    <p style="text-align: center;"><em>Click the image to enlarge it</em></p>
 
 2.  After the TSC execution, from the **Test Explorer** panel, go to **Reports** to find test reports. To learn more about generating test reports, you can refer to this document: [Test Suite Collection Report](https://docs.katalon.com/katalon-studio/docs/test-suite-report.html#report-history).
 
@@ -78,4 +87,7 @@ You can schedule a TSC execution on multiple servers with Katalon TestOps. To le
 
 To quickly schedule a TSC execution on Katalon TestOps from Katalon Studio, in the **Test Suite Collection** page, click **Schedule on Katalon TestOps**.
 
+<a class="pop">
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-suite-collection/KS-TSC-Schedule-a-TSC-2.png" width=60% alt="Schedule on Katalon TestOps">
+</a>
+<p style="text-align: center;"><em>Click the image to enlarge it</em></p>
