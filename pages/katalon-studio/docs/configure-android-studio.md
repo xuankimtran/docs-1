@@ -110,7 +110,7 @@ Download and install Android Studio. You can download Android Studio from the An
     <img src="https://github.com/katalon-studio/docs-images/raw/65a953207f0945eac8a4367e7e8a0a64f292a671/katalon-studio/docs/execute-mobile-testing-with-emulator/KS-EMULATOR-An-emulator-is-created-2.png" width="60%" alt="Launch the emulator">
 ### Launch an emulator
 
-To launch an emulator, open the **ADV Manager**, select the emulator you want to launch, then click **Run** <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-mobile-testing-with-emulator/KS-EMULATOR-Run-button.png" width="2%" alt="Run button">.
+To launch an emulator, open the **ADV Manager**, select the emulator you want to launch, then click **Run**.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-mobile-testing-with-emulator/KS-EMULATOR-Launch-the-emulator.png" width="60%" alt="Launch the emulator">
 
@@ -131,8 +131,10 @@ You should see the name of your emulator appeared as an Android device.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-mobile-testing-with-emulator/KS-EMULATOR-Choose-emulator-in-Katalon.png" width="50%" alt="Choose emulator in Katalon">
 
-You can now execute mobile testing with the emulator. To learn more about creating and executing mobile testing in Katalon, you can refer to the below documents:
+You can now execute mobile testing with the emulator. 
 
-* [Mobile Record Tutorials](https://docs.katalon.com/katalon-studio/docs/mobile-recorder-tutorials.html#record).
-* [Tutorials for Mobile Object Spy](https://docs.katalon.com/katalon-studio/docs/spy-mobile-utility.html).
+**Next step:**
+
+* [Create your first Android test case](https://docs.katalon.com/katalon-studio/tutorials/mobile-create-android-test-case.html).
+
 

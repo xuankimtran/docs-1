@@ -8,10 +8,9 @@ redirect_from:
 description:
 ---
 
-The Android-mobile-tests perform UI functional automation test on an Android application using Katalon Studio.
+This article shows you how to set up Android real devices to test Android applications with Katalon Studio.
 
-This topic describes the preliminary actions you need to perform to prepare the environment for testing Android applications with Katalon Studio.
-
+> If you want to perform Android mobile testing with Android Studio (Emulator), you can refer to this document: [[Mobile] Configure Android Studio (Emulator)](https://docs.katalon.com/katalon-studio/docs/configure-android-studio.html#configure-android-studio).
 ## Set up Android tests on Windows, Linux and macOS
    
 ### On Windows machine
@@ -21,7 +20,7 @@ This topic describes the preliminary actions you need to perform to prepare the 
    * Appium: 1.12.1 onwards.
    * Android: 6.x onwards (official releases).
 
-   2. Install [Appium](http://appium.io/docs/en/about-appium/getting-started/#installing-appium)
+   2. Install Appium. You can refer to the Appium document here for innstallation: [Getting started](http://appium.io/docs/en/about-appium/getting-started/#installing-appium).
    
       > **Note**
       >
@@ -53,7 +52,7 @@ This topic describes the preliminary actions you need to perform to prepare the 
      >
      > Some emulators support Appium directly when installed. If you want to run an application on an emulator, check your emulator settings before proceeding with the Appium installation.
 
-   2. Install [Appium](http://appium.io/docs/en/about-appium/getting-started/#installing-appium)
+   2. Install Appium. You can refer to the Appium document here for innstallation: [Getting started](http://appium.io/docs/en/about-appium/getting-started/#installing-appium).
 
       `brew install node`
       `npm install -g appium`
@@ -121,8 +120,11 @@ This topic describes the preliminary actions you need to perform to prepare the 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/result.png" width=70%>
    
    
-   Next: [Create your first Android test case](https://docs.katalon.com/katalon-studio/tutorials/mobile-create-android-test-case.html).
 
-   See also:
-   * [Set up iOS-mobile-tests](https://docs.katalon.com/katalon-studio/tutorials/mobile-ios-setup.html).
-   * [Troubleshoot automated mobile testing](https://docs.katalon.com/katalon-studio/docs/troubleshooting-automated-mobile-testing.html).
+**Next step:**
+
+- [Create your first Android test case](https://docs.katalon.com/katalon-studio/tutorials/mobile-create-android-test-case.html)
+
+## See also:
+
+   * [Troubleshoot automated mobile testing](https://docs.katalon.com/katalon-studio/docs/troubleshooting-automated-mobile-testing.html)
