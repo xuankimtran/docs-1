@@ -79,7 +79,7 @@ In this example, we record the following actions to test the **Coffee Timer** ap
 
 ## Record a new Test Case
 
-1. On the main toolbar, click **Record Mobile** <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/KS-iOS-record-mobile-icon.png" width=4% alt="Record Mobile icon"> and select your device type. For our example, we choose the **iOS Devices** option.
+1. On the main toolbar, click **Record Mobile** and select your device type. For our example, we choose the **iOS Devices** option.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/record-iOS.png" width=30%>
 
