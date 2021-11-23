@@ -30,19 +30,19 @@ Follow these steps:
 
 3. Mouse over the member you want to select, then click on the *Extension* icon at the end of the row.  
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-transfer-ownership/image-20211110-045945.png" width=100% alt="extension icon click">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-transfer-ownership/transfer-owner-role-button.png" width=100% alt="extension icon click">
 
-4. Select **Transfer Ownership**.
+4. Select **Transfer Owner Role**.
 
-    The **Transfer Ownership** box pops up as below.
+    The **Transfer Owner Role** box pops up as below.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-transfer-ownership/image-20211110-045956.png" width=100% alt="transfer ownership popup">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-transfer-ownership/transfer-owner-role-popup-box.png" width=100% alt="transfer ownership popup">
 
 5. Check the email address you want to transfer ownership to.
 
 6. Enter your account's password for authentication.
 
-7. Click **Transfer Ownership**.
+7. Click on the red **Transfer Owner Role** button to finish.
 
     > Notice:
     >
