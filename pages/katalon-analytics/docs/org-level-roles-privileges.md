@@ -55,16 +55,14 @@ You can find the detailed permissions for each role in the following tables:
 			<td>
 				<ul>
 					<ul>
-						<li>Invite new users</li>
-						<li>Remove users</li>
-						<li>Assign any&nbsp;user to become:&nbsp;</li>
 						<ul>
-							<li>Owner</li>
-							<li>Admin</li>
-							<li>Billing Manager</li>
-							<li>Member</li>
+							<ul>
+								<li>Invite new users</li>
+								<li>Remove users</li>
+								<li>Change roles of <strong>Billing Manager/ Admin/ Member</strong> to <strong>Admin/ Member/ Billing Manager</strong></li>
+								<li><a href="https://docs.katalon.com/katalon-analytics/docs/kt_transfer_ownership.html">Transfer ownership</a></li>
+							</ul>
 						</ul>
-						<li>Demote any role</li>
 					</ul>
 				</ul>
 			</td>
@@ -81,31 +79,14 @@ You can find the detailed permissions for each role in the following tables:
 			<td>
 				<ul>
 					<ul>
-						<li>Invite new users</li>
-						<li>Remove users</li>
-						<li>Assign:
+						<ul>
 							<ul>
-								<li>A Member to become a Billing Manager or an Admin</li>
-								<li>A Billing Manager to become an Admin</li>
+								<li>Invite new users</li>
+								<li>Remove users</li>
+								<li>Change roles of <strong>Member/ Billing Manager</strong> to <strong>Admin/ Billing Manager/ Member</strong></li>
+								<li>Cannot change roles of <strong>Admin/ Owner</strong></li>
 							</ul>
-						</li>
-						<li>Cannot assign:
-							<ul>
-								<li>An Admin to become an Owner</li>
-							</ul>
-						</li>
-						<li>Demote:
-							<ul>
-								<li>Billing Manager</li>
-								<li>Member</li>
-							</ul>
-						</li>
-						<li>Cannot demote:
-							<ul>
-								<li>Owner</li>
-								<li>Admin</li>
-							</ul>
-						</li>
+						</ul>
 					</ul>
 				</ul>
 			</td>
