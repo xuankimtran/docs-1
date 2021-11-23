@@ -93,14 +93,14 @@ items:
                 url: /katalon-studio/docs/getting-started.html
               - title: "Update Katalon Studio"
                 url: /katalon-studio/docs/auto-updater.html
+              - title: "Install Katalon Studio on macOS/Windows"
+                url: /katalon-studio/docs/ks-installation-macOS-windows.html
               - title: "Katalon Studio for Linux (GUI)"
                 url: /katalon-studio/docs/katalon-studio-gui-beta-for-linux.html
               - title: "Configuration for Web Testing"
                 tree:
                   - title: "Internet Explorer Configurations"
                     url: /katalon-studio/docs/internet-explorer-configurations.html
-                  - title: "Katalon Addon for Chrome"
-                    url: /katalon-studio/docs/katalon-addon-for-chrome.html
               - title: "Configuration for Mobile Testing"
                 tree:
                   - title: "Installing WebDriverAgent for iOS devices"
@@ -1070,7 +1070,11 @@ items:
           - title: "Katalon API Keys"
             url: /katalon-studio/docs/katalon-apikey-70.html 
           - title: "Jira Integration"
-            url: /katalon-studio/docs/jira-integration.html
+            tree:
+              - title: "Jira Integration"
+                url: /katalon-studio/docs/jira-integration.html
+              - title: "Configure Jira BDD Settings"
+                url: /katalon-analytics/docs/bdd-settings.html
           - title: "Git Integration"
             tree:
               - title: "Git Integration"
@@ -1363,8 +1367,6 @@ items:
             url: /katalon-analytics/docs/kt-build.html
       - title: "Test Management"
         tree:
-          - title: "Writing BDD in Jira"
-            url: /katalon-analytics/docs/bdd-settings.html
           - title: "View BDD Test Results"
             url: /katalon-analytics/docs/bdd-test-results.html
           - title: "Link Test Runs to Jira Defects"
