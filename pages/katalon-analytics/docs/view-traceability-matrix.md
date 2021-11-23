@@ -26,4 +26,6 @@ Follow these steps:
 
 The relationship between Test Cases, Defects and Requirements is visible on the report here.
 
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-traceability-matrix/traceability-matrix.png" width=100% alt="example alt text">
+
 You can map and track all Requirements in **Traceability Matrix**. It consolidates requirements and the project's results for production review.
