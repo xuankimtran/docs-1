@@ -37,9 +37,7 @@ The dashboard contains a dynamic visualization with filter options. You can also
 
     In each filter category, you can search and select multiple options. You can filter for removed users, but not for removed machine IDs.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-utilization-dashboard/search-filter.png" alt="search option" width=70%>
-
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-utilization-dashboard/multiple.png" alt="multiple options" width=70%>
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-utilization-dashboard/license-utilization-filter.png" alt="multiple options" width=100%>
 
     After choosing your filter options, the dynamic graph below changes accordingly.
 
