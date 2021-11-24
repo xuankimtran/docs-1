@@ -28,6 +28,9 @@ You can install Linux with a LiveDVD, USB drive, or physical disk to a Virtual M
 On macOS, virtualization programs like Parallels Desktop, Virtual Box, and VMWare Fusion allow you to construct a Virtual Machine that emulates the hardware of a Linux operating system. Microsoft's Hyper-V is a good option for Windows. To learn more about these virtualization programs, see Parallels Desktop documentation [Parallels Desktop for Mac](https://www.parallels.com/products/desktop/resources/), Virtual Box documentation [About VirtualBox](https://www.virtualbox.org/wiki/VirtualBox), WMWare documentation [Creating a Linux Virtual Machine in Fusion](https://docs.vmware.com/en/VMware-Fusion/12/com.vmware.fusion.using.doc/GUID-4919245A-CD5D-4FC7-B5D0-4D90DFAFC7F7.html), or Microsoft documentation [Hyper-V on Windows Server](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/hyper-v-on-windows-server).
 </details>
 
+> Requirements:
+> * A valid email to register a Katalon Account
+> * An active Internet connection to download Katalon Studio
 ## Install Katalon Studio for Linux
 
 ### Environment Requirements
@@ -65,8 +68,15 @@ On macOS, virtualization programs like Parallels Desktop, Virtual Box, and VMWar
 
 ### Download Katalon Studio
 
-Download [Katalon Studio for Linux](https://www.katalon.com/download/). Choose the Linux version of Katalon Studio, then click **Download**. A tar.gz file is being downloaded to your machine.
+1. Go to the Katalon website: [Katalon products](https://www.katalon.com/download/).
 
+2. Register a Katalon account with an active email or sign in to your Katalon account if you already have one.
+   
+3. To download Katalon Studio for Linux, click **Create your first test** in the **Katalon Studio** box. Katalon leads you to the downloading page where you will choose the Linux version of Katalon Studio, then click **Download**. A tar.gz file is being downloaded to your machine.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/install_setup_katalon_studio/KS-INSTALLATION-go-to-the-downloading-page.png" width="70%" alt="Go to the downloading page">
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-gui-beta-for-linux/KS-INSTALLATION-Download-Linux.png" width="70%" alt="Download Linux version of KS">
 ### Start Katalon Studio
 
 1. Extract the tar.gz file. In the extracted folder, you can find the Katalon Studio app.
