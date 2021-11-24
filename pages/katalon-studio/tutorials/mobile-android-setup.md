@@ -8,7 +8,7 @@ redirect_from:
 description:
 ---
 
-This article shows you how to set up Android real devices to test Android applications with Katalon Studio.
+This article shows you how to set up real Android devices to test Android applications with Katalon Studio.
 
 > If you want to perform Android mobile testing with Android Studio (Emulator), you can refer to this document: [[Mobile] Configure Android Studio (Emulator)](https://docs.katalon.com/katalon-studio/docs/configure-android-studio.html#configure-android-studio).
 ## Set up Android tests on Windows, Linux and macOS
@@ -20,9 +20,9 @@ This article shows you how to set up Android real devices to test Android applic
    * Appium: 1.12.1 onwards.
    * Android: 6.x onwards (official releases).
 
-   2. Install Appium. You can refer to the Appium document here for innstallation: [Getting started](http://appium.io/docs/en/about-appium/getting-started/#installing-appium).
+   2. Install Appium. You can refer to the Appium document here for installation: [Getting started](http://appium.io/docs/en/about-appium/getting-started/#installing-appium).
    
-      > **Note**
+      > Notes:
       >
       > Make sure you install Node.js into a location where you have full Read/Write permissions.
 
@@ -48,16 +48,16 @@ This article shows you how to set up Android real devices to test Android applic
    * Appium: 1.12.1 onwards.
    * Android: 6.x onwards.
    
-     > **Note**
+     > Notes:
      >
      > Some emulators support Appium directly when installed. If you want to run an application on an emulator, check your emulator settings before proceeding with the Appium installation.
 
-   2. Install Appium. You can refer to the Appium document here for innstallation: [Getting started](http://appium.io/docs/en/about-appium/getting-started/#installing-appium).
+   2. Install Appium. You can refer to the Appium document here for installation: [Getting started](http://appium.io/docs/en/about-appium/getting-started/#installing-appium).
 
       `brew install node`
       `npm install -g appium`
 
-      > **Note**
+      > Notes:
       >
       > Make sure you install Node.js into a location where you have full Read/Write permissions.
    
@@ -77,7 +77,7 @@ This article shows you how to set up Android real devices to test Android applic
    * Appium: 1.12.1 onwards.
    * Android: 6.x onwards.
    
-     > **Note**
+     > Notes:
      >
      > Some emulators supports Appium directly when installed. If you want to run an application on an emulator, check your emulator settings before proceeding with the Appium installation.
 
@@ -91,7 +91,7 @@ This article shows you how to set up Android real devices to test Android applic
       * If you encounter an error where the Java `jar` file can't be found, you might need to add the environment variable: `KATALON_JAVA_HOME= <JRE_location>`. See related discussion on Ask Ubuntu: [How to set JAVA_HOME for Java?](https://askubuntu.com/questions/175514/how-to-set-java-home-for-java?utm_medim=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa)
       * Set the Appium directory manually in **Katalon Studio Preferences**. The default directory should be `/usr/lib/node_modules/appium/`.
 
-      > **Note**
+      > Notes:
       >
       > Make sure you install Node.js into a location where you have full Read/Write permissions. See Node.js documentation: [Node.js for Linux](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions).
    
@@ -106,10 +106,11 @@ This article shows you how to set up Android real devices to test Android applic
       
 ## Verify the Android application file
 
-   After completing setting your environment, open a Mobile Testing Sample Project (which is packaged in  your Katalon Studio installation) and execute a test suite using an Android device. 
+   After completing setting up your Android devices, you can open a Mobile Testing Sample Project in **File > New sample projects > Sample Android Mobile Tests Project** to .
    
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/android.png" width=20%>  
+   On the main toolbar, select the **Android** device in the dropdown list next to **Run**. 
 
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/android.png" width=20%>  
 
    Select your device from the **Android Devices** list > click **OK**. 
 
