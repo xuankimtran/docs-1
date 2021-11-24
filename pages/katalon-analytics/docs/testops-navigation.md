@@ -41,7 +41,7 @@ On the top right corner, if you click on the *Settings* icon, you can see two di
   * **License Management**: where you can assign and remove your licenses. See: [Manage Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license-management.html).
   * **User Management**: where you can invite members to your organization, edit their roles, or remove members in your organization. See: [TestOps User Management](https://docs.katalon.com/katalon-analytics/docs/kt_invite_user_org.html).
   * **Payment Method**: where you can update your billing information.
-  * **Subscription Management**: where you can subscribe to Katalon, or upgrade, cancel your subscriptions. See [Create TestOps subscriptions](https://docs.katalon.com/katalon-analytics/docs/testops-subscriptions.html) for TestOps and [Purchase Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license-subscription.html) for Studio.
+  * **Subscription Management**: where you can subscribe to Katalon, upgrade, or cancel your subscriptions. See [Create TestOps subscriptions](https://docs.katalon.com/katalon-analytics/docs/testops-subscriptions.html) for TestOps and [Purchase Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license-subscription.html) for Studio.
   * **Organization Management**: where you can update your Organization information.
 
 * **TestOps Settings** is a configuration tool specifically for the Katalon TestOps product. In the **TestOps Settings** section, you can navigate to:
@@ -60,7 +60,7 @@ On the top right corner, if you click on the *Avatar* icon, you can navigate to:
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-navigation-doc/TO-HomePage-Personal-Settings.png"  width=30% alt="TestOps Avatar dropdown">
 
-### As a Member
+### As a Member/Billing Manager
 
 After signing in to [Katalon TestOps](https://testops.katalon.io/login), the TestOps homepage appears.
 
