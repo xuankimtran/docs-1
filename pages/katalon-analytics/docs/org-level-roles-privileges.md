@@ -60,7 +60,7 @@ You can find the detailed permissions for each role in the following tables:
 								<li>Invite new users</li>
 								<li>Remove users</li>
 								<li>Change roles of <strong>Billing Manager/ Admin/ Member</strong> to <strong>Admin/ Member/ Billing Manager</strong></li>
-								<li><a href="https://docs.katalon.com/katalon-analytics/docs/kt_transfer_ownership.html">Transfer ownership</a></li>
+								<li>Transfer ownership</li>
 							</ul>
 						</ul>
 					</ul>
