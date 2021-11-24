@@ -21,4 +21,4 @@ KRE is only required for executing automation tests in CLI (command-line interfa
   * For example, building a Docker image to execute your test with a specific environment.
 * KRE is compatible with both Katalon Studio and Katalon Studio Enterprise.
 
-> Katalon Runtime Engine is a paid product. You can enjoy KRE for free with a 30-day trial. To learn more about Katalon Runtime Engine licenses, see [Katalon Runtime Engine license](https://docs.katalon.com/katalon-studio/docs/katalon-studio/docs/license.html#katalon#runtime#engine).
+> Katalon Runtime Engine is a paid product. You can enjoy KRE for free with a 30-day trial. To learn more about Katalon Runtime Engine licenses, see [Katalon Runtime Engine license](https://docs.katalon.com/katalon-studio/docs/license.html#katalon-runtime-engine).
