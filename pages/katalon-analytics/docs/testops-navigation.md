@@ -10,39 +10,43 @@ This guide aims to help you navigate easily in Katalon TestOps.
 >
 > Depending on your role in an organization, you will have different user experiences with Katalon TestOps. See: [Roles and permissions](https://docs.katalon.com/katalon-analytics/docs/testops-roles-privileges.html).
 
-## As an Owner/Admin
+There are two types of homepage in Katalon TestOps: TestOps homepage and Admin homepage.
+
+## In the TestOps homepage
+
+The TestOps homepage provides a summary of organization activities
 
 After signing in to [Katalon TestOps](https://testops.katalon.io/login), the TestOps homepage appears as below.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-signup/kt-june-revamp-testop-homepage.png" width=100% alt="testops homepage">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-navigation-doc/TO-HomePage.png"  width=100% alt="TestOps homepage overview">
 
-On the top left corner, you can see your current Organization's name. If you click on it, you can:
+Navigation in the TestOps homepage is different depending on your role in the current organization.
+
+### As an Owner/Admin
+
+On the top left corner, you can see your current organization's name. If you click on it, you can:
 
 * see the list of all organizations you belong to.
-
-    > Notes:
-    >
-    > You can click on the downward arrow next to an Organization to see the Projects. If you click on a Project, you will be navigated to the Project's Dashboard.
 * create a new organization. See: [Create Organization and Project](https://docs.katalon.com/katalon-analytics/docs/kt-create-org.html).
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-navigation-doc/click-org-name.png" width=100% alt="testops homepage">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-navigation-doc/TO-TestOps-HomePage-Org-Dropdown.png"  width=30% alt="TestOps Organization Dropdown">
 
 On the top right corner, if you click on the *Settings* icon, you can see two distinct sections: **TestOps Admin** and **TestOps Settings**.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-navigation-doc/click-settings-icon.png" width=100% alt="testops homepage">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-navigation-doc/TO-Admin-HomePage-Owner-View-Settings.png"  width=30% alt="TestOps Settings Dropdown">
 
 * **TestOps Admin** is an overall administration tool allowing you to manage all Katalon products (Studio, Runtime Engine, TestOps). In the **TestOps Admin** section, you can navigate to:
 
-    * **Product Utilization**: where you can view your product usage. See: [License Utilization Dashboard](https://docs.katalon.com/katalon-studio/docs/license-utilization-dashboard.html).
-    * **License Management**: where you can assign and remove your licenses. See: [Manage Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license-management.html).
-    * **User Management**: where you can invite members to your Organization, edit their roles, and/or remove members in your Organization. See: [TestOps User Management](https://docs.katalon.com/katalon-analytics/docs/kt_invite_user_org.html).
-    * **Payment Method**: where you can update your billing information.
-    * **Subscription Management**: where you can subscribe to Katalon, and/or upgrade, cancel your subscriptions. See [Create TestOps subscriptions](https://docs.katalon.com/katalon-analytics/docs/testops-subscriptions.html) for TestOps and [Purchase Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license-subscription.html) for Studio.
-    * **Organization Management**: where you can update your Organization information.
+  * **Product Utilization**: where you can view your product usage. See: [License Utilization Dashboard](https://docs.katalon.com/katalon-studio/docs/license-utilization-dashboard.html).
+  * **License Management**: where you can assign and remove your licenses. See: [Manage Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license-management.html).
+  * **User Management**: where you can invite members to your organization, edit their roles, or remove members in your organization. See: [TestOps User Management](https://docs.katalon.com/katalon-analytics/docs/kt_invite_user_org.html).
+  * **Payment Method**: where you can update your billing information.
+  * **Subscription Management**: where you can subscribe to Katalon, or upgrade, cancel your subscriptions. See [Create TestOps subscriptions](https://docs.katalon.com/katalon-analytics/docs/testops-subscriptions.html) for TestOps and [Purchase Katalon Licenses](https://docs.katalon.com/katalon-studio/docs/license-subscription.html) for Studio.
+  * **Organization Management**: where you can update your Organization information.
 
 * **TestOps Settings** is a configuration tool specifically for the Katalon TestOps product. In the **TestOps Settings** section, you can navigate to:
-    * **Team Management**: where you can manage all your TestOps teams.
-    * **Project Management**: where you can manage all your TestOps projects.
+  * **Team Management**: where you can manage all your TestOps teams.
+  * **Project Management**: where you can manage all your TestOps projects.
 
 On the top right corner, if you click on the *Avatar* icon, you can navigate to:
 
@@ -54,67 +58,19 @@ On the top right corner, if you click on the *Avatar* icon, you can navigate to:
 * **Community**: where you can join our Katalon Community and see all community forums.
 * **Sign Out**: where you can sign out of Katalon TestOps.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-navigation-doc/click-profile-icon.png" width=100% alt="testops homepage">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-navigation-doc/TO-HomePage-Personal-Settings.png"  width=30% alt="TestOps Avatar dropdown">
 
-In the **Organization User** section, you can see:
+### As a Member
 
-* **Total Users**: the total number of users in the organization.
-* **Active Users**: the number of users joining the organization.
-* **Pending Users**: the number of users with pending invitations to the organization.
-* **Removed Users**: the number of users removed from the organization.
+After signing in to [Katalon TestOps](https://testops.katalon.io/login), the TestOps homepage appears.
 
-[image]
-
-In the **My Products** section, you can see:
-
-* License summary: purchased license types and the number of license for each license type.
-* TestOps plan summary: the plan name, the number of purchased test executions, and the number of projects.
-
-[image]
-
-In the **Feature Documentations** section, you can see some featured documents for the TestOps knowledge base.
-
-In the **Quick Actions** section, you can perform common TestOps actions, including:
-
-* **View your license**: view details about your purchased licenses.
-* **Invite user to this organization**: invite users to your organization.
-* **Subscribe to Katalon products** (for Owners only): create TestOps subscriptions.
-* **Assign Katalon license to users**: grant licenses to users in the organization.
-* **Get the organization ID**: get the ID of the current organization.
-* **Generate an API key**: generate API keys to integrate TestOps with different platforms.
-* **Manage your profile**: edit your profile.
-
-[image]
-
-# As a Billing Manager
-
-After signing in to [Katalon TestOps](https://testops.katalon.io/login), the TestOps homepage appears as below.
-
-[image]
-
-On the top left corner, you can see your current Organization's name. If you click on it, you can see the list of all organizations you belong to.
-
-> **Notes**:
->
-> You can click on the downward arrow next to an Organization to see the Projects. If you click on a Project, you will be navigated to the Project's Dashboard.
-
-
-# As a Member
-
-After signing in to [Katalon TestOps](https://testops.katalon.io/login), the TestOps homepage appears as below.
-
-[image]
-
-On the top left corner, you can see your current Organization's name. If you click on it, you can:
+On the top left corner, you can see your current organization's name. If you click on it, you can:
 
 * see the list of all organizations you belong to.
-
-> **Notes**:
->
-> You can click on the downward arrow next to an Organization to see the Projects. If you click on a Project, you will be navigated to the Project's Dashboard.
 * create a new organization. See: [Create Organization and Project](https://docs.katalon.com/katalon-analytics/docs/kt-create-org.html).
 
 On the top right corner, if you click on the *Settings* icon, you can see the **TestOps Settings** section in which you can navigate to:
+
 * **Team Management**: where you can manage all your TestOps teams.
 * **Project Management**: where you can manage all your TestOps projects.
 
@@ -128,12 +84,71 @@ On the top right corner, if you click on the *Avatar* icon, you can navigate to:
 * **Community**: where you can join our Katalon Community and see all community forums.
 * **Sign Out**: where you can sign out of Katalon TestOps.
 
-In the **TestOps Plan** section, you can see a summary of TestOps plan, including the plan name, the number of purchased test executions, and the number of projects.
+## In the Admin homepage
 
-In the **Feature Documentations** section, you can see some featured documents for the TestOps knowledge base.
+Navigation in the Admin homepage is different depending on your role in the current organization.
 
-In the **Quick Actions** section, you can perform common TestOps actions, including:
+### As an Owner/Admin
 
-* **View your license**: view details about your granted licenses.
+The Admin homepage appears as below.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-navigation-doc/TO-Admin-HomePage-Admin-View.png"  width=100% alt="TestOps Admin homepage Owner/Admin overview">
+
+In the **User Summary** section, you can see:
+
+* **Active Users**: the number of users joining the organization.
+* **Pending Users**: the number of users with pending invitations to the organization.
+* **Removed Users**: the number of users removed from the organization.
+
+In the **My Products** section, you can see:
+
+* License summary: purchased license types and the number of licenses for each license type.
+* TestOps plan summary: the plan name, the number of purchased test executions, and the number of projects you belong to.
+
+In the **Featured Documentation** section, you can see some featured documents for the TestOps knowledge base.
+
+In the **Quick Actions** section, you can quickly navigate to TestOps pages to perform common actions, including:
+
+* **View your licenses**: view details about your purchased licenses.
+* **Invite user to this organization**: invite users to your organization.
+* **Subscribe to Katalon products** : create TestOps subscriptions.
+* **Assign Katalon license to users**: grant licenses to users in the organization.
+* **Get the organization ID**: get the ID of the current organization.
+* **Generate an API key**: generate API keys to integrate TestOps with different platforms.
+* **Manage your profile**: edit your profile.
+
+### As a Billing Manager
+
+The Admin homepage appears as below.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-navigation-doc/TO-Admin-HomePage-Billing-Manager-View.png"  width=100% alt="TestOps Admin homepage Billing Manager overview">
+
+In the **My Products** section, you can see:
+
+* License summary: purchased license types and the number of license for each license type.
+* TestOps plan summary: the plan name, the number of purchased test executions, and the number of projects that a user belongs to.
+
+In the **Featured Documentation** section, you can see some featured documents for the TestOps knowledge base.
+
+In the **Quick Actions** section, you can quickly navigate to TestOps pages to perform common actions, including:
+
+* **View your licenses**: view details about your purchased licenses.
+* **Subscribe to Katalon products**: create TestOps subscriptions.
+* **Generate an API key**: generate API keys to integrate TestOps with different platforms.
+* **Manage your profile**: edit your profile.
+
+### As a Member
+
+The Admin homepage appears as below.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-navigation-doc/TO-Admin-HomePage-Member-View.png"  width=100% alt="TestOps Admin homepage Member overview">
+
+In the **TestOps Plan Summary** section, you can see the plan name, the number of purchased test executions, and the number of projects you belong to.
+
+In the **Featured Documentation** section, you can see some featured documents for the TestOps knowledge base.
+
+In the **Quick Actions** section, you can quickly navigate to TestOps pages to perform common actions, including:
+
+* **View my Katalon Studio Licenses**: view details about your granted Katalon Studio licenses.
 * **Generate an API key**: generate API keys to integrate TestOps with different platforms.
 * **Manage your profile**: edit your profile.
