@@ -211,7 +211,7 @@ for (def index : (0..5)) {
 
 ``` groovy
 
-for (def index : (0..5)) {
+while (varA == true) {
     WebUI.acceptAlert(FailureHandling.STOP_ON_FAILURE)
 }
 ```
@@ -314,9 +314,11 @@ for (int i = 0; i < max; i++) {
 
 Open a test case in **Manual** view. Click on the drop-down icon of the **Add** button, then choose **Exception Handling Statements**.
 
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/statements/exception-handling-statements.png" alt="exception handling statement" width="70%">
+
 To add a keyword under a statement, select that statement then click **Add**. A test step is created under that statement.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/control-statements/image2017-6-30-203A423A21.png)
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/statements/exception-handling.png" alt="exception handling statements in manual view" width="100%">
 
 Refer to following table for the usage of each statement:
 
@@ -394,11 +396,11 @@ To add a keyword under a statement, select that statement then click **Add**. A 
 
    Binary Statements are normally used to assign either values to test objects
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/binary-statements/Binary-Statement.png" width="675" height="196">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/binary-statements/Binary-Statement.png" width="70%">
 
    or test objects to variables to take the next steps.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/binary-statements/BS-2.png" width="665" height="220">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/binary-statements/BS-2.png" width="70%">
 
 4. Save the test case when you're done.
    
