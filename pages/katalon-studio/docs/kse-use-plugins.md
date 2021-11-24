@@ -94,12 +94,19 @@ In **Project > Settings > Plugins**, select one of the following options:
 
 ## Use Plugins in Console Mode
 
-> **Requirements**:
+> Requirements:
 >
-> * Your Katalon Studio version must be 7.0 or later
-> * An active [Katalon Runtime Engine](https://docs.katalon.com/katalon-studio/docs/intro-RE.html) license
-> * A [Katalon API Key](https://docs.katalon.com/katalon-analytics/docs/ka-api-key.html#create-an-api-key)
+> * Katalon Studio version 7.0.0 onwards
+> * An active Katalon Runtime Engine license. To learn more about activating the Katalon Runtime Engine license, you can refer to this document: [Activate Katalon licenses](https://docs.katalon.com/katalon-studio/docs/activate-license.html#activate-a-license-with-internet-access).
+> * An API key. To learn more about API keys, you can refer to this document: [Katalon API Key](https://docs.katalon.com/katalon-analytics/docs/ka-api-key.html#create-an-api-key).
 
-Your command needs API Key parameter for authentication when you want to use plugins installed on Katalon Store.
+To use plugins installed on Katalon Store:
 
-If you specify using the local plugin repository, make sure you store all plugins in **<project_name>//Plugins** folder.
+- Install the plugin from the Katalon Store Page.
+- While generating commands, use the API Key of the users who have the plugin installed. The command-line options of API Key, including -apiKey=<Your_API_Key> and -apikey=<Your_API_Key> are both accepted.
+
+> Notes:
+> 
+> From versions 7.7.0 onwards, if you belong to more than one Organization subscribing to Runtime Engine licenses, you can choose which Organization validates your license usage with the following command line: -orgID=<Katalon_OrgID>.
+
+If you specify using the local plugin repository, make sure you store all plugins in the `<project_name>//Plugins` folder.
