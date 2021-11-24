@@ -224,13 +224,36 @@ for (def index : (0..5)) {
 
 Open a test case in **Manual** view. Click on the drop-down icon of the **Add** button, then choose **Branching Statements**.
 
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/statements/branching-statement.png" alt="branching statement" width="70%">
+
 To add a keyword under a statement, select that statement then click **Add**. A test step is created under that statement.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/control-statements/image2017-6-30-203A413A31.png)
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/statements/break-continue-return.png" alt="branching statement in manual view" width="100%">
 
 Refer to following table for the usage of each statement:
 
-<table><thead><tr><th>Statement</th><th>Description</th><th>Screenshot</th></tr></thead><tbody><tr><td>Break</td><td>Katalon Studio will exit current code block and continue to next code block / test step.</td><td><p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/control-statements/image2017-2-9-163A363A37.png"></p></td></tr><tr><td>Continue</td><td>Katalon Studio will skip the remainder of the current loop and continue with the next iteration of the loop.</td><td><p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/control-statements/image2017-2-9-163A423A13.png"></p></td></tr><tr><td>Return</td><td>Katalon will exit from the current method/step, and the flow control is returned to where the method/step was invoked.</td><td><p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/control-statements/image2017-2-9-163A473A44.png"></p></td></tr></tbody></table>
+<table>
+    <thead>
+        <tr>
+            <th>Statement</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Break</td>
+            <td>Katalon Studio will exit current code block and continue to next code block/ test step.</td>
+        </tr>
+        <tr>
+            <td>Continue</td>
+            <td>Katalon Studio will skip the remainder of the current loop and continue with the next iteration of the loop.</td>
+        </tr>
+        <tr>
+            <td>Return</td>
+            <td>Katalon will exit from the current method/step, and the flow control is returned to where the method/step was invoked.</td>
+        </tr>
+    </tbody>
+</table>
 
 ### In Script view
 
