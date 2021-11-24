@@ -261,11 +261,50 @@ The **Script** view of test cases allows you to programmatically define and han
 
 For example:
 
-| Decision-making statement | Screenshot |
-| --- | --- |
-| Break | ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/control-statements/36.png) |
-| Continue | ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/control-statements/37.png) |
-| Return | ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/control-statements/38.png) |
+* **Break**:
+
+``` groovy
+
+for (int i = 0; i < max; i++) {
+	// interested only in p's
+	if (searchMe.charAt(i) != 'p') {
+		break;
+	}
+	
+	// process p's
+	numPs++;
+}
+```
+
+* **Continue**:
+
+``` groovy
+
+for (int i = 0; i < max; i++) {
+	// interested only in p's
+	if (searchMe.charAt(i) != 'p') {
+		continue;
+	}
+	
+	// process p's
+	numPs++;
+}
+```
+
+* **Return**:
+
+``` groovy
+
+for (int i = 0; i < max; i++) {
+	// interested only in p's
+	if (searchMe.charAt(i) != 'p') {
+		return true;
+	}
+	
+	// process p's
+	numPs++;
+}
+```
 
 ## Exception Handling statements
 
@@ -281,7 +320,32 @@ To add a keyword under a statement, select that statement then click **Add**. A 
 
 Refer to following table for the usage of each statement:
 
-<table><thead><tr><th>Statement</th><th>Description</th><th>Screenshot</th></tr></thead><tbody><tr><td>Try</td><td>This statement indicates that all steps within will be monitored by<strong> exception handlers</strong>.</td><td><p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/control-statements/image2017-2-28-113A513A55.png"></p></td></tr><tr><td>Throw</td><td>Before you can <strong>Catch</strong> an exception, some code must throw one. Regardless of what throws the exception, it's always involved with the <strong>Throw</strong> statement</td></tr><tr><td>Catch</td><td>Katalon Studio will&nbsp;execute all steps within when there is any issue occurred during execution of the <strong>Try</strong> block.</td></tr><tr><td>Finally</td><td>This is the last part of the <strong>Try-Catch-Finally</strong> structure and all steps within this will be executed regardless of any exception.</td></tr></tbody></table>
+<table>
+    <thead>
+        <tr>
+            <th>Statement</th>
+            <th>Description</th><
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Try</td>
+            <td>This statement indicates that all steps within will be monitored by<strong> exception handlers</strong>.</td>
+        </tr>
+        <tr>
+            <td>Throw</td>
+            <td>Before you can <strong>Catch</strong> an exception, some code must throw one. Regardless of what throws the exception, it's always involved with the <strong>Throw</strong> statement</td>
+        </tr>
+        <tr>
+            <td>Catch</td>
+            <td>Katalon Studio will&nbsp;execute all steps within when there is any issue occurred during execution of the <strong>Try</strong> block.</td>
+        </tr>
+        <tr>
+            <td>Finally</td>
+            <td>This is the last part of the <strong>Try-Catch-Finally</strong> structure and all steps within this will be executed regardless of any exception.</td>
+        </tr>
+    </tbody>
+</table>
 
 ### In Script view
 
@@ -289,7 +353,27 @@ The **Script** view of test cases allows you to programmatically define and han
 
 For example:
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/control-statements/image2017-2-28-133A203A32.png)
+``` groovy
+
+try {
+    WebUI.openBrowser('')
+
+    WebUI.navigateToUrl('katalon.com')
+
+    if (WebUI.getText(findTestObject('Object Repository/txt_singin')).length() < 0) {
+        throw new com.kms.katalon.core.exception.StepFailedException('Value required')
+    }
+}
+catch (StepErrorException e) {
+    this.println(e)
+} 
+catch (Exception e) {
+    this.println("General issue occurs.")
+} 
+finally { 
+    this.println("Navigate to a page.")
+}
+```
 
 ## Binary Statements
 
@@ -328,11 +412,19 @@ The **Script** view of a test case allows you to programmatically define and ha
 
 * To assign a value to a test object
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/binary-statements/BS-1.png" width="337" height="46">
+``` groovy
+
+myText = 'Welcome to Katalon Studio'
+```
 
 * To assign a test object to a variable
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/binary-statements/BS-3.png" width="528" height="121">
+``` groovy
+
+myObject = findTestObject('my object')
+WebUI.setText(myObject, 'Welcome to Katalon Studio')
+WebUI.verifyTextPresent('Welcome to Katalon Studio', false)
+```
 
 ## Method Call Statements
 
