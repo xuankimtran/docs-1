@@ -117,10 +117,14 @@ To launch an emulator, open the **ADV Manager**, select the emulator you want to
 
 If you want to run the emulator via the command-line option, you can refer to the Android developer document here: [Start the emulator from the command line](https://developer.android.com/studio/run/emulator-commandline).
 
-## Execute mobile testing with Android Studio in Katalon
+## Verify successful Android devices connection
 
 After launching the emulator, Katalon automatically recognizes the emulator as an Android device. 
-To check whether Katalon successfully recognizes your Android emulator, on the main toolbar, select the **Android** device in the dropdown list next to **Run**. 
+To check whether Katalon successfully recognizes your Android emulator, you can open a Mobile Testing Sample Project in **File > New sample projects > Sample Android Mobile Tests Project**. Katalon Studio will detect and ask you to install **Android SDK** automatically if your current machine does not have it.
+
+<img src="https://github.com/katalon-studio/docs-images/blob/master/katalon-studio/docs/mobile-on-macos/KS-Android-Open--Sample-project.png" width="70%" alt="Open Android sample project">
+
+On the main toolbar, select the **Android** device in the dropdown list next to **Run**. 
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-mobile-testing-with-emulator/KS-EMULATOR-Recognize-Android-emulator.png" width="30%" alt="Regconize Android devices">
 
@@ -137,4 +141,6 @@ You can now execute mobile testing with the emulator.
 
 * [Create your first Android test case](https://docs.katalon.com/katalon-studio/tutorials/mobile-create-android-test-case.html).
 
+## See also:
 
+   * [Troubleshoot automated mobile testing](https://docs.katalon.com/katalon-studio/docs/troubleshooting-automated-mobile-testing.html)

@@ -104,23 +104,19 @@ This article shows you how to set up real Android devices to test Android applic
    
       Katalon Studio will detect and ask you to install **Android SDK** automatically if your current machine does not have it.
       
-## Verify the Android application file
+## Verify successful Android devices connection
 
-   After completing setting up your Android devices, you can open a Mobile Testing Sample Project in **File > New sample projects > Sample Android Mobile Tests Project** to .
-   
-   On the main toolbar, select the **Android** device in the dropdown list next to **Run**. 
+After completing setting up your environment, to check whether Katalon successfully recognizes your Android devices, you can open a Mobile Testing Sample Project in **File > New sample projects > Sample Android Mobile Tests Project**. 
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/android.png" width=20%>  
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/KS-Android-Open--Sample-project.png" width=70% alt="Open Android sample project"> 
 
-   Select your device from the **Android Devices** list > click **OK**. 
+On the main toolbar, select the **Android** device in the dropdown list next to **Run**. 
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/device.png" width=40%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/android.png" width=20% alt="Select Android devices">  
 
-   If your test suite runs successfully, you will see the results in the test reports as follow:
+You should see the name of your Android device in the pop-up dialog. 
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/result.png" width=70%>
-   
-   
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/device.png" width=40% alt="Katalon recognizes Android devices">
 
 **Next step:**
 
