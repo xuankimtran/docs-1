@@ -136,7 +136,7 @@ As you can see from the code above, a sample generated template has already adde
 
 > * There is no limit on Test Listeners. Users can create as many as preferred.
 > * If you have more than one Test Listener class, the classes themselves are instantiated in Katalon storage in alphabetical order. Only then are the individual listener methods executed **top-down**.
-> * Execution status of any steps within Test Listers will not affect the **overall status** of the executed test case (e.g.: if you have a FAILED output in any of your Test Listeners, but the final status of the executed test case is PASSED, then the test case's status will be PASSED).
+> * Execution status of any steps within Test Listeners will not affect the **overall status** of the executed test case (e.g.: if you have a FAILED output in any of your Test Listeners, but the final status of the executed test case is PASSED, then the test case's status will be PASSED).
 
 ### Example
 
