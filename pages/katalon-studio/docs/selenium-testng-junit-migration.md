@@ -6,11 +6,11 @@ permalink: katalon-studio/docs/selenium-testng-junit-migration.html
 
 > This feature is available from version 7.4.0 onwards.
 
-Katalon Studio supports executing test cases from Selenium, TestNG, or JUnit projects. By migrating test scripts from Selenium and TestNG/JUnit to Katalon Studio, you don't have to start everything from scratch. You can reuse your test cases and enjoy Katalon features to execute and maintain them.
+From Katalon Studio version 7.4.0 onwards, you can migrate your test cases from Selenium, TestNG, or JUnit projects to Katalon Studio. 
 
 > If it is not preferable or feasible to migrate your existing JUnit/TestNG test projects to Katalon Studio, we recommend integrating JUnit/TestNG and Katalon Studio test projects with [Katalon TestOps](https://analytics.katalon.com). This helps you manage test results from multiple sources from a centralized web UI regardless of the testing frameworks the test cases were written in.
 
-This section gives instructions on how to migrate your test scripts from a Selenium and TestNG/Junit project to a Katalon project with newly supported features and keywords. Also, a sample TestNG project is provided to give you first-hand experience with our newly supported features.
+This article shows you how to migrate your test scripts from a Selenium and TestNG/Junit project to a Katalon project with newly supported features and keywords. Also, a sample TestNG project is provided to give you first-hand experience with our newly supported features.
 
 Katalon Studio only supports:
 * Selenium version **3.x**
