@@ -4,13 +4,18 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/selenium-testng-junit-migration.html
 ---
 
-> This feature is available from version 7.4.0 onwards.
-
 From Katalon Studio version 7.4.0 onwards, you can migrate your test cases from Selenium, TestNG, or JUnit projects to Katalon Studio. 
 
 > If it is not preferable or feasible to migrate your existing JUnit/TestNG test projects to Katalon Studio, we recommend integrating JUnit/TestNG and Katalon Studio test projects with [Katalon TestOps](https://analytics.katalon.com). This helps you manage test results from multiple sources from a centralized web UI regardless of the testing frameworks the test cases were written in.
 
 This article shows you how to migrate your test scripts from a Selenium and TestNG/Junit project to a Katalon project with newly supported features and keywords. Also, a sample TestNG project is provided to give you first-hand experience with our newly supported features.
+
+> Requirements:
+> * Katalon Studio version 7.4.0 onwards.
+
+
+> See also this sample project demonstrating how to migrate TestNG scripts to Katalon Studio: [TestNG Migration](https://github.com/katalon-studio-samples/TestNG-Migration).
+
 
 Katalon Studio only supports:
 * Selenium version **3.x**
@@ -144,6 +149,5 @@ To migrate Selenium/TestNG/JUnit scripts to a Katalon Studio project, follow the
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jpnAMZQtuiI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-See also this sample project demonstrating how to migrate TestNG scripts to Katalon Studio: [TestNG Migration](https://github.com/katalon-studio-samples/TestNG-Migration).
 
 Learn more with our Katalon Academy course: [Migrate from Selenium to Katalon Studio – Everything You Should Know](https://academy.katalon.com/courses/migrate-selenium/?utm_source=kat_docs_selen_migration&utm_medium=bottom_link&utm_campaign=academy_promotion).
