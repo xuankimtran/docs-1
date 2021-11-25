@@ -29,6 +29,7 @@ To create a new Java class file, in the **Tests Explorer** panel, go to the **In
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/Selenium-TestNG-Migration/java-script.png" width="501" alt="Sample Java Class file">
 
 ## Built-in TestNG/JUnit keywords
+### Install TestNG/JUnit Keywords plugin
 
 You can enable the built-in keywords in the manual view by using the **TestNG/JUnit Keywords** plugin. You can download the plugin from Katalon Store here: [TestNG/JUnit Keywords](https://store.katalon.com/product/180/TestNG-JUnit-Keywords). 
 
@@ -39,8 +40,9 @@ You can enable the built-in keywords in the manual view by using the **TestNG/JU
 After installing the plugin, go to Katalon Studio and click **Reload Plugins**.
 
 If you want to use this plugin offline, you can refer to this document:[Use Private Plugins](https://docs.katalon.com/katalon-studio/docs/kse-use-plugins.html#use-private-plugins). Because the **TestNG/JUnit Keywords** plugin is a **platform** plugin, you need to move the plugin package .jar file in the `<project_name>/Plugins/platform` folder.
+### TestNG/JUnit Keywords
 
-TestNG/JUnit Keywords Plugin offers 3 built-in keywords to help you run TestNG/JUnit tests as below:
+TestNG/JUnit Keywords Plugin offers 3 built-in keywords to help you run TestNG/JUnit tests as follows:
 
 <details><summary><code>runTestNGTestClasses</code></summary>
 
@@ -49,7 +51,7 @@ TestNG/JUnit Keywords Plugin offers 3 built-in keywords to help you run TestNG/J
 **Description**: run TestNG test classes and generate TestNG report at the running report folder.
 
 **Parameters**:
-
+<br>
 <table>
 <thead>
   <tr>
@@ -63,7 +65,7 @@ TestNG/JUnit Keywords Plugin offers 3 built-in keywords to help you run TestNG/J
   <tr>
     <td>testClasses</td>
     <td>List</td>
-    <td>List of TestNG classes</td>
+    <td>List of TestNG test classes</td>
     <td>Required</td>
   </tr>
   <tr>
@@ -86,34 +88,65 @@ TestNG/JUnit Keywords Plugin offers 3 built-in keywords to help you run TestNG/J
 
 **Parameters**:
 
-* Name: testSuites
-  * Type: List
-  * Description: List of TestNG suites as `.xml` files
-  * Mandatory: Required
-* Name: flowControl
-  * Type: FailureHandling
-  * Description: an instance FailureHandling that controls the running flow
-  * Mandatory: optional
-
+<table>
+<thead>
+  <tr>
+    <th>Parameters</th>
+    <th>Type</th>
+    <th>Description</th>
+    <th>Mandatory</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>testSuites</td>
+    <td>List</td>
+    <td>List of TestNG test suites as .xml files</td>
+    <td>Required</td>
+  </tr>
+  <tr>
+    <td>flowControl</td>
+    <td>FailureHandling</td>
+    <td>Specify failure handling schema to determine whether the execution should be allowed to continue or stop. <br>To learn more about failure handling settings, you can refer to this document: <a href="https://docs.katalon.com/katalon-studio/docs/failure-handling.html#default-failure-handlingbehavior" target="_blank" rel="noopener noreferrer">Failure handling</a>.</td>
+    <td>Optional</td>
+  </tr>
+</tbody>
+</table>
 </details>
 
 
 <details><summary><code>runJUnitTestCases</code></summary>
 
-**Syntax**: `runJUnitTestCases(List testCases)`
+**Syntax**: `runJUnitTestClasses(List TestClasses)`
 
 **Description**: run JUnit test cases and generate JUnit report at the running report folder.
 
 **Parameters**:
 
-* Name: testClasses
-  * Type: List
-  * Description: List of JUnit test cases as classes
-  * Mandatory: Required
-* Name: flowControl
-  * Type: FailureHandling
-  * Description: an instance FailureHandling that controls the running flow
-  * Mandatory: optional
+<table>
+<thead>
+  <tr>
+    <th>Parameters</th>
+    <th>Type</th>
+    <th>Description</th>
+    <th>Mandatory</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>testClasses</td>
+    <td>List</td>
+    <td>List of JUnit test classes</td>
+    <td>Required</td>
+  </tr>
+  <tr>
+    <td>flowControl</td>
+    <td>FailureHandling</td>
+    <td>Specify failure handling schema to determine whether the execution should be allowed to continue or stop. <br>To learn more about failure handling settings, you can refer to this document: <a href="https://docs.katalon.com/katalon-studio/docs/failure-handling.html#default-failure-handlingbehavior" target="_blank" rel="noopener noreferrer">Failure handling</a>.</td>
+    <td>Optional</td>
+  </tr>
+</tbody>
+</table>
 
 </details>
 
