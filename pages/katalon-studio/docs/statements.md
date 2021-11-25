@@ -52,7 +52,7 @@ In Katalon Studio, you can add statements as test steps. There are seven types o
 This article guides you through how to add these statements to your test case and how to define a method in both manual and script view.
 ## Decision-making Statements
 
-> Once a test step is added as any of the control statements, it is not allowed to change it into another keyword.
+> Once a test step is added as any of the control statements, it is not allowed to change into another keyword.
 
 ### In Manual view
 
@@ -122,7 +122,7 @@ Refer to the following table and example for the usage of each statement:
 
 ### In Script view
 
-The **Script** view of test cases allows you to programmatically define and handle **If-ElseIf-Else** or **Switch-Case** structure easily using either Groovy or Java language. For more details about conditional structure in Groovy, refer to this Groovy documentation: [Control structures](http://groovy-lang.org/semantics.html#_conditional_structures).
+The **Script** view of test cases allows you to programmatically define and handle **If-ElseIf-Else** or **Switch-Case** structure using either Groovy or Java language. For more details about conditional structure in Groovy, refer to this Groovy documentation: [Control structures](http://groovy-lang.org/semantics.html#_conditional_structures).
 
 For example:
 
@@ -161,7 +161,7 @@ For example:
 
 ## Looping Statements
 
-> Once a test step is added as any of the control statements, it will **not** be allowed to change it into another keyword.
+> Once a test step is added as any of the control statements, it is not allowed to change into another keyword.
 
 ### In Manual view 
 
@@ -194,7 +194,7 @@ Refer to following table for the usage of each statement:
 
 ### In Script view
 
-The **Script** View of test cases allows you to programmatically define and handle **For** or **While** structure using either Groovy or Java language. For more details about looping structures in Groovy, refer to Apache Groovy documentation: [Looping Structures](http://groovy-lang.org/semantics.html#_looping_structures).
+The **Script** view of test cases allows you to programmatically define and handle **For** or **While** structure using either Groovy or Java language. For more details about looping structures in Groovy, refer to this Groovy documentation: [Looping Structures](http://groovy-lang.org/semantics.html#_looping_structures).
 
 For example:
 
@@ -218,7 +218,7 @@ while (varA == true) {
 
 ## Branching Statements
 
-> Once a test step is added as any of the control statements, it will **not** be allowed to change it into another keyword.
+> Once a test step is added as any of the control statements, it is not allowed to change into another keyword.
 
 ### In Manual view 
 
@@ -242,22 +242,22 @@ Refer to following table for the usage of each statement:
     <tbody>
         <tr>
             <td>Break</td>
-            <td>Katalon Studio will exit current code block and continue to next code block/ test step.</td>
+            <td>Katalon Studio exits current code block and continue to next code block/ test step.</td>
         </tr>
         <tr>
             <td>Continue</td>
-            <td>Katalon Studio will skip the remainder of the current loop and continue with the next iteration of the loop.</td>
+            <td>Katalon Studio skips the remainder of the current loop and continues with the next iteration of the loop.</td>
         </tr>
         <tr>
             <td>Return</td>
-            <td>Katalon will exit from the current method/step, and the flow control is returned to where the method/step was invoked.</td>
+            <td>Katalon exits from the current method/ step, and the flow control is returned to where the method/step was invoked.</td>
         </tr>
     </tbody>
 </table>
 
 ### In Script view
 
-The **Script** view of test cases allows you to programmatically define and handle **Break**, **Continue** & **Return** easily using either Groovy or Java language. 
+The **Script** view of test cases allows you to programmatically define and handle **Break**, **Continue** and **Return**, using either Groovy or Java language. 
 
 For example:
 
@@ -308,7 +308,7 @@ for (int i = 0; i < max; i++) {
 
 ## Exception Handling statements
 
-> Once a test step is added as any of the control statements, it will **not** be allowed to change it into another keyword.
+> Once a test step is added as any of the control statements, it is not allowed to change into another keyword.
 
 ### In Manual view 
 
@@ -332,69 +332,70 @@ Refer to following table for the usage of each statement:
     <tbody>
         <tr>
             <td>Try</td>
-            <td>This statement indicates that all steps within will be monitored by<strong> exception handlers</strong>.</td>
+            <td>This statement indicates that all steps within is monitored by<strong> exception handlers</strong>.</td>
         </tr>
         <tr>
             <td>Throw</td>
-            <td>Before you can <strong>Catch</strong> an exception, some code must throw one. Regardless of what throws the exception, it's always involved with the <strong>Throw</strong> statement</td>
+            <td>Some code must throw an exception before you can <strong>Catch</strong> an exception. Regardless of what code throws the exception, it is always involved with the <strong>Throw</strong> statement.</td>
         </tr>
         <tr>
             <td>Catch</td>
-            <td>Katalon Studio will&nbsp;execute all steps within when there is any issue occurred during execution of the <strong>Try</strong> block.</td>
+            <td>When there is any issue occurred during execution of the <strong>Try</strong> block, Katalon Studio executes all steps within.</td>
         </tr>
         <tr>
             <td>Finally</td>
-            <td>This is the last part of the <strong>Try-Catch-Finally</strong> structure and all steps within this will be executed regardless of any exception.</td>
+            <td>This is the last part of the <strong>Try-Catch-Finally</strong> structure. All steps within this is executed regardless of any exception.</td>
         </tr>
     </tbody>
 </table>
 
 ### In Script view
 
-The **Script** view of test cases allows you to programmatically define and handle exception easily using either Groovy or Java language. Refer to [http://groovy-lang.org/semantics.html#\_try\_catch_finally](http://groovy-lang.org/semantics.html#_try_catch_finally) for more details about exception handling in Groovy.
+The **Script** view of test cases allows you to programmatically define and handle exception using either Groovy or Java language. For more details about exception handling in Groovy, refer to this Groovy documentation: [Try - Catch - Finally](http://groovy-lang.org/semantics.html#_try_catch_finally).
 
 For example:
 
-``` groovy
+    ``` groovy
 
-try {
-    WebUI.openBrowser('')
+    try {
+        WebUI.openBrowser('')
 
-    WebUI.navigateToUrl('katalon.com')
+        WebUI.navigateToUrl('katalon.com')
 
-    if (WebUI.getText(findTestObject('Object Repository/txt_singin')).length() < 0) {
-        throw new com.kms.katalon.core.exception.StepFailedException('Value required')
+        if (WebUI.getText(findTestObject('Object Repository/txt_singin')).length() < 0) {
+            throw new com.kms.katalon.core.exception.StepFailedException('Value required')
+        }
     }
-}
-catch (StepErrorException e) {
-    this.println(e)
-} 
-catch (Exception e) {
-    this.println("General issue occurs.")
-} 
-finally { 
-    this.println("Navigate to a page.")
-}
-```
+    catch (StepErrorException e) {
+        this.println(e)
+    } 
+    catch (Exception e) {
+        this.println("General issue occurs.")
+    } 
+    finally { 
+        this.println("Navigate to a page.")
+    }
+    ```
 
 ## Binary Statements
 
-A Binary Statement represents a dual expression consisting of two single **expressions** (variables, strings, numbers, methods...) and an **operator** (e.g. +, -, *, <, <=, !, etc.). Refer to [Groovy Documents](http://groovy-lang.org/operators.html) for more details about using operators in Groovy.
+A Binary statement represents a dual expression consisting of two single **expressions** (variables, strings, numbers, methods...) and an **operator** (e.g. +, -, *, <, <=, !, etc.). For more details about using operators in Groovy, refer to this Groovy documentation: [Operators](http://groovy-lang.org/operators.html).
 
 ### In Manual view
 
 1. Open a test case in **Manual** view. Click on the drop-down icon of the **Add** button, then choose **Binary Statements**.
 
-To add a keyword under a statement, select that statement then click **Add**. A test step is created under that statement.  
+    To add a keyword under a statement, select that statement then click **Add**. A test step is created under that statement.  
 
    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/binary-statements/image2017-6-30-203A433A7.png)
+
 2. A test step representing a binary statement is added to the test case.  
 
    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/binary-statements/image2017-2-10-133A463A52.png)
 
 3. Double-click on the **Input** cell to edit those required components.  
 
-   Binary Statements are normally used to assign either values to test objects
+   Binary statements are normally used to assign either values to test objects
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/binary-statements/Binary-Statement.png" width="70%">
 
@@ -404,11 +405,11 @@ To add a keyword under a statement, select that statement then click **Add**. A 
 
 4. Save the test case when you're done.
    
-   > Once a test step is added as any of the **Binary Statement**, it will **not** be allowed to change it into another keyword.
+   > Once a test step is added as any of the **Binary Statement**, it is not allowed to change into another keyword.
 
 ### In Script view
 
-The **Script** view of a test case allows you to programmatically define and handle binary statements easily using either Groovy or Java languages.
+The **Script** view of a test case allows you to programmatically define and handle binary statements using either Groovy or Java languages.
 
 **For example**:
 
@@ -440,15 +441,17 @@ Method Call statement allows you to make calls to other methods provided by the 
 
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/method-call-statements/image2017-6-30-203A443A47.png)  
 
-2. A test step representing a method call is added to the test case.  
+2. A test step representing a method call is added to the test case.
+
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/method-call-statements/image2017-2-10-153A223A34.png)  
 
-3. Double-click on the Input cell to edit the called method.  
+3. Double-click on the Input cell to edit the called method.
+
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/method-call-statements/image2017-2-10-153A273A26.png)  
 
 4. Save the test case when you're done.
     
-    > Once a test step is added as **Method Call Statement**, it will **not** be allowed to change into another keyword.
+    > Once a test step is added as **Method Call Statement**, it is not allowed to change into another keyword.
 
 ### In Script view
 
@@ -483,11 +486,11 @@ An assert statement contains a **boolean expression** where this condition must
 3. Double-click on the **Input** cell to edit the assertion.  
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/assert-statements/image2017-2-10-153A23A25.png)
     
-    > Once a test step is added as **Assert Statement**, it will **not** be allowed to change into another keyword.
+    > Once a test step is added as **Assert Statement**, it is not allowed to change into another keyword.
 
 ### In Script view
 
-The **Script** view of test cases allows you to programmatically define and handle assertions easily using either Groovy or Java language. Refer to [http://docs.groovy-lang.org/docs/latest/html/documentation/core-testing-guide.html](http://docs.groovy-lang.org/docs/latest/html/documentation/core-testing-guide.html) for more details regarding assertions in Groovy.
+The **Script** view of test cases allows you to programmatically define and handle assertions using either Groovy or Java language. For more details regarding assertions in Groovy, refer to this Groovy documentation: [Core Testing Guide.html](http://docs.groovy-lang.org/docs/latest/html/documentation/core-testing-guide.html).
 
 For example:
 
@@ -499,7 +502,7 @@ assert varA == true
 
 ## Define Method
 
-A method consists of instructions to perform a specific task. Defined methods can be called for being reused later. Refer to [Method Call Statements](/display/KD/Method+Call+Statements) for more details regarding how to call a defined method.
+A method consists of instructions to perform a specific task. Defined methods can be called for being reused later. For more details regarding how to call a defined method, refer to [Method Call Statements](/display/KD/Method+Call+Statements) .
 
 ### In Manual view
 
@@ -514,16 +517,42 @@ A method consists of instructions to perform a specific task. Defined methods c
   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/define-method/image2017-2-10-153A483A9.png)
    Specify the required information for your method as following:
 
-   <table><thead><tr><th>Field</th><th>Description</th></tr></thead><tbody><tr><td>Name</td><td>The name of the method.</td></tr><tr><td>Return type</td><td><p>The object type that this method will return after its execution.</p></td></tr><tr><td>Setup, Teardown options</td><td>Select any checkbox to indicate whether it should be a setup() or teardown() method. Refer to <a href="#DefineMethod-SetUp()andTearDown()inManualview">SetUp() and TearDown() in Manual view</a> for more details.</td></tr><tr><td>Parameter list</td><td><p>Any parameter needed to pass into the method.</p><p>By clicking on the <strong>Insert</strong> button, a row will be appended into the grid. You can then change the type and name of the parameter by double clicking and editing the appropriate cell.</p></td></tr></tbody></table>
+<table>
+    <thead>
+        <tr>
+            <th>Field</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Name</td>
+            <td>The name of the method.</td>
+        </tr>
+        <tr>
+            <td>Return type</td>
+            <td><p>The object type that this method will return after its execution.</p></td>
+        </tr>
+        <tr>
+            <td>Setup, Teardown options</td>
+            <td>Select any checkbox to indicate whether it should be a setup() or teardown() method. Refer to <a href="#DefineMethod-SetUp()andTearDown()inManualview">SetUp() and TearDown() in Manual view</a> for more details.</td>
+        </tr>
+        <tr>
+            <td>Parameter list</td>
+            <td><p>Any parameter needed to pass into the method.</p><p>By clicking on the <strong>Insert</strong> button, a row will be appended into the grid. You can then change the type and name of the parameter by double clicking and editing the appropriate cell.</p></td>
+        </tr>
+    </tbody>
+</table>
 
-   Click **OK** after configuring the method details.
+   After configuring the method details, click **OK**
 
 3. A test step representing the recently defined method is added to the test case. You can switch to **Script** view to [define content for the method](/display/KD/Define+method#Definemethod-DefineamethodinScriptingview).
+
    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/define-method/image2017-2-28-143A553A16.png)
 
-4. Save the test case when you're done.
+4. When you're done, save the test case.
 
-   > Once a test step is defined as **Method**, it will **not** be allowed to change into another keyword.
+   > Once a test step is defined as **Method**, it is not allowed to change into another keyword.
 
 ### In Script view
 
