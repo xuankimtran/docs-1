@@ -9,7 +9,7 @@ redirect_from:
     - "/katalon-store/docs/user/plugin-console-installation.html"
 description:
 ---
-Katalon Plugin is to extend Katalon Studio's capabilities and integrate the software with your favorite tools. This section introduces plugins, different ways of using plugins with the Katalon Studio Enterprise license and the detailed configuration of each way.
+Katalon Plugin is to extend Katalon Studio's capabilities and integrate the software with your favorite tools. This section introduces plugins, different ways of using plugins with the Katalon Studio Enterprise license and the detailed configurations.
 
 ## Introduction to Plugins
 
@@ -103,10 +103,10 @@ In **Project > Settings > Plugins**, select one of the following options:
 To use plugins from Katalon Store in console mode:
 
 - Install the plugin from Katalon Store.
-- While generating commands, use the API Key of the users who have the plugin installed. The command-line options of API Key, including `-apiKey=<Your_API_Key>` and `-apikey=<Your_API_Key>` are both accepted.
+- While generating commands, use the API Key of the users who have the plugin installed. Both API key command-line options work, either `-apiKey=<Your_API_Key>` or `-apikey=<Your_API_Key>`.
 
 > Notes:
 > 
 > From version 7.7.0 onwards, if you belong to more than one Organization subscribing to Runtime Engine licenses, you can choose which Organization validates your license usage with the following command line: `-orgID=<Katalon_OrgID>`.
 
-If you use the private plugins, make sure you store all plugins in the `<project_name>//Plugins` folder. See [Private Plugins](https://docs.katalon.com/katalon-studio/docs/kse-use-plugins.html#private-plugins), above.
+If you use the private plugins, make sure you store all plugins in the `<project_name>//Plugins` folder. See above: [Private Plugins](https://docs.katalon.com/katalon-studio/docs/kse-use-plugins.html#private-plugins).
