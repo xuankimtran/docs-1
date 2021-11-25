@@ -62,11 +62,11 @@ Open a test case in **Manual** view. Click on the drop-down icon of the **Add*
 
 To add a keyword under a statement, select that statement then click **Add**. A test step is created under that statement.
 
-Refer to the following table for the usage of each statement:
+Refer to the following table and example for the usage of each statement:
 
 * **If - Else If - Else**:
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/statements/if-else.png" alt="if-else statements" width="100%">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/statements/if-else.png" alt="if-else statements" width="100%">
 
 <table>
     <thead>
@@ -78,22 +78,22 @@ Refer to the following table for the usage of each statement:
     <tbody>
         <tr>
             <td>If</td>
-            <td>This statement requires a boolean condition as input value. Katalon Studio will execute all steps within once the condition is triggered.</td>
+            <td>This statement requires a boolean condition as an input value. Once the condition is triggered, Katalon Studio starts executing all steps within.</td>
         </tr>
         <tr>
             <td>Else If</td>
-            <td>Using <strong>Else If</strong> after <strong>If</strong>, you can create a combination of conditions where the steps within the first satisfied condition will be executed.</td>
+            <td>Using <strong>Else If</strong> after <strong>If</strong>, you can create a combination of conditions where the steps within the first satisfied condition start being executed.</td>
         </tr>
         <tr>
             <td>Else</td>
-            <td>This statement serves as the conclusion of the <strong>If - Else If - Else</strong> structure. The steps within this statement will be executed if <strong>all</strong> the conditions above it are <strong>not</strong> triggered.</td>
+            <td>This statement serves as the conclusion of the <strong>If - Else If - Else</strong> structure. If all the conditions above it are not triggered, test steps within this statement start being executed.</td>
         </tr>
     </tbody>
 </table>
 
 * **Switch - Case**:
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/statements/switch-case-default.png" alt="switch statement" wisth="100%">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/statements/switch-case-default.png" alt="switch statement" wisth="100%">
 
 <table>
     <thead>
@@ -104,13 +104,13 @@ Refer to the following table for the usage of each statement:
     </thead>
     <tbody>
             <td>Switch</td>
-            <td>This statement requires an expression, which is often referred to as <strong>the control expression</strong> (or <strong>control variable</strong>), as <strong>input value</strong>.</td>
+            <td>This statement requires an expression, which is often referred to as the  <strong>control expression</strong> (or <strong>control variable</strong>), as <strong>input value</strong>.</td>
         </tr>
         <tr>
             <td>Case</td>
             <td>
                 <p>The <strong>Cases</strong> indicate the assumed value for the <strong>control expression</strong>, with corresponding steps to be executed when a match occurs.</p>
-                <p>Each <strong>Case</strong> will have a <strong>Break</strong> by default which should be positioned at the end of the <strong>Case</strong> block to mark the end of it.</p>
+                <p>Each <strong>Case</strong> has a <strong>Break</strong> by default, which should be positioned at the end of the <strong>Case</strong> block to mark the end of it.</p>
             </td>
         </tr>
         <tr>
@@ -122,42 +122,42 @@ Refer to the following table for the usage of each statement:
 
 ### In Script view
 
-The **Script** view of test cases allows you to programmatically define and handle **If-ElseIf-Else** or **Switch-Case** structure easily using either Groovy or Java language. For more details about conditional structure in Groovy, refer to Apache Groovy documentation: [Control structures](http://groovy-lang.org/semantics.html#_conditional_structures).
+The **Script** view of test cases allows you to programmatically define and handle **If-ElseIf-Else** or **Switch-Case** structure easily using either Groovy or Java language. For more details about conditional structure in Groovy, refer to this Groovy documentation: [Control structures](http://groovy-lang.org/semantics.html#_conditional_structures).
 
 For example:
 
 * **If - Else If - Else**:
 
-``` groovy
+    ``` groovy
 
-if (true) {
-    WebUI.click(findTestObject('Page_CuraAppointment/chk_Medicaid'), FailureHandling.STOP_ON_FAILURE)
-} else if (true) {
-    WebUI.click(findTestObject('Page_CuraAppointment/chk_Medicare'), FailureHandling.STOP_ON_FAILURE)
-} else {
-    WebUI.click(findTestObject('Page_CuraAppointment/chk_None'), FailureHandling.STOP_ON_FAILURE)
-}
-```
+    if (true) {
+        WebUI.click(findTestObject('Page_CuraAppointment/chk_Medicaid'), FailureHandling.STOP_ON_FAILURE)
+    } else if (true) {
+        WebUI.click(findTestObject('Page_CuraAppointment/chk_Medicare'), FailureHandling.STOP_ON_FAILURE)
+    } else {
+        WebUI.click(findTestObject('Page_CuraAppointment/chk_None'), FailureHandling.STOP_ON_FAILURE)
+    }
+    ```
 
 * **Switch - Case**:
 
-``` groovy
+    ``` groovy
 
-switch (true) {
-    case true:
-        WebUI.click(findTestObject('Page_CuraAppointment/chk_Medicaid'), FailureHandling.STOP_ON_FAILURE)
+    switch (true) {
+        case true:
+            WebUI.click(findTestObject('Page_CuraAppointment/chk_Medicaid'), FailureHandling.STOP_ON_FAILURE)
 
-        break
-    case true:
-        WebUI.click(findTestObject('Page_CuraAppointment/chk_Medicare'), FailureHandling.STOP_ON_FAILURE)
+            break
+        case true:
+            WebUI.click(findTestObject('Page_CuraAppointment/chk_Medicare'), FailureHandling.STOP_ON_FAILURE)
 
-        break
-    default:
-        WebUI.click(findTestObject('Page_CuraAppointment/chk_None'), FailureHandling.STOP_ON_FAILURE)
+            break
+        default:
+            WebUI.click(findTestObject('Page_CuraAppointment/chk_None'), FailureHandling.STOP_ON_FAILURE)
 
-        break
-}
-```
+            break
+    }
+    ```
 
 ## Looping Statements
 
@@ -456,7 +456,12 @@ The **Script** View of a test case allows you to programmatically define and ha
 
 For example:
 
- ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/method-call-statements/11.png)
+``` groovy
+WebUiBuiltInKeywords.openBrowser('', FailureHandling.STOP_ON_FAILURE)
+WebUiBuiltInKeywords.navigateToUrl(GlobalVariable.global_Gmail_Url, FailureHandling.STOP_ON_FAILURE)
+WebUiBuiltInKeywords.setText(ObjectRepository.findTestObject(null), 'varA'.toString(), FailureHandling.STOP_ON_FAILURE)
+Integer.notifyAll()
+```
 
 ## Assert Statements
 
@@ -486,7 +491,11 @@ The **Script** view of test cases allows you to programmatically define and han
 
 For example:
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/assert-statements/11.png)
+``` groovy
+WebUiBuiltInKeywords.openBrowser('', FailureHandling.STOP_ON_FAILURE)
+WebUiBuiltInKeywords.navigateToUrl(GlobalVariable.global_Gmail_Url, FailureHandling.STOP_ON_FAILURE)
+assert varA == true
+```
 
 ## Define Method
 
@@ -518,8 +527,20 @@ A method consists of instructions to perform a specific task. Defined methods c
 
 ### In Script view
 
-The **Script** view of a test case allows you to programmatically define and handle methods easily using either Groovy or Java language. Refer to [http://groovy-lang.org/structure.html#_methods](http://groovy-lang.org/structure.html#_methods) for details about methods in Groovy.
+The **Script** view of a test case allows you to programmatically define and handle methods easily using either Groovy or Java language. For details about methods in Groovy, refer to Groovy documentation: [Methods](http://groovy-lang.org/structure.html#_methods).
 
 For example:
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/define-method/1.png)
+* **Method declaration**:
+
+    ``` groovy
+    Integer myMethod(def param1, def param2) {
+        return param1 + param2
+    }
+    ```
+
+* **Method call**:
+
+    ``` groovy
+    myVar = myMethod1(varA, varB)
+    ```
