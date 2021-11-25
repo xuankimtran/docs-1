@@ -54,7 +54,7 @@ If you have already written custom keywords, then code reuse across projects can
 
 ### Store Private Plugins
 
-You need to store private plugins in the `<project_name>//Plugins` folder for Katalon Studio to treat them as local plugins. There are two types of plugins: **Platform** and **Custom Keyword**. Noticeably, **Platform** plugins need storing in the `Plugins//platform` folder.
+You need to store private plugins in the `<project_name>/Plugins` folder for Katalon Studio to treat them as local plugins. There are two types of plugins: **Platform** and **Custom Keyword**. Noticeably, **Platform** plugins need storing in the `<project_name>/Plugins/platform` folder.
 
 Below is the structure of the `Plugins` folder:
 
