@@ -211,13 +211,13 @@ On the top right corner, if you click on the *Avatar* icon, you can see common *
 
 To navigate to the Admin homepage:
 
-1. In the **TestOps Admin** section, navigate to one of the TestOps Admin Console pages.
+1. On the top right corner of a TestOps page, click on the *Settings* icon. In the dislayed **TestOps Admin** section, navigate to one of the TestOps Admin Console pages.
 
-  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-navigation-doc/TO-TestOps-Admin-Pages.png"  width=70% alt="TestOps Admin Console pages">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-navigation-doc/TO-TestOps-Admin-Pages.png"  width=30% alt="TestOps Admin Console pages">
 
 2. From the Admin Console page, on the top left corner, click on the TestOps icon. You will be navigated to the Admin homepage.
 
-  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-navigation-doc/TO-TestOps-logo.png" width=10% alt="TestOps icon">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-navigation-doc/TO-TestOps-logo.png" width=10% alt="TestOps icon">
 
 Navigation in the Admin homepage is different depending on your role in the current organization.
 
