@@ -354,7 +354,7 @@ The Admin homepage displays several sections that contain common actions for a M
         </tr>
         <tr>
             <td rowspan=3><b>Quick Actions</b></td>
-            <td>iew my Katalon Studio Licenses</td>
+            <td>View my Katalon Studio Licenses</td>
             <td>View details about your granted Katalon Studio licenses.</td>
         </tr>
         <tr>
