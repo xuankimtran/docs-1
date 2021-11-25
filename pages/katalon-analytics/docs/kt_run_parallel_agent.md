@@ -36,7 +36,7 @@ Follow these steps:
     > Notes:
     >
     > * In the **Test Environments** section, select the Agents you have configured earlier.
-    > * In the **Advanced settings** section, choose **Parallel** for **Execution Mode**. See: [Advanced settings](https://docs.katalon.com/katalon-analytics/docs/create-plan.html#advanced-settings).
+    > * In the **Advanced settings** section, go to **Execution Mode** and choose **Parallel**. See: [Advanced settings](https://docs.katalon.com/katalon-analytics/docs/create-plan.html#advanced-settings).
 
 You have created a new Test Run List for parallel executions of Test Suites.
 
