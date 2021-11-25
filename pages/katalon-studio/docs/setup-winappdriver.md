@@ -38,7 +38,7 @@ There are two ways to install WinAppDriver on a Windows 10 machine:
 
 > Notes:
 > 
-> * While the test is being run, make sure to have WinAppDriver open on the Windows 10 test machine.
+> * While the test is being run, make sure to have WinAppDriver open and configured for the remote connection on the Windows 10 test machine.
 
 After installing WinAppDriver and enabling **Developer Mode**, to configure WinAppDriver for the remote connection, follow these steps:
 
