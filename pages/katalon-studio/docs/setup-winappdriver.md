@@ -64,6 +64,7 @@ While building your test script, make sure to have the `WinAppDriver URL` point 
 
 The application file path points the file path on the remote machine.
 
+   <img src="https://github.com/katalon-studio/docs-images/raw/0732ea4078b705f4785b158f231d48570d7cb7ae/katalon-studio/docs/introduction-desktop-app-testing/KS-Windows-Remote-connection.png" width="90%" alt="Remote connection in Katalon">
 
 **Next step:**
 
