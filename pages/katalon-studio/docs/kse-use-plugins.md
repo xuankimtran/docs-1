@@ -9,7 +9,7 @@ redirect_from:
     - "/katalon-store/docs/user/plugin-console-installation.html"
 description:
 ---
-Katalon Plugin is to extend Katalon Studio's capabilities and integrate the software with your favorite tools. This section introduces plugins, different ways of using plugins with Katalon Studio Enterprise license and the detailed configuration of each way.
+Katalon Plugin is to extend Katalon Studio's capabilities and integrate the software with your favorite tools. This section introduces plugins, different ways of using plugins with the Katalon Studio Enterprise license and the detailed configurations.
 
 ## Introduction to Plugins
 
@@ -21,7 +21,7 @@ Some plugins are exclusive for Katalon Studio Enterprise users only while the ot
 
 You can trial an Enterprise plugin for 30 days. After the trial period, if you wish to continue using the plugin for configuration, you need to subscribe to a Katalon Studio Enterprise license.
 
-### Plugins' usage modes
+### Plugins usage modes
 
 All Katalon users are eligible for using the community plugins published on Store.
 
@@ -33,18 +33,18 @@ Katalon Runtime Engine users can use plugins in console mode.
 
 Katalon Studio Enterprise users can decide where Katalon Studio will download plugins for a project. Go to **Project > Settings > Plugins** and select one of the following options:
 
-* **Katalon Store and Local**: Katalon Studio will install plugins from Store and the Plugins folder of each project.
+* **Katalon Store and Local**: Katalon Studio will install plugins from the Store and the Plugins folder of each project.
 * **Katalon Store**: Katalon Studio will install plugins from Katalon Store only.
 * **Local**: Katalon Studio will install plugins from the Plugins folder only.
 
 ## Private Plugins
 
-Private plugins are Katalon plugins that are developed for private use. With private plugins supported, you can build, distribute, install, and use your own plugins without publishing them on Store for public access.
+Private plugins are Katalon plugins that are developed for private use. With private plugins supported, you can build, distribute, install, and use your plugins without publishing them on Store for public access.
 
 > **Requirements**:
 >
-> * Your Katalon Studio version must be 7.0 or later.
-> * You need an [active license for Katalon Studio Enterprise](https://docs.katalon.com/katalon-studio/docs/license.html#paid-license).
+> * Katalon Studio version 7.0.0 onwards.
+> * An active Katalon Studio Enterprise license. To learn more about activating licenses, you can refer to this document: [Activate Katalon licenses](https://docs.katalon.com/katalon-studio/docs/activate-license.html#activate-a-license-with-internet-access).
 
 ### Build Private Plugins
 
@@ -54,9 +54,9 @@ If you have already written custom keywords, then code reuse across projects can
 
 ### Store Private Plugins
 
-You need to store private plugins in **<project_name>//Plugins** for Katalon Studio to treat them as local plugins. There are two types of plugins: *Platform* and *Custom Keyword*. Noticeably, *Platform* plugins need storing in the **Plugins//platform** folder.
+You need to store private plugins in the `<project_name>/Plugins` folder for Katalon Studio to treat them as local plugins. There are two types of plugins: **Platform** and **Custom Keyword**. Noticeably, **Platform** plugins need storing in the `<project_name>/Plugins/platform` folder.
 
-The **Plugins** folder's structure:
+Below is the structure of the `Plugins` folder:
 
 ```groovy
 
@@ -87,19 +87,26 @@ Plugins
 
 In **Project > Settings > Plugins**, select one of the following options:
 
-* **Katalon Store and Local**: Katalon Studio will install plugins from Store and the Plugins folder of each project.
+* **Katalon Store and Local**: Katalon Studio will install plugins from the Store and the Plugins folder of each project.
 * **Local**: Katalon Studio will install plugins from the Plugins folder only.
 
 > **Notes**: To install plugins offline, see [Offline Plugin Installation](https://docs.katalon.com/katalon-studio/docs/install-plugin-offline.html)
 
 ## Use Plugins in Console Mode
 
-> **Requirements**:
+> Requirements:
 >
-> * Your Katalon Studio version must be 7.0 or later
-> * An active [Katalon Runtime Engine](https://docs.katalon.com/katalon-studio/docs/intro-RE.html) license
-> * A [Katalon API Key](https://docs.katalon.com/katalon-analytics/docs/ka-api-key.html#create-an-api-key)
+> * Katalon Studio version 7.0.0 onwards
+> * An active Katalon Runtime Engine license. To learn more about activating the Katalon Runtime Engine license, you can refer to this document: [Activate Katalon licenses](https://docs.katalon.com/katalon-studio/docs/activate-license.html#activate-a-license-with-internet-access).
+> * An API key. To learn more about API keys, you can refer to this document: [Katalon API Key](https://docs.katalon.com/katalon-analytics/docs/ka-api-key.html#create-an-api-key).
 
-Your command needs API Key parameter for authentication when you want to use plugins installed on Katalon Store.
+To use plugins from Katalon Store in console mode:
 
-If you specify using the local plugin repository, make sure you store all plugins in **<project_name>//Plugins** folder.
+- Install the plugin from Katalon Store.
+- While generating commands, use the API Key of the users who have the plugin installed. Both API key command-line options work, either `-apiKey=<Your_API_Key>` or `-apikey=<Your_API_Key>`.
+
+> Notes:
+> 
+> From version 7.7.0 onwards, if you belong to more than one Organization subscribing to Runtime Engine licenses, you can choose which Organization validates your license usage with the following command line: `-orgID=<Katalon_OrgID>`.
+
+If you use the private plugins, make sure you store all plugins in the `<project_name>/Plugins` folder. See above: [Private Plugins](https://docs.katalon.com/katalon-studio/docs/kse-use-plugins.html#private-plugins).
