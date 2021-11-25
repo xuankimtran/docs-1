@@ -5,7 +5,7 @@ permalink: katalon-studio/tutorials/webui-analyze-test-case-execution-logs-and-r
 description: 
 ---
 
-After executing a Test Case, Katalon Studio provides users with comprehensive execution logs in the **Log Viewer**. Users can quickly investigate the logs to pinpoint the root causes of any issue and correct the Test execution with Debug utilities provided by Katalon Studio.
+After executing a Test Case, Katalon Studio provides users with comprehensive execution logs in the **Log Viewer**. Users can quickly investigate the logs to pinpoint the root causes of any issue and correct the Test execution with Debug utilities.
 
 This tutorial shows you how to analyze execution logs of a failed Test Case in the **Log Viewer** and debug the Test Case.
 
@@ -69,7 +69,7 @@ Follow these steps to analyze the logs:
 ## Debug the Test Case
 
 After finding the root cause, we update the Test Object with a new XPath, and use the **Run from here** Debug utility to resume the Test execution.
-### Update the Object Locator using the Browser Inspector
+### Update the Object Locator
 
 Because a deprecated Object Locator causes the error, we can find the new Object Locator using the browser's **Inspector** tool.
 
