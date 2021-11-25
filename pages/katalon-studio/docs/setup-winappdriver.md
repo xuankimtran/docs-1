@@ -36,6 +36,10 @@ There are two ways to install WinAppDriver on a Windows 10 machine:
 ## Set up WinAppDriver for the remote connection
 ### On the Windows 10 test machine
 
+> Notes:
+> 
+> * While the test is being run, make sure to have WinAppDriver open on the Windows 10 test machine.
+
 After installing WinAppDriver and enabling **Developer Mode**, to configure WinAppDriver for the remote connection, follow these steps:
 
 1. Open **Task Manager** > Select **File** > Create a new task.
@@ -58,9 +62,9 @@ After installing WinAppDriver and enabling **Developer Mode**, to configure WinA
 
 > Notes:
 > 
-> The test runner machine can be Windows, macOS or Linux.
+> * The test runner machine can be Windows, macOS or Linux.
 
-While building your test script, make sure to have the `WinAppDriver URL` point to the IP address of the remote test machine. In the above example, it should be: `http://192.168.37.95:4723/`.
+While building your test script, make sure to have the `WinAppDriver URL` point to the publish IP address of the remote test machine. In the above example, it should be: `http://192.168.37.95:4723/`.
 
 The application file path points the file path on the remote machine.
 
