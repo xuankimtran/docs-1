@@ -109,4 +109,4 @@ To use plugins from Katalon Store in console mode:
 > 
 > From version 7.7.0 onwards, if you belong to more than one Organization subscribing to Runtime Engine licenses, you can choose which Organization validates your license usage with the following command line: `-orgID=<Katalon_OrgID>`.
 
-If you use the private plugins, make sure you store all plugins in the `<project_name>//Plugins` folder. See above: [Private Plugins](https://docs.katalon.com/katalon-studio/docs/kse-use-plugins.html#private-plugins).
+If you use the private plugins, make sure you store all plugins in the `<project_name>/Plugins` folder. See above: [Private Plugins](https://docs.katalon.com/katalon-studio/docs/kse-use-plugins.html#private-plugins).
