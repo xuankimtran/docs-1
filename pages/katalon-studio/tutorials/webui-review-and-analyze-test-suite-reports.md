@@ -9,7 +9,7 @@ After Test Suite execution, Katalon Studio generates Test Suite reports containi
 
 This tutorial walks you through the steps to view and analyze a Test Suite report.
 
-Here we use a Test Suite that consists of Test Cases with the scenario "Order and check out a single product multiple times." With the Test Suited report generated, we use the interface provided by Katalon Studio to analyze the Test Suite report and pinpoint some errors.
+Here we use a Test Suite that consists of Test Cases with the scenario "Order and check out a single product multiple times." With the Test Suite report generated, we use the interface provided by Katalon Studio to analyze the Test Suite report and pinpoint some errors.
 
 > You can download the sample project here: [Shopping Cart Tests](https://github.com/katalon-studio-samples/shopping-cart-tests).
 
