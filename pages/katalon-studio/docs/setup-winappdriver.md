@@ -66,9 +66,9 @@ After installing WinAppDriver and enabling **Developer Mode**, to configure WinA
 
 While building your test script, make sure to have the `WinAppDriver URL` point to the publish IP address of the remote test machine. In the above example, it should be: `http://192.168.37.95:4723/`.
 
-The application file path points the file path on the remote machine.
+The application file path is the absolute path to the `Windows Executable File (*.exe)` file of the remote test machine.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/0732ea4078b705f4785b158f231d48570d7cb7ae/katalon-studio/docs/introduction-desktop-app-testing/KS-Windows-Remote-connection.png" width="90%" alt="Remote connection in Katalon">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/introduction-desktop-app-testing/KS-Windows-Remote-connection-2.png" width="90%" alt="Remote connection in Katalon">
 
 **Next step:**
 
