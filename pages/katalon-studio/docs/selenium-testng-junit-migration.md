@@ -115,7 +115,7 @@ TestNG/JUnit Keywords Plugin offers 3 built-in keywords to help you run TestNG/J
 </details>
 
 
-<details><summary><code>runJUnitTestCases</code></summary>
+<details><summary><code>runJUnitTestClasses</code></summary>
 
 **Syntax**: `runJUnitTestClasses(List TestClasses)`
 
