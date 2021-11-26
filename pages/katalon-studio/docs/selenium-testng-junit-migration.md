@@ -207,4 +207,6 @@ To migrate Selenium/TestNG/JUnit scripts to a Katalon Studio project, do as foll
 > 
 > For real-time monitoring and better reporting capabilities, consider integrating your project with Katalon TestOps. See also [Upload Test Results to Katalon TestOps from Katalon Studio](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html).
 
+## See also
 
+* [Import Selenium IDE version 3 projects](https://docs.katalon.com/katalon-studio/docs/import-selenium-ide.html#import-a-selenium-ide-project)
