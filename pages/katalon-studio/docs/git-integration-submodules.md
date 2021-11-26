@@ -11,7 +11,7 @@ This tutorial shows you how to use the Git submodule feature to integrate Test A
 
 > You can download the sample project here on our Github repository: [Healthcare Tests](https://github.com/katalon-studio-samples/healthcare-tests).
 
-In our example, we incorporate an Excel-related keyword library hosted on Github into our project as a Git submodule. We then update the submodule with the latest changes, make some local changes to the library, and push the library to the remote repository.
+In our example, we incorporate a keyword library hosted on Github into our project as a Git submodule. We then update the submodule with the latest changes, make some local changes to the library, and push the library to the remote repository.
 
 > **Requirements**:
 >
@@ -50,7 +50,7 @@ healthcare-tests/
 └── thumbnail@2x.png
 ```
 
-We want to add an Excel custom keyword library to the `Keywords` folder as a Git submodule.
+We want to add a custom keyword library to the `Keywords` folder as a Git submodule.
 
 Follow these steps:
 
