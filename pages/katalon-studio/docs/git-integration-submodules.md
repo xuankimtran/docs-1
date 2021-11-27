@@ -25,7 +25,10 @@ In our example, we want to incorporate a keyword package hosted on Github into o
 
 The structure of our test project repository is as follows:
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration-submodules/KS-Test-Explorer.png" alt="Test project repository in Test Explorer" width=70%>
+<a class="pop">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration-submodules/KS-Test-Explorer.png" alt="Test project repository in Test Explorer" width=30%>
+</a>
+<p style="text-align: center;"><em>Click the image to enlarge</em></p>
 
 The content of the custom keyword package on Github is as follows:
 
