@@ -1,7 +1,7 @@
 ---
 title: "Using Git Submodules to share Test Artifacts"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/git-integration.html
+permalink: katalon-studio/docs/git-integration-submodule.html
 description:
 ---
 

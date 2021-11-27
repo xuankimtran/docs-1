@@ -1077,6 +1077,8 @@ items:
                 url: /katalon-studio/docs/git-integration.html
               - title: "Git Integration Authentication with SSH Keys"
                 url: /katalon-studio/docs/git-integration-authentication.html
+              - title: "Using Git Submodules to share Test Artifacts"
+                url: /katalon-studio/docs/git-integration-submodule.html
           - title: "Slack Integration"
             url: /katalon-studio/docs/slack-plugin-integration.html
           - title: "Kobiton Integration"
