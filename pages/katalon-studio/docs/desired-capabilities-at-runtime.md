@@ -88,10 +88,10 @@ The following example demonstrates how to override Chrome window-sized 1200x600 
    import com.kms.katalon.core.configuration.RunConfiguration
    RunConfiguration.setWebDriverPreferencesProperty("args", ["window-size=100,100"])
    ```
+4. Continue writing the script or use Web Spy/Record Utility to complete your test case.
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-override-in-run-time/KS-DC-windows-100x100-chrome.png" width="70%" alt="DC at test script">
 
-4.  Run the test with Chrome.
-
-   <img src="url" width="70%" alt="DC at test script">
+5.  Run the test with Chrome.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-override-in-run-time/override-crop5-highlighted.png" width="70%" alt="Set DC in project settings">
 
