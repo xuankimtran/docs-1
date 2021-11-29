@@ -5,15 +5,18 @@ permalink: katalon-studio/docs/test-case-management-with-tags.html
 
 description: 
 ---
-**Easily manipulate tag properties for better test case management**
 
-- Utilize existing tag values, separate tag tokens by comma or semicolon
--  View all tags in the project
-- Easily append existing tags to test case without typo mistakes
+To manage test cases better in Katalon Studio, you can manipulate tag properties by utilizing the existing tag values. You can also view all tags in the project and save your time by appending existing tags to test cases.
 
-**Append & manage tags**
+This document shows you how to append and manage tags, search for test cases with multiple tags, and execute test cases with certain tags in console mode.
 
-Open a test case > Properties > input tag values; separate them by colon or semi-colon if applicable.
+## Append and Manage Tags
+
+To append and manage tags, do as follows:
+
+1. Open your desired test case.
+2. Switch to the **Properties** tab. In this tab, you can find detailed information of a test case, including all tags.
+3. Input your tag values, separate them by commas or semi-colons.
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-case-management-with-tags/Tags_3.png)
 
