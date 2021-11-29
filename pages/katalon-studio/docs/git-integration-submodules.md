@@ -9,11 +9,11 @@ While working on a Katalon Studio project, you may want to use test artifacts fr
 
 To maintain and update the shared resources easily, you can integrate them as Git submodules. Git submodules enable you to incorporate and track the version history of external resources. To learn more about Git submodules, you can refer to the official Git documentation: [Git Tools - Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules).
 
-This tutorial shows you how to use the Git submodule feature to incorporate test artifacts from an external source.
+This tutorial shows you how to use the Git submodule feature to incorporate test artifacts from an external resource.
 
 > You can download the sample project here on our Github repository: [Healthcare Tests](https://github.com/katalon-studio-samples/healthcare-tests).
 
-In our example, we want to incorporate a keyword package hosted on Github into our project as a Git submodule. We demonstrate the simple tasks when working with a Git submodule, including *add*, *update*, and *remove* the submodule on our test project.
+In our example, we want to incorporate a custom keyword package hosted on Github into our project as a Git submodule. We demonstrate the simple tasks when working with a Git submodule, including *add*, *update*, and *remove* the submodule on our test project.
 
 > **Requirements**:
 >
@@ -51,7 +51,6 @@ Follow these steps:
     ```bash
     # Add the keyword repository from remote as a submodule
     $ git submodule add https://github.com/<username>/mykeywords.git
-
     ```
 
 3. Check the status of the project repository with the ```git status``` command.
@@ -73,7 +72,7 @@ Follow these steps:
 
 4. Add and commit the changes.
 
-    Once the submodule is added to the main repository, you can track the changes of the submodule like a normal repository. Here we track the submodule by adding and committing the changes.
+    Once the submodule is added to the main repository, you can track the changes of the submodule like in a normal repository. Here we track the submodule by adding and committing the changes.
 
     ```bash
     $ git add .
@@ -151,9 +150,9 @@ Follow these steps:
     $ cd healthcare-tests/Keywords
     ```
 
-2. Remove the references to the submodule.
+2. Remove the references to the submodule and the submodule folder.
 
-    Here we remove all the references to the keyword package `mykeywords`.
+    Here we remove all the references to the keyword package `mykeywords` and the `mykeywords` folder.
 
     ```bash
     # Remove the reference in the .git/config file
@@ -171,6 +170,8 @@ Follow these steps:
     ```
 
 4. Verify that the custom keyword package is removed. Open the project in Katalon Studio, from the main toolbar, select **Project > Refresh**.
+
+    Katalon Studio should display that the custom keyword package is removed.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration-submodules/KS-Keywords-removed-package.png" alt="Keyword package removed" width=70%>
 
