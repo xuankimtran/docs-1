@@ -45,7 +45,7 @@ Follow these steps:
 
     The report summary includes some information about the Test Suite, including the number of Test Cases of different statuses.
 
-    In our case, we executed the Test Suite with 4 Test Cases; 3 Test Cases passed, and 1 Test Case contains an error.
+    In our case, we executed the Test Suite with four Test Cases; three Test Cases passed, and one Test Case contains an error.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-view-and-analyze-test-suite-reports/KS-Test-Suite-Report-Summary.png" width=70% alt="Test Suite Summary">
 
