@@ -64,7 +64,7 @@ After installing WinAppDriver and enabling **Developer Mode**, to configure WinA
 > 
 > * The test runner machine can be Windows, macOS or Linux.
 
-While building your test script, make sure to have the `WinAppDriver URL` point to the publish IP address of the remote test machine. In the above example, it should be: `http://192.168.37.95:4723/`.
+While building your test script, make sure to have the `WinAppDriver URL` point to the public IP address of the remote test machine. In the above example, it should be: `http://192.168.37.95:4723/`.
 
 The application file path is the absolute path to the `Windows Executable File (*.exe)` file of the remote test machine.
 
