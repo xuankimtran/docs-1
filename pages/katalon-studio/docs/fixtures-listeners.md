@@ -116,7 +116,7 @@ By default, the **SetUp** and **TearDown** methods are not triggered even if the
 * You can't see setUp and tearDown executed reports from generated Test Suite report. You can only see **setUpTestCase** and **tearDownTestCase** in generated Test Suite report.
 * Test Listeners is always triggered first if you define both Test Listeners and activate Setup/ Teardown methods simultaneously.
 
-	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/setupteardown-for-test-suite-and-test-case/Screen-Shot-2018-01-05-at-14.24.23.png" alt="sample before test suite" width=70%>
+	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/setupteardown-for-test-suite-and-test-case/Screen-Shot-2018-01-05-at-14.24.23.png" alt="sample before test suite" width=100%>
 
 ### In Manual view
 
@@ -211,11 +211,11 @@ Test Listeners are the same as other test artifacts. You can perform all basic o
 
 1. In **Tests Explorer**, right-click on **Test Listeners** folder. Select **New > New Test Listener**.
 
-	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-listeners-test-hooks/image2017-12-5-103A353A3.png" alt="create new test listener" width=100%>
+	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-listeners-test-hooks/new-test-listener.png" alt="create new test listener" width=80%>
 
 2. The **New Test Listener** dialog appears with 4 options as below: 
 
-	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-listeners-test-hooks/image2017-12-5-103A353A38.png" alt="Test Listeners options" width=100%>
+	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-listeners-test-hooks/new-test-listener-dialog.png" alt="Test Listeners options" width=80%>
 
 	| Option | Description |
 	| --- | --- |
