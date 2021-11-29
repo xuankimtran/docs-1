@@ -195,7 +195,7 @@ To migrate Selenium/TestNG/JUnit scripts to a Katalon Studio project, do as foll
     </a>
     <p style="text-align: center;"><em>Click the gif to enlarge it</em></p>
 
-5. To reload the source code and resources from your your Selenium/TestNG/JUnit project, right-click the `Include` folder, then click **Refresh**.
+5. To reload the source code and resources from your Selenium/TestNG/JUnit project, right-click the `Include` folder, then click **Refresh**.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/Selenium-TestNG-Migration/KS-Selenium-Reload-source-code.png" width="322" alt="Reload TestNG source code and resoureces">
 
