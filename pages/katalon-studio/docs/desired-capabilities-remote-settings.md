@@ -3,6 +3,10 @@ title: "Set up Remote Server in Desired Capabilities"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/desired-capabilities-remote-settings.html 
 redirect_from:
+    - "/katalon-studio/docs/remote-desired-capabilities/"
+    - "/katalon-studio/docs/remote-desired-capabilities.html"
+    - "/display/KD/Remote+Desired+Capabilities/"
+    - "/display/KD/Remote%20Desired%20Capabilities/"
 description:
 ---
 

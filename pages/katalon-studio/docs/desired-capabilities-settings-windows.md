@@ -3,6 +3,7 @@ title: "Set up Desired Capabilities in Windows Desktop App Testing"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/desired-capabilities-settings-windows.html 
 redirect_from:
+    - "/katalon-studio/docs/windows-desired-capabilities.html"
 description:
 ---
 
