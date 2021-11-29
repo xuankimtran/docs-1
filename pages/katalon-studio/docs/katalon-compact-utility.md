@@ -45,7 +45,7 @@ To configure and use Katalon Compact Utility, you need to update the Desired Cap
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-compact-utility/capability.png" alt="element" width=80%>
 
-5. The **List Properties Builder** dialog appears. Click **Add** to create two elements as below:
+5. The **List Properties Builder** dialog appears. Click **Add** to create two elements as below. When you are done, click **OK** to save.
 
 	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-compact-utility/list-properties-builder.png" alt="list" width=80%>
     
@@ -76,7 +76,9 @@ To configure and use Katalon Compact Utility, you need to update the Desired Cap
 > * Open Chrome with the Profile you previously used to install Katalon Compact Utility. In the address bar, type `chrome://version` and press Enter.
 > * The line **Profile Path** displays the path to your active Profile. For example: `C:\Users\your_username\AppData\Local\Google\Chrome\User Data\your_profile_name`.
 
-6. Execute feature by default Chrome option.
+6. To save the Chrome configuration, click **Apply and Close**. 
+
+	You can now use the Spy, Record, and Smart Wait features with the default Chrome option.
 
 See also:
 
