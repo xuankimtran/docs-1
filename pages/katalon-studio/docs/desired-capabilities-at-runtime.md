@@ -21,7 +21,6 @@ import com.kms.katalon.core.configuration.RunConfiguration
 RunConfiguration.setWebDriverPreferencesProperty(<key>, <value>)
 ```
 
-## Example
 
 ### Example 1
 
