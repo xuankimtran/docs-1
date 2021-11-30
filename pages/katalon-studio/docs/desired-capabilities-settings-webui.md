@@ -37,14 +37,7 @@ Belows are some common use cases of the desired capabilities for Chrome in Katal
    <img src="url" width="70%" alt="Maximize in Chrome">
 
 
-2. To disable notification bars : `--disable-infobars`
-
-   ```groovy
-   {"CHROME_DRIVER":{"args":["--disable-infobars"]}}
-   ```
-   <img src="url" width="70%" alt="Disable infobars in Chrome">
-
-3. To start Chrome in incognito (private) mode : `--incognito`
+2. To start Chrome in incognito (private) mode : `--incognito`
 
    ```groovy
    {"CHROME_DRIVER":{"args":["--incognito"]}}
@@ -52,7 +45,7 @@ Belows are some common use cases of the desired capabilities for Chrome in Katal
    ```
    <img src="url" width="70%" alt="Open incognito in Chrome">
 
-4. You can also combine many desired capabilites for starting a browser as follows:
+3. You can also combine many desired capabilites for starting a browser as follows:
 
    ```groovy
    {"CHROME_DRIVER":{"args":["--start-maximized","--disable-infobars","--incognito"]}}

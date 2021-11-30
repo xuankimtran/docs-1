@@ -12,7 +12,7 @@ description:
 ---
 
 Desired capabilities configured at project settings are applied at the project level. You can also apply desired capabilities at the test case level by passing desired capabilities to the test script.
-## Pass Desired Capabilities at Runtime
+## Pass Desired Capabilities at Runtime for WebUI Testing
 
 To apply desired capabilities at runtime, place the following sample code before the test script. This also overrides the desired capabilities predefined in project settings.
 
@@ -20,9 +20,7 @@ To apply desired capabilities at runtime, place the following sample code before
 import com.kms.katalon.core.configuration.RunConfiguration
 RunConfiguration.setWebDriverPreferencesProperty(<key>, <value>)
 ```
-
-
-### Example 1
+### Open Firefox browser in the private mode
 
 The following example demonstrates how to configure the desired capabilities at runtime to open a test case with in private mode in Firefox. 
 
@@ -46,55 +44,60 @@ The following example demonstrates how to configure the desired capabilities at 
 
    > Make sure to update the browser by clicking **Tools** > **Update WebDrivers > Choose browser**. 
 
-The test successfully opens a Firefox browser in private mode.
+   The test successfully opens a Firefox browser in private mode.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-override-in-run-time/KS-DC-Open-firefox-private.png" width="70%" alt="Open Firefox in private mode">
 
-### Example 2
+### Override desired capabilities in project settings 
 
 Suppose you want to override desired capabilities pre-configured in project settings, you can use the above sample code in the test script.
 
-The following example demonstrates how to override Chrome window-sized 1200x600 and run the test in Chrome window-sized 100x100 instead.
+The following example demonstrates how to override Chrome window-sized 1200x600 and run the test with Chrome window-sized 100x100 in the private mode instead.
 
-1. Go to **Project > Setting > Desired Capabilities > Web UI > Chrome**.
+1. After defining the desired capabilities for Chrome window-sized 1200x600 in **Project > Setting > Desired Capabilities > Web UI > Chrome**, click **Apply and Close**.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-override-in-run-time/override-crop0.png" width="70%" alt="Set DC in project settings">
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-override-in-run-time/override-crop0.png" width="70%" alt="Set DC in project settings">
 
-2. Enter the following value, then click **Apply and Close**.
+      <img src="https://github.com/Yen8298/docs-images/raw/da382cef70da7f464af14a6d7e8765c7cca37562/katalon-studio/docs/desired-capabilities-override-in-run-time/KS-DC-window-size-1200x600-settings.png" width="70%" alt="Set DC in project settings">
 
-      <table>
-   <thead>
-   <tr>
-      <th>Name</th>
-      <th>Type</th>
-      <th>Value</th>
-   </tr>
-   </thead>
-   <tbody>
-   <tr>
-      <td>args</td>
-      <td>List</td>
-      <td>window-size=1200,600</td>
-   </tr>
-   </tbody>
-   </table>
+2. To override the desired capabilities at runtime, open the test case in the script mode. Pass the desired capabilities to the same key with the capabilities defined in project settings. Then place the code before the test script. 
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-override-in-run-time/override-crop2.png" width="70%" alt="Set DC in project settings">
-
-3. To override the desired capabilities at runtime, open the test case in the script mode. Pass the `window-size=100,100` argument to the sample code as follows. Then place the code before the test script. 
+      Here, we want to override the `--window-size=1200,600` capabilities, we pass the `--window-size=100,100` and `--incognito` capabilities to the `args` key in the sample code as follows. Then place the code before the test script. 
+      
+      ```groovy
+      import com.kms.katalon.core.configuration.RunConfiguration
+      RunConfiguration.setWebDriverPreferencesProperty("args", ["--window-size=100,100","--incognito"])
+      ```
+3. Continue writing the script or use Web Spy/Record Utility to complete your test case.
    
-   ```groovy
-   import com.kms.katalon.core.configuration.RunConfiguration
-   RunConfiguration.setWebDriverPreferencesProperty("args", ["window-size=100,100"])
-   ```
-4. Continue writing the script or use Web Spy/Record Utility to complete your test case.
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-override-in-run-time/KS-DC-windows-100x100-chrome.png" width="70%" alt="DC at test script">
+      <img src="https://github.com/Yen8298/docs-images/raw/master/katalon-studio/docs/desired-capabilities-override-in-run-time/KS-DC-window-sized-100x100-incognito-runtime.png" width="70%" alt="DC at test script">
 
-5.  Run the test with Chrome.
+4.  Run the test with Chrome.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-override-in-run-time/override-crop5-highlighted.png" width="70%" alt="Set DC in project settings">
+      <img src="https://github.com/Yen8298/docs-images/raw/master/katalon-studio/docs/desired-capabilities-override-in-run-time/KS-DC-Chrome-windows-100x100-incognito-run.png" width="70%" alt="Set DC in project settings">
 
-The test passes successfully with Chrome window-size 100x100 (overriding Chrome window-size 1200x600).
+      The test successfully opens a Chrome window-size 100x100 in the private mode (overriding Chrome window-size 1200x600).
+## Pass Desired Capabilities at Runtime for Remote execution
+
+To apply desired capabilities at runtime, place the following sample code before the test script. This also overrides the desired capabilities predefined in project settings.
+
+```groovy
+import com.kms.katalon.core.configuration.RunConfiguration
+RunConfiguration.setDriverPreferencesProperty('Remote',  capsName , capsValue)  
+
+```
+
+For example, we want to set remote execution environment as Windows 10, enter the following sample code before the test script:
+
+```groovy
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.configuration.RunConfiguration
+
+RunConfiguration.setDriverPreferencesProperty('Remote', 'os', 'Windows')  
+RunConfiguration.setDriverPreferencesProperty('Remote', 'os_version', '10')  
+
+WebUI.openBrowser('google.com')
+```
 
 
 **References:**
