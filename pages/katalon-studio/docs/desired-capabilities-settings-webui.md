@@ -57,7 +57,7 @@ Belows are some common use cases of the desired capabilities for Chrome in Katal
    {"CHROME_DRIVER":{"args":["--start-maximized"]}}
 
    ```
-   <img src="url" width="70%" alt="Maximize in Chrome">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/KS-DC-Start-chrome-maximized.png" width="70%" alt="Maximize in Chrome">
 
 
 2. To start Chrome in incognito (private) mode. Click **Add** on the command toolbar, then type in the following value:
@@ -83,7 +83,7 @@ Belows are some common use cases of the desired capabilities for Chrome in Katal
    {"CHROME_DRIVER":{"args":["--incognito"]}}
 
    ```
-   <img src="url" width="70%" alt="Open incognito in Chrome">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/KS-DC-Start-Chrome-incognito.png" width="70%" alt="Open Chrome in incognito">
 
 3. You can also combine many desired capabilites for starting a browser as follows:
 
@@ -108,7 +108,7 @@ Belows are some common use cases of the desired capabilities for Chrome in Katal
    {"CHROME_DRIVER":{"args":["--start-maximized","--incognito"]}}
 
    ```
-   <img src="url" width="70%" alt="Open incognito in Chrome">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/KS-DC-start-chrome-incognito-maximized.png" width="70%" alt="Open Chrome maximized in incognito">
 
 > To find other Chrome arguments, you can refer to Peter Beverloo personal weblog here: [List of Chromium Command Line Switches](https://peter.sh/experiments/chromium-command-line-switches/).
 
@@ -129,7 +129,7 @@ To define Firefox desired capabilities in Katalon Studio, follow these steps:
 2. Click **Add** to create a key called `moz:firefoxOptions`. 
 3. Have your capabilities added inside the `moz:firefoxOptions` key.
 
-   <img src="url" width="70%" alt="Create DC for FireFox">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/KS-DC-firefoxOptions-Key.png" width="70%" alt="Create DC for FireFox">
 
    To learn more about the use of `moz:firefoxOptions` key, you can refer to the Mozilla developer document here: [firefoxOptions](https://developer.mozilla.org/en-US/docs/Web/WebDriver/Capabilities/firefoxOptions).
 
@@ -183,7 +183,7 @@ Belows are some common use cases of the desired capabilities for Firefox in Kata
    {"FIREFOX_DRIVER":{"moz:firefoxOptions":{"args":["--private","--devtools"]}}}
    ```
 
-   <img src="url" width="70%" alt="Open Firefox with devtools in the private mode">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/KS-DC-OPEN-private-devtools-firefox.png" width="70%" alt="Open Firefox with devtools in the private mode">
 
 
 2. Start Firefox at a default page. To do so, click **Add** on the command toolbar, then input the following values:
@@ -252,7 +252,7 @@ Belows are some common use cases of the desired capabilities for Firefox in Kata
     {"FIREFOX_DRIVER":{"moz:firefoxOptions":{"prefs":{"browser.startup.homepage":"https://www.google.com/"}}}}
     ```
 
-   <img src="url" width="70%" alt="Create DC for FireFox">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/KS-DC-Open-startup-default-page-firefox.png" width="70%" alt="Start Firefox with default startup page">
 
 3. You can also combine many preferences for the test execution. For example, we want to ownload .html files automatically to specified folders. Click **Add** in the command toolbar, input the following values:
 
@@ -341,7 +341,7 @@ Belows are some common use cases of the desired capabilities for Firefox in Kata
    <tr>
       <td>browser.helperApps.neverAsk.saveToDisk</td>
       <td>String</td>
-      <td>text/html(*)</td>       
+      <td>text/html(*)</td>
    </tr>
    </tbody>
    </table>
@@ -352,16 +352,17 @@ Belows are some common use cases of the desired capabilities for Firefox in Kata
    {"FIREFOX_DRIVER":{"moz:firefoxOptions":{"prefs":{"browser.download.folderList":2.0,"browser.helperApps.alwaysAsk.force":false,"browser.download.manager.showWhenStarting":false,"browser.download.dir":"C:\\Downloads","browser.download.downloadDir":"C:\\Downloads","browser.download.defaultFolder":"C:\\Downloads","browser.helperApps.neverAsk.saveToDisk":"text/html"}}}}
    ```
 
-   <img src="url" width="70%" alt="Download HTML file automatically to a folder">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/KS-DC-Download-HTML-file-automatically.png" width="70%" alt="Download HTML file automatically to a folder">
 
 
 ### Internet Explorer
 
-Internet Explorer driver supports some important capabilities which can be used to smooth execution of test on Internet Explorer. Some of these capabilities help us to disable JavaScripts, ignore the security domain setting for IE, persistent hovering, require window focus etc. These capabilities ease the way the for automation testing using Selenium Web Driver on Internet Explorer. More details on the Internet Explorer can be found [here](https://code.google.com/p/selenium/wiki/DesiredCapabilities#IE_specific).
+Internet Explorer driver supports some important capabilities which can be used to smooth execution on Internet Explorer, for example, disable JavaScripts, ignore the security domain setting for IE, persistent hovering, require window focus. These capabilities ease the way the for automation testing using Selenium Web Driver on Internet Explorer. More details on the Internet Explorer can be found [here](https://code.google.com/p/selenium/wiki/DesiredCapabilities#IE_specific).
 
 The most common use of Internet Explorer desired capabilities is to configure Internet Explorer without having to complete the instructions from this [page](/display/KD/Internet+Explorer+Configurations). You can pass some desired capabilities to Internet Explorer so you don't need to configure your IE anymore.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-internet-explorer/IE.png)
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-internet-explorer/IE.png" width="70%" alt="Set DC for IE">
 
 * **ignoreProtectedModeSettings** determines whether to  skip the protected mode check. If set, tests may become flaky or unresponsive, and browsers may hang. If not set, and protected mode settings are not the same for all zones, an exception will be thrown on driver construction. Only "best effort" support is provided when using this capability.
 * **ignoreZoomSetting** indicates whether to skip checking that the browser's zoom level is set to 100%. Value is set to false by default.
