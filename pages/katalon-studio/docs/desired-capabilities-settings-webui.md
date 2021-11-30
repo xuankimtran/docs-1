@@ -120,7 +120,7 @@ To get access to some useful capabilities for Firefox, follow these steps:
 2. On the address bar type in 'about:config'
 3. Search for 'browser' key
 
-   <img src="url" width="70%" alt="FireFox capabilities">
+   <img src="https://github.com/katalon-studio/docs-images/raw/d027a61c115c7330238389b4f226150aaf477f2e/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/KS-DC-capabilities-in-Firefox.png" width="70%" alt="FireFox capabilities">
 ### Set Firefox/Firefox (headless) desired capabilities in Katalon Studio 
 
 To define Firefox desired capabilities in Katalon Studio, follow these steps:
