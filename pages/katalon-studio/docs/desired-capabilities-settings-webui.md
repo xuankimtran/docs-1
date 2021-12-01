@@ -1,5 +1,5 @@
 ---
-title: "Set up Desired Capabilities in WebUI Testing" 
+title: "Set up Desired Capabilities for WebUI Testing" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/desired-capabilities-settings-webui.html 
 redirect_from:
@@ -28,6 +28,27 @@ This article shows you how to configure some common capabilities in WebUI testin
 
 To set Chrome/Chrome (headless) desired capabilities, go to **Project > Settings > Desired Capabilities > WebUI > Chrome/Chrome (headless)**. You can add, delete or clear (delete all) capabilities for Chrome/Chrome (headless) browser.
 
+Alternatively, you can also go to `<your test project location>\settings\internal`, open the settings files for Chrome/Chrome (headless) and edit the capabilities in the Groovy script.
+
+   <table>
+   <thead>
+   <tr>
+      <th>Driver</th>
+      <th>Settings file</th>
+   </tr>
+   </thead>
+   <tbody>
+   <tr>
+      <td>Chrome</td>
+      <td>com.kms.katalon.core.webui.chrome.properties</td>
+   </tr>
+   <tr>
+   <td>Chrome (Headless)</td>
+   <td>com.kms.katalon.core.webui.chrome (headless).properties</td>
+   </tr>
+   </tbody>
+   </table>
+
 To see all ChromeDriver supported capabilities, you can refer to the ChromeDriver document here: [Capabilities & ChromeOptions](https://chromedriver.chromium.org/capabilities#h.p_ID_102). 
 
 ### Common use cases
@@ -53,6 +74,8 @@ Belows are some common use cases of the desired capabilities for Chrome in Katal
    </tbody>
    </table>
 
+   Alternatively, you can copy and paste the following script in the settings files.
+ 
    ```groovy
    {"CHROME_DRIVER":{"args":["--start-maximized"]}}
 
@@ -79,6 +102,8 @@ Belows are some common use cases of the desired capabilities for Chrome in Katal
    </tbody>
    </table>
 
+   Alternatively, you can copy and paste the following script in the settings files.
+
    ```groovy
    {"CHROME_DRIVER":{"args":["--incognito"]}}
 
@@ -103,6 +128,8 @@ Belows are some common use cases of the desired capabilities for Chrome in Katal
    </tr>
    </tbody>
    </table>
+
+   Alternatively, you can copy and paste the following script in the settings files.
 
    ```groovy
    {"CHROME_DRIVER":{"args":["--start-maximized","--incognito"]}}
@@ -133,6 +160,26 @@ To define Firefox desired capabilities in Katalon Studio, follow these steps:
 
    To learn more about the use of `moz:firefoxOptions` key, you can refer to the Mozilla developer document here: [firefoxOptions](https://developer.mozilla.org/en-US/docs/Web/WebDriver/Capabilities/firefoxOptions).
 
+   Alternatively, you can also go to `<your test project location>\settings\internal`, open the settings files for Firefox/Firefox (headless) and edit the capabilities in the Groovy script.
+
+   <table>
+   <thead>
+   <tr>
+      <th>Driver</th>
+      <th>Settings file</th>
+   </tr>
+   </thead>
+   <tbody>
+   <tr>
+      <td>Firefox</td>
+      <td>com.kms.katalon.core.webui.firefox.properties</td>
+   </tr>
+   <tr>
+   <td>Firefox (Headless)</td>
+   <td>com.kms.katalon.core.webui.firefox (headless).properties</td>
+   </tr>
+   </tbody>
+   </table>
 ### Common use cases
 
 Belows are some common use cases of the desired capabilities for Firefox in Katalon Studio:
@@ -154,7 +201,7 @@ Belows are some common use cases of the desired capabilities for Firefox in Kata
    <tr>
       <td>moz:firefoxOptions</td>
       <td>Dictionary</td>
-      <td>Click More (...). In the pop-up Dictionary Property Builder dialog, click Add, then input values from the Table 2.</td>
+      <td>Click More (...). In the pop-up <strong>Dictionary Property Builder</strong> dialog, click <strong>Add</strong>, then input values from the Table 2.</td>
    </tr>
    </tbody>
    </table>
@@ -178,6 +225,8 @@ Belows are some common use cases of the desired capabilities for Firefox in Kata
    </tr>
    </tbody>
    </table>
+
+   Alternatively, you can copy and paste the following script in the settings files.
 
    ```groovy
    {"FIREFOX_DRIVER":{"moz:firefoxOptions":{"args":["--private","--devtools"]}}}
@@ -203,7 +252,7 @@ Belows are some common use cases of the desired capabilities for Firefox in Kata
    <tr>
       <td>moz:firefoxOptions</td>
       <td>Dictionary</td>
-      <td>Click More (...). In the pop-up Dictionary Property Builder dialog, click Add, then input values from the Table 2.</td>
+      <td>Click More (...). In the pop-up <strong>Dictionary Property Builder</strong> dialog, click <strong>Add</strong>, then input values from the Table 2.</td>
    </tr>
    </tbody>
    </table>
@@ -223,7 +272,7 @@ Belows are some common use cases of the desired capabilities for Firefox in Kata
    <tr>
       <td>prefs</td>
       <td>Dictionary</td>
-      <td>Click More (...). In the pop-up Dictionary Property Builder dialog, click Add, then input values from the Table 3.</td>
+      <td>Click More (...). In the pop-up <strong>Dictionary Property Builder</strong> dialog, click <strong>Add</strong>, then input values from the Table 3.</td>
    </tr>
    </tbody>
    </table>
@@ -248,13 +297,15 @@ Belows are some common use cases of the desired capabilities for Firefox in Kata
    </tbody>
    </table>
 
+   Alternatively, you can copy and paste the following script in the settings files.
+
     ```groovy
     {"FIREFOX_DRIVER":{"moz:firefoxOptions":{"prefs":{"browser.startup.homepage":"https://www.google.com/"}}}}
     ```
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/KS-DC-Open-startup-default-page-firefox.png" width="70%" alt="Start Firefox with default startup page">
 
-3. You can also combine many preferences for the test execution. For example, we want to ownload .html files automatically to specified folders. Click **Add** in the command toolbar, input the following values:
+3. Download files to specified folders. Here, we want to download .html files to the `C:\Downloads` folder. To do so, click **Add** in the command toolbar, input the following values:
 
    <table>
    <thead>
@@ -271,7 +322,7 @@ Belows are some common use cases of the desired capabilities for Firefox in Kata
    <tr>
       <td>moz:firefoxOptions</td>
       <td>Dictionary</td>
-      <td>Click More (...). In the pop-up Dictionary Property Builder dialog, click Add, then input values from the Table 2.</td>
+      <td>Click More (...). In the pop-up <strong>Dictionary Property Builder<strong> dialog, click <strong>Add</strong>, then input values from the Table 2.</td>
    </tr>
    </tbody>
    </table>
@@ -291,7 +342,7 @@ Belows are some common use cases of the desired capabilities for Firefox in Kata
    <tr>
       <td>prefs</td>
       <td>Dictionary</td>
-      <td>Click More (...). In the pop-up Dictionary Property Builder dialog, click Add, then input values from the Table 3.</td>
+      <td>Click More (...). In the pop-up <strong>Dictionary Property Builder</strong> dialog, click <strong>Add</strong>, then input values from the Table 3.</td>
    </tr>
    </tbody>
    </table>
@@ -326,27 +377,56 @@ Belows are some common use cases of the desired capabilities for Firefox in Kata
    <tr>
       <td>browser.download.dir</td>
       <td>String</td>
-      <td>C:\\Downloads</td>
+      <td>C:\Downloads</td>
    </tr>
    <tr>
       <td>browser.download.dir</td>
       <td>String</td>
-      <td>C:\\Downloads</td>
+      <td>C:\Downloads</td>
    </tr>
    <tr>
       <td>browser.download.defaultFolder</td>
       <td>String</td>
-      <td>C:\\Downloads</td>
+      <td>C:\Downloads</td>
    </tr>
    <tr>
       <td>browser.helperApps.neverAsk.saveToDisk</td>
       <td>String</td>
-      <td>text/html(*)</td>
+      <td>text/html</td>
    </tr>
    </tbody>
    </table>
 
-<em>(*)Browsers use the MIME type, not the file extension, to determine how to process a URL. You can find the list of common MIME types in the Mozilla developer document here: [Common MIME types](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Complete_list_of_MIME_types).</em>
+   Explanation of the settings:
+
+   <table>
+   <thead>
+   <tr>
+      <th>Settings</th>
+      <th>Description</th>
+   </tr>
+   </thead>
+   <tbody>
+   <tr>
+      <td>browser.download.folderList</td>
+      <td>Setting this preference as 2 tells Firefox to use the directory specified in the browser.download.dir preference as the download folder instead. <br>You can learn more about this preference in the MozillaZine document here: <a href="http://kb.mozillazine.org/About:config_entries" target="_blank" rel="noopener noreferrer">About:config entries</a>.</td>
+   </tr>
+   <tr>
+      <td>browser.download.manager.showWhenStarting</td>
+      <td>Setting this preference as false turns off the showing of download progress.</td>
+   </tr>
+   <tr>
+      <td>browser.download.dir</td>
+      <td>This preference is to set path for the downloading folder (ex: C:\Downloads).</td>
+   </tr>
+   <tr>
+      <td>browser.helperApps.neverAsk.saveToDisk</td>
+      <td>Tells Firefox to automatically download the files of the selected MIME types. The list of MIME types is comma-separated.<br>To find the MIME types of the files you want to download, you can refer to the Mozilla developer document here: <a href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Configuring_server_MIME_types#how_to_check_the_mime_type_of_received_content" target="_blank" rel="noopener noreferrer">Check MIME types</a>.</td>
+   </tr>
+   </tbody>
+   </table>
+
+   Alternatively, you can copy and paste the following script in the settings files.
 
    ```groovy
    {"FIREFOX_DRIVER":{"moz:firefoxOptions":{"prefs":{"browser.download.folderList":2.0,"browser.helperApps.alwaysAsk.force":false,"browser.download.manager.showWhenStarting":false,"browser.download.dir":"C:\\Downloads","browser.download.downloadDir":"C:\\Downloads","browser.download.defaultFolder":"C:\\Downloads","browser.helperApps.neverAsk.saveToDisk":"text/html"}}}}
@@ -355,23 +435,102 @@ Belows are some common use cases of the desired capabilities for Firefox in Kata
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/KS-DC-Download-HTML-file-automatically.png" width="70%" alt="Download HTML file automatically to a folder">
 
 
-### Internet Explorer
+## Internet Explorer
 
-Internet Explorer driver supports some important capabilities which can be used to smooth execution on Internet Explorer, for example, disable JavaScripts, ignore the security domain setting for IE, persistent hovering, require window focus. These capabilities ease the way the for automation testing using Selenium Web Driver on Internet Explorer. More details on the Internet Explorer can be found [here](https://code.google.com/p/selenium/wiki/DesiredCapabilities#IE_specific).
+Internet Explorer driver supports some important capabilities which can be used to smooth execution on Internet Explorer. These capabilities ease the way the for automation testing using Selenium WebDriver on Internet Explorer. You can learn more about supported IE capabilites here: [IE specific](https://github.com/SeleniumHQ/selenium/wiki/DesiredCapabilities#ie-specific).  
 
-The most common use of Internet Explorer desired capabilities is to configure Internet Explorer without having to complete the instructions from this [page](/display/KD/Internet+Explorer+Configurations). You can pass some desired capabilities to Internet Explorer so you don't need to configure your IE anymore.
+### Set desired capabilities for IE in Katalon Studio
 
+To set desired capabilities for IE, go to **Project > Settings > Desired Capabilities > WebUI > IE**.
+
+Alternatively, you can also go to `<your test project location>\settings\internal`, open the settings files for Internet Explorer and edit the capabilities in the Groovy script.
+
+   <table>
+   <thead>
+   <tr>
+      <th>Driver</th>
+      <th>Settings file</th>
+   </tr>
+   </thead>
+   <tbody>
+   <tr>
+      <td>Internet Explorer</td>
+      <td>com.kms.katalon.core.webui.ie.properties</td>
+   </tr>
+   </tbody>
+   </table>
+
+### Common use cases
+
+The most common use of Internet Explorer desired capabilities is to configure Internet Explorer for automation testing. To do so, click **Add** on the common toolbar, input the following values:
+
+> If you want to configure Internet Explorer globaly, you can refer to this document: [Internet Explorer Configurations](https://docs.katalon.com/katalon-studio/docs/internet-explorer-configurations.html).
+
+   <table>
+   <thead>
+   <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Value</th>
+   </tr>
+   </thead>
+   <tbody>
+   <tr>
+      <td>ignoreProtectedModeSettings</td>
+      <td>Boolean</td>
+      <td>True</td>
+   </tr>
+   <tr>
+      <td>ignoreZoomSetting</td>
+      <td>Boolean</td>
+      <td>True</td>
+   </tr>
+   <tr>
+      <td>enablePersistentHover</td>
+      <td>Boolean</td>
+      <td>false</td>
+   </tr>
+      <td>requireWindowFocus</td>
+      <td>Boolean</td>
+      <td>false</td>
+   </tr>
+   </tbody>
+   </table>
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-internet-explorer/IE.png" width="70%" alt="Set DC for IE">
 
-* **ignoreProtectedModeSettings** determines whether to  skip the protected mode check. If set, tests may become flaky or unresponsive, and browsers may hang. If not set, and protected mode settings are not the same for all zones, an exception will be thrown on driver construction. Only "best effort" support is provided when using this capability.
-* **ignoreZoomSetting** indicates whether to skip checking that the browser's zoom level is set to 100%. Value is set to false by default.
-* **enablePersistentHover** determines whether persistent hovering is enabled (true by default). Persistent hovering is achieved by continuously firing mouse over events at the last location the mouse cursor has been moved to.
-* **requireWindowFocus** determines whether to require the IE window to focus before performing any user interaction operations (mouse or keyboard events). This capability is false by default but delivers much more accurate native events interactions.
+   Explanation of the settings:
+
+   <table>
+   <thead>
+   <tr>
+      <th>Settings</th>
+      <th>Description</th>
+   </tr>
+   </thead>
+   <tbody>
+   <tr>
+      <td>ignoreProtectedModeSettings</td>
+      <td>This capability determines whether to skip the protected mode check. If set, tests may become flaky or unresponsive, and browsers may hang. <br>If not set, and protected mode settings are not the same for all zones, an exception will be thrown on driver construction. Only "best effort" support is provided when using this capability.</td>
+   </tr>
+   <tr>
+      <td>ignoreZoomSetting</td>
+      <td>This capability indicates whether to skip checking that the browser's zoom level is set to 100%. Value is set to false by default.</td>
+   </tr>
+   <tr>
+      <td>enablePersistentHover</td>
+      <td>This capability determines whether persistent hovering is enabled (true by default).<br>Persistent hovering is achieved by continuously firing mouse over events at the last location the mouse cursor has been moved to.</td>
+   </tr>
+   <tr>
+      <td>requireWindowFocus</td>
+      <td>This capability determines whether to require the IE window to focus before performing any user interaction operations (mouse or keyboard events).<br>This capability is false by default but delivers much more accurate native events interactions.</td>
+   </tr>
+   </tbody>
+   </table>
 
 ## Location of Desired Capabilities files
 
-Defined configuration settings are saved in separated files under the "**<your test project location>\\settings\\internal**" location (or "**<your test project location>\\settings\\external\\execution**" in case of custom execution), as below:
+You can find the settings files for each environment in the `<your test project location>\settings\internal` folder. The files for each driver are named as follows:
 
 | Driver | Settings' file |
 | --- | --- |
