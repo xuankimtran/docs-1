@@ -28,7 +28,7 @@ This article shows you how to configure some common capabilities in WebUI testin
 
 To set Chrome/Chrome (headless) desired capabilities, go to **Project > Settings > Desired Capabilities > WebUI > Chrome/Chrome (headless)**. You can add, delete or clear (delete all) capabilities for Chrome/Chrome (headless) browser.
 
-Alternatively, you can also go to `<your test project location>\settings\internal`, open the settings files for Chrome/Chrome (headless) and edit the capabilities in the Groovy script.
+Alternatively, you can also go to `<your test project location>\settings\internal`, open the settings files for Chrome/Chrome (headless), and edit the capabilities in the Groovy script.
 
    <table>
    <thead>
@@ -53,7 +53,7 @@ To see all ChromeDriver supported capabilities, you can refer to the ChromeDrive
 
 ### Common use cases
 
-Belows are some common use cases of the desired capabilities for Chrome in Katalon Studio:
+Below are some common use cases of the desired capabilities for Chrome in Katalon Studio:
 
 1. To start Chrome maximized by default. Click **Add** on the command toolbar, then type in the following value:
 
@@ -74,7 +74,7 @@ Belows are some common use cases of the desired capabilities for Chrome in Katal
    </tbody>
    </table>
 
-   Alternatively, you can copy and paste the following script in the settings files.
+   Alternatively, you can copy and paste the following script into the settings files.
  
    ```groovy
    {"CHROME_DRIVER":{"args":["--start-maximized"]}}
@@ -102,7 +102,7 @@ Belows are some common use cases of the desired capabilities for Chrome in Katal
    </tbody>
    </table>
 
-   Alternatively, you can copy and paste the following script in the settings files.
+   Alternatively, you can copy and paste the following script into the settings files.
 
    ```groovy
    {"CHROME_DRIVER":{"args":["--incognito"]}}
@@ -110,7 +110,7 @@ Belows are some common use cases of the desired capabilities for Chrome in Katal
    ```
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/KS-DC-Start-Chrome-incognito.png" width="70%" alt="Open Chrome in incognito">
 
-3. You can also combine many desired capabilites for starting a browser as follows:
+3. You can also combine many desired capabilities for starting a browser as follows:
 
    <table>
    <thead>
@@ -129,7 +129,7 @@ Belows are some common use cases of the desired capabilities for Chrome in Katal
    </tbody>
    </table>
 
-   Alternatively, you can copy and paste the following script in the settings files.
+   Alternatively, you can copy and paste the following script into the settings files.
 
    ```groovy
    {"CHROME_DRIVER":{"args":["--start-maximized","--incognito"]}}
@@ -137,14 +137,14 @@ Belows are some common use cases of the desired capabilities for Chrome in Katal
    ```
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/KS-DC-start-chrome-incognito-maximized.png" width="70%" alt="Open Chrome maximized in incognito">
 
-> To find other Chrome arguments, you can refer to Peter Beverloo personal weblog here: [List of Chromium Command Line Switches](https://peter.sh/experiments/chromium-command-line-switches/).
+> To find other Chrome arguments, you can refer to Peter Beverloo's personal weblog here: [List of Chromium Command Line Switches](https://peter.sh/experiments/chromium-command-line-switches/).
 
 ## Firefox/Firefox (headless)
 
 To get access to some useful capabilities for Firefox, follow these steps:
 
 1. Open Firefox browser
-2. On the address bar type in 'about:config'
+2. On the address bar, type `about:config`
 3. Search for 'browser' key
 
    <img src="https://github.com/katalon-studio/docs-images/raw/d027a61c115c7330238389b4f226150aaf477f2e/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/KS-DC-capabilities-in-Firefox.png" width="70%" alt="FireFox capabilities">
@@ -160,7 +160,7 @@ To define Firefox desired capabilities in Katalon Studio, follow these steps:
 
    To learn more about the use of `moz:firefoxOptions` key, you can refer to the Mozilla developer document here: [firefoxOptions](https://developer.mozilla.org/en-US/docs/Web/WebDriver/Capabilities/firefoxOptions).
 
-   Alternatively, you can also go to `<your test project location>\settings\internal`, open the settings files for Firefox/Firefox (headless) and edit the capabilities in the Groovy script.
+   Alternatively, you can also go to `<your test project location>\settings\internal`, open the settings files for Firefox/Firefox (headless), and edit the capabilities in the Groovy script.
 
    <table>
    <thead>
@@ -437,13 +437,13 @@ Belows are some common use cases of the desired capabilities for Firefox in Kata
 
 ## Internet Explorer
 
-Internet Explorer (IE) driver supports some important capabilities which can be used for smooth test execution. These capabilities ease the way the for automation testing using Selenium WebDriver on Internet Explorer. You can learn more about supported IE capabilites here: [IE specific](https://github.com/SeleniumHQ/selenium/wiki/DesiredCapabilities#ie-specific).  
+Internet Explorer (IE) driver supports some essential capabilities which can be used for smooth test execution. These capabilities ease the way for automation testing using Selenium WebDriver on Internet Explorer. You can learn more about supported IE capabilities here: [IE specific](https://github.com/SeleniumHQ/selenium/wiki/DesiredCapabilities#ie-specific).  
 
 ### Set desired capabilities for IE in Katalon Studio
 
 To set desired capabilities for IE, go to **Project > Settings > Desired Capabilities > WebUI > IE**.
 
-Alternatively, you can also go to `<your test project location>\settings\internal`, open the settings files for Internet Explorer and edit the capabilities in the Groovy script.
+Alternatively, you can also go to `<your test project location>\settings\internal`, open the settings files for Internet Explorer, and edit the capabilities in the Groovy script.
 
    <table>
    <thead>
@@ -464,7 +464,7 @@ Alternatively, you can also go to `<your test project location>\settings\interna
 
 The most common use of Internet Explorer desired capabilities is to configure Internet Explorer for automation testing. To do so, click **Add** on the common toolbar, input the following values:
 
-> If you want to configure Internet Explorer globaly, you can refer to this document: [Internet Explorer Configurations](https://docs.katalon.com/katalon-studio/docs/internet-explorer-configurations.html).
+> If you want to configure Internet Explorer globally, you can refer to this document: [Internet Explorer Configurations](https://docs.katalon.com/katalon-studio/docs/internet-explorer-configurations.html).
 
    <table>
    <thead>
@@ -511,7 +511,7 @@ The most common use of Internet Explorer desired capabilities is to configure In
    <tbody>
    <tr>
       <td>ignoreProtectedModeSettings</td>
-      <td>This capability determines whether to skip the protected mode check. If set, tests may become flaky or unresponsive, and browsers may hang. <br>If not set, and protected mode settings are not the same for all zones, an exception will be thrown on driver construction. Only "best effort" support is provided when using this capability.</td>
+      <td>This capability determines whether to skip the protected mode check. Enable this capabilities for smooth test execution with IE.</td>
    </tr>
    <tr>
       <td>ignoreZoomSetting</td>
@@ -519,11 +519,11 @@ The most common use of Internet Explorer desired capabilities is to configure In
    </tr>
    <tr>
       <td>enablePersistentHover</td>
-      <td>This capability determines whether persistent hovering is enabled (true by default).<br>Persistent hovering is achieved by continuously firing mouse over events at the last location the mouse cursor has been moved to.</td>
+      <td>This capability determines whether persistent hovering is enabled (true by default).<br>Persistent hovering is achieved by continuously firing the mouse over events at the last location where the mouse cursor has been moved to.</td>
    </tr>
    <tr>
       <td>requireWindowFocus</td>
-      <td>This capability determines whether to require the IE window to focus before performing any user interaction operations (mouse or keyboard events).<br>This capability is false by default but delivers much more accurate native events interactions.</td>
+      <td>This capability determines whether to require the IE window to focus before performing any user interaction operations (mouse or keyboard events).<br>This capability is false by default.</td>
    </tr>
    </tbody>
    </table>
