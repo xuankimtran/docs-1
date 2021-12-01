@@ -157,30 +157,25 @@ In the newly added property line, change the name into "spanish" for better reco
   2. Remote Server Type: Choose **Selenium**.
   3. Click **Add** on the command toolbar, then input the following values:
 
-      <table width="535">
+      <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Value</th>
+        </tr>
+      </thead>
       <tbody>
-      <tr>
-      <td style="text-align: center;" colspan="3"><strong>Table 1</strong></td>
-      </tr>
-      <tr>
-      <td><strong>Name</strong></td>
-      <td><strong>Type</strong></td>
-      <td><strong>Value</strong></td>
-      </tr>
-      <tr>
-      <td>browserName</td>
-      <td>string</td>
-      <td>chrome</td>
-      </tr>
-      <tr>
-      <td>
-      <div>
-      <div>goog:chromeOptions(*)</div>
-      </div>
-      </td>
-      <td>Dictionary(**)</td>
-      <td>Click <em>More</em> (...). In the pop-up <strong>Dictionary Property Builder</strong> dialog, click <strong>Add</strong>, then input values from the Table 2.</td>
-      </tr>
+        <tr>
+          <td>browserName</td>
+          <td>string</td>
+          <td>chrome</td>
+        </tr>
+        <tr>
+          <td>goog:chromeOptions(*)</td>
+          <td>Dictionary(**)</td>
+          <td>Click <em>More</em> (...). In the pop-up <strong>Dictionary Property Builder</strong> dialog, click <strong>Add</strong>, then input values from the Table 2.</td>
+        </tr>
       </tbody>
       </table>
       
@@ -188,49 +183,39 @@ In the newly added property line, change the name into "spanish" for better reco
       
       (**) <em> `Dictionary`: the data type permits you to input a collection of keys and values. You can learn more about this here: [Data types](https://docs.katalon.com/katalon-studio/docs/value-types.html).</em>
 
-        <table width="535">
-        <tbody>
+      <table>
+      <thead>
         <tr>
-        <td style="text-align: center;" colspan="3"><strong>Table 2</strong></td>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Value</th>
         </tr>
+      </thead>
+      <tbody>
         <tr>
-        <td><strong>Name</strong></td>
-        <td><strong>Type</strong></td>
-        <td><strong>Value</strong></td>
+          <td>prefs</td>
+          <td>Dictionary(**)</td>
+          <td>Click <em>More</em> (...). In the pop-up <strong>Dictionary Property Builder</strong> dialog, click <strong>Add</strong>, then input values from the Table 3.</td>
         </tr>
-        <tr>
-        <td>
-        <div>
-        <div>prefs</div>
-        </div>
-        </td>
-        <td>Dictionary</td>
-        <td>Click <em>More</em> (...). In the pop-up <strong>Dictionary Property Builder</strong> dialog, click <strong>Add</strong>, then input values from the Table 3.</td>
-        </tr>
-        </tbody>
-        </table>
+      </tbody>
+      </table>
 
-        <table width="535">
-        <tbody>
+      <table>
+      <thead>
         <tr>
-        <td style="text-align: center;" colspan="3"><strong>Table 3</strong></td>
+          <th>Name</th>
+          <th>Type</th>
+          <th>Value</th>
         </tr>
+      </thead>
+      <tbody>
         <tr>
-        <td><strong>Name</strong></td>
-        <td><strong>Type</strong></td>
-        <td><strong>Value</strong></td>
+          <td>intl.accept_languages(*)</td>
+          <td>String</td>
+          <td>es(**)</td>
         </tr>
-        <tr>
-        <td>
-        <div>
-        <div>intl.accept_languages(*)</div>
-        </div>
-        </td>
-        <td>String</td>
-        <td>es(**)</td>
-        </tr>
-        </tbody>
-        </table>
+      </tbody>
+      </table>
 
       (*) <em>`intl.accept_languages`: Support passing preference key to manipulate a page's language.</em>
       
