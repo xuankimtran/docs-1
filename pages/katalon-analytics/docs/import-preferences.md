@@ -8,17 +8,17 @@ description:
 
 In Katalon Studio, you can import Preferences configurations of another Katalon Studio instance to reuse. This function is useful when you download a new version of Katalon Studio or you want to reuse the Preferences configurations of your project team.
 
-To import Preferences, do as follows:
-
 > Tips:
 >
-> Before you import a Preferences, you might want to rename your Katalon Studio instance with its version number. For example, Katalon Studio 7.8.0.
+> If you have more than one version of Katalon Studio on your machine, you might want to rename them with their version numbers. For example, Katalon Studio 7.8.0.
 
-1. Open Katalon Studio, then go to **File > Import Settings**.
+To import Preferences, do as follows:
+
+1. Open Katalon Studio, then go to **File > Import Settings**. This action opens the **config** folder of your Katalon Studio instance.
    
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-preferences/import-settings.png" width=50% alt="import settings">
    
-4. Browse to the **config** folder of your preferred version. For example:
+2. Browse to the **config** folder of your preferred version. For example:
 
 * macOS:
 
@@ -27,6 +27,8 @@ To import Preferences, do as follows:
 * Windows:
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-preferences/import_3.PNG" width=100% alt="Browse to the Config folder in Windows">
+
+   You can also browse a **config** folder sent from other user.
 
 2. Click **Open**. A dialog might appear when the Preferences is successfully imported.
 
