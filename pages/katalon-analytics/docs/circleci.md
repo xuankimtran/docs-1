@@ -1,34 +1,44 @@
 ---
-title: "CircleCI Test Environment"
+title: "CircleCI Test Environments"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/circleci.html 
 description: 
 ---
-TestOps CI allows you to set up your test environment with CircleCI to schedule and execute tests remotely.
+In Katalon TestOps, you can set up a CircleCI Test Environment to schedule and execute tests remotely.
 
-## Prerequisites
+> Requirements:
+>
+> * You have created a CircleCI account with a Github account.
+> * You have forked your Project to your Repository associated with your GitHub account. You can also fork this sample project, [TestOps CircleCI sample](https://github.com/katalon-studio-samples/testops-circleci-sample) for testing.
+> * You have followed your Project in CircleCI.
 
-- You have created a CircleCI account with Github account;
-- You have forked [this project](https://github.com/katalon-studio-samples/testops-circleci-sample) to your repository associated with the account;
-- You have followed the above project in CircleCI.
+## Configure a CircleCI Test Environment
 
-## Configure CircleCI Test Environment
+Follow these steps:
 
-To create a new CircleCI test environment, in TestOps CI, go to **Test Environment** > **CircleCI**.
+1. Sign in to [Katalon TestOps](https://testops.katalon.io/login) and go to your Project.
+2. Go to **Configurations** > **Test Environments** > **CircleCI**.
+3. Click **Create CircleCI Test Environment**.
+4. Fill in the required information to connect to CircleCI.
+    * **Agent Name**: enter your Agent.
+    * **URL**: auto-filled (https://circleci.com).
+    * **Personal API Token**: enter your [CircleCI's API](https://circleci.com/account/api).
+    * **Katalon API Key**: enter your [Katalon API key](https://analytics.katalon.com/user/apikey).
 
-Fill in the required fields to connect to CircleCI.
+5. Click **Connect**.
 
-- **Agent Name**
-- **URL**: https://circleci.com
-- **Token**: your API in [CircleCI](https://circleci.com/account/api)
-- **API Key**: your API key in [Katalon TestOps](https://analytics.katalon.com/user/apikey)
+    The **Followed Project** and **Branch** sections appear after you have connected to CircleCI successfully.
 
-After connecting to CircleCI, select your project and branch which you have forked in the beginning.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/circleci-agent/create-circleci-page.png" width="" height="" alt="create circle ci page">
 
-Click the **Create** button to create a new CircleCI test enviroment.
+    > Notes:
+    >
+    > The Project you have followed in CircleCI and its Branch would automatically appear here.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/circleci-agent/1-connect.png" width="" height="">
+6. Click **Create**.
 
-After you have created your Circle test environment, it appears in the list as below.
+You have successfully created a CircleCI Test Environment. 
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/circleci-agent/2-list.png" width="" height="">
+Go to **Configurations** > **Test Environments** > **CircleCI** to see the list of CircleCI Test Environments.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/circleci-agent/circleci-agent.png" width="" height="" alt="circleci list">
