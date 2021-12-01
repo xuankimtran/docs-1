@@ -207,7 +207,7 @@ Members have no access to **TestOps Admin Console Pages**.
 
 To navigate to the Admin homepage:
 
-1. On the top right corner of a TestOps page, click on the *Settings* icon. In the dislayed **TestOps Admin** section, navigate to one of the TestOps Admin Console pages.
+1. On the top right corner of a TestOps page, click on the *Settings* icon. In the displayed **TestOps Admin** section, navigate to one of the TestOps Admin Console pages.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-navigation-doc/TO-TestOps-Admin-Pages.png"  width=30% alt="TestOps Admin Console pages">
 
