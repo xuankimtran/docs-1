@@ -146,7 +146,7 @@ This reference lists out common keyboard shortcuts and their actions in Katalon 
     <tbody>
         <tr>
             <td><kbd>Ctrl</kbd>+<kbd>C</kbd>/<kbd>X</kbd>/<kbd>V</kbd></td>
-            <td>Cut, copy, or paste</td>
+            <td>Cut / copy / paste</td>
         </tr>
         <tr>
             <td><kbd>Ctrl</kbd>+<kbd>Z</kbd></td>
