@@ -29,7 +29,7 @@ redirect_from:
 description: 
 ---
 
-Katalon Studio Preferences define default behaviors of Katalon Studio across projects. In Katalon Preferences, you can configure the below:
+Katalon Studio Preferences define default behaviors of Katalon Studio across projects. In Katalon Preferences, you can configure:
 
 - [Import Preferences](https://docs.katalon.com/katalon-studio/docs/import-preferences.html)
 - [Test Case Preferences](https://docs.katalon.com/katalon-studio/docs/test-case-preferences.html)
@@ -38,17 +38,25 @@ Katalon Studio Preferences define default behaviors of Katalon Studio across pro
 
 ## Katalon Preferences
 
-To configure Katalon general behaviors at startup, go to **Katalon Studio > Preferences > Katalon** from the menu. You can see the following options:
+To configure Katalon general behaviors at startup, from the main menu, go to **Katalon Studio > Preferences > Katalon**. 
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-preferences/KS-PREF-Katalon-preferences.png" width=80% alt="Katalon preferences">
+
+You can see the following options:
 
 <table>
 <thead>
   <tr>
     <th>Options</th>
     <th>Capabilities</th>
-    <th>Notes</th>
   </tr>
 </thead>
 <tbody>
+<tr>
+    <td>On the next starting application</td>
+    <td>This option allows you to <strong>Auto restore the previous session</strong> or <strong>Open a clean session</strong> when starting Katalon Studio.</td>
+    <td></td>
+  </tr>
   <tr>
     <td>Show Help at startup</td>
     <td>This option allows you to turn on/off the <strong>Help</strong> page at startup.</td>
@@ -56,13 +64,25 @@ To configure Katalon general behaviors at startup, go to **Katalon Studio > Pref
   </tr>
   <tr>
     <td>Automatically check for new version</td>
-    <td>This option allows Katalon to check for the latest Katalon version automatically.</td>
+    <td>This option allows Katalon Studio to check for the latest version automatically.</td>
     <td></td>
   </tr>
+</tbody>
+</table>
+
+You need an active Katalon Studio Enterprise license to disable these functions below:
+
+<table>
+<thead>
+  <tr>
+    <th>Options</th>
+    <th>Capabilities</th>
+  </tr>
+</thead>
+<tbody>
   <tr>
     <td>Allow usage tracking</td>
     <td>This option allows you to configure the usage tracked by Katalon Studio. <br>By default, Katalon Studio is allowed to collect errors, execution logs, and other information about your application use. <br>You can refer to this document: <a href="https://www.katalon.com/terms/katalon/privacy-policy/">Privacy Policy</a> for further details of our tracking.</td>
-    <td rowspan="3">To disable these functions, you need an active Katalon Studio Enterprise license. <br>You can refer to this document to learn more about activating licenses: <a href="https://docs.katalon.com/katalon-studio/docs/activate-license.html#activate-trial-license">Activate Katalon License.</a></td>
   </tr>
   <tr>
     <td>Received dynamic content notifications</td>
@@ -75,4 +95,4 @@ To configure Katalon general behaviors at startup, go to **Katalon Studio > Pref
 </tbody>
 </table>
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-preferences/KS-PREF-Katalon-preferences.png" width=70% alt="Katalon preferences">
+> To learn more about Katalon licenses, see [Types of Licenses](https://docs.katalon.com/katalon-studio/docs/license.html).
