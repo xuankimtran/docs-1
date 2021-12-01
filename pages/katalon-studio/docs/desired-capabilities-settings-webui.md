@@ -322,7 +322,7 @@ Belows are some common use cases of the desired capabilities for Firefox in Kata
    <tr>
       <td>moz:firefoxOptions</td>
       <td>Dictionary</td>
-      <td>Click More (...). In the pop-up <strong>Dictionary Property Builder<strong> dialog, click <strong>Add</strong>, then input values from the Table 2.</td>
+      <td>Click More (...). In the pop-up <strong>Dictionary Property Builder</strong> dialog, click <strong>Add</strong>, then input values from the Table 2.</td>
    </tr>
    </tbody>
    </table>
@@ -409,19 +409,19 @@ Belows are some common use cases of the desired capabilities for Firefox in Kata
    <tbody>
    <tr>
       <td>browser.download.folderList</td>
-      <td>Setting this preference as 2 tells Firefox to use the directory specified in the browser.download.dir preference as the download folder instead. <br>You can learn more about this preference in the MozillaZine document here: <a href="http://kb.mozillazine.org/About:config_entries" target="_blank" rel="noopener noreferrer">About:config entries</a>.</td>
+      <td>Setting this preference as <code>2</code> tells Firefox to use the directory specified in <code>browser.download.dir</code> as the download folder instead. <br>You can learn more about this preference in the MozillaZine document here: <a href="http://kb.mozillazine.org/About:config_entries" target="_blank" rel="noopener noreferrer">About:config entries</a>.</td>
    </tr>
    <tr>
       <td>browser.download.manager.showWhenStarting</td>
-      <td>Setting this preference as false turns off the showing of download progress.</td>
+      <td>Setting this preference as <code>False</code> turns off the showing of download progress.</td>
    </tr>
    <tr>
       <td>browser.download.dir</td>
-      <td>This preference is to set path for the downloading folder (ex: C:\Downloads).</td>
+      <td>This preference is to set path for the downloading folder, for example, <code>C:\Downloads</code>.</td>
    </tr>
    <tr>
       <td>browser.helperApps.neverAsk.saveToDisk</td>
-      <td>Tells Firefox to automatically download the files of the selected MIME types. The list of MIME types is comma-separated.<br>To find the MIME types of the files you want to download, you can refer to the Mozilla developer document here: <a href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Configuring_server_MIME_types#how_to_check_the_mime_type_of_received_content" target="_blank" rel="noopener noreferrer">Check MIME types</a>.</td>
+      <td>This preference tells Firefox to automatically download the files of the selected MIME types. The list of MIME types is comma-separated.<br>To find the MIME types of the files you want to download, you can refer to the Mozilla developer document here: <a href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Configuring_server_MIME_types#how_to_check_the_mime_type_of_received_content" target="_blank" rel="noopener noreferrer">Check MIME types</a>.</td>
    </tr>
    </tbody>
    </table>
@@ -437,7 +437,7 @@ Belows are some common use cases of the desired capabilities for Firefox in Kata
 
 ## Internet Explorer
 
-Internet Explorer driver supports some important capabilities which can be used to smooth execution on Internet Explorer. These capabilities ease the way the for automation testing using Selenium WebDriver on Internet Explorer. You can learn more about supported IE capabilites here: [IE specific](https://github.com/SeleniumHQ/selenium/wiki/DesiredCapabilities#ie-specific).  
+Internet Explorer (IE) driver supports some important capabilities which can be used for smooth test execution. These capabilities ease the way the for automation testing using Selenium WebDriver on Internet Explorer. You can learn more about supported IE capabilites here: [IE specific](https://github.com/SeleniumHQ/selenium/wiki/DesiredCapabilities#ie-specific).  
 
 ### Set desired capabilities for IE in Katalon Studio
 
@@ -497,7 +497,7 @@ The most common use of Internet Explorer desired capabilities is to configure In
    </tbody>
    </table>
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-internet-explorer/IE.png" width="70%" alt="Set DC for IE">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-internet-explorer/IE.png" width="70%" alt="Set DC for IE">
 
    Explanation of the settings:
 
