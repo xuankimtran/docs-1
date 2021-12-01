@@ -5,6 +5,7 @@ permalink: katalon-studio/docs/katalon-compact-utility.html
 redirect_from:
 description: 
 ---
+
 > Requirements:
 >
 > * Katalon Studio version 8.2.5 Beta onwards.
@@ -21,20 +22,6 @@ This article will show you how to install the extension, configure your Profile,
 > This utility is associated with your Chrome Profile, which means you can only have one active session at any given time.
 >
 > Hence, before executing, make sure you log out of all your Chrome sessions.
-
-## Known Issues
-
-When using the Katalon Compact Utility extension, you might find some differences with the Spy and the Recording function as bellow:
-
-* **Spy**: On the context menu, the **Capture Object** option is not available. To capture an object, use the combination of <Alt + `> keys on the keyboard instead. See also: [Spy Web Utility](https://docs.katalon.com/katalon-studio/docs/spy-web-utility.html).
-
-	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-web-utility/KS-Web-Spy-Capture-Object.png" width=100% alt="Capture element"> 
-
-* **Recording**: On the context menu, the **Katalon Studio** option, which supports adding Mouse Over and Verification Steps, is not available. To add Mouse Over and Verification Steps, click to add a test step, then change the keyword of that test step accordingly. See also: [Validate UI elements](https://docs.katalon.com/katalon-studio/docs/record-web-utility.html#validate-ui-elements).
-
-	<img class="pop" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-web-utility/validate-UI-elements.png" alt="Katalon Studio option" width="100%">
-
-	<p style="text-align:center;"><i>Click on the image to enlarge it.</i></p>
 
 ## Installing Katalon Compact Utility
 
@@ -93,6 +80,14 @@ To configure and use Katalon Compact Utility, you need to update the Desired Cap
 6. To save the Chrome configuration, click **Apply and Close**. 
 
 	You can now use the Spy, Record, and Smart Wait features with the default Chrome option.
+
+> Known Issues:
+> 
+> When using the Katalon Compact Utility extension, you might find some differences with the Spy and the Recording function as bellow:
+>
+> * **Spy**: On the context menu, the **Capture Object** option is not available. To capture an object, use the combination of <Alt + `> keys on the keyboard instead. See also: [Spy Web Utility](https://docs.katalon.com/katalon-studio/docs/spy-web-utility.html).
+>
+> * **Recording**: On the context menu, the **Katalon Studio** option, which supports adding Mouse Over and Verification Steps, is not available. To add Mouse Over and Verification Steps, click to add a test step, then change the keyword of that test step accordingly. See also: [Validate UI elements](https://docs.katalon.com/katalon-studio/docs/record-web-utility.html#validate-ui-elements).
 
 See also:
 
