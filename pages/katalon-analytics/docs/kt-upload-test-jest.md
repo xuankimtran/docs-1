@@ -5,58 +5,64 @@ permalink: katalon-analytics/docs/kt-upload-test-jest.html
 description: 
 ---
 
-We can submit results from the Jest test frameworks to Katalon TestOps. An example with the Jest test can be download from [here](https://github.com/katalon-studio/testops-report-js).
+You can submit Jest framework's test results to Katalon TestOps.
 
-On the **Visual Studio Code**, open a file Jest.
+> Notes:
+>
+> You can download a sample project [here](https://github.com/katalon-studio-samples/testops-report-sample-js) for upload testing via Jest.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jest/kt_vs_code_open_jest.png)
+Follow these steps:
 
-Open file "package.json".
+1. Open the Jest file in [Visual Studio Code](https://code.visualstudio.com).
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jest/kt_vs_code_open_package_json.png)
+     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jest/kt_vs_code_open_jest.png" width=100% alt="open jest in vsc"> 
 
-Type the command `npm install`, press **Enter**, and wait a few minutes for running.
+2. Open the *package.json* file.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jest/kt_vs_code_json_install.png)
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jest/kt_vs_code_open_package_json.png" width=100% alt="open json file"> 
 
-On the page Katalon TestOps, we do 5 steps as follow:
-* Choose a project, which we want to upload the test results.
-* Click the tab **Configurations**.
-* Click the tab **Framework Integration**.
-* On the board **Framework Integration**, choose the tab **Jest**.
-* Click the button **Copy** on the right of the item **Install dependency**. And now we copied the command line `npm i -s @katalon/testops-jest`.
+3. Type `npm install` for command, then press *Enter* and wait for it to run.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jest/kt_bash_copy_npm.png)
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jest/kt_vs_code_json_install.png" width=100% alt="run command"> 
 
-On the **Visual Studio Code**, file "package.json", right-click for pasting the command `npm i -s @katalon/testops-jest` and press Enter. And we wait a few minutes for running.
+    While waiting, go to Katalon TestOps website.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jest/kt_vs_code_paste_bash.png)
+4. Sign in to [Katalon TestOps](https://testops.katalon.io/login) and go to your Project.
 
-Create two new files with the name "testops-config.json" and "jest.config.js".
+5. Go to **Configurations** > **Integrations**.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jest/kt_create_file_json_js.png)
+    The **Integrations** page appears.
 
-On the page Katalon TestOps, we click the button **Copy** on the right of the item **Base** of **Configure**. 
+6. Select **Jest** in the dropdown list.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jest/kt_copy_configure_base.png)
+    The Jest page appears as below.
 
-On the **Visual Studio Code**, open file "testops-config.json
-", paste the terms which we have just copied from Katalon TestOps. We save this file.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jest/jest-page-1.png" width=100% alt="jest page 1"> 
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jest/kt_paste_testops_json.png)
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jest/jest-page-2.png" width=100% alt="jest page 2"> 
+     
+7. Copy the command line in the **Install dependency** section and paste it in the *package.json* file, then press *Enter* to run.
 
-On the page Katalon TestOps, we click the button **Copy** on the right of the item **Add Report** of **Configure**.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jest/kt_vs_code_paste_bash.png" width=100% alt="install dependency command"> 
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jest/kt_copy_configure_add_report.png)
+8. Create two new files: *testops-config.json* and *jest.config.js* in Visual Studio Code (VSC).
 
-On the **Visual Studio Code**, open file "jest.config.js", paste the terms which we have just copied from Katalon TestOps. We save this file.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jest/kt_create_file_json_js.png" width=100% alt="create json file"> 
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jest/kt_paste_js_vs_code.png)
+9. Copy the content in the **Configure TestOps plugin** section in Katalon TestOps and paste it in the newly-created *testops-config.json* file in VSC. Save this file.
 
-On the **Visual Studio Code**, type the command `npx jest`, press **Enter**, and wait a few minutes for running.
+     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jest/kt_paste_testops_json.png" width=100% alt="configure testops in vsc"> 
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jest/kt_npx_jest.png)
+10. Copy the command in the **Add Report** section in Katalon TestOps and paste it in the *jest.config.js* file. Save this file.
 
-On the **Test Planning** of **Katalon TestOps**, the Test Run was uploaded.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jest/kt_paste_js_vs_code.png" width=100% alt="jest config"> 
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jest/kt_upload_test_plan.png)
+11. Type `npx jest` command and press *Enter* to run.
+
+     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jest/kt_npx_jest.png" width=100% alt="run jest"> 
+
+    You have uploaded tests to Katalon TestOps via Jest.
+
+12. Go to **Test Execution** > **Test Run Calendar**.
+
+    You can now see all Test Runs here.
