@@ -21,7 +21,7 @@ Katalon Studio allows you to define desired capabilities for local execution wit
 
 This article shows you how to configure some common capabilities in WebUI testing and the location of desired capabilities files.
 
-> You can find code samples in our Github project: [https://github.com/katalon-studio-samples/tips-and-tricks](https://github.com/katalon-studio-samples/tips-and-tricks).
+> You can find some common desired capabilities configurations in our Github sample project: [Tips and tricks](https://github.com/katalon-studio-samples/tips-and-tricks).
 ## Chrome/Chrome (headless)
 
 ### Set Chrome/Chrome (headless) desired capabilities in Katalon Studio 
@@ -80,7 +80,10 @@ Below are some common use cases of the desired capabilities for Chrome in Katalo
    {"CHROME_DRIVER":{"args":["--start-maximized"]}}
 
    ```
+   <a class="pop">
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/KS-DC-Start-chrome-maximized.png" width="70%" alt="Maximize in Chrome">
+   </a>
+   <p style="text-align: center;"><em>Click the image to enlarge it</em></p>
 
 
 2. To start Chrome in incognito (private) mode. Click **Add** on the command toolbar, then type in the following value:
@@ -108,7 +111,10 @@ Below are some common use cases of the desired capabilities for Chrome in Katalo
    {"CHROME_DRIVER":{"args":["--incognito"]}}
 
    ```
+   <a class="pop">
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/KS-DC-Start-Chrome-incognito.png" width="70%" alt="Open Chrome in incognito">
+   </a>
+   <p style="text-align: center;"><em>Click the image to enlarge it</em></p>
 
 3. You can also combine many desired capabilities for starting a browser as follows:
 
@@ -135,7 +141,10 @@ Below are some common use cases of the desired capabilities for Chrome in Katalo
    {"CHROME_DRIVER":{"args":["--start-maximized","--incognito"]}}
 
    ```
+   <a class="pop">
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/KS-DC-start-chrome-incognito-maximized.png" width="70%" alt="Open Chrome maximized in incognito">
+   </a>
+   <p style="text-align: center;"><em>Click the image to enlarge it</em></p>
 
 > To find other Chrome arguments, you can refer to Peter Beverloo's personal weblog here: [List of Chromium Command Line Switches](https://peter.sh/experiments/chromium-command-line-switches/).
 
@@ -231,9 +240,10 @@ Belows are some common use cases of the desired capabilities for Firefox in Kata
    ```groovy
    {"FIREFOX_DRIVER":{"moz:firefoxOptions":{"args":["--private","--devtools"]}}}
    ```
-
+   <a class="pop">
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/KS-DC-OPEN-private-devtools-firefox.png" width="70%" alt="Open Firefox with devtools in the private mode">
-
+   </a>
+   <p style="text-align: center;"><em>Click the image to enlarge it</em></p>
 
 2. Start Firefox at a default page. To do so, click **Add** on the command toolbar, then input the following values:
 
@@ -302,8 +312,10 @@ Belows are some common use cases of the desired capabilities for Firefox in Kata
     ```groovy
     {"FIREFOX_DRIVER":{"moz:firefoxOptions":{"prefs":{"browser.startup.homepage":"https://www.google.com/"}}}}
     ```
-
+   <a class="pop">
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/KS-DC-Open-startup-default-page-firefox.png" width="70%" alt="Start Firefox with default startup page">
+   </a>
+   <p style="text-align: center;"><em>Click the image to enlarge it</em></p>
 
 3. Download files to specified folders. Here, we want to download .html files to the `C:\Downloads` folder. To do so, click **Add** in the command toolbar, input the following values:
 
@@ -432,8 +444,10 @@ Belows are some common use cases of the desired capabilities for Firefox in Kata
    {"FIREFOX_DRIVER":{"moz:firefoxOptions":{"prefs":{"browser.download.folderList":2.0,"browser.helperApps.alwaysAsk.force":false,"browser.download.manager.showWhenStarting":false,"browser.download.dir":"C:\\Downloads","browser.download.downloadDir":"C:\\Downloads","browser.download.defaultFolder":"C:\\Downloads","browser.helperApps.neverAsk.saveToDisk":"text/html"}}}}
    ```
 
+   <a class="pop">
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/KS-DC-Download-HTML-file-automatically.png" width="70%" alt="Download HTML file automatically to a folder">
-
+   </a>
+   <p style="text-align: center;"><em>Click the image to enlarge it</em></p>
 
 ## Internet Explorer
 
@@ -497,7 +511,10 @@ The most common use of Internet Explorer desired capabilities is to configure In
    </tbody>
    </table>
 
+   <a class="pop">
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-internet-explorer/IE.png" width="70%" alt="Set DC for IE">
+   </a>
+   <p style="text-align: center;"><em>Click the image to enlarge it</em></p>
 
    Explanation of the settings:
 
