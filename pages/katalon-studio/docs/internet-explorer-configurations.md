@@ -13,7 +13,8 @@ description:
 
 > Notes:
 > 
-> Katalon Studio only supports Internet Explorer 9,10,11 in Windows. 
+> * Katalon Studio only supports Internet Explorer 9,10,11 in Windows. 
+> * You can configure Internet Explorer at project level with desired capabilities here: [Desired capabilities for IE](https://docs.katalon.com/katalon-studio/docs/desired-capabilities-settings-webui.html/#internet-explorer)
 
 To run tests on Internet Explorer (IE), you need the following setups:
 
