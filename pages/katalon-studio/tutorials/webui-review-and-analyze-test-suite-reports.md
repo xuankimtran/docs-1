@@ -5,7 +5,7 @@ permalink: katalon-studio/tutorials/webui-view-and-analyze-test-suite-reports.ht
 description: 
 ---
 
-After Test Suite execution, Katalon Studio generates Test Suite reports containing organized Test Cases' execution logs. You can view Test Suite reports to monitor test coverage and troubleshoot errors quickly.
+After Test Suite execution, Katalon Studio generates Test Suite reports that organize the execution logs of the respective Test Cases contained within the suite. You can view Test Suite reports to monitor test coverage and troubleshoot errors quickly.
 
 This tutorial walks you through the steps to view and analyze a Test Suite report.
 
@@ -15,7 +15,7 @@ Here we use a Test Suite that consists of Test Cases with the scenario "Order an
 
 ## Analyze a Test Suite Report
 
-After executing the Test Suite, we analyze the report with the interface provided by Katalon Studio.
+After executing the Test Suite, we view the report directly within Katalon Studio.
 
 Follow these steps:
 
@@ -29,23 +29,21 @@ Follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-view-and-analyze-test-suite-reports/KS-Reports-Section-expand-folder.png" width=30% alt="Test Explorer/Report History expanded">
 
-2. To open the report, double-click on it. 
+2. To open the report, double-click on it.
 
     In our example, the report is displayed as below.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-view-and-analyze-test-suite-reports/KS-Displayed-Test-Suite-reports.png" width=70% alt="Test Suite report overview">
 
-    Katalon Studio lists the Test Cases in the **Test Cases Table** with different statuses, and failed Test Cases are marked in red.
+    Katalon Studio lists the Test Cases in the **Test Cases Table** with different execution statuses: *Passed*, *Failed*, *Error*, *Incomplete*, and *Skipped*.
 
-    Here we have one Test Case with errors.
+    Here we have one Test Case with the *Error* status.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-view-and-analyze-test-suite-reports/KS-Test-Cases-Table.png" width=70% alt="Test Cases Table">
 
     Below the **Test Cases Table** is the Report Summary section.
 
-    The report summary includes some information about the Test Suite, including the number of Test Cases of different statuses.
-
-    In our case, we executed the Test Suite with four Test Cases; three Test Cases passed, and one Test Case contains an error.
+    The report summary includes some information about the Test Suite, such as the Test Suite ID, execution environment, execution time, and execution status.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-view-and-analyze-test-suite-reports/KS-Test-Suite-Report-Summary.png" width=70% alt="Test Suite Summary">
 
@@ -53,15 +51,17 @@ Follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-view-and-analyze-test-suite-reports/KS-Test-Suite-Reports-Show-Test-Cases-Details-button.png" width=30% alt="Show Test Case Details button">
 
-    The execution log of the selected Test Case is displayed on the right. This log section outlines the steps in the Test Case with their statuses.
+    The execution log of the selected Test Case is displayed as follows:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-view-and-analyze-test-suite-reports/KS-Test-Suite-Report-Displayed-Test-Case-Log.png" width=70% alt="Test Case's Log section">
+
+    This log section outlines the steps in the Test Case with their execution statuses.
 
 4. To view the detailed log message, double-click on the step. The message is displayed in the **Information** tab below.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-view-and-analyze-test-suite-reports/KS-Test-Suite-Report-Detailed-Log-Message.png" width=70% alt="Detailed Log Message">
 
-    In our example, the step 5 contains an error with the exception `com.kms.katalon.core.exception.StepErrorException: org.openqa.selenium.NoSuchElementException`. The log message also provides a useful link to a troubleshooting document.
+    In our example, step 5 contains an error with the exception `com.kms.katalon.core.exception.StepErrorException: org.openqa.selenium.NoSuchElementException`. The log message also provides a useful link to a troubleshooting document.
 
     > To learn how to troubleshoot common exceptions in Web tests, you can refer to this document: [Troubleshoot common exceptions when executing web tests](https://docs.katalon.com/katalon-studio/docs/troubleshoot-common-execution-exceptions-web-test.html).
 
