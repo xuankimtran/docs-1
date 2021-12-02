@@ -16,7 +16,7 @@ To import Preferences, do as follows:
 
 1. Open Katalon Studio, then go to **File > Import Settings**. This action opens the **config** folder of your Katalon Studio instance.
    
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-preferences/import-settings.png" width=50% alt="import settings">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-preferences/import-settings.png" width=70% alt="import settings">
    
 2. Browse to the **config** folder of your preferred version. For example:
 
@@ -28,11 +28,13 @@ To import Preferences, do as follows:
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-preferences/import_3.PNG" width=100% alt="Browse to the Config folder in Windows">
 
-   You can also browse a **config** folder sent from other user.
+   You can also browse a **config** folder sent from other users.
 
-2. Click **Open**. A dialog might appear when the Preferences is successfully imported.
+3. Click **Open**. An **Info** dialog appears when the Preferences is successfully imported.
 
-For a smooth transition to the latest version, Katalon Studio supports an in-app upgrade function (In **Help** menu > select **Check for updates...** > in the displayed dialog, download the latest version). The latest version upgraded via this channel will reuse the current version's Preferences configurations.
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-preferences/info.png" alt="info dialog" width="50%">
+
+For a smooth transition to the latest version, Katalon Studio supports an in-app upgrade function. The latest version upgraded via this function reuses the Preferences configurations of the current version. To learn more about this function, see [Update Katalon Studio](https://docs.katalon.com/katalon-studio/docs/auto-updater.html).
 
 **See also**:
 
