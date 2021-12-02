@@ -218,7 +218,7 @@ This reference lists out common keyboard shortcuts and their actions in Katalon 
 
 ## Run and Debug
 
-> You need to open a Test Case or Test Suite Editor Window.
+> You need to open a Test Case or Test Suite Editor Window to use these shortcuts.
 
 <table>
     <thead>
