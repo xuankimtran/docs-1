@@ -5,15 +5,24 @@ permalink: katalon-studio/docs/selenium-grid-integration.html
 description: Tutorials of executing Katalon Studio's scripts on remote machines using Selenium Grid.
 ---
 
-You can execute your scripts on remote machines by using [Selenium Grid](https://www.seleniumhq.org/docs/07_selenium_grid.jsp).
+Katalon Studio allows you to execute your scripts on remote machines by using Selenium Grid. 
 
-1. Follow [this user guide](https://www.selenium.dev/documentation/en/grid/grid_3/setting_up_your_own_grid/) to set up and activate Selenium Grid.
+Follow these steps to set up your remote execution with Selenium Grid:
 
-2. Configure the desired capabilities for a remote machine. Open Katalon Studio and navigate to **Project** > **Settings** > **Desired Capabilities** > **Remote** > Enter required information and then click **OK**.
+> Make sure that you are running Selenium Grid/ Appium Grid while executing the test. To set up and activate Selenium Grid, you can follow this Selenium document: [Set up Selenium Grid](https://www.selenium.dev/documentation/legacy/grid_3/setting_up_your_own_grid/#step-1-start-the-hub).
 
-* **Remote Server URL** should be in the format of `http://<hub-ip-address>:<port>/wd/hub`. E.g.: http://192.168.37.35:45339/wd/hub.
-* **Remote Server type**: Selenium.
-* **Add properties**. Currently, all [desired capabilities](https://github.com/SeleniumHQ/selenium/wiki/DesiredCapabilities#used-by-the-selenium-server-for-browser-selection) of the Selenium Server will be supported by Katalon Studio.
-    > The value of properties is case sensitive.
+1. Configure the desired capabilities for a remote machine. Open Katalon Studio and navigate to **Project > Settings > Desired Capabilities > Remote**. Enter the following information.
 
-3. In the drop-down list of the **Run** button, select **Remote**.
+    * **Remote Server URL** should be in the format of `http://<hub-ip-address>:<port>/wd/hub`. For example: `http://192.168.37.35:45339/wd/hub`.
+    * **Remote Server type**: choose **Selenium**.
+    * **Add properties**. Katalon Studio supports all Selenium Server desired capabilities. To learn more about Selenium capabilities, you can refer to the Selenium document in their Github project: [Supported capabilities](https://github.com/SeleniumHQ/selenium/wiki/DesiredCapabilities#used-by-the-selenium-server-for-browser-selection).
+    
+    > * Desired capabilities is a JSON object (having keys and values pair). We need to set the capability **Name** as `key` and the capability **Value** as `value`. 
+    > * The capabilities keys are case-sensitive.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/remote-desired-capabilities/KS-DC-Set-remote-server-URL-types.png" width="100%" alt="Add Desired Capabilities for Remote execution">
+
+2. Click **Apply and Close** to save your settings.
+2. In the drop-down list of the **Run** button, select **Remote**.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/selenium-grid-integration/KS-DC-Run-Remote-execution.png" width="30%" alt="a">
