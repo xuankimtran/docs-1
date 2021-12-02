@@ -48,7 +48,7 @@ Follow these steps:
 
 1. Open Katalon Studio:
 
-* If you open Katalon Studio for the first time, the Katalon Studio Activation dialog automatically pops up.
+* If you open Katalon Studio for the first time, the **Katalon Studio Activation** dialog automatically pops up.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/activate-KSE/KS-Activation-dialog.png" alt="Katalon Studio Activation dialog" width=70%>
 
@@ -108,7 +108,7 @@ Follow these steps:
 
 To activate your offline KRE license, put your `KRE_<machine_ID>.lic` file in the `.katalon/license` folder.
 
->  To execute multiple KRE sessions in parallel, put multiple license files in the `.katalon/license` folder.
+> To execute multiple KRE sessions in parallel, put multiple license files in the `.katalon/license` folder.
 
 Every time you start running a test with KRE, KRE automatically verifies that your license file is available and valid.
 
@@ -116,6 +116,6 @@ Every time you start running a test with KRE, KRE automatically verifies that yo
 
 > **Notes**:
 >
-> * To extend Katalon Studio's capabilities and integrate the software with your favorite tools, refer to this document: [Using Plugins with Katalon Studio Enterprise License](https://docs.katalon.com/katalon-studio/docs/kse-use-plugins.html).
+> * To extend Katalon Studio's capabilities and integrate the software with your favorite tools, consider installing our plugins. See: [Using Plugins with Katalon Studio Enterprise License](https://docs.katalon.com/katalon-studio/docs/kse-use-plugins.html).
 > * If you have any license activation problems, refer to this troubleshooting document: [Troubleshoot Activation Problems](https://docs.katalon.com/katalon-studio/docs/troubleshoot-activation-problems.html).
-> * For detailed instructions on working with KRE, refer to this guide: [Command Syntax](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#katalon-studio-plugins-in-console-mode).
+> * For further instructions on working with KRE, refer to this guide: [Command Syntax](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#katalon-studio-plugins-in-console-mode).
