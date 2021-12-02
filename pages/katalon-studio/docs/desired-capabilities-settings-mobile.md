@@ -6,34 +6,34 @@ redirect_from:
 description:
 ---
 
-Through using Desired Capabilities, we can communicate with Appium server by sending a POST request. For example, a user would like to run mobile test with a preferred platform, browser, orientation of the app, etc. If the user has already set the desired capability preferences setting, Appium server will start a session with the capabilities that user has set initially.
+Desired capabilities can be useful when a user, for example, wants to run mobile tests with a preferred platform, browser, orientation of the app. 
+Katalon Studio uses desired capabilities to communicate with Appium server by sending a POST request.  If users configure the desired capabilities in project settings, Appium server will start a session with predefined capabilities.
 
-Desired capabilities is a JSON object (having keys and values pair). Within each desired capability, there are few inbuilt capabilities. We need to set the capability **name** as '**key**' and **capability** value as '**value**'. The capabilities keys are **case-sensitive**.
+Desired capabilities is a JSON object (having keys and values pair). We need to set the capability **Name** as `key` and the capability **Value** as `value`. The capabilities keys are case-sensitive.
 
 This article shows you how to configure some common capabilities in Mobile testing and the location of desired capabilities files.
 ## Set desired capabilities for Mobile testing in Katalon Studio 
 
-To set desired capabilities for mobile testing, go to **Project > Settings > Desired Capabilities > Mobile > Android/iOS**. You can add, delete or clear (delete all) capabilities.
+To set desired capabilities for mobile testing, do as follows:
 
-After clicking on Android, it will display a screen with a dropdown with **Device Name** and **Add**, **Delete**, **Clear** buttons. Steps to **add** a property for execution are as following:
+1. Go to **Project > Settings > Desired Capabilities > Mobile > Android/iOS**. You can add, delete or clear (delete all) capabilities.
 
-You need to select the device when configuring Desired Capabilities.
+2. After clicking on **Android/iOS**, choose the device to apply desired capabilities settings from the **Device Name** dropdown list. 
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/introduction-to-desired-capabilities/image2016-11-1-133A593A38.png)
+    > When clicking on **Android**, Katalon Studio will detect and ask you to install **Android SDK** automatically if your current machine does not have it.
 
-Where:
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/introduction-to-desired-capabilities/image2016-11-1-133A593A38.png" width="100%" alt="Choose device name">
 
-* **Device Name**: the device to apply Desired Capabilities settings on.
 
-Click **Add** button of command toolbar above the **Desired Capabilities** list.
+3. Click **Add** on the command toolbar. 
 
-![Desired Capabilities for Mobile](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/desired_capabilities_in_katalon/Design-Capabilities-for-Mobile-in-Katalon-Studio-3.png)
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/desired_capabilities_in_katalon/Design-Capabilities-for-Mobile-in-Katalon-Studio-3.png" width="100%" alt="Add Desired Capabilities for Mobile">
 
-A new row will be added to the list.
+    A new row is added to the list.
 
-![Desired Capabilities for Mobile](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/desired_capabilities_in_katalon/Design-Capabilities-for-Mobile-in-Katalon-Studio-4.png)
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/desired_capabilities_in_katalon/Design-Capabilities-for-Mobile-in-Katalon-Studio-4.png" width="100%" alt="Add Desired Capabilities for Mobile">
 
-Provide the name of the property that you'd like to configure, do the same for **Type** and **Value**.
+4. Provide the name of the property, type and value that you'd like to configure, do the same for **Type** and **Value**.
 
 ### Example 1
 
