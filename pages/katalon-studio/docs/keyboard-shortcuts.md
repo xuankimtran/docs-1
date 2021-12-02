@@ -6,9 +6,9 @@ redirect_from:
 description:
 ---
 
-Katalon Studio has keyboard shortcuts for common actions, including file management, editing, running, and debugging. Using these shortcuts enables more efficient testing experience.
+Katalon Studio has keyboard shortcuts for common actions, including file management, editing, running, and debugging. Using shortcuts for your most common actions can significantly increase your productivity.
 
-This reference lists out common keyboard shortcuts and their actions in Katalon Studio.
+This reference lists out default keyboard shortcuts and their actions in Katalon Studio.
 
 > **Notes**:
 >
@@ -67,7 +67,7 @@ This reference lists out common keyboard shortcuts and their actions in Katalon 
     <tbody>
         <tr>
             <td><kbd>Ctrl</kbd>+<kbd>M</kbd></td>
-            <td>Maximize or un-maximize the current Editor Window</td>
+            <td>Maximize or restore the current Editor Window</td>
         </tr>
         <tr>
             <td><kbd>Ctrl</kbd>+<kbd>+</kbd>/<kbd>-</kbd></td>
@@ -75,7 +75,7 @@ This reference lists out common keyboard shortcuts and their actions in Katalon 
         </tr> 
         <tr>
             <td><kbd>Home</kbd>/<kbd>End</kbd></td>
-            <td>Jump to the beginning / end of indention. Press
+            <td>Jump to the beginning / end of indentation. Press
                 home twice to jump to the beginning of the current line</td>
         </tr> 
         <tr>
@@ -92,7 +92,7 @@ This reference lists out common keyboard shortcuts and their actions in Katalon 
         </tr>
         <tr>
             <td><kbd>Ctrl</kbd>+<kbd>L</kbd></td>
-            <td>Specify a line number and jump to the corresponding line</td>
+            <td>Open the <b>Go to Line</b> dialog to navigate to a specific line</td>
         </tr>
         <tr>
             <td><kbd>Ctrl</kbd>+<kbd>Arrow Up</kbd>/<kbd>Arrow Down</kbd></td>
@@ -234,19 +234,19 @@ This reference lists out common keyboard shortcuts and their actions in Katalon 
         </tr>
         <tr>
             <td><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>D</kbd></td>
-            <td>Salve all files and debug the currently opened Test Case / Test Suite</td>
+            <td>Save all files and debug the currently opened Test Case / Test Suite</td>
         </tr>
         <tr>
             <td><kbd>F5</kbd></td>
-            <td>Step into the method</td>
+            <td>Step into - If the currently debugged line contains a function, the debugger enters the function and continues debugging line by line</td>
         </tr>
         <tr>
             <td><kbd>F6</kbd></td>
-            <td>Step over one line of code</td>
+            <td>Step over - The debugger steps over the currently debugged line by one line</td>
         </tr>
         <tr>
             <td><kbd>F7</kbd></td>
-            <td>Step to the method return statement</td>
+            <td>Step out - The debugger steps out of the currently debugged function to the line where the function is called</td>
         </tr>
         <tr>
             <td><kbd>F8</kbd></td>
