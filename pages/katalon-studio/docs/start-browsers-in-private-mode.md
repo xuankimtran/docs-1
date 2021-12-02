@@ -96,7 +96,7 @@ The following guidelines show you how to start browsers (Firefox, Chrome, Edge C
 
 1. Go to **Project > Settings > Desired Capabilities > Web UI > Edge Chromium**.
 
-3. Add a new property as follows.
+2. Add a new property as follows.
 
    <table>
    <thead>
@@ -147,4 +147,4 @@ The following guidelines show you how to start browsers (Firefox, Chrome, Edge C
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/start-browsers-in-private-mode/edge-chromium-1.png" width=100% alt="ks edge chromium private mode">
 
-5. Click **Apply and Close**.
+3. Click **Apply and Close**.
