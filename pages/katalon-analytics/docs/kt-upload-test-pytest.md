@@ -5,49 +5,54 @@ permalink: katalon-analytics/docs/kt-upload-test-pytest.html
 description: 
 ---
 
-We can submit results from the Pytest test frameworks to Katalon TestOps. An example with the Pytest test can be download from [here](https://github.com/katalon-studio/testops-report-python).
+You can submit Pytest framework's test results to Katalon TestOps.
 
-On the **Visual Studio Code**, open a file Pytest.
+> Notes:
+>
+> You can download a sample project [here](https://github.com/katalon-studio/testops-report-python) for upload testing via Pytest.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-pytest/kt_open_file_pytest.png)
+Follow these steps:
 
-On the page Katalon TestOps, we do 5 steps as follow:
-* Choose a project, which we want to upload the test results.
-* Click the tab **Configurations**.
-* Click the tab **Framework Integration**.
-* On the board **Framework Integration**, choose the tab **Pytest**.
-* Click the button **Copy** on the right of the item **Install dependency**. And now we copied the command line `pip3 install testops-pytest`.
+1. Open the Pytest file in [Visual Studio Code](https://code.visualstudio.com).
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-pytest/kt_bash_install_dependency.png)
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-pytest/kt_open_file_pytest.png" width=100% alt="open pytest in vsc"> 
 
-On the **Visual Studio Code**, open file "testops-config.json".
+2. Sign in to [Katalon TestOps](https://testops.katalon.io/login) and go to your Project.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-pytest/kt_open_testops_config_json_1.png)
+3. Go to **Configurations** > **Integrations**.
 
-On the page Katalon TestOps, we click the button **Copy** on the right of the item **TestOps Credentials & Project** of **Configure TestOps plugin**. 
+    The **Integrations** page appears.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-pytest/kt_copy_config_testops_credential_1.png)
+4. Select **Pytest** in the dropdown list.
 
-On the **Visual Studio Code**, open file "testops-config.json", paste the terms which we have just copied from Katalon TestOps. We save this file.
+    The Pytest page appears as below.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-pytest/kt_paste_testops_config_1.png)
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-pytest/pytest-page-1.png" width=100% alt="pytest page 1"> 
 
-On the **Visual Studio Code**, open file "conftest.py".
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-pytest/pytest-page-2.png" width=100% alt="pytest page 2"> 
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-pytest/kt_open_conftest_py_1.png)
+5. Copy the command line in the **Install dependency** section and paste it in the Pytest file's terminal in VSC to install the Katalon TestOps plugin.
 
-On the page Katalon TestOps, we click the button **Copy** on the right of the item **Add Report**. 
+6. Create a new file named *testops-config.json* in VSC.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-pytest/kt_copy_conftest_1.png)
+7. Copy the command line in the **TestOps Credentials & Project** section on the Pytest page and paste it in the new file in VSC.
 
-On the **Visual Studio Code**, paste the terms, which we have just copied from Katalon TestOps in file "conftest.py". We save this file.
+     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-pytest/kt_paste_testops_config_1.png" width=100% alt="testops config in vsc"> 
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-pytest/kt_paste_conftest_py_1.png)
+8. Create a new file named *conftest.py*.
 
-On the **Visual Studio Code**, type the command `python -m pytest`, press **Enter**, and wait a few minutes for running.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-pytest/kt_open_conftest_py_1.png" width=100% alt="conftest py file">
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-pytest/kt_command_python_test_1.png)
+9. Copy the command in the **Add Report** section on the Pytest page and paste it in the *conftest.py* file in VSC. Save this file.
 
-On the **Test Planning** of **Katalon TestOps**, the Test Run was uploaded.
+     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-pytest/kt_paste_conftest_py_1.png" width=100% alt="paste content to conftest file">
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-pytest/kt_upload_pytest_testops.png)
+10. Type `pytest` and press *Enter* to run tests.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-pytest/kt_command_python_test_1.png" width=100% alt="run with pytest">
+
+    You have run tests and uploaded their reports via Pytest.
+
+11. Go to **Test Execution** > **Test Run Calendar**.
+
+     You can now see all Test Runs here.
