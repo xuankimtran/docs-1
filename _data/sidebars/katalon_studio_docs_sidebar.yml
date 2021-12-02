@@ -95,8 +95,14 @@ items:
                 url: /katalon-studio/docs/auto-updater.html
               - title: "Install Katalon Studio on macOS/Windows"
                 url: /katalon-studio/docs/ks-installation-macOS-windows.html
-              - title: "Katalon Studio for Linux (GUI)"
+              - title: "Install Katalon Studio on Linux (GUI)"
                 url: /katalon-studio/docs/katalon-studio-gui-beta-for-linux.html
+              - title: "Migration from other tools"
+                tree:
+                - title: "Selenium/TestNG/JUnit Migration"
+                  url: /katalon-studio/docs/selenium-testng-junit-migration.html
+                - title: "Import Selenium IDE v3 projects"
+                  url: /katalon-studio/docs/import-selenium-ide.html
               - title: "Configuration for Web Testing"
                 tree:
                   - title: "Internet Explorer Configurations"
@@ -1109,12 +1115,6 @@ items:
             url: /katalon-studio/docs/aws-device-farm.html  
           - title: "Integration with Azure DevOps Test Plans"
             url: /katalon-studio/docs/azure-devops-test-plans.html
-      - title: "Migration from other tools"
-        tree:
-          - title: "Selenium/TestNG/JUnit Migration"
-            url: /katalon-studio/docs/selenium-testng-junit-migration.html
-          - title: "Import Selenium IDE v3 projects"
-            url: /katalon-studio/docs/import-selenium-ide.html
       - title: "Katalon Studio Plugins"
         tree:
           - title: "Using Plugins"
