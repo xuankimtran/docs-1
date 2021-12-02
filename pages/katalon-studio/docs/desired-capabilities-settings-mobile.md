@@ -9,8 +9,6 @@ description:
 Desired capabilities can be useful when a user, for example, wants to run mobile tests with a preferred platform, browser, orientation of the app. 
 Katalon Studio uses desired capabilities to communicate with Appium server by sending a POST request.  If users configure the desired capabilities in project settings, Appium server will start a session with predefined capabilities.
 
-Desired capabilities is a JSON object (having keys and values pair). We need to set the capability **Name** as `key` and the capability **Value** as `value`. The capabilities keys are case-sensitive.
-
 This article shows you how to configure some common capabilities in Mobile testing and the location of desired capabilities files.
 ## Set desired capabilities for Mobile testing in Katalon Studio 
 
@@ -18,7 +16,7 @@ To set desired capabilities for mobile testing, do as follows:
 
 1. Go to **Project > Settings > Desired Capabilities > Mobile > Android/iOS**. You can add, delete or clear (delete all) capabilities.
 
-2. After clicking on **Android/iOS**, choose the device to apply desired capabilities settings from the **Device Name** dropdown list. 
+2. After clicking **Android/iOS**, choose the device to apply desired capabilities settings from the **Device Name** dropdown list. 
 
     > When clicking on **Android**, Katalon Studio will detect and ask you to install **Android SDK** automatically if your current machine does not have it.
 
@@ -33,27 +31,84 @@ To set desired capabilities for mobile testing, do as follows:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/desired_capabilities_in_katalon/Design-Capabilities-for-Mobile-in-Katalon-Studio-4.png" width="100%" alt="Add Desired Capabilities for Mobile">
 
-4. Provide the name of the property, type and value that you'd like to configure, do the same for **Type** and **Value**.
+4. Provide the **Name**, **Type** and **Value** of the property that you wish to configure.
 
+    > Desired capabilities is a JSON object (having keys and values pair). We need to set the capability **Name** as `key` and the capability **Value** as `value`. The capabilities keys are case-sensitive.
+
+## Example
 ### Example 1
 
-The example below shows the desired capabilities settings for Android to enable Unicode input.
+The following example shows the desired capabilities settings for Android to enable Unicode input.
+After choosing the device name, click **Add**, then input the following values:
 
-![Desired Capabilities for Mobile](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/desired_capabilities_in_katalon/Design-Capabilities-for-Mobile-in-Katalon-Studio-5.png)
+   <table>
+   <thead>
+   <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Value</th>
+   </tr>
+   </thead>
+   <tbody>
+   <tr>
+      <td>unicodeKeyboard</td>
+      <td>boolean</td>
+      <td>true</td>
+   </tr>
+   </tbody>
+   </table>
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/desired_capabilities_in_katalon/Design-Capabilities-for-Mobile-in-Katalon-Studio-5.png" width="100%" alt="Set Unicodekeyboard for Android">
+
 
 ### Example 2
 
-The example below shows the desired capabilities settings for Android to enable device orientation.
+The following example shows the desired capabilities settings for Android to enable device orientation.
+After choosing the device name, click **Add**, then input the following values:
 
-![Desired Capabilities for Mobile](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/desired_capabilities_in_katalon/Design-Capabilities-for-Mobile-in-Katalon-Studio-6.png)
+   <table>
+   <thead>
+   <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Value</th>
+   </tr>
+   </thead>
+   <tbody>
+   <tr>
+      <td>orientation</td>
+      <td>string</td>
+      <td>PORTRAIT</td>
+   </tr>
+   </tbody>
+   </table>
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/desired_capabilities_in_katalon/Design-Capabilities-for-Mobile-in-Katalon-Studio-6.png" width="100%" alt="Enable device orientation">
+
 
 ### Example 3
 
-The example below shows the desired capabilities settings for Android to enable screenshot path.
+The following example shows the desired capabilities settings for Android to set screenshot path.
+After choosing the device name, click **Add**, then input the following values:
 
-![Design Capabilities for Mobile](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/desired_capabilities_in_katalon/Design-Capabilities-for-Mobile-in-Katalon-Studio-7.png)
+   <table>
+   <thead>
+   <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Value</th>
+   </tr>
+   </thead>
+   <tbody>
+   <tr>
+      <td>androidScreenshotPath</td>
+      <td>string</td>
+      <td>&lt;screenshot-path&gt; (For example: /sdcard/screenshots/)</td>
+   </tr>
+   </tbody>
+   </table>
 
-The source code is available [here](https://github.com/katalon-studio/katalon-mobile-automation). For further instructions and help, please refer to [Execution Settings](/display/KD/Execution+Settings) guideline and join us on [Katalon Forum](http://forum.katalon.com/).
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/desired_capabilities_in_katalon/Design-Capabilities-for-Mobile-in-Katalon-Studio-7.png" width="100%" alt="Enable screenshot path">
 
 ## Location of Desired Capabilities files
 

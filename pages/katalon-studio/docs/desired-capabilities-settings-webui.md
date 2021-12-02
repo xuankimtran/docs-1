@@ -19,8 +19,6 @@ description:
 
 Katalon Studio allows you to define desired capabilities for local execution with Chrome, Firefox, Internet Explorer (IE), Safari, Edge or Edge (Chromium) in **Project > Settings > Desired Capabilities > WebUI > Chrome/Firefox/IE/Safari/Edge/Edge(Chromium)**.
 
-Desired capabilities is a JSON object (having keys and values pair). We need to set the capability **Name** as `key` and the capability **Value** as `value`. The capabilities keys are case-sensitive.
-
 This article shows you how to configure some common capabilities in WebUI testing and the location of desired capabilities files.
 
 > You can find some common desired capabilities configurations in our Github sample project: [Tips and tricks](https://github.com/katalon-studio-samples/tips-and-tricks).
@@ -29,6 +27,12 @@ This article shows you how to configure some common capabilities in WebUI testin
 ### Set Chrome/Chrome (headless) desired capabilities in Katalon Studio 
 
 To set Chrome/Chrome (headless) desired capabilities, go to **Project > Settings > Desired Capabilities > WebUI > Chrome/Chrome (headless)**. You can add, delete or clear (delete all) capabilities for Chrome/Chrome (headless) browser.
+
+After clicking **Add**, provide **Name**, **Type** and **Value** of the property that you wish to configure.
+
+> Desired capabilities is a JSON object (having keys and values pair). We need to set the capability **Name** as `key` and the capability **Value** as `value`. The capabilities `keys` are case-sensitive.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/KS-DC-Chrome-settings.png" width="70%" alt="Set DC in Chrome">
 
 Alternatively, you can also go to `<your test project location>\settings\internal`, open the settings files for Chrome/Chrome (headless), and edit the capabilities in the Groovy script.
 
