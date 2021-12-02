@@ -9,11 +9,11 @@ description: Release notes 8.x
 
 ## Version 8.2.5 Beta
 
-> Download from our GitHub repository: [Katalon Studio version 8.2.5 Beta](link).
+> Download from our GitHub repository: [Katalon Studio version 8.2.5 Beta](https://github.com/katalon-studio/katalon-studio/releases/tag/v8.2.5.beta).
 
 ### New features
 
-* [WebUI] Introduced an option to use the Spy, Record, and Smart Wait function with a packed extension, now available on the Chrome Web Store. This extension is compatible with Katalon Studio version 8.2.5 beta onwards. See [Katalon Compact Utility](https://docs.katalon.com/katalon-studio/docs/katalon-compact-utility.html).
+* [WebUI] Introduced an option to use the Spy, Record, and Smart Wait function with a packed extension, now available on the Chrome Web Store. This extension is compatible with Katalon Studio version 8.2.5 Beta onwards. See [Katalon Compact Utility](https://docs.katalon.com/katalon-studio/docs/katalon-compact-utility.html).
 
 ## Version 8.2.0
 
