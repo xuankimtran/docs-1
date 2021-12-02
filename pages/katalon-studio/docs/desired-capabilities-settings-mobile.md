@@ -6,17 +6,14 @@ redirect_from:
 description:
 ---
 
-
-
-
-
-## Mobile Testing
-
 Through using Desired Capabilities, we can communicate with Appium server by sending a POST request. For example, a user would like to run mobile test with a preferred platform, browser, orientation of the app, etc. If the user has already set the desired capability preferences setting, Appium server will start a session with the capabilities that user has set initially.
 
 Desired capabilities is a JSON object (having keys and values pair). Within each desired capability, there are few inbuilt capabilities. We need to set the capability **name** as '**key**' and **capability** value as '**value**'. The capabilities keys are **case-sensitive**.
 
-* **Project > Settings > Desired Capabilities > Mobile > Android/iOS**.
+This article shows you how to configure some common capabilities in Mobile testing and the location of desired capabilities files.
+## Set desired capabilities for Mobile testing in Katalon Studio 
+
+To set desired capabilities for mobile testing, go to **Project > Settings > Desired Capabilities > Mobile > Android/iOS**. You can add, delete or clear (delete all) capabilities.
 
 After clicking on Android, it will display a screen with a dropdown with **Device Name** and **Add**, **Delete**, **Clear** buttons. Steps to **add** a property for execution are as following:
 
@@ -60,18 +57,9 @@ The source code is available [here](https://github.com/katalon-studio/katalon-m
 
 ## Location of Desired Capabilities files
 
-Defined configuration settings are saved in separated files under the "**<your test project location>\\settings\\internal**" location (or "**<your test project location>\\settings\\external\\execution**" in case of custom execution), as below:
+You can find the settings files for each environment in the `<your test project location>\settings\internal` folder. The files for each driver are named as follows:
 
 | Driver | Settings' file |
 | --- | --- |
-| Chrome | com.kms.katalon.core.webui.chrome.properties |
-| Firefox | com.kms.katalon.core.webui.firefox.properties |
-| Chrome (Headless)| com.kms.katalon.core.webui.chrome (headless).properties |
-| Firefox (Headless) | com.kms.katalon.core.webui.firefox (headless).properties |
-| IE | com.kms.katalon.core.webui.ie.properties |
-| Safari | com.kms.katalon.core.webui.safari.properties |
-| Edge | com.kms.katalon.core.webui.edge.properties |
-| Edge (Chromium)| com.kms.katalon.core.webui.edge chromium.properties |
-| Remote Web | com.kms.katalon.core.webui.remote.properties |
 | Android | com.kms.katalon.core.mobile.android.properties |
 | iOS | com.kms.katalon.core.mobile.ios.properties |

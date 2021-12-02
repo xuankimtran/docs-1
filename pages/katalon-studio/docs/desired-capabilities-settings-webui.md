@@ -19,6 +19,8 @@ description:
 
 Katalon Studio allows you to define desired capabilities for local execution with Chrome, Firefox, Internet Explorer (IE), Safari, Edge or Edge (Chromium) in **Project > Settings > Desired Capabilities > WebUI > Chrome/Firefox/IE/Safari/Edge/Edge(Chromium)**.
 
+Desired capabilities is a JSON object (having keys and values pair). We need to set the capability **Name** as `key` and **capability** value as `value`. The capabilities keys are case-sensitive.
+
 This article shows you how to configure some common capabilities in WebUI testing and the location of desired capabilities files.
 
 > You can find some common desired capabilities configurations in our Github sample project: [Tips and tricks](https://github.com/katalon-studio-samples/tips-and-tricks).
