@@ -445,7 +445,7 @@ Belows are some common use cases of the desired capabilities for Firefox in Kata
    ```
 
    <a class="pop">
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/KS-DC-Download-HTML-file-automatically.png" width="70%" alt="Download HTML file automatically to a folder">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/KS-DC-download-files-firefox.png" width="70%" alt="Download HTML file automatically to a folder">
    </a>
    <p style="text-align: center;"><em>Click the image to enlarge it</em></p>
 

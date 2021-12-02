@@ -8,28 +8,26 @@ description:
 
 If you want to make a list of custom desired capabilities for some environments, you can use the **Custom** settings in desired capabilities.
 
-This article shows you how to configure custom capabilities and the location of custom desired capabilities files.
+This article shows you how to configure custom capabilities and the location of settings files.
 ## Custom Desired Capabilities
 
 To create a custom execution with desired capabilities. Follow these steps:
 
 1. Go to **Project > Settings > Desired Capabilities > Custom**. Click **Add** on the command toolbar to add a custom profile.
 
-    <img src="url" width="70%" alt="Create a custom profile">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/KS-DC-create-a-custom-profile.png" width="70%" alt="Create a custom profile">
 
 2. Change the name if needed, then click on the *More* (...) under the **Value** column.
 
-    <img src="url" width="70%" alt="Edit the custom profile settings">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/KS-DC-Edit-a-custom-profile.png" width="70%" alt="Edit the custom profile settings">
 
 3. In the **Custom Execution Configuration Builder** dialog, click **Add**, then specify the **Driver Name** for your custom execution. Here, 
 
-    <img src="url" width="70%" alt="Click More">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/KS-DC-Choose-environment.png" width="70%" alt="Choose the environment to set DC">
 
     > You can have at most one web driver and one mobile driver here since there may be a potential conflict if you use multiple web or mobile drivers in the same test execution.
 
 4. Click on the *More* (...) under the **Preferences** column.
-
-    <img src="url" width="70%" alt="Click More">
 
 5. The **Driver Builder** dialog opens. Set desired capabilities for the selected Driver. The steps to add new Desired Capabilities here is similar to configuring desired capabilities in each environment. You can refer to the following documents for setting up desired capabilities in different evironment:
 
@@ -44,7 +42,7 @@ To create a custom execution with desired capabilities. Follow these steps:
 
     Click **OK** when you finish.
 
-    <img src="url" width="70%" alt="Set DC for each environment">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/KS-DC-Set-DC-for-the-chosen-%20environment.png" width="70%" alt="Set DC for the chosen environment">
 
 ## Location of Custom Desired Capabilities files
 
