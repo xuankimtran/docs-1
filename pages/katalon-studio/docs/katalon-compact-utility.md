@@ -5,10 +5,11 @@ permalink: katalon-studio/docs/katalon-compact-utility.html
 redirect_from:
 description: 
 ---
+
 > Requirements:
 >
 > * Katalon Studio version 8.2.5 Beta onwards.
-> * A Chrome Profile. Find more information here: [Share Chrome with others](https://support.google.com/chrome/answer/2364824/share-chrome-with-others-computer).
+> * A Chrome Profile. Find more information at Google Help Center: [Share Chrome with others](https://support.google.com/chrome/answer/2364824/share-chrome-with-others-computer).
 
 In restricted environments, unpacked extensions are disabled as a security feature. In that case, using the Spy, Record, and Smart Wait with Chrome might prompt this error: "_Loading the unpacked extension is disabled by the administrators_."
 
@@ -19,6 +20,8 @@ This article will show you how to install the extension, configure your Profile,
 > Notes:
 >
 > This utility is associated with your Chrome Profile, which means you can only have one active session at any given time.
+>
+> Hence, before executing, make sure you log out of all your Chrome sessions.
 
 ## Installing Katalon Compact Utility
 
@@ -34,19 +37,8 @@ This article will show you how to install the extension, configure your Profile,
 
 The next steps will help you associate your Chrome Profile with the Spy, Record, and Smart Wait functions in Katalon Studio.
 
-### Finding your Chrome Profile in the User Data Directory
-
-There are multiple Profiles in a given User Data Directory. This section will help you find the name of the correct one.
-
-1. Open Chrome with the Profile you previously used to install Katalon Compact Utility. In the address bar, type `chrome://version` and press Enter.
-
-2. The line **Profile Path**: now displays the path to your active Profile. For example: `C:\Users\your_username\AppData\Local\Google\Chrome\User Data\your_profile_name`.
-3. Copy your profile name.
-4. Close Chrome.
-
-### Configuring and using Katalon Compact Utility with Chrome Profile
-
 To configure and use Katalon Compact Utility, you need to update the Desired Capabilities. Do as follows:
+
 1. Go to **Project > Settings > Desired Capabilities**.
 2. In the **Desired Capabilities** section, select **Web UI > Chrome**.
 3. Click **Add** to create a new capability named `args`, for which the type is `List`.
@@ -54,7 +46,7 @@ To configure and use Katalon Compact Utility, you need to update the Desired Cap
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-compact-utility/capability.png" alt="element" width=80%>
 
-5. The **List Properties Builder** dialog appears. Click **Add** to create two elements as below:
+5. The **List Properties Builder** dialog appears. Click **Add** to create two elements as below. When you are done, click **OK** to save.
 
 	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-compact-utility/list-properties-builder.png" alt="list" width=80%>
     
@@ -78,11 +70,24 @@ To configure and use Katalon Compact Utility, you need to update the Desired Cap
 	</tbody>
 </table>
 
-6. Execute feature by default Chrome option.
+> **Finding your Chrome Profile in the User Data Directory**
+>
+> There are multiple Profiles in a given User Data Directory. To find the name of a Chrome Profile, do as follows:
+>
+> * Open Chrome with the Profile you previously used to install Katalon Compact Utility. In the address bar, type `chrome://version` and press Enter.
+> * The line **Profile Path** displays the path to your active Profile. For example: `C:\Users\your_username\AppData\Local\Google\Chrome\User Data\your_profile_name`.
 
-	> Notes:
-	>
-	> Before executing, make sure you log out of all your Chrome sessions. This extension currently does not support multiple sessions.
+6. To save the Chrome configuration, click **Apply and Close**. 
+
+	You can now use the Spy, Record, and Smart Wait features with the default Chrome option.
+
+> Known Issues:
+> 
+> When using the Katalon Compact Utility extension, you might find some differences with the Spy and the Recording function as bellow:
+>
+> * **Spy**: On the context menu, the **Capture Object** option is not available. To capture an object, use the combination of <Alt + `> keys on the keyboard instead. See also: [Spy Web Utility](https://docs.katalon.com/katalon-studio/docs/spy-web-utility.html).
+>
+> * **Recording**: On the context menu, the **Katalon Studio** option, which supports adding Mouse Over and Verification Steps, is not available. To add Mouse Over and Verification Steps, click to add a test step, then change the keyword of that test step accordingly. See also: [Validate UI elements](https://docs.katalon.com/katalon-studio/docs/record-web-utility.html#validate-ui-elements).
 
 See also:
 
