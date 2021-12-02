@@ -33,7 +33,8 @@ To set desired capabilities for mobile testing, do as follows:
 
 4. Provide the **Name**, **Type** and **Value** of the property that you wish to configure.
 
-    > Desired capabilities is a JSON object (having keys and values pair). We need to set the capability **Name** as `key` and the capability **Value** as `value`. The capabilities keys are case-sensitive.
+      > * Desired capabilities is a JSON object (having keys and values pair). We need to set the capability **Name** as `key` and the capability **Value** as `value`. 
+      > * The capabilities keys are case-sensitive.
 
 ## Example
 ### Example 1

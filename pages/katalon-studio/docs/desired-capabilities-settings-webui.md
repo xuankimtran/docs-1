@@ -30,9 +30,10 @@ To set Chrome/Chrome (headless) desired capabilities, go to **Project > Settings
 
 After clicking **Add**, provide **Name**, **Type** and **Value** of the property that you wish to configure.
 
-> Desired capabilities is a JSON object (having keys and values pair). We need to set the capability **Name** as `key` and the capability **Value** as `value`. The capabilities `keys` are case-sensitive.
+> * Desired capabilities is a JSON object (having keys and values pair). We need to set the capability **Name** as `key` and the capability **Value** as `value`. 
+> * The capabilities keys are case-sensitive.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/KS-DC-Chrome-settings.png" width="70%" alt="Set DC in Chrome">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/KS-DC-Chrome-settings.png" width="70%" alt="Set DC in Chrome">
 
 Alternatively, you can also go to `<your test project location>\settings\internal`, open the settings files for Chrome/Chrome (headless), and edit the capabilities in the Groovy script.
 
