@@ -17,7 +17,7 @@ Automation testers usually want to specify prerequisite and clean-up configurati
 
 Every test suite from your projects now has been equipped to run either **SetUp** or **TearDown** methods, which are groups of your own defined test steps before or after executing a Test Suite. This feature is another useful extension besides [Test Listeners](/katalon-studio/docs/test-listeners-test-hooks.html) to extend your current testing flow as much as possible.
 
-In **Test Suite** interface, the **Script** tab generates sample **SetUp** and **TearDown** methods to be used. Some methods below are samples for using SetUp/TearDown in a test suite:
+In the **Test Suite** interface, the **Script** tab generates sample **SetUp** and **TearDown** methods to be used. We selected some samples below to illustrate using SetUp/TearDown methods in a test suite:
 
 ``` groovy
 /**
@@ -52,7 +52,7 @@ def tearDownTestCase() {
 }
 ```
 
-You can also find reference code at Groovy documentation: [Groovy Tutorial Page](https://docs.groovy.lang.org/next).
+You can also find further code samples in the Groovy documentation: [Groovy Tutorial Page](https://docs.groovy.lang.org/next).
 
 To not get confused with [setUp and tearDown](/display/Documentation/Define+method#Definemethod-SetUp()andTearDown()inManualview), the following workflow can be used to better visualize how Katalon Studio execute test automation projects with/ without setUp and tearDown methods.
 
@@ -66,7 +66,7 @@ To not get confused with [setUp and tearDown](/display/Documentation/Define+meth
 			<th>Method</th>
 			<th>Description</th>
 			<th>Trigger Condition</th>
-			<th>Common Usages</th>
+			<th>Common Usage</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -144,7 +144,7 @@ By default, the **SetUp** and **TearDown** methods are not triggered even if the
 		<tr>
 			<td>Tear Down If Failed</td>
 			<td>This method will be called after executing all steps of the test case, <strong>and</strong> one of those steps has <strong>Failed</strong> status.</td>
-			<td><p>Clean-up testing environment such as:</p>
+			<td><p>Clean-up the testing environment such as:</p>
 				<ul>
 					<li>Closing browsers</li>
 					<li>Disclosing opened connections to database or server</li>

@@ -86,11 +86,13 @@ Given a sample test case with the steps as below:
 
 * Open the browser
 * Navigate to a website
-* Click on certain control
+* Click on a specific control
 * Validate if a control exists on the page
 * Close the browser
 
-1. **Open the browser**: Select the **[Open Browser](/display/KD/%5BWebUI%5D+Open+Browser)** keyword. This keyword will open a browser and navigate to the specified URL if provided. (selected keywords will have their description displayed along for reference)
+1. **Open the browser**: Select the **[Open Browser](/display/KD/%5BWebUI%5D+Open+Browser)** keyword. This keyword opens a browser and navigates to the specified URL if provided. 
+
+    > Selected keywords will have their description displayed along for reference.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-case/open-browser-manual.png" alt="open browser" width="100%">
 
@@ -138,8 +140,7 @@ Given a sample test case with the steps as below:
 	</tbody>
 </table>
 
-
-3. **Click on certain control**: Add the **[Click](/display/KD/%5BWebUI%5D+Click)** keyword. This keyword represents the click action on a given object. Double click on the **Object** cell to provide the object for the keyword.
+3. **Click on a specific control**: Add the **[Click](/display/KD/%5BWebUI%5D+Click)** keyword. This keyword represents the click action on a given object. Double click on the **Object** cell to provide the object for the keyword.
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-case/click-manual.png" alt="click" width="80%">
 
 4. **Validate if a control exists on the page**: All captured objects in **Object Repository** are displayed in the **Test Object Input** dialog. Select your object then click **OK**. To learn how to capture objects, see [Spy Object](/display/KD/Record+and+Spy+Utilities).
@@ -161,7 +162,7 @@ Given a sample test case with the steps as below:
 **Recent keywords** allow users to quickly add any of the last 10 recently used keywords in the **Item** list. To reuse recent keywords, in the Test Case editor, click on **Recent keywords**.
 ### Recent Objects and Object Folders
 
-Katalon Studio allows users to quickly select recently used **Object** or jump directly to the recently used **Object Folder** in Object Repository.
+Katalon Studio allows users to quickly select recently used objects or jump directly to the recently used **Object Folder** in the Object Repository.
 
 In the Object column, double-click on any Test Object to open the **Test Object Output** dialog. Here, you can see the _Recent Object_ button on the top right corner.
 
@@ -169,20 +170,20 @@ In the Object column, double-click on any Test Object to open the **Test Object 
 
 The recent list will have two sections: **Object Folder** and **Test Object**.
 
-* **Test Object:** Display the names of the last 5 selected objects
-* **Object Folder:** Display the names of 5 folders that contain any recently used objects
+* **Test Object:** Displays/contains the names of the last 5 selected objects
+* **Object Folder:** Displays/contains the names of 5 folders that contains any recently used objects
 
 ## Generate Test Steps in Script view
 
-Once a new test case is created, you can switch to the **Script view** using the corresponding tab at the footer of the test case editor. Test steps specified in the **Manual view** are translated into a Groovy script in **Script view**.
+Once a new test case is created, you can switch to the **Script view** using the corresponding tab at the bottom of the test case editor. Test steps specified in the **Manual view** are translated into a Groovy script in **Script view**.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-case/script-view.png" alt="script view" width="100%">
 
-The import statement in a test script allows referencing to classes to be used. Expand the **import** section to see all default imported classes by Katalon Studio. The name after 'as' in each import statement is an alias for the class. You can change the alias for each class. These classes are necessary for composing a test script.
+By using the import statement in a test script, you can reference to the classes you wish to use. Expand the **import** section to see all default imported classes by Katalon Studio. The name after 'as' in each import statement is an alias for the class. You can change the alias for each class. These classes are necessary for composing a test script.
 
 ### Use Built-in Keywords in Script view
 
-Katalon Studio is an automation tool that supports keyword-driven testing. All keywords are grouped into **[WebUI](http://docs.katalon.com/display/KD/Web+UI)**, **[Mobile](http://docs.katalon.com/display/KD/Mobile)**, and **[WebService](http://docs.katalon.com/display/KD/Web+Service)** package accordingly. Press **Ctrl + Space** to view these packages and functions from the imported classes.
+Katalon Studio is an automation tool that supports keyword-driven testing. All keywords are grouped into **[WebUI](http://docs.katalon.com/display/KD/Web+UI)**, **[Mobile](http://docs.katalon.com/display/KD/Mobile)**, and **[WebService](http://docs.katalon.com/display/KD/Web+Service)** packages accordingly. Press **Ctrl + Space** to view these packages and functions from the imported classes.
 
 The following API docs may prove useful when working in Script view:
     
@@ -201,11 +202,11 @@ The **Content Assist** function will be invoked after users enter the **dot** 
 
 ### Refer to an Object in Script view
     
-You can find object ID from its Properties dialog. Go to **Test Explorer > Object Repository**. Right-click on an object and choose **Properties**.
+You can find any object ID from its Properties dialog. Go to **Test Explorer > Object Repository**. Right-click on an object and choose **Properties**.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-case/find-properties.png" alt="find properties" width="50%">
 
-To refer to an object in **Object Repository**, use `findTestObject('{Object ID}')`, in which **Object ID** is the ID of that object in Katalon Studio. You can also drag and drop the object to the Test Case editor to generate this syntax.
+To refer to an object in **Object Repository**, use `findTestObject('{Object ID}')`, in which **Object ID** is the ID of that object in Katalon Studio. You can also drag and drop the object into the Test Case editor to generate this syntax.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-case/object-properties.png" alt="object properties" width="70%">
 
@@ -215,7 +216,7 @@ Given a sample test case with the steps as below:
 
 * Open the browser
 * Navigate to a website
-* Click on certain control
+* Click on a specific control
 * Validate if a control exists on the page
 * Close the browser
 
@@ -229,7 +230,7 @@ In this scenario, you will create a Web application test script to make use of t
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-case/navigate.png" alt="navigate keyword" width="100%">
 
-3. **Click on certain control**: Enter the **[Click](/display/KD/%5BWebUI%5D+Click)** keyword. This keyword represents the click action on a given object. You need to specify an object for this action.
+3. **Click on a specific control**: Enter the **[Click](/display/KD/%5BWebUI%5D+Click)** keyword. This keyword represents the click action on a given object. You need to specify an object for this action.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-case/click.png" alt="click keywords" width="100%"> 
     
@@ -242,9 +243,5 @@ In this scenario, you will create a Web application test script to make use of t
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-case/close-browser.png" alt="close browser" width="100%">
 
 </details>
-
-**Next step**:
-
-* [Execute your Test Case]()
 
 > Learn more with our Katalon Academy course: [Create and Execute Test Cases](https://academy.katalon.com/courses/create-execute-test-cases/?utm_source=kat_docs_create&utm_medium=bottom_link&utm_campaign=academy_promotion).

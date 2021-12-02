@@ -15,14 +15,14 @@ When generating test steps in a test case, you can also call another test case a
 
 ## Call Test Case in Manual view
 
-To make a call to another test case in **Manual view**, do as follows:
+To call another test case in **Manual view**, do as follows:
 
 1. Open a test case in **Manual** view. Click on the drop-down icon of the **Add** button, then select **Call Test Case**.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/call-test-case/call-test-case.png" alt="call test case option" width="60%">
 
 
-2.  The **Test Case Browser** dialog appears. This dialog shows all existing test cases within the project. Select a test case to be called, then click **OK**. You can only call a test case at a time.
+2.  The **Test Case Browser** dialog appears. This dialog shows all existing test cases within the project. Select a test case to be called, then click **OK**. You can only call one test case at a time.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/call-test-case/test-case-browser.png" alt="test case browser" width="70%">
 
@@ -31,7 +31,7 @@ To make a call to another test case in **Manual view**, do as follows:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/call-test-case/call-test-case-manual.png" alt="call test case in manual view" alt="70%">
 
-    > Once a test step is added as **Call Test Case**, it is not allowed to change into another keyword.
+    > Once a test step is added as **Call Test Case**, you cannot change it to another keyword.
 
 ## Call Test Case in Script view
 
@@ -63,7 +63,7 @@ Mobile.callTestCase(findTestCase("Test Case ID"), ["key1":"value1", "key2":"valu
 		<tr>
 			<td>Test Case ID</td>
 			<td>
-				<p>The&nbsp;ID&nbsp;of the test case to be called. You can find this info in test case properties. Learn more about Test Case Properties at: <a href="https://docs.katalon.com/katalon-studio/docs/search.html#view-a-test-artifact-properties">View a test artifact properties</a>.</p>
+				<p>The&nbsp;ID&nbsp;of the test case to be called. You can find this info in test case properties. Learn more about Test Case Properties here: <a href="https://docs.katalon.com/katalon-studio/docs/search.html#view-test-artifact-properties">View test artifact properties</a>.</p>
 			</td>
 		</tr>
 		<tr>

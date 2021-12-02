@@ -33,7 +33,7 @@ Navigate to **Tests Explorer** and find the test artifact that you want to get t
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/search/copy-ID.png" alt="copy ID" width="60%">
 
-### View a test artifact properties
+### View test artifact properties
 
 You can also find **ID**, **Name**, **Description**, and **Tag** of a test artifact by viewing the **Properties**. However, you cannot view the properties of a folder.
 
