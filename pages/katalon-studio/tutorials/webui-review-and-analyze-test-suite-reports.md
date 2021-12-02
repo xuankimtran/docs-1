@@ -1,5 +1,5 @@
 ---
-title: "[WebUI] View and Analyze Test Suite Reports"
+title: "[WebUI] Analyze Test Suite Reports and Resolve Errors"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/tutorials/webui-view-and-analyze-test-suite-reports.html
 description: 
