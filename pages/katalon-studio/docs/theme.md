@@ -3,6 +3,7 @@ title: "Change Katalon Studio Theme"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/theme.html 
 redirect_from:
+    - "/katalon-studio/docs/dark-theme.html"
 description: 
 ---
 

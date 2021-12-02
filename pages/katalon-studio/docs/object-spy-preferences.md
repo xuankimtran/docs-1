@@ -6,19 +6,19 @@ redirect_from:
 description: 
 ---
 
-You can access the **Object Spy Preferences** at **Window > Katalon Studio Preferences > Katalon > Object Spy**.
+You can access the **Object Spy Preferences** at **Katalon Studio > Preferences > Katalon > Object Spy**.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/object-spy-preferences/object-spy.png" width="70%" alt="Object spy preferences">
 
-### Pin Object Spy Window while spying
+### Pin Object Spy Window
 
-You can check/uncheck this option to pin Object Spy Window on top while spying for more convenience.
+You can check the **Pin Object Spy Window while spying** option to make the **Object Spy** window always stay on top while spying.
 
 ### Hotkeys Settings
 
-Katalon Studio supports customizable hotkeys for Object Spy function so that users can choose the preferred combination or avoid conflict with UAT hotkeys.
+Katalon Studio supports customizable hotkeys for the Object Spy function. You can choose the preferred combination to capture objects or avoid conflict with your UAT hotkeys. The default hotkey for capturing objects is <button>⌥</button> + <button>`</button>.
 
-> This ability to change hotkeys for Object Spy only affects the Chrome browser. Other browsers will be considered for future releases.
+> This ability to change hotkeys for Object Spy only affects the Chrome and Firefox browser. Other browsers will be considered for future releases.
 
 **See also**:
 
