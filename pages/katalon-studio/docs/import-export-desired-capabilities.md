@@ -1,5 +1,5 @@
 ---
-title: "Reusing Desired Capabilities across projects"
+title: "Reuse Desired Capabilities across projects"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/import-export-desired-capabilities.html
 ---

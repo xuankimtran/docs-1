@@ -14,66 +14,137 @@ The following guidelines show you how to start browsers (Firefox, Chrome, Edge C
 
 ## Firefox
 
-1. Go to **Project** > **Settings**.
+1. Go to **Project > Settings > Desired Capabilities > Web UI > Firefox**.
 
-    The **Project Settings** dialog appears.
+2. Click **Add** on the command toolbar, then input the following values:
 
-2. Select **Desired Capabilities** > **Web UI** > **Firefox**.
+   <table>
+   <thead>
+   <tr>
+      <th colspan="3">Table 1</th>
+   </tr>
+   </thead>
+   <tbody>
+   <tr>
+      <td>Name</td>
+      <td>Type</td>
+      <td>Value</td>
+   </tr>
+   <tr>
+      <td>moz:firefoxOptions</td>
+      <td>Dictionary</td>
+      <td>Click More (...). In the pop-up <strong>Dictionary Property Builder</strong> dialog, click <strong>Add</strong>, then input values from the Table 2.</td>
+   </tr>
+   </tbody>
+   </table>
 
-3. Add a new property as follows.
+   <table>
+   <thead>
+   <tr>
+      <th colspan="3">Table 2</th>
+   </tr>
+   </thead>
+   <tbody>
+   <tr>
+      <td>Name</td>
+      <td>Type</td>
+      <td>Value</td>
+   </tr>
+   <tr>
+      <td>args</td>
+      <td>List</td>
+      <td>--private</td>
+   </tr>
+   </tbody>
+   </table>
 
-    * **Name**: enter `firefox_profile`.
-    * **Type**: select `Dictionary`.
-    * **Value**: enter `browser.privatebrowsing.autostart=true`.
+   <a class="pop">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/start-browsers-in-private-mode/KS-DC-Firefox-in-private-mode.png" width="70%" alt="Open Firefox with devtools in the private mode">
+   </a>
+   <p style="text-align: center;"><em>Click the image to enlarge it</em></p>
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/start-browsers-in-private-mode/1-private-mode.png" width=100% alt="ks firefox private mode">
-
-4. Click **Apply and Close**.
+3. Click **Apply and Close**.
 
 ## Chrome
 
-1. Go to **Project** > **Settings**.
+1. Go to **Project > Settings > Desired Capabilities > Web UI > Chrome**.
 
-    The **Project Settings** dialog appears.
+2. Click **Add** on the command toolbar, then input the following values:
 
-2. Select **Desired Capabilities** > **Web UI** > **Chrome**.
-
-3. Add a new property as follows.
-
-    * **Name**: enter `args`.
-    * **Type**: select `List`.
-    * **Value**: enter `--incognito`.
+    <table>
+    <thead>
+    <tr>
+    <th>Name</th>
+    <th>Type</th>
+    <th>Value</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td>args</td>
+    <td>List</td>
+    <td>--incognito</td>
+    </tr>
+    </tbody>
+    </table>
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/start-browsers-in-private-mode/2-private-mode.png" width=100% alt="ks chrome private mode">
 
-4. Click **Apply and Close**.
+3. Click **Apply and Close**.
 
 ## Edge Chromium
 
-1. Go to **Project** > **Settings**.
-
-    The **Project Settings** dialog appears.
-
-2. Select **Desired Capabilities** > **Web UI** > **Edge Chromium**.
+1. Go to **Project > Settings > Desired Capabilities > Web UI > Edge Chromium**.
 
 3. Add a new property as follows.
 
-    * **Name**: enter `ms:edgeOptions`.
-    * **Type**: select `Dictionary`.
-    * **Value**: open the **Dictionary Property Builder** dialog and add the following property.
-    
-        * **Name**: enter `args`.
-        * **Type**: select `List`.
-        * **Value**: enter `-inprivate`.
+   <table>
+   <thead>
+   <tr>
+      <th colspan="3">Table 1</th>
+   </tr>
+   </thead>
+   <tbody>
+   <tr>
+      <td>Name</td>
+      <td>Type</td>
+      <td>Value</td>
+   </tr>
+    <tr>
+    <td>ms:edgeChromium</td>
+    <td>boolean</td>
+    <td>true</td>
+   </tr>
+   <tr>
+      <td>ms:edgeOptions</td>
+      <td>Dictionary</td>
+      <td>Click More (...). In the pop-up <strong>Dictionary Property Builder</strong> dialog, click <strong>Add</strong>, then input values from the Table 2.</td>
+   </tr>
+   </tbody>
+   </table>
 
-        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/start-browsers-in-private-mode/edge-chromium-2.png" width=100% alt="ks edge chromium dictionary property builder">
+   <table>
+   <thead>
+   <tr>
+      <th colspan="3">Table 2</th>
+   </tr>
+   </thead>
+   <tbody>
+   <tr>
+      <td>Name</td>
+      <td>Type</td>
+      <td>Value</td>
+   </tr>
+   <tr>
+      <td>args</td>
+      <td>List</td>
+      <td>-inprivate</td>
+   </tr>
+   </tbody>
+   </table>
 
-4. Add a second property as follows.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/start-browsers-in-private-mode/edge-chromium-2.png" width=100% alt="ks edge chromium dictionary property builder">
 
-    * **Name**: enter `ms:edgeChromium`.
-    * **Type**: select `Boolean`.
-    * **Value**: `true`.
-
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/start-browsers-in-private-mode/edge-chromium-1.png" width=100% alt="ks edge chromium private mode">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/start-browsers-in-private-mode/edge-chromium-1.png" width=100% alt="ks edge chromium private mode">
 
 5. Click **Apply and Close**.
