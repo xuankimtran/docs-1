@@ -153,14 +153,16 @@ items:
             url: /katalon-studio/docs/toolbars-and-views.html
           - title: "Preferences"
             tree:
-              - title: "Katalon Studio Preferences Overview"
-                url: /katalon-studio/docs/katalon-studio-preferences.html
+              - title: "Katalon Preferences"
+                url: /katalon-studio/docs/katalon-preferences.html
               - title: "Import Preferences"
                 url: /katalon-studio/docs/import-preferences.html
               - title: "Proxy Preferences"
                 url: /katalon-studio/docs/proxy-preferences.html
               - title: "Test Case Preferences"
                 url: /katalon-studio/docs/test-case-preferences.html
+              - title: "Mobile Preferences"
+                url: /katalon-studio/docs/mobile-preferences.html
               - title: "Object Spy Preferences"
                 url: /katalon-studio/docs/object-spy-preferences.html
           - title: "Change Katalon Studio Theme"
