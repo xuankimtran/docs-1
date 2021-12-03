@@ -41,4 +41,4 @@ You must execute tests on Katalon TestOps to generate the test reports first. Af
 
 This case applies if you don't run tests in Katalon TestOps.
 
-In this case, the Test Cases together with their execution data will appear in the folder named *Uploaded Data* after you run tests in other different platforms.
+In this case, the Test Cases together with their execution data will appear in the folder named *Uploaded Data* after you run tests in other platforms.
