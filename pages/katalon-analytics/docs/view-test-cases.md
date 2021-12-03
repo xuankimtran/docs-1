@@ -9,9 +9,14 @@ You can manage test cases in Katalon TestOps to evaluate testing qualities and v
 
 By doing so, your team can spot weak points in your software or application deployment.
 
-With test management, you can also estimate time it will take to perform all your automated tests. This is useful in the production stage, especially if you release critical updates.
+With test management, you can also estimate the time it will take to perform all your automated tests. This is useful in the production stage, especially if you release critical updates.
 
 To help you manage test cases effectively, Katalon TestOps categorizes test cases into the following types:
+
+* Active test cases
+* Stale test cases
+* Slowest test cases
+* Flaky test cases
 
 > Notes:
 >
@@ -31,7 +36,7 @@ Go to **Reports** > **Test Cases** > **Stale**.
 
 <img src="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-analytics/docs/view-test-cases/stale-test-case.png" width=100% alt="stale test cases">
 
-You can see the list of Test Cases which are out-dated or no longer maintained.
+You can see the list of Test Cases which are outdated or no longer maintained.
 
 You can review these Test Cases to decide whether they need to be updated.
 
@@ -51,7 +56,7 @@ Go to **Reports** > **Test Cases** > **Flaky**.
 
 You can see the details of flaky Test Cases here.
 
-Katalon TestOps allows you to investigate deeper into the context around flakiness occurrence to help you find the root cause and assist debugging over time.
+Katalon TestOps allows you to investigate deeper into the root causes of test flakiness, and assist with debugging.
 
 ## Platform Coverage
 
@@ -59,6 +64,6 @@ Go to **Reports** > **Test Cases** > **Platform Coverage**.
 
 <img src="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-analytics/docs/view-test-cases/platform-coverage.png" width=100% alt="platform coverage">
 
-You can review the details of Test Case's quality based on operating system (OS) and browsers.
+You can review Test Case quality based on operating systems and browsers.
 
-You can check the updates on a weekly or monthly basis.
+You can view quality changes on a weekly or monthly time scale.
