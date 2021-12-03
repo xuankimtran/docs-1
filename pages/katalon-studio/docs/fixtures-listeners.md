@@ -11,13 +11,13 @@ redirect_from:
 description:
 ---
 
-## SetUp() and TearDown() for Test Suite and Test Case
+## setUp() and tearDown() for Test Suite and Test Case
 
 Automation testers usually want to specify prerequisite and clean-up configurations for their test cases. With the prerequisite configuration, the test engine must take specific actions before starting test execution. For clean-up configuration, the test engine must carry out some actions after the test execution finishes.
 
-Every test suite from your projects now has been equipped to run either **SetUp** or **TearDown** methods, which are groups of your own defined test steps before or after executing a Test Suite. This feature is another useful extension besides [Test Listeners](/katalon-studio/docs/test-listeners-test-hooks.html) to extend your current testing flow as much as possible.
+Every test suite from your projects now has been equipped to run either **setUp** or **tearDown** methods, which are groups of your own defined test steps before or after executing a Test Suite. This feature is another useful extension besides the Test Listeners to extend your current testing flow as much as possible.
 
-In the **Test Suite** interface, the **Script** tab generates sample **SetUp** and **TearDown** methods to be used. We selected some samples below to illustrate using SetUp/TearDown methods in a test suite:
+In the **Test Suite** interface, the **Script** tab generates sample **setUp** and **tearDown** methods to be used. We selected some samples below to illustrate using SetUp/TearDown methods in a test suite:
 
 ``` groovy
 /**
@@ -54,7 +54,7 @@ def tearDownTestCase() {
 
 You can also find further code samples in the Groovy documentation: [Groovy Tutorial Page](https://docs.groovy.lang.org/next).
 
-To not get confused with [setUp and tearDown](/display/Documentation/Define+method#Definemethod-SetUp()andTearDown()inManualview), the following workflow can be used to better visualize how Katalon Studio execute test automation projects with/ without setUp and tearDown methods.
+To not get confused with setUp and tearDown, the following workflow can be used to better visualize how Katalon Studio execute test automation projects with/ without setUp and tearDown methods.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-listeners-test-hooks/image2018-9-27-123A333A20.png" alt="test execution lifecycle" width=70%>
 
