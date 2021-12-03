@@ -6,7 +6,7 @@ redirect_from:
 description: 
 ---
 
-With Test Case preferences, you can define the default behaviors related to test case design. This include:
+With Test Case preferences, you can define the default behaviors related to your test case design. This include:
 
 * Test Case Calling
 * Default Open View
@@ -32,7 +32,7 @@ For example, we call the `TC1_Verify Successful Login` test case, with two varia
       FailureHandling.STOP_ON_FAILURE)
   ```
 
-* **Generate variable with the same name as the exposed variable of the called test case**: The called test case uses its variable names as variables values.
+* **Generate variable with the same name as the exposed variable of the called test case**: The called test case uses its variable names as variable values.
 
   ``` groovy
   WebUI.callTestCase(findTestCase('Main Test Cases/TC1_Verify Successful Login'), [('Username') : Username, ('Password') : Password], 
@@ -45,7 +45,7 @@ To learn more about supported types of variables in Katalon Studio, refer to thi
 
 ### Default Open View
 
-By default, Katalon Studio open your test case in the manual view. You can choose to always open your test case in the manual view or in the script view.
+By default, Katalon Studio opens your test case in the manual view. You can choose to always open your test case in the manual view or the script view.
 
 ### Default Keyword Type
 
@@ -55,7 +55,7 @@ In each keyword type, you can also set a default keyword. For example, you set *
 
 ### Line-wrapping Settings
 
-When you edit in script view, depending on how you want to view your scripts, you can enable/disable the line-wrapping to wrap up the code lines in a customized maximum line width.
+When you edit in script view, depending on how you want to view your scripts, you can enable/disable the line-wrapping to wrap up the code lines in customized maximum line width.
 
 When switching from the manual mode to the script mode, you can also wrap the code lines by pressing a keyboard combination of **Command+Shift+F** for macOS or **Ctrl+Shift+F** for Windows and Linux.
 

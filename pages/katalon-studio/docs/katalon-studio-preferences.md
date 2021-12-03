@@ -25,7 +25,7 @@ Katalon Preferences define default behaviors of Katalon Studio across projects. 
 - [Recorder](https://docs.katalon.com/katalon-studio/docs/record-web-utility-using-chrome-with-profile.html#configuring-and-using-katalon-record-utility-with-chrome-profile)
 - [Test Case](https://docs.katalon.com/katalon-studio/docs/test-case-preferences.html)
 
-In this article, you can learn some basic configuration for general behaviors at startup.
+In this article, you can learn some basic configurations for general behaviors at startup.
 
 ## Katalon Preferences
 
@@ -57,7 +57,7 @@ You can see the following options:
   </tr>
   <tr>
     <td>Automatically check for new version</td>
-    <td>This option allows Katalon Studio to check for the latest version automatically.</td>
+    <td>This option allows Katalon Studio to automatically check for the latest version.</td>
     <td></td>
   </tr>
 </tbody>
