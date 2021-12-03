@@ -95,7 +95,7 @@ items:
                 url: /katalon-studio/docs/ks-installation-macOS-windows.html
               - title: "Install Katalon Studio on Linux (GUI)"
                 url: /katalon-studio/docs/katalon-studio-gui-beta-for-linux.html
-              - title: "Migration from other tools
+              - title: "Migration from other tools"
                 tree:
                 - title: "Selenium/TestNG/JUnit Migration"
                   url: /katalon-studio/docs/selenium-testng-junit-migration.html
