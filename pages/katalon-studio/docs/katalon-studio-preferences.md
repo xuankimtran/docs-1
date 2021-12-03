@@ -1,7 +1,7 @@
 ---
-title: "Katalon Studio Preferences" 
+title: "Katalon Preferences" 
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-studio/docs/katalon-studio-preferences.html 
+permalink: katalon-studio/docs/katalon-preferences.html 
 redirect_from:
     - "/display/KD/Katalon+Studio+Preferences/"
     - "/display/KD/Katalon%20Studio%20Preferences/"
@@ -10,19 +10,28 @@ redirect_from:
     - "/x/YYUw/"
     - "/katalon-studio/docs/execution-preferences-version-50-and-below/"
     - "/katalon-studio/docs/execution-preferences-version-50-and-below.html"
+    - "/katalon-studio/docs/katalon-studio-preferences.html"
 description: 
 ---
 
-Katalon Studio Preferences define default behaviors of Katalon Studio across projects. In Katalon Preferences, you can configure:
+Katalon Preferences define default behaviors of Katalon Studio across projects. In Katalon Preferences, you can configure:
 
-- [Import Preferences](https://docs.katalon.com/katalon-studio/docs/import-preferences.html)
-- [Test Case Preferences](https://docs.katalon.com/katalon-studio/docs/test-case-preferences.html)
-- [Proxy Preferences](https://docs.katalon.com/katalon-studio/docs/proxy-preferences.html)
-- [Object Spy Preferences](https://docs.katalon.com/katalon-studio/docs/object-spy-preferences.html)
+- [Git](https://docs.katalon.com/katalon-studio/docs/git-integration.html#configure-git-integration)
+- [Kobiton](https://docs.katalon.com/katalon-studio/docs/integrate_with_kobiton.html#enable-kobiton-integration)
+- [Mobile](https://docs.katalon.com/katalon-studio/docs/mobile-preferences.html)
+- [Object Spy](https://docs.katalon.com/katalon-studio/docs/object-spy-preferences.html)
+- [Plugin](https://docs.katalon.com/katalon-studio/docs/kse-use-plugins.html)
+- [Proxy](https://docs.katalon.com/katalon-studio/docs/proxy-preferences.html)
+- [Recorder](https://docs.katalon.com/katalon-studio/docs/record-web-utility-using-chrome-with-profile.html#configuring-and-using-katalon-record-utility-with-chrome-profile)
+- [Test Case](https://docs.katalon.com/katalon-studio/docs/test-case-preferences.html)
+
+In this article, you can learn some basic configuration for general behaviors at startup.
 
 ## Katalon Preferences
 
-To configure Katalon general behaviors at startup, from the main menu, go to **Katalon Studio > Preferences > Katalon**. 
+To configure Katalon general behaviors at startup, from the main menu, go to **Katalon Studio > Preferences > Katalon**.
+
+Shortcut to open the **Preferences** dialog: <button>⌘</button> <button>`</button>
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-preferences/KS-PREF-Katalon-preferences.png" width=80% alt="Katalon preferences">
 
@@ -80,3 +89,7 @@ You need an active Katalon Studio Enterprise license to disable these functions 
 </table>
 
 > To learn more about Katalon licenses, see [Types of Licenses](https://docs.katalon.com/katalon-studio/docs/license.html).
+
+> All the above preferences are saved into the `com.kms.katalon.composer.testcase.prefs` file under the "**config\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings**" location in your Katalon Studio build folder. You can manually modify the values in this file to change these preference settings.
+
+You can also import Preferences to reuse a previous configuration. See [Import Preferences](https://docs.katalon.com/katalon-studio/docs/import-preferences.html).

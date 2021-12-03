@@ -6,48 +6,67 @@ redirect_from:
 description: 
 ---
 
-All the preferences under the **Test Case** group are for controlling the default behaviors that Katalon Studio should perform when test cases are designed.
+With Test Case preferences, you can define the default behaviors related to test case design. This include:
 
-You can configure the Test Case preferences via **Katalon Studio > Preferences > Katalon > Test Case**.
+* Test Case Calling
+* Default Open View
+* Default Keyword Type
+* Line-wrapping settings
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-case-preferences/Window.png" width=70% alt="Test Case Preferences">
+To configure your Test Case preferences, go to **Katalon Studio > Preferences > Katalon > Test Case**.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-case-preferences/test-case-preferences.png" width=100% alt="Test Case Preferences">
 
 ### Test Case Calling
 
-This is to specify how Katalon Studio should behave when you are calling another test case in your current one.
+The **Test Case Calling** option allows you to specify how Katalon Studio should behave when you call another test case as a test step. To learn more about this function, see [Call Test Case](https://docs.katalon.com/katalon-studio/docs/call-test-case.html).
 
-* **Generate variable with default value**: Called test case uses the default values for its variables.
-* **Generate variable with the same name as the exposed variable of the called test case**: Called test case uses the default values, which are the same as its variables name.
-  * **Expose variables automatically after choosing the called test case**: Called test case uses the default values, which are the same as its variables name. The variables are also added to the current test case at the 'Variables' tab.
+For example, we call the `TC1_Verify Successful Login` test case, with two variables named `Username` and `Password`. Their variables are displayed in the image below:
 
-You might need to refer back to the [Variable Types](https://docs.katalon.com/katalon-studio/docs/variable-types.html#test-case-variables) section for which types of variables are supported in Katalon Studio.
+<img src="https://github.com/katalon-studio/docs-images/raw/a5d0eb256e48bbfb94008ade2ddd43fd9856ede9/katalon-studio/docs/test-case-preferences/calling-example.png" alt="example" width="80%">
 
-### Initially open Test Case
+* **Generate variable with default value**: The called test case uses the default value of its variables.
 
-This is to indicate in which view Katalon Studio should display a test case when it is first opened.
+  ``` groovy
+  WebUI.callTestCase(findTestCase('Main Test Cases/TC1_Verify Successful Login'), [('Username') : 'John Doe', ('Password') : 'ThisIsNotAPassword'], 
+      FailureHandling.STOP_ON_FAILURE)
+  ```
 
-* **In Manual View**: The opened test case will be first in the manual view.
-* **In Script View**: The opened test case will be first in the script view.
+* **Generate variable with the same name as the exposed variable of the called test case**: The called test case uses its variable names as variables values.
+
+  ``` groovy
+  WebUI.callTestCase(findTestCase('Main Test Cases/TC1_Verify Successful Login'), [('Username') : Username, ('Password') : Password], 
+      FailureHandling.STOP_ON_FAILURE)
+  ```
+
+  * **Expose variables automatically after choosing the called test case**: At the **Variables** tab, all variables of the called test case are also added to the current test case.
+
+To learn more about supported types of variables in Katalon Studio, refer to this document: [Variable Types](https://docs.katalon.com/katalon-studio/docs/variable-types.html#test-case-variables).
+
+### Default Open View
+
+By default, Katalon Studio open your test case in the manual view. You can choose to always open your test case in the manual view or in the script view.
 
 ### Default Keyword Type
 
-* **Default Keyword**: These default keywords will be available when a new step is added to your test case.
+* **Default Keyword**: Based on your frequently used types of testing, you can set the **Default Keyword Type** as WebUI, Mobile, Cucumber, Web Service, Windows, or TestNG. For example, you set the default keyword type as `WebUI`. In the test case editor, whenever you click **Add**, a new WebUI keyword is added as a new test step.
+
+In each keyword type, you can also set a default keyword. For example, you set **Accept Alert** as the default keyword for the **WebUI** keyword type. In the test case editor, whenever you click **Add**, the **Accept Alert** is added as a new test step by default.
 
 ### Line-wrapping Settings
 
-This is to enable Katalon Studio to wrap up the code lines in a script with a customized maximum line width. You can also wrap the code lines when switching from the manual mode to the script mode by pressing a keyboard combination of **Command+Shift+F** (Mac Users) or **Ctrl+Shift+F** (Windows and Linux Users).
+When you edit in script view, depending on how you want to view your scripts, you can enable/disable the line-wrapping to wrap up the code lines in a customized maximum line width.
 
-Before the line-wrapping enabled:
+When switching from the manual mode to the script mode, you can also wrap the code lines by pressing a keyboard combination of **Command+Shift+F** for macOS or **Ctrl+Shift+F** for Windows and Linux.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-case-preferences/wrap.png" width=100% alt="Before the line-wrapping enabled">
+* Line-wrapping disabled:
 
-
-After the line-wrapping enabled:
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-case-preferences/wrapped.png" width=100% alt="After the line-wrapping enabled">
+  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-case-preferences/wrap.png" width=100% alt="Before the line-wrapping enabled">
 
 
-> All the above preferences are saved into the  `com.kms.katalon.composer.testcase.prefs` file under the "**config\\.metadata\\.plugins\\org.eclipse.core.runtime\\.settings**" location in your Katalon Studio build folder. You can manually modify the values in this file to change these preference settings.
+* Line-wrapping enabled:
+
+  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-case-preferences/wrapped.png" width=100% alt="After the line-wrapping enabled">
 
 **See also**:
 
