@@ -8,11 +8,11 @@ description:
 
 From Katalon Studio version 7.5.0 onwards, the proxy is divided into two categories: Authentication and System proxies. You can apply different proxy configurations for connecting to the Katalon server and your servers during testing.
 
-Please go to **Katalon Studio> Preferences > Katalon > Proxy** and select **Authentication** or **System** section for the corresponding proxy configuration of each type.
+Please go to **Katalon Studio> Preferences > Katalon > Proxy** and select the **Authentication** or **System** section for the corresponding proxy configuration of each type.
 
 ## Authentication Proxy
 
-The proxy configurations in this section are used for all network connections to authenticate with Katalon Servers, including Katalon account authentication, Katalon Auto-updater, Katalon TestOps, and  Katalon Store integration, sample projects provider, AMI Authentication, and etc.)
+The proxy configurations in this section are used for all network connections to authenticate with Katalon Servers, including Katalon account authentication, Katalon Auto-updater, Katalon TestOps, and  Katalon Store integration, sample projects provider, AMI Authentication, etc)
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/auth-proxy.png" width="70%" alt="Authentication proxy">
 
@@ -24,7 +24,7 @@ System proxy configurations are applied to all network connections generated whe
 
 ## Proxy Settings
 
-In the Proxy Settings areas of both Authentication and System proxies, you can select one of three options below.
+In the Proxy Settings areas of both Authentication and System proxies, you can select one of the three options below.
 
 * **No proxy**: there's no proxy.
 * **Use system proxy configuration**: Katalon Studio guesses which proxy server your system is behind by checking Java, browser and operating system settings, and environment variables.
