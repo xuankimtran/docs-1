@@ -19,13 +19,11 @@ To call another test case in **Manual view**, do as follows:
 
 1. Open a test case in **Manual** view. Click on the drop-down icon of the **Add** button, then select **Call Test Case**.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/call-test-case/call-test-case.png" alt="call test case option" width="60%">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/call-test-case/call-test-case.png" alt="call test case option" width="70%">
 
+2. The **Test Case Browser** dialog appears. This dialog shows all existing test cases within the project. Select a test case to be called, then click **OK**. You can only call one test case at a time.
 
-2.  The **Test Case Browser** dialog appears. This dialog shows all existing test cases within the project. Select a test case to be called, then click **OK**. You can only call one test case at a time.
-
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/call-test-case/test-case-browser.png" alt="test case browser" width="70%">
-
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/call-test-case/test-case-browser.png" alt="test case browser" width="60%">
 
 3.  A **Call Test Case** step is now added with the selected test case above as its target.
 
@@ -35,9 +33,9 @@ To call another test case in **Manual view**, do as follows:
 
 ## Call Test Case in Script view
 
-In the **Script view**, the `callTestCase` method allows users to make a call to another test case.
+In the **Script view**, the `callTestCase` method allows users to call another test case as a test step.
 
-Open a test case in script view, then refer to either of the following syntaxes:
+Open a test case in the script view, then refer to either of the following syntaxes:
 
 ```groovy
 
@@ -45,10 +43,10 @@ import com.kms.katalon.core.model.FailureHandling
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
-//call test case using WebUI Class
+//Call test case using WebUI Class
 WebUI.callTestCase(findTestCase("Test Case ID"), ["key1":"value1", "key2":"value2", … , "keyN":"valueN"], FailureHandling.OPTIONAL)
 
-//call test case using Mobile Class
+//Call test case using Mobile Class
 Mobile.callTestCase(findTestCase("Test Case ID"), ["key1":"value1", "key2":"value2", … , "keyN":"valueN"], FailureHandling.OPTIONAL)
 ```
 
@@ -63,7 +61,7 @@ Mobile.callTestCase(findTestCase("Test Case ID"), ["key1":"value1", "key2":"valu
 		<tr>
 			<td>Test Case ID</td>
 			<td>
-				<p>The&nbsp;ID&nbsp;of the test case to be called. You can find this info in test case properties. Learn more about Test Case Properties here: <a href="https://docs.katalon.com/katalon-studio/docs/search.html#view-test-artifact-properties">View test artifact properties</a>.</p>
+				<p>The ID of the test case to be called. You can find this info in the test case properties. Learn more about Test Case Properties here: <a href="https://docs.katalon.com/katalon-studio/docs/search.html#view-test-artifact-properties">View test artifact properties</a>.</p>
 			</td>
 		</tr>
 		<tr>
@@ -72,7 +70,7 @@ Mobile.callTestCase(findTestCase("Test Case ID"), ["key1":"value1", "key2":"valu
 				<pre><code class="language-groovy">[key1:value1, key2:value2, &hellip; , keyN:valueN]</code></pre>
 			</td>
 			<td>
-				<p>The&nbsp;list of input parameters&nbsp;for that test case, if any:</p>
+				<p>The list of input parameters for that test case, if any:</p>
 				<ul>
 					<li>Key(s): The defined <a class="external-link" href="https://docs.katalon.com/katalon-studio/docs/variable-types.html#test-case-variables" rel="nofollow">Test Case variables</a> within the called test case.</li>
 					<li>Value: the value to be used for the corresponding public variables.</li>
