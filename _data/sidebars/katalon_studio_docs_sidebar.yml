@@ -87,28 +87,18 @@ items:
             url: /katalon-studio/docs/supported-environments.html
       - title: "Set up Katalon Studio"
         tree:
-          - title: "Installation and Activation"
+          - title: "Installation Overview"
+            url: /katalon-studio/docs/getting-started.html
+          - title: "Install Katalon Studio on macOS/Windows"
+            url: /katalon-studio/docs/ks-installation-macOS-windows.html
+          - title: "Install Katalon Studio on Linux (GUI)"
+            url: /katalon-studio/docs/katalon-studio-gui-beta-for-linux.html
+          - title: "Migration from other tools"
             tree:
-              - title: "Installation Overview"
-                url: /katalon-studio/docs/getting-started.html
-              - title: "Install Katalon Studio on macOS/Windows"
-                url: /katalon-studio/docs/ks-installation-macOS-windows.html
-              - title: "Install Katalon Studio on Linux (GUI)"
-                url: /katalon-studio/docs/katalon-studio-gui-beta-for-linux.html
-              - title: "Migration from other tools"
-                tree:
-                - title: "Selenium/TestNG/JUnit Migration"
-                  url: /katalon-studio/docs/selenium-testng-junit-migration.html
-                - title: "Import Selenium IDE v3 projects"
-                  url: /katalon-studio/docs/import-selenium-ide.html
-              - title: "Configuration for Web Testing"
-                tree:
-                  - title: "Internet Explorer Configurations"
-                    url: /katalon-studio/docs/internet-explorer-configurations.html
-              - title: "Configuration for Mobile Testing"
-                tree:
-                  - title: "Installing WebDriverAgent for iOS devices"
-                    url: /katalon-studio/docs/installing-webdriveragent-for-ios-devices.html
+              - title: "Selenium/TestNG/JUnit Migration"
+                url: /katalon-studio/docs/selenium-testng-junit-migration.html
+              - title: "Import Selenium IDE v3 projects"
+                url: /katalon-studio/docs/import-selenium-ide.html
       - title: "Tutorials and Samples"
         tree:
           - title: "Quick Start"
@@ -127,16 +117,10 @@ items:
                 url: /katalon-studio/docs/bdd-samples.html
           - title: "iOS"
             tree:
-              - title: "[Mobile] iOS Setup"
-                url: /katalon-studio/tutorials/mobile-ios-setup.html
               - title: "[Mobile] Create and Run iOS Test Case"
                 url: /katalon-studio/tutorials/mobile-create-ios-test-case.html
           - title: "Android"
             tree:
-              - title: "[Mobile] Android Setup"
-                url: /katalon-studio/tutorials/mobile-android-setup.html
-              - title: "[Mobile] Configure Android Studio (Emulator)"
-                url: /katalon-studio/docs/configure-android-studio.html
               - title: "[Mobile] Create and Run Android Test Case"
                 url: /katalon-studio/tutorials/mobile-create-android-test-case.html
           - title: "Web UI"
@@ -195,6 +179,60 @@ items:
                 url: /katalon-studio/docs/working-with-sensitive-text.html
               - title: "Test Case Management With Tags"
                 url: /katalon-studio/docs/test-case-management-with-tags.html
+          - title: "Configure Test Cases"
+            tree:
+              - title: "Desired Capabilities"
+                tree:
+                  - title: "Introduction to Desired Capabilities"
+                    url: /katalon-studio/docs/introduction-to-desired-capabilities.html
+                  - title: "Set up Desired Capabilities for WebUI Testing"
+                    url: /katalon-studio/docs/desired-capabilities-settings-webui.html
+                  - title: "Set up Desired Capabilities in Mobile Testing"
+                    url: /katalon-studio/docs/desired-capabilities-settings-mobile.html
+                  - title: "Set up Desired Capabilities in Windows Desktop App Testing"
+                    url: /katalon-studio/docs/desired-capabilities-settings-windows.html
+                  - title: "Set up Remote Server in Desired Capabilities"
+                    url: /katalon-studio/docs/desired-capabilities-remote-settings.html
+                  - title: "Set Custom Desired Capabilities"
+                    url: /katalon-studio/docs/set-custom-desired-capabilities.html
+                  - title: "Pass Desired Capabilities at Runtime"
+                    url: /katalon-studio/docs/desired-capabilities-at-runtime.html
+                  - title: "Manage esired Capabilities"
+                    url: /katalon-studio/docs/import-export-desired-capabilities.html
+                  - title: "Start browsers in private mode"
+                    url: /katalon-studio/docs/start-browsers-in-private-mode.html  
+                  - title: "Test different browser locales in Chrome with Desired Capabilities"
+                    url: /katalon-studio/docs/test-different-browser-locales-in-chrome-with-desired-capabilities.html
+                  - title: "Selenium Grid - Execution on Remote Machines" 
+                    url: /katalon-studio/docs/selenium-grid-integration.html
+          - title: "Web Testing"
+            tree:
+              - title: "Internet Explorer Configurations"
+                url: /katalon-studio/docs/internet-explorer-configurations.html
+          - title: "Windows Desktop Apps Testing"
+            tree:
+              - title: "Set up WinAppDriver"
+                url: /katalon-studio/docs/setup-winappdriver.html
+          - title: "Mobile Testing"
+            tree:
+              - title: "Android"
+                tree:
+                  - title: "[Mobile] Android Setup"
+                    url: /katalon-studio/tutorials/mobile-android-setup.html
+                  - title: "[Mobile] Configure Android Studio (Emulator)"
+                    url: /katalon-studio/docs/configure-android-studio.html
+              - title: "iOS"
+                tree:
+                  - title: "[Mobile] iOS Setup"
+                    url: /katalon-studio/tutorials/mobile-ios-setup.html
+                  - title: "Installing WebDriverAgent for iOS devices"
+                    url: /katalon-studio/docs/installing-webdriveragent-for-ios-devices.html
+          - title: "Test Artifacts Sharing"
+            url: /katalon-studio/docs/import-export-test-artifact.html
+          - title: "Set a new default JRE for test projects"
+            url: /katalon-studio/how-to-guides/set-new-default-JRE.html
+          - title: "Value Types"
+            url: /katalon-studio/docs/value-types.html
       - title: "Test Design"
         tree:   
           - title: "Execute and Debug a Test Case"
@@ -205,16 +243,6 @@ items:
             url: /katalon-studio/docs/time-capsule.html
           - title: "Failure Handling"
             url: /katalon-studio/docs/failure-handling.html
-          - title: "Desired Capabilities"
-            tree:
-              - title: "Introduction to Desired Capabilities"
-                url: /katalon-studio/docs/introduction-to-desired-capabilities.html
-              - title: "Desired Capabilities Management"
-                url: /katalon-studio/docs/import-export-desired-capabilities.html
-              - title: "Start browsers in private mode"
-                url: /katalon-studio/docs/start-browsers-in-private-mode.html  
-              - title: "Test different browser locales in Chrome with Desired Capabilities"
-                url: /katalon-studio/docs/test-different-browser-locales-in-chrome-with-desired-capabilities.html
           - title: "Usage Examples"
             tree:
               - title: "Custom Keywords"
@@ -445,8 +473,6 @@ items:
                     url: /katalon-studio/docs/windows-native-record.html
               - title: "Windows Test Objects"
                 url: /katalon-studio/docs/windows-test-objects.html
-          - title: "Test Artifacts Sharing"
-            url: /katalon-studio/docs/import-export-test-artifact.html
           - title: "Test Maintenance"
             tree:
               - title: "Test Objects Refactoring"
@@ -1031,14 +1057,8 @@ items:
             url: /katalon-studio/docs/execute_tests_periodically_on_remote_machines.html
           - title: "Headless Browsers Execution"
             url: /katalon-studio/docs/headless-browsers-execution.html
-          - title: "Selenium Grid - Execution on Remote Machines" 
-            url: /katalon-studio/docs/selenium-grid-integration.html
           - title: "Execute Tests on Multiple Devices in Parallel"
             url: /katalon-studio/docs/execute_tests_parallelly_multiple_devices.html
-          - title: "Set a new default JRE for test projects"
-            url: /katalon-studio/how-to-guides/set-new-default-JRE.html
-          - title: "Value Types"
-            url: /katalon-studio/docs/value-types.html
           - title: "Link Execution with TestOps Release using CLI"
             url: /katalon-studio/docs/execution-release-cli.html
       - title: "Reports and Execution Log"
