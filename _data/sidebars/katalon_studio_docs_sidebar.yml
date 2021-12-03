@@ -205,28 +205,28 @@ items:
                     url: /katalon-studio/docs/test-different-browser-locales-in-chrome-with-desired-capabilities.html
                   - title: "Selenium Grid - Execution on Remote Machines" 
                     url: /katalon-studio/docs/selenium-grid-integration.html
-          - title: "Web Testing"
-            tree:
-              - title: "Internet Explorer Configurations"
-                url: /katalon-studio/docs/internet-explorer-configurations.html
-          - title: "Windows Desktop Apps Testing"
-            tree:
-              - title: "Set up WinAppDriver"
-                url: /katalon-studio/docs/setup-winappdriver.html
-          - title: "Mobile Testing"
-            tree:
-              - title: "Android"
+              - title: "Web Testing"
                 tree:
-                  - title: "[Mobile] Android Setup"
-                    url: /katalon-studio/tutorials/mobile-android-setup.html
-                  - title: "[Mobile] Configure Android Studio (Emulator)"
-                    url: /katalon-studio/docs/configure-android-studio.html
-              - title: "iOS"
+                  - title: "Internet Explorer Configurations"
+                    url: /katalon-studio/docs/internet-explorer-configurations.html
+              - title: "Windows Desktop Apps Testing"
                 tree:
-                  - title: "[Mobile] iOS Setup"
-                    url: /katalon-studio/tutorials/mobile-ios-setup.html
-                  - title: "Installing WebDriverAgent for iOS devices"
-                    url: /katalon-studio/docs/installing-webdriveragent-for-ios-devices.html
+                  - title: "Set up WinAppDriver"
+                    url: /katalon-studio/docs/setup-winappdriver.html
+              - title: "Mobile Testing"
+                tree:
+                  - title: "Android"
+                    tree:
+                      - title: "[Mobile] Android Setup"
+                        url: /katalon-studio/tutorials/mobile-android-setup.html
+                      - title: "[Mobile] Configure Android Studio (Emulator)"
+                        url: /katalon-studio/docs/configure-android-studio.html
+                  - title: "iOS"
+                    tree:
+                      - title: "[Mobile] iOS Setup"
+                        url: /katalon-studio/tutorials/mobile-ios-setup.html
+                      - title: "Installing WebDriverAgent for iOS devices"
+                        url: /katalon-studio/docs/installing-webdriveragent-for-ios-devices.html
           - title: "Test Artifacts Sharing"
             url: /katalon-studio/docs/import-export-test-artifact.html
           - title: "Set a new default JRE for test projects"
