@@ -140,7 +140,7 @@ There are two login options: **Enable SSO** and **Access Katalon TestOps with us
 
 You can always switch back to **Access Katalon TestOps with username & password** to change the authentication method.
 
-To update the authentication method for users, go to the **User's detail** page and update the login option.
+To update the authentication method for Users, go to the **User's detail** page and update the login option.
 
 ## Activate SSO in Katalon Studio
 
@@ -180,7 +180,7 @@ As an existing User, follow these steps:
 
     > Notes:
     >
-    > If you are a new user, you must accept the invitation to join an Organization first. Then you will receive the authentication email.
+    > If you are a new User, you must accept the invitation to join an Organization first. Then you will receive the authentication email.
 
 2. Check the information, then click **Allow this account to access Organization [...] via SSO** to confirm.
 
