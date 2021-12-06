@@ -110,7 +110,10 @@ Follow these steps:
 
 > **Notes**:
 >
-> For real-time monitoring and better reporting capabilities, consider integrating your project with Katalon TestOps. Learn more about test result reports here: [Upload Test Results to Katalon TestOps from Katalon Studio](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html).
+> * Katalon Studio also supports exporting test reports into different formats, such as HTML, CSV, PDF, and JUnit. For detailed instructions on exporting test reports, refer to this guide: [Export reports to other formats
+](https://docs.katalon.com/katalon-studio/docs/test-suite-report.html#export-reports-to-other-formats).
+> * For real-time monitoring and better reporting capabilities, consider integrating your project with Katalon TestOps. Learn more about test result reports here: [Upload Test Results to Katalon TestOps from Katalon Studio](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html).
+
 
 **See also**:
 
