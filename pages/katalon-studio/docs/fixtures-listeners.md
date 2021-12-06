@@ -11,54 +11,21 @@ redirect_from:
 description:
 ---
 
+To extend your current testing flow, test fixtures and test listeners might be useful. Test fixture is a set of fixed steps used as prerequisite and clean-up configurations for all the tests.
+
+With the prerequisite configuration, the test engine must take specific actions before starting test execution. For clean-up configuration, the test engine must carry out some actions after the test execution finishes.
+
+The infographic bellow visualizes how Katalon Studio executes your automated test projects with test fixtures (setUp/tearDown) and test listeners methods.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-listeners-test-hooks/execution-flow.png" alt="test execution lifecycle" width="100%">
+
+> Test listeners is always triggered first if you define both test listeners and activate setUp/tearDown methods simultaneously.
+
+In this document, we will guide you through how to configure the setUp/tearDown methods and the test listeners in Katalon Studio.
+
 ## setUp() and tearDown() for Test Suite and Test Case
 
-Automation testers usually want to specify prerequisite and clean-up configurations for their test cases. With the prerequisite configuration, the test engine must take specific actions before starting test execution. For clean-up configuration, the test engine must carry out some actions after the test execution finishes.
-
-Every test suite from your projects now has been equipped to run either **setUp** or **tearDown** methods, which are groups of your own defined test steps before or after executing a Test Suite. This feature is another useful extension besides the Test Listeners to extend your current testing flow as much as possible.
-
-In the **Test Suite** interface, the **Script** tab generates sample **setUp** and **tearDown** methods to be used. We selected some samples below to illustrate using SetUp/TearDown methods in a test suite:
-
-``` groovy
-/**
- * Setup test suite environment.
- */
-@SetUp(skipped = true) // Please change skipped to be false to activate this method.
-def setUp() {
-	// Put your code here.
-}
-
-/**
- * Clean test suites environment.
- */
-@TearDown(skipped = true) // Please change skipped to be false tp activate this method.
-def tearDown() {
-	// Put your code here.
-}
-
-/**
- * * Run before each test case starts.
- */
-@SetupTestCase(skipped = true) // Please change skipped to be false to activate this method.
-def setupTestCase() {
-	// Put your code here.
-}
-/**
- * Run after each test case ends.
- */
-@TearDownTestCase(skipped = true) //Please change skipped to be false to activate this method.
-def tearDownTestCase() {
-	// Put your code here.
-}
-```
-
-You can also find further code samples in the Groovy documentation: [Groovy Tutorial Page](https://docs.groovy.lang.org/next).
-
-To not get confused with setUp and tearDown, the following workflow can be used to better visualize how Katalon Studio execute test automation projects with/ without setUp and tearDown methods.
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-listeners-test-hooks/image2018-9-27-123A333A20.png" alt="test execution lifecycle" width=70%>
-
-**Supported methods**
+In Katalon Studio, you can specify prerequisite and clean-up configurations for your test cases by using the setUp and tearDown methods. The table below describes the trigger conditions and common usages of these methods:
 
 <table>
 	<thead>
@@ -105,18 +72,32 @@ To not get confused with setUp and tearDown, the following workflow can be used 
 	</tbody>
 </table>
 
-### Enable SetUp and TearDown
-### Activate related method
+### Activate setUp and tearDown
 
-By default, the **SetUp** and **TearDown** methods are not triggered even if they match with provided trigger condition above. To activate related methods, you need to set **skipped value** from **true** to **false**.
+In the test suite editor, switch to the **Script** tab to view the setUp and tearDown methods template.
 
-### Methods consideration
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-listeners-test-hooks/setup-teardown-template.png" alt="script view of test suite" width="100%">
 
-* Execution progress from these methods still has execution logs as usual, and they will be stored in execution logs files of Katalon Studio.
-* You can't see setUp and tearDown executed reports from generated Test Suite report. You can only see **setUpTestCase** and **tearDownTestCase** in generated Test Suite report.
-* Test Listeners is always triggered first if you define both Test Listeners and activate Setup/ Teardown methods simultaneously.
+By default, the **SetUp** and **TearDown** methods are not triggered even if they match with provided trigger condition as shown in the below code sample.
 
-	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/setupteardown-for-test-suite-and-test-case/Screen-Shot-2018-01-05-at-14.24.23.png" alt="sample before test suite" width=100%>
+``` groovy
+/**
+ * Setup test suite environment.
+ */
+@SetUp(skipped = true) // Please change skipped to be false to activate this method.
+def setUp() {
+	// Put your code here.
+}
+```
+
+To activate the **setUp** and **tearDown** methods, you need to set the **skipped** value to **false**. For example: `@SetUp(skipped = false)`.
+
+> Notes:
+>
+> * Execution progress from these methods still has execution logs as usual, and they are stored in the execution logs files of Katalon Studio.
+> * You cannot see setUp and tearDown executed reports from generated Test Suite report. You can only see **setUpTestCase** and **tearDownTestCase** in generated Test Suite report.
+>
+> 	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/setupteardown-for-test-suite-and-test-case/Screen-Shot-2018-01-05-at-14.24.23.png" alt="sample before test suite" width=100%>
 
 ### In Manual view
 
@@ -167,11 +148,13 @@ By default, the **SetUp** and **TearDown** methods are not triggered even if the
 	</tbody>
 </table>
 
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-listeners-test-hooks/setup-teardown-manual.png" alt="setUp and tearDown in manual view" width="100%">
+
 > The SetUp()/ TearDown() methods might have **Error** status if any issue occurs during their execution. The only exception to this is when **AssertionError** Class is used, or the methods are skipped.
 
 ### In Script view
 
-You can declare a method as `setup()` or `teardown()` method using the appropriated annotation above it:
+You can declare a method as **setup()** or **teardown()** method using the appropriated annotation above it:
 
 ```groovy
 @com.kms.katalon.core.annotation.SetUp
@@ -203,13 +186,13 @@ def teardown(def param1, def param2) {
 
 ## Test Listeners (Test Hooks)
 
-**Test Listeners** are test steps created based on your own criterion. Therefore, it is a useful and flexible way to help you extend your current testing flows. When matching the condition, you can execute Test Listeners. To start with Test Listeners, follow the guide below.
+Test listeners are test steps created based on your own criterion. Test listeners "listen" to the event defined in the script and behave accordingly. When matching the condition, you can execute test listeners. To start with Test Listeners, follow the guide below.
 
 ### Create new Test Listeners
 
 Test Listeners are the same as other test artifacts. You can perform all basic operations such as **create, copy/cut, rename, or delete** with Test Listeners. This section focus on how to **create** new Test Listeners. In the Tests Explorer pane, you can find Test Listeners location. To create new Test Listener:
 
-1. In **Tests Explorer**, right-click on **Test Listeners** folder. Select **New > New Test Listener**.
+1. In the **Tests Explorer** section, right-click on **Test Listeners** folder. Select **New > New Test Listener**.
 
 	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-listeners-test-hooks/new-test-listener.png" alt="create new test listener" width=80%>
 
@@ -224,11 +207,26 @@ Test Listeners are the same as other test artifacts. You can perform all basic o
 	| Generate sample Before Test Suite method | A sample listener will be generated before every test suite starts. |
 	| Generate sample After Test Suite method | A sample listener will be generated after every test suite ends. |
 
-You can select one or multiple options, then click **OK**. Once finished, Katalon Studio generates a sample template accordingly:
+	You can select one or multiple options, then click **OK**. Once finished, Katalon Studio generates a sample template accordingly. The template includes necessary annotations, libraries and supported functions.
 
-Expand source
+> Notes:
+>
+> * There is no limit on Test Listeners. Users can create as many as preferred.
+> * If you have more than one Test Listener class, the classes themselves are instantiated in Katalon storage in alphabetical order. Only then are the individual listener methods executed top-down.
+> * Execution status of any steps within Test Listers will not affect the overall status of the executed test case. For example, if you have a FAILED output in any of your Test Listeners, but the final status of the executed test case is PASSED, then the test case's status will be PASSED).
+
+You can view the test listener template here:
 
 ```groovy
+import internal.GlobalVariable as GlobalVariable
+
+import com.kms.katalon.core.annotation.BeforeTestCase
+import com.kms.katalon.core.annotation.BeforeTestSuite
+import com.kms.katalon.core.annotation.AfterTestCase
+import com.kms.katalon.core.annotation.AfterTestSuite
+import com.kms.katalon.core.context.TestCaseContext
+import com.kms.katalon.core.context.TestSuiteContext
+
 class NewTestListener {
 	/**
 	 * Executes before every test case starts.
@@ -269,21 +267,22 @@ class NewTestListener {
 }
 ```
 
-As you can see from the code above, a sample generated template has already added necessary annotations, libraries and supported functions to help you extend your current testing flows to a higher level.
-
-> Notes:
->
-> * There is no limit on Test Listeners. Users can create as many as preferred.
-> * If you have more than one Test Listener class, the classes themselves are instantiated in Katalon storage in alphabetical order. Only then are the individual listener methods executed **top-down**.
-> * Execution status of any steps within Test Listers will not affect the **overall status** of the executed test case (e.g.: if you have a FAILED output in any of your Test Listeners, but the final status of the executed test case is PASSED, then the test case's status will be PASSED).
-
 ### Example
 
-Define multiple environments as different Global Variables by using Test Listeners. For more infomation, see [Global Variables and Execution Profile](https://docs.katalon.com/katalon-studio/docs/execution-profile-v54.html#create-a-profile).
+In this example, we will define multiple environments as different Global Variables by using Test Listeners. For more information, see [Global Variables and Execution Profile](https://docs.katalon.com/katalon-studio/docs/execution-profile-v54.html#create-a-profile).
 
-Before test case execution, change the environment variable to the preferred environment by following the example below:
+Before you execute your test case, change the environment variable to your preferred environment by following the example below:
 
 ```groovy
+import internal.GlobalVariable as GlobalVariable
+
+import com.kms.katalon.core.annotation.BeforeTestCase
+import com.kms.katalon.core.annotation.BeforeTestSuite
+import com.kms.katalon.core.annotation.AfterTestCase
+import com.kms.katalon.core.annotation.AfterTestSuite
+import com.kms.katalon.core.context.TestCaseContext
+import com.kms.katalon.core.context.TestSuiteContext
+
 /**
  * Executes before every test case starts.
  * @param testCaseContext related information of the executed test case.
