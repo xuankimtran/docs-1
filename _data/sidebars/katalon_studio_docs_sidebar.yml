@@ -143,6 +143,8 @@ items:
                 url: /katalon-studio/tutorials/webui-analyze-test-case-execution-logs-and-resolve-errors.html
               - title: "[Web UI] Plan Test Suite"
                 url: /katalon-studio/tutorials/webui-plan-test-suite.html
+              - title: "[WebUI] Analyze Test Suite Reports and Resolve Errors"
+                url: /katalon-studio/tutorials/webui-view-and-analyze-test-suite-reports.html
       - title: "GUI and Preferences"
         tree:
           - title: "Toolbars and Views"
