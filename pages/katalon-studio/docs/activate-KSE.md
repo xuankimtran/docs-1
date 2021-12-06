@@ -56,7 +56,7 @@ Follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/activate-KSE/KS-Deactivate.png" alt="Katalon Studio Activation dialog" width=70%>
 
-    You have now logged out, and the **Katalon Studio Activation** dialog appears.
+    You are now logged out, and the **Katalon Studio Activation** dialog appears.
 
 2. Log in with the Licensed User account email and password. Click **Activate**.
 
