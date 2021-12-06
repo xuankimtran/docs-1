@@ -41,7 +41,9 @@ Follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-view-and-analyze-test-suite-reports/KS-Test-Cases-Table.png" width=70% alt="Test Cases Table">
 
-    The *Error* status indicates users' mistakes in writing Test Cases, such as incorrect syntax, missing test objects, or incorrect test data.
+    The *Error* status indicates user mistakes in writing Test Cases, such as incorrect syntax, missing test objects, or incorrect test data.
+
+    By contrast, a *Failed* status would indicate that the application under test (AUT) fails to perform a function expected by the Test Case, such as an unexpected change in the Web user interface.
 
     Below the **Test Cases Table** is the Report Summary section.
 
@@ -76,7 +78,9 @@ Follow these steps:
 
 ## Resolve the Error
 
-After finding the error, we navigate to the data file that contains the incorrect test data and update the file.
+Because the incorrect test data in our example is associated with an external data file (Excel test data), we navigate to the data file and update it.
+
+> To learn more about Test Data management, refer to this guide: [Manage Test Data](https://docs.katalon.com/katalon-studio/docs/manage-test-data.html).
 
 Follow these steps:
 
@@ -92,15 +96,13 @@ Follow these steps:
 
 3. Update the data file.
 
-    In the opened data file, we can see the file contains incorrect test data.
+    In the opened data file, we can see the file contains the incorrect test data.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-view-and-analyze-test-suite-reports/KS-Incorrect-Data-File.png" width=70% alt="Incorrect Test Data">
 
     We then update the data file with the correct test data.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-view-and-analyze-test-suite-reports/KS-Correct-Data-File.png" width=70% alt="Corrected Test Data">
-
-    > To learn more about Test Data management, refer to this guide: [Manage Test Data](https://docs.katalon.com/katalon-studio/docs/manage-test-data.html).
 
 4. Run the Test Suite and verify the results in the new Test Report.
 
