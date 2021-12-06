@@ -13,6 +13,7 @@ redirect_from:
     - "/katalon-studio/docs/katalon-studio-activation-since-57/"
     - "/katalon-studio/docs/katalon%20studio%20activation%20since%2057/"
     - "/katalon-studio/docs/katalon-studio-activation-since-57.html"
+    - "/katalon-studio/docs/active-KRE.html"
 description:
 ---
 
