@@ -28,8 +28,6 @@ This function is useful if you want to:
 In this article, we demonstrate how to manage data binding at the test case level and execute them in a test suite.
 
 ## Conduct Data Binding at the Test Case level
-
-Follow these steps:
 ### Create a new Test Data
 
 To create a new data file, go to **File > New > Test Data**. Katalon allows you to use external or internal data sources for test execution. To learn more about creating new data files, you can refer to this document: [Manage Test Data](https://docs.katalon.com/katalon-studio/docs/manage-test-data.html#create-an-excel-test-data).
@@ -39,7 +37,7 @@ To create a new data file, go to **File > New > Test Data**. Katalon allows you 
   1. Create a new test case. Go to **File > New > Test Case**. Here, we name the test case **DDT at TC level**.
   2. In the new test case, switch to the **Variables & Data** tab. In the **Variables** section, to add test case variables, click **Add**. Input variables in the newly added row.
 
-    <img src="url" alt="Input Variables" width=70%>
+      <img src="url" alt="Input Variables" width=70%>
 ### Manage Data Binding
 
 In the **Data Binding** section, there are two tables:
@@ -118,7 +116,7 @@ To learn more about the dynamic test suite, you can refer to this document: [Dyn
     Alternatively, you can run the test suite in console mode. For detailed instructions on running a test execution in console mode, you can refer to this document: [Command Builder](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#command-builder).
 ### Conduct Data Binding in a Suite Test Case
 
-> **What is a Suite Test Case?**
+> What is a Suite Test Case?
 >
 > A Suite Test Case is a test case in a test suite.
 
@@ -132,30 +130,24 @@ To learn more about the dynamic test suite, you can refer to this document: [Dyn
       <img src="url" width="70%" alt="Data Binding Options">
 
 
-      <table width="714">
+      <table>
+      <thead>
+        <tr>
+          <th>Use Test Case level </th>
+          <th>Use Suite Test Case level</th>
+        </tr>
+      </thead>
       <tbody>
-      <tr>
-      <td><strong>Use Test Case level&nbsp;</strong>option&nbsp;</td>
-      <td><strong>Use Suite Test Case level</strong>&nbsp;option&nbsp;</td>
-      </tr>
-      <tr>
-      <td>
-      <p>With this option:</p>
-      <p>- Data in the&nbsp;<strong>Test Data</strong>&nbsp;and&nbsp;<strong>Variable Binding</strong>&nbsp;table is the data from the test case added in Step 1.</p>
-      <p>- You can edit these sections at the TC level.</p>
-      </td>
-      <td>
-      <p>With this option:</p>
-      <p>- Data in the&nbsp;<strong>Test Data</strong>&nbsp;and&nbsp;<strong>Variable Binding</strong>&nbsp;table is the data from the STC.</p>
-      <p>- You can edit these sections at the STC level. To learn more about binding data at the STC level, you can refer to this document: <a href="https://docs.katalon.com/katalon-studio/docs/run-test-case-external-data.html#manage-data-binding">Manage Data Binding</a>.</p>
-      &nbsp;</td>
-      </tr>
+        <tr>
+          <td>With this option:<br>- Data in the <strong>Test Data</strong> and <strong>Variable Binding</strong> tables are from the test case added in Step 1.<br>- You can edit these sections at the TC level.</td>
+          <td>With this option:<br>- Data in the <strong>Test Data</strong> and <strong>Variable Binding</strong> tables are from the STC.<br>- You can edit these sections at the STC level. To learn more about binding data at the STC level, you can refer to this document:<br><a href="https://docs.katalon.com/katalon-studio/docs/run-test-case-external-data.html#manage-data-binding" target="_blank" rel="noopener noreferrer">Manage Data Binding</a>.</td>
+        </tr>
       </tbody>
       </table>
       
       > Note:
       >
-      > In case your test suite has existing data configurations, switching to the **Use Test Case level** does not remove the preconfigured data in the STC.
+      > In case your test suite has existing data configurations, switching to the **Use Test Case level** option does not remove the preconfigured data in the STC.
 
   4. When you are done with the configuration, hit **Run** to execute your test suite. 
 ### Test Reports
