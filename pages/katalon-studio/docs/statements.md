@@ -355,7 +355,7 @@ The **Script** view of test cases allows you to programmatically define and han
 
 For example:
 
-    ``` groovy
+``` groovy
 
     try {
         WebUI.openBrowser('')
@@ -375,7 +375,7 @@ For example:
     finally { 
         this.println("Navigate to a page.")
     }
-    ```
+```
 
 ## Binary Statements
 
@@ -514,7 +514,7 @@ A method consists of instructions to perform a specific task. Defined methods c
 
 2. The **Method builder** dialog is displayed.
 
-  ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/define-method/image2017-2-10-153A483A9.png)
+    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/define-method/image2017-2-10-153A483A9.png)
    Specify the required information for your method as following:
 
 <table>
