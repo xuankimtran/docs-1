@@ -5,11 +5,11 @@ permalink: katalon-studio/docs/git-integration-submodule.html
 description:
 ---
 
-While working on a Katalon Studio project, you may want to use test artifacts from external resources. You can manually share test artifacts with the Test Artifacts Sharing feature provided by Katalon Studio. See: [Test Artifacts Sharing](https://docs.katalon.com/katalon-studio/docs/import-export-test-artifact.html).
+While working on a Katalon Studio project, you might want to use test artifacts from external resources. You can manually share test artifacts with the Test Artifacts Sharing feature provided by Katalon Studio. See: [Test Artifacts Sharing](https://docs.katalon.com/katalon-studio/docs/import-export-test-artifact.html).
 
 To maintain and update shared resources easily, you can also integrate them as Git submodules. Git submodules enable you to incorporate and track the version history of external resources. To learn more about Git submodules, you can refer to the official Git documentation: [Git Tools - Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules).
 
-This tutorial shows you how to use the Git submodule feature to incorporate test artifacts from an external resource, such as Test Cases, Test Objects, Profiles, and Keywords. In our example, we cover common tasks in incorporating a custom keyword package as a Git submodule, such as adding, updating, removing the keyword package in our test project.
+This tutorial shows you how to use the Git submodule feature to incorporate test artifacts from an external resource, such as Test Cases, Test Objects, Profiles, and Keywords.  In our example, we cover common tasks such as adding, updating, and removing a custom keyword package as a submodule in a test project.
 
 > You can download the sample project here on our Github repository: [Healthcare Tests](https://github.com/katalon-studio-samples/healthcare-tests).
 
@@ -51,18 +51,16 @@ Follow these steps:
 
     If you check the status of the project repository with the ```git status``` command, you can see two changes: the `.gitmodules` file and the added submodule folder. The `.gitmodules` file contains information about added submodules, including directory paths and URLs for cloning and fetching.
 
-    In our case, the status output shows the `.gitmodules` file and the `mykeywords` folder.
+    In our case, the status output shows the `.gitmodules` file and the `mykeywords` folder as follows:
 
-    ```bash
-    # Get the status after adding the submodule
-    $ git status
-    # Sample output
+    ```
     On branch master
     Your branch is up to date with 'origin/master'.
+
     Changes to be committed:
-     (use "git restore --staged <file>..." to unstage)
-         new file:   ../.gitmodules
-         new file:   mykeywords
+    (use "git restore --staged <file>..." to unstage)
+        new file:   ../.gitmodules
+        new file:   mykeywords
     ```
 
 4. Add and commit the changes.
@@ -82,7 +80,7 @@ Follow these steps:
 
 ## Update a Submodule
 
-The keyword package hosted on Github may change following an update from other collaborators. 
+The keyword package hosted on Github might change following an update from other collaborators. 
 
 In our example, a new custom keyword file is added to the remote repository:
 
