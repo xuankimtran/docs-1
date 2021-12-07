@@ -58,8 +58,8 @@ Here are some common usages of the setUp and tearDown methods:
 				<ul>
 					<li>Clean-up testing environment, such as:
 						<ul>
-							<li>Closing browsers</li>
-							<li>Disclosing opened connections to database or server</li>
+							<li>Closing connections to browsers</li>
+							<li>Disconnecting from databases or server</li>
 						</ul>
 					</li>
 					<li>Call tearDown test cases for the executed test suite</li>
@@ -156,19 +156,19 @@ In the manual view of a test case, you can add the setUp and tearDown method by 
 		</tr>
 		<tr>
 			<td>Tear Down If Failed</td>
-			<td>This method is called after executing all steps of the test case, and one of those steps has <strong>Failed</strong> status.</td>
+			<td>This method is called after executing all steps of the test case, if one of those steps is marked as <strong>Failed</strong>.</td>
 		</tr>
 		<tr>
 			<td>Tear Down If Passed</td>
-			<td>This method is called after executing all steps of the test case and all of those steps have <strong>Pass</strong> status.</td>
+			<td>This method is called after executing all steps of the test case, if all of those steps are marked as <strong>Pass</strong>.</td>
 		</tr>
 		<tr>
 			<td>Tear Down If Error</td>
-			<td>This method is called after executing all the test case steps and one of those steps has <strong>Error</strong> status.</td>
+			<td>This method is called after executing all the test case steps, if one of those steps is marked as <strong>Error</strong>.</td>
 		</tr>
 		<tr>
 			<td>Tear Down</td>
-			<td>This method is called last.</td>
+			<td>This method is called at the end of an execution.</td>
 		</tr>
 	</tbody>
 </table>
@@ -177,7 +177,7 @@ In the manual view of a test case, you can add the setUp and tearDown method by 
 
 	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-listeners-test-hooks/setup-teardown-manual.png" alt="setUp and tearDown in manual view" width="100%">
 
-> The setUp/tearDown methods might have an **Error** status if any issue occurs during their execution. The possible exception is when the **AssertionError** Class is used, or the methods are skipped.
+> The setUp/tearDown methods might be marked as **Error** if any issue occurs during their execution. The possible exception is when the **AssertionError** class is used, or if the methods are skipped.
 
 ### Add setUp and tearDown in the script view of a test case
 
@@ -203,7 +203,7 @@ def teardown(def param1, def param2) {
 
 ## Test Listeners (Test Hooks)
 
-Test listeners are test steps created based on your criterion. Test listeners "listen" to the event defined in the script and behave accordingly. When matching the condition, test listeners are executed. In this section, you will learn how to create a test listener.
+Test listeners are test steps created to "listen" to the event defined in the script and behave accordingly. In this section, you will learn how to create a test listener.
 
 ### Create new Test Listeners
 
