@@ -9,7 +9,28 @@ redirect from:
     - "/katalon-analytics/docs/advanced-0.1.x.html"
 description:
 ---
-## Latest Release - November 2nd, 2021
+
+## Latest Release - December 13th, 2021
+
+### New features
+
+* Introduce Test Case Management's new design. Read more: [Test Case Management](https://docs.katalon.com/katalon-analytics/docs/test-case-management.html).
+
+### Enhancements
+
+* [UI] Update the navigation bar.
+
+* [UI] Enhance navigation for Test Case's paths in the Test Case's detailed page.
+
+* [UI] Retain the state of previous page when navigating back from the Test Case's detailed page.
+
+### Fixes
+
+* [Bug] Cannot schedule test runs from Katalon Studio when moving refreshed Test Suite Collection to the queue.
+
+* [Bug] Cannot receive emails when exporting execution reports in PDF file.
+
+## November 2nd
 
 ### New features
 
