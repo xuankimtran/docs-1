@@ -32,7 +32,7 @@ Follow these steps:
 
     The **Schedule Test Run** dialog appears as below.
 
-     <img src="hhttps://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/schedule-test-run-new-ui-trigger-automated-test-2.png" width=100% alt="schedule test run page new UI">
+     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/schedule-test-run-new-ui-trigger-automated-test-2.png" width=100% alt="schedule test run page new UI">
 
 3. Fill in the information.
 
