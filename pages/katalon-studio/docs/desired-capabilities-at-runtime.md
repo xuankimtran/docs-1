@@ -1,5 +1,5 @@
 ---
-title: "Pass Desired Capabilities at Runtime" 
+title: "Pass desired capabilities at runtime" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/desired-capabilities-at-runtime.html 
 redirect_from:
@@ -52,7 +52,7 @@ The following example demonstrates how to configure the desired capabilities at 
 
 Suppose you want to override desired capabilities pre-configured in project settings; you can use the above sample code in the test script.
 
-In the following example, we have defined the desired capabilities for Chrome window-sized 1200x600 in project settings. We want to override this setting to run a test with a Chrome window in private mode sized 100x100. Do as follows:
+In the following example, we defined the desired capabilities for Chrome window-sized 1200x600 in project settings. We want to override this setting to run a test with a Chrome window in private mode sized 100x100. Do as follows:
 
 <img src="https://github.com/Yen8298/docs-images/raw/da382cef70da7f464af14a6d7e8765c7cca37562/katalon-studio/docs/desired-capabilities-override-in-run-time/KS-DC-window-size-1200x600-settings.png" width="70%" alt="Set DC in project settings">
 
@@ -64,11 +64,11 @@ In the following example, we have defined the desired capabilities for Chrome wi
       import com.kms.katalon.core.configuration.RunConfiguration
       RunConfiguration.setWebDriverPreferencesProperty("args", ["--window-size=100,100","--incognito"])
       ```
-3. Continue writing the script or use Web Spy/Record Utility to complete your test case.
+2. Continue writing the script or use Web Spy/Record Utility to complete your test case.
    
       <img src="https://github.com/Yen8298/docs-images/raw/master/katalon-studio/docs/desired-capabilities-override-in-run-time/KS-DC-window-sized-100x100-incognito-runtime.png" width="70%" alt="DC at test script">
 
-4.  Run the test with Chrome.
+3.  Run the test with Chrome.
 
       <img src="https://github.com/Yen8298/docs-images/raw/master/katalon-studio/docs/desired-capabilities-override-in-run-time/KS-DC-Chrome-windows-100x100-incognito-run.png" width="70%" alt="Set DC in project settings">
 

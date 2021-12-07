@@ -10,7 +10,7 @@ Desired capabilities can be useful when a user, for example, wants to run mobile
 Katalon Studio uses desired capabilities to communicate with Appium server by sending a POST request.  If users configure the desired capabilities in project settings, the Appium server will start a session with predefined capabilities.
 
 This article shows you how to configure some common capabilities in Mobile testing and and where they are saved.
-## Set desired capabilities for Mobile testing in Katalon Studio 
+## Set desired capabilities for mobile testing in Katalon Studio 
 
 To set desired capabilities for mobile testing, do as follows:
 
