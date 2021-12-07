@@ -15,7 +15,7 @@ When generating test steps in a test case, you can also call another test case a
 
 ## Call Test Case in Manual view
 
-To call another test case in **Manual view**, do as follows:
+To call another test case in **Manual** view, do as follows:
 
 1. Open a test case in **Manual** view. Click on the drop-down icon of the **Add** button, then select **Call Test Case**.
 
@@ -35,7 +35,7 @@ To call another test case in **Manual view**, do as follows:
 
 In the **Script view**, the `callTestCase` method allows users to call another test case as a test step.
 
-Open a test case in the script view, then refer to either of the following syntaxes:
+Open a test case in the script view, then refer to the following syntaxes:
 
 ```groovy
 
@@ -61,7 +61,7 @@ Mobile.callTestCase(findTestCase("Test Case ID"), ["key1":"value1", "key2":"valu
 		<tr>
 			<td>Test Case ID</td>
 			<td>
-				<p>The ID of the test case to be called. You can find this info in the test case properties. Learn more about Test Case Properties here: <a href="https://docs.katalon.com/katalon-studio/docs/search.html#view-test-artifact-properties">View test artifact properties</a>.</p>
+				<p>The ID of the test case to be called. You can find this info in the test case properties. Learn more about test case properties here: <a href="https://docs.katalon.com/katalon-studio/docs/search.html#view-test-artifact-properties">View test artifact properties</a>.</p>
 			</td>
 		</tr>
 		<tr>
