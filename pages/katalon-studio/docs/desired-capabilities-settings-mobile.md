@@ -1,5 +1,5 @@
 ---
-title: "Set up Desired Capabilities in Mobile Testing" 
+title: "Set up desired capabilities in Mobile Testing" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/desired-capabilities-settings-mobile.html 
 redirect_from:
@@ -9,7 +9,7 @@ description:
 Desired capabilities can be useful when a user, for example, wants to run mobile tests with a preferred platform, browser, orientation of the app. 
 Katalon Studio uses desired capabilities to communicate with Appium server by sending a POST request.  If users configure the desired capabilities in project settings, Appium server will start a session with predefined capabilities.
 
-This article shows you how to configure some common capabilities in Mobile testing and the location of desired capabilities files.
+This article shows you how to configure some common capabilities in Mobile testing and and where they are saved.
 ## Set desired capabilities for Mobile testing in Katalon Studio 
 
 To set desired capabilities for mobile testing, do as follows:
@@ -111,7 +111,7 @@ After choosing the device name, click **Add**, then input the following values:
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/desired_capabilities_in_katalon/Design-Capabilities-for-Mobile-in-Katalon-Studio-7.png" width="100%" alt="Enable screenshot path">
 
-## Location of Desired Capabilities files
+## Location of desired capabilities files
 
 You can find the settings files for each environment in the `<your test project location>\settings\internal` folder. The files for each driver are named as follows:
 

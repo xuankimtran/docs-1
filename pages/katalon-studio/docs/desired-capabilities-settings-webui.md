@@ -1,5 +1,5 @@
 ---
-title: "Set up Desired Capabilities for WebUI Testing" 
+title: "Set up desired capabilities for WebUI Testing" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/desired-capabilities-settings-webui.html 
 redirect_from:
@@ -19,7 +19,7 @@ description:
 
 Katalon Studio allows you to define desired capabilities for local execution with Chrome, Firefox, Internet Explorer (IE), Safari, Edge or Edge (Chromium) in **Project > Settings > Desired Capabilities > WebUI > Chrome/Firefox/IE/Safari/Edge/Edge(Chromium)**.
 
-This article shows you how to configure some common capabilities in WebUI testing and the location of desired capabilities files.
+This article shows you how to configure some common capabilities in WebUI testing and where they are saved.
 
 > You can find some common desired capabilities configurations in our Github sample project: [Tips and tricks](https://github.com/katalon-studio-samples/tips-and-tricks).
 ## Chrome/Chrome (headless)

@@ -11,8 +11,8 @@ redirect_from:
 description:
 ---
 
-Desired capabilities configured at project settings are applied at the project level. You can also use desired capabilities at the test case level by passing desired capabilities to the test script.
-## Pass Desired Capabilities at Runtime for WebUI Testing
+Desired capabilities configured in project settings are applied at the project level. You can also use desired capabilities at the test case level by passing desired capabilities to the test script.
+## Pass desired capabilities at runtime for WebUI Testing
 
 To apply desired capabilities at runtime, place the following sample code before the test script. This also overrides the desired capabilities predefined in project settings.
 
@@ -52,15 +52,11 @@ The following example demonstrates how to configure the desired capabilities at 
 
 Suppose you want to override desired capabilities pre-configured in project settings; you can use the above sample code in the test script.
 
-The following example demonstrates how to override Chrome window-sized 1200x600 and run the test with Chrome window-sized 100x100 in private mode instead.
+In the following example, we have defined the desired capabilities for Chrome window-sized 1200x600 in project settings. We want to override this setting to run a test with a Chrome window in private mode sized 100x100. Do as follows:
 
-1. After defining the desired capabilities for Chrome window-sized 1200x600 in **Project > Setting > Desired Capabilities > Web UI > Chrome**, click **Apply and Close**.
+<img src="https://github.com/Yen8298/docs-images/raw/da382cef70da7f464af14a6d7e8765c7cca37562/katalon-studio/docs/desired-capabilities-override-in-run-time/KS-DC-window-size-1200x600-settings.png" width="70%" alt="Set DC in project settings">
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-override-in-run-time/override-crop0.png" width="70%" alt="Set DC in project settings">
-
-      <img src="https://github.com/Yen8298/docs-images/raw/da382cef70da7f464af14a6d7e8765c7cca37562/katalon-studio/docs/desired-capabilities-override-in-run-time/KS-DC-window-size-1200x600-settings.png" width="70%" alt="Set DC in project settings">
-
-2. To override the desired capabilities at runtime, open the test case in script mode. Pass the desired capabilities to the same key with the capabilities defined in project settings. Then place the code before the test script. 
+1. To override the desired capabilities at runtime, open the test case in script mode. Pass the desired capabilities to the same key with the capabilities defined in project settings. Then place the code before the test script. 
 
       Here, we want to override the `--window-size=1200,600` capabilities. We pass the `--window-size=100,100` and `--incognito` capabilities to the `args` key in the sample code as follows. Then place the code before the test script. 
       
@@ -77,7 +73,7 @@ The following example demonstrates how to override Chrome window-sized 1200x600 
       <img src="https://github.com/Yen8298/docs-images/raw/master/katalon-studio/docs/desired-capabilities-override-in-run-time/KS-DC-Chrome-windows-100x100-incognito-run.png" width="70%" alt="Set DC in project settings">
 
       The test successfully opens a Chrome window-size 100x100 in private mode (overriding Chrome window-size 1200x600).
-## Pass Desired Capabilities at Runtime for Remote execution
+## Pass desired capabilities at runtime for remote execution
 
 To apply desired capabilities at runtime, place the following sample code before the test script. This also overrides the desired capabilities predefined in project settings.
 
