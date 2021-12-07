@@ -133,6 +133,8 @@ items:
                 url: /katalon-studio/tutorials/webui-plan-test-suite.html
       - title: "Get Started"
         tree:
+          - title: "Get Started Overview"
+            url: /katalon-studio/docs/get-started-overview.html
           - title: "Toolbars and Views"
             url: /katalon-studio/docs/toolbars-and-views.html
           - title: "Preferences"
