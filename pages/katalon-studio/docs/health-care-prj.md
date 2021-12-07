@@ -205,18 +205,18 @@ There are two test suites in this project. To get access to them, in the **Test 
 
 <img src="url" width="70%" alt="Healthcare-tests - TS_RegressionTestCollection">
 
-## Execute selected test case or test suite
+### Execute selected test case or test suite/test suite collection
 
 To execute a test case or a test suite/test suite collection in the sample project:
 
-- Select the test case/test suite/test suite collection you want to execute.
-- Click **Run** or press Ctrl + Shift + A (macOS: Cmd+Shift+A).
+1. Select the test case/test suite/test suite collection you want to execute.
+2. Click **Run** or press Ctrl + Shift + A (macOS: Cmd+Shift+A).
 
 You can choose different browsers to execute your test in the dropdown list next to **Run**. 
 
 <img src="url" width="70%" alt="Run the test case">
 
-- Observe the test result in the **Log Viewer** tab.
+3. Observe the test result in the **Log Viewer** tab.
 
 <img src="url" width="70%" alt="Oservice results in the log Viewer">
 
