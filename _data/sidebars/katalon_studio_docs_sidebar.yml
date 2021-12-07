@@ -1118,7 +1118,7 @@ items:
               - title: "Jira Integration"
                 url: /katalon-studio/docs/jira-integration.html
               - title: "Configure Jira BDD Settings"
-                url: /katalon-analytics/docs/bdd-settings.html
+                url: /katalon-studio/docs/bdd-settings.html
           - title: "Git Integration"
             tree:
               - title: "Git Integration"
