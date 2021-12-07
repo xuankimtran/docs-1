@@ -39,3 +39,11 @@ If you are connected to the Internet, a list of available sample projects for yo
 This tab will display any recent opened Katalon Studio projects. If you are new to Katalon Studio, this tab will display the message "You haven't opened any projects recently."
 
 ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-help/image2018-8-2-143A493A39.png)
+
+Updating doc:
+
+In case you need some help using Katalon Studio, we got you covered!
+
+From the main toolbar, go to **Help**. You can see a **Search** bar and a drop-down menu like this:
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-help/help.png" alt="help" width="50%">
