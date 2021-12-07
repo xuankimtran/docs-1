@@ -1,5 +1,5 @@
 ---
-title: "Set up desired capabilities for WebUI Testing" 
+title: "Set up desired capabilities for WebUI testing" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/desired-capabilities-settings-webui.html 
 redirect_from:
@@ -552,7 +552,7 @@ The most common use of Internet Explorer desired capabilities is to configure In
    </tbody>
    </table>
 
-## Location of Desired Capabilities files
+## Location of desired capabilities files
 
 You can find the settings files for each environment in the `<your test project location>\settings\internal` folder. The files for each driver are named as follows:
 

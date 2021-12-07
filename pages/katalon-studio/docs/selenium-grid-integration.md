@@ -1,5 +1,5 @@
 ---
-title: "Selenium Grid - Execution on Remote Machines" 
+title: "Selenium Grid - Execution on remote machines" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/selenium-grid-integration.html 
 description: Tutorials of executing Katalon Studio's scripts on remote machines using Selenium Grid.
@@ -13,7 +13,7 @@ Follow these steps to set up your remote execution with Selenium Grid:
 
 1. Open Katalon Studio and navigate to **Project > Settings > Desired Capabilities > Remote**. Enter the following information:
 
-    * **Remote Server URL**:  the URL to the Remote server, in the format of `http://<hub-ip-address>:<port>/wd/hub`. For example: `http://192.168.37.35:45339/wd/hub`.
+    * **Remote Server URL**:  the URL to the remote server, in the format of `http://<hub-ip-address>:<port>/wd/hub`. For example: `http://192.168.37.35:45339/wd/hub`.
     * **Remote Server type**: choose **Selenium**.
     
 2. Click **Add** to add desired capabilities for remote execution (optional). Katalon Studio supports all Selenium Server desired capabilities. To learn more about Selenium capabilities, you can refer to the Selenium document in their Github project: [Supported capabilities](https://github.com/SeleniumHQ/selenium/wiki/DesiredCapabilities#used-by-the-selenium-server-for-browser-selection).
@@ -26,4 +26,4 @@ Follow these steps to set up your remote execution with Selenium Grid:
 3. Click **Apply and Close** to save your settings.
 4. In the drop-down list of the **Run** button, select **Remote**.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/selenium-grid-integration/KS-DC-Run-Remote-execution.png" width="30%" alt="a">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/selenium-grid-integration/KS-DC-Run-Remote-execution.png" width="30%" alt="Run remote execution">

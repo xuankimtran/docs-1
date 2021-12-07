@@ -49,7 +49,7 @@ This document gives you information on the supported technologies and integratio
 </table>
 (*) <em> Limitations: Elements inside embedded web views cannot be captured automatically by Record&amp;Spy utilities. </em>
 
-### Programming Skill & Language
+### Programming skill & Language
 
 <table width="100%">
 <tbody>
@@ -80,7 +80,7 @@ This document gives you information on the supported technologies and integratio
 </tbody>
 </table>
 
-### Testing Methodologies
+### Testing methodologies
 
 <table width="100%">
 	<tbody>
@@ -175,7 +175,7 @@ This document gives you information on the supported technologies and integratio
 	</tbody>
 </table>
 
-### Testing Capabilities
+### Testing capabilities
 
 <table>
 	<tbody>
@@ -210,12 +210,12 @@ This document gives you information on the supported technologies and integratio
 	</tbody>
 </table>
 
-### Unique Capabilities
+### Unique capabilities
 
 <table>
 <thead>
   <tr>
-    <th>Unique Capabilities</th>
+    <th>Unique capabilities</th>
     <th>Description</th>
     <th>Supported Katalon Studio versions</th>
   </tr>
@@ -286,7 +286,7 @@ This document gives you information on the supported technologies and integratio
 </table>
 (*) <em> Requirements: Katalon TestOps integration. </em>
 
-### Cloud Device Integration
+### Cloud Device integration
 
 <table>
 	<tbody>
@@ -327,7 +327,7 @@ This document gives you information on the supported technologies and integratio
 	</tbody>
 </table>
 
-### ALM Integration
+### ALM integration
 
 <table>
 	<tbody>
@@ -382,7 +382,7 @@ This document gives you information on the supported technologies and integratio
 	</tbody>
 </table>
 
-### CI/CD Integration
+### CI/CD integration
 
 <table width="70%">
 	<tbody>

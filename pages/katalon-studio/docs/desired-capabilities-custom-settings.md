@@ -29,15 +29,15 @@ To create a custom execution with desired capabilities, follow these steps:
 
 4. Click on *More* (...) under the **Preferences** column.
 
-5. The **Driver Builder** dialog opens. Set desired capabilities for the selected Driver. The steps to add new Desired Capabilities here is similar to configuring desired capabilities in each environment. You can refer to the following documents for setting up desired capabilities in different evironment:
+5. The **Driver Builder** dialog opens. Set desired capabilities for the selected driver. The steps to add new desired capabilities here is similar to configuring desired capabilities in each environment. You can refer to the following documents for setting up desired capabilities in different evironment:
 
-    - [Set up Desired Capabilities in WebUI Testing](https://docs.katalon.com/katalon-studio/docs/desired-capabilities-settings-webui.html)
+    - [Set up desired capabilities in WebUI testing](https://docs.katalon.com/katalon-studio/docs/desired-capabilities-settings-webui.html)
 
-    - [Set up Desired Capabilities in Mobile Testing](https://docs.katalon.com/katalon-studio/docs/desired-capabilities-settings-mobile.html)
+    - [Set up desired capabilities in mobile testing](https://docs.katalon.com/katalon-studio/docs/desired-capabilities-settings-mobile.html)
 
-    - [Set up Desired Capabilities in Windows Desktop App Testing](https://docs.katalon.com/katalon-studio/docs/desired-capabilities-settings-windows.html)
+    - [Set up desired capabilities in Windows Desktop App testing](https://docs.katalon.com/katalon-studio/docs/desired-capabilities-settings-windows.html)
 
-    - [Set up Remote Server in Desired Capabilities](https://docs.katalon.com/katalon-studio/docs/desired-capabilities-remote-settings.html)
+    - [Set up remote server in desired capabilities](https://docs.katalon.com/katalon-studio/docs/desired-capabilities-remote-settings.html)
 
 
     Click **OK** when you finish.

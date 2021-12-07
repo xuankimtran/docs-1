@@ -21,9 +21,9 @@ This article shows you how to configure desired capabilities for remote executio
 
 To set desired capabilities for remote execution, do as follows:
 
-1. Go to **Project > Settings > Desired Capabilities > remote**. 
-2. Enter **remote Server URL**: `http://localhost:port/wd/hub` - the URL to the remote server.
-3. In the **remote Server Type** box, choose **Selenium/Appium**.
+1. Go to **Project > Settings > Desired Capabilities > Remote**. 
+2. Enter **Remote Server URL**: `http://localhost:port/wd/hub` - the URL to the remote server.
+3. In the **Remote Server Type** box, choose **Selenium/Appium**.
     
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/remote-desired-capabilities/KS-DC-Set-remote-server-URL-types.png" width="100%" alt="Add Desired Capabilities for remote execution">
 
@@ -49,9 +49,9 @@ You can find the settings files for each environment in the `<your test project 
 
 | Driver | Settings' file |
 | --- | --- |
-| remote Web Server| com.kms.katalon.core.webui.remote.properties |
+| Remote Web Server| com.kms.katalon.core.webui.remote.properties |
 
 ## See also
 
-- [Remote execution for Mobile Testing](https://docs.katalon.com/katalon-studio/docs/mobile-remote-execution.html#prerequisites)
-- [Selenium Grid - Execution on remote Machines](https://docs.katalon.com/katalon-studio/docs/selenium-grid-integration.html)
+- [Remote execution for mobile testing](https://docs.katalon.com/katalon-studio/docs/mobile-remote-execution.html#prerequisites)
+- [Selenium Grid - Execution on remote machines](https://docs.katalon.com/katalon-studio/docs/selenium-grid-integration.html)

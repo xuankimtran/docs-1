@@ -1,5 +1,5 @@
 ---
-title: "Set up desired capabilities in Windows Desktop App Testing" 
+title: "Set up desired capabilities in Windows Desktop App testing" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/desired-capabilities-settings-windows.html 
 redirect_from:
@@ -13,7 +13,7 @@ This article shows you how to configure desired capabilities for Windows Desktop
 >
 > * From version 7.0.0 onwards, Windows Desktop Application testing is available.
 > * From version 7.5.0 onwards, Native Windows Recorder is available for Katalon Studio Enterprise users.
-> * From version 7.7.0 onwards, Desired Capabilities for Native Windows Recorder are available.
+> * From version 7.7.0 onwards, desired capabilities for Native Windows Recorder are available.
 ## Set desired capabilities for Windows Desktop Application testing 
 
 To set desired capabilities for Windows Desktop Application testing, do as follows:
@@ -30,19 +30,16 @@ To set desired capabilities for Windows Desktop Application testing, do as follo
 
 3. Click **Add** on the command toolbar to add desired capabilities.
    
-   Katalon Studio supports the same capabilities as WinAppDriver does. To learn more about supported capabilities for Windows Desktop App testing, you can refer to the WinAppDriver document here: [Supported Capabilities](https://github.com/microsoft/WinAppDriver/blob/master/Docs/AuthoringTestScripts.md#supported-capabilities). 
+   Katalon Studio supports the same capabilities as WinAppDriver does. To learn more about supported capabilities for Windows Desktop App testing, you can refer to the WinAppDriver document here: [Supported capabilities](https://github.com/microsoft/WinAppDriver/blob/master/Docs/AuthoringTestScripts.md#supported-capabilities). 
    
    For Native Windows Recorder, only `appArguments` and `appWorkingDir` capabilities are supported.
    * `appArguments`: Support passing arguments to the Application Under Test. You can also use this desired capabilities to record action without opening a Windows.
    * `appWorkingDir`: Specify the Application Under Test working directory.
 
-## Example
+## Example uses
+### Example 1: set delaying time for an app launch
 
-
-
-### Example 1
-
-The following example shows you how to set desired capabilities to enable WinAppDriver to wait for a defined amount of time before initiating an app launch.
+The following example shows you how to set desired capabilities to wait for a defined amount of time before initiating an app launch.
 
 > Requirements:
 > * Download and install WinAppDriver version 1.2 onwards. You can refer to this document to install WinAppDriver: [Set up WinAppDriver](https://docs.katalon.com/katalon-studio/docs/setup-winappdriver.html).
@@ -65,11 +62,11 @@ Go to the desired capabilities settings, click **Add**, then input the following
    </tr>
    </tbody>
    </table>
-(*) <em>This means delaying the the app launch for 25 seconds. The limit for this is 50 seconds.</em>
+(*) <em>This means delaying the app launch for 25 seconds. You can set 50 seconds in maximum.</em>
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/introduction-to-desired-capabilities/KS-DC-Native-recorder-windows-final-results.png"  width="796" alt="Delay app launch">
 
-### Example 2
+### Example 2: set desired capabilities in Native Windows Recorder
 
 The following example shows you how to set desired capabilities in Native Windows Recorder. 
 
