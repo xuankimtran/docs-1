@@ -20,9 +20,7 @@ description:
 
 * [UI] Update the navigation bar.
 
-* [UI] Enhance navigation for Test Case's paths in the Test Case's detailed page.
-
-* [UI] Retain the state of previous page when navigating back from the Test Case's detailed page.
+* [UI] Add breadcrumbs of Test Case’s paths in the Test Case's detailed page.
 
 ### Fixes
 
