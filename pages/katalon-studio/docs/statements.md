@@ -264,7 +264,6 @@ For example:
 * **Break**:
 
 ``` groovy
-
 for (int i = 0; i < max; i++) {
 	// interested only in p's
 	if (searchMe.charAt(i) != 'p') {
@@ -279,7 +278,6 @@ for (int i = 0; i < max; i++) {
 * **Continue**:
 
 ``` groovy
-
 for (int i = 0; i < max; i++) {
 	// interested only in p's
 	if (searchMe.charAt(i) != 'p') {
@@ -294,7 +292,6 @@ for (int i = 0; i < max; i++) {
 * **Return**:
 
 ``` groovy
-
 for (int i = 0; i < max; i++) {
 	// interested only in p's
 	if (searchMe.charAt(i) != 'p') {
@@ -356,7 +353,6 @@ The **Script** view of test cases allows you to programmatically define and han
 For example:
 
 ``` groovy
-
     try {
         WebUI.openBrowser('')
 
@@ -379,7 +375,7 @@ For example:
 
 ## Binary Statements
 
-A Binary statement represents a dual expression consisting of two single **expressions** (variables, strings, numbers, methods...) and an **operator** (e.g. +, -, *, <, <=, !, etc.). For more details about using operators in Groovy, refer to this Groovy documentation: [Operators](http://groovy-lang.org/operators.html).
+A Binary statement represents a dual expression consisting of two single **expressions** (variables, strings, numbers, methods...) and an operator, for example: +, -, *, <, <=, !, etc.). For more details about using operators in Groovy, refer to this Groovy documentation: [Operators](http://groovy-lang.org/operators.html).
 
 ### In Manual view
 
@@ -415,19 +411,17 @@ The **Script** view of a test case allows you to programmatically define and ha
 
 * To assign a value to a test object
 
-``` groovy
-
-myText = 'Welcome to Katalon Studio'
-```
+    ``` groovy
+    myText = 'Welcome to Katalon Studio'
+    ```
 
 * To assign a test object to a variable
 
-``` groovy
-
-myObject = findTestObject('my object')
-WebUI.setText(myObject, 'Welcome to Katalon Studio')
-WebUI.verifyTextPresent('Welcome to Katalon Studio', false)
-```
+    ``` groovy
+    myObject = findTestObject('my object')
+    WebUI.setText(myObject, 'Welcome to Katalon Studio')
+    WebUI.verifyTextPresent('Welcome to Katalon Studio', false)
+    ```
 
 ## Method Call Statements
 
@@ -510,11 +504,12 @@ A method consists of instructions to perform a specific task. Defined methods c
 
     To add a keyword under a statement, select that statement then click **Add**. A test step is created under that statement.
 
-   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/define-method/image2017-6-30-203A453A48.png)
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/statements/method-statement.png" alt="method statement" width="50%">
 
 2. The **Method builder** dialog is displayed.
 
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/define-method/image2017-2-10-153A483A9.png)
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-listeners-test-hooks/method-builder.png" alt="method builder" width="80%">
+
    Specify the required information for your method as following:
 
 <table>
@@ -546,9 +541,9 @@ A method consists of instructions to perform a specific task. Defined methods c
 
    After configuring the method details, click **OK**
 
-3. A test step representing the recently defined method is added to the test case. You can switch to **Script** view to [define content for the method](/display/KD/Define+method#Definemethod-DefineamethodinScriptingview).
+3. A test step representing the recently defined method is added to the test case. You can switch to the script view to define content for the method.
 
-   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/define-method/image2017-2-28-143A553A16.png)
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-listeners-test-hooks/setup-teardown-manual.png" alt="setUp and tearDown in manual view" width="100%">
 
 4. When you're done, save the test case.
 
