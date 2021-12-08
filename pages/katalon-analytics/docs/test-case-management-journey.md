@@ -5,7 +5,7 @@ permalink: katalon-analytics/docs/test-case-management.html
 redirect_from:
 ---
 
-Following December release, Katalon TestOps represents test cases in a folder-based format to provide you with a clean look and well-structured information of your tests.
+Katalon TestOps presents test cases in a folder-based format that structures the information you receive on your tests.
 
 This document navigates you to where test cases are stored and how they are presented in Katalon TestOps to help you manage test cases effectively.
 
@@ -32,11 +32,11 @@ If you have not run tests yet, the execution data (**Last executed**, **Average 
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-dec-release-test-case-mgt/test-case-execution-data-info.png" width=100% alt="execution data info">
 
-If you have run tests, you can see all information of test executions.
+If you have run tests, this section contains information on your test executions.
 
 > Notes:
 >
-> If you are existing users who have created script repositories in Katalon TestOps before our December release, you need to refresh your script repositories to make test cases appear in folders on the **Test Cases** page. Follow these steps:
+> If you are an existing user who has created script repositories in Katalon TestOps before, you need to refresh your script repositories to make test cases appear in folders on the **Test Cases** page. Follow these steps:
 >
 > 1. Go to **Configurations** > **Script Repositories**.
 > 2. Select a script repository to go to the script repository page.
