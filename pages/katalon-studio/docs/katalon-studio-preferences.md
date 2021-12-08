@@ -31,7 +31,9 @@ In this article, you can learn some basic configurations for general behaviors a
 
 To configure Katalon general behaviors at startup, from the main menu, go to **Katalon Studio > Preferences > Katalon**.
 
-Shortcut to open the **Preferences** dialog: <button>⌘</button> <button>`</button>
+Shortcut to open the **Preferences** dialog: 
+  * macOC: <button>⌘</button> <button>`</button>
+  * Windows: Ctrl + Shift + P
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-preferences/KS-PREF-Katalon-preferences.png" width=80% alt="Katalon preferences">
 

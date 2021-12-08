@@ -14,13 +14,11 @@ description:
 > * Katalon Studio version 6.3.0 onwards.
 ## Change Katalon Theme
 
-By default, Katalon Studio has the Light theme applied. To change Katalon Studio theme, go to **Window > Themes > Light/Dark**.
+By default, Katalon Studio has the Light theme applied. To change the theme, go to **Window > Themes > Light/Dark**.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/theme/change-theme.png" alt="change theme" width="50%">
 
-After changing, to take fully affect of the new theme, you need to restart Katalon Studio. An **Info** dialog might appear to remind you to restart.
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/theme/restart.png" alt="info dialog" width="50%">
+Restart Katalon Studio to apply the new theme.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/theme/light-theme.png" alt="light theme" width="100%">
 

@@ -30,11 +30,11 @@ To import Preferences, do as follows:
 
    You can also browse a **config** folder sent from other users.
 
-3. Click **Open**. An **Info** dialog appears when the Preferences is successfully imported.
+3. Click **Open**. An **Info** dialog appears when the Preferences are successfully imported.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-preferences/info.png" alt="info dialog" width="50%">
 
-For a smooth transition to the latest version, Katalon Studio supports an in-app upgrade function. The latest version upgraded via this function reuses the Preferences configurations of the current version. To learn more about this function, see [Update Katalon Studio](https://docs.katalon.com/katalon-studio/docs/auto-updater.html).
+You can also upgrade Katalon Studio to the latest version by navigating to **Help > Check for Updates ...**. Upgrading in this way keeps your Preferences configuration unchanged. To learn more about this function, see [Update Katalon Studio](https://docs.katalon.com/katalon-studio/docs/auto-updater.html).
 
 **See also**:
 

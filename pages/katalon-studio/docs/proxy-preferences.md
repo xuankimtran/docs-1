@@ -12,7 +12,7 @@ Please go to **Katalon Studio> Preferences > Katalon > Proxy** and select the *
 
 ## Authentication Proxy
 
-The proxy configurations in this section are used for all network connections to authenticate with Katalon Servers, including Katalon account authentication, Katalon Auto-updater, Katalon TestOps, and  Katalon Store integration, sample projects provider, AMI Authentication, etc)
+The proxy configurations in this section are used when connecting and authenticating to Katalon servers. This affects account and AMI authentication, but also Katalon TestOps and Store integration, the Katalon auto-updater, sample projects providers, and more.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/auth-proxy.png" width="70%" alt="Authentication proxy">
 
@@ -26,19 +26,19 @@ System proxy configurations are applied to all network connections generated whe
 
 In the Proxy Settings areas of both Authentication and System proxies, you can select one of the three options below.
 
-* **No proxy**: there's no proxy.
+* **No proxy**: Connect directly without proxy.
 * **Use system proxy configuration**: Katalon Studio guesses which proxy server your system is behind by checking Java, browser and operating system settings, and environment variables.
-* **Manual proxy configuration**: you can manually set up your proxy
+* **Manual proxy configuration**: you can manually set up your proxy with the following settings:
   * Address: an HTTP Proxy host
   * Port: an HTTP Proxy port
   * Excludes: A list of addresses separated by comma to exclude
-  > The ability to exclude proxy is available from version 7.2.0 onwards. Katalon Studio only supports proxy exceptions in web recorder and spying with **Chrome** and **Firefox**.
+  > The ability to exclude proxy is available from version 7.2.0 onwards. Katalon Studio only supports proxy exceptions in web recorder and spy utilities with **Chrome** and **Firefox**.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/proxy-options.png" width="70%" alt="proxy settings">
 
 ## System proxy for test execution's desired capabilities
 
-Katalon Studio applies the System proxy to test execution's desired capabilities on the instance automatically. If you wish to configure different proxy's desired capabilities for a project, you need to do as follows:
+Katalon Studio applies the system proxy to test execution's desired capabilities on the instance automatically. If you wish to configure different proxy settings depending on your projects, you can use desired capabilities as follows:
 
 1. Open your project and go to **Katalon Studio > Preferences > Katalon > Proxy > System**
 2. At the bottom of the displayed view, uncheck the **Auto-apply to test execution desired capabilities** option and click **OK** to save
@@ -101,16 +101,6 @@ println proxy
 ```
 
 </details>
-
-## Troubleshoot proxy issues
-
-1. If you're behind a Proxy Server, before activating Katalon Studio, you need to configure the Authentication Proxy settings. At the bottom of the Activation dialog box, click **Configure Authentication Proxy**.
-
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/config-proxy-activation.png" width="70%" alt="troubleshoot proxy issue">
-
-2. "*New and old proxy mechanisms are not allowed in one command. Please use either the new or the old one.*"
-
-   If you encounter the above error when executing your test with Katalon Runtime Engine, please check if you are mixing options of the new mechanism with options for proxy configuration prior to 7.5.0 and correct the commands in use. Learn more at [Proxy options](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#proxy-options).
 
 **See also**:
 
