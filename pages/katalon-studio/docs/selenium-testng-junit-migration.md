@@ -164,7 +164,7 @@ To migrate Selenium/TestNG/JUnit scripts to a Katalon Studio project, do as foll
 
 2. Build project dependencies.
 
-   2.1 Open the .gradle file and add Java dependencies of your Selenium/TestNG/JUnit project.
+   2.1 Open the .gradle file and add the Java dependencies of your Selenium/TestNG/JUnit project.
       
       > Notes:
       > 
@@ -197,7 +197,7 @@ To migrate Selenium/TestNG/JUnit scripts to a Katalon Studio project, do as foll
 
 5. To reload the source code and resources from your Selenium/TestNG/JUnit project, right-click the `Include` folder, then click **Refresh**.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/Selenium-TestNG-Migration/KS-Selenium-Reload-source-code.png" width="322" alt="Reload TestNG source code and resoureces">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/Selenium-TestNG-Migration/KS-Selenium-Reload-source-code.png" width="322" alt="Reload TestNG source code and resources">
 
 6. Create a test case that includes TestNG keywords to run TestNG test suites or JUnit test classes. To learn more about TestNG keywords, see above: [Built-in TestNG/JUnit keywords](https://docs.katalon.com/katalon-studio/docs/selenium-testng-junit-migration.html#built-in-testngjunit-keywords).
 
