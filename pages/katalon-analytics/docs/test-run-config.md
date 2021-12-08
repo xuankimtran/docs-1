@@ -16,7 +16,7 @@ Follow these steps:
 
 A Test Environment connects your machine with Katalon TestOps to activate a Remote Execution.
 
-You can define what machine you should execute Test Runs by configuring a Test Environment in Katalon TestOps.
+You can define which machine or machines execute the remote Test Runs by configuring a Test Environment in Katalon TestOps.
 
 Katalon TestOps offers the following options:
 
