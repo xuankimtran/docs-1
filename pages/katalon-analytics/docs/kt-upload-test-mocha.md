@@ -5,15 +5,15 @@ permalink: katalon-analytics/docs/kt-upload-test-mocha.html
 description: 
 ---
 
-You can submit Mocha framework's test results to Katalon TestOps.
+You can submit test results from the Mocha framework to Katalon TestOps.
 
 > Notes:
 >
-> You can download a sample project [here](https://github.com/katalon-studio-samples/testops-report-sample-js) for upload testing via Mocha.
+> You can download [Mocha sample project](https://github.com/katalon-studio-samples/testops-report-sample-js) to upload tests from Mocha.
 
 Follow these steps:
 
-1. Open the Mocha file in [Visual Studio Code](https://code.visualstudio.com).
+1. Open the Mocha file in the file editor  that it is compatible with (e.g., [Visual Studio Code](https://code.visualstudio.com)).
 
      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-mocha/kt_vs_code_open_mocha.png" width=100% alt="open mocha in vsc"> 
 
@@ -21,11 +21,11 @@ Follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-mocha/kt_vs_code_package_json.png" width=100% alt="open json file"> 
 
-3. Type `npm install` for command, then press *Enter* and wait for it to run.
+3. Type the `npm install` command, then press *Enter* and wait for it to run.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-mocha/kt_vs_code_mocha_json_install.png" width=100% alt="run command"> 
 
-    While waiting, go to Katalon TestOps website.
+    While waiting, go to the Katalon TestOps website.
 4. Sign in to [Katalon TestOps](https://testops.katalon.io/login) and go to your Project.
 
 5. Go to **Configurations** > **Integrations**.
@@ -44,7 +44,7 @@ Follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-mocha/kt_vs_code_mocha_paste_bash.png" width=100% alt="install dependency command"> 
 
-8. Create a new file with the name *testops-config.json* in Visual Studio Code (VSC).
+8. Create a new file with the name *testops-config.json* in the file editor.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-mocha/kt_vs_code_creat_testops_config.png" width=100% alt="create vsc file"> 
 
@@ -56,10 +56,11 @@ Follow these steps:
 
     You have uploaded reports.
 
-11. Type the command `npm test` in the *testops-config.json* file in VSC, and press **Enter** to run tests.
+11. Type the `npm test` command in the *testops-config.json* file in your file editor, and press **Enter** to run tests.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-mocha/kt_vs_code_npm_test.png" width=100% alt="configure testops in vsc"> 
 
 12. Go to **Test Execution** > **Test Run Calendar**.
 
-    You can now see all Test Runs here.
+    Your uploaded Test Runs now display here.
+
