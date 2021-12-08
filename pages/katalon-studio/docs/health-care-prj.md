@@ -5,9 +5,9 @@ permalink: katalon-studio/docs/health-care-prj.html
 ---
 
 This sample demonstrates fundamental WebUI testing in Katalon Studio. The application under test (AUT) is the CURA Healthcare Service website: `https://katalon-demo-cura.herokuapp.com/`. You can learn more about WebUI testing in this document: [Introduction to WebUI testing](https://docs.katalon.com/katalon-studio/docs/introduction-to-web-testing.html#before-you-begin).
-## Open Healthcare sample project
+## Open the Healthcare sample project
 
-To open Healthcare sample project, in Katalon Studio, go to **File > New Sample Project > Sample Web UI Tests Project (Healthcare)**.
+To open the Healthcare sample project, in Katalon Studio, go to **File > New Sample Project > Sample Web UI Tests Project (Healthcare)**.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/healthcare-samples/KS-SAMPLE-Open-Healthcare-sample.png" width="70%" alt="Open Healthcare sample in Studio">
 
@@ -15,14 +15,14 @@ Alternatively, you can download the Healthcare sample project from our Github re
 ## Healthcare sample project components
 ### Profiles
 
-To open the excution profile, go to **Profiles > default**.
+To open the execution profile, go to **Profiles > default**.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/healthcare-samples/KS-SAMPLE-Open-execution-profiles.png" width="70%" alt="Default profile in the Healthcare sample">
 
 
-You can create and save all global variables in the execution profile. They can be used across test cases in your project. To learn more about execution profile and global variables, you can refer to this document: [Execution Profile and Global Variables](https://docs.katalon.com/katalon-studio/docs/execution-profile-v54.html).
+You can create and save all global variables in the execution profile. They can be used across test cases in your project. To learn more about execution profiles and global variables, you can refer to this document: [Execution Profile and Global Variables](https://docs.katalon.com/katalon-studio/docs/execution-profile-v54.html).
 
-Here, Katalon creates 3 global variables in this sample project:
+Here, Katalon creates three global variables in this sample project:
 
 <table>
 <thead>
@@ -159,7 +159,7 @@ This keyword gets all cells of a row of an HTML table .
 
 ### Test cases
 
-To get access to the main test cases in this project, in the **Test Explorer** panel, go to **Test Cases > Main Test Cases**.
+To access the main test cases in this project, in the **Test Explorer** panel, go to **Test Cases > Main Test Cases**.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/healthcare-samples/KS-SAMPLES-Main-test-cases.png" width="70%" alt="Main test cases">
 
@@ -182,16 +182,16 @@ There are three test cases for different purposes:
       <a class="pop">
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/healthcare-samples/KS-SAMPLE-TC1.gif" width="70%" alt="Test Case 1 - Verify successful login">
       </a>
-      <p style="text-align: center;"><em>Click the image to enlarge it</em></p>
+      <p style="text-align: center;"><em>Click the gif to enlarge it.</em></p>
 
 
 2. **TC2_Verify Successful Appointment** is to verify if that person can successfully make an appointment after logging in. The flow in this test case is as follows:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/healthcare-samples/KS-SAMPLES-TC2.png" width="70%" alt="Test Case 2 - Verify successful appointment">
 
-    - Go to the CURA Healthcare Service website: `https://katalon-demo-cura.herokuapp.com/` and sign in. Here, instead of re-recording the login steps, we call the **Common Test Cases/Login** test case. To learn more about calling test cases, you can refer to this document: [Call test cases](https://docs.katalon.com/katalon-studio/docs/call-test-case.html#call-test-case-in-manual-view).
-    - To make an appointment, fill in the valid value for **Facility**, **Healthcare Program** and **Visit Date**. Click the **Book Appointment** button.
-    - Verify if the appointment is successfully confirmed. Here, we consider a appointment is successfully confirmed when the **Appointment Confirmation** text appears.
+    - Go to the CURA Healthcare Service website: `https://katalon-demo-cura.herokuapp.com/` and sign in. Instead of re-recording the login steps, we call the **Common Test Cases/Login** test case. To learn more about calling test cases, you can refer to this document: [Call test cases](https://docs.katalon.com/katalon-studio/docs/call-test-case.html#call-test-case-in-manual-view).
+    - To make an appointment, fill in the valid value for **Facility**, **Healthcare Program**, and **Visit Date**. Click the **Book Appointment** button.
+    - Verify if the appointment is successfully confirmed. Here, we consider an appointment is successfully confirmed when the **Appointment Confirmation** text appears.
     - Verify if the booking information is matched with the confirmation information.
     - Take screenshot. 
 
@@ -201,7 +201,7 @@ There are three test cases for different purposes:
     <a class="pop">
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/healthcare-samples/KS-SAMPLE-TC2.gif" width="70%" alt="Test Case 2 - Verify successful appointment">
     </a>
-    <p style="text-align: center;"><em>Click the image to enlarge it</em></p>
+    <p style="text-align: center;"><em>Click the gif to enlarge it.</em></p>
 
 3. **TC3_Visual Testing Example** utilizes the **Visual Testing** feature in Katalon TestOps to compare images captured during test executions. You can see the instructions for this feature here: [Visual Testing in Katalon TestOps](https://docs.katalon.com/katalon-analytics/docs/ks-visual-testing.html#set-up-visual-testing).
 
@@ -213,16 +213,16 @@ There are two test suites in this project. To get access to them, in the **Test 
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/healthcare-samples/KS-SAMPLES-sample-test-suites.png" width="70%" alt="Main test suites">
 
-1. **Healthcare-tests - TS_RegressionTest**: This sample test suite is a combination of three above test cases.
+1. **Healthcare-tests - TS_RegressionTest**: This sample test suite combines the three above test cases.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/healthcare-samples/KS-SAMPLES-Test-suites-regression.png" width="70%" alt="Healthcare-tests - TS_RegressionTest">
 
-2. **Healthcare-tests - TS_RegressionTestCollection**: This sample test suite collection is a combination of two **Healthcare-tests - TS_RegressionTest** test suites with different testing environments. In this project, we run the test suites with Firefox and Chrome.
+2. **Healthcare-tests - TS_RegressionTestCollection**: This sample test suite collection combines two **Healthcare-tests - TS_RegressionTest** test suites with different testing environments. In this project, we run the test suites with Firefox and Chrome.
 
     <a class="pop">
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/healthcare-samples/KS-SAMPLES-Test-suite-collection.png" width="70%" alt="Healthcare-tests - TS_RegressionTestCollection">
     </a>
-    <p style="text-align: center;"><em>Click the image to enlarge it</em></p>
+    <p style="text-align: center;"><em>Click the image to enlarge it.</em></p>
 
 ### Execute selected test case or test suite/test suite collection
 
@@ -240,12 +240,14 @@ To execute a test case or a test suite/test suite collection in the sample proje
     <a class="pop">
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/healthcare-samples/KS-SAMPLES-View-results-in-log-viewer.png" width="70%" alt="Oservice results in the log Viewer">
     </a>
-    <p style="text-align: center;"><em>Click the image to enlarge it</em></p>
+    <p style="text-align: center;"><em>Click the image to enlarge it.</em></p>
 
     > Notes:
-    > * In the test suite or test suite collection level, you can view test results in the **Result** tab. The test results can be Passed, Failed, Error or Incomplete.
+    > * You can view test results in the **Result** tab in the test suite or test suite collection level. The test results can be Passed, Failed, Error or Incomplete.
     > * After executing test suites or test suite collections, you can view your reports and details in `<your-project-folder>/Reports`. Katalon Studio also supports exporting test reports into different formats, such as HTML, CSV, PDF, and JUnit.
     > * For real-time monitoring and better reporting capabilities, consider integrating your project with Katalon TestOps. Learn more about test result reports here: [Upload Test Results to Katalon TestOps from Katalon Studio](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html).
 
+## See also
 
+* [Create test cases using Record & Playback](https://docs.katalon.com/katalon-studio/docs/create_test_case_using_record_playback.html#record-test-with-the-record-web-function)
 
