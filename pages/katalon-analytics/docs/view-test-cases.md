@@ -5,7 +5,7 @@ permalink: katalon-analytics/docs/view-test-cases.html
 redirect_from:
 ---
 
-You can manage test cases in Katalon TestOps to evaluate testing qualities and visualize the testing trend over time.
+You can manage test cases in Katalon TestOps to evaluate test case quality and visualize how the test case quality improves or worsens over time.
 
 By doing so, your team can spot weak points in your software or application deployment.
 
