@@ -180,7 +180,7 @@ There are three test cases for different purposes:
     - Close browser.
 
       <a class="pop">
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/healthcare-samples/KS-SAMPLE-TC1_SparkVideo.gif" width="70%" alt="Test Case 1 - Verify successful login">
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/healthcare-samples/KS-SAMPLE-TC1.gif" width="70%" alt="Test Case 1 - Verify successful login">
       </a>
       <p style="text-align: center;"><em>Click the image to enlarge it</em></p>
 
@@ -199,7 +199,7 @@ There are three test cases for different purposes:
     > * You can only see the screenshot after executing a test suite. See below: [Test suite and test suite collection](https://docs.katalon.com/katalon-studio/docs/health-care-prj.html#test-suite-and-test-suite-collection).
 
     <a class="pop">
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/healthcare-samples/KS-SAMPLE-TC2_SparkVideo.gif" width="70%" alt="Test Case 2 - Verify successful appointment">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/healthcare-samples/KS-SAMPLE-TC2.gif" width="70%" alt="Test Case 2 - Verify successful appointment">
     </a>
     <p style="text-align: center;"><em>Click the image to enlarge it</em></p>
 
@@ -230,7 +230,7 @@ To execute a test case or a test suite/test suite collection in the sample proje
 
     You can choose different browsers to execute your test in the dropdown list next to **Run**. 
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/healthcare-samples/KS-Sample-Run-with-different-browsers.png" width="70%" alt="Run the test case">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/healthcare-samples/KS-Sample-Run-with-different-browsers.png" width="30%" alt="Run the test case">
 
 3. Observe the test result in the **Log Viewer** tab.
 
