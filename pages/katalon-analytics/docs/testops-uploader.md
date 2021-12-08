@@ -15,7 +15,9 @@ Follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-junit-upload/import-manual-report-page-2.png"  width=100% alt="import manual reports page">
 
-    You can either upload JUnit reports or Katalon Studio's reports.
+    > Notes:
+    >
+    > You can either upload JUnit or Katalon Studio reports.
 
 5. Click **Choose Files** and browse the files in your local machine.
 
