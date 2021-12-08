@@ -42,7 +42,7 @@ After configuring SSO, you can enable SSO for new members when inviting them to 
 
 You can also enable SSO for the existing members of your Organization.
 
-> To learn more User Management in TestOps, refer to this guide: [TestOps User Management](https://docs.katalon.com/katalon-analytics/docs/kt_invite_user_org.html).
+> To learn more user management in TestOps, refer to this guide: [TestOps User Management](https://docs.katalon.com/katalon-analytics/docs/kt_invite_user_org.html).
 
 ### For a new User
 
@@ -74,7 +74,7 @@ Once the User invitation process is completed, an email is sent to the User aski
 
 ### For an existing User
 
-To enable SSO for an existing member, follow these steps:
+To enable SSO for an existing User, follow these steps:
 
 1. Go to **Settings** > **User Management**.
 
@@ -104,11 +104,7 @@ To enable SSO for an existing member, follow these steps:
 >
 > Users must join the Organization to log in to the custom domain by either SSO or username and password.
 
-## View and manage User Authentication
-
-As an Owner or Admin, you can view and manage User authentication.
-
-### View Pending SSO Invitations
+## View Pending SSO invitations
 
 To view the pending invitations and SSO requests, in the **User Management** page, switch to the **Pending Invitation** tab.
 
@@ -116,9 +112,27 @@ To view the pending invitations and SSO requests, in the **User Management** pag
 
 Users with pending SSO invitations are tagged with the *SSO* icon.
 
-### Revoke Pending SSO Invitations
+## Revoke pending SSO invitations
 
-To revoke pending SSO invitations, follow these steps:
+As an Owner or Admin, you can revoke pending SSO invitations.
+
+### For existing Users
+
+To revoke pending SSO invitation for Users who join the Organization, follow these steps:
+
+1. In the **User Management** page, switch to the **Active Users** tab.
+
+2. In the **Active Users** tab, nagivate to the desired User's row, click on the <em>more options</em> icon, and select **Edit Login Options**.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-sso-settings/K1-User-Management-Active-Users-tab-more-options.png" width=100% alt="More options icon">
+
+3. In the new **Login Settings** pop-up, toggle off the **Log in to [custom.katalon.io] by Single Sign-On** option.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-sso-settings/K1-Log-Settings-Username_Password-enabled.png" width=70% alt="SSO toggle turned on">
+
+### For new Users
+
+To revoke pending SSO invitations for Users who have not joined the Organization, follow these steps:
 
 1. In the **User Management** page, switch to the **Pending Invitation** tab.
 
