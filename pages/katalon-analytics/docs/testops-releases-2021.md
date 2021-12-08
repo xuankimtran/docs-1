@@ -14,13 +14,13 @@ description:
 
 ### New features
 
-* Introduce Test Case Management's new design. Read more: [Test Case Management](https://docs.katalon.com/katalon-analytics/docs/test-case-management.html).
+* Introduced new design for test case management. Read more: [Manage Test Cases](https://docs.katalon.com/katalon-analytics/docs/test-case-management.html).
 
 ### Enhancements
 
-* [UI] Update the navigation bar.
+* [UI] Updated the navigation bar.
 
-* [UI] Add breadcrumbs of Test Case’s paths in the Test Case's detailed page.
+* [UI] Added breadcrumbs of Test Case paths in the Test Case's detailed page.
 
 ### Fixes
 
