@@ -6,7 +6,7 @@ redirect_from:
 description: 
 ---
 
-With Test Case preferences, you can define the default behaviors related to your test case design. This include:
+With Test Case preferences, you can define the default behaviors related to your test case design. This includes:
 
 * Test Case Calling
 * Default Open View
