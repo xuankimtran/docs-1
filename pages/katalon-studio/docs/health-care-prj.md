@@ -179,7 +179,11 @@ There are three test cases for different purposes:
     - Verify if the account is logged in successfully. Here, we use the `G_Timeout` variables. If the page **Appointment** appears within 10 seconds, the login is successful.
     - Close browser.
 
-      <img src="gif" width="70%" alt="Test Case 1 - Verify successful login">
+      <a class="pop">
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/healthcare-samples/KS-SAMPLE-TC1_SparkVideo.gif" width="70%" alt="Test Case 1 - Verify successful login">
+      </a>
+      <p style="text-align: center;"><em>Click the image to enlarge it</em></p>
+
 
 2. **TC2_Verify Successful Appointment** is to verify if that person can successfully make an appointment after logging in. The flow in this test case is as follows:
 
@@ -194,7 +198,10 @@ There are three test cases for different purposes:
     > Notes:
     > * You can only see the screenshot after executing a test suite. See below: [Test suite and test suite collection](https://docs.katalon.com/katalon-studio/docs/health-care-prj.html#test-suite-and-test-suite-collection).
 
-    <img src="gif" width="70%" alt="Test Case 2 - Verify successful appointment">
+    <a class="pop">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/healthcare-samples/KS-SAMPLE-TC2_SparkVideo.gif" width="70%" alt="Test Case 2 - Verify successful appointment">
+    </a>
+    <p style="text-align: center;"><em>Click the image to enlarge it</em></p>
 
 3. **TC3_Visual Testing Example** utilizes the **Visual Testing** feature in Katalon TestOps to compare images captured during test executions. You can see the instructions for this feature here: [Visual Testing in Katalon TestOps](https://docs.katalon.com/katalon-analytics/docs/ks-visual-testing.html#set-up-visual-testing).
 
