@@ -5,7 +5,7 @@ permalink: katalon-analytics/docs/test-case-management.html
 redirect_from:
 ---
 
-From December 2021 release, Katalon TestOps represents test cases in a folder-based format to provide you with a clean look and well-structured information of your tests.
+Following December release, Katalon TestOps represents test cases in a folder-based format to provide you with a clean look and well-structured information of your tests.
 
 This document navigates you to where test cases are stored and how they are presented in Katalon TestOps to help you manage test cases effectively.
 
@@ -24,23 +24,24 @@ After uploading your test scripts from a Git repository, go to **Test Management
 
 The **Test Cases** page appears.
 
-You can see all test case folders (corresponding to your Git repositories) display below the *Uploaded Data* folder here.
+Here you can see all test case folders (corresponding to your Git repositories) display below the *Uploaded Data* folder.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-dec-release-test-case-mgt/test-case-folder-info.png" width=100% alt="test case folder based">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-dec-release-test-case-mgt/test-case-from-git-repo.png" width=100% alt="test case folder based">
 
 If you have not run tests yet, the execution data (**Last executed**, **Average Duration**, **Flakiness (%)**) is empty.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-dec-release-test-case-mgt/test-case-folder-info.png" width=100% alt="test case folder based">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-dec-release-test-case-mgt/test-case-execution-data-info.png" width=100% alt="execution data info">
 
 If you have run tests, you can see all information of test executions.
 
 > Notes:
 >
-> If you are existing users who have created script repositories in Katalon TestOps before our December release, you need to refresh your script repositories to make test cases appear as folders on the **Test Cases** page. Follow these steps:
+> If you are existing users who have created script repositories in Katalon TestOps before our December release, you need to refresh your script repositories to make test cases appear in folders on the **Test Cases** page. Follow these steps:
 >
 > 1. Go to **Configurations** > **Script Repositories**.
-> 2. Select a script repository to go to the script repository page .
-> 3. Click **Refresh Test Suite Collection**.
+> 2. Select a script repository to go to the script repository page.
+>   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-dec-release-test-case-mgt/script-repo-page.png" width=100% alt="script repo page">
+> 3. Click **Refresh Test Suite Collection** in the top right corner.
 > 4. Go to **Test Management** > **Test Cases**.
 > You can now see test cases from the script repository you have refreshed.
 
@@ -50,9 +51,9 @@ If you upload tests as .zip file (non-KS projects), your test cases will not be 
 
 You must execute tests on Katalon TestOps to generate the execution reports first.
 
-After running tests, the test cases and their execution data will appear as a folder within the *Uploaded Data* folder.
+After running tests, the test cases and their execution data will appear in a folder within the *Uploaded Data* folder.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-dec-release-test-case-mgt/test-case-folder-format.png" width=100% alt="test case folder based UI">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-dec-release-test-case-mgt/test-case-folder-info.png" width=100% alt="uploaded data folder inside">
 
 ## View tests executed in other platforms
 
@@ -73,4 +74,6 @@ This case applies if you don't run tests in Katalon TestOps.
 
 After uploading the execution data, go to **Test Management** > **Test Cases** and click on the *Uploaded Data* folder.
 
-You can see test cases and their execution data here.
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-dec-release-test-case-mgt/test-case-folder-format.png" width=100% alt="uploaded data folder outside">
+
+You can see test cases and their execution data in folders inside the *Uploaded Data* folder.
