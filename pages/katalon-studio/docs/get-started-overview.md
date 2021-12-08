@@ -6,11 +6,11 @@ redirect_from:
 description:
 ---
 
-> Download the latest version of Katalon Studio [here](https://www.katalon.com/download/)!
+> Download the latest version of Katalon Studio [here](https://www.katalon.com/download/).
 
 After successfully downloading Katalon Studio and activating your license, it's time to get started with Katalon Studio.
 
-> Learn how to activate your licenses at [Activate Katalon License](https://docs.katalon.com/katalon-studio/docs/activate-license.html)
+> Learn how to activate your licenses at [Activate Katalon License](https://docs.katalon.com/katalon-studio/docs/activate-license.html).
 
 This section guides you through your onboarding tour in Katalon Studio. Below are some essential tools and configurations you need to know before jumping into your very first test project:
 
