@@ -39,10 +39,14 @@ If you have run tests, this section contains information on your test executions
 > If you are an existing user who has created script repositories in Katalon TestOps before, you need to refresh your script repositories to make test cases appear in folders on the **Test Cases** page. Follow these steps:
 >
 > 1. Go to **Configurations** > **Script Repositories**.
+>
 > 2. Select a script repository to go to the script repository page.
 >   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-dec-release-test-case-mgt/script-repo-page.png" width=100% alt="script repo page">
+>
 > 3. Click **Refresh Test Suite Collection** in the top right corner.
+>
 > 4. Go to **Test Management** > **Test Cases**.
+>
 > You can now see test cases from the script repository you have refreshed.
 
 ### View tests uploaded via a non-Git repository
