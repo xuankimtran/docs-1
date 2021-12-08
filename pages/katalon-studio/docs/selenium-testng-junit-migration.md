@@ -22,9 +22,9 @@ You can create, view and edit Java class files.
 
 To create a new Java class file, in the **Tests Explorer** panel, go to the **Include > scripts > groovy** folder, right-click and choose **New > Java Class**. Choose a package and enter class name in the **New** dialog.
    
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/Selenium-TestNG-Migration/new-java-class.png" width="362" alt="Create Java Class files">
-
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/Selenium-TestNG-Migration/java1.png" width="285" alt="Sample Java Class file">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/Selenium-TestNG-Migration/new-java-class.png" width="362" alt="Create Java Class files"><br>
+   
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/Selenium-TestNG-Migration/java1.png" width="285" alt="Sample Java Class file"><br>
    
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/Selenium-TestNG-Migration/java-script.png" width="501" alt="Sample Java Class file">
 
@@ -33,7 +33,7 @@ To create a new Java class file, in the **Tests Explorer** panel, go to the **In
 
 You can enable the built-in keywords in the manual view by using the **TestNG/JUnit Keywords** plugin. You can download the plugin from Katalon Store here: [TestNG/JUnit Keywords](https://store.katalon.com/product/180/TestNG-JUnit-Keywords). 
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/Selenium-TestNG-Migration/testng-kw.png" width="260" height="">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/Selenium-TestNG-Migration/testng-kw.png" width="260" height=""><br>
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/Selenium-TestNG-Migration/testng-kw-2.png" width="334" height="">
 
@@ -182,7 +182,7 @@ To migrate Selenium/TestNG/JUnit scripts to a Katalon Studio project, do as foll
 3. Copy and paste the source code of your Selenium/TestNG/JUnit project in the `Include/scripts/groovy` folder of your Katalon project. 
 
     <a class="pop">
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/Selenium-TestNG-Migration/KS-Selenium-Copy-the-source-code.gif" width="70%" alt="Add TestND source code">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/Selenium-TestNG-Migration/Copy-the-source-code.gif" width="70%" alt="Add TestNG source code">
     </a>
     <p style="text-align: center;"><em>Click the gif to enlarge it</em></p>
 
@@ -191,7 +191,7 @@ To migrate Selenium/TestNG/JUnit scripts to a Katalon Studio project, do as foll
 4. Copy and paste other resources of your Selenium/TestNG/JUnit project in the `Include` folder of your Katalon project (if any).
    
     <a class="pop">
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/Selenium-TestNG-Migration/KS-Selenium-Add-resources.gif" width="70%" alt="Add TestNG resoureces">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/Selenium-TestNG-Migration/Add-other-resources.gif" width="70%" alt="Add TestNG resoureces">
     </a>
     <p style="text-align: center;"><em>Click the gif to enlarge it</em></p>
 
