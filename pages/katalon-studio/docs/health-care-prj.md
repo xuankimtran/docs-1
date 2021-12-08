@@ -1,5 +1,5 @@
 ---
-title: "Web UI testing (Healthcare sample)"
+title: "WebUI testing (Healthcare sample)"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/health-care-prj.html
 ---
@@ -189,7 +189,7 @@ There are three test cases for different purposes:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/healthcare-samples/KS-SAMPLES-TC2.png" width="70%" alt="Test Case 2 - Verify successful appointment">
 
-    - Go to the CURA Healthcare Service website: `https://katalon-demo-cura.herokuapp.com/` and login. Here, to speed up the login process, we call the test case from **Common Test Cases/Login**. To learn more about calling test cases, you can refer to this document: [Call test cases](https://docs.katalon.com/katalon-studio/docs/call-test-case.html#call-test-case-in-manual-view).
+    - Go to the CURA Healthcare Service website: `https://katalon-demo-cura.herokuapp.com/` and sign in. Here, instead of re-recording the login steps, we call the **Common Test Cases/Login** test case. To learn more about calling test cases, you can refer to this document: [Call test cases](https://docs.katalon.com/katalon-studio/docs/call-test-case.html#call-test-case-in-manual-view).
     - To make an appointment, fill in the valid value for **Facility**, **Healthcare Program** and **Visit Date**. Click the **Book Appointment** button.
     - Verify if the appointment is successfully confirmed. Here, we consider a appointment is successfully confirmed when the **Appointment Confirmation** text appears.
     - Verify if the booking information is matched with the confirmation information.
@@ -219,7 +219,10 @@ There are two test suites in this project. To get access to them, in the **Test 
 
 2. **Healthcare-tests - TS_RegressionTestCollection**: This sample test suite collection is a combination of two **Healthcare-tests - TS_RegressionTest** test suites with different testing environments. In this project, we run the test suites with Firefox and Chrome.
 
+    <a class="pop">
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/healthcare-samples/KS-SAMPLES-Test-suite-collection.png" width="70%" alt="Healthcare-tests - TS_RegressionTestCollection">
+    </a>
+    <p style="text-align: center;"><em>Click the image to enlarge it</em></p>
 
 ### Execute selected test case or test suite/test suite collection
 
@@ -234,8 +237,10 @@ To execute a test case or a test suite/test suite collection in the sample proje
 
 3. Observe the test result in the **Log Viewer** tab.
 
+    <a class="pop">
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/healthcare-samples/KS-SAMPLES-View-results-in-log-viewer.png" width="70%" alt="Oservice results in the log Viewer">
-
+    </a>
+    <p style="text-align: center;"><em>Click the image to enlarge it</em></p>
 
     > Notes:
     > * In the test suite or test suite collection level, you can view test results in the **Result** tab. The test results can be Passed, Failed, Error or Incomplete.
