@@ -34,7 +34,7 @@ Looping allows you to repeat steps until a condition is met.
 The `while` command starts a loop. The target of a `while` command is an expression that evaluates to either `true` or `false`. The expression can be a JavaScript with variables. If the expression evaluates to `true`, the steps following `while` will be executed until `endwhile` is found and the expression evaluates again. The steps between `while` and `endwhile` will be executed repeatedly until the expression evaluates to `false`.
 
 ### endWhile
-The `endif` command terminates the looping branching block. You need to add `endif` to your test, otherwise you will get an error message.
+The `endwhile` command terminates the looping branching block. You need to add `endwhile` to your test, otherwise you will get an error message.
 
 
 ## Sample Projects

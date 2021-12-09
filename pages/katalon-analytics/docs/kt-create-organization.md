@@ -105,3 +105,7 @@ A popup displays for confirmation. Enter the Organization name to validate. Clic
 > Notice:
 >
 > You cannot undo this action. This action will permanently delete your Organization, Projects, licenses and remove all associated teams.
+
+### Transfer an Organization
+
+See: [Transfer Ownership](https://docs.katalon.com/katalon-analytics/docs/kt_transfer_ownership.html).

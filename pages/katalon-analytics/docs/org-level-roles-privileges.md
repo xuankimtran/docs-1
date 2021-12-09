@@ -54,13 +54,15 @@ You can find the detailed permissions for each role in the following tables:
 			</td>
 			<td>
 				<ul>
-					<li>Invite new users</li>
-					<li>Remove users</li>
-					<li>Set roles for:&nbsp;</li>
 					<ul>
-						<li>Admin</li>
-						<li>Member</li>
-						<li>Billing Manager&nbsp;</li>
+						<ul>
+							<ul>
+								<li>Invite new users</li>
+								<li>Remove users</li>
+								<li>Change roles of <strong>Billing Manager/ Admin/ Member</strong> to <strong>Admin/ Member/ Billing Manager</strong></li>
+								<li>Transfer ownership</li>
+							</ul>
+						</ul>
 					</ul>
 				</ul>
 			</td>
@@ -76,12 +78,15 @@ You can find the detailed permissions for each role in the following tables:
 			</td>
 			<td>
 				<ul>
-					<li>Invite new users</li>
-					<li>Remove users</li>
-					<li>Set roles for:</li>
 					<ul>
-						<li>Billing Manager</li>
-						<li>Member</li>
+						<ul>
+							<ul>
+								<li>Invite new users</li>
+								<li>Remove users</li>
+								<li>Change roles of <strong>Member/ Billing Manager</strong> to <strong>Admin/ Billing Manager/ Member</strong></li>
+								<li>Cannot change roles of <strong>Admin/ Owner</strong></li>
+							</ul>
+						</ul>
 					</ul>
 				</ul>
 			</td>

@@ -8,6 +8,7 @@ redirect_from:
  - "/display/KA/User%20Management/"
  - "/x/lQjR/"
  - "/katalon-analytics/docs/user-management/"
+ - "/katalon-analytics/docs/user-management.html"
  - "/katalon-analytics/docs/setup-org-team-project/"
 ---
 

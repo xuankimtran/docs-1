@@ -2,7 +2,7 @@
 title: "Terminology and Formulas"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/testops-terminology.html
-redirect_from:
+redirect_from: /katalon-analytics/docs/requirement-coverage.html
 ---
 
 ## TestOps Terminology
@@ -394,6 +394,11 @@ The status of a visual test run, including:
 
 **<details><summary>Test Run Coverage</summary>**
 The quality of each requirement based on the status of the corresponding test result.
+
+* The size of each block indicates the number of test runs associated with each requirement.
+
+* The color of each block indicates the overall status of the total test cases in each requirement.
+
 </details>
 
 **<details><summary>Time (Test Suite)</summary>**

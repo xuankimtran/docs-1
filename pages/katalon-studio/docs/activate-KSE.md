@@ -81,7 +81,7 @@ Put your **.lic** file in the **license** folder. With KRE, to execute multiple 
 
 Put your `KRE_<machine_ID>.lic` file in the **license** folder. Your KRE license is now activated. Every time you start running a test with KRE, KRE automatically verifies that your license file is available and valid.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/activate-KSE/verify-offline-kre-license.png" alt="verify KRE license" width=70%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/activate-KSE/KRE-license.png" alt="verify KRE license" width=70%>
 
 **For KSE**
 

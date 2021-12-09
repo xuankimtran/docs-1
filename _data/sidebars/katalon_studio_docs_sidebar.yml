@@ -87,22 +87,20 @@ items:
             url: /katalon-studio/docs/product-availability-matrix.html
           - title: "Supported Environments"
             url: /katalon-studio/docs/supported-environments.html
-          - title: "Unique Capabilities"
-            url: /katalon-studio/docs/unique-capabilities.html
           - title: "Installation and Activation"
             tree:
               - title: "Installation Overview"
                 url: /katalon-studio/docs/getting-started.html
               - title: "Update Katalon Studio"
                 url: /katalon-studio/docs/auto-updater.html
+              - title: "Install Katalon Studio on macOS/Windows"
+                url: /katalon-studio/docs/ks-installation-macOS-windows.html
               - title: "Katalon Studio for Linux (GUI)"
                 url: /katalon-studio/docs/katalon-studio-gui-beta-for-linux.html
               - title: "Configuration for Web Testing"
                 tree:
                   - title: "Internet Explorer Configurations"
                     url: /katalon-studio/docs/internet-explorer-configurations.html
-                  - title: "Katalon Addon for Chrome"
-                    url: /katalon-studio/docs/katalon-addon-for-chrome.html
               - title: "Configuration for Mobile Testing"
                 tree:
                   - title: "Installing WebDriverAgent for iOS devices"
@@ -141,8 +139,12 @@ items:
             tree:
               - title: "[WebUI] Create and Run Web UI Test Case using Record and Playback"
                 url: /katalon-studio/tutorials/webui-create-test-case.html
+              - title: "[WebUI] Analyze Test Execution Logs and Debug the Test Case"
+                url: /katalon-studio/tutorials/webui-analyze-test-case-execution-logs-and-resolve-errors.html
               - title: "[Web UI] Plan Test Suite"
                 url: /katalon-studio/tutorials/webui-plan-test-suite.html
+              - title: "[WebUI] Analyze Test Suite Reports and Resolve Errors"
+                url: /katalon-studio/tutorials/webui-view-and-analyze-test-suite-reports.html
       - title: "GUI and Preferences"
         tree:
           - title: "Toolbars and Views"
@@ -1070,13 +1072,19 @@ items:
           - title: "Katalon API Keys"
             url: /katalon-studio/docs/katalon-apikey-70.html 
           - title: "Jira Integration"
-            url: /katalon-studio/docs/jira-integration.html
+            tree:
+              - title: "Jira Integration"
+                url: /katalon-studio/docs/jira-integration.html
+              - title: "Configure Jira BDD Settings"
+                url: /katalon-analytics/docs/bdd-settings.html
           - title: "Git Integration"
             tree:
               - title: "Git Integration"
                 url: /katalon-studio/docs/git-integration.html
               - title: "Git Integration Authentication with SSH Keys"
                 url: /katalon-studio/docs/git-integration-authentication.html
+              - title: "Using Git Submodules to share Test Artifacts"
+                url: /katalon-studio/docs/git-integration-submodule.html
           - title: "Slack Integration"
             url: /katalon-studio/docs/slack-plugin-integration.html
           - title: "Kobiton Integration"
@@ -1271,8 +1279,8 @@ items:
             url: /katalon-studio/docs/katalon-studio-github-action.html
       - title: "Troubleshoot"
         tree:
-          - title: "joptsimple.IllegalOptionSpecificationException: $ is not a legal option character"
-            url: /katalon-studio/docs/troubleshoot-globalvariable-special-character.html
+          - title: "Troubleshoot common exception when executing in console mode"
+            url: /katalon-studio/docs/troubleshoot-executing-in-console-mode.html
   - title: "Katalon Store"
     tree:
       - title: "Overview"
@@ -1322,7 +1330,9 @@ items:
           - title: "Set up Teams"
             url: /katalon-analytics/docs/setup-team.html 
           - title: "Manage Users"
-            url: /katalon-analytics/docs/kt_invite_user_org.html
+            url: /katalon-analytics/docs/kt_invite_user_org.html 
+          - title: "Transfer Ownership"
+            url: /katalon-analytics/docs/kt_transfer_ownership.html  
           - title: "Install TestOps On-premises with Docker"
             url: /katalon-analytics/docs/kt_install_premises_docker.html
       - title: "Remote Execution"
@@ -1350,9 +1360,7 @@ items:
           - title: "Kubernetes Test Environments"
             url: /katalon-analytics/docs/aws-eks.html
       - title: "Test Planning"     
-        tree: 
-          - title: "Overview"
-            url: /katalon-analytics/docs/kt-remote-execution.html
+        tree:
           - title: "Schedules"
             tree:
               - title: "Schedule Test Runs"
@@ -1365,8 +1373,6 @@ items:
             url: /katalon-analytics/docs/kt-build.html
       - title: "Test Management"
         tree:
-          - title: "Writing BDD in Jira"
-            url: /katalon-analytics/docs/bdd-settings.html
           - title: "View BDD Test Results"
             url: /katalon-analytics/docs/bdd-test-results.html
           - title: "Link Test Runs to Jira Defects"
@@ -1401,7 +1407,7 @@ items:
             url: /katalon-analytics/docs/ka-integration-jenkins.html
       - title: "Test Maintenance"
         tree:
-          - title: "Change the Test Result from failing to passing"
+          - title: "Override Test Results status"
             url: /katalon-analytics/docs/kt-change-result-pass-fail.html  
           - title: "Compare Test Results"
             url: /katalon-analytics/docs/compare-test-results.html    
@@ -1415,10 +1421,10 @@ items:
             url: /katalon-analytics/docs/rerun-results.html  
           - title: "Visual Testing" 
             url: /katalon-analytics/docs/ks-visual-testing.html
-          - title: "View Requirement Coverage heat map"
-            url: /katalon-analytics/docs/requirement-coverage.html
           - title: "View Test Case reports"
             url: /katalon-analytics/docs/view-test-cases.html
+          - title: "View Traceability Matrix"
+            url: /katalon-analytics/docs/view-traceability-matrix.html
           - title: "Detect abnormal Web Services"
             url: /katalon-analytics/docs/view-abnormal-web-services.html
       - title: "Settings"  
@@ -1451,6 +1457,10 @@ items:
         tree:
           - title: "Integration with TestOps"
             url: /katalon-testcloud/docs/integrate-testcloud-with-testops.html 
+      - title: "Troubleshooting"
+        tree:
+          - title: "Tests not loading when executing with Chrome version 93,94 in Windows"
+            url: /katalon-testcloud/docs/troubleshoot-test-execution-chrome-93-94.html
   - title: "Katalon Recorder"
     tree:
       - title: "Get started"
@@ -1501,8 +1511,8 @@ items:
                 url: /katalon-recorder/docs/export-test-project-to-ks.html
               - title: "Writing Custom Script Formatter"
                 url: /katalon-recorder/docs/writing-custom-script-formatter.html
-          - title: "Data-driven excecution"
-            url: /katalon-recorder/docs/data-driven-execution.html
+          - title: "Data-driven testing"
+            url: /katalon-recorder/docs/data-driven-testing.html
           - title: "Extend Katalon Recorder"
             tree:
               - title: "Katalon Recorder Helper Tool"

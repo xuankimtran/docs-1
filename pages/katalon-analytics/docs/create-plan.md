@@ -5,6 +5,7 @@ permalink: katalon-analytics/docs/create-plan.html
 redirect_from: 
     - "/katalon-analytics/docs/view-ci-plans.html"
     - "/katalon-analytics/docs/grid-testops-cloud.html" 
+    - "/katalon-analytics/docs/kt-remote-execution.html"
 description: 
 ---
 
