@@ -102,7 +102,7 @@ idevice_id -l</code></pre>
             </td>
         </tr>
         <tr>
-            <td>Unable to Start Application while running Android tests on Windows machine.</td>
+            <td>Unable to Start Application while running Android tests on a Windows machine.</td>
             <td>
                 <p>First, upgrade to the latest version of Appium.</p>
                 <p>In Katalon Studio, go to <strong> Project Settings > Desired Capabilities > Mobile > Android</strong> and add this desired capabilities:
