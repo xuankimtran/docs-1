@@ -50,4 +50,13 @@ From the main toolbar, go to **Help**. You can see a **Search** bar and a drop-d
 
 In the search bar of the **Help** menu, type in your concern. The result appears with two section:
 
-* Menu Items: Katalon item
+* Menu Items: Items in Katalon Studio that related to your search. Hover over each item to enable the pop-up instruction of where that item is located.
+* Help Topics: List of your system's user guide, for example: "Use the Panel Editor for Switch Control or the Accessibility Keyboard on Mac"
+
+## Quick Start Page
+
+You might see the **Quick Start Page** at the very beginning when you first use Katalon Studio. However, you can always come back to this start page to replay the onboarding instruction.
+
+In the **Quick Start Page**, there are two onboarding tour and a link to our documentation page.
+
+* 
