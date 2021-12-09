@@ -19,4 +19,8 @@ You might encounter situations when your session has been terminated due to a sp
 
 * This happens when your Organization Admins or Owner remove your machine from the registered list on Katalon TestOps. This removal ends your session on the Katalon Studio app.
 
+**This email has been removed from the registered list.**
+
+* This happens when your Organization Admins or Owner remove your email from the registered list on Katalon TestOps. This removal ends your session on the Katalon Studio app.
+
 > See also: [Troubleshoot Activation Problems](https://docs.katalon.com/katalon-studio/docs/troubleshoot-activation-problems.html).
