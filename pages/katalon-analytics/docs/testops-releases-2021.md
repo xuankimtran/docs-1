@@ -26,8 +26,6 @@ description:
 
 * [Bug] Cannot schedule test runs from Katalon Studio when moving refreshed Test Suite Collection to the queue.
 
-* [Bug] Cannot receive emails when exporting execution reports in PDF file.
-
 ## November 2nd
 
 ### New features
