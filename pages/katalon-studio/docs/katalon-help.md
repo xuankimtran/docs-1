@@ -42,8 +42,12 @@ This tab will display any recent opened Katalon Studio projects. If you are new 
 
 Updating doc:
 
-In case you need some help using Katalon Studio, we got you covered!
+In case you need some help using Katalon Studio, we got you covered.
 
 From the main toolbar, go to **Help**. You can see a **Search** bar and a drop-down menu like this:
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-help/help.png" alt="help" width="50%">
+
+In the search bar of the **Help** menu, type in your concern. The result appears with two section:
+
+* Menu Items: Katalon item
