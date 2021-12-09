@@ -126,7 +126,7 @@ To view our sample custom keywords, in the **Test Explorer** panel, go to **Keyw
 Custom keywords can be reused many times in test cases to perform different actions such as login, adding items to cart, checkout. You can see the use of custom keywords in our sample test cases as below: [Test cases](https://docs.katalon.com/katalon-studio/docs/shopping-cart-prj.html#test-cases).
 ### Test cases
 
-1. Custom-keyword samples test cases
+1. **Custom-keyword samples** test cases
 
   To view the **Custom-keyword samples** test cases in this project, in the **Test Explorer** panel, go to **Test Cases > Custom-keyword samples**.
 
@@ -155,15 +155,14 @@ Custom keywords can be reused many times in test cases to perform different acti
       1. Click the **Checkout** page.
       2. Fill in checkout information. The checkout information is defined as test case variables in the **Variables** tab.
         
-        <img src="url" width="70%" alt="Custom-keywords test cases in the Shopping Cart sample">
+          <img src="url" width="70%" alt="Order and check out a single product">
 
     - Finally, we use the `logoutFromApplication` custom keyword to:
 
       1. Go to the **My account** page.
       2. Click **Log out**.
 
-        <img src="url" width="70%" alt="Custom-keywords test cases in the Shopping Cart sample">
-
+          <img src="gif" width="70%" alt="Custom-keywords test cases in the Shopping Cart sample">
 
   - **Order and check out a single product using coupon** adds a single product to the shopping cart, applies a 50% off coupon then check out. The flow in this test case is as follows:
 
@@ -186,31 +185,55 @@ Custom keywords can be reused many times in test cases to perform different acti
       1. Click the **Checkout** page.
       2. Fill in checkout information. The checkout information is defined as global variables in the execution profile.
         
-        <img src="url" width="70%" alt="Custom-keywords test cases in the Shopping Cart sample">
-
     - Finally, we use the `logoutFromApplication` custom keyword to:
 
       1. Go to the **My account** page.
       2. Click **Log out**.
 
-        <img src="url" width="70%" alt="Custom-keywords test cases in the Shopping Cart sample">
+          <img src="gif" width="70%" alt="Order and check out a single product using coupon">
 
-2. Data-driven samples test cases
+2. **Data-driven samples** test cases
 
-There are test cases for different purposes in this project:
+  **Order and check out multiple products** adds products from the product list to the shopping cart and check out. The flow in this test case is as follows:
 
-- Test Case 3: Add several products to the shopping cart and check out.
+  <img src="url" width="70%" alt="Order and check out multiple products">
 
-In the test cases implementing the data-driven testing: The `getAllData()` function is used for getting all rows and the first column of each row in the data file. Then they're added to the collection and parsed to the product list.
+  - We use the `loginIntoApplicationWithGlobalVariable` custom keyword to:
 
-```groovy
-TestData product = findTestData(GlobalVariable.dataFile)
-List<String> productList = product.getAllData().stream()
-.map{data -> data[0]}/*get first column of each row in data file */
-.collect(Collectors.toList())/*add collect and parse to list*/
-```
+      1. Open the `http://cms.demo.katalon.com` website with maximized windows.
+      2. Log in with the username and password defined as the global variables in the execution profile.
+    
+  - Go to the **Shop** page.
+  - Next, we want the test case to read the data files. To do so, we use the `getAllData()` keyword to extract product names from the product list as follows:
+
+    ```groovy
+    TestData product = findTestData(GlobalVariable.dataFile)
+    List<String> productList = product.getAllData().stream()
+    .map{data -> data[0]}/*get first column of each row in data file */
+    .collect(Collectors.toList())/*add collect and parse to list*/
+    ```
+
+  - Then, we use the `addToCart` custom keyword to add extracted product names to cart.
+
+    ```groovy
+    for(def productName : productList){
+    CustomKeywords.'sample.Shop.addToCart'(productName.toString(), GlobalVariable.urlProduct)
+  }
+    ```
+  - Finally, we use the `CheckoutShopWithGlobalVariable` custom keyword to:
+
+      1. Click the **Checkout** page.
+      2. Fill in checkout information. The checkout information is defined as global variables in the execution profile.
+
+          <img src="url" width="70%" alt="Order and check out multiple products">
 
 ### Data Files
+
+To view the data files in this sample project, in the **Test Explorer** panel, go to **Data Files > Product List/Multiple Checkout**.
+
+  <img src="url" width="70%" alt="Custom-keywords test cases in the Shopping Cart sample">
+
+Alternatively, you can go to `<your-project-folder>\Data Files` and choose the file you want to open:
 
 - `Constants.xlsx` contains `Product List` and `Multiple Checkout` sheets.
 - `Product List.dat`: a list of products you want to add to the shopping cart.
@@ -218,34 +241,40 @@ List<String> productList = product.getAllData().stream()
 
 ### Test Suites
 
-The sample test suites are to demonstrate the data-driven testing in Katalon Studio.
+The sample test suites demonstrate the data-driven testing in Katalon Studio. To view sample test suites, in the **Test Explorer** panel, go to **Test Suite**.
 
-1. Data-driven testing by Data-binding
+1. **Order and check out a single product multiple times** test suite demonstrates data-driven testing by data-binding.
 
-[Data Binding](https://docs.katalon.com/katalon-studio/docs/run-test-case-external-data.html#create-a-new-test-suite-with-test-case-variables) is used to run a test case with an external data source.
+  This test suite binds the **Order and check out a single product** test case with the **Multiple Checkout** data file. After opening the **Test Suite**, click **Show Data Binding** to see the binding data. 
 
-- On the selected Test Suite, click **Show Data Binding** on the right corner of the Test Suite view.
-- Select a Test Case.
-- In the **Test Data table** -> click the **Add** button -> Select your preferred **Test Data** and click **OK**.
-- In the **Variable Binding** table-> Click **Set Type** > **Data Column** -> Click **Set Test Data** > Select the preferred Test Data; then bind the Variables of the Test Case with the corresponding columns of data.
+  To learn more about binding data, you can refer to the following document: [Data Binding](https://docs.katalon.com/katalon-studio/docs/run-test-case-external-data.html#manage-data-binding).
 
-2. Data-driven testing by Groovy script
+  <img src="url" width="70%" alt="Order and check out a single product multiple times">
 
-Test data can be read right in your test case by using the Groovy script. Find the test data and the stream list of products; then get all rows and the first column of each row in the data file to add them to the collection and parse them to the product list.
-In the script mode of **Order and check out multiple products** test case, you can see:
+2. **Order and check out multiple products** test suite demonstrates data-driven testing by Groovy script.
 
-```groovy
-TestData product = findTestData(GlobalVariable.dataFile)
-List<String> productList = product.getAllData().stream()
-.map{data -> data[0]}/*get first column of each row in data file */
-.collect(Collectors.toList())/*add collect and parse to list*/
-```
+    This test suite calls the **Order and check out multiple products** test case. This test case reads the **Product list** test data file by using the Groovy script. 
+    In the script mode of **Order and check out multiple products** test case, you can see the following sample code:
 
-3. Data-driven testing by Global Variables
+    ```groovy
+    TestData product = findTestData(GlobalVariable.dataFile)
+    List<String> productList = product.getAllData().stream()
+    .map{data -> data[0]}/*get first column of each row in data file */
+    .collect(Collectors.toList())/*add collect and parse to list*/
 
-In **Order and check out with Global Variable** test suite, call the Custom Keywords in a Test Case with parameterized Global Variables.
+      /*Add extracted product names to cart*/
+    for(def productName : productList){
+    CustomKeywords.'sample.Shop.addToCart'(productName.toString(), GlobalVariable.urlProduct)
+    }
+    ```
 
+    <img src="url" width="70%" alt="Order and check out multiple products">
 
+3. **Order and check out with Global Variable** test suite demonstrates data-driven testing by global variables.
+
+    In **Order and check out with Global Variable** test suite, we call the **Custom-keywords samples** test cases. These test cases use the custom keywords with global variables.
+
+    <img src="url" width="70%" alt="Order and check out multiple products">
 
 ### Execute selected test case or test suite/test suite collection
 
@@ -272,3 +301,4 @@ To execute a test case or a test suite/test suite collection in the sample proje
 
 ## See also
 
+ * [Create test cases using Record & Playback](https://docs.katalon.com/katalon-studio/tutorials/webui-create-test-case.html#create-and-run-your-first-web-ui-test-case)
