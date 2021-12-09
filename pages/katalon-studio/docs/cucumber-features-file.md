@@ -246,7 +246,7 @@ To include Cucumber _Feature_ file in Katalon Studio test case:
 
 ### In Katalon TestOps
 
-Katalon TestOps has dedicated support for viewing BDD test results as well as advanced analytics and reports such as Traceability Matrix Report. Follow this guide to configure the feature: [View BDD Test Results in Katalon TestOps](https://docs.katalon.com/katalon-analytics/docs/bdd-test-results.html).
+Katalon TestOps has dedicated support for viewing BDD test results as well as advanced analytics and reports such as Traceability Matrix Report. By default, the BDD test report feature on Katalon TestOps is disabled to avoid mixing the BDD and Katalon Studio formatted data. To enable the feature, you can refer to this guide: [View BDD Test Results in Katalon TestOps](https://docs.katalon.com/katalon-analytics/docs/bdd-test-results.html).
 
 ### In Katalon Studio
 
