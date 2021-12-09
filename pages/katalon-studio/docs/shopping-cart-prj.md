@@ -17,6 +17,7 @@ To open the Shopping Cart sample project, in Katalon Studio, go to **File > New 
 Alternatively, you can download the Shopping Cart sample project from our Github repository here: [Shopping Cart sample](https://github.com/katalon-studio-samples/shopping-cart-tests).
 
 ## Shopping Cart sample project components
+
 ### Profiles
 
 To open the execution profile, go to **Profiles > default**.
@@ -122,22 +123,77 @@ To view our sample custom keywords, in the **Test Explorer** panel, go to **Keyw
 
 <img src="url" width="70%" alt="Custom keywords in the Shopping Cart sample">
 
-### Test Cases
+Custom keywords can be reused many times in test cases to perform different actions such as login, adding items to cart, checkout. You can see the use of custom keywords in our sample test cases as below: [Test cases](https://docs.katalon.com/katalon-studio/docs/shopping-cart-prj.html#test-cases).
+### Test cases
 
-1. Custom-keyword samples test case
+1. Custom-keyword samples test cases
 
-The sample test cases can call [Custom Keywords](https://docs.katalon.com/katalon-studio/docs/introduction-to-custom-keywords.html) or implement the data-driven testing.
+  To view the **Custom-keyword samples** test cases in this project, in the **Test Explorer** panel, go to **Test Cases > Custom-keyword samples**.
 
-Custom keywords are functions defined to be reused many times, e.g. Login, Shop, Checkout, etc.
+  <img src="url" width="70%" alt="Custom-keywords test cases in the Shopping Cart sample">
 
-There are two test cases for different purposes in this project:
+  There are two test cases for different purposes:
 
-- Test Case 1: Add a single product to the shopping cart and check out.
-- Test Case 2: Add a single product to the shopping cart, apply a 50% off coupon and then check out.
+  - **Order and check out a single product** adds a single product to the shopping cart and check out. The flow in this test case is as follows:
+
+      <img src="url" width="70%" alt="Order and check out a single product">
+
+    - We use the `loginIntoApplicationWithGlobalVariable` custom keyword to:
+
+      1. Open the `http://cms.demo.katalon.com` website with maximized windows.
+      2. Log in with the username and password defined as the global variables in the execution profile.
+    
+    - Go to the **Shop** page.
+    - Next, we use the `addToCartWithGlobalVariable` custom keyword to:
+
+      1. Add the product to cart. The product is defined as a global variable in the execution profile.
+      2. Go to the **Cart** page.
+      3. Click **Proceed to checkout** to go to the **Checkout** page.
+
+    - For the checkout step, we use the `CheckoutShop` custom keyword to:
+    
+      1. Click the **Checkout** page.
+      2. Fill in checkout information. The checkout information is defined as test case variables in the **Variables** tab.
+        
+        <img src="url" width="70%" alt="Custom-keywords test cases in the Shopping Cart sample">
+
+    - Finally, we use the `logoutFromApplication` custom keyword to:
+
+      1. Go to the **My account** page.
+      2. Click **Log out**.
+
+        <img src="url" width="70%" alt="Custom-keywords test cases in the Shopping Cart sample">
 
 
+  - **Order and check out a single product using coupon** adds a single product to the shopping cart, applies a 50% off coupon then check out. The flow in this test case is as follows:
 
+      <img src="url" width="70%" alt="Order and check out a single product using coupon">
 
+    - We use the `loginIntoApplicationWithGlobalVariable` custom keyword to:
+
+      1. Open the `http://cms.demo.katalon.com` website with maximized windows.
+      2. Log in with the username and password defined as the global variables in the execution profile.
+    
+    - Go to the **Shop** page.
+    - Next, we use the `applyCouponAndAddToCartWithGlobalVariable` custom keyword to:
+
+      1. Add the product to cart. The product is defined as a global variable in the execution profile.
+      2. Go to the **Cart** page.
+      3. Fill in the coupon code defined as a global variable.
+
+    - For the checkout step, we use the `CheckoutShopWithGlobalVariable` custom keyword to: 
+      
+      1. Click the **Checkout** page.
+      2. Fill in checkout information. The checkout information is defined as global variables in the execution profile.
+        
+        <img src="url" width="70%" alt="Custom-keywords test cases in the Shopping Cart sample">
+
+    - Finally, we use the `logoutFromApplication` custom keyword to:
+
+      1. Go to the **My account** page.
+      2. Click **Log out**.
+
+        <img src="url" width="70%" alt="Custom-keywords test cases in the Shopping Cart sample">
 
 2. Data-driven samples test cases
 
