@@ -1,5 +1,5 @@
 ---
-title: "Data-driven testing"
+title: "Data-driven testing in Katalon Recorder"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-recorder/docs/data-driven-testing.html
 redirect_from: katalon-recorder/docs/data-driven-execution.html

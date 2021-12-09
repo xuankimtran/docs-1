@@ -1482,7 +1482,11 @@ items:
               - title: "Create your first automation script"
                 url: /katalon-recorder/docs/automate-scenarios.html
               - title: "Control the flows"
-                url: /katalon-recorder/docs/conditional-cases.html
+                tree:
+                  - title: "Handle conditional cases in your tests"
+                    url: /katalon-recorder/docs/conditional-cases.html
+                  - title: "How to Use Control Flow commands in a Test Case"
+                    url: /katalon-recorder/docs/how-to-use-conditional-statements-in-a-test-case.html
               - title: "Back up data automatically"
                 url: /katalon-recorder/docs/auto-backup.html
               - title: "Global variables"
@@ -1507,7 +1511,7 @@ items:
                 url: /katalon-recorder/docs/export-test-project-to-ks.html
               - title: "Writing Custom Script Formatter"
                 url: /katalon-recorder/docs/writing-custom-script-formatter.html
-          - title: "Data-driven testing"
+          - title: "Data-driven testing in Katalon Recorder"
             url: /katalon-recorder/docs/data-driven-testing.html
           - title: "Extend Katalon Recorder"
             tree:
