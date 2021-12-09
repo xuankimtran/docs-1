@@ -233,7 +233,7 @@ There are two test suites in this project. To get access to them, in the **Test 
     </a>
     <p style="text-align: center;"><em>Click the image to enlarge it.</em></p>
 
-### Execute selected test case or test suite/test suite collection
+## Execute selected test case or test suite/test suite collection
 
 To execute a test case or a test suite/test suite collection in the sample project:
 
