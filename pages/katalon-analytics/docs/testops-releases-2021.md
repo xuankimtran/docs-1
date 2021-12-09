@@ -14,7 +14,7 @@ description:
 
 ### New features
 
-* Introduced new design for test case management. Read more: [Manage Test Cases](https://docs.katalon.com/katalon-analytics/docs/test-case-management.html).
+* Introduced a new design for test case management. Read more: [Manage Test Cases](https://docs.katalon.com/katalon-analytics/docs/test-case-management.html).
 
 ### Enhancements
 
