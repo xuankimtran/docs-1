@@ -16,7 +16,7 @@ There are two ways to upload your test cases to Katalon TestOps:
 * Upload tests from a Git repository (GitHub and Bitbucket). See: [Upload Test Scripts from a Git Repository](https://docs.katalon.com/katalon-analytics/docs/git-test-project.html).
 * Upload tests to a script repository (as .zip file). See: [Upload Test Scripts to a Script Repository](https://docs.katalon.com/katalon-analytics/docs/code-repo.html).
 
-Depending on the type of your script repository (Git or non-Git), you can read the relevant section below to find your tests cases and their execution data.
+Depending on the type of your script repository (Git or .zip file), you can read the relevant section below to find your tests cases and their execution data.
 
 ### View test cases uploaded from a Git repository
 
