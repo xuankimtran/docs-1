@@ -41,7 +41,7 @@ To analyze the execution flow, follow these steps:
     1. With the `open` command, navigate to the site `https://cms.demo.katalon.com`.
     2. With the `click` command, hover over an item with the text "Add to cart," and click on the text.
     3. With the `verifyText` command, verify that the added item has the confirmation text "View cart."
-    4. Repeat *step 2* and *step 3* with every item on the page.
+    4. Repeat *step 2* and *step 3* for every item on the page.
 
 2. Identify the pattern in the Test Case. 
 
@@ -90,7 +90,7 @@ The specific steps in the proposed control flow are:
 1. Open the AUT.
 2. Get the *ID* value of the current item.
 3. Check if the *ID* is valid; otherwise, the Test Case ends.
-4. On the item, if there's a text "Add to cart" visible, click on the text.
+4. On the item, if there's a text "Add to cart" visible, click on the text; otherwise, skip to *step 6*.
 5. Verify that the added item has the text "View cart" visible.
 6. Move on to the next item, and continue with *step 2*.
 
