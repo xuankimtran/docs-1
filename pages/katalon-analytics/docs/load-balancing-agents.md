@@ -76,6 +76,6 @@ When creating a new Test Runs Schedule, you are asked to select Test Environment
 
 > Notes:
 >
-> * You can reassign old Test Run List or assign multiple new Test Run Lists to any configured Agent.
+> * You can reassign an old Test Run List or assign multiple new Test Run Lists to any configured Agent.
 
 To check the Test Execution process, go back to the **Test Environments** page.
