@@ -87,6 +87,5 @@ Katalon TestOps supports uploading test results from the following frameworks:
 
 After uploading the execution data, go to **Test Management** > **Test Cases** and click on the *Uploaded Data* folder.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-dec-release-test-case-mgt/test-case-folder-format.png" width=100% alt="uploaded data folder outside">
-
 You can see test cases and their execution data in folders inside the *Uploaded Data* folder.
+
