@@ -119,7 +119,7 @@ Katalon creates 19 global variables in this sample project as follows:
 
 Katalon also creates sample custom keywords in this sample project. To learn more about custom keywords, you can refer to this document: [Introduction to custom keywords](https://docs.katalon.com/katalon-studio/docs/introduction-to-custom-keywords.html).
 
-To view our sample custom keywords, in the **Test Explorer** panel, go to **Keywords > sample**.
+To view our sample custom keywords, in the **Test Explorer** panel, go to **Keywords > sample**. Double-click one of the .groovy files to view the sample custom keywords.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/shopping-cart-samples/KS-SHOPPING-Open-custom-keywords.png" width="70%" alt="Custom keywords in the Shopping Cart sample">
 
@@ -128,9 +128,9 @@ Custom keywords can be reused many times in test cases to perform different acti
 
 1. Custom-keyword samples test cases
 
-  To view the **Custom-keyword samples** test cases in this project, in the **Test Explorer** panel, go to **Test Cases > Custom-keyword samples**. Double-click to open one of the two following test cases:
+  To view the **Custom-keyword samples** test cases in this project, in the **Test Explorer** panel, go to **Test Cases > Custom-keyword samples**. Double-click to open one of the following test cases:
 
-  - **Order and check out a single product** adds a single product to the shopping cart, and check out. The flow in this test case is as follows:
+  - **Order and check out a single product** test case adds a single product to the shopping cart, and check out. The flow in this test case is as follows:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/shopping-cart-samples/KS-SHOPPNG-Order-and-check-out-a-single-product.png" width="70%" alt="Order and check out a single product">
 
@@ -163,7 +163,7 @@ Custom keywords can be reused many times in test cases to perform different acti
           </a>
           <p style="text-align: center;"><em>Click the gif to enlarge it.</em></p>
 
-  - **Order and check out a single product using coupon** adds a single product to the shopping cart, applies a 50% off coupon, then check out. The flow in this test case is as follows:
+  - **Order and check out a single product using coupon** test case adds a single product to the shopping cart, applies a 50% off coupon, then check out. The flow in this test case is as follows:
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/shopping-cart-samples/KS-SHOPPING-Order-and-check-out-a-single-product-using%20coupon.png" width="70%" alt="Order and check out a single product using coupon">
 
@@ -198,7 +198,7 @@ Custom keywords can be reused many times in test cases to perform different acti
 
   To view the **Data-driven samples** test cases in this project, in the **Test Explorer** panel, go to **Test Cases > Data-driven samples > Order and check out multiple products**.
 
-  **Order and check out multiple products** adds products from the product list to the shopping cart, and check out. The flow in this test case is as follows:
+  **Order and check out multiple products** test case adds products from the product list to the shopping cart, and check out. The flow in this test case is as follows:
 
   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/shopping-cart-samples/KS-SHOPPING-Order-and-check-out-multiple%20products.png" width="70%" alt="Order and check out multiple products">
 
