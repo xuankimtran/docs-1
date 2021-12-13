@@ -9,11 +9,11 @@ You can submit test results from the Pytest framework to Katalon TestOps.
 
 > Notes:
 >
-> You can download [Pytest sample project](https://github.com/katalon-studio-samples/testops-pytest-sample) to upload tests from Pytest.
+> You can download this sample project: [TestOps Pytest sample](https://github.com/katalon-studio/testops-report-js.git).
 
 Follow these steps:
 
-1. Open the Pytest file in the file editor that it is compatible with (e.g., [Visual Studio Code](https://code.visualstudio.com)).
+1. Open your Pytest file in a source-code editor, such as [Visual Studio Code](https://code.visualstudio.com).
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-pytest/kt_open_file_pytest.png" width=100% alt="open pytest in vsc"> 
 
@@ -31,11 +31,11 @@ Follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-pytest/pytest-page-2.png" width=100% alt="pytest page 2"> 
 
-5. Copy the command line in the **Install dependency** section and paste it in the Pytest file's terminal in the file editor to install the Katalon TestOps plugin.
+5. Copy the command line in the **Install dependency** section and paste it in the Pytest file's terminal in your source-code editor to install the Katalon TestOps plugin.
 
-6. Create a new file named *testops-config.json* in your file editor.
+6. Create a new file named *testops-config.json* in your source-code editor.
 
-7. Copy the command line in the **TestOps Credentials & Project** section on the Pytest page and paste it in the *testops-config.json* file in your file editor.
+7. Copy the command line in the **TestOps Credentials & Project** section on the Pytest page and paste it in the *testops-config.json* file in your source-code editor.
 
      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-pytest/kt_paste_testops_config_1.png" width=100% alt="testops config in vsc"> 
 
@@ -43,7 +43,7 @@ Follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-pytest/kt_open_conftest_py_1.png" width=100% alt="conftest py file">
 
-9. Copy the command in the **Add Report** section on the Pytest page and paste it in the *conftest.py* file in your file editor. Save this file.
+9. Copy the command in the **Add Report** section on the Pytest page and paste it in the *conftest.py* file in your source-code editor. Save this file.
 
      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-pytest/kt_paste_conftest_py_1.png" width=100% alt="paste content to conftest file">
 
