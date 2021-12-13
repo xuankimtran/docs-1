@@ -45,9 +45,11 @@ You can view all tags in your project and append tags to a test case. After inst
 
 2. Click on the **Append** button. The **Append Tags** dialog appears with a list of all tags in your project.
 
-3. You can search for any tag and select tags from the list to add to the current test case.
+3. Search for and select tags you wish to add to the current test case.
 
-    Click on the check box to select. Since this feature is for appending tags to a test case, you cannot uncheck a tag that already exists in that test case.
+    > Notes:
+    >
+    > Tags previously added to this test case already display as selected, and cannot be deselected.
 
 4. Click **Append** when you are done. New tags are now added to your test case.
 
@@ -55,24 +57,29 @@ You can view all tags in your project and append tags to a test case. After inst
 
 ## Search For Test Cases With Multiple Tags
 
-After you successfully install Test Case Management With Tags plugin, in a Dynamic Querying Test Suite, you can search for test cases with multiple tags using the **Query Provider**.
+After you successfully install the Test Case Management With Tags plugin, in a Dynamic Querying Test Suite, you can search for test cases with multiple tags using the **Query Provider**.
 
 To search for test artifacts labeled with multiple tags, do as follows:
 
 1. Open a dynamic test suite. See also: [Dynamic Test Suite (Dynamic Test Cases List)](https://docs.katalon.com/katalon-studio/docs/create-test-suite.html#dynamic-test-suite-dynamic-test-cases-list).
-2. Directly type on the **Query** box follow this syntax: `tag=(NameOfTag1,NameOfTag2)`. For example: `tag=(may,december)`.
+2. Directly type in the **Query** box following this syntax: `tag=(NameOfTag1,NameOfTag2)`. For example: `tag=(may,december)`.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-case-management-with-tags/query.png" alt="query box" width="100%">
 
-## Execute Test Cases With Certain Tags in Console Mode
+## Execute Test Cases With Specific Tags in Console Mode
 
-In console mode, you can filter and execute test cases attached with certain tags. Make sure you already have installed the **Test Case Management with Tags** plugin.
+> Requirements:
+>
+> * An active Katalon Runtime Engine license
+> * The Test Case Management with Tags plugin installed
+
+In console mode, you can filter and execute test cases attached with certain tags.
 
 In your command, add this argument:
 
  `-testCaseTags="<tag1>,<tag2>"`
 
-> Learn more about how to run a test in console mode with Katalon Runtime Engine at [Command Syntax (Command-line/Console Mode Execution)](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html).
+> Learn more about how to run tests in console mode with Katalon Runtime Engine at [Command Syntax (Command-line/Console Mode Execution)](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html).
 
 When you execute a test in the terminal, you can see the process where test cases are filtered before executing. For example:
 
