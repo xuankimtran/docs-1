@@ -134,31 +134,31 @@ Custom keywords can be reused many times in test cases to perform different acti
 
   - **Order and check out a single product** adds a single product to the shopping cart and check out. The flow in this test case is as follows:
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/shopping-cart-samples/KS-SHOPPNG-Order-and-check-out-a-single-product.png" width="70%" alt="Order and check out a single product">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/shopping-cart-samples/KS-SHOPPNG-Order-and-check-out-a-single-product.png" width="70%" alt="Order and check out a single product">
 
     1. We use the `loginIntoApplicationWithGlobalVariable` custom keyword to:
 
         - Open the `http://cms.demo.katalon.com` website with maximized windows.
         - Log in with the username and password defined as the global variables in the execution profile.
     
-    - Go to the **Shop** page.
-    - Next, we use the `addToCartWithGlobalVariable` custom keyword to:
+    2. Go to the **Shop** page.
+    3. Next, we use the `addToCartWithGlobalVariable` custom keyword to:
 
-        1. Add the product to cart. The product is defined as a global variable in the execution profile.
-        2. Go to the **Cart** page.
-        3. Click **Proceed to checkout** to go to the **Checkout** page.
+        - Add the product to cart. The product is defined as a global variable in the execution profile.
+        - Go to the **Cart** page.
+        - Click **Proceed to checkout** to go to the **Checkout** page.
 
-    - For the checkout step, we use the `CheckoutShop` custom keyword to:
+    4. For the checkout step, we use the `CheckoutShop` custom keyword to:
       
-        1. Click the **Checkout** page.
-        2. Fill in checkout information. The checkout information is defined as test case variables in the **Variables** tab.
+        - Click the **Checkout** page.
+        - Fill in checkout information. The checkout information is defined as test case variables in the **Variables** tab.
         
           <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/shopping-cart-samples/KS-SHOPPING-test-case-variables.png" width="70%" alt="Order and check out a single product">
 
-    - Finally, we use the `logoutFromApplication` custom keyword to:
+    5. Finally, we use the `logoutFromApplication` custom keyword to:
 
-      1. Go to the **My account** page.
-      2. Click **Log out**.
+        - Go to the **My account** page.
+        - Click **Log out**.
 
           <a class="pop">
           <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/shopping-cart-samples/KS-SHOPPING-TC1.gif" width="70%" alt="Order and check out a single product using coupon">
