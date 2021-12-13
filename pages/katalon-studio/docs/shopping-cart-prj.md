@@ -126,7 +126,7 @@ To view our sample custom keywords, in the **Test Explorer** panel, go to **Keyw
 Custom keywords can be reused many times in test cases to perform different actions such as login, adding items to cart, checkout. You can see the use of custom keywords in our sample test cases as below: [Test cases](https://docs.katalon.com/katalon-studio/docs/shopping-cart-prj.html#test-cases).
 ### Test cases
 
-1. **Custom-keyword samples** test cases
+1. Custom-keyword samples test cases
 
   To view the **Custom-keyword samples** test cases in this project, in the **Test Explorer** panel, go to **Test Cases > Custom-keyword samples > Order and check out a single product/Order and check out a single product using coupon**.
 
@@ -138,20 +138,20 @@ Custom keywords can be reused many times in test cases to perform different acti
 
     - We use the `loginIntoApplicationWithGlobalVariable` custom keyword to:
 
-      1. Open the `http://cms.demo.katalon.com` website with maximized windows.
-      2. Log in with the username and password defined as the global variables in the execution profile.
+        1. Open the `http://cms.demo.katalon.com` website with maximized windows.
+        2. Log in with the username and password defined as the global variables in the execution profile.
     
     - Go to the **Shop** page.
     - Next, we use the `addToCartWithGlobalVariable` custom keyword to:
 
-      1. Add the product to cart. The product is defined as a global variable in the execution profile.
-      2. Go to the **Cart** page.
-      3. Click **Proceed to checkout** to go to the **Checkout** page.
+        1. Add the product to cart. The product is defined as a global variable in the execution profile.
+        2. Go to the **Cart** page.
+        3. Click **Proceed to checkout** to go to the **Checkout** page.
 
     - For the checkout step, we use the `CheckoutShop` custom keyword to:
-    
-      1. Click the **Checkout** page.
-      2. Fill in checkout information. The checkout information is defined as test case variables in the **Variables** tab.
+      
+        1. Click the **Checkout** page.
+        2. Fill in checkout information. The checkout information is defined as test case variables in the **Variables** tab.
         
           <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/shopping-cart-samples/KS-SHOPPING-test-case-variables.png" width="70%" alt="Order and check out a single product">
 
@@ -196,7 +196,7 @@ Custom keywords can be reused many times in test cases to perform different acti
           </a>
           <p style="text-align: center;"><em>Click the gif to enlarge it.</em></p>
 
-2. **Data-driven samples** test cases
+2. Data-driven samples test cases
 
   To view the **Data-driven samples** test cases in this project, in the **Test Explorer** panel, go to **Test Cases > Data-driven samples > Order and check out multiple products**.
 
