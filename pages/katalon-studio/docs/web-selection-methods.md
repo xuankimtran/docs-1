@@ -15,6 +15,22 @@ Regarding XPath, you can additionally set the priority of XPath locators while w
 
 You're allowed to override the global settings above in a specific object. Open an object's view, configure a selection method used for this object particularly.
 
+## Configure Test Design
+
+Go to **Project > Settings > Test Design > Web UI**, select one of the provided options to decide the default selection method used during spying and recording. Katalon Studio supports:
+
+* [XPath](http://docs.katalon.com/katalon-studio/docs/web-selection-methods.html#xpath): Once a test object is captured by using Spy/Recorder, a set of XPath locators are generated. The first value is the object's default XPath locator.
+* [Attributes](http://docs.katalon.com/katalon-studio/docs/web-selection-methods.html#attributes)
+* [CSS](http://docs.katalon.com/katalon-studio/docs/web-selection-methods.html#css)
+* [Image](http://docs.katalon.com/katalon-studio/docs/web-selection-methods.html#image)
+
+If you choose XPath or Attributes, you need to configure some additional settings:
+
+* **XPath**: set the priority of XPath locators. Click **Reset Default** to return to the default order.
+* **Attributes**: select the attributes used for detecting an object. Click **Reset Default** to return to the default setting.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/self-healing/web-UI-settings.png" width="100%" alt="web UI settings">
+
 ## Switch Selection Method in an object's view
 
 In an object's view, you can freely switch from one selection method to another. The detailed content of each selection method is saved automatically.
@@ -30,8 +46,6 @@ In an object's view, you can:
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/selection-methods/XPath.png">
 
 Katalon Studio supports Smart XPath (a.k.a Relative XPath) for better object recognition. If an element cannot be consistently located using its direct attributes, Katalon Studio identifies the element by using its more robust neighbors. This method is visually intuitive as it reflects the way users often identify a visible element on the user interface.
-
-> [Learn more about how Katalon generates Smart XPaths](https://www.katalon.com/resources-center/blog/smart-xpath-generator/)
 
 If **XPath** is set as the default selection method when spying and recording, Katalon Studio generates a list of **Smart XPaths** automatically.
 
