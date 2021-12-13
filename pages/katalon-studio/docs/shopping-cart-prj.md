@@ -119,7 +119,43 @@ Katalon creates 19 global variables in this sample project as follows:
 
 Katalon also creates sample custom keywords in this sample project. To learn more about custom keywords, you can refer to this document: [Introduction to custom keywords](https://docs.katalon.com/katalon-studio/docs/introduction-to-custom-keywords.html).
 
-To view our sample custom keywords, in the **Test Explorer** panel, go to **Keywords > sample**. Double-click one of the .groovy files to view the sample custom keywords.
+To view our sample custom keywords, in the **Test Explorer** panel, go to **Keywords > sample**. Double-click one of the following .groovy files:
+
+<table>
+<thead>
+  <tr>
+    <th>Custom-keyword files</th>
+    <th>Description</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>BlockUIDismissed.groovy</td>
+    <td>This file contains a custom keyword that waits for the overlay in the <strong>Checkout</strong> page to disappear.</td>
+  </tr>
+  <tr>
+    <td>Checkout.groovy</td>
+    <td>This file contains custom keywords that perform checkout actions.</td>
+  </tr>
+  <tr>
+    <td>Login.groovy</td>
+    <td>This file contains custom keywords that perform login actions.</td>
+  </tr>
+  <tr>
+    <td>Select2.groovy</td>
+    <td>This file contains custom keywords that perform selecting actions.</td>
+  </tr>
+  <tr>
+    <td>Shop.groovy</td>
+    <td>This file contains custom keywords that perform adding-to-the-cart actions.</td>
+  </tr>
+  <tr>
+    <td>Utils.groovy</td>
+    <td>This file contains keywords that assist the keywords in the <code>Select2.groovy</code> file.</td>
+  </tr>
+</tbody>
+</table>
+
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/shopping-cart-samples/KS-SHOPPING-Open-custom-keywords.png" width="70%" alt="Custom keywords in the Shopping Cart sample">
 
@@ -288,7 +324,7 @@ The sample test suites demonstrate the data-driven testing in Katalon Studio. To
     
 ### Test suite collection
 
-**Shopping-cart-tests - Run All Test Suites**: This sample test suite collection combines the three above test suites with different testing environments. 
+**Shopping-cart-tests - Run All Test Suites** test suite collection combines the three above test suites with different testing environments. 
 
 <a class="pop">
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/shopping-cart-samples/KS-SHOPPING-Test-suite-collection.png" width="70%" alt="Shopping-cart-tests - Run All Test Suites">
