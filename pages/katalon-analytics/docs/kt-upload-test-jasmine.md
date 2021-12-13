@@ -9,7 +9,7 @@ You can submit test results from the Jasmine framework to Katalon TestOps.
 
 > Notes:
 >
-> You can download this sample projec: [Katalon TestOps JavaScript Reporters](https://github.com/katalon-studio/testops-report-js.git).
+> You can download this sample project: [Katalon TestOps JavaScript Reporters](https://github.com/katalon-studio/testops-report-js.git).
 
 Follow these steps:
 
