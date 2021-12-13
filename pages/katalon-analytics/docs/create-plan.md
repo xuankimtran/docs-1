@@ -64,7 +64,7 @@ Follow these steps:
     * In the **When to run** section, you have the following options:
         * If you want to run tests periodically, select **Trigger Automated Test**, turn the **Repeat** toggle on, set the time period and the interval you want to run the tests (e.g., run tests every **2 days** from **09/21/2021 10:49** to **10/20/2021 11:00**), then click **Schedule**. You have created a trigger to run tests automatically.
 
-            <img src="hhttps://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/schedule-test-run-new-ui-trigger-automated-test-2.png" width=100% alt="schedule test run page new UI automatic run">
+            <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/schedule-test-run-new-ui-trigger-automated-test-2.png" width=100% alt="schedule test run page new UI automatic run">
 
         * If you want to run tests immediately, select **Trigger Automated Test**, turn the **Repeat** toggle off, then click **Run**. You have run the tests manually.
 
@@ -100,7 +100,7 @@ The **Test Run List** page shows you a collection of Test Runs with the same con
 
 > Notes:
 >
-> Katalon Studio's **Test Run Types** is Katalon TestOps's **Test Run List**.
+> The **Test Run List** in TestOps is equivalent to the **Test Run Types** in Studio.
 
 > Requirements:
 >
