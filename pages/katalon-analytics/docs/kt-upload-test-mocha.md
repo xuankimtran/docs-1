@@ -9,7 +9,7 @@ You can submit test results from the Mocha framework to Katalon TestOps.
 
 > Notes:
 >
-> You can download [Mocha sample project](https://github.com/katalon-studio-samples/testops-report-sample-js) to upload tests from Mocha.
+> You can download this sample project: [Katalon TestOps JavaScript Reporters](https://github.com/katalon-studio/testops-report-js.git).
 
 Follow these steps:
 
