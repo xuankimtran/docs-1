@@ -136,10 +136,10 @@ Custom keywords can be reused many times in test cases to perform different acti
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/shopping-cart-samples/KS-SHOPPNG-Order-and-check-out-a-single-product.png" width="70%" alt="Order and check out a single product">
 
-    - We use the `loginIntoApplicationWithGlobalVariable` custom keyword to:
+    1. We use the `loginIntoApplicationWithGlobalVariable` custom keyword to:
 
-        1. Open the `http://cms.demo.katalon.com` website with maximized windows.
-        2. Log in with the username and password defined as the global variables in the execution profile.
+        - Open the `http://cms.demo.katalon.com` website with maximized windows.
+        - Log in with the username and password defined as the global variables in the execution profile.
     
     - Go to the **Shop** page.
     - Next, we use the `addToCartWithGlobalVariable` custom keyword to:
