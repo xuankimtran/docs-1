@@ -11,7 +11,7 @@ To open the Healthcare sample project, in Katalon Studio, go to **File > New Sam
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/healthcare-samples/KS-SAMPLE-Open-Healthcare-sample.png" width="70%" alt="Open Healthcare sample in Studio">
 
-Alternatively, you can download the Healthcare sample project from our Github repository here: [Healthcare sample](https://github.com/katalon-studio-samples/healthcare-tests).
+Alternatively, you can download the Healthcare sample project from our Github repository: [Healthcare sample](https://github.com/katalon-studio-samples/healthcare-tests).
 ## Healthcare sample project components
 ### Profiles
 
@@ -20,7 +20,7 @@ To open the execution profile, go to **Profiles > default**.
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/healthcare-samples/KS-SAMPLE-Open-execution-profiles.png" width="70%" alt="Default profile in the Healthcare sample">
 
 
-You can create and save all global variables in the execution profile. They can be used across test cases in your project. To learn more about execution profiles and global variables, you can refer to this document: [Execution Profile and Global Variables](https://docs.katalon.com/katalon-studio/docs/execution-profile-v54.html).
+You can create and save all global variables in the execution profile. They can be used across test cases in your project. To learn more about execution profiles and global variables, you can refer to this document: [Execution profile and global variables](https://docs.katalon.com/katalon-studio/docs/execution-profile-v54.html).
 
 Katalon creates three global variables in this sample project as follows:
 
@@ -218,7 +218,7 @@ There are three test cases for different purposes:
 
 ### Test suite and test suite collection
 
-There are two test suites in this project. To get access to them, in the **Test Explorer** panel, go to **Test Suites**.
+There are two test suites in this project. To access them, in the **Test Explorer** panel, go to **Test Suites**.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/healthcare-samples/KS-SAMPLES-sample-test-suites.png" width="70%" alt="Main test suites">
 
@@ -252,7 +252,7 @@ To execute a test case or a test suite/test suite collection in the sample proje
     <p style="text-align: center;"><em>Click the image to enlarge it.</em></p>
 
     > Notes:
-    > * You can view test results in the **Result** tab in the test suite or test suite collection level. The test results can be Passed, Failed, Error or Incomplete.
+    > * You can view test results in the **Result** tab in the test suite or test suite collection level. The test results can be Passed, Failed, Error, or Incomplete.
     > * After executing test suites or test suite collections, you can view your reports and details in `<your-project-folder>/Reports`. Katalon Studio also supports exporting test reports into different formats, such as HTML, CSV, PDF, and JUnit.
     > * For real-time monitoring and better reporting capabilities, consider integrating your project with Katalon TestOps. Learn more about test result reports here: [Upload Test Results to Katalon TestOps from Katalon Studio](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html).
 
