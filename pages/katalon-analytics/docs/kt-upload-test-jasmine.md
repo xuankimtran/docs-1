@@ -53,7 +53,7 @@ Follow these steps:
 
      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/kt_vs_code_paste_testops_config.png" width=100% alt="configure testops in vsc"> 
 
-10. Create a new file called *setup.js* on the *test* folder (the *./tests/setup.js* file) in your source-code editor.
+10. Create a new file called *setup.js* in the *test* folder (the *./tests/setup.js* file) in your source-code editor.
 
 11. Copy the command in the **Add Report** section in Katalon TestOps and paste it in the *./tests/setup.js* file. Save this file.
 
