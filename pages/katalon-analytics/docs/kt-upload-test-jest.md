@@ -9,11 +9,11 @@ You can submit test results from the Jest framework to Katalon TestOps.
 
 > Notes:
 >
-> You can download [Jest sample project](https://github.com/katalon-studio-samples/testops-report-sample-js) to upload tests from Jest.
+> You can download this sample project: [Katalon TestOps JavaScript Reporters](https://github.com/katalon-studio/testops-report-js.git).
 
 Follow these steps:
 
-1. Open the Jest file in the file editor that it is compatible with (e.g., [Visual Studio Code](https://code.visualstudio.com)).
+1. Open your Jest file in a source-code editor, such as [Visual Studio Code](https://code.visualstudio.com).
 
      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jest/kt_vs_code_open_jest.png" width=100% alt="open jest in vsc"> 
 
@@ -45,7 +45,7 @@ Follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jest/kt_vs_code_paste_bash.png" width=100% alt="install dependency command"> 
 
-8. Create two new files: *testops-config.json* and *jest.config.js* in your file editor.
+8. Create two new files: *testops-config.json* and *jest.config.js* in your source-code editor.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jest/kt_create_file_json_js.png" width=100% alt="create json file"> 
 
