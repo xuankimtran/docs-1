@@ -33,9 +33,11 @@ To analyze the execution flow, follow these steps:
 1. Identify the commands in use.
 
     The Test Case recorded according to the scenario "Adding items to the shopping cart" is as follows:
-
+    
+    <a class="pop">
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/conditional-and-loop-tutorial/KR-Recorded-Test-Case.png" width=70% alt="Recorded Test Case">
-
+    </a>
+    <p style="text-align: center;"><em>Click the image to enlarge</em></p>
     From the interface of the AUT and the recorded Test Case, we can see the flow of the Test execution consists of these steps and respective commands:
 
     1. With the `open` command, navigate to the site `https://cms.demo.katalon.com`.
@@ -97,6 +99,8 @@ The specific steps in the proposed control flow are:
 To apply control flow commands, follow these steps:
 
 1. Open a new Test Case. With the `open` command, navigate to the AUT.
+
+    The URL for the AUT is `https://cms.demo.katalon.com`.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/conditional-and-loop-tutorial/KR-Open-command.png" width=70% alt="KR open command">
 
