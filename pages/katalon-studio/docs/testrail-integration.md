@@ -14,6 +14,10 @@ description:
 * In TestRail, you can view Test Results of Test Suites executed in Katalon Studio.
 * In Katalon Studio, you can query Test Runs of TestRail in Dynamic Test Suite. See: [Dynamic Test Suite](https://docs.katalon.com/katalon-studio/docs/create-test-suite.html#dynamic-test-suite-dynamic-test-cases-list).
 
+> **Notes**:
+>
+> The **TestRail Integration** plugin only supports integrating Katalon Studio with TestRail Cloud.
+
 > **Requirements**:
 >
 > * An active Katalon Studio Enterprise license.
