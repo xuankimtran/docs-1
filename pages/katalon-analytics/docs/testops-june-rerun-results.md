@@ -18,7 +18,7 @@ Follow these steps:
 3. Click on the Test Run ID you want to view.
 4. Select the **Test Results** tab.
 
-You can find the Test Run's final status and its latest result here.
+You can find the final status of a Test Run and its latest result here.
 
 A re-run result has the *Re-run #* label next to its name, with *#* represents the re-run number.
 
