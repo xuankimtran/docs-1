@@ -77,13 +77,13 @@ If you upload your execution data using the frameworks we support, or upload man
 
 Katalon TestOps supports uploading test results from the following frameworks:
 
-* Upload Mocha test results. See: [Upload Test to Katalon TestOps via Mocha](https://docs.katalon.com/katalon-analytics/docs/kt-upload-test-mocha.html).
+* Jasmine. See: [Upload Test to Katalon TestOps via Jasmine](https://docs.katalon.com/katalon-analytics/docs/kt-upload-test-jasmine.html).
 
-* Upload Jest test results. See: [Upload Test to Katalon TestOps via Jest](https://docs.katalon.com/katalon-analytics/docs/kt-upload-test-jest.html).
+* Jest. See: [Upload Test to Katalon TestOps via Jest](https://docs.katalon.com/katalon-analytics/docs/kt-upload-test-jest.html).
 
-* Upload Jasmine test results. See: [Upload Test to Katalon TestOps via Jasmine](https://docs.katalon.com/katalon-analytics/docs/kt-upload-test-jasmine.html).
+* Mocha. See: [Upload Test to Katalon TestOps via Mocha](https://docs.katalon.com/katalon-analytics/docs/kt-upload-test-mocha.html).
 
-* Upload Pytest test results. See: [Upload Test to Katalon TestOps via Pytest](https://docs.katalon.com/katalon-analytics/docs/kt-upload-test-pytest.html).
+* Pytest. See: [Upload Test to Katalon TestOps via Pytest](https://docs.katalon.com/katalon-analytics/docs/kt-upload-test-pytest.html).
 
 After uploading the execution data, go to **Test Management** > **Test Cases** and click on the *Uploaded Data* folder.
 
