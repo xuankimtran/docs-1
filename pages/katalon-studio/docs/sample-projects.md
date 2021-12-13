@@ -21,8 +21,8 @@ To help you get familiar with Katalon Studio capabilities, Katalon has created s
 - Web UI testing with Data-driven testing (Shopping Cart sample). You can learn more about the Shopping Cart sample project here: [Shopping Cart sample](https://docs.katalon.com/katalon-studio/docs/shopping-cart-prj.html).
 - API testing. You can learn more about the API testing sample project here: [Web Service testing sample](https://docs.katalon.com/katalon-studio/docs/web-service-samples.html).
 - Mobile testing, including Android and iOS sample projects. You can learn more about each type of Mobile testing sample projects in the following documents: 
-    - [Android sample project](url)
-    - [iOS sample project](url)
+    - [Android sample project](https://docs.katalon.com/katalon-studio/docs/android-sample-prj.html)
+    - [iOS sample project](https://docs.katalon.com/katalon-studio/docs/ios-sample-prj.html)
 - BDD (Cucumber) testing. You can learn more about the BDD (Cucumber) testing sample project here: [BDD testing sample](https://docs.katalon.com/katalon-studio/docs/bdd-samples.html).
 
 
