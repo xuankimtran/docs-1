@@ -12,7 +12,7 @@ This document shows you how to append and manage tags, search for test cases wit
 
 ## Test Case Management with Tags Plugin
 
-To append and manage tags, first, install our plugin from the Katalon Store: [Test Case Management with Tags](https://store.katalon.com/product/6/Test-Case-Management-with-Tags).
+To append and manage tags, first install our plugin from the Katalon Store: [Test Case Management with Tags](https://store.katalon.com/product/6/Test-Case-Management-with-Tags).
 
 Then, open Katalon Studio and select **Your Account > Reload Plugins**. For detailed instructions, see [Reload Plugins](https://docs.katalon.com/katalon-store/docs/user/access-store-in-KS.html#reload-plugins).
 
@@ -22,10 +22,10 @@ Then, open Katalon Studio and select **Your Account > Reload Plugins**. For deta
 
 You can add tags to a test case when you first create a test case. To learn more about how to create a test case, see [Create Test Case](https://docs.katalon.com/katalon-studio/docs/create-test-case.html).
 
-Another way to add tags to a test case is using the **Properties** tab. Do as follows:
+You can also add tags to a test case using the **Properties** tab. Do as follows:
 
 1. Open your desired test case.
-2. Switch to the **Properties** tab. In this tab, you can find detailed information of a test case, including all tags.
+2. Switch to the **Properties** tab. In this tab, you can find more details on a test case, including associated tags.
 
 3. Input your tag values, separate them by commas or semi-colons.
 
@@ -41,7 +41,7 @@ You can view all tags in your project and append tags to a test case. After inst
 
 1. Open a test case and switch to the **Properties** tab. 
 
-    Under the **Tag** field, you can find the **Append tags** button. If this button does not appear, ensure you already installed this plugin: [Test Case Management with Tags](https://store.katalon.com/product/6/Test-Case-Management-with-Tags).
+    Under the **Tag** field, you can find the **Append tags** button.
 
 2. Click on the **Append** button. The **Append Tags** dialog appears with a list of all tags in your project.
 
@@ -49,10 +49,9 @@ You can view all tags in your project and append tags to a test case. After inst
 
     Click on the check box to select. Since this feature is for appending tags to a test case, you cannot uncheck a tag that already exists in that test case.
 
-3. Click **Append** when you are done. New tags are now added to your test case.
+4. Click **Append** when you are done. New tags are now added to your test case.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-case-management-with-tags/append-tags.png" alt="append tags dialog" width="50%">
-
 
 ## Search For Test Cases With Multiple Tags
 

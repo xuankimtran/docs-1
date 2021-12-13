@@ -128,7 +128,7 @@ To activate the **setUp** and **tearDown** methods, you need to set the **skippe
 
 > Notes:
 >
-> * Execution progress from these methods still has execution logs as usual, and they are stored in the execution logs files of Katalon Studio.
+> * Executing with the setUp/tearDown methods still generates execution logs as usual.
 > * You cannot see setUp and tearDown executed reports from generated Test Suite report. You can only see **setUpTestCase** and **tearDownTestCase** in generated Test Suite report.
 >
 > 	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/setupteardown-for-test-suite-and-test-case/Screen-Shot-2018-01-05-at-14.24.23.png" alt="sample before test suite" width=100%>

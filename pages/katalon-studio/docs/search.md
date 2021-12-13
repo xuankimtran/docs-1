@@ -14,13 +14,13 @@ description:
 ---
 > Query Builder applies ONLY to the **built-in** advanced search function.
 
-Searching manually for test artifacts can be time-consuming. The Query Builder in Katalon Studio helps reduce time finding the desired test artifacts based on given criteria.
+Searching manually for test artifacts can be time-consuming. The Query Builder in Katalon Studio helps reduce time spent on searching for the desired test artifacts, based on given criteria.
 
 The search function is used for test artifacts such as test cases, test suites, and folders.
 
-There are two ways to use the Search function in Katalon Studio: input your search criteria directly on the **Search bar** or use the **Query Builder** button.
+There are two ways to use the Search function in Katalon Studio: input your search criteria directly in the Search bar or use the **Query Builder** button.
 
-This article guides you through how to view basic information of an object and how to use the search function in Katalon Studio.
+This article shows you how to view basic information of an object and how to use the search function in Katalon Studio.
 
 ## IDs and Properties
 
@@ -29,23 +29,25 @@ IDs and tags can be helpful when it comes to managing large projects. You can us
 
 To get the ID of a test artifact, do as follows:
 
-Navigate to **Tests Explorer** and find the test artifact that you want to get the ID. Right-click on that test artifact and select **Copy ID**. The ID is now copied to your clipboard. Then, you can paste that ID into the ID text box.
+Navigate to **Tests Explorer** and find the test artifact that you want to get the ID of. Right-click on that test artifact and select **Copy ID**. The ID is now copied to your clipboard. Then, you can paste that ID into the ID text box.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/search/copy-ID.png" alt="copy ID" width="60%">
 
 ### View test artifact properties
 
-You can also find **ID**, **Name**, **Description**, and **Tag** of a test artifact by viewing the **Properties**. However, you cannot view the properties of a folder.
+You can find the ID, name, description, and tag of a test artifact in the **Properties** view.
 
-To view the properties of a test artifact, do as follows:
+Navigate to **Tests Explorer**. Right-click on that test artifact and select **Properties**. The **Properties** dialog appears.
 
-Navigate to **Tests Explorer** and find the test artifact that you want to view the properties. Right click on that test artifact and select **Properties**. The **Properties** dialog appears.
+> Notes:
+>
+> You cannot view the properties of a folder.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/search/tc-properties.png" alt="test case properties" alt="60%">
 
 ## The search bar
 
-Another way to search for test test artifacts is to type on the search bar directly. This search bar is located at the top of the **Test Explorer** section. For example:
+Another way to search for test test artifacts is to type in the search bar located at the top of the **Test Explorer** section. You can type in a specific keyword, or follow this syntax: `id=(Your_Test_Case_ID)`. For example:
 
 `id=(Test Cases/Common Test Cases)`
 
@@ -71,7 +73,7 @@ To use the **Query Builder** function, click on the **Query Builder** button. Th
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/search/query-builder-dialog.png" alt="query dialog" width="70%">
 
-The Query Builder menu include:
+The Query Builder menu includes:
 
 - **ID**: to search the exact IDs of the test artifact
 - **Name**: to search by the name of the test artifact
@@ -82,11 +84,11 @@ The Query Builder menu include:
 > Notes:
 >
 > * Every field in this Query Builder mode can be applied to search for all types of test artifacts such as test cases, test suites, folders, etc.
-> * You can only search for only one tag name at a time. The same process applies to getting descriptions and comment keywords.
+> * You can only search for one keyword at a time when searching by tag, description, or comment.
 
 ## Basic Search For Dynamic Test Suite Plugin
 
-You can also use the Basic Search For Dynamic Test Suite plugin to search in a Dynamic Test Suite. This plugin is available on Katalon Store: [Basic Search For Dynamic Test Suite Plugin](https://store.katalon.com/product/2/Basic-Search-For-Dynamic-Test-Suite).
+You can also use the Basic Search For Dynamic Test Suite plugin to search in a Dynamic Test Suite. This plugin is available on the Katalon Store: [Basic Search For Dynamic Test Suite Plugin](https://store.katalon.com/product/2/Basic-Search-For-Dynamic-Test-Suite).
 
 To learn more about how to use this plugin, see [Basic Search For Dynamic Test Suite](https://docs.katalon.com/katalon-studio/docs/basic-search-for-dynamic-querying-test-suite.html).
 

@@ -23,7 +23,7 @@ description:
 
 After you create your Katalon Project, it's time to generate your very first Test Case. Katalon Studio supports Keywords-Driven testing where Test Cases consist of keywords representing actions of users on the Applications Under Test (AUT).
 
-The Manual view allows users with less experience in programming to generate automated tests. In addition to the Manual view, Katalon Studio allows users with Groovy/Java background to programmatically write and modify automated tests in the Script view of Test Cases.
+The Manual view allows users with less experience in programming to generate automated tests. In addition to the Manual view, Katalon Studio allows users with Groovy/Java experience to programmatically write and modify automated tests in the Script view of Test Cases.
 
 This tutorial will guide you through creating a new Test Case, then adding your test steps in Manual and Script view with usage examples.
 
@@ -58,7 +58,7 @@ The tutorial below will give you step-by-step instructions to create test steps 
 
 1. In the **Manual** tab of the **Test Case Editor**, click **Add**. A new line represents a test step is generated.
 
-2. In the newly created test step, type a keyword, or click on the drop-down button to select a keyword. Add an **Object**, **Input**, **Output**, and **Description** for that test step, if any.
+2. In the newly created test step, type a keyword, or click on the dropdown button to select a keyword. Add an **Object**, **Input**, **Output**, and **Description** for that test step, if any.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-case/tc-hover.png" alt="keyword description" width="100%">
 
@@ -66,7 +66,7 @@ The tutorial below will give you step-by-step instructions to create test steps 
     >
     > To learn more about a keyword in Katalon Studio, hover over each keyword to see its description. You can also use the search bar on our Katalon Studio documentation page to find the detailed information and usage example of each keyword.
 
-3. You can add a **Statement** or **Call Test Case** as a test step. Click on the drop-down of the _Add_ button and select an option. See also: [Statements](https://docs.katalon.com/katalon-studio/docs/statements.html) and [Call Test Case](https://docs.katalon.com/katalon-studio/docs/call-test-case.html).
+3. You can add a **Statement** or **Call Test Case** as a test step. Click on the dropdown of the _Add_ button and select an option. See also: [Statements](https://docs.katalon.com/katalon-studio/docs/statements.html) and [Call Test Case](https://docs.katalon.com/katalon-studio/docs/call-test-case.html).
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-case/tc-add-webui.png" alt="add web UI keywords" width="40%">
     
@@ -82,17 +82,17 @@ The tutorial below will give you step-by-step instructions to create test steps 
 
 <details><summary><strong>Usage Example: Create a sample Test Case in Manual view</strong></summary>
 
-Given a sample test case with the steps as below:
+In our example, we use a sample test case with the steps as below:
 
-* Open the browser
-* Navigate to a website
-* Click on a specific control
-* Validate if a control exists on the page
-* Close the browser
+* Open the browser.
+* Navigate to a website.
+* Click on a specific control.
+* Validate if a control exists on the page.
+* Close the browser.
 
 1. **Open the browser**: Select the **[Open Browser](/display/KD/%5BWebUI%5D+Open+Browser)** keyword. This keyword opens a browser and navigates to the specified URL if provided. 
 
-    > Selected keywords will have their description displayed along for reference.
+    > You can view the description of a keyword by hover your mouse over that keyword.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-case/open-browser-manual.png" alt="open browser" width="100%">
 
@@ -140,7 +140,7 @@ Given a sample test case with the steps as below:
 	</tbody>
 </table>
 
-3. **Click on a specific control**: Add the **[Click](/display/KD/%5BWebUI%5D+Click)** keyword. This keyword represents the click action on a given object. Double click on the **Object** cell to provide the object for the keyword.
+3. **Click on a specific control**: Add the **[Click](/display/KD/%5BWebUI%5D+Click)** keyword. This keyword represents the click action on a given object. Double click on the **Object** cell and provide the object for the keyword.
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-case/click-manual.png" alt="click" width="80%">
 
 4. **Validate if a control exists on the page**: All captured objects in **Object Repository** are displayed in the **Test Object Input** dialog. Select your object then click **OK**. To learn how to capture objects, see [Spy Object](/display/KD/Record+and+Spy+Utilities).
@@ -170,8 +170,8 @@ In the Object column, double-click on any Test Object to open the **Test Object 
 
 The recent list will have two sections: **Object Folder** and **Test Object**.
 
-* **Test Object:** Displays/contains the names of the last 5 selected objects
-* **Object Folder:** Displays/contains the names of 5 folders that contains any recently used objects
+* **Test Object:** Displays the names of the last 5 selected objects.
+* **Object Folder:** Displays the names of 5 folders that contains any recently used objects.
 
 ## Generate Test Steps in Script view
 
@@ -212,13 +212,13 @@ To refer to an object in **Object Repository**, use `findTestObject('{Object ID}
 
 <details><summary><strong>Usage Example: Generate Test Steps in Script view</strong></summary>
 
-Given a sample test case with the steps as below:
+In our example, we use a sample test case with the steps as below:
 
-* Open the browser
-* Navigate to a website
-* Click on a specific control
-* Validate if a control exists on the page
-* Close the browser
+* Open the browser.
+* Navigate to a website.
+* Click on a specific control.
+* Validate if a control exists on the page.
+* Close the browser.
 
 In this scenario, you will create a Web application test script to make use of the **[Web UI](/x/VQAM) [built-in keywords](/x/VQAM)**. Follow these steps to automate the above test scenario in **Script view**:
 
