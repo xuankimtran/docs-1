@@ -169,27 +169,27 @@ Custom keywords can be reused many times in test cases to perform different acti
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/shopping-cart-samples/KS-SHOPPING-Order-and-check-out-a-single-product-using%20coupon.png" width="70%" alt="Order and check out a single product using coupon">
 
-    - We use the `loginIntoApplicationWithGlobalVariable` custom keyword to:
+    1. We use the `loginIntoApplicationWithGlobalVariable` custom keyword to:
 
-      1. Open the `http://cms.demo.katalon.com` website with maximized windows.
-      2. Log in with the username and password defined as the global variables in the execution profile.
+        - Open the `http://cms.demo.katalon.com` website with maximized windows.
+        - Log in with the username and password defined as the global variables in the execution profile.
     
-    - Go to the **Shop** page.
-    - Next, we use the `applyCouponAndAddToCartWithGlobalVariable` custom keyword to:
+    2. Go to the **Shop** page.
+    3. Next, we use the `applyCouponAndAddToCartWithGlobalVariable` custom keyword to:
 
-      1. Add the product to cart. The product is defined as a global variable in the execution profile.
-      2. Go to the **Cart** page.
-      3. Fill in the coupon code defined as a global variable.
+        - Add the product to cart. The product is defined as a global variable in the execution profile.
+        - Go to the **Cart** page.
+        - Fill in the coupon code defined as a global variable.
 
-    - For the checkout step, we use the `CheckoutShopWithGlobalVariable` custom keyword to: 
+    4. For the checkout step, we use the `CheckoutShopWithGlobalVariable` custom keyword to: 
       
-      1. Click the **Checkout** page.
-      2. Fill in checkout information. The checkout information is defined as global variables in the execution profile.
+        - Click the **Checkout** page.
+        - Fill in checkout information. The checkout information is defined as global variables in the execution profile.
         
-    - Finally, we use the `logoutFromApplication` custom keyword to:
+    5. Finally, we use the `logoutFromApplication` custom keyword to:
 
-      1. Go to the **My account** page.
-      2. Click **Log out**.
+        - Go to the **My account** page.
+        - Click **Log out**.
 
           <a class="pop">
           <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/shopping-cart-samples/KS-SHOPPING-TC2.gif" width="70%" alt="Order and check out a single product using coupon">
@@ -204,32 +204,32 @@ Custom keywords can be reused many times in test cases to perform different acti
 
   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/shopping-cart-samples/KS-SHOPPING-Order-and-check-out-multiple%20products.png" width="70%" alt="Order and check out multiple products">
 
-  - We use the `loginIntoApplicationWithGlobalVariable` custom keyword to:
+  1. We use the `loginIntoApplicationWithGlobalVariable` custom keyword to:
 
-      1. Open the `http://cms.demo.katalon.com` website with maximized windows.
-      2. Log in with the username and password defined as the global variables in the execution profile.
+      - Open the `http://cms.demo.katalon.com` website with maximized windows.
+      - Log in with the username and password defined as the global variables in the execution profile.
     
-  - Go to the **Shop** page.
-  - Next, we want the test case to read the data files. To do so, we use the `getAllData()` keyword to extract product names from the product list as follows:
+  2. Go to the **Shop** page.
+  3. Next, we want the test case to read the data files. To do so, we use the `getAllData()` keyword to extract product names from the product list as follows:
 
-    ```groovy
-    TestData product = findTestData(GlobalVariable.dataFile)
-    List<String> productList = product.getAllData().stream()
-    .map{data -> data[0]}/*get first column of each row in data file */
-    .collect(Collectors.toList())/*add collect and parse to list*/
-    ```
+      ```groovy
+      TestData product = findTestData(GlobalVariable.dataFile)
+      List<String> productList = product.getAllData().stream()
+      .map{data -> data[0]}/*get first column of each row in data file */
+      .collect(Collectors.toList())/*add collect and parse to list*/
+      ```
 
-  - Then, we use the `addToCart` custom keyword to add extracted product names to cart.
+  4. Then, we use the `addToCart` custom keyword to add extracted product names to cart.
 
-    ```groovy
-    for(def productName : productList){
-    CustomKeywords.'sample.Shop.addToCart'(productName.toString(), GlobalVariable.urlProduct)
-    }
-    ```
-  - Finally, we use the `CheckoutShopWithGlobalVariable` custom keyword to:
+      ```groovy
+      for(def productName : productList){
+      CustomKeywords.'sample.Shop.addToCart'(productName.toString(), GlobalVariable.urlProduct)
+      }
+      ```
+  5. Finally, we use the `CheckoutShopWithGlobalVariable` custom keyword to:
 
-      1. Click the **Checkout** page.
-      2. Fill in checkout information. The checkout information is defined as global variables in the execution profile.
+      - Click the **Checkout** page.
+      - Fill in checkout information. The checkout information is defined as global variables in the execution profile.
 
           <a class="pop">
           <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/shopping-cart-samples/multiple-check-out%20(online-video-cutter.com).gif" width="70%" alt="Order and check out multiple products">
