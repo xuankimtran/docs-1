@@ -44,7 +44,7 @@ Enable the TestRail API. Log in to your account, go to **Administration > Site S
 * **Password**: your TestRail password.
 * **Project**: your TestRail project's ID (an integer).
 
-    > To get the **project ID**, open your project in TestRail and view the ID in the URL.
+    > To get the **project ID**, open your TestRail project in the browser and view the ID at the end of the URL, e.g. `https://company.testrail.io/index.php?/projects/overview/1`.
 
 3. To test the connection, click on the **Test Connection** button.
 
