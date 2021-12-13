@@ -29,7 +29,7 @@ Follow these steps:
 
     * **Name**: enter the Build's name.
     * **Description**: add a note about your Build.
-    * **Date**: enter the date you create this Build.
+    * **Date**: enter the creation date for this Build.
 
 6. Click **Create**.
 
