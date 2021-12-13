@@ -17,68 +17,79 @@ In our example, we have a Test Case with the scenario "Adding items to the shopp
 
 Here we use control flow commands to automate the task of selecting and verifying all shopping items; the process is as follows:
 
-1. Analyze the Test execution flow: we analyze the Test Case and identify where we can apply the control flow commands.
-2. Apply control flow commands to the Test Case: we modify the Test Case with control flow commands.
+1. Record the Test Case: we record the Test Case to manually select and verify all items.
+2. Modify the Test Case using control flow commands: we analyze the Test execution flow and modify the Test Case using control flow commands.
+## Record the Test Case
 
-## Analyze the Test Execution Flow
+Here we record the Test Case according to the scenario "Adding items to the shopping cart."
 
-In our example, the AUT is an E-commerce website that displays 12 shopping items:
+Follow these steps:
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/conditional-and-loop-tutorial/KR-AUT-UI.png" width=100% alt="UI of the AUT">
+1. In Katalon Recorder, create a new Test Case, then click on the **Record** button to start recording.
 
-Items added to the cart have the confirmation text "View cart" visible.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/conditional-and-loop-tutorial/KR-New-Test-Case.png" width=70% alt="KR New Test Case">
 
-To analyze the execution flow, follow these steps:
+2. Navigate to the AUT. In an active browser tab, navigate to the AUT.
 
-1. Identify the commands in use.
+    Here the URL for the AUT is `https://cms.demo.katalon.com`.
 
-    The Test Case recorded according to the scenario "Adding items to the shopping cart" is as follows:
-    
-    <a class="pop">
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/conditional-and-loop-tutorial/KR-Recorded-Test-Case.png" width=70% alt="Recorded Test Case">
-    </a>
-    <p style="text-align: center;"><em>Click the image to enlarge</em></p>
-    From the interface of the AUT and the recorded Test Case, we can see the flow of the Test execution consists of these steps and respective commands:
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/conditional-and-loop-tutorial/KR-AUT.png" width=70% alt="KR Application Under Test">
 
-    1. With the `open` command, navigate to the site `https://cms.demo.katalon.com`.
-    2. With the `click` command, hover over an item with the text "Add to cart," and click on the text.
-    3. With the `verifyText` command, verify that the added item has the confirmation text "View cart."
-    4. Repeat *step 2* and *step 3* for every item on the page.
+3. Add items to the cart. In the opened page, hover over the displayed items and select the item with the text "Add to cart."
 
-2. Identify the pattern in the Test Case. 
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/conditional-and-loop-tutorial/KR-Select-item.png" width=70% alt="KR Select an item to add to cart">
 
-    Here we can see the `click` and `verifyText` commands are repeatedly used.
+4. Verify that the item is added to the cart successfully. Right-click on the confirmation text `"View cart"` and select **Katalon Recorder > verifyText**.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/conditional-and-loop-tutorial/KR-Test-Case-Repeated-Step.png" width=70% alt="Repeated commands in the Test Case">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/conditional-and-loop-tutorial/KR-Verify-item.png" width=70% alt="KR Select an item to add to cart">
 
-    The **Target** fields of the `click` and `verifyText` commands are:
-    
-    <table>
-        <thead>
-            <tr>
-                <th>Command</th>
-                <th>Target</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><em>click</em></td>
-                <td><code>xpath=//main[@id='main']/div[2]/ul/li[{ID-value}]/div/a[2]</code></td>
-            </tr>
-            <tr>
-                <td><em>verifyText</em></td>
-                <td><code>xpath=//main[@id='main']/div[2]/ul/li[{ID-value}]/div/a[3]</code></td>
-            </tr>
-        </tbody>
-    </table>
+5. Repeat *step 3* and *step 4* for every item on the page.
 
-    From the XPath in the **Target** field, we can see that each item has a unique *ID* value. As the items are selected from the top to the bottom of the page, an item's associated *ID* value is incremented.
+The recorded Test Case is as follows:
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/conditional-and-loop-tutorial/KR-Test-Execution-pattern.png" width=70% alt="Repeated commands in the Test Case">
+<a class="pop">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/conditional-and-loop-tutorial/KR-Recorded-Test-Case.png" width=70% alt="Recorded Test Case">
+</a>
+<p style="text-align: center;"><em>Click the image to enlarge</em></p>
 
-    Knowing that each item is associated with one *ID* value, we can use control flow commands to automatically iterate over, select, and verify all 12 items. 
 
-## Apply Control Flow Commands to the Test Case
+## Modify the Test Case using Control Flow Commands
+
+### Analyze the Test Execution Flow
+
+We first analyze the recorded Test Case to identify where we can apply control flow commands.
+
+The recorded Test Case shows that the `click` and `verifyText` commands are repeatedly used.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/conditional-and-loop-tutorial/KR-Test-Case-Repeated-Step.png" width=70% alt="Repeated commands in the Test Case">
+
+The **Target** fields of the `click` and `verifyText` commands are:
+
+<table>
+    <thead>
+        <tr>
+            <th>Command</th>
+            <th>Target</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><em>click</em></td>
+            <td><code>xpath=//main[@id='main']/div[2]/ul/li[{ID-value}]/div/a[2]</code></td>
+        </tr>
+        <tr>
+            <td><em>verifyText</em></td>
+            <td><code>xpath=//main[@id='main']/div[2]/ul/li[{ID-value}]/div/a[3]</code></td>
+        </tr>
+    </tbody>
+</table>
+
+From the XPath in the **Target** field, we can see that each item has a unique *ID* value. Because the items are selected from the top to the bottom of the page, the associated *ID* value is incremented.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/conditional-and-loop-tutorial/KR-Test-Execution-pattern.png" width=70% alt="Repeated commands in the Test Case">
+
+Knowing that each item is associated with one *ID* value, we can use control flow commands to automatically iterate over, select, and verify all 12 items. 
+### Apply Control Flow Commands to the Test Case
 
 Here we propose the following control flow:
 
@@ -116,6 +127,7 @@ To apply control flow commands, follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/conditional-and-loop-tutorial/KR-while-command.png" width=70% alt="KR while command">
 
+
     Here the `while` command checks if the *ID* is valid using the expression `${ID} < 12`. The placeholder syntax `${ID}` expands the `ID` variable into its value.
 
 4. Check if there's a text "Add to cart" visible, then click on the text.
@@ -136,13 +148,13 @@ To apply control flow commands, follow these steps:
 
     The XPath for the text "View cart" is `xpath=//main[@id='main']/div[2]/ul/li[${ID}]/div/a[3]`.
 
-    The `click` and `verifyText` command execute only when the `if` command evaluates `true`. Therefore, we use the `endIf` command to terminate the conditional.
+    The `click` and `verifyText` command execute only when the `if` command evaluates to `true`. Therefore, we use the `endIf` command to terminate the conditional.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/conditional-and-loop-tutorial/KR-endIf-command.png" width=70% alt="KR endIf command">
 
 6. Move on to the next item.
 
-    Here we use the `storeEval` command to increment the value of the `ID` variable.
+    To continue selecting and verifying the next item, we use the `storeEval` command to increment the value of the `ID` variable.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/conditional-and-loop-tutorial/KR-storeEval-command.png" width=70% alt="KR storeEval command">
 
@@ -155,7 +167,6 @@ To apply control flow commands, follow these steps:
 7. Play the Test Case and verify the results in the **Log** section.
 
     <a class="pop">
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/conditional-and-loop-tutorial/KR-execution-results.png" width=70% alt="KR execution results">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/conditional-and-loop-tutorial/KR-Test-Execution-results.png" width=70% alt="KR execution results">
     </a>
-
     <p style="text-align: center;"><em>Click the image to enlarge</em></p>
