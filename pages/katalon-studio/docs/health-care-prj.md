@@ -167,11 +167,6 @@ There are three test cases for different purposes:
 
 1. **TC1_Verify Successful Login** is to verify if a person can log in successfully with a valid account. The flow in this test case is as follows:
 
-    <a class="pop">
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/healthcare-samples/KS-SAMPLES-TC1.png" width="70%" alt="Test Case 1 - Verify successful login">
-    </a>
-    <p style="text-align: center;"><em>Click the image to enlarge it.</em></p>
-
     - Go to the CURA Healthcare Service website: `https://katalon-demo-cura.herokuapp.com/`. Here, we use the `G_SiteURL` global variables.
     - Click the **Make Appointment** button.
     - Fill in the **Username** and **Password**. Here, we set the value type of **Username** and **Password** as **Variable**. You can change the **Username** and **Password** value in the **Variable** tab. To learn more about test case variables, you can refer to this document: [Test Case Variables](https://docs.katalon.com/katalon-studio/docs/test-case-variables.html).
@@ -187,13 +182,55 @@ There are three test cases for different purposes:
       </a>
       <p style="text-align: center;"><em>Click the gif to enlarge it.</em></p>
 
+      <details><summary>Click to view the test script</summary>
 
+      ```groovy
+      import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+      import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+      import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+      import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+      import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+      import com.kms.katalon.core.checkpoint.CheckpointFactory as CheckpointFactory
+      import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as MobileBuiltInKeywords
+      import com.kms.katalon.core.model.FailureHandling as FailureHandling
+      import com.kms.katalon.core.testcase.TestCase as TestCase
+      import com.kms.katalon.core.testcase.TestCaseFactory as TestCaseFactory
+      import com.kms.katalon.core.testdata.TestData as TestData
+      import com.kms.katalon.core.testdata.TestDataFactory as TestDataFactory
+      import com.kms.katalon.core.testobject.ObjectRepository as ObjectRepository
+      import com.kms.katalon.core.testobject.TestObject as TestObject
+      import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WSBuiltInKeywords
+      import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
+      import internal.GlobalVariable as GlobalVariable
+      import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+      import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+      import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+
+      WebUI.comment('Story: Login to CURA system')
+
+      WebUI.comment('Given that the user has the valid login information')
+
+      WebUI.openBrowser(GlobalVariable.G_SiteURL)
+
+      WebUI.click(findTestObject('Page_CuraHomepage/btn_MakeAppointment'))
+
+      WebUI.setText(findTestObject('Page_Login/txt_UserName'), Username)
+
+      WebUI.setText(findTestObject('Page_Login/txt_Password'), Password)
+
+      WebUI.comment('When he logins to CURA system')
+
+      WebUI.click(findTestObject('Page_Login/btn_Login'))
+
+      WebUI.comment('Then he should be able to login successfully')
+
+      landingPage = WebUI.verifyElementPresent(findTestObject('Page_CuraAppointment/div_Appointment'), GlobalVariable.G_Timeout)
+
+      WebUI.closeBrowser()
+      ```
+      </details>
+      
 2. **TC2_Verify Successful Appointment** is to verify if that person can successfully make an appointment after logging in. The flow in this test case is as follows:
-
-    <a class="pop">
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/healthcare-samples/KS-SAMPLES-TC2.png" width="70%" alt="Test Case 2 - Verify successful appointment">
-    </a>
-    <p style="text-align: center;"><em>Click the image to enlarge it.</em></p>
 
     - Go to the CURA Healthcare Service website: `https://katalon-demo-cura.herokuapp.com/` and sign in. Instead of re-recording the login steps, we call the **Common Test Cases/Login** test case. To learn more about calling test cases, you can refer to this document: [Call test cases](https://docs.katalon.com/katalon-studio/docs/call-test-case.html#call-test-case-in-manual-view).
     - To make an appointment, fill in the valid value for **Facility**, **Healthcare Program**, and **Visit Date**. Click the **Book Appointment** button.
@@ -209,13 +246,80 @@ There are three test cases for different purposes:
     </a>
     <p style="text-align: center;"><em>Click the gif to enlarge it.</em></p>
 
+    <details><summary>Click to view the test script</summary>
+
+    ```groovy
+    import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+    import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+    import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+    import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+    import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+    import com.kms.katalon.core.checkpoint.CheckpointFactory as CheckpointFactory
+    import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as MobileBuiltInKeywords
+    import com.kms.katalon.core.model.FailureHandling as FailureHandling
+    import com.kms.katalon.core.testcase.TestCase as TestCase
+    import com.kms.katalon.core.testcase.TestCaseFactory as TestCaseFactory
+    import com.kms.katalon.core.testdata.TestData as TestData
+    import com.kms.katalon.core.testdata.TestDataFactory as TestDataFactory
+    import com.kms.katalon.core.testobject.ObjectRepository as ObjectRepository
+    import com.kms.katalon.core.testobject.TestObject as TestObject
+    import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WSBuiltInKeywords
+    import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
+    import internal.GlobalVariable as GlobalVariable
+    import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+    import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+    import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+
+    WebUI.comment('Story: Book an appointment')
+
+    WebUI.comment('Given that the user has logged into their account')
+
+    WebUI.openBrowser(GlobalVariable.G_SiteURL)
+
+    WebUI.callTestCase(findTestCase('Common Test Cases/Login'), [('Username') : 'John Doe', ('Password') : 'ThisIsNotAPassword'], 
+        FailureHandling.STOP_ON_FAILURE)
+
+    WebUI.comment('And Appointment page is displayed')
+
+    if (true) {
+        WebUI.selectOptionByLabel(findTestObject('Page_CuraAppointment/lst_Facility'), 'Hongkong CURA Healthcare Center', false)
+
+        WebUI.check(findTestObject('Page_CuraAppointment/chk_Medicaid'))
+
+        WebUI.check(findTestObject('Page_CuraAppointment/chk_Readmission'))
+
+        WebUI.setText(findTestObject('Page_CuraAppointment/txt_VisitDate'), '27/12/2016')
+
+        WebUI.setText(findTestObject('Page_CuraAppointment/txt_Comment'), 'Please make appointment as soon as possible.')
+    }
+
+    WebUI.comment('When he fills in valid information in Appointment page')
+
+    WebUI.click(findTestObject('Page_CuraAppointment/btn_BookAppointment'))
+
+    WebUI.verifyTextPresent('Appointment Confirmation', false)
+
+    WebUI.comment('Then he should be able to book a new appointment')
+
+    if (true) {
+        WebUI.verifyMatch('Hongkong CURA Healthcare Center', WebUI.getText(findTestObject('Page_AppointmentConfirmation/lbl_Facility')), 
+            false)
+
+        WebUI.verifyMatch('Yes', WebUI.getText(findTestObject('Page_AppointmentConfirmation/lbl_HospitalReadmission')), false)
+
+        WebUI.verifyMatch('Medicaid', WebUI.getText(findTestObject('Page_AppointmentConfirmation/lbl_Program')), false)
+
+        WebUI.verifyMatch('27/12/2016', WebUI.getText(findTestObject('Page_AppointmentConfirmation/lbl_VisitDate')), false)
+
+        WebUI.verifyMatch('Please make appointment as soon as possible.', WebUI.getText(findTestObject('Page_AppointmentConfirmation/lbl_Comment')), 
+            false)
+    }
+
+    WebUI.takeScreenshot()
+    ```
+    </details>
+
 3. **TC3_Visual Testing Example** utilizes the **Visual Testing** feature in Katalon TestOps to compare images captured during test executions. You can see the instructions for this feature here: [Visual Testing in Katalon TestOps](https://docs.katalon.com/katalon-analytics/docs/ks-visual-testing.html#set-up-visual-testing).
-
-    <a class="pop">
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/healthcare-samples/KS-SAMPLES-TC3.png" width="70%" alt="Test Case 3 - Visual Testing example">
-    </a>
-    <p style="text-align: center;"><em>Click the image to enlarge it.</em></p>
-
 ### Test suite and test suite collection
 
 There are two test suites in this project. To access them, in the **Test Explorer** panel, go to **Test Suites**.
