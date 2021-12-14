@@ -87,7 +87,7 @@ TC1_Verify Successful Login is associated with these tags: jan,apr
 TC2_Verify Successful Appointment is associated with these tags: jan,feb,mar
 TC3_Visual Testing Example is associated with these tags: jan,feb
 
-In the command, you add this argument: `testCaseTags="jab,feb"`.
+In the command, you add this argument: `testCaseTags="jan,feb"`.
 
 The execution log should look like this:
 
