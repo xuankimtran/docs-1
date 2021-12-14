@@ -42,7 +42,7 @@ After configuring SSO, you can enable SSO for new members when inviting them to 
 
 You can also enable SSO for the existing members of your Organization.
 
-> To learn more user management in TestOps, refer to this guide: [TestOps User Management](https://docs.katalon.com/katalon-analytics/docs/kt_invite_user_org.html).
+> To learn more about user management in TestOps, refer to this guide: [TestOps User Management](https://docs.katalon.com/katalon-analytics/docs/kt_invite_user_org.html).
 
 ### For a new User
 
