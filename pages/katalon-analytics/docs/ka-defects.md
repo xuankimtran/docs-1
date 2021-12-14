@@ -20,29 +20,23 @@ To link a Test Result to a Jira Bug, follow these steps:
 
 1. Sign in to [Katalon TestOps](https://testops.katalon.io/login) and go to your Project.
 
-2. Go to **Reports & Analytics** > **Test Runs**.
+2. Go to **Reports** > **Test Runs**.
 
 3. Select a failed Test Run by clicking on its ID, then click on the **Test Results** tab.
 
     The **Test Results** page appears as below.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-defects/test-result-page-defect-icon.png"  width=100% alt="test results page with defects box">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-defects/test-result-page-defect-icon-2.png"  width=100% alt="test results page with defects box">
 
-    The *Defects* icon looks like a bug.
+3. Mouse over the Test Result you want to link to a Jira Bug. The *Bug* icon appears in the **Links** column.
 
-3. Select the Test Result you want to link to a Jira Bug. The *Defects* icon of that Test Result appears.
-
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-defects/mouse-over-test-result-for-defect-icon.png"  width=100% alt="defect icon in red box">
-
-4. Click on the *Defects* icon.
+4. Click on the *Bug* icon.
 
     The screen appears as below.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-defects/jira-defect-screen-appears.png"  width=100% alt="defect screen">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-defects/jira-defect-screen-appears-2.png"  width=100% alt="defect screen">
 
-5. Search for the Jira issue in the **Jira Defects** section, and click on the *Link* icon.
-
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-defects/enter-jira-defect-link-button-bug.png"  width=100% alt="enter jira issue with link icon highlight">
+5. Search for the Jira issue in the **Jira Defects** section, then click on the *Link* icon.
 
 You have linked a Test Result to a Jira Bug.
 
@@ -64,7 +58,7 @@ Follow these steps:
     
 3. Check the **Jira Defects** section in Katalon TestOps again.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-defects/create-icon-enabled-in-jira-defect.png"  width=100% alt="create icon enabled in testops">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-defects/create-icon-enabled-in-jira-defect-2.png"  width=100% alt="create icon enabled in testops">
 
     After completing the installation, the *Create* icon is enabled.
 
@@ -74,7 +68,7 @@ Follow these steps:
      
 > Notes:
 >
-> Once you have enabled Katalon Plugin, you can always see the *Plugin* icon in the corner of a Jira issue.
+> Once you have enabled Katalon Plugin, you can see the *Plugin* icon in the corner of a Jira issue.
 > <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-defects/link-test-run-to-kat102defect-blurname.png"  width=100% alt="plugin icon floating in jira">
 >
 > You can always click on the *Plugin* icon to quickly switch back to Katalon TestOps.
@@ -91,10 +85,10 @@ Follow these steps:
 
 Select a Test Run by clicking on its ID, then select the **Defects** tab on the Test Run page.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-defects/defects-of-a-test-run-id.png"  width=100% alt="test run id's defects tab">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-defects/defects-of-a-test-run-id-2.png" width=100% alt="test run id's defects tab">
 
 You can view all Jira issues associated with the Defects of a Test Run here.
 
-To see all other Defects, go to **Test Management** > **Defects**.
+To see all other Defects, go to **Reports** > **Defects**.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-defects/all-defects-page.png"  width=100% alt="all defects page">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-defects/all-defects-page-2.png" width=100% alt="all defects page">

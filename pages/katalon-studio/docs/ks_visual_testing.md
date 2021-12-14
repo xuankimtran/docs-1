@@ -26,13 +26,11 @@ Follow these steps:
 >
 > If you have enabled Katalon Studio Integration, Katalon Studio automatically uploads Test Results to Katalon TestOps.
 
-3. Sign in to [Katalon TestOps](https://testops.katalon.io/login) and go to your Project. 
+3. Sign in to [Katalon TestOps](https://testops.katalon.io/login) and go to your Project.
 
-4. Go to **Reports & Analytics** > **Visual Testing**.
+4. Go to **Reports** > **Visual Testing**.
 
-    The **Visual Test Runs** page appears as below.
-
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-visual-testing/visual-testing-page-testops.png" width=100% alt="visual test runs page in visual testing">
+    The **Visual Test Runs** page appears.
 
 5. Click on the ID of a Test Run.
 
@@ -40,7 +38,7 @@ Follow these steps:
 
 6. Select the **Checkpoints** tab.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-visual-testing/checkpoints-page.png" width=100% alt="test run #1 checkpoints page">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-visual-testing/checkpoints-page-2.png" width=100% alt="test run #1 checkpoints page">
 
     You can see the screenshots captured during a test execution.
 
@@ -64,11 +62,11 @@ Follow these steps:
 
     An *Unsaved* label now appears on the **Checkpoints** page.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-visual-testing/id-1-unsaved-appears.png" width=100% alt="id1 result page with save to baseline button">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-visual-testing/id-1-unsaved-appears-2.png" width=100% alt="id1 result page with save to baseline button">
 
 3. Go to the **Results** page.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-visual-testing/id-1-save-to-base-line-button.png" width=100% alt="id4 highlight unresolved status">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-visual-testing/id-1-save-to-base-line-button-2.png" width=100% alt="id4 highlight unresolved status">
 
 4. Click **Save to baseline**.
 
@@ -78,19 +76,17 @@ Follow these steps:
 
 ### View baseline information
 
-To see the baseline images you have saved, go to **Reports & Analytics** > **Visual Testing** > **Visual Baselines**, then select a screenshot for **Baseline information**.
+To see the baseline images you have saved, go to **Reports** > **Visual Testing** > **Visual Baselines**, then select a screenshot for **Baseline information**.
 
-### Unresolved images
+## Unresolved images
 
 If you run the Test Suite again and the new screenshots of this test execution are different from the baseline images, the status of this Test Run is then marked as *Unresolved*.
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-visual-testing/visual-testing-page-id-4-unresolved.png" width=100% alt="id4 unresolved status">
 
 To resolve the issues, follow these steps:
 
 1. Click on the ID of the unresolved Test Run.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-visual-testing/test-run-id-4-result-page-1.png" width=100% alt="id4 results page">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-visual-testing/test-run-id-4-result-page-1-2.png" width=100% alt="id4 results page">
 
 2. Select a screenshot.
 

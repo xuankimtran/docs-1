@@ -25,11 +25,11 @@ Follow these steps:
 
 3. Enter the Jira issue in **Jira Requirements** (e.g., **KAT-104**), then click on the *Link* icon.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-integration-jira/linking-test-case-step-red.png"  width=100% alt="link test case to jira requirement">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-integration-jira/linking-test-case-step-red-2.png" width=100% alt="link test case to jira requirement">
 
-    The Jira issue now appears under the **ID/Feature** section.
+    The Jira issue is now added to the **Linked Issue** section.
     
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-integration-jira/kat104-under-idfeature-section.png"  width=100% alt="jira issue appears after linking">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-integration-jira/kat104-under-idfeature-section-2.png" width=100% alt="jira issue appears after linking">
     
     Click on the Jira issue to go to Jira and view the linked Test Case.
 
@@ -37,17 +37,19 @@ Follow these steps:
 
 After linking a Test Case to Jira Requirements, you can click on the Jira issue in Katalon TestOps, and it directs you to the Jira issue in Jira.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-integration-jira/kat104-link-test-case-to-jira-blurred.png"  width=100% alt="see linked test case in jira">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-integration-jira/kat104-link-test-case-to-jira-blurred.png" width=100% alt="see linked test case in jira">
 
 Click on the **Linked Test Cases** section to see the details of linked Test Cases.
 
 ## View Requirements in Katalon TestOps
 
-1. Go to your Project > **Test Management** > **Requirements**.
+1. Go to your Project > **Planning** > **Requirements**.
 
-2. Scroll down to the **Requirements** section on the **Requirements** page to view all Jira issues with linked Test Cases.
+    The **Requirements** page appears.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-integration-jira/requirement-page-with-jira-kat-issues-list.png"  width=100% alt="see linked test case in jira">
+2. Scroll down to the **Requirements** section to view all Jira issues with linked Test Cases.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-integration-jira/requirement-page-with-jira-kat-issues-list-2.png" width=100% alt="see linked test case in jira">
 
 See also:
 * [Link Test Runs to Jira Defects](https://docs.katalon.com/katalon-analytics/docs/ka-defects.html).
