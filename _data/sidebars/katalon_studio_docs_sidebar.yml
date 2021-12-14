@@ -1359,6 +1359,8 @@ items:
             url: /katalon-analytics/docs/docker.html
           - title: "Kubernetes Test Environments"
             url: /katalon-analytics/docs/aws-eks.html
+          - title: "CircleCI Test Environments"
+            url: /katalon-analytics/docs/circleci.html
       - title: "Test Planning"     
         tree:
           - title: "Schedules"
@@ -1373,6 +1375,8 @@ items:
             url: /katalon-analytics/docs/kt-build.html
       - title: "Test Management"
         tree:
+          - title: "Manage Test Cases"
+            url: /katalon-analytics/docs/test-case-management.html
           - title: "View BDD Test Results"
             url: /katalon-analytics/docs/bdd-test-results.html
           - title: "Link Test Runs to Jira Defects"
