@@ -67,7 +67,7 @@ Follow these steps:
 
     The **Jira** page appears as below.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-jira-settings/testops-project-jira-integration-screen.png" width=100%>
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-jira-settings/testops-project-jira-integration-screen-2.png" width=100%>
 
 4. Enter Jira URL, Username, and Password.
 
