@@ -14,7 +14,7 @@ The Application Under Test (AUT) is the `APIDemos.apk` application. You can lear
 
 ## Open the sample Android test project
 
-To open the Android sample project, in Katalon Studio, go to **File > New Sample Project > Sample Android Mobile Tests Project**. Katalon Studio will detect and ask you to install Android SDK automatically if your current machine does not have it or your Android SDK is not located at the default folder: `~/.katalon/tools/android_sdk`.
+To open the Android sample project, in Katalon Studio, go to **File > New Sample Project > Sample Android Mobile Tests Project**. Katalon Studio will automatically detect and ask you to install Android SDK if your current machine does not have it or your Android SDK is not located at the default folder: `~/.katalon/tools/android_sdk`.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/android-sample-prj/KS-Android-Open-sample-Android.png" width="70%" alt="Open Android sample project">
 
@@ -68,7 +68,7 @@ There are two test cases for different purposes:
 
 1. **Verify Correct Alarm Message** test case is to verify if we can get the correct displayed message. The flow in this test case is as follows:
 
-    - Start the `APIDemos.apk` application. Here, we put the AUT under the `androidapp` folder in our sample project, we use the following sample code to identify the absolute path to the application:
+    - Start the `APIDemos.apk` application. Here, the location of the AUT is under the `<sample-project-folder>/androidapp` folder. We use the following sample code to identify the absolute path to the application:
 
         ```groovy
         /*Get full directory's path of android application*/
@@ -77,9 +77,9 @@ There are two test cases for different purposes:
         /*Start the AUT*/
         Mobile.startApplication(appPath, false)
         ```
-    - Tap **App**. We set a the timeout for 10 seconds.
-    - Tap **Activity**. We set a the timeout for 10 seconds.
-    - Tap **Custom Dialog**. We set a the timeout for 10 seconds.
+    - Tap **App**. We set the timeout for 10 seconds.
+    - Tap **Activity**. We set the timeout for 10 seconds.
+    - Tap **Custom Dialog**. We set the timeout for 10 seconds.
     - Verify if the text displaying on the **App/Activity/Custom Dialog** dialog is correct.
 
 
@@ -142,7 +142,7 @@ There are two test cases for different purposes:
 
 2. **Verify Last Items In List** test case is to verify whether we can identify the correct last item in the list.
     
-    - Start the `APIDemos.apk` application. Here, we put the AUT under the `androidapp` folder in our sample project, we use the following sample code to identify the absolute path to the application:
+    - Start the `APIDemos.apk` application. Here, the location of the AUT is under the `<sample-project-folder>/androidapp` folder. We use the following sample code to identify the absolute path to the application:
 
         ```groovy
         /*Get full directory's path of android application*/
@@ -214,7 +214,7 @@ To execute a test case or a test suite in the sample project:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/android.png" width=20% alt="Execute the selected test">  
 
-3. Select your device from the **Android Devices** list > click **OK**. 
+3. Select your device from the **Android Devices** list. Click **OK**. 
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/device.png" width=40% alt="Select the Android device">
 
@@ -226,8 +226,8 @@ To execute a test case or a test suite in the sample project:
     <p style="text-align: center;"><em>Click the image to enlarge it.</em></p>
 
     > Notes:
-    > * You can view test results in the **Result** tab in the test suite or test suite collection level. The test results can be Passed, Failed, Error, or Incomplete.
-    > * After executing test suites or test suite collections, you can view your reports and details in `<your-project-folder>/Reports`. Katalon Studio also supports exporting test reports into different formats, such as HTML, CSV, PDF, and JUnit.
+    > * You can view test results in the **Result** tab at the test suite level. The test results can be Passed, Failed, Error, or Incomplete.
+    > * After executing test suites, you can view your reports and details in `<your-project-folder>/Reports`. Katalon Studio also supports exporting test reports into different formats, such as HTML, CSV, PDF, and JUnit.
     > * For real-time monitoring and better reporting capabilities, consider integrating your project with Katalon TestOps. Learn more about test result reports here: [Upload Test Results to Katalon TestOps from Katalon Studio](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html).
 ## See also
 
