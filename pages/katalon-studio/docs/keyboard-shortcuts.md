@@ -26,27 +26,27 @@ This reference lists out default keyboard shortcuts and their actions in Katalon
     <tbody>
         <tr>
             <td><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>R</kbd></td>
-            <td>Open Resource (a file, folder or project)</td>
+            <td>Open Resource (a file, folder or project).</td>
         </tr>
         <tr>
             <td><kbd>Alt</kbd>+<kbd>Enter</kbd></td>
-            <td>Show and access file properties</td>
+            <td>Show and access file properties.</td>
         </tr>
         <tr>
             <td><kbd>Ctrl</kbd>+<kbd>S</kbd></td>
-            <td>Save the current file</td>
+            <td>Save the current file.</td>
         </tr>
         <tr>
             <td><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>S</kbd></td>
-            <td>Save all files</td>
+            <td>Save all files.</td>
         </tr>
         <tr>
             <td><kbd>Ctrl</kbd>+<kbd>W</kbd></td>
-            <td>Close the current file</td>
+            <td>Close the current file.</td>
         </tr>
         <tr>
             <td><kbd>Ctrl</kbd>+<kbd>F5</kbd></td>
-            <td>Refresh the project</td>
+            <td>Refresh the project.</td>
         </tr>
     </tbody>
 </table>
@@ -67,36 +67,36 @@ This reference lists out default keyboard shortcuts and their actions in Katalon
     <tbody>
         <tr>
             <td><kbd>Ctrl</kbd>+<kbd>M</kbd></td>
-            <td>Maximize or restore the current Editor Window</td>
+            <td>Maximize or restore the current Editor Window.</td>
         </tr>
         <tr>
             <td><kbd>Ctrl</kbd>+<kbd>+</kbd>/<kbd>-</kbd></td>
-            <td>Zoom text in / out</td>
+            <td>Zoom text in / out.</td>
         </tr> 
         <tr>
             <td><kbd>Home</kbd>/<kbd>End</kbd></td>
             <td>Jump to the beginning / end of indentation. Press
-                home twice to jump to the beginning of the current line</td>
+                home twice to jump to the beginning of the current line.</td>
         </tr> 
         <tr>
             <td><kbd>Ctrl</kbd>+<kbd>Home</kbd>/<kbd>End</kbd></td>
-            <td>Jump to the beginning / end of source</td>
+            <td>Jump to the beginning / end of source.</td>
         </tr>
         <tr>
             <td><kbd>Ctrl</kbd>+<kbd>Arrow Left</kbd>/<kbd>Arrow Right</kbd></td>
-            <td>Jump one word to the left / right</td>
+            <td>Jump one word to the left / right.</td>
         </tr>
         <tr>
             <td><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Arrow Up</kbd>/<kbd>Arrow Down</kbd></td>
-            <td>Jump to the previous / next method</td>
+            <td>Jump to the previous / next method.</td>
         </tr>
         <tr>
             <td><kbd>Ctrl</kbd>+<kbd>L</kbd></td>
-            <td>Open the <b>Go to Line</b> dialog to navigate to a specific line</td>
+            <td>Open the <b>Go to Line</b> dialog to navigate to a specific line.</td>
         </tr>
         <tr>
             <td><kbd>Ctrl</kbd>+<kbd>Arrow Up</kbd>/<kbd>Arrow Down</kbd></td>
-            <td>Scroll the Editor without changing the cursor position</td>
+            <td>Scroll the Editor without changing the cursor position.</td>
         </tr>
     </tbody>
 </table>
@@ -113,23 +113,23 @@ This reference lists out default keyboard shortcuts and their actions in Katalon
     <tbody>
         <tr>
             <td><kbd>Shift</kbd>+<kbd>Arrow Left</kbd>/<kbd>Arrow Right</kbd></td>
-            <td>Expand the selection by one character to the left / right</td>
+            <td>Expand the selection by one character to the left / right.</td>
         </tr>
         <tr>
             <td><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Arrow Left</kbd>/<kbd>Arrow Right</kbd></td>
-            <td>Expand the selection to the previous / next word</td>
+            <td>Expand the selection to the previous / next word.</td>
         </tr>
         <tr>
             <td><kbd>Shift</kbd>+<kbd>Arrow Up</kbd>/<kbd>Arrow Down</kbd></td>
-            <td>Expand the selection by one line up / down</td>
+            <td>Expand the selection by one line up / down.</td>
         </tr>
         <tr>
             <td><kbd>Shift</kbd>+<kbd>End</kbd>/<kbd>Home</kbd></td>
-            <td>Expand the selection to the end / beginning of the current line</td>
+            <td>Expand the selection to the end / beginning of the current line.</td>
         </tr>
         <tr>
             <td><kbd>Ctrl</kbd>+<kbd>A</kbd></td>
-            <td>Select all the text</td>
+            <td>Select all the text.</td>
         </tr>
     </tbody>
 </table>
@@ -146,43 +146,43 @@ This reference lists out default keyboard shortcuts and their actions in Katalon
     <tbody>
         <tr>
             <td><kbd>Ctrl</kbd>+<kbd>C</kbd>/<kbd>X</kbd>/<kbd>V</kbd></td>
-            <td>Cut / copy / paste</td>
+            <td>Cut / copy / paste.</td>
         </tr>
         <tr>
             <td><kbd>Ctrl</kbd>+<kbd>Z</kbd></td>
-            <td>Undo the last action</td>
+            <td>Undo the last action.</td>
         </tr> 
         <tr>
             <td><kbd>Ctrl</kbd>+<kbd>Y</kbd></td>
-            <td>Reverse the previous undo</td>
+            <td>Reverse the previous undo.</td>
         </tr> 
         <tr>
             <td><kbd>Ctrl</kbd>+<kbd>D</kbd></td>
-            <td>Delete the current line</td>
+            <td>Delete the current line.</td>
         </tr>
         <tr>
             <td><kbd>Ctrl</kbd>+<kbd>Delete</kbd></td>
-            <td>Delete the next word</td>
+            <td>Delete the next word.</td>
         </tr>      
         <tr>
             <td><kbd>Ctrl</kbd>+<kbd>Backspace</kbd></td>
-            <td>Delete the previous word</td>
+            <td>Delete the previous word.</td>
         </tr>
         <tr>
             <td><kbd>Shift</kbd>+<kbd>Enter</kbd></td>
-            <td>Enter one line below current line</td>
+            <td>Enter one line below current line.</td>
         </tr>
         <tr>
             <td><kbd>Shift</kbd>+<kbd>Ctrl</kbd>+<kbd>Enter</kbd></td>
-            <td>Enter one line above current line</td>
+            <td>Enter one line above current line.</td>
         </tr>
         <tr>
             <td><kbd>Shift</kbd>+<kbd>Ctrl</kbd>+<kbd>Y</kbd></td>
-            <td>Change the selected text to lower case</td>
+            <td>Change the selected text to lower case.</td>
         </tr>
         <tr>
             <td><kbd>Shift</kbd>+<kbd>Ctrl</kbd>+<kbd>X</kbd></td>
-            <td>Change the selected text to upper case</td>
+            <td>Change the selected text to upper case.</td>
         </tr>
     </tbody>
 </table>
@@ -199,19 +199,19 @@ This reference lists out default keyboard shortcuts and their actions in Katalon
     <tbody>
         <tr>
             <td><kbd>Ctrl</kbd>+<kbd>F</kbd></td>
-            <td>Open the <b>Find/Replace</b> dialog</td>
+            <td>Open the <b>Find/Replace</b> dialog.</td>
         </tr>
         <tr>
             <td><kbd>Ctrl</kbd>+<kbd>K</kbd></td>
-            <td>Find the next occurence of the searched text</td>
+            <td>Find the next occurence of the searched text.</td>
         </tr>
         <tr>
             <td><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>K</kbd></td>
-            <td>Find the previous occurence of the searched text</td>
+            <td>Find the previous occurence of the searched text.</td>
         </tr>
         <tr>
             <td><kbd>Ctrl</kbd>+<kbd>H</kbd></td>
-            <td>Open the <b>Search</b> dialog</td>
+            <td>Open the <b>Search</b> dialog.</td>
         </tr>
     </tbody>
 </table>
@@ -230,28 +230,31 @@ This reference lists out default keyboard shortcuts and their actions in Katalon
     <tbody>
         <tr>
             <td><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>A</kbd></td>
-            <td>Save all files and run the currently opened Test Case / Test Suite</td>
+            <td>Save all files and run the currently opened Test Case / Test Suite.</td>
         </tr>
         <tr>
             <td><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>D</kbd></td>
-            <td>Save all files and debug the currently opened Test Case / Test Suite</td>
+            <td>Save all files and debug the currently opened Test Case / Test Suite.</td>
         </tr>
         <tr>
             <td><kbd>F5</kbd></td>
-            <td>Step into - If the currently debugged line contains a function, the debugger enters the function and continues debugging line by line</td>
+            <td>Step into - If the currently debugged line contains a function, the debugger enters the function and continues debugging line by line.</td>
         </tr>
         <tr>
             <td><kbd>F6</kbd></td>
-            <td>Step over - The debugger steps over the currently debugged line by one line</td>
+            <td>Step over - The debugger steps over the currently debugged line by one line.</td>
         </tr>
         <tr>
             <td><kbd>F7</kbd></td>
-            <td>Step out - The debugger steps out of the currently debugged function to the line where the function is called</td>
+            <td>Step out - The debugger steps out of the currently debugged function to the line where the function is called.</td>
         </tr>
         <tr>
             <td><kbd>F8</kbd></td>
-            <td>Resume the execution</td>
+            <td>Resume the execution.</td>
         </tr>
     </tbody>
 </table>
 
+> **Notes**:
+>
+> To learn how to customize default keyboard shortcuts, refer to this guide: [Configure Key Bindings](docs.katalon.com/katalon-studio/docs/configure-keyboard-shortcuts.html).
