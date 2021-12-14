@@ -2,7 +2,8 @@
 title: "Override Test Results status" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/kt-change-result-pass-fail.html
-description: 
+redirect_from:
+ - "/katalon-analytics/docs/overwrite-test-run.html"
 ---
 
 Automated tests produce test results automatically. This means that test results are fixed unless you manually update the status of a test result to reflect actual expectations.

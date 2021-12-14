@@ -4,11 +4,5 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/overwrite-test-run.html 
 description:
 ---
-## Prerequisites
 
-- Your project has at least one test run which consists of test result(s) in Katalon TestOps.
-
-- You are an Owner or Admin of the team.
-
-## Change status of test results
-
+The content has been moved to [Override Test Results status](https://docs.katalon.com/katalon-analytics/docs/kt-change-result-pass-fail.html).
