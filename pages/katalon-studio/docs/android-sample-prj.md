@@ -16,7 +16,7 @@ The Application Under Test (AUT) is the `APIDemos.apk` application. You can lear
 
 To open the Android sample project, in Katalon Studio, go to **File > New Sample Project > Sample Android Mobile Tests Project**. Katalon Studio will detect and ask you to install Android SDK automatically if your current machine does not have it or your Android SDK is not located at the default folder: `~/.katalon/tools/android_sdk`.
 
-<img src="url" width="70%" alt="Open Android sample project">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/android-sample-prj/KS-Android-Open-sample-Android.png" width="70%" alt="Open Android sample project">
 
 Alternatively, you can download the Android sample project from our Github repository: [Android sample](https://github.com/katalon-studio-samples/android-mobile-tests).
 
@@ -25,7 +25,7 @@ Alternatively, you can download the Android sample project from our Github repos
 
 To open the execution profile, go to **Profiles > default**.
 
-<img src="url" width="70%" alt="Open execution profile in the sample Android project">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/android-sample-prj/KS-Android-Execution-profile.png" width="70%" alt="Open execution profile in the sample Android project">
 
 You can create and save all global variables in the execution profile. They can be used across test cases in your project. To learn more about execution profiles and global variables, you can refer to this document: [Execution profile and global variables](https://docs.katalon.com/katalon-studio/docs/execution-profile-v54.html).
 
@@ -62,11 +62,11 @@ Katalon creates four global variables in this sample project as follows:
 
 To access test cases in this project, go to the **Test Cases** folder in the **Test Explorer** panel. 
 
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/android-sample-prj/KS-ANDROID-Test-case.png" width="70%" alt="Sample test cases">
+
 There are two test cases for different purposes:
 
 1. **Verify Correct Alarm Message** test case is to verify if we can get the correct displayed message. The flow in this test case is as follows:
-
-    <img src="url" width="70%" alt="Verify Correct Alarm Message">
 
     - Start the `APIDemos.apk` application. Here, we put the AUT under the `androidapp` folder in our sample project, we use the following sample code to identify the absolute path to the application:
 
@@ -82,6 +82,13 @@ There are two test cases for different purposes:
     - Tap **Custom Dialog**. We set a the timeout for 10 seconds.
     - Verify if the text displaying on the **App/Activity/Custom Dialog** dialog is correct.
 
+
+    <a class="pop">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/android-sample-prj/KS-ANDROID-TC2.gif" width="70%" alt="Verify Correct Alarm Message">
+    </a>
+    <p style="text-align: center;"><em>Click the gif to enlarge it.</em></p>
+
+    <br>
     <details><summary>View the test case in the script mode</summary>
 
     ```groovy
@@ -130,17 +137,10 @@ There are two test cases for different purposes:
 
     Mobile.closeApplication()
     ```
+
     </details>
 
-
-    <a class="pop">
-    <img src="gif" width="70%" alt="Verify Correct Alarm Message">
-    </a>
-    <p style="text-align: center;"><em>Click the gif to enlarge it.</em></p>
-
 2. **Verify Last Items In List** test case is to verify whether we can identify the correct last item in the list.
-
-    <img src="url" width="70%" alt="Verify Last Items In List">
     
     - Start the `APIDemos.apk` application. Here, we put the AUT under the `androidapp` folder in our sample project, we use the following sample code to identify the absolute path to the application:
 
@@ -155,6 +155,13 @@ There are two test cases for different purposes:
     - Scroll to **Xfermodes** item.
     - Verify if the current screen should show Xfermodes text after scrolling
 
+    <a class="pop">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/android-sample-prj/KS-ANDROID-TC1.gif" width="70%" alt="Verify Last Items In List">
+    </a>
+    <p style="text-align: center;"><em>Click the gif to enlarge it.</em></p>
+
+
+    <br>
     <details><summary>View the test case in the script mode</summary>
 
     ```groovy
@@ -193,15 +200,11 @@ There are two test cases for different purposes:
     Mobile.closeApplication()
     ```
     </details>
-
-    <a class="pop">
-    <img src="gif" width="70%" alt="Verify Last Items In List">
-    </a>
-    <p style="text-align: center;"><em>Click the gif to enlarge it.</em></p>
-
 ### Test Suite
 
 To access the test suite in this project, in the **Test Explorer** panel, go to the **Test Suites > Regression Tests** folder. This test suite combines the two above test cases.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/android-sample-prj/KS-ANDROID-Test-suites.png" width=70% alt="Test Suites"> 
 
 ## Execute selected test case or test suite/test suite collection
 
@@ -219,11 +222,11 @@ To execute a test case or a test suite in the sample project:
 4. Observe the test result in the **Log Viewer** tab.
 
     <a class="pop">
-    <img src="url" width=70% alt="View results">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/android-sample-prj/KS-ANDROID-Log-viewer.png" width=70% alt="View results">
     </a>
     <p style="text-align: center;"><em>Click the image to enlarge it.</em></p>
 
-   > Notes:
+    > Notes:
     > * You can view test results in the **Result** tab in the test suite or test suite collection level. The test results can be Passed, Failed, Error, or Incomplete.
     > * After executing test suites or test suite collections, you can view your reports and details in `<your-project-folder>/Reports`. Katalon Studio also supports exporting test reports into different formats, such as HTML, CSV, PDF, and JUnit.
     > * For real-time monitoring and better reporting capabilities, consider integrating your project with Katalon TestOps. Learn more about test result reports here: [Upload Test Results to Katalon TestOps from Katalon Studio](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html).
