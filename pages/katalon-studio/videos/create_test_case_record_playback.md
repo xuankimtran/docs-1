@@ -22,7 +22,7 @@ Follow these basic steps to get started with the record and playback feature:
 
 3. To start recording a test case, click on the **Record** button.
 
-4. Execute all your test steps on the browser. Katalon Studio records all the actions you perform on the browser.
+4. Execute all your test steps in the browser. Katalon Studio records all the actions you perform on the browser.
 
 5. You can **Stop** or **Pause** recording if needed. When you are done with recording, click **OK** to save the recorded actions into Katalon Studio.
 
