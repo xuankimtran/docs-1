@@ -55,10 +55,6 @@ All test cases associated with the `Test Cases/Common Test Cases` ID are filtere
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/search/search-bar.png" alt="search bar" width="60%">
 
-> Notes:
->
-> To search for test artifacts labeled with multiple tags, follow this syntax: `Tags = (NameOfTag1, NameOfTag2)`.
-
 ## The Query Builder
 
 The **Query Builder** button is located on the top right of the **Tests Explorer** area, next to the search bar. It can be used to find the desired test case based on certain criteria.
