@@ -83,10 +83,18 @@ In your command, add this argument:
 
 When you execute a test in the terminal, you can see the process where test cases are filtered before executing. For example:
 
+TC1_Verify Successful Login is associated with these tags: jan,apr
+TC2_Verify Successful Appointment is associated with these tags: jan,feb,mar
+TC3_Visual Testing Example is associated with these tags: jan,feb
+
+In the command, you add this argument: `testCaseTags="jab,feb"`.
+
+The execution log should look like this:
+
 ```
 ----------------- TEST CASE TAGS PLUGIN START FILTERING -----------------
-Test Cases/Main Test Cases/TC1_Verify Successful Login is a test case to be run
-Test Cases/Main Test Cases/TC2_Verify Successful Appointment is filtered out 
+Test Cases/Main Test Cases/TC1_Verify Successful Login is filtered out 
+Test Cases/Main Test Cases/TC2_Verify Successful Appointment is a test case to be run
 Test Cases/Main Test Cases/TC3_Visual Testing Example is a test case to be run
 ----------------- TEST CASE TAGS PLUGIN FINISH FILTERING -----------------
 ```
