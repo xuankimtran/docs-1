@@ -198,13 +198,13 @@ There are two test cases for different purposes:
       Mobile.closeApplication()
       ```
       </details>
-### Test Suite
+### Test suite
 
 To access the test suite in this project, in the **Test Explorer** panel, go to the **Test Suites > Regression Tests** folder. This test suite combines the two above test cases.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/android-sample-prj/KS-ANDROID-Test-suites.png" width=70% alt="Test Suites"> 
 
-## Execute selected test case or test suite/test suite collection
+## Execute selected test case or test suite
 
 To execute a test case or a test suite in the sample project:
 
