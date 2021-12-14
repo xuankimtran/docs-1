@@ -4,6 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/code-repo.html 
 description: 
 ---
+
 In Katalon TestOps, you can store your Test Scripts in a Script Repository. A Script Repository helps you manage and organize your Test Projects better for Remote Execution.
 
 You can upload your Test Scripts as a .zip file from your local machine.
@@ -21,7 +22,7 @@ Follow these steps:
 
 3. Click on the **Create Script Repository** button.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-code-repo/create-script-repo-page.png" width=100%>
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-code-repo/create-script-repo-page-2.png" width=100% alt="create script repo page">
 
     Fill in the following information:
     * **Name**: enter a name for your Project.
@@ -43,4 +44,4 @@ See also:
 
 * [Schedule Test Runs](https://docs.katalon.com/katalon-analytics/docs/create-plan.html).
 
-* [Execute Test Runs by a Trigger](https://docs.katalon.com/katalon-analytics/docs/kt-scheduler.html).
+* [Execute Test Runs](https://docs.katalon.com/katalon-analytics/docs/kt-scheduler.html).
