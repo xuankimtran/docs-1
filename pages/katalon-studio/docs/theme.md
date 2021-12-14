@@ -12,6 +12,7 @@ description:
 > Requirements:
 >
 > * Katalon Studio version 6.3.0 onwards.
+
 ## Change Katalon Theme
 
 By default, Katalon Studio has the Light theme applied. To change the theme, go to **Window > Themes > Light/Dark**.

@@ -16,9 +16,9 @@ You can check the **Pin Object Spy Window while spying** option to make the **Ob
 
 ### Hotkeys Settings
 
-Katalon Studio supports customizable hotkeys for the Object Spy function. You can choose the preferred combination to capture objects or avoid conflict with your UAT hotkeys. The default hotkey for capturing objects is <button>⌥</button> <button>`</button>.
+Katalon Studio supports customizable hotkeys for the Object Spy function. You can choose the preferred combination to capture objects or avoid conflict with your application under test hotkeys. The default hotkey for capturing objects is <button>⌥</button> <button>`</button>.
 
-> This ability to change hotkeys for Object Spy only affects the Chrome and Firefox browser. Other browsers will be considered for future releases.
+> Changing Object Spy hotkeys currently only affects Chrome and Firefox browsers. Other browsers will be considered for future releases.
 
 **See also**:
 

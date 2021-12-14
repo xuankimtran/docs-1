@@ -32,13 +32,14 @@ In the Proxy Settings areas of both Authentication and System proxies, you can s
   * Address: an HTTP Proxy host
   * Port: an HTTP Proxy port
   * Excludes: A list of addresses separated by comma to exclude
+
   > The ability to exclude proxy is available from version 7.2.0 onwards. Katalon Studio only supports proxy exceptions in web recorder and spy utilities with **Chrome** and **Firefox**.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/proxy-options.png" width="70%" alt="proxy settings">
 
-## System proxy for test execution's desired capabilities
+## System proxy for the desired capabilities of a test execution
 
-Katalon Studio applies the system proxy to test execution's desired capabilities on the instance automatically. If you wish to configure different proxy settings depending on your projects, you can use desired capabilities as follows:
+Katalon Studio applies the system proxy to the desired capabilities of a test execution on the instance automatically. If you wish to configure different proxy settings depending on your projects, you can use desired capabilities as follows:
 
 1. Open your project and go to **Katalon Studio > Preferences > Katalon > Proxy > System**.
 2. At the bottom of the displayed view, uncheck the **Auto-apply to test execution desired capabilities** option and click **OK** to save.
