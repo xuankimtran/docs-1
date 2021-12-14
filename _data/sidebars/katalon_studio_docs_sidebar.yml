@@ -131,7 +131,9 @@ items:
                 url: /katalon-studio/tutorials/webui-analyze-test-case-execution-logs-and-resolve-errors.html
               - title: "[Web UI] Plan Test Suite"
                 url: /katalon-studio/tutorials/webui-plan-test-suite.html
-      - title: "Get Started"
+              - title: "[WebUI] Analyze Test Suite Reports and Resolve Errors"
+                url: /katalon-studio/tutorials/webui-view-and-analyze-test-suite-reports.html
+      - title: "GUI and Preferences"
         tree:
           - title: "Get Started Overview"
             url: /katalon-studio/docs/get-started-overview.html
@@ -1125,6 +1127,8 @@ items:
                 url: /katalon-studio/docs/git-integration.html
               - title: "Git Integration Authentication with SSH Keys"
                 url: /katalon-studio/docs/git-integration-authentication.html
+              - title: "Using Git Submodules to share Test Artifacts"
+                url: /katalon-studio/docs/git-integration-submodule.html
           - title: "Slack Integration"
             url: /katalon-studio/docs/slack-plugin-integration.html
           - title: "Kobiton Integration"
@@ -1391,6 +1395,8 @@ items:
             url: /katalon-analytics/docs/docker.html
           - title: "Kubernetes Test Environments"
             url: /katalon-analytics/docs/aws-eks.html
+          - title: "CircleCI Test Environments"
+            url: /katalon-analytics/docs/circleci.html
       - title: "Test Planning"     
         tree:
           - title: "Schedules"
@@ -1405,6 +1411,8 @@ items:
             url: /katalon-analytics/docs/kt-build.html
       - title: "Test Management"
         tree:
+          - title: "Manage Test Cases"
+            url: /katalon-analytics/docs/test-case-management.html
           - title: "View BDD Test Results"
             url: /katalon-analytics/docs/bdd-test-results.html
           - title: "Link Test Runs to Jira Defects"

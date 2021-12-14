@@ -5,65 +5,71 @@ permalink: katalon-analytics/docs/kt-upload-test-jasmine.html
 description: 
 ---
 
-We can submit results from the Jasmine test frameworks to Katalon TestOps. An example with the Jasmine test can be download from [here](https://github.com/katalon-studio/testops-report-js.git).
+You can submit test results from the Jasmine framework to Katalon TestOps.
 
-On the **Visual Studio Code**, open a file Jasmine.
+> Notes:
+>
+> You can download this sample project: [Katalon TestOps JavaScript Reporters](https://github.com/katalon-studio/testops-report-js.git).
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/kt_vs_code_open_pack_jasmine.png)
+Follow these steps:
 
-Open file "package.json".
+1.  Open your Jasmine file in a source-code editor, such as [Visual Studio Code](https://code.visualstudio.com).
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/kt_vs_code_open_json.png)
+     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/kt_vs_code_open_pack_jasmine.png" width=100% alt="open jasmine in vsc"> 
 
-Type the command `npm install`, press **Enter**, and wait a few minutes for running.
+2. Open the *package.json* file.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/kt_vs_code_npm_install.png)
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/kt_vs_code_open_json.png" width=100% alt="open json file"> 
 
-On the page Katalon TestOps, we do 5 steps as follow:
-* Choose a project, which we want to upload the test results.
-* Click the tab **Configurations**.
-* Click the tab **Framework Integration**.
-* On the board **Framework Integration**, choose the tab **Mocha**.
-* Click the button **Copy** on the right of the item **Install dependency**. And now we copied the command line `npm i -s @katalon/testops-jasmine`.
+3. Type the `npm install` command, then press *Enter* and wait for it to run.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/kt_jas_install_dependency.png)
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/kt_vs_code_npm_install.png" width=100% alt="install npm"> 
 
-On the **Visual Studio Code**, file "package.json", right-click for pasting the command `npm i -s @katalon/testops-jest` and press Enter. And we wait a few minutes for running.
+    While waiting, go to the Katalon TestOps website.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/kt_vs_code_paste_npm_command.png)
+4. Sign in to [Katalon TestOps](https://testops.katalon.io/login) and go to your Project.
 
-Create a new files with the name "testops-config.json".
+5. Go to **Configurations** > **Integrations**.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/kt_vs_code_create_config_json.png)
+    The **Integrations** page appears.
 
-On the page Katalon TestOps, we click the button **Copy** on the right of the item **Base** of **Configure**. 
+6. Select **Jasmine** in the dropdown list.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/kt_copy_configure_base.png)
+    The Jasmine page appears as below.
 
-On the **Visual Studio Code**, open file "testops-config.json", paste the terms which we have just copied from Katalon TestOps. We save this file.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/jasmine-page-1.png" width=100% alt="jasmine page 1"> 
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/kt_vs_code_paste_testops_config.png)
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/jasmine-page-2.png" width=100% alt="jasmine page 2">
 
-On the page Katalon TestOps, we click the button **Copy** on the right of the item **Add Report**. 
+7. Copy the command line in the **Install dependency** section and paste it in the *package.json* file in your source-code editor, then press *Enter* to run.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/kt_add_report_copy.png)
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/kt_vs_code_paste_npm_command.png" width=100% alt="install dependency command">
 
-On the VS code, create a new file "setup.js" on folder "test" and paste all the terms that we have just copied.
+8. Create a new file named *testops-config.json* in your source-code editor.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/kt_setup_js.png)
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/kt_vs_code_create_config_json.png" width=100% alt="create json file"> 
 
-On the page Katalon TestOps, we click the button **Copy** on the right of the item **Import reports**. 
+9. Copy the content in the **Configure TestOps plugin** section in Katalon TestOps and paste it in the newly-created *testops-config.json* file in your source-code editor. Save this file.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/kt_copy_import_report.png)
+     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/kt_vs_code_paste_testops_config.png" width=100% alt="configure testops in vsc"> 
 
-On the **Visual Studio Code**, type the command `npx jasmine`, press **Enter**, and wait a few minutes for running.
+10. Create a new file called *setup.js* in the *test* folder (the *./tests/setup.js* file) in your source-code editor.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/kt_vs_code_npx_jas.png)
+11. Copy the command in the **Add Report** section in Katalon TestOps and paste it in the *./tests/setup.js* file. Save this file.
 
-On the **Visual Studio Code**, type the command `npm test`, press **Enter**, and wait a few minutes for running.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/kt_setup_js.png" width=100% alt="set up testops"> 
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/kt_vs_code_npm_test.png)
+12. Copy the command in the **Run tests and upload reports** section in Katalon TestOps and paste it in your source-code editor, then press *Enter* to run.
 
-On the **Test Planning** of **Katalon TestOps**, the Test Run was uploaded.
+     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/kt_vs_code_npx_jas.png" width=100% alt="upload via Jasmine"> 
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/kt_upload_test_planning.png)
+13. Type the `npm test` command, press **Enter** to run in your source-code editor.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/kt_vs_code_npm_test.png" width=100% alt="test via Jasmine"> 
+
+    You have run tests and uploaded their reports via Jasmine.
+
+14. Go to **Test Execution** > **Test Run Calendar**.
+
+    Your uploaded Test Runs now display here.
+

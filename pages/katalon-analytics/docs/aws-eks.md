@@ -16,7 +16,7 @@ Follow these steps:
 
 4. Fill in the required information.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-aws-eks/create-kubernetes-page.png" width=100% alt="create kubernetes page">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-aws-eks/create-kubernetes-page-2.png" width=100% alt="create kubernetes page">
 
 * In the **Agent Name** section, enter a name for your Agent.
 * In the **URL**, **Certificate Authority** and **Namespace** sections, enter your Kubernetes information.
@@ -34,15 +34,14 @@ Follow these steps:
 
 6. Go to **Test Environments** > **Kubernetes** to see the list of Kubernetes test environments you have created.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-aws-eks/kubernetes-test-environment-page-list.png" width="" height="" alt text= kubernetes environment list>
+   <img src="https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/testops-revamp-aug-aws-eks/kubernetes-test-environment-page-list-2.png" width="" height="" alt text= kubernetes environment list>
 
 Next steps:
 
-1. [Upload Test Scripts to a Script Repository](https://docs.katalon.com/katalon-analytics/docs/code-repo.html).
+1. [Upload Test Scripts from a Git Repository](https://docs.katalon.com/katalon-analytics/docs/git-test-project.html).
 2. [Schedule Test Runs](https://docs.katalon.com/katalon-analytics/docs/create-plan.html).
 
 See also:
 
 * [Create a Local Test Environment with an Agent](https://docs.katalon.com/katalon-analytics/docs/agents.html).
 * [Set up an Agent to execute tests on Docker environment](https://docs.katalon.com/katalon-analytics/docs/docker.html).
-* [Create a CircleCI Test Environment](https://docs.katalon.com/katalon-analytics/docs/circleci.html).

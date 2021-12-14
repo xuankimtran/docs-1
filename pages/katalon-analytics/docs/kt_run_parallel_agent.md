@@ -5,64 +5,75 @@ permalink: katalon-analytics/docs/kt_run_parallel_agent.html
 description: 
 ---
 
-On Katalons TestOps, we can run multiple Test Suites in parallel with Agents.
+## Configure parallel executions
 
-## Set up Agents
+Follow these steps:
 
-At first, we have to set up some Agents. For setting up an Agent, we can read [here](https://docs.katalon.com/katalon-analytics/docs/install_kt_agent.html).
+1. Create two Local Test Environments. See: [Create a Local Test Environment with an Agent](https://docs.katalon.com/katalon-analytics/docs/install_kt_agent.html).
 
-We start two agents for preparing run Test Suites.
+    You then start two Agents to prepare for Test Suites execution.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt_run_parallel_agent/kt_start_two_agent.png)
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt_run_parallel_agent/kt_start_two_agent.png" width=100% alt="start 2 agents">
 
-For the illustrated example, on Katalon TestOps, we set up two agents.
+2. Update each Agent's Threshold to **2**. See [Configure an Agent's Threshold](https://docs.katalon.com/katalon-analytics/docs/load-balancing-agents.html#configure-an-agents-threshold).
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt_run_parallel_agent/kt_set_up_multi_agents.png)
+    The assigned sessions for each Agent is now **2**.
 
-We click on an agent, the **Agent Details** displays.
+3. Creat a Script Repository. See: [Upload Test Scripts from a Git Repository](https://docs.katalon.com/katalon-analytics/docs/git-test-project.html#create-git-script-repositories).
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt_run_parallel_agent/kt_display_agent_details.png)
+    You can now see the newly-created Script Repository appear in the **Script Repositories** page.
 
-At the below of **Agent Details**, in the **Threshold** item, we select the number moreover than 1. For this example, we choose number 2 and click the button **Update**.
+4. Click on the Script Repository you have created.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt_run_parallel_agent/kt_threshold_agent_update.png)
+    The Script Repository page appears. In the **Test Suite Collection** section, you will see a **Play** button.
 
-## Run multiple Test Suites
+5. Click on the **Play** button.
 
-Make a Script Repository and upload it to Katalon TestOps. On Katalon TestOps, open this Script Repository, and click the run button.
+    The **Schedule Test Run** dialog appears.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt_run_parallel_agent/kt_sample_script_repo.png)
+6. Fill in the required information. See: [Schedule Test Runs](https://docs.katalon.com/katalon-analytics/docs/create-plan.html#schedule-test-runs).
 
-The board **Test run type** displays. We choose and type the information in the cells of items.
+    > Notes:
+    >
+    > * In the **Test Environments** section, select the Agents you have configured earlier.
+    > * In the **Advanced settings** section, go to **Execution Mode** and choose **Parallel**. See: [Advanced settings](https://docs.katalon.com/katalon-analytics/docs/create-plan.html#advanced-settings).
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt_run_parallel_agent/kt_test_run_type.png)
+You have created a new Test Run List for parallel executions of Test Suites.
 
-At the item Test Suite Collection, we choose a Test Suite Collection which we want to run. At the item Execution Mode, we choose Parallel for running multiple Test Suite parallel. At the item Test Environment Type, we choose Local Test Environment.
+### Update existing Test Run List
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt_run_parallel_agent/kt_test_run_type_1.png)
+If you have previously scheduled Test Runs in sequential mode, you can also update your existing Test Run List so that it can be executed in parallel.
 
-At the item Test Environments, we choose agents which we have just started. We select the version of Katalon Studio at the item Katalon Studio Version or Pre-Installed Katalon Studio Location.
+Follow these steps:
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt_run_parallel_agent/kt_test_run_type_2.png)
+1. Start two Agents.
+2. Update each Agent's Threshold to **2**.
+3. Go to **Test Execution** > **Test Run List**.
+4. Click on the Test Run List you want to update.
+5. Click on the **Edit** button in the top right corner.
 
-We click the button Create at below for creating a new Test Run Type.
+    The **Schedule Test Run** dialog appears.
+    
+    Update the schedule as follow:
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt_run_parallel_agent/kt_test_run_type_3.png)
+    * In the **Test Environments** section, select the Agents you have started earlier.
 
-In the board Test Planning, a new Test Run Type displays with agents, which we have just started. We click the button Run for running.
+    * In the **Advanced settings** section, choose **Parallel** for **Execution Mode**. See: [Advanced settings](https://docs.katalon.com/katalon-analytics/docs/create-plan.html#advanced-settings).
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt_run_parallel_agent/kt_new_test_run_type.png)
+## Run Test Suites in parallel
 
-Two agents run parallelly.
+1. Go to **Test Execution** > **Test Run List**. 
+    
+    You can see the new Test Run List here.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt_run_parallel_agent/kt_two_agents_run.png)
+2. Click on the *Run* icon.
 
-We can see the results of Test Suites at **Report & Analysis**.
+    The two Agents are now running at the same time.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt_run_parallel_agent/kt_test_run.png)
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt_run_parallel_agent/kt_two_agents_run.png" width=100% alt="2 agents run concurrently">
 
-## Related topics
+## View Test Suites results
 
-- [Create a Local Test Environment with Agent](https://docs.katalon.com/katalon-analytics/docs/agents.html)
-- [Install Katalon TestOps Agent on a test machine](https://docs.katalon.com/katalon-analytics/docs/install_kt_agent.html)
+Go to **Reports** > **Test Runs** to see the result of Test Suites you have run in parallel.
 
+See also: [Auto-Distributed Executions](https://docs.katalon.com/katalon-analytics/docs/auto-distributed-execution.html).

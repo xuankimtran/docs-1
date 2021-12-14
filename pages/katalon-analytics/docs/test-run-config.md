@@ -1,34 +1,48 @@
 ---
-title: "Set up Configurations for Remote Execution"
+title: "Configure Remote Execution"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/test-run-config.html 
 description: 
 ---
+
+In Katalon TestOps, you can set up a Remote Execution to run tests in console mode.
+
+Follow these steps:
+1. Create a Test Environment.
+2. Create a Script Repository.
+3. Schedule Test Runs.
+
 ## Create a Test Environment
 
-A Test Environment shows you in what machines the Test Run should be executed. 
+A Test Environment connects your machine with Katalon TestOps to activate a Remote Execution.
 
-Katalon TestOps allows you to create a Test Environment with the following options:
+You can define which machine or machines execute the remote Test Runs by configuring a Test Environment in Katalon TestOps.
 
-- An Agent that manages your local machine. [Learn more](/katalon-analytics/docs/agents.html)
-- Kubernetes Environment. [Learn more](https://docs.katalon.com/katalon-analytics/docs/aws-eks.html)
-- CircleCI Environment. [Learn more](https://docs.katalon.com/katalon-analytics/docs/circleci.html)
+Katalon TestOps offers the following options:
+
+* [Create a Local Test Environment with an Agent](https://docs.katalon.com/katalon-analytics/docs/agents.html).
+* [Set up an Agent to execute tests in a Docker Environment](https://docs.katalon.com/katalon-analytics/docs/docker.html).
+* [Create a Kubernetes Test Environment](https://docs.katalon.com/katalon-analytics/docs/aws-eks.html).
+* [Create a CircleCI Test Environment](https://docs.katalon.com/katalon-analytics/docs/circleci.html).
+
+Once you have created a Test Environment, you can upload tests to a Script Repository in Katalon TestOps for test planning.
 
 ## Set up a Script Repository
 
-A Script Repository is used to store the actual test automation scripts to be executed. This gives you a space to manage all test scripts in Katalon TestOps and decide which one to be executed along with the given Test Environment. In Katalon TestOps, you can set up a Script Repository with the below options:
+A Script Repository stores test scripts for test executions. You can manage your test scripts in Katalon TestOps and decide upon the execution schedule (test planning) and execution environment (the Test Environment you have created).
 
-- Upload test scripts as a .zip file. [Learn more](https://docs.katalon.com/katalon-analytics/docs/code-repo.html)
-- Upload test scripts from Git repositories. [Learn more](https://docs.katalon.com/katalon-analytics/docs/git-test-project.html)
+Katalon TestOps offers the following options:
 
+* Create a Script Repository. See: [Upload Test Scripts to a Script Repository](https://docs.katalon.com/katalon-analytics/docs/code-repo.html).
+* Create a Git Script Repository (GitHub and Bitbucket). See: [Upload Test Scripts from a Git Repository](https://docs.katalon.com/katalon-analytics/docs/git-test-project.html).
 
-## Next steps
+With a set-up Test Environment and Script Repository, your tests are ready for execution in Katalon TestOps.
 
-- [Schedule Test Runs](/katalon-analytics/docs/create-plan.html)
-- [Execute Test Runs manually](/katalon-analytics/docs/execute-test-run.html)
-- [Execute Test Runs by a Trigger](/katalon-analytics/docs/kt-scheduler.html)
+## Schedule Test Runs
 
+Planning test executions allows you to keep track of testing progress and monitor test results.
 
-## Related topics
+You can configure a schedule for automatic Test Runs or execute tests manually in Katalon TestOps.
 
-- [Katalon TestOps Terminology](/https://docs.katalon.com/katalon-analytics/docs/testops-terminology.html#trigger)
+* For automatic test executions, see: [Schedule Test Runs](https://docs.katalon.com/katalon-analytics/docs/create-plan.html).
+* For manual test executions, see: [Execute Test Runs manually](https://docs.katalon.com/katalon-analytics/docs/kt-scheduler.html).

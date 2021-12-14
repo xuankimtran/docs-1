@@ -2,7 +2,8 @@
 title: "Override Test Results status" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/kt-change-result-pass-fail.html
-description: 
+redirect_from:
+ - "/katalon-analytics/docs/overwrite-test-run.html"
 ---
 
 Automated tests produce test results automatically. This means that test results are fixed unless you manually update the status of a test result to reflect actual expectations.
@@ -29,9 +30,7 @@ Follow these steps:
 
 1. Sign in to [Katalon TestOps](https://testops.katalon.io/login) and go to your Project.
 
-2. Go to **Reports & Analytics**.
-
-    The **Test Runs** page appears.
+2. Go to **Reports** > **Test Runs**.
     
 3. Click on a Test Run ID, then select the **Test Results** tab.
 
@@ -39,7 +38,7 @@ Follow these steps:
 
 4. Click on the *Extension* icon of the Test Result you want to change.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-override-test-result/extension-icon-change-test-result-status.png" width=100% alt="test result extension icon">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-override-test-result/extension-icon-change-test-result-status-2.png" width=100% alt="test result extension icon">
 
 5. Click **Mark as Passed** (for a **failed**/**incomplete**/**error** Test Result) or **Mark as Failed** (for a **passed** Test Result).
 
@@ -49,7 +48,7 @@ Follow these steps:
 
     A box pops up asking you to choose a reason for the status change.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-override-test-result/change-test-result-status-popup.png" width=100% alt="change status popup">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-override-test-result/change-test-result-status-popup-2.png" width=100% alt="change status popup">
     
 6. Select an option, then submit the new status for this Test Result.
 
@@ -59,7 +58,7 @@ You can see the detailed information and description of a status change once the
 
 Select the **Test Results** tab, click on a Test Result ID, then select the **Comments** tab.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-override-test-result/Description.png" width=100% alt="test result comments tab">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-override-test-result/Description-2.png" width=100% alt="test result comments tab">
 
 You can then check the following information:
 
@@ -77,7 +76,7 @@ Follow these steps:
 
 2. Mouse over the *Information* icon next to the Test Result status, then click **View changes log**.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-override-test-result/View%20key%20information.png"  width=100% alt="view changes log">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-override-test-result/View%2520key%2520information-2.png"  width=100% alt="view changes log">
 
 Now you can view the following information:
 

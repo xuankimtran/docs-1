@@ -50,8 +50,6 @@ Once you have enabled Katalon TestOps integration in Katalon Studio, your Test R
     
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-test-uploads-to-kto-from-ks/automatic-upload-report-to-testops-from-ks.png"  width=100% alt="automatic upload of test reports to kto">
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-test-uploads-to-kto-from-ks/test-suit-upload-to-testops-page.png"  width=100% alt="see uploads in testops page">
-
 ## Upload Test Results manually
 
 You can also upload Test Results manually by following these steps:
@@ -84,7 +82,7 @@ You can switch to a different Organization in Katalon Studio by following these 
 
     The **Katalon Studio Activation** box displays.
     
-3. Type the email address and password, then click **Activate**.
+3. Type the new email address and password, then click **Activate**.
 
 You have logged in to a different Organization.
 
@@ -93,5 +91,3 @@ To verify that you have overridden the authentication successfully, click on the
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-test-uploads-to-kto-from-ks/view-dashboard-in-ks-after-switching-org.png" width=100% alt="view dashboard button in ks">
 
 You will be navigated to the new Organization in Katalon TestOps.
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-test-uploads-to-kto-from-ks/to-dashboard-on-browser.png" width=100% alt="testops dashboard page">

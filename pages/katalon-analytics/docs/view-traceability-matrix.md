@@ -22,7 +22,7 @@ Follow these steps:
 
 3. [Link Test Results to Jira Defects](https://docs.katalon.com/katalon-analytics/docs/ka-defects.html). 
 
-4. Go to **Reports & Analytics** > **Requirements** > **Traceability Matrix**.
+4. Go to **Reports** > **Requirements** > **Traceability Matrix**.
 
 The relationship between Test Cases, Defects and Requirements is visible on the report here.
 

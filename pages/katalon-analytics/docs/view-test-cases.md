@@ -4,51 +4,66 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-analytics/docs/view-test-cases.html
 redirect_from:
 ---
-Test Case management function in **Katalon TestOps** visualizes the trends in quality over time. This allows the development teams and testers to clearly see the weak points of the software. It also enables the teams to estimate the time it takes to perform automated testing which is useful, especially when releasing critical updates. The visualizations show whether the last sprint is good or bad and to what extent.
 
-In **Katalon TestOps**, you can view Test Cases with various types.
+You can manage test cases in Katalon TestOps to evaluate test case quality and visualize how the test case quality improves or worsens over time.
+
+By doing so, your team can spot weak points in your software or application deployment.
+
+With test management, you can also estimate the time it will take to perform all your automated tests. This is useful in the production stage, especially if you release critical updates.
+
+To help you manage test cases effectively, Katalon TestOps categorizes test cases into the following types:
+
+* Active test cases
+* Stale test cases
+* Slowest test cases
+* Flaky test cases
+
+> Notes:
+>
+> For a definition of each type of test cases, see [TestOps Formulas](https://docs.katalon.com/katalon-analytics/docs/testops-terminology.html#testops-formulas).
 
 ## Active Test Cases
 
-This section displays all Test Cases which have the most recently executed Test Runs. Here you can view the list of active Test Cases and their summary.
+Go to **Reports** > **Test Cases** > **Active**.
 
-Under **Reports & Analytics**, navigate to **Test Cases** section. 
+<img src="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-analytics/docs/view-test-cases/active-test-case.png" width=100% alt="active test cases">
 
-![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-analytics/docs/view-test-cases/active-test-case.png)
-
+You can see all Test Cases with their most recently executed Test Runs here. You can click on an active Test Case to see its summary.
 
 ## Stale Test Cases
 
-This section lists all Test Cases which are out-dated or no longer maintained. This helps you to review and decide whether those Test Cases need to be updated.
+Go to **Reports** > **Test Cases** > **Stale**.
 
-On **Test Cases** page, select **Stale** tab.
+<img src="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-analytics/docs/view-test-cases/stale-test-case.png" width=100% alt="stale test cases">
 
-![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-analytics/docs/view-test-cases/stale-test-case.png)
+You can see the list of Test Cases which are outdated or no longer maintained.
 
+You can review these Test Cases to decide whether they need to be updated.
 
 ## Slowest Test Cases
 
-This section shows the list of Test Cases with the longest average durations.
+Go to **Reports** > **Test Cases** > **Slowest**.
 
-On **Test Cases** page, select **Slowest** tab.
+<img src="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-analytics/docs/view-test-cases/slowest-test-case.png" width=100% alt="slowest test cases">
 
-![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-analytics/docs/view-test-cases/slowest-test-case.png)
-
+You can see the list of all Test Cases which have the longest average durations.
 
 ## Flaky Test Cases
 
-A flaky test is a test that both passes and fails periodically without any code changes. **Katalon TestOps** provides the test case level details that shows deeper context around the occurrences of flake over time to assist with debugging the root cause.
+Go to **Reports** > **Test Cases** > **Flaky**.
 
-On **Test Cases** page, select **Flaky** tab.
+<img src="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-analytics/docs/view-test-cases/flaky-test-case.png" width=100% alt="flaky test cases">
 
-![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-analytics/docs/view-test-cases/flaky-test-case.png)
+You can see the details of flaky Test Cases here.
 
+Katalon TestOps allows you to investigate deeper into the root causes of test flakiness, and assist with debugging.
 
-## Platform Coverage 
-This section allows you to review details of test case quality based on OS & browser. You can check updates on a monthly or weekly basis. 
+## Platform Coverage
 
-On **Test Cases** page, select **Platform Coverage** tab.
+Go to **Reports** > **Test Cases** > **Platform Coverage**.
 
-![](https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-analytics/docs/view-test-cases/platform-coverage.png)
+<img src="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-analytics/docs/view-test-cases/platform-coverage.png" width=100% alt="platform coverage">
 
+You can review Test Case quality based on operating systems and browsers.
 
+You can view quality changes on a weekly or monthly time scale.
