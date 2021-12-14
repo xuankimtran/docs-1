@@ -84,11 +84,11 @@ There are two test cases for different purposes:
 
 
     <a class="pop">
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/android-sample-prj/KS-ANDROID-TC2.gif" width="70%" alt="Verify Correct Alarm Message">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/android-sample-prj/KS-ANDROID-TC1.gif" width="70%" alt="Verify Correct Alarm Message">
     </a>
     <p style="text-align: center;"><em>Click the gif to enlarge it.</em></p>
 
-    <br>
+
     <details><summary>View the test case in the script mode</summary>
 
     ```groovy
@@ -156,12 +156,11 @@ There are two test cases for different purposes:
     - Verify if the current screen should show Xfermodes text after scrolling
 
     <a class="pop">
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/android-sample-prj/KS-ANDROID-TC1.gif" width="70%" alt="Verify Last Items In List">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/android-sample-prj/KS-ANDROID-TC2.gif" width="70%" alt="Verify Last Items In List">
     </a>
     <p style="text-align: center;"><em>Click the gif to enlarge it.</em></p>
 
 
-    <br>
     <details><summary>View the test case in the script mode</summary>
 
     ```groovy
