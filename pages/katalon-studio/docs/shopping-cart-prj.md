@@ -199,7 +199,7 @@ Custom keywords can be reused many times in test cases to perform different acti
           </a>
           <p style="text-align: center;"><em>Click the gif to enlarge it.</em></p>
 
-          <details><summary>Click to view the test script</summary>
+          **<details><summary>Click to view the test script</summary>**
 
           ```groovy
           import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
@@ -262,7 +262,7 @@ Custom keywords can be reused many times in test cases to perform different acti
             </a>
             <p style="text-align: center;"><em>Click the gif to enlarge it.</em></p>
             
-            <details><summary>Click to view the test script</summary>
+            **<details><summary>Click to view the test script</summary>**
                         
             ```groovy
             import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
@@ -333,11 +333,11 @@ Custom keywords can be reused many times in test cases to perform different acti
       - Fill in checkout information. The checkout information is defined as global variables in the execution profile.
 
           <a class="pop">
-          <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/shopping-cart-samples/multiple-check-out%20(online-video-cutter.com).gif" width="70%" alt="Order and check out multiple products">
+          <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/shopping-cart-samples/KS-SHOPPING-TC3.gif" width="70%" alt="Order and check out multiple products">
           </a>
           <p style="text-align: center;"><em>Click the gif to enlarge it.</em></p>
 
-          <details><summary>Click to view the test script</summary>
+          **<details><summary>Click to view the test script</summary>**
 
           ```groovy
           import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
@@ -451,10 +451,8 @@ To execute a test case or a test suite/test suite collection in the sample proje
 
 3. Observe the test result in the **Log Viewer** tab.
 
-    <a class="pop">
+
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/healthcare-samples/KS-SAMPLES-View-results-in-log-viewer.png" width="70%" alt="Oservice results in the log Viewer">
-    </a>
-    <p style="text-align: center;"><em>Click the image to enlarge it.</em></p>
 
     > Notes:
     > * You can view test results in the **Result** tab in the test suite or test suite collection level. The test results can be Passed, Failed, Error, or Incomplete.
