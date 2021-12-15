@@ -35,7 +35,17 @@ Follow these steps to grant KSE licenses:
   >
   > See [Types of Licenses](https://docs.katalon.com/katalon-studio/docs/license.html#license-types) to understand the differences between a node-locked license and a floating license.
   
-3. Add users to the **Licensed Users** section.
+3. In the **Licensed Users** section, click **Assign License** .
+
+    The **Assign License** box pops up.
+
+4. Enter the user's email address you want to assign the license to.
+
+    > Notes:
+    >
+    > You can assign the license to multiple users.
+
+5. Click **Assign License** to confirm.
 
   You have granted the KSE licenses to your users.
 
@@ -53,7 +63,14 @@ If your Organization has purchased both types of licenses at the same time, all 
     The **Licenses** page appears.
 
 2. Choose KRE (Floating).
-3. Add users to the **Licensed Users** section.
+3. In the **Licensed Users** section, click **Assign License**.
+4. Enter the user's email address you want to assign the license to.
+
+    > Notes:
+    >
+    > You can assign the license to multiple users.
+    
+5. Click **Assign License** to confirm.
 
   You have granted the KRE floating licenses to your users.
 
