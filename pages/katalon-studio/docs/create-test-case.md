@@ -66,13 +66,7 @@ The tutorial below will give you step-by-step instructions to create test steps 
     >
     > To learn more about a keyword in Katalon Studio, hover over each keyword to see its description. You can also use the search bar on our Katalon Studio documentation page to find the detailed information and usage example of each keyword.
 
-3. You can add a **Statement** or **Call Test Case** as a test step. Click on the dropdown of the _Add_ button and select an option. See also: [Statements](https://docs.katalon.com/katalon-studio/docs/statements.html) and [Call Test Case](https://docs.katalon.com/katalon-studio/docs/call-test-case.html).
-
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-case/tc-add-webui.png" alt="add web UI keywords" width="40%">
-    
-    > Notes:
-    >
-    > Once a test step is added as Call Test Case, or any control statements, it will not be allowed to change into another keyword.
+    You can also add a **Statement** or **Call Test Case** as a test step. To learn how Statement and Call Tese Case works, see: [Statements](https://docs.katalon.com/katalon-studio/docs/statements.html) and [Call Test Case](https://docs.katalon.com/katalon-studio/docs/call-test-case.html).
 
 4. Continue adding your test steps. You can also **Move up**, **Move down**, or **Delete** a test step.
 
