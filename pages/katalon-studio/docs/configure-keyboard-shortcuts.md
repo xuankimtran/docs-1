@@ -1,5 +1,5 @@
 ---
-title: "Configure Key bindings"
+title: "Configure Key Bindings"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/configure-keyboard-shortcuts.html
 redirect_from:
@@ -16,7 +16,7 @@ To configure a key binding scheme, follow these steps:
 
 1. Open Katalon Studio. From the main menu, go to **Window > Katalon Studio Preferences > General > Keys**.
 
-    The **Keys** dialog displays details about commands and the bound keyboard shortcuts of a scheme.
+    The **Keys** dialog displays details about commands and the associated keyboard shortcuts of a scheme as below.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-keybinding/KS-Keys-dialog.png" alt="Keys dialog" width=70%>
 
