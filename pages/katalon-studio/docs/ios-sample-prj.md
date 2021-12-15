@@ -31,13 +31,13 @@ As part of the iOS development procedure, to execute the sample test cases with 
 
 To execute the sample test cases with Xcode simulators, you need to prepare an `.app` file.
 
-1. To open the `Coffee Timer.xcodeproj` project file with Xcode, from where you store the project, go to **App > Your-First-iOS-App > Coffee Timer**. Double-click the `Coffee Timer.xcodeproj` file.
+1. Open the `Coffee Timer.xcodeproj` project file with Xcode, from where you store the project, go to **App > Your-First-iOS-App > Coffee Timer**. Double-click the `Coffee Timer.xcodeproj` file.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/open-xcode-file.png" width=70% alt="Open Coffee Timer Xcode project">
 
 2. After opening the project in Xcode, choose one of the iOS simulators to launch the apps.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/iOS-sample-projects/KS-iOS-Choose-simulator.png" width=35% alt="Choose the iOS simulators">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/iOS-sample-projects/KS-iOS-Choose-simulator-1.png" width=35% alt="Choose the iOS simulators">
 
 3. To build the `.app` file, click **Product > Build**. 
     Wait for the build to finish, to find the `app` file, go to `~/Library/Developer/Xcode/DerivedData/Coffee Timer/Build/Products/Debug-iphonesimulator/Coffee Timer.app`.
