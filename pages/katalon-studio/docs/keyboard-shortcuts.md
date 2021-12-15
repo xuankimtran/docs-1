@@ -257,4 +257,4 @@ This reference lists out default keyboard shortcuts and their actions in Katalon
 
 > **Notes**:
 >
-> To learn how to customize default keyboard shortcuts, refer to this guide: [Configure Key Bindings](https://docs.katalon.com/katalon-studio/docs/configure-keyboard-shortcuts.html).
+> To learn how to customize default keyboard shortcuts, refer to this guide: [Configure Key Bindings](docs.katalon.com/katalon-studio/docs/configure-keyboard-shortcuts.html).
