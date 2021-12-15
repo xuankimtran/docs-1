@@ -135,7 +135,7 @@ public class Common {
 ```
 
 > Notes:
-> * If you change the name of the `Coffee Timer` application while building it, make sure to change the absolute path to the new file accordingly. For example, if the name of the application is `Coffee Timer2.ipa`, the absolute path should be `/App/Coffee Timer2.ipa`.
+> * If you change the name of the `Coffee Timer` application while building it, make sure to change the absolute path to the new file accordingly. For example, if application's name is `Coffee Timer2.ipa`, the absolute path should be `/App/Coffee Timer2.ipa`.
 > * If you are running test cases with Xcode simulators. The path should lead to the `Coffee Timer.app` file instead.
 
 ### Test cases
@@ -146,7 +146,7 @@ To access test cases in this project, go to the **Test Cases** folder in the **T
 
 There are two test cases for different purposes:
 
-1. **Mexican Coffee Timer** is to start and stop the timer to make the Mexican coffee. In this example, we run the test case with a real iOS device.
+1. **Mexican Coffee Timer** test case starts and stops the timer for making a Mexican coffee. In this example, we run the test case with a real iOS device.
 
     - Start the `Coffee Timer.ipa` application. Here, we use the `sample.Common.startApplication` custom keyword to run the application.
     - Tap **Mexican**. We set the timeout for 0 seconds.
@@ -198,7 +198,7 @@ There are two test cases for different purposes:
     ```
     </details>
 
-2. **Verify the main list** is to verify the list of the coffee name in the application. In this example, we run the test case with a real iOS device.
+2. **Verify the main list** test case verifies the list of the coffee name in the application. In this example, we run the test case with a real iOS device.
 
     - Start the `Coffee Timer.ipa` application. Here, we use the `sample.Common.startApplication` custom keyword to run the application.
     - Verify if the application is showing the **Mexican** item.
