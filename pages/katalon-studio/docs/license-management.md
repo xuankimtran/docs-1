@@ -28,7 +28,7 @@ You can verify the subscription information and view all license information by 
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/licenses-page-blurred-not-highlighted.png" width=100% alt="licenses page">
 
-   * In the **Subscription** section, you can see the following information:
+   * In the **Subscription Details** section, you can see the following information:
       * **Subscribed Licenses**: the total number of licenses you have purchased, also known as your license quota.
       *  **Available Licenses**: the remaining licenses you can use.
 
