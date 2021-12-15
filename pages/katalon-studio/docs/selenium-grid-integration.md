@@ -24,6 +24,6 @@ Follow these steps to set up your remote execution with Selenium Grid:
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/remote-desired-capabilities/KS-DC-Set-remote-server-URL-types.png" width="100%" alt="Add Desired Capabilities for Remote execution">
 
 3. Click **Apply and Close** to save your settings.
-4. In the drop-down list of the **Run** button, select **Remote**.
+4. In the dropdown list of the **Run** button, select **Remote**.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/selenium-grid-integration/KS-DC-Run-Remote-execution.png" width="30%" alt="Run remote execution">

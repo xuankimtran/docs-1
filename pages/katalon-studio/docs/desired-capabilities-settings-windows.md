@@ -62,7 +62,7 @@ Go to the desired capabilities settings, click **Add**, then input the following
    </tr>
    </tbody>
    </table>
-(*) <em>This means delaying the app launch for 25 seconds. You can set 50 seconds in maximum.</em>
+(*) <em>This means delaying the app launch for 25 seconds. The maximum is 50 seconds.</em>
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/introduction-to-desired-capabilities/KS-DC-Native-recorder-windows-final-results.png"  width="796" alt="Delay app launch">
 

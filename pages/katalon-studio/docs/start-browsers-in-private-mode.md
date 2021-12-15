@@ -33,7 +33,7 @@ The following guidelines show you how to start browsers (Firefox, Chrome, Edge C
    <tr>
       <td>moz:firefoxOptions</td>
       <td>Dictionary</td>
-      <td>Click More (...). In the pop-up <strong>Dictionary Property Builder</strong> dialog, click <strong>Add</strong>, then input values from the Table 2.</td>
+      <td>Click More (...). In the pop-up <strong>Dictionary Property Builder</strong> dialog, click <strong>Add</strong>, then input values from Table 2.</td>
    </tr>
    </tbody>
    </table>
@@ -118,7 +118,7 @@ The following guidelines show you how to start browsers (Firefox, Chrome, Edge C
    <tr>
       <td>ms:edgeOptions</td>
       <td>Dictionary</td>
-      <td>Click More (...). In the pop-up <strong>Dictionary Property Builder</strong> dialog, click <strong>Add</strong>, then input values from the Table 2.</td>
+      <td>Click More (...). In the pop-up <strong>Dictionary Property Builder</strong> dialog, click <strong>Add</strong>, then input values from Table 2.</td>
    </tr>
    </tbody>
    </table>

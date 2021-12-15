@@ -160,8 +160,8 @@ Below are some common use cases of the desired capabilities for Chrome in Katalo
 To get access to some useful capabilities for Firefox, follow these steps:
 
 1. Open Firefox browser
-2. On the address bar, type `about:config`
-3. Search for 'browser' key
+2. In the address bar, type `about:config`
+3. Search for the `browser` key
 
    <img src="https://github.com/katalon-studio/docs-images/raw/d027a61c115c7330238389b4f226150aaf477f2e/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/KS-DC-capabilities-in-Firefox.png" width="70%" alt="FireFox capabilities">
 ### Set Firefox/Firefox (headless) desired capabilities in Katalon Studio 
@@ -170,13 +170,13 @@ To define Firefox desired capabilities in Katalon Studio, follow these steps:
 
 1. Go to **Project > Settings > Desired Capabilities > WebUI > Firefox/Firefox (headless)**. 
 2. Click **Add** to create a key called `moz:firefoxOptions`. 
-3. Have your capabilities added inside the `moz:firefoxOptions` key.
+3. Add your capabilities inside the `moz:firefoxOptions` key.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/KS-DC-firefoxOptions-Key.png" width="70%" alt="Create DC for FireFox">
 
-   To learn more about the use of `moz:firefoxOptions` key, you can refer to the Mozilla developer document here: [firefoxOptions](https://developer.mozilla.org/en-US/docs/Web/WebDriver/Capabilities/firefoxOptions).
+   To learn more about the use of the `moz:firefoxOptions` key, you can refer to the Mozilla developer document here: [firefoxOptions](https://developer.mozilla.org/en-US/docs/Web/WebDriver/Capabilities/firefoxOptions).
 
-   Alternatively, you can also go to `<your test project location>\settings\internal`, open the settings files for Firefox/Firefox (headless), and edit the capabilities in the Groovy script.
+   Alternatively, you can also go to `<your test project location>\settings\internal`, open the settings files for Firefox/Firefox (headless), and edit the capabilities in Groovy.
 
    <table>
    <thead>
@@ -200,7 +200,7 @@ To define Firefox desired capabilities in Katalon Studio, follow these steps:
 
 Belows are some common use cases of the desired capabilities for Firefox in Katalon Studio:
 
-1. Start Firefox with devtools in the private mode. To do so, click **Add** on the command toolbar, then input the following values:
+1. Start Firefox with devtools in private mode. To do so, click **Add** on the command toolbar, then input the following values:
 
    <table>
    <thead>
@@ -217,7 +217,7 @@ Belows are some common use cases of the desired capabilities for Firefox in Kata
    <tr>
       <td>moz:firefoxOptions</td>
       <td>Dictionary</td>
-      <td>Click More (...). In the pop-up <strong>Dictionary Property Builder</strong> dialog, click <strong>Add</strong>, then input values from the Table 2.</td>
+      <td>Click More (...). In the pop-up <strong>Dictionary Property Builder</strong> dialog, click <strong>Add</strong>, then input values from Table 2.</td>
    </tr>
    </tbody>
    </table>
@@ -269,7 +269,7 @@ Belows are some common use cases of the desired capabilities for Firefox in Kata
    <tr>
       <td>moz:firefoxOptions</td>
       <td>Dictionary</td>
-      <td>Click More (...). In the pop-up <strong>Dictionary Property Builder</strong> dialog, click <strong>Add</strong>, then input values from the Table 2.</td>
+      <td>Click More (...). In the pop-up <strong>Dictionary Property Builder</strong> dialog, click <strong>Add</strong>, then input values from Table 2.</td>
    </tr>
    </tbody>
    </table>
@@ -289,7 +289,7 @@ Belows are some common use cases of the desired capabilities for Firefox in Kata
    <tr>
       <td>prefs</td>
       <td>Dictionary</td>
-      <td>Click More (...). In the pop-up <strong>Dictionary Property Builder</strong> dialog, click <strong>Add</strong>, then input values from the Table 3.</td>
+      <td>Click More (...). In the pop-up <strong>Dictionary Property Builder</strong> dialog, click <strong>Add</strong>, then input values from Table 3.</td>
    </tr>
    </tbody>
    </table>
@@ -341,7 +341,7 @@ Belows are some common use cases of the desired capabilities for Firefox in Kata
    <tr>
       <td>moz:firefoxOptions</td>
       <td>Dictionary</td>
-      <td>Click More (...). In the pop-up <strong>Dictionary Property Builder</strong> dialog, click <strong>Add</strong>, then input values from the Table 2.</td>
+      <td>Click More (...). In the pop-up <strong>Dictionary Property Builder</strong> dialog, click <strong>Add</strong>, then input values from Table 2.</td>
    </tr>
    </tbody>
    </table>
@@ -361,7 +361,7 @@ Belows are some common use cases of the desired capabilities for Firefox in Kata
    <tr>
       <td>prefs</td>
       <td>Dictionary</td>
-      <td>Click More (...). In the pop-up <strong>Dictionary Property Builder</strong> dialog, click <strong>Add</strong>, then input values from the Table 3.</td>
+      <td>Click More (...). In the pop-up <strong>Dictionary Property Builder</strong> dialog, click <strong>Add</strong>, then input values from Table 3.</td>
    </tr>
    </tbody>
    </table>
@@ -458,13 +458,13 @@ Belows are some common use cases of the desired capabilities for Firefox in Kata
 
 ## Internet Explorer
 
-Internet Explorer (IE) driver supports some essential capabilities which can be used for smooth test execution. These capabilities ease the way for automation testing using Selenium WebDriver on Internet Explorer. You can learn more about supported IE capabilities here: [IE specific](https://github.com/SeleniumHQ/selenium/wiki/DesiredCapabilities#ie-specific).  
+The Internet Explorer (IE) driver supports some essential capabilities which can be used for smooth test execution. These capabilities ease the way for automation testing using Selenium WebDriver on Internet Explorer. You can learn more about supported IE capabilities here: [IE specific](https://github.com/SeleniumHQ/selenium/wiki/DesiredCapabilities#ie-specific).  
 
 ### Set desired capabilities for IE in Katalon Studio
 
 To set desired capabilities for IE, go to **Project > Settings > Desired Capabilities > WebUI > IE**.
 
-Alternatively, you can also go to `<your test project location>\settings\internal`, open the settings files for Internet Explorer, and edit the capabilities in the Groovy script.
+Alternatively, you can also go to `<your test project location>\settings\internal`, open the settings files for Internet Explorer, and edit the capabilities in Groovy.
 
    <table>
    <thead>
@@ -535,7 +535,7 @@ The most common use of Internet Explorer desired capabilities is to configure In
    <tbody>
    <tr>
       <td>ignoreProtectedModeSettings</td>
-      <td>This capability determines whether to skip the protected mode check. Enable this capabilities for smooth test execution with IE.</td>
+      <td>This capability determines whether to skip the protected mode check. Enable this capability for smooth test execution with IE.</td>
    </tr>
    <tr>
       <td>ignoreZoomSetting</td>

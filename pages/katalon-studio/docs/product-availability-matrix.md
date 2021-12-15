@@ -238,12 +238,12 @@ This document gives you information on the supported technologies and integratio
   </tr>
   <tr>
     <td>Smart Wait</td>
-    <td>The Smart Wait function tells the WebDriver to wait for the web page to become static before performing any operations. <br>This reduces the risks of test failures caused when the page hasn't fully loaded. <a href="https://docs.katalon.com/katalon-studio/docs/webui-smartwait.html#sample-tests" target="_blank" rel="noopener noreferrer">Learn more</a>.</td>
+    <td>The Smart Wait function tells the WebDriver to wait for the web page to become static before performing any operations. <br>This reduces the risk	 of test failures caused when the page hasn't fully loaded. <a href="https://docs.katalon.com/katalon-studio/docs/webui-smartwait.html#sample-tests" target="_blank" rel="noopener noreferrer">Learn more</a>.</td>
     <td>v7.0.0+</td>
   </tr>
   <tr>
     <td>Time Capsule</td>
-    <td>This capability enables users to restore the Application Under Test to the state when the test fails due to locators not finding <br>Web UI objects. <a href="https://docs.katalon.com/katalon-studio/docs/time-capsule.html" target="_blank" rel="noopener noreferrer">Learn more</a>.</td>
+    <td>This capability enables users to restore the Application Under Test to the state before the test failed, for example if locators did not find the expected Web UI objects. <a href="https://docs.katalon.com/katalon-studio/docs/time-capsule.html" target="_blank" rel="noopener noreferrer">Learn more</a>.</td>
     <td>v7.8.0+</td>
   </tr>
 </tbody>

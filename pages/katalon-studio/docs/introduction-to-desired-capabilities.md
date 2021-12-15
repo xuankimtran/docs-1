@@ -20,9 +20,9 @@ Desired capabilities are key/value pairs that tell the browser properties such a
 * Setting the browser and device properties in mobile testing.
 * Adding extra settings to browsers in web testing.
 
-Katalon Studio allows you to define these desired capabilities in different environment for a Katalon project in **Project > Settings > Desired Capabilities**. 
+Katalon Studio allows you to define these desired capabilities in different environments for a Katalon project in **Project > Settings > Desired Capabilities**. 
 
-## Supported environment for desired capabilities settings
+## Supported environments for desired capabilities settings
 
 In each selected environment, you can add, delete or clear (delete all) desired capabilities settings. To learn more about configuring desired capabilities for different testing environment, you can refer to the following documents:
 

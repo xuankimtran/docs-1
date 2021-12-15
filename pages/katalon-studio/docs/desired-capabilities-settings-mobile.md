@@ -9,7 +9,7 @@ description:
 Desired capabilities can be useful when a user, for example, wants to run mobile tests with a preferred platform, browser, or app orientation. 
 Katalon Studio uses desired capabilities to communicate with Appium server by sending a POST request.  If users configure the desired capabilities in project settings, the Appium server will start a session with predefined capabilities.
 
-This article shows you how to configure some common capabilities in Mobile testing and and where they are saved.
+This article shows you how to configure some common capabilities in Mobile testing and where they are saved.
 ## Set desired capabilities for mobile testing in Katalon Studio 
 
 To set desired capabilities for mobile testing, do as follows:
@@ -62,9 +62,9 @@ After choosing the device name, click **Add**, then input the following values:
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/desired_capabilities_in_katalon/Design-Capabilities-for-Mobile-in-Katalon-Studio-5.png" width="100%" alt="Set Unicodekeyboard for Android">
 
 
-### Example 2: enable device orientation
+### Example 2: start the device in a certain orientation
 
-The following example shows the desired capabilities settings for Android to enable device orientation.
+The following example shows the desired capabilities settings for Android to start the device in the portrait orientation.
 After choosing the device name, click **Add**, then input the following values:
 
    <table>
@@ -89,7 +89,7 @@ After choosing the device name, click **Add**, then input the following values:
 
 ### Example 3: set screenshot save directory
 
-The following example shows the desired capabilities settings for Android to set screenshot save directory.
+The following example shows the desired capabilities settings for Android to set the screenshot save directory.
 After choosing the device name, click **Add**, then input the following values:
 
    <table>

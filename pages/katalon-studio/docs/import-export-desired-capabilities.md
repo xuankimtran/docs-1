@@ -8,7 +8,7 @@ permalink: katalon-studio/docs/import-export-desired-capabilities.html
 > - Katalon Studio version 8.0.0.
 > - An active Katalon Studio Enterprise license. You can learn more about activating licenses in this document: [Activate Katalon License](https://docs.katalon.com/katalon-studio/docs/activate-license.html#activate-a-license-with-internet-access).
 
-From version 8.0.0 onwards, you can reuse desired capabilities across Katalon Studio project(s) by importing and exporting desired capabilities in a JSON file. See also [Desired capabilities](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html).
+From version 8.0.0 onwards, you can reuse desired capabilities across Katalon Studio projects by importing and exporting desired capabilities in a JSON file. See also [Desired capabilities](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html).
 
 This is useful if you want to:
 - Reuse or copy the configured desired capabilities to another projects with some minor changes.
