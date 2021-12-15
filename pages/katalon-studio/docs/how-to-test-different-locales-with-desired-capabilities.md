@@ -174,7 +174,7 @@ In the newly added property line, change the name to "spanish" for better recogn
         <tr>
           <td>goog:chromeOptions(*)</td>
           <td>Dictionary(**)</td>
-          <td>Click <em>More</em> (...). In the pop-up <strong>Dictionary Property Builder</strong> dialog, click <strong>Add</strong>, then input values from the Table 2.</td>
+          <td>Click <em>More</em> (...). In the pop-up <strong>Dictionary Property Builder</strong> dialog, click <strong>Add</strong>, then input values from Table 2.</td>
         </tr>
       </tbody>
       </table>
@@ -195,7 +195,7 @@ In the newly added property line, change the name to "spanish" for better recogn
         <tr>
           <td>prefs</td>
           <td>Dictionary(**)</td>
-          <td>Click <em>More</em> (...). In the pop-up <strong>Dictionary Property Builder</strong> dialog, click <strong>Add</strong>, then input values from the Table 3.</td>
+          <td>Click <em>More</em> (...). In the pop-up <strong>Dictionary Property Builder</strong> dialog, click <strong>Add</strong>, then input values from Table 3.</td>
         </tr>
       </tbody>
       </table>
