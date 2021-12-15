@@ -36,7 +36,7 @@ To set desired capabilities for Windows Spy/Recorder Utility, do as follows:
 > * Katalon Studio version 7.7.0 onwards.
 > * An active Katalon Studio license. To learn more about activating licenses, you can refer to this document: [Activate Katalon license](https://docs.katalon.com/katalon-studio/docs/activate-license.html).
 
-To set desired capabilities for Native Windows Recorder, the steps are the same as setting capbilities for Windows Spy/Recorder Utility, see above: [Set desired capabilities for Windows Spy/Recorder Utility](https://docs.katalon.com/katalon-studio/docs/windows-desired-capabilities.html).
+To set desired capabilities for Native Windows Recorder, the steps are the same as setting capbilities for Windows Spy/Recorder Utility, see above: [Set desired capabilities for Windows Spy/Recorder Utility](https://docs.katalon.com/katalon-studio/docs/windows-desired-capabilities.html#for-windows-spyrecorder-utility   ).
 
 Katalon only supports `appArguments` and `appWorkingDir` capabilities in Native Windows Recorder.
    * `appArguments`: Support passing arguments to the Application Under Test. You can also use this desired capabilities to record action without opening a Windows.
