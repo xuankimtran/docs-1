@@ -8,21 +8,19 @@ description:
 ---
 
 This article shows you how to configure desired capabilities for Windows Desktop Application testing.
-
-> Notes:
->
-> * From version 7.0.0 onwards, Windows Desktop Application testing is available.
-> * From version 7.5.0 onwards, Native Windows Recorder is available for Katalon Studio Enterprise users.
-> * From version 7.7.0 onwards, desired capabilities for Native Windows Recorder are available.
 ## Set desired capabilities for Windows Desktop Application testing 
+### For Windows Spy/Recorder Utility
 
-To set desired capabilities for Windows Desktop Application testing, do as follows:
+> Requirements:
+> * Katalon Studio version 7.0.0 onwards.
+
+To set desired capabilities for Windows Spy/Recorder Utility, do as follows:
 
 1. Go to **Project > Settings > Desired Capabilities > Windows**.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/windows-desired-capabilities/desired-capa-win.png"  width="70%" alt="DC settings for Windows">
 
-   Alternatively, you can also edit desired capabilities settings via a Windows execution session. Start a **Spy Windows/ Windows Recorder/ Native Windows Record** session, in the **Configuration** box, click **Edit**.
+   Alternatively, you can also edit desired capabilities settings via a Windows execution session. Start a **Spy Windows/ Windows Recorder** session, in the **Configuration** box, click **Edit**.
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/introduction-to-desired-capabilities/KS-DC-alternative-way-to-dc-settings.png"  width="90%" alt="Alternative way to change DC settings">
 
@@ -31,8 +29,16 @@ To set desired capabilities for Windows Desktop Application testing, do as follo
 3. Click **Add** on the command toolbar to add desired capabilities.
    
    Katalon Studio supports the same capabilities as WinAppDriver does. To learn more about supported capabilities for Windows Desktop App testing, you can refer to the WinAppDriver document here: [Supported capabilities](https://github.com/microsoft/WinAppDriver/blob/master/Docs/AuthoringTestScripts.md#supported-capabilities). 
-   
-   For Native Windows Recorder, only `appArguments` and `appWorkingDir` capabilities are supported.
+
+### For Native Windows Recorder
+
+> Requirements:
+> * Katalon Studio version 7.7.0 onwards.
+> * An active Katalon Studio license. To learn more about activating licenses, you can refer to this document: [Activate Katalon license](https://docs.katalon.com/katalon-studio/docs/activate-license.html).
+
+To set desired capabilities for Native Windows Recorder, the steps are the same as setting capbilities for Windows Spy/Recorder Utility, see above: [Set desired capabilities for Windows Spy/Recorder Utility](https://docs.katalon.com/katalon-studio/docs/windows-desired-capabilities.html).
+
+Katalon only supports `appArguments` and `appWorkingDir` capabilities in Native Windows Recorder.
    * `appArguments`: Support passing arguments to the Application Under Test. You can also use this desired capabilities to record action without opening a Windows.
    * `appWorkingDir`: Specify the Application Under Test working directory.
 
