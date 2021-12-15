@@ -23,7 +23,7 @@ Alternatively, you can download the iOS sample project from our Github repositor
 
 The `Coffee Timer` application located in the `App` folder of this sample project is pre-built and signed by the Katalon team to only run on Katalon devices.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/iOS-sample-projects/KS-iOS-Coffee-timer-app.png" width="70%" alt="The sample coffee timer application">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/iOS-sample-projects/KS-iOS-Coffee-timer-app.png" width="50%" alt="The sample coffee timer application">
 
 As part of the iOS development procedure, to execute the sample test cases with your iOS devices, you need to build and sign the `Coffee Timer` application for your iOS devices. Follow these steps:
 
@@ -37,9 +37,10 @@ To execute the sample test cases with Xcode simulators, you need to prepare an `
 
 2. After opening the project in Xcode, choose one of the iOS simulators to launch the apps.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/iOS-sample-projects/KS-iOS-Choose-simulator-1.png" width=35% alt="Choose the iOS simulators">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/iOS-sample-projects/KS-iOS-Choose-simulator-1.png" width=50% alt="Choose the iOS simulators">
 
 3. To build the `.app` file, click **Product > Build**. 
+    
     Wait for the build to finish, to find the `app` file, go to `~/Library/Developer/Xcode/DerivedData/Coffee Timer/Build/Products/Debug-iphonesimulator/Coffee Timer.app`.
 
     > Notes:
@@ -54,7 +55,7 @@ To execute the sample test cases with Xcode simulators, you need to prepare an `
 
 To execute mobile testing with real iOS devices, you need to prepare an `.ipa` file. 
 
-1. To open the `Coffee Timer.xcodeproj` project file with Xcode, from where you store the project, go to **App > Your-First-iOS-App > Coffee Timer**. Double-click the `Coffee Timer.xcodeproj` file.
+1. Open the `Coffee Timer.xcodeproj` project file with Xcode, from where you store the project, go to **App > Your-First-iOS-App > Coffee Timer**. Double-click the `Coffee Timer.xcodeproj` file.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/open-xcode-file.png" width=70% alt="Open Coffee Timer Xcode project">
 
@@ -75,7 +76,7 @@ To execute mobile testing with real iOS devices, you need to prepare an `.ipa` f
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/export.gif" width=70%>
 
 7. Put the `Coffee Time.ipa` file into the `App` folder of the sample project. Katalon will use this file to start the `Coffee Time` application.
-8. To verify the `.ipa` file, do as steps:
+8. To verify the `.ipa` file, do as follows:
 
    - Navigate to **Window > Devices** in Xcode.
    - Choose your device from the **Devices** list.
@@ -97,7 +98,7 @@ You can use custom keywords in the test case. To learn more about custom keyword
 
 Katalon creates the `sample.Common.startApplication` custom keyword to define the absolute path for starting the iOS application. To see the custom keyword, in the **Test Explorer** panel, go to **Keywords > sample > Common.groovy**.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/iOS-sample-projects/KS-iOS-sample-custom-keywords.png" width="70%" alt="Custom keywords in the iOS project">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/iOS-sample-projects/KS-iOS-sample-custom-keywords.png" width="50%" alt="Custom keywords in the iOS project">
 
 <table>
 <thead>
@@ -120,6 +121,12 @@ Katalon creates the `sample.Common.startApplication` custom keyword to define th
     <td>boolean</td>
     <td>Yes</td>
     <td>true if uninstalling the application automatically after run.</td>
+  </tr>
+  <tr>
+    <td>flowControl</td>
+    <td>FailureHandling</td>
+    <td>Optional</td>
+    <td>Specify failure handling schema to determine whether the execution should be allowed to continue or stop. To learn more about failure handling settings, you can refer to this document: <a href="https://docs.katalon.com/katalon-studio/docs/failure-handling.html#default-failure-handlingbehavior" target="_blank" rel="noopener noreferrer">Failure handling</a>.</td>
   </tr>
 </tbody>
 </table>
