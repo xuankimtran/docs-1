@@ -155,6 +155,8 @@ items:
             url: /katalon-studio/docs/katalon-help.html
           - title: "Katalon Studio Preferences"
             url: /katalon-studio/docs/katalon-studio-preferences.html
+          - title: "Configure Key Bindings"
+            url: /katalon-studio/docs/configure-keyboard-shortcuts.html
       - title: "Projects"
         tree:
           - title: "Manage Test Project"
