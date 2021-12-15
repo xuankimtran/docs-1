@@ -27,7 +27,7 @@ The `Coffee Timer` application located in the `App` folder of this sample projec
 
 As part of the iOS development procedure, to execute the sample test cases with your iOS devices, you need to build and sign the `Coffee Timer` application for your iOS devices. Follow these steps:
 
-<details><summary>For Xcode simulators</summary>
+**<details><summary>For Xcode simulators</summary>**
 
 To execute the sample test cases with Xcode simulators, you need to prepare an `.app` file.
 
@@ -51,7 +51,7 @@ To execute the sample test cases with Xcode simulators, you need to prepare an `
 
 </details>
 
-<details><summary>For real iOS devices</summary>
+**<details><summary>For real iOS devices</summary>**
 
 To execute mobile testing with real iOS devices, you need to prepare an `.ipa` file. 
 
@@ -163,7 +163,7 @@ There are two test cases for different purposes:
     - Tap **Back**. We set the timeout for 0 seconds.
     - Close the application.
 
-    <details><summary>View the test case in the script mode</summary>
+    **<details><summary>View the test case in the script mode</summary>**
 
     ```groovy
     import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
@@ -213,7 +213,7 @@ There are two test cases for different purposes:
     - Verify if the application is showing the **Coffees** item.
     - Close the application.
 
-    <details><summary>View the test case in the script mode</summary>
+    **<details><summary>View the test case in the script mode</summary>**
 
     ```groovy
     import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
