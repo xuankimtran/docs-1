@@ -166,7 +166,7 @@ Custom keywords can be reused many times in test cases to perform different acti
 
   To view the **Custom-keyword samples** test cases in this project, in the **Test Explorer** panel, go to **Test Cases > Custom-keyword samples**. Double-click to open one of the following test cases:
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/shopping-cart-samples/KS-SHOPPING-custom-keywords-Test-case.png" width="70%" alt="Custom-keyword test cases">
+  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/shopping-cart-samples/KS-SHOPPING-custom-keywords-Test-case.png" width="70%" alt="Custom-keyword test cases">
 
   - **Order and check out a single product** test case adds a single product to the shopping cart, and check out. The flow in this test case is as follows:
 
