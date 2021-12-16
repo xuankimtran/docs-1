@@ -6,13 +6,13 @@ description: "A quick guide to create test case using Record & Playback feature 
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/z15-MqM8TxY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-A quick guide to create test case using the record and playback feature of Katalon Studio, a complete test automation tool, built on top of Selenium and Appium. Katalon Studio helps you start automation testing with the least effort and no costs. 
+A quick guide to create test cases using the record and playback feature of Katalon Studio, a complete test automation tool, built on top of Selenium and Appium. Katalon Studio helps you start automation testing with the least effort and at no cost. 
 
 > Download the latest version of Katalon Studio at [www.katalon.com](https://www.katalon.com).
 
 Read the full guideline of the record and playback feature at [Record Web Utility](/x/BoIw).
 
-Follow these basic steps to get started with the record and playback feature:
+Follow these steps to get started with the record and playback feature:
 
 1. Create a test case: 
     
@@ -30,7 +30,7 @@ Follow these basic steps to get started with the record and playback feature:
 
     Recorded objects and actions are saved into the test case.
 
-7. On the main **Toolbar**, click on the _Run_ button to execute your test. You can specify which browser to run your playback by selecting it from the dropdown list.
+7. On the main **Toolbar**, click on the _Run_ button to execute your test. You can specify which browser to run your playback with by selecting it from the dropdown list.
 
 > Notes: 
 >
