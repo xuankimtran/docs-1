@@ -31,8 +31,10 @@ You can also add tags to a test case using the **Properties** tab. Do as follows
 
     To remove a tag, delete it from the tag field.
 
-    <img class="pop" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-case-management-with-tags/tag.png" alt="properties tab" width="100%">
-
+    <a class="pop">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-case-management-with-tags/tag.png" alt="properties tab" width="100%">
+    </a>
+    
     <p align="center"><i>Click on the image to enlarge it</i></p>
 
 ### Append Tags
