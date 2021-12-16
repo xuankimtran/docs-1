@@ -45,3 +45,8 @@ Katalon Recorder comes with some sample projects (templates) to help you get sta
 4. Click on the **Add Templates** button.
 
 You should see the sample projects are added to your workspace.
+
+
+**See also**:
+
+* [How to Use Control Flow commands in a Test Case](https://docs.katalon.com/katalon-recorder/docs/how-to-use-conditional-statements-in-a-test-case.html) 
