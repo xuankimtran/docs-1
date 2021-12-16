@@ -32,11 +32,11 @@ In each selected environment, you can add, delete or clear (delete all) desired 
 
 - [Set up desired capabilities in Windows Desktop App testing](https://docs.katalon.com/katalon-studio/docs/desired-capabilities-settings-windows.html)
 
-- [Set up remote Server in desired capabilities](https://docs.katalon.com/katalon-studio/docs/desired-capabilities-remote-settings.html)
+- [Set up remote server in desired capabilities](https://docs.katalon.com/katalon-studio/docs/desired-capabilities-remote-settings.html)
 
 - [Set custom desired capabilities](https://docs.katalon.com/katalon-studio/docs/set-custom-desired-capabilities.html)
 
-- [Pass desired capabilities at Runtime](https://docs.katalon.com/katalon-studio/docs/desired-capabilities-at-runtime.html)
+- [Pass desired capabilities at runtime](https://docs.katalon.com/katalon-studio/docs/desired-capabilities-at-runtime.html)
 
 ## Manage desired capabilities
 
