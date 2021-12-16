@@ -59,7 +59,7 @@ Katalon creates two custom keywords in this sample project. To see the custom ke
 
 ### Description
 
-This keyword is to use the POST request to send the user information including username, password, age, gender, and avatar to the server to create an account.
+This keyword is to use the POST request to send the user information including username, password, age, gender, and avatar to the server to create an account, then extract the new user ID from the response.
 ### Parameters
 
 <table>
@@ -73,16 +73,34 @@ This keyword is to use the POST request to send the user information including u
 </thead>
 <tbody>
   <tr>
-    <td>to</td>
-    <td>TestObject<br></td>
-    <td>Yes</td>
-    <td>A Katalon test object</td>
-  </tr>
-  <tr>
-    <td>timeout</td>
+    <td>age</td>
     <td>int</td>
     <td>Yes</td>
-    <td>The timeout to wait for the element to appear (in seconds).</td>
+    <td>The age of the user</td>
+  </tr>
+  <tr>
+    <td>username</td>
+    <td>String</td>
+    <td>Yes</td>
+    <td>The username for the user account</td>
+  </tr>
+  <tr>
+    <td>password</td>
+    <td>String</td>
+    <td>Yes</td>
+    <td>The password for the user account</td>
+  </tr>
+  <tr>
+    <td>gender</td>
+    <td>String</td>
+    <td>Yes</td>
+    <td>The gender for the user</td>
+  </tr>
+  <tr>
+    <td>expectedStatus</td>
+    <td>int</td>
+    <td>Yes</td>
+    <td>the expected status code of the request</td>
   </tr>
 </tbody>
 </table>
@@ -93,7 +111,7 @@ This keyword is to use the POST request to send the user information including u
 
 ### Description
 
-This keyword gets all rows of an HTML table.
+This keyword is to use the GET response to retrieve user information by id.
 ### Parameters
 
 <table>
