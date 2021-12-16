@@ -7,17 +7,60 @@ redirect_from:
 description: Release notes 8.x
 ---
 
-## Version 8.2.5 Beta
+> Download from our official website: [Katalon Studio version 8.2.5](https://www.katalon.com/download/).
 
-> Download from our GitHub repository: [Katalon Studio version 8.2.5 Beta](https://github.com/katalon-studio/katalon-studio/releases/tag/v8.2.5.beta).
+## Version 8.2.5
 
 ### New features
 
 * [WebUI] Introduced an option to use the Spy, Record, and Smart Wait function with a packed extension, now available on the Chrome Web Store. This extension is compatible with Katalon Studio version 8.2.5 Beta onwards. See [Katalon Compact Utility](https://docs.katalon.com/katalon-studio/docs/katalon-compact-utility.html).
+* TestCloud Integration (Beta)
+* Support a project setting to include/exclude timestamps in .properties files in project/settings folder
+* Support connecting to HANA DB
+* Support xpath:customAttributes in Web Locator Strategies
+
+### Enhancements
+
+* Upgrade Embedded Edge WebDriver to the latest
+* Upgrade Embedded ChromeDriver to the latest
+* Implement Digital Signature on Windows build
+* TestOps Integration
+    * Add call-to-action for TO features on KS base on usage
+    * Remove Create/Update Script Repo and change in TestOps icon
+    * Turn on TestOps Integration for Web/API new users
+    * Change in TestOps integration dialog
+* Improve Performance
+    * Improve responsiveness and loading time when renaming/moving test cases folder in big projects
+* Customer Success survey
+* Authentication and TestOps Integration
+    * Update KatOne Server URL
+    * Remove Override option in Project Settings
+    * Change text: from ‘Deactivate’ to  ‘Log out’
+* Security Compliance
+    * Upgrade Netty library
+    * Upgrade jsoup library
+* Improve visibility of Search Function on UI
+* Remove unused messages in Test Object, Spy/Recorder, Test Suite Collection, and Test Suite
+
+### Fixes
+
+* Executing a test may cause "java.lang.ClassFormatError: Truncated class file" 
+* [Restful API] Double quote is automatically removed in Query Parameters section
+* KRE doesn't print specific name when there is an empty Test suite 
+* Missing screenshot in HTML Report in qTest 
+* Failed to update webdriver automatically for custom execution
+* [Katalon Runtime Engine] Jira report not sending to all Jira ids when executing in KRE
+* [KatOne On-premise] Free users can activate successfully
+* [KO][OnPrem Server] Online license after deleted, KS still not show popup terminate session 
+* [Regression] [UI] [Dynamic Test Suite] Tricky UI makes users confused when config RETRY for Dynamic Test Suite
+* [Regression] [Web Recorder Playback] Lacking test steps in Recorder Logs when playback
+* [Regression][Object] Delete Property of selected Object causes error
+* [Regression][Existing Bug] Unable to navigate to step X of test case Y
+* [Regression][Docker Image] Unable to email report when running script from docker image
+* [Regression][Existing Bug] Cannot run test suite right after configuring qTest integration
+* "Import Postman" option is missing
 
 ## Version 8.2.0
-
-> Download from our official website: [Katalon Studio version 8.2.0](https://www.katalon.com/download/).
 
 ### New features
 
