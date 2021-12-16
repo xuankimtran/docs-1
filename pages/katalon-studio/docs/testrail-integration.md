@@ -35,14 +35,14 @@ Enable the TestRail API. Log in to your account, go to **Administration > Site S
 
 ### In Katalon Studio
 
-1. Enable **TestRail Integration** plugin. In the main menu, go to **Project > Settings > Plugins > TestRail** and check the **Using TestRail** option.
+1. Enable the **TestRail Integration** plugin. In the main menu, go to **Project > Settings > Plugins > TestRail** and check the **Using TestRail** option.
 
 2. Enter the credentials required for **Authentication**:
 
 * **URL**: your TestRail instance `https://<example>.testrail.io`.
 * **Username**: your TestRail Username.
 * **Password**: your TestRail password.
-* **Project**: your TestRail project's ID (an integer).
+* **Project**: your TestRail project ID (an integer).
 
     > To get the **project ID**, open your TestRail project in the browser and view the ID at the end of the URL, e.g. `https://company.testrail.io/index.php?/projects/overview/1`.
 
@@ -54,11 +54,11 @@ Enable the TestRail API. Log in to your account, go to **Administration > Site S
 
 ## Map Test Cases between Katalon Studio and TestRail
 
-To map a Test Case between Katalon Studio and TestRail, you need to get the Test Case's ID.
+To map a Test Case between Katalon Studio and TestRail, you need to get the Test Case ID.
 
 ### In TestRail 
 
-To view the Test Case's ID, open your project in TestRail, then go to the **Test Cases** tab:
+To view the Test Case ID, open your project in TestRail, then go to the **Test Cases** tab:
 
 Here you can see the list of Test Cases and their IDs.
 
@@ -66,7 +66,7 @@ Here you can see the list of Test Cases and their IDs.
 
 ### In Katalon Studio
 
-Open the Test Case you want to map, switch to the **Integration** tab, and specify the respective Test Case's ID in TestRail (only the integer part).
+Open the Test Case you want to map, switch to the **Integration** tab, and specify the respective Test Case ID in TestRail (only the integer part).
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/testrail-integration/KS-TestRail-Integration-tab.png" width=70% alt="KS Test Case Integration tab">
 
@@ -80,7 +80,7 @@ Follow these steps:
 
 1. In Katalon Studio, create a new Test Suite or a Dynamic Test Suite.
 
-2. Prepend the Test Suite's name with the text `S<ID>`, where `<ID>` is the Test Suite ID of your choice.
+2. Prepend the name of the Test Suite with the text `S<ID>`, where `<ID>` is the Test Suite ID of your choice.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/testrail-integration/KS-New-Test-Suite.png" width=70% alt="New Test Suite">
 
@@ -90,11 +90,11 @@ Follow these steps:
 
 3. Execute the Test Suite.
 
-    A new Test Run will be created in your TestRail project.
+    A new Test Run is created in your TestRail project.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/testrail-integration/KS-TestRail-Test-Run.png" width=70% alt="TestRail uploaded Test Run">
 
-    To view the Test Run's details, click on the Test Run.
+    To view the Test Run details, click on the Test Run.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/testrail-integration/KS-TestRail-Test-Run-details.png" width=70% alt="TestRail Test Run results">
 
@@ -104,9 +104,9 @@ Follow these steps:
 
 1. In Katalon Studio, create a new Test Suite or a Dynamic Test Suite.
 
-2. Prepend the Test Suite's name with the text `R<ID>`, where `<ID>` is the **Test Run ID** in TestRail. 
+2. Prepend the name of the Test Suite with the text `R<ID>`, where `<ID>` is the **Test Run ID** in TestRail.
 
-    > To view the **Test Run ID**, open your TestRail project and click on the Test Run. The ID is displayed next to the Test Run's name.
+    > To view the **Test Run ID**, open your TestRail project and click on the Test Run. The ID is displayed next to the Test Run name.
 
     For example, `R8` is the ID of the created Test Run.
 
