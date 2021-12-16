@@ -59,7 +59,7 @@ Katalon creates two custom keywords in this sample project. To see the custom ke
 
 ### Description
 
-This keyword is to use the POST request to send the user information including username, password, age, gender, and avatar to the server to create an account
+This keyword is to use the POST request to send the user information including username, password, age, gender, and avatar to the server to create an account.
 ### Parameters
 
 <table>
