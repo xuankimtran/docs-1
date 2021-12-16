@@ -59,4 +59,4 @@ Follow these steps:
 
 ### View advanced reports in Katalon TestOps
 
-For advanced reports and insights into your testing data, sign in to [Katalon TestOps](https://testops.katalon.io/login) with your Katalon account.
+For advanced reports such as traceability matrix report (see: [Requirement Traceability Matrix](https://docs.katalon.com/katalon-analytics/docs/view-traceability-matrix.html)) and insights into your testing data, sign in to [Katalon TestOps](https://testops.katalon.io/login) with your Katalon account.
