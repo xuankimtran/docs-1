@@ -17,7 +17,7 @@ When generating test steps in a test case, you can also call another test case a
 
 To call another test case in **Manual** view, do as follows:
 
-1. Open a test case in **Manual** view. Click on the drop-down icon of the **Add** button, then select **Call Test Case**.
+1. Open a test case in **Manual** view. Click on the dropdown icon of the **Add** button, then select **Call Test Case**.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/call-test-case/call-test-case.png" alt="call test case option" width="70%">
 
@@ -33,9 +33,9 @@ To call another test case in **Manual** view, do as follows:
 
 ## Call Test Case in Script view
 
-In the **Script view**, the `callTestCase` method allows users to call another test case as a test step.
+In script view, the `callTestCase` method allows users to call another test case as a test step.
 
-Open a test case in the script view, then refer to the following syntaxes:
+Open a test case in script view, then refer to the following syntaxes:
 
 ```groovy
 

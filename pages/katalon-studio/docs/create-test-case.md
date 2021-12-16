@@ -56,7 +56,7 @@ On the right side of Katalon Studio, you can see the **Test Explorer** section c
 
 The tutorial below will give you step-by-step instructions to create test steps in Manual view.
 
-1. In the **Manual** tab of the **Test Case Editor**, click **Add**. A new line represents a test step is generated.
+1. In the **Manual** tab of the **Test Case Editor**, click **Add**. A new line representing a test step is generated.
 
 2. In the newly created test step, type a keyword, or click on the dropdown button to select a keyword. Add an **Object**, **Input**, **Output**, and **Description** for that test step, if any.
 
