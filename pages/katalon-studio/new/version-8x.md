@@ -25,9 +25,7 @@ description: Release notes 8.x
 * Upgrade Embedded ChromeDriver to the latest
 * Implement Digital Signature on Windows build
 * TestOps Integration
-    * Add call-to-action for TO features on KS base on usage
     * Remove Create/Update Script Repo and change in TestOps icon
-    * Turn on TestOps Integration for Web/API new users
     * Change in TestOps integration dialog
 * Improve Performance
     * Improve responsiveness and loading time when renaming/moving test cases folder in big projects
