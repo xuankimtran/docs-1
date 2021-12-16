@@ -207,7 +207,7 @@ items:
                     url: /katalon-studio/docs/set-custom-desired-capabilities.html
                   - title: "Pass Desired Capabilities at Runtime"
                     url: /katalon-studio/docs/desired-capabilities-at-runtime.html
-                  - title: "Manage esired Capabilities"
+                  - title: "Manage Desired Capabilities"
                     url: /katalon-studio/docs/import-export-desired-capabilities.html
                   - title: "Start browsers in private mode"
                     url: /katalon-studio/docs/start-browsers-in-private-mode.html  
@@ -1063,8 +1063,6 @@ items:
             url: /katalon-studio/docs/test-suite-collection.html
           - title: "Skip Test Cases"  
             url: /katalon-studio/docs/skip-test-cases.html
-          - title: "Execute tests periodically on remote machines"
-            url: /katalon-studio/docs/execute_tests_periodically_on_remote_machines.html
           - title: "Headless Browsers Execution"
             url: /katalon-studio/docs/headless-browsers-execution.html
           - title: "Execute Tests on Multiple Devices in Parallel"
@@ -1082,9 +1080,7 @@ items:
           - title: "Record Screen-based Videos"
             url: /katalon-studio/docs/record-screen-based-videos.html    
           - title: "Record Browser-based Videos"
-            url: /katalon-studio/docs/record-browser-based-videos.html  
-          - title: "View Execution Summary and Advanced Reports"
-            url: /katalon-studio/docs/view-execution-list.html
+            url: /katalon-studio/docs/record-browser-based-videos.html
       - title: "Data-driven Testing"
         tree:
           - title: "Data-driven Testing with Katalon Studio"
@@ -1119,6 +1115,12 @@ items:
         tree:
           - title: "Katalon API Keys"
             url: /katalon-studio/docs/katalon-apikey-70.html 
+          - title: "TestOps Integration"
+            tree:
+              - title: "TestOps Overview"
+                url: /katalon-studio/docs/testops-integration.html  
+              - title: "Upload Test Results to Katalon TestOps from Katalon Studio"
+                url: /katalon-studio/docs/katalon-analytics-beta-integration.html
           - title: "Jira Integration"
             tree:
               - title: "Jira Integration"
