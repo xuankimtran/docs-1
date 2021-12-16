@@ -29,7 +29,7 @@ Follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/conditional-and-loop-tutorial/KR-New-Test-Case.png" width=70% alt="KR New Test Case">
 
-2. Navigate to the AUT. In an active browser tab, navigate to the AUT.
+2. In an active browser tab, navigate to the AUT.
 
     Here the URL for the AUT is `https://cms.demo.katalon.com`.
 
