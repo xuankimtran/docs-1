@@ -98,5 +98,23 @@ redirect_from:
 				<div>2. Downgrade to Chrome version 92.x. To downgrade ChromeDriver versions, you can refer to this guide here: <a href="https://docs.katalon.com/katalon-studio/docs/update-or-downgrade-webdrivers.html#replace-a-webdriver">Update or Downgrade WebDrivers</a>. </div> 
 			</td>
 		</tr>
+		<tr>
+			<td>
+				<div>
+					<div>
+						<div>
+							<div>
+								<div>
+									<div>
+										<div>New and old proxy mechanisms are not allowed in one command. Please use either the new or the old one</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</td>
+			<td>If you encounter the above error when executing your test with Katalon Runtime Engine, please check if you are mixing options of the new mechanism with options for proxy configuration prior to 7.5.0 and correct the commands in use. Learn more at <a href="https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#proxy-options">Proxy options</a>.</td>
+		</tr>
 	</tbody>
 </table>
