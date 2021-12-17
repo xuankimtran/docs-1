@@ -1,11 +1,11 @@
 ---
 title: "Manage User Profile" 
 sidebar: katalon_studio_docs_sidebar
-permalink: 
-redirect_from:
+permalink: katalon-analytics/docs/manage-user-profile.html
+redirect_from: 
 ---
 
-The TestOps Profile page allows you to manage your TestOps profile settings, including profile photo, username, and password.
+The TestOps Profile page allows you to manage your TestOps profile settings, including profile photo, username, and password as well as products of interest.
 
 This guide shows you how to manage your TestOps profile settings.
 
@@ -13,27 +13,27 @@ This guide shows you how to manage your TestOps profile settings.
 
 First, you need to navigate to the TestOps Profile page. From the TestOps homepage, on the top-right corner, click on the *Avatar* icon, then select **View Profile**.
 
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/manage-user-profile/K1-TestOps-Homepage.png" width=70% alt="TestOps Profile page">
+
 The TestOps Profile page is displayed as below.
 
 <a class="pop">
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/manage-user-profile/K1-Profile-Page.png" width=70% alt="TestOps Profile page">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/manage-user-profile/K1-TestOps-Profile-page.png" width=70% alt="TestOps Profile page">
 </a>
 
 <p style="text-align: center;"><em>Click the image to enlarge</em></p>
 
 ### Change Your Profile Photo
 
-To change your profile photo, click on the **Photo** icon. In the opened file dialog, select the image you want to upload.
-
-[photo]
+To change your profile photo, click on the *photo* icon. In the opened file dialog, select the image you want to upload.
 
 ### Change Your Username
 
 Follow these steps:
 
-1. In the **Basic Info** section, click on the displayed username. Then enter the new username.
+1. In the **Basic Information** section, click on the displayed username. Then enter the new username.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/manage-user-profile/K1-Profile-Basic-Info-Change-Username.png" width=70% alt="TestOps Profile page username">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/manage-user-profile/K1-TestOps-Profile-change-username.png" width=70% alt="TestOps Profile page username">
 
 2. Click on the *tick* icon to save the change.
 
@@ -41,12 +41,16 @@ Follow these steps:
 
 Follow these steps:
 
-1. In the **Basic Info** section, click **Change Password**.
+1. In the **Basic Information** section, click **Change Password**.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/manage-user-profile/K1-Change-Password-Button.png" width=70% alt="TestOps Profile page password">
+2. In the displayed **Change Password** dialog, enter your current password, your new password, and then retype the new password to confirm.
 
-2. In the displayed **Change Password** pop-up, enter your current password, your new password, and then retype the new password to confirm.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/manage-user-profile/K1-TestOps-Profile-Change-Password-dialog.png" width=70% alt="TestOps Profile page password">
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/manage-user-profile/K1-Change-Password-Dialog.png" width=70% alt="TestOps Profile page password">
+3. Click **Change Password**.
 
-3. Click **Change Password** to save the change.
+### Select Products of Interest
+
+In the **Product Interests** section, you can select the products you're interested in. This helps provide Katalon with feedback on user needs for different products.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/manage-user-profile/K1-TestOps-Profile-Product-Interests.png" width=70% alt="TestOps Profile page password">
