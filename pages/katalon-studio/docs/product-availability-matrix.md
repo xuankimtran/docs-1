@@ -49,7 +49,7 @@ This document gives you information on the supported technologies and integratio
 </table>
 (*) <em> Limitations: Elements inside embedded web views cannot be captured automatically by Record&amp;Spy utilities. </em>
 
-### Programming Skill & Language
+### Programming skill & Language
 
 <table width="100%">
 <tbody>
@@ -80,7 +80,7 @@ This document gives you information on the supported technologies and integratio
 </tbody>
 </table>
 
-### Testing Methodologies
+### Testing methodologies
 
 <table width="100%">
 	<tbody>
@@ -175,7 +175,7 @@ This document gives you information on the supported technologies and integratio
 	</tbody>
 </table>
 
-### Testing Capabilities
+### Testing capabilities
 
 <table>
 	<tbody>
@@ -210,51 +210,43 @@ This document gives you information on the supported technologies and integratio
 	</tbody>
 </table>
 
-### Unique Capabilities
+### Unique capabilities
 
-<table style="width: 797.875px;">
-	<tbody>
-		<tr>
-			<td style="width: 132px;"><strong>Unique Capabilities</strong></td>
-			<td style="width: 521px;"><strong>Description</strong></td>
-			<td style="width: 121.875px;"><strong>Supported Katalon Studio versions</strong></td>
-		</tr>
-		<tr>
-			<td style="width: 132px;">
-				<p>Application Under Test (AUT) Testing Combination</p>
-			</td>
-			<td style="width: 521px;">Katalon Studio allows combining multiple application types (Web UI, API, Mobile &amp; Desktop) in one project and execution flow. You can test this capability with our Github sample project <a title="https://github.com/katalon-studio-samples/api-web-combination-sample/tree/master" href="https://github.com/katalon-studio-samples/api-web-combination-sample/tree/master" data-renderer-mark="true">here</a>.</td>
-			<td style="width: 121.875px;">v7.0.0+</td>
-		</tr>
-		<tr>
-			<td style="width: 132px;">
-				<p>Dual-editor interface</p>
-			</td>
-			<td style="width: 521px;">Katalon Studio test scripts are interchangeable between two interfaces: manual and scripting editors. This enables a team with a mixed level of automation testing skills to work effectively and efficiently in the same project.</td>
-			<td style="width: 121.875px;">v7.0.0+</td>
-		</tr>
-		<tr>
-			<td style="width: 132px;">
-				<p>Self-healing</p>
-			</td>
-			<td style="width: 521px;">The <strong>Self-healing</strong> mechanism is to tackle the issue of broken locators during execution to reduce the test maintenance effort.&nbsp;<a title="Self-healing" href="https://docs.katalon.com/katalon-studio/docs/self-healing.html">Learn more</a>.</td>
-			<td style="width: 121.875px;">v7.6.0+</td>
-		</tr>
-		<tr>
-			<td style="width: 132px;">
-				<p>Smart Wait</p>
-			</td>
-			<td style="width: 521px;">The <strong>Smart Wait</strong> function tells the WebDriver to wait for the web page to become static before performing any operations. This reduces the risks of test failures caused when the page hasn't fully loaded. <a href="https://docs.katalon.com/katalon-studio/docs/webui-smartwait.html#sample-tests">Learn more</a>.</td>
-			<td style="width: 121.875px;">v7.0.0+</td>
-		</tr>
-		<tr>
-			<td style="width: 132px;">
-				<p>Time Capsule</p>
-			</td>
-			<td style="width: 521px;">This capability enables users to restore the Application Under Test to the state when the test fails due to locators not finding Web UI objects. <a href="https://docs.katalon.com/katalon-studio/docs/time-capsule.html">Learn more</a>.</td>
-			<td style="width: 121.875px;">v7.8.0+</td>
-		</tr>
-	</tbody>
+<table>
+<thead>
+  <tr>
+    <th>Unique capabilities</th>
+    <th>Description</th>
+    <th>Supported Katalon Studio versions</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Application Under Test (AUT) Testing Combination</td>
+    <td>Katalon Studio allows combining multiple application types (Web UI, API, Mobile &amp; Desktop) in one project and execution flow. <br>You can test this capability with our Github sample project <a href="https://github.com/katalon-studio-samples/api-web-combination-sample/tree/master" target="_blank" rel="noopener noreferrer">here</a>.</td>
+    <td>v7.0.0+</td>
+  </tr>
+  <tr>
+    <td>Dual-editor interface</td>
+    <td>Katalon Studio test scripts are interchangeable between two interfaces: manual and scripting editors. <br>This enables a team with a mixed level of automation testing skills to work effectively and efficiently in the same project.</td>
+    <td>v7.0.0+</td>
+  </tr>
+  <tr>
+    <td>Self-healing</td>
+    <td>The Self-healing mechanism is to tackle the issue of broken locators during execution to reduce the test maintenance effort.<br><a href="https://docs.katalon.com/katalon-studio/docs/self-healing.html" target="_blank" rel="noopener noreferrer">Learn more</a>.</td>
+    <td>v7.6.0+</td>
+  </tr>
+  <tr>
+    <td>Smart Wait</td>
+    <td>The Smart Wait function tells the WebDriver to wait for the web page to become static before performing any operations. <br>This reduces the risk	 of test failures caused when the page hasn't fully loaded. <a href="https://docs.katalon.com/katalon-studio/docs/webui-smartwait.html#sample-tests" target="_blank" rel="noopener noreferrer">Learn more</a>.</td>
+    <td>v7.0.0+</td>
+  </tr>
+  <tr>
+    <td>Time Capsule</td>
+    <td>This capability enables users to restore the Application Under Test to the state before the test failed, for example if locators did not find the expected Web UI objects. <a href="https://docs.katalon.com/katalon-studio/docs/time-capsule.html" target="_blank" rel="noopener noreferrer">Learn more</a>.</td>
+    <td>v7.8.0+</td>
+  </tr>
+</tbody>
 </table>
 
 
@@ -294,7 +286,7 @@ This document gives you information on the supported technologies and integratio
 </table>
 (*) <em> Requirements: Katalon TestOps integration. </em>
 
-### Cloud Device Integration
+### Cloud Device integration
 
 <table>
 	<tbody>
@@ -335,7 +327,7 @@ This document gives you information on the supported technologies and integratio
 	</tbody>
 </table>
 
-### ALM Integration
+### ALM integration
 
 <table>
 	<tbody>
@@ -390,7 +382,7 @@ This document gives you information on the supported technologies and integratio
 	</tbody>
 </table>
 
-### CI/CD Integration
+### CI/CD integration
 
 <table width="70%">
 	<tbody>

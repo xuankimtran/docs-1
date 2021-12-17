@@ -18,6 +18,7 @@ redirect_from:
     - "/x/ZxhO/"
     - "/katalon-studio/docs/record-web-utility-version-50-to-54/"
     - "/katalon-studio/docs/record-web-utility-version-50-to-54.html"
+    - "/katalon-studio/docs/katalon-addon-for-chrome.html"
 description: 
 ---
 Test recording is the easiest way for a tester to create an automation test script. This mean you just need to manually interact with your Web site and perform all the desired actions as a real user while the Katalon Recorder Utility record them.

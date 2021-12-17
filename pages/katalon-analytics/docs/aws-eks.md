@@ -34,7 +34,7 @@ Follow these steps:
 
 6. Go to **Test Environments** > **Kubernetes** to see the list of Kubernetes test environments you have created.
 
-   <img src="https://github.com/katalon-studio/docs-images/blob/master/katalon-analytics/docs/testops-revamp-aug-aws-eks/kubernetes-test-environment-page-list-2.png" width="" height="" alt text= kubernetes environment list>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-aws-eks/kubernetes-test-environment-page-list-2.png" width="" height="" alt text="kubernetes environment list">
 
 Next steps:
 

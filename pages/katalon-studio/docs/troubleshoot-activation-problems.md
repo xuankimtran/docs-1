@@ -34,7 +34,9 @@ This error message means that the application has failed to communicate with Kat
 
 Check your Internet connection and try again.
 
-If you are behind a **Proxy Server**, configure proxy authentication first and then activate Katalon Studio again. See: [Configure Proxy for Authentication](https://docs.katalon.com/katalon-studio/docs/configure-proxy.html).
+If you're behind a Proxy Server, before activating Katalon Studio, you need to configure the Authentication Proxy settings. At the bottom of the Activation dialog box, click **Configure Authentication Proxy**. See: [Configure Proxy for Authentication](https://docs.katalon.com/katalon-studio/docs/configure-proxy.html).
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/config-proxy-activation.png" width="70%" alt="troubleshoot proxy issue">
 
 </details>
 
