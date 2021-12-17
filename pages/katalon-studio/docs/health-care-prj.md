@@ -4,7 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/health-care-prj.html
 ---
 
-This sample demonstrates fundamental WebUI testing in Katalon Studio. The Application Under Test (AUT) is the CURA Healthcare Service website: `https://katalon-demo-cura.herokuapp.com/`. You can learn more about WebUI testing in this document: [Introduction to WebUI testing](https://docs.katalon.com/katalon-studio/docs/introduction-to-web-testing.html#before-you-begin).
+This sample demonstrates WebUI testing fundamentals in Katalon Studio. The Application Under Test (AUT) is the CURA Healthcare Service website: `https://katalon-demo-cura.herokuapp.com/`. You can learn more about WebUI testing in this document: [Introduction to WebUI testing](https://docs.katalon.com/katalon-studio/docs/introduction-to-web-testing.html#before-you-begin).
 ## Open the Healthcare sample project
 
 To open the Healthcare sample project, in Katalon Studio, go to **File > New Sample Project > Sample Web UI Tests Project (Healthcare)**.
@@ -59,7 +59,7 @@ Katalon creates three custom keywords in this sample project. To see the custom 
 
 ### Description
 
-This keyword is to check if an element presents in a definite amount of time.
+This keyword is to check if an element displays within a predefined time limit.
 ### Parameters
 
 <table>
@@ -93,7 +93,7 @@ This keyword is to check if an element presents in a definite amount of time.
 
 ### Description
 
-This keyword gets all rows of an HTML table.
+This keyword retrieves values from all rows of an HTML table. To learn more about the HTML element of a table, you can refer to this Mozilla developer document: [HTML table basics](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics).
 ### Parameters
 
 <table>
@@ -116,7 +116,7 @@ This keyword gets all rows of an HTML table.
     <td>outerTagName</td>
     <td>string</td>
     <td>Yes</td>
-    <td>The outer tagname of <code>tr</code> tag, usually <code>tbody</code></td>
+    <td>The outer tagname of the <code>tr</code> tag, usually <code>tbody</code></td>
   </tr>
 </tbody>
 </table>
@@ -127,7 +127,7 @@ This keyword gets all rows of an HTML table.
 
 ### Description
 
-This keyword gets all cells of a row of an HTML table .
+This keyword retrieves values from all cells of a row of an HTML table. To learn more about the HTML element of a table, you can refer to this Mozilla developer document: [HTML table basics](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics).
 ### Parameters
 
 <table>

@@ -168,14 +168,14 @@ Custom keywords can be reused many times in test cases to perform different acti
 
   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/shopping-cart-samples/KS-SHOPPING-custom-keywords-Test-case.png" width="70%" alt="Custom-keyword test cases">
 
-  - **Order and check out a single product** test case adds a single product to the shopping cart, and check out. The flow in this test case is as follows:
+  - The test case: **Order and check out a single product** adds a single product to the shopping cart, and checks out. The flow in this test case is as follows:
 
     1. We use the `loginIntoApplicationWithGlobalVariable` custom keyword to:
 
         - Open the `http://cms.demo.katalon.com` website with maximized windows.
         - Log in with the username and password defined as the global variables in the execution profile.
     
-    2. Go to the **Shop** page.
+    2. We go to the **Shop** page.
     3. Next, we use the `addToCartWithGlobalVariable` custom keyword to:
 
         - Add the product to the cart. The product is defined as a global variable in the execution profile.
@@ -233,14 +233,14 @@ Custom keywords can be reused many times in test cases to perform different acti
           ```
           </details>
 
-  - **Order and check out a single product using coupon** test case adds a single product to the shopping cart, applies a 50% off coupon, then check out. The flow in this test case is as follows:
+  - The test case: **Order and check out a single product using coupon** adds a single product to the shopping cart, applies a 50% off coupon, then checks out. The flow in this test case is as follows:
 
     1. We use the `loginIntoApplicationWithGlobalVariable` custom keyword to:
 
         - Open the `http://cms.demo.katalon.com` website with maximized windows.
         - Log in with the username and password defined as the global variables in the execution profile.
     
-    2. Go to the **Shop** page.
+    2. We go to the **Shop** page.
     3. Next, we use the `applyCouponAndAddToCartWithGlobalVariable` custom keyword to:
 
         - Add the product to the cart. The product is defined as a global variable in the execution profile.
@@ -303,14 +303,14 @@ Custom keywords can be reused many times in test cases to perform different acti
 
   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/shopping-cart-samples/KS-SHOPPING-DDT-Test-case.png" width="70%" alt="DDT test cases">
 
-  **Order and check out multiple products** test case adds products from the product list to the shopping cart, and check out. The flow in this test case is as follows:
+  The test case: **Order and check out multiple products** adds products from the product list to the shopping cart, and checks out. The flow in this test case is as follows:
 
   1. We use the `loginIntoApplicationWithGlobalVariable` custom keyword to:
 
       - Open the `http://cms.demo.katalon.com` website with maximized windows.
       - Log in with the username and password defined as the global variables in the execution profile.
     
-  2. Go to the **Shop** page.
+  2. We go to the **Shop** page.
   3. Next, we want the test case to read the data files. To do so, we use the `getAllData()` keyword to extract product names from the product list as follows:
 
       ```groovy
@@ -386,16 +386,16 @@ To view the data files in this sample project, in the **Test Explorer** panel, g
 Alternatively, you can go to `<your-project-folder>\Data Files` and choose the file you want to open:
 
 - `Constants.xlsx` contains `Product List` and `Multiple Checkout` sheets.
-- `Product List.dat`: a list of products you want to add to the shopping cart.
-- `Multiple Checkout.dat` : a list of the customer's personal information needed for shipping on the Checkout page.
+- `Product List.dat` is a list of products you want to add to the shopping cart.
+- `Multiple Checkout.dat` is a list of the customer's personal information needed for shipping on the **Checkout** page.
 
 ### Test Suites
 
 The sample test suites demonstrate the data-driven testing in Katalon Studio. To view sample test suites, go to the **Test Suite** folder in the **Test Explorer** panel. Double-click to open one of the three following test suites:
 
-1. **Order and check out a single product multiple times** test suite demonstrates data-driven testing by data-binding.
+1. The test suite **Order and check out a single product multiple times** demonstrates data-driven testing by data-binding.
 
-    This test suite binds the **Order and check out a single product** test case with the **Multiple Checkout** data file. After opening the **Test Suite**, click **Show Data Binding** to see the binding data. 
+    This test suite binds the test case **Order and check out a single product** with the **Multiple Checkout** data file. After opening the **Test Suite**, click **Show Data Binding** to see the binding data. 
 
     To learn more about binding data, you can refer to the following document: [Data Binding](https://docs.katalon.com/katalon-studio/docs/run-test-case-external-data.html#manage-data-binding).
 
@@ -404,10 +404,10 @@ The sample test suites demonstrate the data-driven testing in Katalon Studio. To
     </a>
     <p style="text-align: center;"><em>Click the image to enlarge it.</em></p>
 
-2. **Order and check out multiple products** test suite demonstrates data-driven testing by Groovy script.
+2. The test suite **Order and check out multiple products** test suite demonstrates data-driven testing by Groovy script.
 
-    This test suite calls the **Order and check out multiple products** test case. This test case reads the **Product list** test data file by using the Groovy script. 
-    In the script mode of **Order and check out multiple products** test case, you can see the following sample code:
+    This test suite calls the test case **Order and check out multiple products** . This test case reads the **Product list** test data file by using the Groovy script. 
+    In the script mode of the test case **Order and check out multiple products**, you can see the following sample code:
 
     ```groovy
     TestData product = findTestData(GlobalVariable.dataFile)
@@ -423,7 +423,7 @@ The sample test suites demonstrate the data-driven testing in Katalon Studio. To
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/shopping-cart-samples/KS-SHOPPING-Test-suites-data-testing-goorvy-script.png" width="70%" alt="Order and check out multiple products">
 
-3. **Order and check out with Global Variable** test suite demonstrates data-driven testing by global variables.
+3. The test suite **Order and check out with Global Variable** demonstrates data-driven testing by global variables.
 
     In **Order and check out with Global Variable** test suite, we call the **Custom-keywords samples** test cases. These test cases use custom keywords with global variables.
 
@@ -431,7 +431,7 @@ The sample test suites demonstrate the data-driven testing in Katalon Studio. To
     
 ### Test suite collection
 
-**Shopping-cart-tests - Run All Test Suites** test suite collection combines the three above test suites with different testing environments. 
+The test suite collection **Shopping-cart-tests - Run All Test Suites** combines the three test suites shown above with different testing environments. 
 
 <a class="pop">
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/shopping-cart-samples/KS-SHOPPING-Test-suite-collection.png" width="70%" alt="Shopping-cart-tests - Run All Test Suites">
@@ -452,10 +452,10 @@ To execute a test case or a test suite/test suite collection in the sample proje
 3. Observe the test result in the **Log Viewer** tab.
 
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/healthcare-samples/KS-SAMPLES-View-results-in-log-viewer.png" width="70%" alt="Oservice results in the log Viewer">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/healthcare-samples/KS-SAMPLES-View-results-in-log-viewer.png" width="70%" alt="Observe results in the log Viewer">
 
     > Notes:
-    > * You can view test results in the **Result** tab in the test suite or test suite collection level. The test results can be Passed, Failed, Error, or Incomplete.
+    > * You can view test results in the **Result** tab at the test suite or test suite collection level. The test results can be Passed, Failed, Error, or Incomplete.
     > * After executing test suites or test suite collections, you can view your reports and details in `<your-project-folder>/Reports`. Katalon Studio also supports exporting test reports into different formats, such as HTML, CSV, PDF, and JUnit.
     > * For real-time monitoring and better reporting capabilities, consider integrating your project with Katalon TestOps. Learn more about test result reports here: [Upload Test Results to Katalon TestOps from Katalon Studio](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html).
 
