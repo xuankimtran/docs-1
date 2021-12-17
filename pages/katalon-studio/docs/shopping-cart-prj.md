@@ -168,7 +168,7 @@ Custom keywords can be reused many times in test cases to perform different acti
 
   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/shopping-cart-samples/KS-SHOPPING-custom-keywords-Test-case.png" width="70%" alt="Custom-keyword test cases">
 
-  - The test case: **Order and check out a single product** adds a single product to the shopping cart, and checks out. The flow in this test case is as follows:
+  - The test case **Order and check out a single product** adds a single product to the shopping cart, and checks out. The flow in this test case is as follows:
 
     1. We use the `loginIntoApplicationWithGlobalVariable` custom keyword to:
 
@@ -233,7 +233,7 @@ Custom keywords can be reused many times in test cases to perform different acti
           ```
           </details>
 
-  - The test case: **Order and check out a single product using coupon** adds a single product to the shopping cart, applies a 50% off coupon, then checks out. The flow in this test case is as follows:
+  - The test case **Order and check out a single product using coupon** adds a single product to the shopping cart, applies a 50% off coupon, then checks out. The flow in this test case is as follows:
 
     1. We use the `loginIntoApplicationWithGlobalVariable` custom keyword to:
 
@@ -303,7 +303,7 @@ Custom keywords can be reused many times in test cases to perform different acti
 
   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/shopping-cart-samples/KS-SHOPPING-DDT-Test-case.png" width="70%" alt="DDT test cases">
 
-  The test case: **Order and check out multiple products** adds products from the product list to the shopping cart, and checks out. The flow in this test case is as follows:
+  The test case **Order and check out multiple products** adds products from the product list to the shopping cart, and checks out. The flow in this test case is as follows:
 
   1. We use the `loginIntoApplicationWithGlobalVariable` custom keyword to:
 
@@ -404,7 +404,7 @@ The sample test suites demonstrate the data-driven testing in Katalon Studio. To
     </a>
     <p style="text-align: center;"><em>Click the image to enlarge it.</em></p>
 
-2. The test suite **Order and check out multiple products** test suite demonstrates data-driven testing by Groovy script.
+2. The test suite **Order and check out multiple products** demonstrates data-driven testing by the Groovy script.
 
     This test suite calls the test case **Order and check out multiple products** . This test case reads the **Product list** test data file by using the Groovy script. 
     In the script mode of the test case **Order and check out multiple products**, you can see the following sample code:
@@ -449,13 +449,12 @@ To execute a test case or a test suite/test suite collection in the sample proje
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/healthcare-samples/KS-Sample-Run-with-different-browsers.png" width="30%" alt="Run the test case">
 
-3. Observe the test result in the **Log Viewer** tab.
-
+3. Observe the test result in the **Log Viewer** tab. To learn more about analyzing test execution logs, you can refer to this document: [[WebUI] Analyze Test Execution Logs and Debug the Test Case](https://docs.katalon.com/katalon-studio/tutorials/webui-analyze-test-case-execution-logs-and-resolve-errors.html#analyze-test-execution-logs-in-log-viewer).
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/healthcare-samples/KS-SAMPLES-View-results-in-log-viewer.png" width="70%" alt="Observe results in the log Viewer">
 
     > Notes:
-    > * You can view test results in the **Result** tab at the test suite or test suite collection level. The test results can be Passed, Failed, Error, or Incomplete.
+    > * You can view test results in the **Result** tab at the test suite or test suite collection level. The test results can be Passed, Failed, Error, or Incomplete. To learn more about the test status, you can refer in this document: [View and Customize Execution Log](https://docs.katalon.com/katalon-studio/docs/working-with-execution-log.html#view-execution-log).
     > * After executing test suites or test suite collections, you can view your reports and details in `<your-project-folder>/Reports`. Katalon Studio also supports exporting test reports into different formats, such as HTML, CSV, PDF, and JUnit.
     > * For real-time monitoring and better reporting capabilities, consider integrating your project with Katalon TestOps. Learn more about test result reports here: [Upload Test Results to Katalon TestOps from Katalon Studio](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html).
 
