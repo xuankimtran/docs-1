@@ -4,7 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/android-sample-prj.html
 ---
 
-This sample demonstrates fundamental Android testing in Katalon Studio.
+This sample demonstrates Android testing fundamentals in Katalon Studio.
 
 The Application Under Test (AUT) is the `APIDemos.apk` application. You can learn more about mobile testing in this document: [Introduction to mobile testing](https://docs.katalon.com/katalon-studio/docs/katalon_mobile_recorder_introduction.html#mobile-recorder).
 
@@ -66,7 +66,7 @@ To access test cases in this project, go to the **Test Cases** folder in the **T
 
 There are two test cases for different purposes:
 
-1. **Verify Correct Alarm Message** test case is to verify if we can get the correct displayed message. The flow in this test case is as follows:
+1. The test case **Verify Correct Alarm Message** is to verify if we can get the correct displayed message. The flow in this test case is as follows:
 
     - Start the `APIDemos.apk` application. Here, the location of the AUT is under the `<sample-project-folder>/androidapp` folder. We use the following sample code to identify the absolute path to the application:
 
@@ -139,7 +139,7 @@ There are two test cases for different purposes:
       ```
       </details>
 
-2. **Verify Last Items In List** test case is to verify whether we can identify the correct last item in the list.
+2. The test case **Verify Last Items In List** is to verify whether we can identify the correct last item in the list.
     
     - Start the `APIDemos.apk` application. Here, the location of the AUT is under the `<sample-project-folder>/androidapp` folder. We use the following sample code to identify the absolute path to the application:
 
@@ -200,7 +200,7 @@ There are two test cases for different purposes:
       </details>
 ### Test suite
 
-To access the test suite in this project, in the **Test Explorer** panel, go to the **Test Suites > Regression Tests** folder. This test suite combines the two above test cases.
+To access the test suite in this project, in the **Test Explorer** panel, go to the **Test Suites > Regression Tests** folder. This test suite combines the two test cases shown above.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/android-sample-prj/KS-ANDROID-Test-suites.png" width=70% alt="Test Suites"> 
 
@@ -217,7 +217,7 @@ To execute a test case or a test suite in the sample project:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/device.png" width=40% alt="Select the Android device">
 
-4. Observe the test result in the **Log Viewer** tab.
+4. Observe the test result in the **Log Viewer** tab. To learn more about analyzing test execution logs, you can refer to this document: [[WebUI] Analyze Test Execution Logs and Debug the Test Case](https://docs.katalon.com/katalon-studio/tutorials/webui-analyze-test-case-execution-logs-and-resolve-errors.html#analyze-test-execution-logs-in-log-viewer).
 
     <a class="pop">
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/android-sample-prj/KS-ANDROID-Log-viewer.png" width=70% alt="View results">
@@ -225,7 +225,7 @@ To execute a test case or a test suite in the sample project:
     <p style="text-align: center;"><em>Click the image to enlarge it.</em></p>
 
     > Notes:
-    > * You can view test results in the **Result** tab at the test suite level. The test results can be Passed, Failed, Error, or Incomplete.
+    > * You can view test results in the **Result** tab at the test suite level. The test results can be Passed, Failed, Error, or Incomplete. To learn more about the test status, you can refer in this document: [View and Customize Execution Log](https://docs.katalon.com/katalon-studio/docs/working-with-execution-log.html#view-execution-log).
     > * After executing test suites, you can view your reports and details in `<your-project-folder>/Reports`. Katalon Studio also supports exporting test reports into different formats, such as HTML, CSV, PDF, and JUnit.
     > * For real-time monitoring and better reporting capabilities, consider integrating your project with Katalon TestOps. Learn more about test result reports here: [Upload Test Results to Katalon TestOps from Katalon Studio](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html).
 ## See also
