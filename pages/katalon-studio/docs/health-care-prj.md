@@ -55,7 +55,7 @@ Katalon creates three custom keywords in this sample project. To see the custom 
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/healthcare-samples/KS-SAMPLES-custom-keywords.png" width="70%" alt="Custom keywords in the Healthcare project">
 
-<details><summary> <code>isElementPresent</code> </summary>
+<details><summary> <code>com.example.WebUICustomKeywords.isElementPresent</code> </summary>
 
 ### Description
 
@@ -87,13 +87,66 @@ This keyword is to check if an element displays within a predefined time limit.
 </tbody>
 </table>
 
+### Returns
+
+<table>
+<thead>
+  <tr>
+    <th>Param Type</th>
+    <th>Type</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>boolean</td>
+    <td>- <strong>true</strong>: if the element presents.<br>- <strong>false</strong>: if the element does not present.</td>
+  </tr>
+</tbody>
+</table>
+
+### Example
+
+In this example, we want to check whether the **Make Appointment** button displays within 10 seconds.
+
+```groovy
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.checkpoint.CheckpointFactory as CheckpointFactory
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as MobileBuiltInKeywords
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testcase.TestCaseFactory as TestCaseFactory
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testdata.TestDataFactory as TestDataFactory
+import com.kms.katalon.core.testobject.ObjectRepository as ObjectRepository
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WSBuiltInKeywords
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
+import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+
+/*Open browser and navigate to the AUT website.*/
+WebUI.openBrowser(GlobalVariable.G_SiteURL)
+
+/*Check to see whether the Make Appointment button presents within 10 seconds*/
+CustomKeywords.'com.example.WebUICustomKeywords.isElementPresent'(findTestObject('Page_CuraHomepage/btn_MakeAppointment'), 10)
+
+WebUI.closeBrowser()
+
+```
+
 </details>
 
-<details><summary> <code>getHtmlTableColumns</code> </summary>
+<details><summary> <code>com.example.WebUICustomKeywords.getHtmlTableRows</code> </summary>
 
 ### Description
 
-This keyword retrieves values from all rows of an HTML table. To learn more about the HTML element of a table, you can refer to this Mozilla developer document: [HTML table basics](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics).
+This keyword retrieves web elements from all rows in an HTML table. To learn more about the HTML element of a table, you can refer to this Mozilla developer document: [HTML table basics](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics).
 ### Parameters
 
 <table>
@@ -121,13 +174,82 @@ This keyword retrieves values from all rows of an HTML table. To learn more abou
 </tbody>
 </table>
 
+### Returns
+
+The web elements of all rows in the HTML table.
+
+### Example
+
+In this example, we want to retrieve the web elements of all body rows in the following HTML table:
+
+```groovy
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Param Type</th>
+<th>Mandatory</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>to</td>
+<td>TestObject</td>
+<td>Required</td>
+<td>Represent a web element.</td>
+</tr>
+<tr>
+<td>flowControl</td>
+<td>FailureHandling</td>
+<td>Optional</td>
+<td>Specify failure handling schema to determine whether the execution should be allowed to continue or stop. To learn more about failure handling settings, you can refer to this document: <a href="https://docs.katalon.com/katalon-studio/docs/failure-handling.html#default-failure-handlingbehavior">Failure handling</a>.</td>
+</tr>
+</tbody>
+</table>
+```
+
+After putting the table locators as a test object, use the `com.example.WebUICustomKeywords.getHtmlTableRows` custom keyword as follows:
+
+```groovy
+
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+/*Open the website contains the table*/
+WebUI.openBrowser('https://docs.katalon.com/katalon-studio/docs/webui-click.html')
+
+/*Get web elements of all body rows of the table*/
+CustomKeywords.'com.example.WebUICustomKeywords.getHtmlTableRows'(findTestObject('Object Repository/Table/New Test Object'), 'tbody')
+
+WebUI.closeBrowser()
+
+```
 </details>
 
-<details><summary> <code>getHtmlTableColumns</code> </summary>
+
+
+<details><summary> <code>com.example.WebUICustomKeywords.getHtmlTableColumns</code> </summary>
 
 ### Description
 
-This keyword retrieves values from all cells of a row of an HTML table. To learn more about the HTML element of a table, you can refer to this Mozilla developer document: [HTML table basics](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics).
+This keyword retrieves web elements of all cells of a row in an HTML table. To learn more about the HTML element of a table, you can refer to this Mozilla developer document: [HTML table basics](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics).
 ### Parameters
 
 <table>
@@ -154,6 +276,86 @@ This keyword retrieves values from all cells of a row of an HTML table. To learn
   </tr>
 </tbody>
 </table>
+
+### Returns
+
+The web elements of all cells of a row in the HTML table.
+
+### Example
+
+In this example, we want to retrieve the value of the second cell of the second row in the following HTML table. The expected value should be `TestObject`.
+
+```groovy
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Param Type</th>
+<th>Mandatory</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>to</td>
+<td>TestObject</td>
+<td>Required</td>
+<td>Represent a web element.</td>
+</tr>
+<tr>
+<td>flowControl</td>
+<td>FailureHandling</td>
+<td>Optional</td>
+<td>Specify failure handling schema to determine whether the execution should be allowed to continue or stop. To learn more about failure handling settings, you can refer to this document: <a href="https://docs.katalon.com/katalon-studio/docs/failure-handling.html#default-failure-handlingbehavior">Failure handling</a>.</td>
+</tr>
+</tbody>
+</table>
+```
+
+After putting the table locators as a test object, use the `com.example.WebUICustomKeywords.getHtmlTableRows` custom keyword as follows:
+
+```groovy
+
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+/*Open the website contains the table*/
+WebUI.openBrowser('https://docs.katalon.com/katalon-studio/docs/webui-click.html')
+
+/*Get web elements of all body rows of the table*/
+TableRows = CustomKeywords.'com.example.WebUICustomKeywords.getHtmlTableRows'(findTestObject('Object Repository/Table/New Test Object'), 'tbody')
+
+TableRows_All = TableRows.size()
+
+println(TableRows_All)
+
+/*Get web elements of the second row of the table*/
+TableColumns = CustomKeywords.'com.example.WebUICustomKeywords.getHtmlTableColumns'(TableRows[0], 'td')
+
+Value = TableColumns[1].text
+
+println(Value)
+
+WebUI.closeBrowser()
+
+
+```
 
 </details>
 
