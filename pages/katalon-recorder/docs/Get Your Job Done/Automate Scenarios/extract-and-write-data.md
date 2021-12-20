@@ -57,7 +57,7 @@ Follow these steps:
 
 > **Notes**:
 >
-> As a browser extension, Katalon Recorder cannot write data directly to user file system; the extension only writes to the version of the data file that has been added to the workspace. Therefore, you need to download the data file again to view the extracted data.
+> As a browser extension, Katalon Recorder cannot write data directly to the user file system; the extension only writes to the version of the data file that is added to the workspace. Therefore, you need to download the data file again to view the extracted data.
 
 ## Extract and write the data
 
