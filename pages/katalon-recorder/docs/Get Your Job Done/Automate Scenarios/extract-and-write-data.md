@@ -139,10 +139,10 @@ Knowing that items are organized in an HTML table element, we propose the follow
 
 1. Navigate to the checkout page.
 2. Count the number of rows in the table.
-3. Start a loop to iterate over all rows with the row count.
+3. Start a loop to iterate over all items with the row count.
 4. For each row, we extract the name and price of the associated item.
 5. Write the extracted name and price to the CSV file.
-6. Move on to the next row, and continue with *step 4*.
+6. Move on to the next item, and continue with *step 4*.
 
 Follow these steps:
 
