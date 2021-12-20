@@ -144,7 +144,7 @@ There are two test cases for different purposes:
     - Start the `APIDemos.apk` application. Here, the location of the AUT is under the `<sample-project-folder>/androidapp` folder. We use the following sample code to identify the absolute path to the application:
 
         ```groovy
-        /*Get full directory's path of android application*/
+        /*Get full directory path of the android application*/
         def appPath = PathUtil.relativeToAbsolutePath(GlobalVariable.G_AndroidApp, RunConfiguration.getProjectDir())
 
         /*Start the AUT*/
@@ -209,7 +209,7 @@ To access the test suite in this project, in the **Test Explorer** panel, go to 
 To execute a test case or a test suite in the sample project:
 
 1. Select the test case/test suite you want to execute.
-2. On the main toolbar, select **Android** device in the dropdown list next to **Run**.
+2. On the main toolbar, select **Android** in the dropdown list next to **Run**.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/android.png" width=20% alt="Execute the selected test">  
 

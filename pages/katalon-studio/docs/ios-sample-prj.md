@@ -31,7 +31,7 @@ As part of the iOS development procedure, to execute the sample test cases with 
 
 To execute the sample test cases with Xcode simulators, you need to prepare an `.app` file.
 
-1. Open the `Coffee Timer.xcodeproj` project file with Xcode, from where you store the project, go to **App > Your-First-iOS-App > Coffee Timer**. Double-click the `Coffee Timer.xcodeproj` file.
+1. Open the `Coffee Timer.xcodeproj` project file with Xcode. To find the project save location, go to **App > Your-First-iOS-App > Coffee Timer**. Double-click the `Coffee Timer.xcodeproj` file.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/open-xcode-file.png" width=70% alt="Open Coffee Timer Xcode project">
 
@@ -55,7 +55,7 @@ To execute the sample test cases with Xcode simulators, you need to prepare an `
 
 To execute mobile testing with real iOS devices, you need to prepare an `.ipa` file. 
 
-1. Open the `Coffee Timer.xcodeproj` project file with Xcode, from where you store the project, go to **App > Your-First-iOS-App > Coffee Timer**. Double-click the `Coffee Timer.xcodeproj` file.
+1. Open the `Coffee Timer.xcodeproj` project file with Xcode. To find the project save location, go to **App > Your-First-iOS-App > Coffee Timer**. Double-click the `Coffee Timer.xcodeproj` file.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/open-xcode-file.png" width=70% alt="Open Coffee Timer Xcode project">
 
@@ -260,7 +260,7 @@ To access the test suite in this project, in the **Test Explorer** panel, go to 
 To execute a test case or a test suite in the sample project:
 
 1. Select the test case/test suite you want to execute.
-2. On the main toolbar, select **iOS** device in the dropdown list next to **Run**.
+2. On the main toolbar, select **iOS** in the dropdown list next to **Run**.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/select-ios.png" width=30%>
 
