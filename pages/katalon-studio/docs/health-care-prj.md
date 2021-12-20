@@ -180,36 +180,9 @@ The web elements of all rows in the HTML table.
 
 ### Example
 
-In this example, we want to retrieve the web elements of all body rows in the following HTML table:
+In this example, we want to retrieve the web elements of all rows in an HTML table body.
 
-```groovy
-<table>
-<thead>
-<tr>
-<th>Param</th>
-<th>Param Type</th>
-<th>Mandatory</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>to</td>
-<td>TestObject</td>
-<td>Required</td>
-<td>Represent a web element.</td>
-</tr>
-<tr>
-<td>flowControl</td>
-<td>FailureHandling</td>
-<td>Optional</td>
-<td>Specify failure handling schema to determine whether the execution should be allowed to continue or stop. To learn more about failure handling settings, you can refer to this document: <a href="https://docs.katalon.com/katalon-studio/docs/failure-handling.html#default-failure-handlingbehavior">Failure handling</a>.</td>
-</tr>
-</tbody>
-</table>
-```
-
-After putting the table locators as a test object, use the `com.example.WebUICustomKeywords.getHtmlTableRows` custom keyword as follows:
+After creating a test object representing the HTML table, apply the `com.example.WebUICustomKeywords.getHtmlTableRows` custom keyword as follows:
 
 ```groovy
 
@@ -235,7 +208,7 @@ import org.openqa.selenium.Keys as Keys
 /*Open the website contains the table*/
 WebUI.openBrowser('https://docs.katalon.com/katalon-studio/docs/webui-click.html')
 
-/*Get web elements of all body rows of the table*/
+/*Get web elements of all rows of the table body*/
 CustomKeywords.'com.example.WebUICustomKeywords.getHtmlTableRows'(findTestObject('Object Repository/Table/New Test Object'), 'tbody')
 
 WebUI.closeBrowser()
@@ -283,7 +256,7 @@ The web elements of all cells of a row in the HTML table.
 
 ### Example
 
-In this example, we want to retrieve the value of the second cell of the second row in the following HTML table. The expected value should be `TestObject`.
+In this example, we want to retrieve the web elements of all cells of the first row in the following HTML table body. As shown in the below picture, 
 
 ```groovy
 <table>
@@ -306,7 +279,7 @@ In this example, we want to retrieve the value of the second cell of the second 
 <td>flowControl</td>
 <td>FailureHandling</td>
 <td>Optional</td>
-<td>Specify failure handling schema to determine whether the execution should be allowed to continue or stop. To learn more about failure handling settings, you can refer to this document: <a href="https://docs.katalon.com/katalon-studio/docs/failure-handling.html#default-failure-handlingbehavior">Failure handling</a>.</td>
+<td>Specify failure handling schema to determine whether the execution should be allowed to continue or stop.</td>
 </tr>
 </tbody>
 </table>
@@ -338,22 +311,13 @@ import org.openqa.selenium.Keys as Keys
 /*Open the website contains the table*/
 WebUI.openBrowser('https://docs.katalon.com/katalon-studio/docs/webui-click.html')
 
-/*Get web elements of all body rows of the table*/
+/*Get web elements of all rows of the table body*/
 TableRows = CustomKeywords.'com.example.WebUICustomKeywords.getHtmlTableRows'(findTestObject('Object Repository/Table/New Test Object'), 'tbody')
 
-TableRows_All = TableRows.size()
-
-println(TableRows_All)
-
-/*Get web elements of the second row of the table*/
+/*Get web elements of all cells of the first row of the table body*/
 TableColumns = CustomKeywords.'com.example.WebUICustomKeywords.getHtmlTableColumns'(TableRows[0], 'td')
 
-Value = TableColumns[1].text
-
-println(Value)
-
 WebUI.closeBrowser()
-
 
 ```
 
