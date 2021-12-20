@@ -8,7 +8,7 @@ description:
 This article shows you how to execute your automation test using predefined test data from multiple sources.
 
 > Requirements:
-> * An active Katalon Studio license. To learn more about activating licenses, you can refer to this document: [Activate Katalon license](https://docs.katalon.com/katalon-studio/docs/activate-license.html#activate-a-license-with-internet-access).
+> * An active Katalon Studio Enterprise license. To learn more about activating licenses, you can refer to this document: [Activate Katalon license](https://docs.katalon.com/katalon-studio/docs/activate-license.html#activate-a-license-with-internet-access).
 
 ## Expand the data binding section
 
