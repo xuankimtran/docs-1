@@ -63,7 +63,7 @@ Follow these steps:
 After preparing and adding the CSV to the workspace, we locate the items on the checkout page by getting their associated XPath. Using the XPath, we create a test case to iterate over all items, extract the names and prices, and then write the data to the CSV file.
 ### Get the associated XPath
 
-To locate the items on the checkout page for data extraction, we need three types of XPaths: 
+To locate the items on the checkout page for data extraction, we need three types of XPath locators:
 
 * The XPath of a displayed item.
 * The XPath of the name of the item.
@@ -140,9 +140,10 @@ Knowing that items are organized in an HTML table element, we propose the follow
 1. Navigate to the checkout page.
 2. Count the number of rows in the table.
 3. Start a loop to iterate over all items with the row count.
-4. For each row, we extract the name and price of the associated item.
+4. For each row, extract the name and price of the associated item.
 5. Write the extracted name and price to the CSV file.
 6. Move on to the next item, and continue with *step 4*.
+7. When all items are processed, terminate the loop.
 
 Follow these steps:
 
@@ -214,10 +215,10 @@ Follow these steps:
 
     The extracting and writing steps execute the `while` loop, so we use the `endWhile` command to terminate the loop.
 
-8. Play the test case and download the CSV file.
+7. Play the test case and download the CSV file.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/write-and-extract-data/KR-Results.png" width=70% alt="KR results">
 
-9. Open the downloaded CSV file and verify the results.
+8. Open the downloaded CSV file and verify the results.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/write-and-extract-data/KR-Downloaded-CSV.png" width=70% alt="KR downloaded CSV file">
