@@ -11,15 +11,15 @@ permalink: katalon-studio/docs/self-healing.html
 
 When the application under test (AUT) changes, object locators might be broken or unable to identify the target element. Hence, creating and using correct, resilient locators are crucial to the success of Web UI test automation.
 
-From Katalon Studio version 7.6.0, Katalon Studio supports the self-healing mechanism to tackle the issue of broken locators during execution. This feature can reduce your test maintenance effort substantially, exceptionally when the test cases run in batch overnight.
+From version 7.6.0, Katalon Studio supports the self-healing mechanism to tackle the issue of broken locators during execution. This feature can reduce your test maintenance effort substantially, exceptionally when the test cases run in batch overnight.
 
-This article will guide you through:
+This article guides you through:
 
 * Understanding the self-healing mechanism
 * Configuring and executing a test with the self-healing feature
 * Viewing self-healing insights and replacing broken locators
 
-We also prepare a sample project for you to try out. You can clone or download a sample project from our GitHub repository: [Self-healing sample project](https://github.com/katalon-studio/self-healing-demo#self-healing-sample-project).
+We also prepare a sample project for you to try out. You can clone or download this sample project from our GitHub repository: [Self-healing sample project](https://github.com/katalon-studio/self-healing-demo#self-healing-sample-project).
 
 ## Self-healing mechanism
 
@@ -59,21 +59,27 @@ Under the line **Select and prioritize element locator methods for Self-healing 
 * **CSS**
 * **Image**: Image-based object recognition allows using an image representing an object to find that object.
 
-2. Prioritize the selected ones by moving them up and down.
+2. Prioritize these methods by moving them up or down.
 
-3. If you click on **Configure default locator**, you are redirect to the **Test Design** section.
+3. If you click on **Configure default locator**, you are redirected to the **Test Design** section.
 
 ### Exclude objects used with keywords
 
-In some scenarios, you don't need the test engine to try out different locators to find a non-existing object. Hence, you can turn off the self-healing mode when detecting objects used with specific keywords. For example, the `verifyElementPresent` and `verifyElementNotPresent` are excluded by default.
+In some scenarios, you do not need the test engine to try out different locators to find a non-existing object. Hence, you can turn off the self-healing mode when detecting objects used with specific keywords. For example, the `verifyElementPresent` and `verifyElementNotPresent` are excluded by default.
 
-To decide which keyword to exclude from the Self-healing mode, go to **Project > Settings > Self-Healing > Web UI**, then add keywords to the exception list. When an object is used with the specified keywords in this field, Katalon Studio does not try locating that object with the self-healing mode.
+To exclude a keyword from the self-healing mode, do as follows:
+
+1. Go to **Project > Settings > Self-Healing > Web UI**.
+2. In the **Exclude objects used with the following keywords** section, click **Add**.
+3. Insert keywords you want to exclude from the self-healing mode to the exception list.
+
+   When an object is used with the specified keywords in this field, Katalon Studio does not try locating that object with the self-healing mode.
 
 For example:
 
-**Given** the `verifyElementPresent` keyword is added to the exception list, and the **input_Username_username** object's default locator is broken.
+You add the `verifyElementPresent` keyword to the exception list. In your test, the default locator of the **input_Username_username** object is broken.
 
-**When** we run the following block of codes:
+You run the following test script:
 
 ```java
 WebUI.openBrowser('https://katalon-demo-cura.herokuapp.com/')
@@ -83,32 +89,34 @@ WebUI.setText(username, 'John Doe')
 WebUI.verifyElementPresent(username, 5)
 ```
 
-Then the **input_Username_username** object cannot be self-healed, and the test fails as expected.
+Since `verifyElementPresent` keyword is excluded from the self-healing mode, the **input_Username_username** object cannot be self-healed, and the test fails as expected.
 
-### Override in Object's view
+### Override in Object view
 
-In an Object's view, you can decide the default Selection Method for detecting that object during execution. This configuration overrides the global setting of *Self-Healing/Web UI/Test Execution* in that project.
+In an object view, you can decide the default **Selection Method** for detecting that object during execution. This configuration overrides the global setting in **Self-Healing > Web UI > Test Execution**.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/self-healing/Override-object-view.png" alt="override object view" width="70%">
 
 ## Self-healing Insights
 
+After you run your test with the self-healing mode, you can see the **Self-healing Report** in the **Log Viewer**.
+
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/self-healing/self-healing-report.png">
 
-When Katalon Studio finds an object thanks to the Self-healing mechanism, all the replacements are recorded in **Self-Healing Insights** when the test run is over. The locator replacement is **temporary** during the test run. To make the change permanent, you need to approve the change.
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/self-healing/self-healing-insights-766.png">
-
-Right next to the Log Viewer tab, there is a new tab called **Self-Healing Insights** which displays the following information:
+Next to the **Log Viewer** tab, the **Self-healing Insights** tab displays a table with all the suggestion to replace broken locators. The table includes:
 
 * **Test Object ID**: The ID of broken test objects.
-* **Broken Locator**:  The default locator that couldn't detect the object during execution.
+* **Broken Locator**:  The default locator that could not detect the object during execution.
 * **Proposed Locator**: The alternative locator that located the object during execution. The proposed locator is the newly generated smart XPath of that element if the object is found by using its screenshot.
 * **Recovered By**: The Selection Method that Katalon Studio used for detecting the object.
 * **Screenshot**: When finding an object with its alternative locator, Katalon would capture a screenshot of the test object for you to verify whether the found object is the wanted one. Click **Preview** to check the healed object.
 * **Select**: Decide which locator for you to take action.
 
-After selecting one or multiple proposed locators, you can **discard** or **approve** the permanent replacements.
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/self-healing/self-healing-insights-766.png">
+
+During the test run, the locator replacement is temporary. You can select one or multiple proposed locators, then click:
+   * **Approve**: Make the changes permanent
+   * **Discard**: Decline the proposal
 
 ## Tutorial and Usage Example
 
