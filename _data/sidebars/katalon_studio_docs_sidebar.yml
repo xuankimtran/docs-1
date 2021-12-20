@@ -1537,6 +1537,8 @@ items:
                     url: /katalon-recorder/docs/conditional-cases.html
                   - title: "How to Use Control Flow commands in a Test Case"
                     url: /katalon-recorder/docs/how-to-use-conditional-statements-in-a-test-case.html
+              - title: "How to write and extract data in a test case"
+                url: /katalon-recorder/docs/write-and-extract-data.html
               - title: "Back up data automatically"
                 url: /katalon-recorder/docs/auto-backup.html
               - title: "Global variables"
