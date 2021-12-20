@@ -9,9 +9,9 @@ When testing a website with Katalon Recorder, you might want to extract data fro
 
 This tutorial shows you how to use Katalon Recorder to extract data from a website and write the data to a CSV file.
 
-In our example, we follow the scenario "Extract data from the checkout page," which consists of these steps:
+In our example, we follow the scenario "extract data from the checkout page," which consists of these steps:
 
-1. Navigate to the AUT - the Katalon E-commerce page: `https://cms.demo.katalon.com`.
+1. Navigate to the application under test (AUT) - the Katalon E-commerce page: `https://cms.demo.katalon.com`.
 2. Add a few items to the cart.
 3. Navigate to the checkout page of the AUT: `https://cms.demo.katalon.com/checkout/`.
 4. On the checkout page, extract the names and prices of the added items.
@@ -24,18 +24,17 @@ After we follow the first three steps of the presented scenario, the checkout pa
 </a>
 <p style="text-align: center;"><em>Click the image to enlarge</em></p>
 
-Added items are organized in a table with names and prices.
+Items added to the cart are organized in a table displaying names and prices.
 
-To extract the displayed names and prices, and write the data to a CSV file, the process is as follows:
+To extract displayed data on an AUT, and write the data to a CSV file, the process is as follows:
 
-1. Prepare the CSV file: we create a CSV to store the names and prices.
+1. Prepare the CSV file: we create a CSV to store the data.
 2. Add the CSV file to the workspace: we add the CSV file to the Katalon Recorder workspace.
-3. Extract and write data: we create a test case to extract and write the data 
-from the checkout page to the CSV file.
+3. Extract and write data: we create a test case to extract and write the data from the checkout page to the CSV file.
 
 ## Prepare the CSV file
 
-Here we create a CSV file with two columns to store names and prices of the added items.
+As Katalon Recorder navigates using column names in a CSV file, we need to create a CSV file with specific column names for data extraction. In our case, we need two columns for names and prices.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/write-and-extract-data/KR-Prepared-CSV-file.png" width=70% alt="Prepared CSV file">
 
@@ -47,7 +46,7 @@ Follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/write-and-extract-data/KR-Sidebar-TestData.png" width=30% alt="Test Data section">
 
-2. In the displayed file dialog, select the CSV file.
+2. In the displayed file explorer, select the CSV file.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/write-and-extract-data/KR-File-Dialog.png" width=70% alt="File dialog">
 
@@ -70,7 +69,7 @@ To locate the items on the checkout page for data extraction, we need three type
 * The XPath of the name of the item.
 * The XPath of the price of the item.
 
-Here we use the browser **Inspector** tool to get the XPaths.
+We use the browser **Inspector** tool to get the XPath locators.
 
 Follow these steps:
 
@@ -107,7 +106,7 @@ Follow these steps:
     </a>
     <p style="text-align: center;"><em>Click the image to enlarge</em></p>
 
-The three XPaths that we get are as follows:
+The three XPath locators that we get are as follows:
 
 <table>
     <thead>
@@ -136,6 +135,15 @@ From the XPath of the item element, we can see that each row (`<tr>`) in the tab
 
 ### Extract and write data in a test case
 
+Knowing that items are organized in an HTML table element, we propose the following process to extract the data:
+
+1. Navigate to the checkout page.
+2. Count the number of rows in the table.
+3. Start a loop to iterate over all rows with the row count.
+4. For each row, we extract the name and price of the associated item.
+5. Write the extracted name and price to the CSV.
+6. Move on to the next row, and continue with *step 4*.
+
 Follow these steps:
 
 1. Open a new Test Case. With the `open` command, navigate to the checkout page of the AUT.
@@ -144,7 +152,7 @@ Follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/write-and-extract-data/KR-Open-command.png" width=70% alt="KR open command">
 
-2. Get the count of rows of the item table. 
+2. Count the number of rows in the table. 
 
     To iterate over all items in the table, we need the total number of rows. Here we use the `storeXpathCount` command with the target `//*[@id="order_review"]/table/tbody/tr` to count the number of rows. We then store the count into the `rowNum` variable.
 
@@ -160,37 +168,51 @@ Follow these steps:
 
     Here the while command checks if the current ID value is valid using the expression `${ID} < ${rowNum}`.
 
-4. Store the name of an item.
+4. Store the name and price of an item.
 
-    We use the `storeText` command to store the item name into the `itemName` variable.
-
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/write-and-extract-data/KR-storeText-command.png" width=70% alt="KR storeText command">
-
-    The XPath for the command is `//*[@id="order_review"]/table/tbody/tr[${ID}]/td[1]`.
-
-5. Store the price of an item.
-
-    Here we use the `storeText` command to store the item price into the `itemPrice` variable.
+    We use two `storeText` commands to store the item name and price into two variables.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/write-and-extract-data/KR-storeText-command-price.png" width=70% alt="KR storeText command for price">
 
-    The XPath for the command is `//*[@id="order_review"]/table/tbody/tr[${ID}]/td[2]`.
+    The **Target** and **Value** for the two `storeText` commands are:
 
-6. Write data to the CSV file.
+    <table>
+    <thead>
+        <tr>
+            <th>Element</th>
+            <th>XPath</th>
+            <th>Value</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><b>Name</b></td>
+            <td><code>//*[@id="order_review"]/table/tbody/tr[${ID}]/td[1]</code></td>
+            <td><code>itemName</code></td>
+        </tr>
+        <tr>
+            <td><b>Price</b></td>
+            <td><code>//*[@id="order_review"]/table/tbody/tr[${ID}]/td[2]</code></td>
+            <td><code>itemPrice</code></td>
+        </tr>
+    </tbody>
+    </table>
 
-    We use the `appendToCSV` command to append the extracted name and price to the added CSV file.
+5. Write data to the CSV file.
+
+    We use the `appendToCSV` command to append the extracted name and price to the CSV file.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/write-and-extract-data/KR-appendToCSV-command.png" width=70% alt="KR storeText command for price">
 
-    The **Target** of the command is the name of the added CSV file. The added values to the CSV, item name and price, are separated by commas.
+    The **Target** of the command is the name of the CSV file that we prepared. The added values to the CSV file, item name and price, are separated by a comma.
 
-7. Move on to the next item.
+6. Move on to the next item.
 
     To continue selecting and verifying the next item, we use the `storeEval` command to increment the value of the ID variable.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/write-and-extract-data/KR-storeEval-endWhile-commands.png" width=70% alt="KR storeEval endWhile commands">
 
-    The extracting and writing steps execute the `while` loop. Therefore, we use the `endWhile` command to terminate the loop.
+    The extracting and writing steps execute the `while` loop, so we use the `endWhile` command to terminate the loop.
 
 8. Play the test case and download the CSV file.
 
