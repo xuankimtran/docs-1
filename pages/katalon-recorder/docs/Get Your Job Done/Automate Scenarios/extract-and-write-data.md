@@ -57,7 +57,7 @@ Follow these steps:
 
 > **Notes**:
 >
-> Katalon Recorder writes to a copy of the added data file. Therefore, you need to download the file to view the extracted data.
+> Katalon Recorder writes to a copy of the added data file. Therefore, after writing to the file, you need to download it to view the extracted data.
 
 ## Extract and write the data
 
