@@ -256,9 +256,9 @@ The web elements of all cells of a row in the HTML table.
 
 ### Example
 
-In this example, we want to retrieve the web elements of all cells of the first row in the following HTML table body. As shown in the below picture, 
+In this example, we want to retrieve the web elements of all cells of the first row in the following HTML table body. 
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/healthcare-samples/Picture1.png" width="100%" alt="Sample table">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/healthcare-samples/KS-Table-sample.png" width="100%" alt="Sample table">
 
 As shown in the above picture, the row index starts at `0`. Here, to get the first line of the table body, we set paramter as `row[0]` and use the `com.example.WebUICustomKeywords.getHtmlTableRows` custom keyword as follows:
 
