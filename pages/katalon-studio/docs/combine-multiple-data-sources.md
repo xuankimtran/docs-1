@@ -7,7 +7,12 @@ description:
 
 This article shows you how to execute your automation test using predefined test data from multiple sources.
 
-Go to your test suite, click **Show Data Binding** to expand the **Data Binding** section. This feature help you bind the predefined test data files and manage variable binding with the Test Suite you want to run.
+> Requirements:
+> * An active Katalon Studio license. To learn more about activating licenses, you can refer to this document: [Activate Katalon license](https://docs.katalon.com/katalon-studio/docs/activate-license.html#activate-a-license-with-internet-access).
+
+## Expand the data binding section
+
+To expand the **Data Binding** section, go to your test suite, click **Show Data Binding** . This feature help you bind the predefined test data files and manage variable binding with the Test Suite you want to run.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/combine-multiple-data-sources/1-databinding.png" width="70%" alt="Expand data binding section">
 
@@ -16,7 +21,7 @@ In the extended **Data Binding** section, there are two tables:
 - **Test Data**: Specify here the data files for your test execution.
 - **Variable Binding**: This displays all variables of the selected test case. See also [Test case Variables](https://docs.katalon.com/katalon-studio/docs/test-case-variables.html#view-and-declare-variables-in-script-mode).
 
-## Test Data Table
+## Test data table
 ### Adding data sources  
 
 1. In the **Test Data** table, click **Add** to add data file(s). A **Test Data Browser** dialog opens.
@@ -59,7 +64,7 @@ Therefore, we have the following combinations of data sets:
 <p><img width=170 src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/design-a-test-suite/one-many.png"></p><p>Then the final data set used for test execution will be:</p><ul><li>John Marketing</li><li>Joe Marketing</li><li>Mary Marketing</li><li>Emily Marketing</li><li>John Sales</li><li>Joe Sales</li><li>Mary Sales</li><li>Emily Sales</li></ul></td></tr><tr><td>One to One to Many</td><td><p>Given there are three data sets as below:</p><p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/combine-multiple-data-sources/KS-MULTIPLE-Manage-data-relationships-One-One-Many.png" width="70%" alt="Manage Data Relationships One One Many"></p>
 <p><img width=220 src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/design-a-test-suite/one-one-many.png"></p><p>Then the final data set used for test execution will be:</p><ul><li>John Marketing Executive</li><li>John Marketing Director</li><li>Joe Sales Executive</li><li>Joe Sales Director</li></ul></td></tr></tbody></table>
 
-## Variable Binding Table
+## Variable binding table
 
 After adding the test case into the test suite, Katalon automatically imports all variables of the selected test case into the **Variable Binding** table.
 
@@ -80,7 +85,7 @@ After adding the test case into the test suite, Katalon automatically imports al
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/combine-multiple-data-sources/binding.png" width="70%" alt="Final result">
     
     During execution, the _username_ variable looks for the _Username_ column of the _valid-accounts_ excel file while the _password_ variable searches for the _Password_ column of the _valid-accounts_ CSV file.
-### Bind to Scripting value
+### Bind to scripting value
 
 This option allows you to associate the variables with other scripting values.
 
