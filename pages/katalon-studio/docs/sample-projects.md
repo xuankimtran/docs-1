@@ -29,5 +29,5 @@ To help you get familiar with Katalon Studio capabilities, Katalon has created s
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/sample-projects/KS-SAMPLES-Open-sample-project-in-KS.png" width="70%" alt="Open sample projects in Katalon Studio">
 
 
-Katalon has also created various sample projects for different testing purposes. To find and download our sample projects, you can visit our Github repository here: [Katalon Studio sample projects](https://github.com/katalon-studio-samples). 
+We also provide various sample projects for different testing purposes. To find and download our sample projects, you can visit our Github repository here: [Katalon Studio sample projects](https://github.com/katalon-studio-samples). 
 
