@@ -31,7 +31,7 @@ As part of the iOS development procedure, to execute the sample test cases with 
 
 To execute the sample test cases with Xcode simulators, you need to prepare an `.app` file.
 
-1. Open the `Coffee Timer.xcodeproj` project file with Xcode. To find the project save location, go to **App > Your-First-iOS-App > Coffee Timer**. Double-click the `Coffee Timer.xcodeproj` file.
+1. Open the `Coffee Timer.xcodeproj` project file with Xcode. To find the project save location, go to **&lt;your-project-folder&gt; > App > Your-First-iOS-App > Coffee Timer**. Double-click the `Coffee Timer.xcodeproj` file.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/open-xcode-file.png" width=70% alt="Open Coffee Timer Xcode project">
 
@@ -55,7 +55,7 @@ To execute the sample test cases with Xcode simulators, you need to prepare an `
 
 To execute mobile testing with real iOS devices, you need to prepare an `.ipa` file. 
 
-1. Open the `Coffee Timer.xcodeproj` project file with Xcode. To find the project save location, go to **App > Your-First-iOS-App > Coffee Timer**. Double-click the `Coffee Timer.xcodeproj` file.
+1. Open the `Coffee Timer.xcodeproj` project file with Xcode. To find the project save location, go to **&lt;your-project-folder&gt; > App > Your-First-iOS-App > Coffee Timer**. Double-click the `Coffee Timer.xcodeproj` file.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/open-xcode-file.png" width=70% alt="Open Coffee Timer Xcode project">
 
@@ -67,7 +67,7 @@ To execute mobile testing with real iOS devices, you need to prepare an `.ipa` f
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/deployment.png" width=45% alt="Choose the iOS system">
 
-4. Switch to the **Signing & Capabilities** tab, check the **Automatically manage signing** box, then choose a team added before.
+4. Switch to the **Signing & Capabilities** tab, check the **Automatically manage signing** box, then choose the team that has your device registered in the Apple Developer Portal.
 
 5. To build the `.ipa` file, click **Product > Build**. 
 
