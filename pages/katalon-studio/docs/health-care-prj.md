@@ -75,13 +75,13 @@ This keyword is to check if an element displays within a predefined time limit.
   <tr>
     <td>to</td>
     <td>TestObject<br></td>
-    <td>Yes</td>
+    <td>Required</td>
     <td>A Katalon test object</td>
   </tr>
   <tr>
     <td>timeout</td>
     <td>int</td>
-    <td>Yes</td>
+    <td>Required</td>
     <td>The timeout to wait for the element to appear (in seconds).</td>
   </tr>
 </tbody>
@@ -162,13 +162,13 @@ This keyword retrieves web elements from all rows in an HTML table. To learn mor
   <tr>
     <td>table</td>
     <td>TestObject<br></td>
-    <td>Yes</td>
+    <td>Required</td>
     <td>A Katalon test object represents an HTML table.</td>
   </tr>
   <tr>
     <td>outerTagName</td>
     <td>string</td>
-    <td>Yes</td>
+    <td>Required</td>
     <td>The outer tagname of the <code>tr</code> tag, usually <code>tbody</code></td>
   </tr>
 </tbody>
@@ -238,13 +238,13 @@ This keyword retrieves web elements of all cells of a row in an HTML table. To l
   <tr>
     <td>table</td>
     <td>WebElement</td>
-    <td>Yes</td>
+    <td>Required</td>
     <td>A WebElement represents a row of an HTML table</td>
   </tr>
   <tr>
     <td>tagName</td>
     <td>string</td>
-    <td>Yes</td>
+    <td>Required</td>
     <td>The HTML column tagname, usually <code>td/th</code></td>
   </tr>
 </tbody>
@@ -258,34 +258,9 @@ The web elements of all cells of a row in the HTML table.
 
 In this example, we want to retrieve the web elements of all cells of the first row in the following HTML table body. As shown in the below picture, 
 
-```groovy
-<table>
-<thead>
-<tr>
-<th>Param</th>
-<th>Param Type</th>
-<th>Mandatory</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>to</td>
-<td>TestObject</td>
-<td>Required</td>
-<td>Represent a web element.</td>
-</tr>
-<tr>
-<td>flowControl</td>
-<td>FailureHandling</td>
-<td>Optional</td>
-<td>Specify failure handling schema to determine whether the execution should be allowed to continue or stop.</td>
-</tr>
-</tbody>
-</table>
-```
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/healthcare-samples/KS-SAMPLE-Table-sample.jpg" width="70%" alt="Sample table">
 
-After putting the table locators as a test object, use the `com.example.WebUICustomKeywords.getHtmlTableRows` custom keyword as follows:
+As shown in the above picture, the row index starts at `0`. Here, to get the first line of the table body, we set paramter as `row[0]` and use the `com.example.WebUICustomKeywords.getHtmlTableRows` custom keyword as follows:
 
 ```groovy
 
@@ -312,10 +287,10 @@ import org.openqa.selenium.Keys as Keys
 WebUI.openBrowser('https://docs.katalon.com/katalon-studio/docs/webui-click.html')
 
 /*Get web elements of all rows of the table body*/
-TableRows = CustomKeywords.'com.example.WebUICustomKeywords.getHtmlTableRows'(findTestObject('Object Repository/Table/New Test Object'), 'tbody')
+Rows = CustomKeywords.'com.example.WebUICustomKeywords.getHtmlTableRows'(findTestObject('Object Repository/Table/New Test Object'), 'tbody')
 
 /*Get web elements of all cells of the first row of the table body*/
-TableColumns = CustomKeywords.'com.example.WebUICustomKeywords.getHtmlTableColumns'(TableRows[0], 'td')
+TableColumns = CustomKeywords.'com.example.WebUICustomKeywords.getHtmlTableColumns'(Rows[0], 'td')
 
 WebUI.closeBrowser()
 
