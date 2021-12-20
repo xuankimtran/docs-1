@@ -34,7 +34,7 @@ To set desired capabilities for Windows Spy/Recorder Utility, do as follows:
 
 > Requirements:
 > * Katalon Studio version 7.7.0 onwards.
-> * An active Katalon Studio license. To learn more about activating licenses, you can refer to this document: [Activate Katalon license](https://docs.katalon.com/katalon-studio/docs/activate-license.html).
+> * An active Katalon Studio Enterprise license. To learn more about activating licenses, you can refer to this document: [Activate Katalon license](https://docs.katalon.com/katalon-studio/docs/activate-license.html).
 
 To set desired capabilities for Native Windows Recorder, the steps are the same as setting capbilities for Windows Spy/Recorder Utility, see above: [Set desired capabilities for Windows Spy/Recorder Utility](https://docs.katalon.com/katalon-studio/docs/windows-desired-capabilities.html#for-windows-spyrecorder-utility   ).
 
