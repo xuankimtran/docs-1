@@ -1,5 +1,5 @@
 ---
-title: "Android sample project"
+title: "Sample Android mobile tests project"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/android-sample-prj.html
 ---

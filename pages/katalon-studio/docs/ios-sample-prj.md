@@ -1,5 +1,5 @@
 ---
-title: "iOS sample project"
+title: "Sample iOS mobile tests project"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/iOS-sample-prj.html
 ---
