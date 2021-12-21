@@ -39,7 +39,7 @@ To learn how to configure test design, see [Configure Test Design](http://docs.k
 
 ### Enable and disable Self-healing mode
 
-In Katalon Studio, the self-healing feature is enabled by default. To disable the self-healing mode, there are two ways:
+In Katalon Studio, the self-healing mode is enabled by default. To disable the self-healing mode, there are two ways:
 
 * Go to **Project > Settings > Self-Healing > WebUI**, then uncheck the box **Enable Self-healing execution**.
 * From the toolbar of Katalon Studio, click on the **Self-Healing** icon, then select **Disable Self-healing**.
