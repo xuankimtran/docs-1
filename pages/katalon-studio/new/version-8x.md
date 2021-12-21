@@ -14,31 +14,27 @@ description: Release notes 8.x
 ### New features
 
 * [WebUI] Introduced an option to use the Spy, Record, and Smart Wait function with a packed extension, now available on the Chrome Web Store. This extension is compatible with Katalon Studio version 8.2.5 Beta onwards. See [Katalon Compact Utility](https://docs.katalon.com/katalon-studio/docs/katalon-compact-utility.html).
-* TestCloud Integration (Beta)
-* Support a project setting to include/exclude timestamps in .properties files in project/settings folder
-* Support connecting to HANA DB
-* Support xpath:customAttributes in Web Locator Strategies
+* Introduced TestCloud integration (Beta). See [link]()
+* Introduced an option in project setting to include/exclude timestamps in the .properties files. See [link]
 
 ### Enhancements
 
-* Upgrade Embedded Edge WebDriver to the latest
-* Upgrade Embedded ChromeDriver to the latest
-* Implement Digital Signature on Windows build
-* TestOps Integration
+* Added Microsoft Edge (Chromium) 96 compatibility.
+* Added Chrome 97 compatibility.
+* [Security] Implemented Digital Signature on Windows build
+* [Security Compliance]: Upgraded Netty and Jsoup library
+* Support connecting to HANA DB
+* Support xpath:customAttributes in Web Locator Strategies
+* [TestOps Integration]:
     * Remove Create/Update Script Repo and change in TestOps icon
     * Change in TestOps integration dialog
-* Improve Performance
-    * Improve responsiveness and loading time when renaming/moving test cases folder in big projects
-* Customer Success survey
+* [Performance] Improved responsiveness and loading time when renaming/moving test cases folder in big projects
 * Authentication and TestOps Integration
     * Update KatOne Server URL
     * Remove Override option in Project Settings
-    * Change text: from ‘Deactivate’ to  ‘Log out’
-* Security Compliance
-    * Upgrade Netty library
-    * Upgrade jsoup library
-* Improve visibility of Search Function on UI
-* Remove unused messages in Test Object, Spy/Recorder, Test Suite Collection, and Test Suite
+    * Change text: from ‘Deactivate’ to ‘Log out’
+* Improved the visibility of the search function on UI. See [link]
+* Removed unused messages in Test Object, Spy/Recorder, Test Suite Collection, and Test Suite
 
 ### Fixes
 
