@@ -16,16 +16,18 @@ From version 7.6.0, Katalon Studio supports the self-healing mechanism to tackle
 This article guides you through:
 
 * Understanding the self-healing mechanism
-* Configuring and executing a test with the self-healing feature
+* Configuring and executing a test with the self-healing mode
 * Viewing self-healing insights and replacing broken locators
 
 We also prepare a sample project for you to try out. You can clone or download this sample project from our GitHub repository: [Self-healing sample project](https://github.com/katalon-studio/self-healing-demo#self-healing-sample-project).
+
+> Learn more with our Katalon Academy course: [Self-Healing Mechanism in Test Automation](https://academy.katalon.com/courses/self-healing-testing/?utm_source=kat_docs&utm_medium=self_healing_tests).
 
 ## Self-healing mechanism
 
 With the self-healing enabled, when Katalon Studio fails to find an object with its default locator, Katalon tries other pre-configured locators associated with that object.
 
-If Katalon Studio finds an object by any of the alternative selectors, the test continues running. Once the broken object is self-healed, the alternative locator finding the object is used for that particular broken test object for the remaining execution. This helps shorten execution time by preventing self-healing from taking place again and again with the same broken object.
+If Katalon Studio finds an object by any alternative selectors, the test continues running. Once the broken object is self-healed, the alternative locator finding the object is used for that particular broken test object for the remaining execution. This helps shorten execution time by preventing self-healing happening again and again with the same broken object.
 
 When the test execution is over, Katalon Studio proposes replacing the broken locator with the locator having found the object. Unless Katalon Studio can find the target object, depending on the failure handling option that you have designed, the test execution may stop or keep going. To learn more about the failure handling option, see [Failure Handling](https://docs.katalon.com/katalon-studio/docs/failure-handling.html).
 
@@ -50,14 +52,14 @@ You can decide which alternative locators to be used in terms of selection metho
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/self-healing/self-healing-settings.png" alt="self-healing" width="100%">
 
-Under the line **Select and prioritize element locator methods for Self-healing execution**, your can find a the **Element locator method** table.
+Under the line **Select and prioritize element locator methods for Self-healing execution**, you can find the **Element locator method** table.
 
 1. Select one or multiple selection methods used for self-healing tests:
 
-* **XPath**: If Katalon fails to detect an object with its default XPath value, other XPath options are applied automatically.
-* **Attributes**
-* **CSS**
-* **Image**: Image-based object recognition allows using an image representing an object to find that object.
+   * **XPath**: If Katalon fails to detect an object with its default XPath value, other XPath options are applied automatically.
+   * **Attributes**
+   * **CSS**
+   * **Image**: Image-based object recognition allows using an image representing an object to find that object.
 
 2. Prioritize these methods by moving them up or down.
 
@@ -103,7 +105,7 @@ After you run your test with the self-healing mode, you can see the **Self-heali
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/self-healing/self-healing-report.png">
 
-Next to the **Log Viewer** tab, the **Self-healing Insights** tab displays a table with all the suggestion to replace broken locators. The table includes:
+Next to the **Log Viewer** tab, the **Self-healing Insights** tab displays a table with all the suggestions to replace broken locators. The table includes:
 
 * **Test Object ID**: The ID of broken test objects.
 * **Broken Locator**:  The default locator that could not detect the object during execution.
@@ -114,29 +116,12 @@ Next to the **Log Viewer** tab, the **Self-healing Insights** tab displays a tab
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/self-healing/self-healing-insights-766.png">
 
-During the test run, the locator replacement is temporary. You can select one or multiple proposed locators, then click:
-   * **Approve**: Make the changes permanent
-   * **Discard**: Decline the proposal
+During the test run, the locator replacement is temporary. In the **Self-Healing Insights**, you can discover broken locators that has been recovered by the self-healing mode at runtime.
 
-## Tutorial and Usage Example
+Verify if the found object is the one you expect. You can select one or multiple proposed locators, then click:
 
-> You can clone or download a sample project from our GitHub repository: [Self-healing sample project](https://github.com/katalon-studio/self-healing-demo#self-healing-sample-project).
-
-### Capture objects with Recording/Spying
-
-1. Since Self-healing is active by default, go to **Project > Settings > Test Design > Web UI** to choose the default selection method during spying/recording.
-2. Capture objects and change the locators as your wish.
-
-### Execute the test case
-
-1. Go to **Project > Settings > Self-Healing > Web UI** to choose selection methods for self-healing execution and their order.
-2. Run your test case
-
-### Approve the replacement
-
-1. Have a look at **Self-Healing Insights** and discover if there is any broken locator that has been recovered by Self-healing at runtime.
-2. Verify if the found object is the one you expect.
-3. Approve the replacement to make it permanent.
+   * **Approve**: Make the changes permanent.
+   * **Discard**: Decline the proposal.
 
 > Known limitations
 >
