@@ -99,22 +99,26 @@ items:
                 url: /katalon-studio/docs/selenium-testng-junit-migration.html
               - title: "Import Selenium IDE v3 projects"
                 url: /katalon-studio/docs/import-selenium-ide.html
-      - title: "Tutorials and Samples"
+          - title: "Sample Projects"
+            tree:
+              - title: "Sample projects overview"
+                url: /katalon-studio/docs/sample-projects.html
+              - title: "Sample API tests project"
+                url: /katalon-studio/docs/web-service-samples.html
+              - title: "Sample BDD (Cucumber) tests project"
+                url: /katalon-studio/docs/bdd-samples.html
+              - title: "Sample WebUI tests project with data-driven testing (Shopping Cart sample)"
+                url: /katalon-studio/docs/shopping-cart-prj.html
+              - title: "Sample WebUI tests project (Healthcare sample)"
+                url: /katalon-studio/docs/health-care-prj.html
+              - title: "Sample Android mobile tests project"
+                url: /katalon-studio/docs/android-sample-prj.html
+              - title: "Sample iOS mobile tests project"
+                url: /katalon-studio/docs/iOS-sample-prj.html
+      - title: "Tutorials"
         tree:
           - title: "Quick Start"
             url: /katalon-studio/docs/quick_start.html
-          - title: "Sample Projects"
-            tree:
-              - title: "Sample Projects"
-                url: /katalon-studio/docs/sample-projects.html
-              - title: "Shopping Cart Project"
-                url: /katalon-studio/docs/shopping-cart-prj.html
-              - title: "Health Care Project"
-                url: /katalon-studio/docs/health-care-prj.html
-              - title: "Web Service Samples"
-                url: /katalon-studio/docs/web-service-samples.html
-              - title: "BDD Samples"
-                url: /katalon-studio/docs/bdd-samples.html
           - title: "iOS"
             tree:
               - title: "[Mobile] Create and Run iOS Test Case"
