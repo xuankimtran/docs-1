@@ -9,7 +9,8 @@ permalink: katalon-studio/docs/ddt-at-test-case-level.html
 > * This Proof of Concept (PoC) is not ready for production use. We recommend using this PoC for evaluation purposes only.
 > * Download Katalon Studio version [8.1.2.alpha](url).
 
-Data-driven testing (DDT) at the test case level allows you to add one or more data files and manage variable binding at the test case level. 
+
+Data-driven testing (DDT) at the test case level allows you to add one or more data files and manage data binding at the test case level. 
 
 This function is useful if you want to:
 - Bind each test case to a fixed set of data.
@@ -110,7 +111,10 @@ To learn more about the dynamic test suite, you can refer to this document: [Dyn
 3. To add test cases via search query, input the search condition into the **Query** box. Then hit **Preview** to query out the matching test cases. To learn more about the search query function, you can refer to this document: [Search test cases](https://docs.katalon.com/katalon-studio/docs/search.html).  
   For example: To add the associated test case into this dynamic test suite, you can input `id=(Test Cases/DDT at TC level)` into the **Query** box. The matched test case appears in the test suite.
 
-    <img src="url" width="70%" alt="Results after searching query">
+    <a class="pop">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-test-case-level/KS-DDT-Dynamic-Test-suite.png" width="70%" alt="Results after searching query">
+    </a>
+    <p style="text-align: center;"><em>Click the image to enlarge it.</em></p>
     
 4. Hit **Run** to execute the test suite.  
 
@@ -134,14 +138,18 @@ To learn more about the dynamic test suite, you can refer to this document: [Dyn
       <table>
       <thead>
         <tr>
-          <th>Use Test Case level </th>
-          <th>Use Suite Test Case level</th>
+          <th>Options</th>
+          <th>Description</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>With this option:<br>- Data in the <strong>Test Data</strong> and <strong>Variable Binding</strong> tables are from the test case added in Step 1.<br>- You can edit these sections at the TC level.</td>
-          <td>With this option:<br>- Data in the <strong>Test Data</strong> and <strong>Variable Binding</strong> tables are from the STC.<br>- You can edit these sections at the STC level. To learn more about binding data at the STC level, you can refer to this document:<br><a href="https://docs.katalon.com/katalon-studio/docs/run-test-case-external-data.html#manage-data-binding" target="_blank" rel="noopener noreferrer">Manage Data Binding</a>.</td>
+          <td>Use Variables and Binding at Test Case</td>
+          <td>With this option:<br><br>- Katalon executes the test suite with the data binding at the test case level.<br>- To edit the data binding at the test case level, click the Test Case hyperlink.<br><img src="url" width="70%" alt="Click the Test Case hyperlink"><br>The users are transitted to the Variables and Binding tab of the test case editor.<br><img src="url" width="70%" alt="Choose the Use Variables and Binding at Test Case option"></td>
+        </tr>
+        <tr>
+          <td>Use Variables and Binding at Suite Test Case</td>
+          <td>With this option:<br><br>- Katalon executes the test suite with the data binding at the suite test case level.<br>- You can edit the Test Data and Variable Binding tables at the STC level. To learn more about binding data at the STC level, you can refer to this document: <a href="https://docs.katalon.com/katalon-studio/docs/run-test-case-external-data.html#manage-data-binding" target="_blank" rel="noopener noreferrer">Manage Data Binding</a>.<br><img src="url" width="70%" alt="Choose the Use Variables and Binding at Suite Test Case option"></td>
         </tr>
       </tbody>
       </table>
@@ -159,6 +167,9 @@ After the test suite execution, to view your test reports, in the **Test Explore
       
   <img src="url" width="70%" alt="Reports">
 
-> Note:
->
-> Katalon Studio supports exporting test reports in **HTML**, **CSV**, **PDF** and **JUnit**. You can learn more about exporting reports here: [Generate reports](https://docs.katalon.com/katalon-studio/docs/test-suite-report.html#automatically-generate-reports).
+Alternatively, you can also view your reports and details in `<your-project-folder>/Reports`. Katalon Studio also supports exporting test reports into different formats, such as HTML, CSV, PDF, and JUnit. You can learn more about exporting reports here: [Generate reports](https://docs.katalon.com/katalon-studio/docs/test-suite-report.html#automatically-generate-reports).
+
+> Notes:
+> * For real-time monitoring and better reporting capabilities, consider integrating your project with Katalon TestOps. Learn more about test result reports here: [Upload Test Results to Katalon TestOps from Katalon Studio](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html).
+
+
