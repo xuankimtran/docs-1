@@ -4,10 +4,9 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/ddt-at-test-case-level.html
 ---
 
-> **Important**
->
+> Important:
 > * This Proof of Concept (PoC) is not ready for production use. We recommend using this PoC for evaluation purposes only.
-> * Download Katalon Studio version [8.1.2.alpha](url).
+> * Download Katalon Studio version [8.2.2.alpha](url).
 
 
 Data-driven testing (DDT) at the test case level allows you to add one or more data files and manage data binding at the test case level. 
@@ -17,12 +16,11 @@ This function is useful if you want to:
 - Run a test case with different test data combinations.
 - When executing a test suite containing associated test cases, you can see the results of each test iteration with the mapped test data.
 
-> **What is an iteration?**
+> What is an iteration?
 >
 > An iteration is a test case executed with a test data row.
 
-> **Requirements:**
->
+> Requirements:
 > * An active Katalon Studio Enterprise license.
 > * An active Katalon Runtime Engine license. To learn more about Katalon licenses, you can refer to this document here: [Katalon licensing](https://docs.katalon.com/katalon-studio/docs/license.html).
 
@@ -145,18 +143,17 @@ To learn more about the dynamic test suite, you can refer to this document: [Dyn
       <tbody>
         <tr>
           <td>Use Variables and Binding at Test Case</td>
-          <td>With this option:<br><br>- Katalon executes the test suite with the data binding at the test case level.<br>- To edit the data binding at the test case level, click the Test Case hyperlink.<br><img src="url" width="70%" alt="Click the Test Case hyperlink"><br>The users are transitted to the Variables and Binding tab of the test case editor.<br><img src="url" width="70%" alt="Choose the Use Variables and Binding at Test Case option"></td>
+          <td>With this option:<br><br>- Katalon executes the test suite with the data binding at the test case level.<br>- To edit the data binding at the test case level, click the <strong>Test Case</strong> hyperlink.<br>By doing so, the users are transitted to the <strong>Variables and Binding</strong> tab of the test case editor.<br><img src="gif" width="70%" alt="Choose the Use Variables and Binding at Test Case option"></td>
         </tr>
         <tr>
           <td>Use Variables and Binding at Suite Test Case</td>
-          <td>With this option:<br><br>- Katalon executes the test suite with the data binding at the suite test case level.<br>- You can edit the Test Data and Variable Binding tables at the STC level. To learn more about binding data at the STC level, you can refer to this document: <a href="https://docs.katalon.com/katalon-studio/docs/run-test-case-external-data.html#manage-data-binding" target="_blank" rel="noopener noreferrer">Manage Data Binding</a>.<br><img src="url" width="70%" alt="Choose the Use Variables and Binding at Suite Test Case option"></td>
+          <td>With this option:<br><br>- Katalon executes the test suite with the data binding at the suite test case level.<br>- You can edit the <strong>Test Data</strong> and <strong>Variable Binding</strong> tables at the STC level. To learn more about binding data at the STC level, you can refer to this document: <a href="https://docs.katalon.com/katalon-studio/docs/run-test-case-external-data.html#manage-data-binding" target="_blank" rel="noopener noreferrer">Manage Data Binding</a>.<br><img src="url" width="70%" alt="Choose the Use Variables and Binding at Suite Test Case option"></td>
         </tr>
       </tbody>
       </table>
       
-      > Note:
-      >
-      > In case your test suite has existing data configurations, switching to the **Use Test Case level** option does not remove the preconfigured data in the suite test case.
+      > Notes:
+      > * In case your test suite has existing data configurations, switching to the **Use Variables and Binding at Test Case** option does not remove the preconfigured data in the suite test case.
 
   4. When you are done with the configuration, hit **Run** to execute your test suite. 
 ### Test Reports
