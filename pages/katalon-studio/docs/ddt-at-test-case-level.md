@@ -162,10 +162,8 @@ To learn more about the dynamic test suite, you can refer to this document: [Dyn
   4. When you are done with the configuration, hit **Run** to execute your test suite. 
 ### Test Reports
 
-After the test suite execution, to view your test reports, in the **Test Explorer** panel, right-click at **Test Report > Open containing folder**. In the report, you can view:
-  -  The final status of your test and test steps.
-  -  The mapped data file of each test iteration.
-      
+After the test suite execution, to view your test reports, in the **Test Explorer** panel, right-click at **Test Report > Open containing folder**. In the report, you can view the final status of your test and test steps.
+
   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-test-case-level/KS-DDT-Reports.png" width="70%" alt="Reports">
 
 Katalon Studio also supports exporting test reports into different formats, such as HTML, CSV, PDF, and JUnit. You can learn more about exporting reports here: [Generate reports](https://docs.katalon.com/katalon-studio/docs/test-suite-report.html#automatically-generate-reports).
