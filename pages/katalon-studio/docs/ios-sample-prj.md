@@ -73,20 +73,24 @@ To execute mobile testing with real iOS devices, you need to prepare an `.ipa` f
 
 6. To export the `.ipa` file, click **Product > Archive**. Follow the instructions to get the `Coffee Timer.ipa` file.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/export.gif" width=70%>
+    <a class="pop">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/export.gif" width=70% alt="Build the Coffee Timer.ipa">
+    </a>
+    <p style="text-align: center;"><em>Click the gif to enlarge it.</em></p>
 
-7. Put the `Coffee Time.ipa` file into the `App` folder of the sample project. Katalon will use this file to start the `Coffee Time` application.
-8. To verify the `.ipa` file, do as follows:
+7. Verify the `.ipa` file, do as follows:
 
    - Navigate to **Window > Devices** in Xcode.
    - Choose your device from the **Devices** list.
    - Click *Add* (+) to browse the `.ipa` file.
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/image2016-8-8-143A313A5.png" width=60%>
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/image2016-8-8-143A313A5.png" width=60% alt="Add the .ipa file to Xcode devices">
       
    - Once installed successfully, the application appears in the **Installed Apps** section.  
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/image2016-8-8-143A313A14.png" width=60%>
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/image2016-8-8-143A313A14.png" width=60% alt="Add the .ipa file to Xcode devices">
+
+8. Put the `Coffee Time.ipa` file into the `App` folder of the sample project. Katalon will use this file to start the `Coffee Time` application.
 
 </details>
 
