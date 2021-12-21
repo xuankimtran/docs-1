@@ -209,7 +209,7 @@ To access the test suite in this project, in the **Test Explorer** panel, go to 
 To execute a test case or a test suite in the sample project:
 
 1. Select the test case/test suite you want to execute.
-2. On the main toolbar, select **Android** in the dropdown list next to **Run**.
+2. On the main toolbar, select **Android** as the device type in the dropdown list next to **Run**.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/android.png" width=20% alt="Execute the selected test">  
 
@@ -225,7 +225,7 @@ To execute a test case or a test suite in the sample project:
     <p style="text-align: center;"><em>Click the image to enlarge it.</em></p>
 
     > Notes:
-    > * You can view test results in the **Result** tab at the test suite level. The test results can be Passed, Failed, Error, or Incomplete. To learn more about the test status, you can refer in this document: [View and Customize Execution Log](https://docs.katalon.com/katalon-studio/docs/working-with-execution-log.html#view-execution-log).
+    > * You can view test results in the **Result** tab at the test suite level. The test results can be Passed, Failed, Error, or Incomplete. To learn more about test statuses, you can refer to this document: [View and Customize Execution Log](https://docs.katalon.com/katalon-studio/docs/working-with-execution-log.html#view-execution-log).
     > * After executing test suites, you can view your reports and details in `<your-project-folder>/Reports`. Katalon Studio also supports exporting test reports into different formats, such as HTML, CSV, PDF, and JUnit.
     > * For real-time monitoring and better reporting capabilities, consider integrating your project with Katalon TestOps. Learn more about test result reports here: [Upload Test Results to Katalon TestOps from Katalon Studio](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html).
 ## See also

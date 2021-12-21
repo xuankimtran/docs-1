@@ -63,7 +63,7 @@ To execute mobile testing with real iOS devices, you need to prepare an `.ipa` f
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/select-device.png" width=35% alt="Choose the iOS device">
 
-3. In the **General** tab, set deployment iOS version and select device type in the **Deployment Info** section.
+3. In the **General** tab, set the deployment iOS version and select the device type in the **Deployment Info** section.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/deployment.png" width=45% alt="Choose the iOS system">
 
@@ -142,8 +142,8 @@ public class Common {
 ```
 
 > Notes:
-> * If you change the name of the `Coffee Timer` application while building it, make sure to change the absolute path to the new file accordingly. For example, if application's name is `Coffee Timer2.ipa`, the absolute path should be `/App/Coffee Timer2.ipa`.
-> * If you are running test cases with Xcode simulators. The path should lead to the `Coffee Timer.app` file instead.
+> * If you change the name of the `Coffee Timer` application while building it, make sure to change the absolute path to the new file accordingly. For example, if the application name is `Coffee Timer2.ipa`, the absolute path should be `/App/Coffee Timer2.ipa`.
+> * If you are running test cases with Xcode simulators, the path should lead to the `Coffee Timer.app` file instead.
 
 ### Test cases
 
@@ -260,7 +260,7 @@ To access the test suite in this project, in the **Test Explorer** panel, go to 
 To execute a test case or a test suite in the sample project:
 
 1. Select the test case/test suite you want to execute.
-2. On the main toolbar, select **iOS** in the dropdown list next to **Run**.
+2. On the main toolbar, select **iOS** as the device type in the dropdown list next to **Run**.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/select-ios.png" width=30%>
 
