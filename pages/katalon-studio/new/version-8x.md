@@ -13,47 +13,45 @@ description: Release notes 8.x
 
 ### New features
 
-* [WebUI] Introduced an option to use the Spy, Record, and Smart Wait function with a packed extension, now available on the Chrome Web Store. This extension is compatible with Katalon Studio version 8.2.5 Beta onwards. See [Katalon Compact Utility](https://docs.katalon.com/katalon-studio/docs/katalon-compact-utility.html).
+* [WebUI] Introduced an option to use the Spy, Record, and Smart Wait function with a packed extension, now available on the Chrome Web Store. This extension is compatible with Katalon Studio version 8.2.5 onwards. See [Katalon Compact Utility](https://docs.katalon.com/katalon-studio/docs/katalon-compact-utility.html).
 * Introduced TestCloud integration (Beta). See [link]()
-* Introduced an option in project setting to include/exclude timestamps in the .properties files. See [link]
 
 ### Enhancements
 
 * Added Microsoft Edge (Chromium) 96 compatibility.
 * Added Chrome 97 compatibility.
-* [Security] Implemented Digital Signature on Windows build
-* [Security Compliance]: Upgraded Netty and Jsoup library
-* Support connecting to HANA DB
-* Support xpath:customAttributes in Web Locator Strategies
+* [Security] Implemented the digital signature on Windows build.
+* [Security Compliance]: Upgraded the Netty and jsoup library.
+* Enabled the connection to the SAP HANA database.
+* Introduced the `xpath:customAttributes` in the web locator strategies. See [link]().
+* Introduced an option in the **Project Setting** to include/exclude timestamps in the .properties files. See [link].
 * [TestOps Integration]:
-    * Remove Create/Update Script Repo and change in TestOps icon
-    * Change in TestOps integration dialog
-* [Performance] Improved responsiveness and loading time when renaming/moving test cases folder in big projects
-* Authentication and TestOps Integration
-    * Update KatOne Server URL
-    * Remove Override option in Project Settings
-    * Change text: from ‘Deactivate’ to ‘Log out’
-* Improved the visibility of the search function on UI. See [link]
-* Removed unused messages in Test Object, Spy/Recorder, Test Suite Collection, and Test Suite
+    * Removed the **Create Script Repository** and **Update Script Repository** options.
+    * Changed the UI in the **Katalon TestOps Integration** dialog. See [link]().
+    * Removed the **Override authentication** option for Katalon TestOps in Project Settings.
+* [Performance] Improved responsiveness and loading time when renaming/moving test cases folder in big projects.
+* [License Activation]:
+    * Updated the **Server URL** in the Katalon Studio activation dialog.
+    * Changed UI text from **Deactivate** to **Log out**.
+* Improved the visibility of the search function. See [link].
+* Removed unused messages in Test Object, Spy/Recorder, Test Suite Collection, and Test Suite.
+* [Dynamic Test Suite] Updated UI for the retry function in Dynamic Test Suite.
 
 ### Fixes
 
-* Executing a test may cause "java.lang.ClassFormatError: Truncated class file" 
-* [Restful API] Double quote is automatically removed in Query Parameters section
-* KRE doesn't print specific name when there is an empty Test suite 
-* Missing screenshot in HTML Report in qTest 
-* Failed to update webdriver automatically for custom execution
-* [Katalon Runtime Engine] Jira report not sending to all Jira ids when executing in KRE
-* [KatOne On-premise] Free users can activate successfully
-* [KO][OnPrem Server] Online license after deleted, KS still not show popup terminate session 
-* [Regression] [UI] [Dynamic Test Suite] Tricky UI makes users confused when config RETRY for Dynamic Test Suite
-* [Regression] [Web Recorder Playback] Lacking test steps in Recorder Logs when playback
-* [Regression][Object] Delete Property of selected Object causes error
-* [Regression][Existing Bug] Unable to navigate to step X of test case Y
-* [Regression][Docker Image] Unable to email report when running script from docker image
-* [Regression][Existing Bug] Cannot run test suite right after configuring qTest integration
-* "Import Postman" option is missing
-
+* Bug: Executing a test might cause the error: "java.lang.ClassFormatError: Truncated class file".
+* Bug: [RESTful API] Double quote was automatically removed in the **Query Parameters** section.
+* Bug: [Katalon Runtime Engine] Katalon Runtime Engine threw an error signal ''{0}' and did not print out the specific name when executing an empty test suite. 
+* Bug: Missing screenshots in the qTest HTML report.
+* Bug: Failed to update webdriver automatically when using custom desired capabilities.
+* Bug: [Katalon Runtime Engine] Not sending all Jira IDs test results in the Jira report when executing with Katalon Runtime Engine.
+* [On-Premises Server] Not showing the terminate session popup when deleting online licenses.
+* [Recorder Web] Lacking test steps in the Recorder Logs when playback the test case.
+* [Object] Deleting the property of a selected object caused an error.
+* Inside the **Log Viewer**, unable to navigate to a specific step by right-clicking on the step and choosing **Go to this step in Script View**.
+* Unable to send email reports when running test script from Docker Image.
+* Could not run test suite right after configuring qTest integration.
+* Missing the **Import Postman** option.
 ## Version 8.2.0
 
 ### New features
