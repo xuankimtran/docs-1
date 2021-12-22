@@ -38,7 +38,7 @@ You can verify the subscription information and view all license information by 
 
       * **Machine Quota**: the maximum number of machines that can be registered with your licenses.
 
-      * **Expiry Date**: the date when your licenses are expired.
+      * **Expiry Date**: the date when your licenses expire.
 
    * In the **Licensed Users** section, you can add users for license usage. You can also view a list of users you have added for license usage.
 
