@@ -8,7 +8,7 @@ description:
 
 ## About Katalon Studio
 
-Katalon Studio is a productive IDE for test case generation, with cross-platform execution.
+Katalon Studio is an integrated development environment (IDE) for automated test generation, where you can create, execute and view reports for your automated test. With both manual view and script view, Katalon Studio is suitable even when you have little programming experience, or you are aready an expert in the automated testing field.
 
 With Katalon Studio, you can do the following:
 
@@ -33,7 +33,7 @@ After installation, learn how to create your first project. See [Manage Test Pro
 
 If you are new to the test automation field, we have already created some sample projects for you to try out. You can clone or download from our GitHub repository: [Katalon Studio Sample Projects](https://github.com/katalon-studio-samples).
 
-Next step, explore some essential tools and do some configuration. See [Get Started Overview](https://docs.katalon.com/katalon-studio/docs/get-started-overview.html).
+Next step, explore some essential tools and personalize your configuration. See [Get Started Overview](https://docs.katalon.com/katalon-studio/docs/get-started-overview.html).
 
 ### Create and execute your test
 
@@ -49,7 +49,7 @@ You can also upload and view advanced reports in Katalon TestOps - a companion p
 
 ### Extend Katalon Studio
 
-There are more features to discover in Katalon Studio. You can install plugins from the [Katalon Store](https://store.katalon.com/) and integrate with other tools like Jira, Git, Azure DevOps, Kobiton, etc. You can also create your own custom keywords or build private plugins and bring your automated test to the next level. To learn more about our unique capabilities, see [Supported Technologies](https://docs.katalon.com/katalon-studio/docs/product-availability-matrix.html).
+There are more features to discover in Katalon Studio. You can install plugins from the [Katalon Store](https://store.katalon.com/) and integrate with other tools like Jira, Git, Azure DevOps, Kobiton, etc. You can also create your own custom keywords or build private plugins and bring your automated test to the next level. See [Introduction to Custom Keywords](https://docs.katalon.com/katalon-studio/docs/introduction-to-custom-keywords.html) and [Create your first Katalon Studio plugin](https://docs.katalon.com/katalon-store/docs/publisher/create-plugin.html).
 
 ### Troubleshoot and support
 
