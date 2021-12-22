@@ -89,8 +89,8 @@ items:
             url: /katalon-studio/docs/supported-environments.html
       - title: "Set up Katalon Studio"
         tree:
-          - title: "Get Started Overview"
-            url: /katalon-studio/docs/get-started-overview.html
+          - title: "Set up Overview"
+            url: /katalon-studio/docs/set-up-overview.html
           - title: "Installation"
             tree:
               - title: "Installation Overview"
@@ -133,8 +133,8 @@ items:
                 url: /katalon-studio/docs/import-selenium-ide.html
       - title: "Get Started"
         tree:
-          - title: "Quick Start"
-            url: /katalon-studio/docs/quick_start.html
+          - title: "Get Started Overview"
+            url: /katalon-studio/docs/get-started-overview.html
           - title: "WebUI testing"
             tree:
               - title: "[WebUI] Create and Run Web UI Test Case using Record and Playback"
