@@ -73,6 +73,8 @@ items:
     tree:
       - title: "Welcome to Katalon Studio"
         url: /katalon-studio/docs/overview.html
+      - title: "Katalon Studio Overview"
+        url: /katalon-studio/docs/katalon-studio-overview.html
       - title: "Release Notes"
         tree:
           - title: "Version 8.x"
@@ -87,60 +89,16 @@ items:
             url: /katalon-studio/docs/supported-environments.html
       - title: "Set up Katalon Studio"
         tree:
-          - title: "Installation Overview"
-            url: /katalon-studio/docs/getting-started.html
-          - title: "Install Katalon Studio on macOS/Windows"
-            url: /katalon-studio/docs/ks-installation-macOS-windows.html
-          - title: "Install Katalon Studio on Linux (GUI)"
-            url: /katalon-studio/docs/katalon-studio-gui-beta-for-linux.html
-          - title: "Migration from other tools"
-            tree:
-              - title: "Selenium/TestNG/JUnit Migration"
-                url: /katalon-studio/docs/selenium-testng-junit-migration.html
-              - title: "Import Selenium IDE v3 projects"
-                url: /katalon-studio/docs/import-selenium-ide.html
-          - title: "Sample Projects"
-            tree:
-              - title: "Sample projects overview"
-                url: /katalon-studio/docs/sample-projects.html
-              - title: "Sample API tests project"
-                url: /katalon-studio/docs/web-service-samples.html
-              - title: "Sample BDD (Cucumber) tests project"
-                url: /katalon-studio/docs/bdd-samples.html
-              - title: "Sample WebUI tests project with data-driven testing (Shopping Cart sample)"
-                url: /katalon-studio/docs/shopping-cart-prj.html
-              - title: "Sample WebUI tests project (Healthcare sample)"
-                url: /katalon-studio/docs/health-care-prj.html
-              - title: "Sample Android mobile tests project"
-                url: /katalon-studio/docs/android-sample-prj.html
-              - title: "Sample iOS mobile tests project"
-                url: /katalon-studio/docs/iOS-sample-prj.html
-      - title: "Tutorials"
-        tree:
-          - title: "Quick Start"
-            url: /katalon-studio/docs/quick_start.html
-          - title: "iOS"
-            tree:
-              - title: "[Mobile] Create and Run iOS Test Case"
-                url: /katalon-studio/tutorials/mobile-create-ios-test-case.html
-          - title: "Android"
-            tree:
-              - title: "[Mobile] Create and Run Android Test Case"
-                url: /katalon-studio/tutorials/mobile-create-android-test-case.html
-          - title: "Web UI"
-            tree:
-              - title: "[WebUI] Create and Run Web UI Test Case using Record and Playback"
-                url: /katalon-studio/tutorials/webui-create-test-case.html
-              - title: "[WebUI] Analyze Test Execution Logs and Debug the Test Case"
-                url: /katalon-studio/tutorials/webui-analyze-test-case-execution-logs-and-resolve-errors.html
-              - title: "[Web UI] Plan Test Suite"
-                url: /katalon-studio/tutorials/webui-plan-test-suite.html
-              - title: "[WebUI] Analyze Test Suite Reports and Resolve Errors"
-                url: /katalon-studio/tutorials/webui-view-and-analyze-test-suite-reports.html
-      - title: "Get Started"
-        tree:
           - title: "Get Started Overview"
             url: /katalon-studio/docs/get-started-overview.html
+          - title: "Installation"
+            tree:
+              - title: "Installation Overview"
+                url: /katalon-studio/docs/getting-started.html
+              - title: "Install Katalon Studio on macOS/Windows"
+                url: /katalon-studio/docs/ks-installation-macOS-windows.html
+              - title: "Install Katalon Studio on Linux (GUI)"
+                url: /katalon-studio/docs/katalon-studio-gui-beta-for-linux.html
           - title: "Toolbars and Views"
             url: /katalon-studio/docs/toolbars-and-views.html
           - title: "Keyboard Shortcuts"
@@ -167,6 +125,48 @@ items:
             url: /katalon-studio/docs/auto-updater.html
           - title: "Katalon Help"
             url: /katalon-studio/docs/katalon-help.html
+          - title: "Migration from other tools"
+            tree:
+              - title: "Selenium/TestNG/JUnit Migration"
+                url: /katalon-studio/docs/selenium-testng-junit-migration.html
+              - title: "Import Selenium IDE v3 projects"
+                url: /katalon-studio/docs/import-selenium-ide.html
+      - title: "Get Started"
+        tree:
+          - title: "Quick Start"
+            url: /katalon-studio/docs/quick_start.html
+          - title: "WebUI testing"
+            tree:
+              - title: "[WebUI] Create and Run Web UI Test Case using Record and Playback"
+                url: /katalon-studio/tutorials/webui-create-test-case.html
+              - title: "[WebUI] Analyze Test Execution Logs and Debug the Test Case"
+                url: /katalon-studio/tutorials/webui-analyze-test-case-execution-logs-and-resolve-errors.html
+              - title: "[Web UI] Plan Test Suite"
+                url: /katalon-studio/tutorials/webui-plan-test-suite.html
+              - title: "[WebUI] Analyze Test Suite Reports and Resolve Errors"
+                url: /katalon-studio/tutorials/webui-view-and-analyze-test-suite-reports.html
+          - title: "Mobile testing"
+            tree:
+              - title: "[Mobile] Create and Run iOS Test Case"
+                url: /katalon-studio/tutorials/mobile-create-ios-test-case.html
+              - title: "[Mobile] Create and Run Android Test Case"
+                url: /katalon-studio/tutorials/mobile-create-android-test-case.html
+          - title: "Sample Projects"
+            tree:
+              - title: "Sample projects overview"
+                url: /katalon-studio/docs/sample-projects.html
+              - title: "Sample API tests project"
+                url: /katalon-studio/docs/web-service-samples.html
+              - title: "Sample BDD (Cucumber) tests project"
+                url: /katalon-studio/docs/bdd-samples.html
+              - title: "Sample WebUI tests project with data-driven testing (Shopping Cart sample)"
+                url: /katalon-studio/docs/shopping-cart-prj.html
+              - title: "Sample WebUI tests project (Healthcare sample)"
+                url: /katalon-studio/docs/health-care-prj.html
+              - title: "Sample Android mobile tests project"
+                url: /katalon-studio/docs/android-sample-prj.html
+              - title: "Sample iOS mobile tests project"
+                url: /katalon-studio/docs/iOS-sample-prj.html
       - title: "Create Tests and Projects"
         tree:
           - title: "Manage Projects"
