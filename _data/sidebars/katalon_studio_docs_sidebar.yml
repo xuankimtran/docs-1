@@ -1331,7 +1331,7 @@ items:
             url: /katalon-analytics/docs/setup-team.html 
           - title: "Manage Users"
             url: /katalon-analytics/docs/kt_invite_user_org.html
-          - title: "Mange User Profile"
+          - title: "Manage User Profile"
             url: /katalon-analytics/docs/manage-user-profile.html
           - title: "Transfer Ownership"
             url: /katalon-analytics/docs/kt_transfer_ownership.html  
