@@ -5,7 +5,7 @@ permalink: katalon-analytics/docs/manage-user-profile.html
 redirect_from: 
 ---
 
-The TestOps Profile page allows you to manage your TestOps profile settings, including your profile photo, username, and password.
+The TestOps Profile page allows you to manage your TestOps profile settings, including your profile photo, username, job title, and password.
 
 This guide shows you how to manage your TestOps profile settings.
 
@@ -37,7 +37,17 @@ Follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/manage-user-profile/K1-Profile-Change-Username.png" width=70% alt="TestOps Profile page username">
 
-2. Click on the *tick* icon to save the change.
+2. Press Enter or click on the *tick* icon to save the change.
+
+### Change Your Job Title
+
+Follow these steps:
+
+1. In the **Basic Information** section, click on the displayed job title. Then enter the new job title.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/manage-user-profile/K1-Profile-Job-Title.png" width=70% alt="TestOps Profile page job title">
+
+2. Press Enter or click on the *tick* icon to save the change.
 
 ### Change Your Password
 
