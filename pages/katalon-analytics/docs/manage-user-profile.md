@@ -5,7 +5,7 @@ permalink: katalon-analytics/docs/manage-user-profile.html
 redirect_from: 
 ---
 
-The TestOps Profile page allows you to manage your TestOps profile settings, including profile photo, username, and password.
+The TestOps Profile page allows you to manage your TestOps profile settings, including your profile photo, username, and password.
 
 This guide shows you how to manage your TestOps profile settings.
 
@@ -25,7 +25,7 @@ The TestOps Profile page is displayed as below.
 
 ### Change Your Profile Photo
 
-To change your profile photo, click on the *photo* icon. In the opened file dialog, select the image you want to upload.
+To change your profile photo, click on the *photo* icon. In the opened file file explorer, select the image you want to upload.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/manage-user-profile/K1-Profile-photo.png" width=70% alt="TestOps Profile photo">
 
