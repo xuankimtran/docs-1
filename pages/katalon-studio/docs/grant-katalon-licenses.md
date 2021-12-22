@@ -98,7 +98,7 @@ An **Offline License** allows you to use KSE and KRE without internet. Once an o
 
 By default, an offline license expires at the end of your subscription period. It can also be set to expire earlier by inputting a different expiry date when generating the offline license file.
 
-When an offline license expires, you can generate a new offline license file to continue using KSE/KRE offline, or you can switch to an online license instead.
+When an offline license expires, you can generate a new offline license file to continue using KSE/KRE offline, or you can use an online license instead.
 
 As a machine ID is required to create an offline license, Katalon generates a machine ID based on the hardware specifications and the user's account logging in to that machine.
 
@@ -127,6 +127,8 @@ Follow these steps:
 3. Choose between KSE (Node-locked) and KRE (Node-locked).
 
 4. Scroll down to the **Offline Licenses** section, then click on the **Create Offline License** button.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/offline-license-button-2021decUI.png" width=100% alt="create offline license page">
 
 5. Enter the User's machine ID and input the expiry date, then click **Create**.
 
