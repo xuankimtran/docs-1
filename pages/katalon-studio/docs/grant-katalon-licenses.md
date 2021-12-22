@@ -25,9 +25,9 @@ Follow these steps to grant KSE licenses:
 
 1. Sign in to [Katalon TestOps](https://testops.katalon.io/login), select your Organization, then go to **Settings** > **License Management**.
 
-    The **Licenses** page appears as below.
+    The **License Management** page appears as below.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/885-UI.png" width=100% alt="license page licensed users section highlighted">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/license-mgt-page-2021decUI-highlight.png" width=100% alt="license page licensed users section highlighted">
 
 2. Choose between KSE (Node-locked) and KSE (Floating).
 
@@ -37,9 +37,9 @@ Follow these steps to grant KSE licenses:
   
 3. In the **Licensed Users** section, click **Assign License** .
 
-    The **Assign License** box pops up as below.
+    The **Assign License** page appears as below.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/886-Function2.png" width=100% alt="license page licensed users section highlighted">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/assign-license-page.png" width=100% alt="license page licensed users section highlighted">
 
 4. Enter the user's email address you want to assign the license to.
 
@@ -62,7 +62,7 @@ If your Organization has purchased both types of licenses at the same time, all 
 
 1. Sign in to [Katalon TestOps](https://testops.katalon.io/login), select your Organization, then go to **Settings** > **License Management**.
 
-    The **Licenses** page appears.
+    The **License Management** page appears.
 
 2. Choose KRE (Floating).
 3. In the **Licensed Users** section, click **Assign License**.
@@ -122,17 +122,15 @@ Follow these steps:
 
 2. Go to **Settings** > **License Management**.
 
-    The **Licenses** page appears.
+    The **License Management** page appears.
 
 3. Choose between KSE (Node-locked) and KRE (Node-locked).
 
-4. Click on the **Create Offline License** button at the top right corner.
-
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/create-offline-license-button.png" width="1424" height="" alt="create offline license button">
+4. Scroll down to the **Offline Licenses** section, then click on the **Create Offline License** button.
 
 5. Enter the User's machine ID and input the expiry date, then click **Create**.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/offline-license-page-new-UI.png" width=100% alt="create offline license page">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/create-offline-license-page-2021decUI.png" width=100% alt="create offline license page">
     
     You can also add a note on the offline license in the **Description** section.
 
@@ -142,7 +140,7 @@ Follow these steps:
 
 6. Confirm the information in the popup window, then click **Create**.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/create-an-offline-license-popup-new-UI.png" width=100% alt="create offline license page">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/create-an-offline-license-popup.png" width=100% alt="create offline license popup">
 
     You have created an offline license.
     
