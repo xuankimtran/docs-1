@@ -25,7 +25,7 @@ The TestOps Profile page is displayed as below.
 
 ### Change Your Profile Photo
 
-To change your profile photo, click on the *photo* icon. In the opened file file explorer, select the image you want to upload.
+To change your profile photo, click on the *photo* icon. In the opened file explorer, select the image you want to upload.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/manage-user-profile/K1-Profile-photo.png" width=70% alt="TestOps Profile photo">
 
