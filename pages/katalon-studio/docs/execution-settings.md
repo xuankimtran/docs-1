@@ -20,11 +20,37 @@ redirect_from:
 description:
 ---
 
+## Project information
+### Project name, location and description
+
+Project information displays the name, the location and the description of the opened project. To view the project information, go to **Project > Settings > Project Information**.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/KS-PRJ-Project-information.png" width="70%" alt="Project information">
+
+### Include/Exclude timestamp in .properties files
+
+> Requirements:
+> * Katalon Studio version 8.2.5 onwards
+
+From Katalon Studio version 8.2.5 onwards, you can include/exclude timestamp in .properties files. To do so:
+
+- Go to **Project > Settings > Project Information**. 
+- Check/Uncheck the **Include/Exclude timestamps in .properties files** box.
+- Click **Apply**.
+
+  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/KS-PRJ-Remove-timestamp.png" width="70%" alt="Include/Exclude timestamp settings">
+
+> Known issues:
+>
+> This enhancement only applies to:
+> * Native integrations with Katalon Studio such as: Katalon TestOps, and Azure DevOps integration. 
+> * Integration plugins such as: the **qTest Integration** plugin, the **Basic Report** plugin, and the **Applitools Integration** plugin.
+
 ## Execution Settings
 
 Execution settings help define the desired behaviors of Katalon Studio during test execution. To access default Execution Settings of a project, from the main menu, select **Project > Settings > Execution**
 
-  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/KS-PROJECT-project-execution-settings.png" width="70%" alt="Execution settings">
+  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/KS-PRJ-Execution-settings.png" width="70%" alt="Execution settings">
 
 You can also see the following subviews:
 
@@ -50,11 +76,11 @@ You can also see the following subviews:
 
 You can edit VM arguments in Execution Settings by going to **Project > Settings > Execution > Launch Arguments**.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/vm-arguments.png">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/KS-PRJ-VM-Arguements.png" width="70%" alt="VM arguments settings">
 
 In the **VM Arguments** tab, enter your arguments. VM Arguments entered in **Executions Settings** of a project change the behavior of a Java process of each execution. For example:
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/settings.png">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/KS-VM-arguements-input.png" width="70%" alt="Input VM arguments">
 
 To make sure if the configuration works, please add this simple test case:
 
@@ -63,7 +89,7 @@ import com.kms.katalon.core.util.KeywordUtil
 KeywordUtil.logInfo(System.getProperty("testme"))
 ```
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/hello.png" width="" height="">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/hello.png" width="" alt="Log viewer">
 
 Currently, Katalon Studio does not support VM arguments' values containing space. Below is a list of the most used JVM Parameters:
 
@@ -98,7 +124,7 @@ Handling Out of Memory
 
 You can set default settings for Web UI test execution by going to **Project > Settings > Execution > WebUI**.
 
-  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/KS-PROJECT-WebUI-settings.png" width="70%" alt="WebUI settings">
+  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/KS-PRJ-WebUI-settings.png" width="70%" alt="WebUI settings">
 
 These settings decide Katalon Studio's behaviors when executing WebUI test in a project.
 
@@ -124,7 +150,7 @@ See also:
 
 You can set default settings for Web Service test execution by going to **Project > Settings > Execution > Web Service**. The following global configurations are applied to both RESTful and SOAP requests in a project.
 
-  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/web-service.png">
+  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/KS-PRJ-Web-service-settings.png" width="70%" alt="Web Service settings">
 
 * **Connection Timeout in milliseconds (0=unlimited)**: The time to establish the connection with the remote server. When it is set to 0 or left empty, Katalon waits for a response forever.
 * **Socket Timeout in milliseconds (0=unlimited)**: The time waiting for data – after establishing the connection.
@@ -206,13 +232,13 @@ request.setMaxResponseSize(RequestObject.DEFAULT_MAX_RESPONSE_SIZE)
 
 To receive summary reports via email after the execution of **Test Suite** or **Test Suite Collection**, you need to configure global email settings in **Project/Settings/Email**.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/emails-settings/new-ui.png">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/KS-PRJ-Email-settings.png" alt="Email settings" width=100%>
 
 By default, Katalon Studio is configured to send all email reports for Test Suite executions, including Test Suites in a Test Suite Collection.
 
 As an exclusive feature for Katalon Studio Enterprise, users are given an option to receive email reports for Test Suite Collections' executions and skipping a single email for each Test Suite stored in that Collection. This feature is proved useful for those who execute Test Suite Collections containing a significant number of Test Suites. In that case, they can check **Skip sending email report for individual Test Suites in the Test Suite Collection** to keep their mailbox tidy.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/emails-settings/options.png" width="" height="">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/emails-settings/options.png" width="" alt="">
 
 > The **Send test email** button is only enabled once **Mail Server Settings** and **Recipients** are filled correctly.
 
@@ -272,7 +298,7 @@ To customize the email's body templates:
 
 For Test Suite's email, click **Edit Template for Test Suite Execution** or go to **Project/Settings/Email/Template/Test Suite**.
 
-  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/email-report-template.png" width=70%>
+  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/KS-PRJ-Test-suite-template-email.png" width=70% alt="Test Suite Report email template">
 
 **Where:**
 
@@ -290,7 +316,7 @@ For Test Suite's email, click **Edit Template for Test Suite Execution** or go t
 
 For Test Suite Collection's email, **Edit Template for Test Suite Collection Execution** or go to **Project/Settings/Email/Template/Test Suite Collection**.
 
-  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/emails-settings/tsc-email.png" width="" height="">
+  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/KS-PRJ-Test-Suite-collection-email-template.png" width="" alt="Test Suite Collection Report email template">
 
 All fields in the templates are editable. Click **Apply** when finished.
 
@@ -340,7 +366,7 @@ When running your Test Suite/Test Suite Collection in console mode, you can also
 
 Katalon Studio supports the capability to bypass certificate validation so that users with protected network policy can work with Katalon Studio as usual. Go to **Project > Settings > Network**:
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/project-settings-network.png)
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/KS-PRJ-Network-settings.png" width=70% alt="Certificate settings">
 
 You are giving two options, including **None** or **Bypass certificate validation**.
 
