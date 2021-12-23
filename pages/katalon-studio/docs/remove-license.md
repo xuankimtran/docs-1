@@ -80,7 +80,7 @@ Follow these steps:
 3. Click on the *Trash bin* icon of the machine ID you want to remove.
 
    The **Deactivate Machine** box pops up.
-   
+
 4. Click **Remove** to confirm your action.
 
 > Notes:
