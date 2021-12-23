@@ -10,7 +10,7 @@ After purchasing Katalon Studio Enterprise and/or Katalon Runtime Engine license
 
 > Requirements:
 >
-> You must be the Owner or Admin of your Organization to access the **License Management** page. For further details on roles and user management, see: [TestOps User Management](https://docs.katalon.com/katalon-analytics/docs/kt_invite_user_org.html).
+> You must be the Owner or Admin of your Organization to access the **Licenses** page. For further details on roles and user management, see: [TestOps User Management](https://docs.katalon.com/katalon-analytics/docs/kt_invite_user_org.html).
 
 ## View the license information
 
@@ -20,15 +20,15 @@ You can verify the subscription information and view all license information by 
 
 2. Go to **Settings** > **License Management**.
 
-   The **License Management** page appears.
+   The **Licenses** page appears.
 
 3. Select a Katalon product. For example, **Katalon Studio Enterprise (Node-locked)**.
 
-   The page displays as below.
+   The **Licenses** page displays as below.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/license-mgt-page-2021decUI.png" width=100% alt="licenses page">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/licenses-page-blurred-not-highlighted.png" width=100% alt="licenses page">
 
-   * In the **Subscription Details** section, you can see the following information:
+   * In the **Subscription** section, you can see the following information:
       * **Subscribed Licenses**: the total number of licenses you have purchased, also known as your license quota.
       *  **Available Licenses**: the remaining licenses you can use.
 
@@ -37,9 +37,7 @@ You can verify the subscription information and view all license information by 
          > Licenses attributed online, as well as offline licenses you have generated, are substracted from your license quota.
 
       * **Machine Quota**: the maximum number of machines that can be registered with your licenses.
-
-      * **Expiry Date**: the date when your licenses expire.
-
+      
    * In the **Licensed Users** section, you can add users for license usage. You can also view a list of users you have added for license usage.
 
    * In the **Online Licenses** section, you can see a list of active machine IDs (users who are currently using the licenses online).
@@ -93,4 +91,4 @@ Licensed Users activate a KRE license by running KSE with KRE. After activation,
 
 Therefore, to make a KRE license available when all licenses are reserved, a machine ID has to be deactivated.
 
-To deactivate a machine ID, see: [Remove a registered machine ID](https://docs.katalon.com/katalon-studio/docs/remove-license.html#remove-a-registered-machine-id).
+Follow the steps above to deactivate a machine ID.
