@@ -53,3 +53,4 @@ An imported test case contains a set of Selenium commands recorded by Selenium I
 ## See also
 
 * [Selenium/TestNG/JUnit Migration to Katalon Studio](https://docs.katalon.com/katalon-studio/docs/selenium-testng-junit-migration.html)
+* Learn more with our Katalon Academy course: [Migrate from Selenium to Katalon Studio – Everything You Should Know](https://academy.katalon.com/courses/selenium-migrate/?utm_source=kat_docs&utm_medium=import_selenium_ide)

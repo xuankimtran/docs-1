@@ -125,3 +125,4 @@ You should see the name of your Android device in the pop-up dialog.
 ## See also:
 
    * [Troubleshoot automated mobile testing](https://docs.katalon.com/katalon-studio/docs/troubleshooting-automated-mobile-testing.html)
+   * Learn more with our Katalon Academy course: [Solve Mobile Testing Challenges with Codeless Solution](https://academy.katalon.com/courses/codeless-solution-mobile-testing/?utm_source=kat_docs&utm_medium=android_setup)

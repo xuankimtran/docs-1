@@ -30,3 +30,5 @@ Katalon Studio supports API Testing with both RESTful and SOAP Services. You ca
 
 * [Builder to create and manage Web Service object easily in Script mode](/display/KD/Web+Services+Builder).
 * [Parameterize a Web Service object](https://docs.katalon.com/katalon-studio/docs/parameterize-a-web-service-object.html).
+
+> Learn more about REST, SOAP, and other API advanced requests with Katalon Academy course: [API Testing With Katalon Studio - The Basics](https://academy.katalon.com/courses/katalon-api-testing/?utm_source=kat_docs&utm_medium=web_services_test_objects).

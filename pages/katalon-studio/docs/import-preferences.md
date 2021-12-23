@@ -34,6 +34,8 @@ To import Preferences, do as follows:
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-preferences/info.png" alt="info dialog" width="50%">
 
+> To learn more, refer to chapter 1 of our Katalon Academy course: [Effectively Bring Tests to Home](https://academy.katalon.com/courses/work-from-home-productive/?utm_source=kat_docs&utm_medium=import_preferences).
+
 You can also upgrade Katalon Studio to the latest version by navigating to **Help > Check for Updates ...**. Upgrading in this way keeps your Preferences configuration unchanged. To learn more about this function, see [Update Katalon Studio](https://docs.katalon.com/katalon-studio/docs/auto-updater.html).
 
 **See also**:

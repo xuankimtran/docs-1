@@ -197,3 +197,5 @@ You can change the test plan ID, test run name, build and release definition IDs
         </tr>
     </tbody>
 </table>
+
+> Learn more with our Katalon Academy course: [Integrating Katalon Studio with Azure DevOps](https://academy.katalon.com/courses/integrating-azure-devops/?utm_source=kat_docs&utm_medium=azure_devops_test_plans).

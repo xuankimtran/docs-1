@@ -29,3 +29,4 @@ To install Katalon Studio, you can refer to the following documents. Instruction
 - [Install Katalon Studio on macOS/Windows](https://docs.katalon.com/katalon-studio/docs/ks-installation-macOS-windows.html)
 - [Install Katalon Studio on Linux (GUI)](https://docs.katalon.com/katalon-studio/docs/katalon-studio-gui-beta-for-linux.html)
 
+> Learn more with our Katalon Academy course: [Test Automation Foundations](https://academy.katalon.com/courses/test-automation-foundations/?utm_source=kat_docs&utm_medium=install_overview).

@@ -87,3 +87,5 @@ Mobile.callTestCase(findTestCase("Test Case ID"), ["key1":"value1", "key2":"valu
 For example:
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/call-test-case/call-test-case-script.png" alt="call test case in script view" width="100%">
+
+> To learn more about how to reuse test artifacts, refer to chapter 2 of our Katalon Academy course: [Reusing Test Scripts](https://academy.katalon.com/courses/test-execution-management/?utm_source=kat_docs&utm_medium=call_test_case).

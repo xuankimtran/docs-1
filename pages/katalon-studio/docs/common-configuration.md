@@ -49,3 +49,5 @@ E.g.: -a -n 0 -s "-screen 0 1024x768x24".
 If specified, `xvfb-run` will be used. Please make sure `Xvfb` has been installed.
 
 **Save** the configuration after finishing.
+
+> To learn more about CI/CD tools, refer to chapter 2 of our Katalon Academy course: [Test Orchestration for Remote Testing](https://academy.katalon.com/courses/work-from-home-productive/?utm_source=kat_docs&utm_medium=common_configuration).
