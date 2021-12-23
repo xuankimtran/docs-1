@@ -202,4 +202,4 @@ To activate your Katalon Runtime Engine license with a License Server, do as fol
 
    You only need to add this parameter once, then your Katalon Runtime Engine license is activated.
 
-> To activate your Katalon Runtime Engine license without the internet, refer to this documentation: [Activate a license while offline](https://docs.katalon.com/katalon-studio/docs/activate-license.html#activate-a-kre-license-with-internet-access).
+> To activate your Katalon Runtime Engine license without the internet, refer to this documentation: [Activate a license while offline](https://docs.katalon.com/katalon-studio/docs/activate-license.html#activate-a-license-while-offline).
