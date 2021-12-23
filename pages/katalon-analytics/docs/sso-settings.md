@@ -29,7 +29,7 @@ Your metadata is then automatically encrypted in the Katalon database. To learn 
 > * You have configured a Subdomain. See [Configure a Subdomain for an Organization](https://docs.katalon.com/katalon-analytics/docs/subdomain.html).
 > * You have configured an indentity provider for SSO in Katalon TestOps, see above: [Configure identity provider](https://docs.katalon.com/katalon-analytics/docs/sso-settings.html#configure-identity-provider).
 
-As an Owner or Admin, you can enable SSO by following these steps:
+As an Owner or Admin, you can configure SSO by following these steps:
 
 1. Sign in to [Katalon TestOps](https://testops.katalon.io/login).
 
