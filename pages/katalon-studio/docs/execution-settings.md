@@ -21,9 +21,9 @@ description:
 ---
 
 ## Project information
-### Project name, location and description
+### Project name, location, and description
 
-Project information displays the name, the location and the description of the opened project. To view the project information, go to **Project > Settings > Project Information**.
+Project information displays the name, the location, and the description of the opened project. To view the project information, go to **Project > Settings > Project Information**.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/KS-PRJ-Project-information.png" width="70%" alt="Project information">
 
@@ -43,8 +43,8 @@ From Katalon Studio version 8.2.5 onwards, you can include/exclude timestamp in 
 > Known issues:
 >
 > This enhancement only applies to:
-> * Native integrations with Katalon Studio such as: Katalon TestOps, and Azure DevOps integration. 
-> * Integration plugins such as: the **qTest Integration** plugin, the **Basic Report** plugin, and the **Applitools Integration** plugin.
+> * Native integrations with Katalon Studio include Katalon TestOps, and Azure DevOps integration. 
+> * Integration plugins include the **qTest Integration** plugin, the **Basic Report** plugin, and the **Applitools Integration** plugin.
 
 ## Execution Settings
 
