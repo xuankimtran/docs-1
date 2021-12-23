@@ -12,7 +12,7 @@ Data-driven testing (DDT) allows you to execute test cases using data from exter
 >
 > Katalon Recorder version 5.6.0 onwards.
 
-This article introduces you to DDT commands in Katalon Recorder and shows you how to implement DDT in a test case.
+This article introduces you to the supported DDT commands and data file formats in Katalon Recorder.
 
 ## Data-driven commands
 
@@ -20,7 +20,7 @@ Katalon Recorder provides two commands for DDT: `loadVars` and `endLoadVars`.
 
 ### loadVars
 
-The `loadVars` command loads the values from the data file specified in the **Target** field. 
+The `loadVars` command starts a loop to repeatedly load the values from the data file specified in the **Target** field.
 
 ### endLoadVars
 
@@ -42,7 +42,7 @@ Katalon Recorder supports two data file formats: CSV and JSON.
 
 Katalon Recorder navigates using column names in a CSV file, so you need to create a CSV file with specific column names.
 
-For example, a data-driven test that fills in a form with dates and comments might be written as follows:
+For example, a data-driven test that fills in a form with dates and comments might have a CSV data file as follows:
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/ddt-guide/KR-Sample-CSV-file.png" width=70% alt="Sample CSV file for Katalon Recorder">
 
@@ -54,7 +54,7 @@ For example, a JSON data file with two data types, dates and comments, might be 
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/ddt-guide/KR-Sample-JSON-file.png" width=70% alt="Sample JSON file for Katalon Recorder">
 
-Test data in a JSON file must be organized in an array and enclosed in square brackets. Each row is represented as an object with *name/value* pairs; the name specifies the column name, and the value specifies the value in the respective row.
+Test data in a JSON file must be organized in an array and enclosed in square brackets. Each element (data row) in the array is represented as an object with *name/value* pairs; the name specifies the column name, and the value specifies the value in the respective row.
 
 ## Sample projects
 
