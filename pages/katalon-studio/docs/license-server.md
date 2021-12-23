@@ -185,3 +185,32 @@ You need to activate the License Server in the **Katalon Studio Activation** dia
 
 3. Click **Activate** to connect with your License Server and retrieve your organizations.
 4. Select an Organization you want to work on, then click **OK**.
+
+## Activate Katalon Runtime Engine offline
+
+> Requirements:
+>
+> * You have downloaded Katalon Runtime Engine.
+> * You have an offline floating Katalon Runtime Engine license file.
+
+1. Put your license file in the **.katalon/license** folder. To execute multiple sessions in parallel, put multiple license files in the **license** folder.
+
+   **.katalon** is a hidden folder. To find the **license** folder on your computer, search for:
+
+   * Windows: **C:\Users\<user_name>\.katalon\license**
+
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/activate-RE/license.png" width="" height="">
+
+   * Linux: **/home/<user_name>/.katalon/license**
+   * macOS: **/Users/<user_name>/.katalon/license**
+
+2. Navigate to where the Katalon Runtime Engine application is located. Right-click on the application and choose **Show Package Contents**. 
+
+   Go to **Contents > Eclipse > jre > katalonc.ini**.
+
+3. In the **katalonc.ini** file, add this parameter: `-DtestOps.serverUrl=<license server URL>`
+
+   You only need to add this parameter once, then your Katalon Runtime Engine license is activated. Every time you start running a test, Katalon Runtime Engine automatically verifies that your license file is available and valid.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/activate-KSE/KRE-license.png" alt="verify KRE license" width=70%>
+
