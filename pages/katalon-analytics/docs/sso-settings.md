@@ -39,9 +39,9 @@ As an Owner or Admin, you can enable SSO by following these steps:
 
 4. Switch **Enable SSO** to **Active**.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-sso-settings/enter-metadata-for-sso.png" width=100% alt="SSO enabled input metadata">
-
 5. Enter the metadata from the configured indentity provider.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-sso-settings/enter-metadata-for-sso.png" width=100% alt="SSO enabled input metadata">
 
 6. Click **Update**.
 
