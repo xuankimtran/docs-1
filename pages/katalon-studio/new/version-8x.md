@@ -29,7 +29,7 @@ description: Release notes 8.x
     * Removed the **Create Script Repository** and **Update Script Repository** options.
     * Changed the UI in the **Katalon TestOps Integration** dialog. See [link]().
     * Removed the **Override authentication** option for Katalon TestOps in Project Settings.
-* [Performance] Improved responsiveness and loading time when renaming/moving test cases folder in big projects.
+* [Performance] Improved responsiveness and loading time when renaming/moving test cases folders in big projects.
 * [License Activation]:
     * Updated the **Server URL** in the Katalon Studio activation dialog.
     * Changed UI text from **Deactivate** to **Log out**.
@@ -39,14 +39,14 @@ description: Release notes 8.x
 
 ### Fixes
 
-* Bug: Executing a test might cause the error: "java.lang.ClassFormatError: Truncated class file".
+* Bug: Executing a test could cause the error: "java.lang.ClassFormatError: Truncated class file".
 * Bug: [RESTful API] Double quote was automatically removed in the **Query Parameters** section.
-* Bug: [Katalon Runtime Engine] Katalon Runtime Engine threw an error signal ''{0}' and did not print out the specific name when executing an empty test suite. 
+* Bug: [Katalon Runtime Engine] Katalon Runtime Engine threw an error signal ''{0}'' and did not print out the specific name when executing an empty test suite. 
 * Bug: Missing screenshots in the qTest HTML report.
 * Bug: Failed to update webdriver automatically when using custom desired capabilities.
 * Bug: [Katalon Runtime Engine] Not sending all Jira IDs test results in the Jira report when executing with Katalon Runtime Engine.
 * [On-Premises Server] Not showing the terminate session popup when deleting online licenses.
-* [Recorder Web] Lacking test steps in the Recorder Logs when playback the test case.
+* [Recorder Web] Lacked test steps in the Recorder Logs when playing back the test case.
 * [Object] Deleting the property of a selected object caused an error.
 * Inside the **Log Viewer**, unable to navigate to a specific step by right-clicking on the step and choosing **Go to this step in Script View**.
 * Unable to send email reports when running test script from Docker Image.
