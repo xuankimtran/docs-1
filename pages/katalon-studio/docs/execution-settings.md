@@ -25,7 +25,7 @@ description:
 
 Project information displays the name, the location, and the description of the opened project. To view the project information, go to **Project > Settings > Project Information**.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/KS-PRJ-Project-information.png" width="70%" alt="Project information">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/KS-PRJ-Project-information-2.png" width="70%" alt="Project information">
 
 ### Include/Exclude timestamp in .properties files
 
