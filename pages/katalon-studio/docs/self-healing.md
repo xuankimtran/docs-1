@@ -91,7 +91,7 @@ WebUI.setText(username, 'John Doe')
 WebUI.verifyElementPresent(username, 5)
 ```
 
-Since `verifyElementPresent` keyword is excluded from the self-healing mode, the **input_Username_username** object cannot be self-healed, and the test fails as expected.
+Since `verifyElementPresent` is excluded from self-healing, the **input_Username_username** object cannot be self-healed, and the test fails as expected.
 
 ### Override in Object view
 
