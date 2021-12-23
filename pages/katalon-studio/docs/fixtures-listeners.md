@@ -314,3 +314,5 @@ def sampleBeforeTestCase(TestCaseContext testCaseContext) {
     }
 }
 ```
+
+> To learn more about test listeners, refer to chapter 2 of our Katalon Academy course: [Test Listener](https://academy.katalon.com/courses/test-execution-management/?utm_source=kat_docs&utm_medium=test_listener).

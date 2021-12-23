@@ -33,3 +33,5 @@ Read more:
 Same with a Katalon Project, the left column now have [Request History](https://docs.katalon.com/katalon-studio/docs/request-history.html) view where all the sent requests are saved here. You can freely access and retrieve them to work or save as a request object in the Object Repository.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/apiweb-service-project-since-v58/New-API.png" width=70%>
+
+> To learn more about API, refer to chapter 3 of our Katalon Academy course: [How to Utilize API for Effective Test Execution](https://academy.katalon.com/courses/test-execution-management/?utm_source=kat_docs&utm_medium=web_service_project).

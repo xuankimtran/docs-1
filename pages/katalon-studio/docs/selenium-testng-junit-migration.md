@@ -210,3 +210,4 @@ To migrate Selenium/TestNG/JUnit scripts to a Katalon Studio project, do as foll
 ## See also
 
 * [Import Selenium IDE version 3 projects](https://docs.katalon.com/katalon-studio/docs/import-selenium-ide.html#import-a-selenium-ide-project)
+* Learn more with our Katalon Academy course: [Migrate from Selenium to Katalon Studio – Everything You Should Know](https://academy.katalon.com/courses/selenium-migrate/?utm_source=kat_docs&utm_medium=migration_to_ks)
