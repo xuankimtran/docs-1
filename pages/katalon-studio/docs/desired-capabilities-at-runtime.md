@@ -56,7 +56,7 @@ In the following example, we defined the desired capabilities for Chrome window-
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/project-settings-new-ui/KS-DC-runtime-windows-sized-1200x600.png" width="70%" alt="Set DC in project settings">
 
-1. To override the desired capabilities at runtime, open t  he test case in script mode. Pass the desired capabilities to the same key with the capabilities defined in project settings. Then place the code before the test script. 
+1. To override the desired capabilities at runtime, open the test case in script mode. Pass the desired capabilities to the same key with the capabilities defined in project settings. Then place the code before the test script. 
 
       Here, we want to override the `--window-size=1200,600` capabilities. We pass the `--window-size=100,100` and `--incognito` capabilities to the `args` key in the sample code as follows. Then place the code before the test script. 
       
