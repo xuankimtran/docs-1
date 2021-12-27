@@ -148,6 +148,5 @@ Follow these steps to configure using the interface:
     </a>
     <p style="text-align: center;"><em>Click the image to enlarge</em></p>
 
-> **Notes**:
->
-> Learn more with our Katalon Academy course: [Data-Driven Testing with Katalon Recorder](https://academy.katalon.com/courses/katalon-recorder-data-driven-testing/?utm_source=kat_docs&utm_medium=ddt_in_kr).
+**See also**:
+* The Katalon Academy course: [Data-Driven Testing with Katalon Recorder](https://academy.katalon.com/courses/katalon-recorder-data-driven-testing/).
