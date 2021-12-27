@@ -68,7 +68,7 @@ In the **Data Binding** section, there are two tables:
       > 
       > If you are adding a combination of data files, by default, Katalon defines the relationship of multiple data sources at the test case level as **One** - **One**. You can learn more about the relationship between multiple data files here: [Manage test data relationship](https://docs.katalon.com/katalon-studio/docs/combine-multiple-data-sources.html#manage-test-data-relationship).
 
-  - To specify the data range, double-click on the cell under the **Data Iteration** column of each data files. You can learn more about types of data iteration here: [Modify data range](https://docs.katalon.com/katalon-studio/docs/combine-multiple-data-sources.html#modify-data-range).
+  - To specify the data range, double-click on the cell under the **Data Iteration** column of each data file. You can learn more about types of data iteration here: [Modify data range](https://docs.katalon.com/katalon-studio/docs/combine-multiple-data-sources.html#modify-data-range).
 
 2. In the **Variable Binding** table:
    
