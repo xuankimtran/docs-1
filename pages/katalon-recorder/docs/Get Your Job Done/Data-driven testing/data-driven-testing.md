@@ -42,7 +42,7 @@ Katalon Recorder supports two data file formats: CSV and JSON.
 
 While performing DDT with a CSV data file, Katalon Recorder navigates the file using the column names, and extracts data from the file, row by row. Therefore, you need to create a CSV file with specific column names.
 
-Katalon Recorder treats CSV column names as case-sensitive.
+Katalon Recorder also treats CSV column names as case-sensitive.
 
 For example, a data-driven test that fills in a form with dates and comments might have a CSV data file as follows:
 
