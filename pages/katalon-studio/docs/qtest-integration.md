@@ -27,10 +27,9 @@ redirect_from:
 description:
 ---
 
-**Requirements**
-
-* Katalon Studio 7.0.1
-* An active Katalon Studio Enterprise license
+> Requirements:
+> * Katalon Studio version 7.0.1 onwards.
+> * An active Katalon Studio Enterprise license. To learn more about activating Katalon Studio license, you can refer to this document: [Activate Katalon license](https://docs.katalon.com/katalon-studio/docs/activate-license.html#activate-a-license-with-internet-access).
 
 ## Install the qTest Integration plugin
 
@@ -132,13 +131,14 @@ In the displayed Setup Wizard, complete all items to finish the setup.
 
     <img alt="Submitting options" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/submitting-options.png" width=85%>
 
-    Where:
-
     | Field | Description |
     | --- | --- |
     | Automatically submit test run result | Results of executed test cases will be uploaded automatically to qTest. |
     | Submit test run result to latest approved version | Test run result will be submitted to latest **approved** version of mapped qTest test case. |
     | Report format | Additional attachments for reports to be upload to qTest. |
+
+   > Notes:
+   > * To upload the HTML report to qTest, make sure to enable to automatically generate the HTML report in **Project > Settings > Plugins > Reports**.
 
 4. **Test Case Mapping**:
    
