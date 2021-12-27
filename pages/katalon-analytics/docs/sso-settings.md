@@ -27,7 +27,7 @@ Your metadata is then automatically encrypted in the Katalon database. To learn 
 > Requirements:
 > * You must be an **Owner** or **Admin** of an Organization.
 > * You have configured a Subdomain. See [Configure a Subdomain for an Organization](https://docs.katalon.com/katalon-analytics/docs/subdomain.html).
-> * You have configured an indentity provider for SSO in Katalon TestOps, see above: [Configure identity provider](https://docs.katalon.com/katalon-analytics/docs/sso-settings.html#configure-identity-provider).
+> * You have configured an identity provider for SSO in Katalon TestOps, see above: [Configure identity provider](https://docs.katalon.com/katalon-analytics/docs/sso-settings.html#configure-identity-provider).
 
 As an Owner or Admin, you can configure SSO by following these steps:
 
