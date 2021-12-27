@@ -14,7 +14,7 @@ redirect_from:
 
 To generate metadata for SSO configuration in Katalon TestOps, you need to set up an identity provider as follows:
 
-- Single signon SSO URL: `https://sso.katalon.io/saml/SSO`
+- Single sign-on SSO URL: `https://sso.katalon.io/saml/SSO`
 - SP Entity ID: `com:katalon:testops`
 - Attribute statement: `Email`
 
