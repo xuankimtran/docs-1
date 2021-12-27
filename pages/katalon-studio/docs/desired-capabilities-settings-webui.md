@@ -33,7 +33,7 @@ After clicking **Add**, provide **Name**, **Type** and **Value** of the property
 > * Desired capabilities is a JSON object (having keys and values pair). We need to set the capability **Name** as `key` and the capability **Value** as `value`. 
 > * The capabilities keys are case-sensitive.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/KS-DC-Chrome-settings.png" width="70%" alt="Set DC in Chrome">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/project-settings-new-ui/KS-DC-Chrome-settings.png" width="70%" alt="Set DC in Chrome">
 
 Alternatively, you can also go to `<your test project location>\settings\internal`, open the settings files for Chrome/Chrome (headless), and edit the capabilities in the Groovy script.
 
@@ -88,7 +88,7 @@ Below are some common use cases of the desired capabilities for Chrome in Katalo
 
    ```
    <a class="pop">
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/KS-DC-Start-chrome-maximized.png" width="70%" alt="Maximize in Chrome">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/project-settings-new-ui/KS-DC-Chrome-maximized.png" width="70%" alt="Maximize in Chrome">
    </a>
    <p style="text-align: center;"><em>Click the image to enlarge it</em></p>
 
@@ -119,7 +119,7 @@ Below are some common use cases of the desired capabilities for Chrome in Katalo
 
    ```
    <a class="pop">
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/KS-DC-Start-Chrome-incognito.png" width="70%" alt="Open Chrome in incognito">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/project-settings-new-ui/KS-DC-Chrome-INCOGNITO.png" width="70%" alt="Open Chrome in incognito">
    </a>
    <p style="text-align: center;"><em>Click the image to enlarge it</em></p>
 
@@ -149,7 +149,7 @@ Below are some common use cases of the desired capabilities for Chrome in Katalo
 
    ```
    <a class="pop">
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/KS-DC-start-chrome-incognito-maximized.png" width="70%" alt="Open Chrome maximized in incognito">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/project-settings-new-ui/KS-DC-Chrome-INCOGNITO-MAXIMIZED.png" width="70%" alt="Open Chrome maximized in incognito">
    </a>
    <p style="text-align: center;"><em>Click the image to enlarge it</em></p>
 
@@ -172,7 +172,7 @@ To define Firefox desired capabilities in Katalon Studio, follow these steps:
 2. Click **Add** to create a key called `moz:firefoxOptions`. 
 3. Add your capabilities inside the `moz:firefoxOptions` key.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/KS-DC-firefoxOptions-Key.png" width="70%" alt="Create DC for FireFox">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/project-settings-new-ui/KS-DC-FIREFOX-mozilla-options.png" width="70%" alt="Create DC for FireFox">
 
    To learn more about the use of the `moz:firefoxOptions` key, you can refer to the Mozilla developer document here: [firefoxOptions](https://developer.mozilla.org/en-US/docs/Web/WebDriver/Capabilities/firefoxOptions).
 
@@ -248,7 +248,7 @@ Belows are some common use cases of the desired capabilities for Firefox in Kata
    {"FIREFOX_DRIVER":{"moz:firefoxOptions":{"args":["--private","--devtools"]}}}
    ```
    <a class="pop">
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/KS-DC-OPEN-private-devtools-firefox.png" width="70%" alt="Open Firefox with devtools in the private mode">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/project-settings-new-ui/KS-DC-Firefox-Private-Devtools.png" width="70%" alt="Open Firefox with devtools in the private mode">
    </a>
    <p style="text-align: center;"><em>Click the image to enlarge it</em></p>
 
@@ -320,7 +320,7 @@ Belows are some common use cases of the desired capabilities for Firefox in Kata
     {"FIREFOX_DRIVER":{"moz:firefoxOptions":{"prefs":{"browser.startup.homepage":"https://www.google.com/"}}}}
     ```
    <a class="pop">
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/KS-DC-Open-startup-default-page-firefox.png" width="70%" alt="Start Firefox with default startup page">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/project-settings-new-ui/KS-DC-Firefox-Open-default-startup-page.png" width="70%" alt="Start Firefox with default startup page">
    </a>
    <p style="text-align: center;"><em>Click the image to enlarge it</em></p>
 
@@ -452,7 +452,7 @@ Belows are some common use cases of the desired capabilities for Firefox in Kata
    ```
 
    <a class="pop">
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-chromechrome-headless/KS-DC-download-files-firefox.png" width="70%" alt="Download HTML file automatically to a folder">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/project-settings-new-ui/KS-DC-Firefox-Download-HTML-file.png" width="70%" alt="Download HTML file automatically to a folder">
    </a>
    <p style="text-align: center;"><em>Click the image to enlarge it</em></p>
 
@@ -519,10 +519,15 @@ The most common use of Internet Explorer desired capabilities is to configure In
    </table>
 
    <a class="pop">
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-for-internet-explorer/IE.png" width="70%" alt="Set DC for IE">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/project-settings-new-ui/KS-DC-IE-IE-configuration.png" width="70%" alt="Set DC for IE">
    </a>
    <p style="text-align: center;"><em>Click the image to enlarge it</em></p>
 
+   Alternatively, you can copy and paste the following script in the settings files.
+
+   ```groovy
+   {"IE_DRIVER":{"ignoreProtectedModeSettings\t":true,"ignoreZoomSetting":true,"enablePersistentHover":false,"requireWindowFocus":false}}
+   ```
    Explanation of the settings:
 
    <table>

@@ -15,11 +15,11 @@ To create a custom execution with desired capabilities, follow these steps:
 
 1. Go to **Project > Settings > Desired Capabilities > Custom**. Click **Add** on the command toolbar to add a custom profile.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/KS-DC-create-a-custom-profile.png" width="70%" alt="Create a custom profile">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/project-settings-new-ui/KS-DC-Custom-settings.png" width="70%" alt="Create a custom profile">
 
 2. Change the name if needed, then click on *More* (...) under the **Value** column.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/KS-DC-Edit-a-custom-profile.png" width="70%" alt="Edit the custom profile settings">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/project-settings-new-ui/KS-DC-CUSTOM-Add-property.png" width="70%" alt="Edit the custom profile settings">
 
 3. In the **Custom Execution Configuration Builder** dialog, click **Add**, then specify the **Driver Name** for your custom execution. 
 

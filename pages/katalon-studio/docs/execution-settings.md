@@ -35,7 +35,7 @@ Project information displays the name, the location, and the description of the 
 From Katalon Studio version 8.2.5 onwards, you can include/exclude timestamp in .properties files. To do so:
 
 - Go to **Project > Settings > Project Information**. 
-- Check/Uncheck the **Include/Exclude timestamps in .properties files** box.
+- Check/Uncheck the **Include/Exclude timestamps in .properties files** box. By default, this box is unchecked for new projects.
 - Click **Apply**.
 
   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/KS-PRJ-Remove-timestamp.png" width="70%" alt="Include/Exclude timestamp settings">
@@ -89,7 +89,7 @@ import com.kms.katalon.core.util.KeywordUtil
 KeywordUtil.logInfo(System.getProperty("testme"))
 ```
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/hello.png" width="" alt="Log viewer">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/hello.png" width="100%" alt="Console log">
 
 Currently, Katalon Studio does not support VM arguments' values containing space. Below is a list of the most used JVM Parameters:
 
@@ -238,7 +238,7 @@ By default, Katalon Studio is configured to send all email reports for Test Suit
 
 As an exclusive feature for Katalon Studio Enterprise, users are given an option to receive email reports for Test Suite Collections' executions and skipping a single email for each Test Suite stored in that Collection. This feature is proved useful for those who execute Test Suite Collections containing a significant number of Test Suites. In that case, they can check **Skip sending email report for individual Test Suites in the Test Suite Collection** to keep their mailbox tidy.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/emails-settings/options.png" width="" alt="">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/emails-settings/options.png" width="" alt="Email settings">
 
 > The **Send test email** button is only enabled once **Mail Server Settings** and **Recipients** are filled correctly.
 

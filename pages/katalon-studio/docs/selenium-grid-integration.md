@@ -21,7 +21,7 @@ Follow these steps to set up your remote execution with Selenium Grid:
     > * Desired capabilities is a JSON object (having keys and values pair). We need to set the capability **Name** as `key` and the capability **Value** as `value`. 
     > * The capabilities keys are case-sensitive.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/remote-desired-capabilities/KS-DC-Set-remote-server-URL-types.png" width="100%" alt="Add Desired Capabilities for Remote execution">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/project-settings-new-ui/KS-DC-Remote-settings.png" width="100%" alt="Add Desired Capabilities for Remote execution">
 
 3. Click **Apply and Close** to save your settings.
 4. In the dropdown list of the **Run** button, select **Remote**.
