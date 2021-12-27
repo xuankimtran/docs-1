@@ -19,7 +19,7 @@ To generate metadata for SSO configuration in Katalon TestOps, you need to set u
 - Attribute statement: `Email`
 
 > Notes:
-> * The values for above configurations are case-sensitive.
+> * The values for the above configurations are case-sensitive.
 
 Your metadata is then automatically encrypted in the Katalon database. To learn more about the identity provider, you can refer to this Okta document: [Identity Providers](https://help.okta.com/oie/en-us/Content/Topics/Security/Identity_Providers.htm).
 ## Configure Single Sign-On
@@ -39,7 +39,7 @@ As an Owner or Admin, you can configure SSO by following these steps:
 
 4. Switch **Enable SSO** to **Active**.
 
-5. Enter the metadata from the configured indentity provider.
+5. Enter the metadata from the configured identity provider.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-sso-settings/enter-metadata-for-sso.png" width=100% alt="SSO enabled input metadata">
 
