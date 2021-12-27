@@ -50,11 +50,11 @@ For example, a data-driven test that fills in a form with dates and comments mig
 
 ### Data files in JSON format
 
-Katalon Recorder uses JSON data files with specific syntax. Test data in a JSON file must be organized in an array and enclosed in square brackets. Each element (data row) in the array is represented as an object with *name/value* pairs; the name specifies the column name, and the value specifies the value in the respective row.
+Katalon Recorder uses JSON data files with specific syntax. Test data in a JSON file must be organized in an array. Each element (data row) in the array is represented as an object with *name/value* pairs; the name specifies the column name, and the value specifies the value in the respective row.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/ddt-guide/KR-DDT-Sample-JSON-syntax.png" width=70% alt="Sample JSON syntax">
 
-For example, a JSON data file with two data types, dates and comments, might be written as follows:
+For example, a JSON data file with two columns, dates and comments, might be written as follows:
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/ddt-guide/KR-Sample-JSON-file.png" width=70% alt="Sample JSON file for Katalon Recorder">
 
