@@ -42,7 +42,7 @@ Katalon Recorder supports two data file formats: CSV and JSON.
 
 While performing DDT with a CSV data file, Katalon Recorder navigates the file using the column names, and extracts data from the file, row by row. Therefore, you need to create a CSV file with specific column names.
 
-In Katalon Recorder, CSV column names are case-sensitive. This means you must create a CSV with distinct column names, and use them with a consistent capitalization of letters in the test case.
+CSV column names are case-sensitive. This means you must create a CSV with distinct column names, and use them with a consistent capitalization of letters in the test case.
 
 For example, a data-driven test that fills in a form with dates and comments might have a CSV data file as follows:
 
@@ -71,3 +71,6 @@ Follow these steps to add a sample project:
 2. In the displayed dialog, select the **Fill a form with data from CSV file with Sample Test Data** sample project. Click **Add** to add the project.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/ddt-guide/KR-Sample-Project-dialog.png" width=70% alt="Sample project dialog">
+
+**See also**:
+* The Katalon Academy course: [Data-Driven Testing with Katalon Recorder](https://academy.katalon.com/courses/katalon-recorder-data-driven-testing/).
