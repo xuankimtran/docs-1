@@ -33,26 +33,209 @@ description:
 
 ## Install the qTest Integration plugin
 
-Please visit our [Katalon Store](https://store.katalon.com/product/136/qTest-Integration) to download this plugin. For further details on how to install and reload this plugin with a Katalon Studio Enterprise license, please see [this document](https://docs.katalon.com/katalon-studio/docs/kse-use-plugins.html#use-plugins-offline).
+To download and install the **qTest Integration** plugin, you can go to the Katalon Store here: [qTest Integration](https://store.katalon.com/product/136/qTest-Integration). 
+
+To activate the installed plugin, navigate to Account Settings in Katalon Studio and click **Reload Plugin**.
+If you want to use the plugin in console mode, you can refer to this document: [Use Plugins in Console Mode](https://docs.katalon.com/katalon-studio/docs/kse-use-plugins.html#use-plugins-in-console-mode).
 
 After reloading plugins successfully to activate the qTest plugin, you can start configuring the integration between Katalon Studio and qTest.
 
-## Enable qTest Integration
+## Enable qTest integration
 
 1. Open the qTest integration settings
 
-* In version **7.5.5+**: Go to **Project/Settings/Plugins/qTest**
-* In **prior to 7.5.5** versions: Go to **Project/Settings/Integration/qTest**
+* For Katalon version 7.5.5 onwards: Go to **Project > Settings > Plugins > qTest**
+* For versions older than 7.5.5: Go to **Project > Settings > Integration > qTest**
 
 2. Check the **Enable integration** checkbox. Next, you can either use the wizard setup or set up the qTest integration manually.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/enable-wizard.png" width=85%>
 
-### qTest - Katalon Studio Parity Report
+## Configure qTest integration
 
-> From version 7.8 onwards, Katalon supports generating a qTest-Katalon Studio Parity Report after a test execution.
+You can configure qTest integration manually or with Wizard Setup as follows:
 
-Go to **Project Settings/Plugins/qTest**, enable Parity Report by checking the option **Generate the parity report after test execution**.
+<details><summary>Wizard Setup</summary>
+
+To open the **Wizard Setup**, click **Yes** in the above pop-up window after checking **Enable Integration** or click on the **Quick Setup...** hyperlink.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/image2017-6-29-163A493A31.png" width=70%>
+
+In the displayed **qTest Integration Setup Wizard** dialog, complete all items to finish the setup.
+
+1. Enter authentication information and select your **qTest version**. Once your qTest account is connected successfully, proceed to step 2.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/image2017-8-1-183A263A14.png" width=70%>
+
+2. Select your **qTest project**.
+    
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/image2017-8-1-183A263A32.png" width=70%>
+
+3. In the Test Structure Mapping section, you need to map the tests between the two systems.
+
+   3.1. **qTest module**: select one of the qTest modules fetched from your account to store the uploaded Katalon test cases.
+
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/image2017-8-4-103A13A24.png" width=80%>
+
+   3.2. **Katalon Test Case folder**: select one test case folder to be integrated with the chosen **qTest module** above.
+
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/image2017-8-4-103A23A46.png" width=80%>
+
+
+   3.3. **Katalon Test Suite folder**: select one test suite folder to be integrated with the selected **qTest module** above.
+      
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/image2017-8-4-103A23A19.png" width=80%>
+
+4. Optional settings when uploading to qTest.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/image2017-8-1-183A283A21.png" width=80%>
+
+   <table>
+   <thead>
+   <tr>
+      <th>Field</th>
+      <th>Description</th>
+   </tr>
+   </thead>
+   <tbody>
+   <tr>
+      <td>Automatically submit test run result</td>
+      <td>Results of executed test cases are uploaded automatically to qTest.</td>
+   </tr>
+   <tr>
+      <td>Submit test run result to latest approved version</td>
+      <td>Test run results are submitted to latest approved version of mapped qTest test case.</td>
+   </tr>
+   <tr>
+      <td>Report format</td>
+      <td>Additional attachments for reports to be upload to qTest.</td>
+   </tr>
+   </tbody>
+   </table>
+
+   > Notes:
+   > * To upload the HTML report to qTest, make sure to enable the HTML reports generation in **Project > Settings > Plugins > Reports**.
+      > <img alt="Enable HTML reports" src="url" width=85%>
+
+5. Recheck setup information, then click **Finish**.
+
+</details>
+
+<details><summary>Manual Setup</summary>
+
+
+> From version 7.9.0 onwards, Katalon Studio supports pushing screenshots (PNG files) along with other existing submitting options to qTest to generate the report.
+
+1. **qTest Version**: On Authentication form, select the version of your qTest.
+
+   > Notes:
+   > * The **7 or higher** option is recommended because APIs of earlier versions might be deprecated soon.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/image2016-11-15-143A493A1.png" width=30%>
+
+2. To **generate token** for Authentication, you can choose either way (2.1 or 2.2)
+
+   2.1 Log in with username and password: 
+   
+      Click on the **Generate** button to create the token to be used during the integration session.
+      
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/image2016-11-15-143A503A18.png" width=80%>
+
+      Fill in valid information on the **Generate new token** dialog. For example:
+      
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/image2016-11-15-143A483A8.png" width=80%>
+
+      Once Katalon Studio successfully connects to your qTest using the provided information, the token will be generated.
+
+   2.2 Log in with SSO token:
+   
+      If you are using SSO (Single Sign-On) to log into qTest, ignore the **Generate** button, copy and paste the following token format in the **Token** text field:
+      
+      `{"access_token":"<bearer_token_value>","token_type":"bearer","scope":"read write create delete administration execute import export share baseline"}`
+      
+      Fill <bearer_token_value> with **Bearer Token**. To find it, you need to access qTest Manager and sign in with your SSO account. Then navigate to the **Download qTest Resources** page, under the **API & SDK** section, you can see **Bearer Token**. 
+      
+      <img alt="Bearer token" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/bearer-token.png" width=85%>
+
+3. Select other submitting options as following:
+
+    <img alt="Submitting options" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/submitting-options.png" width=85%>
+
+   <table>
+   <thead>
+   <tr>
+      <th>Field</th>
+      <th>Description</th>
+   </tr>
+   </thead>
+   <tbody>
+   <tr>
+      <td>Automatically submit test run result</td>
+      <td>Results of executed test cases are uploaded automatically to qTest.</td>
+   </tr>
+   <tr>
+      <td>Submit test run result to latest approved version</td>
+      <td>Test run results are submitted to latest approved version of mapped qTest test case.</td>
+   </tr>
+   <tr>
+      <td>Report format</td>
+      <td>Additional attachments for reports to be upload to qTest.</td>
+   </tr>
+   </tbody>
+   </table>
+
+   > Notes:
+   > * To upload the HTML report to qTest, make sure to enable the HTML reports generation in **Project > Settings > Plugins > Reports**.
+      > <img alt="Enable HTML reports" src="url" width=85%>
+
+4. **Test Case Mapping**:
+   
+   To create mappings between **qTest modules** and **Katalon Test Case folders**, go to **Project > Settings > Plugins > qTest > Test Case Repositories**.
+
+   <img alt="Test case mapping" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/image2017-6-29-163A473A10.png" width=85%>
+   
+   Click **Add**. The **Create Test Case Repository** dialog opens. 
+   Choose the **qTest Project**, **qTest Module** and browse the **Katalon Folder** for the test case you wish to map with. Click **OK** when you are done.
+
+   <img alt="Browse mapping test cases" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/image2016-11-15-153A253A8.png" width=85%>
+
+5. **Test Suite Mapping**:
+
+   To create mappings between **qTest projects** and **Katalon Test Suite folders**, go to **Project > Settings > Plugins > qTest > Test Suite Repositories**.
+   
+      <img alt="Enable HTML reports" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/image2017-6-29-163A483A33.png" width=85%>
+
+   Click **Add**. The **Create Test Suite Repository** dialog opens. 
+   Choose the **qTest Project**, and browse the **Katalon Folder** for the test suite you wish to map with.
+   Click **OK** when you are done.
+
+      <img alt="Enable HTML reports" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/image2016-11-15-153A373A55.png" width=85%>
+
+   > Notes:
+   > * You should select test suites that contain test cases defined in **Test Case Repositories** settings.
+
+</details>
+
+## Execution Status Mapping
+
+> Requirements:
+> * Katalon Studio version 7.9.0 onwards.
+
+1. To submit execution results from Katalon Studio to qTest Manager, activate the Automation Integration and mapped Automation Status to Test Run Status in qTest. You can learn more about activating Automation Integration, you can refer to the Tricentis document here: [Activate Automation Integrations](https://documentation.tricentis.com/qtest/1001/en/content/qtest_manager/project_settings/activate_automation_integrations.htm).
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/qtest_map_status.png" width=70% alt="Map test status in qTest">
+
+2. Map Katalon Studio test status to the Automation Status you have configured earlier from step 1. 
+
+   To do so, in Katalon Studio, go to **Project > Settings > Plugins > qTest > Execution Status Mapping** and specify the submitted value of each test status.
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/status-map-ks.png" width=60% alt="Map test status in Katalon Studio">
+
+## qTest - Katalon Studio Parity Report
+
+> From version 7.8.0 onwards, Katalon supports generating a qTest-Katalon Studio Parity Report after a test execution.
+
+To enable parity reports generation, go to **Project Settings > Plugins > qTest**, check the **Generate the parity report after test execution** box.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/parity-report.png">
 
@@ -62,120 +245,10 @@ To view the generated parity report, open the Report folder.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/parity-report-html.png" width=70%>
 
-## Wizard Setup
-
-Click **Yes** in the above pop-up window after checking "Enable Integration" or click on the **Quick Setup...** link to open the Wizard.
-
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/image2017-6-29-163A493A31.png)
-
-In the displayed Setup Wizard, complete all items to finish the setup.
-
-1. Enter authentication information and select your **qTest version**. Once your qTest account is connected successfully, proceed to step 2.
-
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/image2017-8-1-183A263A14.png)
-
-2. Select your **qTest project**.
-    
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/image2017-8-1-183A263A32.png)
-
-3. In the Test Structure Mapping section, you need to map the tests between the two systems.
-
-   3.1. **qTest module**: select one of the qTest modules fetched from your account to store the uploaded Katalon test cases.
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/image2017-8-4-103A13A24.png" width=80%>
-
-   3.2. **Katalon Test Case folder**: select one test case folder to be integrated with the chosen **qTest module** above.
-   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/image2017-8-4-103A23A46.png)
-
-   3.3. **Katalon Test Suite folder**: select one test suite folder to be integrated with the selected **qTest module** above.
-   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/image2017-8-4-103A23A19.png)
-
-4. Optional settings when uploading to qTest. Please refer to [Manual Setup](https://docs.katalon.com/katalon-studio/docs/qtest-integration.html#manual-setup) for more details of each option.
-
-   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/image2017-8-1-183A283A21.png)
-
-5. Complete all previous steps to finish the qTest setup wizard.
-
-## Manual Setup
-
-> From version 7.9 onwards, Katalon Studio supports pushing screenshots (PNG files) along with other existing submitting options to qTest to generate the report.
-
-1. **qTest Version**: On Authentication form, select the version of your qTest. (_The **7 or higher** option is recommended because APIs of earlier versions might be deprecated soon_).
-
-   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/image2016-11-15-143A493A1.png)
-
-2. To **generate token** for Authentication, you can choose either way (2.1 or 2.2)
-
-   2.1 Log in with username and password: 
-   
-   Click on the **Generate** button to create the token to be used during the integration session.
-    
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/image2016-11-15-143A503A18.png)
-   
-   Fill in valid information on the **Generate new token** dialog. For example:
-   
-   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/image2016-11-15-143A483A8.png)
-
-   Once Katalon Studio successfully connects to your qTest using the provided information, the token will be generated.
-
-   2.2 Log in with SSO token:
-   
-   If you are using SSO (Single Sign-On) to log into qTest, ignore the **Generate** button, copy and paste the following token format in the **Token** text field:
-   
-   `{"access_token":"<bearer_token_value>","token_type":"bearer","scope":"read write create delete administration execute import export share baseline"}`
-   
-   Fill <bearer_token_value> with **Bearer Token**. To find it, you need to access qTest Manager and sign in with your SSO account. Then navigate to the **Download qTest Resources** page, under the **API & SDK** section, you can see **Bearer Token**. 
-   
-   <img alt="Bearer token" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/bearer-token.png" width=85%>
-
-3. Select other submitting options as following:
-
-    <img alt="Submitting options" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/submitting-options.png" width=85%>
-
-    | Field | Description |
-    | --- | --- |
-    | Automatically submit test run result | Results of executed test cases will be uploaded automatically to qTest. |
-    | Submit test run result to latest approved version | Test run result will be submitted to latest **approved** version of mapped qTest test case. |
-    | Report format | Additional attachments for reports to be upload to qTest. |
-
-   > Notes:
-   > * To upload the HTML report to qTest, make sure to enable to automatically generate the HTML report in **Project > Settings > Plugins > Reports**.
-
-4. **Test Case Mapping**:
-   
-   Select **Test Case Repositories** setting (in Plugins/qTest). You can create mappings between **qTest modules** and **Katalon Test Case folders** here.
-   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/image2017-6-29-163A473A10.png)
-   
-   Click on the **Add** command. The **Create Test Case Repository** dialog will be displayed. Click **OK** when you are done with the settings.
-   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/image2016-11-15-153A253A8.png)
-
-5. **Test Suite Mapping**:
-   
-   Select the **Test Suite Repositories** setting (in Plugins/qTest). You can create mappings between **qTest projects** and **Katalon Test Suite folders** here.
-   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/image2017-6-29-163A483A33.png)
-
-   Click on the **Add** command. The **Create Test Suite Repository** dialog will be displayed. Click **OK** when you are done with the settings.
-   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/image2016-11-15-153A373A55.png)
-
-   > You should select test suites that contain those test cases defined in **Test Case Repositories** settings.
-
-## Execution Status Mapping
-
-> Introduced in version 7.9
-
-**Precondition**: To submit automated execution results from Katalon Studio back to qTest Manager, you have activated Automation Integration and mapped Automation Status to Test Run Status in qTest. [Learn more](https://documentation.tricentis.com/qtest/od/en/content/qtest_manager/project_settings/activate_automation_integrations.htm).
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/qtest_map_status.png" width=70%>
-
-**In Katalon Studio**: Map Katalon Studio test status to the Automation Status you have configured earlier in qTest.
-
-Go to **Project**/**Settings**/**Plugins**/**qTest**/**Execution Status Mapping** and specify the submitted value of each test status.
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/status-map-ks.png" width=60%>
-
 ## Upload test cases to qTest
 
-> **Test cases folder** must be registered in [**Test Case Repositories**](/display/KD/qTest+Integration) before you can upload test cases to qTest.
-
+> Requirements:
+> * The **Test cases folder** must be added in the **Test Case Repositories**, see above: [Test Case Mapping](/display/KD/qTest+Integration).
 ### Upload a single test case
 
 1. You have two methods to upload a test case to a predefined qTest Module
