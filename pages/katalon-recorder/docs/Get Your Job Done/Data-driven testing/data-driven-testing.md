@@ -12,7 +12,7 @@ Data-driven testing (DDT) allows you to execute test cases using data from exter
 >
 > Katalon Recorder version 5.6.0 onwards.
 
-This article introduces you to the supported DDT commands and data file formats in Katalon Recorder.
+This article introduces you to the DDT commands and data file formats supported by Katalon Recorder.
 
 ## Data-driven commands
 
@@ -40,7 +40,9 @@ Katalon Recorder supports two data file formats: CSV and JSON.
 
 ### Data files in CSV format
 
-Katalon Recorder navigates using column names in a CSV file, so you need to create a CSV file with specific column names.
+While performing DDT with a CSV data file, Katalon Recorder navigates the file using the column names, and extracts data from the file, row by row. Therefore, you need to create a CSV file with specific column names.
+
+CSV column names are case-sensitive. This means you must create a CSV with distinct column names, and use them with consistent capitalization of letters in the test case.
 
 For example, a data-driven test that fills in a form with dates and comments might have a CSV data file as follows:
 
@@ -48,13 +50,13 @@ For example, a data-driven test that fills in a form with dates and comments mig
 
 ### Data files in JSON format
 
-Katalon Recorder uses JSON data files with specific syntax.
+Katalon Recorder uses JSON data files with specific syntax. Test data in a JSON file must be organized in an array and enclosed in square brackets. Each element (data row) in the array is represented as an object with *name/value* pairs; the name specifies the column name, and the value specifies the value in the respective row.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/ddt-guide/KR-DDT-Sample-JSON-syntax.png" width=70% alt="Sample JSON syntax">
 
 For example, a JSON data file with two data types, dates and comments, might be written as follows:
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/ddt-guide/KR-Sample-JSON-file.png" width=70% alt="Sample JSON file for Katalon Recorder">
-
-Test data in a JSON file must be organized in an array and enclosed in square brackets. Each element (data row) in the array is represented as an object with *name/value* pairs; the name specifies the column name, and the value specifies the value in the respective row.
 
 ## Sample projects
 
