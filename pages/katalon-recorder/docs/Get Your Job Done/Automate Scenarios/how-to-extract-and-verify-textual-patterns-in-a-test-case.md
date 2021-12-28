@@ -2,65 +2,83 @@
 title: "How to extract and verify textual patterns in a test case"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-recorder/docs/how-to-extract-and-verify-textual-patterns-in-a-test-case.html
-description: "In this tutorial, we use Katalon Recorder to extract and verify texts through pattern matching (regex)"
+description: "In this tutorial, we use Katalon Recorder to extract and verify texts through pattern matching (regex)."
 ---
 
-In a test project, you might want to verify that the application under test (AUT) displays information in correct pattern, such as email, phone number, or price tag pattern. Katalon Recorder supports this pattern matching process with several commands. Specifically, commands in Katalon Recorder can take patterns as parameters, which enable you to verify several data types on the AUT, including displayed UI text, link, or web elements.
+In a test project, you might want to verify that the application under test (AUT) displays information in the correct pattern, such as email, phone number, or price tag pattern. Katalon Recorder supports this pattern matching process with several commands. Specifically, commands in Katalon Recorder can take patterns like regular expressions as input to verify several data types on an AUT.
 
-This tutorial shows you how to extract and verify displayed text on an AUT through pattern matching.
+This tutorial shows you how to extract and verify displayed text on an AUT with regular expressions.
 
-In our example, we have a test case with the scenario "check out and verify the price tag," which consists of these steps:
+In our example, we have a scenario "extract and verify item price," which consists of these steps:
 
 1. Sign in to the AUT - Katalon Zack Market: `https://demo-store.katalon.com/signin`.
-2. Select and buy an item.
-3. Navigate to the checkout page of the AUT: `https://demo-store.katalon.com/checkout`.
-4. On the checkout page, verify that the total price is displayed in the correct price tag format: a dollar sign (`$`) followed by a numeric value.
-5. Extract the numeric part from the displayed price tag.
+2. Navigate to the homepage: `https://demo-store.katalon.com`.
+3. On the homepage, select an item.
+4. On the item details page, extract the item price.
+5. Verify that the item price is in the correct pattern: a currency symbol (`$`) followed by a numeric value.
 
-To implement a test case according to the presented scenario, we propose the following process:
+After we follow the first three steps of the scenario, the item details page displays the price text as follows:
 
-1. Record the test case: we record the test case to buy an item and nagivate to the checkout page.
-2. Extract and verify the textual pattern: we append the recorded test case with commands that extract and verify textual pattern of the price tag.
+<a class="pop">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/extract-and-verify-textual-patterns/KR-AUT-overview.png" width=100% alt="Katalon Recorder AUT overview">
+</a>
+<p style="text-align: center;"><em>Click the image to enlarge</em></p>
 
-## Record the test case
+We can see that the price text consists of the item price and the currency code (`CAD`).
 
-Here we record a test case according to the first three steps of the introduced scenario.
+## Extract and verify textual patterns
+
+To complete the last two steps of the scenario, we create a test case to extract only the price from the displayed price text. Then, we verify that the price is in the correct pattern using regular expression.
 
 Follow these steps:
 
-1. Sign up for a new account. Navigate to the sign-up page of the AUT and create a new account.
+1. Get the XPath of the displayed price text. On the item details page, right-click on the displayed price text, then select **Inspect**.
 
-    The URL for the sign-up page is `https://demo-store.katalon.com/signup`.
+    <a class="pop">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/extract-and-verify-textual-patterns/KR-AUT-inspect.png" width=70% alt="Katalon Recorder AUT inspect">
+    </a>
+    <p style="text-align: center;"><em>Click the image to enlarge</em></p>
 
-2. In Katalon Recorder, create a new test case, then click on the **Record** button to start recording.
+    In the opened inspector window, right-click on the `<div>` tag associated with the price text, and select **Copy > Copy XPath**.
 
-    [KR-create-a-new-test-case]
+    <a class="pop">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/extract-and-verify-textual-patterns/KR-AUT-copy-xpath.png" width=70% alt="Katalon Recorder AUT Copy XPath">
+    </a>
+    <p style="text-align: center;"><em>Click the image to enlarge</em></p>
 
-3. In an active browser tab, navigate to the sign-in page of the AUT.
+2. In Katalon Recorder, create a new test case.
 
-    Here the URL for the sign-in page is `https://demo-store.katalon.com/signin`.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/extract-and-verify-textual-patterns/KR-new-test-case.png" width=70% alt="Katalon Recorder new test case">
 
-    [KR-AUT-signin-page]
+3. Store the displayed price text.
 
-4. Type in your username and password, then click **Sign In**.
+    With XPath copied in *step 1*, we use the `storeText` command to store the displayed price text into a variable.
 
-    [KR-AUT-sign-in]
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/extract-and-verify-textual-patterns/KR-storeText-command.png" width=70% alt="Katalon Recorder storeText command">
 
-5. In the main page of the AUT, select and buy a product.
+    In our case, the XPath of the text is `//*[@id="root"]/div/div/div[1]/div[2]/div/div[2]/div/div[3]`.
 
-    Here we select the top-left product ("Basic Top").
+4. Extract the item price.
 
-    [KR-AUT-select-a-product]
+    We use the `storeEval` command to extract the item price (the first six characters) from the text.
 
-    In the product page, select **Buy Now**.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/extract-and-verify-textual-patterns/KR-storeEval-substring.png" width=70% alt="Katalon Recorder storeEval command with a Javascript expression">
 
-    [KR-AUT-buy-now]
+    The `storeEval` command evaluates a Javascript expression, then stores the result into a variable. In our example, the target Javascript expression is `"${displayedPrice}".substring(0, 6)`. Here, `substring()` is a method that extracts characters from a string, given two indices.
 
-6. After you're nagivated to the checkout page, stop the test recording.
+    The expression evaluates the `displayedPrice` variable into its value. Then it extracts and stores the first six characters into the `itemPrice`.
 
-    [KR-AUT-checkout-page]
+5. Verify the item price with regular expression.
 
-The recorded test case is as follows:
+    We use the `verifyEval` command with a regular expression in the **Value** field. This command verifies that the item price is displayed in the correct price pattern.
 
-[]
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/extract-and-verify-textual-patterns/KR-verifyEval.png" width=70% alt="Katalon Recorder verifyEval command with a Javascript expression and regular expression">
 
+    To input a regular expression as a value, we prefix the expression with `regexp:`. For our purpose, we use the regular expression `^[$](\d+\.\d+)` that checks if the item price starts with a dollar sign and ends with a numeric value.
+
+6. Play the test case and verify the results in the **Log** view.
+
+    <a class="pop">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/extract-and-verify-textual-patterns/KR-Log-view-results.png" width=70% alt="Katalon Recorder Log view results">
+    </a>
+    <p style="text-align: center;"><em>Click the image to enlarge</em></p>
