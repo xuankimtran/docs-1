@@ -29,20 +29,20 @@ description:
 
 > Requirements:
 > * Katalon Studio version 7.0.1 onwards.
-> * An active Katalon Studio Enterprise license. To learn more about activating Katalon Studio license, you can refer to this document: [Activate Katalon license](https://docs.katalon.com/katalon-studio/docs/activate-license.html#activate-a-license-with-internet-access).
+> * An active Katalon Studio Enterprise license. To learn more about activating the Katalon Studio license, you can refer to this document: [Activate Katalon license](https://docs.katalon.com/katalon-studio/docs/activate-license.html#activate-a-license-with-internet-access).
 
 ## Install the qTest Integration plugin
 
 To download and install the **qTest Integration** plugin, you can go to the Katalon Store here: [qTest Integration](https://store.katalon.com/product/136/qTest-Integration). 
 
 To activate the installed plugin, navigate to Account Settings in Katalon Studio and click **Reload Plugin**.
-If you want to use the plugin in console mode, you can refer to this document: [Use Plugins in Console Mode](https://docs.katalon.com/katalon-studio/docs/kse-use-plugins.html#use-plugins-in-console-mode).
+If you want to use the plugin in console mode, refer to this document: [Use Plugins in Console Mode](https://docs.katalon.com/katalon-studio/docs/kse-use-plugins.html#use-plugins-in-console-mode).
 
-After reloading plugins successfully to activate the qTest plugin, you can start configuring the integration between Katalon Studio and qTest.
+After reloading plugins successfully, you can start configuring the integration between Katalon Studio and qTest.
 
 ## Enable qTest integration
 
-1. Open the qTest integration settings
+1. Open the qTest integration settings:
 
 * For Katalon version 7.5.5 onwards: Go to **Project > Settings > Plugins > qTest**
 * For versions older than 7.5.5: Go to **Project > Settings > Integration > qTest**
@@ -54,7 +54,7 @@ After reloading plugins successfully to activate the qTest plugin, you can start
 ## Configure qTest integration
 
 > Notes:
-> * From version 7.9.0 onwards, Katalon Studio supports pushing screenshots (PNG files) along with other existing submitting options to qTest to generate reports.
+> * From version 7.9.0 onwards, Katalon Studio supports pushing screenshots (PNG files) and other existing submitting options to qTest to generate reports.
 
 You can configure qTest integration manually or with Wizard Setup as follows:
 
@@ -125,7 +125,7 @@ In the displayed **qTest Integration Setup Wizard** dialog, complete all items t
 
    > Notes:
    > * To upload the HTML report to qTest, make sure to enable the HTML reports generation in **Project > Settings > Plugins > Reports**.
-      > <img alt="Enable HTML reports" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/KS-qTest-HTML-report-generator.png" width=85%>
+      ><img alt="Enable HTML reports" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/KS-qTest-HTML-report-generator.png" width=85%>
 
 5. Click **Finish**.
 
@@ -162,7 +162,7 @@ In the displayed **qTest Integration Setup Wizard** dialog, complete all items t
       
       `{"access_token":"<bearer_token_value>","token_type":"bearer","scope":"read write create delete administration execute import export share baseline"}`
       
-      - Fill <bearer_token_value> with **Bearer Token**. To find it, you need to access qTest Manager and sign in with your SSO account. Then navigate to the **Download qTest Resources** page, under the **API & SDK** section, you can see **Bearer Token**. 
+      - To find the `<bearer_token_value>`, you need to access qTest Manager and sign in with your SSO account. Then navigate to the **Download qTest Resources** page, in the **API & SDK** section, you can see the **Bearer Token** value. 
       
       <img alt="Bearer token" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/bearer-token.png" width=85%>
    
@@ -228,15 +228,18 @@ In the displayed **qTest Integration Setup Wizard** dialog, complete all items t
 
 </details>
 
-## qTest - Katalon Studio Parity Report
+## qTest - Katalon Studio parity report
 
-> From version 7.8.0 onwards, Katalon supports generating a qTest-Katalon Studio Parity Report after a test execution.
+> From version 7.8.0 onwards, Katalon supports generating a qTest-Katalon Studio parity report after test execution.
 
 To enable parity reports generation, go to **Project Settings > Plugins > qTest**, check the **Generate the parity report after test execution** box.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/KS-QTEST-Parity-report.png" width=100% alt="Parity reports">
 
-When you turn on this setting, Katalon Studio will generate a report for Test Suite and Test Suite Collection execution. This parity report is to provide a quick check of version and test step contents of your integrated test cases between two systems. In a test execution, only test cases with unique ID are included in this report (two or more duplicate Test Cases are counted as one).
+Katalon Studio will generate test suite and test suite collection reports when you turn on this setting. This parity report provides a quick check of the version and test step contents of your integrated test cases between two systems. 
+
+> Notes:
+> * Only the test case with a unique ID is counted in the parity report. Two or more duplicate test cases are counted as one.
 
 To view the generated parity report, open the `<your-project-folder>/Reports` folder.
 
@@ -247,15 +250,15 @@ To view the generated parity report, open the `<your-project-folder>/Reports` fo
 > Requirements:
 > * Katalon Studio version 7.9.0 onwards.
 
-1. To submit execution results from Katalon Studio to qTest Manager, activate the Automation Integration and mapped Automation Status to Test Run Status in qTest. You can learn more about activating Automation Integration, you can refer to the Tricentis document here: [Activate Automation Integrations](https://documentation.tricentis.com/qtest/1001/en/content/qtest_manager/project_settings/activate_automation_integrations.htm).
+1. To submit execution results from Katalon Studio to qTest Manager, activate the Automation Integration settings and map the automation status to the test run status in qTest. You can learn more about activating the Automation Integration settings in the Tricentis document here: [Activate Automation Integrations](https://documentation.tricentis.com/qtest/1001/en/content/qtest_manager/project_settings/activate_automation_integrations.htm).
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/qtest_map_status.png" width=70% alt="Map test status in qTest">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/qtest_map_status.png" width=80% alt="Map test status in qTest">
 
 2. Map Katalon Studio test status to the Automation Status you have configured earlier from step 1. 
 
    To do so, in Katalon Studio, go to **Project > Settings > Plugins > qTest > Execution Status Mapping** and specify the submitted value of each test status.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/status-map-ks.png" width=60% alt="Map test status in Katalon Studio">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/status-map-ks.png" width=70% alt="Map test status in Katalon Studio">
 
 ## Upload test cases to qTest
 
@@ -263,7 +266,7 @@ Katalon allows you to upload a test case or all test cases in a test case folder
 ### Upload a test case to qTest
 
 > Requirements:
-> * The test case you wish to upload must locate in the integrated test case folder with qTest. To learn more about integrating a test case folder with qTest, refer to step 4.Conduct test case mapping in Manual Setup, see above: [Manual Setup](https://docs.katalon.com/katalon-studio/docs/qtest-integration.html#configure-qtest-integration).
+> * The test case you wish to upload must locate in the integrated test case folder with qTest. To learn more about integrating a test case folder with qTest, refer to step 4 in Manual Setup. See above: [Manual Setup](https://docs.katalon.com/katalon-studio/docs/qtest-integration.html#configure-qtest-integration).
 
 To upload a test case to an integrated qTest Module, do as follows:
 
@@ -320,7 +323,7 @@ To upload a test case to an integrated qTest Module, do as follows:
 ### Upload a test case folder to qTest
 
 > Requirements:
-> * The test case folders you wish to upload should be added in **Project > Settings > Plugins > qTest > Test Case Repositories**. To learn more about adding a test case folder in the **Test Case Repositories**, see above: [Manual Setup](https://docs.katalon.com/katalon-studio/docs/qtest-integration.html#configure-qtest-integration).
+> * The test case folders you wish to upload should be added in **Project > Settings > Plugins > qTest > Test Case Repositories**. To learn more about adding a test case folder in the **Test Case Repositories**, refer to step 4 in Manual Setup. See above: [Manual Setup](https://docs.katalon.com/katalon-studio/docs/qtest-integration.html#configure-qtest-integration).
 
 - In the **Tests Explorer** panel, right-click on the test case folder to trigger its context menu. Select **qTest > Upload**.  
 
@@ -338,11 +341,11 @@ To upload a test case to an integrated qTest Module, do as follows:
 
 1. In qTest, switch to the **Test Design** tab. Move the test cases you wish to download into the qTest module that is integrated with Katalon Studio. 
 
-   For example, we want to download the **Login_myAccount** test case to Katalon Studio, we move it to the **Login** qTest module, which we have integrated with Katalon Studio beforehand.
+   For example, we want to download the **Login_myAccount** test case to Katalon Studio. We move it to the **Login** qTest module, which we have integrated with Katalon Studio beforehand.
    
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/KS-qTest-Download-test-case-from-qTest.png" width=70% alt="Move test case to the integrated folder in qTest">
 
-2. Go to Katalon Studio, in the **Tests Explorer** panel, right-click the test case folder that is integrated with the above qTest module. Select **qTest > Download**.
+2. Switch to Katalon Studio. In the **Tests Explorer** panel, right-click the test case folder that is integrated with the above qTest module. Select **qTest > Download**.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/integrate-test-case/image2017-8-5-163A513A18.png" width=70% alt="Download qTest test case">
 
@@ -353,7 +356,7 @@ To upload a test case to an integrated qTest Module, do as follows:
    > Notes:
    > * Test cases that are downloaded will not be displayed again.
 
-4. Once the downloading process finished, you can view the downloaded test cases in the integrated test case folder.  
+4. Once the downloading process is finished, you can view the downloaded test cases in the integrated test case folder.  
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/integrate-test-case/image2017-8-5-163A563A37.png" width=70% alt="View downloaded test cases">
 
@@ -372,7 +375,7 @@ You can break the connection between a Katalon Studio test case and qTest by fol
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/KS-QTEST-Disintegrate-test-case-2.png" width=70% alt="Disintegrate a test case from qTest">
 
-2. Click **OK** on the **Confirmation** dialog. The connection between the test case and qTest will be removed.  
+2. Click **OK** on the **Confirmation** dialog. The connection between the test case and qTest is removed.  
 
 ### Disintegrate a test case folder from qTest
 
@@ -384,12 +387,12 @@ You can break the connection between a Katalon Studio test case folder and qTest
    
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/integrate-test-case/image2017-8-5-173A23A57.png" width=70%>
 
-2. Click **OK** on the **Confirmation** dialog. The connection between the test case folder and qTest will be removed.
+2. Click **OK** on the **Confirmation** dialog. The connection between the test case folder and qTest is removed.
 
 ## Upload test suites to qTest
 
 > Requirements:
-> * The test suite you wish to upload to qTest should locate in the integrated test suite folder with qTest. To learn more about integrating a test suite folder with qTest, refer to step 5.Conduct test suite mapping in Manual Setup see above: [Manual Setup](https://docs.katalon.com/katalon-studio/docs/qtest-integration.html#configure-qtest-integration).
+> * The test suite you wish to upload to qTest should locate in the integrated test suite folder with qTest. To learn more about integrating a test suite folder with qTest, refer to step 5 in Manual Setup. See above: [Manual Setup](https://docs.katalon.com/katalon-studio/docs/qtest-integration.html#configure-qtest-integration).
 ### Register a qTest location for a test suite
 
 1. Navigate to the **Integration** tab of the test suite. Click on the **New parent** button.
@@ -400,7 +403,7 @@ You can break the connection between a Katalon Studio test case folder and qTest
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/integrate-test-suite/image2016-11-21-153A233A4.png" width=70%>
 
-3. In the **Creation Options** section, you can decide the integration behaviour with the following options:
+3. In the **Creation Options** section, you can decide the integration behavior with the following options:
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/KS-QTEST-Creation-option.png" width=70%>
 
@@ -414,21 +417,21 @@ You can break the connection between a Katalon Studio test case folder and qTest
    <tbody>
    <tr>
       <td>Create only</td>
-      <td>- Create an association between the Katalon test suite and the selected qTest location. <br>- With this option, if you want to upload the Katalon test suite to the selected qTest location, you need to do it manually, see below: <a href="https://docs.katalon.com/katalon-studio/docs/qtest-integration.htm#upload-a-test-suite-manually" target="_blank" rel="noopener noreferrer">Upload a test suite manually</a></td>
+      <td>- Create an association between the Katalon test suite and the selected qTest location. <br>- With this option, if you want to upload the Katalon test suite to the selected qTest location, you need to do it manually. See below: <a href="https://docs.katalon.com/katalon-studio/docs/qtest-integration.htm#upload-a-test-suite-manually" target="_blank" rel="noopener noreferrer">Upload a test suite manually</a></td>
    </tr>
    <tr>
       <td>Create and upload</td>
       <td>- Create an association between the Katalon test suite and the selected qTest location.<br>- Upload the Katalon test suite to the selected qTest location.</td>
    </tr>
    <tr>
-      <td>Create, upload and set as default</td>
+      <td>Create, upload, and set as default</td>
       <td>- Create an association between the Katalon test suite and the selected qTest location.<br>- Upload the Katalon test suite to the selected qTest location.<br>- Set the qTest location as default for uploading the execution result of the Katalon test suite.</td>
    </tr>
    </tbody>
    </table>
 
    > Notes: 
-   > * A test suite can be registered in many qTest locations, but only one qTest location can set as default.
+   > * A test suite can be registered in many qTest locations, but only one qTest location can be set as default.
 
 4. Click **OK** to continue. 
    Once integrated, you can see the location and the name of the parent folder on qTest.
@@ -440,7 +443,7 @@ You can break the connection between a Katalon Studio test case folder and qTest
     | <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/integrate-test-suite/84.png"> | The Katalon test suite is integrated with the qTest location. |
     | <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/integrate-test-suite/85.png"> | The Katalon test suite is not integrated with the qTest location. |
     
-    You can also view the integration information including **Parent ID**, **Test Suite ID**, and **Alias** as shown below:
+    You can also view the integration information, including **Parent ID**, **Test Suite ID**, and **Alias**, as shown below:
 
     | Field | Description |
     | --- | --- |
@@ -455,15 +458,14 @@ You can break the connection between a Katalon Studio test case folder and qTest
 ### Upload test suites manually
 
 > Notes:
-> * If you choose the **Create and upload** or **Create, upload and set as default** option while registering a qTest location for a test suite, your test suite is automatically uploaded to the registered qTest location. You can skip this part.
-> * To quickly verify whether your test suite has been uploaded, click **Navigate** in the **Integration** tab of the test suite. 
+> * Suppose you choose the **Create and upload** or **Create, upload and set as default** option while registering a qTest location for a test suite. In that case, your test suite is automatically uploaded to the registered qTest location. You can skip this part.
 
 Katalon allows you to upload a test suite or all test suites in a test suite folder to qTest.
 
 1. Upload a test suite manually:
 
    > Requirements:
-   > * Make sure all test suites you wish to upload have at least one registered qTest location.
+   > * Make sure all test suites have at least one registered qTest location.
    > * The selected test suites have not been uploaded yet.
 
    - To upload a test suite manually to the predefined qTest location, navigate to the **Integration** tab of the test suite. In the **List of test suite's parents**, select a qTest location, then click **Upload**.  
@@ -481,7 +483,7 @@ Katalon allows you to upload a test suite or all test suites in a test suite fol
 2. Upload a test suite folder manually:
 
    > Requirements:
-   > * Make sure all test suites in the test suite folder you wish to upload have at least one registered qTest location.
+   > * Make sure all test suites in the test suite folder have at least one registered qTest location.
    > * At least one test suite in the selected test suites folder has not been uploaded yet.
 
    - In the **Tests Explorer** panel, right-click on the test suite folder to trigger its context menu. Select **qTest > Upload**.
@@ -497,7 +499,7 @@ Katalon allows you to upload a test suite or all test suites in a test suite fol
 Katalon allows you to disintegrate a test suite or all test suites in a folder from qTest.
 ### Disintegrate a test suite from qTest
 
-Remove the integration between Katalon test suites and the registered qTest locations.
+You can remove the integration between the Katalon test suite and the registered qTest location by following the steps below:
 
 1. To remove the connection between a test suite and the registered qTest location, navigate to the **Integration** tab of the test suite. Select a qTest location, click **Disintegrate**.
       
@@ -510,7 +512,7 @@ Remove the integration between Katalon test suites and the registered qTest loca
 2. Click **OK** on the **Confirmation** dialog. The integration between the test suite and the registered qTest location is removed.
 ### Disintegrate a test suite folder from qTest
 
-You can break the connection between a Katalon Studio test suite folder and qTest by following the steps below.
+You can break the connection between a Katalon Studio test suite folder and qTest by following the steps below:
 
 > Disintegrate a test suite folder from qTest will also disintegrate all test suites in the folder from qTest.
 
@@ -529,7 +531,7 @@ You can break the connection between a Katalon Studio test suite folder and qTes
 > * The qTest test case version is at least 1.0. 
 ### Upload test results automatically
 
-1. To upload the test execution results automatically, check the **Automatically submit test run results** option in **Project > Settings > Plugins > qTest**.
+1. To automatically upload the test execution results, check the **Automatically submit test run results** option in **Project > Settings > Plugins > qTest**.
 2. Add an integrated test case to an integrated test suite.
 3. Execute an integrated Katalon test suite.
 4. Open the generated test execution report.
@@ -547,11 +549,11 @@ You can break the connection between a Katalon Studio test suite folder and qTes
    <tbody>
    <tr>
       <td><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/upload-test-execution/image2017-2-28-163A323A19.png"></td>
-      <td>The execution result of the test case is integrated to qTest.</td>
+      <td>The execution result of the test case is uploaded to qTest.</td>
    </tr>
    <tr>
       <td><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/upload-test-execution/image2017-2-28-163A293A39.png"></td>
-      <td>The execution result of the test case is not integrated to qTest.</td>
+      <td>The execution result of the test case is not uploaded to qTest.</td>
    </tr>
    </tbody>
    </table>
@@ -580,7 +582,7 @@ You can break the connection between a Katalon Studio test suite folder and qTes
    </tr>
    <tr>
       <td>Attachment</td>
-      <td>This is to let users know whether all the execution logs and reports are sent to qTest as an attachment. (i.e., Yes or No)<br>If yes, you can go to qTest and find them under the related execution history record, as illustrated below:<br><p style="text-align: center;"><a class="pop"><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/upload-test-execution/image2017-8-7-153A503A43.png"></a><em>Click the image to enlarge it.</em></p></td>
+      <td>This lets users know whether all the execution logs and reports are sent to qTest as an attachment. (i.e., Yes or No)<br>If yes, you can go to qTest and find them under the related execution history record, as illustrated below:<br><p style="text-align: center;"><a class="pop"><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/upload-test-execution/image2017-8-7-153A503A43.png"></a><em>Click the image to enlarge it.</em></p></td>
    </tr>
    </tbody>
    </table>
@@ -594,7 +596,7 @@ You can break the connection between a Katalon Studio test suite folder and qTes
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/upload-test-execution/image2017-8-7-163A33A27.png" width=366>
 
-4. Once the uploading process finished, you can go to qTest to verify whether the test execution is uploaded successfully to qTest test run.
+4. Once the uploading process is finished, you can go to qTest to verify whether the test execution is uploaded successfully to qTest test run.
    
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/upload-test-execution/image2017-8-7-163A103A23.png" width=366>
 
@@ -606,7 +608,7 @@ You can break the connection between a Katalon Studio test suite folder and qTes
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/upload-test-execution/image2017-8-7-163A113A37.png" width=366>
 
-2. Once the uploading process finished, you can go to qTest to verify whether the test execution is uploaded successfully to qTest test run.
+2. Once the uploading process is finished, you can go to qTest to verify whether the test execution is uploaded successfully to the qTest test run.
 ## qTest Test Cases Version Control and Synchronization
 
 > Requirements:
@@ -626,13 +628,13 @@ When you want to check which integrated Katalon Studio test cases need updating 
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/tc-browser.png" width=391>
 
-   Wait for the test engine to retrieve information from qTest server.
+   Wait for the test engine to retrieve information from the qTest server.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/qtest-version-checking-in-bulk.gif" width=100%>
 
 ### Check for version updates in a test case
 
-In a test case editor, open the **Integration** tab, click **Check for updates** to fetch the latest qTest test case version and test steps content. Wait for the test engine to retrieve information from qTest server.
+In a test case editor, open the **Integration** tab, click **Check for updates** to fetch the latest qTest test case version and test steps content. Wait for the test engine to retrieve information from the qTest server.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/test-case-version.png" width=420>
 
@@ -643,7 +645,7 @@ If you wish to save the latest content of test steps and test case version, clic
 > Requirements:
 > * Katalon Studio version 7.9.0 onwards.
 > * The qTest integration enabled.
-> * The Katalon test case must locate in the integrated test case folder with qTest. To learn more about integrating a test case folder with qTest, refer to step 4.Conduct test case mapping in Manual Setup, see above: [Manual Setup](https://docs.katalon.com/katalon-studio/docs/qtest-integration.html#configure-qtest-integration).
+> * The Katalon test case must locate in the integrated test case folder with qTest. To learn more about integrating a test case folder with qTest, refer to step 4 in Manual Setup. See above: [Manual Setup](https://docs.katalon.com/katalon-studio/docs/qtest-integration.html#configure-qtest-integration).
 
 Katalon Studio provides an easy way to map a Katalon test case to an existing qTest test case. Follow these steps:
 
