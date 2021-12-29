@@ -276,7 +276,7 @@ To upload a test case to an integrated qTest Module, do as follows:
 
 - Alternatively, you can also navigate to the **Integration** tab of the test case. Click **Upload**.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/KS-QTEST-Upload-a-test-case.png" width=70% alt="Upload a test case">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/KS-QTEST-Upload-a-test-case.png" width=100% alt="Upload a test case">
 
 - Uploaded test cases have qTest icon at the bottom right of the icon as shown below:
 
@@ -417,7 +417,7 @@ You can break the connection between a Katalon Studio test case folder and qTest
    <tbody>
    <tr>
       <td>Create only</td>
-      <td>- Create an association between the Katalon test suite and the selected qTest location. <br>- With this option, if you want to upload the Katalon test suite to the selected qTest location, you need to do it manually. See below: <a href="https://docs.katalon.com/katalon-studio/docs/qtest-integration.htm#upload-a-test-suite-manually" target="_blank" rel="noopener noreferrer">Upload a test suite manually</a></td>
+      <td>- Create an association between the Katalon test suite and the selected qTest location. <br>- With this option, if you want to upload the Katalon test suite to the selected qTest location, you need to do it manually. See below: <a href="https://docs.katalon.com/katalon-studio/docs/qtest-integration.htm#upload-test-suites-manually" target="_blank" rel="noopener noreferrer">Upload a test suite manually</a></td>
    </tr>
    <tr>
       <td>Create and upload</td>
@@ -594,11 +594,11 @@ You can break the connection between a Katalon Studio test suite folder and qTes
 2. Open the generated test execution report.
 3. In the **Test Cases Table** section, right-click the test case you wish to upload the test result. Select **qTest > Upload**.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/upload-test-execution/image2017-8-7-163A33A27.png" width=366>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/upload-test-execution/image2017-8-7-163A33A27.png" width=70% alt="Upload test case results manually">
 
 4. Once the uploading process is finished, you can go to qTest to verify whether the test execution is uploaded successfully to qTest test run.
    
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/upload-test-execution/image2017-8-7-163A103A23.png" width=366>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/upload-test-execution/image2017-8-7-163A103A23.png" width=100% alt="Upload test case results manually">
 
 ### Upload test results of a test suite manually
 
