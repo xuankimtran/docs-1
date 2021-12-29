@@ -60,7 +60,7 @@ Follow these steps:
 
 4. Extract the item price.
 
-    We use the `storeEval` command to extract the item price (the first six characters) from the text.
+    We use the `storeEval` command to extract the item price `$25.99` (the first six characters) from the text.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/extract-and-verify-textual-patterns/KR-storeEval-substring.png" width=70% alt="Katalon Recorder storeEval command with a Javascript expression">
 
