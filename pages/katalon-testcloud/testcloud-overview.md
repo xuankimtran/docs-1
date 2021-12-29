@@ -31,8 +31,8 @@ From January 20, 2022, Katalon TestCloud is in General Availability Trial (GA Tr
     </thead>
     <tbody>
         <tr>
-            <td>Availability</td>
-            <td>From January 20, 2022 to April 5, 2022.</td>
+            <td>Expiration date</td>
+            <td>April 5, 2022.</td>
         </tr>
         <tr>
             <td>Number of parallel tests</td>
