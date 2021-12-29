@@ -68,7 +68,7 @@ While building your test script, make sure to have the `WinAppDriver URL` point 
 
 The application file path is the absolute path to the `Windows Executable File (*.exe)` file of the remote test machine.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/introduction-desktop-app-testing/KS-Windows-Remote-connection-2.png" width="90%" alt="Remote connection in Katalon">
+   <img src="https://github.com/katalon-studio/docs-images/raw/3672749302fd26a6ee095ed5217b2be05aaf6d78/katalon-studio/docs/introduction-desktop-app-testing/KS-Windows-Remote-connection-3.png" width="90%" alt="Remote connection in Katalon">
 
 **Next step:**
 
