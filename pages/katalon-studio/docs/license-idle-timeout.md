@@ -48,4 +48,4 @@ If you leave the bypass section empty in TestOps, idle users receive a notificat
 * To log out immediately, the user can click **Log out**.
 * If the user does nothing or clicks on the _X_ button to close this notification dialog, the user will be logged out automatically at the end of the timeout period.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/idle-timeout/KS-Used-up-idle-timeout-dialog.png" alt="out of bypass" width=70%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/idle-timeout/KS-Used-up-idle-timeout-dialog.png" alt="out of bypass" width=63%>
