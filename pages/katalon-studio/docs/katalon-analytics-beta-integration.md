@@ -19,8 +19,7 @@ redirect_from:
 ---
 
 > Notes:
->
-> Katalon Studio version **7.0 onwards** supports video capture of Test Results when uploading them to Katalon TestOps.
+> * Katalon Studio version 7.0 onwards supports video capture of Test Results when uploading them to Katalon TestOps.
 
 From Katalon Studio, you can upload Test Results to Katalon TestOps manually or automatically.
 
@@ -32,7 +31,7 @@ Follow these steps:
 
 2. Go to **Project** > **Settings** > **Katalon TestOps**.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-test-uploads-to-kto-from-ks/enable-kto-integration-in-ks.png"  width=100% alt="ks project setting testops integration">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-test-uploads-to-kto-from-ks/KS-TESTOPS-Integration.png"  width=100% alt="ks project setting testops integration">
 
 3. Tick on the **Enable Katalon TestOps Integration** checkbox.
 
@@ -48,7 +47,7 @@ Follow these steps:
 
 Once you have enabled Katalon TestOps integration in Katalon Studio, your Test Results are automatically uploaded to Katalon TestOps every time you run Test Suites in Katalon Studio.
     
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-test-uploads-to-kto-from-ks/automatic-upload-report-to-testops-from-ks.png"  width=100% alt="automatic upload of test reports to kto">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-test-uploads-to-kto-from-ks/KS-TESTOPS-Upload-results-automatically.png"  width=100% alt="automatic upload of test reports to kto">
 
 ## Upload Test Results manually
 
@@ -60,7 +59,7 @@ You can also upload Test Results manually by following these steps:
 
     Select the **Result** tab.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-test-uploads-to-kto-from-ks/manually-upload-test-result-to-TO-from-KS.png" width=100% alt="upload manually from ks to testops">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-test-uploads-to-kto-from-ks/KS-TESTOPS-Upload-result-manually.png" width=100% alt="upload manually from ks to testops">
 
 3. Click on the **Katalon TestOps** tab at the top right corner and select **Upload**.
 
@@ -76,9 +75,9 @@ You can switch to a different Organization in Katalon Studio by following these 
 
 1. Open Katalon Studio and click on the *Profile* icon at the top right corner.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-test-uploads-to-kto-from-ks/profile-icon-in-ks.png" width=100% alt="switch organization in ks">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-test-uploads-to-kto-from-ks/KS-TESTOPS-Profile-icon.png" width=100% alt="switch organization in ks">
 
-2. Select **Deactivate**.
+2. Select **Log out**.
 
     The **Katalon Studio Activation** box displays.
     
@@ -88,6 +87,6 @@ You have logged in to a different Organization.
 
 To verify that you have overridden the authentication successfully, click on the *Profile* icon again and select **View Dashboard**.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-test-uploads-to-kto-from-ks/view-dashboard-in-ks-after-switching-org.png" width=100% alt="view dashboard button in ks">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-test-uploads-to-kto-from-ks/KS-TESTOPS-View-dashboard.png" width=100% alt="view dashboard button in ks">
 
 You will be navigated to the new Organization in Katalon TestOps.
