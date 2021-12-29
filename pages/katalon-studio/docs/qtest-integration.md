@@ -54,7 +54,7 @@ After reloading plugins successfully, you can start configuring the integration 
 ## Configure qTest integration
 
 > Notes:
-> * From version 7.9.0 onwards, Katalon Studio supports pushing screenshots (PNG files) and other existing submitting options to qTest to generate reports.
+> * From version 7.9.0 onwards, Katalon Studio supports pushing screenshots (PNG files) to qTest to generate reports.
 
 You can configure qTest integration manually or with Wizard Setup as follows:
 
