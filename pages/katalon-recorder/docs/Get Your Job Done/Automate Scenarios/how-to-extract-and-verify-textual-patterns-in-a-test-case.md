@@ -5,9 +5,9 @@ permalink: katalon-recorder/docs/how-to-extract-and-verify-textual-patterns-in-a
 description: "In this tutorial, we use Katalon Recorder to extract and verify texts through pattern matching (regex)."
 ---
 
-In a test project, you might want to verify that the application under test (AUT) displays information in the correct pattern, such as email, phone number, or price tag pattern. Katalon Recorder supports this pattern matching process with several commands. Specifically, commands in Katalon Recorder can take patterns like regular expressions as input to verify several data types on an AUT.
+In a test project, you might want to verify that the application under test (AUT) displays information in the correct pattern, such as email, phone number, or price tag pattern. Katalon Recorder supports this pattern matching process with several commands. Specifically, commands in Katalon Recorder can take patterns as input to verify several data types on an AUT.
 
-This tutorial shows you how to extract and verify displayed text on an AUT with regular expressions.
+This tutorial shows you how to extract and verify displayed text on an AUT. The pattern used in our case is a *regular expression* (regex): a sequence of characters that specifies a search pattern.
 
 In our example, we have a scenario "extract and verify item price," which consists of these steps:
 
@@ -24,11 +24,11 @@ After we follow the first three steps of the scenario, the item details page dis
 </a>
 <p style="text-align: center;"><em>Click the image to enlarge</em></p>
 
-We can see that the price text consists of the item price and the currency code (`CAD`).
+We can see that the price text consists of the item price (`$25.99`) and the currency code (`CAD`).
 
 ## Extract and verify textual patterns
 
-To complete the last two steps of the scenario, we create a test case to extract only the price from the displayed price text. Then, we verify that the price is in the correct pattern using regular expression.
+To complete the last two steps of the scenario, we create a test case to extract only the price from the displayed price text. Then, we verify that the price is in the correct pattern using a regex.
 
 Follow these steps:
 
@@ -68,13 +68,13 @@ Follow these steps:
 
     The expression evaluates the `displayedPrice` variable into its value. Then it extracts and stores the first six characters into the `itemPrice`.
 
-5. Verify the item price with regular expression.
+5. Verify the item price with regex.
 
-    We use the `verifyEval` command with a regular expression in the **Value** field. This command verifies that the item price is displayed in the correct price pattern.
+    We use the `verifyEval` command with a regex in the **Value** field. This command verifies that the item price is displayed in the correct price pattern.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/extract-and-verify-textual-patterns/KR-verifyEval.png" width=70% alt="Katalon Recorder verifyEval command with a Javascript expression and regular expression">
 
-    To input a regular expression as a value, we prefix the expression with `regexp:`. For our purpose, we use the regular expression `^[$](\d+\.\d+)` that checks if the item price starts with a dollar sign and ends with a numeric value.
+    To input a regex as a value, we prefix the expression with `regexp:`. For our purpose, we use the regex `^[$](\d+\.\d+)` that checks if the item price starts with a dollar sign and ends with a numeric value.
 
 6. Play the test case and verify the results in the **Log** view.
 
