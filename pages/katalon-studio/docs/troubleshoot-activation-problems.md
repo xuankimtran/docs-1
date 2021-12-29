@@ -36,7 +36,7 @@ Check your Internet connection and try again.
 
 If you're behind a Proxy Server, before activating Katalon Studio, you need to configure the Authentication Proxy settings. At the bottom of the Activation dialog box, click **Configure Authentication Proxy**. See: [Configure Proxy for Authentication](https://docs.katalon.com/katalon-studio/docs/configure-proxy.html).
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/config-proxy-activation.png" width="70%" alt="troubleshoot proxy issue">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/KS-LICENSE-Configure-proxy.png" width="70%" alt="troubleshoot proxy issue">
 
 </details>
 

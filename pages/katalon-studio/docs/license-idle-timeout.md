@@ -5,7 +5,7 @@ permalink: katalon-studio/docs/license-idle-timeout.html
 description:
 ---
 
-> Requirement:
+> Requirements:
 >
 > * An active Katalon Studio Enterprise (KSE) license.
 > * Katalon Studio version 7.8.0 onwards.
@@ -39,13 +39,13 @@ When this setting is applied, Katalon Studio will notify the user 15 minutes bef
 
 If you leave the bypass section empty in TestOps, idle users receive a notification like this:
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/idle-timeout/bypass0.PNG" width=60%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/idle-timeout/KS-Idle-timeout-dialog-no-bypassed-time.png" width=70% alt="no bypass">
 
 * To resume the session, the user can click **Continue**. If you set a bypass limit in TestOps, the notification dialog displays how many times idle users have left to resume the session.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/idle-timeout/bypass1.PNG" alt="bypass number" width=70%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/idle-timeout/KS-Idle-timeout-dialog-with-bypassed-time.png" alt="bypass number" width=70%>
 
-* To log out immediately, the user can click **Deactivate**.
+* To log out immediately, the user can click **Log out**.
 * If the user does nothing or clicks on the _X_ button to close this notification dialog, the user will be logged out automatically at the end of the timeout period.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/idle-timeout/nobypass.PNG" alt="out of bypass" width=60%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/idle-timeout/KS-Used-up-idle-timeout-dialog.png" alt="out of bypass" width=60%>

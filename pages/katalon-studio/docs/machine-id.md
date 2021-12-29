@@ -21,9 +21,9 @@ You can view your machine ID in Katalon Studio and in your terminal dialog when 
 
 To view your machine ID in Katalon Studio, follow these steps:
 
-1. Open Katalon Studio. In the toolbar, click on the _Profile_ button and select **Deactivate**. You will be logged out of your current account, and the **Katalon Studio Activation** dialog appears.
+1. Open Katalon Studio. In the toolbar, click on the _Profile_ button and select **Log out**. You will be logged out of your current account, and the **Katalon Studio Activation** dialog appears.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/machine-ID/deactivate.png" width=50% alt="deactivate">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/machine-ID/KS-LICENSE-Log-out-text.png" width=50% alt="Log out">
 
     > Notes:
     >
@@ -31,7 +31,7 @@ To view your machine ID in Katalon Studio, follow these steps:
 
 2. In the **Katalon Studio Activation** log, you can view and copy your machine ID.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/machine-ID/KSE-activation.png" width=70% alt="ks activation log">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/machine-ID/KS-LICENSE-machine-ID.png" width=70% alt="ks activation log">
 
 ### With Katalon Runtime Engine
 

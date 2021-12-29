@@ -12,9 +12,9 @@ To learn more about how to activate Katalon licenses, see [Activate Katalon Lice
 
 ### Configure proxy
 
-1. Open Katalon Studio. In the toolbar, click on the _Profile_ button and select **Deactivate**. You will be logged out of your current account, and the **Katalon Studio Activation** dialog appears.
+1. Open Katalon Studio. In the toolbar, click on the _Profile_ button and select **Log out**. You will be logged out of your current account, and the **Katalon Studio Activation** dialog appears.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/activate-KSE/activation.png" alt="activation" width=70%>
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/KS-LICENSE-Activate-dialog.png" alt="activation" width=70%>
 
     > Notes:
     >
@@ -22,7 +22,7 @@ To learn more about how to activate Katalon licenses, see [Activate Katalon Lice
 
 2. Click **Configure Authentication Proxy** at the bottom of the Activation dialog box.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/config-proxy-activation.png" width="">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/KS-LICENSE-Configure-proxy.png" width="">
 
     In the Proxy Settings dialog box, you can select one of the three options below.
 
