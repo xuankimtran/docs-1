@@ -20,9 +20,35 @@ TestCloud addresses the following problems:
 
 Katalon TestCloud is now integrated with Katalon TestOps. For more information, see: [Integration with TestOps](https://docs.katalon.com/katalon-testcloud/docs/integrate-testcloud-with-testops.html). Katalon Studio integration is under development.
 
-From January 20, 2022, Katalon TestCloud is in General Availability Trial (GA Trial). All users who belong to a TestOps Organization can now use TestCloud for free with the **Free GA Trial** package, with the following specifications:
+From January 20, 2022, Katalon TestCloud is in General Availability Trial (GA Trial). All users who belong to a TestOps Organization can now use TestCloud for free with the **Free GA Trial** package, with the following quotas and limits:
 
-* The TestCloud GA Trial expires on April 5, 2022.
-* A TestOps Organization can have at most five parallel tests.
-* Each test session is limited to 500 minutes.
-* The package includes supports for Chrome, Firefox, Edge in Windows, and Linux.
+<table>
+    <thead>
+        <tr>
+            <th><b>Quota</b></th>
+            <th><b>Limit</b></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Availability</td>
+            <td>From January 20, 2022 to April 5, 2022.</td>
+        </tr>
+        <tr>
+            <td>Number of parallel tests</td>
+            <td>5.</td>
+        </tr>
+        <tr>
+            <td>Number of testing minutes</td>
+            <td>500 minutes.</td>
+        </tr>
+        <tr>
+            <td>Supported OS</td>
+            <td>Windows and Linux.</td>
+        </tr>
+        <tr>
+            <td>Supported browsers</td>
+            <td>Chrome, Firefox, and Edge.</td>
+        </tr>
+    </tbody>
+</table>
