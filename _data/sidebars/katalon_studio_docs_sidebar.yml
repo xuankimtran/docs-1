@@ -1501,7 +1501,7 @@ items:
         url: /katalon-analytics/docs/rest-api.html
       - title: "Tutorials"
         url: /katalon-analytics/docs/testops-tutorials.html
-  - title: "Katalon TestCloud (Beta)"
+  - title: "Katalon TestCloud (GA Trial)"
     tree:
       - title: "Overview"
         url: /katalon-testcloud/docs/testcloud-overview.html
