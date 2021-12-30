@@ -447,7 +447,7 @@ To execute a test case or a test suite/test suite collection in the sample proje
 
     You can choose different browsers to execute your test in the dropdown list next to **Run**. 
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/healthcare-samples/KS-Sample-Run-with-different-browsers.png" width="30%" alt="Run the test case">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/shopping-cart-samples/KS-TOOLBAR-Chrome.png" width="30%" alt="Run the test case">
 
 3. Observe the test result in the **Log Viewer** tab. To learn more about analyzing test execution logs, you can refer to this document: [[WebUI] Analyze Test Execution Logs and Debug the Test Case](https://docs.katalon.com/katalon-studio/tutorials/webui-analyze-test-case-execution-logs-and-resolve-errors.html#analyze-test-execution-logs-in-log-viewer).
 

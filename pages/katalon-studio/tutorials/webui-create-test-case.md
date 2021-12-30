@@ -77,7 +77,7 @@ To playback the recorded scenario:
 
     Katalon Studio will execute the chosen test case with the recorded steps accordingly.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/recording-webui-test/select-browser-to-playback.png" width=30%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/healthcare-samples/KS-TOOLBAR-Chrome.png" width=30% alt="Playback">
 
 ## View the test case in Script mode
 
