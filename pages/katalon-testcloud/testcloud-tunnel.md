@@ -21,11 +21,11 @@ A TestCloud Tunnel can:
 
 ### How does TestCloud Tunnel work?
 
-Once TestCloud clients have installed the tunnels in the machines which have access to their private network (tunnel clients), the TestCloud tunnels spin up a fresh virtual machine (VM) that is used only for your testing.
+Once TestCloud clients have installed the tunnels in the machines which have access to their private network (tunnel clients), a tunnel client spins up a fresh virtual machine (VM) that is used only for testing.
 
-By default, the TestCloud Tunnel is closed after 30 minutes if there is no request or traffic (i.e. the tunnel is idle for 30 minutes). Consequently, the VM is shut down.
+By default, a TestCloud Tunnel is closed after 30 minutes if there is no request or traffic (i.e. the tunnel is idle for 30 minutes). Consequently, the VM is shut down.
 
-To start the tunnels again, you run a command line in the machine where tunnel clients are installed.
+To start the tunnel again, you run a command line in the machine where the tunnel client is installed.
 
 > Notes:
 >
@@ -43,7 +43,7 @@ We recommend the following practices to optimize your tunnel usage:
     >
     > You should launch the tunnel client before the test suite is triggered, then shut the tunnel client down once the test suite is finished.
 
-* Use a machine with stable Internet connection and large bandwidth to connect the tunnel client. This would prevent test failure.
+* Use a machine with stable internet connection and large bandwidth to connect the tunnel client. This would prevent test failure.
 
 * Use a machine with high specs (e.g., RAM, CPU) when you run many concurrent tests.
 
@@ -67,9 +67,8 @@ See: [Integrate TestCloud with TestOps](https://docs.katalon.com/katalon-testclo
 
 See: [Integrate TestCloud with Studio](https://docs.katalon.com/katalon-studio/docs/testcloud-integration.html).
 
-
 > Notes:
 >
 > * The tunnel-sharing feature is only available in TestOps.
-> * The tunnel created in Studio is separate from the one in TestOps. You cannot use tunnels from TestOps and Studio interchangeably.
+> * The tunnel created in Studio is separate from the one created in TestOps. You cannot use tunnels from TestOps and Studio interchangeably.
 > * The tunnel is automatically terminated after 30 minutes of idleness.
