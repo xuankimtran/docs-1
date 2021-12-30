@@ -17,29 +17,130 @@ description:
 
 ## System requirements
 
-<table><thead><tr><th>&nbsp;</th><th>Requirement</th></tr></thead><tbody><tr><th>Operating System</th><td>Windows 7, Windows 8, Windows 10, macOS 10.11+, Linux (Ubuntu based)</td></tr><tr><th>CPU</th><td> <em>Minimum</em>: 2 GHz or faster 32-bit (x86) or 64-bit (x64) processor</td></tr><tr><th>Memory</th><td><p>Katalon Studio</p><p><em>Minimum</em>: 2 GB RAM (32-bit) or 4 GB RAM (64-bit)</p><p><em>Recommnended</em>: 4 GB RAM (32-bit) or 8 GB RAM (64-bit).</p><p>Katalon Runtime Engine</p><p><em>Minimum</em>: 2 GB RAM (32-bit) or 4 GB RAM (64-bit)</p><p><em>Recommendation for concurrent executions (and execution with Docker)</em>: the number of concurrent sessions x 2GB.</p><p><em>Example</em>: Recommended RAM for 3 concurrent execution sessions is 6GB (3 x 2GB).</p></td></tr><tr><th>Hard Drive</th><td>At least 1 GB available hard disk space. Extra disk space is required depending on project source codes and generated execution reports.</td></tr></tbody></table>
+<table>
+<thead>
+  <tr>
+    <th> </th>
+    <th></th>
+    <th>Katalon Studio</th>
+    <th>Katalon Runtime Engine</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td rowspan="3">Operating System</td>
+    <td>Windows</td>
+    <td colspan="2">Windows 7, Windows 8, and Windows 10<br>Windows Server 2012</td>
+  </tr>
+  <tr>
+    <td>macOS</td>
+    <td colspan="2">macOS 10.11 or later</td>
+  </tr>
+  <tr>
+    <td>Linux</td>
+    <td>- Make sure you install JRE/JDK version 8.0. For further details, you can refer to this document: <br><a href="https://docs.katalon.com/katalon-studio/docs/katalon-studio-gui-beta-for-linux.html#install-katalon-studio-for-linux" target="_blank" rel="noopener noreferrer">Install Katalon Studio for Linux</a>.<br>- The latest version of Linux distribution that supports Gnome, KDE, or Unity DE. <br>- Tested on Ubuntu.<br></td>
+    <td>- Make sure you install JRE/JDK version 8.0.<br>For further details, you can refer to this document: <br><a href="https://docs.katalon.com/katalon-studio/docs/katalon-studio-gui-beta-for-linux.html#install-katalon-studio-for-linux" target="_blank" rel="noopener noreferrer">Install Katalon Runtime Engine for Linux</a>.<br>- Debian, Ubuntu, RHEL, Fedora, and CentOS-based distribution. <br>- Tested on Ubuntu.<br></td>
+  </tr>
+  <tr>
+    <td colspan="2">GUI components</td>
+    <td>Required. <br>Learn more about installing Katalon Studio here: <a href="https://docs.katalon.com/katalon-studio/docs/getting-started.html" target="_blank" rel="noopener noreferrer">Installation Katalon Studio</a>.</td>
+    <td>Not required. <br>Learn more about installing Katalon Studio here: <a href="https://docs.katalon.com/katalon-studio/docs/install-RE.html" target="_blank" rel="noopener noreferrer">Installation Katalon Runtime Engine</a>.</td>
+  </tr>
+  <tr>
+    <td colspan="2">CPU</td>
+    <td colspan="2">Minimum: 2 GHz or faster 32-bit (x86) or 64-bit (x64) processor</td>
+  </tr>
+  <tr>
+    <td colspan="2">Memory</td>
+    <td>Minimum: 2 GB RAM (32-bit) or 4 GB RAM (64-bit)<br>Recommended: 4 GB RAM (32-bit) or 8 GB RAM (64-bit).</td>
+    <td>Minimum: 2 GB RAM (32-bit) or 4 GB RAM (64-bit)<br>Recommendation for concurrent executions (and execution with Docker): the number of concurrent sessions x 2GB.<br>For example: Recommended RAM for 3 concurrent execution sessions is 6GB (3 x 2GB).</td>
+  </tr>
+  <tr>
+    <td colspan="2">Hard Drive</td>
+    <td colspan="2">At least 1 GB available hard disk space. Extra disk space is required depending on project source codes and generated execution reports.</td>
+  </tr>
+</tbody>
+</table>
 
 ## Browsers
 
-| Desktop Browsers | Version on Windows | Version on macOS | Note |
-| --- | --- | --- | --- |
-| Internet Explorer | 9, 10, 11 | N/A | Required IE configurations: [Internet Explorer Configurations](/display/KD/Internet+Explorer+Configurations). |
-| Microsoft Edge | 18 | N/A | |
-| Microsoft Edge (Chromium)| 80+ | 80+ | Supported in Katalon Studio version 7.3+|
-| Firefox | 56+ | 56+ | To use Firefox 57 with Katalon Studio, please use Katalon Studio v5.1+ |
-| Google Chrome | 58+ | 58+ |
-| Opera | N/A | N/A |
-| Safari | N/A | 12+ |  |
+<table>
+<thead>
+  <tr>
+    <th>Desktop Browsers</th>
+    <th>Version on Windows</th>
+    <th>Version on macOS</th>
+    <th>Version on Linux</th>
+    <th>Note</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Internet Explorer (IE)</td>
+    <td>9, 10, 11</td>
+    <td>N/A</td>
+    <td>N/A</td>
+    <td>Required IE configurations: <a href="https://docs.katalon.com/katalon-studio/docs/internet-explorer-configurations.html" target="_blank" rel="noopener noreferrer">Internet Explorer Configurations</a>.</td>
+  </tr>
+  <tr>
+    <td>Microsoft Edge</td>
+    <td>18</td>
+    <td>N/A</td>
+    <td>N/A</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Microsoft Edge (Chromium)</td>
+    <td>80+</td>
+    <td>80+</td>
+    <td>N/A</td>
+    <td>Supported in Katalon Studio v7.3.0+</td>
+  </tr>
+  <tr>
+    <td>Firefox</td>
+    <td>56+</td>
+    <td>56+</td>
+    <td>56+</td>
+    <td>To use Firefox 57 with Katalon Studio, install Katalon Studio v5.1.0+</td>
+  </tr>
+  <tr>
+    <td>Google Chrome</td>
+    <td>58+</td>
+    <td>58+</td>
+    <td>58+</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Opera</td>
+    <td>N/A</td>
+    <td>N/A</td>
+    <td>N/A</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Safari</td>
+    <td>N/A</td>
+    <td>12+</td>
+    <td>N/A</td>
+    <td></td>
+  </tr>
+</tbody>
+</table>
 
 ## Mobile
 
 | Installation | Version on Windows | Version on macOS | Appium | Native App support? | Hybrid App support?(*) | Mobile Browser support| Xcode
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Android | 6.x, 7.x, 8.x, 9.x | 6.x, 7.x, 8.x, 9.x | 1.12.1+ | YES | NO | YES |Not Available|
-| iOS | Not Available | 9, 10, 11, 12, 13| 1.12.1+ | YES | NO | YES | 9.4.1 - latest
+| iOS | N/A | 9, 10, 11, 12, 13| 1.12.1+ | YES | NO | YES | 9.4.1 - latest
 
-(*): You can use supported [functions](http://appium.io/docs/en/writing-running-appium/web/hybrid/#automating-hybrid-apps) from Appium to handle Hybrid App yourself.
+(*): To handle the hybrid app, you can refer to the Appium document here: [Automating hybrid apps](http://appium.io/docs/en/writing-running-appium/web/hybrid/#automating-hybrid-apps).
 
 ## Windows
 
-Katalon Studio fully supports automation test for desktop apps written in the following platforms: Universal Windows Platform (UWP), Windows Forms (WinForms), Windows Presentation Foundation (WPF), and Classic Windows (Win32).
+Katalon Studio fully supports automation test for desktop apps written in the following platforms: 
+
+- Universal Windows Platform (UWP)
+- Windows Forms (WinForms)
+- Windows Presentation Foundation (WPF)
+- Classic Windows (Win32)
