@@ -10,15 +10,24 @@ redirect_from:
 >
 > You need to subscribe to Katalon TestOps Enterprise plan. To request a trial of Katalon TestOps Enterprise, see [TestOps Trial Plans](https://docs.katalon.com/katalon-analytics/docs/trial-plans.html).
 
+## Configure an identity provider
+
+To generate metadata for SSO configuration in Katalon TestOps, you need to set up an identity provider as follows:
+
+- Single sign-on SSO URL: `https://sso.katalon.io/saml/SSO`
+- SP Entity ID: `com:katalon:testops`
+- Attribute statement: `Email`
+
+> Notes:
+> * The values for the above configurations are case-sensitive.
+
+Your metadata is then automatically encrypted in the Katalon database. To learn more about the identity provider, you can refer to this Okta document: [Identity Providers](https://help.okta.com/oie/en-us/Content/Topics/Security/Identity_Providers.htm).
 ## Configure Single Sign-On
 
 > Requirements:
->
 > * You must be an **Owner** or **Admin** of an Organization.
->
 > * You have configured a Subdomain. See [Configure a Subdomain for an Organization](https://docs.katalon.com/katalon-analytics/docs/subdomain.html).
->
-> * You have configured Identity Provider. Your metadata is then automatically encrypted in Katalon's database.
+> * You have configured an identity provider for SSO in Katalon TestOps, see above: [Configure identity provider](https://docs.katalon.com/katalon-analytics/docs/sso-settings.html#configure-identity-provider).
 
 As an Owner or Admin, you can configure SSO by following these steps:
 
@@ -30,11 +39,11 @@ As an Owner or Admin, you can configure SSO by following these steps:
 
 4. Switch **Enable SSO** to **Active**.
 
+5. Enter the metadata from the configured identity provider.
+
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-sso-settings/enter-metadata-for-sso.png" width=100% alt="SSO enabled input metadata">
 
-    You then can enter your Metadata.
-
-5. Click **Update**.
+6. Click **Update**.
 
 ## Enable SSO for new members and existing members
 
