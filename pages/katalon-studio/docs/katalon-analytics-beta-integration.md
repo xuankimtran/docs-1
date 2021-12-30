@@ -33,9 +33,9 @@ Follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-test-uploads-to-kto-from-ks/KS-TESTOPS-Integration.png"  width=100% alt="ks project setting testops integration">
 
-    Alternatively, you can also click **TestOps** icon from the main toolbar to navigate to the TestOps settings.
+    Alternatively, you can also click the **TestOps** icon from the main toolbar to navigate to the TestOps settings.
 
-    <img src="url"  width=100% alt="TestOps icon">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-test-uploads-to-kto-from-ks/KS-TESTOPS-icon.png"  width=25% alt="TestOps icon">
 
 3. Tick on the **Enable Katalon TestOps Integration** checkbox.
 
