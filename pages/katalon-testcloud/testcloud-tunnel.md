@@ -1,8 +1,8 @@
 ---
 title: "TestCloud Tunnel"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-testcloud/docs/testcloud-overview.html
-description: Introducing TestCloud and Beta Testing program for Katalon users
+permalink: katalon-testcloud/docs/testcloud-tunnel.html
+description: Introducing TestCloud Tunnel and how to utilize it
 ---
 
 ## TestCloud Tunnel
