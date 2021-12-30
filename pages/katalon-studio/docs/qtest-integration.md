@@ -230,7 +230,8 @@ In the displayed **qTest Integration Setup Wizard** dialog, complete all items t
 
 ## qTest - Katalon Studio parity report
 
-> From version 7.8.0 onwards, Katalon supports generating a qTest-Katalon Studio parity report after test execution.
+> Requirements:
+> * Katalon Studio version 7.8.0 onwards.
 
 To enable parity reports generation, go to **Project Settings > Plugins > qTest**, check the **Generate the parity report after test execution** box.
 
@@ -381,7 +382,8 @@ You can break the connection between a Katalon Studio test case and qTest by fol
 
 You can break the connection between a Katalon Studio test case folder and qTest by following the steps below.
 
-> Disintegrate a test case folder from qTest will also disintegrate all test cases in the folder from qTest.
+> Notes:
+> * Disintegrate a test case folder from qTest will also disintegrate all test cases in the folder from qTest.
 
 1. To disintegrate a test case folder from qTest, in the **Tests Explorer** view, right-click the test case folder you wish to disintegrate. Select **qTest > Disintegrate**.
    
@@ -514,7 +516,8 @@ You can remove the integration between the Katalon test suite and the registered
 
 You can break the connection between a Katalon Studio test suite folder and qTest by following the steps below:
 
-> Disintegrate a test suite folder from qTest will also disintegrate all test suites in the folder from qTest.
+> Notes:
+> * Disintegrate a test suite folder from qTest will also disintegrate all test suites in the folder from qTest.
 
 1. In the **Tests Explorer** view, right-click on the test suite folder you wish to disintegrate. Select **qTest > Disintegrate**.  
    
