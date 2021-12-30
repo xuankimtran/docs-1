@@ -1181,6 +1181,8 @@ items:
             url: /katalon-studio/docs/dependencies-management-gradle-support.html
           - title: "Parameterize Azure DevOps Test Case ID List (PoC)"
             url: /katalon-studio/docs/parameterize-ado-test-case-id.html  
+          - title: "Data-driven testing at test case level (PoC)"
+            url: /katalon-studio/docs/ddt-at-test-case-level.html   
       - title: "Javadoc"
         url: /katalon-studio/docs/javadoc.html
       - title: "Deprecated Documentation"

@@ -1,12 +1,12 @@
 ---
-title: "Data-driven testing at test case level"
+title: "Data-driven testing at test case level (PoC)"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/ddt-at-test-case-level.html
 ---
 
 > Important:
 > * This Proof of Concept (PoC) is not ready for production use. We recommend using this PoC for evaluation purposes only.
-> * Download Katalon Studio version [8.2.2.alpha](url).
+> * Download Katalon Studio version [8.1.2.alpha](https://github.com/katalon-studio/katalon-studio/releases/tag/v8.1.2.alpha).
 
 
 Data-driven testing (DDT) at the test case level allows you to add one or more data files and manage data binding at the test case level. 
@@ -14,7 +14,7 @@ Data-driven testing (DDT) at the test case level allows you to add one or more d
 This function is useful if you want to:
 - Bind each test case to a fixed set of data.
 - Run a test case with different test data combinations.
-- When executing a test suite containing associated test cases, you can see the results of each test iteration with the mapped test data.
+- When executing a test suite containing associated test cases, you can either reuse data binding at the test case level or conduct new data binding in a test suite.
 
 > What is an iteration?
 >
