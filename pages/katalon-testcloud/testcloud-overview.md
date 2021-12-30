@@ -20,7 +20,7 @@ TestCloud addresses the following problems:
 
 Katalon TestCloud is now integrated with Katalon TestOps. For more information, see: [Integration with TestOps](https://docs.katalon.com/katalon-testcloud/docs/integrate-testcloud-with-testops.html). Katalon Studio integration is under development.
 
-From January 20, 2022, Katalon TestCloud is in general availability trial (GA Trial). All users who belong to a TestOps organization can now use TestCloud for free with the **Free GA Trial** package, with the following quotas and limits:
+From January 20, 2022, Katalon TestCloud is in general availability trial (GA trial). All users who belong to a TestOps organization can now use TestCloud for free with the **Free GA Trial** package, with the following quotas and limits:
 
 <table>
     <thead>
