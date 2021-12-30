@@ -75,7 +75,7 @@ After the Owner or Admin of your Organization has granted you a KRE license, the
 
 For offline license activation, follow these steps:
 
-Put your `.lic` file in the `license` folder. With KRE, to execute multiple sessions in parallel, put multiple license files in the `license` folder.
+Put your .lic file in the `license` folder. With KRE, to execute multiple sessions in parallel, put multiple license files in the `license` folder.
 
 `.katalon` is a hidden folder. To find the `license` folder in your computer, search for:
 
@@ -96,7 +96,7 @@ Put your `KRE_<machine_ID>.lic` file in the `license` folder. Your KRE license i
 
 1. To activate your KSE license, in the **Katalon Studio Activation** dialog, click **Offline Activation**. The **Katalon Studio Enterprise Activation** dialog appears.
 
-2. In the **License file** section, enter the path to your `KSE_<machine_ID>.lic` file, or click **Browse** to navigate to your `.lic` file.
+2. In the **License file** section, enter the path to your `KSE_<machine_ID>.lic` file, or click **Browse** to navigate to your .lic file.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/activate-KSE/offline-license-activation.png" alt="offline activation" width=70%>
 
