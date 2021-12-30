@@ -42,7 +42,7 @@ Follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/extract-and-verify-textual-patterns/KR-storeText-command.png" width=70% alt="Katalon Recorder storeText command">
 
-    To capture the **Target** (the price text locator) for the command, click on the **Capture** tool, and select the price text on the page.
+    Next, we need to capture the **Target** (the price text locator) for the command. Click on the **Capture** tool, then hover the cursor over and select the price text on the page.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/extract-and-verify-textual-patterns/KR-storeText-Target-capture.png" width=70% alt="Katalon Recorder capture target">
 
