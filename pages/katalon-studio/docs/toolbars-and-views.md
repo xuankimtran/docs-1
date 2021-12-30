@@ -11,9 +11,9 @@ description:
 ---
 ## Toolbar
 
-> Since version 8.1.0.
+> Since version 8.2.5.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-toobar-full.png" alt="full toolbar" width=100%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-Toolbar-full-8.2.5.png" alt="full toolbar" width=100%>
 
 The Main **Toolbar** contains the most common actions you usually perform, for example: creating test resources or executing automated tests.
 ### System features
@@ -191,6 +191,12 @@ The Main **Toolbar** contains the most common actions you usually perform, for
 		</tr>
         <tr>
 			<td>
+				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-TOOLBAR-TestCloud-icon.png" width=30% alt="TestCloud" /></p>
+			</td>
+			<td><a href="https://docs.katalon.com/katalon-testcloud/docs/testcloud-overview.html" rel="nofollow">Katalon TestCloud</a> is a cloud-based test execution environment where you can automate test scripts across the most common and updated browsers and/or operating systems (OS) and/or a combination of both.</td>
+		</tr>
+        <tr>
+			<td>
 				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-toolbar-applitool.png" width=30% alt="Applitool" /></p>
 			</td>
 			<td><a href="https://docs.katalon.com/katalon-studio/docs/applitools-integration.html#configure-applitools-integration" rel="nofollow">Applitools</a> is a built-in visual testing tool for Recording and Scripting modes.</td>
@@ -235,7 +241,7 @@ The **Tests Explorer** view allows you to browse the structure of your project
 >
 > By default, Tests Explorer displays all test artifacts. From version 7.0.0 onwards, you can customize Tests Explorer by selecting **Project > Settings > Explorer**. Uncheck test artifacts you want to hide, then click **Apply and Close**.
 >
-> <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/explorer-settings.png" alt="explorer settings" width="70%">
+> <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-TOOLBAR-Explorer.png" alt="explorer settings" width="70%">
 
 ## Keywords Browser View
 
