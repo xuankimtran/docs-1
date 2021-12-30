@@ -15,6 +15,10 @@ redirect_from:
 description:
 ---
 
+> Notes:
+> * We have one product named Katalon Studio (the IDE) with two offerings: Katalon Studio Free and Katalon Studio Enterprise. They are distinguished by license types used for activating Katalon Studio. To learn more about license types, you can refer to this document: [Types of Licenses](https://docs.katalon.com/katalon-studio/docs/license.html).
+> * Katalon Runtime Engine (KRE) is the add-on of Katalon Studio. KRE allows you to execute tests in a command-line interface (CLI).
+
 ## System requirements
 
 <table>
@@ -22,8 +26,8 @@ description:
   <tr>
     <th> </th>
     <th></th>
-    <th>Katalon Studio</th>
-    <th>Katalon Runtime Engine</th>
+    <th>Katalon Studio/Katalon Studio Enterprise</th>
+    <th>Katalon Runtime Engine (KRE)</th>
   </tr>
 </thead>
 <tbody>
@@ -43,8 +47,8 @@ description:
   </tr>
   <tr>
     <td colspan="2">GUI components</td>
-    <td>Required. <br>Learn more about installing Katalon Studio here: <a href="https://docs.katalon.com/katalon-studio/docs/getting-started.html" target="_blank" rel="noopener noreferrer">Installation Katalon Studio</a>.</td>
-    <td>Not required. <br>Learn more about installing Katalon Studio here: <a href="https://docs.katalon.com/katalon-studio/docs/install-RE.html" target="_blank" rel="noopener noreferrer">Installation Katalon Runtime Engine</a>.</td>
+    <td>Required for all operating systems.</td>
+    <td>KRE doesn't have GUI components.</td>
   </tr>
   <tr>
     <td colspan="2">CPU</td>
