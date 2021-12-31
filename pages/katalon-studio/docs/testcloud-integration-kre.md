@@ -12,6 +12,8 @@ To run Test Suite/Test Suite Collection (TS/TSC) with TestCloud in Katalon Runti
 
 3. Go to **Generate Command for Console Mode** in KRE.
 
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/studio-integration/Unknown-6" width=100% alt="tunnel setup helper">
+
 4. In the **Executive Platform** section, choose **TestCloud** to run with, then click **OK**.
 
 5. Use the following Katalonc Command-line options:
