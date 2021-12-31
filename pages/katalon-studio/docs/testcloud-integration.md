@@ -17,9 +17,14 @@ Follow these steps:
     >
     > You can also click on the *TestCloud* icon in the top right corner of KS to open the settings.
     >
-    > <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration.png"  width=100% alt="tc icon in ks">
+    > <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/studio-integration/Unknown" width=100% alt="tc icon in ks">
+
+    The **Project Settings** dialog appears as below.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/studio-integration/Unknown-2" width=100% alt="tc icon in ks">
 
 3. Check the **Enable Katalon TestCloud integration** box.
+
 4. Select your organization, then click **Fetch Organization**.
 5. Click **Apply** to finish.
 
@@ -42,7 +47,7 @@ To run TS with TestCloud, follow these steps:
 
     The **TestCloud Configuration** dialog appears as below.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration.png"  width=100% alt="tc icon in ks">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/studio-integration/Unknown-3" width=100% alt="tc config dialog">
 
 3. Select the OS/browser and its version in the **Configuration** section.
 
@@ -57,12 +62,14 @@ To run TS with TestCloud, follow these steps:
 To run TSC with TestCloud, follow these steps:
 
 1. Create a TSC, then add TS into the TSC.
+
 2. Open the TSC, double-click the **Run with** column, and select **TestCloud**.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/studio-integration/Unknown-5" width=100% alt="run config tsc">
+
 3. Double click on the **Run Configuration** column to open the **TestCloud Configuration** dialog.
 
-    The **TestCloud Configuration** dialog appears as below.
-
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration.png"  width=100% alt="tc config dialog">
+    The **TestCloud Configuration** dialog appears.
 
 3. Select the OS/browser and its version in the **Configuration** section.
 
@@ -99,11 +106,13 @@ Follow these steps:
 
     You will see a message in red as follows:
 
-     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-intergration.png"  width=100% alt="tunnel setup helper">
+     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/studio-integration/Unknown-3" width=100% alt="tc config dialog">
 
 3. Click on the **Tunnel Setup Helper** link in the message.
 
     The **Tunnel Setup Helper** dialog appears as below.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/studio-integration/Unknown-4" width=100% alt="tunnel setup helper">
 
 4. Follow the instructions in the dialog to set up the tunnel client in your local machine.
 
