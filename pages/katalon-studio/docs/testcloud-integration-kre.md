@@ -9,7 +9,7 @@ To run Test Suite/Test Suite Collection (TS/TSC) with TestCloud in Katalon Runti
 <table data-number-column="true"><colgroup><col /><col /><col /><col /><col /></colgroup>
 <tbody>
 	<tr>
-		<th colspan="1" rowspan="1" data-colwidth="236">
+		<th colspan="1" rowspan="1" data-colwidth="150">
 			<div tabindex="0">
 				<p data-renderer-start-pos="22683"><strong data-renderer-mark="true">Katalonc Command-line Option</strong></p>
 				<figure></figure>
