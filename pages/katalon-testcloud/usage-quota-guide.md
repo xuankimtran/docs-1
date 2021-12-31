@@ -22,7 +22,7 @@ Katalon TestCloud has three key metrics:
 If the number of parallel test requests exceeds the supported quota, TestCloud will have the following behaviors:
 
 * If you request more parallel tests than the supported quota, the additional requests will be queued.
-* The number of queued requests can not exceed three times the supported session quota. For example, if your TestCloud plan supports 5 parallel tests, the maximum number of queued requests is 15.
+* The number of queued requests cannot exceed three times the supported session quota. For example, if your TestCloud plan supports 5 parallel tests, the maximum number of queued requests is 15.
 * A request remains in the queue for only 15 minutes; after 15 minutes, the request is dropped from the queue.
 
 ### Testing minute quota
@@ -30,7 +30,5 @@ If the number of parallel test requests exceeds the supported quota, TestCloud w
 During a test session, if the remaining testing minutes are insufficient to complete the session but are still above zero:
 
 * The test will still be executed until the end.  
-
 * The testing minutes exceeding the purchased quota will not be charged.
-
 * After the number of testing minutes reaches zero, no new test execution is allowed until a new purchase is made.
