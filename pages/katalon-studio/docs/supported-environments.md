@@ -42,7 +42,7 @@ description:
   </tr>
   <tr>
     <td>Linux</td>
-    <td><div class="blockquote"> - Make sure you install JRE/JDK version 8.0. For further details, you can refer to this document: </div> <br><a href="https://docs.katalon.com/katalon-studio/docs/katalon-studio-gui-beta-for-linux.html#install-katalon-studio-for-linux" target="_blank" rel="noopener noreferrer">Install Katalon Studio for Linux</a>.<br>- The latest version of Linux distribution that supports Gnome, KDE, or Unity DE. <br>- Tested on Ubuntu.<br></td>
+    <td>- Make sure you install JRE/JDK version 8.0. For further details, you can refer to this document:<br><a href="https://docs.katalon.com/katalon-studio/docs/katalon-studio-gui-beta-for-linux.html#install-katalon-studio-for-linux" target="_blank" rel="noopener noreferrer">Install Katalon Studio for Linux</a>.<br>- The latest version of Linux distribution that supports Gnome, KDE, or Unity DE. <br>- Tested on Ubuntu.<br></td>
     <td>- Make sure you install JRE/JDK version 8.0.<br>For further details, you can refer to this document: <br><a href="https://docs.katalon.com/katalon-studio/docs/katalon-studio-gui-beta-for-linux.html#install-katalon-studio-for-linux" target="_blank" rel="noopener noreferrer">Install Katalon Runtime Engine for Linux</a>.<br>- Debian, Ubuntu, RHEL, Fedora, and CentOS-based distribution. <br>- Tested on Ubuntu.<br></td>
   </tr>
   <tr>
@@ -133,12 +133,47 @@ description:
 
 ## Mobile
 
-| Installation | Version on Windows | Version on macOS | Appium | Native App support? | Hybrid App support?(*) | Mobile Browser support| Xcode
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Android | 6.x, 7.x, 8.x, 9.x | 6.x, 7.x, 8.x, 9.x | 1.12.1+ | YES | NO | YES |Not Available|
-| iOS | N/A | 9, 10, 11, 12, 13| 1.12.1+ | YES | NO | YES | 9.4.1 - latest
+<table>
+<thead>
+  <tr>
+    <th>Installation</th>
+    <th>Version on Windows</th>
+    <th>Version on macOS</th>
+    <th>Appium</th>
+    <th>Native App support?</th>
+    <th>Hybrid App support?(*)</th>
+    <th>Mobile Browser support</th>
+    <th>Xcode</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Android</td>
+    <td>6.x, 7.x, 8.x, 9.x</td>
+    <td>6.x, 7.x, 8.x, 9.x</td>
+    <td>1.12.1+</td>
+    <td>Yes</td>
+    <td>No(**)</td>
+    <td>Yes</td>
+    <td>Not Available</td>
+  </tr>
+  <tr>
+    <td>iOS</td>
+    <td>N/A</td>
+    <td>9, 10, 11, 12, 13</td>
+    <td>1.12.1+</td>
+    <td>Yes</td>
+    <td>No</td>
+    <td>Yes</td>
+    <td>v9.4.1+</td>
+  </tr>
+</tbody>
+</table>
 
-(*): To handle the hybrid app, you can refer to the Appium document here: [Automating hybrid apps](http://appium.io/docs/en/writing-running-appium/web/hybrid/#automating-hybrid-apps).
+(*) To handle the hybrid app, you can refer to the Appium document here: [Automating hybrid apps](http://appium.io/docs/en/writing-running-appium/web/hybrid/#automating-hybrid-apps).
+(**) We offer some workarounds here: 
+- [Capture elements in hybrid Android apps](https://docs.katalon.com/katalon-studio/docs/capture-elements-in-hybrid-android-apps.html).
+- [Flutter-based application testing with custom SetText keyword](https://docs.katalon.com/katalon-studio/docs/flutter-based-application-testing.html)
 
 ## Windows
 
