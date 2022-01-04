@@ -155,7 +155,7 @@ description:
     <td>Yes</td>
     <td>No(**)</td>
     <td>Yes</td>
-    <td>Not Available</td>
+    <td>N/A</td>
   </tr>
   <tr>
     <td>iOS</td>
