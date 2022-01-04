@@ -15,9 +15,9 @@ redirect_from:
 description:
 ---
 
-> Notes:
-> * We have one product named Katalon Studio (the IDE) with two offerings: Katalon Studio Free and Katalon Studio Enterprise. They are distinguished by license types used for activating Katalon Studio. To learn more about license types, you can refer to this document: [Types of Licenses](https://docs.katalon.com/katalon-studio/docs/license.html).
-> * Katalon Runtime Engine (KRE) is the add-on of Katalon Studio. KRE allows you to execute tests in a command-line interface (CLI).
+
+> * Katalon Studio (KS) provides free, basic tools suitable for the testing needs of individuals. For an advanced business solution, you can purchase Katalon Studio Enterprise (KSE) licenses. For feature comparison between KS and KSE, you can refer to this document: [Katalon Studio vs Katalon Studio Enterprise Features](https://docs.katalon.com/katalon-studio/docs/katalon-studio-vs-katalon-studio-enterprise.html). 
+> * Katalon Runtime Engine (KRE) is the test execution add-on of Katalon Studio. KRE allows you to execute tests in a command-line interface (CLI).
 
 ## System requirements
 
@@ -42,7 +42,7 @@ description:
   </tr>
   <tr>
     <td>Linux</td>
-    <td>- Make sure you install JRE/JDK version 8.0. For further details, you can refer to this document: <br><a href="https://docs.katalon.com/katalon-studio/docs/katalon-studio-gui-beta-for-linux.html#install-katalon-studio-for-linux" target="_blank" rel="noopener noreferrer">Install Katalon Studio for Linux</a>.<br>- The latest version of Linux distribution that supports Gnome, KDE, or Unity DE. <br>- Tested on Ubuntu.<br></td>
+    <td><div class="blockquote"> - Make sure you install JRE/JDK version 8.0. For further details, you can refer to this document: </div> <br><a href="https://docs.katalon.com/katalon-studio/docs/katalon-studio-gui-beta-for-linux.html#install-katalon-studio-for-linux" target="_blank" rel="noopener noreferrer">Install Katalon Studio for Linux</a>.<br>- The latest version of Linux distribution that supports Gnome, KDE, or Unity DE. <br>- Tested on Ubuntu.<br></td>
     <td>- Make sure you install JRE/JDK version 8.0.<br>For further details, you can refer to this document: <br><a href="https://docs.katalon.com/katalon-studio/docs/katalon-studio-gui-beta-for-linux.html#install-katalon-studio-for-linux" target="_blank" rel="noopener noreferrer">Install Katalon Runtime Engine for Linux</a>.<br>- Debian, Ubuntu, RHEL, Fedora, and CentOS-based distribution. <br>- Tested on Ubuntu.<br></td>
   </tr>
   <tr>
