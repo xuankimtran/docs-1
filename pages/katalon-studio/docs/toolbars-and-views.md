@@ -148,7 +148,7 @@ The Main **Toolbar** contains the most common actions you usually perform, for
 		</tr>
 		<tr>
 			<td>
-				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/channel.png" width=70% alt="channels" /></p>
+				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-TOOLBAR-Feedback-button.png" width=80% alt="channels" /></p>
 			</td>
 			<td>You can also submit any feedback or further questions to our channel. Katalon experts and users will try to help you as soon as possible.</td>
 		</tr>
