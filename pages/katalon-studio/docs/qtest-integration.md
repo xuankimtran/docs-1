@@ -251,9 +251,15 @@ To view the generated parity report, open the `<your-project-folder>/Reports` fo
 
 1. To submit execution results from Katalon Studio to qTest Manager, activate the Automation Integration settings and map the automation status to the test run status in qTest. You can learn more about activating the Automation Integration settings in the Tricentis document here: [Activate Automation Integrations](https://documentation.tricentis.com/qtest/1001/en/content/qtest_manager/project_settings/activate_automation_integrations.htm).
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/qtest_map_status.png" width=80% alt="Map test status in qTest">
-   
+   <a class="pop">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/qtest_map_status.png" width=100% alt="Map test status in qTest">
+   </a>
+   <p style="text-align: center;"><em>Click the image to enlarge it.</em></p>
+
+   <a class="pop">
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/KS-QTEST-Automation-status.png" width=100% alt="Map test status in Katalon Studio">
+   </a>
+   <p style="text-align: center;"><em>Click the image to enlarge it.</em></p>
 
 2. Map the Katalon Studio test status to the qTest test status.
 
@@ -635,7 +641,10 @@ You can do so with one or many test cases. In each Katalon test case, you can al
 
    Wait for the test engine to retrieve information from the qTest server.
 
+   <a class="pop">
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/KS-qTest-Check-update-in-bulk.gif" width=100% alt="Check for version updates">
+   </a>
+   <p style="text-align: center;"><em>Click the gif to enlarge it.</em></p>
 
 ### Check for version updates in a test case
 
@@ -644,10 +653,13 @@ In a test case editor, open the **Integration** tab, click **Check for updates**
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/test-case-version.png" width=420 alt="Check for version updates in a test case">
 
 Wait for the test engine to retrieve information from the qTest server.
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/KS-qTest-Check-update-in-a-test-case.gif" width=100% alt="Check for version updates">
-
 If you wish to save the latest content of test steps and test case version, in the pop-up **qTest Integration Update** dialog, click **Sync up**.
+
+<a class="pop">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/KS-qTest-Check-update-in-a-test-case.gif" width=100% alt="Check for version updates">
+</a>
+<p style="text-align: center;"><em>Click the gif to enlarge it.</em></p>
+
 ## Map a Katalon test case to a qTest test case by database ID
 
 > Requirements:
