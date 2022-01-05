@@ -188,6 +188,8 @@ You need to activate the License Server in the **Katalon Studio Activation** dia
 
 ## Activate Katalon Runtime Engine
 
+> This section explains how to activate Katalon Runtime Engine within a License Server. If you wish to activate a Katalon Runtime Engine license in an offline environment, refer to this documentation: [Activate a license while offline](https://docs.katalon.com/katalon-studio/docs/activate-license.html#activate-a-license-while-offline).
+
 > Requirements:
 >
 > * You have downloaded Katalon Runtime Engine.
@@ -201,5 +203,3 @@ To activate your Katalon Runtime Engine license with a License Server, do as fol
 2. In the **katalonc.ini** file, add this parameter: `-DtestOps.serverUrl=<license server URL>`
 
    You only need to add this parameter once, then your Katalon Runtime Engine license is activated.
-
-> To activate your Katalon Runtime Engine license without the internet, refer to this documentation: [Activate a license while offline](https://docs.katalon.com/katalon-studio/docs/activate-license.html#activate-a-license-while-offline).
