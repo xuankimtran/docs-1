@@ -30,7 +30,7 @@ Follow these steps:
 3. Check the **Enable Katalon TestCloud integration** box.
 
 4. Select your organization, then click **Fetch Organization**.
-5. Click **Apply** to finish.
+5. Click **Apply and Close**.
 
 You have activated your General Availability trial (GA trial) to use TestCloud.
 
@@ -54,7 +54,7 @@ To run TS with TestCloud, follow these steps:
 2. Open the TS.
 3. Click on the dropdown icon of the *Run* button and choose to run with TestCloud.
 
-     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/studio-integration/run-with-testcloud.png" width=70% alt="tc config dialog">
+     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/studio-integration/run-with-testcloud.png" width=50% alt="tc config dialog">
 
     The **TestCloud Configuration (Beta)** dialog appears as below.
 
