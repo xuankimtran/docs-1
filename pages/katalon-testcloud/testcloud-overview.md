@@ -18,14 +18,14 @@ TestCloud addresses the following problems:
 
 **No setup and maintenance required** to use TestCloud as your test environment. TestCloud is also ready to integrate with your CI/CD pipelines.
 
-Katalon TestCloud is now integrated with Katalon TestOps. For more information, see: [Integration with TestOps](https://docs.katalon.com/katalon-testcloud/docs/integrate-testcloud-with-testops.html). Katalon Studio integration is under development.
+Katalon TestCloud is now integrated with Katalon TestOps and Katalon Studio. For more information, see: [Integration with TestOps](https://docs.katalon.com/katalon-testcloud/docs/integrate-testcloud-with-testops.html) and [Integration with Katalon Studio](https://docs.katalon.com/katalon-studio/docs/testcloud-integration.html).
 
-From January 20, 2022, Katalon TestCloud is in general availability trial (GA trial). All users who belong to a TestOps organization can now use TestCloud for free with the **Free GA Trial** package, with the following quotas and limits:
+Katalon TestCloud is in general availability trial (GA trial). All users who belong to a TestOps organization can now use TestCloud for free with the **free GA trial** package. The following limitations apply:
 
 <table>
     <thead>
         <tr>
-            <th><b>Quota</b></th>
+            <th><b>Category</b></th>
             <th><b>Limit</b></th>
         </tr>
     </thead>
