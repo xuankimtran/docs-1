@@ -76,11 +76,11 @@ You can also see the following subviews:
 
 You can edit VM arguments in Execution Settings by going to **Project > Settings > Execution > Launch Arguments**.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/KS-PRJ-VM-Arguements.png" width="70%" alt="VM arguments settings">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/KS-PRJ-VM-Arguments.png" width="70%" alt="VM arguments settings">
 
 In the **VM Arguments** tab, enter your arguments. VM Arguments entered in **Executions Settings** of a project change the behavior of a Java process of each execution. For example:
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/KS-VM-arguements-input.png" width="70%" alt="Input VM arguments">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/KS-VM-arguments-input.png" width="70%" alt="Input VM arguments">
 
 To make sure if the configuration works, please add this simple test case:
 

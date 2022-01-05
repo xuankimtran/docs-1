@@ -143,8 +143,8 @@ The following guidelines show you how to start browsers (Firefox, Chrome, Edge C
    </tbody>
    </table>
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/project-settings-new-ui/KS-DC-Edge-Chronium-Private-mode-1.png" width=100% alt="ks edge chromium dictionary property builder">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/project-settings-new-ui/KS-DC-Edge-Chromium-Private-mode-1.png" width=100% alt="ks edge chromium dictionary property builder">
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/project-settings-new-ui/KS-DC-Edge-Chronium-Private-mode-2.png" width=100% alt="ks edge chromium private mode">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/project-settings-new-ui/KS-DC-Edge-Chromium-Private-mode-2.png" width=100% alt="ks edge chromium private mode">
 
 3. Click **Apply and Close**.
