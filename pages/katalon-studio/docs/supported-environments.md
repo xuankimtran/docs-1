@@ -42,13 +42,13 @@ description:
   </tr>
   <tr>
     <td>Linux</td>
-    <td>- Make sure you install JRE/JDK version 8.0. For further details, you can refer to this document:<br><a href="https://docs.katalon.com/katalon-studio/docs/katalon-studio-gui-beta-for-linux.html#install-katalon-studio-for-linux" target="_blank" rel="noopener noreferrer">Install Katalon Studio for Linux</a>.<br>- The latest version of Linux distribution that supports Gnome, KDE, or Unity DE. <br>- Tested on Ubuntu.<br></td>
-    <td>- Make sure you install JRE/JDK version 8.0.<br>For further details, you can refer to this document: <br><a href="https://docs.katalon.com/katalon-studio/docs/katalon-studio-gui-beta-for-linux.html#install-katalon-studio-for-linux" target="_blank" rel="noopener noreferrer">Install Katalon Runtime Engine for Linux</a>.<br>- Debian, Ubuntu, RHEL, Fedora, and CentOS-based distribution. <br>- Tested on Ubuntu.<br></td>
+    <td>- Make sure you install OpenJDK 8.0. For further details, you can refer to this document: <a href="https://docs.katalon.com/katalon-studio/docs/katalon-studio-gui-beta-for-linux.html#install-katalon-studio-for-linux" target="_blank" rel="noopener noreferrer">Install Katalon Studio for Linux</a>.<br>- The latest version of Linux distribution that supports Gnome, KDE, or Unity DE. <br>- Tested on Ubuntu.<br></td>
+    <td>- Make sure you install OpenJDK 8.0.<br>For further details, you can refer to this document: <a href="https://docs.katalon.com/katalon-studio/docs/katalon-studio-gui-beta-for-linux.html#install-katalon-studio-for-linux" target="_blank" rel="noopener noreferrer">Install Katalon Runtime Engine for Linux</a>.<br>- Debian, Ubuntu, RHEL, Fedora, and CentOS-based distribution. <br>- Tested on Ubuntu.<br></td>
   </tr>
   <tr>
     <td colspan="2">GUI components</td>
     <td>Required for all operating systems.</td>
-    <td>KRE doesn't have GUI components.</td>
+    <td>KRE doesn't have GUI components. For further information about executing with KRE, you can refer to this document: <a href="https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#command-builder" target="_blank" rel="noopener noreferrer">Execution on KRE</a>.</td>
   </tr>
   <tr>
     <td colspan="2">CPU</td>
