@@ -171,6 +171,7 @@ description:
 </table>
 
 (*) To handle the hybrid app, you can refer to the Appium document here: [Automating hybrid apps](http://appium.io/docs/en/writing-running-appium/web/hybrid/#automating-hybrid-apps).
+
 (**) We offer some workarounds here: 
 - [Capture elements in hybrid Android apps](https://docs.katalon.com/katalon-studio/docs/capture-elements-in-hybrid-android-apps.html).
 - [Flutter-based application testing with custom SetText keyword](https://docs.katalon.com/katalon-studio/docs/flutter-based-application-testing.html)
