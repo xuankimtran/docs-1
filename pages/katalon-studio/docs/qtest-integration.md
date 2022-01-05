@@ -253,7 +253,7 @@ To view the generated parity report, open the `<your-project-folder>/Reports` fo
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/qtest_map_status.png" width=80% alt="Map test status in qTest">
    
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/KS-QTEST-Automation-status.png" width=70% alt="Map test status in Katalon Studio">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/KS-QTEST-Automation-status.png" width=100% alt="Map test status in Katalon Studio">
 
 2. Map the Katalon Studio test status to the qTest test status.
 
