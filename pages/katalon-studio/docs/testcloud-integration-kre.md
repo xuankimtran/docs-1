@@ -90,7 +90,7 @@ Follow these steps:
 
 	* **Test Suite**: select TS/TSC you want to execute.
 	* **Executive Platform**: choose TestCloud for the test environment in **Run with** and select the execution profile in **Profile**.
-    * **Override the execution profile and environment**: specify `-BrowserType` in the command to override the browser type and run tests with TestCloud
+    * **Override the execution profile and environment**: specify `-BrowserType` in the command to override the browser type and run tests with TestCloud.
 	
 		> Notes:
 		>
