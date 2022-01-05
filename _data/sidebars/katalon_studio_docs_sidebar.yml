@@ -327,10 +327,6 @@ items:
                     url: /katalon-studio/docs/horizontal_swipe_mobile_automation.html
                   - title: "Handling Scroll to Element in Mobile Automation"
                     url: /katalon-studio/docs/scroll_element_mobile_automation.html
-              - title: "Windows Desktop Apps Testing"
-                tree:
-                  - title: "Combine Katalon Studio with SAP Scripting Tracker for Windows"
-                    url: /katalon-studio/docs/katalon-sap-scripting-tracker.html
           - title: "Web Test Design"
             tree:
               - title: "Introduction to Web Testing"
@@ -471,8 +467,6 @@ items:
             tree:
               - title: "Introduction to Desktop App Testing"
                 url: /katalon-studio/docs/introduction-desktop-app-testing.html
-              - title: "Set up WinAppDriver"
-                url: /katalon-studio/docs/setup-winappdriver.html
               - title: "Windows Record and Spy Utilities"
                 tree:
                   - title: "Introduction to Windows Spy Utility"
@@ -1167,6 +1161,8 @@ items:
             url: /katalon-studio/docs/aws-device-farm.html  
           - title: "Integration with Azure DevOps Test Plans"
             url: /katalon-studio/docs/azure-devops-test-plans.html
+          - title: "Combine Katalon Studio with SAP Scripting Tracker for Windows"
+            url: /katalon-studio/docs/katalon-sap-scripting-tracker.html
       - title: "Katalon Studio Plugins"
         tree:
           - title: "Using Plugins"
