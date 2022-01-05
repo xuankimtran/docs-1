@@ -52,3 +52,7 @@ Katalon TestCloud is in general availability trial (GA trial). All users who bel
         </tr>
     </tbody>
 </table>
+
+> **Notes**:
+>
+> To learn more about quotas and limits in Katalon TestCloud, see: [Usage Quota](https://docs.katalon.com/katalon-testcloud/docs/usage-quota-guide.html).
