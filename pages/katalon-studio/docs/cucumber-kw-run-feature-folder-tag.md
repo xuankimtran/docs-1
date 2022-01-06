@@ -33,46 +33,46 @@ Katalon Studio supports executing feature files in a folder with the `runFeature
 
 ## Using the AND tag expression
 
-* **Description**: Query the feature files in the specified folder, and execute the scenarios associated with all the input tags.
+* **Description**: query the feature files in the specified folder, and execute the scenarios associated with all the input tags.
 * **Keyword name**: runFeatureFolderWithTags.
 * **Keyword syntax**: runFeatureFolderWithTags(folderRelativePath, tags, flowControl).
 * **Parameters**:
   * Name: folderRelativePath
     * Description: the folder relative path that starts from the current project location.
     * Parameter Type: String.
-    * Mandatory: Required.
+    * Mandatory: required.
   * Name: tags
-    * Description: which tags in the feature files should be executed.
+    * Description: an array of tag strings.
     * Parameter Type: String[].
-    * Mandatory: Required.
+    * Mandatory: required.
   * Name: flowControl
     * Description: a `com.kms.katalon.core.model.FailureHandling` instance that controls the running flow.
     * Parameter Type: FailureHandling.
-    * Mandatory: Optional.
+    * Mandatory: optional.
 * **Returns**: an instance of CucumberRunnerResult that includes the status of keyword and report folder location.
 * **Example**:
 
 ```groovy
-CucumberKW.runFeatureFolderWithTags('Include/features/BDD Cucumber Tests',['@BA','@regressiontest'] as String[])
+CucumberKW.runFeatureFolderWithTags('Include/features/BDD Cucumber Tests',['@tag1','@tag2'] as String[])
 ```
 
 ## Using the OR tag expression
 
-* **Description**: Query the feature files in the specified folder, and execute the scenarios associated with one of the input tags.
+* **Description**: query the feature files in the specified folder, and execute the scenarios associated with one of the input tags.
 * **Keyword name**: runFeatureFolderWithTags
 * **Keyword syntax**: runFeatureFolderWithTags(folderRelativePath, tags)
 * **Parameters**:
   * Name: folderRelativePath
     * Description: the folder relative path that starts from the current project location.
     * Parameter Type: String.
-    * Mandatory: Required.
+    * Mandatory: required.
   * Name: tags
-    * Description: which tags in the feature files should be executed.
-    * Parameter Type: String varargs (String...).
-    * Mandatory: Required.
+    * Description: a string of tags, separated by commas.
+    * Parameter Type: String.
+    * Mandatory: required.
 * **Returns**: an instance of CucumberRunnerResult that includes the status of keyword and report folder location.
 * **Example**:
 
 ```groovy
-CucumberKW.runFeatureFolderWithTags('Include/features/BDD Cucumber Tests', '@BA','@regressiontest')
+CucumberKW.runFeatureFolderWithTags('Include/features/BDD Cucumber Tests', '@tag1, @tag2')
 ```
