@@ -35,46 +35,46 @@ Depending on the type of tag parameter passed during the function call, the func
 
 ## Using the AND tag expression
 
-* **Description**: Execute the scenarios associated with all the input tags.
-* **Keyword name**: runFeatureFileWithTags
-* **Keyword syntax**: runFeatureFileWithTags(relativeFilePath, tags, flowControl)
+* **Description**: execute the scenarios associated with all the input tags.
+* **Keyword name**: runFeatureFileWithTags.
+* **Keyword syntax**: runFeatureFileWithTags(relativeFilePath, tags, flowControl).
 * **Parameters**:
   * Name: relativeFilePath
     * Description: the folder relative path that starts from the current project location.
-    * Parameter Type: String
-    * Mandatory: Required
+    * Parameter Type: String.
+    * Mandatory: required.
   * Name: tags
-    * Description: which tags in the feature files should be executed.
-    * Parameter Type: String[]
-    * Mandatory: Required
+    * Description: an array of tag strings.
+    * Parameter Type: String[].
+    * Mandatory: required.
   * Name: flowControl
-    * Description: an instance com.kms.katalon.core.model.FailureHandling that controls the running flow
-    * Parameter Type: FailureHandling
-    * Mandatory: Optional  
+    * Description: an instance com.kms.katalon.core.model.FailureHandling that controls the running flow.
+    * Parameter Type: FailureHandling.
+    * Mandatory: optional.
 * **Returns**: an instance of CucumberRunnerResult that includes the status of keyword and report folder location.
 * **Example**:
 
 ```groovy
-CucumberKW.runFeatureFileWithTags('Include/features/BDD Cucumber Tests/Jira Integration/KD-31800.feature', ["@BA","@regressiontest"] as String[])
+CucumberKW.runFeatureFileWithTags("Include/features/New Feature File.feature", ['@tag1', '@tag2'] as String[], FailureHandling.STOP_ON_FAILURE)
 ```
 
 ## Using the OR tag expression
 
-* **Description**: Execute the scenarios associated with one of the input tags.
+* **Description**: execute the scenarios associated with one of the input tags.
 * **Keyword name**: runFeatureFileWithTags
 * **Keyword syntax**: runFeatureFileWithTags(relativeFilePath, tags)
 * **Parameters**:
   * Name: relativeFilePath
     * Description: the folder relative path that starts from the current project location.
     * Parameter Type: String
-    * Mandatory: Required
+    * Mandatory: required
   * Name: tags
-    * Description: which tags in the feature files should be executed.
-    * Parameter Type: String varargs (String...)
-    * Mandatory: Required
+    * Description: a string of tags, separated by commas.
+    * Parameter Type: String
+    * Mandatory: required
 * **Returns**: an instance of CucumberRunnerResult that includes the status of keyword and report folder location.
 * **Example**:
 
 ```groovy
-CucumberKW.runFeatureFileWithTags('Include/features/BDD Cucumber Tests/Jira Integration/KD-31800.feature', "@BA, @regressiontest")
+CucumberKW.runFeatureFileWithTags("Include/features/New Feature File.feature", '@tag1, @tag2')
 ```
