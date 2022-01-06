@@ -15,25 +15,25 @@ To create a new Test Suite, do as follows:
 
 1. From the menu bar, select **File > New > Dynamic Test Suite**.
 
-    <img src="url" width="70%" alt="Create a dynamic test suite">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dynamic-test-suite-ks/KS-DYNAMIC-Create-a-new-dynamic-test-suite.png" width="70%" alt="Create a dynamic test suite">
 
 2. Fill in the name and the description (optional). Here, we name it **Dynamic Test Suite 1**.
 
-    <img src="url" width="70%" alt="Create a dynamic test suite">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dynamic-test-suite-ks/KS-DYNAMIC-Name-the-test-suite.png" width="70%" alt="Create a dynamic test suite">
 
 3. Click **OK** when you are done.
 
 ## Modify Execution Information
 
-You can specify additional configurations for test suite execution by expanding the **Execution Information** section, as below:
+You can specify additional configurations for test suite execution by expanding the **Execution Information** section.
 
-<img src="url" alt="Open the execution information"> 
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dynamic-test-suite-ks/KS-DYNAMIC-Open-execute-information.png" width="45%" alt="Open the execution information"> 
 
 ### Implicit timeout
 
 In the **Implicit timeout** section, you can decide the timeout period that Katalon Studio waits for a page to be loaded by choosing one of the following options:
 
-<img src="url" alt="Set implicit timeout">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dynamic-test-suite-ks/KS-DYNAMIC-Implicit-timeout.png" alt="Set implicit timeout">
 
 <table>
 <thead>
@@ -65,19 +65,21 @@ Choose one of the following options:
    * **Retry all executions**: Retry all test cases when the test suite fails.
    * **Retry failed executions only**: Retry only failed test cases when the test suite fails.
 
-   <img src="url" alt="retry after executing all" width=60%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dynamic-test-suite-ks/KS-DYNAMIC-Retry-options.png" alt="retry after executing all" width=50%>
 
 For example, when a test suite execution fails, we want to rerun failed test cases in that test suite two times.
 
 In the **Retry after executing all** checkbox, we input `2` in the text field, then we choose the **Retry failed executions only** option.
 
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dynamic-test-suite-ks/KS-DYNAMIC-Set-up-retry-2-times.png" alt="retry after executing all" width=50%>
+
 You can see in the following picture, the test suite is executed 3 times in total. The first one is the main execution, the later two are the retried executions when the first execution fails. 
 
-<img src="url" alt="retry after executing all" width=60%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dynamic-test-suite-ks/KS-DYNAMIC-Retry-2-times.png" alt="retry after executing all" width=100%>
 
 Katalon automatically generates reports after each test execution. 
 
-<img src="url" alt="retry after executing all" width=60%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dynamic-test-suite-ks/KS-DYNAMIC-Reports-retry-2-times.png" alt="retry after executing all" width=60%>
 
 ### Mail Recipients
 
@@ -110,6 +112,8 @@ To enable the query provider for the dynamic test suite, install one of the plug
 To activate the installed plugin, navigate to Account Settings in Katalon Studio and click **Reload Plugin**.
 
 After successfully activating the plugin, the **Query Provider** automatically applies the query syntax of the installed plugin. For example, after activting the **Basic search for dynamic test suite** plugin, the **Query Provider** is set to **Built-in**. You can now add test cases for dynamic test suite execution.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dynamic-test-suite-ks/KS-DYNAMIC-Query-provider-after-installing-plugin.png" width="100%" alt="Results after installing plugins">
 
 ### Add test cases to a dynamic test suite
 
@@ -147,8 +151,37 @@ The **Query Builder** dialog includes:
 For example, we want to add all test cases that name contains `Chrome` into the dynamic test suite. 
 After opening the **Query Builder** dialog, input `Chrome` into the **Name** test field. Then hit **Search**.
 
-<img src="url" width="100%" alt="Input Chrome into the Query Builder dialog">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dynamic-test-suite-ks/KS-DYNAMIC-Find-test-cases-named-chrome.png" width="70%" alt="Input Chrome into the Query Builder dialog">
 
 Katalon finds three test cases in the current project that name contains `Chrome`.
 
-<img src="url" width="100%" alt="search query">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dynamic-test-suite-ks/KS-DYNAMIC-test-cases-named-chrome.png" width="100%" alt="search query">
+
+## Execute a dynamic test suite
+
+After adding test cases to the dynamic test suite, from the main toolbar, click **Run**. The test case is executed with the default browser defined in **Project > Settings > Execution > Default execution**. 
+
+Alternatively, you can choose the environment in the dropdown list next to **Run**. 
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dynamic-test-suite-ks/KS-DYNAMIC-Run-dropdown-list.png" alt="The Run dropdown list">
+
+The **Job Progress** bar is triggered automatically to show the progress while your test case/test suite is being executed.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dynamic-test-suite-ks/KS-DYNAMIC-progress-bar.png" alt="The Run dropdown list">
+
+You can also run the dynamic test suite in console mode. For detailed instructions on running a test execution in console mode, you can refer to this document: [Command Builder](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#command-builder).
+
+## Test Reports
+
+After the test suite execution, to view your test reports, go to the **Reports** folder in the **Test Explorer** panel. 
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dynamic-test-suite-ks/KS-DYNAMIC-Open-built-in-report.png" width="100%" alt="Reports">
+
+Alternatively, you can also view your reports and details in `<your-project-folder>/Reports`. Katalon Studio supports exporting test reports into different formats, such as HTML, CSV, PDF, and JUnit. You can learn more about exporting reports here: [Generate reports](https://docs.katalon.com/katalon-studio/docs/test-suite-report.html#automatically-generate-reports).
+
+> Notes:
+> * For real-time monitoring and better reporting capabilities, consider integrating your project with Katalon TestOps. Learn more about test result reports here: [Upload Test Results to Katalon TestOps from Katalon Studio](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html).
+
+**See also**
+
+* [View and Customize Execution Log](https://docs.katalon.com/katalon-studio/docs/working-with-execution-log.html#view-execution-log)
