@@ -504,7 +504,7 @@ katalonc -noSplash -runMode=console -projectPath="C:\Users\Katalon Studio\Projec
       <tr>
          <td>-testcloudTunnel</td>
          <td>Allow the execution to be performed via a tunnel (Available from 8.2.5 onwards).</td>
-         <td>Y</td>
+         <td>N</td>
       </tr>
       <tr>
          <td>--config -kobiton.authentication.username=[yourKobitonusername] -kobiton.authentication.password=xxxxx</td>
