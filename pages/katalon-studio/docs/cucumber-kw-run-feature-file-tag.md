@@ -4,7 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/cucumber-kw-run-feature-file-tag.html
 ---
 
-Katalon Studio supports executing a single Feature file with the `runFeatureFileWithTags` function, using the following tag expressions:
+Katalon Studio supports executing a single feature file with the `runFeatureFileWithTags` function, using the following tag expressions:
 
 <table>
   <thead>
@@ -24,7 +24,7 @@ Katalon Studio supports executing a single Feature file with the `runFeatureFile
       <td>
         <code>@tag1 or @tag2</code>
       </td>
-      <td>Scenarios tagged with both <code>@tag1</code> or <code>@tag2</code>.</td>
+      <td>Scenarios tagged with either <code>@tag1</code> or <code>@tag2</code>.</td>
     </tr>
   </tbody>
 </table>

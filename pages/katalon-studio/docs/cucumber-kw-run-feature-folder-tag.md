@@ -24,7 +24,7 @@ Katalon Studio supports executing feature files in a folder with the `runFeature
       <td>
         <code>@tag1 or @tag2</code>
       </td>
-      <td>Scenarios tagged with both <code>@tag1</code> or <code>@tag2</code>.</td>
+      <td>Scenarios tagged with either <code>@tag1</code> or <code>@tag2</code>.</td>
     </tr>
   </tbody>
 </table>
