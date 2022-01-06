@@ -999,7 +999,7 @@ items:
               url: /katalon-studio/docs/cucumber-kw-run-feature-file.html
             - title: "[Cucumber] Run Feature Folder with Tags"
               url: /katalon-studio/docs/cucumber-kw-run-feature-folder-tag.html
-            - title: "[Cucumber] Run Feature Foler"
+            - title: "[Cucumber] Run Feature Folder"
               url: /katalon-studio/docs/cucumber-kw-run-feature-folder.html
             - title: "[Cucumber] Run with Cucumber Runner"
               url: /katalon-studio/docs/cucumber-kw-run-cucumber-runner.html
