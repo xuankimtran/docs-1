@@ -55,8 +55,8 @@ With the ability to remove built-in libraries stored in the `.classpath` file of
 **Important**
 
 This feature applies to all libraries in `classpath`, excluding:
- - `com.kms.katalon.*.jar`
- - `selenium-server-standalone-3.141.59.jar`
+- `com.kms.katalon.*.jar`
+- `selenium-server-standalone-3.141.59.jar`
 - `poi-3.17.jar`
 - `poi-ooxml-3.17.jar`
 - `poi-ooxml-schemas-3.17.jar`

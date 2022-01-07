@@ -38,7 +38,7 @@ To run test:
 1. In **Tests Explorer**, open a test case or test suite.
 2. In Katalon Toolbar, in the drop-down list of button **Run**, select an environment to run the test case. If you click on the **Run** button, the test case is executed using the default browser defined in [Execution Settings](/display/KD/Execution+Settings).
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/run.png" width=320>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/KS-EXECUTE-Execute-a-test-case.png" width="200" alt="Execute a test case">
 
 ### Test Environments
 
@@ -49,11 +49,11 @@ In the drop-down list of button **Run**, select one of the following supported e
 
    Before executing your Mobile test, you're required to set up the environment for mobile testing on <a href="/display/KD/Mobile+on+Windows">Windows</a> or <a href="/display/KD/Mobile+on+macOS">macOS</a> machine. 
    
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/image2018-1-26-183A543A41.png">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/device.png" width="70%" alt="Recognize mobile device">
 
    **Troubleshooting**: If your device is not found, make sure the device's **Developer Mode** is turned on, try to unplug, and reconnect several times until you are prompted to accept/trust this device.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/image2018-8-2-153A313A52.png">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/KS-EXECUTION-No-device-found.png" width=70% alt="No mobile device found">
 
 * **Remote**: Select a remote environment to run tests.
 
@@ -67,7 +67,7 @@ In the drop-down list of button **Run**, select one of the following supported e
 
 The **Job Progress** is triggered automatically to show the progress while your test case or test suite is being executed.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/progress.png">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/KS-EXECUTION-Job-progress.png" width="70%" alt="Job progress bar">
 
 ### Troubleshooting
 
@@ -101,14 +101,13 @@ With this feature, you can resume the existing execution quickly. Katalon Studio
 1. Start a browser with the `Open Browser` step, or you must have a currently running browser.
 2. Make sure this browser's session is NOT terminated when the execution finishes (Go to **Project/Settings/Execution** and uncheck the **Terminate...** options in **Post-Execution Options** based on your testing needs)
    
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/post-execution.png" width=85%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/KS-EXECUTION-Post-execution.png" width=85% alt="Uncheck post execution">
 
 3. In the Manual view of the test case, right-click on a step, select **Run from here** and select one of the **currently running** browser instances to execute your test.
 
    > If there are no running browser instances that are previously launched in Katalon Studio, **Run from here** is disabled.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/debug-from-here.png" width=85%>
-
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/KS-EXECUTION-Run-from-here.png" width=85% alt="Debug - run from here">
 ### Debug: Enable or Disable steps
 
 Katalon Studio allows you to enable or disable one or more test steps before executing the test case to skip unwanted steps during execution. You can use the provided keyboard shortcuts to perform the actions.
@@ -116,7 +115,7 @@ Katalon Studio allows you to enable or disable one or more test steps before exe
 * For Windows:  **Ctrl+D** (disable) and **Ctrl+E** (enable) on selected steps.
 * For macOS: **command+/** (disable) and **option+command+/**
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/enable-disable.png" width=85%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/KS-EXECUTION-Disable-debug.png" width=85% alt="Enable/Disable steps to debug">
 
 ### Debug mode
 
@@ -124,19 +123,19 @@ The Debug mode is designed to make debugging easy to use, allowing investigating
 
 1. Open a test case and switch to the **Script** view.
    
-   ![Script view Katalon Studio](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/Script-view.png)
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/Script-view.png" width=30% alt="Script view Katalon Studio">
 
 2. Double-click on the leftmost side of the script editor to mark a breakpoint. A breakpoint is where Katalon Studio pauses the test execution for you to start debugging.
    
-   ![mark a breakpoint for the step](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/debugging_test_case/mark-a-breakpoint.png)
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/KS-EXECUTION-Line-break-point.png" width=439 alt="mark a breakpoint for the step">
 
 3. Choose a browser for **Debug** from the main toolbar.
    
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/debug-browser.png" width=439>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/KS-EXECUTION-Run-debug.png" width=320 alt="Run debug">
 
 4. Confirm (select **Yes**) when being asked to display the **Debug** perspective.
    
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/confirm-perspective.png" width=514 >
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/confirm-perspective.png" width=514 alt="Confirm the debug mode">
 
 5. The **Debug** perspective provides convenient options for debugging purposes. You can:
 
@@ -178,7 +177,7 @@ To use **Debug from here** with **Chrome, Firefox, or Edge Chromium**, do as fol
 1. Start a browser with the `Open Browser` step, or you must have a currently running browser
 2. Make sure this browser's session is NOT terminated when the execution finishes (Go to **Project/Settings/Execution** and uncheck the **Terminate...** options in **Post-Execution Options** based on your testing needs)
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/post-execution.png" width=85%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/KS-EXECUTION-Post-execution.png" width=85% alt="Uncheck post execution">
 
 3. Open a test case in its **Script** view and double-click on the leftmost side of the script editor to mark a breakpoint. A breakpoint is where Katalon Studio pauses the test execution for you to debug.
 
@@ -188,7 +187,7 @@ To use **Debug from here** with **Chrome, Firefox, or Edge Chromium**, do as fol
 
    > If there are no running browser instances that are previously launched in Katalon Studio, **Debug from here...** is disabled.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/debug-from-here.png" width=85%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/KS-EXECUTION-Debug-from-here.png" width=85% alt="Debug from here">
 
 See also:
 
