@@ -14,24 +14,26 @@ A TestCloud Tunnel enables a secure connection to local resources so that users 
 A TestCloud Tunnel can:
 
 * Scale up in accordance with the team size and user's needs.
-* Offer latency by deploying a state-of-the-art technology QUIC.
+* Reduce latency to a minimum by deploying the QUIC protocol.
 * Prevent overload and crashes with multiple tunnel clients at the user's disposal.
 * Provide a top-notch security by limiting access to authorized users with API keys only.
 * Optimize performance by enabling the usage of multiple Edge-servers for running multiple concurrent tests.
 
 ### How does TestCloud Tunnel work?
 
-Once TestCloud clients have installed the tunnels in the machines which have access to their private network (tunnel clients), a tunnel client spins up a fresh virtual machine (VM) that is used only for testing.
+Once TestCloud clients have installed the tunnels in the machines which have access to their private network, they have set up the tunnel clients.
+
+A tunnel client spins up a fresh virtual machine (VM) that is used only for testing.
 
 By default, a TestCloud Tunnel is closed after 30 minutes if there is no request or traffic (i.e. the tunnel is idle for 30 minutes). Consequently, the VM is shut down.
 
-To start the tunnel again, you run a command line in the machine where the tunnel client is installed.
+To start the tunnel again, you start the run command in the tunnel client.
 
 > Notes:
 >
-> You can also run the command line in your CLI for shortcut.
+> For shortcut, you can also copy the run command and paste it in the cmd/terminal directly.
 
-After running the command line, the tunnel client connects you to TestCloud Tunnel's server inside it.
+After starting the run command line, the tunnel client connects you to the TestCloud Tunnel server.
 
 ## Utilize TestCloud Tunnel
 
@@ -53,9 +55,9 @@ We recommend the following practices to optimize your tunnel usage:
 
 * Run one tunnel client on one machine to utilize the machine's resources. This would avoid test failure due to timeout or bandwidth running out.
 
-    If test failure occurs and you change your machine, you need to copy the current tunnel configuration to a new machine. Then you delete the `client_id` in CLI to run a new one.
+    If test failure occurs and you change your machine, you need to copy the current tunnel configuration to a new machine. Then you delete the `client_id` in the CLI to run a new one.
 
-* Force quit by entering Ctrl+C in CLI after you finish running tests. This would avoid wasting your machine’s bandwidth and resources.
+* Force quit by entering Ctrl+C in the CLI after you finish running tests. This would avoid wasting your machine’s bandwidth and resources.
 
 ## Configure TestCloud Tunnel
 
