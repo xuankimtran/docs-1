@@ -32,7 +32,7 @@ Katalon TestCloud is in general availability trial (GA trial). All users who bel
     <tbody>
         <tr>
             <td>Expiry date</td>
-            <td>23∶59 PM April 5, 2022.</td>
+            <td>23∶59 PM April 5, 2022 EST.</td>
         </tr>
         <tr>
             <td>Number of parallel tests</td>
@@ -53,6 +53,6 @@ Katalon TestCloud is in general availability trial (GA trial). All users who bel
     </tbody>
 </table>
 
-> **Notes**:
->
-> To learn more about quotas and limits in Katalon TestCloud, see: [Usage Quota](https://docs.katalon.com/katalon-testcloud/docs/usage-quota-guide.html).
+**See also**:
+
+* [Usage Quota](https://docs.katalon.com/katalon-testcloud/docs/usage-quota-guide.html).
