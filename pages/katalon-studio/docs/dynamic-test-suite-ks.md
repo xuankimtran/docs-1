@@ -17,11 +17,11 @@ To create a new Test Suite, do as follows:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dynamic-test-suite-ks/KS-DYNAMIC-Create-a-new-dynamic-test-suite.png" width="70%" alt="Create a dynamic test suite">
 
-2. Fill in the name and the description (optional). Here, we name it **Dynamic Test Suite 1**.
+2. Fill in the name and the description (optional). Here, we name it **Dynamic Test Suite 1** and leave the description blank.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dynamic-test-suite-ks/KS-DYNAMIC-Name-the-test-suite.png" width="70%" alt="Create a dynamic test suite">
 
-3. Click **OK** when you are done.
+3. Click **OK**.
 
 ## Modify Execution Information
 
@@ -73,9 +73,12 @@ In the **Retry after executing all** checkbox, we input `2` in the text field, t
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dynamic-test-suite-ks/KS-DYNAMIC-Set-up-retry-2-times.png" alt="retry after executing all" width=50%>
 
-You can see in the following picture, the test suite is executed 3 times in total. The first one is the main execution, the later two are the retried executions when the first execution fails. 
+In the following picture, the test suite is executed three times in total. The first one is the main execution; the latter two are the retried executions when the first execution fails. 
 
+<a class="pop">
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dynamic-test-suite-ks/KS-DYNAMIC-Retry-2-times.png" alt="retry after executing all" width=100%>
+</a>
+<p style="text-align: center;"><em>Click the image to enlarge it.</em></p>
 
 Katalon automatically generates reports after each test execution. 
 
@@ -86,7 +89,7 @@ Katalon automatically generates reports after each test execution.
 > Requirements:
 > * You have configured a mail server, an email template, and a default recipient list in **Project > Settings > Email**. To learn more about configuring email settings, you can refer to this document: [Email settings](https://docs.katalon.com/katalon-studio/docs/execution-settings.html#emails-settings). 
 
-Katalon allows you to add an additional list of recipients to recieve reports in a specific dynamic test suite.
+Katalon allows you to add an additional list of recipients to receive reports in a specific dynamic test suite.
 To do so, in the **Mail Recipients** text field, input the email that you want to send the reports to.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/email.png" alt="email recipients" width=70%>
@@ -111,22 +114,25 @@ To enable the query provider for the dynamic test suite, install one of the plug
 
 To activate the installed plugin, navigate to Account Settings in Katalon Studio and click **Reload Plugin**.
 
-After successfully activating the plugin, the **Query Provider** automatically applies the query syntax of the installed plugin. For example, after activting the **Basic search for dynamic test suite** plugin, the **Query Provider** is set to **Built-in**. You can now add test cases for dynamic test suite execution.
+After successfully activating the plugin, the **Query Provider** automatically applies the query syntax of the installed plugin. For example, after activating the **Basic search for dynamic test suite** plugin, the **Query Provider** is set to **Built-in**. You can now add test cases for dynamic test suite execution.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dynamic-test-suite-ks/KS-DYNAMIC-Query-provider-after-installing-plugin.png" width="100%" alt="Results after installing plugins">
 
 ### Add test cases to a dynamic test suite
 
-There are 2 main ways to add test cases into a dynamic test suite. You can add test cases via search query or use the **Query Builder** function.
+There are two main ways to add test cases into a dynamic test suite. You can add test cases via search query or the **Query Builder** function.
 
 1. Add test cases via search query.
 
 To add test cases via search query, manually input the search condition into the **Query** box. Then hit **Preview** to query out the matching test cases.
-For example: To add the **DDT at TC level** test case into this dynamic test suite, you can input `id=(Test Cases/DDT at TC level)` into the **Query** box. The matched test case appears in the test suite.
+For example, to add the **DDT at TC level** test case into this dynamic test suite, you can input `id=(Test Cases/DDT at TC level)` into the **Query** box. The matched test case appears in the test suite.
 
 To learn more about the search query syntax, you can refer to this document: [Search test cases](https://docs.katalon.com/katalon-studio/docs/search.html).
 
+<a class="pop">
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-test-case-level/KS-DDT-Dynamic-Test-suite.png" width="100%" alt="Results after searching query">
+</a>
+<p style="text-align: center;"><em>Click the image to enlarge it.</em></p>
 
 2. Add test cases via the **Query Builder** function.
 
@@ -148,14 +154,17 @@ The **Query Builder** dialog includes:
 > * Every field in this Query Builder mode can be applied to search for all types of test artifacts such as test cases, test suites, folders, etc.
 > * You can only search for one keyword at a time when searching by tag, description, or comment.
 
-For example, we want to add all test cases that name contains `Chrome` into the dynamic test suite. 
-After opening the **Query Builder** dialog, input `Chrome` into the **Name** test field. Then hit **Search**.
+For example, we want to add all test cases whose name contains `Chrome` into the dynamic test suite. 
+After opening the **Query Builder** dialog, input `Chrome` into the **Name** text field. Then hit **Search**.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dynamic-test-suite-ks/KS-DYNAMIC-Find-test-cases-named-chrome.png" width="70%" alt="Input Chrome into the Query Builder dialog">
 
-Katalon finds three test cases in the current project that name contains `Chrome`.
+Katalon finds three test cases in the current project whose name contains `Chrome`.
 
+<a class="pop">
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dynamic-test-suite-ks/KS-DYNAMIC-test-cases-named-chrome.png" width="100%" alt="search query">
+</a>
+<p style="text-align: center;"><em>Click the image to enlarge it.</em></p>
 
 ## Execute a dynamic test suite
 
@@ -175,7 +184,10 @@ You can also run the dynamic test suite in console mode. For detailed instructio
 
 After the test suite execution, to view your test reports, go to the **Reports** folder in the **Test Explorer** panel. 
 
+<a class="pop">
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dynamic-test-suite-ks/KS-DYNAMIC-Open-built-in-report.png" width="100%" alt="Reports">
+</a>
+<p style="text-align: center;"><em>Click the image to enlarge it.</em></p>
 
 Alternatively, you can also view your reports and details in `<your-project-folder>/Reports`. Katalon Studio supports exporting test reports into different formats, such as HTML, CSV, PDF, and JUnit. You can learn more about exporting reports here: [Generate reports](https://docs.katalon.com/katalon-studio/docs/test-suite-report.html#automatically-generate-reports).
 
