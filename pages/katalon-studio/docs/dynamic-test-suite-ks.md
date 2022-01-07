@@ -170,6 +170,8 @@ Katalon finds three test cases in the current project whose name contains `Chrom
 
 After adding test cases to the dynamic test suite, from the main toolbar, click **Run**. The test case is executed with the default browser defined in **Project > Settings > Execution > Default execution**. 
 
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dynamic-test-suite-ks/KS-DYNAMIC-Click-run.png" alt="The Run dropdown list">
+
 Alternatively, you can choose the environment in the dropdown list next to **Run**. 
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dynamic-test-suite-ks/KS-DYNAMIC-Run-dropdown-list.png" alt="The Run dropdown list">
