@@ -14,44 +14,44 @@ description: Release notes 8.x
 ### New features
 
 * [WebUI] Introduced an option to use the Spy, Record, and Smart Wait function with a packed extension, now available on the Chrome Web Store. This extension is compatible with Katalon Studio version 8.2.5 onwards. See [Katalon Compact Utility](https://docs.katalon.com/katalon-studio/docs/katalon-compact-utility.html).
-* Introduced TestCloud integration (Beta). See [link]()
+* Introduced TestCloud integration (Beta). See [Integrate TestCloud with Studio](https://docs.katalon.com/katalon-studio/docs/testcloud-integration.html) and [Run TestCloud with Katalon Runtime Engine](https://docs.katalon.com/katalon-studio/docs/testcloud-integration-kre.html).
 
 ### Enhancements
 
 * Added Microsoft Edge (Chromium) 96 compatibility.
 * Added Chrome 97 compatibility.
-* [Security] Implemented the digital signature on Windows build.
+* Added Windows 11 compatibility.
+* [Security] Updated the Log4j to version 2.17.0+.
 * [Security Compliance]: Upgraded the Netty and jsoup library.
 * Enabled the connection to the SAP HANA database.
 * Introduced the `xpath:customAttributes` in the web locator strategies. See [link]().
 * Introduced an option in the **Project Setting** to include/exclude timestamps in the .properties files. See [link].
+* Introduced an option to enable/disable the Xpath visibility on the Katalon Compact Utility extension.
 * [TestOps Integration]:
     * Removed the **Create Script Repository** and **Update Script Repository** options.
     * Changed the UI in the **Katalon TestOps Integration** dialog. See [link]().
     * Removed the **Override authentication** option for Katalon TestOps in Project Settings.
-* [Performance] Improved responsiveness and loading time when renaming/moving test cases folders in big projects.
+    * Turned on the **Katalon TestOps Integration** dialog for WebUI and API onboarding tours.
 * [License Activation]:
-    * Updated the **Server URL** in the Katalon Studio activation dialog.
+    * Updated the **Server URL** in the Katalon Studio activation dialog and Katalon Runtime Engine information log.
     * Changed UI text from **Deactivate** to **Log out**.
 * Improved the visibility of the search function. See [link].
 * Removed unused messages in Test Object, Spy/Recorder, Test Suite Collection, and Test Suite.
 * [Dynamic Test Suite] Updated UI for the retry function in Dynamic Test Suite.
+* Changed the **Communication**, **Feedback**, and **Support Portal** button.
 
 ### Fixes
 
-* Bug: Executing a test could cause the error: "java.lang.ClassFormatError: Truncated class file".
-* Bug: [RESTful API] Double quote was automatically removed in the **Query Parameters** section.
-* Bug: [Katalon Runtime Engine] Katalon Runtime Engine threw an error signal ''{0}'' and did not print out the specific name when executing an empty test suite. 
+* Bug: Editing script and executing a test could intermittently cause the error: "java.lang.ClassFormatError: Truncated class file".
 * Bug: Missing screenshots in the qTest HTML report.
 * Bug: Failed to update webdriver automatically when using custom desired capabilities.
 * Bug: [Katalon Runtime Engine] Not sending all Jira IDs test results in the Jira report when executing with Katalon Runtime Engine.
 * [On-Premises Server] Not showing the terminate session popup when deleting online licenses.
 * [Recorder Web] Lacked test steps in the Recorder Logs when playing back the test case.
-* [Object] Deleting the property of a selected object caused an error.
 * Inside the **Log Viewer**, unable to navigate to a specific step by right-clicking on the step and choosing **Go to this step in Script View**.
 * Unable to send email reports when running test script from Docker Image.
 * Could not run test suite right after configuring qTest integration.
-* Missing the **Import Postman** option.
+
 ## Version 8.2.0
 
 ### New features
