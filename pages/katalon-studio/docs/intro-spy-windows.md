@@ -4,8 +4,6 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/intro-spy-windows.html 
 ---
 
-The Windows spy utility offers flexible object capturing capability for testing Windows applications.
-
 This article introduces you to the Windows spy utility in Katalon Studio.
 
 > **Requirements**:
@@ -41,7 +39,7 @@ The **ALL OBJECTS** section shows a tree of all the objects of the AUT, includin
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-windows-object/Windows-Objects-Spy-1.png" width=70% alt="All objects section">
 
-When an object is selected, the position of the associated element is highlighted in the **SCREEN VIEW**. This helps identify the right element displayed on the AUT.
+When an object is selected, the position of the associated element is highlighted in the **SCREEN VIEW**. This helps validate the selected Windows element.
 
 [image-for-screen-view]
 
@@ -82,7 +80,7 @@ Details about the captured object are displayed in the **Object** view as follow
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-windows-object/Windows-Spy-Object-3.png" width=70% alt="Object view">
 
-In the **Object** view, you view and edit:
+In the **Object** view, you can view and edit:
 
 * **Locator**: the locator type and locator of the object.
 * **Object Properties**: the properties of the object.
