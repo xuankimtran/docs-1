@@ -4,6 +4,8 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/testcloud-integration.html
 ---
 
+Katalon TestCloud is a cloud-based test execution environment where you can automate test scripts across the most common and updated browsers and/or operating systems (OS) and/or a combination of both. See: [TestCloud Overview](https://docs.katalon.com/katalon-testcloud/docs/testcloud-overview.html).
+
 This guide shows you how to configure TestCloud integration (Beta) in Katalon Studio (KS) and execute tests/view reports with TestCloud.
 
 > Requirements:
@@ -27,12 +29,17 @@ Follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/studio-integration/testcloud-project-settings.png" width=100% alt="tc icon in ks">
 
-3. Check the **Enable Katalon TestCloud integration** box.
+3. Make sure the **Enable Katalon TestCloud integration** box is checked.
 
-4. Select your organization, then click **Fetch Organization**.
+4. Check your organization.
+
+   > Notes:
+   >
+   > Click **Fetch Organization** to refresh. This action retreives all available organizations you have joined. You then can select the organization you want in the dropdown menu.
+
 5. Click **Apply and Close**.
 
-You have activated your General Availability trial (GA trial) to use TestCloud.
+You have enabled TestCloud integration in KS.
 
 ## Run Test Suite/Test Suite Collection in public domains with TestCloud
 
@@ -50,21 +57,20 @@ Secondly, follow the guides below for TS and TSC executions.
 
 To run TS with TestCloud, follow these steps:
 
-1. Create a TS with at least one test case.
-2. Open the TS.
-3. Click on the dropdown icon of the *Run* button and choose to run with TestCloud.
+1. Open your TS.
+2. Click on the dropdown icon of the *Run* button and choose to run with TestCloud.
 
      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/studio-integration/run-with-testcloud.png" width=50% alt="tc config dialog">
 
     The **TestCloud Configuration (Beta)** dialog appears as below.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/studio-integration/Unknown-3" width=100% alt="tc config dialog">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/studio-integration/tc-config-dialog-run-public.png" width=100% alt="tc config dialog">
 
-3. Select the OS/browser and its version in the **Configuration** section.
+3. Select the OS, browser and its version in the **Configuration** section.
 
     > Notes:
     >
-    > * We currently support Linux OS, Chrome, and Firefox only.
+    > * We currently support remote OS (Linux) and FireFox, Chrome browsers only.
     > * The tunnel box is unchecked by default. TestCloud Tunnel is for running tests in private domains. See: [Run Test Suite/Test Suite Collection in private domains with TestCloud](/katalon-studio/docs/testcloud-integration.html).
 
 4. Click **Run**.
@@ -73,21 +79,23 @@ To run TS with TestCloud, follow these steps:
 
 To run TSC with TestCloud, follow these steps:
 
-1. Create a TSC, then add TS into the TSC.
+1. Open your TSC and double-click the **Run with** column.
 
-2. Open the TSC, double-click the **Run with** column, and select **TestCloud**.
+    The **Select an environment** dialog appears as below.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/studio-integration/Unknown-5" width=100% alt="run config tsc">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/studio-integration/run-tsc-testcloud-as-environment.png" width=100% alt="run config tsc">
+
+2. Choose **TestCloud** as your test environment, then click **OK**.
 
 3. Double click on the **Run Configuration** column to open the **TestCloud Configuration** dialog.
 
     The **TestCloud Configuration (Beta)** dialog appears.
 
-3. Select the OS/browser and its version in the **Configuration** section.
+4. Select the OS, browser and its version in the **Configuration** section.
 
      > Notes:
     >
-    > * We currently support Linux OS, Chrome, and Firefox only.
+    > * We currently support remote OS (Linux) and FireFox, Chrome browsers only.
     > * The tunnel box is unchecked by default. TestCloud Tunnel is for running tests in private domains. See: [Run Test Suite/Test Suite Collection in private domains with TestCloud](/katalon-studio/docs/testcloud-integration.html).
 
 4. Click **Run**.
@@ -102,15 +110,11 @@ See: [Test Suite and Test Suite Collection Reports](https://docs.katalon.com/kat
 
 ## Run Test Suite/Test Suite Collection in private domains with TestCloud
 
-If you want to execute TS/TSC in private domains, you can use a tunnel in TestCloud.
+If you want to execute TS/TSC in private domains, you must use a TestCloud Tunnel.
 
-For detailed information on TestCloud Tunnel and how to utilize it, see [TestCloud Tunnel](https://docs.katalon.com/katalon-testcloud/docs/testcloud-tunnel.html).
+For detailed information on the TestCloud Tunnel and how to utilize it, see [TestCloud Tunnel](https://docs.katalon.com/katalon-testcloud/docs/testcloud-tunnel.html).
 
 ### Configure TestCloud Tunnel
-
-> Notes:
->
-> Currently, you cannot setup the tunnel directly on KS. We provide **Tunnel Setup Helper** for a workaround.
 
 Follow these steps:
 
@@ -119,21 +123,23 @@ Follow these steps:
 
     You will see a message in red as follows:
 
-     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/studio-integration/Unknown-3" width=100% alt="tc config dialog">
+     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/studio-integration/tunnel-setup-helper-link.png" width=100% alt="tc config dialog">
 
 3. Click on the **Tunnel Setup Helper** link in the message.
 
     The **Tunnel Setup Helper** dialog appears as below.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/studio-integration/Unknown-4" width=100% alt="tunnel setup helper">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/studio-integration/tunnel-helper.png" width=100% alt="tunnel setup helper">
 
-4. Follow the instructions in the dialog to set up the tunnel client in your local machine.
+4. Follow the step-by-step instructions in the dialog to set up the tunnel client in your local machine:
 
-    * Step 1: Select your OS and download the file, then unzip the file.
-    * Step 2: Copy the command line in the dialog and paste it into your CLI to set up the tunnel.
+    * Step 1: Select your OS and download the .zip file, then unzip it.
+    * Step 2: Open the CLI, copy the command line from the dialog, then run it in the CLI.
     
         For example, the command line is `./kt config --tenant KatalonStudio --username "your_username" --organization-id "your_organization_id" --api-key "your_api_key"`.
     
+        You have set up the tunnel client in your local machine.
+
     * Step 3: Copy the command line in the dialog and paste it into your CLI to start the tunnel.
 
         For example, the command line is `./kt start`.
