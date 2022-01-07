@@ -29,8 +29,6 @@ In the **CONFIGURATIONS** section, you can specify:
 
 * **Application File**: the absolute path to the Windows executable file (*.exe) of the testing machine. For Windows users, click on the **Browse...** button to locate the application file.
 
-* **Application Title**: the title of the application under test.
-
 When the application under test (AUT) is started, Katalon Studio captures all available Windows objects on the current window of the AUT and displays them in the **ALL OBJECTS** section.
 
 ### Add the captured objects
