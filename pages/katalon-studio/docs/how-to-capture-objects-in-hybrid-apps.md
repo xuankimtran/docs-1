@@ -14,7 +14,7 @@ Enable WebView debugging in your Android app. To enable this, set the `setWebCon
 
 ## Install Chromedriver for Appium
    
-1. Download and install Chromedriver for Appium. You can download it from the Appium website: [Chromedriver](http://appium.io/docs/en/writing-running-appium/web/chromedriver/#chromedriverchrome-compatibility). Make sure to download the compatible version with Chrome on your testing devices. 
+1. Download and install Chromedriver for Appium. You can follow the instruction from the Appium website here: [Chromedriver](http://appium.io/docs/en/writing-running-appium/web/chromedriver/#chromedriverchrome-compatibility). Make sure to download the compatible version with Chrome on your testing devices. 
 
 2. Specify the Chromedriver version in the session. Go to **Project > Settings > Desired Capabilities > Mobile > Android** and add this property:
 
