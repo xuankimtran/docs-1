@@ -8,45 +8,61 @@ description:
 
 Katalon Mobile Recorder/Spy utility can detect elements in hybrid app rendered as native app, but cannot as Webview. This tutorial provides a solution to capture Android hybrid mobile elements in WebView with Appium and Chrome Devtools. You can learn more about Android WebView functionalities from the Android developer documentation here: [WebView](https://developer.android.com/reference/android/webkit/WebView).
 
-Do as follows:
+## Enable WebView debugging for hybrid Android apps
 
-1. Enable WebView debugging in your Android app. To enable this, set the `setWebContentsDebuggingEnabled` property on the `android.webkit.WebView` element to `true`. You can learn more about configuring WebView for debugging from the Chrome developer documentation here: [Remote debugging WebViews](https://developer.chrome.com/docs/devtools/remote-debugging/webviews/).
+Enable WebView debugging in your Android app. To enable this, set the `setWebContentsDebuggingEnabled` property on the `android.webkit.WebView` element to `true`. You can learn more about configuring WebView for debugging from the Chrome developer documentation here: [Remote debugging WebViews](https://developer.chrome.com/docs/devtools/remote-debugging/webviews/).
+
+## Install Chromedriver for Appium
    
-2. Download and install Chromedriver for Appium. You can download it from the Appium website: [Chromedriver](http://appium.io/docs/en/writing-running-appium/web/chromedriver/#chromedriverchrome-compatibility). Make sure to download the compatible version with Chrome on your testing devices. 
+1. Download and install Chromedriver for Appium. You can download it from the Appium website: [Chromedriver](http://appium.io/docs/en/writing-running-appium/web/chromedriver/#chromedriverchrome-compatibility). Make sure to download the compatible version with Chrome on your testing devices. 
 
-3. Specify the Chromedriver version in the session. Go to **Project > Settings > Desired Capabilities > Mobile > Android** and add this property:
+2. Specify the Chromedriver version in the session. Go to **Project > Settings > Desired Capabilities > Mobile > Android** and add this property:
 
-   **chromedriverExecutable**: Support specifying Chromedriver version in session capabilities.
+   <table>
+   <thead>
+      <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Value</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+      <td>chromedriverExecutable(*)</td>
+      <td>String</td>
+      <td><code>&lt;path-to-your-chromedrive&gt;</code> (**)</td>
+      </tr>
+   </tbody>
+   </table>
 
-   **path_to_my_chromedriver**: full path to the downloaded Chromedriver version from Step 1.
+   (*) chromedriverExecutable: Support specifying Chromedriver version in session capabilities.
 
-   Example:
+   (**)`<path-to-your-chromedrive>`: full path to the Chromedriver executable downloaded from Step 1. For example: `/Users/katalon.team/node_modules/appium-chromedriver/chromedriver/mac/chromedriver_mac64_v96.0.4664.45`.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/set-up-android-in-Dc.png" width="70%" alt="Set up Android in Desired Capabilities">
+   <a class="pop">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/KS-HYBRID-Set-Chrome-executable-path.png" width="70%" alt="Set up Android in Desired Capabilities">
+   </a>
+   <p style="text-align: center;"><em>Click the image to enlarge it.</em></p>
 
+## Capture elements in hybrid Android apps
 
-4. Create a New Test Case. Go to **File > New > Test Case**.
-5. From the main toolbar in the blank Test Case page, click **Record Mobile** and select **Android Devices**. 
+1. Create a new test case. Go to **File > New > Test Case**.
+2. From the main toolbar in the blank test case page, click **Record Mobile** and select **Android Devices**. 
    To learn more about the Record Mobile utility, you can refer to this document [Record Mobile Utility](https://docs.katalon.com/katalon-studio/docs/record-mobile-utility.html).
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/Open-mobile-record.png" width="30%" alt="Open Mobile Record">
 
-6. In the pop-up **Mobile Recorder** dialog, specify the information in the **Configuration** section, then click **Start** to begin recording the application under test (AUT).
+3. In the pop-up **Mobile Recorder** dialog, specify the information in the **Configuration** section, then click **Start** to begin recording the application under test (AUT).
    
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/Start-mobile-record.png" width="50%" alt="Start Mobile Record">
 
-   >
-   > **Note**
-   >
-   > If your application begins in a WebView, and you don't want to open the AUT in the `NATIVE_APP` context, go to **Project > Settings > Desired Capabilities > Mobile > Android** to set `autoWebview` to `true` in **Desired capabilities**.
-   >
-   > With this setting, the AUT automatically enters the `WEBVIEW` context on session start. Skip **Step 6,7,8** and move to **Step 9** to continue to automate your hybrid app.
-   >
-   >
+   > Notes:
+   > * If your application begins in a WebView, and you don't want to open the AUT in the `NATIVE_APP` context, go to **Project > Settings > Desired Capabilities > Mobile > Android** to set `autoWebview` to `true` in **Desired capabilities**.
+   > * With this setting, the AUT automatically enters the `WEBVIEW` context on session start. Skip Step 4,5,6 and move to Step 7 to continue to automate your hybrid app.
 
-7. By default, the Record Utility starts the AUT in the `NATIVE_APP` context. Set to the `WEBVIEW` context by using the `switchToWebView` mobile keyword. More information here: [[Mobile]switchToWebView](https://docs.katalon.com/katalon-studio/docs/mobile-switch-to-web-view.html#example)
+4. By default, the Record Utility starts the AUT in the `NATIVE_APP` context. Set to the `WEBVIEW` context by using the `switchToWebView` mobile keyword. More information here: [[Mobile]switchToWebView](https://docs.katalon.com/katalon-studio/docs/mobile-switch-to-web-view.html#example)
 
-   In the main toolbar, click **Add > Mobile keyword** > a new command line appears > manually add the `switchToWebview` mobile keyword.
+   In the main toolbar, click **Add > Mobile keyword**. A new command line appears, then manually add the `switchToWebview` mobile keyword.
 
    ```groovy
    //to set context to WebView
@@ -55,16 +71,16 @@ Do as follows:
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/add-webview-mobile-keyword.001.jpeg" width="70%" alt="Add switch to Webview">
 
-8. Click **Save Script**. An open dialog asks you to save captured objects into the Object Repository of Katalon Studio. Click **OK** to save recorded actions and objects. 
+5. Click **Save Script**. An open dialog asks you to save captured objects into the Object Repository of Katalon Studio. Click **OK** to save recorded actions and objects. 
 
-9. In the new test case saved from step 7, do as follows:
+6. In the new test case saved from step 5, do as follows:
    - Switch to the Script tab.
    - Remove command line **Close Application**. 
    - Run the test script.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/results-after-recording-mobile-test.png" width="70%" alt="Results after recording mobile test">
 
-10. Next, open Chrome Browser and navigate to **chrome://inspect/#devices**.
+7. Next, open Chrome browser and navigate to **chrome://inspect/#devices**.
       The **chrome://inspect** page displays:
       - The name of your Android testing device.
       - The version of Chrome that's running on the device, with the version number in parentheses.
@@ -79,7 +95,7 @@ Do as follows:
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/Chrome-Devtools.png" width="70%" alt="Debug-enabled Webviews in Devtools">
 
 
-11. Return to Katalon Studio. Create and automate objects in your test with inspected elements from Step 10. To learn more about creating test objects in Webview, you can refer to this document [Web Test Object](https://docs.katalon.com/katalon-studio/docs/manage-web-test-object.html#in-manual-view).
+8. Return to Katalon Studio. Create and automate objects in your test with inspected elements from Step 7. To learn more about creating test objects in Webview, you can refer to this document [Web Test Object](https://docs.katalon.com/katalon-studio/docs/manage-web-test-object.html#in-manual-view).
    
       In case you are defining test objects programmatically, you can use the following sample code in the script tab of your test:
       
@@ -94,18 +110,14 @@ Do as follows:
       // to add the object's property inspected from step 10
       cdmDetails.addProperty("id", ConditionType.EQUALS, "119")
       WebUI.setText(cdmDetails, "123")
-
       ```
 
-      If you wish to stop automating in the `WEBVIEW` context and go back to automate the native portion of the app, use the `switchToNative`. More information here: [[Mobile]switchToNative](https://docs.katalon.com/katalon-studio/docs/mobile-switch-to-native.html) mobile keyword.
+      If you wish to stop automating in the `WEBVIEW` context and go back to automate the native portion of the app, use the `switchToNative` mobile keyword. More information here: [[Mobile]switchToNative](https://docs.katalon.com/katalon-studio/docs/mobile-switch-to-native.html) mobile keyword.
 
       ```groovy
-
       // to switch back to the native mode.
       Mobile.switchToNative()
-
       ```
-
-   ## See also
+## See also
 
    * [Flutter-based application testing with SetText custom keyword](https://docs.katalon.com/katalon-studio/docs/flutter-based-application-testing.html)
