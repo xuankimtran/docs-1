@@ -174,7 +174,7 @@ description:
 
 (**) We offer some workarounds here: 
 - [Capture elements in hybrid Android apps](https://docs.katalon.com/katalon-studio/docs/capture-elements-in-hybrid-android-apps.html).
-- [Flutter-based application testing with custom SetText keyword](https://docs.katalon.com/katalon-studio/docs/flutter-based-application-testing.html)
+- [Flutter-based application testing with custom SetText keyword](https://docs.katalon.com/katalon-studio/docs/flutter-based-application-testing.html).
 
 ## Windows
 
