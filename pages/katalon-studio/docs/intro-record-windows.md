@@ -3,92 +3,89 @@ title: "Introduction to Windows Record Utility"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/intro-record-windows.html 
 ---
-From **version 7.0**, you can record a test on a Windows desktop application.
 
-From **version 7.7.5**, you can record and locate a Windows element by its relative coordinates. The `clickElementOffset` and `rightClickElementOffset` keywords are available and their buttons are supported in **Possible Actions**.
-* [[Windows] Click Element Offset](https://docs.katalon.com/katalon-studio/docs/windows-kw-click-element-offset.html)
-* [[Windows] Right-click Element Offset](https://docs.katalon.com/katalon-studio/docs/windows-kw-rightclick-element-offset.html)
+Katalon Studio provides the Windows record utility that allows you to record and playback actions performed in a Windows desktop application. With this utility, you can quickly create a test case, and later manually enhance the test.
 
-## Windows Action Recorder
+This article introduces you to the Windows record utility in Katalon Studio.
 
-To start recording a Windows action, click **Record Windows Action** icon on the main toolbar of Katalon Studio.
+> **Requirements**:
+>
+> * Katalon Studio version 7.0 onwards.
+> * WinAppDriver is running on the test machine. To learn how to set up and run WinAppDriver, see: [Set up WinAppDriver](https://docs.katalon.com/katalon-studio/docs/setup-winappdriver.html).
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/introduction-desktop-app-testing/Windows_Record_Action.png" width="600.5" height="65">
+> **Notes**:
+> 
+> From version 7.7.5, you can record and locate a Windows element by its relative coordinates. 
+## The Windows record utility
 
-The `Windows Action Recorder` dialog box is basically similar to the one for [`Mobile Recorder`](https://docs.katalon.com/katalon-studio/docs/record-mobile-utility.html) and has the following components:
+To open the utility, from the main toolbar, click on **Record Windows Action**.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-windows-actions/windows-recorder.png" width="1171" height="746">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/introduction-desktop-app-testing/Windows_Record_Action.png" width=70% alt="Windows Record Action icon">
 
-### Action Bar
+The **Windows Action Recorder** dialog box is displayed as below:
 
-The Action Bar located on the top left corner contains the **Refresh screen**, **Start** and **Stop** buttons.
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-windows-actions/action%20toolbar.png" width="384" height="52">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-windows-actions/windows-recorder.png" width=100% alt="Windows Action Recorder dialog">
 
 ### Configurations
 
-**Configuration**: where you can view and edit the `WinAppDriver URL` and `Desired Capabilities`.
+In the **CONFIGURATIONS** section, you can specify:
 
-**Application File**: the absolute path to the `Windows Executable File (*.exe)` of the testing machine. For Windows users, click **Browse...** button to locate the application file.
+* **Configuration**: the WinAppDriver URL and desired capabilities.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-windows-actions/record-config.png" width="386" height="84">
+* **Application File**: the absolute path to the Windows executable file (*.exe) of the testing machine. For Windows users, click on the **Browse...** button to locate the application file.
 
-The **Start** button is enabled after the Application File text box is filled.
+### Recorded actions
 
-### Recorded Actions
+After you interact with the application under test (AUT) using the built-in actions, the recorded actions are displayed in the **Recorded Actions** tab.
 
-The **Recorded Actions** part shows all of the recorded built-in actions for interacting with the application.
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-windows-actions/recorded-action.png" width=70% alt="Recorded Actions tab">
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-windows-actions/recorded-action.png" width="390" height="192">
+### Captured objects
 
-### Catured Objects
+During a recording session, the captured Windows objects are displayed in the **Captured Objects** tab. You can view and edit the object name, locator and properties.
 
-The **Captured Objects** part stores all objects captured during the recording session. You can view and edit the object's name, locator and properties.
+<img src="https://github.com/katalon-studio/docs-images/raw/e9378ee5895411e9fbdb2d78335d333368698f30/katalon-studio/docs/record-windows-actions/record-captured-object.png" width=70% alt="Captured Objects tab">
 
-<img src="https://github.com/katalon-studio/docs-images/raw/e9378ee5895411e9fbdb2d78335d333368698f30/katalon-studio/docs/record-windows-actions/record-captured-object.png" width="392" height="574">
+You can modify the locator of an object in **Object Properties** and click **Highlight** to verify if the new locator correctly identifies the associated object.
 
-To customize the locator of a captured object, you can modify its locator in **Object Properties** and click **Highlight** to verify if the new locator correctly identifies the intended object.
+In the **Recorded Actions** tab, you can also view the captured objects in the **Object** column.
 
-In the Recorded Actions, you can also view the captured objects in the Object column.
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-windows-actions/record-object-recorded-action.png" width="389" height="154">
-
-> When you press the **OK** button at the bottom of the dialog box to finish the recording session, you will be asked to store all captured objects in the Object Repository.
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-windows-actions/record-object-recorded-action.png" width=70% alt="Recorded Actions tab">
 
 ### Screen View
 
-The **Screen View** is a panel showing the application screenshots that are taken when you press either the **Start** button to record or the **Refresh Screen** button to recapture the application images. Those screenshots and the application on a real machine are of the same size.
+The **Screen View** shows the application screenshots taken when you press either the **Start** button to record or the **Refresh Screen** button to recapture the application images. The size of a captured screenshot is the same as the displayed application window on the testing machine.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-windows-actions/record-screen-view.png" width="477" height="165">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-windows-actions/record-screen-view.png" width=70% alt="Screen view">
 
 ### Screen Objects
 
-The **Screen Objects** section shows a tree of all objects that you can interact with. This tree will be automatically refreshed after you press the **Refresh Screen** button.
+The **Screen Objects** section shows a tree of all Windows objects you can interact with. To update this tree view, you can press the **Refresh Screen** button.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-windows-actions/record-screen-object.png" width="322" height="325">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-windows-actions/record-screen-object.png" width=70% alt="Screen objects">
 
-The selected object is highlighted on the Screen View with a green rectangle surrounding it.
+The selected object is highlighted with a green border on the **Screen View**.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-windows-actions/screenview.png" width="633" height="223">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-windows-actions/screenview.png" width=70% alt="Object highlighted in the Screen View">
 
 ### Possible Actions
 
-The **Possible Actions** section shows a list of action buttons. Each button represents a Windows action.
+The **Possible Actions** provides the built-in Windows actions that you can use to interact with the AUT.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-windows-actions/record-possible%20actions.png" width="314" height="160">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-windows-actions/record-possible%20actions.png" width=70% alt="Possible actions">
 
-There are two types of Windows actions, including object action and application action.
+There are two types of Windows actions:
 
-* Object action: an action requiring you to select an object on the **Screen Objects** to perform the action.
+* Object action: an action that you can perform on a specific Windows object. This type of action requires you to first select the target object on the **Screen Objects**, e.g., performing the *Click* action on a menu item.
 
-* Application action: an action for interacting with the application.
+* Application action: an action for interacting with the application, e.g., the *Close Application* action.
 
 ## Export Option
 
-When you finish the recording session, there are 3 options to export the recorded actions to a test case:
+When you finish the recording session, there are three options to export the recorded actions to a test case:
 
-* Export to new test case (chosen by default).
-* Append to test case
-* Overwrite test case
+* Export to new test case (selected by default).
+* Append to test case.
+* Overwrite test case.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-windows-actions/Record-export-to-new-tc.png" width="492" height="192">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-windows-actions/Record-export-to-new-tc.png" width=70% alt="Export actions dialog">
