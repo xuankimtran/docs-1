@@ -16,7 +16,7 @@ description:
 ---
 
 
-> * Katalon Studio (KS) provides free, basic tools suitable for the testing needs of individuals. For an advanced business solution, you can purchase Katalon Studio Enterprise (KSE) licenses. For feature comparison between KS and KSE, you can refer to this document: [Katalon Studio vs Katalon Studio Enterprise Features](https://docs.katalon.com/katalon-studio/docs/katalon-studio-vs-katalon-studio-enterprise.html). 
+> * Katalon Studio (KS) provides free, basic tools suitable for the testing needs of individuals. For an advanced business solution, you can purchase Katalon Studio Enterprise (KSE) licenses. To compare features between KS and KSE, you can refer to this document: [Katalon Studio vs Katalon Studio Enterprise Features](https://docs.katalon.com/katalon-studio/docs/katalon-studio-vs-katalon-studio-enterprise.html). 
 > * Katalon Runtime Engine (KRE) is the test execution add-on of Katalon Studio. KRE allows you to execute tests in a command-line interface (CLI).
 
 ## System requirements
@@ -170,7 +170,7 @@ description:
 </tbody>
 </table>
 
-(*) To handle the hybrid app, you can refer to the Appium document here: [Automating hybrid apps](http://appium.io/docs/en/writing-running-appium/web/hybrid/#automating-hybrid-apps).
+(*) To handle hybrid apps, you can refer to the Appium document here: [Automating hybrid apps](http://appium.io/docs/en/writing-running-appium/web/hybrid/#automating-hybrid-apps).
 
 (**) We offer some workarounds here: 
 - [Capture elements in hybrid Android apps](https://docs.katalon.com/katalon-studio/docs/capture-elements-in-hybrid-android-apps.html).
@@ -178,7 +178,7 @@ description:
 
 ## Windows
 
-Katalon Studio fully supports automation test for desktop apps written in the following platforms: 
+Katalon Studio fully supports automation testing for desktop apps written in the following platforms: 
 
 - Universal Windows Platform (UWP)
 - Windows Forms (WinForms)
