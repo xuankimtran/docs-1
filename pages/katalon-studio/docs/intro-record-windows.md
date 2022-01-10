@@ -1,28 +1,25 @@
 ---
-title: "Introduction to Windows Record Utility" 
+title: "Windows Record Utility" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/intro-record-windows.html 
 ---
 
 Katalon Studio provides the Windows record utility that allows you to record and playback actions performed in a Windows desktop application. With this utility, you can quickly create a test case, and later manually enhance the test.
 
-This article introduces you to the Windows record utility in Katalon Studio.
+This article introduces you to the components of the Windows record utility in Katalon Studio.
 
 > **Requirements**:
 >
 > * Katalon Studio version 7.0 onwards.
 > * WinAppDriver is running on the test machine. To learn how to set up and run WinAppDriver, see: [Set up WinAppDriver](https://docs.katalon.com/katalon-studio/docs/setup-winappdriver.html).
 
-> **Notes**:
-> 
-> From version 7.7.5, you can record and locate a Windows element by its relative coordinates. 
 ## The Windows record utility
 
 To open the utility, from the main toolbar, click on **Record Windows Action**.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/introduction-desktop-app-testing/Windows_Record_Action.png" width=70% alt="Windows Record Action icon">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/introduction-desktop-app-testing/KS-Record-Windows-Action-button.png" width=30% alt="Spy Windows Objects icon">
 
-The **Windows Action Recorder** dialog box is displayed as below:
+The **Windows Action Recorder** dialog is displayed as below:
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-windows-actions/windows-recorder.png" width=100% alt="Windows Action Recorder dialog">
 
