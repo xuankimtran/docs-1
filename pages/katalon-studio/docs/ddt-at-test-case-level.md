@@ -103,7 +103,7 @@ In this section, we demonstrate how to execute the associated test cases in:
 
 - A suite test case
 - A dynamic test suite
-### Conduct data binding in a suite test case
+### Conduct data binding at the suite test case level
 
 1. Add the above test case to a test suite.
 2. To conduct **Data Binding**, in the test suite editor, click **Show Data Binding**. 
@@ -125,7 +125,7 @@ In this section, we demonstrate how to execute the associated test cases in:
     <tbody>
       <tr>
       <td>Use Variables and Binding at Test Case</td>
-      <td>With this option:<br>- Katalon executes the test suite with the data binding at the test case level.<br>- To edit the data binding at the test case level, click the <strong>Test Case</strong> hyperlink. By doing so, the users are transitted to the associated test case.<br><p style="text-align: center;"><a class="pop"><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-test-case-level/KS-DDT-Click-TC-hyperlink.gif" width="70%" alt="Choose the Use Variables and Binding at Test Case option"></a><br><em>Click the image to enlarge it.</em></p></td>
+      <td>With this option:<br>- Katalon executes the test suite with the data binding at the test case level.<br>- To edit the data binding at the test case level, click the <strong>Test Case</strong> hyperlink. By doing so, the users are transitted to the associated test case.<br><p style="text-align: center;"><a class="pop"><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-test-case-level/KS-DDT-Click-TC-hyperlink.gif" width="70%" alt="Choose the Use Variables and Binding at Test Case option"></a><br><em>Click the gif to enlarge it.</em></p><br>- While selecting the <strong>Use Variables and Binding at Test Case</strong> option, the data binding at the suite test case level is disabled.<br><p style="text-align: center;"><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-test-case-level/KS-DDT-Warning-at-TC-level.png" width="70%" alt="Choose the Use Variables and Binding at Test Case option"></p></td>
       </tr>
       <tr>
       <td>Use Variables and Binding at Suite Test Case</td>
@@ -135,7 +135,6 @@ In this section, we demonstrate how to execute the associated test cases in:
     </table>
         
     > Notes:
-    > * While selecting the **Use Variables and Binding at Test Case** option, the data binding at the suite test case level is disabled.
     > * In case your test suite has existing data configurations, switching to the **Use Variables and Binding at Test Case** option does not remove the preconfigured data in the suite test case.
 
 4. When you are done with the configuration, hit **Run** to execute your test suite. 
