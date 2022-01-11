@@ -5,10 +5,12 @@ permalink: katalon-studio/docs/detect_elements_xpath.html
 redirect_from:
     - "/katalon-studio/tutorials/detect_elements_xpath.html"
 ---
-Detecting UI elements of the application under test (AUT) is crucial for automation testing since they are the main objects in test cases and test scripts. However, identifying them manually requires much time and experience in HTML. This task becomes even more challenging for objects that could not be identified by their common attributes or are located deep within another element (nested objects). This article shows you how Katalon Studio provides supports to deal with such cases.
 
-What is XPath?
---------------
+Detecting UI elements of the application under test (AUT) is crucial for automation testing since they are the main objects in test cases and test scripts. However, identifying them manually requires much time and experience in HTML. This task becomes even more challenging for objects that could not be identified by their common attributes or are located deep within another element (nested objects). 
+
+This article shows you how Katalon Studio provides supports to deal with such cases.
+
+## What is XPath?
 
 XPath expression is a mechanism for navigating through and selecting a node in the XML document. It can also be used to locate an HTML element.
 
@@ -28,13 +30,11 @@ For example, the **Download** link in the script below is an element nested in a
 
 ```
 
-Issue in identifying nested elements
-------------------------------------
+## Issue in identifying nested elements
 
-It is difficult to identify a nested element, such as the <a> element in the script above. In order to define the XPath manually, we need to have solid knowledge about DOM structure of the webpage.
+It is difficult to identify a nested element, such as the `<a>` element in the script above. In order to define the XPath manually, we need to have solid knowledge about DOM structure of the webpage.
 
-How to identify nested elements?
---------------------------------
+## How to identify nested elements?
 
 Identifying XPath is an effective way to find nested elements which can't be identified by common properties such as **ID**, **Name**, or **Class.** There are two ways to find XPath:
 
@@ -46,8 +46,7 @@ The example below illustrates how Katalon Studio generates and optimizes XPath a
 
 ![detecting elements with Xpath by Katalon Studio](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/detect_elements_xpath/Sign-up-now.png)
 
-Deal with dynamically changing elements
----------------------------------------
+## Deal with dynamically changing elements
 
 One of the challenging and time-consuming tasks in test automation is to modify test scripts when the AUT is changed, especially in the early stages of software development. Developers may change identifiers and elements quite often from one build to another. In addition, during the execution, the AUT's elements may change dynamically.
 
