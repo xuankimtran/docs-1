@@ -4,18 +4,18 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/web-selection-methods.html
 ---
 
-Katalon Studio allows you to choose different strategies to locate WebUI objects.
+This article guides you through how to choose different strategies to locate WebUI objects in Katalon Studio.
+
+## Configure Test Design
 
 To set the default selection method used in Spy/Recorder of a project:
 
-* From 7.6 onwards: Go to **Project/Settings/Self-healing/Web UI/Test Design**
-* From 7.6 backward: Go to **Project/Settings/Test Design/Web Locators**
+* From 7.6.0 onwards: Go to **Project > Settings > Test Design > Web UI**
+* From 7.6.0 backward: Go to **Project > Settings > Test Design > Web Locators**
 
-Regarding XPath, you can additionally set the priority of XPath locators while with Attributes, you can decide which object properties to be used for recognizing objects.
+Regarding XPath, you can set the priority of XPath locators while with Attributes, you can decide which object properties to be used for recognizing objects.
 
-You're allowed to override the global settings above in a specific object. Open an object's view, configure a selection method used for this object particularly.
-
-## Configure Test Design
+You're allowed to override the global settings above in a specific object. Open an object view, configure a selection method used for this object particularly.
 
 Go to **Project > Settings > Test Design > Web UI**, select one of the provided options to decide the default selection method used during spying and recording. Katalon Studio supports:
 
