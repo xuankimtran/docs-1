@@ -10,10 +10,9 @@ redirect_from:
 description: 
 ---
 
-> From Katalon Studio version 8.0.0 onwards, MySQL JDBC Driver is removed from Katalon Studio built-in libraries. To continue using it, you can refer to this document: [Implement DDT MySQL](https://docs.katalon.com/katalon-studio/tutorials/how-to-implement-ddt-mysql.html).
+> From Katalon Studio version 8.0.0 onwards, MySQL JDBC driver is removed from Katalon Studio built-in libraries. To continue using it, you can refer to this document: [Implement DDT MySQL](https://docs.katalon.com/katalon-studio/tutorials/how-to-implement-ddt-mysql.html).
 
-This document gives you information on which database can be used for Data-driven testing and how to set up the database connection in Katalon Studio.
-
+This document gives you information on which database can be used for data-driven testing and how to set up the database connection in Katalon Studio.
 ## Introduce database connection
 
 To do data-driven testing with a database, you can define a database connection that can be used for the whole project and override this global configuration in a test data file later.
@@ -136,16 +135,20 @@ To establish a connection, go to **Project > Settings > Database**. In **Databas
 
 ## Connect to a database with an external JDBC driver
 
-This section provides a usage example by connecting to MariaDB, a database with an external JDBC driver.
+This section demonstrates how to set up the connection to a database with an external JDBC driver.
 
 > Requirements:
-> - You have already set up MariaDB.
-> - MariaDB is running.
+> - You have already set up an external JDBC driver.
+> - The external JDBC driver is running.
 > - An active Katalon Studio Enterprise license.
 
 To start the connection:
 
-1. Download the executable .jar file of the MariaDB library. You can download the MariaDB library in the Maven Repository website here: [MariaDB Java Client](https://mvnrepository.com/artifact/org.mariadb.jdbc/mariadb-java-client).
+1. Download the executable .jar file of the external JDBC driver. For example, we want to connect to the MariaDB Java Client driver, we download the executable .jar file of the MariaDB library from the Maven Repository website here: [MariaDB Java Client](https://mvnrepository.com/artifact/org.mariadb.jdbc/mariadb-java-client).
+
+	> Notes:
+	> * From Katalon Studio version 8.2.5 onwards, you can set up the connection with the SAP HANA JDBC driver. Download the executable .jar file of the SAP HANA library in the Maven Repository website here: [SAP HANA JDBC Driver](https://mvnrepository.com/artifact/com.sap.cloud.db.jdbc/ngdbc).
+
 2. Go to **Project** > **Settings** > **Library Management** to **Add** the jar file > click **Apply**.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/KS-DATABASE-Connect-external-library.png" width=65% alt="Add anexternal JDBC driver">
