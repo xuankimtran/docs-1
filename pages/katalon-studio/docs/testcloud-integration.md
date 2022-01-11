@@ -89,7 +89,9 @@ To run TSC with TestCloud, follow these steps:
 
 3. Double click on the **Run Configuration** column to open the **TestCloud Configuration** dialog.
 
-    The **TestCloud Configuration (Beta)** dialog appears.
+    The **TestCloud Configuration (Beta)** dialog appears as below.
+
+     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/studio-integration/tc-config-dialog-run-public.png" width=100% alt="tc config dialog">
 
 4. Select the OS, browser and its version in the **Configuration** section.
 
@@ -119,7 +121,7 @@ For detailed information on the TestCloud Tunnel and how to utilize it, see [Tes
 Follow these steps:
 
 1. Open the **TestCloud Configuration (Beta)** dialog.
-2. Check **Execute with Tunnel for private domain testing** box.
+2. Make sure the **Execute with Tunnel for private domain testing** box is checked.
 
     You will see a message in red as follows:
 
@@ -137,11 +139,27 @@ Follow these steps:
     * Step 2: Open the CLI, copy the command line from the dialog, then run it in the CLI.
     
         For example, the command line is `./kt config --tenant KatalonStudio --username "your_username" --organization-id "your_organization_id" --api-key "your_api_key"`.
+
+        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/studio-integration/windows-cmd-tunnel-config.png" width=100% alt="kt config cmd">
     
         You have set up the tunnel client in your local machine.
 
-    * Step 3: Copy the command line in the dialog and paste it into your CLI to start the tunnel.
+    * Step 3: Copy the command line in the dialog and run it in your CLI to start the tunnel.
 
         For example, the command line is `./kt start`.
 
-After starting the tunnel, go back to KS and you can now run tests in private domains.
+        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/studio-integration/setup-tunnel-studio.png" width=100% alt="kt start">
+
+    > Notes:
+    >
+    > Keep your CLI (cmd/terminal) open until you have finished running tests.
+
+5. Go back to KS.
+
+    Once you have started the tunnel in your local machine, the tunnel status on the **Tunnel Setup Helper** dialog is *Available*.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/studio-integration/tc-config-tunnel-setup-available.png" width=100% alt="tunnel setup helper">
+
+    > Notes:
+    >
+    > You can also click on the **Refresh** button to make sure the tunnel is available.
