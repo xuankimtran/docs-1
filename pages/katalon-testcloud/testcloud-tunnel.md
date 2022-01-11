@@ -9,14 +9,14 @@ description: Introducing TestCloud Tunnel and how to utilize it
 
 A tunnel is used to secure the movement of data from one network to another.
 
-A TestCloud Tunnel enables a secure connection to local resources so that users can test their software/application in a restricted environment, avoiding unwanted external access from the global network.
+TestCloud Tunnel enables a secure connection to local resources so that users can test their software/application in a restricted environment, avoiding unwanted external access from the global network.
 
-A TestCloud Tunnel can:
+TestCloud tunnel services can:
 
-* Scale up in accordance with the team size and user's needs.
-* Reduce latency to a minimum by deploying the QUIC protocol.
-* Prevent overload and crashes with multiple tunnel clients at the user's disposal.
-* Provide a top-notch security by limiting access to authorized users with API keys only.
+* Scale up with team size and work requirements.
+* Reduce latency to a minimum by deploying the QUIC technology.
+* Prevent overload and crashes when running many tunnel clients.
+* Provide security by limiting access to authorized users with API keys.
 * Optimize performance by enabling the usage of multiple Edge-servers for running multiple concurrent tests.
 
 ### How does TestCloud Tunnel work?
@@ -25,7 +25,7 @@ Once TestCloud clients have installed the tunnels in the machines which have acc
 
 A tunnel client spins up a fresh virtual machine (VM) that is used only for testing.
 
-By default, a TestCloud Tunnel is closed after 30 minutes if there is no request or traffic (i.e. the tunnel is idle for 30 minutes). Consequently, the VM is shut down.
+By default, the tunnel is closed after 30 minutes if there is no request or traffic (i.e. the tunnel is idle for 30 minutes). Consequently, the VM is shut down.
 
 To start the tunnel again, you start the run command in the tunnel client.
 
@@ -39,7 +39,7 @@ After starting the run command line, the tunnel client connects you to the TestC
 
 We recommend the following practices to optimize your tunnel usage:
 
-* Use a single TestCloud Tunnel or tunnel pool for each test suite or build, then tear it down at the end of your test.
+* Use a single tunnel or tunnel pool for each test suite or build, then tear it down at the end of your test.
 
     > Notes:
     >
