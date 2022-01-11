@@ -53,11 +53,9 @@ Users can easily determine which type of information to be displayed by using th
 | Error | Show only iterations having errors. |
 | Incomplete | Show only incomplete iterations |
 
-By selecting an iteration in the **Test Case Table** and click **Show Test Case Details**, you can view details regarding its executed logs.
-
 If qTest and JIRA are configured in project settings, you can submit data to those systems. To learn more about qTest and Jira integration, you can refer to the following documents:
-- [qTest Integration](https://docs.katalon.com/katalon-studio/docs/qtest-integration.html).
-- [JIRA Integration](https://docs.katalon.com/katalon-studio/docs/jira-integration.html).
+- [qTest Integration](https://docs.katalon.com/katalon-studio/docs/qtest-integration.html)
+- [JIRA Integration](https://docs.katalon.com/katalon-studio/docs/jira-integration.html)
 
 ### Test suite summary
 
@@ -75,7 +73,7 @@ This section gives the summary information of the test suite:
 
 ### Test case log details
 
-To see all information of the selected iteration, click **Show Test Cases Details**.
+To view details of the executed logs, in the **Test Case Table**, select an iteration and click **Show Test Case Details**.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-suite-report/KS-REPORT-Show-test-case-details.png" width="80%" alt="Show Test Cases Details"> 
 
@@ -85,7 +83,7 @@ To see all information of the selected iteration, click **Show Test Cases Detail
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-suite-report/image2017-2-24-203A293A56.png" width="80%" alt="Test log tab"> 
 
-    <table><thead><tr><th>Component</th><th>Description</th></tr></thead><tbody><tr><td>Log Information</td><td>Information of the test step selected in the <strong>Test Case's Log</strong> section:<ul><li>The <strong>Name</strong> of the test step (the name of the keyword used in the test step)</li><li>Execution <strong>Start/End</strong> date time and duration</li><li>The <strong>Description</strong> of the test step</li><li>Any system <strong>Message</strong> raised when the test step was executed</li></ul></td></tr><tr><td>Log Image</td><td><p>The screenshot taken from the application under test, it is captured in either of following situations:</p><ul><li>An error occurs during test execution</li><li>The <a class="external-link" href="/display/KD/%5BWebUI%5D+Take+Screenshot" rel="nofollow">Take Screenshot</a> keyword is used</li></ul></td></tr></tbody></table>
+    <table><thead><tr><th>Component</th><th>Description</th></tr></thead><tbody><tr><td>Log Information</td><td>Information of the test step selected in the <strong>Test Case's Log</strong> section:<ul><li>The <strong>Name</strong> of the test step (the name of the keyword used in the test step)</li><li>Execution <strong>Start/End</strong> date time and duration</li><li>The <strong>Description</strong> of the test step</li><li>Any system <strong>Message</strong> raised when the test step was executed</li></ul></td></tr><tr><td>Log Image</td><td><p>The screenshot taken from the application under test, it is captured in either of following situations:</p><ul><li>An error occurs during test execution</li><li>The <code>take screenshot</code> keyword is used. To learn more about the <code>take screenshot</code> keyword, you can refer to the following document: <a href="https://docs.katalon.com/katalon-studio/docs/webui-take-screenshot.html" target="_blank" rel="noopener noreferrer">[WebUI] Take Screenshot</a></li></ul></td></tr></tbody></table>
 
     Users can easily determine which type of information to be displayed by using the provided filters:
 
@@ -144,7 +142,7 @@ After executing a test suite collection, to see the test suite collection report
 | Environment | The environment which the test suite is executed on. |
 | Status | Information about whether the execution is completed or not. |
 | Failed Tests / Total | Total test cases in the test suite and the number of failed test cases if any. |
-| Test Suite Details | Click on this link to be redirected to detailed [report of the test suite](/display/KD/Test+Suite+Report). |
+| Test Suite Details | Shows test suite reports, see above: [Test suite reports](https://docs.katalon.com/katalon-studio/docs/test-suite-report.html#test-suite-report). |
 
 ## Report History
 
@@ -186,7 +184,7 @@ You can view the generated reports in `<project_folder>\\Reports\\<execution_fol
 
 Open the **Result** view of a Test Suite or a Test Suite Collection > on the top right corner, select **Export report** > choose a format to export.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/Basic%20Report/report%201.png" width="100%" alt="Manually export reports">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-suite-report/KS-REPORTS-Export-reports-manually.png" width="100%" alt="Manually export reports">
 
 > For Test Suite Collection, you can export to **HTML** format only.
 
@@ -199,14 +197,14 @@ import com.kms.katalon.core.configuration.RunConfiguration
 RunConfiguration.getReportFolder()
 ```
 
-You can also retrieve other information through the RunConfiguartion package, please refer to this documentation: **[RunConfiguration](https://api-docs.katalon.com/com/kms/katalon/core/configuration/RunConfiguration.html)**
+You can also retrieve other information through the RunConfiguartion package, please refer to this documentation: [RunConfiguration](https://api-docs.katalon.com/com/kms/katalon/core/configuration/RunConfiguration.html).
 
 ## Video Capturing
 
-> * [K-Lite Codec](https://www.codecguide.com/download_kl.htm) is recommended to play the Katalon Studio test execution video.
-> * Support execution at Test Suite level.
-> * Support all browsers **except for** Remote, Headless, Kobiton, Custom. For remote or headless browsers, it's recommended to use [Katalium Server](https://docs.katalon.com/katalium-server/docs/katalium-server-katalon-studio-remote-machine.html) to view captured sessions.
-> * Recording **parallel execution** is **NOT** supported yet
+> * K-Lite Codec is recommended to play the Katalon Studio test execution video. You can download K-Lite Codec in the Codec Guide website: [K-Lite Codec](https://www.codecguide.com/download_kl.htm). 
+> * Support execution at the test suite level.
+> * Support all browsers except for Remote, Headless, Kobiton, Custom. For remote or headless browsers, it's recommended to use [Katalium Server](https://docs.katalon.com/katalium-server/docs/katalium-server-katalon-studio-remote-machine.html) to view captured sessions.
+> * Recording parallel execution is NOT supported yet.
 
 Debugging can be time-consuming and challenging for many automation testers. Katalon Studio helps solve this problem by supporting users with the ability to capture test execution via video format. Users can enable video capturing feature in Project Settings.
 
