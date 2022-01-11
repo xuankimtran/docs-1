@@ -25,32 +25,33 @@ description: Release notes 8.x
 * [Security Compliance]:
     * Upgraded Netty library to netty-all 4.1.61.Final.
     * Upgraded jsoup library to jsoup 1.14.3.
-* Enabled the connection to the SAP HANA database.
+* Enabled the connection to the SAP HANA database. To set up SAP HANA database for Data-driven testing, download this executable jar file: [SAP HANA JDBC Driver](https://mvnrepository.com/artifact/com.sap.cloud.db.jdbc/ngdbc) and follow this tutorial: [Connect to a database with an external JDBC driver](https://docs.katalon.com/katalon-studio/docs/database-settings.html#connect-to-a-database-with-an-external-jdbc-driver).
 * Introduced the `xpath:customAttributes` in the web locator strategies. See [link]().
 * Introduced an option in the **Project Setting** to include/exclude timestamps in the .properties files. See [link].
 * [TestOps Integration]:
     * Removed the **Create Script Repository** and **Update Script Repository** options.
-    * Changed the UI in the **Katalon TestOps Integration** dialog. See [link]().
     * Turned on Katalon TestOps Integration by default for new Web and API users.
-* [License Activation]:
-    * Updated the **Server URL** in the Katalon Studio activation dialog and Katalon Runtime Engine information log.
-    * Changed UI text from **Deactivate** to **Log out**.
-* Improved the visibility of the search function. See [link].
+* [License Activation] Changed the Katalon license server to [https://admin.katalon.com/](https://admin.katalon.com/). For authentication, Katalon Studio and Katalon Runtime Engine would call this new server URL.
+* Improved the visibility of the search function. See [Search Test Cases](https://docs.katalon.com/katalon-studio/docs/search.html).
 * Removed unused messages in Test Object, Spy/Recorder, Test Suite Collection, and Test Suite.
-* [Dynamic Test Suite] Updated UI for the retry function in Dynamic Test Suite.
-* Changed the **Communication**, **Feedback**, and **Support Portal** button.
+* [UI changes]:
+    * [Dynamic Test Suite] Updated UI for the retry function in Dynamic Test Suite.
+    * Changed the **Communication**, **Feedback**, and **Support Portal** button.
+    * [TestOps Integration] Changed the UI in the **Katalon TestOps Integration** dialog. See [link]().
+    * [License Activation] Changed UI text from **Deactivate** to **Log out**.
 
 ### Fixes
 
 * Bug: Editing script and executing a test could intermittently cause the error: "java.lang.ClassFormatError: Truncated class file".
-* Bug: Missing screenshots in the qTest HTML report.
+* Bug: [qTest]Missing screenshots in the qTest HTML report.
+* Bug: [qTest] Could not run test suite right after configuring qTest integration.
 * Bug: Failed to update webdriver automatically when using custom desired capabilities.
 * Bug: [Katalon Runtime Engine] Not sending all Jira IDs test results in the Jira report when executing with Katalon Runtime Engine.
-* [On-Premises and Cloud Licensing Servers] Not showing the terminate session popup when deleting online licenses.
-* [Web Recorder] Lacked test steps in the Recorder Logs when playing back the test case.
-* Inside the **Log Viewer**, unable to navigate to a specific step by right-clicking on the step and choosing **Go to this step in Script View**.
-* [Docker Image] Unable to send email reports when running test script from Docker Image.
-* Could not run test suite right after configuring qTest integration.
+* Bug: [On-Premises and Cloud Licensing Servers] Not showing the terminate session popup when deleting online licenses.
+* Bug: [Web Recorder] Lacked test steps in the Recorder Logs when playing back the test case.
+* Bug: Inside the **Log Viewer**, unable to navigate to a specific step by right-clicking on the step and choosing **Go to this step in Script View**.
+* Bug: [Docker Image] Unable to send email reports when running test script from Docker Image.
+
 
 ## Version 8.2.0
 
