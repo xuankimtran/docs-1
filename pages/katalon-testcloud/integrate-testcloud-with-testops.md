@@ -37,12 +37,11 @@ Follow these steps:
 
 3. Select **TestCloud Test Environment** from the dropdown list in the **Test Environment Type** section.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/testops-integration/public-domains/test-environment-type-testcloud-beta-icon.png" width=100% alt="testcloud integrated in schedule test run dialog">
-
-    The **TestCloud** section appears.
-4. Select the OS and browsers you want to test in the **TestCloud** section, then click **Schedule**.
+    The **TestCloud** section appears as below.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/testops-integration/public-domains/beta-testcloud-browser-selections.png" width=100% alt="testcloud section in schedule test run dialog">
+
+4. Select the OS and browsers you want to test in the **TestCloud** section, then click **Schedule**.
 
     You will be directed to the **Test Run Types** page, where you can see the TestCloud Test Environment.
 
