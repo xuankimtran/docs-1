@@ -87,7 +87,7 @@ Follow these steps:
 			>
 			> To run tests with TestCloud Tunnel, check the **Execute with Tunnel for private domain testing** box and refer to [Configure TestCloud Tunnel](https://docs.katalon.com/katalon-studio/docs/testcloud-integration.html#configure-testcloud-tunnel) for detailed instruction.
 		
-   * **Authentication**: the API key is auto-filled by default.
+   * **Authentication**: the API key is auto-filled.
 
 > Notes:
 >
