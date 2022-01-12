@@ -46,6 +46,7 @@ To integrate TestCloud with KRE and configure TestCloud Tunnel, use the followin
 	</tbody>
 </table>
 
+
 ## Generate Command with Command Builder
 
 You can use Command Builder in Katalon Studio (KS) to generate commands quickly and precisely.
@@ -90,6 +91,10 @@ Follow these steps:
 
 	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/studio-integration/kre-generate-cmd-dialog.png" width=70% alt="generate cmd dialog">
 
-	The sample command is `./katalonc -noSplash -runMode=console -projectPath="/Users/xuan.tran/Katalon Studio/TW demo TC/test.prj" -retry=0 -testSuitePath="Test Suites/healthcare-tests - TS_RegressionTest" -browserType="TestCloud" -testcloudEnvironmentId="38" -testcloudTunnel="false" -executionProfile="default" -apiKey="your_api_key" -orgID=your_ogrID --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true`
+	For example, the sample command is:
 
+		``` groovy
+		./katalonc -noSplash -runMode=console -projectPath=“your_project_path” -retry=0 -testSuitePath=“your_test_suite_path” -browserType=“TestCloud” -testcloudEnvironmentId=“your_testcloud_id” -testcloudTunnel=“false” -executionProfile=“default” -apiKey=“your_api_key” -orgID=your_ogrID --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true
+		```
+		
 4. Click **Copy to Clipboard** and paste the command to your cmd/terminal for execution.
