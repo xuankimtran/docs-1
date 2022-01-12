@@ -87,14 +87,14 @@ Follow these steps:
 
 3. Click **Generate Command**.
 
-	The **Generated Command** dialog appears.
+	The **Generated Command** dialog appears as below.
 
 	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/studio-integration/kre-generate-cmd-dialog.png" width=70% alt="generate cmd dialog">
 
 	For example, the sample command is:
 
-		``` groovy
-		./katalonc -noSplash -runMode=console -projectPath=“your_project_path” -retry=0 -testSuitePath=“your_test_suite_path” -browserType=“TestCloud” -testcloudEnvironmentId=“your_testcloud_id” -testcloudTunnel=“false” -executionProfile=“default” -apiKey=“your_api_key” -orgID=your_ogrID --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true
-		```
+	```groovy
+	./katalonc -noSplash -runMode=console -projectPath=“your_project_path” -retry=0 -testSuitePath=“your_test_suite_path” -browserType=“TestCloud” -testcloudEnvironmentId=“your_testcloud_id” -testcloudTunnel=“false” -executionProfile=“default” -apiKey=“your_api_key” -orgID=your_ogrID --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true
+	```
 		
 4. Click **Copy to Clipboard** and paste the command to your cmd/terminal for execution.
