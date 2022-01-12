@@ -5,7 +5,7 @@ permalink: katalon-testcloud/docs/integrate-testcloud-with-testops.html
 description: Instructions on how to use TestCloud in TestOps
 ---
 
-Katalon TestCloud (Beta) is now available for seamless integration with Katalon TestOps.
+Katalon TestCloud (GA trial) is now available for seamless integration with Katalon TestOps.
 
 Current test environments require time and effort to set up and maintain while providing limited browser/operating system (OS) options. By contrast, with just a few clicks, you can easily set up a TestCloud Test Environment in Katalon TestOps for your test execution across browsers and OS.
 
@@ -21,9 +21,9 @@ TestCloud stabilizes the test results when you execute a massive number of paral
 
 > Requirements:
 >
-> You have joined the TestCloud Beta Testing program. Contact us at success@katalon.com for detailed information on how to join our Beta Testing program.
+> You have activated the TestCloud general availability trial (GA trial). Contact us at success@katalon.com for detailed information on the **free GA trial** package.
 
-Once you have joined our Beta Testing program, we will enable TestCloud in your TestOps account. You can then schedule your test runs on a TestCloud environment.
+Once you have joined the GA trial, we will enable TestCloud in your TestOps account. You can then schedule your test runs on a TestCloud environment.
 
 ## Run tests in public domains with TestCloud
 
@@ -78,6 +78,10 @@ Follow these steps:
 
 ### Configure the TestCloud Tunnel
 
+> Notes:
+>
+> For detailed information on TestCloud Tunnel and how to utilize it, see [TestCloud Tunnel](https://docs.katalon.com/katalon-testcloud/docs/testcloud-tunnel.html).
+
 After scheduling your test runs using a TestCloud Tunnel, you need to activate this TestCloud Tunnel to start test executions in private domains.
 
 Follow these steps:
@@ -124,7 +128,7 @@ You have successfully run tests in private domains using the TestCloud Test Envi
 
 Follow these steps:
 
-1. Go to **Settings** > **License Management**. 
+1. Go to **Settings** > **License Management**.
 
     The **Licenses** page appears.
 
