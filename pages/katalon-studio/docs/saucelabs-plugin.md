@@ -19,12 +19,12 @@ description: Guide to use the plugin to integrate Katalon Studio with Sauce Labs
 Download and install the **Sauce Labs Integration** plugin. You can download the plugin from the Katalon Store here: [Sauce Labs Integration](https://store.katalon.com/product/75/Sauce-Labs-Integration#pricing-content).
 
 To activate the plugin, navigate to Account Settings in Katalon Studio and click **Reload Plugin**.
-## Sauce Labs for Web testing
+## Sauce Labs for WebUI testing
 ### Create a Sauce Labs custom profile
 
 Go to **Project > Settings > Plugins > Sauce Labs Integration**. Enter your credentials and your desired Sauce Labs operating environments and systems, including: 
 
-* **API Key**: enter an API Key generated from the User Settings in Sauce Labs. For further details about retrieving the API key in Sauce Labs, you can refer to this Sauce Labs document: [User Settings](https://docs.saucelabs.com/basics/acct-team-mgmt/managing-user-info/#user-settings).
+* **API Key**: enter an API Key generated from the User Settings in Sauce Labs. You can refer to this Sauce Labs document for further details about retrieving the API key: [User Settings](https://docs.saucelabs.com/basics/acct-team-mgmt/managing-user-info/#user-settings).
 * **Username**: enter your username displayed in Sauce Labs.
 * **Browser's name**: enter your desired execution browser.
 * **Platform**: enter the operating system you want to execute with. By default, Katalon automatically generates your operating system.
@@ -104,12 +104,10 @@ You can see the test results are displayed as follows:
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/saucelabs-plugin/6-result.png" width="100%" alt="View test execution results in Sauce Labs">
 
-## Sauce Labs for Mobile testing and Hybrid application testing
+## Sauce Labs for mobile testing and hybrid application testing
 
-The plug-in provides you with an intuitive user interface to create Sauce Labs custom profiles for Web Testing. However you can still manually add properties that will make it possible for mobile and hybrid application testing. 
-
-To set up custom profiles for mobile and hybrid app testing, go to **Projects > Settings > Desired Capabilities > Custom**.
+To enable mobile and hybrid application testing with Sauce Labs profiles, you need to manually add capabilities in **Projects > Settings > Desired Capabilities > Custom**.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/saucelabs-plugin/KS-SAUCELABS-Add-saucelabs-profile-mobile-testing.png" width="70%" alt="Add custom profile for mobile testing">
 
-Then add capabilities to enable mobile and hybrid app testing in Sauce Labs. You can follow the Sauce Labs official document here: [Appium Testing with Real Devices](https://docs.saucelabs.com/mobile-apps/automated-testing/appium/real-devices/).
+Then add mobile and hybrid application testing capabilities in the Sauce Labs document here: [Appium Testing with Real Devices](https://docs.saucelabs.com/mobile-apps/automated-testing/appium/real-devices/).
