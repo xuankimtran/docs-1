@@ -31,8 +31,6 @@ Katalon Studio supports executing a single feature file with the `runFeatureFile
 
 > To learn more about tag expressions, refer to this Cucumber document: [Cucumber tag expression](https://cucumber.io/docs/cucumber/api/#tag-expressions).
 
-Depending on the type of tag parameter passed during the function call, the function is executed with the corresponding tag expression.
-
 ## Using the AND tag expression
 
 * **Description**: execute the scenarios associated with all the input tags.
@@ -40,41 +38,66 @@ Depending on the type of tag parameter passed during the function call, the func
 * **Keyword syntax**: runFeatureFileWithTags(relativeFilePath, tags, flowControl).
 * **Parameters**:
   * Name: relativeFilePath
-    * Description: the folder relative path that starts from the current project location.
-    * Parameter Type: String.
+    * Description: the relative path to the feature file that starts from the current project location.
+    * Parameter Type: `String`.
     * Mandatory: required.
   * Name: tags
-    * Description: an array of tag strings.
-    * Parameter Type: String[].
+    * Description: the tags of the scenarios that you want to execute.
+    * Parameter Type: `String`, `String[]`, or `String...` (Varargs).
     * Mandatory: required.
-  * Name: flowControl
-    * Description: an instance com.kms.katalon.core.model.FailureHandling that controls the running flow.
-    * Parameter Type: FailureHandling.
+  * Name: flowControl (only valid when tags are of `String[]` type)
+    * Description: an `instance com.kms.katalon.core.model.FailureHandling` that controls the running flow.
+    * Parameter Type: `FailureHandling`.
     * Mandatory: optional.
-* **Returns**: an instance of CucumberRunnerResult that includes the status of keyword and report folder location.
+* **Returns**: an instance of `CucumberRunnerResult` that includes the status of keyword and report folder location.
 * **Example**:
 
-```groovy
-CucumberKW.runFeatureFileWithTags("Include/features/New Feature File.feature", ['@tag1', '@tag2'] as String[], FailureHandling.STOP_ON_FAILURE)
-```
+  **Example #1**: tags of `String` type
+  ```groovy
+  CucumberKW.runFeatureFileWithTags("Include/features/New Feature File.feature", "@tag1 and @tag2")
+  ```
 
+  **Example #2**: tags of `String[]` type
+  ```groovy
+  String[] logTags = ["@tag1", "@tag2"] as String[]
+  CucumberKW.runFeatureFileWithTags("Include/features/New Feature File.feature", logTags, FailureHandling.STOP_ON_FAILURE)
+  ```
+
+  **Example #3**: tags of `String...` type (Varargs)
+  ```groovy
+  CucumberKW.runFeatureFileWithTags("Include/features/New Feature File.feature", "@tag1", "@tag2")
+  ```
 ## Using the OR tag expression
 
 * **Description**: execute the scenarios associated with one of the input tags.
 * **Keyword name**: runFeatureFileWithTags
-* **Keyword syntax**: runFeatureFileWithTags(relativeFilePath, tags)
+* **Keyword syntax**: runFeatureFileWithTags(relativeFilePath, tags, flowControl).
 * **Parameters**:
   * Name: relativeFilePath
-    * Description: the folder relative path that starts from the current project location.
-    * Parameter Type: String
+    * Description: the relative path to the feature file that starts from the current project location.
+    * Parameter Type: `String`
     * Mandatory: required
   * Name: tags
-    * Description: a string of tags, separated by commas.
-    * Parameter Type: String
+    * Description: the tags of the scenarios that you want to execute.
+    * Parameter Type: `String` or `String[]`.
     * Mandatory: required
-* **Returns**: an instance of CucumberRunnerResult that includes the status of keyword and report folder location.
+  * Name: flowControl (only valid when tags are of `String[]` type)
+    * Description: an instance `com.kms.katalon.core.model.FailureHandling` that controls the running flow.
+    * Parameter Type: `FailureHandling`.
+    * Mandatory: optional.
+* **Returns**: an instance of `CucumberRunnerResult` that includes the status of keyword and report folder location.
 * **Example**:
 
-```groovy
-CucumberKW.runFeatureFileWithTags("Include/features/New Feature File.feature", '@tag1, @tag2')
-```
+  **Example #1**: tags of `String` type
+  ```groovy
+  CucumberKW.runFeatureFileWithTags("Include/features/New Feature File.feature", "@tag1 or @tag2")
+  ```
+
+  **Example #2**: tags of `String[]` type
+  ```groovy
+  String[] logTags1 = ["@tag1, @tag2"] as String[]
+  CucumberKW.runFeatureFileWithTags("Include/features/New Feature File.feature", logTags1, FailureHandling.STOP_ON_FAILURE)
+  // Or 
+  String[] logTags2 = ["@tag1 or @tag2"] as String[]
+  CucumberKW.runFeatureFileWithTags("Include/features/New Feature File.feature", logTags2, FailureHandling.STOP_ON_FAILURE)
+  ```

@@ -39,22 +39,34 @@ Katalon Studio supports executing feature files in a folder with the `runFeature
 * **Parameters**:
   * Name: folderRelativePath
     * Description: the folder relative path that starts from the current project location.
-    * Parameter Type: String.
+    * Parameter Type: `String`.
     * Mandatory: required.
   * Name: tags
-    * Description: an array of tag strings.
-    * Parameter Type: String[].
+    * Description: the tags of the scenarios that you want to execute.
+    * Parameter Type: `String`, `String[]`, or `String...` (Varargs).
     * Mandatory: required.
-  * Name: flowControl
+  * Name: flowControl (only valid when tags are of `String[]` type)
     * Description: a `com.kms.katalon.core.model.FailureHandling` instance that controls the running flow.
-    * Parameter Type: FailureHandling.
+    * Parameter Type: `FailureHandling`.
     * Mandatory: optional.
-* **Returns**: an instance of CucumberRunnerResult that includes the status of keyword and report folder location.
+* **Returns**: an instance of `CucumberRunnerResult` that includes the status of keyword and report folder location.
 * **Example**:
 
-```groovy
-CucumberKW.runFeatureFolderWithTags('Include/features/BDD Cucumber Tests',['@tag1','@tag2'] as String[])
-```
+  **Example #1**: tags of `String` type
+  ```groovy
+  CucumberKW.runFeatureFileWithTags("Include/features/BDD Cucumber Tests/", "@tag1 and @tag2")
+  ```
+
+  **Example #2**: tags of `String[]` type
+  ```groovy
+  String[] logTags = ["@tag1", "@tag2"] as String[]
+  CucumberKW.runFeatureFileWithTags("Include/features/BDD Cucumber Tests/", logTags, FailureHandling.STOP_ON_FAILURE)
+  ```
+
+  **Example #3**: tags of `String...` type (Varargs)
+  ```groovy
+  CucumberKW.runFeatureFolderWithTags("Include/features/BDD Cucumber Tests/", "@tag1", "@tag2")
+  ```
 
 ## Using the OR tag expression
 
@@ -64,15 +76,25 @@ CucumberKW.runFeatureFolderWithTags('Include/features/BDD Cucumber Tests',['@tag
 * **Parameters**:
   * Name: folderRelativePath
     * Description: the folder relative path that starts from the current project location.
-    * Parameter Type: String.
+    * Parameter Type: `String`.
     * Mandatory: required.
   * Name: tags
-    * Description: a string of tags, separated by commas.
-    * Parameter Type: String.
+    * Description: the tags of the scenarios that you want to execute.
+    * Parameter Type: `String` or `String[]`.
     * Mandatory: required.
-* **Returns**: an instance of CucumberRunnerResult that includes the status of keyword and report folder location.
+* **Returns**: an instance of `CucumberRunnerResult` that includes the status of keyword and report folder location.
 * **Example**:
 
-```groovy
-CucumberKW.runFeatureFolderWithTags('Include/features/BDD Cucumber Tests', '@tag1, @tag2')
-```
+  **Example #1**: tags of `String` type
+  ```groovy
+  CucumberKW.runFeatureFolderWithTags("Include/features/BDD Cucumber Tests/", "@tag1 or @tag2")
+  ```
+
+  **Example #2**: tags of `String[]` type
+  ```groovy
+  String[] logTags1 = ["@tag1, @tag2"] as String[]
+  CucumberKW.runFeatureFolderWithTags("Include/features/BDD Cucumber Tests/", logTags1, FailureHandling.STOP_ON_FAILURE)
+  // Or 
+  String[] logTags2 = ["@tag1 or @tag2"] as String[]
+  CucumberKW.runFeatureFolderWithTags("Include/features/BDD Cucumber Tests/", logTags2, FailureHandling.STOP_ON_FAILURE)
+  ```
