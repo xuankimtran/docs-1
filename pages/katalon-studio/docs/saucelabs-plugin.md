@@ -31,46 +31,52 @@ Go to **Project > Settings > Plugins > Sauce Labs Integration**. Enter your cred
 * **Version**: enter the version of the operating system you want to execute with. By default, Katalon automatically generates the installed version of your operating system.
 * **Job's Name**: The Sauce Labs session you want to execute. By default, this is set to **Default Job**.
 
-Click  **Generate Sauce Labs Custom Profile** to finalize your profile. 
+Click **Generate Sauce Labs Custom Profile** to finalize your profile. 
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/saucelabs-plugin/KS-SAUCELABS-Enable-saucelabs-integration.png" width="70%" alt="Enable Sauce Labs integration">
 
 > Notes: 
 > * The default custom profile is named `saucelabs_default`. 
 > * To be recognized as a Sauce Labs profile, all custom profiles must have the following syntax: `saucelabs_<your-custom-profile-name>`.
 
-<img src="url" width="70%" alt="Enable Sauce Labs integration">
-
 You can also view and edit your profile in **Projects > Settings > Desired Capabilities > Custom**.
 
-<img src="url" width="70%" alt="View Sauce Labs custom profile">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/saucelabs-plugin/KS-SAUCELABS-View-custom-saucelabs-profiles.png" width="70%" alt="View Sauce Labs custom profile">
 
 You can now use the newly created profile to execute tests.
 ### Execute a test case with Sauce Labs profiles
 
+To execute a test case with Sauce Labs profiles, do as follows:
+
 1. Open a test case.
 
-2. Click the dropdown list next to **Run** (Command + Shift + A).
+2. Click the dropdown list next to **Run**.
 
 3. Select **Custom capabilities**.
 
 4. Select your Sauce Labs profile.
 
-<img src="url" width="70%" alt="Execute Sauce Labs custom profile in a test case">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/saucelabs-plugin/KS-SAUCELABS-Execute-test-case-saucelabs-profile.png" width="100%" alt="Execute Sauce Labs custom profile in a test case">
 
 ### Execute a test suite with Sauce Labs profiles
+
+To execute a test suite with Sauce Labs profiles, do as follows:
 
 1. Open a test suite.
 
 2. Add the test cases you want to execute into the test suite.
 
-3. Click the dropdown list next to **Run** (Command + Shift + A).
+3. Click the dropdown list next to **Run**.
 
 4. Select **Custom capabilities**.
 
 5. Select your Sauce Labs profile.
 
-<img src="url" width="70%" alt="Execute Sauce Labs custom profile in a test suite">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/saucelabs-plugin/KS-SAUCELABS-Execute-test-suite-saucelabs-profile.png" width="100%" alt="Execute Sauce Labs custom profile in a test suite">
 
 ### Execute a test suite collection with Sauce Labs profiles
+
+To execute a test suite collection with Sauce Labs profiles, do as follows:
 
 1. Open a test suite collection.
 
@@ -78,19 +84,25 @@ You can now use the newly created profile to execute tests.
 
 3. Double-click on the cell under the **Run with** column. A **Select an environment** dialog opens.
 
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/saucelabs-plugin/KS-SAUCELABS-Select-environment-test-suite-collection.png" width="60%" alt="Choose Sauce Labs custom profile in a test suite collection">
+
 4. Select your Sauce Labs profile.
 
-<img src="url" width="70%" alt="Execute Sauce Labs custom profile in a test suite collection">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/saucelabs-plugin/KS-SAUCELABS-Select-environment-TSC.gif" width="100%" alt="Choose Sauce Labs custom profile in a test suite collection">
 
 5. Click **OK**. Then click **Execute**.
 
-<img src="url" width="70%" alt="Execute Sauce Labs custom profile in a test suite collection">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/saucelabs-plugin/KS-SAUCELABS-Execute-test-suite-collection-saucelabs-profile.png" width="100%" alt="Execute Sauce Labs custom profile in a test suite collection">
 
-### On Sauce Labs Dashboard, under Automated Tests tab the following result is displayed
+### View test execution results on Sauce Labs
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/saucelabs-plugin/7-result.png" width="70%" alt="Execute Sauce Labs custom profile in a test suite collection">
+To view Katalon test execution results on Sauce Labs, on the Sauce Labs Dashboard, switch to the Automated Tests tab. 
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/saucelabs-plugin/6-result.png" width="70%" alt="Execute Sauce Labs custom profile in a test suite collection">
+You can see the test results are displayed as follows: 
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/saucelabs-plugin/7-result.png" width="100%" alt="View test execution results in Sauce Labs">
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/saucelabs-plugin/6-result.png" width="100%" alt="View test execution results in Sauce Labs">
 
 ## Sauce Labs for Mobile testing and Hybrid application testing
 
@@ -98,6 +110,6 @@ The plug-in provides you with an intuitive user interface to create Sauce Labs c
 
 To set up custom profiles for mobile and hybrid app testing, go to **Projects > Settings > Desired Capabilities > Custom**.
 
-<img src="url" width="70%" alt="a">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/saucelabs-plugin/KS-SAUCELABS-Add-saucelabs-profile-mobile-testing.png" width="70%" alt="Add custom profile for mobile testing">
 
-You can access and add capabilities to your profile. You will need to add specific capabilities that follow [Sauce Labs's official document on mobile/hybrid application testing](https://wiki.saucelabs.com/display/DOCS/Examples+of+Test+Configuration+Options+for+Mobile+Native+Application+Tests).
+Then add capabilities to enable mobile and hybrid app testing in Sauce Labs. You can follow the Sauce Labs official document here: [Appium Testing with Real Devices](https://docs.saucelabs.com/mobile-apps/automated-testing/appium/real-devices/).
