@@ -4,7 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/intro-spy-windows.html 
 ---
 
-The Windows spy utility helps capture test objects quickly and allows you to specify several properties and object locator strategies.
+The Windows spy utility helps capture test objects quickly and allows you to specify several object properties and locator strategies.
 
 This article introduces you to the components of the Windows spy utility in Katalon Studio.
 

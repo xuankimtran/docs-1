@@ -23,9 +23,9 @@ The **Spy Windows Objects** dialog is displayed as below:
 
 To configure the utility, in the **Configurations** section, specify the following fields:
 
-* **Configuration**: the `WinAppDriver URL` and `Desired Capabilities`.
+* **Configuration**: the WinAppDriver URL and desired capabilities.
 
-* **Application File**: the absolute path to the `Windows Executable File (*.exe)` of the testing machine. For Windows users, click on the **Browse...** button to locate the application file.
+* **Application File**: the absolute path to the Windows executable file (*.exe) of the testing machine. For Windows users, click on the **Browse...** button to locate the application file.
 
 For example, we provide the IP address to the remote Windows machine and the path to Notepad executable as the AUT.
 
@@ -72,4 +72,4 @@ To capture Windows objects, follow these steps:
 >**Notes**:
 >
 > * Do not lock the screen of the testing machine while spying, recording, or executing a test on a desktop application.
-> * It is recommended not to run multiple instances of the AUT simultaneously.
+> * It is recommended not to run multiple instances of the AUT simultaneously while.
