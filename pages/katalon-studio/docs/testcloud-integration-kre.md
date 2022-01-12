@@ -18,10 +18,10 @@ You can also configure TestCloud Tunnel to run tests in private domains. For det
 
 To integrate TestCloud with KRE and configure TestCloud Tunnel, use the following Katalonc command-line options:
 
-<table style="undefined;table-layout: fixed; width: 1732px">
+<table style="undefined;table-layout: fixed; width: 1815px">
 <colgroup>
 <col style="width: 118px">
-<col style="width: 333px">
+<col style="width: 416px">
 <col style="width: 965px">
 <col style="width: 260px">
 <col style="width: 56px">
