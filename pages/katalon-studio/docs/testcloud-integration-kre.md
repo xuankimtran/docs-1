@@ -12,7 +12,8 @@ You can also configure TestCloud Tunnel to run tests in private domains. For det
 
 > Requirements:
 >
-> A KRE version 8.2.5 onwards and a KRE license.
+> * Katalon Runtime Engine version 8.2.5 onwards.
+> * A Katalon Runtime Engine license.
 
 ## Run Test Suite/Test Suite Collection with TestCloud in Katalon Runtime Engine
 
@@ -32,7 +33,7 @@ To integrate TestCloud with KRE and configure TestCloud Tunnel, use the followin
 		<tr>
 			<td><br />1</td>
 			<td><br />-testcloudEnvironmentId</td>
-			<td><br />The ID of the environment which corresponds to a combination of OS, browser type and browser version to execute.<br /><br />Note: This parameter already contains the information about browser type. So the browserType parameter is not generated in this integration.</td>
+			<td><br />The ID of the environment which corresponds to a combination of OS, browser type and browser version to execute.<br /><br />Note: This parameter already contains the information about the browser type. Therefore, the browserType parameter is not generated in this integration.</td>
 			<td><br />Text</td>
 			<td><br />Y</td>
 		</tr>
@@ -46,6 +47,9 @@ To integrate TestCloud with KRE and configure TestCloud Tunnel, use the followin
 	</tbody>
 </table>
 
+> Notes:
+>
+> * To get the TestCloud environment ID, open Katalon Studio and use the command builder. See: [Generate Command with Command Builder](/katalon-studio/docs/testcloud-integration-kre.html#generate-command-with-command-builder).
 
 ## Generate Command with Command Builder
 
@@ -59,27 +63,31 @@ Follow these steps:
 
 1. Open KS and click on the *Build CMD* button in the main toolbar.
    
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/studio-integration/comand-builder-icon.png" alt="Build CMD" width=50% alt="build cmd button">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/studio-integration/comand-builder-icon.png" alt="Build CMD" width=30% alt="build cmd button">
 
 	The **Generate Command for Console Mode** appears as below.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/studio-integration/kre-executive-platform.png" width=70% alt="generate cmd dialog">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/studio-integration/kre-executive-platform.png" width=50% alt="generate cmd dialog">
 
 2. Configure your execution as follows:
 
 	* **Test Suite**: select TS/TSC you want to execute.
 	* **Executive Platform**:
-		* **Run with**: Click *Edit* to display the **Select an environment** dialog, select **TestCloud**, then click **OK**. 
+		* **Run with**: Click *Edit* to display the **Select an environment** dialog, select **TestCloud**, then click **OK**.
+
+		    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/studio-integration/run-tsc-testcloud-as-environment.png" width=50% alt="run config tsc">
 		
 			The **Run Configuration** option appears after you choose TestCloud for test environment.
 		
 		* **Run Configuration**: Click *Edit* to display the **TestCloud Configuration (Beta)** dialog, select your desired remote OS, browser, and browser version.
 		
-		> Notes:
-		>
-		> To run tests with TestCloud Tunnel, check the **Execute with Tunnel for private domain testing** box and refer to [Configure TestCloud Tunnel](https://docs.katalon.com/katalon-studio/docs/testcloud-integration.html#configure-testcloud-tunnel) for detailed instruction.
+			<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/studio-integration/tunnel-setup-helper-link.png" width=50% alt="tc config dialog">
+			
+			> Notes:
+			>
+			> To run tests with TestCloud Tunnel, check the **Execute with Tunnel for private domain testing** box and refer to [Configure TestCloud Tunnel](https://docs.katalon.com/katalon-studio/docs/testcloud-integration.html#configure-testcloud-tunnel) for detailed instruction.
 		
-   * **Authentication**: enter your API key.
+   * **Authentication**: the API key is auto-filled by default.
 
 > Notes:
 >
@@ -91,10 +99,14 @@ Follow these steps:
 
 	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/studio-integration/kre-generate-cmd-dialog.png" width=70% alt="generate cmd dialog">
 
+	> Notes:
+	>
+	> After configuring your desired remote OS, browser, and browser version, TestCloud generates a TestCloud environment ID accordingly. You can get this ID in the *Generated Command** dialog (e.g. `-testcloudEnvironmentId="38"`).
+
 	For example, the sample command is:
 
 	```groovy
 	./katalonc -noSplash -runMode=console -projectPath=“your_project_path” -retry=0 -testSuitePath=“your_test_suite_path” -browserType=“TestCloud” -testcloudEnvironmentId=“your_testcloud_id” -testcloudTunnel=“false” -executionProfile=“default” -apiKey=“your_api_key” -orgID=your_ogrID --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true
 	```
-		
+
 4. Click **Copy to Clipboard** and paste the command to your cmd/terminal for execution.
