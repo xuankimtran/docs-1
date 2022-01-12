@@ -469,11 +469,11 @@ items:
                 url: /katalon-studio/docs/introduction-desktop-app-testing.html
               - title: "Windows Record and Spy Utilities"
                 tree:
-                  - title: "Introduction to Windows Spy Utility"
+                  - title: "Windows Spy Utility"
                     url: /katalon-studio/docs/intro-spy-windows.html
-                  - title: "Introduction to Windows Record Utility"  
+                  - title: "Windows Record Utility"  
                     url: /katalon-studio/docs/intro-record-windows.html
-                  - title: "Windows Spy Tutorials"
+                  - title: "Capture Windows Objects using the Windows Spy Utility"
                     url: /katalon-studio/docs/windows-spy-tutorials.html
                   - title: "Windows Record Tutorials"
                     url: /katalon-studio/docs/windows-recorder-tutorials.html
