@@ -21,7 +21,6 @@ To integrate TestCloud with KRE and configure TestCloud Tunnel, use the followin
 <table>
 <thead>
   <tr>
-    <th></th>
     <th>Katalonc Command-line Option<br></th>
     <th>Description<br></th>
     <th>Data type<br></th>
@@ -30,14 +29,12 @@ To integrate TestCloud with KRE and configure TestCloud Tunnel, use the followin
 </thead>
 <tbody>
   <tr>
-    <td>1</td>
     <td>-testcloudEnvironmentId</td>
     <td>ID of the environment which is corresponding to a combination of OS, browser type and browser version to execute.<br>Notes: This parameter already contains the information about browser type. So browserType parameter is not generated in this integration.</td>
     <td>Text</td>
     <td>Y</td>
   </tr>
   <tr>
-    <td>2</td>
     <td>-testcloudTunnel</td>
     <td>Allow to the execution is performed via Tunnel.</td>
     <td>Boolean (case-insensitive)</td>
