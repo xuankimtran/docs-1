@@ -121,10 +121,6 @@ In the displayed **qTest Integration Setup Wizard** dialog, complete all items t
    </tbody>
    </table>
 
-   > Notes:
-   > * To upload the HTML report to qTest, make sure to enable the HTML reports generation in **Project > Settings > Plugins > Reports**.
-      ><img alt="Enable HTML reports" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/KS-qTest-HTML-report-generator.png" width=85%>
-
 5. Click **Finish**.
 
 </details>
@@ -192,10 +188,6 @@ In the displayed **qTest Integration Setup Wizard** dialog, complete all items t
    </tr>
    </tbody>
    </table>
-
-   > Notes:
-   > * To upload the HTML report to qTest, make sure to enable the HTML reports generation in **Project > Settings > Plugins > Reports**.
-      > <img alt="Enable HTML reports" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/KS-qTest-HTML-report-generator.png" width=85%>
 
 4. Conduct test case mapping.
    
