@@ -19,28 +19,31 @@ You can also configure TestCloud Tunnel to run tests in private domains. For det
 To integrate TestCloud with KRE and configure TestCloud Tunnel, use the following Katalonc command-line options:
 
 <table>
-<thead>
-  <tr>
-    <th>Katalonc Command-line Option<br></th>
-    <th>Description<br></th>
-    <th>Data type<br></th>
-    <th>Mandatory<br></th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td>-testcloudEnvironmentId</td>
-    <td>ID of the environment which is corresponding to a combination of OS, browser type and browser version to execute.<br>Notes: This parameter already contains the information about browser type. So browserType parameter is not generated in this integration.</td>
-    <td>Text</td>
-    <td>Y</td>
-  </tr>
-  <tr>
-    <td>-testcloudTunnel</td>
-    <td>Allow to the execution is performed via Tunnel.</td>
-    <td>Boolean (case-insensitive)</td>
-    <td>N</td>
-  </tr>
-</tbody>
+	<thead>
+		<tr>
+			<th><br />No.</th>
+			<th><br />Katalonc Command-line Option</th>
+			<th><br />Description</th>
+			<th><br />Data type</th>
+			<th><br />Mandatory</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><br />1</td>
+			<td><br />-testcloudEnvironmentId</td>
+			<td><br />The ID of the environment which corresponds to a combination of OS, browser type and browser version to execute.<br /><br />Note: This parameter already contains the information about browser type. So the browserType parameter is not generated in this integration.</td>
+			<td><br />Text</td>
+			<td><br />Y</td>
+		</tr>
+		<tr>
+			<td><br />2</td>
+			<td><br />-testcloudTunnel</td>
+			<td><br />Allow the execution to be performed via a tunnel.</td>
+			<td><br />Boolean (case-insensitive)</td>
+			<td><br />N</td>
+		</tr>
+	</tbody>
 </table>
 
 ## Generate Command with Command Builder
