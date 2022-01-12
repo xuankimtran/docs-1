@@ -137,16 +137,23 @@ Follow these steps:
 
     * Step 1: Select your OS and download the .zip file, then unzip it.
     * Step 2: Open the CLI, copy the command line from the dialog, then run it in the CLI.
-    
-        For example, the command line is `./kt config --tenant KatalonStudio --username "your_username" --organization-id "your_organization_id" --api-key "your_api_key"`.
 
+         For example, the command line is:
+
+        ```groovy
+        ./kt config --tenant KatalonStudio --username "your_username" --organization-id "your_organization_id" --api-key "your_api_key"
+        ```
         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/studio-integration/windows-cmd-tunnel-config.png" width=100% alt="kt config cmd">
-    
+
         You have set up the tunnel client in your local machine.
 
     * Step 3: Copy the command line in the dialog and run it in your CLI to start the tunnel.
 
-        For example, the command line is `./kt start`.
+        For example, the command line is:
+        
+        ```groovy
+        ./kt start
+        ```
 
         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/studio-integration/setup-tunnel-studio.png" width=100% alt="kt start">
 
