@@ -147,7 +147,7 @@ To start the connection:
 1. Download the executable .jar file of the external JDBC driver. For example, we want to connect to the MariaDB Java Client driver, we download the executable .jar file of the MariaDB library from the Maven Repository website here: [MariaDB Java Client](https://mvnrepository.com/artifact/org.mariadb.jdbc/mariadb-java-client).
 
 	> Notes:
-	> * From Katalon Studio version 8.2.5 onwards, you can set up the connection with the SAP HANA JDBC driver. Download the executable .jar file of the SAP HANA library in the Maven Repository website here: [SAP HANA JDBC Driver](https://mvnrepository.com/artifact/com.sap.cloud.db.jdbc/ngdbc).
+	> * From Katalon Studio version 8.2.5 onwards, you can connect with the SAP HANA JDBC driver. Download the executable .jar file of the SAP HANA library in the Maven Repository website here: [SAP HANA JDBC Driver](https://mvnrepository.com/artifact/com.sap.cloud.db.jdbc/ngdbc).
 
 2. Go to **Project** > **Settings** > **Library Management** to **Add** the jar file > click **Apply**.
 
