@@ -501,7 +501,7 @@ katalonc -noSplash -runMode=console -projectPath="C:\Users\Katalon Studio\Projec
             <p>The ID of the environment which corresponds to a combination of OS, browser type and browser version to execute (Available from 8.2.5 onwards).</p>
             <p><strong>Note:</strong></p>
             <ol>
-            <li>To get the TestCloud environment ID, open Katalon Studio and use the command builder. For detailed information, follow this guide: <a href="https://docs.katalon.com/katalon-studio/docs/testcloud-integration-kre.html">Run TestCloud with Katalon Runtime Engine.</a></li>
+            <li>To get the TestCloud environment ID, open Katalon Studio and use the command builder. For detailed information, follow this guide: <a href="https://docs.katalon.com/katalon-studio/docs/testcloud-integration-kre.html#generate-command-with-command-builder">Generate Command with Command Builder</a>.</li>
             <li>This parameter already contains the information about browser type. Therefore, the browserType parameter is not generated in this integration.</li>
             </ol>
          </td>
