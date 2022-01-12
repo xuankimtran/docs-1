@@ -18,44 +18,36 @@ You can also configure TestCloud Tunnel to run tests in private domains. For det
 
 To integrate TestCloud with KRE and configure TestCloud Tunnel, use the following Katalonc command-line options:
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg" style="undefined;table-layout: fixed; width: 1684px">
+<table style="undefined;table-layout: fixed; width: 1732px">
 <colgroup>
 <col style="width: 118px">
-<col style="width: 238px">
-<col style="width: 979px">
+<col style="width: 333px">
+<col style="width: 965px">
 <col style="width: 260px">
-<col style="width: 89px">
+<col style="width: 56px">
 </colgroup>
 <thead>
   <tr>
-    <th class="tg-0lax"> 				<br>Katalonc Command-line Option 			</th>
-    <th class="tg-0lax"> 				<br>Description 			</th>
-    <th class="tg-0lax"> 				<br>Data type 			</th>
-    <th class="tg-0lax" colspan="2"> 				<br>Mandatory 			</th>
+    <th> 				<br>Katalonc Command-line Option 			</th>
+    <th> 				<br>Description 			</th>
+    <th> 				<br>Data type 			</th>
+    <th colspan="2"> 				<br>Mandatory 			</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-0lax"> 				<br>1 			</td>
-    <td class="tg-0lax"> 				<br>-testcloudEnvironmentId 			</td>
-    <td class="tg-0lax"> 				<br>The ID of the environment which corresponds to a combination of OS, browser type and browser version to execute.<br> 				<br>Note: This parameter already contains the information about browser type. So the browserType parameter is not generated in this integration. 			</td>
-    <td class="tg-0lax"> 				<br>Text 			</td>
-    <td class="tg-0lax"> 				<br>Y 			</td>
+    <td> 				<br>1 			</td>
+    <td> 				<br>-testcloudEnvironmentId 			</td>
+    <td> 				<br>The ID of the environment which corresponds to a combination of OS, browser type and browser version to execute.<br> 				<br>Note: This parameter already contains the information about browser type. So the browserType parameter is not generated in this integration. 			</td>
+    <td> 				<br>Text 			</td>
+    <td> 				<br>Y 			</td>
   </tr>
   <tr>
-    <td class="tg-0lax"> 				<br>2 			</td>
-    <td class="tg-0lax"> 				<br>-testcloudTunnel 			</td>
-    <td class="tg-0lax"> 				<br>Allow the execution to be performed via a tunnel. 			</td>
-    <td class="tg-0lax"> 				<br>Boolean (case-insensitive) 			</td>
-    <td class="tg-0lax"> 				<br>N 			</td>
+    <td> 				<br>2 			</td>
+    <td> 				<br>-testcloudTunnel 			</td>
+    <td> 				<br>Allow the execution to be performed via a tunnel. 			</td>
+    <td> 				<br>Boolean (case-insensitive) 			</td>
+    <td> 				<br>N 			</td>
   </tr>
 </tbody>
 </table>
