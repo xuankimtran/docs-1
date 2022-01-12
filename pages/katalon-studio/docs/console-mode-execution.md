@@ -14,10 +14,12 @@ description:
 You can execute an automation test without launching Katalon Studio by using command-line mode execution.
 
 > Requirements:
+>
 > * Katalon Runtime Engine installed. You can download Katalon Runtime Engine here: [Katalon products](https://www.katalon.com/all-products/).
 > * A Katalon Runtime Engine License. To learn more about activating your license, you can refer to this document: [Katalon license](https://docs.katalon.com/katalon-studio/docs/activate-license.html#activate-a-license-with-internet-access).
 
 > Notes:
+>
 > * Katalon Studio only supports **Chrome, Firefox, and Remote** options for console mode execution using the **Linux** version.
 > * From version 7.9.0 onwards, you can upgrade the default JRE 8 to higher versions in console mode. You can refer to this document for further details: [Run tests with another JRE in the command line](https://docs.katalon.com/katalon-studio/how-to-guides/set-new-default-JRE.html#use-the-newly-added-jre-in-a-test-project).
 
@@ -497,7 +499,11 @@ katalonc -noSplash -runMode=console -projectPath="C:\Users\Katalon Studio\Projec
          <td>-testcloudEnvironmentId</td>
          <td>
             <p>The ID of the environment which corresponds to a combination of OS, browser type and browser version to execute (Available from 8.2.5 onwards).</p>
-            <p><em>Note: This parameter already contains the information about browser type. So the browserType parameter is not generated in this integration.</em></p>
+            <p><strong>Note:</strong></p>
+            <ol>
+            <li>To get the TestCloud environment ID, open Katalon Studio and use the command builder. For detailed information, follow this guide: <a href="https://docs.katalon.com/katalon-studio/docs/testcloud-integration-kre.html">Run TestCloud with Katalon Runtime Engine.</a></li>
+            <li>This parameter already contains the information about browser type. Therefore, the browserType parameter is not generated in this integration.</li>
+            </ol>
          </td>
          <td>Y</td>
       </tr>
