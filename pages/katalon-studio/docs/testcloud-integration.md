@@ -66,7 +66,7 @@ To run TS with TestCloud, follow these steps:
 
     > Notes:
     >
-    > * We currently support remote OS (Linux) and FireFox, Chrome browsers only.
+    > * We currently support Linux (remote OS) and FireFox, Chrome browsers only.
     > * The tunnel box is unchecked by default. TestCloud Tunnel is for running tests in private domains. See: [Configure TestCloud Tunnel](/katalon-studio/docs/testcloud-integration.html#configure-testcloud-tunnel).
 
 4. Click **Run**.
@@ -95,12 +95,12 @@ To run TSC with TestCloud, follow these steps:
 
     > Notes:
     >
-    > * We currently support remote OS (Linux) and FireFox, Chrome browsers only.
+    > * We currently support Linux (remote OS) and FireFox, Chrome browsers only.
     > * The tunnel box is unchecked by default. TestCloud Tunnel is for running tests in private domains. See: [Configure TestCloud Tunnel](/katalon-studio/docs/testcloud-integration.html#configure-testcloud-tunnel).
 
 4. Click **OK**.
 
-You have run TS/TSC in public domains with TestCloud.
+You have run TS/TSC with TestCloud.
 
 ## Configure TestCloud Tunnel
 
@@ -150,15 +150,17 @@ To configure TestCloud Tunnel, follow these steps:
     >
     > Keep your CLI (cmd/terminal) open until you have finished running tests.
 
-5. Go back the **Tunnel Setup Helper** dialog.
+5. Go back to KS and check the **Tunnel Setup Helper** dialog.
 
-    Once you have started the tunnel in your local machine, the tunnel status on the **Tunnel Setup Helper** dialog is *Available*.
+    Once you have started the tunnel in your local machine, the **Tunnel Setup Helper** dialog displays a green *Status: Available* message.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/studio-integration/tc-config-tunnel-setup-available.png" width=50% alt="tunnel setup helper">
 
     > Notes:
     >
-    > You can also click on the **Refresh** button to make sure the tunnel is available.
+    > You can also click on the **Refresh** button to have the status updated.
+
+6. Close the dialog and start executing TS/TSC with TestCloud Tunnel.
 
 ## View TestCloud reports
 
