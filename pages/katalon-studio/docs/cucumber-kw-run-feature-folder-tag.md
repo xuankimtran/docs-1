@@ -71,8 +71,8 @@ Katalon Studio supports executing feature files in a folder with the `runFeature
 ## Using the OR tag expression
 
 * **Description**: query the feature files in the specified folder, and execute the scenarios associated with one of the input tags.
-* **Keyword name**: runFeatureFolderWithTags
-* **Keyword syntax**: runFeatureFolderWithTags(folderRelativePath, tags)
+* **Keyword name**: runFeatureFolderWithTags.
+* **Keyword syntax**: runFeatureFolderWithTags(folderRelativePath, tags, flowControl).
 * **Parameters**:
   * Name: folderRelativePath
     * Description: the folder relative path that starts from the current project location.
@@ -82,6 +82,10 @@ Katalon Studio supports executing feature files in a folder with the `runFeature
     * Description: the tags of the scenarios that you want to execute.
     * Parameter Type: `String` or `String[]`.
     * Mandatory: required.
+  * Name: flowControl (only valid when tags are of `String[]` type)
+    * Description: a `com.kms.katalon.core.model.FailureHandling` instance that controls the running flow.
+    * Parameter Type: `FailureHandling`.
+    * Mandatory: optional.
 * **Returns**: an instance of `CucumberRunnerResult` that includes the status of keyword and report folder location.
 * **Example**:
 
