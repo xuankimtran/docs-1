@@ -534,8 +534,8 @@ You can break the connection between a Katalon Studio test suite folder and qTes
 ### Upload test results automatically
 
 1. To automatically upload the test execution results, check the **Automatically submit test run results** option in **Project > Settings > Plugins > qTest**.
-2. Add an integrated test case to an integrated test suite.
-3. Execute an integrated Katalon test suite.
+2. Add an uploaded test case to an uploaded test suite.
+3. Execute an uploaded Katalon test suite.
 4. Open the generated test execution report.
 5. In the **Test Cases Table** section, the status of all test execution is displayed with the following information.
 
@@ -591,8 +591,8 @@ You can break the connection between a Katalon Studio test suite folder and qTes
 
 ### Upload test case results manually
 
-1. Add an integrated test case to an integrated test suite.
-2. Execute the integrated Katalon test suite.
+1. Add an uploaded test case to an uploaded test suite.
+2. Execute the uploaded Katalon test suite.
 2. Open the generated test execution report.
 3. In the **Test Cases Table** section, right-click the test case you wish to upload the test result. Select **qTest > Upload**.
 
