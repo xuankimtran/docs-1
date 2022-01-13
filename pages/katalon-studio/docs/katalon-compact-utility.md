@@ -8,7 +8,7 @@ description:
 
 > Requirements:
 >
-> * Katalon Studio version 8.2.5 Beta onwards.
+> * Katalon Studio version 8.2.5 onwards.
 > * A Chrome Profile. Find more information at Google Help Center: [Share Chrome with others](https://support.google.com/chrome/answer/2364824/share-chrome-with-others-computer).
 
 In restricted environments, unpacked extensions are disabled as a security feature. In that case, using the Spy, Record, and Smart Wait with Chrome might prompt this error: "_Loading the unpacked extension is disabled by the administrators_."
@@ -44,11 +44,11 @@ To configure and use Katalon Compact Utility, you need to update the Desired Cap
 3. Click **Add** to create a new capability named `args`, for which the type is `List`.
 4. To add elements to your list, in the **Value** column of the capability you've created, click on the `...` button.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-compact-utility/capability.png" alt="element" width=80%>
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-compact-utility/project-settings-825.png" alt="element" width=85%>
 
 5. The **List Properties Builder** dialog appears. Click **Add** to create two elements as below. When you are done, click **OK** to save.
 
-	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-compact-utility/list-properties-builder.png" alt="list" width=80%>
+	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-compact-utility/list-properties-builder.png" alt="list" width=85%>
     
 <table>
 	<tbody>
@@ -80,6 +80,20 @@ To configure and use Katalon Compact Utility, you need to update the Desired Cap
 6. To save the Chrome configuration, click **Apply and Close**. 
 
 	You can now use the Spy, Record, and Smart Wait features with the default Chrome option.
+
+### Disable XPath visibility
+
+From Katalon Studio version 8.2.5 onwards, you can enable/disable the XPath visibility while recording actions on your app under test. Do as follows:
+
+1. Open Chrome, then click on the *Extension* icon.
+2. Click on the *More* icon of the **Katalon Compact Utility**, then choose **Options**.
+3. Click on the **XPath Visibility** toggle to enable/disable XPath visibility.
+
+	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-compact-utility/xpath-visibility.png" alt="xpath visibility" width=60%>
+
+> Known limitation:
+>
+> * For web pages saved as HTML local files, Katalon Compact Utility cannot spy and capture objects, while unpacked extensions can do that.
 
 See also:
 
