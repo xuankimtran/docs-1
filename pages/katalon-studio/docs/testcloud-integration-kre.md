@@ -97,7 +97,7 @@ Follow these steps:
 
 	The **Generated Command** dialog appears as below.
 
-	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/studio-integration/kre-generate-cmd-dialog.png" width=70% alt="generate cmd dialog">
+	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/studio-integration/generated-command-grey-cover.png" width=70% alt="generate cmd dialog">
 
 	> Notes:
 	>
