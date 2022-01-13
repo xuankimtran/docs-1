@@ -100,8 +100,6 @@ To run TSC with TestCloud, follow these steps:
 
 4. Click **OK**.
 
-You have run TS/TSC with TestCloud.
-
 ## Configure TestCloud Tunnel
 
 If you want to execute TS/TSC in private domains, you must use TestCloud Tunnel.
@@ -111,7 +109,7 @@ For detailed information on TestCloud Tunnel and how to utilize it, see [TestClo
 To configure TestCloud Tunnel, follow these steps:
 
 1. Open the **TestCloud Configuration (Beta)** dialog.
-2. Make sure the **Execute with Tunnel for private domain testing** box is checked.
+2. Check the **Execute with Tunnel for private domain testing**.
 
     You will see a message in red as follows:
 
@@ -150,9 +148,9 @@ To configure TestCloud Tunnel, follow these steps:
     >
     > Keep your CLI (cmd/terminal) open until you have finished running tests.
 
-5. Go back to KS and check the **Tunnel Setup Helper** dialog.
+5. Go back to the **Tunnel Setup Helper** dialog and click **Close**.
 
-    Once you have started the tunnel in your local machine, the **Tunnel Setup Helper** dialog displays a green *Status: Available* message.
+    Once you have started the tunnel in your local machine, the **TestCloud Configuration (Beta)** dialog displays a green *Status: Available* message.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/studio-integration/tc-config-tunnel-setup-available.png" width=50% alt="tunnel setup helper">
 
@@ -160,7 +158,7 @@ To configure TestCloud Tunnel, follow these steps:
     >
     > You can also click on the **Refresh** button to have the status updated.
 
-6. Close the dialog and start executing TS/TSC with TestCloud Tunnel.
+6. Click **Run** to start executing TS/TSC with TestCloud Tunnel.
 
 ## View TestCloud reports
 
