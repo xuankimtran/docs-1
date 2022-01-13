@@ -24,12 +24,40 @@ To activate the plugin, navigate to Account Settings in Katalon Studio and click
 
 Go to **Project > Settings > Plugins > Sauce Labs Integration**. Enter your credentials and your desired Sauce Labs operating environments and systems, including: 
 
-* **API Key**: enter an API Key generated from the User Settings in Sauce Labs. You can refer to this Sauce Labs document for further details about retrieving the API key: [User Settings](https://docs.saucelabs.com/basics/acct-team-mgmt/managing-user-info/#user-settings).
-* **Username**: enter your username displayed in Sauce Labs.
-* **Browser's name**: enter your desired execution browser.
-* **Platform**: enter the operating system you want to execute with. By default, Katalon automatically generates your operating system.
-* **Version**: enter the version of the operating system you want to execute with. By default, Katalon automatically generates the installed version of your operating system.
-* **Job's Name**: The Sauce Labs session you want to execute. By default, this is set to **Default Job**.
+<table>
+<thead>
+  <tr>
+    <th>Information</th>
+    <th>Description</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>API Key</td>
+    <td>An API Key generated from the User Settings in Sauce Labs. You can refer to this Sauce Labs document for further details about retrieving the API key: <a href="https://docs.saucelabs.com/basics/acct-team-mgmt/managing-user-info/#user-settings" target="_blank" rel="noopener noreferrer">User Settings</a>.</td>
+  </tr>
+  <tr>
+    <td>Username</td>
+    <td>Your username displayed in Sauce Labs.</td>
+  </tr>
+  <tr>
+    <td>Browser's name</td>
+    <td>The execution browser you want to execute with.</td>
+  </tr>
+  <tr>
+    <td>Platform</td>
+    <td>The operating system you want to execute with. By default, Katalon automatically generates your operating system.</td>
+  </tr>
+  <tr>
+    <td>Version</td>
+    <td>The version of the operating system you want to execute with. By default, Katalon automatically generates the installed version of your operating system.</td>
+  </tr>
+  <tr>
+    <td>Job's Name</td>
+    <td>The Sauce Labs session you want to execute. By default, this is set to <strong>Default Job</strong>.</td>
+  </tr>
+</tbody>
+</table>
 
 Click **Generate Sauce Labs Custom Profile** to finalize your profile. 
 
@@ -96,9 +124,9 @@ To execute a test suite collection with Sauce Labs profiles, do as follows:
 
 ### View test execution results on Sauce Labs
 
-To view Katalon test execution results on Sauce Labs, on the Sauce Labs Dashboard, switch to the Automated Tests tab. 
+To view Katalon test execution results on Sauce Labs, on the Sauce Labs Dashboard, switch to the **Automated Tests** tab. 
 
-You can see the test results are displayed as follows: 
+You can see the test results displayed as follows: 
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/saucelabs-plugin/7-result.png" width="100%" alt="View test execution results in Sauce Labs">
 

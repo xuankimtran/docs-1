@@ -48,7 +48,7 @@ This article demonstrates how to set up LambdaTest integration.
 
     *   **Remote server type**: Choose **Selenium**.
 
-    *   Add capabilities generated from step 3.
+    *   The capabilities generated from step 3.
 
 	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/lambdatest-integration/KS-LAMBDATEST-Set-DC.png" width="70%" alt="Add remote server capabilities">
 

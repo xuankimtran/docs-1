@@ -36,7 +36,7 @@ This article demonstrates how to set up BrowserStack integration.
 
     *   **Remote server type**: Choose **Selenium/Appium**. Here, we choose **Appium**. From Katalon Studio version 6.3.0 onwards, when choosing Appium server, you also need to select **Android Driver/iOS Driver**.
 
-    *   Add capabilities generated from step 4.
+    *   The capabilities generated from step 4.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/browserstack-integration/KS-BROWSERSTACK-Add-DC-remote.png" width="70%" alt="Add remote server capabilities">
 

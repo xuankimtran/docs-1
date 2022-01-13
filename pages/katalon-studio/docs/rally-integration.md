@@ -19,9 +19,10 @@ To download and install the **Rally Integration** plugin, you can go to the Kata
 To activate the installed plugin, navigate to Account Settings in Katalon Studio and click **Reload Plugin**.
 ## Configure Rally in Katalon Studio
 
-Go to **Project Setting > Plugins > Rally**. Input **Rally URL** and **API Key**.
+Go to **Project Setting > Plugins > Rally**. Input the following information:
 
-To generate an API key in Rally, you can refer to the Broadcom documentation: [Create an API key](https://knowledge.broadcom.com/external/article/10814/rally-how-to-create-an-api-key.html).
+* **Rally URL**: `https://rally1.rallydev.com/`.
+* **API Key**: the API key in Rally. To generate an API key in Rally, you can refer to the Broadcom documentation: [Create an API key](https://knowledge.broadcom.com/external/article/10814/rally-how-to-create-an-api-key.html).
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/rally-integration/KS-RALLY-Enable-Rally-integration.png" width="70%" alt="Enable Rally integration">
 
@@ -31,7 +32,7 @@ Once connected successfully, Katalon retrieves your available workspaces from Ra
 Katalon Studio provides an easy way to map a Katalon test case to an existing Rally test case. Follow these steps:
 ### In Rally
 
-To view the test case ID, open your project in Rally, then go to the **Test Cases** tab. Here you can see the list of test cases and their IDs.
+To view the test case ID, open your project in Rally, then go to **Quality > Test Cases**. Here you can see the list of test cases and their IDs.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/rally-integration/KS-RALLY-Test-case-ID-inRally.png" width="100%" alt="Test case ID in Rally">
 
@@ -51,7 +52,9 @@ To upload test execution results to Rally, do as follows:
 
 The test suite/test suite collection results are uploaded to Rally accordingly.
 
-To view results in Rally, in the Rally dashboard, switch to the **Results** tab.
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/rally-integration/KS-RALLY-Test-results-uploaded-to-Rally.png" width="100%" alt="Map KS test case with Rally">
+
+To view results in Rally, in the Rally dashboard, open the linked Rally test cases, switch to the **Results** tab.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/rally-integration/KS-RALLY-View-results-in-Rally.png" width="100%" alt="View results in Rally">
 
