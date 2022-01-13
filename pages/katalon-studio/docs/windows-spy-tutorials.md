@@ -73,4 +73,4 @@ To capture Windows objects, follow these steps:
 >
 > While spying, recording, or executing a test on a desktop application:
 >   * Do not lock the screen of the testing machine 
->   * Do not to run multiple instances of the AUT simultaneously.
+>   * Do not run multiple instances of the AUT simultaneously.
