@@ -59,7 +59,7 @@ To capture Windows objects, follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-windows-object/highlight-spy.png" width=70% alt="Added object in the Captured Objects section">
 
-3. To save the captured objects, click on the **Add to Object Repository** button. In the opened dialog, select desired folder, then click **OK**.
+3. To save the captured objects, click on the **Add to Object Repository** button. In the opened dialog, select your desired folder, then click **OK**.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-windows-object/KS-Add-objects-to-Object-Repository.png" width=70% alt="Add to Object Repository">
 
@@ -71,5 +71,6 @@ To capture Windows objects, follow these steps:
 
 >**Notes**:
 >
-> * Do not lock the screen of the testing machine while spying, recording, or executing a test on a desktop application.
-> * It is recommended not to run multiple instances of the AUT simultaneously while.
+> While spying, recording, or executing a test on a desktop application:
+>   * Do not lock the screen of the testing machine 
+>   * Do not to run multiple instances of the AUT simultaneously.
