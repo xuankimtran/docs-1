@@ -73,7 +73,7 @@ In the **Retry after executing all** checkbox, we input `2` in the text field, t
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dynamic-test-suite-ks/KS-DYNAMIC-Set-up-retry-2-times.png" alt="retry after executing all" width=50%>
 
-In the following picture, the test suite is executed three times in total. The first one is the main execution; the latter two are the retried executions when the first execution fails. 
+In this case, the test suite is executed three times in total. The first one is the main execution; the latter two are the retried executions when the first execution fails. 
 
 <a class="pop">
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dynamic-test-suite-ks/KS-DYNAMIC-Retry-2-times.png" alt="retry after executing all" width=100%>
@@ -106,7 +106,7 @@ When you implement the dynamic test suite for the first time, the **Query Provid
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dynamic-querying-test-suite/dynamic-ts.png" width="100%" alt="dynamic test suite">
 
-To enable the query provider for the dynamic test suite, install one of the plugins from the Katalon Store:
+To enable the query provider for the dynamic test suite, install one of the following plugins from the Katalon Store:
 
 * [Basic search for dynamic test suite](https://store.katalon.com/product/2/Basic-Search-For-Dynamic-Test-Suite)
 * [Test case management with tags](https://store.katalon.com/product/6/Test-Case-Management-with-Tags)
@@ -114,17 +114,17 @@ To enable the query provider for the dynamic test suite, install one of the plug
 
 To activate the installed plugin, navigate to Account Settings in Katalon Studio and click **Reload Plugin**.
 
-After successfully activating the plugin, the **Query Provider** automatically applies the query syntax of the installed plugin. For example, after activating the **Basic search for dynamic test suite** plugin, the **Query Provider** is set to **Built-in**. You can now add test cases for dynamic test suite execution.
+After you successfully activate the plugin, the **Query Provider** automatically applies the query syntax of the installed plugin. For example, after activating the **Basic search for dynamic test suite** plugin, the **Query Provider** is set to **Built-in**. You can now add test cases for dynamic test suite execution.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dynamic-test-suite-ks/KS-DYNAMIC-Query-provider-after-installing-plugin.png" width="100%" alt="Results after installing plugins">
 
 ### Add test cases to a dynamic test suite
 
-There are two main ways to add test cases into a dynamic test suite. You can add test cases via search query or the **Query Builder** function.
+There are two main ways to add test cases into a dynamic test suite. You can add test cases via a search query or the **Query Builder** function.
 
-1. Add test cases via search query.
+1. Add test cases via the search query.
 
-To add test cases via search query, manually input the search condition into the **Query** box. Then hit **Preview** to query out the matching test cases.
+To add test cases via the search query, manually input the search condition into the **Query** box. Then hit **Preview** to query out the matching test cases.
 For example, to add the **DDT at TC level** test case into this dynamic test suite, you can input `id=(Test Cases/DDT at TC level)` into the **Query** box. The matched test case appears in the test suite.
 
 To learn more about the search query syntax, you can refer to this document: [Search test cases](https://docs.katalon.com/katalon-studio/docs/search.html).
