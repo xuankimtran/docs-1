@@ -12,13 +12,12 @@ redirect_from:
     - "/katalon-studio/docs/dynamic-querying-test-suite.html"
 description: 
 ---
-> Query Builder applies ONLY to the **built-in** advanced search function.
 
-Searching manually for test artifacts can be time-consuming. The Query Builder in Katalon Studio helps reduce time spent on searching for the desired test artifacts, based on given criteria.
+Searching manually for test artifacts can be time-consuming. The search function in Katalon Studio helps reduce time spent on searching for the desired test artifacts, based on given criteria.
 
-The search function is used for test artifacts such as test cases, test suites, and folders.
+The search function is used for test artifacts such as test cases, test suites, folders, data files, .groovy files, etc.
 
-There are three ways to use the Search function in Katalon Studio: input your search criteria directly in the Search bar, use the **Advanced Search** button or use the **Query Builder** function.
+There are three ways to use the search function in Katalon Studio: input your search criteria directly in the search bar, use the **Advanced Search** button or use the **Query Builder** function.
 
 This article shows you how to view basic information of an object and how to use the search function in Katalon Studio.
 
@@ -47,7 +46,7 @@ Navigate to **Tests Explorer**. Right-click on that test artifact and select **P
 
 ## The search bar
 
-Another way to search for test artifacts is to type in the search bar located at the top of the **Test Explorer** section. You can type in a specific keyword, or follow this syntax: `id=(Your_Test_Case_ID)`. For example:
+Another way to search for test artifacts is to type in the search bar located at the top of the **Test Explorer** section. You can type in a specific keyword or follow this syntax: `id=(Your_Test_Case_ID)`. For example:
 
 `id=(Test Cases/Common Test Cases)`
 
@@ -62,7 +61,7 @@ From Katalon Studio version 8.2.5, the **Advanced search** button is located on 
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/search/KS-SEARCH-Advanced-search-button.png" alt="Advanced search button" width="60%">
 
-You can also access to this function in **Actions > Advanced search**.
+You can also access this function in **Action > Advanced search**.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/search/KS-SEARCH-Access-advanced-search-function.png" alt="Access to the Advanced search function" width="30%">
 
@@ -74,8 +73,8 @@ Katalon will query out all the matching test artifacts in the **Search** tab as 
 
 ## The Query Builder
 
-The **Query Builder** function allows you find the desired test cases based on certain criteria.
-You can find the Query Builder function while working with test suites, for example, in a Dynamic Test Suite. See also: [Dynamic Test Suite](https://docs.katalon.com/katalon-studio/docs/dynamic-test-suite-ks.html).
+The **Query Builder** function allows you to find the desired test cases based on certain criteria.
+You can find the **Query Builder** function while working with test suites, for example, in a dynamic test suite. See also: [Dynamic Test Suite](https://docs.katalon.com/katalon-studio/docs/dynamic-test-suite-ks.html).
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/search/query-builder.png" alt="query in dynamic test suite" width="100%">
 
