@@ -44,7 +44,7 @@ This article demonstrates how to set up LambdaTest integration.
 
 4. In Katalon Studio, go to **Project > Settings > Desired Capabilities > Remote**. Input the following information:
 
-    *   **Remote server URL**: input the URL retrieved from step 2. For example: `http://abcdef121:affdfsr543xyz@hub-cloud.browserstack.com/wd/hub`
+    *   **Remote server URL**: input the URL retrieved from step 2. For example: `http://harshitp:ABCD1234PQRS@hub.lambdatest.com/wd/hub`
 
     *   **Remote server type**: Choose **Selenium**.
 
