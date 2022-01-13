@@ -179,9 +179,9 @@ You can select the attributes used for detecting an object.
 
 ## Switch Selection Method in an object view
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/selection-methods/attribute.png" alt="attributes" width=100%>
-
 In an object view, you can switch from one selection method to another. The detailed content of each selection method is saved automatically.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/selection-methods/attribute.png" alt="attributes" width=100%>
 
 * **Selection Method**: Choose an object locating strategy among XPath, Attributes, CSS, or Image.
 * **Selected Locator**: Input the desired XPath or CSS locator in the Selector Editor manually.
@@ -215,7 +215,7 @@ If **Attributes** is set as the default selection method during spying and rec
 
 ## CSS
 
-To input your **CSS** locator of a test object manually, select the **CSS** option. Then, open an object view. In **Selector Editor**, enter a **CSS** locator value.
+To input your **CSS** locator of a test object manually, open an object view and select the **CSS** option. In the **Selected Locator**, enter a **CSS** locator value.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/selection-methods/css.png" alt="CSS" width="70%">
 
