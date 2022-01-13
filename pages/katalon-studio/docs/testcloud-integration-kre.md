@@ -63,11 +63,11 @@ Follow these steps:
 
 1. Open KS and click on the *Build CMD* button in the main toolbar.
    
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/studio-integration/comand-builder-icon.png" alt="Build CMD" width=30% alt="build cmd button">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/studio-integration/comand-builder-icon.png" alt="Build CMD" width=50% alt="build cmd button">
 
 	The **Generate Command for Console Mode** appears as below.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/studio-integration/kre-executive-platform.png" width=50% alt="generate cmd dialog">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/studio-integration/kre-executive-platform.png" width=70% alt="generate cmd dialog">
 
 2. Configure your execution as follows:
 
