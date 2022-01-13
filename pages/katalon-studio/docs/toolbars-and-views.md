@@ -142,7 +142,7 @@ The Main **Toolbar** contains the most common actions you usually perform, for
 		</tr>
 		<tr>
 			<td>
-				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/help%20center.png" width=30% alt="help center" /></p>
+				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-TOOLBAR-help-center.png" width=30% alt="help center" /></p>
 			</td>
 			<td>Access our <a href="https://www.katalon.com/help-center/">Help Center</a> and our <a href="https://forum.katalon.com/">Forum</a>.</td>
 		</tr>
