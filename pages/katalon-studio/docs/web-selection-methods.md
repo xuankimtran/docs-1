@@ -31,7 +31,7 @@ To set the default selection method used in the Spy/Recorder of a project, do as
 
 ### Configure XPath
 
-You can prioritize XPath locators by dragging and dropping the XPath locators list.
+You can prioritize XPath locators by dragging and dropping the XPath locators list. To locate the elements, Katalon Studio uses the first XPath as default. If the default XPath fails, the rest XPaths of the list are leveraged to locate the element.
 
 To return to the default order, click **Reset Default**.
 
