@@ -10,19 +10,19 @@ redirect_from:
     - "/katalon-studio/tutorials/headless_browsers_execution.html"
 description:
 ---
-In essence, headless browser testing is testing a Web page’s functionality, without the presence of a GUI. One of the major advantages of using a headless browser and perform headless testing is that you can run tests more quickly in a real browser environment. Headless browsers can save project teams a tremendous amount of time and smoothly integrate into the CI/CD process.
+In essence, headless browser testing is testing a Web page’s functionality, without the presence of a GUI. One of the major advantages of using a headless browser and performing headless testing is that you can run tests more quickly in a real browser environment. Headless browsers can save project teams a tremendous amount of time and smoothly integrate into the CI/CD process.
 
-[Katalon Studio](https://www.katalon.com/)supports headless browsers execution for both Chrome and Firefox. This tutorial will you how to execute tests using headless browsers and additional configurations (if needed) to tweak your browsers.
+Katalon Studio supports headless browsers execution for both Chrome and Firefox. This tutorial will you how to execute tests using headless browsers and additional configurations (if needed) to tweak your browsers.
 
 Configuring headless browsers
 -----------------------------
 
-By default, executing automation tests using one of these headless browsers: [Firefox](https://developer.mozilla.org/en-US/Firefox/Headless_mode) or [Chrome](https://developers.google.com/web/updates/2017/04/headless-chrome). You don’t need to add any additional configurations.
+By default, when executing automation tests using one of these headless browsers: [Firefox](https://developer.mozilla.org/en-US/Firefox/Headless_mode) or [Chrome](https://developers.google.com/web/updates/2017/04/headless-chrome), you don’t need to add any additional configurations.
 
 In case you need to add more desired capabilities to those headless browsers:
 
 * Go to **Project > Settings > Desired Capabilities > WebUI >Chrome (Headless)/Firefox (Headless)**.
-* Add your desired capabilities. For example, to make your Chrome (headless) start with smaller Window size:
+* Add your desired capabilities. For example, to make your Chrome (headless) start with a smaller Window size:
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/headless-browsers-execution/KS-HEADLESS-Set-DC.png" width="100%" alt="Set up desired capbilities for Chrome/Firefox (headless)">
 
@@ -39,7 +39,7 @@ Executing automation tests
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/headless-browsers-execution/KS-HEADLESS-Execute-with-headless.png" width="70%" alt="Execute a test case with a headless browser">
 
-*   Then, your current test case / test suite will be executed using the selected headless browser.
+*   Then, your current test case/test suite will be executed using the selected headless browser.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/headless-browsers-execution/KS-HEADLESS-Test%20cases-passed-with-headless-browser.png" width="70%" alt="Execute a test case with a headless browser">
 
@@ -63,7 +63,7 @@ Executing automation tests
 
 ### Execute using console mode execution
 
-We recommend using headless browser in console mode execution for faster and more continuous releases. 
+We recommend using the headless browser in console mode execution for faster and more continuous releases. 
 
 *   To start, generate your console mode commands by selecting either Chrome (headless) or Firefox (headless).
 *   Click the **Build CMD** button on the main toolbar.

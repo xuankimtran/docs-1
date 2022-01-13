@@ -18,7 +18,7 @@ This article demonstrates how to set up LambdaTest integration.
 
 	These values are necessary for authentication between your Katalon Studio instance and LambdaTest account. They also help generate a secure remote connection between Katalon Studio and the LambdaTest remote hub URL.
 
-	Syntax for LambdaTest remote URL: `http://username:accessKey@hub.lambdatest.com/wd/hub`.
+	The syntax for LambdaTest remote URL: `http://username:accessKey@hub.lambdatest.com/wd/hub`.
 
 	The following image is an example of a LambdaTest profile section. In this case, the remote URL is: `http://harshitp:ABCD1234PQRS@hub.lambdatest.com/wd/hub`.
 
@@ -37,7 +37,7 @@ This article demonstrates how to set up LambdaTest integration.
 	*   JavaScript
 	*   Python
 
-	For example, we want to test on macOS Big sur with Chrome version 96. We also choose Java as the capabilities generator language. LambdaTest Capabilities Generator will generate desired capabilities accordingly in Java.
+	For example, we want to test on macOS Big Sur with Chrome version 96. We also choose Java as the capabilities generator language. LambdaTest Capabilities Generator will generate desired capabilities accordingly in Java.
 
 	<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/lambdatest-integration/KS-LAMBDATEST-Capabilities-generator.png" width="100%" alt="Lambdatest capabilities generator">
 

@@ -18,7 +18,7 @@ This article demonstrates how to set up BrowserStack integration.
 
 2.  On the left side of the BrowserStack account page, you can see your username and the Access Key value. These values are necessary for authentication between your Katalon Studio instance and the BrowserStack account.
 
-    Syntax for the BrowserStack remote URL: `http://username:accessKey@hub-cloud.browserstack.com/wd/hub`. 
+    The syntax for the BrowserStack remote URL: `http://username:accessKey@hub-cloud.browserstack.com/wd/hub`. 
      
     For example: `http://abcdef121:affdfsr543xyz@hub-cloud.browserstack.com/wd/hub`.
     
@@ -41,7 +41,7 @@ This article demonstrates how to set up BrowserStack integration.
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/browserstack-integration/KS-BROWSERSTACK-Add-DC-remote.png" width="70%" alt="Add remote server capabilities">
 
     > Notes:
-    > * For Appium remote web server, you need to add the `platformName` capabilities. You can learn more about Appium capabilities in the Appium document here: [Appium Desired Capabilities](http://appium.io/docs/en/writing-running-appium/caps/).
+    > * For Appium remote web server, you need to add the `platformName` capabilities. You can learn more about Appium capabilities in this Appium document: [Appium Desired Capabilities](http://appium.io/docs/en/writing-running-appium/caps/).
     > * If you want to add Chrome driver capabilities, make sure to put those capabilities into the `goog:chromeOptions` property as a dictionary. For example:
     > <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/browserstack-integration/KS-BROWSERSTACK-Add-capabilities-Chrome.png" width="70%" alt="Add Chrome capabilities for remote server">
 

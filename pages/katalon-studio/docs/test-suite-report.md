@@ -208,7 +208,7 @@ You can also retrieve other information through the RunConfiguartion package, pl
 
 Debugging can be time-consuming and challenging for many automation testers. Katalon Studio helps solve this problem by supporting users with the ability to capture test execution via video format. Users can enable video capturing feature in Project Settings.
 
-Follow the steps below to see how to work with Katalon Studio video capturing feature
+Follow the steps below to see how to work with Katalon Studio video capturing feature:
 
 1. After creating a test suite in Katalon Studio, select **Project > Settings > Execution**. Check the **Enable Video Recorder during execution** option. 
 
