@@ -109,7 +109,7 @@ For detailed information on TestCloud Tunnel and how to utilize it, see [TestClo
 To configure TestCloud Tunnel, follow these steps:
 
 1. Open the **TestCloud Configuration (Beta)** dialog.
-2. Check the **Execute with Tunnel for private domain testing**.
+2. Check the **Execute with Tunnel for private domain testing** box.
 
     You will see a message in red as follows:
 
