@@ -33,7 +33,7 @@ Learn more about XPath locators at this documentation: [Web Selection Method: Co
 
 ## Create test objects by Recording/Spying
 
-Once test objects in test cases are created by Recording or Spying feature in Katalon Studio, a set of XPath values are generated respectively to the XPath generator provider list. The first value in the list is the default XPath value of the test objects.
+Once test objects in test cases are created by the Recording or Spying feature in Katalon Studio, a set of XPath values are generated in the prioritized order of the XPath generator provider list. The first value in the list is the default XPath value of the test objects.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/auto-healing-smart-xpath/xpath-update-1.png" alt="object view" width="100%"> 
 

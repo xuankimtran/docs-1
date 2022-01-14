@@ -30,9 +30,9 @@ While recording or spying the app under test (AUT), the **Web Locator** settings
 
 > Notes:
 >
-> * By default, any _New Projects_ created use the **XPath** option.
+> * By default, any new projects created use the XPath option.
 > * The XPath option does not apply to Internet Explorer. Internet Explorer always uses the Attributes option.
-> * The web locator _Selection Method_ also carries over to Record Web Utility, Spy Web Utility, and Test Object View.
+> * The web locator **Selection Method** also carries over to Record Web Utility, Spy Web Utility, and Test Object View.
 
 For better object recognition, Katalon Studio supports relative XPath. If an element cannot be consistently located using its direct attributes, Katalon Studio identifies that element by using its more robust neighbors. This method is visually intuitive as it reflects the way users often identify a visible element on the user interface.
 
