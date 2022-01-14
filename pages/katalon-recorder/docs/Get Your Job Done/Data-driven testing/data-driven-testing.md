@@ -12,7 +12,7 @@ Data-driven testing (DDT) allows you to execute test cases using data from exter
 >
 > Katalon Recorder version 5.6.0 onwards.
 
-This guide introduces you to DDT commands in Katalon Recorder and shows you how to implement DDT in a test case.
+This article introduces you to the DDT commands and data file formats supported by Katalon Recorder.
 
 ## Data-driven commands
 
@@ -20,7 +20,7 @@ Katalon Recorder provides two commands for DDT: `loadVars` and `endLoadVars`.
 
 ### loadVars
 
-The `loadVars` command loads the values from the data file specified in the **Target** field. 
+The `loadVars` command starts a loop to repeatedly load the values from the data file specified in the **Target** field.
 
 ### endLoadVars
 
@@ -34,65 +34,29 @@ When you execute a test containing `loadVars` and `endLoadVars` commands, the fo
 2. The values of the row will be mapped to the variables used in the test case.
 3. The steps between `loadVars` and `endLoadVars` will be executed using these mapped values.
 
-## Implement data-driven testing
+## Data file formats
 
-In Katalon Recorder, there are two steps to implement DDT in a test case:
+Katalon Recorder supports two data file formats: CSV and JSON.
 
-1. Add data files to your workspace.
-2. Configure data-driven commands and variables in the test case to use data from the data files.
+### Data files in CSV format
 
-### Add data files to the workspace
+While performing DDT with a CSV data file, Katalon Recorder navigates the file using the column names, and extracts data from the file, row by row. Therefore, you need to create a CSV file with specific column names.
 
-Katalon Recorder supports adding CSV and JSON data files to your workspace.
+Katalon Recorder also treats CSV column names as case-sensitive.
 
-Follow these steps:
+For example, a data-driven test that fills in a form with dates and comments might have a CSV data file as follows:
 
-1. Open Katalon Recorder. In the **Workspace** sidebar, click on the *more* icon in the **Test Data** section.
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/ddt-guide/KR-Sample-CSV-file.png" width=70% alt="Sample CSV file for Katalon Recorder">
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/ddt-guide/KR-Workspace-sidebar-Test-Data.png" width=30% alt="Click on Test Data More icon">
+### Data files in JSON format
 
-2. In the displayed file dialog, select the CSV or JSON file.
+Katalon Recorder uses JSON data files with specific syntax. Test data in a JSON file must be organized in an array. Each element (data row) in the array is represented as an object with *name/value* pairs; the name specifies the column name, and the value specifies the value in the respective row.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/ddt-guide/KR-File-Dialog-Select-CSV.png" width=70% alt="Click on Test Data More icon">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/ddt-guide/KR-DDT-Sample-JSON-syntax.png" width=70% alt="Sample JSON syntax">
 
-3. The added data file is displayed under the **Test Data** section.
+For example, a JSON data file with two columns, dates and comments, might be written as follows:
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/ddt-guide/KR-Test-Data-File-added.png" width=30% alt="Added data file">
-
-### Configure data-driven commands and variables in the test case
-
-In Katalon Recorder, the manual steps to configure data-driven commands and variables are as follows:
-
-1. Add the `loadVars` command to the beginning of your test case.
-2. Type in the name of the `loadVars` target file, e.g. `data.csv`.
-3. In the test case, use variables with the same names as the columns in the data file.
-4. Add the `endLoadVars` command to the end of your test case.
-
-Katalon Recorder also provides a simple user interface to configure data-driven commands and variables.
-
-Follow these steps to configure using the interface:
-
-1. Select the data file. Click on the *more* icon next to the data file and select **Use this in a test case**.
-
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/ddt-guide/KR-Use-Data-file-in-a-test-case.png" width=70% alt="Click on the more icon">
-
-2. Select the test case. In the displayed menu, select the desired test case. Click **Next** to continue.
-
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/ddt-guide/KR-Use-Data-File-Select-Test-Case.png" width=70% alt="Select the Test Case">
-
-3. Use the data from the data file. In the displayed test case, select the commands and specify the desired variables. Click **Add** when done.
-
-    Katalon Recorder specifies a variable using the `${<variable_name>}` syntax as a placeholder in the **Value** field.
-
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/ddt-guide/KR-Select-Value-for-DDT.png" width=70% alt="Replace the value with a variable">
-
-4. Verify that the value in the test case is replaced with the correct variable.
-
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/ddt-guide/KR-Test-Case-with-modified-value.png" width=70% alt="The value is replaced">
-
-5. Play the test case and verify the results in the **Log** view. The log message should indicate that Katalon Recorder expands the specified variables into test data.
-
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/ddt-guide/KR-DDT-Execution-results.png" width=70% alt="DDT execution results">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/ddt-guide/KR-Sample-JSON-file.png" width=70% alt="Sample JSON file for Katalon Recorder">
 
 ## Sample projects
 
@@ -104,6 +68,9 @@ Follow these steps to add a sample project:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/ddt-guide/KR-Action-sidebar-Sample-Projects.png" width=30% alt="Action sidebar">
 
-2. In the displayed dialog, select **Fill a form with data from CSV file with Sample Test Data** sample project. Click **Add** to add the project.
+2. In the displayed dialog, select the **Fill a form with data from CSV file with Sample Test Data** sample project. Click **Add** to add the project.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/ddt-guide/KR-Sample-Project-dialog.png" width=70% alt="Sample project dialog">
+
+**See also**:
+* The Katalon Academy course: [Data-Driven Testing with Katalon Recorder](https://academy.katalon.com/courses/katalon-recorder-data-driven-testing/).

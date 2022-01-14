@@ -1567,8 +1567,12 @@ items:
                 url: /katalon-recorder/docs/export-test-project-to-ks.html
               - title: "Writing Custom Script Formatter"
                 url: /katalon-recorder/docs/writing-custom-script-formatter.html
-          - title: "Data-driven testing in Katalon Recorder"
-            url: /katalon-recorder/docs/data-driven-testing.html
+          - title: "Data-driven testing"
+            tree:
+              - title: "Data-driven testing in Katalon Recorder"
+                url: /katalon-recorder/docs/data-driven-testing.html
+              - title: "How to implement data-driven testing in a test case"
+                url: /katalon-recorder/docs/implement-data-driven-testing-in-a-test-case.html
           - title: "Extend Katalon Recorder"
             tree:
               - title: "Katalon Recorder Helper Tool"
