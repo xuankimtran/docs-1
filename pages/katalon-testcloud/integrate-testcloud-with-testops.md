@@ -57,7 +57,7 @@ Follow these steps:
 
 You have successfully run tests in public domains using the TestCloud Test Environment.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/testops-integration/public-domains/beta-run-test-in-public-domain-testcloud.png" width=100% alt="test run types page run with testcloud successfully">
+To check the progress of your test runs, see: [View Logs](https://docs.katalon.com/katalon-testcloud/docs/integrate-testcloud-with-testops.html#view-logs).
 
 ## Run tests in private domains with TestCloud
 
@@ -84,8 +84,6 @@ Follow these steps:
 6. Click **Schedule**.  
 
 	You will be directed to the **Test Run List** page, where you can see the newly-added TestCloud Test Environment.
-
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/testops-integration/private-domains/beta-testcloud-tunnel-icon-in-test-run-types-page.png" width=100% alt="testcloud tunnel icon in test run types page">
 
 7. Follow the guideline to configure TestCloud Tunnel.
 
@@ -135,7 +133,57 @@ Follow these steps:
 
 You have successfully run tests in private domains using the TestCloud Test Environment.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/testops-integration/private-domains/beta-run-test-in-private-domain-testcloud.png" width=100% alt="test run types page run with testcloud successfully">
+To check the progress of your test runs, see: [View Logs](https://docs.katalon.com/katalon-testcloud/docs/integrate-testcloud-with-testops.html#view-logs).
+
+## View Logs
+
+You can check the progress of your test runs by viewing the test run logs.
+
+There are different ways to access logs.
+
+To view logs via the test run page, follow these steps:
+
+1. Go to **Test Execution** > **Test Run List**.
+
+    The **Test Run List** page appears as below.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/testops-integration/view-logs/tc-test-run-list-page.png" width=100% alt="test run list page">
+
+2. Click on the Test Run name (e.g., **Untitled**).
+
+    The **Test Runs** page appears as below.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/testops-integration/view-logs/tc-untitled-test-runs-page.png" width=100% alt="tc test run page config column">
+
+3. Mouse over the **Configuration** column and select the session ID in the column (e.g., **#3672**).
+
+    The session ID page (e.g., the **Session: #3672** page) appears as below.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/testops-integration/view-logs/tc-3672-log.png" width=100% alt="tc test run page config column">
+
+    You can view logs here.
+
+Alternatively, you can view logs via the test environment page.
+
+Follow these steps:
+
+1. Go to **Test Execution** > **Test Run List**.
+
+    The **Test Run List** page appears as below.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/testops-integration/view-logs/tc-test-run-list-page.png" width=100% alt="test run list page">
+
+    You can see a list of all test runs with their test environments here.
+
+2. Mouse over the **Test Environment** column of the test run you want to check, select a test environment in the column.
+
+    The **Test Environments** page appears.
+
+3. Scroll down to the **Sessions** section on the page.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/testops-integration/view-logs/tc-test-environment-session-id.png" width=100% alt="test run list page">
+
+4. Click on a session ID (e.g., **3466**) to view logs.
 
 ## Track TestCloud testing quota
 
