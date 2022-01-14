@@ -17,7 +17,7 @@ Katalon TestCloud has three key metrics:
 
 ## Usage quota
 
-Katalon TestCloud (GA trial) offers the **free GA trial** package, with the following quota:
+Katalon TestCloud (trial period) offers the **free trial** package, with the following quota:
 
 <table>
     <thead>
@@ -64,3 +64,7 @@ A request remains in the queue for only 15 minutes; after 15 minutes, the reques
 During a test session, if the remaining testing minutes are insufficient to complete the session but are still above zero, the test will still be executed until the end.
 
 Once the number of testing minutes has reached zero, no new test execution is allowed.
+
+> **Notes**:
+>
+> If you want to renew your quota, contact us at success@katalon.com for quota options.
