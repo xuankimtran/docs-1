@@ -24,7 +24,7 @@ To set the default selection method used in the Spy/Recorder of a project, do as
 	* [CSS](http://docs.katalon.com/katalon-studio/docs/web-selection-methods.html#css)
 	* [Image](http://docs.katalon.com/katalon-studio/docs/web-selection-methods.html#image)
 
-3. If you choose XPath or Attributes, you need to configure additional settings. To learn more, see:
+3. If you choose XPath or Attributes, you need to configure additional settings. To learn more, see below:
 
 	* [Configure XPath](https://docs.katalon.com/katalon-studio/docs/web-selection-methods.html#configure-xpath).
 	* [Configure Attributes](https://docs.katalon.com/katalon-studio/docs/web-selection-methods.html#configure-attributes).
@@ -171,7 +171,7 @@ Below is a list of  XPath captured strategies:
 You can select the attributes used for detecting an object. 
 
 * To return to the default setting, click **Reset Default**.
-* To add new attributes, click on the **Add** icon.
+* To add new attributes, click **Add**.
 * To delete an attributes, select the attributes and click **Delete**.
 * To delete all attributes, click **Clear**.
 
@@ -184,7 +184,7 @@ In an object view, you can switch from one selection method to another. The deta
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/selection-methods/attribute.png" alt="attributes" width=100%>
 
 * **Selection Method**: Choose an object locating strategy among XPath, Attributes, CSS, or Image.
-* **Selected Locator**: Input the desired XPath or CSS locator in the Selector Editor manually.
+* **Selected Locator**: Input the desired XPath or CSS locator manually.
 * **Object's Properties**: Check only the preferred properties of an object.
 
 ## XPath
@@ -195,7 +195,7 @@ For better object recognition, Katalon Studio supports Smart XPath (a.k.a Relati
 
 Working with XPath, you can:
 
-* Set the priority of XPath locators while with Attributes.
+* Set the priority of XPath locators.
 * Decide which object properties to be used for recognizing objects.
 * Override the global settings in a specific object. To do so, open an object view and configure a selection method used for this object particularly.
 
@@ -209,7 +209,7 @@ If **XPath** is set as the default selection method when spying and recording, K
 
 A test object is typically built up by several properties. During test execution, Katalon Studio uses them to detect an object.
 
-If **Attributes** is set as the default selection method during spying and recording, Katalon Studio generates **XPath** locator automatically that combines all the selected object properties to locate that object. You can check/uncheck preferred properties in the **Object's Properties** table.
+If **Attributes** is set as the default selection method during spying and recording, Katalon Studio generates **XPath** locator automatically that combines all the selected object properties to locate that object. In the **Detect object by?** column of the **Object's Properties** table, you can check/uncheck preferred properties.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/selection-methods/attribute.png" alt="attributes" width=100%>
 
