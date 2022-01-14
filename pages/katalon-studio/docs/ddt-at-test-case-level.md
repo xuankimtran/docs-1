@@ -125,7 +125,7 @@ In this section, we demonstrate how to execute the associated test cases in:
     <tbody>
       <tr>
       <td>Use Variables and Binding at Test Case</td>
-      <td>With this option:<br>- Katalon executes the test suite with the data binding at the test case level.<br>- To edit the data binding at the test case level, click the <strong>Test Case</strong> hyperlink. By doing so, the users are transitted to the associated test case.<br><p style="text-align: center;"><a class="pop"><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-test-case-level/KS-DDT-Click-TC-hyperlink.gif" width="70%" alt="Choose the Use Variables and Binding at Test Case option"></a><br><em>Click the gif to enlarge it.</em></p><br>- While selecting the <strong>Use Variables and Binding at Test Case</strong> option, the data binding at the suite test case level is disabled.<br><p style="text-align: center;"><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-test-case-level/KS-DDT-Warning-at-TC-level.png" width="70%" alt="Choose the Use Variables and Binding at Test Case option"></p></td>
+      <td>With this option:<br>- Katalon executes the test suite with the data binding at the test case level.<br>- To edit the data binding at the test case level, click the <strong>Test Case</strong> hyperlink. By doing so, the users are transitted to the <strong>Manual</strong> tab of the associated test case.<br><p style="text-align: center;"><a class="pop"><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-test-case-level/KS-DDT-Click-TC-hyperlink.gif" width="70%" alt="Choose the Use Variables and Binding at Test Case option"></a><br><em>Click the gif to enlarge it.</em></p><br>- While selecting the <strong>Use Variables and Binding at Test Case</strong> option, the data binding at the suite test case level is disabled.<br><p style="text-align: center;"><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-test-case-level/KS-DDT-Warning-at-TC-level.png" width="70%" alt="Choose the Use Variables and Binding at Test Case option"></p></td>
       </tr>
       <tr>
       <td>Use Variables and Binding at Suite Test Case</td>
@@ -144,9 +144,9 @@ A dynamic test suite is a test suite with multiple test cases added via a search
 To learn more about dynamic test suites, you can refer to this document: [Dynamic test suite](https://docs.katalon.com/katalon-studio/docs/create-test-suite.html#dynamic-test-suite-dynamic-test-cases-list).
 
 1. To implement this function, install one of the plugins from the Katalon Store:
-    * [Basic search For dynamic test suite.](https://store.katalon.com/product/2/Basic-Search-For-Dynamic-Test-Suite)
-    * [Test case management with tags.](https://store.katalon.com/product/6/Test-Case-Management-with-Tags)
-    * [TestRail integration.](https://store.katalon.com/product/13/TestRail-Integration)
+    * [Basic Search For Dynamic Test Suite](https://store.katalon.com/product/2/Basic-Search-For-Dynamic-Test-Suite)
+    * [Test case management with tags](https://store.katalon.com/product/6/Test-Case-Management-with-Tags)
+    * [TestRail integration](https://store.katalon.com/product/13/TestRail-Integration)
 
   - To activate the installed plugin, navigate to Account Settings in Katalon Studio and click **Reload Plugin**.
   
