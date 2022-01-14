@@ -5,7 +5,7 @@ permalink: katalon-testcloud/docs/integrate-testcloud-with-testops.html
 description: Instructions on how to use TestCloud in TestOps
 ---
 
-Katalon TestCloud (GA trial) is now available for seamless integration with Katalon TestOps.
+Katalon TestCloud (Trial) is now available for seamless integration with Katalon TestOps.
 
 Current test environments require time and effort to set up and maintain while providing limited browser/operating system (OS) options. By contrast, with just a few clicks, you can easily set up a TestCloud Test Environment in Katalon TestOps for your test execution across browsers and OS.
 
@@ -21,9 +21,13 @@ TestCloud stabilizes the test results when you execute a massive number of paral
 
 > Requirements:
 >
-> You have activated the TestCloud general availability trial (GA trial). Contact us at success@katalon.com for detailed information on the **free GA trial** package.
+> You have activated the TestCloud Trial Period. Contact us at success@katalon.com for detailed information.
 
-Once you have joined the GA trial, we will enable TestCloud in your TestOps account. You can then schedule your test runs on a TestCloud environment.
+Once you have joined the TestCloud Trial Period, we will enable TestCloud in your TestOps account. You can then schedule your test runs on a TestCloud environment.
+
+> Notes:
+>
+> We currently do not support Kobiton integration.
 
 ## Run tests in public domains with TestCloud
 
@@ -41,11 +45,17 @@ Follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/testops-integration/public-domains/beta-testcloud-browser-selections.png" width=100% alt="testcloud section in schedule test run dialog">
 
-4. Select the OS and browsers you want to test in the **TestCloud** section, then click **Schedule**.
+4. Select the OS and browsers you want to test in the **TestCloud** section.
 
-    You will be directed to the **Test Run Types** page, where you can see the TestCloud Test Environment.
+    > Notes:
+    >
+    > Make sure the Kobiton integration is disabled by turning the **Kobiton** toggle off in the advanced settings. See: [Advanced settings](https://docs.katalon.com/katalon-analytics/docs/create-plan.html#advanced-settings).
 
-5. Click on the *Play* icon to run tests.
+5. Click **Schedule**.
+
+    You will be directed to the **Test Run List** page, where you can see the TestCloud Test Environment.
+
+6. Click on the *Play* icon to run tests.
 
 You have successfully run tests in public domains using the TestCloud Test Environment.
 
@@ -67,21 +77,27 @@ Follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/testops-integration/private-domains/beta-switch-testcloud-tunnel-on.png" width=100% alt="test run types page run with testcloud successfully">
 
-5. Select the OS and browsers in the **TestCloud** section, then click **Schedule**.  
+5. Select the OS and browsers in the **TestCloud** section.
 
-	You will be directed to the **Test Run Types** page, where you can see the newly-added TestCloud Test Environment.
+    > Notes:
+    >
+    > Make sure the Kobiton integration is disabled by turning the **Kobiton** toggle off in the advanced settings. See: [Advanced settings](https://docs.katalon.com/katalon-analytics/docs/create-plan.html#advanced-settings).
+
+6. Click **Schedule**.  
+
+	You will be directed to the **Test Run List** page, where you can see the newly-added TestCloud Test Environment.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/testops-integration/private-domains/beta-testcloud-tunnel-icon-in-test-run-types-page.png" width=100% alt="testcloud tunnel icon in test run types page">
 
-    You still need to activate the TestCloud Tunnel to start the test execution.
+7. Follow the guideline to configure TestCloud Tunnel.
 
-### Configure the TestCloud Tunnel
+### Configure TestCloud Tunnel
 
 > Notes:
 >
 > For detailed information on TestCloud Tunnel and how to utilize it, see [TestCloud Tunnel](https://docs.katalon.com/katalon-testcloud/docs/testcloud-tunnel.html).
 
-After scheduling your test runs using a TestCloud Tunnel, you need to activate this TestCloud Tunnel to start test executions in private domains.
+After scheduling your test runs using TestCloud Tunnel, you need to activate this tunnel to start test executions in private domains.
 
 Follow these steps:
 
@@ -117,7 +133,7 @@ Follow these steps:
 
     You can now see the *Active* status in the TestCloud Tunnel you have just activated.
 
-4. Go to the **Test Run Types** page and click on the *Play* icon to run your tests.
+4. Go to the **Test Run List** page and click on the *Play* icon to run your tests.
 
 You have successfully run tests in private domains using the TestCloud Test Environment.
 
@@ -129,7 +145,7 @@ Follow these steps:
 
 1. Go to **Settings** > **License Management**.
 
-    The **Licenses** page appears.
+    The **License Management** page appears.
 
 2. Click on the **Katalon TestCloud** tab.
 
@@ -137,3 +153,7 @@ You can then check the following information:
 
 * the number of parallel tests.
 * the testing time.
+
+**See also**:
+
+ * [Usage Quota](https://docs.katalon.com/katalon-testcloud/docs/usage-quota-guide.html).
