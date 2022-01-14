@@ -26,8 +26,8 @@ description: Release notes 8.x
     * Upgraded Netty library to netty-all 4.1.61.Final.
     * Upgraded jsoup library to jsoup 1.14.3.
 * Enabled the connection to the SAP HANA database. To set up SAP HANA database for Data-driven testing, download this executable jar file: [SAP HANA JDBC Driver](https://mvnrepository.com/artifact/com.sap.cloud.db.jdbc/ngdbc) and follow this tutorial: [Connect to a database with an external JDBC driver](https://docs.katalon.com/katalon-studio/docs/database-settings.html#connect-to-a-database-with-an-external-jdbc-driver).
-* Introduced the `xpath:customAttributes` in the web locator strategies. See [link]().
-* Introduced an option in the **Project Setting** to include/exclude timestamps in the .properties files. See [link].
+* Introduced the `xpath:customAttributes` in the web locator strategies. See [Configure XPath](https://docs.katalon.com/katalon-studio/docs/web-selection-methods.html#configure-xpath).
+* Introduced an option in the **Project Setting** to include/exclude timestamps in the .properties files. See [Include/Exclude timestamp in .properties files](https://docs.katalon.com/katalon-studio/docs/execution-settings.html#includeexclude-timestamp-in-proprerties-files).
 * [TestOps Integration]:
     * Removed the **Create Script Repository** and **Update Script Repository** options.
     * Turned on Katalon TestOps Integration by default for new Web and API users.
@@ -37,7 +37,7 @@ description: Release notes 8.x
 * [UI changes]:
     * [Dynamic Test Suite] Updated UI for the retry function in Dynamic Test Suite.
     * Changed the **Communication**, **Feedback**, and **Support Portal** button.
-    * [TestOps Integration] Changed the UI in the **Katalon TestOps Integration** dialog. See [link]().
+    * [TestOps Integration] Changed the UI in the **Katalon TestOps Integration** dialog. See [Upload Test Results to Katalon TestOps from Katalon Studio](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html).
     * [License Activation] Changed UI text from **Deactivate** to **Log out**.
 
 ### Fixes
@@ -51,7 +51,6 @@ description: Release notes 8.x
 * Bug: [Web Recorder] Lacked test steps in the Recorder Logs when playing back the test case.
 * Bug: Inside the **Log Viewer**, unable to navigate to a specific step by right-clicking on the step and choosing **Go to this step in Script View**.
 * Bug: [Docker Image] Unable to send email reports when running test script from Docker Image.
-
 
 ## Version 8.2.0
 
