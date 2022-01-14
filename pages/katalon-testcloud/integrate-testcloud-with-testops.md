@@ -19,15 +19,13 @@ TestCloud stabilizes the test results when you execute a massive number of paral
 
 ## Integrate TestCloud with TestOps
 
-> Requirements:
->
-> You have activated Katalon TestCloud (trial period). Contact us at success@katalon.com for detailed information.
-
-Once you have joined Katalon TestCloud (trial period), we will enable TestCloud in your TestOps account. You can then schedule your test runs on a TestCloud environment.
+All users who belong to a TestOps organization can now use Katalon TestCloud (trial period).
 
 > Notes:
 >
 > We currently do not support Kobiton integration.
+
+Follow the guidelines below to run tests in a TestCloud environment.
 
 ## Run tests in public domains with TestCloud
 
