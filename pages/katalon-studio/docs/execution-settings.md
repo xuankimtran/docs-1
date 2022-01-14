@@ -43,8 +43,8 @@ From Katalon Studio version 8.2.5 onwards, you can include/exclude timestamp in 
 > Known issues:
 >
 > This enhancement only applies to:
-> * Native integrations with Katalon Studio, including Katalon TestOps, and Azure DevOps integration. 
-> * Integration plugins, including the **qTest Integration**, the **Basic Report**, the **Jira Integration**, the **TestRail Integration** and the **Applitools Integration** plugins.
+> * Native integrations with Katalon Studio, including Katalon TestOps, Azure DevOps, the **qTest Integration**, **Basic Report**, and **Applitools Integration** plugins.
+> * Integration plugins, including the **Jira Integration** and **TestRail Integration** plugins.
 
 ## Execution Settings
 
