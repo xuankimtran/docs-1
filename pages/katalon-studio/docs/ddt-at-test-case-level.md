@@ -22,7 +22,7 @@ This function is useful if you want to:
 
 > Requirements:
 > * An active Katalon Studio Enterprise license.
-> * An active Katalon Runtime Engine license. To learn more about Katalon licenses, you can refer to this document here: [Katalon licensing](https://docs.katalon.com/katalon-studio/docs/license.html).
+> * An active Katalon Runtime Engine license. To learn more about activating your license, you can refer to this document here: [Activate Katalon license](https://docs.katalon.com/katalon-studio/docs/activate-license.html#activate-a-license-with-internet-access).
 
 In this article, we demonstrate how to manage data binding at the test case level and execute them in a test suite.
 
