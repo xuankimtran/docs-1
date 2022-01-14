@@ -5,7 +5,7 @@ permalink: katalon-testcloud/docs/integrate-testcloud-with-testops.html
 description: Instructions on how to use TestCloud in TestOps
 ---
 
-Katalon TestCloud (Trial) is now available for seamless integration with Katalon TestOps.
+Katalon TestCloud (Trial Period) is now available for seamless integration with Katalon TestOps.
 
 Current test environments require time and effort to set up and maintain while providing limited browser/operating system (OS) options. By contrast, with just a few clicks, you can easily set up a TestCloud Test Environment in Katalon TestOps for your test execution across browsers and OS.
 
