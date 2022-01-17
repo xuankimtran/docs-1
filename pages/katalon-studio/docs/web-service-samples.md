@@ -47,6 +47,38 @@ Katalon creates three global variables in this sample project as follows:
 </tbody>
 </table>
 
+### RESTful requests
+
+To access the sample RESTful requests in this project, in the **Test Explorer** panel, go to the **Object Repository** folder.
+
+1. The **POST a new user** object:
+
+<img src="url" width="70%" alt="Sample POST request">
+
+**(1) Request method**
+
+Katalon allows you to choose one of these following methods for your request test: GET, POST, PUT, DELETE, PATCH, HEAD, CONNECT, OPTIONS, TRACE. The method needs to match with the API endpoint to have a valid request. Here, we are creating a POST request to send the user information to the server to create an account. The server will return us with a new userID as a response.
+
+**(2) Request URL**
+
+Along with the request method, request URL is to tell the web server which API is utilized under test. Any mismatch between method and URL leads to an invalid request exception at runtime or wrong data response. For the POST request, we specify the API endpoint as follows: `${GlobalVariable.baseUrl}/api/users/json`, with the base URL is listed as a global variable, see above: [Profiles](https://docs.katalon.com/katalon-studio/docs/web-service-samples.html#profiles).
+
+**(3) Authorization**
+
+Authorization is an essential part of an API. It is used to get the correct data under permission (unless the data is public). To learn more about authorization, you can refer to this document: [Authorization](https://docs.katalon.com/katalon-studio/docs/authorization.html).
+
+We don't specify any authorization for this POST request.
+
+**(4) HTTP Header**
+
+**(5) HTTP Body**
+
+
+2. The **GET user by id** object:
+
+<img src="url" width="70%" alt="Sample GET request">
+
+
 ### Custom keywords
 
 You can use custom keywords in the test case. To learn more about custom keywords, you can refer to this document: [Introduction to custom keywords](https://docs.katalon.com/katalon-studio/docs/introduction-to-custom-keywords.html). 
@@ -100,7 +132,7 @@ This keyword is to use the POST request to send the user information including u
     <td>expectedStatus</td>
     <td>int</td>
     <td>Yes</td>
-    <td>the expected status code of the request</td>
+    <td>The expected status code of the request</td>
   </tr>
 </tbody>
 </table>
@@ -111,7 +143,7 @@ This keyword is to use the POST request to send the user information including u
 
 ### Description
 
-This keyword is to use the GET response to retrieve user information by id.
+This keyword is to use the GET response to retrieve and verify the user information by the userID.
 ### Parameters
 
 <table>
@@ -125,38 +157,57 @@ This keyword is to use the GET response to retrieve user information by id.
 </thead>
 <tbody>
   <tr>
-    <td>table</td>
-    <td>TestObject<br></td>
+    <td>id </td>
+    <td>int</td>
     <td>Yes</td>
-    <td>A Katalon test object represents an HTML table.</td>
+    <td>The id of the new user</td>
   </tr>
   <tr>
-    <td>outerTagName</td>
-    <td>string</td>
+    <td>age</td>
+    <td>int</td>
     <td>Yes</td>
-    <td>The outer tagname of <code>tr</code> tag, usually <code>tbody</code></td>
+    <td>The age of the user</td>
+  </tr>
+  <tr>
+    <td>username</td>
+    <td>String</td>
+    <td>Yes</td>
+    <td>The username for the user account</td>
+  </tr>
+  <tr>
+    <td>password</td>
+    <td>String</td>
+    <td>Yes</td>
+    <td>The password for the user account</td>
+  </tr>
+  <tr>
+    <td>gender</td>
+    <td>String</td>
+    <td>Yes</td>
+    <td>The gender for the user</td>
+  </tr>
+  <tr>
+    <td>expectedStatus</td>
+    <td>int</td>
+    <td>Yes</td>
+    <td>The expected status code of the request</td>
   </tr>
 </tbody>
 </table>
 
 </details>
 
-
 ### Test cases
 
-To access the main test cases in this project, in the **Test Explorer** panel, go to **Test Cases > Main Test Cases**.
+To access the sample test cases in this project, in the **Test Explorer** panel, go to the **Test Cases** folder.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/healthcare-samples/KS-SAMPLES-Main-test-cases.png" width="70%" alt="Main test cases">
+<img src="url" width="70%" alt="Test cases">
 
-There are three test cases for different purposes: 
+There are two test cases for different purposes: 
 
-1. **TC1_Verify Successful Login** is to verify if a person can log in successfully with a valid account. The flow in this test case is as follows:
+1. **Create a new user** uses the `sample.Common.createNewUser` keyword to send the user information including username, password, age, gender, and avatar to the server to create an account, then extract the new user ID from the response.
 
-    - Go to the CURA Healthcare Service website: `https://katalon-demo-cura.herokuapp.com/`. Here, we use the `G_SiteURL` global variables.
-    - Click the **Make Appointment** button.
-    - Fill in the **Username** and **Password**. Here, we set the value type of **Username** and **Password** as **Variable**. You can change the **Username** and **Password** value in the **Variable** tab. To learn more about test case variables, you can refer to this document: [Test Case Variables](https://docs.katalon.com/katalon-studio/docs/test-case-variables.html).
-
-        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/healthcare-samples/KS-SAMPLES-Username-password-variables.png" width="70%" alt="Username and Password Variables">
+    <img src="url" width="70%" alt="">
 
     - Click the **Login** button.
     - Verify if the account is logged in successfully. Here, we use the `G_Timeout` variables. If the page **Appointment** appears within 10 seconds, the login is successful.
