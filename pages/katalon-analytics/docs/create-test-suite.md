@@ -5,9 +5,9 @@ permalink: katalon-analytics/docs/create-test-suite.html
 redirect_from:
 ---
 
-## Create a Test Suite
+You can create and manage test suites in Katalon TestOps.
 
-You can create test suites in Katalon TestOps.
+## Create a Test Suite
 
 By doing so, you save time opening Katalon Studio to create the new test suite then upload it to a script repository.
 
