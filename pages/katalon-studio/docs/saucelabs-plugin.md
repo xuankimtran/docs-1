@@ -42,15 +42,15 @@ Go to **Project > Settings > Plugins > Sauce Labs Integration**. Enter your cred
   </tr>
   <tr>
     <td>Browser's name</td>
-    <td>The execution browser you want to execute with.</td>
+    <td>The execution browser you want to execute with. For example, Safari.</td>
   </tr>
   <tr>
     <td>Platform</td>
-    <td>The operating system you want to execute with. By default, Katalon automatically generates your operating system.</td>
+    <td>The operating system you want to execute with. For example, macOS 10.13</td>
   </tr>
   <tr>
     <td>Version</td>
-    <td>The version of the operating system you want to execute with. By default, Katalon automatically generates the installed version of your operating system.</td>
+    <td>The browser version you want to execute with. For example, you want to execute with Safari 11.1, input <code>11.1</code>.</td>
   </tr>
   <tr>
     <td>Job's Name</td>
