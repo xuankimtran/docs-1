@@ -17,7 +17,7 @@ TestCloud tunnel services can:
 * Reduce latency to a minimum by deploying the QUIC technology.
 * Prevent overload and crashes when running many tunnel clients.
 * Provide security by limiting access to authorized users with API keys.
-* Optimize performance by enabling the usage of multiple Edge-servers for running multiple concurrent tests.
+* Save time by running multiple concurrent tests using multiple Edge servers.
 
 ### How does TestCloud Tunnel work?
 
@@ -28,10 +28,6 @@ A tunnel client spins up a fresh virtual machine (VM) that is used only for test
 By default, the tunnel is closed after 30 minutes if there is no request or traffic (i.e. the tunnel is idle for 30 minutes). Consequently, the VM is shut down.
 
 To start the tunnel again, you start the run command in the tunnel client.
-
-> Notes:
->
-> For shortcut, you can also copy the run command and paste it in the cmd/terminal directly.
 
 After starting the run command line, the tunnel client connects you to the TestCloud Tunnel server.
 
@@ -53,11 +49,11 @@ We recommend the following practices to optimize your tunnel usage:
     >
     > We will provide recommended specs requirements soon.
 
-* Run one tunnel client on one machine to utilize the machine's resources. This would avoid test failure due to timeout or bandwidth running out.
+* Run one tunnel client on one machine to avoid timeout and bandwidth issues that could cause test failure.
 
     If test failure occurs and you change your machine, you need to copy the current tunnel configuration to a new machine. Then you delete the `client_id` in the CLI to run a new one.
 
-* Force quit by entering Ctrl+C in the CLI after you finish running tests. This would avoid wasting your machine’s bandwidth and resources.
+* To save your machine's bandwidth and resources, you can quickly close the tunnel using the shortcut Ctrl+C in the CLI after you finish running tests.
 
 ## Configure TestCloud Tunnel
 
