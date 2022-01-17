@@ -33,9 +33,9 @@ description:
 
 ## Install the qTest Integration plugin
 
-To download and install the **qTest Integration** plugin, you can go to the Katalon Store here: [qTest Integration](https://store.katalon.com/product/136/qTest-Integration). 
+Download and install the **qTest Integration** plugin from the Katalon Store here: [qTest Integration](https://store.katalon.com/product/136/qTest-Integration).
 
-To activate the installed plugin, navigate to Account Settings in Katalon Studio and click **Reload Plugin**.
+Return to Katalon Studio and activate your plugin. To do so, click on the *Profile* icon, then click **Reload Plugin**.
 If you want to use the plugin in console mode, refer to this document: [Use Plugins in Console Mode](https://docs.katalon.com/katalon-studio/docs/kse-use-plugins.html#use-plugins-in-console-mode).
 
 ## Enable qTest integration
@@ -196,7 +196,7 @@ In the displayed **qTest Integration Setup Wizard** dialog, complete all items t
    <img alt="Test case mapping" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/image2017-6-29-163A473A10.png" width=85%>
    
    - Click **Add**. The **Create Test Case Repository** dialog opens. 
-   - Choose your qTest project, qTest module and browse the Katalon folder for the test case you wish to map with. 
+   - Choose your qTest project and module, then browse the Katalon folder for the test case you wish to map with. 
    - Click **OK** when you are done.
 
       <img alt="Browse mapping test cases" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/image2016-11-15-153A253A8.png" width=85%>
@@ -208,7 +208,7 @@ In the displayed **qTest Integration Setup Wizard** dialog, complete all items t
       <img alt="Enable HTML reports" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/image2017-6-29-163A483A33.png" width=85%>
 
    - Click **Add**. The **Create Test Suite Repository** dialog opens. 
-   - Choose your qTest Project, and browse the Katalon folder for the test suite you wish to map with.
+   - Choose your qTest project, and browse the Katalon folder for the test suite you wish to map with.
    - Click **OK** when you are done.
 
       <img alt="Enable HTML reports" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/enable-qtest-integration/image2016-11-15-153A373A55.png" width=85%>
