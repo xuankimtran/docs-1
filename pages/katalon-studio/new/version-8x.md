@@ -31,7 +31,7 @@ description: Release notes 8.x
 * [TestOps Integration]:
     * Removed the **Create Script Repository** and **Update Script Repository** options.
     * Turned on Katalon TestOps Integration by default for new Web and API users.
-* [License Activation] Changed the Katalon license server to [https://admin.katalon.com/](https://admin.katalon.com/). For authentication, Katalon Studio and Katalon Runtime Engine would call this new server URL.
+* [License Activation] Changed the Katalon license server to [https://admin.katalon.com/](https://admin.katalon.com/). For authentication, Katalon Studio and Katalon Runtime Engine call this new server URL.
 * Improved the visibility of the search function. See [Search Test Cases](https://docs.katalon.com/katalon-studio/docs/search.html).
 * Removed unused messages in Test Object, Spy/Recorder, Test Suite Collection, and Test Suite.
 * [UI changes]:
@@ -43,7 +43,7 @@ description: Release notes 8.x
 ### Fixes
 
 * Bug: Editing script and executing a test could intermittently cause the error: "java.lang.ClassFormatError: Truncated class file".
-* Bug: [qTest]Missing screenshots in the qTest HTML report.
+* Bug: [qTest] Missing screenshots in the qTest HTML report.
 * Bug: [qTest] Could not run test suite right after configuring qTest integration.
 * Bug: Failed to update webdriver automatically when using custom desired capabilities.
 * Bug: [Katalon Runtime Engine] Not sending all Jira IDs test results in the Jira report when executing with Katalon Runtime Engine.
