@@ -6,7 +6,7 @@ permalink: katalon-studio/docs/testcloud-integration-kre.html
 
 Katalon TestCloud is a cloud-based test execution environment where you can automate test scripts across the most common and updated browsers and/or operating systems (OS) and/or a combination of both. See: [TestCloud Overview](https://docs.katalon.com/katalon-testcloud/docs/testcloud-overview.html).
 
-From version 8.2.5 onwards, you can run Test Suite/Test Suite Collection (TS/TSC) with TestCloud in Katalon Runtime Engine (KRE).
+From version 8.2.5 onwards, you can run test suites/test suite collections (TS/TSC) with TestCloud in Katalon Runtime Engine (KRE).
 
 You can also configure TestCloud Tunnel to run tests in private domains. For detailed information on TestCloud Tunnel and how to utilize it, see [TestCloud Tunnel](https://docs.katalon.com/katalon-testcloud/docs/testcloud-tunnel.html).
 
@@ -15,7 +15,7 @@ You can also configure TestCloud Tunnel to run tests in private domains. For det
 > * Katalon Runtime Engine version 8.2.5 onwards.
 > * A Katalon Runtime Engine license.
 
-## Run Test Suite/Test Suite Collection with TestCloud in Katalon Runtime Engine
+## Run test suites/test suite collections with TestCloud in Katalon Runtime Engine
 
 To integrate TestCloud with KRE and configure TestCloud Tunnel, use the following Katalonc command-line options:
 
@@ -71,7 +71,7 @@ Follow these steps:
 
 2. Configure your execution as follows:
 
-	* **Test Suite**: select TS/TSC you want to execute.
+	* **Test Suite**: select the TS/TSC you want to execute.
 	* **Executive Platform**:
 		* **Run with**: Click *Edit* to display the **Select an environment** dialog, select **TestCloud**, then click **OK**.
 
@@ -85,13 +85,13 @@ Follow these steps:
 			
 			> Notes:
 			>
-			> To run tests with TestCloud Tunnel, check the **Execute with Tunnel for private domain testing** box and refer to [Configure TestCloud Tunnel](https://docs.katalon.com/katalon-studio/docs/testcloud-integration.html#configure-testcloud-tunnel) for detailed instruction.
+			> To run tests using the TestCloud tunnel, check the **Execute with Tunnel for private domain testing** box and refer to [Configure TestCloud Tunnel](https://docs.katalon.com/katalon-studio/docs/testcloud-integration.html#configure-testcloud-tunnel) for detailed instruction.
 		
    * **Authentication**: the API key is auto-filled.
 
 > Notes:
 >
-> For detailed information on Command Builder, see [Command Builder](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#command-builder).
+> For detailed information on the command builder, see [Command Builder](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#command-builder).
 
 3. Click **Generate Command**.
 
