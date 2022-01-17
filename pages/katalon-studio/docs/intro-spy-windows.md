@@ -17,11 +17,11 @@ This article introduces you to the components of the Windows spy utility in Kata
 
 To open the utility, from the main toolbar, click on the **Spy Windows Object** button.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/introduction-desktop-app-testing/KS-Windows-Spy-Objects-button.png" width=30% alt="Spy Windows Objects icon">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/windows-spy-utility/KS-Windows-Spy-Objects-button.png" width=30% alt="Spy Windows Objects icon">
 
 The **Spy Windows Objects** dialog is displayed as below:
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-windows-object/Spy-windows-object-dialogue.png" width=70% alt="Spy Windows Objects dialog">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/windows-spy-utility/KS-Windows-Object-Spy-dialog.png" width=100% alt="Spy Windows Objects dialog">
 
 ### Configurations
 
@@ -37,7 +37,7 @@ When the application under test (AUT) is started, the utility captures all avail
 
 The **All Objects** section shows a tree of all the objects of the AUT, including the associated Windows element names (highlighted in blue) and tag names.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-windows-object/Windows-Objects-Spy-1.png" width=70% alt="All objects section">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/windows-spy-utility/KS-All-Objects-section.png" width=70% alt="All objects section">
 
 To add a Windows object, check the checkbox on the left of the desired Windows object. The added object is then displayed in the **Captured Objects** section.
 
@@ -45,7 +45,7 @@ To add a Windows object, check the checkbox on the left of the desired Windows o
 
 When an object is selected in the **All Objects** section, the position of the associated element is highlighted in the **Screen View**. This helps verify the selected Windows element.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-windows-object/KS-Windows-Spy-Utility-Screen-View.png" width=70% alt="Captured objects section">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/windows-spy-utility/KS-Screen-View-section.png" width=70% alt="Captured objects section">
 
 ### Captured objects
 
@@ -53,7 +53,7 @@ The **Captured Objects** section shows all the captured Windows elements you wan
 
 To view details about a captured object, click on it. The detailed information is displayed in the **Object Properties** section.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-windows-object/highlight.png" width=70% alt="Captured objects section">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/windows-spy-utility/KS-Captured-Objects-section.png" width=70% alt="Captured objects section">
 
 You can view and edit the object name, locator and properties before adding it to the **Object Repository**.
 
@@ -74,7 +74,7 @@ You can view and edit the locator and properties of a captured object in the **O
 
 Go to **Tests Explorer**> **Object Repository**, and select the desired Windows object. Details about a captured object are displayed in the **Object** view as follows:
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-windows-object/Windows-Spy-Object-3.png" width=70% alt="Object view">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/windows-spy-utility/KS-Object-view.png" width=70% alt="Object view">
 
 In the **Object** view, you can view and edit:
 
