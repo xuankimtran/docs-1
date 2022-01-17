@@ -49,21 +49,25 @@ Follow these steps:
 
             > Notes:
             >
-            > * You choose **Test Suite** if you want to run test suites created in Katalon TestOps. 
+            > * You choose **Test Suite** if you want to run test suites created in TestOps or from Katalon Studio (KS).
             >      * Make sure you download a new local agent to execute test suites in the local environment. See: [Create a Local Test Environment with an Agent](https://docs.katalon.com/katalon-analytics/docs/agents.html).
             >
             >      * Make sure Kobiton integration is disabled because you can only execute test suites on desktop applications (browsers). You can toggle **Kobiton** off in advanced settings. See: [Advanced settings](https://docs.katalon.com/katalon-analytics/docs/create-plan.html#advanced-settings).
             >
-            > * You choose **Test Suite Collection** if you want to select the Test Suite Collections directly from Katalon Studio (KS). Katalon TestOps will automatically fetch your Test Suite Collections.
+            >      *  Once you have chosen **Test Suite**, the **Run with** section appears. The default browser is Chrome. You can select a different browser in the **Run with** section.  
+            >
+            > * You choose **Test Suite Collection** if you want to select the Test Suite Collections directly from KS. Katalon TestOps will automatically fetch your Test Suite Collections.
             > * You choose **Generic Command** if you want to execute tests with other frameworks outside KS (e.g., Pytest).
             > * You choose **Katalon Command** if you want to execute tests with KS. The Katalon commands can be generated from KS (in the **Command Generator** dialog). See: [Command Syntax](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html).
 
     * In the **Where to run** section, fill in the following information:
-        * **Test Environment Type**: choose among **Local Test Environment**, **Kubernetes Test Environment** or **CircleCI Test Environment**.
+        * **Test Environment Type**: choose among **Local Test Environment**, **TestCloud Test Environment**, **Kubernetes Test Environment** or **CircleCI Test Environment**.
 
             > Notes:
             >
-            > If you are using KRE, check the **Katalon Runtime Engine Version** box and select the version you are using from the dropdown list.
+            > * If you are using KRE, check the **Katalon Runtime Engine Version** box and select the version you are using from the dropdown list.
+            >
+            > * If you choose **Test Cloud Environment** to run test suites, the browser options in the **TestCloud** section correspond to the browser you have selected in the **Run with** section (when selecting **Test Suite** as **Type** in the **what to run** section). For example, if the selected browser is Chrome, the available options in the **TestCloud** section are: Window - Chrome and Linux - Chrome.
 
         * **Test Environments**: select the Agents you want to use for test executions.
 
