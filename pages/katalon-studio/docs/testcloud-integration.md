@@ -124,9 +124,9 @@ To configure TestCloud Tunnel, follow these steps:
 4. Follow the step-by-step instructions in the dialog to set up the tunnel client in your local machine:
 
     * Step 1: Select your OS and download the .zip file, then unzip it.
-    * Step 2: Open the CLI, copy the command line from the dialog, then run it in the CLI.
+    * Step 2: Open the command-line interface (CLI), copy the command line from the dialog, then run it in the CLI.
 
-         For example, the command line is:
+         An example command looks like this:
 
         ```groovy
         ./kt config --tenant KatalonStudio --username "your_username" --organization-id "your_organization_id" --api-key "your_api_key"
@@ -134,9 +134,9 @@ To configure TestCloud Tunnel, follow these steps:
 
         You have set up the tunnel client in your local machine.
 
-    * Step 3: Copy the command line in the dialog and run it in your CLI to start the tunnel.
+    * Step 3: Copy the command in the dialog and run it in your CLI to start the tunnel.
 
-        For example, the command line is:
+        An example command looks like this:
         
         ```groovy
         ./kt start
@@ -162,6 +162,6 @@ To configure TestCloud Tunnel, follow these steps:
 
 ## View TestCloud reports
 
-After test execution, all information are consolidated in execution logs and reports. You can view TestCloud reports in the following format: CSV, PDF, JUnit, html.
+After executing tests, execution data is consolidated in logs and reports. You can view TestCloud reports in the following formats: CSV, PDF, JUnit, HTML.
 
 See: [Test Suite and Test Suite Collection Reports](https://docs.katalon.com/katalon-studio/docs/test-suite-report.html).
