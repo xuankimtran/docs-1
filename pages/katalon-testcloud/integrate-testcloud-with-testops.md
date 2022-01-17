@@ -47,7 +47,7 @@ Follow these steps:
 
     > Notes:
     >
-    > Make sure the Kobiton integration is disabled by turning the **Kobiton** toggle off in the advanced settings. See: [Advanced settings](https://docs.katalon.com/katalon-analytics/docs/create-plan.html#advanced-settings).
+    > Make sure Kobiton integration is disabled. You can toggle **Kobiton** off in advanced settings. See: [Advanced settings](https://docs.katalon.com/katalon-analytics/docs/create-plan.html#advanced-settings).
 
 5. Click **Schedule**.
 
@@ -79,7 +79,7 @@ Follow these steps:
 
     > Notes:
     >
-    > Make sure the Kobiton integration is disabled by turning the **Kobiton** toggle off in the advanced settings. See: [Advanced settings](https://docs.katalon.com/katalon-analytics/docs/create-plan.html#advanced-settings).
+    > Make sure Kobiton integration is disabled. You can toggle **Kobiton** off in advanced settings. See: [Advanced settings](https://docs.katalon.com/katalon-analytics/docs/create-plan.html#advanced-settings).
 
 6. Click **Schedule**.  
 
