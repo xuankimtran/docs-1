@@ -34,7 +34,7 @@ Katalon creates three global variables in this sample project as follows:
 <tbody>
   <tr>
     <td>baseURL</td>
-    <td>https://sample-web-service-aut.herokuapp.com</td>
+    <td><code>https://sample-web-service-aut.herokuapp.com</code></td>
   </tr>
   <tr>
     <td>successCode</td>
@@ -70,6 +70,8 @@ Authorization is an essential part of an API. It is used to get the correct data
 We don't specify any authorization for this POST request.
 
 **(4) HTTP Header**
+
+
 
 **(5) HTTP Body**
 
