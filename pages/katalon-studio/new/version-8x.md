@@ -14,7 +14,7 @@ description: Release notes 8.x
 ### New features
 
 * [WebUI] Introduced an option to use the Spy, Record, and Smart Wait function with a packed extension, now available on the Chrome Web Store. This extension is compatible with Katalon Studio version 8.2.5 onwards. See [Katalon Compact Utility](https://docs.katalon.com/katalon-studio/docs/katalon-compact-utility.html).
-    * Introduced an option to enable/disable the Xpath visibility on the Katalon Compact Utility extension.
+    * Introduced an option to enable/disable Xpath visibility on the Katalon Compact Utility extension.
 * Introduced TestCloud integration (Beta). See [Integrate TestCloud with Studio](https://docs.katalon.com/katalon-studio/docs/testcloud-integration.html) and [Run TestCloud with Katalon Runtime Engine](https://docs.katalon.com/katalon-studio/docs/testcloud-integration-kre.html).
 
 ### Enhancements
@@ -36,7 +36,7 @@ description: Release notes 8.x
 * Removed unused messages in Test Object, Spy/Recorder, Test Suite Collection, and Test Suite.
 * [UI changes]:
     * [Dynamic Test Suite] Updated UI for the retry function in Dynamic Test Suite.
-    * Changed the **Communication**, **Feedback**, and **Support Portal** button.
+    * Changed the **Communication**, **Feedback**, and **Support Portal** buttons.
     * [TestOps Integration] Changed the UI in the **Katalon TestOps Integration** dialog. See [Upload Test Results to Katalon TestOps from Katalon Studio](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html).
     * [License Activation] Changed UI text from **Deactivate** to **Log out**.
 
