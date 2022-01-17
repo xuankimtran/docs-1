@@ -248,7 +248,7 @@ Belows are some common use cases of the desired capabilities for Firefox in Kata
    {"FIREFOX_DRIVER":{"moz:firefoxOptions":{"args":["--private","--devtools"]}}}
    ```
    <a class="pop">
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/project-settings-new-ui/KS-DC-Firefox-Private-Devtools.png" width="70%" alt="Open Firefox with devtools in the private mode">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/project-settings-new-ui/KS-DC-Firefox-Private-Devtools.png" width="70%" alt="Open Firefox with devtools in private mode">
    </a>
    <p style="text-align: center;"><em>Click the image to enlarge it</em></p>
 

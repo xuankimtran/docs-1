@@ -59,7 +59,7 @@ The following guidelines show you how to start browsers (Firefox, Chrome, Edge C
    </table>
 
    <a class="pop">
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/project-settings-new-ui/KS-DC-FIRFOX-Private-mode.png" width="70%" alt="Open Firefox with devtools in the private mode">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/project-settings-new-ui/KS-DC-FIRFOX-Private-mode.png" width="70%" alt="Open Firefox with devtools in private mode">
    </a>
    <p style="text-align: center;"><em>Click the image to enlarge it</em></p>
 
