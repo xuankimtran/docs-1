@@ -322,19 +322,24 @@ There are two test cases for different purposes:
       ```
       </details>
       
-2. The test case **Find user by ID** retrieves user information via an userID. In the test case, we use the `sample.Common.createNewUser` keyword to:
+2. The test case **Find user by ID** retrieves user information via an userID. The flow is as follows:
 
-    - Send the user information, including username, password, age, gender to the server to create a new account. Here, we set the value type of **username**, **password**, **age**, **gender** as **Variable**. You can change the **username**, **password**, **age**, **gender** value in the **Variable** tab.
-    - The POST request returns a userID as the response.
-    - Execute verification snippets in the **Verification** tab of the POST request.
-    - Extract the new userID from the response.
-    - Send the GET request to retrieve the user information via the newly created userID.
-    - Execute verification snippets in the **Verification** tab of the GET request.
+  - First, we use the `sample.Common.createNewUser` keyword to:
 
-    > Notes:
-    > * If you change the user information in the **Variables** tab of the test case, make sure to change the verification snippets in the **Verification** tab of the POST and GET request accordingly for successful verification. For example, if you change the user's age to `10`, then make sure to change the verification of the `age` element to `10`.
-    >
-      > <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-Matching-value-for-verification.png" width="100%" alt="A successful verification">
+      - Send the user information, including username, password, age, gender to the server to create a new account. Here, we set the value type of **username**, **password**, **age**, **gender** as **Variable**. You can change the **username**, **password**, **age**, **gender** value in the **Variable** tab.
+      - The POST request returns a userID as the response.
+      - Execute verification snippets in the **Verification** tab of the POST request.
+      - Extract the new userID from the response.
+
+  - Then, we use the `sample.Common.findUserById` keyword to:
+
+      - Send the GET request to retrieve the user information via the newly created userID.
+      - Execute verification snippets in the **Verification** tab of the GET request.
+
+      > Notes:
+      > * If you change the user information in the **Variables** tab of the test case, make sure to change the verification snippets in the **Verification** tab of the POST and GET request accordingly for successful verification. For example, if you change the user's age to `10`, then make sure to change the verification of the `age` element to `10`.
+      >
+        > <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-Matching-value-for-verification.png" width="100%" alt="A successful verification">
 
       **<details><summary>Click to view the test script</summary>**
 
