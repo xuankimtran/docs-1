@@ -41,8 +41,8 @@ Follow these steps:
 > To get the information on your repository URL and username, see the following documentation:
 >  * [Azure Repos Git Documentation](https://docs.microsoft.com/en-us/azure/devops/repos/git/?view=azure-devops).
 >  * [Bitbucket Documentation](https://confluence.atlassian.com/bitbucketserver/bitbucket-data-center-and-server-documentation-776639749.html).
->  * [GitHub Docs](https://docs.github.com/en).
->  * [GitLab Docs](https://docs.gitlab.com/ee/).
+>  * [GitHub Documentation](https://docs.github.com/en).
+>  * [GitLab Documentation](https://docs.gitlab.com/ee/).
 >
 > To create a PAT, see the following guides:
 >  * For Azure Repos, see: [Use personal access tokens](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops&tabs=preview-page).
