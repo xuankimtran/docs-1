@@ -337,7 +337,7 @@ There are two test cases for different purposes:
       - Execute verification snippets in the **Verification** tab of the GET request.
 
       > Notes:
-      > * If you change the user information in the **Variables** tab of the test case, make sure to change the verification snippets in the **Verification** tab of the POST and GET request accordingly for successful verification. For example, if you change the user's age to `10`, then make sure to change the verification of the `age` element to `10`.
+      > * If you change the user information in the **Variables** tab of the test case, make sure to change the verification snippets in the **Verification** tab of the POST and GET requests accordingly for successful verification. For example, if you change the user's age to `10`, then make sure to change the verification of the `age` element to `10`.
       >
       > <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-Matching-value-for-verification.png" width="100%" alt="A successful verification">
 
@@ -409,7 +409,7 @@ To execute a test case or a test suite in the sample project:
     > * For real-time monitoring and better reporting capabilities, consider integrating your project with Katalon TestOps. Learn more about test result reports here: [Upload Test Results to Katalon TestOps from Katalon Studio](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html).
 ## See also
 
-* [Create your first API test with Katalon Studio](hhttps://docs.katalon.com/katalon-studio/docs/create_first_api_test_katalon_studio.html#introduction)
+* [Create your first API test with Katalon Studio](https://docs.katalon.com/katalon-studio/docs/create_first_api_test_katalon_studio.html#introduction)
 * [Data-driven testing with RESTful Web Service requests](https://docs.katalon.com/katalon-studio/docs/ddt-with-web-service.html)
 
 
