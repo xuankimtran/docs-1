@@ -21,11 +21,11 @@ TestCloud stabilizes the test results when you execute a massive number of paral
 
 All users who belong to a TestOps organization can now use Katalon TestCloud (trial period).
 
-> Notes:
->
-> We currently do not support Kobiton integration.
-
 Follow the guidelines below to run tests in a TestCloud environment.
+
+> Requirements:
+>
+> Kobiton integration must be disabled. You can toggle **Kobiton** off in advanced settings. See: [Advanced settings](https://docs.katalon.com/katalon-analytics/docs/create-plan.html#advanced-settings).
 
 ## Run tests in public domains with TestCloud
 
@@ -44,10 +44,6 @@ Follow these steps:
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/testops-integration/public-domains/beta-testcloud-browser-selections.png" width=100% alt="testcloud section in schedule test run dialog">
 
 4. Select the OS and browsers you want to test in the **TestCloud** section.
-
-    > Notes:
-    >
-    > Make sure Kobiton integration is disabled. You can toggle **Kobiton** off in advanced settings. See: [Advanced settings](https://docs.katalon.com/katalon-analytics/docs/create-plan.html#advanced-settings).
 
 5. Click **Schedule**.
 
@@ -76,10 +72,6 @@ Follow these steps:
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/testops-integration/private-domains/beta-switch-testcloud-tunnel-on.png" width=100% alt="test run types page run with testcloud successfully">
 
 5. Select the OS and browsers in the **TestCloud** section.
-
-    > Notes:
-    >
-    > Make sure Kobiton integration is disabled. You can toggle **Kobiton** off in advanced settings. See: [Advanced settings](https://docs.katalon.com/katalon-analytics/docs/create-plan.html#advanced-settings).
 
 6. Click **Schedule**.  
 
