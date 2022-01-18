@@ -18,13 +18,13 @@ Katalon Studio supports executing feature files in a folder with the `runFeature
       <td>
         <code>@tag1 and @tag2</code>
       </td>
-      <td>Scenarios tagged with both <code>@tag1</code> and <code>@tag2</code>.</td>
+      <td>Features tagged with both <code>@tag1</code> and <code>@tag2</code>.</td>
     </tr>
     <tr>
       <td>
         <code>@tag1 or @tag2</code>
       </td>
-      <td>Scenarios tagged with either <code>@tag1</code> or <code>@tag2</code>.</td>
+      <td>Features tagged with either <code>@tag1</code> or <code>@tag2</code>.</td>
     </tr>
   </tbody>
 </table>
@@ -33,7 +33,7 @@ Katalon Studio supports executing feature files in a folder with the `runFeature
 
 ## Using the AND tag expression
 
-* **Description**: query the feature files in the specified folder, and execute the scenarios associated with all the input tags.
+* **Description**: query the feature files in the specified folder, and execute the features associated with all the input tags.
 * **Keyword name**: runFeatureFolderWithTags.
 * **Keyword syntax**: runFeatureFolderWithTags(folderRelativePath, tags, flowControl).
 * **Parameters**:
@@ -42,7 +42,7 @@ Katalon Studio supports executing feature files in a folder with the `runFeature
     * Parameter Type: `String`.
     * Mandatory: required.
   * Name: tags
-    * Description: the tags of the scenarios that you want to execute.
+    * Description: the tags of the features that you want to execute.
     * Parameter Type: `String`, `String[]`, or `String...` (Varargs).
     * Mandatory: required.
   * Name: flowControl (only valid when tags are of `String[]` type)
@@ -70,7 +70,7 @@ Katalon Studio supports executing feature files in a folder with the `runFeature
 
 ## Using the OR tag expression
 
-* **Description**: query the feature files in the specified folder, and execute the scenarios associated with any of the input tags.
+* **Description**: query the feature files in the specified folder, and execute the features associated with any of the input tags.
 * **Keyword name**: runFeatureFolderWithTags.
 * **Keyword syntax**: runFeatureFolderWithTags(folderRelativePath, tags, flowControl).
 * **Parameters**:
@@ -79,7 +79,7 @@ Katalon Studio supports executing feature files in a folder with the `runFeature
     * Parameter Type: `String`.
     * Mandatory: required.
   * Name: tags
-    * Description: the tags of the scenarios that you want to execute.
+    * Description: the tags of the features that you want to execute.
     * Parameter Type: `String` or `String[]`.
     * Mandatory: required.
   * Name: flowControl (only valid when tags are of `String[]` type)
