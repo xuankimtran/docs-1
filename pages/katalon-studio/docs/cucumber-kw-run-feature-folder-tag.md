@@ -54,13 +54,13 @@ Katalon Studio supports executing feature files in a folder with the `runFeature
 
   **Example #1**: tags of `String` type
   ```groovy
-  CucumberKW.runFeatureFileWithTags("Include/features/BDD Cucumber Tests/", "@tag1 and @tag2")
+  CucumberKW.runFeatureFolderWithTags("Include/features/BDD Cucumber Tests/", "@tag1 and @tag2")
   ```
 
   **Example #2**: tags of `String[]` type
   ```groovy
   String[] logTags = ["@tag1", "@tag2"] as String[]
-  CucumberKW.runFeatureFileWithTags("Include/features/BDD Cucumber Tests/", logTags, FailureHandling.STOP_ON_FAILURE)
+  CucumberKW.runFeatureFolderWithTags("Include/features/BDD Cucumber Tests/", logTags, FailureHandling.STOP_ON_FAILURE)
   ```
 
   **Example #3**: tags of `String...` type (Varargs)
@@ -70,7 +70,7 @@ Katalon Studio supports executing feature files in a folder with the `runFeature
 
 ## Using the OR tag expression
 
-* **Description**: query the feature files in the specified folder, and execute the scenarios associated with one of the input tags.
+* **Description**: query the feature files in the specified folder, and execute the scenarios associated with any of the input tags.
 * **Keyword name**: runFeatureFolderWithTags.
 * **Keyword syntax**: runFeatureFolderWithTags(folderRelativePath, tags, flowControl).
 * **Parameters**:
@@ -92,6 +92,8 @@ Katalon Studio supports executing feature files in a folder with the `runFeature
   **Example #1**: tags of `String` type
   ```groovy
   CucumberKW.runFeatureFolderWithTags("Include/features/BDD Cucumber Tests/", "@tag1 or @tag2")
+  // Or 
+  CucumberKW.runFeatureFolderWithTags("Include/features/BDD Cucumber Tests/", "@tag1, @tag2")
   ```
 
   **Example #2**: tags of `String[]` type

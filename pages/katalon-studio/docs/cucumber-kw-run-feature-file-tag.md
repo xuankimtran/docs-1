@@ -69,7 +69,7 @@ Katalon Studio supports executing a single feature file with the `runFeatureFile
   ```
 ## Using the OR tag expression
 
-* **Description**: execute the scenarios associated with one of the input tags.
+* **Description**: execute the scenarios associated with any of the input tags.
 * **Keyword name**: runFeatureFileWithTags
 * **Keyword syntax**: runFeatureFileWithTags(relativeFilePath, tags, flowControl).
 * **Parameters**:
@@ -91,6 +91,8 @@ Katalon Studio supports executing a single feature file with the `runFeatureFile
   **Example #1**: tags of `String` type
   ```groovy
   CucumberKW.runFeatureFileWithTags("Include/features/New Feature File.feature", "@tag1 or @tag2")
+  // Or
+  CucumberKW.runFeatureFileWithTags("Include/features/New Feature File.feature", "@tag1, @tag2")
   ```
 
   **Example #2**: tags of `String[]` type
