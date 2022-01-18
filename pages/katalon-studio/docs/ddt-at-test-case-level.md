@@ -88,7 +88,7 @@ In the **Data Binding** section, there are two tables:
 
       > Notes:
       > 
-      > If the variables and the data field in the selected data files share the same name, you can quickly map all the variables with the data fields in the data file by clicking **Map All**. For example, with this function, the 'Employee' and the 'Department' variables automatically map with the 'Employee' and 'Department' columns of the test data.
+      > * If the variables and the data field in the selected data files share the same name, you can quickly map all the variables with the data fields in the data file by clicking **Map All**. For example, with this function, the 'Employee' and the 'Department' variables automatically map with the 'Employee' and 'Department' columns of the test data.
 
   - Save the test case and run it. To view the results of your test, go to the **Log Viewer** tab.
 
@@ -107,6 +107,7 @@ In this section, we demonstrate how to execute the associated test cases in:
 
 > Notes:
 > * To execute test suites in the CLI, Docker or with CI/CD tools, you need an active Katalon Runtime Engine license.
+
 ### Conduct data binding at the suite test case level
 
 1. Add the above test case to a test suite.
