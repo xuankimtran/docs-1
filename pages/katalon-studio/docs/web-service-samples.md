@@ -60,23 +60,23 @@ To access the sample RESTful requests, in the **Test Explorer** panel, go to the
 
   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-POST-samples-POST-request.png" width="100%" alt="Sample POST request">
 
-  - Request method:
+  - **Request method**:
 
       Katalon allows you to choose one of the following methods for your request test: GET, POST, PUT, DELETE, PATCH, HEAD, CONNECT, OPTIONS, TRACE. The method needs to match the API endpoint to have a valid request. Here, we create a POST request to send the user information to the server to create an account. The server will return us with a new userID as a response.
 
-  - Request URL:
+  - **Request URL**:
 
       Along with the request method, request URL is to tell the web server which API is utilized under test. Any mismatch between method and URL leads to an invalid request exception at runtime or a wrong data response. For the POST request, we specify the API endpoint as follows: `${GlobalVariable.baseUrl}/api/users/json`, with the base URL is listed as a global variable, see above: [Profiles](https://docs.katalon.com/katalon-studio/docs/web-service-samples.html#profiles).
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-POST-Response-URL.png" width="100%" alt="Request URL in the sample POST request">
 
-  - Authorization:
+  - **Authorization**:
 
       Authorization is an essential part of an API. It is used to get the correct data under permission (unless the data is public). To learn more about authorization, you can refer to this document: [Authorization](https://docs.katalon.com/katalon-studio/docs/authorization.html).
 
       We don't specify any authorization for this POST request.
 
-  - HTTP Header:
+  - **HTTP Header**:
 
       You can configure the header information needed for sending the RESTful request object. By default, the **Content-Type** header is automatically generated from the input in the **HTTP Body** tab.
       Alternatively, you can select suggested headers from the dropdown list or manually input another header of your interest. To learn more about HTTP headers, you can refer to the Mozilla Developer website here: [HTTP headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers).
@@ -85,7 +85,7 @@ To access the sample RESTful requests, in the **Test Explorer** panel, go to the
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-POST-HTTP-header.png" width="70%" alt="HTTP header in the sample POST request">
 
-  - HTTP Body:
+  - **HTTP Body**:
 
     Katalon Studio supports the following body data types: text, x-www-form-urlencoded, form-data, and file. To learn more about types of the HTTP body, you can refer to this document: [Request body](https://docs.katalon.com/katalon-studio/docs/restful.html#request-body).
 
@@ -106,19 +106,19 @@ To access the sample RESTful requests, in the **Test Explorer** panel, go to the
 
     To learn more about setting parameters in a web service object, you can refer to this document: [Parameterize a web service object](https://docs.katalon.com/katalon-studio/docs/parameterize-a-web-service-object.html#query-parameters).
 
-  - Verification:
+  - **Verification**:
 
     Katalon Studio allows you to write verification scripts directly in the **Verification** tab of the web service object. To learn more about the verification snippets, you can refer to this document: [Verification Snippets](https://docs.katalon.com/katalon-studio/docs/verification-snippets.html#using-verification-snippets).
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-POST-Verification.png" width="100%" alt="Verification in the sample POST request">
 
-  - Variables:
+  - **Variables**:
 
     To pass the variables value to the POST request, we specify variables in the **Variables** tab. Here, we specify the user information, including `age`, `gender`, `username`, and `password` variables.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-POST-Variables.png" width="100%" alt="Variables in the sample POST request">
 
-  - Response tab & Formatter:
+  - The **Response** tab:
 
     The response is automatically displayed in a neat format: JSON, XML, HTML, and JavaScript. It is helpful for a quick view of the response status.
 
@@ -130,24 +130,24 @@ To access the sample RESTful requests, in the **Test Explorer** panel, go to the
 
   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-GET-Sample-GET-request.png" width="100%" alt="Sample GET request">
 
-  - Request method:
+  - **Request method**:
 
     For the sample GET request, we are to retrieve the user information by the userID.
 
-  - Request URL:
+  - **Request URL**:
 
     To pass the `id` variable to the GET API, we add the `${<variable_name>}` placeholder at the end of the API endpoint.
     The API endpoint for the GET request is as follows: `${GlobalVariable.baseUrl}/api/users/${id}`, with the base URL is listed as a global variable.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-GET-Response-URL.png" width="100%" alt="Request URL in the sample GET request">
 
-  - Variables:
+  - **Variables**:
 
     We specify the value for the `id` variable in the **Variables** tab. 
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-GET-Variables.png" width="100%" alt="Variables in the sample GET request">
 
-  - Authorization & HTTP Header & HTTP Body:
+  - **Authorization** & **HTTP Header** & **HTTP Body**:
 
     We don't specify any authorization, HTTP header, or HTTP body for this sample GET request. 
 ### Custom keywords
@@ -202,7 +202,7 @@ This keyword is to:
     <td>gender</td>
     <td>String</td>
     <td>Yes</td>
-    <td>The gender for the user</td>
+    <td>The gender of the user</td>
   </tr>
   <tr>
     <td>expectedStatus</td>
@@ -264,7 +264,7 @@ This keyword is to:
     <td>gender</td>
     <td>String</td>
     <td>Yes</td>
-    <td>The gender for the user</td>
+    <td>The gender of the user</td>
   </tr>
   <tr>
     <td>expectedStatus</td>
@@ -297,6 +297,7 @@ There are two test cases for different purposes:
 
     > Notes:
     > * If you change the user information in the **Variables** tab of the test case, make sure to change the verification snippets in the **Verification** tab of the POST request accordingly for successful verification. For example, if you change the user's age to `10`, then make sure to change the verification of the `age` element to `10`.
+    >
       > <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-Matching-value-for-verification.png" width="100%" alt="A successful verification">
 
       **<details><summary>Click to view the test script</summary>**
@@ -332,6 +333,7 @@ There are two test cases for different purposes:
 
     > Notes:
     > * If you change the user information in the **Variables** tab of the test case, make sure to change the verification snippets in the **Verification** tab of the POST and GET request accordingly for successful verification. For example, if you change the user's age to `10`, then make sure to change the verification of the `age` element to `10`.
+    >
       > <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-Matching-value-for-verification.png" width="100%" alt="A successful verification">
 
       **<details><summary>Click to view the test script</summary>**
