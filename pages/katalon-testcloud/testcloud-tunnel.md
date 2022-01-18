@@ -5,6 +5,12 @@ permalink: katalon-testcloud/docs/testcloud-tunnel.html
 description: Introducing TestCloud Tunnel and how to utilize it
 ---
 
+> Notice:
+>
+> We currently do not support using the tunnel connections behind a proxy.
+>
+> If you cannot load your app after setting up the local testing correctly, you are probably behind a proxy.
+
 ## TestCloud Tunnel
 
 A tunnel is used to secure the movement of data from one network to another.
