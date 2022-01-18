@@ -18,13 +18,13 @@ Katalon Studio supports executing a single feature file with the `runFeatureFile
       <td>
         <code>@tag1 and @tag2</code>
       </td>
-      <td>Scenarios tagged with both <code>@tag1</code> and <code>@tag2</code>.</td>
+      <td>Features or scenarios tagged with both <code>@tag1</code> and <code>@tag2</code>.</td>
     </tr>
     <tr>
       <td>
         <code>@tag1 or @tag2</code>
       </td>
-      <td>Scenarios tagged with either <code>@tag1</code> or <code>@tag2</code>.</td>
+      <td>Features or scenarios tagged with either <code>@tag1</code> or <code>@tag2</code>.</td>
     </tr>
   </tbody>
 </table>
@@ -33,7 +33,7 @@ Katalon Studio supports executing a single feature file with the `runFeatureFile
 
 ## Using the AND tag expression
 
-* **Description**: execute the scenarios associated with all the input tags.
+* **Description**: execute the features or scenarios associated with all the input tags.
 * **Keyword name**: runFeatureFileWithTags.
 * **Keyword syntax**: runFeatureFileWithTags(relativeFilePath, tags, flowControl).
 * **Parameters**:
@@ -42,7 +42,7 @@ Katalon Studio supports executing a single feature file with the `runFeatureFile
     * Parameter Type: `String`.
     * Mandatory: required.
   * Name: tags
-    * Description: the tags of the scenarios that you want to execute.
+    * Description: the tags of the features or scenarios that you want to execute.
     * Parameter Type: `String`, `String[]`, or `String...` (Varargs).
     * Mandatory: required.
   * Name: flowControl (only valid when tags are of `String[]` type)
@@ -69,7 +69,7 @@ Katalon Studio supports executing a single feature file with the `runFeatureFile
   ```
 ## Using the OR tag expression
 
-* **Description**: execute the scenarios associated with any of the input tags.
+* **Description**: execute the features or scenarios associated with any of the input tags.
 * **Keyword name**: runFeatureFileWithTags
 * **Keyword syntax**: runFeatureFileWithTags(relativeFilePath, tags, flowControl).
 * **Parameters**:
@@ -78,7 +78,7 @@ Katalon Studio supports executing a single feature file with the `runFeatureFile
     * Parameter Type: `String`
     * Mandatory: required
   * Name: tags
-    * Description: the tags of the scenarios that you want to execute.
+    * Description: the tags of the features or scenarios that you want to execute.
     * Parameter Type: `String` or `String[]`.
     * Mandatory: required
   * Name: flowControl (only valid when tags are of `String[]` type)
