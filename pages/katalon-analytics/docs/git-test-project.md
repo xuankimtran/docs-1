@@ -31,52 +31,26 @@ Follow these steps:
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-git-test-project/scrip-repo-page-after-creating-git-repo-2.png" width=100% alt="create script repo page">
 
-   * For Azure Repository integration:
+   * **Source Type**:  choose your Git script repository source type (**Azure Repos**/ **Bitbucket**/ **GitHub**/ **GitLab**).
+   * **Repository URL**: enter the URL of your Git script repository.
+   * **Username**: enter your Azure Repos/ Bitbucket/ GitHub/ GitLab username.
+   * **Personal Access Token**: enter your Personal Access Token (PAT).
 
-      * **Source Type**: choose **Azure Repos**.
-      * **Repository URL**: enter your Azure Repository.
-      * **Username**: enter your Azure Repos Username.
-      * **Personal Access Token**: enter your Personal Access Token (PAT).
-
-         > Notes:
-         >
-         > You can create a PAT for your Azure Repos. See: [Use personal access tokens](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?toc=%2Fazure%2Fdevops%2Forganizations%2Ftoc.json&bc=%2Fazure%2Fdevops%2Forganizations%2Fbreadcrumb%2Ftoc.json&view=azure-devops&tabs=preview-page#create-a-pat).
-
-   * For Bitbucket integration:
-
-      * **Source Type**: choose **Bitbucket**.
-      * **Repository URL**: enter your Bitbucket Repository.
-      * **Username**: enter your Bitbucket Username.
-      * **Personal Access Token**: enter your Personal Access Token.
-   
-         > Notes:
-         >
-         > You can create an access token in Bitbucket. See: [HTTP access tokens](https://confluence.atlassian.com/bitbucketserver/personal-access-tokens-939515499.html).
-   
-   * For GitHub integration:
-
-      * **Source Type**: choose **Github**.
-      * **Repository URL**: enter your GitHub Repository. For example, https://github.com/katalon-studio-samples/ci-samples.
-      * **Username**: enter your GitHub Username.
-      * **Personal Access Token**: enter your Personal Access Token.
-   
-         > Notes:
-         >
-         > You can create an individual access token in GitHub. See: [Create a Personal Access Token](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line).
-         >
-         > Follow the instruction and make sure you choose **repo** in the **Select scopes** section in the **New personal access token** page.
+> Notes:
+>
+> To get the information on your repository URL and username, see the following documentation:
+>  * [Azure Repos Git Documentation](https://docs.microsoft.com/en-us/azure/devops/repos/git/?view=azure-devops).
+>  * [Bitbucket Documentation](https://confluence.atlassian.com/bitbucketserver/bitbucket-data-center-and-server-documentation-776639749.html).
+>  * [GitHub Docs](https://docs.github.com/en).
+>  * [GitLab Docs](https://docs.gitlab.com/ee/).
+>
+> To create a PAT, see the following guides:
+>  * For Azure Repos, see: [Use personal access tokens](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops&tabs=preview-page).
+>  * For Bitbucket, see: [HTTP access tokens](https://confluence.atlassian.com/bitbucketserver/personal-access-tokens-939515499.html).
+>  * For GitHub, see: [Create a Personal Access Token](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line).
+>     * Follow the instruction and make sure you choose **repo** in the **Select scopes** section in the **New personal access token** page.
          <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-git-test-project/new-personal-access-toke-page-git.png" width=100%>
-
-   * For Gitlab integration:
-
-      * **Source Type**: choose **GitLab**.
-      * **Repository URL**: enter your GitLab Repository.
-      * **Username**: enter your GitLab Username.
-      * **Personal Access Token**: enter your Personal Access Token.
-
-         > Notes:
-         >
-         > You can create a personal access token in GitLab. See: [Create a personal access token](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html#create-a-personal-access-token).
+>  * For GitLab, see: [Create a personal access token](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html#create-a-personal-access-token).
 
 4. Click **Connect**.
 
