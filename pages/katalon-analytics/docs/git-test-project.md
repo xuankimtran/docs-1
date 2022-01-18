@@ -36,11 +36,11 @@ Follow these steps:
       * **Source Type**: choose **Azure Repos**.
       * **Repository URL**: enter your Azure Repository.
       * **Username**: enter your Azure Repos Username.
-      * **Personal Access Token**: enter your Personal Access Token.
+      * **Personal Access Token**: enter your Personal Access Token (PAT).
 
-      > Notes:
-      >
-      > See [Azure Repos Git Documentation](https://docs.microsoft.com/en-us/azure/devops/repos/git/?view=azure-devops) for guidelines.
+         > Notes:
+         >
+         > You can create a PAT for your Azure Repos. See: [Use personal access tokens](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?toc=%2Fazure%2Fdevops%2Forganizations%2Ftoc.json&bc=%2Fazure%2Fdevops%2Forganizations%2Fbreadcrumb%2Ftoc.json&view=azure-devops&tabs=preview-page#create-a-pat).
 
    * For Bitbucket integration:
 
@@ -51,7 +51,7 @@ Follow these steps:
    
          > Notes:
          >
-         > See Bitbucket's [personal access tokens](https://confluence.atlassian.com/bitbucketserver/personal-access-tokens-939515499.html) for guidelines.
+         > You can create an access token in Bitbucket. See: [HTTP access tokens](https://confluence.atlassian.com/bitbucketserver/personal-access-tokens-939515499.html).
    
    * For GitHub integration:
 
@@ -83,11 +83,11 @@ Follow these steps:
    The following sections appear:
 
    * **Branch**: choose a branch.
-   * **Name**: enter your project’s name.
+   * **Name**: enter your project name.
 
 5. Click **Create**.
 
-You have enabled Azure Repos/ Bitbucket/ GitHub/ GitLa integration and created a new Git script repository in Katalon TestOps.
+You have enabled Azure Repos/ Bitbucket/ GitHub/ GitLab integration and created a new Git script repository in Katalon TestOps.
 
 Next step:
 * [Schedule Test Runs](https://docs.katalon.com/katalon-analytics/docs/create-plan.html).
