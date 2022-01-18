@@ -123,6 +123,16 @@ The response is automatically displayed in a neat format: JSON, XML, HTML, and J
 
 <img src="url" width="70%" alt="Sample GET request">
 
+**(1) Request method**
+
+For the sample GET request, we are to retrieve the user information by the userID.
+
+**(2) Request URL & (3) Variables**
+
+To pass the `id` variable to the GET API, we add the `${<variable_name>}` placeholder at the end of the API endpoint.
+The API endpoint for the GET request is as follows: `${GlobalVariable.baseUrl}/api/users/${id}`, with the base URL is listed as a global variable.
+
+<img src="url" width="70%" alt="Sample GET request">
 
 ### Custom keywords
 
