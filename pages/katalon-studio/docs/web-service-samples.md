@@ -17,7 +17,7 @@ Alternatively, you can download the sample API test project from our Github repo
 
 To open the execution profile, go to **Profiles > default**.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-Execution-profile.png" width="70%" alt="Default profile in the API sample">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-Execution-profile.png" width="60%" alt="Default profile in the API sample">
 
 
 You can create and save all global variables in the execution profile. They can be used across test cases in your project. To learn more about execution profiles and global variables, you can refer to this document: [Execution profile and global variables](https://docs.katalon.com/katalon-studio/docs/execution-profile-v54.html).
@@ -52,7 +52,7 @@ Katalon creates three global variables in this sample project as follows:
 We created two sample RESTful requests in this project: a POST request and a GET request.
 To access the sample RESTful requests, in the **Test Explorer** panel, go to the **Object Repository** folder.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-Test-objects.png" width="70%" alt="Test cases">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-Test-objects.png" width="60%" alt="Test cases">
 
 1. The **POST a new user** object
 
@@ -68,7 +68,7 @@ To access the sample RESTful requests, in the **Test Explorer** panel, go to the
 
       Along with the request method, request URL is to tell the web server which API is utilized under test. Any mismatch between method and URL leads to an invalid request exception at runtime or wrong data response. For the POST request, we specify the API endpoint as follows: `${GlobalVariable.baseUrl}/api/users/json`, with the base URL is listed as a global variable, see above: [Profiles](https://docs.katalon.com/katalon-studio/docs/web-service-samples.html#profiles).
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-POST-Response-URL.png" width="70%" alt="Request URL in the sample POST request">
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-POST-Response-URL.png" width="100%" alt="Request URL in the sample POST request">
 
   - Authorization:
 
@@ -116,7 +116,7 @@ To access the sample RESTful requests, in the **Test Explorer** panel, go to the
 
     To pass the variables value to the POST request, we specify variables in the **Variables** tab. Here, we specify the user information, including `age`, `gender`, `username` and `password` variables.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-POST-Variables.png" width="70%" alt="Variables in the sample POST request">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-POST-Variables.png" width="100%" alt="Variables in the sample POST request">
 
   - Response tab & Formatter:
 
@@ -139,7 +139,7 @@ To access the sample RESTful requests, in the **Test Explorer** panel, go to the
     To pass the `id` variable to the GET API, we add the `${<variable_name>}` placeholder at the end of the API endpoint.
     The API endpoint for the GET request is as follows: `${GlobalVariable.baseUrl}/api/users/${id}`, with the base URL is listed as a global variable.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-GET-Response-URL.png" width="70%" alt="Request URL in the sample GET request">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-GET-Response-URL.png" width="100%" alt="Request URL in the sample GET request">
 
   - Variables:
 
@@ -156,7 +156,7 @@ You can use custom keywords in the test case. To learn more about custom keyword
 
 Katalon creates two custom keywords in this sample project. To see the custom keywords, in the **Test Explorer** panel, go to **Keywords > sample > Common.groovy**.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-Custom-keyword.png" width="70%" alt="Custom keywords in the API project">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-Custom-keyword.png" width="60%" alt="Custom keywords in the API project">
 
 <details><summary> <code>sample.Common.createNewUser</code> </summary>
 
@@ -281,7 +281,7 @@ This keyword is to:
 
 To access the sample test cases in this project, in the **Test Explorer** panel, go to the **Test Cases** folder.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-Test-case.png" width="70%" alt="Test cases">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-Test-case.png" width="60%" alt="Test cases">
 
 There are two test cases for different purposes: 
 
@@ -289,7 +289,7 @@ There are two test cases for different purposes:
 
     - Send the user information including username, password, age, gender to the server to create an account. Here, we set the value type of **username**, **password**, **age**, **gender** as **Variable**. You can change the **username**, **password**, **age**, **gender** value in the **Variable** tab. To learn more about test case variables, you can refer to this document: [Test Case Variables](https://docs.katalon.com/katalon-studio/docs/test-case-variables.html).
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-User-info-in-variables.png" width="70%" alt="User information in the variables tab">
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-User-info-in-variables.png" width="100%" alt="User information in the variables tab">
 
     - The POST will return a userID as the response.
     - Execute verification snippets in the **Verification** tab of the POST request.
@@ -365,7 +365,7 @@ There are two test cases for different purposes:
 
 To view the data files in this sample project, in the **Test Explorer** panel, go to **Data Files > ListUser**.
 
-  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-Data-files.png" width="70%" alt="Data files in the API sample">
+  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-Data-files.png" width="60%" alt="Data files in the API sample">
 
 Alternatively, you can go to `<your-project-folder>\Data Files` and choose the file you want to open:
 
