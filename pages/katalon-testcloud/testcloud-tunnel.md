@@ -29,7 +29,7 @@ By default, the tunnel is closed after 30 minutes if there is no request or traf
 
 To start the tunnel again, you start the run command in the tunnel client.
 
-After starting the run command line, the tunnel client connects you to the TestCloud Tunnel server.
+After starting the run command, the tunnel client connects you to the TestCloud Tunnel server.
 
 ## Utilize TestCloud Tunnel
 
@@ -51,22 +51,24 @@ We recommend the following practices to optimize your tunnel usage:
 
 * Run one tunnel client on one machine to avoid timeout and bandwidth issues that could cause test failure.
 
-    If test failure occurs and you change your machine, you need to copy the current tunnel configuration to a new machine. Then you delete the `client_id` in the CLI to run a new one.
-
-* To save your machine's bandwidth and resources, you can quickly close the tunnel using the shortcut Ctrl+C in the CLI after you finish running tests.
+* To save your machine's bandwidth and resources, you can quickly close the tunnel using the shortcut Ctrl+C in the command-line interface (CLI) after you finish running tests.
 
 ## Configure TestCloud Tunnel
-
-### For Katalon TestOps
-
-See: [Integrate TestCloud with TestOps](https://docs.katalon.com/katalon-testcloud/docs/integrate-testcloud-with-testops.html#integrate-testcloud-with-testops).
-
-### For Katalon Studio
-
-See: [Integrate TestCloud with Studio](https://docs.katalon.com/katalon-studio/docs/testcloud-integration.html).
 
 > Notes:
 >
 > * The tunnel-sharing feature is only available in TestOps.
 > * The tunnel created in Studio is separate from the one created in TestOps. You cannot use tunnels from TestOps and Studio interchangeably.
 > * The tunnel is automatically terminated after 30 minutes of idleness.
+
+### For Katalon TestOps
+
+See: [Integrate TestCloud with TestOps](https://docs.katalon.com/katalon-testcloud/docs/integrate-testcloud-with-testops.html#configure-the-testcloud-tunnel).
+
+### For Katalon Studio
+
+See: [Integrate TestCloud with Studio](https://docs.katalon.com/katalon-studio/docs/testcloud-integration.html).
+
+### Configure Testcloud Tunnel in a new machine
+
+If test failure occurs and you change your machine, you need to copy the current tunnel configuration to a new machine. Then you delete the `client_id` in the CLI to run a new one.
