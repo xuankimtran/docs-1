@@ -65,9 +65,9 @@ Follow these steps:
 
             > Notes:
             >
-            > * If you are using KRE, check the **Katalon Runtime Engine Version** box and select the version you are using from the dropdown list.
+            > * If you are using Katalon Runtime Engine (KRE), check the **Katalon Runtime Engine Version** box and select the version you are using from the dropdown list.
             >
-            > * If you choose **Test Cloud Environment** to run test suites, the browser options in the **TestCloud** section correspond to the browser you have selected in the **Run with** section (when selecting **Test Suite** as **Type** in the **What to run** section). For example, if the selected browser is Chrome, the available options in the **TestCloud** section are: Window - Chrome and Linux - Chrome.
+            > * If you choose **Test Cloud Environment** to run test suites, the browser options in the **TestCloud** section correspond to the browser you have selected in the **Run with** section (when selecting **Test Suite** as **Type** in the **What to run** section). For example, if the selected browser is Chrome, the available options in the **TestCloud** section are: Window - Chrome and Linux - Chrome. See also: [Integrate TestCloud with TestOps](https://docs.katalon.com/katalon-testcloud/docs/integrate-testcloud-with-testops.html#integrate-testcloud-with-testops).
 
         * **Test Environments**: select the Agents you want to use for test executions.
 
