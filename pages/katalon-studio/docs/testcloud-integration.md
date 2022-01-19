@@ -35,7 +35,7 @@ Follow these steps:
 
    > Notes:
    >
-   > If you cannot find your desired organization, click **Fetch Organization** to refresh. This action retreives all available organizations you have joined. You then can select the organization you want in the dropdown menu.
+   > If you cannot find your desired organization, click **Fetch Organization** to refresh. This action retrieves all available organizations you have joined. You then can select the organization you want in the dropdown menu.
 
 5. Click **Apply and Close**.
 
