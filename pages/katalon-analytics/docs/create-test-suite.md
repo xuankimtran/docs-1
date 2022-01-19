@@ -1,7 +1,7 @@
 ---
-title: "Create Test Suites"
+title: "Manage Test Suites"
 sidebar: katalon_studio_docs_sidebar
-permalink: katalon-analytics/docs/create-test-suite.html
+permalink: katalon-analytics/docs/test-suite-management.html
 redirect_from:
 ---
 
@@ -66,7 +66,7 @@ See: [Manage Test Cases](https://docs.katalon.com/katalon-analytics/docs/test-ca
 
 You can update the test suite you have created in Katalon TestOps.
 
-### Rename a test suite and add/remove test cases
+### Rename a Test Suite and add/remove Test Cases
 
 1. Go to **Test Management** > **Test Suites**.
 
