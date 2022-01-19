@@ -93,7 +93,7 @@ From Katalon Studio version 8.2.5 onwards, you can enable/disable the XPath visi
 
 > Known limitation:
 >
-> * For web pages saved as HTML local files, Katalon Compact Utility cannot spy and capture objects, while unpacked extensions can do that.
+> * For web pages saved as HTML local files, Katalon Compact Utility cannot spy and capture objects, while unpacked extensions (from the native Spy and Record utility) can do that.
 
 See also:
 
