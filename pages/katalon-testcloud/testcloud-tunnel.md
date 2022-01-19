@@ -33,7 +33,7 @@ A tunnel client spins up a fresh virtual machine (VM) that is used only for test
 
 By default, the tunnel is closed after 30 minutes if there is no request or traffic (i.e. the tunnel is idle for 30 minutes). Consequently, the VM is shut down.
 
-To start the tunnel again, you start the run command in the tunnel client.
+To start the tunnel again, you enter the run command in the tunnel client.
 
 After starting the run command, the tunnel client connects you to the TestCloud Tunnel server.
 
