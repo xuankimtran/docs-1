@@ -60,7 +60,7 @@ For example, the download link in the script below is an element nested in anoth
 
 It is difficult to identify a nested element, such as the `<a>` element in the script above. To define the XPath manually, we need to have solid knowledge about the DOM structure of the webpage.
 
-### How to identify nested elements?
+### Identify nested elements using XPath
 
 Identifying XPath is an effective way to find nested elements which cannot be identified by common properties such as **ID**, **Name**, or **Class**. Katalon Studio can generate and optimize XPath for HTML elements, regardless of how deeply nested they are. You can use these XPaths to identify elements without having to search through the DOM tree.
 
@@ -76,7 +76,7 @@ One of the challenging and time-consuming tasks in test automation is to modify 
 
 Dynamic web elements are elements that IDs and any other attributes like class names or values keep changing when you refresh the page. Dynamic elements are database-driven or session-driven. For example, when you edit an element in a database, it changes a number of areas of the application under test.
 
-### Deal with dynamically changing elements
+### Deal with dynamic elements using XPath
 
 To deal with dynamic elements, you might not want to set fixed XPaths for these elements in test cases. Instead, you might want to script XPaths dynamically based on certain patterns. 
 
@@ -94,9 +94,145 @@ XPath axes are those axes that are used to search for the multiple nodes in the 
 | //*\[contains(text(),'Login')\] | Locate any element that contains the text "Login" |
 | //a\[starts-with(@id='LoginPanel')\] | Locate the **a** tag element that has the ID starting with "LoginPanel" |
 
-You can find some common XPath axes, their descriptions and examples in this documentation: [link]
-
 For more information on XPath Axes, refer to W3school documentation: [XPath Axes](https://www.w3schools.com/xml/xpath_axes.asp).
+
+## Working with XPath selector
+
+You can capture objects, get web element XPath or CSS locator, and manually input object selectors with XPath or CSS Selection Method mode using Spy Web Utility. Spy Web Utility provides instant feedback by auto-detecting the numbers of matching element with provided selector and highlighting it.
+To learn more about this utility, see [Spy Web Utility](http://docs.katalon.com/pages/viewpage.action?pageId=5117668).
+
+The following guide shows how to leverage Katalon Studio Spy Web Utility to locate web element with XPath selector.
+
+### Checking Multiple Attributes
+
+As an example, you can identify the login button with multiple attributes
+
+![Login-Button-Multiple-Attributes](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/Login-Button-Multiple-Attributes.png)
+
+Xpath:
+
+```groovy
+//*[@id='btn-login'][@type='submit']
+
+```
+
+![Multiple-Attributes](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/Multiple-Attributes.png)
+
+### Contains()
+
+Contains() is a method used in an XPath expression. It is used when the value of any attribute changes dynamically such as login information.
+
+Example:
+
+Contains method for heading CURA Healthcare Service
+
+![CURA-Healthcare-Service](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/CURA-Healthcare-Service.png)
+
+Xpath:
+
+```groovy
+ //h1[contains(.,'CURA Healthcare Service')]
+
+```
+
+![Xpath object selector](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/Contain-Method.png)
+
+### Last()
+
+Last() is a method used in an XPath expression. It is used to get the very last node.
+
+Example:
+
+There are 3 Social Icon Links, and we want to get the 3rd and last item by using Last()
+
+![Social-icons-by-using-Last](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/Social-icons-by-using-Last.png)
+
+Xpath:
+
+```groovy
+//ul[@class='list-inline']/li[last()]
+
+```
+
+### Start-with()
+
+The Start-with method finds the element whose attribute value changes on refresh or any operation on the webpage. In this expression, the starting text of the attribute is used to find the element whose attribute changes dynamically. You can also find the element whose attribute value is static (not changing).
+
+Example:
+
+Starts-with() method for heading CURA Healthcare Service
+
+![CURA-Healthcare-Service](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/CURA-Healthcare-Service.png)
+
+Xpath:
+
+```groovy
+//h3[starts-with(.,'We Care About')]
+
+```
+
+### Xpath axes methods
+
+These Xpath axes methods are used to find complex or dynamic elements.
+
+<table>
+    <thead>
+        <tr>
+            <th>Method</td>
+            <th>Description</th>
+            <th>Example</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Following</td>
+            <td>Selects all elements in the document following the current node( )</td>
+            <td>
+                <p>By using Following we can identify the Password text box which is located after the Username name field.</p>
+                <p>XPath: <code>.//*[@id='txt-username']//following::input</code></p>
+            </td>
+        </tr>
+        <tr>
+            <td>Ancestor</td>
+            <td>Select all ancestors (parent, grandparent, etc.) of the current node.</td>
+            <td>
+                <p>In the below screenshot we want to get the ancestors of the 'ul ' tag highlighted in red. These ancestors are highlighted in blue.</p>
+                <p>XPath: <code>//ul[@class='list-inline']/ancestor::div</code></p>
+            </td>
+        </tr>
+        <tr>
+            <td>Child</td>
+            <td>Selects all children of the current node.</td>
+            <td>
+                <p>Using Child we can identify all social links as shown in the below screenshot.</p>
+                <p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/identify-all-social-links-by-child.png" alt="identify all social links by child" width="100%"></p>
+                <p>XPath: <code>//ul[@class='list-inline']/child::li</code></p>
+            </td>
+        </tr>
+        <tr>
+            <td>Preceding</td>
+            <td>Selects all nodes that come before the current node.</td>
+            <td>
+                <p>Using Preceding we can identify all nodes that come before the Login button.</p>
+                <p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/identify-all-nodes-before-the-Login-button.png" alt="identify all nodes before the Login button" width="100%"></p>
+                <p>Xpath: <code>//*[@id='btn-login']//preceding::input</code></p>
+            </td>
+        </tr>
+        <tr>
+            <td>Following-sibling</td>
+            <td>
+                <p>Selects the following siblings of the context node. Siblings are at the same level of the current node as shown in the screen below. It will find the element after the current node.</p>
+                <p>By following-sibling method, we can Identify Password text box which located after Username name field.</p>
+                <p>Xpath: <code>.//*[@id='txt-username']//following::input</code><p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
+The source code is available to be downloaded [here](https://github.com/katalon-studio/katalon-web-automation).
+
+For further instructions and help, please refer to [Katalon Studio Tutorials](/katalon-studio/tutorials/) and [Katalon Forum](https://forum.katalon.com/).
 
 **Next step**:
 
