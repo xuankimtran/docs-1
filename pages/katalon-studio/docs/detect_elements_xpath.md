@@ -24,7 +24,7 @@ There are two types of XPath: absolute XPath and relative XPath (smart XPath).
 
 XML documents are treated as trees of nodes, in which the topmost element of the tree is the root element.
 
-Absolute XPath is the path starting from the root.
+Absolute XPath is the path starting from the root. An absolute XPath starts with html and forward slash (/).
 
 For example: `/html/body/div[1]/div[1]/div/div[3]/div[2]/div`
 
@@ -74,11 +74,13 @@ The example below illustrates how Katalon Studio generates and optimizes XPath a
 
 One of the challenging and time-consuming tasks in test automation is to modify test scripts when the AUT is changed, especially in the early stages of software development. Developers may change identifiers and elements quite often from one build to another. In addition, during the execution, the AUT elements may change dynamically.
 
-Dynamic web elements are elements that IDs and any other attributes like class names or values keep changing when you refresh the page. Dynamic elements are database-driven or session-driven. For example, when you edit an element in a database, it changes a number of areas of the application under test. Dynamic elements are strictly content, with formatting being laid out in the design. Dynamic identifiers are generally used for text-boxes and buttons.
+Dynamic web elements are elements that IDs and any other attributes like class names or values keep changing when you refresh the page. Dynamic elements are database-driven or session-driven. For example, when you edit an element in a database, it changes a number of areas of the application under test.
 
 ### Deal with dynamically changing elements
 
-To deal with dynamic elements, you might not want to set fixed XPaths for these elements in test cases. Instead, script XPaths dynamically based on certain patterns. Katalon Studio supports all XPath Axes, such as:
+To deal with dynamic elements, you might not want to set fixed XPaths for these elements in test cases. Instead, you might want to script XPaths dynamically based on certain patterns. 
+
+XPath axes are those axes that are used to search for the multiple nodes in the XML document from the current node context. Katalon Studio supports all XPath axes, for example:
 
 * following-sibling
 * preceding-sibling
@@ -86,13 +88,13 @@ To deal with dynamic elements, you might not want to set fixed XPaths for these 
 * descendant
 * starts-with
 
-Here are a few examples:
-
 | Xpath value | Description |
 | --- | --- |
 | .//h2\[text()='Make Appointment'\] | Locate the **h2** tag element that has text matching exactly "Make Appointment" |
 | //*\[contains(text(),'Login')\] | Locate any element that contains the text "Login" |
 | //a\[starts-with(@id='LoginPanel')\] | Locate the **a** tag element that has the ID starting with "LoginPanel" |
+
+You can find some common XPath axes, their descriptions and examples in this documentation: [link]
 
 For more information on XPath Axes, refer to W3school documentation: [XPath Axes](https://www.w3schools.com/xml/xpath_axes.asp).
 
