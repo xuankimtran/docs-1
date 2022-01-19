@@ -112,7 +112,7 @@ Enable WebView debugging in your Android app. To enable this, set the `setWebCon
       WebUI.setText(cdmDetails, "123")
       ```
 
-      If you wish to stop automating in the `WEBVIEW` context and go back to automate the native portion of the app, use the `switchToNative` mobile keyword. More information here: [[Mobile]switchToNative](https://docs.katalon.com/katalon-studio/docs/mobile-switch-to-native.html) mobile keyword.
+      If you wish to stop automating in the `WEBVIEW` context and back to automating the native portion of the app, use the `switchToNative` mobile keyword. More information here: [[Mobile]switchToNative](https://docs.katalon.com/katalon-studio/docs/mobile-switch-to-native.html) mobile keyword.
 
       ```groovy
       // to switch back to the native mode.
