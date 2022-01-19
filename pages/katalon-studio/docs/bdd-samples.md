@@ -4,7 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/bdd-samples.html 
 ---
 
-This sample demonstrates fundamental BDD (Cucumber) testing. The application under test (AUT) is the react calculator: `https://katalon-studio-samples.github.io/calculator`. To learn more about BDD testing, you can refer to this document: [BDD Testing Framework (Cucumber integration)](https://docs.katalon.com/katalon-studio/docs/cucumber-features-file.html).
+This sample demonstrates fundamental behavior-driven development (BDD) testing. The application under test (AUT) is the react calculator: `https://katalon-studio-samples.github.io/calculator`. To learn more about BDD testing, you can refer to this document: [BDD Testing Framework (Cucumber integration)](https://docs.katalon.com/katalon-studio/docs/cucumber-features-file.html).
 ## Open the sample BDD test project
 
 To open the BDD sample project, in Katalon Studio, go to **File > New Sample Project > Sample BDD Cucumber Tests Project**.
@@ -75,7 +75,21 @@ To learn more about feature files creation and maintanance in Katalon Studio, yo
 
 To execute the scenario in the feature files, each Gherkin step needs to be defined as a set of programming code. You can reuse Katalon Studio built-in keywords in step definition files. When Katalon Studio executes any features files in the test case, it looks for the matching step definitions in the source folder.
 
-In this sample test project, you can find the step definitions in **Include > scripts > groovy**. 
+In this sample test project, you can find the step definitions in **Include > scripts > groovy**. The step denfition files are located in two different packages:
+
+<img src="url" width="60%" alt="Step definitions in the BDD project">
+
+1. The `default` package. 
+
+  - The `default` package contains the `Common.groovy` file that defines the `Given` and `Then` steps for all feature files. 
+
+<img src="url" width="60%" alt="Step definitions in the BDD project">
+
+2. The `operations` package.
+
+  - The `operations` package contains four step definition files, representing four forms of calculation: minus, plus, division and multiplication. These files define the `When` steps in their matching feature files. For example, the `Minus.groovy` file defines the `When` steps in the `Minus.feature` file. 
+
+<img src="url" width="60%" alt="Step definitions in the BDD project">
 
 ### Custom keywords
 
@@ -108,96 +122,52 @@ This keyword includes the following parameters:
 </tbody>
 </table>
 
-### Test Listeners
 ### Test cases
 
-To access the sample test cases in this project, in the **Test Explorer** panel, go to the **Test Cases** folder.
+To access the main test cases in this project, in the **Test Explorer** panel, go to **Test Cases > operations**.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-Test-case.png" width="60%" alt="Test cases">
+<img src="url" width="60%" alt="Test cases">
 
-There are two test cases for different purposes: 
+There are four test cases representing four different formulas: minus, plus, division and multiplication. 
 
-1. The **Create a new user** test case is to create a new user. In the test case, we use the `sample.Common.createNewUser` keyword to:
+Here we will describe the main flow in the test case **Verify Minus**. This test case performs the minus calculation with the given numbers.
 
-    - Send the user information, including username, password, age, gender to the server to create an account. Here, we set the value type of **username**, **password**, **age**, **gender** as **Variable**. You can change the **username**, **password**, **age**, **gender** value in the **Variable** tab. To learn more about test case variables, you can refer to this document: [Test Case Variables](https://docs.katalon.com/katalon-studio/docs/test-case-variables.html).
+> The other test cases flow are similar but perform different formulas.
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-User-info-in-variables.png" width="100%" alt="User information in the variables tab">
+The test case **Verify Minus** executes the `Minus.feature` files in the following steps:
 
-    - The POST will return a userID as the response.
-    - Execute verification snippets in the **Verification** tab of the POST request.
-    - Extract the new user ID from the response.
+- The `Given` step calls the test case **The Calculator page is loaded successfully**. This test case opens the react calculator.
+- The `When` steps calls the test case **Minus number**. This test case:
+  
+  - Uses the `ClickNumber.clickNumber` custom keyword to input the given numbers on the react calculator.
+  - Click the minus button on the calculator
 
-    > Notes:
-    > * If you change the user information in the **Variables** tab of the test case, make sure to change the verification snippets in the **Verification** tab of the POST request accordingly for successful verification. For example, if you change the user's age to `10`, then make sure to change the verification of the `age` element to `10`.
-      ><br><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-Matching-value-for-verification.png" width="100%" alt="A successful verification">
+- The `Then` step calls the test case **Check result**. This test case verifies whether the result appeared on the calculator matches with the result stated in the feature files.
 
-      **<details><summary>Click to view the test script</summary>**
+**<details><summary>Click to view the test script</summary>**
 
-      ```groovy
-      import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-      import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
-      import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
-      import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-      import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
-      import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
-      import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
-      import com.kms.katalon.core.model.FailureHandling as FailureHandling
-      import com.kms.katalon.core.testcase.TestCase as TestCase
-      import com.kms.katalon.core.testdata.TestData as TestData
-      import com.kms.katalon.core.testobject.TestObject as TestObject
-      import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
-      import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-      import internal.GlobalVariable as GlobalVariable
+```groovy
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import internal.GlobalVariable as GlobalVariable
 
-      CustomKeywords.'sample.Common.createNewUser'(age as Integer, username, password, gender, 200)
-      ```
-      </details>
+CucumberKW.runFeatureFile('Include/features/operations/Minus.feature')
+```
+</details>
       
-2. The **Find user by ID** test case retrieves user information via an userID. The flow is as follows:
-
-  - First, we use the `sample.Common.createNewUser` keyword to:
-
-      - Send the user information, including username, password, age, gender to the server to create a new account. Here, we set the value type of **username**, **password**, **age**, **gender** as **Variable**. You can change the **username**, **password**, **age**, **gender** value in the **Variable** tab.
-      - The POST request returns a userID as the response.
-      - Execute verification snippets in the **Verification** tab of the POST request.
-      - Extract the new userID from the response.
-
-  - Then, we use the `sample.Common.findUserById` keyword to:
-
-      - Send the GET request to retrieve the user information via the newly created userID.
-      - Execute verification snippets in the **Verification** tab of the GET request.
-
-      > Notes:
-      > * If you change the user information in the **Variables** tab of the test case, make sure to change the verification snippets in the **Verification** tab of the POST and GET requests accordingly for successful verification. For example, if you change the user's age to `10`, then make sure to change the verification of the `age` element to `10`.
-      >
-      ><br><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-Matching-value-for-verification.png" width="100%" alt="A successful verification">
-
-      **<details><summary>Click to view the test script</summary>**
-
-      ```groovy
-      import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-      import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
-      import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
-      import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-      import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
-      import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
-      import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
-      import com.kms.katalon.core.model.FailureHandling as FailureHandling
-      import com.kms.katalon.core.testcase.TestCase as TestCase
-      import com.kms.katalon.core.testdata.TestData as TestData
-      import com.kms.katalon.core.testobject.TestObject as TestObject
-      import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
-      import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-      import internal.GlobalVariable as GlobalVariable
-      import groovy.json.JsonSlurper as JsonSlurper
-      import com.kms.katalon.core.testobject.RequestObject as RequestObject
-      import static org.assertj.core.api.Assertions.*
-
-      int id = CustomKeywords.'sample.Common.createNewUser'(age as Integer, username, password, gender, 200)
-
-      CustomKeywords.'sample.Common.findUserById'(id, age as Integer, username, password, gender, 200)
-      ```
-      </details>
 
 ### Data Files
 
