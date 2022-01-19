@@ -62,7 +62,7 @@ To access the sample RESTful requests, in the **Test Explorer** panel, go to the
 
   - **Request method**:
 
-      Katalon allows you to choose one of the following methods for your request test: GET, POST, PUT, DELETE, PATCH, HEAD, CONNECT, OPTIONS, TRACE. The method needs to match the API endpoint to have a valid request. Here, we create a POST request to send the user information to the server to create an account. The server will return us with a new userID as a response.
+      Katalon allows you to choose one of the following methods: GET, POST, PUT, DELETE, PATCH, HEAD, CONNECT, OPTIONS, TRACE. The method needs to match the API endpoint to have a valid request. Here, we create a POST request to send the user information to the server to create an account. The server will return us with a new userID as a response.
 
   - **Request URL**:
 
@@ -108,7 +108,7 @@ To access the sample RESTful requests, in the **Test Explorer** panel, go to the
 
   - **Verification**:
 
-    Katalon Studio allows you to write verification scripts directly in the **Verification** tab of the web service object. To learn more about the verification snippets, you can refer to this document: [Verification Snippets](https://docs.katalon.com/katalon-studio/docs/verification-snippets.html#using-verification-snippets).
+    Katalon Studio allows you to write verification scripts directly in the **Verification** tab of the web service object. To learn more about the verification snippets, you can refer to this document: [Verification snippets](https://docs.katalon.com/katalon-studio/docs/verification-snippets.html#using-verification-snippets).
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-POST-Verification.png" width="100%" alt="Verification in the sample POST request">
 
@@ -285,7 +285,7 @@ To access the sample test cases in this project, in the **Test Explorer** panel,
 
 There are two test cases for different purposes: 
 
-1. The test case **Create a new user** is to create a new user. In the test case, we use the `sample.Common.createNewUser` keyword to:
+1. The **Create a new user** test case is to create a new user. In the test case, we use the `sample.Common.createNewUser` keyword to:
 
     - Send the user information, including username, password, age, gender to the server to create an account. Here, we set the value type of **username**, **password**, **age**, **gender** as **Variable**. You can change the **username**, **password**, **age**, **gender** value in the **Variable** tab. To learn more about test case variables, you can refer to this document: [Test Case Variables](https://docs.katalon.com/katalon-studio/docs/test-case-variables.html).
 
@@ -297,8 +297,7 @@ There are two test cases for different purposes:
 
     > Notes:
     > * If you change the user information in the **Variables** tab of the test case, make sure to change the verification snippets in the **Verification** tab of the POST request accordingly for successful verification. For example, if you change the user's age to `10`, then make sure to change the verification of the `age` element to `10`.
-    >
-      > <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-Matching-value-for-verification.png" width="100%" alt="A successful verification">
+      ><br><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-Matching-value-for-verification.png" width="100%" alt="A successful verification">
 
       **<details><summary>Click to view the test script</summary>**
 
@@ -322,7 +321,7 @@ There are two test cases for different purposes:
       ```
       </details>
       
-2. The test case **Find user by ID** retrieves user information via an userID. The flow is as follows:
+2. The **Find user by ID** test case retrieves user information via an userID. The flow is as follows:
 
   - First, we use the `sample.Common.createNewUser` keyword to:
 
@@ -339,7 +338,7 @@ There are two test cases for different purposes:
       > Notes:
       > * If you change the user information in the **Variables** tab of the test case, make sure to change the verification snippets in the **Verification** tab of the POST and GET requests accordingly for successful verification. For example, if you change the user's age to `10`, then make sure to change the verification of the `age` element to `10`.
       >
-      > <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-Matching-value-for-verification.png" width="100%" alt="A successful verification">
+      ><br><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-Matching-value-for-verification.png" width="100%" alt="A successful verification">
 
       **<details><summary>Click to view the test script</summary>**
 
@@ -384,7 +383,7 @@ Alternatively, you can go to `<your-project-folder>\Data Files` and choose the f
 The sample test suite demonstrates the web service testing with data-driven testing. To view sample test suite, in the **Test Explorer** panel, go to **Test Suite > web-service-tests - All Test Cases**.
 
 This test suite includes the **Create a new user** and **Find user by ID** test case.
-We bind the test case **Create a new user** with the **ListUser** data file. To view the data binding section, select the **Create a new user** test case, then click **Show Data Binding**. To learn more about binding data, you can refer to the following document: [Data Binding](https://docs.katalon.com/katalon-studio/docs/run-test-case-external-data.html#manage-data-binding).
+We bind the **Create a new user** test case with the **ListUser** data file. To view the data binding section, select the **Create a new user** test case, then click **Show Data Binding**. To learn more about binding data, you can refer to the following document: [Data Binding](https://docs.katalon.com/katalon-studio/docs/run-test-case-external-data.html#manage-data-binding).
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-Test-suite.png" width="100%" alt="Sample test suites">
 
