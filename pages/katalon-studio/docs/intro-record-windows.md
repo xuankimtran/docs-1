@@ -29,7 +29,7 @@ In the **CONFIGURATIONS** section, you can specify:
 
 * **Configuration**: the WinAppDriver URL and desired capabilities.
 
-* **Application File**: the absolute path to the Windows executable file (*.exe) of the testing machine. For Windows users, click on the **Browse...** button to locate the application file.
+* **Application File**: the absolute path to the Windows executable file (\*.exe) of the testing machine. For Windows users, click on the **Browse...** button to locate the application file.
 
 ### Recorded actions
 

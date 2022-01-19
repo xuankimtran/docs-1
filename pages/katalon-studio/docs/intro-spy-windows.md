@@ -29,7 +29,7 @@ In the **Configurations** section, you can specify:
 
 * **Configuration**: the WinAppDriver URL and desired capabilities.
 
-* **Application File**: the absolute path to the Windows executable file (*.exe) of the testing machine. For Windows users, click on the **Browse...** button to locate the application file.
+* **Application File**: the absolute path to the Windows executable file (\*.exe) of the testing machine. For Windows users, click on the **Browse...** button to locate the application file.
 
 When the application under test (AUT) is started, the utility captures all available Windows objects on the current window of the AUT and displays them in the **All Objects** section.
 
