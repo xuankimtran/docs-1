@@ -201,7 +201,8 @@ You can also retrieve other information through the RunConfiguartion package, pl
 
 ## Video Capturing
 
-> * K-Lite Codec is recommended to play the Katalon Studio test execution video. You can download K-Lite Codec in the Codec Guide website: [K-Lite Codec](https://www.codecguide.com/download_kl.htm). 
+> Notes:
+> * K-Lite Codec is recommended to play the Katalon Studio test execution videos. You can download K-Lite Codec in the Codec Guide website: [K-Lite Codec](https://www.codecguide.com/download_kl.htm). 
 > * Support execution at the test suite level.
 > * Support all browsers except for Remote, Headless, Kobiton, Custom. For remote or headless browsers, it's recommended to use [Katalium Server](https://docs.katalon.com/katalium-server/docs/katalium-server-katalon-studio-remote-machine.html) to view captured sessions.
 > * Recording parallel execution is NOT supported yet.
