@@ -29,7 +29,7 @@ Go to **Project Settings** > **Test Design** > **Web Locators**. Choose the **XP
 
 The list contains XPath generator providers which generate the corresponding XPath values for Katalon Studio test objects. You can drag and drop to change Xpath priority.
 
-Learn more about XPath locators at this documentation: [Web Selection Method: Configure XPath](https://docs.katalon.com/katalon-studio/docs/web-selection-methods.html#configure-xpath).
+Learn more about XPath locators here: [Web Selection Method: Configure XPath](https://docs.katalon.com/katalon-studio/docs/web-selection-methods.html#configure-xpath).
 
 ## Create test objects by Recording/Spying
 

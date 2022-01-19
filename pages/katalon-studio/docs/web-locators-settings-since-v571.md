@@ -18,7 +18,7 @@ This documentation is for Katalon Studio version 5.7.1 to 7.6.0. If you are usin
 
 You can set the default Web Locator in **Project Setting > Test Design > Web Locators**.
 
-While recording or spying the app under test (AUT), the **Web Locator** settings helps eliminate the repetitive tasks of selecting/deselecting locators for each captured object. The locators in this setting apply to all captured objects in [Record](/display/KD/Record+Web+Utility) and [Spy](/display/KD/Spy+Web+Utility) Web.
+While recording or spying the app under test (AUT), the **Web Locator** setting helps eliminate the repetitive task of selecting/deselecting locators for each captured object. The locators in this setting apply to all captured objects in [Record](/display/KD/Record+Web+Utility) and [Spy](/display/KD/Spy+Web+Utility) Web.
 
 > Requirements:
 >
@@ -30,7 +30,7 @@ While recording or spying the app under test (AUT), the **Web Locator** settings
 
 > Notes:
 >
-> * By default, any new projects created use the XPath option.
+> * By default, any new project uses the XPath option.
 > * The XPath option does not apply to Internet Explorer. Internet Explorer always uses the Attributes option.
 > * The web locator **Selection Method** also carries over to Record Web Utility, Spy Web Utility, and Test Object View.
 
@@ -42,7 +42,7 @@ With **Web Locator**, you can:
 * Preserve the relationship between an element and its indicator in an item.
 * Generate reliable locators to reduce test script maintenance costs.
 
-You can prioritize XPaths by dragging and dropping any XPath on the list. Katalon Studio uses the first XPath as default to locate the elements. If the first one fails, the rest XPaths of the list are leveraged to locate the element.
+You can prioritize XPaths by dragging and dropping any XPath on the list. Katalon Studio uses the first XPath as the default to locate the elements. If the first one fails, the remaining XPaths of the list are leveraged to locate the element.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/web-locators-settings-since-v571/image2018-8-13-163A433A2.png" alt="web locator" width="100%">
 
