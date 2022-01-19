@@ -77,7 +77,7 @@ Follow these steps:
 
 		    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/studio-integration/run-tsc-testcloud-as-environment.png" width=50% alt="run config tsc">
 		
-			The **Run Configuration** option appears after you choose TestCloud for test environment.
+			The **Run Configuration** option appears after you choose TestCloud as your test environment.
 		
 		* **Run Configuration**: Click *Edit* to display the **TestCloud Configuration (Beta)** dialog, select your desired remote OS, browser, and browser version.
 		
