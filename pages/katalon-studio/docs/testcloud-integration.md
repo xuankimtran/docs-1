@@ -45,11 +45,11 @@ Once you have enabled TestCloud integration, you have the option to run a test s
 
 Follow the guides below for TS and TSC executions.
 
-## Run Test Suite with TestCloud
+## Run test suites with TestCloud
 
 > Notes:
 >
-> You cannot run Test Case with TestCloud.
+> You cannot run test cases with TestCloud.
 
 To run TS with TestCloud, follow these steps:
 
@@ -62,16 +62,16 @@ To run TS with TestCloud, follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/studio-integration/tc-config-dialog-run-public.png" width=50% alt="tc config dialog">
 
-3. Select the OS, browser and its version in the **Configuration** section.
+3. Select the OS, browser, and browser version in the **Configuration** section.
 
     > Notes:
     >
-    > * We currently support Linux (remote OS) and FireFox, Chrome browsers only.
+    > * We currently only support Linux (remote OS). For browsers, we support Chrome and Firefox.
     > * The tunnel box is unchecked by default. TestCloud Tunnel is for running tests in private domains. See: [Configure TestCloud Tunnel](/katalon-studio/docs/testcloud-integration.html#configure-testcloud-tunnel).
 
 4. Click **Run**.
 
-## Run Test Suite Collection with TestCloud
+## Run test suite collections with TestCloud
 
 To run TSC with TestCloud, follow these steps:
 
@@ -91,11 +91,11 @@ To run TSC with TestCloud, follow these steps:
 
      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/studio-integration/tsc-run-config-tc-config-dialog.png" width=70% alt="tc config dialog">
 
-4. Select the OS, browser and its version in the **Configuration** section.
+4. Select the OS, browser, and browser version in the **Configuration** section.
 
     > Notes:
     >
-    > * We currently support Linux (remote OS) and FireFox, Chrome browsers only.
+    > * We currently only support Linux (remote OS). For browsers, we support Chrome and Firefox.
     > * The tunnel box is unchecked by default. TestCloud Tunnel is for running tests in private domains. See: [Configure TestCloud Tunnel](/katalon-studio/docs/testcloud-integration.html#configure-testcloud-tunnel).
 
 4. Click **OK**.
