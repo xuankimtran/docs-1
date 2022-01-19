@@ -12,7 +12,7 @@ This article introduces you to the key metrics and usage quotas in Katalon TestC
 Katalon TestCloud has three key metrics:
 
 * **Number of sessions**: The maximum number of parallel test sessions.
-* **Testing minutes**: The remaining time, calculated in minutes, to execute tests. Testing minutes are counted from the start to the end of a test session (including the delay time).
+* **Testing minutes**: The available time, calculated in minutes, to execute tests. Spent testing minutes are counted from the start to the end of a test session (including the delays set after each test execution, if any).
 * **Expiry date**: The determined date when your TestCloud plan ends.
 
 ## Usage quota
@@ -55,7 +55,7 @@ If you exceed the supported quota, the following behaviors apply:
 
 If the number of parallel test requests exceeds the supported quota, the additional requests will be queued.
 
-The number of queued requests cannot exceed the session quota by three times. For example, if the quota is 5 parallel tests, the maximum number of queued requests is 15.
+The number of queued requests cannot exceed the session quota by more than 3 times. For example, if the quota is 5 parallel tests, the maximum number of queued requests is 15.
 
 A request remains in the queue for only 15 minutes; after 15 minutes, the request is dropped from the queue.
 
