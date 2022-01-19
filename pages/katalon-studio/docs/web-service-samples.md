@@ -4,7 +4,7 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/web-service-samples.html 
 ---
 
-This sample demonstrates fundamental API Testing with RESTful requests. The sample uses the following base URL: `https://sample-web-service-aut.herokuapp.com`. To learn more about API testing, you can refer to this document: [Introduction to API testing](https://docs.katalon.com/katalon-studio/docs/introduction_api_testing.html).
+This sample demonstrates fundamental API testing with RESTful requests. The sample uses the following base URL: `https://sample-web-service-aut.herokuapp.com`. To learn more about API testing, you can refer to this document: [Introduction to API testing](https://docs.katalon.com/katalon-studio/docs/introduction_api_testing.html).
 ## Open the sample API test project
 
 To open the API sample project, in Katalon Studio, go to **File > New Sample Project > Sample API Tests Project**.
