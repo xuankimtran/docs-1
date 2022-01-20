@@ -1,63 +1,82 @@
 ---
-title: "Introduction to Windows Spy Utility" 
+title: "Windows Spy Utility" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/intro-spy-windows.html 
 ---
 
-> Starting in **Katalon Studio version 7.0**, you can spy objects on a Windows desktop application.
+The Windows spy utility helps capture test objects quickly and allows you to specify several object properties and locator strategies.
 
-## Spying Windows objects
+This article introduces you to the components of the Windows spy utility in Katalon Studio.
 
-To start spying a Windows object, click **Spy Windows Object** icon on the main toolbar of Katalon Studio.
+> **Requirements**:
+>
+> * Katalon Studio version 7.0 onwards.
+> * WinAppDriver is running on the test machine. To learn how to set up and run WinAppDriver, see: [Set up WinAppDriver](https://docs.katalon.com/katalon-studio/docs/setup-winappdriver.html).
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/introduction-desktop-app-testing/Spy_Windows_Object.png" width="549" height="61.5">
+## The Windows spy utility
 
-The `Spy Windows Objects` dialog box is basically similar to the one for [`Mobile Object Spy`](https://docs.katalon.com/katalon-studio/docs/spy-mobile-utility.html#capture-objects-using-spy-mobile-utility).
+To open the utility, from the main toolbar, click on the **Spy Windows Object** button.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-windows-object/Spy-windows-object-dialogue.png" width="532" height="358">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/windows-spy-utility/KS-Windows-Spy-Objects-button.png" width=30% alt="Spy Windows Objects icon">
+
+The **Spy Windows Objects** dialog is displayed as below:
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/windows-spy-utility/KS-Windows-Object-Spy-dialog.png" width=100% alt="Spy Windows Objects dialog">
 
 ### Configurations
 
-In the **CONFIGURATIONS** section:
+In the **Configurations** section, you can specify:
 
-* **Configuration**: where you can view and edit the `WinAppDriver URL` and `Desired Capabilities`.
+* **Configuration**: the WinAppDriver URL and desired capabilities.
 
-* **Application File**: the absolute path to the `Windows Executable File (*.exe)` of the testing machine. For Windows users, click **Browse...** button to locate the application file.
+* **Application File**: the absolute path to the Windows executable file (\*.exe) of the testing machine. For Windows users, click on the **Browse...** button to locate the application file.
 
-* The **Start** button is to be enabled after the Application File text box is filled.
+When the application under test (AUT) is started, the utility captures all available Windows objects on the current window of the AUT and displays them in the **All Objects** section.
 
-When the application starts, Katalon Studio starts capturing all available Windows objects on the current screen of the testing machine and shows them at the **ALL OBJECTS** section.
+### All objects
 
-### Screen Objects
+The **All Objects** section shows a tree of all the objects of the AUT, including the associated Windows element names (highlighted in blue) and tag names.
 
-The **SCREEN OBJECTS** section shows a tree of all captured Windows elements. Each item represents a Windows element. Its label is a combination of the Windows Element (blue text) and its tag name (black text). When an item is selected, its position is highlighted on the nearby Device View. This helps you easily identify the right object.
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/windows-spy-utility/KS-All-Objects-section.png" width=70% alt="All objects section">
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-windows-object/Windows-Objects-Spy-1.png" width="399" height="445">
+To add a Windows object, check the checkbox on the left of the desired Windows object. The added object is then displayed in the **Captured Objects** section.
 
-To add a Windows element to the Object Repository, first you need to check the checkbox on the left of the desired Windows element, then it is added to the **CAPTURED OBJECT** section.
+## Screen view
 
-### Captured Object
+When an object is selected in the **All Objects** section, the position of the associated element is highlighted in the **Screen View**. This helps verify the selected Windows element.
 
-The **CAPTURED OBJECT** section shows all of the captured Windows elements that you want to add  to the Object Repository. When an item is selected, its information is displayed in the **OBJECT PROPERTIES** section. You can view and edit the object's name, locator and properties before adding it to the Object Repository.
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/windows-spy-utility/KS-Screen-View-section.png" width=70% alt="Captured objects section">
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-windows-object/highlight.png" width="370" height="657">
+### Captured objects
 
-### Object Properties
+The **Captured Objects** section shows all the captured Windows elements you want to add to the **Object Repository**.
 
-* **Object Name**: the edited Windows object's name.
-* **Locator Strategy** and **Locator**: the locator to identify the Windows element.
-* **Locator**: to customize the locator of a captured object, you can modify it here and click **Highlight** to verify if the new locator correctly identifies the intended object.
-* **Properties table**: all attributes of the captured elements.
+To view details about a captured object, click on it. The detailed information is displayed in the **Object Properties** section.
 
-After the desired Windows objects are added, they will be shown under the Object Repository folder of the Tests Explorer.
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/windows-spy-utility/KS-Captured-Objects-section.png" width=70% alt="Captured objects section">
 
-### Windows Object Part
+You can view and edit the object name, locator and properties before adding it to the **Object Repository**.
 
-The Windows Object part is where to display the Locator and properties of a Window Object.
+### Object properties
 
-* **Locator**: all locators supported by WinAppDriver will also be supported by Katalon Studio . Please read [this document](https://github.com/microsoft/WinAppDriver#supported-locators-to-find-ui-elements) for more details.
-* **Object Properties**: the properties of the Windows Object captured in the Spy or Record sessions. You can also modify these properties.
+The **Object Properties** section allows you to configure the following information:
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/spy-windows-object/Windows-Spy-Object-3.png" width="749" height="450">
+* **Object Name**: the Windows object name.
+* **Locator Strategy**: the type of object locator to identify the Windows element. To generate the object locator of the desired locator type, click on the **Generate** button.
+* **Locator**: the generated object locator that can be customized.
+* **Properties** table: all properties of the captured objects.
 
-## Highlight
+To add the captured objects to the **Object Repository**, click **OK** and select the target folder where you want to save the objects.
+
+## View and edit the captured objects
+
+You can view and edit the locator and properties of a captured object in the **Object** view.
+
+Go to **Tests Explorer**> **Object Repository**, and select the desired Windows object. Details about a captured object are displayed in the **Object** view as follows:
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/windows-spy-utility/KS-Object-view.png" width=70% alt="Object view">
+
+In the **Object** view, you can view and edit:
+
+* **Locator**: the locator type and locator of the object.
+* **Object Properties**: the properties of the object.
