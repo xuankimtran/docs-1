@@ -33,7 +33,7 @@ description: Release notes 8.x
     * Turned on Katalon TestOps Integration by default for new Web and API users.
 * [License Activation] Changed the Katalon license server to [https://admin.katalon.com/](https://admin.katalon.com/). For authentication, Katalon Studio and Katalon Runtime Engine call this new server URL.
 * Improved the visibility of the search function. See [Search Test Cases](https://docs.katalon.com/katalon-studio/docs/search.html).
-* Removed unused messages in Test Object, Spy/Recorder, Test Suite Collection, and Test Suite.
+* Removed unused messages in Test Suite.
 * [UI changes]:
     * [Dynamic Test Suite] Updated UI for the retry function in Dynamic Test Suite.
     * Changed the **Communication**, **Feedback**, and **Support Portal** buttons.
