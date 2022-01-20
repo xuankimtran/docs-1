@@ -165,3 +165,13 @@ To configure TestCloud Tunnel, follow these steps:
 After executing tests, execution data is consolidated in logs and reports. You can view TestCloud reports in the following formats: CSV, PDF, JUnit, HTML.
 
 See: [Test Suite and Test Suite Collection Reports](https://docs.katalon.com/katalon-studio/docs/test-suite-report.html).
+
+## Troubleshooting
+
+Known issues:
+
+When executing tests via TestCloud integration and a proxy, the opening browser step might fail because of an error relevant to Transport Layer Security (TLS).
+
+A workaround for this issue is to pass through the TLS with the below domains on your server:
+All the domains corresponding to this regex: `^testcloud\.katalon\.com$`.
+The domain of the site under test.
