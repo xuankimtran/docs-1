@@ -4,6 +4,11 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/new/version-8x.html
 redirect_from:
     - "/katalon-studio/new/all-versions.html"
+    - "/katalon-studio/new/what-is-new.html"
+    - "/katalon-studio/new/what-is-new/"
+    - "/katalon-studio/new/"
+    - "/display/KD/Release+Notes/"
+    - "/display/KD/Release%20Notes/"
 description: Release notes 8.x
 ---
 
