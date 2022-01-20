@@ -116,7 +116,7 @@ Follow these steps:
 
     You then can view a summary of Test Run Types that have been configured in TestOps.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/navigate-to-test-run-type-in-studio.png" width=100% alt="find test run types in studio">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/KS-TESTOPS-Test-run-types.png" width=100% alt="find test run types in studio">
 
 3. Click on any of the Test Run names (e.g., **a Verify Match exact name(git)**). This opens the Test Runs Summary page in Katalon TestOps.
 
