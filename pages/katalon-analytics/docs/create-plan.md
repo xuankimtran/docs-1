@@ -43,22 +43,31 @@ Follow these steps:
 
             > Notes:
             >
-            > Katalon TestOps currently supports test scripts from Katalon Studio and Git Repositories (GitHub and Bitbucket). See: [Upload Test Scripts from a Git Repository](https://docs.katalon.com/katalon-analytics/docs/git-test-project.html#create-git-script-repository).
+            > Katalon TestOps currently supports test scripts from Katalon Studio and Git Repositories (Azure Repos, Bitbucket, GitHub and GitLab). See: [Upload Test Scripts from a Git Repository](https://docs.katalon.com/katalon-analytics/docs/git-test-project.html#create-git-script-repository).
 
-        * **Type**: choose between **Test Suite Collection**, **Katalon Command** and **Generic Command** to run your tests.
+        * **Type**: choose between **Test Suite**, **Test Suite Collection**, **Katalon Command** and **Generic Command** to run your tests.
 
             > Notes:
             >
-            > * You choose **Test Suite Collection** if you want to select the Test Suite Collections directly from Katalon Studio (KS). Katalon TestOps will automatically fetch your Test Suite Collections.
+            > * You choose **Test Suite** if you want to run test suites created in TestOps or from Katalon Studio (KS).
+            >      * Make sure you download a new local agent to execute test suites in the local environment. See: [Create a Local Test Environment with an Agent](https://docs.katalon.com/katalon-analytics/docs/agents.html).
+            >
+            >      * Make sure Kobiton integration is disabled because you can only execute test suites on desktop applications (browsers). You can toggle **Kobiton** off in advanced settings. See: [Advanced settings](https://docs.katalon.com/katalon-analytics/docs/create-plan.html#advanced-settings).
+            >
+            >      *  Once you have chosen **Test Suite**, the **Run with** section appears. The default browser is Chrome. You can select a different browser in the **Run with** section.  
+            >
+            > * You choose **Test Suite Collection** if you want to select the Test Suite Collections directly from KS. Katalon TestOps will automatically fetch your Test Suite Collections.
             > * You choose **Generic Command** if you want to execute tests with other frameworks outside KS (e.g., Pytest).
             > * You choose **Katalon Command** if you want to execute tests with KS. The Katalon commands can be generated from KS (in the **Command Generator** dialog). See: [Command Syntax](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html).
 
     * In the **Where to run** section, fill in the following information:
-        * **Test Environment Type**: choose among **Local Test Environment**, **Kubernetes Test Environment** or **CircleCI Test Environment**.
+        * **Test Environment Type**: choose among **Local Test Environment**, **TestCloud Test Environment**, **Kubernetes Test Environment** or **CircleCI Test Environment**.
 
             > Notes:
             >
-            > If you are using KRE, check the **Katalon Runtime Engine Version** box and select the version you are using from the dropdown list.
+            > * If you are using Katalon Runtime Engine (KRE), check the **Katalon Runtime Engine Version** box and select the version you are using from the dropdown list.
+            >
+            > * If you choose **Test Cloud Environment** to run test suites, the browser options in the **TestCloud** section correspond to the browser you have selected in the **Run with** section (when selecting **Test Suite** as **Type** in the **What to run** section). For example, if the selected browser is Chrome, the available options in the **TestCloud** section are: Window - Chrome and Linux - Chrome. See also: [Integrate TestCloud with TestOps](https://docs.katalon.com/katalon-testcloud/docs/integrate-testcloud-with-testops.html#integrate-testcloud-with-testops).
 
         * **Test Environments**: select the Agents you want to use for test executions.
 
@@ -89,8 +98,14 @@ Follow these steps:
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/schedule-test-run-new-ui-advanced-settings-2.png" width=100% alt="schedule test run page new UI automatic run">
 
     * **Execution Mode**: choose between **Sequential** (run one test after another) or **Parallel** (run tests at the same time). See: [Run multiple Test Suites in parallel with Agents](https://docs.katalon.com/katalon-analytics/docs/kt_run_parallel_agent.html).
+
+        > Notes:
+        >
+        > You can only run test suites in a sequential mode. If you choose **Test Suite** in the **What to run** section, there is no **Parallel** option.
+
     * **Timeout in Minutes**: define the time after which test execution is cancelled.
     * Kobiton integration: switch the **Kobiton** toggle on to enable the integration, then enter your Kobiton Device ID to run tests on that device. See: [How to configure Kobiton integration with Katalon TestOps](https://docs.katalon.com/katalon-analytics/docs/kt_kobiton_integration.html).
+
     * **Release Version**: select the release version you want to link your test runs to. See: [Manage Test Runs by Release](https://docs.katalon.com/katalon-analytics/docs/kt-release.html#create-a-new-release).
 
 After creating the schedule, Katalon TestOps automatically directs you to the **Test Run List** page.
