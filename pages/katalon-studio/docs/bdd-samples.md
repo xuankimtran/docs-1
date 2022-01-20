@@ -9,7 +9,7 @@ This sample demonstrates fundamental behavior-driven development (BDD) testing. 
 
 To open the BDD sample project, in Katalon Studio, go to **File > New Sample Project > Sample BDD Cucumber Tests Project**.
 
-<img src="url" width="70%" alt="Open BDD sample in Studio">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/BDD-sample-prj/KS-BDD-Open-sample-project.png" width="70%" alt="Open BDD sample in Studio">
 
 Alternatively, you can download the sample BDD test project from our Github repository: [Sample BDD tests](https://github.com/katalon-studio-samples/calculator-bdd-tests).
 ## Sample API project components
@@ -17,7 +17,7 @@ Alternatively, you can download the sample BDD test project from our Github repo
 
 To open the execution profile, go to **Profiles > default**.
 
-<img src="url" width="60%" alt="Default profile in the BDD sample">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/BDD-sample-prj/KS-BDD-Execution-profile.png" width="60%" alt="Default profile in the BDD sample">
 
 You can create and save all global variables in the execution profile. They can be used across test cases in your project. To learn more about execution profiles and global variables, you can refer to this document: [Execution profile and global variables](https://docs.katalon.com/katalon-studio/docs/execution-profile-v54.html).
 
@@ -71,25 +71,25 @@ To open the sample feature files, go to **Include > features > operations**. Dou
 
 To learn more about feature files creation and maintanance in Katalon Studio, you can refer to this document: [Create & maintain feature files](https://docs.katalon.com/katalon-studio/docs/cucumber-features-file.html#add-feature-files).
 
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/BDD-sample-prj/KS-BDD-Feature-files.png" width="60%" alt="Feature files in the BDD project">
+
 ### Step definitions
 
 To execute the scenario in the feature files, each Gherkin step needs to be defined as a set of programming code. You can reuse Katalon Studio built-in keywords in step definition files. When Katalon Studio executes any features files in the test case, it looks for the matching step definitions in the source folder.
 
 In this sample test project, you can find the step definitions in **Include > scripts > groovy**. The step denfition files are located in two different packages:
 
-<img src="url" width="60%" alt="Step definitions in the BDD project">
-
 1. The `default` package. 
 
   - The `default` package contains the `Common.groovy` file that defines the `Given` and `Then` steps for all feature files. 
 
-<img src="url" width="60%" alt="Step definitions in the BDD project">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/BDD-sample-prj/KS-BDD-Common-step-definitions.png" width="60%" alt="Step definitions in the BDD project">
 
 2. The `operations` package.
 
   - The `operations` package contains four step definition files, representing four operations: substraction(-), addition(+), division(÷) and multiplication(x). These files define the `When` steps in their matching feature files. For example, the `Minus.groovy` file defines the `When` steps in the `Minus.feature` file. 
 
-<img src="url" width="60%" alt="Step definitions in the BDD project">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/BDD-sample-prj/KS-BDD-operations-step-definitions.png" width="60%" alt="Step definitions in the BDD project">
 
 ### Custom keywords
 
@@ -97,7 +97,7 @@ You can use custom keywords in the test case. To learn more about custom keyword
 
 Katalon creates a custom keyword in this sample project. To see the custom keyword, in the **Test Explorer** panel, go to **Keywords > sample > ClickNumber.groovy**.
 
-<img src="url" width="60%" alt="Custom keywords in the BDD project">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/BDD-sample-prj/KS-BDD-Custom-keyword.png" width="60%" alt="Custom keywords in the BDD project">
 
 The `ClickNumber.clickNumber` keyword is to convert a given number into an integer, then input the number on the react calculator.
 
@@ -130,11 +130,14 @@ To view the test listeners in this project, in the **Test Explorer** panel, go t
 
 - `Listener`: This test listener is to close the browser after every test case execution. 
 - `TestListener`: This test listener is to open Katalon Helper before every test suite execution.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/BDD-sample-prj/KS-BDD-Test-listeners.png" width="60%" alt="Test listeners in the BDD project">
+
 ### Test cases
 
 To access the main test cases in this project, in the **Test Explorer** panel, go to **Test Cases > operations**.
 
-<img src="url" width="60%" alt="Test cases">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/BDD-sample-prj/KS-BDD-operations-test-cases.png" width="60%" alt="Test cases">
 
 There are four test cases representing four different operations: substraction(-), addition(+), division(÷) and multiplication(x). These four test cases have the same main flow.
 
@@ -152,7 +155,7 @@ The test case **Verify Minus** executes the `Minus.feature` file in the followin
 
 The test case executes two listed scenerios in the feature file.
 
-<img src="gif" width="60%" alt="The Verify minus test cases">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/BDD-sample-prj/KS-BDD-Verify-minus.gif" width="100%" alt="The Verify minus test cases">
 
 **<details><summary>Click to view the test script</summary>**
 
@@ -184,7 +187,7 @@ The sample test suite demonstrates the web service testing with data-driven test
 
 This test suite includes the four test cases representing four different operations: substraction(-), addition(+), division(÷) and multiplication(x).
 
-<img src="url" width="100%" alt="Sample test suites">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/BDD-sample-prj/KS-BDD-test-suite.png" width="100%" alt="Sample test suites">
 
 ## Execute selected test cases or test suites
 
@@ -199,7 +202,7 @@ To execute a test case or a test suite in the sample project:
 
 3. Observe the test result in the **Log Viewer** tab.
 
-    <img src="url" width="100%" alt="Oservice results in the log Viewer">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/BDD-sample-prj/KS-BDD-Log-viewer.png" width="100%" alt="Oservice results in the log Viewer">
 
     > Notes:
     > * You can view test results of the test suite in the **Result** tab. The test results can be Passed, Failed, Error, or Incomplete.
@@ -207,5 +210,4 @@ To execute a test case or a test suite in the sample project:
     > * For real-time monitoring and better reporting capabilities, consider integrating your project with Katalon TestOps. Learn more about test result reports here: [Upload Test Results to Katalon TestOps from Katalon Studio](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html).
 ## See also
 
-* [Cucumber Features File](https://docs.katalon.com/katalon-studio/docs/cucumber-features-file.html).
 * [Use Test Hooks for Cucumber Framework](https://docs.katalon.com/katalon-studio/docs/cucumber-test-hook.html)
