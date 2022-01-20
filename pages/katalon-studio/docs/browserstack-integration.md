@@ -9,32 +9,43 @@ redirect_from:
     - "/katalon-studio/docs/browserstack-integration/"
 description: 
 ---
-To integrate with BrowserStack, you need to execute your test scripts using '[Remote](/display/KD/Execute+a+test+case#Executeatestcase-Executeinaremoteenvironment)' option based on BrowserStack provided capabilities of your choices. Below are steps on how to get your desire SauceLabs capabilities.
 
-1.  Login to BrowserStack
-2.  On the left side of BrowserStack account page, you will see Username and Access Key value. These values are needed for remote connection using their BrowserStack remote URL
-    
-    ```groovy
-    http://username:accessKey@hub-cloud.browserstack.com/wd/hub
-    Example: http://abcdef121:affdfsr543xyz@hub-cloud.browserstack.com/wd/hub
-    ```
-    
-    Please note this URL for later input.
-    
-3.  Navigate to this page: [https://www.browserstack.com/automate/junit#configure-capabilities](https://www.browserstack.com/automate/junit#configure-capabilities)
-4.  Select desired capabilities you would like to use, in my case I select iOS and device's name is: iPhone 6S Plus. Desired capabilities values are generated upon your selection.  
-    ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/browserstack-integration/Screen-Shot-2017-10-04-at-10.07.23.png)
+The BrowserStack integration helps you execute your tests on BrowserStack Selenium Grid from your Katalon Studio instance. To integrate with BrowserStack, you need to execute your test scripts on a remote web server configured in desired capabilities. To learn more about setting up the remote server in desired capabilities, you can refer to this document: [Set up remote server in desired capabilities](https://docs.katalon.com/katalon-studio/docs/desired-capabilities-remote-settings.html#set-desired-capabilities-for-remote-execution-in-katalon-studio).
 
-4.In Katalon Studio, open ['Remote' ](/display/KD/Execute+a+test+case#Executeatestcase-Executeinaremoteenvironment)settings and pass SauceLabs settings from step #2 and #3 with some adjustments:
+This article demonstrates how to set up BrowserStack integration.
 
-*   Remote Web Server URL (retrieved from step #2): 
+1.  Login to BrowserStack.
+
+2.  On the left side of the BrowserStack account page, you can see your username and the Access Key value. These values are necessary for authentication between your Katalon Studio instance and the BrowserStack account.
+
+    The syntax for the BrowserStack remote URL: `http://username:accessKey@hub-cloud.browserstack.com/wd/hub`. 
+     
+    For example: `http://abcdef121:affdfsr543xyz@hub-cloud.browserstack.com/wd/hub`.
     
-    ```groovy
-    http://abcdef121:affdfsr543xyz@hub-cloud.browserstack.com/wd/hub
-    ```
+    Note this BrowserStack remote URL for later input.
     
-*   Other settings are gotten from step #4.
+3.  Navigate to the Browserstack capabilities generator page: [Capabilities Generator](https://www.browserstack.com/automate/capabilities).
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/browserstack-integration/Window.png)
+4.  Select the operating system and the device/browser you wish to execute with. Here, we select iOS and iPhone 12 device. We also choose Java as the generator language. Browserstack Capabilities Generator will generate desired capabilities accordingly in Java.
 
-5\. The final step will be selecting '**Remote**' item for execution.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/browserstack-integration/KS-BROWSERSTACK-Capabilities-generator.png" width="70%" alt="Select Browserstack capabilities">
+
+5. In Katalon Studio, go to **Project > Settings > Desired Capabilities > Remote**. Input the following information:
+
+    *   **Remote server URL**: input the URL retrieved from step 2. For example: `http://abcdef121:affdfsr543xyz@hub-cloud.browserstack.com/wd/hub`
+
+    *   **Remote server type**: Choose **Selenium/Appium**. Here, we choose **Appium**. From Katalon Studio version 6.3.0 onwards, when choosing Appium server, you also need to select **Android Driver/iOS Driver**.
+
+    *   The capabilities generated from step 4.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/browserstack-integration/KS-BROWSERSTACK-Add-DC-remote.png" width="70%" alt="Add remote server capabilities">
+
+    > Notes:
+    > * For Appium remote web server, you need to add the `platformName` capabilities. You can learn more about Appium capabilities in this Appium document: [Appium Desired Capabilities](http://appium.io/docs/en/writing-running-appium/caps/).
+    > * If you want to add Chrome driver capabilities, make sure to put those capabilities into the `goog:chromeOptions` property as a dictionary. For example:
+    > <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/browserstack-integration/KS-BROWSERSTACK-Add-capabilities-Chrome.png" width="70%" alt="Add Chrome capabilities for remote server">
+
+6. Click **Apply and Close** when you are done.
+7. To execute your tests with Browserstack Selenium Grid, click **Remote** in the dropdown list next to **Run**.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/browserstack-integration/KS-BROWSERSTACK-Execute-remote.png" width="30%" alt="Execute Browserstack remote server">

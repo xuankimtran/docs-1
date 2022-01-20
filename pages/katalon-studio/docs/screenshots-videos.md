@@ -9,26 +9,26 @@ redirect_from:
 
 You can record and watch videos to see what went wrong with failed tests.  
 
-> Notes
+> Notes:
 > * You can only record videos for Web UI testing.
 
-Katalon Studio version **7.8 onwards** supports [screen-based recording](https://docs.katalon.com/katalon-studio/docs/record-screen-based-videos.html) and browser-based recording.
+Katalon Studio version 7.8.0 onwards supports [screen-based recording](https://docs.katalon.com/katalon-studio/docs/record-screen-based-videos.html) and browser-based recording.
 
-> **Requirements:**
- >
- > * An active Katalon Studio Enterprise license.
- > * Katalon Studio version 7.8 onwards.
+> Requirements:
+> * An active Katalon Studio Enterprise license.
+> * Katalon Studio version 7.8.0 onwards.
 
 You can use browser-based recording feature to:  
 
 * **Record video of browser window only** (even if it's hidden behind another window).
- * **Record video of Headless browser**.
+* **Record video of Headless browser**.
 
     Headless Browser is a way to run browsers in a headless environment, popularly used for test automation and browser testing in CI/CD pipeline when you don't need a visible GUI. You can learn more about Headless Browser Execution in this [manual](https://docs.katalon.com/katalon-studio/docs/headless-browsers-execution.html).
+
 * **Record videos of multiple browsers simultaneously** (for instance, parallel execution of Test Suite Collection).
 
 > Notes:
- > * This feature is available for Chrome, Microsoft Edge (Chromium-based), and [Headless Chrome](https://developers.google.com/web/updates/2017/04/headless-chrome). 
+> * This feature is available for Chrome, Microsoft Edge (Chromium-based), and Headless Chrome. To learn more about Headless Chrome, you can refer to the Google Developer website here: [Getting Started with Headless Chrome](https://developers.google.com/web/updates/2017/04/headless-chrome). 
 > * This feature supports Test Suite and Test Suite Collection execution.
 
 To use browser-based recording feature, you need to enable it in Katalon Studio and install a third-party library (FFmpeg) for video encoding.
@@ -37,13 +37,16 @@ To use browser-based recording feature, you need to enable it in Katalon Studio 
 
 1. Go to **Project** > **Settings** > **Execution** to open the Execution view.
 2. In the **During Execution Options** panel, enable Video Recorder by checking **Record Video during execution**.
+
    > The Browser-based Video  Recorder function only records failed test cases by default.
+
 3. Set a window size of 1500x1000 for the browser you record in Project Settings.
-* Go to **Project** > **Settings** > **Desired Capabilities** > **Web UI**. Select **Chrome** or **Chrome Headless** or **Edge Chromium**.
+   Go to **Project** > **Settings** > **Desired Capabilities** > **Web UI**. Select **Chrome** or **Chrome Headless** or **Edge Chromium**.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/screenshots-videos/browser-size.png">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/screenshots-videos/KS-VIDEOS-Set-DC-for-Chrome.png" alt="Set DC for Chrome">
 
-   > Learn more about how to set [Desired Capabilities for Web UI](https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html#chromechrome-headless)
+   > You can learn more about setting desired capabilities for Web UI in this document: [Set up desired capabilities for WebUI testing](https://docs.katalon.com/katalon-studio/docs/desired-capabilities-settings-webui.html).
+
 4. Click **Apply and Close**.
 
 ## Install FFmpeg library
@@ -75,7 +78,7 @@ Click [here](https://avpres.net/FFmpeg/install_Apple.html) for detailed instruct
 
 * Use the following command: `sudo apt-get install ffmpeg`,
 
-   OR
+OR
 * Install it manually:
 1. Go to the [FFmpeg download web page](https://ffmpeg.org/download.html).
 2. Download the package which is appropriate for your operating system.
@@ -107,13 +110,13 @@ Currently, Katalon Docker Image doesn’t include FFmpeg library. You can build 
    ```groovy
    docker run -t --rm -v "$(pwd)":/tmp/project mybuild katalonc.sh -projectPath=/tmp/project - 
    browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/TS_RegressionTest"
-
+   ```
 ## View recorded videos
 
- After running the test suite, navigate to the **Result** tab. You can see a list of test cases. A recorded video is attached to each test case accordingly.
+After running the test suite, navigate to the **Result** tab. You can see a list of test cases. A recorded video is attached to each test case accordingly.
 
 Click on the *Play* icon in the **Video** column to play the video.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/video-capturing/image2017-8-25-153A353A13.png" width=100%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-suite-report/KS-REPORTS-Watch-the-video.png" width="100%" alt="View video capturing">
 
 Each test step in a video has a description embedded like a subtitle.

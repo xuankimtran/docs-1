@@ -19,31 +19,31 @@ Katalon Studio supports sending RESTful requests with parameters, body data, and
 
 You can create a new RESTful request object in two ways. First, you can **add** a Web Service request to a _New_ or any _Existing_ test case directly in the object details view by a click on the **plus** icon.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/soap-request/Screen-Shot-2018-09-20-at-5.06.42-PM.png)
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/soap-request/Screen-Shot-2018-09-20-at-5.06.42-PM.png" width="" alt="Add web service request to a test case">
 
 Or select **File > New > Web Service Request** from the main menu.
 
 In the **New Web Service Request** dialog, specify a name for your request; select **RESTful** in the Request Type's drop-down list; and set request URLs. Then click OK to create a request.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/restful-web-services/image2018-4-1-183A113A47.png)
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/restful-web-services/KS-RESTFUL-Create-a-new-object.png" width="70%" alt="Create a new web service request">
 
 ## Specifying request details
 
 After you've created a request successfully, double-click on the request to open its editor for adding details.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/restful-web-services/Screen-Shot-2018-09-20-at-4.44.23-PM.png)
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/restful-web-services/KS-RESTFUL-Parameterize-the-object.png" width="80%" alt="Specify a new web service request">
 
 ### Request Method
 
 The request method indicates the expected action to be executed on the specified resource. For REST services, Katalon Studio supports the following methods: GET, POST, PUT, DELETE, PATCH, HEAD, CONNECT, OPTIONS, and TRACE. You can refer to [this document](https://restfulapi.net/http-methods/) for more details, and specifications of each method.
 
-For Katalon Studio Enterprise users, you can use custom methods added in **Project Settings > Test Design > API/Web Service Method**.
+For Katalon Studio Enterprise users, you can use custom methods added in **Project > Settings > Test Design > Web Service > Custom Method**.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-510/custAPI.png)
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/creat-first-API-testing/KS-API-Create-custom-webservice-method.png" width="100%" alt="Create a custom method">
 
 In Tests Explorer, there is a small **icon** next to the object that indicates its used method. By default, the GET method is selected for new requests.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/restful-web-services/image2018-4-1-183A353A21.png)
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/restful-web-services/KS-RESTFUL-Get-object.png" width="100%" alt="a GET object">
 
 ### Request URL
 
@@ -60,7 +60,8 @@ Starting from **version 7.0**, Katalon Studio encodes special characters in quer
 You can add the body information needed to be sent along with a RESTful request object. Katalon Studio supports the following body data types: text, x-www-form-urlencoded, form-data, and file.
 
 * **Text**: With this type, the supported formats include Text, JSON, XML, HTML, and Javascript.
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/restful-web-services/image2018-9-5-143A263A6.png">
+
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/restful-web-services/KS-RESTFUL-Input-HTTP-body.png" alt="Specify HTTP body">
 
 * **Form-data**: This data type allows you to send data to APIs as multipart/form-data, and attach files as well. From **version 7.5.0+**, you can specify the content type in the form-data body.
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/restful-web-services/form-data.png">

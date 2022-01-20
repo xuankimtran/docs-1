@@ -26,7 +26,7 @@ To use Appium Flutter Driver with Katalon Studio, follow these requirements:
 
 In Katalon Studio, specify this desired capability to let Katalon Studio run with Appium Flutter Driver: Go to **Project Settings > Desired Capabilities > Mobile**. Select Android or iOS, then create a desired capabilities, which value is `Flutter`.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/flutter-based-application-testing/desired-capabilities.png" alt="desired capabilities" width=70%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/flutter-based-application-testing/KS-FLUTTER-Set-flutter-DC.png" alt="desired capabilities" width=70%>
 
 ## Run Flutter-based application test with custom SetText keyword
 
@@ -158,3 +158,6 @@ WebUI.setText(cdmDetails, "123")
 
 Mobile.switchToNative()
 ```
+## See also
+
+* [Capture elements in hybrid Android apps](https://docs.katalon.com/katalon-studio/docs/capture-elements-in-hybrid-android-apps.html)

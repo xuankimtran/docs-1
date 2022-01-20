@@ -45,7 +45,7 @@ To run your Katalon project with AWS Device Farm, you have to configure your Kat
 
 2. To change the desired capabilities corresponding to your app, open **Project Settings > Desired Capabilities > Remote**.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/aws-device-farm-integration/project-settings.png" alt="configure desired capabilities" width=70%>
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/aws-device-farm-integration/KS-AWS-Enable-AWS.png" alt="configure desired capabilities" width=70%>
 
     * In **Remote server URL**, enter the Appium server URL: [http://127.0.0.1:4723/wd/hub](http://127.0.0.1:4723/wd/hub)
     * In **Remote server type**, select **Appium**.

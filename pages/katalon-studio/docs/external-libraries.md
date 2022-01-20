@@ -30,13 +30,13 @@ Katalon Studio supports automatically downloading libraries from Maven repositor
 1. In Katalon Studio, go to **Project** > **Settings** > **External Libraries** (In version 7.8 and later, go to **Project** > **Settings** > **Library Management** ). 
 2. In **External Libraries**, click **Add** to browse your `.jar` file(s) (and its dependencies if any).
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/add-external-lib.png" width=70%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/KS-LIBRARY-Add-external-library.png" width=70% alt="Add the external library">
 
 3. Click on **Apply** and **OK** to save the settings.
 
    After saving the settings, Katalon will add the library file(s) to the project's **Drivers** folder and load the libraries.
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/db-in-driver.png" width=70%>
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/KS-LIBRARY-View-add-external-library-in-folder.png" width=70%>
 
    To remove an added external libraries, select a library, click **Remove** > **OK**.
 
@@ -55,8 +55,8 @@ With the ability to remove built-in libraries stored in the `.classpath` file of
 **Important**
 
 This feature applies to all libraries in `classpath`, excluding:
- - `com.kms.katalon.*.jar`
- - `selenium-server-standalone-3.141.59.jar`
+- `com.kms.katalon.*.jar`
+- `selenium-server-standalone-3.141.59.jar`
 - `poi-3.17.jar`
 - `poi-ooxml-3.17.jar`
 - `poi-ooxml-schemas-3.17.jar`
@@ -74,4 +74,4 @@ Excluding those libraries may cause failure of the relevant features.
 2. In the **Exclude the following built-in libraries** section, click **Add** to add a built-in library’s name that will be removed.
 3. In the **External Libraries** section, click **Add** to browse an external library to replace the excluded one.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/exclude-built-in-new.png" width=70%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/KS-Exclude-the-library.png" width=70% alt="Exclude built-in library">

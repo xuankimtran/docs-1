@@ -12,7 +12,7 @@ description:
 
 * Map test cases between Katalon Studio and TestRail.
 * In TestRail, you can view Test Results of Test Suites executed in Katalon Studio.
-* In Katalon Studio, you can query Test Runs of TestRail in Dynamic Test Suite. See: [Dynamic Test Suite](https://docs.katalon.com/katalon-studio/docs/create-test-suite.html#dynamic-test-suite-dynamic-test-cases-list).
+* In Katalon Studio, you can query Test Runs of TestRail in Dynamic Test Suite. See: [Dynamic Test Suite](https://docs.katalon.com/katalon-studio/docs/dynamic-test-suite-ks.html).
 
 > **Notes**:
 >
@@ -48,7 +48,7 @@ Enable the TestRail API. Log in to your account, go to **Administration > Site S
 
 3. To test the connection, click on the **Test Connection** button.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/testrail-integration/KS-TestRail-Authentication.png" width=70% alt="KS Project Settings dialog">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/testrail-integration/KS-TESTRAIL-Enable-testrail.png" width=70% alt="KS Project Settings dialog">
 
 4. Click **Apply and Close**.
 

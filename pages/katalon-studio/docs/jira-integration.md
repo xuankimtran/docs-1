@@ -29,7 +29,7 @@ Katalon Studio can integrate with both Jira Cloud and Jira Server. This integrat
 * Automatically submit test results and test reports to the linked Jira issue.
 * Submit Bugs to Jira.
   
-> Prerequisites:
+> Requirements:
 >
 > * An active Katalon Studio Enterprise license.
 > * The **Jira Integration** plugin for Katalon Studio installed. You can find the plugin here: [Jira Integration](https://store.katalon.com/product/3/Jira-Integration).
@@ -40,7 +40,7 @@ To enable Jira Integration, follow these steps:
 
 1. Go to **Project > Settings > Plugins > JIRA**.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Jira%20Configuration-in-Katalon.png" width=50% alt="Jira Configuration in Katalon">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Jira-settings.png" width=80% alt="Jira Configuration in Katalon">
 
 2. Select the **Enable integration** box.
 
@@ -80,11 +80,11 @@ To enable Jira Integration, follow these steps:
     </tbody>
     </table>
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Enable-JIRA-intergration.png" width=50% alt="Enable Jira Configuration in Katalon">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Fill-in-Jira-username-password.png" width=70% alt="Enable Jira Configuration in Katalon">
 
    - Hit **Connect** to start the authentication process. A pop-up dialog indicates that the Atlassian account connects successfully.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Connect-JIRA-successfully.png" width=50% alt="Connect Jira Configuration successfully in Katalon">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Connect-JIRA-successfully.png" width=70% alt="Connect Jira Configuration successfully in Katalon">
 
 4. After successfully authenticating with Jira, all relevant **JIRA Projects** and **Issue Types** will be retrieved and displayed under the **Submit Options** section. You can specify the default project and the default issue type for submission here.
 
@@ -97,17 +97,13 @@ To enable Jira Integration, follow these steps:
     | Attach Log to Jira ticket | To include the execution log in submitted tickets. |
 
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Submit-Options.png" width=50% alt="Submit Options">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Submit-Options.png" width=70% alt="Submit Options">
 
 5.  Click **Apply and Close** to complete the Jira integration.
 
-    > Notice:
-    >
-    > Jira Intergration configuration is available in the project scope only. If you want to intergrate Jira in another Katalon project, you have to repeat the above steps.
-
-    > Note:
-    > 
-    > If you want to enable Jira integration with Katalon TestOps, you can refer to this document: [TestOps - Jira Integration](https://docs.katalon.com/katalon-analytics/docs/kt-jira-config.html).
+    > Notes:
+    > * Jira Intergration configuration is available in the project scope only. If you want to intergrate Jira in another Katalon project, you have to repeat the above steps.
+    > * If you want to enable Jira integration with Katalon TestOps, you can refer to this document: [TestOps - Jira Integration](https://docs.katalon.com/katalon-analytics/docs/kt-jira-config.html).
 
 ## Execute Test Cases with Jira Integration
 
@@ -121,21 +117,20 @@ Follow these steps:
 1. Go to **Project > Settings > Plugins > Jira**.
 2. In the **Fetch Options** section, check the **Enable retrieving content of the specified custom field** box.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Enable-BDD-custom-files-2.png" width=50% alt="Enable the BDD custom field in Jira Cloud">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Enable-BDD-custom-files-2.png" width=70% alt="Enable the BDD custom field in Jira Cloud">
 
 3. Select a custom field from the drop-down list. 
 
-    > Note:
-    >
-    > Only existing custom field ID is valid for this configuration.
-    > In case you can not find the custom field in the dropdown list, click **Fetch Custom Fields** to fetch the latest list from the connected Jira Cloud. 
+    > Notes:
+    > * Only existing custom field ID is valid for this configuration.
+    > * In case you can not find the custom field in the dropdown list, click **Fetch Custom Fields** to fetch the latest list from the connected Jira Cloud. 
 
 4. Click **Apply and Close** to apply your settings. 
 ### Step 2: Import Test Cases from Jira
 
 Katalon Studio allows you to pull test cases from Jira and link Jira issues to Katalon. Follow these steps:
 
-1. From the Katalon toolbar, select **Jira Integration <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Jira-icon.png" width=3% alt="Jira Intergration icon"> > Import Test Case from JIRA JQL**. An **Import Test Case from JIRA JQL** dialog opens.
+1. From the Katalon toolbar, select **Jira > Import Test Case from JIRA JQL**. An **Import Test Case from JIRA JQL** dialog opens.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Click-the-JIRA-icon.png" width=50% alt="Import test case from Jira">
 
@@ -146,25 +141,24 @@ Katalon Studio allows you to pull test cases from Jira and link Jira issues to K
         For example, we want to import test cases from the **TDAP** project with **Bug** type and **Complete** status. After searching for the Jira ticket using the JQL query, copy and paste the JQL script into the **Jira JQL** box:
 
         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-JQL-query-from-Jira.png" width=90% alt="JQL query from Jira">  
-
-        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Copy-JQL-syntax-to-Katalon.png" width=50% alt="Copy and paste JQL script into the Jira JQL">
+        <br>
+        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Copy-JQL-syntax-to-Katalon.png" width=70% alt="Copy and paste JQL script into the Jira JQL">
 
 
    - By default, the **Import BDD feature files** box is selected. This option allows you to import BDD feature files to run BDD tests. In case you don't want to run BDD tests, uncheck this option. To learn more about BDD testing, you can refer to this document here: [BDD Testing Framework (Cucumber Integration)](https://docs.katalon.com/katalon-studio/docs/cucumber-features-file.html#set-default-package-for-step-definitions.)
 
-        <img src="https://github.com/katalon-studio/docs-images/raw/de6b6cc7920a9776a331e2e44b4bb30f90344653/katalon-studio/docs/configure-jira-integration/KS-JIRA-Import-BDD-feature-file.png" width=50% alt="Import the BDD feature files">
+        <img src="https://github.com/katalon-studio/docs-images/raw/de6b6cc7920a9776a331e2e44b4bb30f90344653/katalon-studio/docs/configure-jira-integration/KS-JIRA-Import-BDD-feature-file.png" width=70% alt="Import the BDD feature files">
 
 3. In the **Test Case Folder Selection** dialog, select the destination to store the issues. Click **OK**. A **Jira Issues** dialog opens.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Choose-the-des-for-Jira-test-cases.png" width=40% alt="Choose the destination for Jira test cases">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Choose-the-des-for-Jira-test-cases.png" width=60% alt="Choose the destination for Jira test cases">
 
 4. In the **Jira Issues** dialog, click **OK** to import the test case from Jira.
 
-    > Notice:
-    >
-    > You can only import test cases from a Jira ticket once. You can not repeat this action.
+    > Notes:
+    > * You can only import test cases from a Jira ticket once. You can not repeat this action.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Link-the-JIRA-issue.png" width=40% alt="Link the Jira issue">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Link-the-JIRA-issue.png" width=70% alt="Link the Jira issue">
 
     As a result, Katalon opens a new test case with:
 
@@ -211,9 +205,9 @@ Katalon Studio allows you to pull test cases from Jira and link Jira issues to K
     </tbody>
     </table>
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Final-results-after-importing-test-cases.png" width=70% alt="Final results after importing test cases">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Final-results-after-importing-test-cases.png" width=100% alt="Final results after importing test cases">
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Results-after-importing-BDD-feature-files.png" width=70% alt="Final results after importing BDD feature files">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Results-after-importing-BDD-feature-files.png" width=100% alt="Final results after importing BDD feature files">
 
 ### Step 3: Run the test case
 
@@ -226,17 +220,14 @@ To view test results in Jira, follow these steps:
 After a test suite execution, Katalon Studio automatically uploads the latest test result and attaches a `.zip` file that contains test reports to the linked Jira ticket. 
 2. To view the test results, open the linked Jira ticket, click **Open Test Results** in the **Details** group.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Open-test-results-2.png" width=70% alt="Click on the Open test results in the Jira issue">
-
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-View-results-on-Jira.png" width=70% alt="See results of test case in the Jira issue">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Open-test-results-2.png" width=100% alt="Click on the Open test results in the Jira issue">
+    <br>
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-View-results-on-Jira.png" width=100% alt="See results of test case in the Jira issue">
 
     > Notes:
     >
-    > You can quickly find the test execution status via the JQL query. The syntax is as follows:
-    >```groovy
-    >"Katalon Status"=<status>
-    >```
-    > For example, to search for all issues that have failed in the Katalon Studio test execution, type `"Katalon Status"=FAIL` in the search bar. Katalon Studio supports five test statuses: **Passed**, **Failed**, **Incomplete**, **Error**, and **Skipped**.
+    > * You can quickly find the test execution status via the JQL query. The syntax is as follows:`"Katalon Status"=<status>`
+    > * For example, to search for all issues that have failed in the Katalon Studio test execution, type `"Katalon Status"=FAIL` in the search bar. Katalon Studio supports five test statuses: **Passed**, **Failed**, **Incomplete**, **Error**, and **Skipped**.
 
 ## Submit an issue to Jira
 
@@ -245,13 +236,13 @@ After executing a test suite, you can submit an issue to Jira directly from the 
 Follow these steps:
 
 1. Go to **Reports** in the **Test Explorer** panel and double-click to open the test reports you want to review for issues. 
-2. In the opened test report, click **Bug** <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Bug-icon.png" width=3% alt="Bug icon">. A **Linked Jira issues** dialog opens.
+2. In the opened test report, click *Bug* icon. A **Linked Jira issues** dialog opens.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Click-the-Bug-icon.png" width=50% alt="Click the Bug icon">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Click-the-Bug-icon.png" width=100% alt="Click the Bug icon">
 
 3. Click **Add** to choose your submit options.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Choose-your-submit-options.png" width=50% alt="Choose your submit options">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/configure-jira-integration/KS-JIRA-Choose-your-submit-options.png" width=60% alt="Choose your submit options">
 
     The issue submission options include:
 
@@ -296,12 +287,12 @@ Follow these steps:
     </tbody>
     </table>
 
-    > Note:
+    > Notes:
     > 
     > * By default, the submitted ticket includes the **Summary**, **Description**, **Screenshots** and **Logs** of the test case. You can configure the default submission form from the **Submit Options** section in the Jira integration settings.
     > * To quickly navigate to a linked JIRA issue, click the hyperlink embedded in the ticket's ID. 
     > 
-    > <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/katalon_studio_integration_with_jira_overview/Linked-JIRA-issues1.png" width=40% alt="Jira Issues Hyperlink">
+        ><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/katalon_studio_integration_with_jira_overview/Linked-JIRA-issues1.png" width=40% alt="Jira Issues Hyperlink">
 
 
 
