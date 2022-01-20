@@ -45,6 +45,12 @@ Select a product to go to its documentation where you can find its reference, tu
         <td>A framework that provides a blueprint for test automation projects based on TestNG and Selenium.
         </td>
     </tr>
+    <tr>
+        <td style="width:300px;display:block"><a href="https://docs.katalon.com/katalon-testcloud/docs/testcloud-overview.html"><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-products/TestCloud-Symbol-icon.png"></a>
+            <a href="https://docs.katalon.com/katalon-testcloud/docs/testcloud-overview.html">Katalon TestCloud</a>
+        <td>A cloud-based test execution environment equipped with the most common browsers and operating systems.
+        </td>
+    </tr>
 </table>
 
 > Tips: Search documentation by using the search bar located on the top left corner of this screen.
