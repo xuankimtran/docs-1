@@ -75,7 +75,7 @@ To view a test suite created in TestOps, go to **Test Management** > **Test Suit
 
 To view a test suite uploaded from a Git repository, go to **Test Management** > **Test Suites**, select the relevant script repository, then click on the **Test Suites** folder.
 
-* If you have not run tests yet, the execution data (Last executed, Average Duration, Flakiness (%)) is empty.
+* If you have not run tests yet, the execution data (Last executed) is empty.
 * If you have run tests, this section contains information on your test executions.
 
 > Notes:
@@ -124,6 +124,10 @@ You can see test suites and their execution data inside the **Test Suites** fold
 ## Update a Test Suite
 
 You can rename a test suite and add/remove test cases in the test suite you have created in Katalon TestOps.
+
+> Notice:
+>
+> Katalon TestOps has a *re-import* feature where you can import the test reports repeatedly. This feature only recognizes the original name of the test suite you have created. If you rename the test suite and then re-import the reports, there is a high chance that TestOps does not recognize the new test suite name and consequently, it imports the wrong data. Therefore, rename your test suite with caution.
 
 Follow these steps:
 
