@@ -18,7 +18,7 @@ This is useful if you want to:
 
 1. Go to **Project/Settings/Desired Capabilities** > Choose the driver with the desired capabilities you wish to export. Click **Export**.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops/desired-capabilities-management/desired-capabilities.png" width=70%>
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/project-settings-new-ui/KS-DC-Export-DC.png" width=70%>
 
 2. A dialog box appears. Select the destination folder, then click **Save**.
 
@@ -32,7 +32,7 @@ Follow these steps:
 
 1. Go to **Project/Settings/Desired Capabilities** > choose the driver you want to import the desired capabilities of. Click **Import**.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops/desired-capabilities-management/desired-capabilities.png" width=70%>
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/project-settings-new-ui/KS-DC-Import-DC.png" width=70%>
 
 2. A dialog box appears. Click **Browse**. Navigate to the JSON file you want to import and select it. Click **OK**.
 

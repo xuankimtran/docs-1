@@ -32,7 +32,7 @@ This document shows you how to turn on/ off the Time Capsule and how to trigger 
 
    2. In drop-down list of **Default Time Capsule**, choose **Enabled/ Disabled > OK**
 
-      <img alt="Enable Time Capsule" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/time-capsule/KS-TIMECAPSULE-Settings.png" width=100%>
+      <img alt="Enable Time Capsule" src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/KS-PRJ-Time-capsule.png" width=100%>
 
 ### Failed Test Case Execution scenario
 

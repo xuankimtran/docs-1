@@ -59,7 +59,7 @@ The following guidelines show you how to start browsers (Firefox, Chrome, Edge C
    </table>
 
    <a class="pop">
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/start-browsers-in-private-mode/KS-DC-Firefox-in-private-mode.png" width="70%" alt="Open Firefox with devtools in the private mode">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/project-settings-new-ui/KS-DC-FIRFOX-Private-mode.png" width="70%" alt="Open Firefox with devtools in private mode">
    </a>
    <p style="text-align: center;"><em>Click the image to enlarge it</em></p>
 
@@ -88,7 +88,7 @@ The following guidelines show you how to start browsers (Firefox, Chrome, Edge C
     </tbody>
     </table>
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/start-browsers-in-private-mode/2-private-mode.png" width=100% alt="ks chrome private mode">
+      <img src="https://github.com/katalon-studio/docs-images/raw/c057a1480081acac602a7847483260c61f106559/katalon-studio/docs/project-settings-new-ui/KS-DC-Chrome-INCOGNITO.png" width=100% alt="ks chrome private mode">
 
 3. Click **Apply and Close**.
 
@@ -143,8 +143,8 @@ The following guidelines show you how to start browsers (Firefox, Chrome, Edge C
    </tbody>
    </table>
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/start-browsers-in-private-mode/edge-chromium-2.png" width=100% alt="ks edge chromium dictionary property builder">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/project-settings-new-ui/KS-DC-Edge-Chromium-Private-mode-1.png" width=100% alt="ks edge chromium dictionary property builder">
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/start-browsers-in-private-mode/edge-chromium-1.png" width=100% alt="ks edge chromium private mode">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/project-settings-new-ui/KS-DC-Edge-Chromium-Private-mode-2.png" width=100% alt="ks edge chromium private mode">
 
 3. Click **Apply and Close**.

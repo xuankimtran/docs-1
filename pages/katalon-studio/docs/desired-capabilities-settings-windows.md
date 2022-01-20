@@ -18,7 +18,7 @@ To set desired capabilities for Windows Spy/Recorder Utility, do as follows:
 
 1. Go to **Project > Settings > Desired Capabilities > Windows**.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/windows-desired-capabilities/desired-capa-win.png"  width="70%" alt="DC settings for Windows">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/project-settings-new-ui/KS-DC-Windows-settings.png"  width="70%" alt="DC settings for Windows">
 
    Alternatively, you can also edit desired capabilities settings via a Windows execution session. Start a **Spy Windows/ Windows Recorder** session, in the **Configuration** box, click **Edit**.
 

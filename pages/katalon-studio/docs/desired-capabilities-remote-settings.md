@@ -22,18 +22,18 @@ This article shows you how to configure desired capabilities for remote executio
 To set desired capabilities for remote execution, do as follows:
 
 1. Go to **Project > Settings > Desired Capabilities > Remote**. 
-2. Enter **Remote Server URL**: `http://localhost:port/wd/hub` - the URL to the remote server.
+2. Enter **Remote Server URL**: `http://<localhost>:<port>/wd/hub` - the URL to the remote server.
 3. In the **Remote Server Type** box, choose **Selenium/Appium**.
     
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/remote-desired-capabilities/KS-DC-Set-remote-server-URL-types.png" width="100%" alt="Add Desired Capabilities for remote execution">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/project-settings-new-ui/KS-DC-Remote-settings.png" width="100%" alt="Add Desired Capabilities for remote execution">
 
     From Katalon Studio version 6.3.0 onwards, when choosing **Appium** server, you also need to choose **Android Driver/iOS Driver**.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/remote-desired-capabilities/KS-DC-Choose-Appium-Driver.png" width="100%" alt="Choose Android Driver/iOS Driver">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/project-settings-new-ui/KS-DC-Remote-Choose-driver-for-Appium.png" width="100%" alt="Choose Android Driver/iOS Driver">
     
 4. Click **Add** on the command toolbar. Provide the **Name**, **Type** and **Value** of the property that you wish to configure.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/ae4ec26fc88e10e0fc19d5805d64865abfcad9f6/katalon-studio/docs/remote-desired-capabilities/Remote-desired-capabilities.png" width="100%" alt="Add Desired Capabilities for remote execution">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/project-settings-new-ui/KS-DC-REMOTE-Set-DC-for-Appium-driver.png" width="100%" alt="Add Desired Capabilities for remote execution">
 
     > * Desired capabilities is a JSON object (having keys and values pair). We need to set the capability **Name** as `key` and the capability **Value** as `value`. 
     > * The capabilities keys are case-sensitive.

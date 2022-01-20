@@ -140,32 +140,35 @@ Do as follows:
 
 1. Create a new Custom profile in **Desired Capabilities**. Go to **Project > Settings > Desired Capabilities > Custom.**
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/project-settings-dialog.png" width=70% alt="Project Settings dialog">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/project-settings-new-ui/KS-LOCALE-Custom-settings.png" width=70% alt="Project Settings dialog">
 
 2. In the command toolbar, click **Add** to add a custom profile.
-In the newly added property line, change the name to "spanish" for better recognition, then click on *More* (...) under the **Value** column. A **Custom Execution Configuration Builder** dialog opens.
+  In the newly added property line, change the name to "spanish" for better recognition, then click on *More* (...) under the **Value** column. A **Custom Execution Configuration Builder** dialog opens.
   
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/name-the-spanish.png" width=70% alt="Set value for custom Desired Capabilities">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/project-settings-new-ui/KS-LOCALES-Name-the-property.png" width=70% alt="Set value for custom Desired Capabilities">
 
 
 3. In the **Custom Execution Configuration Builder** dialog, specify the **Driver Name** as **Remote**, then click on *More* (...) under the **Preferences** column. A **Driver Builder** dialog opens.
  
     <img src="https://github.com/katalon-studio/docs-images/raw/5ce4d691c2e1223380169717503cd3189ae5b1ed/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Custom-Execution%20-Configuration%20-Builder-2.jpg" width=70% alt="Set value for custom Desired Capabilities">
 
-- Fill in the **Driver Builder** dialog as shown below:
-  1. Remote Server URL: `http://localhost:port/wd/hub` - the URL to the Remote server.
-  2. Remote Server Type: Choose **Selenium**.
-  3. Click **Add** on the command toolbar, then input the following values:
+  - Fill in the **Driver Builder** dialog as shown below:
+    1. Remote Server URL: `http://localhost:port/wd/hub` - the URL to the Remote server.
+    2. Remote Server Type: Choose **Selenium**.
+    3. Click **Add** on the command toolbar, then input the following values:
 
       <table>
       <thead>
         <tr>
-          <th>Name</th>
-          <th>Type</th>
-          <th>Value</th>
+          <th colspan="3">Table 1</th>
         </tr>
       </thead>
       <tbody>
+        <tr>
+          <td>Name</td>
+          <td>Type</td>
+          <td>Value</td>
+        </tr>
         <tr>
           <td>browserName</td>
           <td>string</td>
@@ -186,15 +189,18 @@ In the newly added property line, change the name to "spanish" for better recogn
       <table>
       <thead>
         <tr>
-          <th>Name</th>
-          <th>Type</th>
-          <th>Value</th>
+          <th colspan="3">Table 2</th>
         </tr>
       </thead>
       <tbody>
         <tr>
+          <td>Name</td>
+          <td>Type</td>
+          <td>Value</td>
+        </tr>
+        <tr>
           <td>prefs</td>
-          <td>Dictionary(**)</td>
+          <td>Dictionary</td>
           <td>Click <em>More</em> (...). In the pop-up <strong>Dictionary Property Builder</strong> dialog, click <strong>Add</strong>, then input values from Table 3.</td>
         </tr>
       </tbody>
@@ -203,12 +209,15 @@ In the newly added property line, change the name to "spanish" for better recogn
       <table>
       <thead>
         <tr>
-          <th>Name</th>
-          <th>Type</th>
-          <th>Value</th>
+          <th colspan="3">Table 3</th>
         </tr>
       </thead>
       <tbody>
+        <tr>
+          <td>Name</td>
+          <td>Type</td>
+          <td>Value</td>
+        </tr>
         <tr>
           <td>intl.accept_languages(*)</td>
           <td>String</td>
@@ -221,15 +230,18 @@ In the newly added property line, change the name to "spanish" for better recogn
       
       (**) <em>`es`: the language code for Spanish.</em>
 
-        <a class="pop">
-        <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/KS-LOCALES-Custom-settings.png" width=70% alt="Set value for custom Desired Capabilities">
-        </a>
-        <p style="text-align: center;"><em>Click the image to enlarge it</em></p>
+      <a class="pop">
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/KS-LOCALES-Custom-settings.png" width=70% alt="Set value for custom Desired Capabilities">
+      </a>
+      <p style="text-align: center;"><em>Click the image to enlarge it</em></p>
+
+      > Notes:
+      > * The capabilities properties are case-sensitive.
 
   4. Click **OK** to save the settings in each table. The above commands should result in the following:
 
       <a class="pop">
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/KS-LOCALES-Final-results.png" width=70% alt="Results after setting up custom language Remote Control dialog">
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/project-settings-new-ui/KS-LOCALE-Final-results.png" width=70% alt="Results after setting up custom language Remote Control dialog">
       </a>
       <p style="text-align: center;"><em>Click the image to enlarge it</em></p>
 
