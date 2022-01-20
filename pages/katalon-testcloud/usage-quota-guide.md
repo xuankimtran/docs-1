@@ -68,3 +68,28 @@ Once the number of testing minutes has reached zero, no new test execution is al
 > **Notes**:
 >
 > If you want to renew your quota, contact us at success@katalon.com for quota options.
+
+## Track TestCloud quota
+
+You can track your TestCloud quota on the TestOps **License Management** page.
+
+Follow these steps:
+
+1. Sign in to [Katalon TestOps](https://testops.katalon.io/login) and go to your project.
+
+2. Go to **Settings** > **License Management**.
+
+    The **License Management** page appears.
+
+3. Click on the **Katalon TestCloud** tab.
+
+<a class="pop">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/usage-quota/TC-Track-quota.png" width=100% alt="License Management Katalon TestCloud tab">
+</a>
+
+<p style="text-align: center;"><em>Click the image to enlarge</em></p>
+
+You can then check the following information:
+
+* the number of parallel tests.
+* the testing time.
