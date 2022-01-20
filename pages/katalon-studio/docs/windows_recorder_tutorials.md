@@ -80,7 +80,7 @@ Remember to turn on the WinAppDriver before executing a test case.
 
 Select the **Windows** icon in the **Run** button on the main Toolbar to execute the script.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-windows-actions/step13.png" width="228" height="330">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-windows-actions/run-with-windows.png" width="40%" alt="run with windows">
 
 The Windows test is executed with those recorded steps accordingly.
 

@@ -52,7 +52,7 @@ Step 4: Verify login is successful.
 
 Step 1: Click on Add from Toolbar and select Web UI Keyword.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/running_application_mobile_browsers/MobileBrowsers1.png)
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/running_application_mobile_browsers/web-ui-keyword.png" alt="web UI keyword" width="40%">
 
 Step 2: Select _Open Browser_ and pass the URL in the input field. Call _Wait for Page to Load_ and provide a timeout value in the input field.
 
@@ -80,7 +80,7 @@ Step 13: Use the _Verify Match_ Keyword to verify the actual and expected texts.
 
 Step 14: Close the browser.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/running_application_mobile_browsers/MobileBrowsers2.png)
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/running_application_mobile_browsers/test-steps.png" alt="test steps" width="100%">
 
 You can also achieve the desired test case by using **Script Mode**.
 
@@ -141,7 +141,7 @@ Do not forget to execute the test case in Katalon Studio again to ensure that it
 
 Double-check to ensure that the real device is connected, the virtual device loaded, or cloud device connected successfully. From Katalon Studio, select the test case and choose to execute with Android/iOS as follows:
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/running_application_mobile_browsers/MobileBrowsers3.png)
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/running_application_mobile_browsers/execution.png" alt="execution" width=90%>
 
 It may take a while before the browser can be loaded into the device.
 

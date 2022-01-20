@@ -10,11 +10,9 @@ Katalon Studio fully supports automation test for desktop apps written in the fo
 
 ### Windows Execution Type
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/introduction-desktop-app-testing/Windows_Execution_1.png" width="267" height="319">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-windows-actions/run-with-windows.png" width="40%" alt="run with windows">
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/introduction-desktop-app-testing/Windows_Execution_2.png" width="535" height="375">
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/introduction-desktop-app-testing/Windows_Execution_3.png" width="535" height="463">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/introduction-desktop-app-testing/select-window-environment.png" width="70%" alt="select environment">
 
 ### Windows Keyword
 

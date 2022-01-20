@@ -80,7 +80,7 @@ To playback the recorded scenario:
 1. Select the test case where you have saved the recorded actions
 2. From the main Toolbar, open the drop-down list next to the **Run** button and to select a mobile device type
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/run.png" width=703>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/run-icon.png" width=40% alt="run">
 
 3. In the displayed dialog, select a device and click **OK**.
 
