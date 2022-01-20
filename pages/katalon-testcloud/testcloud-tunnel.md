@@ -38,8 +38,6 @@ The tunnel-sharing feature is only available in TestOps. The tunnel created in S
 
 ## Some key information
 
-TestCloud clients are distinct from tunnel clients. But setting up a TestCloud client in your machines on your private networks also sets up the tunnel client.
-
 After starting the run command, the tunnel client does two things: 
 - Spin up a fresh virtual machine (VM) that is used only for testing.
 - Connect you to the TestCloud Tunnel server.
