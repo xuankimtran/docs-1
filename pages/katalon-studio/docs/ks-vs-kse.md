@@ -20,31 +20,43 @@ This document reflects the comparison between free and Enterprise-exclusive feat
       <td> <strong>Web UI</strong>: <a href="https://docs.katalon.com/katalon-studio/docs/create_test_case_using_record_playback.html">Record and Playback</a> with debugging options </td>
       <td> Quickly correct test failures on newly recorded test to make it reliable.</td>
       <td></td>
-      <td>✔</td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
     </tr>
     <tr valign="top">
       <td> <strong>Web UI</strong>: <a href="https://docs.katalon.com/katalon-studio/docs/web-image-based-testing.html">Image-based Testing</a> </td>
       <td> Find and interact with image objects. This feature is particularly helpful when objects retain the same appearance even if the underlying structures have changed.</td>
       <td></td>
-      <td>✔</td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
     </tr>
     <tr valign="top">
       <td> <strong>Web UI</strong>: <a href="https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html">Smart XPath Generator</a></td>
       <td> Auto-generate neighbor XPaths as alternative locators to find an object at runtime.</td>
-      <td>✔</td>
-      <td>✔</td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
     </tr>
     <tr valign="top">
       <td> <strong>Web UI</strong>: <a href="https://docs.katalon.com/katalon-studio/docs/web-selection-methods.html">Advanced Web Locator Settings</a></td>
       <td> Define if XPath, Attributes, or CSS is the default web locator when using Recorder and Spy.</td>
       <td></td>
-      <td>✔</td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
     </tr>
     <tr valign="top">
       <td> <strong>Web Service</strong>: <a href="https://docs.katalon.com/katalon-studio/docs/import-openapi30.html">Import OpenAPI Specification 3.0</a> </td>
       <td> Quickly create test objects by importing RESTful APIs with OpenAPI Specification version 3.0.</td>
       <td></td>
-      <td>✔</td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
     </tr>
     <tr valign="top">
       <td> <strong>Web Service</strong>: Customized Request Methods and Advanced Settings </td>
@@ -55,105 +67,143 @@ This document reflects the comparison between free and Enterprise-exclusive feat
         </ul>
       </td>
       <td></td>
-      <td>✔</td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
     </tr>
     <tr valign="top">
       <td> <strong>Web UI</strong> and <strong>Web Service</strong>: SSL Client Certificate </td>
       <td> Configure Katalon Studio to use client certificate for all requests. </td>
       <td></td>
-      <td>✔</td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
     </tr>
     <tr valign="top">
       <td> <strong>Mobile</strong>: <a href="https://docs.katalon.com/katalon-studio/docs/mobile-image-based-testing.html">Image-based testing</a></td>
       <td> Find and interact with image elements. This feature is particularly helpful for testing dynamic or canvas elements. </td>
       <td></td>
-      <td>✔</td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
     </tr>
     <tr valign="top">
       <td> <strong>Windows Desktop</strong>: <a href="https://docs.katalon.com/katalon-studio/docs/windows-native-record.html">Native Windows Recorder</a></td>
       <td> Seamless test recording experience that's similar to web recorder. </td>
       <td></td>
-      <td>✔</td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
     </tr>
     <tr valign="top">
       <td rowspan="5" ><strong>Data-driven testing</strong></td>
       <td> Excel, CSV, PostgreSQL, MySQL </td>
       <td> Read input values for test scripts from Excel files, CSV files, internal test data, and database.</td>
-      <td>✔</td>
-      <td>✔</td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
     </tr>
     <tr valign="top">
       <td> Oracle SQL, SQL Server </td>
       <td> Read input values for test scripts from Oracle SQL, and SQL Server.</td>
       <td></td>
-      <td>✔</td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
     </tr>
     <tr valign="top">
       <td> Combine multiple Data Files </td>
       <td> Read input values for test scripts from multiple data file combinations. </td>
       <td></td>
-      <td>✔</td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
     </tr>
     <tr valign="top">
       <td> External Database having JDBC Drivers </td>
       <td> Read input values for test scripts from other databases having JDBC drivers (e.g., MongoDB, SAP HANA DB).</td>
       <td></td>
-      <td>✔</td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
     </tr>
     <tr valign="top">
       <td><a href="https://docs.katalon.com/katalon-studio/docs/manage-checkpoints.html">Checkpoints</a></td>
       <td> Snapshots of test data taken at a specific time. These snapshots are used to verify if the current state of the data source is different from its previously taken state. </td>
       <td></td>
-      <td>✔</td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
     </tr>
     <tr valign="top">
       <td ><strong>Test Execution</strong></td>
       <td> Parallel Execution </td>
       <td> Run multiple test suites at the same time to reduce execution time. </td>
-      <td>✔</td>
-      <td>✔</td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
     </tr>
     <tr valign="top">
       <td ></td>
       <td><a href="https://docs.katalon.com/katalon-studio/docs/test-suite-collection-scheduler.html">Execution Scheduler</a></td>
       <td> Schedule the next run of a test suite collection at a specific time. </td>
       <td></td>
-      <td>✔</td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
     </tr>
     <tr valign="top">
       <td ></td>
       <td> Retry failed tests and consolidate reports </td>
       <td> Rerun failed test cases several times to identify flaky tests. </td>
       <td></td>
-      <td>✔</td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
     </tr>
     <tr valign="top">
       <td ></td>
       <td> <strong>Web UI</strong>: <a href="https://docs.katalon.com/katalon-studio/docs/webui-smartwait.html">Smart Wait</a></td>
       <td> Tackle Selenium waiting issues.</td>
-      <td>✔</td>
-      <td>✔</td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
     </tr>
     <tr valign="top">
       <td ></td>
       <td> <strong>Web UI</strong>: <a href="https://docs.katalon.com/katalon-studio/docs/self-healing.html">Self-healing</a></td>
       <td> Reduce maintenance effort by trying other alternative locators to find an object automatically when the default locator is broken. </td>
       <td></td>
-      <td>✔</td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
     </tr>
     <tr valign="top">
       <td ></td>
       <td> <a href="https://docs.katalon.com/katalon-studio/docs/dynamic-test-suite-ks.html">Dynamic Test Suite</a></td>
       <td> Add test cases to a test suite dynamically by search queries.</td>
       <td></td>
-      <td>✔</td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
     </tr>
     <tr valign="top">
       <td ></td>
       <td> Use Java Virtual Machine (JVM) arguments </td>
       <td> Modify the behavior of each Java process in terms of changing heap size, or handling out of memory issue. </td>
       <td></td>
-      <td>✔</td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
     </tr>
     <tr valign="top">
       <td rowspan="2" ><strong>Reporting</strong></td>
@@ -174,8 +224,12 @@ This document reflects the comparison between free and Enterprise-exclusive feat
           <li> Notify multiple users of test suite reports by email. </li>
         </ul>
       </td>
-      <td>✔</td>
-      <td>✔</td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
     </tr>
     <tr valign="top">
       <td>
@@ -196,7 +250,9 @@ This document reflects the comparison between free and Enterprise-exclusive feat
         </ul>
       </td>
       <td></td>
-      <td>✔</td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
     </tr>
     <tr valign="top">
       <td rowspan="5" >
@@ -222,19 +278,25 @@ This document reflects the comparison between free and Enterprise-exclusive feat
       </td>
       <td> Quickly correct test failures with multiple debugging features to ensure test script quality. </td>
       <td></td>
-      <td>✔</td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
     </tr>
     <tr valign="top">
       <td> <a href="https://docs.katalon.com/katalon-studio/docs/test-case-management-with-tags.html">Test Case Management with Tags</a> </td>
       <td> Append tags to test cases, then quickly search for or run test cases by tag.</td>
       <td></td>
-      <td>✔</td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
     </tr>
     <tr valign="top">
       <td><a href="https://docs.katalon.com/katalon-studio/docs/import-export-test-artifact.html">Import/Export Test Artifacts</a></td>
       <td> Quickly share test cases, test objects, execution profiles, and custom keywords across projects.</td>
       <td></td>
-      <td>✔</td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
     </tr>
     <tr valign="top">
       <td> <a href="https://docs.katalon.com/katalon-studio/docs/import-export-desired-capabilities.html">Import/Export Desired Capabilities</a></td>
@@ -244,13 +306,17 @@ This document reflects the comparison between free and Enterprise-exclusive feat
 		  </em>
       </td>
       <td></td>
-      <td>✔</td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
     </tr>
     <tr valign="top">
       <td><a href="https://docs.katalon.com/katalon-studio/docs/test-objects-refactoring.html">Test Objects Refactoring</a></td>
       <td> Keep Object Repository neat and clean by checking, exporting, and removing unused test objects. </td>
       <td></td>
-      <td>✔</td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
     </tr>
     <tr valign="top">
       <td rowspan="3" >
@@ -259,19 +325,23 @@ This document reflects the comparison between free and Enterprise-exclusive feat
       <td> Application Lifecycle Management (ALM) tools: JIRA, Katalon TestOps, Azure Test Plans, qTest, TestRail, TestLink, Rally </td>
       <td> Integrate test projects with ALM tools to push and pull test artifacts, and test result information between Katalon Studio and the ALM tool. </td>
       <td></td>
-      <td>✔</td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
     </tr>
     <tr valign="top">
       <td> Cloud Provider: <a href="https://docs.katalon.com/katalon-studio/docs/testcloud-integration.html">Katalon TestCloud (Beta)</a>, Kobiton, Sauce Labs </td>
       <td> Connect to cloud providers to test your applications on multiple devices and browsers.</td>
       <td></td>
-      <td>✔</td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
     </tr>
     <tr valign="top">
       <td> Git-based source code management (SCM): GitHub, GitLab, Azure Repos, BitBucket, etc.</td>
       <td> Collaborate, store, manage change, and control version in test project repository with popular Git hosting services.</td>
-      <td> via HTTPs </td>
-      <td> via SSH </td>
+      <td> <div data-align="center">via HTTPs</div></td>
+      <td> <div data-align="center">via SSH</div></td>
     </tr>
     <tr valign="top">
       <td>
