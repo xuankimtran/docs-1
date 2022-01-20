@@ -1225,7 +1225,7 @@ items:
             url: /katalon-studio/docs/vststfsvso-integration.html
           - title: "Jenkins Integration"
             url: /katalon-studio/docs/jenkins-integration.html
-      - title: "Tips and Tricks"
+      - title: "Tips from our community"
         tree:
           - title: "Connect to SQL using Windows Authentication"
             url: /katalon-studio/docs/connect-to-sql-using-windows-authentication.html
