@@ -5,12 +5,6 @@ permalink: katalon-testcloud/docs/testcloud-tunnel.html
 description: Introducing TestCloud Tunnel and how to utilize it
 ---
 
-> Notice:
->
-> We currently do not support using the tunnel connections behind a proxy.
->
-> If you cannot load your app after setting up the local testing correctly, you are probably behind a proxy.
-
 ## TestCloud Tunnel
 
 A tunnel is used to secure the movement of data from one network to another.
@@ -25,7 +19,17 @@ TestCloud tunnel services can:
 * Provide security by limiting access to authorized users with API keys.
 * Save time by running multiple concurrent tests using multiple Edge servers.
 
-### How does TestCloud Tunnel work?
+## Some key information on TestCloud Tunnel
+
+> Recommended specs:
+>
+> Recommended specs are still under evaluation during the trial period.
+
+> Notes:
+>
+> * The tunnel-sharing feature is only available in TestOps.
+> * The tunnel created in Studio is separate from the one created in TestOps. You cannot use tunnels from TestOps and Studio interchangeably.
+> * The tunnel is automatically terminated after 30 minutes of idleness.
 
 Once TestCloud clients have installed the tunnels in the machines which have access to their private network, they have set up the tunnel clients.
 
@@ -39,6 +43,10 @@ After starting the run command, the tunnel client connects you to the TestCloud 
 
 ## Utilize TestCloud Tunnel
 
+> Recommended specs:
+>
+> Recommended specs are still under evaluation during the trial period.
+
 We recommend the following practices to optimize your tunnel usage:
 
 * Use a single tunnel or tunnel pool for each test suite or build, then tear it down at the end of your test.
@@ -51,21 +59,17 @@ We recommend the following practices to optimize your tunnel usage:
 
 * Use a machine with high specs (e.g., RAM, CPU) when you run many concurrent tests.
 
-    > Notes:
-    >
-    > We will provide recommended specs requirements soon.
-
 * Run one tunnel client on one machine to avoid timeout and bandwidth issues that could cause test failure.
 
 * To save your machine's bandwidth and resources, you can quickly close the tunnel using the shortcut Ctrl+C in the command-line interface (CLI) after you finish running tests.
 
 ## Configure TestCloud Tunnel
 
-> Notes:
+> Notice:
 >
-> * The tunnel-sharing feature is only available in TestOps.
-> * The tunnel created in Studio is separate from the one created in TestOps. You cannot use tunnels from TestOps and Studio interchangeably.
-> * The tunnel is automatically terminated after 30 minutes of idleness.
+> We currently do not support using the tunnel connections behind a proxy.
+>
+> If you cannot load your app after setting up the local testing correctly, you are probably behind a proxy.
 
 ### For Katalon TestOps
 
