@@ -1209,22 +1209,6 @@ items:
             url: /katalon-studio/docs/troubleshoot-common-execution-exceptions-windows.html
           - title: "Known issues"
             url: /katalon-studio/docs/known-issues-limitations.html
-      - title: "Tips and Tricks"
-        tree:
-          - title: "Connect to SQL using Windows Authentication"
-            url: /katalon-studio/docs/connect-to-sql-using-windows-authentication.html
-          - title: "Force stop execution"
-            url: /katalon-studio/docs/force-stop-execution.html
-          - title: "Get SQL query results as variables"
-            url: /katalon-studio/docs/get-sql-query-results-as-variables.html
-          - title: "Handle file upload control on hidden input"
-            url: /katalon-studio/docs/handle-file-upload-control-on-hidden-input.html
-          - title: "Open Chrome with extensions"
-            url: /katalon-studio/docs/open-chrome-with-extensions.html
-          - title: "Retrieve OS, browser and screen resolution of the machine perfoming tests"
-            url: /katalon-studio/docs/retrieve-os-browser-and-screen-resolution-of-the-machine-perfoming-tests.html
-          - title: "Retrieve chromedriver.log and firefoxdriver.log when you run Record/Spy"
-            url: /katalon-studio/docs/retrieve-chromedriverlog-and-firefoxdriverlog-when-you-run-recordspy.html
       - title: "Proof of Concept"
         tree:
           - title: "Dependencies Management with Native Gradle Support (Poc)"
@@ -1241,6 +1225,22 @@ items:
             url: /katalon-studio/docs/vststfsvso-integration.html
           - title: "Jenkins Integration"
             url: /katalon-studio/docs/jenkins-integration.html
+      - title: "Tips and Tricks"
+        tree:
+          - title: "Connect to SQL using Windows Authentication"
+            url: /katalon-studio/docs/connect-to-sql-using-windows-authentication.html
+          - title: "Force stop execution"
+            url: /katalon-studio/docs/force-stop-execution.html
+          - title: "Get SQL query results as variables"
+            url: /katalon-studio/docs/get-sql-query-results-as-variables.html
+          - title: "Handle file upload control on hidden input"
+            url: /katalon-studio/docs/handle-file-upload-control-on-hidden-input.html
+          - title: "Open Chrome with extensions"
+            url: /katalon-studio/docs/open-chrome-with-extensions.html
+          - title: "Retrieve OS, browser and screen resolution of the machine perfoming tests"
+            url: /katalon-studio/docs/retrieve-os-browser-and-screen-resolution-of-the-machine-perfoming-tests.html
+          - title: "Retrieve chromedriver.log and firefoxdriver.log when you run Record/Spy"
+            url: /katalon-studio/docs/retrieve-chromedriverlog-and-firefoxdriverlog-when-you-run-recordspy.html
   - title: "Katalon Runtime Engine"
     tree:
       - title: "Introduction to Runtime Engine"
