@@ -1513,6 +1513,8 @@ items:
     tree:
       - title: "Overview"
         url: /katalon-testcloud/docs/testcloud-overview.html
+      - title: "Release Notes" 
+        url: /katalon-testcloud/docs/release-notes.html
       - title: "Get started"
         tree:
           - title: "Usage Quota"
