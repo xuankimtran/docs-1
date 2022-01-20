@@ -26,17 +26,17 @@ To create a new Test Suite, do as follows:
 
 1. From the menu bar, select **File > New > Test Suite**
 
-   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/test-suite-1.png)
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/file-new-test-suite.png" alt="create new test suite" width="100%">
 
 2. Fill in the **Name** of the test suite and the **Description** (optional).
 
-   ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/New-test-suite-window.png)
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/new-test-suite.png" alt="add test suite name" width="70%">
 
 3. Click **OK** when you are done.
 
-Alternatively, you can create a new Test Suite after creating a Test Case. In a Test Case, click the **Add to test suite** button.
+   Alternatively, you can create a new Test Suite after creating a Test Case. In a Test Case, click the **Add to test suite** button.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/Test-suite-2.png)
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/add-to-test-suite.png" alt="add to test suite" width="100%">
 
 You can choose to add that test case to an **existing** or a **new** test suite.
 
@@ -44,7 +44,7 @@ You can choose to add that test case to an **existing** or a **new** test suite.
 
 You can specify additional configurations for test suite execution by expanding the **Execution Information** section, as below:
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/design-a-test-suite/image2017-2-15-143A493A29.png)
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/execution-information.png" alt="execution information" width="50%">
 
 ## Implicit timeout
 
@@ -54,13 +54,13 @@ In **Implicit timeout**, you can decide the timeout period that Katalon Studio w
    <li><strong>User define (in seconds)</strong>: Set a custom waiting time. Input a value in seconds.</li>
 </ul>
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/design-a-test-suite/image2017-2-15-143A563A48.png">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/implicit-timeout.png" alt="implicit timeout" width="60%">
 
 ## Retry
 
 Using the **Retry** feature, you can configure when and how many times Katalon retries an execution of a Test Suite before the Test Suite finishes executing.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/retry.png" alt="retry after executing all" width=60%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/retry.png" alt="retry after executing all" width=65%>
 
 ### Retry Failed Execution Immediately
 
@@ -126,64 +126,32 @@ There are several ways to add Test Cases into Test Suites. You can drag and drop
 > Test Cases can be duplicated in the same Test Suite.
 
 Open a test suite, then select the option to add **Add Test Case** from the command toolbar.  
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/design-a-test-suite/image2017-2-15-143A333A40.png)
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/add-test-case.png" alt="add test case" width="70%">
 
 All test cases in Katalon Studio are displayed in the **Test Case Browser** dialog for you to select your preferred options. The selected test cases are added to the test case list accordingly.  
 
 > The checkbox at the end of the test case row is checked by default. It means that the test case is executed when you run a test suite.
-
-## Dynamic Test Suite (Dynamic Test Cases List)
-
-**Dynamic Test Suite** is a test suite in which a collection of multiple test cases are added to NOT in a manual way but via a [search query](https://docs.katalon.com/katalon-studio/docs/search.html). This feature only works when you have already installed the plugin that defines the querying syntax. In case there is no installed plugin, the Query Provider is set to “No query provider available.” by default.
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dynamic-querying-test-suite/dynamic-ts.png" width="100%" alt="dynamic test suite">
-
-Currently, there are three plugins from Katalon Store, which enable this feature by providing query search function and returning any matched test cases or test suites of the query statement.
-
-* [Basic Search For Dynamic Test Suite](https://store.katalon.com/product/2/Basic-Search-For-Dynamic-Test-Suite).
-* [Test Case Management with Tags](https://store.katalon.com/product/6/Test-Case-Management-with-Tags). [Learn more](https://store.katalon.com/product/13/TestRail-Integration).
-* [TestRail Integration](https://store.katalon.com/product/13/TestRail-Integration). [Learn more](https://docs.katalon.com/katalon-studio/docs/testrail-integration.html).
-
-After installing one of those plugins, go to Katalon Studio and click **Reload Plugins**. [Learn more about how to reload plugins](https://docs.katalon.com/katalon-store/docs/user/access-store-in-KS.html#reload-plugins).
-
-**Query Provider**: The query syntax standard of a plugin that is currently applied. For example, when you successfully install the *Basic Search For Dynamic Test Suite* plugin, the query syntax standard becomes "Built-in".
-
-**Query**: This search box allows you to input the query syntax manually. For example,
-`id=(Test Cases/Simple Examples/Katalon Shop/Custom-keyword samples/Order and check out a single product)`.
-
-**Query Builder** provides a convenient way to create and run a query in Katalon Studio.
-
-- **Id**: to search by the exact IDs of a test artifact.
-- **Name**: to search by the name of a test artifact.
-- **Tag**: to search by the tag linked to test artifacts.
-- **Comment**: to search by the comments attached to test artifacts.
-- **Description**: to search by the description associated with test artifacts.
-
-*Note*: Search criteria are applied to all test artifacts, including test case, test suite, folder, and etc.
-
-**Preview**: View the results after having the searching query.
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dynamic-querying-test-suite/result.png" width="100%" alt="search querry">
-
 ## Execute a Test Suite
 
 Open a test case/test suite, then select an environment to run the test case from **Run** command of the main toolbar.
 
 > If you click on the **Run** button, the test case is executed using the default browser defined in [Execution Settings](/display/KD/Execution+Settings).
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/environment.png" width=310>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/run-option.png" width=50% alt="run option">
 
 * **Browsers**: Select one of the supported browsers, including Chrome, Firefox, IE (for Windows only), Safari, or Edge Chromium, Chrome (headless), and Firefox (headless).
 * **Mobile Devices**: Select one of the listed devices (Android or iOS).
 
   Before executing your test, check if you have set up the environment for mobile testing for <a href="/display/KD/Mobile+on+Windows">Windows</a> or for <a href="/display/KD/Mobile+on+macOS">macOS</a>.
 
-  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/image2018-1-26-183A543A41.png">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/device.png" alt="mobile device" width="70%">
 
   > Troubleshooting
   >
   > If there is no device listed, please make sure the Developer Mode on the phone is turned on, try to unplug, and reconnect several times until you are prompted to accept/trust this device.
-  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/image2018-8-2-153A313A52.png">
+  >
+  > <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/device-troubleshoot.png" alt="troubleshooting" width="70%">
 
 * **Windows**: Select this option if you are executing tests on a desktop application.
 * **Remote**: Make sure you have set up the default configuration for the remote environment in project settings. Refer to&nbsp;<a href="/display/KD/Introduction+to+Desired+Capabilities">Introduction to Desired Capabilities</a>&nbsp;for more details.
@@ -191,7 +159,7 @@ Open a test case/test suite, then select an environment to run the test case fro
 
 The Job Progress is triggered automatically to show the progress while your test case/test suite is being executed.
 
-![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/image2017-6-30-203A543A25.png)
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/create-test-suite/job-progress.png" alt="job progress" width="100%">
 
 > See also [Execute the test case using console mode](/display/KD/Console+Mode+Execution).
 
