@@ -178,7 +178,3 @@ Follow these steps:
 4. Click on a session ID (e.g., **3466**) to view logs.
 
     You can see the progress of your test runs here.
-
-**See also**:
-
- * [Usage Quota](https://docs.katalon.com/katalon-testcloud/docs/usage-quota-guide.html).
