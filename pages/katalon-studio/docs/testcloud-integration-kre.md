@@ -110,3 +110,12 @@ Follow these steps:
 	```
 
 4. Click **Copy to Clipboard** and paste the command to your cmd/terminal for execution.
+
+> Known issues:
+>
+> When executing tests via TestCloud integration and a proxy, the opening browser step might fail because of an error relevant to Transport Layer Security (TLS).
+>
+> A workaround for this issue is to pass through the TLS with the below domains on your server:
+>
+> * All the domains corresponding to this regex: `^testcloud\.katalon\.com$`.
+> * The domain of the site under test.
