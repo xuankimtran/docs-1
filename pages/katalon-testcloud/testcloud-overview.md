@@ -18,6 +18,41 @@ TestCloud addresses the following problems:
 
 **No setup and maintenance required** to use TestCloud as your test environment. TestCloud is also ready to integrate with your CI/CD pipelines.
 
-Katalon TestCloud (Beta) is now integrated with Katalon TestOps. For more information, see: [Integration with TestOps](https://docs.katalon.com/katalon-testcloud/docs/integrate-testcloud-with-testops.html). Katalon Studio integration is under development.
+Katalon TestCloud is now integrated with Katalon TestOps and Katalon Studio. For more information, see: [Integration with TestOps](https://docs.katalon.com/katalon-testcloud/docs/integrate-testcloud-with-testops.html) and [Integration with Katalon Studio](https://docs.katalon.com/katalon-studio/docs/testcloud-integration.html).
 
-As an existing Katalon user, you can benefit from our Beta Testing program. For more information on the program and how to join, contact us at success@katalon.com.  
+Katalon TestCloud is in the **trial period**. All users who belong to a TestOps organization can now use TestCloud for free with the **free trial** package. The following limitations apply:
+
+<table>
+    <thead>
+        <tr>
+            <th><b>Category</b></th>
+            <th><b>Limit</b></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Expiry date</td>
+            <td>23∶59 PM April 5, 2022 EST.</td>
+        </tr>
+        <tr>
+            <td>Number of parallel tests</td>
+            <td>5.</td>
+        </tr>
+        <tr>
+            <td>Number of testing minutes</td>
+            <td>500 minutes.</td>
+        </tr>
+        <tr>
+            <td>Supported OS</td>
+            <td>Windows and Linux.</td>
+        </tr>
+        <tr>
+            <td>Supported browsers</td>
+            <td>Chrome, Firefox, and Edge.</td>
+        </tr>
+    </tbody>
+</table>
+
+**See also**:
+
+* [Usage Quota](https://docs.katalon.com/katalon-testcloud/docs/usage-quota-guide.html).

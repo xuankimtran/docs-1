@@ -1510,7 +1510,7 @@ items:
       - title: "Get started"
         tree:
           - title: "Integration with TestOps"
-            url: /katalon-testcloud/docs/integrate-testcloud-with-testops.html 
+            url: /katalon-testcloud/docs/integrate-testcloud-with-testops.html
       - title: "Troubleshooting"
         tree:
           - title: "Tests not loading when executing with Chrome version 93,94 in Windows"
