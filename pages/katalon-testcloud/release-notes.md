@@ -11,7 +11,7 @@ description:
 ### New features
 
 * Introduced TestCloud trial period as the new multi-browser testing environment in Katalon Studio, Katalon TestOps, and Katalon Runtime Engine. See: [Integrate TestCloud with TestOps](https://docs.katalon.com/katalon-testcloud/docs/integrate-testcloud-with-testops.html) and [Integrate TestCloud with Studio](https://docs.katalon.com/katalon-studio/docs/testcloud-integration.html).
-    * Enabled users to use TestCloud tunnel to execute tests in both public and private domains. See: [TestCloud tunnel](https://docs.katalon.com/katalon-testcloud/docs/testcloud-tunnel.html).
+    * Enabled users to use TestCloud tunnel to execute tests in both public and private domains.
     * Allowed users to contact Katalon at success@katalon.com to buy extra usage quota when running out of free trial package quota.
 * Supported new versions of Chrome (96, 97), FireFox (95, 96), Microsoft Edge (96, 97).
 
