@@ -7,17 +7,52 @@ redirect_from:
 description: Release notes 8.x
 ---
 
-## Version 8.2.5 Beta
+> Download from our official website: [Katalon Studio version 8.2.5](https://www.katalon.com/download/).
 
-> Download from our GitHub repository: [Katalon Studio version 8.2.5 Beta](https://github.com/katalon-studio/katalon-studio/releases/tag/v8.2.5.beta).
+## Version 8.2.5
 
 ### New features
 
-* [WebUI] Introduced an option to use the Spy, Record, and Smart Wait function with a packed extension, now available on the Chrome Web Store. This extension is compatible with Katalon Studio version 8.2.5 Beta onwards. See [Katalon Compact Utility](https://docs.katalon.com/katalon-studio/docs/katalon-compact-utility.html).
+* [WebUI] Introduced an option to use the Spy, Record, and Smart Wait function with a packed extension, now available on the Chrome Web Store. This extension is compatible with Katalon Studio version 8.2.5 onwards. See [Katalon Compact Utility](https://docs.katalon.com/katalon-studio/docs/katalon-compact-utility.html).
+    * Introduced an option to enable/disable Xpath visibility on the Katalon Compact Utility extension. See [Disable XPath visibility](https://docs.katalon.com/katalon-studio/docs/katalon-compact-utility.html#disable-xpath-visibility).
+* Introduced TestCloud integration (Beta). See [Integrate TestCloud with Studio](https://docs.katalon.com/katalon-studio/docs/testcloud-integration.html) and [Run TestCloud with Katalon Runtime Engine](https://docs.katalon.com/katalon-studio/docs/testcloud-integration-kre.html).
+
+### Enhancements
+
+* Added Microsoft Edge (Chromium) 96 compatibility.
+* Added Chrome 97 compatibility.
+* [Operating System] Windows 11 support: You can use Katalon Studio and Katalon Runtime Engine on computers running under Windows 11.
+* [Security Compliance]:
+    * Upgraded Netty library to netty-all 4.1.61.Final.
+    * Upgraded jsoup library to jsoup 1.14.3.
+* Enabled the connection to the SAP HANA database. To set up SAP HANA database for Data-driven testing, download this executable jar file: [SAP HANA JDBC Driver](https://mvnrepository.com/artifact/com.sap.cloud.db.jdbc/ngdbc) and follow this tutorial: [Connect to a database with an external JDBC driver](https://docs.katalon.com/katalon-studio/docs/database-settings.html#connect-to-a-database-with-an-external-jdbc-driver).
+* Introduced the `xpath:customAttributes` in the web locator strategies. See [Configure XPath](https://docs.katalon.com/katalon-studio/docs/web-selection-methods.html#configure-xpath).
+* Introduced an option in the **Project Setting** to include/exclude timestamps in the .properties files. See [Include/Exclude timestamp in .properties files](https://docs.katalon.com/katalon-studio/docs/execution-settings.html#includeexclude-timestamp-in-proprerties-files).
+* [TestOps Integration]:
+    * Removed the **Create Script Repository** and **Update Script Repository** options.
+    * Turned on Katalon TestOps Integration by default for new Web and API users.
+* [License Activation] Changed the Katalon license server to [https://admin.katalon.com/](https://admin.katalon.com/). For authentication, Katalon Studio and Katalon Runtime Engine call this new server URL.
+* Improved the visibility of the search function. See [Search Test Cases](https://docs.katalon.com/katalon-studio/docs/search.html).
+* Removed unused messages in Test Suite.
+* [UI changes]:
+    * [Dynamic Test Suite] Updated UI for the retry function in Dynamic Test Suite.
+    * Changed the **Communication**, **Feedback**, and **Support Portal** buttons.
+    * [TestOps Integration] Changed the UI in the **Katalon TestOps Integration** dialog. See [Upload Test Results to Katalon TestOps from Katalon Studio](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html).
+    * [License Activation] Changed UI text from **Deactivate** to **Log out**.
+
+### Fixes
+
+* Bug: Editing script and executing a test could intermittently cause the error: "java.lang.ClassFormatError: Truncated class file".
+* Bug: [qTest] Missing screenshots in the qTest HTML report.
+* Bug: [qTest] Could not run test suite right after configuring qTest integration.
+* Bug: Failed to update webdriver automatically when using custom desired capabilities.
+* Bug: [Katalon Runtime Engine] Not sending all Jira IDs test results in the Jira report when executing with Katalon Runtime Engine.
+* Bug: [On-Premises and Cloud Licensing Servers] Not showing the terminate session popup when deleting online licenses.
+* Bug: [Web Recorder] Lacked test steps in the Recorder Logs when playing back the test case.
+* Bug: Inside the **Log Viewer**, unable to navigate to a specific step by right-clicking on the step and choosing **Go to this step in Script View**.
+* Bug: [Docker Image] Unable to send email reports when running test script from Docker Image.
 
 ## Version 8.2.0
-
-> Download from our official website: [Katalon Studio version 8.2.0](https://www.katalon.com/download/).
 
 ### New features
 
