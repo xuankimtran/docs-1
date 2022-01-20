@@ -44,7 +44,7 @@ To configure and use Katalon Compact Utility, you need to update the Desired Cap
 3. Click **Add** to create a new capability named `args`, for which the type is `List`.
 4. To add elements to your list, in the **Value** column of the capability you've created, click on the `...` button.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-compact-utility/project-settings-825.png" alt="element" width=85%>
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-compact-utility/add-desired-capabilities.png" alt="element" width=85%>
 
 5. The **List Properties Builder** dialog appears. Click **Add** to create two elements as below. When you are done, click **OK** to save.
 
