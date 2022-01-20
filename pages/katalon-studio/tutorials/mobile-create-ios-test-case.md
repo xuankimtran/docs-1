@@ -211,11 +211,11 @@ To run the recorded steps, follow these steps:
 1. Select the test case where you saved the recorded actions.
 2. On the main toolbar, select **iOS** device in the dropdown list next to **Run**.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/select-ios.png" width=30%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/KS-TOOLBAR-iOS.png" width=30% alt="Execute iOS">
 
 3. In the displayed **iOS Devices** dialog, select an iOS device or Xcode simulator, then click **OK**.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/ios-devices-list.png" width=50%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/ios-devices-list.png" width=50% alt="Choose iOS device">
 
    Katalon Studio executes the iOS test with the recorded steps accordingly.
 

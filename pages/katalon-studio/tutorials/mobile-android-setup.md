@@ -108,15 +108,15 @@ This article shows you how to set up real Android devices to test Android applic
 
 After completing setting up your environment, to check whether Katalon successfully recognizes your Android devices, you can open a Mobile Testing Sample Project in **File > New sample projects > Sample Android Mobile Tests Project**. 
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/KS-Android-Open--Sample-project.png" width=70% alt="Open Android sample project"> 
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/KS-Android-Open--Sample-project.png" width=80% alt="Open Android sample project"> 
 
 On the main toolbar, select the **Android** device in the dropdown list next to **Run**. 
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/android.png" width=20% alt="Select Android devices">  
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-mobile-testing-with-emulator/KS-TOOLBAR-Android.png" width=30% alt="Select Android devices">  
 
 You should see the name of your Android device in the pop-up dialog. 
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/device.png" width=40% alt="Katalon recognizes Android devices">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/device.png" width=50% alt="Katalon recognizes Android devices">
 
 **Next step:**
 

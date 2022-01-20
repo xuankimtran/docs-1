@@ -118,11 +118,11 @@ To playback the recorded scenario:
 1. Select the test case where you saved the recorded actions.
 2. On the main toolbar, select **Android** device on the drop-down list next to **Run**.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/android.png" width=30%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-mobile-testing-with-emulator/KS-TOOLBAR-Android.png" width=30% alt="Execute Android">
 
 3. In the displayed **Android Devices** dialog, select a device > click **OK**.
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/device.png" width=70%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/device.png" width=70% alt="Choose Android device">
 
 Katalon Studio executes the mobile test with the recorded steps accordingly.
 

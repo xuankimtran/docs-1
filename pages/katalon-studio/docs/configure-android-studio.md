@@ -122,11 +122,11 @@ If you want to run the emulator via the command-line option, you can refer to th
 After launching the emulator, Katalon automatically recognizes the emulator as an Android device. 
 To check whether Katalon successfully recognizes your Android emulator, you can open a Mobile Testing Sample Project in **File > New sample projects > Sample Android Mobile Tests Project**. Katalon Studio will detect and ask you to install **Android SDK** automatically if your current machine does not have it.
 
-<img src="https://github.com/katalon-studio/docs-images/blob/master/katalon-studio/docs/mobile-on-macos/KS-Android-Open--Sample-project.png" width="70%" alt="Open Android sample project">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/KS-Android-Open--Sample-project.png" width="70%" alt="Open Android sample project">
 
 On the main toolbar, select the **Android** device in the dropdown list next to **Run**. 
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-mobile-testing-with-emulator/KS-EMULATOR-Recognize-Android-emulator.png" width="30%" alt="Regconize Android devices">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-mobile-testing-with-emulator/KS-TOOLBAR-Android.png" width="30%" alt="Regconize Android devices">
 
 You should see the name of your emulator appear as an Android device.
 

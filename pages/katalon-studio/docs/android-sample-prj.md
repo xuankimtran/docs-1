@@ -211,7 +211,7 @@ To execute a test case or a test suite in the sample project:
 1. Select the test case/test suite you want to execute.
 2. On the main toolbar, select **Android** as the device type in the dropdown list next to **Run**.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/android.png" width=20% alt="Execute the selected test">  
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-mobile-testing-with-emulator/KS-TOOLBAR-Android.png" width=30% alt="Execute the selected test">  
 
 3. Select your device from the **Android Devices** list. Click **OK**. 
 

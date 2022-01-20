@@ -76,7 +76,7 @@ To begin with, you need to setup a macOS environment. You can not execute iOS mo
 
    After installing Xcode, Katalon automatically recognizes Xcode simulators as iOS devices. To check whether Katalon successfully recognizes Xcode simulators, on the main toolbar, select the **iOS** device in the dropdown list next to **Run**.
    
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/KS-IOS-lists-of-xcode-simulators.png" width="30%" alt="Katalon recognizes Xcode simulators">
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/KS-TOOLBAR-iOS.png" width="30%" alt="Katalon recognizes Xcode simulators">
    
    You should see a list of pre-installed Xcode simulators appearing as iOS devices. You can now move on to [Part 4: Install the WebDriverAgent](https://docs.katalon.com/katalon-studio/tutorials/mobile-ios-setup.html#part-4-install-the-webdriveragent).
 

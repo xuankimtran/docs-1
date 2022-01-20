@@ -11,9 +11,9 @@ description:
 ---
 ## Toolbar
 
-> Since version 8.1.0.
+> Since version 8.2.5.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-toobar-full.png" alt="full toolbar" width=100%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-Toolbar-full-8.2.5.png" alt="full toolbar" width=100%>
 
 The Main **Toolbar** contains the most common actions you usually perform, for example: creating test resources or executing automated tests.
 ### System features
@@ -142,13 +142,13 @@ The Main **Toolbar** contains the most common actions you usually perform, for
 		</tr>
 		<tr>
 			<td>
-				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/help%20center.png" width=30% alt="help center" /></p>
+				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-TOOLBAR-help-center.png" width=30% alt="help center" /></p>
 			</td>
 			<td>Access our <a href="https://www.katalon.com/help-center/">Help Center</a> and our <a href="https://forum.katalon.com/">Forum</a>.</td>
 		</tr>
 		<tr>
 			<td>
-				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/channel.png" width=70% alt="channels" /></p>
+				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-TOOLBAR-Feedback-button.png" width=80% alt="channels" /></p>
 			</td>
 			<td>You can also submit any feedback or further questions to our channel. Katalon experts and users will try to help you as soon as possible.</td>
 		</tr>
@@ -188,6 +188,12 @@ The Main **Toolbar** contains the most common actions you usually perform, for
 				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-toolbar-TestOps.png" width=30% alt="TestOps" /></p>
 			</td>
 			<td><a href="https://docs.katalon.com/katalon-analytics/docs/overview.html" rel="nofollow">Katalon TestOps</a> is our dedicated platform for QA orchestration, test analytics, and advanced reports.</td>
+		</tr>
+        <tr>
+			<td>
+				<p><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-TOOLBAR-TestCloud-icon.png" width=30% alt="TestCloud" /></p>
+			</td>
+			<td><a href="https://docs.katalon.com/katalon-testcloud/docs/testcloud-overview.html" rel="nofollow">Katalon TestCloud</a> is a cloud-based test execution environment where you can automate test scripts across the most common and updated browsers and/or operating systems (OS) and/or a combination of both.</td>
 		</tr>
         <tr>
 			<td>
@@ -235,7 +241,7 @@ The **Tests Explorer** view allows you to browse the structure of your project
 >
 > By default, Tests Explorer displays all test artifacts. From version 7.0.0 onwards, you can customize Tests Explorer by selecting **Project > Settings > Explorer**. Uncheck test artifacts you want to hide, then click **Apply and Close**.
 >
-> <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/explorer-settings.png" alt="explorer settings" width="70%">
+> <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/toolbars-and-views/KS-TOOLBAR-Explorer.png" alt="explorer settings" width="70%">
 
 ## Keywords Browser View
 
