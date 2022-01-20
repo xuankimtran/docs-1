@@ -33,10 +33,11 @@ Follow these steps:
 
     * **Test Suite Name**: create a name for your test suite.
     * **Script Repository**: select the script repo.
-    * **Test Cases**: select the test case, then click **Add** to add it to your new test suite.
+    * **Test Cases**: select a test case, then click **Add** to add it to your new test suite.
 
         > Notes:
         >
+        > * Test cases have to be added one by one.
         > * You can only add test cases from the same script repo you have selected.
         > * If you want to switch to a different script repo, click **Remove** to remove the added test cases manually first. Once all test cases have been removed, the **Script Repository** section is enabled again. You then can select a different script repo.
         >   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/create-test-suites/create-new-test-suite-remove-button.png" width=100% alt="remove test case">
