@@ -87,7 +87,7 @@ In this sample test project, you can find the step definitions in **Include > sc
 
 2. The `operations` package.
 
-  - The `operations` package contains four step definition files, representing four forms of calculation: minus, plus, division and multiplication. These files define the `When` steps in their matching feature files. For example, the `Minus.groovy` file defines the `When` steps in the `Minus.feature` file. 
+  - The `operations` package contains four step definition files, representing four operations: substraction(-), addition(+), division(÷) and multiplication(x). These files define the `When` steps in their matching feature files. For example, the `Minus.groovy` file defines the `When` steps in the `Minus.feature` file. 
 
 <img src="url" width="60%" alt="Step definitions in the BDD project">
 
@@ -122,27 +122,37 @@ This keyword includes the following parameters:
 </tbody>
 </table>
 
+### Test listeners (Test hooks)
+
+Test listeners (test hooks) are test steps created to defined events happened before/after a test case/test suite. You can learn more about test listeners in this document: [Test Fixtures and Test Listeners (Test Hooks)](https://docs.katalon.com/katalon-studio/docs/fixtures-listeners.html#test-listeners-test-hooks).
+
+To view the test listeners in this project, in the **Test Explorer** panel, go to the **Test Listeners** folder. We created two test listeners:
+
+- `Listener`: This test listener is to close the browser after every test case execution. 
+- `TestListener`: This test listener is to open Katalon Helper before every test suite execution.
 ### Test cases
 
 To access the main test cases in this project, in the **Test Explorer** panel, go to **Test Cases > operations**.
 
 <img src="url" width="60%" alt="Test cases">
 
-There are four test cases representing four different formulas: minus, plus, division and multiplication. 
+There are four test cases representing four different operations: substraction(-), addition(+), division(÷) and multiplication(x). These four test cases have the same main flow.
 
-Here we will describe the main flow in the test case **Verify Minus**. This test case performs the minus calculation with the given numbers.
+Here we will describe the main flow in the test case **Verify Minus**. This test case performs substration operations with the given numbers.
 
-> The other test cases flow are similar but perform different formulas.
-
-The test case **Verify Minus** executes the `Minus.feature` files in the following steps:
+The test case **Verify Minus** executes the `Minus.feature` file in the following steps:
 
 - The `Given` step calls the test case **The Calculator page is loaded successfully**. This test case opens the react calculator.
-- The `When` steps calls the test case **Minus number**. This test case:
+- The `When` step calls the test case **Minus number**. This test case:
   
-  - Uses the `ClickNumber.clickNumber` custom keyword to input the given numbers on the react calculator.
-  - Click the minus button on the calculator
+  - Uses the `ClickNumber.clickNumber` custom keyword to input given numbers on the react calculator.
+  - Click the minus(-) and equal(=) button on the calculator.
 
-- The `Then` step calls the test case **Check result**. This test case verifies whether the result appeared on the calculator matches with the result stated in the feature files.
+- The `Then` step calls the test case **Check result**. This test case verifies whether the result appeared on the calculator matches with the result stated in the feature file.
+
+The test case executes two listed scenerios in the feature file.
+
+<img src="gif" width="60%" alt="The Verify minus test cases">
 
 **<details><summary>Click to view the test script</summary>**
 
@@ -167,27 +177,14 @@ import internal.GlobalVariable as GlobalVariable
 CucumberKW.runFeatureFile('Include/features/operations/Minus.feature')
 ```
 </details>
-      
-
-### Data Files
-
-To view the data files in this sample project, in the **Test Explorer** panel, go to **Data Files > ListUser**.
-
-  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-Data-files.png" width="60%" alt="Data files in the API sample">
-
-Alternatively, you can go to `<your-project-folder>\Data Files` and choose the file you want to open:
-
-- `ListUser.dat` is the .dat file of the `ListUser.xlsx` file.
-- `ListUser.xlsx` is an excel file that contains the user information.
 
 ### Test suites
 
-The sample test suite demonstrates the web service testing with data-driven testing. To view sample test suite, in the **Test Explorer** panel, go to **Test Suite > web-service-tests - All Test Cases**.
+The sample test suite demonstrates the web service testing with data-driven testing. To view sample test suite, in the **Test Explorer** panel, go to **Test Suite > Verify Operations**.
 
-This test suite includes the **Create a new user** and **Find user by ID** test case.
-We bind the **Create a new user** test case with the **ListUser** data file. To view the data binding section, select the **Create a new user** test case, then click **Show Data Binding**. To learn more about binding data, you can refer to the following document: [Data Binding](https://docs.katalon.com/katalon-studio/docs/run-test-case-external-data.html#manage-data-binding).
+This test suite includes the four test cases representing four different operations: substraction(-), addition(+), division(÷) and multiplication(x).
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-Test-suite.png" width="100%" alt="Sample test suites">
+<img src="url" width="100%" alt="Sample test suites">
 
 ## Execute selected test cases or test suites
 
@@ -202,7 +199,7 @@ To execute a test case or a test suite in the sample project:
 
 3. Observe the test result in the **Log Viewer** tab.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-Log-viewer.png" width="100%" alt="Oservice results in the log Viewer">
+    <img src="url" width="100%" alt="Oservice results in the log Viewer">
 
     > Notes:
     > * You can view test results of the test suite in the **Result** tab. The test results can be Passed, Failed, Error, or Incomplete.
@@ -211,4 +208,4 @@ To execute a test case or a test suite in the sample project:
 ## See also
 
 * [Cucumber Features File](https://docs.katalon.com/katalon-studio/docs/cucumber-features-file.html).
-
+* [Use Test Hooks for Cucumber Framework](https://docs.katalon.com/katalon-studio/docs/cucumber-test-hook.html)
