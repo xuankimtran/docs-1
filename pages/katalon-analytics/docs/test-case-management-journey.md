@@ -22,7 +22,7 @@ Depending on the type of your script repository (Git or .zip file), you can read
 
 > Notes:
 >
-> Currently, Katalon TestOps only supports GitHub and Bitbucket.
+> Katalon TestOps supports Azure Repos, GitLab, GitHub and Bitbucket.
 
 After uploading your test scripts from a Git repository, go to **Test Management** > **Test Cases**.
 
@@ -88,4 +88,3 @@ Katalon TestOps supports uploading test results from the following frameworks:
 After uploading the execution data, go to **Test Management** > **Test Cases** and click on the *Uploaded Data* folder.
 
 You can see test cases and their execution data in folders inside the *Uploaded Data* folder.
-
