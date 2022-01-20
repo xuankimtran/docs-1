@@ -5,7 +5,7 @@ permalink: katalon-testcloud/docs/integrate-testcloud-with-testops.html
 description: Instructions on how to use TestCloud in TestOps
 ---
 
-Katalon TestCloud (Beta) is now available for seamless integration with Katalon TestOps.
+Katalon TestCloud (trial period) is now available for seamless integration with Katalon TestOps.
 
 Current test environments require time and effort to set up and maintain while providing limited browser/operating system (OS) options. By contrast, with just a few clicks, you can easily set up a TestCloud Test Environment in Katalon TestOps for your test execution across browsers and OS.
 
@@ -19,11 +19,13 @@ TestCloud stabilizes the test results when you execute a massive number of paral
 
 ## Integrate TestCloud with TestOps
 
+All users who belong to a TestOps organization can now use Katalon TestCloud (trial period).
+
+Follow the guidelines below to run tests in a TestCloud environment.
+
 > Requirements:
 >
-> You have joined the TestCloud Beta Testing program. Contact us at success@katalon.com for detailed information on how to join our Beta Testing program.
-
-Once you have joined our Beta Testing program, we will enable TestCloud in your TestOps account. You can then schedule your test runs on a TestCloud environment.
+> Kobiton integration must be disabled. You can toggle **Kobiton** off in advanced settings. See: [Advanced settings](https://docs.katalon.com/katalon-analytics/docs/create-plan.html#advanced-settings).
 
 ## Run tests in public domains with TestCloud
 
@@ -37,20 +39,21 @@ Follow these steps:
 
 3. Select **TestCloud Test Environment** from the dropdown list in the **Test Environment Type** section.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/testops-integration/public-domains/test-environment-type-testcloud-beta-icon.png" width=100% alt="testcloud integrated in schedule test run dialog">
-
-    The **TestCloud** section appears.
-4. Select the OS and browsers you want to test in the **TestCloud** section, then click **Schedule**.
+    The **TestCloud** section appears as below.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/testops-integration/public-domains/beta-testcloud-browser-selections.png" width=100% alt="testcloud section in schedule test run dialog">
 
-    You will be directed to the **Test Run Types** page, where you can see the TestCloud Test Environment.
+4. Select the OS and browsers you want to test in the **TestCloud** section.
 
-5. Click on the *Play* icon to run tests.
+5. Click **Schedule**.
+
+    You will be directed to the **Test Run List** page, where you can see the TestCloud Test Environment.
+
+6. Click on the *Play* icon to run tests.
 
 You have successfully run tests in public domains using the TestCloud Test Environment.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/testops-integration/public-domains/beta-run-test-in-public-domain-testcloud.png" width=100% alt="test run types page run with testcloud successfully">
+To check the progress of your test runs, see: [View Logs](https://docs.katalon.com/katalon-testcloud/docs/integrate-testcloud-with-testops.html#view-logs).
 
 ## Run tests in private domains with TestCloud
 
@@ -68,17 +71,21 @@ Follow these steps:
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/testops-integration/private-domains/beta-switch-testcloud-tunnel-on.png" width=100% alt="test run types page run with testcloud successfully">
 
-5. Select the OS and browsers in the **TestCloud** section, then click **Schedule**.  
+5. Select the OS and browsers in the **TestCloud** section.
 
-	You will be directed to the **Test Run Types** page, where you can see the newly-added TestCloud Test Environment.
+6. Click **Schedule**.  
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/testops-integration/private-domains/beta-testcloud-tunnel-icon-in-test-run-types-page.png" width=100% alt="testcloud tunnel icon in test run types page">
+	You will be directed to the **Test Run List** page, where you can see the newly-added TestCloud Test Environment.
 
-    You still need to activate the TestCloud Tunnel to start the test execution.
+7. Follow the below guideline to configure TestCloud Tunnel.
 
-### Configure the TestCloud Tunnel
+### Configure TestCloud Tunnel
 
-After scheduling your test runs using a TestCloud Tunnel, you need to activate this TestCloud Tunnel to start test executions in private domains.
+> Notes:
+>
+> For detailed information on TestCloud Tunnel and how to utilize it, see [TestCloud Tunnel](https://docs.katalon.com/katalon-testcloud/docs/testcloud-tunnel.html).
+
+After scheduling your test runs using TestCloud Tunnel, you need to activate this tunnel to start test executions in private domains.
 
 Follow these steps:
 
@@ -114,23 +121,60 @@ Follow these steps:
 
     You can now see the *Active* status in the TestCloud Tunnel you have just activated.
 
-4. Go to the **Test Run Types** page and click on the *Play* icon to run your tests.
+4. Go to the **Test Run List** page and click on the *Play* icon to run your tests.
 
 You have successfully run tests in private domains using the TestCloud Test Environment.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/testops-integration/private-domains/beta-run-test-in-private-domain-testcloud.png" width=100% alt="test run types page run with testcloud successfully">
+To check the progress of your test runs, see: [View Logs](https://docs.katalon.com/katalon-testcloud/docs/integrate-testcloud-with-testops.html#view-logs).
 
-## Track TestCloud testing quota
+## View Logs
+
+You can check the progress of your test runs by viewing the test run logs.
+
+There are different ways to access logs.
+
+To view logs via the test run page, follow these steps:
+
+1. Go to **Test Execution** > **Test Run List**.
+
+    The **Test Run List** page appears as below.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/testops-integration/view-logs/tc-test-run-list-page.png" width=100% alt="test run list page">
+
+2. Click on the Test Run name (e.g., **Untitled**).
+
+    The **Test Runs** page appears as below.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/testops-integration/view-logs/tc-untitled-test-runs-page.png" width=100% alt="tc test run page config column">
+
+3. Mouse over the **Configuration** column and select the session ID in the column (e.g., **#3672**).
+
+    The session ID page (e.g., the **Session: #3672** page) appears as below.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/testops-integration/view-logs/tc-3672-log.png" width=100% alt="tc test run page config column">
+
+    You can view logs here.
+
+Alternatively, you can view logs via the test environment page.
 
 Follow these steps:
 
-1. Go to **Settings** > **License Management**. 
+1. Go to **Test Execution** > **Test Run List**.
 
-    The **Licenses** page appears.
+    The **Test Run List** page appears as below.
 
-2. Click on the **Katalon TestCloud** tab.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/testops-integration/view-logs/tc-test-run-list-page.png" width=100% alt="test run list page">
 
-You can then check the following information:
+    You can see a list of all test runs with their test environments here.
 
-* the number of parallel tests.
-* the testing time.
+2. Mouse over the **Test Environment** column of the test run you want to check, select a test environment in the column.
+
+    The **Test Environments** page appears.
+
+3. Scroll down to the **Sessions** section on the page.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/testops-integration/view-logs/tc-test-environment-session-id.png" width=100% alt="test run list page">
+
+4. Click on a session ID (e.g., **3466**) to view logs.
+
+    You can see the progress of your test runs here.
