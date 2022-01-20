@@ -77,7 +77,7 @@ Follow these steps:
 
 	You will be directed to the **Test Run List** page, where you can see the newly-added TestCloud Test Environment.
 
-7. Follow the guideline to configure TestCloud Tunnel.
+7. Follow the below guideline to configure TestCloud Tunnel.
 
 ### Configure TestCloud Tunnel
 
