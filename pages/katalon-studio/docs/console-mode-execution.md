@@ -14,10 +14,12 @@ description:
 You can execute an automation test without launching Katalon Studio by using command-line mode execution.
 
 > Requirements:
+>
 > * Katalon Runtime Engine installed. You can download Katalon Runtime Engine here: [Katalon products](https://www.katalon.com/all-products/).
 > * A Katalon Runtime Engine License. To learn more about activating your license, you can refer to this document: [Katalon license](https://docs.katalon.com/katalon-studio/docs/activate-license.html#activate-a-license-with-internet-access).
 
 > Notes:
+>
 > * Katalon Studio only supports **Chrome, Firefox, and Remote** options for console mode execution using the **Linux** version.
 > * From version 7.9.0 onwards, you can upgrade the default JRE 8 to higher versions in console mode. You can refer to this document for further details: [Run tests with another JRE in the command line](https://docs.katalon.com/katalon-studio/how-to-guides/set-new-default-JRE.html#use-the-newly-added-jre-in-a-test-project).
 
@@ -494,6 +496,23 @@ katalonc -noSplash -runMode=console -projectPath="C:\Users\Katalon Studio\Projec
    </thead>
    <tbody>
       <tr>
+         <td>-testcloudEnvironmentId</td>
+         <td>
+            <p>The ID of the environment which corresponds to a combination of OS, browser type and browser version to execute (Available from 8.2.5 onwards).</p>
+            <p><strong>Note:</strong></p>
+            <ol>
+            <li>To get the TestCloud environment ID, open Katalon Studio and use the command builder. For detailed information, follow this guide: <a href="https://docs.katalon.com/katalon-studio/docs/testcloud-integration-kre.html#generate-command-with-command-builder">Generate Command with Command Builder</a>.</li>
+            <li>This parameter already contains the information about browser type. Therefore, the browserType parameter is not generated in this integration.</li>
+            </ol>
+         </td>
+         <td>Y</td>
+      </tr>
+      <tr>
+         <td>-testcloudTunnel</td>
+         <td>Allow the execution to be performed via a tunnel (Available from 8.2.5 onwards).</td>
+         <td>N</td>
+      </tr>
+      <tr>
          <td>--config -kobiton.authentication.username=[yourKobitonusername] -kobiton.authentication.password=xxxxx</td>
          <td>Passing Kobiton username and password</td>
          <td>N</td>
@@ -575,19 +594,22 @@ We recommend using the Command Builder to generate commands quickly and precisel
 
 1. Click on **Build CMD** from the main toolbar.
    
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/Screenshot-at-Jun-20-15-42-46.png" alt="Build CMD" width=70%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/command%20builder.png" alt="Build CMD" width=70%>
 
 2. The **Generate Command for Console Mode** is displayed. Configure your execution with the provided options:
 
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/command-builder-77.png" alt="Generate Command for Console Mode" width=70%>
+   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/generate-for-console-mode.png" alt="Generate Command for Console Mode" width=90%>
 
   * **Test Suite**: The Test Suite or Test Suite Collection to be executed.
   * **Executive Platform**:
    
-      * **Run with** and **Profile**: Testing environment and execution profile of the execution. 
+      * **Run with** and **Profile**: Testing environment of the execution. 
+      
+         From version 8.2.5 onwards, you can integrate and run your test with TestCloud - a cloud-based test execution environment. To learn more about the configuration and execution with TestCloud in console mode, see [Run TestCloud with Katalon Runtime Engine](https://docs.katalon.com/katalon-studio/docs/testcloud-integration-kre.html).
      
-         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/environment.png" alt="select environment" width=70%>
+         <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/select-environment.png" alt="select environment" width=70%>
 
+      * **Profile**: Execution profile of the execution. 
       * **Override the execution profile and environment of all test suites**: Check if you want the specified `-BrowserType` and `-ExecutionProfile` in the command to override the browser type and execution profile of all test suites in the collection (available from version 7.6 onwards)
 
    * **Authentication**: 
@@ -602,7 +624,7 @@ We recommend using the Command Builder to generate commands quickly and precisel
       From version 8.1.0 onwards, you can terminate execution after T test failures (T is the failure threshold value) with the option: **Terminate the execution once the total number of test failures reaches the input threshold**. See also: [Terminate Execution Conditionally](https://docs.katalon.com/katalon-studio/docs/terminate-execution-conditionally.html).
    * **Katalon TestOps**: Override the Project ID in Katalon TestOps (available from version 7.8 onwards).
 
-       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/override-prj-id.png" alt="Katalon TestOps" width=70%>
+       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/generate-testops-CI-command.png" alt="Katalon TestOps" width=90%>
 
 3. Click **Generate Command** after completing the configuration.
 
@@ -616,13 +638,13 @@ We support running console mode using the **console.properties** file where yo
 
 1. Generate a **console.properties** file using our generator.
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/properties.png" alt="Generate a console.properties" width=70%>
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/console-properties.png" alt="Generate a console.properties" width=90%>
 
 2. The **console.properties** file is generated at your preferred location. You can open and update the parameters manually as needed.
 
     For example:
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/image2017-2-20-103A303A2.png" alt="console.properties" width=70%>
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/console.properties-file.png" alt="console.properties" width=70%>
 
 3. Run the **console.properties** file in console mode with the following syntax.
 
@@ -632,7 +654,7 @@ We support running console mode using the **console.properties** file where yo
 
    For example:
 
-      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/property-apikey.png" alt="console.properties" width=80%> 
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/property-apikey.png" alt="console.properties" width=100%> 
 
 4. You can add additional `katalonc` command options if needed. Any option already defined in the **console.properties** file is overwritten by the one declared in the command line.  
 
