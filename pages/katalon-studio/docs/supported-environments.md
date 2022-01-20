@@ -19,6 +19,8 @@ description:
 > * Katalon Studio (KS) provides free, basic tools suitable for the testing needs of individuals. For an advanced business solution, you can purchase Katalon Studio Enterprise (KSE) licenses. To compare features between KS and KSE, you can refer to this document: [Katalon Studio vs Katalon Studio Enterprise Features](https://docs.katalon.com/katalon-studio/docs/katalon-studio-vs-katalon-studio-enterprise.html). 
 > * Katalon Runtime Engine (KRE) is the test execution add-on of Katalon Studio. KRE allows you to execute tests in a command-line interface (CLI).
 
+> Notes:
+> * We recommend using the latest version of Katalon Studio. Download the latest version from the Katalon website: [Katalon products](https://www.katalon.com/download/).
 ## System requirements
 
 <table>
@@ -34,7 +36,7 @@ description:
   <tr>
     <td rowspan="3">Operating System</td>
     <td>Windows</td>
-    <td colspan="2">Windows 7, Windows 8, and Windows 10<br>Windows Server 2012</td>
+    <td colspan="2">Windows 7, Windows 8, Windows 10, Windows 11<br>Windows Server 2012</td>
   </tr>
   <tr>
     <td>macOS</td>
