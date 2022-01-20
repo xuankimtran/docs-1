@@ -1277,6 +1277,8 @@ items:
         url: /katalon-studio/docs/export-test-results-in-junit-format.html
       - title: "Command Syntax (Command-line/Console Mode Execution)"
         url: /katalon-studio/docs/console-mode-execution.html
+      - title: "Run TestCloud with Katalon Runtime Engine" 
+        url: /katalon-studio/docs/testcloud-integration-kre.html
       - title: "Specify a path to Android SDK root folder"
         url: /katalon-studio/how-to-guides/how-to-specify-android-home-path.html
       - title: "Terminate Execution Conditionally"
