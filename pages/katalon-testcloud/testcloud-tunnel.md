@@ -2,7 +2,7 @@
 title: "TestCloud Tunnel"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-testcloud/docs/testcloud-tunnel.html
-description: Introducing TestCloud Tunnel and how to utilize it
+description: Introducing TestCloud Tunnel
 ---
 
 ## TestCloud Tunnel
@@ -19,33 +19,36 @@ TestCloud tunnel services can:
 * Provide security by limiting access to authorized users with API keys.
 * Save time by running multiple concurrent tests using multiple Edge servers.
 
-## Some key information on TestCloud Tunnel
+## Configure TestCloud Tunnel
 
 > Recommended specs:
 >
 > Recommended specs are still under evaluation during the trial period.
 
-> Notes:
->
-> * The tunnel-sharing feature is only available in TestOps.
-> * The tunnel created in Studio is separate from the one created in TestOps. You cannot use tunnels from TestOps and Studio interchangeably.
-> * The tunnel is automatically terminated after 30 minutes of idleness.
+TestCloud tunnel can be configured to be used with Katalon TestOps or Katalon Studio. See: 
+* [Integrate TestCloud with TestOps](https://docs.katalon.com/katalon-testcloud/docs/integrate-testcloud-with-testops.html#configure-the-testcloud-tunnel)
+* [Integrate TestCloud with Studio](https://docs.katalon.com/katalon-studio/docs/testcloud-integration.html)
 
-Once TestCloud clients have installed the tunnels in the machines which have access to their private network, they have set up the tunnel clients.
+The tunnel-sharing feature is only available in TestOps. The tunnel created in Studio is separate from the one created in TestOps. You cannot use tunnels from TestOps and Studio interchangeably.
 
-A tunnel client spins up a fresh virtual machine (VM) that is used only for testing.
+> Known limitations:
+> 
+> We currently do not support using tunnel connections behind a proxy.
+> If you cannot load your app after correctly setting up local testing, you are probably behind a proxy.
+
+## Some key information
+
+TestCloud clients are distinct from tunnel clients. But setting up a TestCloud client in your machines on your private networks also sets up the tunnel client.
+
+After starting the run command, the tunnel client does two things: 
+- Spin up a fresh virtual machine (VM) that is used only for testing.
+- Connect you to the TestCloud Tunnel server.
 
 By default, the tunnel is closed after 30 minutes if there is no request or traffic (i.e. the tunnel is idle for 30 minutes). Consequently, the VM is shut down.
 
-To start the tunnel again, you enter the run command in the tunnel client.
+To start the tunnel again, enter the run command in the tunnel client.
 
-After starting the run command, the tunnel client connects you to the TestCloud Tunnel server.
-
-## Utilize TestCloud Tunnel
-
-> Recommended specs:
->
-> Recommended specs are still under evaluation during the trial period.
+## TestCloud Tunnel usage recommendations
 
 We recommend the following practices to optimize your tunnel usage:
 
@@ -55,7 +58,7 @@ We recommend the following practices to optimize your tunnel usage:
     >
     > You should launch the tunnel client before the test suite is triggered, then shut the tunnel client down once the test suite is finished.
 
-* Use a machine with stable internet connection and large bandwidth to connect the tunnel client. This would prevent test failure.
+* Use a machine with stable internet connection and large bandwidth to connect the tunnel client. This is to prevent test failure.
 
 * Use a machine with high specs (e.g., RAM, CPU) when you run many concurrent tests.
 
@@ -63,22 +66,6 @@ We recommend the following practices to optimize your tunnel usage:
 
 * To save your machine's bandwidth and resources, you can quickly close the tunnel using the shortcut Ctrl+C in the command-line interface (CLI) after you finish running tests.
 
-## Configure TestCloud Tunnel
+## Reuse your Testcloud Tunnel configuration in a new machine
 
-> Notice:
->
-> We currently do not support using the tunnel connections behind a proxy.
->
-> If you cannot load your app after setting up the local testing correctly, you are probably behind a proxy.
-
-### For Katalon TestOps
-
-See: [Integrate TestCloud with TestOps](https://docs.katalon.com/katalon-testcloud/docs/integrate-testcloud-with-testops.html#configure-the-testcloud-tunnel).
-
-### For Katalon Studio
-
-See: [Integrate TestCloud with Studio](https://docs.katalon.com/katalon-studio/docs/testcloud-integration.html).
-
-### Configure Testcloud Tunnel in a new machine
-
-If test failure occurs and you change your machine, you need to copy the current tunnel configuration to a new machine. Then you delete the `client_id` in the CLI to run a new one.
+In the case that you encounter a test failure and decide to change your machine, you need to copy the current tunnel configuration to a new machine. Then you delete the `client_id` in the CLI to run a new one.
