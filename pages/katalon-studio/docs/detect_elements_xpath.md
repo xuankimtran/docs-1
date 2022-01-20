@@ -78,7 +78,7 @@ Dynamic web elements are elements that IDs and any other attributes like class n
 
 ### Deal with dynamic elements using XPath
 
-To deal with dynamic elements, you might not want to set fixed XPaths for these elements in test cases. Instead, you might want to script XPaths dynamically based on certain patterns. 
+To deal with dynamic elements, you might not want to use absolute XPaths for these elements in test cases. Instead, you might want to use relative XPaths based on certain patterns. 
 
 XPath axes are those axes that are used to search for the multiple nodes in the XML document from the current node context. Katalon Studio supports all XPath axes, for example:
 
