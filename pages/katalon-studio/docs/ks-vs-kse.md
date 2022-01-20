@@ -1,3 +1,11 @@
+---
+title: "Katalon Studio vs Katalon Studio Enterprise Features"
+sidebar: katalon_studio_docs_sidebar
+permalink: katalon-studio/docs/katalon-studio-vs-katalon-studio-enterprise.html
+---
+
+This document reflects the comparison between free and Enterprise-exclusive features in the latest version of Katalon Studio.
+
 <table>
   <tbody>
     <tr valign="top">
