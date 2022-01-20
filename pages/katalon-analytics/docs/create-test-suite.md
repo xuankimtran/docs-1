@@ -54,7 +54,7 @@ The newly-created test suite is stored in the **TestOps** folder under the relev
 >
 > * The **TestOps** folder is a default system folder generated to store the test suite you have created in TestOps.
 >
-> * Katalon TestOps has a refresh feature where you can sync the latest version from your Git repos to TestOps by clicking **Refresh**. To ensure the default system **TestOps** folder unaffected by this feature, Katalon TestOps ignores any other folder named **TestOps** in your Git repos. Therefore, do not use the same name when you create test suites in other platforms (Katalon Studio and script repositories). By doing so, you can avoid losing data if you use the refresh feature.
+> * Katalon TestOps has a refresh feature where you can sync the latest version from your Git repos to TestOps by clicking **Refresh**. To ensure the default system **TestOps** folder remains unaffected by this feature, Katalon TestOps ignores any other folder named **TestOps** in your Git repos. Therefore, do not use the same name when you create test suites in other platforms (Katalon Studio and script repositories). By doing so, you can avoid losing data if you use the refresh feature.
 
 ## Execute a Test Suite
 
