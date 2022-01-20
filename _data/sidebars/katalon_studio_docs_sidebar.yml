@@ -1364,7 +1364,11 @@ items:
           - title: "Navigate through Katalon TestOps"
             url: /katalon-analytics/docs/testops-navigation.html 
       - title: "Release Notes"
-        url: /katalon-analytics/docs/testops-releases-2021.html
+        tree:
+          - title: "2022" 
+            url: /katalon-analytics/docs/testops-releases-2022.html
+          - title: "2021"
+            url: /katalon-analytics/docs/testops-releases-2021.html
       - title: "Get Started"  
         tree:
           - title: "Roles and permissions" 
@@ -1427,6 +1431,8 @@ items:
         tree:
           - title: "Manage Test Cases"
             url: /katalon-analytics/docs/test-case-management.html
+          - title: "Manage Test Suites"
+            url: /katalon-analytics/docs/test-suite-management.html  
           - title: "View BDD Test Results"
             url: /katalon-analytics/docs/bdd-test-results.html
           - title: "Link Test Runs to Jira Defects"
@@ -1503,12 +1509,18 @@ items:
         url: /katalon-analytics/docs/rest-api.html
       - title: "Tutorials"
         url: /katalon-analytics/docs/testops-tutorials.html
-  - title: "Katalon TestCloud (Beta)"
+  - title: "Katalon TestCloud (Trial)"
     tree:
       - title: "Overview"
         url: /katalon-testcloud/docs/testcloud-overview.html
       - title: "Get started"
         tree:
+          - title: "Usage Quota"
+            url: /katalon-testcloud/docs/usage-quota-guide.html
+          - title: "TestCloud Tunnel"
+            url: /katalon-testcloud/docs/testcloud-tunnel.html
+          - title: "Integration with Studio"
+            url: /katalon-studio/docs/testcloud-integration.html  
           - title: "Integration with TestOps"
             url: /katalon-testcloud/docs/integrate-testcloud-with-testops.html 
       - title: "Troubleshooting"
