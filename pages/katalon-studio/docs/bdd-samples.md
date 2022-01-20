@@ -69,15 +69,15 @@ To open the sample feature files, go to **Include > features > operations**. Dou
 </tbody>
 </table>
 
-To learn more about feature files creation and maintanance in Katalon Studio, you can refer to this document: [Create & maintain feature files](https://docs.katalon.com/katalon-studio/docs/cucumber-features-file.html#add-feature-files).
+To learn more about feature files creation and maintenance in Katalon Studio, you can refer to this document: [Create & maintain feature files](https://docs.katalon.com/katalon-studio/docs/cucumber-features-file.html#add-feature-files).
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/BDD-sample-prj/KS-BDD-Feature-files.png" width="60%" alt="Feature files in the BDD project">
 
 ### Step definitions
 
-To execute the scenario in the feature files, each Gherkin step needs to be defined as a set of programming code. You can reuse Katalon Studio built-in keywords in step definition files. When Katalon Studio executes any features files in the test case, it looks for the matching step definitions in the source folder.
+Each Gherkin step needs to be defined as a set of programming codes to execute the scenario in the feature files. You can reuse Katalon Studio built-in keywords in step definition files. When Katalon Studio executes any features files in the test case, it looks for the matching step definitions in the source folder.
 
-In this sample test project, you can find the step definitions in **Include > scripts > groovy**. The step denfition files are located in two different packages:
+In this sample test project, you can find the step definitions in **Include > scripts > groovy**. The step definition files are located in two different packages:
 
 1. The `default` package. 
 
@@ -87,7 +87,7 @@ In this sample test project, you can find the step definitions in **Include > sc
 
 2. The `operations` package.
 
-  - The `operations` package contains four step definition files, representing four operations: substraction(-), addition(+), division(÷) and multiplication(x). These files define the `When` steps in their matching feature files. For example, the `Minus.groovy` file defines the `When` steps in the `Minus.feature` file. 
+  - The `operations` package contains four step definition files, representing four operations: subtraction (-), addition (+), division (÷) and multiplication (x). These files define the `When` steps in their matching feature files. For example, the `Minus.groovy` file defines the `When` steps in the `Minus.feature` file. 
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/BDD-sample-prj/KS-BDD-operations-step-definitions.png" width="60%" alt="Step definitions in the BDD project">
 
@@ -99,7 +99,7 @@ Katalon creates a custom keyword in this sample project. To see the custom keywo
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/BDD-sample-prj/KS-BDD-Custom-keyword.png" width="60%" alt="Custom keywords in the BDD project">
 
-The `ClickNumber.clickNumber` keyword is to convert a given number into an integer, then input the number on the react calculator.
+The `ClickNumber.clickNumber` keyword converts a given number into an integer, then inputs the number on the react calculator.
 
 This keyword includes the following parameters:
 
@@ -124,12 +124,12 @@ This keyword includes the following parameters:
 
 ### Test listeners (Test hooks)
 
-Test listeners (test hooks) are test steps created to defined events happened before/after a test case/test suite. You can learn more about test listeners in this document: [Test Fixtures and Test Listeners (Test Hooks)](https://docs.katalon.com/katalon-studio/docs/fixtures-listeners.html#test-listeners-test-hooks).
+Test listeners (test hooks) are test steps created to define events before/after a test case/test suite. You can learn more about test listeners in this document: [Test Fixtures and Test Listeners (Test Hooks)](https://docs.katalon.com/katalon-studio/docs/fixtures-listeners.html#test-listeners-test-hooks).
 
 To view the test listeners in this project, in the **Test Explorer** panel, go to the **Test Listeners** folder. We created two test listeners:
 
-- `Listener`: This test listener is to close the browser after every test case execution. 
-- `TestListener`: This test listener is to open Katalon Helper before every test suite execution.
+- `Listener`: This test listener closes the browser after every test case execution. 
+- `TestListener`: This test listener opens Katalon Helper before every test suite execution.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/BDD-sample-prj/KS-BDD-Test-listeners.png" width="60%" alt="Test listeners in the BDD project">
 
@@ -139,21 +139,21 @@ To access the main test cases in this project, in the **Test Explorer** panel, g
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/BDD-sample-prj/KS-BDD-operations-test-cases.png" width="60%" alt="Test cases">
 
-There are four test cases representing four different operations: substraction(-), addition(+), division(÷) and multiplication(x). These four test cases have the same main flow.
+There are four test cases representing four different operations: subtraction (-), addition (+), division (÷) and multiplication (x). These four test cases have the same main flow.
 
-Here we will describe the main flow in the test case **Verify Minus**. This test case performs substration operations with the given numbers.
+Here we will describe the main flow in the test case **Verify Minus**. This test case performs subtraction operations with the given numbers.
 
 The test case **Verify Minus** executes the `Minus.feature` file in the following steps:
 
 - The `Given` step calls the test case **The Calculator page is loaded successfully**. This test case opens the react calculator.
 - The `When` step calls the test case **Minus number**. This test case:
   
-  - Uses the `ClickNumber.clickNumber` custom keyword to input given numbers on the react calculator.
-  - Click the minus(-) and equal(=) button on the calculator.
+  - Uses the `ClickNumber.clickNumber` keyword to input given numbers on the react calculator.
+  - Click the minus (-) and equal (=) button on the calculator.
 
-- The `Then` step calls the test case **Check result**. This test case verifies whether the result appeared on the calculator matches with the result stated in the feature file.
+- The `Then` step calls the test case **Check result**. This test case verifies whether the result on the calculator matches the result stated in the feature file.
 
-The test case executes two listed scenerios in the feature file.
+The test case executes two listed scenarios in the feature file.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/BDD-sample-prj/KS-BDD-Verify-minus.gif" width="100%" alt="The Verify minus test cases">
 
@@ -183,9 +183,9 @@ CucumberKW.runFeatureFile('Include/features/operations/Minus.feature')
 
 ### Test suites
 
-The sample test suite demonstrates the web service testing with data-driven testing. To view sample test suite, in the **Test Explorer** panel, go to **Test Suite > Verify Operations**.
+The sample test suite demonstrates the web service testing with data-driven testing. To view the sample test suite, in the **Test Explorer** panel, go to **Test Suite > Verify Operations**.
 
-This test suite includes the four test cases representing four different operations: substraction(-), addition(+), division(÷) and multiplication(x).
+This test suite includes the four test cases representing four different operations: subtraction (-), addition (+), division (÷) and multiplication (x).
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/BDD-sample-prj/KS-BDD-test-suite.png" width="100%" alt="Sample test suites">
 
