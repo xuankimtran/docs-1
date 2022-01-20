@@ -177,20 +177,7 @@ Follow these steps:
 
 4. Click on a session ID (e.g., **3466**) to view logs.
 
-## Track TestCloud testing quota
-
-Follow these steps:
-
-1. Go to **Settings** > **License Management**.
-
-    The **License Management** page appears.
-
-2. Click on the **Katalon TestCloud** tab.
-
-You can then check the following information:
-
-* the number of parallel tests.
-* the testing time.
+    You can see the progress of your test runs here.
 
 **See also**:
 
