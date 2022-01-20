@@ -68,4 +68,4 @@ We recommend the following practices to optimize your tunnel usage:
 
 ## Reuse your Testcloud Tunnel configuration in a new machine
 
-In the case that you encounter a test failure and decide to change your machine, you need to copy the current tunnel configuration to a new machine. Then you delete the `client_id` in the CLI to run a new one.
+In the case that you encounter a test failure and decide to change your machine, first copy the current tunnel configuration to a new machine. Then delete the `client_id` in the command-line interface. You can then run the tests on the new machine.
