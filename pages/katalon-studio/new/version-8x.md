@@ -14,14 +14,14 @@ description: Release notes 8.x
 ### New features
 
 * [WebUI] Introduced an option to use the Spy, Record, and Smart Wait function with a packed extension, now available on the Chrome Web Store. This extension is compatible with Katalon Studio version 8.2.5 onwards. See [Katalon Compact Utility](https://docs.katalon.com/katalon-studio/docs/katalon-compact-utility.html).
-    * Introduced an option to enable/disable Xpath visibility on the Katalon Compact Utility extension.
+    * Introduced an option to enable/disable Xpath visibility on the Katalon Compact Utility extension. See [Disable XPath visibility](https://docs.katalon.com/katalon-studio/docs/katalon-compact-utility.html#disable-xpath-visibility).
 * Introduced TestCloud integration (Beta). See [Integrate TestCloud with Studio](https://docs.katalon.com/katalon-studio/docs/testcloud-integration.html) and [Run TestCloud with Katalon Runtime Engine](https://docs.katalon.com/katalon-studio/docs/testcloud-integration-kre.html).
 
 ### Enhancements
 
 * Added Microsoft Edge (Chromium) 96 compatibility.
 * Added Chrome 97 compatibility.
-* Added Windows 11 compatibility.
+* [Operating System] Windows 11 support: You can use Katalon Studio and Katalon Runtime Engine on computers running under Windows 11.
 * [Security Compliance]:
     * Upgraded Netty library to netty-all 4.1.61.Final.
     * Upgraded jsoup library to jsoup 1.14.3.
