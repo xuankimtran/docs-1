@@ -4,14 +4,13 @@ sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/azure-devops-extension.html 
 description: To show instructions of how to install and setup Azure DevOps extension.
 ---
-
 > Katalon TestOps CI is an easier way to execute Katalon Studio tests remotely or schedule remote Katalon Studio execution. See [Test Planning Overview](https://docs.katalon.com/katalon-analytics/docs/kt-remote-execution.html) for detailed information.
 
 This step-by-step guide shows you how to install and run Katalon with Azure DevOps for Web UI testing. For an example use of Azure DevOps, see [Sample pipeline](https://github.com/katalon-studio-samples/azure-devops-extension-samples).
 
 > Requirements:
 >
-> * An active Katalon Runtime Engine license.
+> An active Katalon Runtime Engine license.
 
 ## Install Azure DevOps Extension
 
@@ -38,8 +37,6 @@ Once you have installed the extension, you need to configure the **Execute Katal
    > Please leave out any irrelevant argument such as `-runmode`. See [Command Arguments in Common Configuration](https://docs.katalon.com/katalon-studio/docs/common-configuration.html#command-arguments) for more details.
 
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-extension/2-command.png" alt="enter the arguments" width=100%>
-
-   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-extension/KS-SEARCH-Access-advanced-search-function.png" alt="The search box" width="30%">
 
 3. Leave the **X11 DISPLAY** field blank.
 
