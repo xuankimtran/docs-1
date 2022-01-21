@@ -1209,6 +1209,26 @@ items:
             url: /katalon-studio/docs/troubleshoot-common-execution-exceptions-windows.html
           - title: "Known issues"
             url: /katalon-studio/docs/known-issues-limitations.html
+      - title: "Tips and Tricks"
+        tree:
+          - title: "Execute Windows commands"
+            url: /katalon-studio/docs/execute-windows-commands.html
+          - title: "Install Chrome extensions at runtime"
+            url: /katalon-studio/docs/install-chrome-extensions-at-runtime.html
+          - title: "Katalon with Winium for Desktop Applications"
+            url: /katalon-studio/docs/katalon-with-winium-for-desktop-applications.html
+          - title: "Manage Android's permission"
+            url: /katalon-studio/docs/manage-androids-permission.html
+          - title: "Optimizing Object Identification and Tools"
+            url: /katalon-studio/docs/optimizing-object-identification-and-tools.html
+          - title: "Reduce Execution Time in Mobile Testing"
+            url: /katalon-studio/docs/mobile-reduce-execution-time.html
+          - title: "Retrieve mobile's session"
+            url: /katalon-studio/docs/retrieve-mobiles-session.html
+          - title: "Understand waiting keywords"
+            url: /katalon-studio/docs/understand-waiting-keywords.html  
+          - title: "Using autoIT for authentication in Katalon Studio"
+            url: /katalon-studio/docs/using-autoit-for-authentication-in-katalon-studio.html
       - title: "Proof of Concept"
         tree:
           - title: "Dependencies Management with Native Gradle Support (Poc)"
