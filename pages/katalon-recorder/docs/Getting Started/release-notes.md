@@ -18,7 +18,7 @@ description:
 **Improvements**
 - Improved the ability to group and edit multiple test steps.
 - Improved test editing capabilities:
-  - Added dropdown buttons to select command and target within each test step.
+  - Introduced the ability to edit command and value within the test step.
   - Introduced the multi-line text value capability, which wraps any long text value into a short space.
   
 ## 5.5.4.10
