@@ -8,7 +8,7 @@ description: To show instructions of how to install and setup Azure DevOps exten
 
 This step-by-step guide shows you how to install and run Katalon with Azure DevOps for Web UI testing. For an example use of Azure DevOps, see [Sample pipeline](https://github.com/katalon-studio-samples/azure-devops-extension-samples).
 
-> Requirements:
+> Requirement:
 >
 > An active Katalon Runtime Engine license.
 
