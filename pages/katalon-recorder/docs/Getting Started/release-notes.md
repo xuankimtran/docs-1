@@ -10,6 +10,17 @@ redirect_from:
 description:
 ---
 
+## 5.7.0
+**Features**
+- Introduced the configuration option to pause or continue test execution upon test failure.
+- Introduced the floating toolbar to edit values of fields quickly.
+
+**Improvements**
+- Improved the ability to group and edit multiple test steps.
+- Improved test editing capabilities:
+  - Added dropdown buttons to select command and target within each test step.
+  - Introduced the multi-line text value capability, which wraps any long text value into a short space.
+  
 ## 5.5.4.10
 **Bug fixes**
 - Users cannot use a CSV file in test cases on some Windows machines.
