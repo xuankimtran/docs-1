@@ -19,7 +19,7 @@ This function allows you to:
 Besides our currently supported data-driven testing methods, this feature also allows you to conduct data-driven testing in a dynamic test suite. To learn more about supported data-driven testing methods in Katalon Studio, you can refer to this document: [Data-driven testing with Katalon Studio](https://docs.katalon.com/katalon-studio/docs/ddt.html).
 
 > Requirements:
-> * An active Katalon Studio Enterprise license. To learn more about activating your license, you can refer to this document here: [Activate Katalon license](https://docs.katalon.com/katalon-studio/docs/activate-license.html#activate-a-license-with-internet-access).
+> * An active Katalon Studio Enterprise license. To learn more about activating your license, you can refer to this document here: [Activate Katalon license](https://docs.katalon.com/katalon-studio/docs/activate-license.html#activate-a-license-with-internet-access). 123
 
 In this article, we demonstrate how to manage data binding at the test case level and execute them in a test suite.
 
