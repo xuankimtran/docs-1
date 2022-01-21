@@ -62,11 +62,11 @@ To access the sample RESTful requests, in the **Test Explorer** panel, go to the
 
   - **Request method**:
 
-      Katalon allows you to choose one of the following methods: GET, POST, PUT, DELETE, PATCH, HEAD, CONNECT, OPTIONS, TRACE. The method needs to match the API endpoint to have a valid request. Here, we create a POST request to send the user information to the server to create an account. The server will return us with a new userID as a response.
+      Katalon allows you to choose one of the following methods: GET, POST, PUT, DELETE, PATCH, HEAD, CONNECT, OPTIONS, TRACE. The method needs to match the API endpoint to be a valid request. Here, we create a POST request to send the user information to the server to create an account. The server will return us with a new userID as a response.
 
   - **Request URL**:
 
-      Along with the request method, request URL is to tell the web server which API is utilized under test. Any mismatch between method and URL leads to an invalid request exception at runtime or a wrong data response. For the POST request, we specify the API endpoint as follows: `${GlobalVariable.baseUrl}/api/users/json`, with the base URL is listed as a global variable, see above: [Profiles](https://docs.katalon.com/katalon-studio/docs/web-service-samples.html#profiles).
+      Along with the request method, request URL is to tell the web server which API is utilized under test. Any mismatch between method and URL leads to an invalid request exception at runtime or a wrong data response. For the POST request, we specify the API endpoint as follows: `${GlobalVariable.baseUrl}/api/users/json`, where the base URL is listed as a global variable. See above: [Profiles](https://docs.katalon.com/katalon-studio/docs/web-service-samples.html#profiles).
 
       <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-POST-Response-URL.png" width="100%" alt="Request URL in the sample POST request">
 
@@ -87,7 +87,7 @@ To access the sample RESTful requests, in the **Test Explorer** panel, go to the
 
   - **HTTP Body**:
 
-    Katalon Studio supports the following body data types: text, x-www-form-urlencoded, form-data, and file. To learn more about types of the HTTP body, you can refer to this document: [Request body](https://docs.katalon.com/katalon-studio/docs/restful.html#request-body).
+    Katalon Studio supports the following body data types: text, x-www-form-urlencoded, form-data, and file. To learn more about the types of HTTP body, you can refer to this document: [Request body](https://docs.katalon.com/katalon-studio/docs/restful.html#request-body).
 
     Here, we want to send the user information with dynamic data, including username, password, age, gender, and avatar to the server to create new accounts. To do so, we call variables in the POST object, using the `${<variable_name>}` syntax as a placeholder in the HTTP body as follows:
 
@@ -100,7 +100,7 @@ To access the sample RESTful requests, in the **Test Explorer** panel, go to the
       "username": "${username}"
     }
     ```
-    We also check the **Auto update Content Type** box to automatically generate the HTTP header.
+    We also check the **Auto update Content Type** box to automatically generate a HTTP header.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-POST-HTTP-body.png" width="70%" alt="HTTP body in the sample POST request">
 
