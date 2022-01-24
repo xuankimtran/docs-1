@@ -1057,6 +1057,8 @@ items:
         tree:
           - title: "Test Suite"
             url: /katalon-studio/docs/create-test-suite.html
+          - title: "Dynamic Test Suite in Katalon Studio"
+            url: /katalon-studio/docs/dynamic-test-suite-ks.html
           - title: "Test Suite Collection"
             url: /katalon-studio/docs/test-suite-collection.html
           - title: "Skip Test Cases"  
