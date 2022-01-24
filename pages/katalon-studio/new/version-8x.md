@@ -16,14 +16,14 @@ description: Release notes 8.x
 
 * Bug: [BDD] "KeywordUtil.markFailed" was not working properly.
 * Bug: Obsolete proxy desired capabilities for Firefox causing tests to fail.
-* Bug: [qTest] Could not upload report to qTest with the "Java heap space" error.
-* Bug: Failed to recognize the `-projectPath` and `-apiKey` parameters in .properties file when executing in KRE.
+* Bug: [qTest] Could not upload reports to qTest with the "Java heap space" error.
+* Bug: Not recognizing the `-projectPath` and `-apiKey` parameters in .properties file when executing in KRE.
 * Bug: [Mobile] Double taken screenshots when using the `Mobile.TakeScreenShot()` keyword once.
-* Bug: Failed to refresh the project root folder when clicking **Project** > **Refresh**.
-* Bug: Failed to refresh the project root folder when right-clicking in the **Tests Explorer** panel > **Refresh**.
-* Bug: Failed to print specific names of empty test suites when executing in KRE.
+* Bug: Unable to refresh the project root folder when clicking **Project** > **Refresh**.
+* Bug: Unable to refresh the project root folder when right-clicking in the **Tests Explorer** panel > **Refresh**.
+* Bug: Not printing specific names of empty test suites when executing in KRE.
 * Bug: Failed to terminate all chrome.exe and chromedriver.exe files after KRE execution.
-* Bug: Failed to update Test Object references after renaming Test Objects.
+* Bug: Could not update Test Object references after renaming Test Objects.
 
 
 ## Version 8.2.5
