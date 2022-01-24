@@ -7,217 +7,254 @@ redirect_from:
 description: "Katalon Studio Spy Web Utility provides an intelligent object capturing capability and immediate feedback on CSS Selector & Xpath selector. Learn more!"
 ---
 
-This article shows you some examples on how you can generate reliable object selectors using Spy Web Utility.
+This article shows you some examples of generating reliable object selectors using Spy Web Utility.
 
 Spy Web Utility provides an intelligent object capturing capability and immediate feedback on the uniqueness of selectors. To learn more about this utility, see [Spy Web Utility](http://docs.katalon.com/pages/viewpage.action?pageId=5117668).
 
-There are two widely used selectors: **CSS** and **XPath**. Locators are object attributes which are used to build up XPath or CSS selector. Locators help find and identify elements on the web page under test. Katalon Studio builds the final XPath selector (Basic mode) by using any active object locators from users to locate web elements.
+There are two widely used selectors: **CSS** and **XPath**. Locators are object attributes that are used to build up XPath or CSS selectors. Locators help find and identify elements on the web page under test. 
 
-With CSS or XPath mode of Selection Method, you can further input and edit XPath or CSS object to identify objects on web UI.
+Based on the selected method, you can edit the **Selected Locator** to adjust the current selector of an object or manually add a selector using either an XPath or a CSS selector.
 
-The following are some web element locators:
+With the CSS or XPath mode of the **Selection Method**, you can further input and edit XPath or CSS objects to identify objects on web UI.
 
-1.  **Id**: Select element with the specified @id attribute.
-2.  **Name**: Select first element with the specified @name attribute.
-3.  **Link text**: Select link (anchor tag) element which contains text matching the specified link text
-4.  **Partial Link text**: Select link (anchor tag) element which contains text matching the specified partial link text
-5.  **Tag name**: Locate Element using a Tag name
-6.  **Class name**: Locate Element using a class name.
-7.  **CSS**: Select the element using CSS selectors.
-8.  **Xpath**: Locate an element using a XPath expression.
+Below are some web element locators:
+
+<table>
+    <thead>
+        <tr>
+            <th>Web element locators</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Id</td>
+            <td>Select elements with the specified @id attribute.</td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>Select the first element with the specified @name attribute.</td>
+        </tr>
+        <tr>
+            <td>Link text</td>
+            <td>Select links (anchor tag) element which contains text matching the specified link text.</td>
+        </tr>
+        <tr>
+            <td>Partial link text</td>
+            <td>Select links (anchor tag) element which contains text matching the specified partial link text.
+        </tr>
+        <tr>
+            <td>Tag name</td>
+            <td>Locate elements using a tag name.</td>
+        </tr>
+        <tr>
+            <td>Class name</td>
+            <td>Locate elements using a class name.</td>
+        </tr>
+        <tr>
+            <td>CSS</td>
+            <td>Select elements using CSS selectors.</td>
+        </tr>
+        <tr>
+            <td>XPath</td>
+            <td>Locate elements using an XPath expression.</td>
+        </tr>
+    </tbody>
+</table>
 
 ## How to find object locators?
 
-You can capture objects, get web element XPath or CSS locator, and manually input object selectors with XPath or CSS selection method mode using Spy Web Utility. Spy Web Utility provides instant feedback by auto-detecting the numbers of matching element with provided selector and highlighting it.
+You can capture objects, get web element XPath or CSS locator, and manually input object selectors with XPath or CSS selection method mode using Spy Web Utility. Spy Web Utility provides instant feedback by auto-detecting the numbers of matching elements with provided selector and highlighting them.
 
-In this section, we will give you an example on how to find object locators using Spy Web Utility. We use our demo page in this example: [http://demoaut.katalon.com/](http://demoaut.katalon.com/).
+In this section, we will give you an example of finding object locators using Spy Web Utility.
 
-**Step 1:** Click on **Spy Web** on the Katalon Studio main toolbar.
+1. Open or create a new project. From the main toolbar, click on the **Spy Web** icon.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/spy-icon.png" alt="spy web utility" width=40%>
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/spy-icon.png" alt="spy web utility" width=40%>
 
-**Step 2:** The Object Spy window is shown as the following.
+    The Object Spy window displays.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/object-spy-dialog.png" alt="object spy dialog" width=70%>
+2. In the URL section, input the URL of the web you want to test. We use our demo page in this example: [http://demoaut.katalon.com/](http://demoaut.katalon.com/).
 
-**Step 3:** Type the application URL in the URL text box and select the desired browser.  Click on **Start**.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/object-spy-dialog.png" alt="object spy dialog" width=70%>
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/choose-browser.png" alt="choose browser" width=70%>
+3. To choose the browser, click on the drop-down icon of the **Start** button. For this example, we choose a new Chrome browser.
 
-Once you click on Start, Katalon Studio will launch the browser and navigates to the respective website.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/choose-browser.png" alt="choose browser" width=70%>
 
-**Step 4:** To capture test objects, hover the mouse over them. The focused web object would be highlighted.
+4. Click **Start**. Katalon Studio opens a new Chrome browser and navigates to the demo website.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/capture-object.png" alt="capture object" width=100%>
+5. To capture test objects, first, hover the mouse over them. The focused web object would be highlighted in red.
 
-By pressing the <Alt + ~> keys the focused object will be highlighted green, which means that it has been stored in the Captured Objects list.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/capture-object.png" alt="capture object" width=100%>
 
-Katalon Studio will automatically capture all available properties of captured objects. You can change the folder name and edit the value of any properties.
+    Then, by pressing the <button>Alt</button> + <button>`</button> keys or right-clicking and choosing **Capture Object**, the focused object is captured and added to the **Captured Objects** list.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/selected-locator.png" alt="selected locator" width="70%">
+    Katalon Studio automatically captures all available properties of the objects. You can change the folder name and edit the value of any properties.
 
-Katalon Studio allows users to select **Selection Method** to locate captured objects. **Basic mode** is recommended to manual testers who just started automation journey. With **Basic** mode, Katalon Studio's intelligent selector generator will **automatically generate** a robust and unique XPath **selector** which combined all properties of captured objects.
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/selected-locator.png" alt="selected locator" width="70%">
 
-For advanced testers who wish to **manually input selectors** have the option to select between **CSS** or **XPath mode**.
+    In the **Selection Method** section, you can choose **XPath**, **Attributes**, **CSS**, or **Image** to locate captured objects.
 
-Click on **Add** to **Object Repository** from the command toolbar to save objects in Objects Repository. Select a folder to add the captured objects into. Click **OK** when done.
+6. To save objects to the **Objects Repository**, click on **Save**.
+    Then, select a folder to add the captured objects into. Click **OK** when done.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/Add-to-repo.png" alt="selected locator" width="70%">
 
 ## Working with XPath selector
 
-The following guide shows how to leverage Katalon Studio Spy Web Utility to locate web element with XPath selector.
+The following guide shows how to leverage Katalon Studio Spy Web Utility to locate web elements with XPath selector.
 
-These Xpath axes methods are used to find complex or dynamic elements.
+These XPath axes methods are used to find complex or dynamic elements.
 
 In the examples below, we are using our demo page: [http://demoaut.katalon.com/](http://demoaut.katalon.com/).
 
 You can find our web sample project available to be downloaded here: [Katalon Web Automation Sample Project](https://github.com/katalon-studio/katalon-web-automation).
 
-*   **Checking Multiple Attributes:**
+### Checking Multiple Attributes
 
-As an example, you can identify the login button with multiple attributes
+You can identify the login button with multiple attributes. For example, we can use `@id` and `@type` to locate the **Login** button.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/login.png" alt="multiple attributes" width="100%">
-
-Xpath:
+XPath:
 
 ```groovy
 //*[@id='btn-login'][@type='submit']
 
 ```
 
-*   **Contains():**
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/login.png" alt="multiple attributes" width="100%">
 
-Contains() is a method used in an XPath expression. It is used when the value of any attribute changes dynamically such as login information.
+### Contains()
+
+Contains() is a method used in an XPath expression. You can use this method when the value of any attribute changes dynamically, such as login information.
 
 Example:
 
-Contains method for heading CURA Healthcare Service
+Use the contains method to find the heading that contains the text: "CURA Healthcare Service".
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/contain.png" alt="contain" width="100%">
-
-Xpath:
+XPath:
 
 ```groovy
  //h1[contains(.,'CURA Healthcare Service')]
 
 ```
 
-*   **Last():**
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/contain.png" alt="contain" width="100%">
+
+### Last()
 
 Last() is a method used in an XPath expression. It is used to get the very last node.
 
 Example:
 
-There are 3 Social Icon Links, and we want to get the 3rd and last item by using Last()
+There are 3 social icon links, and you want to get the 3rd item by using `Last()`.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/last.png" alt="last" width="100%">
-
-Xpath:
+XPath:
 
 ```groovy
 //ul[@class='list-inline']/li[last()]
 
 ```
 
-*   **Start-with():**
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/last.png" alt="last" width="100%">
 
-The Start-with method finds the element whose attribute value changes on refresh or any operation on the webpage. In this expression, the starting text of the attribute is used to find the element whose attribute changes dynamically. You can also find the element whose attribute value is static (not changing).
+### Start-with()
+
+The Start-with method finds the element that attributes value changes on refresh or any operation on the web page. In this expression, the starting text of the attribute is used to find the element that attributes changes dynamically. You can also find the element that the attribute value is static (not changing).
 
 Example:
 
-Starts-with() method for heading CURA Healthcare Service
+To find the line: "We Care About Your Health", use the Starts-with() method to find the line that starts with "We Care About".
 
-Xpath:
+XPath:
 
 ```groovy
 //h3[starts-with(.,'We Care About')]
 
 ```
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/start-with.png" alt="start with" width="100%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/start-with.png" alt="start with" width=100%>
 
-*   **Xpath axes methods:** These Xpath axes methods are used to find complex or dynamic elements.
+### XPath axes methods
 
-**a) Following**
+These XPath axes methods are used to find complex or dynamic elements.
 
-Selects all elements in the document following the current node( )
+* **Following**
 
-Example:
+    Selects all elements in the document following the current node( ).
 
-By using Following we can identify the Password text box which is located after the Username name field.
+    Example:
 
-Xpath:
+    By using the following method, you can identify the **Password** text box, which is located after the **Username** name field.
 
-```groovy
-.//*[@id='txt-username']//following::input
+    XPath:
 
-```
+    ```groovy
+    .//*[@id='txt-username']//following::input
+    ```
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/following.png" alt="following" width="100%">
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/following.png" alt="following" width="100%">
 
-**b) Ancestor**
+* **Ancestor**
 
-This will select all ancestors (parent, grandparent, etc.) of the current node.
+    This method selects all ancestors (parent, grandparent, etc.) of the current node.
 
-Example:
+    Example:
 
-In the below screenshot we want to get the ancestors of the 'ul ' tag highlighted in red. These ancestors are highlighted in blue.
+    In the screenshot below, you want to get the ancestors of the `ul` tag highlighted in red.
 
-Xpath:
+    XPath:
 
-```groovy
-//ul[@class='list-inline']/ancestor::div
+    ```groovy
+    //ul[@class='list-inline']/ancestor::div
+    ```
 
-```
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/ancestor.png" alt="ancestor" width=100%>
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/ancestor.png" alt="ancestor" width=100%>
+* **Child**
 
-**c) Child**
+    Select all children of the current node.
 
-Selects all children of the current node.
+    Example:
 
-Example:
+    Using the child method, you can identify all social links as shown in the below screenshot.
 
-Using Child we can identify all social links as shown in the below screenshot.
+    XPath:
 
-Xpath:
+    ```groovy
+    //ul[@class='list-inline']/child::li
+    ```
 
-```groovy
-//ul[@class='list-inline']/child::li
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/child.png" alt="chill" width=100%>
 
-```
+* **Preceding**
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/child.png" alt="chill" width=100%>
+    Select all nodes that come before the current node.
 
-**d) Preceding**
+    Example:
 
-Selects all nodes that come before the current node.
+    Using the preceding method, you can identify all nodes that come before the **Login** button.
 
-Example:
+    XPath:
 
-Using Preceding we can identify all nodes that come before the Login button.
+    ```groovy
+    //*[@id='btn-login']//preceding::input
+    ```
 
-Xpath:
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/preceding.png" alt="preceding" width=100%>
 
-```groovy
-//*[@id='btn-login']//preceding::input
+* **Following-sibling**
 
-```
+    Select the following siblings of the context node. Siblings are at the same level as the current node, as shown in the screen below. It finds the element after the current node.
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/preceding.png" alt="preceding" width=100%>
+    Example:
 
-**e) Following-sibling:**
+    By using the following-sibling method, you can identify the **Password** text box which located after the **Username** name field.
 
-Selects the following siblings of the context node. Siblings are at the same level of the current node as shown in the screen below. It will find the element after the current node.
+    XPath:
 
-Example:
+    ```groovy
+    .//*[@id='txt-username']//following::input
 
-By following-sibling method, we can Identify Password text box which located after Username name field.
-
-Xpath:
-
-```groovy
-.//*[@id='txt-username']//following::input
-
-```
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/following-sibling.png" alt="following-sibling" width="100%">
+    ```
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/following-sibling.png" alt="following-sibling" width="100%">

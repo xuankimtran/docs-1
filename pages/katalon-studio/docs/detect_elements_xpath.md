@@ -107,7 +107,7 @@ XPath axes are those axes used to search for the multiple nodes in the XML docum
         </tr>
         <tr>
             <td>Start-with()</td>
-            <td>The Start-with method finds the element which attributes value changes on refresh or any operation on the webpage. In this expression, the starting text of the attribute is used to find the element whose attribute changes dynamically. You can also find the element whose attribute value is static (not changing).</td>
+            <td>The start-with method finds the element which attributes value changes on refresh or any operation on the webpage. In this expression, the starting text of the attribute is used to find the element that attribute changes dynamically. You can also find the element that attribute value is static (not changing).</td>
             <td><code>//h3[starts-with(.,'We Care About')]</code></td>
         </tr>
         <tr>
