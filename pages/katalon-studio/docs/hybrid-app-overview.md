@@ -1,5 +1,5 @@
 ---
-title: "Hybrid mobile application testing overview" 
+title: "Automate hybrid mobile applications overview" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/hybrid-app-overview.html 
 redirect_from:
