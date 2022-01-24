@@ -9,13 +9,13 @@ description: "Katalon Studio Spy Web Utility provides an intelligent object capt
 
 This article shows you some examples on how you can generate reliable object selectors using Spy Web Utility.
 
-Katalon Studio Spy Web Utility provides an intelligent object capturing capability and immediate feedback on the uniqueness of selectors.
+Spy Web Utility provides an intelligent object capturing capability and immediate feedback on the uniqueness of selectors. To learn more about this utility, see [Spy Web Utility](http://docs.katalon.com/pages/viewpage.action?pageId=5117668).
 
-There are two widely used selectors: **CSS** and **XPath**. Locators are object attributes which are used to build up XPath or CSS selector. Locators help find and identify elements on the Web page under test. Katalon Studio builds the final XPath selector (Basic mode) by using any active object locators from users to locate Web Elements.
+There are two widely used selectors: **CSS** and **XPath**. Locators are object attributes which are used to build up XPath or CSS selector. Locators help find and identify elements on the web page under test. Katalon Studio builds the final XPath selector (Basic mode) by using any active object locators from users to locate web elements.
 
-With CSS or XPath mode of Selection Method, users can further input and edit XPath or CSS object to identify objects on Web UI.
+With CSS or XPath mode of Selection Method, you can further input and edit XPath or CSS object to identify objects on web UI.
 
-The following are some Web element locators:
+The following are some web element locators:
 
 1.  **Id**: Select element with the specified @id attribute.
 2.  **Name**: Select first element with the specified @name attribute.
@@ -29,7 +29,38 @@ The following are some Web element locators:
 ## How to find object locators?
 
 You can capture objects, get web element XPath or CSS locator, and manually input object selectors with XPath or CSS selection method mode using Spy Web Utility. Spy Web Utility provides instant feedback by auto-detecting the numbers of matching element with provided selector and highlighting it.
-To learn more about this utility, see [Spy Web Utility](http://docs.katalon.com/pages/viewpage.action?pageId=5117668).
+
+In this section, we will give you an example on how to find object locators using Spy Web Utility. We use our demo page in this example: [http://demoaut.katalon.com/](http://demoaut.katalon.com/).
+
+**Step 1:** Click on **Spy Web** on the Katalon Studio main toolbar.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/spy-icon.png" alt="spy web utility" width=40%>
+
+**Step 2:** The Object Spy window is shown as the following.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/object-spy-dialog.png" alt="object spy dialog" width=70%>
+
+**Step 3:** Type the application URL in the URL text box and select the desired browser.  Click on **Start**.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/choose-browser.png" alt="choose browser" width=70%>
+
+Once you click on Start, Katalon Studio will launch the browser and navigates to the respective website.
+
+**Step 4:** To capture test objects, hover the mouse over them. The focused web object would be highlighted.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/capture-object.png" alt="capture object" width=100%>
+
+By pressing the <Alt + ~> keys the focused object will be highlighted green, which means that it has been stored in the Captured Objects list.
+
+Katalon Studio will automatically capture all available properties of captured objects. You can change the folder name and edit the value of any properties.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/selected-locator.png" alt="selected locator" width="70%">
+
+Katalon Studio allows users to select **Selection Method** to locate captured objects. **Basic mode** is recommended to manual testers who just started automation journey. With **Basic** mode, Katalon Studio's intelligent selector generator will **automatically generate** a robust and unique XPath **selector** which combined all properties of captured objects.
+
+For advanced testers who wish to **manually input selectors** have the option to select between **CSS** or **XPath mode**.
+
+Click on **Add** to **Object Repository** from the command toolbar to save objects in Objects Repository. Select a folder to add the captured objects into. Click **OK** when done.
 
 ## Working with XPath selector
 
@@ -37,13 +68,15 @@ The following guide shows how to leverage Katalon Studio Spy Web Utility to loca
 
 These Xpath axes methods are used to find complex or dynamic elements.
 
-In the examples below, we are using our demo page: [http://demoaut.katalon.com/](http://demoaut.katalon.com/)
+In the examples below, we are using our demo page: [http://demoaut.katalon.com/](http://demoaut.katalon.com/).
+
+You can find our web sample project available to be downloaded here: [Katalon Web Automation Sample Project](https://github.com/katalon-studio/katalon-web-automation).
 
 *   **Checking Multiple Attributes:**
 
 As an example, you can identify the login button with multiple attributes
 
-![Login-Button-Multiple-Attributes](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/Login-Button-Multiple-Attributes.png)
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/login.png" alt="multiple attributes" width="100%">
 
 Xpath:
 
@@ -51,8 +84,6 @@ Xpath:
 //*[@id='btn-login'][@type='submit']
 
 ```
-
-![Multiple-Attributes](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/Multiple-Attributes.png)
 
 *   **Contains():**
 
@@ -62,7 +93,7 @@ Example:
 
 Contains method for heading CURA Healthcare Service
 
-![CURA-Healthcare-Service](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/CURA-Healthcare-Service.png)
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/contain.png" alt="contain" width="100%">
 
 Xpath:
 
@@ -70,8 +101,6 @@ Xpath:
  //h1[contains(.,'CURA Healthcare Service')]
 
 ```
-
-![Xpath object selector](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/Contain-Method.png)
 
 *   **Last():**
 
@@ -81,7 +110,7 @@ Example:
 
 There are 3 Social Icon Links, and we want to get the 3rd and last item by using Last()
 
-![Social-icons-by-using-Last](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/Social-icons-by-using-Last.png)
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/last.png" alt="last" width="100%">
 
 Xpath:
 
@@ -98,14 +127,14 @@ Example:
 
 Starts-with() method for heading CURA Healthcare Service
 
-![CURA-Healthcare-Service](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/CURA-Healthcare-Service.png)
-
 Xpath:
 
 ```groovy
 //h3[starts-with(.,'We Care About')]
 
 ```
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/start-with.png" alt="start with" width="100%>
 
 *   **Xpath axes methods:** These Xpath axes methods are used to find complex or dynamic elements.
 
@@ -124,6 +153,8 @@ Xpath:
 
 ```
 
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/following.png" alt="following" width="100%">
+
 **b) Ancestor**
 
 This will select all ancestors (parent, grandparent, etc.) of the current node.
@@ -139,6 +170,8 @@ Xpath:
 
 ```
 
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/ancestor.png" alt="ancestor" width=100%>
+
 **c) Child**
 
 Selects all children of the current node.
@@ -147,14 +180,14 @@ Example:
 
 Using Child we can identify all social links as shown in the below screenshot.
 
-![identify-all-social-links-by-child](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/identify-all-social-links-by-child.png)
-
 Xpath:
 
 ```groovy
 //ul[@class='list-inline']/child::li
 
 ```
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/child.png" alt="chill" width=100%>
 
 **d) Preceding**
 
@@ -164,14 +197,14 @@ Example:
 
 Using Preceding we can identify all nodes that come before the Login button.
 
-![identify-all-nodes-before-the-Login-button](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/identify-all-nodes-before-the-Login-button.png)
-
 Xpath:
 
 ```groovy
 //*[@id='btn-login']//preceding::input
 
 ```
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/preceding.png" alt="preceding" width=100%>
 
 **e) Following-sibling:**
 
@@ -187,7 +220,4 @@ Xpath:
 .//*[@id='txt-username']//following::input
 
 ```
-
-The source code is available to be downloaded [here](https://github.com/katalon-studio/katalon-web-automation).
-
-For further instructions and help, please refer to [Katalon Studio Tutorials](/katalon-studio/tutorials/) and [Katalon Forum](https://forum.katalon.com/).
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/following-sibling.png" alt="following-sibling" width="100%">
