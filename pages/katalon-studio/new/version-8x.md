@@ -6,11 +6,25 @@ redirect_from:
     - "/katalon-studio/new/all-versions.html"
 description: Release notes 8.x
 ---
+## Version 8.3.0 beta 
 
-> Download from our official website: [Katalon Studio version 8.2.5](https://www.katalon.com/download/).
+> Download from our GitHub repository: [Katalon Studio version 8.3.0 Beta](https://github.com/katalon-studio/katalon-studio/releases/tag/v8.3.0.beta).
+### Enhancements
+
+* [Security Compliance]:
+    * Upgraded Log4J to version 2.17.1.
+### Fixes
+
+* Bug: [BDD] "KeywordUtil.markFailed" doesn't work properly.
+* Bug: Obsolete proxy desired capabilities for Firefox.
+* Bug: KRE doesn't recognize the `-projectPath` and `-apiKey` parameters in .properties file.
+* Bug: Failed to refresh the project root folder when right-clicking in the **Tests Explorer** panel > **Refresh**.
+* Bug: KRE doesn't print specific names of empty test suites.
+* Bug: KRE doesn't terminate all chrome.exe and chromedriver.exe files.
 
 ## Version 8.2.5
 
+> Download from our official website: [Katalon Studio version 8.2.5](https://www.katalon.com/download/).
 ### New features
 
 * [WebUI] Introduced an option to use the Spy, Record, and Smart Wait function with a packed extension, now available on the Chrome Web Store. This extension is compatible with Katalon Studio version 8.2.5 onwards. See [Katalon Compact Utility](https://docs.katalon.com/katalon-studio/docs/katalon-compact-utility.html).
