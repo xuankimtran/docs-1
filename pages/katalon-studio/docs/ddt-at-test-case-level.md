@@ -19,7 +19,7 @@ This function allows you to:
 Besides our currently supported data-driven testing methods, this feature also allows you to conduct data-driven testing in a dynamic test suite. To learn more about supported data-driven testing methods in Katalon Studio, you can refer to this document: [Data-driven testing with Katalon Studio](https://docs.katalon.com/katalon-studio/docs/ddt.html).
 
 > Requirements:
-> * An active Katalon Studio Enterprise license. To learn more about activating your license, you can refer to this document here: [Activate Katalon license](https://docs.katalon.com/katalon-studio/docs/activate-license.html#activate-a-license-with-internet-access). 123
+> * An active Katalon Studio Enterprise license. To learn more about activating your license, you can refer to this document here: [Activate Katalon license](https://docs.katalon.com/katalon-studio/docs/activate-license.html#activate-a-license-with-internet-access).
 
 In this article, we demonstrate how to manage data binding at the test case level and execute them in a test suite.
 
@@ -145,7 +145,7 @@ In this section, we demonstrate how to execute the associated test cases in:
 4. When you are done with the configuration, hit **Run** to execute your test suite.  
 ### Dynamic test suite 
 
-A dynamic test suite is a test suite with multiple test cases added via a search query. You can dynamically add additional test cases while running the test suite. You can learn more about the dynamic test suite in this document: [Dynamic test suite](https://docs.katalon.com/katalon-studio/docs/create-test-suite.html#dynamic-test-suite-dynamic-test-cases-list).
+A dynamic test suite is a test suite with multiple test cases added via a search query. You can dynamically add additional test cases while running the test suite. You can learn more about the dynamic test suite in this document: [Dynamic test suite](https://docs.katalon.com/katalon-studio/docs/dynamic-test-suite-ks.html#create-a-dynamic-test-suite).
 
 1. To implement this function, install one of the plugins from the Katalon Store:
     * [Basic Search For Dynamic Test Suite](https://store.katalon.com/product/2/Basic-Search-For-Dynamic-Test-Suite)
