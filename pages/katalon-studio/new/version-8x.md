@@ -6,7 +6,7 @@ redirect_from:
     - "/katalon-studio/new/all-versions.html"
 description: Release notes 8.x
 ---
-## Version 8.3.0 beta 
+## Version 8.3.0 Beta 
 
 > Download from our GitHub repository: [Katalon Studio version 8.3.0 Beta](https://github.com/katalon-studio/katalon-studio/releases/tag/v8.3.0.beta).
 ### Enhancements
@@ -25,8 +25,7 @@ description: Release notes 8.x
 * Bug: Failed to terminate all chrome.exe and chromedriver.exe files after KRE execution.
 * Bug: Could not update Test Object references after renaming Test Objects.
 
-
-## Version 8.2.5
+## Version 8.2.5 - Official Release
 
 > Download from our official website: [Katalon Studio version 8.2.5](https://www.katalon.com/download/).
 ### New features
