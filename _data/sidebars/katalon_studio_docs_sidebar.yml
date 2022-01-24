@@ -267,8 +267,6 @@ items:
                     url: /katalon-studio/docs/how-to-use-custom-keyword-in-groovy-class.html
               - title: "Web Testing"
                 tree:
-                  - title: "Generating reliable object selector using Spy Web utility"
-                    url: /katalon-studio/docs/generate_css_xpath_selector_spy_web_utility.html
                   - title: "Solving Pop-up dialog issue with Katalon Studio"
                     url: /katalon-studio/docs/pop_up_dialog_issue.html
                   - title: "Handling iFrame issue with Katalon Studio"
@@ -334,21 +332,23 @@ items:
               - title: "Creating test case using Record & Playback"
                 url: /katalon-studio/docs/create_test_case_using_record_playback.html
               - title: "Self-healing Tests"
-                tree:
-                  - title: "Self-healing Tests"
-                    url: /katalon-studio/docs/self-healing.html
-                  - title: "Selection Methods for Web Tests"
-                    url: /katalon-studio/docs/web-selection-methods.html
-                  - title: "Detecting Objects with XPath"
-                    url: /katalon-studio/docs/detect_elements_xpath.html
-                  - title: "Image-based Testing"
-                    url: /katalon-studio/docs/web-image-based-object-recognition.html
+                url: /katalon-studio/docs/self-healing.html
               - title: "Web Test Objects"
                 tree:
+                  - title: "Selection Methods for Web Tests"
+                    url: /katalon-studio/docs/web-selection-methods.html
+                  - title: "Web Locators Settings (version 5.7.1-7.6.0)"
+                    url: /katalon-studio/docs/web-locators-settings-since-v571.html
+                  - title: "Detecting Objects with XPath"
+                    url: /katalon-studio/docs/detect_elements_xpath.html
+                  - title: "Generating reliable object selector using Spy Web utility"
+                    url: /katalon-studio/docs/generate_css_xpath_selector_spy_web_utility.html
                   - title: "Manage Web Test Objects"
                     url: /katalon-studio/docs/manage-web-test-object.html
                   - title: "Parameterize Web Test Objects"
                     url: /katalon-studio/docs/parameterize-web-objects.html
+                  - title: "Image-based Testing"
+                    url: /katalon-studio/docs/web-image-based-object-recognition.html
                   - title: "Web Image-based Testing"
                     url: /katalon-studio/docs/web-image-based-testing.html
               - title: "Web Record and Spy Utilities"
@@ -360,9 +360,7 @@ items:
                   - title: "Spy Web Utility"
                     url: /katalon-studio/docs/spy-web-utility.html
                   - title: "Katalon Compact Utility"
-                    url: /katalon-studio/docs/katalon-compact-utility.html
-                  - title: "Web Locators Settings (since v5.7.1)"
-                    url: /katalon-studio/docs/web-locators-settings-since-v571.html 
+                    url: /katalon-studio/docs/katalon-compact-utility.html 
                   - title: "How to use synchronization commands while recording"
                     url: /katalon-studio/docs/synchronization_commands_recording.html
               - title: "Handle WebDrivers"
