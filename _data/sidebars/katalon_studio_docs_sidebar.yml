@@ -407,8 +407,12 @@ items:
                 url: /katalon-studio/docs/mobile-testing-apps-cloud-devices.html
               - title: "Remote Execution for Mobile Testing"
                 url: /katalon-studio/docs/mobile-remote-execution.html
-              - title: "Capture elements in hybrid Android apps"
-                url: /katalon-studio/docs/capture-elements-in-hybrid-android-apps.html
+              - title: "Hybrid mobile apps testing"
+                tree:
+                  - title: "Hybrid mobile apps testing overview"
+                    url: /katalon-studio/docs/hybrid-app-overview.html
+                  - title: "Capture elements in hybrid Android apps"
+                    url: /katalon-studio/docs/capture-elements-in-hybrid-android-apps.html
           - title: "Web Services Test Design"
             tree:
               - title: "Introduction to API Testing"
