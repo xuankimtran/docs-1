@@ -6,1526 +6,358 @@ permalink: katalon-studio/docs/katalon-studio-vs-katalon-studio-enterprise.html
 
 This document reflects the comparison between free and Enterprise-exclusive features in the latest version of Katalon Studio.
 
-## Web UI
-
-<table data-number-column="false" data-layout="wide" data-autosize="false" data-pm-slice="1 1 []">
-	<tbody>
-		<tr>
-			<th class="pm-table-header-content-wrap" colspan="2" data-colwidth="120,134,287">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p><strong>Feature Sets</strong></p>
-				</div>
-			</th>
-			<th class="pm-table-header-content-wrap" data-colwidth="189">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p><strong>Katalon Studio</strong></p>
-				</div>
-			</th>
-			<th class="pm-table-header-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p><strong>Katalon Studio Enterprise</strong></p>
-				</div>
-			</th>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" rowspan="8" data-colwidth="134">
-				<p><strong>Test Generation</strong></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p><a href="https://docs.katalon.com/katalon-studio/docs/create_test_case_using_record_playback.html">Record and playback</a>: Run all steps</p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p>&nbsp;Record and playback:</p>
-				<ul class="ak-ul" data-indent-level="1">
-					<li>
-						<p data-renderer-start-pos="910">Debug: Run selected steps</p>
-					</li>
-					<li>
-						<p data-renderer-start-pos="941">Debug: Run from selected step</p>
-					</li>
-				</ul>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">✔</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p><a href="https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html">Smart XPath generator</a></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p>Manual mode and script mode</p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p>Customized settings for <a href="https://docs.katalon.com/katalon-studio/docs/web-selection-methods.html">Web Selection Methods</a> used for Spy/Record</p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p><a href="https://docs.katalon.com/katalon-studio/docs/record-web-utility.html">Web Recorder</a>:</p>
-				<ul class="ak-ul">
-					<li>
-						<p>Run from selected steps</p>
-					</li>
-					<li>
-						<p>Run selected steps</p>
-					</li>
-				</ul>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p><a href="https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html">Desired Capabilities</a>:<a href="https://docs.katalon.com/katalon-studio/docs/handle-webdrivers.html"> WebDriver</a></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">✔</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">✔</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287"><a href="https://docs.katalon.com/katalon-studio/docs/import-export-desired-capabilities.html">Import/ Export Desired Capabilties</a></td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">✔</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" rowspan="6" data-colwidth="134">
-				<p><strong>Test Execution</strong></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p><a href="https://docs.katalon.com/katalon-studio/docs/webui-smartwait.html">Smart-wait</a></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p>Cross-browser, and <a href="https://docs.katalon.com/katalon-studio/docs/headless-browsers-execution.html">Headless Browsers</a></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p>Remote Execution: <a href="https://docs.katalon.com/katalon-studio/docs/selenium-grid-integration.html">Selenium Grid</a></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p><a href="https://docs.katalon.com/katalon-studio/docs/self-healing.html">Self-healing</a> Execution</p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p>Smart XPath Generator</p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p><a href="https://docs.katalon.com/katalon-studio/docs/manage-web-test-object.html#enable-image-based-object-recognition">Image-based Testing</a></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-	</tbody>
-</table>
-
-## Web Service
-
-<table data-number-column="false" data-layout="wide" data-autosize="false" data-pm-slice="1 1 []">
-	<tbody>
-		<tr style="height: 35px;">
-			<th class="pm-table-header-content-wrap" style="height: 35px;" colspan="2" data-colwidth="120,134,287">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p><strong>Feature Sets</strong></p>
-				</div>
-			</th>
-			<th class="pm-table-header-content-wrap" style="height: 35px;" data-colwidth="189">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p><strong>Katalon Studio</strong></p>
-				</div>
-			</th>
-			<th class="pm-table-header-content-wrap" style="height: 35px;" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p><strong>Katalon Studio Enterprise</strong></p>
-				</div>
-			</th>
-		</tr>
-		<tr style="height: 35px;">
-			<td class="pm-table-cell-content-wrap" style="height: 422px;" rowspan="10" data-colwidth="134">
-				<p><strong>Test Generation</strong></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="287">
-				<p>Import from <a href="https://docs.katalon.com/katalon-studio/docs/import-rest-requests-from-swagger-20.html">OpenAPI 2.0 (Swagger 2.0)</a></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="189">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr style="height: 35px;">
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="287">
-				<p>Import from&nbsp;<a href="https://docs.katalon.com/katalon-studio/docs/import-soap-requests-from-wsdl.html">WSDL</a></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="189">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr style="height: 35px;">
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="287">
-				<p>Import from&nbsp;<a href="https://docs.katalon.com/katalon-studio/docs/import-postman.html">Postman</a></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="189">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr style="height: 35px;">
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="287">
-				<p>Import from&nbsp;<a href="https://docs.katalon.com/katalon-studio/docs/import-soapui.html">SoapUI</a></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="189">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr style="height: 35px;">
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="287">
-				<p>Import from&nbsp;<a href="https://docs.katalon.com/katalon-studio/docs/import-wadl.html">WADL</a></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="189">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr style="height: 35px;">
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="287">
-				<p>Import from <a href="https://docs.katalon.com/katalon-studio/docs/import-openapi30.html">OpenAPI 3.0</a></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr style="height: 107px;">
-			<td class="pm-table-cell-content-wrap" style="height: 107px;" data-colwidth="287">
-				<p>Authorization:</p>
-				<ul class="ak-ul">
-					<li>
-						<p><a href="https://docs.katalon.com/katalon-studio/docs/authorization-basic.html">Basic</a></p>
-					</li>
-					<li>
-						<p><a href="https://docs.katalon.com/katalon-studio/docs/authorization-oauth1.html">OAuth 1.0</a></p>
-					</li>
-					<li>
-						<p><a href="https://docs.katalon.com/katalon-studio/docs/authorization-oauth2.html">OAuth 2.0</a></p>
-					</li>
-				</ul>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 107px;" data-colwidth="189">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 107px;" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr style="height: 35px;">
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="287">
-				<p><a href="https://docs.katalon.com/katalon-studio/docs/execution-settings.html#web-service-settings-in-script-view">Setting timeout and maximum response size</a></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr style="height: 35px;">
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="287">
-				<p><a href="https://docs.katalon.com/katalon-studio/docs/restful.html#request-method">Custom Method</a></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr style="height: 35px;">
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="287">
-				<p>SSL Client Certificate</p>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-	</tbody>
-</table>
-
-## Mobile
-
-<table data-number-column="false" data-layout="wide" data-autosize="false" data-pm-slice="1 1 []">
-	<tbody>
-		<tr style="height: 35px;">
-			<th class="pm-table-header-content-wrap" style="height: 35px;" colspan="2" data-colwidth="120,134,287">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p><strong>Feature Sets</strong></p>
-				</div>
-			</th>
-			<th class="pm-table-header-content-wrap" style="height: 35px;" data-colwidth="189">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p><strong>Katalon Studio</strong></p>
-				</div>
-			</th>
-			<th class="pm-table-header-content-wrap" style="height: 35px;" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p><strong>Katalon Studio Enterprise</strong></p>
-				</div>
-			</th>
-		</tr>
-		<tr style="height: 35px;">
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" rowspan="3" data-colwidth="134">
-				<p><strong>Test Generation</strong></p>
-				&nbsp;&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="287">
-				<p><a href="https://docs.katalon.com/katalon-studio/docs/mobile-image-based-testing.html">Image-based Testing</a></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr style="height: 35px;">
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="287">
-				<p>Desired Capabilities:&nbsp;<a href="https://docs.katalon.com/katalon-studio/docs/introduction-to-desired-capabilities.html#mobile-testing">Device name</a></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="189">✔&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="230">✔</td>
-		</tr>
-		<tr style="height: 35px;">
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="287">Import/ Export Desired Capabilties</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="230">✔&nbsp;</td>
-		</tr>
-		<tr style="height: 35px;">
-			<td class="pm-table-cell-content-wrap" style="height: 105px;" rowspan="3" data-colwidth="134">
-				<p><strong>Test Environment</strong></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="287">
-				<p><a href="https://docs.katalon.com/katalon-studio/tutorials/mobile-ios-setup.html">iOS</a>&nbsp;and&nbsp;<a href="https://docs.katalon.com/katalon-studio/tutorials/mobile-android-setup.html">Android</a></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="189">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr style="height: 35px;">
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="287">
-				<p><a href="https://docs.katalon.com/katalon-studio/docs/mobile-remote-execution.html">Remote</a>&nbsp;and Custom</p>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="189">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr style="height: 35px;">
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="287">
-				<p>Real and <a href="https://docs.katalon.com/katalon-studio/docs/mobile-testing-apps-cloud-devices.html">Cloud devices</a></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="189">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-	</tbody>
-</table>
-
-## Desktop
-
-<table data-number-column="false" data-layout="wide" data-autosize="false" data-pm-slice="1 1 []">
-	<tbody>
-		<tr>
-			<th class="pm-table-header-content-wrap" colspan="2" data-colwidth="120,134,287">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p><strong>Feature Sets</strong></p>
-				</div>
-			</th>
-			<th class="pm-table-header-content-wrap" data-colwidth="189">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p><strong>Katalon Studio</strong></p>
-				</div>
-			</th>
-			<th class="pm-table-header-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p><strong>Katalon Studio Enterprise</strong></p>
-				</div>
-			</th>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" rowspan="4" data-colwidth="134">
-				<p><strong>Test Generation</strong></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p>Windows Recorder with a screen simulator Coordinates-based recording</p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p><a href="https://docs.katalon.com/katalon-studio/docs/windows-native-record.html">Native Windows Recorder</a></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p>Desired Capabilities: <a href="https://docs.katalon.com/katalon-studio/docs/setup-winappdriver.html">WinAppDriver</a></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">✔</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">✔</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">Import/ Export Desired Capabilties</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">✔&nbsp;</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" rowspan="3" data-colwidth="134">
-				<p><strong>Plugins</strong></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p>Free Store&nbsp;<a href="https://docs.katalon.com/katalon-studio/docs/kse-use-plugins.html#plugins-on-katalon-store">plugins</a></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p>Paid Enterprise Plugins</p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p><a href="https://docs.katalon.com/katalon-studio/docs/kse-use-plugins.html#private-plugins">Private Plugins</a></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" rowspan="2" data-colwidth="134">
-				<p><strong>Test Case</strong></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p>Test Case Template</p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p><a href="https://docs.katalon.com/katalon-studio/docs/test-case-management-with-tags.html">Tag Management</a></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" rowspan="2" data-colwidth="134">
-				<p><strong>Test Object</strong></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p>Configure <a href="https://docs.katalon.com/katalon-studio/docs/introduction-to-custom-keywords.html#create-a-custom-keyword">naming convention</a></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p><a href="https://docs.katalon.com/katalon-studio/docs/test-objects-refactoring.html">Test objects refactoring</a></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" rowspan="4" data-colwidth="134">
-				<p><strong>Test Suite</strong></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p><a href="https://docs.katalon.com/katalon-studio/docs/execution-settings.html#emails-settings">Send Reports via Email</a></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p><a href="https://docs.katalon.com/katalon-studio/docs/search.html">Dynamic Test Suite</a></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p><a href="https://docs.katalon.com/katalon-studio/docs/basic-search-for-dynamic-querying-test-suite.html">Search for Dynamic Test Suite</a></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p><a href="https://docs.katalon.com/katalon-studio/docs/create-test-suite.html#retry-failed-execution-immediately">Retry failed test executions immediately</a></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" rowspan="3" data-colwidth="134">
-				<p><strong>Test Suite Collection</strong></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p>Parallel Execution</p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p>Report Email</p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p>Scheduler</p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-	</tbody>
-</table>
-
-## Utilities
-
-<table data-number-column="false" data-layout="wide" data-autosize="false" data-pm-slice="1 1 []">
-	<tbody>
-		<tr style="height: 35px;">
-			<th class="pm-table-header-content-wrap" style="height: 35px;" colspan="2" data-colwidth="120,134,287">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p><strong>Feature Sets</strong></p>
-				</div>
-			</th>
-			<th class="pm-table-header-content-wrap" style="height: 35px;" data-colwidth="189">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p><strong>Katalon Studio</strong></p>
-				</div>
-			</th>
-			<th class="pm-table-header-content-wrap" style="height: 35px;" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p><strong>Katalon Studio Enterprise</strong></p>
-				</div>
-			</th>
-		</tr>
-		<tr style="height: 35px;">
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" colspan="2" data-colwidth="134,287">
-				<p><strong>Config JVM parameters</strong></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr style="height: 35px;">
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" colspan="2" data-colwidth="134,287">
-				<p><strong><a href="https://docs.katalon.com/katalon-studio/docs/katalon-studio-preferences.html">Disable Usage tracking</a> by Katalon</strong></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr style="height: 31px;">
-			<td class="pm-table-cell-content-wrap" style="height: 92px;" rowspan="6" data-colwidth="134,287">
-				<p><strong><a href="https://docs.katalon.com/katalon-studio/docs/execute-a-test-case-or-a-test-suite.html#debug-a-test-case">Debugging</a></strong></p>
-				&nbsp;&nbsp;
-				<p>&nbsp;</p>
-				&nbsp;&nbsp;&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" style="height: 31px;" data-colwidth="134,287">Debug mode</td>
-			<td class="pm-table-cell-content-wrap" style="height: 31px;" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" style="height: 31px;" data-colwidth="230">✔&nbsp;</td>
-		</tr>
-		<tr style="height: 34px;">
-			<td class="pm-table-cell-content-wrap" style="height: 34px;" data-colwidth="134,287">Run from here</td>
-			<td class="pm-table-cell-content-wrap" style="height: 34px;" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" style="height: 34px;" data-colwidth="230">✔&nbsp;</td>
-		</tr>
-		<tr style="height: 27px;">
-			<td class="pm-table-cell-content-wrap" style="height: 27px;" data-colwidth="134,287">Debug from here</td>
-			<td class="pm-table-cell-content-wrap" style="height: 27px;" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" style="height: 27px;" data-colwidth="230">✔&nbsp;</td>
-		</tr>
-		<tr style="height: 33px;">
-			<td class="pm-table-cell-content-wrap" style="height: 33px;" data-colwidth="134,287">Debug: Enable/Disable Test Steps&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" style="height: 33px;" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" style="height: 33px;" data-colwidth="230">✔&nbsp;&nbsp;</td>
-		</tr>
-		<tr style="height: 31px;">
-			<td class="pm-table-cell-content-wrap" style="height: 31px;" data-colwidth="134,287">Attach source code for debugging&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" style="height: 31px;" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" style="height: 31px;" data-colwidth="230">✔&nbsp;</td>
-		</tr>
-		<tr style="height: 26px;">
-			<td class="pm-table-cell-content-wrap" style="height: 26px;" data-colwidth="134,287">Decompiling Class file for debugging</td>
-			<td class="pm-table-cell-content-wrap" style="height: 26px;" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" style="height: 26px;" data-colwidth="230">✔&nbsp;</td>
-		</tr>
-		<tr style="height: 35px;">
-			<td class="pm-table-cell-content-wrap" style="height: 140px;" rowspan="4" data-colwidth="134">
-				<p><strong>Test Maintenance</strong></p>
-				&nbsp;&nbsp;&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="287">
-				<p><a href="https://docs.katalon.com/katalon-studio/docs/time-capsule.html">Time Capsule</a> for optimizing fixing broken Web Test Objects</p>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="189">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr style="height: 35px;">
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="287">
-				<p style="display: inline !important;" data-renderer-start-pos="5983"><a href="https://docs.katalon.com/katalon-studio/docs/create-test-suite.html#retry-after-executing-all">Retry after executing all</a>:</p>
-				<ul class="ak-ul" data-indent-level="2">
-					<li>
-						<p data-renderer-start-pos="6013">Retry All executions: Retry all executions when the Test Suite fails</p>
-					</li>
-					<li>
-						<p data-renderer-start-pos="6085">Retry Failed executions only</p>
-					</li>
-				</ul>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="189">✔&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="230">✔</td>
-		</tr>
-		<tr style="height: 35px;">
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="287">&nbsp;<br /><a href="https://docs.katalon.com/katalon-studio/docs/create-test-suite.html#retry-failed-execution-immediately">Retry Failed Execution Immediately</a></td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="230">✔</td>
-		</tr>
-		<tr style="height: 35px;">
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="287"><a href="https://docs.katalon.com/katalon-studio/docs/terminate-execution-conditionally.html">Terminate Execution Conditionally</a></td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="230">✔&nbsp;</td>
-		</tr>
-		<tr style="height: 59px;">
-			<td class="pm-table-cell-content-wrap" style="height: 118px;" rowspan="2" data-colwidth="134,287">
-				<p><strong>Team Collaboration</strong></p>
-				&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" style="height: 59px;" data-colwidth="134,287"><a href="https://docs.katalon.com/katalon-studio/docs/import-export-test-artifact.html">Test artifacts sharing</a></td>
-			<td class="pm-table-cell-content-wrap" style="height: 59px;" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" style="height: 59px;" data-colwidth="230">✔&nbsp;</td>
-		</tr>
-		<tr style="height: 59px;">
-			<td class="pm-table-cell-content-wrap" style="height: 59px;" data-colwidth="134,287">
-				<p><a href="https://docs.katalon.com/katalon-studio/docs/kse-use-plugins.html#private-plugins">Private Plugins</a></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 59px;" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" style="height: 59px;" data-colwidth="230">✔&nbsp;</td>
-		</tr>
-		<tr style="height: 35px;">
-			<td class="pm-table-cell-content-wrap" style="height: 70px;" rowspan="2" data-colwidth="134">
-				<p><strong>Scripting Languages</strong></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="287">
-				<p>Groovy</p>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="189">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr style="height: 35px;">
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="287">
-				<p>Java</p>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="189">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr style="height: 48px;">
-			<td class="pm-table-cell-content-wrap" style="height: 411px;" rowspan="11" data-colwidth="134">
-				<p><strong>3rd party integration</strong></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 48px;" data-colwidth="287">
-				<p>Applitools</p>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 48px;" data-colwidth="189">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 48px;" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr style="height: 48px;">
-			<td class="pm-table-cell-content-wrap" style="height: 48px;" data-colwidth="287">
-				<p><a href="https://docs.katalon.com/katalon-studio/docs/git-integration.html#connecting-to-git-with-https">Connecting to Git with HTTPS</a></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 48px;" data-colwidth="189">✔&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" style="height: 48px;" data-colwidth="230">✔</td>
-		</tr>
-		<tr style="height: 35px;">
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="287">
-				<p><a href="https://docs.katalon.com/katalon-studio/docs/git-integration.html#connecting-to-git-with-ssh-keys">Connecting to Git with SSH Keys</a></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr style="height: 35px;">
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="287">
-				<p><a href="https://docs.katalon.com/katalon-studio/docs/jira-integration.html">Jira</a></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr style="height: 35px;">
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="287">
-				<p><a href="https://docs.katalon.com/katalon-studio/docs/testrail-integration.html">TestRail</a></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr style="height: 35px;">
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="287">
-				<p><a href="https://docs.katalon.com/katalon-studio/docs/integrate_with_kobiton.html">Kobiton</a></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr style="height: 35px;">
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="287">
-				<p><a href="https://docs.katalon.com/katalon-studio/docs/saucelabs-plugin.html">Sauce Labs</a></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr style="height: 35px;">
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="287">
-				<p><a href="https://docs.katalon.com/katalon-studio/docs/testlink-integration.html">TestLink</a></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr style="height: 35px;">
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="287">
-				<p><a href="https://docs.katalon.com/katalon-studio/docs/qtest-integration.html">qTest</a></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr style="height: 35px;">
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="287">
-				<p><a href="https://docs.katalon.com/katalon-studio/docs/rally-integration.html">Rally</a></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr style="height: 35px;">
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="287">
-				<p><a href="https://docs.katalon.com/katalon-studio/docs/azure-devops-test-plans.html">Azure DevOps Test Plans</a></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr style="height: 35px;">
-			<td class="pm-table-cell-content-wrap" style="height: 140px;" rowspan="4" data-colwidth="134">
-				<p><strong><a href="https://docs.katalon.com/katalon-studio/docs/selenium-testng-junit-migration.html#keywords-details">Test Migration</a></strong></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="287">
-				<p>Selenium</p>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="189">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr style="height: 35px;">
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="287">
-				<p>JUnit</p>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="189">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr style="height: 35px;">
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="287">
-				<p>Test NG</p>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="189">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr style="height: 35px;">
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="287">
-				<p>Selenium IDE v3</p>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="189">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-			<td class="pm-table-cell-content-wrap" style="height: 35px;" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-	</tbody>
-</table>
-
-## Test Frameworks
-
-<table data-number-column="false" data-layout="wide" data-autosize="false" data-pm-slice="1 1 []">
-	<tbody>
-		<tr>
-			<th class="pm-table-header-content-wrap" colspan="2" data-colwidth="120,134,287">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p><strong>Feature Sets</strong></p>
-				</div>
-			</th>
-			<th class="pm-table-header-content-wrap" data-colwidth="189">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p><strong>Katalon Studio</strong></p>
-				</div>
-			</th>
-			<th class="pm-table-header-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p><strong>Katalon Studio Enterprise</strong></p>
-				</div>
-			</th>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" colspan="2" data-colwidth="134,287">
-				<p><strong>Keywords Driven Testing</strong></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<p><a href="https://docs.katalon.com/katalon-studio/docs/custom-keywords-refactor.html">Custom keywords refactoring</a></p>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" colspan="2" data-colwidth="134,287">
-				<p><strong>Behavior Driven Testing (BDD)</strong></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" rowspan="10" data-colwidth="134">
-				<p><strong>Data-Driven Testing (DDT)</strong></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p>Parameterization</p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p>Excel</p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p>CSV</p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p>Checkpoints</p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p>Multiple data sources</p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p>PostgreSQL</p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p>MySQL</p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p>Oracle SQL</p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p>SQL Servers</p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p>External DB</p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">✔</td>
-		</tr>
-	</tbody>
-</table>
-
-## Test Logs and Reports
-
-<table data-number-column="false" data-layout="wide" data-autosize="false" data-pm-slice="1 1 []">
-	<tbody>
-		<tr>
-			<th class="pm-table-header-content-wrap" colspan="2" data-colwidth="120,134,287">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p><strong>Feature Sets</strong></p>
-				</div>
-			</th>
-			<th class="pm-table-header-content-wrap" data-colwidth="189">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p><strong>Katalon Studio</strong></p>
-				</div>
-			</th>
-			<th class="pm-table-header-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p><strong>Katalon Studio Enterprise</strong></p>
-				</div>
-			</th>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" rowspan="5" data-colwidth="134">
-				<p><strong>Reports</strong></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p><a href="https://docs.katalon.com/katalon-studio/docs/test-suite-report.html">Basic Reports</a>:</p>
-				<ul class="ak-ul">
-					<li>
-						<p>HTML</p>
-					</li>
-					<li>
-						<p>PDF</p>
-					</li>
-					<li>
-						<p>CSV</p>
-					</li>
-				</ul>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p>Screenshots and <a href="https://docs.katalon.com/katalon-studio/docs/test-suite-report.html#video-capturing">Screen-based Videos</a></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p><a href="https://docs.katalon.com/katalon-studio/docs/test-suite-report.html#test-suite-collection-report">Test Suite Collection Report</a></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p><a href="https://docs.katalon.com/katalon-studio/docs/test-suite-report.html#report-history">Report History</a></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p>Videos for Headless Browsers</p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" colspan="2" data-colwidth="134,287">
-				<p><strong>Test Log Customization</strong></p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-	</tbody>
-</table>
-
-## CI/CD Pipeline
-
-<table data-number-column="false" data-layout="wide" data-autosize="false" data-pm-slice="1 1 []">
-	<tbody>
-		<tr>
-			<th class="pm-table-header-content-wrap" colspan="2" data-colwidth="120,134,287">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p><strong>Feature Sets</strong></p>
-				</div>
-			</th>
-			<th class="pm-table-header-content-wrap" data-colwidth="189">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p><strong>Katalon Studio</strong></p>
-				</div>
-			</th>
-			<th class="pm-table-header-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p><strong>Katalon Studio Enterprise</strong></p>
-				</div>
-			</th>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" colspan="2" data-colwidth="134,287"><strong>Execution in Console mode</strong></td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<p>✔</p>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" rowspan="10" data-colwidth="134"><strong>CI/CD Plugins</strong></td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p>Jenkins</p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>&nbsp;</p>
-				</div>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p>CloudCI</p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>&nbsp;</p>
-				</div>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p>Bamboo</p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p>TeamCity</p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p>GitLab</p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>&nbsp;</p>
-				</div>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p>GitHub Action</p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p>CircleCI</p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p>Azure DevOps Add-on</p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p>Docker Image</p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="pm-table-cell-content-wrap" data-colwidth="287">
-				<p>App Center Test</p>
-			</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="189">&nbsp;</td>
-			<td class="pm-table-cell-content-wrap" data-colwidth="230">
-				<div class="fabric-editor-block-mark fabric-editor-align-center" data-align="center">
-					<p>✔</p>
-				</div>
-			</td>
-		</tr>
-	</tbody>
+<table>
+  <tbody>
+    <tr valign="top">
+      <th>Component</th>
+      <th>Features</th>
+      <th>Description</th>
+      <th>KS</th>
+      <th>KSE</th>
+    </tr>
+    <tr>
+      <td rowspan="9"><strong>Test Generation</strong></td>
+      <td> <strong>Web UI</strong>: <a href="https://docs.katalon.com/katalon-studio/docs/create_test_case_using_record_playback.html">Record and Playback</a> with debugging options </td>
+      <td> Quickly correct test failures on newly recorded test to make it reliable.</td>
+      <td></td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
+    </tr>
+    <tr valign="top">
+      <td> <strong>Web UI</strong>: <a href="https://docs.katalon.com/katalon-studio/docs/web-image-based-testing.html">Image-based Testing</a> </td>
+      <td> Find and interact with image objects. This feature is particularly helpful when objects retain the same appearance even if the underlying structures have changed.</td>
+      <td></td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
+    </tr>
+    <tr valign="top">
+      <td> <strong>Web UI</strong>: <a href="https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html">Smart XPath Generator</a></td>
+      <td> Auto-generate neighbor XPaths as alternative locators to find an object at runtime.</td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
+    </tr>
+    <tr valign="top">
+      <td> <strong>Web UI</strong>: <a href="https://docs.katalon.com/katalon-studio/docs/web-selection-methods.html">Advanced Web Locator Settings</a></td>
+      <td> Define if XPath, Attributes, or CSS is the default web locator when using Recorder and Spy.</td>
+      <td></td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
+    </tr>
+    <tr valign="top">
+      <td> <strong>Web Service</strong>: <a href="https://docs.katalon.com/katalon-studio/docs/import-openapi30.html">Import OpenAPI Specification 3.0</a> </td>
+      <td> Quickly create test objects by importing RESTful APIs with OpenAPI Specification version 3.0.</td>
+      <td></td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
+    </tr>
+    <tr valign="top">
+      <td> <strong>Web Service</strong>: Customized Request Methods and Advanced Settings </td>
+      <td>
+        <ul>
+          <li> Create and test requests with custom methods beside standard HTTP methods (GET, POST, PUT, DELETE..).</li>
+          <li> Improve test performance by limiting connection timeout and response maximum size.</li>
+        </ul>
+      </td>
+      <td></td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
+    </tr>
+    <tr valign="top">
+      <td> <strong>Web UI</strong> and <strong>Web Service</strong>: SSL Client Certificate </td>
+      <td> Configure Katalon Studio to use client certificate for all requests. </td>
+      <td></td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
+    </tr>
+    <tr valign="top">
+      <td> <strong>Mobile</strong>: <a href="https://docs.katalon.com/katalon-studio/docs/mobile-image-based-testing.html">Image-based testing</a></td>
+      <td> Find and interact with image elements. This feature is particularly helpful for testing dynamic or canvas elements. </td>
+      <td></td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
+    </tr>
+    <tr valign="top">
+      <td> <strong>Windows Desktop</strong>: <a href="https://docs.katalon.com/katalon-studio/docs/windows-native-record.html">Native Windows Recorder</a></td>
+      <td> Seamless test recording experience that's similar to web recorder. </td>
+      <td></td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
+    </tr>
+    <tr valign="top">
+      <td rowspan="5" ><strong>Data-driven testing</strong></td>
+      <td> Excel, CSV, PostgreSQL, MySQL </td>
+      <td> Read input values for test scripts from Excel files, CSV files, internal test data, and database.</td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
+    </tr>
+    <tr valign="top">
+      <td> Oracle SQL, SQL Server </td>
+      <td> Read input values for test scripts from Oracle SQL, and SQL Server.</td>
+      <td></td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
+    </tr>
+    <tr valign="top">
+      <td> Combine multiple Data Files </td>
+      <td> Read input values for test scripts from multiple data file combinations. </td>
+      <td></td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
+    </tr>
+    <tr valign="top">
+      <td> External Database having JDBC Drivers </td>
+      <td> Read input values for test scripts from other databases having JDBC drivers (e.g., MongoDB, SAP HANA DB).</td>
+      <td></td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
+    </tr>
+    <tr valign="top">
+      <td><a href="https://docs.katalon.com/katalon-studio/docs/manage-checkpoints.html">Checkpoints</a></td>
+      <td> Snapshots of test data taken at a specific time. These snapshots are used to verify if the current state of the data source is different from its previously taken state. </td>
+      <td></td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
+    </tr>
+    <tr valign="top">
+      <td ><strong>Test Execution</strong></td>
+      <td> Parallel Execution </td>
+      <td> Run multiple test suites at the same time to reduce execution time. </td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
+    </tr>
+    <tr valign="top">
+      <td ></td>
+      <td><a href="https://docs.katalon.com/katalon-studio/docs/test-suite-collection-scheduler.html">Execution Scheduler</a></td>
+      <td> Schedule the next run of a test suite collection at a specific time. </td>
+      <td></td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
+    </tr>
+    <tr valign="top">
+      <td ></td>
+      <td> Retry failed tests and consolidate reports </td>
+      <td> Rerun failed test cases several times to identify flaky tests. </td>
+      <td></td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
+    </tr>
+    <tr valign="top">
+      <td ></td>
+      <td> <strong>Web UI</strong>: <a href="https://docs.katalon.com/katalon-studio/docs/webui-smartwait.html">Smart Wait</a></td>
+      <td> Tackle Selenium waiting issues.</td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
+    </tr>
+    <tr valign="top">
+      <td ></td>
+      <td> <strong>Web UI</strong>: <a href="https://docs.katalon.com/katalon-studio/docs/self-healing.html">Self-healing</a></td>
+      <td> Reduce maintenance effort by trying other alternative locators to find an object automatically when the default locator is broken. </td>
+      <td></td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
+    </tr>
+    <tr valign="top">
+      <td ></td>
+      <td> <a href="https://docs.katalon.com/katalon-studio/docs/dynamic-test-suite-ks.html">Dynamic Test Suite</a></td>
+      <td> Add test cases to a test suite dynamically by search queries.</td>
+      <td></td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
+    </tr>
+    <tr valign="top">
+      <td ></td>
+      <td> Use Java Virtual Machine (JVM) arguments </td>
+      <td> Modify the behavior of each Java process in terms of changing heap size, or handling out of memory issue. </td>
+      <td></td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
+    </tr>
+    <tr valign="top">
+      <td rowspan="2" ><strong>Reporting</strong></td>
+      <td>
+        <ul>
+          <li> Basic Report in HTML, PDF, CSV, JUnit, </li>
+          <li> Screenshots </li>
+          <li> Videos for browser with GUI </li>
+          <li> Time Capsule (HTML snapshot) </li>
+          <li> Send Test Suite report email </li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li> View and share test execution results in HTML, PDF, CSV, or JUnit format. </li>
+          <li> Diagnose test failures with screenshots and videos. </li>
+          <li> Capture object again with Time Capsule, an HTML snapshot that restores the state of application under test when the test fails. </li>
+          <li> Notify multiple users of test suite reports by email. </li>
+        </ul>
+      </td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
+    </tr>
+    <tr valign="top">
+      <td>
+        <ul>
+          <li> Videos for headless browsers </li>
+          <li> Report history and test suite collection reports </li>
+          <li> Send test suite collection reports by email </li>
+          <li> Customized execution log </li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li> Diagnose test failures with videos when test runs and fails on headless browser. </li>
+          <li> View previous reports of test suite, and test suite collection executions in Katalon Studio.</li>
+          <li> View and share test suite collection report in JUnit format. </li>
+          <li> Notify you and your colleagues of Test Suite Collection report by email.</li>
+          <li> Improve your efficiency and performance with shortened execution log.</li>
+        </ul>
+      </td>
+      <td></td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
+    </tr>
+    <tr valign="top">
+      <td rowspan="5" >
+        <p align="center">
+          <strong>Test Maintenance and Management</strong>
+      </td>
+      <td>
+        <strong>Dual-mode Debugger</strong>
+		</br>In Manual view <ul>
+          <li>
+            Run or Debug from here
+          </li>
+          <li>
+            Debug: Enable or Disable test steps
+          </li>
+		  </ul>
+		  In Script View
+		  <ul>
+          <li> Debug mode </li>
+          <li> Attach source code for debugging </li>
+          <li> Decompile Class file for debugging </li>
+        </ul>
+      </td>
+      <td> Quickly correct test failures with multiple debugging features to ensure test script quality. </td>
+      <td></td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
+    </tr>
+    <tr valign="top">
+      <td> <a href="https://docs.katalon.com/katalon-studio/docs/test-case-management-with-tags.html">Test Case Management with Tags</a> </td>
+      <td> Append tags to test cases, then quickly search for or run test cases by tag.</td>
+      <td></td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
+    </tr>
+    <tr valign="top">
+      <td><a href="https://docs.katalon.com/katalon-studio/docs/import-export-test-artifact.html">Import/Export Test Artifacts</a></td>
+      <td> Quickly share test cases, test objects, execution profiles, and custom keywords across projects.</td>
+      <td></td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
+    </tr>
+    <tr valign="top">
+      <td> <a href="https://docs.katalon.com/katalon-studio/docs/import-export-desired-capabilities.html">Import/Export Desired Capabilities</a></td>
+      <td> Reuse desired capabilities across projects</br>
+          <em>
+		  <strong>Notes</strong>: Desired capabilities are key/value pairs that tell the browser properties such as browser name, browser version, and the path of the browser driver in the system to determine the browser behaviors at runtime.
+		  </em>
+      </td>
+      <td></td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
+    </tr>
+    <tr valign="top">
+      <td><a href="https://docs.katalon.com/katalon-studio/docs/test-objects-refactoring.html">Test Objects Refactoring</a></td>
+      <td> Keep Object Repository neat and clean by checking, exporting, and removing unused test objects. </td>
+      <td></td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
+    </tr>
+    <tr valign="top">
+      <td rowspan="3" >
+        <strong>Integration</strong>
+      </td>
+      <td> Application Lifecycle Management (ALM) tools: JIRA, Katalon TestOps, Azure Test Plans, qTest, TestRail, TestLink, Rally </td>
+      <td> Integrate test projects with ALM tools to push and pull test artifacts, and test result information between Katalon Studio and the ALM tool. </td>
+      <td></td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
+    </tr>
+    <tr valign="top">
+      <td> Cloud Provider: <a href="https://docs.katalon.com/katalon-studio/docs/testcloud-integration.html">Katalon TestCloud (Beta)</a>, Kobiton, Sauce Labs </td>
+      <td> Connect to cloud providers to test your applications on multiple devices and browsers.</td>
+      <td></td>
+      <td><div data-align="center">
+					<p>✔</p>
+				</div></td>
+    </tr>
+    <tr valign="top">
+      <td> Git-based source code management (SCM): GitHub, GitLab, Azure Repos, BitBucket, etc.</td>
+      <td> Collaborate, store, manage change, and control version in test project repository with popular Git hosting services.</td>
+      <td> <div data-align="center">via HTTPs</div></td>
+      <td> <div data-align="center">via SSH</div></td>
+    </tr>
+    <tr valign="top">
+      <td>
+        <strong>CLI, CI, Docker Execution</strong>
+      </td>
+      <td colspan="2">Run your tests in the following environments:
+		<ul>
+		<li>Command-Line Interface CI Server: Jenkins, Bamboo, TeamCity.</li>
+		<li>Cloud CI: CircleCI, Azure DevOps, BitBucket, GitLab, GitHub Action, WS CodeBuild, BuildKite, Circle CI, CodeShip, TravisCI.</li>
+		<li>Katalon Docker Image.</li>
+		<li>Cloud-based app testing infrastructure: Microsoft App Center Tests, AWS Device Farm.</li>
+		</ul></td>
+      <td colspan="2">
+        <p align="center">
+          <strong>With KRE</strong>
+      </td>
+    </tr>
+  </tbody>
 </table>
