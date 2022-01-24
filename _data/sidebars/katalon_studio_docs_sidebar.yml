@@ -401,18 +401,18 @@ items:
                     url: /katalon-studio/docs/spy-mobile-utility.html
                   - title: "Spy and Record Utilities for testing an existing application"
                     url: /katalon-studio/docs/mobile-spy-record-existing-apps.html
-              - title: "Testing Mobile Apps using Katalon Studio and Kobiton's cloud-based device farm"
-                url: /katalon-studio/docs/testing_mobile_apps_using_katalon_studio_kobiton.html
-              - title: "Testing Mobile Apps using Custom Cloud Devices"
-                url: /katalon-studio/docs/mobile-testing-apps-cloud-devices.html
-              - title: "Remote Execution for Mobile Testing"
-                url: /katalon-studio/docs/mobile-remote-execution.html
               - title: "Hybrid mobile apps testing"
                 tree:
                   - title: "Hybrid mobile apps testing overview"
                     url: /katalon-studio/docs/hybrid-app-overview.html
                   - title: "Capture elements in hybrid Android apps"
                     url: /katalon-studio/docs/capture-elements-in-hybrid-android-apps.html
+              - title: "Testing Mobile Apps using Katalon Studio and Kobiton's cloud-based device farm"
+                url: /katalon-studio/docs/testing_mobile_apps_using_katalon_studio_kobiton.html
+              - title: "Testing Mobile Apps using Custom Cloud Devices"
+                url: /katalon-studio/docs/mobile-testing-apps-cloud-devices.html
+              - title: "Remote Execution for Mobile Testing"
+                url: /katalon-studio/docs/mobile-remote-execution.html
           - title: "Web Services Test Design"
             tree:
               - title: "Introduction to API Testing"
