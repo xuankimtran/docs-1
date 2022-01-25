@@ -9,24 +9,27 @@ description: Release notes 8.x
 ## Version 8.3.0 Beta 
 
 > Download from our GitHub repository: [Katalon Studio version 8.3.0 Beta](https://github.com/katalon-studio/katalon-studio/releases/tag/v8.3.0.beta).
+
 ### Enhancements
 
 * [Security Compliance] Upgraded Log4j to version 2.17.1.
+
 ### Fixes
 
 * Bug: [BDD] "KeywordUtil.markFailed" logged the error but did not continue execution in the BDD framework.  
-* Bug: Obsolete proxy desired capabilities for Firefox causing tests failure.
+* Bug: Obsolete proxy desired capabilities for Firefox caused test failures.
 * Bug: [qTest] Could not upload reports to qTest with the "Java heap space" error.
-* Bug: [Katalon Runtime Engine] Not recognizing the `-projectPath` and `-apiKey` parameters in the .properties file when executing in Katalon Runtime Engine.
-* Bug: [Katalon Runtime Engine] Not printing specific names of empty test suites when executing in Katalon Runtime Engine.
+* Bug: [Katalon Runtime Engine] Did not recognize the `-projectPath` and `-apiKey` parameters in the .properties file when executing in Katalon Runtime Engine.
+* Bug: [Katalon Runtime Engine] Did not print specific names of empty test suites when executing in Katalon Runtime Engine.
 * Bug: [Katalon Runtime Engine] Failed to terminate all chrome.exe and chromedriver.exe files after Katalon Runtime Engine execution.
-* Bug: [Mobile] Double taken screenshots when using the `Mobile.TakeScreenShot()` keyword once.
-* Bug: Unable to refresh the project root folder when clicking **Project** > **Refresh** or right-clicking in the **Tests Explorer** panel > **Refresh**.
+* Bug: [Mobile] Screenshots unexpectedly taken twice when using the `Mobile.TakeScreenShot()` keyword once.
+* Bug: Could not refresh the project root folder when clicking **Project** > **Refresh** or right-clicking in the **Tests Explorer** panel > **Refresh**.
 * Bug: Could not update Test Object references after renaming Test Objects.
 
 ## Version 8.2.5 - Official Release
 
 > Download from our official website: [Katalon Studio version 8.2.5](https://www.katalon.com/download/).
+
 ### New features
 
 * [WebUI] Introduced an option to use the Spy, Record, and Smart Wait function with a packed extension, now available on the Chrome Web Store. This extension is compatible with Katalon Studio version 8.2.5 onwards. See [Katalon Compact Utility](https://docs.katalon.com/katalon-studio/docs/katalon-compact-utility.html).
