@@ -3,11 +3,20 @@ title: "Dynamic test suite in Katalon Studio"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/dynamic-test-suite-ks.html 
 redirect_from:
+    - "/katalon-studio/docs/dynamic-test-suite.html"
+    - "/katalon-studio/docs/dynamic-querying-test-suite/"
+    - "/katalon-studio/docs/dynamic+querying+test+suite/"
+    - "/katalon-studio/docs/dynamic%20querying%20test%20suite/"
+    
 description:
 ---
 
 A dynamic test suite is a test suite with multiple test cases added via a search query. You can dynamically add additional test cases while running the test suite. 
 This article shows you how to configure and create a dynamic test suite.
+
+> Requirements:
+>
+> * An active Katalon Studio Enterprise license. To learn more about activating your license, you can refer to this document here: [Activate Katalon license](https://docs.katalon.com/katalon-studio/docs/activate-license.html#activate-a-license-with-internet-access).
 
 ## Create a dynamic test suite
 

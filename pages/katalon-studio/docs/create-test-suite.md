@@ -8,10 +8,6 @@ redirect_from:
     - "/display/KD/Design%20a%20Test%20Suite/"
     - "/x/mAvR/"
     - "/katalon-studio/docs/design-a-test-suite/"
-    - "/katalon-studio/docs/dynamic-test-suite.html"
-    - "/katalon-studio/docs/dynamic-querying-test-suite/"
-    - "/katalon-studio/docs/dynamic+querying+test+suite/"
-    - "/katalon-studio/docs/dynamic%20querying%20test%20suite/"
     - "/katalon-studio/docs/test-suite.html/"
     
 description:
