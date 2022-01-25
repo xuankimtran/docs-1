@@ -21,7 +21,7 @@ description: Release notes 8.x
 * Bug: [Katalon Runtime Engine] Not printing specific names of empty test suites when executing in Katalon Runtime Engine.
 * Bug: [Katalon Runtime Engine] Failed to terminate all chrome.exe and chromedriver.exe files after Katalon Runtime Engine execution.
 * Bug: [Mobile] Double taken screenshots when using the `Mobile.TakeScreenShot()` keyword once.
-* Bug: Unable to refresh the project root folder when clicking **Project** > **Refresh**; when right-clicking in the **Tests Explorer** panel > **Refresh**.
+* Bug: Unable to refresh the project root folder when clicking **Project** > **Refresh** or right-clicking in the **Tests Explorer** panel > **Refresh**.
 * Bug: Could not update Test Object references after renaming Test Objects.
 
 ## Version 8.2.5 - Official Release
