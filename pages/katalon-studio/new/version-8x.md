@@ -11,18 +11,17 @@ description: Release notes 8.x
 > Download from our GitHub repository: [Katalon Studio version 8.3.0 Beta](https://github.com/katalon-studio/katalon-studio/releases/tag/v8.3.0.beta).
 ### Enhancements
 
-* [Security Compliance] Upgraded Log4J to version 2.17.1.
+* [Security Compliance] Upgraded Log4j to version 2.17.1.
 ### Fixes
 
-* Bug: [BDD] "KeywordUtil.markFailed" was not working properly.
-* Bug: Obsolete proxy desired capabilities for Firefox causing tests to fail.
+* Bug: [BDD] "KeywordUtil.markFailed" logged the error but did not continue execution in the BDD framework.  
+* Bug: Obsolete proxy desired capabilities for Firefox causing tests failure.
 * Bug: [qTest] Could not upload reports to qTest with the "Java heap space" error.
-* Bug: Not recognizing the `-projectPath` and `-apiKey` parameters in .properties file when executing in KRE.
+* Bug: [Katalon Runtime Engine] Not recognizing the `-projectPath` and `-apiKey` parameters in the .properties file when executing in Katalon Runtime Engine.
+* Bug: [Katalon Runtime Engine] Not printing specific names of empty test suites when executing in Katalon Runtime Engine.
+* Bug: [Katalon Runtime Engine] Failed to terminate all chrome.exe and chromedriver.exe files after Katalon Runtime Engine execution.
 * Bug: [Mobile] Double taken screenshots when using the `Mobile.TakeScreenShot()` keyword once.
-* Bug: Unable to refresh the project root folder when clicking **Project** > **Refresh**.
-* Bug: Unable to refresh the project root folder when right-clicking in the **Tests Explorer** panel > **Refresh**.
-* Bug: Not printing specific names of empty test suites when executing in KRE.
-* Bug: Failed to terminate all chrome.exe and chromedriver.exe files after KRE execution.
+* Bug: Unable to refresh the project root folder when clicking **Project** > **Refresh**; when right-clicking in the **Tests Explorer** panel > **Refresh**.
 * Bug: Could not update Test Object references after renaming Test Objects.
 
 ## Version 8.2.5 - Official Release
