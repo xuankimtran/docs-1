@@ -47,7 +47,7 @@ To pass a search query in KRE, use the following command-line option:
 	<tbody>
 		<tr>
 			<td>-testSuiteQuery="&lt;search-query&gt;"</td>
-			<td>- Allow overriding the search query of the dynamic test suite from the CLI.<br>-Input <code>&lt;search-query&gt;</code> as the query syntax of the installed plugin.<br>Example: <br><code>-testSuiteQuery="ids=(Test Cases/TC1_Verify Successful Login,Test Cases/TC2_Verify Successful Appointment)"</code></td>
+			<td>- Allow overriding the search query of the dynamic test suite from the CLI.<br>- Input <code>&lt;search-query&gt;</code> as the query syntax of the installed plugin.<br>Example: <br><code>-testSuiteQuery="ids=(Test Cases/TC1_Verify Successful Login,Test Cases/TC2_Verify Successful Appointment)"</code></td>
 			<td>N</td>
 		</tr>
 	</tbody>
@@ -61,11 +61,11 @@ To pass a search query in KRE, use the following command-line option:
 
 ### Create a new dynamic test suite
 
-To create a new dynamic test suite, in the **Test Explorer** panel, right-click at the **Test Suites** folder > **New** > **Dynamic Test Suite**. 
+To create a new dynamic test suite, in the **Test Explorer** panel, right-click at the **Test Suites** folder > **New** > **Dynamic Test Suite**. A dialog opens.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dynamic-test-suite-ks/KS-DYNAMIC-Create-a-new-dynamic-test-suite.png" width="70%" alt="Create a dynamic test suite">
 
-Here, we name the test suite **DTS_Verify Successful Login and Appointment**.
+The **New** dialog opens. Name the dynamic test suite. Here, we name the test suite **DTS_Verify Successful Login and Appointment**.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dynamic-test-suite-kre/KS-8.2.5-Name-DTS.png" width="70%" alt="Name a dynamic test suite">
 
@@ -82,8 +82,10 @@ Follow these steps:
 2. Configure your execution as follows:
 
 	2.1. **Test Suite**: select the dynamic test suite you want to execute. Here, we want to execute the **DTS_Verify Successful Login and Appointment** dynamic test suite.
+	
 	2.2. **Executive Platform**: Click **Edit** in each field to choose the environment and execution profile you want to execute with. Here, we choose Chrome and the **default** execution profile.
-    2.3. **Authentication**: the API key is auto-generated.
+    
+	2.3. **Authentication**: the API key is auto-generated.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dynamic-test-suite-kre/KS-8.2.5-Command-builder.png" width=70% alt="generate cmd dialog">
 
