@@ -1,5 +1,5 @@
 ---
-title: "Create dynamic test suite on the fly with Katalon Runtime Engine" 
+title: "Create dynamic test suite at runtime" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/dynamic-test-suite-kre.html 
 redirect_from:
@@ -8,7 +8,7 @@ description:
 
 A dynamic test suite is a test suite with multiple test cases added via a search query. You can dynamically add additional test cases while running the test suite. To learn more about the dynamic test suite, you can refer to this document: [Dynamic test suite in Katalon Studio](https://docs.katalon.com/katalon-studio/docs/dynamic-test-suite-ks.html).
 
-From Katalon Studio version 7.8.2 onwards, you can create a dynamic test suite on the fly with Katalon Runtime Engine (KRE). This article guides you on how to do so.
+From Katalon Studio version 7.8.2 onwards, you can create a dynamic test suite at runtime with Katalon Runtime Engine (KRE). This article guides you on how to do so.
 
 > Requirements:
 >
@@ -16,7 +16,7 @@ From Katalon Studio version 7.8.2 onwards, you can create a dynamic test suite o
 > * Katalon Runtime Engine version 7.8.2 onwards.
 > * An active Katalon Runtime Engine license.
 
-> You can download the sample project from our Github repository here: [Dynamic test suite sample](https://github.com/katalon-studio-samples/dynamic-test-suite-sample).
+> You can download the sample project from our Github repository: [Dynamic test suite sample](https://github.com/katalon-studio-samples/dynamic-test-suite-sample).
 
 ## Enable the query provider
 
@@ -32,7 +32,7 @@ Return to Katalon Studio and activate your plugin. To do so, click on the *Profi
 > * To use plugins in console mode, while generating commands, use the API Key of the users who have the plugin installed. Both API key command-line options work, either `-apiKey=<Your_API_Key>` or `-apikey=<Your_API_Key>`.
 > * From version 7.7.0 onwards, if you belong to more than one Organization subscribing to Runtime Engine licenses, you can choose which Organization validates your license usage with the following command line: `-orgID=<Katalon_OrgID>`.
 
-## Pass a search query in KRE
+## Pass the search query in KRE
 
 To pass a search query in KRE, use the following command-line option:
 
@@ -46,8 +46,8 @@ To pass a search query in KRE, use the following command-line option:
 	</thead>
 	<tbody>
 		<tr>
-			<td>-testSuiteQuery="&lt;search-query&gt;"</td>
-			<td>- Allow overriding the search query of the dynamic test suite from the CLI.<br>- Input <code>&lt;search-query&gt;</code> as the query syntax of the installed plugin.<br>Example: <br><code>-testSuiteQuery="ids=(Test Cases/TC1_Verify Successful Login,Test Cases/TC2_Verify Successful Appointment)"</code></td>
+			<td>-testSuiteQuery=&lt;search-query&gt;</td>
+			<td><br>- Allow overriding the search query of the dynamic test suite from the CLI.<br>- <code>&lt;search-query&gt;</code> is the search condition that follows the query syntax of the query provider plugin.<br><br>Example: <br><code>-testSuiteQuery="ids=(Test Cases/TC1_Verify Successful Login,Test Cases/TC2_Verify Successful Appointment)"</code></td>
 			<td>N</td>
 		</tr>
 	</tbody>
@@ -57,11 +57,10 @@ To pass a search query in KRE, use the following command-line option:
 >
 > * To learn more about supported command-line options in KRE, you can refer to this document: [General commands](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#general-options).
 
-## Create dynamic test suite on the fly with KRE
-
+## Create dynamic test suite at runtime with KRE
 ### Create a new dynamic test suite
 
-To create a new dynamic test suite, in the **Test Explorer** panel, right-click at the **Test Suites** folder > **New** > **Dynamic Test Suite**. A dialog opens.
+Open Katalon Studio and create a new dynamic test suite. In the **Test Explorer** panel, right-click at the **Test Suites** folder > **New** > **Dynamic Test Suite**. 
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dynamic-test-suite-ks/KS-DYNAMIC-Create-a-new-dynamic-test-suite.png" width="70%" alt="Create a dynamic test suite">
 
@@ -85,7 +84,10 @@ Follow these steps:
 	
 	2.2. **Executive Platform**: Click **Edit** in each field to choose the environment and execution profile you want to execute with. Here, we choose Chrome and the **default** execution profile.
     
-	2.3. **Authentication**: the API key is auto-generated.
+	2.3. **Authentication**: 
+	
+	- **Katalon API key**: the API key is auto-generated. 
+	- **Katalon Organization**: Select the Organization that validates your license usage.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dynamic-test-suite-kre/KS-8.2.5-Command-builder.png" width=70% alt="generate cmd dialog">
 
@@ -103,8 +105,9 @@ Follow these steps:
 	./katalonc -noSplash -runMode=console -projectPath="/Users/HTK/Downloads/dynamic-test-suite-sample-main/test.prj" -retry=0 -testSuitePath="Test Suites/DTS_Verify Successful Login and Appointment" -browserType="Chrome" -executionProfile="default" -apiKey="<api-key>" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true
 	```
 
-4. Click **Copy to Clipboard**. Open the KRE folder in the cmd or terminal, then paste the generated command to your cmd/terminal.
-### Pass a search query to the CLI for dynamic test suite execution
+4. Click **Copy to Clipboard**. Open the KRE folder in the command prompt or terminal, then paste the generated command to your cmd/terminal.
+
+### Pass the search query to the CLI for dynamic test suite execution
 
 To pass the search query to the CLI for the dynamic test suite execution, add the `-testSuiteQuery` parameter to the generated command. For example, we want to execute the **TC1_Verify Successful Login** and **TC2_Verify Successful Appointment** test cases in the dynamic test suite, we add the `-testSuiteQuery` parameter as follows:
 
@@ -112,18 +115,17 @@ To pass the search query to the CLI for the dynamic test suite execution, add th
 ./katalonc -noSplash -runMode=console -projectPath="/Users/HTK/Downloads/dynamic-test-suite-sample-main/test.prj" -retry=0 -testSuitePath="Test Suites/DTS_Verify Successful Login and Appointment" -browserType="Chrome" -executionProfile="default" -apiKey="<api-key>" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -testSuiteQuery="ids=(Test Cases/TC1_Verify Successful Login,Test Cases/TC2_Verify Successful Appointment)"
 ```
 
-With this parameter, KRE overrides the current search query of the dynamic test suite and execute the stated search query in the CLI instead.
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dynamic-test-suite-kre/KS-8.2.5-Command-line-terminal.png" width=70% alt="generate cmd dialog">
 
 > Notes:
 >
-> * You can search one or more test cases by the test case IDs, separate them by commas.
+> * Suppose the associated dynamic test suite has an existing search query. In that case, the `-testSuiteQuery` parameter overrides the current search query and executes the dynamic test suite with the stated search query in the CLI instead.
+> * You can add one or more test cases via the test case IDs search query and separate them by commas.
 > * You can only search for one keyword at a time when searching by tag, description, or comment.
-
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dynamic-test-suite-kre/KS-8.2.5-Command-line-terminal.png" width=70% alt="generate cmd dialog">
 
 ### Execute the dynamic test suite in KRE
 
-After generating your commands, hit **Enter** to execute the dynamic test suite.
+After finalizing parameters in your command, hit **Enter** to execute the dynamic test suite.
 
 > Notes:
 > * Make sure to update the browser by clicking **Tools > Update WebDrivers > Choose browser**. You can learn more about updating webdrivers here: [Update or Downgrade WebDrivers](https://docs.katalon.com/katalon-studio/docs/update-or-downgrade-webdrivers.html).
