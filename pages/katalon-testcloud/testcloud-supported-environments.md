@@ -13,7 +13,7 @@ This guide provides a list of environments that Katalon TestCloud support.
 
 ## Operating System (OS)
 
-TestCloud supports Windows (TestOps only), Linux.
+TestCloud supports Windows (for TestOps only) and Linux.
 
 ## Browsers
 
@@ -30,7 +30,7 @@ TestCloud supports Windows (TestOps only), Linux.
 <tbody>
   <tr>
     <td>Microsoft Edge</td>
-    <td>18</td>
+    <td>88-97</td>
     <td>N/A</td>
     <td>N/A</td>
     <td></td>
