@@ -22,7 +22,7 @@ This article shows you how to configure and create a dynamic test suite.
 
 To create a new Test Suite, do as follows:
 
-1. From the menu bar, select **File > New > Dynamic Test Suite**.
+1. In the **Test Explorer** panel, right-click at the **Test Suites** folder > **New** > **Dynamic Test Suite**. 
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dynamic-test-suite-ks/KS-DYNAMIC-Create-a-new-dynamic-test-suite.png" width="70%" alt="Create a dynamic test suite">
 
