@@ -32,31 +32,6 @@ Return to Katalon Studio and activate your plugin. To do so, click on the *Profi
 > * To use plugins in console mode, while generating commands, use the API Key of the users who have the plugin installed. Both API key command-line options work, either `-apiKey=<Your_API_Key>` or `-apikey=<Your_API_Key>`.
 > * From version 7.7.0 onwards, if you belong to more than one Organization subscribing to Runtime Engine licenses, you can choose which Organization validates your license usage with the following command line: `-orgID=<Katalon_OrgID>`.
 
-## Pass the search query in KRE
-
-To pass a search query in KRE, use the following command-line option:
-
-<table>
-	<thead>
-		<tr>
-			<th>Katalonc Command-line Option</th>
-			<th>Description</th>
-			<th>Mandatory</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>-testSuiteQuery=&lt;search-query&gt;</td>
-			<td><br>- Allow overriding the search query of the dynamic test suite from the CLI.<br>- <code>&lt;search-query&gt;</code> is the search condition that follows the query syntax of the query provider plugin.<br><br>Example: <br><code>-testSuiteQuery="ids=(Test Cases/TC1_Verify Successful Login,Test Cases/TC2_Verify Successful Appointment)"</code></td>
-			<td>N</td>
-		</tr>
-	</tbody>
-</table>
-
-> Notes:
->
-> * To learn more about supported command-line options in KRE, you can refer to this document: [General commands](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#general-options).
-
 ## Create dynamic test suite at runtime with KRE
 ### Create a new dynamic test suite
 
@@ -82,7 +57,7 @@ Follow these steps:
 
 	2.1. **Test Suite**: select the dynamic test suite you want to execute. Here, we want to execute the **DTS_Verify Successful Login and Appointment** dynamic test suite.
 	
-	2.2. **Executive Platform**: Click **Edit** in each field to choose the environment and execution profile you want to execute with. Here, we choose Chrome and the **default** execution profile.
+	2.2. **Executive Platform**: Click **Edit** in each field to choose the environment and execution profile you want to execute with. Here, we select Chrome and the **default** execution profile.
     
 	2.3. **Authentication**: 
 	
@@ -109,7 +84,9 @@ Follow these steps:
 
 ### Pass the search query to the CLI for dynamic test suite execution
 
-To pass the search query to the CLI for the dynamic test suite execution, add the `-testSuiteQuery` parameter to the generated command. For example, we want to execute the **TC1_Verify Successful Login** and **TC2_Verify Successful Appointment** test cases in the dynamic test suite, we add the `-testSuiteQuery` parameter as follows:
+To pass the search query to the CLI for the dynamic test suite execution, add the `-testSuiteQuery` parameter to the generated command. You can learn more about the `-testSuiteQuery` parameter in this document: [General commands](https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#general-options).
+
+For example, we want to execute the **TC1_Verify Successful Login** and **TC2_Verify Successful Appointment** test cases in the dynamic test suite, we add the `-testSuiteQuery` parameter as follows:
 
 ``` groovy
 ./katalonc -noSplash -runMode=console -projectPath="/Users/HTK/Downloads/dynamic-test-suite-sample-main/test.prj" -retry=0 -testSuitePath="Test Suites/DTS_Verify Successful Login and Appointment" -browserType="Chrome" -executionProfile="default" -apiKey="<api-key>" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true -testSuiteQuery="ids=(Test Cases/TC1_Verify Successful Login,Test Cases/TC2_Verify Successful Appointment)"
@@ -120,7 +97,7 @@ To pass the search query to the CLI for the dynamic test suite execution, add th
 > Notes:
 >
 > * Suppose the associated dynamic test suite has an existing search query. In that case, the `-testSuiteQuery` parameter overrides the current search query and executes the dynamic test suite with the stated search query in the CLI instead.
-> * You can add one or more test cases via the test case IDs search query and separate them by commas.
+> * You can add one or more test cases via the search query by test case IDs and separate them by commas.
 > * You can only search for one keyword at a time when searching by tag, description, or comment.
 
 ### Execute the dynamic test suite in KRE

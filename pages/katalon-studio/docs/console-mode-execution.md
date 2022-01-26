@@ -247,7 +247,9 @@ Here's the list of options supported for the `katalonc` commands for Katalon Stu
 		<tr>
 			<td>-testSuiteQuery=&lt;search-query&gt;</td>
 			<td>
-				<p>From version 7.8.0, you can override the search query of the dynamic test suite from the CLI.<br><br><code>&lt;search-query&gt;</code> is the search condition that follows the query syntax of the query provider plugin. For detailed instruction, follow this guide: <a href="https://docs.katalon.com/katalon-studio/docs/dynamic-test-suite-kre.html" target="_blank" rel="noopener noreferrer">Pass the search query to the CLI</a>.<br><br>Example: <br><code>-testSuiteQuery="ids=(Test Cases/TC1_Verify Successful Login,Test Cases/TC2_Verify Successful Appointment)"</code></p>
+				<p>From version 7.8.0, you can override the search query of the dynamic test suite from the CLI.
+            <br><br><code>&lt;search-query&gt;</code> is the search condition that follows the query syntax of the installed query provider plugin. For detailed instruction, follow this guide: <a href="https://docs.katalon.com/katalon-studio/docs/dynamic-test-suite-kre.html#pass-the-search-query-to-the-cli-for-dynamic-test-suite-execution" target="_blank" rel="noopener noreferrer">Pass the search query to the CLI for dynamic test suite execution</a>.
+            <br><br>Example: <br><code>-testSuiteQuery="ids=(Test Cases/TC1_Verify Successful Login,Test Cases/TC2_Verify Successful Appointment)"</code></p>
 			</td>
 			<td>N</td>
 		</tr>
