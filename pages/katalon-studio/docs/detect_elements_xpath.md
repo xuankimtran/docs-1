@@ -46,14 +46,13 @@ For example, the download link in the script below is an element nested in anoth
 
 ```groovy
 <div class="container">
-<div class="navbar-collapse navbar-right" aria-expanded="true">
-<div class = "nav-bar-decorated"
-<ul class="nav navbar-nav">
-<Li>
-<a class="pbtn-download" href="#katalon-download">Download</a> <!-- Deeply nested element  -->
-</li>
-</div>
-</div>
+	<div class="navbar-collapse navbar-right">
+		<div class="nav-bar-decorated">
+			<ul>
+				<li><a class="pbtn-download" href="#katalon-download">Download</a> <!-- Deeply nested element  --></li>
+			</ul>
+		</div>
+	</div>
 </div>
 ```
 

@@ -96,7 +96,9 @@ In this section, we will give you an example of finding object locators using Sp
 
     In the **Selection Method** section, you can choose **XPath**, **Attributes**, **CSS**, or **Image** to locate captured objects.
 
-6. To save objects to the **Objects Repository**, click on **Save**.
+6. In the **Selected Locator** section, you can manually input your XPath, then click **Verify and Highlight**. Katalon finds elements that match the XPath locator you input and highlights them on the web page.
+
+67 To save objects to the **Objects Repository**, click on **Save**.
     Then, select a folder to add the captured objects into. Click **OK** when done.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/Add-to-repo.png" alt="selected locator" width="70%">
@@ -113,7 +115,9 @@ You can find our web sample project available to be downloaded here: [Katalon We
 
 ### Checking Multiple Attributes
 
-You can identify the login button with multiple attributes. For example, we can use `@id` and `@type` to locate the **Login** button.
+You can identify an element with the combination of multiple attributes to build a unique locator. This method is useful when an element has multiple attributes, but using only one attribute cannot create a unique locator. 
+
+For example, you can identify the login button with multiple attributes, like `@id` and `@type`, to locate the **Login** button.
 
 XPath:
 
