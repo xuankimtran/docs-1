@@ -84,13 +84,17 @@ To view a test suite uploaded from a Git repository, go to **Test Management** >
 > If you can't find your script repositories, you can refresh your script repositories to make test suites appear in folders on the **Test Suites** page. Follow these steps:
 >
 > 1. Go to **Configurations** > **Script Repositories**.
+>
 > 2. Select a script repository to go to the script repository page.
 >   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-dec-release-test-case-mgt/script-repo-page.png" width=100% alt="script repo page">
+>
 > 3. Click **Refresh Test Suite Collection** in the top right corner.
+>
 > 4. Go to **Test Management** > **Test Suites**, then select the relevant script repository.
+>
 > 5. Click on the **Test Suites** folder.
 >
->       You can now see test suites from the script repository you have refreshed.
+>   You can now see test suites from the script repository you have refreshed.
 
 ### View test suites uploaded to a script repository
 
@@ -156,3 +160,4 @@ Follow these steps:
     * You can search the test case in the **Test Cases** section, then click **Add** to add a test case.
     * You can remove a test case in the test case list by clicking **Remove**.
 
+7. Click **Save** to finish editing your test suite.
