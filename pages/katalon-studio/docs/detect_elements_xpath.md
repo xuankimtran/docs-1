@@ -95,6 +95,16 @@ XPath axes are those axes used to search for the multiple nodes in the XML docum
             <td><code>//*[@id='btn-login'][@type='submit']</code></td>
         </tr>
         <tr>
+            <td>Index</td>
+            <td>Specify a given tag name in terms of the index value you wish to locate. Use this when there are more than one element present in the DOM with similar attributes and it becomes difficult to search them.</td>
+            <td><code>//div[@class='form-group']//select[1]</code>
+        </tr>
+        <tr>
+            <td>Chained XPath</td>
+            <td>Use multiple XPath expressions and chain them.</td>
+            <td><code>//section[@id='appointment']//span[@class='glyphicon glyphicon-calendar']</code></td>
+        </tr>
+        <tr>
             <td>Contains()</td>
             <td>Contains() is a method used in an XPath expression. It is used when the value of any attribute changes dynamically, such as login information or elements containing static values.</td>
             <td><code> //h1[contains(.,'CURA Healthcare Service')]</code><</td>

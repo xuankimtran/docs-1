@@ -123,10 +123,37 @@ XPath:
 
 ```groovy
 //*[@id='btn-login'][@type='submit']
-
 ```
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/login.png" alt="multiple attributes" width="100%">
+
+### Index
+
+Specify a given tag name in terms of the index value you wish to locate. Use this when there are more than one element present in the DOM with similar attributes and it becomes difficult to search them.
+
+For example, you want to locate the first dropdown in a page.
+
+XPath:
+
+```groovy
+//div[@class='form-group']//select[1]
+```
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/index.png" alt="index" width="100%">
+
+### Chained XPath
+
+You can use multiple XPath expressions and chain them.
+
+For example, use the chained XPath to find the calendar icon in the appointment section.
+
+XPath:
+
+```groovy
+//section[@id='appointment']//span[@class='glyphicon glyphicon-calendar']
+```
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/chained.png" alt="chained" width="100%">
 
 ### Contains()
 
