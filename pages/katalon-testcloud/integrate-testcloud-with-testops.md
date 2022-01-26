@@ -105,6 +105,10 @@ Follow these steps:
 
     ii. Right click on the file to open it in the terminal (for macOs), or open the file in cmd.exe (for Windows).
 
+    > Notes for macOS users:
+    >
+    > If you cannot run the tunnel file, see [Unable to set up TestCloud Tunnel in macOS](/katalon-testcloud/docs/troubleshoot-macos-workaround.html) for a troubleshoot and workaround.
+
     iii. Copy the command in the **Generate configuration** section, paste it in Terminal/cmd, then click *Enter* to run the command.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/testops-integration/private-domains/beta-open-termina-for-configuring-testcloud-tunnel.png" width=100% alt="configure testcloud tunnel">
