@@ -124,7 +124,12 @@ To configure TestCloud Tunnel, follow these steps:
 4. Follow the step-by-step instructions in the dialog to set up the tunnel client in your local machine:
 
     * Step 1: Select your OS and download the .zip file, then unzip it.
+
     * Step 2: Open the command-line interface (CLI), copy the command line from the dialog, then run it in the CLI.
+
+        > Notes for macOS users:
+        >
+        > If you cannot run the tunnel file, see [Unable to set up TestCloud Tunnel in macOS](/katalon-testcloud/docs/troubleshoot-macos-workaround.html) for a troubleshoot and workaround.
 
          An example command looks like this:
 
