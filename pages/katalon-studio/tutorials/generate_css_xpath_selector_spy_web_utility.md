@@ -98,7 +98,7 @@ In this section, we will give you an example of finding object locators using Sp
 
 6. In the **Selected Locator** section, you can manually input your XPath, then click **Verify and Highlight**. Katalon finds elements that match the XPath locator you input and highlights them on the web page.
 
-67 To save objects to the **Objects Repository**, click on **Save**.
+7. To save objects to the **Objects Repository**, click on **Save**.
     Then, select a folder to add the captured objects into. Click **OK** when done.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/Add-to-repo.png" alt="selected locator" width="70%">
