@@ -5,15 +5,35 @@ permalink: katalon-testcloud/docs/testcloud-supported-environments.html
 description: 
 ---
 
-This guide provides a list of environments that Katalon TestCloud support. 
+This guide provides a list of environments that Katalon TestCloud support.
 
-> Requirements:
+> Notes:
 >
-> See: [System requirements](https://docs.katalon.com/katalon-studio/docs/supported-environments.html#system-requirements).
+> For integration with Katalon Studio, see also: [System requirements](https://docs.katalon.com/katalon-studio/docs/supported-environments.html#system-requirements).
 
 ## Operating System (OS)
 
-TestCloud supports Windows (for TestOps only) and Linux.
+<table>
+<thead>
+  <tr>
+    <th>Product</th>
+    <th>Windows</th>
+    <th>Linux</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Katalon Studio</td>
+    <td>N/A</td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td>Katalon TestOps</td>
+    <td>✅</td>
+    <td>✅</td>
+  </tr>
+</tbody>
+</table>
 
 ## Browsers
 
