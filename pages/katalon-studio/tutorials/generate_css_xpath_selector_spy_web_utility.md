@@ -88,7 +88,7 @@ In this section, we will give you an example of finding object locators using Sp
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/capture-object.png" alt="capture object" width=100%>
 
-    Then, by pressing the <button>Alt</button> + <button>`</button> keys or right-clicking and choosing **Capture Object**, the focused object is captured and added to the **Captured Objects** list.
+    Then, by pressing the combination of **\<Alt + \`\>** keys or right-clicking and choosing **Capture Object**, the focused object is captured and added to the **Captured Objects** list.
 
     Katalon Studio automatically captures all available properties of the objects. You can change the folder name and edit the value of any properties.
 
