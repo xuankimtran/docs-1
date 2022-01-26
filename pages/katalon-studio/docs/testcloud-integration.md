@@ -129,7 +129,7 @@ To configure TestCloud Tunnel, follow these steps:
 
         > Notes for macOS users:
         >
-        > If you cannot run the tunnel file, see [Unable to set up TestCloud Tunnel in macOS](/katalon-testcloud/docs/troubleshoot-macos-workaround.html) for a troubleshoot and workaround.
+        > If you cannot run the tunnel file, see [Unable to set up TestCloud Tunnel in macOS](https://docs.katalon.com/katalon-testcloud/docs/troubleshoot-macos-workaround.html) for a troubleshoot and workaround.
 
          An example command looks like this:
 
