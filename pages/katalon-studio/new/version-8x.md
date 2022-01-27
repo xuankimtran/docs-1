@@ -11,10 +11,29 @@ redirect_from:
     - "/display/KD/Release%20Notes/"
 description: Release notes 8.x
 ---
+## Version 8.3.0 Beta 
+
+> Download from our GitHub repository: [Katalon Studio version 8.3.0 Beta](https://github.com/katalon-studio/katalon-studio/releases/tag/v8.3.0.beta).
+
+### Enhancements
+
+* [Security Compliance] Upgraded Log4j to version 2.17.1.
+
+### Fixes
+
+* Bug: [BDD] "KeywordUtil.markFailed" logged the error but did not continue execution in the BDD framework.  
+* Bug: Obsolete proxy desired capabilities for Firefox caused test failures.
+* Bug: [qTest] Could not upload reports to qTest with the "Java heap space" error.
+* Bug: [Katalon Runtime Engine] Did not recognize the `-projectPath` and `-apiKey` parameters in the .properties file when executing in Katalon Runtime Engine.
+* Bug: [Katalon Runtime Engine] Did not print specific names of empty test suites when executing in Katalon Runtime Engine.
+* Bug: [Mobile] Screenshots unexpectedly taken twice when using the `Mobile.TakeScreenShot()` keyword once.
+* Bug: Could not refresh the project root folder when clicking **Project** > **Refresh** or right-clicking in the **Tests Explorer** panel > **Refresh**.
+* Bug: Could not update Test Object references after renaming Test Objects.
+* Bug: [Docker Image] Unable to send email reports when running test script from Docker Image.
+
+## Version 8.2.5 - Official Release
 
 > Download from our official website: [Katalon Studio version 8.2.5](https://www.katalon.com/download/).
-
-## Version 8.2.5
 
 ### New features
 
@@ -55,7 +74,7 @@ description: Release notes 8.x
 * Bug: [On-Premises and Cloud Licensing Servers] Not showing the terminate session popup when deleting online licenses.
 * Bug: [Web Recorder] Lacked test steps in the Recorder Logs when playing back the test case.
 * Bug: Inside the **Log Viewer**, unable to navigate to a specific step by right-clicking on the step and choosing **Go to this step in Script View**.
-* Bug: [Docker Image] Unable to send email reports when running test script from Docker Image.
+
 
 ## Version 8.2.0
 
