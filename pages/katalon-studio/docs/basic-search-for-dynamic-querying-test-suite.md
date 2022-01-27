@@ -6,7 +6,7 @@ permalink: katalon-studio/docs/basic-search-for-dynamic-querying-test-suite.html
 description:
 ---
 
-[Dynamic Test Suite](https://docs.katalon.com/katalon-studio/docs/dynamic-querying-test-suite.html) allows you to define the query search and manage query plugins from Katalon Store. [Basic Search For Dynamic Test Suite](https://store.katalon.com/product/2/Basic-Search-For-Dynamic-Test-Suite) is one of them. This plugin enables the basic search capability to look for test cases faster in Katalon Studio and help filter which test cases to be executed.
+[Dynamic Test Suite](https://docs.katalon.com/katalon-studio/docs/dynamic-test-suite-ks.html#create-a-dynamic-test-suite) allows you to define the query search and manage query plugins from Katalon Store. [Basic Search For Dynamic Test Suite](https://store.katalon.com/product/2/Basic-Search-For-Dynamic-Test-Suite) is one of them. This plugin enables basic search capabilities to look for test cases faster in Katalon Studio and help filter which test cases to be executed.
 
 1. Create a new dynamic test suite by a right-click on **Test Suite > New > Dynamic Test Suite**.
 
