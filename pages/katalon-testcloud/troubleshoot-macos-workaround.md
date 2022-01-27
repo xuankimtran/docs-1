@@ -9,7 +9,7 @@ When you download the tunnel agent and follow the instructions to configure it i
 
  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/troubleshoot/macOS-workaround/mac-warning.png" width=50% alt="testcloud section in schedule test run dialog">
 
-For security reasons, Apple does not recognize the TestCloud tunnel as a valid application.
+For security reasons, Apple does not recognize applications that haven't been signed with it.
 
 We are in the progress of signing TestCloud with Apple. By doing so, our developers receive Apple certificates to validate our application in macOS.
 
