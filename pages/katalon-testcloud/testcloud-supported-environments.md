@@ -5,7 +5,7 @@ permalink: katalon-testcloud/docs/testcloud-supported-environments.html
 description: 
 ---
 
-This guide provides a list of environments that Katalon TestCloud support.
+This guide provides a list of environments supported by Katalon Testcloud.
 
 > Notes:
 >
