@@ -11,7 +11,7 @@ When you download the tunnel agent and follow the instructions to configure it i
 
 For security reasons, Apple does not recognize applications that haven't been signed with it.
 
-We are in the progress of signing TestCloud with Apple. By doing so, our developers receive Apple certificates to validate our application in macOS.
+We are in the process of signing TestCloud with Apple. By doing so, our developers receive Apple certificates to validate our application in macOS.
 
 While waiting for the certificate, we provide you with the following workaround to configure the tunnel in macOS:
 
