@@ -1,18 +1,414 @@
 ---
-title: "Web Service Testing Samples" 
+title: "Sample API/Web Service test project" 
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/web-service-samples.html 
 ---
 
-Web Service Testing sample project is available [here](https://github.com/katalon-studio-samples/web-service-tests).
+This sample demonstrates fundamental API testing with RESTful requests. The sample uses the following base URL: `https://sample-web-service-aut.herokuapp.com`. To learn more about API testing, you can refer to this document: [Introduction to API testing](https://docs.katalon.com/katalon-studio/docs/introduction_api_testing.html).
+## Open the sample API test project
 
-> After executing tests, you can view your reports and details in [Katalon TestOps](https://analytics.katalon.com).
->
-> - [Integrate with Katalon TestOps](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html)
-> - [View Test Reports](https://docs.katalon.com/katalon-analytics/docs/project-management-view-reports.html)
-> - [View Test Execution, Test Suite and Test Case Details](https://docs.katalon.com/katalon-analytics/docs/project-management-view-details.html)
+To open the API sample project, in Katalon Studio, go to **File > New Sample Project > Sample API Tests Project**.
 
-See also:
-* [Verification Snippets](https://docs.katalon.com/katalon-studio/docs/verification-snippets.html).
-* [Custom Keywords](https://docs.katalon.com/katalon-studio/docs/introduction-to-custom-keywords.html).
-* [Data Binding](https://docs.katalon.com/katalon-studio/docs/run-test-case-external-data.html#create-a-new-test-suite-with-test-case-variables).
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-Open-sample-project.png" width="70%" alt="Open API sample in Studio">
+
+Alternatively, you can download the sample API test project from our Github repository: [Web Service tests](https://github.com/katalon-studio-samples/web-service-tests).
+## Sample API project components
+### Profiles
+
+To open the execution profile, go to **Profiles > default**.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-Execution-profile.png" width="60%" alt="Default profile in the API sample">
+
+
+You can create and save all global variables in the execution profile. They can be used across test cases in your project. To learn more about execution profiles and global variables, you can refer to this document: [Execution profile and global variables](https://docs.katalon.com/katalon-studio/docs/execution-profile-v54.html).
+
+Katalon creates three global variables in this sample project as follows:
+
+<table>
+<thead>
+  <tr>
+    <th>Name</th>
+    <th>Value</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>baseURL</td>
+    <td><code>https://sample-web-service-aut.herokuapp.com</code></td>
+  </tr>
+  <tr>
+    <td>successCode</td>
+    <td>200</td>
+  </tr>
+  <tr>
+    <td>globalid</td>
+    <td>0</td>
+  </tr>
+</tbody>
+</table>
+
+### RESTful requests
+
+We created two sample RESTful requests in this project: a POST request and a GET request.
+To access the sample RESTful requests, in the **Test Explorer** panel, go to the **Object Repository** folder.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-Test-objects.png" width="60%" alt="Test cases">
+
+1. The **POST a new user** object
+
+  In this sample POST object, we specify the following information:
+
+  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-POST-samples-POST-request.png" width="100%" alt="Sample POST request">
+
+  - **Request method**:
+
+      Katalon allows you to choose one of the following methods: GET, POST, PUT, DELETE, PATCH, HEAD, CONNECT, OPTIONS, TRACE. The method needs to match the API endpoint to be a valid request. Here, we create a POST request to send the user information to the server to create an account. The server will return us with a new userID as a response.
+
+  - **Request URL**:
+
+      Along with the request method, request URL is to tell the web server which API is utilized under test. Any mismatch between method and URL leads to an invalid request exception at runtime or a wrong data response. For the POST request, we specify the API endpoint as follows: `${GlobalVariable.baseUrl}/api/users/json`, where the base URL is listed as a global variable. See above: [Profiles](https://docs.katalon.com/katalon-studio/docs/web-service-samples.html#profiles).
+
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-POST-Response-URL.png" width="100%" alt="Request URL in the sample POST request">
+
+  - **Authorization**:
+
+      Authorization is an essential part of an API. It is used to get the correct data under permission (unless the data is public). To learn more about authorization, you can refer to this document: [Authorization](https://docs.katalon.com/katalon-studio/docs/authorization.html).
+
+      We don't specify any authorization for this POST request.
+
+  - **HTTP Header**:
+
+      You can configure the header information needed for sending the RESTful request object. By default, the **Content-Type** header is automatically generated from the input in the **HTTP Body** tab.
+      Alternatively, you can select suggested headers from the dropdown list or manually input another header of your interest. To learn more about HTTP headers, you can refer to the Mozilla Developer website here: [HTTP headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers).
+
+      Here, we want the HTTP header to be automatically generated by the HTTP body.
+
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-POST-HTTP-header.png" width="70%" alt="HTTP header in the sample POST request">
+
+  - **HTTP Body**:
+
+    Katalon Studio supports the following body data types: text, x-www-form-urlencoded, form-data, and file. To learn more about the types of HTTP body, you can refer to this document: [Request body](https://docs.katalon.com/katalon-studio/docs/restful.html#request-body).
+
+    Here, we want to send the user information with dynamic data, including username, password, age, gender, and avatar to the server to create new accounts. To do so, we call variables in the POST object, using the `${<variable_name>}` syntax as a placeholder in the HTTP body as follows:
+
+    ```groovy
+    {
+      "age": ${age},
+      "avatar": null,
+      "gender":"${gender}",
+      "password": "${password}",
+      "username": "${username}"
+    }
+    ```
+    We also check the **Auto update Content Type** box to automatically generate a HTTP header.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-POST-HTTP-body.png" width="70%" alt="HTTP body in the sample POST request">
+
+    To learn more about setting parameters in a web service object, you can refer to this document: [Parameterize a web service object](https://docs.katalon.com/katalon-studio/docs/parameterize-a-web-service-object.html#query-parameters).
+
+  - **Verification**:
+
+    Katalon Studio allows you to write verification scripts directly in the **Verification** tab of the web service object. To learn more about the verification snippets, you can refer to this document: [Verification snippets](https://docs.katalon.com/katalon-studio/docs/verification-snippets.html#using-verification-snippets).
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-POST-Verification.png" width="100%" alt="Verification in the sample POST request">
+
+  - **Variables**:
+
+    To pass the variables value to the POST request, we specify variables in the **Variables** tab. Here, we specify the user information, including `age`, `gender`, `username`, and `password` variables.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-POST-Variables.png" width="100%" alt="Variables in the sample POST request">
+
+  - The **Response** tab:
+
+    The response is automatically displayed in a neat format: JSON, XML, HTML, and JavaScript. It is helpful for a quick view of the response status.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-Formatter.png" width="100%" alt="Formatter in the sample POST request">
+
+2. The **GET user by id** object:
+
+  In this sample GET object, we specify the following information:
+
+  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-GET-Sample-GET-request.png" width="100%" alt="Sample GET request">
+
+  - **Request method**:
+
+    For the sample GET request, we are to retrieve the user information by the userID.
+
+  - **Request URL**:
+
+    To pass the `id` variable to the GET API, we add the `${<variable_name>}` placeholder at the end of the API endpoint.
+    The API endpoint for the GET request is as follows: `${GlobalVariable.baseUrl}/api/users/${id}`, with the base URL is listed as a global variable.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-GET-Response-URL.png" width="100%" alt="Request URL in the sample GET request">
+
+  - **Variables**:
+
+    We specify the value for the `id` variable in the **Variables** tab. 
+
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-GET-Variables.png" width="100%" alt="Variables in the sample GET request">
+
+  - **Authorization** & **HTTP Header** & **HTTP Body**:
+
+    We don't specify any authorization, HTTP header, or HTTP body for this sample GET request. 
+### Custom keywords
+
+You can use custom keywords in the test case. To learn more about custom keywords, you can refer to this document: [Introduction to custom keywords](https://docs.katalon.com/katalon-studio/docs/introduction-to-custom-keywords.html). 
+
+Katalon creates two custom keywords in this sample project. To see the custom keywords, in the **Test Explorer** panel, go to **Keywords > sample > Common.groovy**.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-Custom-keyword.png" width="60%" alt="Custom keywords in the API project">
+
+<details><summary> <code>sample.Common.createNewUser</code> </summary>
+
+### Description
+
+This keyword is to:
+
+- Send the POST request to the server to create an account, then return a userID as the response.
+- Execute verification snippets in the **Verification** tab of the POST request.
+- Extract the new user ID from the response.
+
+### Parameters
+
+<table>
+<thead>
+  <tr>
+    <th>Parameter</th>
+    <th>Type</th>
+    <th>Mandatory</th>
+    <th>Description</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>age</td>
+    <td>int</td>
+    <td>Yes</td>
+    <td>The age of the user</td>
+  </tr>
+  <tr>
+    <td>username</td>
+    <td>String</td>
+    <td>Yes</td>
+    <td>The username for the user account</td>
+  </tr>
+  <tr>
+    <td>password</td>
+    <td>String</td>
+    <td>Yes</td>
+    <td>The password for the user account</td>
+  </tr>
+  <tr>
+    <td>gender</td>
+    <td>String</td>
+    <td>Yes</td>
+    <td>The gender of the user</td>
+  </tr>
+  <tr>
+    <td>expectedStatus</td>
+    <td>int</td>
+    <td>Yes</td>
+    <td>The expected status code of the request</td>
+  </tr>
+</tbody>
+</table>
+
+</details>
+
+<details><summary> <code>sample.Common.findUserById</code> </summary>
+
+### Description
+
+This keyword is to:
+
+- Send the GET request to retrieve user information by the userID.
+- Execute verification snippets in the **Verification** tab of the GET request.
+
+### Parameters
+
+<table>
+<thead>
+  <tr>
+    <th>Parameter</th>
+    <th>Type</th>
+    <th>Mandatory</th>
+    <th>Description</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>id </td>
+    <td>int</td>
+    <td>Yes</td>
+    <td>The id of the new user</td>
+  </tr>
+  <tr>
+    <td>age</td>
+    <td>int</td>
+    <td>Yes</td>
+    <td>The age of the user</td>
+  </tr>
+  <tr>
+    <td>username</td>
+    <td>String</td>
+    <td>Yes</td>
+    <td>The username for the user account</td>
+  </tr>
+  <tr>
+    <td>password</td>
+    <td>String</td>
+    <td>Yes</td>
+    <td>The password for the user account</td>
+  </tr>
+  <tr>
+    <td>gender</td>
+    <td>String</td>
+    <td>Yes</td>
+    <td>The gender of the user</td>
+  </tr>
+  <tr>
+    <td>expectedStatus</td>
+    <td>int</td>
+    <td>Yes</td>
+    <td>The expected status code of the request</td>
+  </tr>
+</tbody>
+</table>
+
+</details>
+
+### Test cases
+
+To access the sample test cases in this project, in the **Test Explorer** panel, go to the **Test Cases** folder.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-Test-case.png" width="60%" alt="Test cases">
+
+There are two test cases for different purposes: 
+
+1. The **Create a new user** test case is to create a new user. In the test case, we use the `sample.Common.createNewUser` keyword to:
+
+    - Send the user information, including username, password, age, gender to the server to create an account. Here, we set the value type of **username**, **password**, **age**, **gender** as **Variable**. You can change the **username**, **password**, **age**, **gender** value in the **Variable** tab. To learn more about test case variables, you can refer to this document: [Test Case Variables](https://docs.katalon.com/katalon-studio/docs/test-case-variables.html).
+
+      <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-User-info-in-variables.png" width="100%" alt="User information in the variables tab">
+
+    - The POST will return a userID as the response.
+    - Execute verification snippets in the **Verification** tab of the POST request.
+    - Extract the new user ID from the response.
+
+    > Notes:
+    > * If you change the user information in the **Variables** tab of the test case, make sure to change the verification snippets in the **Verification** tab of the POST request accordingly for successful verification. For example, if you change the user's age to `10`, then make sure to change the verification of the `age` element to `10`.
+      ><br><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-Matching-value-for-verification.png" width="100%" alt="A successful verification">
+
+      **<details><summary>Click to view the test script</summary>**
+
+      ```groovy
+      import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+      import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+      import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+      import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+      import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+      import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+      import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+      import com.kms.katalon.core.model.FailureHandling as FailureHandling
+      import com.kms.katalon.core.testcase.TestCase as TestCase
+      import com.kms.katalon.core.testdata.TestData as TestData
+      import com.kms.katalon.core.testobject.TestObject as TestObject
+      import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+      import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+      import internal.GlobalVariable as GlobalVariable
+
+      CustomKeywords.'sample.Common.createNewUser'(age as Integer, username, password, gender, 200)
+      ```
+      </details>
+      
+2. The **Find user by ID** test case retrieves user information via an userID. The flow is as follows:
+
+  - First, we use the `sample.Common.createNewUser` keyword to:
+
+      - Send the user information, including username, password, age, gender to the server to create a new account. Here, we set the value type of **username**, **password**, **age**, **gender** as **Variable**. You can change the **username**, **password**, **age**, **gender** value in the **Variable** tab.
+      - The POST request returns a userID as the response.
+      - Execute verification snippets in the **Verification** tab of the POST request.
+      - Extract the new userID from the response.
+
+  - Then, we use the `sample.Common.findUserById` keyword to:
+
+      - Send the GET request to retrieve the user information via the newly created userID.
+      - Execute verification snippets in the **Verification** tab of the GET request.
+
+      > Notes:
+      > * If you change the user information in the **Variables** tab of the test case, make sure to change the verification snippets in the **Verification** tab of the POST and GET requests accordingly for successful verification. For example, if you change the user's age to `10`, then make sure to change the verification of the `age` element to `10`.
+      >
+      ><br><img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-Matching-value-for-verification.png" width="100%" alt="A successful verification">
+
+      **<details><summary>Click to view the test script</summary>**
+
+      ```groovy
+      import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+      import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+      import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+      import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+      import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+      import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+      import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+      import com.kms.katalon.core.model.FailureHandling as FailureHandling
+      import com.kms.katalon.core.testcase.TestCase as TestCase
+      import com.kms.katalon.core.testdata.TestData as TestData
+      import com.kms.katalon.core.testobject.TestObject as TestObject
+      import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+      import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+      import internal.GlobalVariable as GlobalVariable
+      import groovy.json.JsonSlurper as JsonSlurper
+      import com.kms.katalon.core.testobject.RequestObject as RequestObject
+      import static org.assertj.core.api.Assertions.*
+
+      int id = CustomKeywords.'sample.Common.createNewUser'(age as Integer, username, password, gender, 200)
+
+      CustomKeywords.'sample.Common.findUserById'(id, age as Integer, username, password, gender, 200)
+      ```
+      </details>
+
+### Data Files
+
+To view the data files in this sample project, in the **Test Explorer** panel, go to **Data Files > ListUser**.
+
+  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-Data-files.png" width="60%" alt="Data files in the API sample">
+
+Alternatively, you can go to `<your-project-folder>\Data Files` and choose the file you want to open:
+
+- `ListUser.dat` is the .dat file of the `ListUser.xlsx` file.
+- `ListUser.xlsx` is an excel file that contains the user information.
+
+### Test suites
+
+The sample test suite demonstrates the web service testing with data-driven testing. To view sample test suite, in the **Test Explorer** panel, go to **Test Suite > web-service-tests - All Test Cases**.
+
+This test suite includes the **Create a new user** and **Find user by ID** test case.
+We bind the **Create a new user** test case with the **ListUser** data file. To view the data binding section, select the **Create a new user** test case, then click **Show Data Binding**. To learn more about binding data, you can refer to the following document: [Data Binding](https://docs.katalon.com/katalon-studio/docs/run-test-case-external-data.html#manage-data-binding).
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-Test-suite.png" width="100%" alt="Sample test suites">
+
+## Execute selected test cases or test suites
+
+To execute a test case or a test suite in the sample project:
+
+1. Select the test case/test suite you want to execute.
+2. Click **Run** or press Ctrl + Shift + A (macOS: Cmd+Shift+A).
+
+    You can choose different browsers to execute your test in the dropdown list next to **Run**. 
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-Execution.png" width="30%" alt="Run the test case">
+
+3. Observe the test result in the **Log Viewer** tab.
+
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-Log-viewer.png" width="100%" alt="Oservice results in the log Viewer">
+
+    > Notes:
+    > * You can view test results of the test suite in the **Result** tab. The test results can be Passed, Failed, Error, or Incomplete.
+    > * After executing test suites or test suite collections, you can view your reports and details in `<your-project-folder>/Reports`. Katalon Studio also supports exporting test reports into different formats, such as HTML, CSV, PDF, and JUnit.
+    > * For real-time monitoring and better reporting capabilities, consider integrating your project with Katalon TestOps. Learn more about test result reports here: [Upload Test Results to Katalon TestOps from Katalon Studio](https://docs.katalon.com/katalon-studio/docs/katalon-analytics-beta-integration.html).
+## See also
+
+* [Create your first API test with Katalon Studio](https://docs.katalon.com/katalon-studio/docs/create_first_api_test_katalon_studio.html#introduction)
+* [Data-driven testing with RESTful Web Service requests](https://docs.katalon.com/katalon-studio/docs/ddt-with-web-service.html)
+
+
