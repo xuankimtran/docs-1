@@ -9,7 +9,7 @@ description: "Katalon Studio Spy Web Utility provides an intelligent object capt
 
 This article shows you some examples of generating reliable object selectors using Spy Web Utility.
 
-Spy Web Utility provides an intelligent object capturing capability and immediate feedback on the uniqueness of selectors. To learn more about this utility, see [Spy Web Utility](http://docs.katalon.com/pages/viewpage.action?pageId=5117668).
+Spy Web Utility provides an intelligent object capturing capability on websites. To learn more about this utility, see [Spy Web Utility](https://docs.katalon.com/katalon-studio/docs/spy-web-utility.html).
 
 There are two widely used selectors: **CSS** and **XPath**. Locators are object attributes that are used to build up XPath or CSS selectors. Locators help find and identify elements on the web page under test. 
 
@@ -64,9 +64,9 @@ Below are some web element locators:
 
 ## How to find object locators?
 
-You can capture objects, get web element XPath or CSS locator, and manually input object selectors with XPath or CSS selection method mode using Spy Web Utility. Spy Web Utility provides instant feedback by auto-detecting the numbers of matching elements with provided selector and highlighting them.
+You can capture objects, get web element XPath or CSS locators, and manually input XPath or CSS object selectors using Spy Web Utility. Spy Web Utility provides instant feedback by auto-detecting the numbers of matching elements with the provided selector and highlighting them.
 
-In this section, we will give you an example of finding object locators using Spy Web Utility.
+In this section, we will illustrate using the Spy Web Utility to find object locators.
 
 1. Open or create a new project. From the main toolbar, click on the **Spy Web** icon.
 
@@ -74,21 +74,21 @@ In this section, we will give you an example of finding object locators using Sp
 
     The Object Spy window displays.
 
-2. In the URL section, input the URL of the web you want to test. We use our demo page in this example: [http://demoaut.katalon.com/](http://demoaut.katalon.com/).
+2. In the URL section, input the URL of the website you want to test. We use our demo page in this example: `http://demoaut.katalon.com/`
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/object-spy-dialog.png" alt="object spy dialog" width=70%>
 
-3. To choose the browser, click on the drop-down icon of the **Start** button. For this example, we choose a new Chrome browser.
+3. To choose a browser, click on the dropdown icon of the **Start** button. For this example, we choose a new Chrome browser.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/choose-browser.png" alt="choose browser" width=70%>
 
 4. Click **Start**. Katalon Studio opens a new Chrome browser and navigates to the demo website.
 
-5. To capture test objects, first, hover the mouse over them. The focused web object would be highlighted in red.
+5. To capture test objects, first, hover the mouse over them. The focused web object is highlighted in red.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/capture-object.png" alt="capture object" width=100%>
 
-    Then, by pressing the combination of **\<Alt + \`\>** keys or right-clicking and choosing **Capture Object**, the focused object is captured and added to the **Captured Objects** list.
+    Then, by pressing **\<Alt + \`\>** or right-clicking and choosing **Capture Object**, the focused object is captured and added to the **Captured Objects** list.
 
     Katalon Studio automatically captures all available properties of the objects. You can change the folder name and edit the value of any properties.
 
@@ -96,7 +96,9 @@ In this section, we will give you an example of finding object locators using Sp
 
     In the **Selection Method** section, you can choose **XPath**, **Attributes**, **CSS**, or **Image** to locate captured objects.
 
-6. In the **Selected Locator** section, you can manually input your XPath, then click **Verify and Highlight**. Katalon finds elements that match the XPath locator you input and highlights them on the web page.
+6. In the **Selected Locator** section, you can manually input your XPath, then click **Verify and Highlight**. Katalon finds elements that match your XPath locator and highlights them on the web page.
+
+    A single locator might identify many elements because a web page can have many elements that use the same formats and styles. The next section will guide you on how to create unique locators to find complex or dynamic elements. See below: [Working with XPath selector](https://docs.katalon.com/katalon-studio/docs/generate_css_xpath_selector_spy_web_utility.html#working-with-xpath-selector).
 
 7. To save objects to the **Objects Repository**, click on **Save**.
     Then, select a folder to add the captured objects into. Click **OK** when done.
@@ -157,20 +159,19 @@ XPath:
 
 ### Contains()
 
-Contains() is a method used in an XPath expression. You can use this method when the value of any attribute changes dynamically, such as login information.
+You can use the Contain() method to detect dynamic elements that contain static values.
 
 Example:
 
-Use the contains method to find the heading that contains the text: "CURA Healthcare Service".
+Use the Contains() method to find the login button that contains the type: "submit".
 
 XPath:
 
 ```groovy
- //h1[contains(.,'CURA Healthcare Service')]
-
+//button[contains(@type,'submit')]
 ```
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/contain.png" alt="contain" width="100%">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/contain-example.png" alt="contain" width="100%">
 
 ### Last()
 
@@ -191,7 +192,7 @@ XPath:
 
 ### Start-with()
 
-The Start-with method finds the element that attributes value changes on refresh or any operation on the web page. In this expression, the starting text of the attribute is used to find the element that attributes changes dynamically. You can also find the element that the attribute value is static (not changing).
+The Start-with method finds the element using the starting text of an attribute. This method is useful when the first part of the attribute value is fixed (static), and the rest is dynamic.
 
 Example:
 
@@ -200,11 +201,10 @@ To find the line: "We Care About Your Health", use the Starts-with() method to f
 XPath:
 
 ```groovy
-//h3[starts-with(.,'We Care About')]
-
+//h3[starts-with(text(),'We Care About')]
 ```
 
-<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/start-with.png" alt="start with" width=100%>
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/start-with-example.png" alt="start with" width=100%>
 
 ### XPath axes methods
 

@@ -6,9 +6,9 @@ redirect_from:
     - "/katalon-studio/tutorials/detect_elements_xpath.html"
 ---
 
-UI elements of the application under test (AUT) are the main objects in test cases and test scripts. Therefore, detecting UI elements is crucial for automated testing. However, identifying them manually requires much time and experience in HTML.
+With any application under test (AUT), the detection of UI elements is crucial to automated testing. However, identifying them manually requires much time and experience in HTML.
 
-This task becomes even more challenging for objects that could not be identified by their common attributes, elements dynamically changing, or elements are located deep within another element (nested elements). 
+This task becomes even more challenging for elements that could not be identified by their common attributes, elements that change dynamically, or elements are located deep within another element (nested elements). 
 
 This article shows you how to use XPath in Katalon Studio to deal with nested elements and dynamic elements.
 
@@ -16,7 +16,7 @@ This article shows you how to use XPath in Katalon Studio to deal with nested el
 
 XPath stands for XML Path Language. In an XML document, XPath uses path expressions to navigate through elements, attributes, and select nodes or node-sets.
 
-On a webpage using HTML DOM (Document Object Model) structure, you can also use XPath to find the location of any element. To learn more about HTML DOM, you can refer to W3schools documentation: [What is the HTML DOM?](https://www.w3schools.com/whatis/whatis_htmldom.asp)
+On a webpage using the HTML DOM (Document Object Model) structure, you can also use XPath to find the location of any element. To learn more about the HTML DOM, you can refer to the W3schools documentation: [What is the HTML DOM?](https://www.w3schools.com/whatis/whatis_htmldom.asp)
 
 There are two types of XPath: absolute XPath and relative XPath (smart XPath).
 
@@ -28,13 +28,13 @@ Absolute XPath is the path starting from the root. An absolute XPath starts with
 
 For example: `/html/body/div[1]/div[1]/div/div[3]/div[2]/div`
 
-In Katalon Studio, the XPath captured strategy for absolute XPath is `xpath:position`. Using absolute XPath is a simple way to solve the problem when dealing with dynamic elements. However, if something changes in the structure of your web page, your code will break, and this XPath fails. Therefore, absolute XPath is not recommended for detecting dynamic elements.
+In Katalon Studio, the XPath capture strategy for absolute XPath is `xpath:position`. Using absolute XPath is a simple way to solve the problem when dealing with dynamic elements. However, if something changes in the structure of your web page, this XPath might fail. Therefore, absolute XPath is not recommended for detecting dynamic elements.
 
 ### Relative XPath
 
-You might want to use the relative XPath method when you observe a pattern in the attribute values like ID or Class of the web element. Relative XPath (smart XPath) is the path that starts from the middle of the HTML DOM structure. Unlike the absolute XPath that starts from the root, relative XPath starts with the double forward-slash (//), which means it can search the element anywhere on the webpage. Therefore, you can start from the middle of the HTML DOM structure without writing a long XPath. For example: `//a[contains(text(), 'Katalon Studio')]`.
+You might want to use the relative XPath method to observe a pattern in the attribute values like ID or Class of the web element. Relative XPath (smart XPath) is the path that starts from the middle of the HTML DOM structure. Unlike the absolute XPath that starts from the root, relative XPath starts with the double forward-slash (//), which means it can search the element anywhere on the webpage. Therefore, you can start from the middle of the HTML DOM structure without writing a long XPath. For example: `//a[contains(text(), 'Katalon Studio')]`.
 
-You can find a list of XPath capture strategies in Katalon Studio using relative XPath at this documentation: [Configure XPath](https://docs.katalon.com/katalon-studio/docs/web-selection-methods.html#configure-xpath).
+You can find a list of XPath capture strategies in Katalon Studio using relative XPath in this document: [Configure XPath](https://docs.katalon.com/katalon-studio/docs/web-selection-methods.html#configure-xpath).
 
 ## How to identify nested elements?
 
@@ -72,13 +72,13 @@ The example below illustrates how Katalon Studio generates and optimizes XPath a
 
 One of the challenging and time-consuming tasks in test automation is to modify test scripts when the AUT is changed, especially in the early stages of software development. Developers may change identifiers and elements quite often from one build to another. In addition, during the execution, the AUT elements may change dynamically.
 
-Dynamic web elements are elements that IDs and any other attributes like class names or values keep changing when you refresh the page. Dynamic elements are database-driven or session-driven. For example, when you edit an element in a database, it changes a number of areas of the application under test.
+Dynamic web elements are elements whose IDs and any other attributes like class names or values keep changing when you refresh the page. Dynamic elements are database-driven or session-driven. For example, when you edit an element in a database, it changes a number of areas of the application under test.
 
 ### Deal with dynamic elements using XPath
 
 To deal with dynamic elements, you might not want to use absolute XPaths for these elements in test cases. Instead, you might want to use relative XPaths based on specific patterns. 
 
-XPath axes are those axes used to search for the multiple nodes in the XML document from the current node context. Katalon Studio supports all XPath axes. The table below shows some common methods you can use to detect dynamic elements:
+XPath axes are used to search for the multiple nodes in the XML document from the current node context. Katalon Studio supports all XPath axes. The table below shows some common methods you can use to detect dynamic elements:
 
 <table>
     <thead>
@@ -96,7 +96,7 @@ XPath axes are those axes used to search for the multiple nodes in the XML docum
         </tr>
         <tr>
             <td>Index</td>
-            <td>Specify a given tag name in terms of the index value you wish to locate. Use this when there are more than one element present in the DOM with similar attributes and it becomes difficult to search them.</td>
+            <td>Specify a given tag name in terms of the index value you wish to locate. Use this when more than one element is present in the DOM with similar attributes, and it becomes difficult to search for them.</td>
             <td><code>//div[@class='form-group']//select[1]</code>
         </tr>
         <tr>
@@ -106,8 +106,8 @@ XPath axes are those axes used to search for the multiple nodes in the XML docum
         </tr>
         <tr>
             <td>Contains()</td>
-            <td>Contains() is a method used in an XPath expression. It is used when the value of any attribute changes dynamically, such as login information or elements containing static values.</td>
-            <td><code> //h1[contains(.,'CURA Healthcare Service')]</code><</td>
+            <td>Use the Contain() method to detect dynamic elements that contain static values.</td>
+            <td><code>//button[contains(@type,'submit')]</code><</td>
         </tr>
         <tr>
             <td>Last()</td>
@@ -116,8 +116,8 @@ XPath axes are those axes used to search for the multiple nodes in the XML docum
         </tr>
         <tr>
             <td>Start-with()</td>
-            <td>The start-with method finds the element which attributes value changes on refresh or any operation on the webpage. In this expression, the starting text of the attribute is used to find the element that attribute changes dynamically. You can also find the element that attribute value is static (not changing).</td>
-            <td><code>//h3[starts-with(.,'We Care About')]</code></td>
+            <td>TThe Start-with method finds the element using the starting text of an attribute. This method is useful when the first part of the attribute value is fixed (static), and the rest is dynamic.</td>
+            <td><code>//h3[starts-with(text(),'We Care About')]</code></td>
         </tr>
         <tr>
             <td>Preceding</td>
@@ -152,7 +152,7 @@ XPath axes are those axes used to search for the multiple nodes in the XML docum
     </tbody>
 </table>
 
-For more information on XPath axes, refer to W3school documentation: [XPath Axes](https://www.w3schools.com/xml/xpath_axes.asp).
+For more information on XPath axes, refer to the W3school documentation: [XPath Axes](https://www.w3schools.com/xml/xpath_axes.asp).
 
 > To learn how to find object locators in Katalon Studio, see [Spy Web Utility](http://docs.katalon.com/pages/viewpage.action?pageId=5117668).
 
