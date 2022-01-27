@@ -101,7 +101,7 @@ Follow these steps:
 
 	> Notes:
 	>
-	> After configuring your desired remote OS, browser, and browser version, TestCloud generates a TestCloud environment ID accordingly. You can get this ID in the *Generated Command** dialog (e.g. `-testcloudEnvironmentId="38"`).
+	> After configuring your desired remote OS, browser, and browser version, TestCloud generates a TestCloud environment ID accordingly. You can get this ID in the **Generated Command** dialog (e.g. `-testcloudEnvironmentId="38"`).
 
 	For example, the sample command is:
 
