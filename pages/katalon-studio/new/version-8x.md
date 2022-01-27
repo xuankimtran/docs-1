@@ -18,7 +18,6 @@ description: Release notes 8.x
 
 * Bug: [BDD] "KeywordUtil.markFailed" logged the error but did not continue execution in the BDD framework.  
 * Bug: Obsolete proxy desired capabilities for Firefox caused test failures.
-* Bug: [qTest] Could not upload reports to qTest with the "Java heap space" error.
 * Bug: [Katalon Runtime Engine] Did not recognize the `-projectPath` and `-apiKey` parameters in the .properties file when executing in Katalon Runtime Engine.
 * Bug: [Katalon Runtime Engine] Did not print specific names of empty test suites when executing in Katalon Runtime Engine.
 * Bug: [Katalon Runtime Engine] Failed to terminate all chrome.exe and chromedriver.exe files after Katalon Runtime Engine execution.
