@@ -1515,6 +1515,8 @@ items:
         url: /katalon-testcloud/docs/testcloud-overview.html
       - title: "Release Notes" 
         url: /katalon-testcloud/docs/release-notes.html
+      - title: "Supported Environments"
+        url: /katalon-testcloud/docs/testcloud-supported-environments.html
       - title: "Get started"
         tree:
           - title: "Usage Quota"
@@ -1529,6 +1531,8 @@ items:
         tree:
           - title: "Tests not loading when executing with Chrome version 93,94 in Windows"
             url: /katalon-testcloud/docs/troubleshoot-test-execution-chrome-93-94.html
+          - title: "Unable to set up TestCloud Tunnel in macOS"
+            url: /katalon-testcloud/docs/troubleshoot-macos-workaround.html
   - title: "Katalon Recorder"
     tree:
       - title: "Get started"
