@@ -25,6 +25,7 @@ description: Release notes 8.x
 * Bug: [Mobile] Screenshots unexpectedly taken twice when using the `Mobile.TakeScreenShot()` keyword once.
 * Bug: Could not refresh the project root folder when clicking **Project** > **Refresh** or right-clicking in the **Tests Explorer** panel > **Refresh**.
 * Bug: Could not update Test Object references after renaming Test Objects.
+* Bug: [Docker Image] Unable to send email reports when running test script from Docker Image.
 
 ## Version 8.2.5 - Official Release
 
