@@ -6,7 +6,7 @@ redirect_from:
 description:
 ---
 
-A dynamic test suite is a test suite with multiple test cases added via a search query. You can dynamically add additional test cases while running the test suite. To learn more about the dynamic test suite, you can refer to this document: [Dynamic test suite in Katalon Studio](https://docs.katalon.com/katalon-studio/docs/dynamic-test-suite-ks.html).
+A dynamic test suite is a test suite with multiple test cases added via a search query. You can dynamically add additional test cases while running the test suite. To learn more about dynamic test suites in Katalon Studio, you can refer to this document: [Dynamic test suite in Katalon Studio](https://docs.katalon.com/katalon-studio/docs/dynamic-test-suite-ks.html).
 
 From Katalon Studio version 7.8.2 onwards, you can create a dynamic test suite at runtime with Katalon Runtime Engine (KRE). This article guides you on how to do so.
 
@@ -18,7 +18,12 @@ From Katalon Studio version 7.8.2 onwards, you can create a dynamic test suite a
 
 > You can download the sample project from our Github repository: [Dynamic test suite sample](https://github.com/katalon-studio-samples/dynamic-test-suite-sample).
 
-## Enable the query provider
+## Enable the Query Provider
+
+The **Query Provider** is to provide the query syntax to search test artifacts within the dynamic test suite.
+When you implement the dynamic test suite for the first time, the **Query Provider** is set to **No query provider available** by default.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dynamic-querying-test-suite/dynamic-ts.png" width="100%" alt="The default state of the query provider">
 
 To enable the query provider for the dynamic test suite, install one of the following plugins from the Katalon Store:
 
@@ -32,6 +37,10 @@ Return to Katalon Studio and activate your plugin. To do so, click on the *Profi
 > * To use plugins in console mode, while generating commands, use the API Key of the users who have the plugin installed. Both API key command-line options work, either `-apiKey=<Your_API_Key>` or `-apikey=<Your_API_Key>`.
 > * From version 7.7.0 onwards, if you belong to more than one Organization subscribing to Runtime Engine licenses, you can choose which Organization validates your license usage with the following command line: `-orgID=<Katalon_OrgID>`.
 
+After you successfully activate the plugin, the **Query Provider** automatically applies the query syntax of the installed plugin. For example, after activating the **Test Case Management with Tags** plugin, the **Query Provider** is set to **Advanced Tag Search**. You can now add test cases for dynamic test suite execution.
+
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dynamic-test-suite-kre/KS-8.2.5-The-query-provider.png" width="100%" alt="The query provider in the dynamic test suite">
+
 ## Create dynamic test suite at runtime with KRE
 ### Create a new dynamic test suite
 
@@ -43,9 +52,9 @@ The **New** dialog opens. Name the dynamic test suite. Here, we name the test su
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dynamic-test-suite-kre/KS-8.2.5-Name-DTS.png" width="70%" alt="Name a dynamic test suite">
 
-### Generate commands with Command Builder
+### Generate commands with the command builder
 
-You can use Command Builder in Katalon Studio (KS) to generate commands quickly and precisely.
+You can use the command builder in Katalon Studio (KS) to generate commands quickly and precisely.
 
 Follow these steps:
 
