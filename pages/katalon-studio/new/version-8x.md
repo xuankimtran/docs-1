@@ -21,7 +21,6 @@ description: Release notes 8.x
 * Bug: [qTest] Could not upload reports to qTest with the "Java heap space" error.
 * Bug: [Katalon Runtime Engine] Did not recognize the `-projectPath` and `-apiKey` parameters in the .properties file when executing in Katalon Runtime Engine.
 * Bug: [Katalon Runtime Engine] Did not print specific names of empty test suites when executing in Katalon Runtime Engine.
-* Bug: [Katalon Runtime Engine] Failed to terminate all chrome.exe and chromedriver.exe files after Katalon Runtime Engine execution.
 * Bug: [Mobile] Screenshots unexpectedly taken twice when using the `Mobile.TakeScreenShot()` keyword once.
 * Bug: Could not refresh the project root folder when clicking **Project** > **Refresh** or right-clicking in the **Tests Explorer** panel > **Refresh**.
 * Bug: Could not update Test Object references after renaming Test Objects.
