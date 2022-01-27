@@ -24,7 +24,7 @@ description: Release notes 8.x
 * Bug: [Mobile] Screenshots unexpectedly taken twice when using the `Mobile.TakeScreenShot()` keyword once.
 * Bug: Could not refresh the project root folder when clicking **Project** > **Refresh** or right-clicking in the **Tests Explorer** panel > **Refresh**.
 * Bug: Could not update Test Object references after renaming Test Objects.
-* Bug: [Docker Image] Unable to send email reports when running test script from Docker Image.
+* Bug: [Docker Image] Unable to send email reports when running test script from Docker Image. Download the Docker Image version 8.3.0 beta here: [Docker Image version 8.3.0 beta](https://hub.docker.com/layers/katalonstudio/katalon/8.3.0.beta/images/sha256-8692d618734401afa962ac0de79d145d01b5fa33d0a97dd7aaca99b8d7ca6766?context=explore).
 
 ## Version 8.2.5 - Official Release
 
