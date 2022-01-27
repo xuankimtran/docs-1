@@ -1,5 +1,5 @@
 ---
-title: "Dynamic Test Suite"
+title: "Dynamic Test Suite in Katalon Recorder"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-recorder/docs/dynamic-test-suite.html
 description:

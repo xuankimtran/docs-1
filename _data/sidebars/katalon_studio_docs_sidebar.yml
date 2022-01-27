@@ -267,8 +267,6 @@ items:
                     url: /katalon-studio/docs/how-to-use-custom-keyword-in-groovy-class.html
               - title: "Web Testing"
                 tree:
-                  - title: "Generating reliable object selector using Spy Web utility"
-                    url: /katalon-studio/docs/generate_css_xpath_selector_spy_web_utility.html
                   - title: "Solving Pop-up dialog issue with Katalon Studio"
                     url: /katalon-studio/docs/pop_up_dialog_issue.html
                   - title: "Handling iFrame issue with Katalon Studio"
@@ -334,21 +332,23 @@ items:
               - title: "Creating test case using Record & Playback"
                 url: /katalon-studio/docs/create_test_case_using_record_playback.html
               - title: "Self-healing Tests"
-                tree:
-                  - title: "Self-healing Tests"
-                    url: /katalon-studio/docs/self-healing.html
-                  - title: "Selection Methods for Web Tests"
-                    url: /katalon-studio/docs/web-selection-methods.html
-                  - title: "Detecting Objects with XPath"
-                    url: /katalon-studio/docs/detect_elements_xpath.html
-                  - title: "Image-based Testing"
-                    url: /katalon-studio/docs/web-image-based-object-recognition.html
+                url: /katalon-studio/docs/self-healing.html
               - title: "Web Test Objects"
                 tree:
+                  - title: "Selection Methods for Web Tests"
+                    url: /katalon-studio/docs/web-selection-methods.html
+                  - title: "Web Locators Settings (version 5.7.1-7.6.0)"
+                    url: /katalon-studio/docs/web-locators-settings-since-v571.html
+                  - title: "Detecting Objects with XPath"
+                    url: /katalon-studio/docs/detect_elements_xpath.html
+                  - title: "Generating reliable object selector using Spy Web utility"
+                    url: /katalon-studio/docs/generate_css_xpath_selector_spy_web_utility.html
                   - title: "Manage Web Test Objects"
                     url: /katalon-studio/docs/manage-web-test-object.html
                   - title: "Parameterize Web Test Objects"
                     url: /katalon-studio/docs/parameterize-web-objects.html
+                  - title: "Image-based Testing"
+                    url: /katalon-studio/docs/web-image-based-object-recognition.html
                   - title: "Web Image-based Testing"
                     url: /katalon-studio/docs/web-image-based-testing.html
               - title: "Web Record and Spy Utilities"
@@ -360,9 +360,7 @@ items:
                   - title: "Spy Web Utility"
                     url: /katalon-studio/docs/spy-web-utility.html
                   - title: "Katalon Compact Utility"
-                    url: /katalon-studio/docs/katalon-compact-utility.html
-                  - title: "Web Locators Settings (since v5.7.1)"
-                    url: /katalon-studio/docs/web-locators-settings-since-v571.html 
+                    url: /katalon-studio/docs/katalon-compact-utility.html 
                   - title: "How to use synchronization commands while recording"
                     url: /katalon-studio/docs/synchronization_commands_recording.html
               - title: "Handle WebDrivers"
@@ -401,14 +399,18 @@ items:
                     url: /katalon-studio/docs/spy-mobile-utility.html
                   - title: "Spy and Record Utilities for testing an existing application"
                     url: /katalon-studio/docs/mobile-spy-record-existing-apps.html
+              - title: "Hybrid mobile apps testing"
+                tree:
+                  - title: "Hybrid mobile apps testing overview"
+                    url: /katalon-studio/docs/hybrid-app-overview.html
+                  - title: "Capture elements in hybrid Android apps"
+                    url: /katalon-studio/docs/capture-elements-in-hybrid-android-apps.html
               - title: "Testing Mobile Apps using Katalon Studio and Kobiton's cloud-based device farm"
                 url: /katalon-studio/docs/testing_mobile_apps_using_katalon_studio_kobiton.html
               - title: "Testing Mobile Apps using Custom Cloud Devices"
                 url: /katalon-studio/docs/mobile-testing-apps-cloud-devices.html
               - title: "Remote Execution for Mobile Testing"
                 url: /katalon-studio/docs/mobile-remote-execution.html
-              - title: "Capture elements in hybrid Android apps"
-                url: /katalon-studio/docs/capture-elements-in-hybrid-android-apps.html
           - title: "Web Services Test Design"
             tree:
               - title: "Introduction to API Testing"
@@ -1057,6 +1059,8 @@ items:
         tree:
           - title: "Test Suite"
             url: /katalon-studio/docs/create-test-suite.html
+          - title: "Dynamic Test Suite in Katalon Studio"
+            url: /katalon-studio/docs/dynamic-test-suite-ks.html
           - title: "Test Suite Collection"
             url: /katalon-studio/docs/test-suite-collection.html
           - title: "Skip Test Cases"  
@@ -1211,42 +1215,18 @@ items:
             url: /katalon-studio/docs/known-issues-limitations.html
       - title: "Tips and Tricks"
         tree:
-          - title: "Connect to SQL using Windows Authentication"
-            url: /katalon-studio/docs/connect-to-sql-using-windows-authentication.html
           - title: "Execute Windows commands"
             url: /katalon-studio/docs/execute-windows-commands.html
-          - title: "Execute Xpath functions"
-            url: /katalon-studio/docs/execute-xpath-functions.html
-          - title: "Executing tests on Mobile Browser and app in a single test case"
-            url: /katalon-studio/docs/executing-tests-on-mobile-browser-and-app-in-a-single-tc.html
-          - title: "Force stop execution"
-            url: /katalon-studio/docs/force-stop-execution.html
-          - title: "Get SQL query results as variables"
-            url: /katalon-studio/docs/get-sql-query-results-as-variables.html
-          - title: "Handle file upload control on hidden input"
-            url: /katalon-studio/docs/handle-file-upload-control-on-hidden-input.html
-          - title: "How to pass exitCode from Katalon to Jenkins in order to inform of Test Case failures"
-            url: /katalon-studio/docs/how-to-pass-exitcode-from-katalon-to-jenkins-in-order-to-inform-of-test-case-failures.html
-          - title: "How to use different browser versions"
-            url: /katalon-studio/docs/how-to-use-different-browser-versions.html
           - title: "Install Chrome extensions at runtime"
             url: /katalon-studio/docs/install-chrome-extensions-at-runtime.html
           - title: "Katalon with Winium for Desktop Applications"
             url: /katalon-studio/docs/katalon-with-winium-for-desktop-applications.html
           - title: "Manage Android's permission"
             url: /katalon-studio/docs/manage-androids-permission.html
-          - title: "Open Chrome with extensions"
-            url: /katalon-studio/docs/open-chrome-with-extensions.html
           - title: "Optimizing Object Identification and Tools"
             url: /katalon-studio/docs/optimizing-object-identification-and-tools.html
-          - title: "Override desired capabilities at runtime"
-            url: /katalon-studio/docs/override-desired-capabilities-at-runtime.html
           - title: "Reduce Execution Time in Mobile Testing"
             url: /katalon-studio/docs/mobile-reduce-execution-time.html
-          - title: "Retrieve OS, browser and screen resolution of the machine perfoming tests"
-            url: /katalon-studio/docs/retrieve-os-browser-and-screen-resolution-of-the-machine-perfoming-tests.html
-          - title: "Retrieve chromedriver.log and firefoxdriver.log when you run Record/Spy"
-            url: /katalon-studio/docs/retrieve-chromedriverlog-and-firefoxdriverlog-when-you-run-recordspy.html
           - title: "Retrieve mobile's session"
             url: /katalon-studio/docs/retrieve-mobiles-session.html
           - title: "Understand waiting keywords"
@@ -1269,6 +1249,22 @@ items:
             url: /katalon-studio/docs/vststfsvso-integration.html
           - title: "Jenkins Integration"
             url: /katalon-studio/docs/jenkins-integration.html
+      - title: "Tips from our community"
+        tree:
+          - title: "Connect to SQL using Windows Authentication"
+            url: /katalon-studio/docs/connect-to-sql-using-windows-authentication.html
+          - title: "Force stop execution"
+            url: /katalon-studio/docs/force-stop-execution.html
+          - title: "Get SQL query results as variables"
+            url: /katalon-studio/docs/get-sql-query-results-as-variables.html
+          - title: "Handle file upload control on hidden input"
+            url: /katalon-studio/docs/handle-file-upload-control-on-hidden-input.html
+          - title: "Open Chrome with extensions"
+            url: /katalon-studio/docs/open-chrome-with-extensions.html
+          - title: "Retrieve OS, browser and screen resolution of the machine perfoming tests"
+            url: /katalon-studio/docs/retrieve-os-browser-and-screen-resolution-of-the-machine-perfoming-tests.html
+          - title: "Retrieve chromedriver.log and firefoxdriver.log when you run Record/Spy"
+            url: /katalon-studio/docs/retrieve-chromedriverlog-and-firefoxdriverlog-when-you-run-recordspy.html
   - title: "Katalon Runtime Engine"
     tree:
       - title: "Introduction to Runtime Engine"
