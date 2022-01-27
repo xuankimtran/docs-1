@@ -1285,6 +1285,8 @@ items:
         url: /katalon-studio/how-to-guides/how-to-specify-android-home-path.html
       - title: "Terminate Execution Conditionally"
         url: /katalon-studio/docs/terminate-execution-conditionally.html
+      - title: "Create dynamic test suite at runtime"
+        url: /katalon-studio/docs/dynamic-test-suite-kre.html
       - title: "Docker Image"
         url: /katalon-studio/docs/docker.html
       - title: "Run with Cloud CIs"
