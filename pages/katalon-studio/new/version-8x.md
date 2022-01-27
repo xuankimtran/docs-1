@@ -18,6 +18,7 @@ description: Release notes 8.x
 
 * Bug: [BDD] "KeywordUtil.markFailed" logged the error but did not continue execution in the BDD framework.  
 * Bug: Obsolete proxy desired capabilities for Firefox caused test failures.
+* Bug: [qTest] Could not upload reports to qTest with the "Java heap space" error.
 * Bug: [Katalon Runtime Engine] Did not recognize the `-projectPath` and `-apiKey` parameters in the .properties file when executing in Katalon Runtime Engine.
 * Bug: [Katalon Runtime Engine] Did not print specific names of empty test suites when executing in Katalon Runtime Engine.
 * Bug: [Katalon Runtime Engine] Failed to terminate all chrome.exe and chromedriver.exe files after Katalon Runtime Engine execution.
@@ -68,7 +69,7 @@ description: Release notes 8.x
 * Bug: [On-Premises and Cloud Licensing Servers] Not showing the terminate session popup when deleting online licenses.
 * Bug: [Web Recorder] Lacked test steps in the Recorder Logs when playing back the test case.
 * Bug: Inside the **Log Viewer**, unable to navigate to a specific step by right-clicking on the step and choosing **Go to this step in Script View**.
-* Bug: [Docker Image] Unable to send email reports when running test script from Docker Image.
+
 
 ## Version 8.2.0
 
