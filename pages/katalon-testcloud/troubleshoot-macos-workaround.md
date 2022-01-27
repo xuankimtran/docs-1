@@ -18,10 +18,14 @@ While waiting for the certificate, we provide you with the following workaround 
 1. Click **Cancel** to close the warning dialog in your macOS.
 2. Go to **System Preferences** > **Security & Privacy** > **General**.
 
-    You will see the *"kt" was blocked from use because it is not from an identified developer* message. 
+    You will see the message: *"kt" was blocked from use because it is not from an identified developer*.
 
     <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/troubleshoot/macOS-workaround/mac-privacy-setting.png" width=70% alt="testcloud section in schedule test run dialog">
 
 3. Click **Allow Anyway**.
 
-Now you can go back to the instructions to configure the tunnel.
+You can now go back to the instructions to configure the tunnel.
+
+For configuring the tunnel in Studio, see: [Integrate TestCloud with Studio](https://docs.katalon.com/katalon-studio/docs/testcloud-integration.html#configure-testcloud-tunnel).
+
+For configuring the tunnel in TestOps, see: [Integrate TestCloud with TestOps](https://docs.katalon.com/katalon-testcloud/docs/integrate-testcloud-with-testops.html#configure-testcloud-tunnel).
