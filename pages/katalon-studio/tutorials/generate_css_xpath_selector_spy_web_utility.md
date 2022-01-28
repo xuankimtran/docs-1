@@ -64,9 +64,9 @@ Below are some web element locators:
 
 ## How to find object locators?
 
-You can capture objects, get web element XPath or CSS locators, and manually input XPath or CSS object selectors using Spy Web Utility. Spy Web Utility provides instant feedback by auto-detecting the numbers of matching elements with the provided selector and highlighting them.
+You can capture objects, get web element XPath or CSS locators, and manually input XPath or CSS object selectors using Spy Web Utility. Spy Web Utility provides instant feedback by auto-detecting and highlighting all elements that match with the provided selector.
 
-In this section, we will illustrate using the Spy Web Utility to find object locators.
+In this section, we will illustrate how to use the Spy Web Utility to find object locators.
 
 1. Open or create a new project. From the main toolbar, click on the **Spy Web** icon.
 
@@ -159,7 +159,7 @@ XPath:
 
 ### Contains()
 
-You can use the Contain() method to detect dynamic elements that contain static values.
+You can use the Contains() method to detect dynamic elements that contain static values.
 
 Example:
 

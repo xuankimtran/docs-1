@@ -8,7 +8,7 @@ redirect_from:
 
 With any application under test (AUT), the detection of UI elements is crucial to automated testing. However, identifying them manually requires much time and experience in HTML.
 
-This task becomes even more challenging for elements that could not be identified by their common attributes, elements that change dynamically, or elements are located deep within another element (nested elements). 
+This task becomes even more challenging for elements that could not be identified by their common attributes, elements that change dynamically, or elements that are located deep within another element (nested elements). 
 
 This article shows you how to use XPath in Katalon Studio to deal with nested elements and dynamic elements.
 
@@ -16,7 +16,7 @@ This article shows you how to use XPath in Katalon Studio to deal with nested el
 
 XPath stands for XML Path Language. In an XML document, XPath uses path expressions to navigate through elements, attributes, and select nodes or node-sets.
 
-On a webpage using the HTML DOM (Document Object Model) structure, you can also use XPath to find the location of any element. To learn more about the HTML DOM, you can refer to the W3schools documentation: [What is the HTML DOM?](https://www.w3schools.com/whatis/whatis_htmldom.asp)
+On a webpage using the HTML DOM (Document Object Model) structure, you can also use XPath to find the location of any element. To learn more about HTML DOM, you can refer to the W3schools documentation: [What is the HTML DOM?](https://www.w3schools.com/whatis/whatis_htmldom.asp)
 
 There are two types of XPath: absolute XPath and relative XPath (smart XPath).
 
@@ -32,7 +32,7 @@ In Katalon Studio, the XPath capture strategy for absolute XPath is `xpath:posit
 
 ### Relative XPath
 
-You might want to use the relative XPath method to observe a pattern in the attribute values like ID or Class of the web element. Relative XPath (smart XPath) is the path that starts from the middle of the HTML DOM structure. Unlike the absolute XPath that starts from the root, relative XPath starts with the double forward-slash (//), which means it can search the element anywhere on the webpage. Therefore, you can start from the middle of the HTML DOM structure without writing a long XPath. For example: `//a[contains(text(), 'Katalon Studio')]`.
+You might want to use the relative XPath method to observe a pattern in the attribute values like ID or Class of the web element. Relative XPath (smart XPath) is the path that starts from the middle of the HTML DOM structure. Unlike the absolute XPath that starts from the root, relative XPath starts with the double forward-slash (//), which means it can search for the element anywhere on the webpage. Therefore, you can start from the middle of the HTML DOM structure without writing a long XPath. For example: `//a[contains(text(), 'Katalon Studio')]`.
 
 You can find a list of XPath capture strategies in Katalon Studio using relative XPath in this document: [Configure XPath](https://docs.katalon.com/katalon-studio/docs/web-selection-methods.html#configure-xpath).
 
@@ -106,7 +106,7 @@ XPath axes are used to search for the multiple nodes in the XML document from th
         </tr>
         <tr>
             <td>Contains()</td>
-            <td>Use the Contain() method to detect dynamic elements that contain static values.</td>
+            <td>Use the Contains() method to detect dynamic elements that contain static values.</td>
             <td><code>//button[contains(@type,'submit')]</code><</td>
         </tr>
         <tr>
@@ -116,7 +116,7 @@ XPath axes are used to search for the multiple nodes in the XML document from th
         </tr>
         <tr>
             <td>Start-with()</td>
-            <td>TThe Start-with method finds the element using the starting text of an attribute. This method is useful when the first part of the attribute value is fixed (static), and the rest is dynamic.</td>
+            <td>The Start-with method finds the element using the starting text of an attribute. This method is useful when the first part of the attribute value is fixed (static), and the rest is dynamic.</td>
             <td><code>//h3[starts-with(text(),'We Care About')]</code></td>
         </tr>
         <tr>
