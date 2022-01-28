@@ -251,6 +251,32 @@ items:
       url: /katalon-studio/videos/apply_data_driven_katalon_studio.html
     - title: "How To Convert Manual Test Case To Automation Test Case?"
       url: /katalon-studio/videos/convert_manual_test_case_automation_test_case.html
+  - title: "Manish Verma"
+    tree:
+    - title: "Introduction and Download Katalon"
+      url: /katalon-studio/videos/introduction_download.html
+    - title: "Installing Katalon Studio on Windows"
+      url: /katalon-studio/videos/install_window.html
+    - title: "Installing Katalon Studio on macOS"
+      url: /katalon-studio/videos/macos.html
+    - title: "Introduction and First GET Request for REST API"
+      url: /katalon-studio/videos/request_restapi.html
+    - title: "First SOAP Request for SOAP Web Service"
+      url: /katalon-studio/videos/request_soap.html
+    - title: "Asana Account Sign up to Access APIs"
+      url: /katalon-studio/videos/asana_api.html
+    - title: "How to Configure Authorization"
+      url: /katalon-studio/videos/configure_authorization.html
+    - title: "Send POST Request for REST API"
+      url: /katalon-studio/videos/request_post.html
+    - title: "How to Send PUT Request"
+      url: /katalon-studio/videos/request_restapi_put.html
+    - title: "How to Send DELETE Request"
+      url: /katalon-studio/videos/delete_request.html
+    - title: "TTypes of Variables: Test Case and Global Variables"
+      url: /katalon-studio/videos/types_variables.html
+    - title: "Execution Profiles in Katalon Studio"
+      url: /katalon-studio/videos/execution_profile.html
   - title: "Krishna Sakinala"
     tree:
     - title: "Import external JAR files into Katalon Studio"
