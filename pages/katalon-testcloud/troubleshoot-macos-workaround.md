@@ -5,7 +5,7 @@ permalink: katalon-testcloud/docs/troubleshoot-macos-workaround.html
 description: 
 ---
 
-When you download the tunnel agent and follow the instructions to configure it in your macOS, you may come across the following warning:
+When you download the tunnel agent and follow the instructions to configure it in macOS, you might come across the following warning:
 
  <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/troubleshoot/macOS-workaround/mac-warning.png" width=50% alt="testcloud section in schedule test run dialog">
 
