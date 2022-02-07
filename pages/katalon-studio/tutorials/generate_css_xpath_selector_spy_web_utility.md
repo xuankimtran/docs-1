@@ -185,7 +185,6 @@ XPath:
 
 ```groovy
 //ul[@class='list-inline']/li[last()]
-
 ```
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/last.png" alt="last" width="100%">
@@ -256,7 +255,7 @@ These XPath axes methods are used to find complex or dynamic elements.
     //ul[@class='list-inline']/child::li
     ```
 
-    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/child.png" alt="chill" width=100%>
+    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/child.png" alt="child" width=100%>
 
 * **Preceding**
 
