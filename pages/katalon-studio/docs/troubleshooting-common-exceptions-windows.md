@@ -22,10 +22,13 @@ redirect_from:
 			<td>Handling Splash screen</td>
 			<td>
 				<ul>
-					<li>If your app has Splash screen, <a href="https://github.com/microsoft/WinAppDriver/releases/tag/v1.2-RC&nbsp;15">download WinAppDriver v1.2</a>&nbsp;and install Appium version&nbsp;<a title="https://github.com/appium/appium/releases" href="https://github.com/appium/appium/releases" data-renderer-mark="true">1.16.0 onwards</a>. In Katalon Studio, go to <strong>Project Settings &gt; Desired capabilities &gt; Windows</strong>&nbsp;and add this desired capabilities: <code>"ms:waitForAppLaunch": "25"</code></li>
+					<li>If your app has splash screens, do as follows:<br>
+						- Install WinAppDriver version 1.2 onwards. You can download the latest WinAppDriver version from the WinAppDriver Github project here: <a title="https://github.com/microsoft/WinAppDriver" href="https://github.com/microsoft/WinAppDriver" data-renderer-mark="true">WinAppDriver</a>.<br>
+						- Install Appium version 1.16.0 onwards. Follow the instruction in the Appium document to install the latest Appium version: <a title="http://appium.io/docs/en/about-appium/getting-started/#installing-appium" href="http://appium.io/docs/en/about-appium/getting-started/#installing-appium" data-renderer-mark="true">Getting started</a>.<br>
+						- In Katalon Studio, go to <strong>Project Settings &gt; Desired capabilities &gt; Windows</strong>&nbsp;and add this desired capability: <code>"ms:waitForAppLaunch": "25"</code></li>
 				</ul>
 				<ul>
-					<li>If your app does not have Splash screen, in the Application Title field, add the application title and start again.</li>
+					<li>If your app does not have splash screens, in the <strong>Application Title</strong> field, add the application title and start again.</li>
 					<li>To record your actions more easily, consider using&nbsp;<strong>Native Windows Recorder</strong>.</li>
 				</ul>
 			</td>
