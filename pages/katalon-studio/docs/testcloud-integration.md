@@ -179,3 +179,25 @@ See: [Test Suite and Test Suite Collection Reports](https://docs.katalon.com/kat
 >
 > * All the domains corresponding to this regex: `^testcloud\.katalon\.com$`.
 > * The domain of the site under test.
+
+## Troubleshoot  for closing TestCloud Tunnel
+> ### Problem:
+> The TC tunnel cannot be closed by clicking on X icon. If doing so, it’ll continue running in the background. Instead, users need to use Ctrl+C to close a running tunnel (for the time being until the bug is fixed). 
+>
+> ### How to fix:
+> If you have closed a TC tunnel by clicking on the **X** icon, you will not see the tunnel setup helper to input command lines into the Windows terminal.Thus, you will not be able to reconfigure the tunnel even if you want to. 
+> 
+> To fix this, perform the following steps:
+>* Open the currently used version of the tunnel **kt.exe**, with Windows terminal.
+>* Type **kt start** and hit **Enter** to run.
+>
+> Notes: 
+> 
+> As the last used tunnel's configuration is already enabled, you do not need to copy the command lines from the tunnel setup helper and can skip to the running step.
+>
+>* The tunnel will show a command that it is still running.
+>* Click **Ctrl+C** to close it properly.
+
+> Notes:
+>
+> This is a temporary fix that can be used for the time being until a proper resolution to this issue is implemented. There is no specific timeline as to when the resolution would be made available.
