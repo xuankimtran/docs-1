@@ -180,7 +180,7 @@ See: [Test Suite and Test Suite Collection Reports](https://docs.katalon.com/kat
 > * All the domains corresponding to this regex: `^testcloud\.katalon\.com$`.
 > * The domain of the site under test.
 
-## Troubleshoot  for closing TestCloud Tunnel
+## Troubleshoot for closing TestCloud Tunnel
 > ### Problem:
 > The TC tunnel cannot be closed by clicking on X icon. If doing so, it’ll continue running in the background. Instead, users need to use Ctrl+C to close a running tunnel (for the time being until the bug is fixed). 
 >
