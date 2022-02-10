@@ -172,23 +172,31 @@ After executing tests, execution data is consolidated in logs and reports. You c
 See: [Test Suite and Test Suite Collection Reports](https://docs.katalon.com/katalon-studio/docs/test-suite-report.html).
 
 > Known issues:
->
-> When executing tests via TestCloud integration and a proxy, the opening browser step might fail because of an error relevant to Transport Layer Security (TLS).
->
-> A workaround for this issue is to pass through the TLS with the below domains on your server:
->
-> * All the domains corresponding to this regex: `^testcloud\.katalon\.com$`.
-> * The domain of the site under test.
-
-## Troubleshoot for closing TestCloud Tunnel
-> ### Problem:
-> The TC tunnel cannot be closed by clicking on X icon. If doing so, it’ll continue running in the background. Instead, users need to use Ctrl+C to close a running tunnel (for the time being until the bug is fixed). 
->
-> ### How to fix:
-> If you have closed a TC tunnel by clicking on the **X** icon, you will not see the tunnel setup helper to input command lines into the Windows terminal.Thus, you will not be able to reconfigure the tunnel even if you want to. 
 > 
-> To fix this, perform the following steps:
->* Open the currently used version of the tunnel **kt.exe**, with Windows terminal.
+> Issue 1: Failure to open the browser due to Transport Layer Security (TLS) error
+>
+>When executing tests via TestCloud integration and a proxy, the opening browser step might fail because of an error relevant to Transport Layer Security (TLS).
+>
+> Workaround to open the browser: 
+> 
+>  Pass through the TLS with the below domains on your server:
+>
+>   *    All the domains corresponding to this regex: `^testcloud\.katalon\.com$`.
+>   *    The domain of the site under test.
+>
+> Notes: 
+> 
+> The following is a temporary fix until the issue is resolved.
+> 
+>Issue 2: Failure in closure of TestCloud tunnel
+>
+>When you click the X icon, the tunnel does not close as expected. It continues to run in the background. Thus, you must press **Ctrl+C** to close a tunnel that is run (for the time being until the bug is fixed). 
+>
+>If you have already clicked the "X" icon to  close a TestCloud tunnel, you will not see the tunnel setup helper to input command lines into the Windows terminal. Thus, you will not be able to reconfigure the tunnel even if you want to. 
+>
+> Workaround to close the TestCloud  Tunnel:
+> 
+>* Open the currently used version of the tunnel, **kt.exe**, with Windows terminal.
 >* Type **kt start** and hit **Enter** to run.
 >
 > Notes: 
@@ -196,8 +204,4 @@ See: [Test Suite and Test Suite Collection Reports](https://docs.katalon.com/kat
 > As the last used tunnel's configuration is already enabled, you do not need to copy the command lines from the tunnel setup helper and can skip to the running step.
 >
 >* The tunnel will show a command that it is still running.
->* Click **Ctrl+C** to close it properly.
-
-> Notes:
->
-> This is a temporary fix that can be used for the time being until a proper resolution to this issue is implemented. There is no specific timeline as to when the resolution would be made available.
+>* Press **Ctrl+C** to close it properly.
