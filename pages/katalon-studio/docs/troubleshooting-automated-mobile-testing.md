@@ -11,6 +11,16 @@ description:
 ---
 > * Please read **[Installation and Set-up](/display/KD/Before+You+Start)** guide first to set up your mobile. The information below is provided for those who can't get their mobile testing work properly after going through the set-up guide.
 
+<html>
+  <head>
+    <title></title>
+    <style>
+      table td,th {
+        word-break: break-word;
+      }
+    </style>
+  </head>
+<body>
 <table>
     <thead>
         <tr>
@@ -153,3 +163,5 @@ idevice_id -l</code></pre>
         </tr>                                 
     </tbody>
 </table>
+</body>
+</html>
