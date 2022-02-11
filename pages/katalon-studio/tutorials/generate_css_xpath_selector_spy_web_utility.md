@@ -111,7 +111,7 @@ The following guide shows how to leverage Katalon Studio Spy Web Utility to loca
 
 These XPath axes methods are used to find complex or dynamic elements.
 
-In the examples below, we are using our demo page: [http://demoaut.katalon.com/](http://demoaut.katalon.com/).
+In the examples below, we are using our demo page: `http://demoaut.katalon.com/`
 
 You can find our web sample project available to be downloaded here: [Katalon Web Automation Sample Project](https://github.com/katalon-studio/katalon-web-automation).
 
@@ -163,12 +163,12 @@ You can use the Contains() method to detect dynamic elements that contain static
 
 Example:
 
-Use the Contains() method to find the login button that contains the type: "submit".
+Use the Contains() method to find the login button that contains the id: "btn-login".
 
 XPath:
 
 ```groovy
-//button[contains(@type,'submit')]
+//button[contains(@id, 'btn-login')]
 ```
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/contain-example.png" alt="contain" width="100%">

@@ -107,7 +107,7 @@ XPath axes are used to search for the multiple nodes in the XML document from th
         <tr>
             <td>Contains()</td>
             <td>Use the Contains() method to detect dynamic elements that contain static values.</td>
-            <td><code>//button[contains(@type,'submit')]</code><</td>
+            <td><code>//button[contains(@id, 'btn-login')]</code><</td>
         </tr>
         <tr>
             <td>Last()</td>
