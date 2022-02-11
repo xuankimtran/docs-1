@@ -192,7 +192,10 @@ See: [Test Suite and Test Suite Collection Reports](https://docs.katalon.com/kat
 >
 >When you click the X icon, the tunnel does not close as expected. It continues to run in the background. Thus, you must press **Ctrl+C** to close a tunnel that is run (for the time being until the bug is fixed). 
 >
->If you have already clicked the "X" icon to  close a TestCloud tunnel, you will not see the tunnel setup helper to input command lines into the Windows terminal. Thus, you will not be able to reconfigure the tunnel even if you want to. 
+>If you have already clicked the "X" icon to  close a TestCloud tunnel, you will not see the tunnel setup helper to input command lines into the Windows terminal. Thus, you will not be able to reconfigure the tunnel even if you want to.
+>
+>   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/studio-integration/K.S.E-8.2.5%20-%20testcloud_tunnel_availablilty_status.png" width=50% alt="tunnel setup helper">
+>
 >
 > Workaround to close the TestCloud  Tunnel:
 > 
