@@ -19,6 +19,16 @@ redirect_from:
 >* Please use **Ctrl+F** to look for the exceptions and errors you have encountered quickly.
 >* If the exception you are looking for is not documented, please leave a comment below to request a proposed solution from the Katalon team.
 
+<html>
+  <head>
+    <title></title>
+    <style>
+      table td,th {
+        word-break: break-word;
+      }
+    </style>
+  </head>
+<body>
 <table>
 <thead>
 <tr>
@@ -167,6 +177,8 @@ WebUI.click(findTestObject('Page_CuraHomepage/btn_MakeAppointment'))</code></pre
 </tr>
 </tbody>
 </table>
+</body>
+</html>
 
 
 > The exception you are looking for is not on this page?
