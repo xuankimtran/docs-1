@@ -172,10 +172,39 @@ After executing tests, execution data is consolidated in logs and reports. You c
 See: [Test Suite and Test Suite Collection Reports](https://docs.katalon.com/katalon-studio/docs/test-suite-report.html).
 
 > Known issues:
+> 
+> Issue 1: Failure to open the browser due to Transport Layer Security (TLS) error
 >
-> When executing tests via TestCloud integration and a proxy, the opening browser step might fail because of an error relevant to Transport Layer Security (TLS).
+>When executing tests via TestCloud integration and a proxy, the opening browser step might fail because of an error relevant to Transport Layer Security (TLS).
 >
-> A workaround for this issue is to pass through the TLS with the below domains on your server:
+> Workaround to open the browser: 
+> 
+>  Pass through the TLS with the below domains on your server:
 >
-> * All the domains corresponding to this regex: `^testcloud\.katalon\.com$`.
-> * The domain of the site under test.
+>   *    All the domains corresponding to this regex: `^testcloud\.katalon\.com$`.
+>   *    The domain of the site under test.
+>
+> Notes: 
+> 
+> The following is a temporary fix until the issue is resolved.
+> 
+>Issue 2: Failure in closure of TestCloud tunnel
+>
+>When you click the X icon, the tunnel does not close as expected. It continues to run in the background. Thus, you must press **Ctrl+C** to close a tunnel that is run (for the time being until the bug is fixed). 
+>
+>If you have already clicked the "X" icon to  close a TestCloud tunnel, you will not see the tunnel setup helper to input command lines into the Windows terminal. Thus, you will not be able to reconfigure the tunnel even if you want to.
+>
+>   <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/studio-integration/K.S.E-8.2.5%20-%20testcloud_tunnel_availablilty_status.png" width=50% alt="tunnel setup helper">
+>
+>
+> Workaround to close the TestCloud  Tunnel:
+> 
+>* Open the currently used version of the tunnel, **kt.exe**, with Windows terminal.
+>* Type **kt start** and hit **Enter** to run.
+>
+> Notes: 
+> 
+> As the last used tunnel's configuration is already enabled, you do not need to copy the command lines from the tunnel setup helper and can skip to the running step.
+>
+>* The tunnel will show a command that it is still running.
+>* Press **Ctrl+C** to close it properly.
