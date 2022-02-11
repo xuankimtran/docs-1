@@ -31,10 +31,10 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                bat '''
+                bat """
                 cd  <KRE installed folder>
                 katalonc  -projectPath="<projectpath>" -browserType="<browser>" -retry=<number of retry times> -statusDelay=<seconds> -testSuitePath="<path>" -apiKey="<user API key>" -orgID=<Katalon_OrgID>
-                '''
+                """
                 
             }
             
@@ -45,6 +45,11 @@ pipeline {
 }
 
 ```
+<a class="pop">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/KS-JENKINS-Windows-pipline-script.png" width=100% alt="Windows Pipeline script">
+</a>
+<p style="text-align: center;"><em>Click the image to enlarge it.</em></p>
+
 For example:
 
 ```groovy
@@ -54,10 +59,10 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                bat '''
+                bat """
                 cd  C:\Users\NAH\Desktop\Katalon_Studio_Engine_Windows_64-8.1.0
                 katalonc  -projectPath="C:\Users\NAH\Desktop\ci-samples-master\test.prj" -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/TS_RegressionTest" -apiKey="<user API key>" -orgID=<Katalon_OrgID>
-                '''
+                """
                 
             }
             
@@ -91,6 +96,12 @@ pipeline {
     
 }
 ```
+
+<a class="pop">
+<img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/KS-JENKINS-Mac-pipeline-script.png" width=100% alt="Mac Pipeline script">
+</a>
+<p style="text-align: center;"><em>Click the image to enlarge it.</em></p>
+
 For example: 
 
 ```groovy
