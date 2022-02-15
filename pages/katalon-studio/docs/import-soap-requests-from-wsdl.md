@@ -22,7 +22,7 @@ To import a WSDL file to your project, please do as follows:
 2. Select **Import > From WSDL**
    <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-soap-requests-from-wsdl/import-wsdl-rightclick.png" width=512 >
 
-3. In the **URL** field of the **Import WSDL** dialog, specify either a remote WSDL URL or a path of a local WSDL file (e.g., [http://www.dneonline.com/calculator.asmx?WSDL](http://www.dneonline.com/calculator.asmx?WSDL)).
+3. In the **URL** field of the **Import WSDL** dialog, specify either a remote WSDL URL or a path of a local WSDL file (e.g., `http://www.dneonline.com/calculator.asmx?WSDL`).
 4. Click **OK**. Katalon Studio loads the file and generates SOAP request objects.
 
 If you have created an **API/Web Service** project, click on the **Import WSDL** icon on the main toolbar to display the **Import WSDL** dialog in step 3.
@@ -31,7 +31,7 @@ If you have created an **API/Web Service** project, click on the **Import WSDL**
 
 ## Working with the imported WSDLs
 
-A WSDL may contain multiple services. For each service, Katalon Studio creates a SOAP request with a specific Service Function and parses its content from the specified WSDL into their corresponding fields in the request object such as Service Endpoint, SOAPAction and Request message. For example, Katalon Studio creates multiple request objects with [http://www.dneonline.com/calculator.asmx?WSDL]([http://www.dneonline.com/calculator.asmx?WSDL]).
+A WSDL may contain multiple services. For each service, Katalon Studio creates a SOAP request with a specific Service Function and parses its content from the specified WSDL into their corresponding fields in the request object such as Service Endpoint, SOAPAction and Request message. For example, Katalon Studio creates multiple request objects with `http://www.dneonline.com/calculator.asmx?WSDL`.
 
 <img src="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-soap-requests-from-wsdl/parsed-objects.png">
 
