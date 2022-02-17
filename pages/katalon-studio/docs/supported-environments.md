@@ -21,7 +21,7 @@ description:
 
 > Notes:
 > * We recommend using the latest version of Katalon Studio. Download the latest version from the Katalon website: [Katalon products](https://www.katalon.com/download/).
-> * From Katalon Studio version 7.9.0 onwards, we do not support 32-bit Windows systems.
+> * From Katalon Studio version 7.9.0 onwards, we do not support 32-bit processors.
 
 ## System requirements
 
