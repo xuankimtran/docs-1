@@ -119,7 +119,6 @@ To enable the query provider for the dynamic test suite, install one of the foll
 
 * [Basic search for dynamic test suite](https://store.katalon.com/product/2/Basic-Search-For-Dynamic-Test-Suite)
 * [Test case management with tags](https://store.katalon.com/product/6/Test-Case-Management-with-Tags)
-* [TestRail integration](https://store.katalon.com/product/13/TestRail-Integration)
 
 To activate the installed plugin, navigate to Account Settings in Katalon Studio and click **Reload Plugin**.
 
@@ -208,3 +207,4 @@ Alternatively, you can also view your reports and details in `<your-project-fold
 **See also**
 
 * [View and Customize Execution Log](https://docs.katalon.com/katalon-studio/docs/working-with-execution-log.html#view-execution-log)
+* [Query Test Cases linked to TestRail in Dynamic Test Suite](https://docs.katalon.com/katalon-studio/docs/testrail-integration.html#query-test-cases-linked-to-testrail-in-dynamic-test-suite)

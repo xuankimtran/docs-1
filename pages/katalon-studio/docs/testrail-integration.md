@@ -12,7 +12,7 @@ description:
 
 * Map test cases between Katalon Studio and TestRail.
 * In TestRail, you can view Test Results of Test Suites executed in Katalon Studio.
-* In Katalon Studio, you can query Test Runs of TestRail in Dynamic Test Suite. See: [Dynamic Test Suite](https://docs.katalon.com/katalon-studio/docs/dynamic-test-suite-ks.html).
+* In Katalon Studio, you can query Test Runs of TestRail in Dynamic Test Suite. See: [Dynamic Test Suite](https://docs.katalon.com/katalon-studio/docs/dynamic-test-suite-ks.html#create-a-dynamic-test-suite).
 
 > **Notes**:
 >
