@@ -76,6 +76,10 @@ description: Release note 7.x
 * Support Chrome 87.
 * Support Microsoft Edge (Chromium) 87.
 
+### Deprecated
+
+* Deprecated Katalon Studio version for Windows 32-bit.
+
 ### Fixes
 
 * Bug: [Incorrect Test Results] Katalon returned PASSED when test scripts contained invalid syntax.

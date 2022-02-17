@@ -150,7 +150,6 @@ A dynamic test suite is a test suite with multiple test cases added via a search
 1. To implement this function, install one of the plugins from the Katalon Store:
     * [Basic Search For Dynamic Test Suite](https://store.katalon.com/product/2/Basic-Search-For-Dynamic-Test-Suite)
     * [Test case management with tags](https://store.katalon.com/product/6/Test-Case-Management-with-Tags)
-    * [TestRail integration](https://store.katalon.com/product/13/TestRail-Integration)
 
   - To activate the installed plugin, navigate to Account Settings in Katalon Studio and click **Reload Plugin**.
   
