@@ -23,7 +23,7 @@ Create an Excel Test Data
 3.  Data from the selected Excel file is populated into the **preview section** below.  
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/manage-test-data/image2017-1-24-163A173A6.png)
 
-4.  Save the Test Data when you finish. The data set defined here can be utilized in other configurations. For example, you can use it to input data for keywords in [Manual View](/display/KD/Manual+View) or [data for Test Execution](/x/7AAM) when setting up test suites.
+4.  Save the Test Data when you finish. The data set defined here can be utilized in other configurations. For example, you can use it to input data for keywords in [Manual View](/display/KD/Manual+View) or [data for Test Execution](https://docs.katalon.com/katalon-studio/docs/run-test-case-external-data.html#manage-data-binding) when setting up test suites.
 
 Create a CSV Test Data
 ----------------------
