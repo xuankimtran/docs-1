@@ -23,7 +23,7 @@ Create an Excel Test Data
 3.  Data from the selected Excel file is populated into the **preview section** below.  
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/manage-test-data/image2017-1-24-163A173A6.png)
 
-4.  Save the Test Data when you finish. The data set defined here can be utilized in other configurations. For example, you can use it to input data for keywords in [Manual View](/display/KD/Manual+View) or [data for Test Execution](/x/7AAM) when setting up test suites.
+4.  Save the Test Data when you finish. The data set defined here can be utilized in other configurations. For example, you can use it to input data for keywords in [Manual View](/display/KD/Manual+View) or [data for Test Execution](https://docs.katalon.com/katalon-studio/docs/run-test-case-external-data.html#manage-data-binding) when setting up test suites.
 
 Create a CSV Test Data
 ----------------------
@@ -37,7 +37,7 @@ Create a CSV Test Data
 3.  Data from the selected CSV file is populated to the **preview section** below.  
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/manage-test-data/image2017-1-24-163A293A15.png)
 
-4. Save the Test Data when you finish. The data set defined here can be utilized in other configurations. For example, you can use it to input data for keywords in [Manual View](/display/KD/Manual+View) or [data for Test Execution](/x/7AAM) when setting up test suites.
+4. Save the Test Data when you finish. The data set defined here can be utilized in other configurations. For example, you can use it to input data for keywords in [Manual View](/display/KD/Manual+View) or [data for Test Execution](https://docs.katalon.com/katalon-studio/docs/run-test-case-external-data.html#manage-data-binding) when setting up test suites.
 
 Create an Internal Test Data
 ----------------------------
@@ -60,7 +60,7 @@ With **Internal Data**, you can freely define the data in tabular format. It's 
 5.  You can edit or delete the columns (or rows) by right-clicking to access the context menu.  
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/manage-test-data/image2017-2-6-103A443A41.png)
 
-6. Save the Test Data when you finish. The data set defined here can be utilized in other configurations. For example, you can use it to input data for keywords in [Manual View](/display/KD/Manual+View) or [data for Test Execution](/x/7AAM) when setting up test suites.
+6. Save the Test Data when you finish. The data set defined here can be utilized in other configurations. For example, you can use it to input data for keywords in [Manual View](/display/KD/Manual+View) or [data for Test Execution](https://docs.katalon.com/katalon-studio/docs/run-test-case-external-data.html#manage-data-binding) when setting up test suites.
 
 Create a Database Data
 ----------------------
@@ -84,4 +84,4 @@ With **Internal Data**, you can freely define the data in tabular format. It's 
 4.  Queried data is fetched and loaded respectively into the **preview section** below.  
     ![](https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/manage-test-data/image2017-2-6-113A193A41.png)
 
-5. Save the Test Data when you finish. The data set defined here can be utilized in other configurations. For example, you can use it to input data for keywords in [Manual View](/display/KD/Manual+View) or [data for Test Execution](/x/7AAM) when setting up test suites.
+5. Save the Test Data when you finish. The data set defined here can be utilized in other configurations. For example, you can use it to input data for keywords in [Manual View](/display/KD/Manual+View) or [data for Test Execution](https://docs.katalon.com/katalon-studio/docs/run-test-case-external-data.html#manage-data-binding) when setting up test suites.
