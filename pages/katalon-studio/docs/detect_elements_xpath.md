@@ -1,5 +1,5 @@
 ---
-title: "Detecting objects with XPath"
+title: "Detecting dynamic objects with XPath"
 sidebar: katalon_studio_docs_sidebar
 permalink: katalon-studio/docs/detect_elements_xpath.html
 redirect_from:

@@ -297,7 +297,7 @@ items:
                     url: /katalon-studio/docs/web-selection-methods.html
                   - title: "Web Locators Settings (version 5.7.1-7.6.0)"
                     url: /katalon-studio/docs/web-locators-settings-since-v571.html
-                  - title: "Detecting Objects with XPath"
+                  - title: "Detecting Dynamic Objects with XPath"
                     url: /katalon-studio/docs/detect_elements_xpath.html
                   - title: "Generating reliable object selector using Spy Web utility"
                     url: /katalon-studio/docs/generate_css_xpath_selector_spy_web_utility.html
